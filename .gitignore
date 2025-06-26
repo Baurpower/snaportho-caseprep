@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Virtual environments
+.venv/
+env/
+venv/
+
+# Logs and local dev
+*.log
+*.sqlite3
+*.db
+
+# Secret files
+.env
+.env.*
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# VSCode
+.vscode/
+
+# Jupyter notebooks checkpoints (if using notebooks)
+.ipynb_checkpoints/
+
+# mypy / pytest / coverage
+.mypy_cache/
+.pytest_cache/
+coverage.xml
+htmlcov/
+.cache/
