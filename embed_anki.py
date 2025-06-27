@@ -1,71 +1,89 @@
-import os, json, textwrap
+import os, re
+import pandas as pd
 from dotenv import load_dotenv
-import pinecone
-from openai import OpenAI
+from tqdm import tqdm
+from openai import OpenAI          # 1.x SDK
+from pinecone import Pinecone
 
-# ── ENV & CLIENTS ────────────────────────────────────────────
+# ── STEP 0: ENV & CLIENTS ────────────────────────────────────
 load_dotenv()
 OPENAI_API_KEY      = os.getenv("OPENAI_API_KEY")
-OPENAI_PROJECT_ID   = os.getenv("OPENAI_PROJECT_ID")
+OPENAI_PROJECT_ID   = os.getenv("OPENAI_PROJECT_ID")  # optional
 PINECONE_API_KEY    = os.getenv("PINECONE_API_KEY")
-PINECONE_ENV        = os.getenv("PINECONE_ENVIRONMENT")  # Add this to your .env if not already
 PINECONE_INDEX_NAME = os.getenv("PINECONE_INDEX")
 
-print("🔑 OpenAI Key Loaded:", OPENAI_API_KEY[:10] + "…")
+if not all([OPENAI_API_KEY, PINECONE_API_KEY, PINECONE_INDEX_NAME]):
+    raise ValueError("Missing OPENAI_API_KEY, PINECONE_API_KEY, or PINECONE_INDEX")
+
 client = OpenAI(api_key=OPENAI_API_KEY, project=OPENAI_PROJECT_ID)
+pc     = Pinecone(api_key=PINECONE_API_KEY)
+index  = pc.Index(PINECONE_INDEX_NAME)
 
-# Initialize Pinecone
-pinecone.init(api_key=PINECONE_API_KEY, environment=PINECONE_ENV)
-index = pinecone.Index(PINECONE_INDEX_NAME)
+# ── Config ──────────────────────────────────────────────────
+TXT_FILES   = ["embed_anki_ok_millers.txt"]
+EMBED_MODEL = "text-embedding-3-small"   # 1536-dim
 
-EMBED_MODEL = "text-embedding-3-small"
-GPT_MODEL   = "gpt-4o-mini"
-TOP_K       = 15
-MIN_SCORE   = 0.3
+# ── Helpers ─────────────────────────────────────────────────
+def safe_str(x): return "" if pd.isna(x) else str(x)
+def strip_html(text: str) -> str:
+    text = re.sub(r"<[^>]+>", " ", text)                  # remove HTML
+    text = re.sub(r"\{\{c\d+::(.*?)\}\}", r"\1", text)    # unwrap cloze
+    return re.sub(r"\s+", " ", text).strip()
 
-# ── EMBED ────────────────────────────────────────────────────
-def _embed(txt: str):
-    return client.embeddings.create(model=EMBED_MODEL, input=txt).data[0].embedding
+# ----------------------------------------------------------------
+# STEP 1: Load each file, build records
+# ----------------------------------------------------------------
+records = []
+colnames = [f"c{i}" for i in range(19)]  # c0…c18
 
-# ── GPT GROUPING ─────────────────────────────────────────────
-def _group_with_gpt(query: str, snippets: list[str]) -> str:
-    cards_json = json.dumps(snippets, indent=2)
-    system = (
-        "You are an orthopedic surgery tutor. "
-        "For the given surgical case, bucket each flashcard snippet into exactly one "
-        "of three headings:\n"
-        "1. Key Anatomy to Review\n"
-        "2. Common Pimp Questions\n"
-        "3. Other Useful Facts\n\n"
-        "Return clean Markdown bullets under each heading."
-    )
-    user = f"Case: {query}\nFlashcards (JSON list):\n{cards_json}"
-    chat = client.chat.completions.create(
-        model=GPT_MODEL,
-        temperature=0.4,
-        messages=[
-            {"role": "system", "content": system},
-            {"role": "user", "content": user}
-        ]
-    )
-    return chat.choices[0].message.content.strip()
+for file in TXT_FILES:
+    try:
+        df = pd.read_csv(
+            file,
+            sep="\t",
+            header=None,
+            comment="#",
+            names=colnames,
+            dtype=str,
+            keep_default_na=False,
+            engine="python"
+        )
+    except Exception as e:
+        print(f"❌ Failed to load {file}: {e}")
+        continue
 
-# ── PUBLIC FUNCTION --------------------------------------------------------
-def case_prep_lookup(user_query: str) -> str:
-    vec = _embed(user_query)
-    matches = index.query(vector=vec, top_k=TOP_K, include_metadata=True).matches
-    snippets = [
-        m.metadata.get("text", "").replace("\n", " ").strip()
-        for m in matches if m.score >= MIN_SCORE
-    ]
-    if not snippets:
-        return "**No matches found – try rephrasing.**"
-    return _group_with_gpt(user_query, snippets)
+    print(f"✅ Loaded {len(df):,} rows from {file}")
+    prefix = os.path.splitext(os.path.basename(file))[0]
 
-# ── CLI TEST LOOP ----------------------------------------------------------
-if __name__ == "__main__":
-    while True:
-        prompt = input("\n🩺  Enter case (or 'quit'): ").strip()
-        if prompt.lower() in {"quit", "exit"}:
-            break
-        print("\n" + textwrap.dedent(case_prep_lookup(prompt)))
+    for i, row in df.iterrows():
+        front = strip_html(safe_str(row["c0"]))  # first column
+        back  = strip_html(safe_str(row["c1"]))  # second column
+        tags  = [t for t in strip_html(safe_str(row["c18"])).split() if t]
+
+        # skip only if BOTH sides empty
+        if not front and not back:
+            continue
+
+        text = f"Q: {front}\nA: {back}" if front else f"A: {back}"
+        card_id = f"{prefix}-{i}"
+
+        records.append((card_id, text, {
+            "deck":  prefix,
+            "tags":  tags,
+            "text":  text,
+            "source":"anki"
+        }))
+
+print(f"🔧 Prepared {len(records):,} total cards")
+
+# ----------------------------------------------------------------
+# STEP 2: Embed and upsert
+# ----------------------------------------------------------------
+for card_id, text, meta in tqdm(records, desc="🔼 Uploading to Pinecone"):
+    try:
+        emb = client.embeddings.create(model=EMBED_MODEL, input=text).data[0].embedding
+        index.upsert([(card_id, emb, meta)])
+    except Exception as e:
+        print(f"⚠️  Error on {card_id}: {e}")
+
+print("✅ All done – vectors are now stored in Pinecone!")
