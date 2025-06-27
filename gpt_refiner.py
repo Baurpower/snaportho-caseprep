@@ -12,7 +12,8 @@ OPENAI_PROJECT_ID = os.getenv("OPENAI_PROJECT_ID")
 client = OpenAI(api_key=OPENAI_API_KEY, project=OPENAI_PROJECT_ID)
 
 # ── GPT REFINER ───────────────────────────────────────────────
-def refine_case_snippets(user_query: str, snippets: list[str]) -> str:
+# gpt_refiner.py
+def refine_case_snippets(user_query: str, snippets: list[str]) -> dict:
     system_prompt = (
         "You are a senior orthopaedic surgeon preparing a medical student the night before a case.\n"
         "You are given a case type and a list of flashcard-style notes from various sources.\n"
@@ -40,10 +41,10 @@ def refine_case_snippets(user_query: str, snippets: list[str]) -> str:
                 {"role": "user", "content": user_payload}
             ]
         )
-        return json.dumps(json.loads(response.choices[0].message.content.strip()), indent=2)
+        return json.loads(response.choices[0].message.content.strip())
 
     except Exception as e:
-        return json.dumps({
+        return {
             "pimpQuestions": [],
             "otherUsefulFacts": [f"❌ GPT formatting error: {str(e)}"]
-        }, indent=2)
+        }
