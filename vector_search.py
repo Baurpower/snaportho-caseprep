@@ -6,6 +6,7 @@ from pinecone import Pinecone
 from openai import OpenAI
 from typing import List
 
+
 # ── ENV & CLIENTS ─────────────────────────────────────────────
 load_dotenv()
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")

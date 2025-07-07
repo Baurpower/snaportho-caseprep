@@ -2,39 +2,39 @@ import os, re
 import pandas as pd
 from dotenv import load_dotenv
 from tqdm import tqdm
-from openai import OpenAI          # 1.x SDK
+from openai import OpenAI
 from pinecone import Pinecone
 
 # ── STEP 0: ENV & CLIENTS ────────────────────────────────────
 load_dotenv()
 OPENAI_API_KEY      = os.getenv("OPENAI_API_KEY")
-OPENAI_PROJECT_ID   = os.getenv("OPENAI_PROJECT_ID")  # optional
+OPENAI_PROJECT_ID   = os.getenv("OPENAI_PROJECT_ID")
 PINECONE_API_KEY    = os.getenv("PINECONE_API_KEY")
 PINECONE_INDEX_NAME = os.getenv("PINECONE_INDEX")
 
 if not all([OPENAI_API_KEY, PINECONE_API_KEY, PINECONE_INDEX_NAME]):
-    raise ValueError("Missing OPENAI_API_KEY, PINECONE_API_KEY, or PINECONE_INDEX")
+    raise ValueError("Missing one or more required environment variables.")
 
 client = OpenAI(api_key=OPENAI_API_KEY, project=OPENAI_PROJECT_ID)
 pc     = Pinecone(api_key=PINECONE_API_KEY)
 index  = pc.Index(PINECONE_INDEX_NAME)
 
 # ── Config ──────────────────────────────────────────────────
-TXT_FILES   = ["embed_anki_ok_millers.txt"]
-EMBED_MODEL = "text-embedding-3-small"   # 1536-dim
+TXT_FILES   = ["embed_anki_austinanking.txt"]
+EMBED_MODEL = "text-embedding-3-small"  # 1536-dim
 
 # ── Helpers ─────────────────────────────────────────────────
 def safe_str(x): return "" if pd.isna(x) else str(x)
 def strip_html(text: str) -> str:
-    text = re.sub(r"<[^>]+>", " ", text)                  # remove HTML
-    text = re.sub(r"\{\{c\d+::(.*?)\}\}", r"\1", text)    # unwrap cloze
+    text = re.sub(r"<[^>]+>", " ", text)  # remove HTML
+    text = re.sub(r"\{\{c\d+::(.*?)\}\}", r"\1", text)  # unwrap cloze
     return re.sub(r"\s+", " ", text).strip()
 
 # ----------------------------------------------------------------
 # STEP 1: Load each file, build records
 # ----------------------------------------------------------------
 records = []
-colnames = [f"c{i}" for i in range(19)]  # c0…c18
+colnames = [f"c{i}" for i in range(19)]  # c0 to c18
 
 for file in TXT_FILES:
     try:
@@ -56,23 +56,24 @@ for file in TXT_FILES:
     prefix = os.path.splitext(os.path.basename(file))[0]
 
     for i, row in df.iterrows():
-        front = strip_html(safe_str(row["c0"]))  # first column
-        back  = strip_html(safe_str(row["c1"]))  # second column
-        tags  = [t for t in strip_html(safe_str(row["c18"])).split() if t]
+        front = strip_html(safe_str(row["c0"]))
+        back  = strip_html(safe_str(row["c1"]))
+        tags  = [t.strip() for t in safe_str(row["c11"]).split("::") if t.strip()]
 
-        # skip only if BOTH sides empty
         if not front and not back:
             continue
 
         text = f"Q: {front}\nA: {back}" if front else f"A: {back}"
         card_id = f"{prefix}-{i}"
 
-        records.append((card_id, text, {
-            "deck":  prefix,
-            "tags":  tags,
-            "text":  text,
-            "source":"anki"
-        }))
+        metadata = {
+            "deck": prefix,
+            "tags": ", ".join(tags),  # ✅ convert to comma-separated string
+            "text": text,
+            "source": "anki"
+        }
+
+        records.append((card_id, text, metadata))
 
 print(f"🔧 Prepared {len(records):,} total cards")
 

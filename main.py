@@ -1,25 +1,32 @@
-from fastapi import FastAPI, Request
+from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
+
 from vector_search import get_case_snippets
 from gpt_refiner import refine_case_snippets
+from query_refiner import refine_query
 
 app = FastAPI()
 
-# ── CORS (adjust for production) ─────────────
+# ── CORS (adjust in production) ───────────────────────
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],  # Change this in prod!
+    allow_origins=["*"],  # Replace with frontend URL in production
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
 )
 
-# ── Request Schema ───────────────────────────
+# ── Request Schema ─────────────────────────────────────
 class CasePrepRequest(BaseModel):
     prompt: str
 
-# ── Endpoint ─────────────────────────────────
+# ── Root Sanity Check ──────────────────────────────────
+@app.get("/")
+def read_root():
+    return {"message": "SnapOrtho CasePrep API is live."}
+
+# ── Case Prep Endpoint ────────────────────────────────
 @app.post("/case-prep")
 async def case_prep(request: CasePrepRequest):
     prompt = request.prompt.strip()
@@ -29,11 +36,17 @@ async def case_prep(request: CasePrepRequest):
             "otherUsefulFacts": ["❌ No prompt provided"]
         }
 
-    snippets = get_case_snippets(prompt)
+    # Refine prompt using GPT
+    refined_prompt = refine_query(prompt)
+    print(f"🧠 Refined Prompt: {refined_prompt}")
+
+    # Search Pinecone using the refined prompt
+    snippets = get_case_snippets(refined_prompt)
     if not snippets:
         return {
             "pimpQuestions": [],
             "otherUsefulFacts": ["❌ No relevant content found."]
         }
 
+    # Refine the results with GPT using the original prompt
     return refine_case_snippets(prompt, snippets)
