@@ -20,7 +20,7 @@ index = pc.Index(PINECONE_INDEX_NAME)
 
 EMBED_MODEL = "text-embedding-3-small"
 TOP_K = 40
-MIN_SCORE = 0.25
+MIN_SCORE = 0.4
 
 # ── EMBED ─────────────────────────────────────────────────────
 def embed_text(txt: str):
