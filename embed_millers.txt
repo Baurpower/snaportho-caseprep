@@ -1,0 +1,1192 @@
+What are osteoblasts derived from?	Undifferentiated mesenchymal stem cells	
+Transcription factor that directs osteoblast differentiation	RUNX2	
+What do osteoblasts produce (5)	type 1 collagen, alkaline phosphatase, osteocalcin, bone sialoprotein, RANKL	
+What do osteocytes derive from	osteoblasts	
+What cell constitutes 90% of the mature skeleton?	osteocytes	
+What do osteocytes control?	extracellular matrix calcium and phosphorus concentration	
+What are osteoclasts derived from?	hematopoietic cells in the macrophage lineage	
+How is bone resorption increased?	Osteoblasts produce RANKL, which binds to immature osteoclasts and stimulates their differentiation to active, mature osteoclasts	
+How is bone resorption inhibited?	Osteoprotegrin binds and inactivates RANKL	
+Osteoclasts bind to bone surfaces via what receptor?	Vitronectin receptor (an integrin)	
+Osteoclasts remove bone matrix via what mechanism and enzyme?	Proteolytic digestion, cathepsin K (lysosomal enzyme)	
+What is bisphosphonates mechanism of action?	Inhibition of farnesyl pyrophosphate synthase in the mevalonate pathway	
+Bisphosphonate side effects (2)?	Osteonecrosis of the jaw, reduced rate of spinal fusion	
+What constitutes the majority of inorganic bone matrix?	Calcium hydroxyapatite	
+What constitutes the majority of organic bone matrix?	Type 1 collagen	
+What is the most abundant non-collagenous protein in bone?	Osteocalcin	
+Define Wolff's law.	Remodeling occurs in response to mechanical stress.	
+Define Hueter-Volkmann law.	Compressive forces inhibit growth, whereas tenssion stimulates it.	
+Define enchondral bone formation.	Bone replaces a cartilage model	
+Define intramembranous bone formation.	Bone formation without a cartilage model: undifferentiated MSCs differentiate into osteoblasts, which form bone	
+Define appositional bone formation.	Osteoblasts lay down new bone on existing bone; the groove of Ranvier supplies chondrocytes	
+What are the 3 stages of fracture repair?	Inflammation, repair, and remodeling	
+What type of bone healing occurs with closed treatment of fractures?	Periosteal bridging callus and interfragmentary enchondral ossification.	
+What type of bone healing occurs with compression plating?	Primary cortical healing.	
+BMP-2 is used for?	Acute open tibia fractures	
+BMP-7 is used for?	Tibial nonunions	
+BMP with no osteogenic activity?	BMP-3	
+Increased BMP-4 is associated with which pathologic condition?	Fibrodysplasia ossificans progressiva	
+NSAIDs may adversely inhibit fracture healing via what mechanism?	COX-2 inhibition which is required for enchondral ossification	
+What 3 properties do bone grafts have?	Osteoconduction, osteoinduction, and osteogenesis	
+Define osteoconduction.	Scaffolding for bone growth.	
+Define osteoinduction.	Growth factors which stimulate bone formation.	
+Define osteogenesis.	laying down of new bone (MSCs-->osteoblasts-->osteocytes)	
+What 2 capabilities do calcium phosphate-based grafts have?	Osteoconduction and osseointegration	
+Which graft material has the highest compressive strength?	calcium phosphate	
+Calcium sulfate grafts have what capability?	Osteoconduction	
+What are the primary homeostatic regulators of serum calcium?	PTH, and 1,25(OH)2-vitamin D3	
+What does increased PTH result in?	increased serum Ca2+ and decreased inorganic phosphate	
+At what age range does bone mass peak?	16-25	
+Physiologic bone loss affects what type of bone most?	trabecular more than cortical	
+What urinary chemical cross-links are elevated when there is bone resorption (2)?	hydroxyproline and pyridinoline	
+What serum enzyme increases when bone formation increases?	alkaline phosphatase	
+What is the most common cause of hypercalcemia?	malignancy	
+What is the initial treatment of hypercalcemia?	saline diuresis along with loop diuretics	
+What are the 2 most common causes of renal osteodystrophy?	Phosphrous retention and secondary hyperparathyroidism	
+Rickets and osteomalacia are caused by?	failure of mineralization.	
+What occurs at the growth plate in rickets?	The width of the zone of provisional calcifcation is increased which causes physeal widening and cupping.	
+What defines osteoporosis?	Lumbar bone density of 2.5 standard deviations less than the peak bone mass of a healthy 25 year old (T-score)	
+What can you prescribe to treat osteoporosis?	Calcium supplements of 100 to 1500 mg/day and bisphosphonates	
+What causes scurvy?	ascorbic acid deficiency	
+What biochemical process occurs in scurvy?	Ascorbic acid deficiency causes decrease in chondoitin sulfate synthesis which leads to defective collagen growth and repair.	
+What occurs at the growth plate in scurvy?	Widening of the zone of provisional calcification.	
+Osteogenesis imperfecta is caused by a mutation in genes involved in what?	Metabolism and synthesis of type 1 collagen.	
+What are the components of articular cartilage (4)?	Water, type II collagen, proteoglycans, chondrocytes	
+Type II collagen contains what major chemical?	Hydroxyproline	
+Type II collagen provides what mechanical property?	Tensile strength.	
+Proteoglycans are composed of what? And what are the major 2?	Glycosaminoglycans; chondroitin sulfate, keratine sulfate	
+Proteoglycans provide what mechanical properties (2)?	Compressive and elastic strength	
+"What transcription factor is the ""master switch"" for differentiation of MSCs to chondrocytes?"	SOX-9 transcriptional factor	
+Define mechanotransduction.	how metabolism is regulated by mechanical stimulation.	
+What enzyme destroys cartilage matrix and what is it produced by?	Metalloproteinases; chondrocytes	
+How does aging negatively impact cartilage?	Lack of anabolic response	
+What causes osteoarthritis from a cellular standpoint?	Chondrocytes react to cytokines and produce enzymes which degrade matrix.	
+What is increased increased in osteoarthritis (2)?	water content, proteglycan degradation	
+What components of cartilage are decreased in osteoarthritis (2)?	proteoglycan content, keratin sulfate concentration	
+What do Type A synovial cells act like?	Macrophages	
+What do type B synovial cells do?	Make the synovial ultrafiltrate fluid, known as boundary lubicant. (contains lubricin)	
+What causes Charcot arthropathy?	disturbed sensory innervation (an extreme form of non-inflammatory arthritis characterized by radiographic findings worse than clinical complaints and fragments of bone in soft tissue)	
+What is the most common cause of Charcot disease in the foot and ankle joints?	Diabetes	
+What is the most common cause of Charcot disease in the upper extremity?	Syringomyelia, followed by Hansen disease.	
+What is ochronosis and what causes it?	Black cartilage arthritis caused by alkaptonuria.	
+What is often the first presentation of hemochromatosis?	Chondrocalcinosis (cirrhosis and skin bronzing occur later)	
+What does rheumatoid arthritis affect first?	Synovium and soft tissue	
+What are the late microscopic synovial changes seen in rheumatoid arthritis (3)?	hyperplastic cells, increased blood vessels, abundant lymphocytes	
+How is cartilage damaged in rheumatoid arthritis?	Pannus ingrowth denudes articular cartilage	
+What do most DMARDs target?	TNF-alpha	
+What is systemic lupus erythematosus?	an autoimmune disease again nucleic acids and nuclear proteins (ANA positive) characterized by immune complex deposition	
+Seronegative spondylarthritides are distinguished by what titers?	Negative RF titer and negative ANA	
+What is most commonly seen in ankylosing spondylitis?	fused sacroiliac joints, frequent back involvement leading to stiffness (positive Schober flexion test)	
+What is reactive arthritis?	A syndrome where the immune system is reactive to external infections, often of the mucosa, and often has swelling of a knee, along with eye and urolgic symptoms.	
+What hand joint does psoriatic arthritis commonly affect?	the DIPJs	
+What is enteropathic arthritis associated with?	Inflammatory bowel disease	
+What causes gout?	Deposition of monosodium urate crystals in joints	
+What is the classical radiographic finding in gout?	Punched out periarticular erosions	
+What is used in the initial treatment of gout?	Indomethacin	
+What does allopurinol do?	Lowers serum acid levels chronically	
+What is colchicine used for?	Gout prophylaxis	
+What do gout crystals look like? Birefringence?	Spindles, negativel biregfringent	
+What do pseudogout crystals look like? Birefringence?	Rhomboids, positively birefringent	
+What is pseudogout caused by?	Calcium pyrophosphate depposition (CPPD)	
+What causes hemophilic arthropathy? What joint does it most commonly involve?	Factor VIII deficiency, the knee	
+How is hemophilic arthropathy treated?	Correction of factor levels	
+What causes acute rheumatic fever? What syndromes are seen?	Group A strep; arthritides, carditis, erythema marginatum, chorea	
+What Causes Whipple disease? What syndromes are seen?	Tropheryma whipplei; arthritides, diarrhea	
+What causes Lyme disease? What syndromes are seen?	Borrelia burgdorferi; erythema migrans, bell palsy, meningitis	
+What is myasthenia gravis?	Autoimmune disease that destroyes acetylcholine receptors at the neuromuscular junction; leads to defect in transmission of nerve impulses to muscles	
+What does botulinum A do?	BLocks presynaptic acetylcholine release at the motor end plate	
+What determines muscle tension and contractile force?	Cross-sectional area	
+What determines skeletal muscle velocity?	Fiber length	
+What are the 3 types of muscle contraction? Define them	Isotonic: constant muscle tension throughout ROM (biceps curl with free weights)  Isometric: muscle length remains unchanged (pushing against a wall)  Isokinetic: Muscle contracts at a constant velocity over a full ROM (Cybex machine)	
+Describe Type I skeletal muscle properties	Red, slow twitch, fatigue resistant, aerobic (oxidative)	
+Type II skeletal muscle properties	White (IIA), anaerobic, fast twitch, fatigable	
+What biochemical system is used in muscle activities lasting less than 20 seconds?	ATP-creatin phopshate system, anaerobic, produces no lactate	
+What biochemical system is used in muscle activites lasting 20-120 seconds?	Lactic acid metabolism	
+What changes are seen in muscle with strength training (4)?	Increases in myofibrils, fiber size, cross-sectional area, and hypertrophy of type II fibers	
+Muscle tear healing is reliant on what cells?	satellite cells	
+What stimulates proliferation of myofibroblasts and increases fibrosis in muscle tear healing?	TGF-beta	
+What are the first cells recruited in acute muscle injury?	Neutrophils	
+What causes muscle soreness?	Edema and inflammation in connective tissues	
+Which nerves are good candidates for grouped fascicular repair?	Median and ulnar nerves at the distal third of the foream and the sciatic nerve.	
+What properties does decorin have?	Antifibrotic	
+Tendons receive blood supply through what system?	The vincular system if sheathed and through simple diffusion from the paratenon	
+When are surgical tendon repairs weakest?	Days 7-10	
+What do tenocytes do?	Generate ECM in tendons	
+What is the first collagen type produced at sites of tendon injury?	Type III collagen	
+Where is the achilles tendon hypovascular?	4-6cm proximal to the calcaneal insertion	
+What are ligaments composed of?	Type 1 collagen and elastin	
+How ligaments differ from tendons (4)?	less collagen, more proteglycans (and water), highly cross-linked collagen, perfused at insertion sites	
+What ligament fibers insert into the periosteum?	Sharpey fibers	
+Nucleus pulposus collagen/proteoglycan ratio (high/low)?	Low	
+Annulus fibrosis collagen/proteglycan ratio (high or low)?	High	
+What innervates the superficial fiburs of the annulus pulposus? Where does it come from?	The sinuvertebral nerve from the dorsal root ganglion	
+What acts on cells during early degenerative disc disease?	IL-1beta	
+What occurs in intervertebral discs during aging (4)?	loss of water, decrease/fragmentation of proteoglycans, increased keratin sulfate/chondroitin sulfate ratio, no change in quantity of collagin	
+What graft should be used for lesions larger than 2cm?	osteochondral allograft	
+What graft should be used for lesions smaller than 2cm?	osteochondral autograft	
+Scleroderma chromosome	Anti-Scl-70	
+Anti-Scl-70 causes what?	Scleroderma	
+Polymyositis and dematomyositis chromosome	Anti-Jo-1	
+Anti-Jo-1 causes what?	polymyositis and dermatomyositis	
+Name SLE chromosome that is specific but not sensitive.	Anti-Sm (only in 1/5 of those with SLE)	
+Anti-Sm is linked to what?	SLE	
+Mixed connective tissue disease chromosome?	Anti-RNP	
+Anti-RNP is associated with what?	Mixed connective tissue disease	
+Name the SLE chromosome implicated in SLE nephritis.	Anti-ds-DNA	
+Anti-ds-DNA is linked to what?	SLE	
+Name the chromosome present in drug-induced lupus	antihistone	
+Antihistone is present in what?	Drug induced lupus	
+Chromosomes in Sjogren Syndrome?	Anti-Ro and Anti-La	
+Anti-Ro and Anti-La are linked to what?	Sjogren Syndrome	
+pRb is implicated in what (2)?	Retinoblastoma and osteosarcoma	
+p53 is implicated in what (3)?	osteosarcoma, rhabdomyosarcoma, chondrosarcoma	
+What is a plasmid?	A small extrachromosomal circular piece of DNA that replicated independently of DNA	
+Southern Blots detect...	DNA	
+Northern blots detect...	RNA	
+Western blots detect...	protein (amino acids)	
+What does RT-PCR do?	Produces DNA from RNA	
+What mediates type II hypersensitivity?	Antibodies	
+What type of hypersensitivity reaction is heparin-induced thrombocytopenia and myasthenia gravis?	Type II hypersensitivity	
+What type of hypersensitivity occurs in response to orthopedic hardware?	Type IV	
+What hypersensitivity syndrome occurs years after total hip arthroplasty?	Pseudotumor hypersensitivity syndrome	
+Describe the rheumatoid factor immunoglobulin.	IgM against IgG	
+What immunoglobulin is seen in mucosa-associated lymphoid tissue?	IgA	
+Which immunoglobulin mediates type I hypersensitvity reactions?	IgE	
+What are the first cells recruited to the site of injury?	Neutrophils	
+What cells initiate the inflammatory response in osteolysis/aseptic loosening? What do they respond to?	Macrophages; particles smaller than 1uM	
+What enzyme does ibuprofen inhibit?	COX	
+What are anti-TNF-alpha medications associated with?	Opportunistic infections	
+What does TGF-beta promote?	Fibrosis	
+What is a potentially deadly complication of unmanaged draining sinus tracts in osteomyelitis or burns for more than 20 years?	malignant degeneration into squamous cell carcinoma	
+Carcinoembryonic antigen (CEA) is a tumor antigen for what cancer?	colorectal carcinoma	
+Carbohydrate antigen 19-9 (CA 19-9) is a tumor antigen for what cancer?	Pancreatic cancer	
+Carbohydrate antigen 125 (CA-125)is a tumor antigen for what cancer?	ovarian cancer	
+Cancer antigen (CA-15-3) is a tumor antigen for what cancer?	breast cancer	
+alpha-fetoprotein (AFP) is a tumor antigen for what cancer?	hepatocellular carcinoma	
+Name the tumor antigen associated with colorectal carcinoma.	carcinoembryonic antigen (CEA)	
+Name the tumor antigen associated with pancreatic cancer.	carbohydrate antigen 19-9 (CA 19-9)	
+Name the tumor antigen associated with ovarian cancer.	Carbohydrate antigen 125 (CA-125)	
+Name the tumor antigen associated with breast cancer.	Cancer antigen 15-3 (CA 15-3)	
+Name the tumor antigen associated with hepatocellular carcinoma.	alpha-fetoprotein (AFP)	
+Name the four classic modes of mendelian inheritance.	autosomal dominant, autosomal recessive, X-linked recessive, X-linked dominant	
+Name the genetic defect and inheritance pattern in achondroplasia.	FGFR3; autosomal dominant	
+Name the genetic defect and inheritance pattern in Apert syndrome.	FGFR2, autosomal dominant	
+Name the genetic defect and inheritance pattern in cleidocranial dysplasia.	CBFA1; autosomal dominant	
+Name the genetic defect and inheritance pattern in Charcot-Marie-Tooth.	PMP22; autosomal dominant	
+Name the genetic defect and inheritance pattern in pseudoachondroplasia.	COMP; autosomal dominant	
+Name the genetic defect and inheritance pattern in SED congenital.	COL2A1 for type II collagen; autosomal domininant.	
+Name the genetic defect and inheritance pattern in Kniest syndrome.	Type II collagen; autosomal dominant	
+Name the genetic defect and inheritance pattern in MED type I.	COMP; autosomal domininant	
+Name the genetic defect and inheritance pattern in MED Type 2.	Type IX collagen; autosomal dominant	
+Name the genetic defect and inheritance pattern in Jansen metaphyseal chondrodysplasia.	PTHrP; autosomal dominant	
+Name the genetic defect and inheritance pattern in Schmid metaphyseal chondrodysplasia.	Type X collagen, autosomal dominant	
+Name the genetic defect and inheritance pattern in Ehlers-Danlos (most common).	COL; autosomal dominant	
+Name the genetic defect and inheritance pattern in hereditary multiple exostoses.	EXT1/EXT2/EXT3; autosomal dominant	
+Name the genetic defect and inheritance pattern in Neurofibromatosis.	NF1, NF2; autosomal dominant	
+Name the genetic defect and inheritance pattern in Marfan syndrome.	FBN1; autosomal dominant	
+Name the genetic defect and inheritance pattern in osteogenesis imperfecta (Types I and IV).	COL1A1/COL1A2	
+FGFR3 mutations is associated with what syndrome? What is its inheritance?	Achondroplasia; Autosomal dominant	
+FGFR2 mutations is associated with what syndrome? What is its inheritance?	Apert Syndrome; autosomal dominant	
+CBFA1 mutations is associated with what syndrome? What is its inheritance?	Cleidocranial dysplasia; autosomal dominant	
+PMP22 mutations is associated with what syndrome? What is its inheritance?	Charcot-Marie-Tooth; autosomal dominant	
+COMP mutations is associated with what syndrome? What is its inheritance?	Pseudoachondroplasia; autosomal dominant	
+COL2A1 for Type II collagen mutations is associated with what syndrome? What is its inheritance?	SED congenital; autosomal dominant	
+COL mutations is associated with what syndrome? What is its inheritance?	Ehler's-Danlos; autosomal dominant	
+EXT1/EXT2/EXT3 mutations is associated with what syndrome? What is its inheritance?	Hereditary multiple exostoses; autosomal dominant	
+NF1, NF2 mutations is associated with what syndrome? What is its inheritance?	Neurofibromatosis; autosomal dominant	
+FBN1 mutations is associated with what syndrome? What is its inheritance?	Marfan syndrome; autosomal dominant	
+COL1A1 and COL1A2 mutations is associated with what syndrome? What is its inheritance?	Osteogenesis imperfecta Types I and IV; autosomal dominant	
+Diastrophic dysplasia is associated with what genetic defect? What is its inheritance?	DTD-ST (sulfate transport protein); autosomal recessive	
+Friedreich ataxia is associated with what genetic defect? What is its inheritance?	Frataxin; autosomal recessive	
+Gaucher disease is associated with what genetic defect? What is its inheritance?	Lysosomal glucocerebrosidase; autosomal recessive	
+Sickle cell disease is associated with what genetic defect? What is its inheritance?	HbSS; autosomal recessive	
+Osteogenesis imperfecta type II and III is associated with what genetic defect? What is its inheritance?	COL1A1 and COL1A2; autosomal recessive	
+Charcot Marie Tooth (rare form) is associated with what genetic defect? What is its inheritance?	Connexin; Autosomal recessive	
+What is the inheritance pattern of osteopetrosis tardar form?	Autosomal dominant	
+What is the inheritance pattern of osteopetrosis malignant form?	Autosomal recessive	
+DTD-ST (sulfate transport protein) is associated with what genetic condition? What is its inheritance?	Diastrophric dysplasia; autosomal recessive	
+Frataxin is associated with what genetic syndrome? What is its inheritance?	Friedreich ataxia; autosomal recessive	
+Lysosomal glucoerebrosidase is associated with what genetic syndrome? What is its inheritance?	Gaucher disease; autosomal recessive	
+HbSS is associated with what genetic syndrome? What is its inheritance?	Sickle cell disease; autosomal recessive	
+Connexin is associated with what genetic syndrome? What is its inheritance?	Charcot Marie Tooth (rare form); autosomal recessive	
+What is the inheritance pattern of thrombocytopenia-aplasia of radius (TAR)?	autosomal recessive	
+Duchenne and Becker muscular dystrophy are associated with what genetic defect? What is its inheritance?	Dystrophin; X-linked recessive	
+Hemophilia A and B are associated with what genetic defects? What is its inheritance?	Factors VIII or IX; X-linked recessive	
+SED tarda is associated with what genetic defect? What is its inheritance?	COL2A1; X-linked recessive	
+Dystrophin is associated with what genetic syndromes? What is its inheritance?	Duchenne and Becker muscular dystrophry; X-linked recessive	
+Factors VIII and IX  are associated with what genetic syndrome? What is its inheritance?	Hemophilia; X-linked recessive	
+Hypophosphatemic rickets is associated with what genetic defect? What is its inheritance?	PHEX; X-linked dominant	
+Leri-Weill dyschondrosteosis is associated with what genetic defect? What is its inheritance?	SHOX; X-linked dominant	
+PHEX is associated what genetic syndrome? What is its inheritance?	Hypophosphatemic rickets; X-linked dominant	
+SHOX is associated what genetic syndrome? What is its inheritance?	Leri-Weill dyschondrosteosis; X-linked dominant	
+McCune-Albirght syndrome is associated with what genetic defect? What is its inheritance?	Gsalpha subunit of the receptor/adenylyl cyclase-coupling G proteins; Sporadic	
+Name the translocation in synovial sarcoma.	T(X:18)	
+Name the translocation in Ewing Sarcoma.	T(11:22)	
+Name the translocation in rhabdomyosarcoma.	t(2:13)	
+Name the translocation in myxoid liposarcoma.	t(12:16)	
+Name the translocation in clear cell sarcoma.	t(12:22)	
+Name the translocation in myxoid chondrosarcoma.	t(9,22)	
+t(X:18) translocations cause what sarcoma?	synovial sarcoma	
+t(11:22) translocations cause what sarcoma?	Ewing sarcoma	
+t(2:13) translocations cause what sarcoma?	rhabdomyosarcoma	
+t(12:16) translocations cause what sarcoma?	myxoid liposarcoma	
+t(12:22) translocations cause what sarcoma?	clear cell sarcoma	
+t(9,22) translocations cause what sarcoma?	myxoid chrondrosarcoma	
+What is the most common risk factor for necrotizing fasciitis?	Diabetes	
+Necrotizing fasciitis in healthy individuals is most commonly caused by what bacteria?	Group A beta-hemolytic strep	
+How long does it take C-reactive protein to dissipate after effective treatment?	about 1 week	
+What are the 3 most common causes of osteomyelitis (in order) in patients aged 0-4 months.	S. aureus, gram-negative bacilli, group B strep	
+What are the 2 most common causes of osteomyelitis (in order) in patients aged 4 months to 21 years?	S. aureus, Group A strep	
+What is the most common cause of epiphyseal osteomyelitis?	S. aureus	
+What are the 2 most common causes of osteomyelitis (in order) in patients aged greater than 21 years of age.	S. aureus, coagulase-negative strep	
+What are the 2 most common causes of osteomyelitis (in order) in patients with sickle cell disease?	S. aureus, Salmonella	
+What are the 3 most common causes of osteomyelitis (in order) in patients with open fractures.	S. aureus, P aeruginosa, gram-negative bacilli	
+What is the most common cause of osteomyelitis in patients with diabetes?	Polymicrobial (both aerobic and anaerobic)	
+What are the 3 most common causes of osteomyelitis (in order) in intravenous drug users?	S. aureus, serratia spp, pseudomonas spp.	
+What organism is associated with osteomyelitis in meat handlers?	Brucella spp.	
+What organism is associated with osteomyelitis in fisherman?	Mycobacterium spp.	
+What is a sequestrum? What is it seen in?	dead bone with surrounding granulation tissu; osteomyelitis	
+What is involucrum? What is it associated with?	Periosteal new bone; osteomyelitis	
+What is the most common causative organism of septic arthritis in sexually active patients?	Neisseria gonorrhoeae	
+What is the most common causative organism of septic arthritis in non-sexually active patients.	S. aureus	
+When should tetanus immune globulin be given to patients with open wounds?	When the tetanus status is unknown or the patient has received fewer than 3 immunizations.	
+When should tetanus toxoid be given to patients with open wounds?	severe wound or the wound occured more than 24 hours previously and the patient has received no booster vaccination within the previous 5 years.	
+What is the mechanism of action of beta-lactam antiobiotics (penicillin and cephalosporins)?	inhibit cross-linking of polysaccarhids in the cell wall by blocking transpeptidase enzyme.	
+What is the mechanism of action of vancomycin?	Interferes with the insertion of glycan subunits into the cell wall	
+What is the mechanism of action of rifampin?	Inhibits RNA polymerase F	
+What is the mechanism of action of clindamycin?	binds to 50S ribosomal subunits and inhibits protein synthesis	
+What is the mechanism of action of quinolones (ciprofloxacin)?	Inhibits DNA gyrase	
+What gene does MRSA have that gives it resistance? What doe it produce and do?	mecA produces the enzyme penicillin-biding protein 2a (PBP 2a) which prevents the normal enzymatic acylation of antibiotics	
+What is Virchow's triad?	enodthelial damage, venous stasis, hypercoagulability	
+What protein triggers the coagulation cascade?	Tissue factor (thromboplastin)	
+What is the mechanism of action of wafarin?	Inhibits the posttranslational modification of bitamin K-dependent clotting factors.	
+What are the vitamin K-dependent clotting factors?	Factors X, IX, VII, II; proteins C and S	
+What clinical triad is seen in fat embolism? What can you do to decrease the incidence?	hypoxemia, CNS depression, and petechia; stabilize the fracture	
+What is the inheritance pattern of malignant hyperthermia?	Autosomal dominant	
+Which 3 agents can trigger malignant hyperthermia?	"Inhalational (""-ane"") agents, amide-based local anesthetics, and depolarizing muscle relaxants (succinylcholine)"	
+What are the first 2 signs of malignant hyperthermia?	increased end-tidal CO2 and tachycardia	
+What is malignant hyperthermia treated with? What is its mechanism?	dantrolene sodium; blocks calcium release by stabilizing the sacroplasmic reticulum	
+What enzyme do NSAIDs inhibit? What does it do?	COX; COX is involved in forming prostaglandins from arachidonic acid	
+What the 3 most important risk factors for gastrointenstinal complications when taking NSAIDs?	Concurrent anticoagulant use, age older than 60, and history of previous GI disease.	
+What 3 supplements/herbs can increase the risk of bleeding in the perioperative period?	Garlic, Ginkgo biloba, and ginseng	
+What 4 things appear dark on T1 and bright on T2?	water, CSF, acute hemorrhage, soft tissue tumors	
+Define force.	A mechanical push or pull (load) causing external (acceleration) and internal (strain) effects.	
+Define moment.	THe rotation effect of force.	
+Define mass moment of inertia.	resistance to rotation	
+Define stress. What is its equation and unit of measure?	Stress is the instensity of internal force. Stress = force/area. Unit: pascal (N/m2)	
+Define strain. What is its equation?	Strain is a measure of deformation resulting from loading. Strain = change in length/original length	
+What is Young's modulus of elasticity? What is it's equation?	A measure of material stiffness, the ability to resist deformation in tension. E = stress/strain. Higher E withstand greater forces before deforming.	
+Define strain energy.	The capacity of a material to absorb energy before failure (toughness).	
+Define brittle material types.	Linear stress-strain curve with limited capacity for plastic deformation (PMMA).	
+Define ductile material types.	Large plastic deformation before failure (metal)	
+Define viscoelastic material types.	time and rate dependent stress-strain behavior and demonstrate hysteresis (loading and unloading curves differ); i.e. bone, ligaments, biological tissues	
+Define isotropic material types.	Mechanical properties are the same for all directions of applied load (golf ball)	
+Define anisoptropic material types.	Mechanic properties vary with direction of applied load. (bone--stronger with axial load than with radial load)	
+What occurs when dissimilar metals are in direct contact?	Galvanic corrosion	
+Risk of galvanic corrosion is highests between what 2 metals?	316L stainless steel and cobalt-chromium (Co-Cr) alloy	
+Define joint reaction force.	Force generated within a joint in response to an external force.	
+The hip should be fused in what position?	25-30 degrees of flexion, 0 degrees of abduction and rotation	
+The knee should be fused in what position?	0-7 degrees of valgus, 10-15 degrees of flexion	
+The ankle should be fused in what position?	neutral dorsiflexion, 5-10 degrees of external rotation, 5 degrees of hindfoot valgus	
+The shoulder should be fused in what position?	15-20 degrees of abduction, 20-25 degrees of forward flexion, 40-50 degrees of internal rotation.	
+The elbow should be fused in what position if unilateral?	90 degrees of flexion.	
+The elbow should be fused in what position if bilateral?	One elbow at 110 degrees of flexion for the hand to reach the mouth, the other elbow at 65 degrees of flexion for perineal hygiene.	
+The wrist should be fused in what position if unilateral?	10-20 degrees of extension	
+The wrist should be fused in what position if bilateral.	one wrist 10-20 degrees extended, the other 10-20 degrees flexed.	
+What are the prognostic factors in bone tumor staging in order?	metastases, discontinuous tumor, grade, and size	
+What are the prognostic factors in soft tissue staging in order?	metastases, grade, size, depth	
+What is the most common site of mets from bone and soft tissues sarcomas?	The lung	
+What 2 BONE cancers is chemotherapy most commonly used for in limb salvage surgery?	Osteosarcoma and ewing sarcoma	
+What 2 soft tissues tumors is chemotherapy used for?	Rhabdomyosarcoma and synovial sarcoma	
+What canceers is radiation alone used for (4)?	metastatic bone disease, lymphoma, myeloma, selected cases of Ewing sarcoma	
+What are 2 complications of radiation therapy?	late stress fracture and postirradiation sarcoma	
+Compare/contrasts pre- and post-operative external beam radiation: 1)local control rates? 2)wound complications? 3)fibrosis?	1) pre and postop have equal local control rates 2) Postop has lower rate of wound complications 3) Post-op has higher incidence of fibrosis	
+What bone cancers is wide excision alone used for (4)?	chondrosarcoma, adamantinoma, parosteal osteosarcoma, chordoma	
+What tumors is intralesional resection/curettage used for (6)?	GCT, ABC, NOF, LCH, osteoblastoma, chondroblastoma	
+Name 3 tumors/lesions typically seen in age <5 years.	rhabdomyosarcoma, osteofibrous dysplasia, leukemia	
+Name 8 tumors/lesions typically seen in age <30 years.	enchondroma unicameral bone cyst osteosarcoma metaphyseal fibrous defect (NOF) Ewing sarcoma osteoid osteoma chondroblastoma fibrous dysplasia giant cell tumor	
+Name 7 tumors/lesions typically seen in age >50 years.	metastatic bone disease fibrosarcoma malignant fibrous histiocytoma myeloma lymphoma chondrosarcoma Paget disease	
+Name 2 tumors/lesions typicall seen at the anterior cortex of the tibia.	adamantinoma, osteofibrous dysplasia	
+Name 2 tumors/lesions typicall seen at the posterior cortex of the distal femur.	parosteal osteosarcoma, periosteal desmoid	
+Name 4 tumors/lesions classicaly seen at the epiphysis.	giant cell tumor, chondroblastoma, osteomyelitis, clear cell chondrosarcoma	
+What cancer is classicaly seen at the epiphysis of the femoral head?	clear cell condrosarcoma	
+What is a Brodie abscess?	Osteomyelitis of the epiphysis	
+Name 4 tumors/lesions clasically seen at the metaphysis?	metaphyseal fibrous defect (NOF) aneurysmal bone cyst Giant cell tumor osteosarcoma	
+Name 6 tumors/lesions clasically seen at the diaphysis.	AEIOUY   A=Adamantinoma E=Eosinophilic granuloma I=Infection O=osteoid osteoma/osteoblastoma U=Ewing sarcoma Y=mYeloma, lYmphoma, fibrous dYsplasia (Mets)	
+What are the 5 key principles of biopsy?	1) use longitudinal incisions, excise biopsy tracts if malignant. 2) approach lesions through intermuscular planes when possible, avoid functionally important/neurovascular structures 3) Maintain meticulous hemostasis 4) Send frozens intra-op to ensure adequate sample 5) Send for bacteriologic analysis	
+What are the 4 surgical margins of tumor excision? Describe them.	1) Intralesional 2) marginal (through reactive zone) 3) wide (includes a cuff of normal tissue 4) radical (entire tumor and its compartment, including surrounding muscles, ligaments, and connective tissues)	
+What are the 2 essential criteria for limb salvage surgery?	1) local control must be at lease equal to amputation 2) limb must be functional	
+Retinoblastoma is associated with what sarcoma?	osteosarcoma	
+p53 mutations are associated with what sarcoma? What is this syndrome called?	osteosarcoma, Li-Fraumeni syndrome	
+Name the translocation in Ewing sarcoma and its gene product.	t(11;22) EWS-FLI1	
+Name the translocation in synovial sarcoma and its 2 gene prodcuts.	t(X;18) SYT-SSX1, SYT-SSX2	
+Name the translocation in myxoid liposarcoma and its gene product.	t(12;16) FUS-CHOP	
+Name the translocation in alveolar rhabdomyosarcoma and its gene product.	t(2;13) PAX3-FKHR	
+What is the mutation seen in fibrous dysplasia?	GNAS1-activating mutation of the GSalpha surface protein.	
+What is the most common presentation of a soft tissue sarcoma?	an enlarging painful or painless soft tissue mass.	
+Desribe 5 common characteristics of soft tissue malignancies seen on MRI.	1) well defined (pseudocapsule) 2) heterogeneous 3) large, >5cm 4) deep to fascia 5) Dark on T1, bright on T2	
+Metastatic workup should include CT scan of what? What should be added for liposarcoma?	CT scan of the chest Include CT scan of abdomen and pelvis for liposarc because of syncronous retroperitoneal liposarcoma	
+What is the most common soft tissue sarcoma of the hand?	epithelioid sarcoma	
+What is the most common soft tissue sarcoma of the foot?	synovial sarcoma	
+What is the primary site of metastases from soft tissue sarcomas?	The lung	
+In what % of soft tissue sarcoma cases does lymphatic metastasis occur?	5%	
+Name 5 tumors with a predilection for lymph node metastases.	ESARC -Epithelioid sarcoma -Synovial sarcoma -Angiosarcoma -Rhabdomyosarcoma -Clear cell sarcoma	
+What do extraabdominal desmoid tumors feel like on palpation?	"""rock hard"""	
+Extraabdominal desmoid tumors are associated with what syndrome? What is the increased risk for these tumors with this syndrome?	Gardner syndrome (familial adenomatous polyposis); 10,000-fold increased risk	
+What medication class can be used in treatment of Gardner syndrome? What type of surgery is recommended and what is its common complication?	Estrogen receptor beta inhibitors; Wide-margine resection is recommended but local recurrence is common	
+What is nodular fasciitis? What is its treatment?	A painful rapidly enlarging mass in the superficial soft tissue fascia in a person 15-35 years of age; perform a marginal resection	
+What is the most common malignant sarcoma of soft tissue in adults?	Undifferentiated pleomorphic sarcoma (previously known as malignant fibrous histiocytoma)	
+What is the appearance of undifferentiated pleomorphic sarcoma on MRI?	-deep-seated, inhomogeneous -dark on T1, bright on T2	
+What is the treatment of undifferentiated pleomorphic sarcoma?	Wide-margin local excision and adjuvant radiotherapy	
+What is the MRI appearance of fibrosarcoma? What is its treatment?	-deep seated, inhomogeneous mass -dark on T1, bright on T2 -Treat with wide local excision, limb salvage, perioperative radiotherapy, long term surveillance	
+Describe lipoma appearance on MRI.	Looks like mature fat on all sequences. On fat suppression it has a low signal.	
+What is the treatment of lipomas?	Asymptomatic--observation Expanding/symptomatic--marginal excision	
+What is the 2nd most common soft tissue sarcoma in adults?	liposarcoma	
+Describe liposarcoma appearance on MRI.	Rarely in subcutaneous tissues. Thicker, more irregular septa, bright on T2	
+How does neurofibromatosis manifest (4)?	-->1  neurofibroma or one plexiform neurofibroma --cafe au lait spots --Lisch nodules (melanocytic hamartomas in the iris) --anterolateral tibial bowing	
+Patients with NF1 can have what complication? What is the % chance?	5% chance of malignant degeneration of a neurofibroma to a malignant peripheral nerve sheath tumor (MPNST)	
+How does MPNST appear on MRI? What is the treatment?	-Same appearance as any high-grade soft tissue sarcoma -Tx with limb salvage surgery, perioperative radiotherapy, and long term surveillance	
+What is the most common soft tissue sarcoma in children?	Rhabdomyosarcoma	
+What 4 places does rhabdomyosarcoma most commonly manifest?	-head -neck -GU tract -retroperitoneum	
+Which subtype of rhabdomyosarcoma is associated with extremity involvement? What is the translocation and gene product?	Alveolar subtype t(2;13) PAX3-FKHR	
+What is the treatment of rhabdomyosarcoma?	-sensitive to multi-agent chemotherapy -Wide-margin resection and irradiation	
+What does leiomyosarcoma look like on MRI? What is the treatment?	-Same imaging patterns on MRI as any high-grade soft tissue sarcoma -Treat with limb salvage, perioperative radiotherapy, and long term surveillance	
+What age group(s) are hemangiomas common in? What can you see on XR?	-children and adults -Phleboliths on XR	
+With what syndrome are multiple hemangiomas associated?	Maffucci syndrome	
+With what syndrome is angiosarcoma associated?	Stuart-Treves syndrome	
+Where can angiosarcoma metastasize? What is the treatment of angiosarcoma?	--cutaneous and lymph node --radiation and wide resection	
+What 3 regions does PVNS most commonly affect (in order)?	--knee --hip --shoulder	
+How does PVNS most commonly manifest?	Recurrent, atraumatic hemarthrosis with associated pain	
+What does PVNS look like on XR?	cystic erosions on both sides of the joint	
+What does PVNS look like on histology (3)	--highly vascular villi with plump hyperplastic synovial cells --hemosiderin-stained multinucleated giant cells --chronic inflammatory cells	
+What does PVNS look like on T1 and T2?	Low signal on both	
+What is the treatment of PVNS?	Complete synovectomy except when highly localized	
+Where does synovial sarcoma most commonly arise? What is characteristic on XR?	--Commonly arises from knee, rarely from an intra-articular location --Spotty mineralization on XR is characteristic	
+What does synovial sarcoma look like on histology? Stains positive for what?	--Biphasic pattern: epithelial cells resembling carcimona and spindle cells resembling fibrosarcoma --Stains for keratin and epithelial membrane antigen	
+What does clear cell sarcoma produce? What metasasis is common?	--Produces melanin --lymph node mets are common	
+If you see a hematoma on MRI what findings are suspicious for sarcoma?	Sarcomas spontaneously hemorrhage. Hematomas without fascial plane tracking or subcutaneous ecchymosis suggests it is contained by a pseudocapsule.	
+How does myositis ossificans appear on XR?	Peripheral mineralization with a central lucent area.	
+What 2 bone sarcomas commonly metastazize to other bone sites?	Osteosarcoma and Ewing sarcoma	
+What is the classic manifestation of osteoid osteoma?	Increasing pain relieved by salicylates and other NSAIDs	
+What does osteoid osteoma look like on XR/CT?	Intensely reactive bone and a radiolucent nidus	
+What spine complication may occur with osteoid osteoma?	Painful nonstructural scoliosis resulting in a curve witht he osteoid osteoma on the concave side.   Thought to result from paravertebral muscle spasm	
+How is osteoid osteoma treated?	--in 50% of patients NSAIDs alone resolve symptoms --CT-guided radiofrequency ablation is the dominant treatment	
+What can osteoblastoma be confused with? How can you differentiate them?	Often confused with osteoid osteoma --self-limited nidus in osteoid osteoma is <1cm, in osteoblastoma >2cm --Osteoblastoma has unlimited growth and pain is not relieved by NSAIDs --Both have the same histology	
+What is the most common malignant bone tumor in children?	osteosarcoma	
+What is the most common type of osteosarcoma? Where does it usually occur?	Classic high-grade intramedullary osteosarcoma   Usually occurs about the knee	
+What is the treatment of high-grade intramedullary osteosarcoma?	Neoadjuvant chemotherapy followed by tumor resection then aduvant chemo	
+What is the long term survival rate of high-grade intramedullary osteosarcoma?	60-70%	
+Where does parosteal osteosarcoma most commonly arise?	The posterior aspect of the distal femur	
+What does parosteal osteosarcoma look like on histology?	regularly arranged trabeculae. Between the the normal trabeculae there are slightly atypical spindle cells which typically invade the skeletal muscle at the peripherary	
+What is the treatment of parosteal osteosarcoma? Long term surival?	Treat with wide-margin resection, low grade so no chemo   survival of 95%	
+How does periosteal osteosarcoma appear on XR?	sunburst type lesion resting on a saucerized cortical depression	
+What is the treatment of periosteal osteosarcoma? Long-term survival?	Chemotherapy and wide resection. 85% survival	
+"Telangiectatic osteosarcoma is described with what ""buzz phrase""?"	Bag of blood	
+With what tumor does telangiectactic osteosarcoma share radiographic features?	aneurysmal bone cysts	
+What is the treatment of telangiectatic osteosarcoma?	Chemotherapy with wide resection	
+What is a periosteal chondroma?	Benign cartilage tumor on the surface of bone	
+What is an enchondroma?	Benigh cartilage tumor in the medullary cavity.	
+What do enchondromas look like on XR? How can you differentiate it from low-grade chondrosarcoma?	Enchondromas and low-grade chondrosarc appear as lytic lesions with stippled calcifications.   Chondrosarcoma will show cortical bone changes or lysis of previously mineralized cartilage on serial radiographs. Chondrosarc also has deeper endosteal scalloping and may present with pain.	
+What is the treatment of enchondroma?	Usually no treatment	
+Multiple enchondromas is seen in what 2 syndromes?	--Ollier disease --Maffucci syndrome	
+Name 4 characteristics of Ollier disease.	--Multiple enchondromas --Dysplastic bones (shortened ulna) --30% risk of of transformation to chondrosarcoma --Random spontaneous mutation	
+Name 3 characteristics of Maffucci syndrome.	--Multiple enchondromas --soft tissue hemangiomas (extremity and visceral) --100% risk of malignancy	
+What are the radiographic characteristics of osteochondroma?	Pedunculated, metaphyseal surface lesion pointing away from joint with cortical and medullary continuity.	
+What is is risk of malignant transformation in osteochondroma?	<1% risk of transformation to secondary chondrosarcoma	
+What imaging finding in osteochondroma is associated with increased risk of malignancy?	Thickness of cartilage cap >2cm	
+Which gene mutations are seen in multiple hereditary exostosis? Which one is associated with greater burden of disease and higher risk of malignancy?	--EXT1, EXT2, EXT3 --EXT1 is assoicated with increased burden and risk of malignancy	
+What is multiple hereditary exostoses?	Autosomal disorder manifesting in childhood with multiple osteochondromas	
+What is the risk of malignant transformation in multiple hereditary exostosis?	5-10% risk of devoloping low-grade secondary chondrosarcoma	
+In what bone region is chondroblastoma seen?	Centered in the epiphysis in young patients usually with open physes	
+What is seen on XR and MRI with chondroblastoma?	XR--central region of bone destruction, sharply dmarcated from nomal medullary cavity by a thin rim of sclerotic bone.   MRI--edema far out of proportion to the lesion	
+What is the treatment of chondroblastoma?	Curettage	
+What is the most common location of chondrosarcoma?	The pelvis	
+What is the treatment of chondrosarcoma?	wide-margin resection   Chemo only as an adjunct in dedifferentiated and mesenchymal types	
+What is the most malignant cartilage tumor?	dedifferentiated chondrosarcoma	
+What are the histologic characteristics of dedifferentiated chondrosarcoma?	Bimorphic. high grade spindle cell carcinoma intimately associated with low grade cartilage component	
+What is the treatment of dedifferentiated chondrosarcoma?	Wide-margin resection and chemotherapy	
+What is the characterisic radiographic appearance of metaphyseal fibrous defect?	Nonossifying fibromas appea as a lucent, metaphyseal, eccentric lesion with a sclerotic rim. Overlying cortex may be expanded and thinned.	
+What does metaphyseal fibrous defect look like on histology?	cellular fibroblastic connective tissue background, cells arranged in whorled bundles.    Numerous giant cells and hemosiderin deposits.	
+What is the treatment of metaphyseal fibrous defect?	Observation.   Curettage and bone grafting in symptomatic lesions with more than 50% of cortical involvement.	
+What is a chordoma?	malignant neoplasm arising from primitive notochordal tissue	
+What are the 2 most common locations of chordoma?	1) sacroccygeal region 2) spheno-occipital region	
+What is seen on CT with chordoma?	Midline bone destruction	
+What is the most common primary tumor of bone?	Multiple myeloma	
+What is found in the urine in patients with multiple myeloma?	light chain subunits of IgG and IgA	
+What is the classic XR appearance of multiple myeloma?	Punched out lyitic lesions	
+What is the classic histologic appearance of multiple myeloma?	Sheets of plasma cells, monoclonal with immunostaining.   Well-differentiated plasma cells with eccentric nucleus and peripherally clumped chromatic clock face	
+What is the treatment of multiple myeloma?	Multimodal: chemo, radiation, surgery	
+Where can giant cell tumor metastasize?	Benign but aggressive lesion that can in rare cases metastasize to the lung	
+Where does giant cell tumor most commonly occur?	Knee and sacrum	
+What does giant cell tumor look like on XR?	purely lytic, destructive lesion in metaphysis extending to the epiphysis. Often borders subchondral bone	
+What is the treatment of giant cell tumor?	Removal with preservation of the involved joint.   Curettage and subsequent rectonstruch with subchondral bone grafts or methylmethacrylate	
+What age group does Ewing sarcoma affect?	Children >5 years	
+What does Ewing sarcoma look like on XR?	large destructive, metaphyseal and diaphyseal.      Onionskinning (periosteum lifted off in multiple layers)	
+What does Ewing sarcoma stain positive for on immunohistochemistry?	CD99	
+What should be biopsied for staging in Ewing sarcoma?	Bone marrow	
+What is the treatment of Ewing sarcoma?	Chemo and irradiation   Evolving role of surgery	
+Where does Ewing metastasize? (3)	Lung (50%) Bone (25%) Bone marrow (20%)	
+Where does adamantinoma classically manifest? What is the treatment?	anterior cortex of the tibial diaphysis. Tx with wide resection	
+Describe the aggressiveness of aneurysmal bone cysts.	Nonneoplastic but can destroy normal bone and extend into soft tissue.	
+What does aneurysmal bone cyst look like on XR? What is characteristic on MRI?	XR--Metaphyseal, eccentric, lyic, expansile MRI--fluid-fluid levels	
+What is the treatment of aneurysmal bone cyst?	Curettage and bone grafting. Recurrence is common in children	
+Where does unicameral bone cyst most commonly appear? How does it present?	Proximal humerus   pain or pathologic fracture	
+What does unicameral bone cyst look like on XR?	symmetric cystic expansion with thinning of involved cortices	
+Compare aneurysmal bone cyst to unicameral bone cyst: 1. Presentation 2. Common bones involved 3. Location in bone and expansion	1. ABC--Pain/swelling     UBC--pathologic fx, sometime pain   2. ABC--distal femur, proximal tibia     UBC--proximal humerus, proximal femur   3. Both metaphyseal     ABC--eccentric, expands wider than growth plate    UBC--central, does not expan wider than growth plate.	
+What is Langerhan cell histiocytosis? Name 3 entities it manifests as.	Clonal proliferation of Langerhans cells, abnormal cells deriving from bone marrow   Manifests as: -Eosinophilic granuloma -Hand-Schuller-Christian disease -Letterer-Siwe disease	
+What is eosinophilic granuloma?	A benign, self-limiting form of Langerhans cell histiocytosis.   Manifests as a monostotic, highly destructive lesion with a well defined margin.	
+What is Hand-Schuller-Christian disease?	A form of Langerhans cell histocytosis.   Triad of: -Diabetes insipidus -Exophthalmos (skull defects) -Multiple bone lesions	
+What is Letterer-Siwe disease? Prognosis?	A form of Langerhans cell histiocytosis.   Fulminating condition, rapidly progressing. Langerhans cells proliferating in many tissues.   Seen in children under age 2, typically fatal. With aggressive chemo 5 year survial is 50%	
+Describe the signaling pathway in fibrous dysplasia.	Genetic activating mutation of the GSalpha surface protein (GNAS1), results in increased production of cAMP.	
+What is the classic XR description of fibrous dysplasia?	ground glass	
+"What are the ""buzz words"" used to describe the histologic appearance of fibrous dysplasia?"	-alphabet soup -chinese letters	
+What happens when autogenous bone grafting is used for fibrous dysplasia?	Never do it!   The transplanted bone is quickly tranformed into the woven bone of fibrous dysplasia.	
+How does polyostotic fibrous dysplasia differ from monostotic fibrous dysplasia?	Polyostotic=multiple bones, Monostotic=one bone   Polyostotic -less common -more symptomatic -diagnosed earlier (before age 10)	
+What is McCune-Albright syndrome? Name 3 findings.	Polyostotic fibrous dysplasia with endocrinopathy.   -cafe au lait spots -precocious puberty -polyostotic fibrous dysplasia	
+What is osteofibrous dysplasia?	A benign non-neoplastic condition considered a fibrovascular defect.   Involves tibia 85% of the time. May present with pain, fracture, firm swelling over tibia   Similar manifestation to fibrous dysplasia but in children younger than 10 years.	
+What is Paget's disease characterized by?	Abnormal bone remodeling resulting in coarsened trabeculae and remodeled cortices.	
+What is medical treatment of Paget's diseased aimed at? Name 2 agents.	Retarding activity of osteoclasts -diphosphonates -calcitonin	
+What is the risk of malignant degeneration in Paget's disease?	<1% risk of formation of a sarcoma within focus of Paget disease	
+What is the prognosis of a Paget sarcoma?	deadly. <20% long-term survival.	
+Patients older than 40 with a destructive bone lesion should be presumed to have what?	metastatic disease	
+Name the 5 carcinomas most likely to metastasize to bone.	-prostate -thyroid -breast -lung -kidney	
+Where do pathologic fractures secondary to metastatic disease most commonly occur?	proximal femur	
+What are the hallmark histologic appearances of metastatic disease?	Epithelial cells in a fibrous stroma. Epithelial cells often arranged in a glandular pattern.	
+Describe the signaling pathway which results in bone destruction in metastatic disease.	-Tumor cells secrete PTHrP -PTHrP stimulates RANKL release -RANKL activates osteoclasts	
+Tumor that stains positive for SMA.	Leiomyosarcoma	
+Tumor that stains positive for desmin.	Rhabdomyosarcoma	
+Tumor that stains positive for MyoD1/myogenin (myf-4)	RHabdomyosarcoma	
+Tumor that stains positive for S-100	Schwannoma, MPNST	
+Tumor that stains positive for CD34/CD31.	hemangioma, hemangioendothelioma, angiosarcoma	
+Tumor that stains positive for beta-catenin	fibromatosis	
+Tumor that stains positive for CD99	Ewing sarcoma, PNET	
+Tumors that stains positive for keratin (2)	synovial sarcoma adamantinoma   Misc epithelioid sarcomas and carcinomas as well	
+Tumor that stains positive for EMA	synovial sarcoma, epithelioid sarcomas	
+Tumor that stains positive for CD20, CD45	lymphoma	
+Tumor that stains positive for CD138	myeloma	
+Name the tumor	Lipoma	
+Name the tumor	Liposarcoma -T1 shows left rectus lesion consisten with fat in some areas, with fat suppression the fat areas suppress but the liposarcoma does not -Immature lipoblasts intermixed with spindle cells	
+Name the tumor.	Dedifferentiated liposarcoma -T1 shows lesion that is mostly fat, lobule on the left has a clearly demarcated area that does not suppress on fat images -highly malignant on histology with highly cellular elements with high mitotic rate and large, bizarre cells	
+Describe the histology of Schwannoma	Antoni A and B areas:   Antoni A--compact spindle cells with nuclear palisading, whorling of cells, Verocay bodies   Antoni B--less orderly and cellular, haphard, inflammatory cells	
+Name the tumor	Osteoid Osteoma -well-circumscribed lytic lesion with dense surrounding bone and a central nidus -mineralizing new bone with a loose fibrovascular stroma	
+What is the chemo regimen for osteosarcoma and their toxicities?	--Doxorubicin (cardiac toxicity) --Cisplatin (neurotoxicity) --methotrexate (add leucovorin if myolosuppression)	
+Name the tumor	Conventional osteoblastic osteosarcoma -poorly defined, metaphyseal osteoblastic lesion -lacelike mineralizing osteoid surrounding atypical osteoblasts, pleomorphism, bone formation	
+Name the tumor	Parosteal osteosarcoma -exophytic bony mass, posterior cortex of distal femur -plates of new bone in a fibrous matrix, fibrous stroma with atypical cells	
+Name the tumor	Periosteal osteosarcoma -surface lesion with bone formation -cartilage and bone formation on histo, pleomorphism, direct production of osteoid by tumor cells	
+Name the tumor	Enchondroma -densely mineralized medullary lesion -mineralized hyaline cartilage, bland chondrocytes in lacunae	
+Name the tumor	"Osteochondroma -sessile, metaphyseal, medullary/cortical continuity -osteochondroma with a cartilaginous cap, ""C"" is a close-up view of the cartilage cap shwoing endochondral ossification"	
+Name the tumor	High grade chondrosarcoma -expansile lytic lesion, stippled calcifications -cartilage with permeative growth pattern	
+Name the tumor	Periosteal chondroma -Surface lesion, stippled calcifications, cortical scalloping -Bland hyaline cartilage, chondrocytes and cartilage matrix	
+Name the tumor	chondroblastoma -well circumscribed lytic lesion with a sclerotic rim -cellular stroma in a chondroid matrix, rounded stromal cells, multinucleated giant cells	
+Name the tumor	Giant cell tumor -Well circumscribed lytic lesion in epiphysis and metaphysis -Sheets of multinucleated giant cells	
+Name the tumor	Chondromyxoid fibroma -well-circumscribed lytic lesion, rim of sclerotic bone -lobules of fibromyxoid tissue, myxoid stroma with stellate cells	
+Name the tumor	Dedifferentiated chondrosarcoma -focal dense mineralization surrounded by a poorly defined lytic lesion -island of hyaline cartilage surrounded by cellular neoplasm, hyaline cartilage adjacent to pleomorphic rounded cells	
+Name the tumor	Metaphyseal fibrous defect (NOF) -scalloped, well circumscribed, lytic lesion with a sclerotic rim -spindle cells in a storiform pattern, occasional multinucleated giant cells	
+Name the tumor	Fibrosarcoma -permeative lytic lesion -Atypical spindle cells	
+Name the tumor	Malignant fibrous histiocytoma --poorly defined lytic lesions in the proximal and distal humerus --spindle cells in a storiform pattern, uniform population of pleomorphic cells	
+Name the tumor	Chordoma -Destructive lesion of the sacrum -lobular arrangement of tissue, nests of physaliferous cells	
+Name the tumor	Hemangioma -vertical strictions -dilated vascular spaces in marrow, endothelium-lined spaces	
+Name the tumor	Lymphoma of bone -poorly circumscribed lytic lesion -marrow replacement by a uniform population of lymphoid cells	
+Name the tumor	Multiple myeloma -poorly circumscribed lytic lesion -sheets of uniform atypical plasma cells	
+Name the tumor	Ewing sarcoma -destructive, expansile lesion -bone surrounded by highly cellular neoplasm, sheets of rounded cells	
+Name the tumor	Adamantinoma -diaphyseal, bubbly, symmetric, lytic lesion -biphasic differentiation: spindle cells and epithelioid cells, glandular formation mixed with spindle cells	
+Name the tumor	Aneurysmal bone cyst -Eccentric, well-defined lytic lesion -Blood filled lakes, fibroblasts, multinucleated giant cells	
+Name the tumor	Unicameral bone cyst -symmetric, midline, well-circumscribed, lytic lesion in the humeral metaphysis -Fibrous tissue, reactive bone, multinucleated giant cells, uniform spindle cells without atypia	
+Name the tumor	Eosinophilic granuloma -well circumscribed, sclerotic rim, femoral metaphysis -heterogeneous population, inflammatory cells, langerhans histiocytes, eosinophils	
+Name the tumor	Fibrous dysplasia -long, symmetric lytic lesion, ground glass appearance -Seams of osteoid in a bland fibrous tissue background	
+Name the tumor	Osteofibrous dysplasia -cortically based lesion with cortically based lytic areas, sclerotic rimming -osteoid lakes in fibrous stroma with rimming osteoblastas	
+Name the tumor	Metastatic carcinoma -lytic lesion in femoral neck and ilium -glandular arrangement of cells in marrow space, epithelial cells in organoid pattern	
+What is the glenoid version relative to the scapular body?	5 degrees retroverted	
+What lies in the suprascapular notch? What separates them? What is their orientation?	-suprascapular artery and nerve -separated by superior transverse scapular ligament -Army over Navy (artery superior, nerve inferior)	
+What should be preserved with irreparable cuff tears to preven anterosuperior escape?	the coracoacromial ligament, important for anterosuperior restraint	
+What is the first bone to ossify?	clavicle (5 weeks gestation)	
+What bone is the last to fuse?	clavicle (medial epiphysis at 25 years)	
+What happens if anterosuperior glenoid labral tears are repaired?	loss of external rotation	
+What is the distance relation between the humeral head and pectoralis major tendon?	humeral head height is 5.6cm above superior border of pec major tendon	
+What is the spatial relation between the trapezoid/conoid ligaments and the AC joint?	Trapezoid ligament is 25mm from AC joint Conoid ligament is 45mm from AC joint	
+Trapezoid/conoid ligaments, which is posteromedial and which is anterolateral?	Trapezoid--anterolateral Conoid--posteromedial	
+What is the ratio between glenohumeral and scapulothoracic motion with arm elevation?	2:1	
+What does the rotator cuff do to the glenohumeral joint?	depresses and stabilizes humeral head against glenoid	
+What is the relationship between the radial head and capitellum on radiographs?	radial head should line up with capitellum at all arm positions on XR	
+What forces are seen at the medial and lateral elbow (tensile or compressive)?	Medial elbow--tensile forces Lateral elbow--compressive forces	
+What is the primary static stabilizer to valgus stress at the elbow, and which component in particular?	Ulnar collateral ligament (especially the anterior band)	
+What occurs with lateral ulnar collateral ligament (LUCL) injury to the elbow?	posterolateral rotatory instability (PLRI)	
+What is paramount in fixation of radial shaft fractures to prevent pronation and supination loss?	Restoration of radial bow	
+What is the space of Poirier? What injuries is it implicated in?	A central weak area in the floor of the carpal tunnel Implicated in lunate volar dislocation and perilunate injuries of the wrist	
+What are the borders of Guyon canal? What does it contain?	Deep--flexor retinaculum Superficial--volar carpal ligament Ulnar/proximal--pisiform Radial/distal--hook of hamate   Contains ulnar nerve and artery	
+What 2 hand pulleys are most critical to function (in order) and what do they overly?	A2 pulley overlies proximal phalanx--most critical to function A4 pulley overlies middle phalax--2nd most critical	
+What is injured in medial scapular winging? What muscle is involved?	Long thoracic nerve (C5-C7) injury--serratus anterior dysfunction	
+What is injured in lateral scapular winging? What muscle is involved?	Spinal accessory nerve (CN XI) injury--trapezius dysfunction	
+What are the preclavicular brachial plexus branches (4)?	-Dorsal scapular nerve -Long thoracic nerve -Suprascapular nerve -Nerve to subclavius	
+What is the spatial relation between the radial nerve within the radial groove in the posterior humerus and the medial and lateral epicondyles?	Radial nerive traverses the radial groove in the posterior humerus approximately: 20cm from the medial epicondyle 14cm from the lateral epicondyle	
+What muscle does the ulnar nerve split as it enters the forearm?	Ulnar nerve splits the 2 heads of the FCU	
+What muscle does the median nerve split as it enters the forearm?	Median nerve splits the 2 heads of the pronator teres	
+What is the lateral antebrachial cutaneous nerve a continuation of? Describe its course at the elbow.	LABCN is a continuation of the musculocutaneous nerve.   Emerges lateral from between the biceps and brachialis at the elbow then passes lateral to the cephalic vein.	
+What do the digital arteries arise from? What is their course in relation to the digital nerves?	Arise from superficial palmar arch, run dorsal to the digital nerves	
+What are sites of potential compression of the median nerve (6)?	-ligament of struthers -pronator teres -FDS aponeurosis -bicipital aponeruosis -accessory head of the FPL -carpal tunnel	
+What is AIN syndrome?	Compression or inflammation of the AIN of the forearm causing a PURELY MOTOR deficit of FPL/IF and MF DFP/PQ   may have pain at the forearm	
+What are the potential sites of compression of the ulnar nerve (7)?	-arcade of Struthers -medial intermuscular septum -cubital tunnel (between MCL and Osborne ligament) -medial epicondyle -2 heads of FCU -anconeus epitrochlearis -Guyon canal	
+Contrast proximal (cubital tunnel) to distal (Guyon canal) ulnar nerve compression.	Distal (Guyon canal) compression:  --More ulnar clawing (unopposed extension at the MCPJs and unopposed flexion at the IPJs of the RF and SF)   Proximal (cubital tunnel) compression: --Dorsal hand sensory deficit (dorsal cutaneous branch of the ulnar nerve)	
+What are the sites of potential compression of the radial nerver (5)?	-fibrous bands at the elbow joint -recurrent leash of Henry -ECRB -arcade of Frohse -supinator	
+How should the forearm be positioned to protect the PIN during the lateral approach to elbow (Kaplan)? Which direction does it move?	Pronate the forearm PIN moves anteriorly and radially	
+How should the forearm be positioned to protect the PIN during the posterior approach to the forearm (Thompson approach)?	Pronate forearm to protect PIN PIN moves anteriorly and radially	
+How should the forearm be positioned to protect the PIN during the anterior approach to the forearm (Henry approach)? Where does it move?	Supinate forearm to protect PIN PIN moves ulnarly (posteriorly and laterally)	
+What separates the great and lesser sciatic notch?	Iliac spine	
+What separates the greater and lesser sciatic foramina?	sacrospinous ligament (anterior sacrum to ischial spine)	
+What is a potential complication of a piriformis start point in pediatric femoral nail insertion?	THreatens the posterosuperior retinacular vessels (potential for femoral head AVN)	
+Slipped capital femoral epiphysis occurs through which physeal zone?	Zone of hypertrophy	
+List 5 functions of the acetabular labrum.	--Deepens labrum, enhances stability --load transmission --maintenance of vacuum seal --regulation of synovial fluid hydrodynamics --joint lubrication	
+What is the strongest ligament in the body? What does it attach to?	Iliofemoral ligament (Y ligament of Bigelow) Attaches to AIIS and intertrochanteric line (like an inverted Y)	
+Which tibial plateau is concave? Which is convex?	Medial tibial plateau--Concave Lateral tibial plateau--Convex	
+At the knee joint is there greater osseous congruity medially or laterally?	Medially (medial tibial plateau is concave)	
+What is a bipartite patella?	Failure of fusion of the superolateral corner of the patella--commonly confues with patella fracture	
+Define menisci red and white zones and their healing capacity?	Red zone--peripheral 1/3 of menisci, vascular, can repair   White zone--inner 2/3 of menisci, nourished by synvial fluid, limited healing capacity	
+Define the ACL bundles and when they are tight.	Anteromedial bundle--tight in flexion   Posterolateral bundle--tight in extension	
+Which ACL bundle is tested with a pivot shift exam?	Posterolateral bundle	
+Define the PCL bundles and when they are tight.	Anterolateral--tight in flexion Posteromedial--tight in extension	
+Name the 3 primary structures of the posterolateral corner (PLC). Name 5 accessory structures of the PLC.	PLC primary structures: --LCL --Popliteus tendon --Popliteofibular ligament   PLC accessory structures: --biceps femoris tendon --lateral head of gastroc --arcuate ligament --IT band --posterolateral capsule	
+Describe the results of a dial test.	Rotational instability at 30 degrees only = PLC injury   Rotational instability at 30 and 90 degrees = PLC + PCL injury	
+Isolated posterior cruciate ligament (PCL) injuries cause greatest knee instability at what degree of knee flexion?	90 degrees	
+What is the primary blood supply to the talar body? What is it supplied by?	Artery of the tarsal canal (posterior tibial artery)	
+Name the 3 lateral ligaments of the ankle and what motion they limit.	Anterior talofibular--limits inversion in plantar flexion   Calcaneofibular--limits inversion in neutral or dorsiflexion   Posterior talofibular--limits posterior talar displacement and external rotation	
+Name the 4 ligaments of the ankle syndesmosis.	--AITFL (anterior inferior tibiofibular ligament) --PITFL (posterior inferior tibiofibular ligament) --Transverse tibiofibular ligament --Interosseous ligament	
+What is the spring ligament? What does it do? In what deformity is it attenuated?	--Plantar calcaneonavicular ligament --supports head of talus --attenuated in pes planus deformity	
+What does the Lisfranc ligament connect?	medial cuneiform to 2nd metatarsal	
+What structures course along the posterior border of the medial malleolus?	"--Tibialis posterior tendon --flexor Digitorum longus tendon --Neurovascular bundle --flexor Hallucis longus tendon   ""Tom, Dick, and a Very Nervous Harry""   TP    FDL           Vein  Nerve     FHL"	
+What 6 nerves exit the pelvis below the piriformis?	POP's IQ   --Pudendal --nerve to Obturator internus --Posterior femoral cutaneous --Sciatic --Inferior gluteal --nerve to Quadratus femoris	
+What nerve supplies the skin medial side of the anterior knee and patellar ligament? In what 2 surgeries is it commonly injured?	Infrapetallar branch of the saphenous nerve   Can be damaged in patellar tendon harvest or TKA	
+In hip surgery, injury to the obturator nerve and artery can occur when retractors are placed where?	Behind the transverse acetabular ligament	
+Injury to the obturator nerve and artery can occur when acetabular screws are placed where?	Screw placement in the anteroinferior quadrant of the acetabulum	
+What is the most proximal branch of the lateral plantar nerve? What is its eponym?	Nerve to the abductor digiti quinti (Baxter nerve)	
+What supplies sensation to the dorsomedial aspect of the great toe? What is it a branch of? Describe its course.	Dorsal medial cutaneous nerve   Branches from the superficial peroneal nerve Crosses the EHL in a lateral-to-medial direction	
+What is the corona mortis?	An anastomitic connection between: --the inferior epigastric branch of the external iliac vessels --the obturator vessels in the obturator canal	
+The medial and lateral femoral circumflex vessels are named for location relative to what?	The iliopsoas tendon.	
+What do the medial and lateral geniculate arteries supply? What does the middle geniculate artery supply?	Medial and lateral geniculates--supply the menisci Middle geniculate--supplies the cruciate ligaments	
+The Stoppa modification is a modification to what approach? What access does it provide?	Modification to the ilioinguinal approach Uses a more extensive medial window and provides access to the pelvic brim and quadrilateral plate	
+The superior gluteal nerve passes between the gluteus medius and minimus how far from the greater trochanter?	5cm proximal to the tip of the greater trochanter	
+50% of total neck flexion an extension occurs where?	Occiput-C1 articulation	
+50% of total neck rotation occurs where?	C1-C2	
+The vertebral artery travels in the transverse foramina of what? What is it a branch of? What is its distance from the spinous process of C1 laterally?	Travels in transverse foramina of C6 to C1 (NOT C7)   Branches from the subclavian artery   2cm from the spinous process of C1 laterally	
+What is the normal diameter of the cervical spine canal?	17mm	
+The cervical cord may become compromised when the spinal canal diameter is less than what?	Less than 13mm	
+Which vertebra has the narrowest pedicles?	T5	
+Which ligament is the major stabilizer of the atlantoaxial joint?	The transverse ligament	
+How the fibers of the annulus fibrosus oriented and what is it composed of?	Obliquely oriented, composed of type 1 collagen	
+What is the central nucleus pulposus made of?	Type 2 collagen	
+In the cervical spine the numbered nerve exits where in relation to the vertebral level?	Nerve exits at a level above the pedicle of the corresponding vertebral level (C2 nerve exits at level vertebrae C1-C2)	
+In the lumbar spine the numbered nerve exits where in relation to the vertebral level? What does it traverse?	nerve root traverse the respective disc space above the named vertebral body and exits the respective foramen under the pedicle	
+Central disc herniation impinges on what? Lateral disc herniation impinges on?	Central disc herniation--impinges on traversing nerve root   Lateral disc herniation--iminges on exiting nerve root	
+Which nerve root is at particular risk with sacral fractures and errant anteriorly placed iliosacral screws?	L5--relatively fixed to the anterior sacral ala	
+Disruption of the inferior cervical gangla can lead to what?	Horner syndrome -ptosis -miosis -anhidrosis	
+Right sided anterior cervical approaches may risk injuring what? How is it identified?	Recurrent laryngeal nerve injury -hoarse voice, scratchy voice -unilateral vocal cord paralysis visualized on direct laryngoscopy	
+What does the recurrent laryngeal nerve arise from? At what level on the right and left?	Arises from the vagus nerve -Right--at the level of the the subclavian artery -Left--at the level of the aortic arch	
+What is the most common complication with a posterior cervical approach?	postoperative C5 palsy	
+Injury to the lumbar plexus can cause what? Specifically what part of the lumar plexus?	-sexual dysfunction and retrograde ejaculation   -Injury to the superior hypogastric plexus of the sympathetic plexus that overlies the L5 vertebral body	
+At what spinal level do the great vessels bifurcate?	L4-L5 disc	
+What is the safe zone for anterolateral halo pins?	1cm superior to the orbital rim in the outer 2/3 of the orbit below the equator of the skull	
+What are the 3 types of joints? Define them.	Synarthrosis--joining of two bony elements with no motion during maturity (skill sutures)   Amphiarthrosis--have hyaline cartilage and intervening discs with limited motion (pubic symphysis)   Diarthrosis--hylaine cartilage, synovial membrans, capsules, ligaments	
+What do peripheral nerves originate from?	The ventral rami of spinal nerves	
+What 4 structures attach to the coracoid process?	--coracoacromial ligament --coracoclavicular ligmants (conoid and trapezoid) --conjoined tendon (coracobrachialis and short head of biceps) --pec minor	
+Describe the humeral head orientation relative to the transepicondylar axis of the humerus.	30 degrees retroverted	
+What helps hold the long head of biceps tendon in the bicipital groove? Eponym?	transverse humeral ligament, Brodie's ligament	
+Describe the function of the superior glenohumeral ligament.	restrains external rotation and inferior translation of adducted or slightly abducted arm (arm at side)	
+Describe the function of the middle glenohumeral ligament.	Restrains anterior translation with arm abducted 45 degrees	
+Describe the function of the anterior band of the inferior glenohumeral ligament.	Restrains anterior and inferior translation with arm externally rotated and abducted to 90 degrees (position of apprehension)	
+Describe the function of the posterior band of the inferior glenohumeral ligaement.	Restrains posterior and inferior translation with arm internally rotated and abducted to 90 degrees	
+What is a Buford complex?	absence of anteriosuperior glenoid labrum and cordlike middle glenohumeral ligament	
+Which sternoclavicular ligament is strongest and the primary restraint to anteroposterior instability?	Posterior SC ligament	
+What are the borders and contents of the quadrangular space?	Superior--lower border of teres minor   Inferior--upper border of teres major   medial--long head of triceps   lateral--surgical neck of humerus   Contents: Axillary nerve, posterior humeral circumflex artery	
+What are the borders and contents of the triangular space?	Superior--lower border of teres minor   Inferior--upper border of teres major   Lateral--long head of triceps   Contents: circumflex scapular artery	
+What are the borders and contents of the triangular interval?	Superior--lower border of teres major   Medial--long head of triceps   Lateral--shaft of humerus   Contents: Radial nerve, profunda brachii artery	
+What is the carrying angle of the elbow?	Articular surface of distal humerus has 7 degree valgus tilt relative to shaft	
+What are the bundles of the medial (ulnar) collateral ligament of the elbow?	Anterior Posterior Transverse (cooper ligament)	
+What is reconstructed in UCL reconstruction (Tommy John surgery)? Where does it attach? What is the best way to test its stability?	anterior bundle of the UCL   attaches 18mm distal to the coronoid tip at the sublime tubercle   Test by placing a valgus stress on the elbow with arm in pronation	
+What are the components of the lateral collateral ligament of the elbow?	annular  radial ulnar	
+Where does the LUCL of the elbow attach?	attaches at the ulna crista supinatoris (supinator crest)	
+What does Osborne ligament do?	Stabilizes ulnar nerve in cubital tunnel	
+What is the ligament of struthers? What can it potentially compress?	variant anatomy attaching the supracondylar process to medial epicondyle   Median nerve	
+What is the arcade of Struthers? What can it potentially compress?	A tendinous sturcture connecting the medial head of the triceps to the medial intermuscular septum   Ulnar nerve	
+Where (specifically) does brachialis insert?	Coronoid process 11mm distal to the tip and Ulnar tuberosity	
+What are the components of the mobile wad (3)?	--brachioradialis --extensor carpi radialis longus (ECRL) --extensor carpi radialis brevis (ECRB)	
+What are the componenents of the flexor-pronator mass (5)?	PT, FCR, PL, FCU, FDS  --pronator teres --flexor carpi radialis --palmaris longus --flexor carpi ulnaris --flexor digitiorum superficialis	
+What are the superficial flexors of the forearm (5)? Describe their origin, insertion, action,		
+What are the deep flexors of the forearm (3)? Describe their origin, insertion, action, and innervation.		
+What are the superficial extensors of the forearm (7)? Describe their origin, insertion, action, and innervation.		
+What are the deep extensors of the forearm (5)? Describe their origin, insertion, action, and innervation.		
+Describe the ossification of the carpal bones. When/where does it begin, how does it proceed?	Ossification begins at the capitate (present by 1 year), proceeds in a counterclockwise direction (according to posteroanterior radiograph of hand)	
+What attaches to the scaphoid tubercle?	--transverse carpal ligament --abductor pollicis brevis	
+What attaches to the pisiform?	--transverse carpal ligament --flexor carpi ulnaris	
+What attaches to the trapezium tubercle?	--opponens --abductor pollicis brevis --flexor pollicis brevis --transverse carpal ligament	
+What attaches to the hook of the hamate?	transverse carpal ligament	
+In what position is the distal radioulnar joint most stable?	supination	
+What bones are involved in the radiocarpal joint?	scaphoid, lunate, triquetrum	
+Describe the orientation of the volar and dorsal radiocarpal ligaments. Which is strong/weak?	Volar--oblique ulnar, strong   Dorsal--oblique radial, weak	
+What are the components of the triangular fibrocartilage complex (5)?		
+In the intercarpal joints, what do extrinsic/intrinsic ligaments do?	Extrinsics--bridgle carpal bones to radius or metacarpals (radioscaphocapitate)   Intrinsics--attach carpal bones together (scapholunate)	
+What are the bones of the proximal row of the carpus? What connects them and which are stronger?	Scaphoid, lunate, triquetrum   Connected by dorsal and palmar intercarpal ligaments   Dorsal intercarpal ligaments are stronger	
+What are the bones of the distal row of the carpus? What ligaments connect them? Which interosseous ligament connection is strongest/weakest?	Trapezium, trapezoid, capitate, hamate   Connected by dorsal and palmar intercarpal ligaments   capitate-hamate ligament strongest trapezium-trapezoid ligament weakestq	
+What is the midcarpal joint?	Transverse articulations between the proximal and distal rows	
+Describe the cam mechanism of metacarpophalangeal joints.	Collateral ligaments of the MCPJs tighten with MCP joint flexion	
+Name the thenar muscles (4) and their innervation.	--Abductor pollics brevis --Opponens pollicis --Flexor pollicis brevis --Adductor pollics	
+Name the hypothenar muscles (4) and their innervation.	--Palmaris brevis --Abductor digiti minimi --Flexor digiti minimi brevis --Oppones digiti minimi	
+Name the intrinsic muscles of the hand (3), their function and innervation.	Lumbricals --Extend PIPJs --Median and ulnar nerves   Dorsal Interossei --Abduct fingers, flex MCPJs --Ulnar nerve   Palmar Interossei --Adduct fingers, flex MCPJs --Ulnar nerve	
+Name the contents of the extensor (dorsal) compartments of the wrist.		
+What tendons form the borders of the anatomic snuffbox?	Radial--EPB   Ulnar--EPL	
+Name the structures of the intrinsic apparatus (4) and what motions they allow.		
+What serves as the roos of the carpal tunnel? Where does it attach?	Transverse carpal ligament   Radial attachment --scaphoid tuberosity --trapezial ridge   Ulnar attachment --hook of hamate --pisiform	
+What structures pass through the carpal tunnel?	Median nerve 9 tendons  --FPL --FDS (4) --FDP (4)	
+Which FDS tendons are volar in the carpal tunnel?	Tendons to middle and ring fingers are volar to index and small fingers	
+Name the sequence of the flexor pulley system in order.	A1 A2 C1 A3 C2 A4 C3 A5	
+Which flexor pulleys originate from bone? Which originate from the palmar (volar) plates?	Bone--A2, A4   Volar plates--A1, A3, A5	
+Which pulley is involved in trigger digits?	A1	
+What is the brachial plexus formed from?	Ventral rami of C5-T1	
+Between what does the brachial plexus exit the neck?	anterior and middle scalene muscles	
+From proximal to distal what are the levels of the brachial plexus?	Real Texans Drink Cold Beer   Roots, Trunks, Divisions, Cords, Branches	
+How many brachial plexus roots are there? What terminal branches do they give off?	Five roots (C5-T1)   Terminal branches:--dorsal scapular nerve --long thoracic nerve	
+How many brachial plexus trunks are there? What terminal branches do they give off?	3 (upper, middle, lower)   Terminal branches:--suprascapular nerve --Nerve to subclavius	
+How many brachial plexus divisions are there? What terminal branches do they give off?	Six divisions (anterior and posterior; two limbs from each trunk)   No terminal branches at this level	
+How many brachial plexus cords are there?	Three cords (lateral, medial, posterior)	
+What are the terminal branches of the brachial plexus lateral cord (3)?	--musculocutaneous nerve --lateral pectoral nerve --contribution to median nerver	
+What are the terminal branches of the brachial plexus posterior cord (5)?	--Radial nerve --Axillary nerve --Upper and lower subscapular nerve --THoracodorsal nerve	
+What are the terminal branches of the brachial plexus medial cord (5)?	--ulnar nerve --contribution to median nerve --medial pectoral nerve --medial brachial cutaneous nerve --Medial antebrachial cutaneous nerve	
+Which brachial plexus terminal branch is formed from 2 cords? What are they?	The median nerve is formed from the medial and lateral cords	
+Innervation of all rotator cuff muscles is derived from what brachial plexus roots?	C5 and C6	
+Describe the innervation of the rotator cuff muscles.		
+What 2 categories can brachial plexus injuries be grouped into? Which has least potential for healing? Describe some characteristics of them.	Preganglionic and postganglionic brachial plexus injuries   Preganglionic: --proximal to dorsal root ganglion: CNS injury with little potential for recovery --More involvement of preclavicular branches --Horner syndrome --elevated hemidiaphragm   Postganglionic: --Less preclavicular nerve involvement (no scapular winging, rhomboid paralysis, rotator cuff disfunction) --Characteristic obstetric brachial plexus palsies	
+What are the 3 obstetric brachial plexus palsies? What are their prognoses?	Erb-Duchenne--best prognosis   Klumpke--poor prognosis   Total plexus--worst	
+What roots are affected and what deficits are seen in Erb-Duchenne palsy?	C5, C6 roots   Weaknes of deltoid, rotator cuff, elbow flexors, wrist and hand extensors (Waiter's tip)	
+What roots are effected and what deficits are seen in Klumpke palsy?	C8, T1   Weakness of wrist flexors and intrinsic apparatus, Horner syndrome	
+What roots are effected and what deficits are seen in total plexus palsy?	C5-T1   Flaccid arm	
+Where does the musculocutaneous nerve pierce the coracobrachialis?	5-8cm distal to the coracoid	
+The musculocutaneous nerve is a branch what cord? What nerve roots?	Lateral cord   C5, 6, 7	
+What does the musculocutaneous nerve terminate as?	lateral antebrachial cutaneous nerve	
+The axillary nerve is a branch of what cord? What nerve roots?	posterior cord   C5, 6	
+What does the anterior branch of the axillary nerve supply? Where does it pass around the humerus?	Deltoid and skin over lateral shoulder   Passes around humerus 5-7cm distal to the acromion in the deep deltoid fascia	
+The radial nerve is a branch of what cord? What nerve roots?	Posterior cord   C5-T1	
+What are the terminal branches of the radial nerve?	Superficial (SBRN)   Deep (PIN)	
+The posterior interosseous nerve supplies all of the extensor muscles of the forearm except what?	The mobile wad   brachioradialis, ECRB, ECRL (radial nerve)	
+The median nerve is a branch of what brachial plexus cords? What nerve roots?	medial and lateral cords   C5-T1	
+What does the median nerve accompany in the arm? How many branches in the arm does it have?	Median nerve accompanies the brachial artery   It has no branches in the arm	
+The palmar cutaneous branch of the median nerve arises where? What does it pass superficial to? What does it innervate?	Arises 6cm proximal to the radial styloid   Passes superficial to the flexor retinaculum   Innervates the thenar skin	
+In the carpal tunnel, the median nerve runs in between what?	FDS and FCR (FCR is outside of carpal tunnel)	
+The ulnar nerve is a branch of what brachial plexus cords? What nerve roots?	Medial cord   C8, T1	
+Where is the ulnar nerve in relation to the brachial artery in the upper arm? Where does it pass posterior to the medial intermuscular septum?	Ulnar nerve runs posteromedial to the brachial artery in upper arm   Passes posterior to the medial intermuscular septum at the arcade of struthers (8-10cm from the medial epicondyle)	
+Describe the path of the deep motor branch of the ulnar nerve at the hand.	Travels around the hook of the hamate   Between abductor digiti minimi and flexor digiti minimi brevis   Provids motor to the intrinsics	
+What are the zones of Guyon canal compression? What are the symptoms (motor or sensory) and common causes?	Zone 1: --Proximal to ulnar nerve bifurcation --Mixed motor and sensory --Ganglion cyst, hook of hamate fracture   Zone 2:  --Deep motor branch of ulnar nerve --Motor only --Ganglion cyst, hook of hamate fracture   Zone 3: --Superficial sensory branch of ulnar nerve --Sensory only --Ulnar artery thrombosis/aneurysm	
+What is the leash of Henry?	Recurrent radial artery vessels	
+What is the arcade of Frohse?	Proximal edge of the superficial head of the supinator	
+What is Wartenberg syndrome?	Compression of the superficial branch of the radial nerve   Causes paresthesias over dosroradial hand, symptoms at rest   Compression occurs between brachioradialis and ECRL (6-9cm proximal to radial syloid)	
+What does the radial artery run inbetween proximally and distally?	Proximal--runs on pronator teres deep to brachioradialis   Distal--enters wrist between brachioradialis and FCR	
+What does the ulnar artery run inbetween proximally and distally?	Proximal--between FDS and FDP   Distal--between FCU and FDS	
+What artery forms the deep palmar arch of the hand?	radial artery	
+What artery forms the superficial palmar arch?	ulnar artery	
+What is the interval used in the deltopectoral approach? What structures are at risk?	Interval: --Deltoid (Axillary nerve) --Pec major (medial/lateral pectoral nerves)   Risks: --Axillary nerve --musculocutaneous nerve	
+What is at risk in the lateral (deltoid-splitting) approach to the shoulder? Where?	Axillary nerve   5-7cm distal to acromion it courses posterior-anterior around shoulder in deep fascia of deltoid	
+What is the interval used in the posterior approach to the shoulder? What is at risk?	Interval: --Infraspinatus (suprascapular nerve) --teres minor (axillary nerve)   Risk: --Quadrangular space (axillary nerve and posterior humeral circumflex artery) --Suprascapular nerve	
+What is the interval used in the anterolateral approach to the humerus proximally, midhumerus, and distally? What is at risk?	Proximal: --Deltoid (axillary nerve) --Pec major (medial/lateral pectoral nerves)   Midhumerus: --Between fibers of brachials (radial and musculcutaneous nerves   Distal: --Brachials (radial & musculocutaneous nerve) --Brachioradialis (radial nerve)   Risks: --Radial and axillary nerve --LABCN distally	
+What is the interval in the posterior approach to the humerus? What is at risk?	No interval, triceps-splitting   Risks: Radial nerve (must identify) Ulnar nerve Axillary nerve	
+What is the interval used in the anterior approach to the antecubital fossa?	biceps, brachioradialis, pronator teres	
+What is the Hotchkiss approach? What is the interval? What is at risk?	Medial approach to the elbow.   Proximal interval: --brachialis (musculocutaneous nerve) --Triceps (Radial nerve)   Distal interval --brachials --pronator teres (median nerve)   Risks: --Medial antebrachial cutaneous nerves --Ulnar nerve	
+What is the Kaplan approach? What is the interval? What is at risk?	Lateral approach to the elbow   Interval: --ECRB (radial/PIN) --EDC (PIN)   Risks: --PIN --LUCL	
+What is the Kocher approach? Interval? Risks?	Posterolateral approach to the elbow   Interval: --anconeus (radial nerve) --ECU (PIN)   Risks: --PIN	
+What is the Henry approach? Interval? Risks?	Anterior approach to the forearm   Interval: --brachioradialis (radial nerve) --pronator teres proximally (median nn) --FCR distally (median nn)   Risks: --SBRN --Radial artery --PIN	
+What is the Thompson approach? Interval? Risk?	Posterior approach to the forearm   Interval: -ECRB (radial nerve/PIN -EDC proximally (PIN) -EPL distally (PIN)   Risks: --PIN	
+What are the forearm compartments?	Volar Dorsal Mobile Wad	
+How many hand compartments are there? What are they?	10   --Hypothenar --Thenar --Adductor pollicis --Dorsal interosseous (4) --Volar interosseous (3)	
+What originates at the ASIS?	--sartorius --transerse & internal abdominal muscles	
+What originates at the AIIS?	--direct head of rectus femoris --Iliofemoral ligament	
+What can occur of the quadratus femoris is completely transected during an adult posterior hip approach?	damage to medial femoral circumflex artery	
+What the femoral neck version?	Anteverted 14 degrees in relation to femoral condyles	
+What is the average femoral neck shaft angle?	127 degrees	
+What are the 5 flexors of the hip and their origin, insertion, and nerve?		
+What are the 3 extensors of the hip and their origin, insertion, and nerve?		
+What are the 4 adductors of the hip and their origin, insertion, and nerve?		
+What are the 7 external rotators of the hip and their origin, insertion, and nerve?		
+What are the 3 abductors of the hip and their origin, insertion, and nerve?		
+What are the 4 muscles of the anterior thigh? Origin, insertion, innervation?	Rectus femoris --origin: AIIS, and acetabulum --Insertion: patella --Innervation: Femoral	
+What are the 3 muscles of the posterior thigh? Origin, insertion, innervation?		
+What is the innervation of the short and long heads of the biceps femoris?	Sciatic nerve divisions  Long head--tibial nerve   Short head--peroneal nerve	
+Which femoral condyle is larger?	Medial	
+What is Gerdy tubercle?	attachment point of iliotibial tract on lateral side of proximal tibia	
+What attaches to the fibular head (3)?	--LCL --Biceps femoris insertion --Politeofibular ligament (attaches to styloid process)	
+Which meniscus tears most commonly? What most be protected when repairing it?	Medial meniscus 3x more than lateral   Protect saphenous nerve	
+Which meniscus tears most commonly in conjunction with ACL tears? What must be protected during its repair?	Lateral meniscus   Protect peroneal nerve	
+What are the attachments and the function of the medial patellofemoral ligament?	Proximal attachment--Schottle point (between adductor tubercle and medial femoral epicondyle)   Distal attachment--superomedial patella   Function--resists lateral translation of the patella	
+Describe Schottle's point.	Between adductor tubercle and medial femoral epicondyle	
+What are the the 3 ligaments of the medial knee? Describe their attachments and functions.		
+What are the 3 ligaments of the lateral knee? Describe their attachments and functions.		
+What are the 5 intra-articular ligaments of the knee? Describe their attachments and function.		
+The superficial MCL attached how far distal to the joint?	5-7cm	
+The posterior oblique ligament of the knee resists internal rotation with the knee in what position?	Full extension	
+What are the 4 muscles of the anterior compartment of the leg? Describe their origin, insertion, action, and innervation.		
+What are the 2 muscles of the lateral compartment of the leg? Describe their origin, insertion, action, and innervation		
+What are the 3 muscles of the superficial posterior compartment of the leg? Describe their origin, insertion, action, and innervation.		
+What are the 4 muscles of the deep posterior compartment of the leg? Describe the origin, insertion, action, and innervation.		
+What neurovascular structures run in each compartment of the leg?		
+Which bones are in the hindfoot, midfoot, and forefoot?	Hindfoot--talus and calcaneus   Midfoot--navicular, cuboid, and 3 cuneiforms   Forefoot--metatarsal and phalanges	
+If present, an os trigonum is where in relation to the FHL?	FHL runs in a groove posteriorly in the talus, Os trigonum is lateral to FHL here	
+How many articulations are there between the calcaneus and talus? What are they?	3   Large posterior facet Anterior facet Middle facet	
+WHat is the sustentaculum tali? What does it do?	Overhanging horizontal eminence on the anteromedial surface of the calcaneus   Has an inferior groove for FHL Supports the middle artiular surface above it.	
+The cuboid is grooved on the pantar surface by what tendon?	Peroneus longus	
+The navicular has a medial plantar projection which serves as the insertion for what tendon?	Posterior tibial tendon	
+The 1st metatarsal has a plantar crista that articulates with what?	Fibular and tibial sesamoids	
+What are the fibular and tibial sesamoids contained within?	Flexor hallucis brevis tendon	
+Bony avulsion of the anteroinferior tibiofibular ligament (AITFL) in adolescents may result in what fracture?	Tillaux fracture	
+What are the 4 ligaments of the medial ankle, their attachments, and functions?		
+What are the 3 ligaments of the lateral ankle, their attachments, and functions?		
+What are the the layers of the deltoid ligament of the ankle? What do they contain? What joints do they cross?	Superficial layer --tibionavicular and tibiocalcaneal ligaments --Cross ankle and subtalar joint   Deep layer ---anterior and posterior tibiotalar ligaments --cross ankle joint only	
+Which lateral ankle ligament is weakes and injured with lateral ankle sprain	ATFL anterior talofibular ligament	
+Where, specifically, does interdigital neuritis (Morton neuroma) occur?	At the point where the digital nerve courses in a plantar direction under the transverse metatarsal ligament, usually in the 2nd or 3rd interdigital space.   Transvere metatarsal ligaments interconnect the metatarsal heads.	
+What is the primary stabilizing struction of the metatarsophalangeal joints?	The plantar plate	
+What 4 tendons cross the anterior ankle joint from lateral to medial?	peroneus tertius extensor digitorum longus extensor hallucis longus tibialis anterior	
+What 2 tendons cross the lateral ankle joint? Describe their orientation.	Peroneus longus (superficial)   Peroneus brevis (deep)	
+What is the only dorsal intrinsic muscle of the foot? What innervates it?	extensor digitorum brevis   Innervated by the lateral terminal branch of the deep peroneal nerve	
+Which muscles are responsible for the following foot functions and what is their innervation? --Inversion (2) --Dorsiflexion (3) --Eversion (2) --Plantarflexion (4)		
+The nerves of the lower extremity arise from what?	the lumbosacral plexus	
+What are the 4 branches of the anterior division of the lumbar plexus and their spinal levels?		
+What are the 2 branches of posterior division of the lumbar plexus and their spinal levels?		
+What are the 6 branches of the anterior division of the sacral plexus and their spinal levels?		
+What are the 5 branches of the posterior division of the sacral plexus and their spinal levels?		
+What are the 4 motions that occur about the hip and their neurologic levels?		
+What are the 2 motions that occur about the knee and their neurologic levels?		
+What are the 4 motions that occur about the ankle and their neurologic levels?		
+The lumbar plexus is formed by the ventral rami of which levels?	T12-L4	
+Where, anatomically, is the lumbar plexus found?	Anterior surface of quadratus lumborum, under (and within) the psoas major muscle.	
+Describe the course of the genitofemoral nerve in relation to the psoas.	Genitofemoral nerve pierces the psoas then lies on the anteromedial surface of the psoas.	
+The ventral rami of which levels form the sacral plexus?	L4-S3	
+Where, anatomically, is the sacral plexus found?	Posterior to the psoas muscle?	
+Which nerve root is at risk with anteriorly placed sacroiliac screws?	L5 nerve root   Runs on anterior sacrum	
+What are the 9 structures exiting the greater sciatic foramen?		
+What are the 4 structures exiting the lesser sciatic foramen?		
+The superior and inferior gluteal nerves and vessels are named in relation to what?	The piriformis   superior exits above muscle, inferior below	
+What is meralgia paresthetica?	Lateral femoral cutaneous nerve compression	
+What structures make the borders and floor of the femoral triangle? What structures are contained within?	Borders: --sartorius (lateral) --pectineus (medial) --inguinal ligament (superior)   Floor: (lateral to medial) --iliacus, psoas, pectineus, adductor longus   Structures: (lateral to medial) NAVaL --femoral Nerve, Artery, Ven, and Lymphatics	
+Pain from the hip is referred to the knee via  which nerve?	Obturator nerve   Has anterior division which delivers cutaneous branches to the medial thigh	
+Describe the course of the sciatic nerve as it passes and exits the piriformis.	Passes anterior to piriformis (usually) and posterior to obturator internus and short external rotators	
+What are the divisions of the sciatic nerve? Which is more lateral making it more vulnerable to what?	Peroneal and tibial divisions   Peroneal division is more lateral, making it more susceptible to iatrogenic injury (most common nerve injury during THA)	
+Which divisions of the sciatic nerve nerve supply which muscles in the posterior compartment of the thigh?	Tibial divisions supplies all posterior thigh musculature except short head of biceps femoris (peroneal division)	
+All sensation in the foot is supplied by terminal branches of what? Except for?	sciatic nerve   except medial foot (saphenous nerve--branch of femoral nerve)	
+The tibial nerve supplies what muscle innervation?	All muscles of the superficial and deep posterior compartments   All intrinsic foot muscles except EDB (deep peroneal nerve)	
+The posterior tibial nerve splits into what 2 branches under the flexor retinaculum? What do they innervate?	Medial and lateral plantar nerves   Medial plantar nerve: --Plantar sensation to medial 3 1/2 digits --Motor to FHB, abductor hallcus, FDB, 1st lumbrical   Lateral plantar nerve: --Plantar sensation to lateral 1 1/2 digits --Motor to remaining intrinsic muscles of the foot	
+Describe course of the common peroneal nerve.	Sciatic nerve splits to common peroneal and tibial nerves   Common peroneal diverges laterally and traverses the lateral popliteal fossa deep to the biceps femoris tendon   Winds around fibular neck   Runs deep to peroneus longus, where it devides into superficial and deep branches	
+The superficial peroneal nerve runs where? Supplying what muscular branches?	Runs along border between lateral and anterior compartments in the leg   Supplies muscle branches to the lateral compartment (peroneus longus and brevis)	
+The superficial peroneal nerve terminates with what 2 branches? Which is at risk for injury during placement of the anterolateral ankle arthroscopy portal?	Medial dorsal and intermediate dorsal cutaneous nerves   Dorsal intermediate at risk	
+The deep peroneal nerve runs where in the leg? Supplying what musculature?	Runs along the anterior surface of the interosseous membrane.   Supplies the anterior compartment (TA, EHL, EDL, peroneus tertius)	
+What supplies sensation to the first webspace of the foot?	Medial terminal branch of the deep peroneal nerve	
+The sural nerve is formed by what?	Cutaneous branches of both the tibial (medial sural cutaneous) and common peroneal (lateral sural cutaneous) nerves.	
+Name 4 important internal iliac artery branches.	--obturator --superior gluteal --inferior gluteal --internal pudendal	
+What artery can be injured by placement of acetabular screws in the anterosuperior quadrant during THA?	Femoral artery	
+The femoral artery branches into what? What do they supply?	Superficial femoral artery--supplies leg and foot   Profunda femoris--supplies musculature of thigh	
+What are the boundaries of the adductor (Hunter) canal? What are its contents?	Anteromedial wall--sartorius   Posterior wall--adducto longus and magnus   Lateral wall--vastus medialis   Contains superficial femoral artery and femoral vein	
+What are the key branches of the profunda femoris artery?	--lateral femoral circumflex   --Medial femoral circumflex   --Deep perforators	
+What artery is at risk during anterolateral approaches to the hip?	Ascending branch of the lateral femoral circumflex artery	
+Describe the course of the medial femoral circumflex artery.	Runs between pectineus and iliopsoas   Proceeds distally anterior to quadratus femoris on its cranial edge just distal to obturator externus	
+The popliteal artery enters the popliteal fossa between what muscles? Between what does it terminate and what does it divide into?	Enters popliteal fossa between biceps femoris and semimembranosus   Terminates between medial and lateral head of gastroc   Divids into anterior and posterior tibial arteries	
+The anterior tibial artery runs between what muscles?	Runs on anterior surface of interosseous membrane between tibialis anterior and EHL	
+The anterior tibial artery terminates as what?	The dorsalis pedis	
+The posterior tibial artery runs in what compartment of the leg? Terminates as what?	Runs in deep posterior compartment   Divides into medial and lateral plantar arteries	
+What is the main branch of the posterior tibial artery? Where does it run? What does it terminate as?	Peroneal artery   Given off 2.5cm distal to popliteal fossa. Continues in the deep posterior compartment lateral to its parent artery between tibialis posterior and FHL   Terminates in the calcaneal branches	
+What is at risk in an anterior iliac crest bone grafter?	Lateral femor cutaneous nerve   runs medial to ASIS	
+What is at risk in posterior iliac crest bone graft?	superior cluneal nerves    8cm lateral to PSIS	
+The ilioinguinal approach to the acetabulum gives access to what? It relies on mobilization of what?	Iliac fossa from pubic symphysis to sacroiliac joint, anterior column of acetabulum Relies on mobilization of rectus abdominus and iliacus	
+In the ilioinguinal approach, the second (middle) window is between what? What does it provide access to?	Between the iliopectineal fascia and the external iliac vessels   Provides access to the pelvic brim from the anterior SI joint the the lateral portion of the superior pubic ramus	
+In the ilioinguinal approach, the third (medial) window is between what? What does it provide access to?	Between the external iliac vessels and the spermatic cord   Gives access to the pubic symphysis	
+What does the Kocher-Langenbeck approach provide access to? What can you do to protect the blood supply to femoral head? What may result if there is damage to gluteus minimus	access to the posterior column and posterior wall of acetabulum   No true internervous plane, splits gluteus maximus   Devide short external rotators 1-2cm off bone to protect blood supply to femoral head (lateral ascending branch of the medial femoral circumflex artery)   Damage to gluteus minimus may result in hetertopic ossification	
+What is the Smith-Peterson approach to the hip? Interval? Risks?	Anterior approach to the hip   Superficial interval: sartorius and TFL Deep interval: rectus femoris and gluteus medius (femoral nerve and superior gluteal nerves)   Risks: --LFCN, 6-8cm below ASIS --Lateral femoral circumflex artery (ascending branch ligated in approach, deep branch at risk) --Superficial iliac circumflex artery, penetrates TFL anter to LFCN --Femoral never and artery, injured with excessive medial retraction of the sartorius	
+What is the Watson-Jones approach to the hip? Interval? Risks?	Anterolateral approach to the hip   Interval: TFL and gluteus medius (intermuscular plane, not internervous)   Risks:  --Femoral nerve and artery (excessive medial retraction) --Superior gluteal nerve (5cm above acetabular rim) --Lateral femoral circumflex artery	
+What is the Hardinge approach to the hip? Interval? Risks?	Lateral approach to the hip   Involves splitting of gluteus medius and vastus lateral in tandem   Risks: --Superior gluteal nerve (may damage if gluteus medius split too proximal (>5cm above greater trochanter) --LFCN	
+What is the Moore or Southern approach to the hip? Interval? Risks?	Posterior approach to the hip, distal extension of the Kocher-Langenbeck   Involves splitting gluteus maximus and releasing short external rotators   Risks: --Sciatic nerve --Inferior gluteal artery --Medial femoral circumflex artery (injured during takedown of the external rotators)	
+What is the Ludloff approach to the hip? Common use? Interval? Risks?	Medial approach to the hip   Used for open reduction of congenital hip dislocation, psoas release   Interval: Adductor longus and gracilis   Risks: --Obturator nerve and medial femoral circumflex arteries are between adductor brevis and adductor magnus/pectineus --Deep external pudendal artery	
+What is the interval in the medial approach to the knee? What are its 3 layers? Risks?	Interval: sartorius and medial patellar retinaculum   Layers from superfical to deep: 1. pes anserinus tendons 2. superfical MCL 3. deep MCL and capsule   Risks --saphenous nerve --MCL	
+What is the interval in the lateral approach to the knee? Risks?	Either split the IT band or approach between IT band and biceps femoris   Risks:  --Common peroneal nerve --LCL & popliteus tendon --Superior and inferior lateral geniculate arteries	
+What is the interval in the anterior approach to the ankle? Risks?	Interval --EHL --EDL or tibialis anterior   Risks --deep peroneal nerve --anterior tibial artery (both lie directly in interval, retract medially along with EHL)	
+What are the risks in the posterior and anterior approachs to the medial malleolus?	Posterior approach: (through tendon sheath of posterior tibialis) --posterior tibia tendon, FDL, posterior tibial artery/nerve/vein, FHL   Anterior approach: --saphenous nerve and long saphenous vein	
+Describe the posteromedial approach to the ankle. What is it commonly used for? Risks?	Begin roughly midway between achilles tendon and medial malleolus Incise the fascial flap covering the remainder of the flexor tendons Identify FHL (the only muscle that still has fibers at this level) Decide if you need to go medial or lateral to FHL   Commonly used for release in clubfoot in children   Risks: --Posterior tibial nerve and artery	
+What is at risk in the lateral approach to the ankle?	Direct dissection over fibula   sural nerve and superficial peroneal nerve at risk	
+What is the interval in the posterolateral approach to the ankle? Risks?	Interval: --Peroneus brevis --FHL   Risks --lesser saphenous vein and sural nerve	
+What is lateral approach to the hindfoot commonly used for? Interval? Risks	used for triple arthrodesis   Interval --peroneus tertius --peroneal tendons   Risks: --lateral branch of the deep peroneal nerve (supplies EDB) --FHL if deep penetration with and instrument	
+What are the normal curves of the spine segments?	Cervical lordosis Thoracic kyphosis Lumbar lordosis Sacral kyphosis	
+The following topographic landmarks correspond to what spinal level? --Mandible --Hyoid cartilage --cricoid cartilage --Vertebra prominens --scapular spine --distal tip of scapula --iliac crest		
+Clearance of what is recommended for rheumatoid patients undergoing elective orthopaedic procedures? Why?	Cervical spine clearance   Common atlantoaxial joint instability due to pannus invagination	
+Lumbar lordosis is what angle? Where is the apex? Where does 66% of the lordosis occur?	Lumbar lordosis ranges from 55 to 60 degrees   Apex at L3   66% of lordosis occurs in region from L4 to sacrum	
+What is spondylolysis?	Defect of pars interarticularis   Most common cause of back pain in children and adolescents	
+Describe the shape of the posterior longitudinal ligament in the spine? Where do ruptured discs typically occur in relation the PLL?	Hourglass shaped --wider (yet thinner) sections located over the discs   Ruptured discs tend to be lateral to these expansions	
+Describe the course of the ligamentum flavum.	Runs from anterior surface of superior lamina to posterior surface of inferior lamina   Constantly in tension	
+What is contained within the anterior, middle, and posterior spinal columns?		
+Unstable vertical shear pelvic fractures can lead to avulsion fractures of what? Via what ligament?	L5 tranverse process   Iliolumbar ligament --conect ilium to L5 transverse process	
+What are the 3 ascending (sensory) spinal cord tracts and their functions?		
+What are the 2 descending (motor) spinal cord tracts and their function?		
+How does the bulbocavernosus reflex relate to the prognosis of incomplete spinal cord injury?	Prognosis of incomplete spinal cord injury is unaffected by the presence or absence of the bulbocavernosus reflex	
+Describe the functional deficits and prognosis of the following incomplete spinal cord injuries: --Central cord --Anterior cord --Brown-Sequard		
+Key testable neurologic levels--What is the neurologic level for the following muscles: --Deltoid --Wrist extension --Wrist fleion --Finger flexion --Interossei --Tibialis anterior --Toe extensors --Peroneal		
+Key testable neurologic levels--What is the neurologic level for the following reflexes: --Biceps --Brachioradialis --Triceps --Patellar --Achilles		
+What are the contents of the carotid sheath? Describe their cross-sectional relationships.	--internal carotid artery (medial) --common carotid artery (medial) --Internal jugular vein (lateral) --cranial nerve X (vagus nerve) (posterior)	
+What is the Artery of Adamkiewicz? i.e. where is it and what does it do?	Great anterior medullary artery   Enters through the left intervertebral foramen in the lower thoracic spine from T8-T12.   Supplies the interior 2/3 of the anterior cord	
+Describe Erb-Duchenne palsy: nerve root and arm position.	C5, C6   waiter's tip deformity: --shoulder adducted and internally rotated --elbow extended --forearm pronated --wrist and fingers flexed	
+Describe Klumpke palsy: nerve roots and arm position.	C8, T1   elbow flexion and forearm supination contracture	
+Describe total plexus palsy: nerve roots and effect on arm.	C5-T1   Complete sensory and motor deficits	
+In brachial plexus palsy, children with significant internal rotation contracture are at risk for what?	70% of children will develop progressive glenoid dysplasia	
+Poor prognosis in brachial plexus palsy in children is associated with what 2 clinical findings?	Lack of biceps function 6 months after injury   Horner syndrome	
+In Erb's Palsy in children, what procedure can be done to address shoulder internal rotation?	L'episcopo--transfer of teres major to external rotators   modified L'episcopo--addition of latissumus transfer to external rotators	
+In-toeing is usually attributable to what in infants? toddlers? children <10 years?	Infants--metatarsus adducts   toddlers--internal tibial torsion   children <10 years--femoral anteversion	
+What is metatarsus adductus?	Inward deviation of lateral board of foot from base of 4th metatarsal	
+What is internal tibial torsion? What angle is used to measure it?	An internal twisting of the tibia   Thigh-foot angle of -10 or more	
+What is femoral anteversion in the setting in-toeing?	Increased anteversion of the femoral neck relative to the femur   Compensatory internal rotation of the femur   Lower extremity intoeing	
+What typically causes out-toeing in infants? Children and adolescents?	Infants--external rotation hip contracture   Children and Adolescents--external tibial/femoral torsion	
+How can you estimate leg length discrepancy in children?	Assume the following growth per year up to age 16 in boys and 14 in girls   Proximal femur--3mm Distal femur--9mm Proximal tibia--6mm Distal tibia--5mm	
+Leg length discrepancy of 2-5cm in children with open physes has what treatment options?	--epiphysiodesis of the long side --shortening of the long side (ostectomy) --Lengthening of the short side	
+In children with open physes, leg length discrepancies of more than 5cm are generally treated with what?	Lengthening of the short side	
+Name 4 risk factors (in order) for developmental dysplasia of the hip.	--breech positioning --positive family history --female sex --firstborn child	
+Describe the 2 physical exam maneuvers for early diagnosis of developmental dysplasia of the hip.	Ortolani--elevation and abduction of femur relocates the hip   Barlow--adduction and depression of femur dislocates a dislocatable hip	
+If early diagnosis of developmental dysplasia of the hip is missed, how does it typically present?	Limitation of hip abduction in affected hip   laxity resolves and stiffness becomes more clinically evident	
+What is the initial imaging study in early developmental dysplasia of the hip? At what age?	Dynamic ultrasonography   4-6 months (before ossification of femoral head)	
+What are the radiographic signs of developmental dysplasia of the hip (3)?	--Broken shenton line --Metaphysis lateral to Perkin line --Increased acetabular index (>25 degrees)	
+What is the treatment of developmental dysplasia of the hip from birth to 6 months? When should you check reduction and what do you do if hip reduced/not reduced?	Pavlik harness   Check reduction with ultrasound after 3 weeks   Not reduced: rigid orthosis vs. closed reduction, arthrogram, spica casting   Reduced: continue harness until examination and ultrasound findings normal	
+What is the treatment of developmental dysplasia of the hip in patients ages 6-18 months?	hip arthrography, percutaneous adductor tenotomy, closed reduction, and spica casting   If closed reduction fails, perform open reduction	
+What is the treatment for developmental dysplasia of the hip in patients aged 18 months to 3 years?	open reduction	
+What is the treatment for developmental dysplasia of the hip in patients aged 3 to 8 years?	Osteotomy (Salter, Dega, Pemberton, or Staheli procedures)	
+What are the osteotomies used in treatment for developmental dysplasia of the hip and at what age?	3-8 years: --Salter, Dega, Pemberton, or Staheli procedures   Older than 8 years: --Triradiate open: triple (Steele), double pelvic (Southerland), Staheli procedure --Triradiate closed: Ganz and Chiari procedures	
+Name 2 feared complications of a Pavlick harness and what causes them.	Avascular necrosis--caused by excessive abduction   Femoral nerve palsy--hyperflexion	
+If attempts to reduce a hip in a Pavlick harness in 3 weeks what should be done with the harness? Why?	Discontinue harness   Prevent Pavlick disease (erosion of the pelvis superior to the acetabulum) and subsequent difficulty with closed reduction and casting	
+In developmental dysplasia of the hip, open reductions are typically performed through what approach?	anterior approach   (less risk to the medial femoral circumflex artery than in the medial approach)	
+What 3 criteria must be present for osteotomies to be performed in developmental dysplasia of the hip?	--congruent reduction confirmed on an abduction-internal rotation radiograph   --satisfactory ROM   --Reasonable femoral sphericity	
+In developmental dysplasia of the hip, which 2 osteotomies can be performed if the hip is not concentrically reduced?	--Chiari --Shelf (lateral shelf acetabular augmentation)	
+In what 3 pediatric conditions can congenital coxa vara be treated with observation?	--bilateral arthrogryposis --Myelomingocele if no functional quadriceps --spinal muscular atrophy	
+In what 2 pediatric conditions should congenital coxa vara be treated/operated on?	--Down syndrome --cerebral palsy, unless chronic	
+What is Legg-Calve-Perthes disese (coxa plana)?	Idiopathic avascular necrosis of the proximal femoral epiphysis in children	
+How common is bilateral involvement in Legg-Calve-Perthes disease?	15% of cases, rarely synchronous	
+What is the Herring lateral pillar classification?	The most prognostic classification in Legg-Calve-Perthes disease	
+Name 3 patient characteristics associated with poor prognosis in Legg-Calve-Perthes disease?	bone age >6 female decreased hip abduction	
+What is the long term result of aspherical femoral heads in Legg-Calve-Perthes disease?	Early degenerative hip disease	
+What is the treatment of Legg-Calve-Perthes disease?	Somewhat controversial.   Relief of symptoms with traction, antiinflammatories, partial weight bearing   Some may need surgery (osteotomy)	
+In Legg-Calve-Perthes disease, surgical treatment improves radiographic outcome at skeletal maturity for patients with what characteristics?	Older patients (chronologic age >8 years or bone age >6 years) with lateral pillar group B and B/C hips	
+Slipped capital femoral epiphysis is caused by? Slippage occurs through?	Caused by weakness of the perichondrial ring   Slippage through the hypertrophic zone of the growth plate	
+Name 3 hormonal disorders associated with SCFE. Which is most common?	hypothyroidism (most common)   growth hormone deficiency   renal osteodystrophy	
+What is the most common reason for missed diagnosis of SCFE?	When patients present with knee pain	
+What physical exam finding is seen with SCFE?	obligate hip external rotation and flexion	
+What is the classification for SCFE?	Stable: weight bearing possible; AVN rare   Unstable: weight bearing not possible; rate of AVN 50%	
+What is the treatment of SCFE?	in situ pinning (for stable and unstable)	
+In SCFE, when is prophylactic pinning of the contralateral hip generally recommended?	patients with an endocrinopathy   patients younger than 10   Patients with open triradiate cartilage	
+In SCFE, pins placed in what location have the highest rate of joint penetration?	anterior superior quadrant of the femoral head	
+What is the most common cause of painful hips during childhood? What else should the patient be evaluated for?	Transient synovitis   Evaluate for septic hip. Consider aspiration especially if fever, leukocytosis, elevated ESR	
+How is transient synovitis treated?	First rule out septic hip   Then treat with NSAIDs and observe. Symptoms should improve within 24 to 48 hours	
+What is the most common cause of acute hematogenous osteomyelitis?	S. aureus, regardless of age	
+What bacteria is associated with deep venous thrombosis and septic emboli?	MRSA	
+What is the treatment of acute hematogenous osteomyelitis in children? How can treatment be monitored? When should surgery be performed?	Treat with IV antibiotics   Monitor therapeutic response with CRP, failure to decline within 48-72 hours warrants alteration of treatment   Perform operative drainage and debridement if failure to respond to antibiotics, frank pus on MRI, or the presence of a sequestered abscess	
+What is the most common cause of septic arthritis in children?	hematogenous seeding of synovium	
+What joints can develop septic arthritis via metaphyseal osteomyelitis? Why?	hip, elbow, shoulder, ankle   metaphyses of proximal femur, proximal radius, proximal humerus, and distal tibia and fibula are intra-articular	
+What are the Kocher criteria (4)?	Pediatric criteria for diagnosis of septic arthritis of the hip   --WBC >12,000 --ESR >40 --Inability to bear weight --Temp > 101.5   If 3/4 positive then 90% chance of septic arthritis	
+What study should be considered when sepsis is caused by H. influenzae? Why?	lumbar puncture   increased incidence of meningitis	
+What can be seen on radiographs in pediatric septic arthritis?	widened joint space or even dislocation	
+Why is septic arthritis in children and acute surgical emergency?	pus is chondrolytic	
+What is Blount's disease?	Progressive pathologic genu varum centered at the tibia   Divided into Infantile and adolescent	
+What is the classification scheme in infantile Blount's disease?	Langenskiold classification   Type 1-4 have increasing medial metaphyseal breaking and sloping   Type 5 and 6 have epiphyseal-metaphyseal bone bridge	
+What is the treatment of infantile blount disease?	Stage I or II --Bracing if younger than 3 years (better outcomes if unilateral or nonobese)   Stage II (if >3 years) and Stage III: --Proximal osteotomy for tibia/fibula with valgus angulation to overcorrect deformity (because medial physeal growth abnormalities persist)   Stage IV to VI: --complex with multiple procedures required, epiphysiolys for stage V and VI disease	
+Compare/contrast infantile and adolescent Blount's disease/	Infantile --pathologic genu varum in children 2-5 years of age --male>female --more common --bilateral 50%   Adolescent --pathologic genu varum >10 years of age --less common --less severe --more likely unilateral	
+How does adolescent Blount's disease typically manifest?	relatively normal appearing physis that shows widening of the proximal medial physeal plate. Beaking is not seen.	
+What are the 3 types of tibial bowing?	Posteromedial Anteromedial Anterolateral	
+What is posteromedial tibial bowing associated with? Treatment?	Physiologic Commonly associated with leg length discrepancy, calcaneovalgus foot, and tight anterior structures   Usually spontaneously corrects, monitor patient to evaulate for leg length discrepancy	
+What is anteromedial tibial bowing associated with?	fibular hemimelia	
+What are the 1st and 2nd most common causes of anterolateral tibial bowing? Initial treatment?	1) congenital pseudarthrosis 2) neurofibromatosis   Initial treatment with total-contact brace to prevent fracture	
+Osteochondritis dissecans most frequently involves which portion of the knee? Treatment if growth plates are open?	lateral portion of the medial femoral condyle   If growth plates are open, treat with bracing and restricted weight bearing	
+How is a discoid meniscus diagnosed on MRI? Treatment?	Appears on MRI in three successive sagittal images with the meniscal body presentd   Treat with saucerization or debridement	
+Describe the clubfoot deformity.	forefoot adductus and supination hindfoot equinus and varus	
+What is seen on radiographs in clubfoot deformity?	parallelism of the calcaneus and talus	
+What is the initial treatment of clubfoot deformity? How is it done?	Ponseti casting   Sequence of correction is CAVE: cavus, adducts, varus, equinus	
+A dynamic forefoot adduction/supination may develop after clubfoot treatment as a result of what? Treatment?	Overpull of the anterior tibialis    Necessitates transfer of the anterior tibialis tendon laterally	
+What is an important complication of clubfoot surgery? Treatment?	Development of a dorsal bunion   Treat with: --capsulotomy --FHL lengthening --transfer of FHB to become a MTPJ extensor	
+What is a congenital vertical talus?	An irreducible dorsal dislocation of the navicular bone on the talus, with a fixed equinus hindfoot deformity	
+What is seen on plantar flexion lateral radiographs in congenital vertical talus?	a line along the long axis of the talus that passes below the first metatarsal-cuneiform axis	
+What is the initial treatment of congenital vertical talus? When is surgery performed and what does it entail?	Initial treatment is corrective casting   Surgery when patient 6-12 months old --includes soft tissue releases and reduction of the talonavicular joint with reconstruction of the spring ligament	
+What are the 2 most common tarsal coalitions and their age groups?	Calcaneonavicular (10-12 years) Talocalcaneal (12-14 years)	
+What may be seen on radiographs with tarsal coalitions? What is the best imaging modality?	talar beaking on the lateral view Irregular middle facet on the Harris axial view   CT scan reliably demonstrates the coalition	
+What is the initial treatment of tarsal coalition?	immoblization	
+What is the treatment of subtalar coalition?	Subtalar coalition involving less than 50% of the joint should be treated with resection and EDB interposition   If involvement more than 50% of joint subtalar arthrodesis is recommended	
+What is Kohler disease	self-limiting sclerosis of the navicular	
+What is the treatment of flexible pes planus?	Observation if asymptomatic   Surgical treatment is with calcaneal lengthening osteotomy or 3C (calcaneus, cuneiform, cuboid) osteotomy)	
+How does an accessory navicular manifest? Treatment?	Medial arch pain, typicall self limiting   Excision of the accessory bone with reconstruction of the posterior tibial tendon in refractory cases	
+What is adolescent idiopathic scoliosis?  What angle is used to measure it?	An idiopathic scoliosis in children 10-18 years The most common type of scoliosis   Measure with Cobb angle >10 degrees defined as scoliosis	
+What are the indications for MRI in adolescent idiopathic scoliosis (6)?	--Left thoracic curves --painful or rapidly progressing scoliosis --Apical kyphosis of the thoracic curve --Juvenile-onset scoliosis (age <10 years) --Neurologic signs or symptoms --Congenital abnormalities	
+What are the risk factors for curve progression in adolescent idiopathic scoliosis?	--Skeletal immaturity (Risser stage 0 to 2) --Curve magnitude before or during peak height velocity (the period where maximum rate of growth occurs)	
+When does peak height velocity occur?	During Risser stage 0 Before the onset of menarche	
+What are the Risser stages?	An indirect measure of skeletal maturity, whereby the degree of ossification of the iliac apophysis on radiographs is used to judge overall skeletal development. Useful in estimating prognosis of adolescent idiopathic scoliosis.	
+What is the treatment of adolescent idiopathic scoliosis?	Use Cobb angle:   <25 degrees: observation   25-45 degrees and skeletally immature: bracing   25-45 degrees and skeletally mature: observation   >45 to 50 degrees: surgery	
+What is juvenile idiopathic scoliosis?	An idiopathic scoliosis presenting between 4 and 10 years of age	
+What is the likelihood of requring treatment in juvenile idiopathic scoliosis?	Risk of progression is much higher than in adolescent form   70% require treatment Of those who do, 50% require bracing and 50% require surgery	
+What additional imaging study should be routinely considered in juvenile idiopathic scoliosis? Why?	MRI   Rate of spinal cord abnormality is 25%	
+What is infantile idiopathic scoliosis? Name 4 ways in which it differs from adolescent form.	Idiopathic scoliosis in patients younger than 3 years   Differences from adolescent form: --Left curves --More common in boys --Plagiocephaly (skull flattening) --Congenital defects	
+What is the most common disease progression of infantile idiopathic scoliosis?	90% resolve spontaneously	
+How is risk for progression determined in infantile idiopathic scoliosis?	The rib-vertebral angle difference   <20 degrees--Low risk for progression >20 degrees--High risk for progression	
+How is the rib-vertabral and difference calculated? What is it used for?	Measure the angle between the endplate and the rib of both ribs at 1 vertebra. RVAD = difference of the 2 angles        Used for estimating progression in infantile idiopathic scoliosis (<20 degrees: spontaneous recovery; >20 degrees: high rate of progression)	
+What is congenital scoliosis? What are the 3 basic types of defects and their prognoses?	A developmental defect in formation of the spine during the 5th to 8th week of gestation	
+Congenital scoliosis has a high incidence of what associated abnormalities?	--Intraspinal abnormality: 20-40% (obtain MRI) --Cardiac system: 12-26% --Genitourinary system: 20%	
+What is Scheurmann disease?	Most common structural kyphosis in adolescents  Increased thoracic kyphosis (>45 degree curvature) with 5 degrees or more of anterior wedging at 3 sequential vertebrae	
+When should bracing be considered for skeletally immature patients with increased thoracic kyphosis? Operative indications?	CTLSO brace when kyphotic curvature is 50-70 degrees   Operative indications: --kyphotic curvature >70-75 degrees --rigid deformity --progress curve failure with 6 months of non-op management	
+What is rotatory atlantoaxial subluxation? How does it commonly manifest and what are 3 common causes in pediatrics?	C1-C2 instability caused by subluxation or facet dislocation   Often manifests with torticollis   Causes: --Ligamentous laxity (Down syndrome) --Retropharyngeal inflammation (Grisel disease) --Trauma	
+What is the treatment of atlantoaxial rotatory displacement or subluxation in pediatrics?	Symptoms for <1 week: C-collar, analgesics, heat   Symptoms for between 1 and 4 weeks: Halter or Halo traction   Symptos for greater than 1 month: surgical reduction and C1-C2 fusion	
+What is Os odontoideum? When is surgery needed?	Either a congenital failure of fusion of the base of the odontoid (fuses between age 4 and 6) or uncrecognized odontoid fracture that has resulted in nonunion   Instability or presence of neurologic symptoms necessitates C1-C2 posterior fusion	
+What needs to be exclude in order to diagnose congenital muscular torticollis?	Generally torticollis is a symptom/sign, not a disease   Congenital muscular torticollis is a diagnosis of exclusion   Must rule out: --Infection --congenital spinal deformity --rotatory subluxation of the cervical spine --hearing loss --optic dysfunction	
+What is the initial treatment of congenital muscular torticollis? What is the response rate? How is it done?	Passive stretching   90% respond in 1st year   The chin should be rotated toward the affected side with a lateral head tilt away from the affected side	
+What ultrasound finding is associated with failure of nonoperative management of congenital muscular torticollis?	severe fibrosis of the sternocleidomastoid muscle	
+What is spondylolysis? In what children is it common?	Stress fracture at the pars interarticularis   Common in athletes who use hyperextension (gymnasts, football linemen, wrestlers, divers)	
+What is spondylolisthesis? Where is it most commonly seen?	Foward slippage of the proximal vertebra on the distal vertebra   Most common at L5-S1	
+What is the slip angle?	Most important determinant for nonunion and pain in spondylolisthesis   Measured from bottom end plate of L5 and a perpendicular to the line on the posterior sacrum   Angle greater than 45-50 degrees associated with greater risk of slip progression, instability, and development of postoperative pseudarthrosis	
+What is the most common neurologic complication in the surgical treatment of high-grade spondylolisthesis?	L5 root injury	
+What is cerebral palsy? It is classified on the basis of what (3)?	Nonprogressive neuromuscular disorder, onset before age 2, results from injury to immature brain   Classified on basis of: --Physiology (according to the movement disorder--spastic, athetosis, ataxia, mixed) --Anatomy (according to geographic distribution--hemiplegia, diplegia) --Function (gross motor and functional classification system; GMFCS)	
+Describe the gross motor and functional classification system (GMFCS) in cerebral palsy.	Functional description of CP	
+The anatomic classification of cerebral palsy is divided into what 3 types?	Hemiplegia: one side of body, both upper and lower extremities   Diplegia: low half involved more than upper half   Quadriplegia: both sides, both halves	
+What physical exam findings in cerebral palsy are predictive that a child will be unable to walk?	Persistence of primitive reflexes--presence of 2 or more usually means the child will be unable to walk   2 commonly tested: --Moro startle reflex: normally disappears by age 6 months --Parachute reflex: normally disappears by age 12 months	
+In cerebral palsy, the ability to do what is highly prognostic of walking?	The ability to sit	
+What drug can be used in cerebral palsy to temporarily reduce dynamic spasticity? How does it work?	Intramuscular botulinum A toxin   Blocks presynaptic release of acetylcholine at the neuromuscular junction	
+What is dorsal rhizotomy? Who is it used to treat and when?	Selective dorsal root rhizotomy is a neurosurgical procedure designed to decrease lower extremity spasticity (selectively destroys problematic nerve roots in the spinal cord)   Performed primarily in cerebral palsy ambulatory patients, age 4-8, with spastic diplegia   Reduces spasticity and complements orthopaedic management	
+What drug is used to control overall tone in cerebral palsy? How does it work?	Baclofen   inhibits signals through the GABA pathway	
+In what age range should surgery be avoided in cerebral palsy?	The first 3 years of life	
+Children with which form of cerebral palsy have greatest risk for scoliosis? What are the surgical indications (3)?	Highest risk in children with total body involvement (spastic quadriplegic)   Surgical indications: --curves greater than 45-50 degrees --Worsening pelvic obliquity --Wheel chair seating problems   Pelvic obliquity:	
+What is a common hip problem in cerebral palsy?	Hip subluxation and dislocation   In many children it is asymptomatic	
+What are the 4 stages of hip subluxation/dislocation and their treatments in cerebral palsy?	1) Hip at risk: significant adduction and flexion contractures but minimal subluxation --Perform adductor and psoas release before the child is 5 years of age   2) Hip subluxation --Perform adductor tenotomy in children with abduction of less than 20 degrees, sometimes psoas release/recession --Femoral or pelvic osteotomys may be considered in femoral coxa valga and acetabular dysplasia   3) Spastic dislocation: may benefit from ... --Femur: open reduction and femoral shortening, varus derotation osteotomy --Pelvis: Dega osteotomy, triple osteotomy, or Chiari osteotomy --Addressing both hips can prevent dislocation of the opposite hip   4) Windswept hips: abduction of one hip and adduction of contralateral hip --Bilateral femoral osteotomies to more varus positioning can assist with maintaining reduction	
+Equinovarus foot is more common in what form of cerebral palsy? What causes it?	spastic hemiplegia   Caused by overpull of either the posterior or anterior tibialis tendon	
+In the equinovarus foot in cerebral palsy, when are split-muscle transfers helpful?	When the affected muscle is spastic during both the stance and swing phases of the gait.	
+In the equinovarus foot of cerebral palsy, what is involved in split-posterior tibialis transfer? When is it used?	Rerouting half of the tendon dorsally to the peroneus brevis   Used in cases of spasticity of the muscle, flexible varus foot, and weak peroneal muscles	
+What is arthrogryposis?	a.k.a arthrogryposis multiplex congenita, or amyoplasia   A nonprogressive disorder with multiple joints that are congenitally rigid	
+In arthrogryposis, what procedure is performed to achieve active elbow flexion?	anterior triceps transfer and posterior soft tissue release	
+In arthrogryposis, what surgery is performed for unilateral hip dislocation?	medial open reduction with possible femoral shortening	
+In arthrogryposis, what is the treatment of bilateral hip dislocation?	typically left unreduced because ambulation is often preserved	
+In arthrogryposis, what is the treatment of knee contractures?	early (age 6-9 months) soft tissue releases (especially hamstrings)   To maintain reduction, knee contractures should be corrected before hip reduction	
+In arthrogryposis, what is the treatment of clubfoot and vertical talus? What is the goal?	Initially treated with soft tissue release, but later recurrences may necessitate bone procedures (talectomy)   Goal is for the foot to be stiff and plantigrade to wear shoes and possibly ambulate	
+What is myelodysplasia? What are the classifications (4)?	Spina bifida. A spectrum of disorders caused by incomplete spinal cord closure or rupture of the developing cord secondary to hydrocephalus.   Spina bifida occulta: defect in vertebral arch, with confided cord and meninges   Meningocele: sac without neural elements protruding through the defect   Myelomeningocele: sac with neural elements protruding through the skin   Rachischisis: neural elements exposed, no covering	
+How can myelodysplasia be diagnosed in utero? What is it related to?	increased levels of alpha-fetoprotein   related to folate deficiency	
+Myelodysplasia level is based on what? Which level is key for independent community ambulation?	Level based on lowest functional level   L4 is key because the quadriceps can function, allowing independent community ambulation	
+Describe myelodysplasia levels (L1 to S1) in regards to the: --Hip --Knee --Feet --Orthosis --Extent of ambulation		
+In myelodysplasia fractures are common. Where do they most often occur? How do they commonly present? What are they commonly misdiagnosed as?	Fractures occur most often about the knee and hip in children 3-7 years   Frequently diagnosed only by noting redness, warmth, and swelling that is caused by pain insensitivity.   Commonly misdiagnosed as infection	
+An environment free of what allergen is required in spina bifida?	A latex-free environment   A significant proportion of patients have a serious latex allergy	
+In myelodysplasia, when is containment of hip dislocation considered essential?	Only in patients with functioning quadriceps   redislocation may occur regardless of treatment type	
+In thoracic-level myelomeningocele what is the management principle of hip dislocations?	Functional outcome is independent of whether the hips are located or dislocated.   Management should focus on limiting of soft tissue contractures.	
+What is the most common foot and ankle deformity in myelodysplasia? How is it treated?	Calcaneal deformity   Treat with tibialis anterior transfer to the calcaneus	
+In myelodysplasia what ankle deformity is common in ambulatory patients? Where is the deformity located?	Valgus ankle deformity   Deformity in the distal tibia and/or the subtalar joint	
+In myelodysplasia, what is the treatment of valgus tibia or subtalar joint in skeletally immature patients? Skeletally mature?	Skeletally immature: hemiepiphysiodesis or achilles tendon-fibular tenodesis   Skeletally mature:  distal tibial osteotomy	
+In myelodysplasia, what does treatment of rigid clubfoot consist of (3)?	--Complete subtalar release through a transverse (Cincinnati) incision --Lengthening of the tibialis posterior and achilles tendons --Transfer of the tibialis anterior tendon to the dorsal midfoot	
+What are myopathies? What are they classified based on?	Muscular dystrophies. Noninflammatory inherited disorders characterized by progressive muscle weakness   Several types classified on the basis of their inheritance pattern.	
+What is Duchenne muscular dystrophy caused by? What is its gene mutation and inheritance? What muscle groups are affected most?	Caused by absence of dystrophin protein.   X-linked recessive inheritance of Xp21.2 dystrophin gene mutation (1/3 are from spontaneous mutation)   Proximal muscle groups are affected most	
+What is seen on muscle biopsy and DNA testing in Duchenne muscular dystrophy?	Markedly elevated creatine phosphokinase level and absence of dystrophin protein	
+What causes Becker muscular dystrophy? Inheritence pattern?	Caused by decreased dystrophin protein   X-linked recessive	
+What is Charcot-Marie-Tooth disease? What are its 2 forms? What are its orthopedic manifestations?	Am autosomal dominant hereditary sensory motor demyelinating neuropathy resulting in muscle weakness and sensory changes   Hypertrophic form--onset during 2nd year of life Neuronal form--onset during 3rd or 4th decade with more extensive foot involvement   Orthopedic manifestations:  --Pes cavus --Hammer toes with frequent corns and calluses --Peroneal weakness --Muscular atrophy usually distal to the knees (stork legs)	
+How is diagnosis of Charcot-Marie-Tooth most reliably diagnosed?	DNA testing for a duplication of a genomic fragment that encompasses the peripheral myelin protein-22 (PMP-22) on chromosome 17	
+What are the most severely affected muscles in Charcot-Marie-Tooth? What is the first foot deformity to appear?	Tibialis anterior Peroneus longus Peroneus brevis   Plantar flexion of the first ray is the first deformity to appear due to weakened tibialis anterior	
+What procedure is performed in Charcot-Marie-Tooth if the varus limb is flexible?	Plantar release and posterior tibial tendon transfer	
+What causes spinal muscular atrophy?	A loss of anterior horn cells from the spinal cord leading to progressive motor weakness	
+What is the inheritance pattern and associated gene in spinal muscular atrophy?	Autosomal recessive   survival motor neuron (SMN) gene	
+What spine problem develops universally in spinal muscular atrophy?	Scoliosis   Must treat early. Bracing can delay surgery but all go on to need fusion if younger than 10	
+In spinal muscular dystrophy, spinal fusion may result in decrease of what?	Decrease in upper extremity function   May be temporary	
+In spinal muscular atrophy, what must be ensured before performing spinal fusion?	Ensure the patient does not have lower extremity muscle contractures that could interfere with sitting balance.	
+What hip problem is common in spinal muscular atrophy? How is it treated?	Hip subluxation or dislocation   Treated nonoperatively	
+What are the categories of dwarfism?	Proportionate dwarfism: symmetric decrease in both trunk and limb length (e.g. mucopolysaccharidoses)   Disproportionate dwarfism: --Short-trunk variety (e.g. Kneist syndrom, spondyloepiphyseal) --Short-limb variety (achondroplasia, diastrophic dysplasia)	
+Majority of dwarfisms not associated with mucopolysaccharidosis have what inheritance pattern?	Autosomal dominant	
+Name 2 autosomal recessive dwarfisms.	diastrophic dysplasia McKusick metaphyseal chondroplasia	
+Name one X-linked recessive dwarfism.	spondyloepiphyseal dysplasia tarda	
+Major mucopolysaccharidoses follow what inheritance pattern?	autosomal recessive	
+Name one X-linked mucopolysaccharidosis.	X-linked recessive	
+Name the genetic association with: --Achondroplasia --Pseudoachondroplasia --Diastrophic dysplasia --Multiple epiphyseal dysplasia (MED) --Cleidocranial dysplasia	--Achondroplasia: FGFR3   --Pseudoachondroplasia: COMP   --Diastrophic dysplasia: sulfate transport protein   --Multiple epiphyseal dysplasia (MED): Type II collagen genes   --Cleidocranial dysplasia: CBFA1	
+What is the most common form of disproportional dwarfism? What is its inheritance? What gene is mutated and what does this cause?	Achondroplasia   Autosomal dominant   FGFR3 mutation--results in failure in the proliferative zone of the physis	
+What spine deformities are seen in achondroplasia (3)?	--Lumbar stenosis --Excessive lordosis (short pedicles with decreased interpedicular distances) --Foramen magnum stenosis	
+What pelvis deformity is seen with achondroplasia?	Champagne glass deformity (wider than it is deep)	
+What leg deformities are seen in achondroplasia (2)?	genu varum tibia vara	
+What elbow deformity is seen in achondroplasia?	radial head subluxation	
+What is the shape of growth plates in achondroplasia?	U or V shaped	
+Describe some physical characteristics of achondroplasia (7).	--Normal trunk --short limbs --hypotonia --frontal bossing --button noses --small nasal bridges --trident hands	
+What is the inheritance of pseudoachondroplasia? Gene? Chromosome?	Autosomal dominant   Defect of cartilage oligometric matrix protein (COMP)   Chromosome 19	
+What is multiple epiphyseal dysplasia (MED)?	A form of dwarfism characterized by irregular, delayed ossification at multiple epiphyses   Often not manifested until between ages 5 and 14    Spectrum of disorders with a spectrum of phenotypes	
+What is the most common gene mutation in multiple epiphyseal dysplasia? What other gene mutation is common?	Most common: COMP   Other: Type IX collagen	
+The proximal femoral involvement in multiple epiphyseal dysplasia can be confused with what? What is characteristic of MED?	Confused with Perthes disease   MED: --bilateral and symmetric --early acetabular changes --no metaphyseal cysts	
+What imaging study should be performed if multiple epiphyseal dysplasia is suspected? Why?	Bone survey   Differentiates between Perthes disease, spondyloepiphyseal dysplasia (SED), and MED	
+What is spondyloepiphyseal dysplasia (SED)?	Similar to MED (abnormal epiphyseal development in upper and lower extremties) but has added spine involvement   Spine involvement: --scoliosis: sharp curve over a small number of vertebrae --Atlantoaxial instability with cervical myelopathy	
+What is Morquio syndrome? What is it characterized by?	The most common form of mucopolysaccharidosis   A proportionate dwarfism   Characterized by urinary excretion of keratan sulfate	
+What cervical spine pathology can be seen in Morquio syndrome? How does it manifest?	C1-C2 instability (resulting from odontoid hypoplasia)   Manifests with myelopathy necessitating decompression and cervical fusion	
+What is diastrophic dysplasia? Inheritence? Gene? Manifestation (4)?	A severe short-limbed dwarfism   Autosomal recessive   Deficiency of DTDST gene (sulfate transport protein)   Cauliflower ears Rigid clubfeet Hitchhiker's thumb Cleft palate	
+What cervical pathology is common in diastrophyic dysplasia? What is the major concern of this and what must be done?	Cervical kyphosis   Major concern for quadriplegia, must fuse early	
+What is cleidocranial dysplasia? What does it effect? Inheritance? Gene? Radiologic findings (2)?	a.k.a. Dysostosis   A proportionate dwarfism that effects bones formed by intramembranous ossification (clavicles, cranium, pelvis)   Autosomal dominant   Defect in transcription factor for osteocalcin (CBFA1)   Radiologic findings: --hypoplasia or aplasia of the clavicle (no intervention necessary) --Delayed ossification of the symphysis pubis	
+What causes osteopetrosis? Cause? Inheritance?	A metabolic bone disease caused by defective osteoclastic resorption of bone   Probably secondary to a defect in the thymus   Mild form: autosomal dominant Malignant form: autosomal recessive	
+Osteopetrosis when associated with renal tubular acidosis and cerebral calcifications is due to a defect in what gene?	Defect in carbonic anhydrase II gene	
+In osteopetrosis, loss of the medullary canal can cause what (2)?	--Anemias --Encroachment on the optic and oculomotor nerves which leads to blindness	
+"What 3 ""buzz phrases"" are used to describe the radiographic features of osteopetrosis?"	--Marble bone --Rugger jersey spine --Erlenmeyer flask deformity of the proximal humerus and distal femur	
+What procedure may be helpful in treating the malignant form of osteopetrosis?	Bone marrow transplantation	
+What is the genetic defect in Down syndrome? What are its orthopedic manifestations (6)?	Trisomy 21   --atlantoaxial instability --hip instability --patellar dislocation --scoliosis --SCFE --spondylolisthesis	
+In Down syndrome, the pathogenesis of generalized ligamentous laxity is thought to be due to what? Genes? Chromosome?	Abnormal type VI collagen   Genes: COL6A1 and COL6A2   Chromosome 21	
+What screening is mandatory before induction of anesthesia in patients with Down syndrome?	Cervical spine instability   Otherwise, general C-spine screening is controversial	
+What is the treatment approach to hip instability in Down syndrome?	Initially treat with closed reduction   May go on to require capsulorrhaphy, pelvis osteotomy, and femoral osteotomies	
+What is the treatment algorithm for scoliosis in Down syndrome?	Bracing for 25-30 degree curves   Surgery for 50-60 degree curves	
+What is the Cobb angle? How is it measured?	Angle for measuring scoliosis (>10 degrees is scoliosis)	
+What is Marfan syndrome inheritance? Gene?	Autosomal dominant   Disorder of fibrillin-1 (important component of elastic and nonelastic connective tissues)	
+What are the non-orthopaedic manifestations of Marfan syndrome (4)?	--Pectus deformities --Cardiac abnormalities (aortic dilation major cause of death) --Ocular abnormalities (superior lens dislocation in 60%) --Dural ectasia and meningocele	
+What are the orthopaedic manifestation of Marfan syndrome (4)?	--Arachnodactyly --Scoliosis (50% of cases) --Acetabular protrusio (15-25%) --Joint laxity	
+What is the treatment of scoliosis in Marfan syndrome?	Bracing is ineffective   If curves severe enough will require anterior and posterior fusion	
+What is the treatment of acetabular protrusion in Marfan syndrome?	Rarely causes severe hip dysfunction   Usually observed   Prophylactic closure of triradiate cartilage is not recommended	
+What are the clinical features of Beckwith--Wiedemann Syndrome? (3 non-orthopaedic, 2 orthopaedic)	Non-orthopaedic: --Organomegaly --Omphalocele --Large tongue   Orthopaedic: --Hemihypertrophy --Spasticity	
+What are patients with Beckwith--Wiedemann syndrome predisposed to? What screening must they receive?	Wilms tumor   Regular screening with kidney ultrasonography	
+What common orthopedic manifestations are seen in sickle cell anemia (4)? What causes them?	Condition of hemolysis and microvascular occlusion   Consequences: --Bone infarction --Osteomyelitis --Osteonecrosis of the femoral and humeral heads --Septic arthritis	
+In sickle cell anemia, how is bone infarction differentiated from osteomyelitis?	Sequential bone marrow tests and bone scans within 24 hours    as well as gadolinium-enhanced T1-weighted MRI sequences	
+What are the most common infecting organisms in osteomyelitis in patients with sickle cell? What is the empiric antibiotic therapy?	S. aureus in most common   Salmonella is also common   Emperically treat with ceftriaxone	
+What is the inheritance of hemophilia? Gene? What causes the orthopaedic manifestations?	X-linked recessive   Decrease in Factors VIII (hemophilia A) and IX (hemophilia B)   Orthopedic manifestations are secondary to repeated episodes of hemorrhage	
+In hemophilia, what do recurrent hemarthroses result in? What is the surgical treatment?	Result in hemophilic arthropathy   Synovectomy is indicated for hemarthroses that recur despite optimal medical management   Medical management: immediate administration of factor VIII or IX during acute hemarthrosis, continue for 3-7 days after cessation of bleeding, followed by PT	
+What is the cause of femoral nerve neurapraxia in hemophilia?	Iliacus hematoma	
+In hemophilia, factor VIII levels should be increased for prophylaxis in what situations (4)?	--vigorous physical therapy (increse to 20%) --Treatment of hematoma (30%) --Acute hemarthrosis of soft tissue surgery (>50%) --Skeletal surgery (approaching 100% preop and maintain at 50% for 10 days post-op)	
+What causes rickets? Name 3 clinical features.	Deficiency of calcium (and sometimes phosphorus) affecting mineralization at the epiphyses of long bones.   Short stature Limb angulation (usually varus) Bone pain	
+What are the growth plate abnormalities seen in rickets?	--Enlarged and distorted maturation zone (zone of hypertrophy) --Poorly defined zone of provisional calcification	
+What causes osteogenesis imperfecta?	Defect in type I collagen (COL1A2 gene) that causes abnormal cross-linking and leads to decreased secretion of collagen	
+Describe the repair of fractures in osteogenesis imperfecta.	Normal healing but abnormal remodeling	
+What cervical spine problem is common with severe types of osteogenesis imperfecta?	Basilar invagination   (superior migration of C2 vertebra that can narrow the foramen magnum and press on the lower brainstem)	
+What drug has been shown to decrease the number of fractures in patients with osteogenesis imperfecta? What complication can occur?	Bisphosphonates   Iatrogenic osteopetrosis can occur with long-term use of high-dose	
+What spine deformity is common in osteogenesis imperfecta? Treatment?	Scoliosis is common   Bracing is ineffective, segmental instrumention is need with deformities exceeding 50 degrees	
+What is juvenile idiopathic arhtritis?	Includes both juvenile rheumatoid arthritis and juvenile chronic arthritis   Persistent noninfectious arthritis lasting 6 weeks to 3 months and diagnosed after other possible causes have been ruled out	
+When does juvenile idiopathic arthritis typically manifest? What joints does it commonly involve (3)?	Manifests before age of 4 typically   Commonly involves knee, wrist, and hand	
+In juvenile idiopathic arthritis, cervical spine involvement can lead to what (3)?	--kyphosis --facet ankylosis --atlantoaxial subluxation	
+What eye examination is required in juvenile idiopathic arhtritis? Why?	Slit lamp examination twice yearly   Progressive iridocyclitis can lead to rapid loss of vision if left untreated	
+What is ankylosing spondylitis?	A systemic chronic autoimmune spondyloarthropathy   Causes bilateral sacroiliitis, progressive spinal kyphotic deformity, cervical spine fractures, large joint arthritis   Systemic manifestations: acute anterior uveitis and iritis, cardiac conduction abnormalities, pulmonary fibrosis, renal amyloidosis, ascending aortic conditions	
+Ankylosing spondylitis is associated with what immune complex? What is a useful screening tool?	HLA-B27 (not a useful screening tool)   Limitation of chest wall expansion is a more specific screening tool (<2cm expansion more specific than HLA-B27)	
+Describe the course of the hand lumbrical muscles. (origin, pass, insertion)	Originate on radial aspect of FDP tendons   Pass volar to transverse mteacarpal ligaments   insert on the radial aspect of the extensor hood lateral bands	
+What is the intrinsic tightness test? Describe 3 conditions in which intrinsic tightness occurs.	Decreased PIPJ flexion with the MCPJ held in extension. PIPJs can be flexed easily with MCPJs held in flexion.   Occurs commonly in cerebral palsy, rheumatoid arthritis, and following trauma	
+What are the normal measurements of distal radius anatomy on radiographs?	Radial height--11mm Radial inclination--22 degrees Volar tilt--11 degrees   Should also assess ulnar variance	
+What are the acceptable reduction parameters of distal distal radius fractures?	Radial shortening <3mm Dorsal tilt <10 degrees Intraarticular step-off less than 2mm	
+What are 2 complications with prolonged immoblization of distal radius fractures?	Muscle atrophy Disuse osteopenia	
+What approach is best used for ORIF of distal radius fractures?	Volar approach is best for volarly displaced fractures (Smith and volar Barton)   Has also become standed for dorsally displaced fractures (Colles) and some intra-articular fractures	
+What approach is best used for direct visualization of the articular surface in distal radius fractures?	Dorsal approach	
+What is the most common complication after distal radius fracture?	Median nerve dysfunction	
+What tendon complication is seen following closed treatment of distal radius fractures? Why? How is it treated?	EPL tendon rupture   Due to attritional wear and/or vascular insufficiency near Lister tubercle   Treat with EIP to EPL tendon transfer. Primary repair is not possible.	
+What is the most common flexor injury after volar plating of distal radius fracture? Why? What about extensor injury?	FPL rupture--Most commonly due to positioning plate too distally.   EPL rupture--dorsally prominent screws	
+What is the most commonly injured carpal bone? What is it at risk for?	Scaphoid fractures   At risk for: --nonunion --osteonecrosis --posttraumatic osteoarhtrosis	
+What are 3 acute operative indications for fixation of scaphoid fractures?	--1mm displacement --Intrascaphoid ange >35 degrees (humpback deformity) --Trans-scaphoid perilunate dislocation	
+Fracture of what part of the scaphoid is a relative operative indication?	Proximal pole	
+How are minimally displaced fractures of the scaphoid commonly treated operatively?	Headless compression screw fixation by percutaneous or limited open incisions	
+When is formal ORIF of the scaphoid recommended?	Displaced injuries or those treated in a delayed fashion.	
+Where should guide pins be placed in ORIF of scaphoid fractures?	Along the central axis of both the proximal and distal fragments	
+What approach is preferred in ORIF of scaphoid fractures? Why?	Volar approach   Avoids disruption of the primary dorsal blood supply of the scaphoid	
+How is scaphoid nonunion treated?	ORIF and bone grafting (multiple techniques, vascularized vs non-vascularized)	
+What does untreated, chronic scaphoid nonunion lead to? Describe its progression.	SNAC wrist (Scaphoid nonunion advanced collapse)   Progression of SNAC wrist: 1. Radioscaphoid joint 2. Scaphocapitate and lunocapitate 3. Radiolunate	
+What causes hook-of-hamate fractures?	Blunt trauma to the palm, often stick or racquet sports	
+What imaging is used to diagnose hook-of-hamate fractures?	Carpal tunnel view or CT	
+How are hook-of-hamate fractures treated? What procedure is used for salvage?	Cast immobilization   Failure can be salvaged with fragment excision.	
+Carpal instability can be broadly classified into what 4 types?	1) Carpal instability dissociative--Instability between individual carpal bones of a single carpal wrose (DISI, VISI) 2) Carpal instability nondissociative (CIND)--instability between carpal rows (mid carpal or radiocarpal) 3) Carpal instability adaptive--from distal radius malunion 4) Carpal instability complex--perilunate dislocations	
+What is DISI? What is seen on radiographs?	Results from scapholunate ligament disruption. The scaphoid flexes palmar and the lunate dorsiflexes   Xray shows increased scapholunate angle (>70 degrees), widened scapholunate interval (>3mm)	
+Which portion of the scapholunate ligament is strongest?	Dorsal	
+What may result from chronic untreated DISI? Describe its progression.	Scapholunate advanced collapse (SLAC)   Progression of arthritis: 1. scaphoid and radial styloid 2. scaphoid and entire scaphoid facet of radius 3. scaphoid and capitate 4. between capitate and lunate	
+What is VISI? What is seen on radiographs?	Volar intercaleted segment instability. Caused by disruption of lunotriquetral ligament. Lunate and scaphoid flex volarly.   Radiographs show decreased scapholunate angle (<30, normal is 47). Break in Glilula arc.	
+Which portion of the lunotriquetral ligament is strongest?	Volar	
+What are the 4 stages of progression of perilunate dislocations?	Perilunar disruption of ligamentous constraints proceeding in counterclockwide fashion.  1. scapholunate 2. capitolunate 3. lunotriquetral--dorsal midcarpal dislocation (capitate dorsal to lunate) 4. circumferential--volar lunate dislocation	
+What is the treatment of perilunate dislocations?	Prompt closed reduction (risk of acute carpal tunnel syndrome) followed by definitive ORIF   ORIF may require volar and/or dorsal approach --Combination of ligamentous repair, fracture fixation, dorsal capulodesis, K-wire pinnig of proximal row and midcarpal joint.	
+What is a Bennett fracture?	intra-articular fracture-dislocation of the thumb metacarpal base.	
+What are the deforming forces in a Bennett fracture?	APL and thumb extensors   Causes, proximal, dorsal and radial displacement of the MC shaft	
+What keeps the volar-ulnar base fragment reduced to the trapezium in a Bennett fracture?	"the anterior oblique or  ""beak"" ligament"	
+What is the reduction technique used for Bennett fractures?	Traction, palmar abduction, and pronation	
+What is skier's or gamekeeper's thumb?	Acute and chronic injuries, respectively, to the thumb MCPJ ulnar collateral ligament (UCL)	
+What physical exam maneuver indicates injury to the thumb MCPJ UCL (skier's/gamekeer's thumb)	Stress thumb MCPJ with radial deviation both at neutral and 30 degrees of flexion   Instability at 30 degrees of flexion indicates injury to proper UCL	
+What is a Stener lesion?	Seen in 85% of skier's/gamekeeper's thumb   The adductor pollic aponeurosis is interposed between the avulsed UCL and its insertion site on the base of the proximal phalanx	
+PIPJ dislocations most commonly occur in what direction and result from what?	Dorsal dislocations most common   Result from volar plate and collateral ligament injury	
+What is disrupted in volar PIPJ dislocations?	Closed injury to the central slip and at least one collateral ligament	
+What is the treatment alogrithm of volar PIPJ dislocations?	Closed reduction followed by assessment of active extension   If no extensor lag: --splint in extension   If extensor lag: --central slip repair, 6 weeks of immobilization in extension	
+Inadequate treatment of volar PIPJ dislocations lead to what deformity?	boutonniere deformity	
+What is a rotary PIPJ dislocation?	one of the phalangeal condyles is buttonholed between the central slip and lateral band	
+PIPJ fracture-dislocations are classified based on what? What is the treatment algorithm?	Classified based on amount of middle phalanx articular surface involvement.	
+What typically blocks reduction in irreducible MCPJ and DIPJ dislocations? What is the treatment?	interposition of the volar plate   treat with open reduction and extraction of the volar plate	
+How is a mallet finger treated?	DIPJ extension splinting if detected within apporximately 12 weeks of injury?	
+What is a relative surgical indication for a mallet finger?	displaced bony mallet injury with significant volar subluxation of P3	
+Dorsal injury over the PIPJ may result in what? What is the result?	Results in dispruption of the central slip insertion   Lateral bands subluxated volarly resuting in an acute boutonniere deformity (posture of PIPJ flexion and DIPJ hyperextension)	
+How can a flexible, chronic boutonniere deformity be treated?	central slip reconstruction	
+What are fight bites? How are they treated?	Open injury over the MCPJ extensor hood from human teeth   Best treated with surgical debridement and IV antibiotics	
+When should partial flexor tendon lacerations be trimmed?	If painful triggering occurs within the tendon sheath	
+When should primary repair of flexor tendon lacerations be performed?	Lacerations with over 60% involvement	
+What is strength of flexor tendon repair proportional to?	Number of core suture strands that cross repair site	
+What decreases gap formation in flexor tendon repair?	A locking-loop configuration	
+When repairing flexor tendon injuries, sutures placed where are stronger?	dorsally placed core sutures	
+What additional repair can increase overall repair strength of flexor tendon injuries by up to 50%?	epitendinous repair	
+Why is early protected ROM after flexor tendon repair is advocated (3)?	Increases tendon excursion   Decreases adhesion formation   Increases repair strength	
+Active flexion protocols after flexor tendon repair requires what?	A minimum four-strand core repair	
+How should young children be treated after repair of a flexor tendon?	They cannot comply with therapy, require cast immoblization for 4 weeks.	
+What is a jersey finger?	closed flexor digitorum profundus tendon injury from forced DIPJ during grasping	
+When repairing a jersey finger, FDP advancement of 1cm or more carries a risk of what?	joint flexion contracture or quadrigia	
+What is quadrigia?	The middle-ring-small FDP tendons share a common muscle belly, and distal advancement of one tendon will compromise flexion of the adjacent digits resulting in forearm pain.	
+What is adult trigger finger?	stenosing flexor tenosynovitis caused by entrapment of the flexor tendons at the A1 pulley	
+What is the treatment of trigger finger?	Non-op: --night splinting, activity modifications, NSAIDS, steroid injections  Operative: --A1 pulley release if non-op fails	
+With what disease is trigger finger associated?	diabetes and rheumatologic disease   diabetics respond less favorably to steroid injection	
+What causes pediatric trigger thumb? How does it present? What is the treatment?	Caused by pathologic nodular thickening of a tendon (Notta node)   Presents with mechanical catching or fixed flexion deformity of IPJ in early childhood   May initially treat with observation but most go on to need A1 pulley release between age 2-4 to prevent IPJ contracture	
+What is de Quervain tenosynovitis? Who does it commonly effect?	Atttritional and degenerative condition affecting the first extensor compartment (APL/EPB). Presents with dorsoradial wrist pain and, swelling, and crepitus   Affects middle aged women, new mothers, and golfers	
+What is the treatment of de Quervain tenosynovitis?	Non-op: Rest, activity modification, thumb spica brace, NSAIDs, steroid injection into first dorsal compartment  *steroid injection successful in more than 80% if patients    Operative: Surgical release of first extensor compartment	
+What is frequently seen in de Quervain cases recalcitrant to operative treatment? What are common complications?	An anatomic variation in first extensor compartment  *APL May have multiple slips (2-4) *EPB May have its own separate compartment    Complications: *iatrogenic injury to superficial sensory radial nerve -tendon subluxation -CRPS -Recurrence from incomplete release	
+What is intersection syndrome? Who does it commonly affect? What is the treatment?	Tendinopathy or bursitis occurring between the first and second extensor compartments. Presents with tenderness, swelling, and crepitus localized to an area 4-5 cm proximal to radiocarpal joint   Commonly affects rowers, weight lifters, football lineman, martial artists, golfers   Generally treated nonoperatively with ice, splinting, NSAIDs, steroid injections into the second extensor compartment  When non-op fails surgical release of second extensor compartment and Deb ride meant of inflamed bursae	
+What does the TFCC do? What are it’s components?	Stabilizes the DRUJ and transmits 20% of axial load at the wrist (neutral ulnar variance)   Components: -dorsal and volar radioulnar ligaments -articular disc -meniscus homologue -ECU subsheath -Origins if the ulnolunate and ulnotriquetral ligaments	
+What are the classes of TFCC tears?	Class I-traumatic   Class II-degenerative   Further devided into subtypes based on anatomic location	
+What is the most common type of acute TFCC tear?	Avulsions at the ulnar peripherary (IB)   No difference in outcome with open versus arthroscopic repair	
+What are degenerative TFCC tears associated with? What is the most common surgical treatment in the absence of DRUJ osteoarthrosis?	Associated with positive ulnar variance and ulnocarpal impaction syndrome   Most commonly performed procedure is arthroscopic debridement and ulnar shortening osteotomy	
+What are 4 surgical treatment options of posttraumatic DRUJ osteoarthritis ?	-distal ulna resection (Darrach procedure)—reserved for elderly, low demand patients. May lead to painful proximal ulna stump instability -Hemiresection or interposition arthroplasty -Sauve-kapandji procedure—fusion of the DRUJ with creation of a proximal pseudarthrosis at the ulnar neck -prosthetic arthroplasty	
+What is the treatment of nailed injuries with <50% subungual hematoma? >50%?	<50%—nail trephination for pain relief, no nail plate removal   >50%—nail plate removal and repair of nail matrix lacerations	
+In fingertip amputations without exposed bone, what are guidelines for soft tissue coverage?	Allow to heal by secondary intention if wound less than 1cm or pulp is involved.   Otherwise skin grafts or composite grafts  are required	
+How are finger tip amputations with exposed bone characterized?	Orientation of tissue loss: transverse, volar oblique, dorsal oblique	
+To preserve length in a fingertip amputation with exposed bone, what coverage options are used for a volar oblique injury? Transverse or dorsal oblique?	Volar oblique -cross finger or thenar flap    Transverse or dorsal oblique: -V-Y advancement: wide volar flap is lifted off distal phalanx with a tapered base at the DIP flexion crease. Flap is advanced over the finger tip toward the dorsal side and a tension free closure is made. Or the Kutler method where two separate smaller V-Y advancements from the lateral aspects of the digits to cover transverse injuries	
+What coverage option is used for transverse or dorsal oblique thumb tip amputations with exposed bone?	Movers advancement flap—the entire volar skin of the thumb including its Neuro vascular contents are advanced distally. Flexion of the IPJ assists in coverage of the defect	
+What complication can occur when a fingertip amputation that acutely violates the FDP insertion is shortened and closed? What is the mechanism? Treatment?	A lumbrical-plus finger can occur    FDP tendon retracts and creates tension on the extensor mechanism through its intact lumbrical origin, causing paradoxical PIPJ extension with active finger flexion   Treat with release of the lateral band	
+What grafts are preferred for coverage in the volar hand and fingertip wounds? Why?	Full thickness skin grafts   More durable, contract less, provide better sensibility	
+What are the primary indications for upper extremity replantation? (4)	-thumb -multiple digits -wrist level or proximal -any amputation in a child -outside of zone 2 flexor tendon sheath	
+What are the primary contraindications to upper extremity replantation? (6)	-level of amputation within zone II flexor tendon sheath -single digit (except thumb), especially index -segmental -crushed or mangled -prolonged ischemia -multi system injuries   Multiple medical comorbidities and psychiatric conditions also indicate poor prognosis of replantation	
+What is the most predictive factor of digit survival after replantation?	Mechanism of injury	
+What is the most frequent cause of early, within 12 hours, replantation failure? What can be done if this is occurring?	Arterial thrombosis    Release constricting bandages, place extremity in dependent position, administer heparin, perform stellate ganglion block	
+What is the most frequent cause of failure after 12 hours of digit replantation ? What can be done if this is occurring?	Venous congestion or thrombosis   Remove dressings, elevate extremity, heparin soaked pledgers, leeches	
+If using leech therapy for venous congestion what should be given concomitantly? Why?	Ceftriaxone or ciprofloxacin   Risk of aeromonas hydrophila infection	
+What is the most commonly performed secondary procedure performed after successful digit replantation?	Tenolysis (tendon adhesions are common)	
+What is an Allen test?	Test to determine the presence or absence of a complete areterial arch in the palm   Compress both radial and ulnar arteries at wrist. Ask patient to squeeze and release hand several times. In sequential tests one artery is released while the other is compressed. A positive test denotes absent arterial filling of the digits when either the compressed radial or ulnar artery is released	
+What percent of people have an incomplete palmar arch? Why is this important?	20%. There may be significant compromise of blood flow to the digits if the the dominant artery is injured proximally	
+What is the most common post traumatic vascular occlusive condition of the upper extremity?	Hypothenar hammer syndrome	
+What is hypothenar hammer syndrome? Treatment?	Thrombosis or aneurysm formation of the distal ulnar artery after blunt trauma to the hypothenar eminence (carpenters, roofers)   Clinical findings include localized tenderness, cold intolerance, ischemic pain, compression neuropathy of the ulnar nerve in guyon canal   Treatment may involve resection and ligation of the thrombosis ulnar artery or reconstruction with a revers interposition graft or arterial conduit for better patency rate	
+What is the difference between Raynaud phenomenon and disease?	Phenomenon—vasospasm with a known underlying cause   Disease—unknown underlying cause	
+What are the 10 hand compartments?	-thenar -hypothenar -adductor pollicis  -four dorsal interossei  -three volar interossei	
+What is volkmann ischemic contracture? What muscles are most vulnerable?	Classical sequela of untreated acute compartment syndrome in the forearm with flexion contractions developing from myonecrosis and muscle fibrosis in the forearm    FDP and FPL most common	
+What is the typical cause of carpal tunnel syndrome in adults? Children?	Adults—typically idiopathic   Children—mucopolysaccharidosis	
+What is the nonoperative treatment of carpal tunnel syndrome? What is the typical result from steroid injections?	Activity modification, night splints, NSAIDs, steroid injections   Steroids yield transient relief in 80% of patients after 6 weeks, but only 20% are symptom free at 1 year	
+What is the operative treatment of carpal tunnel syndrome? What role do internal median neurolysis or flexor tenosynovectomy play?	Release of the transcarpal ligament (open, mini open , arthroscopic)   No additional benefit gained from neurolysis of tenosynovectomy	
+How do outcomes of endoscopic and open carpal tunnel release compare?	Endoscopic May have less early scar tenderness, improved short term function, and better patient satisfaction scores; long term results are equivalent	
+What is pronator syndrome?	Compression of the median nerve in the arm or forearm   Potential sites of compression: supracondylar process, ligament of Struthers, lacertus fibrosis (bicipetal aponeurosis), between 2 heads of pronator teres, FDS aponeurotic arch	
+How can pronator syndrome and carpal tunnel syndrome by differentiated clinically?	Pronator syndrome may have more proximal forearm pain and paresthesias that include the distribution of the palmar cutaneous branch of the median nerve	
+What is anterior interosseous nerve syndrome?	Purely motor loss of FPL, index +/- long FDP, and pronator quadratus	
+What is cubital tunnel syndrome?	Pain/numbness/weakness from ulnar nerve compression. Paresthesias in the ulnar 1.5 digits (ulnar half o fthe ring finger and small finger) and dorsal ulnar hand.   Sites of compression: -arcade of Struthers (fascial thickening at hiatus of medial intermuscular septum as the nerve passes from anterior to posterior compartment 8cm proxal to the medial epicondyle) -medial head of the triceps -medial intermuscular septum -osborn ligament -anconeus epitrochlearis (anomalous muscle orignating from medial olecranon and inserting on medial epicondyle -between 2 heads of FCU muscle -aponeurosis of proximal edge of FDS	
+In cubital tunnel syndrome surgical treatment, which is better: simple decompression or transposition?	No difference in outcome between the two	
+What is ulnar tunnel syndrome? Common cause?	Compression neuropathy of the ulnar nerve in Guyon canal.    Most common cause is ganglion cyst (80%) of nontraumatic causes. Otherwise, usually caused by an extrinsic mass (lipoma, aneurysm, etc)	
+How is radial nerve palsy differentiated from PIN compression?	radial nerve palsy will have additional weakness of proper radial nerve-innervated muscles such as triceps, brachioradialis, ECRL	
+What is posterior interosseous nerve syndrome?	Compression neuropathy of the PIN. Presents with lateral elbow pain and distal muscle weakness   Potential sites of compression: -fascial band at the radial head -recurrent leash of henry -Edge of ECRB -Arcarde of Frohse (most common site, at proximal edge of supinator) -Distal edge of supinator	
+What is radial tunnel syndrome?	Lateral elbow and radial forearm pain without motor or sensory dysfunction.   Same sites of compression as PIN syndrome   Surgical outcome less predictable than that of PIN syndrome	
+Wht is cheiralgia paresthetica?	a.k.a. Wartenberg syndrome. compressive neuropathy of the superfical sensory branch of the radial nerve   SBRN comressed between brachiradialis and ECRL with forearm prontation	
+What is thoracic outlet syndrome? What needs to be ruled out? What is the treatment?	Two forms: -Vascular--subclavian vein compression -Neurogenic--entrapment of the lower brachial plexus   Neurogenic presnts with nonspecific paresthesias, fatigue   Must rule out Pancoast tumor with chest xray   Non-op treatment includes physical therapy. Resection of cervical rib if present	
+What is the Seddon classification of nerve injury?		
+Peripheral nerve repairs are ideally performed in what scenario? Is there a superior technique? How can gaps be addressed?	Perform early, free of tension, clean wound bed   No technique deamed superior (epineural, individual fascicular, group fascicular)   Gaps can be addressed with nerve conduit, decellularized nerve allograft, or autograft	
+What procedure can be considered for irrepairable nerve injuries? What is an advantage of this?	Nerve transfers   Advantage of providing shorter innervation distance to end-target muscle	
+What is an Oberlin transfer?	Ulnar nerve motor branch (fascicle) to the FCU is transferred to the musculocutaneous nerve to help restor elbow flexion?	
+What nerve transfer can be used to help restore shoulder abduction?	Descending branch of the spinal accessory nerve (CN XI) transferred to suprascapular nerve	
+What nerve transfer can be used to restore shoulder abduction/foward elevation?	Radial nerve motor branch to the triceps transferred to the axillary nerve	
+What is the most important predictor of success in cerebral palsy patients undergoing surgery to augment upper extremity function?	Voluntary muscle control	
+What are the (6) basic tenets of tendon transfers?	-Donor must be expendable -Donor must be of similar excursion and power -One transfer should perform one function -Synergistic transfers are easir to rehabilitate -A straight line of pull is optimal -One grade of motor strength will be lost after transfer	
+What tendon transfers are performed for high radial nerve palsy?	Wrist extension--PT to ECRB Finger extension--FCU or FCR to EDC Thumb extension--palmaris longus to EPL	
+What tendon transfers are performed for low median nerve palsy?	Opponensplasty for loss of opposition of thumb   -FDS of ring to APB -EIP to thumb proximal phalanx -ADQ to APB -Palmaris longus to APB	
+What is thumb CMC joint arthritis theorized to result from? What is the most common surgery for late-stage disease?	Theorized to result form anterior oblique ligament attenuation   Trapeziectomy with ligament reconstruction and tendon interposition most common late-stage surgery	
+What are some common manifestations of rheumatoid arthritis in the hand (8)	-rheumatoid nodules -tenosynovitis -tendon rupture -ulnar MCP drift -swan neck/boutonniere deformitis -caput ulne -carpal subluxatoin -SLAC wrist	
+What are the Eaton stages of trapeziometacarpal osteoarthritis?		
+What is Vaughan-Jackson syndrome?	Seen in Rheumatoid arthritis   Progressive rupture of hand extensor tendons starting with EDM and continuing radially, from attrition over a prominent distal ulnar head	
+What is Mannerfelt syndrome?	Seen in rheumatoid arthritis   Rupture of FPL and/or index FDP secondary to attrition over a volar STT osteophyte	
+What are some common procedures used in rheumatoid arhtritis of the wrist/hand?	-synovectomy/tenosynovectomy -tendon transfers -extensor centralization at MCP joints -silicone arthroplasty -wrist arthrodesis versus arthroplasty	
+What is Kienbock disease?	Idiopathic osteonecrosis of the lunate   Progressive, debiliating disease characterized by fragmentation and collapse of the lunate. Most common in men aged 20-40. Rare in children. Rarely bilateral.   Mulitfactorial etiology: -Lunate geometry -anatomic variability of lunate blood supply -increase intraosseous presssure from venous stasis -Negative ulnar variance -decreased radial inclination	
+Unexplained dorsal wrist pain in a young adult with negative ulnar variance should prompt what imaging study?	MRI evaluation (suspect Kienbock disease)	
+Describe the Lichtman classification of Kienbock disease.		
+What is the treatment of Kienbock disease?	Based off of Lichtman stages:   Stage 1--cast immoblization (usually limited long term success), vascularized bone grafting has been used for stages I to IIIA   Operative treatment is indicated for stages II or higher, or those who fail trial of immoblization Stages I-IIIA:  ---First line treatment is a joint leveling procedure (ulnar negative variance--radial shortening osteotomy, ulnar positive variance--capitate shortening with capitohamate fusion ---Core decompression of radius and ulna ---Vascularized bone grafting   Stage IIIB: *Must address associated arpal instability ---Scaphoid-trapezium-trapezoid fusion, scaphocapitate fusion, proximal row carpectomy, or wrist fusion   Stage IV: ---Proximal row carpectomy or wrist fusion	
+What is Dupuytren disease?	A benign fibroploiferative disorder of the hand with unclear etiology.   Typically begins as a nodule in the palmar fascia and progresses insidiously to form diseased cords and finally digital flexion contractures involving the MCP and or PIP joints   Predominantly seen in white of men of northern European descent   Has been associated with tobacco and alcohol use, diabetes, epilepsy, chronic pulmonary disease, tuberculosis, HIV/AIDS	
+What is the predominant cel type found histologically in Dupuytren disease?	Myofibrolasts, seen in the Dupuyten fascia.   Their contractile properties are abnormal and exaggerated.	
+Which specific fascial structure of the hand is not involved in Dupuyren disease?	Cleland ligaments   (Dupuytren's involves the pretendinous band, natatory band, spiral band, retrovascular band, Grayson ligament, lateral digital sheet)	
+What is the major cause of PIPJ contracture in Dupuyten disease? How does it relate to the neurovascular bundle?	Spiral cord (Normal bands become thickened cords)   The spiral cord displaces the neurovascular bundy centrally and superficially, putting at risk during surgery.	
+What is a Hueston test?	Inability to place hand flat on a tabletop (seen in Dupuytren disease)	
+What are the operative indications for Dupuyten disease (3)?	Any one of the following:  --Positive Hueston test (inability to place the hand flat on a tabletop) --MCPJ flexion contracture >30 degrees --Any PIPJ flexion contracture	
+What is the preferred surgical technique in Dupuytren disease?	Open limited fasciectomy	
+What is an emerging non-operative treatmnet for Dupuytren disease? What amount of correction of flexion contracture can it provide?	Collagenase injection (derived from Clostridium histolyticum) and cord manipulation.   Inject enzyme directly into cord. Patient returns the following day for manipulation of the contracture under digital block anesthesia.   Average of MCPJ correction of up to 85% and PIPJ correction of up to 60%	
+Name 3 common adverse effects and 2 other more serious complications when collegenase injections are used in Dupuytren disease.	Common: --temporary pain --swelling --brusing   Complications: --skin tears (up to 12%) --flexor tendon rupture (rare)	
+What is the most common soft tissue mass of the hand?	Ganglions	
+Ganglions located in the following locations usually arise from where: -Dorsal wrist -Volar wrist -IP joint -Distal palm	Dorsal wrist--scapholunate articulation   Volar wrist--radioscaphoid or STT joint   IP joint--osteophyte   Distal palm--flexor tendon sheath	
+What is the second most common soft tissue tumor of the hand? How does it usually present? What is the treatment?	Giant cell tumor of the tendon sheath   Usually presents as a slow-growing firm mass often on the volar aspect of a digit   Treatment is marginal excision but recurrence rate is high	
+What is a glomus tumor? How does it usually present? What is the treatment?	Smooth muscle tumor of perivascular temperature-regulating bodies   Usually occurs in the subungual region, may cause nail ridging and erosions of the distal phalanx. Exquisite pain and cold intolerance   Treatment is margina excision	
+What is the most common malignancy of the hand?	Squamous cell carcinoma	
+What is the most common sarcoma of the hand (2)?	Epithelioid and synovial	
+What is the most common benign bone tumor of the hand?	Enchondroma	
+What is the most common malignant bone tumor of the hand?	Metastatic lung carcinoma	
+What is the mosst malignant primary bone tumor of the hand?	Chondrosarcoma	

@@ -6,25 +6,30 @@ load_dotenv()
 
 client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
 
+specialty_list = [
+    "Trauma", "Sports", "Recon", "Hand", "Peds", 
+    "Spine", "Onc", "FootAnkle", "ShoulderElbow", "BasicScience"
+]
+
 def refine_query(user_prompt: str) -> str:
     if not user_prompt.strip():
         return ""
 
     system_prompt = (
-    "You are an expert surgical educator. Rewrite a raw clinical prompt into a longer, high-yield query "
-    "that matches a database of orthopaedic Anki-style flashcards.\n\n"
-    "Make sure your output is:\n"
-    "- Highly specific\n"
-    "- Comma-separated\n"
-    "- Includes anatomy, injury pattern, classification system, surgical approach, common complications, and rehab concerns if relevant\n"
-    "- Up to 30 tokens long, resembling a detailed flashcard topic header\n\n"
-    "Avoid filler words. Do not include commentary or formatting. Output only the query string."
-)
-
+        "You are an expert orthopaedic surgical educator. Rewrite a surgical case prompt to generate better results from our vector database. "
+        "Assign the **closest matching subspecialty** from the list below. Also include orthopaedic region (ie. knee), diagnosis, and procedure "
+        "that matches a database of orthopaedic Anki-style flashcards.\n\n"
+        "Make sure your output is:\n"
+        "- Highly specific\n"
+        "- Comma-separated\n"
+        "- Includes orthopaedic specialty, region, diagnosis, procedure\n"
+        "Avoid filler words. Do not include commentary or formatting. Output only the query string.\n\n"
+        f"Subspecialty list: {', '.join(specialty_list)}"
+    )
 
     try:
         response = client.chat.completions.create(
-            model="gpt-4o",
+            model="gpt-3.5-turbo",
             messages=[
                 {"role": "system", "content": system_prompt},
                 {"role": "user", "content": f"Original prompt: {user_prompt.strip()}"}
@@ -36,7 +41,13 @@ def refine_query(user_prompt: str) -> str:
     except Exception as e:
         return f"❌ Error: {str(e)}"
 
-# Optional CLI test mode
+# ── INTERACTIVE MODE ─────────────────────────────────────────
 if __name__ == "__main__":
-    sample = "I have a terrible triad elbow case tomorrow morning — what should I study?"
-    print("🔍 Refined query:", refine_query(sample))
+    print("🧠 Ortho Prompt Refiner")
+    while True:
+        user_input = input("\nEnter a surgical case prompt (or 'q' to quit): ").strip()
+        if user_input.lower() in {"q", "quit", "exit"}:
+            break
+
+        refined = refine_query(user_input)
+        print(f"\n🛠️ Refined metadata query:\n{refined}")
