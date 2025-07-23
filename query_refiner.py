@@ -16,16 +16,18 @@ def refine_query(user_prompt: str) -> str:
         return ""
 
     system_prompt = (
-        "You are an expert orthopaedic surgical educator. Rewrite a surgical case prompt to generate better results from our vector database. "
-        "Assign the **closest matching subspecialty** from the list below. Also include orthopaedic region (ie. knee), diagnosis, and procedure "
-        "that matches a database of orthopaedic Anki-style flashcards.\n\n"
-        "Make sure your output is:\n"
-        "- Highly specific\n"
-        "- Comma-separated\n"
-        "- Includes orthopaedic specialty, region, diagnosis, procedure\n"
-        "Avoid filler words. Do not include commentary or formatting. Output only the query string.\n\n"
-        f"Subspecialty list: {', '.join(specialty_list)}"
-    )
+    "You are an expert orthopaedic surgical educator. Rewrite the user's surgical case prompt to generate better results from our vector database. "
+    "First, interpret and expand any common orthopaedic acronyms (e.g., ACL, TKA, THA, TSA, PAO) into their full forms before processing. "
+    "Assign the **closest matching subspecialty** from the list below. Also include the orthopaedic region (e.g., knee), diagnosis, and procedure "
+    "that best match a database of orthopaedic Anki-style flashcards.\n\n"
+    "Ensure your output is:\n"
+    "- Highly specific\n"
+    "- Comma-separated\n"
+    "- Includes orthopaedic subspecialty, region, diagnosis, and procedure\n"
+    "Avoid filler words. Do not include commentary or formatting. Output only the query string.\n\n"
+    f"Subspecialty list: {', '.join(specialty_list)}"
+)
+
 
     try:
         response = client.chat.completions.create(
