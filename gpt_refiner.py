@@ -11,7 +11,7 @@ load_dotenv()
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
 OPENAI_PROJECT_ID = os.getenv("OPENAI_PROJECT_ID")
 
-client = OpenAI(api_key=OPENAI_API_KEY, project=OPENAI_PROJECT_ID, timeout=20.0)
+client = OpenAI(api_key=OPENAI_API_KEY, project=OPENAI_PROJECT_ID, timeout=60.0)
 
 # Tunables
 SNIP_CHAR_BUDGET = 9000
