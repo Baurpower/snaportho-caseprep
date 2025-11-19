@@ -1,28 +1,29 @@
 import json
 import os
 import re
-import hashlib
-from typing import List, Dict, Any, Tuple
+from typing import List, Dict, Any
 from dotenv import load_dotenv
 from openai import OpenAI
 
 # ── Setup ─────────────────────────────────────────────────────
 load_dotenv()
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
-OPENAI_PROJECT_ID = os.getenv("OPENAI_PROJECT_ID")
+OPENAI_PROJECT_ID = os.getenv("OPENAI_API_PROJECT_ID") or os.getenv("OPENAI_PROJECT_ID")
 
 client = OpenAI(api_key=OPENAI_API_KEY, project=OPENAI_PROJECT_ID, timeout=60.0)
 
 # Tunables
-SNIP_CHAR_BUDGET = 9000
-QUESTION_MAX_TOKENS = 1200
-FACTS_MAX_TOKENS = 500
-RANK_MAX_TOKENS = 400
-MAX_FACTS_OUT = 12
+SNIP_CHAR_BUDGET = 8000
+PER_SNIP_LIMIT = 800
+QUESTION_MAX_TOKENS = 2000   # can tune down more later if needed
+FACTS_MAX_TOKENS = 1000      # can tune down more later if needed
+MAX_SNIPPETS_FOR_REFORMAT = 45
+MAX_FACTS_OUT = 20
 
-# ── Helpers ───────────────────────────────────────────────────
+# ── Lightweight helpers ───────────────────────────────────────
 def _normalize_space(s: str) -> str:
     return re.sub(r"\s+", " ", (s or "").strip())
+
 
 def _strip_noise(s: str) -> str:
     # remove code blocks, html, heavy markdown bullets/rules
@@ -33,249 +34,333 @@ def _strip_noise(s: str) -> str:
     s = re.sub(r"\s+", " ", s).strip()
     return s
 
-def _chunk_snippets(snips: List[str], char_budget: int = 6000) -> List[List[str]]:
-    cleaned = [_strip_noise(s or "") for s in snips if isinstance(s, str) and s]
-    cleaned = [s[:4000] for s in cleaned if len(s) > 10]
-    batches, cur, cur_len = [], [], 0
-    for s in cleaned:
-        L = len(s) + 1
-        if cur and cur_len + L > char_budget:
-            batches.append(cur)
-            cur, cur_len = [], 0
-        cur.append(s)
-        cur_len += L
-    if cur:
-        batches.append(cur)
-    return batches
 
 def _ensure_question_mark(q: str) -> str:
     q = _normalize_space(q)
-    # add '?' if it looks like a question without punctuation
-    if q and not re.search(r"[?]$", q):
-        if re.search(r"^(what|how|why|when|where|which|list|name|define|describe|explain|indications|contraindications|steps|complications)\b", q, re.I):
+    if q and not q.endswith("?"):
+        if re.search(
+            r"^(what|how|why|when|where|which|list|name|define|describe|explain|"
+            r"indications|contraindications|steps|complications)\b",
+            q,
+            re.I,
+        ):
             q += "?"
     return q
+
 
 def _format_qa(q: str, a: str) -> str:
     q = _ensure_question_mark(q)
     a = _normalize_space(a)
     return f"Q: {q} A: {a if a else '(answer not provided)'}"
 
-# ── Schemas ───────────────────────────────────────────────────
-QUESTIONS_SCHEMA = {
+
+def _prepare_snippets(snips: List[Any], char_budget: int) -> List[str]:
+    """
+    Clean, truncate, and enforce overall character budget.
+    Accepts either:
+      - plain strings, or
+      - dicts with at least a 'text' field and optional 'source'.
+
+    Returns a list of snippet strings ready to send to the model.
+    """
+    cleaned: List[str] = []
+    total = 0
+
+    for raw in snips:
+        # Handle dicts from vector search: {"text": ..., "source": ...}
+        if isinstance(raw, dict):
+            base = (raw.get("text") or "").strip()
+            src = (raw.get("source") or "").strip()
+            if src:
+                s = f"{base} [Source: {src}]"
+            else:
+                s = base
+        elif isinstance(raw, str):
+            s = raw
+        else:
+            # Unknown type → skip
+            continue
+
+        s = _strip_noise(s)
+        if len(s) < 10:
+            continue
+
+        # Per-snippet limit
+        s = s[:PER_SNIP_LIMIT]
+        L = len(s) + 1
+
+        # Enforce global character budget
+        if cleaned and total + L > char_budget:
+            break
+
+        cleaned.append(s)
+        total += L
+
+    return cleaned
+
+
+# ── Schema for relevance mask only ────────────────────────────
+SNIPPET_FILTER_SCHEMA = {
+    "type": "object",
+    "properties": {
+        "keepMask": {
+            "description": (
+                "Boolean mask indicating which snippets are clearly relevant "
+                "to THIS specific case. Length MUST equal the number of input snippets."
+            ),
+            "type": "array",
+            "items": {"type": "boolean"},
+        },
+    },
+    "required": ["keepMask"],
+    "additionalProperties": False,
+}
+
+FILTER_SNIPPETS_TOOL = [
+    {"type": "function", "function": {"name": "filter_snippets", "parameters": SNIPPET_FILTER_SCHEMA}}
+]
+
+
+def _filter_irrelevant_snippets(case: str, snippets: List[str]) -> List[str]:
+    """
+    Ask GPT for a keepMask and drop snippets that are clearly unrelated.
+    No scoring / ranking. We rely on Pinecone for order.
+    """
+    if not snippets:
+        return []
+
+    system_prompt = (
+        "You are an orthopaedic attending preparing a trainee for a specific case.\n"
+        "You will receive:\n"
+        "  • A case description (e.g., 'ankle ORIF for bimalleolar fracture in a diabetic', "
+        "    'total knee arthroplasty for OA', 'above-knee amputation for mangled extremity').\n"
+        "  • A list of teaching snippets from orthopaedic resources.\n\n"
+        "Your job:\n"
+        "  - For each snippet, decide if it is clearly relevant to THIS case.\n"
+        "  - Output a boolean keepMask array of the same length as the snippet list.\n\n"
+        "CLINICALLY / TEST-TAKING RELEVANT (keepMask = true):\n"
+        "  • Same region and same general topic (e.g., ankle fractures, pilon fractures,\n"
+        "    syndesmosis, ankle external fixation) for an 'ankle ORIF' case.\n"
+        "  • Closely related anatomy, biomechanics, classifications, approaches, complications, or postop care.\n"
+        "  • Classic exam/pimp questions that would reasonably come up during THIS case.\n\n"
+        "MARK AS NOT RELEVANT (keepMask = false) ONLY when:\n"
+        "  • The content is clearly about a different region (femoral shaft vs knee; forefoot vs ankle; spine vs hip).\n"
+        "  • Or a completely different topic (e.g., calcaneus surgery for an adult ankle ORIF).\n"
+        "  • Or a completely different specialty (e.g., shoulder replacement for an glenoid labrum repair in an athlete).\n"
+        "IF YOU ARE UNSURE:\n"
+        "  • Prefer keepMask = true instead of false.\n\n"
+        "Output requirements:\n"
+        "  • keepMask MUST have the same length as the input snippet list.\n"
+        "  • Do NOT rewrite snippets. Only decide keepMask.\n"
+        "  • Use the function tool ONLY; no free-text."
+    )
+
+    payload = {"case": case, "snippets": snippets}
+
+    resp = client.chat.completions.create(
+        model="gpt-4o-mini",
+        temperature=0.0,
+        max_tokens=200,  # small, it's just booleans
+        messages=[
+            {"role": "system", "content": system_prompt},
+            {"role": "user", "content": json.dumps(payload, ensure_ascii=False)},
+        ],
+        tools=FILTER_SNIPPETS_TOOL,
+        tool_choice={"type": "function", "function": {"name": "filter_snippets"}},
+        parallel_tool_calls=False,
+    )
+
+    msg = resp.choices[0].message
+    if getattr(msg, "tool_calls", None):
+        try:
+            data = json.loads(msg.tool_calls[0].function.arguments)
+        except Exception:
+            data = {}
+        keep_mask: List[bool] = data.get("keepMask", []) or []
+    else:
+        # Worst-case: model ignored tools. Keep everything.
+        keep_mask = [True] * len(snippets)
+
+    # Safety: if lengths don't match, keep everything.
+    if len(keep_mask) != len(snippets):
+        keep_mask = [True] * len(snippets)
+
+    kept = [s for s, keep in zip(snippets, keep_mask) if keep]
+
+    # Fallback: if somehow everything was dropped, keep all
+    if not kept:
+        return snippets
+
+    return kept
+
+
+# ── Final reformatter schema ──────────────────────────────────
+QUESTIONS_OBJ_SCHEMA = {
+    "type": "object",
+    "properties": {
+        "question": {"type": "string"},
+        "answer": {"type": "string"},
+    },
+    "required": ["question", "answer"],
+    "additionalProperties": False,
+}
+
+CASEPREP_SCHEMA = {
     "type": "object",
     "properties": {
         "pimpQuestions": {
             "type": "array",
-            "items": {
-                "type": "object",
-                "properties": {
-                    "question": {"type": "string"},
-                    "answer": {"type": "string"}
-                },
-                "required": ["question", "answer"],
-                "additionalProperties": False
-            }
-        }
+            "items": QUESTIONS_OBJ_SCHEMA,
+        },
+        "otherUsefulFacts": {
+            "type": "array",
+            "items": {"type": "string"},
+        },
     },
-    "required": ["pimpQuestions"],
-    "additionalProperties": False
+    "required": ["pimpQuestions", "otherUsefulFacts"],
+    "additionalProperties": False,
 }
 
-FACTS_ONLY_SCHEMA = {
-    "type": "object",
-    "properties": {"otherUsefulFacts": {"type": "array", "items": {"type": "string"}}},
-    "required": ["otherUsefulFacts"],
-    "additionalProperties": False
-}
+CASEPREP_TOOL = [
+    {"type": "function", "function": {"name": "emit_caseprep", "parameters": CASEPREP_SCHEMA}}
+]
 
-RANK_SCHEMA = {
-    "type": "object",
-    "properties": {"scores": {"type": "array", "items": {"type": "number"}}},
-    "required": ["scores"],
-    "additionalProperties": False
-}
 
-TOOLS_QUESTIONS = [{"type": "function", "function": {"name": "emit_questions", "parameters": QUESTIONS_SCHEMA}}]
-TOOLS_FACTS = [{"type": "function", "function": {"name": "emit_facts", "parameters": FACTS_ONLY_SCHEMA}}]
-RANK_TOOL = [{"type": "function", "function": {"name": "emit_scores", "parameters": RANK_SCHEMA}}]
-
-# ── Core extraction calls ─────────────────────────────────────
-def _extract_questions_for_batch(user_query: str, batch_snips: List[str]) -> List[str]:
+# ── Single-stage reformatter (after masking) ──────────────────
+def _reformat_snippets(user_query: str, snippets: List[str]) -> Dict[str, Any]:
     """
-    Ask for structured Q/A pairs via tool call, then normalize to 'Q: … A: …' strings.
+    Take pre-cleaned, relevance-filtered snippets and produce:
+      - pimpQuestions: list of 'Q: ... A: ...' strings (ONLY when Q/A is obvious)
+      - otherUsefulFacts: list of short facts, often very close to the original text
     """
+    if not snippets:
+        return {"pimpQuestions": [], "otherUsefulFacts": []}
+
+    # Trim to max number of snippets for speed
+    snippets = snippets[:MAX_SNIPPETS_FOR_REFORMAT]
+
     system_prompt = (
-        "You are a senior orthopaedic surgeon.\n"
-        "You will receive: (1) a surgical case, (2) a subset of vetted notes.\n"
-        "Return ONLY 'Common Pimp Questions' that are directly relevant to THIS case.\n"
-        "Rules:\n"
-        " - Use the tool function ONLY (no prose, no markdown).\n"
-        " - Provide 6–14 high-yield Q/A pairs.\n"
-        " - Questions must be precise (e.g., 'What structures are at risk during the volar Henry approach?').\n"
-        " - Answers must be concise, factual, and derived from the notes or standard teaching.\n"
-        " - No duplicate or near-duplicate items.\n"
-        " - No references, no citations, no lists inside answers.\n"
-        "Few-shot schema example (not content):\n"
-        "  {\"pimpQuestions\": [{\"question\": \"Indications for distal radius ORIF?\", \"answer\": \"...\"}]}\n"
+        "You are a senior orthopaedic surgeon building a concise case-prep card for a trainee.\n"
+        "Input: (1) a case description, (2) a list of relevant teaching snippets.\n\n"
+        "Your job is VERY LIGHTWEIGHT:\n"
+        "  - Select high-yield teaching points from the snippets.\n"
+        "  - Use Q/A format ONLY when it is easy and natural.\n"
+        "  - Otherwise, keep the snippet essentially as a factual statement.\n\n"
+        "Minimal editing rules:\n"
+        "  - Do NOT heavily rewrite or paraphrase the content.\n"
+        "  - Preserve key phrases, numbers, and terminology exactly as written.\n"
+        "  - If a snippet already has 'Q:' and 'A:' structure, you may keep that pair and\n"
+        "    lightly clean grammar if needed.\n"
+        "  - If a snippet is clearly a fact (e.g., starts with 'Fact:' or is just a statement),\n"
+        "    usually leave it as a fact. Only convert it to Q/A when the question is obvious\n"
+        "    and can be formed by re-using the same words.\n\n"
+        "Output format (JSON via function tool):\n"
+        "  - 'pimpQuestions': an array of objects with fields 'question' and 'answer'.\n"
+        "      • Include only items that are truly Q/A style.\n"
+        "      • Questions should be short and clinically focused.\n"
+        "      • Answers should be short, factual, and derived directly from the snippets.\n"
+        "      • Avoid duplicates or near-duplicates.\n"
+        "      • Do NOT invent new facts or expand beyond the snippets.\n"
+        "  - 'otherUsefulFacts': an array of strings.\n"
+        "      • Each fact is one concise sentence.\n"
+        "      • These may closely match the original snippet text (light cleanup only).\n"
+        "      • Use this bucket for important statements that are better left as-is.\n\n"
+        "General behavior:\n"
+        "  - Try to cover as many distinct high-yield points as possible.\n"
+        "  - Do NOT throw away content unless it is clearly redundant.\n"
+        "  - Do NOT add prose explanations outside of the JSON; use the function tool ONLY."
     )
-    payload = {"case": user_query, "snippets": batch_snips}
+
+    payload = {"case": user_query, "snippets": snippets}
+
     resp = client.chat.completions.create(
         model="gpt-4o-mini",
         temperature=0.2,
-        max_tokens=QUESTION_MAX_TOKENS,
+        max_tokens=QUESTION_MAX_TOKENS + FACTS_MAX_TOKENS,
         messages=[
             {"role": "system", "content": system_prompt},
-            {"role": "user", "content": json.dumps(payload, ensure_ascii=False)}
+            {"role": "user", "content": json.dumps(payload, ensure_ascii=False)},
         ],
-        tools=TOOLS_QUESTIONS,
-        tool_choice={"type": "function", "function": {"name": "emit_questions"}},
-        parallel_tool_calls=False
-    )
-    msg = resp.choices[0].message
-    items: List[str] = []
-    if getattr(msg, "tool_calls", None):
-        data = json.loads(msg.tool_calls[0].function.arguments)
-        raw = data.get("pimpQuestions", []) or []
-        for obj in raw:
-            if isinstance(obj, dict):
-                q = obj.get("question", "").strip()
-                a = obj.get("answer", "").strip()
-                if q:
-                    items.append(_format_qa(q, a))
-    else:
-        # Fallback if tool call fails (rare)
-        content = (msg.content or "").strip()
-        if content:
-            try:
-                data = json.loads(content)
-                raw = data.get("pimpQuestions", []) or []
-                for obj in raw:
-                    if isinstance(obj, dict):
-                        items.append(_format_qa(obj.get("question",""), obj.get("answer","")))
-            except Exception:
-                pass
-    # De-dupe
-    seen, out = set(), []
-    for s in items:
-        key = _normalize_space(s).lower()
-        if key not in seen:
-            seen.add(key)
-            out.append(s)
-    return out
-
-def _extract_facts(user_query: str, trimmed_snips: List[str], max_facts: int = MAX_FACTS_OUT) -> List[str]:
-    system_prompt = (
-        "You are a senior orthopaedic surgeon. Input: (1) case, (2) vetted notes subset.\n"
-        f"Return ONLY the top {max_facts} concise, high-yield 'Other Useful Facts' directly relevant to THIS case.\n"
-        "Rules: tool function ONLY; 1 sentence per fact; no markdown, no lists, no references; no duplicates."
-    )
-    payload = {"case": user_query, "snippets": trimmed_snips}
-    resp = client.chat.completions.create(
-        model="gpt-4o-mini",
-        temperature=0.2,
-        max_tokens=FACTS_MAX_TOKENS,
-        messages=[
-            {"role": "system", "content": system_prompt},
-            {"role": "user", "content": json.dumps(payload, ensure_ascii=False)}
-        ],
-        tools=TOOLS_FACTS,
-        tool_choice={"type": "function", "function": {"name": "emit_facts"}},
-        parallel_tool_calls=False
-    )
-    msg = resp.choices[0].message
-    items: List[str] = []
-    if getattr(msg, "tool_calls", None):
-        data = json.loads(msg.tool_calls[0].function.arguments)
-        raw = data.get("otherUsefulFacts", []) or []
-        items = [ _normalize_space(f) for f in raw if isinstance(f, str) and f.strip() ]
-    else:
-        content = (msg.content or "").strip()
-        if content:
-            try:
-                data = json.loads(content)
-                raw = data.get("otherUsefulFacts", []) or []
-                items = [ _normalize_space(f) for f in raw if isinstance(f, str) and f.strip() ]
-            except Exception:
-                items = []
-    # De-dupe + cap
-    seen, out = set(), []
-    for s in items:
-        key = s.lower()
-        if key not in seen:
-            seen.add(key)
-            out.append(s)
-    return out[:max_facts]
-
-# ── Ranking (LLM-only) with correct case text ────────────────
-_RANK_CACHE: Dict[Tuple[str, str, str], List[float]] = {}
-
-def _rank_batch_with_llm(case_text: str, items: List[str], label: str, max_tokens: int = RANK_MAX_TOKENS) -> List[float]:
-    if not items:
-        return []
-    system = (
-        "You are an orthopaedic attending prepping a junior for the OR.\n"
-        "Score each item for THIS case by OR utility (0–100). "
-        f"Items are {label}. Consider safety, approach, reduction/fixation, complications."
-    )
-    user = {"case": case_text, "items": items}
-    resp = client.chat.completions.create(
-        model="gpt-4o-mini",
-        messages=[{"role": "system", "content": system}, {"role": "user", "content": json.dumps(user)}],
-        tools=RANK_TOOL,
-        tool_choice={"type": "function", "function": {"name": "emit_scores"}},
+        tools=CASEPREP_TOOL,
+        tool_choice={"type": "function", "function": {"name": "emit_caseprep"}},
         parallel_tool_calls=False,
-        temperature=0.2,
-        max_tokens=max_tokens,
     )
-    tc = getattr(resp.choices[0].message, "tool_calls", None)
-    if tc:
-        scores = json.loads(tc[0].function.arguments).get("scores", [])
-        scores = [float(x) for x in scores][:len(items)]
-        if len(scores) < len(items):
-            scores += [50.0] * (len(items) - len(scores))
-        return scores
-    return [50.0] * len(items)
 
-def _rank_items_for_case(case_text: str, items: List[str], label: str) -> List[str]:
-    if not items:
-        return []
-    case_hash = hashlib.md5(case_text.encode("utf-8")).hexdigest()
-    items_hash = hashlib.sha1(json.dumps(items, ensure_ascii=False).encode("utf-8")).hexdigest()
-    key = (case_hash, label, items_hash)
-    if key not in _RANK_CACHE:
-        _RANK_CACHE[key] = _rank_batch_with_llm(case_text, items, label)
-    scores = _RANK_CACHE[key]
-    order = sorted(range(len(items)), key=lambda i: scores[i], reverse=True)
-    return [items[i] for i in order]
+    msg = resp.choices[0].message
+
+    if getattr(msg, "tool_calls", None):
+        try:
+            data = json.loads(msg.tool_calls[0].function.arguments)
+        except Exception:
+            data = {}
+        raw_qs = data.get("pimpQuestions", []) or []
+        raw_facts = data.get("otherUsefulFacts", []) or []
+    else:
+        # Hard fallback if the tool wasn't used correctly
+        try:
+            data = json.loads((msg.content or "").strip())
+        except Exception:
+            data = {}
+        raw_qs = data.get("pimpQuestions", []) or []
+        raw_facts = data.get("otherUsefulFacts", []) or []
+
+    pimp_questions: List[str] = []
+    other_facts: List[str] = []
+
+    # Convert questions to 'Q: ... A: ...'
+    seen_q = set()
+    for obj in raw_qs:
+        if not isinstance(obj, dict):
+            continue
+        q = obj.get("question", "") or ""
+        a = obj.get("answer", "") or ""
+        if not q.strip():
+            continue
+        formatted = _format_qa(q, a)
+        key = _normalize_space(formatted).lower()
+        if key in seen_q:
+            continue
+        seen_q.add(key)
+        pimp_questions.append(formatted)
+
+    # Normalize facts, dedupe, cap
+    seen_f = set()
+    for f in raw_facts:
+        if not isinstance(f, str):
+            continue
+        s = _normalize_space(f)
+        if not s:
+            continue
+        k = s.lower()
+        if k in seen_f:
+            continue
+        seen_f.add(k)
+        other_facts.append(s)
+        if len(other_facts) >= MAX_FACTS_OUT:
+            break
+
+    return {
+        "pimpQuestions": pimp_questions,
+        "otherUsefulFacts": other_facts,
+    }
+
 
 # ── Public API ────────────────────────────────────────────────
-def refine_case_snippets(user_query: str, snippets: List[str]) -> Dict[str, Any]:
+def refine_case_snippets(user_query: str, snippets: List[Any]) -> Dict[str, Any]:
     """
-    1) Chunk snippets and extract questions per chunk.
-    2) Merge & dedupe locally.
-    3) Separate facts pass over first two batches.
-    4) Rank both lists (LLM importance only).
+    Pipeline:
+      1) Clean + truncate raw snippets (strings or metadata dicts).
+      2) Use GPT to:
+           - mask out clearly irrelevant snippets for this specific case.
+      3) Use a second GPT call to:
+           - lightly reformat remaining snippets into 'pimpQuestions' and 'otherUsefulFacts'
+             WITHOUT aggressively summarizing away content.
     """
-    batches = _chunk_snippets(snippets, char_budget=SNIP_CHAR_BUDGET)
+    prepped = _prepare_snippets(snippets, SNIP_CHAR_BUDGET)
+    if not prepped:
+        return {"pimpQuestions": [], "otherUsefulFacts": []}
 
-    all_questions: List[str] = []
-    seen_keys = set()
-    for batch in batches:
-        qs = _extract_questions_for_batch(user_query, batch)
-        for q in qs:
-            key = _normalize_space(q).lower()
-            if key not in seen_keys:
-                seen_keys.add(key)
-                all_questions.append(q)
+    kept = _filter_irrelevant_snippets(user_query, prepped)
 
-    # Facts: combine first two batches if available
-    facts_input = []
-    if batches:
-        facts_input = (batches[0] + (batches[1] if len(batches) > 1 else []))[:6000]
-    facts = _extract_facts(user_query, facts_input, max_facts=MAX_FACTS_OUT)
-
-    ranked_questions = _rank_items_for_case(user_query, all_questions, label="questions")
-    ranked_facts = _rank_items_for_case(user_query, facts, label="facts")
-
-    return {"pimpQuestions": ranked_questions, "otherUsefulFacts": ranked_facts}
+    result = _reformat_snippets(user_query, kept)
+    return result
