@@ -1,0 +1,78 @@
+{
+  "id": "shoulder_suprascapular_notch",
+  "content": "Suprascapular notch: suprascapular artery passes superior to superior transverse scapular ligament and suprascapular nerve passes inferior to ligament through notch (mnemonic: “Army over Navy” for artery over nerve).",
+  "region": "Upper Extremity",
+  "joint": "",
+  "structure": "suprascapular notch",
+  "subcategory": "anatomic space",
+  "clinical_relevance": true,
+  "surgical_relevance": [
+  "suprascapular nerve decompression",
+  "posterior shoulder approaches",
+  "scapular fracture fixation",
+  "arthroscopic shoulder portals"
+],
+  "exam_relevance": ["OITE", "boards"],
+  "source": {
+    "textbook": "Miller Review of Orthopaedics"
+  }
+},
+{
+  "id": "shoulder_spinoglenoid_notch",
+  "content": "Spinoglenoid notch: both the artery and nerve inferior to the inferior transverse scapular ligament",
+  "region": "Upper Extremity",
+  "joint": "",
+  "structure": "Spinoglenoid notch",
+  "subcategory": "anatomic space",
+  "clinical_relevance": true,
+  "surgical_relevance": [
+  "suprascapular nerve decompression",
+  "spinoglenoid cyst excision",
+  "posterosuperior labral repair",
+  "arthroscopic management of SLAP tears"
+],
+  "exam_relevance": ["OITE", "boards"],
+  "source": {
+    "textbook": "Miller Review of Orthopaedics"
+  }
+},
+{
+  "id": "shoulder_coracoacromial_ligament",
+  "content": "Coracoacromial ligament contributes to anterosuperior stability in rotator cuff deficiency and should be preserved with irreparable cuff tears to prevent anterosuperior escape.",
+  "region": "Upper Extremity",
+  "joint": "",
+  "structure": "Coracoacromial ligament",
+  "subcategory": "ligament",
+  "clinical_relevance": true,
+ "surgical_relevance": [
+  "irreparable rotator cuff tear management",
+  "shoulder arthroplasty",
+  "reverse total shoulder arthroplasty",
+  "subacromial decompression",
+  "acromioplasty decision-making"
+],
+  "exam_relevance": ["OITE", "boards"],
+  "source": {
+    "textbook": "Miller Review of Orthopaedics"
+  }
+},
+{
+  "id": "shoulder_coracoid_attachments",
+  "content": "attachments to coracoid include coracoacromial ligament, coracoclavicular ligaments (conoid [medial] and trapezoid [lateral]), conjoined tendon (coracobrachialis and short head of biceps), and pectoralis minor.",
+  "region": "Upper Extremity",
+  "joint": "",
+  "structure": "Coracoid",
+  "subcategory": "bone attachment",
+  "clinical_relevance": true,
+   "surgical_relevance": [
+    "Bristow–Latarjet procedure",
+    "coracoid osteotomy",
+    "acromioclavicular joint reconstruction",
+    "anterior shoulder approaches",
+    "subcoracoid impingement management"
+  ],
+  "exam_relevance": ["OITE", "boards"],
+  "source": {
+    "textbook": "Miller Review of Orthopaedics"
+  }
+},

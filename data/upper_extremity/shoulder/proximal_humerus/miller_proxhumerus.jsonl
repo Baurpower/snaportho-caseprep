@@ -1,0 +1,68 @@
+{
+  "id": "shoulder_proxhumerus_head_height",
+  "content": "Humeral head height approximately 5.6 cm above superior border of pectoralis major tendon (important for arthroplasty)",
+  "region": "Upper Extremity",
+  "joint": "",
+  "structure": "humeral head",
+  "subcategory": "osteology",
+  "clinical_relevance": true,
+  "surgical_relevance": [
+  "shoulder arthroplasty",
+  "rTSA"
+],
+  "exam_relevance": ["OITE", "boards"],
+  "source": {
+    "textbook": "Miller Review of Orthopaedics"
+  }
+},
+{
+  "id": "shoulder_proxhumerus_anatomic_neck",
+  "content": "Anatomic neck (directly below humeral head) attachment for the shoulder capsule.",
+  "region": "Upper Extremity",
+  "joint": "",
+  "structure": "anatomic neck humerus",
+  "subcategory": "osteology",
+  "clinical_relevance": true,
+  "surgical_relevance": [
+  "proximal humerus ORIF",
+  "proximal humerus fracture"
+],
+  "exam_relevance": ["OITE", "boards"],
+  "source": {
+    "textbook": "Miller Review of Orthopaedics"
+  }
+},
+{
+  "id": "shoulder_proxhumerus_surgical_neck",
+  "content": "Surgical neck more distal and more often involved in fractures",
+  "region": "Upper Extremity",
+  "joint": "",
+  "structure": "surgical neck humerus",
+  "subcategory": "osteology",
+  "clinical_relevance": true,
+  "surgical_relevance": [
+  "proximal humerus ORIF",
+  "proximal humerus fracture"
+],
+  "exam_relevance": ["OITE", "boards"],
+  "source": {
+    "textbook": "Miller Review of Orthopaedics"
+  }
+},
+{
+  "id": "shoulder_proxhumerus_surgical_neck",
+  "content": "Transverse humeral ligament important stabilizer of the biceps tendon",
+  "region": "Upper Extremity",
+  "joint": "",
+  "structure": "transverse humeral ligament",
+  "subcategory": "",
+  "clinical_relevance": true,
+  "surgical_relevance": [
+  "proximal humerus ORIF",
+  "proximal humerus fracture"
+],
+  "exam_relevance": ["OITE", "boards"],
+  "source": {
+    "textbook": "Miller Review of Orthopaedics"
+  }
+},

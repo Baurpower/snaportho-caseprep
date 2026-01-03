@@ -1,0 +1,34 @@
+{
+  "id": "shoulder_clavicle_osteology",
+  "content": "First bone in the body to ossify (at 5 weeks’ gestation) and last to fuse (medial epiphysis at 25 years of age)",
+  "region": "Upper Extremity",
+  "joint": "",
+  "structure": "clavicle",
+  "subcategory": "osteology",
+  "clinical_relevance": true,
+  "surgical_relevance": [
+  "clavicle ORIF",
+  "clavicle fracture"
+],
+  "exam_relevance": ["OITE", "boards"],
+  "source": {
+    "textbook": "Miller Review of Orthopaedics"
+  }
+},
+{
+  "id": "shoulder_clavicle_birth",
+  "content": "Fracture of clavicle is the most common musculoskeletal birth injury.",
+  "region": "Upper Extremity",
+  "joint": "",
+  "structure": "Clavicle",
+  "subcategory": "",
+  "clinical_relevance": true,
+  "surgical_relevance": [
+  "clavicle ORIF",
+  "clavicle fracture"
+],
+  "exam_relevance": ["OITE", "boards"],
+  "source": {
+    "textbook": "Miller Review of Orthopaedics"
+  }
+}
