@@ -246,15 +246,9 @@ HIGH_YIELD_SCHEMA = {
                     "required": ["name", "type", "why_high_yield", "when_in_case", "approach_ids"],
                     "additionalProperties": False,
                 },
-            },
-            "must_not_miss": {
-                "type": "array",
-                "minItems": 1,
-                "maxItems": 10,
-                "items": {"type": "string"},
-            },
+            }
         },
-        "required": ["structures", "must_not_miss"],
+        "required": ["structures",],
         "additionalProperties": False,
     },
 }
@@ -284,7 +278,6 @@ def extract_high_yield(
     "- Do not list obscure anatomy or structures unlikely to be identified or discussed in this case.\n"
     "- Base selections primarily on the provided catalog and case context; avoid adding anatomy not relevant to the approaches used.\n"
     "- Use provided snippets only as supporting context, not as a source of unrelated anatomy.\n"
-    "- Rank importance implicitly through inclusion in the list and inclusion in the 'must_not_miss' section.\n"
     "- Output structured JSON only.\n"
 )
 
@@ -331,7 +324,7 @@ def run_pipeline(
         return {
             "approachSelection": sel,
             "anatomyQuiz": {"questions": []},
-            "highYieldAnatomy": {"structures": [], "must_not_miss": []},
+            "highYieldAnatomy": {"structures": []},
         }
 
     quiz = build_quiz(quizzer, selected_ids=selected_ids, catalog=catalog)
