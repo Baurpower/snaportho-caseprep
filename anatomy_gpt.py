@@ -1,9 +1,13 @@
 import json
-from pathlib import Path  # ✅ needed
+from pathlib import Path
 from typing import Any, Dict, List, Optional
 
 from openai import OpenAI
 
+
+# -----------------------------
+# IO helpers
+# -----------------------------
 
 def load_catalog_from_jsonl_file(path: str) -> List[Dict[str, Any]]:
     items: List[Dict[str, Any]] = []
@@ -23,20 +27,27 @@ def load_catalog_from_jsonl_file(path: str) -> List[Dict[str, Any]]:
 
     return items
 
+
 def compact_catalog_for_prompt(catalog: List[Dict[str, Any]], max_chars: int = 12000) -> str:
+    """
+    Compact the approach catalog so you're not shipping huge payloads to the model.
+    Keep the fields most useful for selection and quiz generation.
+    """
     rows = []
     for a in catalog:
         aliases = a.get("aliases") or []
         meta = a.get("meta") or {}
-        rows.append({
-            "id": a.get("id"),
-            "name": a.get("name"),
-            "aliases": aliases[:5],
-            "region": meta.get("region"),
-            "anatomic_area": meta.get("anatomic_area"),
-            "joint": meta.get("joint"),
-            "summary": a.get("text", "")[:280],
-        })
+        rows.append(
+            {
+                "id": a.get("id"),
+                "name": a.get("name"),
+                "aliases": aliases[:5],
+                "region": meta.get("region"),
+                "anatomic_area": meta.get("anatomic_area"),
+                "joint": meta.get("joint"),
+                "summary": (a.get("text", "") or "")[:280],
+            }
+        )
     s = json.dumps(rows, ensure_ascii=False)
     return s[:max_chars]
 
@@ -108,6 +119,7 @@ APPROACH_SELECTOR_SCHEMA = {
     },
 }
 
+
 def select_approaches(
     llm: OpenAIJson,
     *,
@@ -115,8 +127,12 @@ def select_approaches(
     catalog: List[Dict[str, Any]],
     n_min: int = 1,
     n_max: int = 3,
+    catalog_max_chars: int = 12000,
 ) -> Dict[str, Any]:
-    catalog_compact = compact_catalog_for_prompt(catalog)
+    """
+    Fast pass: select 1-3 approach IDs from a compacted catalog.
+    """
+    catalog_compact = compact_catalog_for_prompt(catalog, max_chars=catalog_max_chars)
 
     instructions = (
         "You are an orthopaedic surgical approach selector.\n"
@@ -139,8 +155,9 @@ def select_approaches(
         json_schema=APPROACH_SELECTOR_SCHEMA,
     )
 
+    # Safety filter: keep only IDs that exist in the full catalog
     valid_ids = {a.get("id") for a in catalog if a.get("id")}
-    result["selected"] = [x for x in result["selected"] if x.get("id") in valid_ids]
+    result["selected"] = [x for x in result.get("selected", []) if x.get("id") in valid_ids]
 
     if not result["selected"]:
         return {"selected": [], "notes": "No valid approach IDs returned."}
@@ -180,164 +197,112 @@ ANATOMY_QUIZ_SCHEMA = {
     },
 }
 
+
 def build_quiz(
     llm: OpenAIJson,
     *,
     selected_ids: List[str],
     catalog: List[Dict[str, Any]],
     num_questions: int = 8,
+    max_selected_chars: int = 12000,
 ) -> Dict[str, Any]:
+    """
+    Generates anatomy questions for the selected approaches.
+    Speed-focused:
+      - Only ships the *selected* approach entries (not full catalog).
+      - Truncates payload to a reasonable char limit.
+    """
     by_id = {a["id"]: a for a in catalog if "id" in a}
     selected = [by_id[i] for i in selected_ids if i in by_id]
 
     instructions = (
-    "You are an orthopaedic anatomy tutor generating quiz questions.\n"
-    "Task: Create high-yield anatomy questions based primarily on the provided catalog entries.\n"
-    "\n"
-    "Guidelines:\n"
-    "- Base questions on information explicitly stated in the catalog text and metadata whenever possible.\n"
-    "- Prefer rephrasing or testing catalog facts rather than introducing new concepts.\n"
-    "- Do not invent anatomic intervals, structures, or risks that are not clearly implied or mentioned in the catalog.\n"
-    "- If a structure or concept is not present in the catalog, avoid asking about it.\n"
-    "- Use common surgical phrasing only to clarify catalog content, not to add new facts.\n"
-    "- Favor structures at risk, key landmarks, incision paths, and exposure details described in the catalog.\n"
-    "- Keep questions concise, practical, and appropriate for board-style or intra-operative recall.\n"
-)
+        "You are an orthopaedic anatomy tutor generating quiz questions.\n"
+        "Task: Create high-yield anatomy questions based primarily on the provided catalog entries.\n"
+        "\n"
+        "Guidelines:\n"
+        "- Base questions on information explicitly stated in the catalog text and metadata whenever possible.\n"
+        "- Prefer rephrasing or testing catalog facts rather than introducing new concepts.\n"
+        "- Do not invent anatomic intervals, structures, or risks that are not clearly implied or mentioned in the catalog.\n"
+        "- If a structure or concept is not present in the catalog, avoid asking about it.\n"
+        "- Use common surgical phrasing only to clarify catalog content, not to add new facts.\n"
+        "- Favor structures at risk, key landmarks, incision paths, and exposure details described in the catalog.\n"
+        "- Keep questions concise, practical, and appropriate for board-style or intra-operative recall.\n"
+        "- Always set approach_id to one of the provided selected approach IDs.\n"
+    )
 
+    selected_json = json.dumps(selected, ensure_ascii=False)
     user_input = (
-        f"SELECTED APPROACHES (JSON):\n{json.dumps(selected, ensure_ascii=False)[:14000]}\n\n"
+        f"SELECTED APPROACHES (JSON):\n{selected_json[:max_selected_chars]}\n\n"
         f"Create ~{num_questions} questions total, spread across the approaches."
     )
 
-    return llm.run(
+    out = llm.run(
         instructions=instructions,
         user_input=user_input,
         json_schema=ANATOMY_QUIZ_SCHEMA,
     )
 
+    # Safety filter: drop any questions that reference an approach_id we didn't pick
+    allowed = set(selected_ids)
+    out["questions"] = [q for q in out.get("questions", []) if q.get("approach_id") in allowed]
 
-# -----------------------------
-# Stage 3: High-yield structures extractor
-# -----------------------------
-
-HIGH_YIELD_SCHEMA = {
-    "name": "high_yield_anatomy",
-    "schema": {
-        "type": "object",
-        "properties": {
-            "structures": {
-                "type": "array",
-                "minItems": 5,
-                "maxItems": 60,
-                "items": {
-                    "type": "object",
-                    "properties": {
-                        "name": {"type": "string"},
-                        "type": {"type": "string"},
-                        "why_high_yield": {"type": "string"},
-                        "when_in_case": {"type": "string"},
-                        "approach_ids": {
-                            "type": "array",
-                            "items": {"type": "string"},
-                            "minItems": 0,
-                            "maxItems": 3,
-                        },
-                    },
-                    "required": ["name", "type", "why_high_yield", "when_in_case", "approach_ids"],
-                    "additionalProperties": False,
-                },
-            }
-        },
-        "required": ["structures",],
-        "additionalProperties": False,
-    },
-}
-
-def extract_high_yield(
-    llm: OpenAIJson,
-    *,
-    case_prompt: str,
-    selected_ids: List[str],
-    catalog: List[Dict[str, Any]],
-    retrieved_snippets: Optional[List[Dict[str, Any]]] = None,
-) -> Dict[str, Any]:
-    by_id = {a["id"]: a for a in catalog if "id" in a}
-    selected = [by_id[i] for i in selected_ids if i in by_id]
-
-    instructions = (
-    "You are an orthopaedic anatomy checklist generator.\n"
-    "Task: From the given case and selected surgical approaches, list the anatomic structures that are most likely to be asked about, identified, or protected during the case.\n"
-    "\n"
-    "Guidelines:\n"
-    "- Focus on structures that a resident or medical student would be expected to identify intraoperatively or during case questioning.\n"
-    "- Prioritize, in order of importance:\n"
-    "  1) Critical structures at risk (major nerves, vessels, and organs whose injury causes major morbidity).\n"
-    "  2) Key exposure and approach-related structures (intervals, muscles, tendons, capsule).\n"
-    "  3) Fixation- or implant-relevant landmarks (bony landmarks, surfaces used for cuts, alignment, or component positioning).\n"
-    "- Include structures commonly used for orientation, retraction, protection, or repair.\n"
-    "- Do not list obscure anatomy or structures unlikely to be identified or discussed in this case.\n"
-    "- Base selections primarily on the provided catalog and case context; avoid adding anatomy not relevant to the approaches used.\n"
-    "- Use provided snippets only as supporting context, not as a source of unrelated anatomy.\n"
-    "- Output structured JSON only.\n"
-)
-
-    payload = {
-        "case": case_prompt,
-        "selected_approaches": selected,
-        "snippets": retrieved_snippets or [],
-    }
-
-    user_input = json.dumps(payload, ensure_ascii=False)[:15000]
-
-    return llm.run(
-        instructions=instructions,
-        user_input=user_input,
-        json_schema=HIGH_YIELD_SCHEMA,
-    )
+    return out
 
 
 # -----------------------------
-# Orchestrator
+# Orchestrator (Stages 1 + 2 only)
 # -----------------------------
 
-def run_pipeline(
+def run_pipeline_fast(
     *,
     case_prompt: str,
     catalog: List[Dict[str, Any]],
     model_selector: str = "gpt-4.1-mini",
     model_quiz: str = "gpt-4.1-mini",
-    model_high_yield: str = "gpt-4.1",
-    snippets: Optional[List[Dict[str, Any]]] = None,
-    client: Optional[OpenAI] = None,  # ✅ optional reuse
+    client: Optional[OpenAI] = None,
+    # Speed knobs
+    n_min: int = 1,
+    n_max: int = 3,
+    num_questions: int = 8,
+    catalog_max_chars: int = 12000,
+    max_selected_chars: int = 12000,
 ) -> Dict[str, Any]:
+    """
+    Fast pipeline:
+      1) approach selection
+      2) anatomy quiz
+    (Stage 3 removed.)
+    """
     client = client or OpenAI()
 
     selector = OpenAIJson(client, model_selector)
     quizzer = OpenAIJson(client, model_quiz)
-    anatomist = OpenAIJson(client, model_high_yield)
 
-    sel = select_approaches(selector, case_prompt=case_prompt, catalog=catalog)
+    sel = select_approaches(
+        selector,
+        case_prompt=case_prompt,
+        catalog=catalog,
+        n_min=n_min,
+        n_max=n_max,
+        catalog_max_chars=catalog_max_chars,
+    )
     selected_ids = [x["id"] for x in sel.get("selected", [])]
 
-    # ✅ short-circuit if no approaches selected
     if not selected_ids:
         return {
             "approachSelection": sel,
             "anatomyQuiz": {"questions": []},
-            "highYieldAnatomy": {"structures": []},
         }
 
-    quiz = build_quiz(quizzer, selected_ids=selected_ids, catalog=catalog)
-    high_yield = extract_high_yield(
-        anatomist,
-        case_prompt=case_prompt,
+    quiz = build_quiz(
+        quizzer,
         selected_ids=selected_ids,
         catalog=catalog,
-        retrieved_snippets=snippets,
+        num_questions=num_questions,
+        max_selected_chars=max_selected_chars,
     )
 
     return {
         "approachSelection": sel,
         "anatomyQuiz": quiz,
-        "highYieldAnatomy": high_yield,
     }

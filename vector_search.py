@@ -1,9 +1,14 @@
 import os
+import json
+import re
+from pathlib import Path
 from dotenv import load_dotenv
 from pinecone import Pinecone
 from openai import OpenAI
 from typing import List, Dict, Any, Optional
-from query_refiner import refine_query  # ✅ Ensure this module is available
+
+from query_refiner import refine_query  # make sure it exists
+
 
 # ── ENV & CLIENTS ─────────────────────────────────────────────
 load_dotenv()
@@ -12,258 +17,208 @@ OPENAI_PROJECT_ID = os.getenv("OPENAI_PROJECT_ID")
 PINECONE_API_KEY = os.getenv("PINECONE_API_KEY")
 PINECONE_INDEX_NAME = os.getenv("PINECONE_INDEX")
 
+if not all([OPENAI_API_KEY, PINECONE_API_KEY, PINECONE_INDEX_NAME]):
+    raise ValueError("❌ Missing OPENAI_API_KEY, PINECONE_API_KEY, or PINECONE_INDEX")
+
 client = OpenAI(api_key=OPENAI_API_KEY, project=OPENAI_PROJECT_ID)
 pc = Pinecone(api_key=PINECONE_API_KEY)
 index = pc.Index(PINECONE_INDEX_NAME)
 
 EMBED_MODEL = "text-embedding-3-small"
-TOP_K = 100          # reasonable for your use case
-MIN_SCORE = 0.52      # can tune later if you want stricter filtering
+from typing import List, Dict, Any, Optional, Tuple
+import hashlib
+
+TOP_K_STRICT = 50
+TOP_K_RELAX  = 75
+TOP_K_BROAD  = 100
+MIN_SCORE = 0.55
+NO_FILTER_MIN_UNIQUE = 10   # only run no_filter if we have <= 10 unique hits
+TARGET_RESULTS = 40   # stop early when we have enough good unique snippets
 
 
-# ── EMBED ─────────────────────────────────────────────────────
 def embed_text(txt: str) -> List[float]:
-    """Return embedding vector for the given text."""
-    return client.embeddings.create(
-        model=EMBED_MODEL,
-        input=txt
-    ).data[0].embedding
+    return client.embeddings.create(model=EMBED_MODEL, input=txt).data[0].embedding
 
 
-# ── METADATA FILTER BUILDER ───────────────────────────────────
-def _build_metadata_filter_from_query(refined_query: str) -> Optional[Dict[str, Any]]:
+def payload_to_embedding_text(p: dict) -> str:
     """
-    Build a Pinecone metadata filter from the refined query.
-    - Multiple specialties → specialty: {"$in": [...]}
-    - Multiple regions    → region: {"$in": [...]}
-    - Specialty + region  → {"$and": [specialty_clause, region_clause]}
+    Better embedding input:
+    - Use the expanded natural language search_text primarily
+    - Append canonical slugs as anchors
     """
+    if not isinstance(p, dict):
+        return str(p)
 
-    tokens = [t.strip().lower() for t in refined_query.split(",") if t.strip()]
-    if not tokens:
-        return None
+    search_text = (p.get("search_text") or p.get("raw_prompt") or "").strip()
+    specialties = " ".join(p.get("specialties", []))
+    region = (p.get("region") or "").strip()
+    subregion = (p.get("subregion") or "").strip()
+    diagnoses = " ".join(p.get("diagnoses", []))
+    procedures = " ".join(p.get("procedures", []))
 
-    specialty_map = {
-        "recon": "recon",
-        "adult reconstruction": "recon",
-        "arthroplasty": "recon",
+    anchors = " | ".join([
+        f"specialties {specialties}".strip(),
+        f"region {region}".strip(),
+        f"subregion {subregion}".strip(),
+        f"diagnoses {diagnoses}".strip(),
+        f"procedures {procedures}".strip(),
+    ])
 
-        "trauma": "trauma",
-        "sports": "sports",
-        "foot & ankle": "footankle",
-        "foot and ankle": "footankle",
-        "footankle": "footankle",
-        "hand": "hand",
-        "peds": "peds",
-        "pediatrics": "peds",
-        "spine": "spine",
-        "shoulder": "shoulderelbow",
-        "shoulder/elbow": "shoulderelbow",
-        "shoulderelbow": "shoulderelbow",
-        "onc": "onc",
-    }
-
-    region_map = {
-        "knee": [
-            "knee",
-            "lowerextremity::knee",
-            "lowerextremity",
-            "lowerextremity::lowerextremityknee",
-        ],
-        "hip": [
-            "hip",
-            "lowerextremity::hip",
-            "pelvis",
-        ],
-        "ankle": [
-            "ankle",
-            "footankle",
-            "lowerextremity::lowerextremityankle",
-        ],
-        "foot": [
-            "foot",
-            "footankle",
-            "forefoot",
-            "midfoot",
-        ],
-        # NEW: let 'footankle' act as a region concept too
-        "footankle": [
-            "footankle",
-            "ankle",
-            "foot",
-            "lowerextremity::lowerextremityankle",
-        ],
-        "pelvis": [
-            "pelvis",
-            "acetabulum",
-        ],
-        "patella": [
-            "patella",
-        ],
-        "elbow": [
-            "elbow",
-        ],
-        "shoulder": [
-            "shoulder",
-            "shouldergirdle",
-            "shoulderelbow",
-        ],
-        "spine": [
-            "spine",
-            "thoracic spine",
-            "lumbar spine",
-            "cervical spine",
-        ],
-    }
-
-    selected_specialties = set()
-    selected_regions = set()
-
-    for t in tokens:
-        if t in specialty_map:
-            selected_specialties.add(specialty_map[t])
-        if t in region_map:
-            selected_regions.update(region_map[t])
-
-    clauses: List[Dict[str, Any]] = []
-
-    # Build specialty clause
-    if selected_specialties:
-        if len(selected_specialties) == 1:
-            clauses.append({"specialty": {"$eq": next(iter(selected_specialties))}})
-        else:
-            clauses.append({"specialty": {"$in": list(selected_specialties)}})
-
-    # Build region clause
-    if selected_regions:
-        if len(selected_regions) == 1:
-            clauses.append({"region": {"$eq": next(iter(selected_regions))}})
-        else:
-            clauses.append({"region": {"$in": list(selected_regions)}})
-
-    # If nothing matched safely, don't filter
-    if not clauses:
-        return None
-
-    # If only one clause, no need for $and
-    if len(clauses) == 1:
-        return clauses[0]
-
-    return {"$and": clauses}
+    if search_text:
+        return f"{search_text} || {anchors}"
+    return anchors
 
 
-# ── SCORE + FILTER RESULT SNIPPETS ────────────────────────────
+def _sig_for_item(text: str) -> str:
+    """Stable signature for dedupe (better than first N words)."""
+    norm = " ".join((text or "").lower().split())
+    return hashlib.md5(norm.encode("utf-8")).hexdigest()
+
+
 def _score_matches(matches: List[dict]) -> List[dict]:
-    filtered = [
-        m for m in matches
-        if m["score"] >= MIN_SCORE and m["metadata"].get("text")
-    ]
+    out: List[dict] = []
+    for m in matches:
+        score = float(m.get("score", 0) or 0)
+        meta = m.get("metadata") or {}
+        text = (meta.get("text") or "").replace("\n", " ").strip()
 
-    seen = set()
-    clean_items = []
-
-    for m in filtered:
-        meta = m["metadata"]
-        raw_text = meta.get("text", "").replace("\n", " ").strip()
-
-        # dedupe signature
-        sig = " ".join(raw_text.lower().split(" ")[:8])
-        if sig in seen:
+        if score < MIN_SCORE or not text:
             continue
-        seen.add(sig)
 
-        item = {
-            "text": raw_text,
+        out.append({
+            "id": m.get("id"),  # if Pinecone provides it
+            "text": text,
             "source": meta.get("source"),
             "specialty": meta.get("specialty"),
             "region": meta.get("region"),
-            "diagnosis": meta.get("diagnosis"),
-            "procedure": meta.get("procedure"),
-            "score": m.get("score")
-        }
+            "subregion": meta.get("subregion"),
+            "diagnoses": meta.get("diagnoses") or [],
+            "procedures": meta.get("procedures") or [],
+            "score": score,
+        })
+    return out
 
-        clean_items.append(item)
 
-    return clean_items[:500]
+def _dedupe_keep_best(items: List[dict], limit: int = 200) -> List[dict]:
+    best: Dict[str, dict] = {}
 
-def _query_with_fallback(vec: List[float], filter_obj: Optional[Dict[str, Any]]) -> List[dict]:
-    """
-    Run Pinecone query with an optional metadata filter.
-    If no snippets are returned with the filter, retry once WITHOUT the filter.
-    """
-    def run_query(label: str, filt: Optional[Dict[str, Any]] = None) -> List[dict]:
-        query_kwargs: Dict[str, Any] = {
-            "vector": vec,
-            "top_k": TOP_K,
-            "include_metadata": True,
-        }
-        if filt:
-            query_kwargs["filter"] = filt
-            print(f"\n🔎 Querying Pinecone ({label}) with filter: {filt}")
+    for it in items:
+        # prefer ID if available
+        if it.get("id"):
+            key = f"id:{it['id']}"
         else:
-            print(f"\n🔎 Querying Pinecone ({label}) with NO filter")
+            key = f"sig:{_sig_for_item(it.get('text', ''))}"
 
-        resp = index.query(**query_kwargs)
-        matches = resp.get("matches", [])
-        snippets = _score_matches(matches)
-        print(f"   → {len(snippets)} snippets after score+dedupe")
-        return snippets
+        if key not in best or it.get("score", 0) > best[key].get("score", 0):
+            best[key] = it
 
-    # 1) Try with filter (if we have one)
-    if filter_obj:
-        snippets = run_query("primary (with filter)", filter_obj)
-        if snippets:
-            return snippets
-
-        # 2) Fallback: no results with filter → try again without filter
-        print("⚠️ No snippets found with metadata filter. Falling back to NO filter...")
-        return run_query("fallback (no filter)", None)
-
-    # No filter in the first place → just run once
-    return run_query("no filter", None)
+    merged = sorted(best.values(), key=lambda x: x.get("score", 0), reverse=True)
+    return merged[:limit]
 
 
-
-# ── MAIN EXPORT FUNCTION ──────────────────────────────────────
-def get_case_snippets(refined_query: str) -> List[dict]:
-    """
-    Given an already-refined query string, embed → query Pinecone
-    with an intelligent metadata filter → return cleaned snippets.
-    Falls back to NO metadata filter if the filtered query returns
-    no usable snippets.
-    """
-    vec = embed_text(refined_query)
-
-    filter_obj = _build_metadata_filter_from_query(refined_query)
-
-    query_kwargs: Dict[str, Any] = {
+def _pinecone_query(vec: List[float], filt: Optional[Dict[str, Any]], top_k: int) -> List[dict]:
+    kwargs: Dict[str, Any] = {
         "vector": vec,
-        "top_k": TOP_K,
+        "top_k": top_k,
         "include_metadata": True,
     }
+    if filt:
+        kwargs["filter"] = filt
 
-    # ---- First pass: with metadata filter (if any) ----
-    if filter_obj:
-        query_kwargs["filter"] = filter_obj
-        print("\n🔎 Using metadata filter:", filter_obj)
-
-    resp = index.query(**query_kwargs)
-    matches = resp.get("matches", [])
-    snippets = _score_matches(matches)
-
-    # ---- Fallback: retry WITHOUT filter if filter gave nothing ----
-    if filter_obj and not snippets:
-        print("⚠️ No snippets found with metadata filter. Retrying without filter...")
-        # remove filter and re-query
-        query_kwargs.pop("filter", None)
-        resp = index.query(**query_kwargs)
-        matches = resp.get("matches", [])
-        snippets = _score_matches(matches)
-
-    return snippets
+    resp = index.query(**kwargs)
+    matches = resp.get("matches", []) or []
+    return _score_matches(matches)
 
 
-# ── INTERACTIVE TEST BLOCK ────────────────────────────────────
+def _build_and_filter(refined: dict,
+                      use_region=True,
+                      use_subregion=True,
+                      use_dx=True,
+                      use_proc=True,
+                      use_specialty=True) -> Optional[Dict[str, Any]]:
+    """
+    Build a SINGLE AND filter with available fields.
+    Returns None if no constraints are selected.
+    """
+    if not isinstance(refined, dict):
+        return None
+
+    region = (refined.get("region") or "").strip()
+    subregion = (refined.get("subregion") or "").strip()
+    diagnoses = refined.get("diagnoses") or []
+    procedures = refined.get("procedures") or []
+    specialties = [s.lower() for s in (refined.get("specialties") or []) if isinstance(s, str)]
+
+    clauses: List[Dict[str, Any]] = []
+
+    if use_proc and procedures:
+        clauses.append({"procedures": {"$in": procedures}})
+    if use_dx and diagnoses:
+        clauses.append({"diagnoses": {"$in": diagnoses}})
+    if use_subregion and subregion:
+        clauses.append({"subregion": {"$in": [subregion]}})
+    if use_region and region:
+        clauses.append({"region": {"$in": [region]}})
+    if use_specialty and specialties:
+        clauses.append({"specialty": {"$in": specialties}})
+
+    if not clauses:
+        return None
+    if len(clauses) == 1:
+        return clauses[0]
+    return {"$and": clauses}
+
+
+def get_case_snippets(refined_query: dict) -> List[dict]:
+    vec = embed_text(payload_to_embedding_text(refined_query))
+
+    ladder: List[Tuple[str, Optional[Dict[str, Any]], int]] = []
+
+    ladder.append(("strict", _build_and_filter(refined_query, True, True, True, True, True), TOP_K_STRICT))
+    ladder.append(("drop_specialty", _build_and_filter(refined_query, True, True, True, True, False), TOP_K_STRICT))
+    ladder.append(("drop_dx", _build_and_filter(refined_query, True, True, False, True, False), TOP_K_RELAX))
+    ladder.append(("drop_proc", _build_and_filter(refined_query, True, True, False, False, False), TOP_K_RELAX))
+    ladder.append(("region+specialty", _build_and_filter(refined_query, True, False, False, False, True), TOP_K_BROAD))
+    ladder.append(("region_only", _build_and_filter(refined_query, True, False, False, False, False), TOP_K_BROAD))
+
+    all_hits: List[dict] = []
+
+    print("🎯 Using payload tokens:", {
+        "specialties": [s.lower() for s in (refined_query.get("specialties") or []) if isinstance(s, str)],
+        "region": refined_query.get("region"),
+        "subregion": refined_query.get("subregion"),
+        "diagnoses": refined_query.get("diagnoses") or [],
+        "procedures": refined_query.get("procedures") or [],
+    })
+
+    merged: List[dict] = []
+
+    # run guarded ladder first
+    for label, filt, top_k in ladder:
+        print(f"\n🔎 Pinecone query [{label}] top_k={top_k} filter={filt}")
+        hits = _pinecone_query(vec, filt, top_k=top_k)
+        print(f"   → {len(hits)} raw hits (>= {MIN_SCORE})")
+
+        all_hits.extend(hits)
+        merged = _dedupe_keep_best(all_hits, limit=200)
+        print(f"   → {len(merged)} unique merged hits so far")
+
+        if len(merged) >= TARGET_RESULTS:
+            return merged
+
+    # ✅ Only run no_filter if we still have <= 10 unique results
+    if len(merged) <= NO_FILTER_MIN_UNIQUE:
+        print(f"\n⚠️ Only {len(merged)} unique hits (<= {NO_FILTER_MIN_UNIQUE}). Running NO FILTER fallback...")
+        hits = _pinecone_query(vec, None, top_k=TOP_K_BROAD)
+        print(f"   → {len(hits)} raw hits (>= {MIN_SCORE})")
+        all_hits.extend(hits)
+
+    else:
+        print(f"\n🛑 Skipping NO FILTER fallback (already {len(merged)} unique hits > {NO_FILTER_MIN_UNIQUE}).")
+
+    return _dedupe_keep_best(all_hits, limit=200)
+
+# ── INTERACTIVE TEST ──────────────────────────────────────────
 if __name__ == "__main__":
     print("🔍 Vector Search Interface (with Query Refinement & Metadata Filter)")
     while True:

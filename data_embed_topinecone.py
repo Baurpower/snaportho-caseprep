@@ -94,8 +94,6 @@ def get_source_ref(meta: dict) -> str:
         return src.strip()
     return ""
 
-
-# ── STEP 2: Load JSONL records -> enriched_text + flat_meta ───
 # ── STEP 2: Load JSONL records -> enriched_text + SIMPLE metadata ───
 records = []
 seen_ids = set()

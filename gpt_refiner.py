@@ -225,58 +225,67 @@ CASEPREP_TOOL = [
     {"type": "function", "function": {"name": "emit_caseprep", "parameters": CASEPREP_SCHEMA}}
 ]
 
+def _looks_like_question(q: str) -> bool:
+    q = (q or "").strip().lower()
+    if not q:
+        return False
+    if q.endswith("?"):
+        return True
+    return bool(re.match(r"^(what|how|why|when|where|which|who|list|name|define|describe|explain|indications|contraindications|steps|complications)\b", q))
+
 
 # ── Single-stage reformatter (after masking) ──────────────────
+def _extract_tool_args(msg, tool_name: str) -> Dict[str, Any]:
+    """Find tool call by name and parse JSON args safely."""
+    tool_calls = getattr(msg, "tool_calls", None) or []
+    for tc in tool_calls:
+        try:
+            fn = tc.function
+            if fn and fn.name == tool_name:
+                return json.loads(fn.arguments or "{}")
+        except Exception:
+            continue
+    return {}
+
+
 def _reformat_snippets(user_query: str, snippets: List[str]) -> Dict[str, Any]:
     """
     Take pre-cleaned, relevance-filtered snippets and produce:
       - pimpQuestions: list of 'Q: ... A: ...' strings (ONLY when Q/A is obvious)
-      - otherUsefulFacts: list of short facts, often very close to the original text
+      - otherUsefulFacts: list of short facts, close to original
     """
     if not snippets:
         return {"pimpQuestions": [], "otherUsefulFacts": []}
 
-    # Trim to max number of snippets for speed
     snippets = snippets[:MAX_SNIPPETS_FOR_REFORMAT]
 
     system_prompt = (
-        "You are a senior orthopaedic surgeon building a concise case-prep card for a trainee.\n"
-        "Input: (1) a case description, (2) a list of relevant teaching snippets.\n\n"
-        "Your job is VERY LIGHTWEIGHT:\n"
-        "  - Select high-yield teaching points from the snippets.\n"
-        "  - Use Q/A format ONLY when it is easy and natural.\n"
-        "  - Otherwise, keep the snippet essentially as a factual statement.\n\n"
-        "Minimal editing rules:\n"
-        "  - Do NOT heavily rewrite or paraphrase the content.\n"
-        "  - Preserve key phrases, numbers, and terminology exactly as written.\n"
-        "  - If a snippet already has 'Q:' and 'A:' structure, you may keep that pair and\n"
-        "    lightly clean grammar if needed.\n"
-        "  - If a snippet is clearly a fact (e.g., starts with 'Fact:' or is just a statement),\n"
-        "    usually leave it as a fact. Only convert it to Q/A when the question is obvious\n"
-        "    and can be formed by re-using the same words.\n\n"
-        "Output format (JSON via function tool):\n"
-        "  - 'pimpQuestions': an array of objects with fields 'question' and 'answer'.\n"
-        "      • Include only items that are truly Q/A style.\n"
-        "      • Questions should be short and clinically focused.\n"
-        "      • Answers should be short, factual, and derived directly from the snippets.\n"
-        "      • Avoid duplicates or near-duplicates.\n"
-        "      • Do NOT invent new facts or expand beyond the snippets.\n"
-        "  - 'otherUsefulFacts': an array of strings.\n"
-        "      • Each fact is one concise sentence.\n"
-        "      • These may closely match the original snippet text (light cleanup only).\n"
-        "      • Use this bucket for important statements that are better left as-is.\n\n"
-        "General behavior:\n"
-        "  - Try to cover as many distinct high-yield points as possible.\n"
-        "  - Do NOT throw away content unless it is clearly redundant.\n"
-        "  - Do NOT add prose explanations outside of the JSON; use the function tool ONLY."
+        "You are an orthopaedic attending preparing a trainee for ONE specific case.\n"
+        "You will be given:\n"
+        "  1) A case prompt\n"
+        "  2) A list of teaching snippets (already filtered for relevance)\n\n"
+        "Your job is to output TWO lists:\n"
+        "  - pimpQuestions: high-yield intraop/pimp-style Q&A pairs drawn DIRECTLY from snippets.\n"
+        "    Only create a question if the snippet clearly supports an answer.\n"
+        "    Keep questions short and surgical.\n"
+        "  - otherUsefulFacts: short standalone facts that help with the case.\n\n"
+        "Rules:\n"
+        "  - Do NOT invent facts.\n"
+        "  - Prefer being faithful to the snippet wording.\n"
+        "  - Avoid duplicates.\n"
+        "  - If a snippet is already formatted like 'Q: ... A: ...', preserve it.\n\n"
+        "Output requirements:\n"
+        "  - Use the function tool ONLY.\n"
+        "  - pimpQuestions must be an array of objects: {question: string, answer: string}\n"
+        "  - otherUsefulFacts must be an array of short strings.\n"
     )
 
     payload = {"case": user_query, "snippets": snippets}
 
     resp = client.chat.completions.create(
         model="gpt-4o-mini",
-        temperature=0.2,
-        max_tokens=QUESTION_MAX_TOKENS + FACTS_MAX_TOKENS,
+        temperature=0.1,       # tighter for extractive behavior
+        max_tokens=900,        # plenty for ~20 Qs + facts
         messages=[
             {"role": "system", "content": system_prompt},
             {"role": "user", "content": json.dumps(payload, ensure_ascii=False)},
@@ -287,35 +296,29 @@ def _reformat_snippets(user_query: str, snippets: List[str]) -> Dict[str, Any]:
     )
 
     msg = resp.choices[0].message
+    data = _extract_tool_args(msg, "emit_caseprep")
 
-    if getattr(msg, "tool_calls", None):
-        try:
-            data = json.loads(msg.tool_calls[0].function.arguments)
-        except Exception:
-            data = {}
-        raw_qs = data.get("pimpQuestions", []) or []
-        raw_facts = data.get("otherUsefulFacts", []) or []
-    else:
-        # Hard fallback if the tool wasn't used correctly
-        try:
-            data = json.loads((msg.content or "").strip())
-        except Exception:
-            data = {}
-        raw_qs = data.get("pimpQuestions", []) or []
-        raw_facts = data.get("otherUsefulFacts", []) or []
+    raw_qs = data.get("pimpQuestions", []) or []
+    raw_facts = data.get("otherUsefulFacts", []) or []
 
     pimp_questions: List[str] = []
     other_facts: List[str] = []
 
-    # Convert questions to 'Q: ... A: ...'
     seen_q = set()
     for obj in raw_qs:
         if not isinstance(obj, dict):
             continue
-        q = obj.get("question", "") or ""
-        a = obj.get("answer", "") or ""
-        if not q.strip():
+        q = (obj.get("question") or "").strip()
+        a = (obj.get("answer") or "").strip()
+        if not q:
             continue
+
+        if not _looks_like_question(q):
+            s = _normalize_space(q)
+            if s:
+                other_facts.append(s)
+            continue
+
         formatted = _format_qa(q, a)
         key = _normalize_space(formatted).lower()
         if key in seen_q:
@@ -323,7 +326,6 @@ def _reformat_snippets(user_query: str, snippets: List[str]) -> Dict[str, Any]:
         seen_q.add(key)
         pimp_questions.append(formatted)
 
-    # Normalize facts, dedupe, cap
     seen_f = set()
     for f in raw_facts:
         if not isinstance(f, str):
@@ -339,11 +341,7 @@ def _reformat_snippets(user_query: str, snippets: List[str]) -> Dict[str, Any]:
         if len(other_facts) >= MAX_FACTS_OUT:
             break
 
-    return {
-        "pimpQuestions": pimp_questions,
-        "otherUsefulFacts": other_facts,
-    }
-
+    return {"pimpQuestions": pimp_questions, "otherUsefulFacts": other_facts}
 
 # ── Public API ────────────────────────────────────────────────
 def refine_case_snippets(user_query: str, snippets: List[Any]) -> Dict[str, Any]:

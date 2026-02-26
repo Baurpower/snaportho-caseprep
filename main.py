@@ -11,9 +11,7 @@ from pydantic import BaseModel
 from vector_search import get_case_snippets
 from gpt_refiner import refine_case_snippets
 from query_refiner import refine_query
-
-# ✅ import your anatomy pipeline
-from anatomy_gpt import load_catalog_from_jsonl_file, run_pipeline
+from anatomy_gpt import load_catalog_from_jsonl_file, run_pipeline_fast
 
 from openai import OpenAI
 
@@ -88,30 +86,42 @@ async def case_prep(request: CasePrepRequest):
     if not prompt:
         return {"pimpQuestions": [], "otherUsefulFacts": ["❌ No prompt provided"], "anatomy": None}
 
-    # 1) Refine prompt (blocking)
+    # 1) Refine prompt
     refined_prompt = await run_in_threadpool(refine_query, prompt)
     print(f"🧠 Refined Prompt: {refined_prompt}")
 
-    # 2) Pinecone search (blocking)
+    # 2) Pinecone search
     snippets = await run_in_threadpool(get_case_snippets, refined_prompt)
     if not snippets:
         return {"pimpQuestions": [], "otherUsefulFacts": ["❌ No relevant content found."], "anatomy": None}
 
-    # 3) Kick off BOTH tasks in parallel (blocking -> threadpool)
-    caseprep_task = run_in_threadpool(refine_case_snippets, prompt, snippets)
+    # ─────────────────────────────
+    # ✅ Wrap tasks with print logging
+    # ─────────────────────────────
 
-    anatomy_task = run_in_threadpool(
-        run_pipeline,
-        case_prompt=prompt,
-        catalog=CATALOG,
-        snippets=snippets,
-        client=OPENAI_CLIENT,
+    async def run_caseprep():
+        result = await run_in_threadpool(refine_case_snippets, prompt, snippets)
+        print("✅ CasePrep pipeline finished")
+        return result
+
+    async def run_anatomy():
+        result = await run_in_threadpool(
+            run_pipeline_fast,
+            case_prompt=prompt,
+            catalog=CATALOG,
+            client=OPENAI_CLIENT,
+        )
+        print("🦴 Anatomy pipeline finished")
+        return result
+
+    # 3) Run in parallel
+    caseprep_result, anatomy_result = await asyncio.gather(
+        run_caseprep(),
+        run_anatomy()
     )
 
-    # 4) Await both together
-    caseprep_result, anatomy_result = await asyncio.gather(caseprep_task, anatomy_task)
-
-    # 5) Merge
+    # 4) Merge
+    print("🚀 Both pipelines completed — returning response")
     return {**caseprep_result, "anatomy": anatomy_result}
 
 # ✅ Optional: dedicated anatomy-only endpoint
@@ -125,7 +135,7 @@ async def anatomy_only(request: CasePrepRequest):
         return {"error": "Approach catalog not loaded"}
 
     result = await run_in_threadpool(
-        run_pipeline,
+        run_pipeline_fast,
         case_prompt=prompt,
         catalog=CATALOG,
         client=OPENAI_CLIENT,

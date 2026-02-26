@@ -1,0 +1,938 @@
+term,count
+shoulder,176
+elbow,128
+knee,86
+femur,77
+tibia,69
+hip,65
+humerus,47
+ankle,43
+acetabulum,33
+spine,28
+patella,26
+glenoid,25
+radial head,25
+femoral head,24
+fibula,22
+clavicle,22
+acl,22
+femoral neck,21
+scaphoid,20
+pelvis,19
+radius,18
+supracondylar,17
+meniscus,16
+proximal humerus,15
+calcaneus,15
+foot,14
+ulnar nerve,14
+labrum,13
+talus,13
+wrist,11
+radial nerve,11
+femoral shaft,11
+gastrocnemius,11
+lunate,10
+thumb,10
+thoracic spine,10
+peroneus brevis,10
+5th metatarsal,10
+humeral head,9
+scapula,9
+distal humerus,9
+forearm,9
+hallux,9
+pelvic ring,8
+ulna,8
+rotator cuff,8
+lcl,8
+pcl,8
+lumbar spine,8
+distal phalanx,8
+tibial tubercle,8
+popliteal artery,8
+achilles tendon,8
+distal radius,7
+hand,7
+tendon,7
+olecranon,7
+mcl,7
+coronoid,7
+carpal tunnel,7
+lesser trochanter,7
+spinal cord,7
+metacarpal,7
+tibial plateau,7
+patellar tendon,7
+dipj,7
+deltoid ligament,7
+subtalar joint,7
+metatarsal,6
+vertebral body,6
+bone,6
+axillary nerve,6
+infraspinatus,6
+supraspinatus,6
+suprascapular nerve,6
+biceps tendon,6
+epl,6
+volar plate,6
+sartorius,6
+gluteus medius,6
+cervical spine,6
+metaphysis,6
+physis,6
+medial epicondyle,6
+epiphysis,6
+anterior tibial artery,6
+collateral ligaments,6
+transverse carpal ligament,6
+phalanges,6
+proximal phalanx,6
+pipj,6
+glenohumeral joint,5
+capitellum,5
+trochlea,5
+teres minor,5
+capsule,5
+musculocutaneous nerve,5
+biceps,5
+lateral epicondyle,5
+lucl,5
+pin,5
+median nerve,5
+radial styloid,5
+iliopsoas,5
+rectus femoris,5
+l5,5
+vertebrae,5
+tibialis anterior,5
+peroneus longus,5
+superficial peroneal nerve,5
+posterior tibial artery,5
+medial cuneiform,5
+capitate,4
+obturator foramen,4
+ilium,4
+cuboid,4
+medial compartment,4
+lateral compartment,4
+subscapularis,4
+coracohumeral ligament,4
+pectoralis major,4
+conoid ligament,4
+acromion,4
+greater tuberosity,4
+humeral shaft,4
+posterior interosseous nerve,4
+annular ligament,4
+ecrb,4
+fds,4
+interosseous membrane,4
+radioulnar ligaments,4
+extensor compartment,4
+fpl,4
+medial femoral circumflex artery,4
+greater trochanter,4
+asis,4
+tensor fascia latae,4
+proximal femur,4
+iliac crest,4
+sacrum,4
+distal femur,4
+hamstring,4
+finger,4
+semimembranosus,4
+lateral meniscus,4
+gracilis,4
+semitendinosus,4
+common peroneal nerve,4
+second metatarsal,4
+soleus,4
+posterior malleolus,4
+trapezium,4
+middle phalanx,4
+fdp,4
+pisiform,4
+sural nerve,4
+posterior tibialis tendon,4
+fhl,4
+posterior facet,4
+great toe,4
+lisfranc ligament,4
+posterior tibial tendon,4
+hamate,3
+triquetrum,3
+pubic ramus,3
+s1,3
+hemipelvis,3
+posterior wall,3
+flexor tendon,3
+digit,3
+anterior compartment,3
+nerve,3
+subtrochanteric region,3
+latissimus dorsi,3
+short head of the biceps,3
+trapezoid ligament,3
+bicep tendon,3
+transepicondylar axis,3
+lateral antebrachial cutaneous nerve,3
+mucl,3
+radial tuberosity,3
+ligaments,3
+apl,3
+epb,3
+eip,3
+sciatic nerve,3
+piriformis,3
+lateral femoral cutaneous nerve,3
+it band,3
+femoral component,3
+pedicles,3
+nerve root,3
+pedicle,3
+phalanx,3
+pubic symphysis,3
+proximal tibia,3
+femoral nerve,3
+anterior inferior tibiofibular ligament,3
+medial meniscus,3
+lateral tibial plateau,3
+biceps femoris,3
+popliteofibular ligament,3
+popliteus tendon,3
+medial patellofemoral ligament,3
+superficial mcl,3
+vastus intermedius,3
+trochlear groove,3
+ankle joint,3
+medial malleolus,3
+peroneal artery,3
+scapholunate ligament,3
+adductor pollicis,3
+first metacarpal,3
+ulnar collateral ligament,3
+central slip,3
+fdp tendon,3
+fds tendons,3
+digital arteries,3
+1st metatarsal,3
+talonavicular joint,3
+2nd metatarsal,3
+tibial (medial),3
+distal_tibia,3
+syndesmosis,3
+hindfoot,3
+lisfranc joint,3
+scapular body,2
+acromioclavicular joint,2
+posterior fat pad,2
+ilioischial line,2
+coccyx,2
+spinous processes,2
+s2,2
+si joint,2
+sacral ala,2
+anterior wall,2
+anterior column,2
+small finger,2
+fingers,2
+dorsal interosseous,2
+hypothenar,2
+thenar,2
+volar interosseous,2
+deep posterior compartment,2
+central compartment,2
+interosseous compartment,2
+lower leg,2
+cartilage,2
+coracoid,2
+long head of biceps tendon,2
+superior glenohumeral joint,2
+posterior humeral circumflex artery,2
+bicipital groove,2
+teres major,2
+coracobrachialis,2
+coracoacromial ligament,2
+long head of the triceps,2
+suprascapular artery,2
+ac joint,2
+head,2
+lesser tuberosity,2
+shoulder joint,2
+hill sachs lesion,2
+rotator interval,2
+subscapularis tendon,2
+joint,2
+biceps anchor,2
+posterior capsule,2
+joint capsule,2
+brachioradialis,2
+superficial radial nerve,2
+extensor indicis proprius,2
+long head,2
+flexor carpi radialis,2
+flexor carpi ulnaris,2
+palmaris longus,2
+pronator teres,2
+anconeus,2
+ed,2
+ecu,2
+two heads of the pronator teres,2
+medial antebrachial cutaneous nerve,2
+supinator muscle,2
+central band,2
+druj,2
+transverse acetabular ligament,2
+ischial tuberosity,2
+short external rotators,2
+superior gluteal nerve,2
+calcar,2
+intertrochanteric,2
+piriformis fossa,2
+pudendal nerve,2
+hip joint,2
+acetabular cup,2
+femoral stem,2
+trochanter,2
+stem,2
+cortical bone,2
+nucleus pulposus,2
+anterior longitudinal ligament,2
+lamina,2
+spinous process,2
+c1,2
+c2,2
+posterior transverse ligament,2
+c5,2
+c6,2
+l4,2
+t4,2
+ip joint,2
+superior gluteal artery,2
+external iliac vessels,2
+iliac wing,2
+proximal tibial physis,2
+physeal,2
+metatarsus,2
+lateral condyle,2
+nail plate,2
+digits,2
+flexor pollicis longus,2
+vertebral segment,2
+thigh,2
+tibial shaft,2
+coronary ligaments,2
+meniscofemoral ligaments,2
+ligament of humphrey,2
+ligament of wrisberg,2
+anteromedial bundle,2
+medial tibial plateau,2
+patella retinaculum,2
+lateral geniculate artery,2
+popliteus,2
+patellar retinaculum,2
+posterior oblique ligament,2
+saphenous nerve,2
+vastus lateralis,2
+vastus medialis,2
+extensor mechanism,2
+femoral tunnel,2
+posterolateral corner,2
+blumensaat's line,2
+tibial tuberosity,2
+mechanical axis,2
+intercondylar notch,2
+whiteside's line,2
+deep peroneal nerve,2
+extensor hallicus longus,2
+plantaris tendon,2
+tibial nerve,2
+adductor magnus,2
+femoral artery,2
+lunotriquetral ligament,2
+mcp joint,2
+metacarpals,2
+fifth metacarpal,2
+abductor pollicis longus,2
+cmc joint,2
+interossei,2
+mcpj,2
+hook of hamate,2
+fdp tendons,2
+recurrent motor branch of the median nerve,2
+lumbrical muscles,2
+ulnar artery,2
+palmar arches,2
+nerves,2
+grayson's ligament,2
+posterior inferior tibiofibular ligament,2
+atfl,2
+navicular,2
+tibialis anterior tendon,2
+plantar fascia,2
+middle cuneiform,2
+lateral column,2
+flexor hallucis brevis,2
+sesamoids,2
+sesamoid,2
+peroneal tendon,2
+subtalar,2
+talar,2
+fdl,2
+sustentaculum tali,2
+toes,2
+forefoot,2
+sesamoid complex,2
+first metatarsal,2
+talocalcaneal angle,2
+mtpj,2
+glenoid fossa,1
+svc,1
+sternoclavicular joint,1
+subclavian artery,1
+acetabular roof,1
+anterior border,1
+iliopubic line,1
+medial acetabular wall,1
+posterior border,1
+tear drop,1
+sacral foramina,1
+posterior column,1
+medial femoral neck,1
+superomedial dome,1
+penis,1
+femoral condyles,1
+talar domes,1
+cuneiform,1
+talar neck,1
+synovial sheath,1
+tendon sheath,1
+parona's space,1
+fingertip pulp,1
+s. aureus,1
+dorsal metacarpophalangeal joint,1
+arm,1
+adductor,1
+posterior compartment,1
+superficial posterior compartment,1
+dorsal compartment,1
+muscle,1
+vessel,1
+jaw,1
+acromial process,1
+coraclavicular ligaments,1
+coracoid process,1
+distal clavicle,1
+lower subscapular nerve,1
+upper subscapular nerve,1
+transverse humeral ligament,1
+glenoid tubercle,1
+cephalic vein,1
+anterior humeral circumflex artery,1
+venous communicantes,1
+pectoralis minor,1
+acromioclavicular ligament,1
+conjoined tendon,1
+arcuate artery,1
+scapulothoracic articulation,1
+serratus anterior,1
+long thoracic nerve,1
+trapezius,1
+cn xi,1
+clavicular head,1
+sternocostal head,1
+suprascapular notch,1
+transverse scapular ligament,1
+inferior glenohumeral ligament,1
+middle glenohumeral ligament,1
+superior glenohumeral ligament,1
+acromial branch of the thoracoacromial artery,1
+pectoralis major tendon,1
+cc ligaments,1
+sternocleidomastoid,1
+platysma,1
+supraclavicular nerves,1
+ac ligament,1
+cc ligament,1
+chest wall,1
+lung,1
+deltoid,1
+neurovascular bundle,1
+bankart lesions,1
+superior capsule,1
+suture,1
+supraspinatus tendon,1
+ac ligaments,1
+superior labrum,1
+mghl,1
+anterior inferior glenohumeral ligament,1
+glenohumeral ligament,1
+infraspinatus tendon,1
+upper arm,1
+axillary recess,1
+deltopectoral,1
+conjoint tendon,1
+glenosphere,1
+brachialis,1
+brachialis muscle,1
+lateral head,1
+medial head,1
+triceps muscle,1
+inferior glenoid tubercle,1
+lateral trochlear ridge,1
+flexor digitorum superficialis,1
+extensor carpi radialis brevis,1
+extensor carpi radialis longus,1
+extensor carpi ulnaris,1
+extensor digitorum,1
+medial collateral ligament,1
+sublime tubercle,1
+anterior bundle,1
+posterior bundle,1
+transverse bundle,1
+accessory lcl,1
+lateral radial collateral ligament,1
+lateral ulnar collateral ligament,1
+supinator crest,1
+arcade of struthers,1
+osbourne's ligament,1
+medial head of triceps,1
+medial intermuscular septum,1
+two heads of the fcu,1
+articular branch,1
+nerve to fcu,1
+long head of the biceps,1
+bicipital aponeurosis,1
+ligament of struthers,1
+supracondylar process,1
+dorsal lateral hand,1
+arcade of froshe,1
+listers tubercle,1
+proximal radioulnar joint,1
+epicondyle,1
+ecrb tendon,1
+lacertus fibrosis,1
+recurrent radial artery,1
+accessory band,1
+distal oblique bundle,1
+dorsal oblique accessory cord,1
+proximal oblique cord,1
+bicipital tuberosity,1
+ulnar styloid,1
+articular disc,1
+ecu subsheath,1
+meniscal homologue,1
+ulnolunate ligaments,1
+ulnotriquetral ligaments,1
+triangular fibrocartilage complex,1
+wrist capsule,1
+ecrl,1
+edm,1
+ei,1
+palmar cutaneous branch,1
+recurrent motor branch,1
+thenar eminence,1
+distal ulna,1
+proximal radius,1
+proximal ulna,1
+palmar cutaneous branch of the median nerve,1
+edc,1
+supinator,1
+distal radial ulnar joint,1
+radial bow,1
+tfcc,1
+ecu tendon,1
+lunate fossa,1
+styloid process,1
+radiocarpal joint,1
+lister's tubercle,1
+lateral epiphyseal artery,1
+superior pubic ramus,1
+quadrilateral surface,1
+sciatic notch,1
+piriformis tendon,1
+inferior gamellus,1
+obturator internus,1
+quadratus femoris,1
+superior gamellus,1
+lateral femoral circumflex vessels,1
+adductors,1
+gluteus minimus,1
+anterior inferior iliac spine,1
+supraacetabular ridge,1
+hip capsule,1
+intertrochanteric crest,1
+femoral circumflex artery,1
+quadratus femoris muscle,1
+dashboard,1
+abduction pillow,1
+periosteum,1
+lateral cortex,1
+medial calcar,1
+cephalomedullary nail,1
+sliding hip screw,1
+tad,1
+acetabular rim,1
+iliopsoas tendon,1
+loose body,1
+gluteus maximus,1
+teardrop,1
+neck,1
+implant,1
+abductors,1
+annulus fibrosis,1
+type 1 collagen,1
+type 2 collagen,1
+facets,1
+posterior longitudinal ligament,1
+dorsal columns,1
+lateral spinothalamic,1
+ventral columns,1
+lateral corticospinal tract,1
+anterior spinal artery,1
+artery of adamkiewicz,1
+occiput,1
+c6 nerve root,1
+c3,1
+c4,1
+t7,1
+carotid tubercle,1
+cricoid cartilage,1
+hyoid cartilage,1
+thyroid cartilage,1
+tip of the scapula,1
+conus medullaris,1
+facet joint,1
+transverse process,1
+axis,1
+pars,1
+middle column,1
+anal sphincter,1
+glans penis,1
+bulbocavernosus reflex,1
+disc,1
+cervical spinal cord,1
+end plates,1
+sacroiliac joint,1
+abdominal muscles,1
+erector spinae muscles,1
+iliacus,1
+greater sciatic notch,1
+superior gluteal vessels,1
+internal pudendal artery,1
+nerve to obturator internus,1
+obturator internus tendon,1
+internal iliac vessels,1
+obturator vessels,1
+bladder,1
+sacrospinous ligaments,1
+sacrotuberous ligaments,1
+posterior sacroiliac complex,1
+anterior si ligaments,1
+posterior si ligaments,1
+sacrospinous ligament,1
+sacrotuberous ligament,1
+pelvic binder,1
+pelvic injury,1
+greater trochanters,1
+lower extremities,1
+perichondrial ring of la croix,1
+perichondral artery,1
+distal tibia,1
+artery of ligamentum teres,1
+lateral femoral circumflex artery,1
+aiis,1
+salter harris fracture,1
+metaphyseal fragment,1
+iliac apophysis,1
+lower extremity,1
+proximal humeral physis,1
+ain,1
+lateral condylar physis,1
+cubitus varus,1
+radial neck,1
+volar forearm,1
+radioulnar joint,1
+metaphyseal bone,1
+interosseous mold,1
+supracondylar mold,1
+ulnar border,1
+middle finger,1
+ring finger,1
+skin bridge,1
+distal radial physis,1
+subclavian,1
+disk space,1
+pars interarticularis,1
+hamstrings,1
+clubfoot,1
+metatarsus adductus,1
+torticollis,1
+adductor muscles,1
+iliopsoas muscles,1
+triradiate cartilage,1
+ossific nucleus,1
+proximal epiphysis,1
+lateral pillar,1
+femoral diaphysis,1
+femoral epiphysis,1
+hypertrophic zone,1
+anterior branch of the obturator nerve,1
+scfe,1
+leg,1
+lateral collateral ligament,1
+anterior horn of the medial meniscus,1
+intermeniscal ligament,1
+posterior horn of the medial meniscus,1
+posterolateral bundle,1
+bifurcate ridge,1
+intercondular ridge,1
+middle geniculate artery,1
+ligamentum mucosum,1
+anterolateral bundle,1
+posteromedial bundle,1
+anterior lateral ligament,1
+arcuate ligament,1
+coronary ligament,1
+fibular collateral ligament,1
+patellofemoral ligament,1
+popliteus muscle,1
+fibular head,1
+deep mcl,1
+articularis genus,1
+articularis genus muscle,1
+suprapatellar bursa,1
+medial geniculate artery,1
+tibial metaphysis,1
+infrapatellar branch of the saphenous nerve,1
+quadriceps,1
+plc,1
+pmc,1
+medial femoral condyle,1
+medial joint capsule,1
+bicondylar,1
+lateral split,1
+medial split,1
+metaphyseal-diaphyseal,1
+femoral notch,1
+anterolateral ligament,1
+lateral femoral condyle,1
+posterior cortex,1
+anterior horn of the lateral meniscus,1
+medial tibial eminence,1
+tibial tunnel,1
+acl graft,1
+cruciate ligaments,1
+femoral condyle,1
+quadriceps tendon,1
+femoral axis,1
+tibial axis,1
+quadriceps muscle,1
+umbilicus,1
+tibial post,1
+cr knee,1
+ps knee,1
+prosthesis,1
+lateral distal femoral condyle,1
+proximal medial tibia,1
+lateral femoral epicondyle,1
+medial femoral epicondyle,1
+posterior condylar axis,1
+tibial crest,1
+gerdy's tubercle,1
+iliotibial band,1
+extensor digitorum longus,1
+peroneus tertius,1
+flexor digitorum longus,1
+flexor hallicus longus,1
+tibialis posterior,1
+dorsalis pedis artery,1
+calcaneal branches,1
+lateral plantar artery,1
+medial plantar artery,1
+pes anserinus,1
+lateral tibial spine,1
+adductor brevis,1
+adductor longus,1
+linea aspera,1
+femoral canal,1
+trochanteric,1
+distal femoral shaft,1
+abductor pollicis brevis,1
+flexor pollicis brevis,1
+opponens pollicis,1
+thenar muscles,1
+dorsal interosseous ligaments,1
+anatomic snuffbox,1
+volar tuberosity,1
+scaphocapitate,1
+capitolunate,1
+scaphoid facet,1
+radiolunate,1
+scapholunate,1
+carpus,1
+carpometacarpal joint,1
+anterior oblique ligament,1
+extensor pollicis brevis,1
+thumb metacarpal base,1
+volar beak ligament,1
+adductor pollicis aponeurosis,1
+adductor aponeurosis,1
+ligament,1
+accessory ucl ligament,1
+proper ucl ligament,1
+ucl ligament,1
+dorsoradial ligament,1
+nailbed,1
+distal fragment,1
+proximal fragment,1
+index finger,1
+flexor tendon sheath,1
+a1 pulley,1
+radial digital nerve,1
+palmar crease,1
+vinculum,1
+tendons,1
+distal forearm,1
+radiocarpal,1
+dip joint,1
+pip joint,1
+terminal extensor tendon,1
+cmc,1
+scaphotrapezial joint,1
+proximal carpal row,1
+sagittal band,1
+extensor tendon,1
+juncturae tendinum,1
+triquetrium,1
+trapezoid,1
+dorsal carpal branch of the radial artery,1
+anatomical snuffbox,1
+hook of the hamate,1
+volar carpal ligament,1
+radial capsular ligament,1
+ulnar capsular ligament,1
+2nd metacarpal,1
+fcr tendon,1
+base of 5th metacarpal,1
+anterior interosseous nerve,1
+flexor digitorum profundus,1
+pronator quadratus,1
+ip joints,1
+mcp joints,1
+lumbricals,1
+transverse metacarpal ligament,1
+distal interphalangeal joint,1
+fds tendon,1
+index branch of edc,1
+radial artery,1
+superficial arch,1
+palmar arch,1
+palm,1
+digital artery,1
+radial digital artery,1
+ulnar digital artery,1
+digital cutaneous ligament,1
+digital nerve,1
+pulleys,1
+pulley,1
+oblique pulley,1
+scaphoid tubercle,1
+dorsal middle phalanx,1
+accessory collateral ligament,1
+proper collateral ligament,1
+deep branch of the ulnar nerve,1
+recurrent branch of the median nerve,1
+mortise,1
+inferior transverse ligament,1
+interosseous ligament,1
+transverse tibiofibular ligament,1
+ankle syndesmosis,1
+calcaneonavicular ligament,1
+tibiotalar joint,1
+anterior inferior talofibular ligament,1
+calcaneal fibular ligament,1
+lateral talocalcaneal ligament,1
+posterior talofibular ligament,1
+ptfl,1
+cfl,1
+peroneus longus tendon,1
+peroneus brevis tendon,1
+peroneal arteries,1
+deltoid artery,1
+talar body,1
+lateral tubercle,1
+medial tubercle,1
+anterior facet,1
+middle facet,1
+lateral calcaneal branch of the peroneal artery,1
+sinus tarsi,1
+lateral band of the plantar fascia,1
+medial calcaneal tuberosity,1
+calcaneocuboid joint,1
+3rd metatarsal,1
+4th metatarsal,1
+lateral cuneiform,1
+lateral column of the foot,1
+medial column of the foot,1
+hallux sesamoid,1
+flexor hallucis longus (fhl),1
+medial plantar nerve,1
+hallucis sesamoid bones,1
+intermetatarsal ligament,1
+fdl tendon,1
+fhl tendon,1
+knot of henry,1
+anterolateral_fragment,1
+medial_malleolus,1
+posterolateral_fragment,1
+ankle mortise,1
+medial clear space,1
+distal fibula,1
+aitfl,1
+pitfl,1
+lateral malleolus,1
+malleolus,1
+plafond,1
+talonavicular,1
+tibiotalar,1
+lateral process,1
+edb,1
+peroneal tendons,1
+talonavicular joint capsule,1
+superolateral fragment,1
+superomedial fragment,1
+talocalcaneal ligament,1
+anterior processes,1
+posterior tuberosity,1
+anterior process,1
+cc joint,1
+flexor hallucis longus,1
+interosseous,1
+lisfranc injury,1
+diaphysis,1
+metaphyseal/diaphyseal junction,1
+proximal tubercle,1
+calf,1
+gastrocnemius tendon,1
+heel cord,1
+knee joint,1
+superior peroneal retinaculum,1
+superomedial calcaneonavicular ligament,1
+transverse tarsal joint,1
+heel,1
+metatarsals,1
+adductor hallucis,1
+metatarsal heads,1
+abductor hallucis,1
+first tarsometatarsal joint,1
+first metatarsophalangeal joint,1
+osteophytes,1
+dorsal,1
+first ray,1
+posterior tibialis,1
+tendoachilles,1
+metatarsal head,1
+edl,1
