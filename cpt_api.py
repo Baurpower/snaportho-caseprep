@@ -9,7 +9,7 @@ class CPTSuggestRequest(BaseModel):
     case_description: str
 
 
-@app.post("/api/cpt/suggest")
+@app.post("/cpt/suggest")
 def suggest_cpt(request: CPTSuggestRequest):
     try:
         result = suggest_cpt_codes(request.case_description)
