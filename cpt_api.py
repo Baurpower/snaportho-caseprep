@@ -28,6 +28,6 @@ def suggest_cpt(request: CPTSuggestRequest):
         raise HTTPException(status_code=500, detail=f"Unexpected error: {str(e)}")
 
 
-@app.get("/api/cpt/health")
+@app.get("/cpt/health")
 def health_check():
     return {"status": "ok", "service": "cpt-suggester"}
