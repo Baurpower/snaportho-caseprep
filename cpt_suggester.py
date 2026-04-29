@@ -18,6 +18,11 @@ import sqlite3
 import sys
 from pathlib import Path
 from typing import Any
+from ortho_concepts import (
+    apply_concept_score_adjustments,
+    concept_positive_terms,
+    detect_ortho_concepts,
+)
 
 from dotenv import load_dotenv
 from openai import OpenAI
@@ -293,7 +298,11 @@ def _generic_like_search(conn: sqlite3.Connection, keywords: list[str], limit: i
     return [_row_dict(r) for r in cur.fetchall()]
 
 
-def _build_search_terms(parsed: dict[str, Any], original_query: str) -> dict[str, list[str]]:
+def _build_search_terms(
+    parsed: dict[str, Any],
+    original_query: str,
+    detected_concepts: list[dict[str, Any]] | None = None,
+) -> dict[str, list[str]]:
     anatomy_terms: list[str] = []
     procedure_terms: list[str] = []
     phrase_terms: list[str] = []
@@ -314,6 +323,11 @@ def _build_search_terms(parsed: dict[str, Any], original_query: str) -> dict[str
         if isinstance(kw, str) and kw.strip():
             phrase_terms.append(kw.strip())
 
+    if detected_concepts:
+        for term in concept_positive_terms(detected_concepts):
+            phrase_terms.append(term)
+            procedure_terms.append(term)
+
     raw_keywords = _extract_keywords(" ".join(phrase_terms + [original_query]))
 
     return {
@@ -323,8 +337,12 @@ def _build_search_terms(parsed: dict[str, Any], original_query: str) -> dict[str
         "keywords": raw_keywords,
     }
 
-
-def _score_candidate(row: dict[str, Any], parsed: dict[str, Any], terms: dict[str, list[str]]) -> int:
+def _score_candidate(
+    row: dict[str, Any],
+    parsed: dict[str, Any],
+    terms: dict[str, list[str]],
+    detected_concepts: list[dict[str, Any]] | None = None,
+) -> int:
     description = str(row.get("description", "")).lower()
     category = str(row.get("category", "")).lower()
     fellowship = str(row.get("fellowship", "")).lower()
@@ -459,10 +477,17 @@ def _score_candidate(row: dict[str, Any], parsed: dict[str, Any], terms: dict[st
             if "shaft" in description or "proximal humerus" in description:
                 score -= 50
 
+    if detected_concepts:
+        score = apply_concept_score_adjustments(score, row, detected_concepts)
+
     return score
 
-def _get_candidates_from_parse(parsed: dict[str, Any], original_query: str) -> list[dict]:
-    terms = _build_search_terms(parsed, original_query)
+def _get_candidates_from_parse(
+    parsed: dict[str, Any],
+    original_query: str,
+    detected_concepts: list[dict[str, Any]] | None = None,
+) -> list[dict]:
+    terms = _build_search_terms(parsed, original_query, detected_concepts)
 
     conn = sqlite3.connect(DB_PATH)
     conn.row_factory = sqlite3.Row
@@ -482,13 +507,17 @@ def _get_candidates_from_parse(parsed: dict[str, Any], original_query: str) -> l
         code = row.get("code")
         if code and code not in seen:
             seen.add(code)
-            row["retrieval_score"] = _score_candidate(row, parsed, terms)
+            row["retrieval_score"] = _score_candidate(
+                row,
+                parsed,
+                terms,
+                detected_concepts,
+            )
             merged.append(row)
 
     merged.sort(key=lambda r: r.get("retrieval_score", 0), reverse=True)
 
     return merged[:MAX_CANDIDATES]
-
 
 # ── Stage 3: GPT reranking + clarifying questions ─────────────────────────────
 
@@ -523,18 +552,44 @@ _RERANK_SCHEMA: dict[str, Any] = {
         },
         "clarifying_questions": {
             "type": "array",
-            "description": "Questions that would help distinguish between close CPT codes.",
+            "description": "Multiple-choice questions that help distinguish between close CPT codes.",
             "items": {
                 "type": "object",
                 "properties": {
                     "question": {"type": "string"},
                     "why_it_matters": {"type": "string"},
-                    "codes_affected": {
+                    "options": {
                         "type": "array",
-                        "items": {"type": "string"},
+                        "description": "User-selectable answers. Each answer should show which CPT codes it supports or excludes.",
+                        "items": {
+                            "type": "object",
+                            "properties": {
+                                "label": {"type": "string"},
+                                "value": {"type": "string"},
+                                "codes_supported": {
+                                    "type": "array",
+                                    "items": {"type": "string"},
+                                },
+                                "codes_excluded": {
+                                    "type": "array",
+                                    "items": {"type": "string"},
+                                },
+                                "explanation": {"type": "string"},
+                            },
+                            "required": [
+                                "label",
+                                "value",
+                                "codes_supported",
+                                "codes_excluded",
+                                "explanation",
+                            ],
+                            "additionalProperties": False,
+                        },
+                        "minItems": 2,
+                        "maxItems": 5,
                     },
                 },
-                "required": ["question", "why_it_matters", "codes_affected"],
+                "required": ["question", "why_it_matters", "options"],
                 "additionalProperties": False,
             },
             "maxItems": 3,
@@ -573,55 +628,79 @@ Your job:
 CRITICAL RULE:
 
 If multiple high-ranking candidate codes differ by a clinically meaningful modifier
-
 AND that modifier is NOT specified in the case description,
-
 you MUST generate a clarifying question.
 
 These modifiers include:
-
 - intra-articular vs extra-articular, only when relevant to the candidate code descriptions
-
 - number of fragments
-
 - number of levels or segments
-
-- spinal region (cervical, thoracic, lumbar)
-
+- spinal region: cervical, thoracic, lumbar
 - open vs percutaneous vs arthroscopic approach
-
 - superficial vs deep vs bone debridement
-
 - implant type: intramedullary implant vs plate/screw implant, only if not already specified
-
 - presence of fixation, grafting, instrumentation, or hardware removal
 
 Do NOT ask a clarifying question when the case description already specifies the detail that distinguishes the codes.
 
 Examples:
-
 - If the case says IMN, intramedullary nail, cephalomedullary nail, or short nail, do NOT ask implant type when comparing intramedullary implant vs plate/screw implant.
-
 - For intertrochanteric, peritrochanteric, or subtrochanteric femur fractures, do NOT ask intra-articular vs extra-articular; that distinction is not relevant to these CPT codes.
-
 - Only ask about implant type if the case says vague fixation without specifying nail versus plate/screw.
 
 Do NOT assume a default.
-
 Do NOT assume “most common.”
-
 If it is not explicitly stated, treat it as unknown.
+
+Detected orthopaedic concepts:
+- You may receive detected_ortho_concepts.
+- These are deterministic clinical/coding hints from the app's orthopaedic concept layer.
+- Use these concepts to avoid unnecessary clarifying questions.
+- If a concept includes coding_implications.do_not_ask, do NOT ask that type of question.
+- If a concept strongly favors a CPT code, rank that code highly unless the candidate description clearly contradicts the case.
+- If a concept argues against a CPT code, avoid ranking that code unless the case clearly supports it.
+- Do not let generic ambiguity override a specific detected concept.
+
+Shoulder arthroplasty rule:
+- Reverse shoulder arthroplasty, RSA, rTSA, and reverse total shoulder arthroplasty are total shoulder arthroplasty procedures.
+- If this concept is detected, do NOT ask whether the procedure was total shoulder versus hemiarthroplasty.
+- In that situation, 23472 is favored over 23470.
 
 Clarifying questions:
 - Return 1–3 questions when ambiguity affects CPT selection.
 - Each question must directly distinguish between specific candidate codes.
-- Include which codes are affected.
+- Each question must include multiple-choice options.
+- Each option must include:
+  - label: short user-facing answer
+  - value: snake_case identifier
+  - codes_supported: CPT codes this answer supports
+  - codes_excluded: CPT codes this answer makes less likely
+  - explanation: one-sentence coding explanation
+- Options should be mutually exclusive whenever possible.
+- Only use CPT codes that appear in the candidate list.
 - If no ambiguity exists, return an empty array.
 
 Example:
 Case: "Distal radius ORIF"
-→ MUST ask:
-"Intra-articular vs extra-articular fracture?"
+
+Question:
+"Was the distal radius fracture extra-articular or intra-articular?"
+
+Options:
+1) Extra-articular
+   - value: extra_articular
+   - codes_supported: ["25607"]
+   - codes_excluded: ["25608", "25609"]
+
+2) Intra-articular, 2 fragments
+   - value: intra_articular_2_fragments
+   - codes_supported: ["25608"]
+   - codes_excluded: ["25607", "25609"]
+
+3) Intra-articular, 3 or more fragments
+   - value: intra_articular_3_or_more_fragments
+   - codes_supported: ["25609"]
+   - codes_excluded: ["25607", "25608"]
 
 Output only via the function tool.
 """
@@ -630,12 +709,14 @@ def _rerank_with_gpt(
     case_description: str,
     parsed_case: dict[str, Any],
     candidates: list[dict],
+    detected_concepts: list[dict[str, Any]] | None = None,
 ) -> dict[str, Any]:
     client = _get_client()
 
     payload = {
         "case": case_description,
         "parsed_case": parsed_case,
+        "detected_ortho_concepts": detected_concepts or [],
         "candidates": candidates,
     }
 
@@ -667,7 +748,6 @@ def _rerank_with_gpt(
         "clarifying_questions": [],
     }
 
-
 # ── Public API ────────────────────────────────────────────────────────────────
 
 def suggest_cpt_codes(case_description: str) -> dict[str, Any]:
@@ -675,8 +755,16 @@ def suggest_cpt_codes(case_description: str) -> dict[str, Any]:
         raise ValueError("case_description must be a non-empty string.")
 
     normalized_case = _normalize_query(case_description)
+    detected_concepts = detect_ortho_concepts(normalized_case)
+
     parsed_case = _parse_case_with_gpt(normalized_case)
-    candidates = _get_candidates_from_parse(parsed_case, normalized_case)
+    parsed_case["detected_concepts"] = detected_concepts
+
+    candidates = _get_candidates_from_parse(
+        parsed_case,
+        normalized_case,
+        detected_concepts,
+    )
 
     if not candidates:
         raise ValueError(
@@ -684,7 +772,12 @@ def suggest_cpt_codes(case_description: str) -> dict[str, Any]:
             "Try different keywords."
         )
 
-    result = _rerank_with_gpt(normalized_case, parsed_case, candidates)
+    result = _rerank_with_gpt(
+        normalized_case,
+        parsed_case,
+        candidates,
+        detected_concepts,
+    )
 
     suggestions = result.get("suggestions", [])
     clarifying_questions = result.get("clarifying_questions", [])
@@ -693,11 +786,12 @@ def suggest_cpt_codes(case_description: str) -> dict[str, Any]:
         raise RuntimeError("GPT returned no suggestions. Check your API key and try again.")
 
     return {
+        "case_description": normalized_case,
         "suggestions": sorted(suggestions, key=lambda x: x.get("rank", 99))[:TOP_N],
         "clarifying_questions": clarifying_questions[:3],
         "parsed_case": parsed_case,
+        "detected_concepts": detected_concepts,
     }
-
 
 # ── CLI ───────────────────────────────────────────────────────────────────────
 
@@ -724,8 +818,14 @@ def _pretty_print(result: dict[str, Any]) -> None:
         for i, q in enumerate(questions, start=1):
             print(f"  {i}. {q['question']}")
             print(f"     Why: {q['why_it_matters']}")
-            print(f"     Codes affected: {', '.join(q.get('codes_affected', []))}")
-            print()
+
+            for j, option in enumerate(q.get("options", []), start=1):
+                print(f"     {j}) {option.get('label', '')}")
+                print(f"        Supports: {', '.join(option.get('codes_supported', []))}")
+                print(f"        Excludes: {', '.join(option.get('codes_excluded', []))}")
+                print(f"        Note: {option.get('explanation', '')}")
+
+    print()
 
 
 if __name__ == "__main__":
