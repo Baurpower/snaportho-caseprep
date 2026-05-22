@@ -12,6 +12,10 @@ from vector_search import get_case_snippets
 from gpt_refiner import refine_case_snippets
 from query_refiner import refine_query
 from anatomy_gpt import load_catalog_from_jsonl_file, run_pipeline_fast
+from anki_ortho_context import (
+    AnkiOrthoContextRequest,
+    build_anki_ortho_context_response,
+)
 
 from openai import OpenAI
 
@@ -141,3 +145,11 @@ async def anatomy_only(request: CasePrepRequest):
         client=OPENAI_CLIENT,
     )
     return result
+
+
+@app.post("/anki/ortho-context")
+async def anki_ortho_context(request: AnkiOrthoContextRequest):
+    return await run_in_threadpool(
+        build_anki_ortho_context_response,
+        request.model_dump(),
+    )
