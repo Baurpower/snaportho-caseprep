@@ -1,0 +1,24 @@
+{
+  "procedure_id": "tha_lateral",
+  "display_name": "Total Hip Arthroplasty (Lateral/Hardinge Approach)",
+  "extracted_at": "2026-06-23T03:30:32Z",
+  "source_ids": [],
+  "indications": [],
+  "contraindications": [],
+  "setup_positioning": [],
+  "approach_landmarks": [],
+  "surgical_layers": [],
+  "structures_at_risk": [],
+  "implant_strategy": [],
+  "reduction_or_fluoro_checkpoints": [],
+  "complications": [],
+  "postop_protocol": [],
+  "pimp_question_facts": [],
+  "source_refs": [],
+  "extraction_warnings": [
+    "No orthobullets source records linked to this procedure.",
+    "No structures_at_risk extracted from sources.",
+    "No approach landmarks extracted from sources."
+  ],
+  "confidence_score": 0.0
+}

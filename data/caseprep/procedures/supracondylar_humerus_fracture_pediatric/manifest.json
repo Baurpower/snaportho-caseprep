@@ -1,0 +1,20 @@
+{
+  "slug": "supracondylar_humerus_fracture_pediatric",
+  "display_name": "Supracondylar Humerus Fracture (Pediatric) ORIF/CRPP",
+  "specialty": "pediatrics",
+  "body_region": "humerus",
+  "procedure_family": "procedure",
+  "status": "active",
+  "content_status": "certified",
+  "review_status": "certified",
+  "version": "1.0.0",
+  "caseprep_schema_version": "brobot_case_prep_payload_v2",
+  "coverage_score": 100,
+  "runtime_enabled": true,
+  "deprecated": false,
+  "replacement_slug": null,
+  "reviewer": "brobot_migration",
+  "certified_at": "2026-06-06T18:14:05.550779Z",
+  "last_reviewed_at": "2026-06-06T18:14:05.550779Z",
+  "source_payload_hash": "f5665f10583506fc70fdf4a79ed23e3fdcae611016325683fa700936bb408fcf"
+}

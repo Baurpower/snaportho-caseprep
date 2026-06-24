@@ -1,0 +1,20 @@
+{
+  "slug": "quadriceps_tendon_repair",
+  "display_name": "Quadriceps Tendon Repair",
+  "specialty": "sports",
+  "body_region": "knee",
+  "procedure_family": "procedure",
+  "status": "active",
+  "content_status": "certified",
+  "review_status": "certified",
+  "version": "1.0.0",
+  "caseprep_schema_version": "brobot_case_prep_payload_v2",
+  "coverage_score": 90,
+  "runtime_enabled": true,
+  "deprecated": false,
+  "replacement_slug": null,
+  "reviewer": "brobot_migration",
+  "certified_at": "2026-06-06T18:14:05.550831Z",
+  "last_reviewed_at": "2026-06-06T18:14:05.550831Z",
+  "source_payload_hash": "f16ad5439ebeccabd687510a57c9ef95571c379f2572d5174cec189ac5ffbcab"
+}

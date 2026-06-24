@@ -1,0 +1,137 @@
+{
+  "indications": [],
+  "setup_positioning": [
+    "Hallux valgus correction via distal chevron, proximal osteotomy, scarf, or Lapidus, combined with lateral soft tissue release (adductor hallucis, lateral capsule) and medial eminence resection/capsulorrhaphy. Critical anatomy: first metatarsal head blood supply (vulnerable to AVN with aggressive lateral release or over-stripping), lateral plantar nerve (proper digital branch to hallux) at risk during lateral release, sesamoid complex and windlass mechanism, angular measurements (HVA, IM angle, DMAA) guiding osteotomy level and type. Focus on balanced release without overcorrection (hallux varus) or undercorrection (recurrence/transfer metatarsalgia).",
+    "Medial deviation of 1st MT, lateral deviation/pronation of hallux. Increased IM angle, HVA, DMAA. Sesamoids sublux lateral. Medial capsule contracture, lateral capsule/adductor pull hallux lateral. Deformity affects windlass mechanism and medial longitudinal arch support.",
+    "Osteotomy (chevron distal, proximal, scarf, Lapidus) chosen based on angular measurements to correct IM/HVA/DMAA. Medial eminence resection and capsular plication medially; lateral soft tissue release (adductor tendon, lateral capsule, sometimes transverse metatarsal ligament) but protect the lateral plantar nerve (proper digital branch) to the hallux.",
+    "First metatarsal head blood supply: dorsal and plantar metatarsal arteries and intraosseous supply. Aggressive lateral release or excessive capsular stripping can devascularize the head leading to AVN.",
+    "Sesamoid position and FHL tendon: lateral subluxation of sesamoids under the 1st MT head contributes to pronation and loss of medial column stability. Release and realignment aim to recenter the sesamoid complex under the head.",
+    "Lateral plantar nerve (to hallux): at risk during lateral soft tissue release via dorsal web space or through osteotomy. Injury causes numbness or neuropathic pain in the hallux pulp/plantar surface.",
+    "Common complications tied to anatomy: AVN of 1st MT head (aggressive lateral release), hallux varus (over-release or over-correction of IM angle), recurrence (inadequate correction or poor medial plication), transfer metatarsalgia (shortening or elevation of 1st ray)."
+  ],
+  "approach_landmarks": [
+    "First metatarsal head and medial eminence (prominence to resect)",
+    "Sesamoids (plantar, assess subluxation on AP and sesamoid views)",
+    "First metatarsophalangeal joint and proximal phalanx base",
+    "First tarsometatarsal joint (for Lapidus fusion decision)",
+    "Intermetatarsal angle reference and hallux valgus angle on weightbearing AP"
+  ],
+  "surgical_layers": [
+    {
+      "layer_name": "Medial skin and subcutaneous (sensory nerves)",
+      "what_user_should_know": "Incision centered over medial eminence or slightly dorsal. Subcutaneous tissue contains branches of the dorsal medial cutaneous nerve (superficial peroneal). Elevate full-thickness flaps to protect these sensory nerves and the capsule.",
+      "key_structures": [
+        "Dorsal medial cutaneous nerve branches (superficial peroneal)",
+        "Medial eminence (bony prominence)",
+        "MTP joint capsule"
+      ],
+      "structures_at_risk": [
+        "Dorsal medial cutaneous nerve (neuroma/numbness risk)"
+      ],
+      "surgical_relevance": "Safe medial access for eminence resection, medial capsulotomy/plication, and osteotomy. Nerve injury is a common source of patient dissatisfaction.",
+      "source_refs": [
+        "https://www.orthobullets.com/foot-and-ankle/12134/hallux-valgus"
+      ]
+    },
+    {
+      "layer_name": "Medial capsule and medial release/plication",
+      "what_user_should_know": "Y- or L-shaped capsulotomy allows later plication. Medial capsule is contracted. After osteotomy and lateral release, imbricate the capsule to correct pronation and reduce the medial eminence redundancy.",
+      "key_structures": [
+        "Medial MTP capsule",
+        "Abductor hallucis (may be released or plicated)",
+        "Medial collateral ligament complex"
+      ],
+      "structures_at_risk": [
+        "Over-plication leading to hallux varus"
+      ],
+      "surgical_relevance": "Medial soft tissue balancing is required for stable correction after bony realignment. Inadequate plication contributes to recurrence.",
+      "source_refs": [
+        "https://www.orthobullets.com/foot-and-ankle/12134/hallux-valgus"
+      ]
+    },
+    {
+      "layer_name": "Lateral soft tissue release plane",
+      "what_user_should_know": "Performed dorsally in first web space or through the osteotomy site. Release adductor hallucis insertion on proximal phalanx and lateral capsule (sometimes transverse metatarsal ligament). The lateral plantar digital nerve lies just plantar to the release plane and must be protected.",
+      "key_structures": [
+        "Adductor hallucis tendon",
+        "Lateral MTP capsule",
+        "Transverse metatarsal ligament",
+        "Lateral plantar nerve (proper digital to hallux)"
+      ],
+      "structures_at_risk": [
+        "Lateral plantar nerve to hallux (numbness/neuropathy)",
+        "First MT head blood supply (if over-released or stripped)"
+      ],
+      "surgical_relevance": "Adequate but not excessive lateral release allows the sesamoids to reduce under the head after osteotomy. Over-release is the main driver of AVN and varus.",
+      "source_refs": [
+        "https://www.orthobullets.com/foot-and-ankle/12134/hallux-valgus"
+      ]
+    }
+  ],
+  "structures_at_risk": [
+    {
+      "structure": "First metatarsal head blood supply (dorsal/plantar metatarsal arteries and intraosseous)",
+      "why_at_risk": "Aggressive lateral soft tissue release (adductor + lateral capsule) or excessive periosteal stripping for osteotomy can interrupt the tenuous supply to the capital fragment, especially with chevron or other distal osteotomies.",
+      "how_to_avoid_injury": "Limit lateral release to adductor tendon and lateral capsule only as needed for correction; avoid complete circumferential stripping of the metatarsal head. Use careful technique with chevron to preserve dorsal and plantar vessels.",
+      "consequence_of_injury": "AVN of the first metatarsal head: collapse, flattening, joint incongruity, pain, and stiffness (hallux rigidus-like picture) in a young active patient.",
+      "approach_context": "Medial approach for eminence/osteotomy + lateral release (dorsal or trans-osteotomy)",
+      "source_refs": [
+        "https://www.orthobullets.com/foot-and-ankle/12134/hallux-valgus"
+      ]
+    },
+    {
+      "structure": "Lateral plantar nerve (proper digital branch to hallux)",
+      "why_at_risk": "Lateral soft tissue release (adductor hallucis insertion, lateral capsule, transverse metatarsal ligament) is performed in the first web space or through the osteotomy; the nerve lies plantar-lateral and can be transected or stretched.",
+      "how_to_avoid_injury": "Identify and protect the nerve during dorsal web space release or limit release depth. Use direct visualization or careful blunt technique; do not blindly release plantar structures.",
+      "consequence_of_injury": "Numbness, dysesthesia, or neuropathic pain on the plantar and lateral aspect of the hallux. Can be debilitating for push-off and shoe wear.",
+      "approach_context": "Lateral soft tissue release component of hallux valgus correction",
+      "source_refs": [
+        "https://www.orthobullets.com/foot-and-ankle/12134/hallux-valgus"
+      ]
+    },
+    {
+      "structure": "Sesamoid complex and FHL tendon",
+      "why_at_risk": "Subluxed sesamoids and contracted lateral structures maintain the deformity. Over-release or improper realignment during correction can lead to medial sesamoid subluxation or FHL bowstringing after overcorrection.",
+      "how_to_avoid_injury": "Release only enough lateral structures to allow sesamoid recentralization under the head after osteotomy and medial plication. Avoid complete sesamoid excision or excessive medial displacement of the capital fragment.",
+      "consequence_of_injury": "Hallux varus (overcorrection), loss of push-off power, or painful callus under lesser metatarsals (transfer metatarsalgia).",
+      "approach_context": "Lateral release + medial capsulorrhaphy + osteotomy realignment",
+      "source_refs": [
+        "https://www.orthobullets.com/foot-and-ankle/12134/hallux-valgus"
+      ]
+    },
+    {
+      "structure": "Dorsal medial cutaneous nerve (superficial peroneal branch) and medial dorsal sensory nerves",
+      "why_at_risk": "Medial incision over the first metatarsophalangeal joint and eminence; subcutaneous dissection or retraction can injure superficial sensory branches.",
+      "how_to_avoid_injury": "Identify and protect cutaneous nerves during skin incision and subcutaneous flap elevation. Use full-thickness flaps where possible and gentle retraction.",
+      "consequence_of_injury": "Numbness or painful neuroma on the dorsomedial hallux or forefoot, affecting shoe wear and sensation.",
+      "approach_context": "Medial approach to first MTP for eminence resection and capsular work",
+      "source_refs": [
+        "https://www.orthobullets.com/foot-and-ankle/12134/hallux-valgus"
+      ]
+    }
+  ],
+  "implant_strategy": [],
+  "reduction_or_fluoro_checkpoints": [],
+  "pitfalls": [
+    "Aggressive lateral release causing 1st MT head AVN",
+    "Overcorrection of IM angle or excessive medial plication leading to hallux varus",
+    "Inadequate lateral release or poor medial capsular repair resulting in recurrence",
+    "Shortening or dorsiflexion of the 1st ray causing transfer metatarsalgia under 2nd/3rd heads",
+    "Injury to lateral plantar nerve or dorsal cutaneous branches during release or medial approach"
+  ],
+  "attending_pimp_questions": [
+    "Q: What is the blood supply to the first metatarsal head and why is aggressive lateral soft tissue release a risk factor for AVN during hallux valgus correction? A: Dorsal and plantar metatarsal arteries plus intraosseous supply. Aggressive adductor + lateral capsule release plus stripping can devascularize the capital fragment after distal osteotomy (chevron), leading to head collapse.",
+    "Q: Describe the windlass mechanism and how hallux valgus deformity affects the medial longitudinal arch and sesamoid position. A: Windlass tightens plantar fascia with hallux dorsiflexion to raise the arch. Hallux valgus pronates and subluxes the sesamoids laterally, weakening the medial column and allowing arch collapse and metatarsalgia.",
+    "Q: What are the key angular measurements (IM angle, HVA, DMAA) and how do they guide osteotomy choice (distal chevron vs proximal vs Lapidus)? A: HVA (hallux valgus angle), IM (1-2 intermetatarsal), DMAA (distal metatarsal articular angle). Mild: distal chevron. Moderate-severe with high IM: proximal osteotomy or scarf. Hypermobile TMT or high IM with instability: Lapidus fusion.",
+    "Q: During lateral soft tissue release for hallux valgus, which nerve is at risk and what structure does it innervate? A: Lateral plantar nerve (proper digital branch to the hallux). It provides plantar and lateral sensation to the hallux; injury causes numbness or neuropathic pain affecting push-off.",
+    "Q: What are common mistakes leading to hallux varus, recurrence, or transfer metatarsalgia after hallux valgus correction? A: Hallux varus: over-release of lateral structures or over-correction of IM. Recurrence: under-correction or inadequate medial plication. Transfer metatarsalgia: 1st ray shortening/elevation from osteotomy malposition or excessive shortening."
+  ],
+  "postop_plan": [
+    "Review OB hallux valgus page (12134) and the anatomy_hallux_valgus_correction module for angular criteria and release risks",
+    "Memorize: protect lateral plantar n. during lateral release; limit release to avoid 1st MT head AVN; sesamoids must be recentralized",
+    "Know how HVA/IM/DMAA dictate distal chevron vs proximal/scarf vs Lapidus",
+    "Review consequences: AVN (aggressive lateral), varus (overcorrection), recurrence (undercorrection), transfer MTalgia (ray malposition)",
+    "Practice the 5 specific pimp questions with source-backed answers and avoidance pearls",
+    "Confirm case-specific osteotomy choice and any arthrodesis (Lapidus) vs osteotomy plan"
+  ]
+}

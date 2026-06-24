@@ -1,0 +1,59 @@
+{
+  "generated_at": "2026-06-06T00:50:07.190142+00:00",
+  "results": [
+    {
+      "case": "distal radius fracture ORIF",
+      "has_approachSelection": true,
+      "has_anatomyQuiz": true,
+      "has_sources": true,
+      "retrievalMode": "miller_gold_local",
+      "has_anatomySystem": true,
+      "limitedAnatomyContext": false
+    },
+    {
+      "case": "ankle ORIF lateral malleolus",
+      "has_approachSelection": true,
+      "has_anatomyQuiz": true,
+      "has_sources": true,
+      "retrievalMode": "miller_gold_local",
+      "has_anatomySystem": true,
+      "limitedAnatomyContext": false
+    },
+    {
+      "case": "posterior total hip arthroplasty",
+      "has_approachSelection": true,
+      "has_anatomyQuiz": true,
+      "has_sources": true,
+      "retrievalMode": "miller_gold_local",
+      "has_anatomySystem": true,
+      "limitedAnatomyContext": false
+    },
+    {
+      "case": "carpal tunnel release",
+      "has_approachSelection": true,
+      "has_anatomyQuiz": true,
+      "has_sources": true,
+      "retrievalMode": "miller_gold_local",
+      "has_anatomySystem": true,
+      "limitedAnatomyContext": false
+    },
+    {
+      "case": "cubital tunnel release",
+      "has_approachSelection": true,
+      "has_anatomyQuiz": true,
+      "has_sources": true,
+      "retrievalMode": "miller_gold_local",
+      "has_anatomySystem": true,
+      "limitedAnatomyContext": false
+    },
+    {
+      "case": "rotator cuff repair",
+      "has_approachSelection": true,
+      "has_anatomyQuiz": true,
+      "has_sources": true,
+      "retrievalMode": "miller_gold_local",
+      "has_anatomySystem": true,
+      "limitedAnatomyContext": false
+    }
+  ]
+}

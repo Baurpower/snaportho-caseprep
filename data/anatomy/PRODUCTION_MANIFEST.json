@@ -1,0 +1,182 @@
+{
+  "production_root": "data/anatomy/",
+  "schema_version": "brobot_case_prep_payload_v2",
+  "certified_count": 24,
+  "note": "Runtime (main.py, procedure_registry, smoke/validate) must only consume from here for certified case-prep. Old approach_playbook/ used only for non-certified approach selection fallback.",
+  "payloads": [
+    {
+      "procedure_id": "distal_radius_fracture_orif",
+      "schema": "brobot_case_prep_payload_v2",
+      "status": "certified",
+      "quality": "hardened_v2_draft",
+      "source_status": "partial"
+    },
+    {
+      "procedure_id": "hip_hemiarthroplasty",
+      "schema": "brobot_case_prep_payload_v2",
+      "status": "certified",
+      "quality": "hardened_v2_draft",
+      "source_status": "partial"
+    },
+    {
+      "procedure_id": "tha_posterior",
+      "schema": "brobot_case_prep_payload_v2",
+      "status": "certified",
+      "quality": "hardened_v2_draft",
+      "source_status": "partial"
+    },
+    {
+      "procedure_id": "tha_anterior",
+      "schema": "brobot_case_prep_payload_v2",
+      "status": "certified",
+      "quality": "hardened_v2_draft",
+      "source_status": "partial"
+    },
+    {
+      "procedure_id": "tka",
+      "schema": "brobot_case_prep_payload_v2",
+      "status": "certified",
+      "quality": "hardened_v2_draft",
+      "source_status": "partial"
+    },
+    {
+      "procedure_id": "acl_reconstruction",
+      "schema": "brobot_case_prep_payload_v2",
+      "status": "certified",
+      "quality": "hardened_v2_draft",
+      "source_status": "partial"
+    },
+    {
+      "procedure_id": "femoral_shaft_fracture_orif",
+      "schema": "brobot_case_prep_payload_v2",
+      "status": "certified",
+      "quality": "hardened_v2_draft",
+      "source_status": "partial"
+    },
+    {
+      "procedure_id": "humeral_shaft_fracture_orif",
+      "schema": "brobot_case_prep_payload_v2",
+      "status": "certified",
+      "quality": "hardened_v2_draft",
+      "source_status": "partial"
+    },
+    {
+      "procedure_id": "scfe_pinning",
+      "schema": "brobot_case_prep_payload_v2",
+      "status": "certified",
+      "quality": "hardened_v2_draft",
+      "source_status": "partial"
+    },
+    {
+      "procedure_id": "posterior_lumbar_decompression_fusion",
+      "schema": "brobot_case_prep_payload_v2",
+      "status": "certified",
+      "quality": "hardened_v2_draft",
+      "source_status": "partial"
+    },
+    {
+      "procedure_id": "total_shoulder_arthroplasty",
+      "schema": "brobot_case_prep_payload_v2",
+      "status": "certified",
+      "quality": "hardened_v2_draft",
+      "source_status": "partial"
+    },
+    {
+      "procedure_id": "tibial_shaft_fracture_orif",
+      "schema": "brobot_case_prep_payload_v2",
+      "status": "certified",
+      "quality": "hardened_v2_draft",
+      "source_status": "partial"
+    },
+    {
+      "procedure_id": "meniscus_repair",
+      "schema": "brobot_case_prep_payload_v2",
+      "status": "certified",
+      "quality": "hardened_v2_draft",
+      "source_status": "partial"
+    },
+    {
+      "procedure_id": "reverse_shoulder_arthroplasty",
+      "schema": "brobot_case_prep_payload_v2",
+      "status": "certified",
+      "quality": "hardened_v2_draft",
+      "source_status": "partial"
+    },
+    {
+      "procedure_id": "lateral_ankle_ligament_repair",
+      "schema": "brobot_case_prep_payload_v2",
+      "status": "certified",
+      "quality": "hardened_v2_draft",
+      "source_status": "partial"
+    },
+    {
+      "procedure_id": "distal_femur_fracture_orif",
+      "schema": "brobot_case_prep_payload_v2",
+      "status": "certified",
+      "quality": "hardened_v2_draft",
+      "source_status": "partial"
+    },
+    {
+      "procedure_id": "pelvis_ring_fracture_orif",
+      "schema": "brobot_case_prep_payload_v2",
+      "status": "certified",
+      "quality": "hardened_v2_draft",
+      "source_status": "partial"
+    },
+    {
+      "procedure_id": "supracondylar_humerus_fracture_pediatric",
+      "schema": "brobot_case_prep_payload_v2",
+      "status": "certified",
+      "quality": "hardened_v2_draft",
+      "source_status": "partial"
+    },
+    {
+      "procedure_id": "hallux_valgus_correction",
+      "schema": "brobot_case_prep_payload_v2",
+      "status": "certified",
+      "quality": "hardened_v2_draft",
+      "source_status": "partial"
+    },
+    {
+      "procedure_id": "plantar_fasciitis_release",
+      "schema": "brobot_case_prep_payload_v2",
+      "status": "certified",
+      "quality": "hardened_v2_draft",
+      "source_status": "partial"
+    },
+    {
+      "procedure_id": "quadriceps_tendon_repair",
+      "schema": "brobot_case_prep_payload_v2",
+      "status": "certified",
+      "quality": "hardened_v2_draft",
+      "source_status": "partial"
+    },
+    {
+      "procedure_id": "acetabulum_fracture_orif_anterior",
+      "schema": "brobot_case_prep_payload_v2",
+      "status": "certified",
+      "quality": "hardened_v2_draft",
+      "source_status": "partial"
+    },
+    {
+      "procedure_id": "acetabulum_fracture_orif_posterior",
+      "schema": "brobot_case_prep_payload_v2",
+      "status": "certified",
+      "quality": "hardened_v2_draft",
+      "source_status": "partial"
+    },
+    {
+      "procedure_id": "monteggia_fracture_orif",
+      "schema": "brobot_case_prep_payload_v2",
+      "status": "certified",
+      "quality": "hardened_v2_draft",
+      "source_status": "partial"
+    }
+  ],
+  "registry_files": [
+    "registry/procedure_aliases.jsonl",
+    "registry/procedures.jsonl",
+    "registry/certification_registry.jsonl"
+  ],
+  "last_harden": "v2 bulk standardize + remove bad patterns"
+}

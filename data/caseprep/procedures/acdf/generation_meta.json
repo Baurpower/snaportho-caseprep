@@ -1,0 +1,34 @@
+{
+  "procedure_id": "acdf",
+  "generated_at": "2026-06-23T03:30:38Z",
+  "factory_version": "caseprep_factory_v1",
+  "model_used": null,
+  "source_grounding_score": 90.0,
+  "structural_completeness_score": 85.0,
+  "clinical_accuracy_score": 94.0,
+  "or_preparedness_score": 66.7,
+  "resident_utility_score": 42.0,
+  "attending_relevance_score": 15.0,
+  "hallucination_risk_score": 10.0,
+  "overall_quality_score": 69.0,
+  "coverage_score": 85,
+  "blocking_issues": [
+    "Required section empty: approach_landmarks",
+    "structures_at_risk has 1 entries; need at least 3."
+  ],
+  "warnings": [
+    "Extraction: No approach landmarks extracted from sources."
+  ],
+  "suggested_revision_actions": [
+    "Author content for section 'approach_landmarks'.",
+    "Add at least 3 complete structures_at_risk entries.",
+    "Standard review: address blocking issues before approval.",
+    "Expand indications with procedure-specific clinical criteria.",
+    "Consider adding implant_strategy if applicable to this procedure.",
+    "Add fluoroscopy/reduction checkpoints if fixation or alignment is relevant.",
+    "Strengthen attending_pimp_questions with approach-specific Q/A pairs."
+  ],
+  "review_status": "needs_review",
+  "runtime_promoted": false,
+  "certified": false
+}

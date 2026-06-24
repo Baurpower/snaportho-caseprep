@@ -239,7 +239,7 @@ def _validate_payload(payload: dict) -> tuple[bool, list[str]]:
 
     return (len(errors) == 0, errors)
 
-def refine_query(user_prompt: str) -> dict | str:
+def refine_query(user_prompt: str):
     if not user_prompt.strip():
         return ""
 

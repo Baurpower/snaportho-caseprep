@@ -1,0 +1,145 @@
+{
+  "indications": [],
+  "setup_positioning": [
+    "Distal Radius Fracture ORIF (open_approach). Certified. Score 4. Source-backed from v3.",
+    "Distal radius responsible for 80% of axial load through wrist. Articulates with scaphoid via scaphoid fossa, lunate via lunate fossa, distal ulna via ulnar/sigm",
+    "Lister's tubercle on dorsal surface ~1 cm proximal to articular surface; EPL tendon lies just ulnar to it before sharp turn into thumb. Important landmark to av",
+    "Watershed line: most volar and prominent aspect of distal radius (lunate portion most prominent with short radiolunate ligament attachment). Critical region to ",
+    "Internervous plane in FCR approach between FCR (median n.) and FPL (AIN).",
+    "Volar wrist capsule ligaments",
+    "FCR tendon sheath",
+    "Lister's tubercle",
+    "Volar FCR approach: incision along FCR tendon sheath (ulnar/radial curve at crease), develop plane, retract FCR ulnarly, incise FCR sheath dorsally, retract FPL",
+    "Internervous plane in FCR approach between FCR (median n.) and FPL (AIN).",
+    "Volar FCR approach: incision along FCR tendon sheath (ulnar/radial curve at crease), develop plane, retract FCR ulnarly, incise FCR sheath dorsally, retract FPL"
+  ],
+  "approach_landmarks": [
+    "Lister's tubercle on dorsal surface ~1 cm proximal to articular surface; EPL tendon lies just ulnar to it",
+    "Tibial tubercle and pes anserinus for harvest; portals for notch and footprint access.",
+    "Lister's tubercle on dorsal surface ~1 cm proximal to articular surface; EPL ten",
+    "Lister's tubercle on dorsal surface ~1 cm proximal to articular su",
+    "Lateral approach standard for ORIF/plating: patient lateral or sup"
+  ],
+  "surgical_layers": [
+    {
+      "layer_name": "Superficial interval (skin to FCR sheath)",
+      "what_user_should_know": "Incision along the FCR tendon, usually slightly ulnar to the tendon or following its radial border with a curve at the wrist crease. Develop subcutaneous plane; identify and protect the palmar cutaneous branch of the median nerve (usually ulnar to FCR or in the interval). The radial artery is radial to the FCR and should be protected during retraction.",
+      "key_structures": [
+        "FCR tendon",
+        "Palmar cutaneous branch of median nerve",
+        "Radial artery (radial to interval)"
+      ],
+      "structures_at_risk": [
+        "Palmar cutaneous branch of median nerve (numbness in palm)",
+        "Superficial radial nerve branches if incision extended radially"
+      ],
+      "surgical_relevance": "Standard volar approach for distal radius ORIF. Establishes the internervous plane between FCR (median) and FPL (AIN). Incorrect plane risks nerve injury or difficult deep exposure.",
+      "source_refs": [
+        "https://www.orthobullets.com/approaches/12071/fcr-approach-to-distal-radius",
+        "https://www.orthobullets.com/approaches/12010/volar-approach-to-radius-henry"
+      ]
+    },
+    {
+      "layer_name": "Deep muscular plane (FCR sheath to PQ)",
+      "what_user_should_know": "Incise the FCR tendon sheath on its dorsal/radial side (ulnar retraction of FCR protects the median nerve). Retract FPL ulnarly (AIN). Identify and incise the radial and ulnar borders of pronator quadratus (PQ) and elevate it subperiosteally from the volar radius. The watershed line (most volar prominent aspect, especially lunate facet) is the critical distal limit for plate placement to avoid FPL irritation.",
+      "key_structures": [
+        "FCR sheath (dorsal release)",
+        "FPL tendon (retract ulnarly)",
+        "Pronator quadratus (elevate)",
+        "Watershed line (volar distal radius)"
+      ],
+      "structures_at_risk": [
+        "Median nerve / recurrent motor branch (excessive ulnar retraction or blind dissection)",
+        "FPL tendon (at risk from plate/screws distal to watershed)"
+      ],
+      "surgical_relevance": "This plane gives direct access to the volar distal radius for reduction and plating. Failure to respect the watershed line is a common cause of late FPL rupture. For Henry extension, pronate forearm to protect PIN in supinator.",
+      "source_refs": [
+        "https://www.orthobullets.com/approaches/12071/fcr-approach-to-distal-radius",
+        "https://www.orthobullets.com/approaches/12010/volar-approach-to-radius-henry"
+      ]
+    },
+    {
+      "layer_name": "Volar radius exposure and deep retraction",
+      "what_user_should_know": "After PQ elevation, the volar radius, fracture, and joint are exposed. Use Hohmann or other retractors carefully; radial artery is protected radially, median nerve/FPL ulnarly. For intra-articular work or extension, identify Lister's tubercle dorsally for reference (EPL ulnar to it). Confirm plate position proximal to watershed and assess screw lengths with 23° elevated lateral or skyline views.",
+      "key_structures": [
+        "Volar distal radius (three columns)",
+        "Fracture site / articular surface",
+        "Radial styloid (lateral landmark)"
+      ],
+      "structures_at_risk": [
+        "PIN (if dorsal reference or Henry extension used)",
+        "EPL tendon (attritional rupture risk from long dorsal screws or prominent hardware near Lister's)"
+      ],
+      "surgical_relevance": "Final exposure for reduction, provisional fixation, and definitive volar plating. Directly related to avoiding tendon irritation and ensuring stable fixation for early motion.",
+      "source_refs": [
+        "https://www.orthobullets.com/approaches/12071/fcr-approach-to-distal-radius",
+        "https://www.orthobullets.com/trauma/1027/distal-radius-fractures"
+      ]
+    }
+  ],
+  "structures_at_risk": [
+    {
+      "structure": "Palmar cutaneous branch of median nerve",
+      "why_at_risk": "Runs ulnar to or within the FCR interval in the volar approach; at risk during skin incision, subcutaneous dissection, or FCR sheath opening.",
+      "how_to_avoid_injury": "Identify and protect the branch (usually 1-2 cm ulnar to FCR or in the interval) before incising fascia. Retract carefully; do not cauterize blindly in the subcutaneous plane.",
+      "consequence_of_injury": "Numbness or painful neuroma in the thenar eminence/palm. Usually tolerable but can be annoying for patients with volar incisions.",
+      "approach_context": "Volar FCR approach for distal radius ORIF",
+      "source_refs": [
+        "https://www.orthobullets.com/approaches/12071/fcr-approach-to-distal-radius"
+      ]
+    },
+    {
+      "structure": "Posterior interosseous nerve (PIN)",
+      "why_at_risk": "At risk in Henry (volar radial) extension or if the approach is extended proximally; also relevant for dorsal approaches. Lies in supinator; pronation moves it away.",
+      "how_to_avoid_injury": "For pure FCR volar: limited proximal extension. If Henry needed, fully pronate forearm before incising supinator mid-belly. Identify the nerve if proximal dissection is required.",
+      "consequence_of_injury": "Finger and thumb extension weakness (finger drop), loss of thumb radial abduction. Wrist extension preserved (ECRL).",
+      "approach_context": "Volar approaches to distal radius (FCR or Henry extension)",
+      "source_refs": [
+        "https://www.orthobullets.com/approaches/12010/volar-approach-to-radius-henry"
+      ]
+    },
+    {
+      "structure": "Superficial radial nerve",
+      "why_at_risk": "Crosses the field in dorsal approaches or radial-sided volar extensions near the styloid. At risk during subcutaneous dissection or radial styloid work.",
+      "how_to_avoid_injury": "Identify under the brachioradialis fascia in radial-sided or dorsal work. Protect with vessel loop; avoid blind clamping or excessive retraction.",
+      "consequence_of_injury": "Numbness or neuroma on the dorsal radial hand (first web, thumb, index, middle). Can be more symptomatic than motor loss.",
+      "approach_context": "Dorsal or radial extension of volar approach for distal radius",
+      "source_refs": [
+        "https://www.orthobullets.com/approaches/12013/dorsal-approach-to-the-wrist"
+      ]
+    },
+    {
+      "structure": "Flexor pollicis longus (FPL) and flexor tendons; EPL (dorsal reference)",
+      "why_at_risk": "Volar plates placed distal to the watershed line (especially lunate facet) can irritate or rupture FPL. EPL at risk from dorsal screw penetration (Lister's tubercle reference).",
+      "how_to_avoid_injury": "Keep volar plate proximal to watershed line. Confirm screw lengths with skyline or 23° elevated lateral views. Avoid prominent dorsal screws near Lister's/EPL.",
+      "consequence_of_injury": "FPL or EPL attritional rupture (late tendon rupture). Loss of thumb IP flexion or extension. Requires secondary tendon reconstruction.",
+      "approach_context": "Volar (and dorsal reference) plating in distal radius ORIF",
+      "source_refs": [
+        "https://www.orthobullets.com/trauma/1027/distal-radius-fractures"
+      ]
+    }
+  ],
+  "implant_strategy": [],
+  "reduction_or_fluoro_checkpoints": [],
+  "pitfalls": [
+    "Inadequate identification of structures at risk leading to iatrogenic injury",
+    "Missing key landmarks resulting in malpositioned hardware",
+    "Ignoring deforming forces causing loss of reduction",
+    "Poor fluoroscopic confirmation of starting point or trajectory",
+    "Incomplete release or exposure leading to inadequate decompression or fixation"
+  ],
+  "attending_pimp_questions": [
+    "Q: Which nerve is at risk in the FCR interval during volar distal radius ORIF and how is it protected? A: Palmar cutaneous branch of median nerve. Identify and protect it 1-2 cm ulnar to FCR before incising fascia; do not cauterize blindly.",
+    "Q: What is the consequence of placing a volar plate distal to the watershed line? A: FPL or flexor tendon irritation or late rupture. Keep plate proximal to watershed; confirm screw length with skyline view.",
+    "Q: How is the PIN protected if a Henry extension is needed? A: Fully pronate the forearm before incising supinator mid-belly; limit proximal extension for pure FCR cases.",
+    "Q: What structure is at risk from prominent dorsal screws near Lister's tubercle? A: EPL tendon. Use 23 degree elevated lateral or skyline views to confirm screw lengths and avoid penetration.",
+    "Q: Why is the superficial radial nerve at risk in radial or dorsal extensions and how to avoid neuroma? A: It crosses under brachioradialis fascia; identify and protect with vessel loop; avoid blind clamping."
+  ],
+  "postop_plan": [
+    "Review linked modules and source URLs",
+    "Memorize key SAR and landmarks",
+    "Practice the 10+ pimp questions",
+    "Walk through the night-before checklist",
+    "Confirm any case-specific fluoroscopy or approach details"
+  ]
+}

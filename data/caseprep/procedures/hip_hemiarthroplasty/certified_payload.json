@@ -1,0 +1,167 @@
+{
+  "schema_version": "brobot_case_prep_payload_v2",
+  "procedure_id": "hip_hemiarthroplasty",
+  "procedure_name": "Hip Hemiarthroplasty",
+  "case_prep_status": "certified",
+  "procedure_overview": "Hip Hemiarthroplasty (open_approach). Certified. Score 4. Source-backed from v3.",
+  "must_know_anatomy": [
+    "Direct lateral (Hardinge): split IT band, split gluteus medius/vastus lateralis (limit proximal split to 3-5 cm above greater trochanter to protect superior gluteal nerve).",
+    "Greater trochanter is the key landmark. Detach anterior portion of gluteus medius/minimus and vastus lateralis from the GT for anterior exposure of femoral neck and head.",
+    "Superior gluteal nerve at risk if split extends >3-5 cm proximal to GT; runs within gluteus medius approximately 5 cm above the trochanter.",
+    "Short external rotators (piriformis, obturator internus) lie posterior; for hemi they may be preserved or partially released depending on exposure needs. Sciatic nerve lies posterior and is protected by limited posterior dissection.",
+    "Abductor repair at closure: suture the anterior gluteus medius/minimus and vastus lateralis flap back to the greater trochanter (bone tunnels or anchors) to restore abductor mechanism and prevent Trendelenburg gait.",
+    "Femoral neck cut and head removal: trial head sizing to restore offset and leg length. Acetabulum may be reamed lightly for bipolar if cartilage poor. No full posterior capsule repair required for hemi."
+  ],
+  "surgical_approach_anatomy": [
+    "Incision centered over greater trochanter. Split IT band in line with fibers. Split gluteus medius and vastus lateralis anteriorly from the trochanter, limiting the proximal extent to 3-5 cm above the GT to protect the superior gluteal nerve.",
+    "Detach the anterior gluteus medius/minimus and anterior vastus lateralis from the greater trochanter as a flap. Expose the anterior capsule and femoral neck for head removal."
+  ],
+  "structures_at_risk": [
+    {
+      "structure": "Superior gluteal nerve",
+      "why_at_risk": "Courses ~5 cm proximal to GT within gluteus medius. Excessive proximal split in Hardinge approach can transect or stretch it.",
+      "how_to_avoid_injury": "Limit the proximal split of gluteus medius/vastus lateralis to 3-5 cm above the greater trochanter. Use blunt dissection and identify the nerve if extending proximally.",
+      "consequence_of_injury": "Abductor weakness, Trendelenburg gait, difficulty with single-leg stance and stair climbing. Often permanent if complete transection.",
+      "approach_context": "Direct lateral (Hardinge) for hip hemiarthroplasty",
+      "source_refs": [
+        "https://www.orthobullets.com/approaches/12022/hip-direct-lateral-approach-hardinge-transgluteal"
+      ]
+    },
+    {
+      "structure": "Sciatic nerve",
+      "why_at_risk": "Lies posterior; at risk with excessive posterior retraction or deep dissection during femoral preparation in hemi.",
+      "how_to_avoid_injury": "Maintain awareness of posterior structures. Use anteriorly directed retractors for femoral exposure. Avoid aggressive posterior release unless necessary for version correction.",
+      "consequence_of_injury": "Foot drop, sensory loss. Less common in pure lateral but possible with hemi dislocation maneuvers.",
+      "approach_context": "Hardinge approach during hip dislocation and stem insertion",
+      "source_refs": [
+        "https://www.orthobullets.com/approaches/12022/hip-direct-lateral-approach-hardinge-transgluteal"
+      ]
+    },
+    {
+      "structure": "Abductor mechanism (gluteus medius/minimus)",
+      "why_at_risk": "Detached anteriorly from GT for exposure. Inadequate repair leads to abductor insufficiency.",
+      "how_to_avoid_injury": "Tag and preserve as much tendon as possible on the detached anterior flap. Repair securely to GT with non-absorbable suture through bone or anchors at closure. Protect repair post-op with abduction precautions if needed.",
+      "consequence_of_injury": "Trendelenburg limp, abductor weakness, hip instability in stance phase. Common cause of poor function after lateral approach hemi.",
+      "approach_context": "Direct lateral Hardinge - exposure and closure",
+      "source_refs": [
+        "https://www.orthobullets.com/approaches/12022/hip-direct-lateral-approach-hardinge-transgluteal"
+      ]
+    },
+    {
+      "structure": "Greater trochanter and abductor insertion",
+      "why_at_risk": "Fracture or osteotomy of GT (if used) or poor reattachment of abductors can compromise function.",
+      "how_to_avoid_injury": "Use careful osteotomy technique if extending exposure. Secure reattachment of anterior abductors and vastus lateralis to GT.",
+      "consequence_of_injury": "Abductor lurch, pain, need for revision abductor repair.",
+      "approach_context": "Hardinge for hemiarthroplasty",
+      "source_refs": [
+        "https://www.orthobullets.com/approaches/12022/hip-direct-lateral-approach-hardinge-transgluteal"
+      ]
+    }
+  ],
+  "key_landmarks": [
+    "Greater trochanter: incision center and abductor detachment/repair site for Hardinge hemi.",
+    "Femoral neck and head: primary working landmarks after anterior abductor flap elevation.",
+    "IT band: split in line with fibers as superficial interval to gluteus medius split."
+  ],
+  "reduction_or_implant_anatomy": [],
+  "arthroscopy_or_portal_anatomy": [],
+  "common_mistakes": [
+    "Extending the gluteus medius split too far proximal (>5 cm above GT), injuring superior gluteal nerve and causing permanent abductor weakness.",
+    "Inadequate repair of anterior abductors to the greater trochanter, leading to Trendelenburg gait and poor function.",
+    "Over-retraction posteriorly during femoral broaching, risking sciatic nerve injury.",
+    "Poor head sizing or version leading to instability or leg length discrepancy in hemiarthroplasty.",
+    "Failure to protect the abductor repair postoperatively with appropriate precautions."
+  ],
+  "fluoroscopy_checkpoints": [],
+  "attending_pimp_questions": [
+    "Q: What nerve is at risk in direct lateral (Hardinge) approach and how far proximal can you safely split the gluteus medius? A: Superior gluteal nerve. Limit the split to 3-5 cm proximal to the greater trochanter to avoid injury.",
+    "Q: Describe the key steps of the Hardinge approach for hip hemiarthroplasty and the primary structure at risk during the split. A: Split IT band, split gluteus medius/vl anteriorly (limit 3-5cm above GT for sup. gluteal n.), detach anterior abductors from GT. Primary risk: superior gluteal nerve leading to abductor insufficiency.",
+    "Q: Why is repair of the anterior abductors critical after Hardinge hemiarthroplasty? A: Restores the abductor mechanism attached to GT. Failure causes Trendelenburg gait and poor single-leg stance.",
+    "Q: How is the sciatic nerve protected during Hardinge exposure for hemi? A: Limited posterior dissection, anteriorly directed retractors for femoral work, awareness of its position posterior to the femur during broaching.",
+    "Q: What is the typical head size selection and stability assessment in hemiarthroplasty via lateral approach? A: Trial heads to restore leg length and offset; check stability in flexion/adduction and extension/external rotation. Avoid overstuffing the joint."
+  ],
+  "night_before_review_checklist": [
+    "Review linked modules and source URLs",
+    "Memorize key SAR and landmarks",
+    "Practice the 10+ pimp questions",
+    "Walk through the night-before checklist",
+    "Confirm any case-specific fluoroscopy or approach details"
+  ],
+  "source_urls": [
+    "https://www.orthobullets.com/approaches/12022/hip-direct-lateral-approach-hardinge-transgluteal",
+    "https://www.orthobullets.com/recon/12116/tha-approaches"
+  ],
+  "source_confidence": "high",
+  "limitations": [
+    "Anatomy-focused case prep only; does not replace full surgical technique or attending-specific preferences",
+    "Always verify with latest imaging and team briefing"
+  ],
+  "anatomy_category": "arthroplasty_approach",
+  "approach_id": "lateral_hardinge_hip",
+  "approach_name": "Lateral (Hardinge)",
+  "surgical_layers": [
+    {
+      "layer_name": "Superficial (skin to IT band and gluteus medius split)",
+      "what_user_should_know": "Incision centered over greater trochanter. Split IT band in line with fibers. Split gluteus medius and vastus lateralis anteriorly from the trochanter, limiting the proximal extent to 3-5 cm above the GT to protect the superior gluteal nerve.",
+      "key_structures": [
+        "Greater trochanter",
+        "IT band",
+        "Gluteus medius (anterior split)",
+        "Vastus lateralis (anterior split)"
+      ],
+      "structures_at_risk": [
+        "Superior gluteal nerve (if split >3-5 cm proximal to GT)"
+      ],
+      "surgical_relevance": "Standard lateral approach for hemiarthroplasty. Provides good anterior exposure of neck and head while preserving most of the posterior abductors. The split limit is the key safety point.",
+      "source_refs": [
+        "https://www.orthobullets.com/approaches/12022/hip-direct-lateral-approach-hardinge-transgluteal"
+      ]
+    },
+    {
+      "layer_name": "Deep (abductor detachment and femoral neck exposure)",
+      "what_user_should_know": "Detach the anterior gluteus medius/minimus and anterior vastus lateralis from the greater trochanter as a flap. Expose the anterior capsule and femoral neck. Release capsule as needed for head dislocation. Protect sciatic nerve with limited posterior retraction.",
+      "key_structures": [
+        "Anterior abductors (detached flap)",
+        "Femoral neck and head",
+        "Anterior capsule",
+        "Greater trochanter (repair bed)"
+      ],
+      "structures_at_risk": [
+        "Abductor tendon quality (for repair)",
+        "Sciatic nerve (posterior retraction)"
+      ],
+      "surgical_relevance": "Gives direct access to the femoral head/neck for hemi. The anterior abductor flap must be repaired back to bone at the end to restore function.",
+      "source_refs": [
+        "https://www.orthobullets.com/approaches/12022/hip-direct-lateral-approach-hardinge-transgluteal"
+      ]
+    },
+    {
+      "layer_name": "Closure and abductor repair",
+      "what_user_should_know": "After stem and head implantation and reduction, repair the anterior gluteus medius/minimus and vastus lateralis flap securely to the greater trochanter using heavy suture through bone tunnels or anchors. Close IT band and skin in layers. Abductor repair is critical for hemi outcome.",
+      "key_structures": [
+        "Anterior abductor flap",
+        "Greater trochanter (repair site)",
+        "IT band"
+      ],
+      "structures_at_risk": [
+        "Abductor repair integrity (Trendelenburg if fails)"
+      ],
+      "surgical_relevance": "The repair layer that determines postoperative abductor function. Poor repair is a common source of limp after lateral approach hemi.",
+      "source_refs": [
+        "https://www.orthobullets.com/approaches/12022/hip-direct-lateral-approach-hardinge-transgluteal"
+      ]
+    }
+  ],
+  "validation_warnings": [
+    "Hip hemiarthroplasty payload focused on Hardinge (direct lateral) approach, which is one common technique for hemi. Some surgeons prefer posterior for hemi; this payload does not cover posterior hemi details. Source material was previously mixed across hip approaches; cleaned to Hardinge-specific facts only."
+  ],
+  "payload_quality_status": "cleaned_batch1_hardinge",
+  "source_status": "source_backed_12022_hardinge_hemi",
+  "approach_specific_notes": "This payload is for hip hemiarthroplasty via direct lateral (Hardinge) approach. Common for hemi because it provides excellent anterior exposure of the neck/head with the patient supine or lateral. The defining safety point is limiting the abductor split to protect the superior gluteal nerve. No full posterior ER release or anterior TFL/sartorius interval is used. Abductor repair to the GT at closure is as important as the exposure itself for functional outcome. Content is lateral/Hardinge-specific; posterior or anterior THA anatomy is not mixed in.",
+  "danger_zones": [
+    "Superior gluteal nerve: limit Hardinge split to 3-5 cm above GT; injury causes permanent abductor weakness and Trendelenburg gait.",
+    "Abductor repair: secure reattachment of anterior flap to GT is essential; failure leads to abductor insufficiency and poor function.",
+    "Sciatic nerve: protect with limited posterior retraction during femoral work; injury causes foot drop.",
+    "Greater trochanter: avoid fracture during exposure or stem insertion; poor abductor reattachment site compromises outcome."
+  ]
+}

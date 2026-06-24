@@ -1,0 +1,122 @@
+{
+  "indications": [],
+  "setup_positioning": [
+    "Reverse Shoulder Arthroplasty (arthroscopy_or_endoscopy). Certified. Score 4. Source-backed from v3.",
+    "RSA: deltopectoral or superolateral (lateral split) approaches. Relies on deltoid for elevation after reversing ball/socket.",
+    "Deltopectoral preferred for most RSA (exposure, extension). Lateral split for some. Subscapularis management varies by implant/design."
+  ],
+  "approach_landmarks": [
+    "Coracoid process: proximal landmark for deltopectoral incision to deltoid insertion.",
+    "Acromion: reference for superolateral deltoid split; limit split to 3-5 cm from acromion to protect axillary nerve.",
+    "Cephalic vein in deltopectoral groove (retract laterally with deltoid).",
+    "Conjoint tendon: musculocutaneous nerve enters deep/medial 5-8 cm below coracoid."
+  ],
+  "surgical_layers": [
+    {
+      "layer_name": "Superficial deltopectoral or superolateral (skin to interval)",
+      "what_user_should_know": "For deltopectoral (preferred for most RSA): incision from coracoid to deltoid insertion. Cephalic vein in groove (retract laterally with deltoid). For superolateral: split deltoid 3-5 cm from acromion (limit to protect axillary).",
+      "key_structures": [
+        "Cephalic vein (deltopectoral)",
+        "Deltoid (axillary n deep)",
+        "Acromion (superolateral split reference)"
+      ],
+      "structures_at_risk": [
+        "Axillary nerve (deep deltoid 5-7 cm below acromion; limit split)"
+      ],
+      "surgical_relevance": "Deltopectoral gives extensile exposure and is standard for RSA. Superolateral is shorter but risks more axillary nerve issues if split too far.",
+      "source_refs": [
+        "https://www.orthobullets.com/approaches/12061/shoulder-anterior-deltopectoral-approach",
+        "https://www.orthobullets.com/recon/12000/reverse-shoulder-arthroplasty"
+      ]
+    },
+    {
+      "layer_name": "Deep (conjoint, subscap, capsule for RSA)",
+      "what_user_should_know": "Identify conjoint tendon (musculocutaneous n 5-8 cm below coracoid - limit medial retraction). Subscapularis tenotomy or peel (management varies for RSA stability). Anterior capsule and glenoid exposure. Deltoid is the primary elevator post-RSA (no rotator cuff reliance).",
+      "key_structures": [
+        "Conjoint tendon",
+        "Subscapularis (tenotomy/peel for RSA)",
+        "Glenoid and humerus (for baseplate and stem)"
+      ],
+      "structures_at_risk": [
+        "Musculocutaneous nerve (deep to conjoint)",
+        "Axillary nerve (inferior subscapularis border)"
+      ],
+      "surgical_relevance": "RSA specific: subscap handling affects stability; deltoid is now the key muscle. Axillary protection remains critical (inferior work).",
+      "source_refs": [
+        "https://www.orthobullets.com/recon/12000/reverse-shoulder-arthroplasty"
+      ]
+    },
+    {
+      "layer_name": "Glenoid and humeral preparation (RSA specific exposure)",
+      "what_user_should_know": "Glenoid exposure for baseplate (inferior tilt, version). Humeral preparation (stem version, height for deltoid tension). Trial reduction and stability testing with the reversed ball-and-socket. No subscap repair in some RSA designs.",
+      "key_structures": [
+        "Glenoid (baseplate position)",
+        "Humerus (stem height/version for deltoid)",
+        "Deltoid tension (key for RSA function)"
+      ],
+      "structures_at_risk": [
+        "Axillary nerve (inferior glenoid work)",
+        "Musculocutaneous (medial retraction)"
+      ],
+      "surgical_relevance": "The RSA-specific working layer. Deltoid tensioning is more important than anatomic reconstruction. Axillary nerve at highest risk during inferior glenoid exposure.",
+      "source_refs": [
+        "https://www.orthobullets.com/recon/12000/reverse-shoulder-arthroplasty"
+      ]
+    }
+  ],
+  "structures_at_risk": [
+    {
+      "structure": "Axillary nerve (on deep surface of deltoid and inferior to subscapularis)",
+      "why_at_risk": "Lies 5-7 cm below acromion on deltoid undersurface and crosses inferior to subscapularis. At risk during inferior glenoid/baseplate work or medial retraction in RSA.",
+      "how_to_avoid_injury": "Identify early at inferior subscap border. Keep arm abducted and externally rotated during inferior work. Limit inferior capsular release and use blunt retractors.",
+      "consequence_of_injury": "Deltoid paralysis (loss of abduction/elevation) and teres minor weakness. Devastating for RSA outcome since deltoid is the primary elevator.",
+      "approach_context": "Deltopectoral or superolateral for RSA (inferior glenoid exposure)",
+      "source_refs": [
+        "https://www.orthobullets.com/approaches/12061/shoulder-anterior-deltopectoral-approach"
+      ]
+    },
+    {
+      "structure": "Musculocutaneous nerve (lateral cord to coracobrachialis/biceps)",
+      "why_at_risk": "Enters conjoint tendon deep/medial 5-8 cm below coracoid. Excessive medial retraction in deltopectoral for RSA can injure it.",
+      "how_to_avoid_injury": "Limit medial retraction force and duration. Identify before any conjoint release. Know the distance from coracoid.",
+      "consequence_of_injury": "Weak elbow flexion (biceps/brachialis) and lateral forearm numbness (LABC).",
+      "approach_context": "Deltopectoral approach for RSA",
+      "source_refs": [
+        "https://www.orthobullets.com/approaches/12061/shoulder-anterior-deltopectoral-approach"
+      ]
+    },
+    {
+      "structure": "Subscapularis (for RSA stability variants)",
+      "why_at_risk": "Management (repair vs. not, tenotomy vs. peel) varies by RSA design and affects anterior stability and internal rotation. Poor handling leads to instability or loss of IR.",
+      "how_to_avoid_injury": "Follow implant-specific subscap protocol. Tag and repair if indicated for the chosen RSA prosthesis. Avoid overtensioning.",
+      "consequence_of_injury": "Anterior instability or loss of active internal rotation after RSA.",
+      "approach_context": "RSA via deltopectoral (subscap handling)",
+      "source_refs": [
+        "https://www.orthobullets.com/recon/12000/reverse-shoulder-arthroplasty"
+      ]
+    }
+  ],
+  "implant_strategy": [],
+  "reduction_or_fluoro_checkpoints": [],
+  "pitfalls": [
+    "Inadequate identification of structures at risk leading to iatrogenic injury",
+    "Missing key landmarks resulting in malpositioned hardware",
+    "Ignoring deforming forces causing loss of reduction",
+    "Poor fluoroscopic confirmation of starting point or trajectory",
+    "Incomplete release or exposure leading to inadequate decompression or fixation"
+  ],
+  "attending_pimp_questions": [
+    "Deltopectoral vs lateral approach for RSA; axillary nerve importance post-op.",
+    "What are the key structures at risk specific to the main approach or portals for this case?",
+    "What is the primary deforming force or pathoanatomy that must be countered during reduction or repair?",
+    "Name the main ligaments or intervals that define safe dissection or stable fixation for this procedure.",
+    "What fluoroscopic views or landmarks confirm adequate reduction and implant position intraoperatively?"
+  ],
+  "postop_plan": [
+    "Review linked modules and source URLs",
+    "Memorize key SAR and landmarks",
+    "Practice the 10+ pimp questions",
+    "Walk through the night-before checklist",
+    "Confirm any case-specific fluoroscopy or approach details"
+  ]
+}

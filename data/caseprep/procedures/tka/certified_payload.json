@@ -1,0 +1,184 @@
+{
+  "schema_version": "brobot_case_prep_payload_v2",
+  "procedure_id": "tka",
+  "procedure_name": "Total Knee Arthroplasty",
+  "case_prep_status": "certified",
+  "procedure_overview": "Total Knee Arthroplasty (open_approach). Certified. Score 4. Source-backed from v3.",
+  "must_know_anatomy": [
+    "Medial parapatellar approach: skin incision medial to midline or along medial border of patella/quadriceps tendon; develop medial skin flap, incise medial retinaculum and vastus medialis obliquus fascia to enter joint.",
+    "Extensor mechanism: quadriceps tendon, patella, patellar tendon (protect insertion on tibial tubercle to avoid avulsion). Patella can be everted or subluxated laterally.",
+    "Medial structures: MCL (superficial and deep) at risk with over-release especially in valgus deformity correction; protect during tibial cut and retraction.",
+    "Infrapatellar branch of saphenous nerve: crosses field in subcutaneous tissue or retinaculum; injury common cause of postoperative numbness or neuroma pain.",
+    "Posterior structures: popliteal vessels and tibial nerve lie posterior to capsule; risk with overzealous posterior capsular release or saw penetration during tibial/femoral cuts.",
+    "Lateral structures in valgus: common peroneal nerve at fibular head/neck; risk increased with correction of severe valgus or lateral release."
+  ],
+  "surgical_approach_anatomy": [
+    "Superficial: midline or slightly medial incision, raise medial flap to expose quadriceps tendon, patella, and medial retinaculum. Identify and protect infrapatellar saphenous branch if visible.",
+    "Deep: incise medial parapatellar retinaculum from quadriceps tendon through medial patellar border to tibial tubercle (leave 1-2cm cuff on patella for repair). Enter joint, evert patella laterally for exposure of femoral trochlea, condyles, and tibial plateau.",
+    "Deep joint: protect MCL medially with retractors during tibial cut; control posterior capsule bleeding; avoid saw penetration into popliteal fossa. For valgus, protect common peroneal with careful lateral work."
+  ],
+  "structures_at_risk": [
+    {
+      "structure": "Infrapatellar branch of saphenous nerve",
+      "why_at_risk": "Crosses the anterior knee in the subcutaneous plane or within the medial retinaculum; transected during skin incision or retinacular opening in medial parapatellar approach.",
+      "how_to_avoid_injury": "Make incision slightly medial or identify the branch under the skin flap and protect/retract it medially or laterally. Avoid blind cautery in the subcutaneous layer.",
+      "consequence_of_injury": "Numbness over the anterolateral knee and patella or painful neuroma. Common and often tolerated but can be a source of patient dissatisfaction.",
+      "approach_context": "Medial parapatellar approach for TKA",
+      "source_refs": [
+        "https://www.orthobullets.com/approaches/12028/knee-medial-parapatellar-approach"
+      ]
+    },
+    {
+      "structure": "Patellar tendon",
+      "why_at_risk": "At risk of avulsion at tibial tubercle insertion during patellar eversion or if excessive force used in stiff knee or obese patient.",
+      "how_to_avoid_injury": "Protect insertion with a retractor or pin during eversion. Perform quadriceps snip or tibial tubercle osteotomy if difficult exposure rather than forcing eversion.",
+      "consequence_of_injury": "Patellar tendon rupture or attenuation leading to extensor lag and need for reconstruction or augmentation.",
+      "approach_context": "Medial parapatellar exposure in TKA",
+      "source_refs": [
+        "https://www.orthobullets.com/recon/5031/tka-approaches"
+      ]
+    },
+    {
+      "structure": "Medial collateral ligament (MCL)",
+      "why_at_risk": "Superficial and deep MCL can be over-released or injured during medial tibial plateau exposure or in valgus deformity correction to balance the knee.",
+      "how_to_avoid_injury": "Use careful subperiosteal release only as needed for balance; protect with retractors during saw cuts. Avoid over-release in valgus knees.",
+      "consequence_of_injury": "Medial instability, need for constrained implant or revision, or late failure of the MCL repair/augmentation.",
+      "approach_context": "Medial parapatellar approach and balancing in TKA",
+      "source_refs": [
+        "https://www.orthobullets.com/recon/5031/tka-approaches"
+      ]
+    },
+    {
+      "structure": "Popliteal vessels and posterior neurovascular structures",
+      "why_at_risk": "Lie immediately posterior to the capsule and tibial plateau; at risk from saw blade penetration or aggressive posterior capsular release during tibial or femoral preparation.",
+      "how_to_avoid_injury": "Use posterior retractors, control saw depth, perform posterior capsular release under direct vision with knee flexed. Avoid plunging instruments.",
+      "consequence_of_injury": "Vascular injury, popliteal fossa hematoma, or nerve injury (tibial or peroneal division) leading to ischemia or foot drop.",
+      "approach_context": "Deep exposure and bone cuts in medial parapatellar TKA",
+      "source_refs": [
+        "https://www.orthobullets.com/recon/5031/tka-approaches"
+      ]
+    },
+    {
+      "structure": "Common peroneal nerve (in valgus correction)",
+      "why_at_risk": "At fibular head/neck; stretched or injured during correction of severe valgus deformity or lateral retinacular release/lateral osteophyte removal.",
+      "how_to_avoid_injury": "Identify and protect with vessel loop if severe valgus or lateral work; limit lateral release to necessary; avoid excessive correction force.",
+      "consequence_of_injury": "Foot drop, sensory loss on dorsum of foot, or chronic pain. May require bracing or tendon transfer if permanent.",
+      "approach_context": "Valgus TKA via medial parapatellar with lateral balancing",
+      "source_refs": [
+        "https://www.orthobullets.com/recon/5031/tka-approaches"
+      ]
+    }
+  ],
+  "key_landmarks": [
+    "Medial border of the patella and quadriceps tendon; tibial tubercle as distal landmark for the arthrotomy interval and extensor mechanism protection.",
+    "Proximal femur landmarks not applicable; focus on patella, tibial tubercle, femoral epicondyles for MCL origin reference.",
+    "Patellar tracking on femoral trochlea after arthrotomy and eversion; assess for tilt or subluxation.",
+    "Posterior capsule and popliteal fossa reference for safe tibial cut depth.",
+    "Fibular head/neck for common peroneal nerve reference in valgus correction cases."
+  ],
+  "reduction_or_implant_anatomy": [],
+  "arthroscopy_or_portal_anatomy": [],
+  "common_mistakes": [
+    "Injury to the infrapatellar branch of the saphenous nerve during skin incision or retinacular opening, causing postoperative anterolateral knee numbness or painful neuroma.",
+    "Avulsion of the patellar tendon at the tibial tubercle during forceful patellar eversion in a stiff or obese knee; leads to extensor mechanism failure.",
+    "Over-release of the MCL during medial exposure or valgus balancing, resulting in medial instability and need for constrained prosthesis.",
+    "Saw blade penetration into the popliteal fossa during tibial or femoral cuts, injuring vessels or tibial nerve.",
+    "Failure to protect the common peroneal nerve at the fibular head during valgus correction or lateral retinacular release, causing foot drop."
+  ],
+  "fluoroscopy_checkpoints": [],
+  "attending_pimp_questions": [
+    "Q: What is the internervous or intermuscular interval in the medial parapatellar approach for TKA and what nerve branch is most commonly injured? A: No true internervous plane (splits quadriceps fascia and retinaculum). Infrapatellar branch of saphenous nerve is most commonly injured, causing anterolateral knee numbness or neuroma.",
+    "Q: How is the patellar tendon protected during patellar eversion in a stiff or obese knee during TKA? A: Protect the tibial tubercle insertion with a retractor or temporary pin. If eversion is difficult, perform a quadriceps snip proximally or tibial tubercle osteotomy rather than forcing and risking avulsion.",
+    "Q: What structures are at risk during medial release and tibial cut in a valgus knee, and how is the common peroneal nerve protected? A: MCL can be over-released causing medial instability; common peroneal at fibular head during valgus correction or lateral release. Protect peroneal with vessel loop if severe valgus; limit lateral work and avoid excessive correction force.",
+    "Q: Describe the key steps of the medial parapatellar approach for TKA and the primary structure at risk in each layer. A: Superficial: protect infrapatellar saphenous in subcutaneous/medial flap. Arthrotomy: protect patellar tendon insertion during eversion. Deep: protect MCL medially and popliteal structures posteriorly during cuts and balancing.",
+    "Q: Why is careful posterior capsular management important in TKA via medial parapatellar, and what is the consequence of saw penetration? A: Popliteal vessels and tibial nerve lie immediately behind the capsule and plateau. Penetration causes vascular injury, hematoma, or nerve deficit (foot drop or ischemia). Use posterior retractors and controlled saw depth."
+  ],
+  "night_before_review_checklist": [
+    "Review linked modules and source URLs",
+    "Memorize key SAR and landmarks",
+    "Practice the 10+ pimp questions",
+    "Walk through the night-before checklist",
+    "Confirm any case-specific fluoroscopy or approach details"
+  ],
+  "source_urls": [
+    "https://www.orthobullets.com/approaches/12028/knee-medial-parapatellar-approach",
+    "https://www.orthobullets.com/recon/5031/tka-approaches"
+  ],
+  "source_confidence": "high",
+  "limitations": [
+    "Anatomy-focused case prep only; does not replace full surgical technique or attending-specific preferences",
+    "Always verify with latest imaging and team briefing"
+  ],
+  "anatomy_category": "procedure",
+  "approach_id": "tka",
+  "approach_name": "Total Knee Arthroplasty",
+  "surgical_layers": [
+    {
+      "layer_name": "Superficial (skin to medial retinaculum / quadriceps fascia)",
+      "what_user_should_know": "Midline or slightly medial incision centered on patella. Raise a medial skin flap to expose the quadriceps tendon, patella, and medial retinaculum. Identify and protect the infrapatellar branch of the saphenous nerve in the subcutaneous tissue.",
+      "key_structures": [
+        "Quadriceps tendon",
+        "Patella",
+        "Medial retinaculum / vastus medialis obliquus",
+        "Infrapatellar saphenous branch"
+      ],
+      "structures_at_risk": [
+        "Infrapatellar branch of saphenous nerve"
+      ],
+      "surgical_relevance": "Standard medial parapatellar approach for TKA provides excellent exposure to the entire knee joint while allowing repair of the extensor mechanism. Nerve protection prevents annoying postoperative numbness.",
+      "source_refs": [
+        "https://www.orthobullets.com/approaches/12028/knee-medial-parapatellar-approach"
+      ]
+    },
+    {
+      "layer_name": "Extensor mechanism and medial parapatellar arthrotomy",
+      "what_user_should_know": "Incise the medial retinaculum 1-2 cm medial to the patellar border from the quadriceps tendon through the medial patellofemoral ligament to the tibial tubercle. Evert the patella laterally (or subluxate) to expose the trochlea, femoral condyles, and tibial plateau. Protect the patellar tendon insertion.",
+      "key_structures": [
+        "Patellar tendon insertion at tibial tubercle",
+        "Medial patellar retinaculum",
+        "Vastus medialis",
+        "Femoral trochlea and condyles"
+      ],
+      "structures_at_risk": [
+        "Patellar tendon (avulsion risk)",
+        "MCL (during medial exposure)"
+      ],
+      "surgical_relevance": "The working interval for TKA. Eversion gives full access for bone cuts and balancing. Patellar tendon protection and secure retinacular repair are essential for extensor function.",
+      "source_refs": [
+        "https://www.orthobullets.com/approaches/12028/knee-medial-parapatellar-approach",
+        "https://www.orthobullets.com/recon/5031/tka-approaches"
+      ]
+    },
+    {
+      "layer_name": "Deep joint exposure, balancing, and posterior protection",
+      "what_user_should_know": "After bone cuts, balance the knee by selective MCL release medially (avoid over-release). Protect posterior capsule and popliteal structures with retractors during tibial preparation. In valgus, protect common peroneal nerve during lateral release or osteophyte removal.",
+      "key_structures": [
+        "MCL (deep and superficial)",
+        "Posterior capsule",
+        "Popliteal fossa contents",
+        "Lateral gutter (in valgus)"
+      ],
+      "structures_at_risk": [
+        "Popliteal vessels / tibial nerve",
+        "Common peroneal nerve (valgus correction)"
+      ],
+      "surgical_relevance": "Balancing and posterior protection determine stability and safety. Over-release or saw injury leads to instability or neurovascular catastrophe.",
+      "source_refs": [
+        "https://www.orthobullets.com/recon/5031/tka-approaches"
+      ]
+    }
+  ],
+  "validation_warnings": [
+    "TKA payload is medial parapatellar focused. Some surgeons use midvastus or subvastus variants or lateral approach for valgus; this covers the most common. Source material previously mixed ACL/TKA and contained dev paths/stringified SAR; cleaned to public OB URLs and rich 6-field content only."
+  ],
+  "payload_quality_status": "cleaned_batch2_tka_parapatellar",
+  "source_status": "source_backed_12028_5031_tka",
+  "danger_zones": [
+    "Infrapatellar saphenous branch: identify in medial flap or retinaculum; transection causes numbness/neuroma over anterolateral knee.",
+    "Patellar tendon insertion: protect at tibial tubercle during eversion; avulsion leads to extensor lag and difficult reconstruction.",
+    "MCL: avoid over-release especially in valgus; results in medial instability requiring constrained implant or revision.",
+    "Popliteal neurovascular bundle: protect with retractors and controlled saw depth; injury causes ischemia, hematoma, or tibial nerve deficit.",
+    "Common peroneal nerve (valgus knees): protect at fibular head during correction/lateral release; injury causes foot drop."
+  ],
+  "approach_specific_notes": "This payload is for total knee arthroplasty (TKA) via the medial parapatellar approach (standard/default for most TKA). Focus is on extensor mechanism protection, MCL balancing, infrapatellar saphenous nerve, and posterior neurovascular safety during bone cuts. Content is TKA-specific; no isolated ACL reconstruction, hip/THA, or other approach anatomy is mixed in."
+}

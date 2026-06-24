@@ -1,0 +1,143 @@
+{
+  "indications": [],
+  "setup_positioning": [
+    "Total Hip Arthroplasty via Posterior (Moore/Southern) approach. Patient in lateral decubitus position. Incision is posterior to the greater trochanter. Split gluteus maximus in line with its fibers. Identify sciatic nerve early on the posterior surface of quadratus femoris. Protect sciatic nerve by extending the hip, flexing the knee, and using obturator internus tendon as a cushion during gentle retraction. Detach short external rotators (piriformis, obturator internus, gemelli) from their femoral insertion for exposure and tag for later repair. Expose and incise posterior capsule. Dislocate hip with flexion, adduction, and internal rotation. Acetabular and femoral preparation performed under direct posterior visualization. After component implantation, repair short external rotators and posterior capsule to the greater trochanter to restore posterior stability and reduce risk of dislocation. Inferior gluteal neurovascular bundle lies in the field near quadratus femoris.",
+    "Posterior (Moore/Southern) approach: patient lateral decubitus. Incision posterior to greater trochanter, split gluteus maximus in line with fibers (no true internervous plane in maximus).",
+    "Short external rotators (piriformis superior, obturator internus with gemelli inferior) attach to posterior femur. They are detached from bone for exposure and must be repaired at closure to restore posterior soft-tissue tension and prevent dislocation.",
+    "Sciatic nerve lies on quadratus femoris posterior to the hip. Protection: locate along quadratus femoris early; maintain hip extension and knee flexion throughout; use obturator internus tendon as a retractor cushion; peroneal division is more vulnerable distally.",
+    "Posterior capsule is incised for dislocation (flex/adduct/IR the hip). Capsule is repaired at the end together with the short external rotators to the posterior greater trochanter or trochanteric crest.",
+    "Inferior gluteal artery and nerve travel with the sciatic nerve in the greater sciatic notch region and can be injured during deep posterior dissection or aggressive retraction near quadratus femoris.",
+    "Greater trochanter is the key palpable landmark. Piriformis tendon inserts just proximal to the posterior facet of the greater trochanter; obturator internus inserts more distally on the posterior femur. These serve as guides for safe ER release.",
+    "After repair of short ERs and capsule, the posterior soft-tissue envelope is restored. Failure to repair leads to increased posterior translation and dislocation risk in the early postoperative period.",
+    "Posterior skin incision is centered over the posterior third of the greater trochanter and extends proximally and distally as needed. Gluteus maximus is split in the direction of its fibers from the tip of the trochanter proximally.",
+    "Deep to maximus split: identify the sciatic nerve on the posterior surface of quadratus femoris. The short external rotators (piriformis, obturator internus/gemelli) cross superficial to the nerve and are detached from the posterior femur.",
+    "Posterior capsule is exposed between the released short rotators. Capsule is opened for dislocation. After implantation the capsule edges are tagged and repaired with the short rotators to the femur."
+  ],
+  "approach_landmarks": [
+    "Greater trochanter (posterior border is the key for incision and ER attachment reference)",
+    "Piriformis tendon (most superior short ER, inserts just proximal to the posterior facet of the GT)",
+    "Obturator internus tendon with gemelli (inferior short ERs, insert on the posterior femur distal to piriformis)",
+    "Quadratus femoris (sciatic nerve lies on its posterior surface - primary nerve landmark)",
+    "Posterior capsule (between the released short rotators and the posterior acetabulum/femoral neck)"
+  ],
+  "surgical_layers": [
+    {
+      "layer_name": "Superficial (skin to gluteus maximus split)",
+      "what_user_should_know": "Patient in lateral decubitus. Incision is centered over the posterior third of the greater trochanter and extends proximally along the posterior border of the trochanter and distally along the femoral shaft as needed. Split the gluteus maximus in line with its fibers starting at the tip of the trochanter. There is no true internervous plane within the maximus itself.",
+      "key_structures": [
+        "Greater trochanter (posterior border)",
+        "Gluteus maximus (fiber direction split)",
+        "Subcutaneous fat and fascia over maximus"
+      ],
+      "structures_at_risk": [
+        "Inferior gluteal neurovascular bundle (deep to maximus proximally)"
+      ],
+      "surgical_relevance": "Establishes the posterior corridor. The maximus split must be long enough proximally to allow retraction without tearing. This layer exposes the short external rotators and the sciatic nerve lying on quadratus femoris.",
+      "source_refs": [
+        "https://www.orthobullets.com/approaches/12023/hip-posterior-approach-moore-or-southern"
+      ]
+    },
+    {
+      "layer_name": "Deep (short external rotators and sciatic nerve)",
+      "what_user_should_know": "Deep to the maximus split, the short external rotators (piriformis most superior, then obturator internus with gemelli) are seen crossing the field superficial to the sciatic nerve. The sciatic nerve is identified on the posterior surface of quadratus femoris. The short ERs are tagged with sutures and detached directly from their insertion on the posterior femur. The obturator internus tendon is used as a cushion to gently retract the sciatic nerve.",
+      "key_structures": [
+        "Piriformis tendon",
+        "Obturator internus tendon + gemelli",
+        "Quadratus femoris (nerve landmark)",
+        "Sciatic nerve (on quadratus femoris)"
+      ],
+      "structures_at_risk": [
+        "Sciatic nerve (stretch, compression, or laceration during ER release or retraction)",
+        "Inferior gluteal artery/nerve (near quadratus femoris)"
+      ],
+      "surgical_relevance": "This is the critical layer for sciatic protection and exposure. Releasing the short ERs from bone (rather than cutting near the nerve) and using obturator internus as a retractor cushion are the key technical points that reduce nerve injury risk.",
+      "source_refs": [
+        "https://www.orthobullets.com/approaches/12023/hip-posterior-approach-moore-or-southern"
+      ]
+    },
+    {
+      "layer_name": "Capsule and joint (posterior capsulotomy, dislocation, exposure)",
+      "what_user_should_know": "The posterior capsule is exposed between the released short rotators. The capsule is incised (often in a T or H fashion) to allow dislocation. The hip is dislocated with flexion, adduction, and internal rotation. After component implantation the hip is reduced and the short ERs plus posterior capsule are repaired as a unit back to the posterior greater trochanter or trochanteric crest using heavy suture through bone.",
+      "key_structures": [
+        "Posterior capsule",
+        "Posterior acetabulum and femoral neck (after dislocation)",
+        "Greater trochanter (repair site for ERs/capsule)"
+      ],
+      "structures_at_risk": [
+        "Sciatic nerve (during reduction or while delivering the proximal femur)",
+        "Posterior stability (if repair is inadequate)"
+      ],
+      "surgical_relevance": "Final exposure for acetabular and femoral preparation. The quality of the short ER + capsule repair directly determines early posterior stability. This layer is unique to the posterior approach and is not performed in anterior or lateral approaches.",
+      "source_refs": [
+        "https://www.orthobullets.com/approaches/12023/hip-posterior-approach-moore-or-southern"
+      ]
+    }
+  ],
+  "structures_at_risk": [
+    {
+      "structure": "Sciatic nerve (peroneal division more vulnerable)",
+      "why_at_risk": "Lies directly on quadratus femoris posterior to the hip joint. Can be stretched, compressed by retractors, or injured during ER release or reduction maneuvers if not identified and protected.",
+      "how_to_avoid_injury": "Identify the nerve on the posterior surface of quadratus femoris before any deep retraction. Maintain hip in extension and knee in flexion to slack the nerve. Use the obturator internus tendon as a cushion for the nerve during retraction. Release short ERs from bone rather than cutting across the nerve.",
+      "consequence_of_injury": "Foot drop, loss of ankle dorsiflexion/eversion, sensory loss on dorsum of foot and lateral leg. Can be temporary neurapraxia or permanent if lacerated or severely stretched.",
+      "approach_context": "Posterior (Moore/Southern) approach - entire deep exposure and dislocation",
+      "source_refs": [
+        "https://www.orthobullets.com/approaches/12023/hip-posterior-approach-moore-or-southern"
+      ]
+    },
+    {
+      "structure": "Short external rotators (piriformis, obturator internus, gemelli)",
+      "why_at_risk": "Detached from posterior femur for exposure. If not repaired or repaired poorly, posterior soft-tissue tension is lost, increasing risk of posterior hip dislocation.",
+      "how_to_avoid_injury": "Tag each tendon with suture before detachment. Detach directly from bone insertion. At closure, repair the tendons (with capsule) back to the posterior greater trochanter or trochanteric crest using heavy non-absorbable suture through bone tunnels or anchors.",
+      "consequence_of_injury": "Early posterior dislocation (especially with flexion/adduction/internal rotation activities). Loss of the posterior soft-tissue envelope that acts as a checkrein against posterior translation.",
+      "approach_context": "Posterior approach - exposure and closure",
+      "source_refs": [
+        "https://www.orthobullets.com/approaches/12023/hip-posterior-approach-moore-or-southern"
+      ]
+    },
+    {
+      "structure": "Inferior gluteal artery / nerve (near quadratus femoris)",
+      "why_at_risk": "Travel in the region of quadratus femoris and can be injured during identification of the sciatic nerve or during release of the inferior short rotators.",
+      "how_to_avoid_injury": "Careful blunt dissection when exposing quadratus femoris. Bipolar cautery for any bleeding in this area rather than blind clamping. Protect the bundle when placing retractors posterior to the femur.",
+      "consequence_of_injury": "Bleeding/hematoma in the posterior compartment; possible compromise of sciatic nerve perfusion if vessel is sacrificed. Nerve injury can affect gluteus maximus function.",
+      "approach_context": "Deep posterior exposure near quadratus femoris",
+      "source_refs": [
+        "https://www.orthobullets.com/approaches/12023/hip-posterior-approach-moore-or-southern"
+      ]
+    },
+    {
+      "structure": "Posterior capsule and external rotator interval",
+      "why_at_risk": "Incised for dislocation. If not repaired, the posterior checkrein against dislocation is lost. The interval between the released rotators must be closed as a unit with the capsule.",
+      "how_to_avoid_injury": "Tag capsule edges at the time of incision. After final reduction, repair capsule edges to each other and to the repaired short external rotators. Use the repaired ERs as the primary posterior stabilizer.",
+      "consequence_of_injury": "Posterior instability and dislocation in the early post-operative period, particularly with positions of flexion >90°, adduction, and internal rotation.",
+      "approach_context": "Posterior approach - capsulotomy and closure",
+      "source_refs": [
+        "https://www.orthobullets.com/approaches/12023/hip-posterior-approach-moore-or-southern"
+      ]
+    }
+  ],
+  "implant_strategy": [],
+  "reduction_or_fluoro_checkpoints": [
+    "AP pelvis and cross-table lateral after reduction to confirm component position, leg length, and offset before final closure (standard for all THA approaches)."
+  ],
+  "pitfalls": [
+    "Failure to identify and protect the sciatic nerve on quadratus femoris before deep retraction or ER release, leading to iatrogenic nerve injury.",
+    "Not repairing (or poorly repairing) the short external rotators and posterior capsule to the greater trochanter, resulting in early posterior dislocation.",
+    "Releasing the short ERs too close to the sciatic nerve or cutting across the nerve while attempting to detach the tendons.",
+    "Excessive or prolonged retraction on the sciatic nerve without hip extension/knee flexion or without using obturator internus as a cushion.",
+    "Placing retractors or hardware in a position that compresses the sciatic nerve or inferior gluteal bundle posterior to the femur."
+  ],
+  "attending_pimp_questions": [
+    "Q: Describe the short external rotators and their role in sciatic nerve protection during the posterior approach. A: Piriformis (most superior), obturator internus with gemelli (inferior). They cross superficial to the sciatic nerve on quadratus femoris. They are detached from the femur for exposure; the obturator internus tendon is used as a cushion to gently retract the nerve. They must be repaired at closure for posterior stability.",
+    "Q: What maneuvers protect the sciatic nerve during posterior THA exposure and dislocation? A: Identify the nerve early on the posterior surface of quadratus femoris. Maintain the hip in extension and the knee in flexion to slack the nerve throughout the case. Use the obturator internus tendon as a retractor cushion. Release the short ERs directly from bone rather than cutting near the nerve.",
+    "Q: Why is repair of the short external rotators and posterior capsule important after posterior THA? A: The repaired rotators and capsule restore the posterior soft-tissue envelope that acts as the primary checkrein against posterior translation. Failure to repair increases the risk of early posterior dislocation, especially with flexion/adduction/internal rotation.",
+    "Q: Where is the inferior gluteal artery/nerve relative to the sciatic nerve in the posterior approach, and why does it matter? A: It travels in the region of quadratus femoris near the sciatic nerve. Injury can cause bleeding/hematoma and may affect sciatic perfusion or gluteus maximus function. Careful blunt dissection and bipolar use near quadratus femoris are required.",
+    "Q: What is the typical direction of hip dislocation in the posterior approach, and how does this relate to the structures at risk? A: Flexion, adduction, and internal rotation. This position tensions the posterior structures and brings the sciatic nerve into the field; the short ERs must be released and the capsule opened to allow safe dislocation without excessive nerve stretch."
+  ],
+  "postop_plan": [
+    "Review the posterior hip approach page (12023) and tha-approaches (12116) focusing on Moore/Southern landmarks, short ER anatomy, and sciatic protection maneuvers.",
+    "Memorize: incision posterior to GT, gluteus maximus split, sciatic on quadratus femoris, hip extension + knee flexion + obturator internus cushion, detach and tag short ERs (piriformis, obturator internus), repair at closure to GT.",
+    "Know the pimp questions on sciatic protection, why repair the rotators, and inferior gluteal relationship.",
+    "Confirm case is planned posterior approach (not anterior or lateral) and review any patient factors (prior surgery, nerve symptoms) that increase sciatic risk.",
+    "Walk through the dislocation maneuver (flex/adduct/IR) and the closure/repair steps that restore posterior stability."
+  ]
+}

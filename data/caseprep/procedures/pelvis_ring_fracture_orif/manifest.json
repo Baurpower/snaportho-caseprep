@@ -1,0 +1,20 @@
+{
+  "slug": "pelvis_ring_fracture_orif",
+  "display_name": "Pelvis Ring Fracture ORIF",
+  "specialty": "trauma",
+  "body_region": "pelvis",
+  "procedure_family": "procedure",
+  "status": "active",
+  "content_status": "certified",
+  "review_status": "certified",
+  "version": "1.0.0",
+  "caseprep_schema_version": "brobot_case_prep_payload_v2",
+  "coverage_score": 100,
+  "runtime_enabled": true,
+  "deprecated": false,
+  "replacement_slug": null,
+  "reviewer": "brobot_migration",
+  "certified_at": "2026-06-06T18:14:05.550775Z",
+  "last_reviewed_at": "2026-06-06T18:14:05.550775Z",
+  "source_payload_hash": "45a1ea9273f330685cb28a82c559dfb595aba647c1a3b2e7aadb0d9a0b9d2610"
+}

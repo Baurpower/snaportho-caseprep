@@ -1,0 +1,20 @@
+{
+  "slug": "femoral_shaft_fracture_orif",
+  "display_name": "Femoral Shaft Fracture ORIF",
+  "specialty": "trauma",
+  "body_region": "femur",
+  "procedure_family": "open_approach",
+  "status": "active",
+  "content_status": "certified",
+  "review_status": "certified",
+  "version": "1.0.0",
+  "caseprep_schema_version": "brobot_case_prep_payload_v2",
+  "coverage_score": 90,
+  "runtime_enabled": true,
+  "deprecated": false,
+  "replacement_slug": null,
+  "reviewer": "brobot_migration",
+  "certified_at": "2026-06-06T18:14:05.550739Z",
+  "last_reviewed_at": "2026-06-06T18:14:05.550739Z",
+  "source_payload_hash": "26257b58f44f366173b82f2e800e2f56542bd8c1bab9beb8189bbdf301e6c07b"
+}

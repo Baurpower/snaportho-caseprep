@@ -1,0 +1,9 @@
+{
+  "namespace": "anatomy_miller_gold_v1",
+  "index": "ankiv3",
+  "record_count": 717,
+  "executed_at": "2026-06-05T23:59:18.521925+00:00",
+  "embedding_model": "text-embedding-3-small",
+  "gold_source": "/Volumes/PS3000/snaportho-caseprep/data/anatomy_miller_gold_v1/anatomy_gold_v1_pinecone_ready.jsonl",
+  "dry_run": false
+}

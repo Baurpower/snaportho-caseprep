@@ -1,0 +1,23 @@
+{
+  "slug": "acdf",
+  "display_name": "Anterior Cervical Discectomy and Fusion (ACDF)",
+  "specialty": "spine",
+  "body_region": "spine",
+  "procedure_family": "uncertain",
+  "status": "active",
+  "content_status": "draft",
+  "review_status": "needs_review",
+  "version": "0.1.0",
+  "caseprep_schema_version": "brobot_case_prep_payload_v2",
+  "coverage_score": 85,
+  "runtime_enabled": false,
+  "deprecated": false,
+  "replacement_slug": null,
+  "reviewer": null,
+  "certified_at": null,
+  "last_reviewed_at": "2026-06-23T03:30:38Z",
+  "source_payload_hash": "",
+  "factory_status": "needs_review",
+  "factory_last_generated_at": "2026-06-23T03:30:38Z",
+  "factory_overall_quality_score": 69.0
+}

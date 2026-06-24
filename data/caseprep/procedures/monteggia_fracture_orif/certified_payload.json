@@ -1,0 +1,189 @@
+{
+  "schema_version": "brobot_case_prep_payload_v2",
+  "procedure_id": "monteggia_fracture_orif",
+  "procedure_name": "Monteggia Fracture ORIF (Ulna + Radial Head Dislocation)",
+  "case_prep_status": "certified",
+  "procedure_overview": "Monteggia fracture-dislocation: ulnar shaft fracture + radial head dislocation (Bado classification; Type I anterior most common). Key principle: anatomic reduction and fixation of the ulna (length and alignment) usually reduces the radial head spontaneously. If radial head remains dislocated or unstable after ulna fixation, open reduction via Kocher lateral interval may be needed. Radius component (if both-bone pattern) uses anterior Henry approach. PIN (posterior interosseous nerve) is the major motor nerve at risk in both Henry (supinator) and Kocher (crosses arcade of Frohse). Superficial radial nerve sensory branch at risk distally in Henry. Landmarks: bicipital tuberosity (biceps insertion), radial styloid, lateral epicondyle.",
+  "must_know_anatomy": [
+    "Monteggia = ulnar fracture + radial head dislocation. Bado Type I (anterior radial head dislocation) is most common in adults and children. Anatomic ulnar reduction (length, rotation, alignment) is the key step that usually reduces the radial head without direct radial head surgery.",
+    "Anterior Henry approach for radius (when radius is fractured or for exposure): superficial interval between brachioradialis (radial n.) and FCR/PT (median n.). Cephalic vein and superficial radial nerve (sensory) are at risk in the distal interval. Deep: pronate the forearm to move the PIN laterally/posteriorly in supinator before incising the supinator mid-belly for plate placement.",
+    "Ulna approach: direct subcutaneous along the posterior ulnar border between ECU (posterior) and FCU (anterior) or just through the subcutaneous fascia. Minimal deep dissection; the ulna is subcutaneous throughout most of its length. Plate on the posterior or lateral surface depending on fracture and soft tissue.",
+    "If radial head requires open reduction (irreducible or unstable after ulna fixation): Kocher interval (anconeus posterior, ECU anterior). The PIN exits the supinator ~1-2 finger breadths distal to the radial head and crosses from anterior to posterior; pronation and careful retraction protect it. Avoid the LCL complex (anterior to the interval) to prevent posterolateral rotatory instability.",
+    "Bicipital tuberosity (radial) and biceps tendon insertion: key landmark for proximal radius exposure and for understanding the deforming force (biceps supinates and flexes the proximal radius fragment). Lateral epicondyle and radial styloid are palpable references for reduction and pin/plate starting points.",
+    "PIN (posterior interosseous nerve = deep branch of radial n.): motor to extensor compartment (finger/thumb extensors, ECU, supinator). At risk in Henry within supinator (arcade of Frohse) and in Kocher as it emerges distal to radial head. Injury causes loss of finger and thumb extension (wrist extension preserved via ECRL which is innervated more proximally)."
+  ],
+  "surgical_approach_anatomy": [],
+  "structures_at_risk": [
+    {
+      "structure": "Posterior interosseous nerve (PIN, deep radial nerve branch in supinator)",
+      "why_at_risk": "In Henry volar radius approach the PIN lies within the supinator; incising the supinator without pronation or identification risks direct injury. In Kocher lateral for radial head, the PIN emerges from supinator ~1-2 finger breadths distal to the radial head and can be compressed by retractors or dissection.",
+      "how_to_avoid_injury": "For Henry: fully pronate the forearm to translate the PIN posteriorly/laterally, then incise supinator in its mid-belly over the plate position. For Kocher: limit distal dissection, use careful retraction, identify the nerve if exposure extends. Document finger/thumb extension pre- and post-op.",
+      "consequence_of_injury": "Loss of finger and thumb metacarpophalangeal extension (finger drop), loss of thumb radial abduction/extension, weak wrist extension with radial deviation (ECRL spared). Major functional deficit for grip and release.",
+      "approach_context": "Anterior Henry (volar radius) for radius component; Kocher lateral if radial head open reduction required",
+      "source_refs": [
+        "https://www.orthobullets.com/approaches/12010/volar-approach-to-radius-henry",
+        "https://www.orthobullets.com/trauma/1024/monteggia-fractures"
+      ]
+    },
+    {
+      "structure": "Superficial radial nerve (sensory branch)",
+      "why_at_risk": "In the distal Henry approach the superficial radial nerve emerges from under brachioradialis and crosses the interval toward the radial styloid; it is vulnerable during skin incision, subcutaneous dissection, or radial styloid exposure.",
+      "how_to_avoid_injury": "Identify the nerve under the brachioradialis fascia in the distal forearm before extending the incision too far distally. Protect with a vessel loop or gentle retraction; do not blindly clamp or cauterize in the subcutaneous plane near the radial styloid.",
+      "consequence_of_injury": "Numbness or painful neuroma on the dorsal radial hand (first web space, dorsal thumb/index/middle proximal phalanges). Can be more symptomatic than motor loss for some patients.",
+      "approach_context": "Distal anterior Henry approach to the radius",
+      "source_refs": [
+        "https://www.orthobullets.com/approaches/12010/volar-approach-to-radius-henry",
+        "https://www.orthobullets.com/trauma/1025/radius-and-ulnar-shaft-fractures"
+      ]
+    },
+    {
+      "structure": "Radial head and lateral collateral ligament complex (for stability after reduction)",
+      "why_at_risk": "The radial head must be reduced and stable after ulnar fixation. If open reduction via Kocher is performed, the LCL (lateral ulnar collateral ligament) lies anterior to the Kocher interval; violating it causes posterolateral rotatory instability (PLRI) of the elbow.",
+      "how_to_avoid_injury": "Reduce and fix the ulna first (length/alignment/rotation) before deciding on radial head surgery. If Kocher is needed, stay posterior to the LCL (anconeus-ECU interval) and do not release the LCL origin from the lateral epicondyle. Confirm radial head concentricity under fluoro after ulna fixation.",
+      "consequence_of_injury": "Recurrent radial head subluxation/dislocation, elbow instability, pain, and limited motion. PLRI from LCL injury is a devastating complication of lateral elbow approaches.",
+      "approach_context": "Monteggia (ulna fixation + conditional radial head open reduction via Kocher)",
+      "source_refs": [
+        "https://www.orthobullets.com/trauma/1024/monteggia-fractures"
+      ]
+    },
+    {
+      "structure": "Biceps tendon insertion and bicipital tuberosity (proximal radius)",
+      "why_at_risk": "The biceps inserts on the bicipital tuberosity (posteromedial radius); in proximal radius or Monteggia patterns the deforming force (biceps) flexes and supinates the proximal fragment. Exposure or plating near the tuberosity risks tendon injury or heterotopic bone.",
+      "how_to_avoid_injury": "Use the bicipital tuberosity as a landmark for fragment control and rotation reference. Protect the biceps tendon during proximal radius exposure; avoid stripping its insertion when placing proximal screws or plates.",
+      "consequence_of_injury": "Loss of supination strength or elbow flexion strength; heterotopic ossification or synostosis risk if the tendon is violated or the space is stripped.",
+      "approach_context": "Proximal radius exposure (Henry or extended) in Monteggia or both-bone patterns",
+      "source_refs": [
+        "https://www.orthobullets.com/trauma/1025/radius-and-ulnar-shaft-fractures",
+        "https://www.orthobullets.com/trauma/1024/monteggia-fractures"
+      ]
+    }
+  ],
+  "key_landmarks": [
+    "Lateral epicondyle (Kocher interval reference and radial head location)",
+    "Bicipital tuberosity (biceps insertion on proximal radius - rotation and deforming force landmark)",
+    "Radial styloid (distal radius reference; superficial radial nerve crosses nearby)",
+    "Olecranon and ulnar subcutaneous border (ulna approach and length reference)",
+    "Radial head (palpable laterally when dislocated; confirm concentricity after ulna fixation on fluoro)"
+  ],
+  "key_intervals": [
+    "Henry volar (anterior radius): between brachioradialis (radial n.) laterally and FCR/pronator teres (median n.) medially. Superficial radial n. and cephalic vein in distal subcutaneous; PIN in supinator deep (pronation protects).",
+    "Ulna direct/subcutaneous: along posterior ulnar border. Interval between ECU (posterior) and FCU (anterior) or simply through subcutaneous tissue and periosteum. Minimal deep neurovascular structures.",
+    "Kocher lateral (radial head when needed): between anconeus (radial n.) posteriorly and ECU (PIN) anteriorly. Protects the LCL if dissection stays posterior; PIN emerges distal to radial head in supinator."
+  ],
+  "reduction_or_implant_anatomy": [
+    "Monteggia principle: anatomic ulnar reduction and stable fixation (length, alignment, rotation) reduces the radial head in the majority of cases. Check radial head stability and concentricity on fluoro (AP, lateral, oblique) after ulna plating before closing or proceeding to open radial head reduction.",
+    "Bado Type I (anterior): most common. Ulna fracture usually apex anterior/proximal; radial head dislocates anteriorly. Reduce ulna first (correct the apex anterior deformity) to allow radial head to reduce.",
+    "If radial head irreducible or unstable after ulna fixation: limited Kocher approach, clear interposed tissue (capsule, annular ligament), reduce head, repair annular ligament or stabilize with transcapitellar pin (temporary) if needed. Avoid LCL injury."
+  ],
+  "arthroscopy_or_portal_anatomy": [],
+  "common_mistakes": [
+    "Focusing on the radial head before achieving anatomic ulnar length and alignment (radial head will often not stay reduced)",
+    "Injury to PIN in supinator during Henry approach (failure to pronate or incise too anteriorly in supinator)",
+    "Superficial radial nerve injury in distal Henry (dorsal radial hand numbness/neuroma)",
+    "Violating the LCL complex during Kocher approach for radial head (resulting in PLRI)",
+    "Missing associated injuries (olecranon fracture, radial head fracture, Essex-Lopresti variant with DRUJ injury)"
+  ],
+  "fluoroscopy_checkpoints": [
+    "AP and lateral elbow/forearm after ulna reduction and provisional fixation: confirm radial head is concentric in the capitellum on all views (no persistent subluxation).",
+    "True lateral of elbow: radial head should be centered on the capitellum; ulna length and bow restored.",
+    "Final plates/screws: confirm no intra-articular penetration at elbow or wrist, proper ulnar rotation (bicipital tuberosity orientation), and radial head stability through full pronation/supination."
+  ],
+  "attending_pimp_questions": [
+    "Q: In Monteggia fracture-dislocation, what is the most important first step to reduce the radial head, and why does ulnar fixation usually suffice? A: Achieve anatomic length, alignment, and rotation of the ulna. The annular ligament and capsule are usually intact enough that restoring ulnar length and the proximal radioulnar relationship reduces the radial head without direct surgery on the radius or elbow.",
+    "Q: During the anterior Henry approach for a radius component in Monteggia or both-bone forearm fracture, what maneuver protects the PIN within the supinator, and what does PIN injury cause? A: Fully pronate the forearm to translate the PIN posteriorly and laterally before incising the supinator mid-belly. PIN injury causes loss of finger and thumb MP extension (finger drop) with preserved wrist extension (ECRL spared).",
+    "Q: If open reduction of the radial head is required after ulnar fixation in a Monteggia, which interval is used and what structure must be protected to avoid posterolateral rotatory instability? A: Kocher interval (anconeus posterior, ECU anterior). Stay posterior to the LCL complex (lateral ulnar collateral ligament); violating the LCL origin from the lateral epicondyle causes PLRI.",
+    "Q: Which sensory nerve is at risk in the distal Henry approach near the radial styloid, and what is the clinical consequence of injury? A: Superficial radial nerve (sensory). Injury causes numbness or painful neuroma on the dorsal radial hand (first web, dorsal thumb/index/middle). Often more symptomatic for patients than motor loss.",
+    "Q: What are the key palpable/fluoro landmarks for Monteggia ORIF and how do they guide reduction and nerve protection? A: Lateral epicondyle (radial head location, Kocher reference), bicipital tuberosity (biceps insertion, proximal radius rotation control), radial styloid (distal radius and superficial radial n. reference). Use them to judge ulnar length/rotation and safe intervals."
+  ],
+  "night_before_review_checklist": [
+    "Review OB Monteggia (1024), both-bone forearm (1023/1025), and Henry volar approach (12010) pages for Bado, ulna-first principle, and PIN protection",
+    "Memorize: reduce/fix ulna first (length/alignment/rotation) before addressing radial head; pronate for Henry supinator work to protect PIN",
+    "Know Kocher interval (anconeus-ECU) only if radial head needs open reduction; protect LCL to avoid PLRI",
+    "Document PIN motor (finger/thumb extension) and superficial radial sensation pre/post-op",
+    "Practice the 5 pimp questions with ulna-first principle, pronation maneuver, and specific nerve consequences",
+    "Confirm associated injuries to rule out (radial head fracture, DRUJ/Essex-Lopresti, olecranon extension)"
+  ],
+  "source_urls": [
+    "https://www.orthobullets.com/trauma/1025/radius-and-ulnar-shaft-fractures",
+    "https://www.orthobullets.com/approaches/12010/volar-approach-to-radius-henry",
+    "https://www.orthobullets.com/trauma/1023/forearm-fractures-both-bone",
+    "https://www.orthobullets.com/trauma/1024/monteggia-fractures"
+  ],
+  "source_confidence": "high",
+  "limitations": [
+    "Anatomy and exposure focused case prep for Monteggia fracture-dislocation ORIF; does not replace full trauma classification (Bado), decision-making for radial head arthroplasty vs ORIF vs excision, or rehab protocols",
+    "Radial head open reduction via Kocher is not routine; most Monteggia radial heads reduce with ulnar fixation alone. Always attempt closed radial head reduction after ulna fixation under fluoro before opening the elbow",
+    "PIN and superficial radial nerve protection details are approach-specific (Henry vs Kocher); document motor and sensory function of the radial nerve branches pre- and post-operatively"
+  ],
+  "anatomy_category": "procedure",
+  "approach_id": "monteggia_trauma",
+  "approach_name": "Monteggia: ulna direct subcutaneous + conditional Henry volar radius or Kocher lateral radial head",
+  "surgical_layers": [
+    {
+      "layer_name": "Ulna direct/subcutaneous approach",
+      "what_user_should_know": "The ulna is subcutaneous along its posterior border from olecranon to ulnar styloid. Incision along the subcutaneous ridge; develop the interval between ECU (posterior) and FCU (anterior) or simply elevate subcutaneous tissue and periosteum. Minimal deep neurovascular risk. Plate can be placed on the posterior or lateral surface depending on fracture pattern and soft-tissue envelope.",
+      "key_structures": [
+        "Ulnar subcutaneous border",
+        "ECU and FCU (interval muscles)",
+        "Olecranon and ulnar styloid (length/rotation references)"
+      ],
+      "structures_at_risk": [
+        "Minimal major nerves/vessels; dorsal cutaneous branch of ulnar nerve distally if incision extends"
+      ],
+      "surgical_relevance": "Primary and most important approach in Monteggia. Anatomic ulnar fixation (length, bow, rotation) is what reduces the radial head. This is a trauma exposure; not a soft-tissue or arthroplasty approach.",
+      "source_refs": [
+        "https://www.orthobullets.com/trauma/1024/monteggia-fractures",
+        "https://www.orthobullets.com/trauma/1025/radius-and-ulnar-shaft-fractures"
+      ]
+    },
+    {
+      "layer_name": "Anterior Henry (volar radius) for radius component or exposure",
+      "what_user_should_know": "Superficial interval: brachioradialis (radial n.) laterally and FCR/PT (median) medially. Cephalic vein and superficial radial nerve in the distal subcutaneous plane. Deep: pronate the forearm to move the PIN posteriorly in the supinator, then incise the supinator mid-belly over the planned plate. Used when the radius is also fractured or for proximal radius control.",
+      "key_structures": [
+        "Bicipital tuberosity (biceps insertion)",
+        "Supinator (contains PIN)",
+        "Superficial radial nerve (distal)",
+        "Brachioradialis / FCR interval"
+      ],
+      "structures_at_risk": [
+        "PIN (in supinator - pronate to protect)",
+        "Superficial radial nerve (distal sensory)",
+        "Cephalic vein"
+      ],
+      "surgical_relevance": "The main anterior forearm approach for radius in both-bone or Monteggia patterns with radius involvement. Pronation is the key maneuver for PIN safety. Distinct from dorsal Thompson approach.",
+      "source_refs": [
+        "https://www.orthobullets.com/approaches/12010/volar-approach-to-radius-henry",
+        "https://www.orthobullets.com/trauma/1025/radius-and-ulnar-shaft-fractures"
+      ]
+    },
+    {
+      "layer_name": "Kocher lateral (radial head open reduction - only if needed after ulna fixation)",
+      "what_user_should_know": "Interval between anconeus (radial n. innervation) posteriorly and ECU (PIN) anteriorly. The radial head is exposed after splitting or elevating the interval. The LCL complex lies anterior to this interval; stay posterior to it. The PIN emerges from supinator just distal to the radial head and must be protected with limited distal dissection and careful retraction.",
+      "key_structures": [
+        "Anconeus and ECU",
+        "Radial head and annular ligament",
+        "LCL complex (anterior to the interval - protect)",
+        "PIN (emerges distal to radial head)"
+      ],
+      "structures_at_risk": [
+        "PIN (motor - finger/thumb extension loss)",
+        "LCL (PLRI if injured)",
+        "Radial head articular surface"
+      ],
+      "surgical_relevance": "Used selectively when the radial head will not reduce or is unstable after anatomic ulnar fixation. Not the default approach. Protecting the LCL is as important as protecting the PIN in this interval.",
+      "source_refs": [
+        "https://www.orthobullets.com/trauma/1024/monteggia-fractures"
+      ]
+    }
+  ],
+  "danger_zones": [
+    "PIN in supinator (Henry) or emerging distal to radial head (Kocher) - pronate for Henry, limit distal dissection and use careful retraction for Kocher; injury = finger/thumb drop",
+    "Superficial radial nerve in distal Henry near radial styloid - identify under brachioradialis; injury = dorsal radial hand numbness/neuroma",
+    "LCL complex anterior to Kocher interval - stay posterior in anconeus-ECU plane; injury = posterolateral rotatory instability (PLRI)",
+    "Failure to restore ulnar length/alignment first - radial head will not reduce or remain stable; leads to chronic dislocation and elbow dysfunction"
+  ],
+  "approach_specific_notes": "Monteggia is a trauma fracture-dislocation exposure. The ulna is addressed via direct subcutaneous posterior approach (primary). The radius (if involved) uses anterior Henry. Radial head open reduction uses Kocher lateral only if the head remains irreducible or unstable after ulnar fixation. This is distinct from elective tendon releases, arthroscopy, or arthroplasty approaches around the elbow/forearm. PIN protection (pronation in Henry, limited distal in Kocher) and LCL protection (Kocher) are the two highest-yield pearls. Do not mix with TKA, distal radius, or other unrelated anatomy.",
+  "validation_warnings": [],
+  "payload_quality_status": "enriched_batch1_monteggia",
+  "source_status": "source_backed_ob1024_1025_1023_12010"
+}

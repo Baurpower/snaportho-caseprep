@@ -1,0 +1,176 @@
+{
+  "schema_version": "brobot_case_prep_payload_v2",
+  "procedure_id": "tha_anterior",
+  "procedure_name": "Total Hip Arthroplasty (Direct Anterior Approach)",
+  "case_prep_status": "certified",
+  "procedure_overview": "Direct Anterior (Smith-Petersen/Hueter) approach for total hip arthroplasty. Internervous/intermuscular plane between TFL (superior gluteal n.) laterally and sartorius (femoral n.) medially. Key structures: LFCN (often in or superficial to interval), ascending branch of lateral femoral circumflex artery (crosses interval distal to ASIS), rectus femoris (femoral n.), anterior hip capsule. Exposure of femoral neck and acetabulum through this plane without violating abductors or short external rotators. Extend distally along TFL as needed.",
+  "must_know_anatomy": [
+    "Direct anterior interval: TFL (superior gluteal innervation, retract lateral) and sartorius (femoral n., retract medial). LFCN typically lies in the fascia or just medial in the interval and is at risk during superficial dissection.",
+    "Ascending branch of lateral femoral circumflex artery crosses the interval ~5-8 cm distal to ASIS; must be identified, coagulated or ligated to prevent bleeding during deep exposure and capsulotomy.",
+    "Deep to the interval: develop plane along rectus femoris (femoral n. innervated) medially or release its origin/reflected head as needed for femoral and acetabular exposure. Anterior capsule is directly accessible for arthrotomy.",
+    "Femoral nerve and vessels lie medial to sartorius; excessive or prolonged medial retraction (especially with hip flexion or during acetabular reaming) risks neuropraxia or vascular injury.",
+    "Key landmarks: ASIS (incision start ~2-3 cm lateral/distal), TFL (lateral boundary), sartorius (medial boundary), anterior superior capsule and femoral neck."
+  ],
+  "surgical_approach_anatomy": [
+    "Skin incision ~2-3 cm lateral and distal to ASIS, extending 8-12 cm along anterior border of TFL. Superficial interval between TFL (sup. gluteal) and sartorius (femoral). Protect LFCN early in fascia.",
+    "Deep: develop TFL-sartorius interval, control ascending LFCA branches that cross ~5-8 cm distal to ASIS. Release rectus origin or reflected head as needed for acetabular exposure. Anterior capsulectomy or capsulotomy for joint access. No abductor split or ER release is performed.",
+    "Closure: repair capsule if possible, close fascia and skin. Capsule repair is anterior-only; no structures from other approaches are involved. Leg length and stability assessed with trial components before final implantation."
+  ],
+  "structures_at_risk": [
+    {
+      "structure": "Lateral femoral cutaneous nerve (LFCN)",
+      "why_at_risk": "Courses in or immediately adjacent to the TFL-sartorius interval; vulnerable to direct transection during skin/fascial incision, or stretch from retraction.",
+      "how_to_avoid_injury": "Identify the nerve in the superficial fascia or interval early (often 1-2 cm medial to TFL border). Protect by retracting sartorius medially or TFL laterally with the nerve. Avoid blind cautery in the interval.",
+      "consequence_of_injury": "Anterolateral thigh numbness, painful neuroma, or dysesthesia. Usually tolerable but can be distressing for patients; sometimes permanent.",
+      "approach_context": "Direct anterior (Smith-Petersen/Hueter) THA",
+      "source_refs": [
+        "https://www.orthobullets.com/recon/12116/tha-approaches"
+      ]
+    },
+    {
+      "structure": "Ascending branch of lateral femoral circumflex artery (LFCA)",
+      "why_at_risk": "Crosses the TFL-sartorius interval transversely a few centimeters distal to the ASIS in the deep fascia or on the capsule. Uncontrolled bleeding obscures the field.",
+      "how_to_avoid_injury": "Identify and ligate or coagulate the vessel(s) before they retract into the capsule or muscle. Have clips/sutures ready before deep capsular work.",
+      "consequence_of_injury": "Obscured visualization, increased blood loss, possible hematoma. Rarely major vascular compromise but can lead to revision for bleeding or infection risk.",
+      "approach_context": "Direct anterior approach deep dissection and capsulotomy",
+      "source_refs": [
+        "https://www.orthobullets.com/recon/12116/tha-approaches"
+      ]
+    },
+    {
+      "structure": "Femoral nerve and vessels (femoral bundle)",
+      "why_at_risk": "Lie medial to the sartorius; excessive or prolonged medial retraction (especially with hip flexion or during acetabular reaming) can cause neuropraxia or vascular injury.",
+      "how_to_avoid_injury": "Limit duration and force of medial retraction. Use careful retractor placement (Hohmann or pointed retractors on the anterior column under direct vision). Monitor quadriceps function post-op if retraction was heavy.",
+      "consequence_of_injury": "Quadriceps weakness or foot drop (femoral n.), vascular injury requiring repair, or compartment syndrome from hematoma. Usually neuropraxia resolves but can be permanent.",
+      "approach_context": "Direct anterior THA medial retraction and acetabular preparation",
+      "source_refs": [
+        "https://www.orthobullets.com/recon/12116/tha-approaches"
+      ]
+    },
+    {
+      "structure": "Anterior capsule and rectus femoris origin",
+      "why_at_risk": "Directly exposed and often partially released or excised for acetabular access; over-release can affect hip flexion strength temporarily.",
+      "how_to_avoid_injury": "Perform controlled anterior capsulectomy or H-shaped capsulotomy. Tag rectus if released for later repair if desired. Avoid excessive medial dissection into iliopsoas.",
+      "consequence_of_injury": "Transient hip flexion weakness, instability if capsule not managed, or iliopsoas irritation. Rare permanent deficit.",
+      "approach_context": "Direct anterior capsular exposure for THA",
+      "source_refs": [
+        "https://www.orthobullets.com/recon/12116/tha-approaches"
+      ]
+    }
+  ],
+  "key_landmarks": [
+    "ASIS (incision reference ~2-3 cm lateral/distal)",
+    "TFL (lateral boundary of interval)",
+    "Sartorius (medial boundary, origin at ASIS)",
+    "Anterior superior capsule and femoral neck (deep target)",
+    "Ascending LFCA crossing (5-8 cm distal to ASIS)"
+  ],
+  "key_intervals": [
+    "Superficial: skin and subcutaneous fat over the TFL-sartorius interval; LFCN identified in fascia.",
+    "Deep muscular interval: TFL retracted laterally, sartorius medially; ascending LFCA branches crossing the field are controlled.",
+    "Capsular plane: anterior capsule exposed between or under rectus femoris; anterior capsulectomy or H-shaped capsulotomy for arthroplasty access."
+  ],
+  "reduction_or_implant_anatomy": [],
+  "arthroscopy_or_portal_anatomy": [],
+  "common_mistakes": [
+    "Injury to LFCN from failure to identify/protect in the superficial interval (anterolateral thigh numbness or neuroma).",
+    "Uncontrolled bleeding from ascending LFCA branches obscuring capsule and joint during capsulotomy.",
+    "Excessive or prolonged medial retraction causing femoral neuropraxia or vascular compromise.",
+    "Over-release of rectus origin affecting hip flexion strength or stability.",
+    "Inadequate capsule management leading to instability or excessive post-op precautions."
+  ],
+  "fluoroscopy_checkpoints": [],
+  "attending_pimp_questions": [
+    "Q: What is the internervous/intermuscular plane for the direct anterior hip approach and which nerves define it? A: Between TFL (superior gluteal n., retract lateral) and sartorius (femoral n., retract medial). LFCN is at risk in the interval.",
+    "Q: Where and why is the ascending branch of the lateral femoral circumflex artery encountered in direct anterior THA, and what is the consequence of missing it? A: Crosses the TFL-sartorius interval ~5-8 cm distal to ASIS. Uncontrolled bleeding obscures the capsule and joint; ligate early.",
+    "Q: How is the femoral nerve/vessel bundle protected during direct anterior exposure and acetabular work? A: Limit duration and force of medial retraction (sartorius side). Use careful retractor placement under direct vision. Monitor quad function post-op.",
+    "Q: What are the key steps of the direct anterior approach for THA and the primary structures at risk in each layer? A: Superficial: protect LFCN in TFL-sartorius interval. Deep: control ascending LFCA. Deep: anterior capsule exposure and capsulectomy. Risks: LFCN, LFCA, femoral bundle.",
+    "Q: Why is the direct anterior approach considered muscle-sparing for THA and what are the trade-offs? A: No abductor violation or anterior-only ER release. Trade-offs: LFCN risk, limited extensibility anterior-onlyly, steep learning curve for femoral preparation."
+  ],
+  "night_before_review_checklist": [
+    "Review the tha-approaches page (12116) focusing on the anterior/DA section and interval descriptions",
+    "Memorize: TFL-sartorius plane, LFCN protection, coagulate ascending LFCA, rectus plane to capsule, femoral bundle medial",
+    "Know extension options and landmarks (ASIS, TFL, rectus origin at AIIS)",
+    "Review consequence of LFCN injury (anterolateral thigh numbness) and femoral n. stretch (quad weakness)",
+    "Practice the 5 pimp questions emphasizing how DA differs from Hardinge/posterior (no abductor or ER violation)",
+    "Confirm case is planned direct anterior (not posterior or lateral) and any patient factors (e.g., body habitus, prior surgery) affecting exposure"
+  ],
+  "source_urls": [
+    "https://www.orthobullets.com/recon/12116/tha-approaches"
+  ],
+  "source_confidence": "medium",
+  "limitations": [
+    "Anatomy-focused case prep for direct anterior THA only; does not replace full surgical technique, implant-specific details, or attending preferences for capsulotomy/repair or femoral preparation",
+    "Dedicated direct anterior module content in current project artifacts is limited and was previously mixed with posterior, Hardinge, and Perthes material; enrichment uses only supported anterior interval descriptions from tha-approaches and shared hip texts"
+  ],
+  "anatomy_category": "arthroplasty_approach",
+  "approach_id": "direct_anterior_hip",
+  "approach_name": "Direct Anterior (Smith-Petersen / Hueter) approach to the hip for THA",
+  "surgical_layers": [
+    {
+      "layer_name": "Superficial interval (skin to TFL-sartorius fascia)",
+      "what_user_should_know": "Incision begins ~2-3 cm lateral and distal to ASIS and extends ~8-12 cm along the anterior border of TFL. Identify and protect the LFCN in the subcutaneous tissue or fascia before splitting the interval.",
+      "key_structures": [
+        "ASIS",
+        "TFL muscle belly (lateral)",
+        "Sartorius (medial)",
+        "LFCN in interval fascia"
+      ],
+      "structures_at_risk": [
+        "Lateral femoral cutaneous nerve (LFCN)"
+      ],
+      "surgical_relevance": "Standard direct anterior approach for THA. The internervous plane is between TFL (superior gluteal) and sartorius (femoral). LFCN protection is the first critical step.",
+      "source_refs": [
+        "https://www.orthobullets.com/recon/12116/tha-approaches"
+      ]
+    },
+    {
+      "layer_name": "Deep muscular interval and vessel control (LFCA)",
+      "what_user_should_know": "Develop the plane between TFL (lateral) and sartorius (medial). The ascending branch of the LFCA crosses the interval ~5-8 cm distal to ASIS. Identify, ligate or coagulate before it retracts. Rectus femoris origin or reflected head may be released for acetabular exposure.",
+      "key_structures": [
+        "TFL-sartorius interval",
+        "Ascending LFCA branches",
+        "Rectus femoris (reflected head)",
+        "Anterior capsule"
+      ],
+      "structures_at_risk": [
+        "Ascending LFCA (bleeding)",
+        "Femoral nerve/vessels (medial retraction)"
+      ],
+      "surgical_relevance": "Gives direct access to the anterior capsule and femoral neck without violating abductors. Vessel control prevents obscuring the field during capsulotomy.",
+      "source_refs": [
+        "https://www.orthobullets.com/recon/12116/tha-approaches"
+      ]
+    },
+    {
+      "layer_name": "Capsular exposure and joint access",
+      "what_user_should_know": "Anterior capsule is exposed between or beneath the rectus. Perform anterior capsulectomy or capsulotomy (H-shaped or flap) for head dislocation and acetabular/femoral preparation. Protect medial structures with careful retraction.",
+      "key_structures": [
+        "Anterior capsule",
+        "Femoral neck/head",
+        "Acetabulum (anterior column)",
+        "Rectus femoris (if released)"
+      ],
+      "structures_at_risk": [
+        "Femoral bundle (medial)",
+        "Anterior capsule integrity (for repair)"
+      ],
+      "surgical_relevance": "The working layer for THA. No anterior-only structures or abductors are violated. Capsule management affects stability and post-op precautions.",
+      "source_refs": [
+        "https://www.orthobullets.com/recon/12116/tha-approaches"
+      ]
+    }
+  ],
+  "danger_zones": [
+    "LFCN in superficial TFL-sartorius interval - identify early, protect with sartorius medially or TFL laterally; injury causes anterolateral thigh numbness/neuroma.",
+    "Ascending LFCA crossing the interval - identify and control before it retracts and bleeds into the field, obscuring capsule.",
+    "Femoral nerve/vessels with medial retraction (sartorius side) - limit force/duration especially during acetabular reaming; risk of quad weakness or vascular injury.",
+    "Anterior capsule and rectus - controlled release for exposure; over-release affects flexion strength or stability."
+  ],
+  "approach_specific_notes": "Strictly direct anterior (Smith-Petersen/Hueter) approach for THA. Internervous plane TFL (sup. gluteal) / sartorius (femoral). Key risks: LFCN in/superficial to interval, ascending LFCA crossing distal to ASIS, femoral bundle with medial retraction. No abductor violation or anterior-only ERs. All educational content is anterior-only.",
+  "validation_warnings": [
+    "This payload is for direct anterior (Smith-Petersen/Hueter) THA only. Content is restricted to anterior interval facts (TFL/sartorius, LFCN, LFCA, rectus, anterior capsule) from available tha-approaches and hip module snippets. No Hardinge, anterior-only, or other approach anatomy is included. Further dedicated direct anterior source extraction is recommended for complete distances and technique pearls."
+  ],
+  "payload_quality_status": "cleaned_batch1_da_only",
+  "source_status": "source_backed_12116_da"
+}

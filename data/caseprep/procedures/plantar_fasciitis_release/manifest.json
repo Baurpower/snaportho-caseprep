@@ -1,0 +1,20 @@
+{
+  "slug": "plantar_fasciitis_release",
+  "display_name": "Plantar Fasciitis Release",
+  "specialty": "foot_ankle",
+  "body_region": "foot",
+  "procedure_family": "procedure",
+  "status": "active",
+  "content_status": "certified",
+  "review_status": "certified",
+  "version": "1.0.0",
+  "caseprep_schema_version": "brobot_case_prep_payload_v2",
+  "coverage_score": 90,
+  "runtime_enabled": true,
+  "deprecated": false,
+  "replacement_slug": null,
+  "reviewer": "brobot_migration",
+  "certified_at": "2026-06-06T18:14:05.550827Z",
+  "last_reviewed_at": "2026-06-06T18:14:05.550827Z",
+  "source_payload_hash": "861d3cba9d2707f89ae51ca0e15dc1bbd1ecfac2f008155f97d328dd8f103f9e"
+}

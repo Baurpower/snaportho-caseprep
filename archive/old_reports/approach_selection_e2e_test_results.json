@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-06-06T01:01:15.263087+00:00",
+  "results": [
+    {
+      "case": "bimalleolar ankle fracture ORIF",
+      "selected_approaches": [],
+      "router_family": "ankle_fracture_orif",
+      "selectionMode": "deterministic_router",
+      "blocked_by_router": [
+        "approach_lower_ext_ankle_anterior"
+      ],
+      "validation_removed": [],
+      "bad_approaches": [],
+      "has_miller_sources": true,
+      "pass": true
+    },
+    {
+      "case": "trimalleolar ankle fracture ORIF posterior malleolus",
+      "selected_approaches": [],
+      "router_family": "ankle_fracture_orif",
+      "selectionMode": "deterministic_router",
+      "blocked_by_router": [
+        "approach_lower_ext_ankle_anterior"
+      ],
+      "validation_removed": [],
+      "bad_approaches": [],
+      "has_miller_sources": true,
+      "pass": true
+    },
+    {
+      "case": "distal radius fracture ORIF",
+      "selected_approaches": [],
+      "router_family": "distal_radius_orif",
+      "selectionMode": "deterministic_router",
+      "blocked_by_router": [],
+      "validation_removed": [],
+      "bad_approaches": [],
+      "has_miller_sources": true,
+      "pass": true
+    },
+    {
+      "case": "posterior total hip arthroplasty",
+      "selected_approaches": [],
+      "router_family": "posterior_tha",
+      "selectionMode": "deterministic_router",
+      "blocked_by_router": [],
+      "validation_removed": [],
+      "bad_approaches": [],
+      "has_miller_sources": true,
+      "pass": true
+    }
+  ]
+}

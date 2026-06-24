@@ -1,0 +1,105 @@
+{
+  "summary": {
+    "total": 9,
+    "passed": 9,
+    "failed": 0
+  },
+  "results": [
+    {
+      "timestamp": "2026-06-06T03:56:15.243384+00:00",
+      "case": "tibial shaft fracture ORIF",
+      "scenario": "A_unsupported_tibial",
+      "ok": true,
+      "details": {
+        "supported_from_gate": false,
+        "mode": "not_run_unsupported_case",
+        "approach_null": true
+      }
+    },
+    {
+      "timestamp": "2026-06-06T03:56:15.244745+00:00",
+      "case": "random ankle pain after soccer",
+      "scenario": "A_unsupported_random",
+      "ok": true,
+      "details": {
+        "supported_from_gate": false,
+        "mode": "not_run_unsupported_case",
+        "approach_null": true
+      }
+    },
+    {
+      "timestamp": "2026-06-06T03:56:15.245954+00:00",
+      "case": "forearm pain no fracture",
+      "scenario": "A_unsupported_forearm",
+      "ok": true,
+      "details": {
+        "supported_from_gate": false,
+        "mode": "not_run_unsupported_case",
+        "approach_null": true
+      }
+    },
+    {
+      "timestamp": "2026-06-06T03:56:15.247386+00:00",
+      "case": "distal radius fracture ORIF",
+      "scenario": "B_supported_distal",
+      "ok": true,
+      "details": {
+        "supported_from_gate": true,
+        "mode": "miller_gold_local",
+        "has_approach": true
+      }
+    },
+    {
+      "timestamp": "2026-06-06T03:56:15.248954+00:00",
+      "case": "carpal tunnel release",
+      "scenario": "B_supported_carpal",
+      "ok": true,
+      "details": {
+        "supported_from_gate": true,
+        "mode": "miller_gold_local",
+        "has_approach": true
+      }
+    },
+    {
+      "timestamp": "2026-06-06T03:56:15.250480+00:00",
+      "case": "posterior THA",
+      "scenario": "B_supported_tha",
+      "ok": true,
+      "details": {
+        "supported_from_gate": true,
+        "mode": "miller_gold_local",
+        "has_approach": true
+      }
+    },
+    {
+      "timestamp": "2026-06-06T03:56:15.251533+00:00",
+      "case": "bimalleolar ankle fracture ORIF",
+      "scenario": "C_gap_bimalleolar",
+      "ok": true,
+      "details": {
+        "supported": false,
+        "reason": "manual_review (catalog gap or pending review per playbook)",
+        "mode": "not_run_unsupported_case"
+      }
+    },
+    {
+      "timestamp": "2026-06-06T03:56:15.252930+00:00",
+      "case": "tibial shaft fracture ORIF",
+      "scenario": "D_debug_override_miller",
+      "ok": true,
+      "details": {
+        "mode": "miller_gold_local"
+      }
+    },
+    {
+      "timestamp": "2026-06-06T03:56:15.254876+00:00",
+      "case": "tibial shaft fracture ORIF",
+      "scenario": "E_caseprep_unsupported",
+      "ok": true,
+      "details": {
+        "has_pimp": true,
+        "anatomy_mode": "not_run_unsupported_case"
+      }
+    }
+  ]
+}

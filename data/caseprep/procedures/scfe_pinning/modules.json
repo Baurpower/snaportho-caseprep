@@ -1,0 +1,132 @@
+{
+  "indications": [],
+  "setup_positioning": [
+    "SCFE in situ percutaneous pinning (or open Modified Dunn for severe deformity). Key anatomy centers on the proximal femoral physis (weak point, posteroinferior slip), retinacular blood supply to the epiphysis (AVN risk), and precise fluoroscopically guided screw trajectory from anterior proximal femur across physis into epiphysis center. Must achieve 5+ threads across physis and confirm no joint penetration on true lateral view. High stakes in unstable slips; gentle handling and accurate pin placement protect the remaining blood supply.",
+    "SCFE: epiphysis typically slips posteroinferior relative to metaphysis. Assessed by Klein line on AP (superior neck line should intersect epiphysis) and Southwick angle on lateral. Unstable growth plate from shear overload.",
+    "Primary femoral head blood supply via retinacular branches of the medial femoral circumflex artery; at highest risk for AVN in unstable slips, forceful manipulation, or iatrogenic pin injury. Capsule and physis also relevant.",
+    "Percutaneous in situ fixation (stable or unstable): single cannulated screw (or 2 for unstable) from anterior proximal femur (starting point on lateral view), trajectory perpendicular or slightly oblique to physis, center-center on AP and true lateral fluoro. Avoid anterior superior penetration.",
+    "Advance screw until at least 5 threads cross the physis (<5 increases progression risk). Screw tip should end ~5 mm from subchondral bone. Use approach-withdraw technique on fluoro to confirm position.",
+    "Modified Dunn (surgical hip dislocation/open realignment): indicated for severe/unstable slips needing correction (Ganz technique: lateral decubitus, straight lateral incision, gluteus maximus split, trochanteric flip, develop retinacular flap to protect blood supply during open reduction).",
+    "High-risk patients (age <10, obese male, endocrine disorders) warrant consideration of contralateral prophylactic pinning due to high incidence of bilateral disease.",
+    "Fluoroscopy is the primary 'approach' tool: AP pelvis/hip + true lateral (or frog-lateral equivalent) mandatory before committing to final pin position and length."
+  ],
+  "approach_landmarks": [
+    "Greater trochanter (starting point reference on lateral fluoro)",
+    "Klein line (AP fluoro: superior neck line intersecting epiphysis confirms no slip or reduction)",
+    "Physis (target for thread purchase on AP and lateral views)",
+    "Anterior proximal femoral cortex (starting point for screw on true lateral view)",
+    "Center of epiphysis (final screw position goal on both orthogonal views)"
+  ],
+  "surgical_layers": [
+    {
+      "layer_name": "Percutaneous access (in situ pinning)",
+      "what_user_should_know": "Small incision on proximal lateral thigh directly over planned starting point. Split IT band and vastus lateralis fascia in line with fibers to reach bone. No major internervous plane; minimal soft-tissue dissection required for percutaneous screw placement.",
+      "key_structures": [
+        "IT band",
+        "Vastus lateralis fascia",
+        "Anterior proximal femoral cortex (starting point)"
+      ],
+      "structures_at_risk": [
+        "Variable branches of lateral femoral cutaneous nerve",
+        "Minor perforating vessels"
+      ],
+      "surgical_relevance": "Direct access for guidewire and cannulated screw placement under fluoro. Avoid excessive stripping or posterior starting point.",
+      "source_refs": [
+        "https://www.orthobullets.com/pediatrics/4040/slipped-capital-femoral-epiphysis-scfe"
+      ]
+    },
+    {
+      "layer_name": "Open surgical dislocation (Modified Dunn variant)",
+      "what_user_should_know": "Lateral decubitus, straight lateral incision, split gluteus maximus, trochanteric flip osteotomy (digastric), develop interval between piriformis and gluteus minimus/medius to create retinacular flap. Hip extended and knee flexed to relax sciatic nerve during exposure and reduction.",
+      "key_structures": [
+        "Greater trochanter (flip)",
+        "Short external rotators (protect or release carefully)",
+        "Retinacular vessels (preserve in flap)",
+        "Capsule (Z-shaped or controlled capsulotomy)"
+      ],
+      "structures_at_risk": [
+        "Retinacular blood supply (AVN if injured)",
+        "Sciatic nerve (position hip/knee to slack)",
+        "Medial femoral circumflex artery terminal branches"
+      ],
+      "surgical_relevance": "Allows open reduction and realignment of severe slips while protecting the critical blood supply to the epiphysis. Different from standard adult posterior approach THA or trauma exposures.",
+      "source_refs": [
+        "https://www.orthobullets.com/pediatrics/4040/slipped-capital-femoral-epiphysis-scfe"
+      ]
+    }
+  ],
+  "structures_at_risk": [
+    {
+      "structure": "Femoral head retinacular vessels (branches of medial femoral circumflex artery)",
+      "why_at_risk": "Unstable slips disrupt the physis and may already compromise perfusion; additional risk from aggressive closed reduction, pin penetration into head, or open surgery without vessel protection.",
+      "how_to_avoid_injury": "For unstable SCFE prefer in situ pinning without forceful reduction. Confirm pin trajectory on true lateral to avoid anterior superior head penetration. For open Modified Dunn, use careful retinacular flap technique (Ganz) with hip extended/knee flexed to relax sciatic and protect vessels.",
+      "consequence_of_injury": "AVN of the femoral epiphysis leading to collapse, deformity, and premature arthritis in a child or adolescent.",
+      "approach_context": "Primarily percutaneous in situ pinning; open surgical dislocation for Modified Dunn variant",
+      "source_refs": [
+        "https://www.orthobullets.com/pediatrics/4040/slipped-capital-femoral-epiphysis-scfe"
+      ]
+    },
+    {
+      "structure": "Proximal femoral physis (growth plate)",
+      "why_at_risk": "The physis is the mechanical weak point in SCFE; further displacement can occur with manipulation or inadequate fixation. Iatrogenic damage during pinning affects future growth.",
+      "how_to_avoid_injury": "Use gentle positioning and traction. Achieve stable fixation with adequate thread purchase (5+ threads across physis). Avoid multiple passes or large diameter reaming across the physis.",
+      "consequence_of_injury": "Acute slip progression, loss of reduction, premature physeal closure, leg length discrepancy or angular deformity.",
+      "approach_context": "Percutaneous pinning and open realignment",
+      "source_refs": [
+        "https://www.orthobullets.com/pediatrics/4040/slipped-capital-femoral-epiphysis-scfe"
+      ]
+    },
+    {
+      "structure": "Articular cartilage of femoral head (and acetabulum)",
+      "why_at_risk": "Pin penetration through the articular surface (especially anterior superior) or prominent hardware causes mechanical abrasion and chemical chondrolysis.",
+      "how_to_avoid_injury": "Center-center trajectory on both AP and true lateral fluoro views. Confirm screw tip is 5 mm short of subchondral bone and does not breach on any view. Use approach-withdraw to verify.",
+      "consequence_of_injury": "Chondrolysis: rapid joint space narrowing, pain, stiffness, and early degenerative change in the pediatric hip.",
+      "approach_context": "Percutaneous in situ pinning (primary risk); also relevant in open procedures",
+      "source_refs": [
+        "https://www.orthobullets.com/pediatrics/4040/slipped-capital-femoral-epiphysis-scfe"
+      ]
+    },
+    {
+      "structure": "Lateral structures at starting point (IT band, vastus lateralis, cutaneous nerves)",
+      "why_at_risk": "Limited percutaneous incision on proximal lateral thigh; variable branches of lateral femoral cutaneous nerve or perforators can be injured during access or retraction.",
+      "how_to_avoid_injury": "Small incision directly over the planned starting point (anterior on lateral fluoro). Split fascia in line; minimal retraction. For open Modified Dunn use the full surgical dislocation interval.",
+      "consequence_of_injury": "Numbness, neuroma, or minor bleeding; rarely clinically limiting but avoidable with careful portal placement.",
+      "approach_context": "Percutaneous pinning access; open variant uses trochanteric flip interval",
+      "source_refs": [
+        "https://www.orthobullets.com/pediatrics/4040/slipped-capital-femoral-epiphysis-scfe"
+      ]
+    }
+  ],
+  "implant_strategy": [
+    "SCFE: post/inf epiphysis slip on metaphysis. Southwick angle, Klein line. Pinning: perc, center-center AP/lat fluoro (avoid ant sup pin penetration/chondrolysis). Start lat prox femur, traj ant to post/inf.",
+    "Percutaneous in situ fixation: single cannulated screw (or 2 for unstable) perpendicular or slightly oblique to physis from anterior proximal femur. Advance until 5 threads cross physis (<5 increases progression risk). Screw tip ~5 mm from subchondral.",
+    "Modified Dunn open realignment for severe/unstable slips: surgical hip dislocation with trochanteric flip and retinacular vessel protection (Ganz technique)."
+  ],
+  "reduction_or_fluoro_checkpoints": [
+    "AP pelvis/hip: confirm Klein line intersects epiphysis (or post-reduction), assess slip angle, plan starting point and trajectory.",
+    "True lateral (or cross-table equivalent): confirm starting point is anterior on proximal femur, trajectory crosses physis center-center, no anterior or posterior penetration of head.",
+    "Final AP + lateral after provisional pin: verify 5+ threads across physis, tip 5 mm from subchondral bone, no joint penetration, and adequate purchase before advancing to final screw."
+  ],
+  "pitfalls": [
+    "Inadequate true lateral fluoro confirmation leading to anterior superior pin penetration and chondrolysis",
+    "Fewer than 5 threads across physis resulting in slip progression or loss of fixation",
+    "Aggressive closed reduction of unstable SCFE causing further retinacular vessel injury and AVN",
+    "Starting point too posterior or trajectory errors from misinterpreting AP view alone",
+    "Failure to consider contralateral prophylactic pinning in high-risk young patients"
+  ],
+  "attending_pimp_questions": [
+    "Q: In SCFE, the epiphysis typically slips in which direction relative to the metaphysis, and why does this dictate the pin starting point? A: Posteroinferior. This requires an anterior proximal femoral starting point (on lateral view) with trajectory directed posteriorly and inferiorly to reach the center of the slipped epiphysis.",
+    "Q: How many threads of the cannulated screw must cross the physis and what happens with fewer? A: At least 5 threads. Fewer than 5 significantly increases the risk of continued slip progression or loss of fixation.",
+    "Q: What is the primary blood supply at risk in SCFE pinning and which technical error most threatens it? A: Retinacular branches of the medial femoral circumflex artery. Anterior superior pin penetration into the head or aggressive reduction in unstable slips can disrupt the remaining supply leading to AVN.",
+    "Q: Why is the true lateral fluoroscopic view non-negotiable during SCFE pinning? A: It is the only view that reliably confirms the pin has not penetrated the anterior superior articular cartilage (chondrolysis) and that the trajectory is center-center in the epiphysis. AP view alone is insufficient.",
+    "Q: When is open Modified Dunn realignment preferred over in situ percutaneous pinning? A: For severe slips with unacceptable deformity where in situ pinning would leave the head in a poor position. Requires surgical dislocation, trochanteric flip, and careful retinacular flap mobilization to protect blood supply during open reduction (typically when physis is closed or near closed)."
+  ],
+  "postop_plan": [
+    "Review the OB SCFE page (4040) and linked reduction/fluoro modules for trajectory and thread count details",
+    "Memorize: 5+ threads across physis, center-center on AP + true lateral, 5 mm short of subchondral, avoid ant-sup penetration",
+    "Know the difference in management and risk for stable vs unstable SCFE",
+    "Review indications and technique pearls for Modified Dunn (retinacular protection)",
+    "Confirm high-risk criteria for contralateral prophylactic pinning",
+    "Practice the 5 pimp questions with concise answers and consequence/avoidance language"
+  ]
+}

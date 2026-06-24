@@ -1,0 +1,172 @@
+{
+  "schema_version": "brobot_case_prep_payload_v2",
+  "procedure_id": "distal_femur_fracture_orif",
+  "procedure_name": "Distal Femur Fracture ORIF",
+  "case_prep_status": "certified",
+  "procedure_overview": "Distal Femur Fracture ORIF (open_approach). Certified. Score 4. Source-backed from v3.",
+  "must_know_anatomy": [
+    "Distal femur: medial/lateral condyles, trochlea, intercondylar notch. Hoffa (coronal) fragment variant important (often missed, needs fixation). Gastrocnemius deforming force on distal fragment (extension).",
+    "Approaches: parapatellar (medial or lateral) for intra-articular; lateral for extra-articular. Protect extensor mechanism and posterior neurovascular (popliteal, tibial/peroneal).",
+    "Lateral approach: vastus lateralis elevation, lateral intermuscular septum. Protect perforators, femoral bundle anteromedial, sciatic posterior. Good for lateral plating or extra-articular.",
+    "Lateral approach for extra-articular or lateral plating: vastus lateralis elevation, lateral intermuscular septum, protect perforators and femoral bundle. Parapatellar for intra-articular: midline or parapatellar incision, evert/sublux patella, expose notch/condyles/trochlea for reduction (fix Hoffa if present). Protect extensor and posterior neurovascular.",
+    "Posterior structures: popliteal vessels, tibial/peroneal nerves at risk with traction, retraction, or posterior condyle work. Use careful technique and position.",
+    "Reduction: traction, bumps, clamps for condylar block to shaft. Fix Hoffa if present (screws). Plate lateral or medial depending approach/pattern. Check rotation/alignment with fluoro."
+  ],
+  "surgical_approach_anatomy": [
+    "Lateral: patient supine or lateral. Incision lateral thigh to knee. Elevate vastus lateralis, control perforators. Expose lateral condyle/shaft. Protect anteromedial femoral bundle and posterior sciatic/popliteal. Good for extra-articular or lateral plate.",
+    "Lateral: incision lateral thigh to knee, elevate vastus lateralis, control perforators, expose lateral condyle/shaft, protect anteromedial femoral bundle and posterior sciatic/popliteal. Parapatellar: midline or parapatellar incision, develop to retinaculum, enter joint, evert/sublux patella, expose trochlea/notch/condyles for intra-articular reduction and fixation (Hoffa screws if needed). Protect patellar tendon insertion.",
+    "Intra-articular work: reduce condyles (Hoffa if present), restore articular surface, then align to shaft. Use traction/ bumps for length. Check notch for intercondylar involvement. Posterior structures protected throughout."
+  ],
+  "structures_at_risk": [
+    {
+      "structure": "Popliteal vessels and tibial/peroneal nerves (posterior)",
+      "why_at_risk": "Immediately posterior to distal femur/condyles; at risk with traction, posterior retraction, or work on posterior condyles/Hoffa. High energy fractures can have vascular injury.",
+      "how_to_avoid_injury": "Use careful traction and posterior retractors only under vision. Hip/knee flexion for relaxation. Direct visualization for posterior work. Pre-op vascular exam and post-op monitoring.",
+      "consequence_of_injury": "Vascular compromise (ischemia, bleeding), nerve palsy (foot drop, tibial deficit). May require vascular repair or fasciotomy.",
+      "approach_context": "Distal femur exposure (lateral or parapatellar) with posterior risk",
+      "source_refs": [
+        "https://www.orthobullets.com/trauma/1041/distal-femur-fractures"
+      ]
+    },
+    {
+      "structure": "Extensor mechanism (quad tendon, patella, patellar tendon)",
+      "why_at_risk": "At risk during parapatellar arthrotomy, eversion, or if fracture involves trochlea/patella. Poor handling leads to tracking issues or lag.",
+      "how_to_avoid_injury": "Protect patellar tendon insertion with retractor/pin. Evert/sublux carefully (quad snip if needed). Repair retinacula and assess tracking after reduction/fixation.",
+      "consequence_of_injury": "Extensor lag, patellar maltracking, or re-operation for extensor mechanism.",
+      "approach_context": "Parapatellar approach for intra-articular distal femur",
+      "source_refs": [
+        "https://www.orthobullets.com/trauma/1041/distal-femur-fractures"
+      ]
+    },
+    {
+      "structure": "Femoral neurovascular bundle (anteromedial)",
+      "why_at_risk": "Anteromedial to distal femur; at risk with medial retraction or if approach drifts in lateral work.",
+      "how_to_avoid_injury": "Stay lateral on bone in lateral approach. Careful anterior retraction in parapatellar. Direct vision for medial work if needed.",
+      "consequence_of_injury": "Femoral neuropathy or vascular injury.",
+      "approach_context": "Lateral or parapatellar distal femur exposure",
+      "source_refs": [
+        "https://www.orthobullets.com/trauma/1041/distal-femur-fractures"
+      ]
+    },
+    {
+      "structure": "Hoffa fragment (coronal plane lateral condyle)",
+      "why_at_risk": "Often missed on AP; requires specific fixation (screws). Unfixed leads to malunion or arthritis.",
+      "how_to_avoid_injury": "CT for intra-articular patterns. Reduce and fix with anterior-to-posterior or posterior-to-anterior screws (countersink). Check reduction on lateral fluoro.",
+      "consequence_of_injury": "Malunion, step-off, arthritis, or need for revision fixation.",
+      "approach_context": "Intra-articular distal femur ORIF (condylar reduction)",
+      "source_refs": [
+        "https://www.orthobullets.com/trauma/1041/distal-femur-fractures"
+      ]
+    }
+  ],
+  "key_landmarks": [
+    "Tibial tubercle and pes anserinus for harvest; portals for notch and footprint access.",
+    "Essential palpable landmark from approach or reduction content.",
+    "Essential palpable landmark from approach or reduction content.",
+    "Essential palpable landmark from approach or reduction content.",
+    "Essential palpable landmark from approach or reduction content."
+  ],
+  "reduction_or_implant_anatomy": [],
+  "arthroscopy_or_portal_anatomy": [],
+  "common_mistakes": [
+    "Missing Hoffa fragment (coronal split) on imaging or intra-op, leading to malunion or step-off arthritis.",
+    "Inadequate posterior protection (popliteal/tibial/peroneal) during traction or posterior condyle work, causing vascular or nerve injury.",
+    "Poor handling of the extensor mechanism or retinacula in parapatellar approach, causing extensor lag, patellar maltracking, or need for re-operation.",
+    "Ignoring deforming forces (gastroc extension on distal) or failing to assess/correct rotation/alignment, leading to poor function.",
+    "Overlooking compartment or neurovascular status pre/post-op in high-energy distal femur fractures."
+  ],
+  "fluoroscopy_checkpoints": [],
+  "attending_pimp_questions": [
+    "Q: What is a Hoffa fragment in distal femur fractures and why is it important to recognize/fix? A: Coronal plane split of the lateral (or medial) condyle, often missed on AP. Requires specific screw fixation (AP or PA, countersunk). Unfixed leads to malunion, step-off, and arthritis.",
+    "Q: Describe the deforming forces and key posterior structures at risk in distal femur fractures. A: Gastrocnemius pulls distal fragment into extension. Popliteal vessels, tibial and peroneal nerves immediately posterior - at risk with traction or posterior work. Pre/post neurovascular exam essential.",
+    "Q: How do you protect the extensor mechanism in parapatellar approach for intra-articular distal femur ORIF and assess tracking? A: Protect patellar tendon insertion with retractor or temporary pin. After reduction and fixation, cycle the knee and observe patellar tracking on the trochlea. Repair retinacula anatomically.",
+    "Q: How do you protect the extensor mechanism in parapatellar approach for intra-articular distal femur ORIF and assess tracking? A: Protect patellar tendon insertion with retractor or temporary pin. After reduction and fixation, cycle the knee and observe patellar tracking on the trochlea. Repair retinacula anatomically.",
+    "Q: Why is rotation/alignment critical in distal femur ORIF and how do you assess? A: Malrotation or varus/valgus leads to poor function, arthritis, or limp. Assess with contralateral comparison, fluoro (AP/lateral of knee + hip), or direct landmarks (lesser trochanter profile, condylar axis). Correct before final fixation."
+  ],
+  "night_before_review_checklist": [
+    "Review linked modules and source URLs",
+    "Memorize key SAR and landmarks",
+    "Practice the 10+ pimp questions",
+    "Walk through the night-before checklist",
+    "Confirm any case-specific fluoroscopy or approach details"
+  ],
+  "source_urls": [
+    "https://www.orthobullets.com/trauma/1041/distal-femur-fractures"
+  ],
+  "source_confidence": "high",
+  "limitations": [
+    "Anatomy-focused case prep only; does not replace full surgical technique or attending-specific preferences",
+    "Always verify with latest imaging and team briefing"
+  ],
+  "anatomy_category": "open_approach",
+  "approach_id": "distal_femur_fracture_orif",
+  "approach_name": "Distal Femur Fracture ORIF",
+  "surgical_layers": [
+    {
+      "layer_name": "Superficial (skin to vastus lateralis or retinaculum)",
+      "what_user_should_know": "Lateral: incision lateral thigh to knee, expose vastus lateralis fascia. Parapatellar: midline or parapatellar, develop to retinaculum. Protect sensory branches and plan for eversion or lateral exposure.",
+      "key_structures": [
+        "Vastus lateralis or retinaculum",
+        "Patella (for parapatellar)",
+        "Lateral thigh/knee skin"
+      ],
+      "structures_at_risk": [
+        "Sensory branches",
+        "Extensor mechanism (patellar tendon insertion)"
+      ],
+      "surgical_relevance": "Standard approaches for distal femur (lateral for extra-artic or lateral plate; parapatellar for intra-articular). Extensor protection key for parapatellar.",
+      "source_refs": [
+        "https://www.orthobullets.com/trauma/1041/distal-femur-fractures"
+      ]
+    },
+    {
+      "layer_name": "Deep (exposure of condyles/shaft, posterior protection)",
+      "what_user_should_know": "Lateral: elevate vastus lateralis, control perforators, expose lateral condyle/shaft. Parapatellar: enter joint, evert/sublux patella, expose notch/trochlea/condyles. Protect popliteal bundle posteriorly with retractors/position. Reduce condyles (fix Hoffa if present) then to shaft.",
+      "key_structures": [
+        "Lateral or medial condyle",
+        "Trochlea/notch (parapatellar)",
+        "Linea aspera or shaft",
+        "Popliteal fossa (posterior)"
+      ],
+      "structures_at_risk": [
+        "Popliteal vessels / tibial/peroneal nerves (posterior)",
+        "Femoral bundle (anteromedial)",
+        "Extensor mechanism"
+      ],
+      "surgical_relevance": "Working layer for articular reduction and shaft alignment. Posterior protection and Hoffa recognition/fixation are critical for intra-articular patterns.",
+      "source_refs": [
+        "https://www.orthobullets.com/trauma/1041/distal-femur-fractures"
+      ]
+    },
+    {
+      "layer_name": "Closure, tracking, and alignment check",
+      "what_user_should_know": "After fixation, assess patellar tracking (parapatellar) or overall alignment/rotation (lateral). Close in layers. Monitor neurovascular and compartments. Post-op protected ROM and weightbearing per stability.",
+      "key_structures": [
+        "Repaired extensor or fascia",
+        "Patella/tracking (if parapatellar)",
+        "Overall limb alignment/rotation"
+      ],
+      "structures_at_risk": [
+        "Extensor mechanism integrity",
+        "Patellofemoral tracking",
+        "Neurovascular (post-op monitoring)"
+      ],
+      "surgical_relevance": "Confirms reduction quality and protects repair. Rotation/alignment critical for function; tracking for parapatellar cases.",
+      "source_refs": [
+        "https://www.orthobullets.com/trauma/1041/distal-femur-fractures"
+      ]
+    }
+  ],
+  "validation_warnings": [
+    "Distal femur ORIF payload covers lateral (extra-articular/lateral plate) and parapatellar (intra-articular) approaches. Hoffa recognition and posterior protection are high-yield. Source material previously mixed TKA/hip/parapatellar bleed, stringified/empty SAR, generic, and dev paths; cleaned to public 1041 facts and rich 6-field content only."
+  ],
+  "payload_quality_status": "cleaned_batch3_distal_femur",
+  "source_status": "source_backed_1041_distal_femur",
+  "danger_zones": [
+    "Popliteal vessels / tibial-peroneal nerves (posterior): careful traction/retraction, position for relaxation; injury causes ischemia or foot drop/tibial deficit.",
+    "Extensor mechanism (patellar tendon, retinacula): protect insertion, assess tracking after; poor handling causes lag or maltracking.",
+    "Femoral neurovascular (anteromedial): stay lateral in lateral approach, careful retraction; injury causes quad weakness/vascular issues.",
+    "Hoffa fragment: CT, specific screw fixation; missed = malunion/arthritis."
+  ],
+  "approach_specific_notes": "This payload is for distal femur fracture ORIF (intra or extra-articular). Focus on condyles/trochlea/notch/Hoffa, gastroc deforming force, lateral or parapatellar approaches (clean, no TKA bleed), extensor protection, and posterior popliteal/tibial-peroneal risk. Content is distal femur trauma-specific. No hip arthroplasty or shaft-only content mixed."
+}

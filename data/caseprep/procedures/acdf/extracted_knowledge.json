@@ -1,0 +1,58 @@
+{
+  "procedure_id": "acdf",
+  "display_name": "Anterior Cervical Discectomy and Fusion (ACDF)",
+  "extracted_at": "2026-06-23T03:30:38Z",
+  "source_ids": [
+    "ob-0e44b34b94"
+  ],
+  "indications": [],
+  "contraindications": [],
+  "setup_positioning": [
+    {
+      "text": "3 fascia layers: superficial investing (platysma/EJV), pretracheal (continuous with carotid sheath, superior/inf thyroid vessels), prevertebral (thick, lines prevert muscles, sympa",
+      "source_id": "ob-0e44b34b94",
+      "source_url": "https://www.orthobullets.com/approaches/12001/anterior-approach-to-cervical-spine",
+      "source_section": null,
+      "confidence": "medium"
+    },
+    {
+      "text": "Landmarks: angle of mandible ~C2-3, carotid tubercle C6.",
+      "source_id": "ob-0e44b34b94",
+      "source_url": "https://www.orthobullets.com/approaches/12001/anterior-approach-to-cervical-spine",
+      "source_section": null,
+      "confidence": "medium"
+    },
+    {
+      "text": "Risks: RLN (~2.3%, right more variable/vulnerable); sympathetic chain on longus colli lateral at C6 (Horner if injured); carotid sheath; retropharyngeal hematoma.",
+      "source_id": "ob-0e44b34b94",
+      "source_url": "https://www.orthobullets.com/approaches/12001/anterior-approach-to-cervical-spine",
+      "source_section": null,
+      "confidence": "medium"
+    }
+  ],
+  "approach_landmarks": [],
+  "surgical_layers": [],
+  "structures_at_risk": [
+    {
+      "structure": "Risks: RLN (~2.3%, right more variable/vulnerable); sympathetic chain on longus colli late",
+      "why_at_risk": "Identified in source library as at-risk structure for this approach.",
+      "how_to_avoid_injury": "Maintain direct visualization and controlled retraction.",
+      "consequence_of_injury": "Iatrogenic injury with functional consequences.",
+      "source_refs": [
+        "https://www.orthobullets.com/approaches/12001/anterior-approach-to-cervical-spine"
+      ]
+    }
+  ],
+  "implant_strategy": [],
+  "reduction_or_fluoro_checkpoints": [],
+  "complications": [],
+  "postop_protocol": [],
+  "pimp_question_facts": [],
+  "source_refs": [
+    "https://www.orthobullets.com/approaches/12001/anterior-approach-to-cervical-spine"
+  ],
+  "extraction_warnings": [
+    "No approach landmarks extracted from sources."
+  ],
+  "confidence_score": 0.5
+}

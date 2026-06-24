@@ -1,0 +1,1 @@
+"""Read-only CasePrep registry DTOs, validation, and mappers."""

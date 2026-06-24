@@ -1,0 +1,137 @@
+{
+  "indications": [],
+  "setup_positioning": [
+    "Anatomic total shoulder arthroplasty via deltopectoral approach. Standard anterior approach that can be extended. Key anatomy: deltopectoral interval (cephalic vein), subscapularis (tenotomy 1 cm medial to insertion or peel from lesser tuberosity - critical for post-op stability and rehab), axillary nerve (inferior border of subscapularis, 5-7 cm below acromion on deep deltoid surface - protect with arm abduction/external rotation), conjoint tendon (musculocutaneous nerve deep and medial ~5-8 cm below coracoid). Deforming forces in fracture context or for exposure: pec major (anterior/medial shaft displacement), deltoid (lateral proximal fragment). Focus on subscapularis management for exposure and repair.",
+    "Deltopectoral is the standard approach for anatomic TSA. Superficial interval between deltoid (axillary nerve on its deep surface) laterally and pectoralis major (medial and lateral pectoral nerves) medially. Cephalic vein lies in the groove and is typically taken laterally with the deltoid.",
+    "Subscapularis is the anterior gatekeeper: tenotomy ~1 cm medial to its insertion on lesser tuberosity or full peel from the tuberosity. Repair is critical for anterior stability and to allow early passive external rotation rehab. Inadequate repair or overstuffing leads to instability or stiffness.",
+    "Axillary nerve: courses on the deep surface of deltoid ~5-7 cm below the acromion. At the inferior border of subscapularis it is vulnerable during inferior capsular release or glenoid exposure. Arm abduction and external rotation relaxes the nerve and increases the safe zone.",
+    "Conjoint tendon (coracobrachialis + short head of biceps): lies medial to the interval. The musculocutaneous nerve (lateral cord) pierces or runs on its deep surface 5-8 cm below the coracoid tip. Excessive medial retraction or conjoint release risks nerve injury (biceps weakness, lateral forearm numbness).",
+    "Deforming forces relevant to exposure or proximal humerus pathology: pectoralis major displaces the shaft anteriorly and medially; deltoid displaces the proximal fragment laterally; supraspinatus and infraspinatus contribute to superior/posterior pull on the head. These must be understood for releases and implant positioning.",
+    "For glenoid and humeral preparation: the long head of biceps (in bicipital groove) is often tenodesed or released. The rotator interval and capsule are managed for exposure while preserving or reconstructing the subscapularis for stability."
+  ],
+  "approach_landmarks": [
+    "Deltopectoral groove and cephalic vein (interval landmark)",
+    "Coracoid process (medial boundary; conjoint tendon attachment)",
+    "Lesser tuberosity (subscapularis insertion - for tenotomy or peel planning)",
+    "Bicipital groove (long head biceps - often tenodesed/released)",
+    "Inferior border of subscapularis (axillary nerve landmark)"
+  ],
+  "surgical_layers": [
+    {
+      "layer_name": "Superficial deltopectoral interval (skin to cephalic vein)",
+      "what_user_should_know": "Incision from coracoid tip toward deltoid insertion (lateral). Develop the deltopectoral groove; cephalic vein is the key landmark (usually retracted laterally with deltoid to preserve venous drainage of the deltoid). Pectoralis major is medial.",
+      "key_structures": [
+        "Cephalic vein (deltopectoral groove)",
+        "Deltoid (axillary n deep)",
+        "Pectoralis major (medial/lateral pectoral n)"
+      ],
+      "structures_at_risk": [
+        "Cephalic vein (bleeding, hematoma if injured)",
+        "Medial and lateral pectoral nerves (with excessive medial pec release)"
+      ],
+      "surgical_relevance": "Defines the entire anterior approach corridor. Protecting the cephalic vein and identifying the interval early prevents bleeding and orients all deeper work. This is strictly deltopectoral; lateral split is a different approach.",
+      "source_refs": [
+        "https://www.orthobullets.com/approaches/12061/shoulder-anterior-deltopectoral-approach"
+      ]
+    },
+    {
+      "layer_name": "Deep interval to conjoint tendon and subscapularis",
+      "what_user_should_know": "After developing the groove and releasing the upper 1-2 cm of pec major insertion if needed for exposure, identify the coracoid and conjoint tendon medially. The subscapularis is the anterior rotator cuff structure covering the joint; it is tenotomized or peeled for access.",
+      "key_structures": [
+        "Conjoint tendon (coracobrachialis + short head biceps)",
+        "Subscapularis tendon (lesser tuberosity insertion)",
+        "Bicipital groove (long head biceps)"
+      ],
+      "structures_at_risk": [
+        "Musculocutaneous nerve (deep to conjoint 5-8 cm below coracoid)",
+        "Subscapularis (must be repaired for stability)"
+      ],
+      "surgical_relevance": "This layer gives access to the glenohumeral joint. Musculocutaneous identification protects elbow flexion; subscapularis handling determines post-op anterior stability and ER rehab.",
+      "source_refs": [
+        "https://www.orthobullets.com/approaches/12061/shoulder-anterior-deltopectoral-approach"
+      ]
+    },
+    {
+      "layer_name": "Inferior subscapularis / capsular exposure (axillary nerve protection)",
+      "what_user_should_know": "At the inferior border of subscapularis (after tenotomy/peel), the axillary nerve is identified by palpation or visualization on the deep deltoid surface. Inferior capsular release and glenoid exposure occur here. Arm abduction + external rotation relaxes the nerve.",
+      "key_structures": [
+        "Axillary nerve (inferior subscap border, deep deltoid)",
+        "Inferior glenohumeral capsule",
+        "Glenoid (for reaming and component)"
+      ],
+      "structures_at_risk": [
+        "Axillary nerve (inferior capsular release or medial retraction)"
+      ],
+      "surgical_relevance": "Critical danger zone for the most devastating nerve injury in shoulder arthroplasty. This step is deltopectoral-specific; superior or arthroscopic approaches have different nerve risks (suprascapular).",
+      "source_refs": [
+        "https://www.orthobullets.com/approaches/12061/shoulder-anterior-deltopectoral-approach"
+      ]
+    }
+  ],
+  "structures_at_risk": [
+    {
+      "structure": "Axillary nerve (on deep surface of deltoid and inferior to subscapularis)",
+      "why_at_risk": "Lies 5-7 cm below acromion on deltoid undersurface and crosses inferior to subscapularis near the inferior glenohumeral capsule. Inferior capsular release, glenoid reaming, or aggressive medial/inferior retraction can stretch or lacerate it, especially if arm is not abducted/externally rotated.",
+      "how_to_avoid_injury": "Identify the nerve early by palpation or visualization at the inferior subscapularis border. Keep arm abducted and externally rotated during inferior work to increase the safe distance. Limit inferior capsular release to what is needed for glenoid exposure; use blunt retractors carefully.",
+      "consequence_of_injury": "Deltoid paralysis (loss of abduction and forward elevation), teres minor weakness, and lateral upper arm sensory loss. Devastating for TSA outcome and rehab.",
+      "approach_context": "Deltopectoral approach for anatomic TSA (inferior subscapularis and glenoid exposure)",
+      "source_refs": [
+        "https://www.orthobullets.com/approaches/12061/shoulder-anterior-deltopectoral-approach"
+      ]
+    },
+    {
+      "structure": "Musculocutaneous nerve (lateral cord, to coracobrachialis/biceps/brachialis)",
+      "why_at_risk": "Enters the conjoint tendon (coracobrachialis) on its deep/medial surface 5-8 cm distal to the coracoid. Medial retraction of the conjoint tendon or release of the tendon for exposure can compress or transect the nerve.",
+      "how_to_avoid_injury": "Identify the conjoint tendon and limit medial retraction time/force. Avoid releasing the conjoint tendon unless absolutely necessary for exposure; if released, identify and protect the nerve first. Know the ~5-8 cm distance from coracoid.",
+      "consequence_of_injury": "Weakness or paralysis of coracobrachialis, biceps, and brachialis (elbow flexion weakness, especially supinated), plus lateral antebrachial cutaneous nerve sensory loss (lateral forearm).",
+      "approach_context": "Deltopectoral approach (medial retraction or conjoint tendon work)",
+      "source_refs": [
+        "https://www.orthobullets.com/approaches/12061/shoulder-anterior-deltopectoral-approach"
+      ]
+    },
+    {
+      "structure": "Subscapularis tendon (and its repair)",
+      "why_at_risk": "Tenotomy or peel is required for anterior exposure to the glenohumeral joint and humerus. Inadequate length for repair, poor tissue quality, or overtensioning after implant placement leads to failure of repair and anterior instability or poor external rotation.",
+      "how_to_avoid_injury": "Plan tenotomy 1 cm medial to insertion or peel with good cuff of tissue for repair. Tag the tendon. After trial components, repair with heavy nonabsorbable suture (transosseous or anchors) with the arm in slight external rotation to avoid overtension. Consider lesser tuberosity osteotomy in some techniques for bone-to-bone healing.",
+      "consequence_of_injury": "Anterior instability (subscap is the primary anterior stabilizer), loss of active internal rotation, and inability to perform early passive ER rehab leading to stiffness.",
+      "approach_context": "Deltopectoral TSA - subscapularis take-down and repair is the key step for exposure and post-op function",
+      "source_refs": [
+        "https://www.orthobullets.com/approaches/12061/shoulder-anterior-deltopectoral-approach"
+      ]
+    },
+    {
+      "structure": "Cephalic vein (in deltopectoral groove) and pectoral nerves",
+      "why_at_risk": "Cephalic vein is the landmark for the interval; can be injured during superficial dissection or retraction, leading to bleeding or thrombosis. Medial and lateral pectoral nerves innervate pec major and can be injured with excessive medial dissection or pectoralis release.",
+      "how_to_avoid_injury": "Identify cephalic vein early and protect it (usually retracted laterally with deltoid). If injured, ligate cleanly. Limit pec major release to the upper 1-2 cm of insertion if needed for exposure; avoid complete release.",
+      "consequence_of_injury": "Hematoma, swelling, or (rarely) significant bleeding from cephalic injury. Pectoral nerve injury causes pec major atrophy/weakness affecting cosmesis and some adduction strength.",
+      "approach_context": "Superficial deltopectoral interval",
+      "source_refs": [
+        "https://www.orthobullets.com/approaches/12061/shoulder-anterior-deltopectoral-approach"
+      ]
+    }
+  ],
+  "implant_strategy": [],
+  "reduction_or_fluoro_checkpoints": [],
+  "pitfalls": [
+    "Injury to axillary nerve during inferior capsular release or glenoid exposure (failure to abduct/ER the arm or identify the nerve)",
+    "Musculocutaneous nerve injury from prolonged or forceful medial retraction of the conjoint tendon without identifying the nerve entry point",
+    "Poor subscapularis repair (insufficient tissue, overtension, or poor fixation) leading to anterior instability or loss of ER",
+    "Excessive pectoralis major release causing internal rotation weakness or cosmetic deformity",
+    "Confusing deltopectoral anatomy with superior or lateral approaches used for RSA or cuff repair"
+  ],
+  "attending_pimp_questions": [
+    "Q: What is the superficial interval for the deltopectoral approach in TSA and which nerve is at risk on the deep surface of the lateral muscle? A: Between deltoid (lateral) and pectoralis major (medial). The axillary nerve runs on the deep surface of the deltoid approximately 5-7 cm below the acromion and must be protected during inferior work.",
+    "Q: How is the subscapularis typically managed during deltopectoral TSA and why is its repair critical? A: Tenotomy 1 cm medial to the lesser tuberosity insertion or peel from the tuberosity. Repair restores the primary anterior stabilizer and allows safe early passive external rotation rehab. Failure leads to anterior instability or stiffness.",
+    "Q: Where is the musculocutaneous nerve at risk during deltopectoral exposure and what is the safe distance from the coracoid? A: It enters the conjoint tendon (coracobrachialis) on its deep surface 5-8 cm below the coracoid tip. Limit medial retraction force and duration; identify before any conjoint release.",
+    "Q: What arm position increases the safe zone for the axillary nerve during inferior capsular release or glenoid exposure in TSA? A: Abduction and external rotation of the arm relaxes the nerve and moves it inferiorly away from the surgical field, increasing the safe distance from the inferior glenoid/capsule.",
+    "Q: What are the key deforming forces on the proximal humerus that must be understood for exposure and implant positioning in shoulder arthroplasty or fracture work via deltopectoral? A: Pectoralis major pulls the shaft anteriorly and medially; deltoid pulls the proximal fragment laterally; supraspinatus/infraspinatus pull superiorly/posteriorly on the head."
+  ],
+  "postop_plan": [
+    "Review the deltopectoral shoulder approach OB page (12061) and linked modules for interval, subscap management, and axillary/musculocutaneous nerve locations",
+    "Memorize: cephalic vein in groove (protect, usually lateral), subscap tenotomy/peel 1cm medial or from tuberosity, axillary at 5-7cm on deltoid deep + inferior subscap border, musculo 5-8cm on conjoint deep surface",
+    "Know arm abduction + ER position to relax and protect axillary during inferior work",
+    "Review subscap repair importance for anterior stability and rehab protocol",
+    "Practice the 5 pimp questions focused on deltopectoral-specific risks and subscap handling",
+    "Confirm case is anatomic TSA (deltopectoral standard) vs RSA (may use superior/lateral in some hands) - do not mix content"
+  ]
+}

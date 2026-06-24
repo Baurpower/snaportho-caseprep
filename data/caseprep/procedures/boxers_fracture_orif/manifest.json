@@ -1,0 +1,20 @@
+{
+  "slug": "boxers_fracture_orif",
+  "display_name": "Boxer's (5th Metacarpal Neck) Fracture ORIF",
+  "specialty": "hand",
+  "body_region": "hand",
+  "procedure_family": "mixed",
+  "status": "active",
+  "content_status": "partial",
+  "review_status": "unreviewed",
+  "version": "0.1.0",
+  "caseprep_schema_version": "brobot_case_prep_payload_v2",
+  "coverage_score": 0,
+  "runtime_enabled": false,
+  "deprecated": false,
+  "replacement_slug": null,
+  "reviewer": null,
+  "certified_at": null,
+  "last_reviewed_at": null,
+  "source_payload_hash": ""
+}

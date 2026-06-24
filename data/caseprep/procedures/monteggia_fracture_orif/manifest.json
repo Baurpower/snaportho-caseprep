@@ -1,0 +1,20 @@
+{
+  "slug": "monteggia_fracture_orif",
+  "display_name": "Monteggia Fracture ORIF",
+  "specialty": "trauma",
+  "body_region": "forearm",
+  "procedure_family": "procedure",
+  "status": "active",
+  "content_status": "certified",
+  "review_status": "certified",
+  "version": "1.0.0",
+  "caseprep_schema_version": "brobot_case_prep_payload_v2",
+  "coverage_score": 100,
+  "runtime_enabled": true,
+  "deprecated": false,
+  "replacement_slug": null,
+  "reviewer": "brobot_migration",
+  "certified_at": "2026-06-06T18:14:05.550839Z",
+  "last_reviewed_at": "2026-06-06T18:14:05.550839Z",
+  "source_payload_hash": "e21a0954acc09cca8da4ee45c0cdc6e17fb4cebed08babb1608fb138ad7190ed"
+}

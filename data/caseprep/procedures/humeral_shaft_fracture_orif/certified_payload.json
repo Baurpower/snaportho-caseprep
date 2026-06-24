@@ -1,0 +1,179 @@
+{
+  "schema_version": "brobot_case_prep_payload_v2",
+  "procedure_id": "humeral_shaft_fracture_orif",
+  "procedure_name": "Humeral Shaft Fracture ORIF (Plate Fixation via Anterolateral or Posterior Approaches)",
+  "case_prep_status": "certified",
+  "procedure_overview": "Plate ORIF of humeral shaft fractures when IM nailing not chosen (distal metaphyseal, radial nerve exploration, open fractures, or specific deformity). Two main approaches: anterolateral distal (brachialis split or lateral to it) and posterior (triceps split). Radial nerve is the dominant structure at risk in both (spiral groove on posterior humerus, exits lateral septum in distal 1/3 - Holstein-Lewis pattern vulnerable). Profunda brachii artery travels with radial nerve in spiral groove. Goal: anatomic reduction, stable plate fixation (usually 4.5 mm DCP or LCP), radial nerve protection or exploration.",
+  "must_know_anatomy": [
+    "Radial nerve course: exits spiral groove ~4-7 cm from acromion? (posterior to anterolateral at mid/distal third junction), pierces lateral intermuscular septum ~10-12 cm proximal to lateral epicondyle, then lies between brachialis and brachioradialis. Holstein-Lewis fracture (distal 1/3 spiral) has high association with radial nerve injury at the septum exit.",
+    "Anterolateral distal approach: interval or split in brachialis (dual innervation: musculocutaneous lateral, radial medial - safe split). Develop between brachialis and brachioradialis distally. Radial nerve identified and protected as it exits the septum laterally. Plate placed on anterolateral or anterior surface.",
+    "Posterior triceps-split approach: split long and lateral heads of triceps (or medial/lateral for more distal). Radial nerve and profunda brachii lie in spiral groove on posterior humerus and must be identified, mobilized, and protected (vessel loop) before plate application. Good for posterior plating or radial n. exploration.",
+    "Profunda brachii (deep brachial artery) and its branches travel with the radial nerve in the spiral groove; at risk with posterior exposure or fracture displacement. Ligation or repair may be needed if injured.",
+    "Brachialis muscle: key anterior landmark; splitting it (or working lateral to it) provides access to the anterior humerus while protecting the radial nerve (which is posterior/lateral). The musculocutaneous nerve (lateral antebrachial cutaneous) is at risk with excessive lateral retraction or proximal dissection.",
+    "Fracture reduction and plate: restore length, alignment, rotation. Use 4.5 mm broad or narrow plate with at least 3-4 screws proximal and distal (8-10 cortices). Lag screws for oblique/spiral patterns. Avoid radial nerve entrapment under plate or screws."
+  ],
+  "surgical_approach_anatomy": [],
+  "structures_at_risk": [
+    {
+      "structure": "Radial nerve (and its motor/sensory branches)",
+      "why_at_risk": "Lies in spiral groove (posterior humerus) and exits laterally through intermuscular septum in distal third (Holstein-Lewis vulnerability). At risk from fracture displacement, callus, or iatrogenic injury during anterolateral (exiting septum) or posterior (in groove) exposure/plating.",
+      "how_to_avoid_injury": "Identify and protect (vessel loop) early in both approaches. In anterolateral: find as it exits septum between brachialis/brachioradialis. In posterior: mobilize from spiral groove before splitting triceps fully or placing plate. Document wrist/thumb extension and dorsal hand sensation pre- and post-op.",
+      "consequence_of_injury": "Wrist drop, loss of finger/thumb MP extension, loss of thumb abduction/extension, sensory loss first dorsal web. Usually neurapraxia from stretch/contusion but can be lacerated or entrapped; exploration indicated for open fractures or no recovery.",
+      "approach_context": "Both anterolateral distal and posterior triceps-split approaches for humeral shaft ORIF",
+      "source_refs": [
+        "https://www.orthobullets.com/trauma/1016/humeral-shaft-fractures"
+      ]
+    },
+    {
+      "structure": "Profunda brachii artery (and radial collateral branches)",
+      "why_at_risk": "Travels with radial nerve in spiral groove on posterior humerus; can be lacerated by fracture or during posterior exposure/mobilization of the nerve.",
+      "how_to_avoid_injury": "Identify the neurovascular bundle in the spiral groove during posterior approach before full triceps split or plate placement. Control bleeding with bipolar or ties; repair if major branch injured.",
+      "consequence_of_injury": "Bleeding/hematoma, ischemia to posterior compartment or radial nerve (worsening palsy), or false aneurysm. May require vascular repair.",
+      "approach_context": "Posterior triceps-split approach (primary); also relevant in displaced Holstein-Lewis patterns",
+      "source_refs": [
+        "https://www.orthobullets.com/trauma/1016/humeral-shaft-fractures"
+      ]
+    },
+    {
+      "structure": "Musculocutaneous nerve / lateral antebrachial cutaneous nerve (in brachialis)",
+      "why_at_risk": "Musculocutaneous nerve enters brachialis proximally; its terminal lateral antebrachial cutaneous branch can be injured with anterolateral dissection, excessive retraction, or proximal plate placement.",
+      "how_to_avoid_injury": "Limit proximal dissection in the anterolateral approach. Identify and protect the nerve on the undersurface of brachialis if extending proximally. Split brachialis in midline or slightly lateral when using anterolateral.",
+      "consequence_of_injury": "Loss of brachialis contribution to elbow flexion (usually compensated by biceps/brachioradialis) and numbness over lateral forearm (lateral antebrachial cutaneous distribution).",
+      "approach_context": "Anterolateral distal approach (brachialis work)",
+      "source_refs": [
+        "https://www.orthobullets.com/trauma/1016/humeral-shaft-fractures"
+      ]
+    },
+    {
+      "structure": "Lateral intermuscular septum (radial nerve exit point)",
+      "why_at_risk": "The radial nerve pierces the septum in the distal third; fracture patterns or aggressive retraction/plate placement at this level can tether or injure the nerve.",
+      "how_to_avoid_injury": "In Holstein-Lewis or distal third fractures, expect the nerve at the septum. In anterolateral approach, deliberately identify the nerve exiting the septum before distal plate extension.",
+      "consequence_of_injury": "Radial nerve entrapment or laceration at the septum; persistent or new palsy post-op.",
+      "approach_context": "Distal third humeral shaft ORIF (both approaches, especially anterolateral)",
+      "source_refs": [
+        "https://www.orthobullets.com/trauma/1016/humeral-shaft-fractures"
+      ]
+    }
+  ],
+  "key_landmarks": [
+    "Lateral epicondyle / supracondylar ridge (distal reference for anterolateral approach and plate)",
+    "Spiral groove (posterior humerus - radial n. + profunda location on posterior surface)",
+    "Lateral intermuscular septum (radial n. exit point ~10-12 cm proximal to lateral epicondyle)",
+    "Brachialis (anterior landmark - split or lateral border for anterolateral exposure)",
+    "Triceps (long/lateral heads for posterior split; radial n. in groove deep to it)"
+  ],
+  "key_intervals": [
+    "Anterolateral distal: develop or split brachialis (safe due to dual innervation); distally between brachialis and brachioradialis. Radial n. protected as it exits septum laterally.",
+    "Posterior triceps split: split between long and lateral heads (or more distal medial/lateral heads). Identify and mobilize radial n. + profunda from spiral groove before bone work or plating.",
+    "Brachioradialis (lateral) is a key landmark distally for both approaches; radial n. lies between it and brachialis anteriorly after exiting the septum."
+  ],
+  "reduction_or_implant_anatomy": [
+    "Anterolateral or posterior plate placement on the humerus (4.5 mm DCP/LCP preferred). At least 3-4 bicortical screws above and below fracture (8-10 cortices total). Lag screw compression for spiral/oblique patterns through or outside plate.",
+    "Radial nerve exploration/decompression: indicated for open fractures, severe displacement, or new palsy after closed reduction. Nerve is identified proximally in the spiral groove or at septum exit and traced through the zone of injury.",
+    "Holstein-Lewis pattern (distal third spiral fracture with butterfly): high radial nerve entrapment risk at septum; often requires anterolateral approach for direct nerve visualization and plate that bypasses the nerve laterally."
+  ],
+  "arthroscopy_or_portal_anatomy": [],
+  "common_mistakes": [
+    "Failure to identify and protect the radial nerve at the lateral intermuscular septum (anterolateral) or in the spiral groove (posterior), resulting in iatrogenic palsy",
+    "Placing the plate over or entrapping the radial nerve, especially in distal third or Holstein-Lewis patterns",
+    "Inadequate proximal/distal screw purchase or failure to use lag screws for spiral patterns leading to loss of reduction",
+    "Excessive retraction on brachialis or brachioradialis injuring the radial nerve or its branches (or musculocutaneous terminal branch)",
+    "Ignoring the profunda brachii during posterior exposure, leading to bleeding or nerve ischemia"
+  ],
+  "fluoroscopy_checkpoints": [
+    "AP and lateral of entire humerus (include shoulder and elbow joints) to confirm length, alignment, rotation, and plate/screw position outside the joint.",
+    "Confirm radial nerve is not under the plate on final images (if explored, document its position relative to plate).",
+    "Check for varus/valgus and flexion/extension deformity on orthogonal views before final fixation."
+  ],
+  "attending_pimp_questions": [
+    "Q: Describe the radial nerve course on the humeral shaft and why Holstein-Lewis (distal third spiral) fractures have a high association with radial nerve injury. A: The nerve runs in the spiral groove posteriorly then pierces the lateral intermuscular septum ~10-12 cm proximal to the lateral epicondyle to lie between brachialis and brachioradialis. In Holstein-Lewis, the nerve is tethered at the septum and vulnerable to the fracture spike or callus.",
+    "Q: What is the key maneuver or landmark to find and protect the radial nerve in the anterolateral distal approach for humeral shaft ORIF? A: Identify the nerve as it exits the lateral intermuscular septum between brachialis and brachioradialis distally; protect it with a vessel loop before extending the plate distally.",
+    "Q: In the posterior triceps-split approach, where is the radial nerve and profunda brachii, and what must be done before plate application? A: They lie together in the spiral groove on the posterior humerus deep to the triceps. The bundle must be identified, mobilized gently, and protected (loop) before splitting the triceps fully or placing the posterior plate.",
+    "Q: Why is brachialis splitting (or working lateral to it) safe in the anterolateral approach, and what nerve is at risk with excessive proximal or lateral retraction? A: Brachialis has dual innervation (musculocutaneous laterally, radial medially), so midline split is safe. The radial nerve (after exiting septum) and lateral antebrachial cutaneous (terminal musculocutaneous) are at risk with over-retraction.",
+    "Q: What are the indications to choose plate ORIF over IM nailing for humeral shaft fractures, and what is the minimum fixation construct? A: Distal metaphyseal fractures, need for radial nerve exploration, open fractures with specific soft tissue needs, or when nailing is contraindicated. Use 4.5 mm plate with 3-4 screws (8-10 cortices) proximal and distal, plus lag screws for spiral patterns."
+  ],
+  "night_before_review_checklist": [
+    "Review OB humeral shaft fractures (1016) and the two approach modules (anterolateral distal + posterior triceps split) for radial n. course, Holstein-Lewis, and protection steps",
+    "Memorize: radial n. in spiral groove (posterior) → exits lateral septum (anterolateral danger) → between brachialis/brachioradialis; profunda travels with it",
+    "Know approach choice: anterolateral for distal/radial n. exploration; posterior for direct groove access or posterior plating",
+    "Review consequences of radial n. injury (wrist drop, finger/thumb extension loss) and documentation requirements",
+    "Practice the 5 pimp questions with specific landmarks (septum exit, spiral groove) and protection maneuvers per approach",
+    "Confirm case factors: fracture location/pattern, open vs closed, pre-op radial n. function, planned approach and plate type"
+  ],
+  "source_urls": [
+    "https://www.orthobullets.com/trauma/1016/humeral-shaft-fractures"
+  ],
+  "source_confidence": "high",
+  "limitations": [
+    "Anatomy and approach focused case prep for humeral shaft plate ORIF only; does not replace full trauma decision-making (IMN vs plate), radial nerve recovery timeline/exploration thresholds, or rehab protocols",
+    "Radial nerve status must be documented pre- and post-operatively; exploration is mandatory for open fractures or new complete palsy after reduction"
+  ],
+  "anatomy_category": "procedure",
+  "approach_id": "humeral_shaft_plate",
+  "approach_name": "Anterolateral distal or posterior triceps-split approaches for humeral shaft ORIF",
+  "surgical_layers": [
+    {
+      "layer_name": "Anterolateral distal approach (brachialis/brachioradialis interval)",
+      "what_user_should_know": "Incision along the lateral border of biceps or anterolateral humerus. Develop plane or split brachialis (safe dual innervation). Distally, work between brachialis and brachioradialis. Identify radial nerve exiting the lateral intermuscular septum and protect before distal exposure or plating. Plate on anterolateral or anterior humerus.",
+      "key_structures": [
+        "Brachialis (split or lateral border)",
+        "Brachioradialis (distal landmark)",
+        "Lateral intermuscular septum (radial n. exit)",
+        "Radial nerve (after exiting septum)"
+      ],
+      "structures_at_risk": [
+        "Radial nerve at septum exit",
+        "Lateral antebrachial cutaneous (musculocutaneous terminal branch)"
+      ],
+      "surgical_relevance": "Preferred for distal third fractures and when radial nerve exploration is needed. Direct visualization of the nerve at its vulnerable exit point.",
+      "source_refs": [
+        "https://www.orthobullets.com/trauma/1016/humeral-shaft-fractures"
+      ]
+    },
+    {
+      "layer_name": "Posterior triceps-split approach",
+      "what_user_should_know": "Patient lateral or prone. Incision midline posterior arm. Split between long and lateral heads of triceps (or more distal heads). Identify the radial nerve and profunda brachii in the spiral groove on the posterior humerus; mobilize gently with a vessel loop before completing the split or applying the plate. Good exposure of the entire posterior humerus.",
+      "key_structures": [
+        "Long and lateral triceps heads",
+        "Spiral groove (posterior humerus)",
+        "Radial nerve + profunda brachii bundle",
+        "Medial/lateral intermuscular septa"
+      ],
+      "structures_at_risk": [
+        "Radial nerve in spiral groove",
+        "Profunda brachii artery"
+      ],
+      "surgical_relevance": "Direct access to the radial nerve in its groove and excellent for posterior plating or when the nerve is already injured and needs exploration/decompression.",
+      "source_refs": [
+        "https://www.orthobullets.com/trauma/1016/humeral-shaft-fractures"
+      ]
+    },
+    {
+      "layer_name": "Deep exposure and nerve protection (common to both)",
+      "what_user_should_know": "After identifying the radial nerve (and profunda in posterior), the fracture is reduced and a 4.5 mm plate is applied with compression (lag screws) or neutralization. The nerve is inspected, freed of callus if entrapped, and documented to lie free of the plate and screws. Brachialis or triceps is closed over the plate.",
+      "key_structures": [
+        "Radial nerve (protected with loop or tucked safely)",
+        "Plate (positioned to avoid nerve)",
+        "Fracture site (reduction under direct vision)"
+      ],
+      "structures_at_risk": [
+        "Radial nerve entrapment under plate or screws",
+        "Profunda brachii (posterior)"
+      ],
+      "surgical_relevance": "The critical step that prevents iatrogenic nerve injury. Always visualize and protect the nerve before final fixation in these approaches.",
+      "source_refs": [
+        "https://www.orthobullets.com/trauma/1016/humeral-shaft-fractures"
+      ]
+    }
+  ],
+  "danger_zones": [
+    "Radial nerve at lateral intermuscular septum exit (anterolateral approach) or in spiral groove (posterior) - identify early, protect with loop; Holstein-Lewis patterns especially dangerous",
+    "Profunda brachii artery traveling with radial nerve in posterior groove - control during posterior exposure; injury causes bleeding or nerve ischemia",
+    "Placing plate or screws over or around the radial nerve - always inspect nerve position relative to final construct",
+    "Excessive retraction on brachioradialis or brachialis - risks radial nerve or its lateral antebrachial cutaneous branch"
+  ],
+  "approach_specific_notes": "Humeral shaft ORIF uses either anterolateral distal (brachialis work, radial n. at septum exit) or posterior triceps-split (direct groove access). Both require explicit radial nerve identification and protection. This is pure trauma exposure for diaphyseal or distal metaphyseal fractures; do not mix with proximal humerus, elbow arthroplasty, or distal humerus ORIF anatomy. IM nailing is an alternative but has different radial nerve risks at the distal locking screws.",
+  "validation_warnings": [],
+  "payload_quality_status": "enriched_batch2_humeral_shaft",
+  "source_status": "source_backed_ob1016_plus_approach_modules"
+}

@@ -1,0 +1,140 @@
+{
+  "indications": [],
+  "setup_positioning": [
+    "Quadriceps Tendon Repair (soft_tissue_repair). Certified. Score 4. Source-backed from v3.",
+    "Quadriceps tendon: 2-4 distinct layers (anterior rectus femoris, middle vastus medialis + vastus lateralis, deep vastus intermedius). Inserts on superior patella pole with retinacular expansions.",
+    "Complete rupture: palpable gap, inability to actively extend knee against gravity or straight leg raise. Partial may have intact extension but weakness/pain. MRI/US for confirmation.",
+    "Superior pole of patella is the insertion; retinacula (medial/lateral) provide important extensions for repair and stability. Suprapatellar pouch communicates with joint.",
+    "Patellofemoral tracking: quad tendon repair affects extensor mechanism and patellar position/tracking on trochlea. Assess after repair.",
+    "Sensory: infrapatellar branch of saphenous may be at risk in anterior incisions; protect if encountered.",
+    "Repair: transpatellar tunnels or anchors/sutures through tendon layers + retinacula. Chronic may need V-Y or graft augmentation.",
+    "Anterior midline or slightly medial incision over the tendon gap and superior patella. Develop subcutaneous plane, protect any saphenous branches. Expose the ruptured tendon ends and superior patella pole.",
+    "Repair: freshen tendon ends. Use heavy non-absorbable suture in Krackow or similar through the 2-4 layers. Pass through transpatellar bone tunnels or use anchors/screws in superior patella. Repair retinacula for stability and tracking.",
+    "Post-repair: assess tracking on trochlea, tension, and stability. Close in layers. Protect repair post-op (brace, limited flexion initially)."
+  ],
+  "approach_landmarks": [
+    "Patella superior pole",
+    "Quad tendon",
+    "Essential palpable landmark from approach or reduction content.",
+    "Essential palpable landmark from approach or reduction content.",
+    "Essential palpable landmark from approach or reduction content."
+  ],
+  "surgical_layers": [
+    {
+      "layer_name": "Superficial (skin to quad tendon fascia / retinacula)",
+      "what_user_should_know": "Midline or slightly medial anterior incision over the palpable gap and superior patella. Develop subcutaneous flaps, identify/protect infrapatellar saphenous branches if crossing. Expose the ruptured quad tendon and superior patella pole with retinacular extensions.",
+      "key_structures": [
+        "Quadriceps tendon (ruptured ends)",
+        "Superior patella pole",
+        "Medial/lateral retinacula",
+        "Infrapatellar saphenous branches"
+      ],
+      "structures_at_risk": [
+        "Infrapatellar branch of saphenous nerve"
+      ],
+      "surgical_relevance": "Standard anterior approach for quad tendon repair. Early sensory nerve protection and full exposure of layers + retinacula are key for multi-layer repair and tracking.",
+      "source_refs": [
+        "https://www.orthobullets.com/knee-and-sports/3023/quadriceps-tendon-rupture"
+      ]
+    },
+    {
+      "layer_name": "Deep (tendon layers to patella insertion)",
+      "what_user_should_know": "Identify the 2-4 tendon layers (ant RF, mid VM+VL, deep VI). Freshen ends. Repair with heavy suture (Krackow or similar) through layers. Secure to superior patella via transpatellar tunnels or anchors. Repair retinacula for lateral/medial stability and patellar tracking on trochlea.",
+      "key_structures": [
+        "Quadriceps tendon layers (RF/VM+VL/VI)",
+        "Superior patella pole + retinacula",
+        "Suprapatellar pouch (joint communication)"
+      ],
+      "structures_at_risk": [
+        "Patellofemoral tracking (trochlea)",
+        "Retinacular integrity"
+      ],
+      "surgical_relevance": "The repair layer. Multi-layer anatomic repair + retinacula is essential for strength, tracking, and preventing re-rupture or maltracking.",
+      "source_refs": [
+        "https://www.orthobullets.com/knee-and-sports/3023/quadriceps-tendon-rupture"
+      ]
+    },
+    {
+      "layer_name": "Closure and tracking assessment",
+      "what_user_should_know": "After repair, assess patellar tracking through full ROM on trochlea. Close in layers (fascia if possible, subcutaneous, skin). Protect repair post-op (brace in extension or limited flexion, gradual ROM). Monitor for stiffness or tracking issues.",
+      "key_structures": [
+        "Repaired quad tendon + retinacula",
+        "Patella / trochlea (tracking)",
+        "Skin/subcutaneous closure"
+      ],
+      "structures_at_risk": [
+        "Repair integrity (re-rupture risk early)",
+        "Patellofemoral tracking"
+      ],
+      "surgical_relevance": "Closure layer confirms tracking and protects the repair. Early protected motion balances healing vs stiffness.",
+      "source_refs": [
+        "https://www.orthobullets.com/knee-and-sports/3023/quadriceps-tendon-rupture"
+      ]
+    }
+  ],
+  "structures_at_risk": [
+    {
+      "structure": "Infrapatellar branch of saphenous nerve",
+      "why_at_risk": "Crosses anterior knee in subcutaneous or retinacular plane; at risk during anterior incision for quad tendon exposure/repair.",
+      "how_to_avoid_injury": "Identify under skin flap if visible; protect or retract medially/laterally. Avoid blind cautery in subcutaneous layer.",
+      "consequence_of_injury": "Anterolateral knee/ patellar numbness or painful neuroma. Tolerable but can be annoying post-op.",
+      "approach_context": "Anterior approach for quadriceps tendon repair",
+      "source_refs": [
+        "https://www.orthobullets.com/knee-and-sports/3023/quadriceps-tendon-rupture"
+      ]
+    },
+    {
+      "structure": "Superior patella pole and retinacula",
+      "why_at_risk": "Insertion site for quad tendon; retinacula provide lateral/medial stability. Poor repair leads to tracking issues or re-rupture.",
+      "how_to_avoid_injury": "Freshen bone/tendon interface. Secure multi-layer repair through bone tunnels or anchors. Repair retinacula anatomically for stability and patellar tracking.",
+      "consequence_of_injury": "Extensor lag, patellar maltracking/tilt, re-rupture, or need for revision/augmentation.",
+      "approach_context": "Quad tendon insertion/repair at superior patella",
+      "source_refs": [
+        "https://www.orthobullets.com/knee-and-sports/3023/quadriceps-tendon-rupture"
+      ]
+    },
+    {
+      "structure": "Patellofemoral joint / trochlea (tracking)",
+      "why_at_risk": "Quad tendon repair affects patellar position and extensor pull; imbalance or overtensioning leads to tilt, subluxation, or pain on trochlea.",
+      "how_to_avoid_injury": "Assess tracking intra-op after repair (through ROM). Avoid overtension; ensure balanced retinacular repair. Check for trochlear dysplasia or other factors.",
+      "consequence_of_injury": "Patellofemoral pain, instability, maltracking, or arthritis. May require revision or realignment procedures.",
+      "approach_context": "Extensor mechanism repair and patellar tracking assessment",
+      "source_refs": [
+        "https://www.orthobullets.com/knee-and-sports/3023/quadriceps-tendon-rupture"
+      ]
+    },
+    {
+      "structure": "Suprapatellar pouch / joint communication",
+      "why_at_risk": "Communicates with knee joint; hematoma or infection risk if not managed. Repair must restore extensor continuity without joint contamination issues.",
+      "how_to_avoid_injury": "Control bleeding into pouch. Repair in layers. Post-op wound care and monitor for effusion/infection.",
+      "consequence_of_injury": "Hematoma, stiffness, or septic arthritis if contamination occurs.",
+      "approach_context": "Anterior quad repair near suprapatellar pouch",
+      "source_refs": [
+        "https://www.orthobullets.com/knee-and-sports/3023/quadriceps-tendon-rupture"
+      ]
+    }
+  ],
+  "implant_strategy": [],
+  "reduction_or_fluoro_checkpoints": [],
+  "pitfalls": [
+    "Failure to identify/protect infrapatellar saphenous branch in anterior incision, causing annoying numbness or neuroma.",
+    "Inadequate multi-layer repair or retinacular repair leading to extensor lag, patellar maltracking, or re-rupture.",
+    "Overtensioning or poor tracking assessment after repair, causing patellofemoral pain or instability.",
+    "Missing chronic nature or retraction (needs V-Y/graft); early repair has better outcomes.",
+    "Ignoring suprapatellar pouch communication (hematoma or infection risk)."
+  ],
+  "attending_pimp_questions": [
+    "Q: Describe the layers of the quadriceps tendon and why identifying them matters for repair. A: 2-4 layers (ant rectus femoris, mid vastus med + lat, deep vastus int). Identifying allows anatomic multi-layer repair for strength and prevents gapping or weakness.",
+    "Q: What is the role of the medial and lateral retinacula in quadriceps tendon repair and patellar tracking? A: Provide important medial/lateral extensions for repair stability. Repairing them restores balanced pull and prevents tilt/subluxation on the trochlea.",
+    "Q: How do you assess and protect patellofemoral tracking after quad tendon repair? A: After repair, cycle knee through ROM and observe patellar tracking on trochlea. Repair retinacula anatomically; avoid overtension. Check for dysplasia or other factors if maltracking persists.",
+    "Q: What sensory nerve is at risk in anterior approach for quad tendon repair and consequence of injury? A: Infrapatellar branch of saphenous. Injury causes anterolateral knee/patellar numbness or neuroma (tolerable but annoying). Identify/protect under skin flap.",
+    "Q: What are options for chronic quadriceps tendon rupture with retraction? A: V-Y advancement, tendon graft augmentation, or transpatellar repair with reinforcement. Early repair is ideal; chronic has higher re-rupture and stiffness risk."
+  ],
+  "postop_plan": [
+    "Review linked modules and source URLs",
+    "Memorize key SAR and landmarks",
+    "Practice the 10+ pimp questions",
+    "Walk through the night-before checklist",
+    "Confirm any case-specific fluoroscopy or approach details"
+  ]
+}

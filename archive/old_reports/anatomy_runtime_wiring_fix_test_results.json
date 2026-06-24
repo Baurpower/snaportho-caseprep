@@ -1,0 +1,125 @@
+{
+  "summary": {
+    "total": 9,
+    "passed": 9,
+    "failed": 0
+  },
+  "results": [
+    {
+      "timestamp": "2026-06-06T01:41:52.679338+00:00",
+      "case": "bimalleolar ankle fracture ORIF",
+      "scenario": "A_flag_off_legacy",
+      "ok": true,
+      "details": {
+        "status": 200,
+        "has_approach": true,
+        "has_quiz": true,
+        "mode": "n/a",
+        "sample_keys": [
+          "approachSelection",
+          "anatomyQuiz",
+          "router"
+        ]
+      }
+    },
+    {
+      "timestamp": "2026-06-06T01:41:52.680824+00:00",
+      "case": "distal radius fracture ORIF",
+      "scenario": "A_flag_off_legacy",
+      "ok": true,
+      "details": {
+        "status": 200,
+        "has_approach": true,
+        "has_quiz": true,
+        "mode": "n/a",
+        "sample_keys": [
+          "approachSelection",
+          "anatomyQuiz",
+          "router"
+        ]
+      }
+    },
+    {
+      "timestamp": "2026-06-06T01:41:52.682328+00:00",
+      "case": "bimalleolar ankle fracture ORIF",
+      "scenario": "B_flag_on_local",
+      "ok": true,
+      "details": {
+        "status": 200,
+        "has_approach": true,
+        "has_quiz": true,
+        "mode": "miller_gold_local"
+      }
+    },
+    {
+      "timestamp": "2026-06-06T01:41:52.683812+00:00",
+      "case": "distal radius fracture ORIF",
+      "scenario": "B_flag_on_local",
+      "ok": true,
+      "details": {
+        "status": 200,
+        "has_approach": true,
+        "has_quiz": true,
+        "mode": "miller_gold_local"
+      }
+    },
+    {
+      "timestamp": "2026-06-06T01:41:52.685201+00:00",
+      "case": "posterior THA",
+      "scenario": "C_flag_on_pinecone",
+      "ok": true,
+      "details": {
+        "status": 200,
+        "has_approach": true,
+        "has_quiz": true,
+        "mode": "miller_gold_pinecone"
+      }
+    },
+    {
+      "timestamp": "2026-06-06T01:41:52.686585+00:00",
+      "case": "carpal tunnel release",
+      "scenario": "C_flag_on_pinecone",
+      "ok": true,
+      "details": {
+        "status": 200,
+        "has_approach": true,
+        "has_quiz": true,
+        "mode": "miller_gold_pinecone"
+      }
+    },
+    {
+      "timestamp": "2026-06-06T01:41:52.687811+00:00",
+      "case": "bimalleolar ankle fracture ORIF",
+      "scenario": "D1_miller_fail_legacy_ok",
+      "ok": true,
+      "details": {
+        "status": 200,
+        "has_approach": true,
+        "has_quiz": true,
+        "retrievalMode": "unavailable"
+      }
+    },
+    {
+      "timestamp": "2026-06-06T01:41:52.689118+00:00",
+      "case": "bimalleolar ankle fracture ORIF",
+      "scenario": "D2_legacy_fail_miller_ok",
+      "ok": true,
+      "details": {
+        "status": 200,
+        "retrievalMode": "miller_gold_local",
+        "has_sources": true
+      }
+    },
+    {
+      "timestamp": "2026-06-06T01:42:01.463800+00:00",
+      "case": "bimalleolar ankle fracture ORIF",
+      "scenario": "D3_caseprep_hybrid_smoke",
+      "ok": true,
+      "details": {
+        "status": 200,
+        "has_pimp": true,
+        "mode": "miller_gold_local"
+      }
+    }
+  ]
+}

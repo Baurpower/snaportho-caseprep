@@ -1,0 +1,133 @@
+{
+  "generated_at": "2026-06-06T00:00:49.542537+00:00",
+  "backend": "pinecone",
+  "namespace": "anatomy_miller_gold_v1",
+  "results": [
+    {
+      "query": "distal radius fracture volar approach",
+      "retrieved_count": 10,
+      "limitedAnatomyContext": false,
+      "retrievalMode": "miller_gold_pinecone",
+      "sources_count": 3,
+      "relevant_count": 1,
+      "at_risk_count": 2,
+      "top_ids": [
+        "miller-canonical-p27-2269428c1e6c",
+        "miller-canonical-p33-d41b150ba1ec",
+        "miller-canonical-p81-58f143236d1c"
+      ]
+    },
+    {
+      "query": "carpal tunnel release",
+      "retrieved_count": 10,
+      "limitedAnatomyContext": false,
+      "retrievalMode": "miller_gold_pinecone",
+      "sources_count": 6,
+      "relevant_count": 8,
+      "at_risk_count": 2,
+      "top_ids": [
+        "miller-canonical-p7-ab4253d41beb",
+        "miller-canonical-p7-d7a3b1806c8a",
+        "miller-canonical-p20-b5ac282be521"
+      ]
+    },
+    {
+      "query": "posterior total hip arthroplasty",
+      "retrieved_count": 10,
+      "limitedAnatomyContext": false,
+      "retrievalMode": "miller_gold_pinecone",
+      "sources_count": 4,
+      "relevant_count": 3,
+      "at_risk_count": 1,
+      "top_ids": [
+        "miller-canonical-p72-73a8a0145f93",
+        "miller-canonical-p69-b88af56366cd",
+        "miller-canonical-p64-a0ace2d9a1bf"
+      ]
+    },
+    {
+      "query": "total knee arthroplasty medial parapatellar approach",
+      "retrieved_count": 10,
+      "limitedAnatomyContext": false,
+      "retrievalMode": "miller_gold_pinecone",
+      "sources_count": 4,
+      "relevant_count": 3,
+      "at_risk_count": 1,
+      "top_ids": [
+        "miller-canonical-p77-ee16edb85354",
+        "miller-canonical-p77-5437b4f123d1",
+        "miller-canonical-p79-83f37d8afd60"
+      ]
+    },
+    {
+      "query": "ACL reconstruction",
+      "retrieved_count": 10,
+      "limitedAnatomyContext": false,
+      "retrievalMode": "miller_gold_pinecone",
+      "sources_count": 6,
+      "relevant_count": 7,
+      "at_risk_count": 2,
+      "top_ids": [
+        "miller-canonical-p63-8ae3e0123f86",
+        "miller-canonical-p45-b9a7e2bdd071",
+        "miller-canonical-p107-ea7b2f38d44c"
+      ]
+    },
+    {
+      "query": "rotator cuff repair",
+      "retrieved_count": 10,
+      "limitedAnatomyContext": false,
+      "retrievalMode": "miller_gold_pinecone",
+      "sources_count": 6,
+      "relevant_count": 8,
+      "at_risk_count": 0,
+      "top_ids": [
+        "miller-canonical-p26-965baf69ba4a",
+        "miller-canonical-p107-59b9fb758b7d",
+        "miller-canonical-p2-2153db809135"
+      ]
+    },
+    {
+      "query": "ankle ORIF lateral malleolus",
+      "retrieved_count": 10,
+      "limitedAnatomyContext": false,
+      "retrievalMode": "miller_gold_pinecone",
+      "sources_count": 4,
+      "relevant_count": 3,
+      "at_risk_count": 1,
+      "top_ids": [
+        "miller-canonical-p52-cf5833e957d4",
+        "miller-canonical-p48-a8b8874675e7",
+        "miller-canonical-p81-6798967ca674"
+      ]
+    },
+    {
+      "query": "cubital tunnel release",
+      "retrieved_count": 10,
+      "limitedAnatomyContext": false,
+      "retrievalMode": "miller_gold_pinecone",
+      "sources_count": 6,
+      "relevant_count": 7,
+      "at_risk_count": 3,
+      "top_ids": [
+        "miller-canonical-p20-6fe22f4d3227",
+        "miller-canonical-p6-22739fcd3da1",
+        "miller-canonical-p33-a4899f384068"
+      ]
+    },
+    {
+      "query": "acetabular fracture ilioinguinal approach",
+      "retrieved_count": 10,
+      "limitedAnatomyContext": false,
+      "retrievalMode": "miller_gold_pinecone",
+      "sources_count": 4,
+      "relevant_count": 3,
+      "at_risk_count": 1,
+      "top_ids": [
+        "miller-canonical-p69-4899d1caa158",
+        "miller-canonical-p72-73a8a0145f93",
+        "miller-canonical-p40-acd2c40e8819"
+      ]
+    }
+  ]
+}

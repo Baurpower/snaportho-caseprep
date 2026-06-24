@@ -1,0 +1,20 @@
+{
+  "slug": "reverse_shoulder_arthroplasty",
+  "display_name": "Reverse Shoulder Arthroplasty",
+  "specialty": "adult_reconstruction",
+  "body_region": "shoulder",
+  "procedure_family": "procedure",
+  "status": "active",
+  "content_status": "certified",
+  "review_status": "certified",
+  "version": "1.0.0",
+  "caseprep_schema_version": "brobot_case_prep_payload_v2",
+  "coverage_score": 90,
+  "runtime_enabled": true,
+  "deprecated": false,
+  "replacement_slug": null,
+  "reviewer": "brobot_migration",
+  "certified_at": "2026-06-06T18:14:05.550765Z",
+  "last_reviewed_at": "2026-06-06T18:14:05.550765Z",
+  "source_payload_hash": "198a5c985ecc127604f6832b222c97656e97dc4ae27e96ed372f55f3f3b2a058"
+}

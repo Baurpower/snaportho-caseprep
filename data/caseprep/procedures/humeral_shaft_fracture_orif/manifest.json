@@ -1,0 +1,20 @@
+{
+  "slug": "humeral_shaft_fracture_orif",
+  "display_name": "Humeral Shaft Fracture ORIF",
+  "specialty": "trauma",
+  "body_region": "humerus",
+  "procedure_family": "procedure",
+  "status": "active",
+  "content_status": "certified",
+  "review_status": "certified",
+  "version": "1.0.0",
+  "caseprep_schema_version": "brobot_case_prep_payload_v2",
+  "coverage_score": 100,
+  "runtime_enabled": true,
+  "deprecated": false,
+  "replacement_slug": null,
+  "reviewer": "brobot_migration",
+  "certified_at": "2026-06-06T18:14:05.550743Z",
+  "last_reviewed_at": "2026-06-06T18:14:05.550743Z",
+  "source_payload_hash": "a034b581ee40faf4f553ef3be8136dda221bd29ac33afec2b57092bea76d060d"
+}

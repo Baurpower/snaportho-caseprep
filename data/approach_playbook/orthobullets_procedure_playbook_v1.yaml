@@ -1,0 +1,1104 @@
+- procedure_id: bimalleolar_ankle_orif
+  display_name: Bimalleolar Ankle ORIF
+  specialty: trauma
+  region: ankle
+  orthobullets_urls:
+  - https://www.orthobullets.com/trauma/1047/ankle-fractures
+  recommended_approach_ids: []
+  conditional_approach_ids:
+  - condition: posterior malleolus mentioned or trimalleolar pattern
+    triggers:
+    - posterior malleolus
+    - posterior fragment
+    - trimalleolar
+    - posterior mal
+    approach_ids:
+    - approach_lower_ext_ankle_posteromedial
+  blocked_approach_ids:
+  - approach_lower_ext_ankle_anterior
+  important_anatomy: []
+  structures_at_risk: []
+  landmarks: []
+  approach_notes:
+  - text: 'Per map evidence: OB describes specific approaches (e.g. lateral for bimalleolar)
+      but catalog gaps prevent full recommended IDs. No free-form guessing; limited
+      to available (e.g. posteromedial for some ankle variants).'
+    source_url: https://www.orthobullets.com/trauma/1047/ankle-fractures
+    source_section: evidence_note from map
+    confidence: low
+  pimp_topics:
+  - Key approach for this case per OB and map?
+  - Primary structure at risk?
+  manual_review: true
+  review_reason: OB (trauma/1047) specifies direct lateral approach to fibula + direct
+    medial approach to ankle for bimalleolar; also lists dedicated posterolateral
+    and posteromedial for variants with posterior involvement. Dedicated 'Approach
+    to the Lateral Malleolus' page exists. Catalog has no lateral fibula or dedicated
+    medial malleolus ID (only anterior + posteromedial ankle). Anterior ankle explicitly
+    for joint/talus access, not routine bimalleolar. Map therefore leaves recommended
+    empty + blocks anterior; manual_review required until catalog expanded.
+- procedure_id: trimalleolar_ankle_orif
+  display_name: Trimalleolar Ankle ORIF
+  specialty: trauma
+  region: ankle
+  orthobullets_urls:
+  - https://www.orthobullets.com/trauma/1047/ankle-fractures
+  recommended_approach_ids: []
+  conditional_approach_ids:
+  - condition: posterior access required
+    triggers:
+    - posterior malleolus
+    - posterior fragment
+    approach_ids:
+    - approach_lower_ext_ankle_posteromedial
+  blocked_approach_ids:
+  - approach_lower_ext_ankle_anterior
+  important_anatomy: []
+  structures_at_risk: []
+  landmarks: []
+  approach_notes:
+  - text: 'Per map evidence: OB describes specific approaches (e.g. lateral for bimalleolar)
+      but catalog gaps prevent full recommended IDs. No free-form guessing; limited
+      to available (e.g. posteromedial for some ankle variants).'
+    source_url: https://www.orthobullets.com/trauma/1047/ankle-fractures
+    source_section: evidence_note from map
+    confidence: low
+  pimp_topics:
+  - Key approach for this case per OB and map?
+  - Primary structure at risk?
+  manual_review: true
+  review_reason: OB (trauma/1047) describes posterolateral or posteromedial for posterior
+    malleolus + lateral for fibula + medial for medial malleolus. No matching lateral
+    or posterolateral catalog IDs. Anterior blocked for standard trimalleolar. manual_review
+    due to catalog gap.
+- procedure_id: pilon_ankle_fracture_orif
+  display_name: Pilon (Tibial Plafond) Fracture ORIF
+  specialty: trauma
+  region: ankle
+  orthobullets_urls:
+  - https://www.orthobullets.com/trauma/1048/pilon-fractures
+  recommended_approach_ids: []
+  conditional_approach_ids: []
+  blocked_approach_ids:
+  - approach_lower_ext_ankle_anterior
+  important_anatomy: []
+  structures_at_risk: []
+  landmarks: []
+  approach_notes:
+  - text: 'Per map evidence: OB describes specific approaches (e.g. lateral for bimalleolar)
+      but catalog gaps prevent full recommended IDs. No free-form guessing; limited
+      to available (e.g. posteromedial for some ankle variants).'
+    source_url: https://www.orthobullets.com/trauma/1048/pilon-fractures
+    source_section: evidence_note from map
+    confidence: low
+  pimp_topics:
+  - Key approach for this case per OB and map?
+  - Primary structure at risk?
+  manual_review: true
+  review_reason: OB pilon page and related ankle approaches discuss anterior, anteromedial,
+    posteromedial, and extensile options depending on fragment pattern. Catalog only
+    has generic anterior + posteromedial; no pilon-specific lateral or combined. Blocked
+    anterior as default for many patterns. manual_review.
+- procedure_id: calcaneus_fracture_orif
+  display_name: Calcaneus Fracture ORIF
+  specialty: trauma
+  region: foot
+  orthobullets_urls:
+  - https://www.orthobullets.com/trauma/1051/calcaneus-fractures
+  recommended_approach_ids: []
+  conditional_approach_ids: []
+  blocked_approach_ids: []
+  important_anatomy: []
+  structures_at_risk: []
+  landmarks: []
+  approach_notes:
+  - text: 'Per map evidence: OB describes specific approaches (e.g. lateral for bimalleolar)
+      but catalog gaps prevent full recommended IDs. No free-form guessing; limited
+      to available (e.g. posteromedial for some ankle variants).'
+    source_url: https://www.orthobullets.com/trauma/1051/calcaneus-fractures
+    source_section: evidence_note from map
+    confidence: low
+  pimp_topics:
+  - Key approach for this case per OB and map?
+  - Primary structure at risk?
+  manual_review: true
+  review_reason: OB calcaneus topic describes extensile lateral approach (L-shaped)
+    as classic for ORIF, plus sinus tarsi and other limited. No matching catalog ID
+    for extensile lateral calcaneus or foot-specific. manual_review.
+- procedure_id: distal_radius_fracture_orif
+  display_name: Distal Radius Fracture ORIF
+  specialty: trauma
+  region: wrist
+  orthobullets_urls:
+  - https://www.orthobullets.com/trauma/1027/distal-radius-fractures
+  - https://www.orthobullets.com/approaches/12071/fcr-approach-to-distal-radius
+  - https://www.orthobullets.com/approaches/12013/dorsal-approach-to-the-wrist
+  recommended_approach_ids:
+  - approach_wrist_volar_distal_henry
+  conditional_approach_ids:
+  - condition: dorsal fragment or dorsal plate or dorsal comminution or dorsal approach
+      indicated
+    triggers:
+    - dorsal fragment
+    - dorsal plate
+    - dorsal comminution
+    - dorsal approach
+    - dorsal spanning
+    approach_ids:
+    - approach_wrist_dorsal
+  blocked_approach_ids: []
+  important_anatomy:
+  - text: 'Distal radius responsible for 80% of axial load through wrist. Articulates
+      with scaphoid via scaphoid fossa, lunate via lunate fossa, distal ulna via ulnar/sigmoid
+      notch. Comprised of three columns: radial (radial styloid/scaphoid fossa; attachments
+      for brachioradialis, long radiolunate, radioscaphocapitate ligaments), intermediate
+      (lunate fossa), ulnar (TFCC and distal ulna for DRUJ stability and forearm rotation).'
+    source_url: https://www.orthobullets.com/trauma/1027/distal-radius-fractures
+    source_section: Anatomy > Osteology
+    confidence: high
+  - text: Lister's tubercle on dorsal surface ~1 cm proximal to articular surface;
+      EPL tendon lies just ulnar to it before sharp turn into thumb. Important landmark
+      to avoid EPL attritional rupture with long volar plate screws.
+    source_url: https://www.orthobullets.com/trauma/1027/distal-radius-fractures
+    source_section: Anatomy > Osteology
+    confidence: high
+  - text: 'Watershed line: most volar and prominent aspect of distal radius (lunate
+      portion most prominent with short radiolunate ligament attachment). Critical
+      region to remain proximal to for volar plate fixation to avoid FPL rupture.'
+    source_url: https://www.orthobullets.com/trauma/1027/distal-radius-fractures
+    source_section: Anatomy > Osteology
+    confidence: high
+  - text: Internervous plane in FCR approach between FCR (median n.) and FPL (AIN).
+    source_url: https://www.orthobullets.com/approaches/12071/fcr-approach-to-distal-radius
+    source_section: Plane
+    confidence: high
+  structures_at_risk:
+  - structure: Palmar cutaneous branch of median nerve
+    why_it_matters: Arises 5 cm proximal to wrist joint; runs ulnar to FCR. Injury
+      causes thenar numbness or neuroma.
+    source_url: https://www.orthobullets.com/approaches/12071/fcr-approach-to-distal-radius
+    source_section: Dangers
+    confidence: high
+  - structure: Radial artery
+    why_it_matters: Cannot ligate if poor ulnar contribution on Allen's test. At risk
+      during retraction.
+    source_url: https://www.orthobullets.com/approaches/12071/fcr-approach-to-distal-radius
+    source_section: Dangers
+    confidence: high
+  - structure: Volar wrist capsule ligaments
+    why_it_matters: Do not remove from volar distal radius unless joint access needed;
+      errant release leads to radiocarpal instability.
+    source_url: https://www.orthobullets.com/approaches/12071/fcr-approach-to-distal-radius
+    source_section: Dangers
+    confidence: high
+  - structure: Posterior interosseous nerve (PIN)
+    why_it_matters: At risk in Henry-type or dorsal approaches; protect with forearm
+      position and subperiosteal dissection.
+    source_url: https://www.orthobullets.com/approaches/12010/volar-approach-to-radius-henry
+    source_section: Dangers
+    confidence: high
+  - structure: Superficial radial nerve
+    why_it_matters: Vulnerable in superficial dissection; injury causes painful neuroma
+      or sensory loss.
+    source_url: https://www.orthobullets.com/approaches/12013/dorsal-approach-to-the-wrist
+    source_section: Dangers
+    confidence: high
+  landmarks:
+  - landmark: FCR tendon sheath
+    why_it_matters: Primary landmark for volar incision and interval development.
+    source_url: https://www.orthobullets.com/approaches/12071/fcr-approach-to-distal-radius
+    source_section: Approach > Incision
+    confidence: high
+  - landmark: Lister's tubercle
+    why_it_matters: Dorsal landmark; guides EPL protection and dorsal approaches.
+    source_url: https://www.orthobullets.com/trauma/1027/distal-radius-fractures
+    source_section: Anatomy
+    confidence: high
+  - landmark: Radial styloid
+    why_it_matters: Attachment for key ligaments; reference for radial column fixation.
+    source_url: https://www.orthobullets.com/trauma/1027/distal-radius-fractures
+    source_section: Anatomy
+    confidence: high
+  - landmark: Watershed line
+    why_it_matters: Most volar prominence; stay proximal with volar plates to protect
+      FPL.
+    source_url: https://www.orthobullets.com/trauma/1027/distal-radius-fractures
+    source_section: Anatomy
+    confidence: high
+  approach_notes:
+  - text: 'Volar FCR approach: incision along FCR tendon sheath (ulnar/radial curve
+      at crease), develop plane, retract FCR ulnarly, incise FCR sheath dorsally,
+      retract FPL ulnarly, incise PQ borders and elevate. Proximal/distal extensions
+      as needed for median n. or scaphoid.'
+    source_url: https://www.orthobullets.com/approaches/12071/fcr-approach-to-distal-radius
+    source_section: Approach
+    confidence: high
+  - text: Dorsal approach useful for displaced intra-articular dorsal lip fx or carpal
+      work; no true internervous plane, between 3rd/4th extensor compartments.
+    source_url: https://www.orthobullets.com/approaches/12013/dorsal-approach-to-the-wrist
+    source_section: Approach
+    confidence: high
+  - text: Volar plating preferred; plate must not be placed distal to watershed line
+      to avoid FPL irritation/rupture. Assess screw penetration with skyline and 23°
+      elevated lateral views.
+    source_url: https://www.orthobullets.com/trauma/1027/distal-radius-fractures
+    source_section: Techniques > ORIF
+    confidence: high
+  pimp_topics:
+  - What is the watershed line of the distal radius and why must volar plates remain
+    proximal to it?
+  - Which nerve branches are at risk in the FCR (volar) approach to the distal radius,
+    and how do they run relative to the FCR?
+  - Describe the three-column concept of the distal radius and the key ligament attachments
+    of the radial column.
+  - What is Lister's tubercle and its relationship to the EPL tendon? Clinical relevance
+    for volar plating?
+  manual_review: false
+  review_reason: ''
+- procedure_id: proximal_humerus_fracture_orif
+  display_name: Proximal Humerus Fracture ORIF
+  specialty: trauma
+  region: shoulder
+  orthobullets_urls:
+  - https://www.orthobullets.com/trauma/1018/proximal-humerus-fractures
+  recommended_approach_ids:
+  - approach_shoulder_deltopectoral
+  - approach_shoulder_lateral_deltoid_split
+  conditional_approach_ids: []
+  blocked_approach_ids: []
+  important_anatomy: []
+  structures_at_risk: []
+  landmarks: []
+  approach_notes: []
+  pimp_topics:
+  - Key approach for this case per OB and map?
+  - Primary structure at risk?
+  manual_review: false
+  review_reason: ''
+- procedure_id: radial_head_fracture_orif
+  display_name: Radial Head Fracture ORIF
+  specialty: trauma
+  region: elbow
+  orthobullets_urls:
+  - https://www.orthobullets.com/trauma/1020/radial-head-fractures
+  recommended_approach_ids:
+  - approach_elbow_lateral_kocher
+  conditional_approach_ids: []
+  blocked_approach_ids: []
+  important_anatomy: []
+  structures_at_risk: []
+  landmarks: []
+  approach_notes: []
+  pimp_topics:
+  - Key approach for this case per OB and map?
+  - Primary structure at risk?
+  manual_review: false
+  review_reason: ''
+- procedure_id: olecranon_fracture_orif
+  display_name: Olecranon Fracture ORIF
+  specialty: trauma
+  region: elbow
+  orthobullets_urls:
+  - https://www.orthobullets.com/trauma/1021/olecranon-fractures
+  recommended_approach_ids: []
+  conditional_approach_ids: []
+  blocked_approach_ids: []
+  important_anatomy: []
+  structures_at_risk: []
+  landmarks: []
+  approach_notes:
+  - text: 'Per map evidence: OB describes specific approaches (e.g. lateral for bimalleolar)
+      but catalog gaps prevent full recommended IDs. No free-form guessing; limited
+      to available (e.g. posteromedial for some ankle variants).'
+    source_url: https://www.orthobullets.com/trauma/1021/olecranon-fractures
+    source_section: evidence_note from map
+    confidence: low
+  pimp_topics:
+  - Key approach for this case per OB and map?
+  - Primary structure at risk?
+  manual_review: true
+  review_reason: OB olecranon topic describes posterior approaches (midline posterior,
+    triceps splitting or reflecting, with or without olecranon osteotomy for complex).
+    No dedicated posterior elbow or olecranon catalog ID exists (only lateral Kocher).
+    manual_review / catalog gap.
+- procedure_id: both_bone_forearm_fracture_orif
+  display_name: Both Bone Forearm Fracture ORIF
+  specialty: trauma
+  region: forearm
+  orthobullets_urls:
+  - https://www.orthobullets.com/trauma/1023/forearm-fractures-both-bone
+  recommended_approach_ids:
+  - approach_forearm_anterior_henry
+  conditional_approach_ids:
+  - condition: ulna only or specific ulnar access needed
+    triggers:
+    - ulna ORIF
+    - ulnar shaft
+    - subcutaneous ulna
+    approach_ids: []
+  blocked_approach_ids: []
+  important_anatomy: []
+  structures_at_risk: []
+  landmarks: []
+  approach_notes: []
+  pimp_topics:
+  - Key approach for this case per OB and map?
+  - Primary structure at risk?
+  manual_review: false
+  review_reason: ''
+- procedure_id: acetabulum_fracture_orif_anterior
+  display_name: Acetabulum Fracture ORIF (Anterior/Ilioinguinal)
+  specialty: trauma
+  region: pelvis
+  orthobullets_urls:
+  - https://www.orthobullets.com/trauma/1035/acetabular-fractures
+  recommended_approach_ids:
+  - approach_lower_ext_pelvis_acetabulum_anterior_ilioinguinal
+  conditional_approach_ids: []
+  blocked_approach_ids: []
+  important_anatomy: []
+  structures_at_risk: []
+  landmarks: []
+  approach_notes: []
+  pimp_topics:
+  - Key approach for this case per OB and map?
+  - Primary structure at risk?
+  manual_review: false
+  review_reason: ''
+- procedure_id: acetabulum_fracture_orif_posterior
+  display_name: Acetabulum Fracture ORIF (Posterior/Kocher-Langenbeck)
+  specialty: trauma
+  region: pelvis
+  orthobullets_urls:
+  - https://www.orthobullets.com/trauma/1035/acetabular-fractures
+  recommended_approach_ids:
+  - approach_lower_ext_pelvis_acetabulum_posterior_kocher_langenbeck
+  conditional_approach_ids: []
+  blocked_approach_ids: []
+  important_anatomy: []
+  structures_at_risk: []
+  landmarks: []
+  approach_notes: []
+  pimp_topics:
+  - Key approach for this case per OB and map?
+  - Primary structure at risk?
+  manual_review: false
+  review_reason: ''
+- procedure_id: pelvis_ring_fracture_orif
+  display_name: Pelvis Ring Fracture ORIF
+  specialty: trauma
+  region: pelvis
+  orthobullets_urls:
+  - https://www.orthobullets.com/trauma/1034/pelvis-fractures
+  recommended_approach_ids: []
+  conditional_approach_ids: []
+  blocked_approach_ids: []
+  important_anatomy: []
+  structures_at_risk: []
+  landmarks: []
+  approach_notes:
+  - text: 'Per map evidence: OB describes specific approaches (e.g. lateral for bimalleolar)
+      but catalog gaps prevent full recommended IDs. No free-form guessing; limited
+      to available (e.g. posteromedial for some ankle variants).'
+    source_url: https://www.orthobullets.com/trauma/1034/pelvis-fractures
+    source_section: evidence_note from map
+    confidence: low
+  pimp_topics:
+  - Key approach for this case per OB and map?
+  - Primary structure at risk?
+  manual_review: true
+  review_reason: OB pelvis fractures describe anterior (Pfannenstiel/Stoppa/ilioinguinal
+    variants) and posterior (KL or percutaneous) depending on instability pattern.
+    Catalog has ilioinguinal and KL but no dedicated anterior pelvic ring or Stoppa
+    ID. Limited mapping possible; many percutaneous. manual_review for open cases.
+- procedure_id: hip_hemiarthroplasty
+  display_name: Hip Hemiarthroplasty
+  specialty: recon
+  region: hip
+  orthobullets_urls:
+  - https://www.orthobullets.com/trauma/1037/femoral-neck-fractures
+  - https://www.orthobullets.com/recon/12116/tha-approaches
+  recommended_approach_ids:
+  - approach_lower_ext_hip_posterior_moore_southern
+  conditional_approach_ids: []
+  blocked_approach_ids: []
+  important_anatomy:
+  - text: 'Key intervals: posterior shares with Kocher-Langenbeck (gluteus maximus
+      split, short ERs). Anterior: TFL/sartorius then rectus/gluteus medius. Lateral:
+      no true internervous, splits abductors.'
+    source_url: https://www.orthobullets.com/recon/12116/tha-approaches
+    source_section: Introduction
+    confidence: high
+  structures_at_risk:
+  - structure: Superior gluteal nerve
+    why_it_matters: Runs between gluteus medius and minimus 3-5 cm above GT; protect
+      by limiting proximal split of medius and using stay suture at apex of split.
+      Injury causes Trendelenburg gait.
+    source_url: https://www.orthobullets.com/approaches/12022/hip-direct-lateral-approach-hardinge-transgluteal
+    source_section: Structures at Risk
+    confidence: high
+  landmarks: []
+  approach_notes:
+  - text: 'Direct lateral (Hardinge): split IT band, split gluteus medius/vastus lateralis
+      (limit proximal split to 3-5cm above GT to protect superior gluteal n.). Detach
+      anterior gluteus medius/minimus and vastus lateralis anteriorly.'
+    source_url: https://www.orthobullets.com/approaches/12022/hip-direct-lateral-approach-hardinge-transgluteal
+    source_section: Approach
+    confidence: high
+  pimp_topics:
+  - What nerve is at risk in direct lateral (Hardinge) approach and how far proximal
+    can you safely split the gluteus medius?
+  - Describe the short external rotators and their role in sciatic nerve protection
+    during posterior approach.
+  - Why repair short external rotators after posterior THA?
+  manual_review: false
+  review_reason: ''
+- procedure_id: tha_posterior
+  display_name: Total Hip Arthroplasty (Posterior Approach)
+  specialty: recon
+  region: hip
+  orthobullets_urls:
+  - https://www.orthobullets.com/recon/12116/tha-approaches
+  - https://www.orthobullets.com/recon/12116/tha-approaches
+  recommended_approach_ids:
+  - approach_lower_ext_hip_posterior_moore_southern
+  conditional_approach_ids: []
+  blocked_approach_ids: []
+  important_anatomy:
+  - text: 'Key intervals: posterior shares with Kocher-Langenbeck (gluteus maximus
+      split, short ERs). Anterior: TFL/sartorius then rectus/gluteus medius. Lateral:
+      no true internervous, splits abductors.'
+    source_url: https://www.orthobullets.com/recon/12116/tha-approaches
+    source_section: Introduction
+    confidence: high
+  structures_at_risk:
+  - structure: Sciatic nerve
+    why_it_matters: Initially along posterior quadratus femoris; protect by ER release
+      and posterior retraction of short rotators. Injury more common to peroneal division;
+      may need AFO.
+    source_url: https://www.orthobullets.com/approaches/12023/hip-posterior-approach-moore-or-southern
+    source_section: Dangers
+    confidence: high
+  - structure: Inferior gluteal artery
+    why_it_matters: Leaves pelvis below piriformis; if cut and retracts, may require
+      internal iliac ligation.
+    source_url: https://www.orthobullets.com/approaches/12023/hip-posterior-approach-moore-or-southern
+    source_section: Dangers
+    confidence: high
+  landmarks:
+  - landmark: Greater trochanter and short external rotators (piriformis, obturator
+      internus)
+    why_it_matters: Key for interval and sciatic protection; tag and release close
+      to insertion.
+    source_url: https://www.orthobullets.com/approaches/12023/hip-posterior-approach-moore-or-southern
+    source_section: Approach
+    confidence: high
+  approach_notes:
+  - text: 'Posterior (Moore/Southern): lateral position, incision posterior to GT,
+      split gluteus maximus, detach short ERs (piriformis, obturator internus) with
+      stay sutures and reflect to protect sciatic n., T-capsulotomy, dislocate with
+      IR. Repair short ERs to reduce dislocation risk.'
+    source_url: https://www.orthobullets.com/approaches/12023/hip-posterior-approach-moore-or-southern
+    source_section: Approach
+    confidence: high
+  pimp_topics:
+  - What nerve is at risk in direct lateral (Hardinge) approach and how far proximal
+    can you safely split the gluteus medius?
+  - Describe the short external rotators and their role in sciatic nerve protection
+    during posterior approach.
+  - Why repair short external rotators after posterior THA?
+  manual_review: false
+  review_reason: ''
+- procedure_id: tha_anterior
+  display_name: Total Hip Arthroplasty (Direct Anterior Approach)
+  specialty: recon
+  region: hip
+  orthobullets_urls:
+  - https://www.orthobullets.com/recon/12116/tha-approaches
+  - https://www.orthobullets.com/recon/12116/tha-approaches
+  recommended_approach_ids:
+  - approach_lower_ext_hip_anterior_smith_peterson
+  conditional_approach_ids: []
+  blocked_approach_ids: []
+  important_anatomy:
+  - text: 'Key intervals: posterior shares with Kocher-Langenbeck (gluteus maximus
+      split, short ERs). Anterior: TFL/sartorius then rectus/gluteus medius. Lateral:
+      no true internervous, splits abductors.'
+    source_url: https://www.orthobullets.com/recon/12116/tha-approaches
+    source_section: Introduction
+    confidence: high
+  structures_at_risk: []
+  landmarks: []
+  approach_notes:
+  - text: 'Direct anterior (Smith-Petersen): interval between TFL and sartorius superficially,
+      rectus femoris and gluteus medius deeply. Advantages: abductor sparing, lower
+      dislocation rate in studies.'
+    source_url: https://www.orthobullets.com/recon/12116/tha-approaches
+    source_section: Direct Anterior Approach
+    confidence: high
+  pimp_topics:
+  - What nerve is at risk in direct lateral (Hardinge) approach and how far proximal
+    can you safely split the gluteus medius?
+  - Describe the short external rotators and their role in sciatic nerve protection
+    during posterior approach.
+  - Why repair short external rotators after posterior THA?
+  manual_review: false
+  review_reason: ''
+- procedure_id: tha_lateral
+  display_name: Total Hip Arthroplasty (Lateral/Hardinge Approach)
+  specialty: recon
+  region: hip
+  orthobullets_urls:
+  - https://www.orthobullets.com/recon/12116/tha-approaches
+  - https://www.orthobullets.com/recon/12116/tha-approaches
+  recommended_approach_ids:
+  - approach_lower_ext_hip_lateral_hardinge
+  conditional_approach_ids: []
+  blocked_approach_ids: []
+  important_anatomy:
+  - text: 'Key intervals: posterior shares with Kocher-Langenbeck (gluteus maximus
+      split, short ERs). Anterior: TFL/sartorius then rectus/gluteus medius. Lateral:
+      no true internervous, splits abductors.'
+    source_url: https://www.orthobullets.com/recon/12116/tha-approaches
+    source_section: Introduction
+    confidence: high
+  structures_at_risk:
+  - structure: Superior gluteal nerve
+    why_it_matters: Runs between gluteus medius and minimus 3-5 cm above GT; protect
+      by limiting proximal split of medius and using stay suture at apex of split.
+      Injury causes Trendelenburg gait.
+    source_url: https://www.orthobullets.com/approaches/12022/hip-direct-lateral-approach-hardinge-transgluteal
+    source_section: Structures at Risk
+    confidence: high
+  landmarks: []
+  approach_notes:
+  - text: 'Direct lateral (Hardinge): split IT band, split gluteus medius/vastus lateralis
+      (limit proximal split to 3-5cm above GT to protect superior gluteal n.). Detach
+      anterior gluteus medius/minimus and vastus lateralis anteriorly.'
+    source_url: https://www.orthobullets.com/approaches/12022/hip-direct-lateral-approach-hardinge-transgluteal
+    source_section: Approach
+    confidence: high
+  pimp_topics:
+  - What nerve is at risk in direct lateral (Hardinge) approach and how far proximal
+    can you safely split the gluteus medius?
+  - Describe the short external rotators and their role in sciatic nerve protection
+    during posterior approach.
+  - Why repair short external rotators after posterior THA?
+  manual_review: false
+  review_reason: ''
+- procedure_id: tka
+  display_name: Total Knee Arthroplasty
+  specialty: recon
+  region: knee
+  orthobullets_urls:
+  - https://www.orthobullets.com/recon/12289/total-knee-arthroplasty
+  - https://www.orthobullets.com/recon/12289/total-knee-arthroplasty
+  recommended_approach_ids:
+  - approach_lower_ext_knee_anterior_medial_parapatellar
+  conditional_approach_ids: []
+  blocked_approach_ids: []
+  important_anatomy:
+  - text: Medial parapatellar provides excellent exposure to entire knee joint. Infrapatellar
+      branch of saphenous nerve at risk (sensory to anteromedial knee).
+    source_url: https://www.orthobullets.com/recon/12289/total-knee-arthroplasty
+    source_section: Standard Medial Parapatellar Approach
+    confidence: medium
+  structures_at_risk:
+  - structure: Infrapatellar branch of saphenous nerve
+    why_it_matters: Crosses field; injury causes painful neuroma or numbness anteromedial
+      knee. Often sacrificed or protected in medial parapatellar.
+    source_url: https://www.orthobullets.com/approaches/12028/knee-medial-parapatellar-approach
+    source_section: Dangers
+    confidence: high
+  landmarks: []
+  approach_notes:
+  - text: Medial parapatellar arthrotomy is the most common/standard primary TKA approach.
+      Midline incision, develop medial skin flap, medial parapatellar arthrotomy,
+      evert patella laterally. Variations (midvastus, subvastus) preserve more quad
+      but less extensile.
+    source_url: https://www.orthobullets.com/recon/12289/total-knee-arthroplasty
+    source_section: Approaches (from map and standard OB TKA page)
+    confidence: high
+  pimp_topics:
+  - Why is the medial parapatellar the most common TKA approach?
+  - What nerve branch is commonly at risk or sacrificed in medial parapatellar arthrotomy
+    and what does it supply?
+  manual_review: false
+  review_reason: ''
+- procedure_id: acl_reconstruction
+  display_name: ACL Reconstruction
+  specialty: sports
+  region: knee
+  orthobullets_urls:
+  - https://www.orthobullets.com/sports/3007/anterior-cruciate-ligament-acl-reconstruction
+  recommended_approach_ids:
+  - approach_lower_ext_knee_anterior_medial_parapatellar
+  conditional_approach_ids: []
+  blocked_approach_ids: []
+  important_anatomy: []
+  structures_at_risk: []
+  landmarks: []
+  approach_notes: []
+  pimp_topics:
+  - Key approach for this case per OB and map?
+  - Primary structure at risk?
+  manual_review: false
+  review_reason: ''
+- procedure_id: rotator_cuff_repair
+  display_name: Rotator Cuff Repair
+  specialty: sports
+  region: shoulder
+  orthobullets_urls:
+  - https://www.orthobullets.com/sports/3008/rotator-cuff-tears
+  recommended_approach_ids:
+  - approach_shoulder_lateral_deltoid_split
+  - approach_shoulder_deltopectoral
+  conditional_approach_ids: []
+  blocked_approach_ids: []
+  important_anatomy: []
+  structures_at_risk: []
+  landmarks: []
+  approach_notes: []
+  pimp_topics:
+  - Key approach for this case per OB and map?
+  - Primary structure at risk?
+  manual_review: false
+  review_reason: ''
+- procedure_id: carpal_tunnel_release
+  display_name: Carpal Tunnel Release
+  specialty: hand
+  region: wrist
+  orthobullets_urls:
+  - https://www.orthobullets.com/hand/6018/carpal-tunnel-syndrome
+  recommended_approach_ids:
+  - approach_wrist_carpal_tunnel
+  conditional_approach_ids: []
+  blocked_approach_ids: []
+  important_anatomy: []
+  structures_at_risk: []
+  landmarks: []
+  approach_notes: []
+  pimp_topics:
+  - Key approach for this case per OB and map?
+  - Primary structure at risk?
+  manual_review: false
+  review_reason: ''
+- procedure_id: cubital_tunnel_release
+  display_name: Cubital Tunnel Release
+  specialty: hand
+  region: elbow
+  orthobullets_urls:
+  - https://www.orthobullets.com/hand/6021/cubital-tunnel-syndrome
+  recommended_approach_ids: []
+  conditional_approach_ids: []
+  blocked_approach_ids: []
+  important_anatomy: []
+  structures_at_risk: []
+  landmarks: []
+  approach_notes:
+  - text: 'Per map evidence: OB describes specific approaches (e.g. lateral for bimalleolar)
+      but catalog gaps prevent full recommended IDs. No free-form guessing; limited
+      to available (e.g. posteromedial for some ankle variants).'
+    source_url: https://www.orthobullets.com/hand/6021/cubital-tunnel-syndrome
+    source_section: evidence_note from map
+    confidence: low
+  pimp_topics:
+  - Key approach for this case per OB and map?
+  - Primary structure at risk?
+  manual_review: true
+  review_reason: OB cubital tunnel page describes medial elbow approaches (in situ
+    decompression, transposition) usually via posterior/medial to medial epicondyle.
+    No dedicated cubital or medial elbow catalog ID (closest is lateral Kocher, which
+    is not standard for cubital). manual_review / catalog gap.
+- procedure_id: patella_fracture_orif
+  display_name: Patella Fracture ORIF
+  specialty: trauma
+  region: knee
+  orthobullets_urls:
+  - https://www.orthobullets.com/trauma/1044/patella-fractures
+  recommended_approach_ids:
+  - approach_lower_ext_knee_anterior_medial_parapatellar
+  conditional_approach_ids: []
+  blocked_approach_ids: []
+  important_anatomy: []
+  structures_at_risk: []
+  landmarks: []
+  approach_notes: []
+  pimp_topics:
+  - Key approach for this case per OB and map?
+  - Primary structure at risk?
+  manual_review: false
+  review_reason: ''
+- procedure_id: tibial_plateau_fracture_orif
+  display_name: Tibial Plateau Fracture ORIF
+  specialty: trauma
+  region: knee
+  orthobullets_urls:
+  - https://www.orthobullets.com/trauma/1042/tibial-plateau-fractures
+  recommended_approach_ids:
+  - approach_lower_ext_knee_anterior_medial_parapatellar
+  - approach_lower_ext_knee_lateral
+  conditional_approach_ids: []
+  blocked_approach_ids: []
+  important_anatomy: []
+  structures_at_risk: []
+  landmarks: []
+  approach_notes: []
+  pimp_topics:
+  - Key approach for this case per OB and map?
+  - Primary structure at risk?
+  manual_review: false
+  review_reason: ''
+- procedure_id: femoral_shaft_fracture_orif
+  display_name: Femoral Shaft Fracture ORIF
+  specialty: trauma
+  region: thigh
+  orthobullets_urls:
+  - https://www.orthobullets.com/trauma/1040/femoral-shaft-fractures
+  recommended_approach_ids:
+  - approach_lower_ext_thigh_lateral
+  - approach_lower_ext_thigh_posterolateral
+  conditional_approach_ids: []
+  blocked_approach_ids: []
+  important_anatomy:
+  - text: 'Femur is largest/strongest bone with anterior bow. Linea aspera on posterior
+      middle third is attachment for muscles/fascia and acts as compressive strut.
+      Thigh has three compartments: anterior (quads, sartorius), posterior (hamstrings),
+      adductor (adductors, gracilis).'
+    source_url: https://www.orthobullets.com/trauma/1040/femoral-shaft-fractures
+    source_section: Anatomy > Osteology / Muscles
+    confidence: high
+  - text: 'Deforming forces: proximal fragment abducted (gluteus med/min) and flexed
+      (iliopsoas); distal segment varus (adductors) and extension (gastrocnemius on
+      posterior distal femur).'
+    source_url: https://www.orthobullets.com/trauma/1040/femoral-shaft-fractures
+    source_section: Anatomy > Biomechanics
+    confidence: high
+  structures_at_risk:
+  - structure: Femoral vessels / profunda femoris perforators
+    why_it_matters: At risk in open approaches or with medial butterfly fragments;
+      significant blood loss (1-1.5L closed, more open).
+    source_url: https://www.orthobullets.com/trauma/1040/femoral-shaft-fractures
+    source_section: Presentation / Treatment
+    confidence: high
+  landmarks: []
+  approach_notes:
+  - text: 'Lateral approach standard for ORIF/plating: patient lateral or supine,
+      incision along lateral thigh, split IT band, develop plane between vastus lateralis
+      and biceps (posterolateral) or elevate VL. Subperiosteal elevation.'
+    source_url: https://www.orthobullets.com/trauma/1040/femoral-shaft-fractures
+    source_section: Techniques (implied from map OB support for lateral)
+    confidence: medium
+  pimp_topics:
+  - What are the deforming forces on the proximal and distal fragments in a femoral
+    shaft fracture?
+  - Describe the thigh compartments and key contents. Estimated blood loss in closed
+    vs open femoral shaft fractures?
+  manual_review: false
+  review_reason: ''
+- procedure_id: clavicle_fracture_orif
+  display_name: Clavicle Fracture ORIF
+  specialty: trauma
+  region: shoulder
+  orthobullets_urls:
+  - https://www.orthobullets.com/trauma/1016/clavicle-fractures
+  recommended_approach_ids: []
+  conditional_approach_ids: []
+  blocked_approach_ids: []
+  important_anatomy: []
+  structures_at_risk: []
+  landmarks: []
+  approach_notes:
+  - text: 'Per map evidence: OB describes specific approaches (e.g. lateral for bimalleolar)
+      but catalog gaps prevent full recommended IDs. No free-form guessing; limited
+      to available (e.g. posteromedial for some ankle variants).'
+    source_url: https://www.orthobullets.com/trauma/1016/clavicle-fractures
+    source_section: evidence_note from map
+    confidence: low
+  pimp_topics:
+  - Key approach for this case per OB and map?
+  - Primary structure at risk?
+  manual_review: true
+  review_reason: 'OB clavicle fractures: superior or anterior approach along the clavicle
+    (no dedicated internervous plane, direct to bone). No dedicated clavicle or superior
+    shoulder girdle catalog ID. manual_review.'
+- procedure_id: scaphoid_fracture_orif
+  display_name: Scaphoid Fracture ORIF
+  specialty: hand
+  region: wrist
+  orthobullets_urls:
+  - https://www.orthobullets.com/hand/6009/scaphoid-fracture
+  recommended_approach_ids:
+  - approach_wrist_volar_distal_henry
+  - approach_wrist_dorsal
+  conditional_approach_ids: []
+  blocked_approach_ids: []
+  important_anatomy: []
+  structures_at_risk: []
+  landmarks: []
+  approach_notes: []
+  pimp_topics:
+  - Key approach for this case per OB and map?
+  - Primary structure at risk?
+  manual_review: false
+  review_reason: ''
+- procedure_id: monteggia_fracture_orif
+  display_name: Monteggia Fracture ORIF
+  specialty: trauma
+  region: forearm
+  orthobullets_urls:
+  - https://www.orthobullets.com/trauma/1024/monteggia-fractures
+  recommended_approach_ids:
+  - approach_forearm_anterior_henry
+  conditional_approach_ids:
+  - condition: radial head open reduction needed
+    triggers:
+    - radial head
+    - radial head dislocation
+    approach_ids:
+    - approach_elbow_lateral_kocher
+  blocked_approach_ids: []
+  important_anatomy: []
+  structures_at_risk: []
+  landmarks: []
+  approach_notes: []
+  pimp_topics:
+  - Key approach for this case per OB and map?
+  - Primary structure at risk?
+  manual_review: false
+  review_reason: ''
+- procedure_id: achilles_tendon_repair
+  display_name: Achilles Tendon Repair
+  specialty: sports
+  region: ankle
+  orthobullets_urls:
+  - https://www.orthobullets.com/sports/3009/achilles-tendon-rupture
+  recommended_approach_ids:
+  - approach_lower_ext_ankle_posteromedial
+  conditional_approach_ids: []
+  blocked_approach_ids: []
+  important_anatomy: []
+  structures_at_risk: []
+  landmarks: []
+  approach_notes: []
+  pimp_topics:
+  - Key approach for this case per OB and map?
+  - Primary structure at risk?
+  manual_review: false
+  review_reason: ''
+- procedure_id: total_ankle_arthroplasty
+  display_name: Total Ankle Arthroplasty
+  specialty: foot_ankle
+  region: ankle
+  orthobullets_urls:
+  - https://www.orthobullets.com/foot-and-ankle/12133/total-ankle-arthroplasty
+  recommended_approach_ids:
+  - approach_lower_ext_ankle_anterior
+  conditional_approach_ids: []
+  blocked_approach_ids: []
+  important_anatomy: []
+  structures_at_risk: []
+  landmarks: []
+  approach_notes: []
+  pimp_topics:
+  - Key approach for this case per OB and map?
+  - Primary structure at risk?
+  manual_review: false
+  review_reason: ''
+- procedure_id: high_tibial_osteotomy
+  display_name: High Tibial Osteotomy
+  specialty: recon
+  region: knee
+  orthobullets_urls:
+  - https://www.orthobullets.com/recon/3135/high-tibial-osteotomy
+  recommended_approach_ids:
+  - approach_lower_ext_knee_medial
+  - approach_lower_ext_knee_anterior_medial_parapatellar
+  conditional_approach_ids: []
+  blocked_approach_ids: []
+  important_anatomy: []
+  structures_at_risk: []
+  landmarks: []
+  approach_notes: []
+  pimp_topics:
+  - Key approach for this case per OB and map?
+  - Primary structure at risk?
+  manual_review: false
+  review_reason: ''
+- procedure_id: supracondylar_humerus_fracture_pediatric
+  display_name: Supracondylar Humerus Fracture (Pediatric) ORIF/CRPP
+  specialty: pediatrics
+  region: humerus
+  orthobullets_urls:
+  - https://www.orthobullets.com/pediatrics/4008/supracondylar-fracture--pediatric
+  recommended_approach_ids: []
+  conditional_approach_ids: []
+  blocked_approach_ids: []
+  important_anatomy: []
+  structures_at_risk: []
+  landmarks: []
+  approach_notes:
+  - text: 'Per map evidence: OB describes specific approaches (e.g. lateral for bimalleolar)
+      but catalog gaps prevent full recommended IDs. No free-form guessing; limited
+      to available (e.g. posteromedial for some ankle variants).'
+    source_url: https://www.orthobullets.com/pediatrics/4008/supracondylar-fracture--pediatric
+    source_section: evidence_note from map
+    confidence: low
+  pimp_topics:
+  - Key approach for this case per OB and map?
+  - Primary structure at risk?
+  manual_review: true
+  review_reason: 'OB supracondylar pediatric: most are CRPP (percutaneous lateral
+    + medial pins); open reduction when needed uses anterior (brachialis splitting)
+    or posterior. Catalog has distal anterolateral humerus (close to anterior) and
+    posterior triceps split. No exact pediatric anterior brachialis ID match for open
+    cases. manual_review for open reduction subset.'
+- procedure_id: intertrochanteric_hip_fracture_orif
+  display_name: Intertrochanteric Hip Fracture ORIF
+  specialty: trauma
+  region: hip
+  orthobullets_urls:
+  - https://www.orthobullets.com/trauma/1038/intertrochanteric-fractures
+  recommended_approach_ids:
+  - approach_lower_ext_hip_lateral_hardinge
+  - approach_lower_ext_thigh_lateral
+  conditional_approach_ids: []
+  blocked_approach_ids: []
+  important_anatomy: []
+  structures_at_risk: []
+  landmarks: []
+  approach_notes: []
+  pimp_topics:
+  - Key approach for this case per OB and map?
+  - Primary structure at risk?
+  manual_review: false
+  review_reason: ''
+- procedure_id: femoral_neck_fracture_orif_young
+  display_name: Femoral Neck Fracture ORIF (Young Patient)
+  specialty: trauma
+  region: hip
+  orthobullets_urls:
+  - https://www.orthobullets.com/trauma/1037/femoral-neck-fractures
+  recommended_approach_ids:
+  - approach_lower_ext_hip_anterior_smith_peterson
+  - approach_lower_ext_hip_anterolateral_watson_jones
+  conditional_approach_ids: []
+  blocked_approach_ids: []
+  important_anatomy: []
+  structures_at_risk: []
+  landmarks: []
+  approach_notes: []
+  pimp_topics:
+  - Key approach for this case per OB and map?
+  - Primary structure at risk?
+  manual_review: false
+  review_reason: ''
+- procedure_id: revision_tha
+  display_name: Revision Total Hip Arthroplasty
+  specialty: recon
+  region: hip
+  orthobullets_urls:
+  - https://www.orthobullets.com/recon/12116/tha-approaches
+  recommended_approach_ids:
+  - approach_lower_ext_hip_posterior_moore_southern
+  - approach_lower_ext_hip_anterior_smith_peterson
+  conditional_approach_ids: []
+  blocked_approach_ids: []
+  important_anatomy: []
+  structures_at_risk: []
+  landmarks: []
+  approach_notes: []
+  pimp_topics:
+  - Key approach for this case per OB and map?
+  - Primary structure at risk?
+  manual_review: false
+  review_reason: ''
+- procedure_id: revision_tka
+  display_name: Revision Total Knee Arthroplasty
+  specialty: recon
+  region: knee
+  orthobullets_urls:
+  - https://www.orthobullets.com/recon/12289/total-knee-arthroplasty
+  recommended_approach_ids:
+  - approach_lower_ext_knee_anterior_medial_parapatellar
+  conditional_approach_ids: []
+  blocked_approach_ids: []
+  important_anatomy: []
+  structures_at_risk: []
+  landmarks: []
+  approach_notes: []
+  pimp_topics:
+  - Key approach for this case per OB and map?
+  - Primary structure at risk?
+  manual_review: false
+  review_reason: ''
+- procedure_id: ankle_arthrodesis
+  display_name: Ankle Arthrodesis
+  specialty: foot_ankle
+  region: ankle
+  orthobullets_urls:
+  - https://www.orthobullets.com/foot-and-ankle/12133/total-ankle-arthroplasty
+  recommended_approach_ids:
+  - approach_lower_ext_ankle_anterior
+  conditional_approach_ids: []
+  blocked_approach_ids: []
+  important_anatomy: []
+  structures_at_risk: []
+  landmarks: []
+  approach_notes: []
+  pimp_topics:
+  - Key approach for this case per OB and map?
+  - Primary structure at risk?
+  manual_review: false
+  review_reason: ''
+- procedure_id: hallux_valgus_correction
+  display_name: Hallux Valgus (Bunion) Correction
+  specialty: foot_ankle
+  region: foot
+  orthobullets_urls:
+  - https://www.orthobullets.com/foot-and-ankle/12134/hallux-valgus
+  recommended_approach_ids: []
+  conditional_approach_ids: []
+  blocked_approach_ids: []
+  important_anatomy: []
+  structures_at_risk: []
+  landmarks: []
+  approach_notes:
+  - text: 'Per map evidence: OB describes specific approaches (e.g. lateral for bimalleolar)
+      but catalog gaps prevent full recommended IDs. No free-form guessing; limited
+      to available (e.g. posteromedial for some ankle variants).'
+    source_url: https://www.orthobullets.com/foot-and-ankle/12134/hallux-valgus
+    source_section: evidence_note from map
+    confidence: low
+  pimp_topics:
+  - Key approach for this case per OB and map?
+  - Primary structure at risk?
+  manual_review: true
+  review_reason: 'OB hallux valgus: medial incision over 1st MTP, various osteotomies/soft
+    tissue. No dedicated foot or hallux catalog approach ID. manual_review.'
+- procedure_id: trigger_finger_release
+  display_name: Trigger Finger Release
+  specialty: hand
+  region: hand
+  orthobullets_urls:
+  - https://www.orthobullets.com/hand/6014/trigger-finger
+  recommended_approach_ids: []
+  conditional_approach_ids: []
+  blocked_approach_ids: []
+  important_anatomy: []
+  structures_at_risk: []
+  landmarks: []
+  approach_notes:
+  - text: 'Per map evidence: OB describes specific approaches (e.g. lateral for bimalleolar)
+      but catalog gaps prevent full recommended IDs. No free-form guessing; limited
+      to available (e.g. posteromedial for some ankle variants).'
+    source_url: https://www.orthobullets.com/hand/6014/trigger-finger
+    source_section: evidence_note from map
+    confidence: low
+  pimp_topics:
+  - Key approach for this case per OB and map?
+  - Primary structure at risk?
+  manual_review: true
+  review_reason: 'OB trigger finger: small longitudinal or transverse incision over
+    A1 pulley in palm/finger. No dedicated hand or trigger catalog ID. manual_review
+    (minor procedure, often not using major approach cards).'

@@ -1,0 +1,146 @@
+{
+  "indications": [],
+  "setup_positioning": [
+    "Extension-type (most common) supracondylar humerus fracture in children: posterior displacement of distal fragment. Closed reduction + percutaneous pinning (lateral or crossed). Key anatomy: distal humerus physis and capitellum (reduction landmarks via anterior humeral line and Baumann angle), brachial artery and median nerve (AIN) at risk with flexion-type or severely displaced, radial nerve (most common neuropraxia in extension type), ulnar nerve (at risk with medial pin). Pin trajectory critical: start lateral epicondyle, 30-40° cephalad on AP, slight anterior-lateral to center-center without anterior superior penetration (chondrolysis risk). Document all nerve function pre/post.",
+    "Extension type most common (95+%); posterior displacement of distal fragment (Gartland classification based on displacement). Flexion type rarer, anterior displacement, often requires open reduction. Nerves: radial (most common in extension; document wrist and thumb extension), median (AIN branch with flexion-type or anterior displacement; document OK sign), ulnar (at risk with medial pin or flexion-type; document intrinsics and abductor digiti minimi).",
+    "Pinning technique (lateral or crossed): start at lateral epicondyle or just proximal, trajectory 30-40° cephalad on AP view, slight anterior and lateral to engage both cortices in center-center position of the capitellum/distal fragment. On lateral: avoid anterior superior penetration into the joint (chondrolysis). Check AP for pin divergence and no improper physis cross; lateral for no anterior penetration and adequate purchase.",
+    "Reduction landmarks: anterior humeral line should pass through the middle third of the capitellum on true lateral view (confirms sagittal reduction). Baumann angle (AP) assesses coronal alignment (normal ~70-75°; compare to contralateral). Medial and lateral epicondyles, olecranon, radial head, and brachial pulse are key palpable/fluoro landmarks.",
+    "Brachial artery: lies anterior to the fracture site in the antecubital fossa; can be tethered or lacerated with anterior spike of proximal fragment in displaced extension-type or with hyperflexion reduction. Vascular exam (pulse, color, Doppler, capillary refill) mandatory before and after reduction/pinning.",
+    "Distal humerus blood supply and physis: the capitellum and trochlea receive end-arterial supply; the physis is the weak point in children. Anterior humeral line and Baumann angle on fluoro confirm that reduction restores alignment without excessive flexion/extension or varus/valgus that would lead to cubitus varus or extension loss.",
+    "Medial pin (crossed pinning): placed from medial epicondyle anteriorly and proximally to avoid the ulnar nerve (which lies posterior to the medial epicondyle in the cubital tunnel). Mini-open or stay strictly anterior to the medial epicondyle reduces ulnar injury risk."
+  ],
+  "approach_landmarks": [
+    "Medial and lateral epicondyles (pin starting points and alignment references)",
+    "Olecranon (posterior landmark; fracture often has posterior skin puckering or olecranon prominence in extension-type)",
+    "Radial head (lateral landmark for reduction and pin trajectory reference)",
+    "Capitellum (on lateral fluoro: anterior humeral line target is middle 1/3)",
+    "Brachial artery pulse (antecubital fossa - document and recheck after every reduction step)"
+  ],
+  "surgical_layers": [
+    {
+      "layer_name": "Lateral percutaneous pin access",
+      "what_user_should_know": "Percutaneous stab incisions over or just proximal to lateral epicondyle. Pins pass through skin, subcutaneous tissue, and into the distal humerus lateral column. Can traverse lateral head of triceps or brachioradialis origin depending on exact starting point and trajectory. Minimal soft tissue disruption.",
+      "key_structures": [
+        "Lateral epicondyle",
+        "Lateral supracondylar ridge",
+        "Capitellum (target for center-center)"
+      ],
+      "structures_at_risk": [
+        "Radial nerve (if pin too proximal or posterior on lateral column)"
+      ],
+      "surgical_relevance": "Primary pinning corridor for most extension-type fractures. Trajectory control on fluoro is more important than open layers.",
+      "source_refs": [
+        "https://www.orthobullets.com/pediatrics/4008/supracondylar-fracture--pediatric"
+      ]
+    },
+    {
+      "layer_name": "Medial pin access (crossed pinning protection)",
+      "what_user_should_know": "Either pure percutaneous (higher risk) or limited open: small incision anterior to medial epicondyle, identify ulnar nerve in cubital tunnel or confirm it is posterior, then place pin from anterior aspect of medial epicondyle directed anterior-to-posterior and proximal into the medial column.",
+      "key_structures": [
+        "Medial epicondyle",
+        "Ulnar nerve (posterior in cubital tunnel)",
+        "Medial column of distal humerus"
+      ],
+      "structures_at_risk": [
+        "Ulnar nerve (direct injury or encircling by pin if starting point posterior)"
+      ],
+      "surgical_relevance": "Crossed pinning provides better rotational stability for Type III or unstable patterns. Ulnar protection is the critical anatomic step for the medial pin.",
+      "source_refs": [
+        "https://www.orthobullets.com/pediatrics/4008/supracondylar-fracture--pediatric"
+      ]
+    },
+    {
+      "layer_name": "Open reduction (vascular or irreducible cases)",
+      "what_user_should_know": "Anterior approach (interval between brachioradialis and brachialis or through brachialis split) to the antecubital fossa for exploration of brachial artery, median nerve, and fracture. Allows direct reduction of the anterior spike and vascular repair if needed. Posterior triceps approach less commonly used acutely.",
+      "key_structures": [
+        "Brachial artery and venae comitantes",
+        "Median nerve (AIN branch)",
+        "Brachialis muscle",
+        "Proximal humeral anterior spike"
+      ],
+      "structures_at_risk": [
+        "Brachial artery (thrombosis, laceration, entrapment)",
+        "Median nerve",
+        "Radial nerve (lateral retraction)"
+      ],
+      "surgical_relevance": "Reserved for white/pulseless hand after reduction, open fractures, or irreducible closed fractures with neurovascular compromise. Different from elective elbow approaches.",
+      "source_refs": [
+        "https://www.orthobullets.com/pediatrics/4008/supracondylar-fracture--pediatric"
+      ]
+    }
+  ],
+  "structures_at_risk": [
+    {
+      "structure": "Radial nerve (and its branches)",
+      "why_at_risk": "Most common nerve injury with extension-type supracondylar fractures (posterior displacement tents or contuses the nerve against the proximal fragment spike or in the spiral groove region). Can also be at risk with lateral pin placement if trajectory too proximal or posterior.",
+      "how_to_avoid_injury": "Document wrist and thumb extension pre-reduction and post-pinning. Use careful closed reduction technique (traction, flexion, pronation for extension-type). Lateral pins start at or distal to epicondyle with controlled trajectory; avoid blind proximal percutaneous passes.",
+      "consequence_of_injury": "Wrist drop, loss of thumb extension/abduction, sensory loss in first dorsal web. Usually neurapraxia that recovers, but document and follow; rare laceration requires exploration.",
+      "approach_context": "Closed reduction + percutaneous pinning (extension-type); open reduction if irreducible or vascular",
+      "source_refs": [
+        "https://www.orthobullets.com/pediatrics/4008/supracondylar-fracture--pediatric"
+      ]
+    },
+    {
+      "structure": "Median nerve (especially anterior interosseous nerve - AIN)",
+      "why_at_risk": "AIN is vulnerable with flexion-type fractures or when the anteriorly displaced proximal fragment spike compresses the nerve in the antecubital fossa. Hyperflexion during reduction can also tether it.",
+      "how_to_avoid_injury": "Document AIN function (OK sign: flexion at index DIP and thumb IP) pre- and post every maneuver. Avoid excessive or prolonged hyperflexion during reduction; use gentle traction first. If AIN palsy present, ensure anatomic reduction.",
+      "consequence_of_injury": "Loss of index FDP and FPL function (inability to make OK sign), with or without sensory loss in median distribution. AIN palsy is often isolated motor.",
+      "approach_context": "Closed reduction + pinning; higher risk in flexion-type or severely displaced extension-type",
+      "source_refs": [
+        "https://www.orthobullets.com/pediatrics/4008/supracondylar-fracture--pediatric"
+      ]
+    },
+    {
+      "structure": "Ulnar nerve",
+      "why_at_risk": "Lies immediately posterior to the medial epicondyle in the cubital tunnel. Medial pin for crossed pinning can directly injure or encircle the nerve if starting point is too posterior or if the nerve is subluxed.",
+      "how_to_avoid_injury": "For crossed pinning, use a mini-open medial approach or place the medial pin with the elbow in extension and starting point strictly anterior on the medial epicondyle, directing the pin anterior-to-posterior and proximal. Document ulnar function (intrinsics, abductor digiti minimi, sensation) pre/post.",
+      "consequence_of_injury": "Intrinsic weakness, clawing of ring/small fingers, loss of abduction/adduction, sensory loss on ulnar border of hand and ulnar 1.5 digits. Can be permanent if transected.",
+      "approach_context": "Crossed percutaneous pinning (medial pin placement)",
+      "source_refs": [
+        "https://www.orthobullets.com/pediatrics/4008/supracondylar-fracture--pediatric"
+      ]
+    },
+    {
+      "structure": "Brachial artery (and median nerve/vein bundle in antecubital fossa)",
+      "why_at_risk": "The anterior spike of the proximal humeral fragment in displaced extension-type or the reduction maneuver itself can tether, compress, or lacerate the brachial artery. Hyperflexion >90-100° for reduction can occlude flow even if pulse returns on extension.",
+      "how_to_avoid_injury": "Full vascular exam (radial pulse, color, Doppler, cap refill, forearm compartments) before reduction, after reduction, and after pinning. If pulse lost, gently extend the elbow slightly or accept less flexion once pinned. Explore if white/pulseless or compartment signs.",
+      "consequence_of_injury": "Limb-threatening ischemia, compartment syndrome, Volkmann ischemic contracture, or late thrombosis/aneurysm. Even 'pink pulseless' hand requires close observation and may need exploration.",
+      "approach_context": "Closed reduction + pinning of displaced supracondylar; open vascular exploration if indicated",
+      "source_refs": [
+        "https://www.orthobullets.com/pediatrics/4008/supracondylar-fracture--pediatric"
+      ]
+    }
+  ],
+  "implant_strategy": [
+    "Extension-type: posterior displacement. Reduce with traction, correct varus/valgus, then flex and pronate while pushing anteriorly on the olecranon. Anterior humeral line through middle capitellum on lateral confirms sagittal reduction.",
+    "Pinning: 2-3 lateral divergent pins or crossed (lateral + medial). Trajectory 30-40° cephalad AP, slight anterior-lateral on lateral view to achieve center-center without anterior joint penetration or excessive physis cross.",
+    "Gartland type influences: Type I nondisplaced (cast or pin), Type II displaced with intact posterior cortex (closed reduction + pin), Type III completely displaced (closed or open reduction + pin, often crossed for stability)."
+  ],
+  "reduction_or_fluoro_checkpoints": [
+    "AP: Baumann angle ~70-75° (compare contralateral), pin divergence, no improper physis crossing, medial/lateral column alignment.",
+    "True lateral: anterior humeral line passes through middle third of capitellum (sagittal reduction); confirm no anterior superior pin penetration into joint; verify pin purchase in both cortices.",
+    "After pinning with elbow slightly extended from the flexed reduction position: recheck vascular (pulse returns or remains), then final AP/lateral with pins in place before cutting and bending."
+  ],
+  "pitfalls": [
+    "Failure to document all three nerves (radial, median/AIN, ulnar) and vascular status before and after reduction/pinning",
+    "Anterior superior pin penetration on lateral fluoro causing chondrolysis of the capitellum/trochlea",
+    "Medial pin placed too posteriorly or without protection leading to permanent ulnar nerve injury",
+    "Hyperflexion reduction maintained after pinning causing brachial artery occlusion or compartment syndrome",
+    "Inadequate reduction (anterior humeral line not through middle capitellum or abnormal Baumann angle) resulting in cubitus varus or loss of extension"
+  ],
+  "attending_pimp_questions": [
+    "Q: For percutaneous pinning of extension-type supracondylar humerus fracture, what is the ideal starting point and trajectory on AP and lateral fluoro to achieve center-center purchase while minimizing anterior superior pin penetration (chondrolysis) or radial nerve injury? A: Start at or just proximal to lateral epicondyle. AP: 30-40° cephalad with slight anterior and lateral trajectory to center the pins in the distal fragment. Lateral: slight anterior trajectory to avoid anterior superior joint penetration; confirm center-center and no breach.",
+    "Q: Which nerve is most commonly injured with extension-type supracondylar fractures, and what motor function must be documented pre- and post-reduction/pinning? A: Radial nerve (most common). Document wrist extension and thumb extension/abduction (first dorsal web sensation also). Neurapraxia is common but must be recorded.",
+    "Q: What are the Gartland types based on displacement, and how does type influence closed vs open reduction and pinning configuration (lateral vs crossed)? A: Type I: nondisplaced (cast or pin). Type II: displaced, posterior cortex intact (usually closed reduction + 2-3 lateral pins). Type III: completely displaced (closed or open reduction + pinning; often crossed configuration for rotational stability in unstable patterns).",
+    "Q: During medial pin placement for crossed pinning, what structure is at risk and what landmark/technique reduces ulnar nerve injury? A: Ulnar nerve (posterior to medial epicondyle in cubital tunnel). Use mini-open medial approach or place pin strictly anterior on the medial epicondyle with elbow extended, directing anterior-to-posterior and proximal. Document intrinsics and ulnar sensation pre/post.",
+    "Q: What is the blood supply to the distal humerus and why is the anterior humeral line or Baumann's angle important on fluoro for reduction? A: End-arterial supply to capitellum/trochlea via posterior perforators and anterior vessels. Anterior humeral line (lateral view) through middle 1/3 capitellum confirms sagittal reduction; Baumann angle (AP) assesses coronal alignment. Malreduction leads to cubitus varus or extension loss."
+  ],
+  "postop_plan": [
+    "Review OB supracondylar peds page (4008) and anatomy_supracondylar_humerus_fracture_pediatric module for Gartland, pinning trajectory, and nerve/vascular risks",
+    "Memorize: document radial (wrist/thumb ext), AIN (OK sign), ulnar (intrinsics) and pulse before/after every step",
+    "Know anterior humeral line (middle 1/3 capitellum on lateral) and Baumann angle for reduction quality",
+    "Review medial pin ulnar protection (mini-open or anterior start) and anterior superior pin chondrolysis avoidance",
+    "Know when to go open (irreducible, vascular injury, open fracture) and pink-pulseless hand management",
+    "Practice the 5 pimp questions with consequence and avoidance language tied to the specific nerves and vessels"
+  ]
+}

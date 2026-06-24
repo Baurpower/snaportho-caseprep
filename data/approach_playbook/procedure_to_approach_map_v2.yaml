@@ -1,0 +1,1145 @@
+- procedure_id: bimalleolar_ankle_orif
+  display_name: Bimalleolar Ankle ORIF
+  specialty: trauma
+  region: ankle
+  triggers:
+  - bimalleolar fracture
+  - ankle ORIF
+  - medial malleolus
+  - lateral malleolus
+  - distal fibula
+  - bimalleolar
+  - ankle fracture
+  recommended_approach_ids: []
+  conditional_approach_ids:
+  - condition: posterior malleolus mentioned or trimalleolar pattern
+    triggers:
+    - posterior malleolus
+    - posterior fragment
+    - trimalleolar
+    - posterior mal
+    approach_ids:
+    - approach_lower_ext_ankle_posteromedial
+  blocked_approach_ids:
+  - approach_lower_ext_ankle_anterior
+  orthobullets_url: https://www.orthobullets.com/trauma/1047/ankle-fractures
+  evidence_note: OB (trauma/1047) specifies direct lateral approach to fibula + direct
+    medial approach to ankle for bimalleolar; also lists dedicated posterolateral
+    and posteromedial for variants with posterior involvement. Dedicated 'Approach
+    to the Lateral Malleolus' page exists. Catalog has no lateral fibula or dedicated
+    medial malleolus ID (only anterior + posteromedial ankle). Anterior ankle explicitly
+    for joint/talus access, not routine bimalleolar. Map therefore leaves recommended
+    empty + blocks anterior; manual_review required until catalog expanded.
+  confidence: manual_review
+- procedure_id: trimalleolar_ankle_orif
+  display_name: Trimalleolar Ankle ORIF
+  specialty: trauma
+  region: ankle
+  triggers:
+  - trimalleolar
+  - trimalleolar fracture
+  - posterior malleolus
+  - ankle ORIF posterior
+  recommended_approach_ids: []
+  conditional_approach_ids:
+  - condition: posterior access required
+    triggers:
+    - posterior malleolus
+    - posterior fragment
+    approach_ids:
+    - approach_lower_ext_ankle_posteromedial
+  blocked_approach_ids:
+  - approach_lower_ext_ankle_anterior
+  orthobullets_url: https://www.orthobullets.com/trauma/1047/ankle-fractures
+  evidence_note: OB (trauma/1047) describes posterolateral or posteromedial for posterior
+    malleolus + lateral for fibula + medial for medial malleolus. No matching lateral
+    or posterolateral catalog IDs. Anterior blocked for standard trimalleolar. manual_review
+    due to catalog gap.
+  confidence: manual_review
+- procedure_id: pilon_ankle_fracture_orif
+  display_name: Pilon (Tibial Plafond) Fracture ORIF
+  specialty: trauma
+  region: ankle
+  triggers:
+  - pilon
+  - tibial plafond
+  - pilon fracture
+  - plafond ORIF
+  recommended_approach_ids: []
+  conditional_approach_ids: []
+  blocked_approach_ids:
+  - approach_lower_ext_ankle_anterior
+  orthobullets_url: https://www.orthobullets.com/trauma/1048/pilon-fractures
+  evidence_note: OB pilon page and related ankle approaches discuss anterior, anteromedial,
+    posteromedial, and extensile options depending on fragment pattern. Catalog only
+    has generic anterior + posteromedial; no pilon-specific lateral or combined. Blocked
+    anterior as default for many patterns. manual_review.
+  confidence: manual_review
+- procedure_id: calcaneus_fracture_orif
+  display_name: Calcaneus Fracture ORIF
+  specialty: trauma
+  region: foot
+  triggers:
+  - calcaneus
+  - calcaneus fracture
+  - calcaneal ORIF
+  - extensile lateral calcaneus
+  recommended_approach_ids: []
+  conditional_approach_ids: []
+  blocked_approach_ids: []
+  orthobullets_url: https://www.orthobullets.com/trauma/1051/calcaneus-fractures
+  evidence_note: OB calcaneus topic describes extensile lateral approach (L-shaped)
+    as classic for ORIF, plus sinus tarsi and other limited. No matching catalog ID
+    for extensile lateral calcaneus or foot-specific. manual_review.
+  confidence: manual_review
+- procedure_id: distal_radius_fracture_orif
+  display_name: Distal Radius Fracture ORIF
+  specialty: trauma
+  region: wrist
+  triggers:
+  - distal radius
+  - distal radius fracture
+  - distal radius ORIF
+  - DRF ORIF
+  - volar distal radius
+  recommended_approach_ids:
+  - approach_wrist_volar_distal_henry
+  conditional_approach_ids:
+  - condition: dorsal fragment or dorsal plate or dorsal comminution or dorsal approach
+      indicated
+    triggers:
+    - dorsal fragment
+    - dorsal plate
+    - dorsal comminution
+    - dorsal approach
+    - dorsal spanning
+    approach_ids:
+    - approach_wrist_dorsal
+  blocked_approach_ids: []
+  orthobullets_url: https://www.orthobullets.com/trauma/1027/distal-radius-fractures
+  evidence_note: OB distal radius topic + dedicated 'FCR Approach to Distal Radius'
+    and 'Volar Approach to Radius (Henry)' pages establish volar Henry/FCR as workhorse
+    for most ORIF. Dorsal added conditionally when dorsal pathology requires it (OB
+    dorsal wrist approach page). Matches catalog IDs exactly. high confidence for
+    volar default.
+  confidence: high
+- procedure_id: proximal_humerus_fracture_orif
+  display_name: Proximal Humerus Fracture ORIF
+  specialty: trauma
+  region: shoulder
+  triggers:
+  - proximal humerus
+  - proximal humerus fracture
+  - proximal humerus ORIF
+  - PHF ORIF
+  recommended_approach_ids:
+  - approach_shoulder_deltopectoral
+  - approach_shoulder_lateral_deltoid_split
+  conditional_approach_ids: []
+  blocked_approach_ids: []
+  orthobullets_url: https://www.orthobullets.com/trauma/1018/proximal-humerus-fractures
+  evidence_note: 'OB proximal humerus fractures topic and shoulder approach pages:
+    deltopectoral for many 3/4-part and arthroplasty cases; lateral deltoid-split
+    specifically indicated for proximal humerus ORIF and rotator cuff access. Both
+    catalog IDs have matching clinical_tags and OB support. high confidence; choice
+    between the two often case/surgeon specific (both allowed).'
+  confidence: high
+- procedure_id: radial_head_fracture_orif
+  display_name: Radial Head Fracture ORIF
+  specialty: trauma
+  region: elbow
+  triggers:
+  - radial head
+  - radial head fracture
+  - radial head ORIF
+  - radial head replacement
+  recommended_approach_ids:
+  - approach_elbow_lateral_kocher
+  conditional_approach_ids: []
+  blocked_approach_ids: []
+  orthobullets_url: https://www.orthobullets.com/trauma/1020/radial-head-fractures
+  evidence_note: OB radial head fractures + dedicated 'Radial Head Lateral Approach'
+    page (also known as Kocher or posterolateral) explicitly list Kocher for ORIF,
+    replacement, excision. Matches catalog 'approach_elbow_lateral_kocher' and its
+    clinical_tags. high confidence.
+  confidence: high
+- procedure_id: olecranon_fracture_orif
+  display_name: Olecranon Fracture ORIF
+  specialty: trauma
+  region: elbow
+  triggers:
+  - olecranon
+  - olecranon fracture
+  - olecranon ORIF
+  - tension band olecranon
+  recommended_approach_ids: []
+  conditional_approach_ids: []
+  blocked_approach_ids: []
+  orthobullets_url: https://www.orthobullets.com/trauma/1021/olecranon-fractures
+  evidence_note: OB olecranon topic describes posterior approaches (midline posterior,
+    triceps splitting or reflecting, with or without olecranon osteotomy for complex).
+    No dedicated posterior elbow or olecranon catalog ID exists (only lateral Kocher).
+    manual_review / catalog gap.
+  confidence: manual_review
+- procedure_id: both_bone_forearm_fracture_orif
+  display_name: Both Bone Forearm Fracture ORIF
+  specialty: trauma
+  region: forearm
+  triggers:
+  - both bone forearm
+  - forearm fracture
+  - radius ulna ORIF
+  - both bone ORIF
+  recommended_approach_ids:
+  - approach_forearm_anterior_henry
+  conditional_approach_ids:
+  - condition: ulna only or specific ulnar access needed
+    triggers:
+    - ulna ORIF
+    - ulnar shaft
+    - subcutaneous ulna
+    approach_ids: []
+  blocked_approach_ids: []
+  orthobullets_url: https://www.orthobullets.com/trauma/1023/forearm-fractures-both-bone
+  evidence_note: OB forearm both-bone topic supports anterior (Henry) for radius;
+    ulna often subcutaneous posterior or direct. Catalog has anterior Henry (clinical_tags
+    include radius_orif). No dedicated ulna posterior catalog ID. Recommended Henry
+    for radius component; ulna may need separate or manual. medium confidence.
+  confidence: medium
+- procedure_id: acetabulum_fracture_orif_anterior
+  display_name: Acetabulum Fracture ORIF (Anterior/Ilioinguinal)
+  specialty: trauma
+  region: pelvis
+  triggers:
+  - acetabulum anterior
+  - ilioinguinal
+  - anterior column acetabulum
+  - acetabular anterior
+  recommended_approach_ids:
+  - approach_lower_ext_pelvis_acetabulum_anterior_ilioinguinal
+  conditional_approach_ids: []
+  blocked_approach_ids: []
+  orthobullets_url: https://www.orthobullets.com/trauma/1035/acetabular-fractures
+  evidence_note: OB acetabular fractures + dedicated 'Ilioinguinal Approach to the
+    Acetabulum' page list ilioinguinal for anterior wall/column, both-column, etc.
+    Exact match to catalog ID. high confidence for anterior patterns.
+  confidence: high
+- procedure_id: acetabulum_fracture_orif_posterior
+  display_name: Acetabulum Fracture ORIF (Posterior/Kocher-Langenbeck)
+  specialty: trauma
+  region: pelvis
+  triggers:
+  - acetabulum posterior
+  - kocher langenbeck
+  - posterior column acetabulum
+  - posterior wall acetabulum
+  recommended_approach_ids:
+  - approach_lower_ext_pelvis_acetabulum_posterior_kocher_langenbeck
+  conditional_approach_ids: []
+  blocked_approach_ids: []
+  orthobullets_url: https://www.orthobullets.com/trauma/1035/acetabular-fractures
+  evidence_note: 'OB acetabular + ''Posterior Approach to the Acetabulum (Kocher-Langenbeck)''
+    page: standard for posterior wall/column, transverse, etc. Exact catalog ID match
+    (shares the same posterior hip interval concept as the Moore approach). high confidence
+    for posterior patterns.'
+  confidence: high
+- procedure_id: pelvis_ring_fracture_orif
+  display_name: Pelvis Ring Fracture ORIF
+  specialty: trauma
+  region: pelvis
+  triggers:
+  - pelvis ring
+  - pelvic ring
+  - pelvis ORIF
+  - open book pelvis
+  recommended_approach_ids: []
+  conditional_approach_ids: []
+  blocked_approach_ids: []
+  orthobullets_url: https://www.orthobullets.com/trauma/1034/pelvis-fractures
+  evidence_note: OB pelvis fractures describe anterior (Pfannenstiel/Stoppa/ilioinguinal
+    variants) and posterior (KL or percutaneous) depending on instability pattern.
+    Catalog has ilioinguinal and KL but no dedicated anterior pelvic ring or Stoppa
+    ID. Limited mapping possible; many percutaneous. manual_review for open cases.
+  confidence: manual_review
+- procedure_id: hip_hemiarthroplasty
+  display_name: Hip Hemiarthroplasty
+  specialty: recon
+  region: hip
+  triggers:
+  - hip hemiarthroplasty
+  - hemiarthroplasty
+  - femoral neck hemi
+  - bipolar hemi
+  recommended_approach_ids:
+  - approach_lower_ext_hip_posterior_moore_southern
+  conditional_approach_ids: []
+  blocked_approach_ids: []
+  orthobullets_url: https://www.orthobullets.com/trauma/1037/femoral-neck-fractures
+  evidence_note: OB femoral neck and hemi pages commonly use posterior (Moore/Southern)
+    or anterolateral. Catalog posterior hip ID is the standard match for many trauma
+    hemi cases. Can be conditional on other hip IDs in future. medium (posterior default
+    for many).
+  confidence: medium
+- procedure_id: tha_posterior
+  display_name: Total Hip Arthroplasty (Posterior Approach)
+  specialty: recon
+  region: hip
+  triggers:
+  - posterior tha
+  - posterior total hip
+  - posterior approach hip
+  - posterior hip arthroplasty
+  recommended_approach_ids:
+  - approach_lower_ext_hip_posterior_moore_southern
+  conditional_approach_ids: []
+  blocked_approach_ids: []
+  orthobullets_url: https://www.orthobullets.com/recon/12116/tha-approaches
+  evidence_note: 'OB THA Approaches page and dedicated ''Hip Posterior Approach (Moore
+    or Southern)'' page: standard for posterior THA, also used in hemi. Exact catalog
+    ID match. high confidence.'
+  confidence: high
+- procedure_id: tha_anterior
+  display_name: Total Hip Arthroplasty (Direct Anterior Approach)
+  specialty: recon
+  region: hip
+  triggers:
+  - anterior tha
+  - direct anterior
+  - direct anterior hip
+  - anterior approach tha
+  recommended_approach_ids:
+  - approach_lower_ext_hip_anterior_smith_peterson
+  conditional_approach_ids: []
+  blocked_approach_ids: []
+  orthobullets_url: https://www.orthobullets.com/recon/12116/tha-approaches
+  evidence_note: 'OB THA Approaches + ''Hip Anterior Approach (Smith-Petersen)'' page:
+    direct anterior uses Smith-Peterson interval. Exact catalog ID. high confidence.'
+  confidence: high
+- procedure_id: tha_lateral
+  display_name: Total Hip Arthroplasty (Lateral/Hardinge Approach)
+  specialty: recon
+  region: hip
+  triggers:
+  - lateral tha
+  - hardinge
+  - direct lateral hip
+  - lateral approach hip arthroplasty
+  recommended_approach_ids:
+  - approach_lower_ext_hip_lateral_hardinge
+  conditional_approach_ids: []
+  blocked_approach_ids: []
+  orthobullets_url: https://www.orthobullets.com/recon/12116/tha-approaches
+  evidence_note: OB THA Approaches page lists direct lateral (Hardinge) as one of
+    the standard approaches (splits gluteus medius/vastus lateralis). Exact catalog
+    ID match. high confidence for lateral preference cases.
+  confidence: high
+- procedure_id: tka
+  display_name: Total Knee Arthroplasty
+  specialty: recon
+  region: knee
+  triggers:
+  - tka
+  - total knee arthroplasty
+  - knee replacement
+  - total knee replacement
+  recommended_approach_ids:
+  - approach_lower_ext_knee_anterior_medial_parapatellar
+  conditional_approach_ids: []
+  blocked_approach_ids: []
+  orthobullets_url: https://www.orthobullets.com/recon/12289/total-knee-arthroplasty
+  evidence_note: 'OB TKA topic + dedicated ''Knee Medial Parapatellar Approach'' page
+    + TKA Approaches page: medial parapatellar is the most common/standard primary
+    TKA approach. Exact catalog ID match. high confidence.'
+  confidence: high
+- procedure_id: acl_reconstruction
+  display_name: ACL Reconstruction
+  specialty: sports
+  region: knee
+  triggers:
+  - acl reconstruction
+  - acl recon
+  - anterior cruciate ligament reconstruction
+  recommended_approach_ids:
+  - approach_lower_ext_knee_anterior_medial_parapatellar
+  conditional_approach_ids: []
+  blocked_approach_ids: []
+  orthobullets_url: https://www.orthobullets.com/sports/3007/anterior-cruciate-ligament-acl-reconstruction
+  evidence_note: OB ACL recon page describes arthroscopic or limited open; when open
+    exposure needed, medial parapatellar or mini medial arthrotomy common. Catalog
+    medial parapatellar ID is the closest and supported by OB knee medial parapatellar
+    indications (ligamentous reconstructions). medium confidence (many cases fully
+    arthroscopic).
+  confidence: medium
+- procedure_id: rotator_cuff_repair
+  display_name: Rotator Cuff Repair
+  specialty: sports
+  region: shoulder
+  triggers:
+  - rotator cuff
+  - rotator cuff repair
+  - rcr
+  - rotator cuff tear
+  recommended_approach_ids:
+  - approach_shoulder_lateral_deltoid_split
+  - approach_shoulder_deltopectoral
+  conditional_approach_ids: []
+  blocked_approach_ids: []
+  orthobullets_url: https://www.orthobullets.com/sports/3008/rotator-cuff-tears
+  evidence_note: 'OB rotator cuff topic and shoulder approach pages: lateral deltoid
+    split commonly used for mini-open or arthroscopic-assisted; deltopectoral for
+    open or combined procedures. Both catalog shoulder IDs supported. medium (many
+    fully arthroscopic).'
+  confidence: medium
+- procedure_id: carpal_tunnel_release
+  display_name: Carpal Tunnel Release
+  specialty: hand
+  region: wrist
+  triggers:
+  - carpal tunnel
+  - carpal tunnel release
+  - ctr
+  - median nerve release wrist
+  recommended_approach_ids:
+  - approach_wrist_carpal_tunnel
+  conditional_approach_ids: []
+  blocked_approach_ids: []
+  orthobullets_url: https://www.orthobullets.com/hand/6018/carpal-tunnel-syndrome
+  evidence_note: OB carpal tunnel syndrome page discusses open release (division of
+    transverse carpal ligament via volar approach) and endoscopic. Dedicated catalog
+    'Carpal tunnel approach' ID exists with matching clinical_tag. high confidence
+    for open CTR.
+  confidence: high
+- procedure_id: cubital_tunnel_release
+  display_name: Cubital Tunnel Release
+  specialty: hand
+  region: elbow
+  triggers:
+  - cubital tunnel
+  - cubital tunnel release
+  - ulnar nerve decompression elbow
+  recommended_approach_ids: []
+  conditional_approach_ids: []
+  blocked_approach_ids: []
+  orthobullets_url: https://www.orthobullets.com/hand/6021/cubital-tunnel-syndrome
+  evidence_note: OB cubital tunnel page describes medial elbow approaches (in situ
+    decompression, transposition) usually via posterior/medial to medial epicondyle.
+    No dedicated cubital or medial elbow catalog ID (closest is lateral Kocher, which
+    is not standard for cubital). manual_review / catalog gap.
+  confidence: manual_review
+- procedure_id: patella_fracture_orif
+  display_name: Patella Fracture ORIF
+  specialty: trauma
+  region: knee
+  triggers:
+  - patella fracture
+  - patella ORIF
+  - transverse patella
+  - patellar fracture fixation
+  recommended_approach_ids:
+  - approach_lower_ext_knee_anterior_medial_parapatellar
+  conditional_approach_ids: []
+  blocked_approach_ids: []
+  orthobullets_url: https://www.orthobullets.com/trauma/1044/patella-fractures
+  evidence_note: 'OB patella fractures topic: anterior midline or medial parapatellar
+    exposure for ORIF/tension band. Catalog anterior medial parapatellar ID provides
+    the needed anterior knee access. medium-high confidence.'
+  confidence: high
+- procedure_id: tibial_plateau_fracture_orif
+  display_name: Tibial Plateau Fracture ORIF
+  specialty: trauma
+  region: knee
+  triggers:
+  - tibial plateau
+  - tibial plateau fracture
+  - plateau ORIF
+  - lateral plateau
+  recommended_approach_ids:
+  - approach_lower_ext_knee_anterior_medial_parapatellar
+  - approach_lower_ext_knee_lateral
+  conditional_approach_ids: []
+  blocked_approach_ids: []
+  orthobullets_url: https://www.orthobullets.com/trauma/1042/tibial-plateau-fractures
+  evidence_note: 'OB tibial plateau topic: anterolateral (lateral) for most lateral
+    plateau; medial or posteromedial for medial/posteromedial variants; anterior parapatellar
+    extensions used. Catalog has knee anterior medial parapatellar + knee lateral.
+    No dedicated posteromedial knee ID. Recommended the two available; conditional
+    expansion needed for pure medial. medium confidence.'
+  confidence: medium
+- procedure_id: femoral_shaft_fracture_orif
+  display_name: Femoral Shaft Fracture ORIF
+  specialty: trauma
+  region: thigh
+  triggers:
+  - femoral shaft
+  - femur shaft fracture
+  - femoral ORIF
+  - femur plate
+  recommended_approach_ids:
+  - approach_lower_ext_thigh_lateral
+  - approach_lower_ext_thigh_posterolateral
+  conditional_approach_ids: []
+  blocked_approach_ids: []
+  orthobullets_url: https://www.orthobullets.com/trauma/1040/femoral-shaft-fractures
+  evidence_note: 'OB femoral shaft: lateral approach (or posterolateral) standard
+    for open reduction/plating when IMN not used or for reduction aid. Catalog has
+    lateral thigh and posterolateral thigh IDs. high confidence for open plating cases.'
+  confidence: high
+- procedure_id: clavicle_fracture_orif
+  display_name: Clavicle Fracture ORIF
+  specialty: trauma
+  region: shoulder
+  triggers:
+  - clavicle
+  - clavicle fracture
+  - clavicle ORIF
+  - midshaft clavicle plate
+  recommended_approach_ids: []
+  conditional_approach_ids: []
+  blocked_approach_ids: []
+  orthobullets_url: https://www.orthobullets.com/trauma/1016/clavicle-fractures
+  evidence_note: 'OB clavicle fractures: superior or anterior approach along the clavicle
+    (no dedicated internervous plane, direct to bone). No dedicated clavicle or superior
+    shoulder girdle catalog ID. manual_review.'
+  confidence: manual_review
+- procedure_id: scaphoid_fracture_orif
+  display_name: Scaphoid Fracture ORIF
+  specialty: hand
+  region: wrist
+  triggers:
+  - scaphoid
+  - scaphoid fracture
+  - scaphoid ORIF
+  - scaphoid waist
+  recommended_approach_ids:
+  - approach_wrist_volar_distal_henry
+  - approach_wrist_dorsal
+  conditional_approach_ids: []
+  blocked_approach_ids: []
+  orthobullets_url: https://www.orthobullets.com/hand/6009/scaphoid-fracture
+  evidence_note: 'OB scaphoid: volar (Henry/FCR extended) for waist/distal; dorsal
+    for proximal pole. Catalog volar distal Henry and dorsal wrist IDs are the closest
+    matches. medium confidence (many percutaneous).'
+  confidence: medium
+- procedure_id: monteggia_fracture_orif
+  display_name: Monteggia Fracture ORIF
+  specialty: trauma
+  region: forearm
+  triggers:
+  - monteggia
+  - monteggia fracture
+  - proximal ulna radial head dislocation
+  recommended_approach_ids:
+  - approach_forearm_anterior_henry
+  conditional_approach_ids:
+  - condition: radial head open reduction needed
+    triggers:
+    - radial head
+    - radial head dislocation
+    approach_ids:
+    - approach_elbow_lateral_kocher
+  blocked_approach_ids: []
+  orthobullets_url: https://www.orthobullets.com/trauma/1024/monteggia-fractures
+  evidence_note: 'OB Monteggia: posterior approach to ulna (subcutaneous) + Kocher
+    posterolateral for radial head if open reduction required. Catalog has anterior
+    Henry (for radius component in variants) and Kocher. No exact ulna posterior ID.
+    Recommended Henry + conditional Kocher; ulna component limited. medium.'
+  confidence: medium
+- procedure_id: achilles_tendon_repair
+  display_name: Achilles Tendon Repair
+  specialty: sports
+  region: ankle
+  triggers:
+  - achilles
+  - achilles tendon
+  - achilles rupture
+  - achilles repair
+  recommended_approach_ids:
+  - approach_lower_ext_ankle_posteromedial
+  conditional_approach_ids: []
+  blocked_approach_ids: []
+  orthobullets_url: https://www.orthobullets.com/sports/3009/achilles-tendon-rupture
+  evidence_note: 'OB Achilles rupture: posteromedial or direct posterior approach
+    to tendon. Catalog posteromedial ankle ID provides access. medium-high (many percutaneous).'
+  confidence: medium
+- procedure_id: total_ankle_arthroplasty
+  display_name: Total Ankle Arthroplasty
+  specialty: foot_ankle
+  region: ankle
+  triggers:
+  - total ankle
+  - ankle arthroplasty
+  - TAA
+  - total ankle replacement
+  recommended_approach_ids:
+  - approach_lower_ext_ankle_anterior
+  conditional_approach_ids: []
+  blocked_approach_ids: []
+  orthobullets_url: https://www.orthobullets.com/foot-and-ankle/12133/total-ankle-arthroplasty
+  evidence_note: 'OB total ankle arthroplasty page: anterior approach is standard
+    for most modern TAA designs. Exact match to catalog anterior ankle ID. high confidence
+    for TAA.'
+  confidence: high
+- procedure_id: high_tibial_osteotomy
+  display_name: High Tibial Osteotomy
+  specialty: recon
+  region: knee
+  triggers:
+  - high tibial osteotomy
+  - hto
+  - medial opening wedge
+  - lateral closing wedge hto
+  recommended_approach_ids:
+  - approach_lower_ext_knee_medial
+  - approach_lower_ext_knee_anterior_medial_parapatellar
+  conditional_approach_ids: []
+  blocked_approach_ids: []
+  orthobullets_url: https://www.orthobullets.com/recon/3135/high-tibial-osteotomy
+  evidence_note: 'OB HTO: medial approach (or anteromedial) for medial opening wedge;
+    lateral for closing. Catalog has knee medial + anterior medial parapatellar. Good
+    coverage for common medial HTO. high confidence for medial variants.'
+  confidence: high
+- procedure_id: supracondylar_humerus_fracture_pediatric
+  display_name: Supracondylar Humerus Fracture (Pediatric) ORIF/CRPP
+  specialty: pediatrics
+  region: humerus
+  triggers:
+  - supracondylar
+  - supracondylar humerus
+  - pediatric supracondylar
+  - gantzer
+  recommended_approach_ids: []
+  conditional_approach_ids: []
+  blocked_approach_ids: []
+  orthobullets_url: https://www.orthobullets.com/pediatrics/4008/supracondylar-fracture--pediatric
+  evidence_note: 'OB supracondylar pediatric: most are CRPP (percutaneous lateral
+    + medial pins); open reduction when needed uses anterior (brachialis splitting)
+    or posterior. Catalog has distal anterolateral humerus (close to anterior) and
+    posterior triceps split. No exact pediatric anterior brachialis ID match for open
+    cases. manual_review for open reduction subset.'
+  confidence: manual_review
+- procedure_id: intertrochanteric_hip_fracture_orif
+  display_name: Intertrochanteric Hip Fracture ORIF
+  specialty: trauma
+  region: hip
+  triggers:
+  - intertrochanteric
+  - intertrochanteric fracture
+  - it fracture
+  - hip fracture orif
+  recommended_approach_ids:
+  - approach_lower_ext_hip_lateral_hardinge
+  - approach_lower_ext_thigh_lateral
+  conditional_approach_ids: []
+  blocked_approach_ids: []
+  orthobullets_url: https://www.orthobullets.com/trauma/1038/intertrochanteric-fractures
+  evidence_note: 'OB intertrochanteric: most treated with IM nail (percutaneous/limited
+    lateral); open reduction uses lateral thigh or anterolateral. Catalog lateral
+    thigh + hip lateral Hardinge (related) provide options. medium (many closed nailing).'
+  confidence: medium
+- procedure_id: femoral_neck_fracture_orif_young
+  display_name: Femoral Neck Fracture ORIF (Young Patient)
+  specialty: trauma
+  region: hip
+  triggers:
+  - femoral neck young
+  - femoral neck orif
+  - displaced femoral neck
+  - pipkin
+  recommended_approach_ids:
+  - approach_lower_ext_hip_anterior_smith_peterson
+  - approach_lower_ext_hip_anterolateral_watson_jones
+  conditional_approach_ids: []
+  blocked_approach_ids: []
+  orthobullets_url: https://www.orthobullets.com/trauma/1037/femoral-neck-fractures
+  evidence_note: 'OB femoral neck (young): anterior (Smith-Petersen) or anterolateral
+    (Watson-Jones) for open reduction to preserve vascularity; posterior also described
+    but less favored for young. Catalog has exact anterior Smith-Peterson + Watson-Jones.
+    high confidence for open cases in young patients.'
+  confidence: high
+- procedure_id: revision_tha
+  display_name: Revision Total Hip Arthroplasty
+  specialty: recon
+  region: hip
+  triggers:
+  - revision tha
+  - revision total hip
+  - revision hip arthroplasty
+  recommended_approach_ids:
+  - approach_lower_ext_hip_posterior_moore_southern
+  - approach_lower_ext_hip_anterior_smith_peterson
+  conditional_approach_ids: []
+  blocked_approach_ids: []
+  orthobullets_url: https://www.orthobullets.com/recon/12116/tha-approaches
+  evidence_note: 'OB THA approaches + revision topics: posterior most common for revision
+    (extensile); anterior also used. Both catalog hip IDs applicable depending on
+    prior approach and need. medium (case specific).'
+  confidence: medium
+- procedure_id: revision_tka
+  display_name: Revision Total Knee Arthroplasty
+  specialty: recon
+  region: knee
+  triggers:
+  - revision tka
+  - revision total knee
+  - revision knee arthroplasty
+  recommended_approach_ids:
+  - approach_lower_ext_knee_anterior_medial_parapatellar
+  conditional_approach_ids: []
+  blocked_approach_ids: []
+  orthobullets_url: https://www.orthobullets.com/recon/12289/total-knee-arthroplasty
+  evidence_note: 'OB TKA revision: medial parapatellar standard (often with extensile
+    maneuvers like quad snip). Catalog anterior medial parapatellar ID is the base.
+    high confidence for primary revision exposure.'
+  confidence: high
+- procedure_id: ankle_arthrodesis
+  display_name: Ankle Arthrodesis
+  specialty: foot_ankle
+  region: ankle
+  triggers:
+  - ankle arthrodesis
+  - ankle fusion
+  - tibiotalar fusion
+  recommended_approach_ids:
+  - approach_lower_ext_ankle_anterior
+  conditional_approach_ids: []
+  blocked_approach_ids: []
+  orthobullets_url: https://www.orthobullets.com/foot-and-ankle/12133/total-ankle-arthroplasty
+  evidence_note: 'OB ankle fusion/arthrodesis topics: anterior approach common for
+    tibiotalar fusion (also arthroscopic). Catalog anterior ankle ID matches. medium
+    (multiple techniques exist).'
+  confidence: medium
+- procedure_id: hallux_valgus_correction
+  display_name: Hallux Valgus (Bunion) Correction
+  specialty: foot_ankle
+  region: foot
+  triggers:
+  - hallux valgus
+  - bunion
+  - bunionectomy
+  - distal chevron
+  - proximal osteotomy hallux
+  recommended_approach_ids: []
+  conditional_approach_ids: []
+  blocked_approach_ids: []
+  orthobullets_url: https://www.orthobullets.com/foot-and-ankle/12134/hallux-valgus
+  evidence_note: 'OB hallux valgus: medial incision over 1st MTP, various osteotomies/soft
+    tissue. No dedicated foot or hallux catalog approach ID. manual_review.'
+  confidence: manual_review
+- procedure_id: trigger_finger_release
+  display_name: Trigger Finger Release
+  specialty: hand
+  region: hand
+  triggers:
+  - trigger finger
+  - trigger digit
+  - stenosing tenosynovitis
+  - a1 pulley release
+  recommended_approach_ids: []
+  conditional_approach_ids: []
+  blocked_approach_ids: []
+  orthobullets_url: https://www.orthobullets.com/hand/6014/trigger-finger
+  evidence_note: 'OB trigger finger: small longitudinal or transverse incision over
+    A1 pulley in palm/finger. No dedicated hand or trigger catalog ID. manual_review
+    (minor procedure, often not using major approach cards).'
+  confidence: manual_review
+- procedure_id: humeral_shaft_fracture_orif
+  display_name: Humeral Shaft Fracture ORIF
+  specialty: trauma
+  region: humerus
+  triggers:
+  - humeral shaft fracture orif
+  - humeral shaft fracture orif
+  - humeral shaft orif
+  - humerus shaft
+  recommended_approach_ids:
+  - approach_humerus_anterolateral_distal
+  - approach_humerus_posterior_triceps_split
+  conditional_approach_ids: []
+  blocked_approach_ids: []
+  orthobullets_url: https://www.orthobullets.com/trauma/1016/humeral-shaft-fractures
+  evidence_note: OB supported; mapped to catalog where IDs match (e.g. parapatellar,
+    deltopectoral, Henry, Kocher, hip/knee/ankle approaches). High/medium where recs
+    present; manual_review where catalog gap prevents deterministic recs.
+  confidence: high
+- procedure_id: lisfranc_orif
+  display_name: Lisfranc ORIF / Arthrodesis
+  specialty: foot_ankle
+  region: foot
+  triggers:
+  - lisfranc orif
+  - lisfranc orif / arthrodesis
+  - lisfranc
+  - midfoot
+  - tarsometatarsal
+  recommended_approach_ids: []
+  conditional_approach_ids: []
+  blocked_approach_ids: []
+  orthobullets_url: https://www.orthobullets.com/foot-and-ankle/7030/lisfranc-injury
+  evidence_note: 'Catalog gap: no dedicated Lisfranc or midfoot approach ID (catalog
+    limited to ankle anterior/posteromedial). OB supports specific dual longitudinal
+    incisions and column reduction/fixation but no matching catalog entry. manual_review
+    required.'
+  confidence: manual_review
+- procedure_id: scfe_pinning
+  display_name: SCFE Percutaneous Pinning / Modified Dunn
+  specialty: pediatrics
+  region: hip
+  triggers:
+  - scfe pinning
+  - scfe percutaneous pinning / modified dunn
+  - scfe
+  - slipped capital
+  - pinning
+  recommended_approach_ids: []
+  conditional_approach_ids: []
+  blocked_approach_ids: []
+  orthobullets_url: https://www.orthobullets.com/pediatrics/4040/slipped-capital-femoral-epiphysis-scfe
+  evidence_note: 'Catalog gap / peds specific: no dedicated SCFE pinning or pediatric
+    hip pinning approach ID. Uses percutaneous (fluoroscopic) or surgical dislocation
+    (Ganz, not in catalog). manual_review.'
+  confidence: manual_review
+- procedure_id: acdf
+  display_name: Anterior Cervical Discectomy and Fusion (ACDF)
+  specialty: spine
+  region: cervical
+  triggers:
+  - acdf
+  - anterior cervical discectomy and fusion (acdf)
+  - acdf
+  - anterior cervical
+  - cervical fusion
+  recommended_approach_ids: []
+  conditional_approach_ids: []
+  blocked_approach_ids: []
+  orthobullets_url: https://www.orthobullets.com/approaches/12001/anterior-approach-to-cervical-spine
+  evidence_note: 'Catalog gap: no cervical or spine approach IDs in catalog (only
+    extremity/pelvis/hip/knee/ankle). OB has excellent dedicated anterior cervical
+    approach page with explicit steps/dangers. manual_review.'
+  confidence: manual_review
+- procedure_id: posterior_lumbar_decompression_fusion
+  display_name: Posterior Lumbar Decompression and Fusion
+  specialty: spine
+  region: lumbar
+  triggers:
+  - posterior lumbar decompression fusion
+  - posterior lumbar decompression and fusion
+  - lumbar fusion
+  - lumbar decompression
+  - posterior lumbar
+  recommended_approach_ids: []
+  conditional_approach_ids: []
+  blocked_approach_ids: []
+  orthobullets_url: https://www.orthobullets.com/approaches/12003/posterior-approach-to-lumbar-spine
+  evidence_note: 'Catalog gap: no lumbar or spine approach IDs. OB has dedicated posterior
+    lumbar approach with clear steps for decompression/fusion. manual_review.'
+  confidence: manual_review
+- procedure_id: total_shoulder_arthroplasty
+  display_name: Total Shoulder Arthroplasty
+  specialty: recon
+  region: shoulder
+  triggers:
+  - total shoulder arthroplasty
+  - total shoulder arthroplasty
+  - total shoulder
+  - tsa
+  - shoulder arthroplasty
+  recommended_approach_ids:
+  - approach_shoulder_deltopectoral
+  conditional_approach_ids: []
+  blocked_approach_ids: []
+  orthobullets_url: https://www.orthobullets.com/recon/12000/total-shoulder-arthroplasty
+  evidence_note: OB supported; mapped to catalog where IDs match (e.g. parapatellar,
+    deltopectoral, Henry, Kocher, hip/knee/ankle approaches). High/medium where recs
+    present; manual_review where catalog gap prevents deterministic recs.
+  confidence: high
+- procedure_id: tibial_shaft_fracture_orif
+  display_name: Tibial Shaft Fracture ORIF
+  specialty: trauma
+  region: leg
+  triggers:
+  - tibial shaft fracture orif
+  - tibial shaft fracture orif
+  - tibial shaft orif
+  - tibia shaft
+  recommended_approach_ids:
+  - approach_lower_ext_leg_lateral
+  - approach_lower_ext_leg_medial
+  conditional_approach_ids: []
+  blocked_approach_ids: []
+  orthobullets_url: https://www.orthobullets.com/trauma/1043/tibial-shaft-fractures
+  evidence_note: OB supported; mapped to catalog where IDs match (e.g. parapatellar,
+    deltopectoral, Henry, Kocher, hip/knee/ankle approaches). High/medium where recs
+    present; manual_review where catalog gap prevents deterministic recs.
+  confidence: high
+- procedure_id: meniscus_repair
+  display_name: Meniscus Repair
+  specialty: sports
+  region: knee
+  triggers:
+  - meniscus repair
+  - meniscus repair
+  - meniscus repair
+  - meniscal repair
+  recommended_approach_ids:
+  - approach_lower_ext_knee_anterior_medial_parapatellar
+  conditional_approach_ids: []
+  blocked_approach_ids: []
+  orthobullets_url: https://www.orthobullets.com/knee-and-sports/3006/meniscal-tears
+  evidence_note: OB supported; mapped to catalog where IDs match (e.g. parapatellar,
+    deltopectoral, Henry, Kocher, hip/knee/ankle approaches). High/medium where recs
+    present; manual_review where catalog gap prevents deterministic recs.
+  confidence: high
+- procedure_id: ddh_surgery
+  display_name: DDH Surgery (Pavlik, Closed/Open Reduction, Osteotomy)
+  specialty: pediatrics
+  region: hip
+  triggers:
+  - ddh surgery
+  - ddh surgery (pavlik, closed/open reduction, osteotomy)
+  - ddh
+  - developmental dysplasia
+  - hip dysplasia
+  recommended_approach_ids:
+  - approach_lower_ext_hip_medial_ludloff
+  conditional_approach_ids:
+  - condition: anterior or pelvic osteotomy needed
+    triggers:
+    - salter
+    - dega
+    - pemberton
+    - osteotomy
+    approach_ids:
+    - approach_lower_ext_hip_anterior_smith_peterson
+  blocked_approach_ids: []
+  orthobullets_url: https://www.orthobullets.com/pediatrics/4118/developmental-dysplasia-of-the-hip-ddh
+  evidence_note: OB supported; mapped to catalog where IDs match (e.g. parapatellar,
+    deltopectoral, Henry, Kocher, hip/knee/ankle approaches). High/medium where recs
+    present; manual_review where catalog gap prevents deterministic recs.
+  confidence: high
+- procedure_id: reverse_shoulder_arthroplasty
+  display_name: Reverse Shoulder Arthroplasty
+  specialty: recon
+  region: shoulder
+  triggers:
+  - reverse shoulder arthroplasty
+  - reverse shoulder arthroplasty
+  - reverse shoulder
+  - rsa
+  - reverse arthroplasty
+  recommended_approach_ids:
+  - approach_shoulder_deltopectoral
+  - approach_shoulder_lateral_deltoid_split
+  conditional_approach_ids: []
+  blocked_approach_ids: []
+  orthobullets_url: https://www.orthobullets.com/recon/12000/reverse-shoulder-arthroplasty
+  evidence_note: OB supported; mapped to catalog where IDs match (e.g. parapatellar,
+    deltopectoral, Henry, Kocher, hip/knee/ankle approaches). High/medium where recs
+    present; manual_review where catalog gap prevents deterministic recs.
+  confidence: high
+- procedure_id: perthes_disease_surgery
+  display_name: Legg-Calve-Perthes Containment Osteotomy
+  specialty: pediatrics
+  region: hip
+  triggers:
+  - perthes disease surgery
+  - legg-calve-perthes containment osteotomy
+  - perthes
+  - legg calve
+  - containment
+  recommended_approach_ids:
+  - approach_lower_ext_hip_anterior_smith_peterson
+  conditional_approach_ids: []
+  blocked_approach_ids: []
+  orthobullets_url: https://www.orthobullets.com/pediatrics/4119/legg-calve-perthes-disease
+  evidence_note: OB supported; mapped to catalog where IDs match (e.g. parapatellar,
+    deltopectoral, Henry, Kocher, hip/knee/ankle approaches). High/medium where recs
+    present; manual_review where catalog gap prevents deterministic recs.
+  confidence: high
+- procedure_id: lateral_ankle_ligament_repair
+  display_name: Lateral Ankle Ligament Repair (Brostrom)
+  specialty: sports
+  region: ankle
+  triggers:
+  - lateral ankle ligament repair
+  - lateral ankle ligament repair (brostrom)
+  - lateral ankle ligament
+  - bostrom
+  - brostrom
+  recommended_approach_ids:
+  - approach_lower_ext_ankle_anterior
+  conditional_approach_ids: []
+  blocked_approach_ids: []
+  orthobullets_url: https://www.orthobullets.com/sports/3002/ankle-ligament-injury
+  evidence_note: OB supported; mapped to catalog where IDs match (e.g. parapatellar,
+    deltopectoral, Henry, Kocher, hip/knee/ankle approaches). High/medium where recs
+    present; manual_review where catalog gap prevents deterministic recs.
+  confidence: high
+- procedure_id: metacarpal_fracture_orif
+  display_name: Metacarpal Fracture ORIF (incl. Boxer's)
+  specialty: hand
+  region: hand
+  triggers:
+  - metacarpal fracture orif
+  - metacarpal fracture orif (incl. boxer's)
+  - metacarpal orif
+  - boxers fracture
+  recommended_approach_ids:
+  - approach_wrist_dorsal
+  conditional_approach_ids: []
+  blocked_approach_ids: []
+  orthobullets_url: https://www.orthobullets.com/hand/6002/metacarpal-fractures
+  evidence_note: OB supported; mapped to catalog where IDs match (e.g. parapatellar,
+    deltopectoral, Henry, Kocher, hip/knee/ankle approaches). High/medium where recs
+    present; manual_review where catalog gap prevents deterministic recs.
+  confidence: high
+- procedure_id: distal_femur_fracture_orif
+  display_name: Distal Femur Fracture ORIF
+  specialty: trauma
+  region: thigh
+  triggers:
+  - distal femur fracture orif
+  - distal femur fracture orif
+  - distal femur orif
+  - supracondylar femur
+  recommended_approach_ids:
+  - approach_lower_ext_knee_anterior_medial_parapatellar
+  - approach_lower_ext_knee_lateral
+  conditional_approach_ids: []
+  blocked_approach_ids: []
+  orthobullets_url: https://www.orthobullets.com/trauma/1041/distal-femur-fractures
+  evidence_note: OB supported; mapped to catalog where IDs match (e.g. parapatellar,
+    deltopectoral, Henry, Kocher, hip/knee/ankle approaches). High/medium where recs
+    present; manual_review where catalog gap prevents deterministic recs.
+  confidence: high
+- procedure_id: lateral_epicondylitis_release
+  display_name: Lateral Epicondylitis (Tennis Elbow) Release
+  specialty: sports
+  region: elbow
+  triggers:
+  - lateral epicondylitis release
+  - lateral epicondylitis (tennis elbow) release
+  - tennis elbow
+  - lateral epicondylitis
+  - ecrb release
+  recommended_approach_ids:
+  - approach_elbow_lateral_kocher
+  conditional_approach_ids: []
+  blocked_approach_ids: []
+  orthobullets_url: https://www.orthobullets.com/shoulder-and-elbow/3083/lateral-epicondylitis-tennis-elbow
+  evidence_note: OB supported; mapped to catalog where IDs match (e.g. parapatellar,
+    deltopectoral, Henry, Kocher, hip/knee/ankle approaches). High/medium where recs
+    present; manual_review where catalog gap prevents deterministic recs.
+  confidence: high
+- procedure_id: cervical_laminectomy_fusion
+  display_name: Posterior Cervical Laminectomy and Fusion
+  specialty: spine
+  region: cervical
+  triggers:
+  - cervical laminectomy fusion
+  - posterior cervical laminectomy and fusion
+  - cervical laminectomy
+  - posterior cervical
+  recommended_approach_ids: []
+  conditional_approach_ids: []
+  blocked_approach_ids: []
+  orthobullets_url: ''
+  evidence_note: 'Catalog gap or limited OB approach/anatomy support for dedicated
+    entry: no spine catalog IDs. Added for completeness; manual_review.'
+  confidence: manual_review
+- procedure_id: plantar_fasciitis_release
+  display_name: Plantar Fasciitis Release
+  specialty: foot_ankle
+  region: foot
+  triggers:
+  - plantar fasciitis release
+  - plantar fasciitis release
+  - plantar fasciitis release
+  recommended_approach_ids: []
+  conditional_approach_ids: []
+  blocked_approach_ids: []
+  orthobullets_url: ''
+  evidence_note: 'Catalog gap or limited OB approach/anatomy support for dedicated
+    entry: limited specific catalog support for plantar. Added for completeness; manual_review.'
+  confidence: manual_review
+- procedure_id: periprosthetic_hip_fracture_orif
+  display_name: Periprosthetic Hip Fracture ORIF
+  specialty: trauma
+  region: hip
+  triggers:
+  - periprosthetic hip fracture orif
+  - periprosthetic hip fracture orif
+  - periprosthetic hip
+  - vancouver
+  recommended_approach_ids: []
+  conditional_approach_ids: []
+  blocked_approach_ids: []
+  orthobullets_url: ''
+  evidence_note: 'Catalog gap or limited OB approach/anatomy support for dedicated
+    entry: often uses existing hip approaches but complex; partial. Added for completeness;
+    manual_review.'
+  confidence: manual_review
+- procedure_id: elbow_arthroscopy
+  display_name: Elbow Arthroscopy
+  specialty: sports
+  region: elbow
+  triggers:
+  - elbow arthroscopy
+  - elbow arthroscopy
+  - elbow arthroscopy
+  recommended_approach_ids: []
+  conditional_approach_ids: []
+  blocked_approach_ids: []
+  orthobullets_url: ''
+  evidence_note: 'Catalog gap or limited OB approach/anatomy support for dedicated
+    entry: Kocher or other lateral; limited dedicated. Added for completeness; manual_review.'
+  confidence: manual_review
+- procedure_id: wrist_arthroscopy_tfcc
+  display_name: Wrist Arthroscopy / TFCC Repair
+  specialty: hand
+  region: wrist
+  triggers:
+  - wrist arthroscopy tfcc
+  - wrist arthroscopy / tfcc repair
+  - wrist arthroscopy
+  - tfcc
+  recommended_approach_ids: []
+  conditional_approach_ids: []
+  blocked_approach_ids: []
+  orthobullets_url: ''
+  evidence_note: 'Catalog gap or limited OB approach/anatomy support for dedicated
+    entry: dorsal wrist catalog; limited specific TFCC anatomy in playbook. Added
+    for completeness; manual_review.'
+  confidence: manual_review
+- procedure_id: quadriceps_tendon_repair
+  display_name: Quadriceps Tendon Repair
+  specialty: sports
+  region: knee
+  triggers:
+  - quadriceps tendon repair
+  - quadriceps tendon repair
+  - quadriceps tendon repair
+  - quad repair
+  recommended_approach_ids: []
+  conditional_approach_ids: []
+  blocked_approach_ids: []
+  orthobullets_url: ''
+  evidence_note: 'Catalog gap or limited OB approach/anatomy support for dedicated
+    entry: parapatellar exposure; extensor mechanism. Added for completeness; manual_review.'
+  confidence: manual_review
+- procedure_id: boxers_fracture_orif
+  display_name: Boxer's (5th Metacarpal Neck) Fracture ORIF
+  specialty: hand
+  region: hand
+  triggers:
+  - boxers fracture orif
+  - boxer's (5th metacarpal neck) fracture orif
+  - metacarpal orif
+  - boxers fracture
+  recommended_approach_ids: []
+  conditional_approach_ids: []
+  blocked_approach_ids: []
+  orthobullets_url: ''
+  evidence_note: 'Catalog gap or limited OB approach/anatomy support for dedicated
+    entry: dorsal; already covered in metacarpal but explicit. Added for completeness;
+    manual_review.'
+  confidence: manual_review

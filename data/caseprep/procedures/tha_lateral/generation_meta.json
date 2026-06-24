@@ -1,0 +1,47 @@
+{
+  "procedure_id": "tha_lateral",
+  "generated_at": "2026-06-23T03:30:32Z",
+  "factory_version": "caseprep_factory_v1",
+  "model_used": null,
+  "source_grounding_score": 20.0,
+  "structural_completeness_score": 30.0,
+  "clinical_accuracy_score": 12.0,
+  "or_preparedness_score": 0.0,
+  "resident_utility_score": 8.0,
+  "attending_relevance_score": 0.0,
+  "hallucination_risk_score": 80.0,
+  "overall_quality_score": 13.7,
+  "coverage_score": 30,
+  "blocking_issues": [
+    "Required section empty: approach_landmarks",
+    "Required section empty: attending_pimp_questions",
+    "Required section empty: surgical_layers",
+    "Required section empty: pitfalls",
+    "Required section empty: structures_at_risk",
+    "structures_at_risk has 0 entries; need at least 3."
+  ],
+  "warnings": [
+    "Low extraction confidence (0.0); sparse source library.",
+    "Extraction: No orthobullets source records linked to this procedure.",
+    "Extraction: No structures_at_risk extracted from sources.",
+    "Extraction: No approach landmarks extracted from sources."
+  ],
+  "suggested_revision_actions": [
+    "Author content for section 'approach_landmarks'.",
+    "Author content for section 'attending_pimp_questions'.",
+    "Author content for section 'surgical_layers'.",
+    "Author content for section 'pitfalls'.",
+    "Author content for section 'structures_at_risk'.",
+    "Add at least 3 complete structures_at_risk entries.",
+    "Add or link orthobullets sources before certification.",
+    "Standard review: address blocking issues before approval.",
+    "Expand indications with procedure-specific clinical criteria.",
+    "Consider adding implant_strategy if applicable to this procedure.",
+    "Add fluoroscopy/reduction checkpoints if fixation or alignment is relevant.",
+    "Source library is thin — attending should verify all anatomy claims.",
+    "Strengthen attending_pimp_questions with approach-specific Q/A pairs."
+  ],
+  "review_status": "needs_review",
+  "runtime_promoted": false,
+  "certified": false
+}

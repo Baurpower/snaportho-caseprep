@@ -1,8 +1,17 @@
 import json
+import os
 from pathlib import Path
 from typing import Any, Dict, List, Optional
 
 from openai import OpenAI
+
+# Deterministic router (optional pre-filter) + validator + supported case gate
+try:
+    from approach_router import get_allowed_and_blocked, validate_selected_approaches, get_supported_case
+except Exception:
+    get_allowed_and_blocked = None
+    validate_selected_approaches = None
+    get_supported_case = None
 
 
 # -----------------------------
@@ -128,11 +137,32 @@ def select_approaches(
     n_min: int = 1,
     n_max: int = 3,
     catalog_max_chars: int = 12000,
+    allowed_approach_ids: Optional[List[str]] = None,
+    blocked_approach_ids: Optional[List[str]] = None,
+    router_info: Optional[Dict[str, Any]] = None,
 ) -> Dict[str, Any]:
     """
     Fast pass: select 1-3 approach IDs from a compacted catalog.
+
+    If allowed_approach_ids is provided (from deterministic router), the prompt
+    is heavily constrained to only those IDs. GPT is not allowed to pick
+    blocked ones. This prevents clinically wrong choices for obvious procedures.
     """
     catalog_compact = compact_catalog_for_prompt(catalog, max_chars=catalog_max_chars)
+
+    # Build constrained instructions if router data is present
+    constraint_text = ""
+    if allowed_approach_ids:
+        allowed_str = ", ".join(allowed_approach_ids)
+        constraint_text = (
+            f"\nDETERMINISTIC ROUTER RESULT (high confidence):\n"
+            f"You MUST choose ONLY from these allowed approach IDs: [{allowed_str}]\n"
+        )
+        if blocked_approach_ids:
+            blocked_str = ", ".join(blocked_approach_ids)
+            constraint_text += f"DO NOT choose any of these blocked IDs: [{blocked_str}]\n"
+        if router_info:
+            constraint_text += f"Router rationale: {router_info.get('rationale', '')}\n"
 
     instructions = (
         "You are an orthopaedic surgical approach selector.\n"
@@ -141,6 +171,7 @@ def select_approaches(
         "- Only output IDs that exist in the provided catalog.\n"
         "- Prefer the most anatomically appropriate approach(es) given the case.\n"
         "- Keep rationales short and practical.\n"
+        + constraint_text
     )
 
     user_input = (
@@ -278,6 +309,49 @@ def run_pipeline_fast(
     selector = OpenAIJson(client, model_selector)
     quizzer = OpenAIJson(client, model_quiz)
 
+    # --- Router pre-filter (deterministic safety layer) + supported case gate ---
+    router_info = None
+    allowed = None
+    blocked = None
+    supported = True
+    enforce_supported_gate = os.getenv("ENABLE_LOCAL_ANATOMY_RAG", "").lower() in ("1", "true", "yes", "on")
+    if get_allowed_and_blocked or get_supported_case:
+        try:
+            if get_supported_case:
+                sc = get_supported_case(case_prompt)
+                supported = bool(sc.get("supported", True))
+                router_info = sc  # richer shape
+                if supported or not enforce_supported_gate:
+                    allowed = sc.get("recommended_approach_ids") or sc.get("allowed_approach_ids") or None
+                    blocked = sc.get("blocked_approach_ids") or None
+                else:
+                    # Gate (only when ENABLE_LOCAL=true): do not allow free-form GPT guessing for unsupported
+                    allowed = []
+                    blocked = sc.get("blocked_approach_ids", [])
+                    if router_info:
+                        router_info["selectionMode"] = "unsupported_case_no_approach_guessing"
+            elif get_allowed_and_blocked:
+                router_info = get_allowed_and_blocked(case_prompt)
+                if router_info.get("confidence") in ("high", "medium"):
+                    allowed = router_info.get("allowed_approach_ids") or None
+                    blocked = router_info.get("blocked_approach_ids") or None
+        except Exception:
+            router_info = None
+            supported = True  # fail open
+
+    if not supported and enforce_supported_gate:
+        # Short-circuit: return limited without running full GPT select/quiz (only under ENABLE=true)
+        limited_sel = {
+            "selected": [],
+            "notes": (router_info or {}).get("reason", "Case not supported by curated approach playbook; no approach guessing performed."),
+            "router": router_info or {"case_family": "unknown", "selectionMode": "unsupported_case_no_approach_guessing"},
+        }
+        return {
+            "approachSelection": limited_sel,
+            "anatomyQuiz": {"questions": []},
+            "router": router_info,
+        }
+
     sel = select_approaches(
         selector,
         case_prompt=case_prompt,
@@ -285,8 +359,44 @@ def run_pipeline_fast(
         n_min=n_min,
         n_max=n_max,
         catalog_max_chars=catalog_max_chars,
+        allowed_approach_ids=allowed,
+        blocked_approach_ids=blocked,
+        router_info=router_info,
     )
     selected_ids = [x["id"] for x in sel.get("selected", [])]
+
+    # Attach router metadata to the selection result for downstream transparency
+    if router_info:
+        sel["router"] = {
+            "case_family": router_info.get("case_family"),
+            "selectionMode": "deterministic_router" if allowed else "legacy_gpt_selector",
+            "allowedApproachIds": allowed or [],
+            "blockedApproachIds": blocked or [],
+            "routerRationale": router_info.get("rationale", ""),
+        }
+
+    # --- Safety validation (post-GPT) ---
+    valid_catalog_ids = {a.get("id") for a in catalog if a.get("id")}
+    if validate_selected_approaches is not None:
+        validation = validate_selected_approaches(selected_ids, valid_catalog_ids, router_info)
+    else:
+        # Guard: router/validator import was skipped (defensive try/except at module top).
+        # Preserve selection; mark as unvalidated so downstream (hybrid) still gets approachSelection.
+        validation = {
+            "valid_selected": selected_ids,
+            "removed": [],
+            "reason": "validator unavailable (approach_router import skipped or None)",
+        }
+    sel["validation"] = validation
+    # Overwrite selected with only the validated ones
+    if validation.get("valid_selected"):
+        # Rebuild the selected list from original sel to preserve confidence/rationale
+        orig_by_id = {x["id"]: x for x in sel.get("selected", [])}
+        sel["selected"] = [orig_by_id[i] for i in validation["valid_selected"] if i in orig_by_id]
+        selected_ids = validation["valid_selected"]
+    else:
+        sel["selected"] = []
+        selected_ids = []
 
     if not selected_ids:
         return {
@@ -302,7 +412,12 @@ def run_pipeline_fast(
         max_selected_chars=max_selected_chars,
     )
 
-    return {
+    result = {
         "approachSelection": sel,
         "anatomyQuiz": quiz,
     }
+    # If router provided metadata, surface it at top level of the legacy anatomy result
+    # so hybrid builder / callers can expose selectionMode etc.
+    if router_info:
+        result["router"] = sel.get("router")
+    return result

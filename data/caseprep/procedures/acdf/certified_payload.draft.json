@@ -1,0 +1,71 @@
+{
+  "schema_version": "brobot_case_prep_payload_v2",
+  "procedure_id": "acdf",
+  "procedure_name": "Anterior Cervical Discectomy and Fusion (ACDF)",
+  "case_prep_status": "draft",
+  "procedure_overview": "Anterior Cervical Discectomy and Fusion (ACDF) — factory draft from source library (pending human review).",
+  "must_know_anatomy": [
+    "3 fascia layers: superficial investing (platysma/EJV), pretracheal (continuous with carotid sheath, superior/inf thyroid vessels), prevertebral (thick, lines prevert muscles, sympa",
+    "Landmarks: angle of mandible ~C2-3, carotid tubercle C6.",
+    "Risks: RLN (~2.3%, right more variable/vulnerable); sympathetic chain on longus colli lateral at C6 (Horner if injured); carotid sheath; retropharyngeal hematoma."
+  ],
+  "surgical_approach_anatomy": [],
+  "key_landmarks": [],
+  "surgical_layers": [
+    {
+      "layer_name": "Superficial (skin to fascia/capsule)",
+      "what_user_should_know": "3 fascia layers: superficial investing (platysma/EJV), pretracheal (continuous with carotid sheath, superior/inf thyroid vessels), prevertebral (thick, lines prevert muscles, sympa",
+      "key_structures": [],
+      "structures_at_risk": [],
+      "surgical_relevance": "Initial exposure and landmark identification."
+    },
+    {
+      "layer_name": "Deep (working exposure)",
+      "what_user_should_know": "Risks: RLN (~2.3%, right more variable/vulnerable); sympathetic chain on longus colli lateral at C6 (Horner if injured); carotid sheath; retropharyngeal hematoma.",
+      "key_structures": [],
+      "structures_at_risk": [],
+      "surgical_relevance": "Working layer for safe dissection and fixation/implant steps."
+    }
+  ],
+  "structures_at_risk": [
+    {
+      "structure": "Risks: RLN (~2.3%, right more variable/vulnerable); sympathetic chain on longus colli late",
+      "why_at_risk": "Identified in source library as at-risk structure for this approach.",
+      "how_to_avoid_injury": "Maintain direct visualization and controlled retraction.",
+      "consequence_of_injury": "Iatrogenic injury with functional consequences.",
+      "source_refs": [
+        "https://www.orthobullets.com/approaches/12001/anterior-approach-to-cervical-spine"
+      ]
+    }
+  ],
+  "reduction_or_implant_anatomy": [],
+  "fluoroscopy_checkpoints": [],
+  "common_mistakes": [
+    "Injury to Risks: RLN (~2.3%, right more variable/vulnerable); sympathetic chain on longus colli late — Iatrogenic injury with functional consequences.."
+  ],
+  "attending_pimp_questions": [
+    "Q: Why is Risks: RLN (~2.3%, right more variable/vulnerable); sympathetic chain on longus colli late at risk during acdf and how do you protect it? A: Identified in source library as at-risk structure for this approach. Avoid by: Maintain direct visualization and controlled retraction. Consequence: Iatrogenic injury with functional consequences."
+  ],
+  "night_before_review_checklist": [
+    "Weight-bearing: procedure-specific; confirm in attending preference and fixation/implant stability for Anterior Cervical Discectomy and Fusion (ACDF).",
+    "DVT prophylaxis: per institutional protocol unless contraindicated.",
+    "Activity restrictions: protect surgical repair; avoid premature loading or range of motion beyond protocol.",
+    "Watch for: wound complications, neurovascular change, increasing pain, fever, or loss of function.",
+    "Follow-up: routine wound check and early mobilization per service protocol."
+  ],
+  "source_urls": [],
+  "source_confidence": "medium",
+  "limitations": [
+    "Factory-drafted content pending human review; verify before clinical use.",
+    "Anatomy-focused case prep only; does not replace attending-specific preferences."
+  ],
+  "anatomy_category": "uncertain",
+  "approach_id": "acdf",
+  "approach_name": "Anterior Cervical Discectomy and Fusion (ACDF)",
+  "arthroscopy_or_portal_anatomy": [],
+  "payload_quality_status": "factory_draft",
+  "source_status": "factory_extracted",
+  "indications": [
+    "Clinical indication for Anterior Cervical Discectomy and Fusion (ACDF) per attending plan and documented diagnosis (source-linked indications pending)."
+  ]
+}

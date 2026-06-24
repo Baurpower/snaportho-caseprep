@@ -1,0 +1,171 @@
+{
+  "schema_version": "brobot_case_prep_payload_v2",
+  "procedure_id": "tibial_shaft_fracture_orif",
+  "procedure_name": "Tibial Shaft Fracture ORIF",
+  "case_prep_status": "certified",
+  "procedure_overview": "Tibial Shaft Fracture ORIF (open_approach). Certified. Score 4. Source-backed from v3.",
+  "must_know_anatomy": [
+    "Tibia subcutaneous anteromedially (easy landmark for approach); leg has 4 compartments (anterior, lateral, superficial posterior, deep posterior). IMN gold standard; plate for specific proximal/distal or soft tissue needs.",
+    "Anterior compartment: tibialis anterior, EHL, EDL, deep peroneal nerve, anterior tibial vessels. At risk in anterolateral approaches or swelling.",
+    "Lateral compartment: peroneus longus/brevis, superficial peroneal nerve (sensory to dorsum foot). Nerve exits fascia ~10-12 cm proximal to lateral malleolus.",
+    "Medial: saphenous vein and nerve (sensory) cross anteromedial distal third. At risk in medial approaches or incisions.",
+    "Posterior: superficial (gastroc/soleus/plantaris), deep (tib post, FDL, FHL, posterior tibial vessels, tibial nerve). Popliteal trifurcation proximally.",
+    "Compartment syndrome risk high in tibial shaft (swelling, bleeding); monitor pressures if tense or high-energy. Fasciotomy if indicated."
+  ],
+  "surgical_approach_anatomy": [
+    "Anteromedial: along subcutaneous border (easy, but skin issues in high energy). Incision medial to crest, develop to bone avoiding saphenous. Good for medial plate or open fractures with medial wound.",
+    "Anterolateral: for lateral plate or when medial skin bad. Interval or split anterior compartment muscles; protect deep peroneal and ant tib vessels. Lateral compartment muscles (peronei) retracted posteriorly if needed.",
+    "Reduction/plating: traction for length, direct clamp or indirect for alignment. Plate on safe corridor (medial or lateral depending approach). Check rotation with contralateral or fluoro. Respect compartments throughout."
+  ],
+  "structures_at_risk": [
+    {
+      "structure": "Deep peroneal nerve and anterior tibial vessels (anterior compartment)",
+      "why_at_risk": "In anterior compartment; at risk during anterolateral approach, swelling, or retraction for lateral plating. Nerve supplies EHL/EDL/TA and sensation 1st web.",
+      "how_to_avoid_injury": "Identify and protect with vessel loop in anterior compartment work. Limit retraction time/force. Monitor for compartment syndrome (high risk in tibial shaft).",
+      "consequence_of_injury": "Foot drop (EHL/EDL/TA weakness), 1st web numbness. May be neuropraxia or ischemic if compartment missed.",
+      "approach_context": "Anterolateral or anterior exposure for tibial shaft plating",
+      "source_refs": [
+        "https://www.orthobullets.com/trauma/1043/tibial-shaft-fractures"
+      ]
+    },
+    {
+      "structure": "Superficial peroneal nerve (lateral compartment)",
+      "why_at_risk": "Exits lateral compartment fascia ~10-12 cm above lateral malleolus; at risk in lateral or anterolateral incisions or swelling.",
+      "how_to_avoid_injury": "Know the exit point; protect during lateral compartment retraction or fasciotomy. Use direct visualization for distal lateral work.",
+      "consequence_of_injury": "Sensory loss dorsum foot (except 1st web). Painful neuroma possible. Motor usually spared (peronei innervated more proximally).",
+      "approach_context": "Lateral/anterolateral tibial shaft approaches",
+      "source_refs": [
+        "https://www.orthobullets.com/trauma/1043/tibial-shaft-fractures"
+      ]
+    },
+    {
+      "structure": "Saphenous vein and nerve (medial)",
+      "why_at_risk": "Cross anteromedial distal leg; at risk in medial incisions or during saphenous vein harvest-like exposure for medial plate.",
+      "how_to_avoid_injury": "Identify under skin in distal medial approaches. Protect with vessel loop or retract carefully. Avoid blind clamping.",
+      "consequence_of_injury": "Saphenous neuralgia (medial leg/foot numbness/pain) or vein injury (bleeding, later varicosities if harvest context).",
+      "approach_context": "Medial approach for tibial shaft plating",
+      "source_refs": [
+        "https://www.orthobullets.com/trauma/1043/tibial-shaft-fractures"
+      ]
+    },
+    {
+      "structure": "Posterior tibial vessels and tibial nerve (deep posterior compartment)",
+      "why_at_risk": "In deep posterior; at risk with posterior swelling, missed compartment syndrome, or if posteromedial work needed for specific fractures.",
+      "how_to_avoid_injury": "Monitor compartments (high risk in tibial shaft). If posterior exposure needed, use careful plane and direct visualization. Fasciotomy if pressures elevated.",
+      "consequence_of_injury": "Tibial nerve deficit (intrinsic foot weakness, plantar numbness), vascular compromise to foot. Missed compartment leads to contractures (Volkmann).",
+      "approach_context": "Tibial shaft with compartment concerns or posteromedial access",
+      "source_refs": [
+        "https://www.orthobullets.com/trauma/1043/tibial-shaft-fractures"
+      ]
+    }
+  ],
+  "key_landmarks": [
+    "Essential palpable landmark from approach or reduction content.",
+    "Essential palpable landmark from approach or reduction content.",
+    "Essential palpable landmark from approach or reduction content.",
+    "Essential palpable landmark from approach or reduction content.",
+    "Essential palpable landmark from approach or reduction content."
+  ],
+  "reduction_or_implant_anatomy": [],
+  "arthroscopy_or_portal_anatomy": [],
+  "common_mistakes": [
+    "Failure to identify/protect superficial peroneal nerve at its fascial exit in lateral/anterolateral approaches, causing dorsal foot numbness.",
+    "Inadequate protection of deep peroneal/ant tib vessels during anterior compartment work, leading to foot drop or ischemic injury.",
+    "Missing compartment syndrome (high risk in tibial shaft); delayed fasciotomy leads to Volkmann contracture and severe disability.",
+    "Saphenous injury in medial approaches (neuralgia or vein damage).",
+    "Ignoring rotation/length in reduction or using unsafe plate corridors without checking neurovascular."
+  ],
+  "fluoroscopy_checkpoints": [],
+  "attending_pimp_questions": [
+    "Q: What are the 4 leg compartments and key contents at risk in tibial shaft fractures/ORIF? A: Anterior (TA/EHL/EDL, deep peroneal n, ant tib v); Lateral (peronei, sup peroneal n); Superficial post (gastroc/soleus); Deep post (tib post/FDL/FHL, post tib v, tibial n). All at risk for compartment syndrome.",
+    "Q: Describe the superficial peroneal nerve course and why it is at risk in lateral/anterolateral tibial approaches. A: Runs in lateral compartment, exits fascia ~10-12 cm above lateral malleolus to become subcutaneous. At risk in lateral incisions or swelling; injury causes dorsal foot numbness (motor usually spared).",
+    "Q: How do you protect the deep peroneal nerve and anterior tibial vessels during anterolateral exposure for tibial plating? A: Develop anterior compartment carefully, identify and loop the neurovascular bundle, limit retraction, and monitor for compartment syndrome (high risk in these fractures).",
+    "Q: What is the saphenous nerve/vein risk in medial approaches to the tibial shaft and how to avoid? A: Cross anteromedial distal third. Identify under skin, protect with loop or careful retraction. Injury causes medial leg/foot sensory loss or neuroma.",
+    "Q: Why is compartment syndrome monitoring critical after tibial shaft ORIF and what are the consequences if missed? A: High risk due to swelling/bleeding into closed compartments. Missed leads to Volkmann contracture (severe disability, foot drop, claw toes, sensory loss). Measure pressures if tense/pain out of proportion; fasciotomy if elevated."
+  ],
+  "night_before_review_checklist": [
+    "Review linked modules and source URLs",
+    "Memorize key SAR and landmarks",
+    "Practice the 10+ pimp questions",
+    "Walk through the night-before checklist",
+    "Confirm any case-specific fluoroscopy or approach details"
+  ],
+  "source_urls": [
+    "https://www.orthobullets.com/trauma/1043/tibial-shaft-fractures"
+  ],
+  "source_confidence": "high",
+  "limitations": [
+    "Anatomy-focused case prep only; does not replace full surgical technique or attending-specific preferences",
+    "Always verify with latest imaging and team briefing"
+  ],
+  "anatomy_category": "open_approach",
+  "approach_id": "tibial_shaft_fracture_orif",
+  "approach_name": "Tibial Shaft Fracture ORIF",
+  "surgical_layers": [
+    {
+      "layer_name": "Superficial (skin to fascia over anteromedial border or anterior/lateral compartments)",
+      "what_user_should_know": "Anteromedial: incision along subcutaneous border (medial to tibial crest). Develop to bone, protect saphenous vein/nerve crossing distally. Anterolateral: incision over anterior compartment, develop to fascia, identify superficial peroneal exit point distally if lateral work.",
+      "key_structures": [
+        "Tibial crest / subcutaneous border (anteromedial)",
+        "Anterior compartment fascia",
+        "Superficial peroneal nerve exit (lateral, ~10-12cm above malleolus)"
+      ],
+      "structures_at_risk": [
+        "Saphenous vein/nerve (medial distal)",
+        "Superficial peroneal nerve (lateral exit)"
+      ],
+      "surgical_relevance": "Anteromedial is simplest for medial plating/open wounds. Anterolateral for lateral plate when medial skin compromised. Identify nerves early to prevent iatrogenic injury.",
+      "source_refs": [
+        "https://www.orthobullets.com/trauma/1043/tibial-shaft-fractures"
+      ]
+    },
+    {
+      "layer_name": "Deep (compartment muscles to bone, safe corridors)",
+      "what_user_should_know": "Anteromedial: strip periosteum carefully from medial border. Protect saphenous. For lateral: develop anterior compartment (protect deep peroneal/ant tib v), retract peronei if needed for lateral surface. Identify safe plate corridors (medial or lateral depending approach).",
+      "key_structures": [
+        "Anterior compartment muscles (TA, EHL, EDL)",
+        "Deep peroneal n / ant tib vessels",
+        "Tibial shaft (medial or lateral surface)",
+        "Interosseous membrane reference"
+      ],
+      "structures_at_risk": [
+        "Deep peroneal n / ant tib v (anterior)",
+        "Saphenous (medial)",
+        "Superficial peroneal (lateral fascia exit)"
+      ],
+      "surgical_relevance": "The working layer for reduction and fixation. Neurovascular protection and compartment awareness are essential; tibial shaft has high compartment risk.",
+      "source_refs": [
+        "https://www.orthobullets.com/trauma/1043/tibial-shaft-fractures"
+      ]
+    },
+    {
+      "layer_name": "Closure and compartment monitoring",
+      "what_user_should_know": "Close fascia loosely or not at all if swelling/compartment concern. Skin in layers. High vigilance for compartment syndrome post-op (pain, swelling, tense compartments) - measure pressures if uncertain. Fasciotomy if indicated (4-compartment).",
+      "key_structures": [
+        "Compartment fascia",
+        "Subcutaneous tissue",
+        "Skin"
+      ],
+      "structures_at_risk": [
+        "Compartment syndrome (all 4 leg compartments - monitor)"
+      ],
+      "surgical_relevance": "Tibial shaft fractures have high compartment syndrome risk due to swelling and bleeding into closed compartments. Loose closure and monitoring prevent disaster.",
+      "source_refs": [
+        "https://www.orthobullets.com/trauma/1043/tibial-shaft-fractures"
+      ]
+    }
+  ],
+  "validation_warnings": [
+    "Tibial shaft payload emphasizes compartment anatomy and neurovascular risks (high syndrome risk). IMN is preferred for most; this covers plate ORIF anatomy when indicated. Source material previously mixed femur/ankle and contained stringified/empty/placeholder SAR + dev paths + generic; cleaned to public OB 1043 facts and rich 6-field content only."
+  ],
+  "payload_quality_status": "cleaned_batch3_tibial_shaft",
+  "source_status": "source_backed_1043_tibial_shaft",
+  "danger_zones": [
+    "Deep peroneal n / ant tib v (anterior): protect in anterolateral work; injury causes foot drop + 1st web numbness; compartment risk high.",
+    "Superficial peroneal n (lateral fascia exit ~10-12cm above malleolus): identify in lateral approaches; injury causes dorsal foot sensory loss.",
+    "Saphenous v/n (medial distal): protect in medial incisions; injury causes medial leg/foot neuralgia or bleeding.",
+    "Posterior tibial n/v (deep post): at risk in swelling/missed compartment; injury causes plantar numbness + intrinsic weakness + vascular compromise to foot.",
+    "All 4 compartments: monitor post-op (tense, pain); missed syndrome = contractures, poor function."
+  ],
+  "approach_specific_notes": "This payload is for tibial shaft fracture fixation (IMN gold standard; plate ORIF for specific indications like proximal/distal metaphyseal, soft tissue, or open fractures with specific needs). Focus on 4 compartments, deep/superficial peroneal, saphenous, posterior structures if relevant, and compartment monitoring. No femoral/hip or isolated ankle content mixed. Content is shaft-specific with safe corridor awareness."
+}

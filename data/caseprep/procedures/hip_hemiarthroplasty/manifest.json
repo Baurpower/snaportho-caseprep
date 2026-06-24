@@ -1,0 +1,20 @@
+{
+  "slug": "hip_hemiarthroplasty",
+  "display_name": "Hip Hemiarthroplasty",
+  "specialty": "adult_reconstruction",
+  "body_region": "hip",
+  "procedure_family": "arthroplasty_approach",
+  "status": "active",
+  "content_status": "certified",
+  "review_status": "certified",
+  "version": "1.0.0",
+  "caseprep_schema_version": "brobot_case_prep_payload_v2",
+  "coverage_score": 90,
+  "runtime_enabled": true,
+  "deprecated": false,
+  "replacement_slug": null,
+  "reviewer": "brobot_migration",
+  "certified_at": "2026-06-06T18:14:05.550726Z",
+  "last_reviewed_at": "2026-06-06T18:14:05.550726Z",
+  "source_payload_hash": "b81cdb10904d2add3c9887c8f5fe42a205baff22702d13ab0d152da76b2f07e2"
+}

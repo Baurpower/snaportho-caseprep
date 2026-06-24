@@ -1,0 +1,171 @@
+{
+  "schema_version": "brobot_case_prep_payload_v2",
+  "procedure_id": "lateral_ankle_ligament_repair",
+  "procedure_name": "Lateral Ankle Ligament Repair (Brostrom +/- Gould Augmentation)",
+  "case_prep_status": "certified",
+  "procedure_overview": "Anatomic repair of lateral ankle ligaments (primarily ATFL, often CFL) for chronic instability after failed nonoperative care. Brostrom procedure: imbricate or reattach the attenuated ATFL (and CFL) to the fibula. Gould modification: augment with inferior extensor retinaculum. Key anatomy is superficial (sural nerve, peroneal tendons) and the ligament footprints on fibula and talus/calcaneus. Approach is anterior or curvilinear over the ATFL/CFL origin on the anterior distal fibula.",
+  "must_know_anatomy": [
+    "Lateral ankle ligaments: ATFL (most commonly injured, from anterior distal fibula to talar neck, resists anterior talar translation and inversion in plantarflexion), CFL (from distal fibula tip to calcaneus, resists inversion in dorsiflexion, also stabilizes subtalar), PTFL (posterior, rarely primary surgical target). ATFL is intracapsular; CFL is extra-capsular.",
+    "Lateral malleolus landmarks: anterior distal fibula (ATFL origin), tip/fibular groove (CFL and peroneal tendons), peroneal tubercle on calcaneus (peroneal tendon separator). Sinus tarsi is the lateral soft spot anterior to the lateral malleolus tip.",
+    "Brostrom repair: anterior or curvilinear incision over ATFL/CFL. Identify and imbricate the attenuated ligament or reattach to fibula with anchors/sutures. Test stability. Gould augmentation: mobilize and advance the inferior extensor retinaculum over the repair for additional strength and to reinforce against inversion.",
+    "Superficial peroneal nerve (SPN) and sural nerve: SPN (or its intermediate dorsal cutaneous branch) crosses the field anteriorly and can be injured in the proximal incision or during retraction. Sural nerve is posterior, near the peroneal tendons and CFL footprint; at risk with posterior extension or peroneal tendon work.",
+    "Peroneal tendons (peroneus longus and brevis): lie in the retromalleolar groove and can be subluxed or injured during posterior dissection for CFL or if the incision is placed too far posterior. The peroneal tubercle on the calcaneus is a landmark for the tendons distally.",
+    "Inferior extensor retinaculum (IER): lies superficial to the ATFL/CFL; mobilized in Gould augmentation to reinforce the repair. Also protects the extensor tendons (EHL, EDL, EDB) and deep peroneal nerve more anteriorly."
+  ],
+  "surgical_approach_anatomy": [],
+  "structures_at_risk": [
+    {
+      "structure": "Sural nerve (and its lateral dorsal cutaneous branch)",
+      "why_at_risk": "Courses posterior to the lateral malleolus, near the peroneal tendons and CFL origin on the fibula tip. At risk during posterior or distal extension of the incision, retraction, or dissection around the peroneal tendons/CFL footprint.",
+      "how_to_avoid_injury": "Keep the incision anterior or gently curved over the anterior fibula and ATFL origin. Identify the nerve if the incision extends posteriorly; protect or resect/bury the end if injured. Avoid deep posterior retraction near the peroneals.",
+      "consequence_of_injury": "Numbness or painful neuroma over the lateral foot and 5th toe. Can cause chronic pain with shoe wear or uneven surfaces.",
+      "approach_context": "Lateral ankle Brostrom/Gould repair (posterior or distal incision extension, peroneal work)",
+      "source_refs": [
+        "https://www.orthobullets.com/sports/3002/ankle-ligament-injury"
+      ]
+    },
+    {
+      "structure": "Superficial peroneal nerve (intermediate dorsal cutaneous branch)",
+      "why_at_risk": "Crosses the anterior ankle and can enter the proximal or anterior portion of the lateral incision. Vulnerable during skin incision, subcutaneous dissection, or retraction of the proximal skin flap.",
+      "how_to_avoid_injury": "Place the incision carefully (anterior or curvilinear over the ATFL). Identify the nerve in the subcutaneous tissue proximally and protect it with a vessel loop or gentle retraction medially/laterally as the interval is developed.",
+      "consequence_of_injury": "Numbness or neuroma on the dorsum of the foot (dorsal 3rd/4th web spaces or dorsolateral foot). Can be more symptomatic than sural injury for some patients.",
+      "approach_context": "Lateral ankle incision (proximal or anterior portion)",
+      "source_refs": [
+        "https://www.orthobullets.com/sports/3002/ankle-ligament-injury"
+      ]
+    },
+    {
+      "structure": "Peroneal tendons (peroneus longus and brevis)",
+      "why_at_risk": "Lie immediately posterior to the distal fibula in the retromalleolar groove and can be subluxed or directly injured if the incision or dissection extends too far posteriorly for CFL exposure or if retractors are placed aggressively.",
+      "how_to_avoid_injury": "Keep the main incision anterior over the ATFL origin on the fibula. If CFL work or peroneal exploration is needed, extend carefully and identify the tendons in their sheath before retraction. Repair any tendon injury or retinacular tear.",
+      "consequence_of_injury": "Peroneal tendon subluxation, tear, or tenosynovitis postoperatively; chronic lateral ankle pain and instability that can compromise the ligament repair outcome.",
+      "approach_context": "Lateral ankle (CFL exposure or posterior extension)",
+      "source_refs": [
+        "https://www.orthobullets.com/sports/3002/ankle-ligament-injury"
+      ]
+    },
+    {
+      "structure": "Inferior extensor retinaculum (IER) and extensor tendons (EHL/EDL)",
+      "why_at_risk": "The IER lies superficial to the ATFL and is mobilized for Gould augmentation; the extensor tendons (EHL, EDL, EDB) and deep peroneal nerve lie just anterior/medial and can be injured with overly anterior dissection or retraction.",
+      "how_to_avoid_injury": "Mobilize the IER as a flap for augmentation without detaching it completely from its insertions. Stay lateral to the extensor tendons; identify EHL/EDL if the incision drifts anteriorly.",
+      "consequence_of_injury": "Loss of IER augmentation strength (higher failure risk), extensor tendon injury (drop toe or weakness), or deep peroneal nerve injury (first web numbness, EDB weakness).",
+      "approach_context": "Superficial dissection and Gould augmentation",
+      "source_refs": [
+        "https://www.orthobullets.com/sports/3002/ankle-ligament-injury"
+      ]
+    }
+  ],
+  "key_landmarks": [
+    "Anterior distal fibula / ATFL origin (primary incision landmark and repair site)",
+    "Lateral malleolus tip and fibular groove (CFL origin, peroneal tendon location)",
+    "Sinus tarsi (soft spot anterior to fibula tip; helps orientation for ATFL/CFL)",
+    "Peroneal tubercle on calcaneus (distal peroneal tendon landmark)",
+    "Inferior extensor retinaculum (superficial to ATFL; mobilized for Gould augmentation)"
+  ],
+  "key_intervals": [
+    "Skin and subcutaneous: anterior or curvilinear incision centered over the ATFL origin on the anterior distal fibula. Identify and protect SPN (anterior/proximal) and sural (posterior) in the subcutaneous plane.",
+    "Ligament layer: ATFL (intracapsular, from fibula to talar neck) is imbricated or reattached to fibula. CFL (extra-capsular, fibula tip to calcaneus) is identified and repaired if attenuated. IER is mobilized superficially for Gould augmentation.",
+    "Deep: anterior capsule may be opened or plicated with the ligaments. Peroneal tendons are protected posteriorly if CFL work is performed. No deep neurovascular structures in the direct lateral ankle for this repair."
+  ],
+  "reduction_or_implant_anatomy": [],
+  "arthroscopy_or_portal_anatomy": [],
+  "common_mistakes": [
+    "Injury to sural or superficial peroneal nerve from poorly placed incision or inadequate subcutaneous protection (chronic neuroma pain)",
+    "Failure to mobilize and advance the inferior extensor retinaculum in Gould augmentation (higher recurrence rate)",
+    "Overly posterior incision or aggressive retraction injuring or subluxing the peroneal tendons (post-op peroneal pain and instability)",
+    "Inadequate imbrication or anchor placement on the fibula leading to recurrent instability",
+    "Ignoring associated pathology (peroneal tears, osteochondral lesions, impingement) that must be addressed at the same time"
+  ],
+  "fluoroscopy_checkpoints": [],
+  "attending_pimp_questions": [
+    "Q: Which lateral ankle ligament is most commonly injured and what are its attachments and function? A: ATFL (anterior talofibular ligament). Originates from the anterior distal fibula and inserts on the talar neck. Primary restraint to anterior talar translation and inversion in plantarflexion. Intracapsular.",
+    "Q: What is the Gould modification of the Brostrom procedure and why is the inferior extensor retinaculum used? A: After anatomic repair/imbrication of the ATFL (and CFL), the IER is mobilized and advanced over the repair to augment strength and provide additional lateral restraint. It improves outcomes in patients with poor tissue quality or high demand.",
+    "Q: Which nerves are at risk in the lateral ankle Brostrom/Gould incision and where are they relative to the landmarks? A: Superficial peroneal nerve (or intermediate dorsal cutaneous branch) anteriorly/proximally (crosses near the proximal incision). Sural nerve posteriorly (near peroneal tendons and CFL footprint on fibula tip). Identify in subcutaneous tissue.",
+    "Q: Where is the CFL origin and how does its function differ from ATFL? A: CFL originates from the tip of the lateral malleolus (fibular groove area) and runs to the calcaneus (posterior to peroneal tubercle). It resists inversion in dorsiflexion and contributes to subtalar stability. Extra-capsular, unlike ATFL.",
+    "Q: What are common mistakes leading to failure or nerve injury in lateral ankle ligament repair? A: Nerve injury (sural or SPN) from poor incision placement or retraction; failure to augment with IER (Gould) when tissue is poor; missing peroneal tendon pathology or osteochondral lesions; inadequate fixation of the repair to the fibula."
+  ],
+  "night_before_review_checklist": [
+    "Review OB ankle ligament injury (3002) and the lateral ankle ligament modules (footprint and anatomy) for ATFL/CFL/PTFL, Brostrom/Gould technique, and nerve/tendon risks",
+    "Memorize landmarks: anterior distal fibula (ATFL), fibula tip (CFL + peroneals), sinus tarsi, peroneal tubercle, IER for augmentation",
+    "Know the two nerves (SPN anterior/proximal, sural posterior) and peroneal tendons (protect if CFL work)",
+    "Review Gould augmentation steps and why IER is used (strength and reinforcement)",
+    "Practice the 5 pimp questions with ligament functions, nerve locations relative to incision, and failure modes",
+    "Confirm case details: isolated ATFL vs ATFL+CFL, tissue quality, any peroneal or OCD findings on MRI, planned incision and augmentation"
+  ],
+  "source_urls": [
+    "https://www.orthobullets.com/sports/3002/ankle-ligament-injury"
+  ],
+  "source_confidence": "high",
+  "limitations": [
+    "Anatomy and surgical exposure focused case prep for Brostrom +/- Gould lateral ligament repair only; does not replace full decision-making for when to operate, associated pathology (peroneal tears, OCD, impingement, hindfoot alignment), or rehab protocols",
+    "Always assess for and address concomitant injuries (peroneal subluxation/tears, osteochondral lesions) at the time of ligament repair"
+  ],
+  "anatomy_category": "procedure",
+  "approach_id": "lateral_ankle_brostrom",
+  "approach_name": "Lateral ankle approach for Brostrom +/- Gould ligament repair",
+  "surgical_layers": [
+    {
+      "layer_name": "Skin and subcutaneous (nerve identification)",
+      "what_user_should_know": "Anterior or curvilinear incision centered over the ATFL origin on the anterior distal fibula (extend as needed for CFL). In the subcutaneous plane, identify and protect the superficial peroneal nerve (or intermediate dorsal cutaneous branch) anteriorly/proximally and the sural nerve posteriorly near the peroneals. Raise full-thickness flaps where possible.",
+      "key_structures": [
+        "Anterior distal fibula (ATFL origin)",
+        "SPN / intermediate dorsal cutaneous branch (anterior)",
+        "Sural nerve (posterior, near peroneals)",
+        "Inferior extensor retinaculum (superficial to ATFL)"
+      ],
+      "structures_at_risk": [
+        "SPN (anterior/proximal)",
+        "Sural nerve (posterior/distal)"
+      ],
+      "surgical_relevance": "Nerve protection is the first priority in this superficial exposure. Poor incision placement or blind retraction is the most common source of chronic neuroma pain after ankle ligament surgery.",
+      "source_refs": [
+        "https://www.orthobullets.com/sports/3002/ankle-ligament-injury"
+      ]
+    },
+    {
+      "layer_name": "Ligament and retinaculum layer (Brostrom repair)",
+      "what_user_should_know": "Identify the attenuated ATFL (intracapsular, from fibula to talar neck) and CFL (extra-capsular, fibula tip to calcaneus). Imbricate the ligament or reattach to the fibula with anchors or transosseous sutures. Test anterior drawer and inversion stability after repair. Mobilize the IER as a flap for augmentation.",
+      "key_structures": [
+        "ATFL (anterior fibula to talar neck)",
+        "CFL (fibular tip to calcaneus)",
+        "Inferior extensor retinaculum (for Gould)",
+        "Anterior capsule (often plicated with ATFL)"
+      ],
+      "structures_at_risk": [
+        "Peroneal tendons (if posterior extension for CFL)",
+        "Extensor tendons / EHL (if incision drifts too anterior)"
+      ],
+      "surgical_relevance": "The repair itself. Anatomic restoration of ATFL (and CFL when involved) is the goal; IER augmentation (Gould) adds strength especially when native tissue is poor.",
+      "source_refs": [
+        "https://www.orthobullets.com/sports/3002/ankle-ligament-injury"
+      ]
+    },
+    {
+      "layer_name": "Gould augmentation and closure",
+      "what_user_should_know": "Advance the mobilized inferior extensor retinaculum over the ligament repair and suture it to the fibula or periosteum to reinforce the construct. Close the subcutaneous layer and skin carefully to avoid nerve entrapment. Peroneal tendons and retinaculum are inspected/repaired if pathology was present.",
+      "key_structures": [
+        "Inferior extensor retinaculum (advanced over repair)",
+        "Peroneal retinaculum (if opened)",
+        "Skin and subcutaneous (nerve protection during closure)"
+      ],
+      "structures_at_risk": [
+        "SPN or sural during closure/retraction",
+        "Peroneal tendons (if retinaculum was violated)"
+      ],
+      "surgical_relevance": "The augmentation step that differentiates Gould from standard Brostrom and improves outcomes in higher-risk patients. Proper IER mobilization without detaching it completely is key.",
+      "source_refs": [
+        "https://www.orthobullets.com/sports/3002/ankle-ligament-injury"
+      ]
+    }
+  ],
+  "danger_zones": [
+    "Sural nerve posterior to fibula tip / near peroneal tendons - keep incision anterior, identify if extending posteriorly; injury = lateral foot/5th toe neuroma or numbness",
+    "Superficial peroneal (intermediate dorsal cutaneous) anteriorly/proximally - protect in subcutaneous plane during proximal incision and flap elevation; injury = dorsal foot numbness/neuroma",
+    "Peroneal tendons in retromalleolar groove - protect if CFL exposure or posterior work is needed; avoid iatrogenic subluxation or tear",
+    "Inadequate IER mobilization or repair in Gould augmentation - higher recurrence of instability; mobilize as a flap and advance without complete detachment"
+  ],
+  "approach_specific_notes": "Lateral ankle Brostrom +/- Gould is a superficial soft-tissue procedure focused on the ATFL/CFL footprints on the fibula, talus, and calcaneus. The key superficial nerves are SPN (anterior) and sural (posterior); peroneal tendons are immediately posterior and must be protected. The IER is used for augmentation in the Gould modification. This is distinct from ankle fracture ORIF (which may use similar skin but involves bone and syndesmosis), arthroscopic lateral ligament repair (portals), or midfoot/plantar procedures. All content is specific to chronic lateral ankle instability repair.",
+  "validation_warnings": [],
+  "payload_quality_status": "enriched_batch2_lateral_ankle",
+  "source_status": "source_backed_ob3002_ankle_ligament_plus_modules"
+}

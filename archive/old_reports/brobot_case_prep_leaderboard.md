@@ -1,0 +1,62 @@
+# BroBot Case Prep Leaderboard (strongest to weakest)
+
+- **distal_radius_fracture_orif**: grade A, attending 8/10, router score 4, Certified
+- **acl_reconstruction**: grade A, attending 7/10, router score 4, Certified
+- **scaphoid_fracture_orif**: grade A, attending 7/10, router score 4, Certified
+- **total_shoulder_arthroplasty**: grade A, attending 7/10, router score 4, Certified
+- **reverse_shoulder_arthroplasty**: grade A, attending 7/10, router score 4, Certified
+- **femoral_shaft_fracture_orif**: grade A, attending 6/10, router score 4, Not Certified
+- **lateral_ankle_ligament_repair**: grade A, attending 6/10, router score 4, Not Certified
+- **humeral_shaft_fracture_orif**: grade A, attending 5/10, router score 4, Not Certified
+- **posterior_lumbar_decompression_fusion**: grade A, attending 5/10, router score 4, Not Certified
+- **tibial_shaft_fracture_orif**: grade A, attending 5/10, router score 4, Not Certified
+- **meniscus_repair**: grade A, attending 4/10, router score 4, Not Certified
+- **lisfranc_orif**: grade B, attending 7/10, router score 3, Certified
+- **radial_head_fracture_orif**: grade B, attending 6/10, router score 3, Not Certified
+- **lateral_epicondylitis_release**: grade B, attending 6/10, router score 3, Not Certified
+- **elbow_arthroscopy**: grade B, attending 6/10, router score 3, Not Certified
+- **acetabulum_fracture_orif_anterior**: grade B, attending 4/10, router score 3, Not Certified
+- **acdf**: grade B, attending 4/10, router score 3, Not Certified
+- **wrist_arthroscopy_tfcc**: grade B, attending 4/10, router score 3, Not Certified
+- **plantar_fasciitis_release**: grade B, attending 3/10, router score 3, Not Certified
+- **cervical_laminectomy_fusion**: grade B, attending 2/10, router score 3, Not Certified
+- **periprosthetic_hip_fracture_orif**: grade B, attending 2/10, router score 3, Not Certified
+- **ddh_surgery**: grade B, attending 1/10, router score 3, Not Certified
+- **perthes_disease_surgery**: grade B, attending 1/10, router score 3, Not Certified
+- **boxers_fracture_orif**: grade B, attending 1/10, router score 3, Not Certified
+- **tka**: grade C, attending 9/10, router score 4, Not Certified
+- **revision_tka**: grade C, attending 9/10, router score 4, Not Certified
+- **tibial_plateau_fracture_orif**: grade C, attending 8/10, router score 4, Not Certified
+- **intertrochanteric_hip_fracture_orif**: grade C, attending 8/10, router score 4, Not Certified
+- **hip_hemiarthroplasty**: grade C, attending 7/10, router score 4, Not Certified
+- **tha_posterior**: grade C, attending 7/10, router score 4, Not Certified
+- **tha_anterior**: grade C, attending 7/10, router score 4, Not Certified
+- **high_tibial_osteotomy**: grade C, attending 7/10, router score 4, Not Certified
+- **revision_tha**: grade C, attending 7/10, router score 4, Not Certified
+- **scfe_pinning**: grade C, attending 7/10, router score 4, Not Certified
+- **distal_femur_fracture_orif**: grade C, attending 7/10, router score 4, Not Certified
+- **tha_lateral**: grade C, attending 7/10, router score 3, Not Certified
+- **ankle_arthrodesis**: grade C, attending 7/10, router score 3, Not Certified
+- **proximal_humerus_fracture_orif**: grade C, attending 6/10, router score 4, Not Certified
+- **rotator_cuff_repair**: grade C, attending 6/10, router score 4, Not Certified
+- **achilles_tendon_repair**: grade C, attending 6/10, router score 4, Not Certified
+- **bimalleolar_ankle_orif**: grade C, attending 6/10, router score 3, Not Certified
+- **trimalleolar_ankle_orif**: grade C, attending 6/10, router score 3, Not Certified
+- **pilon_ankle_fracture_orif**: grade C, attending 6/10, router score 3, Not Certified
+- **calcaneus_fracture_orif**: grade C, attending 6/10, router score 3, Not Certified
+- **olecranon_fracture_orif**: grade C, attending 6/10, router score 3, Not Certified
+- **both_bone_forearm_fracture_orif**: grade C, attending 6/10, router score 3, Not Certified
+- **clavicle_fracture_orif**: grade C, attending 6/10, router score 3, Not Certified
+- **total_ankle_arthroplasty**: grade C, attending 6/10, router score 3, Not Certified
+- **carpal_tunnel_release**: grade C, attending 5/10, router score 4, Not Certified
+- **cubital_tunnel_release**: grade C, attending 5/10, router score 4, Not Certified
+- **femoral_neck_fracture_orif_young**: grade C, attending 5/10, router score 4, Not Certified
+- **trigger_finger_release**: grade C, attending 5/10, router score 4, Not Certified
+- **acetabulum_fracture_orif_posterior**: grade C, attending 5/10, router score 3, Not Certified
+- **quadriceps_tendon_repair**: grade C, attending 0/10, router score 3, Not Certified
+- **patella_fracture_orif**: grade D, attending 7/10, router score 2, Not Certified
+- **metacarpal_fracture_orif**: grade D, attending 7/10, router score 2, Not Certified
+- **monteggia_fracture_orif**: grade D, attending 6/10, router score 2, Not Certified
+- **pelvis_ring_fracture_orif**: grade F, attending 5/10, router score 1, Not Certified
+- **supracondylar_humerus_fracture_pediatric**: grade F, attending 4/10, router score 1, Not Certified
+- **hallux_valgus_correction**: grade F, attending 4/10, router score 1, Not Certified

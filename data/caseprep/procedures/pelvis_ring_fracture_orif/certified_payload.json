@@ -1,0 +1,194 @@
+{
+  "schema_version": "brobot_case_prep_payload_v2",
+  "procedure_id": "pelvis_ring_fracture_orif",
+  "procedure_name": "Pelvis Ring / Acetabular Fracture ORIF (Approach-Specific)",
+  "case_prep_status": "certified",
+  "procedure_overview": "Open reduction and internal fixation of pelvis ring and acetabular fractures using approach-specific exposures based on fracture pattern (anterior vs posterior column involvement). Key anatomic concept: acetabulum as inverted Y of anterior and posterior columns joined by sciatic buttress. Approaches must be chosen and executed with precise knowledge of the neurovascular structures at risk in each window (ilioinguinal, Stoppa/anterior intrapelvic, Kocher-Langenbeck posterior, percutaneous).",
+  "must_know_anatomy": [
+    "Acetabulum supported by anterior column (anterior ilium, anterior wall/dome, iliopectineal eminence, superior pubic ramus) and posterior column (quadrilateral surface, posterior wall/dome, ischial tuberosity, greater/lesser sciatic notches) forming an inverted Y connected to the sacrum via the sciatic buttress. Fracture classification and approach selection are driven by column and wall involvement.",
+    "Corona mortis: anomalous anastomosis between external iliac (epigastric) and obturator (internal iliac) vessels; present in 10-15% of patients, crosses the superior pubic ramus ~3-5 cm from the pubic symphysis. At high risk during lateral dissection over the ramus in any anterior approach (ilioinguinal or Stoppa). Must be identified and ligated.",
+    "Kocher-Langenbeck (posterior approach): for posterior wall/column, most transverse, and T-shaped fractures. Patient lateral or prone. Incision posterior to GT, split gluteus maximus, identify and release short external rotators (piriformis, obturator internus) while protecting sciatic nerve. Sciatic nerve protection: initial location along quadratus femoris, extend hip/flex knee, gentle retraction with obturator internus, release short ERs from femur.",
+    "Ilioinguinal (anterior approach): exposure of internal iliac fossa, pelvic brim, quadrilateral surface, and rami through three windows (lateral, middle, medial). Risks: femoral nerve (compression from medial retraction or retractor), femoral vessels (thrombosis or injury), LFCN (in lateral window), corona mortis (ligate in middle window), obturator nerve/vessels (medial window). Protect femoral sheath with a retractor or finger.",
+    "Stoppa / anterior intrapelvic (modified Stoppa): anterior access to quadrilateral surface and posterior column through a Pfannenstiel or transverse incision, developing the retropubic space and lateral pelvic brim. Excellent for anterior column + posterior hemitransverse or certain T-shaped. Still requires corona mortis ligation and femoral/obturator protection; less LFCN risk than classic ilioinguinal lateral window.",
+    "Percutaneous screw fixation (anterior or posterior column, supra-acetabular, iliosacral): requires perfect understanding of column corridors and fluoroscopic landmarks (obturator-oblique, iliac-oblique, inlet/outlet, lateral sacral views). Risks: L5 nerve root (anterior to sacral ala), superior gluteal neurovascular bundle (supra-acetabular), femoral head penetration, intra-articular hardware."
+  ],
+  "surgical_approach_anatomy": [],
+  "structures_at_risk": [
+    {
+      "structure": "Corona mortis (anastomosis of external iliac/epigastric and obturator vessels)",
+      "why_at_risk": "Crosses the superior pubic ramus (often 3-5 cm lateral to symphysis) in 10-15% of patients; encountered during lateral or middle window dissection in ilioinguinal or Stoppa approaches, or during percutaneous anterior column screw placement.",
+      "how_to_avoid_injury": "In anterior approaches, deliberately dissect the superior ramus and identify/ligate the vessel before it retracts. In percutaneous work, use inlet/obturator-oblique views to avoid the ramus corridor if anomalous vessel suspected on pre-op CT angio.",
+      "consequence_of_injury": "Profuse bleeding that is difficult to control once retracted into the obturator foramen or pelvis; can lead to hemodynamic instability or require embolization/laparotomy.",
+      "approach_context": "Any anterior pelvic approach (ilioinguinal, Stoppa) or anterior column percutaneous screws",
+      "source_refs": [
+        "https://www.orthobullets.com/trauma/1034/pelvis-fractures",
+        "https://www.orthobullets.com/trauma/1034/acetabular-fractures"
+      ]
+    },
+    {
+      "structure": "Sciatic nerve (and inferior gluteal vessels)",
+      "why_at_risk": "Lies on quadratus femoris posterior to the hip; at risk during Kocher-Langenbeck exposure, retraction, or fracture reduction. Also vulnerable to posterior column screws or hardware.",
+      "how_to_avoid_injury": "Locate the nerve along quadratus femoris early. Extend hip and flex knee to relax the nerve. Release short external rotators (piriformis, obturator internus) from the femur and use obturator internus as a cushion for gentle retraction. Avoid excessive traction or posterior retractor placement.",
+      "consequence_of_injury": "Foot drop, loss of plantarflexion/dorsiflexion, sensory loss below knee (2-10% permanent risk even with careful technique). Inferior gluteal artery injury adds bleeding and may compromise nerve perfusion.",
+      "approach_context": "Kocher-Langenbeck posterior approach for posterior wall/column or transverse/T-shaped acetabulum/pelvis fractures",
+      "source_refs": [
+        "https://www.orthobullets.com/trauma/1034/pelvis-fractures",
+        "https://www.orthobullets.com/trauma/1034/acetabular-fractures"
+      ]
+    },
+    {
+      "structure": "Femoral nerve, femoral vessels, and LFCN (anterior approaches)",
+      "why_at_risk": "Femoral nerve lies on iliopsoas and can be compressed by medial retractors or retractor blades in the ilioinguinal middle/lateral windows or Stoppa. Femoral vessels are in the femoral sheath (protect with retractor). LFCN is in the lateral window fascia (ilioinguinal).",
+      "how_to_avoid_injury": "Use a finger or broad retractor to protect the femoral sheath medially. Limit medial retraction time. Identify and protect LFCN in the lateral window fascia. In Stoppa, stay extraperitoneal and avoid aggressive medial femoral retraction.",
+      "consequence_of_injury": "Femoral n.: quadriceps weakness, knee buckling, sensory loss anterior thigh/medial leg. Femoral vessels: thrombosis, bleeding, or limb ischemia. LFCN: anterolateral thigh numbness (usually tolerable).",
+      "approach_context": "Ilioinguinal or Stoppa anterior approaches",
+      "source_refs": [
+        "https://www.orthobullets.com/trauma/1034/pelvis-fractures",
+        "https://www.orthobullets.com/trauma/1034/acetabular-fractures"
+      ]
+    },
+    {
+      "structure": "Obturator nerve and vessels (medial window / Stoppa)",
+      "why_at_risk": "Exit the pelvis through the obturator canal; at risk during medial window retraction or dissection in ilioinguinal/Stoppa, or with medial hardware (quadrangular plate, anterior column screws).",
+      "how_to_avoid_injury": "Identify the obturator bundle in the medial window and protect with a retractor. Avoid deep medial retractors or screws that penetrate the quadrilateral surface into the true pelvis.",
+      "consequence_of_injury": "Obturator nerve: adductor weakness, sensory loss medial thigh. Vascular injury: bleeding into the obturator foramen or true pelvis.",
+      "approach_context": "Medial window of ilioinguinal or Stoppa/anterior intrapelvic approaches",
+      "source_refs": [
+        "https://www.orthobullets.com/trauma/1034/pelvis-fractures",
+        "https://www.orthobullets.com/trauma/1034/acetabular-fractures"
+      ]
+    }
+  ],
+  "key_landmarks": [
+    "ASIS and iliac crest (lateral window of ilioinguinal)",
+    "Pubic symphysis and superior ramus (corona mortis location, medial window)",
+    "Iliopubic eminence / pelvic brim (key for anterior column reduction and plate)",
+    "Quadrilateral surface (posterior column landmark visible from anterior or posterior)",
+    "Greater/lesser sciatic notches (posterior column boundaries, Kocher-Langenbeck reference)",
+    "Iliac crest and PSIS (for posterior or percutaneous iliosacral starting points)"
+  ],
+  "key_intervals": [
+    "Ilioinguinal: three windows (lateral: iliac fossa between iliopsoas and iliac crest; middle: between iliopsoas and femoral vessels; medial: between vessels and symphysis/rectus). LFCN in lateral, corona in middle, obturator/femoral in medial.",
+    "Stoppa/anterior intrapelvic: Pfannenstiel or low transverse, develop retropubic space, elevate iliopsoas from pelvic brim, access quadrilateral surface and posterior column from inside the true pelvis. Corona mortis still critical.",
+    "Kocher-Langenbeck: posterior to GT, split gluteus maximus, short ER interval (protect sciatic with obturator internus), access posterior wall/column and quadrilateral surface from outside."
+  ],
+  "reduction_or_implant_anatomy": [
+    "Anterior column plate (along pelvic brim/iliopectineal line) or quadrangular plate for anterior + posterior hemitransverse. Posterior column plate (Kocher-Langenbeck) or reconstruction plate along posterior column.",
+    "Percutaneous anterior column, posterior column, or iliosacral screws: require perfect fluoro (obturator-oblique for anterior column, iliac-oblique for posterior, inlet/outlet + lateral for SI). Safe corridors avoid L5 root (anterior to S1 ala) and superior gluteal bundle.",
+    "Reduction sequence often starts with the most displaced column or the one that will allow the other to key in (e.g., posterior column first in some T-shaped)."
+  ],
+  "arthroscopy_or_portal_anatomy": [],
+  "common_mistakes": [
+    "Missing and retracting corona mortis during anterior ramus dissection (uncontrollable bleeding)",
+    "Excessive or prolonged medial retraction in ilioinguinal/Stoppa causing femoral nerve palsy or vessel thrombosis",
+    "Inadequate sciatic nerve protection (hip extension/knee flexion, obturator internus cushion, short ER release) during Kocher-Langenbeck (permanent foot drop)",
+    "Intra-articular or neurovascular hardware from percutaneous screws (L5 root, femoral head, superior gluteal)",
+    "Wrong approach selection (e.g., trying to fix a posterior wall through an anterior approach) leading to inadequate reduction or iatrogenic injury"
+  ],
+  "fluoroscopy_checkpoints": [
+    "Obturator-oblique and iliac-oblique (Judet) views to confirm anterior/posterior column reduction and no intra-articular hardware.",
+    "Inlet/outlet and lateral sacral for iliosacral or posterior column percutaneous screws (avoid L5 root anterior to ala, confirm safe corridor).",
+    "AP pelvis and Judet views after reduction and fixation to verify column alignment, joint congruity, and no protrusio or step-off."
+  ],
+  "attending_pimp_questions": [
+    "Q: During an ilioinguinal or Stoppa approach for anterior acetabulum or pelvis ring, where and how is corona mortis encountered and why must it be identified and ligated (10-15% anomalous)? A: It crosses the superior pubic ramus ~3-5 cm lateral to the symphysis. Once cut and retracted into the obturator foramen it is very difficult to control and can cause major bleeding; ligate early under direct vision.",
+    "Q: In Kocher-Langenbeck (posterior) for pelvis/acetabulum, what maneuvers protect the sciatic nerve (initial location, hip/knee position, short external rotator release)? A: Nerve lies on quadratus femoris. Extend the hip and flex the knee to slack the nerve. Identify along quadratus, release short ERs (piriformis, obturator internus) from the femur, and use obturator internus as a cushion for gentle retraction.",
+    "Q: What are the anterior vs posterior column boundaries of the acetabulum (inverted Y) and how does this guide approach selection for fracture patterns? A: Anterior column: anterior ilium to superior ramus (iliopectineal line). Posterior column: quadrilateral surface to ischium (posterior wall to sciatic notch). Anterior patterns (anterior wall/column, anterior + posterior hemitransverse) favor ilioinguinal/Stoppa; posterior wall/column/transverse/T-shaped favor Kocher-Langenbeck.",
+    "Q: Which neurovascular structures are at highest risk with medial retraction or retractor placement in the anterior (ilioinguinal/Stoppa) approach, and how is the femoral sheath protected? A: Femoral nerve (on iliopsoas, compression → quad weakness), femoral vessels (thrombosis or laceration in sheath), obturator bundle (medial window). Protect the femoral sheath with a broad retractor or finger; limit retraction time and force.",
+    "Q: Name the key palpable landmarks for assessing posterior column reduction in the quadrilateral surface during pelvis/acetabulum ORIF. A: Quadrilateral surface itself (palpated from anterior or posterior), greater/lesser sciatic notches (posterior column boundaries), ischial tuberosity/spine, and the posterior wall step-off or rotation relative to the intact ilium."
+  ],
+  "night_before_review_checklist": [
+    "Review OB pelvis (1034) and acetabular fractures pages plus the anatomy_pelvis_ring_fracture_orif module for column anatomy, corona mortis, and approach-specific risks/protection",
+    "Memorize the three anterior windows (ilioinguinal) vs Stoppa vs Kocher-Langenbeck; know which fracture patterns each is for",
+    "Know corona mortis location (superior ramus) and mandatory ligation; sciatic protection maneuvers (hip ext/knee flex + obturator internus); femoral sheath protection",
+    "Review pimp questions on column boundaries, approach selection, and specific nerve/vessel avoidance per window",
+    "Confirm the exact fracture pattern (CT + Judet views) and planned approach(es) so you can focus on the relevant danger zones and landmarks the night before",
+    "Be ready to discuss percutaneous options and fluoro views for safe screw corridors (L5 root, superior gluteal, femoral head)"
+  ],
+  "source_urls": [
+    "https://www.orthobullets.com/trauma/1034/pelvis-fractures",
+    "https://www.orthobullets.com/trauma/1034/acetabular-fractures"
+  ],
+  "source_confidence": "high",
+  "limitations": [
+    "Anatomy and approach-selection focused case prep for pelvis/acetabular ORIF; does not replace full fracture classification (Letournel/Judet), decision-making for nonoperative vs ORIF vs percutaneous, or full surgical technique (reduction maneuvers, implant choice)",
+    "Approach choice and sequence are highly patient- and fracture-specific; always correlate pre-op imaging with the exact columns/walls involved and discuss with the attending"
+  ],
+  "anatomy_category": "procedure",
+  "approach_id": "pelvis_acetabulum_approaches",
+  "approach_name": "Approach-specific (ilioinguinal, Stoppa, Kocher-Langenbeck, percutaneous) for pelvis ring/acetabular ORIF",
+  "surgical_layers": [
+    {
+      "layer_name": "Ilioinguinal anterior (three windows)",
+      "what_user_should_know": "Lateral window: iliac crest to ASIS, elevate iliopsoas, expose iliac fossa (LFCN at risk in fascia). Middle window: between iliopsoas and femoral vessels (corona mortis on ramus). Medial window: between vessels and symphysis (obturator n/v, protect femoral sheath).",
+      "key_structures": [
+        "Iliopsoas (lateral/middle windows)",
+        "Femoral sheath/vessels (protect with retractor)",
+        "Corona mortis (middle window on ramus)",
+        "Obturator bundle (medial window)"
+      ],
+      "structures_at_risk": [
+        "LFCN (lateral window)",
+        "Femoral n./vessels (medial retraction)",
+        "Corona mortis (ramus dissection)",
+        "Obturator n./vessels (medial)"
+      ],
+      "surgical_relevance": "Classic anterior exposure for anterior column, anterior wall, and certain anterior+posterior hemitransverse patterns. Requires meticulous window-by-window protection.",
+      "source_refs": [
+        "https://www.orthobullets.com/trauma/1034/pelvis-fractures",
+        "https://www.orthobullets.com/trauma/1034/acetabular-fractures"
+      ]
+    },
+    {
+      "layer_name": "Stoppa / anterior intrapelvic (modified)",
+      "what_user_should_know": "Low Pfannenstiel or transverse incision, develop retropubic space extraperitoneally. Elevate iliopsoas from pelvic brim for quadrilateral surface and posterior column access from inside. Corona mortis still ligated on ramus; femoral and obturator protection required but LFCN risk lower than ilioinguinal lateral window.",
+      "key_structures": [
+        "Retropubic space / rectus",
+        "Pelvic brim / iliopectineal line",
+        "Quadrilateral surface (from inside)",
+        "Corona mortis on superior ramus"
+      ],
+      "structures_at_risk": [
+        "Corona mortis (ramus)",
+        "Femoral n./vessels (medial retraction)",
+        "Obturator bundle",
+        "Bladder/peritoneum (extraperitoneal plane)"
+      ],
+      "surgical_relevance": "Excellent anterior access to quadrilateral surface and posterior column for anterior column + posterior hemitransverse or selected T-shaped without a full lateral ilioinguinal window.",
+      "source_refs": [
+        "https://www.orthobullets.com/trauma/1034/pelvis-fractures",
+        "https://www.orthobullets.com/trauma/1034/acetabular-fractures"
+      ]
+    },
+    {
+      "layer_name": "Kocher-Langenbeck posterior",
+      "what_user_should_know": "Incision posterior to GT (lateral or prone position). Split gluteus maximus. Identify sciatic nerve on quadratus femoris. Release short ERs (piriformis, obturator internus) from femur and use obturator internus as retractor cushion. Expose posterior wall, column, and quadrilateral surface. Hip extended, knee flexed throughout.",
+      "key_structures": [
+        "Gluteus maximus (split)",
+        "Short external rotators (release from femur)",
+        "Sciatic nerve (on quadratus, protected by obturator internus)",
+        "Posterior wall/column and quadrilateral surface"
+      ],
+      "structures_at_risk": [
+        "Sciatic nerve (stretch, retractor, or hardware)",
+        "Inferior gluteal vessels (with sciatic)",
+        "Superior gluteal (if dissection too proximal)"
+      ],
+      "surgical_relevance": "Workhorse for posterior wall, posterior column, transverse, and T-shaped patterns. Sciatic protection is the defining technical step.",
+      "source_refs": [
+        "https://www.orthobullets.com/trauma/1034/pelvis-fractures",
+        "https://www.orthobullets.com/trauma/1034/acetabular-fractures"
+      ]
+    }
+  ],
+  "danger_zones": [
+    "Corona mortis on superior pubic ramus (anterior approaches) - identify and ligate before retraction into obturator foramen; 10-15% anomalous, major bleeding risk",
+    "Sciatic nerve on quadratus femoris (Kocher-Langenbeck) - hip extended/knee flexed, release short ERs, use obturator internus as cushion; 2-10% injury risk even with care",
+    "Femoral nerve/vessels (ilioinguinal/Stoppa medial retraction) - protect sheath with retractor/finger, limit retraction time; risk of permanent quad weakness or thrombosis",
+    "L5 nerve root (anterior to sacral ala) and superior gluteal bundle (supra-acetabular) during percutaneous iliosacral or column screws - perfect fluoro (inlet/outlet/lateral, Judet) mandatory"
+  ],
+  "approach_specific_notes": "Pelvis/acetabular ORIF is strictly approach-specific. Ilioinguinal and Stoppa are anterior (different windows/risks: LFCN/femoral/corona/obturator). Kocher-Langenbeck is posterior (sciatic, short ERs, gluteus maximus split). Percutaneous is corridor-based (L5, superior gluteal, intra-articular). This payload separates the anatomy and risks by approach; do not mix posterior sciatic/ER content into anterior cases or vice versa. Shared column anatomy is referenced only to guide approach selection and safe corridors.",
+  "validation_warnings": [],
+  "payload_quality_status": "enriched_batch2_pelvis_separated",
+  "source_status": "source_backed_ob1034_pelvis_acetabular_plus_module"
+}

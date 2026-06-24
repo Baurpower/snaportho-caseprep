@@ -1,0 +1,144 @@
+{
+  "indications": [],
+  "setup_positioning": [
+    "Arthroscopic portals: anterolateral (viewing) portal just lateral to patellar tendon at joint line; anteromedial (working) portal under direct vision in the notch or medial gutter. Accessory anteromedial or posteromedial for meniscus work or tibial tunnel.",
+    "Notch and footprint preparation: debride ACL remnant to identify footprints. Tibial tunnel starts on medial proximal tibia, exits in center of tibial footprint. Femoral tunnel on lateral notch wall posterior to resident's ridge, avoiding posterior wall blowout (leave 1-2 mm back wall).",
+    "Graft passage and fixation: pass graft through tunnels; femoral fixation (suspensory or aperture) and tibial (screw or button). Protect patellar tendon and saphenous during harvest if using autograft. Cycle knee to check isometry and avoid impingement."
+  ],
+  "approach_landmarks": [
+    "Tibial tubercle (harvest and tibial tunnel start reference); lateral femoral condyle (femoral footprint on notch wall); intercondylar notch (for visualization and orientation).",
+    "Tibial tubercle (tunnel/harvest), lateral femoral condyle (femoral footprint), notch (visualization).",
+    "Tibial tubercle (harvest and tibial tunnel start reference); lateral femoral condyle (femoral footprint on notch wall); intercondylar notch (for visualization and orientation).",
+    "Tibial tubercle (harvest/tibial tunnel reference); lateral femoral condyle (femoral footprint on notch wall); notch (visualization landmark).",
+    "ACL provides anterior and lateral rotatory stability to the knee. Anatomic reconstruction restores native dimensions, collagen orientation, and insertion sites (tibial and femoral footprints).",
+    "Tibial footprint: located in the center of the tibial plateau just anterior to the posterior horn of the lateral meniscus and medial to the lateral tibial spine; ~10-12 mm wide.",
+    "Femoral footprint: on the lateral wall of the intercondylar notch, posterior and inferior to the lateral intercondylar ridge (resident's ridge); avoids posterior wall blowout.",
+    "Intercondylar notch: narrow notch or steep lateral wall increases risk of graft impingement or non-anatomic tunnel placement; notchplasty may be needed.",
+    "Saphenous nerve / infrapatellar branch: at risk during hamstring graft harvest (medial incision); identify and protect to avoid numbness or neuroma on medial leg.",
+    "Meniscus and root relationships: lateral meniscus posterior horn is adjacent to the ACL tibial footprint; medial meniscus ramp lesions or root tears often addressed concurrently."
+  ],
+  "surgical_layers": [
+    {
+      "layer_name": "Arthroscopic portal placement (skin / capsule / synovium)",
+      "what_user_should_know": "Anterolateral viewing portal placed just lateral to the patellar tendon at or slightly above the joint line (soft spot). Anteromedial working portal created under direct visualization in the intercondylar notch or medial gutter. Accessory portals (anteromedial or posteromedial) for meniscus or tibial tunnel work as needed. Protect infrapatellar fat pad and saphenous branches.",
+      "key_structures": [
+        "Patellar tendon (lateral border)",
+        "Infrapatellar fat pad",
+        "Medial and lateral gutters",
+        "Intercondylar notch"
+      ],
+      "structures_at_risk": [
+        "Infrapatellar branch of saphenous nerve (medial portal)",
+        "Patellar tendon (instrument injury)"
+      ],
+      "surgical_relevance": "Portal placement is the first critical step for all arthroscopic ACL work. Poor portals lead to difficult visualization, iatrogenic cartilage damage, or inability to reach footprints.",
+      "source_refs": [
+        "https://www.orthobullets.com/knee-and-sports/3008/acl-tear"
+      ]
+    },
+    {
+      "layer_name": "Intercondylar notch and ACL footprint preparation",
+      "what_user_should_know": "Debride ACL remnant with shaver or radiofrequency to clearly define tibial and femoral footprints. Tibial footprint is anterior to the posterior horn of the lateral meniscus. Femoral footprint is on the lateral notch wall, posterior and inferior to the lateral intercondylar ridge (resident's ridge). Notchplasty if narrow to prevent graft impingement.",
+      "key_structures": [
+        "Intercondylar notch (lateral wall)",
+        "Tibial ACL footprint",
+        "Femoral ACL footprint (lateral wall)",
+        "Posterior horn lateral meniscus",
+        "Resident's ridge (lateral intercondylar ridge)"
+      ],
+      "structures_at_risk": [
+        "Posterior wall of lateral femoral condyle (blowout risk)",
+        "Lateral meniscus posterior horn/root"
+      ],
+      "surgical_relevance": "Accurate footprint restoration is key to anatomic ACL reconstruction and rotational stability. Posterior wall blowout or non-anatomic placement leads to failure.",
+      "source_refs": [
+        "https://www.orthobullets.com/knee-and-sports/3008/acl-tear"
+      ]
+    },
+    {
+      "layer_name": "Tunnel drilling, graft passage, and fixation",
+      "what_user_should_know": "Tibial tunnel: start on medial proximal tibia, exit in center of tibial footprint (guide protects meniscus). Femoral tunnel: on lateral notch wall with offset guide to leave 1-2 mm posterior wall. Pass graft (hamstring, BTB, or allograft) and fix femur first (suspensory or interference), then tibia after cycling and tensioning. Protect saphenous during hamstring harvest.",
+      "key_structures": [
+        "Tibial tunnel trajectory",
+        "Femoral tunnel (lateral wall)",
+        "Graft (quadrupled hamstring or BTB)",
+        "Fixation devices (button, screw)"
+      ],
+      "structures_at_risk": [
+        "Saphenous nerve (hamstring harvest)",
+        "Posterior wall (femoral blowout)",
+        "Patellar tendon (if BTB harvest)"
+      ],
+      "surgical_relevance": "Tunnel position and graft tension determine success. Blowout or impingement causes early failure or loss of motion.",
+      "source_refs": [
+        "https://www.orthobullets.com/knee-and-sports/3008/acl-tear"
+      ]
+    }
+  ],
+  "structures_at_risk": [
+    {
+      "structure": "Infrapatellar branch of saphenous nerve (hamstring harvest)",
+      "why_at_risk": "Crosses the medial proximal tibia in the subcutaneous plane; transected during vertical or oblique incision for hamstring tendon harvest.",
+      "how_to_avoid_injury": "Make the harvest incision 2-3 cm distal to the tibial tubercle, identify the branch under the skin or fascia, and protect it with a vessel loop or retract medially.",
+      "consequence_of_injury": "Numbness or painful neuroma on the anteromedial leg below the knee. Common complaint after hamstring ACL; usually tolerable but can be bothersome.",
+      "approach_context": "Hamstring autograft harvest for ACL reconstruction",
+      "source_refs": [
+        "https://www.orthobullets.com/knee-and-sports/3008/acl-tear"
+      ]
+    },
+    {
+      "structure": "Posterior wall / back wall of lateral femoral condyle (femoral tunnel)",
+      "why_at_risk": "If the femoral tunnel is placed too posterior or the back wall is violated during reaming, the graft loses cortical fixation and can blow out posteriorly.",
+      "how_to_avoid_injury": "Leave 1-2 mm of posterior wall intact when drilling the femoral tunnel. Use offset guide or direct visualization; confirm position before reaming. Convert to outside-in or two-incision if wall is thin.",
+      "consequence_of_injury": "Femoral tunnel blowout requiring backup fixation, larger tunnel, or revision to different technique. Can lead to early graft failure or instability.",
+      "approach_context": "Arthroscopic femoral tunnel drilling in ACL reconstruction",
+      "source_refs": [
+        "https://www.orthobullets.com/knee-and-sports/3008/acl-tear"
+      ]
+    },
+    {
+      "structure": "Medial collateral ligament / medial capsule (during tibial tunnel or notch work)",
+      "why_at_risk": "Overzealous medial retraction or tunnel starting point too medial can injure the deep MCL or capsule, especially in tight knees.",
+      "how_to_avoid_injury": "Use careful portal placement and retractors; start tibial tunnel more central on the medial tibia. Avoid aggressive valgus stress during notch work.",
+      "consequence_of_injury": "Medial laxity or pain; rare but can contribute to rotational instability if combined with ACL deficiency.",
+      "approach_context": "Arthroscopic ACL reconstruction tibial tunnel and notch preparation",
+      "source_refs": [
+        "https://www.orthobullets.com/knee-and-sports/3008/acl-tear"
+      ]
+    },
+    {
+      "structure": "Lateral meniscus posterior horn / root (adjacent to tibial footprint)",
+      "why_at_risk": "The posterior horn of the lateral meniscus is immediately adjacent to the ACL tibial footprint; iatrogenic injury during tibial tunnel reaming or debridement can destabilize the meniscus.",
+      "how_to_avoid_injury": "Identify the posterior horn under direct vision before tibial tunnel drilling. Use a guide that protects the meniscus or adjust tunnel trajectory slightly anterior/central if needed.",
+      "consequence_of_injury": "Lateral meniscus posterior horn tear or root avulsion leading to meniscal extrusion, accelerated lateral compartment wear, and potential need for meniscal repair or transplant.",
+      "approach_context": "Tibial tunnel placement in ACL reconstruction",
+      "source_refs": [
+        "https://www.orthobullets.com/knee-and-sports/3008/acl-tear",
+        "https://www.orthobullets.com/knee-and-sports/3006/meniscal-tears"
+      ]
+    }
+  ],
+  "implant_strategy": [],
+  "reduction_or_fluoro_checkpoints": [],
+  "pitfalls": [
+    "Injury to the infrapatellar branch of the saphenous nerve during hamstring harvest incision, causing persistent medial leg numbness or neuroma.",
+    "Non-anatomic femoral tunnel placement anterior to the lateral intercondylar ridge (resident's ridge), leading to rotational instability or extension loss from impingement.",
+    "Posterior wall blowout of the lateral femoral condyle during femoral tunnel reaming, resulting in loss of cortical fixation and need for alternative fixation or revision.",
+    "Iatrogenic injury to the lateral meniscus posterior horn or root while preparing the tibial footprint or drilling the tibial tunnel, causing meniscal extrusion and accelerated lateral compartment arthritis.",
+    "Inadequate notch preparation or failure to address a narrow notch, leading to graft impingement, loss of extension, or early failure."
+  ],
+  "attending_pimp_questions": [
+    "Q: What are the locations of the native ACL tibial and femoral footprints, and why is the femoral footprint described relative to the lateral intercondylar ridge? A: Tibial: center of plateau anterior to lateral meniscus posterior horn. Femoral: lateral notch wall posterior/inferior to resident's ridge. Ridge is the key landmark to avoid non-anatomic anterior placement or posterior wall blowout.",
+    "Q: How is the saphenous nerve protected during hamstring graft harvest for ACL, and what is the consequence of injury? A: Identify the infrapatellar branch under the skin or fascia with a 2-3 cm distal medial incision; protect with retractor or vessel loop. Injury causes medial leg numbness or neuroma below the knee.",
+    "Q: What is posterior wall blowout in ACL femoral tunnel drilling and how is it avoided? A: Drilling too posterior or reaming through a thin wall removes the cortical rim for suspensory fixation. Leave 1-2 mm back wall; use offset guide and confirm under visualization before reaming; convert technique if wall is inadequate.",
+    "Q: Describe the relationship of the lateral meniscus posterior horn to the ACL tibial footprint and the risk during tunnel placement. A: The posterior horn is immediately adjacent to the footprint. Iatrogenic injury during debridement or reaming can cause meniscus root tear or extrusion, leading to lateral compartment degeneration.",
+    "Q: What portals are used for ACL reconstruction and why is the anteromedial portal often placed under direct visualization? A: Anterolateral viewing (lateral to patellar tendon) and anteromedial working (in notch/medial gutter under vision). Visualization prevents iatrogenic cartilage or meniscus injury and ensures the portal allows instrument access to both footprints."
+  ],
+  "postop_plan": [
+    "Review linked modules and source URLs",
+    "Memorize key SAR and landmarks",
+    "Practice the 10+ pimp questions",
+    "Walk through the night-before checklist",
+    "Confirm any case-specific fluoroscopy or approach details"
+  ]
+}

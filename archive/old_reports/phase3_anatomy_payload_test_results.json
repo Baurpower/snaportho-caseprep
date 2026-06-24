@@ -1,0 +1,1110 @@
+{
+  "generated_at": "2026-06-06T00:25:59.553968+00:00",
+  "strict_mode": "true",
+  "results": [
+    {
+      "case": "distal radius fracture volar approach",
+      "backend": "local",
+      "retrieved_chunks": 10,
+      "payload": {
+        "pimpQuestions": [
+          "Q: test? A: test."
+        ],
+        "otherUsefulFacts": [
+          "fact"
+        ],
+        "anatomy": {
+          "approachSelection": null,
+          "anatomyQuiz": null,
+          "highYieldAnatomy": null,
+          "retrievalMode": "miller_gold_local",
+          "limitedAnatomyContext": false,
+          "relevantAnatomy": [
+            "Radial nerve: limits proximal extension of approach (Miller p.28)"
+          ],
+          "structuresAtRisk": [
+            "An approach through the radial aspect of the FCR sheath: often easier and protects the radial artery (Miller p.33)",
+            "Risks: FCU stripped subperiosteally to protect ulnar nerve and artery I Surgical approaches to the wrist and hand (Miller p.33)"
+          ],
+          "approachLandmarks": [],
+          "highYieldFacts": [],
+          "sources": [
+            {
+              "id": "miller-canonical-p33-fd2d23169686",
+              "page": 33,
+              "heading": "General",
+              "text": "An approach through the radial aspect of the FCR sheath: often easier and protects the radial artery",
+              "source_quote": "An approach through the radial aspect of the FCR sheath: often easier and protects the radial artery",
+              "score": 0.6114
+            },
+            {
+              "id": "miller-canonical-p28-14f2f21ec082",
+              "page": 28,
+              "heading": "General",
+              "text": "Radial nerve: limits proximal extension of approach",
+              "source_quote": "Radial nerve: limits proximal extension of approach",
+              "score": 0.6092
+            },
+            {
+              "id": "miller-canonical-p33-a4899f384068",
+              "page": 33,
+              "heading": "General",
+              "text": "Risks: FCU stripped subperiosteally to protect ulnar nerve and artery I Surgical approaches to the wrist and hand",
+              "source_quote": "Risks: FCU stripped subperiosteally to protect ulnar nerve and artery I Surgical approaches to the wrist and hand",
+              "score": 0.5806
+            }
+          ],
+          "retrievalSummary": {
+            "chunksUsed": 3,
+            "mode": "miller_gold_local",
+            "limited": false,
+            "regions": [
+              "elbow",
+              "upper_extremity"
+            ],
+            "warning": null
+          }
+        }
+      },
+      "validation_errors": []
+    },
+    {
+      "case": "carpal tunnel release",
+      "backend": "local",
+      "retrieved_chunks": 10,
+      "payload": {
+        "pimpQuestions": [
+          "Q: test? A: test."
+        ],
+        "otherUsefulFacts": [
+          "fact"
+        ],
+        "anatomy": {
+          "approachSelection": null,
+          "anatomyQuiz": null,
+          "highYieldAnatomy": null,
+          "retrievalMode": "miller_gold_local",
+          "limitedAnatomyContext": false,
+          "relevantAnatomy": [
+            "Transverse articulations between proximal and distal rows are reinforced by palmar and dorsal intercarpal ligaments and carpal collateral ligaments (Miller p.7)",
+            "Median nerve passes through the carpal tunnel between FDS and flexor carpi radialis (FCR) to supply the radial lumbricals, thenar musculature via a deep recurrent branch, and sensation to the volar aspect of thumb, index, long, and radial half of the ring fingers (Miller p.20)",
+            "At the wrist, the radial artery reaches the dorsum of the carpus by passing between the FCR and the abductor pollicis longus (APL) and EPB tendons (snuffbox) (Miller p.23)",
+            "APL frequently has multiple tendon slips, which should be addressed during release for de Quervain tenosynovitis) (Miller p.15)",
+            "De Quervain tenosynovitis Extensor carpi radialis lon- gus (ECRL), brevis (Miller p.15)",
+            "Ligament of Testut (radioscapholunate ligament) functions as a neurovascular conduit (Miller p.7)",
+            "Palmar (volar plate), collateral, and deep transverse metacarpal ligaments (Miller p.9)",
+            "Radius and ulna connected by oblique interosseous membrane/ligament (disrupted in Essex-Lopresti injury), which transmits axial load from radius at wrist to ulna at elbow location and function WRIST AND HAND I Carpal bones (Miller p.7)"
+          ],
+          "structuresAtRisk": [
+            "Risks: FCU stripped subperiosteally to protect ulnar nerve and artery I Surgical approaches to the wrist and hand (Miller p.33)",
+            "Protect and retract these tendons to allow access to the distal radius and the dorsal radiocarpal joint (Miller p.33)"
+          ],
+          "approachLandmarks": [],
+          "highYieldFacts": [],
+          "sources": [
+            {
+              "id": "miller-canonical-p7-d7a3b1806c8a",
+              "page": 7,
+              "heading": "General",
+              "text": "Transverse articulations between proximal and distal rows are reinforced by palmar and dorsal intercarpal ligaments and carpal collateral ligaments.",
+              "source_quote": "Transverse articulations between proximal and distal rows are reinforced by palmar and dorsal intercarpal ligaments and carpal collateral ligaments.",
+              "score": 0.5433
+            },
+            {
+              "id": "miller-canonical-p20-b5ac282be521",
+              "page": 20,
+              "heading": "General",
+              "text": "Median nerve passes through the carpal tunnel between FDS and flexor carpi radialis (FCR) to supply the radial lumbricals, thenar musculature via a deep recurrent branch, and sensation to the volar aspect of thumb, index, long, and radial half of the ring fingers.",
+              "source_quote": "Median nerve passes through the carpal tunnel between FDS and flexor carpi radialis (FCR) to supply the radial lumbricals, thenar musculature via a deep recurrent branch, and sensation to the volar aspect of thumb, index, long, and radial half of the ring fingers.",
+              "score": 0.5354
+            },
+            {
+              "id": "miller-canonical-p33-a4899f384068",
+              "page": 33,
+              "heading": "General",
+              "text": "Risks: FCU stripped subperiosteally to protect ulnar nerve and artery I Surgical approaches to the wrist and hand",
+              "source_quote": "Risks: FCU stripped subperiosteally to protect ulnar nerve and artery I Surgical approaches to the wrist and hand",
+              "score": 0.5233
+            },
+            {
+              "id": "miller-canonical-p33-a4965d4fce97",
+              "page": 33,
+              "heading": "General",
+              "text": "Protect and retract these tendons to allow access to the distal radius and the dorsal radiocarpal joint.",
+              "source_quote": "Protect and retract these tendons to allow access to the distal radius and the dorsal radiocarpal joint.",
+              "score": 0.5008
+            },
+            {
+              "id": "miller-canonical-p23-01ec00bdccc0",
+              "page": 23,
+              "heading": "General",
+              "text": "At the wrist, the radial artery reaches the dorsum of the carpus by passing between the FCR and the abductor pollicis longus (APL) and EPB tendons (snuffbox).",
+              "source_quote": "At the wrist, the radial artery reaches the dorsum of the carpus by passing between the FCR and the abductor pollicis longus (APL) and EPB tendons (snuffbox).",
+              "score": 0.4987
+            },
+            {
+              "id": "miller-canonical-p15-917670290077",
+              "page": 15,
+              "heading": "General",
+              "text": "APL frequently has multiple tendon slips, which should be addressed during release for de Quervain tenosynovitis). De Quervain tenosynovitis Extensor carpi radialis lon- gus (ECRL), brevis",
+              "source_quote": "APL frequently has multiple tendon slips, which should be addressed during release for de Quervain tenosynovitis). De Quervain tenosynovitis Extensor carpi radialis lon- gus (ECRL), brevis",
+              "score": 0.4971
+            },
+            {
+              "id": "miller-canonical-p7-a0041818ef90",
+              "page": 7,
+              "heading": "General",
+              "text": "Ligament of Testut (radioscapholunate ligament) functions as a neurovascular conduit. portion avascular) I Intercarpal joints",
+              "source_quote": "Ligament of Testut (radioscapholunate ligament) functions as a neurovascular conduit. portion avascular) I Intercarpal joints",
+              "score": 0.4888
+            },
+            {
+              "id": "miller-canonical-p9-010b95f606bd",
+              "page": 9,
+              "heading": "General",
+              "text": "Palmar (volar plate), collateral, and deep transverse metacarpal ligaments",
+              "source_quote": "Palmar (volar plate), collateral, and deep transverse metacarpal ligaments",
+              "score": 0.4856
+            }
+          ],
+          "retrievalSummary": {
+            "chunksUsed": 9,
+            "mode": "miller_gold_local",
+            "limited": false,
+            "regions": [
+              "elbow",
+              "hand",
+              "upper_extremity"
+            ],
+            "warning": null
+          }
+        }
+      },
+      "validation_errors": []
+    },
+    {
+      "case": "posterior total hip arthroplasty",
+      "backend": "local",
+      "retrieved_chunks": 10,
+      "payload": {
+        "pimpQuestions": [
+          "Q: test? A: test."
+        ],
+        "otherUsefulFacts": [
+          "fact"
+        ],
+        "anatomy": {
+          "approachSelection": null,
+          "anatomyQuiz": null,
+          "highYieldAnatomy": null,
+          "retrievalMode": "miller_gold_local",
+          "limitedAnatomyContext": false,
+          "relevantAnatomy": [
+            "Can be injured by placement of acetabular screws in the anterosuperior quadrant during total hip arthroplasty I Cruciate anastomosis: confluence of ascending branch of the first perforating artery, descending branch of the inferior gluteal artery, and transverse branches of the MFCA and lateral FCA (Miller p.63)",
+            "Adult posterior hip approach: do not completely transect the quadratus femoris muscle (to prevent damage to medial femoral circumflex artery [MFCA]) (Miller p.40)",
+            "Obturator (posterior branch supplies the transverse acetabular ligament) (Miller p.63)"
+          ],
+          "structuresAtRisk": [
+            "Particularly at risk for injury during psoas tenotomy through an anteromedial approach for developmental dysplasia of the hip (Miller p.64)"
+          ],
+          "approachLandmarks": [],
+          "highYieldFacts": [],
+          "sources": [
+            {
+              "id": "miller-canonical-p64-a0ace2d9a1bf",
+              "page": 64,
+              "heading": "General",
+              "text": "Particularly at risk for injury during psoas tenotomy through an anteromedial approach for developmental dysplasia of the hip",
+              "source_quote": "Particularly at risk for injury during psoas tenotomy through an anteromedial approach for developmental dysplasia of the hip",
+              "score": 0.6464
+            },
+            {
+              "id": "miller-canonical-p63-8ae3e0123f86",
+              "page": 63,
+              "heading": "General",
+              "text": "Can be injured by placement of acetabular screws in the anterosuperior quadrant during total hip arthroplasty I Cruciate anastomosis: confluence of ascending branch of the first perforating artery, descending branch of the inferior gluteal artery, and transverse branches of the MFCA and lateral FCA ",
+              "source_quote": "Can be injured by placement of acetabular screws in the anterosuperior quadrant during total hip arthroplasty I Cruciate anastomosis: confluence of ascending branch of the first perforating artery, descending branch of the inferior gluteal artery, and transverse branches of the MFCA and lateral FCA ",
+              "score": 0.6204
+            },
+            {
+              "id": "miller-canonical-p40-acd2c40e8819",
+              "page": 40,
+              "heading": "General",
+              "text": "Adult posterior hip approach: do not completely transect the quadratus femoris muscle (to prevent damage to medial femoral circumflex artery [MFCA]).",
+              "source_quote": "Adult posterior hip approach: do not completely transect the quadratus femoris muscle (to prevent damage to medial femoral circumflex artery [MFCA]).",
+              "score": 0.6193
+            },
+            {
+              "id": "miller-canonical-p63-cea024cd80d9",
+              "page": 63,
+              "heading": "General",
+              "text": "Obturator (posterior branch supplies the transverse acetabular ligament)",
+              "source_quote": "Obturator (posterior branch supplies the transverse acetabular ligament)",
+              "score": 0.6077
+            }
+          ],
+          "retrievalSummary": {
+            "chunksUsed": 4,
+            "mode": "miller_gold_local",
+            "limited": false,
+            "regions": [
+              "hip",
+              "knee"
+            ],
+            "warning": null
+          }
+        }
+      },
+      "validation_errors": []
+    },
+    {
+      "case": "total knee arthroplasty medial parapatellar approach",
+      "backend": "local",
+      "retrieved_chunks": 10,
+      "payload": {
+        "pimpQuestions": [
+          "Q: test? A: test."
+        ],
+        "otherUsefulFacts": [
+          "fact"
+        ],
+        "anatomy": {
+          "approachSelection": null,
+          "anatomyQuiz": null,
+          "highYieldAnatomy": null,
+          "retrievalMode": "miller_gold_local",
+          "limitedAnatomyContext": false,
+          "relevantAnatomy": [
+            "Posteromedial approach behind the medial malleolus through the tendon sheath of the posterior tibialis Iliotibial band Lateral collateral ligament Lateral meniscus Lateral condyle Popliteus insertion Biceps Peroneal nerve Head of fibula interval are utilized to expose the proximal and distal LCL, re (Miller p.79)",
+            "Infrapatellar branch supplies skin of the medial side of the front of the knee and patellar ligament and can be damaged during total knee replacement surgery or patella tendon harvest (Miller p.62)",
+            "Can be injured by placement of acetabular screws in the anterosuperior quadrant during total hip arthroplasty I Cruciate anastomosis: confluence of ascending branch of the first perforating artery, descending branch of the inferior gluteal artery, and transverse branches of the MFCA and lateral FCA (Miller p.63)"
+          ],
+          "structuresAtRisk": [
+            "At risk with medial meniscus repair, hamstring harvest (Miller p.62)"
+          ],
+          "approachLandmarks": [],
+          "highYieldFacts": [],
+          "sources": [
+            {
+              "id": "miller-canonical-p79-83f37d8afd60",
+              "page": 79,
+              "heading": "General",
+              "text": "Posteromedial approach behind the medial malleolus through the tendon sheath of the posterior tibialis Iliotibial band Lateral collateral ligament Lateral meniscus Lateral condyle Popliteus insertion Biceps Peroneal nerve Head of fibula interval are utilized to expose the proximal and distal LCL, re",
+              "source_quote": "Posteromedial approach behind the medial malleolus through the tendon sheath of the posterior tibialis Iliotibial band Lateral collateral ligament Lateral meniscus Lateral condyle Popliteus insertion Biceps Peroneal nerve Head of fibula interval are utilized to expose the proximal and distal LCL, re",
+              "score": 0.7207
+            },
+            {
+              "id": "miller-canonical-p62-bd27d6b24434",
+              "page": 62,
+              "heading": "General",
+              "text": "Infrapatellar branch supplies skin of the medial side of the front of the knee and patellar ligament and can be damaged during total knee replacement surgery or patella tendon harvest.",
+              "source_quote": "Infrapatellar branch supplies skin of the medial side of the front of the knee and patellar ligament and can be damaged during total knee replacement surgery or patella tendon harvest.",
+              "score": 0.6641
+            },
+            {
+              "id": "miller-canonical-p63-8ae3e0123f86",
+              "page": 63,
+              "heading": "General",
+              "text": "Can be injured by placement of acetabular screws in the anterosuperior quadrant during total hip arthroplasty I Cruciate anastomosis: confluence of ascending branch of the first perforating artery, descending branch of the inferior gluteal artery, and transverse branches of the MFCA and lateral FCA ",
+              "source_quote": "Can be injured by placement of acetabular screws in the anterosuperior quadrant during total hip arthroplasty I Cruciate anastomosis: confluence of ascending branch of the first perforating artery, descending branch of the inferior gluteal artery, and transverse branches of the MFCA and lateral FCA ",
+              "score": 0.6635
+            },
+            {
+              "id": "miller-canonical-p62-eacb5ee898ae",
+              "page": 62,
+              "heading": "General",
+              "text": "At risk with medial meniscus repair, hamstring harvest",
+              "source_quote": "At risk with medial meniscus repair, hamstring harvest",
+              "score": 0.632
+            }
+          ],
+          "retrievalSummary": {
+            "chunksUsed": 4,
+            "mode": "miller_gold_local",
+            "limited": false,
+            "regions": [
+              "knee"
+            ],
+            "warning": null
+          }
+        }
+      },
+      "validation_errors": []
+    },
+    {
+      "case": "rotator cuff repair",
+      "backend": "local",
+      "retrieved_chunks": 10,
+      "payload": {
+        "pimpQuestions": [
+          "Q: test? A: test."
+        ],
+        "otherUsefulFacts": [
+          "fact"
+        ],
+        "anatomy": {
+          "approachSelection": null,
+          "anatomyQuiz": null,
+          "highYieldAnatomy": null,
+          "retrievalMode": "miller_gold_local",
+          "limitedAnatomyContext": false,
+          "relevantAnatomy": [
+            "Supraspinatus tendon is exposed, which allows for repairs of the rotator cuff (Miller p.26)",
+            "Rotator cuff function: depress and stabilize the humeral head against the glenoid (Miller p.107)",
+            "force-couple larger shoulder muscles to maintain humeral head center of rotation (Miller p.107)",
+            "Coracoacromial ligament contributes to anterosuperior stability in rotator cuff deficiency and should be preserved with irreparable cuff tears to prevent anterosuperior escape (Miller p.2)",
+            "Innervation of all rotator cuff muscles is derived I Brachial plexus injury (Miller p.17)",
+            "Dynamic stabilizers: rotator cuff and biceps tendon (Miller p.2)",
+            "scapulothoracic mechanics contribute to stability (Miller p.2)",
+            "Coracoid: attachments to coracoid include coracoacromial ligament, coracoclavicular ligaments (conoid [medial] and trapezoid [lateral]), conjoined tendon (coracobrachialis and short head of biceps), and pectoralis minor (Miller p.2)"
+          ],
+          "structuresAtRisk": [],
+          "approachLandmarks": [],
+          "highYieldFacts": [],
+          "sources": [
+            {
+              "id": "miller-canonical-p26-965baf69ba4a",
+              "page": 26,
+              "heading": "General",
+              "text": "Supraspinatus tendon is exposed, which allows for repairs of the rotator cuff.",
+              "source_quote": "Supraspinatus tendon is exposed, which allows for repairs of the rotator cuff.",
+              "score": 0.8294
+            },
+            {
+              "id": "miller-canonical-p107-59b9fb758b7d",
+              "page": 107,
+              "heading": "General",
+              "text": "Rotator cuff function: depress and stabilize the humeral head against the glenoid; force-couple larger shoulder muscles to maintain humeral head center of rotation.",
+              "source_quote": "Rotator cuff function: depress and stabilize the humeral head against the glenoid; force-couple larger shoulder muscles to maintain humeral head center of rotation.",
+              "score": 0.7442
+            },
+            {
+              "id": "miller-canonical-p2-2153db809135",
+              "page": 2,
+              "heading": "General",
+              "text": "Coracoacromial ligament contributes to anterosuperior stability in rotator cuff deficiency and should be preserved with irreparable cuff tears to prevent anterosuperior escape.",
+              "source_quote": "Coracoacromial ligament contributes to anterosuperior stability in rotator cuff deficiency and should be preserved with irreparable cuff tears to prevent anterosuperior escape.",
+              "score": 0.7417
+            },
+            {
+              "id": "miller-canonical-p17-bd6cfeb20c0f",
+              "page": 17,
+              "heading": "General",
+              "text": "Innervation of all rotator cuff muscles is derived I Brachial plexus injury",
+              "source_quote": "Innervation of all rotator cuff muscles is derived I Brachial plexus injury",
+              "score": 0.6922
+            },
+            {
+              "id": "miller-canonical-p2-dcc47b3feb89",
+              "page": 2,
+              "heading": "General",
+              "text": "Dynamic stabilizers: rotator cuff and biceps tendon; scapulothoracic mechanics contribute to stability",
+              "source_quote": "Dynamic stabilizers: rotator cuff and biceps tendon; scapulothoracic mechanics contribute to stability",
+              "score": 0.6766
+            },
+            {
+              "id": "miller-canonical-p2-dccbaf820379",
+              "page": 2,
+              "heading": "General",
+              "text": "Coracoid: attachments to coracoid include coracoacromial ligament, coracoclavicular ligaments (conoid [medial] and trapezoid [lateral]), conjoined tendon (coracobrachialis and short head of biceps), and pectoralis minor.",
+              "source_quote": "Coracoid: attachments to coracoid include coracoacromial ligament, coracoclavicular ligaments (conoid [medial] and trapezoid [lateral]), conjoined tendon (coracobrachialis and short head of biceps), and pectoralis minor.",
+              "score": 0.6569
+            },
+            {
+              "id": "miller-canonical-p24-7ccf52858b9b",
+              "page": 24,
+              "heading": "General",
+              "text": "Incise clavipectoral fascia lateral to the conjoint tendon to expose the subscapularis and proximal humerus. Retract deltoid laterally. Shoulder abduction relaxes deltoid to improve access.",
+              "source_quote": "Incise clavipectoral fascia lateral to the conjoint tendon to expose the subscapularis and proximal humerus. Retract deltoid laterally. Shoulder abduction relaxes deltoid to improve access.",
+              "score": 0.6524
+            },
+            {
+              "id": "miller-canonical-p107-2590c3ee89bc",
+              "page": 107,
+              "heading": "General",
+              "text": "Innervation of all rotator cuff muscles derived from C5 and C6 of the brachial plexus",
+              "source_quote": "Innervation of all rotator cuff muscles derived from C5 and C6 of the brachial plexus",
+              "score": 0.6463
+            }
+          ],
+          "retrievalSummary": {
+            "chunksUsed": 8,
+            "mode": "miller_gold_local",
+            "limited": false,
+            "regions": [
+              "shoulder"
+            ],
+            "warning": null
+          }
+        }
+      },
+      "validation_errors": []
+    },
+    {
+      "case": "cubital tunnel release",
+      "backend": "local",
+      "retrieved_chunks": 10,
+      "payload": {
+        "pimpQuestions": [
+          "Q: test? A: test."
+        ],
+        "otherUsefulFacts": [
+          "fact"
+        ],
+        "anatomy": {
+          "approachSelection": null,
+          "anatomyQuiz": null,
+          "highYieldAnatomy": null,
+          "retrievalMode": "miller_gold_local",
+          "limitedAnatomyContext": false,
+          "relevantAnatomy": [
+            "Osborne\u2019s ligament stabilizes ulnar nerve in cubital (Miller p.6)",
+            "Cubital tunnel: Osborne ligament (roof), medial collateral ligament (MCL) (floor) (Miller p.20)",
+            "At the wrist, ulnar artery lies on the TCL (Miller p.24)",
+            "EPL tendon ulnar to ECRB tendon at the wrist level (Miller p.15)",
+            "Extensor tendinitis (intersection syndrome) Extensor pollicis longus (Miller p.15)",
+            "Dissect supinator from radius to expose elbow capsule and anterior radius (Miller p.28)",
+            "Medi Radial nerve Musculocutaneous nerve Median nerve Median Ulnar nerve Ulnar Triceps Biceps Brachialis Brachioradialis Pronator Palmaris (From Miller MD et\u00a0al: Orthopaedic surgical approaches, ed 2, Philadelphia, 2014, Saun (Miller p.28)"
+          ],
+          "structuresAtRisk": [
+            "Risks: FCU stripped subperiosteally to protect ulnar nerve and artery I Surgical approaches to the wrist and hand (Miller p.33)",
+            "Dissection through the TCL must be performed carefully to avoid injury to median nerve or its motor (Miller p.33)",
+            "Using an incision within the anatomic snuffbox (first and third dorsal wrist compartments) helps protect the superficial radial nerve and radial artery (deep) (Miller p.33)"
+          ],
+          "approachLandmarks": [],
+          "highYieldFacts": [],
+          "sources": [
+            {
+              "id": "miller-canonical-p6-22739fcd3da1",
+              "page": 6,
+              "heading": "General",
+              "text": "Osborne\u2019s ligament stabilizes ulnar nerve in cubital",
+              "source_quote": "Osborne\u2019s ligament stabilizes ulnar nerve in cubital",
+              "score": 0.6607
+            },
+            {
+              "id": "miller-canonical-p33-a4899f384068",
+              "page": 33,
+              "heading": "General",
+              "text": "Risks: FCU stripped subperiosteally to protect ulnar nerve and artery I Surgical approaches to the wrist and hand",
+              "source_quote": "Risks: FCU stripped subperiosteally to protect ulnar nerve and artery I Surgical approaches to the wrist and hand",
+              "score": 0.6158
+            },
+            {
+              "id": "miller-canonical-p20-f8f069b0a40f",
+              "page": 20,
+              "heading": "General",
+              "text": "Cubital tunnel: Osborne ligament (roof), medial collateral ligament (MCL) (floor)",
+              "source_quote": "Cubital tunnel: Osborne ligament (roof), medial collateral ligament (MCL) (floor)",
+              "score": 0.6142
+            },
+            {
+              "id": "miller-canonical-p24-d77cf6eaa1bb",
+              "page": 24,
+              "heading": "General",
+              "text": "At the wrist, ulnar artery lies on the TCL.",
+              "source_quote": "At the wrist, ulnar artery lies on the TCL.",
+              "score": 0.6058
+            },
+            {
+              "id": "miller-canonical-p15-7a9c4c440c66",
+              "page": 15,
+              "heading": "General",
+              "text": "EPL tendon ulnar to ECRB tendon at the wrist level. Extensor tendinitis (intersection syndrome) Extensor pollicis longus",
+              "source_quote": "EPL tendon ulnar to ECRB tendon at the wrist level. Extensor tendinitis (intersection syndrome) Extensor pollicis longus",
+              "score": 0.5912
+            },
+            {
+              "id": "miller-canonical-p28-db1ebffd8e13",
+              "page": 28,
+              "heading": "General",
+              "text": "Dissect supinator from radius to expose elbow capsule and anterior radius. Medi Radial nerve Musculocutaneous nerve Median nerve Median Ulnar nerve Ulnar Triceps Biceps Brachialis Brachioradialis Pronator Palmaris (From Miller MD et\u00a0al: Orthopaedic surgical approaches, ed 2, Philadelphia, 2014, Saun",
+              "source_quote": "Dissect supinator from radius to expose elbow capsule and anterior radius. Medi Radial nerve Musculocutaneous nerve Median nerve Median Ulnar nerve Ulnar Triceps Biceps Brachialis Brachioradialis Pronator Palmaris (From Miller MD et\u00a0al: Orthopaedic surgical approaches, ed 2, Philadelphia, 2014, Saun",
+              "score": 0.5888
+            },
+            {
+              "id": "miller-canonical-p33-30cfc955d905",
+              "page": 33,
+              "heading": "General",
+              "text": "Dissection through the TCL must be performed carefully to avoid injury to median nerve or its motor",
+              "source_quote": "Dissection through the TCL must be performed carefully to avoid injury to median nerve or its motor",
+              "score": 0.5843
+            },
+            {
+              "id": "miller-canonical-p33-e92d2ea0df0d",
+              "page": 33,
+              "heading": "General",
+              "text": "Using an incision within the anatomic snuffbox (first and third dorsal wrist compartments) helps protect the superficial radial nerve and radial artery (deep).",
+              "source_quote": "Using an incision within the anatomic snuffbox (first and third dorsal wrist compartments) helps protect the superficial radial nerve and radial artery (deep).",
+              "score": 0.5649
+            }
+          ],
+          "retrievalSummary": {
+            "chunksUsed": 8,
+            "mode": "miller_gold_local",
+            "limited": false,
+            "regions": [
+              "elbow",
+              "hand",
+              "knee"
+            ],
+            "warning": null
+          }
+        }
+      },
+      "validation_errors": []
+    },
+    {
+      "case": "distal radius fracture volar approach",
+      "backend": "pinecone",
+      "retrieved_chunks": 10,
+      "payload": {
+        "pimpQuestions": [
+          "Q: test? A: test."
+        ],
+        "otherUsefulFacts": [
+          "fact"
+        ],
+        "anatomy": {
+          "approachSelection": null,
+          "anatomyQuiz": null,
+          "highYieldAnatomy": null,
+          "retrievalMode": "miller_gold_pinecone",
+          "limitedAnatomyContext": false,
+          "relevantAnatomy": [
+            "Radial nerve: limits proximal extension of approach (Miller p.28.0)"
+          ],
+          "structuresAtRisk": [
+            "An approach through the radial aspect of the FCR sheath: often easier and protects the radial artery (Miller p.33.0)",
+            "Risks: FCU stripped subperiosteally to protect ulnar nerve and artery I Surgical approaches to the wrist and hand (Miller p.33.0)"
+          ],
+          "approachLandmarks": [],
+          "highYieldFacts": [],
+          "sources": [
+            {
+              "id": "miller-canonical-p33-fd2d23169686",
+              "page": 33,
+              "heading": "General",
+              "text": "An approach through the radial aspect of the FCR sheath: often easier and protects the radial artery",
+              "source_quote": "An approach through the radial aspect of the FCR sheath: often easier and protects the radial artery",
+              "score": 0.6107
+            },
+            {
+              "id": "miller-canonical-p28-14f2f21ec082",
+              "page": 28,
+              "heading": "General",
+              "text": "Radial nerve: limits proximal extension of approach",
+              "source_quote": "Radial nerve: limits proximal extension of approach",
+              "score": 0.609
+            },
+            {
+              "id": "miller-canonical-p33-a4899f384068",
+              "page": 33,
+              "heading": "General",
+              "text": "Risks: FCU stripped subperiosteally to protect ulnar nerve and artery I Surgical approaches to the wrist and hand",
+              "source_quote": "Risks: FCU stripped subperiosteally to protect ulnar nerve and artery I Surgical approaches to the wrist and hand",
+              "score": 0.5802
+            }
+          ],
+          "retrievalSummary": {
+            "chunksUsed": 3,
+            "mode": "miller_gold_local",
+            "limited": false,
+            "regions": [
+              "elbow",
+              "upper_extremity"
+            ],
+            "warning": null
+          }
+        }
+      },
+      "validation_errors": []
+    },
+    {
+      "case": "carpal tunnel release",
+      "backend": "pinecone",
+      "retrieved_chunks": 10,
+      "payload": {
+        "pimpQuestions": [
+          "Q: test? A: test."
+        ],
+        "otherUsefulFacts": [
+          "fact"
+        ],
+        "anatomy": {
+          "approachSelection": null,
+          "anatomyQuiz": null,
+          "highYieldAnatomy": null,
+          "retrievalMode": "miller_gold_pinecone",
+          "limitedAnatomyContext": false,
+          "relevantAnatomy": [
+            "Transverse articulations between proximal and distal rows are reinforced by palmar and dorsal intercarpal ligaments and carpal collateral ligaments (Miller p.7.0)",
+            "Median nerve passes through the carpal tunnel between FDS and flexor carpi radialis (FCR) to supply the radial lumbricals, thenar musculature via a deep recurrent branch, and sensation to the volar aspect of thumb, index, long, and radial half of the ring fingers (Miller p.20.0)",
+            "At the wrist, the radial artery reaches the dorsum of the carpus by passing between the FCR and the abductor pollicis longus (APL) and EPB tendons (snuffbox) (Miller p.23.0)",
+            "APL frequently has multiple tendon slips, which should be addressed during release for de Quervain tenosynovitis) (Miller p.15.0)",
+            "De Quervain tenosynovitis Extensor carpi radialis lon- gus (ECRL), brevis (Miller p.15.0)",
+            "Ligament of Testut (radioscapholunate ligament) functions as a neurovascular conduit (Miller p.7.0)",
+            "Palmar (volar plate), collateral, and deep transverse metacarpal ligaments (Miller p.9.0)",
+            "Radius and ulna connected by oblique interosseous membrane/ligament (disrupted in Essex-Lopresti injury), which transmits axial load from radius at wrist to ulna at elbow location and function WRIST AND HAND I Carpal bones (Miller p.7.0)"
+          ],
+          "structuresAtRisk": [
+            "Risks: FCU stripped subperiosteally to protect ulnar nerve and artery I Surgical approaches to the wrist and hand (Miller p.33.0)",
+            "Protect and retract these tendons to allow access to the distal radius and the dorsal radiocarpal joint (Miller p.33.0)"
+          ],
+          "approachLandmarks": [],
+          "highYieldFacts": [],
+          "sources": [
+            {
+              "id": "miller-canonical-p7-d7a3b1806c8a",
+              "page": 7,
+              "heading": "General",
+              "text": "Transverse articulations between proximal and distal rows are reinforced by palmar and dorsal intercarpal ligaments and carpal collateral ligaments.",
+              "source_quote": "Transverse articulations between proximal and distal rows are reinforced by palmar and dorsal intercarpal ligaments and carpal collateral ligaments.",
+              "score": 0.5436
+            },
+            {
+              "id": "miller-canonical-p20-b5ac282be521",
+              "page": 20,
+              "heading": "General",
+              "text": "Median nerve passes through the carpal tunnel between FDS and flexor carpi radialis (FCR) to supply the radial lumbricals, thenar musculature via a deep recurrent branch, and sensation to the volar aspect of thumb, index, long, and radial half of the ring fingers.",
+              "source_quote": "Median nerve passes through the carpal tunnel between FDS and flexor carpi radialis (FCR) to supply the radial lumbricals, thenar musculature via a deep recurrent branch, and sensation to the volar aspect of thumb, index, long, and radial half of the ring fingers.",
+              "score": 0.5353
+            },
+            {
+              "id": "miller-canonical-p33-a4899f384068",
+              "page": 33,
+              "heading": "General",
+              "text": "Risks: FCU stripped subperiosteally to protect ulnar nerve and artery I Surgical approaches to the wrist and hand",
+              "source_quote": "Risks: FCU stripped subperiosteally to protect ulnar nerve and artery I Surgical approaches to the wrist and hand",
+              "score": 0.5239
+            },
+            {
+              "id": "miller-canonical-p33-a4965d4fce97",
+              "page": 33,
+              "heading": "General",
+              "text": "Protect and retract these tendons to allow access to the distal radius and the dorsal radiocarpal joint.",
+              "source_quote": "Protect and retract these tendons to allow access to the distal radius and the dorsal radiocarpal joint.",
+              "score": 0.5006
+            },
+            {
+              "id": "miller-canonical-p23-01ec00bdccc0",
+              "page": 23,
+              "heading": "General",
+              "text": "At the wrist, the radial artery reaches the dorsum of the carpus by passing between the FCR and the abductor pollicis longus (APL) and EPB tendons (snuffbox).",
+              "source_quote": "At the wrist, the radial artery reaches the dorsum of the carpus by passing between the FCR and the abductor pollicis longus (APL) and EPB tendons (snuffbox).",
+              "score": 0.4989
+            },
+            {
+              "id": "miller-canonical-p15-917670290077",
+              "page": 15,
+              "heading": "General",
+              "text": "APL frequently has multiple tendon slips, which should be addressed during release for de Quervain tenosynovitis). De Quervain tenosynovitis Extensor carpi radialis lon- gus (ECRL), brevis",
+              "source_quote": "APL frequently has multiple tendon slips, which should be addressed during release for de Quervain tenosynovitis). De Quervain tenosynovitis Extensor carpi radialis lon- gus (ECRL), brevis",
+              "score": 0.4976
+            },
+            {
+              "id": "miller-canonical-p7-a0041818ef90",
+              "page": 7,
+              "heading": "General",
+              "text": "Ligament of Testut (radioscapholunate ligament) functions as a neurovascular conduit. portion avascular) I Intercarpal joints",
+              "source_quote": "Ligament of Testut (radioscapholunate ligament) functions as a neurovascular conduit. portion avascular) I Intercarpal joints",
+              "score": 0.4889
+            },
+            {
+              "id": "miller-canonical-p9-010b95f606bd",
+              "page": 9,
+              "heading": "General",
+              "text": "Palmar (volar plate), collateral, and deep transverse metacarpal ligaments",
+              "source_quote": "Palmar (volar plate), collateral, and deep transverse metacarpal ligaments",
+              "score": 0.4858
+            }
+          ],
+          "retrievalSummary": {
+            "chunksUsed": 9,
+            "mode": "miller_gold_local",
+            "limited": false,
+            "regions": [
+              "elbow",
+              "hand",
+              "upper_extremity"
+            ],
+            "warning": null
+          }
+        }
+      },
+      "validation_errors": []
+    },
+    {
+      "case": "posterior total hip arthroplasty",
+      "backend": "pinecone",
+      "retrieved_chunks": 10,
+      "payload": {
+        "pimpQuestions": [
+          "Q: test? A: test."
+        ],
+        "otherUsefulFacts": [
+          "fact"
+        ],
+        "anatomy": {
+          "approachSelection": null,
+          "anatomyQuiz": null,
+          "highYieldAnatomy": null,
+          "retrievalMode": "miller_gold_pinecone",
+          "limitedAnatomyContext": false,
+          "relevantAnatomy": [
+            "Can be injured by placement of acetabular screws in the anterosuperior quadrant during total hip arthroplasty I Cruciate anastomosis: confluence of ascending branch of the first perforating artery, descending branch of the inferior gluteal artery, and transverse branches of the MFCA and lateral FCA (Miller p.63.0)",
+            "Adult posterior hip approach: do not completely transect the quadratus femoris muscle (to prevent damage to medial femoral circumflex artery [MFCA]) (Miller p.40.0)",
+            "Obturator (posterior branch supplies the transverse acetabular ligament) (Miller p.63.0)"
+          ],
+          "structuresAtRisk": [
+            "Particularly at risk for injury during psoas tenotomy through an anteromedial approach for developmental dysplasia of the hip (Miller p.64.0)"
+          ],
+          "approachLandmarks": [],
+          "highYieldFacts": [],
+          "sources": [
+            {
+              "id": "miller-canonical-p64-a0ace2d9a1bf",
+              "page": 64,
+              "heading": "General",
+              "text": "Particularly at risk for injury during psoas tenotomy through an anteromedial approach for developmental dysplasia of the hip",
+              "source_quote": "Particularly at risk for injury during psoas tenotomy through an anteromedial approach for developmental dysplasia of the hip",
+              "score": 0.6461
+            },
+            {
+              "id": "miller-canonical-p63-8ae3e0123f86",
+              "page": 63,
+              "heading": "General",
+              "text": "Can be injured by placement of acetabular screws in the anterosuperior quadrant during total hip arthroplasty I Cruciate anastomosis: confluence of ascending branch of the first perforating artery, descending branch of the inferior gluteal artery, and transverse branches of the MFCA and lateral FCA ",
+              "source_quote": "Can be injured by placement of acetabular screws in the anterosuperior quadrant during total hip arthroplasty I Cruciate anastomosis: confluence of ascending branch of the first perforating artery, descending branch of the inferior gluteal artery, and transverse branches of the MFCA and lateral FCA ",
+              "score": 0.6203
+            },
+            {
+              "id": "miller-canonical-p40-acd2c40e8819",
+              "page": 40,
+              "heading": "General",
+              "text": "Adult posterior hip approach: do not completely transect the quadratus femoris muscle (to prevent damage to medial femoral circumflex artery [MFCA]).",
+              "source_quote": "Adult posterior hip approach: do not completely transect the quadratus femoris muscle (to prevent damage to medial femoral circumflex artery [MFCA]).",
+              "score": 0.6195
+            },
+            {
+              "id": "miller-canonical-p63-cea024cd80d9",
+              "page": 63,
+              "heading": "General",
+              "text": "Obturator (posterior branch supplies the transverse acetabular ligament)",
+              "source_quote": "Obturator (posterior branch supplies the transverse acetabular ligament)",
+              "score": 0.6077
+            }
+          ],
+          "retrievalSummary": {
+            "chunksUsed": 4,
+            "mode": "miller_gold_local",
+            "limited": false,
+            "regions": [
+              "hip",
+              "knee"
+            ],
+            "warning": null
+          }
+        }
+      },
+      "validation_errors": []
+    },
+    {
+      "case": "total knee arthroplasty medial parapatellar approach",
+      "backend": "pinecone",
+      "retrieved_chunks": 10,
+      "payload": {
+        "pimpQuestions": [
+          "Q: test? A: test."
+        ],
+        "otherUsefulFacts": [
+          "fact"
+        ],
+        "anatomy": {
+          "approachSelection": null,
+          "anatomyQuiz": null,
+          "highYieldAnatomy": null,
+          "retrievalMode": "miller_gold_pinecone",
+          "limitedAnatomyContext": false,
+          "relevantAnatomy": [
+            "Posteromedial approach behind the medial malleolus through the tendon sheath of the posterior tibialis Iliotibial band Lateral collateral ligament Lateral meniscus Lateral condyle Popliteus insertion Biceps Peroneal nerve Head of fibula interval are utilized to expose the proximal and distal LCL, re (Miller p.79.0)",
+            "Infrapatellar branch supplies skin of the medial side of the front of the knee and patellar ligament and can be damaged during total knee replacement surgery or patella tendon harvest (Miller p.62.0)",
+            "Can be injured by placement of acetabular screws in the anterosuperior quadrant during total hip arthroplasty I Cruciate anastomosis: confluence of ascending branch of the first perforating artery, descending branch of the inferior gluteal artery, and transverse branches of the MFCA and lateral FCA (Miller p.63.0)"
+          ],
+          "structuresAtRisk": [
+            "At risk with medial meniscus repair, hamstring harvest (Miller p.62.0)"
+          ],
+          "approachLandmarks": [],
+          "highYieldFacts": [],
+          "sources": [
+            {
+              "id": "miller-canonical-p79-83f37d8afd60",
+              "page": 79,
+              "heading": "General",
+              "text": "Posteromedial approach behind the medial malleolus through the tendon sheath of the posterior tibialis Iliotibial band Lateral collateral ligament Lateral meniscus Lateral condyle Popliteus insertion Biceps Peroneal nerve Head of fibula interval are utilized to expose the proximal and distal LCL, re",
+              "source_quote": "Posteromedial approach behind the medial malleolus through the tendon sheath of the posterior tibialis Iliotibial band Lateral collateral ligament Lateral meniscus Lateral condyle Popliteus insertion Biceps Peroneal nerve Head of fibula interval are utilized to expose the proximal and distal LCL, re",
+              "score": 0.7214
+            },
+            {
+              "id": "miller-canonical-p62-bd27d6b24434",
+              "page": 62,
+              "heading": "General",
+              "text": "Infrapatellar branch supplies skin of the medial side of the front of the knee and patellar ligament and can be damaged during total knee replacement surgery or patella tendon harvest.",
+              "source_quote": "Infrapatellar branch supplies skin of the medial side of the front of the knee and patellar ligament and can be damaged during total knee replacement surgery or patella tendon harvest.",
+              "score": 0.6643
+            },
+            {
+              "id": "miller-canonical-p63-8ae3e0123f86",
+              "page": 63,
+              "heading": "General",
+              "text": "Can be injured by placement of acetabular screws in the anterosuperior quadrant during total hip arthroplasty I Cruciate anastomosis: confluence of ascending branch of the first perforating artery, descending branch of the inferior gluteal artery, and transverse branches of the MFCA and lateral FCA ",
+              "source_quote": "Can be injured by placement of acetabular screws in the anterosuperior quadrant during total hip arthroplasty I Cruciate anastomosis: confluence of ascending branch of the first perforating artery, descending branch of the inferior gluteal artery, and transverse branches of the MFCA and lateral FCA ",
+              "score": 0.664
+            },
+            {
+              "id": "miller-canonical-p62-eacb5ee898ae",
+              "page": 62,
+              "heading": "General",
+              "text": "At risk with medial meniscus repair, hamstring harvest",
+              "source_quote": "At risk with medial meniscus repair, hamstring harvest",
+              "score": 0.6327
+            }
+          ],
+          "retrievalSummary": {
+            "chunksUsed": 4,
+            "mode": "miller_gold_local",
+            "limited": false,
+            "regions": [
+              "knee"
+            ],
+            "warning": null
+          }
+        }
+      },
+      "validation_errors": []
+    },
+    {
+      "case": "rotator cuff repair",
+      "backend": "pinecone",
+      "retrieved_chunks": 10,
+      "payload": {
+        "pimpQuestions": [
+          "Q: test? A: test."
+        ],
+        "otherUsefulFacts": [
+          "fact"
+        ],
+        "anatomy": {
+          "approachSelection": null,
+          "anatomyQuiz": null,
+          "highYieldAnatomy": null,
+          "retrievalMode": "miller_gold_pinecone",
+          "limitedAnatomyContext": false,
+          "relevantAnatomy": [
+            "Supraspinatus tendon is exposed, which allows for repairs of the rotator cuff (Miller p.26.0)",
+            "Rotator cuff function: depress and stabilize the humeral head against the glenoid (Miller p.107.0)",
+            "force-couple larger shoulder muscles to maintain humeral head center of rotation (Miller p.107.0)",
+            "Coracoacromial ligament contributes to anterosuperior stability in rotator cuff deficiency and should be preserved with irreparable cuff tears to prevent anterosuperior escape (Miller p.2.0)",
+            "Innervation of all rotator cuff muscles is derived I Brachial plexus injury (Miller p.17.0)",
+            "Dynamic stabilizers: rotator cuff and biceps tendon (Miller p.2.0)",
+            "scapulothoracic mechanics contribute to stability (Miller p.2.0)",
+            "Coracoid: attachments to coracoid include coracoacromial ligament, coracoclavicular ligaments (conoid [medial] and trapezoid [lateral]), conjoined tendon (coracobrachialis and short head of biceps), and pectoralis minor (Miller p.2.0)"
+          ],
+          "structuresAtRisk": [],
+          "approachLandmarks": [],
+          "highYieldFacts": [],
+          "sources": [
+            {
+              "id": "miller-canonical-p26-965baf69ba4a",
+              "page": 26,
+              "heading": "General",
+              "text": "Supraspinatus tendon is exposed, which allows for repairs of the rotator cuff.",
+              "source_quote": "Supraspinatus tendon is exposed, which allows for repairs of the rotator cuff.",
+              "score": 0.8294
+            },
+            {
+              "id": "miller-canonical-p107-59b9fb758b7d",
+              "page": 107,
+              "heading": "General",
+              "text": "Rotator cuff function: depress and stabilize the humeral head against the glenoid; force-couple larger shoulder muscles to maintain humeral head center of rotation.",
+              "source_quote": "Rotator cuff function: depress and stabilize the humeral head against the glenoid; force-couple larger shoulder muscles to maintain humeral head center of rotation.",
+              "score": 0.7438
+            },
+            {
+              "id": "miller-canonical-p2-2153db809135",
+              "page": 2,
+              "heading": "General",
+              "text": "Coracoacromial ligament contributes to anterosuperior stability in rotator cuff deficiency and should be preserved with irreparable cuff tears to prevent anterosuperior escape.",
+              "source_quote": "Coracoacromial ligament contributes to anterosuperior stability in rotator cuff deficiency and should be preserved with irreparable cuff tears to prevent anterosuperior escape.",
+              "score": 0.7415
+            },
+            {
+              "id": "miller-canonical-p17-bd6cfeb20c0f",
+              "page": 17,
+              "heading": "General",
+              "text": "Innervation of all rotator cuff muscles is derived I Brachial plexus injury",
+              "source_quote": "Innervation of all rotator cuff muscles is derived I Brachial plexus injury",
+              "score": 0.6916
+            },
+            {
+              "id": "miller-canonical-p2-dcc47b3feb89",
+              "page": 2,
+              "heading": "General",
+              "text": "Dynamic stabilizers: rotator cuff and biceps tendon; scapulothoracic mechanics contribute to stability",
+              "source_quote": "Dynamic stabilizers: rotator cuff and biceps tendon; scapulothoracic mechanics contribute to stability",
+              "score": 0.6765
+            },
+            {
+              "id": "miller-canonical-p2-dccbaf820379",
+              "page": 2,
+              "heading": "General",
+              "text": "Coracoid: attachments to coracoid include coracoacromial ligament, coracoclavicular ligaments (conoid [medial] and trapezoid [lateral]), conjoined tendon (coracobrachialis and short head of biceps), and pectoralis minor.",
+              "source_quote": "Coracoid: attachments to coracoid include coracoacromial ligament, coracoclavicular ligaments (conoid [medial] and trapezoid [lateral]), conjoined tendon (coracobrachialis and short head of biceps), and pectoralis minor.",
+              "score": 0.6568
+            },
+            {
+              "id": "miller-canonical-p24-7ccf52858b9b",
+              "page": 24,
+              "heading": "General",
+              "text": "Incise clavipectoral fascia lateral to the conjoint tendon to expose the subscapularis and proximal humerus. Retract deltoid laterally. Shoulder abduction relaxes deltoid to improve access.",
+              "source_quote": "Incise clavipectoral fascia lateral to the conjoint tendon to expose the subscapularis and proximal humerus. Retract deltoid laterally. Shoulder abduction relaxes deltoid to improve access.",
+              "score": 0.6521
+            },
+            {
+              "id": "miller-canonical-p107-2590c3ee89bc",
+              "page": 107,
+              "heading": "General",
+              "text": "Innervation of all rotator cuff muscles derived from C5 and C6 of the brachial plexus",
+              "source_quote": "Innervation of all rotator cuff muscles derived from C5 and C6 of the brachial plexus",
+              "score": 0.6463
+            }
+          ],
+          "retrievalSummary": {
+            "chunksUsed": 8,
+            "mode": "miller_gold_local",
+            "limited": false,
+            "regions": [
+              "shoulder"
+            ],
+            "warning": null
+          }
+        }
+      },
+      "validation_errors": []
+    },
+    {
+      "case": "cubital tunnel release",
+      "backend": "pinecone",
+      "retrieved_chunks": 10,
+      "payload": {
+        "pimpQuestions": [
+          "Q: test? A: test."
+        ],
+        "otherUsefulFacts": [
+          "fact"
+        ],
+        "anatomy": {
+          "approachSelection": null,
+          "anatomyQuiz": null,
+          "highYieldAnatomy": null,
+          "retrievalMode": "miller_gold_pinecone",
+          "limitedAnatomyContext": false,
+          "relevantAnatomy": [
+            "Osborne\u2019s ligament stabilizes ulnar nerve in cubital (Miller p.6.0)",
+            "Cubital tunnel: Osborne ligament (roof), medial collateral ligament (MCL) (floor) (Miller p.20.0)",
+            "At the wrist, ulnar artery lies on the TCL (Miller p.24.0)",
+            "EPL tendon ulnar to ECRB tendon at the wrist level (Miller p.15.0)",
+            "Extensor tendinitis (intersection syndrome) Extensor pollicis longus (Miller p.15.0)",
+            "Dissect supinator from radius to expose elbow capsule and anterior radius (Miller p.28.0)",
+            "Medi Radial nerve Musculocutaneous nerve Median nerve Median Ulnar nerve Ulnar Triceps Biceps Brachialis Brachioradialis Pronator Palmaris (From Miller MD et\u00a0al: Orthopaedic surgical approaches, ed 2, Philadelphia, 2014, Saun (Miller p.28.0)"
+          ],
+          "structuresAtRisk": [
+            "Risks: FCU stripped subperiosteally to protect ulnar nerve and artery I Surgical approaches to the wrist and hand (Miller p.33.0)",
+            "Dissection through the TCL must be performed carefully to avoid injury to median nerve or its motor (Miller p.33.0)",
+            "Using an incision within the anatomic snuffbox (first and third dorsal wrist compartments) helps protect the superficial radial nerve and radial artery (deep) (Miller p.33.0)"
+          ],
+          "approachLandmarks": [],
+          "highYieldFacts": [],
+          "sources": [
+            {
+              "id": "miller-canonical-p6-22739fcd3da1",
+              "page": 6,
+              "heading": "General",
+              "text": "Osborne\u2019s ligament stabilizes ulnar nerve in cubital",
+              "source_quote": "Osborne\u2019s ligament stabilizes ulnar nerve in cubital",
+              "score": 0.66
+            },
+            {
+              "id": "miller-canonical-p33-a4899f384068",
+              "page": 33,
+              "heading": "General",
+              "text": "Risks: FCU stripped subperiosteally to protect ulnar nerve and artery I Surgical approaches to the wrist and hand",
+              "source_quote": "Risks: FCU stripped subperiosteally to protect ulnar nerve and artery I Surgical approaches to the wrist and hand",
+              "score": 0.6163
+            },
+            {
+              "id": "miller-canonical-p20-f8f069b0a40f",
+              "page": 20,
+              "heading": "General",
+              "text": "Cubital tunnel: Osborne ligament (roof), medial collateral ligament (MCL) (floor)",
+              "source_quote": "Cubital tunnel: Osborne ligament (roof), medial collateral ligament (MCL) (floor)",
+              "score": 0.614
+            },
+            {
+              "id": "miller-canonical-p24-d77cf6eaa1bb",
+              "page": 24,
+              "heading": "General",
+              "text": "At the wrist, ulnar artery lies on the TCL.",
+              "source_quote": "At the wrist, ulnar artery lies on the TCL.",
+              "score": 0.606
+            },
+            {
+              "id": "miller-canonical-p15-7a9c4c440c66",
+              "page": 15,
+              "heading": "General",
+              "text": "EPL tendon ulnar to ECRB tendon at the wrist level. Extensor tendinitis (intersection syndrome) Extensor pollicis longus",
+              "source_quote": "EPL tendon ulnar to ECRB tendon at the wrist level. Extensor tendinitis (intersection syndrome) Extensor pollicis longus",
+              "score": 0.5912
+            },
+            {
+              "id": "miller-canonical-p28-db1ebffd8e13",
+              "page": 28,
+              "heading": "General",
+              "text": "Dissect supinator from radius to expose elbow capsule and anterior radius. Medi Radial nerve Musculocutaneous nerve Median nerve Median Ulnar nerve Ulnar Triceps Biceps Brachialis Brachioradialis Pronator Palmaris (From Miller MD et\u00a0al: Orthopaedic surgical approaches, ed 2, Philadelphia, 2014, Saun",
+              "source_quote": "Dissect supinator from radius to expose elbow capsule and anterior radius. Medi Radial nerve Musculocutaneous nerve Median nerve Median Ulnar nerve Ulnar Triceps Biceps Brachialis Brachioradialis Pronator Palmaris (From Miller MD et\u00a0al: Orthopaedic surgical approaches, ed 2, Philadelphia, 2014, Saun",
+              "score": 0.589
+            },
+            {
+              "id": "miller-canonical-p33-30cfc955d905",
+              "page": 33,
+              "heading": "General",
+              "text": "Dissection through the TCL must be performed carefully to avoid injury to median nerve or its motor",
+              "source_quote": "Dissection through the TCL must be performed carefully to avoid injury to median nerve or its motor",
+              "score": 0.5846
+            },
+            {
+              "id": "miller-canonical-p33-e92d2ea0df0d",
+              "page": 33,
+              "heading": "General",
+              "text": "Using an incision within the anatomic snuffbox (first and third dorsal wrist compartments) helps protect the superficial radial nerve and radial artery (deep).",
+              "source_quote": "Using an incision within the anatomic snuffbox (first and third dorsal wrist compartments) helps protect the superficial radial nerve and radial artery (deep).",
+              "score": 0.5649
+            }
+          ],
+          "retrievalSummary": {
+            "chunksUsed": 8,
+            "mode": "miller_gold_local",
+            "limited": false,
+            "regions": [
+              "elbow",
+              "hand",
+              "knee"
+            ],
+            "warning": null
+          }
+        }
+      },
+      "validation_errors": []
+    }
+  ]
+}

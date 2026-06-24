@@ -1,0 +1,142 @@
+{
+  "indications": [],
+  "setup_positioning": [
+    "Acetabulum Fracture ORIF (Anterior/Ilioinguinal) (open_approach).",
+    "Acetabulum supported by anterior and posterior columns forming an inverted Y connected to the sacrum via the sciatic buttress. Anterior column: anterior ilium (gluteus medius tubercle), anterior wall and dome, iliopectineal eminence, lateral superior pubic ramus.",
+    "Ilioinguinal approach windows: lateral (iliac crest to internal iliac fossa / pelvic brim), middle (between iliopsoas and femoral vessels for pelvic brim / quadrilateral surface / corona mortis), medial (medial to femoral vessels for pubic rami / obturator canal).",
+    "Corona mortis: anastomosis of external iliac (epigastric) and internal iliac (obturator) vessels; at risk with lateral dissection over the superior pubic ramus in the middle window. Can cause brisk bleeding if injured.",
+    "External iliac vessels and femoral nerve: femoral nerve is most common compression neuropraxia from medial retraction in the middle window; vessels at risk of thrombosis or injury with aggressive retraction or dissection.",
+    "Obturator neurovascular bundle: exits the pelvis via the obturator canal in the medial window; at risk during medial dissection or plate placement on the quadrilateral surface or superior pubic ramus.",
+    "LFCN, iliopsoas, and round ligament/spermatic cord: LFCN at risk in the lateral window near ASIS; iliopsoas must be mobilized laterally in the middle window; round ligament or spermatic cord protected in the medial window.",
+    "Lateral window (iliac crest / internal iliac fossa): incision from iliac crest to ASIS or along the iliac wing. Elevate iliacus/iliopsoas from the internal fossa to the pelvic brim and SI joint. Protect LFCN near ASIS. Exposes anterior column and iliac fossa for reduction and plating.",
+    "Middle window (pelvic brim / quadrilateral surface / corona mortis): develop between iliopsoas (lateral) and femoral vessels (medial, protect femoral sheath). Exposes the pelvic brim, quadrilateral surface, and corona mortis (ligate if needed). Key for anterior column and quadrilateral plate access.",
+    "Medial window (pubic rami / obturator canal): develop medial to the femoral vessels (protect the femoral sheath). Exposes the superior and inferior pubic rami and obturator canal. Useful for medial wall or rami fractures; protect obturator bundle and round ligament/spermatic cord."
+  ],
+  "approach_landmarks": [
+    "Acetabulum supported by anterior and posterior columns forming inverted Y, connected to sacrum via sciatic buttress. Ant",
+    "Essential palpable landmark from approach or reduction content.",
+    "Essential palpable landmark from approach or reduction content.",
+    "Essential palpable landmark from approach or reduction content.",
+    "Essential palpable landmark from approach or reduction content."
+  ],
+  "surgical_layers": [
+    {
+      "layer_name": "Lateral window (iliac crest / internal iliac fossa)",
+      "what_user_should_know": "Incision from iliac crest to ASIS or along the iliac wing. Elevate iliacus/iliopsoas from the internal fossa to the pelvic brim and SI joint. Protect LFCN near ASIS. Exposes anterior column and iliac fossa for reduction and plating.",
+      "key_structures": [
+        "Iliac crest / internal iliac fossa",
+        "Pelvic brim (anterior column)",
+        "ASIS (LFCN reference)",
+        "SI joint (posterior limit of lateral window)"
+      ],
+      "structures_at_risk": [
+        "Lateral femoral cutaneous nerve (near ASIS)"
+      ],
+      "surgical_relevance": "Provides access to the anterior column and iliac fossa for column reduction and plate application. LFCN protection is the key superficial step.",
+      "source_refs": [
+        "https://www.orthobullets.com/trauma/1034/acetabular-fractures"
+      ]
+    },
+    {
+      "layer_name": "Middle window (pelvic brim / quadrilateral surface / corona mortis)",
+      "what_user_should_know": "Develop between iliopsoas (lateral) and femoral vessels (medial, protect femoral sheath). Exposes the pelvic brim, quadrilateral surface, and corona mortis (ligate if needed). Key for anterior column and quadrilateral plate access. Limit medial retraction to protect femoral nerve.",
+      "key_structures": [
+        "Pelvic brim / iliopectineal eminence",
+        "Quadrilateral surface",
+        "Corona mortis (superior pubic ramus)",
+        "Iliopsoas (lateral) and femoral sheath (medial)"
+      ],
+      "structures_at_risk": [
+        "Corona mortis (bleeding)",
+        "Femoral nerve / external iliac vessels (retraction)"
+      ],
+      "surgical_relevance": "The critical working window for most anterior acetabular fractures. Corona identification and femoral nerve protection determine safety and exposure quality.",
+      "source_refs": [
+        "https://www.orthobullets.com/trauma/1034/acetabular-fractures"
+      ]
+    },
+    {
+      "layer_name": "Medial window (pubic rami / obturator canal)",
+      "what_user_should_know": "Develop medial to the femoral vessels (protect the femoral sheath). Exposes the superior and inferior pubic rami and obturator canal. Useful for medial wall or rami fractures; protect obturator bundle and round ligament/spermatic cord. Less extensile than the middle window for quadrilateral work.",
+      "key_structures": [
+        "Superior and inferior pubic rami",
+        "Obturator canal / foramen",
+        "Round ligament or spermatic cord",
+        "Medial femoral sheath"
+      ],
+      "structures_at_risk": [
+        "Obturator neurovascular bundle",
+        "Round ligament / spermatic cord"
+      ],
+      "surgical_relevance": "Gives medial access for rami and medial wall fractures. Obturator protection is essential; this window is often used in combination with the middle window.",
+      "source_refs": [
+        "https://www.orthobullets.com/trauma/1034/acetabular-fractures"
+      ]
+    }
+  ],
+  "structures_at_risk": [
+    {
+      "structure": "Corona mortis (external iliac-obturator anastomosis)",
+      "why_at_risk": "Anastomosis of external iliac (epigastric) and internal iliac (obturator) vessels crosses the superior pubic ramus; at risk with lateral dissection in the middle window of the ilioinguinal approach. Can retract and cause brisk or occult bleeding.",
+      "how_to_avoid_injury": "Identify and ligate or control the vessel(s) early in the middle window before they retract into the obturator foramen or behind the ramus. Have clips, sutures, or hemostatic agents ready.",
+      "consequence_of_injury": "Brisk bleeding, hematoma, or need for embolization/revision. Can be life-threatening if unrecognized in a polytrauma patient.",
+      "approach_context": "Middle window of ilioinguinal approach for anterior acetabulum",
+      "source_refs": [
+        "https://www.orthobullets.com/trauma/1034/acetabular-fractures"
+      ]
+    },
+    {
+      "structure": "Femoral nerve (and external iliac vessels)",
+      "why_at_risk": "Femoral nerve lies on the iliopsoas in the middle window; most common compression neuropraxia from medial retraction against the iliopectineal eminence or pelvic brim. Vessels at risk of thrombosis with prolonged or aggressive retraction.",
+      "how_to_avoid_injury": "Limit duration and force of medial retraction. Use careful retractor placement (pointed or Hohmann under direct vision on the brim). Periodically release retractors. Identify the nerve on the iliopsoas if extending exposure.",
+      "consequence_of_injury": "Femoral neuropathy (quadriceps weakness, knee buckling, sensory loss on anterior thigh). Usually neuropraxia that improves, but can be permanent. Vessel thrombosis may require vascular intervention.",
+      "approach_context": "Middle window retraction in ilioinguinal approach",
+      "source_refs": [
+        "https://www.orthobullets.com/trauma/1034/acetabular-fractures"
+      ]
+    },
+    {
+      "structure": "Obturator neurovascular bundle",
+      "why_at_risk": "Exits the pelvis through the obturator canal in the medial window; at risk during dissection medial to the femoral vessels or during quadrilateral surface or rami plate application.",
+      "how_to_avoid_injury": "Protect the bundle with a retractor in the obturator foramen. Avoid deep medial dissection or screw penetration into the canal. Identify early if medial wall work is required.",
+      "consequence_of_injury": "Obturator nerve palsy (adductor weakness, medial thigh sensory loss) or vascular injury to obturator vessels. Can affect gait and hip adduction strength.",
+      "approach_context": "Medial window and quadrilateral exposure in ilioinguinal approach",
+      "source_refs": [
+        "https://www.orthobullets.com/trauma/1034/acetabular-fractures"
+      ]
+    },
+    {
+      "structure": "Lateral femoral cutaneous nerve (LFCN)",
+      "why_at_risk": "Courses near the ASIS and can be injured in the lateral window incision or during iliac crest elevation and retraction.",
+      "how_to_avoid_injury": "Identify the LFCN (or its branches) early near the ASIS in the lateral window. Protect with a vessel loop or retract medially/laterally with the skin flap. Avoid blind cautery or excessive retraction at the ASIS.",
+      "consequence_of_injury": "Anterolateral thigh numbness or painful meralgia paresthetica. Usually tolerable but can be distressing; sometimes permanent.",
+      "approach_context": "Lateral window (iliac crest) of ilioinguinal approach",
+      "source_refs": [
+        "https://www.orthobullets.com/trauma/1034/acetabular-fractures"
+      ]
+    }
+  ],
+  "implant_strategy": [],
+  "reduction_or_fluoro_checkpoints": [],
+  "pitfalls": [
+    "Failure to identify and control the corona mortis in the middle window, leading to brisk bleeding, hematoma, or need for embolization/revision.",
+    "Prolonged or aggressive medial retraction in the middle window causing femoral nerve compression neuropraxia (quadriceps weakness and buckling).",
+    "Injury to the obturator neurovascular bundle during medial window dissection or quadrilateral plate application, resulting in adductor weakness and medial thigh sensory loss.",
+    "LFCN injury near the ASIS in the lateral window incision or retraction, causing anterolateral thigh numbness or painful meralgia paresthetica.",
+    "Inadequate protection of the round ligament or spermatic cord in the medial window, especially in male patients, leading to cord injury or hernia risk."
+  ],
+  "attending_pimp_questions": [
+    "Q: What are the three windows of the ilioinguinal approach and what key structure is exposed or at risk in each? A: Lateral: iliac fossa / anterior column, LFCN at ASIS. Middle: pelvic brim / quadrilateral surface / corona mortis, femoral nerve and external iliac vessels. Medial: pubic rami / obturator canal, obturator neurovascular bundle and round ligament/spermatic cord.",
+    "Q: What is the corona mortis, where is it encountered in the ilioinguinal approach, and why must it be controlled? A: Anastomosis of external iliac (epigastric) and internal iliac (obturator) vessels crossing the superior pubic ramus. Encountered in the middle window during lateral dissection over the ramus. Uncontrolled injury causes brisk bleeding or hematoma; ligate early before retraction.",
+    "Q: Which nerve is most commonly affected by retraction in the middle window of the ilioinguinal approach, and how is injury minimized? A: Femoral nerve (on iliopsoas). Limit duration and force of medial retraction; use careful retractor placement under vision on the brim; periodically release retractors. Most injuries are neuropraxias that improve.",
+    "Q: Describe the ilioinguinal approach windows for anterior acetabulum exposure and the primary danger in the middle window. A: Lateral window for iliac fossa/anterior column (LFCN risk). Middle window between iliopsoas and femoral vessels for brim/quadrilateral/corona (corona bleed + femoral n/vessel retraction risk). Medial window for rami/obturator (obturator bundle risk).",
+    "Q: How is the obturator neurovascular bundle protected in the medial window, and what is the consequence of injury? A: Protect with a retractor in the obturator foramen; avoid deep medial dissection or screw penetration into the canal. Injury causes obturator nerve palsy (adductor weakness, medial thigh sensory loss) or vascular compromise."
+  ],
+  "postop_plan": [
+    "Review linked modules and source URLs",
+    "Memorize key SAR and landmarks",
+    "Practice the 10+ pimp questions",
+    "Walk through the night-before checklist",
+    "Confirm any case-specific fluoroscopy or approach details"
+  ]
+}

@@ -1,0 +1,147 @@
+{
+  "indications": [],
+  "setup_positioning": [
+    "Posterior midline approach for lumbar decompression (laminectomy, foraminotomy, discectomy), nerve root exploration, and instrumented fusion (pedicle screws, interbody or posterolateral). Key anatomy: spinous processes, lamina, facet/pars, ligamentum flavum, traversing and exiting nerve roots, dura/cauda equina, and pedicle screw starting points (intersection of transverse process and facet). Level identification with iliac crest (L4-5) and fluoro is mandatory. Risks are primarily neural (dura, nerve roots) and vascular (epidural veins).",
+    "Posterior midline exposure: incision over the spinous processes at the target level(s). Iliac crest highest point approximates L4-5 interspace (useful landmark). Incise lumbodorsal fascia to the spinous process tip, preserve the interspinous ligament if possible. Detach paraspinal muscles (erector spinae / multifidus) subperiosteally from the spinous process and lamina out to the facet joint and transverse process.",
+    "Ligamentum flavum: attaches to the superior half of the undersurface of the lamina above and the superior edge of the lamina below. Resection begins at the midline or lateral edge; it is thinner in the midline and thicker laterally. Removal exposes the dura and traversing nerve root in the lateral recess.",
+    "Neural elements: the thecal sac (dura/cauda equina) lies in the central canal. Traversing nerve root (e.g., L5 root at L4-5) is medial in the lateral recess and exits under the pedicle of the level below. Exiting nerve root (L4 at L4-5) exits through the foramen above the disc. Decompression must address both central stenosis (lamina/flavum) and lateral recess/foraminal stenosis (facet, ligamentum, disc).",
+    "Facet and pars anatomy for decompression and fusion: the pars interarticularis is the isthmus between superior and inferior articular processes. Over-resection of the pars or facet during decompression can cause iatrogenic instability. For fusion, pedicle screws start at the intersection of the transverse process and the facet (or mammillary process); trajectory is ~15-20° medial (convergent) and 10-15° caudal on lateral fluoro.",
+    "Pedicle screw landmarks and medial breach risk: the pedicle is bounded medially by the thecal sac and traversing root. A medial breach (too medial starting point or trajectory) can injure the dura or nerve root. The safe starting point is the upslope of the transverse process at the facet junction; confirm with AP fluoro (screw should not cross the medial pedicle border on AP before entering the body).",
+    "Vascular and epidural anatomy: epidural veins are prominent in the lateral recess and foramen; bleeding can obscure the nerve root and dura. Bone wax, bipolar, and hemostatic agents are used. The anterior structures (great vessels, sympathetic chain) are not directly exposed but are at risk with anterior perforation by screws or aggressive disc work."
+  ],
+  "approach_landmarks": [
+    "Iliac crest (highest point ~ L4-5 interspace for level identification)",
+    "Spinous processes (midline, palpable; confirm level with fluoro or needle)",
+    "Facet joint and transverse process junction (pedicle screw starting point)",
+    "Lateral edge of lamina / pars interarticularis (lateral recess decompression landmark)",
+    "Ligamentum flavum attachment (halfway up undersurface of superior lamina)"
+  ],
+  "surgical_layers": [
+    {
+      "layer_name": "Superficial (skin to lumbodorsal fascia and spinous process)",
+      "what_user_should_know": "Midline incision over the spinous processes at the planned levels (confirm with iliac crest landmark ~L4-5 and fluoro). Divide subcutaneous fat. Incise the lumbodorsal fascia in the midline down to the spinous process tip. Preserve the supraspinous and interspinous ligaments if the segment will not be fused or if a motion-preserving option is planned.",
+      "key_structures": [
+        "Spinous processes (palpable landmarks)",
+        "Lumbodorsal fascia (midline raphe)",
+        "Supraspinous / interspinous ligament (preserve when possible)"
+      ],
+      "structures_at_risk": [
+        "Minimal major structures; superficial bleeding controlled with electrocautery"
+      ],
+      "surgical_relevance": "Midline orientation and fascial incision set up the entire subperiosteal exposure. Wrong level at this stage leads to wrong-level surgery.",
+      "source_refs": [
+        "https://www.orthobullets.com/approaches/12003/posterior-approach-to-lumbar-spine"
+      ]
+    },
+    {
+      "layer_name": "Paraspinal muscle elevation (to facet and transverse process)",
+      "what_user_should_know": "Using Cobb or periosteal elevator, detach the erector spinae and multifidus subperiosteally from the spinous process and lamina, working laterally to the facet joint and base of the transverse process. Self-retaining retractors maintain exposure. The facet capsule is preserved unless fusion or decompression requires partial facetectomy.",
+      "key_structures": [
+        "Erector spinae / multifidus (elevated)",
+        "Lamina and facet (exposed)",
+        "Transverse process base (pedicle screw landmark)"
+      ],
+      "structures_at_risk": [
+        "Dorsal rami (innervate paraspinals; usually sacrificed with elevation)",
+        "Facet capsule (preserve if not fusing)"
+      ],
+      "surgical_relevance": "Subperiosteal elevation provides the working corridor for laminectomy, flavectomy, and pedicle screw placement. Excessive bleeding or muscle trauma increases post-op pain and infection risk.",
+      "source_refs": [
+        "https://www.orthobullets.com/approaches/12003/posterior-approach-to-lumbar-spine"
+      ]
+    },
+    {
+      "layer_name": "Deep bony and ligamentous decompression (flavum, lamina, lateral recess)",
+      "what_user_should_know": "Remove spinous process (if needed). Resect lamina with Leksell rongeur or burr. Identify and resect ligamentum flavum (begin laterally or midline, develop plane with Woodson elevator between flavum and dura). Undercut the medial facet and lateral recess to decompress the traversing nerve root. Foraminotomy under the pedicle for the exiting root if needed. Protect dura and root throughout with cottonoids and retractors.",
+      "key_structures": [
+        "Ligamentum flavum (halfway up undersurface of superior lamina)",
+        "Lamina / pars interarticularis",
+        "Traversing nerve root (medial in lateral recess)",
+        "Dura / cauda equina (central)"
+      ],
+      "structures_at_risk": [
+        "Dura / cauda equina (tear)",
+        "Traversing and exiting nerve roots (retraction or direct injury)",
+        "Epidural veins (bleeding obscuring view)"
+      ],
+      "surgical_relevance": "The decompression itself. Adequate lateral recess and foraminal work is required for radiculopathy relief; over-resection of pars/facet without fusion risks instability.",
+      "source_refs": [
+        "https://www.orthobullets.com/approaches/12003/posterior-approach-to-lumbar-spine"
+      ]
+    }
+  ],
+  "structures_at_risk": [
+    {
+      "structure": "Dura / cauda equina (thecal sac)",
+      "why_at_risk": "Lies immediately deep to the ligamentum flavum and lamina in the central canal. At risk during flavum resection, laminectomy, or medial pedicle screw placement (medial breach). Thin or adherent dura (prior surgery, severe stenosis) increases risk of tear.",
+      "how_to_avoid_injury": "Begin flavum resection laterally or in the midline where it is thinnest; use a Woodson or blunt elevator to develop the plane between flavum and dura. Protect the dura with a Penfield or cottonoid during bone removal. For pedicle screws, confirm starting point lateral enough and trajectory convergent but not too medial on AP fluoro.",
+      "consequence_of_injury": "CSF leak (post-op headache, pseudomeningocele, infection risk), nerve root or cauda equina injury (bowel/bladder dysfunction, saddle anesthesia, leg weakness). May require repair, lumbar drain, or reoperation.",
+      "approach_context": "Midline posterior lumbar decompression (laminectomy/foraminotomy)",
+      "source_refs": [
+        "https://www.orthobullets.com/approaches/12003/posterior-approach-to-lumbar-spine"
+      ]
+    },
+    {
+      "structure": "Traversing and exiting nerve roots (lateral recess and foramen)",
+      "why_at_risk": "Traversing root (e.g., L5 at L4-5) is compressed in the lateral recess by flavum, facet, or disc and is exposed during decompression. Exiting root is at the foramen. Aggressive medial retraction, Kerrison bites, or disc fragment removal can injure the root or its sleeve.",
+      "how_to_avoid_injury": "Identify the traversing root early (medial in the lateral recess) and protect it with a retractor or cottonoid. Decompress the lateral recess and foramen under direct vision. For pedicle screws, the exiting root is at risk with too-cranial starting point or trajectory.",
+      "consequence_of_injury": "Radiculopathy, motor deficit (e.g., foot drop for L5), or sensory loss in the root distribution. Can be temporary (retraction) or permanent (direct injury or cautery).",
+      "approach_context": "Posterior decompression (lateral recess and foraminal work)",
+      "source_refs": [
+        "https://www.orthobullets.com/approaches/12003/posterior-approach-to-lumbar-spine"
+      ]
+    },
+    {
+      "structure": "Pedicle medial wall (and traversing root / dura with medial breach)",
+      "why_at_risk": "The medial pedicle wall is the boundary between the screw and the spinal canal. Starting too medial, trajectory too convergent, or small pedicle diameter leads to medial breach. The traversing root and dura are immediately medial to the pedicle.",
+      "how_to_avoid_injury": "Use the standard starting point (transverse process-facet junction, upslope). Confirm with AP fluoro before advancing (screw tip should not cross the medial pedicle border on AP until it has entered the vertebral body on lateral). Use gearshift or probe to feel the four walls of the pedicle before tapping/screwing.",
+      "consequence_of_injury": "Medial breach can cause direct nerve root or dural injury (radiculopathy, CSF leak, or cauda equina syndrome). Even without direct contact, the screw can cause chronic irritation or require revision.",
+      "approach_context": "Pedicle screw instrumentation during posterior lumbar fusion",
+      "source_refs": [
+        "https://www.orthobullets.com/approaches/12003/posterior-approach-to-lumbar-spine"
+      ]
+    },
+    {
+      "structure": "Epidural veins and bone bleeding (lateral recess / foramen)",
+      "why_at_risk": "Prominent venous plexus in the lateral recess and foramen; bone bleeding from decorticated lamina, facets, and transverse processes. Can rapidly obscure visualization of the dura and nerve roots during decompression.",
+      "how_to_avoid_injury": "Use bipolar cautery for veins, bone wax or hemostatic agents (Gelfoam, Surgiflo) for bone bleeding, and cottonoids for temporary tamponade. Maintain clear visualization before using Kerrison or pituitary rongeurs near neural structures.",
+      "consequence_of_injury": "Poor visualization leading to dural or nerve root injury; postoperative hematoma causing compression; increased operative time and blood loss.",
+      "approach_context": "Posterior decompression and fusion (any level with significant stenosis or bleeding)",
+      "source_refs": [
+        "https://www.orthobullets.com/approaches/12003/posterior-approach-to-lumbar-spine"
+      ]
+    }
+  ],
+  "implant_strategy": [
+    "Pedicle screw trajectory: starting at the junction of transverse process and facet (or mammillary process), ~15-20° medial (convergent) on AP, 10-15° caudal on lateral. Confirm no medial breach on AP before the screw enters the body.",
+    "Decompression extent: central (laminectomy), lateral recess (undercut facet and flavum), foraminal (foraminotomy under the pedicle). Preserve as much facet and pars as possible for stability unless fusion is planned.",
+    "Fusion options: posterolateral (decorticate transverse processes and facets, lay graft), TLIF/PLIF (interbody cage via unilateral or bilateral facetectomy), or ALIF (anterior, separate approach). Pedicle screws provide segmental fixation."
+  ],
+  "reduction_or_fluoro_checkpoints": [
+    "AP and lateral (or oblique) to confirm level (spinous process marker or needle) before incision or decompression.",
+    "AP view during pedicle screw placement: starting point at transverse process-facet junction; screw should not cross medial pedicle border on AP until it has entered the vertebral body on lateral view.",
+    "Final AP/lateral (and oblique if needed) to confirm screw position (no medial breach, appropriate depth, no anterior perforation), interbody cage position (if used), and alignment."
+  ],
+  "pitfalls": [
+    "Wrong level surgery (failure to confirm with fluoro or iliac crest landmark before decompression)",
+    "Dural tear from aggressive flavum or lamina resection without developing the plane or protecting the dura",
+    "Medial pedicle screw breach (starting point too medial or trajectory too convergent) injuring traversing root or dura",
+    "Inadequate lateral recess or foraminal decompression (persistent radiculopathy from under-decompressed traversing or exiting root)",
+    "Over-resection of pars or facet without fusion leading to iatrogenic spondylolysis or instability"
+  ],
+  "attending_pimp_questions": [
+    "Q: What is the iliac crest landmark for lumbar level identification and how is it used in the posterior approach? A: The highest point of the iliac crest approximates the L4-5 interspace (or L4 spinous process). Use it (plus fluoro confirmation) to plan the incision and confirm the correct level before any bone or ligament removal.",
+    "Q: Describe the attachment of the ligamentum flavum and the safe technique for its resection during posterior lumbar decompression. A: Attaches to the superior half of the undersurface of the lamina above and the superior edge of the lamina below. Begin resection laterally or in the midline (thinnest), use a blunt elevator (Woodson) to develop the plane between flavum and dura before biting with Kerrison. Protect the dura throughout.",
+    "Q: Where is the traversing nerve root relative to the lateral recess and pedicle, and how is it protected during decompression and pedicle screw placement? A: The traversing root (e.g., L5 at L4-5) lies medial in the lateral recess under the ligamentum flavum and facet, then exits under the pedicle of the level below. Identify it early, protect with a retractor or cottonoid during flavum/facet removal. For screws, avoid medial breach (the root is immediately medial to the pedicle).",
+    "Q: What is the standard pedicle screw starting point and trajectory, and what fluoro view confirms no medial breach? A: Starting point is the intersection (upslope) of the transverse process and facet joint (mammillary process). Trajectory ~15-20° medial (convergent) and 10-15° caudal. On AP fluoro, the screw tip should not cross the medial pedicle border until it has entered the vertebral body on the lateral view.",
+    "Q: What are the key risks of medial pedicle screw breach or over-aggressive lateral recess decompression? A: Medial breach: direct injury to the traversing nerve root or dura (radiculopathy, CSF leak, cauda equina). Over-decompression: iatrogenic instability if too much pars or facet is removed without fusion. Both can cause new or persistent neurologic deficit."
+  ],
+  "postop_plan": [
+    "Review the posterior lumbar approach OB page (12003) and the lumbar decompression modules (approach_lumbar_posterior, decompression_posterior_lumbar, nerve course) for flavum, neural elements, and pedicle landmarks (ignore any cervical content in the files)",
+    "Memorize: iliac crest ~L4-5, flavum attachment (halfway up undersurface), traversing root medial in lateral recess, pedicle screw start at TP-facet junction with convergent trajectory",
+    "Know the difference between traversing root (lateral recess, under pedicle of level below) and exiting root (foramen)",
+    "Review pimp on flavum resection technique, medial breach avoidance on AP fluoro, and sciatic-level protection maneuvers",
+    "Confirm the exact levels (MRI + plain films), planned decompression (central vs lateral recess vs foraminal), and fusion construct (screws only, TLIF/PLIF, etc.)",
+    "Be prepared to discuss dura protection, epidural vein control, and when to fuse vs decompress only"
+  ]
+}

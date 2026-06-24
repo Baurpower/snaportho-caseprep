@@ -1,0 +1,15 @@
+{
+  "corpus_path": "/Volumes/PS3000/snaportho-caseprep/data/anatomy_miller_gold_v1/anatomy_gold_v1_pinecone_ready.jsonl",
+  "record_count": 717,
+  "indexed_count": 717,
+  "embedding_model": "text-embedding-3-small",
+  "embedding_dim": 1536,
+  "created_at": "2026-06-05T23:39:14.593532+00:00",
+  "source_hash": "2c0509b1dff60f2a",
+  "text_field_used": "text",
+  "index_files": [
+    "embeddings.npy",
+    "ids.json",
+    "metas.json"
+  ]
+}

@@ -1,0 +1,142 @@
+{
+  "indications": [],
+  "setup_positioning": [
+    "Acetabulum Fracture ORIF (Posterior/Kocher-Langenbeck) (open_approach). Certified. Score 4. Source-backed from v3.",
+    "Kocher-Langenbeck for posterior wall/column, most transverse and T-shaped fractures. Exposure to posterior wall, lateral posterior column, indirect true pelvis/anterior posterior column, and proximal femur.",
+    "Sciatic nerve protection: initial location along quadratus femoris; extend hip and flex knee to relax the nerve; gentle retraction only; release short external rotators (piriformis, obturator internus/gemelli) posteriorly and tag for repair; peroneal division is more vulnerable laterally.",
+    "Gluteus maximus split: superficial interval splits the gluteus maximus (inferior gluteal n.) and IT band. Deep interval between short external rotators and femur after their release.",
+    "Short external rotators (piriformis, obturator internus, gemelli): released and tagged for later repair; obturator internus can act as a cushion over the sciatic nerve when retracted.",
+    "Superior gluteal neurovascular bundle: at risk if the gluteus maximus split is extended too far proximally (superior gluteal n. exits the greater sciatic notch).",
+    "Quadratus femoris and inferior gluteal structures: quadratus femoris is the initial landmark for sciatic nerve identification; inferior gluteal artery/nerve are posterior and can be injured with aggressive inferior dissection.",
+    "Superficial (gluteus maximus split): patient lateral or prone. Incision from PSIS or posterior to GT, curving distally along the femoral shaft. Split gluteus maximus in line with its fibers (inferior gluteal n.) and IT band. Limit proximal split to protect superior gluteal structures.",
+    "Deep (short external rotators and sciatic protection): identify and tag the short external rotators (piriformis superior, obturator internus/gemelli inferior). Release them from the femur posteriorly and retract (obturator internus can cushion the sciatic). Identify sciatic nerve along quadratus femoris; extend hip/flex knee for slack. Expose posterior wall and lateral posterior column.",
+    "Posterior column / wall exposure and quadrilateral palpation: after ER release and sciatic protection, the posterior wall, lateral posterior column, and (indirectly) quadrilateral surface are accessible. Hip extension and knee flexion are maintained throughout. Quadratus femoris and inferior gluteal structures are respected inferiorly."
+  ],
+  "approach_landmarks": [
+    "Landmarks: ASIS, iliac crest, sciatic notches, quadrilateral surface (palpable for posterior column reduction).",
+    "Essential palpable landmark from approach or reduction content.",
+    "Essential palpable landmark from approach or reduction content.",
+    "Essential palpable landmark from approach or reduction content.",
+    "Essential palpable landmark from approach or reduction content."
+  ],
+  "surgical_layers": [
+    {
+      "layer_name": "Superficial (gluteus maximus split)",
+      "what_user_should_know": "Patient lateral or prone. Incision from PSIS or posterior to GT, curving distally along the femoral shaft. Split gluteus maximus in line with its fibers (inferior gluteal n.) and IT band. Limit proximal split to protect superior gluteal neurovascular bundle exiting the greater sciatic notch.",
+      "key_structures": [
+        "Gluteus maximus (inferior gluteal n.)",
+        "IT band",
+        "Greater trochanter (posterior reference)",
+        "Sciatic notch (superior limit reference)"
+      ],
+      "structures_at_risk": [
+        "Superior gluteal neurovascular bundle (if split too proximal)"
+      ],
+      "surgical_relevance": "Standard posterior approach for posterior wall/column acetabulum fractures. The gluteus maximus split provides the superficial interval; proximal limit protects the superior gluteal structures.",
+      "source_refs": [
+        "https://www.orthobullets.com/trauma/1034/acetabular-fractures"
+      ]
+    },
+    {
+      "layer_name": "Deep (short external rotators and sciatic protection)",
+      "what_user_should_know": "Identify and tag the short external rotators (piriformis superiorly, obturator internus/gemelli inferiorly). Release them from the femur posteriorly and retract (obturator internus tendon can cushion the sciatic nerve). Identify the sciatic nerve along the quadratus femoris. Maintain hip extension and knee flexion throughout to relax the nerve. Expose the posterior wall and lateral posterior column.",
+      "key_structures": [
+        "Short external rotators (piriformis, obturator internus, gemelli)",
+        "Quadratus femoris (initial sciatic landmark)",
+        "Sciatic nerve (peroneal division lateral)",
+        "Posterior wall and lateral posterior column"
+      ],
+      "structures_at_risk": [
+        "Sciatic nerve (especially peroneal division)",
+        "Inferior gluteal artery/nerve (inferior work)"
+      ],
+      "surgical_relevance": "The critical deep interval. Sciatic protection (position + obturator internus cushion + gentle retraction) is the defining safety step of the Kocher-Langenbeck approach.",
+      "source_refs": [
+        "https://www.orthobullets.com/trauma/1034/acetabular-fractures"
+      ]
+    },
+    {
+      "layer_name": "Posterior column / wall exposure and quadrilateral access",
+      "what_user_should_know": "After ER release and sciatic protection, the posterior wall, lateral posterior column, and (indirectly via palpation) quadrilateral surface are accessible for reduction and fixation. Maintain hip extension/knee flexion. Quadratus femoris and inferior gluteal structures are respected inferiorly. Repair short ERs at closure for stability.",
+      "key_structures": [
+        "Posterior wall",
+        "Lateral posterior column",
+        "Quadrilateral surface (palpable)",
+        "Quadratus femoris / inferior gluteal structures"
+      ],
+      "structures_at_risk": [
+        "Sciatic nerve (ongoing protection)",
+        "Inferior gluteal structures"
+      ],
+      "surgical_relevance": "The working layer for fracture reduction and implant placement. Maintained sciatic protection and ER repair determine neurologic and stability outcome.",
+      "source_refs": [
+        "https://www.orthobullets.com/trauma/1034/acetabular-fractures"
+      ]
+    }
+  ],
+  "structures_at_risk": [
+    {
+      "structure": "Sciatic nerve (peroneal division more vulnerable)",
+      "why_at_risk": "Lies on the posterior column and quadratus femoris; at risk during gluteus maximus split, short ER release, retraction, or posterior wall/column work. Peroneal division is more lateral and vulnerable to stretch or direct injury. Position (hip extension, knee flexion) and obturator internus cushion are protective.",
+      "how_to_avoid_injury": "Identify sciatic early along quadratus femoris. Extend hip and flex knee throughout the case. Release short ERs posteriorly and tag (obturator internus cushions the nerve). Use only gentle retraction; never place retractors behind the nerve without protection.",
+      "consequence_of_injury": "Foot drop (peroneal) or tibial nerve deficit, sensory loss, chronic pain, or need for tendon transfer/brace. Often permanent if severe stretch or transection.",
+      "approach_context": "Kocher-Langenbeck (posterior) for acetabulum / posterior wall/column",
+      "source_refs": [
+        "https://www.orthobullets.com/trauma/1034/acetabular-fractures"
+      ]
+    },
+    {
+      "structure": "Superior gluteal neurovascular bundle",
+      "why_at_risk": "Exits the greater sciatic notch and supplies gluteus medius/minimus; at risk if the gluteus maximus split is carried too far proximally toward the notch.",
+      "how_to_avoid_injury": "Limit the proximal extent of the gluteus maximus split. Identify the bundle if exposure must extend superiorly. Use blunt dissection in the proximal gluteal interval.",
+      "consequence_of_injury": "Gluteus medius/minimus denervation or vascular injury leading to abductor weakness, Trendelenburg gait, and poor hip function. Can be permanent.",
+      "approach_context": "Proximal gluteus maximus split in Kocher-Langenbeck",
+      "source_refs": [
+        "https://www.orthobullets.com/trauma/1034/acetabular-fractures"
+      ]
+    },
+    {
+      "structure": "Inferior gluteal artery / nerve and quadratus femoris",
+      "why_at_risk": "Inferior gluteal structures and quadratus femoris are posterior and inferior; at risk with aggressive inferior dissection or retraction for distal posterior column exposure.",
+      "how_to_avoid_injury": "Respect the quadratus femoris as the initial sciatic landmark; limit inferior release unless needed for column reduction. Protect the inferior gluteal pedicle during deep inferior work.",
+      "consequence_of_injury": "Inferior gluteal nerve palsy (gluteus maximus weakness) or bleeding from the artery. Can affect hip extension power and wound healing.",
+      "approach_context": "Inferior exposure in Kocher-Langenbeck for low posterior column fractures",
+      "source_refs": [
+        "https://www.orthobullets.com/trauma/1034/acetabular-fractures"
+      ]
+    },
+    {
+      "structure": "Short external rotators (piriformis, obturator internus/gemelli)",
+      "why_at_risk": "Released and tagged for exposure and later repair; the obturator internus tendon can be used as a cushion over the sciatic nerve when retracted. Over-release or poor tagging affects stability and nerve protection.",
+      "how_to_avoid_injury": "Tag each rotator before release. Release from the femur posteriorly (not from the notch if possible). Use the obturator internus to cushion and retract the sciatic. Repair at closure for stability.",
+      "consequence_of_injury": "Loss of external rotation strength, posterior instability, or sciatic nerve irritation if the cushion effect is lost. Poor repair contributes to heterotopic ossification or weakness.",
+      "approach_context": "Deep interval of Kocher-Langenbeck",
+      "source_refs": [
+        "https://www.orthobullets.com/trauma/1034/acetabular-fractures"
+      ]
+    }
+  ],
+  "implant_strategy": [],
+  "reduction_or_fluoro_checkpoints": [],
+  "pitfalls": [
+    "Failure to maintain hip extension and knee flexion throughout the case, allowing sciatic nerve stretch and foot drop (peroneal division most vulnerable).",
+    "Extending the gluteus maximus split too far proximally toward the greater sciatic notch, injuring the superior gluteal neurovascular bundle and causing abductor weakness or bleeding.",
+    "Inadequate tagging or repair of the short external rotators (especially obturator internus), losing the cushion effect over the sciatic and contributing to instability or nerve irritation.",
+    "Aggressive inferior dissection without respecting the quadratus femoris and inferior gluteal structures, causing bleeding or inferior gluteal nerve palsy affecting hip extension.",
+    "Placing retractors or instruments behind the sciatic nerve without protection or visualization, leading to direct nerve injury or stretch."
+  ],
+  "attending_pimp_questions": [
+    "Q: In Kocher-Langenbeck (posterior) for acetabulum, what maneuvers protect the sciatic nerve (initial location, hip/knee position, short ER role)? A: Identify along quadratus femoris initially. Extend the hip and flex the knee throughout the case to slack the nerve. Release short ERs (piriformis, obturator internus/gemelli) posteriorly; the obturator internus tendon can cushion and retract the nerve. Use only gentle retraction.",
+    "Q: What is the role of the obturator internus in sciatic nerve protection during Kocher-Langenbeck, and why are the short ERs tagged before release? A: The obturator internus tendon lies over the sciatic and can be used as a cushion when the nerve is retracted. Tagging allows anatomic repair at closure for stability and to maintain the cushion effect; loss contributes to instability or nerve irritation.",
+    "Q: Which division of the sciatic nerve is more vulnerable in the Kocher-Langenbeck approach and why? A: The peroneal division (lateral) is more vulnerable to stretch or direct injury than the tibial division. It lies more lateral on the posterior column and is at higher risk during retraction or ER release.",
+    "Q: What is the superior gluteal neurovascular bundle and how is it protected in the gluteus maximus split of Kocher-Langenbeck? A: The superior gluteal bundle exits the greater sciatic notch and supplies the abductors. Limit the proximal extent of the gluteus maximus split; identify the bundle if superior exposure is required. Proximal extension risks abductor denervation or bleeding.",
+    "Q: Describe the Kocher-Langenbeck approach for posterior acetabulum and the primary structure at risk throughout. A: Superficial: split gluteus maximus/IT band (limit proximal for superior gluteal). Deep: release and tag short ERs, identify sciatic on quadratus femoris, maintain hip extension/knee flexion, use obturator internus as cushion. Primary risk: sciatic nerve (peroneal division) injury causing foot drop."
+  ],
+  "postop_plan": [
+    "Review linked modules and source URLs",
+    "Memorize key SAR and landmarks",
+    "Practice the 10+ pimp questions",
+    "Walk through the night-before checklist",
+    "Confirm any case-specific fluoroscopy or approach details"
+  ]
+}

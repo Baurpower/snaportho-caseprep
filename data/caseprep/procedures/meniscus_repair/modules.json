@@ -1,0 +1,144 @@
+{
+  "indications": [],
+  "setup_positioning": [
+    "Meniscus Repair (soft_tissue_repair). Certified. Score 4. Source-backed from v3.",
+    "Medial and lateral menisci: shock absorption, load distribution, joint stability. Zones (red-red, red-white, white-white) determine healing potential and repair vs meniscectomy decisions. Root tears and ramp lesions are important variants.",
+    "Standard arthroscopic portals: anterolateral (viewing) just lateral to patellar tendon at joint line; anteromedial (working) under vision. Accessory posteromedial or posterolateral for posterior horn work or all-inside repair.",
+    "Medial compartment: medial meniscus posterior horn and body; MCL can be tight (pie-crusting or figure-4 position for access). Saphenous nerve/vein at risk with inside-out or outside-in sutures medially.",
+    "Lateral compartment: lateral meniscus posterior horn near popliteal hiatus; common peroneal nerve and popliteal neurovascular structures at risk with lateral or posterior work. Popliteus tendon relationship important.",
+    "Meniscocapsular junction and red-red zone: good blood supply; ideal for repair (all-inside, inside-out, outside-in). White-white zone has poor healing; often partial meniscectomy.",
+    "Posterior horn/root anatomy: lateral root near the posterior aspect of the tibial plateau (key arthroscopic landmark for posterior horn visualization and root repair); medial root near PCL. Root tears cause meniscal extrusion and rapid compartment wear; repair when possible.",
+    "Systematic diagnostic: patellofemoral, medial gutter/compartment (MCL, medial meniscus), intercondylar notch (for visualization reference), lateral compartment (lateral meniscus, popliteus). Probe meniscus for tear type and zone. Notch used as landmark for posterior work orientation.",
+    "Meniscus work planes: medial - work in meniscocapsular plane; protect saphenous with retractors or needle localization for inside-out. Lateral - respect popliteal hiatus; peroneal nerve is posterior and lateral; use all-inside devices carefully near posterior horn.",
+    "Repair techniques and closure: all-inside (fast but device cost/neurovascular risk), inside-out (gold standard for posterior horn, requires safety incision), outside-in (for anterior body). After repair, cycle and check stability; close portals. For select posterior horn/root, mini-open parapatellar or posterior approach may be used."
+  ],
+  "approach_landmarks": [
+    "Joint line (palpable for portal placement and meniscus zone reference).",
+    "Tibial tubercle (reference for anterolateral portal and patellar tendon).",
+    "Femoral condyles (for compartment access and valgus/varus stress during diagnostic).",
+    "Popliteal hiatus (lateral posterior landmark for lateral meniscus posterior horn work).",
+    "Posteromedial/posterolateral corner (for safety incisions in inside-out repairs)."
+  ],
+  "surgical_layers": [
+    {
+      "layer_name": "Arthroscopic portal placement (skin / capsule / synovium)",
+      "what_user_should_know": "Anterolateral viewing portal just lateral to patellar tendon at joint line. Anteromedial working portal under direct vision. Accessory posteromedial or posterolateral portals for posterior horn access or suture retrieval. Protect fat pad and neurovascular branches during portal creation.",
+      "key_structures": [
+        "Patellar tendon borders",
+        "Medial/lateral joint lines",
+        "Infrapatellar fat pad",
+        "Posteromedial/lateral capsule"
+      ],
+      "structures_at_risk": [
+        "Infrapatellar saphenous branch (medial portal)",
+        "Common peroneal nerve (far lateral portal)"
+      ],
+      "surgical_relevance": "Portal placement determines access to meniscus zones. Poor portals lead to iatrogenic cartilage damage or inability to repair posterior tears.",
+      "source_refs": [
+        "https://www.orthobullets.com/knee-and-sports/3006/meniscal-tears"
+      ]
+    },
+    {
+      "layer_name": "Intra-articular compartment / meniscocapsular plane (medial and lateral)",
+      "what_user_should_know": "After portal entry, use 30° scope to visualize medial compartment (MCL, medial meniscus body/posterior horn) and lateral compartment (lateral meniscus, popliteus tendon, popliteal hiatus). Probe tear type, location (red-red vs white-white), and stability. Work in the meniscocapsular plane for repair.",
+      "key_structures": [
+        "Medial meniscus (body, posterior horn, root)",
+        "Lateral meniscus (posterior horn, root, popliteal hiatus)",
+        "MCL (medial)",
+        "Popliteus tendon (lateral)"
+      ],
+      "structures_at_risk": [
+        "Saphenous nerve/vein (medial meniscocapsular)",
+        "Peroneal nerve / popliteal bundle (lateral/posterior)"
+      ],
+      "surgical_relevance": "The working plane for all meniscus repair techniques. Zone identification (red-red good healing) guides repair vs resection. Neurovascular proximity is highest posteriorly.",
+      "source_refs": [
+        "https://www.orthobullets.com/knee-and-sports/3006/meniscal-tears"
+      ]
+    },
+    {
+      "layer_name": "Posterior horn / root access and repair planes (all-inside, inside-out, outside-in)",
+      "what_user_should_know": "For posterior horn tears: all-inside devices from anterior portals (depth control critical); inside-out requires safety incision (posteromedial for medial, posterolateral for lateral) with nerve protection; outside-in for anterior body or select posterior. Root repairs use transtibial or all-inside techniques. Protect popliteal structures at all times.",
+      "key_structures": [
+        "Posterior horn / root attachments",
+        "Meniscocapsular junction (repair bed)",
+        "Posteromedial / posterolateral capsule",
+        "Safety incision sites"
+      ],
+      "structures_at_risk": [
+        "Popliteal neurovascular bundle",
+        "Saphenous (medial safety incision)",
+        "Common peroneal (lateral safety incision)"
+      ],
+      "surgical_relevance": "Posterior and root tears have the highest neurovascular risk and the greatest impact on joint preservation if repaired. Technique choice balances access, healing, and safety.",
+      "source_refs": [
+        "https://www.orthobullets.com/knee-and-sports/3006/meniscal-tears"
+      ]
+    }
+  ],
+  "structures_at_risk": [
+    {
+      "structure": "Saphenous nerve and vein (medial meniscus repair)",
+      "why_at_risk": "The saphenous nerve (infrapatellar branch and sartorial branch) and accompanying vein lie in the posteromedial subcutaneous tissue and capsule; at risk during inside-out suture passage or posteromedial portal/accessory incision for medial meniscus posterior horn repair.",
+      "how_to_avoid_injury": "Use a posteromedial safety incision or retractors for inside-out sutures; identify the nerve under the skin before needle passage. For all-inside, stay anterior to the capsule and avoid deep penetration posteriorly.",
+      "consequence_of_injury": "Numbness on the medial leg/foot or painful neuroma. Saphenous neuralgia is a known complication of medial meniscus repair and can be more symptomatic than the original tear.",
+      "approach_context": "Medial meniscus repair (inside-out or posteromedial access)",
+      "source_refs": [
+        "https://www.orthobullets.com/knee-and-sports/3006/meniscal-tears"
+      ]
+    },
+    {
+      "structure": "Common peroneal nerve (lateral meniscus repair)",
+      "why_at_risk": "Lies posterior and lateral to the fibular head and lateral capsule; at risk with lateral meniscus posterior horn work, all-inside device penetration too far posterior, or posterolateral portal/accessory incision.",
+      "how_to_avoid_injury": "Stay anterior in the lateral compartment; use all-inside devices with depth stops and direct visualization. For inside-out, use a posterolateral safety incision and identify the nerve. Avoid figure-4 position if it brings the nerve into the field.",
+      "consequence_of_injury": "Foot drop, sensory loss on dorsum of foot, or chronic pain. Peroneal injury is devastating and often requires bracing or tendon transfer if complete.",
+      "approach_context": "Lateral meniscus repair (all-inside or posterolateral access)",
+      "source_refs": [
+        "https://www.orthobullets.com/knee-and-sports/3006/meniscal-tears"
+      ]
+    },
+    {
+      "structure": "Popliteal neurovascular bundle (posterior horn work)",
+      "why_at_risk": "The popliteal artery and tibial nerve lie directly posterior to the capsule and posterior horn of both menisci; at risk with aggressive all-inside penetration or posterior horn resection too far back.",
+      "how_to_avoid_injury": "Use controlled all-inside device depth, direct visualization, and avoid instruments in the posterior recess without protection. For medial, pie-crust the MCL rather than forcing; for lateral, respect the popliteal hiatus.",
+      "consequence_of_injury": "Vascular injury (pseudoaneurysm or acute ischemia) or tibial nerve deficit. Requires immediate vascular repair; can lead to amputation in worst cases.",
+      "approach_context": "Posterior horn meniscus repair or meniscectomy (all-inside or open)",
+      "source_refs": [
+        "https://www.orthobullets.com/knee-and-sports/3006/meniscal-tears"
+      ]
+    },
+    {
+      "structure": "MCL (medial compartment access)",
+      "why_at_risk": "Tight medial compartment limits visualization and instrument access to the medial meniscus posterior horn; over-stressing or pie-crusting can injure the MCL.",
+      "how_to_avoid_injury": "Use figure-4 position or valgus stress carefully; consider limited MCL pie-crusting (needles or radiofrequency) only as needed for access. Avoid excessive force.",
+      "consequence_of_injury": "MCL sprain or tear leading to medial laxity, pain, or delayed rehab. Usually heals but can prolong recovery or require bracing.",
+      "approach_context": "Medial meniscus repair in tight compartment",
+      "source_refs": [
+        "https://www.orthobullets.com/knee-and-sports/3006/meniscal-tears"
+      ]
+    }
+  ],
+  "implant_strategy": [],
+  "reduction_or_fluoro_checkpoints": [],
+  "pitfalls": [
+    "Failure to identify and protect the saphenous nerve during medial inside-out repair or posteromedial portal, leading to numbness or neuroma on the medial leg.",
+    "Over-penetration with all-inside devices on the lateral posterior horn, injuring the common peroneal nerve or popliteal bundle and causing foot drop or vascular catastrophe.",
+    "Missing or failing to repair a root tear or ramp lesion, resulting in meniscal extrusion, loss of hoop stress, and rapid lateral or medial compartment wear.",
+    "Inadequate zone assessment (repairing white-white or resecting repairable red-red), leading to poor healing or unnecessary loss of meniscal tissue.",
+    "Aggressive MCL pie-crusting or valgus stress in a tight medial compartment without protection, causing iatrogenic MCL injury and medial instability."
+  ],
+  "attending_pimp_questions": [
+    "Q: What are the meniscal zones (red-red, red-white, white-white) and how do they influence repair vs meniscectomy decisions? A: Red-red (peripheral, good blood supply) heals well with repair. Red-white (middle) has intermediate healing. White-white (inner) has poor healing and is often partially resected. Root and ramp lesions are repaired when possible regardless of zone to prevent extrusion.",
+    "Q: Which nerve/vein is at risk during medial meniscus repair and how is it protected in inside-out technique? A: Saphenous nerve (infrapatellar and sartorial branches) and vein in the posteromedial subcutaneous tissue. Use a posteromedial safety incision, identify the nerve, and retract it during suture passage. For all-inside, control device depth.",
+    "Q: How is the common peroneal nerve protected during lateral meniscus posterior horn repair? A: The nerve lies posterior and lateral to the fibular head. Stay anterior in the compartment, use all-inside devices with depth stops under visualization, and use a posterolateral safety incision with nerve identification for inside-out sutures. Avoid excessive lateral portal placement.",
+    "Q: What is the relationship of the popliteal neurovascular bundle to the posterior horns and why is it a danger zone in meniscus work? A: The popliteal artery and tibial nerve lie directly behind the capsule and posterior horns. Aggressive all-inside penetration or posterior resection can cause vascular injury or nerve deficit. Use controlled depth, direct vision, and protect with retractors or position (knee flexion).",
+    "Q: Why are root tears and ramp lesions important to identify and repair in meniscus surgery? A: Root tears cause meniscal extrusion and rapid compartment degeneration (equivalent to total meniscectomy). Ramp lesions (posteromedial meniscocapsular) affect rotational stability and are often missed. Repair restores hoop stress and joint preservation when technically feasible."
+  ],
+  "postop_plan": [
+    "Review linked modules and source URLs",
+    "Memorize key SAR and landmarks",
+    "Practice the 10+ pimp questions",
+    "Walk through the night-before checklist",
+    "Confirm any case-specific fluoroscopy or approach details"
+  ]
+}

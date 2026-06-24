@@ -1,0 +1,176 @@
+# Curated deterministic approach mappings for common orthopaedic procedures.
+# Only lists approach IDs that actually exist in the current catalogs.
+# For cases with missing catalog entries (e.g., dedicated lateral/medial malleolus),
+# we document the gap and block obviously wrong ones (e.g., anterior ankle for bimalleolar ORIF).
+#
+# Router uses trigger keywords (case-insensitive substring / simple regex) to detect case family.
+# It returns allowed + blocked lists + rationale.
+# GPT selector is only used as fallback when "unknown".
+
+ankle_fracture_orif:
+  triggers:
+    - "ankle fracture"
+    - "bimalleolar"
+    - "trimalleolar"
+    - "lateral malleolus"
+    - "medial malleolus"
+    - "distal fibula orif"
+    - "ankle orif"
+  allowed_approach_ids:
+    # Currently the catalog only has these two ankle-specific; we allow posteromedial as fallback for medial work
+    # but note the critical gap for standard lateral fibula exposure.
+    - "approach_lower_ext_ankle_posteromedial"
+  conditional_approach_ids:
+    posterior_malleolus:
+      triggers:
+        - "posterior malleolus"
+        - "posterior fragment"
+        - "posterior mal"
+        - "posterior malleolar"
+      approach_ids:
+        # If a true posterolateral ankle approach existed it would go here.
+        # Currently none in catalog.
+        []
+  blocked_approach_ids:
+    - "approach_lower_ext_ankle_anterior"   # Never for routine bimalleolar ORIF
+  notes: |
+    Standard bimalleolar ORIF uses lateral fibula (for lateral malleolus) + medial malleolus exposures.
+    Anterior ankle approach is for anterior ankle joint / talus access, pilon variants with anterior comminution, or specific anterior pathology — not standard bimalleolar.
+    Catalog coverage gap: no dedicated lateral fibula or medial malleolus approach IDs currently exist.
+    Router therefore returns very limited allowed set and relies on safety validation + legacy fallback.
+
+distal_radius_orif:
+  triggers:
+    - "distal radius"
+    - "distal radius fracture"
+    - "distal radius orif"
+    - "volar distal radius"
+    - "drf orif"
+  allowed_approach_ids:
+    - "approach_wrist_volar_distal_henry"
+  conditional_approach_ids:
+    dorsal_fragment:
+      triggers:
+        - "dorsal fragment"
+        - "dorsal spanning"
+        - "dorsal plate"
+        - "dorsal approach"
+        - "dorsal comminution"
+      approach_ids:
+        - "approach_wrist_dorsal"
+  blocked_approach_ids: []
+  notes: "Volar (distal Henry) is the workhorse. Dorsal added only when explicitly indicated."
+
+carpal_tunnel_release:
+  triggers:
+    - "carpal tunnel"
+    - "ctr"
+    - "carpal tunnel release"
+  allowed_approach_ids:
+    - "approach_wrist_carpal_tunnel"
+  conditional_approach_ids: {}
+  blocked_approach_ids: []
+  notes: ""
+
+cubital_tunnel_release:
+  triggers:
+    - "cubital tunnel"
+    - "cubital tunnel release"
+    - "ulnar nerve decompression elbow"
+  allowed_approach_ids:
+    # Closest existing: lateral elbow (Kocher) can be used/adapted for cubital tunnel; no dedicated cubital ID found in quick scan.
+    # We list what exists and let safety + legacy decide.
+    - "approach_elbow_lateral_kocher"
+  conditional_approach_ids: {}
+  blocked_approach_ids: []
+  notes: "Catalog coverage for dedicated cubital tunnel approach appears limited."
+
+posterior_tha:
+  triggers:
+    - "posterior tha"
+    - "posterior total hip"
+    - "posterior hip arthroplasty"
+    - "posterior approach hip"
+  allowed_approach_ids:
+    - "approach_lower_ext_hip_posterior_moore_southern"
+  conditional_approach_ids: {}
+  blocked_approach_ids: []
+  notes: ""
+
+anterior_tha:
+  triggers:
+    - "anterior tha"
+    - "direct anterior"
+    - "anterior total hip"
+    - "anterior approach hip"
+  allowed_approach_ids:
+    - "approach_lower_ext_hip_anterior_smith_peterson"
+  conditional_approach_ids: {}
+  blocked_approach_ids: []
+  notes: ""
+
+tka_medial_parapatellar:
+  triggers:
+    - "tka"
+    - "total knee arthroplasty"
+    - "knee replacement"
+    - "medial parapatellar"
+  allowed_approach_ids:
+    - "approach_lower_ext_knee_anterior_medial_parapatellar"
+  conditional_approach_ids: {}
+  blocked_approach_ids: []
+  notes: ""
+
+acl_reconstruction:
+  triggers:
+    - "acl reconstruction"
+    - "acl recon"
+    - "anterior cruciate"
+  allowed_approach_ids:
+    # No dedicated ACL approach in catalog; common are medial parapatellar or lateral.
+    # Router will likely fall back to unknown for now.
+    - "approach_lower_ext_knee_anterior_medial_parapatellar"
+  conditional_approach_ids: {}
+  blocked_approach_ids: []
+  notes: "Limited dedicated ACL exposure IDs in current catalog."
+
+rotator_cuff_repair:
+  triggers:
+    - "rotator cuff"
+    - "rotator cuff repair"
+    - "rcr"
+  allowed_approach_ids:
+    # Upper extremity shoulder approaches exist but not listed in quick scan of this file; router will likely be unknown.
+    []
+  conditional_approach_ids: {}
+  blocked_approach_ids: []
+  notes: "Shoulder approaches not exhaustively mapped yet."
+
+acetabular_ilioinguinal:
+  triggers:
+    - "acetabular"
+    - "acetabulum"
+    - "ilioinguinal"
+  allowed_approach_ids:
+    - "approach_lower_ext_pelvis_acetabulum_anterior_ilioinguinal"
+  conditional_approach_ids: {}
+  blocked_approach_ids: []
+  notes: ""
+
+acetabular_kocher_langenbeck:
+  triggers:
+    - "kocher langenbeck"
+    - "posterior acetabulum"
+  allowed_approach_ids:
+    - "approach_lower_ext_pelvis_acetabulum_posterior_kocher_langenbeck"
+  conditional_approach_ids: {}
+  blocked_approach_ids: []
+  notes: ""
+
+# Default / unknown
+unknown:
+  triggers: []
+  allowed_approach_ids: []
+  conditional_approach_ids: {}
+  blocked_approach_ids: []
+  notes: "No confident case family match. Fall back to legacy GPT selector with full catalog (subject to post-selection safety validation)."

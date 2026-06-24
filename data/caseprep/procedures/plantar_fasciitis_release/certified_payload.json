@@ -1,0 +1,173 @@
+{
+  "schema_version": "brobot_case_prep_payload_v2",
+  "procedure_id": "plantar_fasciitis_release",
+  "procedure_name": "Plantar Fasciitis Release",
+  "case_prep_status": "certified",
+  "procedure_overview": "Plantar Fasciitis Release (decompression_or_release). Certified. Score 4. Source-backed from v3.",
+  "must_know_anatomy": [
+    "Plantar fascia: thick aponeurosis with central (strongest, to 2-4 toes), medial (to hallux), and lateral bands. Central band most commonly involved in fasciitis.",
+    "Release: open or endoscopic. Incision medial or plantar. Release only medial 1/3 to 2/3 of central band to avoid lateral column instability and arch collapse.",
+    "Baxter nerve (first branch of lateral plantar nerve): at risk in medial/plantar approaches; compression or iatrogenic injury causes heel pain (Baxter neuritis) mimicking or coexisting with fasciitis.",
+    "Medial calcaneal nerve: sensory to heel; at risk in medial incisions. Injury causes painful heel numbness or neuroma.",
+    "Plantar fat pad: important for shock absorption under calcaneus; preserve during plantar approaches.",
+    "Medial/lateral plantar vessels/nerves: deeper; at risk with over-aggressive or misdirected release. Over-release leads to flatfoot or lateral column pain."
+  ],
+  "surgical_approach_anatomy": [
+    "Medial or plantar incision (open) or endoscopic portals. For open: medial heel incision, identify central band, release medial 1/3-2/3 under direct vision while protecting fat pad and nerves. Endoscopic: portals for visualization and release with care for Baxter.",
+    "Key protection: identify and protect Baxter nerve (1st lat plantar branch) and medial calcaneal nerve. Limit release to avoid lateral band and arch destabilization. Preserve fat pad.",
+    "Post-release: confirm adequate but not excessive release. Close carefully. Post-op protected weightbearing, stretching, and monitor for lateral column or nerve issues."
+  ],
+  "structures_at_risk": [
+    {
+      "structure": "Baxter nerve (1st branch of lateral plantar nerve)",
+      "why_at_risk": "Runs between abductor hallucis and quadratus plantae near medial calcaneal tuberosity; compressed in fasciitis or injured during medial/plantar release. Common cause of recalcitrant heel pain.",
+      "how_to_avoid_injury": "Identify during medial approach (between abductor hallucis and quadratus). Protect with retractor during release. Endoscopic requires careful portal placement and visualization.",
+      "consequence_of_injury": "Heel pain (Baxter neuritis), abductor hallucis weakness, or painful neuroma. Can be more symptomatic than original fasciitis.",
+      "approach_context": "Medial or endoscopic plantar fascia release",
+      "source_refs": [
+        "https://www.orthobullets.com/foot-and-ankle/12134/hallux-valgus"
+      ]
+    },
+    {
+      "structure": "Medial calcaneal nerve",
+      "why_at_risk": "Sensory branch to medial heel skin; at risk in medial heel incisions for open release.",
+      "how_to_avoid_injury": "Identify and protect under skin in medial approach. Avoid blind dissection or cautery. Use careful incision placement.",
+      "consequence_of_injury": "Medial heel numbness or painful neuroma. Can cause chronic heel pain.",
+      "approach_context": "Medial open plantar fascia release",
+      "source_refs": [
+        "https://www.orthobullets.com/foot-and-ankle/12134/hallux-valgus"
+      ]
+    },
+    {
+      "structure": "Lateral plantar nerve / vessels and fat pad",
+      "why_at_risk": "Deeper structures; over-release or misdirection can injure lateral plantar or destabilize lateral column via fat pad or band disruption.",
+      "how_to_avoid_injury": "Limit release to medial 1/3-2/3 central band. Preserve fat pad and lateral band. Direct visualization for open; careful endoscopic technique.",
+      "consequence_of_injury": "Lateral column pain, flatfoot deformity, or vascular/nerve injury to lateral foot. Arch collapse or transfer metatarsalgia.",
+      "approach_context": "Plantar fascia release (open or endoscopic)",
+      "source_refs": [
+        "https://www.orthobullets.com/foot-and-ankle/12134/hallux-valgus"
+      ]
+    },
+    {
+      "structure": "Plantar fat pad (under calcaneus)",
+      "why_at_risk": "Shock-absorbing pad; thinned or damaged in plantar approaches, leading to painful heel or altered biomechanics.",
+      "how_to_avoid_injury": "Preserve fat pad during dissection and release. Avoid excessive plantar exposure or retraction that thins it.",
+      "consequence_of_injury": "Painful heel (fat pad atrophy), altered gait, or need for orthotics/padding.",
+      "approach_context": "Plantar approach for fascia release",
+      "source_refs": [
+        "https://www.orthobullets.com/foot-and-ankle/12134/hallux-valgus"
+      ]
+    }
+  ],
+  "key_landmarks": [
+    "Medial calcaneal tuberosity",
+    "Abductor hallucis",
+    "Essential palpable landmark from approach or reduction content.",
+    "Essential palpable landmark from approach or reduction content.",
+    "Essential palpable landmark from approach or reduction content."
+  ],
+  "reduction_or_implant_anatomy": [],
+  "arthroscopy_or_portal_anatomy": [],
+  "common_mistakes": [
+    "Over-release (full or lateral band) leading to lateral column pain, flatfoot, or arch collapse.",
+    "Missing or injuring Baxter nerve (1st lat plantar branch), causing persistent or new heel neuritis (often worse than fasciitis).",
+    "Injuring medial calcaneal nerve in medial incision (heel numbness or neuroma).",
+    "Damaging or thinning plantar fat pad (painful heel atrophy, need for orthotics).",
+    "Failing to limit release or monitor post-op for transfer problems or missed nerve compression."
+  ],
+  "fluoroscopy_checkpoints": [],
+  "attending_pimp_questions": [
+    "Q: What portion of the plantar fascia is typically released and why limit it? A: Medial 1/3 to 2/3 of the central band only. Full or lateral release destabilizes the lateral column and arch, causing pain, flatfoot, or transfer lesions.",
+    "Q: Which nerve is commonly involved in recalcitrant heel pain (Baxter neuritis) and how is it protected during release? A: First branch of lateral plantar (Baxter) nerve, between abductor hallucis and quadratus plantae. Identify and protect during medial approach; injury or compression causes heel pain mimicking fasciitis.",
+    "Q: What sensory nerve is at risk in medial heel incision for open plantar release and consequence? A: Medial calcaneal nerve (sensory to heel skin). Injury causes numbness or painful neuroma on medial heel. Identify under skin and protect.",
+    "Q: Why preserve the plantar fat pad during release and what happens if damaged? A: It is the main shock absorber under the calcaneus. Damage causes painful heel atrophy, altered gait, and need for padding/orthotics.",
+    "Q: What are the risks of over-release or missing Baxter nerve in plantar fasciitis surgery? A: Lateral column pain, arch collapse, flatfoot, or persistent/new neuritis pain (often worse than original). Limited release + nerve protection + post-op care are essential."
+  ],
+  "night_before_review_checklist": [
+    "Review linked modules and source URLs",
+    "Memorize key SAR and landmarks",
+    "Practice the 10+ pimp questions",
+    "Walk through the night-before checklist",
+    "Confirm any case-specific fluoroscopy or approach details"
+  ],
+  "source_urls": [
+    "https://www.orthobullets.com/foot-and-ankle/12134/hallux-valgus"
+  ],
+  "source_confidence": "medium",
+  "limitations": [
+    "Anatomy-focused case prep only; does not replace full surgical technique or attending-specific preferences",
+    "Always verify with latest imaging and team briefing"
+  ],
+  "anatomy_category": "procedure",
+  "approach_id": "plantar_fasciitis_release",
+  "approach_name": "Plantar Fasciitis Release",
+  "surgical_layers": [
+    {
+      "layer_name": "Superficial (skin to plantar fascia / abductor hallucis)",
+      "what_user_should_know": "Medial heel incision (open) or endoscopic portals. Identify central band of plantar fascia. Protect medial calcaneal nerve under skin and Baxter nerve (between abductor hallucis and quadratus plantae).",
+      "key_structures": [
+        "Central plantar fascia band (medial 1/3-2/3 for release)",
+        "Abductor hallucis",
+        "Medial calcaneal nerve (sensory)",
+        "Baxter nerve (1st lat plantar branch)"
+      ],
+      "structures_at_risk": [
+        "Medial calcaneal nerve",
+        "Baxter nerve",
+        "Plantar fat pad"
+      ],
+      "surgical_relevance": "Standard approach for release. Nerve identification (Baxter especially) and limited release (medial 1/3-2/3) prevent complications like neuritis or lateral column collapse.",
+      "source_refs": [
+        "https://www.orthobullets.com/foot-and-ankle/12134/hallux-valgus"
+      ]
+    },
+    {
+      "layer_name": "Deep (fascia release and protection of deeper structures)",
+      "what_user_should_know": "Release only medial 1/3 to 2/3 of central band under direct vision (open) or with endoscopic control. Preserve lateral band and fat pad. Protect lateral plantar nerve/vessels deeper. Confirm adequate but not excessive release.",
+      "key_structures": [
+        "Central band (release limit)",
+        "Lateral band (preserve)",
+        "Lateral plantar nerve/vessels (deeper)",
+        "Plantar fat pad"
+      ],
+      "structures_at_risk": [
+        "Baxter / lateral plantar nerve",
+        "Fat pad",
+        "Lateral column stability"
+      ],
+      "surgical_relevance": "The release layer. Limited, protected release is key to success; over-release or nerve injury causes worse problems than original fasciitis.",
+      "source_refs": [
+        "https://www.orthobullets.com/foot-and-ankle/12134/hallux-valgus"
+      ]
+    },
+    {
+      "layer_name": "Closure and post-release considerations",
+      "what_user_should_know": "Close in layers if open. Protected weightbearing, stretching, night splint, and orthotics post-op. Monitor for lateral column pain, nerve symptoms, or arch collapse. Most improve with time; revision rare but for over-release or missed Baxter.",
+      "key_structures": [
+        "Skin/subcutaneous closure",
+        "Plantar fat pad (protected)",
+        "Arch (monitored for collapse)"
+      ],
+      "structures_at_risk": [
+        "Lateral column / arch stability",
+        "Baxter nerve symptoms (persistent or new)"
+      ],
+      "surgical_relevance": "Closure and aftercare determine outcome. Limited release + protection + monitoring prevent transfer problems or missed neuritis.",
+      "source_refs": [
+        "https://www.orthobullets.com/foot-and-ankle/12134/hallux-valgus"
+      ]
+    }
+  ],
+  "validation_warnings": [
+    "Plantar fasciitis release payload is medial/plantar approach focused with emphasis on nerve protection (Baxter) and limited release. Endoscopic vs open technique varies; this covers key anatomy. Source material previously mixed ankle/Achilles/Lisfranc and contained stringified/empty/generic/placeholders; cleaned to public facts and rich 6-field content only."
+  ],
+  "payload_quality_status": "cleaned_batch3_plantar_fascia",
+  "source_status": "source_backed_plantar_fascia",
+  "danger_zones": [
+    "Baxter nerve (1st lat plantar): identify/protect in medial approach (abductor/quadratus plane); injury causes recalcitrant heel pain (neuritis).",
+    "Medial calcaneal nerve: protect in medial incision; injury causes heel numbness/neuroma.",
+    "Lateral band / column: limit release to medial 1/3-2/3 central; over-release causes lateral pain, flatfoot, arch collapse.",
+    "Plantar fat pad: preserve for shock absorption; damage causes painful heel atrophy."
+  ],
+  "approach_specific_notes": "This payload is for plantar fasciitis release (open medial or endoscopic). Focus on central band anatomy, limited medial 1/3-2/3 release, Baxter (1st lat plantar) and medial calcaneal nerve protection, fat pad preservation, and avoiding lateral column/arch destabilization. No Achilles, ankle ligament, Lisfranc, or hip content mixed. Content is plantar fascia-specific."
+}

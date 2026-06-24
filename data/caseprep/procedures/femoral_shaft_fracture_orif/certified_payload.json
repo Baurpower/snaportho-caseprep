@@ -1,0 +1,171 @@
+{
+  "schema_version": "brobot_case_prep_payload_v2",
+  "procedure_id": "femoral_shaft_fracture_orif",
+  "procedure_name": "Femoral Shaft Fracture ORIF",
+  "case_prep_status": "certified",
+  "procedure_overview": "Femoral Shaft Fracture ORIF (open_approach). Certified. Score 4. Source-backed from v3.",
+  "must_know_anatomy": [
+    "Femur largest/strongest bone with anterior bow. Linea aspera on posterior middle third is key attachment and compressive strut. Thigh has 3 compartments.",
+    "Deforming forces: proximal fragment abducted (gluteus med/min) and flexed (iliopsoas); distal segment varus (adductors) and extension (gastrocnemius on posterior condyles).",
+    "Lateral approach: patient lateral or supine, incision along lateral thigh over vastus lateralis. Elevate or split vastus lateralis anteriorly from linea aspera to expose shaft. Protect perforating branches of profunda femoris.",
+    "Key neurovascular: femoral nerve/vessels anteromedial (retract carefully); sciatic nerve posterior (protect with position/retractors); profunda femoris perforators cross field laterally.",
+    "Reduction: traction, bumps, or external fix for length/alignment/rotation. Plate on lateral or anterolateral safe corridor (avoid medial neurovascular).",
+    "Blood loss: closed fractures significant (1-2L possible in thigh); open higher. Monitor compartments."
+  ],
+  "surgical_approach_anatomy": [
+    "Lateral thigh: incision from greater trochanter region distally along lateral femur. Develop plane anterior to vastus lateralis or split it. Identify and control perforators as they pierce lateral intermuscular septum.",
+    "Deep exposure: elevate vastus lateralis subperiosteally or split to linea aspera. Protect femoral neurovascular bundle by anterior retraction; sciatic lies posterior - use hip flexion/knee flexion if needed for relaxation.",
+    "Fracture work: reduce with traction/ bumps/ clamps. Apply lateral plate (broad or narrow) in safe corridor. Check rotation/length with fluoro or direct. Close fascia loosely if compartment concern."
+  ],
+  "structures_at_risk": [
+    {
+      "structure": "Profunda femoris perforators",
+      "why_at_risk": "Cross the lateral thigh through vastus lateralis or intermuscular septum during lateral approach; can be lacerated during elevation or plate placement.",
+      "how_to_avoid_injury": "Identify and ligate or control perforators as encountered. Use careful subperiosteal elevation and have hemostasis ready before stripping muscle.",
+      "consequence_of_injury": "Significant bleeding into thigh, hematoma, possible compartment syndrome or need for transfusion/revision. Can obscure field.",
+      "approach_context": "Lateral approach for femoral shaft ORIF",
+      "source_refs": [
+        "https://www.orthobullets.com/trauma/1040/femoral-shaft-fractures"
+      ]
+    },
+    {
+      "structure": "Femoral nerve and vessels (anteromedial)",
+      "why_at_risk": "Lie in anterior compartment; at risk with anterior retraction or if approach drifts medially during shaft exposure.",
+      "how_to_avoid_injury": "Stay lateral on the femur. Use anterior retractors carefully under direct vision. Avoid aggressive medial dissection.",
+      "consequence_of_injury": "Femoral neuropathy (quad weakness) or vascular injury (ischemia/bleeding).",
+      "approach_context": "Lateral femur shaft exposure",
+      "source_refs": [
+        "https://www.orthobullets.com/trauma/1040/femoral-shaft-fractures"
+      ]
+    },
+    {
+      "structure": "Sciatic nerve (posterior)",
+      "why_at_risk": "Posterior to femur; at risk with posterior retraction, traction, or in flexed positions if not protected during shaft work.",
+      "how_to_avoid_injury": "Maintain awareness of posterior structures. Use posterior retractors sparingly; consider hip/knee flexion for relaxation in some positions. Direct visualization when possible.",
+      "consequence_of_injury": "Sciatic palsy (foot drop, sensory loss, pain). May be stretch or direct; recovery variable.",
+      "approach_context": "Lateral approach deep exposure for femoral shaft",
+      "source_refs": [
+        "https://www.orthobullets.com/trauma/1040/femoral-shaft-fractures"
+      ]
+    },
+    {
+      "structure": "Vastus lateralis and perforator bundle",
+      "why_at_risk": "Elevated or split for exposure; perforators must be controlled to prevent bleeding and allow clean plate bed.",
+      "how_to_avoid_injury": "Elevate subperiosteally where possible. Tag and ligate perforators sequentially. Protect muscle for closure and function.",
+      "consequence_of_injury": "Bleeding, poor exposure, muscle devascularization, or weak knee extension if extensive damage.",
+      "approach_context": "Lateral vastus lateralis work for shaft plating",
+      "source_refs": [
+        "https://www.orthobullets.com/trauma/1040/femoral-shaft-fractures"
+      ]
+    }
+  ],
+  "key_landmarks": [
+    "{'landmark': 'Lateral approach standard for ORIF/plating: patient lateral or supine, incision along lateral thigh, split",
+    "Greater trochanter and femoral condyles for length/rotation reference in shaft fractures.",
+    "Greater trochanter and femoral condyles for length/rotation reference in shaft fractures.",
+    "Greater trochanter and femoral condyles for length/rotation reference in shaft fractures.",
+    "{'landmark': 'Lateral approach standard for ORIF/plating: patient lateral or sup"
+  ],
+  "reduction_or_implant_anatomy": [],
+  "arthroscopy_or_portal_anatomy": [],
+  "common_mistakes": [
+    "Failure to control profunda femoris perforators early, leading to significant bleeding, obscured field, or thigh compartment syndrome.",
+    "Drifting medially during lateral exposure and injuring femoral neurovascular bundle (quad weakness or vascular injury).",
+    "Inadequate protection or awareness of posterior sciatic nerve during retraction or reduction, causing iatrogenic palsy.",
+    "Ignoring deforming forces (proximal abduction/flexion, distal varus/extension) leading to malreduction.",
+    "Placing plate too anterior or posterior without safe corridor, or failing to check rotation/length with fluoro/direct methods."
+  ],
+  "fluoroscopy_checkpoints": [],
+  "attending_pimp_questions": [
+    "Q: What are the deforming forces on the proximal and distal fragments in a femoral shaft fracture? A: Proximal: abduction (gluteus med/min) and flexion (iliopsoas). Distal: varus (adductors) and extension (gastrocnemius).",
+    "Q: Describe the key steps and primary structures at risk in the lateral approach for femoral shaft ORIF. A: Incision lateral thigh, elevate/split vastus lateralis, control profunda perforators, protect femoral bundle anteromedially and sciatic posteriorly. Risk: bleeding from perforators, nerve injury.",
+    "Q: Why is early control of profunda femoris perforators critical in lateral femoral exposure? A: They cross the field laterally and can cause brisk bleeding or hematoma if lacerated during muscle elevation or plating. Control prevents obscured field and compartment risk.",
+    "Q: How do you protect the sciatic nerve during lateral shaft exposure? A: Awareness of its posterior position; use gentle retraction, consider hip flexion/knee flexion for relaxation in some setups, and avoid aggressive posterior work without visualization.",
+    "Q: What is the blood loss risk and compartment monitoring need in closed femoral shaft fractures? A: 1-2L or more into thigh possible (closed). Monitor for compartment syndrome (tense thigh, pain out of proportion); may need fasciotomy or delayed closure."
+  ],
+  "night_before_review_checklist": [
+    "Review linked modules and source URLs",
+    "Memorize key SAR and landmarks",
+    "Practice the 10+ pimp questions",
+    "Walk through the night-before checklist",
+    "Confirm any case-specific fluoroscopy or approach details"
+  ],
+  "source_urls": [
+    "https://www.orthobullets.com/trauma/1040/femoral-shaft-fractures",
+    "https://www.orthobullets.com/trauma/1041/distal-femur-fractures"
+  ],
+  "source_confidence": "high",
+  "limitations": [
+    "Anatomy-focused case prep only; does not replace full surgical technique or attending-specific preferences",
+    "Always verify with latest imaging and team briefing"
+  ],
+  "anatomy_category": "open_approach",
+  "approach_id": "femoral_shaft_fracture_orif",
+  "approach_name": "Femoral Shaft Fracture ORIF",
+  "surgical_layers": [
+    {
+      "layer_name": "Superficial (skin to vastus lateralis fascia)",
+      "what_user_should_know": "Incision along lateral thigh centered over fracture or as planned for plate length. Develop subcutaneous plane to expose vastus lateralis fascia. Protect lateral cutaneous nerve branches if encountered.",
+      "key_structures": [
+        "Vastus lateralis fascia",
+        "Lateral intermuscular septum",
+        "Perforating vessels emerging laterally"
+      ],
+      "structures_at_risk": [
+        "Lateral femoral cutaneous branches",
+        "Profunda perforators (as they pierce)"
+      ],
+      "surgical_relevance": "Standard lateral approach provides extensile exposure to entire femoral shaft for ORIF/plating. Early perforator control prevents bleeding.",
+      "source_refs": [
+        "https://www.orthobullets.com/trauma/1040/femoral-shaft-fractures"
+      ]
+    },
+    {
+      "layer_name": "Deep (vastus lateralis elevation/split to femur)",
+      "what_user_should_know": "Elevate or split vastus lateralis anteriorly from linea aspera. Identify and control perforators (profunda branches) as they cross from posterior to anterior. Expose the lateral femoral shaft subperiosteally for plate application. Protect anteromedial femoral bundle and posterior sciatic with retractors/position.",
+      "key_structures": [
+        "Linea aspera (posterior reference)",
+        "Vastus lateralis (elevated)",
+        "Profunda femoris perforators",
+        "Femoral shaft (lateral/anterolateral surface)"
+      ],
+      "structures_at_risk": [
+        "Profunda perforators (bleeding)",
+        "Femoral nerve/vessels (anteromedial)",
+        "Sciatic nerve (posterior)"
+      ],
+      "surgical_relevance": "The working layer for fracture reduction and plating. Perforator control and neurovascular protection are critical for safe, bloodless exposure.",
+      "source_refs": [
+        "https://www.orthobullets.com/trauma/1040/femoral-shaft-fractures"
+      ]
+    },
+    {
+      "layer_name": "Closure and compartment considerations",
+      "what_user_should_know": "After plate fixation and reduction check, close fascia loosely if swelling or compartment risk. Skin closure in layers. Monitor thigh compartments post-op (high risk in closed fractures with significant blood loss into thigh).",
+      "key_structures": [
+        "Vastus lateralis fascia",
+        "Subcutaneous tissue",
+        "Skin"
+      ],
+      "structures_at_risk": [
+        "Compartment syndrome (thigh - monitor pressures if tense)"
+      ],
+      "surgical_relevance": "Thigh compartments can develop syndrome after shaft fractures/ORIF due to bleeding/swelling. Loose closure and monitoring prevent missed diagnosis.",
+      "source_refs": [
+        "https://www.orthobullets.com/trauma/1040/femoral-shaft-fractures"
+      ]
+    }
+  ],
+  "validation_warnings": [
+    "Femoral shaft ORIF payload is lateral approach focused (common for plating). IMN is gold standard for many; this covers open reduction/plating anatomy. Source material previously mixed ankle/hip/TKA and contained stringified/truncated/empty SAR + dev paths; cleaned to public OB 1040/1041 facts and rich 6-field content only."
+  ],
+  "payload_quality_status": "cleaned_batch3_femoral_shaft",
+  "source_status": "source_backed_1040_1041_femur_shaft",
+  "danger_zones": [
+    "Profunda femoris perforators: identify/ligate early in vastus lateralis elevation; laceration causes thigh bleeding/hematoma/compartment risk.",
+    "Femoral nerve/vessels anteromedial: stay lateral on bone, careful anterior retraction; injury causes quad weakness or vascular catastrophe.",
+    "Sciatic nerve posterior: gentle retraction, position for relaxation; injury causes foot drop/sensory loss/pain.",
+    "Thigh compartments: monitor post-op (closed fractures bleed significantly); missed syndrome leads to contracture/poor function."
+  ],
+  "approach_specific_notes": "This payload is for femoral shaft fracture ORIF via lateral approach (standard for plating when IMN not chosen or for specific patterns). Focus on deforming forces, perforator control, anteromedial femoral bundle and posterior sciatic protection, and safe lateral corridor. No hip arthroplasty, ankle, or tibial content mixed. Content is shaft-specific."
+}

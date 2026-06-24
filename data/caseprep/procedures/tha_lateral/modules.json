@@ -1,0 +1,22 @@
+{
+  "indications": [
+    "Clinical indication for Total Hip Arthroplasty (Lateral/Hardinge Approach) per attending plan and documented diagnosis (source-linked indications pending)."
+  ],
+  "setup_positioning": [
+    "Total Hip Arthroplasty (Lateral/Hardinge Approach) — factory draft from source library (pending human review)."
+  ],
+  "approach_landmarks": [],
+  "surgical_layers": [],
+  "structures_at_risk": [],
+  "implant_strategy": [],
+  "reduction_or_fluoro_checkpoints": [],
+  "pitfalls": [],
+  "attending_pimp_questions": [],
+  "postop_plan": [
+    "Weight-bearing: procedure-specific; confirm in attending preference and fixation/implant stability for Total Hip Arthroplasty (Lateral/Hardinge Approach).",
+    "DVT prophylaxis: per institutional protocol unless contraindicated.",
+    "Activity restrictions: protect surgical repair; avoid premature loading or range of motion beyond protocol.",
+    "Watch for: wound complications, neurovascular change, increasing pain, fever, or loss of function.",
+    "Follow-up: routine wound check and early mobilization per service protocol."
+  ]
+}

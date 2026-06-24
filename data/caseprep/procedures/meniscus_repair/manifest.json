@@ -1,0 +1,20 @@
+{
+  "slug": "meniscus_repair",
+  "display_name": "Meniscus Repair",
+  "specialty": "sports",
+  "body_region": "knee",
+  "procedure_family": "procedure",
+  "status": "active",
+  "content_status": "certified",
+  "review_status": "certified",
+  "version": "1.0.0",
+  "caseprep_schema_version": "brobot_case_prep_payload_v2",
+  "coverage_score": 90,
+  "runtime_enabled": true,
+  "deprecated": false,
+  "replacement_slug": null,
+  "reviewer": "brobot_migration",
+  "certified_at": "2026-06-06T18:14:05.550759Z",
+  "last_reviewed_at": "2026-06-06T18:14:05.550759Z",
+  "source_payload_hash": "aa9eec9f16154b33915af6ed34b0e9d834538a4a3490a065f4f2dfe5e54b5a18"
+}
