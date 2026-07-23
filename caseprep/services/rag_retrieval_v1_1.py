@@ -95,13 +95,16 @@ def build_query_branches(query: Dict[str, Any]) -> List[Tuple[str, Optional[Dict
         ]
     }
     scoped = _and_filter([procedure, diagnosis, subregion, region, specialty])
+    strict_metadata = os.getenv("CASEPREP_POCKET_PIMP_METADATA_READY", "").lower() in {
+        "1", "true", "yes", "on",
+    }
     proposed = [
         ("pocket_pimped", _and_filter([pocket_pimp, scoped or region or specialty])),
         ("exact_scope", _and_filter([procedure, diagnosis, subregion, region, specialty])),
         ("procedure_focus", _and_filter([procedure, region])),
         ("regional_backup", _and_filter([region, specialty])),
     ]
-    if os.getenv("CASEPREP_POCKET_PIMP_METADATA_READY", "").lower() in {"1", "true", "yes", "on"}:
+    if strict_metadata:
         proposed = [
             (name, _and_filter([pocket_pimp, filter_value]))
             for name, filter_value in proposed[1:]
@@ -115,7 +118,16 @@ def build_query_branches(query: Dict[str, Any]) -> List[Tuple[str, Optional[Dict
         if key not in seen:
             seen.add(key)
             branches.append((name, filter_value))
-    return branches or [("semantic_fallback", None)]
+    # Always include a semantic branch: legacy vectors predate the metadata
+    # backfill (empty `procedures`, no `source_collection`), so scoped branches
+    # alone can return nothing for well-covered procedures. The reranker's
+    # metadata boosts and `_scope_compatible` guard keep cross-procedure
+    # contamination out of the final set. Once the backfill is live (strict
+    # mode) the fallback stays source-filtered to Pocket Pimped Q/A.
+    fallback_filter = pocket_pimp if strict_metadata else None
+    if repr(fallback_filter) not in seen:
+        branches.append(("semantic_fallback", fallback_filter))
+    return branches
 
 
 def _response_matches(response: Any) -> Iterable[Any]:
@@ -195,6 +207,21 @@ def _overlap(expected: Sequence[str], actual: Sequence[str]) -> float:
     return len(set(expected) & set(actual)) / max(1, len(set(expected)))
 
 
+_BIGRAM_STOP = {
+    "a", "an", "and", "are", "for", "how", "in", "is", "of", "on", "the",
+    "to", "what", "when", "which", "with",
+}
+
+
+def _bigrams(text: str) -> set[str]:
+    tokens = [
+        token
+        for token in re.findall(r"[a-z0-9]+", str(text or "").lower())
+        if token not in _BIGRAM_STOP
+    ]
+    return {f"{left} {right}" for left, right in zip(tokens, tokens[1:])}
+
+
 def score_candidate(candidate: Dict[str, Any], query: Dict[str, Any]) -> float:
     score = candidate["vector_score"] * 0.55
     score += _overlap(query["procedures"], candidate["procedures"]) * 0.20
@@ -212,6 +239,13 @@ def score_candidate(candidate: Dict[str, Any], query: Dict[str, Any]) -> float:
         score += 0.02
     if len(candidate["answer"]) >= 3:
         score += 0.02
+    # Lexical anchor: legacy vectors carry no procedure metadata, so shared
+    # clinical bigrams ("distal radius", "carpal tunnel") separate on-procedure
+    # Q/A from generic same-technique content ("...ORIF of the clavicle").
+    query_bigrams = _bigrams(query["search_text"])
+    if query_bigrams:
+        candidate_bigrams = _bigrams(f"{candidate['question']} {candidate['answer']}")
+        score += min(0.15, 0.05 * len(query_bigrams & candidate_bigrams))
     return round(score, 6)
 
 
@@ -269,6 +303,14 @@ def rerank_and_dedupe(
     return selected
 
 
+def _retrieval_cache_key(query: Dict[str, Any], top_k: int, limit: int) -> str:
+    slug_scope = "+".join(sorted(query["procedures"])) or hashlib.sha1(
+        query["search_text"].encode("utf-8")
+    ).hexdigest()[:16]
+    approach_scope = "+".join(sorted(query["approaches"]))
+    return f"{slug_scope}|{approach_scope}|{top_k}|{limit}"
+
+
 def retrieve_case_qas(
     refined: Any,
     *,
@@ -277,8 +319,20 @@ def retrieve_case_qas(
     top_k: int = BRANCH_TOP_K,
     limit: int = MAX_FINAL_QAS,
     diagnostics: Optional[Dict[str, Any]] = None,
+    use_cache: bool = True,
 ) -> List[Dict[str, Any]]:
+    from caseprep.services.ttl_cache import retrieval_cache
+
     query = normalize_query(refined)
+    cache_key = _retrieval_cache_key(query, top_k, limit)
+    if use_cache:
+        cached = retrieval_cache.get(cache_key)
+        if cached is not None:
+            selected, cached_diagnostics = cached
+            if diagnostics is not None:
+                diagnostics.update(cached_diagnostics)
+                diagnostics["cache_hit"] = True
+            return [dict(item) for item in selected]
     if embed_fn is None or index_obj is None:
         import vector_search
 
@@ -322,18 +376,26 @@ def retrieve_case_qas(
                 if len(raw) >= top_k * len(branches):
                     break
     query_ms = int((time.monotonic() - query_started) * 1000)
+    # Rescue-mode fallback: unfiltered semantic candidates participate only
+    # when the metadata-scoped branches under-deliver, so cases with working
+    # scope filters keep their zero-contamination behavior.
+    scoped_raw = [c for c in raw if c["retrieval_branch"] != "semantic_fallback"]
+    if len(scoped_raw) >= limit:
+        raw = scoped_raw
     selected = rerank_and_dedupe(raw, query, limit=limit)
+    run_diagnostics = {
+        "embedding_count": 1,
+        "embedding_ms": embed_ms,
+        "pinecone_query_ms": query_ms,
+        "branch_count": len(branches),
+        "branch_candidate_counts": branch_counts,
+        "failed_branches": sorted(failed_branches),
+        "raw_candidate_count": len(raw),
+        "selected_count": len(selected),
+    }
     if diagnostics is not None:
-        diagnostics.update(
-            {
-                "embedding_count": 1,
-                "embedding_ms": embed_ms,
-                "pinecone_query_ms": query_ms,
-                "branch_count": len(branches),
-                "branch_candidate_counts": branch_counts,
-                "failed_branches": sorted(failed_branches),
-                "raw_candidate_count": len(raw),
-                "selected_count": len(selected),
-            }
-        )
+        diagnostics.update(run_diagnostics)
+        diagnostics["cache_hit"] = False
+    if use_cache and selected and not failed_branches:
+        retrieval_cache.set(cache_key, ([dict(item) for item in selected], run_diagnostics))
     return selected

@@ -130,3 +130,35 @@ python3 scripts/anatomy/test_caseprep_v2_integration.py
 python3 scripts/anatomy/smoke_test_anatomy_runtime.py
 curl http://localhost:8000/health
 ```
+## v1.1 web packet stream (2026-07)
+
+Website-only streamed CasePrep packet. Legacy `/case-prep` (iOS) and
+`/case-prep/v2` are untouched; nothing dispatches to the stream from them.
+
+- **Route**: `POST /case-prep/web/v1.1/stream` (SSE). 404 unless
+  `ENABLE_CASEPREP_WEB_V1_1_STREAM=true`.
+- **Engine**: `caseprep/engines/v1_1_web_stream.py` — parallel pipeline fan-out
+  emitting `meta → header → section… → done` (see
+  `caseprep/schemas_v1_1_packet.py` for the event contract, mirrored by
+  `snaportho-web/src/lib/caseprep-v1-1/stream-schema.ts`).
+- **Pipelines**: deterministic packet sections from certified payloads
+  (`caseprep/pipelines/packet_sections.py`), Pocket-Pimped retrieval
+  (`rag_retrieval_v1_1.py`, now with registry-backed scope, a rescue-mode
+  semantic fallback branch, and bigram rerank affinity), and cached LLM
+  enrichment (`caseprep/services/enrichment_v1_1.py`) behind
+  `CASEPREP_V1_1_ENRICHMENT_ENABLED` (model: `CASEPREP_V1_1_MODEL`,
+  default gpt-4o-mini).
+- **Safety**: curated content always wins (`_merge_curated_wins` enforced in
+  code); operative-step generation is structurally blocked for certified
+  procedures; every generated item carries `generated: true`.
+- **Caching**: in-process TTL caches (`caseprep/services/ttl_cache.py`) for
+  resolution / retrieval / enrichment, keyed by canonical slug; registry writes
+  invalidate them.
+- **Web consumer**: `snaportho-web` `/api/case-prep/v1.1/stream` proxy
+  (entitlement gate + quota + optional KG `related_concepts` injection),
+  gated by `CASEPREP_WEB_V1_1_STREAM_ENABLED`, UI behind
+  `NEXT_PUBLIC_CASEPREP_PACKET_ENABLED`.
+- **Tests**: `tests/test_web_stream_e2e.py`, `tests/test_enrichment_v1_1.py`,
+  `tests/test_packet_sections.py`, `tests/test_ttl_cache.py`; benchmark:
+  `scripts/caseprep/benchmark_v1_1_retrieval.py --live` (now mirrors the
+  production preflight).

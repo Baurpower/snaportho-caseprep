@@ -26,14 +26,19 @@ def read_jsonl(path: Path) -> List[Dict[str, Any]]:
 
 def run_live(cases: List[Dict[str, Any]]) -> tuple[Dict[str, List[Dict[str, Any]]], Dict[str, int]]:
     from caseprep.services.ai_fallback import refine_prompt
+    from caseprep.services.case_identity_v1_1 import enrich_refined_query
+    from caseprep.services.procedure_resolver import resolve_procedure_safe
     from caseprep.services.rag_retrieval_v1_1 import retrieve_case_qas
 
     results: Dict[str, List[Dict[str, Any]]] = {}
     latencies: Dict[str, int] = {}
     for case in cases:
         started = time.monotonic()
-        refined = refine_prompt(case["prompt"])
-        results[case["case_id"]] = retrieve_case_qas(refined)
+        # Mirror the production v1.1 preflight: resolver-backed registry scope
+        # (specialty/region/procedure slug) merged into the refined query.
+        resolved = resolve_procedure_safe(case["prompt"], None)
+        refined = enrich_refined_query(refine_prompt(case["prompt"]), resolved, case["prompt"])
+        results[case["case_id"]] = retrieve_case_qas(refined, use_cache=False)
         latencies[case["case_id"]] = int((time.monotonic() - started) * 1000)
     return results, latencies
 

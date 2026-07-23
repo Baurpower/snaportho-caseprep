@@ -45,4 +45,19 @@ def enrich_refined_query(
     approach = resolved.get("requested_approach")
     if approach and not output.get("approaches"):
         output["approaches"] = [approach]
+    if slug:
+        # The alias registry's specialty/body_region are deterministic and beat
+        # the LLM refiner's guess (which can mislabel, e.g. "recon"/"non-anatomic"
+        # for a hand case) — wrong scope filters empty out every Pinecone branch.
+        try:
+            from procedure_registry import SLUG_TO_DEF
+
+            definition = SLUG_TO_DEF.get(slug)
+            if definition is not None:
+                if definition.body_region and definition.body_region != "unknown":
+                    output["region"] = definition.body_region
+                if definition.specialty:
+                    output["specialties"] = [definition.specialty]
+        except Exception:
+            pass
     return output

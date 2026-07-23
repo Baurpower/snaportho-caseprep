@@ -15,6 +15,7 @@ from openai import OpenAI
 
 from caseprep.api.routes.registry import router as registry_router
 from caseprep.api.routes.factory import router as factory_router
+from caseprep.api.routes.web_stream import router as web_stream_router
 from caseprep.config import APPROACH_CATALOG_PATHS, CasePrepConfig
 from caseprep.schemas import CasePrepRequest, PinnedCasePrepFollowupRequest
 from caseprep.engines import v1_1_web, v1_legacy, v2_curated
@@ -42,6 +43,7 @@ CASEPREP_CONFIG = CasePrepConfig.from_env()
 app = FastAPI()
 app.include_router(registry_router)
 app.include_router(factory_router)
+app.include_router(web_stream_router)
 
 _cors_origins = [
     origin.strip()
@@ -114,6 +116,8 @@ def health():
         "enable_caseprep_v2_ai_fallback": cfg.enable_v2_ai_fallback,
         "enable_caseprep_v2_rag_fallback": cfg.enable_v2_rag_fallback,
         "enable_caseprep_web_v1_1": cfg.enable_web_v1_1,
+        "enable_caseprep_web_v1_1_stream": cfg.enable_web_v1_1_stream,
+        "enable_caseprep_v1_1_enrichment": cfg.enable_v1_1_enrichment,
         "rag_available": rag_context.is_rag_available(),
         "resolver_available": procedure_resolver.is_resolver_available(),
         "curated_store": store,

@@ -115,6 +115,14 @@ def _atomic_write_json(path: Path, data: Dict[str, Any]) -> None:
         except OSError:
             pass
         raise
+    # Every registry write funnels through here — bust the v1.1 read caches so
+    # alias/content edits take effect immediately (TTL is only the fallback).
+    try:
+        from caseprep.services.ttl_cache import invalidate_resolution_caches
+
+        invalidate_resolution_caches()
+    except Exception:
+        pass
 
 
 def _items_to_section_value(section_key: str, items: List[Dict[str, Any]]) -> Any:

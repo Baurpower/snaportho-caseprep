@@ -43,6 +43,10 @@ class CasePrepConfig:
     enable_v2_ai_fallback: bool
     enable_v2_rag_fallback: bool
     enable_web_v1_1: bool = False
+    # Web-only v1.1 packet stream (SSE). Never dispatched from legacy routes.
+    enable_web_v1_1_stream: bool = False
+    enable_v1_1_enrichment: bool = False
+    v1_1_model: str = "gpt-4o-mini"
 
     @classmethod
     def from_env(cls) -> "CasePrepConfig":
@@ -55,6 +59,9 @@ class CasePrepConfig:
             enable_v2_ai_fallback=_env_bool("ENABLE_CASEPREP_V2_AI_FALLBACK", False),
             enable_v2_rag_fallback=_env_bool("ENABLE_CASEPREP_V2_RAG_FALLBACK", True),
             enable_web_v1_1=_env_bool("ENABLE_CASEPREP_WEB_V1_1", False),
+            enable_web_v1_1_stream=_env_bool("ENABLE_CASEPREP_WEB_V1_1_STREAM", False),
+            enable_v1_1_enrichment=_env_bool("CASEPREP_V1_1_ENRICHMENT_ENABLED", False),
+            v1_1_model=(os.getenv("CASEPREP_V1_1_MODEL", "gpt-4o-mini") or "gpt-4o-mini").strip(),
         )
 
 
