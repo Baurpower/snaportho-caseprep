@@ -38,3 +38,8 @@ Thumbs.db
 coverage.xml
 htmlcov/
 .cache/
+
+# Runtime-generated data (append-only logs written by the running service;
+# production's copies are the source of truth — never ship via git)
+data/caseprep/factory/audit_log.jsonl
+data/caseprep/analytics/demand_events.jsonl
