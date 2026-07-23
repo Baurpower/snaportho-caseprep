@@ -1,5 +1,8 @@
 {
-  "indications": [],
+  "indications": [
+    "Displaced posterior-wall or posterior-column acetabular fracture, or selected transverse or associated pattern, requiring direct posterior visualization and stable fixation.",
+    "Hip instability, articular incongruity, incarcerated fragments, marginal impaction, or inability to obtain or maintain an acceptable reduction after patient and soft-tissue factors are considered."
+  ],
   "setup_positioning": [
     "Acetabulum Fracture ORIF (Posterior/Kocher-Langenbeck) (open_approach). Certified. Score 4. Source-backed from v3.",
     "Kocher-Langenbeck for posterior wall/column, most transverse and T-shaped fractures. Exposure to posterior wall, lateral posterior column, indirect true pelvis/anterior posterior column, and proximal femur.",

@@ -12,6 +12,7 @@ Missing registry never raises — v1 and disabled v2 remain safe.
 from __future__ import annotations
 
 import json
+import hashlib
 from pathlib import Path
 from typing import Any, Dict, Optional, Tuple
 
@@ -40,6 +41,14 @@ def _manifest_allows_runtime(manifest: Dict[str, Any]) -> bool:
     )
 
 
+def _payload_matches_manifest(manifest: Dict[str, Any], payload: Dict[str, Any]) -> bool:
+    expected = str(manifest.get("source_payload_hash") or "")
+    actual = hashlib.sha256(
+        json.dumps(payload, sort_keys=True, ensure_ascii=False).encode("utf-8")
+    ).hexdigest()
+    return bool(expected) and expected == actual
+
+
 def _load_from_registry_folders() -> Dict[str, Dict[str, Any]]:
     store: Dict[str, Dict[str, Any]] = {}
     if not REGISTRY_PROCEDURES_ROOT.exists():
@@ -59,6 +68,8 @@ def _load_from_registry_folders() -> Dict[str, Dict[str, Any]]:
                 continue
             with payload_path.open("r", encoding="utf-8") as f:
                 payload = json.load(f)
+            if not _payload_matches_manifest(manifest, payload):
+                continue
             slug = manifest.get("slug") or payload.get("procedure_id") or folder.name
             if slug:
                 store[slug] = payload

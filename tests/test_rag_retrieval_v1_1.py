@@ -10,6 +10,7 @@ from caseprep.services.rag_retrieval_v1_1 import (
     normalize_match,
     normalize_query,
     retrieve_case_qas,
+    rerank_and_dedupe,
 )
 
 
@@ -139,6 +140,12 @@ class RagRetrievalV11Tests(unittest.TestCase):
             index_obj=PartiallyFailingIndex([]),
         )
         self.assertGreaterEqual(len(results), 1)
+
+    def test_rejects_explicit_cross_procedure_and_opposite_approach_results(self):
+        query = normalize_query({**self.refined, "approaches": ["posterior"]})
+        wrong = normalize_match(match("wrong", .9, "What is at risk?", "Lateral femoral cutaneous nerve", procedure="tha_anterior"), "regional_backup")
+        right = normalize_match(match("right", .8, "What is at risk?", "Median nerve", procedure="carpal_tunnel_release"), "exact_scope")
+        self.assertEqual([row["record_id"] for row in rerank_and_dedupe([wrong, right], query)], ["right"])
 
 
 if __name__ == "__main__":

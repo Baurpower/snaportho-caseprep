@@ -1,5 +1,9 @@
 {
-  "indications": [],
+  "indications": [
+    "Symptomatic ACL-deficient knee with functional instability in a patient seeking return to pivoting or cutting sport or work after shared decision-making about operative and structured nonoperative care.",
+    "Young or active patient, recurrent giving-way, or repairable associated meniscal or intra-articular injury when restored knee stability is important.",
+    "Acute isolated ACL tear already selected for surgery; reconstruction is favored over repair, with timely treatment to limit additional meniscal or cartilage injury."
+  ],
   "setup_positioning": [
     "Arthroscopic portals: anterolateral (viewing) portal just lateral to patellar tendon at joint line; anteromedial (working) portal under direct vision in the notch or medial gutter. Accessory anteromedial or posteromedial for meniscus work or tibial tunnel.",
     "Notch and footprint preparation: debride ACL remnant to identify footprints. Tibial tunnel starts on medial proximal tibia, exits in center of tibial footprint. Femoral tunnel on lateral notch wall posterior to resident's ridge, avoiding posterior wall blowout (leave 1-2 mm back wall).",

@@ -1,5 +1,9 @@
 {
-  "indications": [],
+  "indications": [
+    "Tibial-shaft fracture requiring operative stabilization because of instability or displacement, open injury, polytrauma, segmental pattern, inability to maintain acceptable alignment, or an individualized need for earlier mobilization.",
+    "Plate fixation for selected reducible simple patterns or when intramedullary nailing is unsuitable because of medullary anatomy, existing hardware, fracture extension or location, or other technical constraints.",
+    "Definitive internal fixation only when the soft-tissue envelope and contamination or infection status permit, using staged treatment when necessary."
+  ],
   "setup_positioning": [
     "Tibial Shaft Fracture ORIF (open_approach). Certified. Score 4. Source-backed from v3.",
     "Tibia subcutaneous anteromedially (easy landmark for approach); leg has 4 compartments (anterior, lateral, superficial posterior, deep posterior). IMN gold standard; plate for specific proximal/distal or soft tissue needs.",

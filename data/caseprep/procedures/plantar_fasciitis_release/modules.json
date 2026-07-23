@@ -1,5 +1,8 @@
 {
-  "indications": [],
+  "indications": [
+    "Persistent function-limiting plantar-fasciitis pain after at least 12 months of correctly performed, aggressive nonsurgical treatment and confirmation that plantar fasciitis is the pain generator.",
+    "Consideration only after excluding competing causes of heel pain and discussing arch change, lateral-column pain, nerve injury, and persistent pain."
+  ],
   "setup_positioning": [
     "Plantar Fasciitis Release (decompression_or_release). Certified. Score 4. Source-backed from v3.",
     "Plantar fascia: thick aponeurosis with central (strongest, to 2-4 toes), medial (to hallux), and lateral bands. Central band most commonly involved in fasciitis.",

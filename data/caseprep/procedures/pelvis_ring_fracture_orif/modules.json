@@ -1,5 +1,9 @@
 {
-  "indications": [],
+  "indications": [
+    "Mechanically unstable pelvic-ring injury with displacement or deformity requiring operative stabilization after hemorrhage control and physiologic resuscitation.",
+    "Persistent posterior-ring instability, unacceptable displacement, open pelvic injury, or inability to mobilize safely with nonoperative care.",
+    "Open rather than percutaneous fixation when ring pattern, reducibility, soft tissues, neurologic injury, patient physiology, and surgeon expertise support direct exposure."
+  ],
   "setup_positioning": [
     "Open reduction and internal fixation of pelvis ring and acetabular fractures using approach-specific exposures based on fracture pattern (anterior vs posterior column involvement). Key anatomic concept: acetabulum as inverted Y of anterior and posterior columns joined by sciatic buttress. Approaches must be chosen and executed with precise knowledge of the neurovascular structures at risk in each window (ilioinguinal, Stoppa/anterior intrapelvic, Kocher-Langenbeck posterior, percutaneous).",
     "Acetabulum supported by anterior column (anterior ilium, anterior wall/dome, iliopectineal eminence, superior pubic ramus) and posterior column (quadrilateral surface, posterior wall/dome, ischial tuberosity, greater/lesser sciatic notches) forming an inverted Y connected to the sacrum via the sciatic buttress. Fracture classification and approach selection are driven by column and wall involvement.",

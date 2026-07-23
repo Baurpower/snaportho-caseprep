@@ -38,14 +38,21 @@ def _strings(value: Any) -> List[str]:
 
 def normalize_query(refined: Any) -> Dict[str, Any]:
     row = refined if isinstance(refined, dict) else {}
+    search_text = _clean(row.get("search_text") or row.get("raw_prompt") or refined)
+    approaches = _strings(row.get("approaches") or row.get("approach"))
+    lowered = search_text.lower()
+    if not approaches:
+        for explicit in ("posterior", "anterior", "lateral", "medial", "volar", "dorsal"):
+            if re.search(rf"\b{explicit}\b", lowered):
+                approaches.append(explicit)
     return {
-        "search_text": _clean(row.get("search_text") or row.get("raw_prompt") or refined),
+        "search_text": search_text,
         "specialties": _strings(row.get("specialties") or row.get("specialty")),
         "region": _slug(row.get("region")),
         "subregion": _slug(row.get("subregion")),
         "diagnoses": _strings(row.get("diagnoses") or row.get("diagnosis")),
         "procedures": _strings(row.get("procedures") or row.get("procedure")),
-        "approaches": _strings(row.get("approaches") or row.get("approach")),
+        "approaches": approaches,
     }
 
 
@@ -208,6 +215,22 @@ def score_candidate(candidate: Dict[str, Any], query: Dict[str, Any]) -> float:
     return round(score, 6)
 
 
+def _scope_compatible(candidate: Dict[str, Any], query: Dict[str, Any]) -> bool:
+    """Reject explicit cross-procedure/approach metadata before reranking."""
+    if query["procedures"] and candidate["procedures"]:
+        if not set(query["procedures"]) & set(candidate["procedures"]):
+            return False
+    if query["approaches"] and candidate["approaches"]:
+        if not set(query["approaches"]) & set(candidate["approaches"]):
+            return False
+    text = _clean(" ".join((candidate["question"], candidate["answer"], candidate["additional_info"]))).lower()
+    approaches = set(query["approaches"])
+    if any("posterior" in item for item in approaches):
+        if "lateral femoral cutaneous nerve" in text or "direct anterior interval" in text:
+            return False
+    return True
+
+
 def _question_tokens(question: str) -> set[str]:
     stop = {"a", "an", "and", "are", "for", "in", "is", "of", "the", "to", "what", "which"}
     return {token for token in re.findall(r"[a-z0-9]+", question.lower()) if token not in stop}
@@ -225,6 +248,8 @@ def rerank_and_dedupe(
 ) -> List[Dict[str, Any]]:
     ranked = []
     for candidate in candidates:
+        if not _scope_compatible(candidate, query):
+            continue
         item = dict(candidate)
         item["retrieval_score"] = score_candidate(item, query)
         ranked.append(item)

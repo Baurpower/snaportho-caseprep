@@ -1,5 +1,9 @@
 {
-  "indications": [],
+  "indications": [
+    "End-stage symptomatic knee joint disease with severe pain or stiffness and meaningful limitation of walking, stairs, transfers, work, or daily activity despite appropriate nonsurgical treatment.",
+    "Structural joint damage concordant with symptoms and examination, with shared decision-making that expected benefit outweighs operative risk.",
+    "Deformity, instability, inflammatory arthritis, osteonecrosis, or post-traumatic disease when total rather than partial or joint-preserving reconstruction is appropriate."
+  ],
   "setup_positioning": [
     "Total Knee Arthroplasty (open_approach). Certified. Score 4. Source-backed from v3.",
     "Medial parapatellar approach: skin incision medial to midline or along medial border of patella/quadriceps tendon; develop medial skin flap, incise medial retinaculum and vastus medialis obliquus fascia to enter joint.",

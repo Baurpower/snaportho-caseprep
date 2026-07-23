@@ -1,5 +1,9 @@
 {
-  "indications": [],
+  "indications": [
+    "Displaced or unstable distal-femur fracture requiring restoration of articular congruity, limb length, rotation, and mechanical alignment.",
+    "Open, irreducible, or vascularly compromised fracture, or a fracture unsuitable for acceptable nonoperative management, once damage-control and soft-tissue priorities permit definitive fixation.",
+    "Selected periprosthetic fracture with a stable prosthesis and fracture pattern and bone stock suitable for fixation."
+  ],
   "setup_positioning": [
     "Distal Femur Fracture ORIF (open_approach). Certified. Score 4. Source-backed from v3.",
     "Distal femur: medial/lateral condyles, trochlea, intercondylar notch. Hoffa (coronal) fragment variant important (often missed, needs fixation). Gastrocnemius deforming force on distal fragment (extension).",

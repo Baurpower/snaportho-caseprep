@@ -1,5 +1,9 @@
 {
-  "indications": [],
+  "indications": [
+    "Diagnosed stable slipped capital femoral epiphysis, particularly a mild-to-moderate slip, treated with percutaneous in-situ screw fixation.",
+    "Diagnosed unstable SCFE requiring urgent specialist stabilization with an individualized strategy and meticulous handling because avascular-necrosis risk is high.",
+    "Selected high-risk contralateral hip, including endocrinopathy, renal disease, prior radiation, marked skeletal immaturity, or unreliable follow-up, after explicit risk-benefit discussion."
+  ],
   "setup_positioning": [
     "SCFE in situ percutaneous pinning (or open Modified Dunn for severe deformity). Key anatomy centers on the proximal femoral physis (weak point, posteroinferior slip), retinacular blood supply to the epiphysis (AVN risk), and precise fluoroscopically guided screw trajectory from anterior proximal femur across physis into epiphysis center. Must achieve 5+ threads across physis and confirm no joint penetration on true lateral view. High stakes in unstable slips; gentle handling and accurate pin placement protect the remaining blood supply.",
     "SCFE: epiphysis typically slips posteroinferior relative to metaphysis. Assessed by Klein line on AP (superior neck line should intersect epiphysis) and Southwick angle on lateral. Unstable growth plate from shear overload.",

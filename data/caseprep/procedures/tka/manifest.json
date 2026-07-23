@@ -10,7 +10,7 @@
   "version": "1.0.0",
   "caseprep_schema_version": "brobot_case_prep_payload_v2",
   "coverage_score": 90,
-  "runtime_enabled": true,
+  "runtime_enabled": false,
   "deprecated": false,
   "replacement_slug": null,
   "reviewer": "brobot_migration",

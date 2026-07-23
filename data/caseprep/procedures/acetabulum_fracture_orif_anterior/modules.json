@@ -1,5 +1,8 @@
 {
-  "indications": [],
+  "indications": [
+    "Displaced acetabular fracture requiring operative reduction when the dominant fracture component is accessible through an anterior approach, including selected anterior-column, anterior-wall, both-column, or anterior-column/posterior-hemitransverse patterns.",
+    "Articular incongruity, hip instability, incarcerated fragments, marginal impaction, or inability to obtain or maintain an acceptable closed reduction after patient and soft-tissue factors are considered."
+  ],
   "setup_positioning": [
     "Acetabulum Fracture ORIF (Anterior/Ilioinguinal) (open_approach).",
     "Acetabulum supported by anterior and posterior columns forming an inverted Y connected to the sacrum via the sciatic buttress. Anterior column: anterior ilium (gluteus medius tubercle), anterior wall and dome, iliopectineal eminence, lateral superior pubic ramus.",

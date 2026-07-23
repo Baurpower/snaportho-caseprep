@@ -5,6 +5,7 @@ Read-only CasePrep registry service for surgeon review APIs.
 from __future__ import annotations
 
 import json
+import hashlib
 import re
 from pathlib import Path
 from typing import Any, Dict, List, Optional, Tuple
@@ -82,13 +83,21 @@ def _certified_payload_exists(folder: Path) -> bool:
 
 
 def compute_is_live(manifest: Dict[str, Any], folder: Path) -> bool:
-    return bool(
+    eligible = bool(
         manifest.get("runtime_enabled")
         and manifest.get("content_status") == "certified"
         and manifest.get("review_status") == "certified"
         and not manifest.get("deprecated")
         and _certified_payload_exists(folder)
     )
+    if not eligible:
+        return False
+    payload = _load_json(folder / "certified_payload.json")
+    expected = str(manifest.get("source_payload_hash") or "")
+    actual = hashlib.sha256(
+        json.dumps(payload, sort_keys=True, ensure_ascii=False).encode("utf-8")
+    ).hexdigest() if payload is not None else ""
+    return bool(expected) and expected == actual
 
 
 def _resolve_modules(folder: Path) -> Tuple[Dict[str, Any], bool]:

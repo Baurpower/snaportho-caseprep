@@ -1,5 +1,9 @@
 {
-  "indications": [],
+  "indications": [
+    "Chronic symptomatic lateral ankle instability with recurrent sprains or giving way, objective instability, and persistent pain or functional limitation after months of structured rehabilitation, bracing, and activity modification.",
+    "Selected acute injury only when associated pathology or instability creates a specific operative indication; isolated low ankle sprains generally begin with nonoperative care.",
+    "Direct repair rather than reconstruction when tissue quality, alignment, generalized laxity, prior surgery, and associated pathology make repair appropriate."
+  ],
   "setup_positioning": [
     "Anatomic repair of lateral ankle ligaments (primarily ATFL, often CFL) for chronic instability after failed nonoperative care. Brostrom procedure: imbricate or reattach the attenuated ATFL (and CFL) to the fibula. Gould modification: augment with inferior extensor retinaculum. Key anatomy is superficial (sural nerve, peroneal tendons) and the ligament footprints on fibula and talus/calcaneus. Approach is anterior or curvilinear over the ATFL/CFL origin on the anterior distal fibula.",
     "Lateral ankle ligaments: ATFL (most commonly injured, from anterior distal fibula to talar neck, resists anterior talar translation and inversion in plantarflexion), CFL (from distal fibula tip to calcaneus, resists inversion in dorsiflexion, also stabilizes subtalar), PTFL (posterior, rarely primary surgical target). ATFL is intracapsular; CFL is extra-capsular.",

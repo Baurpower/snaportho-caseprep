@@ -28,6 +28,9 @@ set +a
 .venv/bin/python scripts/caseprep/score_registry_coverage.py --check-only
 ```
 
+Production must set `CASEPREP_ENV=production`, `CASEPREP_INTERNAL_API_KEY`, and
+`CASEPREP_CORS_ORIGINS` to the comma-separated web origins allowed to call the API.
+
 Case Prep web clients must explicitly call `POST /case-prep/v2`. The legacy
 `POST /case-prep` route remains for older clients and is not part of the
 curated-first contract.
@@ -65,6 +68,9 @@ Run the seed clinical benchmark against configured services:
 ```bash
 python3 scripts/caseprep/benchmark_v1_1_retrieval.py --live --output /tmp/caseprep-v1-1-report.json
 ```
+
+Use `--check` to enforce the default release gates (90% required-term recall,
+70% top-k relevance, zero contamination/empty results, and <=4s worst-case latency).
 
 The gold set lives at
 `data/caseprep/evaluation/pocket_pimp_retrieval_gold_v1.jsonl` and should be

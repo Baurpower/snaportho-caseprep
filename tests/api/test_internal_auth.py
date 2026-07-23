@@ -11,7 +11,7 @@ from caseprep.api.deps.internal_auth import require_internal_api_key
 
 
 def _run(coro):
-    return asyncio.get_event_loop().run_until_complete(coro)
+    return asyncio.run(coro)
 
 
 class InternalAuthTests(unittest.TestCase):
@@ -48,13 +48,14 @@ class InternalAuthTests(unittest.TestCase):
         ):
             _run(require_internal_api_key("correct-key"))
 
-    def test_unset_env_defaults_to_local_and_does_not_fail_open_silently(self):
-        # CASEPREP_ENV unset -> treated as "local" (explicit default), which
-        # is the documented dev convenience, not an accidental fail-open.
+    def test_unset_env_fails_closed(self):
+        # An unset environment must never silently opt into local-dev access.
         with mock.patch.dict(os.environ, {}, clear=False):
             os.environ.pop("CASEPREP_ENV", None)
             os.environ.pop("CASEPREP_INTERNAL_API_KEY", None)
-            _run(require_internal_api_key(None))
+            with self.assertRaises(HTTPException) as raised:
+                _run(require_internal_api_key(None))
+            self.assertEqual(raised.exception.status_code, 503)
 
 
 if __name__ == "__main__":

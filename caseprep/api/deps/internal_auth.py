@@ -27,7 +27,9 @@ def _configured_api_key() -> str:
 
 
 def _current_env() -> str:
-    return (os.getenv(ENV_NAME) or "local").strip().lower()
+    # An omitted environment is a deployment misconfiguration, not local dev.
+    # Developers who want the keyless convenience must opt in explicitly.
+    return (os.getenv(ENV_NAME) or "production").strip().lower()
 
 
 async def require_internal_api_key(

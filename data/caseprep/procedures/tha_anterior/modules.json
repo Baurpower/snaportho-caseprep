@@ -1,5 +1,8 @@
 {
-  "indications": [],
+  "indications": [
+    "Symptomatic end-stage hip joint disease, commonly osteoarthritis, with substantial pain and functional limitation despite appropriate nonoperative treatment, when total hip arthroplasty is selected through shared decision-making.",
+    "Anterior approach selected according to patient anatomy, prior surgery, deformity, surgeon expertise, and the approach-specific risk-benefit profile; the approach is not a separate disease indication."
+  ],
   "setup_positioning": [
     "Direct Anterior (Smith-Petersen/Hueter) approach for total hip arthroplasty. Internervous/intermuscular plane between TFL (superior gluteal n.) laterally and sartorius (femoral n.) medially. Key structures: LFCN (often in or superficial to interval), ascending branch of lateral femoral circumflex artery (crosses interval distal to ASIS), rectus femoris (femoral n.), anterior hip capsule. Exposure of femoral neck and acetabulum through this plane without violating abductors or short external rotators. Extend distally along TFL as needed.",
     "Direct anterior interval: TFL (superior gluteal innervation, retract lateral) and sartorius (femoral n., retract medial). LFCN typically lies in the fascia or just medial in the interval and is at risk during superficial dissection.",

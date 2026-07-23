@@ -1,5 +1,9 @@
 {
-  "indications": [],
+  "indications": [
+    "Open humeral-shaft fracture, vascular injury, floating elbow or polytrauma requiring stabilization, pathologic fracture, or inability to obtain or maintain acceptable alignment with functional bracing.",
+    "Symptomatic nonunion or malunion, or selected fracture pattern and patient need when expected fixation benefit outweighs radial-nerve and surgical risks.",
+    "Radial-nerve deficit only after pattern- and mechanism-specific assessment; a closed primary palsy alone is not an automatic indication."
+  ],
   "setup_positioning": [
     "Plate ORIF of humeral shaft fractures when IM nailing not chosen (distal metaphyseal, radial nerve exploration, open fractures, or specific deformity). Two main approaches: anterolateral distal (brachialis split or lateral to it) and posterior (triceps split). Radial nerve is the dominant structure at risk in both (spiral groove on posterior humerus, exits lateral septum in distal 1/3 - Holstein-Lewis pattern vulnerable). Profunda brachii artery travels with radial nerve in spiral groove. Goal: anatomic reduction, stable plate fixation (usually 4.5 mm DCP or LCP), radial nerve protection or exploration.",
     "Radial nerve course: exits spiral groove ~4-7 cm from acromion? (posterior to anterolateral at mid/distal third junction), pierces lateral intermuscular septum ~10-12 cm proximal to lateral epicondyle, then lies between brachialis and brachioradialis. Holstein-Lewis fracture (distal 1/3 spiral) has high association with radial nerve injury at the septum exit.",

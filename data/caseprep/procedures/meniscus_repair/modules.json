@@ -1,5 +1,9 @@
 {
-  "indications": [],
+  "indications": [
+    "Symptomatic acute meniscal tear with healing potential when repair can preserve functional meniscal tissue.",
+    "Displaced or displacing acute tear, particularly one restricting knee range of motion, or another acute symptomatic repairable tear for which early intervention may improve success.",
+    "Selected acute tear after failed nonoperative treatment, with a separate assessment for degenerative tears or tears associated with ACL injury."
+  ],
   "setup_positioning": [
     "Meniscus Repair (soft_tissue_repair). Certified. Score 4. Source-backed from v3.",
     "Medial and lateral menisci: shock absorption, load distribution, joint stability. Zones (red-red, red-white, white-white) determine healing potential and repair vs meniscectomy decisions. Root tears and ramp lesions are important variants.",

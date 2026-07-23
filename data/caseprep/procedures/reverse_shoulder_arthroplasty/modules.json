@@ -1,5 +1,9 @@
 {
-  "indications": [],
+  "indications": [
+    "Painful cuff-tear arthropathy or irreparable massive rotator-cuff tear with loss of shoulder function after appropriate nonsurgical treatment.",
+    "Selected complex proximal-humerus fracture, failed prior shoulder arthroplasty, chronic dislocation, tumor, or glenoid deformity or bone loss when reverse mechanics and fixation are appropriate.",
+    "Functioning deltoid and axillary nerve with reconstructable bone; primary arthritis with an intact cuff requires a distinct implant-selection assessment."
+  ],
   "setup_positioning": [
     "Reverse Shoulder Arthroplasty (arthroscopy_or_endoscopy). Certified. Score 4. Source-backed from v3.",
     "RSA: deltopectoral or superolateral (lateral split) approaches. Relies on deltoid for elevation after reversing ball/socket.",

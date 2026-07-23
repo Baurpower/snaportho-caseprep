@@ -1,5 +1,9 @@
 {
-  "indications": [],
+  "indications": [
+    "Painful hallux-valgus deformity causing difficulty with footwear, walking, or activity despite appropriate shoe modification and other nonsurgical measures.",
+    "Progressive symptomatic deformity with transfer symptoms or associated lesser-toe problems when clinical and weight-bearing radiographic findings support correction.",
+    "Adolescent deformity only for severe persistent pain despite footwear or orthotic treatment, generally near skeletal maturity because recurrence risk is higher."
+  ],
   "setup_positioning": [
     "Hallux valgus correction via distal chevron, proximal osteotomy, scarf, or Lapidus, combined with lateral soft tissue release (adductor hallucis, lateral capsule) and medial eminence resection/capsulorrhaphy. Critical anatomy: first metatarsal head blood supply (vulnerable to AVN with aggressive lateral release or over-stripping), lateral plantar nerve (proper digital branch to hallux) at risk during lateral release, sesamoid complex and windlass mechanism, angular measurements (HVA, IM angle, DMAA) guiding osteotomy level and type. Focus on balanced release without overcorrection (hallux varus) or undercorrection (recurrence/transfer metatarsalgia).",
     "Medial deviation of 1st MT, lateral deviation/pronation of hallux. Increased IM angle, HVA, DMAA. Sesamoids sublux lateral. Medial capsule contracture, lateral capsule/adductor pull hallux lateral. Deformity affects windlass mechanism and medial longitudinal arch support.",

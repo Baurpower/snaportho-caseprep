@@ -1,5 +1,9 @@
 {
-  "indications": [],
+  "indications": [
+    "Adult femoral-shaft fracture requiring operative stabilization after life-threatening conditions are stabilized.",
+    "Open fracture, polytrauma, unstable or displaced pattern, or inability to maintain acceptable length, alignment, and rotation nonoperatively.",
+    "Plate fixation when fracture pattern, associated injury, medullary anatomy, existing hardware, or other factors make intramedullary nailing unsuitable."
+  ],
   "setup_positioning": [
     "Femoral Shaft Fracture ORIF (open_approach). Certified. Score 4. Source-backed from v3.",
     "Femur largest/strongest bone with anterior bow. Linea aspera on posterior middle third is key attachment and compressive strut. Thigh has 3 compartments.",

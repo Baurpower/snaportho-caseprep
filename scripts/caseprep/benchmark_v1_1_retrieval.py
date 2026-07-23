@@ -45,6 +45,12 @@ def main() -> None:
     parser.add_argument("--live", action="store_true", help="Query configured OpenAI/Pinecone services")
     parser.add_argument("--output", type=Path)
     parser.add_argument("--top-k", type=int, default=10)
+    parser.add_argument("--check", action="store_true", help="Fail when release quality gates are missed")
+    parser.add_argument("--min-recall", type=float, default=0.90)
+    parser.add_argument("--min-relevance", type=float, default=0.70)
+    parser.add_argument("--max-contamination", type=float, default=0.0)
+    parser.add_argument("--max-empty-rate", type=float, default=0.0)
+    parser.add_argument("--max-latency-ms", type=int, default=4000)
     args = parser.parse_args()
     if args.live == bool(args.results):
         parser.error("choose exactly one of --live or --results")
@@ -67,6 +73,22 @@ def main() -> None:
     print(rendered)
     if args.output:
         args.output.write_text(rendered + "\n", encoding="utf-8")
+    if args.check:
+        summary = report["summary"]
+        latencies = [row["latency_ms"] for row in per_case if row["latency_ms"] is not None]
+        failures = []
+        if summary["must_include_recall"] < args.min_recall:
+            failures.append("must_include_recall")
+        if summary["top_k_relevance"] < args.min_relevance:
+            failures.append("top_k_relevance")
+        if summary["contamination"] > args.max_contamination:
+            failures.append("contamination")
+        if summary["empty_result_rate"] > args.max_empty_rate:
+            failures.append("empty_result_rate")
+        if latencies and max(latencies) > args.max_latency_ms:
+            failures.append("max_latency_ms")
+        if failures:
+            raise SystemExit("release gates failed: " + ", ".join(failures))
 
 
 if __name__ == "__main__":

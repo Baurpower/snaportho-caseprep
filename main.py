@@ -19,6 +19,7 @@ from caseprep.config import APPROACH_CATALOG_PATHS, CasePrepConfig
 from caseprep.schemas import CasePrepRequest, PinnedCasePrepFollowupRequest
 from caseprep.engines import v1_1_web, v1_legacy, v2_curated
 from caseprep.services import curated_content_store, rag_context, procedure_resolver
+from caseprep.services.registry_read_service import get_health as get_registry_health
 from caseprep.services.pinned_caseprep import (
     PinnedCasePrepError,
     answer_from_pinned_revision,
@@ -42,12 +43,17 @@ app = FastAPI()
 app.include_router(registry_router)
 app.include_router(factory_router)
 
+_cors_origins = [
+    origin.strip()
+    for origin in os.getenv("CASEPREP_CORS_ORIGINS", "http://localhost:3000").split(",")
+    if origin.strip()
+]
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],
+    allow_origins=_cors_origins,
     allow_credentials=True,
-    allow_methods=["*"],
-    allow_headers=["*"],
+    allow_methods=["GET", "POST", "PATCH", "OPTIONS"],
+    allow_headers=["Content-Type", "Authorization", "x-caseprep-internal-api-key"],
 )
 
 CATALOG: List[Dict[str, Any]] = []
@@ -94,8 +100,12 @@ def read_root():
 def health():
     cfg = CasePrepConfig.from_env()
     store = curated_content_store.store_status()
+    registry = get_registry_health()
+    ready = bool(store.get("available")) and registry.status == "ok"
     return {
-        "status": "ok",
+        "status": "ok" if ready else "degraded",
+        "ready": ready,
+        "registry": registry.model_dump(),
         "v1_available": v1_legacy.is_v1_available(),
         "v2_available": v2_curated.is_v2_available(cfg),
         "v2_unavailable_reason": v2_curated.v2_unavailable_reason(cfg) or None,

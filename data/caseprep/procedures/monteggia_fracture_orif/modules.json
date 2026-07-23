@@ -1,5 +1,8 @@
 {
-  "indications": [],
+  "indications": [
+    "Acute adult Monteggia fracture-dislocation requiring anatomic reduction and stable ulnar fixation to restore and maintain radiocapitellar alignment.",
+    "Persistent radial-head dislocation or instability after anatomic ulnar fixation requiring evaluation and treatment of ulnar malreduction or interposed annular ligament or capsule."
+  ],
   "setup_positioning": [
     "Monteggia fracture-dislocation: ulnar shaft fracture + radial head dislocation (Bado classification; Type I anterior most common). Key principle: anatomic reduction and fixation of the ulna (length and alignment) usually reduces the radial head spontaneously. If radial head remains dislocated or unstable after ulna fixation, open reduction via Kocher lateral interval may be needed. Radius component (if both-bone pattern) uses anterior Henry approach. PIN (posterior interosseous nerve) is the major motor nerve at risk in both Henry (supinator) and Kocher (crosses arcade of Frohse). Superficial radial nerve sensory branch at risk distally in Henry. Landmarks: bicipital tuberosity (biceps insertion), radial styloid, lateral epicondyle.",
     "Monteggia = ulnar fracture + radial head dislocation. Bado Type I (anterior radial head dislocation) is most common in adults and children. Anatomic ulnar reduction (length, rotation, alignment) is the key step that usually reduces the radial head without direct radial head surgery.",

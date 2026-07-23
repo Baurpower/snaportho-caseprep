@@ -1,5 +1,9 @@
 {
-  "indications": [],
+  "indications": [
+    "Displaced or unstable femoral-neck fracture in an older adult when arthroplasty is preferred over fixation and total hip arthroplasty is not the better individualized option.",
+    "Selected impending or completed pathologic femoral-neck or femoral-head fracture when durable fixation is unlikely and acetabular replacement is not required.",
+    "Selection based on prefracture function, cognition, comorbidity, life expectancy, acetabular disease, and comparative risk of hemiarthroplasty versus total hip arthroplasty."
+  ],
   "setup_positioning": [
     "Hip Hemiarthroplasty (open_approach). Certified. Score 4. Source-backed from v3.",
     "Direct lateral (Hardinge): split IT band, split gluteus medius/vastus lateralis (limit proximal split to 3-5 cm above greater trochanter to protect superior gluteal nerve).",

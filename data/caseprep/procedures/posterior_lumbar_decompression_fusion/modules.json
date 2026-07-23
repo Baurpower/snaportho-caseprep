@@ -1,5 +1,9 @@
 {
-  "indications": [],
+  "indications": [
+    "Concordant lumbar radiculopathy or neurogenic claudication from neural compression that persists despite appropriate nonoperative care, when decompression is indicated and instability, deformity, spondylolisthesis, or expected iatrogenic instability independently supports fusion.",
+    "Progressive neurologic deficit or cauda-equina syndrome requiring urgent decompression, with fusion added only when a separate stability or reconstruction indication exists.",
+    "Axial back pain or stenosis without instability is not, by itself, an indication for fusion."
+  ],
   "setup_positioning": [
     "Posterior midline approach for lumbar decompression (laminectomy, foraminotomy, discectomy), nerve root exploration, and instrumented fusion (pedicle screws, interbody or posterolateral). Key anatomy: spinous processes, lamina, facet/pars, ligamentum flavum, traversing and exiting nerve roots, dura/cauda equina, and pedicle screw starting points (intersection of transverse process and facet). Level identification with iliac crest (L4-5) and fluoro is mandatory. Risks are primarily neural (dura, nerve roots) and vascular (epidural veins).",
     "Posterior midline exposure: incision over the spinous processes at the target level(s). Iliac crest highest point approximates L4-5 interspace (useful landmark). Incise lumbodorsal fascia to the spinous process tip, preserve the interspinous ligament if possible. Detach paraspinal muscles (erector spinae / multifidus) subperiosteally from the spinous process and lamina out to the facet joint and transverse process.",

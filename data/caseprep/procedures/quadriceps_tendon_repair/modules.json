@@ -1,5 +1,9 @@
 {
-  "indications": [],
+  "indications": [
+    "Complete quadriceps-tendon rupture with loss of extensor-mechanism continuity.",
+    "Large symptomatic partial tear or partial tear with tendon degeneration when functional deficit and patient goals favor repair.",
+    "Acute repair when surgery is indicated; chronic or retracted tears may require reconstruction or graft augmentation rather than simple repair."
+  ],
   "setup_positioning": [
     "Quadriceps Tendon Repair (soft_tissue_repair). Certified. Score 4. Source-backed from v3.",
     "Quadriceps tendon: 2-4 distinct layers (anterior rectus femoris, middle vastus medialis + vastus lateralis, deep vastus intermedius). Inserts on superior patella pole with retinacular expansions.",

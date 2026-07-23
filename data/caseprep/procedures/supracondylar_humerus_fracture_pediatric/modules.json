@@ -1,5 +1,9 @@
 {
-  "indications": [],
+  "indications": [
+    "Displaced pediatric supracondylar humerus fracture requiring reduction and percutaneous pin fixation to restore and maintain alignment.",
+    "Open or irreducible fracture, or fracture with vascular or nerve compromise requiring exploration, treated with open reduction as clinically appropriate.",
+    "Nondisplaced stable fractures are generally treated nonoperatively and are not routine pinning indications."
+  ],
   "setup_positioning": [
     "Extension-type (most common) supracondylar humerus fracture in children: posterior displacement of distal fragment. Closed reduction + percutaneous pinning (lateral or crossed). Key anatomy: distal humerus physis and capitellum (reduction landmarks via anterior humeral line and Baumann angle), brachial artery and median nerve (AIN) at risk with flexion-type or severely displaced, radial nerve (most common neuropraxia in extension type), ulnar nerve (at risk with medial pin). Pin trajectory critical: start lateral epicondyle, 30-40° cephalad on AP, slight anterior-lateral to center-center without anterior superior penetration (chondrolysis risk). Document all nerve function pre/post.",
     "Extension type most common (95+%); posterior displacement of distal fragment (Gartland classification based on displacement). Flexion type rarer, anterior displacement, often requires open reduction. Nerves: radial (most common in extension; document wrist and thumb extension), median (AIN branch with flexion-type or anterior displacement; document OK sign), ulnar (at risk with medial pin or flexion-type; document intrinsics and abductor digiti minimi).",

@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import json
+import hashlib
 import unittest
 
 from caseprep.services.registry_read_service import (
@@ -33,7 +34,7 @@ class RegistryReadServiceTests(unittest.TestCase):
         self.assertNotIn("certified_payload", serialized)
         self.assertNotIn("source_payload_hash", serialized)
         self.assertEqual(detail.slug, "tka")
-        self.assertTrue(detail.is_live)
+        self.assertFalse(detail.is_live)
         self.assertEqual(len(detail.sections), 11)
         self.assertEqual(detail.sections[0].key, "indications")
         self.assertEqual(detail.sections[0].label, "Indications")
@@ -61,9 +62,13 @@ class RegistryReadServiceTests(unittest.TestCase):
                 "content_status": "certified",
                 "review_status": "certified",
                 "deprecated": False,
+                "source_payload_hash": "",
             }
             self.assertFalse(compute_is_live(manifest, folder))
             (folder / "certified_payload.json").write_text("{}", encoding="utf-8")
+            manifest["source_payload_hash"] = hashlib.sha256(
+                json.dumps({}, sort_keys=True, ensure_ascii=False).encode("utf-8")
+            ).hexdigest()
             self.assertTrue(compute_is_live(manifest, folder))
 
 

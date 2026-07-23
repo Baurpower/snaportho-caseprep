@@ -1,5 +1,9 @@
 {
-  "indications": [],
+  "indications": [
+    "Acute distal-radius fracture in a non-geriatric adult with unacceptable post-reduction alignment, including radial shortening greater than 3 mm, dorsal tilt greater than 10 degrees, or intra-articular displacement or step-off greater than 2 mm.",
+    "Unstable, irreducible, open, articular-rim or shear, or fracture-dislocation pattern when acceptable alignment cannot be achieved or maintained nonoperatively.",
+    "Individualized geriatric indication after discussing that surgery does not improve long-term patient-reported outcomes over nonoperative treatment on average."
+  ],
   "setup_positioning": [
     "Distal Radius Fracture ORIF (open_approach). Certified. Score 4. Source-backed from v3.",
     "Distal radius responsible for 80% of axial load through wrist. Articulates with scaphoid via scaphoid fossa, lunate via lunate fossa, distal ulna via ulnar/sigm",
