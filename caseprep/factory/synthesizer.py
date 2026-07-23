@@ -108,16 +108,6 @@ def _pimp_from_facts(facts: List[SourcedClaim], sar: List[Dict[str, Any]], slug:
     return questions[:6]
 
 
-def _default_postop_protocol(display_name: str) -> List[str]:
-    return [
-        f"Weight-bearing: procedure-specific; confirm in attending preference and fixation/implant stability for {display_name}.",
-        "DVT prophylaxis: per institutional protocol unless contraindicated.",
-        "Activity restrictions: protect surgical repair; avoid premature loading or range of motion beyond protocol.",
-        "Watch for: wound complications, neurovascular change, increasing pain, fever, or loss of function.",
-        "Follow-up: routine wound check and early mobilization per service protocol.",
-    ]
-
-
 def _try_llm_synthesis(
     slug: str,
     display_name: str,
@@ -179,14 +169,8 @@ def synthesize_modules(
 
     pimp = _pimp_from_facts(knowledge.pimp_question_facts, sar, slug)
     postop = _claim_text(knowledge.postop_protocol, limit=6)
-    if not postop:
-        postop = _default_postop_protocol(display_name)
 
     indications = _claim_text(knowledge.indications, limit=5)
-    if not indications:
-        indications = [
-            f"Clinical indication for {display_name} per attending plan and documented diagnosis (source-linked indications pending)."
-        ]
 
     modules: Dict[str, Any] = {
         "indications": indications,

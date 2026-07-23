@@ -1,0 +1,20 @@
+{
+  "agent_run_id": "run-824e80bb02e2c7b0ab6157dd",
+  "agent_role": "complications_failure_reviewer",
+  "model": "deterministic-clinical-review-v1",
+  "prompt_version": "ctr-failure-v1",
+  "prompt_focus": "Persistent, recurrent, new symptoms, complications, and revision causes.",
+  "wave": 1,
+  "input_revision_id": "ctr-070608f91693",
+  "input_content_hash": "070608f91693f88653cc01ec10c96eec86f8e2946496fa9e3d22591983a2c403",
+  "started_at": "2026-07-16T21:41:41.089181+00:00",
+  "completed_at": "2026-07-16T21:41:41.089194+00:00",
+  "status": "completed",
+  "findings": [],
+  "usage": {
+    "input_tokens": null,
+    "output_tokens": null,
+    "cost_usd": null
+  },
+  "output_hash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+}

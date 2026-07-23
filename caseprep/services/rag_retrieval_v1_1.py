@@ -1,0 +1,314 @@
+"""Fast, bounded Pocket-Pimp-style retrieval for the web-only CasePrep v1.1 preview.
+
+The legacy retriever is deliberately untouched. This module creates one embedding,
+runs three scoped Pinecone queries concurrently, preserves native Q/A fields, and
+reranks/deduplicates before returning a small candidate set.
+"""
+
+from __future__ import annotations
+
+import hashlib
+import os
+import re
+import time
+from concurrent.futures import ThreadPoolExecutor, as_completed
+from typing import Any, Callable, Dict, Iterable, List, Optional, Sequence, Tuple
+
+BRANCH_TOP_K = 24
+MAX_RAW_CANDIDATES = BRANCH_TOP_K * 3
+MAX_FINAL_QAS = 15
+MIN_VECTOR_SCORE = 0.45
+POCKET_PIMP_SOURCE_COLLECTION = "pocket_pimped"
+
+
+def _clean(value: Any) -> str:
+    return re.sub(r"\s+", " ", str(value or "")).strip()
+
+
+def _slug(value: Any) -> str:
+    return re.sub(r"[^a-z0-9]+", "_", _clean(value).lower()).strip("_")
+
+
+def _strings(value: Any) -> List[str]:
+    if value is None:
+        return []
+    values = value if isinstance(value, list) else [value]
+    return [_slug(item) for item in values if _slug(item)]
+
+
+def normalize_query(refined: Any) -> Dict[str, Any]:
+    row = refined if isinstance(refined, dict) else {}
+    return {
+        "search_text": _clean(row.get("search_text") or row.get("raw_prompt") or refined),
+        "specialties": _strings(row.get("specialties") or row.get("specialty")),
+        "region": _slug(row.get("region")),
+        "subregion": _slug(row.get("subregion")),
+        "diagnoses": _strings(row.get("diagnoses") or row.get("diagnosis")),
+        "procedures": _strings(row.get("procedures") or row.get("procedure")),
+        "approaches": _strings(row.get("approaches") or row.get("approach")),
+    }
+
+
+def embedding_text(query: Dict[str, Any]) -> str:
+    anchors: List[str] = []
+    for key in ("procedures", "diagnoses", "approaches", "specialties"):
+        if query[key]:
+            anchors.append(f"{key}: {' '.join(query[key])}")
+    for key in ("region", "subregion"):
+        if query[key]:
+            anchors.append(f"{key}: {query[key]}")
+    return " | ".join([query["search_text"], *anchors]).strip(" |")
+
+
+def _and_filter(clauses: Sequence[Dict[str, Any]]) -> Optional[Dict[str, Any]]:
+    kept: List[Dict[str, Any]] = []
+    for clause in clauses:
+        if not clause:
+            continue
+        nested = clause.get("$and") if isinstance(clause, dict) else None
+        if isinstance(nested, list):
+            kept.extend(part for part in nested if isinstance(part, dict) and part)
+        else:
+            kept.append(clause)
+    if not kept:
+        return None
+    return kept[0] if len(kept) == 1 else {"$and": kept}
+
+
+def build_query_branches(query: Dict[str, Any]) -> List[Tuple[str, Optional[Dict[str, Any]]]]:
+    procedure = {"procedures": {"$in": query["procedures"]}} if query["procedures"] else {}
+    diagnosis = {"diagnoses": {"$in": query["diagnoses"]}} if query["diagnoses"] else {}
+    region = {"region": {"$eq": query["region"]}} if query["region"] else {}
+    subregion = {"subregion": {"$eq": query["subregion"]}} if query["subregion"] else {}
+    specialty = {"specialty": {"$in": query["specialties"]}} if query["specialties"] else {}
+    pocket_pimp = {
+        "$and": [
+            {"source_collection": {"$eq": POCKET_PIMP_SOURCE_COLLECTION}},
+            {"content_type": {"$eq": "qa"}},
+        ]
+    }
+    scoped = _and_filter([procedure, diagnosis, subregion, region, specialty])
+    proposed = [
+        ("pocket_pimped", _and_filter([pocket_pimp, scoped or region or specialty])),
+        ("exact_scope", _and_filter([procedure, diagnosis, subregion, region, specialty])),
+        ("procedure_focus", _and_filter([procedure, region])),
+        ("regional_backup", _and_filter([region, specialty])),
+    ]
+    if os.getenv("CASEPREP_POCKET_PIMP_METADATA_READY", "").lower() in {"1", "true", "yes", "on"}:
+        proposed = [
+            (name, _and_filter([pocket_pimp, filter_value]))
+            for name, filter_value in proposed[1:]
+        ]
+    branches: List[Tuple[str, Optional[Dict[str, Any]]]] = []
+    seen: set[str] = set()
+    for name, filter_value in proposed:
+        if filter_value is None:
+            continue
+        key = repr(filter_value)
+        if key not in seen:
+            seen.add(key)
+            branches.append((name, filter_value))
+    return branches or [("semantic_fallback", None)]
+
+
+def _response_matches(response: Any) -> Iterable[Any]:
+    if isinstance(response, dict):
+        return response.get("matches") or []
+    return getattr(response, "matches", None) or []
+
+
+def _as_dict(value: Any) -> Dict[str, Any]:
+    if isinstance(value, dict):
+        return value
+    if hasattr(value, "to_dict"):
+        return value.to_dict()
+    return {
+        "id": getattr(value, "id", None),
+        "score": getattr(value, "score", None),
+        "metadata": getattr(value, "metadata", None),
+    }
+
+
+def _qa_from_text(text: str) -> Tuple[str, str, str]:
+    match = re.search(
+        r"(?:^|\s)Q:\s*(.*?)\s+A:\s*(.*?)(?:\s+(?:Note|Specialty|Region|Subregion|Diagnosis|Procedure):|$)",
+        text,
+        flags=re.IGNORECASE,
+    )
+    if not match:
+        return "", "", ""
+    question = _clean(match.group(1))
+    answer = _clean(match.group(2))
+    note_match = re.search(r"\bNote:\s*(.*?)(?:\s+(?:Specialty|Region|Subregion|Diagnosis|Procedure):|$)", text, re.I)
+    return question, answer, _clean(note_match.group(1)) if note_match else ""
+
+
+def normalize_match(match: Any, branch: str) -> Optional[Dict[str, Any]]:
+    row = _as_dict(match)
+    metadata = row.get("metadata") if isinstance(row.get("metadata"), dict) else {}
+    score = float(row.get("score") or 0.0)
+    if score < MIN_VECTOR_SCORE:
+        return None
+    text = _clean(metadata.get("text") or metadata.get("fact") or row.get("text"))
+    parsed_q, parsed_a, parsed_note = _qa_from_text(text)
+    question = _clean(metadata.get("question") or parsed_q)
+    answer = _clean(metadata.get("answer") or parsed_a)
+    if not question or not answer:
+        return None
+    additional = _clean(metadata.get("additional_info") or metadata.get("note") or parsed_note)
+    record_id = _clean(row.get("id")) or hashlib.sha1(
+        f"{question}\0{answer}".encode("utf-8")
+    ).hexdigest()[:16]
+    source = _clean(metadata.get("source"))
+    source_collection = _slug(metadata.get("source_collection"))
+    if not source_collection and "pocketpimp" in _slug(source).replace("_", ""):
+        source_collection = POCKET_PIMP_SOURCE_COLLECTION
+    return {
+        "record_id": record_id,
+        "question": question,
+        "answer": answer,
+        "additional_info": additional,
+        "source": source,
+        "source_collection": source_collection,
+        "content_type": _slug(metadata.get("content_type")) or "qa",
+        "specialties": _strings(metadata.get("specialties") or metadata.get("specialty")),
+        "region": _slug(metadata.get("region")),
+        "subregion": _slug(metadata.get("subregion")),
+        "diagnoses": _strings(metadata.get("diagnoses") or metadata.get("diagnosis")),
+        "procedures": _strings(metadata.get("procedures") or metadata.get("procedure")),
+        "approaches": _strings(metadata.get("approaches") or metadata.get("approach")),
+        "vector_score": score,
+        "retrieval_branch": branch,
+    }
+
+
+def _overlap(expected: Sequence[str], actual: Sequence[str]) -> float:
+    if not expected or not actual:
+        return 0.0
+    return len(set(expected) & set(actual)) / max(1, len(set(expected)))
+
+
+def score_candidate(candidate: Dict[str, Any], query: Dict[str, Any]) -> float:
+    score = candidate["vector_score"] * 0.55
+    score += _overlap(query["procedures"], candidate["procedures"]) * 0.20
+    score += _overlap(query["diagnoses"], candidate["diagnoses"]) * 0.10
+    score += _overlap(query["approaches"], candidate["approaches"]) * 0.05
+    if query["region"] and candidate["region"] == query["region"]:
+        score += 0.07
+    if query["subregion"] and candidate["subregion"] == query["subregion"]:
+        score += 0.03
+    if candidate["retrieval_branch"] == "exact_scope":
+        score += 0.03
+    if candidate.get("source_collection") == POCKET_PIMP_SOURCE_COLLECTION:
+        score += 0.08
+    if candidate.get("content_type") == "qa":
+        score += 0.02
+    if len(candidate["answer"]) >= 3:
+        score += 0.02
+    return round(score, 6)
+
+
+def _question_tokens(question: str) -> set[str]:
+    stop = {"a", "an", "and", "are", "for", "in", "is", "of", "the", "to", "what", "which"}
+    return {token for token in re.findall(r"[a-z0-9]+", question.lower()) if token not in stop}
+
+
+def _near_duplicate(left: str, right: str) -> bool:
+    a, b = _question_tokens(left), _question_tokens(right)
+    if not a or not b:
+        return _slug(left) == _slug(right)
+    return len(a & b) / len(a | b) >= 0.78
+
+
+def rerank_and_dedupe(
+    candidates: Sequence[Dict[str, Any]], query: Dict[str, Any], limit: int = MAX_FINAL_QAS
+) -> List[Dict[str, Any]]:
+    ranked = []
+    for candidate in candidates:
+        item = dict(candidate)
+        item["retrieval_score"] = score_candidate(item, query)
+        ranked.append(item)
+    ranked.sort(key=lambda item: (item["retrieval_score"], item["vector_score"]), reverse=True)
+
+    selected: List[Dict[str, Any]] = []
+    seen_ids: set[str] = set()
+    for item in ranked:
+        if item["record_id"] in seen_ids:
+            continue
+        if any(_near_duplicate(item["question"], kept["question"]) for kept in selected):
+            continue
+        seen_ids.add(item["record_id"])
+        selected.append(item)
+        if len(selected) >= limit:
+            break
+    return selected
+
+
+def retrieve_case_qas(
+    refined: Any,
+    *,
+    embed_fn: Optional[Callable[[str], List[float]]] = None,
+    index_obj: Any = None,
+    top_k: int = BRANCH_TOP_K,
+    limit: int = MAX_FINAL_QAS,
+    diagnostics: Optional[Dict[str, Any]] = None,
+) -> List[Dict[str, Any]]:
+    query = normalize_query(refined)
+    if embed_fn is None or index_obj is None:
+        import vector_search
+
+        embed_fn = embed_fn or vector_search.embed_text
+        index_obj = index_obj or vector_search.index
+
+    embed_started = time.monotonic()
+    vector = embed_fn(embedding_text(query))
+    embed_ms = int((time.monotonic() - embed_started) * 1000)
+    branches = build_query_branches(query)
+
+    def run_branch(name: str, filter_value: Optional[Dict[str, Any]]) -> Tuple[str, Any]:
+        kwargs: Dict[str, Any] = {
+            "vector": vector,
+            "top_k": top_k,
+            "include_metadata": True,
+        }
+        if filter_value:
+            kwargs["filter"] = filter_value
+        return name, index_obj.query(**kwargs)
+
+    raw: List[Dict[str, Any]] = []
+    branch_counts: Dict[str, int] = {}
+    failed_branches: List[str] = []
+    query_started = time.monotonic()
+    with ThreadPoolExecutor(max_workers=len(branches)) as pool:
+        futures = {pool.submit(run_branch, name, filt): name for name, filt in branches}
+        for future in as_completed(futures):
+            try:
+                branch, response = future.result()
+            except Exception:
+                # One Pinecone branch must not discard successful sibling branches.
+                failed_branches.append(futures[future])
+                continue
+            branch_counts[branch] = 0
+            for match in _response_matches(response):
+                normalized = normalize_match(match, branch)
+                if normalized:
+                    raw.append(normalized)
+                    branch_counts[branch] += 1
+                if len(raw) >= top_k * len(branches):
+                    break
+    query_ms = int((time.monotonic() - query_started) * 1000)
+    selected = rerank_and_dedupe(raw, query, limit=limit)
+    if diagnostics is not None:
+        diagnostics.update(
+            {
+                "embedding_count": 1,
+                "embedding_ms": embed_ms,
+                "pinecone_query_ms": query_ms,
+                "branch_count": len(branches),
+                "branch_candidate_counts": branch_counts,
+                "failed_branches": sorted(failed_branches),
+                "raw_candidate_count": len(raw),
+                "selected_count": len(selected),
+            }
+        )
+    return selected

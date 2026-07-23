@@ -130,6 +130,58 @@ def resolve_procedure(prompt: str, openai_client: Optional[Any] = None) -> Dict[
     original = (prompt or "").strip()
     norm = _normalize(original)
 
+    # Carpal tunnel release is one canonical procedure with approach-specific
+    # branches. Generic requests require an explicit approach choice; explicit
+    # open/endoscopic requests retain that identity without creating web-owned
+    # pseudo-slugs.
+    if re.search(r"\b(carpal tunnel (release|surgery)|ctr)\b", norm):
+        requested_approach = None
+        entity_kind = "procedure"
+        requires_clarification = True
+        clarification_reason = (
+            "Choose open or endoscopic carpal tunnel release so approach-specific "
+            "preparation can be shown safely."
+        )
+        if "endoscopic" in norm:
+            requested_approach = "endoscopic"
+            entity_kind = "approach"
+            requires_clarification = False
+            clarification_reason = None
+        elif re.search(r"\b(open|mini open)\b", norm):
+            requested_approach = "open"
+            entity_kind = "approach"
+            requires_clarification = False
+            clarification_reason = None
+
+        return {
+            "raw_query": original,
+            "procedure_slug": "carpal_tunnel_release",
+            "canonical_display_name": "Carpal Tunnel Release",
+            "entity_kind": entity_kind,
+            "requested_approach": requested_approach,
+            "match_method": "alias" if norm in {"ctr", "carpal tunnel release"} else "contains",
+            "match_score": 100.0 if norm in {"ctr", "carpal tunnel release"} else 95.0,
+            "confidence": 1.0 if norm in {"ctr", "carpal tunnel release"} else 0.95,
+            "suggested_matches": [
+                {
+                    "slug": "carpal_tunnel_release",
+                    "name": "Open Carpal Tunnel Release",
+                    "entity_kind": "approach",
+                    "approach": "open",
+                    "confidence": 1.0,
+                },
+                {
+                    "slug": "carpal_tunnel_release",
+                    "name": "Endoscopic Carpal Tunnel Release",
+                    "entity_kind": "approach",
+                    "approach": "endoscopic",
+                    "confidence": 1.0,
+                },
+            ] if requires_clarification else [],
+            "requires_clarification": requires_clarification,
+            "clarification_reason": clarification_reason,
+        }
+
     print("ANATOMY INPUT:", original)
 
     match_method = "none"
@@ -151,12 +203,17 @@ def resolve_procedure(prompt: str, openai_client: Optional[Any] = None) -> Dict[
             print("MATCH SCORE:", match_score)
             print("CANONICAL PROCEDURE:", canonical_slug)
             return {
+                "raw_query": original,
                 "procedure_slug": canonical_slug,
                 "canonical_display_name": _get_display_for_slug(canonical_slug),
+                "entity_kind": "procedure",
+                "requested_approach": None,
                 "match_method": match_method,
                 "match_score": match_score,
                 "confidence": 1.0,
                 "suggested_matches": [],
+                "requires_clarification": False,
+                "clarification_reason": None,
             }
 
     # ---------------- Stage B: Contains Match (best match, not first) ----------------
@@ -178,12 +235,17 @@ def resolve_procedure(prompt: str, openai_client: Optional[Any] = None) -> Dict[
         print("MATCH SCORE:", match_score)
         print("CANONICAL PROCEDURE:", canonical_slug)
         return {
+            "raw_query": original,
             "procedure_slug": canonical_slug,
             "canonical_display_name": _get_display_for_slug(canonical_slug),
+            "entity_kind": "procedure",
+            "requested_approach": None,
             "match_method": match_method,
             "match_score": match_score,
             "confidence": 0.95,
             "suggested_matches": [],
+            "requires_clarification": False,
+            "clarification_reason": None,
         }
 
     # ---------------- Stage C: Fuzzy Match (rapidfuzz) ----------------
@@ -207,12 +269,17 @@ def resolve_procedure(prompt: str, openai_client: Optional[Any] = None) -> Dict[
             print("MATCH SCORE:", match_score)
             print("CANONICAL PROCEDURE:", canonical_slug)
             return {
+                "raw_query": original,
                 "procedure_slug": canonical_slug,
                 "canonical_display_name": _get_display_for_slug(canonical_slug),
+                "entity_kind": "procedure",
+                "requested_approach": None,
                 "match_method": match_method,
                 "match_score": match_score,
                 "confidence": min(1.0, best_score / 100.0),
                 "suggested_matches": [],
+                "requires_clarification": False,
+                "clarification_reason": None,
             }
 
     # ---------------- Stage D: GPT Fallback Classifier ----------------
@@ -269,12 +336,17 @@ def resolve_procedure(prompt: str, openai_client: Optional[Any] = None) -> Dict[
         print("MATCH SCORE:", match_score)
         print("CANONICAL PROCEDURE:", canonical_slug)
         return {
+            "raw_query": original,
             "procedure_slug": canonical_slug,
             "canonical_display_name": _get_display_for_slug(canonical_slug),
+            "entity_kind": "procedure",
+            "requested_approach": None,
             "match_method": match_method,
             "match_score": match_score,
             "confidence": gpt_conf,
             "suggested_matches": [],
+            "requires_clarification": False,
+            "clarification_reason": None,
         }
 
     # ---------------- No confident resolution ----------------
@@ -307,12 +379,17 @@ def resolve_procedure(prompt: str, openai_client: Optional[Any] = None) -> Dict[
                 suggested.append(dn)
 
     return {
+        "raw_query": original,
         "procedure_slug": None,
         "canonical_display_name": "",
+        "entity_kind": None,
+        "requested_approach": None,
         "match_method": "none",
         "match_score": 0.0,
         "confidence": 0.0,
         "suggested_matches": suggested,
+        "requires_clarification": False,
+        "clarification_reason": None,
     }
 
 

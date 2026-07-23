@@ -27,6 +27,7 @@ from registry_lib import (  # noqa: E402
     load_json,
     load_manifest,
     normalize_alias,
+    payload_hash,
     placeholder_hits,
     section_has_content,
 )
@@ -101,6 +102,15 @@ def main() -> int:
                 errors.append(f"{slug}: runtime_enabled certified has invalid payload JSON")
             elif not payload.get("procedure_id"):
                 errors.append(f"{slug}: payload missing procedure_id")
+            expected_hash = str(manifest.get("source_payload_hash") or "")
+            actual_hash = payload_hash(payload) if payload else ""
+            if not expected_hash:
+                errors.append(f"{slug}: runtime payload missing manifest source_payload_hash")
+            elif actual_hash != expected_hash:
+                errors.append(
+                    f"{slug}: runtime payload hash mismatch "
+                    f"(manifest={expected_hash}, actual={actual_hash})"
+                )
 
         aliases_obj = load_json(folder / "aliases.json", {}) or {}
         for raw in [manifest.get("display_name", "")] + list(

@@ -16,9 +16,14 @@ from openai import OpenAI
 from caseprep.api.routes.registry import router as registry_router
 from caseprep.api.routes.factory import router as factory_router
 from caseprep.config import APPROACH_CATALOG_PATHS, CasePrepConfig
-from caseprep.schemas import CasePrepRequest
-from caseprep.engines import v1_legacy, v2_curated
+from caseprep.schemas import CasePrepRequest, PinnedCasePrepFollowupRequest
+from caseprep.engines import v1_1_web, v1_legacy, v2_curated
 from caseprep.services import curated_content_store, rag_context, procedure_resolver
+from caseprep.services.pinned_caseprep import (
+    PinnedCasePrepError,
+    answer_from_pinned_revision,
+)
+from fastapi import HTTPException
 
 # ── Legacy /anatomy experimental path (NOT used by CasePrep v1) ─────────────
 ENABLE_LOCAL_ANATOMY_RAG = os.getenv("ENABLE_LOCAL_ANATOMY_RAG", "").lower() in (
@@ -61,11 +66,13 @@ def _startup():
     for p in APPROACH_CATALOG_PATHS:
         print(f"   - {p}")
 
-    OPENAI_CLIENT = OpenAI(
-        api_key=os.getenv("OPENAI_API_KEY"),
-        project=os.getenv("OPENAI_PROJECT_ID"),
+    api_key = os.getenv("OPENAI_API_KEY")
+    OPENAI_CLIENT = (
+        OpenAI(api_key=api_key, project=os.getenv("OPENAI_PROJECT_ID"))
+        if api_key
+        else None
     )
-    print("✅ OpenAI client initialized")
+    print("✅ OpenAI client initialized" if OPENAI_CLIENT else "ℹ️ Curated-only startup: OpenAI disabled")
 
     # Warm curated store for /health (non-fatal if missing)
     curated_content_store.store_status()
@@ -96,6 +103,7 @@ def health():
         "enable_caseprep_v2": cfg.enable_v2,
         "enable_caseprep_v2_ai_fallback": cfg.enable_v2_ai_fallback,
         "enable_caseprep_v2_rag_fallback": cfg.enable_v2_rag_fallback,
+        "enable_caseprep_web_v1_1": cfg.enable_web_v1_1,
         "rag_available": rag_context.is_rag_available(),
         "resolver_available": procedure_resolver.is_resolver_available(),
         "curated_store": store,
@@ -137,12 +145,76 @@ async def case_prep(request: CasePrepRequest):
 @app.post("/case-prep/v2")
 async def case_prep_v2(request: CasePrepRequest):
     prompt = (request.prompt or "").strip()
+    env_config = CasePrepConfig.from_env()
+    # The dedicated route is itself the explicit opt-in. It must not depend on
+    # CASEPREP_DEFAULT_VERSION or silently downgrade to V1.
+    explicit_v2_config = CasePrepConfig(
+        default_version=env_config.default_version,
+        enable_v2=True,
+        enable_v2_ai_fallback=env_config.enable_v2_ai_fallback,
+        enable_v2_rag_fallback=env_config.enable_v2_rag_fallback,
+        enable_web_v1_1=env_config.enable_web_v1_1,
+    )
     return await v2_curated.run_caseprep_v2(
         prompt,
         catalog=CATALOG,
         openai_client=OPENAI_CLIENT,
-        config=CasePrepConfig.from_env(),
+        config=explicit_v2_config,
+        event_context=request.model_dump(
+            include={
+                "user_id",
+                "anonymous_session_id",
+                "training_level",
+                "entry_surface",
+                "conversation_id",
+                "case_prep_session_id",
+            }
+        ),
     )
+
+
+@app.post("/case-prep/web/v1.1")
+async def case_prep_web_v1_1(request: CasePrepRequest):
+    """Explicit website-only preview; legacy /case-prep never dispatches here."""
+    cfg = CasePrepConfig.from_env()
+    if not cfg.enable_web_v1_1:
+        raise HTTPException(status_code=404, detail="CasePrep web v1.1 is not enabled.")
+    return await v1_1_web.run_caseprep_web_v1_1(
+        (request.prompt or "").strip(),
+        catalog=CATALOG,
+        openai_client=OPENAI_CLIENT,
+    )
+
+
+@app.post("/case-prep/v2/follow-up")
+async def case_prep_v2_follow_up(request: PinnedCasePrepFollowupRequest):
+    if request.canonical_slug != "carpal_tunnel_release":
+        raise HTTPException(
+            status_code=409,
+            detail="Changing cases requires an explicit new Case Prep session.",
+        )
+    try:
+        result = await run_in_threadpool(
+            answer_from_pinned_revision,
+            slug=request.canonical_slug,
+            revision_id=request.revision_id,
+            payload_hash=request.payload_hash,
+            question=request.question,
+            current_section=request.current_section,
+        )
+    except PinnedCasePrepError as exc:
+        raise HTTPException(status_code=409, detail=str(exc)) from exc
+    return {
+        "caseprep_version": "v2",
+        "mode": "pinned_case_prep_follow_up",
+        "case_prep_session_id": request.case_prep_session_id,
+        "canonical_slug": request.canonical_slug,
+        "canonical_name": request.canonical_name,
+        "approach_identity": request.approach_identity,
+        "revision_id": request.revision_id,
+        "payload_hash": request.payload_hash,
+        **result,
+    }
 
 
 # ── /anatomy: legacy by default; experimental hybrid only when flag set ───────

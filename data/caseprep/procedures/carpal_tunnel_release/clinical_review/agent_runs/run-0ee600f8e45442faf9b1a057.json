@@ -1,0 +1,20 @@
+{
+  "agent_run_id": "run-0ee600f8e45442faf9b1a057",
+  "agent_role": "cross_section_consistency_reviewer",
+  "model": "deterministic-clinical-review-v1",
+  "prompt_version": "ctr-consistency-v1",
+  "prompt_focus": "Compare identity, anatomy, approaches, steps, risks, questions, and postoperative care.",
+  "wave": 2,
+  "input_revision_id": "ctr-d7f16e444666",
+  "input_content_hash": "d7f16e44466600c03434ea790337e4bea4dccd306326e9c6bd7b641c55464a06",
+  "started_at": "2026-07-16T21:41:41.090922+00:00",
+  "completed_at": "2026-07-16T21:41:41.090945+00:00",
+  "status": "completed",
+  "findings": [],
+  "usage": {
+    "input_tokens": null,
+    "output_tokens": null,
+    "cost_usd": null
+  },
+  "output_hash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+}

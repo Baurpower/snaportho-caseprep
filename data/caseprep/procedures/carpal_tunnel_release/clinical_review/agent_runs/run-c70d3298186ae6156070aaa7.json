@@ -1,0 +1,33 @@
+{
+  "agent_run_id": "run-c70d3298186ae6156070aaa7",
+  "agent_role": "adversarial_hallucination_reviewer",
+  "model": "deterministic-clinical-review-v1",
+  "prompt_version": "ctr-adversarial-v1",
+  "prompt_focus": "Actively search for false certainty, thresholds, contradictions, and contamination.",
+  "wave": 1,
+  "input_revision_id": "ctr-070608f91693",
+  "input_content_hash": "070608f91693f88653cc01ec10c96eec86f8e2946496fa9e3d22591983a2c403",
+  "started_at": "2026-07-16T21:41:41.086063+00:00",
+  "completed_at": "2026-07-16T21:41:41.086549+00:00",
+  "status": "completed",
+  "findings": [
+    {
+      "finding_id": "finding-278f8966f447fdca",
+      "reviewer_role": "adversarial_hallucination_reviewer",
+      "section_id": "postoperative_expectations",
+      "claim_text": null,
+      "category": "unsupported",
+      "severity": "high",
+      "explanation": "The section includes a universal numerical instruction without an evidence binding.",
+      "proposed_correction": "Remove the number or qualify it and request targeted evidence review.",
+      "requires_human_review": true,
+      "confidence": 0.9
+    }
+  ],
+  "usage": {
+    "input_tokens": null,
+    "output_tokens": null,
+    "cost_usd": null
+  },
+  "output_hash": "70f1df0d57e0f6cd91c47936a356824c345f23c58d46ebca909f56ade48c5a4c"
+}

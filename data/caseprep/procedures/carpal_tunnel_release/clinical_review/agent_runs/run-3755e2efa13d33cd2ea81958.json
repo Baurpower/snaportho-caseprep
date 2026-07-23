@@ -1,0 +1,20 @@
+{
+  "agent_run_id": "run-3755e2efa13d33cd2ea81958",
+  "agent_role": "adversarial_hallucination_reviewer",
+  "model": "deterministic-clinical-review-v1",
+  "prompt_version": "ctr-adversarial-v1",
+  "prompt_focus": "Actively search for false certainty, thresholds, contradictions, and contamination.",
+  "wave": 2,
+  "input_revision_id": "ctr-d7f16e444666",
+  "input_content_hash": "d7f16e44466600c03434ea790337e4bea4dccd306326e9c6bd7b641c55464a06",
+  "started_at": "2026-07-16T21:45:29.320786+00:00",
+  "completed_at": "2026-07-16T21:45:29.321292+00:00",
+  "status": "completed",
+  "findings": [],
+  "usage": {
+    "input_tokens": null,
+    "output_tokens": null,
+    "cost_usd": null
+  },
+  "output_hash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+}

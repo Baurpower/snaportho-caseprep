@@ -1,0 +1,33 @@
+{
+  "agent_run_id": "run-0b9904db747ab89d0d56baf3",
+  "agent_role": "postoperative_care_reviewer",
+  "model": "deterministic-clinical-review-v1",
+  "prompt_version": "ctr-postop-v1",
+  "prompt_focus": "Actual postoperative care and preference-sensitive restrictions.",
+  "wave": 1,
+  "input_revision_id": "ctr-070608f91693",
+  "input_content_hash": "070608f91693f88653cc01ec10c96eec86f8e2946496fa9e3d22591983a2c403",
+  "started_at": "2026-07-16T21:41:41.087251+00:00",
+  "completed_at": "2026-07-16T21:41:41.087275+00:00",
+  "status": "completed",
+  "findings": [
+    {
+      "finding_id": "finding-1e975058303155b2",
+      "reviewer_role": "postoperative_care_reviewer",
+      "section_id": "postoperative_expectations",
+      "claim_text": null,
+      "category": "preference_sensitive",
+      "severity": "moderate",
+      "explanation": "Postoperative restrictions are presented without clearly labeling surgeon and patient variability.",
+      "proposed_correction": "Qualify splinting, lifting, wrist motion, and return-to-work guidance as individualized.",
+      "requires_human_review": true,
+      "confidence": 0.9
+    }
+  ],
+  "usage": {
+    "input_tokens": null,
+    "output_tokens": null,
+    "cost_usd": null
+  },
+  "output_hash": "eed53bc504879fa4b4fced0803d54ab92bc852b91444fb06d6e16b0e95bb3910"
+}

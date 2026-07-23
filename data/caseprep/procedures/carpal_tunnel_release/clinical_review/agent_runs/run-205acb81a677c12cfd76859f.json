@@ -1,0 +1,20 @@
+{
+  "agent_run_id": "run-205acb81a677c12cfd76859f",
+  "agent_role": "educational_value_reviewer",
+  "model": "deterministic-clinical-review-v1",
+  "prompt_version": "ctr-education-v1",
+  "prompt_focus": "Tomorrow-case usefulness for a supervised learner.",
+  "wave": 2,
+  "input_revision_id": "ctr-d7f16e444666",
+  "input_content_hash": "d7f16e44466600c03434ea790337e4bea4dccd306326e9c6bd7b641c55464a06",
+  "started_at": "2026-07-16T21:41:41.091912+00:00",
+  "completed_at": "2026-07-16T21:41:41.091920+00:00",
+  "status": "completed",
+  "findings": [],
+  "usage": {
+    "input_tokens": null,
+    "output_tokens": null,
+    "cost_usd": null
+  },
+  "output_hash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+}

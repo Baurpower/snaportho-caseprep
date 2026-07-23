@@ -1,0 +1,20 @@
+{
+  "agent_run_id": "run-e31f2d43a323884e32dd64c8",
+  "agent_role": "hand_surgery_content_reviewer",
+  "model": "deterministic-clinical-review-v1",
+  "prompt_version": "ctr-hand-v1",
+  "prompt_focus": "Hand anatomy, approaches, incomplete release, and omissions.",
+  "wave": 1,
+  "input_revision_id": "ctr-070608f91693",
+  "input_content_hash": "070608f91693f88653cc01ec10c96eec86f8e2946496fa9e3d22591983a2c403",
+  "started_at": "2026-07-16T21:42:27.153080+00:00",
+  "completed_at": "2026-07-16T21:42:27.153197+00:00",
+  "status": "completed",
+  "findings": [],
+  "usage": {
+    "input_tokens": null,
+    "output_tokens": null,
+    "cost_usd": null
+  },
+  "output_hash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+}

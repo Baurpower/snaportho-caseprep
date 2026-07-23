@@ -1,0 +1,165 @@
+{
+  "procedure_slug": "carpal_tunnel_release",
+  "status": "human_review_required",
+  "initial_revision_id": "ctr-070608f91693",
+  "final_proposed_revision_id": "ctr-d7f16e444666",
+  "final_content_hash": "d7f16e44466600c03434ea790337e4bea4dccd306326e9c6bd7b641c55464a06",
+  "section_hashes": {
+    "after_case_review": "45ca3657b40addca96af8e21e19b8522f4485ab19bb361c6604e851c6307e379",
+    "anatomy": "74a237f74248db4d1a6ef805bea63a041ee81a10ca94b61f270daf6191f21a31",
+    "attending_questions": "b37536fda5920df122b735b7cd6867f8137a0d1dcf0c68b104a6803f26ffdef2",
+    "complications_failure_analysis": "437fdf636a21243e6a3caf345995fa4743689de86a8d79b9c600304fd05b5c3c",
+    "decision_points_bailouts": "c8750895550aea1672f30a392aab6d16d445b4de599b6df00a435b726b187861",
+    "endoscopic_approach": "66d7882e96223b926a308ab2d47f59350105288fad6d489a4cb9706b67eb0e6d",
+    "identity_scope": "e6815e489cb8c60d34e4dff82e47c162cb3ccd797e76b6477d4219dde6a233a3",
+    "indications_diagnostic": "fcf698aa0733a9a3c4a7a293a43c9b6d9a2f3441dec4ac27090c7817e1176cd9",
+    "open_approach": "d47f4bb7be06bcc7020ccd4256e1c4c628da90f26be2f97482d94b3472a88fa1",
+    "operative_objective": "51413e598047746d5ab1b49d3e3a3fbbb09316d0b67bd298c9fe4bece249d54d",
+    "pitfalls": "aed5c9289da2b4c1a0c5d5771704e3c093c292db28886e0be6812be525bf82d0",
+    "postoperative_expectations": "cc1c49a6ed412c2d28d17504947a518fa230951d1c912bde1a5d67c3cdc7c979",
+    "procedure_sequence": "6aea644ab9df72e2ee9ab19e23ae6bdf8a3fdbc860184a63789d22af9892a627",
+    "resident_responsibilities": "4063cc9c6235ae3832d53a0813b51377abf85f19a960a4ef87eccdc7dccf68bd",
+    "setup_positioning": "0f3ea8f1a834d00f92c4b1f87a2897b4be375a433d510c826ccba053c12b810c",
+    "structures_at_risk": "5052ea696694dda08ba717b0b499e2e4da8db8ba32136032b4a34abf8fc7706b",
+    "things_to_say_or_ask": "7a13967e2403648c70ca75d648619aedd7228cb000b26cb23d528eca8bc9ffc7"
+  },
+  "wave_1": {
+    "agent_runs": [
+      "run-c0bc5ccbd8a3bfbc59ebe5e9",
+      "run-0617b678714deb282c3aa9ae",
+      "run-165d617a5588cb4be40fa35d",
+      "run-a80bd0ffffd30da876696506",
+      "run-b5f39230d57d762d5575306b",
+      "run-305b978303428e5f2f44f4a6",
+      "run-e2d7cc231cc1928f73420a79",
+      "run-9a6527393c8a92b9637e38c0"
+    ],
+    "finding_count": 3,
+    "findings": [
+      {
+        "finding_id": "finding-278f8966f447fdca",
+        "reviewer_role": "adversarial_hallucination_reviewer",
+        "section_id": "postoperative_expectations",
+        "claim_text": null,
+        "category": "unsupported",
+        "severity": "high",
+        "explanation": "The section includes a universal numerical instruction without an evidence binding.",
+        "proposed_correction": "Remove the number or qualify it and request targeted evidence review.",
+        "requires_human_review": true,
+        "confidence": 0.9
+      },
+      {
+        "finding_id": "finding-1e975058303155b2",
+        "reviewer_role": "postoperative_care_reviewer",
+        "section_id": "postoperative_expectations",
+        "claim_text": null,
+        "category": "preference_sensitive",
+        "severity": "moderate",
+        "explanation": "Postoperative restrictions are presented without clearly labeling surgeon and patient variability.",
+        "proposed_correction": "Qualify splinting, lifting, wrist motion, and return-to-work guidance as individualized.",
+        "requires_human_review": true,
+        "confidence": 0.9
+      },
+      {
+        "finding_id": "finding-de295e5dc8296fd3",
+        "reviewer_role": "educational_value_reviewer",
+        "section_id": "things_to_say_or_ask",
+        "claim_text": null,
+        "category": "educational_gap",
+        "severity": "moderate",
+        "explanation": "The learner-facing prompts are too sparse to support practical participation in tomorrow's case.",
+        "proposed_correction": "Add natural prompts about approach, tourniquet, variant anatomy, release endpoint, closure, and restrictions.",
+        "requires_human_review": false,
+        "confidence": 0.9
+      }
+    ]
+  },
+  "reconciliation": {
+    "from_revision": "ctr-070608f91693",
+    "to_revision": "ctr-d7f16e444666",
+    "dispositions": [
+      {
+        "finding_id": "finding-278f8966f447fdca",
+        "disposition": "accepted_with_qualification",
+        "rationale": "Revision 2 incorporates the proposed correction and preserves patient- and surgeon-specific qualification.",
+        "resolved_in_revision": "ctr-d7f16e444666"
+      },
+      {
+        "finding_id": "finding-1e975058303155b2",
+        "disposition": "preference_sensitive",
+        "rationale": "Revision 2 incorporates the proposed correction and preserves patient- and surgeon-specific qualification.",
+        "resolved_in_revision": "ctr-d7f16e444666"
+      },
+      {
+        "finding_id": "finding-de295e5dc8296fd3",
+        "disposition": "accepted_with_qualification",
+        "rationale": "Revision 2 incorporates the proposed correction and preserves patient- and surgeon-specific qualification.",
+        "resolved_in_revision": "ctr-d7f16e444666"
+      }
+    ]
+  },
+  "wave_2": {
+    "agent_runs": [
+      "run-04955ac4687325aec1ebe22a",
+      "run-8498fb5364840acccefcdc89",
+      "run-3755e2efa13d33cd2ea81958",
+      "run-79926e61756a9f529c1552b1",
+      "run-a9546b9b3c716ce86ddcb58f"
+    ],
+    "finding_count": 0,
+    "findings": []
+  },
+  "deterministic_qa": {
+    "revision_id": "ctr-d7f16e444666",
+    "content_hash": "d7f16e44466600c03434ea790337e4bea4dccd306326e9c6bd7b641c55464a06",
+    "checked_at": "2026-07-16T21:45:29.324086+00:00",
+    "dimensions": {
+      "clinical_correctness": "human_review_required",
+      "anatomic_correctness": "pass",
+      "operative_coherence": "pass",
+      "risk_coverage": "pass",
+      "complication_coverage": "pass",
+      "postoperative_usefulness": "pass",
+      "educational_usefulness": "pass",
+      "internal_consistency": "pass",
+      "approach_separation": "pass",
+      "uncertainty_handling": "pass"
+    },
+    "failures": [],
+    "warnings": [],
+    "passed": true,
+    "duplicate_review_output_groups": []
+  },
+  "certification_readiness": {
+    "eligible": false,
+    "revision_id": "ctr-d7f16e444666",
+    "content_hash": "d7f16e44466600c03434ea790337e4bea4dccd306326e9c6bd7b641c55464a06",
+    "section_hashes": {
+      "after_case_review": "45ca3657b40addca96af8e21e19b8522f4485ab19bb361c6604e851c6307e379",
+      "anatomy": "74a237f74248db4d1a6ef805bea63a041ee81a10ca94b61f270daf6191f21a31",
+      "attending_questions": "b37536fda5920df122b735b7cd6867f8137a0d1dcf0c68b104a6803f26ffdef2",
+      "complications_failure_analysis": "437fdf636a21243e6a3caf345995fa4743689de86a8d79b9c600304fd05b5c3c",
+      "decision_points_bailouts": "c8750895550aea1672f30a392aab6d16d445b4de599b6df00a435b726b187861",
+      "endoscopic_approach": "66d7882e96223b926a308ab2d47f59350105288fad6d489a4cb9706b67eb0e6d",
+      "identity_scope": "e6815e489cb8c60d34e4dff82e47c162cb3ccd797e76b6477d4219dde6a233a3",
+      "indications_diagnostic": "fcf698aa0733a9a3c4a7a293a43c9b6d9a2f3441dec4ac27090c7817e1176cd9",
+      "open_approach": "d47f4bb7be06bcc7020ccd4256e1c4c628da90f26be2f97482d94b3472a88fa1",
+      "operative_objective": "51413e598047746d5ab1b49d3e3a3fbbb09316d0b67bd298c9fe4bece249d54d",
+      "pitfalls": "aed5c9289da2b4c1a0c5d5771704e3c093c292db28886e0be6812be525bf82d0",
+      "postoperative_expectations": "cc1c49a6ed412c2d28d17504947a518fa230951d1c912bde1a5d67c3cdc7c979",
+      "procedure_sequence": "6aea644ab9df72e2ee9ab19e23ae6bdf8a3fdbc860184a63789d22af9892a627",
+      "resident_responsibilities": "4063cc9c6235ae3832d53a0813b51377abf85f19a960a4ef87eccdc7dccf68bd",
+      "setup_positioning": "0f3ea8f1a834d00f92c4b1f87a2897b4be375a433d510c826ccba053c12b810c",
+      "structures_at_risk": "5052ea696694dda08ba717b0b499e2e4da8db8ba32136032b4a34abf8fc7706b",
+      "things_to_say_or_ask": "7a13967e2403648c70ca75d648619aedd7228cb000b26cb23d528eca8bc9ffc7"
+    },
+    "reasons": [
+      "no current hash-bound human approval"
+    ]
+  },
+  "human_review": {
+    "decision": null,
+    "required": true,
+    "instructions": "An authorized attending must approve, request changes, or reject against the exact section hashes."
+  }
+}

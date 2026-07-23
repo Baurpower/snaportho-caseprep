@@ -1,0 +1,33 @@
+{
+  "agent_run_id": "run-e2d7cc231cc1928f73420a79",
+  "agent_role": "educational_value_reviewer",
+  "model": "deterministic-clinical-review-v1",
+  "prompt_version": "ctr-education-v1",
+  "prompt_focus": "Tomorrow-case usefulness for a supervised learner.",
+  "wave": 1,
+  "input_revision_id": "ctr-070608f91693",
+  "input_content_hash": "070608f91693f88653cc01ec10c96eec86f8e2946496fa9e3d22591983a2c403",
+  "started_at": "2026-07-16T21:45:29.316883+00:00",
+  "completed_at": "2026-07-16T21:45:29.316899+00:00",
+  "status": "completed",
+  "findings": [
+    {
+      "finding_id": "finding-de295e5dc8296fd3",
+      "reviewer_role": "educational_value_reviewer",
+      "section_id": "things_to_say_or_ask",
+      "claim_text": null,
+      "category": "educational_gap",
+      "severity": "moderate",
+      "explanation": "The learner-facing prompts are too sparse to support practical participation in tomorrow's case.",
+      "proposed_correction": "Add natural prompts about approach, tourniquet, variant anatomy, release endpoint, closure, and restrictions.",
+      "requires_human_review": false,
+      "confidence": 0.9
+    }
+  ],
+  "usage": {
+    "input_tokens": null,
+    "output_tokens": null,
+    "cost_usd": null
+  },
+  "output_hash": "2e3a12783a46442756d597c25f8302ee3c9901d7f4a4b60f20852aaccd07af9b"
+}

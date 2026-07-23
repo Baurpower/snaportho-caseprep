@@ -1,0 +1,383 @@
+# Carpal Tunnel Release — Human Reviewer Packet
+
+- Final proposed revision: `ctr-d7f16e444666`
+- Content hash: `d7f16e44466600c03434ea790337e4bea4dccd306326e9c6bd7b641c55464a06`
+- Approach scope: shared core, open branch, and non-device-specific endoscopic branch
+- Automated disposition: deterministic QA passed; publication blocked pending authorized human approval
+
+## High-risk findings discovered and resolved
+
+- Removed a universal two-week return-to-work instruction after adversarial review identified it as unsupported.
+- Qualified splinting, wrist motion, lifting, and return-to-work practices as patient- and surgeon-dependent.
+- Added practical learner prompts for variant anatomy, closure, and postoperative restrictions.
+
+## Preference-sensitive items for attending review
+
+- Incision or portal selection, anesthesia, tourniquet use, and endoscopic system.
+- Wrist motion, splint use, lifting progression, therapy, and return to work.
+- How proximal and distal completion are confirmed for the chosen approach.
+
+## Questions requiring human judgment
+
+- Is every anatomic relationship and release endpoint clinically accurate?
+- Are open and endoscopic branches appropriately separated without device-specific overreach?
+- Are postoperative expectations safe and sufficiently qualified?
+- Is any important indication, complication, or bailout missing?
+
+## Section hashes
+
+- `after_case_review`: `45ca3657b40addca96af8e21e19b8522f4485ab19bb361c6604e851c6307e379`
+- `anatomy`: `74a237f74248db4d1a6ef805bea63a041ee81a10ca94b61f270daf6191f21a31`
+- `attending_questions`: `b37536fda5920df122b735b7cd6867f8137a0d1dcf0c68b104a6803f26ffdef2`
+- `complications_failure_analysis`: `437fdf636a21243e6a3caf345995fa4743689de86a8d79b9c600304fd05b5c3c`
+- `decision_points_bailouts`: `c8750895550aea1672f30a392aab6d16d445b4de599b6df00a435b726b187861`
+- `endoscopic_approach`: `66d7882e96223b926a308ab2d47f59350105288fad6d489a4cb9706b67eb0e6d`
+- `identity_scope`: `e6815e489cb8c60d34e4dff82e47c162cb3ccd797e76b6477d4219dde6a233a3`
+- `indications_diagnostic`: `fcf698aa0733a9a3c4a7a293a43c9b6d9a2f3441dec4ac27090c7817e1176cd9`
+- `open_approach`: `d47f4bb7be06bcc7020ccd4256e1c4c628da90f26be2f97482d94b3472a88fa1`
+- `operative_objective`: `51413e598047746d5ab1b49d3e3a3fbbb09316d0b67bd298c9fe4bece249d54d`
+- `pitfalls`: `aed5c9289da2b4c1a0c5d5771704e3c093c292db28886e0be6812be525bf82d0`
+- `postoperative_expectations`: `cc1c49a6ed412c2d28d17504947a518fa230951d1c912bde1a5d67c3cdc7c979`
+- `procedure_sequence`: `6aea644ab9df72e2ee9ab19e23ae6bdf8a3fdbc860184a63789d22af9892a627`
+- `resident_responsibilities`: `4063cc9c6235ae3832d53a0813b51377abf85f19a960a4ef87eccdc7dccf68bd`
+- `setup_positioning`: `0f3ea8f1a834d00f92c4b1f87a2897b4be375a433d510c826ccba053c12b810c`
+- `structures_at_risk`: `5052ea696694dda08ba717b0b499e2e4da8db8ba32136032b4a34abf8fc7706b`
+- `things_to_say_or_ask`: `7a13967e2403648c70ca75d648619aedd7228cb000b26cb23d528eca8bc9ffc7`
+
+## Final proposed content
+
+### Identity Scope
+
+```json
+[
+  "Carpal tunnel release decompresses the median nerve by completely dividing the transverse carpal ligament.",
+  "This document separates open and endoscopic branches; device-specific endoscopic steps are intentionally excluded.",
+  "Incision, portal, anesthesia, tourniquet, splinting, and activity practices vary by surgeon, system, and patient."
+]
+```
+
+### Operative Objective
+
+```json
+[
+  "Achieve complete proximal-to-distal release of the transverse carpal ligament and any constricting distal forearm fascia selected by the supervising surgeon.",
+  "Preserve the median nerve and its branches, superficial palmar arch, ulnar neurovascular structures, and flexor tendons.",
+  "Confirm that no residual ligament fibers remain at either endpoint without aggressively manipulating the median nerve."
+]
+```
+
+### Indications Diagnostic
+
+```json
+[
+  "Consider surgery for clinically concordant symptoms that persist despite appropriate nonoperative care, or for progressive weakness, thenar change, or severe neurologic dysfunction.",
+  "Electrodiagnostic testing can support diagnosis, grade nerve dysfunction, or evaluate atypical presentations; it is not a universal numerical gate for surgery.",
+  "Reconsider cervical radiculopathy, proximal median neuropathy, peripheral neuropathy, mass, inflammatory tenosynovitis, or another diagnosis when the history and examination are discordant.",
+  "Acute median nerve dysfunction is a different clinical context and requires diagnosis-specific urgency rather than routine elective assumptions.",
+  "Delay or modify elective surgery when infection, uncontrolled medical risk, uncertain diagnosis, or inability to follow postoperative care makes the risk-benefit balance unfavorable."
+]
+```
+
+### Anatomy
+
+```json
+[
+  "The transverse carpal ligament forms the roof of the carpal tunnel, attaching radially near the scaphoid tubercle and trapezial ridge and ulnarly near the pisiform and hook of hamate.",
+  "The median nerve lies deep to the ligament with nine flexor tendons; synovium or a mass may alter expected relationships.",
+  "The recurrent motor branch usually arises near the distal tunnel but may be extraligamentous, subligamentous, or transligamentous; variation increases risk during distal release.",
+  "The palmar cutaneous branch arises proximal to the tunnel and travels superficial to the flexor retinaculum, making it vulnerable during superficial exposure despite sparing in classic carpal tunnel syndrome.",
+  "The superficial palmar arch lies distal to the ligament and is threatened by uncontrolled distal dissection.",
+  "Guyon canal and the ulnar neurovascular bundle are ulnar and superficial to the transverse carpal ligament; orientation prevents entry into the wrong canal."
+]
+```
+
+### Setup Positioning
+
+```json
+[
+  "Position the patient supine with the arm supported on a hand table and the hand accessible to the supervising surgeon.",
+  "Confirm laterality, planned approach, anesthesia plan, and whether a tourniquet will be used.",
+  "Prepare and drape to permit exposure of the distal forearm and hand if extension or conversion becomes necessary.",
+  "General equipment includes fine hand instruments, controlled ligament-release instrumentation, lighting or magnification per preference, and the selected endoscopic system only for the endoscopic branch."
+]
+```
+
+### Open Approach
+
+```json
+[
+  "Confirm the supervising surgeon's incision relative to the thenar and hypothenar landmarks and avoid crossing sensitive skin creases unnecessarily.",
+  "Develop the superficial exposure through skin, subcutaneous tissue, and palmar fascia while protecting cutaneous branches.",
+  "Identify the transverse carpal ligament directly before dividing it; remain oriented to the median nerve deep to the ligament and Guyon canal ulnarly.",
+  "Release the ligament under controlled visualization toward the distal and proximal endpoints, adjusting direction when anatomy is uncertain.",
+  "Inspect or palpate both endpoints for residual constricting fibers without routine aggressive neurolysis."
+]
+```
+
+### Endoscopic Approach
+
+```json
+[
+  "Use the portal and trajectory specified by the selected system and supervising surgeon; this document does not substitute for device training.",
+  "Establish an unobstructed view of the undersurface of the transverse carpal ligament before activating a cutting element.",
+  "Do not proceed when synovium, bleeding, anomalous anatomy, or inadequate visualization prevents confident identification of the ligament.",
+  "Maintain awareness that the median nerve and flexor tendons are deep and the superficial palmar arch is distal.",
+  "Confirm complete release according to the system's visualization method; stop and convert to open when safe completion cannot be demonstrated."
+]
+```
+
+### Procedure Sequence
+
+```json
+{
+  "open": [
+    "Confirm indication, laterality, approach, anesthesia, tourniquet, and postoperative plan with the supervising surgeon.",
+    "Position, prepare, drape, and mark the planned incision.",
+    "Open skin and palmar fascia with controlled superficial dissection.",
+    "Identify the transverse carpal ligament and protect neural and vascular structures.",
+    "Release the ligament under direct control to complete proximal and distal endpoints.",
+    "Assess completeness and hemostasis, then irrigate and close according to tissue and surgeon preference.",
+    "Apply the selected dressing and document the neurovascular examination and postoperative instructions."
+  ],
+  "endoscopic": [
+    "Confirm indication, system, approach, conversion plan, anesthesia, tourniquet, and postoperative plan.",
+    "Position, prepare, drape, and establish the system-appropriate portal under supervision.",
+    "Develop the intended path without forcing instruments through resistance.",
+    "Obtain a clear, continuous view of the ligament and identify reasons not to proceed.",
+    "Release the visualized ligament using system-specific training and direct supervision.",
+    "Verify the endpoint; convert to open if visualization or completeness is uncertain.",
+    "Obtain hemostasis, close the portal, apply the dressing, and document postoperative instructions."
+  ]
+}
+```
+
+### Structures At Risk
+
+```json
+[
+  {
+    "structure": "Median nerve",
+    "relationship": "Deep to the transverse carpal ligament within the tunnel.",
+    "why_at_risk": "Direct cutting, instrument passage, traction, thermal injury, or forceful manipulation can injure it.",
+    "protection": "Identify the ligament, maintain controlled visualization, direct cutting away from the nerve, and stop when anatomy is uncertain.",
+    "consequence": "New sensory loss, neuropathic pain, weakness, or need for urgent evaluation and repair.",
+    "variants": "Bifid nerve or persistent median artery may change the expected tunnel contents."
+  },
+  {
+    "structure": "Recurrent motor branch",
+    "relationship": "Typically branches distally toward the thenar muscles.",
+    "why_at_risk": "Distal or radial release may cross an anomalous transligamentous or subligamentous branch.",
+    "protection": "Use controlled distal visualization, avoid blind radial cutting, and investigate unexpected neural tissue before proceeding.",
+    "consequence": "Thenar weakness, loss of opposition, and possible need for repair.",
+    "variants": "Extraligamentous, subligamentous, and transligamentous courses are clinically important."
+  },
+  {
+    "structure": "Palmar cutaneous branch",
+    "relationship": "Travels superficial to the flexor retinaculum in the distal forearm and palm.",
+    "why_at_risk": "Superficial incision and dissection can cross variable branch anatomy.",
+    "protection": "Plan exposure with landmarks, use careful superficial dissection, and protect encountered branches.",
+    "consequence": "Painful scar, neuroma, or sensory disturbance over the thenar palm.",
+    "variants": "Branching and course vary near the wrist and proximal palm."
+  },
+  {
+    "structure": "Superficial palmar arch",
+    "relationship": "Lies distal to the transverse carpal ligament.",
+    "why_at_risk": "Overly distal or uncontrolled release can enter the arch.",
+    "protection": "Define the distal endpoint, keep dissection controlled, and avoid blind distal advancement.",
+    "consequence": "Bleeding, hematoma, ischemic concern, or need for vascular control.",
+    "variants": "Arch completeness and contribution vary."
+  },
+  {
+    "structure": "Flexor tendons",
+    "relationship": "Nine flexor tendons occupy the tunnel deep to the ligament.",
+    "why_at_risk": "Endoscopic or open instruments passed too deeply can lacerate or abrade a tendon.",
+    "protection": "Maintain the intended plane against the ligament and never force an instrument when orientation is uncertain.",
+    "consequence": "Tendon injury, loss of motion, adhesions, or repair.",
+    "variants": "Synovitis and anomalous muscle or tendon anatomy can crowd the tunnel."
+  },
+  {
+    "structure": "Ulnar neurovascular bundle in Guyon canal",
+    "relationship": "Ulnar and superficial to the carpal tunnel.",
+    "why_at_risk": "Ulnar drift or mistaken canal entry can expose the bundle.",
+    "protection": "Maintain landmark orientation and confirm the transverse carpal ligament before release.",
+    "consequence": "Ulnar sensory or motor deficit and vascular injury.",
+    "variants": "Branching patterns vary within and distal to Guyon canal."
+  }
+]
+```
+
+### Decision Points Bailouts
+
+```json
+[
+  {
+    "condition": "Approach selection",
+    "action": "Match open or endoscopic approach to patient factors, surgeon expertise, equipment, and need for direct visualization."
+  },
+  {
+    "condition": "Uncertain or anomalous anatomy",
+    "action": "Stop, improve exposure, obtain senior help, and convert to open if necessary."
+  },
+  {
+    "condition": "Unexpected mass or marked synovitis",
+    "action": "Pause routine release and obtain an attending-directed diagnostic and treatment plan."
+  },
+  {
+    "condition": "Inadequate endoscopic visualization or bleeding",
+    "action": "Stop cutting, restore visualization if safely possible, or convert to open."
+  },
+  {
+    "condition": "Suspected incomplete release",
+    "action": "Reassess both endpoints under controlled visualization rather than blindly extending the release."
+  },
+  {
+    "condition": "Suspected nerve, vessel, or tendon injury",
+    "action": "Stop, obtain direct exposure and attending assessment, document findings, and arrange repair or escalation as indicated."
+  },
+  {
+    "condition": "Symptoms do not fit median neuropathy at the wrist",
+    "action": "Reconsider the diagnosis before treating a presumed technical failure."
+  }
+]
+```
+
+### Pitfalls
+
+```json
+[
+  "Leaving residual distal or proximal ligament fibers can cause persistent symptoms.",
+  "Blind distal advancement risks the superficial palmar arch and variant recurrent motor branch.",
+  "Superficial dissection without attention to the palmar cutaneous branch can produce painful scar symptoms.",
+  "Aggressive median nerve handling or routine internal neurolysis can add injury without addressing the decompression endpoint.",
+  "Poor orientation can lead toward Guyon canal or mix open and endoscopic planes.",
+  "Calling every postoperative symptom recurrence can obscure incomplete release, alternate diagnosis, or new iatrogenic injury."
+]
+```
+
+### Attending Questions
+
+```json
+[
+  {
+    "question": "What is the essential operative endpoint?",
+    "answer": "Complete release of the transverse carpal ligament without injury to the median nerve, its branches, vascular structures, or flexor tendons."
+  },
+  {
+    "question": "Why is the recurrent motor branch dangerous?",
+    "answer": "Its distal course varies and may be subligamentous or transligamentous, placing it in the path of an uncontrolled distal or radial release."
+  },
+  {
+    "question": "Why can palm sensation be spared in carpal tunnel syndrome yet injured during surgery?",
+    "answer": "The palmar cutaneous branch travels superficial to the flexor retinaculum, outside the tunnel but within the superficial operative exposure."
+  },
+  {
+    "question": "When should endoscopic release be converted?",
+    "answer": "When safe ligament identification, visualization, hemostasis, or confirmation of complete release cannot be maintained."
+  },
+  {
+    "question": "How do persistent and recurrent symptoms differ?",
+    "answer": "Persistent symptoms never meaningfully resolve and raise concern for incomplete release or alternate diagnosis; recurrent symptoms return after improvement and may reflect scarring, renewed compression, or another process."
+  },
+  {
+    "question": "What does new weakness or numbness after surgery suggest?",
+    "answer": "Treat new symptoms as possible iatrogenic nerve injury or another complication requiring prompt examination and escalation."
+  }
+]
+```
+
+### Resident Responsibilities
+
+```json
+{
+  "preoperative": [
+    "Review indication, examination, testing, comorbidities, laterality, approach, and alternate diagnoses with the team."
+  ],
+  "room_setup": [
+    "Confirm hand table, positioning, anesthesia, tourniquet plan, instruments, endoscopic system if used, and conversion equipment."
+  ],
+  "exposure": [
+    "Identify landmarks, protect superficial branches, maintain hemostasis, and narrate uncertain anatomy before proceeding."
+  ],
+  "release": [
+    "Assist only under direct supervision, preserve visualization, recognize endpoints, and announce uncertainty or a possible injury immediately."
+  ],
+  "closure": [
+    "Confirm completeness and hemostasis with the attending, then assist with closure and dressing per preference."
+  ],
+  "postoperative_orders": [
+    "Document examination, wound and activity instructions, follow-up, expected recovery, and red flags according to the attending plan."
+  ]
+}
+```
+
+### Things To Say Or Ask
+
+```json
+[
+  "Are we planning an open or endoscopic release, and what would make you convert?",
+  "What incision or portal and tourniquet setup do you prefer for this patient?",
+  "How do you confirm the distal release endpoint in this approach?",
+  "Are there recurrent motor branch variants or unexpected tissue you want me to watch for?",
+  "What closure, dressing, wrist-motion, and lifting plan do you want documented?"
+]
+```
+
+### Postoperative Expectations
+
+```json
+[
+  "Keep the dressing clean and dry and follow the team's wound-care timing.",
+  "Begin active finger motion after surgery unless another condition changes the plan.",
+  "Wrist motion and splint use follow the operative findings and surgeon protocol.",
+  "Avoid heavy gripping or lifting until the team advances activity.",
+  "Follow up for wound review and suture management according to local practice.",
+  "Numbness may improve gradually; longstanding weakness or sensory loss may recover incompletely.",
+  "Pillar pain and scar sensitivity can occur and usually receive reassurance, desensitization, and activity modification before escalation.",
+  "Therapy is considered for stiffness, scar sensitivity, delayed functional recovery, or another patient-specific need.",
+  "Escalate increasing pain, drainage, fever, expanding swelling, vascular change, or new sensory or motor deficit.",
+  "Return to work depends on symptoms, wound status, job demands, hand dominance, and surgeon guidance; avoid a universal timeline."
+]
+```
+
+### Complications Failure Analysis
+
+```json
+{
+  "persistent symptoms": "Symptoms never meaningfully improve; evaluate incomplete release, incorrect or incomplete diagnosis, proximal compression, neuropathy, or severe preexisting nerve damage.",
+  "recurrent symptoms": "Symptoms improve and later return; evaluate scar tethering, renewed compression, or another evolving diagnosis.",
+  "new symptoms": "New pain, numbness, weakness, vascular change, or tendon dysfunction raises concern for iatrogenic injury, hematoma, infection, or complex regional pain.",
+  "other complications": [
+    "nerve branch injury",
+    "vascular injury",
+    "tendon injury",
+    "infection",
+    "hematoma",
+    "pillar pain",
+    "scar sensitivity",
+    "stiffness",
+    "complex regional pain syndrome"
+  ]
+}
+```
+
+### After Case Review
+
+```json
+[
+  "Which approach and system were used, and why?",
+  "Which anatomy and variation were actually seen?",
+  "How did the attending define the proximal and distal endpoints?",
+  "What preferences differed from this shared baseline?",
+  "What was the most difficult or uncertain step?",
+  "What postoperative plan was selected and why?",
+  "What one concept should be reviewed before the next case?"
+]
+```
+
+## Human decision
+
+- [ ] Approve exact revision and hashes
+- [ ] Request changes
+- [ ] Reject
+
+Use the authenticated review action; checking this file alone does not create an approval event.

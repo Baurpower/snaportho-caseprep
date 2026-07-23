@@ -11,10 +11,29 @@ from pydantic import BaseModel, Field
 
 class CasePrepRequest(BaseModel):
     prompt: str
+    user_id: Optional[str] = None
+    anonymous_session_id: Optional[str] = None
+    training_level: Optional[str] = None
+    entry_surface: Optional[str] = None
+    conversation_id: Optional[str] = None
+    case_prep_session_id: Optional[str] = None
     version: Optional[str] = Field(
         default=None,
-        description="Optional engine version override: v1 | v2 (route /case-prep/v2 is preferred).",
+        description="Optional engine version override: v1 | v2 (dedicated versioned routes are preferred).",
     )
+
+
+class PinnedCasePrepFollowupRequest(BaseModel):
+    case_prep_session_id: str
+    canonical_slug: str
+    canonical_name: str
+    approach_identity: Optional[str] = None
+    revision_id: str
+    payload_hash: str
+    training_level: Optional[str] = None
+    entry_surface: str
+    current_section: Optional[str] = None
+    question: str
 
 
 AiUsed = Union[bool, List[str]]

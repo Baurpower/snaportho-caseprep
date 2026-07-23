@@ -26,6 +26,7 @@ from caseprep.factory.paths import (
     SOURCES_FILENAME,
     procedure_dir,
 )
+from caseprep.factory.clinical_review import certification_readiness, review_dir
 
 # review_status values that satisfy promotion eligibility. "approved" lets the
 # review -> approve -> certify -> promote CLI workflow gate promotion right
@@ -403,6 +404,20 @@ def compile_procedure(
         readiness = evaluate_promotion_readiness(
             manifest, folder=folder, override_reason=override_reason
         )
+        if slug == "carpal_tunnel_release":
+            packet_path = review_dir(slug) / "reviewer_packet.json"
+            packet = _load_json(packet_path, {}) or {}
+            clinical = certification_readiness(
+                slug,
+                packet.get("final_proposed_revision_id"),
+                qa=packet.get("deterministic_qa") or {},
+                wave_count=2 if packet.get("wave_2") else 0,
+            )
+            if not clinical["eligible"]:
+                raise CompilerError(
+                    "Carpal tunnel compile refused: "
+                    + "; ".join(clinical["reasons"])
+                )
         if not readiness["eligible"]:
             raise CompilerError(
                 f"Promotion refused for {slug}: {'; '.join(readiness['reasons'])}. "

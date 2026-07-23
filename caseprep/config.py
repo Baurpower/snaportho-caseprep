@@ -42,6 +42,7 @@ class CasePrepConfig:
     enable_v2: bool
     enable_v2_ai_fallback: bool
     enable_v2_rag_fallback: bool
+    enable_web_v1_1: bool = False
 
     @classmethod
     def from_env(cls) -> "CasePrepConfig":
@@ -53,6 +54,7 @@ class CasePrepConfig:
             enable_v2=_env_bool("ENABLE_CASEPREP_V2", False),
             enable_v2_ai_fallback=_env_bool("ENABLE_CASEPREP_V2_AI_FALLBACK", False),
             enable_v2_rag_fallback=_env_bool("ENABLE_CASEPREP_V2_RAG_FALLBACK", True),
+            enable_web_v1_1=_env_bool("ENABLE_CASEPREP_WEB_V1_1", False),
         )
 
 

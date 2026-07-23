@@ -49,6 +49,27 @@ from caseprep.services.registry_read_service import (
     load_aliases,
     excerpt_review_notes,
 )
+from caseprep.factory.clinical_review import certification_readiness, review_dir
+
+
+def _require_carpal_clinical_approval(normalized: str) -> None:
+    if normalized != "carpal_tunnel_release":
+        return
+    packet_path = review_dir(normalized) / "reviewer_packet.json"
+    if not packet_path.exists():
+        raise ValueError("Carpal tunnel certification requires a clinical reviewer packet")
+    packet = _load_json(packet_path, {}) or {}
+    revision_id = packet.get("final_proposed_revision_id")
+    readiness = certification_readiness(
+        normalized,
+        revision_id,
+        qa=packet.get("deterministic_qa") or {},
+        wave_count=2 if packet.get("wave_2") else 0,
+    )
+    if not readiness["eligible"]:
+        raise ValueError(
+            "Carpal tunnel certification refused: " + "; ".join(readiness["reasons"])
+        )
 
 # Best-effort, non-fatal: regenerates registry_index.json / alias_index.json /
 # certified_payloads_export.jsonl from on-disk procedure folders. Read-only
@@ -312,6 +333,7 @@ def certify_procedure(
     Raises ProcedureNotFoundError if slug is unknown.
     """
     normalized = _resolve_normalized_slug(slug)
+    _require_carpal_clinical_approval(normalized)
 
     folder = REGISTRY_ROOT / normalized
     if not folder.is_dir():
@@ -432,6 +454,7 @@ def promote_to_runtime(
     override_reason was supplied (refusal is the safe default).
     """
     normalized = _resolve_normalized_slug(slug)
+    _require_carpal_clinical_approval(normalized)
 
     folder = REGISTRY_ROOT / normalized
     if not folder.is_dir():

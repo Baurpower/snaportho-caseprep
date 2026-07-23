@@ -8,6 +8,9 @@ CasePrep v2 — curated-first hybrid engine (opt-in).
 
 from __future__ import annotations
 
+import hashlib
+import json
+import time
 from typing import Any, Dict, List, Optional
 
 from fastapi.concurrency import run_in_threadpool
@@ -15,6 +18,55 @@ from fastapi.concurrency import run_in_threadpool
 from caseprep.config import CasePrepConfig
 from caseprep.schemas import build_envelope, empty_prompt_response
 from caseprep.services import ai_fallback, curated_content_store, procedure_resolver, rag_context
+from caseprep.services.demand_events import record_demand_event
+
+
+def _payload_hash(payload: Dict[str, Any]) -> str:
+    encoded = json.dumps(payload, sort_keys=True, ensure_ascii=False)
+    return hashlib.sha256(encoded.encode("utf-8")).hexdigest()
+
+
+def _citations_from_snippets(snippets: List[Any]) -> List[Dict[str, Any]]:
+    citations: List[Dict[str, Any]] = []
+    seen: set[str] = set()
+    for index, snippet in enumerate(snippets):
+        row = snippet if isinstance(snippet, dict) else {}
+        metadata = row.get("metadata") if isinstance(row.get("metadata"), dict) else {}
+        source_id = str(
+            row.get("source_id")
+            or metadata.get("source_id")
+            or row.get("id")
+            or metadata.get("id")
+            or f"retrieved-{index + 1}"
+        )
+        if source_id in seen:
+            continue
+        seen.add(source_id)
+        citations.append(
+            {
+                "source_id": source_id,
+                "title": row.get("title") or metadata.get("title"),
+                "url": row.get("url") or metadata.get("url") or metadata.get("source_url"),
+                "section": row.get("section") or metadata.get("section"),
+                "chunk_id": row.get("chunk_id") or metadata.get("chunk_id") or row.get("id"),
+            }
+        )
+    return citations
+
+
+def _resolver_contract(resolved: Dict[str, Any]) -> Dict[str, Any]:
+    return {
+        "raw_query": resolved.get("raw_query"),
+        "canonical_slug": resolved.get("procedure_slug"),
+        "canonical_name": resolved.get("canonical_display_name") or None,
+        "entity_kind": resolved.get("entity_kind"),
+        "requested_approach": resolved.get("requested_approach"),
+        "resolver_method": resolved.get("match_method") or "unresolved",
+        "confidence": resolved.get("confidence"),
+        "alternatives": resolved.get("suggested_matches") or [],
+        "requires_clarification": bool(resolved.get("requires_clarification")),
+        "clarification_reason": resolved.get("clarification_reason"),
+    }
 
 _V2_IMPORT_ERROR: Optional[str] = None
 
@@ -89,6 +141,7 @@ def _certified_response(
     if match_method == "gpt":
         ai_used = ["resolver_classifier"]
 
+    payload_hash = _payload_hash(certified)
     body = {
         **pimp_block,
         "anatomy": {
@@ -103,6 +156,21 @@ def _certified_response(
             },
         },
         "brobot_case_prep": certified,
+        "case_prep": {
+            "requested_case": prompt,
+            **_resolver_contract(resolved),
+            "source_type": "curated",
+            "content_status": "certified",
+            "review_status": "certified",
+            "runtime_enabled": True,
+            "revision_id": certified.get("revision_id"),
+            "payload_hash": payload_hash,
+            "fallback_used": False,
+            "fallback_reason": None,
+            "citations": certified.get("citations") or certified.get("sources") or [],
+            "warnings": [],
+            "payload": certified,
+        },
     }
 
     print(f"🚀 [v2] Certified payload: {slug} (method={match_method}, ai_used={ai_used})")
@@ -135,8 +203,48 @@ async def _fallback_response(
     ai_used: List[str] = []
     rag_used = False
     warnings: List[str] = [fallback_msg]
+    citations: List[Dict[str, Any]] = []
     if match_method == "gpt":
         ai_used.append("resolver_classifier")
+
+    if resolved.get("requires_clarification"):
+        warning = resolved.get("clarification_reason") or "Please choose a procedure approach."
+        body = {
+            "pimpQuestions": [],
+            "otherUsefulFacts": [],
+            "anatomy": None,
+            "brobot_case_prep": None,
+            "suggestedMatches": suggested,
+            "case_prep": {
+                "requested_case": prompt,
+                **_resolver_contract(resolved),
+                "source_type": "unavailable",
+                "content_status": None,
+                "review_status": None,
+                "runtime_enabled": False,
+                "revision_id": None,
+                "payload_hash": None,
+                "fallback_used": False,
+                "fallback_reason": "approach_clarification_required",
+                "citations": [],
+                "warnings": [warning],
+                "payload": None,
+            },
+        }
+        return build_envelope(
+            caseprep_version="v2",
+            engine="curated_hybrid",
+            procedure_slug=slug,
+            match_method=match_method,
+            content_status="unsupported",
+            body=body,
+            ai_used=ai_used or False,
+            rag_used=False,
+            warnings=[warning],
+            fallback_reason="approach_clarification_required",
+            user_visible_warning=warning,
+            backward_compat=True,
+        )
 
     if not slug:
         warnings.append(
@@ -148,6 +256,21 @@ async def _fallback_response(
             "anatomy": None,
             "brobot_case_prep": None,
             "suggestedMatches": suggested,
+            "case_prep": {
+                "requested_case": prompt,
+                **_resolver_contract(resolved),
+                "source_type": "unavailable",
+                "content_status": None,
+                "review_status": None,
+                "runtime_enabled": False,
+                "revision_id": None,
+                "payload_hash": None,
+                "fallback_used": False,
+                "fallback_reason": "procedure_unresolved",
+                "citations": [],
+                "warnings": warnings,
+                "payload": None,
+            },
         }
         return build_envelope(
             caseprep_version="v2",
@@ -180,6 +303,7 @@ async def _fallback_response(
             ai_used.append("query_refiner")
             snippets = await run_in_threadpool(rag_context.fetch_snippets, refined)
             rag_used = bool(snippets)
+            citations = _citations_from_snippets(snippets)
             if snippets and config.enable_v2_ai_fallback:
                 pimp = await run_in_threadpool(
                     ai_fallback.format_pimp_from_snippets, prompt, snippets
@@ -210,6 +334,29 @@ async def _fallback_response(
     elif not config.enable_v2_ai_fallback:
         warnings.append("AI anatomy fallback disabled (ENABLE_CASEPREP_V2_AI_FALLBACK=false).")
 
+    source_type = "rag_fallback" if rag_used and citations else "unavailable"
+    fallback_reason = (
+        "no_certified_payload"
+        if source_type == "rag_fallback"
+        else "no_certified_payload_and_no_cited_fallback"
+    )
+    fallback_payload = dict(body) if source_type == "rag_fallback" else None
+    body["case_prep"] = {
+        "requested_case": prompt,
+        **_resolver_contract(resolved),
+        "source_type": source_type,
+        "content_status": "fallback" if source_type == "rag_fallback" else None,
+        "review_status": None,
+        "runtime_enabled": False,
+        "revision_id": None,
+        "payload_hash": None,
+        "fallback_used": source_type == "rag_fallback",
+        "fallback_reason": fallback_reason,
+        "citations": citations,
+        "warnings": warnings,
+        "payload": fallback_payload,
+    }
+
     print(f"🚀 [v2] Fallback for {slug} (rag={rag_used}, ai={ai_used})")
     return build_envelope(
         caseprep_version="v2",
@@ -221,7 +368,7 @@ async def _fallback_response(
         ai_used=ai_used or False,
         rag_used=rag_used,
         warnings=warnings,
-        fallback_reason="no_certified_payload",
+        fallback_reason=fallback_reason,
         user_visible_warning=fallback_msg,
         backward_compat=True,
     )
@@ -233,7 +380,9 @@ async def run_caseprep_v2(
     catalog: List[Dict[str, Any]],
     openai_client: Any,
     config: Optional[CasePrepConfig] = None,
+    event_context: Optional[Dict[str, Any]] = None,
 ) -> Dict[str, Any]:
+    started = time.monotonic()
     cfg = config or CasePrepConfig.from_env()
 
     if not prompt:
@@ -247,20 +396,47 @@ async def run_caseprep_v2(
     )
     slug = resolved.get("procedure_slug")
 
-    if slug:
+    response: Dict[str, Any]
+    if slug and not resolved.get("requires_clarification"):
         certified = curated_content_store.get_certified_payload(slug)
         if certified:
-            return _certified_response(
+            response = _certified_response(
                 prompt=prompt,
                 slug=slug,
                 certified=certified,
                 resolved=resolved,
             )
+        else:
+            response = await _fallback_response(
+                prompt=prompt,
+                resolved=resolved,
+                config=cfg,
+                catalog=catalog,
+                openai_client=openai_client,
+            )
+    else:
+        response = await _fallback_response(
+            prompt=prompt,
+            resolved=resolved,
+            config=cfg,
+            catalog=catalog,
+            openai_client=openai_client,
+        )
 
-    return await _fallback_response(
-        prompt=prompt,
+    normalized = response.get("case_prep") or {}
+    citations = normalized.get("citations") or []
+    record_demand_event(
+        raw_request=prompt,
         resolved=resolved,
-        config=cfg,
-        catalog=catalog,
-        openai_client=openai_client,
+        curated_hit=normalized.get("source_type") == "curated",
+        revision_id=normalized.get("revision_id"),
+        payload_hash=normalized.get("payload_hash"),
+        fallback_used=bool(normalized.get("fallback_used")),
+        fallback_reason=normalized.get("fallback_reason"),
+        retrieved_source_ids=[
+            str(c.get("source_id")) for c in citations if isinstance(c, dict) and c.get("source_id")
+        ],
+        response_latency_ms=int((time.monotonic() - started) * 1000),
+        context=event_context,
     )
+    return response
