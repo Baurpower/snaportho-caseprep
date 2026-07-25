@@ -249,6 +249,52 @@ def score_candidate(candidate: Dict[str, Any], query: Dict[str, Any]) -> float:
     return round(score, 6)
 
 
+_ANCHOR_STOP = _BIGRAM_STOP | {
+    "about", "all", "approach", "case", "common", "do", "does", "fracture", "have",
+    "help", "i", "know", "me", "my", "need", "open", "orif", "patient", "prep",
+    "prepare", "primary", "procedure", "questions", "repair", "steps", "surgery",
+    "surgical", "that", "tomorrow", "you", "your",
+}
+
+
+def _anchor_tokens(text: str) -> set[str]:
+    return {
+        token
+        for token in re.findall(r"[a-z0-9]+", str(text or "").lower())
+        if len(token) > 3 and token not in _ANCHOR_STOP
+    }
+
+
+def _approach_anchor_tokens() -> set[str]:
+    """Approach/laterality words, from the resolver's single source of truth.
+
+    An approach word ("volar", "henry", "posterior") is shared across many
+    operations, so a Q/A that overlaps the case only on an approach word is not
+    on-topic — that is how thumb/finger content ("volar-ulnar base fragment")
+    leaked into a Galeazzi packet. Excluded from relevance anchoring, exactly as
+    they are excluded from procedure identity in procedure_registry.
+    """
+    try:
+        from procedure_registry import _APPROACH_TOKENS
+
+        return set(_APPROACH_TOKENS)
+    except Exception:
+        return set()
+
+
+def query_anchors(query: Dict[str, Any]) -> set[str]:
+    """Vocabulary a Q/A must touch to plausibly be about this case."""
+    anchors = _anchor_tokens(query["search_text"])
+    for slug in query["procedures"]:
+        anchors |= _anchor_tokens(slug.replace("_", " "))
+    for key in ("region", "subregion"):
+        anchors |= _anchor_tokens(query[key])
+    for values in (query["diagnoses"], query["specialties"]):
+        for value in values:
+            anchors |= _anchor_tokens(value.replace("_", " "))
+    return anchors - _approach_anchor_tokens()
+
+
 def _scope_compatible(candidate: Dict[str, Any], query: Dict[str, Any]) -> bool:
     """Reject explicit cross-procedure/approach metadata before reranking."""
     if query["procedures"] and candidate["procedures"]:
@@ -257,6 +303,16 @@ def _scope_compatible(candidate: Dict[str, Any], query: Dict[str, Any]) -> bool:
     if query["approaches"] and candidate["approaches"]:
         if not set(query["approaches"]) & set(candidate["approaches"]):
             return False
+    if candidate["retrieval_branch"] == "semantic_fallback":
+        # This branch is deliberately unfiltered, so vector similarity is the
+        # only thing keeping it on-topic — and embeddings happily rank "portal
+        # placement in elbow arthroscopy" against a biceps case. Require one
+        # shared anchor word with the case before it can reach the packet.
+        anchors = query_anchors(query)
+        if anchors:
+            candidate_text = f"{candidate['question']} {candidate['answer']} {candidate['additional_info']}"
+            if not (anchors & _anchor_tokens(candidate_text)):
+                return False
     text = _clean(" ".join((candidate["question"], candidate["answer"], candidate["additional_info"]))).lower()
     approaches = set(query["approaches"])
     if any("posterior" in item for item in approaches):

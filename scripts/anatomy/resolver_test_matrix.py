@@ -17,7 +17,7 @@ from procedure_registry import resolve_procedure, is_certified, CERTIFIED_SLUGS
 # expected_behavior: certified_exact | certified_default | ambiguous_clarify | unsupported_fallback | not_certified
 TEST_MATRIX = [
     # THA group
-    ("THA tomorrow", "certified_exact", "generic -> posterior (alias hit)"),
+    ("THA tomorrow", "certified_default", "generic -> posterior (token hit)"),
     ("total hip tomorrow", "certified_default", "generic -> posterior"),
     ("posterior THA", "certified_exact", "specific posterior"),
     ("posterior total hip", "certified_default", "specific (contains)"),
@@ -31,7 +31,7 @@ TEST_MATRIX = [
     ("reverse shoulder", "certified_exact", "RSA specific"),
     ("RSA", "certified_exact", "RSA"),
     ("proximal humerus fracture ORIF", "not_certified", "non-cert trauma"),
-    ("shoulder scope", "unsupported_fallback", "unknown/arthro non-cert"),
+    ("shoulder scope", "not_certified", "shoulder arthroscopy in registry, uncertified"),
     ("rotator cuff repair", "not_certified", "non-cert"),
     # Spine
     ("ACDF", "not_certified", "non-cert"),
@@ -63,8 +63,8 @@ TEST_MATRIX = [
     # Sports
     ("ACL reconstruction", "certified_exact", "cert"),
     ("meniscus repair", "certified_exact", "cert"),
-    ("meniscectomy", "unsupported_fallback", "non-cert"),
-    ("MPFL reconstruction", "unsupported_fallback", "non-cert"),
+    ("meniscectomy", "not_certified", "knee arthroscopy in registry, uncertified"),
+    ("MPFL reconstruction", "not_certified", "MPFL in registry, uncertified"),
     ("quadriceps tendon repair", "certified_exact", "cert"),
     ("Achilles repair", "not_certified", "non-cert"),
     # Foot/ankle
@@ -79,7 +79,7 @@ TEST_MATRIX = [
     ("distal femur ORIF", "certified_exact", "cert"),
     ("tibial shaft ORIF", "certified_exact", "cert"),
     ("Monteggia ORIF", "certified_exact", "cert"),
-    ("metacarpal fracture ORIF", "unsupported_fallback", "non-cert"),
+    ("metacarpal fracture ORIF", "not_certified", "non-cert; in registry since hand expansion"),
 ]
 
 def classify_actual(slug: str, method: str, score: float) -> str:

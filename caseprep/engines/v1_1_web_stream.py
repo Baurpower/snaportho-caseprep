@@ -9,6 +9,7 @@ its bounded-threadpool helpers. Nothing here is reachable from the legacy
 from __future__ import annotations
 
 import asyncio
+import os
 import time
 import uuid
 from typing import Any, AsyncIterator, Dict, List, Optional
@@ -26,7 +27,16 @@ from caseprep.services.case_identity_v1_1 import build_case_identity, enrich_ref
 from caseprep.services.caseprep_assembler_v1_1 import collect_sources, high_yield_items
 from caseprep.services.rag_retrieval_v1_1 import retrieve_case_qas
 
-ENRICHMENT_TIMEOUT_SECONDS = 8.0
+# Enrichment decorates a certified payload, but for an uncovered procedure it
+# *is* the anatomy / operative flow / pitfalls / postop content. A full gap-fill
+# pass (7 sections + pedagogy for 15 questions) measures ~25s, so the tighter
+# budget silently emptied seven sections of every uncertified packet. The
+# header and pimp questions still stream at ~3s, so the extra budget only
+# delays below-the-fold content. Both values are overridable.
+ENRICHMENT_TIMEOUT_SECONDS = float(os.getenv("CASEPREP_V1_1_ENRICHMENT_TIMEOUT", "8"))
+ENRICHMENT_GAP_FILL_TIMEOUT_SECONDS = float(
+    os.getenv("CASEPREP_V1_1_ENRICHMENT_GAP_FILL_TIMEOUT", "30")
+)
 
 _PROCEDURE_TYPE_KEYWORDS = (
     ("arthroplasty", ("arthroplasty", "replacement", "tha", "tka")),
@@ -269,6 +279,9 @@ async def stream_caseprep_packet(
             return None
         from caseprep.services.enrichment_v1_1 import enrich_packet_sections
 
+        budget = (
+            ENRICHMENT_TIMEOUT_SECONDS if payload else ENRICHMENT_GAP_FILL_TIMEOUT_SECONDS
+        )
         try:
             return await asyncio.wait_for(
                 asyncio.get_running_loop().run_in_executor(
@@ -282,10 +295,15 @@ async def stream_caseprep_packet(
                         model=cfg.v1_1_model,
                     ),
                 ),
-                timeout=ENRICHMENT_TIMEOUT_SECONDS,
+                timeout=budget,
             )
+        except asyncio.TimeoutError:
+            # asyncio.TimeoutError stringifies to "", which produced the
+            # useless warning "Enrichment degraded: ".
+            warnings.append(f"Enrichment timed out after {budget:.0f}s.")
+            return None
         except Exception as exc:
-            warnings.append(f"Enrichment degraded: {exc}")
+            warnings.append(f"Enrichment degraded: {type(exc).__name__}: {exc}")
             return None
 
     deterministic_pipelines = {

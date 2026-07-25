@@ -1,0 +1,54 @@
+{"prompt": "i have a distal biceps repair tomorrow", "expect": "distal_biceps_tendon_repair", "note": "reported bug: resolved to Elbow Arthroscopy / Distal Radius ORIF"}
+{"prompt": "I have a galeazzi fracture that will be fixed using the volar henry approach. Can you prep me for this case", "expect": "galeazzi_fracture_orif", "note": "reported bug: served a CERTIFIED Distal Radius ORIF packet (THA under old code). Galeazzi is a radial shaft fx + DRUJ, not distal radius; 'volar' must not anchor the certified distal radius payload"}
+{"prompt": "galeazzi fracture", "expect": "galeazzi_fracture_orif", "note": "named fracture pattern"}
+{"prompt": "nightstick fracture orif", "expect": "ulnar_shaft_fracture_orif", "note": "ulnar shaft"}
+{"prompt": "volar approach distal radius ORIF", "expect": "distal_radius_fracture_orif", "note": "legit distal radius must still resolve despite approach-word guard"}
+{"prompt": "distal biceps tendon repair", "expect": "distal_biceps_tendon_repair", "note": "reported bug"}
+{"prompt": "Questions to ask about a reverse shoulder replacement for surgeon", "expect": "reverse_shoulder_arthroplasty", "note": "real prompt"}
+{"prompt": "Indications for Reverse TSA?", "expect": "reverse_shoulder_arthroplasty", "note": "reverse TSA must not land on anatomic TSA"}
+{"prompt": "Anatomy at risk during reverse TSA?", "expect": "reverse_shoulder_arthroplasty", "note": "real prompt"}
+{"prompt": "total shoulder arthroplasty", "expect": "total_shoulder_arthroplasty", "note": "anatomic TSA"}
+{"prompt": "Questions to ask surgeon about thumb extensor tendon repair", "expect": "extensor_tendon_repair", "note": "real prompt"}
+{"prompt": "Where is the neurovascular bundle for a 1st digit trigger finger release?", "expect": "trigger_finger_release", "note": "real prompt"}
+{"prompt": "What do I need to know for a thumb trigger finger release?", "expect": "trigger_finger_release", "note": "real prompt"}
+{"prompt": "What are the treatment options for lateral epicondylitis?", "expect": "lateral_epicondylitis_release", "note": "real prompt"}
+{"prompt": "Distal radius ORIF pearls", "expect": "distal_radius_fracture_orif", "note": "real prompt"}
+{"prompt": "Help me prepare for a distal radius fracture I have tomorrow", "expect": "distal_radius_fracture_orif", "note": "prompt-shaped alias must not win"}
+{"prompt": "What should I know before going to my first distal radius fx orif", "expect": "distal_radius_fracture_orif", "note": "fx shorthand"}
+{"prompt": "What is the incision for cubital tunnel release?", "expect": "cubital_tunnel_release", "note": "real prompt"}
+{"prompt": "What are the 5 places the ulnar n can get pinched for cubical tunnel?", "expect": "cubital_tunnel_release", "note": "typo tolerance: cubical -> cubital"}
+{"prompt": "What is the most missed item in a carpel tunnel syndrome workup?", "expect": "carpal_tunnel_release", "note": "typo tolerance: carpel -> carpal"}
+{"prompt": "i have a quad graft ACL repair tomorrow, what do i need to know", "expect": "acl_reconstruction", "note": "real prompt"}
+{"prompt": "Prep for primary TKA", "expect": "tka", "note": "real prompt"}
+{"prompt": "Prep for lateral meniscus repair with microfracture", "expect": "meniscus_repair", "note": "real prompt"}
+{"prompt": "I have tibial plateau ORIF tomorrow. Prep me in 3 minutes.", "expect": "tibial_plateau_fracture_orif", "note": "real prompt"}
+{"prompt": "Quiz me an TIbial Plateau steps", "expect": "tibial_plateau_fracture_orif", "note": "real prompt"}
+{"prompt": "Explain the schatzer fracture patterns", "expect": "tibial_plateau_fracture_orif", "note": "Schatzker classification, misspelled"}
+{"prompt": "pimp questions for trimalleolar ankle fracture ORIF", "expect": "trimalleolar_ankle_orif", "note": "specific beats generic ankle ORIF"}
+{"prompt": "what are the surgical steps for ankle ORIF?", "expect": "ankle_fracture_orif", "note": "generic ankle ORIF now exists"}
+{"prompt": "Why would you use cephalomeduallry nail vs recon nail for intertrochanteric fx", "expect": "intertrochanteric_hip_fracture_orif", "note": "real prompt"}
+{"prompt": "What is the start point for femoral intertroch nail?", "expect": "intertrochanteric_hip_fracture_orif", "note": "must not land on femoral shaft nail"}
+{"prompt": "What are the different fixation techniques for proximal humerus fx?", "expect": "proximal_humerus_fracture_orif", "note": "real prompt"}
+{"prompt": "Distal femur periprosthetic fracture", "expect": "distal_femur_periprosthetic_orif", "note": "real prompt"}
+{"prompt": "Periacetabular osteotomy in 21yo", "expect": "periacetabular_osteotomy", "note": "real prompt"}
+{"prompt": "What is the relevant anatomy for a CMC arthroplasty case?", "expect": "cmc_arthroplasty", "note": "real prompt"}
+{"prompt": "Patient selection criteria for TMC arthroplasty?", "expect": "cmc_arthroplasty", "note": "TMC == CMC basilar joint"}
+{"prompt": "what are the steps of diagnostic knee scope?", "expect": "knee_arthroscopy", "note": "real prompt"}
+{"prompt": "what are the diagnostics steps of a shoulder scope?", "expect": "shoulder_arthroscopy", "note": "real prompt"}
+{"prompt": "Fasciotomy procedure steps?", "expect": "fasciotomy_leg", "note": "real prompt"}
+{"prompt": "Give me OITE points for SCFE.", "expect": "scfe_pinning", "note": "real prompt"}
+{"prompt": "72 year old with end stage hip arthritis scheduled for THA tomorrow", "expect": "tha_posterior", "note": "generic THA defaults to posterior"}
+{"prompt": "revision total hip", "expect": "revision_tha", "note": "specific alias must beat 'total hip'"}
+{"prompt": "what are the tendons that I need to know?", "expect": null, "note": "substring bug: 'that' used to match alias 'tha'"}
+{"prompt": "what are the two ways in which bone is formed", "expect": null, "note": "not a procedure"}
+{"prompt": "Explain compartment syndrome and its diagnosis", "expect": null, "note": "not a procedure"}
+{"prompt": "What are the treatment options for PJI?", "expect": null, "note": "not a procedure in the registry"}
+{"prompt": "Are neutralization plates used with locking screws or lag screws", "expect": null, "note": "principle question, no procedure"}
+{"prompt": "Steps of the Allen test?", "expect": null, "note": "exam maneuver, not a procedure"}
+{"prompt": "how should I prepare for OITE", "expect": null, "note": "study question, no procedure"}
+{"prompt": "What is the presentation of a mallet finger?", "expect": null, "note": "diagnosis question; must not resolve to a hip/knee procedure"}
+{"prompt": "Explore Judet and Letournel classification?", "expect": null, "note": "classification question"}
+{"prompt": "peds elbow fracture", "expect": null, "note": "ambiguous; must not blind-route to supracondylar"}
+{"prompt": "cervical decompression", "expect": null, "note": "ambiguous between ACDF and posterior cervical"}
+{"prompt": "Profunda femoris artery anatomy?", "expect": null, "note": "anatomy question, no procedure"}
+{"prompt": "What percent of knees fall into varus vs valgus", "expect": null, "note": "must not resolve to hallux valgus"}

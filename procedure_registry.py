@@ -25,7 +25,7 @@ import os
 import re
 from dataclasses import dataclass
 from pathlib import Path
-from typing import Any, Dict, List, Optional, Tuple
+from typing import Any, Dict, Iterable, List, Optional, Sequence, Tuple
 
 try:
     from rapidfuzz import fuzz
@@ -105,14 +105,39 @@ if not CERTIFIED_SLUGS:
     }
 
 
+# Resident shorthand and adjective/noun pairs canonicalised token-wise, so an
+# alias and a real prompt land on the same spelling ("intertroch fx" and
+# "intertrochanteric fracture"). Deliberately curated, never stemmed: "radius"
+# and "radial", or "femoral neck" and "femur shaft", are different procedures.
+_TOKEN_SYNONYMS = {
+    "fx": "fracture",
+    "fxs": "fracture",
+    "fractures": "fracture",
+    "fracure": "fracture",
+    "acetabular": "acetabulum",
+    "pelvic": "pelvis",
+    "meniscal": "meniscus",
+    "intertroch": "intertrochanteric",
+    "arthroscopic": "arthroscopy",
+    "hemi": "hemiarthroplasty",
+    "knees": "knee",
+    "hips": "hip",
+    "shoulders": "shoulder",
+    "ankles": "ankle",
+    "tendons": "tendon",
+    "peds": "pediatric",
+    "pediatrics": "pediatric",
+}
+
+
 def _normalize(text: str) -> str:
-    """Lowercase, remove punctuation, collapse whitespace."""
+    """Lowercase, strip punctuation, canonicalise shorthand, collapse whitespace."""
     if not text:
         return ""
     t = text.lower()
     t = re.sub(r"[^\w\s]", " ", t)
-    t = re.sub(r"\s+", " ", t).strip()
-    return t
+    tokens = [_TOKEN_SYNONYMS.get(token, token) for token in t.split()]
+    return " ".join(tokens).strip()
 
 
 def _get_display_for_slug(slug: Optional[str]) -> str:
@@ -120,6 +145,240 @@ def _get_display_for_slug(slug: Optional[str]) -> str:
         return ""
     d = SLUG_TO_DEF.get(slug)
     return d.display_name if d else slug
+
+
+# ---------------------------------------------------------------------------
+# Token matching primitives
+#
+# Substring containment ("tha" in "what are the tendons that...") and
+# rapidfuzz.WRatio over whole prompts (which falls back to partial matching and
+# scores ~85 for any prompt sharing one token with an alias) both produced
+# confident matches to unrelated procedures. Every stage below therefore works
+# on word-boundary tokens and requires the *alias* to be covered by the prompt,
+# never the other way around.
+# ---------------------------------------------------------------------------
+
+# Tokens that appear across many procedures, plus conversational filler. An
+# alias match carried entirely by these is not evidence of anything: "repair",
+# "fracture", and "help me prepare for a ..." identify no procedure.
+_GENERIC_TOKENS = {
+    "a", "an", "and", "approach", "arthroplasty", "arthroscopy", "case", "closed",
+    "correction", "distal", "do", "does", "fixation", "for", "fracture", "fractures",
+    "fx", "have", "help", "how", "i", "in", "is", "know", "left", "lower", "me",
+    "my", "need", "of", "on", "open", "orif", "prep", "prepare", "primary",
+    "procedure", "proximal", "release", "repair", "replacement", "reconstruction",
+    "revision", "right", "scope", "should", "surgery", "tendon", "the", "to",
+    "tomorrow", "upper", "what", "with", "yo",
+}
+
+# Token-level typo tolerance ("carpel"/"carpal", "cubical"/"cubital"). Short
+# tokens and tokens that disagree on their first two characters are excluded —
+# that is what keeps "biceps"/"radius" and "medial"/"lateral" apart.
+_TOKEN_FUZZY_MIN = 82.0
+_TOKEN_FUZZY_MIN_LEN = 5
+
+# Surgical-approach and laterality words. These are shared across many
+# operations ("volar Henry" fixes both a radial shaft and a distal radius
+# fracture), so they identify an *approach*, never a *procedure*. They must not
+# be the sole evidence that anchors a GPT classifier answer, or a Galeazzi case
+# gets served a certified Distal Radius packet on the strength of "volar" alone.
+_APPROACH_TOKENS = {
+    "anterior", "anterolateral", "anteromedial", "posterior", "posterolateral",
+    "posteromedial", "lateral", "medial", "volar", "dorsal", "direct", "open",
+    "endoscopic", "percutaneous", "arthroscopic", "mini", "extensile", "limited",
+    # Eponymous approaches (not procedures).
+    "henry", "thompson", "kocher", "kaplan", "bruner", "hardinge", "moore",
+    "southern", "smith", "petersen", "watson", "jones", "langenbeck",
+    "ilioinguinal", "stoppa", "kocherlangenbeck",
+}
+
+# An alias only fires when nearly all of its tokens are present in the prompt.
+_ALIAS_COVERAGE_MIN = 0.8
+
+# Two different procedures scoring within this margin means the prompt did not
+# actually disambiguate them; ask instead of guessing.
+_AMBIGUITY_MARGIN = 2.0
+
+
+def _tokens(text: str) -> List[str]:
+    return [token for token in _normalize(text).split() if token]
+
+
+def _specific(tokens: Iterable[str]) -> List[str]:
+    return [token for token in tokens if token not in _GENERIC_TOKENS]
+
+
+def _token_matches(alias_token: str, prompt_tokens: Sequence[str]) -> bool:
+    if alias_token in prompt_tokens:
+        return True
+    if len(alias_token) < _TOKEN_FUZZY_MIN_LEN or fuzz is None:
+        return False
+    return any(
+        len(candidate) >= _TOKEN_FUZZY_MIN_LEN
+        and candidate[:2] == alias_token[:2]
+        and fuzz.ratio(alias_token, candidate) >= _TOKEN_FUZZY_MIN
+        for candidate in prompt_tokens
+    )
+
+
+def _phrase_in(alias: str, norm_prompt: str) -> bool:
+    """Whole-word phrase containment: 'tha' must not match 'that'."""
+    alias_tokens = _tokens(alias)
+    if not alias_tokens:
+        return False
+    pattern = r"\b" + r"\s+".join(re.escape(token) for token in alias_tokens) + r"\b"
+    return re.search(pattern, norm_prompt) is not None
+
+
+def _alias_coverage(alias_tokens: Sequence[str], prompt_tokens: Sequence[str]) -> float:
+    if not alias_tokens:
+        return 0.0
+    matched = sum(1 for token in alias_tokens if _token_matches(token, prompt_tokens))
+    return matched / len(alias_tokens)
+
+
+def _score_alias(alias: str, norm_prompt: str, prompt_tokens: Sequence[str]) -> float:
+    """Return 0.0 when the alias is not evidenced by the prompt.
+
+    A match requires (a) most alias tokens present, and (b) *every* specific
+    alias token present. (b) is what separates "distal radius fracture" from
+    "distal biceps repair": they share only generic vocabulary, and the one
+    token that names the anatomy is absent.
+    """
+    alias_tokens = _tokens(alias)
+    if not alias_tokens:
+        return 0.0
+    specific_tokens = _specific(alias_tokens)
+    if not specific_tokens:
+        # A purely generic alias ("repair", "help me prepare for a ...") can
+        # never identify a procedure on its own.
+        return 0.0
+    if not all(_token_matches(token, prompt_tokens) for token in specific_tokens):
+        return 0.0
+    coverage = _alias_coverage(alias_tokens, prompt_tokens)
+    if coverage < _ALIAS_COVERAGE_MIN:
+        return 0.0
+
+    # Specificity, not raw string length, ranks candidates: "trimalleolar
+    # ankle" must outrank the broader "ankle fracture orif", and "revision
+    # total hip" must outrank "total hip".
+    score = 15.0 * len(specific_tokens) + 5.0 * len(alias_tokens) + coverage * 5.0
+    if _phrase_in(alias, norm_prompt):
+        score += 15.0  # contiguous phrase beats scattered tokens
+    if any(token in {"anterior", "posterior", "lateral", "direct"} for token in alias_tokens):
+        score += 5.0
+    return score
+
+
+def _rank_candidates(norm_prompt: str) -> List[Tuple[float, str, str]]:
+    """(score, slug, alias) for every alias the prompt supports, best first."""
+    prompt_tokens = _tokens(norm_prompt)
+    best_by_slug: Dict[str, Tuple[float, str]] = {}
+    for definition in REGISTRY:
+        for alias in [definition.display_name, *definition.aliases]:
+            score = _score_alias(alias, norm_prompt, prompt_tokens)
+            if score <= 0.0:
+                continue
+            current = best_by_slug.get(definition.slug)
+            if current is None or score > current[0]:
+                best_by_slug[definition.slug] = (score, alias)
+    ranked = [(score, slug, alias) for slug, (score, alias) in best_by_slug.items()]
+    ranked.sort(key=lambda row: (-row[0], row[1]))
+    return ranked
+
+
+def _partial_candidates(norm_prompt: str, limit: int = 4) -> List[Tuple[float, str, str]]:
+    """Loose "did you mean" candidates for prompts that resolved to nothing.
+
+    Ranked on shared *specific* tokens only, so an unrelated prompt yields no
+    suggestions at all rather than a list of the most popular procedures.
+    """
+    prompt_tokens = set(_specific(_tokens(norm_prompt)))
+    if not prompt_tokens:
+        return []
+    scored: Dict[str, Tuple[float, str]] = {}
+    for definition in REGISTRY:
+        for alias in [definition.display_name, *definition.aliases]:
+            alias_tokens = set(_specific(_tokens(alias)))
+            shared = len(alias_tokens & prompt_tokens)
+            if not shared:
+                continue
+            score = 10.0 * shared / max(1, len(alias_tokens))
+            current = scored.get(definition.slug)
+            if current is None or score > current[0]:
+                scored[definition.slug] = (score, alias)
+    ranked = [(score, slug, alias) for slug, (score, alias) in scored.items()]
+    ranked.sort(key=lambda row: (-row[0], row[1]))
+    return ranked[:limit]
+
+
+def _gpt_answer_is_anchored(slug: str, norm_prompt: str) -> bool:
+    """Reject classifier answers with no lexical footing in the prompt.
+
+    The model is prompted to return "none", but when it does guess a neighbour
+    ("elbow arthroscopy" for a distal biceps repair, "distal radius ORIF" for a
+    Galeazzi) the guess shares only generic or approach vocabulary with what the
+    user typed. The anchor must be a *procedure-identifying* word — an anatomy
+    noun or the procedure's own name — so approach adjectives ("volar", "henry")
+    and generic words are excluded from both sides. Region words still count, so
+    "72 yo hip fracture in the OR tomorrow" can reach a hip procedure.
+    """
+    definition = SLUG_TO_DEF.get(slug)
+    if definition is None:
+        return False
+    prompt_tokens = set(_specific(_tokens(norm_prompt))) - _APPROACH_TOKENS
+    if not prompt_tokens:
+        return False
+    anchors = set(_specific(_tokens(definition.display_name)))
+    for alias in definition.aliases:
+        anchors |= set(_specific(_tokens(alias)))
+    anchors |= set(_specific(_tokens(definition.body_region.replace("_", " "))))
+    anchors -= _APPROACH_TOKENS
+    return bool(anchors & prompt_tokens)
+
+
+def _suggestions_for(ranked: Sequence[Tuple[float, str, str]], limit: int = 4) -> List[Dict[str, Any]]:
+    return [
+        {
+            "slug": slug,
+            "name": _get_display_for_slug(slug),
+            "display_name": _get_display_for_slug(slug),
+            "entity_kind": "procedure",
+            "confidence": round(min(0.95, score / 60.0), 2),
+        }
+        for score, slug, _alias in ranked[:limit]
+    ]
+
+
+def _result(
+    original: str,
+    slug: Optional[str],
+    method: str,
+    score: float,
+    confidence: float,
+    *,
+    suggested: Optional[List[Dict[str, Any]]] = None,
+    requires_clarification: bool = False,
+    clarification_reason: Optional[str] = None,
+    matched_alias: Optional[str] = None,
+) -> Dict[str, Any]:
+    print("MATCH METHOD:", method)
+    print("MATCH SCORE:", score)
+    print("CANONICAL PROCEDURE:", slug or "unknown")
+    return {
+        "raw_query": original,
+        "procedure_slug": slug,
+        "canonical_display_name": _get_display_for_slug(slug),
+        "entity_kind": "procedure" if slug else None,
+        "requested_approach": None,
+        "match_method": method,
+        "match_score": score,
+        "confidence": confidence,
+        "matched_alias": matched_alias,
+        "suggested_matches": suggested or [],
+        "requires_clarification": requires_clarification,
+        "clarification_reason": clarification_reason,
+    }
 
 
 def resolve_procedure(prompt: str, openai_client: Optional[Any] = None) -> Dict[str, Any]:
@@ -184,106 +443,53 @@ def resolve_procedure(prompt: str, openai_client: Optional[Any] = None) -> Dict[
 
     print("ANATOMY INPUT:", original)
 
-    match_method = "none"
-    match_score: Optional[float] = None
-    canonical_slug: Optional[str] = None
-
-    # Precompute normalized alias sets for speed
-    alias_map: Dict[str, List[str]] = {}
-    for p in REGISTRY:
-        alias_map[p.slug] = [_normalize(a) for a in ([p.display_name] + p.aliases)]
-
     # ---------------- Stage A: Exact Alias Match ----------------
-    for slug, norms in alias_map.items():
-        if norm in norms:
-            match_method = "alias"
-            match_score = 100.0
-            canonical_slug = slug
-            print("MATCH METHOD:", match_method)
-            print("MATCH SCORE:", match_score)
-            print("CANONICAL PROCEDURE:", canonical_slug)
-            return {
-                "raw_query": original,
-                "procedure_slug": canonical_slug,
-                "canonical_display_name": _get_display_for_slug(canonical_slug),
-                "entity_kind": "procedure",
-                "requested_approach": None,
-                "match_method": match_method,
-                "match_score": match_score,
-                "confidence": 1.0,
-                "suggested_matches": [],
-                "requires_clarification": False,
-                "clarification_reason": None,
-            }
+    for definition in REGISTRY:
+        if norm in {_normalize(a) for a in [definition.display_name, *definition.aliases]}:
+            return _result(original, definition.slug, "alias", 100.0, 1.0, matched_alias=norm)
 
-    # ---------------- Stage B: Contains Match (best match, not first) ----------------
-    best_contain: Tuple[Optional[str], float, str] = (None, 0.0, "")
-    for slug, norms in alias_map.items():
-        for a in norms:
-            if a and a in norm:
-                # prefer longer (more specific) alias matches; bonus for explicit approach hints
-                quality = len(a)
-                if "anterior" in a or "posterior" in a or "direct" in a:
-                    quality += 10
-                if quality > best_contain[1]:
-                    best_contain = (slug, quality, a)
-    if best_contain[0]:
-        match_method = "contains"
-        match_score = 95.0
-        canonical_slug = best_contain[0]
-        print("MATCH METHOD:", match_method)
-        print("MATCH SCORE:", match_score)
-        print("CANONICAL PROCEDURE:", canonical_slug)
-        return {
-            "raw_query": original,
-            "procedure_slug": canonical_slug,
-            "canonical_display_name": _get_display_for_slug(canonical_slug),
-            "entity_kind": "procedure",
-            "requested_approach": None,
-            "match_method": match_method,
-            "match_score": match_score,
-            "confidence": 0.95,
-            "suggested_matches": [],
-            "requires_clarification": False,
-            "clarification_reason": None,
-        }
-
-    # ---------------- Stage C: Fuzzy Match (rapidfuzz) ----------------
-    if fuzz is not None:
-        best_slug = None
-        best_score = 0.0
-        for slug, norms in alias_map.items():
-            for a in norms:
-                if not a:
-                    continue
-                # WRatio is strong for abbreviations + word order differences
-                sc = fuzz.WRatio(norm, a)
-                if sc > best_score:
-                    best_score = sc
-                    best_slug = slug
-        if best_slug and best_score >= 85:
-            match_method = "fuzzy"
-            match_score = float(best_score)
-            canonical_slug = best_slug
-            print("MATCH METHOD:", match_method)
-            print("MATCH SCORE:", match_score)
-            print("CANONICAL PROCEDURE:", canonical_slug)
-            return {
-                "raw_query": original,
-                "procedure_slug": canonical_slug,
-                "canonical_display_name": _get_display_for_slug(canonical_slug),
-                "entity_kind": "procedure",
-                "requested_approach": None,
-                "match_method": match_method,
-                "match_score": match_score,
-                "confidence": min(1.0, best_score / 100.0),
-                "suggested_matches": [],
-                "requires_clarification": False,
-                "clarification_reason": None,
-            }
+    # ---------------- Stage B/C: Token-anchored alias ranking ----------------
+    # One ranking pass replaces the old substring ("contains") and WRatio
+    # ("fuzzy") stages. Method is reported as "contains" when the winning alias
+    # appears verbatim as a phrase and "fuzzy" when it was assembled from
+    # scattered / near-miss tokens, so downstream confidence gates and the
+    # existing test matrix keep their meaning.
+    ranked = _rank_candidates(norm)
+    if ranked:
+        top_score, top_slug, top_alias = ranked[0]
+        runner_up = ranked[1] if len(ranked) > 1 else None
+        if runner_up and (top_score - runner_up[0]) < _AMBIGUITY_MARGIN:
+            # Two procedures are equally well supported by this prompt — e.g.
+            # "acetabulum fracture" (anterior vs posterior approach). Guessing
+            # here is exactly how a resident gets the wrong packet.
+            return _result(
+                original,
+                None,
+                "ambiguous",
+                top_score,
+                0.0,
+                suggested=_suggestions_for(ranked),
+                requires_clarification=True,
+                clarification_reason=(
+                    "That could be more than one procedure. Which one are you preparing for?"
+                ),
+            )
+        exact_phrase = _phrase_in(top_alias, norm)
+        method = "contains" if exact_phrase else "fuzzy"
+        confidence = 0.95 if exact_phrase else 0.85
+        return _result(
+            original,
+            top_slug,
+            method,
+            95.0 if exact_phrase else 88.0,
+            confidence,
+            matched_alias=top_alias,
+        )
 
     # ---------------- Stage D: GPT Fallback Classifier ----------------
-    # Only if A/B/C produced nothing confident.
+    # Only if A/B/C produced nothing. The classifier must be allowed to answer
+    # "none": a forced choice over 60 slugs is what turned "distal biceps
+    # repair" (not in the registry) into a confident Elbow Arthroscopy packet.
     gpt_slug: Optional[str] = None
     gpt_conf: float = 0.0
     if openai_client is None:
@@ -297,15 +503,22 @@ def resolve_procedure(prompt: str, openai_client: Optional[Any] = None) -> Dict[
     if openai_client is not None:
         try:
             allowed_lines = [f"{p.slug} - {p.display_name}" for p in REGISTRY]
-            allowed_str = "\n".join(allowed_lines[:80])  # safety
+            allowed_str = "\n".join(allowed_lines)
             sys_prompt = (
-                "You are an orthopaedic procedure classifier. "
-                "Given a case description, return ONLY the single best matching procedure_slug "
-                "from the allowed list. Output strict JSON: "
-                '{"procedure_slug": "<one of the slugs>", "confidence": <0.0-1.0>}. '
-                "If uncertain, use low confidence. Never invent slugs."
+                "You are an orthopaedic procedure classifier for a surgical prep tool. "
+                "Given a case description, return the single procedure_slug from the allowed "
+                "list that names THE SAME operation the user described.\n"
+                'Output strict JSON: {"procedure_slug": "<slug or none>", "confidence": <0.0-1.0>}.\n'
+                'Return "none" (confidence 0) unless the described operation is genuinely on '
+                "the list. A neighbouring procedure on the same joint is NOT a match: "
+                '"distal biceps tendon repair" is not elbow arthroscopy, "shoulder arthroscopy" '
+                'is not total shoulder arthroplasty, "ankle fracture" is not distal radius ORIF. '
+                "Never invent slugs. Never guess to avoid returning none."
             )
-            user_msg = f"Case description:\n{original}\n\nAllowed procedures (slug - name):\n{allowed_str}\n\nReturn JSON only."
+            user_msg = (
+                f"Case description:\n{original}\n\n"
+                f"Allowed procedures (slug - name):\n{allowed_str}\n\nReturn JSON only."
+            )
 
             resp = openai_client.chat.completions.create(
                 model=os.getenv("ANATOMY_CLASSIFIER_MODEL", "gpt-4o-mini"),
@@ -321,7 +534,7 @@ def resolve_procedure(prompt: str, openai_client: Optional[Any] = None) -> Dict[
             data = json.loads(raw)
             cand = (data.get("procedure_slug") or "").strip()
             conf = float(data.get("confidence") or 0.0)
-            if cand in SLUG_TO_DEF and conf >= 0.8:
+            if cand in SLUG_TO_DEF and conf >= 0.8 and _gpt_answer_is_anchored(cand, norm):
                 gpt_slug = cand
                 gpt_conf = conf
         except Exception:
@@ -329,68 +542,19 @@ def resolve_procedure(prompt: str, openai_client: Optional[Any] = None) -> Dict[
             gpt_conf = 0.0
 
     if gpt_slug:
-        match_method = "gpt"
-        match_score = gpt_conf * 100.0
-        canonical_slug = gpt_slug
-        print("MATCH METHOD:", match_method)
-        print("MATCH SCORE:", match_score)
-        print("CANONICAL PROCEDURE:", canonical_slug)
-        return {
-            "raw_query": original,
-            "procedure_slug": canonical_slug,
-            "canonical_display_name": _get_display_for_slug(canonical_slug),
-            "entity_kind": "procedure",
-            "requested_approach": None,
-            "match_method": match_method,
-            "match_score": match_score,
-            "confidence": gpt_conf,
-            "suggested_matches": [],
-            "requires_clarification": False,
-            "clarification_reason": None,
-        }
+        return _result(original, gpt_slug, "gpt", gpt_conf * 100.0, gpt_conf)
 
     # ---------------- No confident resolution ----------------
-    print("MATCH METHOD:", match_method)
-    print("MATCH SCORE:", 0)
-    print("CANONICAL PROCEDURE:", "unknown")
-
-    # Build suggested matches: best fuzzy (even if <85) or top common certified displays
-    suggested: List[str] = []
-    if fuzz is not None:
-        scored: List[Tuple[float, str]] = []
-        for slug, norms in alias_map.items():
-            for a in norms:
-                if a:
-                    sc = fuzz.WRatio(norm, a)
-                    scored.append((sc, slug))
-        scored.sort(reverse=True)
-        seen = set()
-        for sc, sl in scored:
-            if sl not in seen:
-                seen.add(sl)
-                suggested.append(_get_display_for_slug(sl))
-            if len(suggested) >= 5:
-                break
-    if not suggested:
-        # Fallback to a few very common certified ones
-        for s in ["tha_posterior", "tka", "distal_radius_fracture_orif", "acl_reconstruction", "hip_hemiarthroplasty"]:
-            dn = _get_display_for_slug(s)
-            if dn:
-                suggested.append(dn)
-
-    return {
-        "raw_query": original,
-        "procedure_slug": None,
-        "canonical_display_name": "",
-        "entity_kind": None,
-        "requested_approach": None,
-        "match_method": "none",
-        "match_score": 0.0,
-        "confidence": 0.0,
-        "suggested_matches": suggested,
-        "requires_clarification": False,
-        "clarification_reason": None,
-    }
+    # Suggestions are best-effort only, and are explicitly NOT a resolution:
+    # the packet engine treats a null slug as "prep from the user's own words".
+    return _result(
+        original,
+        None,
+        "none",
+        0.0,
+        0.0,
+        suggested=_suggestions_for(_partial_candidates(norm)),
+    )
 
 
 def get_procedure_definition(slug: str) -> Optional[ProcedureDefinition]:
