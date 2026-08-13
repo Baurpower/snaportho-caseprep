@@ -75,7 +75,7 @@ class MergeRuleTests(unittest.TestCase):
     def _result(self, certified: bool) -> EnrichmentResult:
         return EnrichmentResult(_sanitize(RAW_LLM_OUTPUT), certified=certified)
 
-    def test_pedagogy_annotates_only_empty_fields(self) -> None:
+    def test_grounded_questions_are_not_modified_by_generated_pedagogy(self) -> None:
         curated_item = {
             "id": "attending:abc",
             "question": "How much of the A1 pulley do you release?",
@@ -86,9 +86,9 @@ class MergeRuleTests(unittest.TestCase):
         }
         items, paths = self._result(certified=True).apply_to_pimp_questions([curated_item])
         self.assertEqual(items[0]["teaching_pearl"], "CURATED PEARL — must not be replaced.")
-        self.assertEqual(items[0]["why_attendings_ask"], "Tests understanding of the pulley system.")
-        self.assertIn("items[0].why_attendings_ask", paths)
-        self.assertNotIn("items[0].teaching_pearl", paths)
+        self.assertNotIn("why_attendings_ask", items[0])
+        self.assertEqual(paths, ["items[1]"])
+        self.assertTrue(items[1]["generated"])
 
     def test_generated_questions_appended_and_marked(self) -> None:
         items, paths = self._result(certified=True).apply_to_pimp_questions([])
@@ -97,23 +97,30 @@ class MergeRuleTests(unittest.TestCase):
         self.assertEqual(items[0]["source"], "generated")
         self.assertEqual(paths, ["items[0]"])
 
-    def test_curated_section_items_never_removed(self) -> None:
+    def test_generated_questions_do_not_dilute_strong_grounded_results(self) -> None:
+        grounded = [
+            {"id": f"rag:{index}", "question": f"Q{index}", "answer": f"A{index}", "generated": False}
+            for index in range(8)
+        ]
+        items, paths = self._result(certified=True).apply_to_pimp_questions(grounded)
+        self.assertEqual(items, grounded)
+        self.assertEqual(paths, [])
+
+    def test_generated_section_rows_only_fill_empty_sections(self) -> None:
         curated = [{"id": "x", "question": "Curated Q", "answer": "Curated A", "generated": False}]
         items, _ = self._result(certified=True).apply_to_section("decision_points", curated)
         self.assertEqual(items[0], curated[0])
-        self.assertEqual(len(items), 2)
-        self.assertTrue(items[1]["generated"])
+        self.assertEqual(items, curated)
 
     def test_certified_blocks_operative_flow_generation(self) -> None:
         items, paths = self._result(certified=True).apply_to_section("operative_flow", [])
         self.assertEqual(items, [])
         self.assertEqual(paths, [])
 
-    def test_uncertified_allows_operative_flow_generation(self) -> None:
-        items, _ = self._result(certified=False).apply_to_section("operative_flow", [])
-        self.assertEqual(len(items), 1)
-        self.assertEqual(items[0]["category"], "position")
-        self.assertTrue(items[0]["generated"])
+    def test_uncertified_also_blocks_unsupported_operative_flow(self) -> None:
+        items, paths = self._result(certified=False).apply_to_section("operative_flow", [])
+        self.assertEqual(items, [])
+        self.assertEqual(paths, [])
 
 
 class CacheAndDegradationTests(unittest.TestCase):

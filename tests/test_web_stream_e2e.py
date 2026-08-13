@@ -236,6 +236,8 @@ class WebStreamE2ETests(unittest.TestCase):
         ]
         self.assertEqual([e["status"] for e in pimp_events], ["partial", "complete"])
         final_items = pimp_events[-1]["items"]
+        # This fixture has fewer than the minimum grounded questions, so the
+        # generated question is retained strictly as gap-fill.
         self.assertTrue(any(item.get("generated") for item in final_items))
         self.assertTrue(pimp_events[-1]["generated_field_paths"])
 
@@ -244,8 +246,8 @@ class WebStreamE2ETests(unittest.TestCase):
             if name == "section" and data["section_id"] == "decision_points"
         )
         generated = [item for item in decision["items"] if item.get("generated")]
-        self.assertTrue(generated)
-        # Curated indication question streams ahead of the generated one.
+        self.assertFalse(generated)
+        # The grounded indication question is preserved without AI additions.
         self.assertFalse(decision["items"][0].get("generated"))
 
 

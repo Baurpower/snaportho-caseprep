@@ -43,9 +43,8 @@ _ANATOMY_CATEGORIES = {
     "sensory_innervation",
     "danger_zone",
 }
-_PEDAGOGY_FIELDS = ("teaching_pearl", "why_attendings_ask", "common_mistake", "difficulty")
-
 MAX_PIMP_QUESTIONS = 15
+MIN_GROUNDED_PIMP_QUESTIONS = 8
 
 
 def _is_certified(payload: Optional[Dict[str, Any]]) -> bool:
@@ -152,20 +151,20 @@ class EnrichmentResult:
         self, items: List[Dict[str, Any]]
     ) -> Tuple[List[Dict[str, Any]], List[str]]:
         generated_paths: List[str] = []
-        pedagogy = self.data["pimp_pedagogy"]
-        output: List[Dict[str, Any]] = []
-        for index, entry in enumerate(items):
-            merged = dict(entry)
-            extra = pedagogy.get(str(entry.get("id")) or "")
-            if extra:
-                for field in _PEDAGOGY_FIELDS:
-                    # Annotate only empty fields — curated values are never replaced.
-                    if not clean(merged.get(field)) and extra.get(field):
-                        merged[field] = extra[field]
-                        generated_paths.append(f"items[{index}].{field}")
-            output.append(merged)
+        # Keep retrieved/certified Q&A byte-for-byte authoritative. The old
+        # merge attached model-written pearls, rationales, and mistakes to
+        # grounded questions; clients then presented that prose as if it came
+        # from the cited source. That made strong RAG results feel synthetic.
+        output: List[Dict[str, Any]] = list(items)
+
+        # Generated questions are gap-fill only. If RAG + curated content has
+        # already supplied a useful question set, do not dilute it with generic
+        # model output merely because the packet has room under its hard cap.
+        if len(output) >= MIN_GROUNDED_PIMP_QUESTIONS:
+            return output, generated_paths
+        target_count = MIN_GROUNDED_PIMP_QUESTIONS if output else MAX_PIMP_QUESTIONS
         for row in self.data["generated_pimp_questions"]:
-            if len(output) >= MAX_PIMP_QUESTIONS:
+            if len(output) >= target_count:
                 break
             entry = item(
                 prefix="genpimp",
@@ -192,7 +191,7 @@ class EnrichmentResult:
             output.append(entry)
         return output, generated_paths
 
-    # ── Section fill (append-only; curated first) ────────────────────────────
+    # ── Section gap-fill (generated only when grounded section is empty) ─────
     def _generated_items(self, section_id: str) -> List[Dict[str, Any]]:
         rows: List[Tuple[str, str, str]] = []  # (question, answer, category)
         if section_id == "teaching_topics":
@@ -211,11 +210,9 @@ class EnrichmentResult:
         elif section_id == "postop":
             rows = [("Post-op protocol", text, "postop") for text in self.data["postop"]]
         elif section_id == "operative_flow":
-            if self.certified:
-                # Structural guard: never generate operative steps for certified
-                # procedures, regardless of what the model returned.
-                return []
-            rows = [(r["phase"].replace("_", " ").title(), r["step"], r["phase"]) for r in self.data["operative_flow"]]
+            # Operative steps require direct source support. Model-only flow is
+            # never emitted, for certified or uncovered procedures.
+            return []
         output: List[Dict[str, Any]] = []
         for question, answer, category in rows:
             entry = item(
@@ -237,8 +234,13 @@ class EnrichmentResult:
     ) -> Tuple[List[Dict[str, Any]], List[str]]:
         from caseprep.services.rag_retrieval_v1_1 import _near_duplicate
 
-        output = list(items)  # curated content is never modified or removed
+        output = list(items)  # curated/RAG content is never modified or removed
         generated_paths: List[str] = []
+        # Enrichment is a fallback, not a supplement. Mixing generated rows
+        # into an already grounded section obscures provenance and introduces
+        # lower-confidence claims beside certified content.
+        if output:
+            return output, generated_paths
         for entry in self._generated_items(section_id):
             if any(
                 _near_duplicate(entry["question"] + " " + entry["answer"], kept.get("question", "") + " " + kept.get("answer", ""))

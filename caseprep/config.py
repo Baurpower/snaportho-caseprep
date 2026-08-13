@@ -46,6 +46,7 @@ class CasePrepConfig:
     # Web-only v1.1 packet stream (SSE). Never dispatched from legacy routes.
     enable_web_v1_1_stream: bool = False
     enable_v1_1_enrichment: bool = False
+    enable_web_v1_2_stream: bool = False
     v1_1_model: str = "gpt-4o-mini"
 
     @classmethod
@@ -61,6 +62,7 @@ class CasePrepConfig:
             enable_web_v1_1=_env_bool("ENABLE_CASEPREP_WEB_V1_1", False),
             enable_web_v1_1_stream=_env_bool("ENABLE_CASEPREP_WEB_V1_1_STREAM", False),
             enable_v1_1_enrichment=_env_bool("CASEPREP_V1_1_ENRICHMENT_ENABLED", False),
+            enable_web_v1_2_stream=_env_bool("ENABLE_CASEPREP_WEB_V1_2_STREAM", False),
             v1_1_model=(os.getenv("CASEPREP_V1_1_MODEL", "gpt-4o-mini") or "gpt-4o-mini").strip(),
         )
 

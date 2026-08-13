@@ -42,6 +42,10 @@ def high_yield_items(candidates: Iterable[Dict[str, Any]]) -> List[Dict[str, Any
                 "source_ids": [row.get("record_id")],
                 "confidence": row.get("retrieval_score") or row.get("vector_score") or 0.0,
                 "generated": False,
+                "source": "rag",
+                "retrieval_score": row.get("retrieval_score") or row.get("vector_score"),
+                "procedure_relevance": row.get("procedure_relevance"),
+                "claim_support": row.get("claim_support") or "direct",
             }
         )
     return output

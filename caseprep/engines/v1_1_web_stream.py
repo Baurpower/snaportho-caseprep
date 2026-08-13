@@ -148,7 +148,8 @@ def _merge_pimp_questions(
 
 
 async def stream_caseprep_packet(
-    prompt: str, *, openai_client: Any, config: Optional[CasePrepConfig] = None
+    prompt: str, *, openai_client: Any, config: Optional[CasePrepConfig] = None,
+    policy_version: str = "v1.1",
 ) -> AsyncIterator[bytes]:
     started = time.monotonic()
     cfg = config or CasePrepConfig.from_env()
@@ -260,7 +261,10 @@ async def stream_caseprep_packet(
             except Exception:
                 refined_full = refined
             candidates = await _bounded_thread_call(
-                retrieve_case_qas, refined_full, diagnostics=retrieval_diagnostics
+                retrieve_case_qas,
+                refined_full,
+                diagnostics=retrieval_diagnostics,
+                policy_version=policy_version,
             )
             return {
                 "pipeline_id": "pocket_pimped",
@@ -275,6 +279,10 @@ async def stream_caseprep_packet(
             return _failed_pipeline("pocket_pimped", f"Pocket Pimped retrieval failed: {exc}")
 
     async def run_enrichment(pimp_questions: List[Dict[str, Any]]) -> Optional[Any]:
+        # v1.2 never delays a certified packet for optional prose, and strong
+        # grounded question coverage does not need synthetic padding.
+        if policy_version == "v1.2" and (payload is not None or len(pimp_questions) >= 8):
+            return None
         if not (cfg.enable_v1_1_enrichment and openai_client and identity["canonical_slug"]):
             return None
         from caseprep.services.enrichment_v1_1 import enrich_packet_sections
@@ -396,6 +404,7 @@ async def stream_caseprep_packet(
     # resolves. The client replaces the slot content in place.
     enrichment_pending = bool(
         cfg.enable_v1_1_enrichment and openai_client and identity["canonical_slug"]
+        and not (policy_version == "v1.2" and (payload is not None or len(pimp_items) >= 8))
     )
     if pimp_items and enrichment_pending:
         yield _pimp_event(pimp_items, "partial", [])

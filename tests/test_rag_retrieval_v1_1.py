@@ -6,6 +6,7 @@ import unittest
 from unittest.mock import patch
 
 from caseprep.services.rag_retrieval_v1_1 import (
+    apply_v1_2_relevance_gate,
     build_query_branches,
     normalize_match,
     normalize_query,
@@ -146,6 +147,53 @@ class RagRetrievalV11Tests(unittest.TestCase):
         wrong = normalize_match(match("wrong", .9, "What is at risk?", "Lateral femoral cutaneous nerve", procedure="tha_anterior"), "regional_backup")
         right = normalize_match(match("right", .8, "What is at risk?", "Median nerve", procedure="carpal_tunnel_release"), "exact_scope")
         self.assertEqual([row["record_id"] for row in rerank_and_dedupe([wrong, right], query)], ["right"])
+
+    def test_v12_relevance_gate_rejects_unrelated_and_caps_regional_backfill(self):
+        query = normalize_query(self.refined)
+        candidates = [
+            {
+                "record_id": "direct",
+                "question": "What is released?",
+                "answer": "Transverse carpal ligament",
+                "additional_info": "",
+                "procedures": ["carpal_tunnel_release"],
+                "retrieval_branch": "procedure_focus",
+                "retrieval_score": 0.9,
+            },
+            {
+                "record_id": "regional-1",
+                "question": "What hand structure is nearby?",
+                "answer": "Median nerve",
+                "additional_info": "",
+                "procedures": [],
+                "retrieval_branch": "semantic_fallback",
+                "retrieval_score": 0.82,
+            },
+            {
+                "record_id": "regional-2",
+                "question": "What hand tendon is nearby?",
+                "answer": "FPL",
+                "additional_info": "",
+                "procedures": [],
+                "retrieval_branch": "semantic_fallback",
+                "retrieval_score": 0.81,
+            },
+            {
+                "record_id": "drift",
+                "question": "What is the Lisfranc interval?",
+                "answer": "Medial cuneiform to second metatarsal",
+                "additional_info": "",
+                "procedures": ["lisfranc_orif"],
+                "retrieval_branch": "semantic_fallback",
+                "retrieval_score": 0.99,
+            },
+        ]
+
+        accepted, rejected = apply_v1_2_relevance_gate(candidates, query, limit=5)
+
+        self.assertEqual([row["record_id"] for row in accepted], ["direct", "regional-1"])
+        self.assertEqual(accepted[0]["procedure_relevance"], "direct")
+        self.assertEqual(rejected, {"regional_cap": 1, "unrelated": 1})
 
 
 if __name__ == "__main__":

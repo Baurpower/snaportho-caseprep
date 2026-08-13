@@ -11,6 +11,7 @@ import hashlib
 import os
 import re
 import time
+from collections import Counter
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from typing import Any, Callable, Dict, Iterable, List, Optional, Sequence, Tuple
 
@@ -18,6 +19,9 @@ BRANCH_TOP_K = 24
 MAX_RAW_CANDIDATES = BRANCH_TOP_K * 3
 MAX_FINAL_QAS = 15
 MIN_VECTOR_SCORE = 0.45
+V1_2_MIN_DIRECT_SCORE = 0.55
+V1_2_MIN_FALLBACK_SCORE = 0.72
+V1_2_MAX_REGIONAL_FRACTION = 0.20
 POCKET_PIMP_SOURCE_COLLECTION = "pocket_pimped"
 
 
@@ -359,6 +363,51 @@ def rerank_and_dedupe(
     return selected
 
 
+def _v1_2_relevance(candidate: Dict[str, Any], query: Dict[str, Any]) -> str:
+    if query["procedures"] and set(query["procedures"]) & set(candidate["procedures"]):
+        return "direct"
+    anchors = query_anchors(query)
+    text = f"{candidate['question']} {candidate['answer']} {candidate['additional_info']}"
+    overlap = anchors & _anchor_tokens(text)
+    if overlap and candidate["retrieval_branch"] != "semantic_fallback":
+        return "indirect"
+    if overlap:
+        return "regional"
+    return "unrelated"
+
+
+def apply_v1_2_relevance_gate(
+    candidates: Sequence[Dict[str, Any]], query: Dict[str, Any], limit: int = MAX_FINAL_QAS
+) -> Tuple[List[Dict[str, Any]], Dict[str, int]]:
+    """Admit procedure-specific evidence first; regional rows are bounded backfill."""
+    accepted: List[Dict[str, Any]] = []
+    rejected = Counter()
+    regional_limit = max(1, int(limit * V1_2_MAX_REGIONAL_FRACTION))
+    regional_count = 0
+    for candidate in candidates:
+        relevance = _v1_2_relevance(candidate, query)
+        score = float(candidate.get("retrieval_score") or 0)
+        threshold = V1_2_MIN_FALLBACK_SCORE if relevance == "regional" else V1_2_MIN_DIRECT_SCORE
+        if relevance == "unrelated":
+            rejected["unrelated"] += 1
+            continue
+        if score < threshold:
+            rejected["below_threshold"] += 1
+            continue
+        if relevance == "regional":
+            if regional_count >= regional_limit:
+                rejected["regional_cap"] += 1
+                continue
+            regional_count += 1
+        item = dict(candidate)
+        item["procedure_relevance"] = relevance
+        item["claim_support"] = "direct" if relevance == "direct" else "indirect"
+        accepted.append(item)
+        if len(accepted) >= limit:
+            break
+    return accepted, dict(rejected)
+
+
 def _retrieval_cache_key(query: Dict[str, Any], top_k: int, limit: int) -> str:
     slug_scope = "+".join(sorted(query["procedures"])) or hashlib.sha1(
         query["search_text"].encode("utf-8")
@@ -376,11 +425,12 @@ def retrieve_case_qas(
     limit: int = MAX_FINAL_QAS,
     diagnostics: Optional[Dict[str, Any]] = None,
     use_cache: bool = True,
+    policy_version: str = "v1.1",
 ) -> List[Dict[str, Any]]:
     from caseprep.services.ttl_cache import retrieval_cache
 
     query = normalize_query(refined)
-    cache_key = _retrieval_cache_key(query, top_k, limit)
+    cache_key = f"{policy_version}|{_retrieval_cache_key(query, top_k, limit)}"
     if use_cache:
         cached = retrieval_cache.get(cache_key)
         if cached is not None:
@@ -438,7 +488,14 @@ def retrieve_case_qas(
     scoped_raw = [c for c in raw if c["retrieval_branch"] != "semantic_fallback"]
     if len(scoped_raw) >= limit:
         raw = scoped_raw
-    selected = rerank_and_dedupe(raw, query, limit=limit)
+    # v1.2 gates after reranking, so retain a wider candidate pool here. If we
+    # truncated first, high-vector regional matches could crowd exact-procedure
+    # evidence out before the relevance policy ever saw it.
+    rerank_limit = min(len(raw), max(limit * 3, limit)) if policy_version == "v1.2" else limit
+    selected = rerank_and_dedupe(raw, query, limit=rerank_limit)
+    rejected_reasons: Dict[str, int] = {}
+    if policy_version == "v1.2":
+        selected, rejected_reasons = apply_v1_2_relevance_gate(selected, query, limit=limit)
     run_diagnostics = {
         "embedding_count": 1,
         "embedding_ms": embed_ms,
@@ -448,6 +505,8 @@ def retrieve_case_qas(
         "failed_branches": sorted(failed_branches),
         "raw_candidate_count": len(raw),
         "selected_count": len(selected),
+        "rejected_reasons": rejected_reasons,
+        "policy_version": policy_version,
     }
     if diagnostics is not None:
         diagnostics.update(run_diagnostics)
