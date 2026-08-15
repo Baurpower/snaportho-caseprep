@@ -25,7 +25,7 @@ from caseprep.pipelines import packet_sections
 from caseprep.services import ai_fallback, curated_content_store, procedure_resolver
 from caseprep.services.case_identity_v1_1 import build_case_identity, enrich_refined_query
 from caseprep.services.caseprep_assembler_v1_1 import collect_sources, high_yield_items
-from caseprep.services.rag_retrieval_v1_1 import retrieve_case_qas
+from caseprep.services.rag_retrieval import retrieve_case_qas
 
 # Enrichment decorates a certified payload, but for an uncovered procedure it
 # *is* the anatomy / operative flow / pitfalls / postop content. A full gap-fill
@@ -130,10 +130,11 @@ def _section_meta(result: Dict[str, Any]) -> Dict[str, Any]:
 
 
 def _merge_pimp_questions(
-    curated: List[Dict[str, Any]], retrieved: List[Dict[str, Any]], limit: int = 15
+    curated: List[Dict[str, Any]], retrieved: List[Dict[str, Any]], limit: int = 15,
+    *, prompt: str = "", prioritize_prompt: bool = False,
 ) -> List[Dict[str, Any]]:
     """Curated attending questions first, then RAG items deduped against them."""
-    from caseprep.services.rag_retrieval_v1_1 import _near_duplicate
+    from caseprep.services.rag_retrieval import _near_duplicate
 
     merged: List[Dict[str, Any]] = []
     for entry in curated:
@@ -144,6 +145,18 @@ def _merge_pimp_questions(
         merged.append({**entry, "source": "rag", "rank": len(merged) + 1})
         if len(merged) >= limit:
             break
+    if prioritize_prompt:
+        from caseprep.services.prompt_understanding import lexical_terms
+
+        prompt_terms = lexical_terms([prompt])
+        merged.sort(
+            key=lambda item: len(
+                prompt_terms & lexical_terms([item.get("question", ""), item.get("answer", "")])
+            ),
+            reverse=True,
+        )
+        for index, entry in enumerate(merged):
+            entry["rank"] = index + 1
     return merged[:limit]
 
 
@@ -155,6 +168,7 @@ async def stream_caseprep_packet(
     cfg = config or CasePrepConfig.from_env()
     packet_id = uuid.uuid4().hex
     yield protocol.meta_event(packet_id)
+    yield protocol.progress_event("connecting", "Starting case preparation", 2, 8)
 
     prompt = (prompt or "").strip()
     if not prompt:
@@ -192,13 +206,27 @@ async def stream_caseprep_packet(
     # GPT call. Registry-backed enrichment supplies specialty/region for the
     # identity deterministically.
     preflight_started = time.monotonic()
-    resolved = await resolve_case()
+    yield protocol.progress_event("resolving", "Identifying the procedure", 8, 24)
+    resolve_task = asyncio.create_task(resolve_case())
+    while not resolve_task.done():
+        done, _ = await asyncio.wait({resolve_task}, timeout=2.0)
+        if done:
+            break
+        yield protocol.progress_event(
+            "resolving",
+            "Still identifying the best procedure match",
+            8,
+            24,
+            elapsed_ms=int((time.monotonic() - started) * 1000),
+            heartbeat=True,
+        )
+    resolved = await resolve_task
     refine_task = asyncio.create_task(refine_case())
     refined = enrich_refined_query({"search_text": prompt}, resolved, prompt)
     identity = build_case_identity(prompt, resolved, refined)
     preflight_ms = int((time.monotonic() - preflight_started) * 1000)
 
-    if identity["requires_clarification"]:
+    if identity["requires_clarification"] and policy_version != "v1.2":
         refine_task.cancel()
         yield protocol.clarification_event(
             identity,
@@ -227,6 +255,10 @@ async def stream_caseprep_packet(
         else None
     )
     yield protocol.header_event(identity, build_packet_header(identity, payload))
+    yield protocol.progress_event(
+        "assembling", "Loading the case essentials", 24, 38,
+        elapsed_ms=int((time.monotonic() - started) * 1000),
+    )
 
     # ── Above-the-fold sections: synchronous curated transforms ──────────────
     for section_id, builder in (
@@ -253,6 +285,7 @@ async def stream_caseprep_packet(
     retrieval_diagnostics: Dict[str, Any] = {}
 
     async def run_retrieval() -> Dict[str, Any]:
+        refined_full: Dict[str, Any] = refined
         try:
             # Merge the (slow, parallel) LLM refinement into the registry-backed
             # scope before querying; degrade to the registry scope on failure.
@@ -276,7 +309,26 @@ async def stream_caseprep_packet(
                 + retrieval_diagnostics.get("pinecone_query_ms", 0),
             }
         except Exception as exc:
-            return _failed_pipeline("pocket_pimped", f"Pocket Pimped retrieval failed: {exc}")
+            # Online retrieval is optional. The bundled, source-backed bank is
+            # the deterministic outage path and must still return useful Q/A.
+            try:
+                from caseprep.services.rag_retrieval import bundled_semantic_qas, normalize_query
+
+                candidates = bundled_semantic_qas(normalize_query(refined_full), limit=15)
+                warnings.append(f"Online Pocket Pimped retrieval degraded: {type(exc).__name__}.")
+                return {
+                    "pipeline_id": "pocket_pimped",
+                    "status": "complete" if candidates else "unavailable",
+                    "items": high_yield_items(candidates),
+                    "source_ids": [],
+                    "warnings": [],
+                    "duration_ms": 0,
+                }
+            except Exception as fallback_exc:
+                return _failed_pipeline(
+                    "pocket_pimped",
+                    f"Pocket Pimped retrieval failed: {type(fallback_exc).__name__}",
+                )
 
     async def run_enrichment(pimp_questions: List[Dict[str, Any]]) -> Optional[Any]:
         # v1.2 never delays a certified packet for optional prose, and strong
@@ -326,6 +378,10 @@ async def stream_caseprep_packet(
     }
 
     retrieval_task = asyncio.create_task(run_retrieval())
+    yield protocol.progress_event(
+        "retrieving", "Finding high-yield questions", 38, 65,
+        elapsed_ms=int((time.monotonic() - started) * 1000),
+    )
     section_tasks = {
         asyncio.create_task(_safe_pipeline(section_id, fn, payload)): section_id
         for section_id, fn in deterministic_pipelines.items()
@@ -368,6 +424,18 @@ async def stream_caseprep_packet(
             )
 
     # ── Pimp questions: curated first, then Pocket Pimped RAG ────────────────
+    while not retrieval_task.done():
+        done, _ = await asyncio.wait({retrieval_task}, timeout=2.0)
+        if done:
+            break
+        yield protocol.progress_event(
+            "retrieving",
+            "Searching grounded questions and teaching points",
+            38,
+            65,
+            elapsed_ms=int((time.monotonic() - started) * 1000),
+            heartbeat=True,
+        )
     retrieval_result = await retrieval_task
     pipeline_status["pocket_pimped"] = {
         "status": retrieval_result["status"],
@@ -380,7 +448,12 @@ async def stream_caseprep_packet(
             warnings.append(warning)
 
     curated_items = (curated_questions or {}).get("items") or []
-    pimp_items = _merge_pimp_questions(curated_items, retrieval_result.get("items") or [])
+    pimp_items = _merge_pimp_questions(
+        curated_items,
+        retrieval_result.get("items") or [],
+        prompt=prompt,
+        prioritize_prompt=bool(identity.get("explicit_question")),
+    )
     pimp_source = (
         "mixed"
         if curated_items and retrieval_result.get("items")
@@ -413,7 +486,26 @@ async def stream_caseprep_packet(
     elif retrieval_result["status"] == "failed":
         yield protocol.section_error_event("pimp_questions", "Pimp question retrieval failed.")
 
-    enrichment = await run_enrichment(pimp_items) if enrichment_pending else None
+    enrichment = None
+    if enrichment_pending:
+        yield protocol.progress_event(
+            "enhancing", "Enhancing the remaining case details", 65, 92,
+            elapsed_ms=int((time.monotonic() - started) * 1000),
+        )
+        enrichment_task = asyncio.create_task(run_enrichment(pimp_items))
+        while not enrichment_task.done():
+            done, _ = await asyncio.wait({enrichment_task}, timeout=2.0)
+            if done:
+                break
+            yield protocol.progress_event(
+                "enhancing",
+                "Still building anatomy and operative details",
+                65,
+                92,
+                elapsed_ms=int((time.monotonic() - started) * 1000),
+                heartbeat=True,
+            )
+        enrichment = await enrichment_task
     if enrichment_pending:
         generated_paths: List[str] = []
         if enrichment:
@@ -467,6 +559,10 @@ async def stream_caseprep_packet(
             "sources", status="complete", payload={"sources": sources}, source="mixed"
         )
 
+    yield protocol.progress_event(
+        "finalizing", "Finishing your case prep packet", 92, 99,
+        elapsed_ms=int((time.monotonic() - started) * 1000),
+    )
     yield protocol.done_event(
         pipeline_status,
         {

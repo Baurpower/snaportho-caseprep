@@ -389,6 +389,32 @@ def resolve_procedure(prompt: str, openai_client: Optional[Any] = None) -> Dict[
     original = (prompt or "").strip()
     norm = _normalize(original)
 
+    # High-risk modifiers and high-frequency resident shorthand are routed
+    # before the generic alias scorer. This prevents a broad alias such as
+    # "total hip arthroplasty" from beating the explicitly requested approach.
+    deterministic_routes = (
+        (r"\b(direct anterior|anterior)\b.*\b(total hip|hip arthroplasty|hip replacement|tha)\b", "tha_anterior"),
+        (r"\b(total hip|hip arthroplasty|hip replacement|tha)\b.*\b(direct anterior|anterior)\b", "tha_anterior"),
+        (r"\b(infected|infection|pji|cement spacer|antibiotic spacer|explant)\b.*\b(tka|total knee|knee arthroplasty)\b", "revision_tka"),
+        (r"\b(tka|total knee|knee arthroplasty)\b.*\b(infected|infection|pji|cement spacer|antibiotic spacer|explant)\b", "revision_tka"),
+        (r"\bsubtrochanteric\b.*\b(imn|im nail|nail|nailing|fracture)\b", "subtrochanteric_femur_fracture_im_nail"),
+        (r"\btriceps\b.*\b(repair|reconstruction)\b", "triceps_tendon_repair"),
+        (r"\bpatellar tendon\b.*\b(repair|debridement|debreidment)\b", "patellar_tendon_repair"),
+        (r"\b(meniscectomy|menisectomy|partial meniscectomy)\b", "partial_meniscectomy"),
+        (r"\bposterior\b.*\b(fusion)\b.*\b(scoliosis|deformity)\b", "posterior_spinal_fusion_scoliosis"),
+        (r"\b(volar |dorsal )?ganglion\b.*\b(excision|removal|release)?\b", "wrist_ganglion_excision"),
+        (r"\bankle\b.*\b(arthrodesis|fusion)\b", "ankle_arthrodesis"),
+        (r"\b(minimally invasive |endoscopic )?partial plantar fasciot\w*\b", "plantar_fasciitis_release"),
+        (r"\bhip disarticulation\b", "hip_disarticulation"),
+        (r"\b(proximal humerus|shoulder)\b.*\b(orif|fixation)\b", "proximal_humerus_fracture_orif"),
+        (r"\b(tibia|tibial)\b.*\b(imn|im nail|intramedullary nail)\b", "tibial_shaft_im_nail"),
+        (r"\b(imn|im nail|intramedullary nail)\b.*\b(tibia|tibial)\b", "tibial_shaft_im_nail"),
+        (r"\b(orif|fixation)\b.*\b(proximal tibia|tibial plateau)\b", "tibial_plateau_fracture_orif"),
+    )
+    for pattern, slug in deterministic_routes:
+        if re.search(pattern, norm) and slug in SLUG_TO_DEF:
+            return _result(original, slug, "modifier_alias", 100.0, 1.0, matched_alias=pattern)
+
     # Carpal tunnel release is one canonical procedure with approach-specific
     # branches. Generic requests require an explicit approach choice; explicit
     # open/endoscopic requests retain that identity without creating web-owned

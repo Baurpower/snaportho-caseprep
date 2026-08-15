@@ -61,19 +61,30 @@ def _resolution_problem(prompt: str, case: Dict[str, Any], header: Dict[str, Any
             "unresolved_prompt_tokens": ["laparoscopic"],
             "options": [{"label": canonical_name, "prompt": cleaned or canonical_name}],
         }
-    if not case.get("canonical_slug"):
+    from caseprep.services.prompt_understanding import compatible_with_slug, extract_prompt_profile
+
+    profile = extract_prompt_profile(prompt)
+    if not case.get("canonical_slug") and not profile.get("regions"):
         return {
-            "reason": "Add the operation or clinical context so CasePrep can build a procedure-specific packet.",
+            "reason": "Add the body region and intended operation so CasePrep can retrieve procedure-relevant questions.",
             "unresolved_prompt_tokens": prompt.split(),
             "options": [],
         }
-    procedure_type = str(header.get("procedure_type") or "")
-    tokens = set(re.findall(r"[a-z]+", lowered))
-    if procedure_type == "fracture_fixation" and "fracture" in tokens and not (tokens & OPERATIVE_WORDS):
+    if profile.get("compound") and {"hip", "knee"}.issubset(set(profile.get("regions") or [])):
         return {
-            "reason": "Is this preparation for operative fixation or nonoperative fracture management?",
-            "unresolved_prompt_tokens": ["fracture"],
-            "options": [{"label": f"{canonical_name} operative preparation", "prompt": canonical_name}],
+            "reason": "This describes more than one major procedure. Choose the hip or knee case so each receives procedure-specific preparation.",
+            "unresolved_prompt_tokens": ["hip", "knee"],
+            "options": [
+                {"label": "Total Hip Arthroplasty", "prompt": "Total Hip Arthroplasty"},
+                {"label": "Total Knee Arthroplasty", "prompt": "Total Knee Arthroplasty"},
+            ],
+        }
+    compatible, reasons = compatible_with_slug(profile, case.get("canonical_slug"))
+    if not compatible:
+        return {
+            "reason": "The requested case modifiers do not match the selected packet: " + "; ".join(reasons),
+            "unresolved_prompt_tokens": profile.get("modifiers") or [],
+            "options": [],
         }
     return None
 
@@ -105,8 +116,8 @@ def _transform_section(data: Dict[str, Any]) -> Tuple[Optional[Dict[str, Any]], 
     if grounded:
         items = grounded
         generated = []
-    if section_id == "operative_flow" and generated:
-        warnings.append("Omitted operative flow because it lacked direct source support.")
+    if generated:
+        warnings.append(f"Omitted {section_id} because it lacked direct source support.")
         return None, warnings
     if not items and raw_items:
         return None, warnings
@@ -153,6 +164,9 @@ async def stream_caseprep_packet_v1_2(
                 "case": data.get("case"),
                 "unresolved_prompt_tokens": problem.get("unresolved_prompt_tokens", []) if problem else [],
                 "compatibility_status": "needs_clarification" if problem else "valid",
+                "modifiers": (data.get("case") or {}).get("modifiers") or [],
+                "explicit_question": bool((data.get("case") or {}).get("explicit_question")),
+                "compound": bool((data.get("case") or {}).get("compound")),
             }
             yield sse_event("resolution", resolution)
             if problem:
@@ -191,7 +205,11 @@ async def stream_caseprep_packet_v1_2(
             total = grounded + generated
             grounded_percentage = round(grounded / total, 3) if total else 0
             certified = bool((header_data or {}).get("header", {}).get("certified"))
-            if certified:
+            pimp_count = len((emitted_sections.get("pimp_questions") or {}).get("items") or [])
+            citation_count = sum(int(section.get("citation_count") or 0) for section in emitted_sections.values())
+            pimp_items = (emitted_sections.get("pimp_questions") or {}).get("items") or []
+            direct_pimp_count = sum(item.get("procedure_relevance") == "direct" for item in pimp_items)
+            if certified and pimp_count >= 8:
                 coverage_status = "certified"
             elif grounded_percentage >= 0.8 and grounded >= 8:
                 coverage_status = "grounded_complete"
@@ -202,7 +220,15 @@ async def stream_caseprep_packet_v1_2(
             else:
                 coverage_status = "unavailable"
             omitted = [section for section in EXPECTED_CLINICAL_SECTIONS if section not in emitted_sections]
-            quality_gate = "passed" if coverage_status in {"certified", "grounded_complete"} else "limited"
+            quality_gate = (
+                "passed"
+                if coverage_status in {"certified", "grounded_complete"}
+                and pimp_count >= 8
+                and grounded_percentage >= 0.8
+                and citation_count > 0
+                and direct_pimp_count >= min(4, pimp_count)
+                else "limited"
+            )
             summary = {
                 "coverage_status": coverage_status,
                 "quality_gate": quality_gate,
@@ -210,6 +236,9 @@ async def stream_caseprep_packet_v1_2(
                 "grounded_count": grounded,
                 "generated_count": generated,
                 "omitted_sections": omitted,
+                "pimp_question_count": pimp_count,
+                "citation_count": citation_count,
+                "direct_pimp_question_count": direct_pimp_count,
             }
             yield sse_event("core_done", summary)
             timing = dict(data.get("timing") or {})

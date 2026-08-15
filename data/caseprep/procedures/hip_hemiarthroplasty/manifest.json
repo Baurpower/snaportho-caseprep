@@ -10,11 +10,13 @@
   "version": "1.0.0",
   "caseprep_schema_version": "brobot_case_prep_payload_v2",
   "coverage_score": 90,
-  "runtime_enabled": false,
+  "runtime_enabled": true,
+  "promoted_by": "alexbaur",
+  "promoted_at": "2026-08-15T20:30:00Z",
   "deprecated": false,
   "replacement_slug": null,
   "reviewer": "brobot_migration",
   "certified_at": "2026-06-06T18:14:05.550726Z",
   "last_reviewed_at": "2026-06-06T18:14:05.550726Z",
-  "source_payload_hash": "b81cdb10904d2add3c9887c8f5fe42a205baff22702d13ab0d152da76b2f07e2"
+  "source_payload_hash": "dfdd5be85056766f70a759a92772132a52f118fb14251f8be5ddf2dd32e770e1"
 }

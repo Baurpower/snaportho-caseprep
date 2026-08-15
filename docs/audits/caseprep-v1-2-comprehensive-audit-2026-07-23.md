@@ -38,7 +38,7 @@ A resident with 30 minutes before surgery will still open Orthobullets (figures 
 
 | Source | Evidence |
 |--------|----------|
-| Code | `procedure_registry.py`, `v1_1_web_stream.py`, `packet_sections.py`, `rag_retrieval_v1_1.py`, `enrichment_prompts.py`, `curated_content_store.py`, web packet UI, iOS BroBot CasePrep |
+| Code | `procedure_registry.py`, `v1_1_web_stream.py`, `packet_sections.py`, `rag_retrieval.py`, `enrichment_prompts.py`, `curated_content_store.py`, web packet UI, iOS BroBot CasePrep |
 | Data | 60 registry procedures, 24 certified payloads, manifests (21 `runtime_enabled=true`), modules, CTR clinical_review tree |
 | Offline resolver stress | ~320 alias-heavy prompts + **53 adversarial** prompts (ambiguity, slang, typos, diagnoses) |
 | Content scoring | Field coverage across all 24 certified; deep sample of ACL, TKA, THA, RSA, distal radius, SCH, etc. |
@@ -583,7 +583,7 @@ acetabulum anterior/posterior, ACL, distal femur, distal radius, femoral shaft, 
 - Packet section order: `caseprep/schemas_v1_1_packet.py`  
 - Stream engine: `caseprep/engines/v1_1_web_stream.py`  
 - Deterministic pipelines: `caseprep/pipelines/packet_sections.py`  
-- RAG: `caseprep/services/rag_retrieval_v1_1.py`  
+- RAG: `caseprep/services/rag_retrieval.py`
 - Enrichment prompts: `caseprep/services/enrichment_prompts.py`  
 - Web UI order: `snaportho-web/src/components/caseprep-packet/CasePrepPacket.tsx`  
 - Flags: `snaportho-web/src/lib/caseprep-v1-1/flags.ts`  

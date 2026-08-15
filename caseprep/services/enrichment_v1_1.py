@@ -232,7 +232,7 @@ class EnrichmentResult:
     def apply_to_section(
         self, section_id: str, items: List[Dict[str, Any]]
     ) -> Tuple[List[Dict[str, Any]], List[str]]:
-        from caseprep.services.rag_retrieval_v1_1 import _near_duplicate
+        from caseprep.services.rag_retrieval import _near_duplicate
 
         output = list(items)  # curated/RAG content is never modified or removed
         generated_paths: List[str] = []

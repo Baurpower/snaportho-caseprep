@@ -113,6 +113,11 @@ class WebStreamE2ETests(unittest.TestCase):
         self.assertEqual(meta["caseprep_version"], "v1.1")
         self.assertEqual(meta["engine"], "web_packet_stream")
         self.assertTrue(meta["packet_id"])
+        progress = [data for name, data in events if name == "progress"]
+        self.assertTrue(progress)
+        self.assertEqual(progress[0]["phase"], "connecting")
+        self.assertTrue(any(item["phase"] == "retrieving" for item in progress))
+        self.assertLessEqual(progress[0]["progress_min"], progress[0]["progress_max"])
 
     def test_above_the_fold_sections_stream_before_done(self) -> None:
         events = self._stream("trigger thumb release")
@@ -184,9 +189,10 @@ class WebStreamE2ETests(unittest.TestCase):
         events = parse_sse(response.content)
         names = [name for name, _ in events]
         self.assertEqual(names[-1], "done")
-        self.assertIn("section_error", names)
+        self.assertIn("section", names)
+        self.assertNotIn("error", names)
         done = events[-1][1]
-        self.assertEqual(done["pipeline_status"]["pocket_pimped"]["status"], "failed")
+        self.assertEqual(done["pipeline_status"]["pocket_pimped"]["status"], "complete")
 
     def test_empty_prompt_is_fatal_error(self) -> None:
         response = self.client.post("/case-prep/web/v1.1/stream", json={"prompt": "  "})
@@ -276,7 +282,7 @@ class NonStreamRegressionTests(unittest.TestCase):
             "caseprep.engines.v1_1_web.ai_fallback.refine_prompt",
             return_value={"search_text": "trigger finger release"},
         ), mock.patch(
-            "caseprep.services.rag_retrieval_v1_1.retrieve_case_qas",
+            "caseprep.services.rag_retrieval.retrieve_case_qas",
             return_value=[],
         ), mock.patch(
             "caseprep.engines.v1_1_web.retrieve_case_qas", return_value=[]

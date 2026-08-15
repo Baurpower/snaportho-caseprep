@@ -1,4 +1,4 @@
-"""Fast, bounded Pocket-Pimp-style retrieval for the web-only CasePrep v1.1 preview.
+"""Fast, bounded Pocket-Pimp-style retrieval shared by CasePrep packet policies.
 
 The legacy retriever is deliberately untouched. This module creates one embedding,
 runs three scoped Pinecone queries concurrently, preserves native Q/A fields, and
@@ -8,11 +8,14 @@ reranks/deduplicates before returning a small candidate set.
 from __future__ import annotations
 
 import hashlib
+import json
 import os
 import re
 import time
 from collections import Counter
 from concurrent.futures import ThreadPoolExecutor, as_completed
+from functools import lru_cache
+from pathlib import Path
 from typing import Any, Callable, Dict, Iterable, List, Optional, Sequence, Tuple
 
 BRANCH_TOP_K = 24
@@ -22,7 +25,9 @@ MIN_VECTOR_SCORE = 0.45
 V1_2_MIN_DIRECT_SCORE = 0.55
 V1_2_MIN_FALLBACK_SCORE = 0.72
 V1_2_MAX_REGIONAL_FRACTION = 0.20
+V1_2_MIN_QUESTION_TARGET = 8
 POCKET_PIMP_SOURCE_COLLECTION = "pocket_pimped"
+BUNDLED_QA_PATH = Path(__file__).resolve().parents[2] / "normalized_pp_v1.jsonl"
 
 
 def _clean(value: Any) -> str:
@@ -38,6 +43,81 @@ def _strings(value: Any) -> List[str]:
         return []
     values = value if isinstance(value, list) else [value]
     return [_slug(item) for item in values if _slug(item)]
+
+
+def _procedure_tokens(value: str) -> set[str]:
+    """Normalize canonical and legacy labels to procedure identity words."""
+    return {
+        token for token in _slug(value).split("_")
+        if token and token not in {
+            "fracture", "fx", "open", "reduction", "internal", "fixation", "orif"
+        }
+    }
+
+
+def _procedure_compatible(expected: Sequence[str], actual: Sequence[str]) -> bool:
+    for left in expected:
+        left_tokens = _procedure_tokens(left)
+        for right in actual:
+            right_tokens = _procedure_tokens(right)
+            if left_tokens and right_tokens and left_tokens == right_tokens:
+                return True
+    return False
+
+
+@lru_cache(maxsize=1)
+def _bundled_qa_rows() -> Tuple[Dict[str, Any], ...]:
+    """Load the shipped Pocket Pimped bank as an outage-safe grounded source."""
+    if not BUNDLED_QA_PATH.exists():
+        return ()
+    rows: List[Dict[str, Any]] = []
+    try:
+        with BUNDLED_QA_PATH.open("r", encoding="utf-8") as handle:
+            for line_number, line in enumerate(handle, 1):
+                try:
+                    row = json.loads(line)
+                except (TypeError, ValueError):
+                    continue
+                if row.get("question") and row.get("answer"):
+                    row["_line_number"] = line_number
+                    rows.append(row)
+    except OSError:
+        return ()
+    return tuple(rows)
+
+
+def bundled_case_qas(query: Dict[str, Any], limit: int = MAX_FINAL_QAS) -> List[Dict[str, Any]]:
+    """Return exact-procedure Q/A if online vector retrieval under-delivers."""
+    if not query["procedures"]:
+        return []
+    candidates: List[Dict[str, Any]] = []
+    for row in _bundled_qa_rows():
+        metadata = row.get("metadata") if isinstance(row.get("metadata"), dict) else {}
+        procedures = _strings([
+            metadata.get("procedure"), metadata.get("procedure2"), metadata.get("procedure3")
+        ])
+        if not _procedure_compatible(query["procedures"], procedures):
+            continue
+        line_number = int(row.get("_line_number") or 0)
+        candidates.append({
+            "record_id": f"bundled-pp-{line_number}",
+            "question": _clean(row.get("question")),
+            "answer": _clean(row.get("answer")),
+            "additional_info": _clean(row.get("additional_info")),
+            "source": "Pocket Pimped bundled bank",
+            "source_collection": POCKET_PIMP_SOURCE_COLLECTION,
+            "content_type": "qa",
+            "specialties": _strings([metadata.get("specialty"), metadata.get("specialty2")]),
+            "region": _slug(metadata.get("region")),
+            "subregion": _slug(metadata.get("subregion")),
+            "diagnoses": _strings([metadata.get("diagnosis1"), metadata.get("diagnosis2")]),
+            # Compatibility was proven above; preserve the strict downstream guard.
+            "procedures": list(query["procedures"]),
+            "approaches": [],
+            "vector_score": 0.82,
+            "retrieval_branch": "bundled_fallback",
+        })
+    return rerank_and_dedupe(candidates, query, limit=limit)
 
 
 def normalize_query(refined: Any) -> Dict[str, Any]:
@@ -57,7 +137,73 @@ def normalize_query(refined: Any) -> Dict[str, Any]:
         "diagnoses": _strings(row.get("diagnoses") or row.get("diagnosis")),
         "procedures": _strings(row.get("procedures") or row.get("procedure")),
         "approaches": approaches,
+        "modifiers": _strings(row.get("modifiers")),
+        "explicit_question": bool(row.get("explicit_question")),
+        "compound": bool(row.get("compound")),
     }
+
+
+def bundled_semantic_qas(query: Dict[str, Any], limit: int = MAX_FINAL_QAS) -> List[Dict[str, Any]]:
+    """Grounded local backfill for sparse/new procedures and vector outages.
+
+    Exact procedure metadata wins. Otherwise rows must match the inferred body
+    region; prompt lexical overlap promotes procedure-specific rows ahead of
+    general regional anatomy. This is intentionally source-backed and never
+    fabricates an answer.
+    """
+    from caseprep.services.prompt_understanding import lexical_terms
+
+    query_terms = lexical_terms([
+        query["search_text"], *query["procedures"], *query["diagnoses"], *query["modifiers"]
+    ])
+    candidates: List[Dict[str, Any]] = []
+    for row in _bundled_qa_rows():
+        metadata = row.get("metadata") if isinstance(row.get("metadata"), dict) else {}
+        procedures = _strings([metadata.get("procedure"), metadata.get("procedure2"), metadata.get("procedure3")])
+        region = _slug(metadata.get("region"))
+        subregion = _slug(metadata.get("subregion"))
+        exact = bool(query["procedures"] and _procedure_compatible(query["procedures"], procedures))
+        region_match = bool(query["region"] and query["region"] in {region, subregion})
+        row_terms = lexical_terms([
+            row.get("question", ""), row.get("answer", ""), row.get("additional_info", ""),
+            *procedures, str(metadata.get("diagnosis1") or ""), str(metadata.get("diagnosis2") or ""),
+        ])
+        overlap = len(query_terms & row_terms)
+        # A lexical hit can bridge imperfect legacy region metadata; pure
+        # family backfill must agree on region.
+        if not exact and overlap < 2 and not region_match:
+            continue
+        if not exact and not region_match and overlap < 3:
+            continue
+        line_number = int(row.get("_line_number") or 0)
+        vector_score = min(0.92, 0.64 + (0.12 if exact else 0) + min(0.12, overlap * 0.03) + (0.04 if region_match else 0))
+        candidates.append({
+            "record_id": f"bundled-pp-{line_number}",
+            "question": _clean(row.get("question")),
+            "answer": _clean(row.get("answer")),
+            "additional_info": _clean(row.get("additional_info")),
+            "source": "Pocket Pimped bundled bank",
+            "source_collection": POCKET_PIMP_SOURCE_COLLECTION,
+            "content_type": "qa",
+            "specialties": _strings([metadata.get("specialty"), metadata.get("specialty2")]),
+            "region": region,
+            "subregion": subregion,
+            "diagnoses": _strings([metadata.get("diagnosis1"), metadata.get("diagnosis2")]),
+            "procedures": procedures,
+            "approaches": [],
+            "vector_score": vector_score,
+            "retrieval_branch": "bundled_exact" if exact else "bundled_regional",
+            "_lexical_overlap": overlap,
+        })
+    candidates.sort(
+        key=lambda item: (
+            item["retrieval_branch"] == "bundled_exact",
+            item.get("_lexical_overlap", 0),
+            item["vector_score"],
+        ),
+        reverse=True,
+    )
+    return rerank_and_dedupe(candidates, query, limit=limit)
 
 
 def embedding_text(query: Dict[str, Any]) -> str:
@@ -250,6 +396,13 @@ def score_candidate(candidate: Dict[str, Any], query: Dict[str, Any]) -> float:
     if query_bigrams:
         candidate_bigrams = _bigrams(f"{candidate['question']} {candidate['answer']}")
         score += min(0.15, 0.05 * len(query_bigrams & candidate_bigrams))
+    # Explicit questions and modifier-rich prompts need retrieval to answer
+    # the user's actual concept before falling back to the canonical bank's
+    # generic popularity order.
+    query_words = _anchor_tokens(query["search_text"])
+    candidate_words = _anchor_tokens(f"{candidate['question']} {candidate['answer']} {candidate['additional_info']}")
+    if query_words:
+        score += min(0.30 if query.get("explicit_question") else 0.18, 0.04 * len(query_words & candidate_words))
     return round(score, 6)
 
 
@@ -301,7 +454,7 @@ def query_anchors(query: Dict[str, Any]) -> set[str]:
 
 def _scope_compatible(candidate: Dict[str, Any], query: Dict[str, Any]) -> bool:
     """Reject explicit cross-procedure/approach metadata before reranking."""
-    if query["procedures"] and candidate["procedures"]:
+    if query["procedures"] and candidate["procedures"] and candidate.get("retrieval_branch") != "bundled_regional":
         if not set(query["procedures"]) & set(candidate["procedures"]):
             return False
     if query["approaches"] and candidate["approaches"]:
@@ -312,8 +465,12 @@ def _scope_compatible(candidate: Dict[str, Any], query: Dict[str, Any]) -> bool:
         # only thing keeping it on-topic — and embeddings happily rank "portal
         # placement in elbow arthroscopy" against a biceps case. Require one
         # shared anchor word with the case before it can reach the packet.
+        exact_procedure = bool(
+            query["procedures"] and candidate["procedures"]
+            and set(query["procedures"]) & set(candidate["procedures"])
+        )
         anchors = query_anchors(query)
-        if anchors:
+        if anchors and not exact_procedure:
             candidate_text = f"{candidate['question']} {candidate['answer']} {candidate['additional_info']}"
             if not (anchors & _anchor_tokens(candidate_text)):
                 return False
@@ -321,6 +478,18 @@ def _scope_compatible(candidate: Dict[str, Any], query: Dict[str, Any]) -> bool:
     approaches = set(query["approaches"])
     if any("posterior" in item for item in approaches):
         if "lateral femoral cutaneous nerve" in text or "direct anterior interval" in text:
+            return False
+    modifiers = set(query.get("modifiers") or [])
+    if candidate.get("retrieval_branch") == "bundled_regional":
+        if query["region"] and candidate.get("region") and candidate.get("region") != query["region"]:
+            return False
+        if "infection" in modifiers and not re.search(r"\b(infect\w*|pji|septic|spacer|aspirat\w*|wbc)\b", text):
+            return False
+        if "anterior" in modifiers and "posterior" in text and "anterior" not in text:
+            return False
+        if "posterior" in modifiers and "anterior" in text and "posterior" not in text:
+            return False
+        if "nonoperative" in modifiers and re.search(r"\b(orif|fixation|nail|arthroplasty|repair)\b", text):
             return False
     return True
 
@@ -366,10 +535,21 @@ def rerank_and_dedupe(
 def _v1_2_relevance(candidate: Dict[str, Any], query: Dict[str, Any]) -> str:
     if query["procedures"] and set(query["procedures"]) & set(candidate["procedures"]):
         return "direct"
+    # A recognized procedure may not yet have procedure-tagged questions in the
+    # bank. The bundled fallback is already constrained to the resolved body
+    # region (and modifier filters run in _scope_compatible), so admit those
+    # rows as explicitly regional evidence instead of treating them as
+    # unrelated merely because the sparse procedure name is absent verbatim.
+    if (
+        candidate.get("retrieval_branch") == "bundled_regional"
+        and query.get("region")
+        and candidate.get("region") == query["region"]
+    ):
+        return "regional"
     anchors = query_anchors(query)
     text = f"{candidate['question']} {candidate['answer']} {candidate['additional_info']}"
     overlap = anchors & _anchor_tokens(text)
-    if overlap and candidate["retrieval_branch"] != "semantic_fallback":
+    if overlap and candidate["retrieval_branch"] not in {"semantic_fallback", "bundled_regional"}:
         return "indirect"
     if overlap:
         return "regional"
@@ -383,11 +563,15 @@ def apply_v1_2_relevance_gate(
     accepted: List[Dict[str, Any]] = []
     rejected = Counter()
     regional_limit = max(1, int(limit * V1_2_MAX_REGIONAL_FRACTION))
+    if any(candidate.get("retrieval_branch") == "bundled_regional" for candidate in candidates):
+        regional_limit = max(regional_limit, V1_2_MIN_QUESTION_TARGET)
     regional_count = 0
     for candidate in candidates:
         relevance = _v1_2_relevance(candidate, query)
         score = float(candidate.get("retrieval_score") or 0)
-        threshold = V1_2_MIN_FALLBACK_SCORE if relevance == "regional" else V1_2_MIN_DIRECT_SCORE
+        threshold = 0.58 if candidate.get("retrieval_branch") == "bundled_regional" else (
+            V1_2_MIN_FALLBACK_SCORE if relevance == "regional" else V1_2_MIN_DIRECT_SCORE
+        )
         if relevance == "unrelated":
             rejected["unrelated"] += 1
             continue
@@ -439,15 +623,33 @@ def retrieve_case_qas(
                 diagnostics.update(cached_diagnostics)
                 diagnostics["cache_hit"] = True
             return [dict(item) for item in selected]
-    if embed_fn is None or index_obj is None:
-        import vector_search
+    try:
+        if embed_fn is None or index_obj is None:
+            import vector_search
 
-        embed_fn = embed_fn or vector_search.embed_text
-        index_obj = index_obj or vector_search.index
+            embed_fn = embed_fn or vector_search.embed_text
+            index_obj = index_obj or vector_search.index
 
-    embed_started = time.monotonic()
-    vector = embed_fn(embedding_text(query))
-    embed_ms = int((time.monotonic() - embed_started) * 1000)
+        embed_started = time.monotonic()
+        vector = embed_fn(embedding_text(query))
+        embed_ms = int((time.monotonic() - embed_started) * 1000)
+    except Exception as exc:
+        bundled = bundled_semantic_qas(query, limit=limit)
+        if diagnostics is not None:
+            diagnostics.update({
+                "embedding_count": 0,
+                "embedding_ms": 0,
+                "pinecone_query_ms": 0,
+                "branch_count": 0,
+                "failed_branches": ["vector_setup"],
+                "vector_error": type(exc).__name__,
+                "raw_candidate_count": 0,
+                "selected_count": len(bundled),
+                "bundled_fallback_count": len(bundled),
+                "policy_version": policy_version,
+                "cache_hit": False,
+            })
+        return bundled
     branches = build_query_branches(query)
 
     def run_branch(name: str, filter_value: Optional[Dict[str, Any]]) -> Tuple[str, Any]:
@@ -496,6 +698,24 @@ def retrieve_case_qas(
     rejected_reasons: Dict[str, int] = {}
     if policy_version == "v1.2":
         selected, rejected_reasons = apply_v1_2_relevance_gate(selected, query, limit=limit)
+    bundled_count = 0
+    needs_bundled_backfill = (
+        (
+            bool(query.get("explicit_question"))
+            or len(selected) < min(limit, V1_2_MIN_QUESTION_TARGET)
+        )
+        if policy_version == "v1.2"
+        else not selected
+    )
+    if needs_bundled_backfill:
+        bundled = bundled_semantic_qas(query, limit=limit * 2)
+        bundled_count = len(bundled)
+        combined = rerank_and_dedupe([*selected, *bundled], query, limit=max(limit * 2, limit))
+        if policy_version == "v1.2":
+            selected, extra_rejected = apply_v1_2_relevance_gate(combined, query, limit=limit)
+            rejected_reasons.update(extra_rejected)
+        else:
+            selected = combined[:limit]
     run_diagnostics = {
         "embedding_count": 1,
         "embedding_ms": embed_ms,
@@ -505,6 +725,7 @@ def retrieve_case_qas(
         "failed_branches": sorted(failed_branches),
         "raw_candidate_count": len(raw),
         "selected_count": len(selected),
+        "bundled_fallback_count": bundled_count,
         "rejected_reasons": rejected_reasons,
         "policy_version": policy_version,
     }

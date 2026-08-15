@@ -15,6 +15,9 @@ def build_case_identity(
 ) -> Dict[str, Any]:
     age_match = re.search(r"\b(\d{1,3})\s*(?:yo|y/o|year[- ]old)\b", prompt, re.I)
     laterality_match = re.search(r"\b(left|right|bilateral)\b", prompt, re.I)
+    from caseprep.services.prompt_understanding import extract_prompt_profile
+
+    profile = extract_prompt_profile(prompt)
     return {
         "requested_case": prompt,
         "canonical_slug": resolved.get("procedure_slug"),
@@ -30,6 +33,9 @@ def build_case_identity(
         "confidence": float(resolved.get("confidence") or resolved.get("match_score") or 0.0),
         "requires_clarification": bool(resolved.get("requires_clarification")),
         "clarification_reason": resolved.get("clarification_reason"),
+        "modifiers": profile["modifiers"],
+        "explicit_question": profile["explicit_question"],
+        "compound": profile["compound"],
     }
 
 
@@ -39,6 +45,14 @@ def enrich_refined_query(
     output = dict(refined) if isinstance(refined, dict) else {"search_text": prompt}
     output.setdefault("search_text", prompt)
     output.setdefault("raw_prompt", prompt)
+    from caseprep.services.prompt_understanding import extract_prompt_profile
+
+    profile = extract_prompt_profile(prompt)
+    output["modifiers"] = list(dict.fromkeys([*(output.get("modifiers") or []), *profile["modifiers"]]))
+    output["explicit_question"] = profile["explicit_question"]
+    output["compound"] = profile["compound"]
+    if not output.get("region") and profile.get("region"):
+        output["region"] = profile["region"]
     slug = resolved.get("procedure_slug")
     if slug and not output.get("procedures"):
         output["procedures"] = [slug]

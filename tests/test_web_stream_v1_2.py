@@ -57,6 +57,14 @@ class WebStreamV12Tests(unittest.IsolatedAsyncioTestCase):
         self.assertFalse(any(name == "section" for name, _ in events))
         self.assertEqual(events[-1][1]["quality_gate"], "withheld")
 
+    async def test_fracture_prompt_is_useful_without_terminal_clarification(self):
+        with patch("caseprep.engines.v1_2_web_stream.stream_caseprep_packet", upstream):
+            events = [decode(frame) async for frame in stream_caseprep_packet_v1_2(
+                "distal radius fracture", openai_client=None, config=None
+            )]
+        self.assertNotIn("clarification", [name for name, _ in events])
+        self.assertIn("section", [name for name, _ in events])
+
 
 if __name__ == "__main__":
     unittest.main()

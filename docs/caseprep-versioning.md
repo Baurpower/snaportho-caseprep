@@ -143,7 +143,7 @@ Website-only streamed CasePrep packet. Legacy `/case-prep` (iOS) and
   `snaportho-web/src/lib/caseprep-v1-1/stream-schema.ts`).
 - **Pipelines**: deterministic packet sections from certified payloads
   (`caseprep/pipelines/packet_sections.py`), Pocket-Pimped retrieval
-  (`rag_retrieval_v1_1.py`, now with registry-backed scope, a rescue-mode
+  (`rag_retrieval.py`, now with registry-backed scope, a rescue-mode
   semantic fallback branch, and bigram rerank affinity), and cached LLM
   enrichment (`caseprep/services/enrichment_v1_1.py`) behind
   `CASEPREP_V1_1_ENRICHMENT_ENABLED` (model: `CASEPREP_V1_1_MODEL`,

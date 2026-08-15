@@ -28,7 +28,7 @@ def run_live(cases: List[Dict[str, Any]]) -> tuple[Dict[str, List[Dict[str, Any]
     from caseprep.services.ai_fallback import refine_prompt
     from caseprep.services.case_identity_v1_1 import enrich_refined_query
     from caseprep.services.procedure_resolver import resolve_procedure_safe
-    from caseprep.services.rag_retrieval_v1_1 import retrieve_case_qas
+    from caseprep.services.rag_retrieval import retrieve_case_qas
 
     results: Dict[str, List[Dict[str, Any]]] = {}
     latencies: Dict[str, int] = {}

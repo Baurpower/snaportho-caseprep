@@ -82,7 +82,7 @@ class RetrievalCacheTests(unittest.TestCase):
         retrieval_cache.clear()
 
     def test_retrieval_cache_hit_skips_pinecone(self) -> None:
-        from caseprep.services.rag_retrieval_v1_1 import retrieve_case_qas
+        from caseprep.services.rag_retrieval import retrieve_case_qas
 
         match = {
             "id": "vec-1",

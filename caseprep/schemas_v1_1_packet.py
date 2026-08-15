@@ -8,6 +8,7 @@ Wire format matches the /api/brobot/chat convention consumed by the web app:
 
 Event order:
     1. ``meta``                     — always first
+    *  ``progress``                 — lightweight phase/heartbeat updates
     2. ``header``                   — above-the-fold identity + prep chips
        (or ``clarification`` then ``done`` when approach disambiguation is
        required; that path is terminal)
@@ -31,6 +32,7 @@ STREAM_PROTOCOL_VERSION = 1
 ENGINE_NAME = "web_packet_stream"
 
 EVENT_META = "meta"
+EVENT_PROGRESS = "progress"
 EVENT_HEADER = "header"
 EVENT_CLARIFICATION = "clarification"
 EVENT_SECTION = "section"
@@ -70,6 +72,29 @@ def meta_event(packet_id: str) -> bytes:
             "caseprep_version": "v1.1",
             "engine": ENGINE_NAME,
             "stream_protocol_version": STREAM_PROTOCOL_VERSION,
+        },
+    )
+
+
+def progress_event(
+    phase: str,
+    label: str,
+    progress_min: int,
+    progress_max: int,
+    *,
+    elapsed_ms: int = 0,
+    heartbeat: bool = False,
+) -> bytes:
+    """Emit honest range-based progress rather than a fake exact percentage."""
+    return sse_event(
+        EVENT_PROGRESS,
+        {
+            "phase": phase,
+            "label": label,
+            "progress_min": max(0, min(100, progress_min)),
+            "progress_max": max(0, min(100, progress_max)),
+            "elapsed_ms": max(0, elapsed_ms),
+            "heartbeat": heartbeat,
         },
     )
 

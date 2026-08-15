@@ -5,8 +5,9 @@ import time
 import unittest
 from unittest.mock import patch
 
-from caseprep.services.rag_retrieval_v1_1 import (
+from caseprep.services.rag_retrieval import (
     apply_v1_2_relevance_gate,
+    bundled_case_qas,
     build_query_branches,
     normalize_match,
     normalize_query,
@@ -37,7 +38,7 @@ def match(record_id, score, question, answer, **metadata):
     }
 
 
-class RagRetrievalV11Tests(unittest.TestCase):
+class RagRetrievalTests(unittest.TestCase):
     def setUp(self):
         self.refined = {
             "search_text": "Open carpal tunnel release",
@@ -64,6 +65,40 @@ class RagRetrievalV11Tests(unittest.TestCase):
         self.assertEqual(candidate["procedures"], ["carpal_tunnel_release"])
         self.assertEqual(candidate["diagnoses"], ["carpal_tunnel_syndrome"])
         self.assertEqual(candidate["specialties"], ["hand"])
+
+    def test_bundled_bank_maps_legacy_ankle_orif_to_canonical_slug(self):
+        query = normalize_query({
+            "search_text": "Ankle fracture ORIF",
+            "procedures": ["ankle_fracture_orif"],
+            "region": "ankle",
+            "specialties": ["trauma"],
+        })
+
+        results = bundled_case_qas(query)
+
+        self.assertGreaterEqual(len(results), 5)
+        self.assertTrue(all(row["retrieval_branch"] == "bundled_fallback" for row in results))
+        joined = " ".join(row["question"].lower() for row in results)
+        self.assertTrue("ankle" in joined or "syndesm" in joined or "fibula" in joined)
+
+    def test_bundled_bank_survives_vector_service_failure(self):
+        diagnostics = {}
+
+        results = retrieve_case_qas(
+            {
+                "search_text": "Ankle fracture ORIF",
+                "procedures": ["ankle_fracture_orif"],
+                "region": "ankle",
+            },
+            embed_fn=lambda _: (_ for _ in ()).throw(RuntimeError("offline")),
+            index_obj=FakeIndex([]),
+            diagnostics=diagnostics,
+            use_cache=False,
+        )
+
+        self.assertGreaterEqual(len(results), 5)
+        self.assertEqual(diagnostics["failed_branches"], ["vector_setup"])
+        self.assertEqual(diagnostics["bundled_fallback_count"], len(results))
 
     def test_pocket_pimped_branch_is_source_filtered(self):
         branches = build_query_branches(normalize_query(self.refined))

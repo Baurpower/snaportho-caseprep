@@ -23,7 +23,7 @@ from caseprep.services.caseprep_assembler_v1_1 import (
     high_yield_items,
     validate_response,
 )
-from caseprep.services.rag_retrieval_v1_1 import retrieve_case_qas
+from caseprep.services.rag_retrieval import retrieve_case_qas
 
 PIPELINE_TIMEOUT_SECONDS = 4.0
 EMPTY_SECTIONS = {
