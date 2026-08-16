@@ -1,0 +1,468 @@
+{
+  "schema_version": "brobot_approach_packet_v1",
+  "approach_id": "distal_humerus_posterior_triceps_split",
+  "name": "Posterior triceps-splitting approach",
+  "aliases": [
+    "triceps split approach",
+    "Campbell approach"
+  ],
+  "region": "posterior elbow and distal humerus",
+  "joint": "elbow",
+  "bones": [
+    "distal humerus",
+    "olecranon",
+    "proximal ulna"
+  ],
+  "corridor": "Midline longitudinal split through triceps tendon, aponeurosis, and distal muscle with subperiosteal elevation from proximal ulna",
+  "positioning": [
+    {
+      "text": "Position lateral or prone with the arm supported, elbow freely flexed, and posterior humerus available for fluoroscopy.",
+      "claim_ids": [
+        "distal_humerus_posterior_triceps_split_positioning_01"
+      ]
+    }
+  ],
+  "setup": [
+    {
+      "text": "Define required proximal exposure, radial-nerve identification threshold, distal triceps-repair plan, and postoperative extension restrictions before incision.",
+      "claim_ids": [
+        "distal_humerus_posterior_triceps_split_setup_01"
+      ]
+    }
+  ],
+  "surface_landmarks": [
+    {
+      "text": "Mark the distal humeral shaft, olecranon, subcutaneous ulna, epicondyles, and expected radial- and ulnar-nerve courses.",
+      "claim_ids": [
+        "distal_humerus_posterior_triceps_split_surface_landmarks_01"
+      ]
+    }
+  ],
+  "incision": [
+    {
+      "text": "Use a posterior incision from the middle-distal humeral junction to the ulnar diaphysis, avoiding direct placement over the olecranon tip.",
+      "claim_ids": [
+        "distal_humerus_posterior_triceps_split_incision_01"
+      ]
+    }
+  ],
+  "superficial_interval": [
+    {
+      "text": "Raise full-thickness fasciocutaneous flaps and expose the midline triceps fascia without undermining thin skin flaps.",
+      "claim_ids": [
+        "distal_humerus_posterior_triceps_split_superficial_interval_01"
+      ]
+    }
+  ],
+  "deep_interval": [
+    {
+      "text": "Split the triceps tendon in the midline from olecranon tip to olecranon fossa, extend the split 3-4 cm proximal to the fracture, and elevate distal attachments subperiosteally from ulna.",
+      "claim_ids": [
+        "distal_humerus_posterior_triceps_split_deep_interval_01"
+      ]
+    }
+  ],
+  "layers": [
+    {
+      "text": "Skin, posterior flap, triceps fascia and tendon, distal triceps muscle, posterior periosteum, then distal humerus.",
+      "claim_ids": [
+        "distal_humerus_posterior_triceps_split_layers_01"
+      ]
+    }
+  ],
+  "structures_encountered": [
+    {
+      "text": "Triceps tendon, aponeurosis and muscle, olecranon, posterior humeral cortex, and posterior capsule are encountered.",
+      "claim_ids": [
+        "distal_humerus_posterior_triceps_split_structures_encountered_01"
+      ]
+    }
+  ],
+  "structures_at_risk": [
+    {
+      "text": "Radial nerve proximally, triceps insertion distally, ulnar nerve medially, and articular cartilage are at risk.",
+      "claim_ids": [
+        "distal_humerus_posterior_triceps_split_structures_at_risk_01"
+      ]
+    }
+  ],
+  "danger_zones": [
+    {
+      "text": "If the split must extend farther proximally, identify and protect the radial nerve before advancing dissection.",
+      "claim_ids": [
+        "distal_humerus_posterior_triceps_split_danger_zones_01"
+      ]
+    }
+  ],
+  "retraction_hazards": [
+    {
+      "text": "Use smooth broad retractors and avoid forceful medial retraction toward the ulnar nerve or proximal retraction across the radial nerve.",
+      "claim_ids": [
+        "distal_humerus_posterior_triceps_split_retraction_hazards_01"
+      ]
+    }
+  ],
+  "exposure": [
+    {
+      "text": "Provides broad posterior exposure of the distal humeral columns and shaft through an extensile midline muscle split.",
+      "claim_ids": [
+        "distal_humerus_posterior_triceps_split_exposure_01"
+      ]
+    }
+  ],
+  "limitations": [
+    {
+      "text": "Direct visualization of the distal articular surface remains limited and the divided extensor mechanism requires secure repair and protection.",
+      "claim_ids": [
+        "distal_humerus_posterior_triceps_split_limitations_01"
+      ]
+    }
+  ],
+  "extensions": [
+    {
+      "text": "Extend proximally only after identifying the radial nerve; extend distally by careful subperiosteal release of triceps from proximal ulna.",
+      "claim_ids": [
+        "distal_humerus_posterior_triceps_split_extensions_01"
+      ]
+    }
+  ],
+  "indications": [
+    {
+      "text": "Use for extra-articular distal-humerus fixation and selected open fractures in which a traumatic triceps split can be incorporated for debridement and fixation.",
+      "claim_ids": [
+        "distal_humerus_posterior_triceps_split_indications_01"
+      ]
+    }
+  ],
+  "relative_contraindications": [
+    {
+      "text": "Prefer a transolecranon exposure for complex complete-articular patterns requiring broad direct visualization and a triceps-sparing approach when extensor preservation is prioritized.",
+      "claim_ids": [
+        "distal_humerus_posterior_triceps_split_relative_contraindications_01"
+      ]
+    }
+  ],
+  "implant_implications": [
+    {
+      "text": "The corridor supports posterior and column fixation, but implants must not obstruct anatomic transosseous restoration of the distal triceps insertion.",
+      "claim_ids": [
+        "distal_humerus_posterior_triceps_split_implant_implications_01"
+      ]
+    }
+  ],
+  "fluoroscopy_implications": [
+    {
+      "text": "Use AP, lateral, and oblique views to assess articular congruity and screw containment because direct articular visualization is limited.",
+      "claim_ids": [
+        "distal_humerus_posterior_triceps_split_fluoroscopy_implications_01"
+      ]
+    }
+  ],
+  "closure": [
+    {
+      "text": "Close proximal muscle split with absorbable suture and reattach distal triceps to olecranon with heavy nonabsorbable transosseous sutures.",
+      "claim_ids": [
+        "distal_humerus_posterior_triceps_split_closure_01"
+      ]
+    }
+  ],
+  "complications": [
+    {
+      "text": "Complications include triceps weakness or insufficiency, radial or ulnar neuropathy, stiffness, infection, heterotopic ossification, nonunion, and fixation failure.",
+      "claim_ids": [
+        "distal_humerus_posterior_triceps_split_complications_01"
+      ]
+    }
+  ],
+  "bailouts": [
+    {
+      "text": "Convert to a more extensile articular exposure when reduction cannot be verified rather than lengthening the proximal split blindly.",
+      "claim_ids": [
+        "distal_humerus_posterior_triceps_split_bailouts_01"
+      ]
+    }
+  ],
+  "procedure_applications": [
+    {
+      "procedure_id": "distal_humerus_fracture_orif",
+      "relationship": "conditional_option",
+      "condition": "An extra-articular fracture or open injury already splitting triceps requires broad posterior humeral exposure"
+    }
+  ],
+  "questions": [
+    {
+      "question": "How far is the split normally extended beyond the fracture?",
+      "answer": "Approximately 3-4 cm proximal to the fracture line.",
+      "claim_ids": [
+        "distal_humerus_posterior_triceps_split_questions_01"
+      ]
+    },
+    {
+      "question": "Which nerve limits proximal extension?",
+      "answer": "The radial nerve.",
+      "claim_ids": [
+        "distal_humerus_posterior_triceps_split_questions_02"
+      ]
+    },
+    {
+      "question": "What distal repair is essential?",
+      "answer": "Secure transosseous reattachment of triceps to olecranon.",
+      "claim_ids": [
+        "distal_humerus_posterior_triceps_split_questions_03"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "distal_humerus_posterior_triceps_split_positioning_01",
+      "text": "Position lateral or prone with the arm supported, elbow freely flexed, and posterior humerus available for fluoroscopy.",
+      "source_ids": [
+        "ao_699e3e940ea44fba",
+        "pmid_24813383"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "distal_humerus_posterior_triceps_split_setup_01",
+      "text": "Define required proximal exposure, radial-nerve identification threshold, distal triceps-repair plan, and postoperative extension restrictions before incision.",
+      "source_ids": [
+        "ao_699e3e940ea44fba",
+        "pmid_24813383"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "distal_humerus_posterior_triceps_split_surface_landmarks_01",
+      "text": "Mark the distal humeral shaft, olecranon, subcutaneous ulna, epicondyles, and expected radial- and ulnar-nerve courses.",
+      "source_ids": [
+        "ao_699e3e940ea44fba"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "distal_humerus_posterior_triceps_split_incision_01",
+      "text": "Use a posterior incision from the middle-distal humeral junction to the ulnar diaphysis, avoiding direct placement over the olecranon tip.",
+      "source_ids": [
+        "ao_699e3e940ea44fba",
+        "pmid_29934098"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "distal_humerus_posterior_triceps_split_superficial_interval_01",
+      "text": "Raise full-thickness fasciocutaneous flaps and expose the midline triceps fascia without undermining thin skin flaps.",
+      "source_ids": [
+        "ao_699e3e940ea44fba",
+        "pmid_24813383"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "distal_humerus_posterior_triceps_split_deep_interval_01",
+      "text": "Split the triceps tendon in the midline from olecranon tip to olecranon fossa, extend the split 3-4 cm proximal to the fracture, and elevate distal attachments subperiosteally from ulna.",
+      "source_ids": [
+        "ao_699e3e940ea44fba",
+        "pmid_24813383"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "distal_humerus_posterior_triceps_split_layers_01",
+      "text": "Skin, posterior flap, triceps fascia and tendon, distal triceps muscle, posterior periosteum, then distal humerus.",
+      "source_ids": [
+        "ao_699e3e940ea44fba"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "distal_humerus_posterior_triceps_split_structures_encountered_01",
+      "text": "Triceps tendon, aponeurosis and muscle, olecranon, posterior humeral cortex, and posterior capsule are encountered.",
+      "source_ids": [
+        "ao_699e3e940ea44fba",
+        "pmid_24813383"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "distal_humerus_posterior_triceps_split_structures_at_risk_01",
+      "text": "Radial nerve proximally, triceps insertion distally, ulnar nerve medially, and articular cartilage are at risk.",
+      "source_ids": [
+        "ao_699e3e940ea44fba",
+        "pmid_29934098"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "distal_humerus_posterior_triceps_split_danger_zones_01",
+      "text": "If the split must extend farther proximally, identify and protect the radial nerve before advancing dissection.",
+      "source_ids": [
+        "ao_699e3e940ea44fba",
+        "pmid_24813383"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "distal_humerus_posterior_triceps_split_retraction_hazards_01",
+      "text": "Use smooth broad retractors and avoid forceful medial retraction toward the ulnar nerve or proximal retraction across the radial nerve.",
+      "source_ids": [
+        "ao_699e3e940ea44fba",
+        "pmid_24813383"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "distal_humerus_posterior_triceps_split_exposure_01",
+      "text": "Provides broad posterior exposure of the distal humeral columns and shaft through an extensile midline muscle split.",
+      "source_ids": [
+        "ao_699e3e940ea44fba",
+        "pmid_24813383"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "distal_humerus_posterior_triceps_split_limitations_01",
+      "text": "Direct visualization of the distal articular surface remains limited and the divided extensor mechanism requires secure repair and protection.",
+      "source_ids": [
+        "ao_699e3e940ea44fba",
+        "pmid_29934098"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "distal_humerus_posterior_triceps_split_extensions_01",
+      "text": "Extend proximally only after identifying the radial nerve; extend distally by careful subperiosteal release of triceps from proximal ulna.",
+      "source_ids": [
+        "ao_699e3e940ea44fba",
+        "pmid_24813383"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "distal_humerus_posterior_triceps_split_indications_01",
+      "text": "Use for extra-articular distal-humerus fixation and selected open fractures in which a traumatic triceps split can be incorporated for debridement and fixation.",
+      "source_ids": [
+        "ao_699e3e940ea44fba",
+        "pmid_24813383"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "distal_humerus_posterior_triceps_split_relative_contraindications_01",
+      "text": "Prefer a transolecranon exposure for complex complete-articular patterns requiring broad direct visualization and a triceps-sparing approach when extensor preservation is prioritized.",
+      "source_ids": [
+        "pmid_29934098",
+        "pmid_24813383"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "distal_humerus_posterior_triceps_split_implant_implications_01",
+      "text": "The corridor supports posterior and column fixation, but implants must not obstruct anatomic transosseous restoration of the distal triceps insertion.",
+      "source_ids": [
+        "ao_699e3e940ea44fba",
+        "pmid_24813383"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "distal_humerus_posterior_triceps_split_fluoroscopy_implications_01",
+      "text": "Use AP, lateral, and oblique views to assess articular congruity and screw containment because direct articular visualization is limited.",
+      "source_ids": [
+        "pmid_29934098",
+        "pmid_24813383"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "distal_humerus_posterior_triceps_split_closure_01",
+      "text": "Close proximal muscle split with absorbable suture and reattach distal triceps to olecranon with heavy nonabsorbable transosseous sutures.",
+      "source_ids": [
+        "ao_699e3e940ea44fba",
+        "pmid_24813383"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "distal_humerus_posterior_triceps_split_complications_01",
+      "text": "Complications include triceps weakness or insufficiency, radial or ulnar neuropathy, stiffness, infection, heterotopic ossification, nonunion, and fixation failure.",
+      "source_ids": [
+        "pmid_29934098",
+        "pmid_24813383"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "distal_humerus_posterior_triceps_split_bailouts_01",
+      "text": "Convert to a more extensile articular exposure when reduction cannot be verified rather than lengthening the proximal split blindly.",
+      "source_ids": [
+        "ao_699e3e940ea44fba",
+        "pmid_29934098"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "distal_humerus_posterior_triceps_split_questions_01",
+      "text": "How far is the split normally extended beyond the fracture?",
+      "source_ids": [
+        "ao_699e3e940ea44fba"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "distal_humerus_posterior_triceps_split_questions_02",
+      "text": "Which nerve limits proximal extension?",
+      "source_ids": [
+        "ao_699e3e940ea44fba"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "distal_humerus_posterior_triceps_split_questions_03",
+      "text": "What distal repair is essential?",
+      "source_ids": [
+        "ao_699e3e940ea44fba"
+      ],
+      "risk_level": "medium"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "ao_699e3e940ea44fba",
+      "provider": "AO Surgery Reference",
+      "title": "Posterior Triceps Split Approach",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/distal-humerus/approach/posterior-triceps-split-approach",
+      "source_page_id": "ao_699e3e940ea44fba"
+    },
+    {
+      "source_id": "pmid_29934098",
+      "provider": "PubMed",
+      "title": "Surgical approaches for ORIF of intra-articular distal humerus fractures in adults",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/29934098/"
+    },
+    {
+      "source_id": "pmid_24813383",
+      "provider": "PubMed",
+      "title": "Comparison of outcomes after triceps split versus sparing surgery for extra-articular distal humerus fractures",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/24813383/"
+    }
+  ],
+  "content_status": "agent_review_pending",
+  "review": {
+    "status": "agent_review_pending",
+    "required_roles": [
+      "adversarial_safety_reviewer",
+      "approach_anatomy_reviewer",
+      "educational_value_reviewer",
+      "evidence_reviewer",
+      "operative_exposure_reviewer",
+      "procedure_applicability_reviewer"
+    ],
+    "completed_roles": []
+  },
+  "resolved_contradiction_keys": [],
+  "authoring_provenance": {
+    "method": "local_codex_curated",
+    "definition_file": "data/approach_library/curated/distal_humerus_posterior_extensile_v1.json",
+    "api_used": false
+  }
+}

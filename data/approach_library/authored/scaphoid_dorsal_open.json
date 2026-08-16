@@ -1,0 +1,475 @@
+{
+  "schema_version": "brobot_approach_packet_v1",
+  "approach_id": "scaphoid_dorsal_open",
+  "name": "Dorsal open approach to the scaphoid",
+  "aliases": [
+    "dorsal scaphoid approach",
+    "antegrade scaphoid approach",
+    "dorsal proximal-pole exposure"
+  ],
+  "region": "dorsal wrist and scaphoid",
+  "joint": "radiocarpal and midcarpal joints",
+  "bones": [
+    "scaphoid",
+    "distal radius",
+    "lunate"
+  ],
+  "corridor": "Dorsal interval through the third extensor compartment and dorsal capsule to the proximal scaphoid and scapholunate interval",
+  "positioning": [
+    {
+      "text": "Position supine with the arm on a radiolucent hand table and the wrist free to flex for proximal-pole visualization and extend for imaging and guidewire placement.",
+      "claim_ids": [
+        "scaphoid_dorsal_open_positioning_01"
+      ]
+    }
+  ],
+  "setup": [
+    {
+      "text": "Prepare the hand and forearm freely, arrange magnification and fine instruments, and confirm unobstructed PA, lateral, oblique, and scaphoid-axis fluoroscopic views before incision.",
+      "claim_ids": [
+        "scaphoid_dorsal_open_setup_01"
+      ]
+    }
+  ],
+  "surface_landmarks": [
+    {
+      "text": "Mark Lister tubercle, the third extensor compartment and EPL course, the radiocarpal joint, and the longitudinal axis of the scaphoid.",
+      "claim_ids": [
+        "scaphoid_dorsal_open_surface_landmarks_01"
+      ]
+    }
+  ],
+  "incision": [
+    {
+      "text": "Use a longitudinal dorsal incision beginning near Lister tubercle and extending approximately 3 cm distally over the proximal scaphoid corridor.",
+      "claim_ids": [
+        "scaphoid_dorsal_open_incision_01"
+      ]
+    }
+  ],
+  "superficial_interval": [
+    {
+      "text": "Protect superficial sensory branches, open the third extensor compartment over EPL, and mobilize EPL radially with the second-compartment tendons while retracting the fourth compartment ulnarly.",
+      "claim_ids": [
+        "scaphoid_dorsal_open_superficial_interval_01"
+      ]
+    }
+  ],
+  "deep_interval": [
+    {
+      "text": "Create a longitudinal or T-shaped dorsal capsulotomy from the dorsal radial rim toward the dorsal intercarpal ligament, preserving capsular attachment and vessels along the dorsal scaphoid ridge.",
+      "claim_ids": [
+        "scaphoid_dorsal_open_deep_interval_01"
+      ]
+    }
+  ],
+  "layers": [
+    {
+      "text": "Skin and subcutaneous tissue, extensor retinaculum and third compartment, protected extensor tendons, dorsal wrist capsule, then proximal scaphoid and scapholunate interval.",
+      "claim_ids": [
+        "scaphoid_dorsal_open_layers_01"
+      ]
+    }
+  ],
+  "structures_encountered": [
+    {
+      "text": "Superficial radial sensory branches, EPL, second and fourth extensor compartments, dorsal capsule, proximal scaphoid, and scapholunate ligament define the exposure.",
+      "claim_ids": [
+        "scaphoid_dorsal_open_structures_encountered_01"
+      ]
+    }
+  ],
+  "structures_at_risk": [
+    {
+      "text": "The superficial radial nerve branches, EPL and adjacent extensor tendons, dorsal scaphoid blood supply, scapholunate ligament, and radiocarpal cartilage are at risk.",
+      "claim_ids": [
+        "scaphoid_dorsal_open_structures_at_risk_01"
+      ]
+    }
+  ],
+  "danger_zones": [
+    {
+      "text": "Do not strip the capsule or vascular tissue from the dorsal scaphoid ridge, and do not advance wires or screws across the radiocarpal or midcarpal joints without multiplanar confirmation.",
+      "claim_ids": [
+        "scaphoid_dorsal_open_danger_zones_01"
+      ]
+    }
+  ],
+  "retraction_hazards": [
+    {
+      "text": "Avoid sustained focal retraction on EPL or the fourth-compartment tendons and avoid levering retractors against the dorsal articular surfaces.",
+      "claim_ids": [
+        "scaphoid_dorsal_open_retraction_hazards_01"
+      ]
+    }
+  ],
+  "exposure": [
+    {
+      "text": "Wrist flexion brings the proximal scaphoid into view and provides direct access to the proximal pole and scapholunate interval for reduction, grafting, or antegrade fixation.",
+      "claim_ids": [
+        "scaphoid_dorsal_open_exposure_01"
+      ]
+    }
+  ],
+  "limitations": [
+    {
+      "text": "The distal tubercle and volar waist are less directly visualized, and dorsal dissection may threaten the already-limited blood supply of a proximal fragment if performed aggressively.",
+      "claim_ids": [
+        "scaphoid_dorsal_open_limitations_01"
+      ]
+    }
+  ],
+  "extensions": [
+    {
+      "text": "The capsular exposure may be extended toward the scapholunate interval when ligament assessment or repair is required while preserving the dorsal intercarpal ligament and vascular attachments.",
+      "claim_ids": [
+        "scaphoid_dorsal_open_extensions_01"
+      ]
+    }
+  ],
+  "indications": [
+    {
+      "text": "Use dorsal access for proximal-pole scaphoid fractures, selected nonunions requiring proximal visualization, associated complete scapholunate injury, or an antegrade central screw trajectory.",
+      "claim_ids": [
+        "scaphoid_dorsal_open_indications_01"
+      ]
+    }
+  ],
+  "relative_contraindications": [
+    {
+      "text": "Favor a palmar route when pathology is centered at the distal pole or volar waist, when volar deformity correction is required, or when dorsal soft tissue is compromised.",
+      "claim_ids": [
+        "scaphoid_dorsal_open_relative_contraindications_01"
+      ]
+    }
+  ],
+  "implant_implications": [
+    {
+      "text": "Dorsal access supports antegrade guidewire and screw insertion from the proximal pole; choose the entry point and trajectory to maximize central purchase without violating the scapholunate ligament or articular surfaces.",
+      "claim_ids": [
+        "scaphoid_dorsal_open_implant_implications_01"
+      ]
+    }
+  ],
+  "fluoroscopy_implications": [
+    {
+      "text": "Confirm a central scaphoid-axis trajectory, fracture compression, screw depth, and absence of radiocarpal or midcarpal penetration on multiple orthogonal and oblique views.",
+      "claim_ids": [
+        "scaphoid_dorsal_open_fluoroscopy_implications_01"
+      ]
+    }
+  ],
+  "closure": [
+    {
+      "text": "Repair the dorsal capsule, restore the third-compartment retinaculum without constricting EPL, and leave EPL superficial to the repaired retinaculum if necessary to avoid tethering.",
+      "claim_ids": [
+        "scaphoid_dorsal_open_closure_01"
+      ]
+    }
+  ],
+  "complications": [
+    {
+      "text": "Complications include injury to dorsal scaphoid perfusion, nonunion or osteonecrosis, EPL irritation or rupture, sensory neurapraxia, stiffness, scapholunate injury, and intra-articular hardware.",
+      "claim_ids": [
+        "scaphoid_dorsal_open_complications_01"
+      ]
+    }
+  ],
+  "bailouts": [
+    {
+      "text": "If reduction, graft placement, or a safe central trajectory cannot be achieved dorsally, stop repeated passes and convert to the planned palmar exposure or combined strategy appropriate to the fracture.",
+      "claim_ids": [
+        "scaphoid_dorsal_open_bailouts_01"
+      ]
+    }
+  ],
+  "procedure_applications": [
+    {
+      "procedure_id": "scaphoid_fracture_orif",
+      "relationship": "conditional_option",
+      "condition": "A proximal-pole fracture, proximal trajectory requirement, or associated scapholunate pathology favors dorsal access"
+    }
+  ],
+  "questions": [
+    {
+      "question": "Which extensor compartment is opened in the dorsal scaphoid approach?",
+      "answer": "The third compartment over extensor pollicis longus.",
+      "claim_ids": [
+        "scaphoid_dorsal_open_questions_01"
+      ]
+    },
+    {
+      "question": "Why should tissue along the dorsal scaphoid ridge be preserved?",
+      "answer": "It carries important vascular supply to the scaphoid, particularly the proximal pole.",
+      "claim_ids": [
+        "scaphoid_dorsal_open_questions_02"
+      ]
+    },
+    {
+      "question": "What wrist position improves proximal-pole visualization?",
+      "answer": "Flexion of the wrist.",
+      "claim_ids": [
+        "scaphoid_dorsal_open_questions_03"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "scaphoid_dorsal_open_positioning_01",
+      "text": "Position supine with the arm on a radiolucent hand table and the wrist free to flex for proximal-pole visualization and extend for imaging and guidewire placement.",
+      "source_ids": [
+        "ao_32bbc0733bb5f862",
+        "pmid_31178084"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "scaphoid_dorsal_open_setup_01",
+      "text": "Prepare the hand and forearm freely, arrange magnification and fine instruments, and confirm unobstructed PA, lateral, oblique, and scaphoid-axis fluoroscopic views before incision.",
+      "source_ids": [
+        "ao_32bbc0733bb5f862",
+        "pmid_31178084"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "scaphoid_dorsal_open_surface_landmarks_01",
+      "text": "Mark Lister tubercle, the third extensor compartment and EPL course, the radiocarpal joint, and the longitudinal axis of the scaphoid.",
+      "source_ids": [
+        "ao_32bbc0733bb5f862",
+        "pmid_31178084"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "scaphoid_dorsal_open_incision_01",
+      "text": "Use a longitudinal dorsal incision beginning near Lister tubercle and extending approximately 3 cm distally over the proximal scaphoid corridor.",
+      "source_ids": [
+        "ao_32bbc0733bb5f862",
+        "pmid_31178084"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "scaphoid_dorsal_open_superficial_interval_01",
+      "text": "Protect superficial sensory branches, open the third extensor compartment over EPL, and mobilize EPL radially with the second-compartment tendons while retracting the fourth compartment ulnarly.",
+      "source_ids": [
+        "ao_32bbc0733bb5f862",
+        "pmid_31178084"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "scaphoid_dorsal_open_deep_interval_01",
+      "text": "Create a longitudinal or T-shaped dorsal capsulotomy from the dorsal radial rim toward the dorsal intercarpal ligament, preserving capsular attachment and vessels along the dorsal scaphoid ridge.",
+      "source_ids": [
+        "ao_32bbc0733bb5f862",
+        "pmid_31178084"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "scaphoid_dorsal_open_layers_01",
+      "text": "Skin and subcutaneous tissue, extensor retinaculum and third compartment, protected extensor tendons, dorsal wrist capsule, then proximal scaphoid and scapholunate interval.",
+      "source_ids": [
+        "ao_32bbc0733bb5f862",
+        "pmid_31178084"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "scaphoid_dorsal_open_structures_encountered_01",
+      "text": "Superficial radial sensory branches, EPL, second and fourth extensor compartments, dorsal capsule, proximal scaphoid, and scapholunate ligament define the exposure.",
+      "source_ids": [
+        "ao_32bbc0733bb5f862",
+        "pmid_31178084"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "scaphoid_dorsal_open_structures_at_risk_01",
+      "text": "The superficial radial nerve branches, EPL and adjacent extensor tendons, dorsal scaphoid blood supply, scapholunate ligament, and radiocarpal cartilage are at risk.",
+      "source_ids": [
+        "ao_32bbc0733bb5f862",
+        "pmid_31178084"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "scaphoid_dorsal_open_danger_zones_01",
+      "text": "Do not strip the capsule or vascular tissue from the dorsal scaphoid ridge, and do not advance wires or screws across the radiocarpal or midcarpal joints without multiplanar confirmation.",
+      "source_ids": [
+        "ao_32bbc0733bb5f862",
+        "pmid_29253617"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "scaphoid_dorsal_open_retraction_hazards_01",
+      "text": "Avoid sustained focal retraction on EPL or the fourth-compartment tendons and avoid levering retractors against the dorsal articular surfaces.",
+      "source_ids": [
+        "ao_32bbc0733bb5f862",
+        "pmid_31178084"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "scaphoid_dorsal_open_exposure_01",
+      "text": "Wrist flexion brings the proximal scaphoid into view and provides direct access to the proximal pole and scapholunate interval for reduction, grafting, or antegrade fixation.",
+      "source_ids": [
+        "ao_32bbc0733bb5f862",
+        "pmid_31178084"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "scaphoid_dorsal_open_limitations_01",
+      "text": "The distal tubercle and volar waist are less directly visualized, and dorsal dissection may threaten the already-limited blood supply of a proximal fragment if performed aggressively.",
+      "source_ids": [
+        "ao_32bbc0733bb5f862",
+        "pmid_31178084"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "scaphoid_dorsal_open_extensions_01",
+      "text": "The capsular exposure may be extended toward the scapholunate interval when ligament assessment or repair is required while preserving the dorsal intercarpal ligament and vascular attachments.",
+      "source_ids": [
+        "ao_32bbc0733bb5f862",
+        "pmid_31178084"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "scaphoid_dorsal_open_indications_01",
+      "text": "Use dorsal access for proximal-pole scaphoid fractures, selected nonunions requiring proximal visualization, associated complete scapholunate injury, or an antegrade central screw trajectory.",
+      "source_ids": [
+        "ao_32bbc0733bb5f862",
+        "pmid_31178084",
+        "pmid_29253617"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "scaphoid_dorsal_open_relative_contraindications_01",
+      "text": "Favor a palmar route when pathology is centered at the distal pole or volar waist, when volar deformity correction is required, or when dorsal soft tissue is compromised.",
+      "source_ids": [
+        "ao_32bbc0733bb5f862",
+        "pmid_31178084"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "scaphoid_dorsal_open_implant_implications_01",
+      "text": "Dorsal access supports antegrade guidewire and screw insertion from the proximal pole; choose the entry point and trajectory to maximize central purchase without violating the scapholunate ligament or articular surfaces.",
+      "source_ids": [
+        "ao_32bbc0733bb5f862",
+        "pmid_29253617"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "scaphoid_dorsal_open_fluoroscopy_implications_01",
+      "text": "Confirm a central scaphoid-axis trajectory, fracture compression, screw depth, and absence of radiocarpal or midcarpal penetration on multiple orthogonal and oblique views.",
+      "source_ids": [
+        "ao_32bbc0733bb5f862",
+        "pmid_29253617"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "scaphoid_dorsal_open_closure_01",
+      "text": "Repair the dorsal capsule, restore the third-compartment retinaculum without constricting EPL, and leave EPL superficial to the repaired retinaculum if necessary to avoid tethering.",
+      "source_ids": [
+        "ao_32bbc0733bb5f862",
+        "pmid_31178084"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "scaphoid_dorsal_open_complications_01",
+      "text": "Complications include injury to dorsal scaphoid perfusion, nonunion or osteonecrosis, EPL irritation or rupture, sensory neurapraxia, stiffness, scapholunate injury, and intra-articular hardware.",
+      "source_ids": [
+        "ao_32bbc0733bb5f862",
+        "pmid_31178084",
+        "pmid_29253617"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "scaphoid_dorsal_open_bailouts_01",
+      "text": "If reduction, graft placement, or a safe central trajectory cannot be achieved dorsally, stop repeated passes and convert to the planned palmar exposure or combined strategy appropriate to the fracture.",
+      "source_ids": [
+        "ao_32bbc0733bb5f862",
+        "pmid_31178084"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "scaphoid_dorsal_open_questions_01",
+      "text": "Which extensor compartment is opened in the dorsal scaphoid approach?",
+      "source_ids": [
+        "ao_32bbc0733bb5f862",
+        "pmid_31178084"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "scaphoid_dorsal_open_questions_02",
+      "text": "Why should tissue along the dorsal scaphoid ridge be preserved?",
+      "source_ids": [
+        "ao_32bbc0733bb5f862",
+        "pmid_31178084"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "scaphoid_dorsal_open_questions_03",
+      "text": "What wrist position improves proximal-pole visualization?",
+      "source_ids": [
+        "ao_32bbc0733bb5f862"
+      ],
+      "risk_level": "medium"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "ao_32bbc0733bb5f862",
+      "provider": "AO Surgery Reference",
+      "title": "Dorsal approach to the scaphoid",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/carpal-bones/approach/dorsal-approach-to-the-scaphoid",
+      "source_page_id": "ao_32bbc0733bb5f862"
+    },
+    {
+      "source_id": "pmid_31178084",
+      "provider": "PubMed",
+      "title": "Surgical approaches to the scaphoid",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/31178084/"
+    },
+    {
+      "source_id": "pmid_29253617",
+      "provider": "PubMed",
+      "title": "Comparison of dorsal and volar percutaneous screw trajectories for scaphoid fracture fixation",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/29253617/"
+    }
+  ],
+  "content_status": "agent_review_pending",
+  "review": {
+    "status": "agent_review_pending",
+    "required_roles": [
+      "adversarial_safety_reviewer",
+      "approach_anatomy_reviewer",
+      "educational_value_reviewer",
+      "evidence_reviewer",
+      "operative_exposure_reviewer",
+      "procedure_applicability_reviewer"
+    ],
+    "completed_roles": []
+  },
+  "resolved_contradiction_keys": [],
+  "authoring_provenance": {
+    "method": "local_codex_curated",
+    "definition_file": "data/approach_library/curated/scaphoid_approaches_v1.json",
+    "api_used": false
+  }
+}

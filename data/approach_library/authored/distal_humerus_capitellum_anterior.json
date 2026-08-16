@@ -1,0 +1,468 @@
+{
+  "schema_version": "brobot_approach_packet_v1",
+  "approach_id": "distal_humerus_capitellum_anterior",
+  "name": "Anterior approach to the capitellum",
+  "aliases": [
+    "anterolateral capitellar approach",
+    "anterior elbow approach"
+  ],
+  "region": "anterior lateral elbow",
+  "joint": "elbow",
+  "bones": [
+    "capitellum",
+    "lateral trochlear ridge",
+    "radial head"
+  ],
+  "corridor": "Between brachioradialis and brachialis after identification and mobilization of the radial nerve",
+  "positioning": [
+    {
+      "text": "Position supine with arm on a hand table, elbow extendable, and forearm rotatable for nerve protection and imaging.",
+      "claim_ids": [
+        "distal_humerus_capitellum_anterior_positioning_01"
+      ]
+    }
+  ],
+  "setup": [
+    {
+      "text": "Confirm by CT that posterior capitellar comminution is absent and prepare magnification and vessel-loop control of the radial nerve and branches.",
+      "claim_ids": [
+        "distal_humerus_capitellum_anterior_setup_01"
+      ]
+    }
+  ],
+  "surface_landmarks": [
+    {
+      "text": "Mark biceps lateral border, brachioradialis medial border, elbow crease, radial head, and lateral epicondyle.",
+      "claim_ids": [
+        "distal_humerus_capitellum_anterior_surface_landmarks_01"
+      ]
+    }
+  ],
+  "incision": [
+    {
+      "text": "Use a curved anterior incision from the lateral biceps border proximally toward the medial brachioradialis border distally.",
+      "claim_ids": [
+        "distal_humerus_capitellum_anterior_incision_01"
+      ]
+    }
+  ],
+  "superficial_interval": [
+    {
+      "text": "Open biceps fascia, retract biceps medially, and identify and protect the lateral antebrachial cutaneous nerve.",
+      "claim_ids": [
+        "distal_humerus_capitellum_anterior_superficial_interval_01"
+      ]
+    }
+  ],
+  "deep_interval": [
+    {
+      "text": "Develop brachioradialis-brachialis interval, identify radial nerve, trace it to PIN and superficial branch, then retract muscles with nerve protected before longitudinal capsulotomy.",
+      "claim_ids": [
+        "distal_humerus_capitellum_anterior_deep_interval_01"
+      ]
+    }
+  ],
+  "layers": [
+    {
+      "text": "Skin, subcutaneous sensory plane, biceps fascia, brachialis-brachioradialis interval, radial-nerve plane, capsule, then capitellum.",
+      "claim_ids": [
+        "distal_humerus_capitellum_anterior_layers_01"
+      ]
+    }
+  ],
+  "structures_encountered": [
+    {
+      "text": "Lateral antebrachial cutaneous nerve, biceps, brachialis, brachioradialis, radial nerve, PIN, superficial radial nerve, capsule, and capitellum are encountered.",
+      "claim_ids": [
+        "distal_humerus_capitellum_anterior_structures_encountered_01"
+      ]
+    }
+  ],
+  "structures_at_risk": [
+    {
+      "text": "Radial nerve and branches, lateral antebrachial cutaneous nerve, brachial vessels medially, cartilage, and anterior capsule are at risk.",
+      "claim_ids": [
+        "distal_humerus_capitellum_anterior_structures_at_risk_01"
+      ]
+    }
+  ],
+  "danger_zones": [
+    {
+      "text": "The radial nerve contacts capsule near the radial neck; avoid distal blind capsular dissection or prolonged anterior retraction.",
+      "claim_ids": [
+        "distal_humerus_capitellum_anterior_danger_zones_01"
+      ]
+    }
+  ],
+  "retraction_hazards": [
+    {
+      "text": "Maintain direct nerve visualization and use broad intermittent retraction; do not lever over the radial head or neck.",
+      "claim_ids": [
+        "distal_humerus_capitellum_anterior_retraction_hazards_01"
+      ]
+    }
+  ],
+  "exposure": [
+    {
+      "text": "Exposes anterior capitellum and lateral trochlear ridge with direct anterior-to-posterior fixation access.",
+      "claim_ids": [
+        "distal_humerus_capitellum_anterior_exposure_01"
+      ]
+    }
+  ],
+  "limitations": [
+    {
+      "text": "Cannot visualize posterior capitellum and is unsuitable for posterior comminution or complex trochlear extension.",
+      "claim_ids": [
+        "distal_humerus_capitellum_anterior_limitations_01"
+      ]
+    }
+  ],
+  "extensions": [
+    {
+      "text": "Convert to a lateral/extensile approach if posterior reduction cannot be assessed rather than extending blindly around the radial nerve.",
+      "claim_ids": [
+        "distal_humerus_capitellum_anterior_extensions_01"
+      ]
+    }
+  ],
+  "indications": [
+    {
+      "text": "Use for simple anterior capitellar shear fractures without posterior comminution.",
+      "claim_ids": [
+        "distal_humerus_capitellum_anterior_indications_01"
+      ]
+    }
+  ],
+  "relative_contraindications": [
+    {
+      "text": "Avoid for posterior comminution, complex trochlear extension, or when radial-nerve mobilization is unsafe.",
+      "claim_ids": [
+        "distal_humerus_capitellum_anterior_relative_contraindications_01"
+      ]
+    }
+  ],
+  "implant_implications": [
+    {
+      "text": "Allows perpendicular anterior fixation; countersink headless screws and confirm posterior exit and joint containment.",
+      "claim_ids": [
+        "distal_humerus_capitellum_anterior_implant_implications_01"
+      ]
+    }
+  ],
+  "fluoroscopy_implications": [
+    {
+      "text": "Use AP, lateral, oblique, and radiocapitellar views to confirm reduction, screw trajectory, and absence of posterior prominence.",
+      "claim_ids": [
+        "distal_humerus_capitellum_anterior_fluoroscopy_implications_01"
+      ]
+    }
+  ],
+  "closure": [
+    {
+      "text": "Repair capsule, release retractors and confirm radial-nerve continuity, then close fascia and skin in layers.",
+      "claim_ids": [
+        "distal_humerus_capitellum_anterior_closure_01"
+      ]
+    }
+  ],
+  "complications": [
+    {
+      "text": "Complications include radial/PIN palsy, sensory nerve injury, stiffness, fixation failure, avascular necrosis, heterotopic ossification, and arthritis.",
+      "claim_ids": [
+        "distal_humerus_capitellum_anterior_complications_01"
+      ]
+    }
+  ],
+  "bailouts": [
+    {
+      "text": "Convert to lateral exposure when posterior comminution is found or radial-nerve-safe visualization is inadequate.",
+      "claim_ids": [
+        "distal_humerus_capitellum_anterior_bailouts_01"
+      ]
+    }
+  ],
+  "procedure_applications": [
+    {
+      "procedure_id": "capitellum_fracture_orif",
+      "relationship": "conditional_option",
+      "condition": "A simple anterior capitellar fracture without posterior comminution requires direct anterior reduction and screw fixation"
+    }
+  ],
+  "questions": [
+    {
+      "question": "What fracture pattern is appropriate?",
+      "answer": "A simple capitellar fracture without posterior comminution.",
+      "claim_ids": [
+        "distal_humerus_capitellum_anterior_questions_01"
+      ]
+    },
+    {
+      "question": "What is the deep interval?",
+      "answer": "Between brachioradialis and brachialis.",
+      "claim_ids": [
+        "distal_humerus_capitellum_anterior_questions_02"
+      ]
+    },
+    {
+      "question": "Which nerve must be traced to its branches?",
+      "answer": "The radial nerve to PIN and superficial radial nerve.",
+      "claim_ids": [
+        "distal_humerus_capitellum_anterior_questions_03"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "distal_humerus_capitellum_anterior_positioning_01",
+      "text": "Position supine with arm on a hand table, elbow extendable, and forearm rotatable for nerve protection and imaging.",
+      "source_ids": [
+        "ao_b463a4dbdde13ba9",
+        "pmid_31331352"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "distal_humerus_capitellum_anterior_setup_01",
+      "text": "Confirm by CT that posterior capitellar comminution is absent and prepare magnification and vessel-loop control of the radial nerve and branches.",
+      "source_ids": [
+        "ao_b463a4dbdde13ba9",
+        "pmid_31331352"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "distal_humerus_capitellum_anterior_surface_landmarks_01",
+      "text": "Mark biceps lateral border, brachioradialis medial border, elbow crease, radial head, and lateral epicondyle.",
+      "source_ids": [
+        "ao_b463a4dbdde13ba9"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "distal_humerus_capitellum_anterior_incision_01",
+      "text": "Use a curved anterior incision from the lateral biceps border proximally toward the medial brachioradialis border distally.",
+      "source_ids": [
+        "ao_b463a4dbdde13ba9",
+        "pmid_31331352"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "distal_humerus_capitellum_anterior_superficial_interval_01",
+      "text": "Open biceps fascia, retract biceps medially, and identify and protect the lateral antebrachial cutaneous nerve.",
+      "source_ids": [
+        "ao_b463a4dbdde13ba9",
+        "pmid_31331352"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "distal_humerus_capitellum_anterior_deep_interval_01",
+      "text": "Develop brachioradialis-brachialis interval, identify radial nerve, trace it to PIN and superficial branch, then retract muscles with nerve protected before longitudinal capsulotomy.",
+      "source_ids": [
+        "ao_b463a4dbdde13ba9",
+        "pmid_23079289"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "distal_humerus_capitellum_anterior_layers_01",
+      "text": "Skin, subcutaneous sensory plane, biceps fascia, brachialis-brachioradialis interval, radial-nerve plane, capsule, then capitellum.",
+      "source_ids": [
+        "ao_b463a4dbdde13ba9"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "distal_humerus_capitellum_anterior_structures_encountered_01",
+      "text": "Lateral antebrachial cutaneous nerve, biceps, brachialis, brachioradialis, radial nerve, PIN, superficial radial nerve, capsule, and capitellum are encountered.",
+      "source_ids": [
+        "ao_b463a4dbdde13ba9",
+        "pmid_23079289"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "distal_humerus_capitellum_anterior_structures_at_risk_01",
+      "text": "Radial nerve and branches, lateral antebrachial cutaneous nerve, brachial vessels medially, cartilage, and anterior capsule are at risk.",
+      "source_ids": [
+        "ao_b463a4dbdde13ba9",
+        "pmid_23079289"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "distal_humerus_capitellum_anterior_danger_zones_01",
+      "text": "The radial nerve contacts capsule near the radial neck; avoid distal blind capsular dissection or prolonged anterior retraction.",
+      "source_ids": [
+        "pmid_23079289",
+        "pmid_31331352"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "distal_humerus_capitellum_anterior_retraction_hazards_01",
+      "text": "Maintain direct nerve visualization and use broad intermittent retraction; do not lever over the radial head or neck.",
+      "source_ids": [
+        "ao_b463a4dbdde13ba9",
+        "pmid_23079289"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "distal_humerus_capitellum_anterior_exposure_01",
+      "text": "Exposes anterior capitellum and lateral trochlear ridge with direct anterior-to-posterior fixation access.",
+      "source_ids": [
+        "ao_b463a4dbdde13ba9",
+        "pmid_31331352"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "distal_humerus_capitellum_anterior_limitations_01",
+      "text": "Cannot visualize posterior capitellum and is unsuitable for posterior comminution or complex trochlear extension.",
+      "source_ids": [
+        "ao_b463a4dbdde13ba9",
+        "pmid_31331352"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "distal_humerus_capitellum_anterior_extensions_01",
+      "text": "Convert to a lateral/extensile approach if posterior reduction cannot be assessed rather than extending blindly around the radial nerve.",
+      "source_ids": [
+        "ao_b463a4dbdde13ba9",
+        "pmid_31331352"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "distal_humerus_capitellum_anterior_indications_01",
+      "text": "Use for simple anterior capitellar shear fractures without posterior comminution.",
+      "source_ids": [
+        "ao_b463a4dbdde13ba9",
+        "pmid_31331352"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "distal_humerus_capitellum_anterior_relative_contraindications_01",
+      "text": "Avoid for posterior comminution, complex trochlear extension, or when radial-nerve mobilization is unsafe.",
+      "source_ids": [
+        "ao_b463a4dbdde13ba9",
+        "pmid_31331352"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "distal_humerus_capitellum_anterior_implant_implications_01",
+      "text": "Allows perpendicular anterior fixation; countersink headless screws and confirm posterior exit and joint containment.",
+      "source_ids": [
+        "pmid_31331352",
+        "pmid_23079289"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "distal_humerus_capitellum_anterior_fluoroscopy_implications_01",
+      "text": "Use AP, lateral, oblique, and radiocapitellar views to confirm reduction, screw trajectory, and absence of posterior prominence.",
+      "source_ids": [
+        "pmid_31331352",
+        "pmid_23079289"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "distal_humerus_capitellum_anterior_closure_01",
+      "text": "Repair capsule, release retractors and confirm radial-nerve continuity, then close fascia and skin in layers.",
+      "source_ids": [
+        "ao_b463a4dbdde13ba9",
+        "pmid_23079289"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "distal_humerus_capitellum_anterior_complications_01",
+      "text": "Complications include radial/PIN palsy, sensory nerve injury, stiffness, fixation failure, avascular necrosis, heterotopic ossification, and arthritis.",
+      "source_ids": [
+        "pmid_31331352",
+        "pmid_23079289"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "distal_humerus_capitellum_anterior_bailouts_01",
+      "text": "Convert to lateral exposure when posterior comminution is found or radial-nerve-safe visualization is inadequate.",
+      "source_ids": [
+        "ao_b463a4dbdde13ba9",
+        "pmid_31331352"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "distal_humerus_capitellum_anterior_questions_01",
+      "text": "What fracture pattern is appropriate?",
+      "source_ids": [
+        "ao_b463a4dbdde13ba9"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "distal_humerus_capitellum_anterior_questions_02",
+      "text": "What is the deep interval?",
+      "source_ids": [
+        "ao_b463a4dbdde13ba9"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "distal_humerus_capitellum_anterior_questions_03",
+      "text": "Which nerve must be traced to its branches?",
+      "source_ids": [
+        "ao_b463a4dbdde13ba9"
+      ],
+      "risk_level": "medium"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "ao_b463a4dbdde13ba9",
+      "provider": "AO Surgery Reference",
+      "title": "Anterior Approach To The Capitellum",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/distal-humerus/approach/anterior-approach-to-the-capitellum",
+      "source_page_id": "ao_b463a4dbdde13ba9"
+    },
+    {
+      "source_id": "pmid_31331352",
+      "provider": "PubMed",
+      "title": "Comparison of lateral versus anterolateral approach for isolated capitellar shear fractures",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/31331352/"
+    },
+    {
+      "source_id": "pmid_23079289",
+      "provider": "PubMed",
+      "title": "Relation of the radial nerve to the anterior capsule of the elbow",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/23079289/"
+    }
+  ],
+  "content_status": "agent_review_pending",
+  "review": {
+    "status": "agent_review_pending",
+    "required_roles": [
+      "adversarial_safety_reviewer",
+      "approach_anatomy_reviewer",
+      "educational_value_reviewer",
+      "evidence_reviewer",
+      "operative_exposure_reviewer",
+      "procedure_applicability_reviewer"
+    ],
+    "completed_roles": []
+  },
+  "resolved_contradiction_keys": [],
+  "authoring_provenance": {
+    "method": "local_codex_curated",
+    "definition_file": "data/approach_library/curated/distal_humerus_anterior_lateral_v1.json",
+    "api_used": false
+  }
+}

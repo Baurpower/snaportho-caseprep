@@ -1,0 +1,468 @@
+{
+  "schema_version": "brobot_approach_packet_v1",
+  "approach_id": "pediatric_distal_femur_parapatellar_arthrotomy",
+  "name": "Pediatric lateral or medial parapatellar arthrotomy",
+  "aliases": [
+    "pediatric parapatellar arthrotomy",
+    "limited pediatric knee arthrotomy"
+  ],
+  "region": "pediatric anterior knee and distal femur",
+  "joint": "knee",
+  "bones": [
+    "distal femur",
+    "patella",
+    "proximal tibia"
+  ],
+  "corridor": "Limited parapatellar capsular incision adjacent to the patellar tendon, selected on the fracture side",
+  "positioning": [
+    {
+      "text": "Position supine on a radiolucent table with the knee freely flexed and the injured side of the joint accessible.",
+      "claim_ids": [
+        "pediatric_distal_femur_parapatellar_arthrotomy_positioning_01"
+      ]
+    }
+  ],
+  "setup": [
+    {
+      "text": "Review CT or MRI when needed to define the epiphyseal fracture, choose the side that best exposes the target, and prepare fluoroscopy and physeal-respecting fixation.",
+      "claim_ids": [
+        "pediatric_distal_femur_parapatellar_arthrotomy_setup_01"
+      ]
+    }
+  ],
+  "surface_landmarks": [
+    {
+      "text": "Mark patella, patellar-tendon borders, joint line, tibial tubercle, and involved femoral condyle.",
+      "claim_ids": [
+        "pediatric_distal_femur_parapatellar_arthrotomy_surface_landmarks_01"
+      ]
+    }
+  ],
+  "incision": [
+    {
+      "text": "Begin beside the patellar tendon at midpatellar level and extend initially to the joint line; lengthen only as required for articular reduction.",
+      "claim_ids": [
+        "pediatric_distal_femur_parapatellar_arthrotomy_incision_01"
+      ]
+    }
+  ],
+  "superficial_interval": [
+    {
+      "text": "Develop a limited parapatellar tract without broad skin flaps or unnecessary extensor-mechanism stripping.",
+      "claim_ids": [
+        "pediatric_distal_femur_parapatellar_arthrotomy_superficial_interval_01"
+      ]
+    }
+  ],
+  "deep_interval": [
+    {
+      "text": "Incise capsule in the skin-incision plane and use gentle retractors for direct fracture visualization; keep sharp dissection away from the meniscus.",
+      "claim_ids": [
+        "pediatric_distal_femur_parapatellar_arthrotomy_deep_interval_01"
+      ]
+    }
+  ],
+  "layers": [
+    {
+      "text": "Skin, subcutaneous tissue, parapatellar retinacular-capsular layer, synovium, then articular fracture.",
+      "claim_ids": [
+        "pediatric_distal_femur_parapatellar_arthrotomy_layers_01"
+      ]
+    }
+  ],
+  "structures_encountered": [
+    {
+      "text": "Patellar tendon, retinaculum, capsule, synovium, meniscus, femoral condyle, physis, and epiphyseal fragment may be encountered.",
+      "claim_ids": [
+        "pediatric_distal_femur_parapatellar_arthrotomy_structures_encountered_01"
+      ]
+    }
+  ],
+  "structures_at_risk": [
+    {
+      "text": "Meniscus, articular cartilage, patellar tendon, infrapatellar saphenous branches medially, and the distal-femoral physis are at risk.",
+      "claim_ids": [
+        "pediatric_distal_femur_parapatellar_arthrotomy_structures_at_risk_01"
+      ]
+    }
+  ],
+  "danger_zones": [
+    {
+      "text": "Avoid sharp dissection around the meniscus and repeated manipulation across the injured physis.",
+      "claim_ids": [
+        "pediatric_distal_femur_parapatellar_arthrotomy_danger_zones_01"
+      ]
+    }
+  ],
+  "retraction_hazards": [
+    {
+      "text": "Use small blunt retractors under direct vision and avoid levering on pediatric cartilage or the patellar tendon.",
+      "claim_ids": [
+        "pediatric_distal_femur_parapatellar_arthrotomy_retraction_hazards_01"
+      ]
+    }
+  ],
+  "exposure": [
+    {
+      "text": "Provides targeted direct visualization of the selected femoral condyle and articular surface with limited soft-tissue disruption.",
+      "claim_ids": [
+        "pediatric_distal_femur_parapatellar_arthrotomy_exposure_01"
+      ]
+    }
+  ],
+  "limitations": [
+    {
+      "text": "The limited window is inadequate for complex bicondylar or posterior fractures that cannot be reduced under direct vision.",
+      "claim_ids": [
+        "pediatric_distal_femur_parapatellar_arthrotomy_limitations_01"
+      ]
+    }
+  ],
+  "extensions": [
+    {
+      "text": "Lengthen proximally or distally along the chosen parapatellar side when additional articular visualization is necessary.",
+      "claim_ids": [
+        "pediatric_distal_femur_parapatellar_arthrotomy_extensions_01"
+      ]
+    }
+  ],
+  "indications": [
+    {
+      "text": "Use for selected pediatric articular and epiphyseal fractures needing limited direct reduction and fixation.",
+      "claim_ids": [
+        "pediatric_distal_femur_parapatellar_arthrotomy_indications_01"
+      ]
+    }
+  ],
+  "relative_contraindications": [
+    {
+      "text": "Choose a broader lateral, medial, or extensile parapatellar exposure when the fracture cannot be visualized and controlled through a limited arthrotomy.",
+      "claim_ids": [
+        "pediatric_distal_femur_parapatellar_arthrotomy_relative_contraindications_01"
+      ]
+    }
+  ],
+  "implant_implications": [
+    {
+      "text": "Place implants under direct and fluoroscopic control to restore the joint while minimizing avoidable physeal and cartilage violation.",
+      "claim_ids": [
+        "pediatric_distal_femur_parapatellar_arthrotomy_implant_implications_01"
+      ]
+    }
+  ],
+  "fluoroscopy_implications": [
+    {
+      "text": "Use orthogonal and tangential views to verify articular congruity, physeal alignment, trajectory, and implant containment.",
+      "claim_ids": [
+        "pediatric_distal_femur_parapatellar_arthrotomy_fluoroscopy_implications_01"
+      ]
+    }
+  ],
+  "closure": [
+    {
+      "text": "Repair the capsule with absorbable suture after hemostasis, then close subcutaneous tissue and skin routinely.",
+      "claim_ids": [
+        "pediatric_distal_femur_parapatellar_arthrotomy_closure_01"
+      ]
+    }
+  ],
+  "complications": [
+    {
+      "text": "Complications include meniscal or chondral injury, growth arrest, stiffness, infection, malreduction, and fixation failure.",
+      "claim_ids": [
+        "pediatric_distal_femur_parapatellar_arthrotomy_complications_01"
+      ]
+    }
+  ],
+  "bailouts": [
+    {
+      "text": "Extend or convert the exposure when fracture visualization remains inadequate rather than performing blind reduction or fixation.",
+      "claim_ids": [
+        "pediatric_distal_femur_parapatellar_arthrotomy_bailouts_01"
+      ]
+    }
+  ],
+  "procedure_applications": [
+    {
+      "procedure_id": "pediatric_distal_femur_fracture_fixation",
+      "relationship": "conditional_option",
+      "condition": "A pediatric epiphyseal or articular fracture requires direct visualization through a limited medial or lateral parapatellar window"
+    }
+  ],
+  "questions": [
+    {
+      "question": "Where does the initial incision run?",
+      "answer": "Adjacent to the patellar tendon from midpatella to the joint line.",
+      "claim_ids": [
+        "pediatric_distal_femur_parapatellar_arthrotomy_questions_01"
+      ]
+    },
+    {
+      "question": "What structure must sharp dissection avoid?",
+      "answer": "The meniscus.",
+      "claim_ids": [
+        "pediatric_distal_femur_parapatellar_arthrotomy_questions_02"
+      ]
+    },
+    {
+      "question": "When is the incision extended?",
+      "answer": "When more articular exposure is needed for reduction and fixation.",
+      "claim_ids": [
+        "pediatric_distal_femur_parapatellar_arthrotomy_questions_03"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "pediatric_distal_femur_parapatellar_arthrotomy_positioning_01",
+      "text": "Position supine on a radiolucent table with the knee freely flexed and the injured side of the joint accessible.",
+      "source_ids": [
+        "ao_16af99fd4e90e404",
+        "pmid_37931413"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "pediatric_distal_femur_parapatellar_arthrotomy_setup_01",
+      "text": "Review CT or MRI when needed to define the epiphyseal fracture, choose the side that best exposes the target, and prepare fluoroscopy and physeal-respecting fixation.",
+      "source_ids": [
+        "pmid_37931413",
+        "pmid_27604531"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "pediatric_distal_femur_parapatellar_arthrotomy_surface_landmarks_01",
+      "text": "Mark patella, patellar-tendon borders, joint line, tibial tubercle, and involved femoral condyle.",
+      "source_ids": [
+        "ao_16af99fd4e90e404"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "pediatric_distal_femur_parapatellar_arthrotomy_incision_01",
+      "text": "Begin beside the patellar tendon at midpatellar level and extend initially to the joint line; lengthen only as required for articular reduction.",
+      "source_ids": [
+        "ao_16af99fd4e90e404",
+        "pmid_27604531"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "pediatric_distal_femur_parapatellar_arthrotomy_superficial_interval_01",
+      "text": "Develop a limited parapatellar tract without broad skin flaps or unnecessary extensor-mechanism stripping.",
+      "source_ids": [
+        "ao_16af99fd4e90e404",
+        "pmid_27604531"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "pediatric_distal_femur_parapatellar_arthrotomy_deep_interval_01",
+      "text": "Incise capsule in the skin-incision plane and use gentle retractors for direct fracture visualization; keep sharp dissection away from the meniscus.",
+      "source_ids": [
+        "ao_16af99fd4e90e404",
+        "pmid_27604531"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "pediatric_distal_femur_parapatellar_arthrotomy_layers_01",
+      "text": "Skin, subcutaneous tissue, parapatellar retinacular-capsular layer, synovium, then articular fracture.",
+      "source_ids": [
+        "ao_16af99fd4e90e404"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "pediatric_distal_femur_parapatellar_arthrotomy_structures_encountered_01",
+      "text": "Patellar tendon, retinaculum, capsule, synovium, meniscus, femoral condyle, physis, and epiphyseal fragment may be encountered.",
+      "source_ids": [
+        "ao_16af99fd4e90e404",
+        "pmid_27604531"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "pediatric_distal_femur_parapatellar_arthrotomy_structures_at_risk_01",
+      "text": "Meniscus, articular cartilage, patellar tendon, infrapatellar saphenous branches medially, and the distal-femoral physis are at risk.",
+      "source_ids": [
+        "ao_16af99fd4e90e404",
+        "pmid_27604531"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "pediatric_distal_femur_parapatellar_arthrotomy_danger_zones_01",
+      "text": "Avoid sharp dissection around the meniscus and repeated manipulation across the injured physis.",
+      "source_ids": [
+        "ao_16af99fd4e90e404",
+        "pmid_27604531"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "pediatric_distal_femur_parapatellar_arthrotomy_retraction_hazards_01",
+      "text": "Use small blunt retractors under direct vision and avoid levering on pediatric cartilage or the patellar tendon.",
+      "source_ids": [
+        "ao_16af99fd4e90e404",
+        "pmid_27604531"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "pediatric_distal_femur_parapatellar_arthrotomy_exposure_01",
+      "text": "Provides targeted direct visualization of the selected femoral condyle and articular surface with limited soft-tissue disruption.",
+      "source_ids": [
+        "ao_16af99fd4e90e404",
+        "pmid_37931413"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "pediatric_distal_femur_parapatellar_arthrotomy_limitations_01",
+      "text": "The limited window is inadequate for complex bicondylar or posterior fractures that cannot be reduced under direct vision.",
+      "source_ids": [
+        "ao_16af99fd4e90e404",
+        "pmid_27604531"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "pediatric_distal_femur_parapatellar_arthrotomy_extensions_01",
+      "text": "Lengthen proximally or distally along the chosen parapatellar side when additional articular visualization is necessary.",
+      "source_ids": [
+        "ao_16af99fd4e90e404",
+        "pmid_27604531"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "pediatric_distal_femur_parapatellar_arthrotomy_indications_01",
+      "text": "Use for selected pediatric articular and epiphyseal fractures needing limited direct reduction and fixation.",
+      "source_ids": [
+        "ao_16af99fd4e90e404",
+        "pmid_37931413"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "pediatric_distal_femur_parapatellar_arthrotomy_relative_contraindications_01",
+      "text": "Choose a broader lateral, medial, or extensile parapatellar exposure when the fracture cannot be visualized and controlled through a limited arthrotomy.",
+      "source_ids": [
+        "ao_16af99fd4e90e404",
+        "pmid_27604531"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "pediatric_distal_femur_parapatellar_arthrotomy_implant_implications_01",
+      "text": "Place implants under direct and fluoroscopic control to restore the joint while minimizing avoidable physeal and cartilage violation.",
+      "source_ids": [
+        "pmid_37931413",
+        "pmid_27604531"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "pediatric_distal_femur_parapatellar_arthrotomy_fluoroscopy_implications_01",
+      "text": "Use orthogonal and tangential views to verify articular congruity, physeal alignment, trajectory, and implant containment.",
+      "source_ids": [
+        "pmid_37931413",
+        "pmid_27604531"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "pediatric_distal_femur_parapatellar_arthrotomy_closure_01",
+      "text": "Repair the capsule with absorbable suture after hemostasis, then close subcutaneous tissue and skin routinely.",
+      "source_ids": [
+        "ao_16af99fd4e90e404",
+        "pmid_27604531"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "pediatric_distal_femur_parapatellar_arthrotomy_complications_01",
+      "text": "Complications include meniscal or chondral injury, growth arrest, stiffness, infection, malreduction, and fixation failure.",
+      "source_ids": [
+        "pmid_37931413",
+        "pmid_27604531"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "pediatric_distal_femur_parapatellar_arthrotomy_bailouts_01",
+      "text": "Extend or convert the exposure when fracture visualization remains inadequate rather than performing blind reduction or fixation.",
+      "source_ids": [
+        "ao_16af99fd4e90e404",
+        "pmid_27604531"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "pediatric_distal_femur_parapatellar_arthrotomy_questions_01",
+      "text": "Where does the initial incision run?",
+      "source_ids": [
+        "ao_16af99fd4e90e404"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "pediatric_distal_femur_parapatellar_arthrotomy_questions_02",
+      "text": "What structure must sharp dissection avoid?",
+      "source_ids": [
+        "ao_16af99fd4e90e404"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "pediatric_distal_femur_parapatellar_arthrotomy_questions_03",
+      "text": "When is the incision extended?",
+      "source_ids": [
+        "ao_16af99fd4e90e404"
+      ],
+      "risk_level": "medium"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "ao_16af99fd4e90e404",
+      "provider": "AO Surgery Reference",
+      "title": "Lateral Medial Parapatellar Arthrotomy",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/pediatric-trauma/distal-femur/approach/lateral-medial-parapatellar-arthrotomy",
+      "source_page_id": "ao_16af99fd4e90e404"
+    },
+    {
+      "source_id": "pmid_37931413",
+      "provider": "PubMed",
+      "title": "Distal femoral fractures in children",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/37931413/"
+    },
+    {
+      "source_id": "pmid_27604531",
+      "provider": "PubMed",
+      "title": "Physeal fractures about the knee",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/27604531/"
+    }
+  ],
+  "content_status": "agent_review_pending",
+  "review": {
+    "status": "agent_review_pending",
+    "required_roles": [
+      "adversarial_safety_reviewer",
+      "approach_anatomy_reviewer",
+      "educational_value_reviewer",
+      "evidence_reviewer",
+      "operative_exposure_reviewer",
+      "procedure_applicability_reviewer"
+    ],
+    "completed_roles": []
+  },
+  "resolved_contradiction_keys": [],
+  "authoring_provenance": {
+    "method": "local_codex_curated",
+    "definition_file": "data/approach_library/curated/pediatric_distal_femur_medial_pin_approaches_v1.json",
+    "api_used": false
+  }
+}

@@ -1,0 +1,471 @@
+{
+  "schema_version": "brobot_approach_packet_v1",
+  "approach_id": "calcaneus_mio_lateral",
+  "name": "Minimally invasive lateral approach to the calcaneus",
+  "aliases": [
+    "MIO lateral calcaneal approach",
+    "subfibular mini-open calcaneus approach"
+  ],
+  "region": "lateral hindfoot and calcaneus",
+  "joint": "subtalar joint",
+  "bones": [
+    "calcaneus",
+    "talus"
+  ],
+  "corridor": "Small subfibular lateral window around the peroneal tendons to the lateral calcaneal fracture plane without direct articular visualization",
+  "positioning": [
+    {
+      "text": "Position lateral or floppy lateral with the injured heel uppermost and free for traction, percutaneous manipulation, and fluoroscopy.",
+      "claim_ids": [
+        "calcaneus_mio_lateral_positioning_01"
+      ]
+    }
+  ],
+  "setup": [
+    {
+      "text": "Confirm recoverable soft tissues and a wrinkle sign when urgent skin-threatening displacement is absent; prepare percutaneous reduction tools and unrestricted lateral, axial, and Broden imaging.",
+      "claim_ids": [
+        "calcaneus_mio_lateral_setup_01"
+      ]
+    }
+  ],
+  "surface_landmarks": [
+    {
+      "text": "Mark the fibular tip, sural-nerve region, peroneal-tendon course, lateral calcaneal wall, and subtalar joint.",
+      "claim_ids": [
+        "calcaneus_mio_lateral_surface_landmarks_01"
+      ]
+    }
+  ],
+  "incision": [
+    {
+      "text": "Place a short subfibular incision slightly distal to the sinus-tarsi corridor and centered on the target fracture window.",
+      "claim_ids": [
+        "calcaneus_mio_lateral_incision_01"
+      ]
+    }
+  ],
+  "superficial_interval": [
+    {
+      "text": "Identify and protect the sural nerve, then mobilize the peroneal tendons superiorly or plantarly according to the required access.",
+      "claim_ids": [
+        "calcaneus_mio_lateral_superficial_interval_01"
+      ]
+    }
+  ],
+  "deep_interval": [
+    {
+      "text": "Enter the fracture plane with an elevator through the limited lateral window; reduction is indirect because the posterior facet is not directly seen.",
+      "claim_ids": [
+        "calcaneus_mio_lateral_deep_interval_01"
+      ]
+    }
+  ],
+  "layers": [
+    {
+      "text": "Skin, subcutaneous tissue with sural nerve, peroneal tendon interval, lateral calcaneal periosteum, and fracture plane.",
+      "claim_ids": [
+        "calcaneus_mio_lateral_layers_01"
+      ]
+    }
+  ],
+  "structures_encountered": [
+    {
+      "text": "Sural nerve, peroneal tendons and retinacula, fibulocalcaneal and talocalcaneal ligaments, lateral calcaneal artery territory, and lateral wall are encountered.",
+      "claim_ids": [
+        "calcaneus_mio_lateral_structures_encountered_01"
+      ]
+    }
+  ],
+  "structures_at_risk": [
+    {
+      "text": "The sural nerve, peroneal tendons, lateral calcaneal artery, lateral skin envelope, and subtalar cartilage are at risk.",
+      "claim_ids": [
+        "calcaneus_mio_lateral_structures_at_risk_01"
+      ]
+    }
+  ],
+  "danger_zones": [
+    {
+      "text": "Do not enlarge the subfibular window blindly posteriorly across the sural nerve or proximally through the lateral calcaneal vascular territory.",
+      "claim_ids": [
+        "calcaneus_mio_lateral_danger_zones_01"
+      ]
+    }
+  ],
+  "retraction_hazards": [
+    {
+      "text": "Retract the sural nerve and peroneal tendons gently and intermittently; do not use them as fulcrums for reduction instruments.",
+      "claim_ids": [
+        "calcaneus_mio_lateral_retraction_hazards_01"
+      ]
+    }
+  ],
+  "exposure": [
+    {
+      "text": "Provides a limited path to manipulate the lateral fracture and pass fixation while preserving most of the lateral skin flap.",
+      "claim_ids": [
+        "calcaneus_mio_lateral_exposure_01"
+      ]
+    }
+  ],
+  "limitations": [
+    {
+      "text": "The subtalar joint is not directly visualized, so articular reduction, calcaneal shape, and implant position depend heavily on imaging and indirect reduction.",
+      "claim_ids": [
+        "calcaneus_mio_lateral_limitations_01"
+      ]
+    }
+  ],
+  "extensions": [
+    {
+      "text": "Convert to a sinus-tarsi or extensile lateral exposure when direct facet or body visualization becomes necessary rather than stretching the small incision.",
+      "claim_ids": [
+        "calcaneus_mio_lateral_extensions_01"
+      ]
+    }
+  ],
+  "indications": [
+    {
+      "text": "Use for selected simpler displaced intra-articular calcaneal fractures that can be reduced indirectly and stabilized percutaneously or through a small lateral window.",
+      "claim_ids": [
+        "calcaneus_mio_lateral_indications_01"
+      ]
+    }
+  ],
+  "relative_contraindications": [
+    {
+      "text": "Avoid as the sole approach for complex comminution, an irreducible posterior facet, uncertain articular congruity, or compromised lateral skin at the planned incision.",
+      "claim_ids": [
+        "calcaneus_mio_lateral_relative_contraindications_01"
+      ]
+    }
+  ],
+  "implant_implications": [
+    {
+      "text": "Use percutaneous screws, bolts, or a suitable low-profile construct, confirming that every implant clears the peroneal tendons and subtalar joint.",
+      "claim_ids": [
+        "calcaneus_mio_lateral_implant_implications_01"
+      ]
+    }
+  ],
+  "fluoroscopy_implications": [
+    {
+      "text": "Lateral, axial heel, and Broden-type views must verify height, width, alignment, posterior-facet reduction, screw length, and extra-articular placement.",
+      "claim_ids": [
+        "calcaneus_mio_lateral_fluoroscopy_implications_01"
+      ]
+    }
+  ],
+  "closure": [
+    {
+      "text": "Release tendon and nerve retraction, irrigate, and close the small wound in layers without tension.",
+      "claim_ids": [
+        "calcaneus_mio_lateral_closure_01"
+      ]
+    }
+  ],
+  "complications": [
+    {
+      "text": "Complications include sural neuropathy, peroneal injury, wound problems, residual articular or body malreduction, intra-articular hardware, and post-traumatic subtalar arthritis.",
+      "claim_ids": [
+        "calcaneus_mio_lateral_complications_01"
+      ]
+    }
+  ],
+  "bailouts": [
+    {
+      "text": "If reduction cannot be proven on imaging, add arthroscopy or convert to a direct-visualization approach rather than accepting an unseen step-off.",
+      "claim_ids": [
+        "calcaneus_mio_lateral_bailouts_01"
+      ]
+    }
+  ],
+  "procedure_applications": [
+    {
+      "procedure_id": "calcaneus_fracture_orif",
+      "relationship": "conditional_option",
+      "condition": "A simpler displaced pattern is reducible indirectly and suitable for percutaneous or limited-incision fixation"
+    }
+  ],
+  "questions": [
+    {
+      "question": "Is the posterior subtalar facet directly seen through this MIO lateral approach?",
+      "answer": "No; the fracture is entered and reduced indirectly.",
+      "claim_ids": [
+        "calcaneus_mio_lateral_questions_01"
+      ]
+    },
+    {
+      "question": "Which nerve must be found and protected?",
+      "answer": "The sural nerve.",
+      "claim_ids": [
+        "calcaneus_mio_lateral_questions_02"
+      ]
+    },
+    {
+      "question": "How can the peroneal tendons be mobilized?",
+      "answer": "Superiorly or plantarly, depending on the required window.",
+      "claim_ids": [
+        "calcaneus_mio_lateral_questions_03"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "calcaneus_mio_lateral_positioning_01",
+      "text": "Position lateral or floppy lateral with the injured heel uppermost and free for traction, percutaneous manipulation, and fluoroscopy.",
+      "source_ids": [
+        "ao_8db4ab59abf85174",
+        "pmid_30233817"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "calcaneus_mio_lateral_setup_01",
+      "text": "Confirm recoverable soft tissues and a wrinkle sign when urgent skin-threatening displacement is absent; prepare percutaneous reduction tools and unrestricted lateral, axial, and Broden imaging.",
+      "source_ids": [
+        "ao_8db4ab59abf85174",
+        "pmid_30233817"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "calcaneus_mio_lateral_surface_landmarks_01",
+      "text": "Mark the fibular tip, sural-nerve region, peroneal-tendon course, lateral calcaneal wall, and subtalar joint.",
+      "source_ids": [
+        "ao_8db4ab59abf85174",
+        "pmid_30233817"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "calcaneus_mio_lateral_incision_01",
+      "text": "Place a short subfibular incision slightly distal to the sinus-tarsi corridor and centered on the target fracture window.",
+      "source_ids": [
+        "ao_8db4ab59abf85174",
+        "pmid_30233817"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "calcaneus_mio_lateral_superficial_interval_01",
+      "text": "Identify and protect the sural nerve, then mobilize the peroneal tendons superiorly or plantarly according to the required access.",
+      "source_ids": [
+        "ao_8db4ab59abf85174",
+        "pmid_30233817"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "calcaneus_mio_lateral_deep_interval_01",
+      "text": "Enter the fracture plane with an elevator through the limited lateral window; reduction is indirect because the posterior facet is not directly seen.",
+      "source_ids": [
+        "ao_8db4ab59abf85174",
+        "pmid_30233817"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "calcaneus_mio_lateral_layers_01",
+      "text": "Skin, subcutaneous tissue with sural nerve, peroneal tendon interval, lateral calcaneal periosteum, and fracture plane.",
+      "source_ids": [
+        "ao_8db4ab59abf85174",
+        "pmid_30233817"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "calcaneus_mio_lateral_structures_encountered_01",
+      "text": "Sural nerve, peroneal tendons and retinacula, fibulocalcaneal and talocalcaneal ligaments, lateral calcaneal artery territory, and lateral wall are encountered.",
+      "source_ids": [
+        "ao_8db4ab59abf85174",
+        "pmid_30233817"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "calcaneus_mio_lateral_structures_at_risk_01",
+      "text": "The sural nerve, peroneal tendons, lateral calcaneal artery, lateral skin envelope, and subtalar cartilage are at risk.",
+      "source_ids": [
+        "ao_8db4ab59abf85174",
+        "pmid_30233817"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "calcaneus_mio_lateral_danger_zones_01",
+      "text": "Do not enlarge the subfibular window blindly posteriorly across the sural nerve or proximally through the lateral calcaneal vascular territory.",
+      "source_ids": [
+        "ao_8db4ab59abf85174",
+        "pmid_30233817"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "calcaneus_mio_lateral_retraction_hazards_01",
+      "text": "Retract the sural nerve and peroneal tendons gently and intermittently; do not use them as fulcrums for reduction instruments.",
+      "source_ids": [
+        "ao_8db4ab59abf85174",
+        "pmid_30233817"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "calcaneus_mio_lateral_exposure_01",
+      "text": "Provides a limited path to manipulate the lateral fracture and pass fixation while preserving most of the lateral skin flap.",
+      "source_ids": [
+        "ao_8db4ab59abf85174",
+        "pmid_40011189"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "calcaneus_mio_lateral_limitations_01",
+      "text": "The subtalar joint is not directly visualized, so articular reduction, calcaneal shape, and implant position depend heavily on imaging and indirect reduction.",
+      "source_ids": [
+        "ao_8db4ab59abf85174",
+        "pmid_30233817"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "calcaneus_mio_lateral_extensions_01",
+      "text": "Convert to a sinus-tarsi or extensile lateral exposure when direct facet or body visualization becomes necessary rather than stretching the small incision.",
+      "source_ids": [
+        "ao_8db4ab59abf85174",
+        "pmid_30233817"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "calcaneus_mio_lateral_indications_01",
+      "text": "Use for selected simpler displaced intra-articular calcaneal fractures that can be reduced indirectly and stabilized percutaneously or through a small lateral window.",
+      "source_ids": [
+        "ao_8db4ab59abf85174",
+        "pmid_30233817",
+        "pmid_40011189"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "calcaneus_mio_lateral_relative_contraindications_01",
+      "text": "Avoid as the sole approach for complex comminution, an irreducible posterior facet, uncertain articular congruity, or compromised lateral skin at the planned incision.",
+      "source_ids": [
+        "ao_8db4ab59abf85174",
+        "pmid_30233817"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "calcaneus_mio_lateral_implant_implications_01",
+      "text": "Use percutaneous screws, bolts, or a suitable low-profile construct, confirming that every implant clears the peroneal tendons and subtalar joint.",
+      "source_ids": [
+        "ao_8db4ab59abf85174",
+        "pmid_30233817"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "calcaneus_mio_lateral_fluoroscopy_implications_01",
+      "text": "Lateral, axial heel, and Broden-type views must verify height, width, alignment, posterior-facet reduction, screw length, and extra-articular placement.",
+      "source_ids": [
+        "ao_8db4ab59abf85174",
+        "pmid_30233817"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "calcaneus_mio_lateral_closure_01",
+      "text": "Release tendon and nerve retraction, irrigate, and close the small wound in layers without tension.",
+      "source_ids": [
+        "ao_8db4ab59abf85174",
+        "pmid_30233817"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "calcaneus_mio_lateral_complications_01",
+      "text": "Complications include sural neuropathy, peroneal injury, wound problems, residual articular or body malreduction, intra-articular hardware, and post-traumatic subtalar arthritis.",
+      "source_ids": [
+        "ao_8db4ab59abf85174",
+        "pmid_30233817",
+        "pmid_40011189"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "calcaneus_mio_lateral_bailouts_01",
+      "text": "If reduction cannot be proven on imaging, add arthroscopy or convert to a direct-visualization approach rather than accepting an unseen step-off.",
+      "source_ids": [
+        "ao_8db4ab59abf85174",
+        "pmid_30233817"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "calcaneus_mio_lateral_questions_01",
+      "text": "Is the posterior subtalar facet directly seen through this MIO lateral approach?",
+      "source_ids": [
+        "ao_8db4ab59abf85174"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "calcaneus_mio_lateral_questions_02",
+      "text": "Which nerve must be found and protected?",
+      "source_ids": [
+        "ao_8db4ab59abf85174"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "calcaneus_mio_lateral_questions_03",
+      "text": "How can the peroneal tendons be mobilized?",
+      "source_ids": [
+        "ao_8db4ab59abf85174"
+      ],
+      "risk_level": "medium"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "ao_8db4ab59abf85174",
+      "provider": "AO Surgery Reference",
+      "title": "MIO lateral approach to the calcaneus",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/calcaneous/approach/mio-lateral-approach-to-the-calcaneus",
+      "source_page_id": "ao_8db4ab59abf85174"
+    },
+    {
+      "source_id": "pmid_30233817",
+      "provider": "PubMed",
+      "title": "Minimally invasive reduction and percutaneous fixation versus ORIF for displaced intra-articular calcaneal fractures",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/30233817/"
+    },
+    {
+      "source_id": "pmid_40011189",
+      "provider": "PubMed",
+      "title": "Minimally invasive techniques compared with extensile lateral approach for calcaneal fractures",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40011189/"
+    }
+  ],
+  "content_status": "agent_review_pending",
+  "review": {
+    "status": "agent_review_pending",
+    "required_roles": [
+      "adversarial_safety_reviewer",
+      "approach_anatomy_reviewer",
+      "educational_value_reviewer",
+      "evidence_reviewer",
+      "operative_exposure_reviewer",
+      "procedure_applicability_reviewer"
+    ],
+    "completed_roles": []
+  },
+  "resolved_contradiction_keys": [],
+  "authoring_provenance": {
+    "method": "local_codex_curated",
+    "definition_file": "data/approach_library/curated/calcaneus_mio_approaches_v1.json",
+    "api_used": false
+  }
+}

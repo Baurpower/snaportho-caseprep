@@ -1,0 +1,93 @@
+{
+  "approaches": [
+    {
+      "approach_id": "acetabulum_extended_iliofemoral",
+      "name": "Extended iliofemoral approach to the acetabulum",
+      "aliases": ["extended iliofemoral approach", "extensile acetabular approach"],
+      "region": "acetabulum and hemipelvis",
+      "joint": "hip",
+      "bones": ["acetabulum", "innominate bone", "proximal femur"],
+      "corridor": "Extensile lateral exposure created by posterior reflection of the abductors and short external rotators, with optional anterior extension into the iliac window",
+      "sources": [
+        {"source_id": "ao_dd8b976218ee67fd", "provider": "AO Surgery Reference", "title": "Extended iliofemoral approach to the acetabulum", "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/acetabulum/approach/extended-iliofemoral-approach-to-the-acetabulum", "source_page_id": "ao_dd8b976218ee67fd"},
+        {"source_id": "orthobullets_ad364fde9138d281", "provider": "Orthobullets", "title": "Extensile Extended Iliofemoral Approach to Acetabulum", "url": "https://www.orthobullets.com/approaches/12017/extensile-extended-iliofemoral-approach-to-acetabulum", "source_page_id": "orthobullets_ad364fde9138d281"}
+      ],
+      "procedure_applications": [
+        {"procedure_id": "acetabulum_fracture_orif_posterior", "relationship": "conditional_option", "condition": "A complex pattern cannot be reduced through a less-extensile posterior exposure"},
+        {"procedure_id": "acetabulum_fracture_orif_anterior", "relationship": "conditional_option", "condition": "Combined lateral and anterior innominate-bone exposure is required"}
+      ],
+      "sections": {
+        "positioning": [{"text": "Position lateral on a radiolucent or fracture table with the entire buttock, hemipelvis, and limb accessible for manipulation and imaging.", "source_ids": ["ao_dd8b976218ee67fd", "orthobullets_ad364fde9138d281"]}],
+        "setup": [{"text": "Prep from the posterior midline to the umbilicus and include the buttock and thigh while isolating the groin and perineum.", "source_ids": ["ao_dd8b976218ee67fd", "orthobullets_ad364fde9138d281"]}],
+        "surface_landmarks": [{"text": "Mark the posterior and anterior superior iliac spines, iliac crest, greater trochanter, and lateral femoral shaft.", "source_ids": ["ao_dd8b976218ee67fd", "orthobullets_ad364fde9138d281"]}],
+        "incision": [{"text": "Use an inverted-J incision from the posterior iliac region along the crest to the ASIS, then continue distally over the anterolateral thigh to permit posterior flap reflection.", "source_ids": ["ao_dd8b976218ee67fd", "orthobullets_ad364fde9138d281"]}],
+        "superficial_interval": [{"text": "Develop the separately innervated abdominal-wall–gluteal interval along the iliac crest and the sartorius–tensor fasciae latae interval anteriorly.", "source_ids": ["ao_dd8b976218ee67fd", "orthobullets_ad364fde9138d281"], "risk_level": "high"}],
+        "deep_interval": [{"text": "Elevate the gluteal flap subperiosteally from the external ilium, then release gluteus minimus, gluteus medius, piriformis, and the conjoined short external rotators with repairable tendon stumps.", "source_ids": ["ao_dd8b976218ee67fd", "orthobullets_ad364fde9138d281"], "risk_level": "high"}],
+        "layers": [{"text": "Skin and large musculocutaneous flap, fascia lata and tensor interval, subperiosteal external-iliac exposure, abductor and short-external-rotator releases, then capsule and acetabular columns.", "source_ids": ["ao_dd8b976218ee67fd", "orthobullets_ad364fde9138d281"]}],
+        "structures_encountered": [{"text": "The approach encounters lateral femoral circumflex branches, superior gluteal neurovascular pedicle, sciatic nerve, abductors, short external rotators, rectus origins, and hip capsule.", "source_ids": ["ao_dd8b976218ee67fd", "orthobullets_ad364fde9138d281"]}],
+        "structures_at_risk": [{"text": "The superior gluteal artery, veins, and nerve are at high risk where they exit the greater sciatic notch and travel on the deep gluteal surface.", "source_ids": ["ao_dd8b976218ee67fd", "orthobullets_ad364fde9138d281"], "risk_level": "high"}, {"text": "The sciatic nerve and medial femoral circumflex artery are at risk during short-external-rotator release, notch retraction, and posterior exposure.", "source_ids": ["ao_dd8b976218ee67fd", "orthobullets_ad364fde9138d281"], "risk_level": "high"}],
+        "danger_zones": [{"text": "Continuously assess gluteal-pedicle perfusion during posterior flap retraction; pedicle thrombosis can cause catastrophic flap necrosis.", "source_ids": ["ao_dd8b976218ee67fd", "orthobullets_ad364fde9138d281"], "risk_level": "high"}],
+        "retraction_hazards": [{"text": "Avoid aggressive or prolonged gluteal and sciatic-nerve retraction and protect neurovascular structures crossing the greater sciatic notch throughout reduction and fixation.", "source_ids": ["ao_dd8b976218ee67fd", "orthobullets_ad364fde9138d281"], "risk_level": "high"}],
+        "exposure": [{"text": "Exposes nearly the entire lateral innominate bone and posterior acetabulum, with anterior extension into the internal iliac fossa when required.", "source_ids": ["ao_dd8b976218ee67fd", "orthobullets_ad364fde9138d281"]}],
+        "limitations": [{"text": "This highly morbid exposure demands complex flap mobilization and reconstruction and should be reserved for reductions not achievable safely through less-extensile approaches.", "source_ids": ["ao_dd8b976218ee67fd", "orthobullets_ad364fde9138d281"]}],
+        "extensions": [{"text": "Extend anteriorly into the first ilioinguinal window for internal iliac-fossa access; a trochanteric osteotomy can preserve abductor insertions as a mobilized osseous fragment.", "source_ids": ["ao_dd8b976218ee67fd", "orthobullets_ad364fde9138d281"]}],
+        "indications": [{"text": "A salvage extensile option for complex acetabular fracture patterns whose columns, dome, or chronic displacement cannot be reduced through standard anterior or posterior exposures.", "source_ids": ["ao_dd8b976218ee67fd", "orthobullets_ad364fde9138d281"]}],
+        "relative_contraindications": [{"text": "Avoid when a less-extensile approach can achieve reduction or when soft-tissue condition, vascular disease, or inability to tolerate prolonged surgery makes the flap risk unacceptable.", "source_ids": ["ao_dd8b976218ee67fd", "orthobullets_ad364fde9138d281"]}],
+        "implant_implications": [{"text": "The broad exposure allows multiplanar column fixation, but implants and retractors must not compromise the superior gluteal pedicle, sciatic nerve, or femoral-head blood supply.", "source_ids": ["ao_dd8b976218ee67fd", "orthobullets_ad364fde9138d281"], "risk_level": "high"}],
+        "fluoroscopy_implications": [{"text": "Use a radiolucent setup that preserves AP and Judet views despite lateral positioning and the large reflected flap.", "source_ids": ["ao_dd8b976218ee67fd", "orthobullets_ad364fde9138d281"]}],
+        "closure": [{"text": "Perform anatomic, mechanically secure repair of capsule, short external rotators, gluteus medius and minimus, rectus origin, iliac-crest muscle origins, fascia, and superficial layers.", "source_ids": ["ao_dd8b976218ee67fd", "orthobullets_ad364fde9138d281"], "risk_level": "high"}],
+        "complications": [{"text": "Major complications include superior-gluteal hemorrhage or thrombosis, gluteal-flap necrosis, sciatic or superior-gluteal neuropathy, abductor failure, heterotopic ossification, infection, and wound breakdown.", "source_ids": ["ao_dd8b976218ee67fd", "orthobullets_ad364fde9138d281"], "risk_level": "high"}],
+        "bailouts": [{"text": "For uncontrolled superior-gluteal bleeding, pack the notch and obtain definitive vascular control or angiographic embolization; do not pursue blind clamping into the pelvis.", "source_ids": ["ao_dd8b976218ee67fd", "orthobullets_ad364fde9138d281"], "risk_level": "high"}],
+        "questions": [
+          {"question": "Which vascular pedicle determines viability of the reflected gluteal flap?", "answer": "The superior gluteal artery and accompanying veins.", "source_ids": ["ao_dd8b976218ee67fd", "orthobullets_ad364fde9138d281"]},
+          {"question": "Why is aggressive gluteal-flap retraction dangerous?", "answer": "It can obstruct or thrombose the superior gluteal pedicle, causing flap necrosis, and can injure the superior gluteal nerve.", "source_ids": ["ao_dd8b976218ee67fd", "orthobullets_ad364fde9138d281"]}
+        ]
+      }
+    },
+    {
+      "approach_id": "calcaneus_extensile_lateral",
+      "name": "Extensile lateral approach to the calcaneus",
+      "aliases": ["extended lateral calcaneal approach", "L-shaped lateral calcaneus approach"],
+      "region": "calcaneus and lateral hindfoot",
+      "joint": "subtalar joint",
+      "bones": ["calcaneus", "talus"],
+      "corridor": "Full-thickness lateral calcaneal artery flap elevated strictly subperiosteally with the lateral ligaments and inferior peroneal retinaculum",
+      "sources": [
+        {"source_id": "ao_6038220573e1685e", "provider": "AO Surgery Reference", "title": "Extended lateral approach", "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/calcaneous/approach/extended-lateral-approach", "source_page_id": "ao_6038220573e1685e"},
+        {"source_id": "orthobullets_82395ff14fb6b6a3", "provider": "Orthobullets", "title": "Extensile Lateral Approach to Calcaneus", "url": "https://www.orthobullets.com/approaches/12049/extensile-lateral-approach-to-calcaneus", "source_page_id": "orthobullets_82395ff14fb6b6a3"}
+      ],
+      "procedure_applications": [
+        {"procedure_id": "calcaneus_fracture_orif", "relationship": "primary_option", "condition": "Broad visualization of a displaced intra-articular or severe calcaneal fracture is required"},
+        {"procedure_id": "subtalar_arthrodesis", "relationship": "conditional_option", "condition": "Extensile lateral hindfoot access is selected"}
+      ],
+      "sections": {
+        "positioning": [{"text": "Position lateral or floppy lateral with the operative hindfoot uppermost and supported so the lateral calcaneus and fluoroscopic views remain accessible.", "source_ids": ["ao_6038220573e1685e", "orthobullets_82395ff14fb6b6a3"]}],
+        "setup": [{"text": "Delay surgery until swelling has subsided and lateral skin wrinkles return; protect fracture blisters and confirm flap viability before incision.", "source_ids": ["ao_6038220573e1685e", "orthobullets_82395ff14fb6b6a3"], "risk_level": "high"}],
+        "surface_landmarks": [{"text": "Mark the Achilles tendon, lateral malleolus, base of the fifth metatarsal, junction of lateral and plantar skin, and posterior midline.", "source_ids": ["ao_6038220573e1685e", "orthobullets_82395ff14fb6b6a3"]}],
+        "incision": [{"text": "Create a gently curved L-shaped incision with the vertical limb posterior to the lateral malleolus/Achilles border and the horizontal limb at the lateral–plantar skin junction toward the fifth-metatarsal base.", "source_ids": ["ao_6038220573e1685e", "orthobullets_82395ff14fb6b6a3"], "risk_level": "high"}],
+        "superficial_interval": [{"text": "Cut directly to bone at the corner and raise one full-thickness flap without undermining skin or separating the lateral calcaneal arterial supply.", "source_ids": ["ao_6038220573e1685e", "orthobullets_82395ff14fb6b6a3"], "risk_level": "high"}],
+        "deep_interval": [{"text": "Continue strictly subperiosteally, elevating periosteum, lateral collateral ligament, and inferior peroneal retinaculum together; split abductor digiti minimi in line with its fibers.", "source_ids": ["ao_6038220573e1685e", "orthobullets_82395ff14fb6b6a3"], "risk_level": "high"}],
+        "layers": [{"text": "Skin and full-thickness soft-tissue flap, subperiosteal lateral-wall plane with ligament/retinacular sleeve, lateral calcaneal wall, then subtalar posterior facet.", "source_ids": ["ao_6038220573e1685e", "orthobullets_82395ff14fb6b6a3"]}],
+        "structures_encountered": [{"text": "The flap contains the lateral calcaneal arterial network, sural nerve, peroneal tendons and retinaculum, lateral ankle ligaments, abductor digiti minimi, and periosteum.", "source_ids": ["ao_6038220573e1685e", "orthobullets_82395ff14fb6b6a3"]}],
+        "structures_at_risk": [{"text": "The lateral calcaneal artery and its anastomoses are the critical flap blood supply; leaving the subperiosteal plane or malpositioning either incision limb risks necrosis.", "source_ids": ["ao_6038220573e1685e", "orthobullets_82395ff14fb6b6a3"], "risk_level": "high"}, {"text": "The sural nerve is at risk near the superior vertical limb and should be protected by correct posterior incision placement rather than aggressive isolation.", "source_ids": ["ao_6038220573e1685e", "orthobullets_82395ff14fb6b6a3"], "risk_level": "high"}],
+        "danger_zones": [{"text": "Do not place the vertical limb too anterior, the horizontal limb too superior, or dissect off the periosteum; each error jeopardizes flap perfusion and wound healing.", "source_ids": ["ao_6038220573e1685e", "orthobullets_82395ff14fb6b6a3"], "risk_level": "high"}],
+        "retraction_hazards": [{"text": "Use gentle periosteal sutures or carefully placed retractors; avoid fibular K-wire retraction that can injure the lateral calcaneal artery and increase wound breakdown.", "source_ids": ["ao_6038220573e1685e", "orthobullets_82395ff14fb6b6a3"], "risk_level": "high"}],
+        "exposure": [{"text": "Provides broad visualization of the lateral calcaneal wall, tuberosity, anterior process, calcaneocuboid region, and posterior subtalar facet.", "source_ids": ["ao_6038220573e1685e", "orthobullets_82395ff14fb6b6a3"]}],
+        "limitations": [{"text": "The approach is invasive and soft-tissue dependent; it carries more wound risk than limited approaches and should not be used through swollen or compromised skin.", "source_ids": ["ao_6038220573e1685e", "orthobullets_82395ff14fb6b6a3"]}],
+        "extensions": [{"text": "The distal subperiosteal interval can be developed toward the calcaneocuboid joint, while posterior-facet visualization can be increased between flexor hallucis longus and peroneal tendons.", "source_ids": ["ao_6038220573e1685e"]}],
+        "indications": [{"text": "Used for ORIF of displaced intra-articular and severe calcaneal fractures and selected elective hindfoot reconstructions requiring broad lateral visualization.", "source_ids": ["ao_6038220573e1685e", "orthobullets_82395ff14fb6b6a3"]}],
+        "relative_contraindications": [{"text": "Do not proceed with substantial swelling, absent wrinkle sign, threatened lateral skin, active infection, or patient factors that make flap healing unacceptably unreliable.", "source_ids": ["ao_6038220573e1685e", "orthobullets_82395ff14fb6b6a3"], "risk_level": "high"}],
+        "implant_implications": [{"text": "Keep plates and prominent hardware away from the flap apex and verify that fixation does not entrap peroneal tendons or penetrate the subtalar joint.", "source_ids": ["ao_6038220573e1685e", "orthobullets_82395ff14fb6b6a3"], "risk_level": "high"}],
+        "fluoroscopy_implications": [{"text": "Maintain access for lateral, axial heel, and Broden-type subtalar views to assess reduction, height, width, alignment, and joint penetration.", "source_ids": ["ao_6038220573e1685e", "orthobullets_82395ff14fb6b6a3"]}],
+        "closure": [{"text": "Perform tension-free layered closure of deep fascia and abductor fascia followed by meticulous skin closure; use a drain selectively to limit hematoma.", "source_ids": ["ao_6038220573e1685e", "orthobullets_82395ff14fb6b6a3"], "risk_level": "high"}],
+        "complications": [{"text": "Key complications are flap-tip necrosis, wound dehiscence, deep infection, sural neuropathy, peroneal-tendon irritation, subtalar stiffness, and hardware prominence.", "source_ids": ["ao_6038220573e1685e", "orthobullets_82395ff14fb6b6a3"], "risk_level": "high"}],
+        "bailouts": [{"text": "If the flap appears ischemic or cannot close without tension, stop further insult, reassess fixation prominence, obtain soft-tissue expertise, and use staged or alternative management rather than forced closure.", "source_ids": ["ao_6038220573e1685e", "orthobullets_82395ff14fb6b6a3"], "risk_level": "high"}],
+        "questions": [
+          {"question": "What clinical sign is commonly used to judge readiness for extensile lateral calcaneal surgery?", "answer": "Return of lateral skin wrinkles—the wrinkle sign.", "source_ids": ["ao_6038220573e1685e", "orthobullets_82395ff14fb6b6a3"]},
+          {"question": "Which artery is central to survival of the lateral calcaneal flap?", "answer": "The lateral calcaneal artery, usually a terminal branch of the peroneal artery.", "source_ids": ["ao_6038220573e1685e", "orthobullets_82395ff14fb6b6a3"]},
+          {"question": "What deep-dissection plane protects the flap blood supply?", "answer": "A strictly subperiosteal plane with periosteum and retinacular/ligamentous tissue elevated as one flap.", "source_ids": ["ao_6038220573e1685e", "orthobullets_82395ff14fb6b6a3"]}
+        ]
+      }
+    }
+  ]
+}

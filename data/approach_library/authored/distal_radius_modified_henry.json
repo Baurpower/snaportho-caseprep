@@ -1,0 +1,468 @@
+{
+  "schema_version": "brobot_approach_packet_v1",
+  "approach_id": "distal_radius_modified_henry",
+  "name": "Modified Henry volar approach to the distal radius",
+  "aliases": [
+    "FCR approach",
+    "volar radial approach"
+  ],
+  "region": "volar distal forearm and wrist",
+  "joint": "wrist",
+  "bones": [
+    "distal radius"
+  ],
+  "corridor": "Through FCR sheath, ulnar to radial artery, then between FPL and radial artery to pronator quadratus",
+  "positioning": [
+    {
+      "text": "Position supine with arm on radiolucent hand table, forearm supinated, and wrist extended over a small support.",
+      "claim_ids": [
+        "distal_radius_modified_henry_positioning_01"
+      ]
+    }
+  ],
+  "setup": [
+    {
+      "text": "Mark FCR and radial artery, review lunate-facet and watershed-line anatomy, and prepare carpal-tunnel decompression as a separate or extensile option when indicated.",
+      "claim_ids": [
+        "distal_radius_modified_henry_setup_01"
+      ]
+    }
+  ],
+  "surface_landmarks": [
+    {
+      "text": "Mark FCR tendon, radial styloid, wrist crease, radial artery pulse, scaphoid tubercle, and palmaris longus when present.",
+      "claim_ids": [
+        "distal_radius_modified_henry_surface_landmarks_01"
+      ]
+    }
+  ],
+  "incision": [
+    {
+      "text": "Incise longitudinally along the radial border of FCR, tailored to fracture and plate length.",
+      "claim_ids": [
+        "distal_radius_modified_henry_incision_01"
+      ]
+    }
+  ],
+  "superficial_interval": [
+    {
+      "text": "Open FCR sheath and retract tendon ulnarly while protecting the palmar cutaneous median-nerve branch on the ulnar side.",
+      "claim_ids": [
+        "distal_radius_modified_henry_superficial_interval_01"
+      ]
+    }
+  ],
+  "deep_interval": [
+    {
+      "text": "Develop between FPL and radial artery, sweep FPL ulnarly, and elevate pronator quadratus with an L-shaped incision whose distal limb stays near the watershed line.",
+      "claim_ids": [
+        "distal_radius_modified_henry_deep_interval_01"
+      ]
+    }
+  ],
+  "layers": [
+    {
+      "text": "Skin, subcutaneous palmar-cutaneous nerve plane, FCR sheath, FPL-radial artery interval, pronator quadratus and periosteum, then volar radius.",
+      "claim_ids": [
+        "distal_radius_modified_henry_layers_01"
+      ]
+    }
+  ],
+  "structures_encountered": [
+    {
+      "text": "FCR, radial artery, palmar cutaneous median-nerve branch, FPL, pronator quadratus, volar capsule, and distal radius are encountered.",
+      "claim_ids": [
+        "distal_radius_modified_henry_structures_encountered_01"
+      ]
+    }
+  ],
+  "structures_at_risk": [
+    {
+      "text": "Palmar cutaneous median-nerve branch, median nerve proximally, radial artery, FPL, flexor tendons, and radiocarpal capsule are at risk.",
+      "claim_ids": [
+        "distal_radius_modified_henry_structures_at_risk_01"
+      ]
+    }
+  ],
+  "danger_zones": [
+    {
+      "text": "The palmar cutaneous branch is most vulnerable distally and median nerve proximity increases proximally; remain in the defined FCR-based interval.",
+      "claim_ids": [
+        "distal_radius_modified_henry_danger_zones_01"
+      ]
+    }
+  ],
+  "retraction_hazards": [
+    {
+      "text": "Avoid prolonged radial-artery traction and excessive ulnar retraction of FPL and median nerve; use broad atraumatic retractors.",
+      "claim_ids": [
+        "distal_radius_modified_henry_retraction_hazards_01"
+      ]
+    }
+  ],
+  "exposure": [
+    {
+      "text": "Exposes most volar distal-radius fractures and supports volar plate placement; it does not directly decompress the carpal tunnel.",
+      "claim_ids": [
+        "distal_radius_modified_henry_exposure_01"
+      ]
+    }
+  ],
+  "limitations": [
+    {
+      "text": "Isolated lunate-facet, dorsal rim, and highly complex high-energy patterns may need ulnar-volar, dorsal, or combined approaches.",
+      "claim_ids": [
+        "distal_radius_modified_henry_limitations_01"
+      ]
+    }
+  ],
+  "extensions": [
+    {
+      "text": "Extend proximally along FCR or add a separate carpal-tunnel, ulnar-volar, or dorsal exposure according to pathology.",
+      "claim_ids": [
+        "distal_radius_modified_henry_extensions_01"
+      ]
+    }
+  ],
+  "indications": [
+    {
+      "text": "Use for most operatively treated distal-radius fractures amenable to volar reduction and plating.",
+      "claim_ids": [
+        "distal_radius_modified_henry_indications_01"
+      ]
+    }
+  ],
+  "relative_contraindications": [
+    {
+      "text": "Choose an alternative or combined approach when the critical fragment cannot be controlled volarly or volar skin is compromised.",
+      "claim_ids": [
+        "distal_radius_modified_henry_relative_contraindications_01"
+      ]
+    }
+  ],
+  "implant_implications": [
+    {
+      "text": "Position the plate proximal to the watershed line when possible and confirm distal screws support subchondral bone without joint or dorsal-tendon penetration.",
+      "claim_ids": [
+        "distal_radius_modified_henry_implant_implications_01"
+      ]
+    }
+  ],
+  "fluoroscopy_implications": [
+    {
+      "text": "Use PA, lateral, oblique, dorsal tangential, and tilted views to assess reduction, watershed position, and every distal screw.",
+      "claim_ids": [
+        "distal_radius_modified_henry_fluoroscopy_implications_01"
+      ]
+    }
+  ],
+  "closure": [
+    {
+      "text": "Reapproximate pronator quadratus over the plate when feasible, close FCR sheath only without trapping the palmar cutaneous nerve, then close skin.",
+      "claim_ids": [
+        "distal_radius_modified_henry_closure_01"
+      ]
+    }
+  ],
+  "complications": [
+    {
+      "text": "Complications include median or palmar-cutaneous neuropathy, radial-artery injury, flexor or extensor tendon irritation or rupture, joint penetration, stiffness, and hardware prominence.",
+      "claim_ids": [
+        "distal_radius_modified_henry_complications_01"
+      ]
+    }
+  ],
+  "bailouts": [
+    {
+      "text": "Add the required column-specific exposure when reduction remains unseen and decompress the carpal tunnel through an appropriate separate or extensile route when indicated.",
+      "claim_ids": [
+        "distal_radius_modified_henry_bailouts_01"
+      ]
+    }
+  ],
+  "procedure_applications": [
+    {
+      "procedure_id": "distal_radius_fracture_orif",
+      "relationship": "primary_option",
+      "condition": "Most volar-displaced or reducible distal-radius fractures require volar plate fixation"
+    }
+  ],
+  "questions": [
+    {
+      "question": "What is the defining interval?",
+      "answer": "Between FCR and the radial artery, with the approach ulnar to the artery.",
+      "claim_ids": [
+        "distal_radius_modified_henry_questions_01"
+      ]
+    },
+    {
+      "question": "Which nerve branch is at risk distally?",
+      "answer": "The palmar cutaneous branch of the median nerve.",
+      "claim_ids": [
+        "distal_radius_modified_henry_questions_02"
+      ]
+    },
+    {
+      "question": "Where is the distal pronator-quadratus limb placed?",
+      "answer": "At the watershed line a few millimeters proximal to the joint.",
+      "claim_ids": [
+        "distal_radius_modified_henry_questions_03"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "distal_radius_modified_henry_positioning_01",
+      "text": "Position supine with arm on radiolucent hand table, forearm supinated, and wrist extended over a small support.",
+      "source_ids": [
+        "ao_2b5b97d34e777248",
+        "pmid_27833358"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "distal_radius_modified_henry_setup_01",
+      "text": "Mark FCR and radial artery, review lunate-facet and watershed-line anatomy, and prepare carpal-tunnel decompression as a separate or extensile option when indicated.",
+      "source_ids": [
+        "ao_2b5b97d34e777248",
+        "pmid_27833358"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "distal_radius_modified_henry_surface_landmarks_01",
+      "text": "Mark FCR tendon, radial styloid, wrist crease, radial artery pulse, scaphoid tubercle, and palmaris longus when present.",
+      "source_ids": [
+        "ao_2b5b97d34e777248",
+        "pmid_27833358"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "distal_radius_modified_henry_incision_01",
+      "text": "Incise longitudinally along the radial border of FCR, tailored to fracture and plate length.",
+      "source_ids": [
+        "ao_2b5b97d34e777248",
+        "pmid_27833358"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "distal_radius_modified_henry_superficial_interval_01",
+      "text": "Open FCR sheath and retract tendon ulnarly while protecting the palmar cutaneous median-nerve branch on the ulnar side.",
+      "source_ids": [
+        "ao_2b5b97d34e777248",
+        "pmid_27833358"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "distal_radius_modified_henry_deep_interval_01",
+      "text": "Develop between FPL and radial artery, sweep FPL ulnarly, and elevate pronator quadratus with an L-shaped incision whose distal limb stays near the watershed line.",
+      "source_ids": [
+        "ao_2b5b97d34e777248",
+        "pmid_27833358"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "distal_radius_modified_henry_layers_01",
+      "text": "Skin, subcutaneous palmar-cutaneous nerve plane, FCR sheath, FPL-radial artery interval, pronator quadratus and periosteum, then volar radius.",
+      "source_ids": [
+        "ao_2b5b97d34e777248"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "distal_radius_modified_henry_structures_encountered_01",
+      "text": "FCR, radial artery, palmar cutaneous median-nerve branch, FPL, pronator quadratus, volar capsule, and distal radius are encountered.",
+      "source_ids": [
+        "ao_2b5b97d34e777248",
+        "pmid_27833358"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "distal_radius_modified_henry_structures_at_risk_01",
+      "text": "Palmar cutaneous median-nerve branch, median nerve proximally, radial artery, FPL, flexor tendons, and radiocarpal capsule are at risk.",
+      "source_ids": [
+        "ao_2b5b97d34e777248",
+        "pmid_27833358"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "distal_radius_modified_henry_danger_zones_01",
+      "text": "The palmar cutaneous branch is most vulnerable distally and median nerve proximity increases proximally; remain in the defined FCR-based interval.",
+      "source_ids": [
+        "pmid_27833358",
+        "ao_2b5b97d34e777248"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "distal_radius_modified_henry_retraction_hazards_01",
+      "text": "Avoid prolonged radial-artery traction and excessive ulnar retraction of FPL and median nerve; use broad atraumatic retractors.",
+      "source_ids": [
+        "ao_2b5b97d34e777248",
+        "pmid_27833358"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "distal_radius_modified_henry_exposure_01",
+      "text": "Exposes most volar distal-radius fractures and supports volar plate placement; it does not directly decompress the carpal tunnel.",
+      "source_ids": [
+        "ao_2b5b97d34e777248",
+        "pmid_33165042"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "distal_radius_modified_henry_limitations_01",
+      "text": "Isolated lunate-facet, dorsal rim, and highly complex high-energy patterns may need ulnar-volar, dorsal, or combined approaches.",
+      "source_ids": [
+        "ao_2b5b97d34e777248",
+        "pmid_33165042"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "distal_radius_modified_henry_extensions_01",
+      "text": "Extend proximally along FCR or add a separate carpal-tunnel, ulnar-volar, or dorsal exposure according to pathology.",
+      "source_ids": [
+        "ao_2b5b97d34e777248",
+        "pmid_27833358"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "distal_radius_modified_henry_indications_01",
+      "text": "Use for most operatively treated distal-radius fractures amenable to volar reduction and plating.",
+      "source_ids": [
+        "ao_2b5b97d34e777248",
+        "pmid_33165042"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "distal_radius_modified_henry_relative_contraindications_01",
+      "text": "Choose an alternative or combined approach when the critical fragment cannot be controlled volarly or volar skin is compromised.",
+      "source_ids": [
+        "ao_2b5b97d34e777248",
+        "pmid_33165042"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "distal_radius_modified_henry_implant_implications_01",
+      "text": "Position the plate proximal to the watershed line when possible and confirm distal screws support subchondral bone without joint or dorsal-tendon penetration.",
+      "source_ids": [
+        "ao_2b5b97d34e777248",
+        "pmid_33165042"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "distal_radius_modified_henry_fluoroscopy_implications_01",
+      "text": "Use PA, lateral, oblique, dorsal tangential, and tilted views to assess reduction, watershed position, and every distal screw.",
+      "source_ids": [
+        "ao_2b5b97d34e777248",
+        "pmid_33165042"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "distal_radius_modified_henry_closure_01",
+      "text": "Reapproximate pronator quadratus over the plate when feasible, close FCR sheath only without trapping the palmar cutaneous nerve, then close skin.",
+      "source_ids": [
+        "ao_2b5b97d34e777248",
+        "pmid_27833358"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "distal_radius_modified_henry_complications_01",
+      "text": "Complications include median or palmar-cutaneous neuropathy, radial-artery injury, flexor or extensor tendon irritation or rupture, joint penetration, stiffness, and hardware prominence.",
+      "source_ids": [
+        "ao_2b5b97d34e777248",
+        "pmid_27833358"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "distal_radius_modified_henry_bailouts_01",
+      "text": "Add the required column-specific exposure when reduction remains unseen and decompress the carpal tunnel through an appropriate separate or extensile route when indicated.",
+      "source_ids": [
+        "ao_2b5b97d34e777248",
+        "pmid_27833358"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "distal_radius_modified_henry_questions_01",
+      "text": "What is the defining interval?",
+      "source_ids": [
+        "ao_2b5b97d34e777248"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "distal_radius_modified_henry_questions_02",
+      "text": "Which nerve branch is at risk distally?",
+      "source_ids": [
+        "ao_2b5b97d34e777248",
+        "pmid_27833358"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "distal_radius_modified_henry_questions_03",
+      "text": "Where is the distal pronator-quadratus limb placed?",
+      "source_ids": [
+        "ao_2b5b97d34e777248"
+      ],
+      "risk_level": "medium"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "ao_2b5b97d34e777248",
+      "provider": "AO Surgery Reference",
+      "title": "Palmar Approach Modified Henry Approach",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/distal-forearm/approach/palmar-approach--modified-henry-approach",
+      "source_page_id": "ao_2b5b97d34e777248"
+    },
+    {
+      "source_id": "pmid_27833358",
+      "provider": "PubMed",
+      "title": "Anatomic considerations when performing the modified Henry approach for exposure of distal radius fractures",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/27833358/"
+    },
+    {
+      "source_id": "pmid_33165042",
+      "provider": "PubMed",
+      "title": "Relative Effectiveness of Surgical Treatment Options for Distal Radius Fractures",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/33165042/"
+    }
+  ],
+  "content_status": "agent_review_pending",
+  "review": {
+    "status": "agent_review_pending",
+    "required_roles": [
+      "adversarial_safety_reviewer",
+      "approach_anatomy_reviewer",
+      "educational_value_reviewer",
+      "evidence_reviewer",
+      "operative_exposure_reviewer",
+      "procedure_applicability_reviewer"
+    ],
+    "completed_roles": []
+  },
+  "resolved_contradiction_keys": [],
+  "authoring_provenance": {
+    "method": "local_codex_curated",
+    "definition_file": "data/approach_library/curated/adult_distal_radius_core_approaches_v1.json",
+    "api_used": false
+  }
+}

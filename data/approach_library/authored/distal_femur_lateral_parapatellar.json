@@ -1,0 +1,465 @@
+{
+  "schema_version": "brobot_approach_packet_v1",
+  "approach_id": "distal_femur_lateral_parapatellar",
+  "name": "Lateral parapatellar approach to the distal femur",
+  "aliases": [
+    "lateral parapatellar arthrotomy",
+    "lateral extensor-mechanism approach"
+  ],
+  "region": "anterior knee and distal femur",
+  "joint": "knee",
+  "bones": [
+    "distal femur",
+    "patella",
+    "proximal tibia"
+  ],
+  "corridor": "Longitudinal lateral parapatellar retinacular and quadriceps split with medial patellar dislocation",
+  "positioning": [
+    {
+      "text": "Position supine on a radiolucent table with a towel roll supporting approximately 20-30 degrees of knee flexion and the entire femur accessible for imaging.",
+      "claim_ids": [
+        "distal_femur_lateral_parapatellar_positioning_01"
+      ]
+    }
+  ],
+  "setup": [
+    {
+      "text": "Prepare the full limb, ensure the incision can be lengthened enough for atraumatic patellar mobilization, and plan lateral plate insertion and proximal percutaneous fixation before draping.",
+      "claim_ids": [
+        "distal_femur_lateral_parapatellar_setup_01"
+      ]
+    }
+  ],
+  "surface_landmarks": [
+    {
+      "text": "Mark the patella, patellar tendon, tibial tubercle, lateral joint line, lateral epicondyle, and femoral shaft axis.",
+      "claim_ids": [
+        "distal_femur_lateral_parapatellar_surface_landmarks_01"
+      ]
+    }
+  ],
+  "incision": [
+    {
+      "text": "Use a roughly 15-18 cm anterior incision centered at or slightly lateral to midline, extending sufficiently proximal to permit quadriceps release and medial patellar dislocation.",
+      "claim_ids": [
+        "distal_femur_lateral_parapatellar_incision_01"
+      ]
+    }
+  ],
+  "superficial_interval": [
+    {
+      "text": "Expose both borders of the quadriceps tendon while preserving the extensor retinaculum over the anterior patella.",
+      "claim_ids": [
+        "distal_femur_lateral_parapatellar_superficial_interval_01"
+      ]
+    }
+  ],
+  "deep_interval": [
+    {
+      "text": "Divide the lateral retinaculum and quadriceps longitudinally, leaving an 8-10 mm lateral cuff at the patella; carry the split toward the lateral patellar-tendon border and dislocate the patella medially with knee flexion.",
+      "claim_ids": [
+        "distal_femur_lateral_parapatellar_deep_interval_01"
+      ]
+    }
+  ],
+  "layers": [
+    {
+      "text": "Skin, subcutaneous tissue, lateral retinaculum, quadriceps tendon, capsule and synovium, then distal femoral articular surface.",
+      "claim_ids": [
+        "distal_femur_lateral_parapatellar_layers_01"
+      ]
+    }
+  ],
+  "structures_encountered": [
+    {
+      "text": "Quadriceps tendon, lateral patellar retinaculum, patella, patellar tendon, synovium, femoral condyles, trochlea, menisci, and cruciate region are encountered.",
+      "claim_ids": [
+        "distal_femur_lateral_parapatellar_structures_encountered_01"
+      ]
+    }
+  ],
+  "structures_at_risk": [
+    {
+      "text": "Patellar tendon insertion, articular cartilage, menisci, lateral superior genicular artery, and extensor-mechanism blood supply are at risk.",
+      "claim_ids": [
+        "distal_femur_lateral_parapatellar_structures_at_risk_01"
+      ]
+    }
+  ],
+  "danger_zones": [
+    {
+      "text": "An incision or quadriceps split that is too short concentrates force at the patellar tendon during medial dislocation and can cause avulsion; lengthen the exposure rather than applying force.",
+      "claim_ids": [
+        "distal_femur_lateral_parapatellar_danger_zones_01"
+      ]
+    }
+  ],
+  "retraction_hazards": [
+    {
+      "text": "Retract the extensor mechanism gradually with the knee flexed; avoid focal pressure on patellar cartilage and excessive tension at the tibial tubercle.",
+      "claim_ids": [
+        "distal_femur_lateral_parapatellar_retraction_hazards_01"
+      ]
+    }
+  ],
+  "exposure": [
+    {
+      "text": "Provides broad visualization of the distal femoral articular surface and lateral condyle while supporting lateral submuscular plate insertion.",
+      "claim_ids": [
+        "distal_femur_lateral_parapatellar_exposure_01"
+      ]
+    }
+  ],
+  "limitations": [
+    {
+      "text": "Posterior condylar fragments may still need a fragment-specific exposure, and the approach disrupts the extensor mechanism more than a limited lateral plate approach.",
+      "claim_ids": [
+        "distal_femur_lateral_parapatellar_limitations_01"
+      ]
+    }
+  ],
+  "extensions": [
+    {
+      "text": "Extend proximally through the quadriceps split, add a separate proximal lateral window for plate control, or use small aligned stab incisions for percutaneous screws.",
+      "claim_ids": [
+        "distal_femur_lateral_parapatellar_extensions_01"
+      ]
+    }
+  ],
+  "indications": [
+    {
+      "text": "Use for intra-articular distal femoral fractures requiring direct reconstruction of the articular block and lateral fixation, including selected lateral sagittal or coronal patterns.",
+      "claim_ids": [
+        "distal_femur_lateral_parapatellar_indications_01"
+      ]
+    }
+  ],
+  "relative_contraindications": [
+    {
+      "text": "Prefer a more limited lateral exposure when no articular visualization is needed, and use a fragment-specific medial or posterior approach when the target cannot be seen safely from the lateral parapatellar corridor.",
+      "claim_ids": [
+        "distal_femur_lateral_parapatellar_relative_contraindications_01"
+      ]
+    }
+  ],
+  "implant_implications": [
+    {
+      "text": "The approach accommodates lateral locked plating through a submuscular tunnel; confirm the proximal plate is centered before placing remaining proximal screws.",
+      "claim_ids": [
+        "distal_femur_lateral_parapatellar_implant_implications_01"
+      ]
+    }
+  ],
+  "fluoroscopy_implications": [
+    {
+      "text": "Obtain unobstructed AP, lateral, and oblique views to verify articular reduction, alignment, plate centering, screw length, and absence of joint penetration.",
+      "claim_ids": [
+        "distal_femur_lateral_parapatellar_fluoroscopy_implications_01"
+      ]
+    }
+  ],
+  "closure": [
+    {
+      "text": "Repair quadriceps tendon and the retained lateral parapatellar cuff with interrupted heavy sutures, restore retinacular continuity, then close subcutaneous tissue and skin.",
+      "claim_ids": [
+        "distal_femur_lateral_parapatellar_closure_01"
+      ]
+    }
+  ],
+  "complications": [
+    {
+      "text": "Complications include patellar-tendon avulsion, extensor weakness or adhesions, stiffness, articular malreduction, infection, nonunion, malalignment, and hardware irritation.",
+      "claim_ids": [
+        "distal_femur_lateral_parapatellar_complications_01"
+      ]
+    }
+  ],
+  "bailouts": [
+    {
+      "text": "If the patella will not dislocate without excessive tension, extend the skin and quadriceps releases; add a fragment-specific approach if posterior or medial reduction remains unseen.",
+      "claim_ids": [
+        "distal_femur_lateral_parapatellar_bailouts_01"
+      ]
+    }
+  ],
+  "procedure_applications": [
+    {
+      "procedure_id": "distal_femur_fracture_orif",
+      "relationship": "primary_option",
+      "condition": "A complete or complex intra-articular distal femur fracture requires broad visualization of the articular block with lateral plate access"
+    }
+  ],
+  "questions": [
+    {
+      "question": "Why must the incision and quadriceps split be long enough?",
+      "answer": "To permit medial patellar dislocation without avulsing the patellar tendon.",
+      "claim_ids": [
+        "distal_femur_lateral_parapatellar_questions_01"
+      ]
+    },
+    {
+      "question": "How much retinacular cuff is retained beside the patella?",
+      "answer": "Approximately 8-10 mm for secure repair.",
+      "claim_ids": [
+        "distal_femur_lateral_parapatellar_questions_02"
+      ]
+    },
+    {
+      "question": "What vessel may be encountered laterally?",
+      "answer": "The lateral superior genicular artery, which may require avoidance or ligation.",
+      "claim_ids": [
+        "distal_femur_lateral_parapatellar_questions_03"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "distal_femur_lateral_parapatellar_positioning_01",
+      "text": "Position supine on a radiolucent table with a towel roll supporting approximately 20-30 degrees of knee flexion and the entire femur accessible for imaging.",
+      "source_ids": [
+        "ao_99469c4cdb6e1c92",
+        "pmid_42267346"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "distal_femur_lateral_parapatellar_setup_01",
+      "text": "Prepare the full limb, ensure the incision can be lengthened enough for atraumatic patellar mobilization, and plan lateral plate insertion and proximal percutaneous fixation before draping.",
+      "source_ids": [
+        "ao_99469c4cdb6e1c92",
+        "pmid_42267346"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "distal_femur_lateral_parapatellar_surface_landmarks_01",
+      "text": "Mark the patella, patellar tendon, tibial tubercle, lateral joint line, lateral epicondyle, and femoral shaft axis.",
+      "source_ids": [
+        "ao_99469c4cdb6e1c92"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "distal_femur_lateral_parapatellar_incision_01",
+      "text": "Use a roughly 15-18 cm anterior incision centered at or slightly lateral to midline, extending sufficiently proximal to permit quadriceps release and medial patellar dislocation.",
+      "source_ids": [
+        "ao_99469c4cdb6e1c92",
+        "pmid_42267346"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "distal_femur_lateral_parapatellar_superficial_interval_01",
+      "text": "Expose both borders of the quadriceps tendon while preserving the extensor retinaculum over the anterior patella.",
+      "source_ids": [
+        "ao_99469c4cdb6e1c92"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "distal_femur_lateral_parapatellar_deep_interval_01",
+      "text": "Divide the lateral retinaculum and quadriceps longitudinally, leaving an 8-10 mm lateral cuff at the patella; carry the split toward the lateral patellar-tendon border and dislocate the patella medially with knee flexion.",
+      "source_ids": [
+        "ao_99469c4cdb6e1c92",
+        "pmid_42267346"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "distal_femur_lateral_parapatellar_layers_01",
+      "text": "Skin, subcutaneous tissue, lateral retinaculum, quadriceps tendon, capsule and synovium, then distal femoral articular surface.",
+      "source_ids": [
+        "ao_99469c4cdb6e1c92"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "distal_femur_lateral_parapatellar_structures_encountered_01",
+      "text": "Quadriceps tendon, lateral patellar retinaculum, patella, patellar tendon, synovium, femoral condyles, trochlea, menisci, and cruciate region are encountered.",
+      "source_ids": [
+        "ao_99469c4cdb6e1c92"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "distal_femur_lateral_parapatellar_structures_at_risk_01",
+      "text": "Patellar tendon insertion, articular cartilage, menisci, lateral superior genicular artery, and extensor-mechanism blood supply are at risk.",
+      "source_ids": [
+        "ao_99469c4cdb6e1c92",
+        "pmid_42267346"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "distal_femur_lateral_parapatellar_danger_zones_01",
+      "text": "An incision or quadriceps split that is too short concentrates force at the patellar tendon during medial dislocation and can cause avulsion; lengthen the exposure rather than applying force.",
+      "source_ids": [
+        "ao_99469c4cdb6e1c92",
+        "pmid_42267346"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "distal_femur_lateral_parapatellar_retraction_hazards_01",
+      "text": "Retract the extensor mechanism gradually with the knee flexed; avoid focal pressure on patellar cartilage and excessive tension at the tibial tubercle.",
+      "source_ids": [
+        "ao_99469c4cdb6e1c92",
+        "pmid_42267346"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "distal_femur_lateral_parapatellar_exposure_01",
+      "text": "Provides broad visualization of the distal femoral articular surface and lateral condyle while supporting lateral submuscular plate insertion.",
+      "source_ids": [
+        "ao_99469c4cdb6e1c92",
+        "pmid_42267346"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "distal_femur_lateral_parapatellar_limitations_01",
+      "text": "Posterior condylar fragments may still need a fragment-specific exposure, and the approach disrupts the extensor mechanism more than a limited lateral plate approach.",
+      "source_ids": [
+        "ao_99469c4cdb6e1c92",
+        "pmid_31460990"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "distal_femur_lateral_parapatellar_extensions_01",
+      "text": "Extend proximally through the quadriceps split, add a separate proximal lateral window for plate control, or use small aligned stab incisions for percutaneous screws.",
+      "source_ids": [
+        "ao_99469c4cdb6e1c92"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "distal_femur_lateral_parapatellar_indications_01",
+      "text": "Use for intra-articular distal femoral fractures requiring direct reconstruction of the articular block and lateral fixation, including selected lateral sagittal or coronal patterns.",
+      "source_ids": [
+        "ao_99469c4cdb6e1c92",
+        "pmid_42267346"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "distal_femur_lateral_parapatellar_relative_contraindications_01",
+      "text": "Prefer a more limited lateral exposure when no articular visualization is needed, and use a fragment-specific medial or posterior approach when the target cannot be seen safely from the lateral parapatellar corridor.",
+      "source_ids": [
+        "ao_99469c4cdb6e1c92",
+        "pmid_31460990"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "distal_femur_lateral_parapatellar_implant_implications_01",
+      "text": "The approach accommodates lateral locked plating through a submuscular tunnel; confirm the proximal plate is centered before placing remaining proximal screws.",
+      "source_ids": [
+        "ao_99469c4cdb6e1c92",
+        "pmid_42267346"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "distal_femur_lateral_parapatellar_fluoroscopy_implications_01",
+      "text": "Obtain unobstructed AP, lateral, and oblique views to verify articular reduction, alignment, plate centering, screw length, and absence of joint penetration.",
+      "source_ids": [
+        "ao_99469c4cdb6e1c92",
+        "pmid_42267346"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "distal_femur_lateral_parapatellar_closure_01",
+      "text": "Repair quadriceps tendon and the retained lateral parapatellar cuff with interrupted heavy sutures, restore retinacular continuity, then close subcutaneous tissue and skin.",
+      "source_ids": [
+        "ao_99469c4cdb6e1c92",
+        "pmid_42267346"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "distal_femur_lateral_parapatellar_complications_01",
+      "text": "Complications include patellar-tendon avulsion, extensor weakness or adhesions, stiffness, articular malreduction, infection, nonunion, malalignment, and hardware irritation.",
+      "source_ids": [
+        "ao_99469c4cdb6e1c92",
+        "pmid_42267346"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "distal_femur_lateral_parapatellar_bailouts_01",
+      "text": "If the patella will not dislocate without excessive tension, extend the skin and quadriceps releases; add a fragment-specific approach if posterior or medial reduction remains unseen.",
+      "source_ids": [
+        "ao_99469c4cdb6e1c92",
+        "pmid_31460990"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "distal_femur_lateral_parapatellar_questions_01",
+      "text": "Why must the incision and quadriceps split be long enough?",
+      "source_ids": [
+        "ao_99469c4cdb6e1c92"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "distal_femur_lateral_parapatellar_questions_02",
+      "text": "How much retinacular cuff is retained beside the patella?",
+      "source_ids": [
+        "ao_99469c4cdb6e1c92"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "distal_femur_lateral_parapatellar_questions_03",
+      "text": "What vessel may be encountered laterally?",
+      "source_ids": [
+        "ao_99469c4cdb6e1c92"
+      ],
+      "risk_level": "medium"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "ao_99469c4cdb6e1c92",
+      "provider": "AO Surgery Reference",
+      "title": "Lateral Parapatellar Approach To The Distal Femur",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/distal-femur/approach/lateral-parapatellar-approach-to-the-distal-femur",
+      "source_page_id": "ao_99469c4cdb6e1c92"
+    },
+    {
+      "source_id": "pmid_42267346",
+      "provider": "PubMed",
+      "title": "Current concepts in the treatment of distal femur fractures in adults",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42267346/"
+    },
+    {
+      "source_id": "pmid_31460990",
+      "provider": "PubMed",
+      "title": "Surgical approaches and outcomes associated with intra-articular Hoffa fractures",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/31460990/"
+    }
+  ],
+  "content_status": "agent_review_pending",
+  "review": {
+    "status": "agent_review_pending",
+    "required_roles": [
+      "adversarial_safety_reviewer",
+      "approach_anatomy_reviewer",
+      "educational_value_reviewer",
+      "evidence_reviewer",
+      "operative_exposure_reviewer",
+      "procedure_applicability_reviewer"
+    ],
+    "completed_roles": []
+  },
+  "resolved_contradiction_keys": [],
+  "authoring_provenance": {
+    "method": "local_codex_curated",
+    "definition_file": "data/approach_library/curated/distal_femur_parapatellar_medial_approaches_v1.json",
+    "api_used": false
+  }
+}

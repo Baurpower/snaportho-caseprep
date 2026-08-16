@@ -1,0 +1,92 @@
+{
+  "approaches": [
+    {
+      "approach_id": "approach_lower_ext_pelvis_acetabulum_anterior_ilioinguinal",
+      "name": "Ilioinguinal approach to the acetabulum",
+      "aliases": ["Letournel ilioinguinal approach", "anterior acetabular approach"],
+      "region": "acetabulum and anterior pelvis",
+      "joint": "hip",
+      "bones": ["acetabulum", "innominate bone", "superior pubic ramus"],
+      "corridor": "Three-window extraperitoneal exposure around the iliopsoas, femoral neurovascular bundle, and spermatic cord or round ligament",
+      "sources": [
+        {"source_id": "ao_2c5c75c12e989a0d", "provider": "AO Surgery Reference", "title": "Ilioinguinal approach to the acetabulum", "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/acetabulum/approach/ilioinguinal-approach-to-the-acetabulum", "source_page_id": "ao_2c5c75c12e989a0d"},
+        {"source_id": "orthobullets_2b3faeef45135b2d", "provider": "Orthobullets", "title": "Ilioinguinal Approach to the Acetabulum", "url": "https://www.orthobullets.com/approaches/12016/ilioinguinal-approach-to-the-acetabulum", "source_page_id": "orthobullets_2b3faeef45135b2d"}
+      ],
+      "procedure_applications": [
+        {"procedure_id": "acetabulum_fracture_orif_anterior", "relationship": "primary_option", "condition": "Anterior wall, anterior column, both-column, or selected transverse exposure is required"}
+      ],
+      "sections": {
+        "positioning": [{"text": "Position supine on a radiolucent table with the injured limb included in the field so hip flexion can relax the iliopsoas and femoral neurovascular structures.", "source_ids": ["ao_2c5c75c12e989a0d", "orthobullets_2b3faeef45135b2d"], "risk_level": "high"}],
+        "setup": [{"text": "Prepare the lower abdomen, hemipelvis, and operative leg; place and confirm a urinary catheter so the bladder can be identified and protected during medial-window development.", "source_ids": ["ao_2c5c75c12e989a0d", "orthobullets_2b3faeef45135b2d"], "risk_level": "high"}],
+        "surface_landmarks": [{"text": "Mark the iliac crest, anterior superior iliac spine, inguinal ligament, pubic tubercle, and pubic symphysis.", "source_ids": ["ao_2c5c75c12e989a0d", "orthobullets_2b3faeef45135b2d"]}],
+        "incision": [{"text": "Use a curved incision along the iliac crest and inguinal region that can extend medially just proximal to the pubic symphysis according to the windows required.", "source_ids": ["ao_2c5c75c12e989a0d", "orthobullets_2b3faeef45135b2d"]}],
+        "superficial_interval": [{"text": "Elevate the abdominal wall from the iliac crest, open the external-oblique aponeurosis above the inguinal canal, and mobilize the spermatic cord or round ligament medially.", "source_ids": ["ao_2c5c75c12e989a0d", "orthobullets_2b3faeef45135b2d"], "risk_level": "high"}],
+        "deep_interval": [{"text": "Develop three windows: internal iliac fossa lateral to iliopsoas, pelvic brim between iliopsoas/femoral nerve and femoral vessels, and the medial retropubic window beside rectus and the cord or round ligament.", "source_ids": ["ao_2c5c75c12e989a0d", "orthobullets_2b3faeef45135b2d"], "risk_level": "high"}],
+        "layers": [{"text": "Skin and subcutaneous tissue, external-oblique aponeurosis and inguinal structures, iliacus and iliopsoas mobilization, iliopectineal fascia, then subperiosteal anterior pelvic and acetabular exposure.", "source_ids": ["ao_2c5c75c12e989a0d", "orthobullets_2b3faeef45135b2d"]}],
+        "structures_encountered": [{"text": "The exposure encounters the lateral femoral cutaneous and ilioinguinal nerves, iliopsoas and femoral nerve, external iliac/femoral vessels, spermatic cord or round ligament, and iliopectineal fascia.", "source_ids": ["ao_2c5c75c12e989a0d", "orthobullets_2b3faeef45135b2d"]}],
+        "structures_at_risk": [{"text": "Femoral and external iliac vessels, femoral nerve, lateral femoral cutaneous nerve, ilioinguinal nerve, bladder, spermatic cord or round ligament, and corona-mortis anastomoses require direct identification and protection.", "source_ids": ["ao_2c5c75c12e989a0d", "orthobullets_2b3faeef45135b2d"], "risk_level": "high"}],
+        "danger_zones": [{"text": "Divide the iliopectineal fascia only under direct vision between gently mobilized vessels medially and iliopsoas/femoral nerve laterally; minimize circumferential vascular dissection.", "source_ids": ["ao_2c5c75c12e989a0d", "orthobullets_2b3faeef45135b2d"], "risk_level": "high"}],
+        "retraction_hazards": [{"text": "Continuously monitor medial vessel retraction and avoid prolonged compression of the femoral neurovascular bundle; protect the bladder with controlled packing in the space of Retzius.", "source_ids": ["ao_2c5c75c12e989a0d", "orthobullets_2b3faeef45135b2d"], "risk_level": "high"}],
+        "exposure": [{"text": "Exposes the internal iliac fossa from the sacroiliac joint to the iliopectineal eminence, pelvic brim and quadrilateral surface, and superior pubic ramus to the symphysis through three windows.", "source_ids": ["ao_2c5c75c12e989a0d", "orthobullets_2b3faeef45135b2d"]}],
+        "limitations": [{"text": "Reduction is primarily indirect because the articular surface is not directly visualized; complex intrapelvic work may be better addressed through an anterior intrapelvic modification.", "source_ids": ["ao_2c5c75c12e989a0d", "orthobullets_2b3faeef45135b2d"]}],
+        "extensions": [{"text": "The third window can be expanded across the midline into an anterior intrapelvic exposure of the quadrilateral surface and posterior column.", "source_ids": ["ao_2c5c75c12e989a0d"]}],
+        "indications": [{"text": "Used for anterior-wall and anterior-column fractures, many both-column patterns, and selected transverse or associated acetabular fractures requiring broad anterior access.", "source_ids": ["ao_2c5c75c12e989a0d", "orthobullets_2b3faeef45135b2d"]}],
+        "relative_contraindications": [{"text": "Prior inguinal or femoral hernia surgery and active hernia can complicate the second window; consider limiting that window or selecting an alternative exposure.", "source_ids": ["ao_2c5c75c12e989a0d", "orthobullets_2b3faeef45135b2d"]}],
+        "implant_implications": [{"text": "Implant placement is performed through separate windows around the neurovascular bundle; plate contour and screw trajectories must be planned without directly seeing the articular reduction.", "source_ids": ["ao_2c5c75c12e989a0d", "orthobullets_2b3faeef45135b2d"]}],
+        "fluoroscopy_implications": [{"text": "Maintain access for AP, obturator-oblique, and iliac-oblique imaging because reduction is indirect and intra-articular penetration must be excluded.", "source_ids": ["ao_2c5c75c12e989a0d", "orthobullets_2b3faeef45135b2d"]}],
+        "closure": [{"text": "Reconstruct the conjoint tendon and inguinal floor without trapping cord structures, repair external-oblique and rectus fascia, and securely reattach the abdominal wall to the iliac crest.", "source_ids": ["ao_2c5c75c12e989a0d", "orthobullets_2b3faeef45135b2d"], "risk_level": "high"}],
+        "complications": [{"text": "Complications include major vascular or femoral-nerve injury, lateral femoral cutaneous neuropathy, lymphatic injury, bladder or cord injury, inguinal hernia, infection, and wound morbidity.", "source_ids": ["ao_2c5c75c12e989a0d", "orthobullets_2b3faeef45135b2d"], "risk_level": "high"}],
+        "bailouts": [{"text": "If safe vessel mobilization or a required window cannot be achieved, stop blind retraction and convert to the planned intrapelvic or alternative exposure rather than forcing access.", "source_ids": ["ao_2c5c75c12e989a0d", "orthobullets_2b3faeef45135b2d"], "risk_level": "high"}],
+        "questions": [
+          {"question": "What separates the neural and vascular compartments in the ilioinguinal approach?", "answer": "The iliopectineal fascia.", "source_ids": ["ao_2c5c75c12e989a0d", "orthobullets_2b3faeef45135b2d"]},
+          {"question": "Why is acetabular reduction indirect through the classic ilioinguinal approach?", "answer": "The articular surface is not directly visualized; reduction relies on restoration of extra-articular anatomy and imaging.", "source_ids": ["ao_2c5c75c12e989a0d", "orthobullets_2b3faeef45135b2d"]},
+          {"question": "Which nerve is commonly found near the ASIS and must be mobilized?", "answer": "The lateral femoral cutaneous nerve.", "source_ids": ["ao_2c5c75c12e989a0d", "orthobullets_2b3faeef45135b2d"]}
+        ]
+      }
+    },
+    {
+      "approach_id": "acetabulum_anterior_intrapelvic_modified_stoppa",
+      "name": "Anterior intrapelvic approach (modified Stoppa)",
+      "aliases": ["Modified Stoppa approach", "AIP approach", "anterior intrapelvic approach"],
+      "region": "acetabulum and anterior pelvis",
+      "joint": "hip",
+      "bones": ["acetabulum", "superior pubic ramus", "quadrilateral surface"],
+      "corridor": "Extraperitoneal retropubic corridor deep to rectus abdominis along the inner pelvis and quadrilateral surface",
+      "sources": [
+        {"source_id": "ao_92912c506230bf66", "provider": "AO Surgery Reference", "title": "Modified Stoppa approach", "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/acetabulum/approach/modified-stoppa-approach", "source_page_id": "ao_92912c506230bf66"},
+        {"source_id": "orthobullets_73361e1ca081f06d", "provider": "Orthobullets", "title": "Stoppa Approach to Acetabulum", "url": "https://www.orthobullets.com/approaches/12056/stoppa-approach-to-acetabulum", "source_page_id": "orthobullets_73361e1ca081f06d"}
+      ],
+      "procedure_applications": [
+        {"procedure_id": "acetabulum_fracture_orif_anterior", "relationship": "primary_option", "condition": "Direct intrapelvic access to the quadrilateral surface, anterior column, or medial posterior column is required"}
+      ],
+      "sections": {
+        "positioning": [{"text": "Position supine on a radiolucent table with the injured leg in the field and the hip and knee flexed enough to relax iliopsoas and external iliac vessels.", "source_ids": ["ao_92912c506230bf66", "orthobullets_73361e1ca081f06d"], "risk_level": "high"}],
+        "setup": [{"text": "Place a urinary catheter, prepare the lower abdomen and hemipelvis, and arrange fluoroscopy for AP and Judet views before incision.", "source_ids": ["ao_92912c506230bf66", "orthobullets_73361e1ca081f06d"], "risk_level": "high"}],
+        "surface_landmarks": [{"text": "Identify the pubic symphysis, linea alba, rectus borders, inguinal ligament, and iliac crest if a lateral window may be added.", "source_ids": ["ao_92912c506230bf66", "orthobullets_73361e1ca081f06d"]}],
+        "incision": [{"text": "Use a transverse Pfannenstiel incision just proximal to the pubic symphysis, with a separate lateral-window extension when upper anterior-column exposure is needed.", "source_ids": ["ao_92912c506230bf66", "orthobullets_73361e1ca081f06d"]}],
+        "superficial_interval": [{"text": "Open the rectus fascia at the linea alba, separate the rectus bellies, and remain strictly in the preperitoneal space.", "source_ids": ["ao_92912c506230bf66", "orthobullets_73361e1ca081f06d"], "risk_level": "high"}],
+        "deep_interval": [{"text": "Develop the inner surface of the superior pubic ramus and pelvic brim subperiosteally, mobilizing obturator structures and elevating obturator internus to expose the quadrilateral surface.", "source_ids": ["ao_92912c506230bf66", "orthobullets_73361e1ca081f06d"], "risk_level": "high"}],
+        "layers": [{"text": "Skin and subcutaneous tissue, anterior rectus sheath and linea alba, rectus separation, preperitoneal retropubic space, periosteum and obturator internus, then quadrilateral surface and pelvic brim.", "source_ids": ["ao_92912c506230bf66", "orthobullets_73361e1ca081f06d"]}],
+        "structures_encountered": [{"text": "Corona-mortis vessels, external iliac vessels and iliopsoas laterally, obturator neurovascular bundle, bladder, peritoneum, pelvic floor, and lumbosacral trunk define the exposure.", "source_ids": ["ao_92912c506230bf66", "orthobullets_73361e1ca081f06d"]}],
+        "structures_at_risk": [{"text": "The obturator neurovascular bundle, corona mortis, external iliac vein, bladder, peritoneum, pelvic floor, and lumbosacral trunk are at risk during intrapelvic dissection and retraction.", "source_ids": ["ao_92912c506230bf66", "orthobullets_73361e1ca081f06d"], "risk_level": "high"}],
+        "danger_zones": [{"text": "Identify and control corona-mortis vessels before deeper lateral mobilization, and protect the obturator bundle with a malleable retractor while elevating obturator internus.", "source_ids": ["ao_92912c506230bf66", "orthobullets_73361e1ca081f06d"], "risk_level": "high"}],
+        "retraction_hazards": [{"text": "Prevent retractor slippage into the pelvis; avoid avulsion of variably tethered obturator vessels and direct pressure on external iliac vein, bladder, or lumbosacral trunk.", "source_ids": ["ao_92912c506230bf66", "orthobullets_73361e1ca081f06d"], "risk_level": "high"}],
+        "exposure": [{"text": "Directly exposes the pubic symphysis, superior pubic ramus, quadrilateral surface, pelvic brim, and medial posterior column; a lateral window completes upper anterior-column exposure.", "source_ids": ["ao_92912c506230bf66", "orthobullets_73361e1ca081f06d"]}],
+        "limitations": [{"text": "The upper iliac wing and sacroiliac region require a lateral window, and distal internal-iliac branching can restrict safe posterior quadrilateral-surface dissection.", "source_ids": ["ao_92912c506230bf66"]}],
+        "extensions": [{"text": "Add an iliac-crest lateral window to expose the internal iliac fossa, sacral ala, anterior sacroiliac joint, and upper anterior column.", "source_ids": ["ao_92912c506230bf66", "orthobullets_73361e1ca081f06d"]}],
+        "indications": [{"text": "Useful for anterior-column, both-column, quadrilateral-surface, and selected transverse acetabular patterns requiring direct medial buttress access.", "source_ids": ["ao_92912c506230bf66", "orthobullets_73361e1ca081f06d"]}],
+        "relative_contraindications": [{"text": "Use caution after extensive lower-abdominal surgery or when vascular anatomy, intrapelvic scarring, or the fracture target prevents safe extraperitoneal access.", "source_ids": ["ao_92912c506230bf66", "orthobullets_73361e1ca081f06d"]}],
+        "implant_implications": [{"text": "The approach permits direct infrapectineal buttress plating of the quadrilateral surface while protecting obturator and external iliac structures from clamps, drills, and screws.", "source_ids": ["ao_92912c506230bf66", "orthobullets_73361e1ca081f06d"], "risk_level": "high"}],
+        "fluoroscopy_implications": [{"text": "Preserve AP and Judet imaging access to assess column reduction, posterior-column screws, and intra-articular penetration.", "source_ids": ["ao_92912c506230bf66", "orthobullets_73361e1ca081f06d"]}],
+        "closure": [{"text": "Close linea alba and rectus fascia while protecting bladder and peritoneum; reconstruct each lateral-window fascial layer when used.", "source_ids": ["ao_92912c506230bf66", "orthobullets_73361e1ca081f06d"], "risk_level": "high"}],
+        "complications": [{"text": "Complications include obturator or external-iliac neurovascular injury, major corona-mortis bleeding, bladder or peritoneal injury, hernia, infection, and wound complications.", "source_ids": ["ao_92912c506230bf66", "orthobullets_73361e1ca081f06d"], "risk_level": "high"}],
+        "bailouts": [{"text": "If bleeding obscures the field or safe mobilization is impossible, pack and obtain vascular control before proceeding; add the lateral window rather than forcing upper-column access intrapelvically.", "source_ids": ["ao_92912c506230bf66", "orthobullets_73361e1ca081f06d"], "risk_level": "high"}],
+        "questions": [
+          {"question": "Which surface is directly visualized by the modified Stoppa approach but only indirectly addressed through classic ilioinguinal windows?", "answer": "The quadrilateral surface.", "source_ids": ["ao_92912c506230bf66", "orthobullets_73361e1ca081f06d"]},
+          {"question": "Which vascular anastomosis should be identified and controlled along the superior pubic ramus?", "answer": "Corona mortis.", "source_ids": ["ao_92912c506230bf66", "orthobullets_73361e1ca081f06d"]},
+          {"question": "Which neurovascular bundle crosses the quadrilateral surface?", "answer": "The obturator neurovascular bundle.", "source_ids": ["ao_92912c506230bf66", "orthobullets_73361e1ca081f06d"]}
+        ]
+      }
+    }
+  ]
+}

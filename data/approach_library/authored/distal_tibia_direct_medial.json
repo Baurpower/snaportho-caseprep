@@ -1,0 +1,468 @@
+{
+  "schema_version": "brobot_approach_packet_v1",
+  "approach_id": "distal_tibia_direct_medial",
+  "name": "Direct medial approach to the distal tibia",
+  "aliases": [
+    "medial pilon approach",
+    "direct medial plafond approach"
+  ],
+  "region": "medial distal tibia and ankle",
+  "joint": "ankle",
+  "bones": [
+    "distal tibia",
+    "medial malleolus",
+    "talus"
+  ],
+  "corridor": "Direct subperiosteal medial exposure centered on a vertical medial split-depression fragment, with optional proximal MIPO extension",
+  "positioning": [
+    {
+      "text": "Position supine with the leg externally rotated enough for direct medial access and maintain unobstructed AP, lateral, and mortise imaging.",
+      "claim_ids": [
+        "distal_tibia_direct_medial_positioning_01"
+      ]
+    }
+  ],
+  "setup": [
+    {
+      "text": "Confirm soft-tissue readiness, map medial impaction and osteochondral fragments on CT, and choose direct versus limited/MIPO plate application.",
+      "claim_ids": [
+        "distal_tibia_direct_medial_setup_01"
+      ]
+    }
+  ],
+  "surface_landmarks": [
+    {
+      "text": "Mark medial tibial border, medial malleolus, ankle joint, saphenous vein and nerve course, and the proximal exit of the medial fracture line.",
+      "claim_ids": [
+        "distal_tibia_direct_medial_surface_landmarks_01"
+      ]
+    }
+  ],
+  "incision": [
+    {
+      "text": "Center the medial incision over the split fragment and extend proximally only enough to displace, reduce, and fix it or create a safe MIPO plate tunnel.",
+      "claim_ids": [
+        "distal_tibia_direct_medial_incision_01"
+      ]
+    }
+  ],
+  "superficial_interval": [
+    {
+      "text": "Raise a full-thickness medial flap while identifying and protecting the saphenous vein and nerve.",
+      "claim_ids": [
+        "distal_tibia_direct_medial_superficial_interval_01"
+      ]
+    }
+  ],
+  "deep_interval": [
+    {
+      "text": "Expose the vertical medial fragment directly, mobilize it enough to enter the joint, elevate adjacent plafond impaction, and preserve remaining periosteal attachments.",
+      "claim_ids": [
+        "distal_tibia_direct_medial_deep_interval_01"
+      ]
+    }
+  ],
+  "layers": [
+    {
+      "text": "Skin, saphenous neurovascular plane, medial periosteum, vertical fracture plane, then medial plafond and joint.",
+      "claim_ids": [
+        "distal_tibia_direct_medial_layers_01"
+      ]
+    }
+  ],
+  "structures_encountered": [
+    {
+      "text": "Saphenous vein and nerve, medial tibial periosteum, medial split fragment, osteochondral fragments, impacted plafond, and talar dome are encountered.",
+      "claim_ids": [
+        "distal_tibia_direct_medial_structures_encountered_01"
+      ]
+    }
+  ],
+  "structures_at_risk": [
+    {
+      "text": "Medial skin envelope, saphenous vein and nerve, periosteal fragment blood supply, posterior tibial structures with posterior extension, and articular cartilage are at risk.",
+      "claim_ids": [
+        "distal_tibia_direct_medial_structures_at_risk_01"
+      ]
+    }
+  ],
+  "danger_zones": [
+    {
+      "text": "Avoid placing bulky hardware directly beneath a compromised medial incision and avoid circumferential stripping of the split fragment.",
+      "claim_ids": [
+        "distal_tibia_direct_medial_danger_zones_01"
+      ]
+    }
+  ],
+  "retraction_hazards": [
+    {
+      "text": "Use limited atraumatic retraction; excessive flap tension or posterior dissection risks wound failure and neurovascular injury.",
+      "claim_ids": [
+        "distal_tibia_direct_medial_retraction_hazards_01"
+      ]
+    }
+  ],
+  "exposure": [
+    {
+      "text": "Provides direct visualization of a vertical medial split, medial plafond impaction, and associated osteochondral fragments.",
+      "claim_ids": [
+        "distal_tibia_direct_medial_exposure_01"
+      ]
+    }
+  ],
+  "limitations": [
+    {
+      "text": "Exposure is fracture-specific and does not adequately address dominant anterolateral or posterior plafond pathology through the same incision.",
+      "claim_ids": [
+        "distal_tibia_direct_medial_limitations_01"
+      ]
+    }
+  ],
+  "extensions": [
+    {
+      "text": "Extend proximally for direct medial plating only when soft tissues permit; otherwise combine limited articular exposure with percutaneous proximal plate insertion.",
+      "claim_ids": [
+        "distal_tibia_direct_medial_extensions_01"
+      ]
+    }
+  ],
+  "indications": [
+    {
+      "text": "Use for vertical medial split-depression pilon fractures with medial comminution, impaction, or an independent osteochondral fragment.",
+      "claim_ids": [
+        "distal_tibia_direct_medial_indications_01"
+      ]
+    }
+  ],
+  "relative_contraindications": [
+    {
+      "text": "Choose an anteromedial or other fragment-directed approach when medial skin is tenuous or a plate directly under the incision would be unsafe.",
+      "claim_ids": [
+        "distal_tibia_direct_medial_relative_contraindications_01"
+      ]
+    }
+  ],
+  "implant_implications": [
+    {
+      "text": "A medial buttress plate may be applied directly or passed proximally using MIPO; position hardware to avoid incision pressure and saphenous structures.",
+      "claim_ids": [
+        "distal_tibia_direct_medial_implant_implications_01"
+      ]
+    }
+  ],
+  "fluoroscopy_implications": [
+    {
+      "text": "Use AP, lateral, mortise, and oblique views to confirm elevation of impaction, medial buttress alignment, joint congruity, and screw containment.",
+      "claim_ids": [
+        "distal_tibia_direct_medial_fluoroscopy_implications_01"
+      ]
+    }
+  ],
+  "closure": [
+    {
+      "text": "Restore periosteal coverage where possible and close the viable medial skin without tension or implant prominence beneath the incision.",
+      "claim_ids": [
+        "distal_tibia_direct_medial_closure_01"
+      ]
+    }
+  ],
+  "complications": [
+    {
+      "text": "Complications include wound necrosis, infection, saphenous neuritis, symptomatic hardware, malreduction, nonunion, stiffness, and post-traumatic arthritis.",
+      "claim_ids": [
+        "distal_tibia_direct_medial_complications_01"
+      ]
+    }
+  ],
+  "bailouts": [
+    {
+      "text": "Convert the proximal portion to percutaneous plate insertion or select a separate fragment-directed window if direct extension would compromise medial skin.",
+      "claim_ids": [
+        "distal_tibia_direct_medial_bailouts_01"
+      ]
+    }
+  ],
+  "procedure_applications": [
+    {
+      "procedure_id": "tibial_pilon_fracture_orif",
+      "relationship": "conditional_option",
+      "condition": "A vertical medial split-depression fracture with medial articular impaction requires direct elevation and buttress fixation"
+    }
+  ],
+  "questions": [
+    {
+      "question": "What fracture morphology favors this approach?",
+      "answer": "A vertical medial split-depression fracture with medial articular impaction.",
+      "claim_ids": [
+        "distal_tibia_direct_medial_questions_01"
+      ]
+    },
+    {
+      "question": "Which superficial structures require protection?",
+      "answer": "The saphenous vein and nerve.",
+      "claim_ids": [
+        "distal_tibia_direct_medial_questions_02"
+      ]
+    },
+    {
+      "question": "What reduces proximal soft-tissue disruption?",
+      "answer": "Limited articular exposure combined with minimally invasive proximal plate insertion.",
+      "claim_ids": [
+        "distal_tibia_direct_medial_questions_03"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "distal_tibia_direct_medial_positioning_01",
+      "text": "Position supine with the leg externally rotated enough for direct medial access and maintain unobstructed AP, lateral, and mortise imaging.",
+      "source_ids": [
+        "ao_d497c94cc520ab6f",
+        "pmid_25072286"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "distal_tibia_direct_medial_setup_01",
+      "text": "Confirm soft-tissue readiness, map medial impaction and osteochondral fragments on CT, and choose direct versus limited/MIPO plate application.",
+      "source_ids": [
+        "ao_d497c94cc520ab6f",
+        "pmid_25072286"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "distal_tibia_direct_medial_surface_landmarks_01",
+      "text": "Mark medial tibial border, medial malleolus, ankle joint, saphenous vein and nerve course, and the proximal exit of the medial fracture line.",
+      "source_ids": [
+        "ao_d497c94cc520ab6f"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "distal_tibia_direct_medial_incision_01",
+      "text": "Center the medial incision over the split fragment and extend proximally only enough to displace, reduce, and fix it or create a safe MIPO plate tunnel.",
+      "source_ids": [
+        "ao_d497c94cc520ab6f",
+        "pmid_25072286"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "distal_tibia_direct_medial_superficial_interval_01",
+      "text": "Raise a full-thickness medial flap while identifying and protecting the saphenous vein and nerve.",
+      "source_ids": [
+        "ao_d497c94cc520ab6f",
+        "pmid_25072286"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "distal_tibia_direct_medial_deep_interval_01",
+      "text": "Expose the vertical medial fragment directly, mobilize it enough to enter the joint, elevate adjacent plafond impaction, and preserve remaining periosteal attachments.",
+      "source_ids": [
+        "ao_d497c94cc520ab6f",
+        "pmid_25072286"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "distal_tibia_direct_medial_layers_01",
+      "text": "Skin, saphenous neurovascular plane, medial periosteum, vertical fracture plane, then medial plafond and joint.",
+      "source_ids": [
+        "ao_d497c94cc520ab6f"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "distal_tibia_direct_medial_structures_encountered_01",
+      "text": "Saphenous vein and nerve, medial tibial periosteum, medial split fragment, osteochondral fragments, impacted plafond, and talar dome are encountered.",
+      "source_ids": [
+        "ao_d497c94cc520ab6f",
+        "pmid_25072286"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "distal_tibia_direct_medial_structures_at_risk_01",
+      "text": "Medial skin envelope, saphenous vein and nerve, periosteal fragment blood supply, posterior tibial structures with posterior extension, and articular cartilage are at risk.",
+      "source_ids": [
+        "ao_d497c94cc520ab6f",
+        "pmid_25072286"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "distal_tibia_direct_medial_danger_zones_01",
+      "text": "Avoid placing bulky hardware directly beneath a compromised medial incision and avoid circumferential stripping of the split fragment.",
+      "source_ids": [
+        "ao_d497c94cc520ab6f",
+        "pmid_26644032"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "distal_tibia_direct_medial_retraction_hazards_01",
+      "text": "Use limited atraumatic retraction; excessive flap tension or posterior dissection risks wound failure and neurovascular injury.",
+      "source_ids": [
+        "ao_d497c94cc520ab6f",
+        "pmid_25072286"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "distal_tibia_direct_medial_exposure_01",
+      "text": "Provides direct visualization of a vertical medial split, medial plafond impaction, and associated osteochondral fragments.",
+      "source_ids": [
+        "ao_d497c94cc520ab6f",
+        "pmid_25072286"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "distal_tibia_direct_medial_limitations_01",
+      "text": "Exposure is fracture-specific and does not adequately address dominant anterolateral or posterior plafond pathology through the same incision.",
+      "source_ids": [
+        "ao_d497c94cc520ab6f",
+        "pmid_25072286"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "distal_tibia_direct_medial_extensions_01",
+      "text": "Extend proximally for direct medial plating only when soft tissues permit; otherwise combine limited articular exposure with percutaneous proximal plate insertion.",
+      "source_ids": [
+        "ao_d497c94cc520ab6f",
+        "pmid_25072286"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "distal_tibia_direct_medial_indications_01",
+      "text": "Use for vertical medial split-depression pilon fractures with medial comminution, impaction, or an independent osteochondral fragment.",
+      "source_ids": [
+        "ao_d497c94cc520ab6f",
+        "pmid_25072286"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "distal_tibia_direct_medial_relative_contraindications_01",
+      "text": "Choose an anteromedial or other fragment-directed approach when medial skin is tenuous or a plate directly under the incision would be unsafe.",
+      "source_ids": [
+        "ao_d497c94cc520ab6f",
+        "pmid_26644032"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "distal_tibia_direct_medial_implant_implications_01",
+      "text": "A medial buttress plate may be applied directly or passed proximally using MIPO; position hardware to avoid incision pressure and saphenous structures.",
+      "source_ids": [
+        "ao_d497c94cc520ab6f",
+        "pmid_25072286"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "distal_tibia_direct_medial_fluoroscopy_implications_01",
+      "text": "Use AP, lateral, mortise, and oblique views to confirm elevation of impaction, medial buttress alignment, joint congruity, and screw containment.",
+      "source_ids": [
+        "pmid_25072286",
+        "pmid_26644032"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "distal_tibia_direct_medial_closure_01",
+      "text": "Restore periosteal coverage where possible and close the viable medial skin without tension or implant prominence beneath the incision.",
+      "source_ids": [
+        "ao_d497c94cc520ab6f",
+        "pmid_26644032"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "distal_tibia_direct_medial_complications_01",
+      "text": "Complications include wound necrosis, infection, saphenous neuritis, symptomatic hardware, malreduction, nonunion, stiffness, and post-traumatic arthritis.",
+      "source_ids": [
+        "pmid_25072286",
+        "pmid_26644032"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "distal_tibia_direct_medial_bailouts_01",
+      "text": "Convert the proximal portion to percutaneous plate insertion or select a separate fragment-directed window if direct extension would compromise medial skin.",
+      "source_ids": [
+        "ao_d497c94cc520ab6f",
+        "pmid_25072286"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "distal_tibia_direct_medial_questions_01",
+      "text": "What fracture morphology favors this approach?",
+      "source_ids": [
+        "ao_d497c94cc520ab6f"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "distal_tibia_direct_medial_questions_02",
+      "text": "Which superficial structures require protection?",
+      "source_ids": [
+        "ao_d497c94cc520ab6f"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "distal_tibia_direct_medial_questions_03",
+      "text": "What reduces proximal soft-tissue disruption?",
+      "source_ids": [
+        "ao_d497c94cc520ab6f"
+      ],
+      "risk_level": "medium"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "ao_d497c94cc520ab6f",
+      "provider": "AO Surgery Reference",
+      "title": "Medial Approach To The Distal Tibia",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/distal-tibia/approach/medial-approach-to-the-distal-tibia",
+      "source_page_id": "ao_d497c94cc520ab6f"
+    },
+    {
+      "source_id": "pmid_25072286",
+      "provider": "PubMed",
+      "title": "Strategies for surgical approaches in open reduction internal fixation of pilon fractures",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/25072286/"
+    },
+    {
+      "source_id": "pmid_26644032",
+      "provider": "PubMed",
+      "title": "A systematic review of the role of surgical approaches on outcomes of tibial pilon fracture",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/26644032/"
+    }
+  ],
+  "content_status": "agent_review_pending",
+  "review": {
+    "status": "agent_review_pending",
+    "required_roles": [
+      "adversarial_safety_reviewer",
+      "approach_anatomy_reviewer",
+      "educational_value_reviewer",
+      "evidence_reviewer",
+      "operative_exposure_reviewer",
+      "procedure_applicability_reviewer"
+    ],
+    "completed_roles": []
+  },
+  "resolved_contradiction_keys": [],
+  "authoring_provenance": {
+    "method": "local_codex_curated",
+    "definition_file": "data/approach_library/curated/adult_distal_tibia_anterior_medial_v1.json",
+    "api_used": false
+  }
+}

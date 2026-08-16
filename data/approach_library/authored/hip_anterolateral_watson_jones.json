@@ -1,0 +1,455 @@
+{
+  "schema_version": "brobot_approach_packet_v1",
+  "approach_id": "hip_anterolateral_watson_jones",
+  "name": "Anterolateral hip approach (Watson-Jones)",
+  "aliases": [
+    "Watson-Jones approach",
+    "anterolateral hip approach"
+  ],
+  "region": "hip and proximal femur",
+  "joint": "hip",
+  "bones": [
+    "pelvis",
+    "proximal femur"
+  ],
+  "corridor": "Interval between tensor fasciae latae anteriorly and gluteus medius posteriorly",
+  "positioning": [
+    {
+      "text": "Position supine or lateral according to the planned procedure, with the greater trochanter and anterior superior iliac spine accessible.",
+      "claim_ids": [
+        "hip_anterolateral_watson_jones_positioning_01"
+      ]
+    }
+  ],
+  "setup": [
+    {
+      "text": "Drape to permit hip motion and distal extension along the lateral femur when fixation is planned.",
+      "claim_ids": [
+        "hip_anterolateral_watson_jones_setup_01"
+      ]
+    }
+  ],
+  "surface_landmarks": [
+    {
+      "text": "Mark the anterior superior iliac spine, greater trochanter, and femoral shaft.",
+      "claim_ids": [
+        "hip_anterolateral_watson_jones_surface_landmarks_01"
+      ]
+    }
+  ],
+  "incision": [
+    {
+      "text": "Center the incision over the anterolateral greater trochanter, extending proximally toward the anterior superior iliac spine and distally along the femur as needed.",
+      "claim_ids": [
+        "hip_anterolateral_watson_jones_incision_01"
+      ]
+    }
+  ],
+  "superficial_interval": [
+    {
+      "text": "Open fascia lata and develop the interval between tensor fasciae latae anteriorly and gluteus medius posteriorly.",
+      "claim_ids": [
+        "hip_anterolateral_watson_jones_superficial_interval_01"
+      ]
+    }
+  ],
+  "deep_interval": [
+    {
+      "text": "Expose the anterior capsule while protecting the abductors; limited release of anterior vastus lateralis or abductor insertion may be required by the procedure.",
+      "claim_ids": [
+        "hip_anterolateral_watson_jones_deep_interval_01"
+      ]
+    }
+  ],
+  "layers": [
+    {
+      "text": "Skin, subcutaneous tissue, fascia lata, tensor–gluteus medius interval, pericapsular tissue, then anterior hip capsule.",
+      "claim_ids": [
+        "hip_anterolateral_watson_jones_layers_01"
+      ]
+    }
+  ],
+  "structures_encountered": [
+    {
+      "text": "Branches of the lateral femoral circumflex system may cross the interval and should be controlled deliberately.",
+      "claim_ids": [
+        "hip_anterolateral_watson_jones_structures_encountered_01"
+      ]
+    }
+  ],
+  "structures_at_risk": [
+    {
+      "text": "The superior gluteal nerve and vessels limit proximal dissection, and femoral neurovascular structures are at risk from anterior retractor placement.",
+      "claim_ids": [
+        "hip_anterolateral_watson_jones_structures_at_risk_01"
+      ]
+    }
+  ],
+  "danger_zones": [
+    {
+      "text": "Do not extend the gluteus medius dissection proximally without accounting for the superior gluteal neurovascular bundle.",
+      "claim_ids": [
+        "hip_anterolateral_watson_jones_danger_zones_01"
+      ]
+    }
+  ],
+  "retraction_hazards": [
+    {
+      "text": "Keep anterior retractors on bone and avoid deep medial placement toward the femoral nerve and vessels.",
+      "claim_ids": [
+        "hip_anterolateral_watson_jones_retraction_hazards_01"
+      ]
+    }
+  ],
+  "exposure": [
+    {
+      "text": "Provides access to the anterior hip capsule, acetabular rim, femoral neck, and lateral proximal femur.",
+      "claim_ids": [
+        "hip_anterolateral_watson_jones_exposure_01"
+      ]
+    }
+  ],
+  "limitations": [
+    {
+      "text": "Posterior acetabular access is limited, and aggressive abductor release can compromise postoperative abductor function.",
+      "claim_ids": [
+        "hip_anterolateral_watson_jones_limitations_01"
+      ]
+    }
+  ],
+  "extensions": [
+    {
+      "text": "Extend distally by elevating the anterior vastus lateralis to accommodate lateral proximal-femoral implants.",
+      "claim_ids": [
+        "hip_anterolateral_watson_jones_extensions_01"
+      ]
+    }
+  ],
+  "indications": [
+    {
+      "text": "Applicable to total hip arthroplasty, hemiarthroplasty, selected femoral-neck fracture procedures, and proximal-femoral exposure.",
+      "claim_ids": [
+        "hip_anterolateral_watson_jones_indications_01"
+      ]
+    }
+  ],
+  "relative_contraindications": [
+    {
+      "text": "Consider another exposure when extensive posterior acetabular visualization or a broader femoral corridor is required.",
+      "claim_ids": [
+        "hip_anterolateral_watson_jones_relative_contraindications_01"
+      ]
+    }
+  ],
+  "implant_implications": [
+    {
+      "text": "Lateral plate or sliding-hip-screw application may require distal extension and anterior elevation of vastus lateralis.",
+      "claim_ids": [
+        "hip_anterolateral_watson_jones_implant_implications_01"
+      ]
+    }
+  ],
+  "fluoroscopy_implications": [
+    {
+      "text": "Choose table and positioning to preserve AP and lateral imaging before draping, especially when fracture fixation is planned.",
+      "claim_ids": [
+        "hip_anterolateral_watson_jones_fluoroscopy_implications_01"
+      ]
+    }
+  ],
+  "closure": [
+    {
+      "text": "Repair the capsule and any released abductor or vastus lateralis attachment, then close fascia lata securely.",
+      "claim_ids": [
+        "hip_anterolateral_watson_jones_closure_01"
+      ]
+    }
+  ],
+  "complications": [
+    {
+      "text": "Approach-related complications include abductor weakness or limp, femoral neurovascular injury from retraction, vascular bleeding, and iatrogenic femoral fracture during exposure.",
+      "claim_ids": [
+        "hip_anterolateral_watson_jones_complications_01"
+      ]
+    }
+  ],
+  "bailouts": [
+    {
+      "text": "When visualization or femoral mobilization is inadequate, extend the defined exposure rather than applying uncontrolled retraction; convert to the procedure's planned extensile option when necessary.",
+      "claim_ids": [
+        "hip_anterolateral_watson_jones_bailouts_01"
+      ]
+    }
+  ],
+  "procedure_applications": [
+    {
+      "procedure_id": "total_hip_arthroplasty",
+      "relationship": "primary_option",
+      "condition": "Anterolateral technique selected"
+    },
+    {
+      "procedure_id": "hip_hemiarthroplasty",
+      "relationship": "primary_option",
+      "condition": "Anterolateral technique selected"
+    },
+    {
+      "procedure_id": "femoral_neck_fracture_orif",
+      "relationship": "conditional_option",
+      "condition": "Open reduction and lateral proximal-femoral fixation are required"
+    }
+  ],
+  "questions": [
+    {
+      "question": "What muscular interval defines the Watson-Jones approach?",
+      "answer": "Tensor fasciae latae anteriorly and gluteus medius posteriorly.",
+      "claim_ids": [
+        "hip_anterolateral_watson_jones_questions_01"
+      ]
+    },
+    {
+      "question": "What structure limits proximal extension of this approach?",
+      "answer": "The superior gluteal neurovascular bundle.",
+      "claim_ids": [
+        "hip_anterolateral_watson_jones_questions_02"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "hip_anterolateral_watson_jones_positioning_01",
+      "text": "Position supine or lateral according to the planned procedure, with the greater trochanter and anterior superior iliac spine accessible.",
+      "source_ids": [
+        "ao_b6a83f32e7f02a7e",
+        "orthobullets_3b9a607895639159"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "hip_anterolateral_watson_jones_setup_01",
+      "text": "Drape to permit hip motion and distal extension along the lateral femur when fixation is planned.",
+      "source_ids": [
+        "ao_b6a83f32e7f02a7e"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "hip_anterolateral_watson_jones_surface_landmarks_01",
+      "text": "Mark the anterior superior iliac spine, greater trochanter, and femoral shaft.",
+      "source_ids": [
+        "ao_b6a83f32e7f02a7e",
+        "orthobullets_3b9a607895639159"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "hip_anterolateral_watson_jones_incision_01",
+      "text": "Center the incision over the anterolateral greater trochanter, extending proximally toward the anterior superior iliac spine and distally along the femur as needed.",
+      "source_ids": [
+        "ao_b6a83f32e7f02a7e",
+        "orthobullets_3b9a607895639159"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "hip_anterolateral_watson_jones_superficial_interval_01",
+      "text": "Open fascia lata and develop the interval between tensor fasciae latae anteriorly and gluteus medius posteriorly.",
+      "source_ids": [
+        "ao_b6a83f32e7f02a7e",
+        "orthobullets_3b9a607895639159"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "hip_anterolateral_watson_jones_deep_interval_01",
+      "text": "Expose the anterior capsule while protecting the abductors; limited release of anterior vastus lateralis or abductor insertion may be required by the procedure.",
+      "source_ids": [
+        "ao_b6a83f32e7f02a7e",
+        "orthobullets_3b9a607895639159"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "hip_anterolateral_watson_jones_layers_01",
+      "text": "Skin, subcutaneous tissue, fascia lata, tensor–gluteus medius interval, pericapsular tissue, then anterior hip capsule.",
+      "source_ids": [
+        "ao_b6a83f32e7f02a7e",
+        "orthobullets_3b9a607895639159"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "hip_anterolateral_watson_jones_structures_encountered_01",
+      "text": "Branches of the lateral femoral circumflex system may cross the interval and should be controlled deliberately.",
+      "source_ids": [
+        "ao_b6a83f32e7f02a7e"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "hip_anterolateral_watson_jones_structures_at_risk_01",
+      "text": "The superior gluteal nerve and vessels limit proximal dissection, and femoral neurovascular structures are at risk from anterior retractor placement.",
+      "source_ids": [
+        "ao_b6a83f32e7f02a7e",
+        "orthobullets_3b9a607895639159"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "hip_anterolateral_watson_jones_danger_zones_01",
+      "text": "Do not extend the gluteus medius dissection proximally without accounting for the superior gluteal neurovascular bundle.",
+      "source_ids": [
+        "ao_b6a83f32e7f02a7e",
+        "orthobullets_3b9a607895639159"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "hip_anterolateral_watson_jones_retraction_hazards_01",
+      "text": "Keep anterior retractors on bone and avoid deep medial placement toward the femoral nerve and vessels.",
+      "source_ids": [
+        "ao_b6a83f32e7f02a7e",
+        "orthobullets_3b9a607895639159"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "hip_anterolateral_watson_jones_exposure_01",
+      "text": "Provides access to the anterior hip capsule, acetabular rim, femoral neck, and lateral proximal femur.",
+      "source_ids": [
+        "ao_b6a83f32e7f02a7e",
+        "orthobullets_3b9a607895639159"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "hip_anterolateral_watson_jones_limitations_01",
+      "text": "Posterior acetabular access is limited, and aggressive abductor release can compromise postoperative abductor function.",
+      "source_ids": [
+        "ao_b6a83f32e7f02a7e",
+        "orthobullets_3b9a607895639159"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "hip_anterolateral_watson_jones_extensions_01",
+      "text": "Extend distally by elevating the anterior vastus lateralis to accommodate lateral proximal-femoral implants.",
+      "source_ids": [
+        "ao_b6a83f32e7f02a7e"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "hip_anterolateral_watson_jones_indications_01",
+      "text": "Applicable to total hip arthroplasty, hemiarthroplasty, selected femoral-neck fracture procedures, and proximal-femoral exposure.",
+      "source_ids": [
+        "ao_b6a83f32e7f02a7e",
+        "orthobullets_3b9a607895639159"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "hip_anterolateral_watson_jones_relative_contraindications_01",
+      "text": "Consider another exposure when extensive posterior acetabular visualization or a broader femoral corridor is required.",
+      "source_ids": [
+        "orthobullets_3b9a607895639159"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "hip_anterolateral_watson_jones_implant_implications_01",
+      "text": "Lateral plate or sliding-hip-screw application may require distal extension and anterior elevation of vastus lateralis.",
+      "source_ids": [
+        "ao_b6a83f32e7f02a7e"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "hip_anterolateral_watson_jones_fluoroscopy_implications_01",
+      "text": "Choose table and positioning to preserve AP and lateral imaging before draping, especially when fracture fixation is planned.",
+      "source_ids": [
+        "ao_b6a83f32e7f02a7e"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "hip_anterolateral_watson_jones_closure_01",
+      "text": "Repair the capsule and any released abductor or vastus lateralis attachment, then close fascia lata securely.",
+      "source_ids": [
+        "ao_b6a83f32e7f02a7e",
+        "orthobullets_3b9a607895639159"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "hip_anterolateral_watson_jones_complications_01",
+      "text": "Approach-related complications include abductor weakness or limp, femoral neurovascular injury from retraction, vascular bleeding, and iatrogenic femoral fracture during exposure.",
+      "source_ids": [
+        "ao_b6a83f32e7f02a7e",
+        "orthobullets_3b9a607895639159"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "hip_anterolateral_watson_jones_bailouts_01",
+      "text": "When visualization or femoral mobilization is inadequate, extend the defined exposure rather than applying uncontrolled retraction; convert to the procedure's planned extensile option when necessary.",
+      "source_ids": [
+        "ao_b6a83f32e7f02a7e",
+        "orthobullets_3b9a607895639159"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "hip_anterolateral_watson_jones_questions_01",
+      "text": "What muscular interval defines the Watson-Jones approach?",
+      "source_ids": [
+        "ao_b6a83f32e7f02a7e",
+        "orthobullets_3b9a607895639159"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "hip_anterolateral_watson_jones_questions_02",
+      "text": "What structure limits proximal extension of this approach?",
+      "source_ids": [
+        "ao_b6a83f32e7f02a7e",
+        "orthobullets_3b9a607895639159"
+      ],
+      "risk_level": "medium"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "ao_b6a83f32e7f02a7e",
+      "provider": "AO Surgery Reference",
+      "title": "Anterolateral approach (Watson-Jones)",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/proximal-femur/approach/anterolateral-approach-watson-jones",
+      "source_page_id": "ao_b6a83f32e7f02a7e"
+    },
+    {
+      "source_id": "orthobullets_3b9a607895639159",
+      "provider": "Orthobullets",
+      "title": "Hip Anterolateral Approach (Watson-Jones)",
+      "url": "https://www.orthobullets.com/approaches/12021/hip-anterolateral-approach-watson-jones",
+      "source_page_id": "orthobullets_3b9a607895639159"
+    }
+  ],
+  "content_status": "agent_review_pending",
+  "review": {
+    "status": "agent_review_pending",
+    "required_roles": [
+      "adversarial_safety_reviewer",
+      "approach_anatomy_reviewer",
+      "educational_value_reviewer",
+      "evidence_reviewer",
+      "operative_exposure_reviewer",
+      "procedure_applicability_reviewer"
+    ],
+    "completed_roles": []
+  },
+  "resolved_contradiction_keys": [],
+  "authoring_provenance": {
+    "method": "local_codex_curated",
+    "definition_file": "data/approach_library/curated/hip_proximal_femur_v1.json",
+    "api_used": false
+  }
+}

@@ -1,0 +1,469 @@
+{
+  "schema_version": "brobot_approach_packet_v1",
+  "approach_id": "distal_tibia_anteromedial",
+  "name": "Anteromedial approach to the distal tibia",
+  "aliases": [
+    "anteromedial pilon approach",
+    "anteromedial plafond approach"
+  ],
+  "region": "anteromedial distal leg and ankle",
+  "joint": "ankle",
+  "bones": [
+    "distal tibia",
+    "medial malleolus",
+    "talus"
+  ],
+  "corridor": "Immediately medial to the intact tibialis-anterior tendon sheath with sagittal capsulotomy between anterior articular fragments",
+  "positioning": [
+    {
+      "text": "Position supine on a radiolucent table with free ankle motion and access for orthogonal imaging and tibial-to-talar distraction.",
+      "claim_ids": [
+        "distal_tibia_anteromedial_positioning_01"
+      ]
+    }
+  ],
+  "setup": [
+    {
+      "text": "Delay definitive fixation until soft-tissue recovery is appropriate, map fragments on CT, preserve planned skin bridges, and plan medial/anterior plating before incision.",
+      "claim_ids": [
+        "distal_tibia_anteromedial_setup_01"
+      ]
+    }
+  ],
+  "surface_landmarks": [
+    {
+      "text": "Mark tibial crest, tibialis-anterior tendon, ankle joint, medial malleolus, navicular base, and any traumatic wounds or prior incisions.",
+      "claim_ids": [
+        "distal_tibia_anteromedial_surface_landmarks_01"
+      ]
+    }
+  ],
+  "incision": [
+    {
+      "text": "Begin 5-8 cm proximal to joint just lateral to tibial crest and continue straight toward navicular base along the medial border of tibialis-anterior tendon.",
+      "claim_ids": [
+        "distal_tibia_anteromedial_incision_01"
+      ]
+    }
+  ],
+  "superficial_interval": [
+    {
+      "text": "Raise a full-thickness flap without undermining adjacent skin bridges and expose the medial edge of the tibialis-anterior tendon sheath without opening it.",
+      "claim_ids": [
+        "distal_tibia_anteromedial_superficial_interval_01"
+      ]
+    }
+  ],
+  "deep_interval": [
+    {
+      "text": "Incise periosteum just medial to the intact tendon sheath, develop the plane behind the sheath laterally only as needed, and open joint sagittally along the fracture interval.",
+      "claim_ids": [
+        "distal_tibia_anteromedial_deep_interval_01"
+      ]
+    }
+  ],
+  "layers": [
+    {
+      "text": "Skin, full-thickness anteromedial flap, periosteum medial to tibialis-anterior sheath, sagittal capsule, then medial/central plafond.",
+      "claim_ids": [
+        "distal_tibia_anteromedial_layers_01"
+      ]
+    }
+  ],
+  "structures_encountered": [
+    {
+      "text": "Tibialis-anterior tendon sheath, anterior capsule, anteromedial and anterolateral articular fragments, medial malleolus, and talar dome are encountered.",
+      "claim_ids": [
+        "distal_tibia_anteromedial_structures_encountered_01"
+      ]
+    }
+  ],
+  "structures_at_risk": [
+    {
+      "text": "Anteromedial skin flap, tibialis-anterior tendon and sheath, saphenous nerve/vein medially, anterior tibial vessels, fragment blood supply, and talar cartilage are at risk.",
+      "claim_ids": [
+        "distal_tibia_anteromedial_structures_at_risk_01"
+      ]
+    }
+  ],
+  "danger_zones": [
+    {
+      "text": "Do not violate the tibialis-anterior tendon sheath; repair any traumatic or inadvertent opening immediately to prevent tendon exposure beneath the wound.",
+      "claim_ids": [
+        "distal_tibia_anteromedial_danger_zones_01"
+      ]
+    }
+  ],
+  "retraction_hazards": [
+    {
+      "text": "Avoid undermining the medial flap, forceful tendon retraction, or broad transverse capsular release that devascularizes anterior fragments.",
+      "claim_ids": [
+        "distal_tibia_anteromedial_retraction_hazards_01"
+      ]
+    }
+  ],
+  "exposure": [
+    {
+      "text": "Provides excellent medial and central plafond and medial-malleolar visualization with access to central/posterior impaction through fragment mobilization.",
+      "claim_ids": [
+        "distal_tibia_anteromedial_exposure_01"
+      ]
+    }
+  ],
+  "limitations": [
+    {
+      "text": "The far anterolateral Chaput fragment may require a separate small anterolateral window, and the medial soft-tissue envelope is vulnerable.",
+      "claim_ids": [
+        "distal_tibia_anteromedial_limitations_01"
+      ]
+    }
+  ],
+  "extensions": [
+    {
+      "text": "Extend proximally along tibial crest or add a separate limited anterolateral incision when direct lateral fixation cannot be performed safely through this corridor.",
+      "claim_ids": [
+        "distal_tibia_anteromedial_extensions_01"
+      ]
+    }
+  ],
+  "indications": [
+    {
+      "text": "Use for medial/central plafond injuries, medial-malleolar involvement, and varus patterns with medial comminution or buttress requirements.",
+      "claim_ids": [
+        "distal_tibia_anteromedial_indications_01"
+      ]
+    }
+  ],
+  "relative_contraindications": [
+    {
+      "text": "Prefer an anterolateral or posterior corridor when medial skin is traumatized or dominant fracture fragments cannot be accessed without excessive stripping.",
+      "claim_ids": [
+        "distal_tibia_anteromedial_relative_contraindications_01"
+      ]
+    }
+  ],
+  "implant_implications": [
+    {
+      "text": "Supports medial or anterior plates and distal-to-proximal submuscular bridging; use a separate lateral window when screw trajectory requires it.",
+      "claim_ids": [
+        "distal_tibia_anteromedial_implant_implications_01"
+      ]
+    }
+  ],
+  "fluoroscopy_implications": [
+    {
+      "text": "Use AP, lateral, mortise, and oblique views to verify joint congruity, restored alignment, talar centering, and extra-articular implant placement.",
+      "claim_ids": [
+        "distal_tibia_anteromedial_fluoroscopy_implications_01"
+      ]
+    }
+  ],
+  "closure": [
+    {
+      "text": "Close sagittal capsule and periosteum, confirm the tibialis-anterior sheath is intact, and approximate viable full-thickness skin without tension.",
+      "claim_ids": [
+        "distal_tibia_anteromedial_closure_01"
+      ]
+    }
+  ],
+  "complications": [
+    {
+      "text": "Complications include wound-edge necrosis, infection, tibialis-anterior exposure or adhesions, saphenous neuropathy, malreduction, nonunion, stiffness, and post-traumatic arthritis.",
+      "claim_ids": [
+        "distal_tibia_anteromedial_complications_01"
+      ]
+    }
+  ],
+  "bailouts": [
+    {
+      "text": "Use a separate limited anterolateral window for an inaccessible Chaput fragment rather than extending beneath a tenuous skin bridge or tendon sheath.",
+      "claim_ids": [
+        "distal_tibia_anteromedial_bailouts_01"
+      ]
+    }
+  ],
+  "procedure_applications": [
+    {
+      "procedure_id": "tibial_pilon_fracture_orif",
+      "relationship": "primary_option",
+      "condition": "Medial and central plafond injury, medial-malleolar involvement, or varus-associated medial comminution requires direct access"
+    }
+  ],
+  "questions": [
+    {
+      "question": "Which tendon sheath must remain intact?",
+      "answer": "The tibialis-anterior tendon sheath.",
+      "claim_ids": [
+        "distal_tibia_anteromedial_questions_01"
+      ]
+    },
+    {
+      "question": "Where is the preferred capsulotomy?",
+      "answer": "Sagittal, usually along the fracture interval between the main anterior fragments.",
+      "claim_ids": [
+        "distal_tibia_anteromedial_questions_02"
+      ]
+    },
+    {
+      "question": "Which pattern particularly favors this approach?",
+      "answer": "Varus pilon injury with medial comminution or medial-malleolar involvement.",
+      "claim_ids": [
+        "distal_tibia_anteromedial_questions_03"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "distal_tibia_anteromedial_positioning_01",
+      "text": "Position supine on a radiolucent table with free ankle motion and access for orthogonal imaging and tibial-to-talar distraction.",
+      "source_ids": [
+        "ao_389d177f1d1c05aa",
+        "pmid_25072286"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "distal_tibia_anteromedial_setup_01",
+      "text": "Delay definitive fixation until soft-tissue recovery is appropriate, map fragments on CT, preserve planned skin bridges, and plan medial/anterior plating before incision.",
+      "source_ids": [
+        "ao_389d177f1d1c05aa",
+        "pmid_10052780"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "distal_tibia_anteromedial_surface_landmarks_01",
+      "text": "Mark tibial crest, tibialis-anterior tendon, ankle joint, medial malleolus, navicular base, and any traumatic wounds or prior incisions.",
+      "source_ids": [
+        "ao_389d177f1d1c05aa"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "distal_tibia_anteromedial_incision_01",
+      "text": "Begin 5-8 cm proximal to joint just lateral to tibial crest and continue straight toward navicular base along the medial border of tibialis-anterior tendon.",
+      "source_ids": [
+        "ao_389d177f1d1c05aa",
+        "pmid_25072286"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "distal_tibia_anteromedial_superficial_interval_01",
+      "text": "Raise a full-thickness flap without undermining adjacent skin bridges and expose the medial edge of the tibialis-anterior tendon sheath without opening it.",
+      "source_ids": [
+        "ao_389d177f1d1c05aa",
+        "pmid_10052780"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "distal_tibia_anteromedial_deep_interval_01",
+      "text": "Incise periosteum just medial to the intact tendon sheath, develop the plane behind the sheath laterally only as needed, and open joint sagittally along the fracture interval.",
+      "source_ids": [
+        "ao_389d177f1d1c05aa",
+        "pmid_25072286"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "distal_tibia_anteromedial_layers_01",
+      "text": "Skin, full-thickness anteromedial flap, periosteum medial to tibialis-anterior sheath, sagittal capsule, then medial/central plafond.",
+      "source_ids": [
+        "ao_389d177f1d1c05aa"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "distal_tibia_anteromedial_structures_encountered_01",
+      "text": "Tibialis-anterior tendon sheath, anterior capsule, anteromedial and anterolateral articular fragments, medial malleolus, and talar dome are encountered.",
+      "source_ids": [
+        "ao_389d177f1d1c05aa",
+        "pmid_25072286"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "distal_tibia_anteromedial_structures_at_risk_01",
+      "text": "Anteromedial skin flap, tibialis-anterior tendon and sheath, saphenous nerve/vein medially, anterior tibial vessels, fragment blood supply, and talar cartilage are at risk.",
+      "source_ids": [
+        "ao_389d177f1d1c05aa",
+        "pmid_25072286"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "distal_tibia_anteromedial_danger_zones_01",
+      "text": "Do not violate the tibialis-anterior tendon sheath; repair any traumatic or inadvertent opening immediately to prevent tendon exposure beneath the wound.",
+      "source_ids": [
+        "ao_389d177f1d1c05aa",
+        "pmid_25072286"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "distal_tibia_anteromedial_retraction_hazards_01",
+      "text": "Avoid undermining the medial flap, forceful tendon retraction, or broad transverse capsular release that devascularizes anterior fragments.",
+      "source_ids": [
+        "ao_389d177f1d1c05aa",
+        "pmid_10052780"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "distal_tibia_anteromedial_exposure_01",
+      "text": "Provides excellent medial and central plafond and medial-malleolar visualization with access to central/posterior impaction through fragment mobilization.",
+      "source_ids": [
+        "ao_389d177f1d1c05aa",
+        "pmid_25072286"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "distal_tibia_anteromedial_limitations_01",
+      "text": "The far anterolateral Chaput fragment may require a separate small anterolateral window, and the medial soft-tissue envelope is vulnerable.",
+      "source_ids": [
+        "ao_389d177f1d1c05aa",
+        "pmid_10052780"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "distal_tibia_anteromedial_extensions_01",
+      "text": "Extend proximally along tibial crest or add a separate limited anterolateral incision when direct lateral fixation cannot be performed safely through this corridor.",
+      "source_ids": [
+        "ao_389d177f1d1c05aa",
+        "pmid_25072286"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "distal_tibia_anteromedial_indications_01",
+      "text": "Use for medial/central plafond injuries, medial-malleolar involvement, and varus patterns with medial comminution or buttress requirements.",
+      "source_ids": [
+        "ao_389d177f1d1c05aa",
+        "pmid_25072286"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "distal_tibia_anteromedial_relative_contraindications_01",
+      "text": "Prefer an anterolateral or posterior corridor when medial skin is traumatized or dominant fracture fragments cannot be accessed without excessive stripping.",
+      "source_ids": [
+        "pmid_25072286",
+        "pmid_10052780"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "distal_tibia_anteromedial_implant_implications_01",
+      "text": "Supports medial or anterior plates and distal-to-proximal submuscular bridging; use a separate lateral window when screw trajectory requires it.",
+      "source_ids": [
+        "ao_389d177f1d1c05aa",
+        "pmid_25072286"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "distal_tibia_anteromedial_fluoroscopy_implications_01",
+      "text": "Use AP, lateral, mortise, and oblique views to verify joint congruity, restored alignment, talar centering, and extra-articular implant placement.",
+      "source_ids": [
+        "pmid_25072286",
+        "pmid_10052780"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "distal_tibia_anteromedial_closure_01",
+      "text": "Close sagittal capsule and periosteum, confirm the tibialis-anterior sheath is intact, and approximate viable full-thickness skin without tension.",
+      "source_ids": [
+        "ao_389d177f1d1c05aa",
+        "pmid_10052780"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "distal_tibia_anteromedial_complications_01",
+      "text": "Complications include wound-edge necrosis, infection, tibialis-anterior exposure or adhesions, saphenous neuropathy, malreduction, nonunion, stiffness, and post-traumatic arthritis.",
+      "source_ids": [
+        "pmid_25072286",
+        "pmid_10052780"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "distal_tibia_anteromedial_bailouts_01",
+      "text": "Use a separate limited anterolateral window for an inaccessible Chaput fragment rather than extending beneath a tenuous skin bridge or tendon sheath.",
+      "source_ids": [
+        "ao_389d177f1d1c05aa",
+        "pmid_25072286"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "distal_tibia_anteromedial_questions_01",
+      "text": "Which tendon sheath must remain intact?",
+      "source_ids": [
+        "ao_389d177f1d1c05aa"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "distal_tibia_anteromedial_questions_02",
+      "text": "Where is the preferred capsulotomy?",
+      "source_ids": [
+        "ao_389d177f1d1c05aa"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "distal_tibia_anteromedial_questions_03",
+      "text": "Which pattern particularly favors this approach?",
+      "source_ids": [
+        "ao_389d177f1d1c05aa",
+        "pmid_25072286"
+      ],
+      "risk_level": "medium"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "ao_389d177f1d1c05aa",
+      "provider": "AO Surgery Reference",
+      "title": "Anteromedial Approach To The Distal Tibia",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/distal-tibia/approach/anteromedial-approach-to-the-distal-tibia",
+      "source_page_id": "ao_389d177f1d1c05aa"
+    },
+    {
+      "source_id": "pmid_25072286",
+      "provider": "PubMed",
+      "title": "Strategies for surgical approaches in open reduction internal fixation of pilon fractures",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/25072286/"
+    },
+    {
+      "source_id": "pmid_10052780",
+      "provider": "PubMed",
+      "title": "A staged protocol for soft tissue management in complex pilon fractures",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/10052780/"
+    }
+  ],
+  "content_status": "agent_review_pending",
+  "review": {
+    "status": "agent_review_pending",
+    "required_roles": [
+      "adversarial_safety_reviewer",
+      "approach_anatomy_reviewer",
+      "educational_value_reviewer",
+      "evidence_reviewer",
+      "operative_exposure_reviewer",
+      "procedure_applicability_reviewer"
+    ],
+    "completed_roles": []
+  },
+  "resolved_contradiction_keys": [],
+  "authoring_provenance": {
+    "method": "local_codex_curated",
+    "definition_file": "data/approach_library/curated/adult_distal_tibia_anterior_medial_v1.json",
+    "api_used": false
+  }
+}

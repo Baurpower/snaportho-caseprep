@@ -1,0 +1,470 @@
+{
+  "schema_version": "brobot_approach_packet_v1",
+  "approach_id": "pediatric_femoral_shaft_submuscular_mio",
+  "name": "Pediatric minimally invasive submuscular approach to the femoral shaft",
+  "aliases": [
+    "pediatric femur MIPO",
+    "pediatric submuscular bridge plating",
+    "pediatric minimally invasive plate osteosynthesis"
+  ],
+  "region": "pediatric thigh",
+  "joint": "extra-articular",
+  "bones": [
+    "femoral shaft"
+  ],
+  "corridor": "Short lateral proximal, shaft, or distal windows connected by an extraperiosteal tunnel deep to vastus lateralis for biologic bridge-plate insertion",
+  "positioning": [
+    {
+      "text": "Position supine on a radiolucent table with an ipsilateral hip bump and unobstructed imaging of the entire femur.",
+      "claim_ids": [
+        "pediatric_femoral_shaft_submuscular_mio_positioning_01"
+      ]
+    }
+  ],
+  "setup": [
+    {
+      "text": "Template a long plate and fixation segments, select the proximal or distal main window by fracture location, and obtain indirect length, alignment, and rotation before tunneling.",
+      "claim_ids": [
+        "pediatric_femoral_shaft_submuscular_mio_setup_01"
+      ]
+    }
+  ],
+  "surface_landmarks": [
+    {
+      "text": "Mark the greater trochanter, lateral epicondyle, joint line, femoral axis, fracture zone, physes, and planned terminal fixation windows.",
+      "claim_ids": [
+        "pediatric_femoral_shaft_submuscular_mio_surface_landmarks_01"
+      ]
+    }
+  ],
+  "incision": [
+    {
+      "text": "Use a short lateral incision at the proximal or distal plate end, adding stab incisions for screws and a second limited window only when manipulation requires it.",
+      "claim_ids": [
+        "pediatric_femoral_shaft_submuscular_mio_incision_01"
+      ]
+    }
+  ],
+  "superficial_interval": [
+    {
+      "text": "Split fascia lata longitudinally and open vastus lateralis fascia only within the selected windows; use blunt muscle spreading at midshaft.",
+      "claim_ids": [
+        "pediatric_femoral_shaft_submuscular_mio_superficial_interval_01"
+      ]
+    }
+  ],
+  "deep_interval": [
+    {
+      "text": "Elevate vastus lateralis just enough to create an extraperiosteal submuscular tunnel, keeping the plate on the lateral cortex and the fracture envelope intact.",
+      "claim_ids": [
+        "pediatric_femoral_shaft_submuscular_mio_deep_interval_01"
+      ]
+    }
+  ],
+  "layers": [
+    {
+      "text": "Skin windows, subcutaneous tissue, fascia lata, limited vastus lateralis fascia or muscle split, extraperiosteal plane, then lateral femoral cortex.",
+      "claim_ids": [
+        "pediatric_femoral_shaft_submuscular_mio_layers_01"
+      ]
+    }
+  ],
+  "structures_encountered": [
+    {
+      "text": "Vastus lateralis origin and belly, fascia lata, lateral cortex, distal metaphysis, periosteum, and profunda perforators define the working corridor.",
+      "claim_ids": [
+        "pediatric_femoral_shaft_submuscular_mio_structures_encountered_01"
+      ]
+    }
+  ],
+  "structures_at_risk": [
+    {
+      "text": "Profunda perforators, major medial vessels, sciatic nerve posteriorly, quadriceps vascularity, physes, and the fracture hematoma are at risk during tunneling and percutaneous drilling.",
+      "claim_ids": [
+        "pediatric_femoral_shaft_submuscular_mio_structures_at_risk_01"
+      ]
+    }
+  ],
+  "danger_zones": [
+    {
+      "text": "Keep the plate and instruments against lateral cortex; posterior or medial passage and uncontrolled far-cortex drilling threaten neurovascular structures, while physeal crossing risks growth disturbance.",
+      "claim_ids": [
+        "pediatric_femoral_shaft_submuscular_mio_danger_zones_01"
+      ]
+    }
+  ],
+  "retraction_hazards": [
+    {
+      "text": "Use anterior and posterior extraperiosteal Hohmann retractors directly on bone through a visible window and avoid circumferential stripping or blind posterior placement.",
+      "claim_ids": [
+        "pediatric_femoral_shaft_submuscular_mio_retraction_hazards_01"
+      ]
+    }
+  ],
+  "exposure": [
+    {
+      "text": "Provides terminal fixation access while preserving muscle attachment, periosteal perfusion, fracture hematoma, and comminuted intermediate fragments.",
+      "claim_ids": [
+        "pediatric_femoral_shaft_submuscular_mio_exposure_01"
+      ]
+    }
+  ],
+  "limitations": [
+    {
+      "text": "Indirect visualization makes rotation and sagittal alignment vulnerable to error and may require additional windows when reduction or plate position cannot be proven.",
+      "claim_ids": [
+        "pediatric_femoral_shaft_submuscular_mio_limitations_01"
+      ]
+    }
+  ],
+  "extensions": [
+    {
+      "text": "For proximal access, release vastus lateralis origin in an extraperiosteal L shape; for distal access, extend toward the lateral epicondyle; add a targeted shaft window only as necessary.",
+      "claim_ids": [
+        "pediatric_femoral_shaft_submuscular_mio_extensions_01"
+      ]
+    }
+  ],
+  "indications": [
+    {
+      "text": "Use for unstable, comminuted, proximal-third, or distal-third pediatric femoral fractures where flexible nails may not reliably maintain length and alignment.",
+      "claim_ids": [
+        "pediatric_femoral_shaft_submuscular_mio_indications_01"
+      ]
+    }
+  ],
+  "relative_contraindications": [
+    {
+      "text": "Use open exposure when contamination needs debridement, vascular exploration or direct reduction is required, or acceptable indirect alignment cannot be achieved.",
+      "claim_ids": [
+        "pediatric_femoral_shaft_submuscular_mio_relative_contraindications_01"
+      ]
+    }
+  ],
+  "implant_implications": [
+    {
+      "text": "Select a long bridge plate spanning the fracture with adequate proximal and distal fixation, appropriate working length, and restrained screw density rather than a short rigid construct.",
+      "claim_ids": [
+        "pediatric_femoral_shaft_submuscular_mio_implant_implications_01"
+      ]
+    }
+  ],
+  "fluoroscopy_implications": [
+    {
+      "text": "Repeatedly confirm hip and knee orientation, length, coronal and sagittal alignment, rotation, physeal clearance, plate centering, and screw length.",
+      "claim_ids": [
+        "pediatric_femoral_shaft_submuscular_mio_fluoroscopy_implications_01"
+      ]
+    }
+  ],
+  "closure": [
+    {
+      "text": "Release retractors, verify hemostasis, allow vastus lateralis to cover the plate, repair any proximal origin release and fascia lata, and close skin.",
+      "claim_ids": [
+        "pediatric_femoral_shaft_submuscular_mio_closure_01"
+      ]
+    }
+  ],
+  "complications": [
+    {
+      "text": "Complications include malrotation, angular or length malalignment, physeal injury, neurovascular injury, infection, delayed union, implant failure, refracture after removal, and stiffness.",
+      "claim_ids": [
+        "pediatric_femoral_shaft_submuscular_mio_complications_01"
+      ]
+    }
+  ],
+  "bailouts": [
+    {
+      "text": "If alignment or plate passage is uncertain, stop blind advancement, add a targeted reduction window or temporary aid, and convert to open reduction when necessary for safety.",
+      "claim_ids": [
+        "pediatric_femoral_shaft_submuscular_mio_bailouts_01"
+      ]
+    }
+  ],
+  "procedure_applications": [
+    {
+      "procedure_id": "femoral_shaft_fracture_orif",
+      "relationship": "conditional_option",
+      "condition": "A pediatric length-unstable, proximal-third, distal-third, or otherwise complex shaft fracture is selected for indirect reduction and submuscular bridge plating"
+    }
+  ],
+  "questions": [
+    {
+      "question": "What is preserved by submuscular plating?",
+      "answer": "Muscle attachment, periosteal blood supply, fracture hematoma, and intermediate-fragment biology.",
+      "claim_ids": [
+        "pediatric_femoral_shaft_submuscular_mio_questions_01"
+      ]
+    },
+    {
+      "question": "Which window is common for a distal-third fracture?",
+      "answer": "A distal lateral window near the lateral femoral epicondyle.",
+      "claim_ids": [
+        "pediatric_femoral_shaft_submuscular_mio_questions_02"
+      ]
+    },
+    {
+      "question": "What alignment error particularly requires active assessment?",
+      "answer": "Femoral rotation, which can appear acceptable on limited fluoroscopic views.",
+      "claim_ids": [
+        "pediatric_femoral_shaft_submuscular_mio_questions_03"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "pediatric_femoral_shaft_submuscular_mio_positioning_01",
+      "text": "Position supine on a radiolucent table with an ipsilateral hip bump and unobstructed imaging of the entire femur.",
+      "source_ids": [
+        "ao_5ae6a4367cf046c8",
+        "pmid_30233936"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "pediatric_femoral_shaft_submuscular_mio_setup_01",
+      "text": "Template a long plate and fixation segments, select the proximal or distal main window by fracture location, and obtain indirect length, alignment, and rotation before tunneling.",
+      "source_ids": [
+        "ao_5ae6a4367cf046c8",
+        "pmid_30233936"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "pediatric_femoral_shaft_submuscular_mio_surface_landmarks_01",
+      "text": "Mark the greater trochanter, lateral epicondyle, joint line, femoral axis, fracture zone, physes, and planned terminal fixation windows.",
+      "source_ids": [
+        "ao_5ae6a4367cf046c8",
+        "pmid_30233936"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "pediatric_femoral_shaft_submuscular_mio_incision_01",
+      "text": "Use a short lateral incision at the proximal or distal plate end, adding stab incisions for screws and a second limited window only when manipulation requires it.",
+      "source_ids": [
+        "ao_5ae6a4367cf046c8",
+        "pmid_30233936"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "pediatric_femoral_shaft_submuscular_mio_superficial_interval_01",
+      "text": "Split fascia lata longitudinally and open vastus lateralis fascia only within the selected windows; use blunt muscle spreading at midshaft.",
+      "source_ids": [
+        "ao_5ae6a4367cf046c8",
+        "pmid_30233936"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "pediatric_femoral_shaft_submuscular_mio_deep_interval_01",
+      "text": "Elevate vastus lateralis just enough to create an extraperiosteal submuscular tunnel, keeping the plate on the lateral cortex and the fracture envelope intact.",
+      "source_ids": [
+        "ao_5ae6a4367cf046c8",
+        "pmid_30233936"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "pediatric_femoral_shaft_submuscular_mio_layers_01",
+      "text": "Skin windows, subcutaneous tissue, fascia lata, limited vastus lateralis fascia or muscle split, extraperiosteal plane, then lateral femoral cortex.",
+      "source_ids": [
+        "ao_5ae6a4367cf046c8"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "pediatric_femoral_shaft_submuscular_mio_structures_encountered_01",
+      "text": "Vastus lateralis origin and belly, fascia lata, lateral cortex, distal metaphysis, periosteum, and profunda perforators define the working corridor.",
+      "source_ids": [
+        "ao_5ae6a4367cf046c8",
+        "pmid_30233936"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "pediatric_femoral_shaft_submuscular_mio_structures_at_risk_01",
+      "text": "Profunda perforators, major medial vessels, sciatic nerve posteriorly, quadriceps vascularity, physes, and the fracture hematoma are at risk during tunneling and percutaneous drilling.",
+      "source_ids": [
+        "ao_5ae6a4367cf046c8",
+        "pmid_30233936"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "pediatric_femoral_shaft_submuscular_mio_danger_zones_01",
+      "text": "Keep the plate and instruments against lateral cortex; posterior or medial passage and uncontrolled far-cortex drilling threaten neurovascular structures, while physeal crossing risks growth disturbance.",
+      "source_ids": [
+        "ao_5ae6a4367cf046c8",
+        "pmid_30233936"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "pediatric_femoral_shaft_submuscular_mio_retraction_hazards_01",
+      "text": "Use anterior and posterior extraperiosteal Hohmann retractors directly on bone through a visible window and avoid circumferential stripping or blind posterior placement.",
+      "source_ids": [
+        "ao_5ae6a4367cf046c8",
+        "pmid_30233936"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "pediatric_femoral_shaft_submuscular_mio_exposure_01",
+      "text": "Provides terminal fixation access while preserving muscle attachment, periosteal perfusion, fracture hematoma, and comminuted intermediate fragments.",
+      "source_ids": [
+        "ao_5ae6a4367cf046c8",
+        "pmid_23539122"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "pediatric_femoral_shaft_submuscular_mio_limitations_01",
+      "text": "Indirect visualization makes rotation and sagittal alignment vulnerable to error and may require additional windows when reduction or plate position cannot be proven.",
+      "source_ids": [
+        "pmid_23539122",
+        "pmid_30233936"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "pediatric_femoral_shaft_submuscular_mio_extensions_01",
+      "text": "For proximal access, release vastus lateralis origin in an extraperiosteal L shape; for distal access, extend toward the lateral epicondyle; add a targeted shaft window only as necessary.",
+      "source_ids": [
+        "ao_5ae6a4367cf046c8",
+        "pmid_30233936"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "pediatric_femoral_shaft_submuscular_mio_indications_01",
+      "text": "Use for unstable, comminuted, proximal-third, or distal-third pediatric femoral fractures where flexible nails may not reliably maintain length and alignment.",
+      "source_ids": [
+        "pmid_23539122",
+        "pmid_30233936"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "pediatric_femoral_shaft_submuscular_mio_relative_contraindications_01",
+      "text": "Use open exposure when contamination needs debridement, vascular exploration or direct reduction is required, or acceptable indirect alignment cannot be achieved.",
+      "source_ids": [
+        "ao_5ae6a4367cf046c8",
+        "pmid_30233936"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "pediatric_femoral_shaft_submuscular_mio_implant_implications_01",
+      "text": "Select a long bridge plate spanning the fracture with adequate proximal and distal fixation, appropriate working length, and restrained screw density rather than a short rigid construct.",
+      "source_ids": [
+        "pmid_23539122",
+        "pmid_30233936"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "pediatric_femoral_shaft_submuscular_mio_fluoroscopy_implications_01",
+      "text": "Repeatedly confirm hip and knee orientation, length, coronal and sagittal alignment, rotation, physeal clearance, plate centering, and screw length.",
+      "source_ids": [
+        "ao_5ae6a4367cf046c8",
+        "pmid_30233936"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "pediatric_femoral_shaft_submuscular_mio_closure_01",
+      "text": "Release retractors, verify hemostasis, allow vastus lateralis to cover the plate, repair any proximal origin release and fascia lata, and close skin.",
+      "source_ids": [
+        "ao_5ae6a4367cf046c8",
+        "pmid_30233936"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "pediatric_femoral_shaft_submuscular_mio_complications_01",
+      "text": "Complications include malrotation, angular or length malalignment, physeal injury, neurovascular injury, infection, delayed union, implant failure, refracture after removal, and stiffness.",
+      "source_ids": [
+        "ao_5ae6a4367cf046c8",
+        "pmid_23539122",
+        "pmid_30233936"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "pediatric_femoral_shaft_submuscular_mio_bailouts_01",
+      "text": "If alignment or plate passage is uncertain, stop blind advancement, add a targeted reduction window or temporary aid, and convert to open reduction when necessary for safety.",
+      "source_ids": [
+        "ao_5ae6a4367cf046c8",
+        "pmid_30233936"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "pediatric_femoral_shaft_submuscular_mio_questions_01",
+      "text": "What is preserved by submuscular plating?",
+      "source_ids": [
+        "ao_5ae6a4367cf046c8",
+        "pmid_23539122"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "pediatric_femoral_shaft_submuscular_mio_questions_02",
+      "text": "Which window is common for a distal-third fracture?",
+      "source_ids": [
+        "ao_5ae6a4367cf046c8"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "pediatric_femoral_shaft_submuscular_mio_questions_03",
+      "text": "What alignment error particularly requires active assessment?",
+      "source_ids": [
+        "pmid_23539122"
+      ],
+      "risk_level": "medium"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "ao_5ae6a4367cf046c8",
+      "provider": "AO Surgery Reference",
+      "title": "Minimally Invasive Osteosynthesis Approach",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/pediatric-trauma/femoral-shaft/approach/minimally-invasive-osteosynthesis-approach",
+      "source_page_id": "ao_5ae6a4367cf046c8"
+    },
+    {
+      "source_id": "pmid_23539122",
+      "provider": "PubMed",
+      "title": "Submuscular bridge plating for complex pediatric femur fractures is reliable",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/23539122/"
+    },
+    {
+      "source_id": "pmid_30233936",
+      "provider": "PubMed",
+      "title": "Submuscular Plate for Pediatric Femoral Fractures",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/30233936/"
+    }
+  ],
+  "content_status": "agent_review_pending",
+  "review": {
+    "status": "agent_review_pending",
+    "required_roles": [
+      "adversarial_safety_reviewer",
+      "approach_anatomy_reviewer",
+      "educational_value_reviewer",
+      "evidence_reviewer",
+      "operative_exposure_reviewer",
+      "procedure_applicability_reviewer"
+    ],
+    "completed_roles": []
+  },
+  "resolved_contradiction_keys": [],
+  "authoring_provenance": {
+    "method": "local_codex_curated",
+    "definition_file": "data/approach_library/curated/pediatric_femoral_shaft_open_mio_pins_v1.json",
+    "api_used": false
+  }
+}

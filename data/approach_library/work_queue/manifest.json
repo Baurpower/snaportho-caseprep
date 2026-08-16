@@ -1,0 +1,12 @@
+{
+  "schema_version": "brobot_approach_work_queue_v1",
+  "human_orthopedic_source_pages": 405,
+  "source_pages_covered_by_authored_packets": 101,
+  "batch_size": 20,
+  "batch_count": 16,
+  "pending": 304,
+  "excluded_non_caseprep_domains": {
+    "cmf": 102,
+    "vet": 134
+  }
+}

@@ -1,0 +1,473 @@
+{
+  "schema_version": "brobot_approach_packet_v1",
+  "approach_id": "calcaneus_mio_posterior",
+  "name": "Minimally invasive posterior approach to the calcaneus",
+  "aliases": [
+    "MIO posterior calcaneal approach",
+    "posterolateral para-Achilles calcaneal approach"
+  ],
+  "region": "posterior hindfoot and calcaneal tuberosity",
+  "joint": "ankle and subtalar joints",
+  "bones": [
+    "calcaneus",
+    "talus",
+    "distal tibia"
+  ],
+  "corridor": "Posterolateral para-Achilles interval through pre-Achilles fat to the superior calcaneus and posterior ankle/subtalar capsules",
+  "positioning": [
+    {
+      "text": "Position prone or lateral with the heel free, the Achilles relaxed when needed, and unobstructed access for posterior reduction and fluoroscopy.",
+      "claim_ids": [
+        "calcaneus_mio_posterior_positioning_01"
+      ]
+    }
+  ],
+  "setup": [
+    {
+      "text": "Assess posterior skin urgently because a displaced tuberosity fragment can threaten it; prepare percutaneous reduction tools, distractor options, and lateral and axial imaging.",
+      "claim_ids": [
+        "calcaneus_mio_posterior_setup_01"
+      ]
+    }
+  ],
+  "surface_landmarks": [
+    {
+      "text": "Mark the lateral Achilles border, calcaneal tuberosity, sural-nerve course, posterior ankle joint, and subtalar joint.",
+      "claim_ids": [
+        "calcaneus_mio_posterior_surface_landmarks_01"
+      ]
+    }
+  ],
+  "incision": [
+    {
+      "text": "Place a posterior incision adjacent to, but not directly over, the lateral border of the Achilles tendon; keep its superior extent posterior to the sural nerve.",
+      "claim_ids": [
+        "calcaneus_mio_posterior_incision_01"
+      ]
+    }
+  ],
+  "superficial_interval": [
+    {
+      "text": "Deepen lateral to the Achilles paratenon through the pre-Achilles fat while preserving the tendon, paratenon, sural nerve, and lateral calcaneal vascular supply.",
+      "claim_ids": [
+        "calcaneus_mio_posterior_superficial_interval_01"
+      ]
+    }
+  ],
+  "deep_interval": [
+    {
+      "text": "Continue to the superior calcaneus; vertical capsulotomies of the posterior ankle and subtalar joints can expose distal tibia, talus, and calcaneus, with distraction added when required.",
+      "claim_ids": [
+        "calcaneus_mio_posterior_deep_interval_01"
+      ]
+    }
+  ],
+  "layers": [
+    {
+      "text": "Skin, subcutaneous tissue with sural-nerve protection, lateral Achilles paratenon boundary, pre-Achilles fat, posterior joint capsules, and superior calcaneus.",
+      "claim_ids": [
+        "calcaneus_mio_posterior_layers_01"
+      ]
+    }
+  ],
+  "structures_encountered": [
+    {
+      "text": "Achilles tendon and paratenon, sural nerve, lateral calcaneal artery territory, pre-Achilles fat, FHL medially, posterior ankle capsule, subtalar capsule, and tuberosity are encountered.",
+      "claim_ids": [
+        "calcaneus_mio_posterior_structures_encountered_01"
+      ]
+    }
+  ],
+  "structures_at_risk": [
+    {
+      "text": "The sural nerve, Achilles tendon and paratenon, lateral calcaneal artery, posterior skin, FHL, and posterior tibial neurovascular bundle are at risk.",
+      "claim_ids": [
+        "calcaneus_mio_posterior_structures_at_risk_01"
+      ]
+    }
+  ],
+  "danger_zones": [
+    {
+      "text": "Do not cross medially beyond the protective FHL plane toward the posterior tibial bundle, and do not place the incision directly over or violate the Achilles tendon.",
+      "claim_ids": [
+        "calcaneus_mio_posterior_danger_zones_01"
+      ]
+    }
+  ],
+  "retraction_hazards": [
+    {
+      "text": "Avoid fixed pressure on the Achilles paratenon, posterior skin, and sural nerve; place any distractor under direct control to avoid talar or joint injury.",
+      "claim_ids": [
+        "calcaneus_mio_posterior_retraction_hazards_01"
+      ]
+    }
+  ],
+  "exposure": [
+    {
+      "text": "Exposes the superior and posterior calcaneus and, after capsulotomy, the posterior ankle and subtalar intervals for reduction and fixation.",
+      "claim_ids": [
+        "calcaneus_mio_posterior_exposure_01"
+      ]
+    }
+  ],
+  "limitations": [
+    {
+      "text": "Provides limited direct visualization of the lateral wall and anterior posterior facet; complex articular reconstruction may require another exposure.",
+      "claim_ids": [
+        "calcaneus_mio_posterior_limitations_01"
+      ]
+    }
+  ],
+  "extensions": [
+    {
+      "text": "A medial para-Achilles variant is possible but brings the posterior tibial neurovascular bundle closer and requires deliberate protection; add a lateral articular approach when needed.",
+      "claim_ids": [
+        "calcaneus_mio_posterior_extensions_01"
+      ]
+    }
+  ],
+  "indications": [
+    {
+      "text": "Use for selected simpler displaced intra- or extra-articular calcaneal patterns, particularly posterior tuberosity or tongue-type displacement amenable to posterior reduction and percutaneous fixation.",
+      "claim_ids": [
+        "calcaneus_mio_posterior_indications_01"
+      ]
+    }
+  ],
+  "relative_contraindications": [
+    {
+      "text": "Avoid as the sole exposure when complex posterior-facet or lateral-wall reconstruction requires direct visualization, or when the posterior wound corridor is compromised.",
+      "claim_ids": [
+        "calcaneus_mio_posterior_relative_contraindications_01"
+      ]
+    }
+  ],
+  "implant_implications": [
+    {
+      "text": "Plan posterior-to-anterior screws or other percutaneous constructs around the Achilles and joints, confirming adequate tuberosity purchase and avoiding plantar or articular penetration.",
+      "claim_ids": [
+        "calcaneus_mio_posterior_implant_implications_01"
+      ]
+    }
+  ],
+  "fluoroscopy_implications": [
+    {
+      "text": "Use lateral and axial heel views, supplemented by articular views, to verify tuberosity height, varus-valgus alignment, posterior-facet congruity, and screw containment.",
+      "claim_ids": [
+        "calcaneus_mio_posterior_fluoroscopy_implications_01"
+      ]
+    }
+  ],
+  "closure": [
+    {
+      "text": "Close posterior capsules and deep tissue with absorbable suture as appropriate, preserve the paratenon, and perform tension-free skin closure.",
+      "claim_ids": [
+        "calcaneus_mio_posterior_closure_01"
+      ]
+    }
+  ],
+  "complications": [
+    {
+      "text": "Complications include posterior skin necrosis, sural neuropathy, Achilles or paratenon injury, neurovascular injury, malreduction, joint penetration, nonunion, and subtalar arthritis.",
+      "claim_ids": [
+        "calcaneus_mio_posterior_complications_01"
+      ]
+    }
+  ],
+  "bailouts": [
+    {
+      "text": "Urgently reduce a skin-threatening tuberosity even if definitive fixation must be staged; convert or add an articular exposure if reduction cannot be demonstrated safely.",
+      "claim_ids": [
+        "calcaneus_mio_posterior_bailouts_01"
+      ]
+    }
+  ],
+  "procedure_applications": [
+    {
+      "procedure_id": "calcaneus_fracture_orif",
+      "relationship": "conditional_option",
+      "condition": "A tuberosity, tongue-type, or selected simpler intra- or extra-articular pattern requires posterior reduction and percutaneous fixation"
+    }
+  ],
+  "questions": [
+    {
+      "question": "Where should the posterior incision lie relative to the Achilles tendon?",
+      "answer": "Adjacent to its lateral border, not directly over the tendon.",
+      "claim_ids": [
+        "calcaneus_mio_posterior_questions_01"
+      ]
+    },
+    {
+      "question": "Which structure protects the posterior tibial neurovascular bundle medially?",
+      "answer": "The flexor hallucis longus muscle belly.",
+      "claim_ids": [
+        "calcaneus_mio_posterior_questions_02"
+      ]
+    },
+    {
+      "question": "What changes the timing priority for a calcaneal tuberosity fracture?",
+      "answer": "Posterior skin threat from the displaced fragment requires urgent reduction.",
+      "claim_ids": [
+        "calcaneus_mio_posterior_questions_03"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "calcaneus_mio_posterior_positioning_01",
+      "text": "Position prone or lateral with the heel free, the Achilles relaxed when needed, and unobstructed access for posterior reduction and fluoroscopy.",
+      "source_ids": [
+        "ao_4c2d0d72172a0d93",
+        "pmid_27555351"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "calcaneus_mio_posterior_setup_01",
+      "text": "Assess posterior skin urgently because a displaced tuberosity fragment can threaten it; prepare percutaneous reduction tools, distractor options, and lateral and axial imaging.",
+      "source_ids": [
+        "ao_4c2d0d72172a0d93",
+        "pmid_30233817"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "calcaneus_mio_posterior_surface_landmarks_01",
+      "text": "Mark the lateral Achilles border, calcaneal tuberosity, sural-nerve course, posterior ankle joint, and subtalar joint.",
+      "source_ids": [
+        "ao_4c2d0d72172a0d93",
+        "pmid_27555351"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "calcaneus_mio_posterior_incision_01",
+      "text": "Place a posterior incision adjacent to, but not directly over, the lateral border of the Achilles tendon; keep its superior extent posterior to the sural nerve.",
+      "source_ids": [
+        "ao_4c2d0d72172a0d93",
+        "pmid_27555351"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "calcaneus_mio_posterior_superficial_interval_01",
+      "text": "Deepen lateral to the Achilles paratenon through the pre-Achilles fat while preserving the tendon, paratenon, sural nerve, and lateral calcaneal vascular supply.",
+      "source_ids": [
+        "ao_4c2d0d72172a0d93",
+        "pmid_27555351"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "calcaneus_mio_posterior_deep_interval_01",
+      "text": "Continue to the superior calcaneus; vertical capsulotomies of the posterior ankle and subtalar joints can expose distal tibia, talus, and calcaneus, with distraction added when required.",
+      "source_ids": [
+        "ao_4c2d0d72172a0d93",
+        "pmid_27555351"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "calcaneus_mio_posterior_layers_01",
+      "text": "Skin, subcutaneous tissue with sural-nerve protection, lateral Achilles paratenon boundary, pre-Achilles fat, posterior joint capsules, and superior calcaneus.",
+      "source_ids": [
+        "ao_4c2d0d72172a0d93",
+        "pmid_27555351"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "calcaneus_mio_posterior_structures_encountered_01",
+      "text": "Achilles tendon and paratenon, sural nerve, lateral calcaneal artery territory, pre-Achilles fat, FHL medially, posterior ankle capsule, subtalar capsule, and tuberosity are encountered.",
+      "source_ids": [
+        "ao_4c2d0d72172a0d93",
+        "pmid_27555351"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "calcaneus_mio_posterior_structures_at_risk_01",
+      "text": "The sural nerve, Achilles tendon and paratenon, lateral calcaneal artery, posterior skin, FHL, and posterior tibial neurovascular bundle are at risk.",
+      "source_ids": [
+        "ao_4c2d0d72172a0d93",
+        "pmid_27555351"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "calcaneus_mio_posterior_danger_zones_01",
+      "text": "Do not cross medially beyond the protective FHL plane toward the posterior tibial bundle, and do not place the incision directly over or violate the Achilles tendon.",
+      "source_ids": [
+        "ao_4c2d0d72172a0d93",
+        "pmid_27555351"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "calcaneus_mio_posterior_retraction_hazards_01",
+      "text": "Avoid fixed pressure on the Achilles paratenon, posterior skin, and sural nerve; place any distractor under direct control to avoid talar or joint injury.",
+      "source_ids": [
+        "ao_4c2d0d72172a0d93",
+        "pmid_27555351"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "calcaneus_mio_posterior_exposure_01",
+      "text": "Exposes the superior and posterior calcaneus and, after capsulotomy, the posterior ankle and subtalar intervals for reduction and fixation.",
+      "source_ids": [
+        "ao_4c2d0d72172a0d93",
+        "pmid_27555351"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "calcaneus_mio_posterior_limitations_01",
+      "text": "Provides limited direct visualization of the lateral wall and anterior posterior facet; complex articular reconstruction may require another exposure.",
+      "source_ids": [
+        "ao_4c2d0d72172a0d93",
+        "pmid_30233817"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "calcaneus_mio_posterior_extensions_01",
+      "text": "A medial para-Achilles variant is possible but brings the posterior tibial neurovascular bundle closer and requires deliberate protection; add a lateral articular approach when needed.",
+      "source_ids": [
+        "ao_4c2d0d72172a0d93",
+        "pmid_27555351"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "calcaneus_mio_posterior_indications_01",
+      "text": "Use for selected simpler displaced intra- or extra-articular calcaneal patterns, particularly posterior tuberosity or tongue-type displacement amenable to posterior reduction and percutaneous fixation.",
+      "source_ids": [
+        "ao_4c2d0d72172a0d93",
+        "pmid_27555351",
+        "pmid_30233817"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "calcaneus_mio_posterior_relative_contraindications_01",
+      "text": "Avoid as the sole exposure when complex posterior-facet or lateral-wall reconstruction requires direct visualization, or when the posterior wound corridor is compromised.",
+      "source_ids": [
+        "ao_4c2d0d72172a0d93",
+        "pmid_30233817"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "calcaneus_mio_posterior_implant_implications_01",
+      "text": "Plan posterior-to-anterior screws or other percutaneous constructs around the Achilles and joints, confirming adequate tuberosity purchase and avoiding plantar or articular penetration.",
+      "source_ids": [
+        "ao_4c2d0d72172a0d93",
+        "pmid_27555351"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "calcaneus_mio_posterior_fluoroscopy_implications_01",
+      "text": "Use lateral and axial heel views, supplemented by articular views, to verify tuberosity height, varus-valgus alignment, posterior-facet congruity, and screw containment.",
+      "source_ids": [
+        "ao_4c2d0d72172a0d93",
+        "pmid_30233817"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "calcaneus_mio_posterior_closure_01",
+      "text": "Close posterior capsules and deep tissue with absorbable suture as appropriate, preserve the paratenon, and perform tension-free skin closure.",
+      "source_ids": [
+        "ao_4c2d0d72172a0d93",
+        "pmid_27555351"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "calcaneus_mio_posterior_complications_01",
+      "text": "Complications include posterior skin necrosis, sural neuropathy, Achilles or paratenon injury, neurovascular injury, malreduction, joint penetration, nonunion, and subtalar arthritis.",
+      "source_ids": [
+        "ao_4c2d0d72172a0d93",
+        "pmid_27555351",
+        "pmid_30233817"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "calcaneus_mio_posterior_bailouts_01",
+      "text": "Urgently reduce a skin-threatening tuberosity even if definitive fixation must be staged; convert or add an articular exposure if reduction cannot be demonstrated safely.",
+      "source_ids": [
+        "ao_4c2d0d72172a0d93",
+        "pmid_30233817"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "calcaneus_mio_posterior_questions_01",
+      "text": "Where should the posterior incision lie relative to the Achilles tendon?",
+      "source_ids": [
+        "ao_4c2d0d72172a0d93"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "calcaneus_mio_posterior_questions_02",
+      "text": "Which structure protects the posterior tibial neurovascular bundle medially?",
+      "source_ids": [
+        "ao_4c2d0d72172a0d93"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "calcaneus_mio_posterior_questions_03",
+      "text": "What changes the timing priority for a calcaneal tuberosity fracture?",
+      "source_ids": [
+        "ao_4c2d0d72172a0d93",
+        "pmid_30233817"
+      ],
+      "risk_level": "medium"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "ao_4c2d0d72172a0d93",
+      "provider": "AO Surgery Reference",
+      "title": "MIO posterior approach",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/calcaneous/approach/mio-posterior-approach",
+      "source_page_id": "ao_4c2d0d72172a0d93"
+    },
+    {
+      "source_id": "pmid_27555351",
+      "provider": "PubMed",
+      "title": "Outcome of minimally invasive open and percutaneous techniques for repair of calcaneal fractures",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/27555351/"
+    },
+    {
+      "source_id": "pmid_30233817",
+      "provider": "PubMed",
+      "title": "Minimally invasive reduction and percutaneous fixation versus ORIF for displaced intra-articular calcaneal fractures",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/30233817/"
+    }
+  ],
+  "content_status": "agent_review_pending",
+  "review": {
+    "status": "agent_review_pending",
+    "required_roles": [
+      "adversarial_safety_reviewer",
+      "approach_anatomy_reviewer",
+      "educational_value_reviewer",
+      "evidence_reviewer",
+      "operative_exposure_reviewer",
+      "procedure_applicability_reviewer"
+    ],
+    "completed_roles": []
+  },
+  "resolved_contradiction_keys": [],
+  "authoring_provenance": {
+    "method": "local_codex_curated",
+    "definition_file": "data/approach_library/curated/calcaneus_mio_approaches_v1.json",
+    "api_used": false
+  }
+}

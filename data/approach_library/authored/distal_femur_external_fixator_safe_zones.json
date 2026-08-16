@@ -1,0 +1,459 @@
+{
+  "schema_version": "brobot_approach_packet_v1",
+  "approach_id": "distal_femur_external_fixator_safe_zones",
+  "name": "Safe corridors for temporary distal-femur spanning external fixation",
+  "aliases": [
+    "distal femur pin safe zones",
+    "femur-tibia external-fixator corridors"
+  ],
+  "region": "femoral shaft, knee, and tibial shaft",
+  "joint": "knee",
+  "bones": [
+    "femur",
+    "tibia"
+  ],
+  "corridor": "Anterior-to-lateral femoral shaft and anteromedial tibial shaft percutaneous pin corridors",
+  "positioning": [
+    {
+      "text": "Position supine with the entire injured limb accessible and imageable from proximal femur through tibia.",
+      "claim_ids": [
+        "distal_femur_external_fixator_safe_zones_positioning_01"
+      ]
+    }
+  ],
+  "setup": [
+    {
+      "text": "Map soft-tissue injury and future plate or nail paths first; place femoral pins in the proximal third and tibial pins in midshaft when later conversion is anticipated.",
+      "claim_ids": [
+        "distal_femur_external_fixator_safe_zones_setup_01"
+      ]
+    }
+  ],
+  "surface_landmarks": [
+    {
+      "text": "Mark femoral shaft, quadriceps envelope, patella, fibular head, tibial crest, and planned definitive incisions.",
+      "claim_ids": [
+        "distal_femur_external_fixator_safe_zones_surface_landmarks_01"
+      ]
+    }
+  ],
+  "incision": [
+    {
+      "text": "Use adequate small incisions for blunt dissection to bone rather than driving pins directly through tethered skin.",
+      "claim_ids": [
+        "distal_femur_external_fixator_safe_zones_incision_01"
+      ]
+    }
+  ],
+  "superficial_interval": [
+    {
+      "text": "Femoral pins pass through anterior rectus split or direct lateral vastus; tibial pins begin about 1 cm medial to the crest on the anteromedial surface.",
+      "claim_ids": [
+        "distal_femur_external_fixator_safe_zones_superficial_interval_01"
+      ]
+    }
+  ],
+  "deep_interval": [
+    {
+      "text": "Advance drill guides to bone, drill bicortically without plunging, and keep the tibial trajectory approximately 20 degrees from sagittal away from posterolateral structures.",
+      "claim_ids": [
+        "distal_femur_external_fixator_safe_zones_deep_interval_01"
+      ]
+    }
+  ],
+  "layers": [
+    {
+      "text": "Skin, subcutaneous tissue, quadriceps or vastus lateralis to femur; skin and subcutaneous tissue directly to anteromedial tibia.",
+      "claim_ids": [
+        "distal_femur_external_fixator_safe_zones_layers_01"
+      ]
+    }
+  ],
+  "structures_encountered": [
+    {
+      "text": "Rectus femoris or vastus lateralis, femoral cortex, tibial crest, and anteromedial tibial cortex are encountered.",
+      "claim_ids": [
+        "distal_femur_external_fixator_safe_zones_structures_encountered_01"
+      ]
+    }
+  ],
+  "structures_at_risk": [
+    {
+      "text": "Sciatic nerve, femoral and popliteal vessels, common and deep peroneal nerves, anterior tibial vessels, saphenous nerve, and future surgical planes are at risk.",
+      "claim_ids": [
+        "distal_femur_external_fixator_safe_zones_structures_at_risk_01"
+      ]
+    }
+  ],
+  "danger_zones": [
+    {
+      "text": "Avoid medial/posterior femoral trajectories, the fibular-head peroneal-nerve zone, and posterolateral tibial drilling toward the anterior tibial bundle.",
+      "claim_ids": [
+        "distal_femur_external_fixator_safe_zones_danger_zones_01"
+      ]
+    }
+  ],
+  "retraction_hazards": [
+    {
+      "text": "Avoid soft-tissue tethering around pins and thermal or plunge injury during drilling; use sleeves, irrigation, and controlled bicortical depth.",
+      "claim_ids": [
+        "distal_femur_external_fixator_safe_zones_retraction_hazards_01"
+      ]
+    }
+  ],
+  "exposure": [
+    {
+      "text": "Provides safe percutaneous skeletal purchase for a knee-spanning frame while keeping traumatized and definitive operative zones clear.",
+      "claim_ids": [
+        "distal_femur_external_fixator_safe_zones_exposure_01"
+      ]
+    }
+  ],
+  "limitations": [
+    {
+      "text": "Safe zones are corridor guides, not substitutes for patient-specific imaging, palpation, soft-tissue assessment, or direct technique.",
+      "claim_ids": [
+        "distal_femur_external_fixator_safe_zones_limitations_01"
+      ]
+    }
+  ],
+  "extensions": [
+    {
+      "text": "Add pins only after remapping neurovascular and definitive implant corridors; do not crowd the future operative field.",
+      "claim_ids": [
+        "distal_femur_external_fixator_safe_zones_extensions_01"
+      ]
+    }
+  ],
+  "indications": [
+    {
+      "text": "Use for staged temporary stabilization of unstable distal-femur injuries with soft-tissue compromise or physiologic need for damage control.",
+      "claim_ids": [
+        "distal_femur_external_fixator_safe_zones_indications_01"
+      ]
+    }
+  ],
+  "relative_contraindications": [
+    {
+      "text": "Avoid crushed, infected, burned, or planned-incision skin and any corridor whose anatomy cannot be confidently defined.",
+      "claim_ids": [
+        "distal_femur_external_fixator_safe_zones_relative_contraindications_01"
+      ]
+    }
+  ],
+  "implant_implications": [
+    {
+      "text": "Keep pins outside the future nail path and plate footprint and sufficiently distant from fracture and definitive incisions.",
+      "claim_ids": [
+        "distal_femur_external_fixator_safe_zones_implant_implications_01"
+      ]
+    }
+  ],
+  "fluoroscopy_implications": [
+    {
+      "text": "Confirm bicortical purchase, pin trajectory, joint clearance, and frame alignment without drill plunge.",
+      "claim_ids": [
+        "distal_femur_external_fixator_safe_zones_fluoroscopy_implications_01"
+      ]
+    }
+  ],
+  "closure": [
+    {
+      "text": "Release tethered skin around each pin, dress pin sites, and document neurovascular status after frame assembly.",
+      "claim_ids": [
+        "distal_femur_external_fixator_safe_zones_closure_01"
+      ]
+    }
+  ],
+  "complications": [
+    {
+      "text": "Complications include neurovascular injury, pin-track infection, thermal necrosis, fracture propagation, joint penetration, stiffness, and contamination of definitive fixation corridors.",
+      "claim_ids": [
+        "distal_femur_external_fixator_safe_zones_complications_01"
+      ]
+    }
+  ],
+  "bailouts": [
+    {
+      "text": "If the safe corridor or future plan is uncertain, stop and relocate under imaging or direct exposure rather than accept a hazardous pin.",
+      "claim_ids": [
+        "distal_femur_external_fixator_safe_zones_bailouts_01"
+      ]
+    }
+  ],
+  "procedure_applications": [
+    {
+      "procedure_id": "distal_femur_fracture_external_fixation",
+      "relationship": "primary_option",
+      "condition": "Temporary knee-spanning fixation is required while preserving future definitive surgical corridors"
+    }
+  ],
+  "questions": [
+    {
+      "question": "What is the safest femoral arc?",
+      "answer": "Anterior through direct lateral.",
+      "claim_ids": [
+        "distal_femur_external_fixator_safe_zones_questions_01"
+      ]
+    },
+    {
+      "question": "Where should tibial pins begin?",
+      "answer": "About 1 cm medial to the tibial crest on the anteromedial surface.",
+      "claim_ids": [
+        "distal_femur_external_fixator_safe_zones_questions_02"
+      ]
+    },
+    {
+      "question": "Why keep pins away from future fixation?",
+      "answer": "To avoid contaminating or obstructing definitive plate or nail corridors.",
+      "claim_ids": [
+        "distal_femur_external_fixator_safe_zones_questions_03"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "distal_femur_external_fixator_safe_zones_positioning_01",
+      "text": "Position supine with the entire injured limb accessible and imageable from proximal femur through tibia.",
+      "source_ids": [
+        "ao_a21adb25f7703ca1",
+        "pmid_30921821"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "distal_femur_external_fixator_safe_zones_setup_01",
+      "text": "Map soft-tissue injury and future plate or nail paths first; place femoral pins in the proximal third and tibial pins in midshaft when later conversion is anticipated.",
+      "source_ids": [
+        "ao_a21adb25f7703ca1",
+        "pmid_30921821"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "distal_femur_external_fixator_safe_zones_surface_landmarks_01",
+      "text": "Mark femoral shaft, quadriceps envelope, patella, fibular head, tibial crest, and planned definitive incisions.",
+      "source_ids": [
+        "ao_a21adb25f7703ca1"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "distal_femur_external_fixator_safe_zones_incision_01",
+      "text": "Use adequate small incisions for blunt dissection to bone rather than driving pins directly through tethered skin.",
+      "source_ids": [
+        "ao_a21adb25f7703ca1",
+        "pmid_30921821"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "distal_femur_external_fixator_safe_zones_superficial_interval_01",
+      "text": "Femoral pins pass through anterior rectus split or direct lateral vastus; tibial pins begin about 1 cm medial to the crest on the anteromedial surface.",
+      "source_ids": [
+        "ao_a21adb25f7703ca1",
+        "pmid_30921821"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "distal_femur_external_fixator_safe_zones_deep_interval_01",
+      "text": "Advance drill guides to bone, drill bicortically without plunging, and keep the tibial trajectory approximately 20 degrees from sagittal away from posterolateral structures.",
+      "source_ids": [
+        "ao_a21adb25f7703ca1",
+        "pmid_30921821"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "distal_femur_external_fixator_safe_zones_layers_01",
+      "text": "Skin, subcutaneous tissue, quadriceps or vastus lateralis to femur; skin and subcutaneous tissue directly to anteromedial tibia.",
+      "source_ids": [
+        "ao_a21adb25f7703ca1"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "distal_femur_external_fixator_safe_zones_structures_encountered_01",
+      "text": "Rectus femoris or vastus lateralis, femoral cortex, tibial crest, and anteromedial tibial cortex are encountered.",
+      "source_ids": [
+        "ao_a21adb25f7703ca1"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "distal_femur_external_fixator_safe_zones_structures_at_risk_01",
+      "text": "Sciatic nerve, femoral and popliteal vessels, common and deep peroneal nerves, anterior tibial vessels, saphenous nerve, and future surgical planes are at risk.",
+      "source_ids": [
+        "ao_a21adb25f7703ca1",
+        "pmid_30921821"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "distal_femur_external_fixator_safe_zones_danger_zones_01",
+      "text": "Avoid medial/posterior femoral trajectories, the fibular-head peroneal-nerve zone, and posterolateral tibial drilling toward the anterior tibial bundle.",
+      "source_ids": [
+        "ao_a21adb25f7703ca1",
+        "pmid_30921821"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "distal_femur_external_fixator_safe_zones_retraction_hazards_01",
+      "text": "Avoid soft-tissue tethering around pins and thermal or plunge injury during drilling; use sleeves, irrigation, and controlled bicortical depth.",
+      "source_ids": [
+        "ao_a21adb25f7703ca1",
+        "pmid_30921821"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "distal_femur_external_fixator_safe_zones_exposure_01",
+      "text": "Provides safe percutaneous skeletal purchase for a knee-spanning frame while keeping traumatized and definitive operative zones clear.",
+      "source_ids": [
+        "ao_a21adb25f7703ca1",
+        "pmid_30921821"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "distal_femur_external_fixator_safe_zones_limitations_01",
+      "text": "Safe zones are corridor guides, not substitutes for patient-specific imaging, palpation, soft-tissue assessment, or direct technique.",
+      "source_ids": [
+        "ao_a21adb25f7703ca1"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "distal_femur_external_fixator_safe_zones_extensions_01",
+      "text": "Add pins only after remapping neurovascular and definitive implant corridors; do not crowd the future operative field.",
+      "source_ids": [
+        "ao_a21adb25f7703ca1",
+        "pmid_30921821"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "distal_femur_external_fixator_safe_zones_indications_01",
+      "text": "Use for staged temporary stabilization of unstable distal-femur injuries with soft-tissue compromise or physiologic need for damage control.",
+      "source_ids": [
+        "ao_a21adb25f7703ca1",
+        "pmid_30921821"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "distal_femur_external_fixator_safe_zones_relative_contraindications_01",
+      "text": "Avoid crushed, infected, burned, or planned-incision skin and any corridor whose anatomy cannot be confidently defined.",
+      "source_ids": [
+        "ao_a21adb25f7703ca1",
+        "pmid_30921821"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "distal_femur_external_fixator_safe_zones_implant_implications_01",
+      "text": "Keep pins outside the future nail path and plate footprint and sufficiently distant from fracture and definitive incisions.",
+      "source_ids": [
+        "ao_a21adb25f7703ca1",
+        "pmid_30921821"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "distal_femur_external_fixator_safe_zones_fluoroscopy_implications_01",
+      "text": "Confirm bicortical purchase, pin trajectory, joint clearance, and frame alignment without drill plunge.",
+      "source_ids": [
+        "ao_a21adb25f7703ca1",
+        "pmid_30921821"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "distal_femur_external_fixator_safe_zones_closure_01",
+      "text": "Release tethered skin around each pin, dress pin sites, and document neurovascular status after frame assembly.",
+      "source_ids": [
+        "ao_a21adb25f7703ca1",
+        "pmid_30921821"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "distal_femur_external_fixator_safe_zones_complications_01",
+      "text": "Complications include neurovascular injury, pin-track infection, thermal necrosis, fracture propagation, joint penetration, stiffness, and contamination of definitive fixation corridors.",
+      "source_ids": [
+        "ao_a21adb25f7703ca1",
+        "pmid_30921821"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "distal_femur_external_fixator_safe_zones_bailouts_01",
+      "text": "If the safe corridor or future plan is uncertain, stop and relocate under imaging or direct exposure rather than accept a hazardous pin.",
+      "source_ids": [
+        "ao_a21adb25f7703ca1",
+        "pmid_30921821"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "distal_femur_external_fixator_safe_zones_questions_01",
+      "text": "What is the safest femoral arc?",
+      "source_ids": [
+        "ao_a21adb25f7703ca1"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "distal_femur_external_fixator_safe_zones_questions_02",
+      "text": "Where should tibial pins begin?",
+      "source_ids": [
+        "ao_a21adb25f7703ca1"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "distal_femur_external_fixator_safe_zones_questions_03",
+      "text": "Why keep pins away from future fixation?",
+      "source_ids": [
+        "ao_a21adb25f7703ca1"
+      ],
+      "risk_level": "medium"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "ao_a21adb25f7703ca1",
+      "provider": "AO Surgery Reference",
+      "title": "Safe Zones For Pin Insertion",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/distal-femur/approach/safe-zones-for-pin-insertion",
+      "source_page_id": "ao_a21adb25f7703ca1"
+    },
+    {
+      "source_id": "pmid_30921821",
+      "provider": "PubMed",
+      "title": "Minimally Invasive Plate Osteosynthesis for Periprosthetic and Interprosthetic Fractures Associated with Knee Arthroplasty",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/30921821/"
+    }
+  ],
+  "content_status": "agent_review_pending",
+  "review": {
+    "status": "agent_review_pending",
+    "required_roles": [
+      "adversarial_safety_reviewer",
+      "approach_anatomy_reviewer",
+      "educational_value_reviewer",
+      "evidence_reviewer",
+      "operative_exposure_reviewer",
+      "procedure_applicability_reviewer"
+    ],
+    "completed_roles": []
+  },
+  "resolved_contradiction_keys": [],
+  "authoring_provenance": {
+    "method": "local_codex_curated",
+    "definition_file": "data/approach_library/curated/distal_femur_mipo_pin_swashbuckler_v1.json",
+    "api_used": false
+  }
+}

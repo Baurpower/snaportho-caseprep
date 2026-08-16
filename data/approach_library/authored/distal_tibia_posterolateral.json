@@ -1,0 +1,473 @@
+{
+  "schema_version": "brobot_approach_packet_v1",
+  "approach_id": "distal_tibia_posterolateral",
+  "name": "Posterolateral approach to the distal tibia",
+  "aliases": [
+    "posterolateral pilon approach",
+    "posterolateral distal tibia-fibula approach"
+  ],
+  "region": "posterolateral distal leg and ankle",
+  "joint": "ankle",
+  "bones": [
+    "distal tibia",
+    "distal fibula",
+    "talus"
+  ],
+  "corridor": "Between peroneal tendons/muscle laterally and flexor hallucis longus medially, with a separate superficial plane to fibula",
+  "positioning": [
+    {
+      "text": "Position prone or lateral with posterior ankle accessible and fluoroscopy configured before prepping.",
+      "claim_ids": [
+        "distal_tibia_posterolateral_positioning_01"
+      ]
+    }
+  ],
+  "setup": [
+    {
+      "text": "Map posterior fragments and peroneal vascular anatomy on CT, decide whether fibula is fixed first, and plan any separate anterior or medial window.",
+      "claim_ids": [
+        "distal_tibia_posterolateral_setup_01"
+      ]
+    }
+  ],
+  "surface_landmarks": [
+    {
+      "text": "Mark Achilles lateral border, posteromedial fibular border, fibular tip, sural-nerve course, and posterior ankle joint.",
+      "claim_ids": [
+        "distal_tibia_posterolateral_surface_landmarks_01"
+      ]
+    }
+  ],
+  "incision": [
+    {
+      "text": "Incise along posteromedial fibular border from fibular tip proximally as required, never medial to the lateral Achilles border.",
+      "claim_ids": [
+        "distal_tibia_posterolateral_incision_01"
+      ]
+    }
+  ],
+  "superficial_interval": [
+    {
+      "text": "Raise full-thickness flaps, identify sural nerve under superficial fascia and retain it in lateral flap; for fibula, open peroneal fascia and retract peroneals medially.",
+      "claim_ids": [
+        "distal_tibia_posterolateral_superficial_interval_01"
+      ]
+    }
+  ],
+  "deep_interval": [
+    {
+      "text": "For tibia retract peroneals laterally, develop interval between peroneals and FHL, incise FHL lateral border, and retract FHL medially to protect posteromedial bundle.",
+      "claim_ids": [
+        "distal_tibia_posterolateral_deep_interval_01"
+      ]
+    }
+  ],
+  "layers": [
+    {
+      "text": "Skin, sural-nerve plane, peroneal fascia, peroneal-FHL interval, posterior tibial periosteum, then posterior plafond.",
+      "claim_ids": [
+        "distal_tibia_posterolateral_layers_01"
+      ]
+    }
+  ],
+  "structures_encountered": [
+    {
+      "text": "Sural nerve, peroneal muscles/tendons, FHL, fibula, peroneal vessels, posterior tibia, and posterior tibiofibular ligament are encountered.",
+      "claim_ids": [
+        "distal_tibia_posterolateral_structures_encountered_01"
+      ]
+    }
+  ],
+  "structures_at_risk": [
+    {
+      "text": "Sural nerve, peroneal artery/vein or branches, posteromedial neurovascular bundle, peroneal tendons, FHL, fragment blood supply, and cartilage are at risk.",
+      "claim_ids": [
+        "distal_tibia_posterolateral_structures_at_risk_01"
+      ]
+    }
+  ],
+  "danger_zones": [
+    {
+      "text": "Stay lateral to FHL when developing tibial exposure, anticipate peroneal vessels, and deflate tourniquet before deep closure to verify hemostasis.",
+      "claim_ids": [
+        "distal_tibia_posterolateral_danger_zones_01"
+      ]
+    }
+  ],
+  "retraction_hazards": [
+    {
+      "text": "Retract FHL medially as protection for the posterior tibial bundle and avoid sustained traction on sural nerve or peroneal vessels.",
+      "claim_ids": [
+        "distal_tibia_posterolateral_retraction_hazards_01"
+      ]
+    }
+  ],
+  "exposure": [
+    {
+      "text": "Provides direct posterior-plafond buttress access and permits fibular fixation through a separate plane in the same incision.",
+      "claim_ids": [
+        "distal_tibia_posterolateral_exposure_01"
+      ]
+    }
+  ],
+  "limitations": [
+    {
+      "text": "Anterior/anteromedial fragments may require a separate incision and direct central articular visualization can remain limited.",
+      "claim_ids": [
+        "distal_tibia_posterolateral_limitations_01"
+      ]
+    }
+  ],
+  "extensions": [
+    {
+      "text": "Extend proximally on either side of sural nerve or add a separate medial/anterior window after posterior provisional stabilization.",
+      "claim_ids": [
+        "distal_tibia_posterolateral_extensions_01"
+      ]
+    }
+  ],
+  "indications": [
+    {
+      "text": "Use for posterior-predominant pilon patterns, posterior malleolar fragments, combined tibia-fibula fixation, or compromised anterior skin.",
+      "claim_ids": [
+        "distal_tibia_posterolateral_indications_01"
+      ]
+    }
+  ],
+  "relative_contraindications": [
+    {
+      "text": "Choose another fragment-directed corridor when pathology is predominantly anterior/medial or prone/lateral positioning is unsafe.",
+      "claim_ids": [
+        "distal_tibia_posterolateral_relative_contraindications_01"
+      ]
+    }
+  ],
+  "implant_implications": [
+    {
+      "text": "Supports posterior tibial buttress plating and fibular fixation; sequence implants to preserve reduction access and avoid tendon/neurovascular impingement.",
+      "claim_ids": [
+        "distal_tibia_posterolateral_implant_implications_01"
+      ]
+    }
+  ],
+  "fluoroscopy_implications": [
+    {
+      "text": "Configure AP, lateral, mortise, and oblique imaging in prone/lateral position before incision and verify posterior plate and screw containment.",
+      "claim_ids": [
+        "distal_tibia_posterolateral_fluoroscopy_implications_01"
+      ]
+    }
+  ],
+  "closure": [
+    {
+      "text": "Release tourniquet for deep hemostasis, restore FHL/peroneal intervals and fascia, leave sural nerve untethered, and close full-thickness flaps without tension.",
+      "claim_ids": [
+        "distal_tibia_posterolateral_closure_01"
+      ]
+    }
+  ],
+  "complications": [
+    {
+      "text": "Complications include sural neuropathy, peroneal-vessel injury or hematoma, wound breakdown, infection, tendon irritation, malreduction, nonunion, and arthritis.",
+      "claim_ids": [
+        "distal_tibia_posterolateral_complications_01"
+      ]
+    }
+  ],
+  "bailouts": [
+    {
+      "text": "Add a separate fragment-specific window when central or anterior reduction cannot be confirmed rather than stripping through the posterior interval.",
+      "claim_ids": [
+        "distal_tibia_posterolateral_bailouts_01"
+      ]
+    }
+  ],
+  "procedure_applications": [
+    {
+      "procedure_id": "tibial_pilon_fracture_orif",
+      "relationship": "primary_option",
+      "condition": "A posterior or posterolateral plafond fragment requires direct reduction and buttress fixation"
+    },
+    {
+      "procedure_id": "ankle_fracture_orif",
+      "relationship": "conditional_option",
+      "condition": "Posterior malleolus and fibula can be treated through one posterolateral incision"
+    }
+  ],
+  "questions": [
+    {
+      "question": "What is the deep tibial interval?",
+      "answer": "Between peroneals laterally and FHL medially.",
+      "claim_ids": [
+        "distal_tibia_posterolateral_questions_01"
+      ]
+    },
+    {
+      "question": "Which muscle protects the posteromedial bundle?",
+      "answer": "FHL when retracted medially.",
+      "claim_ids": [
+        "distal_tibia_posterolateral_questions_02"
+      ]
+    },
+    {
+      "question": "Which nerve lies in the superficial flap?",
+      "answer": "The sural nerve, usually retained in the lateral flap.",
+      "claim_ids": [
+        "distal_tibia_posterolateral_questions_03"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "distal_tibia_posterolateral_positioning_01",
+      "text": "Position prone or lateral with posterior ankle accessible and fluoroscopy configured before prepping.",
+      "source_ids": [
+        "ao_d1d6e660d076a419",
+        "pmid_39995545"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "distal_tibia_posterolateral_setup_01",
+      "text": "Map posterior fragments and peroneal vascular anatomy on CT, decide whether fibula is fixed first, and plan any separate anterior or medial window.",
+      "source_ids": [
+        "ao_d1d6e660d076a419",
+        "pmid_25072286"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "distal_tibia_posterolateral_surface_landmarks_01",
+      "text": "Mark Achilles lateral border, posteromedial fibular border, fibular tip, sural-nerve course, and posterior ankle joint.",
+      "source_ids": [
+        "ao_d1d6e660d076a419"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "distal_tibia_posterolateral_incision_01",
+      "text": "Incise along posteromedial fibular border from fibular tip proximally as required, never medial to the lateral Achilles border.",
+      "source_ids": [
+        "ao_d1d6e660d076a419",
+        "pmid_25072286"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "distal_tibia_posterolateral_superficial_interval_01",
+      "text": "Raise full-thickness flaps, identify sural nerve under superficial fascia and retain it in lateral flap; for fibula, open peroneal fascia and retract peroneals medially.",
+      "source_ids": [
+        "ao_d1d6e660d076a419",
+        "pmid_39995545"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "distal_tibia_posterolateral_deep_interval_01",
+      "text": "For tibia retract peroneals laterally, develop interval between peroneals and FHL, incise FHL lateral border, and retract FHL medially to protect posteromedial bundle.",
+      "source_ids": [
+        "ao_d1d6e660d076a419",
+        "pmid_25072286"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "distal_tibia_posterolateral_layers_01",
+      "text": "Skin, sural-nerve plane, peroneal fascia, peroneal-FHL interval, posterior tibial periosteum, then posterior plafond.",
+      "source_ids": [
+        "ao_d1d6e660d076a419"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "distal_tibia_posterolateral_structures_encountered_01",
+      "text": "Sural nerve, peroneal muscles/tendons, FHL, fibula, peroneal vessels, posterior tibia, and posterior tibiofibular ligament are encountered.",
+      "source_ids": [
+        "ao_d1d6e660d076a419",
+        "pmid_39995545"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "distal_tibia_posterolateral_structures_at_risk_01",
+      "text": "Sural nerve, peroneal artery/vein or branches, posteromedial neurovascular bundle, peroneal tendons, FHL, fragment blood supply, and cartilage are at risk.",
+      "source_ids": [
+        "ao_d1d6e660d076a419",
+        "pmid_25072286"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "distal_tibia_posterolateral_danger_zones_01",
+      "text": "Stay lateral to FHL when developing tibial exposure, anticipate peroneal vessels, and deflate tourniquet before deep closure to verify hemostasis.",
+      "source_ids": [
+        "ao_d1d6e660d076a419",
+        "pmid_25072286"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "distal_tibia_posterolateral_retraction_hazards_01",
+      "text": "Retract FHL medially as protection for the posterior tibial bundle and avoid sustained traction on sural nerve or peroneal vessels.",
+      "source_ids": [
+        "ao_d1d6e660d076a419",
+        "pmid_39995545"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "distal_tibia_posterolateral_exposure_01",
+      "text": "Provides direct posterior-plafond buttress access and permits fibular fixation through a separate plane in the same incision.",
+      "source_ids": [
+        "ao_d1d6e660d076a419",
+        "pmid_39995545"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "distal_tibia_posterolateral_limitations_01",
+      "text": "Anterior/anteromedial fragments may require a separate incision and direct central articular visualization can remain limited.",
+      "source_ids": [
+        "ao_d1d6e660d076a419",
+        "pmid_25072286"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "distal_tibia_posterolateral_extensions_01",
+      "text": "Extend proximally on either side of sural nerve or add a separate medial/anterior window after posterior provisional stabilization.",
+      "source_ids": [
+        "ao_d1d6e660d076a419",
+        "pmid_25072286"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "distal_tibia_posterolateral_indications_01",
+      "text": "Use for posterior-predominant pilon patterns, posterior malleolar fragments, combined tibia-fibula fixation, or compromised anterior skin.",
+      "source_ids": [
+        "ao_d1d6e660d076a419",
+        "pmid_39995545"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "distal_tibia_posterolateral_relative_contraindications_01",
+      "text": "Choose another fragment-directed corridor when pathology is predominantly anterior/medial or prone/lateral positioning is unsafe.",
+      "source_ids": [
+        "pmid_39995545",
+        "pmid_25072286"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "distal_tibia_posterolateral_implant_implications_01",
+      "text": "Supports posterior tibial buttress plating and fibular fixation; sequence implants to preserve reduction access and avoid tendon/neurovascular impingement.",
+      "source_ids": [
+        "ao_d1d6e660d076a419",
+        "pmid_25072286"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "distal_tibia_posterolateral_fluoroscopy_implications_01",
+      "text": "Configure AP, lateral, mortise, and oblique imaging in prone/lateral position before incision and verify posterior plate and screw containment.",
+      "source_ids": [
+        "pmid_39995545",
+        "pmid_25072286"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "distal_tibia_posterolateral_closure_01",
+      "text": "Release tourniquet for deep hemostasis, restore FHL/peroneal intervals and fascia, leave sural nerve untethered, and close full-thickness flaps without tension.",
+      "source_ids": [
+        "ao_d1d6e660d076a419",
+        "pmid_25072286"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "distal_tibia_posterolateral_complications_01",
+      "text": "Complications include sural neuropathy, peroneal-vessel injury or hematoma, wound breakdown, infection, tendon irritation, malreduction, nonunion, and arthritis.",
+      "source_ids": [
+        "pmid_39995545",
+        "pmid_25072286"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "distal_tibia_posterolateral_bailouts_01",
+      "text": "Add a separate fragment-specific window when central or anterior reduction cannot be confirmed rather than stripping through the posterior interval.",
+      "source_ids": [
+        "ao_d1d6e660d076a419",
+        "pmid_25072286"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "distal_tibia_posterolateral_questions_01",
+      "text": "What is the deep tibial interval?",
+      "source_ids": [
+        "ao_d1d6e660d076a419"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "distal_tibia_posterolateral_questions_02",
+      "text": "Which muscle protects the posteromedial bundle?",
+      "source_ids": [
+        "ao_d1d6e660d076a419"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "distal_tibia_posterolateral_questions_03",
+      "text": "Which nerve lies in the superficial flap?",
+      "source_ids": [
+        "ao_d1d6e660d076a419"
+      ],
+      "risk_level": "medium"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "ao_d1d6e660d076a419",
+      "provider": "AO Surgery Reference",
+      "title": "Posterolateral Limited Open Approach To The Distal Tibia",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/distal-tibia/approach/posterolateral-limited-open-approach-to-the-distal-tibia",
+      "source_page_id": "ao_d1d6e660d076a419"
+    },
+    {
+      "source_id": "pmid_39995545",
+      "provider": "PubMed",
+      "title": "A systematic review of posterior pilon fractures",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39995545/"
+    },
+    {
+      "source_id": "pmid_25072286",
+      "provider": "PubMed",
+      "title": "Strategies for surgical approaches in ORIF of pilon fractures",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/25072286/"
+    }
+  ],
+  "content_status": "agent_review_pending",
+  "review": {
+    "status": "agent_review_pending",
+    "required_roles": [
+      "adversarial_safety_reviewer",
+      "approach_anatomy_reviewer",
+      "educational_value_reviewer",
+      "evidence_reviewer",
+      "operative_exposure_reviewer",
+      "procedure_applicability_reviewer"
+    ],
+    "completed_roles": []
+  },
+  "resolved_contradiction_keys": [],
+  "authoring_provenance": {
+    "method": "local_codex_curated",
+    "definition_file": "data/approach_library/curated/adult_distal_tibia_mio_posterior_nail_v1.json",
+    "api_used": false
+  }
+}

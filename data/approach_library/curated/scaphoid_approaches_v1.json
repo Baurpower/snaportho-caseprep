@@ -1,0 +1,139 @@
+{
+  "approaches": [
+    {
+      "approach_id": "scaphoid_dorsal_open",
+      "name": "Dorsal open approach to the scaphoid",
+      "aliases": ["dorsal scaphoid approach", "antegrade scaphoid approach", "dorsal proximal-pole exposure"],
+      "region": "dorsal wrist and scaphoid",
+      "joint": "radiocarpal and midcarpal joints",
+      "bones": ["scaphoid", "distal radius", "lunate"],
+      "corridor": "Dorsal interval through the third extensor compartment and dorsal capsule to the proximal scaphoid and scapholunate interval",
+      "sources": [
+        {"source_id": "ao_32bbc0733bb5f862", "provider": "AO Surgery Reference", "title": "Dorsal approach to the scaphoid", "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/carpal-bones/approach/dorsal-approach-to-the-scaphoid", "source_page_id": "ao_32bbc0733bb5f862"},
+        {"source_id": "pmid_31178084", "provider": "PubMed", "title": "Surgical approaches to the scaphoid", "url": "https://pubmed.ncbi.nlm.nih.gov/31178084/"},
+        {"source_id": "pmid_29253617", "provider": "PubMed", "title": "Comparison of dorsal and volar percutaneous screw trajectories for scaphoid fracture fixation", "url": "https://pubmed.ncbi.nlm.nih.gov/29253617/"}
+      ],
+      "procedure_applications": [
+        {"procedure_id": "scaphoid_fracture_orif", "relationship": "conditional_option", "condition": "A proximal-pole fracture, proximal trajectory requirement, or associated scapholunate pathology favors dorsal access"}
+      ],
+      "sections": {
+        "positioning": [{"text": "Position supine with the arm on a radiolucent hand table and the wrist free to flex for proximal-pole visualization and extend for imaging and guidewire placement.", "source_ids": ["ao_32bbc0733bb5f862", "pmid_31178084"]}],
+        "setup": [{"text": "Prepare the hand and forearm freely, arrange magnification and fine instruments, and confirm unobstructed PA, lateral, oblique, and scaphoid-axis fluoroscopic views before incision.", "source_ids": ["ao_32bbc0733bb5f862", "pmid_31178084"]}],
+        "surface_landmarks": [{"text": "Mark Lister tubercle, the third extensor compartment and EPL course, the radiocarpal joint, and the longitudinal axis of the scaphoid.", "source_ids": ["ao_32bbc0733bb5f862", "pmid_31178084"]}],
+        "incision": [{"text": "Use a longitudinal dorsal incision beginning near Lister tubercle and extending approximately 3 cm distally over the proximal scaphoid corridor.", "source_ids": ["ao_32bbc0733bb5f862", "pmid_31178084"]}],
+        "superficial_interval": [{"text": "Protect superficial sensory branches, open the third extensor compartment over EPL, and mobilize EPL radially with the second-compartment tendons while retracting the fourth compartment ulnarly.", "source_ids": ["ao_32bbc0733bb5f862", "pmid_31178084"], "risk_level": "high"}],
+        "deep_interval": [{"text": "Create a longitudinal or T-shaped dorsal capsulotomy from the dorsal radial rim toward the dorsal intercarpal ligament, preserving capsular attachment and vessels along the dorsal scaphoid ridge.", "source_ids": ["ao_32bbc0733bb5f862", "pmid_31178084"], "risk_level": "high"}],
+        "layers": [{"text": "Skin and subcutaneous tissue, extensor retinaculum and third compartment, protected extensor tendons, dorsal wrist capsule, then proximal scaphoid and scapholunate interval.", "source_ids": ["ao_32bbc0733bb5f862", "pmid_31178084"]}],
+        "structures_encountered": [{"text": "Superficial radial sensory branches, EPL, second and fourth extensor compartments, dorsal capsule, proximal scaphoid, and scapholunate ligament define the exposure.", "source_ids": ["ao_32bbc0733bb5f862", "pmid_31178084"]}],
+        "structures_at_risk": [{"text": "The superficial radial nerve branches, EPL and adjacent extensor tendons, dorsal scaphoid blood supply, scapholunate ligament, and radiocarpal cartilage are at risk.", "source_ids": ["ao_32bbc0733bb5f862", "pmid_31178084"], "risk_level": "high"}],
+        "danger_zones": [{"text": "Do not strip the capsule or vascular tissue from the dorsal scaphoid ridge, and do not advance wires or screws across the radiocarpal or midcarpal joints without multiplanar confirmation.", "source_ids": ["ao_32bbc0733bb5f862", "pmid_29253617"], "risk_level": "high"}],
+        "retraction_hazards": [{"text": "Avoid sustained focal retraction on EPL or the fourth-compartment tendons and avoid levering retractors against the dorsal articular surfaces.", "source_ids": ["ao_32bbc0733bb5f862", "pmid_31178084"], "risk_level": "high"}],
+        "exposure": [{"text": "Wrist flexion brings the proximal scaphoid into view and provides direct access to the proximal pole and scapholunate interval for reduction, grafting, or antegrade fixation.", "source_ids": ["ao_32bbc0733bb5f862", "pmid_31178084"]}],
+        "limitations": [{"text": "The distal tubercle and volar waist are less directly visualized, and dorsal dissection may threaten the already-limited blood supply of a proximal fragment if performed aggressively.", "source_ids": ["ao_32bbc0733bb5f862", "pmid_31178084"]}],
+        "extensions": [{"text": "The capsular exposure may be extended toward the scapholunate interval when ligament assessment or repair is required while preserving the dorsal intercarpal ligament and vascular attachments.", "source_ids": ["ao_32bbc0733bb5f862", "pmid_31178084"]}],
+        "indications": [{"text": "Use dorsal access for proximal-pole scaphoid fractures, selected nonunions requiring proximal visualization, associated complete scapholunate injury, or an antegrade central screw trajectory.", "source_ids": ["ao_32bbc0733bb5f862", "pmid_31178084", "pmid_29253617"]}],
+        "relative_contraindications": [{"text": "Favor a palmar route when pathology is centered at the distal pole or volar waist, when volar deformity correction is required, or when dorsal soft tissue is compromised.", "source_ids": ["ao_32bbc0733bb5f862", "pmid_31178084"]}],
+        "implant_implications": [{"text": "Dorsal access supports antegrade guidewire and screw insertion from the proximal pole; choose the entry point and trajectory to maximize central purchase without violating the scapholunate ligament or articular surfaces.", "source_ids": ["ao_32bbc0733bb5f862", "pmid_29253617"], "risk_level": "high"}],
+        "fluoroscopy_implications": [{"text": "Confirm a central scaphoid-axis trajectory, fracture compression, screw depth, and absence of radiocarpal or midcarpal penetration on multiple orthogonal and oblique views.", "source_ids": ["ao_32bbc0733bb5f862", "pmid_29253617"], "risk_level": "high"}],
+        "closure": [{"text": "Repair the dorsal capsule, restore the third-compartment retinaculum without constricting EPL, and leave EPL superficial to the repaired retinaculum if necessary to avoid tethering.", "source_ids": ["ao_32bbc0733bb5f862", "pmid_31178084"], "risk_level": "high"}],
+        "complications": [{"text": "Complications include injury to dorsal scaphoid perfusion, nonunion or osteonecrosis, EPL irritation or rupture, sensory neurapraxia, stiffness, scapholunate injury, and intra-articular hardware.", "source_ids": ["ao_32bbc0733bb5f862", "pmid_31178084", "pmid_29253617"], "risk_level": "high"}],
+        "bailouts": [{"text": "If reduction, graft placement, or a safe central trajectory cannot be achieved dorsally, stop repeated passes and convert to the planned palmar exposure or combined strategy appropriate to the fracture.", "source_ids": ["ao_32bbc0733bb5f862", "pmid_31178084"], "risk_level": "high"}],
+        "questions": [
+          {"question": "Which extensor compartment is opened in the dorsal scaphoid approach?", "answer": "The third compartment over extensor pollicis longus.", "source_ids": ["ao_32bbc0733bb5f862", "pmid_31178084"]},
+          {"question": "Why should tissue along the dorsal scaphoid ridge be preserved?", "answer": "It carries important vascular supply to the scaphoid, particularly the proximal pole.", "source_ids": ["ao_32bbc0733bb5f862", "pmid_31178084"]},
+          {"question": "What wrist position improves proximal-pole visualization?", "answer": "Flexion of the wrist.", "source_ids": ["ao_32bbc0733bb5f862"]}
+        ]
+      }
+    },
+    {
+      "approach_id": "scaphoid_palmar_open",
+      "name": "Palmar open approach to the scaphoid",
+      "aliases": ["volar scaphoid approach", "palmar FCR scaphoid exposure", "retrograde scaphoid approach"],
+      "region": "palmar radial wrist and scaphoid",
+      "joint": "scaphotrapeziotrapezoid and radiocarpal joints",
+      "bones": ["scaphoid", "trapezium", "distal radius"],
+      "corridor": "Palmar FCR-based corridor through the volar capsule and STT interval to the distal pole and waist of the scaphoid",
+      "sources": [
+        {"source_id": "ao_dc6bc7e8e0df7932", "provider": "AO Surgery Reference", "title": "Palmar approach to the scaphoid", "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/carpal-bones/approach/palmar-approach-to-the-scaphoid", "source_page_id": "ao_dc6bc7e8e0df7932"},
+        {"source_id": "pmid_40317171", "provider": "PubMed", "title": "Quantitative comparison of surgical exposure through dorsal and volar scaphoid approaches", "url": "https://pubmed.ncbi.nlm.nih.gov/40317171/"},
+        {"source_id": "pmid_29253617", "provider": "PubMed", "title": "Comparison of dorsal and volar percutaneous screw trajectories for scaphoid fracture fixation", "url": "https://pubmed.ncbi.nlm.nih.gov/29253617/"}
+      ],
+      "procedure_applications": [
+        {"procedure_id": "scaphoid_fracture_orif", "relationship": "primary_option", "condition": "A waist or distal-two-thirds fracture requires direct reduction, volar deformity correction, grafting, or retrograde fixation"}
+      ],
+      "sections": {
+        "positioning": [{"text": "Position supine with the arm on a radiolucent hand table and the forearm supinated; allow controlled wrist extension over a bolster for distal-pole access.", "source_ids": ["ao_dc6bc7e8e0df7932", "pmid_40317171"]}],
+        "setup": [{"text": "Prepare the entire hand and forearm, have fine retractors and graft instruments available, and confirm that scaphoid-axis and orthogonal fluoroscopic views are obtainable.", "source_ids": ["ao_dc6bc7e8e0df7932", "pmid_29253617"]}],
+        "surface_landmarks": [{"text": "Mark the FCR tendon, scaphoid tubercle, radial styloid, and STT joint.", "source_ids": ["ao_dc6bc7e8e0df7932", "pmid_40317171"]}],
+        "incision": [{"text": "Begin longitudinally over the distal FCR and angle toward the scaphoid tubercle and STT joint; a zigzag configuration may reduce contracture across the wrist crease.", "source_ids": ["ao_dc6bc7e8e0df7932", "pmid_40317171"]}],
+        "superficial_interval": [{"text": "Control any superficial palmar branch of the radial artery, open the FCR sheath, and retract FCR ulnarly while protecting the palmar cutaneous nerve and radial neurovascular structures.", "source_ids": ["ao_dc6bc7e8e0df7932", "pmid_40317171"], "risk_level": "high"}],
+        "deep_interval": [{"text": "Open the palmar capsule obliquely from the scaphoid tubercle toward the palmar radius, preserving radioscaphocapitate and long radiolunate ligament tissue whenever exposure permits.", "source_ids": ["ao_dc6bc7e8e0df7932", "pmid_40317171"], "risk_level": "high"}],
+        "layers": [{"text": "Skin and subcutaneous tissue, FCR sheath, protected tendon and neurovascular branches, palmar capsule and extrinsic ligaments, STT interval, then distal scaphoid and waist.", "source_ids": ["ao_dc6bc7e8e0df7932", "pmid_40317171"]}],
+        "structures_encountered": [{"text": "FCR tendon, superficial palmar radial artery branch, thenar origin, radioscaphocapitate and long radiolunate ligaments, STT joint, scaphoid tubercle, and waist define the field.", "source_ids": ["ao_dc6bc7e8e0df7932", "pmid_40317171"]}],
+        "structures_at_risk": [{"text": "The radial artery and palmar branches, palmar cutaneous sensory nerves, FCR tendon, extrinsic palmar ligaments, scaphoid blood supply, and STT cartilage are at risk.", "source_ids": ["ao_dc6bc7e8e0df7932", "pmid_40317171"], "risk_level": "high"}],
+        "danger_zones": [{"text": "Avoid indiscriminate division of the radioscaphocapitate and long radiolunate ligaments; unrepaired palmar ligament injury can permit carpal instability or palmar scaphoid tilt.", "source_ids": ["ao_dc6bc7e8e0df7932", "pmid_40317171"], "risk_level": "high"}],
+        "retraction_hazards": [{"text": "Use gentle intermittent retraction around the radial artery, FCR, and palmar cutaneous tissues, and do not lever forcefully on the STT cartilage to improve visualization.", "source_ids": ["ao_dc6bc7e8e0df7932", "pmid_40317171"], "risk_level": "high"}],
+        "exposure": [{"text": "Provides broad direct visualization of the distal pole and waist, with access for reduction, correction of humpback deformity, graft placement, and retrograde fixation.", "source_ids": ["ao_dc6bc7e8e0df7932", "pmid_40317171"]}],
+        "limitations": [{"text": "The proximal pole is less directly visualized; gaining proximal access requires more extensive capsuloligamentous release and may still provide an inferior trajectory for some proximal fractures.", "source_ids": ["ao_dc6bc7e8e0df7932", "pmid_29253617"]}],
+        "extensions": [{"text": "For additional proximal exposure, extend the capsulotomy along the radioscaphocapitate ligament toward the radial styloid and, only as needed, release adjacent long radiolunate tissue with a repair plan.", "source_ids": ["ao_dc6bc7e8e0df7932", "pmid_40317171"], "risk_level": "high"}],
+        "indications": [{"text": "Use the open palmar approach for irreducible or comminuted waist and distal-two-thirds fractures, established deformity or nonunion requiring grafting, and cases needing direct volar reduction.", "source_ids": ["ao_dc6bc7e8e0df7932", "pmid_40317171"]}],
+        "relative_contraindications": [{"text": "A small proximal-pole fragment, a required antegrade central trajectory, or dorsal soft-tissue and scapholunate pathology may be better served by a dorsal approach.", "source_ids": ["ao_dc6bc7e8e0df7932", "pmid_29253617"]}],
+        "implant_implications": [{"text": "Palmar access permits retrograde guidewire and screw placement from the distal pole; select the entry point to avoid the STT joint and obtain central fixation along the scaphoid axis.", "source_ids": ["ao_dc6bc7e8e0df7932", "pmid_29253617"], "risk_level": "high"}],
+        "fluoroscopy_implications": [{"text": "Use PA, lateral, oblique, and dedicated scaphoid-axis views to verify reduction, central wire position, screw length, and absence of STT, radiocarpal, or midcarpal penetration.", "source_ids": ["ao_dc6bc7e8e0df7932", "pmid_29253617"], "risk_level": "high"}],
+        "closure": [{"text": "Repair every divided palmar ligament, close the capsule and FCR sheath without tendon constriction, then close skin without tension across the wrist crease.", "source_ids": ["ao_dc6bc7e8e0df7932", "pmid_40317171"], "risk_level": "high"}],
+        "complications": [{"text": "Complications include radial artery or sensory-nerve injury, FCR irritation, palmar ligament insufficiency and carpal instability, stiffness, nonunion, and intra-articular hardware.", "source_ids": ["ao_dc6bc7e8e0df7932", "pmid_40317171", "pmid_29253617"], "risk_level": "high"}],
+        "bailouts": [{"text": "If proximal visualization or a safe central trajectory remains inadequate, stop repeated blind instrumentation and add or convert to a dorsal exposure according to fracture morphology.", "source_ids": ["ao_dc6bc7e8e0df7932", "pmid_29253617"], "risk_level": "high"}],
+        "questions": [
+          {"question": "Which tendon sheath is opened in the palmar scaphoid approach?", "answer": "The flexor carpi radialis sheath; FCR is retracted ulnarly.", "source_ids": ["ao_dc6bc7e8e0df7932"]},
+          {"question": "Why must divided palmar carpal ligaments be repaired?", "answer": "To restore capsuloligamentous restraint and reduce postoperative carpal instability or palmar scaphoid tilt.", "source_ids": ["ao_dc6bc7e8e0df7932", "pmid_40317171"]},
+          {"question": "Which scaphoid regions are best visualized through the palmar approach?", "answer": "The distal pole and waist.", "source_ids": ["ao_dc6bc7e8e0df7932", "pmid_40317171"]}
+        ]
+      }
+    },
+    {
+      "approach_id": "scaphoid_palmar_minimally_invasive",
+      "name": "Minimally invasive palmar approach to the scaphoid",
+      "aliases": ["percutaneous volar scaphoid approach", "mini-open palmar scaphoid fixation", "retrograde percutaneous scaphoid approach"],
+      "region": "palmar radial wrist and distal scaphoid",
+      "joint": "scaphotrapeziotrapezoid joint",
+      "bones": ["scaphoid", "trapezium"],
+      "corridor": "Small palmar window distal to the STT joint for fluoroscopically guided retrograde guidewire and screw placement",
+      "sources": [
+        {"source_id": "ao_8c3afa0d045a065e", "provider": "AO Surgery Reference", "title": "Minimally invasive palmar approach to the scaphoid", "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/carpal-bones/approach/minimally-invasive-palmar-approach-to-the-scaphoid", "source_page_id": "ao_8c3afa0d045a065e"},
+        {"source_id": "pmid_18656774", "provider": "PubMed", "title": "Percutaneous fixation of scaphoid fractures", "url": "https://pubmed.ncbi.nlm.nih.gov/18656774/"},
+        {"source_id": "pmid_32025352", "provider": "PubMed", "title": "Antegrade versus retrograde percutaneous screw fixation of scaphoid waist fractures", "url": "https://pubmed.ncbi.nlm.nih.gov/32025352/"}
+      ],
+      "procedure_applications": [
+        {"procedure_id": "scaphoid_fracture_orif", "relationship": "conditional_option", "condition": "A reducible, minimally displaced acute waist or selected proximal-third fracture is suitable for closed or percutaneous fixation"}
+      ],
+      "sections": {
+        "positioning": [{"text": "Position supine with the forearm supinated on a radiolucent table and hyperextend the wrist over a bolster to use ligamentotaxis and present the distal scaphoid.", "source_ids": ["ao_8c3afa0d045a065e", "pmid_18656774"]}],
+        "setup": [{"text": "Fluoroscopy is mandatory; confirm that the fracture pattern and reduction are suitable for percutaneous treatment and obtain reproducible orthogonal and scaphoid-axis images before preparing the entry site.", "source_ids": ["ao_8c3afa0d045a065e", "pmid_18656774", "pmid_32025352"], "risk_level": "high"}],
+        "surface_landmarks": [{"text": "Mark the scaphoid tubercle, palmar radial border, FCR, and STT joint, using a needle or temporary wire under fluoroscopy when needed to localize the joint.", "source_ids": ["ao_8c3afa0d045a065e", "pmid_18656774"]}],
+        "incision": [{"text": "Make an approximately 1-cm palmar stab incision just distal to the localized STT joint and enlarge only enough to protect soft tissue and reach the distal scaphoid capsule.", "source_ids": ["ao_8c3afa0d045a065e", "pmid_18656774"]}],
+        "superficial_interval": [{"text": "Bluntly dissect through subcutaneous tissue while protecting superficial radial and palmar cutaneous sensory branches and avoiding the FCR and radial artery.", "source_ids": ["ao_8c3afa0d045a065e", "pmid_18656774"], "risk_level": "high"}],
+        "deep_interval": [{"text": "Open the capsule sufficiently to identify or palpate the distal scaphoid entry point, then maintain a protected soft-tissue sleeve for guidewire drilling and screw insertion.", "source_ids": ["ao_8c3afa0d045a065e", "pmid_18656774"], "risk_level": "high"}],
+        "layers": [{"text": "Skin and subcutaneous tissue, protected neurovascular and tendon structures, small capsular window at the STT interval, then distal scaphoid entry point.", "source_ids": ["ao_8c3afa0d045a065e", "pmid_18656774"]}],
+        "structures_encountered": [{"text": "Palmar sensory branches, FCR and radial artery territory, STT capsule and cartilage, scaphoid tubercle, and distal scaphoid define the limited corridor.", "source_ids": ["ao_8c3afa0d045a065e", "pmid_18656774"]}],
+        "structures_at_risk": [{"text": "Palmar cutaneous and superficial radial sensory branches, FCR, radial artery branches, STT cartilage, and scaphoid articular surfaces are at risk from incision or repeated wire passes.", "source_ids": ["ao_8c3afa0d045a065e", "pmid_18656774"], "risk_level": "high"}],
+        "danger_zones": [{"text": "Do not accept a wire that is eccentric or crosses an unintended joint, and do not repeatedly redirect a wire through unprotected soft tissue because tendon, nerve, and cartilage injury may be occult.", "source_ids": ["ao_8c3afa0d045a065e", "pmid_18656774"], "risk_level": "high"}],
+        "retraction_hazards": [{"text": "Keep retraction minimal; use a cannula or drill guide as a soft-tissue protector and avoid levering the small incision against FCR, sensory branches, or the STT joint.", "source_ids": ["ao_8c3afa0d045a065e", "pmid_18656774"], "risk_level": "high"}],
+        "exposure": [{"text": "Provides limited access to the distal scaphoid entry point for retrograde fixation while preserving most capsular and ligamentous attachments.", "source_ids": ["ao_8c3afa0d045a065e", "pmid_18656774"]}],
+        "limitations": [{"text": "The fracture, reduction surfaces, deformity, and graft bed are not directly visualized; success depends on a reducible pattern, reliable imaging, and precise wire control.", "source_ids": ["ao_8c3afa0d045a065e", "pmid_18656774", "pmid_32025352"]}],
+        "extensions": [{"text": "If direct reduction or grafting becomes necessary, extend in a controlled fashion into the formal palmar FCR-based scaphoid approach rather than enlarging the stab incision blindly.", "source_ids": ["ao_8c3afa0d045a065e", "pmid_18656774"], "risk_level": "high"}],
+        "indications": [{"text": "Consider this approach for an acute, reducible, minimally displaced scaphoid waist fracture and selected proximal-third fractures when percutaneous retrograde fixation can achieve a safe central trajectory.", "source_ids": ["ao_8c3afa0d045a065e", "pmid_18656774", "pmid_32025352"]}],
+        "relative_contraindications": [{"text": "Do not rely on this limited approach for irreducible displacement, comminution needing direct reduction, humpback deformity, established nonunion requiring graft preparation, or a proximal fragment that cannot safely accept retrograde fixation.", "source_ids": ["ao_8c3afa0d045a065e", "pmid_18656774", "pmid_32025352"]}],
+        "implant_implications": [{"text": "Insert a headless compression screw retrograde over a protected guidewire, choosing an entry and trajectory that maximize central bone purchase without damaging the STT joint.", "source_ids": ["ao_8c3afa0d045a065e", "pmid_18656774", "pmid_32025352"], "risk_level": "high"}],
+        "fluoroscopy_implications": [{"text": "Continuously verify reduction and wire trajectory on multiple views, measure screw length accurately, countersink beneath cartilage, and confirm that neither wire nor screw penetrates the STT, radiocarpal, or midcarpal joint.", "source_ids": ["ao_8c3afa0d045a065e", "pmid_18656774", "pmid_32025352"], "risk_level": "high"}],
+        "closure": [{"text": "Remove the soft-tissue guide, inspect the small capsular and skin wounds, achieve hemostasis, and close without trapping a sensory branch or tethering FCR.", "source_ids": ["ao_8c3afa0d045a065e", "pmid_18656774"], "risk_level": "high"}],
+        "complications": [{"text": "Complications include malreduction, eccentric or short fixation, joint penetration, sensory or tendon injury, nonunion, hardware prominence, stiffness, and radiation exposure.", "source_ids": ["ao_8c3afa0d045a065e", "pmid_18656774", "pmid_32025352"], "risk_level": "high"}],
+        "bailouts": [{"text": "If reduction is lost, imaging is equivocal, or a central wire cannot be placed safely, stop repeated percutaneous attempts and convert to the fracture-appropriate open palmar or dorsal exposure.", "source_ids": ["ao_8c3afa0d045a065e", "pmid_18656774", "pmid_32025352"], "risk_level": "high"}],
+        "questions": [
+          {"question": "What is the essential enabling technology for minimally invasive palmar scaphoid fixation?", "answer": "Reliable multiplanar fluoroscopy.", "source_ids": ["ao_8c3afa0d045a065e", "pmid_18656774"]},
+          {"question": "What wrist position helps present the distal scaphoid?", "answer": "Hyperextension over a bolster.", "source_ids": ["ao_8c3afa0d045a065e"]},
+          {"question": "When should a percutaneous attempt be converted to open exposure?", "answer": "When reduction is inadequate, imaging is uncertain, or a safe central guidewire trajectory cannot be obtained.", "source_ids": ["ao_8c3afa0d045a065e", "pmid_18656774"]}
+        ]
+      }
+    }
+  ]
+}

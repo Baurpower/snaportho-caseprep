@@ -1,0 +1,461 @@
+{
+  "schema_version": "brobot_approach_packet_v1",
+  "approach_id": "distal_radius_radial_styloid_direct",
+  "name": "Direct dorsal-radial approach to the radial styloid",
+  "aliases": [
+    "radial styloid approach",
+    "anatomic snuffbox approach"
+  ],
+  "region": "dorsoradial wrist",
+  "joint": "wrist",
+  "bones": [
+    "radial styloid",
+    "distal radius",
+    "scaphoid"
+  ],
+  "corridor": "Anatomic-snuffbox exposure between the first and second extensor compartments",
+  "positioning": [
+    {
+      "text": "Position supine with the arm on a radiolucent hand table, forearm pronated or neutral, and wrist freely imageable.",
+      "claim_ids": [
+        "distal_radius_radial_styloid_direct_positioning_01"
+      ]
+    }
+  ],
+  "setup": [
+    {
+      "text": "Map the styloid fragment and planned screw or plate trajectory; prepare magnification and vessel loops for superficial radial nerve and radial artery protection.",
+      "claim_ids": [
+        "distal_radius_radial_styloid_direct_setup_01"
+      ]
+    }
+  ],
+  "surface_landmarks": [
+    {
+      "text": "Mark EPL, EPB, APL, the anatomic snuffbox, radial styloid tip, and radial artery pulse.",
+      "claim_ids": [
+        "distal_radius_radial_styloid_direct_surface_landmarks_01"
+      ]
+    }
+  ],
+  "incision": [
+    {
+      "text": "Make a straight incision centered over the anatomic snuffbox and extend proximally or distally only as fracture access requires.",
+      "claim_ids": [
+        "distal_radius_radial_styloid_direct_incision_01"
+      ]
+    }
+  ],
+  "superficial_interval": [
+    {
+      "text": "Raise skin-subcutaneous flaps bluntly from retinaculum while identifying and protecting every superficial radial nerve branch.",
+      "claim_ids": [
+        "distal_radius_radial_styloid_direct_superficial_interval_01"
+      ]
+    }
+  ],
+  "deep_interval": [
+    {
+      "text": "Protect the radial artery across the snuffbox floor, then sharply expose the styloid and elevate first or second compartments only as necessary.",
+      "claim_ids": [
+        "distal_radius_radial_styloid_direct_deep_interval_01"
+      ]
+    }
+  ],
+  "layers": [
+    {
+      "text": "Skin, subcutaneous sensory-nerve plane, extensor retinaculum and compartment interval, periosteum, then radial styloid.",
+      "claim_ids": [
+        "distal_radius_radial_styloid_direct_layers_01"
+      ]
+    }
+  ],
+  "structures_encountered": [
+    {
+      "text": "Superficial radial nerve branches, APL, EPB, EPL, radial artery, snuffbox capsule, and styloid fragment are encountered.",
+      "claim_ids": [
+        "distal_radius_radial_styloid_direct_structures_encountered_01"
+      ]
+    }
+  ],
+  "structures_at_risk": [
+    {
+      "text": "Superficial radial nerve, radial artery, first- and second-compartment tendons, scapholunate structures, and articular cartilage are at risk.",
+      "claim_ids": [
+        "distal_radius_radial_styloid_direct_structures_at_risk_01"
+      ]
+    }
+  ],
+  "danger_zones": [
+    {
+      "text": "The radial artery crosses the snuffbox floor and sensory branches cross unpredictably in the superficial plane; neither may be treated as a fixed landmark.",
+      "claim_ids": [
+        "distal_radius_radial_styloid_direct_danger_zones_01"
+      ]
+    }
+  ],
+  "retraction_hazards": [
+    {
+      "text": "Avoid sustained traction on nerve branches or artery and protect extensor tendons from sharp retractors and hardware.",
+      "claim_ids": [
+        "distal_radius_radial_styloid_direct_retraction_hazards_01"
+      ]
+    }
+  ],
+  "exposure": [
+    {
+      "text": "Provides direct access to the radial styloid and radial column for reduction, lag screws, or fragment-specific plating.",
+      "claim_ids": [
+        "distal_radius_radial_styloid_direct_exposure_01"
+      ]
+    }
+  ],
+  "limitations": [
+    {
+      "text": "Does not expose central, volar-ulnar, or dorsal-ulnar fragments adequately and is unsuitable as the sole approach for complex complete-articular patterns.",
+      "claim_ids": [
+        "distal_radius_radial_styloid_direct_limitations_01"
+      ]
+    }
+  ],
+  "extensions": [
+    {
+      "text": "Mobilize the first or second extensor compartment or add a separate volar or dorsal approach for other columns rather than stretching the radial corridor.",
+      "claim_ids": [
+        "distal_radius_radial_styloid_direct_extensions_01"
+      ]
+    }
+  ],
+  "indications": [
+    {
+      "text": "Use for isolated radial-styloid and radial-column fractures needing direct fragment-specific control.",
+      "claim_ids": [
+        "distal_radius_radial_styloid_direct_indications_01"
+      ]
+    }
+  ],
+  "relative_contraindications": [
+    {
+      "text": "Avoid as an isolated approach when comminution extends beyond the radial column or the snuffbox soft tissues are compromised.",
+      "claim_ids": [
+        "distal_radius_radial_styloid_direct_relative_contraindications_01"
+      ]
+    }
+  ],
+  "implant_implications": [
+    {
+      "text": "Place screws or plate under direct visualization while avoiding radiocarpal penetration and irritation of first- or second-compartment tendons.",
+      "claim_ids": [
+        "distal_radius_radial_styloid_direct_implant_implications_01"
+      ]
+    }
+  ],
+  "fluoroscopy_implications": [
+    {
+      "text": "Use PA, lateral, oblique, and tangential views to verify styloid reduction, screw length, and joint containment.",
+      "claim_ids": [
+        "distal_radius_radial_styloid_direct_fluoroscopy_implications_01"
+      ]
+    }
+  ],
+  "closure": [
+    {
+      "text": "Confirm artery flow and tendon glide, repair retinacular tissue as needed, and close without trapping superficial radial nerve branches.",
+      "claim_ids": [
+        "distal_radius_radial_styloid_direct_closure_01"
+      ]
+    }
+  ],
+  "complications": [
+    {
+      "text": "Complications include radial sensory neuritis or neuroma, radial-artery injury, tendon irritation or rupture, joint penetration, stiffness, and symptomatic hardware.",
+      "claim_ids": [
+        "distal_radius_radial_styloid_direct_complications_01"
+      ]
+    }
+  ],
+  "bailouts": [
+    {
+      "text": "Add a column-specific exposure if reduction remains unseen; do not enlarge blindly around the radial artery or sensory nerve branches.",
+      "claim_ids": [
+        "distal_radius_radial_styloid_direct_bailouts_01"
+      ]
+    }
+  ],
+  "procedure_applications": [
+    {
+      "procedure_id": "distal_radius_fracture_orif",
+      "relationship": "conditional_option",
+      "condition": "An isolated radial-styloid or radial-column fragment requires direct reduction and fragment-specific fixation"
+    }
+  ],
+  "questions": [
+    {
+      "question": "What forms the snuffbox boundaries?",
+      "answer": "EPL dorsally and APL/EPB volarly, with the radial styloid and scaphoid in the floor.",
+      "claim_ids": [
+        "distal_radius_radial_styloid_direct_questions_01"
+      ]
+    },
+    {
+      "question": "Which two structures require explicit protection?",
+      "answer": "The superficial radial nerve branches and radial artery.",
+      "claim_ids": [
+        "distal_radius_radial_styloid_direct_questions_02"
+      ]
+    },
+    {
+      "question": "Which compartments may be elevated?",
+      "answer": "The first and second extensor compartments.",
+      "claim_ids": [
+        "distal_radius_radial_styloid_direct_questions_03"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "distal_radius_radial_styloid_direct_positioning_01",
+      "text": "Position supine with the arm on a radiolucent hand table, forearm pronated or neutral, and wrist freely imageable.",
+      "source_ids": [
+        "ao_8943568928178818",
+        "pmid_27833358"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "distal_radius_radial_styloid_direct_setup_01",
+      "text": "Map the styloid fragment and planned screw or plate trajectory; prepare magnification and vessel loops for superficial radial nerve and radial artery protection.",
+      "source_ids": [
+        "ao_8943568928178818",
+        "pmid_27833358"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "distal_radius_radial_styloid_direct_surface_landmarks_01",
+      "text": "Mark EPL, EPB, APL, the anatomic snuffbox, radial styloid tip, and radial artery pulse.",
+      "source_ids": [
+        "ao_8943568928178818"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "distal_radius_radial_styloid_direct_incision_01",
+      "text": "Make a straight incision centered over the anatomic snuffbox and extend proximally or distally only as fracture access requires.",
+      "source_ids": [
+        "ao_8943568928178818",
+        "pmid_27833358"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "distal_radius_radial_styloid_direct_superficial_interval_01",
+      "text": "Raise skin-subcutaneous flaps bluntly from retinaculum while identifying and protecting every superficial radial nerve branch.",
+      "source_ids": [
+        "ao_8943568928178818",
+        "pmid_27833358"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "distal_radius_radial_styloid_direct_deep_interval_01",
+      "text": "Protect the radial artery across the snuffbox floor, then sharply expose the styloid and elevate first or second compartments only as necessary.",
+      "source_ids": [
+        "ao_8943568928178818",
+        "pmid_27833358"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "distal_radius_radial_styloid_direct_layers_01",
+      "text": "Skin, subcutaneous sensory-nerve plane, extensor retinaculum and compartment interval, periosteum, then radial styloid.",
+      "source_ids": [
+        "ao_8943568928178818"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "distal_radius_radial_styloid_direct_structures_encountered_01",
+      "text": "Superficial radial nerve branches, APL, EPB, EPL, radial artery, snuffbox capsule, and styloid fragment are encountered.",
+      "source_ids": [
+        "ao_8943568928178818"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "distal_radius_radial_styloid_direct_structures_at_risk_01",
+      "text": "Superficial radial nerve, radial artery, first- and second-compartment tendons, scapholunate structures, and articular cartilage are at risk.",
+      "source_ids": [
+        "ao_8943568928178818",
+        "pmid_27833358"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "distal_radius_radial_styloid_direct_danger_zones_01",
+      "text": "The radial artery crosses the snuffbox floor and sensory branches cross unpredictably in the superficial plane; neither may be treated as a fixed landmark.",
+      "source_ids": [
+        "ao_8943568928178818",
+        "pmid_27833358"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "distal_radius_radial_styloid_direct_retraction_hazards_01",
+      "text": "Avoid sustained traction on nerve branches or artery and protect extensor tendons from sharp retractors and hardware.",
+      "source_ids": [
+        "ao_8943568928178818",
+        "pmid_27833358"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "distal_radius_radial_styloid_direct_exposure_01",
+      "text": "Provides direct access to the radial styloid and radial column for reduction, lag screws, or fragment-specific plating.",
+      "source_ids": [
+        "ao_8943568928178818",
+        "pmid_27833358"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "distal_radius_radial_styloid_direct_limitations_01",
+      "text": "Does not expose central, volar-ulnar, or dorsal-ulnar fragments adequately and is unsuitable as the sole approach for complex complete-articular patterns.",
+      "source_ids": [
+        "ao_8943568928178818",
+        "pmid_27833358"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "distal_radius_radial_styloid_direct_extensions_01",
+      "text": "Mobilize the first or second extensor compartment or add a separate volar or dorsal approach for other columns rather than stretching the radial corridor.",
+      "source_ids": [
+        "ao_8943568928178818",
+        "pmid_27833358"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "distal_radius_radial_styloid_direct_indications_01",
+      "text": "Use for isolated radial-styloid and radial-column fractures needing direct fragment-specific control.",
+      "source_ids": [
+        "ao_8943568928178818",
+        "pmid_27833358"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "distal_radius_radial_styloid_direct_relative_contraindications_01",
+      "text": "Avoid as an isolated approach when comminution extends beyond the radial column or the snuffbox soft tissues are compromised.",
+      "source_ids": [
+        "ao_8943568928178818",
+        "pmid_27833358"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "distal_radius_radial_styloid_direct_implant_implications_01",
+      "text": "Place screws or plate under direct visualization while avoiding radiocarpal penetration and irritation of first- or second-compartment tendons.",
+      "source_ids": [
+        "ao_8943568928178818",
+        "pmid_27833358"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "distal_radius_radial_styloid_direct_fluoroscopy_implications_01",
+      "text": "Use PA, lateral, oblique, and tangential views to verify styloid reduction, screw length, and joint containment.",
+      "source_ids": [
+        "ao_8943568928178818",
+        "pmid_27833358"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "distal_radius_radial_styloid_direct_closure_01",
+      "text": "Confirm artery flow and tendon glide, repair retinacular tissue as needed, and close without trapping superficial radial nerve branches.",
+      "source_ids": [
+        "ao_8943568928178818",
+        "pmid_27833358"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "distal_radius_radial_styloid_direct_complications_01",
+      "text": "Complications include radial sensory neuritis or neuroma, radial-artery injury, tendon irritation or rupture, joint penetration, stiffness, and symptomatic hardware.",
+      "source_ids": [
+        "ao_8943568928178818",
+        "pmid_27833358"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "distal_radius_radial_styloid_direct_bailouts_01",
+      "text": "Add a column-specific exposure if reduction remains unseen; do not enlarge blindly around the radial artery or sensory nerve branches.",
+      "source_ids": [
+        "ao_8943568928178818",
+        "pmid_27833358"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "distal_radius_radial_styloid_direct_questions_01",
+      "text": "What forms the snuffbox boundaries?",
+      "source_ids": [
+        "ao_8943568928178818"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "distal_radius_radial_styloid_direct_questions_02",
+      "text": "Which two structures require explicit protection?",
+      "source_ids": [
+        "ao_8943568928178818"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "distal_radius_radial_styloid_direct_questions_03",
+      "text": "Which compartments may be elevated?",
+      "source_ids": [
+        "ao_8943568928178818"
+      ],
+      "risk_level": "medium"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "ao_8943568928178818",
+      "provider": "AO Surgery Reference",
+      "title": "Direct Approach To The Radial Styloid",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/distal-forearm/approach/direct-approach-to-the-radial-styloid",
+      "source_page_id": "ao_8943568928178818"
+    },
+    {
+      "source_id": "pmid_27833358",
+      "provider": "PubMed",
+      "title": "Anatomic considerations when performing the modified Henry approach for exposure of distal radius fractures",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/27833358/"
+    }
+  ],
+  "content_status": "agent_review_pending",
+  "review": {
+    "status": "agent_review_pending",
+    "required_roles": [
+      "adversarial_safety_reviewer",
+      "approach_anatomy_reviewer",
+      "educational_value_reviewer",
+      "evidence_reviewer",
+      "operative_exposure_reviewer",
+      "procedure_applicability_reviewer"
+    ],
+    "completed_roles": []
+  },
+  "resolved_contradiction_keys": [],
+  "authoring_provenance": {
+    "method": "local_codex_curated",
+    "definition_file": "data/approach_library/curated/adult_distal_radius_core_approaches_v1.json",
+    "api_used": false
+  }
+}

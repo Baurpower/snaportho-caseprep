@@ -1,0 +1,466 @@
+{
+  "schema_version": "brobot_approach_packet_v1",
+  "approach_id": "distal_femur_lateral_mipo",
+  "name": "Lateral MIPO approach to the distal femur",
+  "aliases": [
+    "distal femur MIPO",
+    "minimally invasive lateral plating"
+  ],
+  "region": "lateral distal thigh and femur",
+  "joint": "knee",
+  "bones": [
+    "distal femur",
+    "femoral shaft"
+  ],
+  "corridor": "Short distal lateral window, sub-vastus-lateralis plate tunnel, proximal window, and percutaneous screw portals",
+  "positioning": [
+    {
+      "text": "Position supine on a radiolucent table with the knee flexed enough for reduction and unobstructed full-length AP and lateral imaging.",
+      "claim_ids": [
+        "distal_femur_lateral_mipo_positioning_01"
+      ]
+    }
+  ],
+  "setup": [
+    {
+      "text": "Template plate length, reduction aids, distal and proximal windows, and every percutaneous screw trajectory before tunneling; prepare to enlarge the exposure if reduction is unacceptable.",
+      "claim_ids": [
+        "distal_femur_lateral_mipo_setup_01"
+      ]
+    }
+  ],
+  "surface_landmarks": [
+    {
+      "text": "Mark lateral epicondyle, joint line, patella, Gerdy tubercle, femoral shaft axis, and greater trochanter.",
+      "claim_ids": [
+        "distal_femur_lateral_mipo_surface_landmarks_01"
+      ]
+    }
+  ],
+  "incision": [
+    {
+      "text": "Use a shortened distal lateral incision beginning in the metaphyseal region; extend to Gerdy tubercle only when arthrotomy is required, plus a proximal window and 1-1.5 cm screw portals.",
+      "claim_ids": [
+        "distal_femur_lateral_mipo_incision_01"
+      ]
+    }
+  ],
+  "superficial_interval": [
+    {
+      "text": "Split iliotibial band with its fibers distally and open fascia lata and vastus-lateralis fascia through the proximal window.",
+      "claim_ids": [
+        "distal_femur_lateral_mipo_superficial_interval_01"
+      ]
+    }
+  ],
+  "deep_interval": [
+    {
+      "text": "Leave vastus lateralis largely undisturbed, create a submuscular extraperiosteal tunnel, slide the plate along lateral femur, and bluntly split proximal muscle fibers only for plate control.",
+      "claim_ids": [
+        "distal_femur_lateral_mipo_deep_interval_01"
+      ]
+    }
+  ],
+  "layers": [
+    {
+      "text": "Skin, subcutaneous tissue, iliotibial band or fascia lata, vastus-lateralis fascia and fibers at windows, submuscular plane, then lateral femur.",
+      "claim_ids": [
+        "distal_femur_lateral_mipo_layers_01"
+      ]
+    }
+  ],
+  "structures_encountered": [
+    {
+      "text": "Iliotibial band, vastus lateralis, lateral genicular branches, lateral capsule when opened, and lateral femoral cortex are encountered.",
+      "claim_ids": [
+        "distal_femur_lateral_mipo_structures_encountered_01"
+      ]
+    }
+  ],
+  "structures_at_risk": [
+    {
+      "text": "Superior lateral genicular vessels, profunda perforators proximally, periosteal blood supply, patellar tendon, lateral meniscus, and posterior neurovascular structures are at risk.",
+      "claim_ids": [
+        "distal_femur_lateral_mipo_structures_at_risk_01"
+      ]
+    }
+  ],
+  "danger_zones": [
+    {
+      "text": "Do not pass the plate, drill, or retractors blindly off bone posteriorly; maintain bony contact and controlled depth throughout tunneling and screw placement.",
+      "claim_ids": [
+        "distal_femur_lateral_mipo_danger_zones_01"
+      ]
+    }
+  ],
+  "retraction_hazards": [
+    {
+      "text": "Avoid excessive patellar-tendon tension during arthrotomy and avoid posterior Hohmann placement beyond direct bony control.",
+      "claim_ids": [
+        "distal_femur_lateral_mipo_retraction_hazards_01"
+      ]
+    }
+  ],
+  "exposure": [
+    {
+      "text": "Provides distal reduction and plate control while preserving the intervening muscle and fracture biology; optional limited arthrotomy visualizes the joint.",
+      "claim_ids": [
+        "distal_femur_lateral_mipo_exposure_01"
+      ]
+    }
+  ],
+  "limitations": [
+    {
+      "text": "Indirect visualization increases malalignment and malposition risk; complex articular reduction must be completed directly before bridge plating.",
+      "claim_ids": [
+        "distal_femur_lateral_mipo_limitations_01"
+      ]
+    }
+  ],
+  "extensions": [
+    {
+      "text": "Lengthen the distal window for arthrotomy, enlarge proximal or screw windows, or convert to open lateral/parapatellar exposure when reduction or plate position cannot be verified.",
+      "claim_ids": [
+        "distal_femur_lateral_mipo_extensions_01"
+      ]
+    }
+  ],
+  "indications": [
+    {
+      "text": "Use for extra-articular, metaphyseal, and selected reconstructed intra-articular distal-femur fractures suited to biological bridge plating.",
+      "claim_ids": [
+        "distal_femur_lateral_mipo_indications_01"
+      ]
+    }
+  ],
+  "relative_contraindications": [
+    {
+      "text": "Avoid as a purely percutaneous strategy when articular reduction, debridement, vascular repair, or alignment cannot be obtained and confirmed indirectly.",
+      "claim_ids": [
+        "distal_femur_lateral_mipo_relative_contraindications_01"
+      ]
+    }
+  ],
+  "implant_implications": [
+    {
+      "text": "Center a sufficiently long lateral plate distally and proximally before sequential fixation; preserve working length and verify every percutaneous screw path.",
+      "claim_ids": [
+        "distal_femur_lateral_mipo_implant_implications_01"
+      ]
+    }
+  ],
+  "fluoroscopy_implications": [
+    {
+      "text": "Confirm length, rotation, mechanical axis, condylar width, plate centering, and screw containment on full-length AP, lateral, and oblique views before locking the construct.",
+      "claim_ids": [
+        "distal_femur_lateral_mipo_fluoroscopy_implications_01"
+      ]
+    }
+  ],
+  "closure": [
+    {
+      "text": "Repair any arthrotomy and close iliotibial band or fascia at every window, then close subcutaneous tissue and skin.",
+      "claim_ids": [
+        "distal_femur_lateral_mipo_closure_01"
+      ]
+    }
+  ],
+  "complications": [
+    {
+      "text": "Complications include malalignment, plate or screw malposition, neurovascular injury, nonunion, infection, stiffness, and fixation failure.",
+      "claim_ids": [
+        "distal_femur_lateral_mipo_complications_01"
+      ]
+    }
+  ],
+  "bailouts": [
+    {
+      "text": "If indirect reduction or implant placement remains uncertain, enlarge or convert the approach and obtain direct control rather than accepting an unverified construct.",
+      "claim_ids": [
+        "distal_femur_lateral_mipo_bailouts_01"
+      ]
+    }
+  ],
+  "procedure_applications": [
+    {
+      "procedure_id": "distal_femur_fracture_orif",
+      "relationship": "primary_option",
+      "condition": "A bridge-plating strategy can preserve the metaphyseal soft-tissue envelope while indirect reduction restores length, alignment, and rotation"
+    }
+  ],
+  "questions": [
+    {
+      "question": "Where is the plate passed?",
+      "answer": "In the natural submuscular plane beneath vastus lateralis.",
+      "claim_ids": [
+        "distal_femur_lateral_mipo_questions_01"
+      ]
+    },
+    {
+      "question": "When is a distal arthrotomy added?",
+      "answer": "When the articular surface requires direct visualization.",
+      "claim_ids": [
+        "distal_femur_lateral_mipo_questions_02"
+      ]
+    },
+    {
+      "question": "What must be confirmed before proximal screws?",
+      "answer": "Central proximal plate position on the femoral shaft.",
+      "claim_ids": [
+        "distal_femur_lateral_mipo_questions_03"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "distal_femur_lateral_mipo_positioning_01",
+      "text": "Position supine on a radiolucent table with the knee flexed enough for reduction and unobstructed full-length AP and lateral imaging.",
+      "source_ids": [
+        "ao_14af295b107767ca",
+        "pmid_42267346"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "distal_femur_lateral_mipo_setup_01",
+      "text": "Template plate length, reduction aids, distal and proximal windows, and every percutaneous screw trajectory before tunneling; prepare to enlarge the exposure if reduction is unacceptable.",
+      "source_ids": [
+        "ao_14af295b107767ca",
+        "pmid_30921821"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "distal_femur_lateral_mipo_surface_landmarks_01",
+      "text": "Mark lateral epicondyle, joint line, patella, Gerdy tubercle, femoral shaft axis, and greater trochanter.",
+      "source_ids": [
+        "ao_14af295b107767ca"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "distal_femur_lateral_mipo_incision_01",
+      "text": "Use a shortened distal lateral incision beginning in the metaphyseal region; extend to Gerdy tubercle only when arthrotomy is required, plus a proximal window and 1-1.5 cm screw portals.",
+      "source_ids": [
+        "ao_14af295b107767ca",
+        "pmid_30921821"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "distal_femur_lateral_mipo_superficial_interval_01",
+      "text": "Split iliotibial band with its fibers distally and open fascia lata and vastus-lateralis fascia through the proximal window.",
+      "source_ids": [
+        "ao_14af295b107767ca",
+        "pmid_30921821"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "distal_femur_lateral_mipo_deep_interval_01",
+      "text": "Leave vastus lateralis largely undisturbed, create a submuscular extraperiosteal tunnel, slide the plate along lateral femur, and bluntly split proximal muscle fibers only for plate control.",
+      "source_ids": [
+        "ao_14af295b107767ca",
+        "pmid_30921821"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "distal_femur_lateral_mipo_layers_01",
+      "text": "Skin, subcutaneous tissue, iliotibial band or fascia lata, vastus-lateralis fascia and fibers at windows, submuscular plane, then lateral femur.",
+      "source_ids": [
+        "ao_14af295b107767ca"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "distal_femur_lateral_mipo_structures_encountered_01",
+      "text": "Iliotibial band, vastus lateralis, lateral genicular branches, lateral capsule when opened, and lateral femoral cortex are encountered.",
+      "source_ids": [
+        "ao_14af295b107767ca"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "distal_femur_lateral_mipo_structures_at_risk_01",
+      "text": "Superior lateral genicular vessels, profunda perforators proximally, periosteal blood supply, patellar tendon, lateral meniscus, and posterior neurovascular structures are at risk.",
+      "source_ids": [
+        "ao_14af295b107767ca",
+        "pmid_30921821"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "distal_femur_lateral_mipo_danger_zones_01",
+      "text": "Do not pass the plate, drill, or retractors blindly off bone posteriorly; maintain bony contact and controlled depth throughout tunneling and screw placement.",
+      "source_ids": [
+        "ao_14af295b107767ca",
+        "pmid_30921821"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "distal_femur_lateral_mipo_retraction_hazards_01",
+      "text": "Avoid excessive patellar-tendon tension during arthrotomy and avoid posterior Hohmann placement beyond direct bony control.",
+      "source_ids": [
+        "ao_14af295b107767ca",
+        "pmid_30921821"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "distal_femur_lateral_mipo_exposure_01",
+      "text": "Provides distal reduction and plate control while preserving the intervening muscle and fracture biology; optional limited arthrotomy visualizes the joint.",
+      "source_ids": [
+        "ao_14af295b107767ca",
+        "pmid_30921821"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "distal_femur_lateral_mipo_limitations_01",
+      "text": "Indirect visualization increases malalignment and malposition risk; complex articular reduction must be completed directly before bridge plating.",
+      "source_ids": [
+        "ao_14af295b107767ca",
+        "pmid_42267346"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "distal_femur_lateral_mipo_extensions_01",
+      "text": "Lengthen the distal window for arthrotomy, enlarge proximal or screw windows, or convert to open lateral/parapatellar exposure when reduction or plate position cannot be verified.",
+      "source_ids": [
+        "ao_14af295b107767ca",
+        "pmid_30921821"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "distal_femur_lateral_mipo_indications_01",
+      "text": "Use for extra-articular, metaphyseal, and selected reconstructed intra-articular distal-femur fractures suited to biological bridge plating.",
+      "source_ids": [
+        "ao_14af295b107767ca",
+        "pmid_42267346"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "distal_femur_lateral_mipo_relative_contraindications_01",
+      "text": "Avoid as a purely percutaneous strategy when articular reduction, debridement, vascular repair, or alignment cannot be obtained and confirmed indirectly.",
+      "source_ids": [
+        "ao_14af295b107767ca",
+        "pmid_30921821"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "distal_femur_lateral_mipo_implant_implications_01",
+      "text": "Center a sufficiently long lateral plate distally and proximally before sequential fixation; preserve working length and verify every percutaneous screw path.",
+      "source_ids": [
+        "ao_14af295b107767ca",
+        "pmid_42267346"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "distal_femur_lateral_mipo_fluoroscopy_implications_01",
+      "text": "Confirm length, rotation, mechanical axis, condylar width, plate centering, and screw containment on full-length AP, lateral, and oblique views before locking the construct.",
+      "source_ids": [
+        "ao_14af295b107767ca",
+        "pmid_42267346"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "distal_femur_lateral_mipo_closure_01",
+      "text": "Repair any arthrotomy and close iliotibial band or fascia at every window, then close subcutaneous tissue and skin.",
+      "source_ids": [
+        "ao_14af295b107767ca",
+        "pmid_30921821"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "distal_femur_lateral_mipo_complications_01",
+      "text": "Complications include malalignment, plate or screw malposition, neurovascular injury, nonunion, infection, stiffness, and fixation failure.",
+      "source_ids": [
+        "ao_14af295b107767ca",
+        "pmid_42267346"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "distal_femur_lateral_mipo_bailouts_01",
+      "text": "If indirect reduction or implant placement remains uncertain, enlarge or convert the approach and obtain direct control rather than accepting an unverified construct.",
+      "source_ids": [
+        "ao_14af295b107767ca",
+        "pmid_30921821"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "distal_femur_lateral_mipo_questions_01",
+      "text": "Where is the plate passed?",
+      "source_ids": [
+        "ao_14af295b107767ca"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "distal_femur_lateral_mipo_questions_02",
+      "text": "When is a distal arthrotomy added?",
+      "source_ids": [
+        "ao_14af295b107767ca"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "distal_femur_lateral_mipo_questions_03",
+      "text": "What must be confirmed before proximal screws?",
+      "source_ids": [
+        "ao_14af295b107767ca"
+      ],
+      "risk_level": "medium"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "ao_14af295b107767ca",
+      "provider": "AO Surgery Reference",
+      "title": "MIPO Approach To The Distal Femur From Lateral Anterolateral",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/distal-femur/approach/mipo-approach-to-the-distal-femur-from-lateral-anterolateral",
+      "source_page_id": "ao_14af295b107767ca"
+    },
+    {
+      "source_id": "pmid_30921821",
+      "provider": "PubMed",
+      "title": "Minimally Invasive Plate Osteosynthesis for Periprosthetic and Interprosthetic Fractures Associated with Knee Arthroplasty",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/30921821/"
+    },
+    {
+      "source_id": "pmid_42267346",
+      "provider": "PubMed",
+      "title": "Current concepts in the treatment of distal femur fractures in adults",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42267346/"
+    }
+  ],
+  "content_status": "agent_review_pending",
+  "review": {
+    "status": "agent_review_pending",
+    "required_roles": [
+      "adversarial_safety_reviewer",
+      "approach_anatomy_reviewer",
+      "educational_value_reviewer",
+      "evidence_reviewer",
+      "operative_exposure_reviewer",
+      "procedure_applicability_reviewer"
+    ],
+    "completed_roles": []
+  },
+  "resolved_contradiction_keys": [],
+  "authoring_provenance": {
+    "method": "local_codex_curated",
+    "definition_file": "data/approach_library/curated/distal_femur_mipo_pin_swashbuckler_v1.json",
+    "api_used": false
+  }
+}

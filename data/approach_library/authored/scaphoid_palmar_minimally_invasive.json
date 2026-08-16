@@ -1,0 +1,480 @@
+{
+  "schema_version": "brobot_approach_packet_v1",
+  "approach_id": "scaphoid_palmar_minimally_invasive",
+  "name": "Minimally invasive palmar approach to the scaphoid",
+  "aliases": [
+    "percutaneous volar scaphoid approach",
+    "mini-open palmar scaphoid fixation",
+    "retrograde percutaneous scaphoid approach"
+  ],
+  "region": "palmar radial wrist and distal scaphoid",
+  "joint": "scaphotrapeziotrapezoid joint",
+  "bones": [
+    "scaphoid",
+    "trapezium"
+  ],
+  "corridor": "Small palmar window distal to the STT joint for fluoroscopically guided retrograde guidewire and screw placement",
+  "positioning": [
+    {
+      "text": "Position supine with the forearm supinated on a radiolucent table and hyperextend the wrist over a bolster to use ligamentotaxis and present the distal scaphoid.",
+      "claim_ids": [
+        "scaphoid_palmar_minimally_invasive_positioning_01"
+      ]
+    }
+  ],
+  "setup": [
+    {
+      "text": "Fluoroscopy is mandatory; confirm that the fracture pattern and reduction are suitable for percutaneous treatment and obtain reproducible orthogonal and scaphoid-axis images before preparing the entry site.",
+      "claim_ids": [
+        "scaphoid_palmar_minimally_invasive_setup_01"
+      ]
+    }
+  ],
+  "surface_landmarks": [
+    {
+      "text": "Mark the scaphoid tubercle, palmar radial border, FCR, and STT joint, using a needle or temporary wire under fluoroscopy when needed to localize the joint.",
+      "claim_ids": [
+        "scaphoid_palmar_minimally_invasive_surface_landmarks_01"
+      ]
+    }
+  ],
+  "incision": [
+    {
+      "text": "Make an approximately 1-cm palmar stab incision just distal to the localized STT joint and enlarge only enough to protect soft tissue and reach the distal scaphoid capsule.",
+      "claim_ids": [
+        "scaphoid_palmar_minimally_invasive_incision_01"
+      ]
+    }
+  ],
+  "superficial_interval": [
+    {
+      "text": "Bluntly dissect through subcutaneous tissue while protecting superficial radial and palmar cutaneous sensory branches and avoiding the FCR and radial artery.",
+      "claim_ids": [
+        "scaphoid_palmar_minimally_invasive_superficial_interval_01"
+      ]
+    }
+  ],
+  "deep_interval": [
+    {
+      "text": "Open the capsule sufficiently to identify or palpate the distal scaphoid entry point, then maintain a protected soft-tissue sleeve for guidewire drilling and screw insertion.",
+      "claim_ids": [
+        "scaphoid_palmar_minimally_invasive_deep_interval_01"
+      ]
+    }
+  ],
+  "layers": [
+    {
+      "text": "Skin and subcutaneous tissue, protected neurovascular and tendon structures, small capsular window at the STT interval, then distal scaphoid entry point.",
+      "claim_ids": [
+        "scaphoid_palmar_minimally_invasive_layers_01"
+      ]
+    }
+  ],
+  "structures_encountered": [
+    {
+      "text": "Palmar sensory branches, FCR and radial artery territory, STT capsule and cartilage, scaphoid tubercle, and distal scaphoid define the limited corridor.",
+      "claim_ids": [
+        "scaphoid_palmar_minimally_invasive_structures_encountered_01"
+      ]
+    }
+  ],
+  "structures_at_risk": [
+    {
+      "text": "Palmar cutaneous and superficial radial sensory branches, FCR, radial artery branches, STT cartilage, and scaphoid articular surfaces are at risk from incision or repeated wire passes.",
+      "claim_ids": [
+        "scaphoid_palmar_minimally_invasive_structures_at_risk_01"
+      ]
+    }
+  ],
+  "danger_zones": [
+    {
+      "text": "Do not accept a wire that is eccentric or crosses an unintended joint, and do not repeatedly redirect a wire through unprotected soft tissue because tendon, nerve, and cartilage injury may be occult.",
+      "claim_ids": [
+        "scaphoid_palmar_minimally_invasive_danger_zones_01"
+      ]
+    }
+  ],
+  "retraction_hazards": [
+    {
+      "text": "Keep retraction minimal; use a cannula or drill guide as a soft-tissue protector and avoid levering the small incision against FCR, sensory branches, or the STT joint.",
+      "claim_ids": [
+        "scaphoid_palmar_minimally_invasive_retraction_hazards_01"
+      ]
+    }
+  ],
+  "exposure": [
+    {
+      "text": "Provides limited access to the distal scaphoid entry point for retrograde fixation while preserving most capsular and ligamentous attachments.",
+      "claim_ids": [
+        "scaphoid_palmar_minimally_invasive_exposure_01"
+      ]
+    }
+  ],
+  "limitations": [
+    {
+      "text": "The fracture, reduction surfaces, deformity, and graft bed are not directly visualized; success depends on a reducible pattern, reliable imaging, and precise wire control.",
+      "claim_ids": [
+        "scaphoid_palmar_minimally_invasive_limitations_01"
+      ]
+    }
+  ],
+  "extensions": [
+    {
+      "text": "If direct reduction or grafting becomes necessary, extend in a controlled fashion into the formal palmar FCR-based scaphoid approach rather than enlarging the stab incision blindly.",
+      "claim_ids": [
+        "scaphoid_palmar_minimally_invasive_extensions_01"
+      ]
+    }
+  ],
+  "indications": [
+    {
+      "text": "Consider this approach for an acute, reducible, minimally displaced scaphoid waist fracture and selected proximal-third fractures when percutaneous retrograde fixation can achieve a safe central trajectory.",
+      "claim_ids": [
+        "scaphoid_palmar_minimally_invasive_indications_01"
+      ]
+    }
+  ],
+  "relative_contraindications": [
+    {
+      "text": "Do not rely on this limited approach for irreducible displacement, comminution needing direct reduction, humpback deformity, established nonunion requiring graft preparation, or a proximal fragment that cannot safely accept retrograde fixation.",
+      "claim_ids": [
+        "scaphoid_palmar_minimally_invasive_relative_contraindications_01"
+      ]
+    }
+  ],
+  "implant_implications": [
+    {
+      "text": "Insert a headless compression screw retrograde over a protected guidewire, choosing an entry and trajectory that maximize central bone purchase without damaging the STT joint.",
+      "claim_ids": [
+        "scaphoid_palmar_minimally_invasive_implant_implications_01"
+      ]
+    }
+  ],
+  "fluoroscopy_implications": [
+    {
+      "text": "Continuously verify reduction and wire trajectory on multiple views, measure screw length accurately, countersink beneath cartilage, and confirm that neither wire nor screw penetrates the STT, radiocarpal, or midcarpal joint.",
+      "claim_ids": [
+        "scaphoid_palmar_minimally_invasive_fluoroscopy_implications_01"
+      ]
+    }
+  ],
+  "closure": [
+    {
+      "text": "Remove the soft-tissue guide, inspect the small capsular and skin wounds, achieve hemostasis, and close without trapping a sensory branch or tethering FCR.",
+      "claim_ids": [
+        "scaphoid_palmar_minimally_invasive_closure_01"
+      ]
+    }
+  ],
+  "complications": [
+    {
+      "text": "Complications include malreduction, eccentric or short fixation, joint penetration, sensory or tendon injury, nonunion, hardware prominence, stiffness, and radiation exposure.",
+      "claim_ids": [
+        "scaphoid_palmar_minimally_invasive_complications_01"
+      ]
+    }
+  ],
+  "bailouts": [
+    {
+      "text": "If reduction is lost, imaging is equivocal, or a central wire cannot be placed safely, stop repeated percutaneous attempts and convert to the fracture-appropriate open palmar or dorsal exposure.",
+      "claim_ids": [
+        "scaphoid_palmar_minimally_invasive_bailouts_01"
+      ]
+    }
+  ],
+  "procedure_applications": [
+    {
+      "procedure_id": "scaphoid_fracture_orif",
+      "relationship": "conditional_option",
+      "condition": "A reducible, minimally displaced acute waist or selected proximal-third fracture is suitable for closed or percutaneous fixation"
+    }
+  ],
+  "questions": [
+    {
+      "question": "What is the essential enabling technology for minimally invasive palmar scaphoid fixation?",
+      "answer": "Reliable multiplanar fluoroscopy.",
+      "claim_ids": [
+        "scaphoid_palmar_minimally_invasive_questions_01"
+      ]
+    },
+    {
+      "question": "What wrist position helps present the distal scaphoid?",
+      "answer": "Hyperextension over a bolster.",
+      "claim_ids": [
+        "scaphoid_palmar_minimally_invasive_questions_02"
+      ]
+    },
+    {
+      "question": "When should a percutaneous attempt be converted to open exposure?",
+      "answer": "When reduction is inadequate, imaging is uncertain, or a safe central guidewire trajectory cannot be obtained.",
+      "claim_ids": [
+        "scaphoid_palmar_minimally_invasive_questions_03"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "scaphoid_palmar_minimally_invasive_positioning_01",
+      "text": "Position supine with the forearm supinated on a radiolucent table and hyperextend the wrist over a bolster to use ligamentotaxis and present the distal scaphoid.",
+      "source_ids": [
+        "ao_8c3afa0d045a065e",
+        "pmid_18656774"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "scaphoid_palmar_minimally_invasive_setup_01",
+      "text": "Fluoroscopy is mandatory; confirm that the fracture pattern and reduction are suitable for percutaneous treatment and obtain reproducible orthogonal and scaphoid-axis images before preparing the entry site.",
+      "source_ids": [
+        "ao_8c3afa0d045a065e",
+        "pmid_18656774",
+        "pmid_32025352"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "scaphoid_palmar_minimally_invasive_surface_landmarks_01",
+      "text": "Mark the scaphoid tubercle, palmar radial border, FCR, and STT joint, using a needle or temporary wire under fluoroscopy when needed to localize the joint.",
+      "source_ids": [
+        "ao_8c3afa0d045a065e",
+        "pmid_18656774"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "scaphoid_palmar_minimally_invasive_incision_01",
+      "text": "Make an approximately 1-cm palmar stab incision just distal to the localized STT joint and enlarge only enough to protect soft tissue and reach the distal scaphoid capsule.",
+      "source_ids": [
+        "ao_8c3afa0d045a065e",
+        "pmid_18656774"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "scaphoid_palmar_minimally_invasive_superficial_interval_01",
+      "text": "Bluntly dissect through subcutaneous tissue while protecting superficial radial and palmar cutaneous sensory branches and avoiding the FCR and radial artery.",
+      "source_ids": [
+        "ao_8c3afa0d045a065e",
+        "pmid_18656774"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "scaphoid_palmar_minimally_invasive_deep_interval_01",
+      "text": "Open the capsule sufficiently to identify or palpate the distal scaphoid entry point, then maintain a protected soft-tissue sleeve for guidewire drilling and screw insertion.",
+      "source_ids": [
+        "ao_8c3afa0d045a065e",
+        "pmid_18656774"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "scaphoid_palmar_minimally_invasive_layers_01",
+      "text": "Skin and subcutaneous tissue, protected neurovascular and tendon structures, small capsular window at the STT interval, then distal scaphoid entry point.",
+      "source_ids": [
+        "ao_8c3afa0d045a065e",
+        "pmid_18656774"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "scaphoid_palmar_minimally_invasive_structures_encountered_01",
+      "text": "Palmar sensory branches, FCR and radial artery territory, STT capsule and cartilage, scaphoid tubercle, and distal scaphoid define the limited corridor.",
+      "source_ids": [
+        "ao_8c3afa0d045a065e",
+        "pmid_18656774"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "scaphoid_palmar_minimally_invasive_structures_at_risk_01",
+      "text": "Palmar cutaneous and superficial radial sensory branches, FCR, radial artery branches, STT cartilage, and scaphoid articular surfaces are at risk from incision or repeated wire passes.",
+      "source_ids": [
+        "ao_8c3afa0d045a065e",
+        "pmid_18656774"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "scaphoid_palmar_minimally_invasive_danger_zones_01",
+      "text": "Do not accept a wire that is eccentric or crosses an unintended joint, and do not repeatedly redirect a wire through unprotected soft tissue because tendon, nerve, and cartilage injury may be occult.",
+      "source_ids": [
+        "ao_8c3afa0d045a065e",
+        "pmid_18656774"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "scaphoid_palmar_minimally_invasive_retraction_hazards_01",
+      "text": "Keep retraction minimal; use a cannula or drill guide as a soft-tissue protector and avoid levering the small incision against FCR, sensory branches, or the STT joint.",
+      "source_ids": [
+        "ao_8c3afa0d045a065e",
+        "pmid_18656774"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "scaphoid_palmar_minimally_invasive_exposure_01",
+      "text": "Provides limited access to the distal scaphoid entry point for retrograde fixation while preserving most capsular and ligamentous attachments.",
+      "source_ids": [
+        "ao_8c3afa0d045a065e",
+        "pmid_18656774"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "scaphoid_palmar_minimally_invasive_limitations_01",
+      "text": "The fracture, reduction surfaces, deformity, and graft bed are not directly visualized; success depends on a reducible pattern, reliable imaging, and precise wire control.",
+      "source_ids": [
+        "ao_8c3afa0d045a065e",
+        "pmid_18656774",
+        "pmid_32025352"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "scaphoid_palmar_minimally_invasive_extensions_01",
+      "text": "If direct reduction or grafting becomes necessary, extend in a controlled fashion into the formal palmar FCR-based scaphoid approach rather than enlarging the stab incision blindly.",
+      "source_ids": [
+        "ao_8c3afa0d045a065e",
+        "pmid_18656774"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "scaphoid_palmar_minimally_invasive_indications_01",
+      "text": "Consider this approach for an acute, reducible, minimally displaced scaphoid waist fracture and selected proximal-third fractures when percutaneous retrograde fixation can achieve a safe central trajectory.",
+      "source_ids": [
+        "ao_8c3afa0d045a065e",
+        "pmid_18656774",
+        "pmid_32025352"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "scaphoid_palmar_minimally_invasive_relative_contraindications_01",
+      "text": "Do not rely on this limited approach for irreducible displacement, comminution needing direct reduction, humpback deformity, established nonunion requiring graft preparation, or a proximal fragment that cannot safely accept retrograde fixation.",
+      "source_ids": [
+        "ao_8c3afa0d045a065e",
+        "pmid_18656774",
+        "pmid_32025352"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "scaphoid_palmar_minimally_invasive_implant_implications_01",
+      "text": "Insert a headless compression screw retrograde over a protected guidewire, choosing an entry and trajectory that maximize central bone purchase without damaging the STT joint.",
+      "source_ids": [
+        "ao_8c3afa0d045a065e",
+        "pmid_18656774",
+        "pmid_32025352"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "scaphoid_palmar_minimally_invasive_fluoroscopy_implications_01",
+      "text": "Continuously verify reduction and wire trajectory on multiple views, measure screw length accurately, countersink beneath cartilage, and confirm that neither wire nor screw penetrates the STT, radiocarpal, or midcarpal joint.",
+      "source_ids": [
+        "ao_8c3afa0d045a065e",
+        "pmid_18656774",
+        "pmid_32025352"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "scaphoid_palmar_minimally_invasive_closure_01",
+      "text": "Remove the soft-tissue guide, inspect the small capsular and skin wounds, achieve hemostasis, and close without trapping a sensory branch or tethering FCR.",
+      "source_ids": [
+        "ao_8c3afa0d045a065e",
+        "pmid_18656774"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "scaphoid_palmar_minimally_invasive_complications_01",
+      "text": "Complications include malreduction, eccentric or short fixation, joint penetration, sensory or tendon injury, nonunion, hardware prominence, stiffness, and radiation exposure.",
+      "source_ids": [
+        "ao_8c3afa0d045a065e",
+        "pmid_18656774",
+        "pmid_32025352"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "scaphoid_palmar_minimally_invasive_bailouts_01",
+      "text": "If reduction is lost, imaging is equivocal, or a central wire cannot be placed safely, stop repeated percutaneous attempts and convert to the fracture-appropriate open palmar or dorsal exposure.",
+      "source_ids": [
+        "ao_8c3afa0d045a065e",
+        "pmid_18656774",
+        "pmid_32025352"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "scaphoid_palmar_minimally_invasive_questions_01",
+      "text": "What is the essential enabling technology for minimally invasive palmar scaphoid fixation?",
+      "source_ids": [
+        "ao_8c3afa0d045a065e",
+        "pmid_18656774"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "scaphoid_palmar_minimally_invasive_questions_02",
+      "text": "What wrist position helps present the distal scaphoid?",
+      "source_ids": [
+        "ao_8c3afa0d045a065e"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "scaphoid_palmar_minimally_invasive_questions_03",
+      "text": "When should a percutaneous attempt be converted to open exposure?",
+      "source_ids": [
+        "ao_8c3afa0d045a065e",
+        "pmid_18656774"
+      ],
+      "risk_level": "medium"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "ao_8c3afa0d045a065e",
+      "provider": "AO Surgery Reference",
+      "title": "Minimally invasive palmar approach to the scaphoid",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/carpal-bones/approach/minimally-invasive-palmar-approach-to-the-scaphoid",
+      "source_page_id": "ao_8c3afa0d045a065e"
+    },
+    {
+      "source_id": "pmid_18656774",
+      "provider": "PubMed",
+      "title": "Percutaneous fixation of scaphoid fractures",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/18656774/"
+    },
+    {
+      "source_id": "pmid_32025352",
+      "provider": "PubMed",
+      "title": "Antegrade versus retrograde percutaneous screw fixation of scaphoid waist fractures",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/32025352/"
+    }
+  ],
+  "content_status": "agent_review_pending",
+  "review": {
+    "status": "agent_review_pending",
+    "required_roles": [
+      "adversarial_safety_reviewer",
+      "approach_anatomy_reviewer",
+      "educational_value_reviewer",
+      "evidence_reviewer",
+      "operative_exposure_reviewer",
+      "procedure_applicability_reviewer"
+    ],
+    "completed_roles": []
+  },
+  "resolved_contradiction_keys": [],
+  "authoring_provenance": {
+    "method": "local_codex_curated",
+    "definition_file": "data/approach_library/curated/scaphoid_approaches_v1.json",
+    "api_used": false
+  }
+}

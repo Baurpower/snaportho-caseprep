@@ -1,0 +1,470 @@
+{
+  "schema_version": "brobot_approach_packet_v1",
+  "approach_id": "femur_antegrade_trochanteric_entry",
+  "name": "Antegrade femoral nailing through a trochanteric entry",
+  "aliases": [
+    "greater-trochanter femoral nail entry",
+    "trochanteric antegrade nail approach"
+  ],
+  "region": "proximal femur and femoral canal",
+  "joint": "hip-adjacent extra-articular entry",
+  "bones": [
+    "femur"
+  ],
+  "corridor": "Proximal gluteal split aligned with the femoral bow to a centered start at the greater-trochanter tip",
+  "positioning": [
+    {
+      "text": "Position supine or lateral with the pelvis accessible and obtain true AP and axial/lateral images of the greater trochanter and proximal femur.",
+      "claim_ids": [
+        "femur_antegrade_trochanteric_entry_positioning_01"
+      ]
+    }
+  ],
+  "setup": [
+    {
+      "text": "Drape to the pelvic rim, plan reduction and traction, and verify imaging from the trochanter through the distal femur before incision.",
+      "claim_ids": [
+        "femur_antegrade_trochanteric_entry_setup_01"
+      ]
+    }
+  ],
+  "surface_landmarks": [
+    {
+      "text": "Mark the trochanter tip, femoral axis, projected bow, and pelvic rim using fluoroscopy when necessary.",
+      "claim_ids": [
+        "femur_antegrade_trochanteric_entry_surface_landmarks_01"
+      ]
+    }
+  ],
+  "incision": [
+    {
+      "text": "Make a 3–5 cm incision about 10–15 cm proximal to the trochanter tip, farther proximal in obesity, along the proximal extension of the femoral bow.",
+      "claim_ids": [
+        "femur_antegrade_trochanteric_entry_incision_01"
+      ]
+    }
+  ],
+  "superficial_interval": [
+    {
+      "text": "Open fascia and split gluteal fibers longitudinally, maintaining a direct soft-tissue track aligned with the femoral shaft.",
+      "claim_ids": [
+        "femur_antegrade_trochanteric_entry_superficial_interval_01"
+      ]
+    }
+  ],
+  "deep_interval": [
+    {
+      "text": "Palpate the trochanter and establish a guidewire start adjacent to its tip on AP view and exactly centered on the axial view.",
+      "claim_ids": [
+        "femur_antegrade_trochanteric_entry_deep_interval_01"
+      ]
+    }
+  ],
+  "layers": [
+    {
+      "text": "Skin, subcutaneous tissue, gluteal fascia, longitudinal gluteal split, trochanteric cortex, then femoral canal.",
+      "claim_ids": [
+        "femur_antegrade_trochanteric_entry_layers_01"
+      ]
+    }
+  ],
+  "structures_encountered": [
+    {
+      "text": "Gluteal fascia and muscle, abductor insertion region, greater trochanter, proximal cortex, and femoral canal define the approach.",
+      "claim_ids": [
+        "femur_antegrade_trochanteric_entry_structures_encountered_01"
+      ]
+    }
+  ],
+  "structures_at_risk": [
+    {
+      "text": "The superior gluteal nerve, abductor tissue, anterior and posterior trochanteric walls, femoral neck, and posterior shaft cortex are at risk.",
+      "claim_ids": [
+        "femur_antegrade_trochanteric_entry_structures_at_risk_01"
+      ]
+    }
+  ],
+  "danger_zones": [
+    {
+      "text": "An off-center axial start or distal skin portal produces anterior/posterior trochanter blowout, eccentric reaming, medial cortical weakening, or neck stress.",
+      "claim_ids": [
+        "femur_antegrade_trochanteric_entry_danger_zones_01"
+      ]
+    }
+  ],
+  "retraction_hazards": [
+    {
+      "text": "Do not lever instruments against the trochanter to compensate for a distal incision; extend proximally until the soft-tissue track is collinear.",
+      "claim_ids": [
+        "femur_antegrade_trochanteric_entry_retraction_hazards_01"
+      ]
+    }
+  ],
+  "exposure": [
+    {
+      "text": "Provides a relatively accessible start for proximally curved antegrade nails with limited fracture-site dissection.",
+      "claim_ids": [
+        "femur_antegrade_trochanteric_entry_exposure_01"
+      ]
+    }
+  ],
+  "limitations": [
+    {
+      "text": "The start must match nail geometry and be centered axially; a nominally easier portal does not tolerate imprecise positioning.",
+      "claim_ids": [
+        "femur_antegrade_trochanteric_entry_limitations_01"
+      ]
+    }
+  ],
+  "extensions": [
+    {
+      "text": "Extend the incision proximally for collinearity or add a limited fracture reduction window if closed reduction fails.",
+      "claim_ids": [
+        "femur_antegrade_trochanteric_entry_extensions_01"
+      ]
+    }
+  ],
+  "indications": [
+    {
+      "text": "Use for selected shaft and distal-third fractures treated with a compatible proximally curved antegrade nail.",
+      "claim_ids": [
+        "femur_antegrade_trochanteric_entry_indications_01"
+      ]
+    }
+  ],
+  "relative_contraindications": [
+    {
+      "text": "Choose another portal or strategy when proximal anatomy, previous implants, abductor pathology, habitus, or nail design prevents a safe centered start.",
+      "claim_ids": [
+        "femur_antegrade_trochanteric_entry_relative_contraindications_01"
+      ]
+    }
+  ],
+  "implant_implications": [
+    {
+      "text": "Use a nail specifically designed for trochanteric entry and keep wire, opening reamer, and nail centered through the trochanter into the canal.",
+      "claim_ids": [
+        "femur_antegrade_trochanteric_entry_implant_implications_01"
+      ]
+    }
+  ],
+  "fluoroscopy_implications": [
+    {
+      "text": "Verify the start on AP and axial/lateral views, then monitor centered reaming, fracture alignment, nail depth, and locking.",
+      "claim_ids": [
+        "femur_antegrade_trochanteric_entry_fluoroscopy_implications_01"
+      ]
+    }
+  ],
+  "closure": [
+    {
+      "text": "Irrigate, repair fascia without abductor tethering, and close subcutaneous tissue and skin.",
+      "claim_ids": [
+        "femur_antegrade_trochanteric_entry_closure_01"
+      ]
+    }
+  ],
+  "complications": [
+    {
+      "text": "Complications include abductor injury and hip pain, trochanteric blowout, femoral-neck stress fracture, cortical perforation, malalignment, nonunion, and infection.",
+      "claim_ids": [
+        "femur_antegrade_trochanteric_entry_complications_01"
+      ]
+    }
+  ],
+  "bailouts": [
+    {
+      "text": "If a centered track cannot be established, stop repeated opening attempts, reposition or extend the exposure, or change to another compatible nailing strategy.",
+      "claim_ids": [
+        "femur_antegrade_trochanteric_entry_bailouts_01"
+      ]
+    }
+  ],
+  "procedure_applications": [
+    {
+      "procedure_id": "distal_femur_fracture_intramedullary_nailing",
+      "relationship": "conditional_option",
+      "condition": "A proximally curved antegrade nail is selected and a centered greater-trochanter start matches implant design"
+    }
+  ],
+  "questions": [
+    {
+      "question": "Where must the trochanteric start lie on axial imaging?",
+      "answer": "Exactly centered on the greater trochanter and aligned with the canal.",
+      "claim_ids": [
+        "femur_antegrade_trochanteric_entry_questions_01"
+      ]
+    },
+    {
+      "question": "Which nail geometry uses this portal?",
+      "answer": "A proximally curved antegrade nail designed for trochanteric entry.",
+      "claim_ids": [
+        "femur_antegrade_trochanteric_entry_questions_02"
+      ]
+    },
+    {
+      "question": "What can an eccentric start cause?",
+      "answer": "Trochanteric wall blowout, eccentric reaming, malalignment, or femoral-neck stress.",
+      "claim_ids": [
+        "femur_antegrade_trochanteric_entry_questions_03"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "femur_antegrade_trochanteric_entry_positioning_01",
+      "text": "Position supine or lateral with the pelvis accessible and obtain true AP and axial/lateral images of the greater trochanter and proximal femur.",
+      "source_ids": [
+        "ao_87554683edcd029d",
+        "pmid_38744693"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "femur_antegrade_trochanteric_entry_setup_01",
+      "text": "Drape to the pelvic rim, plan reduction and traction, and verify imaging from the trochanter through the distal femur before incision.",
+      "source_ids": [
+        "ao_87554683edcd029d",
+        "pmid_38744693"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "femur_antegrade_trochanteric_entry_surface_landmarks_01",
+      "text": "Mark the trochanter tip, femoral axis, projected bow, and pelvic rim using fluoroscopy when necessary.",
+      "source_ids": [
+        "ao_87554683edcd029d",
+        "pmid_38744693"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "femur_antegrade_trochanteric_entry_incision_01",
+      "text": "Make a 3–5 cm incision about 10–15 cm proximal to the trochanter tip, farther proximal in obesity, along the proximal extension of the femoral bow.",
+      "source_ids": [
+        "ao_87554683edcd029d",
+        "pmid_38744693"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "femur_antegrade_trochanteric_entry_superficial_interval_01",
+      "text": "Open fascia and split gluteal fibers longitudinally, maintaining a direct soft-tissue track aligned with the femoral shaft.",
+      "source_ids": [
+        "ao_87554683edcd029d",
+        "pmid_38744693"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "femur_antegrade_trochanteric_entry_deep_interval_01",
+      "text": "Palpate the trochanter and establish a guidewire start adjacent to its tip on AP view and exactly centered on the axial view.",
+      "source_ids": [
+        "ao_87554683edcd029d",
+        "pmid_38744693"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "femur_antegrade_trochanteric_entry_layers_01",
+      "text": "Skin, subcutaneous tissue, gluteal fascia, longitudinal gluteal split, trochanteric cortex, then femoral canal.",
+      "source_ids": [
+        "ao_87554683edcd029d",
+        "pmid_38744693"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "femur_antegrade_trochanteric_entry_structures_encountered_01",
+      "text": "Gluteal fascia and muscle, abductor insertion region, greater trochanter, proximal cortex, and femoral canal define the approach.",
+      "source_ids": [
+        "ao_87554683edcd029d",
+        "pmid_38744693"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "femur_antegrade_trochanteric_entry_structures_at_risk_01",
+      "text": "The superior gluteal nerve, abductor tissue, anterior and posterior trochanteric walls, femoral neck, and posterior shaft cortex are at risk.",
+      "source_ids": [
+        "ao_87554683edcd029d",
+        "pmid_38744693"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "femur_antegrade_trochanteric_entry_danger_zones_01",
+      "text": "An off-center axial start or distal skin portal produces anterior/posterior trochanter blowout, eccentric reaming, medial cortical weakening, or neck stress.",
+      "source_ids": [
+        "ao_87554683edcd029d",
+        "pmid_38744693"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "femur_antegrade_trochanteric_entry_retraction_hazards_01",
+      "text": "Do not lever instruments against the trochanter to compensate for a distal incision; extend proximally until the soft-tissue track is collinear.",
+      "source_ids": [
+        "ao_87554683edcd029d",
+        "pmid_38744693"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "femur_antegrade_trochanteric_entry_exposure_01",
+      "text": "Provides a relatively accessible start for proximally curved antegrade nails with limited fracture-site dissection.",
+      "source_ids": [
+        "ao_87554683edcd029d",
+        "pmid_38744693"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "femur_antegrade_trochanteric_entry_limitations_01",
+      "text": "The start must match nail geometry and be centered axially; a nominally easier portal does not tolerate imprecise positioning.",
+      "source_ids": [
+        "ao_87554683edcd029d",
+        "pmid_38744693"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "femur_antegrade_trochanteric_entry_extensions_01",
+      "text": "Extend the incision proximally for collinearity or add a limited fracture reduction window if closed reduction fails.",
+      "source_ids": [
+        "ao_87554683edcd029d",
+        "pmid_38744693"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "femur_antegrade_trochanteric_entry_indications_01",
+      "text": "Use for selected shaft and distal-third fractures treated with a compatible proximally curved antegrade nail.",
+      "source_ids": [
+        "ao_87554683edcd029d",
+        "pmid_38744693"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "femur_antegrade_trochanteric_entry_relative_contraindications_01",
+      "text": "Choose another portal or strategy when proximal anatomy, previous implants, abductor pathology, habitus, or nail design prevents a safe centered start.",
+      "source_ids": [
+        "ao_87554683edcd029d",
+        "pmid_38744693"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "femur_antegrade_trochanteric_entry_implant_implications_01",
+      "text": "Use a nail specifically designed for trochanteric entry and keep wire, opening reamer, and nail centered through the trochanter into the canal.",
+      "source_ids": [
+        "ao_87554683edcd029d",
+        "pmid_38744693"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "femur_antegrade_trochanteric_entry_fluoroscopy_implications_01",
+      "text": "Verify the start on AP and axial/lateral views, then monitor centered reaming, fracture alignment, nail depth, and locking.",
+      "source_ids": [
+        "ao_87554683edcd029d",
+        "pmid_38744693"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "femur_antegrade_trochanteric_entry_closure_01",
+      "text": "Irrigate, repair fascia without abductor tethering, and close subcutaneous tissue and skin.",
+      "source_ids": [
+        "ao_87554683edcd029d",
+        "pmid_38744693"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "femur_antegrade_trochanteric_entry_complications_01",
+      "text": "Complications include abductor injury and hip pain, trochanteric blowout, femoral-neck stress fracture, cortical perforation, malalignment, nonunion, and infection.",
+      "source_ids": [
+        "ao_87554683edcd029d",
+        "pmid_38744693"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "femur_antegrade_trochanteric_entry_bailouts_01",
+      "text": "If a centered track cannot be established, stop repeated opening attempts, reposition or extend the exposure, or change to another compatible nailing strategy.",
+      "source_ids": [
+        "ao_87554683edcd029d",
+        "pmid_38744693"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "femur_antegrade_trochanteric_entry_questions_01",
+      "text": "Where must the trochanteric start lie on axial imaging?",
+      "source_ids": [
+        "ao_87554683edcd029d"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "femur_antegrade_trochanteric_entry_questions_02",
+      "text": "Which nail geometry uses this portal?",
+      "source_ids": [
+        "ao_87554683edcd029d"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "femur_antegrade_trochanteric_entry_questions_03",
+      "text": "What can an eccentric start cause?",
+      "source_ids": [
+        "ao_87554683edcd029d",
+        "pmid_38744693"
+      ],
+      "risk_level": "medium"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "ao_87554683edcd029d",
+      "provider": "AO Surgery Reference",
+      "title": "Antegrade nailing approach with trochanteric entry point",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/femoral-shaft/approach/antegrade-nailing-approach-with-trochanteric-entry-point",
+      "source_page_id": "ao_87554683edcd029d"
+    },
+    {
+      "source_id": "ao_4fbea2b87da15699",
+      "provider": "AO Surgery Reference",
+      "title": "Antegrade Nailing Approach With Trochanteric Entry Point",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/distal-femur/approach/antegrade-nailing-approach-with-trochanteric-entry-point",
+      "source_page_id": "ao_4fbea2b87da15699"
+    },
+    {
+      "source_id": "pmid_38744693",
+      "provider": "PubMed",
+      "title": "Piriformis versus trochanteric entry points for femoral antegrade nailing",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38744693/"
+    }
+  ],
+  "content_status": "agent_review_pending",
+  "review": {
+    "status": "agent_review_pending",
+    "required_roles": [
+      "adversarial_safety_reviewer",
+      "approach_anatomy_reviewer",
+      "educational_value_reviewer",
+      "evidence_reviewer",
+      "operative_exposure_reviewer",
+      "procedure_applicability_reviewer"
+    ],
+    "completed_roles": []
+  },
+  "resolved_contradiction_keys": [],
+  "authoring_provenance": {
+    "method": "local_codex_curated",
+    "definition_file": "data/approach_library/curated/femoral_nailing_approaches_v1.json",
+    "api_used": false
+  }
+}

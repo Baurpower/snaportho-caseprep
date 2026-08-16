@@ -1,0 +1,136 @@
+{
+  "approaches": [
+    {
+      "approach_id": "distal_femur_lateral_parapatellar",
+      "name": "Lateral parapatellar approach to the distal femur",
+      "aliases": ["lateral parapatellar arthrotomy", "lateral extensor-mechanism approach"],
+      "region": "anterior knee and distal femur",
+      "joint": "knee",
+      "bones": ["distal femur", "patella", "proximal tibia"],
+      "corridor": "Longitudinal lateral parapatellar retinacular and quadriceps split with medial patellar dislocation",
+      "sources": [
+        {"source_id": "ao_99469c4cdb6e1c92", "provider": "AO Surgery Reference", "title": "Lateral Parapatellar Approach To The Distal Femur", "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/distal-femur/approach/lateral-parapatellar-approach-to-the-distal-femur", "source_page_id": "ao_99469c4cdb6e1c92"},
+        {"source_id": "pmid_42267346", "provider": "PubMed", "title": "Current concepts in the treatment of distal femur fractures in adults", "url": "https://pubmed.ncbi.nlm.nih.gov/42267346/"},
+        {"source_id": "pmid_31460990", "provider": "PubMed", "title": "Surgical approaches and outcomes associated with intra-articular Hoffa fractures", "url": "https://pubmed.ncbi.nlm.nih.gov/31460990/"}
+      ],
+      "procedure_applications": [{"procedure_id": "distal_femur_fracture_orif", "relationship": "primary_option", "condition": "A complete or complex intra-articular distal femur fracture requires broad visualization of the articular block with lateral plate access"}],
+      "sections": {
+        "positioning": [{"text": "Position supine on a radiolucent table with a towel roll supporting approximately 20-30 degrees of knee flexion and the entire femur accessible for imaging.", "source_ids": ["ao_99469c4cdb6e1c92", "pmid_42267346"]}],
+        "setup": [{"text": "Prepare the full limb, ensure the incision can be lengthened enough for atraumatic patellar mobilization, and plan lateral plate insertion and proximal percutaneous fixation before draping.", "source_ids": ["ao_99469c4cdb6e1c92", "pmid_42267346"], "risk_level": "high"}],
+        "surface_landmarks": [{"text": "Mark the patella, patellar tendon, tibial tubercle, lateral joint line, lateral epicondyle, and femoral shaft axis.", "source_ids": ["ao_99469c4cdb6e1c92"]}],
+        "incision": [{"text": "Use a roughly 15-18 cm anterior incision centered at or slightly lateral to midline, extending sufficiently proximal to permit quadriceps release and medial patellar dislocation.", "source_ids": ["ao_99469c4cdb6e1c92", "pmid_42267346"], "risk_level": "high"}],
+        "superficial_interval": [{"text": "Expose both borders of the quadriceps tendon while preserving the extensor retinaculum over the anterior patella.", "source_ids": ["ao_99469c4cdb6e1c92"]}],
+        "deep_interval": [{"text": "Divide the lateral retinaculum and quadriceps longitudinally, leaving an 8-10 mm lateral cuff at the patella; carry the split toward the lateral patellar-tendon border and dislocate the patella medially with knee flexion.", "source_ids": ["ao_99469c4cdb6e1c92", "pmid_42267346"], "risk_level": "high"}],
+        "layers": [{"text": "Skin, subcutaneous tissue, lateral retinaculum, quadriceps tendon, capsule and synovium, then distal femoral articular surface.", "source_ids": ["ao_99469c4cdb6e1c92"]}],
+        "structures_encountered": [{"text": "Quadriceps tendon, lateral patellar retinaculum, patella, patellar tendon, synovium, femoral condyles, trochlea, menisci, and cruciate region are encountered.", "source_ids": ["ao_99469c4cdb6e1c92"]}],
+        "structures_at_risk": [{"text": "Patellar tendon insertion, articular cartilage, menisci, lateral superior genicular artery, and extensor-mechanism blood supply are at risk.", "source_ids": ["ao_99469c4cdb6e1c92", "pmid_42267346"], "risk_level": "high"}],
+        "danger_zones": [{"text": "An incision or quadriceps split that is too short concentrates force at the patellar tendon during medial dislocation and can cause avulsion; lengthen the exposure rather than applying force.", "source_ids": ["ao_99469c4cdb6e1c92", "pmid_42267346"], "risk_level": "high"}],
+        "retraction_hazards": [{"text": "Retract the extensor mechanism gradually with the knee flexed; avoid focal pressure on patellar cartilage and excessive tension at the tibial tubercle.", "source_ids": ["ao_99469c4cdb6e1c92", "pmid_42267346"], "risk_level": "high"}],
+        "exposure": [{"text": "Provides broad visualization of the distal femoral articular surface and lateral condyle while supporting lateral submuscular plate insertion.", "source_ids": ["ao_99469c4cdb6e1c92", "pmid_42267346"]}],
+        "limitations": [{"text": "Posterior condylar fragments may still need a fragment-specific exposure, and the approach disrupts the extensor mechanism more than a limited lateral plate approach.", "source_ids": ["ao_99469c4cdb6e1c92", "pmid_31460990"]}],
+        "extensions": [{"text": "Extend proximally through the quadriceps split, add a separate proximal lateral window for plate control, or use small aligned stab incisions for percutaneous screws.", "source_ids": ["ao_99469c4cdb6e1c92"]}],
+        "indications": [{"text": "Use for intra-articular distal femoral fractures requiring direct reconstruction of the articular block and lateral fixation, including selected lateral sagittal or coronal patterns.", "source_ids": ["ao_99469c4cdb6e1c92", "pmid_42267346"]}],
+        "relative_contraindications": [{"text": "Prefer a more limited lateral exposure when no articular visualization is needed, and use a fragment-specific medial or posterior approach when the target cannot be seen safely from the lateral parapatellar corridor.", "source_ids": ["ao_99469c4cdb6e1c92", "pmid_31460990"]}],
+        "implant_implications": [{"text": "The approach accommodates lateral locked plating through a submuscular tunnel; confirm the proximal plate is centered before placing remaining proximal screws.", "source_ids": ["ao_99469c4cdb6e1c92", "pmid_42267346"], "risk_level": "high"}],
+        "fluoroscopy_implications": [{"text": "Obtain unobstructed AP, lateral, and oblique views to verify articular reduction, alignment, plate centering, screw length, and absence of joint penetration.", "source_ids": ["ao_99469c4cdb6e1c92", "pmid_42267346"], "risk_level": "high"}],
+        "closure": [{"text": "Repair quadriceps tendon and the retained lateral parapatellar cuff with interrupted heavy sutures, restore retinacular continuity, then close subcutaneous tissue and skin.", "source_ids": ["ao_99469c4cdb6e1c92", "pmid_42267346"], "risk_level": "high"}],
+        "complications": [{"text": "Complications include patellar-tendon avulsion, extensor weakness or adhesions, stiffness, articular malreduction, infection, nonunion, malalignment, and hardware irritation.", "source_ids": ["ao_99469c4cdb6e1c92", "pmid_42267346"], "risk_level": "high"}],
+        "bailouts": [{"text": "If the patella will not dislocate without excessive tension, extend the skin and quadriceps releases; add a fragment-specific approach if posterior or medial reduction remains unseen.", "source_ids": ["ao_99469c4cdb6e1c92", "pmid_31460990"], "risk_level": "high"}],
+        "questions": [
+          {"question": "Why must the incision and quadriceps split be long enough?", "answer": "To permit medial patellar dislocation without avulsing the patellar tendon.", "source_ids": ["ao_99469c4cdb6e1c92"]},
+          {"question": "How much retinacular cuff is retained beside the patella?", "answer": "Approximately 8-10 mm for secure repair.", "source_ids": ["ao_99469c4cdb6e1c92"]},
+          {"question": "What vessel may be encountered laterally?", "answer": "The lateral superior genicular artery, which may require avoidance or ligation.", "source_ids": ["ao_99469c4cdb6e1c92"]}
+        ]
+      }
+    },
+    {
+      "approach_id": "distal_femur_direct_medial",
+      "name": "Direct medial approach to the distal femur",
+      "aliases": ["medial distal femur approach", "adductor-magnus interval approach"],
+      "region": "medial distal thigh and distal femur",
+      "joint": "knee",
+      "bones": ["distal femur", "medial femoral condyle"],
+      "corridor": "Posterior border of the adductor-magnus tendon with sartorius retracted posteriorly and vastus medialis anteriorly",
+      "sources": [
+        {"source_id": "ao_30f13838a1aed4e2", "provider": "AO Surgery Reference", "title": "Medial Approach To The Distal Femur", "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/distal-femur/approach/medial-approach-to-the-distal-femur", "source_page_id": "ao_30f13838a1aed4e2"},
+        {"source_id": "pmid_31460990", "provider": "PubMed", "title": "Surgical approaches and outcomes associated with intra-articular Hoffa fractures", "url": "https://pubmed.ncbi.nlm.nih.gov/31460990/"},
+        {"source_id": "pmid_42267346", "provider": "PubMed", "title": "Current concepts in the treatment of distal femur fractures in adults", "url": "https://pubmed.ncbi.nlm.nih.gov/42267346/"}
+      ],
+      "procedure_applications": [{"procedure_id": "distal_femur_hoffa_fracture_orif", "relationship": "conditional_option", "condition": "A medial condylar or medial Hoffa fragment needs direct medial reduction, limited posterior access, or associated popliteal vascular exploration"}],
+      "sections": {
+        "positioning": [{"text": "Position supine on a radiolucent table with the knee freely flexed; flexion relaxes medial tissues and permits posterior retraction of sartorius.", "source_ids": ["ao_30f13838a1aed4e2"]}],
+        "setup": [{"text": "Review CT for the medial and posterior fracture extent, prepare vascular instruments when arterial injury is suspected, and ensure access for orthogonal fluoroscopy.", "source_ids": ["ao_30f13838a1aed4e2", "pmid_31460990"], "risk_level": "high"}],
+        "surface_landmarks": [{"text": "Mark the adductor tubercle, adductor-magnus tendon, medial epicondyle, medial joint line, patella, and expected course of the long saphenous vein.", "source_ids": ["ao_30f13838a1aed4e2"]}],
+        "incision": [{"text": "Make a straight longitudinal incision along the posterior border of the adductor-magnus tendon beginning near the adductor tubercle and extend proximally as required.", "source_ids": ["ao_30f13838a1aed4e2"]}],
+        "superficial_interval": [{"text": "Identify the anterior edge of sartorius and, with the knee flexed, retract sartorius posteriorly to expose the adductor-magnus tendon.", "source_ids": ["ao_30f13838a1aed4e2", "pmid_31460990"], "risk_level": "high"}],
+        "deep_interval": [{"text": "Retract adductor magnus and its tendon posteriorly and vastus medialis anteriorly to reach the medial femur; remain directly on bone when developing any posterior extension.", "source_ids": ["ao_30f13838a1aed4e2", "pmid_31460990"], "risk_level": "high"}],
+        "layers": [{"text": "Skin, subcutaneous tissue, sartorial fascia, sartorius-adductor region, interval between adductor magnus and vastus medialis, then medial femoral periosteum and optional capsule.", "source_ids": ["ao_30f13838a1aed4e2"]}],
+        "structures_encountered": [{"text": "Sartorius, adductor-magnus tendon, vastus medialis, medial distal femur, capsule, and posterior popliteal space may be encountered.", "source_ids": ["ao_30f13838a1aed4e2"]}],
+        "structures_at_risk": [{"text": "Popliteal artery and vein, tibial nerve, saphenous nerve and vein, medial genicular vessels, and articular cartilage are at risk.", "source_ids": ["ao_30f13838a1aed4e2", "pmid_31460990"], "risk_level": "high"}],
+        "danger_zones": [{"text": "The popliteal neurovascular bundle lies immediately posterior to the distal femur; posterior dissection must be blunt, controlled, and performed with direct anatomic awareness.", "source_ids": ["ao_30f13838a1aed4e2", "pmid_31460990"], "risk_level": "high"}],
+        "retraction_hazards": [{"text": "Avoid blind or forceful posterior retraction of adductor magnus and avoid prolonged compression of the popliteal bundle or traction on saphenous structures.", "source_ids": ["ao_30f13838a1aed4e2", "pmid_31460990"], "risk_level": "high"}],
+        "exposure": [{"text": "Exposes medial distal-femoral fractures and permits limited posterior access, possible popliteal vascular exploration, and extension toward the posterior cruciate ligament.", "source_ids": ["ao_30f13838a1aed4e2"]}],
+        "limitations": [{"text": "Posterior joint-surface visualization through a medial capsulotomy is limited; posterior coronal fragments may require a more specific exposure.", "source_ids": ["ao_30f13838a1aed4e2", "pmid_31460990"]}],
+        "extensions": [{"text": "Extend proximally along adductor magnus, develop the posterior plane bluntly for vascular access, or add a capsulotomy for limited articular inspection.", "source_ids": ["ao_30f13838a1aed4e2", "pmid_31460990"], "risk_level": "high"}],
+        "indications": [{"text": "Use for medial distal-femoral or medial Hoffa fractures, selected posterior access, and distal-femur fractures complicated by suspected arterial injury.", "source_ids": ["ao_30f13838a1aed4e2", "pmid_31460990"]}],
+        "relative_contraindications": [{"text": "Choose a parapatellar exposure when broad anterior articular reconstruction is required and a dedicated posterior or fragment-specific route when posterior visualization would otherwise be blind.", "source_ids": ["ao_30f13838a1aed4e2", "pmid_31460990"]}],
+        "implant_implications": [{"text": "Supports medial buttress or fragment-specific fixation; drill and screw trajectories directed posteriorly require guarded depth because of the adjacent popliteal bundle.", "source_ids": ["ao_30f13838a1aed4e2", "pmid_31460990"], "risk_level": "high"}],
+        "fluoroscopy_implications": [{"text": "Use AP, lateral, and condylar oblique views to verify medial reduction, posterior fragment position, implant containment, and screw length.", "source_ids": ["ao_30f13838a1aed4e2", "pmid_42267346"], "risk_level": "high"}],
+        "closure": [{"text": "Obtain meticulous hemostasis, repair any capsulotomy, allow the muscular interval to return anatomically, then close fascia, subcutaneous tissue, and skin in layers.", "source_ids": ["ao_30f13838a1aed4e2", "pmid_31460990"], "risk_level": "high"}],
+        "complications": [{"text": "Complications include popliteal neurovascular injury, saphenous neuropathy, hematoma, articular malreduction, stiffness, infection, nonunion, and symptomatic medial implants.", "source_ids": ["ao_30f13838a1aed4e2", "pmid_31460990"], "risk_level": "high"}],
+        "bailouts": [{"text": "If posterior control cannot be obtained safely, stop blind dissection and add a dedicated fragment-specific or posterior exposure with vascular assistance when indicated.", "source_ids": ["ao_30f13838a1aed4e2", "pmid_31460990"], "risk_level": "high"}],
+        "questions": [
+          {"question": "What tendon guides the incision?", "answer": "The adductor-magnus tendon at the adductor tubercle.", "source_ids": ["ao_30f13838a1aed4e2"]},
+          {"question": "What muscles are retracted to expose the femur?", "answer": "Adductor magnus posteriorly and vastus medialis anteriorly.", "source_ids": ["ao_30f13838a1aed4e2"]},
+          {"question": "What is the major posterior danger?", "answer": "The popliteal neurovascular bundle directly behind the distal femur.", "source_ids": ["ao_30f13838a1aed4e2"]}
+        ]
+      }
+    },
+    {
+      "approach_id": "distal_femur_medial_parapatellar",
+      "name": "Medial parapatellar approach to the distal femur",
+      "aliases": ["medial parapatellar arthrotomy", "medial knee arthrotomy for distal femur"],
+      "region": "anterior medial knee and distal femur",
+      "joint": "knee",
+      "bones": ["distal femur", "patella", "proximal tibia"],
+      "corridor": "Medial retinacular and capsular arthrotomy with lateral patellar dislocation and optional quadriceps extension",
+      "sources": [
+        {"source_id": "ao_b0d34644f9c1079e", "provider": "AO Surgery Reference", "title": "Medial Parapatellar Approach", "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/distal-femur/approach/medial-parapatellar-approach", "source_page_id": "ao_b0d34644f9c1079e"},
+        {"source_id": "pmid_42267346", "provider": "PubMed", "title": "Current concepts in the treatment of distal femur fractures in adults", "url": "https://pubmed.ncbi.nlm.nih.gov/42267346/"},
+        {"source_id": "pmid_31460990", "provider": "PubMed", "title": "Surgical approaches and outcomes associated with intra-articular Hoffa fractures", "url": "https://pubmed.ncbi.nlm.nih.gov/31460990/"}
+      ],
+      "procedure_applications": [
+        {"procedure_id": "distal_femur_fracture_orif", "relationship": "conditional_option", "condition": "A medial condylar or intra-articular distal femur fracture needs broad anterior articular visualization"},
+        {"procedure_id": "femoral_shaft_fracture_orif", "relationship": "conditional_option", "condition": "Retrograde nailing of an intra-articular distal extension requires medial parapatellar joint entry"}
+      ],
+      "sections": {
+        "positioning": [{"text": "Position supine on a radiolucent table with the knee freely flexed and the patella mobile enough for controlled lateral displacement.", "source_ids": ["ao_b0d34644f9c1079e"]}],
+        "setup": [{"text": "Prepare the entire limb, plan incision length from fracture morphology, and preserve options for proximal quadriceps extension and fluoroscopic retrograde-nail access.", "source_ids": ["ao_b0d34644f9c1079e", "pmid_42267346"], "risk_level": "high"}],
+        "surface_landmarks": [{"text": "Mark the patella, patellar tendon, tibial tubercle, medial joint line, medial epicondyle, and course of the long saphenous vein.", "source_ids": ["ao_b0d34644f9c1079e"]}],
+        "incision": [{"text": "Make a longitudinal slightly oblique medial parapatellar incision from about 5 cm above the superior patellar pole toward the tibial tubercle without raising broad skin flaps.", "source_ids": ["ao_b0d34644f9c1079e", "pmid_42267346"], "risk_level": "high"}],
+        "superficial_interval": [{"text": "Preserve skin perfusion and the long saphenous vein where possible; expect small infrapatellar saphenous branches near the medial and inferior patella.", "source_ids": ["ao_b0d34644f9c1079e", "pmid_42267346"], "risk_level": "high"}],
+        "deep_interval": [{"text": "Incise the medial patellar retinaculum and capsule, lengthen proximally into quadriceps if needed, and dislocate the patella laterally with controlled knee flexion.", "source_ids": ["ao_b0d34644f9c1079e", "pmid_42267346"], "risk_level": "high"}],
+        "layers": [{"text": "Skin, subcutaneous tissue with saphenous branches, medial retinaculum, joint capsule and synovium, then distal femoral articular surface.", "source_ids": ["ao_b0d34644f9c1079e"]}],
+        "structures_encountered": [{"text": "Medial retinaculum, capsule, patella, patellar tendon, quadriceps tendon, trochlea, femoral condyles, menisci, and cruciate region are encountered.", "source_ids": ["ao_b0d34644f9c1079e"]}],
+        "structures_at_risk": [{"text": "Infrapatellar saphenous branches, long saphenous vein, patellar tendon insertion, skin blood supply, menisci, and articular cartilage are at risk.", "source_ids": ["ao_b0d34644f9c1079e", "pmid_42267346"], "risk_level": "high"}],
+        "danger_zones": [{"text": "Avoid broad skin flaps and forceful lateral patellar dislocation; inadequate release can avulse the patellar tendon from the tibial tubercle.", "source_ids": ["ao_b0d34644f9c1079e", "pmid_42267346"], "risk_level": "high"}],
+        "retraction_hazards": [{"text": "Retract the extensor mechanism gently and distribute pressure away from patellar cartilage; lengthen the arthrotomy rather than levering against the tendon.", "source_ids": ["ao_b0d34644f9c1079e", "pmid_42267346"], "risk_level": "high"}],
+        "exposure": [{"text": "Provides wide anterior visualization of both femoral condyles and the articular surface for reconstruction and retrograde-nail entry.", "source_ids": ["ao_b0d34644f9c1079e", "pmid_42267346"]}],
+        "limitations": [{"text": "Posterior Hoffa fragments may not be adequately visualized, and the approach does not provide the same direct medial extra-articular or vascular corridor as the adductor-magnus approach.", "source_ids": ["ao_b0d34644f9c1079e", "pmid_31460990"]}],
+        "extensions": [{"text": "Extend proximally into quadriceps for broader distal-femur exposure or distally toward the tibial tubercle for additional joint access.", "source_ids": ["ao_b0d34644f9c1079e", "pmid_42267346"], "risk_level": "high"}],
+        "indications": [{"text": "Use for medial femoral-condylar and selected intra-articular distal-femur fractures, and as an access option for retrograde nailing.", "source_ids": ["ao_b0d34644f9c1079e", "pmid_42267346"]}],
+        "relative_contraindications": [{"text": "Use a fragment-specific medial or posterior exposure when a posterior coronal fragment cannot be reduced safely through the anterior arthrotomy, and avoid compromised medial skin when another route is available.", "source_ids": ["ao_b0d34644f9c1079e", "pmid_31460990"]}],
+        "implant_implications": [{"text": "Allows direct articular reduction and central retrograde-nail starting-point assessment; protect cartilage and verify that screws or nail components remain extra-articular.", "source_ids": ["ao_b0d34644f9c1079e", "pmid_42267346"], "risk_level": "high"}],
+        "fluoroscopy_implications": [{"text": "Use AP, lateral, notch, and condylar oblique views as appropriate to confirm articular congruity, retrograde entry, alignment, and implant containment.", "source_ids": ["ao_b0d34644f9c1079e", "pmid_42267346"], "risk_level": "high"}],
+        "closure": [{"text": "Repair capsule and medial retinaculum anatomically, close any quadriceps extension with heavy absorbable suture, then close subcutaneous tissue and skin without strangulating medial flaps.", "source_ids": ["ao_b0d34644f9c1079e", "pmid_42267346"], "risk_level": "high"}],
+        "complications": [{"text": "Complications include saphenous sensory disturbance or neuroma, patellar-tendon avulsion, wound compromise, extensor weakness, stiffness, infection, and articular malreduction.", "source_ids": ["ao_b0d34644f9c1079e", "pmid_42267346"], "risk_level": "high"}],
+        "bailouts": [{"text": "If lateral patellar displacement remains unsafe, extend the retinacular or quadriceps release; add a fragment-specific approach rather than accepting an unseen posterior reduction.", "source_ids": ["ao_b0d34644f9c1079e", "pmid_31460990"], "risk_level": "high"}],
+        "questions": [
+          {"question": "Which sensory nerve branches are encountered medially?", "answer": "Infrapatellar branches of the saphenous nerve.", "source_ids": ["ao_b0d34644f9c1079e"]},
+          {"question": "Why should broad skin flaps be avoided?", "answer": "To preserve skin blood supply.", "source_ids": ["ao_b0d34644f9c1079e"]},
+          {"question": "How is exposure increased proximally?", "answer": "By extending the arthrotomy into the quadriceps tendon.", "source_ids": ["ao_b0d34644f9c1079e"]}
+        ]
+      }
+    }
+  ]
+}

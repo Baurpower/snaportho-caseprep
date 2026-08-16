@@ -1,0 +1,469 @@
+{
+  "schema_version": "brobot_approach_packet_v1",
+  "approach_id": "clavicle_anterior_open",
+  "name": "Open anterior approach to the clavicle",
+  "aliases": [
+    "anteroinferior clavicle approach",
+    "anterior clavicle plating approach"
+  ],
+  "region": "anterior shoulder girdle and clavicle",
+  "joint": "sternoclavicular to acromioclavicular span",
+  "bones": [
+    "clavicle"
+  ],
+  "corridor": "Subclavicular incision through platysma and clavipectoral fascia to the anterior or anteroinferior clavicle",
+  "positioning": [
+    {
+      "text": "Position beach-chair or supine on a radiolucent table with the scapula supported and the shoulder freely mobile for reduction of the lateral fragment.",
+      "claim_ids": [
+        "clavicle_anterior_open_positioning_01"
+      ]
+    }
+  ],
+  "setup": [
+    {
+      "text": "Prep the neck, shoulder, and arm; ensure fluoroscopic visualization of the entire clavicle and use guarded drilling because the plexus and subclavian vessels lie deep to the medial-middle junction.",
+      "claim_ids": [
+        "clavicle_anterior_open_setup_01"
+      ]
+    }
+  ],
+  "surface_landmarks": [
+    {
+      "text": "Mark the sternoclavicular and acromioclavicular joints, palpable clavicle, fracture, and planned plate span.",
+      "claim_ids": [
+        "clavicle_anterior_open_surface_landmarks_01"
+      ]
+    }
+  ],
+  "incision": [
+    {
+      "text": "Make an oblique incision approximately 8–10 cm long just inferior to and centered on the fracture, curving as needed for medial fixation.",
+      "claim_ids": [
+        "clavicle_anterior_open_incision_01"
+      ]
+    }
+  ],
+  "superficial_interval": [
+    {
+      "text": "Divide and tag platysma, identify and preserve supraclavicular nerve branches, then open clavipectoral fascia with minimal flap elevation.",
+      "claim_ids": [
+        "clavicle_anterior_open_superficial_interval_01"
+      ]
+    }
+  ],
+  "deep_interval": [
+    {
+      "text": "Expose the anterior clavicle between pectoralis major anteriorly and trapezius posteriorly, preserving periosteal and muscular attachments on comminuted fragments.",
+      "claim_ids": [
+        "clavicle_anterior_open_deep_interval_01"
+      ]
+    }
+  ],
+  "layers": [
+    {
+      "text": "Skin, subcutaneous tissue, platysma, supraclavicular sensory branches, clavipectoral fascia and periosteum, then clavicle.",
+      "claim_ids": [
+        "clavicle_anterior_open_layers_01"
+      ]
+    }
+  ],
+  "structures_encountered": [
+    {
+      "text": "Platysma, supraclavicular nerves, clavipectoral fascia, pectoralis major, trapezius, subclavius and periosteum define the exposure.",
+      "claim_ids": [
+        "clavicle_anterior_open_structures_encountered_01"
+      ]
+    }
+  ],
+  "structures_at_risk": [
+    {
+      "text": "Supraclavicular sensory nerves, subclavian vessels, brachial plexus, pleura, and fragment blood supply are at risk.",
+      "claim_ids": [
+        "clavicle_anterior_open_structures_at_risk_01"
+      ]
+    }
+  ],
+  "danger_zones": [
+    {
+      "text": "At the medial-middle junction, keep sharp instruments and drill tips controlled against the far cortex; do not sweep blindly beneath the clavicle.",
+      "claim_ids": [
+        "clavicle_anterior_open_danger_zones_01"
+      ]
+    }
+  ],
+  "retraction_hazards": [
+    {
+      "text": "Avoid fixed deep retractors beneath the clavicle and excessive traction on preserved supraclavicular branches or devascularized comminution.",
+      "claim_ids": [
+        "clavicle_anterior_open_retraction_hazards_01"
+      ]
+    }
+  ],
+  "exposure": [
+    {
+      "text": "Provides broad visualization of shaft morphology and permits either anterior or superior plate placement through the same general exposure.",
+      "claim_ids": [
+        "clavicle_anterior_open_exposure_01"
+      ]
+    }
+  ],
+  "limitations": [
+    {
+      "text": "Open exposure increases scar and sensory disturbance and risks fragment devascularization if comminution is stripped; plating surface has no universal outcome advantage.",
+      "claim_ids": [
+        "clavicle_anterior_open_limitations_01"
+      ]
+    }
+  ],
+  "extensions": [
+    {
+      "text": "Extend medially or laterally along the clavicle for fixation while preserving ligament and muscle attachments not required for reduction.",
+      "claim_ids": [
+        "clavicle_anterior_open_extensions_01"
+      ]
+    }
+  ],
+  "indications": [
+    {
+      "text": "Applicable to most clavicular shaft fractures selected for open fixation and to selected medial patterns requiring direct reduction.",
+      "claim_ids": [
+        "clavicle_anterior_open_indications_01"
+      ]
+    }
+  ],
+  "relative_contraindications": [
+    {
+      "text": "Favor a limited or alternative method when indirect reduction is acceptable, the soft-tissue envelope is compromised, or full open visualization would unnecessarily strip comminution.",
+      "claim_ids": [
+        "clavicle_anterior_open_relative_contraindications_01"
+      ]
+    }
+  ],
+  "implant_implications": [
+    {
+      "text": "Contour an anterior or anteroinferior plate to the S-shaped clavicle, obtain balanced fixation on both main fragments, and use guarded drilling and measured bicortical screws.",
+      "claim_ids": [
+        "clavicle_anterior_open_implant_implications_01"
+      ]
+    }
+  ],
+  "fluoroscopy_implications": [
+    {
+      "text": "Confirm length, alignment, rotation, plate position, screw length, and avoidance of sternoclavicular and acromioclavicular joints.",
+      "claim_ids": [
+        "clavicle_anterior_open_fluoroscopy_implications_01"
+      ]
+    }
+  ],
+  "closure": [
+    {
+      "text": "Cover the plate with a secure clavipectoral fascial-periosteal repair, precisely reapproximate platysma, and close skin without tension.",
+      "claim_ids": [
+        "clavicle_anterior_open_closure_01"
+      ]
+    }
+  ],
+  "complications": [
+    {
+      "text": "Complications include supraclavicular numbness or neuroma, vascular or plexus injury, pneumothorax, infection, nonunion, hardware irritation or failure, and reoperation.",
+      "claim_ids": [
+        "clavicle_anterior_open_complications_01"
+      ]
+    }
+  ],
+  "bailouts": [
+    {
+      "text": "If safe far-cortex control or reduction cannot be achieved, enlarge exposure under direct vision or change plate position rather than drilling or clamping blindly.",
+      "claim_ids": [
+        "clavicle_anterior_open_bailouts_01"
+      ]
+    }
+  ],
+  "procedure_applications": [
+    {
+      "procedure_id": "clavicle_fracture_orif",
+      "relationship": "primary_option",
+      "condition": "A shaft or selected medial fracture requires open reduction with anterior or anteroinferior plate application"
+    }
+  ],
+  "questions": [
+    {
+      "question": "Which deep structures are most vulnerable near the medial-middle clavicle?",
+      "answer": "The subclavian artery and vein, brachial plexus, and pleura.",
+      "claim_ids": [
+        "clavicle_anterior_open_questions_01"
+      ]
+    },
+    {
+      "question": "Which sensory nerves should be preserved?",
+      "answer": "The supraclavicular nerve branches.",
+      "claim_ids": [
+        "clavicle_anterior_open_questions_02"
+      ]
+    },
+    {
+      "question": "Why preserve soft-tissue attachments to comminution?",
+      "answer": "To maintain fragment perfusion and support union.",
+      "claim_ids": [
+        "clavicle_anterior_open_questions_03"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "clavicle_anterior_open_positioning_01",
+      "text": "Position beach-chair or supine on a radiolucent table with the scapula supported and the shoulder freely mobile for reduction of the lateral fragment.",
+      "source_ids": [
+        "ao_bda0a7fdf68c6f05",
+        "pmid_41755588"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "clavicle_anterior_open_setup_01",
+      "text": "Prep the neck, shoulder, and arm; ensure fluoroscopic visualization of the entire clavicle and use guarded drilling because the plexus and subclavian vessels lie deep to the medial-middle junction.",
+      "source_ids": [
+        "ao_bda0a7fdf68c6f05",
+        "pmid_41755588"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "clavicle_anterior_open_surface_landmarks_01",
+      "text": "Mark the sternoclavicular and acromioclavicular joints, palpable clavicle, fracture, and planned plate span.",
+      "source_ids": [
+        "ao_bda0a7fdf68c6f05",
+        "pmid_41755588"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "clavicle_anterior_open_incision_01",
+      "text": "Make an oblique incision approximately 8–10 cm long just inferior to and centered on the fracture, curving as needed for medial fixation.",
+      "source_ids": [
+        "ao_bda0a7fdf68c6f05",
+        "pmid_28420364"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "clavicle_anterior_open_superficial_interval_01",
+      "text": "Divide and tag platysma, identify and preserve supraclavicular nerve branches, then open clavipectoral fascia with minimal flap elevation.",
+      "source_ids": [
+        "ao_bda0a7fdf68c6f05",
+        "pmid_41755588"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "clavicle_anterior_open_deep_interval_01",
+      "text": "Expose the anterior clavicle between pectoralis major anteriorly and trapezius posteriorly, preserving periosteal and muscular attachments on comminuted fragments.",
+      "source_ids": [
+        "ao_bda0a7fdf68c6f05",
+        "pmid_28420364"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "clavicle_anterior_open_layers_01",
+      "text": "Skin, subcutaneous tissue, platysma, supraclavicular sensory branches, clavipectoral fascia and periosteum, then clavicle.",
+      "source_ids": [
+        "ao_bda0a7fdf68c6f05",
+        "pmid_41755588"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "clavicle_anterior_open_structures_encountered_01",
+      "text": "Platysma, supraclavicular nerves, clavipectoral fascia, pectoralis major, trapezius, subclavius and periosteum define the exposure.",
+      "source_ids": [
+        "ao_bda0a7fdf68c6f05",
+        "pmid_41755588"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "clavicle_anterior_open_structures_at_risk_01",
+      "text": "Supraclavicular sensory nerves, subclavian vessels, brachial plexus, pleura, and fragment blood supply are at risk.",
+      "source_ids": [
+        "ao_bda0a7fdf68c6f05",
+        "pmid_41755588"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "clavicle_anterior_open_danger_zones_01",
+      "text": "At the medial-middle junction, keep sharp instruments and drill tips controlled against the far cortex; do not sweep blindly beneath the clavicle.",
+      "source_ids": [
+        "ao_bda0a7fdf68c6f05",
+        "pmid_41755588"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "clavicle_anterior_open_retraction_hazards_01",
+      "text": "Avoid fixed deep retractors beneath the clavicle and excessive traction on preserved supraclavicular branches or devascularized comminution.",
+      "source_ids": [
+        "ao_bda0a7fdf68c6f05",
+        "pmid_41755588"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "clavicle_anterior_open_exposure_01",
+      "text": "Provides broad visualization of shaft morphology and permits either anterior or superior plate placement through the same general exposure.",
+      "source_ids": [
+        "ao_bda0a7fdf68c6f05",
+        "pmid_28420364"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "clavicle_anterior_open_limitations_01",
+      "text": "Open exposure increases scar and sensory disturbance and risks fragment devascularization if comminution is stripped; plating surface has no universal outcome advantage.",
+      "source_ids": [
+        "ao_bda0a7fdf68c6f05",
+        "pmid_41755588"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "clavicle_anterior_open_extensions_01",
+      "text": "Extend medially or laterally along the clavicle for fixation while preserving ligament and muscle attachments not required for reduction.",
+      "source_ids": [
+        "ao_bda0a7fdf68c6f05",
+        "pmid_28420364"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "clavicle_anterior_open_indications_01",
+      "text": "Applicable to most clavicular shaft fractures selected for open fixation and to selected medial patterns requiring direct reduction.",
+      "source_ids": [
+        "ao_bda0a7fdf68c6f05",
+        "pmid_41755588"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "clavicle_anterior_open_relative_contraindications_01",
+      "text": "Favor a limited or alternative method when indirect reduction is acceptable, the soft-tissue envelope is compromised, or full open visualization would unnecessarily strip comminution.",
+      "source_ids": [
+        "ao_bda0a7fdf68c6f05",
+        "pmid_41755588"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "clavicle_anterior_open_implant_implications_01",
+      "text": "Contour an anterior or anteroinferior plate to the S-shaped clavicle, obtain balanced fixation on both main fragments, and use guarded drilling and measured bicortical screws.",
+      "source_ids": [
+        "ao_bda0a7fdf68c6f05",
+        "pmid_28420364"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "clavicle_anterior_open_fluoroscopy_implications_01",
+      "text": "Confirm length, alignment, rotation, plate position, screw length, and avoidance of sternoclavicular and acromioclavicular joints.",
+      "source_ids": [
+        "ao_bda0a7fdf68c6f05",
+        "pmid_41755588"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "clavicle_anterior_open_closure_01",
+      "text": "Cover the plate with a secure clavipectoral fascial-periosteal repair, precisely reapproximate platysma, and close skin without tension.",
+      "source_ids": [
+        "ao_bda0a7fdf68c6f05",
+        "pmid_41755588"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "clavicle_anterior_open_complications_01",
+      "text": "Complications include supraclavicular numbness or neuroma, vascular or plexus injury, pneumothorax, infection, nonunion, hardware irritation or failure, and reoperation.",
+      "source_ids": [
+        "ao_bda0a7fdf68c6f05",
+        "pmid_41755588",
+        "pmid_28420364"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "clavicle_anterior_open_bailouts_01",
+      "text": "If safe far-cortex control or reduction cannot be achieved, enlarge exposure under direct vision or change plate position rather than drilling or clamping blindly.",
+      "source_ids": [
+        "ao_bda0a7fdf68c6f05",
+        "pmid_41755588"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "clavicle_anterior_open_questions_01",
+      "text": "Which deep structures are most vulnerable near the medial-middle clavicle?",
+      "source_ids": [
+        "ao_bda0a7fdf68c6f05"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "clavicle_anterior_open_questions_02",
+      "text": "Which sensory nerves should be preserved?",
+      "source_ids": [
+        "ao_bda0a7fdf68c6f05"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "clavicle_anterior_open_questions_03",
+      "text": "Why preserve soft-tissue attachments to comminution?",
+      "source_ids": [
+        "ao_bda0a7fdf68c6f05"
+      ],
+      "risk_level": "medium"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "ao_bda0a7fdf68c6f05",
+      "provider": "AO Surgery Reference",
+      "title": "Anterior approach to the clavicle",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/clavicle-fractures/approach/anterior-approach-to-the-clavicle",
+      "source_page_id": "ao_bda0a7fdf68c6f05"
+    },
+    {
+      "source_id": "pmid_41755588",
+      "provider": "PubMed",
+      "title": "Superior versus anteroinferior plating for displaced midshaft clavicle fractures",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41755588/"
+    },
+    {
+      "source_id": "pmid_28420364",
+      "provider": "PubMed",
+      "title": "Anterior inferior plating versus superior plating for clavicle fracture",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/28420364/"
+    }
+  ],
+  "content_status": "agent_review_pending",
+  "review": {
+    "status": "agent_review_pending",
+    "required_roles": [
+      "adversarial_safety_reviewer",
+      "approach_anatomy_reviewer",
+      "educational_value_reviewer",
+      "evidence_reviewer",
+      "operative_exposure_reviewer",
+      "procedure_applicability_reviewer"
+    ],
+    "completed_roles": []
+  },
+  "resolved_contradiction_keys": [],
+  "authoring_provenance": {
+    "method": "local_codex_curated",
+    "definition_file": "data/approach_library/curated/clavicle_approaches_v1.json",
+    "api_used": false
+  }
+}

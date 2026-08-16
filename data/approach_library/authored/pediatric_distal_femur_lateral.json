@@ -1,0 +1,467 @@
+{
+  "schema_version": "brobot_approach_packet_v1",
+  "approach_id": "pediatric_distal_femur_lateral",
+  "name": "Pediatric lateral approach to the distal femur",
+  "aliases": [
+    "pediatric lateral distal-femur exposure",
+    "lateral approach for distal femoral physis"
+  ],
+  "region": "pediatric lateral distal thigh",
+  "joint": "knee",
+  "bones": [
+    "distal femur",
+    "distal femoral physis"
+  ],
+  "corridor": "Iliotibial-band split with atraumatic anterior elevation of vastus lateralis and optional lateral arthrotomy",
+  "positioning": [
+    {
+      "text": "Position supine on a radiolucent table with the knee freely flexed and the full distal femur accessible for imaging.",
+      "claim_ids": [
+        "pediatric_distal_femur_lateral_positioning_01"
+      ]
+    }
+  ],
+  "setup": [
+    {
+      "text": "Review physeal and articular imaging, identify the tension-side block to reduction, and plan fixation that minimizes additional physeal injury.",
+      "claim_ids": [
+        "pediatric_distal_femur_lateral_setup_01"
+      ]
+    }
+  ],
+  "surface_landmarks": [
+    {
+      "text": "Mark femoral shaft, physis under imaging, lateral condyle, joint line, patella, tibial tubercle, and fibular head.",
+      "claim_ids": [
+        "pediatric_distal_femur_lateral_surface_landmarks_01"
+      ]
+    }
+  ],
+  "incision": [
+    {
+      "text": "Begin midlateral just proximal to the physis and curve anteriorly over the lateral condyle; extend to the joint line or tibial tubercle only if arthrotomy is needed.",
+      "claim_ids": [
+        "pediatric_distal_femur_lateral_incision_01"
+      ]
+    }
+  ],
+  "superficial_interval": [
+    {
+      "text": "Divide iliotibial band in line with its fibers and incise vastus-lateralis fascia at the posterior muscle border.",
+      "claim_ids": [
+        "pediatric_distal_femur_lateral_superficial_interval_01"
+      ]
+    }
+  ],
+  "deep_interval": [
+    {
+      "text": "Elevate vastus lateralis atraumatically and retract anteromedially; identify and remove interposed periosteum from the displaced physeal fracture without stripping the epiphysis.",
+      "claim_ids": [
+        "pediatric_distal_femur_lateral_deep_interval_01"
+      ]
+    }
+  ],
+  "layers": [
+    {
+      "text": "Skin, subcutaneous tissue, iliotibial band, vastus-lateralis fascia, muscle-periosteal plane, then physis or optional lateral capsule.",
+      "claim_ids": [
+        "pediatric_distal_femur_lateral_layers_01"
+      ]
+    }
+  ],
+  "structures_encountered": [
+    {
+      "text": "Iliotibial band, vastus lateralis, distal-femoral periosteum, physis, metaphyseal fragment, and lateral capsule are encountered.",
+      "claim_ids": [
+        "pediatric_distal_femur_lateral_structures_encountered_01"
+      ]
+    }
+  ],
+  "structures_at_risk": [
+    {
+      "text": "Distal-femoral physis and blood supply, periosteum, lateral genicular vessels, patellar tendon, lateral meniscus, and posterior neurovascular bundle are at risk.",
+      "claim_ids": [
+        "pediatric_distal_femur_lateral_structures_at_risk_01"
+      ]
+    }
+  ],
+  "danger_zones": [
+    {
+      "text": "Avoid repeated forceful reduction and epiphyseal stripping; the injured distal-femoral physis has a high baseline risk of growth arrest.",
+      "claim_ids": [
+        "pediatric_distal_femur_lateral_danger_zones_01"
+      ]
+    }
+  ],
+  "retraction_hazards": [
+    {
+      "text": "Retract vastus atraumatically and protect patellar tendon and cartilage during optional arthrotomy.",
+      "claim_ids": [
+        "pediatric_distal_femur_lateral_retraction_hazards_01"
+      ]
+    }
+  ],
+  "exposure": [
+    {
+      "text": "Exposes lateral metaphyseal and physeal fractures and permits optional visualization of the lateral articular surface.",
+      "claim_ids": [
+        "pediatric_distal_femur_lateral_exposure_01"
+      ]
+    }
+  ],
+  "limitations": [
+    {
+      "text": "Complex intra-articular patterns involving the medial condyle are better seen through a parapatellar exposure.",
+      "claim_ids": [
+        "pediatric_distal_femur_lateral_limitations_01"
+      ]
+    }
+  ],
+  "extensions": [
+    {
+      "text": "Extend proximally along the lateral femoral shaft or add an anterior-third lateral capsulotomy distally to the lateral meniscus.",
+      "claim_ids": [
+        "pediatric_distal_femur_lateral_extensions_01"
+      ]
+    }
+  ],
+  "indications": [
+    {
+      "text": "Use after failed closed reduction of selected Salter-Harris II injuries and for lateral metaphyseal, physeal, or articular fractures requiring direct control.",
+      "claim_ids": [
+        "pediatric_distal_femur_lateral_indications_01"
+      ]
+    }
+  ],
+  "relative_contraindications": [
+    {
+      "text": "Use parapatellar exposure for complex medial articular extension and avoid compromised lateral soft tissue when another safe route exists.",
+      "claim_ids": [
+        "pediatric_distal_femur_lateral_relative_contraindications_01"
+      ]
+    }
+  ],
+  "implant_implications": [
+    {
+      "text": "Restore anatomic physeal and articular alignment with the least harmful stable construct; minimize avoidable transphyseal hardware and remove it when clinically indicated.",
+      "claim_ids": [
+        "pediatric_distal_femur_lateral_implant_implications_01"
+      ]
+    }
+  ],
+  "fluoroscopy_implications": [
+    {
+      "text": "Confirm anatomic physeal alignment, articular congruity, implant position, and absence of unintended joint or physeal injury on orthogonal views.",
+      "claim_ids": [
+        "pediatric_distal_femur_lateral_fluoroscopy_implications_01"
+      ]
+    }
+  ],
+  "closure": [
+    {
+      "text": "Repair capsule, vastus-lateralis fascia, and iliotibial band anatomically, then close subcutaneous tissue and skin after hemostasis.",
+      "claim_ids": [
+        "pediatric_distal_femur_lateral_closure_01"
+      ]
+    }
+  ],
+  "complications": [
+    {
+      "text": "Complications include growth arrest, angular deformity, limb-length discrepancy, vascular injury, stiffness, infection, malreduction, and fixation failure.",
+      "claim_ids": [
+        "pediatric_distal_femur_lateral_complications_01"
+      ]
+    }
+  ],
+  "bailouts": [
+    {
+      "text": "If medial articular reduction remains unseen, add or convert to a parapatellar exposure rather than accepting residual displacement.",
+      "claim_ids": [
+        "pediatric_distal_femur_lateral_bailouts_01"
+      ]
+    }
+  ],
+  "procedure_applications": [
+    {
+      "procedure_id": "pediatric_distal_femur_fracture_fixation",
+      "relationship": "primary_option",
+      "condition": "A metaphyseal, physeal, or lateral articular fracture requires direct visualization, removal of entrapped periosteum, reduction, and fixation"
+    }
+  ],
+  "questions": [
+    {
+      "question": "What commonly blocks reduction of a Salter-Harris II fracture?",
+      "answer": "Entrapped periosteum on the tension side.",
+      "claim_ids": [
+        "pediatric_distal_femur_lateral_questions_01"
+      ]
+    },
+    {
+      "question": "Where should the initial incision be for failed closed reduction?",
+      "answer": "On the side where the shaft fragment is prominent, opposite the Thurstan-Holland fragment.",
+      "claim_ids": [
+        "pediatric_distal_femur_lateral_questions_02"
+      ]
+    },
+    {
+      "question": "When is parapatellar exposure preferable?",
+      "answer": "For more complex intra-articular patterns, especially medial-condyle involvement.",
+      "claim_ids": [
+        "pediatric_distal_femur_lateral_questions_03"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "pediatric_distal_femur_lateral_positioning_01",
+      "text": "Position supine on a radiolucent table with the knee freely flexed and the full distal femur accessible for imaging.",
+      "source_ids": [
+        "ao_d95575d9591ef471",
+        "pmid_37931413"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "pediatric_distal_femur_lateral_setup_01",
+      "text": "Review physeal and articular imaging, identify the tension-side block to reduction, and plan fixation that minimizes additional physeal injury.",
+      "source_ids": [
+        "ao_d95575d9591ef471",
+        "pmid_29490406"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "pediatric_distal_femur_lateral_surface_landmarks_01",
+      "text": "Mark femoral shaft, physis under imaging, lateral condyle, joint line, patella, tibial tubercle, and fibular head.",
+      "source_ids": [
+        "ao_d95575d9591ef471"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "pediatric_distal_femur_lateral_incision_01",
+      "text": "Begin midlateral just proximal to the physis and curve anteriorly over the lateral condyle; extend to the joint line or tibial tubercle only if arthrotomy is needed.",
+      "source_ids": [
+        "ao_d95575d9591ef471",
+        "pmid_37931413"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "pediatric_distal_femur_lateral_superficial_interval_01",
+      "text": "Divide iliotibial band in line with its fibers and incise vastus-lateralis fascia at the posterior muscle border.",
+      "source_ids": [
+        "ao_d95575d9591ef471",
+        "pmid_29490406"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "pediatric_distal_femur_lateral_deep_interval_01",
+      "text": "Elevate vastus lateralis atraumatically and retract anteromedially; identify and remove interposed periosteum from the displaced physeal fracture without stripping the epiphysis.",
+      "source_ids": [
+        "ao_d95575d9591ef471",
+        "pmid_29490406"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "pediatric_distal_femur_lateral_layers_01",
+      "text": "Skin, subcutaneous tissue, iliotibial band, vastus-lateralis fascia, muscle-periosteal plane, then physis or optional lateral capsule.",
+      "source_ids": [
+        "ao_d95575d9591ef471"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "pediatric_distal_femur_lateral_structures_encountered_01",
+      "text": "Iliotibial band, vastus lateralis, distal-femoral periosteum, physis, metaphyseal fragment, and lateral capsule are encountered.",
+      "source_ids": [
+        "ao_d95575d9591ef471",
+        "pmid_29490406"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "pediatric_distal_femur_lateral_structures_at_risk_01",
+      "text": "Distal-femoral physis and blood supply, periosteum, lateral genicular vessels, patellar tendon, lateral meniscus, and posterior neurovascular bundle are at risk.",
+      "source_ids": [
+        "ao_d95575d9591ef471",
+        "pmid_29490406"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "pediatric_distal_femur_lateral_danger_zones_01",
+      "text": "Avoid repeated forceful reduction and epiphyseal stripping; the injured distal-femoral physis has a high baseline risk of growth arrest.",
+      "source_ids": [
+        "pmid_37931413",
+        "pmid_29490406"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "pediatric_distal_femur_lateral_retraction_hazards_01",
+      "text": "Retract vastus atraumatically and protect patellar tendon and cartilage during optional arthrotomy.",
+      "source_ids": [
+        "ao_d95575d9591ef471",
+        "pmid_29490406"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "pediatric_distal_femur_lateral_exposure_01",
+      "text": "Exposes lateral metaphyseal and physeal fractures and permits optional visualization of the lateral articular surface.",
+      "source_ids": [
+        "ao_d95575d9591ef471",
+        "pmid_37931413"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "pediatric_distal_femur_lateral_limitations_01",
+      "text": "Complex intra-articular patterns involving the medial condyle are better seen through a parapatellar exposure.",
+      "source_ids": [
+        "ao_d95575d9591ef471",
+        "pmid_37931413"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "pediatric_distal_femur_lateral_extensions_01",
+      "text": "Extend proximally along the lateral femoral shaft or add an anterior-third lateral capsulotomy distally to the lateral meniscus.",
+      "source_ids": [
+        "ao_d95575d9591ef471",
+        "pmid_29490406"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "pediatric_distal_femur_lateral_indications_01",
+      "text": "Use after failed closed reduction of selected Salter-Harris II injuries and for lateral metaphyseal, physeal, or articular fractures requiring direct control.",
+      "source_ids": [
+        "ao_d95575d9591ef471",
+        "pmid_37931413"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "pediatric_distal_femur_lateral_relative_contraindications_01",
+      "text": "Use parapatellar exposure for complex medial articular extension and avoid compromised lateral soft tissue when another safe route exists.",
+      "source_ids": [
+        "ao_d95575d9591ef471",
+        "pmid_29490406"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "pediatric_distal_femur_lateral_implant_implications_01",
+      "text": "Restore anatomic physeal and articular alignment with the least harmful stable construct; minimize avoidable transphyseal hardware and remove it when clinically indicated.",
+      "source_ids": [
+        "pmid_37931413",
+        "pmid_29490406"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "pediatric_distal_femur_lateral_fluoroscopy_implications_01",
+      "text": "Confirm anatomic physeal alignment, articular congruity, implant position, and absence of unintended joint or physeal injury on orthogonal views.",
+      "source_ids": [
+        "ao_d95575d9591ef471",
+        "pmid_29490406"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "pediatric_distal_femur_lateral_closure_01",
+      "text": "Repair capsule, vastus-lateralis fascia, and iliotibial band anatomically, then close subcutaneous tissue and skin after hemostasis.",
+      "source_ids": [
+        "ao_d95575d9591ef471",
+        "pmid_29490406"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "pediatric_distal_femur_lateral_complications_01",
+      "text": "Complications include growth arrest, angular deformity, limb-length discrepancy, vascular injury, stiffness, infection, malreduction, and fixation failure.",
+      "source_ids": [
+        "pmid_37931413",
+        "pmid_29490406"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "pediatric_distal_femur_lateral_bailouts_01",
+      "text": "If medial articular reduction remains unseen, add or convert to a parapatellar exposure rather than accepting residual displacement.",
+      "source_ids": [
+        "ao_d95575d9591ef471",
+        "pmid_29490406"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "pediatric_distal_femur_lateral_questions_01",
+      "text": "What commonly blocks reduction of a Salter-Harris II fracture?",
+      "source_ids": [
+        "ao_d95575d9591ef471"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "pediatric_distal_femur_lateral_questions_02",
+      "text": "Where should the initial incision be for failed closed reduction?",
+      "source_ids": [
+        "ao_d95575d9591ef471"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "pediatric_distal_femur_lateral_questions_03",
+      "text": "When is parapatellar exposure preferable?",
+      "source_ids": [
+        "ao_d95575d9591ef471"
+      ],
+      "risk_level": "medium"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "ao_d95575d9591ef471",
+      "provider": "AO Surgery Reference",
+      "title": "Lateral Approach",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/pediatric-trauma/distal-femur/approach/lateral-approach",
+      "source_page_id": "ao_d95575d9591ef471"
+    },
+    {
+      "source_id": "pmid_37931413",
+      "provider": "PubMed",
+      "title": "Distal femoral fractures in children",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/37931413/"
+    },
+    {
+      "source_id": "pmid_29490406",
+      "provider": "PubMed",
+      "title": "Distal Femoral Physeal Fractures",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/29490406/"
+    }
+  ],
+  "content_status": "agent_review_pending",
+  "review": {
+    "status": "agent_review_pending",
+    "required_roles": [
+      "adversarial_safety_reviewer",
+      "approach_anatomy_reviewer",
+      "educational_value_reviewer",
+      "evidence_reviewer",
+      "operative_exposure_reviewer",
+      "procedure_applicability_reviewer"
+    ],
+    "completed_roles": []
+  },
+  "resolved_contradiction_keys": [],
+  "authoring_provenance": {
+    "method": "local_codex_curated",
+    "definition_file": "data/approach_library/curated/pediatric_distal_femur_approaches_v1.json",
+    "api_used": false
+  }
+}

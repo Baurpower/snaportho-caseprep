@@ -1,0 +1,176 @@
+{
+  "approaches": [
+    {
+      "approach_id": "clavicle_anterior_open",
+      "name": "Open anterior approach to the clavicle",
+      "aliases": ["anteroinferior clavicle approach", "anterior clavicle plating approach"],
+      "region": "anterior shoulder girdle and clavicle",
+      "joint": "sternoclavicular to acromioclavicular span",
+      "bones": ["clavicle"],
+      "corridor": "Subclavicular incision through platysma and clavipectoral fascia to the anterior or anteroinferior clavicle",
+      "sources": [
+        {"source_id": "ao_bda0a7fdf68c6f05", "provider": "AO Surgery Reference", "title": "Anterior approach to the clavicle", "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/clavicle-fractures/approach/anterior-approach-to-the-clavicle", "source_page_id": "ao_bda0a7fdf68c6f05"},
+        {"source_id": "pmid_41755588", "provider": "PubMed", "title": "Superior versus anteroinferior plating for displaced midshaft clavicle fractures", "url": "https://pubmed.ncbi.nlm.nih.gov/41755588/"},
+        {"source_id": "pmid_28420364", "provider": "PubMed", "title": "Anterior inferior plating versus superior plating for clavicle fracture", "url": "https://pubmed.ncbi.nlm.nih.gov/28420364/"}
+      ],
+      "procedure_applications": [{"procedure_id": "clavicle_fracture_orif", "relationship": "primary_option", "condition": "A shaft or selected medial fracture requires open reduction with anterior or anteroinferior plate application"}],
+      "sections": {
+        "positioning": [{"text": "Position beach-chair or supine on a radiolucent table with the scapula supported and the shoulder freely mobile for reduction of the lateral fragment.", "source_ids": ["ao_bda0a7fdf68c6f05", "pmid_41755588"]}],
+        "setup": [{"text": "Prep the neck, shoulder, and arm; ensure fluoroscopic visualization of the entire clavicle and use guarded drilling because the plexus and subclavian vessels lie deep to the medial-middle junction.", "source_ids": ["ao_bda0a7fdf68c6f05", "pmid_41755588"], "risk_level": "high"}],
+        "surface_landmarks": [{"text": "Mark the sternoclavicular and acromioclavicular joints, palpable clavicle, fracture, and planned plate span.", "source_ids": ["ao_bda0a7fdf68c6f05", "pmid_41755588"]}],
+        "incision": [{"text": "Make an oblique incision approximately 8–10 cm long just inferior to and centered on the fracture, curving as needed for medial fixation.", "source_ids": ["ao_bda0a7fdf68c6f05", "pmid_28420364"]}],
+        "superficial_interval": [{"text": "Divide and tag platysma, identify and preserve supraclavicular nerve branches, then open clavipectoral fascia with minimal flap elevation.", "source_ids": ["ao_bda0a7fdf68c6f05", "pmid_41755588"], "risk_level": "high"}],
+        "deep_interval": [{"text": "Expose the anterior clavicle between pectoralis major anteriorly and trapezius posteriorly, preserving periosteal and muscular attachments on comminuted fragments.", "source_ids": ["ao_bda0a7fdf68c6f05", "pmid_28420364"], "risk_level": "high"}],
+        "layers": [{"text": "Skin, subcutaneous tissue, platysma, supraclavicular sensory branches, clavipectoral fascia and periosteum, then clavicle.", "source_ids": ["ao_bda0a7fdf68c6f05", "pmid_41755588"]}],
+        "structures_encountered": [{"text": "Platysma, supraclavicular nerves, clavipectoral fascia, pectoralis major, trapezius, subclavius and periosteum define the exposure.", "source_ids": ["ao_bda0a7fdf68c6f05", "pmid_41755588"]}],
+        "structures_at_risk": [{"text": "Supraclavicular sensory nerves, subclavian vessels, brachial plexus, pleura, and fragment blood supply are at risk.", "source_ids": ["ao_bda0a7fdf68c6f05", "pmid_41755588"], "risk_level": "high"}],
+        "danger_zones": [{"text": "At the medial-middle junction, keep sharp instruments and drill tips controlled against the far cortex; do not sweep blindly beneath the clavicle.", "source_ids": ["ao_bda0a7fdf68c6f05", "pmid_41755588"], "risk_level": "high"}],
+        "retraction_hazards": [{"text": "Avoid fixed deep retractors beneath the clavicle and excessive traction on preserved supraclavicular branches or devascularized comminution.", "source_ids": ["ao_bda0a7fdf68c6f05", "pmid_41755588"], "risk_level": "high"}],
+        "exposure": [{"text": "Provides broad visualization of shaft morphology and permits either anterior or superior plate placement through the same general exposure.", "source_ids": ["ao_bda0a7fdf68c6f05", "pmid_28420364"]}],
+        "limitations": [{"text": "Open exposure increases scar and sensory disturbance and risks fragment devascularization if comminution is stripped; plating surface has no universal outcome advantage.", "source_ids": ["ao_bda0a7fdf68c6f05", "pmid_41755588"]}],
+        "extensions": [{"text": "Extend medially or laterally along the clavicle for fixation while preserving ligament and muscle attachments not required for reduction.", "source_ids": ["ao_bda0a7fdf68c6f05", "pmid_28420364"]}],
+        "indications": [{"text": "Applicable to most clavicular shaft fractures selected for open fixation and to selected medial patterns requiring direct reduction.", "source_ids": ["ao_bda0a7fdf68c6f05", "pmid_41755588"]}],
+        "relative_contraindications": [{"text": "Favor a limited or alternative method when indirect reduction is acceptable, the soft-tissue envelope is compromised, or full open visualization would unnecessarily strip comminution.", "source_ids": ["ao_bda0a7fdf68c6f05", "pmid_41755588"]}],
+        "implant_implications": [{"text": "Contour an anterior or anteroinferior plate to the S-shaped clavicle, obtain balanced fixation on both main fragments, and use guarded drilling and measured bicortical screws.", "source_ids": ["ao_bda0a7fdf68c6f05", "pmid_28420364"], "risk_level": "high"}],
+        "fluoroscopy_implications": [{"text": "Confirm length, alignment, rotation, plate position, screw length, and avoidance of sternoclavicular and acromioclavicular joints.", "source_ids": ["ao_bda0a7fdf68c6f05", "pmid_41755588"], "risk_level": "high"}],
+        "closure": [{"text": "Cover the plate with a secure clavipectoral fascial-periosteal repair, precisely reapproximate platysma, and close skin without tension.", "source_ids": ["ao_bda0a7fdf68c6f05", "pmid_41755588"], "risk_level": "high"}],
+        "complications": [{"text": "Complications include supraclavicular numbness or neuroma, vascular or plexus injury, pneumothorax, infection, nonunion, hardware irritation or failure, and reoperation.", "source_ids": ["ao_bda0a7fdf68c6f05", "pmid_41755588", "pmid_28420364"], "risk_level": "high"}],
+        "bailouts": [{"text": "If safe far-cortex control or reduction cannot be achieved, enlarge exposure under direct vision or change plate position rather than drilling or clamping blindly.", "source_ids": ["ao_bda0a7fdf68c6f05", "pmid_41755588"], "risk_level": "high"}],
+        "questions": [
+          {"question": "Which deep structures are most vulnerable near the medial-middle clavicle?", "answer": "The subclavian artery and vein, brachial plexus, and pleura.", "source_ids": ["ao_bda0a7fdf68c6f05"]},
+          {"question": "Which sensory nerves should be preserved?", "answer": "The supraclavicular nerve branches.", "source_ids": ["ao_bda0a7fdf68c6f05"]},
+          {"question": "Why preserve soft-tissue attachments to comminution?", "answer": "To maintain fragment perfusion and support union.", "source_ids": ["ao_bda0a7fdf68c6f05"]}
+        ]
+      }
+    },
+    {
+      "approach_id": "clavicle_anterior_mipo",
+      "name": "Minimally invasive plate osteosynthesis approach to the clavicle",
+      "aliases": ["clavicle MIPO", "minimally invasive anterior clavicle plating", "bridge plating clavicle"],
+      "region": "anterior shoulder girdle and clavicle",
+      "joint": "sternoclavicular to acromioclavicular span",
+      "bones": ["clavicle"],
+      "corridor": "Two short end incisions joined by a blunt epiperiosteal tunnel for anterior or superior bridge plating",
+      "sources": [
+        {"source_id": "ao_3ef810dcbc0f50bb", "provider": "AO Surgery Reference", "title": "MIPO anterior approach to the clavicle", "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/clavicle-fractures/approach/mipo---anterior-approach-to-the-clavicle", "source_page_id": "ao_3ef810dcbc0f50bb"},
+        {"source_id": "pmid_38464441", "provider": "PubMed", "title": "Complications and clinical outcomes with MIPO for midshaft clavicle fractures", "url": "https://pubmed.ncbi.nlm.nih.gov/38464441/"},
+        {"source_id": "pmid_36723629", "provider": "PubMed", "title": "Minimally invasive plate osteosynthesis for clavicle fractures", "url": "https://pubmed.ncbi.nlm.nih.gov/36723629/"}
+      ],
+      "procedure_applications": [{"procedure_id": "clavicle_fracture_orif", "relationship": "conditional_option", "condition": "A midshaft fracture is suitable for indirect reduction and bridge plating with preservation of intermediate fragments"}],
+      "sections": {
+        "positioning": [{"text": "Position beach-chair or supine with the scapula supported and the arm mobile to restore clavicular length and alignment indirectly.", "source_ids": ["ao_3ef810dcbc0f50bb", "pmid_36723629"]}],
+        "setup": [{"text": "Template plate length and location before incision, prep the entire clavicle and arm, and ensure continuous fluoroscopic visualization of both ends and the fracture.", "source_ids": ["ao_3ef810dcbc0f50bb", "pmid_36723629"], "risk_level": "high"}],
+        "surface_landmarks": [{"text": "Mark both clavicular ends, fracture zone, planned plate ends and holes, sternoclavicular and acromioclavicular joints, and supraclavicular nerve territory.", "source_ids": ["ao_3ef810dcbc0f50bb", "pmid_36723629"]}],
+        "incision": [{"text": "Make separate medial and lateral incisions approximately 2–3 cm long over the planned plate ends, adding only targeted stab incisions for screws or reduction tools.", "source_ids": ["ao_3ef810dcbc0f50bb", "pmid_36723629"]}],
+        "superficial_interval": [{"text": "Protect visible supraclavicular branches, open fascia locally, and create a blunt subcutaneous or epiperiosteal tunnel connecting the end windows.", "source_ids": ["ao_3ef810dcbc0f50bb", "pmid_38464441"], "risk_level": "high"}],
+        "deep_interval": [{"text": "Pass the plate through the prepared tunnel without stripping the fracture zone, using a small direct fracture window only if indirect reduction fails.", "source_ids": ["ao_3ef810dcbc0f50bb", "pmid_36723629"], "risk_level": "high"}],
+        "layers": [{"text": "Skin and subcutaneous tissue at two windows, supraclavicular nerve branches, local fascia and periosteum, blunt tunnel, then main clavicular fragments.", "source_ids": ["ao_3ef810dcbc0f50bb", "pmid_36723629"]}],
+        "structures_encountered": [{"text": "Supraclavicular nerves, platysma, clavipectoral fascia, periosteum and the medial and lateral main fragments are encountered; intermediate fragments remain covered.", "source_ids": ["ao_3ef810dcbc0f50bb", "pmid_38464441"]}],
+        "structures_at_risk": [{"text": "Supraclavicular nerves, subclavian vessels, brachial plexus, pleura, and skin over the tunneled plate are at risk.", "source_ids": ["ao_3ef810dcbc0f50bb", "pmid_38464441"], "risk_level": "high"}],
+        "danger_zones": [{"text": "Tunnel and drill under controlled contact with bone; never pass instruments blindly deep to the clavicle or across the medial-middle junction.", "source_ids": ["ao_3ef810dcbc0f50bb", "pmid_36723629"], "risk_level": "high"}],
+        "retraction_hazards": [{"text": "Avoid forceful retraction through short incisions, which can injure sensory branches or skin; extend a window when visualization is inadequate.", "source_ids": ["ao_3ef810dcbc0f50bb", "pmid_38464441"], "risk_level": "high"}],
+        "exposure": [{"text": "Exposes the main fragments and plate endpoints while preserving fracture hematoma and soft-tissue attachments around comminution.", "source_ids": ["ao_3ef810dcbc0f50bb", "pmid_36723629"]}],
+        "limitations": [{"text": "Indirect reduction makes length, axis, and rotation harder to judge and is poorly suited when anatomic reduction of a simple fracture or direct debridement is essential.", "source_ids": ["ao_3ef810dcbc0f50bb", "pmid_36723629"]}],
+        "extensions": [{"text": "Add a limited fracture-site incision for a blocking fragment or irreducible deformity, or convert to the full open approach when safe reduction cannot be verified.", "source_ids": ["ao_3ef810dcbc0f50bb", "pmid_36723629"], "risk_level": "high"}],
+        "indications": [{"text": "Best suited to selected multifragmentary midshaft fractures where relative stability and biologic preservation are desired; some simple patterns may qualify when soft-tissue considerations favor MIPO.", "source_ids": ["ao_3ef810dcbc0f50bb", "pmid_36723629", "pmid_38464441"]}],
+        "relative_contraindications": [{"text": "Avoid for medial or lateral patterns outside the implant design, gross contamination, neurovascular exploration, or a simple pattern requiring direct anatomic compression when indirect control is unreliable.", "source_ids": ["ao_3ef810dcbc0f50bb", "pmid_36723629"]}],
+        "implant_implications": [{"text": "Use a sufficiently long bridge plate with balanced fixation in both main fragments, confirm plate centering, and protect deep structures during every percutaneous screw pass.", "source_ids": ["ao_3ef810dcbc0f50bb", "pmid_36723629"], "risk_level": "high"}],
+        "fluoroscopy_implications": [{"text": "Imaging must confirm clavicular length, coronal and sagittal alignment, rotation, plate location, endpoint fixation, and safe screw lengths.", "source_ids": ["ao_3ef810dcbc0f50bb", "pmid_36723629"], "risk_level": "high"}],
+        "closure": [{"text": "Close each fascial window securely over the plate, incorporating preserved periosteum when possible, then close skin without tension.", "source_ids": ["ao_3ef810dcbc0f50bb", "pmid_38464441"], "risk_level": "high"}],
+        "complications": [{"text": "Complications include malalignment or shortening, supraclavicular numbness, vascular or plexus injury, pneumothorax, infection, nonunion, implant failure or prominence, and skin compromise.", "source_ids": ["ao_3ef810dcbc0f50bb", "pmid_38464441", "pmid_36723629"], "risk_level": "high"}],
+        "bailouts": [{"text": "If fluoroscopy cannot prove length and rotation or the plate cannot pass safely, open the fracture deliberately rather than persisting with blind tunneling.", "source_ids": ["ao_3ef810dcbc0f50bb", "pmid_36723629"], "risk_level": "high"}],
+        "questions": [
+          {"question": "How many principal incisions are used for clavicle MIPO?", "answer": "Two short incisions over the medial and lateral plate ends.", "source_ids": ["ao_3ef810dcbc0f50bb"]},
+          {"question": "What biology does MIPO preserve?", "answer": "Fracture hematoma and soft-tissue attachments to intermediate fragments.", "source_ids": ["ao_3ef810dcbc0f50bb", "pmid_36723629"]},
+          {"question": "Which reduction parameters must be verified indirectly?", "answer": "Length, axis, and rotation.", "source_ids": ["pmid_36723629"]}
+        ]
+      }
+    },
+    {
+      "approach_id": "clavicle_intramedullary_nailing",
+      "name": "Medial-entry intramedullary nailing approach to the clavicle",
+      "aliases": ["clavicle nail approach", "elastic stable intramedullary clavicle nailing", "medial clavicle nail entry"],
+      "region": "medial clavicle and clavicular canal",
+      "joint": "sternoclavicular to acromioclavicular span",
+      "bones": ["clavicle"],
+      "corridor": "Small anterior medial-clavicle window into the intramedullary canal for lateral nail passage",
+      "sources": [
+        {"source_id": "ao_39537aeee53b306d", "provider": "AO Surgery Reference", "title": "Nailing approach to the clavicle", "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/clavicle-fractures/approach/nailing-approach-to-the-clavicle", "source_page_id": "ao_39537aeee53b306d"},
+        {"source_id": "pmid_27762393", "provider": "PubMed", "title": "Intramedullary nailing versus plate fixation for displaced midshaft clavicle fractures", "url": "https://pubmed.ncbi.nlm.nih.gov/27762393/"},
+        {"source_id": "pmid_27068381", "provider": "PubMed", "title": "Plate fixation or intramedullary fixation for midshaft clavicle fractures", "url": "https://pubmed.ncbi.nlm.nih.gov/27068381/"}
+      ],
+      "procedure_applications": [{"procedure_id": "clavicle_fracture_orif", "relationship": "conditional_option", "condition": "A selected midshaft fracture can be reduced and stabilized with an intramedullary device"}],
+      "sections": {
+        "positioning": [{"text": "Position beach-chair or supine with the shoulder supported, medial clavicle accessible, and arm mobile for indirect reduction.", "source_ids": ["ao_39537aeee53b306d", "pmid_27762393"]}],
+        "setup": [{"text": "Prepare the full clavicle and arm, template nail diameter and length, and obtain clear fluoroscopic views of the medial entry, fracture, and lateral fragment.", "source_ids": ["ao_39537aeee53b306d", "pmid_27068381"], "risk_level": "high"}],
+        "surface_landmarks": [{"text": "Mark the sternoclavicular joint, medial clavicle, fracture, lateral clavicle, and anticipated anterior nail entry just lateral to the joint.", "source_ids": ["ao_39537aeee53b306d", "pmid_27762393"]}],
+        "incision": [{"text": "Make a 1–2 cm anterior incision just lateral to the sternoclavicular joint over the medial clavicular entry point.", "source_ids": ["ao_39537aeee53b306d", "pmid_27762393"]}],
+        "superficial_interval": [{"text": "Bluntly dissect to bone, protecting supraclavicular sensory branches and maintaining direct contact with the anterior clavicle.", "source_ids": ["ao_39537aeee53b306d", "pmid_27068381"], "risk_level": "high"}],
+        "deep_interval": [{"text": "Create the medial canal entry under direct and fluoroscopic control, then advance the flexible nail along the S-shaped canal without perforating cortex.", "source_ids": ["ao_39537aeee53b306d", "pmid_27762393"], "risk_level": "high"}],
+        "layers": [{"text": "Skin, subcutaneous tissue and supraclavicular branches, fascia and periosteum, medial clavicular cortex, then intramedullary canal.", "source_ids": ["ao_39537aeee53b306d", "pmid_27068381"]}],
+        "structures_encountered": [{"text": "Supraclavicular sensory branches, platysma, medial clavicle, sternoclavicular-adjacent soft tissues, canal, and fracture are encountered.", "source_ids": ["ao_39537aeee53b306d", "pmid_27762393"]}],
+        "structures_at_risk": [{"text": "Supraclavicular nerves, sternoclavicular joint, subclavian vessels, brachial plexus, pleura, and skin at the medial nail end are at risk.", "source_ids": ["ao_39537aeee53b306d", "pmid_27068381"], "risk_level": "high"}],
+        "danger_zones": [{"text": "Do not direct the entry tool or nail posteriorly beyond the far cortex; avoid medial migration toward the sternoclavicular region and intrathoracic structures.", "source_ids": ["ao_39537aeee53b306d", "pmid_27068381"], "risk_level": "high"}],
+        "retraction_hazards": [{"text": "Use minimal retraction through the small medial window and enlarge it if the entry point cannot be seen directly.", "source_ids": ["ao_39537aeee53b306d", "pmid_27762393"], "risk_level": "high"}],
+        "exposure": [{"text": "Provides limited medial canal access with indirect fracture reduction and little fracture-site stripping.", "source_ids": ["ao_39537aeee53b306d", "pmid_27762393"]}],
+        "limitations": [{"text": "The curved canal and comminution can impede passage, rotational control is less direct than plating, and some patterns require a small fracture-site incision.", "source_ids": ["ao_39537aeee53b306d", "pmid_27068381"]}],
+        "extensions": [{"text": "Add a limited fracture window for reduction or nail passage, or convert to plate fixation when canal passage or stable alignment cannot be achieved.", "source_ids": ["ao_39537aeee53b306d", "pmid_27068381"], "risk_level": "high"}],
+        "indications": [{"text": "Use for selected displaced midshaft fractures with a canal and pattern suitable for intramedullary fixation; technique choice remains patient- and fracture-specific.", "source_ids": ["ao_39537aeee53b306d", "pmid_27762393", "pmid_27068381"]}],
+        "relative_contraindications": [{"text": "Avoid in markedly comminuted, very medial or lateral, canal-incompatible, pathologic, or irreducible patterns lacking reliable length and rotational control.", "source_ids": ["ao_39537aeee53b306d", "pmid_27068381"]}],
+        "implant_implications": [{"text": "Select a nail that negotiates the canal without cortical perforation, seat the medial end to minimize skin irritation, and secure it against migration according to device design.", "source_ids": ["ao_39537aeee53b306d", "pmid_27762393"], "risk_level": "high"}],
+        "fluoroscopy_implications": [{"text": "Continuously confirm entry, intramedullary passage, fracture reduction, lateral endpoint, absence of cortical perforation, and final nail position.", "source_ids": ["ao_39537aeee53b306d", "pmid_27068381"], "risk_level": "high"}],
+        "closure": [{"text": "Irrigate, verify the nail end is not prominent beneath skin, close fascia and skin in layers, and protect the medial entry wound.", "source_ids": ["ao_39537aeee53b306d", "pmid_27762393"]}],
+        "complications": [{"text": "Complications include cortical perforation, nail migration, medial skin irritation, supraclavicular neuropathy, pneumothorax or neurovascular injury, malalignment, nonunion, infection, and implant removal.", "source_ids": ["ao_39537aeee53b306d", "pmid_27762393", "pmid_27068381"], "risk_level": "high"}],
+        "bailouts": [{"text": "Stop if the nail leaves the canal or cannot cross safely; use a targeted fracture window, exchange the implant, or convert to plating rather than forcing passage.", "source_ids": ["ao_39537aeee53b306d", "pmid_27068381"], "risk_level": "high"}],
+        "questions": [
+          {"question": "Where is the standard clavicle nail entry incision?", "answer": "Anteriorly just lateral to the sternoclavicular joint.", "source_ids": ["ao_39537aeee53b306d"]},
+          {"question": "What geometric feature makes nail passage difficult?", "answer": "The clavicle's S-shaped canal.", "source_ids": ["ao_39537aeee53b306d"]},
+          {"question": "What must never be accepted during nail passage?", "answer": "Posterior cortical perforation or extraosseous advancement toward neurovascular and thoracic structures.", "source_ids": ["ao_39537aeee53b306d", "pmid_27068381"]}
+        ]
+      }
+    },
+    {
+      "approach_id": "clavicle_superior_open",
+      "name": "Open superior approach to the clavicle",
+      "aliases": ["superior clavicle plating approach", "supraclavicular approach"],
+      "region": "superior shoulder girdle and clavicle",
+      "joint": "sternoclavicular to acromioclavicular span",
+      "bones": ["clavicle"],
+      "corridor": "Supraclavicular incision through platysma and clavipectoral fascia to the superior clavicle",
+      "sources": [
+        {"source_id": "ao_b81ea598edcab157", "provider": "AO Surgery Reference", "title": "Superior approach to the clavicle", "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/clavicle-fractures/approach/superior-approach-to-the-clavicle", "source_page_id": "ao_b81ea598edcab157"},
+        {"source_id": "pmid_41755588", "provider": "PubMed", "title": "Superior versus anteroinferior plating for displaced midshaft clavicle fractures", "url": "https://pubmed.ncbi.nlm.nih.gov/41755588/"},
+        {"source_id": "pmid_28708779", "provider": "PubMed", "title": "Anteroinferior versus superior plating for midshaft clavicle fractures", "url": "https://pubmed.ncbi.nlm.nih.gov/28708779/"}
+      ],
+      "procedure_applications": [{"procedure_id": "clavicle_fracture_orif", "relationship": "primary_option", "condition": "A lateral, shaft, or medial fracture requires direct superior exposure and superior plate fixation"}],
+      "sections": {
+        "positioning": [{"text": "Position beach-chair or supine with scapular support and free shoulder motion to elevate the lateral fragment during reduction.", "source_ids": ["ao_b81ea598edcab157", "pmid_41755588"]}],
+        "setup": [{"text": "Prep the neck, shoulder, and arm; ensure whole-clavicle imaging and use drill stops or guarded technique to protect the deep plexus, vessels, and pleura.", "source_ids": ["ao_b81ea598edcab157", "pmid_41755588"], "risk_level": "high"}],
+        "surface_landmarks": [{"text": "Mark sternoclavicular and acromioclavicular joints, clavicular borders, fracture, deltoid attachment laterally, and planned superior plate span.", "source_ids": ["ao_b81ea598edcab157", "pmid_41755588"]}],
+        "incision": [{"text": "Make an oblique 8–10 cm incision directly superior to and centered on the fracture, extending as needed for medial or lateral patterns.", "source_ids": ["ao_b81ea598edcab157", "pmid_28708779"]}],
+        "superficial_interval": [{"text": "Raise limited anterior and posterior subcutaneous flaps, identify and preserve supraclavicular sensory branches, and open clavipectoral fascia.", "source_ids": ["ao_b81ea598edcab157", "pmid_41755588"], "risk_level": "high"}],
+        "deep_interval": [{"text": "Reflect only the pectoralis or deltoid attachment required for plate seating, keeping lateral deltoid as a contiguous repairable sheet and preserving fragment soft tissues.", "source_ids": ["ao_b81ea598edcab157", "pmid_28708779"], "risk_level": "high"}],
+        "layers": [{"text": "Skin, subcutaneous tissue, platysma and supraclavicular nerves, clavipectoral fascia and periosteum, deltoid or pectoral attachment as required, then superior clavicle.", "source_ids": ["ao_b81ea598edcab157", "pmid_41755588"]}],
+        "structures_encountered": [{"text": "Platysma, supraclavicular nerves, clavipectoral fascia, pectoralis major, trapezius, deltoid laterally, periosteum, and clavicle are encountered.", "source_ids": ["ao_b81ea598edcab157", "pmid_41755588"]}],
+        "structures_at_risk": [{"text": "Supraclavicular sensory branches, subclavian vessels, brachial plexus, pleura, deltoid attachment, and fragment perfusion are at risk.", "source_ids": ["ao_b81ea598edcab157", "pmid_41755588"], "risk_level": "high"}],
+        "danger_zones": [{"text": "Superior-to-inferior drilling points toward critical infraclavicular structures; maintain direct far-cortex control and avoid deep plunging, especially medially.", "source_ids": ["ao_b81ea598edcab157", "pmid_41755588"], "risk_level": "high"}],
+        "retraction_hazards": [{"text": "Do not place unprotected retractors under the clavicle or tension preserved sensory nerves; expand exposure rather than increasing deep pressure.", "source_ids": ["ao_b81ea598edcab157", "pmid_41755588"], "risk_level": "high"}],
+        "exposure": [{"text": "Provides direct access across lateral, shaft, and medial clavicle and a straight view for superior plate contouring and application.", "source_ids": ["ao_b81ea598edcab157", "pmid_41755588"]}],
+        "limitations": [{"text": "Superior implants can be prominent beneath thin skin, and comparative evidence does not show a universal union or functional advantage over anteroinferior plating.", "source_ids": ["pmid_41755588", "pmid_28708779"]}],
+        "extensions": [{"text": "Extend along the superior clavicle, reflecting deltoid or pectoral tissue only where required and preserving AC and coracoclavicular ligament attachments when intact.", "source_ids": ["ao_b81ea598edcab157", "pmid_41755588"]}],
+        "indications": [{"text": "Applicable to lateral, diaphyseal, and medial clavicle fractures selected for open reduction, with superior plating especially common for lateral patterns.", "source_ids": ["ao_b81ea598edcab157", "pmid_41755588"]}],
+        "relative_contraindications": [{"text": "Consider anteroinferior or limited fixation when superior hardware prominence, scar location, compromised superior skin, or the required drill trajectory is unfavorable.", "source_ids": ["pmid_41755588", "pmid_28708779"]}],
+        "implant_implications": [{"text": "Contour the plate to the superior S-curve, obtain balanced fragment fixation, avoid AC or SC joint penetration, and use guarded bicortical drilling.", "source_ids": ["ao_b81ea598edcab157", "pmid_41755588"], "risk_level": "high"}],
+        "fluoroscopy_implications": [{"text": "Confirm length, alignment, rotation, articular-joint clearance, plate contour, and safe screw lengths across the entire construct.", "source_ids": ["ao_b81ea598edcab157", "pmid_41755588"], "risk_level": "high"}],
+        "closure": [{"text": "Repair reflected deltoid or pectoral attachments, cover the plate with clavipectoral fascia and periosteum, precisely reapproximate platysma, and close skin without tension.", "source_ids": ["ao_b81ea598edcab157", "pmid_41755588"], "risk_level": "high"}],
+        "complications": [{"text": "Complications include sensory numbness or neuroma, prominent hardware and removal, deep vascular or plexus injury, pneumothorax, deltoid dysfunction, infection, nonunion, and implant failure.", "source_ids": ["ao_b81ea598edcab157", "pmid_41755588", "pmid_28708779"], "risk_level": "high"}],
+        "bailouts": [{"text": "If superior drilling cannot be protected or soft-tissue coverage is inadequate, reposition the plate anteroinferiorly or change fixation strategy rather than accepting unsafe screws or exposed hardware.", "source_ids": ["ao_b81ea598edcab157", "pmid_41755588"], "risk_level": "high"}],
+        "questions": [
+          {"question": "Which fractures are commonly plated superiorly?", "answer": "Lateral clavicle fractures, although shaft and medial fractures may also use superior fixation.", "source_ids": ["ao_b81ea598edcab157"]},
+          {"question": "What sensory complication follows supraclavicular nerve injury?", "answer": "Numbness or a painful proximal neuroma.", "source_ids": ["ao_b81ea598edcab157"]},
+          {"question": "Why avoid stripping comminuted fragments?", "answer": "Maintaining their soft-tissue blood supply is more important than perfect reduction of every fragment.", "source_ids": ["ao_b81ea598edcab157"]}
+        ]
+      }
+    }
+  ]
+}

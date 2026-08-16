@@ -1,0 +1,60 @@
+{
+  "schema_version": "caseprep_approaches_v3",
+  "approaches": [
+    {
+      "approach_id": "approach_humerus_anterolateral_distal",
+      "name": "Anterolateral humeral shaft (after Henry)",
+      "role": "common_option",
+      "content_status": "curated",
+      "selection_indications": ["Useful for anterior/anterolateral plate application, especially proximal and middle-shaft patterns; distal extension depends on fixation requirements."],
+      "selection_limitations": ["Approach and plate surface must be selected according to fracture level, morphology, radial nerve pathology, and required fixation length."],
+      "positioning": ["Supine or beach-chair positioning is used for anterior or anterolateral plating."],
+      "exposure": ["Develop the interval along the lateral border of biceps, identify the radial nerve between biceps/brachialis and the mobile wad distally, and split or mobilize brachialis while preserving its innervation."],
+      "layers": [],
+      "landmarks": ["Lateral border of biceps", "Brachialis", "Mobile wad", "Lateral intermuscular septum"],
+      "structures_at_risk": [
+        {"structure": "Radial nerve", "risk_phase": "Distal extension and retractor placement", "protection": "Identify its distal interval and course through the lateral intermuscular septum; avoid hazardous blind Hohmann placement in the distal humerus."},
+        {"structure": "Lateral cutaneous nerve of the forearm", "risk_phase": "Superficial distal dissection", "protection": "Identify where it crosses the distal field."}
+      ],
+      "pitfalls": ["Blind distal retractor placement", "Failure to document and protect the radial nerve across the plate"],
+      "questions": [
+        "Q: Where is the radial nerve found distally in the anterolateral exposure? A: It is identified between the brachialis/biceps side and the mobile wad and followed toward the lateral intermuscular septum.",
+        "Q: Why can brachialis be split? A: Its dual innervation permits a controlled split, but indiscriminate retraction can still injure nerve branches."
+      ],
+      "source_urls": [
+        "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/humeral-shaft/approach/anterolateral-approach-to-the-humerus-after-henry",
+        "https://www.orthobullets.com/trauma/1016/humeral-shaft-fractures"
+      ],
+      "review_status": "agent_review_pending",
+      "review_evidence": [],
+      "coverage_notes": "The exact exposure length and plate surface are fracture-specific."
+    },
+    {
+      "approach_id": "approach_humerus_posterior_triceps_split",
+      "name": "Posterior humeral shaft (triceps-split or triceps-on)",
+      "role": "common_option",
+      "content_status": "curated",
+      "selection_indications": ["Provides access to the posterior surface for posterior plating; particularly useful when distal posterior fixation or direct radial nerve assessment is required."],
+      "selection_limitations": ["Positioning and triceps management differ between split and triceps-sparing variants."],
+      "positioning": ["Prone or lateral decubitus positioning is normally used for posterior plating."],
+      "exposure": ["Develop the selected posterior triceps-split or triceps-on plane and identify/protect the radial nerve with the profunda brachii where they cross the posterior humerus before plate passage."],
+      "layers": [],
+      "landmarks": ["Posterior arm midline", "Triceps", "Spiral groove", "Lateral intermuscular septum"],
+      "structures_at_risk": [
+        {"structure": "Radial nerve and profunda brachii", "risk_phase": "Deep posterior exposure and plate placement", "protection": "Identify the bundle, avoid traction, and document its relationship to the final plate."}
+      ],
+      "pitfalls": ["Passing a plate without establishing the radial nerve relationship", "Excessive traction on the nerve during reduction"],
+      "questions": [
+        "Q: What accompanies the radial nerve in the posterior humeral exposure? A: The profunda brachii vessels accompany it in the spiral groove.",
+        "Q: What should be documented at the end of plating? A: The radial nerve's relationship to the plate and the postoperative nerve examination."
+      ],
+      "source_urls": [
+        "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/humeral-shaft/approach/all-approaches",
+        "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/humeral-shaft/simple-fracture-oblique-30/orif-compression-plating"
+      ],
+      "review_status": "agent_review_pending",
+      "review_evidence": [],
+      "coverage_notes": "Posterior split and triceps-sparing variants should be distinguished in the case plan."
+    }
+  ]
+}

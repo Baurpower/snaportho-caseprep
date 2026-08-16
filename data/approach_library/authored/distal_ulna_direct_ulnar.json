@@ -1,0 +1,466 @@
+{
+  "schema_version": "brobot_approach_packet_v1",
+  "approach_id": "distal_ulna_direct_ulnar",
+  "name": "Direct ulnar approach to the distal ulna",
+  "aliases": [
+    "distal ulna approach",
+    "ulnar styloid approach"
+  ],
+  "region": "ulnar distal forearm",
+  "joint": "distal radioulnar joint",
+  "bones": [
+    "distal ulna",
+    "ulnar styloid"
+  ],
+  "corridor": "Longitudinal interval between extensor carpi ulnaris and flexor carpi ulnaris",
+  "positioning": [
+    {
+      "text": "Position supine with arm on a radiolucent hand table and forearm neutral or pronated for direct ulnar access and imaging.",
+      "claim_ids": [
+        "distal_ulna_direct_ulnar_positioning_01"
+      ]
+    }
+  ],
+  "setup": [
+    {
+      "text": "Assess DRUJ stability, TFCC attachment, and planned implant position; mark the dorsal sensory ulnar-nerve course before incision.",
+      "claim_ids": [
+        "distal_ulna_direct_ulnar_setup_01"
+      ]
+    }
+  ],
+  "surface_landmarks": [
+    {
+      "text": "Mark palpable ulna, ulnar styloid, ECU and FCU tendons, and DRUJ.",
+      "claim_ids": [
+        "distal_ulna_direct_ulnar_surface_landmarks_01"
+      ]
+    }
+  ],
+  "incision": [
+    {
+      "text": "Make a straight longitudinal incision over the distal ulna between ECU and FCU, centered on the fracture.",
+      "claim_ids": [
+        "distal_ulna_direct_ulnar_incision_01"
+      ]
+    }
+  ],
+  "superficial_interval": [
+    {
+      "text": "Spread subcutaneous tissue carefully, identify and protect the dorsal sensory branch of the ulnar nerve, then enter the ECU-FCU interval.",
+      "claim_ids": [
+        "distal_ulna_direct_ulnar_superficial_interval_01"
+      ]
+    }
+  ],
+  "deep_interval": [
+    {
+      "text": "Expose the fracture with limited periosteal stripping and release only the necessary ulnar extensor-retinacular attachment.",
+      "claim_ids": [
+        "distal_ulna_direct_ulnar_deep_interval_01"
+      ]
+    }
+  ],
+  "layers": [
+    {
+      "text": "Skin, subcutaneous sensory-nerve plane, ECU-FCU interval, extensor retinaculum as needed, periosteum, then distal ulna.",
+      "claim_ids": [
+        "distal_ulna_direct_ulnar_layers_01"
+      ]
+    }
+  ],
+  "structures_encountered": [
+    {
+      "text": "Dorsal sensory ulnar nerve, ECU, FCU, extensor retinaculum, ulnar styloid, TFCC attachment, and distal ulna are encountered.",
+      "claim_ids": [
+        "distal_ulna_direct_ulnar_structures_encountered_01"
+      ]
+    }
+  ],
+  "structures_at_risk": [
+    {
+      "text": "Dorsal sensory ulnar nerve, ECU sheath, ulnar artery and nerve volarly, TFCC, DRUJ cartilage, and distal radioulnar ligaments are at risk.",
+      "claim_ids": [
+        "distal_ulna_direct_ulnar_structures_at_risk_01"
+      ]
+    }
+  ],
+  "danger_zones": [
+    {
+      "text": "The dorsal sensory branch crosses variably in the subcutaneous plane; identify it rather than relying on a presumed fixed course.",
+      "claim_ids": [
+        "distal_ulna_direct_ulnar_danger_zones_01"
+      ]
+    }
+  ],
+  "retraction_hazards": [
+    {
+      "text": "Avoid traction on the sensory branch and circumferential stripping or forceful retraction that destabilizes ECU or TFCC attachments.",
+      "claim_ids": [
+        "distal_ulna_direct_ulnar_retraction_hazards_01"
+      ]
+    }
+  ],
+  "exposure": [
+    {
+      "text": "Provides direct access to ulnar styloid and distal-ulna fractures and limited access to the DRUJ.",
+      "claim_ids": [
+        "distal_ulna_direct_ulnar_exposure_01"
+      ]
+    }
+  ],
+  "limitations": [
+    {
+      "text": "Does not expose the distal-radius articular surface and provides limited deep DRUJ access compared with a dedicated dorsal DRUJ approach.",
+      "claim_ids": [
+        "distal_ulna_direct_ulnar_limitations_01"
+      ]
+    }
+  ],
+  "extensions": [
+    {
+      "text": "Extend proximally along the ulna or add a dedicated DRUJ exposure while preserving the dorsal sensory branch and ECU stability.",
+      "claim_ids": [
+        "distal_ulna_direct_ulnar_extensions_01"
+      ]
+    }
+  ],
+  "indications": [
+    {
+      "text": "Use for displaced distal-ulna, ulnar-neck, and styloid-base fractures requiring fixation or direct assessment of ulnar-sided stability.",
+      "claim_ids": [
+        "distal_ulna_direct_ulnar_indications_01"
+      ]
+    }
+  ],
+  "relative_contraindications": [
+    {
+      "text": "Avoid unnecessary fixation of stable small styloid fragments and choose a DRUJ-specific approach when joint pathology is the primary target.",
+      "claim_ids": [
+        "distal_ulna_direct_ulnar_relative_contraindications_01"
+      ]
+    }
+  ],
+  "implant_implications": [
+    {
+      "text": "Contour low-profile fixation to avoid ECU irritation and verify screw length and DRUJ/radiocarpal containment.",
+      "claim_ids": [
+        "distal_ulna_direct_ulnar_implant_implications_01"
+      ]
+    }
+  ],
+  "fluoroscopy_implications": [
+    {
+      "text": "Use PA, lateral, oblique, and DRUJ-focused views to confirm reduction, ulnar variance, implant containment, and radius-ulna congruity.",
+      "claim_ids": [
+        "distal_ulna_direct_ulnar_fluoroscopy_implications_01"
+      ]
+    }
+  ],
+  "closure": [
+    {
+      "text": "Repair released extensor retinaculum, confirm ECU glide and DRUJ stability, and close without entrapping the dorsal sensory branch.",
+      "claim_ids": [
+        "distal_ulna_direct_ulnar_closure_01"
+      ]
+    }
+  ],
+  "complications": [
+    {
+      "text": "Complications include sensory neuritis or neuroma, ECU irritation or instability, DRUJ stiffness or instability, nonunion, infection, and symptomatic hardware.",
+      "claim_ids": [
+        "distal_ulna_direct_ulnar_complications_01"
+      ]
+    }
+  ],
+  "bailouts": [
+    {
+      "text": "Enlarge under direct nerve control or add a DRUJ-specific window if reduction or stability cannot be assessed safely.",
+      "claim_ids": [
+        "distal_ulna_direct_ulnar_bailouts_01"
+      ]
+    }
+  ],
+  "procedure_applications": [
+    {
+      "procedure_id": "distal_ulna_fracture_orif",
+      "relationship": "primary_option",
+      "condition": "A distal-ulna or ulnar-styloid fracture requires direct reduction and fixation"
+    },
+    {
+      "procedure_id": "distal_radius_fracture_orif",
+      "relationship": "adjunct_option",
+      "condition": "Associated distal-ulna instability requires separate fixation after radius reconstruction"
+    }
+  ],
+  "questions": [
+    {
+      "question": "What is the superficial interval?",
+      "answer": "Between ECU and FCU.",
+      "claim_ids": [
+        "distal_ulna_direct_ulnar_questions_01"
+      ]
+    },
+    {
+      "question": "Which nerve must be sought?",
+      "answer": "The dorsal sensory branch of the ulnar nerve.",
+      "claim_ids": [
+        "distal_ulna_direct_ulnar_questions_02"
+      ]
+    },
+    {
+      "question": "What tissue may require release and repair?",
+      "answer": "The ulnar attachment of the extensor retinaculum.",
+      "claim_ids": [
+        "distal_ulna_direct_ulnar_questions_03"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "distal_ulna_direct_ulnar_positioning_01",
+      "text": "Position supine with arm on a radiolucent hand table and forearm neutral or pronated for direct ulnar access and imaging.",
+      "source_ids": [
+        "ao_dc6f94c35d26cf46",
+        "pmid_16518235"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "distal_ulna_direct_ulnar_setup_01",
+      "text": "Assess DRUJ stability, TFCC attachment, and planned implant position; mark the dorsal sensory ulnar-nerve course before incision.",
+      "source_ids": [
+        "ao_dc6f94c35d26cf46",
+        "pmid_16518235"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "distal_ulna_direct_ulnar_surface_landmarks_01",
+      "text": "Mark palpable ulna, ulnar styloid, ECU and FCU tendons, and DRUJ.",
+      "source_ids": [
+        "ao_dc6f94c35d26cf46"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "distal_ulna_direct_ulnar_incision_01",
+      "text": "Make a straight longitudinal incision over the distal ulna between ECU and FCU, centered on the fracture.",
+      "source_ids": [
+        "ao_dc6f94c35d26cf46",
+        "pmid_16518235"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "distal_ulna_direct_ulnar_superficial_interval_01",
+      "text": "Spread subcutaneous tissue carefully, identify and protect the dorsal sensory branch of the ulnar nerve, then enter the ECU-FCU interval.",
+      "source_ids": [
+        "ao_dc6f94c35d26cf46",
+        "pmid_16518235"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "distal_ulna_direct_ulnar_deep_interval_01",
+      "text": "Expose the fracture with limited periosteal stripping and release only the necessary ulnar extensor-retinacular attachment.",
+      "source_ids": [
+        "ao_dc6f94c35d26cf46",
+        "pmid_16518235"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "distal_ulna_direct_ulnar_layers_01",
+      "text": "Skin, subcutaneous sensory-nerve plane, ECU-FCU interval, extensor retinaculum as needed, periosteum, then distal ulna.",
+      "source_ids": [
+        "ao_dc6f94c35d26cf46"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "distal_ulna_direct_ulnar_structures_encountered_01",
+      "text": "Dorsal sensory ulnar nerve, ECU, FCU, extensor retinaculum, ulnar styloid, TFCC attachment, and distal ulna are encountered.",
+      "source_ids": [
+        "ao_dc6f94c35d26cf46",
+        "pmid_16518235"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "distal_ulna_direct_ulnar_structures_at_risk_01",
+      "text": "Dorsal sensory ulnar nerve, ECU sheath, ulnar artery and nerve volarly, TFCC, DRUJ cartilage, and distal radioulnar ligaments are at risk.",
+      "source_ids": [
+        "ao_dc6f94c35d26cf46",
+        "pmid_16518235"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "distal_ulna_direct_ulnar_danger_zones_01",
+      "text": "The dorsal sensory branch crosses variably in the subcutaneous plane; identify it rather than relying on a presumed fixed course.",
+      "source_ids": [
+        "ao_dc6f94c35d26cf46",
+        "pmid_16518235"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "distal_ulna_direct_ulnar_retraction_hazards_01",
+      "text": "Avoid traction on the sensory branch and circumferential stripping or forceful retraction that destabilizes ECU or TFCC attachments.",
+      "source_ids": [
+        "ao_dc6f94c35d26cf46",
+        "pmid_16518235"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "distal_ulna_direct_ulnar_exposure_01",
+      "text": "Provides direct access to ulnar styloid and distal-ulna fractures and limited access to the DRUJ.",
+      "source_ids": [
+        "ao_dc6f94c35d26cf46",
+        "pmid_16518235"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "distal_ulna_direct_ulnar_limitations_01",
+      "text": "Does not expose the distal-radius articular surface and provides limited deep DRUJ access compared with a dedicated dorsal DRUJ approach.",
+      "source_ids": [
+        "ao_dc6f94c35d26cf46",
+        "pmid_16518235"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "distal_ulna_direct_ulnar_extensions_01",
+      "text": "Extend proximally along the ulna or add a dedicated DRUJ exposure while preserving the dorsal sensory branch and ECU stability.",
+      "source_ids": [
+        "ao_dc6f94c35d26cf46",
+        "pmid_16518235"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "distal_ulna_direct_ulnar_indications_01",
+      "text": "Use for displaced distal-ulna, ulnar-neck, and styloid-base fractures requiring fixation or direct assessment of ulnar-sided stability.",
+      "source_ids": [
+        "ao_dc6f94c35d26cf46",
+        "pmid_16518235"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "distal_ulna_direct_ulnar_relative_contraindications_01",
+      "text": "Avoid unnecessary fixation of stable small styloid fragments and choose a DRUJ-specific approach when joint pathology is the primary target.",
+      "source_ids": [
+        "ao_dc6f94c35d26cf46",
+        "pmid_16518235"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "distal_ulna_direct_ulnar_implant_implications_01",
+      "text": "Contour low-profile fixation to avoid ECU irritation and verify screw length and DRUJ/radiocarpal containment.",
+      "source_ids": [
+        "ao_dc6f94c35d26cf46",
+        "pmid_16518235"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "distal_ulna_direct_ulnar_fluoroscopy_implications_01",
+      "text": "Use PA, lateral, oblique, and DRUJ-focused views to confirm reduction, ulnar variance, implant containment, and radius-ulna congruity.",
+      "source_ids": [
+        "ao_dc6f94c35d26cf46",
+        "pmid_16518235"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "distal_ulna_direct_ulnar_closure_01",
+      "text": "Repair released extensor retinaculum, confirm ECU glide and DRUJ stability, and close without entrapping the dorsal sensory branch.",
+      "source_ids": [
+        "ao_dc6f94c35d26cf46",
+        "pmid_16518235"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "distal_ulna_direct_ulnar_complications_01",
+      "text": "Complications include sensory neuritis or neuroma, ECU irritation or instability, DRUJ stiffness or instability, nonunion, infection, and symptomatic hardware.",
+      "source_ids": [
+        "ao_dc6f94c35d26cf46",
+        "pmid_16518235"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "distal_ulna_direct_ulnar_bailouts_01",
+      "text": "Enlarge under direct nerve control or add a DRUJ-specific window if reduction or stability cannot be assessed safely.",
+      "source_ids": [
+        "ao_dc6f94c35d26cf46",
+        "pmid_16518235"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "distal_ulna_direct_ulnar_questions_01",
+      "text": "What is the superficial interval?",
+      "source_ids": [
+        "ao_dc6f94c35d26cf46"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "distal_ulna_direct_ulnar_questions_02",
+      "text": "Which nerve must be sought?",
+      "source_ids": [
+        "ao_dc6f94c35d26cf46"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "distal_ulna_direct_ulnar_questions_03",
+      "text": "What tissue may require release and repair?",
+      "source_ids": [
+        "ao_dc6f94c35d26cf46"
+      ],
+      "risk_level": "medium"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "ao_dc6f94c35d26cf46",
+      "provider": "AO Surgery Reference",
+      "title": "Ulnar Approach To The Distal Ulna",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/distal-forearm/approach/ulnar-approach-to-the-distal-ulna",
+      "source_page_id": "ao_dc6f94c35d26cf46"
+    },
+    {
+      "source_id": "pmid_16518235",
+      "provider": "PubMed",
+      "title": "The dorsal approach to the distal radioulnar joint",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/16518235/"
+    }
+  ],
+  "content_status": "agent_review_pending",
+  "review": {
+    "status": "agent_review_pending",
+    "required_roles": [
+      "adversarial_safety_reviewer",
+      "approach_anatomy_reviewer",
+      "educational_value_reviewer",
+      "evidence_reviewer",
+      "operative_exposure_reviewer",
+      "procedure_applicability_reviewer"
+    ],
+    "completed_roles": []
+  },
+  "resolved_contradiction_keys": [],
+  "authoring_provenance": {
+    "method": "local_codex_curated",
+    "definition_file": "data/approach_library/curated/distal_forearm_ulnar_approaches_v1.json",
+    "api_used": false
+  }
+}

@@ -1,0 +1,468 @@
+{
+  "schema_version": "brobot_approach_packet_v1",
+  "approach_id": "pediatric_femur_retrograde_esin_entries",
+  "name": "Pediatric retrograde ESIN entry approaches to the femur",
+  "aliases": [
+    "distal femoral elastic nail entries",
+    "retrograde flexible femoral nailing"
+  ],
+  "region": "pediatric distal thigh",
+  "joint": "knee-adjacent extra-articular entry",
+  "bones": [
+    "distal femoral metaphysis",
+    "femoral shaft"
+  ],
+  "corridor": "Paired medial and lateral distal-metaphyseal windows at the same level, 2–3 cm proximal to the distal femoral growth plate and centered sagittally",
+  "positioning": [
+    {
+      "text": "Position supine with the knee and distal femur accessible and the full femur imageable on orthogonal views.",
+      "claim_ids": [
+        "pediatric_femur_retrograde_esin_entries_positioning_01"
+      ]
+    }
+  ],
+  "setup": [
+    {
+      "text": "Map the distal femoral physis, template two equal elastic nails and balanced curves, and ensure reduction and imaging from knee to hip.",
+      "claim_ids": [
+        "pediatric_femur_retrograde_esin_entries_setup_01"
+      ]
+    }
+  ],
+  "surface_landmarks": [
+    {
+      "text": "Mark the medial and lateral epicondyles, joint line, distal femoral physis under fluoroscopy, shaft center, and symmetric planned entry levels.",
+      "claim_ids": [
+        "pediatric_femur_retrograde_esin_entries_surface_landmarks_01"
+      ]
+    }
+  ],
+  "incision": [
+    {
+      "text": "Make separate approximately 3-cm medial and lateral incisions beginning at each entry and extending distally to permit oblique nail advancement.",
+      "claim_ids": [
+        "pediatric_femur_retrograde_esin_entries_incision_01"
+      ]
+    }
+  ],
+  "superficial_interval": [
+    {
+      "text": "Spread fascia and muscle bluntly on each side to expose cortex while protecting medial neurovascular and lateral soft-tissue structures.",
+      "claim_ids": [
+        "pediatric_femur_retrograde_esin_entries_superficial_interval_01"
+      ]
+    }
+  ],
+  "deep_interval": [
+    {
+      "text": "Create entries at the same axial level, 2–3 cm proximal to the growth plate, centered in the shaft on the sagittal plane and directed away from the physis.",
+      "claim_ids": [
+        "pediatric_femur_retrograde_esin_entries_deep_interval_01"
+      ]
+    }
+  ],
+  "layers": [
+    {
+      "text": "Skin, subcutaneous tissue, medial or lateral fascia and muscle, periosteum, distal metaphyseal cortex, then medullary canal.",
+      "claim_ids": [
+        "pediatric_femur_retrograde_esin_entries_layers_01"
+      ]
+    }
+  ],
+  "structures_encountered": [
+    {
+      "text": "Distal femoral physis, medial and lateral metaphyseal cortex, vastus medialis and lateralis, periosteum, and canal are encountered.",
+      "claim_ids": [
+        "pediatric_femur_retrograde_esin_entries_structures_encountered_01"
+      ]
+    }
+  ],
+  "structures_at_risk": [
+    {
+      "text": "The distal femoral physis, saphenous nerve and vein medially, lateral soft tissues, cortex, knee capsule, and femoral vessels with uncontrolled medial passage are at risk.",
+      "claim_ids": [
+        "pediatric_femur_retrograde_esin_entries_structures_at_risk_01"
+      ]
+    }
+  ],
+  "danger_zones": [
+    {
+      "text": "Entry closer than 2 cm to the physis risks growth injury; asymmetric, posterior, or closely placed portals risk cortical split, malalignment, or soft-tissue injury.",
+      "claim_ids": [
+        "pediatric_femur_retrograde_esin_entries_danger_zones_01"
+      ]
+    }
+  ],
+  "retraction_hazards": [
+    {
+      "text": "Use blunt dissection and protective sleeves to bone; avoid blind medial clamping, forceful nail-end levering, and soft-tissue entrapment around rotating nails.",
+      "claim_ids": [
+        "pediatric_femur_retrograde_esin_entries_retraction_hazards_01"
+      ]
+    }
+  ],
+  "exposure": [
+    {
+      "text": "Provides balanced paired retrograde access to the femoral canal while avoiding the hip and leaving the fracture zone closed.",
+      "claim_ids": [
+        "pediatric_femur_retrograde_esin_entries_exposure_01"
+      ]
+    }
+  ],
+  "limitations": [
+    {
+      "text": "Best suited to appropriately sized children and length-stable diaphyseal patterns; heavier children and unstable proximal or distal patterns have less reliable control.",
+      "claim_ids": [
+        "pediatric_femur_retrograde_esin_entries_limitations_01"
+      ]
+    }
+  ],
+  "extensions": [
+    {
+      "text": "Lengthen either incision for controlled cortical visualization rather than accepting an uncertain percutaneous portal or prominent nail end.",
+      "claim_ids": [
+        "pediatric_femur_retrograde_esin_entries_extensions_01"
+      ]
+    }
+  ],
+  "indications": [
+    {
+      "text": "Use for selected pediatric femoral-shaft fractures in children whose size, fracture stability, and canal can support balanced elastic fixation.",
+      "claim_ids": [
+        "pediatric_femur_retrograde_esin_entries_indications_01"
+      ]
+    }
+  ],
+  "relative_contraindications": [
+    {
+      "text": "Favor another construct for length-unstable patterns, very proximal or distal fractures, inadequate canal size, severe obesity, local infection, or inability to protect the physis.",
+      "claim_ids": [
+        "pediatric_femur_retrograde_esin_entries_relative_contraindications_01"
+      ]
+    }
+  ],
+  "implant_implications": [
+    {
+      "text": "Use two equal-diameter precontoured nails with opposing bends and symmetric entries; bury or trim ends to avoid knee and soft-tissue irritation without preventing removal.",
+      "claim_ids": [
+        "pediatric_femur_retrograde_esin_entries_implant_implications_01"
+      ]
+    }
+  ],
+  "fluoroscopy_implications": [
+    {
+      "text": "Confirm physeal distance and sagittal centering for both portals, then monitor canal passage, reduction, length, axes, rotation, and final nail-end position.",
+      "claim_ids": [
+        "pediatric_femur_retrograde_esin_entries_fluoroscopy_implications_01"
+      ]
+    }
+  ],
+  "closure": [
+    {
+      "text": "Confirm hemostasis and nonprominent nail ends, release entrapped soft tissue, and close subcutaneous tissue and skin, preferably with absorbable sutures.",
+      "claim_ids": [
+        "pediatric_femur_retrograde_esin_entries_closure_01"
+      ]
+    }
+  ],
+  "complications": [
+    {
+      "text": "Complications include physeal injury, cortical split, malalignment or shortening, nail migration, medial or lateral irritation, knee stiffness, infection, delayed union, and refracture.",
+      "claim_ids": [
+        "pediatric_femur_retrograde_esin_entries_complications_01"
+      ]
+    }
+  ],
+  "bailouts": [
+    {
+      "text": "If a portal is unsafe or the fracture remains unstable after balanced nails, stop, revise the entry or reduction under direct vision, supplement fixation, or change constructs.",
+      "claim_ids": [
+        "pediatric_femur_retrograde_esin_entries_bailouts_01"
+      ]
+    }
+  ],
+  "procedure_applications": [
+    {
+      "procedure_id": "femoral_shaft_fracture_orif",
+      "relationship": "conditional_option",
+      "condition": "A pediatric femoral-shaft fracture is suitable for paired retrograde elastic nails and safe distal metaphyseal entry above the open physis"
+    }
+  ],
+  "questions": [
+    {
+      "question": "How far proximal to the physis are retrograde ESIN entries?",
+      "answer": "Two to three centimeters.",
+      "claim_ids": [
+        "pediatric_femur_retrograde_esin_entries_questions_01"
+      ]
+    },
+    {
+      "question": "Where are the entries on the sagittal plane?",
+      "answer": "In the middle of the femoral shaft.",
+      "claim_ids": [
+        "pediatric_femur_retrograde_esin_entries_questions_02"
+      ]
+    },
+    {
+      "question": "Why are the two portals placed at the same level?",
+      "answer": "To create balanced opposing elastic fixation and avoid asymmetric deforming forces.",
+      "claim_ids": [
+        "pediatric_femur_retrograde_esin_entries_questions_03"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "pediatric_femur_retrograde_esin_entries_positioning_01",
+      "text": "Position supine with the knee and distal femur accessible and the full femur imageable on orthogonal views.",
+      "source_ids": [
+        "ao_beea67bebaa21b9e",
+        "pmid_26528014"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "pediatric_femur_retrograde_esin_entries_setup_01",
+      "text": "Map the distal femoral physis, template two equal elastic nails and balanced curves, and ensure reduction and imaging from knee to hip.",
+      "source_ids": [
+        "ao_beea67bebaa21b9e",
+        "pmid_26528014"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "pediatric_femur_retrograde_esin_entries_surface_landmarks_01",
+      "text": "Mark the medial and lateral epicondyles, joint line, distal femoral physis under fluoroscopy, shaft center, and symmetric planned entry levels.",
+      "source_ids": [
+        "ao_beea67bebaa21b9e"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "pediatric_femur_retrograde_esin_entries_incision_01",
+      "text": "Make separate approximately 3-cm medial and lateral incisions beginning at each entry and extending distally to permit oblique nail advancement.",
+      "source_ids": [
+        "ao_beea67bebaa21b9e",
+        "pmid_26528014"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "pediatric_femur_retrograde_esin_entries_superficial_interval_01",
+      "text": "Spread fascia and muscle bluntly on each side to expose cortex while protecting medial neurovascular and lateral soft-tissue structures.",
+      "source_ids": [
+        "ao_beea67bebaa21b9e",
+        "pmid_26528014"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "pediatric_femur_retrograde_esin_entries_deep_interval_01",
+      "text": "Create entries at the same axial level, 2–3 cm proximal to the growth plate, centered in the shaft on the sagittal plane and directed away from the physis.",
+      "source_ids": [
+        "ao_beea67bebaa21b9e",
+        "pmid_26528014"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "pediatric_femur_retrograde_esin_entries_layers_01",
+      "text": "Skin, subcutaneous tissue, medial or lateral fascia and muscle, periosteum, distal metaphyseal cortex, then medullary canal.",
+      "source_ids": [
+        "ao_beea67bebaa21b9e"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "pediatric_femur_retrograde_esin_entries_structures_encountered_01",
+      "text": "Distal femoral physis, medial and lateral metaphyseal cortex, vastus medialis and lateralis, periosteum, and canal are encountered.",
+      "source_ids": [
+        "ao_beea67bebaa21b9e",
+        "pmid_26528014"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "pediatric_femur_retrograde_esin_entries_structures_at_risk_01",
+      "text": "The distal femoral physis, saphenous nerve and vein medially, lateral soft tissues, cortex, knee capsule, and femoral vessels with uncontrolled medial passage are at risk.",
+      "source_ids": [
+        "ao_beea67bebaa21b9e",
+        "pmid_26528014"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "pediatric_femur_retrograde_esin_entries_danger_zones_01",
+      "text": "Entry closer than 2 cm to the physis risks growth injury; asymmetric, posterior, or closely placed portals risk cortical split, malalignment, or soft-tissue injury.",
+      "source_ids": [
+        "ao_beea67bebaa21b9e",
+        "pmid_26528014"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "pediatric_femur_retrograde_esin_entries_retraction_hazards_01",
+      "text": "Use blunt dissection and protective sleeves to bone; avoid blind medial clamping, forceful nail-end levering, and soft-tissue entrapment around rotating nails.",
+      "source_ids": [
+        "ao_beea67bebaa21b9e",
+        "pmid_26528014"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "pediatric_femur_retrograde_esin_entries_exposure_01",
+      "text": "Provides balanced paired retrograde access to the femoral canal while avoiding the hip and leaving the fracture zone closed.",
+      "source_ids": [
+        "ao_beea67bebaa21b9e",
+        "pmid_15260414"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "pediatric_femur_retrograde_esin_entries_limitations_01",
+      "text": "Best suited to appropriately sized children and length-stable diaphyseal patterns; heavier children and unstable proximal or distal patterns have less reliable control.",
+      "source_ids": [
+        "pmid_26528014",
+        "pmid_15260414"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "pediatric_femur_retrograde_esin_entries_extensions_01",
+      "text": "Lengthen either incision for controlled cortical visualization rather than accepting an uncertain percutaneous portal or prominent nail end.",
+      "source_ids": [
+        "ao_beea67bebaa21b9e",
+        "pmid_26528014"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "pediatric_femur_retrograde_esin_entries_indications_01",
+      "text": "Use for selected pediatric femoral-shaft fractures in children whose size, fracture stability, and canal can support balanced elastic fixation.",
+      "source_ids": [
+        "pmid_26528014",
+        "pmid_15260414"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "pediatric_femur_retrograde_esin_entries_relative_contraindications_01",
+      "text": "Favor another construct for length-unstable patterns, very proximal or distal fractures, inadequate canal size, severe obesity, local infection, or inability to protect the physis.",
+      "source_ids": [
+        "pmid_26528014",
+        "pmid_15260414"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "pediatric_femur_retrograde_esin_entries_implant_implications_01",
+      "text": "Use two equal-diameter precontoured nails with opposing bends and symmetric entries; bury or trim ends to avoid knee and soft-tissue irritation without preventing removal.",
+      "source_ids": [
+        "ao_beea67bebaa21b9e",
+        "pmid_26528014"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "pediatric_femur_retrograde_esin_entries_fluoroscopy_implications_01",
+      "text": "Confirm physeal distance and sagittal centering for both portals, then monitor canal passage, reduction, length, axes, rotation, and final nail-end position.",
+      "source_ids": [
+        "ao_beea67bebaa21b9e",
+        "pmid_26528014"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "pediatric_femur_retrograde_esin_entries_closure_01",
+      "text": "Confirm hemostasis and nonprominent nail ends, release entrapped soft tissue, and close subcutaneous tissue and skin, preferably with absorbable sutures.",
+      "source_ids": [
+        "ao_beea67bebaa21b9e",
+        "pmid_26528014"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "pediatric_femur_retrograde_esin_entries_complications_01",
+      "text": "Complications include physeal injury, cortical split, malalignment or shortening, nail migration, medial or lateral irritation, knee stiffness, infection, delayed union, and refracture.",
+      "source_ids": [
+        "ao_beea67bebaa21b9e",
+        "pmid_26528014",
+        "pmid_15260414"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "pediatric_femur_retrograde_esin_entries_bailouts_01",
+      "text": "If a portal is unsafe or the fracture remains unstable after balanced nails, stop, revise the entry or reduction under direct vision, supplement fixation, or change constructs.",
+      "source_ids": [
+        "ao_beea67bebaa21b9e",
+        "pmid_26528014"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "pediatric_femur_retrograde_esin_entries_questions_01",
+      "text": "How far proximal to the physis are retrograde ESIN entries?",
+      "source_ids": [
+        "ao_beea67bebaa21b9e"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "pediatric_femur_retrograde_esin_entries_questions_02",
+      "text": "Where are the entries on the sagittal plane?",
+      "source_ids": [
+        "ao_beea67bebaa21b9e"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "pediatric_femur_retrograde_esin_entries_questions_03",
+      "text": "Why are the two portals placed at the same level?",
+      "source_ids": [
+        "pmid_26528014"
+      ],
+      "risk_level": "medium"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "ao_beea67bebaa21b9e",
+      "provider": "AO Surgery Reference",
+      "title": "ESIN Entry Points For Retrograde Nailing",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/pediatric-trauma/femoral-shaft/approach/esin-entry-points-for-retrograde-nailing",
+      "source_page_id": "ao_beea67bebaa21b9e"
+    },
+    {
+      "source_id": "pmid_26528014",
+      "provider": "PubMed",
+      "title": "Elastic Stable Intramedullary Nailing for Fractures in Children - Specific Applications",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/26528014/"
+    },
+    {
+      "source_id": "pmid_15260414",
+      "provider": "PubMed",
+      "title": "Femoral shaft fractures in children: elastic stable intramedullary nailing in 31 cases",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/15260414/"
+    }
+  ],
+  "content_status": "agent_review_pending",
+  "review": {
+    "status": "agent_review_pending",
+    "required_roles": [
+      "adversarial_safety_reviewer",
+      "approach_anatomy_reviewer",
+      "educational_value_reviewer",
+      "evidence_reviewer",
+      "operative_exposure_reviewer",
+      "procedure_applicability_reviewer"
+    ],
+    "completed_roles": []
+  },
+  "resolved_contradiction_keys": [],
+  "authoring_provenance": {
+    "method": "local_codex_curated",
+    "definition_file": "data/approach_library/curated/pediatric_femoral_shaft_nailing_entries_v1.json",
+    "api_used": false
+  }
+}

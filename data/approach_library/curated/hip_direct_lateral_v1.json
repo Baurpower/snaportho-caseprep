@@ -1,0 +1,48 @@
+{
+  "approaches": [
+    {
+      "approach_id": "lateral_hardinge_hip",
+      "name": "Direct lateral hip approach (Hardinge/transgluteal)",
+      "aliases": ["Hardinge approach", "direct lateral approach", "transgluteal approach"],
+      "region": "hip and proximal femur",
+      "joint": "hip",
+      "bones": ["pelvis", "proximal femur"],
+      "corridor": "Transgluteal split through the anterior gluteus medius and minimus, continued distally through vastus lateralis",
+      "sources": [
+        {"source_id": "ao_d8ca0beae6b324ee", "provider": "AO Surgery Reference", "title": "Direct lateral approach", "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/proximal-femur/approach/direct-lateral-approach", "source_page_id": "ao_d8ca0beae6b324ee"},
+        {"source_id": "orthobullets_dfbb14bdfea1f5a7", "provider": "Orthobullets", "title": "Hip Direct Lateral Approach (Hardinge, Transgluteal)", "url": "https://www.orthobullets.com/approaches/12022/hip-direct-lateral-approach-hardinge-transgluteal", "source_page_id": "orthobullets_dfbb14bdfea1f5a7"}
+      ],
+      "procedure_applications": [
+        {"procedure_id": "hip_hemiarthroplasty", "relationship": "primary_option", "condition": "Direct lateral exposure selected"},
+        {"procedure_id": "total_hip_arthroplasty", "relationship": "primary_option", "condition": "Direct lateral exposure selected"}
+      ],
+      "sections": {
+        "positioning": [{"text": "Position the patient supine or lateral with the greater trochanter accessible and the leg free for manipulation.", "source_ids": ["ao_d8ca0beae6b324ee", "orthobullets_dfbb14bdfea1f5a7"]}],
+        "setup": [{"text": "Prep the operative limb freely so rotation, adduction, and extension can be used during femoral exposure.", "source_ids": ["ao_d8ca0beae6b324ee", "orthobullets_dfbb14bdfea1f5a7"]}],
+        "surface_landmarks": [{"text": "Mark the greater trochanter, femoral shaft, and the longitudinal axis of the proximal femur.", "source_ids": ["ao_d8ca0beae6b324ee", "orthobullets_dfbb14bdfea1f5a7"]}],
+        "incision": [{"text": "Center a longitudinal incision over the greater trochanter and extend distally along the lateral femoral shaft as required.", "source_ids": ["ao_d8ca0beae6b324ee", "orthobullets_dfbb14bdfea1f5a7"]}],
+        "superficial_interval": [{"text": "Incise fascia lata in line with the skin incision and expose the gluteus medius insertion and proximal vastus lateralis.", "source_ids": ["ao_d8ca0beae6b324ee", "orthobullets_dfbb14bdfea1f5a7"]}],
+        "deep_interval": [{"text": "Split the anterior portion of gluteus medius in line with its fibers, continue through gluteus minimus, and carry the sleeve distally into vastus lateralis.", "source_ids": ["ao_d8ca0beae6b324ee", "orthobullets_dfbb14bdfea1f5a7"], "risk_level": "high"}],
+        "layers": [{"text": "Skin, subcutaneous tissue, fascia lata, anterior gluteus medius, gluteus minimus, and hip capsule; the distal exposure continues through vastus lateralis.", "source_ids": ["ao_d8ca0beae6b324ee", "orthobullets_dfbb14bdfea1f5a7"]}],
+        "structures_encountered": [{"text": "The anterior abductor sleeve is elevated from the greater trochanter while preserving tissue for secure repair.", "source_ids": ["ao_d8ca0beae6b324ee", "orthobullets_dfbb14bdfea1f5a7"]}],
+        "structures_at_risk": [{"text": "The superior gluteal nerve is endangered by excessive proximal splitting of gluteus medius.", "source_ids": ["ao_d8ca0beae6b324ee", "orthobullets_dfbb14bdfea1f5a7"], "risk_level": "high"}, {"text": "The abductor mechanism is at risk if the anterior sleeve is damaged or inadequately repaired.", "source_ids": ["ao_d8ca0beae6b324ee", "orthobullets_dfbb14bdfea1f5a7"], "risk_level": "high"}],
+        "danger_zones": [{"text": "Limit the proximal gluteus medius split to the safe distance described for the exposure and do not extend blindly toward the superior gluteal neurovascular bundle.", "source_ids": ["ao_d8ca0beae6b324ee", "orthobullets_dfbb14bdfea1f5a7"], "risk_level": "high"}],
+        "retraction_hazards": [{"text": "Place acetabular and femoral retractors directly on bone and avoid deep posterior placement that could threaten the sciatic nerve.", "source_ids": ["ao_d8ca0beae6b324ee", "orthobullets_dfbb14bdfea1f5a7"], "risk_level": "high"}],
+        "exposure": [{"text": "Provides broad access to the lateral proximal femur, femoral neck, and hip joint for arthroplasty and selected proximal-femoral procedures.", "source_ids": ["ao_d8ca0beae6b324ee", "orthobullets_dfbb14bdfea1f5a7"]}],
+        "limitations": [{"text": "The approach violates part of the abductor mechanism and can produce postoperative limp or weakness if the split or repair is inadequate.", "source_ids": ["ao_d8ca0beae6b324ee", "orthobullets_dfbb14bdfea1f5a7"]}],
+        "extensions": [{"text": "Extend distally along the lateral femur through vastus lateralis when additional shaft or implant access is needed.", "source_ids": ["ao_d8ca0beae6b324ee", "orthobullets_dfbb14bdfea1f5a7"]}],
+        "indications": [{"text": "Commonly used for hip hemiarthroplasty and total hip arthroplasty and adaptable to procedures requiring lateral proximal-femoral exposure.", "source_ids": ["ao_d8ca0beae6b324ee", "orthobullets_dfbb14bdfea1f5a7"]}],
+        "relative_contraindications": [{"text": "Consider an alternative when pre-existing abductor deficiency makes further transgluteal injury unacceptable or when the required exposure lies outside this corridor.", "source_ids": ["ao_d8ca0beae6b324ee", "orthobullets_dfbb14bdfea1f5a7"]}],
+        "implant_implications": [{"text": "Preserve enough anterior abductor–vastus sleeve for repair and ensure the exposure permits controlled femoral preparation without levering on the greater trochanter.", "source_ids": ["ao_d8ca0beae6b324ee", "orthobullets_dfbb14bdfea1f5a7"]}],
+        "fluoroscopy_implications": [{"text": "When imaging is required, confirm that positioning and draping allow unobstructed AP and lateral views before incision.", "source_ids": ["ao_d8ca0beae6b324ee"]}],
+        "closure": [{"text": "Repair capsule as indicated and securely reattach the anterior gluteus medius–minimus–vastus sleeve before closing fascia lata, subcutaneous tissue, and skin.", "source_ids": ["ao_d8ca0beae6b324ee", "orthobullets_dfbb14bdfea1f5a7"], "risk_level": "high"}],
+        "complications": [{"text": "Approach-specific complications include superior gluteal nerve injury, abductor insufficiency, Trendelenburg gait, heterotopic ossification, and general arthroplasty complications.", "source_ids": ["ao_d8ca0beae6b324ee", "orthobullets_dfbb14bdfea1f5a7"], "risk_level": "high"}],
+        "bailouts": [{"text": "If femoral access is inadequate, extend the lateral exposure in a controlled fashion rather than enlarging the proximal abductor split or applying forceful retraction.", "source_ids": ["ao_d8ca0beae6b324ee", "orthobullets_dfbb14bdfea1f5a7"]}],
+        "questions": [
+          {"question": "Which nerve limits proximal extension of the direct lateral approach?", "answer": "The superior gluteal nerve.", "source_ids": ["ao_d8ca0beae6b324ee", "orthobullets_dfbb14bdfea1f5a7"]},
+          {"question": "What functional complication follows failed abductor repair?", "answer": "Abductor weakness with a Trendelenburg limp or gait.", "source_ids": ["ao_d8ca0beae6b324ee", "orthobullets_dfbb14bdfea1f5a7"]}
+        ]
+      }
+    }
+  ]
+}

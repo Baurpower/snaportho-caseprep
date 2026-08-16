@@ -1,0 +1,474 @@
+{
+  "schema_version": "brobot_approach_packet_v1",
+  "approach_id": "distal_femur_gerdy_tubercle_osteotomy",
+  "name": "Gerdy-tubercle osteotomy approach for a lateral Hoffa fracture",
+  "aliases": [
+    "Gerdy's tubercle osteotomy",
+    "posterior lateral condyle approach",
+    "lateral Hoffa posterior screw approach"
+  ],
+  "region": "lateral knee and posterior lateral femoral condyle",
+  "joint": "knee",
+  "bones": [
+    "lateral femoral condyle",
+    "Gerdy tubercle",
+    "proximal tibia"
+  ],
+  "corridor": "Extended lateral knee exposure with osteotomy of the iliotibial-band insertion at Gerdy tubercle to reach the posterior lateral condyle",
+  "positioning": [
+    {
+      "text": "Position supine with a bump or lateral tilt and the knee freely flexible so the lateral and posterior condyle can be accessed and imaged.",
+      "claim_ids": [
+        "distal_femur_gerdy_tubercle_osteotomy_positioning_01"
+      ]
+    }
+  ],
+  "setup": [
+    {
+      "text": "Review thin-cut CT for fragment morphology, plan osteotomy fixation before incision, and prepare direct posterior-condyle reduction, lag-screw, and buttress options.",
+      "claim_ids": [
+        "distal_femur_gerdy_tubercle_osteotomy_setup_01"
+      ]
+    }
+  ],
+  "surface_landmarks": [
+    {
+      "text": "Mark patella, joint line, fibular head, Gerdy tubercle, iliotibial band, lateral epicondyle, and peroneal-nerve course.",
+      "claim_ids": [
+        "distal_femur_gerdy_tubercle_osteotomy_surface_landmarks_01"
+      ]
+    }
+  ],
+  "incision": [
+    {
+      "text": "Use a lateral knee incision centered over the distal iliotibial band and Gerdy tubercle, extending proximally and distally for the planned osteotomy and condylar access.",
+      "claim_ids": [
+        "distal_femur_gerdy_tubercle_osteotomy_incision_01"
+      ]
+    }
+  ],
+  "superficial_interval": [
+    {
+      "text": "Expose the iliotibial-band insertion as a repairable unit, preserve lateral sensory tissue, and identify the posterolateral danger zone before osteotomy.",
+      "claim_ids": [
+        "distal_femur_gerdy_tubercle_osteotomy_superficial_interval_01"
+      ]
+    }
+  ],
+  "deep_interval": [
+    {
+      "text": "Create and mobilize a controlled Gerdy-tubercle osteotomy with the iliotibial-band attachment, then develop the lateral capsular interval to the posterior lateral femoral condyle.",
+      "claim_ids": [
+        "distal_femur_gerdy_tubercle_osteotomy_deep_interval_01"
+      ]
+    }
+  ],
+  "layers": [
+    {
+      "text": "Skin, subcutaneous tissue, iliotibial band and Gerdy insertion, osteotomy fragment, lateral capsule and posterolateral soft tissues, then posterior lateral condyle.",
+      "claim_ids": [
+        "distal_femur_gerdy_tubercle_osteotomy_layers_01"
+      ]
+    }
+  ],
+  "structures_encountered": [
+    {
+      "text": "Iliotibial band, Gerdy tubercle, lateral capsule, lateral meniscus, lateral collateral and popliteus region, posterior condylar cartilage, and Hoffa fragment are encountered.",
+      "claim_ids": [
+        "distal_femur_gerdy_tubercle_osteotomy_structures_encountered_01"
+      ]
+    }
+  ],
+  "structures_at_risk": [
+    {
+      "text": "Common peroneal nerve, popliteal vessels, lateral meniscus, popliteus, lateral collateral complex, articular cartilage, and osteotomy fragment are at risk.",
+      "claim_ids": [
+        "distal_femur_gerdy_tubercle_osteotomy_structures_at_risk_01"
+      ]
+    }
+  ],
+  "danger_zones": [
+    {
+      "text": "Posterior dissection and posterior-to-anterior drilling approach the popliteal bundle; maintain direct bony contact, guarded depth, and fluoroscopic control.",
+      "claim_ids": [
+        "distal_femur_gerdy_tubercle_osteotomy_danger_zones_01"
+      ]
+    }
+  ],
+  "retraction_hazards": [
+    {
+      "text": "Avoid forceful posterolateral retraction that tensions the peroneal nerve or collateral structures, and protect the meniscus and cartilage from retractors.",
+      "claim_ids": [
+        "distal_femur_gerdy_tubercle_osteotomy_retraction_hazards_01"
+      ]
+    }
+  ],
+  "exposure": [
+    {
+      "text": "Provides direct access to the posterior lateral condylar articular surface and enables posterior-to-anterior lag-screw placement or posterior buttressing.",
+      "claim_ids": [
+        "distal_femur_gerdy_tubercle_osteotomy_exposure_01"
+      ]
+    }
+  ],
+  "limitations": [
+    {
+      "text": "This specialized approach adds an osteotomy requiring repair and is not appropriate for medial Hoffa fragments or fractures adequately exposed by a standard parapatellar route.",
+      "claim_ids": [
+        "distal_femur_gerdy_tubercle_osteotomy_limitations_01"
+      ]
+    }
+  ],
+  "extensions": [
+    {
+      "text": "Extend proximally along the lateral distal femur or combine with a parapatellar arthrotomy when broader anterior articular visualization is required.",
+      "claim_ids": [
+        "distal_femur_gerdy_tubercle_osteotomy_extensions_01"
+      ]
+    }
+  ],
+  "indications": [
+    {
+      "text": "Use selectively for a lateral coronal-plane Hoffa fracture when posterior fragment visualization and posterior-to-anterior fixation cannot be achieved safely through a simpler exposure.",
+      "claim_ids": [
+        "distal_femur_gerdy_tubercle_osteotomy_indications_01"
+      ]
+    }
+  ],
+  "relative_contraindications": [
+    {
+      "text": "Avoid for medial condylar fragments, inadequate Gerdy-tubercle bone, compromised lateral soft tissue, or when an alternative approach provides equivalent access without osteotomy.",
+      "claim_ids": [
+        "distal_femur_gerdy_tubercle_osteotomy_relative_contraindications_01"
+      ]
+    }
+  ],
+  "implant_implications": [
+    {
+      "text": "Plan posterior-to-anterior lag screws perpendicular to the fracture, add a buttress when shear demands it, and securely refix the Gerdy osteotomy without joint penetration.",
+      "claim_ids": [
+        "distal_femur_gerdy_tubercle_osteotomy_implant_implications_01"
+      ]
+    }
+  ],
+  "fluoroscopy_implications": [
+    {
+      "text": "Use AP, lateral, oblique, and tangential condylar views to confirm articular reduction, posterior screw start and length, and osteotomy fixation.",
+      "claim_ids": [
+        "distal_femur_gerdy_tubercle_osteotomy_fluoroscopy_implications_01"
+      ]
+    }
+  ],
+  "closure": [
+    {
+      "text": "Repair the capsule and any released lateral structures, anatomically reduce and fix the Gerdy fragment with the iliotibial band tension restored, then close fascia and skin.",
+      "claim_ids": [
+        "distal_femur_gerdy_tubercle_osteotomy_closure_01"
+      ]
+    }
+  ],
+  "complications": [
+    {
+      "text": "Complications include peroneal or popliteal injury, osteotomy nonunion or displacement, articular malreduction, stiffness, ligament or meniscal injury, infection, and post-traumatic arthritis.",
+      "claim_ids": [
+        "distal_femur_gerdy_tubercle_osteotomy_complications_01"
+      ]
+    }
+  ],
+  "bailouts": [
+    {
+      "text": "If posterior visualization remains unsafe, add a complementary exposure or revise fixation direction rather than drilling blindly toward the popliteal fossa.",
+      "claim_ids": [
+        "distal_femur_gerdy_tubercle_osteotomy_bailouts_01"
+      ]
+    }
+  ],
+  "procedure_applications": [
+    {
+      "procedure_id": "distal_femur_hoffa_fracture_orif",
+      "relationship": "conditional_option",
+      "condition": "A lateral Hoffa fragment requires posterior articular access and posterior-to-anterior lag-screw or buttress fixation"
+    }
+  ],
+  "questions": [
+    {
+      "question": "What fracture is the classic indication?",
+      "answer": "A lateral femoral-condyle Hoffa fracture needing posterior fixation.",
+      "claim_ids": [
+        "distal_femur_gerdy_tubercle_osteotomy_questions_01"
+      ]
+    },
+    {
+      "question": "What structure remains attached to the osteotomy fragment?",
+      "answer": "The iliotibial band at Gerdy tubercle.",
+      "claim_ids": [
+        "distal_femur_gerdy_tubercle_osteotomy_questions_02"
+      ]
+    },
+    {
+      "question": "Why use posterior-to-anterior screws?",
+      "answer": "They can be placed perpendicular to the coronal fracture plane and provide compression.",
+      "claim_ids": [
+        "distal_femur_gerdy_tubercle_osteotomy_questions_03"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "distal_femur_gerdy_tubercle_osteotomy_positioning_01",
+      "text": "Position supine with a bump or lateral tilt and the knee freely flexible so the lateral and posterior condyle can be accessed and imaged.",
+      "source_ids": [
+        "ao_f513ef103aef8ddd",
+        "pmid_23997126"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "distal_femur_gerdy_tubercle_osteotomy_setup_01",
+      "text": "Review thin-cut CT for fragment morphology, plan osteotomy fixation before incision, and prepare direct posterior-condyle reduction, lag-screw, and buttress options.",
+      "source_ids": [
+        "ao_f513ef103aef8ddd",
+        "pmid_23997126"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "distal_femur_gerdy_tubercle_osteotomy_surface_landmarks_01",
+      "text": "Mark patella, joint line, fibular head, Gerdy tubercle, iliotibial band, lateral epicondyle, and peroneal-nerve course.",
+      "source_ids": [
+        "ao_f513ef103aef8ddd",
+        "pmid_23997126"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "distal_femur_gerdy_tubercle_osteotomy_incision_01",
+      "text": "Use a lateral knee incision centered over the distal iliotibial band and Gerdy tubercle, extending proximally and distally for the planned osteotomy and condylar access.",
+      "source_ids": [
+        "ao_f513ef103aef8ddd",
+        "pmid_23997126"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "distal_femur_gerdy_tubercle_osteotomy_superficial_interval_01",
+      "text": "Expose the iliotibial-band insertion as a repairable unit, preserve lateral sensory tissue, and identify the posterolateral danger zone before osteotomy.",
+      "source_ids": [
+        "ao_f513ef103aef8ddd",
+        "pmid_23997126"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "distal_femur_gerdy_tubercle_osteotomy_deep_interval_01",
+      "text": "Create and mobilize a controlled Gerdy-tubercle osteotomy with the iliotibial-band attachment, then develop the lateral capsular interval to the posterior lateral femoral condyle.",
+      "source_ids": [
+        "ao_f513ef103aef8ddd",
+        "pmid_23997126"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "distal_femur_gerdy_tubercle_osteotomy_layers_01",
+      "text": "Skin, subcutaneous tissue, iliotibial band and Gerdy insertion, osteotomy fragment, lateral capsule and posterolateral soft tissues, then posterior lateral condyle.",
+      "source_ids": [
+        "ao_f513ef103aef8ddd",
+        "pmid_23997126"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "distal_femur_gerdy_tubercle_osteotomy_structures_encountered_01",
+      "text": "Iliotibial band, Gerdy tubercle, lateral capsule, lateral meniscus, lateral collateral and popliteus region, posterior condylar cartilage, and Hoffa fragment are encountered.",
+      "source_ids": [
+        "ao_f513ef103aef8ddd",
+        "pmid_23997126"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "distal_femur_gerdy_tubercle_osteotomy_structures_at_risk_01",
+      "text": "Common peroneal nerve, popliteal vessels, lateral meniscus, popliteus, lateral collateral complex, articular cartilage, and osteotomy fragment are at risk.",
+      "source_ids": [
+        "ao_f513ef103aef8ddd",
+        "pmid_23997126"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "distal_femur_gerdy_tubercle_osteotomy_danger_zones_01",
+      "text": "Posterior dissection and posterior-to-anterior drilling approach the popliteal bundle; maintain direct bony contact, guarded depth, and fluoroscopic control.",
+      "source_ids": [
+        "ao_f513ef103aef8ddd",
+        "pmid_23997126"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "distal_femur_gerdy_tubercle_osteotomy_retraction_hazards_01",
+      "text": "Avoid forceful posterolateral retraction that tensions the peroneal nerve or collateral structures, and protect the meniscus and cartilage from retractors.",
+      "source_ids": [
+        "ao_f513ef103aef8ddd",
+        "pmid_23997126"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "distal_femur_gerdy_tubercle_osteotomy_exposure_01",
+      "text": "Provides direct access to the posterior lateral condylar articular surface and enables posterior-to-anterior lag-screw placement or posterior buttressing.",
+      "source_ids": [
+        "ao_f513ef103aef8ddd",
+        "pmid_23997126"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "distal_femur_gerdy_tubercle_osteotomy_limitations_01",
+      "text": "This specialized approach adds an osteotomy requiring repair and is not appropriate for medial Hoffa fragments or fractures adequately exposed by a standard parapatellar route.",
+      "source_ids": [
+        "ao_f513ef103aef8ddd",
+        "pmid_29881228"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "distal_femur_gerdy_tubercle_osteotomy_extensions_01",
+      "text": "Extend proximally along the lateral distal femur or combine with a parapatellar arthrotomy when broader anterior articular visualization is required.",
+      "source_ids": [
+        "ao_f513ef103aef8ddd",
+        "pmid_23997126"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "distal_femur_gerdy_tubercle_osteotomy_indications_01",
+      "text": "Use selectively for a lateral coronal-plane Hoffa fracture when posterior fragment visualization and posterior-to-anterior fixation cannot be achieved safely through a simpler exposure.",
+      "source_ids": [
+        "ao_f513ef103aef8ddd",
+        "pmid_23997126",
+        "pmid_29881228"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "distal_femur_gerdy_tubercle_osteotomy_relative_contraindications_01",
+      "text": "Avoid for medial condylar fragments, inadequate Gerdy-tubercle bone, compromised lateral soft tissue, or when an alternative approach provides equivalent access without osteotomy.",
+      "source_ids": [
+        "ao_f513ef103aef8ddd",
+        "pmid_29881228"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "distal_femur_gerdy_tubercle_osteotomy_implant_implications_01",
+      "text": "Plan posterior-to-anterior lag screws perpendicular to the fracture, add a buttress when shear demands it, and securely refix the Gerdy osteotomy without joint penetration.",
+      "source_ids": [
+        "ao_f513ef103aef8ddd",
+        "pmid_23997126"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "distal_femur_gerdy_tubercle_osteotomy_fluoroscopy_implications_01",
+      "text": "Use AP, lateral, oblique, and tangential condylar views to confirm articular reduction, posterior screw start and length, and osteotomy fixation.",
+      "source_ids": [
+        "ao_f513ef103aef8ddd",
+        "pmid_23997126"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "distal_femur_gerdy_tubercle_osteotomy_closure_01",
+      "text": "Repair the capsule and any released lateral structures, anatomically reduce and fix the Gerdy fragment with the iliotibial band tension restored, then close fascia and skin.",
+      "source_ids": [
+        "ao_f513ef103aef8ddd",
+        "pmid_23997126"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "distal_femur_gerdy_tubercle_osteotomy_complications_01",
+      "text": "Complications include peroneal or popliteal injury, osteotomy nonunion or displacement, articular malreduction, stiffness, ligament or meniscal injury, infection, and post-traumatic arthritis.",
+      "source_ids": [
+        "ao_f513ef103aef8ddd",
+        "pmid_23997126",
+        "pmid_29881228"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "distal_femur_gerdy_tubercle_osteotomy_bailouts_01",
+      "text": "If posterior visualization remains unsafe, add a complementary exposure or revise fixation direction rather than drilling blindly toward the popliteal fossa.",
+      "source_ids": [
+        "ao_f513ef103aef8ddd",
+        "pmid_23997126"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "distal_femur_gerdy_tubercle_osteotomy_questions_01",
+      "text": "What fracture is the classic indication?",
+      "source_ids": [
+        "ao_f513ef103aef8ddd"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "distal_femur_gerdy_tubercle_osteotomy_questions_02",
+      "text": "What structure remains attached to the osteotomy fragment?",
+      "source_ids": [
+        "ao_f513ef103aef8ddd",
+        "pmid_23997126"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "distal_femur_gerdy_tubercle_osteotomy_questions_03",
+      "text": "Why use posterior-to-anterior screws?",
+      "source_ids": [
+        "pmid_23997126"
+      ],
+      "risk_level": "medium"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "ao_f513ef103aef8ddd",
+      "provider": "AO Surgery Reference",
+      "title": "Gerdy tubercle osteotomy approach",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/distal-femur/approach/gerdytubercle-osteotomy-approach",
+      "source_page_id": "ao_f513ef103aef8ddd"
+    },
+    {
+      "source_id": "pmid_23997126",
+      "provider": "PubMed",
+      "title": "Coronal plane partial articular fractures of the distal femoral condyle",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/23997126/"
+    },
+    {
+      "source_id": "pmid_29881228",
+      "provider": "PubMed",
+      "title": "The Hoffa fracture: a review",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/29881228/"
+    }
+  ],
+  "content_status": "agent_review_pending",
+  "review": {
+    "status": "agent_review_pending",
+    "required_roles": [
+      "adversarial_safety_reviewer",
+      "approach_anatomy_reviewer",
+      "educational_value_reviewer",
+      "evidence_reviewer",
+      "operative_exposure_reviewer",
+      "procedure_applicability_reviewer"
+    ],
+    "completed_roles": []
+  },
+  "resolved_contradiction_keys": [],
+  "authoring_provenance": {
+    "method": "local_codex_curated",
+    "definition_file": "data/approach_library/curated/distal_femur_lateral_articular_approaches_v1.json",
+    "api_used": false
+  }
+}

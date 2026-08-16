@@ -1,0 +1,455 @@
+{
+  "schema_version": "brobot_approach_packet_v1",
+  "approach_id": "calcaneus_medial_sustentacular",
+  "name": "Medial approach to the calcaneus",
+  "aliases": [
+    "medial sustentacular approach",
+    "medial calcaneal approach"
+  ],
+  "region": "medial hindfoot and calcaneus",
+  "joint": "subtalar joint",
+  "bones": [
+    "calcaneus",
+    "talus"
+  ],
+  "corridor": "Interval between the posterior tibial neurovascular bundle and flexor hallucis longus to the sustentaculum tali and medial calcaneal wall",
+  "positioning": [
+    {
+      "text": "Position supine with the hip externally rotated or use a bump so the medial hindfoot faces upward and remains accessible to imaging.",
+      "claim_ids": [
+        "calcaneus_medial_sustentacular_positioning_01"
+      ]
+    }
+  ],
+  "setup": [
+    {
+      "text": "Prep the leg and foot freely and confirm that lateral and axial heel fluoroscopic views can be obtained before incision.",
+      "claim_ids": [
+        "calcaneus_medial_sustentacular_setup_01"
+      ]
+    }
+  ],
+  "surface_landmarks": [
+    {
+      "text": "Mark the medial malleolus, navicular, sustentaculum tali, posterior tibial tendon, and anticipated course of the tarsal-tunnel neurovascular bundle.",
+      "claim_ids": [
+        "calcaneus_medial_sustentacular_surface_landmarks_01"
+      ]
+    }
+  ],
+  "incision": [
+    {
+      "text": "Place an approximately 5-cm incision parallel to the neurovascular bundle, centered inferior to the medial malleolus and directed toward the proximal navicular.",
+      "claim_ids": [
+        "calcaneus_medial_sustentacular_incision_01"
+      ]
+    }
+  ],
+  "superficial_interval": [
+    {
+      "text": "Open flexor retinaculum and identify posterior tibial tendon, flexor digitorum longus, posterior tibial vessels and nerve, and flexor hallucis longus before developing a deep window.",
+      "claim_ids": [
+        "calcaneus_medial_sustentacular_superficial_interval_01"
+      ]
+    }
+  ],
+  "deep_interval": [
+    {
+      "text": "Develop the interval between the posterior tibial neurovascular bundle and flexor hallucis longus, retracting FHL plantarly to expose sustentaculum and medial calcaneal wall.",
+      "claim_ids": [
+        "calcaneus_medial_sustentacular_deep_interval_01"
+      ]
+    }
+  ],
+  "layers": [
+    {
+      "text": "Skin and subcutaneous tissue, flexor retinaculum, identified tarsal-tunnel tendons and neurovascular bundle, interval beside FHL, then medial calcaneal periosteum and sustentaculum.",
+      "claim_ids": [
+        "calcaneus_medial_sustentacular_layers_01"
+      ]
+    }
+  ],
+  "structures_encountered": [
+    {
+      "text": "Posterior tibial tendon, flexor digitorum longus, posterior tibial artery/veins and tibial nerve, flexor hallucis longus, sustentaculum tali, and deltoid-ligament fibers define the field.",
+      "claim_ids": [
+        "calcaneus_medial_sustentacular_structures_encountered_01"
+      ]
+    }
+  ],
+  "structures_at_risk": [
+    {
+      "text": "The posterior tibial neurovascular bundle, medial calcaneal nerve branches, nerve to abductor digiti minimi, and flexor hallucis longus are at risk during exposure and fixation.",
+      "claim_ids": [
+        "calcaneus_medial_sustentacular_structures_at_risk_01"
+      ]
+    }
+  ],
+  "danger_zones": [
+    {
+      "text": "Do not create a blind window across the neurovascular bundle; identify every tarsal-tunnel structure and protect the bundle before working on either side of FHL.",
+      "claim_ids": [
+        "calcaneus_medial_sustentacular_danger_zones_01"
+      ]
+    }
+  ],
+  "retraction_hazards": [
+    {
+      "text": "Use gentle, intermittent retraction of the tibial neurovascular bundle and FHL and avoid fixed pressure within the confined tarsal tunnel.",
+      "claim_ids": [
+        "calcaneus_medial_sustentacular_retraction_hazards_01"
+      ]
+    }
+  ],
+  "exposure": [
+    {
+      "text": "Directly exposes the sustentaculum tali and medial/inferomedial calcaneal wall but does not provide the broad posterior-facet visualization of lateral approaches.",
+      "claim_ids": [
+        "calcaneus_medial_sustentacular_exposure_01"
+      ]
+    }
+  ],
+  "limitations": [
+    {
+      "text": "This is a targeted medial exposure for uncommon sustentacular or medial-wall pathology; most calcaneal fracture patterns are better addressed laterally or posteriorly.",
+      "claim_ids": [
+        "calcaneus_medial_sustentacular_limitations_01"
+      ]
+    }
+  ],
+  "extensions": [
+    {
+      "text": "Additional carefully separated windows may be developed around FHL and the protected bundle when fracture geometry requires more medial-wall access.",
+      "claim_ids": [
+        "calcaneus_medial_sustentacular_extensions_01"
+      ]
+    }
+  ],
+  "indications": [
+    {
+      "text": "Indicated for displaced sustentaculum-tali fractures, selected medial-wall reduction, and debridement of medial open calcaneal fractures.",
+      "claim_ids": [
+        "calcaneus_medial_sustentacular_indications_01"
+      ]
+    }
+  ],
+  "relative_contraindications": [
+    {
+      "text": "Avoid using this limited corridor as the sole exposure when posterior-facet, lateral-wall, or calcaneal-body reduction cannot be verified medially.",
+      "claim_ids": [
+        "calcaneus_medial_sustentacular_relative_contraindications_01"
+      ]
+    }
+  ],
+  "implant_implications": [
+    {
+      "text": "Plan screw and plate trajectories around the tibial neurovascular bundle and FHL and confirm that fixation does not penetrate the subtalar joint.",
+      "claim_ids": [
+        "calcaneus_medial_sustentacular_implant_implications_01"
+      ]
+    }
+  ],
+  "fluoroscopy_implications": [
+    {
+      "text": "Use image intensification to localize the sustentaculum and verify reduction, screw trajectory, and avoidance of subtalar penetration.",
+      "claim_ids": [
+        "calcaneus_medial_sustentacular_fluoroscopy_implications_01"
+      ]
+    }
+  ],
+  "closure": [
+    {
+      "text": "Release retractors and confirm neurovascular integrity, repair flexor retinaculum when appropriate, and close subcutaneous tissue and skin without tension.",
+      "claim_ids": [
+        "calcaneus_medial_sustentacular_closure_01"
+      ]
+    }
+  ],
+  "complications": [
+    {
+      "text": "Complications include tibial or medial-calcaneal neuropathy, posterior tibial vascular injury, FHL injury or tethering, medial instability, wound problems, and intra-articular fixation.",
+      "claim_ids": [
+        "calcaneus_medial_sustentacular_complications_01"
+      ]
+    }
+  ],
+  "bailouts": [
+    {
+      "text": "If neurovascular mobilization is unsafe or reduction cannot be assessed, stop blind medial work and add the fracture-appropriate lateral or posterior exposure.",
+      "claim_ids": [
+        "calcaneus_medial_sustentacular_bailouts_01"
+      ]
+    }
+  ],
+  "procedure_applications": [
+    {
+      "procedure_id": "calcaneus_fracture_orif",
+      "relationship": "conditional_option",
+      "condition": "A displaced sustentaculum-tali fragment or medial-wall target requires direct reduction"
+    },
+    {
+      "procedure_id": "calcaneus_open_fracture_debridement",
+      "relationship": "conditional_option",
+      "condition": "A medial open wound requires debridement and direct medial access"
+    }
+  ],
+  "questions": [
+    {
+      "question": "What interval reaches the sustentaculum through the medial approach?",
+      "answer": "Between the posterior tibial neurovascular bundle and flexor hallucis longus.",
+      "claim_ids": [
+        "calcaneus_medial_sustentacular_questions_01"
+      ]
+    },
+    {
+      "question": "Which ligamentous fibers should be preserved to avoid medial instability and protect talar blood supply?",
+      "answer": "The tibiocalcaneal portion of the deltoid ligament.",
+      "claim_ids": [
+        "calcaneus_medial_sustentacular_questions_02"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "calcaneus_medial_sustentacular_positioning_01",
+      "text": "Position supine with the hip externally rotated or use a bump so the medial hindfoot faces upward and remains accessible to imaging.",
+      "source_ids": [
+        "ao_b47e3bda0df67c85",
+        "orthobullets_33cf186941001c44"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "calcaneus_medial_sustentacular_setup_01",
+      "text": "Prep the leg and foot freely and confirm that lateral and axial heel fluoroscopic views can be obtained before incision.",
+      "source_ids": [
+        "ao_b47e3bda0df67c85",
+        "orthobullets_33cf186941001c44"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "calcaneus_medial_sustentacular_surface_landmarks_01",
+      "text": "Mark the medial malleolus, navicular, sustentaculum tali, posterior tibial tendon, and anticipated course of the tarsal-tunnel neurovascular bundle.",
+      "source_ids": [
+        "ao_b47e3bda0df67c85",
+        "orthobullets_33cf186941001c44"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "calcaneus_medial_sustentacular_incision_01",
+      "text": "Place an approximately 5-cm incision parallel to the neurovascular bundle, centered inferior to the medial malleolus and directed toward the proximal navicular.",
+      "source_ids": [
+        "ao_b47e3bda0df67c85",
+        "orthobullets_33cf186941001c44"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "calcaneus_medial_sustentacular_superficial_interval_01",
+      "text": "Open flexor retinaculum and identify posterior tibial tendon, flexor digitorum longus, posterior tibial vessels and nerve, and flexor hallucis longus before developing a deep window.",
+      "source_ids": [
+        "ao_b47e3bda0df67c85",
+        "orthobullets_33cf186941001c44"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "calcaneus_medial_sustentacular_deep_interval_01",
+      "text": "Develop the interval between the posterior tibial neurovascular bundle and flexor hallucis longus, retracting FHL plantarly to expose sustentaculum and medial calcaneal wall.",
+      "source_ids": [
+        "ao_b47e3bda0df67c85",
+        "orthobullets_33cf186941001c44"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "calcaneus_medial_sustentacular_layers_01",
+      "text": "Skin and subcutaneous tissue, flexor retinaculum, identified tarsal-tunnel tendons and neurovascular bundle, interval beside FHL, then medial calcaneal periosteum and sustentaculum.",
+      "source_ids": [
+        "ao_b47e3bda0df67c85",
+        "orthobullets_33cf186941001c44"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "calcaneus_medial_sustentacular_structures_encountered_01",
+      "text": "Posterior tibial tendon, flexor digitorum longus, posterior tibial artery/veins and tibial nerve, flexor hallucis longus, sustentaculum tali, and deltoid-ligament fibers define the field.",
+      "source_ids": [
+        "ao_b47e3bda0df67c85",
+        "orthobullets_33cf186941001c44"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "calcaneus_medial_sustentacular_structures_at_risk_01",
+      "text": "The posterior tibial neurovascular bundle, medial calcaneal nerve branches, nerve to abductor digiti minimi, and flexor hallucis longus are at risk during exposure and fixation.",
+      "source_ids": [
+        "ao_b47e3bda0df67c85",
+        "orthobullets_33cf186941001c44"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "calcaneus_medial_sustentacular_danger_zones_01",
+      "text": "Do not create a blind window across the neurovascular bundle; identify every tarsal-tunnel structure and protect the bundle before working on either side of FHL.",
+      "source_ids": [
+        "ao_b47e3bda0df67c85",
+        "orthobullets_33cf186941001c44"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "calcaneus_medial_sustentacular_retraction_hazards_01",
+      "text": "Use gentle, intermittent retraction of the tibial neurovascular bundle and FHL and avoid fixed pressure within the confined tarsal tunnel.",
+      "source_ids": [
+        "ao_b47e3bda0df67c85",
+        "orthobullets_33cf186941001c44"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "calcaneus_medial_sustentacular_exposure_01",
+      "text": "Directly exposes the sustentaculum tali and medial/inferomedial calcaneal wall but does not provide the broad posterior-facet visualization of lateral approaches.",
+      "source_ids": [
+        "ao_b47e3bda0df67c85",
+        "orthobullets_33cf186941001c44"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "calcaneus_medial_sustentacular_limitations_01",
+      "text": "This is a targeted medial exposure for uncommon sustentacular or medial-wall pathology; most calcaneal fracture patterns are better addressed laterally or posteriorly.",
+      "source_ids": [
+        "ao_b47e3bda0df67c85",
+        "orthobullets_33cf186941001c44"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "calcaneus_medial_sustentacular_extensions_01",
+      "text": "Additional carefully separated windows may be developed around FHL and the protected bundle when fracture geometry requires more medial-wall access.",
+      "source_ids": [
+        "ao_b47e3bda0df67c85"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "calcaneus_medial_sustentacular_indications_01",
+      "text": "Indicated for displaced sustentaculum-tali fractures, selected medial-wall reduction, and debridement of medial open calcaneal fractures.",
+      "source_ids": [
+        "ao_b47e3bda0df67c85",
+        "orthobullets_33cf186941001c44"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "calcaneus_medial_sustentacular_relative_contraindications_01",
+      "text": "Avoid using this limited corridor as the sole exposure when posterior-facet, lateral-wall, or calcaneal-body reduction cannot be verified medially.",
+      "source_ids": [
+        "ao_b47e3bda0df67c85",
+        "orthobullets_33cf186941001c44"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "calcaneus_medial_sustentacular_implant_implications_01",
+      "text": "Plan screw and plate trajectories around the tibial neurovascular bundle and FHL and confirm that fixation does not penetrate the subtalar joint.",
+      "source_ids": [
+        "ao_b47e3bda0df67c85",
+        "orthobullets_33cf186941001c44"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "calcaneus_medial_sustentacular_fluoroscopy_implications_01",
+      "text": "Use image intensification to localize the sustentaculum and verify reduction, screw trajectory, and avoidance of subtalar penetration.",
+      "source_ids": [
+        "ao_b47e3bda0df67c85",
+        "orthobullets_33cf186941001c44"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "calcaneus_medial_sustentacular_closure_01",
+      "text": "Release retractors and confirm neurovascular integrity, repair flexor retinaculum when appropriate, and close subcutaneous tissue and skin without tension.",
+      "source_ids": [
+        "ao_b47e3bda0df67c85",
+        "orthobullets_33cf186941001c44"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "calcaneus_medial_sustentacular_complications_01",
+      "text": "Complications include tibial or medial-calcaneal neuropathy, posterior tibial vascular injury, FHL injury or tethering, medial instability, wound problems, and intra-articular fixation.",
+      "source_ids": [
+        "ao_b47e3bda0df67c85",
+        "orthobullets_33cf186941001c44"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "calcaneus_medial_sustentacular_bailouts_01",
+      "text": "If neurovascular mobilization is unsafe or reduction cannot be assessed, stop blind medial work and add the fracture-appropriate lateral or posterior exposure.",
+      "source_ids": [
+        "ao_b47e3bda0df67c85",
+        "orthobullets_33cf186941001c44"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "calcaneus_medial_sustentacular_questions_01",
+      "text": "What interval reaches the sustentaculum through the medial approach?",
+      "source_ids": [
+        "ao_b47e3bda0df67c85",
+        "orthobullets_33cf186941001c44"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "calcaneus_medial_sustentacular_questions_02",
+      "text": "Which ligamentous fibers should be preserved to avoid medial instability and protect talar blood supply?",
+      "source_ids": [
+        "ao_b47e3bda0df67c85",
+        "orthobullets_33cf186941001c44"
+      ],
+      "risk_level": "medium"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "ao_b47e3bda0df67c85",
+      "provider": "AO Surgery Reference",
+      "title": "Medial approach",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/calcaneous/approach/medial-approach",
+      "source_page_id": "ao_b47e3bda0df67c85"
+    },
+    {
+      "source_id": "orthobullets_33cf186941001c44",
+      "provider": "Orthobullets",
+      "title": "Medial Approach to Calcaneus",
+      "url": "https://www.orthobullets.com/approaches/12046/medial-approach-to-calcaneus",
+      "source_page_id": "orthobullets_33cf186941001c44"
+    }
+  ],
+  "content_status": "agent_review_pending",
+  "review": {
+    "status": "agent_review_pending",
+    "required_roles": [
+      "adversarial_safety_reviewer",
+      "approach_anatomy_reviewer",
+      "educational_value_reviewer",
+      "evidence_reviewer",
+      "operative_exposure_reviewer",
+      "procedure_applicability_reviewer"
+    ],
+    "completed_roles": []
+  },
+  "resolved_contradiction_keys": [],
+  "authoring_provenance": {
+    "method": "local_codex_curated",
+    "definition_file": "data/approach_library/curated/calcaneus_limited_v1.json",
+    "api_used": false
+  }
+}

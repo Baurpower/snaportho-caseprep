@@ -1,0 +1,466 @@
+{
+  "schema_version": "brobot_approach_packet_v1",
+  "approach_id": "femoral_shaft_lateral_open",
+  "name": "Direct lateral approach to the femoral shaft",
+  "aliases": [
+    "lateral femoral shaft approach",
+    "open lateral thigh approach",
+    "vastus lateralis elevation approach"
+  ],
+  "region": "thigh",
+  "joint": "extra-articular",
+  "bones": [
+    "femoral shaft"
+  ],
+  "corridor": "Through fascia lata, then along the posterior border of vastus lateralis with anterior extraperiosteal elevation from the lateral intermuscular septum and linea aspera",
+  "positioning": [
+    {
+      "text": "Position supine with the injured side elevated or lateral, keeping the entire thigh accessible and permitting AP and lateral fluoroscopy from hip to knee.",
+      "claim_ids": [
+        "femoral_shaft_lateral_open_positioning_01"
+      ]
+    }
+  ],
+  "setup": [
+    {
+      "text": "Prepare the full limb, plan plate length and reduction strategy, and ensure blood products and vascular control are available because shaft fractures and profunda perforators can produce substantial blood loss.",
+      "claim_ids": [
+        "femoral_shaft_lateral_open_setup_01"
+      ]
+    }
+  ],
+  "surface_landmarks": [
+    {
+      "text": "Mark the greater trochanter, lateral epicondyle, lateral joint line, palpable shaft axis, and fracture level; the incision follows the line between trochanter and lateral epicondyle.",
+      "claim_ids": [
+        "femoral_shaft_lateral_open_surface_landmarks_01"
+      ]
+    }
+  ],
+  "incision": [
+    {
+      "text": "Center a longitudinal lateral incision over the required shaft exposure on the line from the greater trochanter to the lateral epicondyle, extending only as required for reduction and fixation.",
+      "claim_ids": [
+        "femoral_shaft_lateral_open_incision_01"
+      ]
+    }
+  ],
+  "superficial_interval": [
+    {
+      "text": "Split fascia lata in line with the skin incision and separate or retract vastus lateralis anteromedially to identify its posterior fascial border.",
+      "claim_ids": [
+        "femoral_shaft_lateral_open_superficial_interval_01"
+      ]
+    }
+  ],
+  "deep_interval": [
+    {
+      "text": "Incise vastus lateralis fascia about 1 cm anterior to the lateral intermuscular septum, then detach vastus lateralis extraperiosteally from the septum and linea aspera while proceeding anteriorly onto the lateral shaft.",
+      "claim_ids": [
+        "femoral_shaft_lateral_open_deep_interval_01"
+      ]
+    }
+  ],
+  "layers": [
+    {
+      "text": "Skin, subcutaneous tissue, fascia lata, vastus lateralis fascia, extraperiosteal plane along the lateral intermuscular septum, then lateral femoral cortex.",
+      "claim_ids": [
+        "femoral_shaft_lateral_open_layers_01"
+      ]
+    }
+  ],
+  "structures_encountered": [
+    {
+      "text": "Fascia lata, vastus lateralis, lateral intermuscular septum, linea aspera, profunda femoris perforators, periosteum, and lateral femoral shaft are encountered.",
+      "claim_ids": [
+        "femoral_shaft_lateral_open_structures_encountered_01"
+      ]
+    }
+  ],
+  "structures_at_risk": [
+    {
+      "text": "Profunda femoris perforating vessels are the principal structures at risk; the major femoral neurovascular bundle remains medial/posteromedial and should not be exposed during a correctly lateral approach.",
+      "claim_ids": [
+        "femoral_shaft_lateral_open_structures_at_risk_01"
+      ]
+    }
+  ],
+  "danger_zones": [
+    {
+      "text": "Perforators traversing the posterior vastus and septum must be identified and securely ligated before division because a cut vessel can retract posteriorly and bleed occultly into the thigh.",
+      "claim_ids": [
+        "femoral_shaft_lateral_open_danger_zones_01"
+      ]
+    }
+  ],
+  "retraction_hazards": [
+    {
+      "text": "Place retractors directly on bone under vision and avoid deep medial or posterior passage, which can endanger the femoral vessels or sciatic nerve; excessive anterior retraction also devascularizes vastus lateralis.",
+      "claim_ids": [
+        "femoral_shaft_lateral_open_retraction_hazards_01"
+      ]
+    }
+  ],
+  "exposure": [
+    {
+      "text": "Provides extensile visualization of the lateral femoral shaft for direct reduction, debridement, bone grafting, and plate fixation.",
+      "claim_ids": [
+        "femoral_shaft_lateral_open_exposure_01"
+      ]
+    }
+  ],
+  "limitations": [
+    {
+      "text": "Wide exposure strips soft tissue and disrupts fracture biology; use the smallest exposure compatible with reduction and prefer indirect or minimally invasive methods when the fracture pattern permits.",
+      "claim_ids": [
+        "femoral_shaft_lateral_open_limitations_01"
+      ]
+    }
+  ],
+  "extensions": [
+    {
+      "text": "Extend distally along the lateral shaft; proximally release the vastus lateralis origin in an L shape and continue through the vertical interval between gluteus medius and vastus lateralis when proximal exposure is required.",
+      "claim_ids": [
+        "femoral_shaft_lateral_open_extensions_01"
+      ]
+    }
+  ],
+  "indications": [
+    {
+      "text": "Use when femoral-shaft plating requires direct reduction, when fracture-site debridement or grafting is necessary, or when a minimally invasive bridge construct cannot achieve the operative objective.",
+      "claim_ids": [
+        "femoral_shaft_lateral_open_indications_01"
+      ]
+    }
+  ],
+  "relative_contraindications": [
+    {
+      "text": "Avoid routine extensive exposure for simple fractures suitable for intramedullary fixation or biologic bridge plating, and modify the plan when lateral soft tissues are compromised or contaminated.",
+      "claim_ids": [
+        "femoral_shaft_lateral_open_relative_contraindications_01"
+      ]
+    }
+  ],
+  "implant_implications": [
+    {
+      "text": "Seat the plate on the lateral or anterolateral surface without trapping muscle, preserve fracture blood supply, and select plate length and screw density appropriate to compression versus bridge-plating mechanics.",
+      "claim_ids": [
+        "femoral_shaft_lateral_open_implant_implications_01"
+      ]
+    }
+  ],
+  "fluoroscopy_implications": [
+    {
+      "text": "Confirm length, coronal and sagittal axes, rotation, plate position, screw length, and the hip and knee before closure; direct visualization does not replace whole-femur imaging.",
+      "claim_ids": [
+        "femoral_shaft_lateral_open_fluoroscopy_implications_01"
+      ]
+    }
+  ],
+  "closure": [
+    {
+      "text": "Obtain meticulous perforator hemostasis, reapproximate vastus lateralis and fascia lata without excessive tension, and close subcutaneous tissue and skin while accounting for swelling.",
+      "claim_ids": [
+        "femoral_shaft_lateral_open_closure_01"
+      ]
+    }
+  ],
+  "complications": [
+    {
+      "text": "Complications include profunda bleeding and hematoma, thigh compartment syndrome, muscle devascularization, infection, malalignment, delayed union or nonunion, implant failure, stiffness, and iatrogenic neurovascular injury.",
+      "claim_ids": [
+        "femoral_shaft_lateral_open_complications_01"
+      ]
+    }
+  ],
+  "bailouts": [
+    {
+      "text": "For uncontrolled posterior bleeding, stop blind clamping, enlarge the exposure, identify the retracted perforator under direct vision, obtain vascular assistance when needed, and reassess compartment pressure and physiology.",
+      "claim_ids": [
+        "femoral_shaft_lateral_open_bailouts_01"
+      ]
+    }
+  ],
+  "procedure_applications": [
+    {
+      "procedure_id": "femoral_shaft_fracture_orif",
+      "relationship": "primary_option",
+      "condition": "Open reduction or direct lateral plate application is required rather than intramedullary or minimally invasive fixation"
+    }
+  ],
+  "questions": [
+    {
+      "question": "Where is vastus lateralis fascia opened?",
+      "answer": "About 1 cm anterior to the lateral intermuscular septum before extraperiosteal elevation from the septum and linea aspera.",
+      "claim_ids": [
+        "femoral_shaft_lateral_open_questions_01"
+      ]
+    },
+    {
+      "question": "Which vessels most commonly threaten this exposure?",
+      "answer": "The perforating branches of the profunda femoris artery.",
+      "claim_ids": [
+        "femoral_shaft_lateral_open_questions_02"
+      ]
+    },
+    {
+      "question": "Why can a divided perforator be deceptive?",
+      "answer": "It may retract posteriorly and continue bleeding out of view into the thigh.",
+      "claim_ids": [
+        "femoral_shaft_lateral_open_questions_03"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "femoral_shaft_lateral_open_positioning_01",
+      "text": "Position supine with the injured side elevated or lateral, keeping the entire thigh accessible and permitting AP and lateral fluoroscopy from hip to knee.",
+      "source_ids": [
+        "ao_ab876e208ec241f2",
+        "pmid_32310517"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "femoral_shaft_lateral_open_setup_01",
+      "text": "Prepare the full limb, plan plate length and reduction strategy, and ensure blood products and vascular control are available because shaft fractures and profunda perforators can produce substantial blood loss.",
+      "source_ids": [
+        "ao_ab876e208ec241f2",
+        "pmid_32310517"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "femoral_shaft_lateral_open_surface_landmarks_01",
+      "text": "Mark the greater trochanter, lateral epicondyle, lateral joint line, palpable shaft axis, and fracture level; the incision follows the line between trochanter and lateral epicondyle.",
+      "source_ids": [
+        "ao_ab876e208ec241f2"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "femoral_shaft_lateral_open_incision_01",
+      "text": "Center a longitudinal lateral incision over the required shaft exposure on the line from the greater trochanter to the lateral epicondyle, extending only as required for reduction and fixation.",
+      "source_ids": [
+        "ao_ab876e208ec241f2",
+        "pmid_9755780"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "femoral_shaft_lateral_open_superficial_interval_01",
+      "text": "Split fascia lata in line with the skin incision and separate or retract vastus lateralis anteromedially to identify its posterior fascial border.",
+      "source_ids": [
+        "ao_ab876e208ec241f2"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "femoral_shaft_lateral_open_deep_interval_01",
+      "text": "Incise vastus lateralis fascia about 1 cm anterior to the lateral intermuscular septum, then detach vastus lateralis extraperiosteally from the septum and linea aspera while proceeding anteriorly onto the lateral shaft.",
+      "source_ids": [
+        "ao_ab876e208ec241f2",
+        "pmid_9755780"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "femoral_shaft_lateral_open_layers_01",
+      "text": "Skin, subcutaneous tissue, fascia lata, vastus lateralis fascia, extraperiosteal plane along the lateral intermuscular septum, then lateral femoral cortex.",
+      "source_ids": [
+        "ao_ab876e208ec241f2"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "femoral_shaft_lateral_open_structures_encountered_01",
+      "text": "Fascia lata, vastus lateralis, lateral intermuscular septum, linea aspera, profunda femoris perforators, periosteum, and lateral femoral shaft are encountered.",
+      "source_ids": [
+        "ao_ab876e208ec241f2",
+        "pmid_32310517"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "femoral_shaft_lateral_open_structures_at_risk_01",
+      "text": "Profunda femoris perforating vessels are the principal structures at risk; the major femoral neurovascular bundle remains medial/posteromedial and should not be exposed during a correctly lateral approach.",
+      "source_ids": [
+        "ao_ab876e208ec241f2",
+        "pmid_32310517"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "femoral_shaft_lateral_open_danger_zones_01",
+      "text": "Perforators traversing the posterior vastus and septum must be identified and securely ligated before division because a cut vessel can retract posteriorly and bleed occultly into the thigh.",
+      "source_ids": [
+        "ao_ab876e208ec241f2",
+        "pmid_32310517"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "femoral_shaft_lateral_open_retraction_hazards_01",
+      "text": "Place retractors directly on bone under vision and avoid deep medial or posterior passage, which can endanger the femoral vessels or sciatic nerve; excessive anterior retraction also devascularizes vastus lateralis.",
+      "source_ids": [
+        "ao_ab876e208ec241f2",
+        "pmid_32310517"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "femoral_shaft_lateral_open_exposure_01",
+      "text": "Provides extensile visualization of the lateral femoral shaft for direct reduction, debridement, bone grafting, and plate fixation.",
+      "source_ids": [
+        "ao_ab876e208ec241f2",
+        "pmid_9755780"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "femoral_shaft_lateral_open_limitations_01",
+      "text": "Wide exposure strips soft tissue and disrupts fracture biology; use the smallest exposure compatible with reduction and prefer indirect or minimally invasive methods when the fracture pattern permits.",
+      "source_ids": [
+        "pmid_9755780"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "femoral_shaft_lateral_open_extensions_01",
+      "text": "Extend distally along the lateral shaft; proximally release the vastus lateralis origin in an L shape and continue through the vertical interval between gluteus medius and vastus lateralis when proximal exposure is required.",
+      "source_ids": [
+        "ao_ab876e208ec241f2",
+        "pmid_32310517"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "femoral_shaft_lateral_open_indications_01",
+      "text": "Use when femoral-shaft plating requires direct reduction, when fracture-site debridement or grafting is necessary, or when a minimally invasive bridge construct cannot achieve the operative objective.",
+      "source_ids": [
+        "ao_ab876e208ec241f2",
+        "pmid_9755780"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "femoral_shaft_lateral_open_relative_contraindications_01",
+      "text": "Avoid routine extensive exposure for simple fractures suitable for intramedullary fixation or biologic bridge plating, and modify the plan when lateral soft tissues are compromised or contaminated.",
+      "source_ids": [
+        "pmid_9755780",
+        "pmid_32310517"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "femoral_shaft_lateral_open_implant_implications_01",
+      "text": "Seat the plate on the lateral or anterolateral surface without trapping muscle, preserve fracture blood supply, and select plate length and screw density appropriate to compression versus bridge-plating mechanics.",
+      "source_ids": [
+        "pmid_9755780",
+        "pmid_32310517"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "femoral_shaft_lateral_open_fluoroscopy_implications_01",
+      "text": "Confirm length, coronal and sagittal axes, rotation, plate position, screw length, and the hip and knee before closure; direct visualization does not replace whole-femur imaging.",
+      "source_ids": [
+        "pmid_9755780",
+        "pmid_32310517"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "femoral_shaft_lateral_open_closure_01",
+      "text": "Obtain meticulous perforator hemostasis, reapproximate vastus lateralis and fascia lata without excessive tension, and close subcutaneous tissue and skin while accounting for swelling.",
+      "source_ids": [
+        "ao_ab876e208ec241f2",
+        "pmid_32310517"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "femoral_shaft_lateral_open_complications_01",
+      "text": "Complications include profunda bleeding and hematoma, thigh compartment syndrome, muscle devascularization, infection, malalignment, delayed union or nonunion, implant failure, stiffness, and iatrogenic neurovascular injury.",
+      "source_ids": [
+        "ao_ab876e208ec241f2",
+        "pmid_9755780",
+        "pmid_32310517"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "femoral_shaft_lateral_open_bailouts_01",
+      "text": "For uncontrolled posterior bleeding, stop blind clamping, enlarge the exposure, identify the retracted perforator under direct vision, obtain vascular assistance when needed, and reassess compartment pressure and physiology.",
+      "source_ids": [
+        "ao_ab876e208ec241f2",
+        "pmid_32310517"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "femoral_shaft_lateral_open_questions_01",
+      "text": "Where is vastus lateralis fascia opened?",
+      "source_ids": [
+        "ao_ab876e208ec241f2"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "femoral_shaft_lateral_open_questions_02",
+      "text": "Which vessels most commonly threaten this exposure?",
+      "source_ids": [
+        "ao_ab876e208ec241f2"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "femoral_shaft_lateral_open_questions_03",
+      "text": "Why can a divided perforator be deceptive?",
+      "source_ids": [
+        "ao_ab876e208ec241f2"
+      ],
+      "risk_level": "medium"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "ao_ab876e208ec241f2",
+      "provider": "AO Surgery Reference",
+      "title": "Lateral approach to the femoral shaft",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/femoral-shaft/approach/lateral-approach",
+      "source_page_id": "ao_ab876e208ec241f2"
+    },
+    {
+      "source_id": "pmid_9755780",
+      "provider": "PubMed",
+      "title": "The evolution of femoral shaft plating technique",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/9755780/"
+    },
+    {
+      "source_id": "pmid_32310517",
+      "provider": "PubMed",
+      "title": "Femoral Shaft Fractures",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/32310517/"
+    }
+  ],
+  "content_status": "agent_review_pending",
+  "review": {
+    "status": "agent_review_pending",
+    "required_roles": [
+      "adversarial_safety_reviewer",
+      "approach_anatomy_reviewer",
+      "educational_value_reviewer",
+      "evidence_reviewer",
+      "operative_exposure_reviewer",
+      "procedure_applicability_reviewer"
+    ],
+    "completed_roles": []
+  },
+  "resolved_contradiction_keys": [],
+  "authoring_provenance": {
+    "method": "local_codex_curated",
+    "definition_file": "data/approach_library/curated/adult_femoral_shaft_lateral_mipo_v1.json",
+    "api_used": false
+  }
+}

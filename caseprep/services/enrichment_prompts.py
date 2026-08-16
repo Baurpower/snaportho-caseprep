@@ -31,7 +31,6 @@ RESPONSE_SCHEMA_HINT = """\
   "generated_pimp_questions": [
     {"question": str, "answer": str, "teaching_pearl": str, "why_attendings_ask": str, "common_mistake": str, "difficulty": "easy"|"medium"|"hard"}
   ],
-  "teaching_topics": [str],
   "decision_points": [
     {"category": "when_to_operate"|"who_should_not"|"when_to_convert"|"when_to_stop"|"alternatives", "question": str, "answer": str}
   ],
@@ -44,7 +43,6 @@ RESPONSE_SCHEMA_HINT = """\
   "operative_flow": [
     {"phase": "position"|"equipment"|"incision"|"exposure"|"critical_step"|"closure"|"pearl", "step": str}
   ],
-  "pitfalls": [str],
   "postop": [str]
 }"""
 
@@ -100,13 +98,11 @@ Pimp questions already selected for this packet (add pedagogy for each by id):
 Tasks:
 1. pimp_pedagogy — for EVERY provided question id: a one-sentence teaching pearl, why an attending asks it, the common junior mistake, and difficulty.
 2. generated_pimp_questions — 3-6 ADDITIONAL high-likelihood OR pimp questions not already covered above. Real attending questions, not trivia.
-3. teaching_topics — 3-5 topics a resident should be able to teach a student about this case tomorrow.
-4. decision_points — cover: when do we operate, who should NOT get surgery, when to convert, when to stop/bail out, common alternatives.
-5. evidence — up to 4 landmark trials/guidelines that actually change management for this procedure. Fewer is better than fabricated.
-6. anatomy_gap_fill — blood supply, motor innervation, sensory innervation, danger zones NOT already in the curated content.
-7. {operative_flow_rule}
-8. pitfalls — mistakes junior residents actually make in this case (technique-level, not generic complications).
-9. postop — the concise postop protocol a trainee should recite (weight-bearing/immobilization, motion, follow-up, red flags).
+3. decision_points — cover: when do we operate, who should NOT get surgery, when to convert, when to stop/bail out, common alternatives.
+4. evidence — up to 4 landmark trials/guidelines that actually change management for this procedure. Fewer is better than fabricated.
+5. anatomy_gap_fill — blood supply, motor innervation, sensory innervation, danger zones NOT already in the curated content.
+6. {operative_flow_rule}
+7. postop — the concise postop protocol a trainee should recite (weight-bearing/immobilization, motion, follow-up, red flags).
 
 Respond with JSON only, schema:
 {RESPONSE_SCHEMA_HINT}"""

@@ -1,0 +1,469 @@
+{
+  "schema_version": "brobot_approach_packet_v1",
+  "approach_id": "femoral_shaft_lateral_mipo",
+  "name": "Minimally invasive lateral plate approach to the femoral shaft",
+  "aliases": [
+    "femoral shaft MIPO",
+    "femoral shaft bridge plating approach",
+    "submuscular lateral femoral plating"
+  ],
+  "region": "thigh",
+  "joint": "extra-articular",
+  "bones": [
+    "femoral shaft"
+  ],
+  "corridor": "Separated proximal and distal lateral windows connected by an extraperiosteal sub-vastus-lateralis tunnel for indirect plate insertion",
+  "positioning": [
+    {
+      "text": "Position supine on a radiolucent table with traction or reduction aids available and unobstructed AP and lateral imaging from hip through knee.",
+      "claim_ids": [
+        "femoral_shaft_lateral_mipo_positioning_01"
+      ]
+    }
+  ],
+  "setup": [
+    {
+      "text": "Template plate length and window locations, restore length/alignment/rotation indirectly, and verify that the intended plate and every screw can be imaged before incision.",
+      "claim_ids": [
+        "femoral_shaft_lateral_mipo_setup_01"
+      ]
+    }
+  ],
+  "surface_landmarks": [
+    {
+      "text": "Mark the greater trochanter, lateral epicondyle, Gerdy tubercle, joint line, femoral axis, fracture zone, and planned proximal and distal fixation segments.",
+      "claim_ids": [
+        "femoral_shaft_lateral_mipo_surface_landmarks_01"
+      ]
+    }
+  ],
+  "incision": [
+    {
+      "text": "Use short lateral proximal and distal incisions positioned for plate entry and terminal fixation, adding only small stab or reduction windows when essential.",
+      "claim_ids": [
+        "femoral_shaft_lateral_mipo_incision_01"
+      ]
+    }
+  ],
+  "superficial_interval": [
+    {
+      "text": "Open fascia lata and vastus lateralis fascia only within each window; at midshaft use blunt spreading through vastus lateralis rather than broad muscle stripping.",
+      "claim_ids": [
+        "femoral_shaft_lateral_mipo_superficial_interval_01"
+      ]
+    }
+  ],
+  "deep_interval": [
+    {
+      "text": "Develop an extraperiosteal tunnel between vastus lateralis and lateral femoral cortex, then pass the plate beneath muscle without opening the fracture zone.",
+      "claim_ids": [
+        "femoral_shaft_lateral_mipo_deep_interval_01"
+      ]
+    }
+  ],
+  "layers": [
+    {
+      "text": "Skin windows, subcutaneous tissue, fascia lata, limited vastus lateralis fascia and muscle split, extraperiosteal submuscular plane, then lateral femoral cortex.",
+      "claim_ids": [
+        "femoral_shaft_lateral_mipo_layers_01"
+      ]
+    }
+  ],
+  "structures_encountered": [
+    {
+      "text": "Proximal vastus lateralis origin, midshaft vastus lateralis, distal lateral femoral cortex, lateral intermuscular septum, and profunda perforators define the corridor.",
+      "claim_ids": [
+        "femoral_shaft_lateral_mipo_structures_encountered_01"
+      ]
+    }
+  ],
+  "structures_at_risk": [
+    {
+      "text": "Profunda perforators, femoral vessels medially, sciatic nerve posteriorly, quadriceps blood supply, knee capsule distally, and fracture hematoma are at risk during blind tunneling and percutaneous fixation.",
+      "claim_ids": [
+        "femoral_shaft_lateral_mipo_structures_at_risk_01"
+      ]
+    }
+  ],
+  "danger_zones": [
+    {
+      "text": "Keep the tunneler and plate continuously against the lateral cortex; a medial or posterior passage can injure the major neurovascular structures, while blind drilling can overpenetrate the far cortex.",
+      "claim_ids": [
+        "femoral_shaft_lateral_mipo_danger_zones_01"
+      ]
+    }
+  ],
+  "retraction_hazards": [
+    {
+      "text": "Place Hohmann retractors directly anterior and posterior to bone through the windows under tactile control; avoid circumferential stripping or uncontrolled posterior placement.",
+      "claim_ids": [
+        "femoral_shaft_lateral_mipo_retraction_hazards_01"
+      ]
+    }
+  ],
+  "exposure": [
+    {
+      "text": "Provides proximal and distal fixation access while preserving the fracture hematoma, intervening soft-tissue envelope, and segmental blood supply.",
+      "claim_ids": [
+        "femoral_shaft_lateral_mipo_exposure_01"
+      ]
+    }
+  ],
+  "limitations": [
+    {
+      "text": "The fracture is not directly visualized, so length, alignment, rotation, plate position, and screw trajectories depend on disciplined reduction methods and fluoroscopy.",
+      "claim_ids": [
+        "femoral_shaft_lateral_mipo_limitations_01"
+      ]
+    }
+  ],
+  "extensions": [
+    {
+      "text": "Enlarge the proximal window with an L-shaped release of vastus lateralis origin, lengthen the distal window toward Gerdy tubercle, or add a limited midshaft window without exposing the comminuted zone.",
+      "claim_ids": [
+        "femoral_shaft_lateral_mipo_extensions_01"
+      ]
+    }
+  ],
+  "indications": [
+    {
+      "text": "Use for bridge plating of comminuted shaft fractures and selected patterns where preserving periosteal perfusion and fracture biology is a priority.",
+      "claim_ids": [
+        "femoral_shaft_lateral_mipo_indications_01"
+      ]
+    }
+  ],
+  "relative_contraindications": [
+    {
+      "text": "Choose open exposure when contamination requires debridement, direct articular or anatomic reduction is necessary, vascular exploration is required, or acceptable indirect alignment cannot be obtained.",
+      "claim_ids": [
+        "femoral_shaft_lateral_mipo_relative_contraindications_01"
+      ]
+    }
+  ],
+  "implant_implications": [
+    {
+      "text": "Use a long bridge plate with adequate working length and balanced screw distribution; avoid filling every hole or creating an overly stiff short construct across comminution.",
+      "claim_ids": [
+        "femoral_shaft_lateral_mipo_implant_implications_01"
+      ]
+    }
+  ],
+  "fluoroscopy_implications": [
+    {
+      "text": "Sequentially verify hip and knee orientation, length, coronal and sagittal axes, rotation, plate centering, terminal fixation, and bicortical screw length throughout the case.",
+      "claim_ids": [
+        "femoral_shaft_lateral_mipo_fluoroscopy_implications_01"
+      ]
+    }
+  ],
+  "closure": [
+    {
+      "text": "Confirm hemostasis through every window, irrigate, release retractors, and close fascia lata and skin without converting the small incisions into tight compartments.",
+      "claim_ids": [
+        "femoral_shaft_lateral_mipo_closure_01"
+      ]
+    }
+  ],
+  "complications": [
+    {
+      "text": "Complications include malrotation, shortening, varus or sagittal malalignment, plate malposition, perforator or neurovascular injury, delayed union or nonunion, implant fatigue, infection, and knee stiffness.",
+      "claim_ids": [
+        "femoral_shaft_lateral_mipo_complications_01"
+      ]
+    }
+  ],
+  "bailouts": [
+    {
+      "text": "If indirect reduction, rotation, or plate passage remains uncertain, stop blind manipulation, add a limited targeted window or temporary reduction aid, and convert to open reduction when safety or alignment demands it.",
+      "claim_ids": [
+        "femoral_shaft_lateral_mipo_bailouts_01"
+      ]
+    }
+  ],
+  "procedure_applications": [
+    {
+      "procedure_id": "femoral_shaft_fracture_orif",
+      "relationship": "conditional_option",
+      "condition": "Indirect reduction and bridge plating are selected for a comminuted or biologically vulnerable shaft fracture with suitable proximal and distal fixation segments"
+    }
+  ],
+  "questions": [
+    {
+      "question": "What tissue is intentionally preserved by MIPO?",
+      "answer": "The fracture-zone soft-tissue envelope, periosteal blood supply, and fracture hematoma.",
+      "claim_ids": [
+        "femoral_shaft_lateral_mipo_questions_01"
+      ]
+    },
+    {
+      "question": "Where must the plate pass?",
+      "answer": "Extraperiosteally beneath vastus lateralis while remaining against the lateral femoral cortex.",
+      "claim_ids": [
+        "femoral_shaft_lateral_mipo_questions_02"
+      ]
+    },
+    {
+      "question": "What must be proven before final fixation despite acceptable AP alignment?",
+      "answer": "Length, lateral-plane alignment, and femoral rotation, as well as plate and screw position.",
+      "claim_ids": [
+        "femoral_shaft_lateral_mipo_questions_03"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "femoral_shaft_lateral_mipo_positioning_01",
+      "text": "Position supine on a radiolucent table with traction or reduction aids available and unobstructed AP and lateral imaging from hip through knee.",
+      "source_ids": [
+        "ao_befa25c53a40076c",
+        "pmid_10897283"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "femoral_shaft_lateral_mipo_setup_01",
+      "text": "Template plate length and window locations, restore length/alignment/rotation indirectly, and verify that the intended plate and every screw can be imaged before incision.",
+      "source_ids": [
+        "ao_befa25c53a40076c",
+        "pmid_10897283"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "femoral_shaft_lateral_mipo_surface_landmarks_01",
+      "text": "Mark the greater trochanter, lateral epicondyle, Gerdy tubercle, joint line, femoral axis, fracture zone, and planned proximal and distal fixation segments.",
+      "source_ids": [
+        "ao_befa25c53a40076c"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "femoral_shaft_lateral_mipo_incision_01",
+      "text": "Use short lateral proximal and distal incisions positioned for plate entry and terminal fixation, adding only small stab or reduction windows when essential.",
+      "source_ids": [
+        "ao_befa25c53a40076c",
+        "pmid_10897283"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "femoral_shaft_lateral_mipo_superficial_interval_01",
+      "text": "Open fascia lata and vastus lateralis fascia only within each window; at midshaft use blunt spreading through vastus lateralis rather than broad muscle stripping.",
+      "source_ids": [
+        "ao_befa25c53a40076c",
+        "pmid_10897283"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "femoral_shaft_lateral_mipo_deep_interval_01",
+      "text": "Develop an extraperiosteal tunnel between vastus lateralis and lateral femoral cortex, then pass the plate beneath muscle without opening the fracture zone.",
+      "source_ids": [
+        "ao_befa25c53a40076c",
+        "pmid_10897283"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "femoral_shaft_lateral_mipo_layers_01",
+      "text": "Skin windows, subcutaneous tissue, fascia lata, limited vastus lateralis fascia and muscle split, extraperiosteal submuscular plane, then lateral femoral cortex.",
+      "source_ids": [
+        "ao_befa25c53a40076c",
+        "pmid_10897283"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "femoral_shaft_lateral_mipo_structures_encountered_01",
+      "text": "Proximal vastus lateralis origin, midshaft vastus lateralis, distal lateral femoral cortex, lateral intermuscular septum, and profunda perforators define the corridor.",
+      "source_ids": [
+        "ao_befa25c53a40076c"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "femoral_shaft_lateral_mipo_structures_at_risk_01",
+      "text": "Profunda perforators, femoral vessels medially, sciatic nerve posteriorly, quadriceps blood supply, knee capsule distally, and fracture hematoma are at risk during blind tunneling and percutaneous fixation.",
+      "source_ids": [
+        "ao_befa25c53a40076c",
+        "pmid_10897283"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "femoral_shaft_lateral_mipo_danger_zones_01",
+      "text": "Keep the tunneler and plate continuously against the lateral cortex; a medial or posterior passage can injure the major neurovascular structures, while blind drilling can overpenetrate the far cortex.",
+      "source_ids": [
+        "ao_befa25c53a40076c",
+        "pmid_10897283"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "femoral_shaft_lateral_mipo_retraction_hazards_01",
+      "text": "Place Hohmann retractors directly anterior and posterior to bone through the windows under tactile control; avoid circumferential stripping or uncontrolled posterior placement.",
+      "source_ids": [
+        "ao_befa25c53a40076c",
+        "pmid_10897283"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "femoral_shaft_lateral_mipo_exposure_01",
+      "text": "Provides proximal and distal fixation access while preserving the fracture hematoma, intervening soft-tissue envelope, and segmental blood supply.",
+      "source_ids": [
+        "ao_befa25c53a40076c",
+        "pmid_10897283",
+        "pmid_21808699"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "femoral_shaft_lateral_mipo_limitations_01",
+      "text": "The fracture is not directly visualized, so length, alignment, rotation, plate position, and screw trajectories depend on disciplined reduction methods and fluoroscopy.",
+      "source_ids": [
+        "pmid_10897283",
+        "pmid_21808699"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "femoral_shaft_lateral_mipo_extensions_01",
+      "text": "Enlarge the proximal window with an L-shaped release of vastus lateralis origin, lengthen the distal window toward Gerdy tubercle, or add a limited midshaft window without exposing the comminuted zone.",
+      "source_ids": [
+        "ao_befa25c53a40076c",
+        "pmid_10897283"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "femoral_shaft_lateral_mipo_indications_01",
+      "text": "Use for bridge plating of comminuted shaft fractures and selected patterns where preserving periosteal perfusion and fracture biology is a priority.",
+      "source_ids": [
+        "pmid_10897283",
+        "pmid_21808699"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "femoral_shaft_lateral_mipo_relative_contraindications_01",
+      "text": "Choose open exposure when contamination requires debridement, direct articular or anatomic reduction is necessary, vascular exploration is required, or acceptable indirect alignment cannot be obtained.",
+      "source_ids": [
+        "ao_befa25c53a40076c",
+        "pmid_10897283"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "femoral_shaft_lateral_mipo_implant_implications_01",
+      "text": "Use a long bridge plate with adequate working length and balanced screw distribution; avoid filling every hole or creating an overly stiff short construct across comminution.",
+      "source_ids": [
+        "pmid_10897283",
+        "pmid_21808699"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "femoral_shaft_lateral_mipo_fluoroscopy_implications_01",
+      "text": "Sequentially verify hip and knee orientation, length, coronal and sagittal axes, rotation, plate centering, terminal fixation, and bicortical screw length throughout the case.",
+      "source_ids": [
+        "ao_befa25c53a40076c",
+        "pmid_10897283"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "femoral_shaft_lateral_mipo_closure_01",
+      "text": "Confirm hemostasis through every window, irrigate, release retractors, and close fascia lata and skin without converting the small incisions into tight compartments.",
+      "source_ids": [
+        "ao_befa25c53a40076c"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "femoral_shaft_lateral_mipo_complications_01",
+      "text": "Complications include malrotation, shortening, varus or sagittal malalignment, plate malposition, perforator or neurovascular injury, delayed union or nonunion, implant fatigue, infection, and knee stiffness.",
+      "source_ids": [
+        "ao_befa25c53a40076c",
+        "pmid_10897283",
+        "pmid_21808699"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "femoral_shaft_lateral_mipo_bailouts_01",
+      "text": "If indirect reduction, rotation, or plate passage remains uncertain, stop blind manipulation, add a limited targeted window or temporary reduction aid, and convert to open reduction when safety or alignment demands it.",
+      "source_ids": [
+        "ao_befa25c53a40076c",
+        "pmid_10897283"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "femoral_shaft_lateral_mipo_questions_01",
+      "text": "What tissue is intentionally preserved by MIPO?",
+      "source_ids": [
+        "ao_befa25c53a40076c",
+        "pmid_10897283"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "femoral_shaft_lateral_mipo_questions_02",
+      "text": "Where must the plate pass?",
+      "source_ids": [
+        "ao_befa25c53a40076c"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "femoral_shaft_lateral_mipo_questions_03",
+      "text": "What must be proven before final fixation despite acceptable AP alignment?",
+      "source_ids": [
+        "pmid_10897283"
+      ],
+      "risk_level": "medium"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "ao_befa25c53a40076c",
+      "provider": "AO Surgery Reference",
+      "title": "Minimally invasive approach to the femoral shaft",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/femoral-shaft/approach/minimally-invasive-approach",
+      "source_page_id": "ao_befa25c53a40076c"
+    },
+    {
+      "source_id": "pmid_10897283",
+      "provider": "PubMed",
+      "title": "Minimally invasive plate fixation in femoral shaft fractures",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/10897283/"
+    },
+    {
+      "source_id": "pmid_21808699",
+      "provider": "PubMed",
+      "title": "Dynamic plate osteosynthesis for fracture stabilization",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/21808699/"
+    }
+  ],
+  "content_status": "agent_review_pending",
+  "review": {
+    "status": "agent_review_pending",
+    "required_roles": [
+      "adversarial_safety_reviewer",
+      "approach_anatomy_reviewer",
+      "educational_value_reviewer",
+      "evidence_reviewer",
+      "operative_exposure_reviewer",
+      "procedure_applicability_reviewer"
+    ],
+    "completed_roles": []
+  },
+  "resolved_contradiction_keys": [],
+  "authoring_provenance": {
+    "method": "local_codex_curated",
+    "definition_file": "data/approach_library/curated/adult_femoral_shaft_lateral_mipo_v1.json",
+    "api_used": false
+  }
+}

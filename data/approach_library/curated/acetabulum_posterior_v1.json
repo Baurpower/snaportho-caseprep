@@ -1,0 +1,48 @@
+{
+  "approaches": [
+    {
+      "approach_id": "approach_lower_ext_pelvis_acetabulum_posterior_kocher_langenbeck",
+      "name": "Posterior acetabular approach (Kocher-Langenbeck)",
+      "aliases": ["Kocher-Langenbeck approach", "posterior approach to the acetabulum"],
+      "region": "acetabulum and posterior hip",
+      "joint": "hip",
+      "bones": ["acetabulum", "innominate bone", "proximal femur"],
+      "corridor": "Gluteus maximus split followed by release and reflection of piriformis and the conjoined short external rotators",
+      "sources": [
+        {"source_id": "ao_e2c55bc94714d94b", "provider": "AO Surgery Reference", "title": "Kocher-Langenbeck approach to the acetabulum", "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/acetabulum/approach/kocher-langenbeck-approach-to-the-acetabulum", "source_page_id": "ao_e2c55bc94714d94b"},
+        {"source_id": "orthobullets_efef601fafcb79ea", "provider": "Orthobullets", "title": "Posterior Approach to the Acetabulum (Kocher-Langenbeck)", "url": "https://www.orthobullets.com/approaches/12015/posterior-approach-to-the-acetabulum-kocher-langenbeck", "source_page_id": "orthobullets_efef601fafcb79ea"}
+      ],
+      "procedure_applications": [
+        {"procedure_id": "acetabulum_fracture_orif_posterior", "relationship": "primary_option", "condition": "Posterior wall or posterior column exposure is required"}
+      ],
+      "sections": {
+        "positioning": [{"text": "Position prone or lateral; maintain hip extension and approximately 90 degrees of knee flexion to reduce sciatic-nerve tension.", "source_ids": ["ao_e2c55bc94714d94b", "orthobullets_efef601fafcb79ea"], "risk_level": "high"}],
+        "setup": [{"text": "Prep the hemipelvis and entire limb to permit hip rotation, traction, and distal extension of the exposure.", "source_ids": ["ao_e2c55bc94714d94b", "orthobullets_efef601fafcb79ea"]}],
+        "surface_landmarks": [{"text": "Mark the posterior superior iliac spine, greater trochanter, and lateral femoral shaft.", "source_ids": ["ao_e2c55bc94714d94b", "orthobullets_efef601fafcb79ea"]}],
+        "incision": [{"text": "Use a posterior curved incision directed toward the greater trochanter and then distally along the lateral femoral shaft.", "source_ids": ["ao_e2c55bc94714d94b", "orthobullets_efef601fafcb79ea"]}],
+        "superficial_interval": [{"text": "Incise iliotibial fascia distally and split gluteus maximus in line with its fibers, stopping before the first crossing neurovascular bundle.", "source_ids": ["ao_e2c55bc94714d94b", "orthobullets_efef601fafcb79ea"], "risk_level": "high"}],
+        "deep_interval": [{"text": "Identify the sciatic nerve, then tag and release piriformis and the conjoined obturator internus–gemelli tendons lateral to their insertions for posterior-column exposure.", "source_ids": ["ao_e2c55bc94714d94b", "orthobullets_efef601fafcb79ea"], "risk_level": "high"}],
+        "layers": [{"text": "Skin, subcutaneous tissue, iliotibial tract and gluteus maximus split, short external rotators, posterior capsule when required, then posterior wall and column.", "source_ids": ["ao_e2c55bc94714d94b", "orthobullets_efef601fafcb79ea"]}],
+        "structures_encountered": [{"text": "Piriformis, obturator internus, superior and inferior gemelli, sciatic nerve, greater and lesser sciatic notches, and posterior acetabular surface are sequentially encountered.", "source_ids": ["ao_e2c55bc94714d94b", "orthobullets_efef601fafcb79ea"]}],
+        "structures_at_risk": [{"text": "The sciatic nerve is at risk from direct pressure, stretching, misplaced retractors, and uncorrected tension during the exposure.", "source_ids": ["ao_e2c55bc94714d94b", "orthobullets_efef601fafcb79ea"], "risk_level": "high"}, {"text": "The medial femoral circumflex artery is endangered by release close to the short-external-rotator insertions and by needles passed during tendon repair.", "source_ids": ["ao_e2c55bc94714d94b", "orthobullets_efef601fafcb79ea"], "risk_level": "high"}],
+        "danger_zones": [{"text": "Keep retractors out of the greater sciatic notch unless placed deliberately under direct protection; use the reflected external rotators as a cushion over the sciatic nerve.", "source_ids": ["ao_e2c55bc94714d94b", "orthobullets_efef601fafcb79ea"], "risk_level": "high"}],
+        "retraction_hazards": [{"text": "Avoid prolonged or forceful posterior retraction and repeatedly reassess sciatic-nerve freedom, particularly during reduction and fixation.", "source_ids": ["ao_e2c55bc94714d94b", "orthobullets_efef601fafcb79ea"], "risk_level": "high"}],
+        "exposure": [{"text": "Directly exposes the posterior wall, posterior column, retroacetabular surface, greater and lesser sciatic notches, and selected dorsocranial articular surface.", "source_ids": ["ao_e2c55bc94714d94b", "orthobullets_efef601fafcb79ea"]}],
+        "limitations": [{"text": "Anterior-column and cranial anterior acetabular visualization is limited without an extensile maneuver such as trochanteric osteotomy.", "source_ids": ["ao_e2c55bc94714d94b", "orthobullets_efef601fafcb79ea"]}],
+        "extensions": [{"text": "A trochanteric osteotomy can add cranial and anterior exposure; selective quadratus femoris elevation adds caudal posterior-column exposure but increases vascular risk.", "source_ids": ["ao_e2c55bc94714d94b", "orthobullets_efef601fafcb79ea"], "risk_level": "high"}],
+        "indications": [{"text": "Primary exposure for posterior-wall and posterior-column fractures and selected transverse or associated acetabular patterns requiring posterior reduction and fixation.", "source_ids": ["ao_e2c55bc94714d94b", "orthobullets_efef601fafcb79ea"]}],
+        "relative_contraindications": [{"text": "Use another or combined strategy when the principal reduction and fixation target cannot be visualized through the posterior corridor without unsafe extension.", "source_ids": ["ao_e2c55bc94714d94b", "orthobullets_efef601fafcb79ea"]}],
+        "implant_implications": [{"text": "Plan posterior-column and wall implant trajectories around the sciatic notches and confirm that clamps and screws remain extra-articular.", "source_ids": ["ao_e2c55bc94714d94b", "orthobullets_efef601fafcb79ea"]}],
+        "fluoroscopy_implications": [{"text": "Arrange the table and equipment before positioning so obturator and iliac oblique views and AP pelvic imaging remain obtainable.", "source_ids": ["ao_e2c55bc94714d94b", "orthobullets_efef601fafcb79ea"]}],
+        "closure": [{"text": "Irrigate and debride nonviable tissue, then repair the released short external rotators, approximate gluteus maximus, and close iliotibial fascia and superficial layers.", "source_ids": ["ao_e2c55bc94714d94b", "orthobullets_efef601fafcb79ea"], "risk_level": "high"}],
+        "complications": [{"text": "Major approach-related complications include sciatic neuropathy, heterotopic ossification, abductor or external-rotator dysfunction, femoral-head vascular injury, infection, and wound morbidity.", "source_ids": ["ao_e2c55bc94714d94b", "orthobullets_efef601fafcb79ea"], "risk_level": "high"}],
+        "bailouts": [{"text": "If reduction cannot be confirmed or cranial/anterior visualization is inadequate, pause and add the planned extensile window rather than placing implants through unseen anatomy.", "source_ids": ["ao_e2c55bc94714d94b", "orthobullets_efef601fafcb79ea"], "risk_level": "high"}],
+        "questions": [
+          {"question": "How can positioning reduce sciatic-nerve tension during Kocher-Langenbeck exposure?", "answer": "Maintain hip extension and approximately 90 degrees of knee flexion.", "source_ids": ["ao_e2c55bc94714d94b", "orthobullets_efef601fafcb79ea"]},
+          {"question": "Which tendons are reflected to expose the posterior column?", "answer": "Piriformis and the conjoined obturator internus and gemelli tendons.", "source_ids": ["ao_e2c55bc94714d94b", "orthobullets_efef601fafcb79ea"]},
+          {"question": "Which vessel is protected by leaving a tendon stump lateral to the greater trochanter?", "answer": "The medial femoral circumflex artery.", "source_ids": ["ao_e2c55bc94714d94b", "orthobullets_efef601fafcb79ea"]}
+        ]
+      }
+    }
+  ]
+}

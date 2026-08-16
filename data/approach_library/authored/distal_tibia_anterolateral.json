@@ -1,0 +1,473 @@
+{
+  "schema_version": "brobot_approach_packet_v1",
+  "approach_id": "distal_tibia_anterolateral",
+  "name": "Anterolateral approach to the distal tibia",
+  "aliases": [
+    "anterolateral pilon approach",
+    "anterolateral plafond approach"
+  ],
+  "region": "anterolateral distal leg and ankle",
+  "joint": "ankle",
+  "bones": [
+    "distal tibia",
+    "distal fibula",
+    "talus"
+  ],
+  "corridor": "Lateral to tibialis anterior with the anterior-compartment tendons and muscle retracted medially beneath the protected superficial peroneal nerve",
+  "positioning": [
+    {
+      "text": "Position supine on a radiolucent table with a bump as needed, free ankle motion, and access for AP, lateral, mortise, and traction imaging.",
+      "claim_ids": [
+        "distal_tibia_anterolateral_positioning_01"
+      ]
+    }
+  ],
+  "setup": [
+    {
+      "text": "Use CT-based fragment mapping, confirm soft-tissue recovery, coordinate any fibular incision, and plan plate and distractor trajectories before incision.",
+      "claim_ids": [
+        "distal_tibia_anterolateral_setup_01"
+      ]
+    }
+  ],
+  "surface_landmarks": [
+    {
+      "text": "Mark tibial crest, fibula, ankle joint, fourth metatarsal axis, superficial-peroneal-nerve course, and talonavicular joint.",
+      "claim_ids": [
+        "distal_tibia_anterolateral_surface_landmarks_01"
+      ]
+    }
+  ],
+  "incision": [
+    {
+      "text": "Center the incision on the ankle joint, aligned with the fourth metatarsal distally and midway between tibia and fibula proximally; limit proximal extension because anterior-compartment muscles arise from fibula.",
+      "claim_ids": [
+        "distal_tibia_anterolateral_incision_01"
+      ]
+    }
+  ],
+  "superficial_interval": [
+    {
+      "text": "Raise full-thickness flaps, identify the superficial peroneal nerve where it crosses the incision, mobilize it, and open fascia beneath it.",
+      "claim_ids": [
+        "distal_tibia_anterolateral_superficial_interval_01"
+      ]
+    }
+  ],
+  "deep_interval": [
+    {
+      "text": "Incise extensor retinaculum and retract the anterior-compartment tendons, including peroneus tertius, medially from syndesmosis, distal-tibial periosteum, and capsule.",
+      "claim_ids": [
+        "distal_tibia_anterolateral_deep_interval_01"
+      ]
+    }
+  ],
+  "layers": [
+    {
+      "text": "Skin, superficial-peroneal-nerve plane, anterior-compartment fascia/retinaculum, extensor tendons and muscle, capsule/periosteum, then plafond.",
+      "claim_ids": [
+        "distal_tibia_anterolateral_layers_01"
+      ]
+    }
+  ],
+  "structures_encountered": [
+    {
+      "text": "Superficial peroneal nerve, extensor tendons, peroneus tertius, extensor digitorum brevis, anterior syndesmosis, capsule, distal tibia, and talar neck are encountered.",
+      "claim_ids": [
+        "distal_tibia_anterolateral_structures_encountered_01"
+      ]
+    }
+  ],
+  "structures_at_risk": [
+    {
+      "text": "Superficial peroneal nerve, deep peroneal nerve and anterior tibial vessels medially, extensor tendons, anterior syndesmosis, fracture-fragment blood supply, and talar cartilage are at risk.",
+      "claim_ids": [
+        "distal_tibia_anterolateral_structures_at_risk_01"
+      ]
+    }
+  ],
+  "danger_zones": [
+    {
+      "text": "The superficial peroneal nerve predictably crosses the proximal incision; identify it before fascial opening and protect it throughout retraction and closure.",
+      "claim_ids": [
+        "distal_tibia_anterolateral_danger_zones_01"
+      ]
+    }
+  ],
+  "retraction_hazards": [
+    {
+      "text": "Retract the anterior compartment medially as a unit without excessive pressure on the deep neurovascular bundle or stripping articular fragments.",
+      "claim_ids": [
+        "distal_tibia_anterolateral_retraction_hazards_01"
+      ]
+    }
+  ],
+  "exposure": [
+    {
+      "text": "Provides broad anterior and anterolateral plafond visualization, reaches near the medial malleolus, and supports tibial and fibular fixation beneath robust lateral soft tissue.",
+      "claim_ids": [
+        "distal_tibia_anterolateral_exposure_01"
+      ]
+    }
+  ],
+  "limitations": [
+    {
+      "text": "Direct medial-joint access and proximal extension are limited by the anterior-compartment origin and neurovascular anatomy.",
+      "claim_ids": [
+        "distal_tibia_anterolateral_limitations_01"
+      ]
+    }
+  ],
+  "extensions": [
+    {
+      "text": "Extend distally toward talonavicular joint or elevate EDB for talar-neck distractor placement; avoid unnecessary proximal dissection.",
+      "claim_ids": [
+        "distal_tibia_anterolateral_extensions_01"
+      ]
+    }
+  ],
+  "indications": [
+    {
+      "text": "Use for many complete-articular pilon fractures, anterior/anterolateral partial-articular patterns, and selected extra-articular fractures requiring anterior plating.",
+      "claim_ids": [
+        "distal_tibia_anterolateral_indications_01"
+      ]
+    }
+  ],
+  "relative_contraindications": [
+    {
+      "text": "Choose another corridor when the dominant pathology is medial/posteromedial, lateral soft tissues are compromised, or adequate skin bridges cannot be preserved.",
+      "claim_ids": [
+        "distal_tibia_anterolateral_relative_contraindications_01"
+      ]
+    }
+  ],
+  "implant_implications": [
+    {
+      "text": "Supports anterolateral buttress and submuscular bridge plates; place distractor rod posterolaterally so it does not obstruct reduction or implants.",
+      "claim_ids": [
+        "distal_tibia_anterolateral_implant_implications_01"
+      ]
+    }
+  ],
+  "fluoroscopy_implications": [
+    {
+      "text": "Verify articular reduction, length, alignment, talar centering, plate position, and screw containment on AP, lateral, mortise, and oblique views.",
+      "claim_ids": [
+        "distal_tibia_anterolateral_fluoroscopy_implications_01"
+      ]
+    }
+  ],
+  "closure": [
+    {
+      "text": "Repair capsule, retinaculum, and fascia without entrapping superficial peroneal nerve; close only when full-thickness flaps are viable and tension free.",
+      "claim_ids": [
+        "distal_tibia_anterolateral_closure_01"
+      ]
+    }
+  ],
+  "complications": [
+    {
+      "text": "Complications include superficial or deep peroneal neuropathy, wound necrosis, infection, extensor adhesions, malreduction, nonunion, stiffness, and post-traumatic arthritis.",
+      "claim_ids": [
+        "distal_tibia_anterolateral_complications_01"
+      ]
+    }
+  ],
+  "bailouts": [
+    {
+      "text": "Add a separate medial or posteromedial window when a key fragment cannot be reduced safely through the anterolateral corridor rather than stripping across the plafond.",
+      "claim_ids": [
+        "distal_tibia_anterolateral_bailouts_01"
+      ]
+    }
+  ],
+  "procedure_applications": [
+    {
+      "procedure_id": "tibial_pilon_fracture_orif",
+      "relationship": "primary_option",
+      "condition": "Anterior or anterolateral articular injury and lateral metaphyseal comminution require direct reduction and buttress access"
+    },
+    {
+      "procedure_id": "distal_tibia_fracture_orif",
+      "relationship": "conditional_option",
+      "condition": "An extra-articular distal-tibia fracture is treated with an anterior-compartment submuscular plate"
+    }
+  ],
+  "questions": [
+    {
+      "question": "Which nerve crosses the incision?",
+      "answer": "The superficial peroneal nerve.",
+      "claim_ids": [
+        "distal_tibia_anterolateral_questions_01"
+      ]
+    },
+    {
+      "question": "Which way are the anterior-compartment tendons retracted?",
+      "answer": "Medially.",
+      "claim_ids": [
+        "distal_tibia_anterolateral_questions_02"
+      ]
+    },
+    {
+      "question": "Why is proximal extension limited?",
+      "answer": "The anterior-compartment muscles arise from fibula and interosseous membrane.",
+      "claim_ids": [
+        "distal_tibia_anterolateral_questions_03"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "distal_tibia_anterolateral_positioning_01",
+      "text": "Position supine on a radiolucent table with a bump as needed, free ankle motion, and access for AP, lateral, mortise, and traction imaging.",
+      "source_ids": [
+        "ao_b68bf7382138d743",
+        "pmid_25072286"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "distal_tibia_anterolateral_setup_01",
+      "text": "Use CT-based fragment mapping, confirm soft-tissue recovery, coordinate any fibular incision, and plan plate and distractor trajectories before incision.",
+      "source_ids": [
+        "pmid_25072286",
+        "pmid_26644032"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "distal_tibia_anterolateral_surface_landmarks_01",
+      "text": "Mark tibial crest, fibula, ankle joint, fourth metatarsal axis, superficial-peroneal-nerve course, and talonavicular joint.",
+      "source_ids": [
+        "ao_b68bf7382138d743"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "distal_tibia_anterolateral_incision_01",
+      "text": "Center the incision on the ankle joint, aligned with the fourth metatarsal distally and midway between tibia and fibula proximally; limit proximal extension because anterior-compartment muscles arise from fibula.",
+      "source_ids": [
+        "ao_b68bf7382138d743",
+        "pmid_25072286"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "distal_tibia_anterolateral_superficial_interval_01",
+      "text": "Raise full-thickness flaps, identify the superficial peroneal nerve where it crosses the incision, mobilize it, and open fascia beneath it.",
+      "source_ids": [
+        "ao_b68bf7382138d743",
+        "pmid_25072286"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "distal_tibia_anterolateral_deep_interval_01",
+      "text": "Incise extensor retinaculum and retract the anterior-compartment tendons, including peroneus tertius, medially from syndesmosis, distal-tibial periosteum, and capsule.",
+      "source_ids": [
+        "ao_b68bf7382138d743",
+        "pmid_25072286"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "distal_tibia_anterolateral_layers_01",
+      "text": "Skin, superficial-peroneal-nerve plane, anterior-compartment fascia/retinaculum, extensor tendons and muscle, capsule/periosteum, then plafond.",
+      "source_ids": [
+        "ao_b68bf7382138d743"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "distal_tibia_anterolateral_structures_encountered_01",
+      "text": "Superficial peroneal nerve, extensor tendons, peroneus tertius, extensor digitorum brevis, anterior syndesmosis, capsule, distal tibia, and talar neck are encountered.",
+      "source_ids": [
+        "ao_b68bf7382138d743",
+        "pmid_25072286"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "distal_tibia_anterolateral_structures_at_risk_01",
+      "text": "Superficial peroneal nerve, deep peroneal nerve and anterior tibial vessels medially, extensor tendons, anterior syndesmosis, fracture-fragment blood supply, and talar cartilage are at risk.",
+      "source_ids": [
+        "ao_b68bf7382138d743",
+        "pmid_25072286"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "distal_tibia_anterolateral_danger_zones_01",
+      "text": "The superficial peroneal nerve predictably crosses the proximal incision; identify it before fascial opening and protect it throughout retraction and closure.",
+      "source_ids": [
+        "ao_b68bf7382138d743",
+        "pmid_25072286"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "distal_tibia_anterolateral_retraction_hazards_01",
+      "text": "Retract the anterior compartment medially as a unit without excessive pressure on the deep neurovascular bundle or stripping articular fragments.",
+      "source_ids": [
+        "ao_b68bf7382138d743",
+        "pmid_25072286"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "distal_tibia_anterolateral_exposure_01",
+      "text": "Provides broad anterior and anterolateral plafond visualization, reaches near the medial malleolus, and supports tibial and fibular fixation beneath robust lateral soft tissue.",
+      "source_ids": [
+        "ao_b68bf7382138d743",
+        "pmid_26644032"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "distal_tibia_anterolateral_limitations_01",
+      "text": "Direct medial-joint access and proximal extension are limited by the anterior-compartment origin and neurovascular anatomy.",
+      "source_ids": [
+        "ao_b68bf7382138d743",
+        "pmid_25072286"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "distal_tibia_anterolateral_extensions_01",
+      "text": "Extend distally toward talonavicular joint or elevate EDB for talar-neck distractor placement; avoid unnecessary proximal dissection.",
+      "source_ids": [
+        "ao_b68bf7382138d743",
+        "pmid_25072286"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "distal_tibia_anterolateral_indications_01",
+      "text": "Use for many complete-articular pilon fractures, anterior/anterolateral partial-articular patterns, and selected extra-articular fractures requiring anterior plating.",
+      "source_ids": [
+        "ao_b68bf7382138d743",
+        "pmid_25072286"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "distal_tibia_anterolateral_relative_contraindications_01",
+      "text": "Choose another corridor when the dominant pathology is medial/posteromedial, lateral soft tissues are compromised, or adequate skin bridges cannot be preserved.",
+      "source_ids": [
+        "pmid_25072286",
+        "pmid_26644032"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "distal_tibia_anterolateral_implant_implications_01",
+      "text": "Supports anterolateral buttress and submuscular bridge plates; place distractor rod posterolaterally so it does not obstruct reduction or implants.",
+      "source_ids": [
+        "ao_b68bf7382138d743",
+        "pmid_25072286"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "distal_tibia_anterolateral_fluoroscopy_implications_01",
+      "text": "Verify articular reduction, length, alignment, talar centering, plate position, and screw containment on AP, lateral, mortise, and oblique views.",
+      "source_ids": [
+        "pmid_25072286",
+        "pmid_26644032"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "distal_tibia_anterolateral_closure_01",
+      "text": "Repair capsule, retinaculum, and fascia without entrapping superficial peroneal nerve; close only when full-thickness flaps are viable and tension free.",
+      "source_ids": [
+        "ao_b68bf7382138d743",
+        "pmid_25072286"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "distal_tibia_anterolateral_complications_01",
+      "text": "Complications include superficial or deep peroneal neuropathy, wound necrosis, infection, extensor adhesions, malreduction, nonunion, stiffness, and post-traumatic arthritis.",
+      "source_ids": [
+        "pmid_25072286",
+        "pmid_26644032"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "distal_tibia_anterolateral_bailouts_01",
+      "text": "Add a separate medial or posteromedial window when a key fragment cannot be reduced safely through the anterolateral corridor rather than stripping across the plafond.",
+      "source_ids": [
+        "pmid_25072286",
+        "pmid_26644032"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "distal_tibia_anterolateral_questions_01",
+      "text": "Which nerve crosses the incision?",
+      "source_ids": [
+        "ao_b68bf7382138d743"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "distal_tibia_anterolateral_questions_02",
+      "text": "Which way are the anterior-compartment tendons retracted?",
+      "source_ids": [
+        "ao_b68bf7382138d743"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "distal_tibia_anterolateral_questions_03",
+      "text": "Why is proximal extension limited?",
+      "source_ids": [
+        "ao_b68bf7382138d743"
+      ],
+      "risk_level": "medium"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "ao_b68bf7382138d743",
+      "provider": "AO Surgery Reference",
+      "title": "Anterolateral Approach To The Distal Tibia",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/distal-tibia/approach/anterolateral-approach-to-the-distal-tibia",
+      "source_page_id": "ao_b68bf7382138d743"
+    },
+    {
+      "source_id": "pmid_25072286",
+      "provider": "PubMed",
+      "title": "Strategies for surgical approaches in open reduction internal fixation of pilon fractures",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/25072286/"
+    },
+    {
+      "source_id": "pmid_26644032",
+      "provider": "PubMed",
+      "title": "A systematic review of the role of surgical approaches on outcomes of tibial pilon fracture",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/26644032/"
+    }
+  ],
+  "content_status": "agent_review_pending",
+  "review": {
+    "status": "agent_review_pending",
+    "required_roles": [
+      "adversarial_safety_reviewer",
+      "approach_anatomy_reviewer",
+      "educational_value_reviewer",
+      "evidence_reviewer",
+      "operative_exposure_reviewer",
+      "procedure_applicability_reviewer"
+    ],
+    "completed_roles": []
+  },
+  "resolved_contradiction_keys": [],
+  "authoring_provenance": {
+    "method": "local_codex_curated",
+    "definition_file": "data/approach_library/curated/adult_distal_tibia_anterior_medial_v1.json",
+    "api_used": false
+  }
+}

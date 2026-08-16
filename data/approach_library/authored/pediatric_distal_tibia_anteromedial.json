@@ -1,0 +1,468 @@
+{
+  "schema_version": "brobot_approach_packet_v1",
+  "approach_id": "pediatric_distal_tibia_anteromedial",
+  "name": "Pediatric anteromedial approach to the distal tibia",
+  "aliases": [
+    "pediatric anteromedial ankle approach",
+    "pediatric medial plafond approach"
+  ],
+  "region": "anteromedial distal leg and ankle",
+  "joint": "ankle",
+  "bones": [
+    "distal tibia",
+    "medial malleolus",
+    "talus"
+  ],
+  "corridor": "Immediately medial to the intact tibialis-anterior tendon sheath with limited lateral subperiosteal development when required",
+  "positioning": [
+    {
+      "text": "Position supine with a radiolucent support, free ankle motion, and AP, lateral, mortise, and oblique imaging available.",
+      "claim_ids": [
+        "pediatric_distal_tibia_anteromedial_positioning_01"
+      ]
+    }
+  ],
+  "setup": [
+    {
+      "text": "Review CT for articular/transitional injury, delay until swelling permits safe flaps, and template reduction and physis-respecting fixation.",
+      "claim_ids": [
+        "pediatric_distal_tibia_anteromedial_setup_01"
+      ]
+    }
+  ],
+  "surface_landmarks": [
+    {
+      "text": "Mark tibialis-anterior tendon and sheath, tibial crest, ankle joint, medial malleolus, physis, and any traumatic wounds.",
+      "claim_ids": [
+        "pediatric_distal_tibia_anteromedial_surface_landmarks_01"
+      ]
+    }
+  ],
+  "incision": [
+    {
+      "text": "Center a straight incision over fracture along the medial border of tibialis-anterior tendon, tailoring length to fragment, implant, and leg size.",
+      "claim_ids": [
+        "pediatric_distal_tibia_anteromedial_incision_01"
+      ]
+    }
+  ],
+  "superficial_interval": [
+    {
+      "text": "Raise full-thickness flaps and open extensor retinaculum down to periosteum immediately medial to tibialis-anterior tendon.",
+      "claim_ids": [
+        "pediatric_distal_tibia_anteromedial_superficial_interval_01"
+      ]
+    }
+  ],
+  "deep_interval": [
+    {
+      "text": "Preserve tibialis-anterior sheath; when needed, develop the plane behind its posterior border and periosteum to reduce a large anterolateral fragment.",
+      "claim_ids": [
+        "pediatric_distal_tibia_anteromedial_deep_interval_01"
+      ]
+    }
+  ],
+  "layers": [
+    {
+      "text": "Skin, full-thickness flap, extensor retinaculum, intact tibialis-anterior sheath, periosteum/capsule, then distal tibial fragment.",
+      "claim_ids": [
+        "pediatric_distal_tibia_anteromedial_layers_01"
+      ]
+    }
+  ],
+  "structures_encountered": [
+    {
+      "text": "Tibialis-anterior tendon/sheath, extensor retinaculum, distal tibial periosteum and physis, capsule, medial and anterolateral fragments are encountered.",
+      "claim_ids": [
+        "pediatric_distal_tibia_anteromedial_structures_encountered_01"
+      ]
+    }
+  ],
+  "structures_at_risk": [
+    {
+      "text": "Tibialis-anterior tendon/sheath, saphenous structures, anterior tibial neurovascular bundle laterally, perichondral ring, physis, periosteum, and cartilage are at risk.",
+      "claim_ids": [
+        "pediatric_distal_tibia_anteromedial_structures_at_risk_01"
+      ]
+    }
+  ],
+  "danger_zones": [
+    {
+      "text": "Leave tibialis-anterior sheath intact and repair any opening immediately; avoid dissection of the perichondral ring and unnecessary physeal crossing.",
+      "claim_ids": [
+        "pediatric_distal_tibia_anteromedial_danger_zones_01"
+      ]
+    }
+  ],
+  "retraction_hazards": [
+    {
+      "text": "Avoid forceful tendon retraction, flap undermining, and broad lateral stripping behind the tendon sheath.",
+      "claim_ids": [
+        "pediatric_distal_tibia_anteromedial_retraction_hazards_01"
+      ]
+    }
+  ],
+  "exposure": [
+    {
+      "text": "Provides direct access to medial distal-tibial fractures and large anterolateral fragments extending toward medial malleolus.",
+      "claim_ids": [
+        "pediatric_distal_tibia_anteromedial_exposure_01"
+      ]
+    }
+  ],
+  "limitations": [
+    {
+      "text": "Far lateral fixation may require a separate small anterolateral incision, and medial distal tibia has little muscular coverage.",
+      "claim_ids": [
+        "pediatric_distal_tibia_anteromedial_limitations_01"
+      ]
+    }
+  ],
+  "extensions": [
+    {
+      "text": "Develop limited lateral plane behind tendon sheath or add a separate small anterolateral window for safe fixation.",
+      "claim_ids": [
+        "pediatric_distal_tibia_anteromedial_extensions_01"
+      ]
+    }
+  ],
+  "indications": [
+    {
+      "text": "Use for fractures extending medially and large anterolateral fragments whose medial fracture plane approaches medial malleolus.",
+      "claim_ids": [
+        "pediatric_distal_tibia_anteromedial_indications_01"
+      ]
+    }
+  ],
+  "relative_contraindications": [
+    {
+      "text": "Choose anterolateral or posterior exposure when dominant pathology or safer soft tissue lies outside the medial corridor.",
+      "claim_ids": [
+        "pediatric_distal_tibia_anteromedial_relative_contraindications_01"
+      ]
+    }
+  ],
+  "implant_implications": [
+    {
+      "text": "Use fixation that restores joint and physis while minimizing physeal crossings; place lateral fixation through a separate window if necessary.",
+      "claim_ids": [
+        "pediatric_distal_tibia_anteromedial_implant_implications_01"
+      ]
+    }
+  ],
+  "fluoroscopy_implications": [
+    {
+      "text": "Confirm articular congruity, physeal alignment, limb axis, and implant containment on AP, lateral, mortise, and oblique views.",
+      "claim_ids": [
+        "pediatric_distal_tibia_anteromedial_fluoroscopy_implications_01"
+      ]
+    }
+  ],
+  "closure": [
+    {
+      "text": "Repair any tendon-sheath injury immediately, restore retinaculum, confirm tendon excursion, and close viable skin without tension.",
+      "claim_ids": [
+        "pediatric_distal_tibia_anteromedial_closure_01"
+      ]
+    }
+  ],
+  "complications": [
+    {
+      "text": "Complications include physeal arrest, angular deformity, leg-length discrepancy, tibialis-anterior adhesions or attrition, wound necrosis, infection, stiffness, and arthritis.",
+      "claim_ids": [
+        "pediatric_distal_tibia_anteromedial_complications_01"
+      ]
+    }
+  ],
+  "bailouts": [
+    {
+      "text": "Add a separate anterolateral window rather than over-dissecting beneath tibialis-anterior sheath to obtain lateral fixation.",
+      "claim_ids": [
+        "pediatric_distal_tibia_anteromedial_bailouts_01"
+      ]
+    }
+  ],
+  "procedure_applications": [
+    {
+      "procedure_id": "pediatric_distal_tibia_physeal_fracture_orif",
+      "relationship": "primary_option",
+      "condition": "A displaced medial or large anterolateral physeal/articular fragment requires direct reduction"
+    }
+  ],
+  "questions": [
+    {
+      "question": "Which structure must remain intact?",
+      "answer": "The tibialis-anterior tendon sheath.",
+      "claim_ids": [
+        "pediatric_distal_tibia_anteromedial_questions_01"
+      ]
+    },
+    {
+      "question": "When is a separate incision useful?",
+      "answer": "When fixation of a large anterolateral fragment cannot be performed safely through the medial corridor.",
+      "claim_ids": [
+        "pediatric_distal_tibia_anteromedial_questions_02"
+      ]
+    },
+    {
+      "question": "Why minimize periosteal dissection?",
+      "answer": "The distal tibia lacks muscle cover and depends on preserved blood supply.",
+      "claim_ids": [
+        "pediatric_distal_tibia_anteromedial_questions_03"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "pediatric_distal_tibia_anteromedial_positioning_01",
+      "text": "Position supine with a radiolucent support, free ankle motion, and AP, lateral, mortise, and oblique imaging available.",
+      "source_ids": [
+        "ao_dc7f4746765facb4",
+        "pmid_34377551"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "pediatric_distal_tibia_anteromedial_setup_01",
+      "text": "Review CT for articular/transitional injury, delay until swelling permits safe flaps, and template reduction and physis-respecting fixation.",
+      "source_ids": [
+        "ao_dc7f4746765facb4",
+        "pmid_34377551"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "pediatric_distal_tibia_anteromedial_surface_landmarks_01",
+      "text": "Mark tibialis-anterior tendon and sheath, tibial crest, ankle joint, medial malleolus, physis, and any traumatic wounds.",
+      "source_ids": [
+        "ao_dc7f4746765facb4"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "pediatric_distal_tibia_anteromedial_incision_01",
+      "text": "Center a straight incision over fracture along the medial border of tibialis-anterior tendon, tailoring length to fragment, implant, and leg size.",
+      "source_ids": [
+        "ao_dc7f4746765facb4",
+        "pmid_28050532"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "pediatric_distal_tibia_anteromedial_superficial_interval_01",
+      "text": "Raise full-thickness flaps and open extensor retinaculum down to periosteum immediately medial to tibialis-anterior tendon.",
+      "source_ids": [
+        "ao_dc7f4746765facb4",
+        "pmid_34377551"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "pediatric_distal_tibia_anteromedial_deep_interval_01",
+      "text": "Preserve tibialis-anterior sheath; when needed, develop the plane behind its posterior border and periosteum to reduce a large anterolateral fragment.",
+      "source_ids": [
+        "ao_dc7f4746765facb4",
+        "pmid_28050532"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "pediatric_distal_tibia_anteromedial_layers_01",
+      "text": "Skin, full-thickness flap, extensor retinaculum, intact tibialis-anterior sheath, periosteum/capsule, then distal tibial fragment.",
+      "source_ids": [
+        "ao_dc7f4746765facb4"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "pediatric_distal_tibia_anteromedial_structures_encountered_01",
+      "text": "Tibialis-anterior tendon/sheath, extensor retinaculum, distal tibial periosteum and physis, capsule, medial and anterolateral fragments are encountered.",
+      "source_ids": [
+        "ao_dc7f4746765facb4",
+        "pmid_34377551"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "pediatric_distal_tibia_anteromedial_structures_at_risk_01",
+      "text": "Tibialis-anterior tendon/sheath, saphenous structures, anterior tibial neurovascular bundle laterally, perichondral ring, physis, periosteum, and cartilage are at risk.",
+      "source_ids": [
+        "ao_dc7f4746765facb4",
+        "pmid_34377551"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "pediatric_distal_tibia_anteromedial_danger_zones_01",
+      "text": "Leave tibialis-anterior sheath intact and repair any opening immediately; avoid dissection of the perichondral ring and unnecessary physeal crossing.",
+      "source_ids": [
+        "ao_dc7f4746765facb4",
+        "pmid_28050532"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "pediatric_distal_tibia_anteromedial_retraction_hazards_01",
+      "text": "Avoid forceful tendon retraction, flap undermining, and broad lateral stripping behind the tendon sheath.",
+      "source_ids": [
+        "ao_dc7f4746765facb4",
+        "pmid_34377551"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "pediatric_distal_tibia_anteromedial_exposure_01",
+      "text": "Provides direct access to medial distal-tibial fractures and large anterolateral fragments extending toward medial malleolus.",
+      "source_ids": [
+        "ao_dc7f4746765facb4",
+        "pmid_34377551"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "pediatric_distal_tibia_anteromedial_limitations_01",
+      "text": "Far lateral fixation may require a separate small anterolateral incision, and medial distal tibia has little muscular coverage.",
+      "source_ids": [
+        "ao_dc7f4746765facb4",
+        "pmid_28050532"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "pediatric_distal_tibia_anteromedial_extensions_01",
+      "text": "Develop limited lateral plane behind tendon sheath or add a separate small anterolateral window for safe fixation.",
+      "source_ids": [
+        "ao_dc7f4746765facb4",
+        "pmid_34377551"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "pediatric_distal_tibia_anteromedial_indications_01",
+      "text": "Use for fractures extending medially and large anterolateral fragments whose medial fracture plane approaches medial malleolus.",
+      "source_ids": [
+        "ao_dc7f4746765facb4",
+        "pmid_34377551"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "pediatric_distal_tibia_anteromedial_relative_contraindications_01",
+      "text": "Choose anterolateral or posterior exposure when dominant pathology or safer soft tissue lies outside the medial corridor.",
+      "source_ids": [
+        "ao_dc7f4746765facb4",
+        "pmid_28050532"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "pediatric_distal_tibia_anteromedial_implant_implications_01",
+      "text": "Use fixation that restores joint and physis while minimizing physeal crossings; place lateral fixation through a separate window if necessary.",
+      "source_ids": [
+        "pmid_34377551",
+        "pmid_28050532"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "pediatric_distal_tibia_anteromedial_fluoroscopy_implications_01",
+      "text": "Confirm articular congruity, physeal alignment, limb axis, and implant containment on AP, lateral, mortise, and oblique views.",
+      "source_ids": [
+        "pmid_34377551",
+        "pmid_28050532"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "pediatric_distal_tibia_anteromedial_closure_01",
+      "text": "Repair any tendon-sheath injury immediately, restore retinaculum, confirm tendon excursion, and close viable skin without tension.",
+      "source_ids": [
+        "ao_dc7f4746765facb4",
+        "pmid_34377551"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "pediatric_distal_tibia_anteromedial_complications_01",
+      "text": "Complications include physeal arrest, angular deformity, leg-length discrepancy, tibialis-anterior adhesions or attrition, wound necrosis, infection, stiffness, and arthritis.",
+      "source_ids": [
+        "pmid_34377551",
+        "pmid_28050532"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "pediatric_distal_tibia_anteromedial_bailouts_01",
+      "text": "Add a separate anterolateral window rather than over-dissecting beneath tibialis-anterior sheath to obtain lateral fixation.",
+      "source_ids": [
+        "ao_dc7f4746765facb4",
+        "pmid_34377551"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "pediatric_distal_tibia_anteromedial_questions_01",
+      "text": "Which structure must remain intact?",
+      "source_ids": [
+        "ao_dc7f4746765facb4"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "pediatric_distal_tibia_anteromedial_questions_02",
+      "text": "When is a separate incision useful?",
+      "source_ids": [
+        "ao_dc7f4746765facb4"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "pediatric_distal_tibia_anteromedial_questions_03",
+      "text": "Why minimize periosteal dissection?",
+      "source_ids": [
+        "ao_dc7f4746765facb4"
+      ],
+      "risk_level": "medium"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "ao_dc7f4746765facb4",
+      "provider": "AO Surgery Reference",
+      "title": "Anteromedial Approach",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/pediatric-trauma/distal-tibia-fibula/approach/anteromedial-approach",
+      "source_page_id": "ao_dc7f4746765facb4"
+    },
+    {
+      "source_id": "pmid_34377551",
+      "provider": "PubMed",
+      "title": "Ankle fractures in children",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/34377551/"
+    },
+    {
+      "source_id": "pmid_28050532",
+      "provider": "PubMed",
+      "title": "Foot and ankle fractures during childhood: review",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/28050532/"
+    }
+  ],
+  "content_status": "agent_review_pending",
+  "review": {
+    "status": "agent_review_pending",
+    "required_roles": [
+      "adversarial_safety_reviewer",
+      "approach_anatomy_reviewer",
+      "educational_value_reviewer",
+      "evidence_reviewer",
+      "operative_exposure_reviewer",
+      "procedure_applicability_reviewer"
+    ],
+    "completed_roles": []
+  },
+  "resolved_contradiction_keys": [],
+  "authoring_provenance": {
+    "method": "local_codex_curated",
+    "definition_file": "data/approach_library/curated/pediatric_distal_tibia_anterior_esin_v1.json",
+    "api_used": false
+  }
+}

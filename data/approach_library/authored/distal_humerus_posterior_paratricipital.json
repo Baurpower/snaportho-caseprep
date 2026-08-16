@@ -1,0 +1,467 @@
+{
+  "schema_version": "brobot_approach_packet_v1",
+  "approach_id": "distal_humerus_posterior_paratricipital",
+  "name": "Posterior paratricipital approach to the distal humerus",
+  "aliases": [
+    "Alonso-Llames approach",
+    "triceps-sparing two-window approach"
+  ],
+  "region": "posterior elbow and distal humerus",
+  "joint": "elbow",
+  "bones": [
+    "distal humerus",
+    "olecranon"
+  ],
+  "corridor": "Medial and lateral windows around intact triceps insertion with posterior humeral elevation",
+  "positioning": [
+    {
+      "text": "Position lateral or prone with arm supported, elbow freely flexed, and posterior humerus accessible to fluoroscopy.",
+      "claim_ids": [
+        "distal_humerus_posterior_paratricipital_positioning_01"
+      ]
+    }
+  ],
+  "setup": [
+    {
+      "text": "Review articular comminution and plan dual-column plating, ulnar-nerve handling, and conversion to osteotomy if visualization is inadequate.",
+      "claim_ids": [
+        "distal_humerus_posterior_paratricipital_setup_01"
+      ]
+    }
+  ],
+  "surface_landmarks": [
+    {
+      "text": "Mark humeral shaft, olecranon, medial/lateral epicondyles, ulnar nerve, and subcutaneous ulna.",
+      "claim_ids": [
+        "distal_humerus_posterior_paratricipital_surface_landmarks_01"
+      ]
+    }
+  ],
+  "incision": [
+    {
+      "text": "Use posterior incision from middle-distal humeral junction to ulnar diaphysis, avoiding direct placement over olecranon tip.",
+      "claim_ids": [
+        "distal_humerus_posterior_paratricipital_incision_01"
+      ]
+    }
+  ],
+  "superficial_interval": [
+    {
+      "text": "Raise full-thickness flaps and create an ulnar window after releasing and protecting ulnar nerve to first FCU motor branch.",
+      "claim_ids": [
+        "distal_humerus_posterior_paratricipital_superficial_interval_01"
+      ]
+    }
+  ],
+  "deep_interval": [
+    {
+      "text": "Mobilize triceps from lateral septum and posterior humerus, elevate anconeus posterolaterally, and move intact triceps sleeve medially or laterally for two-window access.",
+      "claim_ids": [
+        "distal_humerus_posterior_paratricipital_deep_interval_01"
+      ]
+    }
+  ],
+  "layers": [
+    {
+      "text": "Skin, full-thickness flaps, medial ulnar-nerve window and lateral triceps-anconeus window, then posterior distal humerus.",
+      "claim_ids": [
+        "distal_humerus_posterior_paratricipital_layers_01"
+      ]
+    }
+  ],
+  "structures_encountered": [
+    {
+      "text": "Ulnar nerve, triceps, anconeus, medial/lateral columns, posterior capsule, MCL posterior band, and LUCL are encountered.",
+      "claim_ids": [
+        "distal_humerus_posterior_paratricipital_structures_encountered_01"
+      ]
+    }
+  ],
+  "structures_at_risk": [
+    {
+      "text": "Ulnar nerve, radial nerve proximally, anterior MCL band, LUCL, triceps insertion, and articular cartilage are at risk.",
+      "claim_ids": [
+        "distal_humerus_posterior_paratricipital_structures_at_risk_01"
+      ]
+    }
+  ],
+  "danger_zones": [
+    {
+      "text": "Only posterior MCL band and posterolateral capsule may be released for exposure; preserve anterior MCL and LUCL.",
+      "claim_ids": [
+        "distal_humerus_posterior_paratricipital_danger_zones_01"
+      ]
+    }
+  ],
+  "retraction_hazards": [
+    {
+      "text": "Avoid sustained ulnar-nerve traction and excessive displacement of intact triceps sleeve.",
+      "claim_ids": [
+        "distal_humerus_posterior_paratricipital_retraction_hazards_01"
+      ]
+    }
+  ],
+  "exposure": [
+    {
+      "text": "Provides medial and lateral column access without triceps detachment or olecranon osteotomy and retains olecranon as reduction template.",
+      "claim_ids": [
+        "distal_humerus_posterior_paratricipital_exposure_01"
+      ]
+    }
+  ],
+  "limitations": [
+    {
+      "text": "Articular visualization is limited for highly comminuted C3 patterns compared with olecranon osteotomy.",
+      "claim_ids": [
+        "distal_humerus_posterior_paratricipital_limitations_01"
+      ]
+    }
+  ],
+  "extensions": [
+    {
+      "text": "Release only posterior capsular bands or convert to olecranon osteotomy when safe direct articular visualization remains inadequate.",
+      "claim_ids": [
+        "distal_humerus_posterior_paratricipital_extensions_01"
+      ]
+    }
+  ],
+  "indications": [
+    {
+      "text": "Use for extra-articular and simple intra-articular distal-humerus fractures, including selected C1-C2 patterns.",
+      "claim_ids": [
+        "distal_humerus_posterior_paratricipital_indications_01"
+      ]
+    }
+  ],
+  "relative_contraindications": [
+    {
+      "text": "Prefer transolecranon or another extensile approach for severe articular comminution requiring complete visualization.",
+      "claim_ids": [
+        "distal_humerus_posterior_paratricipital_relative_contraindications_01"
+      ]
+    }
+  ],
+  "implant_implications": [
+    {
+      "text": "Supports orthogonal or parallel dual plating through two windows while preserving triceps insertion; keep ulnar nerve off implants.",
+      "claim_ids": [
+        "distal_humerus_posterior_paratricipital_implant_implications_01"
+      ]
+    }
+  ],
+  "fluoroscopy_implications": [
+    {
+      "text": "Use AP, lateral, and oblique views to verify articular reduction, column alignment, and screw containment where direct view is limited.",
+      "claim_ids": [
+        "distal_humerus_posterior_paratricipital_fluoroscopy_implications_01"
+      ]
+    }
+  ],
+  "closure": [
+    {
+      "text": "Repair released capsule, restore anconeus/triceps fascial intervals, and leave ulnar nerve tension free away from sutures and metalwork.",
+      "claim_ids": [
+        "distal_humerus_posterior_paratricipital_closure_01"
+      ]
+    }
+  ],
+  "complications": [
+    {
+      "text": "Complications include ulnar neuropathy, stiffness, limited articular reduction, nonunion, infection, heterotopic ossification, and fixation failure.",
+      "claim_ids": [
+        "distal_humerus_posterior_paratricipital_complications_01"
+      ]
+    }
+  ],
+  "bailouts": [
+    {
+      "text": "Convert to olecranon osteotomy if direct reduction cannot be verified through the two windows.",
+      "claim_ids": [
+        "distal_humerus_posterior_paratricipital_bailouts_01"
+      ]
+    }
+  ],
+  "procedure_applications": [
+    {
+      "procedure_id": "distal_humerus_fracture_orif",
+      "relationship": "primary_option",
+      "condition": "An extra-articular or simple intra-articular distal-humerus fracture can be fixed through triceps-sparing medial and lateral windows"
+    }
+  ],
+  "questions": [
+    {
+      "question": "What insertion is preserved?",
+      "answer": "The triceps insertion on olecranon.",
+      "claim_ids": [
+        "distal_humerus_posterior_paratricipital_questions_01"
+      ]
+    },
+    {
+      "question": "Which MCL portion may be released?",
+      "answer": "The posterior band, while preserving the anterior band.",
+      "claim_ids": [
+        "distal_humerus_posterior_paratricipital_questions_02"
+      ]
+    },
+    {
+      "question": "Which lateral ligament must remain intact?",
+      "answer": "The LUCL.",
+      "claim_ids": [
+        "distal_humerus_posterior_paratricipital_questions_03"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "distal_humerus_posterior_paratricipital_positioning_01",
+      "text": "Position lateral or prone with arm supported, elbow freely flexed, and posterior humerus accessible to fluoroscopy.",
+      "source_ids": [
+        "ao_ef3ea8871fcab138",
+        "pmid_35685971"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "distal_humerus_posterior_paratricipital_setup_01",
+      "text": "Review articular comminution and plan dual-column plating, ulnar-nerve handling, and conversion to osteotomy if visualization is inadequate.",
+      "source_ids": [
+        "pmid_29934098",
+        "pmid_35685971"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "distal_humerus_posterior_paratricipital_surface_landmarks_01",
+      "text": "Mark humeral shaft, olecranon, medial/lateral epicondyles, ulnar nerve, and subcutaneous ulna.",
+      "source_ids": [
+        "ao_ef3ea8871fcab138"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "distal_humerus_posterior_paratricipital_incision_01",
+      "text": "Use posterior incision from middle-distal humeral junction to ulnar diaphysis, avoiding direct placement over olecranon tip.",
+      "source_ids": [
+        "ao_ef3ea8871fcab138",
+        "pmid_29934098"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "distal_humerus_posterior_paratricipital_superficial_interval_01",
+      "text": "Raise full-thickness flaps and create an ulnar window after releasing and protecting ulnar nerve to first FCU motor branch.",
+      "source_ids": [
+        "ao_ef3ea8871fcab138",
+        "pmid_29934098"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "distal_humerus_posterior_paratricipital_deep_interval_01",
+      "text": "Mobilize triceps from lateral septum and posterior humerus, elevate anconeus posterolaterally, and move intact triceps sleeve medially or laterally for two-window access.",
+      "source_ids": [
+        "ao_ef3ea8871fcab138",
+        "pmid_35685971"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "distal_humerus_posterior_paratricipital_layers_01",
+      "text": "Skin, full-thickness flaps, medial ulnar-nerve window and lateral triceps-anconeus window, then posterior distal humerus.",
+      "source_ids": [
+        "ao_ef3ea8871fcab138"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "distal_humerus_posterior_paratricipital_structures_encountered_01",
+      "text": "Ulnar nerve, triceps, anconeus, medial/lateral columns, posterior capsule, MCL posterior band, and LUCL are encountered.",
+      "source_ids": [
+        "ao_ef3ea8871fcab138",
+        "pmid_35685971"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "distal_humerus_posterior_paratricipital_structures_at_risk_01",
+      "text": "Ulnar nerve, radial nerve proximally, anterior MCL band, LUCL, triceps insertion, and articular cartilage are at risk.",
+      "source_ids": [
+        "ao_ef3ea8871fcab138",
+        "pmid_29934098"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "distal_humerus_posterior_paratricipital_danger_zones_01",
+      "text": "Only posterior MCL band and posterolateral capsule may be released for exposure; preserve anterior MCL and LUCL.",
+      "source_ids": [
+        "ao_ef3ea8871fcab138",
+        "pmid_35685971"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "distal_humerus_posterior_paratricipital_retraction_hazards_01",
+      "text": "Avoid sustained ulnar-nerve traction and excessive displacement of intact triceps sleeve.",
+      "source_ids": [
+        "ao_ef3ea8871fcab138",
+        "pmid_35685971"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "distal_humerus_posterior_paratricipital_exposure_01",
+      "text": "Provides medial and lateral column access without triceps detachment or olecranon osteotomy and retains olecranon as reduction template.",
+      "source_ids": [
+        "ao_ef3ea8871fcab138",
+        "pmid_35685971"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "distal_humerus_posterior_paratricipital_limitations_01",
+      "text": "Articular visualization is limited for highly comminuted C3 patterns compared with olecranon osteotomy.",
+      "source_ids": [
+        "pmid_29934098",
+        "pmid_35685971"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "distal_humerus_posterior_paratricipital_extensions_01",
+      "text": "Release only posterior capsular bands or convert to olecranon osteotomy when safe direct articular visualization remains inadequate.",
+      "source_ids": [
+        "ao_ef3ea8871fcab138",
+        "pmid_29934098"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "distal_humerus_posterior_paratricipital_indications_01",
+      "text": "Use for extra-articular and simple intra-articular distal-humerus fractures, including selected C1-C2 patterns.",
+      "source_ids": [
+        "ao_ef3ea8871fcab138",
+        "pmid_35685971"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "distal_humerus_posterior_paratricipital_relative_contraindications_01",
+      "text": "Prefer transolecranon or another extensile approach for severe articular comminution requiring complete visualization.",
+      "source_ids": [
+        "pmid_29934098",
+        "pmid_35685971"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "distal_humerus_posterior_paratricipital_implant_implications_01",
+      "text": "Supports orthogonal or parallel dual plating through two windows while preserving triceps insertion; keep ulnar nerve off implants.",
+      "source_ids": [
+        "ao_ef3ea8871fcab138",
+        "pmid_35685971"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "distal_humerus_posterior_paratricipital_fluoroscopy_implications_01",
+      "text": "Use AP, lateral, and oblique views to verify articular reduction, column alignment, and screw containment where direct view is limited.",
+      "source_ids": [
+        "pmid_29934098",
+        "pmid_35685971"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "distal_humerus_posterior_paratricipital_closure_01",
+      "text": "Repair released capsule, restore anconeus/triceps fascial intervals, and leave ulnar nerve tension free away from sutures and metalwork.",
+      "source_ids": [
+        "ao_ef3ea8871fcab138",
+        "pmid_29934098"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "distal_humerus_posterior_paratricipital_complications_01",
+      "text": "Complications include ulnar neuropathy, stiffness, limited articular reduction, nonunion, infection, heterotopic ossification, and fixation failure.",
+      "source_ids": [
+        "pmid_29934098",
+        "pmid_35685971"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "distal_humerus_posterior_paratricipital_bailouts_01",
+      "text": "Convert to olecranon osteotomy if direct reduction cannot be verified through the two windows.",
+      "source_ids": [
+        "ao_ef3ea8871fcab138",
+        "pmid_29934098"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "distal_humerus_posterior_paratricipital_questions_01",
+      "text": "What insertion is preserved?",
+      "source_ids": [
+        "ao_ef3ea8871fcab138"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "distal_humerus_posterior_paratricipital_questions_02",
+      "text": "Which MCL portion may be released?",
+      "source_ids": [
+        "ao_ef3ea8871fcab138"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "distal_humerus_posterior_paratricipital_questions_03",
+      "text": "Which lateral ligament must remain intact?",
+      "source_ids": [
+        "ao_ef3ea8871fcab138"
+      ],
+      "risk_level": "medium"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "ao_ef3ea8871fcab138",
+      "provider": "AO Surgery Reference",
+      "title": "Posterior Paratricipital Approach",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/distal-humerus/approach/posterior-paratricipital-approach",
+      "source_page_id": "ao_ef3ea8871fcab138"
+    },
+    {
+      "source_id": "pmid_29934098",
+      "provider": "PubMed",
+      "title": "Surgical approaches for ORIF of intra-articular distal humerus fractures in adults",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/29934098/"
+    },
+    {
+      "source_id": "pmid_35685971",
+      "provider": "PubMed",
+      "title": "Outcomes for Type 13C1 and 13C2 fractures using the paratricipital approach",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/35685971/"
+    }
+  ],
+  "content_status": "agent_review_pending",
+  "review": {
+    "status": "agent_review_pending",
+    "required_roles": [
+      "adversarial_safety_reviewer",
+      "approach_anatomy_reviewer",
+      "educational_value_reviewer",
+      "evidence_reviewer",
+      "operative_exposure_reviewer",
+      "procedure_applicability_reviewer"
+    ],
+    "completed_roles": []
+  },
+  "resolved_contradiction_keys": [],
+  "authoring_provenance": {
+    "method": "local_codex_curated",
+    "definition_file": "data/approach_library/curated/distal_humerus_triceps_on_medial_v1.json",
+    "api_used": false
+  }
+}

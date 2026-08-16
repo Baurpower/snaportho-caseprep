@@ -1,0 +1,150 @@
+{
+  "approaches": [
+    {
+      "approach_id": "hip_anterior_smith_petersen",
+      "name": "Anterior hip approach (Smith-Petersen)",
+      "aliases": ["Smith-Petersen approach", "direct anterior hip approach"],
+      "region": "hip and proximal femur",
+      "joint": "hip",
+      "bones": ["pelvis", "proximal femur"],
+      "corridor": "Superficial interval between sartorius and tensor fasciae latae; deep interval between rectus femoris and gluteus medius",
+      "sources": [
+        {
+          "source_id": "ao_b8234e68bf76e475",
+          "provider": "AO Surgery Reference",
+          "title": "Anterior approach (Smith-Petersen)",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/proximal-femur/approach/anterior-approach-smith-petersen",
+          "source_page_id": "ao_b8234e68bf76e475"
+        },
+        {
+          "source_id": "orthobullets_7a5b4f012205092d",
+          "provider": "Orthobullets",
+          "title": "Hip Anterior Approach (Smith-Petersen)",
+          "url": "https://www.orthobullets.com/approaches/12020/hip-anterior-approach-smith-petersen",
+          "source_page_id": "orthobullets_7a5b4f012205092d"
+        }
+      ],
+      "procedure_applications": [
+        {"procedure_id": "total_hip_arthroplasty", "relationship": "primary_option", "condition": "Direct anterior technique selected"},
+        {"procedure_id": "hip_hemiarthroplasty", "relationship": "conditional_option", "condition": "Anterior exposure selected and surgeon experienced with the approach"},
+        {"procedure_id": "femoral_neck_fracture_orif", "relationship": "conditional_option", "condition": "Open reduction or anterior capsular access is required"},
+        {"procedure_id": "hip_irrigation_and_debridement", "relationship": "primary_option", "condition": "Anterior joint access is appropriate"}
+      ],
+      "sections": {
+        "positioning": [
+          {"text": "Position the patient supine on a radiolucent table; the setup should permit imaging and manipulation of the operative leg.", "source_ids": ["ao_b8234e68bf76e475", "orthobullets_7a5b4f012205092d"], "claim_key": "smith_petersen_position", "normalized_value": "supine"}
+        ],
+        "setup": [
+          {"text": "Prep and drape the limb so traction, rotation, and distal extension of the exposure remain possible.", "source_ids": ["ao_b8234e68bf76e475"]}
+        ],
+        "surface_landmarks": [
+          {"text": "Mark the anterior superior iliac spine and the course of the tensor fasciae latae before incision.", "source_ids": ["ao_b8234e68bf76e475", "orthobullets_7a5b4f012205092d"]}
+        ],
+        "incision": [
+          {"text": "Begin just distal and lateral to the anterior superior iliac spine and extend distally in line with the tensor fasciae latae.", "source_ids": ["ao_b8234e68bf76e475", "orthobullets_7a5b4f012205092d"]}
+        ],
+        "superficial_interval": [
+          {"text": "Develop the internervous interval between sartorius (femoral nerve) medially and tensor fasciae latae (superior gluteal nerve) laterally.", "source_ids": ["ao_b8234e68bf76e475", "orthobullets_7a5b4f012205092d"], "risk_level": "high"}
+        ],
+        "deep_interval": [
+          {"text": "Continue between rectus femoris medially and gluteus medius laterally to reach the anterior capsule.", "source_ids": ["ao_b8234e68bf76e475", "orthobullets_7a5b4f012205092d"]}
+        ],
+        "layers": [
+          {"text": "Skin and subcutaneous tissue, tensor fascia, sartorius–tensor interval, rectus–gluteus interval, then anterior hip capsule.", "source_ids": ["ao_b8234e68bf76e475", "orthobullets_7a5b4f012205092d"]}
+        ],
+        "structures_encountered": [
+          {"text": "The ascending branch of the lateral femoral circumflex artery crosses the deep dissection and may require controlled ligation or coagulation.", "source_ids": ["ao_b8234e68bf76e475", "orthobullets_7a5b4f012205092d"]}
+        ],
+        "structures_at_risk": [
+          {"text": "The lateral femoral cutaneous nerve is vulnerable near the anterior superior iliac spine and medial edge of the tensor fasciae latae.", "source_ids": ["ao_b8234e68bf76e475", "orthobullets_7a5b4f012205092d"], "risk_level": "high"},
+          {"text": "The femoral nerve and vessels are endangered by deep or medially directed instrumentation and retractors.", "source_ids": ["ao_b8234e68bf76e475", "orthobullets_7a5b4f012205092d"], "risk_level": "high"}
+        ],
+        "danger_zones": [
+          {"text": "Keep the initial fascial opening lateral and protect the lateral femoral cutaneous nerve by avoiding aggressive medial subcutaneous dissection.", "source_ids": ["ao_b8234e68bf76e475", "orthobullets_7a5b4f012205092d"], "risk_level": "high"}
+        ],
+        "retraction_hazards": [
+          {"text": "Avoid placing sharp retractors intracapsularly along the superolateral femoral neck, where they may threaten retinacular blood supply to the femoral head.", "source_ids": ["ao_b8234e68bf76e475"], "risk_level": "medium"}
+        ],
+        "exposure": [
+          {"text": "Provides direct anterior access to the hip capsule, femoral head and neck, and adjacent ilium; distal extension can increase access to the proximal femur.", "source_ids": ["ao_b8234e68bf76e475", "orthobullets_7a5b4f012205092d"]}
+        ],
+        "limitations": [
+          {"text": "Femoral exposure and instrumentation can be demanding; fracture fixation may require an additional lateral incision or extension.", "source_ids": ["ao_b8234e68bf76e475", "orthobullets_7a5b4f012205092d"]}
+        ],
+        "extensions": [
+          {"text": "Proximal extension follows the iliac crest; distal extension continues along the anterolateral thigh while preserving the relevant neurovascular structures.", "source_ids": ["orthobullets_7a5b4f012205092d"]}
+        ],
+        "indications": [
+          {"text": "Useful for anterior hip arthroplasty, open reduction requiring anterior capsular access, biopsy, drainage, and selected reconstructive procedures.", "source_ids": ["ao_b8234e68bf76e475", "orthobullets_7a5b4f012205092d"]}
+        ],
+        "relative_contraindications": [
+          {"text": "Use caution when required exposure or fixation cannot be achieved through the anterior corridor without unsafe traction or an unplanned second window.", "source_ids": ["ao_b8234e68bf76e475"]}
+        ],
+        "implant_implications": [
+          {"text": "Plan a separate lateral window when the selected proximal-femoral implant cannot be inserted safely through the anterior exposure.", "source_ids": ["ao_b8234e68bf76e475"]}
+        ],
+        "fluoroscopy_implications": [
+          {"text": "Supine positioning facilitates AP and lateral fluoroscopic assessment, but the drape and table must preserve unobstructed image access.", "source_ids": ["ao_b8234e68bf76e475"]}
+        ],
+        "closure": [
+          {"text": "Repair the capsule when indicated, restore any released rectus origin, and close tensor fascia without entrapping the lateral femoral cutaneous nerve.", "source_ids": ["ao_b8234e68bf76e475"]}
+        ],
+        "complications": [
+          {"text": "Approach-specific problems include lateral femoral cutaneous neuropraxia, femoral neurovascular injury, bleeding from lateral femoral circumflex branches, and inadequate femoral exposure.", "source_ids": ["ao_b8234e68bf76e475", "orthobullets_7a5b4f012205092d"], "risk_level": "high"}
+        ],
+        "bailouts": [
+          {"text": "If femoral or implant access remains unsafe, stop forceful retraction and extend the exposure or add the planned lateral window.", "source_ids": ["ao_b8234e68bf76e475"], "risk_level": "medium"}
+        ],
+        "questions": [
+          {"question": "What is the superficial internervous plane in the Smith-Petersen approach?", "answer": "Sartorius medially and tensor fasciae latae laterally.", "source_ids": ["ao_b8234e68bf76e475", "orthobullets_7a5b4f012205092d"]},
+          {"question": "Which sensory nerve is most vulnerable during the superficial dissection?", "answer": "The lateral femoral cutaneous nerve.", "source_ids": ["ao_b8234e68bf76e475", "orthobullets_7a5b4f012205092d"]}
+        ]
+      }
+    },
+    {
+      "approach_id": "hip_anterolateral_watson_jones",
+      "name": "Anterolateral hip approach (Watson-Jones)",
+      "aliases": ["Watson-Jones approach", "anterolateral hip approach"],
+      "region": "hip and proximal femur",
+      "joint": "hip",
+      "bones": ["pelvis", "proximal femur"],
+      "corridor": "Interval between tensor fasciae latae anteriorly and gluteus medius posteriorly",
+      "sources": [
+        {"source_id": "ao_b6a83f32e7f02a7e", "provider": "AO Surgery Reference", "title": "Anterolateral approach (Watson-Jones)", "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/proximal-femur/approach/anterolateral-approach-watson-jones", "source_page_id": "ao_b6a83f32e7f02a7e"},
+        {"source_id": "orthobullets_3b9a607895639159", "provider": "Orthobullets", "title": "Hip Anterolateral Approach (Watson-Jones)", "url": "https://www.orthobullets.com/approaches/12021/hip-anterolateral-approach-watson-jones", "source_page_id": "orthobullets_3b9a607895639159"}
+      ],
+      "procedure_applications": [
+        {"procedure_id": "total_hip_arthroplasty", "relationship": "primary_option", "condition": "Anterolateral technique selected"},
+        {"procedure_id": "hip_hemiarthroplasty", "relationship": "primary_option", "condition": "Anterolateral technique selected"},
+        {"procedure_id": "femoral_neck_fracture_orif", "relationship": "conditional_option", "condition": "Open reduction and lateral proximal-femoral fixation are required"}
+      ],
+      "sections": {
+        "positioning": [{"text": "Position supine or lateral according to the planned procedure, with the greater trochanter and anterior superior iliac spine accessible.", "source_ids": ["ao_b6a83f32e7f02a7e", "orthobullets_3b9a607895639159"]}],
+        "setup": [{"text": "Drape to permit hip motion and distal extension along the lateral femur when fixation is planned.", "source_ids": ["ao_b6a83f32e7f02a7e"]}],
+        "surface_landmarks": [{"text": "Mark the anterior superior iliac spine, greater trochanter, and femoral shaft.", "source_ids": ["ao_b6a83f32e7f02a7e", "orthobullets_3b9a607895639159"]}],
+        "incision": [{"text": "Center the incision over the anterolateral greater trochanter, extending proximally toward the anterior superior iliac spine and distally along the femur as needed.", "source_ids": ["ao_b6a83f32e7f02a7e", "orthobullets_3b9a607895639159"]}],
+        "superficial_interval": [{"text": "Open fascia lata and develop the interval between tensor fasciae latae anteriorly and gluteus medius posteriorly.", "source_ids": ["ao_b6a83f32e7f02a7e", "orthobullets_3b9a607895639159"], "risk_level": "high"}],
+        "deep_interval": [{"text": "Expose the anterior capsule while protecting the abductors; limited release of anterior vastus lateralis or abductor insertion may be required by the procedure.", "source_ids": ["ao_b6a83f32e7f02a7e", "orthobullets_3b9a607895639159"]}],
+        "layers": [{"text": "Skin, subcutaneous tissue, fascia lata, tensor–gluteus medius interval, pericapsular tissue, then anterior hip capsule.", "source_ids": ["ao_b6a83f32e7f02a7e", "orthobullets_3b9a607895639159"]}],
+        "structures_encountered": [{"text": "Branches of the lateral femoral circumflex system may cross the interval and should be controlled deliberately.", "source_ids": ["ao_b6a83f32e7f02a7e"]}],
+        "structures_at_risk": [{"text": "The superior gluteal nerve and vessels limit proximal dissection, and femoral neurovascular structures are at risk from anterior retractor placement.", "source_ids": ["ao_b6a83f32e7f02a7e", "orthobullets_3b9a607895639159"], "risk_level": "high"}],
+        "danger_zones": [{"text": "Do not extend the gluteus medius dissection proximally without accounting for the superior gluteal neurovascular bundle.", "source_ids": ["ao_b6a83f32e7f02a7e", "orthobullets_3b9a607895639159"], "risk_level": "high"}],
+        "retraction_hazards": [{"text": "Keep anterior retractors on bone and avoid deep medial placement toward the femoral nerve and vessels.", "source_ids": ["ao_b6a83f32e7f02a7e", "orthobullets_3b9a607895639159"], "risk_level": "high"}],
+        "exposure": [{"text": "Provides access to the anterior hip capsule, acetabular rim, femoral neck, and lateral proximal femur.", "source_ids": ["ao_b6a83f32e7f02a7e", "orthobullets_3b9a607895639159"]}],
+        "limitations": [{"text": "Posterior acetabular access is limited, and aggressive abductor release can compromise postoperative abductor function.", "source_ids": ["ao_b6a83f32e7f02a7e", "orthobullets_3b9a607895639159"]}],
+        "extensions": [{"text": "Extend distally by elevating the anterior vastus lateralis to accommodate lateral proximal-femoral implants.", "source_ids": ["ao_b6a83f32e7f02a7e"]}],
+        "indications": [{"text": "Applicable to total hip arthroplasty, hemiarthroplasty, selected femoral-neck fracture procedures, and proximal-femoral exposure.", "source_ids": ["ao_b6a83f32e7f02a7e", "orthobullets_3b9a607895639159"]}],
+        "relative_contraindications": [{"text": "Consider another exposure when extensive posterior acetabular visualization or a broader femoral corridor is required.", "source_ids": ["orthobullets_3b9a607895639159"]}],
+        "implant_implications": [{"text": "Lateral plate or sliding-hip-screw application may require distal extension and anterior elevation of vastus lateralis.", "source_ids": ["ao_b6a83f32e7f02a7e"]}],
+        "fluoroscopy_implications": [{"text": "Choose table and positioning to preserve AP and lateral imaging before draping, especially when fracture fixation is planned.", "source_ids": ["ao_b6a83f32e7f02a7e"]}],
+        "closure": [{"text": "Repair the capsule and any released abductor or vastus lateralis attachment, then close fascia lata securely.", "source_ids": ["ao_b6a83f32e7f02a7e", "orthobullets_3b9a607895639159"]}],
+        "complications": [{"text": "Approach-related complications include abductor weakness or limp, femoral neurovascular injury from retraction, vascular bleeding, and iatrogenic femoral fracture during exposure.", "source_ids": ["ao_b6a83f32e7f02a7e", "orthobullets_3b9a607895639159"], "risk_level": "high"}],
+        "bailouts": [{"text": "When visualization or femoral mobilization is inadequate, extend the defined exposure rather than applying uncontrolled retraction; convert to the procedure's planned extensile option when necessary.", "source_ids": ["ao_b6a83f32e7f02a7e", "orthobullets_3b9a607895639159"]}],
+        "questions": [
+          {"question": "What muscular interval defines the Watson-Jones approach?", "answer": "Tensor fasciae latae anteriorly and gluteus medius posteriorly.", "source_ids": ["ao_b6a83f32e7f02a7e", "orthobullets_3b9a607895639159"]},
+          {"question": "What structure limits proximal extension of this approach?", "answer": "The superior gluteal neurovascular bundle.", "source_ids": ["ao_b6a83f32e7f02a7e", "orthobullets_3b9a607895639159"]}
+        ]
+      }
+    }
+  ]
+}

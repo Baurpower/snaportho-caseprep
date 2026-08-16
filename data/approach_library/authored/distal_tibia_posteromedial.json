@@ -1,0 +1,473 @@
+{
+  "schema_version": "brobot_approach_packet_v1",
+  "approach_id": "distal_tibia_posteromedial",
+  "name": "Posteromedial approach to the distal tibia",
+  "aliases": [
+    "posteromedial pilon approach",
+    "posteromedial posterior-malleolus approach"
+  ],
+  "region": "posteromedial distal leg and ankle",
+  "joint": "ankle",
+  "bones": [
+    "distal tibia",
+    "medial malleolus",
+    "talus"
+  ],
+  "corridor": "Fragment-directed interval among tibia, posterior tibial tendon, FDL, and FHL with direct protection of posterior tibial neurovascular bundle",
+  "positioning": [
+    {
+      "text": "Position prone or in a stable lateral/supine variant that permits direct posteromedial access and planned fluoroscopic views.",
+      "claim_ids": [
+        "distal_tibia_posteromedial_positioning_01"
+      ]
+    }
+  ],
+  "setup": [
+    {
+      "text": "Use CT to select the safest tendon interval for the dominant fragment and plan neurovascular-bundle handling, posterior plate position, and any second incision.",
+      "claim_ids": [
+        "distal_tibia_posteromedial_setup_01"
+      ]
+    }
+  ],
+  "surface_landmarks": [
+    {
+      "text": "Mark posteromedial tibial border, Achilles tendon, medial malleolus, posterior tibial tendon path, and posterior tibial pulse.",
+      "claim_ids": [
+        "distal_tibia_posteromedial_surface_landmarks_01"
+      ]
+    }
+  ],
+  "incision": [
+    {
+      "text": "Center incision at ankle between Achilles and posteromedial tibial border, continue proximally parallel to tibia and distally along posterior-tibial-tendon course.",
+      "claim_ids": [
+        "distal_tibia_posteromedial_incision_01"
+      ]
+    }
+  ],
+  "superficial_interval": [
+    {
+      "text": "Open subcutaneous tissue and fascia to identify the deep fascial layer over posterior tibial tendon, FDL, neurovascular bundle, and FHL.",
+      "claim_ids": [
+        "distal_tibia_posteromedial_superficial_interval_01"
+      ]
+    }
+  ],
+  "deep_interval": [
+    {
+      "text": "Select interval between tibia and posterior tibial tendon, between posterior tibial tendon and FDL, or between FDL and FHL; the last requires full direct bundle exposure and protection.",
+      "claim_ids": [
+        "distal_tibia_posteromedial_deep_interval_01"
+      ]
+    }
+  ],
+  "layers": [
+    {
+      "text": "Skin, subcutaneous fascia, flexor retinacular/deep fascia, selected tendon interval, posterior tibial periosteum, then posteromedial plafond.",
+      "claim_ids": [
+        "distal_tibia_posteromedial_layers_01"
+      ]
+    }
+  ],
+  "structures_encountered": [
+    {
+      "text": "Posterior tibial tendon, FDL, FHL, posterior tibial artery/veins and tibial nerve, posterior capsule, and posteromedial tibia are encountered.",
+      "claim_ids": [
+        "distal_tibia_posteromedial_structures_encountered_01"
+      ]
+    }
+  ],
+  "structures_at_risk": [
+    {
+      "text": "Posterior tibial neurovascular bundle, posterior tibial tendon blood supply, FDL/FHL, saphenous structures with medial extension, fragment blood supply, and cartilage are at risk.",
+      "claim_ids": [
+        "distal_tibia_posteromedial_structures_at_risk_01"
+      ]
+    }
+  ],
+  "danger_zones": [
+    {
+      "text": "Do not strip distal posterior tibial tendon from tibia; expose and control the neurovascular bundle directly before using the FDL-FHL interval.",
+      "claim_ids": [
+        "distal_tibia_posteromedial_danger_zones_01"
+      ]
+    }
+  ],
+  "retraction_hazards": [
+    {
+      "text": "Retract the bundle only under direct view with broad protection and avoid focal pressure or traction on posterior tibial tendon and tibial nerve.",
+      "claim_ids": [
+        "distal_tibia_posteromedial_retraction_hazards_01"
+      ]
+    }
+  ],
+  "exposure": [
+    {
+      "text": "Provides direct reduction and posterior buttress access to posterior and medial fragments and can support medial-malleolar fixation through a full-thickness anteromedial flap.",
+      "claim_ids": [
+        "distal_tibia_posteromedial_exposure_01"
+      ]
+    }
+  ],
+  "limitations": [
+    {
+      "text": "The interval is anatomy-dense, far posterolateral and anterior fragments may be inaccessible, and tendon/bundle mobilization limits extension.",
+      "claim_ids": [
+        "distal_tibia_posteromedial_limitations_01"
+      ]
+    }
+  ],
+  "extensions": [
+    {
+      "text": "Create a full-thickness anteromedial flap for medial malleolus or add a separate posterolateral/anterior window for fragments outside the selected corridor.",
+      "claim_ids": [
+        "distal_tibia_posteromedial_extensions_01"
+      ]
+    }
+  ],
+  "indications": [
+    {
+      "text": "Use for posteromedial pilon, posterior-malleolar, and medial-fragment patterns requiring direct posterior buttress fixation.",
+      "claim_ids": [
+        "distal_tibia_posteromedial_indications_01"
+      ]
+    }
+  ],
+  "relative_contraindications": [
+    {
+      "text": "Choose posterolateral or anterior exposure when dominant fragments lie outside the posteromedial corridor or the medial soft-tissue envelope is unsafe.",
+      "claim_ids": [
+        "distal_tibia_posteromedial_relative_contraindications_01"
+      ]
+    }
+  ],
+  "implant_implications": [
+    {
+      "text": "Supports direct posterior buttress plate placement; select an interval and plate position that avoid posterior tibial tendon and neurovascular impingement.",
+      "claim_ids": [
+        "distal_tibia_posteromedial_implant_implications_01"
+      ]
+    }
+  ],
+  "fluoroscopy_implications": [
+    {
+      "text": "Preconfigure AP, lateral, mortise, and oblique views for the chosen position and verify posterior reduction, plate location, and screw containment.",
+      "claim_ids": [
+        "distal_tibia_posteromedial_fluoroscopy_implications_01"
+      ]
+    }
+  ],
+  "closure": [
+    {
+      "text": "Confirm bundle perfusion and hemostasis, restore each tendon to a free-gliding bed, repair fascia without constriction, and close full-thickness skin tension free.",
+      "claim_ids": [
+        "distal_tibia_posteromedial_closure_01"
+      ]
+    }
+  ],
+  "complications": [
+    {
+      "text": "Complications include tibial neuropathy, posterior tibial vascular injury, tendon adhesions or irritation, wound breakdown, infection, malreduction, nonunion, and arthritis.",
+      "claim_ids": [
+        "distal_tibia_posteromedial_complications_01"
+      ]
+    }
+  ],
+  "bailouts": [
+    {
+      "text": "Change to a safer adjacent tendon interval or add a second incision when direct bundle mobilization would be excessive or the fragment cannot be controlled.",
+      "claim_ids": [
+        "distal_tibia_posteromedial_bailouts_01"
+      ]
+    }
+  ],
+  "procedure_applications": [
+    {
+      "procedure_id": "tibial_pilon_fracture_orif",
+      "relationship": "primary_option",
+      "condition": "Posteromedial and posterior plafond fragments require direct reduction and buttress fixation"
+    },
+    {
+      "procedure_id": "ankle_fracture_orif",
+      "relationship": "conditional_option",
+      "condition": "A posteromedial posterior-malleolus fragment requires direct access"
+    }
+  ],
+  "questions": [
+    {
+      "question": "What are the three deep intervals?",
+      "answer": "Tibia-posterior tibial tendon, posterior tibial tendon-FDL, or FDL-FHL.",
+      "claim_ids": [
+        "distal_tibia_posteromedial_questions_01"
+      ]
+    },
+    {
+      "question": "Which interval mandates direct bundle exposure?",
+      "answer": "The FDL-FHL interval.",
+      "claim_ids": [
+        "distal_tibia_posteromedial_questions_02"
+      ]
+    },
+    {
+      "question": "What fixation principle does this approach enable?",
+      "answer": "Direct posterior buttress plating of posterior fragments.",
+      "claim_ids": [
+        "distal_tibia_posteromedial_questions_03"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "distal_tibia_posteromedial_positioning_01",
+      "text": "Position prone or in a stable lateral/supine variant that permits direct posteromedial access and planned fluoroscopic views.",
+      "source_ids": [
+        "ao_52556d8e928066ce",
+        "pmid_39995545"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "distal_tibia_posteromedial_setup_01",
+      "text": "Use CT to select the safest tendon interval for the dominant fragment and plan neurovascular-bundle handling, posterior plate position, and any second incision.",
+      "source_ids": [
+        "ao_52556d8e928066ce",
+        "pmid_37533444"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "distal_tibia_posteromedial_surface_landmarks_01",
+      "text": "Mark posteromedial tibial border, Achilles tendon, medial malleolus, posterior tibial tendon path, and posterior tibial pulse.",
+      "source_ids": [
+        "ao_52556d8e928066ce"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "distal_tibia_posteromedial_incision_01",
+      "text": "Center incision at ankle between Achilles and posteromedial tibial border, continue proximally parallel to tibia and distally along posterior-tibial-tendon course.",
+      "source_ids": [
+        "ao_52556d8e928066ce",
+        "pmid_37533444"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "distal_tibia_posteromedial_superficial_interval_01",
+      "text": "Open subcutaneous tissue and fascia to identify the deep fascial layer over posterior tibial tendon, FDL, neurovascular bundle, and FHL.",
+      "source_ids": [
+        "ao_52556d8e928066ce",
+        "pmid_39995545"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "distal_tibia_posteromedial_deep_interval_01",
+      "text": "Select interval between tibia and posterior tibial tendon, between posterior tibial tendon and FDL, or between FDL and FHL; the last requires full direct bundle exposure and protection.",
+      "source_ids": [
+        "ao_52556d8e928066ce",
+        "pmid_37533444"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "distal_tibia_posteromedial_layers_01",
+      "text": "Skin, subcutaneous fascia, flexor retinacular/deep fascia, selected tendon interval, posterior tibial periosteum, then posteromedial plafond.",
+      "source_ids": [
+        "ao_52556d8e928066ce"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "distal_tibia_posteromedial_structures_encountered_01",
+      "text": "Posterior tibial tendon, FDL, FHL, posterior tibial artery/veins and tibial nerve, posterior capsule, and posteromedial tibia are encountered.",
+      "source_ids": [
+        "ao_52556d8e928066ce",
+        "pmid_39995545"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "distal_tibia_posteromedial_structures_at_risk_01",
+      "text": "Posterior tibial neurovascular bundle, posterior tibial tendon blood supply, FDL/FHL, saphenous structures with medial extension, fragment blood supply, and cartilage are at risk.",
+      "source_ids": [
+        "ao_52556d8e928066ce",
+        "pmid_37533444"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "distal_tibia_posteromedial_danger_zones_01",
+      "text": "Do not strip distal posterior tibial tendon from tibia; expose and control the neurovascular bundle directly before using the FDL-FHL interval.",
+      "source_ids": [
+        "ao_52556d8e928066ce",
+        "pmid_37533444"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "distal_tibia_posteromedial_retraction_hazards_01",
+      "text": "Retract the bundle only under direct view with broad protection and avoid focal pressure or traction on posterior tibial tendon and tibial nerve.",
+      "source_ids": [
+        "ao_52556d8e928066ce",
+        "pmid_39995545"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "distal_tibia_posteromedial_exposure_01",
+      "text": "Provides direct reduction and posterior buttress access to posterior and medial fragments and can support medial-malleolar fixation through a full-thickness anteromedial flap.",
+      "source_ids": [
+        "ao_52556d8e928066ce",
+        "pmid_37533444"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "distal_tibia_posteromedial_limitations_01",
+      "text": "The interval is anatomy-dense, far posterolateral and anterior fragments may be inaccessible, and tendon/bundle mobilization limits extension.",
+      "source_ids": [
+        "ao_52556d8e928066ce",
+        "pmid_39995545"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "distal_tibia_posteromedial_extensions_01",
+      "text": "Create a full-thickness anteromedial flap for medial malleolus or add a separate posterolateral/anterior window for fragments outside the selected corridor.",
+      "source_ids": [
+        "ao_52556d8e928066ce",
+        "pmid_37533444"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "distal_tibia_posteromedial_indications_01",
+      "text": "Use for posteromedial pilon, posterior-malleolar, and medial-fragment patterns requiring direct posterior buttress fixation.",
+      "source_ids": [
+        "ao_52556d8e928066ce",
+        "pmid_39995545"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "distal_tibia_posteromedial_relative_contraindications_01",
+      "text": "Choose posterolateral or anterior exposure when dominant fragments lie outside the posteromedial corridor or the medial soft-tissue envelope is unsafe.",
+      "source_ids": [
+        "pmid_39995545",
+        "pmid_37533444"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "distal_tibia_posteromedial_implant_implications_01",
+      "text": "Supports direct posterior buttress plate placement; select an interval and plate position that avoid posterior tibial tendon and neurovascular impingement.",
+      "source_ids": [
+        "ao_52556d8e928066ce",
+        "pmid_37533444"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "distal_tibia_posteromedial_fluoroscopy_implications_01",
+      "text": "Preconfigure AP, lateral, mortise, and oblique views for the chosen position and verify posterior reduction, plate location, and screw containment.",
+      "source_ids": [
+        "pmid_39995545",
+        "pmid_37533444"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "distal_tibia_posteromedial_closure_01",
+      "text": "Confirm bundle perfusion and hemostasis, restore each tendon to a free-gliding bed, repair fascia without constriction, and close full-thickness skin tension free.",
+      "source_ids": [
+        "ao_52556d8e928066ce",
+        "pmid_37533444"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "distal_tibia_posteromedial_complications_01",
+      "text": "Complications include tibial neuropathy, posterior tibial vascular injury, tendon adhesions or irritation, wound breakdown, infection, malreduction, nonunion, and arthritis.",
+      "source_ids": [
+        "pmid_39995545",
+        "pmid_37533444"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "distal_tibia_posteromedial_bailouts_01",
+      "text": "Change to a safer adjacent tendon interval or add a second incision when direct bundle mobilization would be excessive or the fragment cannot be controlled.",
+      "source_ids": [
+        "ao_52556d8e928066ce",
+        "pmid_37533444"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "distal_tibia_posteromedial_questions_01",
+      "text": "What are the three deep intervals?",
+      "source_ids": [
+        "ao_52556d8e928066ce"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "distal_tibia_posteromedial_questions_02",
+      "text": "Which interval mandates direct bundle exposure?",
+      "source_ids": [
+        "ao_52556d8e928066ce"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "distal_tibia_posteromedial_questions_03",
+      "text": "What fixation principle does this approach enable?",
+      "source_ids": [
+        "ao_52556d8e928066ce"
+      ],
+      "risk_level": "medium"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "ao_52556d8e928066ce",
+      "provider": "AO Surgery Reference",
+      "title": "Posteromedial Approach To The Distal Tibia",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/distal-tibia/approach/posteromedial-approach-to-the-distal-tibia",
+      "source_page_id": "ao_52556d8e928066ce"
+    },
+    {
+      "source_id": "pmid_39995545",
+      "provider": "PubMed",
+      "title": "A systematic review of posterior pilon fractures",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39995545/"
+    },
+    {
+      "source_id": "pmid_37533444",
+      "provider": "PubMed",
+      "title": "Pilon fractures: consensus and controversy",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/37533444/"
+    }
+  ],
+  "content_status": "agent_review_pending",
+  "review": {
+    "status": "agent_review_pending",
+    "required_roles": [
+      "adversarial_safety_reviewer",
+      "approach_anatomy_reviewer",
+      "educational_value_reviewer",
+      "evidence_reviewer",
+      "operative_exposure_reviewer",
+      "procedure_applicability_reviewer"
+    ],
+    "completed_roles": []
+  },
+  "resolved_contradiction_keys": [],
+  "authoring_provenance": {
+    "method": "local_codex_curated",
+    "definition_file": "data/approach_library/curated/adult_distal_tibia_mio_posterior_nail_v1.json",
+    "api_used": false
+  }
+}

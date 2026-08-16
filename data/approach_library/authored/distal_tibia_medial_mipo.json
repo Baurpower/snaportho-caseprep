@@ -1,0 +1,467 @@
+{
+  "schema_version": "brobot_approach_packet_v1",
+  "approach_id": "distal_tibia_medial_mipo",
+  "name": "Medial minimally invasive approach to the distal tibia",
+  "aliases": [
+    "distal tibia MIPO approach",
+    "medial percutaneous plating approach"
+  ],
+  "region": "medial distal leg and ankle",
+  "joint": "ankle",
+  "bones": [
+    "distal tibia",
+    "medial malleolus"
+  ],
+  "corridor": "Short medial distal incision with epiperiosteal plate tunneling from distal to proximal beneath intact soft tissue",
+  "positioning": [
+    {
+      "text": "Position supine on a radiolucent table with the medial ankle accessible and uninterrupted AP, lateral, and mortise fluoroscopy.",
+      "claim_ids": [
+        "distal_tibia_medial_mipo_positioning_01"
+      ]
+    }
+  ],
+  "setup": [
+    {
+      "text": "Confirm indirect reduction is feasible, template plate length and screw sites, and mark the saphenous structures and fracture extent before incision.",
+      "claim_ids": [
+        "distal_tibia_medial_mipo_setup_01"
+      ]
+    }
+  ],
+  "surface_landmarks": [
+    {
+      "text": "Mark the medial malleolar tip, medial tibial border, ankle joint, greater saphenous vein, and planned proximal screw sites.",
+      "claim_ids": [
+        "distal_tibia_medial_mipo_surface_landmarks_01"
+      ]
+    }
+  ],
+  "incision": [
+    {
+      "text": "Make a 3-5 cm straight or gently curved medial distal incision ending at the medial-malleolar tip, with separate proximal stab incisions for diaphyseal screws.",
+      "claim_ids": [
+        "distal_tibia_medial_mipo_incision_01"
+      ]
+    }
+  ],
+  "superficial_interval": [
+    {
+      "text": "Carry dissection directly through subcutaneous fat, identify the saphenous vein and nerve, and hold them anteriorly with a blunt retractor.",
+      "claim_ids": [
+        "distal_tibia_medial_mipo_superficial_interval_01"
+      ]
+    }
+  ],
+  "deep_interval": [
+    {
+      "text": "Preserve periosteum and advance the blunt plate tip proximally in the epiperiosteal plane beneath intact soft tissue.",
+      "claim_ids": [
+        "distal_tibia_medial_mipo_deep_interval_01"
+      ]
+    }
+  ],
+  "layers": [
+    {
+      "text": "Skin, subcutaneous saphenous plane, intact periosteum, epiperiosteal tunnel, then medial distal tibia.",
+      "claim_ids": [
+        "distal_tibia_medial_mipo_layers_01"
+      ]
+    }
+  ],
+  "structures_encountered": [
+    {
+      "text": "Greater saphenous vein, saphenous nerve, medial periosteum, medial malleolus, and distal tibia are encountered.",
+      "claim_ids": [
+        "distal_tibia_medial_mipo_structures_encountered_01"
+      ]
+    }
+  ],
+  "structures_at_risk": [
+    {
+      "text": "Saphenous vein and nerve, medial skin, periosteal blood supply, tibialis-posterior region, and joint with distal screws are at risk.",
+      "claim_ids": [
+        "distal_tibia_medial_mipo_structures_at_risk_01"
+      ]
+    }
+  ],
+  "danger_zones": [
+    {
+      "text": "Keep the tunneler and plate on bone in the epiperiosteal plane and visualize/protect the saphenous structures at distal and percutaneous screw sites.",
+      "claim_ids": [
+        "distal_tibia_medial_mipo_danger_zones_01"
+      ]
+    }
+  ],
+  "retraction_hazards": [
+    {
+      "text": "Use blunt anterior retraction of saphenous structures and avoid forceful subcutaneous tunneling that perforates skin or strips periosteum.",
+      "claim_ids": [
+        "distal_tibia_medial_mipo_retraction_hazards_01"
+      ]
+    }
+  ],
+  "exposure": [
+    {
+      "text": "Permits medial bridge-plate insertion while preserving the metaphyseal soft-tissue envelope and fracture blood supply.",
+      "claim_ids": [
+        "distal_tibia_medial_mipo_exposure_01"
+      ]
+    }
+  ],
+  "limitations": [
+    {
+      "text": "Does not directly expose comminuted articular reduction and may allow malalignment if indirect reduction is not rigorously controlled.",
+      "claim_ids": [
+        "distal_tibia_medial_mipo_limitations_01"
+      ]
+    }
+  ],
+  "extensions": [
+    {
+      "text": "Add a small medial arthrotomy for medial-malleolar cartilage assessment or a separate fragment-specific incision when indirect reduction is inadequate.",
+      "claim_ids": [
+        "distal_tibia_medial_mipo_extensions_01"
+      ]
+    }
+  ],
+  "indications": [
+    {
+      "text": "Use for extra-articular distal-tibia fractures and simple minimally displaced complete-articular patterns reducible by ligamentotaxis, forceps, or percutaneous lag screws.",
+      "claim_ids": [
+        "distal_tibia_medial_mipo_indications_01"
+      ]
+    }
+  ],
+  "relative_contraindications": [
+    {
+      "text": "Choose direct articular exposure for displaced comminuted plafond injury and an anterolateral tunnel when medial soft tissue is compromised.",
+      "claim_ids": [
+        "distal_tibia_medial_mipo_relative_contraindications_01"
+      ]
+    }
+  ],
+  "implant_implications": [
+    {
+      "text": "Insert a precontoured medial plate distal-to-proximal, verify plate-to-bone position, and place proximal screws through targeted stab incisions.",
+      "claim_ids": [
+        "distal_tibia_medial_mipo_implant_implications_01"
+      ]
+    }
+  ],
+  "fluoroscopy_implications": [
+    {
+      "text": "Use serial AP, lateral, mortise, and oblique images to control length, rotation, coronal/sagittal alignment, plate position, and joint-safe screws.",
+      "claim_ids": [
+        "distal_tibia_medial_mipo_fluoroscopy_implications_01"
+      ]
+    }
+  ],
+  "closure": [
+    {
+      "text": "Confirm hemostasis and saphenous-structure freedom, then close each small incision without tension over prominent hardware.",
+      "claim_ids": [
+        "distal_tibia_medial_mipo_closure_01"
+      ]
+    }
+  ],
+  "complications": [
+    {
+      "text": "Complications include malalignment, saphenous neuritis, wound problems, infection, hardware irritation, delayed union/nonunion, and screw penetration.",
+      "claim_ids": [
+        "distal_tibia_medial_mipo_complications_01"
+      ]
+    }
+  ],
+  "bailouts": [
+    {
+      "text": "Convert to a limited direct reduction window when length or alignment cannot be restored indirectly rather than locking a malreduction beneath the plate.",
+      "claim_ids": [
+        "distal_tibia_medial_mipo_bailouts_01"
+      ]
+    }
+  ],
+  "procedure_applications": [
+    {
+      "procedure_id": "distal_tibia_fracture_orif",
+      "relationship": "primary_option",
+      "condition": "An extra-articular or simple minimally displaced articular fracture is amenable to indirect reduction and bridge plating"
+    }
+  ],
+  "questions": [
+    {
+      "question": "What plane receives the plate?",
+      "answer": "The epiperiosteal plane.",
+      "claim_ids": [
+        "distal_tibia_medial_mipo_questions_01"
+      ]
+    },
+    {
+      "question": "Which structures are held anteriorly?",
+      "answer": "The greater saphenous vein and saphenous nerve.",
+      "claim_ids": [
+        "distal_tibia_medial_mipo_questions_02"
+      ]
+    },
+    {
+      "question": "What is the central biologic goal?",
+      "answer": "Preserve metaphyseal soft tissue and blood supply by avoiding fracture exposure.",
+      "claim_ids": [
+        "distal_tibia_medial_mipo_questions_03"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "distal_tibia_medial_mipo_positioning_01",
+      "text": "Position supine on a radiolucent table with the medial ankle accessible and uninterrupted AP, lateral, and mortise fluoroscopy.",
+      "source_ids": [
+        "ao_3b8e878d0388efe6",
+        "pmid_38024044"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "distal_tibia_medial_mipo_setup_01",
+      "text": "Confirm indirect reduction is feasible, template plate length and screw sites, and mark the saphenous structures and fracture extent before incision.",
+      "source_ids": [
+        "ao_3b8e878d0388efe6",
+        "pmid_26502532"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "distal_tibia_medial_mipo_surface_landmarks_01",
+      "text": "Mark the medial malleolar tip, medial tibial border, ankle joint, greater saphenous vein, and planned proximal screw sites.",
+      "source_ids": [
+        "ao_3b8e878d0388efe6"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "distal_tibia_medial_mipo_incision_01",
+      "text": "Make a 3-5 cm straight or gently curved medial distal incision ending at the medial-malleolar tip, with separate proximal stab incisions for diaphyseal screws.",
+      "source_ids": [
+        "ao_3b8e878d0388efe6",
+        "pmid_26502532"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "distal_tibia_medial_mipo_superficial_interval_01",
+      "text": "Carry dissection directly through subcutaneous fat, identify the saphenous vein and nerve, and hold them anteriorly with a blunt retractor.",
+      "source_ids": [
+        "ao_3b8e878d0388efe6",
+        "pmid_38024044"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "distal_tibia_medial_mipo_deep_interval_01",
+      "text": "Preserve periosteum and advance the blunt plate tip proximally in the epiperiosteal plane beneath intact soft tissue.",
+      "source_ids": [
+        "ao_3b8e878d0388efe6",
+        "pmid_26502532"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "distal_tibia_medial_mipo_layers_01",
+      "text": "Skin, subcutaneous saphenous plane, intact periosteum, epiperiosteal tunnel, then medial distal tibia.",
+      "source_ids": [
+        "ao_3b8e878d0388efe6"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "distal_tibia_medial_mipo_structures_encountered_01",
+      "text": "Greater saphenous vein, saphenous nerve, medial periosteum, medial malleolus, and distal tibia are encountered.",
+      "source_ids": [
+        "ao_3b8e878d0388efe6",
+        "pmid_38024044"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "distal_tibia_medial_mipo_structures_at_risk_01",
+      "text": "Saphenous vein and nerve, medial skin, periosteal blood supply, tibialis-posterior region, and joint with distal screws are at risk.",
+      "source_ids": [
+        "ao_3b8e878d0388efe6",
+        "pmid_38024044"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "distal_tibia_medial_mipo_danger_zones_01",
+      "text": "Keep the tunneler and plate on bone in the epiperiosteal plane and visualize/protect the saphenous structures at distal and percutaneous screw sites.",
+      "source_ids": [
+        "ao_3b8e878d0388efe6",
+        "pmid_26502532"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "distal_tibia_medial_mipo_retraction_hazards_01",
+      "text": "Use blunt anterior retraction of saphenous structures and avoid forceful subcutaneous tunneling that perforates skin or strips periosteum.",
+      "source_ids": [
+        "ao_3b8e878d0388efe6",
+        "pmid_38024044"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "distal_tibia_medial_mipo_exposure_01",
+      "text": "Permits medial bridge-plate insertion while preserving the metaphyseal soft-tissue envelope and fracture blood supply.",
+      "source_ids": [
+        "ao_3b8e878d0388efe6",
+        "pmid_26502532"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "distal_tibia_medial_mipo_limitations_01",
+      "text": "Does not directly expose comminuted articular reduction and may allow malalignment if indirect reduction is not rigorously controlled.",
+      "source_ids": [
+        "ao_3b8e878d0388efe6",
+        "pmid_38024044"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "distal_tibia_medial_mipo_extensions_01",
+      "text": "Add a small medial arthrotomy for medial-malleolar cartilage assessment or a separate fragment-specific incision when indirect reduction is inadequate.",
+      "source_ids": [
+        "ao_3b8e878d0388efe6",
+        "pmid_26502532"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "distal_tibia_medial_mipo_indications_01",
+      "text": "Use for extra-articular distal-tibia fractures and simple minimally displaced complete-articular patterns reducible by ligamentotaxis, forceps, or percutaneous lag screws.",
+      "source_ids": [
+        "ao_3b8e878d0388efe6",
+        "pmid_38024044"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "distal_tibia_medial_mipo_relative_contraindications_01",
+      "text": "Choose direct articular exposure for displaced comminuted plafond injury and an anterolateral tunnel when medial soft tissue is compromised.",
+      "source_ids": [
+        "ao_3b8e878d0388efe6",
+        "pmid_26502532"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "distal_tibia_medial_mipo_implant_implications_01",
+      "text": "Insert a precontoured medial plate distal-to-proximal, verify plate-to-bone position, and place proximal screws through targeted stab incisions.",
+      "source_ids": [
+        "ao_3b8e878d0388efe6",
+        "pmid_38024044"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "distal_tibia_medial_mipo_fluoroscopy_implications_01",
+      "text": "Use serial AP, lateral, mortise, and oblique images to control length, rotation, coronal/sagittal alignment, plate position, and joint-safe screws.",
+      "source_ids": [
+        "pmid_38024044",
+        "pmid_26502532"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "distal_tibia_medial_mipo_closure_01",
+      "text": "Confirm hemostasis and saphenous-structure freedom, then close each small incision without tension over prominent hardware.",
+      "source_ids": [
+        "ao_3b8e878d0388efe6",
+        "pmid_26502532"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "distal_tibia_medial_mipo_complications_01",
+      "text": "Complications include malalignment, saphenous neuritis, wound problems, infection, hardware irritation, delayed union/nonunion, and screw penetration.",
+      "source_ids": [
+        "pmid_38024044",
+        "pmid_26502532"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "distal_tibia_medial_mipo_bailouts_01",
+      "text": "Convert to a limited direct reduction window when length or alignment cannot be restored indirectly rather than locking a malreduction beneath the plate.",
+      "source_ids": [
+        "ao_3b8e878d0388efe6",
+        "pmid_38024044"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "distal_tibia_medial_mipo_questions_01",
+      "text": "What plane receives the plate?",
+      "source_ids": [
+        "ao_3b8e878d0388efe6"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "distal_tibia_medial_mipo_questions_02",
+      "text": "Which structures are held anteriorly?",
+      "source_ids": [
+        "ao_3b8e878d0388efe6"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "distal_tibia_medial_mipo_questions_03",
+      "text": "What is the central biologic goal?",
+      "source_ids": [
+        "ao_3b8e878d0388efe6"
+      ],
+      "risk_level": "medium"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "ao_3b8e878d0388efe6",
+      "provider": "AO Surgery Reference",
+      "title": "Minimally Invasive Approach To The Distal Tibia",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/distal-tibia/approach/minimally-invasive-approach-to-the-distal-tibia",
+      "source_page_id": "ao_3b8e878d0388efe6"
+    },
+    {
+      "source_id": "pmid_38024044",
+      "provider": "PubMed",
+      "title": "MIPPO versus interlocking nail fixation for adult extra-articular distal tibial fractures",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38024044/"
+    },
+    {
+      "source_id": "pmid_26502532",
+      "provider": "PubMed",
+      "title": "MIPPO versus ORIF for distal tibial fractures in adults: meta-analysis",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/26502532/"
+    }
+  ],
+  "content_status": "agent_review_pending",
+  "review": {
+    "status": "agent_review_pending",
+    "required_roles": [
+      "adversarial_safety_reviewer",
+      "approach_anatomy_reviewer",
+      "educational_value_reviewer",
+      "evidence_reviewer",
+      "operative_exposure_reviewer",
+      "procedure_applicability_reviewer"
+    ],
+    "completed_roles": []
+  },
+  "resolved_contradiction_keys": [],
+  "authoring_provenance": {
+    "method": "local_codex_curated",
+    "definition_file": "data/approach_library/curated/adult_distal_tibia_mio_posterior_nail_v1.json",
+    "api_used": false
+  }
+}

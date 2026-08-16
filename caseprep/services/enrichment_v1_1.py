@@ -129,12 +129,10 @@ def _sanitize(raw: Any) -> Dict[str, Any]:
     return {
         "pimp_pedagogy": pedagogy,
         "generated_pimp_questions": generated_questions,
-        "teaching_topics": texts("teaching_topics", 5),
         "decision_points": decision_points,
         "evidence": evidence,
         "anatomy_gap_fill": anatomy,
         "operative_flow": flow,
-        "pitfalls": texts("pitfalls", 6),
         "postop": texts("postop", 6),
     }
 
@@ -194,9 +192,7 @@ class EnrichmentResult:
     # ── Section gap-fill (generated only when grounded section is empty) ─────
     def _generated_items(self, section_id: str) -> List[Dict[str, Any]]:
         rows: List[Tuple[str, str, str]] = []  # (question, answer, category)
-        if section_id == "teaching_topics":
-            rows = [("Teach this tomorrow", topic, "teaching_topics") for topic in self.data["teaching_topics"]]
-        elif section_id == "decision_points":
+        if section_id == "decision_points":
             rows = [(r["question"], r["answer"], r["category"]) for r in self.data["decision_points"]]
         elif section_id == "evidence":
             rows = [
@@ -205,8 +201,6 @@ class EnrichmentResult:
             ]
         elif section_id == "anatomy":
             rows = [(r["question"], r["answer"], r["category"]) for r in self.data["anatomy_gap_fill"]]
-        elif section_id == "pitfalls":
-            rows = [("Common junior mistake", text, "pitfall") for text in self.data["pitfalls"]]
         elif section_id == "postop":
             rows = [("Post-op protocol", text, "postop") for text in self.data["postop"]]
         elif section_id == "operative_flow":

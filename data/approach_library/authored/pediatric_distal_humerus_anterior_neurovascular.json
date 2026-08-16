@@ -1,0 +1,467 @@
+{
+  "schema_version": "brobot_approach_packet_v1",
+  "approach_id": "pediatric_distal_humerus_anterior_neurovascular",
+  "name": "Pediatric anterior approach to the distal humerus",
+  "aliases": [
+    "anterior neurovascular exploration",
+    "antecubital approach"
+  ],
+  "region": "anterior pediatric elbow and distal arm",
+  "joint": "elbow",
+  "bones": [
+    "distal humerus"
+  ],
+  "corridor": "Anterior lazy-Z exposure along the appropriate border of biceps: medial for brachial artery and median nerve, lateral for radial nerve",
+  "positioning": [
+    {
+      "text": "Position supine with the arm on a radiolucent support and the antecubital region accessible to orthopedic and vascular teams.",
+      "claim_ids": [
+        "pediatric_distal_humerus_anterior_neurovascular_positioning_01"
+      ]
+    }
+  ],
+  "setup": [
+    {
+      "text": "Document a structured preoperative motor, sensory, pulse, Doppler, temperature, color, and capillary-refill examination and confirm vascular expertise and repair capability.",
+      "claim_ids": [
+        "pediatric_distal_humerus_anterior_neurovascular_setup_01"
+      ]
+    }
+  ],
+  "surface_landmarks": [
+    {
+      "text": "Mark the antecubital crease, biceps tendon, medial and lateral biceps borders, brachial pulse, and traumatic wound or skin-pucker site.",
+      "claim_ids": [
+        "pediatric_distal_humerus_anterior_neurovascular_surface_landmarks_01"
+      ]
+    }
+  ],
+  "incision": [
+    {
+      "text": "Use a limited lazy-Z anterior incision for closed injury; incorporate and safely extend an existing open wound when present.",
+      "claim_ids": [
+        "pediatric_distal_humerus_anterior_neurovascular_incision_01"
+      ]
+    }
+  ],
+  "superficial_interval": [
+    {
+      "text": "Develop the interval beside biceps according to the target structure while protecting superficial veins and cutaneous nerves.",
+      "claim_ids": [
+        "pediatric_distal_humerus_anterior_neurovascular_superficial_interval_01"
+      ]
+    }
+  ],
+  "deep_interval": [
+    {
+      "text": "Work medial to biceps for brachial artery or median nerve and along the lateral biceps-brachioradialis border for radial nerve; do not divide the pediatric biceps tendon.",
+      "claim_ids": [
+        "pediatric_distal_humerus_anterior_neurovascular_deep_interval_01"
+      ]
+    }
+  ],
+  "layers": [
+    {
+      "text": "Skin, subcutaneous antecubital tissue, biceps-border interval, disrupted brachialis/fascia, then fracture and neurovascular bundle.",
+      "claim_ids": [
+        "pediatric_distal_humerus_anterior_neurovascular_layers_01"
+      ]
+    }
+  ],
+  "structures_encountered": [
+    {
+      "text": "Biceps, brachialis, brachial artery, median nerve, radial nerve, brachioradialis, and displaced distal-humeral fragments may be encountered.",
+      "claim_ids": [
+        "pediatric_distal_humerus_anterior_neurovascular_structures_encountered_01"
+      ]
+    }
+  ],
+  "structures_at_risk": [
+    {
+      "text": "Brachial artery, median/anterior interosseous nerve, radial nerve, superficial veins, and the biceps tendon are at risk.",
+      "claim_ids": [
+        "pediatric_distal_humerus_anterior_neurovascular_structures_at_risk_01"
+      ]
+    }
+  ],
+  "danger_zones": [
+    {
+      "text": "Stabilize the fracture before definitive vessel or nerve repair and reassess perfusion after reduction; a persistently pale, cool, poorly perfused hand requires urgent exploration.",
+      "claim_ids": [
+        "pediatric_distal_humerus_anterior_neurovascular_danger_zones_01"
+      ]
+    }
+  ],
+  "retraction_hazards": [
+    {
+      "text": "Retract biceps rather than dividing its tendon and avoid traction or clamp injury to an entrapped or contused neurovascular structure.",
+      "claim_ids": [
+        "pediatric_distal_humerus_anterior_neurovascular_retraction_hazards_01"
+      ]
+    }
+  ],
+  "exposure": [
+    {
+      "text": "Provides direct access to brachial artery and median nerve medially or radial nerve laterally after severe supracondylar displacement.",
+      "claim_ids": [
+        "pediatric_distal_humerus_anterior_neurovascular_exposure_01"
+      ]
+    }
+  ],
+  "limitations": [
+    {
+      "text": "This is a targeted neurovascular exploration rather than the routine exposure for supracondylar fracture fixation.",
+      "claim_ids": [
+        "pediatric_distal_humerus_anterior_neurovascular_limitations_01"
+      ]
+    }
+  ],
+  "extensions": [
+    {
+      "text": "Extend the lateral interval distally toward radial-nerve division or extend the medial interval only enough for safe vascular control and repair.",
+      "claim_ids": [
+        "pediatric_distal_humerus_anterior_neurovascular_extensions_01"
+      ]
+    }
+  ],
+  "indications": [
+    {
+      "text": "Indications include persistent dysvascularity after reduction/fixation and selected open injuries or new post-reduction nerve deficits with suspected entrapment.",
+      "claim_ids": [
+        "pediatric_distal_humerus_anterior_neurovascular_indications_01"
+      ]
+    }
+  ],
+  "relative_contraindications": [
+    {
+      "text": "A well-perfused pulseless hand or isolated initial neurapraxia is not by itself an automatic indication for exploration; management requires serial examination and individualized judgment.",
+      "claim_ids": [
+        "pediatric_distal_humerus_anterior_neurovascular_relative_contraindications_01"
+      ]
+    }
+  ],
+  "implant_implications": [
+    {
+      "text": "Reassess the hand after provisional reduction and each wire; remove and redirect any wire temporally associated with new ischemia or nerve dysfunction.",
+      "claim_ids": [
+        "pediatric_distal_humerus_anterior_neurovascular_implant_implications_01"
+      ]
+    }
+  ],
+  "fluoroscopy_implications": [
+    {
+      "text": "Maintain imaging access for reduction and stable pin fixation before definitive vascular or nerve repair.",
+      "claim_ids": [
+        "pediatric_distal_humerus_anterior_neurovascular_fluoroscopy_implications_01"
+      ]
+    }
+  ],
+  "closure": [
+    {
+      "text": "Confirm flow and nerve continuity without compression, then close loosely with fine absorbable pediatric sutures and continue documented serial neurovascular checks.",
+      "claim_ids": [
+        "pediatric_distal_humerus_anterior_neurovascular_closure_01"
+      ]
+    }
+  ],
+  "complications": [
+    {
+      "text": "Complications include persistent ischemia, thrombosis, compartment syndrome, Volkmann contracture, median/radial neuropathy, stiffness, infection, and iatrogenic vessel injury.",
+      "claim_ids": [
+        "pediatric_distal_humerus_anterior_neurovascular_complications_01"
+      ]
+    }
+  ],
+  "bailouts": [
+    {
+      "text": "If primary arterial repair is not possible, obtain proximal/distal control and proceed with vascular reconstruction rather than accepting inadequate perfusion.",
+      "claim_ids": [
+        "pediatric_distal_humerus_anterior_neurovascular_bailouts_01"
+      ]
+    }
+  ],
+  "procedure_applications": [
+    {
+      "procedure_id": "pediatric_supracondylar_humerus_fracture_fixation",
+      "relationship": "conditional_option",
+      "condition": "A persistently dysvascular limb or defined nerve-entrapment concern requires direct exploration after reduction and stabilization"
+    }
+  ],
+  "questions": [
+    {
+      "question": "Which biceps border exposes the brachial artery?",
+      "answer": "The medial border.",
+      "claim_ids": [
+        "pediatric_distal_humerus_anterior_neurovascular_questions_01"
+      ]
+    },
+    {
+      "question": "Which finding most clearly mandates exploration?",
+      "answer": "Persistent poor perfusion with a pale, cool, pulseless hand after reduction and fixation.",
+      "claim_ids": [
+        "pediatric_distal_humerus_anterior_neurovascular_questions_02"
+      ]
+    },
+    {
+      "question": "Should the pediatric biceps tendon be divided?",
+      "answer": "No.",
+      "claim_ids": [
+        "pediatric_distal_humerus_anterior_neurovascular_questions_03"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "pediatric_distal_humerus_anterior_neurovascular_positioning_01",
+      "text": "Position supine with the arm on a radiolucent support and the antecubital region accessible to orthopedic and vascular teams.",
+      "source_ids": [
+        "ao_afd9a8f8f0bf4299",
+        "pmid_33569098"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "pediatric_distal_humerus_anterior_neurovascular_setup_01",
+      "text": "Document a structured preoperative motor, sensory, pulse, Doppler, temperature, color, and capillary-refill examination and confirm vascular expertise and repair capability.",
+      "source_ids": [
+        "ao_afd9a8f8f0bf4299",
+        "pmid_33569098"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "pediatric_distal_humerus_anterior_neurovascular_surface_landmarks_01",
+      "text": "Mark the antecubital crease, biceps tendon, medial and lateral biceps borders, brachial pulse, and traumatic wound or skin-pucker site.",
+      "source_ids": [
+        "ao_afd9a8f8f0bf4299"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "pediatric_distal_humerus_anterior_neurovascular_incision_01",
+      "text": "Use a limited lazy-Z anterior incision for closed injury; incorporate and safely extend an existing open wound when present.",
+      "source_ids": [
+        "ao_afd9a8f8f0bf4299",
+        "pmid_33569098"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "pediatric_distal_humerus_anterior_neurovascular_superficial_interval_01",
+      "text": "Develop the interval beside biceps according to the target structure while protecting superficial veins and cutaneous nerves.",
+      "source_ids": [
+        "ao_afd9a8f8f0bf4299",
+        "pmid_24196459"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "pediatric_distal_humerus_anterior_neurovascular_deep_interval_01",
+      "text": "Work medial to biceps for brachial artery or median nerve and along the lateral biceps-brachioradialis border for radial nerve; do not divide the pediatric biceps tendon.",
+      "source_ids": [
+        "ao_afd9a8f8f0bf4299",
+        "pmid_33569098"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "pediatric_distal_humerus_anterior_neurovascular_layers_01",
+      "text": "Skin, subcutaneous antecubital tissue, biceps-border interval, disrupted brachialis/fascia, then fracture and neurovascular bundle.",
+      "source_ids": [
+        "ao_afd9a8f8f0bf4299"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "pediatric_distal_humerus_anterior_neurovascular_structures_encountered_01",
+      "text": "Biceps, brachialis, brachial artery, median nerve, radial nerve, brachioradialis, and displaced distal-humeral fragments may be encountered.",
+      "source_ids": [
+        "ao_afd9a8f8f0bf4299",
+        "pmid_33569098"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "pediatric_distal_humerus_anterior_neurovascular_structures_at_risk_01",
+      "text": "Brachial artery, median/anterior interosseous nerve, radial nerve, superficial veins, and the biceps tendon are at risk.",
+      "source_ids": [
+        "ao_afd9a8f8f0bf4299",
+        "pmid_33569098"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "pediatric_distal_humerus_anterior_neurovascular_danger_zones_01",
+      "text": "Stabilize the fracture before definitive vessel or nerve repair and reassess perfusion after reduction; a persistently pale, cool, poorly perfused hand requires urgent exploration.",
+      "source_ids": [
+        "ao_afd9a8f8f0bf4299",
+        "pmid_33569098"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "pediatric_distal_humerus_anterior_neurovascular_retraction_hazards_01",
+      "text": "Retract biceps rather than dividing its tendon and avoid traction or clamp injury to an entrapped or contused neurovascular structure.",
+      "source_ids": [
+        "ao_afd9a8f8f0bf4299",
+        "pmid_24196459"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "pediatric_distal_humerus_anterior_neurovascular_exposure_01",
+      "text": "Provides direct access to brachial artery and median nerve medially or radial nerve laterally after severe supracondylar displacement.",
+      "source_ids": [
+        "ao_afd9a8f8f0bf4299",
+        "pmid_33569098"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "pediatric_distal_humerus_anterior_neurovascular_limitations_01",
+      "text": "This is a targeted neurovascular exploration rather than the routine exposure for supracondylar fracture fixation.",
+      "source_ids": [
+        "ao_afd9a8f8f0bf4299",
+        "pmid_24196459"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "pediatric_distal_humerus_anterior_neurovascular_extensions_01",
+      "text": "Extend the lateral interval distally toward radial-nerve division or extend the medial interval only enough for safe vascular control and repair.",
+      "source_ids": [
+        "ao_afd9a8f8f0bf4299",
+        "pmid_33569098"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "pediatric_distal_humerus_anterior_neurovascular_indications_01",
+      "text": "Indications include persistent dysvascularity after reduction/fixation and selected open injuries or new post-reduction nerve deficits with suspected entrapment.",
+      "source_ids": [
+        "ao_afd9a8f8f0bf4299",
+        "pmid_33569098"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "pediatric_distal_humerus_anterior_neurovascular_relative_contraindications_01",
+      "text": "A well-perfused pulseless hand or isolated initial neurapraxia is not by itself an automatic indication for exploration; management requires serial examination and individualized judgment.",
+      "source_ids": [
+        "pmid_33569098",
+        "pmid_24196459"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "pediatric_distal_humerus_anterior_neurovascular_implant_implications_01",
+      "text": "Reassess the hand after provisional reduction and each wire; remove and redirect any wire temporally associated with new ischemia or nerve dysfunction.",
+      "source_ids": [
+        "ao_afd9a8f8f0bf4299",
+        "pmid_33569098"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "pediatric_distal_humerus_anterior_neurovascular_fluoroscopy_implications_01",
+      "text": "Maintain imaging access for reduction and stable pin fixation before definitive vascular or nerve repair.",
+      "source_ids": [
+        "ao_afd9a8f8f0bf4299",
+        "pmid_24196459"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "pediatric_distal_humerus_anterior_neurovascular_closure_01",
+      "text": "Confirm flow and nerve continuity without compression, then close loosely with fine absorbable pediatric sutures and continue documented serial neurovascular checks.",
+      "source_ids": [
+        "ao_afd9a8f8f0bf4299",
+        "pmid_33569098"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "pediatric_distal_humerus_anterior_neurovascular_complications_01",
+      "text": "Complications include persistent ischemia, thrombosis, compartment syndrome, Volkmann contracture, median/radial neuropathy, stiffness, infection, and iatrogenic vessel injury.",
+      "source_ids": [
+        "pmid_33569098",
+        "pmid_24196459"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "pediatric_distal_humerus_anterior_neurovascular_bailouts_01",
+      "text": "If primary arterial repair is not possible, obtain proximal/distal control and proceed with vascular reconstruction rather than accepting inadequate perfusion.",
+      "source_ids": [
+        "pmid_33569098",
+        "pmid_24196459"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "pediatric_distal_humerus_anterior_neurovascular_questions_01",
+      "text": "Which biceps border exposes the brachial artery?",
+      "source_ids": [
+        "ao_afd9a8f8f0bf4299"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "pediatric_distal_humerus_anterior_neurovascular_questions_02",
+      "text": "Which finding most clearly mandates exploration?",
+      "source_ids": [
+        "ao_afd9a8f8f0bf4299",
+        "pmid_33569098"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "pediatric_distal_humerus_anterior_neurovascular_questions_03",
+      "text": "Should the pediatric biceps tendon be divided?",
+      "source_ids": [
+        "ao_afd9a8f8f0bf4299"
+      ],
+      "risk_level": "medium"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "ao_afd9a8f8f0bf4299",
+      "provider": "AO Surgery Reference",
+      "title": "Anterior Approach",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/pediatric-trauma/distal-humerus/approach/anterior-approach",
+      "source_page_id": "ao_afd9a8f8f0bf4299"
+    },
+    {
+      "source_id": "pmid_33569098",
+      "provider": "PubMed",
+      "title": "The Pulseless Supracondylar Elbow Fracture: A Rational Approach",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/33569098/"
+    },
+    {
+      "source_id": "pmid_24196459",
+      "provider": "PubMed",
+      "title": "Management of the pediatric pulseless supracondylar humeral fracture",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/24196459/"
+    }
+  ],
+  "content_status": "agent_review_pending",
+  "review": {
+    "status": "agent_review_pending",
+    "required_roles": [
+      "adversarial_safety_reviewer",
+      "approach_anatomy_reviewer",
+      "educational_value_reviewer",
+      "evidence_reviewer",
+      "operative_exposure_reviewer",
+      "procedure_applicability_reviewer"
+    ],
+    "completed_roles": []
+  },
+  "resolved_contradiction_keys": [],
+  "authoring_provenance": {
+    "method": "local_codex_curated",
+    "definition_file": "data/approach_library/curated/pediatric_distal_humerus_approaches_v1.json",
+    "api_used": false
+  }
+}

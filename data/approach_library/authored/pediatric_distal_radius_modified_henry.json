@@ -1,0 +1,467 @@
+{
+  "schema_version": "brobot_approach_packet_v1",
+  "approach_id": "pediatric_distal_radius_modified_henry",
+  "name": "Pediatric volar modified Henry approach to the distal radius",
+  "aliases": [
+    "pediatric FCR approach",
+    "pediatric volar anterior distal-radius approach"
+  ],
+  "region": "pediatric volar distal forearm",
+  "joint": "wrist",
+  "bones": [
+    "distal radius",
+    "distal radial physis"
+  ],
+  "corridor": "Through FCR sheath, ulnar to radial artery, then between FPL and radial artery to pronator quadratus",
+  "positioning": [
+    {
+      "text": "Position supine with arm on a radiolucent hand table, forearm supinated, and wrist freely imageable.",
+      "claim_ids": [
+        "pediatric_distal_radius_modified_henry_positioning_01"
+      ]
+    }
+  ],
+  "setup": [
+    {
+      "text": "Map the physis, FCR, radial artery, and median-nerve branches; plan the least invasive fixation compatible with stable reduction.",
+      "claim_ids": [
+        "pediatric_distal_radius_modified_henry_setup_01"
+      ]
+    }
+  ],
+  "surface_landmarks": [
+    {
+      "text": "Mark FCR, radial styloid, wrist crease, radial artery pulse, and radiocarpal joint.",
+      "claim_ids": [
+        "pediatric_distal_radius_modified_henry_surface_landmarks_01"
+      ]
+    }
+  ],
+  "incision": [
+    {
+      "text": "Incise along the radial border of FCR, tailored to the fracture and implant length.",
+      "claim_ids": [
+        "pediatric_distal_radius_modified_henry_incision_01"
+      ]
+    }
+  ],
+  "superficial_interval": [
+    {
+      "text": "Open FCR sheath and retract tendon medially while protecting the radial artery laterally and palmar cutaneous median-nerve branch medially.",
+      "claim_ids": [
+        "pediatric_distal_radius_modified_henry_superficial_interval_01"
+      ]
+    }
+  ],
+  "deep_interval": [
+    {
+      "text": "Develop between FPL and radial artery, sweep FPL medially, and elevate pronator quadratus extraperiosteally with an L-shaped incision.",
+      "claim_ids": [
+        "pediatric_distal_radius_modified_henry_deep_interval_01"
+      ]
+    }
+  ],
+  "layers": [
+    {
+      "text": "Skin, subcutaneous nerve plane, FCR sheath, FPL-artery interval, pronator quadratus, then distal radius.",
+      "claim_ids": [
+        "pediatric_distal_radius_modified_henry_layers_01"
+      ]
+    }
+  ],
+  "structures_encountered": [
+    {
+      "text": "FCR, radial artery, palmar cutaneous median-nerve branch, FPL, pronator quadratus, physis, and distal radius are encountered.",
+      "claim_ids": [
+        "pediatric_distal_radius_modified_henry_structures_encountered_01"
+      ]
+    }
+  ],
+  "structures_at_risk": [
+    {
+      "text": "Radial artery, median nerve and palmar cutaneous branch, FPL and other flexors, physis, and radiocarpal cartilage are at risk.",
+      "claim_ids": [
+        "pediatric_distal_radius_modified_henry_structures_at_risk_01"
+      ]
+    }
+  ],
+  "danger_zones": [
+    {
+      "text": "Avoid distal nerve-branch injury and unnecessary transphyseal dissection or fixation; identify the joint and physis fluoroscopically.",
+      "claim_ids": [
+        "pediatric_distal_radius_modified_henry_danger_zones_01"
+      ]
+    }
+  ],
+  "retraction_hazards": [
+    {
+      "text": "Avoid sustained radial-artery or median-nerve traction and protect flexors from sharp retractors.",
+      "claim_ids": [
+        "pediatric_distal_radius_modified_henry_retraction_hazards_01"
+      ]
+    }
+  ],
+  "exposure": [
+    {
+      "text": "Exposes the volar distal radius for direct reduction while preserving options for physeal-respecting fixation.",
+      "claim_ids": [
+        "pediatric_distal_radius_modified_henry_exposure_01"
+      ]
+    }
+  ],
+  "limitations": [
+    {
+      "text": "Dorsal, radial-styloid, or ulnar-column fragments may require a separate targeted exposure.",
+      "claim_ids": [
+        "pediatric_distal_radius_modified_henry_limitations_01"
+      ]
+    }
+  ],
+  "extensions": [
+    {
+      "text": "Extend proximally along FCR or add a separate column-specific approach rather than over-retracting neurovascular structures.",
+      "claim_ids": [
+        "pediatric_distal_radius_modified_henry_extensions_01"
+      ]
+    }
+  ],
+  "indications": [
+    {
+      "text": "Use selectively for irreducible, unstable, or displaced pediatric distal-radius fractures requiring open volar control.",
+      "claim_ids": [
+        "pediatric_distal_radius_modified_henry_indications_01"
+      ]
+    }
+  ],
+  "relative_contraindications": [
+    {
+      "text": "Avoid open exposure when stable acceptable closed reduction is achievable or when the key fragment is inaccessible volarly.",
+      "claim_ids": [
+        "pediatric_distal_radius_modified_henry_relative_contraindications_01"
+      ]
+    }
+  ],
+  "implant_implications": [
+    {
+      "text": "Use low-profile, maturity-appropriate fixation, minimize physeal violation, and keep screws out of radiocarpal and dorsal tendon compartments.",
+      "claim_ids": [
+        "pediatric_distal_radius_modified_henry_implant_implications_01"
+      ]
+    }
+  ],
+  "fluoroscopy_implications": [
+    {
+      "text": "Confirm physis, joint surface, reduction, implant trajectory, and screw containment on orthogonal and tangential views.",
+      "claim_ids": [
+        "pediatric_distal_radius_modified_henry_fluoroscopy_implications_01"
+      ]
+    }
+  ],
+  "closure": [
+    {
+      "text": "Replace pronator quadratus over implants when possible, close FCR sheath without trapping the cutaneous nerve, then close skin.",
+      "claim_ids": [
+        "pediatric_distal_radius_modified_henry_closure_01"
+      ]
+    }
+  ],
+  "complications": [
+    {
+      "text": "Complications include nerve or artery injury, tendon irritation, physeal arrest, joint penetration, infection, stiffness, and symptomatic hardware.",
+      "claim_ids": [
+        "pediatric_distal_radius_modified_henry_complications_01"
+      ]
+    }
+  ],
+  "bailouts": [
+    {
+      "text": "Add the needed column-specific exposure when reduction remains unseen and choose alternate fixation if physeal safety cannot be maintained.",
+      "claim_ids": [
+        "pediatric_distal_radius_modified_henry_bailouts_01"
+      ]
+    }
+  ],
+  "procedure_applications": [
+    {
+      "procedure_id": "pediatric_distal_radius_fracture_fixation",
+      "relationship": "conditional_option",
+      "condition": "An irreducible or unstable pediatric distal-radius fracture requires direct volar reduction and fixation"
+    }
+  ],
+  "questions": [
+    {
+      "question": "What is the defining interval?",
+      "answer": "Between FCR and radial artery, ulnar to the artery.",
+      "claim_ids": [
+        "pediatric_distal_radius_modified_henry_questions_01"
+      ]
+    },
+    {
+      "question": "Which nerve branch is vulnerable?",
+      "answer": "The palmar cutaneous branch of the median nerve.",
+      "claim_ids": [
+        "pediatric_distal_radius_modified_henry_questions_02"
+      ]
+    },
+    {
+      "question": "How is pronator quadratus elevated?",
+      "answer": "Extraperiosteally through an L-shaped incision.",
+      "claim_ids": [
+        "pediatric_distal_radius_modified_henry_questions_03"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "pediatric_distal_radius_modified_henry_positioning_01",
+      "text": "Position supine with arm on a radiolucent hand table, forearm supinated, and wrist freely imageable.",
+      "source_ids": [
+        "ao_a9e86570d73b65fa",
+        "pmid_42246508"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "pediatric_distal_radius_modified_henry_setup_01",
+      "text": "Map the physis, FCR, radial artery, and median-nerve branches; plan the least invasive fixation compatible with stable reduction.",
+      "source_ids": [
+        "pmid_27833358",
+        "pmid_42246508"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "pediatric_distal_radius_modified_henry_surface_landmarks_01",
+      "text": "Mark FCR, radial styloid, wrist crease, radial artery pulse, and radiocarpal joint.",
+      "source_ids": [
+        "ao_a9e86570d73b65fa"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "pediatric_distal_radius_modified_henry_incision_01",
+      "text": "Incise along the radial border of FCR, tailored to the fracture and implant length.",
+      "source_ids": [
+        "ao_a9e86570d73b65fa",
+        "pmid_27833358"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "pediatric_distal_radius_modified_henry_superficial_interval_01",
+      "text": "Open FCR sheath and retract tendon medially while protecting the radial artery laterally and palmar cutaneous median-nerve branch medially.",
+      "source_ids": [
+        "ao_a9e86570d73b65fa",
+        "pmid_27833358"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "pediatric_distal_radius_modified_henry_deep_interval_01",
+      "text": "Develop between FPL and radial artery, sweep FPL medially, and elevate pronator quadratus extraperiosteally with an L-shaped incision.",
+      "source_ids": [
+        "ao_a9e86570d73b65fa",
+        "pmid_27833358"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "pediatric_distal_radius_modified_henry_layers_01",
+      "text": "Skin, subcutaneous nerve plane, FCR sheath, FPL-artery interval, pronator quadratus, then distal radius.",
+      "source_ids": [
+        "ao_a9e86570d73b65fa"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "pediatric_distal_radius_modified_henry_structures_encountered_01",
+      "text": "FCR, radial artery, palmar cutaneous median-nerve branch, FPL, pronator quadratus, physis, and distal radius are encountered.",
+      "source_ids": [
+        "ao_a9e86570d73b65fa",
+        "pmid_27833358"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "pediatric_distal_radius_modified_henry_structures_at_risk_01",
+      "text": "Radial artery, median nerve and palmar cutaneous branch, FPL and other flexors, physis, and radiocarpal cartilage are at risk.",
+      "source_ids": [
+        "ao_a9e86570d73b65fa",
+        "pmid_27833358"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "pediatric_distal_radius_modified_henry_danger_zones_01",
+      "text": "Avoid distal nerve-branch injury and unnecessary transphyseal dissection or fixation; identify the joint and physis fluoroscopically.",
+      "source_ids": [
+        "pmid_27833358",
+        "pmid_42246508"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "pediatric_distal_radius_modified_henry_retraction_hazards_01",
+      "text": "Avoid sustained radial-artery or median-nerve traction and protect flexors from sharp retractors.",
+      "source_ids": [
+        "ao_a9e86570d73b65fa",
+        "pmid_27833358"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "pediatric_distal_radius_modified_henry_exposure_01",
+      "text": "Exposes the volar distal radius for direct reduction while preserving options for physeal-respecting fixation.",
+      "source_ids": [
+        "ao_a9e86570d73b65fa",
+        "pmid_42246508"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "pediatric_distal_radius_modified_henry_limitations_01",
+      "text": "Dorsal, radial-styloid, or ulnar-column fragments may require a separate targeted exposure.",
+      "source_ids": [
+        "ao_a9e86570d73b65fa",
+        "pmid_42246508"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "pediatric_distal_radius_modified_henry_extensions_01",
+      "text": "Extend proximally along FCR or add a separate column-specific approach rather than over-retracting neurovascular structures.",
+      "source_ids": [
+        "ao_a9e86570d73b65fa",
+        "pmid_27833358"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "pediatric_distal_radius_modified_henry_indications_01",
+      "text": "Use selectively for irreducible, unstable, or displaced pediatric distal-radius fractures requiring open volar control.",
+      "source_ids": [
+        "ao_a9e86570d73b65fa",
+        "pmid_42246508"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "pediatric_distal_radius_modified_henry_relative_contraindications_01",
+      "text": "Avoid open exposure when stable acceptable closed reduction is achievable or when the key fragment is inaccessible volarly.",
+      "source_ids": [
+        "pmid_42246508",
+        "pmid_27833358"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "pediatric_distal_radius_modified_henry_implant_implications_01",
+      "text": "Use low-profile, maturity-appropriate fixation, minimize physeal violation, and keep screws out of radiocarpal and dorsal tendon compartments.",
+      "source_ids": [
+        "pmid_42246508",
+        "pmid_27833358"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "pediatric_distal_radius_modified_henry_fluoroscopy_implications_01",
+      "text": "Confirm physis, joint surface, reduction, implant trajectory, and screw containment on orthogonal and tangential views.",
+      "source_ids": [
+        "pmid_42246508",
+        "pmid_27833358"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "pediatric_distal_radius_modified_henry_closure_01",
+      "text": "Replace pronator quadratus over implants when possible, close FCR sheath without trapping the cutaneous nerve, then close skin.",
+      "source_ids": [
+        "ao_a9e86570d73b65fa",
+        "pmid_27833358"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "pediatric_distal_radius_modified_henry_complications_01",
+      "text": "Complications include nerve or artery injury, tendon irritation, physeal arrest, joint penetration, infection, stiffness, and symptomatic hardware.",
+      "source_ids": [
+        "pmid_27833358",
+        "pmid_42246508"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "pediatric_distal_radius_modified_henry_bailouts_01",
+      "text": "Add the needed column-specific exposure when reduction remains unseen and choose alternate fixation if physeal safety cannot be maintained.",
+      "source_ids": [
+        "pmid_27833358",
+        "pmid_42246508"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "pediatric_distal_radius_modified_henry_questions_01",
+      "text": "What is the defining interval?",
+      "source_ids": [
+        "ao_a9e86570d73b65fa"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "pediatric_distal_radius_modified_henry_questions_02",
+      "text": "Which nerve branch is vulnerable?",
+      "source_ids": [
+        "ao_a9e86570d73b65fa"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "pediatric_distal_radius_modified_henry_questions_03",
+      "text": "How is pronator quadratus elevated?",
+      "source_ids": [
+        "ao_a9e86570d73b65fa"
+      ],
+      "risk_level": "medium"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "ao_a9e86570d73b65fa",
+      "provider": "AO Surgery Reference",
+      "title": "Volar Anterior Approach To The Distal Radius",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/pediatric-trauma/distal-forearm/approach/volar-anterior-approach-to-the-distal-radius",
+      "source_page_id": "ao_a9e86570d73b65fa"
+    },
+    {
+      "source_id": "pmid_27833358",
+      "provider": "PubMed",
+      "title": "Anatomic considerations when performing the modified Henry approach for exposure of distal radius fractures",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/27833358/"
+    },
+    {
+      "source_id": "pmid_42246508",
+      "provider": "PubMed",
+      "title": "Management of pediatric distal radius fractures - A systematic review and meta-analysis",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42246508/"
+    }
+  ],
+  "content_status": "agent_review_pending",
+  "review": {
+    "status": "agent_review_pending",
+    "required_roles": [
+      "adversarial_safety_reviewer",
+      "approach_anatomy_reviewer",
+      "educational_value_reviewer",
+      "evidence_reviewer",
+      "operative_exposure_reviewer",
+      "procedure_applicability_reviewer"
+    ],
+    "completed_roles": []
+  },
+  "resolved_contradiction_keys": [],
+  "authoring_provenance": {
+    "method": "local_codex_curated",
+    "definition_file": "data/approach_library/curated/pediatric_distal_radius_volar_v1.json",
+    "api_used": false
+  }
+}

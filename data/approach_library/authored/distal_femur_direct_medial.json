@@ -1,0 +1,463 @@
+{
+  "schema_version": "brobot_approach_packet_v1",
+  "approach_id": "distal_femur_direct_medial",
+  "name": "Direct medial approach to the distal femur",
+  "aliases": [
+    "medial distal femur approach",
+    "adductor-magnus interval approach"
+  ],
+  "region": "medial distal thigh and distal femur",
+  "joint": "knee",
+  "bones": [
+    "distal femur",
+    "medial femoral condyle"
+  ],
+  "corridor": "Posterior border of the adductor-magnus tendon with sartorius retracted posteriorly and vastus medialis anteriorly",
+  "positioning": [
+    {
+      "text": "Position supine on a radiolucent table with the knee freely flexed; flexion relaxes medial tissues and permits posterior retraction of sartorius.",
+      "claim_ids": [
+        "distal_femur_direct_medial_positioning_01"
+      ]
+    }
+  ],
+  "setup": [
+    {
+      "text": "Review CT for the medial and posterior fracture extent, prepare vascular instruments when arterial injury is suspected, and ensure access for orthogonal fluoroscopy.",
+      "claim_ids": [
+        "distal_femur_direct_medial_setup_01"
+      ]
+    }
+  ],
+  "surface_landmarks": [
+    {
+      "text": "Mark the adductor tubercle, adductor-magnus tendon, medial epicondyle, medial joint line, patella, and expected course of the long saphenous vein.",
+      "claim_ids": [
+        "distal_femur_direct_medial_surface_landmarks_01"
+      ]
+    }
+  ],
+  "incision": [
+    {
+      "text": "Make a straight longitudinal incision along the posterior border of the adductor-magnus tendon beginning near the adductor tubercle and extend proximally as required.",
+      "claim_ids": [
+        "distal_femur_direct_medial_incision_01"
+      ]
+    }
+  ],
+  "superficial_interval": [
+    {
+      "text": "Identify the anterior edge of sartorius and, with the knee flexed, retract sartorius posteriorly to expose the adductor-magnus tendon.",
+      "claim_ids": [
+        "distal_femur_direct_medial_superficial_interval_01"
+      ]
+    }
+  ],
+  "deep_interval": [
+    {
+      "text": "Retract adductor magnus and its tendon posteriorly and vastus medialis anteriorly to reach the medial femur; remain directly on bone when developing any posterior extension.",
+      "claim_ids": [
+        "distal_femur_direct_medial_deep_interval_01"
+      ]
+    }
+  ],
+  "layers": [
+    {
+      "text": "Skin, subcutaneous tissue, sartorial fascia, sartorius-adductor region, interval between adductor magnus and vastus medialis, then medial femoral periosteum and optional capsule.",
+      "claim_ids": [
+        "distal_femur_direct_medial_layers_01"
+      ]
+    }
+  ],
+  "structures_encountered": [
+    {
+      "text": "Sartorius, adductor-magnus tendon, vastus medialis, medial distal femur, capsule, and posterior popliteal space may be encountered.",
+      "claim_ids": [
+        "distal_femur_direct_medial_structures_encountered_01"
+      ]
+    }
+  ],
+  "structures_at_risk": [
+    {
+      "text": "Popliteal artery and vein, tibial nerve, saphenous nerve and vein, medial genicular vessels, and articular cartilage are at risk.",
+      "claim_ids": [
+        "distal_femur_direct_medial_structures_at_risk_01"
+      ]
+    }
+  ],
+  "danger_zones": [
+    {
+      "text": "The popliteal neurovascular bundle lies immediately posterior to the distal femur; posterior dissection must be blunt, controlled, and performed with direct anatomic awareness.",
+      "claim_ids": [
+        "distal_femur_direct_medial_danger_zones_01"
+      ]
+    }
+  ],
+  "retraction_hazards": [
+    {
+      "text": "Avoid blind or forceful posterior retraction of adductor magnus and avoid prolonged compression of the popliteal bundle or traction on saphenous structures.",
+      "claim_ids": [
+        "distal_femur_direct_medial_retraction_hazards_01"
+      ]
+    }
+  ],
+  "exposure": [
+    {
+      "text": "Exposes medial distal-femoral fractures and permits limited posterior access, possible popliteal vascular exploration, and extension toward the posterior cruciate ligament.",
+      "claim_ids": [
+        "distal_femur_direct_medial_exposure_01"
+      ]
+    }
+  ],
+  "limitations": [
+    {
+      "text": "Posterior joint-surface visualization through a medial capsulotomy is limited; posterior coronal fragments may require a more specific exposure.",
+      "claim_ids": [
+        "distal_femur_direct_medial_limitations_01"
+      ]
+    }
+  ],
+  "extensions": [
+    {
+      "text": "Extend proximally along adductor magnus, develop the posterior plane bluntly for vascular access, or add a capsulotomy for limited articular inspection.",
+      "claim_ids": [
+        "distal_femur_direct_medial_extensions_01"
+      ]
+    }
+  ],
+  "indications": [
+    {
+      "text": "Use for medial distal-femoral or medial Hoffa fractures, selected posterior access, and distal-femur fractures complicated by suspected arterial injury.",
+      "claim_ids": [
+        "distal_femur_direct_medial_indications_01"
+      ]
+    }
+  ],
+  "relative_contraindications": [
+    {
+      "text": "Choose a parapatellar exposure when broad anterior articular reconstruction is required and a dedicated posterior or fragment-specific route when posterior visualization would otherwise be blind.",
+      "claim_ids": [
+        "distal_femur_direct_medial_relative_contraindications_01"
+      ]
+    }
+  ],
+  "implant_implications": [
+    {
+      "text": "Supports medial buttress or fragment-specific fixation; drill and screw trajectories directed posteriorly require guarded depth because of the adjacent popliteal bundle.",
+      "claim_ids": [
+        "distal_femur_direct_medial_implant_implications_01"
+      ]
+    }
+  ],
+  "fluoroscopy_implications": [
+    {
+      "text": "Use AP, lateral, and condylar oblique views to verify medial reduction, posterior fragment position, implant containment, and screw length.",
+      "claim_ids": [
+        "distal_femur_direct_medial_fluoroscopy_implications_01"
+      ]
+    }
+  ],
+  "closure": [
+    {
+      "text": "Obtain meticulous hemostasis, repair any capsulotomy, allow the muscular interval to return anatomically, then close fascia, subcutaneous tissue, and skin in layers.",
+      "claim_ids": [
+        "distal_femur_direct_medial_closure_01"
+      ]
+    }
+  ],
+  "complications": [
+    {
+      "text": "Complications include popliteal neurovascular injury, saphenous neuropathy, hematoma, articular malreduction, stiffness, infection, nonunion, and symptomatic medial implants.",
+      "claim_ids": [
+        "distal_femur_direct_medial_complications_01"
+      ]
+    }
+  ],
+  "bailouts": [
+    {
+      "text": "If posterior control cannot be obtained safely, stop blind dissection and add a dedicated fragment-specific or posterior exposure with vascular assistance when indicated.",
+      "claim_ids": [
+        "distal_femur_direct_medial_bailouts_01"
+      ]
+    }
+  ],
+  "procedure_applications": [
+    {
+      "procedure_id": "distal_femur_hoffa_fracture_orif",
+      "relationship": "conditional_option",
+      "condition": "A medial condylar or medial Hoffa fragment needs direct medial reduction, limited posterior access, or associated popliteal vascular exploration"
+    }
+  ],
+  "questions": [
+    {
+      "question": "What tendon guides the incision?",
+      "answer": "The adductor-magnus tendon at the adductor tubercle.",
+      "claim_ids": [
+        "distal_femur_direct_medial_questions_01"
+      ]
+    },
+    {
+      "question": "What muscles are retracted to expose the femur?",
+      "answer": "Adductor magnus posteriorly and vastus medialis anteriorly.",
+      "claim_ids": [
+        "distal_femur_direct_medial_questions_02"
+      ]
+    },
+    {
+      "question": "What is the major posterior danger?",
+      "answer": "The popliteal neurovascular bundle directly behind the distal femur.",
+      "claim_ids": [
+        "distal_femur_direct_medial_questions_03"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "distal_femur_direct_medial_positioning_01",
+      "text": "Position supine on a radiolucent table with the knee freely flexed; flexion relaxes medial tissues and permits posterior retraction of sartorius.",
+      "source_ids": [
+        "ao_30f13838a1aed4e2"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "distal_femur_direct_medial_setup_01",
+      "text": "Review CT for the medial and posterior fracture extent, prepare vascular instruments when arterial injury is suspected, and ensure access for orthogonal fluoroscopy.",
+      "source_ids": [
+        "ao_30f13838a1aed4e2",
+        "pmid_31460990"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "distal_femur_direct_medial_surface_landmarks_01",
+      "text": "Mark the adductor tubercle, adductor-magnus tendon, medial epicondyle, medial joint line, patella, and expected course of the long saphenous vein.",
+      "source_ids": [
+        "ao_30f13838a1aed4e2"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "distal_femur_direct_medial_incision_01",
+      "text": "Make a straight longitudinal incision along the posterior border of the adductor-magnus tendon beginning near the adductor tubercle and extend proximally as required.",
+      "source_ids": [
+        "ao_30f13838a1aed4e2"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "distal_femur_direct_medial_superficial_interval_01",
+      "text": "Identify the anterior edge of sartorius and, with the knee flexed, retract sartorius posteriorly to expose the adductor-magnus tendon.",
+      "source_ids": [
+        "ao_30f13838a1aed4e2",
+        "pmid_31460990"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "distal_femur_direct_medial_deep_interval_01",
+      "text": "Retract adductor magnus and its tendon posteriorly and vastus medialis anteriorly to reach the medial femur; remain directly on bone when developing any posterior extension.",
+      "source_ids": [
+        "ao_30f13838a1aed4e2",
+        "pmid_31460990"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "distal_femur_direct_medial_layers_01",
+      "text": "Skin, subcutaneous tissue, sartorial fascia, sartorius-adductor region, interval between adductor magnus and vastus medialis, then medial femoral periosteum and optional capsule.",
+      "source_ids": [
+        "ao_30f13838a1aed4e2"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "distal_femur_direct_medial_structures_encountered_01",
+      "text": "Sartorius, adductor-magnus tendon, vastus medialis, medial distal femur, capsule, and posterior popliteal space may be encountered.",
+      "source_ids": [
+        "ao_30f13838a1aed4e2"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "distal_femur_direct_medial_structures_at_risk_01",
+      "text": "Popliteal artery and vein, tibial nerve, saphenous nerve and vein, medial genicular vessels, and articular cartilage are at risk.",
+      "source_ids": [
+        "ao_30f13838a1aed4e2",
+        "pmid_31460990"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "distal_femur_direct_medial_danger_zones_01",
+      "text": "The popliteal neurovascular bundle lies immediately posterior to the distal femur; posterior dissection must be blunt, controlled, and performed with direct anatomic awareness.",
+      "source_ids": [
+        "ao_30f13838a1aed4e2",
+        "pmid_31460990"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "distal_femur_direct_medial_retraction_hazards_01",
+      "text": "Avoid blind or forceful posterior retraction of adductor magnus and avoid prolonged compression of the popliteal bundle or traction on saphenous structures.",
+      "source_ids": [
+        "ao_30f13838a1aed4e2",
+        "pmid_31460990"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "distal_femur_direct_medial_exposure_01",
+      "text": "Exposes medial distal-femoral fractures and permits limited posterior access, possible popliteal vascular exploration, and extension toward the posterior cruciate ligament.",
+      "source_ids": [
+        "ao_30f13838a1aed4e2"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "distal_femur_direct_medial_limitations_01",
+      "text": "Posterior joint-surface visualization through a medial capsulotomy is limited; posterior coronal fragments may require a more specific exposure.",
+      "source_ids": [
+        "ao_30f13838a1aed4e2",
+        "pmid_31460990"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "distal_femur_direct_medial_extensions_01",
+      "text": "Extend proximally along adductor magnus, develop the posterior plane bluntly for vascular access, or add a capsulotomy for limited articular inspection.",
+      "source_ids": [
+        "ao_30f13838a1aed4e2",
+        "pmid_31460990"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "distal_femur_direct_medial_indications_01",
+      "text": "Use for medial distal-femoral or medial Hoffa fractures, selected posterior access, and distal-femur fractures complicated by suspected arterial injury.",
+      "source_ids": [
+        "ao_30f13838a1aed4e2",
+        "pmid_31460990"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "distal_femur_direct_medial_relative_contraindications_01",
+      "text": "Choose a parapatellar exposure when broad anterior articular reconstruction is required and a dedicated posterior or fragment-specific route when posterior visualization would otherwise be blind.",
+      "source_ids": [
+        "ao_30f13838a1aed4e2",
+        "pmid_31460990"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "distal_femur_direct_medial_implant_implications_01",
+      "text": "Supports medial buttress or fragment-specific fixation; drill and screw trajectories directed posteriorly require guarded depth because of the adjacent popliteal bundle.",
+      "source_ids": [
+        "ao_30f13838a1aed4e2",
+        "pmid_31460990"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "distal_femur_direct_medial_fluoroscopy_implications_01",
+      "text": "Use AP, lateral, and condylar oblique views to verify medial reduction, posterior fragment position, implant containment, and screw length.",
+      "source_ids": [
+        "ao_30f13838a1aed4e2",
+        "pmid_42267346"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "distal_femur_direct_medial_closure_01",
+      "text": "Obtain meticulous hemostasis, repair any capsulotomy, allow the muscular interval to return anatomically, then close fascia, subcutaneous tissue, and skin in layers.",
+      "source_ids": [
+        "ao_30f13838a1aed4e2",
+        "pmid_31460990"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "distal_femur_direct_medial_complications_01",
+      "text": "Complications include popliteal neurovascular injury, saphenous neuropathy, hematoma, articular malreduction, stiffness, infection, nonunion, and symptomatic medial implants.",
+      "source_ids": [
+        "ao_30f13838a1aed4e2",
+        "pmid_31460990"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "distal_femur_direct_medial_bailouts_01",
+      "text": "If posterior control cannot be obtained safely, stop blind dissection and add a dedicated fragment-specific or posterior exposure with vascular assistance when indicated.",
+      "source_ids": [
+        "ao_30f13838a1aed4e2",
+        "pmid_31460990"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "distal_femur_direct_medial_questions_01",
+      "text": "What tendon guides the incision?",
+      "source_ids": [
+        "ao_30f13838a1aed4e2"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "distal_femur_direct_medial_questions_02",
+      "text": "What muscles are retracted to expose the femur?",
+      "source_ids": [
+        "ao_30f13838a1aed4e2"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "distal_femur_direct_medial_questions_03",
+      "text": "What is the major posterior danger?",
+      "source_ids": [
+        "ao_30f13838a1aed4e2"
+      ],
+      "risk_level": "medium"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "ao_30f13838a1aed4e2",
+      "provider": "AO Surgery Reference",
+      "title": "Medial Approach To The Distal Femur",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/distal-femur/approach/medial-approach-to-the-distal-femur",
+      "source_page_id": "ao_30f13838a1aed4e2"
+    },
+    {
+      "source_id": "pmid_31460990",
+      "provider": "PubMed",
+      "title": "Surgical approaches and outcomes associated with intra-articular Hoffa fractures",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/31460990/"
+    },
+    {
+      "source_id": "pmid_42267346",
+      "provider": "PubMed",
+      "title": "Current concepts in the treatment of distal femur fractures in adults",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42267346/"
+    }
+  ],
+  "content_status": "agent_review_pending",
+  "review": {
+    "status": "agent_review_pending",
+    "required_roles": [
+      "adversarial_safety_reviewer",
+      "approach_anatomy_reviewer",
+      "educational_value_reviewer",
+      "evidence_reviewer",
+      "operative_exposure_reviewer",
+      "procedure_applicability_reviewer"
+    ],
+    "completed_roles": []
+  },
+  "resolved_contradiction_keys": [],
+  "authoring_provenance": {
+    "method": "local_codex_curated",
+    "definition_file": "data/approach_library/curated/distal_femur_parapatellar_medial_approaches_v1.json",
+    "api_used": false
+  }
+}

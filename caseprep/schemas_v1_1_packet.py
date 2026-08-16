@@ -43,15 +43,14 @@ EVENT_ERROR = "error"
 
 # Packet layout order (client slot order, not emission order).
 SECTION_IDS = (
+    "approach_decision",
     "summary",
     "key_takeaways",
     "top_things_to_know",
     "pimp_questions",
     "anatomy",
     "operative_flow",
-    "teaching_topics",
     "decision_points",
-    "pitfalls",
     "postop",
     "evidence",
     "related_concepts",  # injected web-side from the knowledge graph

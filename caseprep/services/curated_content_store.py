@@ -156,7 +156,20 @@ def _load_store() -> Dict[str, Dict[str, Any]]:
 
 def get_certified_payload(procedure_slug: str) -> Optional[Dict[str, Any]]:
     store = _load_store()
-    return store.get(procedure_slug)
+    payload = store.get(procedure_slug)
+    if payload is None:
+        return None
+    # Runtime consumers receive the v3 procedure-core + multi-approach view.
+    # Legacy fields remain present so older deterministic pipelines continue
+    # to work during the migration.
+    from caseprep.services.packet_v3 import normalize_packet
+
+    return normalize_packet(payload)
+
+
+def get_legacy_payload(procedure_slug: str) -> Optional[Dict[str, Any]]:
+    """Unadapted on-disk payload for factory/hash/audit tooling only."""
+    return _load_store().get(procedure_slug)
 
 
 def certified_count() -> int:

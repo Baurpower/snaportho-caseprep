@@ -1,0 +1,472 @@
+{
+  "schema_version": "brobot_approach_packet_v1",
+  "approach_id": "pediatric_distal_humerus_medial",
+  "name": "Pediatric medial approach to the distal humerus",
+  "aliases": [
+    "pediatric medial epicondyle approach",
+    "mini-open medial pin approach"
+  ],
+  "region": "medial pediatric elbow",
+  "joint": "elbow",
+  "bones": [
+    "medial epicondyle",
+    "distal humerus"
+  ],
+  "corridor": "Medial supracondylar exposure with direct identification and protection of the ulnar nerve",
+  "positioning": [
+    {
+      "text": "Position supine with arm supported, medial elbow accessible, and fluoroscopy able to obtain orthogonal views without stressing fixation.",
+      "claim_ids": [
+        "pediatric_distal_humerus_medial_positioning_01"
+      ]
+    }
+  ],
+  "setup": [
+    {
+      "text": "Document ulnar-nerve function, plan fragment and flexor-pronator management, and decide whether only a mini-open pin window or full exposure is required.",
+      "claim_ids": [
+        "pediatric_distal_humerus_medial_setup_01"
+      ]
+    }
+  ],
+  "surface_landmarks": [
+    {
+      "text": "Mark medial supracondylar ridge, medial epicondyle, olecranon, ulnar groove, and flexor-pronator mass.",
+      "claim_ids": [
+        "pediatric_distal_humerus_medial_surface_landmarks_01"
+      ]
+    }
+  ],
+  "incision": [
+    {
+      "text": "Center a 2-3 cm extensile incision across medial epicondyle; for pin visualization alone, use a roughly 1.5 cm incision with blunt subcutaneous dissection.",
+      "claim_ids": [
+        "pediatric_distal_humerus_medial_incision_01"
+      ]
+    }
+  ],
+  "superficial_interval": [
+    {
+      "text": "Identify and protect the posterior branch of the medial antebrachial cutaneous nerve, then locate the ulnar nerve proximally, in its groove, and between FCU heads.",
+      "claim_ids": [
+        "pediatric_distal_humerus_medial_superficial_interval_01"
+      ]
+    }
+  ],
+  "deep_interval": [
+    {
+      "text": "Retract the protected ulnar nerve gently, release medial intermuscular septum proximally as needed, and retract flexor-pronator mass anteriorly for capsular access.",
+      "claim_ids": [
+        "pediatric_distal_humerus_medial_deep_interval_01"
+      ]
+    }
+  ],
+  "layers": [
+    {
+      "text": "Skin, cutaneous-nerve plane, ulnar-nerve plane, medial septum/flexor-pronator origin, capsule, then medial distal humerus.",
+      "claim_ids": [
+        "pediatric_distal_humerus_medial_layers_01"
+      ]
+    }
+  ],
+  "structures_encountered": [
+    {
+      "text": "Medial antebrachial cutaneous nerve, ulnar nerve, FCU heads, medial septum, flexor-pronator origin, capsule, and medial epicondyle are encountered.",
+      "claim_ids": [
+        "pediatric_distal_humerus_medial_structures_encountered_01"
+      ]
+    }
+  ],
+  "structures_at_risk": [
+    {
+      "text": "Ulnar nerve and its FCU motor branch, medial antebrachial cutaneous nerve, physis, and medial collateral ligament are at risk.",
+      "claim_ids": [
+        "pediatric_distal_humerus_medial_structures_at_risk_01"
+      ]
+    }
+  ],
+  "danger_zones": [
+    {
+      "text": "Preserve the first FCU motor branch if transposition is necessary and never place a medial pin without knowing the ulnar-nerve position.",
+      "claim_ids": [
+        "pediatric_distal_humerus_medial_danger_zones_01"
+      ]
+    }
+  ],
+  "retraction_hazards": [
+    {
+      "text": "Use a broad smooth retractor or soft loop without sustained ulnar-nerve traction; avoid focal pressure behind medial epicondyle.",
+      "claim_ids": [
+        "pediatric_distal_humerus_medial_retraction_hazards_01"
+      ]
+    }
+  ],
+  "exposure": [
+    {
+      "text": "Exposes medial epicondyle for reduction and fixation, permits ulnar-nerve exploration, and provides direct protection during medial pin insertion.",
+      "claim_ids": [
+        "pediatric_distal_humerus_medial_exposure_01"
+      ]
+    }
+  ],
+  "limitations": [
+    {
+      "text": "Opening the joint medially is not an ideal primary exposure for routine pediatric supracondylar fracture reduction.",
+      "claim_ids": [
+        "pediatric_distal_humerus_medial_limitations_01"
+      ]
+    }
+  ],
+  "extensions": [
+    {
+      "text": "Release medial septum approximately 3 cm proximally or open capsule longitudinally only when the pathology requires broader medial access.",
+      "claim_ids": [
+        "pediatric_distal_humerus_medial_extensions_01"
+      ]
+    }
+  ],
+  "indications": [
+    {
+      "text": "Use for medial epicondyle fixation, ulnar-nerve exploration, and mini-open protection during crossed K-wire fixation.",
+      "claim_ids": [
+        "pediatric_distal_humerus_medial_indications_01"
+      ]
+    }
+  ],
+  "relative_contraindications": [
+    {
+      "text": "Avoid routine extensile medial arthrotomy for a reducible supracondylar fracture without medial pathology or nerve concern.",
+      "claim_ids": [
+        "pediatric_distal_humerus_medial_relative_contraindications_01"
+      ]
+    }
+  ],
+  "implant_implications": [
+    {
+      "text": "Place screws or wires under direct ulnar-nerve protection and verify that implants do not tether nerve, violate joint, or injure the physis.",
+      "claim_ids": [
+        "pediatric_distal_humerus_medial_implant_implications_01"
+      ]
+    }
+  ],
+  "fluoroscopy_implications": [
+    {
+      "text": "Use AP, lateral, and oblique images to confirm reduction and that medial pins or screws remain extra-articular with safe trajectories.",
+      "claim_ids": [
+        "pediatric_distal_humerus_medial_fluoroscopy_implications_01"
+      ]
+    }
+  ],
+  "closure": [
+    {
+      "text": "Repair capsule when opened, restore flexor-pronator tissues, confirm a tension-free ulnar nerve, and close with fine absorbable sutures.",
+      "claim_ids": [
+        "pediatric_distal_humerus_medial_closure_01"
+      ]
+    }
+  ],
+  "complications": [
+    {
+      "text": "Complications include ulnar neuropathy, sensory neuroma, stiffness, nonunion, valgus instability, growth disturbance, infection, and symptomatic hardware.",
+      "claim_ids": [
+        "pediatric_distal_humerus_medial_complications_01"
+      ]
+    }
+  ],
+  "bailouts": [
+    {
+      "text": "If reduction is blocked by incarcerated fragment or nerve, enlarge under direct visualization rather than force percutaneous fixation.",
+      "claim_ids": [
+        "pediatric_distal_humerus_medial_bailouts_01"
+      ]
+    }
+  ],
+  "procedure_applications": [
+    {
+      "procedure_id": "pediatric_medial_epicondyle_humerus_fracture_orif",
+      "relationship": "primary_option",
+      "condition": "A medial epicondyle fracture requires open reduction or direct ulnar-nerve assessment"
+    },
+    {
+      "procedure_id": "pediatric_supracondylar_humerus_fracture_fixation",
+      "relationship": "conditional_option",
+      "condition": "A mini-open exposure is chosen for safe medial crossed-pin placement"
+    }
+  ],
+  "questions": [
+    {
+      "question": "Which cutaneous nerve commonly crosses the incision?",
+      "answer": "The posterior branch of the medial antebrachial cutaneous nerve.",
+      "claim_ids": [
+        "pediatric_distal_humerus_medial_questions_01"
+      ]
+    },
+    {
+      "question": "What does a mini-open medial incision accomplish?",
+      "answer": "Direct visualization and protection of the ulnar nerve during medial pin placement.",
+      "claim_ids": [
+        "pediatric_distal_humerus_medial_questions_02"
+      ]
+    },
+    {
+      "question": "Which motor branch must be preserved?",
+      "answer": "The ulnar-nerve branch to FCU.",
+      "claim_ids": [
+        "pediatric_distal_humerus_medial_questions_03"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "pediatric_distal_humerus_medial_positioning_01",
+      "text": "Position supine with arm supported, medial elbow accessible, and fluoroscopy able to obtain orthogonal views without stressing fixation.",
+      "source_ids": [
+        "ao_7f515f87204dfa9b",
+        "pmid_38295855"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "pediatric_distal_humerus_medial_setup_01",
+      "text": "Document ulnar-nerve function, plan fragment and flexor-pronator management, and decide whether only a mini-open pin window or full exposure is required.",
+      "source_ids": [
+        "ao_7f515f87204dfa9b",
+        "pmid_38295855"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "pediatric_distal_humerus_medial_surface_landmarks_01",
+      "text": "Mark medial supracondylar ridge, medial epicondyle, olecranon, ulnar groove, and flexor-pronator mass.",
+      "source_ids": [
+        "ao_7f515f87204dfa9b"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "pediatric_distal_humerus_medial_incision_01",
+      "text": "Center a 2-3 cm extensile incision across medial epicondyle; for pin visualization alone, use a roughly 1.5 cm incision with blunt subcutaneous dissection.",
+      "source_ids": [
+        "ao_7f515f87204dfa9b",
+        "pmid_38295855"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "pediatric_distal_humerus_medial_superficial_interval_01",
+      "text": "Identify and protect the posterior branch of the medial antebrachial cutaneous nerve, then locate the ulnar nerve proximally, in its groove, and between FCU heads.",
+      "source_ids": [
+        "ao_7f515f87204dfa9b",
+        "pmid_38295855"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "pediatric_distal_humerus_medial_deep_interval_01",
+      "text": "Retract the protected ulnar nerve gently, release medial intermuscular septum proximally as needed, and retract flexor-pronator mass anteriorly for capsular access.",
+      "source_ids": [
+        "ao_7f515f87204dfa9b",
+        "pmid_38295855"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "pediatric_distal_humerus_medial_layers_01",
+      "text": "Skin, cutaneous-nerve plane, ulnar-nerve plane, medial septum/flexor-pronator origin, capsule, then medial distal humerus.",
+      "source_ids": [
+        "ao_7f515f87204dfa9b"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "pediatric_distal_humerus_medial_structures_encountered_01",
+      "text": "Medial antebrachial cutaneous nerve, ulnar nerve, FCU heads, medial septum, flexor-pronator origin, capsule, and medial epicondyle are encountered.",
+      "source_ids": [
+        "ao_7f515f87204dfa9b",
+        "pmid_38295855"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "pediatric_distal_humerus_medial_structures_at_risk_01",
+      "text": "Ulnar nerve and its FCU motor branch, medial antebrachial cutaneous nerve, physis, and medial collateral ligament are at risk.",
+      "source_ids": [
+        "ao_7f515f87204dfa9b",
+        "pmid_38295855"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "pediatric_distal_humerus_medial_danger_zones_01",
+      "text": "Preserve the first FCU motor branch if transposition is necessary and never place a medial pin without knowing the ulnar-nerve position.",
+      "source_ids": [
+        "ao_7f515f87204dfa9b",
+        "pmid_38295855"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "pediatric_distal_humerus_medial_retraction_hazards_01",
+      "text": "Use a broad smooth retractor or soft loop without sustained ulnar-nerve traction; avoid focal pressure behind medial epicondyle.",
+      "source_ids": [
+        "ao_7f515f87204dfa9b",
+        "pmid_38295855"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "pediatric_distal_humerus_medial_exposure_01",
+      "text": "Exposes medial epicondyle for reduction and fixation, permits ulnar-nerve exploration, and provides direct protection during medial pin insertion.",
+      "source_ids": [
+        "ao_7f515f87204dfa9b",
+        "pmid_19685254"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "pediatric_distal_humerus_medial_limitations_01",
+      "text": "Opening the joint medially is not an ideal primary exposure for routine pediatric supracondylar fracture reduction.",
+      "source_ids": [
+        "ao_7f515f87204dfa9b",
+        "pmid_19685254"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "pediatric_distal_humerus_medial_extensions_01",
+      "text": "Release medial septum approximately 3 cm proximally or open capsule longitudinally only when the pathology requires broader medial access.",
+      "source_ids": [
+        "ao_7f515f87204dfa9b",
+        "pmid_38295855"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "pediatric_distal_humerus_medial_indications_01",
+      "text": "Use for medial epicondyle fixation, ulnar-nerve exploration, and mini-open protection during crossed K-wire fixation.",
+      "source_ids": [
+        "ao_7f515f87204dfa9b",
+        "pmid_19685254"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "pediatric_distal_humerus_medial_relative_contraindications_01",
+      "text": "Avoid routine extensile medial arthrotomy for a reducible supracondylar fracture without medial pathology or nerve concern.",
+      "source_ids": [
+        "ao_7f515f87204dfa9b",
+        "pmid_19685254"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "pediatric_distal_humerus_medial_implant_implications_01",
+      "text": "Place screws or wires under direct ulnar-nerve protection and verify that implants do not tether nerve, violate joint, or injure the physis.",
+      "source_ids": [
+        "ao_7f515f87204dfa9b",
+        "pmid_38295855"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "pediatric_distal_humerus_medial_fluoroscopy_implications_01",
+      "text": "Use AP, lateral, and oblique images to confirm reduction and that medial pins or screws remain extra-articular with safe trajectories.",
+      "source_ids": [
+        "ao_7f515f87204dfa9b",
+        "pmid_19685254"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "pediatric_distal_humerus_medial_closure_01",
+      "text": "Repair capsule when opened, restore flexor-pronator tissues, confirm a tension-free ulnar nerve, and close with fine absorbable sutures.",
+      "source_ids": [
+        "ao_7f515f87204dfa9b",
+        "pmid_38295855"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "pediatric_distal_humerus_medial_complications_01",
+      "text": "Complications include ulnar neuropathy, sensory neuroma, stiffness, nonunion, valgus instability, growth disturbance, infection, and symptomatic hardware.",
+      "source_ids": [
+        "pmid_38295855",
+        "pmid_19685254"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "pediatric_distal_humerus_medial_bailouts_01",
+      "text": "If reduction is blocked by incarcerated fragment or nerve, enlarge under direct visualization rather than force percutaneous fixation.",
+      "source_ids": [
+        "ao_7f515f87204dfa9b",
+        "pmid_38295855"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "pediatric_distal_humerus_medial_questions_01",
+      "text": "Which cutaneous nerve commonly crosses the incision?",
+      "source_ids": [
+        "ao_7f515f87204dfa9b"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "pediatric_distal_humerus_medial_questions_02",
+      "text": "What does a mini-open medial incision accomplish?",
+      "source_ids": [
+        "ao_7f515f87204dfa9b"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "pediatric_distal_humerus_medial_questions_03",
+      "text": "Which motor branch must be preserved?",
+      "source_ids": [
+        "ao_7f515f87204dfa9b"
+      ],
+      "risk_level": "medium"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "ao_7f515f87204dfa9b",
+      "provider": "AO Surgery Reference",
+      "title": "Medial Approach",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/pediatric-trauma/distal-humerus/approach/medial-approach",
+      "source_page_id": "ao_7f515f87204dfa9b"
+    },
+    {
+      "source_id": "pmid_38295855",
+      "provider": "PubMed",
+      "title": "The necessity of ulnar nerve exploration and translocation in open reduction of medial humeral epicondyle fractures in children",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38295855/"
+    },
+    {
+      "source_id": "pmid_19685254",
+      "provider": "PubMed",
+      "title": "Operative versus non-operative management of pediatric medial epicondyle fractures: a systematic review",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/19685254/"
+    }
+  ],
+  "content_status": "agent_review_pending",
+  "review": {
+    "status": "agent_review_pending",
+    "required_roles": [
+      "adversarial_safety_reviewer",
+      "approach_anatomy_reviewer",
+      "educational_value_reviewer",
+      "evidence_reviewer",
+      "operative_exposure_reviewer",
+      "procedure_applicability_reviewer"
+    ],
+    "completed_roles": []
+  },
+  "resolved_contradiction_keys": [],
+  "authoring_provenance": {
+    "method": "local_codex_curated",
+    "definition_file": "data/approach_library/curated/pediatric_distal_humerus_approaches_v1.json",
+    "api_used": false
+  }
+}

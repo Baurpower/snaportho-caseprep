@@ -1,0 +1,472 @@
+{
+  "schema_version": "brobot_approach_packet_v1",
+  "approach_id": "clavicle_anterior_mipo",
+  "name": "Minimally invasive plate osteosynthesis approach to the clavicle",
+  "aliases": [
+    "clavicle MIPO",
+    "minimally invasive anterior clavicle plating",
+    "bridge plating clavicle"
+  ],
+  "region": "anterior shoulder girdle and clavicle",
+  "joint": "sternoclavicular to acromioclavicular span",
+  "bones": [
+    "clavicle"
+  ],
+  "corridor": "Two short end incisions joined by a blunt epiperiosteal tunnel for anterior or superior bridge plating",
+  "positioning": [
+    {
+      "text": "Position beach-chair or supine with the scapula supported and the arm mobile to restore clavicular length and alignment indirectly.",
+      "claim_ids": [
+        "clavicle_anterior_mipo_positioning_01"
+      ]
+    }
+  ],
+  "setup": [
+    {
+      "text": "Template plate length and location before incision, prep the entire clavicle and arm, and ensure continuous fluoroscopic visualization of both ends and the fracture.",
+      "claim_ids": [
+        "clavicle_anterior_mipo_setup_01"
+      ]
+    }
+  ],
+  "surface_landmarks": [
+    {
+      "text": "Mark both clavicular ends, fracture zone, planned plate ends and holes, sternoclavicular and acromioclavicular joints, and supraclavicular nerve territory.",
+      "claim_ids": [
+        "clavicle_anterior_mipo_surface_landmarks_01"
+      ]
+    }
+  ],
+  "incision": [
+    {
+      "text": "Make separate medial and lateral incisions approximately 2–3 cm long over the planned plate ends, adding only targeted stab incisions for screws or reduction tools.",
+      "claim_ids": [
+        "clavicle_anterior_mipo_incision_01"
+      ]
+    }
+  ],
+  "superficial_interval": [
+    {
+      "text": "Protect visible supraclavicular branches, open fascia locally, and create a blunt subcutaneous or epiperiosteal tunnel connecting the end windows.",
+      "claim_ids": [
+        "clavicle_anterior_mipo_superficial_interval_01"
+      ]
+    }
+  ],
+  "deep_interval": [
+    {
+      "text": "Pass the plate through the prepared tunnel without stripping the fracture zone, using a small direct fracture window only if indirect reduction fails.",
+      "claim_ids": [
+        "clavicle_anterior_mipo_deep_interval_01"
+      ]
+    }
+  ],
+  "layers": [
+    {
+      "text": "Skin and subcutaneous tissue at two windows, supraclavicular nerve branches, local fascia and periosteum, blunt tunnel, then main clavicular fragments.",
+      "claim_ids": [
+        "clavicle_anterior_mipo_layers_01"
+      ]
+    }
+  ],
+  "structures_encountered": [
+    {
+      "text": "Supraclavicular nerves, platysma, clavipectoral fascia, periosteum and the medial and lateral main fragments are encountered; intermediate fragments remain covered.",
+      "claim_ids": [
+        "clavicle_anterior_mipo_structures_encountered_01"
+      ]
+    }
+  ],
+  "structures_at_risk": [
+    {
+      "text": "Supraclavicular nerves, subclavian vessels, brachial plexus, pleura, and skin over the tunneled plate are at risk.",
+      "claim_ids": [
+        "clavicle_anterior_mipo_structures_at_risk_01"
+      ]
+    }
+  ],
+  "danger_zones": [
+    {
+      "text": "Tunnel and drill under controlled contact with bone; never pass instruments blindly deep to the clavicle or across the medial-middle junction.",
+      "claim_ids": [
+        "clavicle_anterior_mipo_danger_zones_01"
+      ]
+    }
+  ],
+  "retraction_hazards": [
+    {
+      "text": "Avoid forceful retraction through short incisions, which can injure sensory branches or skin; extend a window when visualization is inadequate.",
+      "claim_ids": [
+        "clavicle_anterior_mipo_retraction_hazards_01"
+      ]
+    }
+  ],
+  "exposure": [
+    {
+      "text": "Exposes the main fragments and plate endpoints while preserving fracture hematoma and soft-tissue attachments around comminution.",
+      "claim_ids": [
+        "clavicle_anterior_mipo_exposure_01"
+      ]
+    }
+  ],
+  "limitations": [
+    {
+      "text": "Indirect reduction makes length, axis, and rotation harder to judge and is poorly suited when anatomic reduction of a simple fracture or direct debridement is essential.",
+      "claim_ids": [
+        "clavicle_anterior_mipo_limitations_01"
+      ]
+    }
+  ],
+  "extensions": [
+    {
+      "text": "Add a limited fracture-site incision for a blocking fragment or irreducible deformity, or convert to the full open approach when safe reduction cannot be verified.",
+      "claim_ids": [
+        "clavicle_anterior_mipo_extensions_01"
+      ]
+    }
+  ],
+  "indications": [
+    {
+      "text": "Best suited to selected multifragmentary midshaft fractures where relative stability and biologic preservation are desired; some simple patterns may qualify when soft-tissue considerations favor MIPO.",
+      "claim_ids": [
+        "clavicle_anterior_mipo_indications_01"
+      ]
+    }
+  ],
+  "relative_contraindications": [
+    {
+      "text": "Avoid for medial or lateral patterns outside the implant design, gross contamination, neurovascular exploration, or a simple pattern requiring direct anatomic compression when indirect control is unreliable.",
+      "claim_ids": [
+        "clavicle_anterior_mipo_relative_contraindications_01"
+      ]
+    }
+  ],
+  "implant_implications": [
+    {
+      "text": "Use a sufficiently long bridge plate with balanced fixation in both main fragments, confirm plate centering, and protect deep structures during every percutaneous screw pass.",
+      "claim_ids": [
+        "clavicle_anterior_mipo_implant_implications_01"
+      ]
+    }
+  ],
+  "fluoroscopy_implications": [
+    {
+      "text": "Imaging must confirm clavicular length, coronal and sagittal alignment, rotation, plate location, endpoint fixation, and safe screw lengths.",
+      "claim_ids": [
+        "clavicle_anterior_mipo_fluoroscopy_implications_01"
+      ]
+    }
+  ],
+  "closure": [
+    {
+      "text": "Close each fascial window securely over the plate, incorporating preserved periosteum when possible, then close skin without tension.",
+      "claim_ids": [
+        "clavicle_anterior_mipo_closure_01"
+      ]
+    }
+  ],
+  "complications": [
+    {
+      "text": "Complications include malalignment or shortening, supraclavicular numbness, vascular or plexus injury, pneumothorax, infection, nonunion, implant failure or prominence, and skin compromise.",
+      "claim_ids": [
+        "clavicle_anterior_mipo_complications_01"
+      ]
+    }
+  ],
+  "bailouts": [
+    {
+      "text": "If fluoroscopy cannot prove length and rotation or the plate cannot pass safely, open the fracture deliberately rather than persisting with blind tunneling.",
+      "claim_ids": [
+        "clavicle_anterior_mipo_bailouts_01"
+      ]
+    }
+  ],
+  "procedure_applications": [
+    {
+      "procedure_id": "clavicle_fracture_orif",
+      "relationship": "conditional_option",
+      "condition": "A midshaft fracture is suitable for indirect reduction and bridge plating with preservation of intermediate fragments"
+    }
+  ],
+  "questions": [
+    {
+      "question": "How many principal incisions are used for clavicle MIPO?",
+      "answer": "Two short incisions over the medial and lateral plate ends.",
+      "claim_ids": [
+        "clavicle_anterior_mipo_questions_01"
+      ]
+    },
+    {
+      "question": "What biology does MIPO preserve?",
+      "answer": "Fracture hematoma and soft-tissue attachments to intermediate fragments.",
+      "claim_ids": [
+        "clavicle_anterior_mipo_questions_02"
+      ]
+    },
+    {
+      "question": "Which reduction parameters must be verified indirectly?",
+      "answer": "Length, axis, and rotation.",
+      "claim_ids": [
+        "clavicle_anterior_mipo_questions_03"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "clavicle_anterior_mipo_positioning_01",
+      "text": "Position beach-chair or supine with the scapula supported and the arm mobile to restore clavicular length and alignment indirectly.",
+      "source_ids": [
+        "ao_3ef810dcbc0f50bb",
+        "pmid_36723629"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "clavicle_anterior_mipo_setup_01",
+      "text": "Template plate length and location before incision, prep the entire clavicle and arm, and ensure continuous fluoroscopic visualization of both ends and the fracture.",
+      "source_ids": [
+        "ao_3ef810dcbc0f50bb",
+        "pmid_36723629"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "clavicle_anterior_mipo_surface_landmarks_01",
+      "text": "Mark both clavicular ends, fracture zone, planned plate ends and holes, sternoclavicular and acromioclavicular joints, and supraclavicular nerve territory.",
+      "source_ids": [
+        "ao_3ef810dcbc0f50bb",
+        "pmid_36723629"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "clavicle_anterior_mipo_incision_01",
+      "text": "Make separate medial and lateral incisions approximately 2–3 cm long over the planned plate ends, adding only targeted stab incisions for screws or reduction tools.",
+      "source_ids": [
+        "ao_3ef810dcbc0f50bb",
+        "pmid_36723629"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "clavicle_anterior_mipo_superficial_interval_01",
+      "text": "Protect visible supraclavicular branches, open fascia locally, and create a blunt subcutaneous or epiperiosteal tunnel connecting the end windows.",
+      "source_ids": [
+        "ao_3ef810dcbc0f50bb",
+        "pmid_38464441"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "clavicle_anterior_mipo_deep_interval_01",
+      "text": "Pass the plate through the prepared tunnel without stripping the fracture zone, using a small direct fracture window only if indirect reduction fails.",
+      "source_ids": [
+        "ao_3ef810dcbc0f50bb",
+        "pmid_36723629"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "clavicle_anterior_mipo_layers_01",
+      "text": "Skin and subcutaneous tissue at two windows, supraclavicular nerve branches, local fascia and periosteum, blunt tunnel, then main clavicular fragments.",
+      "source_ids": [
+        "ao_3ef810dcbc0f50bb",
+        "pmid_36723629"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "clavicle_anterior_mipo_structures_encountered_01",
+      "text": "Supraclavicular nerves, platysma, clavipectoral fascia, periosteum and the medial and lateral main fragments are encountered; intermediate fragments remain covered.",
+      "source_ids": [
+        "ao_3ef810dcbc0f50bb",
+        "pmid_38464441"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "clavicle_anterior_mipo_structures_at_risk_01",
+      "text": "Supraclavicular nerves, subclavian vessels, brachial plexus, pleura, and skin over the tunneled plate are at risk.",
+      "source_ids": [
+        "ao_3ef810dcbc0f50bb",
+        "pmid_38464441"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "clavicle_anterior_mipo_danger_zones_01",
+      "text": "Tunnel and drill under controlled contact with bone; never pass instruments blindly deep to the clavicle or across the medial-middle junction.",
+      "source_ids": [
+        "ao_3ef810dcbc0f50bb",
+        "pmid_36723629"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "clavicle_anterior_mipo_retraction_hazards_01",
+      "text": "Avoid forceful retraction through short incisions, which can injure sensory branches or skin; extend a window when visualization is inadequate.",
+      "source_ids": [
+        "ao_3ef810dcbc0f50bb",
+        "pmid_38464441"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "clavicle_anterior_mipo_exposure_01",
+      "text": "Exposes the main fragments and plate endpoints while preserving fracture hematoma and soft-tissue attachments around comminution.",
+      "source_ids": [
+        "ao_3ef810dcbc0f50bb",
+        "pmid_36723629"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "clavicle_anterior_mipo_limitations_01",
+      "text": "Indirect reduction makes length, axis, and rotation harder to judge and is poorly suited when anatomic reduction of a simple fracture or direct debridement is essential.",
+      "source_ids": [
+        "ao_3ef810dcbc0f50bb",
+        "pmid_36723629"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "clavicle_anterior_mipo_extensions_01",
+      "text": "Add a limited fracture-site incision for a blocking fragment or irreducible deformity, or convert to the full open approach when safe reduction cannot be verified.",
+      "source_ids": [
+        "ao_3ef810dcbc0f50bb",
+        "pmid_36723629"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "clavicle_anterior_mipo_indications_01",
+      "text": "Best suited to selected multifragmentary midshaft fractures where relative stability and biologic preservation are desired; some simple patterns may qualify when soft-tissue considerations favor MIPO.",
+      "source_ids": [
+        "ao_3ef810dcbc0f50bb",
+        "pmid_36723629",
+        "pmid_38464441"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "clavicle_anterior_mipo_relative_contraindications_01",
+      "text": "Avoid for medial or lateral patterns outside the implant design, gross contamination, neurovascular exploration, or a simple pattern requiring direct anatomic compression when indirect control is unreliable.",
+      "source_ids": [
+        "ao_3ef810dcbc0f50bb",
+        "pmid_36723629"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "clavicle_anterior_mipo_implant_implications_01",
+      "text": "Use a sufficiently long bridge plate with balanced fixation in both main fragments, confirm plate centering, and protect deep structures during every percutaneous screw pass.",
+      "source_ids": [
+        "ao_3ef810dcbc0f50bb",
+        "pmid_36723629"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "clavicle_anterior_mipo_fluoroscopy_implications_01",
+      "text": "Imaging must confirm clavicular length, coronal and sagittal alignment, rotation, plate location, endpoint fixation, and safe screw lengths.",
+      "source_ids": [
+        "ao_3ef810dcbc0f50bb",
+        "pmid_36723629"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "clavicle_anterior_mipo_closure_01",
+      "text": "Close each fascial window securely over the plate, incorporating preserved periosteum when possible, then close skin without tension.",
+      "source_ids": [
+        "ao_3ef810dcbc0f50bb",
+        "pmid_38464441"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "clavicle_anterior_mipo_complications_01",
+      "text": "Complications include malalignment or shortening, supraclavicular numbness, vascular or plexus injury, pneumothorax, infection, nonunion, implant failure or prominence, and skin compromise.",
+      "source_ids": [
+        "ao_3ef810dcbc0f50bb",
+        "pmid_38464441",
+        "pmid_36723629"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "clavicle_anterior_mipo_bailouts_01",
+      "text": "If fluoroscopy cannot prove length and rotation or the plate cannot pass safely, open the fracture deliberately rather than persisting with blind tunneling.",
+      "source_ids": [
+        "ao_3ef810dcbc0f50bb",
+        "pmid_36723629"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "clavicle_anterior_mipo_questions_01",
+      "text": "How many principal incisions are used for clavicle MIPO?",
+      "source_ids": [
+        "ao_3ef810dcbc0f50bb"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "clavicle_anterior_mipo_questions_02",
+      "text": "What biology does MIPO preserve?",
+      "source_ids": [
+        "ao_3ef810dcbc0f50bb",
+        "pmid_36723629"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "clavicle_anterior_mipo_questions_03",
+      "text": "Which reduction parameters must be verified indirectly?",
+      "source_ids": [
+        "pmid_36723629"
+      ],
+      "risk_level": "medium"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "ao_3ef810dcbc0f50bb",
+      "provider": "AO Surgery Reference",
+      "title": "MIPO anterior approach to the clavicle",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/clavicle-fractures/approach/mipo---anterior-approach-to-the-clavicle",
+      "source_page_id": "ao_3ef810dcbc0f50bb"
+    },
+    {
+      "source_id": "pmid_38464441",
+      "provider": "PubMed",
+      "title": "Complications and clinical outcomes with MIPO for midshaft clavicle fractures",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38464441/"
+    },
+    {
+      "source_id": "pmid_36723629",
+      "provider": "PubMed",
+      "title": "Minimally invasive plate osteosynthesis for clavicle fractures",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/36723629/"
+    }
+  ],
+  "content_status": "agent_review_pending",
+  "review": {
+    "status": "agent_review_pending",
+    "required_roles": [
+      "adversarial_safety_reviewer",
+      "approach_anatomy_reviewer",
+      "educational_value_reviewer",
+      "evidence_reviewer",
+      "operative_exposure_reviewer",
+      "procedure_applicability_reviewer"
+    ],
+    "completed_roles": []
+  },
+  "resolved_contradiction_keys": [],
+  "authoring_provenance": {
+    "method": "local_codex_curated",
+    "definition_file": "data/approach_library/curated/clavicle_approaches_v1.json",
+    "api_used": false
+  }
+}

@@ -9,10 +9,8 @@ from caseprep.pipelines.packet_sections import (
     important_anatomy_pipeline,
     key_takeaways_block,
     operative_flow_pipeline,
-    pitfalls_pipeline,
     postop_pipeline,
     summary_block,
-    teaching_topics_pipeline,
     top_things_to_know_block,
 )
 
@@ -57,10 +55,8 @@ PAYLOAD = {
 }
 
 ALL_PIPELINES = (
-    teaching_topics_pipeline,
     important_anatomy_pipeline,
     attending_questions_pipeline,
-    pitfalls_pipeline,
     decision_points_pipeline,
     postop_pipeline,
     evidence_pipeline,
@@ -127,10 +123,6 @@ class PacketSectionContentTests(unittest.TestCase):
         items = postop_pipeline(PAYLOAD)["items"]
         self.assertEqual(len(items), 1)
         self.assertIn("postoperative", items[0]["question"].lower())
-
-    def test_teaching_topics_skips_boilerplate(self) -> None:
-        answers = [i["answer"] for i in teaching_topics_pipeline(PAYLOAD)["items"]]
-        self.assertEqual(answers, ["Trace the median nerve course through the carpal tunnel."])
 
     def test_top_things_capped_at_ten(self) -> None:
         self.assertLessEqual(len(top_things_to_know_block(PAYLOAD)["items"]), 10)

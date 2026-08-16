@@ -23,12 +23,13 @@ from caseprep.engines.v1_1_web import (
 )
 from caseprep.pipelines import packet_sections
 from caseprep.services import ai_fallback, curated_content_store, procedure_resolver
+from caseprep.services.packet_v3 import approach_decision_payload
 from caseprep.services.case_identity_v1_1 import build_case_identity, enrich_refined_query
 from caseprep.services.caseprep_assembler_v1_1 import collect_sources, high_yield_items
 from caseprep.services.rag_retrieval import retrieve_case_qas
 
 # Enrichment decorates a certified payload, but for an uncovered procedure it
-# *is* the anatomy / operative flow / pitfalls / postop content. A full gap-fill
+# *is* the anatomy / operative flow / postop content. A full gap-fill
 # pass (7 sections + pedagogy for 15 questions) measures ~25s, so the tighter
 # budget silently emptied seven sections of every uncertified packet. The
 # header and pimp questions still stream at ~3s, so the extra budget only
@@ -78,7 +79,8 @@ def build_packet_header(
     slug = identity.get("canonical_slug") or ""
     display_name = identity.get("canonical_name") or identity.get("requested_case") or ""
     procedure_type = _procedure_type(slug, display_name)
-    certified = bool(payload) and str(payload.get("case_prep_status")).lower() == "certified"
+    review = (payload or {}).get("review") or {}
+    certified = review.get("status") == "agent_reviewed"
 
     focus: List[str] = []
     if payload:
@@ -105,6 +107,10 @@ def build_packet_header(
     return {
         "display_name": display_name,
         "certified": certified,
+        "review_status": review.get("status") or "unreviewed",
+        "review_label": review.get("label") or ("Agent reviewed" if certified else "Unreviewed"),
+        "legacy_certification_migrated": bool(review.get("legacy_certification_migrated")),
+        "approach_coverage": (payload or {}).get("approach_coverage") or {},
         "procedure_type": procedure_type,
         "difficulty": _DIFFICULTY_BY_TYPE.get(procedure_type, "intermediate"),
         "pgy_level": _PGY_BY_TYPE.get(procedure_type, "PGY1-PGY3"),
@@ -255,6 +261,17 @@ async def stream_caseprep_packet(
         else None
     )
     yield protocol.header_event(identity, build_packet_header(identity, payload))
+    approach_decision = approach_decision_payload(prompt, payload)
+    if approach_decision.get("approaches"):
+        yield protocol.section_event(
+            "approach_decision",
+            status="complete",
+            payload=approach_decision,
+            source="curated",
+            confidence=None,
+        )
+        if approach_decision.get("status") == "choice_required":
+            warnings.append(str(approach_decision.get("message") or "Approach confirmation is needed."))
     yield protocol.progress_event(
         "assembling", "Loading the case essentials", 24, 38,
         elapsed_ms=int((time.monotonic() - started) * 1000),
@@ -369,8 +386,6 @@ async def stream_caseprep_packet(
     deterministic_pipelines = {
         "anatomy": packet_sections.important_anatomy_pipeline,
         "operative_flow": packet_sections.operative_flow_pipeline,
-        "teaching_topics": packet_sections.teaching_topics_pipeline,
-        "pitfalls": packet_sections.pitfalls_pipeline,
         "decision_points": packet_sections.decision_points_pipeline,
         "postop": packet_sections.postop_pipeline,
         "evidence": packet_sections.evidence_pipeline,
@@ -390,9 +405,9 @@ async def stream_caseprep_packet(
     # Enrichment-backed sections wait for the enrichment result; everything
     # else streams as soon as its pipeline completes. When no curated payload
     # exists, most sections are enrichment gap-fill targets too.
-    enrichment_sections = {"decision_points", "teaching_topics", "evidence"}
+    enrichment_sections = {"decision_points", "evidence"}
     if payload is None and cfg.enable_v1_1_enrichment:
-        enrichment_sections |= {"anatomy", "operative_flow", "pitfalls", "postop"}
+        enrichment_sections |= {"anatomy", "operative_flow", "postop"}
     held_for_enrichment: Dict[str, Dict[str, Any]] = {}
     curated_questions: Optional[Dict[str, Any]] = None
 
@@ -519,9 +534,7 @@ async def stream_caseprep_packet(
     ordered_enrichment_sections = (
         "anatomy",
         "operative_flow",
-        "teaching_topics",
         "decision_points",
-        "pitfalls",
         "postop",
         "evidence",
     )

@@ -1,0 +1,475 @@
+{
+  "schema_version": "brobot_approach_packet_v1",
+  "approach_id": "hip_anterior_smith_petersen",
+  "name": "Anterior hip approach (Smith-Petersen)",
+  "aliases": [
+    "Smith-Petersen approach",
+    "direct anterior hip approach"
+  ],
+  "region": "hip and proximal femur",
+  "joint": "hip",
+  "bones": [
+    "pelvis",
+    "proximal femur"
+  ],
+  "corridor": "Superficial interval between sartorius and tensor fasciae latae; deep interval between rectus femoris and gluteus medius",
+  "positioning": [
+    {
+      "text": "Position the patient supine on a radiolucent table; the setup should permit imaging and manipulation of the operative leg.",
+      "claim_ids": [
+        "hip_anterior_smith_petersen_positioning_01"
+      ]
+    }
+  ],
+  "setup": [
+    {
+      "text": "Prep and drape the limb so traction, rotation, and distal extension of the exposure remain possible.",
+      "claim_ids": [
+        "hip_anterior_smith_petersen_setup_01"
+      ]
+    }
+  ],
+  "surface_landmarks": [
+    {
+      "text": "Mark the anterior superior iliac spine and the course of the tensor fasciae latae before incision.",
+      "claim_ids": [
+        "hip_anterior_smith_petersen_surface_landmarks_01"
+      ]
+    }
+  ],
+  "incision": [
+    {
+      "text": "Begin just distal and lateral to the anterior superior iliac spine and extend distally in line with the tensor fasciae latae.",
+      "claim_ids": [
+        "hip_anterior_smith_petersen_incision_01"
+      ]
+    }
+  ],
+  "superficial_interval": [
+    {
+      "text": "Develop the internervous interval between sartorius (femoral nerve) medially and tensor fasciae latae (superior gluteal nerve) laterally.",
+      "claim_ids": [
+        "hip_anterior_smith_petersen_superficial_interval_01"
+      ]
+    }
+  ],
+  "deep_interval": [
+    {
+      "text": "Continue between rectus femoris medially and gluteus medius laterally to reach the anterior capsule.",
+      "claim_ids": [
+        "hip_anterior_smith_petersen_deep_interval_01"
+      ]
+    }
+  ],
+  "layers": [
+    {
+      "text": "Skin and subcutaneous tissue, tensor fascia, sartorius–tensor interval, rectus–gluteus interval, then anterior hip capsule.",
+      "claim_ids": [
+        "hip_anterior_smith_petersen_layers_01"
+      ]
+    }
+  ],
+  "structures_encountered": [
+    {
+      "text": "The ascending branch of the lateral femoral circumflex artery crosses the deep dissection and may require controlled ligation or coagulation.",
+      "claim_ids": [
+        "hip_anterior_smith_petersen_structures_encountered_01"
+      ]
+    }
+  ],
+  "structures_at_risk": [
+    {
+      "text": "The lateral femoral cutaneous nerve is vulnerable near the anterior superior iliac spine and medial edge of the tensor fasciae latae.",
+      "claim_ids": [
+        "hip_anterior_smith_petersen_structures_at_risk_01"
+      ]
+    },
+    {
+      "text": "The femoral nerve and vessels are endangered by deep or medially directed instrumentation and retractors.",
+      "claim_ids": [
+        "hip_anterior_smith_petersen_structures_at_risk_02"
+      ]
+    }
+  ],
+  "danger_zones": [
+    {
+      "text": "Keep the initial fascial opening lateral and protect the lateral femoral cutaneous nerve by avoiding aggressive medial subcutaneous dissection.",
+      "claim_ids": [
+        "hip_anterior_smith_petersen_danger_zones_01"
+      ]
+    }
+  ],
+  "retraction_hazards": [
+    {
+      "text": "Avoid placing sharp retractors intracapsularly along the superolateral femoral neck, where they may threaten retinacular blood supply to the femoral head.",
+      "claim_ids": [
+        "hip_anterior_smith_petersen_retraction_hazards_01"
+      ]
+    }
+  ],
+  "exposure": [
+    {
+      "text": "Provides direct anterior access to the hip capsule, femoral head and neck, and adjacent ilium; distal extension can increase access to the proximal femur.",
+      "claim_ids": [
+        "hip_anterior_smith_petersen_exposure_01"
+      ]
+    }
+  ],
+  "limitations": [
+    {
+      "text": "Femoral exposure and instrumentation can be demanding; fracture fixation may require an additional lateral incision or extension.",
+      "claim_ids": [
+        "hip_anterior_smith_petersen_limitations_01"
+      ]
+    }
+  ],
+  "extensions": [
+    {
+      "text": "Proximal extension follows the iliac crest; distal extension continues along the anterolateral thigh while preserving the relevant neurovascular structures.",
+      "claim_ids": [
+        "hip_anterior_smith_petersen_extensions_01"
+      ]
+    }
+  ],
+  "indications": [
+    {
+      "text": "Useful for anterior hip arthroplasty, open reduction requiring anterior capsular access, biopsy, drainage, and selected reconstructive procedures.",
+      "claim_ids": [
+        "hip_anterior_smith_petersen_indications_01"
+      ]
+    }
+  ],
+  "relative_contraindications": [
+    {
+      "text": "Use caution when required exposure or fixation cannot be achieved through the anterior corridor without unsafe traction or an unplanned second window.",
+      "claim_ids": [
+        "hip_anterior_smith_petersen_relative_contraindications_01"
+      ]
+    }
+  ],
+  "implant_implications": [
+    {
+      "text": "Plan a separate lateral window when the selected proximal-femoral implant cannot be inserted safely through the anterior exposure.",
+      "claim_ids": [
+        "hip_anterior_smith_petersen_implant_implications_01"
+      ]
+    }
+  ],
+  "fluoroscopy_implications": [
+    {
+      "text": "Supine positioning facilitates AP and lateral fluoroscopic assessment, but the drape and table must preserve unobstructed image access.",
+      "claim_ids": [
+        "hip_anterior_smith_petersen_fluoroscopy_implications_01"
+      ]
+    }
+  ],
+  "closure": [
+    {
+      "text": "Repair the capsule when indicated, restore any released rectus origin, and close tensor fascia without entrapping the lateral femoral cutaneous nerve.",
+      "claim_ids": [
+        "hip_anterior_smith_petersen_closure_01"
+      ]
+    }
+  ],
+  "complications": [
+    {
+      "text": "Approach-specific problems include lateral femoral cutaneous neuropraxia, femoral neurovascular injury, bleeding from lateral femoral circumflex branches, and inadequate femoral exposure.",
+      "claim_ids": [
+        "hip_anterior_smith_petersen_complications_01"
+      ]
+    }
+  ],
+  "bailouts": [
+    {
+      "text": "If femoral or implant access remains unsafe, stop forceful retraction and extend the exposure or add the planned lateral window.",
+      "claim_ids": [
+        "hip_anterior_smith_petersen_bailouts_01"
+      ]
+    }
+  ],
+  "procedure_applications": [
+    {
+      "procedure_id": "total_hip_arthroplasty",
+      "relationship": "primary_option",
+      "condition": "Direct anterior technique selected"
+    },
+    {
+      "procedure_id": "hip_hemiarthroplasty",
+      "relationship": "conditional_option",
+      "condition": "Anterior exposure selected and surgeon experienced with the approach"
+    },
+    {
+      "procedure_id": "femoral_neck_fracture_orif",
+      "relationship": "conditional_option",
+      "condition": "Open reduction or anterior capsular access is required"
+    },
+    {
+      "procedure_id": "hip_irrigation_and_debridement",
+      "relationship": "primary_option",
+      "condition": "Anterior joint access is appropriate"
+    }
+  ],
+  "questions": [
+    {
+      "question": "What is the superficial internervous plane in the Smith-Petersen approach?",
+      "answer": "Sartorius medially and tensor fasciae latae laterally.",
+      "claim_ids": [
+        "hip_anterior_smith_petersen_questions_01"
+      ]
+    },
+    {
+      "question": "Which sensory nerve is most vulnerable during the superficial dissection?",
+      "answer": "The lateral femoral cutaneous nerve.",
+      "claim_ids": [
+        "hip_anterior_smith_petersen_questions_02"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "hip_anterior_smith_petersen_positioning_01",
+      "text": "Position the patient supine on a radiolucent table; the setup should permit imaging and manipulation of the operative leg.",
+      "source_ids": [
+        "ao_b8234e68bf76e475",
+        "orthobullets_7a5b4f012205092d"
+      ],
+      "risk_level": "medium",
+      "claim_key": "smith_petersen_position",
+      "normalized_value": "supine"
+    },
+    {
+      "claim_id": "hip_anterior_smith_petersen_setup_01",
+      "text": "Prep and drape the limb so traction, rotation, and distal extension of the exposure remain possible.",
+      "source_ids": [
+        "ao_b8234e68bf76e475"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "hip_anterior_smith_petersen_surface_landmarks_01",
+      "text": "Mark the anterior superior iliac spine and the course of the tensor fasciae latae before incision.",
+      "source_ids": [
+        "ao_b8234e68bf76e475",
+        "orthobullets_7a5b4f012205092d"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "hip_anterior_smith_petersen_incision_01",
+      "text": "Begin just distal and lateral to the anterior superior iliac spine and extend distally in line with the tensor fasciae latae.",
+      "source_ids": [
+        "ao_b8234e68bf76e475",
+        "orthobullets_7a5b4f012205092d"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "hip_anterior_smith_petersen_superficial_interval_01",
+      "text": "Develop the internervous interval between sartorius (femoral nerve) medially and tensor fasciae latae (superior gluteal nerve) laterally.",
+      "source_ids": [
+        "ao_b8234e68bf76e475",
+        "orthobullets_7a5b4f012205092d"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "hip_anterior_smith_petersen_deep_interval_01",
+      "text": "Continue between rectus femoris medially and gluteus medius laterally to reach the anterior capsule.",
+      "source_ids": [
+        "ao_b8234e68bf76e475",
+        "orthobullets_7a5b4f012205092d"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "hip_anterior_smith_petersen_layers_01",
+      "text": "Skin and subcutaneous tissue, tensor fascia, sartorius–tensor interval, rectus–gluteus interval, then anterior hip capsule.",
+      "source_ids": [
+        "ao_b8234e68bf76e475",
+        "orthobullets_7a5b4f012205092d"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "hip_anterior_smith_petersen_structures_encountered_01",
+      "text": "The ascending branch of the lateral femoral circumflex artery crosses the deep dissection and may require controlled ligation or coagulation.",
+      "source_ids": [
+        "ao_b8234e68bf76e475",
+        "orthobullets_7a5b4f012205092d"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "hip_anterior_smith_petersen_structures_at_risk_01",
+      "text": "The lateral femoral cutaneous nerve is vulnerable near the anterior superior iliac spine and medial edge of the tensor fasciae latae.",
+      "source_ids": [
+        "ao_b8234e68bf76e475",
+        "orthobullets_7a5b4f012205092d"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "hip_anterior_smith_petersen_structures_at_risk_02",
+      "text": "The femoral nerve and vessels are endangered by deep or medially directed instrumentation and retractors.",
+      "source_ids": [
+        "ao_b8234e68bf76e475",
+        "orthobullets_7a5b4f012205092d"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "hip_anterior_smith_petersen_danger_zones_01",
+      "text": "Keep the initial fascial opening lateral and protect the lateral femoral cutaneous nerve by avoiding aggressive medial subcutaneous dissection.",
+      "source_ids": [
+        "ao_b8234e68bf76e475",
+        "orthobullets_7a5b4f012205092d"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "hip_anterior_smith_petersen_retraction_hazards_01",
+      "text": "Avoid placing sharp retractors intracapsularly along the superolateral femoral neck, where they may threaten retinacular blood supply to the femoral head.",
+      "source_ids": [
+        "ao_b8234e68bf76e475"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "hip_anterior_smith_petersen_exposure_01",
+      "text": "Provides direct anterior access to the hip capsule, femoral head and neck, and adjacent ilium; distal extension can increase access to the proximal femur.",
+      "source_ids": [
+        "ao_b8234e68bf76e475",
+        "orthobullets_7a5b4f012205092d"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "hip_anterior_smith_petersen_limitations_01",
+      "text": "Femoral exposure and instrumentation can be demanding; fracture fixation may require an additional lateral incision or extension.",
+      "source_ids": [
+        "ao_b8234e68bf76e475",
+        "orthobullets_7a5b4f012205092d"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "hip_anterior_smith_petersen_extensions_01",
+      "text": "Proximal extension follows the iliac crest; distal extension continues along the anterolateral thigh while preserving the relevant neurovascular structures.",
+      "source_ids": [
+        "orthobullets_7a5b4f012205092d"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "hip_anterior_smith_petersen_indications_01",
+      "text": "Useful for anterior hip arthroplasty, open reduction requiring anterior capsular access, biopsy, drainage, and selected reconstructive procedures.",
+      "source_ids": [
+        "ao_b8234e68bf76e475",
+        "orthobullets_7a5b4f012205092d"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "hip_anterior_smith_petersen_relative_contraindications_01",
+      "text": "Use caution when required exposure or fixation cannot be achieved through the anterior corridor without unsafe traction or an unplanned second window.",
+      "source_ids": [
+        "ao_b8234e68bf76e475"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "hip_anterior_smith_petersen_implant_implications_01",
+      "text": "Plan a separate lateral window when the selected proximal-femoral implant cannot be inserted safely through the anterior exposure.",
+      "source_ids": [
+        "ao_b8234e68bf76e475"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "hip_anterior_smith_petersen_fluoroscopy_implications_01",
+      "text": "Supine positioning facilitates AP and lateral fluoroscopic assessment, but the drape and table must preserve unobstructed image access.",
+      "source_ids": [
+        "ao_b8234e68bf76e475"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "hip_anterior_smith_petersen_closure_01",
+      "text": "Repair the capsule when indicated, restore any released rectus origin, and close tensor fascia without entrapping the lateral femoral cutaneous nerve.",
+      "source_ids": [
+        "ao_b8234e68bf76e475"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "hip_anterior_smith_petersen_complications_01",
+      "text": "Approach-specific problems include lateral femoral cutaneous neuropraxia, femoral neurovascular injury, bleeding from lateral femoral circumflex branches, and inadequate femoral exposure.",
+      "source_ids": [
+        "ao_b8234e68bf76e475",
+        "orthobullets_7a5b4f012205092d"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "hip_anterior_smith_petersen_bailouts_01",
+      "text": "If femoral or implant access remains unsafe, stop forceful retraction and extend the exposure or add the planned lateral window.",
+      "source_ids": [
+        "ao_b8234e68bf76e475"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "hip_anterior_smith_petersen_questions_01",
+      "text": "What is the superficial internervous plane in the Smith-Petersen approach?",
+      "source_ids": [
+        "ao_b8234e68bf76e475",
+        "orthobullets_7a5b4f012205092d"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "hip_anterior_smith_petersen_questions_02",
+      "text": "Which sensory nerve is most vulnerable during the superficial dissection?",
+      "source_ids": [
+        "ao_b8234e68bf76e475",
+        "orthobullets_7a5b4f012205092d"
+      ],
+      "risk_level": "medium"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "ao_b8234e68bf76e475",
+      "provider": "AO Surgery Reference",
+      "title": "Anterior approach (Smith-Petersen)",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/proximal-femur/approach/anterior-approach-smith-petersen",
+      "source_page_id": "ao_b8234e68bf76e475"
+    },
+    {
+      "source_id": "orthobullets_7a5b4f012205092d",
+      "provider": "Orthobullets",
+      "title": "Hip Anterior Approach (Smith-Petersen)",
+      "url": "https://www.orthobullets.com/approaches/12020/hip-anterior-approach-smith-petersen",
+      "source_page_id": "orthobullets_7a5b4f012205092d"
+    }
+  ],
+  "content_status": "agent_review_pending",
+  "review": {
+    "status": "agent_review_pending",
+    "required_roles": [
+      "adversarial_safety_reviewer",
+      "approach_anatomy_reviewer",
+      "educational_value_reviewer",
+      "evidence_reviewer",
+      "operative_exposure_reviewer",
+      "procedure_applicability_reviewer"
+    ],
+    "completed_roles": []
+  },
+  "resolved_contradiction_keys": [],
+  "authoring_provenance": {
+    "method": "local_codex_curated",
+    "definition_file": "data/approach_library/curated/hip_proximal_femur_v1.json",
+    "api_used": false
+  }
+}

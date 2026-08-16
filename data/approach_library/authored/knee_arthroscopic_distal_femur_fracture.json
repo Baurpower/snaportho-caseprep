@@ -1,0 +1,472 @@
+{
+  "schema_version": "brobot_approach_packet_v1",
+  "approach_id": "knee_arthroscopic_distal_femur_fracture",
+  "name": "Arthroscopic approach for selected distal femoral articular fractures",
+  "aliases": [
+    "arthroscopy-assisted distal femur fixation",
+    "knee arthroscopic fracture approach"
+  ],
+  "region": "knee and distal femoral articular surface",
+  "joint": "knee",
+  "bones": [
+    "distal femur",
+    "patella",
+    "proximal tibia"
+  ],
+  "corridor": "Standard anterolateral viewing and anteromedial working portals adjacent to the patellar tendon",
+  "positioning": [
+    {
+      "text": "Position supine with a thigh holder or post, the knee freely flexible, and the distal femur accessible for percutaneous fixation and fluoroscopy.",
+      "claim_ids": [
+        "knee_arthroscopic_distal_femur_fracture_positioning_01"
+      ]
+    }
+  ],
+  "setup": [
+    {
+      "text": "Use only with advanced arthroscopic expertise; prepare pump irrigation, full knee arthroscopy instruments, percutaneous fixation tools, and fluoroscopy before portal placement.",
+      "claim_ids": [
+        "knee_arthroscopic_distal_femur_fracture_setup_01"
+      ]
+    }
+  ],
+  "surface_landmarks": [
+    {
+      "text": "Mark patella, patellar tendon borders, medial and lateral joint lines, femoral condyles, and standard soft spots adjacent to the tendon.",
+      "claim_ids": [
+        "knee_arthroscopic_distal_femur_fracture_surface_landmarks_01"
+      ]
+    }
+  ],
+  "incision": [
+    {
+      "text": "Create approximately 5-mm anterolateral and anteromedial stab incisions at the palpated soft spots adjacent to the patellar tendon.",
+      "claim_ids": [
+        "knee_arthroscopic_distal_femur_fracture_incision_01"
+      ]
+    }
+  ],
+  "superficial_interval": [
+    {
+      "text": "Spread portal tracts bluntly through capsule while protecting skin nerves and the patellar tendon; establish the medial portal under direct arthroscopic control.",
+      "claim_ids": [
+        "knee_arthroscopic_distal_femur_fracture_superficial_interval_01"
+      ]
+    }
+  ],
+  "deep_interval": [
+    {
+      "text": "Insert the anterolateral cannula gently into the joint, replace the blunt trocar with the scope, clear hemarthrosis, and use the medial portal for probing and controlled instrumentation.",
+      "claim_ids": [
+        "knee_arthroscopic_distal_femur_fracture_deep_interval_01"
+      ]
+    }
+  ],
+  "layers": [
+    {
+      "text": "Skin, subcutaneous tissue, retinacular capsule at standard portals, synovium, then the knee articular cavity and distal femoral surface.",
+      "claim_ids": [
+        "knee_arthroscopic_distal_femur_fracture_layers_01"
+      ]
+    }
+  ],
+  "structures_encountered": [
+    {
+      "text": "Patellar tendon, fat pad, synovium, patellofemoral and tibiofemoral cartilage, menisci, cruciate ligaments, and fracture surface are examined.",
+      "claim_ids": [
+        "knee_arthroscopic_distal_femur_fracture_structures_encountered_01"
+      ]
+    }
+  ],
+  "structures_at_risk": [
+    {
+      "text": "Articular cartilage, menisci, cruciate ligaments, patellar tendon, portal-adjacent sensory branches, and posterior neurovascular structures are at risk.",
+      "claim_ids": [
+        "knee_arthroscopic_distal_femur_fracture_structures_at_risk_01"
+      ]
+    }
+  ],
+  "danger_zones": [
+    {
+      "text": "Never advance a sharp trocar or drill across the joint without direct visualization; monitor fluid extravasation because fracture planes can communicate with thigh compartments.",
+      "claim_ids": [
+        "knee_arthroscopic_distal_femur_fracture_danger_zones_01"
+      ]
+    }
+  ],
+  "retraction_hazards": [
+    {
+      "text": "Avoid forcing instruments against cartilage or using portal leverage to compensate for poor trajectory; create an accessory portal under visualization when required.",
+      "claim_ids": [
+        "knee_arthroscopic_distal_femur_fracture_retraction_hazards_01"
+      ]
+    }
+  ],
+  "exposure": [
+    {
+      "text": "Provides magnified assessment of articular reduction and permits a complete survey for meniscal, ligament, and osteochondral injuries with minimal arthrotomy.",
+      "claim_ids": [
+        "knee_arthroscopic_distal_femur_fracture_exposure_01"
+      ]
+    }
+  ],
+  "limitations": [
+    {
+      "text": "Recommended only for selected minimally displaced patterns; comminution, displaced columns, limited fixation options, and fluid extravasation constrain its use.",
+      "claim_ids": [
+        "knee_arthroscopic_distal_femur_fracture_limitations_01"
+      ]
+    }
+  ],
+  "extensions": [
+    {
+      "text": "Add image-guided accessory portals or convert to an open parapatellar or condylar exposure when direct reduction, buttressing, or fragment control is inadequate.",
+      "claim_ids": [
+        "knee_arthroscopic_distal_femur_fracture_extensions_01"
+      ]
+    }
+  ],
+  "indications": [
+    {
+      "text": "Consider for minimally or nondisplaced intra-articular distal femoral fractures in young patients when arthroscopy can verify congruity and associated soft-tissue injury.",
+      "claim_ids": [
+        "knee_arthroscopic_distal_femur_fracture_indications_01"
+      ]
+    }
+  ],
+  "relative_contraindications": [
+    {
+      "text": "Avoid in displaced or highly comminuted fractures requiring open reduction, major capsular disruption with uncontrolled extravasation, active infection, or when arthroscopic expertise is unavailable.",
+      "claim_ids": [
+        "knee_arthroscopic_distal_femur_fracture_relative_contraindications_01"
+      ]
+    }
+  ],
+  "implant_implications": [
+    {
+      "text": "Choose percutaneous screw trajectories that compress the fracture while remaining outside weight-bearing cartilage and clear of cruciate attachments and the notch.",
+      "claim_ids": [
+        "knee_arthroscopic_distal_femur_fracture_implant_implications_01"
+      ]
+    }
+  ],
+  "fluoroscopy_implications": [
+    {
+      "text": "Combine arthroscopic surface assessment with orthogonal and tangential imaging to verify fragment position, screw trajectory, length, and absence of intra-articular prominence.",
+      "claim_ids": [
+        "knee_arthroscopic_distal_femur_fracture_fluoroscopy_implications_01"
+      ]
+    }
+  ],
+  "closure": [
+    {
+      "text": "Drain irrigation fluid as appropriate, confirm hemostasis and compartment softness, and close portal skin incisions routinely.",
+      "claim_ids": [
+        "knee_arthroscopic_distal_femur_fracture_closure_01"
+      ]
+    }
+  ],
+  "complications": [
+    {
+      "text": "Complications include chondral injury, fluid extravasation and compartment syndrome, missed instability, infection, fixation loss, stiffness, neurovascular injury, and post-traumatic arthritis.",
+      "claim_ids": [
+        "knee_arthroscopic_distal_femur_fracture_complications_01"
+      ]
+    }
+  ],
+  "bailouts": [
+    {
+      "text": "If visualization deteriorates, extravasation progresses, or stable anatomic reduction cannot be obtained, stop pump inflow and convert promptly to the appropriate open exposure.",
+      "claim_ids": [
+        "knee_arthroscopic_distal_femur_fracture_bailouts_01"
+      ]
+    }
+  ],
+  "procedure_applications": [
+    {
+      "procedure_id": "distal_femur_fracture_orif",
+      "relationship": "conditional_option",
+      "condition": "A young patient has a minimally or nondisplaced articular fracture suitable for arthroscopy-assisted assessment and fixation by an experienced knee arthroscopist"
+    }
+  ],
+  "questions": [
+    {
+      "question": "Which fractures are candidates for this approach?",
+      "answer": "Selected minimally or nondisplaced articular fractures in young patients.",
+      "claim_ids": [
+        "knee_arthroscopic_distal_femur_fracture_questions_01"
+      ]
+    },
+    {
+      "question": "What examination must accompany fracture assessment?",
+      "answer": "A complete knee arthroscopy for meniscal, ligament, and osteochondral injuries.",
+      "claim_ids": [
+        "knee_arthroscopic_distal_femur_fracture_questions_02"
+      ]
+    },
+    {
+      "question": "Where are the standard portals?",
+      "answer": "At the anterolateral and anteromedial soft spots adjacent to the patellar tendon.",
+      "claim_ids": [
+        "knee_arthroscopic_distal_femur_fracture_questions_03"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "knee_arthroscopic_distal_femur_fracture_positioning_01",
+      "text": "Position supine with a thigh holder or post, the knee freely flexible, and the distal femur accessible for percutaneous fixation and fluoroscopy.",
+      "source_ids": [
+        "ao_83f3eb9cef6d29fc",
+        "pmid_21082166"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "knee_arthroscopic_distal_femur_fracture_setup_01",
+      "text": "Use only with advanced arthroscopic expertise; prepare pump irrigation, full knee arthroscopy instruments, percutaneous fixation tools, and fluoroscopy before portal placement.",
+      "source_ids": [
+        "ao_83f3eb9cef6d29fc",
+        "pmid_21082166"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "knee_arthroscopic_distal_femur_fracture_surface_landmarks_01",
+      "text": "Mark patella, patellar tendon borders, medial and lateral joint lines, femoral condyles, and standard soft spots adjacent to the tendon.",
+      "source_ids": [
+        "ao_83f3eb9cef6d29fc",
+        "pmid_21082166"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "knee_arthroscopic_distal_femur_fracture_incision_01",
+      "text": "Create approximately 5-mm anterolateral and anteromedial stab incisions at the palpated soft spots adjacent to the patellar tendon.",
+      "source_ids": [
+        "ao_83f3eb9cef6d29fc",
+        "pmid_21082166"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "knee_arthroscopic_distal_femur_fracture_superficial_interval_01",
+      "text": "Spread portal tracts bluntly through capsule while protecting skin nerves and the patellar tendon; establish the medial portal under direct arthroscopic control.",
+      "source_ids": [
+        "ao_83f3eb9cef6d29fc",
+        "pmid_21082166"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "knee_arthroscopic_distal_femur_fracture_deep_interval_01",
+      "text": "Insert the anterolateral cannula gently into the joint, replace the blunt trocar with the scope, clear hemarthrosis, and use the medial portal for probing and controlled instrumentation.",
+      "source_ids": [
+        "ao_83f3eb9cef6d29fc",
+        "pmid_21082166"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "knee_arthroscopic_distal_femur_fracture_layers_01",
+      "text": "Skin, subcutaneous tissue, retinacular capsule at standard portals, synovium, then the knee articular cavity and distal femoral surface.",
+      "source_ids": [
+        "ao_83f3eb9cef6d29fc",
+        "pmid_21082166"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "knee_arthroscopic_distal_femur_fracture_structures_encountered_01",
+      "text": "Patellar tendon, fat pad, synovium, patellofemoral and tibiofemoral cartilage, menisci, cruciate ligaments, and fracture surface are examined.",
+      "source_ids": [
+        "ao_83f3eb9cef6d29fc",
+        "pmid_21082166"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "knee_arthroscopic_distal_femur_fracture_structures_at_risk_01",
+      "text": "Articular cartilage, menisci, cruciate ligaments, patellar tendon, portal-adjacent sensory branches, and posterior neurovascular structures are at risk.",
+      "source_ids": [
+        "ao_83f3eb9cef6d29fc",
+        "pmid_21082166"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "knee_arthroscopic_distal_femur_fracture_danger_zones_01",
+      "text": "Never advance a sharp trocar or drill across the joint without direct visualization; monitor fluid extravasation because fracture planes can communicate with thigh compartments.",
+      "source_ids": [
+        "ao_83f3eb9cef6d29fc",
+        "pmid_21082166"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "knee_arthroscopic_distal_femur_fracture_retraction_hazards_01",
+      "text": "Avoid forcing instruments against cartilage or using portal leverage to compensate for poor trajectory; create an accessory portal under visualization when required.",
+      "source_ids": [
+        "ao_83f3eb9cef6d29fc",
+        "pmid_21082166"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "knee_arthroscopic_distal_femur_fracture_exposure_01",
+      "text": "Provides magnified assessment of articular reduction and permits a complete survey for meniscal, ligament, and osteochondral injuries with minimal arthrotomy.",
+      "source_ids": [
+        "ao_83f3eb9cef6d29fc",
+        "pmid_21082166"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "knee_arthroscopic_distal_femur_fracture_limitations_01",
+      "text": "Recommended only for selected minimally displaced patterns; comminution, displaced columns, limited fixation options, and fluid extravasation constrain its use.",
+      "source_ids": [
+        "ao_83f3eb9cef6d29fc",
+        "pmid_21082166",
+        "pmid_31460990"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "knee_arthroscopic_distal_femur_fracture_extensions_01",
+      "text": "Add image-guided accessory portals or convert to an open parapatellar or condylar exposure when direct reduction, buttressing, or fragment control is inadequate.",
+      "source_ids": [
+        "ao_83f3eb9cef6d29fc",
+        "pmid_21082166"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "knee_arthroscopic_distal_femur_fracture_indications_01",
+      "text": "Consider for minimally or nondisplaced intra-articular distal femoral fractures in young patients when arthroscopy can verify congruity and associated soft-tissue injury.",
+      "source_ids": [
+        "ao_83f3eb9cef6d29fc",
+        "pmid_21082166"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "knee_arthroscopic_distal_femur_fracture_relative_contraindications_01",
+      "text": "Avoid in displaced or highly comminuted fractures requiring open reduction, major capsular disruption with uncontrolled extravasation, active infection, or when arthroscopic expertise is unavailable.",
+      "source_ids": [
+        "ao_83f3eb9cef6d29fc",
+        "pmid_21082166"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "knee_arthroscopic_distal_femur_fracture_implant_implications_01",
+      "text": "Choose percutaneous screw trajectories that compress the fracture while remaining outside weight-bearing cartilage and clear of cruciate attachments and the notch.",
+      "source_ids": [
+        "ao_83f3eb9cef6d29fc",
+        "pmid_31460990"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "knee_arthroscopic_distal_femur_fracture_fluoroscopy_implications_01",
+      "text": "Combine arthroscopic surface assessment with orthogonal and tangential imaging to verify fragment position, screw trajectory, length, and absence of intra-articular prominence.",
+      "source_ids": [
+        "ao_83f3eb9cef6d29fc",
+        "pmid_21082166"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "knee_arthroscopic_distal_femur_fracture_closure_01",
+      "text": "Drain irrigation fluid as appropriate, confirm hemostasis and compartment softness, and close portal skin incisions routinely.",
+      "source_ids": [
+        "ao_83f3eb9cef6d29fc",
+        "pmid_21082166"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "knee_arthroscopic_distal_femur_fracture_complications_01",
+      "text": "Complications include chondral injury, fluid extravasation and compartment syndrome, missed instability, infection, fixation loss, stiffness, neurovascular injury, and post-traumatic arthritis.",
+      "source_ids": [
+        "ao_83f3eb9cef6d29fc",
+        "pmid_21082166",
+        "pmid_31460990"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "knee_arthroscopic_distal_femur_fracture_bailouts_01",
+      "text": "If visualization deteriorates, extravasation progresses, or stable anatomic reduction cannot be obtained, stop pump inflow and convert promptly to the appropriate open exposure.",
+      "source_ids": [
+        "ao_83f3eb9cef6d29fc",
+        "pmid_21082166"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "knee_arthroscopic_distal_femur_fracture_questions_01",
+      "text": "Which fractures are candidates for this approach?",
+      "source_ids": [
+        "ao_83f3eb9cef6d29fc"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "knee_arthroscopic_distal_femur_fracture_questions_02",
+      "text": "What examination must accompany fracture assessment?",
+      "source_ids": [
+        "ao_83f3eb9cef6d29fc"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "knee_arthroscopic_distal_femur_fracture_questions_03",
+      "text": "Where are the standard portals?",
+      "source_ids": [
+        "ao_83f3eb9cef6d29fc"
+      ],
+      "risk_level": "medium"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "ao_83f3eb9cef6d29fc",
+      "provider": "AO Surgery Reference",
+      "title": "Arthroscopic approach to the knee",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/distal-femur/approach/arthroscopic-approach-to-the-knee",
+      "source_page_id": "ao_83f3eb9cef6d29fc"
+    },
+    {
+      "source_id": "pmid_21082166",
+      "provider": "PubMed",
+      "title": "Arthroscopy-assisted fracture fixation",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/21082166/"
+    },
+    {
+      "source_id": "pmid_31460990",
+      "provider": "PubMed",
+      "title": "Surgical approaches and outcomes associated with intra-articular Hoffa fractures",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/31460990/"
+    }
+  ],
+  "content_status": "agent_review_pending",
+  "review": {
+    "status": "agent_review_pending",
+    "required_roles": [
+      "adversarial_safety_reviewer",
+      "approach_anatomy_reviewer",
+      "educational_value_reviewer",
+      "evidence_reviewer",
+      "operative_exposure_reviewer",
+      "procedure_applicability_reviewer"
+    ],
+    "completed_roles": []
+  },
+  "resolved_contradiction_keys": [],
+  "authoring_provenance": {
+    "method": "local_codex_curated",
+    "definition_file": "data/approach_library/curated/distal_femur_lateral_articular_approaches_v1.json",
+    "api_used": false
+  }
+}

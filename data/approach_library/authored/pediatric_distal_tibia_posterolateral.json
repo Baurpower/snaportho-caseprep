@@ -1,0 +1,473 @@
+{
+  "schema_version": "brobot_approach_packet_v1",
+  "approach_id": "pediatric_distal_tibia_posterolateral",
+  "name": "Pediatric posterolateral approach to the distal tibia",
+  "aliases": [
+    "pediatric posterior distal-tibia approach",
+    "pediatric posterolateral ankle approach"
+  ],
+  "region": "posterolateral distal leg and ankle",
+  "joint": "ankle",
+  "bones": [
+    "distal tibia",
+    "distal fibula",
+    "talus"
+  ],
+  "corridor": "Just lateral to Achilles, through medial border of peroneal muscles with peroneals retracted laterally to expose posterior tibia",
+  "positioning": [
+    {
+      "text": "Position prone or lateral with posterior ankle accessible and fluoroscopy preconfigured for AP, lateral, mortise, and oblique views.",
+      "claim_ids": [
+        "pediatric_distal_tibia_posterolateral_positioning_01"
+      ]
+    }
+  ],
+  "setup": [
+    {
+      "text": "Use CT to confirm posterior fragment morphology, mark physis and sural nerve course, and plan whether tibia alone or tibia and fibula require exposure.",
+      "claim_ids": [
+        "pediatric_distal_tibia_posterolateral_setup_01"
+      ]
+    }
+  ],
+  "surface_landmarks": [
+    {
+      "text": "Mark lateral Achilles border, fibular tip, distal-tibial and fibular physes, sural-nerve course, and posterior joint line.",
+      "claim_ids": [
+        "pediatric_distal_tibia_posterolateral_surface_landmarks_01"
+      ]
+    }
+  ],
+  "incision": [
+    {
+      "text": "Make a longitudinal incision approximately 0.5 cm lateral and parallel to lateral Achilles border, centered on posterior pathology.",
+      "claim_ids": [
+        "pediatric_distal_tibia_posterolateral_incision_01"
+      ]
+    }
+  ],
+  "superficial_interval": [
+    {
+      "text": "Raise full-thickness flaps, identify/protect sural nerve, and expose peroneal muscles.",
+      "claim_ids": [
+        "pediatric_distal_tibia_posterolateral_superficial_interval_01"
+      ]
+    }
+  ],
+  "deep_interval": [
+    {
+      "text": "Develop medial border of peroneal muscles and retract them laterally to expose posterior and posterolateral distal-tibial fragments.",
+      "claim_ids": [
+        "pediatric_distal_tibia_posterolateral_deep_interval_01"
+      ]
+    }
+  ],
+  "layers": [
+    {
+      "text": "Skin, sural-nerve plane, peroneal fascia, medial peroneal border, posterior periosteum/capsule, then posterior distal tibia.",
+      "claim_ids": [
+        "pediatric_distal_tibia_posterolateral_layers_01"
+      ]
+    }
+  ],
+  "structures_encountered": [
+    {
+      "text": "Sural nerve, short saphenous vein, peroneal muscles/tendons, Achilles tendon border, distal physes, posterior capsule, and posterior fragments are encountered.",
+      "claim_ids": [
+        "pediatric_distal_tibia_posterolateral_structures_encountered_01"
+      ]
+    }
+  ],
+  "structures_at_risk": [
+    {
+      "text": "Sural nerve, short saphenous vein, peroneal tendons, posterior tibial neurovascular structures medially, physes/perichondral rings, periosteum, and cartilage are at risk.",
+      "claim_ids": [
+        "pediatric_distal_tibia_posterolateral_structures_at_risk_01"
+      ]
+    }
+  ],
+  "danger_zones": [
+    {
+      "text": "Identify sural nerve before proximal extension and keep dissection immediately along medial peroneal border without drifting toward posteromedial bundle.",
+      "claim_ids": [
+        "pediatric_distal_tibia_posterolateral_danger_zones_01"
+      ]
+    }
+  ],
+  "retraction_hazards": [
+    {
+      "text": "Retract peroneals gently laterally and avoid forceful medial retraction or circumferential fragment/physeal stripping.",
+      "claim_ids": [
+        "pediatric_distal_tibia_posterolateral_retraction_hazards_01"
+      ]
+    }
+  ],
+  "exposure": [
+    {
+      "text": "Provides direct access to posterior and posterolateral distal-tibial fragments and can reach posterior distal fibula.",
+      "claim_ids": [
+        "pediatric_distal_tibia_posterolateral_exposure_01"
+      ]
+    }
+  ],
+  "limitations": [
+    {
+      "text": "Anterior and medial articular fragments are not directly visualized and posterior pediatric structures constrain medial extension.",
+      "claim_ids": [
+        "pediatric_distal_tibia_posterolateral_limitations_01"
+      ]
+    }
+  ],
+  "extensions": [
+    {
+      "text": "Extend along either side of identified sural nerve or add a separate fragment-directed anterior/medial incision when necessary.",
+      "claim_ids": [
+        "pediatric_distal_tibia_posterolateral_extensions_01"
+      ]
+    }
+  ],
+  "indications": [
+    {
+      "text": "Use for displaced posterior/posterolateral distal-tibial physeal or transitional fragments requiring direct reduction and buttress fixation.",
+      "claim_ids": [
+        "pediatric_distal_tibia_posterolateral_indications_01"
+      ]
+    }
+  ],
+  "relative_contraindications": [
+    {
+      "text": "Choose anterior or medial exposure for dominant nonposterior pathology or when posterior skin/positioning is unsafe.",
+      "claim_ids": [
+        "pediatric_distal_tibia_posterolateral_relative_contraindications_01"
+      ]
+    }
+  ],
+  "implant_implications": [
+    {
+      "text": "Use fragment-specific posterior fixation that avoids physis, joint, peroneal tendons, and posteromedial bundle; maintain enough soft-tissue coverage over hardware.",
+      "claim_ids": [
+        "pediatric_distal_tibia_posterolateral_implant_implications_01"
+      ]
+    }
+  ],
+  "fluoroscopy_implications": [
+    {
+      "text": "Confirm posterior reduction, physeal alignment, mortise congruity, and implant containment on AP, lateral, mortise, and oblique views.",
+      "claim_ids": [
+        "pediatric_distal_tibia_posterolateral_fluoroscopy_implications_01"
+      ]
+    }
+  ],
+  "closure": [
+    {
+      "text": "Return peroneal muscles anatomically, close deep fascia only without tension, ensure sural nerve is free, and close skin in layers.",
+      "claim_ids": [
+        "pediatric_distal_tibia_posterolateral_closure_01"
+      ]
+    }
+  ],
+  "complications": [
+    {
+      "text": "Complications include sural neuropathy, peroneal-tendon irritation, wound problems, physeal arrest, angular deformity, infection, stiffness, and post-traumatic arthritis.",
+      "claim_ids": [
+        "pediatric_distal_tibia_posterolateral_complications_01"
+      ]
+    }
+  ],
+  "bailouts": [
+    {
+      "text": "Add a separate fragment-directed incision when anterior/medial reduction cannot be confirmed rather than extending across protected posterior structures.",
+      "claim_ids": [
+        "pediatric_distal_tibia_posterolateral_bailouts_01"
+      ]
+    }
+  ],
+  "procedure_applications": [
+    {
+      "procedure_id": "pediatric_distal_tibia_physeal_fracture_orif",
+      "relationship": "conditional_option",
+      "condition": "A displaced posterior or posterolateral distal-tibial fragment requires direct reduction"
+    },
+    {
+      "procedure_id": "pediatric_distal_fibula_fracture_orif",
+      "relationship": "conditional_option",
+      "condition": "Posterior distal-fibular access is required with posterior tibial exposure"
+    }
+  ],
+  "questions": [
+    {
+      "question": "Where is incision relative to Achilles?",
+      "answer": "About 0.5 cm lateral and parallel to lateral Achilles border.",
+      "claim_ids": [
+        "pediatric_distal_tibia_posterolateral_questions_01"
+      ]
+    },
+    {
+      "question": "Which nerve must be protected?",
+      "answer": "The sural nerve.",
+      "claim_ids": [
+        "pediatric_distal_tibia_posterolateral_questions_02"
+      ]
+    },
+    {
+      "question": "Which direction are peroneals retracted?",
+      "answer": "Laterally.",
+      "claim_ids": [
+        "pediatric_distal_tibia_posterolateral_questions_03"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "pediatric_distal_tibia_posterolateral_positioning_01",
+      "text": "Position prone or lateral with posterior ankle accessible and fluoroscopy preconfigured for AP, lateral, mortise, and oblique views.",
+      "source_ids": [
+        "ao_721fac106595f83f",
+        "pmid_34377551"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "pediatric_distal_tibia_posterolateral_setup_01",
+      "text": "Use CT to confirm posterior fragment morphology, mark physis and sural nerve course, and plan whether tibia alone or tibia and fibula require exposure.",
+      "source_ids": [
+        "ao_721fac106595f83f",
+        "pmid_34377551"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "pediatric_distal_tibia_posterolateral_surface_landmarks_01",
+      "text": "Mark lateral Achilles border, fibular tip, distal-tibial and fibular physes, sural-nerve course, and posterior joint line.",
+      "source_ids": [
+        "ao_721fac106595f83f"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "pediatric_distal_tibia_posterolateral_incision_01",
+      "text": "Make a longitudinal incision approximately 0.5 cm lateral and parallel to lateral Achilles border, centered on posterior pathology.",
+      "source_ids": [
+        "ao_721fac106595f83f",
+        "pmid_28050532"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "pediatric_distal_tibia_posterolateral_superficial_interval_01",
+      "text": "Raise full-thickness flaps, identify/protect sural nerve, and expose peroneal muscles.",
+      "source_ids": [
+        "ao_721fac106595f83f",
+        "pmid_34377551"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "pediatric_distal_tibia_posterolateral_deep_interval_01",
+      "text": "Develop medial border of peroneal muscles and retract them laterally to expose posterior and posterolateral distal-tibial fragments.",
+      "source_ids": [
+        "ao_721fac106595f83f",
+        "pmid_28050532"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "pediatric_distal_tibia_posterolateral_layers_01",
+      "text": "Skin, sural-nerve plane, peroneal fascia, medial peroneal border, posterior periosteum/capsule, then posterior distal tibia.",
+      "source_ids": [
+        "ao_721fac106595f83f"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "pediatric_distal_tibia_posterolateral_structures_encountered_01",
+      "text": "Sural nerve, short saphenous vein, peroneal muscles/tendons, Achilles tendon border, distal physes, posterior capsule, and posterior fragments are encountered.",
+      "source_ids": [
+        "ao_721fac106595f83f",
+        "pmid_34377551"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "pediatric_distal_tibia_posterolateral_structures_at_risk_01",
+      "text": "Sural nerve, short saphenous vein, peroneal tendons, posterior tibial neurovascular structures medially, physes/perichondral rings, periosteum, and cartilage are at risk.",
+      "source_ids": [
+        "ao_721fac106595f83f",
+        "pmid_34377551"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "pediatric_distal_tibia_posterolateral_danger_zones_01",
+      "text": "Identify sural nerve before proximal extension and keep dissection immediately along medial peroneal border without drifting toward posteromedial bundle.",
+      "source_ids": [
+        "ao_721fac106595f83f",
+        "pmid_28050532"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "pediatric_distal_tibia_posterolateral_retraction_hazards_01",
+      "text": "Retract peroneals gently laterally and avoid forceful medial retraction or circumferential fragment/physeal stripping.",
+      "source_ids": [
+        "ao_721fac106595f83f",
+        "pmid_34377551"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "pediatric_distal_tibia_posterolateral_exposure_01",
+      "text": "Provides direct access to posterior and posterolateral distal-tibial fragments and can reach posterior distal fibula.",
+      "source_ids": [
+        "ao_721fac106595f83f",
+        "pmid_28050532"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "pediatric_distal_tibia_posterolateral_limitations_01",
+      "text": "Anterior and medial articular fragments are not directly visualized and posterior pediatric structures constrain medial extension.",
+      "source_ids": [
+        "ao_721fac106595f83f",
+        "pmid_34377551"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "pediatric_distal_tibia_posterolateral_extensions_01",
+      "text": "Extend along either side of identified sural nerve or add a separate fragment-directed anterior/medial incision when necessary.",
+      "source_ids": [
+        "ao_721fac106595f83f",
+        "pmid_28050532"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "pediatric_distal_tibia_posterolateral_indications_01",
+      "text": "Use for displaced posterior/posterolateral distal-tibial physeal or transitional fragments requiring direct reduction and buttress fixation.",
+      "source_ids": [
+        "ao_721fac106595f83f",
+        "pmid_34377551"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "pediatric_distal_tibia_posterolateral_relative_contraindications_01",
+      "text": "Choose anterior or medial exposure for dominant nonposterior pathology or when posterior skin/positioning is unsafe.",
+      "source_ids": [
+        "pmid_34377551",
+        "pmid_28050532"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "pediatric_distal_tibia_posterolateral_implant_implications_01",
+      "text": "Use fragment-specific posterior fixation that avoids physis, joint, peroneal tendons, and posteromedial bundle; maintain enough soft-tissue coverage over hardware.",
+      "source_ids": [
+        "ao_721fac106595f83f",
+        "pmid_34377551"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "pediatric_distal_tibia_posterolateral_fluoroscopy_implications_01",
+      "text": "Confirm posterior reduction, physeal alignment, mortise congruity, and implant containment on AP, lateral, mortise, and oblique views.",
+      "source_ids": [
+        "pmid_34377551",
+        "pmid_28050532"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "pediatric_distal_tibia_posterolateral_closure_01",
+      "text": "Return peroneal muscles anatomically, close deep fascia only without tension, ensure sural nerve is free, and close skin in layers.",
+      "source_ids": [
+        "ao_721fac106595f83f",
+        "pmid_28050532"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "pediatric_distal_tibia_posterolateral_complications_01",
+      "text": "Complications include sural neuropathy, peroneal-tendon irritation, wound problems, physeal arrest, angular deformity, infection, stiffness, and post-traumatic arthritis.",
+      "source_ids": [
+        "pmid_34377551",
+        "pmid_28050532"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "pediatric_distal_tibia_posterolateral_bailouts_01",
+      "text": "Add a separate fragment-directed incision when anterior/medial reduction cannot be confirmed rather than extending across protected posterior structures.",
+      "source_ids": [
+        "ao_721fac106595f83f",
+        "pmid_34377551"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "pediatric_distal_tibia_posterolateral_questions_01",
+      "text": "Where is incision relative to Achilles?",
+      "source_ids": [
+        "ao_721fac106595f83f"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "pediatric_distal_tibia_posterolateral_questions_02",
+      "text": "Which nerve must be protected?",
+      "source_ids": [
+        "ao_721fac106595f83f"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "pediatric_distal_tibia_posterolateral_questions_03",
+      "text": "Which direction are peroneals retracted?",
+      "source_ids": [
+        "ao_721fac106595f83f"
+      ],
+      "risk_level": "medium"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "ao_721fac106595f83f",
+      "provider": "AO Surgery Reference",
+      "title": "Posterolateral Approach",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/pediatric-trauma/distal-tibia-fibula/approach/posterolateral-approach",
+      "source_page_id": "ao_721fac106595f83f"
+    },
+    {
+      "source_id": "pmid_34377551",
+      "provider": "PubMed",
+      "title": "Ankle fractures in children",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/34377551/"
+    },
+    {
+      "source_id": "pmid_28050532",
+      "provider": "PubMed",
+      "title": "Foot and ankle fractures during childhood: review",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/28050532/"
+    }
+  ],
+  "content_status": "agent_review_pending",
+  "review": {
+    "status": "agent_review_pending",
+    "required_roles": [
+      "adversarial_safety_reviewer",
+      "approach_anatomy_reviewer",
+      "educational_value_reviewer",
+      "evidence_reviewer",
+      "operative_exposure_reviewer",
+      "procedure_applicability_reviewer"
+    ],
+    "completed_roles": []
+  },
+  "resolved_contradiction_keys": [],
+  "authoring_provenance": {
+    "method": "local_codex_curated",
+    "definition_file": "data/approach_library/curated/pediatric_distal_tibia_lateral_mipo_posterior_v1.json",
+    "api_used": false
+  }
+}

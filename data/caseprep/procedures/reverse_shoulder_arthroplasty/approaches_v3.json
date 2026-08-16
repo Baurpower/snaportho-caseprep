@@ -1,0 +1,61 @@
+{
+  "schema_version": "caseprep_approaches_v3",
+  "approaches": [
+    {
+      "approach_id": "approach_shoulder_deltopectoral",
+      "name": "Deltopectoral",
+      "role": "workhorse_option",
+      "content_status": "curated",
+      "selection_indications": ["Common extensile exposure for primary reverse shoulder arthroplasty and the AO-recommended exposure for fracture reverse arthroplasty."],
+      "selection_limitations": ["Subscapularis management and repair depend on implant design, tissue quality, and surgeon plan."],
+      "positioning": ["Beach-chair positioning is commonly used; AO notes supine positioning may be used in selected conversion settings."],
+      "exposure": ["Develop the deltopectoral interval, protect the cephalic vein, mobilize the conjoint tendon judiciously, and manage the subscapularis/capsule according to the operative plan."],
+      "layers": [],
+      "landmarks": ["Coracoid", "Deltopectoral groove", "Cephalic vein", "Conjoint tendon", "Subscapularis"],
+      "structures_at_risk": [
+        {"structure": "Musculocutaneous nerve", "risk_phase": "Conjoint tendon retraction", "protection": "Avoid prolonged or excessive medial retraction."},
+        {"structure": "Axillary nerve", "risk_phase": "Inferior capsular release and humeral/glenoid exposure", "protection": "Maintain awareness of its inferior course and avoid blind inferior dissection."}
+      ],
+      "pitfalls": ["Excessive conjoint tendon retraction", "Inadequate protection of the axillary nerve during inferior release"],
+      "questions": [
+        "Q: What is the superficial interval? A: The deltopectoral interval, with deliberate management of the cephalic vein.",
+        "Q: Which nerve is threatened by aggressive conjoint tendon retraction? A: The musculocutaneous nerve."
+      ],
+      "source_urls": [
+        "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/proximal-humerus/extraarticular-3-part-surgical-neck-and-lesser-tuberosity-impaction/reverse-arthroplasty",
+        "https://www.orthobullets.com/approaches/12061/shoulder-anterior-deltopectoral-approach"
+      ],
+      "review_status": "agent_review_pending",
+      "review_evidence": [],
+      "coverage_notes": "Fracture reverse arthroplasty adds tuberosity-specific exposure and repair priorities."
+    },
+    {
+      "approach_id": "approach_shoulder_lateral_deltoid_split",
+      "name": "Anterolateral / superolateral deltoid split",
+      "role": "alternative",
+      "content_status": "curated",
+      "selection_indications": ["Alternative exposure used by some surgeons and implant workflows."],
+      "selection_limitations": ["Axillary nerve and deltoid injury are defining concerns; AO does not recommend it for fracture reverse arthroplasty."],
+      "positioning": ["Positioning and incision vary with the selected anterolateral or superolateral technique."],
+      "exposure": ["Split the deltoid in line with its fibers only within a defined safe extent and maintain direct awareness of the axillary nerve."],
+      "layers": [],
+      "landmarks": ["Acromion", "Deltoid raphe", "Axillary nerve course"],
+      "structures_at_risk": [
+        {"structure": "Axillary nerve", "risk_phase": "Distal extension of the deltoid split", "protection": "Limit and control the split; identify or palpate the nerve when the exposure requires it."},
+        {"structure": "Deltoid", "risk_phase": "Exposure and closure", "protection": "Preserve deltoid origin and continuity because reverse arthroplasty depends on deltoid function."}
+      ],
+      "pitfalls": ["Extending the split into the axillary nerve", "Compromising deltoid integrity"],
+      "questions": [
+        "Q: Why is deltoid preservation particularly important in reverse arthroplasty? A: Reverse mechanics rely on a functioning deltoid for elevation.",
+        "Q: What is the defining neurologic risk of a deltoid split? A: Axillary nerve injury from distal extension or retraction."
+      ],
+      "source_urls": [
+        "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/proximal-humerus/extraarticular-3-part-surgical-neck-and-lesser-tuberosity-impaction/reverse-arthroplasty",
+        "https://www.orthobullets.com/recon/12000/reverse-shoulder-arthroplasty"
+      ],
+      "review_status": "agent_review_pending",
+      "review_evidence": [],
+      "coverage_notes": "Alternative approach; the case context must distinguish elective primary RSA from fracture RSA."
+    }
+  ]
+}

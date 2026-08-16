@@ -1,0 +1,473 @@
+{
+  "schema_version": "brobot_approach_packet_v1",
+  "approach_id": "carpometacarpal_joints_dorsal",
+  "name": "Dorsal approach to the finger carpometacarpal joints",
+  "aliases": [
+    "dorsal CMC approach",
+    "dorsal metacarpal-base approach"
+  ],
+  "region": "dorsal hand and carpometacarpal joints",
+  "joint": "second through fifth carpometacarpal joints",
+  "bones": [
+    "metacarpal bases",
+    "trapezoid",
+    "capitate",
+    "hamate"
+  ],
+  "corridor": "Longitudinal dorsal interval between extensor tendons centered over the injured CMC joint or joint cluster",
+  "positioning": [
+    {
+      "text": "Position supine with the hand pronated on a radiolucent table and fingers free for rotational assessment and fluoroscopy.",
+      "claim_ids": [
+        "carpometacarpal_joints_dorsal_positioning_01"
+      ]
+    }
+  ],
+  "setup": [
+    {
+      "text": "Prepare the full hand and wrist, assess all adjacent CMC joints, and ensure PA, lateral, and oblique imaging because overlapping anatomy can conceal malalignment.",
+      "claim_ids": [
+        "carpometacarpal_joints_dorsal_setup_01"
+      ]
+    }
+  ],
+  "surface_landmarks": [
+    {
+      "text": "Mark affected metacarpal shafts and bases, neighboring CMC joints, extensor tendon paths, and planned wire exit zones.",
+      "claim_ids": [
+        "carpometacarpal_joints_dorsal_surface_landmarks_01"
+      ]
+    }
+  ],
+  "incision": [
+    {
+      "text": "Use a longitudinal incision from the metacarpal base toward the proximal carpal row between extensor tendons, centered over the affected joint or between multiple involved joints.",
+      "claim_ids": [
+        "carpometacarpal_joints_dorsal_incision_01"
+      ]
+    }
+  ],
+  "superficial_interval": [
+    {
+      "text": "Protect dorsal sensory branches and longitudinal veins, identify intertendinous connections, and mobilize extensor tendons with their loose surrounding tissue radially or ulnarly.",
+      "claim_ids": [
+        "carpometacarpal_joints_dorsal_superficial_interval_01"
+      ]
+    }
+  ],
+  "deep_interval": [
+    {
+      "text": "Use the traumatic capsular rent in acute injuries or perform a limited formal capsulotomy in partially healed or chronic cases to remove blocks and restore the CMC articulation.",
+      "claim_ids": [
+        "carpometacarpal_joints_dorsal_deep_interval_01"
+      ]
+    }
+  ],
+  "layers": [
+    {
+      "text": "Skin, dorsal sensory branches and veins, extensor tendon interval with juncturae, dorsal capsule, then metacarpal base and distal carpal row.",
+      "claim_ids": [
+        "carpometacarpal_joints_dorsal_layers_01"
+      ]
+    }
+  ],
+  "structures_encountered": [
+    {
+      "text": "Dorsal veins, radial and ulnar sensory branches, extensor tendons and juncturae, dorsal CMC capsule, metacarpal bases, and distal carpal row are encountered.",
+      "claim_ids": [
+        "carpometacarpal_joints_dorsal_structures_encountered_01"
+      ]
+    }
+  ],
+  "structures_at_risk": [
+    {
+      "text": "Dorsal sensory nerves, extensor tendons and intertendinous connections, CMC cartilage, and nearby deep motor or vascular structures are at risk from dissection and fixation.",
+      "claim_ids": [
+        "carpometacarpal_joints_dorsal_structures_at_risk_01"
+      ]
+    }
+  ],
+  "danger_zones": [
+    {
+      "text": "Retract radial sensory branches radially and ulnar sensory branches ulnarly; enlarge exposure rather than stretching a nerve across the operative field.",
+      "claim_ids": [
+        "carpometacarpal_joints_dorsal_danger_zones_01"
+      ]
+    }
+  ],
+  "retraction_hazards": [
+    {
+      "text": "Avoid focal traction on sensory branches and preserve tendon gliding by retracting tendons with their surrounding tissue and minimizing central wire-tendon conflict.",
+      "claim_ids": [
+        "carpometacarpal_joints_dorsal_retraction_hazards_01"
+      ]
+    }
+  ],
+  "exposure": [
+    {
+      "text": "Provides direct visualization of one or several dorsal CMC joints to remove interposed tissue, reduce articular fragments, and stabilize the metacarpal bases.",
+      "claim_ids": [
+        "carpometacarpal_joints_dorsal_exposure_01"
+      ]
+    }
+  ],
+  "limitations": [
+    {
+      "text": "A single narrow interval may not safely expose widely separated radial and ulnar injuries, and volar pathology or neurovascular compression may require a separate approach.",
+      "claim_ids": [
+        "carpometacarpal_joints_dorsal_limitations_01"
+      ]
+    }
+  ],
+  "extensions": [
+    {
+      "text": "Lengthen proximally and distally or use separate tendon-respecting windows for multiple joints rather than excessive transverse undermining.",
+      "claim_ids": [
+        "carpometacarpal_joints_dorsal_extensions_01"
+      ]
+    }
+  ],
+  "indications": [
+    {
+      "text": "Use for irreducible, unstable, delayed, or multiply injured finger CMC dislocations and fracture-dislocations requiring direct reduction or fixation.",
+      "claim_ids": [
+        "carpometacarpal_joints_dorsal_indications_01"
+      ]
+    }
+  ],
+  "relative_contraindications": [
+    {
+      "text": "Open exposure is unnecessary when early closed reduction is anatomic, stable, and maintainable without tendon or nerve compromise.",
+      "claim_ids": [
+        "carpometacarpal_joints_dorsal_relative_contraindications_01"
+      ]
+    }
+  ],
+  "implant_implications": [
+    {
+      "text": "Place K-wires or screws to stabilize the injured ray to a stable adjacent metacarpal or carpus while avoiding central extensor-tendon tethering and articular penetration.",
+      "claim_ids": [
+        "carpometacarpal_joints_dorsal_implant_implications_01"
+      ]
+    }
+  ],
+  "fluoroscopy_implications": [
+    {
+      "text": "Use true lateral plus PA and oblique views to confirm parallel CMC joint lines, restoration of metacarpal cascade, articular reduction, and safe hardware.",
+      "claim_ids": [
+        "carpometacarpal_joints_dorsal_fluoroscopy_implications_01"
+      ]
+    }
+  ],
+  "closure": [
+    {
+      "text": "Repair the capsule with nonabsorbable suture, repair any divided intertendinous connection, verify tendon glide, and close skin without nerve entrapment.",
+      "claim_ids": [
+        "carpometacarpal_joints_dorsal_closure_01"
+      ]
+    }
+  ],
+  "complications": [
+    {
+      "text": "Complications include missed residual dislocation, reduction loss, sensory neurapraxia or neuroma, extensor adhesion, stiffness, pin infection, post-traumatic arthritis, and weakness.",
+      "claim_ids": [
+        "carpometacarpal_joints_dorsal_complications_01"
+      ]
+    }
+  ],
+  "bailouts": [
+    {
+      "text": "If one incision cannot safely expose multiple joints, use an additional tendon-respecting window; if reduction remains blocked, directly identify the interposed capsule, tendon, or fracture fragment.",
+      "claim_ids": [
+        "carpometacarpal_joints_dorsal_bailouts_01"
+      ]
+    }
+  ],
+  "procedure_applications": [
+    {
+      "procedure_id": "finger_cmc_fracture_dislocation_orif",
+      "relationship": "primary_option",
+      "condition": "A second-through-fifth CMC dislocation or fracture-dislocation is irreducible, unstable, chronic, or blocked by interposed tissue"
+    }
+  ],
+  "questions": [
+    {
+      "question": "What determines incision placement for multiple CMC injuries?",
+      "answer": "It is centered between the affected joints while respecting extensor tendons.",
+      "claim_ids": [
+        "carpometacarpal_joints_dorsal_questions_01"
+      ]
+    },
+    {
+      "question": "Which superficial structures require protection?",
+      "answer": "Dorsal sensory nerve branches and longitudinal veins.",
+      "claim_ids": [
+        "carpometacarpal_joints_dorsal_questions_02"
+      ]
+    },
+    {
+      "question": "What must be repaired if divided during exposure?",
+      "answer": "The dorsal capsule and any cut intertendinous connection.",
+      "claim_ids": [
+        "carpometacarpal_joints_dorsal_questions_03"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "carpometacarpal_joints_dorsal_positioning_01",
+      "text": "Position supine with the hand pronated on a radiolucent table and fingers free for rotational assessment and fluoroscopy.",
+      "source_ids": [
+        "ao_ff90094dc3e2b188",
+        "pmid_32684693"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "carpometacarpal_joints_dorsal_setup_01",
+      "text": "Prepare the full hand and wrist, assess all adjacent CMC joints, and ensure PA, lateral, and oblique imaging because overlapping anatomy can conceal malalignment.",
+      "source_ids": [
+        "ao_ff90094dc3e2b188",
+        "pmid_32684693"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "carpometacarpal_joints_dorsal_surface_landmarks_01",
+      "text": "Mark affected metacarpal shafts and bases, neighboring CMC joints, extensor tendon paths, and planned wire exit zones.",
+      "source_ids": [
+        "ao_ff90094dc3e2b188",
+        "pmid_32684693"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "carpometacarpal_joints_dorsal_incision_01",
+      "text": "Use a longitudinal incision from the metacarpal base toward the proximal carpal row between extensor tendons, centered over the affected joint or between multiple involved joints.",
+      "source_ids": [
+        "ao_ff90094dc3e2b188",
+        "pmid_32684693"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "carpometacarpal_joints_dorsal_superficial_interval_01",
+      "text": "Protect dorsal sensory branches and longitudinal veins, identify intertendinous connections, and mobilize extensor tendons with their loose surrounding tissue radially or ulnarly.",
+      "source_ids": [
+        "ao_ff90094dc3e2b188",
+        "pmid_32684693"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "carpometacarpal_joints_dorsal_deep_interval_01",
+      "text": "Use the traumatic capsular rent in acute injuries or perform a limited formal capsulotomy in partially healed or chronic cases to remove blocks and restore the CMC articulation.",
+      "source_ids": [
+        "ao_ff90094dc3e2b188",
+        "pmid_32684693"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "carpometacarpal_joints_dorsal_layers_01",
+      "text": "Skin, dorsal sensory branches and veins, extensor tendon interval with juncturae, dorsal capsule, then metacarpal base and distal carpal row.",
+      "source_ids": [
+        "ao_ff90094dc3e2b188",
+        "pmid_32684693"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "carpometacarpal_joints_dorsal_structures_encountered_01",
+      "text": "Dorsal veins, radial and ulnar sensory branches, extensor tendons and juncturae, dorsal CMC capsule, metacarpal bases, and distal carpal row are encountered.",
+      "source_ids": [
+        "ao_ff90094dc3e2b188",
+        "pmid_32684693"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "carpometacarpal_joints_dorsal_structures_at_risk_01",
+      "text": "Dorsal sensory nerves, extensor tendons and intertendinous connections, CMC cartilage, and nearby deep motor or vascular structures are at risk from dissection and fixation.",
+      "source_ids": [
+        "ao_ff90094dc3e2b188",
+        "pmid_32684693"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "carpometacarpal_joints_dorsal_danger_zones_01",
+      "text": "Retract radial sensory branches radially and ulnar sensory branches ulnarly; enlarge exposure rather than stretching a nerve across the operative field.",
+      "source_ids": [
+        "ao_ff90094dc3e2b188",
+        "pmid_32684693"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "carpometacarpal_joints_dorsal_retraction_hazards_01",
+      "text": "Avoid focal traction on sensory branches and preserve tendon gliding by retracting tendons with their surrounding tissue and minimizing central wire-tendon conflict.",
+      "source_ids": [
+        "ao_ff90094dc3e2b188",
+        "pmid_32684693"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "carpometacarpal_joints_dorsal_exposure_01",
+      "text": "Provides direct visualization of one or several dorsal CMC joints to remove interposed tissue, reduce articular fragments, and stabilize the metacarpal bases.",
+      "source_ids": [
+        "ao_ff90094dc3e2b188",
+        "pmid_32684693"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "carpometacarpal_joints_dorsal_limitations_01",
+      "text": "A single narrow interval may not safely expose widely separated radial and ulnar injuries, and volar pathology or neurovascular compression may require a separate approach.",
+      "source_ids": [
+        "ao_ff90094dc3e2b188",
+        "pmid_32684693"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "carpometacarpal_joints_dorsal_extensions_01",
+      "text": "Lengthen proximally and distally or use separate tendon-respecting windows for multiple joints rather than excessive transverse undermining.",
+      "source_ids": [
+        "ao_ff90094dc3e2b188",
+        "pmid_32684693"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "carpometacarpal_joints_dorsal_indications_01",
+      "text": "Use for irreducible, unstable, delayed, or multiply injured finger CMC dislocations and fracture-dislocations requiring direct reduction or fixation.",
+      "source_ids": [
+        "ao_ff90094dc3e2b188",
+        "pmid_32684693",
+        "pmid_29411672"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "carpometacarpal_joints_dorsal_relative_contraindications_01",
+      "text": "Open exposure is unnecessary when early closed reduction is anatomic, stable, and maintainable without tendon or nerve compromise.",
+      "source_ids": [
+        "ao_ff90094dc3e2b188",
+        "pmid_29411672"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "carpometacarpal_joints_dorsal_implant_implications_01",
+      "text": "Place K-wires or screws to stabilize the injured ray to a stable adjacent metacarpal or carpus while avoiding central extensor-tendon tethering and articular penetration.",
+      "source_ids": [
+        "ao_ff90094dc3e2b188",
+        "pmid_32684693"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "carpometacarpal_joints_dorsal_fluoroscopy_implications_01",
+      "text": "Use true lateral plus PA and oblique views to confirm parallel CMC joint lines, restoration of metacarpal cascade, articular reduction, and safe hardware.",
+      "source_ids": [
+        "ao_ff90094dc3e2b188",
+        "pmid_32684693"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "carpometacarpal_joints_dorsal_closure_01",
+      "text": "Repair the capsule with nonabsorbable suture, repair any divided intertendinous connection, verify tendon glide, and close skin without nerve entrapment.",
+      "source_ids": [
+        "ao_ff90094dc3e2b188",
+        "pmid_32684693"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "carpometacarpal_joints_dorsal_complications_01",
+      "text": "Complications include missed residual dislocation, reduction loss, sensory neurapraxia or neuroma, extensor adhesion, stiffness, pin infection, post-traumatic arthritis, and weakness.",
+      "source_ids": [
+        "ao_ff90094dc3e2b188",
+        "pmid_32684693",
+        "pmid_29411672"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "carpometacarpal_joints_dorsal_bailouts_01",
+      "text": "If one incision cannot safely expose multiple joints, use an additional tendon-respecting window; if reduction remains blocked, directly identify the interposed capsule, tendon, or fracture fragment.",
+      "source_ids": [
+        "ao_ff90094dc3e2b188",
+        "pmid_32684693"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "carpometacarpal_joints_dorsal_questions_01",
+      "text": "What determines incision placement for multiple CMC injuries?",
+      "source_ids": [
+        "ao_ff90094dc3e2b188"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "carpometacarpal_joints_dorsal_questions_02",
+      "text": "Which superficial structures require protection?",
+      "source_ids": [
+        "ao_ff90094dc3e2b188"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "carpometacarpal_joints_dorsal_questions_03",
+      "text": "What must be repaired if divided during exposure?",
+      "source_ids": [
+        "ao_ff90094dc3e2b188"
+      ],
+      "risk_level": "medium"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "ao_ff90094dc3e2b188",
+      "provider": "AO Surgery Reference",
+      "title": "Dorsal approach to the carpometacarpal joints",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/carpal-bones/approach/dorsal-approach-to-the-carpometacarpal-joints",
+      "source_page_id": "ao_ff90094dc3e2b188"
+    },
+    {
+      "source_id": "pmid_32684693",
+      "provider": "PubMed",
+      "title": "Fracture dislocations of the carpometacarpal joints of the fingers",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/32684693/"
+    },
+    {
+      "source_id": "pmid_29411672",
+      "provider": "PubMed",
+      "title": "Management of fracture-dislocations of the little finger carpometacarpal joint",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/29411672/"
+    }
+  ],
+  "content_status": "agent_review_pending",
+  "review": {
+    "status": "agent_review_pending",
+    "required_roles": [
+      "adversarial_safety_reviewer",
+      "approach_anatomy_reviewer",
+      "educational_value_reviewer",
+      "evidence_reviewer",
+      "operative_exposure_reviewer",
+      "procedure_applicability_reviewer"
+    ],
+    "completed_roles": []
+  },
+  "resolved_contradiction_keys": [],
+  "authoring_provenance": {
+    "method": "local_codex_curated",
+    "definition_file": "data/approach_library/curated/carpal_approaches_v1.json",
+    "api_used": false
+  }
+}

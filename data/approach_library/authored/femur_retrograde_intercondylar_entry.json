@@ -1,0 +1,477 @@
+{
+  "schema_version": "brobot_approach_packet_v1",
+  "approach_id": "femur_retrograde_intercondylar_entry",
+  "name": "Retrograde femoral nailing through the intercondylar notch",
+  "aliases": [
+    "retrograde distal femoral nail approach",
+    "intercondylar femoral nail entry"
+  ],
+  "region": "knee and distal femoral canal",
+  "joint": "knee",
+  "bones": [
+    "distal femur",
+    "femoral shaft"
+  ],
+  "corridor": "Small infrapatellar medial-paratendinous or transpatellar route to an intercondylar start aligned with Blumensaat line",
+  "positioning": [
+    {
+      "text": "Position supine with the knee flexed about 30 degrees over a radiolucent support, allowing true AP and lateral imaging from the notch through the fracture.",
+      "claim_ids": [
+        "femur_retrograde_intercondylar_entry_positioning_01"
+      ]
+    }
+  ],
+  "setup": [
+    {
+      "text": "Prep the full limb, assess knee contamination and prior implants, plan reduction, and verify that the intercondylar notch and Blumensaat line are visible.",
+      "claim_ids": [
+        "femur_retrograde_intercondylar_entry_setup_01"
+      ]
+    }
+  ],
+  "surface_landmarks": [
+    {
+      "text": "Mark patellar borders, inferior pole, patellar tendon, tibial plateau, joint line, femoral axis, and fluoroscopic Blumensaat line.",
+      "claim_ids": [
+        "femur_retrograde_intercondylar_entry_surface_landmarks_01"
+      ]
+    }
+  ],
+  "incision": [
+    {
+      "text": "Make an approximately 2-cm longitudinal midline incision just distal to the inferior patellar pole over the patellar tendon.",
+      "claim_ids": [
+        "femur_retrograde_intercondylar_entry_incision_01"
+      ]
+    }
+  ],
+  "superficial_interval": [
+    {
+      "text": "Spread medial parapatellar tissues longitudinally and gently retract the patellar tendon laterally, or use a controlled tendon split when indicated.",
+      "claim_ids": [
+        "femur_retrograde_intercondylar_entry_superficial_interval_01"
+      ]
+    }
+  ],
+  "deep_interval": [
+    {
+      "text": "Enter the intercondylar notch at the canal axis: centered on AP and in line with Blumensaat line laterally, anterior and lateral to the PCL femoral attachment.",
+      "claim_ids": [
+        "femur_retrograde_intercondylar_entry_deep_interval_01"
+      ]
+    }
+  ],
+  "layers": [
+    {
+      "text": "Skin, infrapatellar soft tissue, medial paratendinous interval or tendon split, joint capsule and synovium, intercondylar cartilage entry, then distal femoral canal.",
+      "claim_ids": [
+        "femur_retrograde_intercondylar_entry_layers_01"
+      ]
+    }
+  ],
+  "structures_encountered": [
+    {
+      "text": "Patellar tendon, infrapatellar fat and synovium, trochlear/intercondylar cartilage, ACL and PCL attachment regions, notch, and distal femoral canal are encountered.",
+      "claim_ids": [
+        "femur_retrograde_intercondylar_entry_structures_encountered_01"
+      ]
+    }
+  ],
+  "structures_at_risk": [
+    {
+      "text": "ACL, PCL attachment, weight-bearing cartilage, patellar tendon, tibial plateau, and popliteal neurovascular structures are at risk.",
+      "claim_ids": [
+        "femur_retrograde_intercondylar_entry_structures_at_risk_01"
+      ]
+    }
+  ],
+  "danger_zones": [
+    {
+      "text": "A start posterior to Blumensaat line threatens the ACL, an anterior or off-center start injures cartilage or drives malalignment, and uncontrolled posterior plunging threatens the popliteal bundle.",
+      "claim_ids": [
+        "femur_retrograde_intercondylar_entry_danger_zones_01"
+      ]
+    }
+  ],
+  "retraction_hazards": [
+    {
+      "text": "Retract the patellar tendon gently and avoid levering sleeves against cartilage; adjust knee flexion rather than forcing the guidewire past patella or tibial plateau.",
+      "claim_ids": [
+        "femur_retrograde_intercondylar_entry_retraction_hazards_01"
+      ]
+    }
+  ],
+  "exposure": [
+    {
+      "text": "Provides direct access from the intercondylar notch into the distal femoral canal with minimal fracture-site dissection.",
+      "claim_ids": [
+        "femur_retrograde_intercondylar_entry_exposure_01"
+      ]
+    }
+  ],
+  "limitations": [
+    {
+      "text": "The approach violates the knee joint and may contribute to anterior knee pain; the wide metaphyseal canal can permit varus-valgus or sagittal malalignment.",
+      "claim_ids": [
+        "femur_retrograde_intercondylar_entry_limitations_01"
+      ]
+    }
+  ],
+  "extensions": [
+    {
+      "text": "Enlarge the parapatellar interval for direct notch visualization or add limited fracture reduction and blocking techniques when metaphyseal alignment cannot be controlled.",
+      "claim_ids": [
+        "femur_retrograde_intercondylar_entry_extensions_01"
+      ]
+    }
+  ],
+  "indications": [
+    {
+      "text": "Use for selected distal femoral and shaft fractures, including compatible periprosthetic patterns, when sufficient distal bone and an accessible intercondylar box permit stable fixation.",
+      "claim_ids": [
+        "femur_retrograde_intercondylar_entry_indications_01"
+      ]
+    }
+  ],
+  "relative_contraindications": [
+    {
+      "text": "Avoid with active knee sepsis, incompatible femoral components or closed box, inadequate distal segment, open contaminated knee injury, or articular anatomy preventing a safe start.",
+      "claim_ids": [
+        "femur_retrograde_intercondylar_entry_relative_contraindications_01"
+      ]
+    }
+  ],
+  "implant_implications": [
+    {
+      "text": "Select nail length and distal fixation for the fracture and any arthroplasty stem, countersink the nail beneath cartilage, and use blocking strategies when the metaphyseal canal does not guide alignment.",
+      "claim_ids": [
+        "femur_retrograde_intercondylar_entry_implant_implications_01"
+      ]
+    }
+  ],
+  "fluoroscopy_implications": [
+    {
+      "text": "Every start-point step requires AP and lateral fluoroscopy; verify central notch entry, Blumensaat alignment, fracture length and axes, nail depth, and locking-screw safety.",
+      "claim_ids": [
+        "femur_retrograde_intercondylar_entry_fluoroscopy_implications_01"
+      ]
+    }
+  ],
+  "closure": [
+    {
+      "text": "Irrigate the knee thoroughly to remove drilling debris, repair tendon or paratendinous tissues and capsule, and close skin in layers.",
+      "claim_ids": [
+        "femur_retrograde_intercondylar_entry_closure_01"
+      ]
+    }
+  ],
+  "complications": [
+    {
+      "text": "Complications include ACL or cartilage injury, knee pain and stiffness, septic arthritis, patellar-tendon injury, malalignment, popliteal injury, nonunion, and hardware prominence.",
+      "claim_ids": [
+        "femur_retrograde_intercondylar_entry_complications_01"
+      ]
+    }
+  ],
+  "bailouts": [
+    {
+      "text": "If the start cannot be proven safe or the distal segment cannot be aligned, stop reaming, improve direct visualization and reduction, add blocking fixation, or convert to plating.",
+      "claim_ids": [
+        "femur_retrograde_intercondylar_entry_bailouts_01"
+      ]
+    }
+  ],
+  "procedure_applications": [
+    {
+      "procedure_id": "distal_femur_fracture_intramedullary_nailing",
+      "relationship": "primary_option",
+      "condition": "A distal femoral or selected shaft fracture is suitable for retrograde fixation and the knee and implant environment permit intercondylar entry"
+    }
+  ],
+  "questions": [
+    {
+      "question": "Where is the retrograde start on the lateral view?",
+      "answer": "In line with Blumensaat line, not posterior to it.",
+      "claim_ids": [
+        "femur_retrograde_intercondylar_entry_questions_01"
+      ]
+    },
+    {
+      "question": "Where is it relative to the PCL attachment?",
+      "answer": "Anterior and lateral to the proximal PCL attachment.",
+      "claim_ids": [
+        "femur_retrograde_intercondylar_entry_questions_02"
+      ]
+    },
+    {
+      "question": "Why is about 30 degrees of knee flexion used?",
+      "answer": "Less flexion lets the tibial plateau obstruct entry; greater flexion brings the patella and articular surface into danger.",
+      "claim_ids": [
+        "femur_retrograde_intercondylar_entry_questions_03"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "femur_retrograde_intercondylar_entry_positioning_01",
+      "text": "Position supine with the knee flexed about 30 degrees over a radiolucent support, allowing true AP and lateral imaging from the notch through the fracture.",
+      "source_ids": [
+        "ao_67fdc2fb630b0bbf",
+        "pmid_25365899"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "femur_retrograde_intercondylar_entry_setup_01",
+      "text": "Prep the full limb, assess knee contamination and prior implants, plan reduction, and verify that the intercondylar notch and Blumensaat line are visible.",
+      "source_ids": [
+        "ao_67fdc2fb630b0bbf",
+        "pmid_38057606"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "femur_retrograde_intercondylar_entry_surface_landmarks_01",
+      "text": "Mark patellar borders, inferior pole, patellar tendon, tibial plateau, joint line, femoral axis, and fluoroscopic Blumensaat line.",
+      "source_ids": [
+        "ao_67fdc2fb630b0bbf",
+        "pmid_25365899"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "femur_retrograde_intercondylar_entry_incision_01",
+      "text": "Make an approximately 2-cm longitudinal midline incision just distal to the inferior patellar pole over the patellar tendon.",
+      "source_ids": [
+        "ao_67fdc2fb630b0bbf",
+        "pmid_25365899"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "femur_retrograde_intercondylar_entry_superficial_interval_01",
+      "text": "Spread medial parapatellar tissues longitudinally and gently retract the patellar tendon laterally, or use a controlled tendon split when indicated.",
+      "source_ids": [
+        "ao_67fdc2fb630b0bbf",
+        "pmid_25365899"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "femur_retrograde_intercondylar_entry_deep_interval_01",
+      "text": "Enter the intercondylar notch at the canal axis: centered on AP and in line with Blumensaat line laterally, anterior and lateral to the PCL femoral attachment.",
+      "source_ids": [
+        "ao_67fdc2fb630b0bbf",
+        "pmid_25365899"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "femur_retrograde_intercondylar_entry_layers_01",
+      "text": "Skin, infrapatellar soft tissue, medial paratendinous interval or tendon split, joint capsule and synovium, intercondylar cartilage entry, then distal femoral canal.",
+      "source_ids": [
+        "ao_67fdc2fb630b0bbf",
+        "pmid_25365899"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "femur_retrograde_intercondylar_entry_structures_encountered_01",
+      "text": "Patellar tendon, infrapatellar fat and synovium, trochlear/intercondylar cartilage, ACL and PCL attachment regions, notch, and distal femoral canal are encountered.",
+      "source_ids": [
+        "ao_67fdc2fb630b0bbf",
+        "pmid_25365899"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "femur_retrograde_intercondylar_entry_structures_at_risk_01",
+      "text": "ACL, PCL attachment, weight-bearing cartilage, patellar tendon, tibial plateau, and popliteal neurovascular structures are at risk.",
+      "source_ids": [
+        "ao_67fdc2fb630b0bbf",
+        "pmid_25365899"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "femur_retrograde_intercondylar_entry_danger_zones_01",
+      "text": "A start posterior to Blumensaat line threatens the ACL, an anterior or off-center start injures cartilage or drives malalignment, and uncontrolled posterior plunging threatens the popliteal bundle.",
+      "source_ids": [
+        "ao_67fdc2fb630b0bbf",
+        "pmid_25365899"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "femur_retrograde_intercondylar_entry_retraction_hazards_01",
+      "text": "Retract the patellar tendon gently and avoid levering sleeves against cartilage; adjust knee flexion rather than forcing the guidewire past patella or tibial plateau.",
+      "source_ids": [
+        "ao_67fdc2fb630b0bbf",
+        "pmid_25365899"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "femur_retrograde_intercondylar_entry_exposure_01",
+      "text": "Provides direct access from the intercondylar notch into the distal femoral canal with minimal fracture-site dissection.",
+      "source_ids": [
+        "ao_67fdc2fb630b0bbf",
+        "pmid_38057606"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "femur_retrograde_intercondylar_entry_limitations_01",
+      "text": "The approach violates the knee joint and may contribute to anterior knee pain; the wide metaphyseal canal can permit varus-valgus or sagittal malalignment.",
+      "source_ids": [
+        "ao_67fdc2fb630b0bbf",
+        "pmid_38057606"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "femur_retrograde_intercondylar_entry_extensions_01",
+      "text": "Enlarge the parapatellar interval for direct notch visualization or add limited fracture reduction and blocking techniques when metaphyseal alignment cannot be controlled.",
+      "source_ids": [
+        "ao_67fdc2fb630b0bbf",
+        "pmid_38057606"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "femur_retrograde_intercondylar_entry_indications_01",
+      "text": "Use for selected distal femoral and shaft fractures, including compatible periprosthetic patterns, when sufficient distal bone and an accessible intercondylar box permit stable fixation.",
+      "source_ids": [
+        "ao_67fdc2fb630b0bbf",
+        "pmid_38057606"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "femur_retrograde_intercondylar_entry_relative_contraindications_01",
+      "text": "Avoid with active knee sepsis, incompatible femoral components or closed box, inadequate distal segment, open contaminated knee injury, or articular anatomy preventing a safe start.",
+      "source_ids": [
+        "ao_67fdc2fb630b0bbf",
+        "pmid_38057606"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "femur_retrograde_intercondylar_entry_implant_implications_01",
+      "text": "Select nail length and distal fixation for the fracture and any arthroplasty stem, countersink the nail beneath cartilage, and use blocking strategies when the metaphyseal canal does not guide alignment.",
+      "source_ids": [
+        "ao_67fdc2fb630b0bbf",
+        "pmid_38057606"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "femur_retrograde_intercondylar_entry_fluoroscopy_implications_01",
+      "text": "Every start-point step requires AP and lateral fluoroscopy; verify central notch entry, Blumensaat alignment, fracture length and axes, nail depth, and locking-screw safety.",
+      "source_ids": [
+        "ao_67fdc2fb630b0bbf",
+        "pmid_25365899"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "femur_retrograde_intercondylar_entry_closure_01",
+      "text": "Irrigate the knee thoroughly to remove drilling debris, repair tendon or paratendinous tissues and capsule, and close skin in layers.",
+      "source_ids": [
+        "ao_67fdc2fb630b0bbf",
+        "pmid_38057606"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "femur_retrograde_intercondylar_entry_complications_01",
+      "text": "Complications include ACL or cartilage injury, knee pain and stiffness, septic arthritis, patellar-tendon injury, malalignment, popliteal injury, nonunion, and hardware prominence.",
+      "source_ids": [
+        "ao_67fdc2fb630b0bbf",
+        "pmid_38057606",
+        "pmid_25365899"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "femur_retrograde_intercondylar_entry_bailouts_01",
+      "text": "If the start cannot be proven safe or the distal segment cannot be aligned, stop reaming, improve direct visualization and reduction, add blocking fixation, or convert to plating.",
+      "source_ids": [
+        "ao_67fdc2fb630b0bbf",
+        "pmid_38057606"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "femur_retrograde_intercondylar_entry_questions_01",
+      "text": "Where is the retrograde start on the lateral view?",
+      "source_ids": [
+        "ao_67fdc2fb630b0bbf"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "femur_retrograde_intercondylar_entry_questions_02",
+      "text": "Where is it relative to the PCL attachment?",
+      "source_ids": [
+        "ao_67fdc2fb630b0bbf"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "femur_retrograde_intercondylar_entry_questions_03",
+      "text": "Why is about 30 degrees of knee flexion used?",
+      "source_ids": [
+        "ao_67fdc2fb630b0bbf"
+      ],
+      "risk_level": "medium"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "ao_67fdc2fb630b0bbf",
+      "provider": "AO Surgery Reference",
+      "title": "Retrograde nailing approach",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/femoral-shaft/approach/retrograde-nailing-approach",
+      "source_page_id": "ao_67fdc2fb630b0bbf"
+    },
+    {
+      "source_id": "ao_cce7e866dc5ff6df",
+      "provider": "AO Surgery Reference",
+      "title": "Retrograde Nailing Approach",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/distal-femur/approach/retrograde-nailing-approach",
+      "source_page_id": "ao_cce7e866dc5ff6df"
+    },
+    {
+      "source_id": "pmid_38057606",
+      "provider": "PubMed",
+      "title": "Retrograde nailing versus distal femoral plating",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38057606/"
+    },
+    {
+      "source_id": "pmid_25365899",
+      "provider": "PubMed",
+      "title": "Optional entry point for retrograde femoral nailing",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/25365899/"
+    }
+  ],
+  "content_status": "agent_review_pending",
+  "review": {
+    "status": "agent_review_pending",
+    "required_roles": [
+      "adversarial_safety_reviewer",
+      "approach_anatomy_reviewer",
+      "educational_value_reviewer",
+      "evidence_reviewer",
+      "operative_exposure_reviewer",
+      "procedure_applicability_reviewer"
+    ],
+    "completed_roles": []
+  },
+  "resolved_contradiction_keys": [],
+  "authoring_provenance": {
+    "method": "local_codex_curated",
+    "definition_file": "data/approach_library/curated/femoral_nailing_approaches_v1.json",
+    "api_used": false
+  }
+}

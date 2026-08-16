@@ -1,0 +1,468 @@
+{
+  "schema_version": "brobot_approach_packet_v1",
+  "approach_id": "pediatric_femur_antegrade_esin_entry",
+  "name": "Pediatric antegrade ESIN entry approach to the femur",
+  "aliases": [
+    "antegrade elastic nail entry",
+    "proximal lateral femoral ESIN entry"
+  ],
+  "region": "pediatric proximal lateral femur",
+  "joint": "hip",
+  "bones": [
+    "proximal femur",
+    "femoral shaft"
+  ],
+  "corridor": "Lateral trochanteric incision to paired anterolateral metaphyseal entry points distal to the greater-trochanteric physis",
+  "positioning": [
+    {
+      "text": "Position supine on a radiolucent table with the proximal lateral femur accessible and the entire femur imageable.",
+      "claim_ids": [
+        "pediatric_femur_antegrade_esin_entry_positioning_01"
+      ]
+    }
+  ],
+  "setup": [
+    {
+      "text": "Template nail diameter, contour, entry separation, and distance from the greater-trochanteric physis before incision.",
+      "claim_ids": [
+        "pediatric_femur_antegrade_esin_entry_setup_01"
+      ]
+    }
+  ],
+  "surface_landmarks": [
+    {
+      "text": "Mark greater trochanter, its physis under fluoroscopy, lesser trochanter, femoral shaft axis, and planned paired lateral entries.",
+      "claim_ids": [
+        "pediatric_femur_antegrade_esin_entry_surface_landmarks_01"
+      ]
+    }
+  ],
+  "incision": [
+    {
+      "text": "Make a 3-5 cm lateral trochanteric incision extending proximally from the planned entries to permit angled nail advancement.",
+      "claim_ids": [
+        "pediatric_femur_antegrade_esin_entry_incision_01"
+      ]
+    }
+  ],
+  "superficial_interval": [
+    {
+      "text": "Spread fascia and lateral muscle fibers bluntly to the anterolateral femoral cortex.",
+      "claim_ids": [
+        "pediatric_femur_antegrade_esin_entry_superficial_interval_01"
+      ]
+    }
+  ],
+  "deep_interval": [
+    {
+      "text": "Create two controlled lateral metaphyseal entries 0.5-1 cm distal to the trochanteric physis, separated at least 2 cm axially and 1 cm on the lateral plane.",
+      "claim_ids": [
+        "pediatric_femur_antegrade_esin_entry_deep_interval_01"
+      ]
+    }
+  ],
+  "layers": [
+    {
+      "text": "Skin, subcutaneous tissue, fascia lata, lateral muscle, periosteum, then proximal femoral metaphyseal cortex.",
+      "claim_ids": [
+        "pediatric_femur_antegrade_esin_entry_layers_01"
+      ]
+    }
+  ],
+  "structures_encountered": [
+    {
+      "text": "Fascia lata, abductor-vastus region, greater-trochanteric physis, proximal metaphysis, and medullary canal are encountered.",
+      "claim_ids": [
+        "pediatric_femur_antegrade_esin_entry_structures_encountered_01"
+      ]
+    }
+  ],
+  "structures_at_risk": [
+    {
+      "text": "Greater-trochanteric physis, proximal femoral cortex, abductors, lateral femoral cutaneous branches, and femoral-neck blood supply are at risk.",
+      "claim_ids": [
+        "pediatric_femur_antegrade_esin_entry_structures_at_risk_01"
+      ]
+    }
+  ],
+  "danger_zones": [
+    {
+      "text": "Entries too close together can split the cortex; proximal or medial misplacement risks the physis or femoral neck.",
+      "claim_ids": [
+        "pediatric_femur_antegrade_esin_entry_danger_zones_01"
+      ]
+    }
+  ],
+  "retraction_hazards": [
+    {
+      "text": "Use blunt spreading rather than aggressive muscle stripping and protect soft tissue from rotating nail ends.",
+      "claim_ids": [
+        "pediatric_femur_antegrade_esin_entry_retraction_hazards_01"
+      ]
+    }
+  ],
+  "exposure": [
+    {
+      "text": "Provides paired antegrade elastic-nail access while avoiding the distal fracture and knee.",
+      "claim_ids": [
+        "pediatric_femur_antegrade_esin_entry_exposure_01"
+      ]
+    }
+  ],
+  "limitations": [
+    {
+      "text": "Requires adequate proximal metaphyseal space, appropriate fracture pattern, and careful growth-plate localization.",
+      "claim_ids": [
+        "pediatric_femur_antegrade_esin_entry_limitations_01"
+      ]
+    }
+  ],
+  "extensions": [
+    {
+      "text": "Lengthen the lateral incision for direct cortical control rather than creating an uncertain percutaneous entry.",
+      "claim_ids": [
+        "pediatric_femur_antegrade_esin_entry_extensions_01"
+      ]
+    }
+  ],
+  "indications": [
+    {
+      "text": "Use for selected pediatric femoral fractures treated with paired antegrade ESIN, including distal patterns where retrograde entry is unsuitable.",
+      "claim_ids": [
+        "pediatric_femur_antegrade_esin_entry_indications_01"
+      ]
+    }
+  ],
+  "relative_contraindications": [
+    {
+      "text": "Avoid when proximal anatomy cannot safely accommodate two separated entries or fracture size and stability exceed ESIN capability.",
+      "claim_ids": [
+        "pediatric_femur_antegrade_esin_entry_relative_contraindications_01"
+      ]
+    }
+  ],
+  "implant_implications": [
+    {
+      "text": "Use two appropriately contoured nails with separated entries and balanced opposing forces; avoid prominent ends that irritate lateral tissues.",
+      "claim_ids": [
+        "pediatric_femur_antegrade_esin_entry_implant_implications_01"
+      ]
+    }
+  ],
+  "fluoroscopy_implications": [
+    {
+      "text": "Confirm physis, entry separation, cortical integrity, canal trajectory, reduction, and nail-end position on orthogonal views.",
+      "claim_ids": [
+        "pediatric_femur_antegrade_esin_entry_fluoroscopy_implications_01"
+      ]
+    }
+  ],
+  "closure": [
+    {
+      "text": "Confirm hemostasis and nonprominent nail ends, repair fascia as needed, then close subcutaneous tissue and skin.",
+      "claim_ids": [
+        "pediatric_femur_antegrade_esin_entry_closure_01"
+      ]
+    }
+  ],
+  "complications": [
+    {
+      "text": "Complications include cortical split, physeal injury, malalignment, nail migration or irritation, infection, loss of fixation, and growth disturbance.",
+      "claim_ids": [
+        "pediatric_femur_antegrade_esin_entry_complications_01"
+      ]
+    }
+  ],
+  "bailouts": [
+    {
+      "text": "If entry placement or cortex is unsafe, stop, enlarge exposure, revise entry strategy, or choose another fixation construct.",
+      "claim_ids": [
+        "pediatric_femur_antegrade_esin_entry_bailouts_01"
+      ]
+    }
+  ],
+  "procedure_applications": [
+    {
+      "procedure_id": "pediatric_distal_femur_fracture_fixation",
+      "relationship": "conditional_option",
+      "condition": "A pediatric distal-femur or shaft pattern is selected for two-nail antegrade elastic stable intramedullary fixation"
+    }
+  ],
+  "questions": [
+    {
+      "question": "Where are the usual entries?",
+      "answer": "On the lateral proximal femur, 0.5-1 cm distal to the greater-trochanteric physis.",
+      "claim_ids": [
+        "pediatric_femur_antegrade_esin_entry_questions_01"
+      ]
+    },
+    {
+      "question": "How far apart should they be?",
+      "answer": "At least 2 cm axially and 1 cm on the lateral plane.",
+      "claim_ids": [
+        "pediatric_femur_antegrade_esin_entry_questions_02"
+      ]
+    },
+    {
+      "question": "Why avoid closely spaced entries?",
+      "answer": "They can split the cortex during nail insertion.",
+      "claim_ids": [
+        "pediatric_femur_antegrade_esin_entry_questions_03"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "pediatric_femur_antegrade_esin_entry_positioning_01",
+      "text": "Position supine on a radiolucent table with the proximal lateral femur accessible and the entire femur imageable.",
+      "source_ids": [
+        "ao_b02d6f5815846e1c",
+        "pmid_26528014"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "pediatric_femur_antegrade_esin_entry_setup_01",
+      "text": "Template nail diameter, contour, entry separation, and distance from the greater-trochanteric physis before incision.",
+      "source_ids": [
+        "ao_b02d6f5815846e1c",
+        "pmid_26528014"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "pediatric_femur_antegrade_esin_entry_surface_landmarks_01",
+      "text": "Mark greater trochanter, its physis under fluoroscopy, lesser trochanter, femoral shaft axis, and planned paired lateral entries.",
+      "source_ids": [
+        "ao_b02d6f5815846e1c"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "pediatric_femur_antegrade_esin_entry_incision_01",
+      "text": "Make a 3-5 cm lateral trochanteric incision extending proximally from the planned entries to permit angled nail advancement.",
+      "source_ids": [
+        "ao_b02d6f5815846e1c",
+        "pmid_26528014"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "pediatric_femur_antegrade_esin_entry_superficial_interval_01",
+      "text": "Spread fascia and lateral muscle fibers bluntly to the anterolateral femoral cortex.",
+      "source_ids": [
+        "ao_b02d6f5815846e1c",
+        "pmid_26528014"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "pediatric_femur_antegrade_esin_entry_deep_interval_01",
+      "text": "Create two controlled lateral metaphyseal entries 0.5-1 cm distal to the trochanteric physis, separated at least 2 cm axially and 1 cm on the lateral plane.",
+      "source_ids": [
+        "ao_b02d6f5815846e1c",
+        "pmid_26528014"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "pediatric_femur_antegrade_esin_entry_layers_01",
+      "text": "Skin, subcutaneous tissue, fascia lata, lateral muscle, periosteum, then proximal femoral metaphyseal cortex.",
+      "source_ids": [
+        "ao_b02d6f5815846e1c"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "pediatric_femur_antegrade_esin_entry_structures_encountered_01",
+      "text": "Fascia lata, abductor-vastus region, greater-trochanteric physis, proximal metaphysis, and medullary canal are encountered.",
+      "source_ids": [
+        "ao_b02d6f5815846e1c",
+        "pmid_26528014"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "pediatric_femur_antegrade_esin_entry_structures_at_risk_01",
+      "text": "Greater-trochanteric physis, proximal femoral cortex, abductors, lateral femoral cutaneous branches, and femoral-neck blood supply are at risk.",
+      "source_ids": [
+        "ao_b02d6f5815846e1c",
+        "pmid_26528014"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "pediatric_femur_antegrade_esin_entry_danger_zones_01",
+      "text": "Entries too close together can split the cortex; proximal or medial misplacement risks the physis or femoral neck.",
+      "source_ids": [
+        "ao_b02d6f5815846e1c",
+        "pmid_26528014"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "pediatric_femur_antegrade_esin_entry_retraction_hazards_01",
+      "text": "Use blunt spreading rather than aggressive muscle stripping and protect soft tissue from rotating nail ends.",
+      "source_ids": [
+        "ao_b02d6f5815846e1c",
+        "pmid_26528014"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "pediatric_femur_antegrade_esin_entry_exposure_01",
+      "text": "Provides paired antegrade elastic-nail access while avoiding the distal fracture and knee.",
+      "source_ids": [
+        "ao_b02d6f5815846e1c",
+        "pmid_26528014"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "pediatric_femur_antegrade_esin_entry_limitations_01",
+      "text": "Requires adequate proximal metaphyseal space, appropriate fracture pattern, and careful growth-plate localization.",
+      "source_ids": [
+        "ao_b02d6f5815846e1c",
+        "pmid_26528014"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "pediatric_femur_antegrade_esin_entry_extensions_01",
+      "text": "Lengthen the lateral incision for direct cortical control rather than creating an uncertain percutaneous entry.",
+      "source_ids": [
+        "ao_b02d6f5815846e1c",
+        "pmid_26528014"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "pediatric_femur_antegrade_esin_entry_indications_01",
+      "text": "Use for selected pediatric femoral fractures treated with paired antegrade ESIN, including distal patterns where retrograde entry is unsuitable.",
+      "source_ids": [
+        "ao_b02d6f5815846e1c",
+        "pmid_26528014"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "pediatric_femur_antegrade_esin_entry_relative_contraindications_01",
+      "text": "Avoid when proximal anatomy cannot safely accommodate two separated entries or fracture size and stability exceed ESIN capability.",
+      "source_ids": [
+        "ao_b02d6f5815846e1c",
+        "pmid_26528014"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "pediatric_femur_antegrade_esin_entry_implant_implications_01",
+      "text": "Use two appropriately contoured nails with separated entries and balanced opposing forces; avoid prominent ends that irritate lateral tissues.",
+      "source_ids": [
+        "ao_b02d6f5815846e1c",
+        "pmid_26528014"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "pediatric_femur_antegrade_esin_entry_fluoroscopy_implications_01",
+      "text": "Confirm physis, entry separation, cortical integrity, canal trajectory, reduction, and nail-end position on orthogonal views.",
+      "source_ids": [
+        "ao_b02d6f5815846e1c",
+        "pmid_26528014"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "pediatric_femur_antegrade_esin_entry_closure_01",
+      "text": "Confirm hemostasis and nonprominent nail ends, repair fascia as needed, then close subcutaneous tissue and skin.",
+      "source_ids": [
+        "ao_b02d6f5815846e1c",
+        "pmid_26528014"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "pediatric_femur_antegrade_esin_entry_complications_01",
+      "text": "Complications include cortical split, physeal injury, malalignment, nail migration or irritation, infection, loss of fixation, and growth disturbance.",
+      "source_ids": [
+        "ao_b02d6f5815846e1c",
+        "pmid_26528014"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "pediatric_femur_antegrade_esin_entry_bailouts_01",
+      "text": "If entry placement or cortex is unsafe, stop, enlarge exposure, revise entry strategy, or choose another fixation construct.",
+      "source_ids": [
+        "ao_b02d6f5815846e1c",
+        "pmid_26528014"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "pediatric_femur_antegrade_esin_entry_questions_01",
+      "text": "Where are the usual entries?",
+      "source_ids": [
+        "ao_b02d6f5815846e1c"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "pediatric_femur_antegrade_esin_entry_questions_02",
+      "text": "How far apart should they be?",
+      "source_ids": [
+        "ao_b02d6f5815846e1c"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "pediatric_femur_antegrade_esin_entry_questions_03",
+      "text": "Why avoid closely spaced entries?",
+      "source_ids": [
+        "ao_b02d6f5815846e1c"
+      ],
+      "risk_level": "medium"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "ao_b02d6f5815846e1c",
+      "provider": "AO Surgery Reference",
+      "title": "ESIN Entry Points For Antegrade Nailing",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/pediatric-trauma/femoral-shaft/approach/esin-entry-points-for-antegrade-nailing",
+      "source_page_id": "ao_b02d6f5815846e1c"
+    },
+    {
+      "source_id": "ao_c7f3c9a9c02eb9d7",
+      "provider": "AO Surgery Reference",
+      "title": "Esin Entry Points For Antegrade Nailing",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/pediatric-trauma/distal-femur/approach/esin-entry-points-for-antegrade-nailing",
+      "source_page_id": "ao_c7f3c9a9c02eb9d7"
+    },
+    {
+      "source_id": "pmid_26528014",
+      "provider": "PubMed",
+      "title": "Elastic Stable Intramedullary Nailing for Fractures in Children - Specific Applications",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/26528014/"
+    }
+  ],
+  "content_status": "agent_review_pending",
+  "review": {
+    "status": "agent_review_pending",
+    "required_roles": [
+      "adversarial_safety_reviewer",
+      "approach_anatomy_reviewer",
+      "educational_value_reviewer",
+      "evidence_reviewer",
+      "operative_exposure_reviewer",
+      "procedure_applicability_reviewer"
+    ],
+    "completed_roles": []
+  },
+  "resolved_contradiction_keys": [],
+  "authoring_provenance": {
+    "method": "local_codex_curated",
+    "definition_file": "data/approach_library/curated/pediatric_distal_femur_approaches_v1.json",
+    "api_used": false
+  }
+}

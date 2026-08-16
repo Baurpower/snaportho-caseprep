@@ -1,0 +1,50 @@
+{
+  "approaches": [
+    {
+      "approach_id": "radius_anterior_henry",
+      "name": "Anterior approach to the radial shaft (Henry)",
+      "aliases": ["Henry approach", "volar approach to the radius", "anterior radial shaft approach"],
+      "region": "anterior forearm and radial shaft",
+      "joint": "elbow-to-wrist extra-articular corridor",
+      "bones": ["radius"],
+      "corridor": "Between brachioradialis laterally and flexor carpi radialis medially, with level-specific deep elevation of supinator, pronator teres, flexor pollicis longus, and pronator quadratus",
+      "sources": [
+        {"source_id": "ao_be2b507bbf9f9435", "provider": "AO Surgery Reference", "title": "Anterior Approach Henry", "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/forearm-shaft/approach/anterior-approach-henry", "source_page_id": "ao_be2b507bbf9f9435"},
+        {"source_id": "pmid_25440071", "provider": "PubMed", "title": "Exposure of the forearm and distal radius", "url": "https://pubmed.ncbi.nlm.nih.gov/25440071/"},
+        {"source_id": "pmid_8891976", "provider": "PubMed", "title": "Anatomic considerations for the anterior exposure of the proximal portion of the radius", "url": "https://pubmed.ncbi.nlm.nih.gov/8891976/"}
+      ],
+      "procedure_applications": [
+        {"procedure_id": "radial_shaft_fracture_orif", "relationship": "primary_option", "condition": "Direct anterior exposure of the proximal, middle, or distal radial shaft is required"},
+        {"procedure_id": "both_bone_forearm_fracture_orif", "relationship": "conditional_option", "condition": "The radius is exposed through a separate anterior incision and the ulna through a separate ulnar approach"}
+      ],
+      "sections": {
+        "positioning": [{"text": "Position supine with the arm on a radiolucent hand table and the forearm freely rotatable through pronation and supination.", "source_ids": ["ao_be2b507bbf9f9435", "pmid_25440071"]}],
+        "setup": [{"text": "Prepare the entire limb, verify the required proximal-to-distal exposure and plate trajectory, and preserve access for fluoroscopy and forearm rotation.", "source_ids": ["ao_be2b507bbf9f9435", "pmid_25440071"]}],
+        "surface_landmarks": [{"text": "Mark the biceps tendon proximally, the palpable medial border of brachioradialis, the radial styloid distally, and the projected radial shaft.", "source_ids": ["ao_be2b507bbf9f9435"]}],
+        "incision": [{"text": "Place a longitudinal incision along the line from the biceps tendon to the radial styloid, limiting its length to the radial segment requiring exposure.", "source_ids": ["ao_be2b507bbf9f9435", "pmid_25440071"], "risk_level": "high"}],
+        "superficial_interval": [{"text": "Develop the interval between brachioradialis laterally and flexor carpi radialis medially; identify the radial artery and its venae comitantes and protect the superficial radial nerve beneath brachioradialis.", "source_ids": ["ao_be2b507bbf9f9435", "pmid_25440071"], "risk_level": "high"}],
+        "deep_interval": [{"text": "For proximal exposure, fully supinate and elevate supinator from its medial edge; for the middle third, pronate to address the pronator-teres insertion; distally, elevate flexor pollicis longus and pronator quadratus as required.", "source_ids": ["ao_be2b507bbf9f9435", "pmid_8891976"], "risk_level": "high"}],
+        "layers": [{"text": "Skin, subcutaneous tissue, forearm fascia, brachioradialis–flexor carpi radialis interval, radial neurovascular plane, level-specific deep muscle, periosteum, then radius.", "source_ids": ["ao_be2b507bbf9f9435", "pmid_25440071"]}],
+        "structures_encountered": [{"text": "Brachioradialis, flexor carpi radialis, radial artery with venae comitantes, superficial radial nerve, supinator, pronator teres, flexor pollicis longus, and pronator quadratus are encountered according to level.", "source_ids": ["ao_be2b507bbf9f9435", "pmid_25440071"]}],
+        "structures_at_risk": [{"text": "The posterior interosseous nerve proximally, superficial radial nerve, radial artery and branches, palmar cutaneous branch of the median nerve distally, and pronator/supinator insertions are at risk.", "source_ids": ["ao_be2b507bbf9f9435", "pmid_8891976"], "risk_level": "high"}],
+        "danger_zones": [{"text": "The posterior interosseous nerve runs within supinator; full supination moves it away from the proximal anterior field, and supinator elevation must remain limited and subperiosteal.", "source_ids": ["ao_be2b507bbf9f9435", "pmid_8891976"], "risk_level": "high"}],
+        "retraction_hazards": [{"text": "Retract the superficial radial nerve laterally and radial artery medially without sustained focal pressure; control lateral arterial branches before mobilization rather than avulsing them.", "source_ids": ["ao_be2b507bbf9f9435", "pmid_25440071"], "risk_level": "high"}],
+        "exposure": [{"text": "The extensile anterior corridor can expose the full radial shaft, with the operative segment selected by incision length and level-specific deep dissection.", "source_ids": ["ao_be2b507bbf9f9435", "pmid_25440071"]}],
+        "limitations": [{"text": "Proximal exposure places the posterior interosseous nerve at risk, and the deep muscular interval changes by radial level; distal-only work may be better served by a modified Henry corridor.", "source_ids": ["ao_be2b507bbf9f9435", "pmid_8891976"]}],
+        "extensions": [{"text": "Extend longitudinally toward the biceps tendon or radial styloid while preserving the same superficial interval and changing the deep release only at the required radial level.", "source_ids": ["ao_be2b507bbf9f9435", "pmid_25440071"], "risk_level": "high"}],
+        "indications": [{"text": "Use for fixation or reconstruction requiring anterior access to the proximal, middle, distal, or multiple levels of the radial shaft.", "source_ids": ["ao_be2b507bbf9f9435", "pmid_25440071"]}],
+        "relative_contraindications": [{"text": "Choose an alternative corridor when compromised volar soft tissue, prior scarring, vascular concerns, or the required dorsal target makes anterior dissection less safe.", "source_ids": ["ao_be2b507bbf9f9435", "pmid_25440071"]}],
+        "implant_implications": [{"text": "Seat implants directly on bone without interposed soft tissue and document the posterior interosseous nerve's relationship to a proximal plate if the nerve is exposed.", "source_ids": ["ao_be2b507bbf9f9435", "pmid_8891976"], "risk_level": "high"}],
+        "fluoroscopy_implications": [{"text": "Obtain orthogonal views to confirm reduction, radial bow, plate position, screw length, and proximal and distal radioulnar-joint alignment.", "source_ids": ["ao_be2b507bbf9f9435", "pmid_25440071"], "risk_level": "high"}],
+        "closure": [{"text": "Repair elevated pronator quadratus when feasible, confirm neurovascular structures are free, obtain hemostasis, and use a tension-free skin closure; defer closure when swelling makes it unsafe.", "source_ids": ["ao_be2b507bbf9f9435", "pmid_25440071"], "risk_level": "high"}],
+        "complications": [{"text": "Complications include posterior interosseous or superficial radial neuropathy, radial-artery injury, compartment syndrome, wound problems, tendon adhesion, infection, synostosis, malunion, and nonunion.", "source_ids": ["ao_be2b507bbf9f9435", "pmid_25440071"], "risk_level": "high"}],
+        "bailouts": [{"text": "If proximal nerve safety or a level-specific deep interval cannot be established, stop blind elevation, enlarge the exposure for identification, or use a separate appropriate corridor rather than force retraction.", "source_ids": ["ao_be2b507bbf9f9435", "pmid_8891976"], "risk_level": "high"}],
+        "questions": [
+          {"question": "What is the superficial Henry interval?", "answer": "Brachioradialis laterally and flexor carpi radialis medially.", "source_ids": ["ao_be2b507bbf9f9435"]},
+          {"question": "How is the forearm positioned for proximal supinator elevation?", "answer": "Fully supinated to move the posterior interosseous nerve away from the field.", "source_ids": ["ao_be2b507bbf9f9435", "pmid_8891976"], "risk_level": "high"},
+          {"question": "Where is the superficial radial nerve in the approach?", "answer": "Beneath brachioradialis, lateral to the radial artery.", "source_ids": ["ao_be2b507bbf9f9435"]}
+        ]
+      }
+    }
+  ]
+}

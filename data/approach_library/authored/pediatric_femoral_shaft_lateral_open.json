@@ -1,0 +1,467 @@
+{
+  "schema_version": "brobot_approach_packet_v1",
+  "approach_id": "pediatric_femoral_shaft_lateral_open",
+  "name": "Pediatric direct lateral approach to the femoral shaft",
+  "aliases": [
+    "pediatric open lateral femur approach",
+    "pediatric lateral thigh plating approach"
+  ],
+  "region": "pediatric thigh",
+  "joint": "extra-articular",
+  "bones": [
+    "femoral shaft"
+  ],
+  "corridor": "Longitudinal fascia-lata opening followed by anterior extraperiosteal elevation of vastus lateralis from the lateral intermuscular septum and linea aspera",
+  "positioning": [
+    {
+      "text": "Position supine with a bolster under the ipsilateral hip or lateral, keeping the full femur accessible and imageable from hip to knee.",
+      "claim_ids": [
+        "pediatric_femoral_shaft_lateral_open_positioning_01"
+      ]
+    }
+  ],
+  "setup": [
+    {
+      "text": "Plan the minimum exposure necessary, plate position and length, reduction method, and blood-loss response before incision.",
+      "claim_ids": [
+        "pediatric_femoral_shaft_lateral_open_setup_01"
+      ]
+    }
+  ],
+  "surface_landmarks": [
+    {
+      "text": "Mark the greater trochanter, lateral femoral epicondyle, shaft axis, fracture level, and planned plate extent.",
+      "claim_ids": [
+        "pediatric_femoral_shaft_lateral_open_surface_landmarks_01"
+      ]
+    }
+  ],
+  "incision": [
+    {
+      "text": "Incise longitudinally on the lateral thigh along the line between the greater trochanter and lateral epicondyle, with length determined by the fracture and fixation objective.",
+      "claim_ids": [
+        "pediatric_femoral_shaft_lateral_open_incision_01"
+      ]
+    }
+  ],
+  "superficial_interval": [
+    {
+      "text": "Open fascia lata parallel to its fibers, bluntly separate vastus lateralis from fascia, and retract the muscle anteromedially.",
+      "claim_ids": [
+        "pediatric_femoral_shaft_lateral_open_superficial_interval_01"
+      ]
+    }
+  ],
+  "deep_interval": [
+    {
+      "text": "Incise vastus lateralis fascia 1 cm anterior to the lateral intermuscular septum and elevate the muscle extraperiosteally from the septum and linea aspera.",
+      "claim_ids": [
+        "pediatric_femoral_shaft_lateral_open_deep_interval_01"
+      ]
+    }
+  ],
+  "layers": [
+    {
+      "text": "Skin, subcutaneous tissue, fascia lata, vastus lateralis fascia, extraperiosteal plane along the lateral intermuscular septum, then lateral femoral cortex.",
+      "claim_ids": [
+        "pediatric_femoral_shaft_lateral_open_layers_01"
+      ]
+    }
+  ],
+  "structures_encountered": [
+    {
+      "text": "Fascia lata, vastus lateralis, lateral intermuscular septum, linea aspera, perforating vessels, periosteum, and lateral shaft are encountered.",
+      "claim_ids": [
+        "pediatric_femoral_shaft_lateral_open_structures_encountered_01"
+      ]
+    }
+  ],
+  "structures_at_risk": [
+    {
+      "text": "Profunda femoris perforators are the primary structures at risk; the major vessels and nerves remain medial or posteromedial when the dissection stays lateral.",
+      "claim_ids": [
+        "pediatric_femoral_shaft_lateral_open_structures_at_risk_01"
+      ]
+    }
+  ],
+  "danger_zones": [
+    {
+      "text": "Identify and protect or ligate perforators before division because their proximal ends can retract through the septum and cause troublesome occult posterior-compartment bleeding.",
+      "claim_ids": [
+        "pediatric_femoral_shaft_lateral_open_danger_zones_01"
+      ]
+    }
+  ],
+  "retraction_hazards": [
+    {
+      "text": "Keep retractors directly on bone and avoid deep medial or posterior passage, circumferential stripping, and prolonged forceful anterior retraction of vastus lateralis.",
+      "claim_ids": [
+        "pediatric_femoral_shaft_lateral_open_retraction_hazards_01"
+      ]
+    }
+  ],
+  "exposure": [
+    {
+      "text": "Provides extensile direct access to the lateral shaft for reduction, debridement, grafting, and plate fixation.",
+      "claim_ids": [
+        "pediatric_femoral_shaft_lateral_open_exposure_01"
+      ]
+    }
+  ],
+  "limitations": [
+    {
+      "text": "Compared with submuscular plating, open exposure increases blood loss and disrupts more muscle and fracture biology, so exposure should be limited to the operative need.",
+      "claim_ids": [
+        "pediatric_femoral_shaft_lateral_open_limitations_01"
+      ]
+    }
+  ],
+  "extensions": [
+    {
+      "text": "Extend distally along the shaft; proximally release vastus lateralis origin in an L shape through the interval between gluteus medius and vastus lateralis.",
+      "claim_ids": [
+        "pediatric_femoral_shaft_lateral_open_extensions_01"
+      ]
+    }
+  ],
+  "indications": [
+    {
+      "text": "Use when direct visualization is required for an irreducible fracture, open injury, debridement, interposed tissue, grafting, or compression plating.",
+      "claim_ids": [
+        "pediatric_femoral_shaft_lateral_open_indications_01"
+      ]
+    }
+  ],
+  "relative_contraindications": [
+    {
+      "text": "Favor closed nailing or submuscular plating when adequate alignment and stability can be achieved without exposing the fracture and when lateral soft tissues are compromised.",
+      "claim_ids": [
+        "pediatric_femoral_shaft_lateral_open_relative_contraindications_01"
+      ]
+    }
+  ],
+  "implant_implications": [
+    {
+      "text": "Choose plate length and screw pattern for compression versus bridge mechanics, avoid trapping muscle under the plate, and preserve periosteal attachments outside the required reduction zone.",
+      "claim_ids": [
+        "pediatric_femoral_shaft_lateral_open_implant_implications_01"
+      ]
+    }
+  ],
+  "fluoroscopy_implications": [
+    {
+      "text": "Confirm length, alignment, rotation, plate position, screw length, and hip and knee orientation despite direct visualization of the fracture.",
+      "claim_ids": [
+        "pediatric_femoral_shaft_lateral_open_fluoroscopy_implications_01"
+      ]
+    }
+  ],
+  "closure": [
+    {
+      "text": "Secure perforator hemostasis, return vastus lateralis over the femur, repair any proximal origin release and fascia lata, then close subcutaneous tissue and skin.",
+      "claim_ids": [
+        "pediatric_femoral_shaft_lateral_open_closure_01"
+      ]
+    }
+  ],
+  "complications": [
+    {
+      "text": "Complications include occult perforator bleeding, hematoma or compartment syndrome, muscle devascularization, infection, malrotation, limb-length discrepancy, nonunion, implant failure, and stiffness.",
+      "claim_ids": [
+        "pediatric_femoral_shaft_lateral_open_complications_01"
+      ]
+    }
+  ],
+  "bailouts": [
+    {
+      "text": "For uncontrolled bleeding, stop blind clamping, enlarge the exposure and control the retracted perforator directly; convert reduction or fixation strategy when biology or alignment is being compromised.",
+      "claim_ids": [
+        "pediatric_femoral_shaft_lateral_open_bailouts_01"
+      ]
+    }
+  ],
+  "procedure_applications": [
+    {
+      "procedure_id": "femoral_shaft_fracture_orif",
+      "relationship": "conditional_option",
+      "condition": "A pediatric femoral-shaft fracture requires direct reduction, debridement, grafting, or open plate application rather than closed nailing or submuscular bridge plating"
+    }
+  ],
+  "questions": [
+    {
+      "question": "Where is vastus lateralis fascia incised?",
+      "answer": "One centimeter anterior to the lateral intermuscular septum.",
+      "claim_ids": [
+        "pediatric_femoral_shaft_lateral_open_questions_01"
+      ]
+    },
+    {
+      "question": "Which vessels require deliberate control?",
+      "answer": "The profunda femoris perforating bundles crossing from posterior to anterior.",
+      "claim_ids": [
+        "pediatric_femoral_shaft_lateral_open_questions_02"
+      ]
+    },
+    {
+      "question": "Why can bleeding be occult?",
+      "answer": "A divided proximal perforator can retract through the septum into the posterior compartment.",
+      "claim_ids": [
+        "pediatric_femoral_shaft_lateral_open_questions_03"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "pediatric_femoral_shaft_lateral_open_positioning_01",
+      "text": "Position supine with a bolster under the ipsilateral hip or lateral, keeping the full femur accessible and imageable from hip to knee.",
+      "source_ids": [
+        "ao_6374d08fe6cdc998",
+        "pmid_23752149"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "pediatric_femoral_shaft_lateral_open_setup_01",
+      "text": "Plan the minimum exposure necessary, plate position and length, reduction method, and blood-loss response before incision.",
+      "source_ids": [
+        "ao_6374d08fe6cdc998",
+        "pmid_23752149"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "pediatric_femoral_shaft_lateral_open_surface_landmarks_01",
+      "text": "Mark the greater trochanter, lateral femoral epicondyle, shaft axis, fracture level, and planned plate extent.",
+      "source_ids": [
+        "ao_6374d08fe6cdc998"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "pediatric_femoral_shaft_lateral_open_incision_01",
+      "text": "Incise longitudinally on the lateral thigh along the line between the greater trochanter and lateral epicondyle, with length determined by the fracture and fixation objective.",
+      "source_ids": [
+        "ao_6374d08fe6cdc998",
+        "pmid_23752149"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "pediatric_femoral_shaft_lateral_open_superficial_interval_01",
+      "text": "Open fascia lata parallel to its fibers, bluntly separate vastus lateralis from fascia, and retract the muscle anteromedially.",
+      "source_ids": [
+        "ao_6374d08fe6cdc998",
+        "pmid_23752149"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "pediatric_femoral_shaft_lateral_open_deep_interval_01",
+      "text": "Incise vastus lateralis fascia 1 cm anterior to the lateral intermuscular septum and elevate the muscle extraperiosteally from the septum and linea aspera.",
+      "source_ids": [
+        "ao_6374d08fe6cdc998",
+        "pmid_23752149"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "pediatric_femoral_shaft_lateral_open_layers_01",
+      "text": "Skin, subcutaneous tissue, fascia lata, vastus lateralis fascia, extraperiosteal plane along the lateral intermuscular septum, then lateral femoral cortex.",
+      "source_ids": [
+        "ao_6374d08fe6cdc998"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "pediatric_femoral_shaft_lateral_open_structures_encountered_01",
+      "text": "Fascia lata, vastus lateralis, lateral intermuscular septum, linea aspera, perforating vessels, periosteum, and lateral shaft are encountered.",
+      "source_ids": [
+        "ao_6374d08fe6cdc998",
+        "pmid_23752149"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "pediatric_femoral_shaft_lateral_open_structures_at_risk_01",
+      "text": "Profunda femoris perforators are the primary structures at risk; the major vessels and nerves remain medial or posteromedial when the dissection stays lateral.",
+      "source_ids": [
+        "ao_6374d08fe6cdc998",
+        "pmid_23752149"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "pediatric_femoral_shaft_lateral_open_danger_zones_01",
+      "text": "Identify and protect or ligate perforators before division because their proximal ends can retract through the septum and cause troublesome occult posterior-compartment bleeding.",
+      "source_ids": [
+        "ao_6374d08fe6cdc998",
+        "pmid_23752149"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "pediatric_femoral_shaft_lateral_open_retraction_hazards_01",
+      "text": "Keep retractors directly on bone and avoid deep medial or posterior passage, circumferential stripping, and prolonged forceful anterior retraction of vastus lateralis.",
+      "source_ids": [
+        "ao_6374d08fe6cdc998",
+        "pmid_23752149"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "pediatric_femoral_shaft_lateral_open_exposure_01",
+      "text": "Provides extensile direct access to the lateral shaft for reduction, debridement, grafting, and plate fixation.",
+      "source_ids": [
+        "ao_6374d08fe6cdc998",
+        "pmid_23752149"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "pediatric_femoral_shaft_lateral_open_limitations_01",
+      "text": "Compared with submuscular plating, open exposure increases blood loss and disrupts more muscle and fracture biology, so exposure should be limited to the operative need.",
+      "source_ids": [
+        "pmid_23752149",
+        "pmid_31393292"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "pediatric_femoral_shaft_lateral_open_extensions_01",
+      "text": "Extend distally along the shaft; proximally release vastus lateralis origin in an L shape through the interval between gluteus medius and vastus lateralis.",
+      "source_ids": [
+        "ao_6374d08fe6cdc998",
+        "pmid_23752149"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "pediatric_femoral_shaft_lateral_open_indications_01",
+      "text": "Use when direct visualization is required for an irreducible fracture, open injury, debridement, interposed tissue, grafting, or compression plating.",
+      "source_ids": [
+        "ao_6374d08fe6cdc998",
+        "pmid_23752149"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "pediatric_femoral_shaft_lateral_open_relative_contraindications_01",
+      "text": "Favor closed nailing or submuscular plating when adequate alignment and stability can be achieved without exposing the fracture and when lateral soft tissues are compromised.",
+      "source_ids": [
+        "pmid_23752149",
+        "pmid_31393292"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "pediatric_femoral_shaft_lateral_open_implant_implications_01",
+      "text": "Choose plate length and screw pattern for compression versus bridge mechanics, avoid trapping muscle under the plate, and preserve periosteal attachments outside the required reduction zone.",
+      "source_ids": [
+        "ao_6374d08fe6cdc998",
+        "pmid_23752149"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "pediatric_femoral_shaft_lateral_open_fluoroscopy_implications_01",
+      "text": "Confirm length, alignment, rotation, plate position, screw length, and hip and knee orientation despite direct visualization of the fracture.",
+      "source_ids": [
+        "pmid_23752149",
+        "pmid_31393292"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "pediatric_femoral_shaft_lateral_open_closure_01",
+      "text": "Secure perforator hemostasis, return vastus lateralis over the femur, repair any proximal origin release and fascia lata, then close subcutaneous tissue and skin.",
+      "source_ids": [
+        "ao_6374d08fe6cdc998",
+        "pmid_23752149"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "pediatric_femoral_shaft_lateral_open_complications_01",
+      "text": "Complications include occult perforator bleeding, hematoma or compartment syndrome, muscle devascularization, infection, malrotation, limb-length discrepancy, nonunion, implant failure, and stiffness.",
+      "source_ids": [
+        "ao_6374d08fe6cdc998",
+        "pmid_23752149",
+        "pmid_31393292"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "pediatric_femoral_shaft_lateral_open_bailouts_01",
+      "text": "For uncontrolled bleeding, stop blind clamping, enlarge the exposure and control the retracted perforator directly; convert reduction or fixation strategy when biology or alignment is being compromised.",
+      "source_ids": [
+        "ao_6374d08fe6cdc998",
+        "pmid_23752149"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "pediatric_femoral_shaft_lateral_open_questions_01",
+      "text": "Where is vastus lateralis fascia incised?",
+      "source_ids": [
+        "ao_6374d08fe6cdc998"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "pediatric_femoral_shaft_lateral_open_questions_02",
+      "text": "Which vessels require deliberate control?",
+      "source_ids": [
+        "ao_6374d08fe6cdc998"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "pediatric_femoral_shaft_lateral_open_questions_03",
+      "text": "Why can bleeding be occult?",
+      "source_ids": [
+        "ao_6374d08fe6cdc998"
+      ],
+      "risk_level": "medium"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "ao_6374d08fe6cdc998",
+      "provider": "AO Surgery Reference",
+      "title": "Lateral Approach",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/pediatric-trauma/femoral-shaft/approach/lateral-approach",
+      "source_page_id": "ao_6374d08fe6cdc998"
+    },
+    {
+      "source_id": "pmid_23752149",
+      "provider": "PubMed",
+      "title": "Comparison of submuscular and open plating of pediatric femur fractures: a retrospective review",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/23752149/"
+    },
+    {
+      "source_id": "pmid_31393292",
+      "provider": "PubMed",
+      "title": "Pediatric Femoral Shaft Fractures: A Multicenter Review of the AAOS Clinical Practice Guidelines Before and After 2009",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/31393292/"
+    }
+  ],
+  "content_status": "agent_review_pending",
+  "review": {
+    "status": "agent_review_pending",
+    "required_roles": [
+      "adversarial_safety_reviewer",
+      "approach_anatomy_reviewer",
+      "educational_value_reviewer",
+      "evidence_reviewer",
+      "operative_exposure_reviewer",
+      "procedure_applicability_reviewer"
+    ],
+    "completed_roles": []
+  },
+  "resolved_contradiction_keys": [],
+  "authoring_provenance": {
+    "method": "local_codex_curated",
+    "definition_file": "data/approach_library/curated/pediatric_femoral_shaft_open_mio_pins_v1.json",
+    "api_used": false
+  }
+}

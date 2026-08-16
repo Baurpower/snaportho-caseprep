@@ -1,0 +1,467 @@
+{
+  "schema_version": "brobot_approach_packet_v1",
+  "approach_id": "approach_lower_ext_pelvis_acetabulum_anterior_ilioinguinal",
+  "name": "Ilioinguinal approach to the acetabulum",
+  "aliases": [
+    "Letournel ilioinguinal approach",
+    "anterior acetabular approach"
+  ],
+  "region": "acetabulum and anterior pelvis",
+  "joint": "hip",
+  "bones": [
+    "acetabulum",
+    "innominate bone",
+    "superior pubic ramus"
+  ],
+  "corridor": "Three-window extraperitoneal exposure around the iliopsoas, femoral neurovascular bundle, and spermatic cord or round ligament",
+  "positioning": [
+    {
+      "text": "Position supine on a radiolucent table with the injured limb included in the field so hip flexion can relax the iliopsoas and femoral neurovascular structures.",
+      "claim_ids": [
+        "approach_lower_ext_pelvis_acetabulum_anterior_ilioinguinal_positioning_01"
+      ]
+    }
+  ],
+  "setup": [
+    {
+      "text": "Prepare the lower abdomen, hemipelvis, and operative leg; place and confirm a urinary catheter so the bladder can be identified and protected during medial-window development.",
+      "claim_ids": [
+        "approach_lower_ext_pelvis_acetabulum_anterior_ilioinguinal_setup_01"
+      ]
+    }
+  ],
+  "surface_landmarks": [
+    {
+      "text": "Mark the iliac crest, anterior superior iliac spine, inguinal ligament, pubic tubercle, and pubic symphysis.",
+      "claim_ids": [
+        "approach_lower_ext_pelvis_acetabulum_anterior_ilioinguinal_surface_landmarks_01"
+      ]
+    }
+  ],
+  "incision": [
+    {
+      "text": "Use a curved incision along the iliac crest and inguinal region that can extend medially just proximal to the pubic symphysis according to the windows required.",
+      "claim_ids": [
+        "approach_lower_ext_pelvis_acetabulum_anterior_ilioinguinal_incision_01"
+      ]
+    }
+  ],
+  "superficial_interval": [
+    {
+      "text": "Elevate the abdominal wall from the iliac crest, open the external-oblique aponeurosis above the inguinal canal, and mobilize the spermatic cord or round ligament medially.",
+      "claim_ids": [
+        "approach_lower_ext_pelvis_acetabulum_anterior_ilioinguinal_superficial_interval_01"
+      ]
+    }
+  ],
+  "deep_interval": [
+    {
+      "text": "Develop three windows: internal iliac fossa lateral to iliopsoas, pelvic brim between iliopsoas/femoral nerve and femoral vessels, and the medial retropubic window beside rectus and the cord or round ligament.",
+      "claim_ids": [
+        "approach_lower_ext_pelvis_acetabulum_anterior_ilioinguinal_deep_interval_01"
+      ]
+    }
+  ],
+  "layers": [
+    {
+      "text": "Skin and subcutaneous tissue, external-oblique aponeurosis and inguinal structures, iliacus and iliopsoas mobilization, iliopectineal fascia, then subperiosteal anterior pelvic and acetabular exposure.",
+      "claim_ids": [
+        "approach_lower_ext_pelvis_acetabulum_anterior_ilioinguinal_layers_01"
+      ]
+    }
+  ],
+  "structures_encountered": [
+    {
+      "text": "The exposure encounters the lateral femoral cutaneous and ilioinguinal nerves, iliopsoas and femoral nerve, external iliac/femoral vessels, spermatic cord or round ligament, and iliopectineal fascia.",
+      "claim_ids": [
+        "approach_lower_ext_pelvis_acetabulum_anterior_ilioinguinal_structures_encountered_01"
+      ]
+    }
+  ],
+  "structures_at_risk": [
+    {
+      "text": "Femoral and external iliac vessels, femoral nerve, lateral femoral cutaneous nerve, ilioinguinal nerve, bladder, spermatic cord or round ligament, and corona-mortis anastomoses require direct identification and protection.",
+      "claim_ids": [
+        "approach_lower_ext_pelvis_acetabulum_anterior_ilioinguinal_structures_at_risk_01"
+      ]
+    }
+  ],
+  "danger_zones": [
+    {
+      "text": "Divide the iliopectineal fascia only under direct vision between gently mobilized vessels medially and iliopsoas/femoral nerve laterally; minimize circumferential vascular dissection.",
+      "claim_ids": [
+        "approach_lower_ext_pelvis_acetabulum_anterior_ilioinguinal_danger_zones_01"
+      ]
+    }
+  ],
+  "retraction_hazards": [
+    {
+      "text": "Continuously monitor medial vessel retraction and avoid prolonged compression of the femoral neurovascular bundle; protect the bladder with controlled packing in the space of Retzius.",
+      "claim_ids": [
+        "approach_lower_ext_pelvis_acetabulum_anterior_ilioinguinal_retraction_hazards_01"
+      ]
+    }
+  ],
+  "exposure": [
+    {
+      "text": "Exposes the internal iliac fossa from the sacroiliac joint to the iliopectineal eminence, pelvic brim and quadrilateral surface, and superior pubic ramus to the symphysis through three windows.",
+      "claim_ids": [
+        "approach_lower_ext_pelvis_acetabulum_anterior_ilioinguinal_exposure_01"
+      ]
+    }
+  ],
+  "limitations": [
+    {
+      "text": "Reduction is primarily indirect because the articular surface is not directly visualized; complex intrapelvic work may be better addressed through an anterior intrapelvic modification.",
+      "claim_ids": [
+        "approach_lower_ext_pelvis_acetabulum_anterior_ilioinguinal_limitations_01"
+      ]
+    }
+  ],
+  "extensions": [
+    {
+      "text": "The third window can be expanded across the midline into an anterior intrapelvic exposure of the quadrilateral surface and posterior column.",
+      "claim_ids": [
+        "approach_lower_ext_pelvis_acetabulum_anterior_ilioinguinal_extensions_01"
+      ]
+    }
+  ],
+  "indications": [
+    {
+      "text": "Used for anterior-wall and anterior-column fractures, many both-column patterns, and selected transverse or associated acetabular fractures requiring broad anterior access.",
+      "claim_ids": [
+        "approach_lower_ext_pelvis_acetabulum_anterior_ilioinguinal_indications_01"
+      ]
+    }
+  ],
+  "relative_contraindications": [
+    {
+      "text": "Prior inguinal or femoral hernia surgery and active hernia can complicate the second window; consider limiting that window or selecting an alternative exposure.",
+      "claim_ids": [
+        "approach_lower_ext_pelvis_acetabulum_anterior_ilioinguinal_relative_contraindications_01"
+      ]
+    }
+  ],
+  "implant_implications": [
+    {
+      "text": "Implant placement is performed through separate windows around the neurovascular bundle; plate contour and screw trajectories must be planned without directly seeing the articular reduction.",
+      "claim_ids": [
+        "approach_lower_ext_pelvis_acetabulum_anterior_ilioinguinal_implant_implications_01"
+      ]
+    }
+  ],
+  "fluoroscopy_implications": [
+    {
+      "text": "Maintain access for AP, obturator-oblique, and iliac-oblique imaging because reduction is indirect and intra-articular penetration must be excluded.",
+      "claim_ids": [
+        "approach_lower_ext_pelvis_acetabulum_anterior_ilioinguinal_fluoroscopy_implications_01"
+      ]
+    }
+  ],
+  "closure": [
+    {
+      "text": "Reconstruct the conjoint tendon and inguinal floor without trapping cord structures, repair external-oblique and rectus fascia, and securely reattach the abdominal wall to the iliac crest.",
+      "claim_ids": [
+        "approach_lower_ext_pelvis_acetabulum_anterior_ilioinguinal_closure_01"
+      ]
+    }
+  ],
+  "complications": [
+    {
+      "text": "Complications include major vascular or femoral-nerve injury, lateral femoral cutaneous neuropathy, lymphatic injury, bladder or cord injury, inguinal hernia, infection, and wound morbidity.",
+      "claim_ids": [
+        "approach_lower_ext_pelvis_acetabulum_anterior_ilioinguinal_complications_01"
+      ]
+    }
+  ],
+  "bailouts": [
+    {
+      "text": "If safe vessel mobilization or a required window cannot be achieved, stop blind retraction and convert to the planned intrapelvic or alternative exposure rather than forcing access.",
+      "claim_ids": [
+        "approach_lower_ext_pelvis_acetabulum_anterior_ilioinguinal_bailouts_01"
+      ]
+    }
+  ],
+  "procedure_applications": [
+    {
+      "procedure_id": "acetabulum_fracture_orif_anterior",
+      "relationship": "primary_option",
+      "condition": "Anterior wall, anterior column, both-column, or selected transverse exposure is required"
+    }
+  ],
+  "questions": [
+    {
+      "question": "What separates the neural and vascular compartments in the ilioinguinal approach?",
+      "answer": "The iliopectineal fascia.",
+      "claim_ids": [
+        "approach_lower_ext_pelvis_acetabulum_anterior_ilioinguinal_questions_01"
+      ]
+    },
+    {
+      "question": "Why is acetabular reduction indirect through the classic ilioinguinal approach?",
+      "answer": "The articular surface is not directly visualized; reduction relies on restoration of extra-articular anatomy and imaging.",
+      "claim_ids": [
+        "approach_lower_ext_pelvis_acetabulum_anterior_ilioinguinal_questions_02"
+      ]
+    },
+    {
+      "question": "Which nerve is commonly found near the ASIS and must be mobilized?",
+      "answer": "The lateral femoral cutaneous nerve.",
+      "claim_ids": [
+        "approach_lower_ext_pelvis_acetabulum_anterior_ilioinguinal_questions_03"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "approach_lower_ext_pelvis_acetabulum_anterior_ilioinguinal_positioning_01",
+      "text": "Position supine on a radiolucent table with the injured limb included in the field so hip flexion can relax the iliopsoas and femoral neurovascular structures.",
+      "source_ids": [
+        "ao_2c5c75c12e989a0d",
+        "orthobullets_2b3faeef45135b2d"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "approach_lower_ext_pelvis_acetabulum_anterior_ilioinguinal_setup_01",
+      "text": "Prepare the lower abdomen, hemipelvis, and operative leg; place and confirm a urinary catheter so the bladder can be identified and protected during medial-window development.",
+      "source_ids": [
+        "ao_2c5c75c12e989a0d",
+        "orthobullets_2b3faeef45135b2d"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "approach_lower_ext_pelvis_acetabulum_anterior_ilioinguinal_surface_landmarks_01",
+      "text": "Mark the iliac crest, anterior superior iliac spine, inguinal ligament, pubic tubercle, and pubic symphysis.",
+      "source_ids": [
+        "ao_2c5c75c12e989a0d",
+        "orthobullets_2b3faeef45135b2d"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "approach_lower_ext_pelvis_acetabulum_anterior_ilioinguinal_incision_01",
+      "text": "Use a curved incision along the iliac crest and inguinal region that can extend medially just proximal to the pubic symphysis according to the windows required.",
+      "source_ids": [
+        "ao_2c5c75c12e989a0d",
+        "orthobullets_2b3faeef45135b2d"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "approach_lower_ext_pelvis_acetabulum_anterior_ilioinguinal_superficial_interval_01",
+      "text": "Elevate the abdominal wall from the iliac crest, open the external-oblique aponeurosis above the inguinal canal, and mobilize the spermatic cord or round ligament medially.",
+      "source_ids": [
+        "ao_2c5c75c12e989a0d",
+        "orthobullets_2b3faeef45135b2d"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "approach_lower_ext_pelvis_acetabulum_anterior_ilioinguinal_deep_interval_01",
+      "text": "Develop three windows: internal iliac fossa lateral to iliopsoas, pelvic brim between iliopsoas/femoral nerve and femoral vessels, and the medial retropubic window beside rectus and the cord or round ligament.",
+      "source_ids": [
+        "ao_2c5c75c12e989a0d",
+        "orthobullets_2b3faeef45135b2d"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "approach_lower_ext_pelvis_acetabulum_anterior_ilioinguinal_layers_01",
+      "text": "Skin and subcutaneous tissue, external-oblique aponeurosis and inguinal structures, iliacus and iliopsoas mobilization, iliopectineal fascia, then subperiosteal anterior pelvic and acetabular exposure.",
+      "source_ids": [
+        "ao_2c5c75c12e989a0d",
+        "orthobullets_2b3faeef45135b2d"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "approach_lower_ext_pelvis_acetabulum_anterior_ilioinguinal_structures_encountered_01",
+      "text": "The exposure encounters the lateral femoral cutaneous and ilioinguinal nerves, iliopsoas and femoral nerve, external iliac/femoral vessels, spermatic cord or round ligament, and iliopectineal fascia.",
+      "source_ids": [
+        "ao_2c5c75c12e989a0d",
+        "orthobullets_2b3faeef45135b2d"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "approach_lower_ext_pelvis_acetabulum_anterior_ilioinguinal_structures_at_risk_01",
+      "text": "Femoral and external iliac vessels, femoral nerve, lateral femoral cutaneous nerve, ilioinguinal nerve, bladder, spermatic cord or round ligament, and corona-mortis anastomoses require direct identification and protection.",
+      "source_ids": [
+        "ao_2c5c75c12e989a0d",
+        "orthobullets_2b3faeef45135b2d"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "approach_lower_ext_pelvis_acetabulum_anterior_ilioinguinal_danger_zones_01",
+      "text": "Divide the iliopectineal fascia only under direct vision between gently mobilized vessels medially and iliopsoas/femoral nerve laterally; minimize circumferential vascular dissection.",
+      "source_ids": [
+        "ao_2c5c75c12e989a0d",
+        "orthobullets_2b3faeef45135b2d"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "approach_lower_ext_pelvis_acetabulum_anterior_ilioinguinal_retraction_hazards_01",
+      "text": "Continuously monitor medial vessel retraction and avoid prolonged compression of the femoral neurovascular bundle; protect the bladder with controlled packing in the space of Retzius.",
+      "source_ids": [
+        "ao_2c5c75c12e989a0d",
+        "orthobullets_2b3faeef45135b2d"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "approach_lower_ext_pelvis_acetabulum_anterior_ilioinguinal_exposure_01",
+      "text": "Exposes the internal iliac fossa from the sacroiliac joint to the iliopectineal eminence, pelvic brim and quadrilateral surface, and superior pubic ramus to the symphysis through three windows.",
+      "source_ids": [
+        "ao_2c5c75c12e989a0d",
+        "orthobullets_2b3faeef45135b2d"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "approach_lower_ext_pelvis_acetabulum_anterior_ilioinguinal_limitations_01",
+      "text": "Reduction is primarily indirect because the articular surface is not directly visualized; complex intrapelvic work may be better addressed through an anterior intrapelvic modification.",
+      "source_ids": [
+        "ao_2c5c75c12e989a0d",
+        "orthobullets_2b3faeef45135b2d"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "approach_lower_ext_pelvis_acetabulum_anterior_ilioinguinal_extensions_01",
+      "text": "The third window can be expanded across the midline into an anterior intrapelvic exposure of the quadrilateral surface and posterior column.",
+      "source_ids": [
+        "ao_2c5c75c12e989a0d"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "approach_lower_ext_pelvis_acetabulum_anterior_ilioinguinal_indications_01",
+      "text": "Used for anterior-wall and anterior-column fractures, many both-column patterns, and selected transverse or associated acetabular fractures requiring broad anterior access.",
+      "source_ids": [
+        "ao_2c5c75c12e989a0d",
+        "orthobullets_2b3faeef45135b2d"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "approach_lower_ext_pelvis_acetabulum_anterior_ilioinguinal_relative_contraindications_01",
+      "text": "Prior inguinal or femoral hernia surgery and active hernia can complicate the second window; consider limiting that window or selecting an alternative exposure.",
+      "source_ids": [
+        "ao_2c5c75c12e989a0d",
+        "orthobullets_2b3faeef45135b2d"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "approach_lower_ext_pelvis_acetabulum_anterior_ilioinguinal_implant_implications_01",
+      "text": "Implant placement is performed through separate windows around the neurovascular bundle; plate contour and screw trajectories must be planned without directly seeing the articular reduction.",
+      "source_ids": [
+        "ao_2c5c75c12e989a0d",
+        "orthobullets_2b3faeef45135b2d"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "approach_lower_ext_pelvis_acetabulum_anterior_ilioinguinal_fluoroscopy_implications_01",
+      "text": "Maintain access for AP, obturator-oblique, and iliac-oblique imaging because reduction is indirect and intra-articular penetration must be excluded.",
+      "source_ids": [
+        "ao_2c5c75c12e989a0d",
+        "orthobullets_2b3faeef45135b2d"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "approach_lower_ext_pelvis_acetabulum_anterior_ilioinguinal_closure_01",
+      "text": "Reconstruct the conjoint tendon and inguinal floor without trapping cord structures, repair external-oblique and rectus fascia, and securely reattach the abdominal wall to the iliac crest.",
+      "source_ids": [
+        "ao_2c5c75c12e989a0d",
+        "orthobullets_2b3faeef45135b2d"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "approach_lower_ext_pelvis_acetabulum_anterior_ilioinguinal_complications_01",
+      "text": "Complications include major vascular or femoral-nerve injury, lateral femoral cutaneous neuropathy, lymphatic injury, bladder or cord injury, inguinal hernia, infection, and wound morbidity.",
+      "source_ids": [
+        "ao_2c5c75c12e989a0d",
+        "orthobullets_2b3faeef45135b2d"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "approach_lower_ext_pelvis_acetabulum_anterior_ilioinguinal_bailouts_01",
+      "text": "If safe vessel mobilization or a required window cannot be achieved, stop blind retraction and convert to the planned intrapelvic or alternative exposure rather than forcing access.",
+      "source_ids": [
+        "ao_2c5c75c12e989a0d",
+        "orthobullets_2b3faeef45135b2d"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "approach_lower_ext_pelvis_acetabulum_anterior_ilioinguinal_questions_01",
+      "text": "What separates the neural and vascular compartments in the ilioinguinal approach?",
+      "source_ids": [
+        "ao_2c5c75c12e989a0d",
+        "orthobullets_2b3faeef45135b2d"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "approach_lower_ext_pelvis_acetabulum_anterior_ilioinguinal_questions_02",
+      "text": "Why is acetabular reduction indirect through the classic ilioinguinal approach?",
+      "source_ids": [
+        "ao_2c5c75c12e989a0d",
+        "orthobullets_2b3faeef45135b2d"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "approach_lower_ext_pelvis_acetabulum_anterior_ilioinguinal_questions_03",
+      "text": "Which nerve is commonly found near the ASIS and must be mobilized?",
+      "source_ids": [
+        "ao_2c5c75c12e989a0d",
+        "orthobullets_2b3faeef45135b2d"
+      ],
+      "risk_level": "medium"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "ao_2c5c75c12e989a0d",
+      "provider": "AO Surgery Reference",
+      "title": "Ilioinguinal approach to the acetabulum",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/acetabulum/approach/ilioinguinal-approach-to-the-acetabulum",
+      "source_page_id": "ao_2c5c75c12e989a0d"
+    },
+    {
+      "source_id": "orthobullets_2b3faeef45135b2d",
+      "provider": "Orthobullets",
+      "title": "Ilioinguinal Approach to the Acetabulum",
+      "url": "https://www.orthobullets.com/approaches/12016/ilioinguinal-approach-to-the-acetabulum",
+      "source_page_id": "orthobullets_2b3faeef45135b2d"
+    }
+  ],
+  "content_status": "agent_review_pending",
+  "review": {
+    "status": "agent_review_pending",
+    "required_roles": [
+      "adversarial_safety_reviewer",
+      "approach_anatomy_reviewer",
+      "educational_value_reviewer",
+      "evidence_reviewer",
+      "operative_exposure_reviewer",
+      "procedure_applicability_reviewer"
+    ],
+    "completed_roles": []
+  },
+  "resolved_contradiction_keys": [],
+  "authoring_provenance": {
+    "method": "local_codex_curated",
+    "definition_file": "data/approach_library/curated/acetabulum_anterior_v1.json",
+    "api_used": false
+  }
+}

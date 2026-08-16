@@ -1,0 +1,469 @@
+{
+  "schema_version": "brobot_approach_packet_v1",
+  "approach_id": "femur_antegrade_piriformis_entry",
+  "name": "Antegrade femoral nailing through a piriformis entry",
+  "aliases": [
+    "piriformis fossa femoral nail entry",
+    "antegrade straight femoral nail approach"
+  ],
+  "region": "proximal femur and femoral canal",
+  "joint": "hip-adjacent extra-articular entry",
+  "bones": [
+    "femur"
+  ],
+  "corridor": "Proximal gluteal split aligned with the femoral bow to a piriformis-fossa start just medial to the greater-trochanter tip",
+  "positioning": [
+    {
+      "text": "Position supine or lateral according to reduction strategy, with the pelvis accessible and the hip positioned to obtain true AP and lateral images of the proximal femur.",
+      "claim_ids": [
+        "femur_antegrade_piriformis_entry_positioning_01"
+      ]
+    }
+  ],
+  "setup": [
+    {
+      "text": "Drape to the pelvic rim, plan reduction and traction, and verify that imaging can show the piriformis start, neck, canal, fracture, and distal femur before incision.",
+      "claim_ids": [
+        "femur_antegrade_piriformis_entry_setup_01"
+      ]
+    }
+  ],
+  "surface_landmarks": [
+    {
+      "text": "Mark the greater-trochanter tip, femoral axis, projected anatomic bow, and pelvic rim, using fluoroscopy when habitus obscures palpation.",
+      "claim_ids": [
+        "femur_antegrade_piriformis_entry_surface_landmarks_01"
+      ]
+    }
+  ],
+  "incision": [
+    {
+      "text": "Make a 3–5 cm incision generally 10–15 cm proximal to the trochanter tip, farther proximal when habitus requires, aligned with the proximal extension of the femoral bow rather than horizontally.",
+      "claim_ids": [
+        "femur_antegrade_piriformis_entry_incision_01"
+      ]
+    }
+  ],
+  "superficial_interval": [
+    {
+      "text": "Open fascia in line with the incision and split gluteal fibers longitudinally, maintaining a collinear soft-tissue path to bone.",
+      "claim_ids": [
+        "femur_antegrade_piriformis_entry_superficial_interval_01"
+      ]
+    }
+  ],
+  "deep_interval": [
+    {
+      "text": "Palpate the trochanter and place the guidewire at the piriformis fossa just medial to the trochanter tip under AP and lateral fluoroscopy.",
+      "claim_ids": [
+        "femur_antegrade_piriformis_entry_deep_interval_01"
+      ]
+    }
+  ],
+  "layers": [
+    {
+      "text": "Skin, subcutaneous tissue, fascia lata/gluteal fascia, gluteal muscle split, piriformis-fossa cortex, then femoral canal.",
+      "claim_ids": [
+        "femur_antegrade_piriformis_entry_layers_01"
+      ]
+    }
+  ],
+  "structures_encountered": [
+    {
+      "text": "Gluteal fascia and muscle, greater trochanter, piriformis-fossa region, proximal femoral cortex, neck-adjacent bone, and medullary canal define the entry.",
+      "claim_ids": [
+        "femur_antegrade_piriformis_entry_structures_encountered_01"
+      ]
+    }
+  ],
+  "structures_at_risk": [
+    {
+      "text": "The superior gluteal nerve and vessels, femoral-neck cortex, abductor tissue, proximal femoral cortex, and posterior shaft cortex are at risk from a noncollinear track.",
+      "claim_ids": [
+        "femur_antegrade_piriformis_entry_structures_at_risk_01"
+      ]
+    }
+  ],
+  "danger_zones": [
+    {
+      "text": "A too-distal skin portal or oblique guidewire causes eccentric reaming, medial cortical blowout, posterior perforation, or iatrogenic femoral-neck fracture.",
+      "claim_ids": [
+        "femur_antegrade_piriformis_entry_danger_zones_01"
+      ]
+    }
+  ],
+  "retraction_hazards": [
+    {
+      "text": "Avoid forceful lateral retraction that bends the soft-tissue track; lengthen the incision proximally to achieve collinearity rather than levering instruments against the trochanter.",
+      "claim_ids": [
+        "femur_antegrade_piriformis_entry_retraction_hazards_01"
+      ]
+    }
+  ],
+  "exposure": [
+    {
+      "text": "Provides a direct start for straight antegrade nails aligned closely with the femoral canal while limiting fracture-site exposure.",
+      "claim_ids": [
+        "femur_antegrade_piriformis_entry_exposure_01"
+      ]
+    }
+  ],
+  "limitations": [
+    {
+      "text": "The piriformis start can be technically difficult in obesity and demands precise positioning; comparative trials do not show universal clinical superiority over trochanteric entry.",
+      "claim_ids": [
+        "femur_antegrade_piriformis_entry_limitations_01"
+      ]
+    }
+  ],
+  "extensions": [
+    {
+      "text": "Extend the proximal skin and muscle split to restore a collinear trajectory; use a reduction window at the fracture only when closed methods fail.",
+      "claim_ids": [
+        "femur_antegrade_piriformis_entry_extensions_01"
+      ]
+    }
+  ],
+  "indications": [
+    {
+      "text": "Use for selected femoral shaft or distal-third fractures treated with a compatible straight antegrade nail and a safe piriformis start.",
+      "claim_ids": [
+        "femur_antegrade_piriformis_entry_indications_01"
+      ]
+    }
+  ],
+  "relative_contraindications": [
+    {
+      "text": "Favor another entry when body habitus, proximal anatomy, prior implants, hip disease, or nail design prevents safe collinear piriformis access.",
+      "claim_ids": [
+        "femur_antegrade_piriformis_entry_relative_contraindications_01"
+      ]
+    }
+  ],
+  "implant_implications": [
+    {
+      "text": "Use only a nail designed for piriformis entry and maintain the guidewire, opening reamer, and nail along the canal to avoid neck or cortical stress.",
+      "claim_ids": [
+        "femur_antegrade_piriformis_entry_implant_implications_01"
+      ]
+    }
+  ],
+  "fluoroscopy_implications": [
+    {
+      "text": "Confirm the start and guidewire on true AP and lateral views, then monitor centered reaming, fracture alignment, nail depth, and proximal and distal locking.",
+      "claim_ids": [
+        "femur_antegrade_piriformis_entry_fluoroscopy_implications_01"
+      ]
+    }
+  ],
+  "closure": [
+    {
+      "text": "Irrigate, confirm hemostasis, repair fascia without tethering abductors, and close subcutaneous tissue and skin.",
+      "claim_ids": [
+        "femur_antegrade_piriformis_entry_closure_01"
+      ]
+    }
+  ],
+  "complications": [
+    {
+      "text": "Complications include superior-gluteal or abductor injury, hip pain, eccentric reaming, trochanteric or neck fracture, cortical perforation, malalignment, nonunion, and infection.",
+      "claim_ids": [
+        "femur_antegrade_piriformis_entry_complications_01"
+      ]
+    }
+  ],
+  "bailouts": [
+    {
+      "text": "If the start cannot be made collinear, stop repeated reaming, reposition or extend proximally, or change to a compatible trochanteric or retrograde strategy.",
+      "claim_ids": [
+        "femur_antegrade_piriformis_entry_bailouts_01"
+      ]
+    }
+  ],
+  "procedure_applications": [
+    {
+      "procedure_id": "distal_femur_fracture_intramedullary_nailing",
+      "relationship": "conditional_option",
+      "condition": "An antegrade straight nail is selected and proximal anatomy permits a collinear piriformis-fossa start"
+    }
+  ],
+  "questions": [
+    {
+      "question": "Where is the piriformis entry point?",
+      "answer": "Just medial to the tip of the greater trochanter and aligned with the femoral canal.",
+      "claim_ids": [
+        "femur_antegrade_piriformis_entry_questions_01"
+      ]
+    },
+    {
+      "question": "Why is a distal skin incision dangerous?",
+      "answer": "It creates an oblique track that promotes eccentric reaming and cortical or femoral-neck injury.",
+      "claim_ids": [
+        "femur_antegrade_piriformis_entry_questions_02"
+      ]
+    },
+    {
+      "question": "Which nail geometry uses this entry?",
+      "answer": "A straight antegrade femoral nail.",
+      "claim_ids": [
+        "femur_antegrade_piriformis_entry_questions_03"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "femur_antegrade_piriformis_entry_positioning_01",
+      "text": "Position supine or lateral according to reduction strategy, with the pelvis accessible and the hip positioned to obtain true AP and lateral images of the proximal femur.",
+      "source_ids": [
+        "ao_978fb6cf2b312290",
+        "pmid_38744693"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "femur_antegrade_piriformis_entry_setup_01",
+      "text": "Drape to the pelvic rim, plan reduction and traction, and verify that imaging can show the piriformis start, neck, canal, fracture, and distal femur before incision.",
+      "source_ids": [
+        "ao_978fb6cf2b312290",
+        "pmid_38744693"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "femur_antegrade_piriformis_entry_surface_landmarks_01",
+      "text": "Mark the greater-trochanter tip, femoral axis, projected anatomic bow, and pelvic rim, using fluoroscopy when habitus obscures palpation.",
+      "source_ids": [
+        "ao_978fb6cf2b312290",
+        "pmid_38744693"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "femur_antegrade_piriformis_entry_incision_01",
+      "text": "Make a 3–5 cm incision generally 10–15 cm proximal to the trochanter tip, farther proximal when habitus requires, aligned with the proximal extension of the femoral bow rather than horizontally.",
+      "source_ids": [
+        "ao_978fb6cf2b312290",
+        "pmid_38744693"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "femur_antegrade_piriformis_entry_superficial_interval_01",
+      "text": "Open fascia in line with the incision and split gluteal fibers longitudinally, maintaining a collinear soft-tissue path to bone.",
+      "source_ids": [
+        "ao_978fb6cf2b312290",
+        "pmid_38744693"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "femur_antegrade_piriformis_entry_deep_interval_01",
+      "text": "Palpate the trochanter and place the guidewire at the piriformis fossa just medial to the trochanter tip under AP and lateral fluoroscopy.",
+      "source_ids": [
+        "ao_978fb6cf2b312290",
+        "pmid_38744693"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "femur_antegrade_piriformis_entry_layers_01",
+      "text": "Skin, subcutaneous tissue, fascia lata/gluteal fascia, gluteal muscle split, piriformis-fossa cortex, then femoral canal.",
+      "source_ids": [
+        "ao_978fb6cf2b312290",
+        "pmid_38744693"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "femur_antegrade_piriformis_entry_structures_encountered_01",
+      "text": "Gluteal fascia and muscle, greater trochanter, piriformis-fossa region, proximal femoral cortex, neck-adjacent bone, and medullary canal define the entry.",
+      "source_ids": [
+        "ao_978fb6cf2b312290",
+        "pmid_38744693"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "femur_antegrade_piriformis_entry_structures_at_risk_01",
+      "text": "The superior gluteal nerve and vessels, femoral-neck cortex, abductor tissue, proximal femoral cortex, and posterior shaft cortex are at risk from a noncollinear track.",
+      "source_ids": [
+        "ao_978fb6cf2b312290",
+        "pmid_38744693"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "femur_antegrade_piriformis_entry_danger_zones_01",
+      "text": "A too-distal skin portal or oblique guidewire causes eccentric reaming, medial cortical blowout, posterior perforation, or iatrogenic femoral-neck fracture.",
+      "source_ids": [
+        "ao_978fb6cf2b312290",
+        "pmid_38744693"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "femur_antegrade_piriformis_entry_retraction_hazards_01",
+      "text": "Avoid forceful lateral retraction that bends the soft-tissue track; lengthen the incision proximally to achieve collinearity rather than levering instruments against the trochanter.",
+      "source_ids": [
+        "ao_978fb6cf2b312290",
+        "pmid_38744693"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "femur_antegrade_piriformis_entry_exposure_01",
+      "text": "Provides a direct start for straight antegrade nails aligned closely with the femoral canal while limiting fracture-site exposure.",
+      "source_ids": [
+        "ao_978fb6cf2b312290",
+        "pmid_38744693"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "femur_antegrade_piriformis_entry_limitations_01",
+      "text": "The piriformis start can be technically difficult in obesity and demands precise positioning; comparative trials do not show universal clinical superiority over trochanteric entry.",
+      "source_ids": [
+        "ao_978fb6cf2b312290",
+        "pmid_38744693"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "femur_antegrade_piriformis_entry_extensions_01",
+      "text": "Extend the proximal skin and muscle split to restore a collinear trajectory; use a reduction window at the fracture only when closed methods fail.",
+      "source_ids": [
+        "ao_978fb6cf2b312290",
+        "pmid_38744693"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "femur_antegrade_piriformis_entry_indications_01",
+      "text": "Use for selected femoral shaft or distal-third fractures treated with a compatible straight antegrade nail and a safe piriformis start.",
+      "source_ids": [
+        "ao_978fb6cf2b312290",
+        "pmid_38744693"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "femur_antegrade_piriformis_entry_relative_contraindications_01",
+      "text": "Favor another entry when body habitus, proximal anatomy, prior implants, hip disease, or nail design prevents safe collinear piriformis access.",
+      "source_ids": [
+        "ao_978fb6cf2b312290",
+        "pmid_38744693"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "femur_antegrade_piriformis_entry_implant_implications_01",
+      "text": "Use only a nail designed for piriformis entry and maintain the guidewire, opening reamer, and nail along the canal to avoid neck or cortical stress.",
+      "source_ids": [
+        "ao_978fb6cf2b312290",
+        "pmid_38744693"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "femur_antegrade_piriformis_entry_fluoroscopy_implications_01",
+      "text": "Confirm the start and guidewire on true AP and lateral views, then monitor centered reaming, fracture alignment, nail depth, and proximal and distal locking.",
+      "source_ids": [
+        "ao_978fb6cf2b312290",
+        "pmid_38744693"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "femur_antegrade_piriformis_entry_closure_01",
+      "text": "Irrigate, confirm hemostasis, repair fascia without tethering abductors, and close subcutaneous tissue and skin.",
+      "source_ids": [
+        "ao_978fb6cf2b312290",
+        "pmid_38744693"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "femur_antegrade_piriformis_entry_complications_01",
+      "text": "Complications include superior-gluteal or abductor injury, hip pain, eccentric reaming, trochanteric or neck fracture, cortical perforation, malalignment, nonunion, and infection.",
+      "source_ids": [
+        "ao_978fb6cf2b312290",
+        "pmid_38744693"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "femur_antegrade_piriformis_entry_bailouts_01",
+      "text": "If the start cannot be made collinear, stop repeated reaming, reposition or extend proximally, or change to a compatible trochanteric or retrograde strategy.",
+      "source_ids": [
+        "ao_978fb6cf2b312290",
+        "pmid_38744693"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "femur_antegrade_piriformis_entry_questions_01",
+      "text": "Where is the piriformis entry point?",
+      "source_ids": [
+        "ao_978fb6cf2b312290"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "femur_antegrade_piriformis_entry_questions_02",
+      "text": "Why is a distal skin incision dangerous?",
+      "source_ids": [
+        "ao_978fb6cf2b312290"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "femur_antegrade_piriformis_entry_questions_03",
+      "text": "Which nail geometry uses this entry?",
+      "source_ids": [
+        "ao_978fb6cf2b312290"
+      ],
+      "risk_level": "medium"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "ao_978fb6cf2b312290",
+      "provider": "AO Surgery Reference",
+      "title": "Antegrade nailing approach with piriformis entry point",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/femoral-shaft/approach/antegrade-nailing-approach-with-piriformis-entry-point",
+      "source_page_id": "ao_978fb6cf2b312290"
+    },
+    {
+      "source_id": "ao_d40f8c7092d0b958",
+      "provider": "AO Surgery Reference",
+      "title": "Antegrade Nailing Approach With Piriformis Entry Point",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/distal-femur/approach/antegrade-nailing-approach-with-piriformis-entry-point",
+      "source_page_id": "ao_d40f8c7092d0b958"
+    },
+    {
+      "source_id": "pmid_38744693",
+      "provider": "PubMed",
+      "title": "Piriformis versus trochanteric entry points for femoral antegrade nailing",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38744693/"
+    }
+  ],
+  "content_status": "agent_review_pending",
+  "review": {
+    "status": "agent_review_pending",
+    "required_roles": [
+      "adversarial_safety_reviewer",
+      "approach_anatomy_reviewer",
+      "educational_value_reviewer",
+      "evidence_reviewer",
+      "operative_exposure_reviewer",
+      "procedure_applicability_reviewer"
+    ],
+    "completed_roles": []
+  },
+  "resolved_contradiction_keys": [],
+  "authoring_provenance": {
+    "method": "local_codex_curated",
+    "definition_file": "data/approach_library/curated/femoral_nailing_approaches_v1.json",
+    "api_used": false
+  }
+}

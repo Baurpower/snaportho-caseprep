@@ -1,0 +1,61 @@
+{
+  "schema_version": "caseprep_approaches_v3",
+  "approaches": [
+    {
+      "approach_id": "approach_wrist_volar_distal_henry",
+      "name": "Palmar / volar modified Henry (FCR)",
+      "role": "workhorse_option",
+      "content_status": "curated",
+      "selection_indications": ["Common for volar plating; definitive selection follows fracture morphology and planned fixation."],
+      "selection_limitations": ["A more ulnar palmar exposure may be chosen when direct median nerve exposure is required.", "Dorsal fragments may require a dorsal or combined strategy."],
+      "positioning": ["Supine with the arm on a radiolucent hand table and fluoroscopic access."],
+      "exposure": ["Develop the FCR-based volar interval, mobilize the flexor pollicis longus, and elevate pronator quadratus to expose the distal radius."],
+      "layers": [],
+      "landmarks": ["FCR tendon", "Radial artery", "Pronator quadratus", "Watershed line"],
+      "structures_at_risk": [
+        {"structure": "Palmar cutaneous branch of the median nerve", "risk_phase": "Superficial exposure", "protection": "Avoid blind ulnar dissection around the FCR sheath."},
+        {"structure": "Flexor tendons", "risk_phase": "Plate placement", "protection": "Respect the watershed line and restore soft-tissue coverage when possible."}
+      ],
+      "pitfalls": ["Plate prominence distal to the watershed line", "Dorsal screw penetration"],
+      "questions": [
+        "Q: Why does the watershed line matter? A: Excessively distal volar plate prominence can irritate or injure the flexor tendons.",
+        "Q: What must be checked after fixation besides the radiocarpal reduction? A: Confirm screw containment and assess DRUJ motion and stability."
+      ],
+      "source_urls": [
+        "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/distal-forearm/partial-articular-fracture-of-the-radius-involving-the-volar-rim/orif-palmar-plate",
+        "https://www.orthobullets.com/approaches/12071/fcr-approach-to-distal-radius"
+      ],
+      "review_status": "agent_review_pending",
+      "review_evidence": [],
+      "coverage_notes": "Technique is fracture-pattern dependent; this module does not imply that every distal radius fracture should receive a volar plate."
+    },
+    {
+      "approach_id": "approach_wrist_dorsal",
+      "name": "Dorsal distal forearm",
+      "role": "conditional",
+      "content_status": "curated",
+      "selection_indications": ["Consider when the fracture pattern or fixation strategy requires direct dorsal/intermediate or radial-column access."],
+      "selection_limitations": ["Extensor tendon handling and implant prominence are central limitations; the exact interval is chosen by the fragment pattern."],
+      "positioning": ["Supine on a hand table with the forearm positioned for dorsal access and biplanar imaging."],
+      "exposure": ["Use the required interval between extensor compartments; a third-compartment approach mobilizes EPL and permits subperiosteal elevation of the fourth compartment for intermediate-column exposure."],
+      "layers": [],
+      "landmarks": ["Lister's tubercle", "EPL / third extensor compartment", "Second and fourth extensor compartments"],
+      "structures_at_risk": [
+        {"structure": "Extensor pollicis longus", "risk_phase": "Retinacular opening and implant coverage", "protection": "Identify, mobilize, and ensure a low-friction final course."},
+        {"structure": "Superficial radial nerve", "risk_phase": "Radial skin flap and radial-column exposure", "protection": "Identify and protect the sensory branch in the radial flap."}
+      ],
+      "pitfalls": ["Injuring EPL while opening the third compartment", "Leaving a tendon directly over prominent dorsal hardware without protective retinacular management"],
+      "questions": [
+        "Q: Which landmark identifies the EPL compartment? A: EPL turns around Lister's tubercle in the third extensor compartment.",
+        "Q: Why can a dorsal approach be selected? A: It provides direct access to dorsal/intermediate or radial-column fragments when dictated by the fracture pattern."
+      ],
+      "source_urls": [
+        "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/distal-forearm/approach/dorsal-approach",
+        "https://www.orthobullets.com/approaches/12013/dorsal-approach-to-the-wrist"
+      ],
+      "review_status": "agent_review_pending",
+      "review_evidence": [],
+      "coverage_notes": "Dorsal intervals are fragment-specific; this summarizes the common third-compartment/intermediate-column exposure."
+    }
+  ]
+}

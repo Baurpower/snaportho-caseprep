@@ -1,0 +1,471 @@
+{
+  "schema_version": "brobot_approach_packet_v1",
+  "approach_id": "distal_radius_dorsal_spanning_plate",
+  "name": "Dorsal approach for wrist-spanning bridge plate",
+  "aliases": [
+    "dorsal bridge plate approach",
+    "dorsal distraction plate exposure"
+  ],
+  "region": "dorsal wrist, distal radius, and third metacarpal",
+  "joint": "wrist",
+  "bones": [
+    "distal radius",
+    "third metacarpal"
+  ],
+  "corridor": "Third extensor-compartment release with radial EPL transposition and subperiosteal elevation of the intact fourth compartment",
+  "positioning": [
+    {
+      "text": "Position supine with arm on a radiolucent hand table, forearm pronated, and elbow and shoulder accessible for traction and imaging.",
+      "claim_ids": [
+        "distal_radius_dorsal_spanning_plate_positioning_01"
+      ]
+    }
+  ],
+  "setup": [
+    {
+      "text": "Template plate length and metacarpal choice, plan proximal and distal windows and tendon-safe tunnel, and counsel that planned plate removal is usually required.",
+      "claim_ids": [
+        "distal_radius_dorsal_spanning_plate_setup_01"
+      ]
+    }
+  ],
+  "surface_landmarks": [
+    {
+      "text": "Mark Lister tubercle, EPL course, third metacarpal, wrist joint, radial shaft, and superficial radial nerve territory.",
+      "claim_ids": [
+        "distal_radius_dorsal_spanning_plate_surface_landmarks_01"
+      ]
+    }
+  ],
+  "incision": [
+    {
+      "text": "Use aligned dorsal windows over distal radius and third metacarpal, extending the central exposure as needed for third-compartment release.",
+      "claim_ids": [
+        "distal_radius_dorsal_spanning_plate_incision_01"
+      ]
+    }
+  ],
+  "superficial_interval": [
+    {
+      "text": "Mobilize flaps carefully to protect superficial radial nerve branches and identify extensor compartments before tunneling.",
+      "claim_ids": [
+        "distal_radius_dorsal_spanning_plate_superficial_interval_01"
+      ]
+    }
+  ],
+  "deep_interval": [
+    {
+      "text": "Open the third compartment in line with EPL without cutting it, transpose EPL radially, and elevate the intact fourth compartment subperiosteally toward the third metacarpal.",
+      "claim_ids": [
+        "distal_radius_dorsal_spanning_plate_deep_interval_01"
+      ]
+    }
+  ],
+  "layers": [
+    {
+      "text": "Skin, subcutaneous nerve plane, extensor retinaculum, third-compartment sheath, subperiosteal fourth-compartment plane, then radius and third metacarpal.",
+      "claim_ids": [
+        "distal_radius_dorsal_spanning_plate_layers_01"
+      ]
+    }
+  ],
+  "structures_encountered": [
+    {
+      "text": "EPL, EDC/EIP compartment, second compartment when mobilized, dorsal capsule, radius, and third metacarpal are encountered.",
+      "claim_ids": [
+        "distal_radius_dorsal_spanning_plate_structures_encountered_01"
+      ]
+    }
+  ],
+  "structures_at_risk": [
+    {
+      "text": "EPL and other extensor tendons, superficial radial nerve, posterior interosseous nerve distally, dorsal sensory branches, and articular surfaces are at risk.",
+      "claim_ids": [
+        "distal_radius_dorsal_spanning_plate_structures_at_risk_01"
+      ]
+    }
+  ],
+  "danger_zones": [
+    {
+      "text": "Confirm the plate lies deep to tendons without trapping EPL or fourth-compartment tendons and avoid blind passage off bone.",
+      "claim_ids": [
+        "distal_radius_dorsal_spanning_plate_danger_zones_01"
+      ]
+    }
+  ],
+  "retraction_hazards": [
+    {
+      "text": "Use vessel-loop control of EPL without excessive traction and avoid crushing the intact fourth compartment against retractors or plate.",
+      "claim_ids": [
+        "distal_radius_dorsal_spanning_plate_retraction_hazards_01"
+      ]
+    }
+  ],
+  "exposure": [
+    {
+      "text": "Provides a dorsal internal-fixator corridor from radial shaft across wrist to third metacarpal and can expose the intermediate column.",
+      "claim_ids": [
+        "distal_radius_dorsal_spanning_plate_exposure_01"
+      ]
+    }
+  ],
+  "limitations": [
+    {
+      "text": "Temporarily sacrifices wrist motion, usually requires removal, and may not directly reduce all articular fragments without adjunct windows.",
+      "claim_ids": [
+        "distal_radius_dorsal_spanning_plate_limitations_01"
+      ]
+    }
+  ],
+  "extensions": [
+    {
+      "text": "Mobilize second compartment radially or extend radius/metacarpal windows for direct plate seating and fragment-specific adjunct fixation.",
+      "claim_ids": [
+        "distal_radius_dorsal_spanning_plate_extensions_01"
+      ]
+    }
+  ],
+  "indications": [
+    {
+      "text": "Use for severely comminuted intra-articular fractures, poor distal fixation stock, selected polytrauma load-bearing needs, or wrist fusion.",
+      "claim_ids": [
+        "distal_radius_dorsal_spanning_plate_indications_01"
+      ]
+    }
+  ],
+  "relative_contraindications": [
+    {
+      "text": "Avoid when a nonspanning construct can reliably restore anatomy and motion, or dorsal soft tissue and tendon conditions cannot tolerate the plate.",
+      "claim_ids": [
+        "distal_radius_dorsal_spanning_plate_relative_contraindications_01"
+      ]
+    }
+  ],
+  "implant_implications": [
+    {
+      "text": "Seat the bridge plate deep to tendons on radius and third metacarpal, restore length by ligamentotaxis without overdistraction, and plan later removal.",
+      "claim_ids": [
+        "distal_radius_dorsal_spanning_plate_implant_implications_01"
+      ]
+    }
+  ],
+  "fluoroscopy_implications": [
+    {
+      "text": "Confirm radial length, inclination, tilt, articular alignment, metacarpal and radial screw length, and absence of overdistraction.",
+      "claim_ids": [
+        "distal_radius_dorsal_spanning_plate_fluoroscopy_implications_01"
+      ]
+    }
+  ],
+  "closure": [
+    {
+      "text": "Verify tendon glide and plate coverage, leave EPL safely transposed as planned, repair retinacular intervals without constriction, and close in layers.",
+      "claim_ids": [
+        "distal_radius_dorsal_spanning_plate_closure_01"
+      ]
+    }
+  ],
+  "complications": [
+    {
+      "text": "Complications include tendon adhesion or rupture, digital stiffness, hardware failure, infection, nonunion or malunion, pain, and planned reoperation for removal.",
+      "claim_ids": [
+        "distal_radius_dorsal_spanning_plate_complications_01"
+      ]
+    }
+  ],
+  "bailouts": [
+    {
+      "text": "Open an additional window if the plate cannot pass on bone or tendons cannot be protected; add fragment-specific fixation when ligamentotaxis is insufficient.",
+      "claim_ids": [
+        "distal_radius_dorsal_spanning_plate_bailouts_01"
+      ]
+    }
+  ],
+  "procedure_applications": [
+    {
+      "procedure_id": "distal_radius_fracture_orif",
+      "relationship": "conditional_option",
+      "condition": "A highly comminuted intra-articular fracture needs internal wrist-spanning fixation or the patient requires a durable load-sharing construct"
+    },
+    {
+      "procedure_id": "wrist_arthrodesis",
+      "relationship": "conditional_option",
+      "condition": "A dorsal spanning exposure is required for wrist fusion"
+    }
+  ],
+  "questions": [
+    {
+      "question": "Which compartment is opened completely?",
+      "answer": "The third extensor compartment containing EPL.",
+      "claim_ids": [
+        "distal_radius_dorsal_spanning_plate_questions_01"
+      ]
+    },
+    {
+      "question": "How is the fourth compartment handled?",
+      "answer": "It is elevated subperiosteally while kept intact.",
+      "claim_ids": [
+        "distal_radius_dorsal_spanning_plate_questions_02"
+      ]
+    },
+    {
+      "question": "What major treatment tradeoff should be discussed?",
+      "answer": "Temporary wrist immobilization and a planned second operation for plate removal.",
+      "claim_ids": [
+        "distal_radius_dorsal_spanning_plate_questions_03"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "distal_radius_dorsal_spanning_plate_positioning_01",
+      "text": "Position supine with arm on a radiolucent hand table, forearm pronated, and elbow and shoulder accessible for traction and imaging.",
+      "source_ids": [
+        "ao_e6512408824cf727",
+        "pmid_33573844"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "distal_radius_dorsal_spanning_plate_setup_01",
+      "text": "Template plate length and metacarpal choice, plan proximal and distal windows and tendon-safe tunnel, and counsel that planned plate removal is usually required.",
+      "source_ids": [
+        "pmid_33573844",
+        "pmid_38967772"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "distal_radius_dorsal_spanning_plate_surface_landmarks_01",
+      "text": "Mark Lister tubercle, EPL course, third metacarpal, wrist joint, radial shaft, and superficial radial nerve territory.",
+      "source_ids": [
+        "ao_e6512408824cf727"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "distal_radius_dorsal_spanning_plate_incision_01",
+      "text": "Use aligned dorsal windows over distal radius and third metacarpal, extending the central exposure as needed for third-compartment release.",
+      "source_ids": [
+        "ao_e6512408824cf727",
+        "pmid_33573844"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "distal_radius_dorsal_spanning_plate_superficial_interval_01",
+      "text": "Mobilize flaps carefully to protect superficial radial nerve branches and identify extensor compartments before tunneling.",
+      "source_ids": [
+        "ao_e6512408824cf727",
+        "pmid_33573844"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "distal_radius_dorsal_spanning_plate_deep_interval_01",
+      "text": "Open the third compartment in line with EPL without cutting it, transpose EPL radially, and elevate the intact fourth compartment subperiosteally toward the third metacarpal.",
+      "source_ids": [
+        "ao_e6512408824cf727",
+        "pmid_33573844"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "distal_radius_dorsal_spanning_plate_layers_01",
+      "text": "Skin, subcutaneous nerve plane, extensor retinaculum, third-compartment sheath, subperiosteal fourth-compartment plane, then radius and third metacarpal.",
+      "source_ids": [
+        "ao_e6512408824cf727"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "distal_radius_dorsal_spanning_plate_structures_encountered_01",
+      "text": "EPL, EDC/EIP compartment, second compartment when mobilized, dorsal capsule, radius, and third metacarpal are encountered.",
+      "source_ids": [
+        "ao_e6512408824cf727"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "distal_radius_dorsal_spanning_plate_structures_at_risk_01",
+      "text": "EPL and other extensor tendons, superficial radial nerve, posterior interosseous nerve distally, dorsal sensory branches, and articular surfaces are at risk.",
+      "source_ids": [
+        "ao_e6512408824cf727",
+        "pmid_33573844"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "distal_radius_dorsal_spanning_plate_danger_zones_01",
+      "text": "Confirm the plate lies deep to tendons without trapping EPL or fourth-compartment tendons and avoid blind passage off bone.",
+      "source_ids": [
+        "ao_e6512408824cf727",
+        "pmid_33573844"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "distal_radius_dorsal_spanning_plate_retraction_hazards_01",
+      "text": "Use vessel-loop control of EPL without excessive traction and avoid crushing the intact fourth compartment against retractors or plate.",
+      "source_ids": [
+        "ao_e6512408824cf727",
+        "pmid_33573844"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "distal_radius_dorsal_spanning_plate_exposure_01",
+      "text": "Provides a dorsal internal-fixator corridor from radial shaft across wrist to third metacarpal and can expose the intermediate column.",
+      "source_ids": [
+        "ao_e6512408824cf727",
+        "pmid_33573844"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "distal_radius_dorsal_spanning_plate_limitations_01",
+      "text": "Temporarily sacrifices wrist motion, usually requires removal, and may not directly reduce all articular fragments without adjunct windows.",
+      "source_ids": [
+        "pmid_33573844",
+        "pmid_38967772"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "distal_radius_dorsal_spanning_plate_extensions_01",
+      "text": "Mobilize second compartment radially or extend radius/metacarpal windows for direct plate seating and fragment-specific adjunct fixation.",
+      "source_ids": [
+        "ao_e6512408824cf727",
+        "pmid_33573844"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "distal_radius_dorsal_spanning_plate_indications_01",
+      "text": "Use for severely comminuted intra-articular fractures, poor distal fixation stock, selected polytrauma load-bearing needs, or wrist fusion.",
+      "source_ids": [
+        "ao_e6512408824cf727",
+        "pmid_33573844"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "distal_radius_dorsal_spanning_plate_relative_contraindications_01",
+      "text": "Avoid when a nonspanning construct can reliably restore anatomy and motion, or dorsal soft tissue and tendon conditions cannot tolerate the plate.",
+      "source_ids": [
+        "pmid_33573844",
+        "pmid_38967772"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "distal_radius_dorsal_spanning_plate_implant_implications_01",
+      "text": "Seat the bridge plate deep to tendons on radius and third metacarpal, restore length by ligamentotaxis without overdistraction, and plan later removal.",
+      "source_ids": [
+        "pmid_33573844",
+        "pmid_38967772"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "distal_radius_dorsal_spanning_plate_fluoroscopy_implications_01",
+      "text": "Confirm radial length, inclination, tilt, articular alignment, metacarpal and radial screw length, and absence of overdistraction.",
+      "source_ids": [
+        "pmid_33573844",
+        "pmid_38967772"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "distal_radius_dorsal_spanning_plate_closure_01",
+      "text": "Verify tendon glide and plate coverage, leave EPL safely transposed as planned, repair retinacular intervals without constriction, and close in layers.",
+      "source_ids": [
+        "ao_e6512408824cf727",
+        "pmid_33573844"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "distal_radius_dorsal_spanning_plate_complications_01",
+      "text": "Complications include tendon adhesion or rupture, digital stiffness, hardware failure, infection, nonunion or malunion, pain, and planned reoperation for removal.",
+      "source_ids": [
+        "pmid_33573844",
+        "pmid_38967772"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "distal_radius_dorsal_spanning_plate_bailouts_01",
+      "text": "Open an additional window if the plate cannot pass on bone or tendons cannot be protected; add fragment-specific fixation when ligamentotaxis is insufficient.",
+      "source_ids": [
+        "ao_e6512408824cf727",
+        "pmid_33573844"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "distal_radius_dorsal_spanning_plate_questions_01",
+      "text": "Which compartment is opened completely?",
+      "source_ids": [
+        "ao_e6512408824cf727"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "distal_radius_dorsal_spanning_plate_questions_02",
+      "text": "How is the fourth compartment handled?",
+      "source_ids": [
+        "ao_e6512408824cf727"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "distal_radius_dorsal_spanning_plate_questions_03",
+      "text": "What major treatment tradeoff should be discussed?",
+      "source_ids": [
+        "pmid_38967772"
+      ],
+      "risk_level": "medium"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "ao_e6512408824cf727",
+      "provider": "AO Surgery Reference",
+      "title": "Dorsal Approach For Joint Spanning Plate",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/distal-forearm/approach/dorsal-approach-for-joint-spanning-plate",
+      "source_page_id": "ao_e6512408824cf727"
+    },
+    {
+      "source_id": "pmid_33573844",
+      "provider": "PubMed",
+      "title": "Dorsal Bridge Plate for Distal Radius Fractures: A Systematic Review",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/33573844/"
+    },
+    {
+      "source_id": "pmid_38967772",
+      "provider": "PubMed",
+      "title": "Systematic review: dorsal bridge plating in distal radius fractures",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38967772/"
+    }
+  ],
+  "content_status": "agent_review_pending",
+  "review": {
+    "status": "agent_review_pending",
+    "required_roles": [
+      "adversarial_safety_reviewer",
+      "approach_anatomy_reviewer",
+      "educational_value_reviewer",
+      "evidence_reviewer",
+      "operative_exposure_reviewer",
+      "procedure_applicability_reviewer"
+    ],
+    "completed_roles": []
+  },
+  "resolved_contradiction_keys": [],
+  "authoring_provenance": {
+    "method": "local_codex_curated",
+    "definition_file": "data/approach_library/curated/adult_distal_radius_core_approaches_v1.json",
+    "api_used": false
+  }
+}

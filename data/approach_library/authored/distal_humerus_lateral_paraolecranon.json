@@ -1,0 +1,473 @@
+{
+  "schema_version": "brobot_approach_packet_v1",
+  "approach_id": "distal_humerus_lateral_paraolecranon",
+  "name": "Lateral para-olecranon triceps-on approach",
+  "aliases": [
+    "lateral paraolecranon approach",
+    "triceps-on elbow arthroplasty approach"
+  ],
+  "region": "posterior lateral elbow and distal humerus",
+  "joint": "elbow",
+  "bones": [
+    "distal humerus",
+    "olecranon",
+    "proximal ulna"
+  ],
+  "corridor": "Anconeus fascial split lateral to ulna with subperiosteal anconeus reflection and limited medial triceps split",
+  "positioning": [
+    {
+      "text": "Position lateral or prone with arm supported, elbow freely flexed, and posterior humerus accessible for imaging.",
+      "claim_ids": [
+        "distal_humerus_lateral_paraolecranon_positioning_01"
+      ]
+    }
+  ],
+  "setup": [
+    {
+      "text": "Plan arthroplasty versus fixation, ulnar-nerve handling, possible medial window, and immediate conversion to olecranon osteotomy if articular access proves inadequate.",
+      "claim_ids": [
+        "distal_humerus_lateral_paraolecranon_setup_01"
+      ]
+    }
+  ],
+  "surface_landmarks": [
+    {
+      "text": "Mark humeral shaft, olecranon, subcutaneous ulna, medial epicondyle, and ulnar-nerve course.",
+      "claim_ids": [
+        "distal_humerus_lateral_paraolecranon_surface_landmarks_01"
+      ]
+    }
+  ],
+  "incision": [
+    {
+      "text": "Use a posterior incision from the middle-distal humeral junction to ulnar diaphysis, curving around rather than directly over olecranon tip.",
+      "claim_ids": [
+        "distal_humerus_lateral_paraolecranon_incision_01"
+      ]
+    }
+  ],
+  "superficial_interval": [
+    {
+      "text": "Raise full-thickness fasciocutaneous flaps, identify ulnar nerve proximally, release through cubital tunnel to first motor branch, and preserve perineural vessels.",
+      "claim_ids": [
+        "distal_humerus_lateral_paraolecranon_superficial_interval_01"
+      ]
+    }
+  ],
+  "deep_interval": [
+    {
+      "text": "Split anconeus fascia 1 cm lateral to ulna, continue lateral to triceps insertion then into medial triceps, and reflect anconeus/capsule subperiosteally from proximal ulna and lateral column.",
+      "claim_ids": [
+        "distal_humerus_lateral_paraolecranon_deep_interval_01"
+      ]
+    }
+  ],
+  "layers": [
+    {
+      "text": "Skin, full-thickness flap, anconeus fascia, subperiosteal anconeus-capsule layer, limited triceps split, then posterior distal humerus.",
+      "claim_ids": [
+        "distal_humerus_lateral_paraolecranon_layers_01"
+      ]
+    }
+  ],
+  "structures_encountered": [
+    {
+      "text": "Ulnar nerve, triceps, anconeus, posterior capsule, collateral ligaments, distal humerus, olecranon, and proximal ulna are encountered.",
+      "claim_ids": [
+        "distal_humerus_lateral_paraolecranon_structures_encountered_01"
+      ]
+    }
+  ],
+  "structures_at_risk": [
+    {
+      "text": "Ulnar nerve and FCU motor branch, radial nerve proximally, collateral ligaments, triceps/anconeus blood supply, and articular cartilage are at risk.",
+      "claim_ids": [
+        "distal_humerus_lateral_paraolecranon_structures_at_risk_01"
+      ]
+    }
+  ],
+  "danger_zones": [
+    {
+      "text": "Never tension the mobilized ulnar nerve with a clipped sling; at closure leave it tension free and away from metalwork and sutures.",
+      "claim_ids": [
+        "distal_humerus_lateral_paraolecranon_danger_zones_01"
+      ]
+    }
+  ],
+  "retraction_hazards": [
+    {
+      "text": "Move the triceps-on sleeve gently and avoid sustained ulnar-nerve traction or circumferential soft-tissue stripping.",
+      "claim_ids": [
+        "distal_humerus_lateral_paraolecranon_retraction_hazards_01"
+      ]
+    }
+  ],
+  "exposure": [
+    {
+      "text": "Preserves triceps insertion while exposing posterior articular surface; medial window supports dual plating and conversion to osteotomy is straightforward.",
+      "claim_ids": [
+        "distal_humerus_lateral_paraolecranon_exposure_01"
+      ]
+    }
+  ],
+  "limitations": [
+    {
+      "text": "Ulna preparation for arthroplasty and complex multifragmentary articular visualization are more difficult than through extensile osteotomy.",
+      "claim_ids": [
+        "distal_humerus_lateral_paraolecranon_limitations_01"
+      ]
+    }
+  ],
+  "extensions": [
+    {
+      "text": "Add medial paratricipital window, reflect collateral origins for arthroplasty dislocation, or convert to planned olecranon osteotomy.",
+      "claim_ids": [
+        "distal_humerus_lateral_paraolecranon_extensions_01"
+      ]
+    }
+  ],
+  "indications": [
+    {
+      "text": "Use primarily for total elbow arthroplasty and selectively for extra-articular or simple intra-articular distal-humerus fractures.",
+      "claim_ids": [
+        "distal_humerus_lateral_paraolecranon_indications_01"
+      ]
+    }
+  ],
+  "relative_contraindications": [
+    {
+      "text": "Choose an olecranon osteotomy or other extensile exposure for highly comminuted articular fractures requiring complete visualization.",
+      "claim_ids": [
+        "distal_humerus_lateral_paraolecranon_relative_contraindications_01"
+      ]
+    }
+  ],
+  "implant_implications": [
+    {
+      "text": "Supports posterior/lateral and medial plating through separate windows; document final ulnar-nerve location and prevent implant contact.",
+      "claim_ids": [
+        "distal_humerus_lateral_paraolecranon_implant_implications_01"
+      ]
+    }
+  ],
+  "fluoroscopy_implications": [
+    {
+      "text": "Use AP, lateral, and oblique views to verify column alignment, joint congruity, implant containment, and arthroplasty position.",
+      "claim_ids": [
+        "distal_humerus_lateral_paraolecranon_fluoroscopy_implications_01"
+      ]
+    }
+  ],
+  "closure": [
+    {
+      "text": "Repair reflected collateral ligaments when used, restore anconeus fascia and triceps split, and place ulnar nerve tension free away from sutures and implants.",
+      "claim_ids": [
+        "distal_humerus_lateral_paraolecranon_closure_01"
+      ]
+    }
+  ],
+  "complications": [
+    {
+      "text": "Complications include ulnar neuropathy, instability after ligament release, stiffness, triceps weakness, infection, nonunion, and implant failure.",
+      "claim_ids": [
+        "distal_humerus_lateral_paraolecranon_complications_01"
+      ]
+    }
+  ],
+  "bailouts": [
+    {
+      "text": "Convert early to olecranon osteotomy when direct articular control is insufficient rather than forcing the triceps-on window.",
+      "claim_ids": [
+        "distal_humerus_lateral_paraolecranon_bailouts_01"
+      ]
+    }
+  ],
+  "procedure_applications": [
+    {
+      "procedure_id": "total_elbow_arthroplasty",
+      "relationship": "primary_option",
+      "condition": "Elbow arthroplasty is planned with preservation of the triceps insertion"
+    },
+    {
+      "procedure_id": "distal_humerus_fracture_orif",
+      "relationship": "conditional_option",
+      "condition": "An extra-articular or simple intra-articular fracture can be reduced without olecranon osteotomy"
+    }
+  ],
+  "questions": [
+    {
+      "question": "What insertion remains intact?",
+      "answer": "The triceps insertion on the ulna.",
+      "claim_ids": [
+        "distal_humerus_lateral_paraolecranon_questions_01"
+      ]
+    },
+    {
+      "question": "Where is the anconeus fascial split?",
+      "answer": "About 1 cm lateral to the subcutaneous ulnar border.",
+      "claim_ids": [
+        "distal_humerus_lateral_paraolecranon_questions_02"
+      ]
+    },
+    {
+      "question": "What is the principal conversion?",
+      "answer": "Olecranon osteotomy for more articular access.",
+      "claim_ids": [
+        "distal_humerus_lateral_paraolecranon_questions_03"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "distal_humerus_lateral_paraolecranon_positioning_01",
+      "text": "Position lateral or prone with arm supported, elbow freely flexed, and posterior humerus accessible for imaging.",
+      "source_ids": [
+        "ao_0f36fe14065add12",
+        "pmid_29934098"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "distal_humerus_lateral_paraolecranon_setup_01",
+      "text": "Plan arthroplasty versus fixation, ulnar-nerve handling, possible medial window, and immediate conversion to olecranon osteotomy if articular access proves inadequate.",
+      "source_ids": [
+        "ao_0f36fe14065add12",
+        "pmid_29934098"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "distal_humerus_lateral_paraolecranon_surface_landmarks_01",
+      "text": "Mark humeral shaft, olecranon, subcutaneous ulna, medial epicondyle, and ulnar-nerve course.",
+      "source_ids": [
+        "ao_0f36fe14065add12"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "distal_humerus_lateral_paraolecranon_incision_01",
+      "text": "Use a posterior incision from the middle-distal humeral junction to ulnar diaphysis, curving around rather than directly over olecranon tip.",
+      "source_ids": [
+        "ao_0f36fe14065add12",
+        "pmid_29934098"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "distal_humerus_lateral_paraolecranon_superficial_interval_01",
+      "text": "Raise full-thickness fasciocutaneous flaps, identify ulnar nerve proximally, release through cubital tunnel to first motor branch, and preserve perineural vessels.",
+      "source_ids": [
+        "ao_0f36fe14065add12",
+        "pmid_29934098"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "distal_humerus_lateral_paraolecranon_deep_interval_01",
+      "text": "Split anconeus fascia 1 cm lateral to ulna, continue lateral to triceps insertion then into medial triceps, and reflect anconeus/capsule subperiosteally from proximal ulna and lateral column.",
+      "source_ids": [
+        "ao_0f36fe14065add12",
+        "pmid_24813383"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "distal_humerus_lateral_paraolecranon_layers_01",
+      "text": "Skin, full-thickness flap, anconeus fascia, subperiosteal anconeus-capsule layer, limited triceps split, then posterior distal humerus.",
+      "source_ids": [
+        "ao_0f36fe14065add12"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "distal_humerus_lateral_paraolecranon_structures_encountered_01",
+      "text": "Ulnar nerve, triceps, anconeus, posterior capsule, collateral ligaments, distal humerus, olecranon, and proximal ulna are encountered.",
+      "source_ids": [
+        "ao_0f36fe14065add12",
+        "pmid_29934098"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "distal_humerus_lateral_paraolecranon_structures_at_risk_01",
+      "text": "Ulnar nerve and FCU motor branch, radial nerve proximally, collateral ligaments, triceps/anconeus blood supply, and articular cartilage are at risk.",
+      "source_ids": [
+        "ao_0f36fe14065add12",
+        "pmid_29934098"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "distal_humerus_lateral_paraolecranon_danger_zones_01",
+      "text": "Never tension the mobilized ulnar nerve with a clipped sling; at closure leave it tension free and away from metalwork and sutures.",
+      "source_ids": [
+        "ao_0f36fe14065add12",
+        "pmid_29934098"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "distal_humerus_lateral_paraolecranon_retraction_hazards_01",
+      "text": "Move the triceps-on sleeve gently and avoid sustained ulnar-nerve traction or circumferential soft-tissue stripping.",
+      "source_ids": [
+        "ao_0f36fe14065add12",
+        "pmid_24813383"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "distal_humerus_lateral_paraolecranon_exposure_01",
+      "text": "Preserves triceps insertion while exposing posterior articular surface; medial window supports dual plating and conversion to osteotomy is straightforward.",
+      "source_ids": [
+        "ao_0f36fe14065add12",
+        "pmid_24813383"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "distal_humerus_lateral_paraolecranon_limitations_01",
+      "text": "Ulna preparation for arthroplasty and complex multifragmentary articular visualization are more difficult than through extensile osteotomy.",
+      "source_ids": [
+        "ao_0f36fe14065add12",
+        "pmid_29934098"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "distal_humerus_lateral_paraolecranon_extensions_01",
+      "text": "Add medial paratricipital window, reflect collateral origins for arthroplasty dislocation, or convert to planned olecranon osteotomy.",
+      "source_ids": [
+        "ao_0f36fe14065add12",
+        "pmid_29934098"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "distal_humerus_lateral_paraolecranon_indications_01",
+      "text": "Use primarily for total elbow arthroplasty and selectively for extra-articular or simple intra-articular distal-humerus fractures.",
+      "source_ids": [
+        "ao_0f36fe14065add12",
+        "pmid_24813383"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "distal_humerus_lateral_paraolecranon_relative_contraindications_01",
+      "text": "Choose an olecranon osteotomy or other extensile exposure for highly comminuted articular fractures requiring complete visualization.",
+      "source_ids": [
+        "ao_0f36fe14065add12",
+        "pmid_29934098"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "distal_humerus_lateral_paraolecranon_implant_implications_01",
+      "text": "Supports posterior/lateral and medial plating through separate windows; document final ulnar-nerve location and prevent implant contact.",
+      "source_ids": [
+        "ao_0f36fe14065add12",
+        "pmid_29934098"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "distal_humerus_lateral_paraolecranon_fluoroscopy_implications_01",
+      "text": "Use AP, lateral, and oblique views to verify column alignment, joint congruity, implant containment, and arthroplasty position.",
+      "source_ids": [
+        "ao_0f36fe14065add12",
+        "pmid_29934098"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "distal_humerus_lateral_paraolecranon_closure_01",
+      "text": "Repair reflected collateral ligaments when used, restore anconeus fascia and triceps split, and place ulnar nerve tension free away from sutures and implants.",
+      "source_ids": [
+        "ao_0f36fe14065add12",
+        "pmid_29934098"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "distal_humerus_lateral_paraolecranon_complications_01",
+      "text": "Complications include ulnar neuropathy, instability after ligament release, stiffness, triceps weakness, infection, nonunion, and implant failure.",
+      "source_ids": [
+        "pmid_29934098",
+        "pmid_24813383"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "distal_humerus_lateral_paraolecranon_bailouts_01",
+      "text": "Convert early to olecranon osteotomy when direct articular control is insufficient rather than forcing the triceps-on window.",
+      "source_ids": [
+        "ao_0f36fe14065add12",
+        "pmid_29934098"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "distal_humerus_lateral_paraolecranon_questions_01",
+      "text": "What insertion remains intact?",
+      "source_ids": [
+        "ao_0f36fe14065add12"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "distal_humerus_lateral_paraolecranon_questions_02",
+      "text": "Where is the anconeus fascial split?",
+      "source_ids": [
+        "ao_0f36fe14065add12"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "distal_humerus_lateral_paraolecranon_questions_03",
+      "text": "What is the principal conversion?",
+      "source_ids": [
+        "ao_0f36fe14065add12"
+      ],
+      "risk_level": "medium"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "ao_0f36fe14065add12",
+      "provider": "AO Surgery Reference",
+      "title": "Lateral Paraolecranon Approach",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/distal-humerus/approach/lateral-paraolecranon-approach",
+      "source_page_id": "ao_0f36fe14065add12"
+    },
+    {
+      "source_id": "pmid_29934098",
+      "provider": "PubMed",
+      "title": "Surgical approaches for ORIF of intra-articular distal humerus fractures in adults",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/29934098/"
+    },
+    {
+      "source_id": "pmid_24813383",
+      "provider": "PubMed",
+      "title": "Comparison of outcomes after triceps split versus sparing surgery for extra-articular distal humerus fractures",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/24813383/"
+    }
+  ],
+  "content_status": "agent_review_pending",
+  "review": {
+    "status": "agent_review_pending",
+    "required_roles": [
+      "adversarial_safety_reviewer",
+      "approach_anatomy_reviewer",
+      "educational_value_reviewer",
+      "evidence_reviewer",
+      "operative_exposure_reviewer",
+      "procedure_applicability_reviewer"
+    ],
+    "completed_roles": []
+  },
+  "resolved_contradiction_keys": [],
+  "authoring_provenance": {
+    "method": "local_codex_curated",
+    "definition_file": "data/approach_library/curated/distal_humerus_triceps_on_medial_v1.json",
+    "api_used": false
+  }
+}

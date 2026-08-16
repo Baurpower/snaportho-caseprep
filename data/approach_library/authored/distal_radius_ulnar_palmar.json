@@ -1,0 +1,472 @@
+{
+  "schema_version": "brobot_approach_packet_v1",
+  "approach_id": "distal_radius_ulnar_palmar",
+  "name": "Ulnar-palmar approach to the distal radius",
+  "aliases": [
+    "ulnar volar distal-radius approach",
+    "extended ulnar-palmar approach"
+  ],
+  "region": "ulnar volar wrist and distal forearm",
+  "joint": "wrist and distal radioulnar joint",
+  "bones": [
+    "distal radius",
+    "distal ulna"
+  ],
+  "corridor": "Between ulnar neurovascular bundle and flexor tendons, with flexors and median nerve retracted radially",
+  "positioning": [
+    {
+      "text": "Position supine with the arm on a hand table and forearm supinated for ulnar-volar access.",
+      "claim_ids": [
+        "distal_radius_ulnar_palmar_positioning_01"
+      ]
+    }
+  ],
+  "setup": [
+    {
+      "text": "Map ulnar bundle, median nerve, carpal tunnel, lunate facet and sigmoid notch; prepare magnification and vascular control.",
+      "claim_ids": [
+        "distal_radius_ulnar_palmar_setup_01"
+      ]
+    }
+  ],
+  "surface_landmarks": [
+    {
+      "text": "Mark ulna, wrist crease, pisiform, FCU, palmaris longus, flexor-tendon mass, and ulnar pulse.",
+      "claim_ids": [
+        "distal_radius_ulnar_palmar_surface_landmarks_01"
+      ]
+    }
+  ],
+  "incision": [
+    {
+      "text": "Begin at the wrist crease parallel to the ulna and extend proximally; extend across the crease into palm when carpal-tunnel or radiocarpal access is required.",
+      "claim_ids": [
+        "distal_radius_ulnar_palmar_incision_01"
+      ]
+    }
+  ],
+  "superficial_interval": [
+    {
+      "text": "Identify the ulnar artery and nerve and develop the plane between them and the flexor tendons.",
+      "claim_ids": [
+        "distal_radius_ulnar_palmar_superficial_interval_01"
+      ]
+    }
+  ],
+  "deep_interval": [
+    {
+      "text": "Retract flexor tendons and median nerve radially, expose pronator quadratus, and elevate only the ulnar portion required to reach distal radius.",
+      "claim_ids": [
+        "distal_radius_ulnar_palmar_deep_interval_01"
+      ]
+    }
+  ],
+  "layers": [
+    {
+      "text": "Skin, palmar fascia, ulnar bundle-flexor interval, flexor layer with median nerve, pronator quadratus, then volar-ulnar radius.",
+      "claim_ids": [
+        "distal_radius_ulnar_palmar_layers_01"
+      ]
+    }
+  ],
+  "structures_encountered": [
+    {
+      "text": "Ulnar artery and nerve, flexor tendons, median nerve, pronator quadratus, lunate facet, sigmoid notch, capsule, DRUJ, and distal ulna are encountered.",
+      "claim_ids": [
+        "distal_radius_ulnar_palmar_structures_encountered_01"
+      ]
+    }
+  ],
+  "structures_at_risk": [
+    {
+      "text": "Ulnar artery and nerve, median nerve and palmar cutaneous branch, flexor tendons, palmar radiocarpal ligaments, TFCC, and DRUJ cartilage are at risk.",
+      "claim_ids": [
+        "distal_radius_ulnar_palmar_structures_at_risk_01"
+      ]
+    }
+  ],
+  "danger_zones": [
+    {
+      "text": "Keep the ulnar bundle continuously identified and do not confuse an extensile distal continuation with a complete carpal-tunnel release unless decompression is intended.",
+      "claim_ids": [
+        "distal_radius_ulnar_palmar_danger_zones_01"
+      ]
+    }
+  ],
+  "retraction_hazards": [
+    {
+      "text": "Avoid sustained radial traction on median nerve and flexors or ulnar pressure on the neurovascular bundle.",
+      "claim_ids": [
+        "distal_radius_ulnar_palmar_retraction_hazards_01"
+      ]
+    }
+  ],
+  "exposure": [
+    {
+      "text": "Exposes lunate facet, sigmoid notch, palmar capsule, DRUJ, distal ulna, and carpal tunnel when extended.",
+      "claim_ids": [
+        "distal_radius_ulnar_palmar_exposure_01"
+      ]
+    }
+  ],
+  "limitations": [
+    {
+      "text": "Provides poor access to the radial styloid and radial column compared with modified Henry or radial-column approaches.",
+      "claim_ids": [
+        "distal_radius_ulnar_palmar_limitations_01"
+      ]
+    }
+  ],
+  "extensions": [
+    {
+      "text": "Extend distally for carpal-tunnel and radiocarpal exposure or combine with radial-volar/dorsal approaches for other columns.",
+      "claim_ids": [
+        "distal_radius_ulnar_palmar_extensions_01"
+      ]
+    }
+  ],
+  "indications": [
+    {
+      "text": "Use for isolated lunate-facet and volar-ulnar fragments, sigmoid-notch/DRUJ injuries, and selected high-energy fractures requiring extensile ulnar access.",
+      "claim_ids": [
+        "distal_radius_ulnar_palmar_indications_01"
+      ]
+    }
+  ],
+  "relative_contraindications": [
+    {
+      "text": "Use modified Henry for routine radial-column patterns and avoid compromised ulnar-palmar skin or an unmanageable ulnar neurovascular corridor.",
+      "claim_ids": [
+        "distal_radius_ulnar_palmar_relative_contraindications_01"
+      ]
+    }
+  ],
+  "implant_implications": [
+    {
+      "text": "Supports fragment-specific volar-ulnar fixation; keep hardware clear of flexors, DRUJ, and radiocarpal joint.",
+      "claim_ids": [
+        "distal_radius_ulnar_palmar_implant_implications_01"
+      ]
+    }
+  ],
+  "fluoroscopy_implications": [
+    {
+      "text": "Use PA, lateral, oblique, tilted lateral, and DRUJ views to verify lunate-facet capture, sigmoid-notch congruity, and screw containment.",
+      "claim_ids": [
+        "distal_radius_ulnar_palmar_fluoroscopy_implications_01"
+      ]
+    }
+  ],
+  "closure": [
+    {
+      "text": "Repair pronator quadratus when possible, verify flexor glide and ulnar/median nerve function, and close without constricting the bundle.",
+      "claim_ids": [
+        "distal_radius_ulnar_palmar_closure_01"
+      ]
+    }
+  ],
+  "complications": [
+    {
+      "text": "Complications include ulnar or median neuropathy, arterial injury, flexor-tendon irritation, carpal-tunnel symptoms, DRUJ stiffness, joint penetration, and wound problems.",
+      "claim_ids": [
+        "distal_radius_ulnar_palmar_complications_01"
+      ]
+    }
+  ],
+  "bailouts": [
+    {
+      "text": "Add a separate radial or dorsal exposure when other columns remain uncontrolled rather than over-retracting neurovascular structures.",
+      "claim_ids": [
+        "distal_radius_ulnar_palmar_bailouts_01"
+      ]
+    }
+  ],
+  "procedure_applications": [
+    {
+      "procedure_id": "distal_radius_fracture_orif",
+      "relationship": "conditional_option",
+      "condition": "A lunate-facet, sigmoid-notch, volar-ulnar, DRUJ, or high-energy pattern requires direct ulnar-volar control"
+    },
+    {
+      "procedure_id": "carpal_tunnel_release",
+      "relationship": "conditional_option",
+      "condition": "The approach is extended distally for indicated median-nerve decompression"
+    }
+  ],
+  "questions": [
+    {
+      "question": "What is the key interval?",
+      "answer": "Between the ulnar artery/nerve and the flexor tendons.",
+      "claim_ids": [
+        "distal_radius_ulnar_palmar_questions_01"
+      ]
+    },
+    {
+      "question": "What is retracted radially?",
+      "answer": "Flexor tendons and median nerve.",
+      "claim_ids": [
+        "distal_radius_ulnar_palmar_questions_02"
+      ]
+    },
+    {
+      "question": "Which fragments are best exposed?",
+      "answer": "The lunate facet and sigmoid-notch/volar-ulnar region.",
+      "claim_ids": [
+        "distal_radius_ulnar_palmar_questions_03"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "distal_radius_ulnar_palmar_positioning_01",
+      "text": "Position supine with the arm on a hand table and forearm supinated for ulnar-volar access.",
+      "source_ids": [
+        "ao_92080ab56906457a",
+        "pmid_27833358"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "distal_radius_ulnar_palmar_setup_01",
+      "text": "Map ulnar bundle, median nerve, carpal tunnel, lunate facet and sigmoid notch; prepare magnification and vascular control.",
+      "source_ids": [
+        "ao_92080ab56906457a",
+        "pmid_27833358"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "distal_radius_ulnar_palmar_surface_landmarks_01",
+      "text": "Mark ulna, wrist crease, pisiform, FCU, palmaris longus, flexor-tendon mass, and ulnar pulse.",
+      "source_ids": [
+        "ao_92080ab56906457a"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "distal_radius_ulnar_palmar_incision_01",
+      "text": "Begin at the wrist crease parallel to the ulna and extend proximally; extend across the crease into palm when carpal-tunnel or radiocarpal access is required.",
+      "source_ids": [
+        "ao_92080ab56906457a",
+        "pmid_41400069"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "distal_radius_ulnar_palmar_superficial_interval_01",
+      "text": "Identify the ulnar artery and nerve and develop the plane between them and the flexor tendons.",
+      "source_ids": [
+        "ao_92080ab56906457a",
+        "pmid_27833358"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "distal_radius_ulnar_palmar_deep_interval_01",
+      "text": "Retract flexor tendons and median nerve radially, expose pronator quadratus, and elevate only the ulnar portion required to reach distal radius.",
+      "source_ids": [
+        "ao_92080ab56906457a",
+        "pmid_27833358"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "distal_radius_ulnar_palmar_layers_01",
+      "text": "Skin, palmar fascia, ulnar bundle-flexor interval, flexor layer with median nerve, pronator quadratus, then volar-ulnar radius.",
+      "source_ids": [
+        "ao_92080ab56906457a"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "distal_radius_ulnar_palmar_structures_encountered_01",
+      "text": "Ulnar artery and nerve, flexor tendons, median nerve, pronator quadratus, lunate facet, sigmoid notch, capsule, DRUJ, and distal ulna are encountered.",
+      "source_ids": [
+        "ao_92080ab56906457a",
+        "pmid_27833358"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "distal_radius_ulnar_palmar_structures_at_risk_01",
+      "text": "Ulnar artery and nerve, median nerve and palmar cutaneous branch, flexor tendons, palmar radiocarpal ligaments, TFCC, and DRUJ cartilage are at risk.",
+      "source_ids": [
+        "ao_92080ab56906457a",
+        "pmid_27833358"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "distal_radius_ulnar_palmar_danger_zones_01",
+      "text": "Keep the ulnar bundle continuously identified and do not confuse an extensile distal continuation with a complete carpal-tunnel release unless decompression is intended.",
+      "source_ids": [
+        "ao_92080ab56906457a",
+        "pmid_27833358"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "distal_radius_ulnar_palmar_retraction_hazards_01",
+      "text": "Avoid sustained radial traction on median nerve and flexors or ulnar pressure on the neurovascular bundle.",
+      "source_ids": [
+        "ao_92080ab56906457a",
+        "pmid_27833358"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "distal_radius_ulnar_palmar_exposure_01",
+      "text": "Exposes lunate facet, sigmoid notch, palmar capsule, DRUJ, distal ulna, and carpal tunnel when extended.",
+      "source_ids": [
+        "ao_92080ab56906457a",
+        "pmid_41400069"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "distal_radius_ulnar_palmar_limitations_01",
+      "text": "Provides poor access to the radial styloid and radial column compared with modified Henry or radial-column approaches.",
+      "source_ids": [
+        "ao_92080ab56906457a",
+        "pmid_41400069"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "distal_radius_ulnar_palmar_extensions_01",
+      "text": "Extend distally for carpal-tunnel and radiocarpal exposure or combine with radial-volar/dorsal approaches for other columns.",
+      "source_ids": [
+        "ao_92080ab56906457a",
+        "pmid_41400069"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "distal_radius_ulnar_palmar_indications_01",
+      "text": "Use for isolated lunate-facet and volar-ulnar fragments, sigmoid-notch/DRUJ injuries, and selected high-energy fractures requiring extensile ulnar access.",
+      "source_ids": [
+        "ao_92080ab56906457a",
+        "pmid_41400069"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "distal_radius_ulnar_palmar_relative_contraindications_01",
+      "text": "Use modified Henry for routine radial-column patterns and avoid compromised ulnar-palmar skin or an unmanageable ulnar neurovascular corridor.",
+      "source_ids": [
+        "ao_92080ab56906457a",
+        "pmid_41400069"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "distal_radius_ulnar_palmar_implant_implications_01",
+      "text": "Supports fragment-specific volar-ulnar fixation; keep hardware clear of flexors, DRUJ, and radiocarpal joint.",
+      "source_ids": [
+        "ao_92080ab56906457a",
+        "pmid_41400069"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "distal_radius_ulnar_palmar_fluoroscopy_implications_01",
+      "text": "Use PA, lateral, oblique, tilted lateral, and DRUJ views to verify lunate-facet capture, sigmoid-notch congruity, and screw containment.",
+      "source_ids": [
+        "ao_92080ab56906457a",
+        "pmid_41400069"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "distal_radius_ulnar_palmar_closure_01",
+      "text": "Repair pronator quadratus when possible, verify flexor glide and ulnar/median nerve function, and close without constricting the bundle.",
+      "source_ids": [
+        "ao_92080ab56906457a",
+        "pmid_27833358"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "distal_radius_ulnar_palmar_complications_01",
+      "text": "Complications include ulnar or median neuropathy, arterial injury, flexor-tendon irritation, carpal-tunnel symptoms, DRUJ stiffness, joint penetration, and wound problems.",
+      "source_ids": [
+        "ao_92080ab56906457a",
+        "pmid_27833358"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "distal_radius_ulnar_palmar_bailouts_01",
+      "text": "Add a separate radial or dorsal exposure when other columns remain uncontrolled rather than over-retracting neurovascular structures.",
+      "source_ids": [
+        "ao_92080ab56906457a",
+        "pmid_41400069"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "distal_radius_ulnar_palmar_questions_01",
+      "text": "What is the key interval?",
+      "source_ids": [
+        "ao_92080ab56906457a"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "distal_radius_ulnar_palmar_questions_02",
+      "text": "What is retracted radially?",
+      "source_ids": [
+        "ao_92080ab56906457a"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "distal_radius_ulnar_palmar_questions_03",
+      "text": "Which fragments are best exposed?",
+      "source_ids": [
+        "ao_92080ab56906457a"
+      ],
+      "risk_level": "medium"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "ao_92080ab56906457a",
+      "provider": "AO Surgery Reference",
+      "title": "Ulnar Palmar Approach To The Distal Radius",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/distal-forearm/approach/ulnar-palmar-approach-to-the-distal-radius",
+      "source_page_id": "ao_92080ab56906457a"
+    },
+    {
+      "source_id": "pmid_27833358",
+      "provider": "PubMed",
+      "title": "Anatomic considerations when performing the modified Henry approach for exposure of distal radius fractures",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/27833358/"
+    },
+    {
+      "source_id": "pmid_41400069",
+      "provider": "PubMed",
+      "title": "When is a Volar Plate Not Enough? Indications for Alternative Fixation Techniques in Distal Radius Fractures",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41400069/"
+    }
+  ],
+  "content_status": "agent_review_pending",
+  "review": {
+    "status": "agent_review_pending",
+    "required_roles": [
+      "adversarial_safety_reviewer",
+      "approach_anatomy_reviewer",
+      "educational_value_reviewer",
+      "evidence_reviewer",
+      "operative_exposure_reviewer",
+      "procedure_applicability_reviewer"
+    ],
+    "completed_roles": []
+  },
+  "resolved_contradiction_keys": [],
+  "authoring_provenance": {
+    "method": "local_codex_curated",
+    "definition_file": "data/approach_library/curated/distal_forearm_ulnar_approaches_v1.json",
+    "api_used": false
+  }
+}

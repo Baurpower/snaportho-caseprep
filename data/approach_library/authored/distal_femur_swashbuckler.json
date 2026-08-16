@@ -1,0 +1,472 @@
+{
+  "schema_version": "brobot_approach_packet_v1",
+  "approach_id": "distal_femur_swashbuckler",
+  "name": "Swashbuckler approach to the distal femur",
+  "aliases": [
+    "modified anterior distal femur approach",
+    "anterolateral swashbuckler"
+  ],
+  "region": "anterior and lateral distal femur",
+  "joint": "knee",
+  "bones": [
+    "distal femur",
+    "patella"
+  ],
+  "corridor": "Anterior skin incision with lateral parapatellar arthrotomy and vastus-lateralis mobilization that preserves quadriceps muscle bellies",
+  "positioning": [
+    {
+      "text": "Position supine on a radiolucent table with the knee flexed and the limb mobile for patellar displacement and fluoroscopy.",
+      "claim_ids": [
+        "distal_femur_swashbuckler_positioning_01"
+      ]
+    }
+  ],
+  "setup": [
+    {
+      "text": "Review CT-defined articular fragments and prepare independent lag-screw and lateral plate strategies before exposure.",
+      "claim_ids": [
+        "distal_femur_swashbuckler_setup_01"
+      ]
+    }
+  ],
+  "surface_landmarks": [
+    {
+      "text": "Mark patella, patellar tendon, tibial tubercle, lateral joint line, lateral epicondyle, and femoral shaft.",
+      "claim_ids": [
+        "distal_femur_swashbuckler_surface_landmarks_01"
+      ]
+    }
+  ],
+  "incision": [
+    {
+      "text": "Use an anterior longitudinal incision compatible with broad distal-femur access and possible future knee arthroplasty.",
+      "claim_ids": [
+        "distal_femur_swashbuckler_incision_01"
+      ]
+    }
+  ],
+  "superficial_interval": [
+    {
+      "text": "Develop the lateral parapatellar side while preserving quadriceps muscle bellies and mobilizing the extensor mechanism as a controlled unit.",
+      "claim_ids": [
+        "distal_femur_swashbuckler_superficial_interval_01"
+      ]
+    }
+  ],
+  "deep_interval": [
+    {
+      "text": "Open the lateral parapatellar capsule and elevate or mobilize vastus lateralis to expose the entire articular surface and lateral distal femur.",
+      "claim_ids": [
+        "distal_femur_swashbuckler_deep_interval_01"
+      ]
+    }
+  ],
+  "layers": [
+    {
+      "text": "Skin, subcutaneous tissue, lateral retinacular-capsular layer, vastus-lateralis interface, synovium, then distal femoral articular surface.",
+      "claim_ids": [
+        "distal_femur_swashbuckler_layers_01"
+      ]
+    }
+  ],
+  "structures_encountered": [
+    {
+      "text": "Extensor mechanism, patella, lateral retinaculum, vastus lateralis, femoral condyles, trochlea, and lateral femoral cortex are encountered.",
+      "claim_ids": [
+        "distal_femur_swashbuckler_structures_encountered_01"
+      ]
+    }
+  ],
+  "structures_at_risk": [
+    {
+      "text": "Patellar tendon, articular cartilage, menisci, genicular vessels, vastus-lateralis blood supply, and posterior neurovascular structures during posterior drilling are at risk.",
+      "claim_ids": [
+        "distal_femur_swashbuckler_structures_at_risk_01"
+      ]
+    }
+  ],
+  "danger_zones": [
+    {
+      "text": "Posterior-to-anterior Hoffa drilling points toward the popliteal fossa; use direct fragment control, guarded drilling, and fluoroscopy.",
+      "claim_ids": [
+        "distal_femur_swashbuckler_danger_zones_01"
+      ]
+    }
+  ],
+  "retraction_hazards": [
+    {
+      "text": "Avoid forceful extensor-mechanism retraction and focal patellar cartilage pressure; extend exposure instead of levering through a short arthrotomy.",
+      "claim_ids": [
+        "distal_femur_swashbuckler_retraction_hazards_01"
+      ]
+    }
+  ],
+  "exposure": [
+    {
+      "text": "Exposes the entire distal-femoral articular surface and lateral metaphysis while sparing quadriceps muscle bellies.",
+      "claim_ids": [
+        "distal_femur_swashbuckler_exposure_01"
+      ]
+    }
+  ],
+  "limitations": [
+    {
+      "text": "Posterior medial fragments and vascular injuries may require separate fragment-specific or medial/posterior access.",
+      "claim_ids": [
+        "distal_femur_swashbuckler_limitations_01"
+      ]
+    }
+  ],
+  "extensions": [
+    {
+      "text": "Extend proximally along lateral femur for plate application or add a fragment-specific medial/posterior window when anterior visualization is insufficient.",
+      "claim_ids": [
+        "distal_femur_swashbuckler_extensions_01"
+      ]
+    }
+  ],
+  "indications": [
+    {
+      "text": "Use for complex complete-articular distal-femur fractures and selected lateral Hoffa injuries requiring broad articular visualization.",
+      "claim_ids": [
+        "distal_femur_swashbuckler_indications_01"
+      ]
+    }
+  ],
+  "relative_contraindications": [
+    {
+      "text": "Choose a smaller lateral/MIPO approach when broad articular exposure is unnecessary and a targeted posterior route when the critical fragment remains unseen.",
+      "claim_ids": [
+        "distal_femur_swashbuckler_relative_contraindications_01"
+      ]
+    }
+  ],
+  "implant_implications": [
+    {
+      "text": "Supports direct articular lag-screw reconstruction followed by lateral plating; posterior screw trajectories require strict neurovascular safeguards.",
+      "claim_ids": [
+        "distal_femur_swashbuckler_implant_implications_01"
+      ]
+    }
+  ],
+  "fluoroscopy_implications": [
+    {
+      "text": "Verify articular congruity, alignment, plate position, and posterior lag-screw length on AP, lateral, notch, and oblique views.",
+      "claim_ids": [
+        "distal_femur_swashbuckler_fluoroscopy_implications_01"
+      ]
+    }
+  ],
+  "closure": [
+    {
+      "text": "Repair capsule and lateral retinaculum, restore extensor-mechanism tracking, achieve hemostasis, and close in layers.",
+      "claim_ids": [
+        "distal_femur_swashbuckler_closure_01"
+      ]
+    }
+  ],
+  "complications": [
+    {
+      "text": "Complications include stiffness, extensor dysfunction, articular malreduction, neurovascular injury, infection, nonunion, malalignment, and post-traumatic arthritis.",
+      "claim_ids": [
+        "distal_femur_swashbuckler_complications_01"
+      ]
+    }
+  ],
+  "bailouts": [
+    {
+      "text": "Add a fragment-specific exposure if posterior reduction or safe screw placement cannot be seen; never drill blindly toward the popliteal fossa.",
+      "claim_ids": [
+        "distal_femur_swashbuckler_bailouts_01"
+      ]
+    }
+  ],
+  "procedure_applications": [
+    {
+      "procedure_id": "distal_femur_fracture_orif",
+      "relationship": "conditional_option",
+      "condition": "A complex articular distal-femur fracture requires broad anterior visualization while preserving quadriceps muscle bellies"
+    },
+    {
+      "procedure_id": "distal_femur_hoffa_fracture_orif",
+      "relationship": "conditional_option",
+      "condition": "A lateral Hoffa fragment is amenable to posterior lag-screw fixation through the modified anterior exposure"
+    }
+  ],
+  "questions": [
+    {
+      "question": "What is the principal exposure advantage?",
+      "answer": "Visualization of the entire distal-femoral articular surface.",
+      "claim_ids": [
+        "distal_femur_swashbuckler_questions_01"
+      ]
+    },
+    {
+      "question": "What tissue is intentionally spared?",
+      "answer": "The quadriceps muscle bellies.",
+      "claim_ids": [
+        "distal_femur_swashbuckler_questions_02"
+      ]
+    },
+    {
+      "question": "Which fracture may accept posterior lag screws through this route?",
+      "answer": "A lateral Hoffa fracture.",
+      "claim_ids": [
+        "distal_femur_swashbuckler_questions_03"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "distal_femur_swashbuckler_positioning_01",
+      "text": "Position supine on a radiolucent table with the knee flexed and the limb mobile for patellar displacement and fluoroscopy.",
+      "source_ids": [
+        "ao_e29646ce1481100d",
+        "pmid_10052790"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "distal_femur_swashbuckler_setup_01",
+      "text": "Review CT-defined articular fragments and prepare independent lag-screw and lateral plate strategies before exposure.",
+      "source_ids": [
+        "ao_e29646ce1481100d",
+        "pmcid_PMC8636817"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "distal_femur_swashbuckler_surface_landmarks_01",
+      "text": "Mark patella, patellar tendon, tibial tubercle, lateral joint line, lateral epicondyle, and femoral shaft.",
+      "source_ids": [
+        "pmid_10052790"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "distal_femur_swashbuckler_incision_01",
+      "text": "Use an anterior longitudinal incision compatible with broad distal-femur access and possible future knee arthroplasty.",
+      "source_ids": [
+        "pmid_10052790",
+        "pmcid_PMC8636817"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "distal_femur_swashbuckler_superficial_interval_01",
+      "text": "Develop the lateral parapatellar side while preserving quadriceps muscle bellies and mobilizing the extensor mechanism as a controlled unit.",
+      "source_ids": [
+        "pmid_10052790",
+        "pmcid_PMC8636817"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "distal_femur_swashbuckler_deep_interval_01",
+      "text": "Open the lateral parapatellar capsule and elevate or mobilize vastus lateralis to expose the entire articular surface and lateral distal femur.",
+      "source_ids": [
+        "pmid_10052790",
+        "pmcid_PMC8636817"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "distal_femur_swashbuckler_layers_01",
+      "text": "Skin, subcutaneous tissue, lateral retinacular-capsular layer, vastus-lateralis interface, synovium, then distal femoral articular surface.",
+      "source_ids": [
+        "pmid_10052790"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "distal_femur_swashbuckler_structures_encountered_01",
+      "text": "Extensor mechanism, patella, lateral retinaculum, vastus lateralis, femoral condyles, trochlea, and lateral femoral cortex are encountered.",
+      "source_ids": [
+        "pmid_10052790",
+        "pmcid_PMC8636817"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "distal_femur_swashbuckler_structures_at_risk_01",
+      "text": "Patellar tendon, articular cartilage, menisci, genicular vessels, vastus-lateralis blood supply, and posterior neurovascular structures during posterior drilling are at risk.",
+      "source_ids": [
+        "pmid_10052790",
+        "pmcid_PMC8636817"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "distal_femur_swashbuckler_danger_zones_01",
+      "text": "Posterior-to-anterior Hoffa drilling points toward the popliteal fossa; use direct fragment control, guarded drilling, and fluoroscopy.",
+      "source_ids": [
+        "ao_e29646ce1481100d",
+        "pmcid_PMC8636817"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "distal_femur_swashbuckler_retraction_hazards_01",
+      "text": "Avoid forceful extensor-mechanism retraction and focal patellar cartilage pressure; extend exposure instead of levering through a short arthrotomy.",
+      "source_ids": [
+        "pmid_10052790",
+        "pmcid_PMC8636817"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "distal_femur_swashbuckler_exposure_01",
+      "text": "Exposes the entire distal-femoral articular surface and lateral metaphysis while sparing quadriceps muscle bellies.",
+      "source_ids": [
+        "pmid_10052790",
+        "pmcid_PMC8636817"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "distal_femur_swashbuckler_limitations_01",
+      "text": "Posterior medial fragments and vascular injuries may require separate fragment-specific or medial/posterior access.",
+      "source_ids": [
+        "ao_e29646ce1481100d",
+        "pmcid_PMC8636817"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "distal_femur_swashbuckler_extensions_01",
+      "text": "Extend proximally along lateral femur for plate application or add a fragment-specific medial/posterior window when anterior visualization is insufficient.",
+      "source_ids": [
+        "pmid_10052790",
+        "pmcid_PMC8636817"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "distal_femur_swashbuckler_indications_01",
+      "text": "Use for complex complete-articular distal-femur fractures and selected lateral Hoffa injuries requiring broad articular visualization.",
+      "source_ids": [
+        "ao_e29646ce1481100d",
+        "pmcid_PMC8636817"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "distal_femur_swashbuckler_relative_contraindications_01",
+      "text": "Choose a smaller lateral/MIPO approach when broad articular exposure is unnecessary and a targeted posterior route when the critical fragment remains unseen.",
+      "source_ids": [
+        "pmid_10052790",
+        "pmcid_PMC8636817"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "distal_femur_swashbuckler_implant_implications_01",
+      "text": "Supports direct articular lag-screw reconstruction followed by lateral plating; posterior screw trajectories require strict neurovascular safeguards.",
+      "source_ids": [
+        "ao_e29646ce1481100d",
+        "pmcid_PMC8636817"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "distal_femur_swashbuckler_fluoroscopy_implications_01",
+      "text": "Verify articular congruity, alignment, plate position, and posterior lag-screw length on AP, lateral, notch, and oblique views.",
+      "source_ids": [
+        "pmid_10052790",
+        "pmcid_PMC8636817"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "distal_femur_swashbuckler_closure_01",
+      "text": "Repair capsule and lateral retinaculum, restore extensor-mechanism tracking, achieve hemostasis, and close in layers.",
+      "source_ids": [
+        "pmid_10052790",
+        "pmcid_PMC8636817"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "distal_femur_swashbuckler_complications_01",
+      "text": "Complications include stiffness, extensor dysfunction, articular malreduction, neurovascular injury, infection, nonunion, malalignment, and post-traumatic arthritis.",
+      "source_ids": [
+        "pmid_10052790",
+        "pmcid_PMC8636817"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "distal_femur_swashbuckler_bailouts_01",
+      "text": "Add a fragment-specific exposure if posterior reduction or safe screw placement cannot be seen; never drill blindly toward the popliteal fossa.",
+      "source_ids": [
+        "ao_e29646ce1481100d",
+        "pmcid_PMC8636817"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "distal_femur_swashbuckler_questions_01",
+      "text": "What is the principal exposure advantage?",
+      "source_ids": [
+        "pmid_10052790"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "distal_femur_swashbuckler_questions_02",
+      "text": "What tissue is intentionally spared?",
+      "source_ids": [
+        "pmid_10052790"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "distal_femur_swashbuckler_questions_03",
+      "text": "Which fracture may accept posterior lag screws through this route?",
+      "source_ids": [
+        "ao_e29646ce1481100d"
+      ],
+      "risk_level": "medium"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "ao_e29646ce1481100d",
+      "provider": "AO Surgery Reference",
+      "title": "Swashbuckler Approach",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/distal-femur/approach/swashbuckler-approach",
+      "source_page_id": "ao_e29646ce1481100d"
+    },
+    {
+      "source_id": "pmid_10052790",
+      "provider": "PubMed",
+      "title": "The swashbuckler: a modified anterior approach for fractures of the distal femur",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/10052790/"
+    },
+    {
+      "source_id": "pmcid_PMC8636817",
+      "provider": "PubMed Central",
+      "title": "Swashbuckler approach for distal femur fractures: A systematic review",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8636817/"
+    }
+  ],
+  "content_status": "agent_review_pending",
+  "review": {
+    "status": "agent_review_pending",
+    "required_roles": [
+      "adversarial_safety_reviewer",
+      "approach_anatomy_reviewer",
+      "educational_value_reviewer",
+      "evidence_reviewer",
+      "operative_exposure_reviewer",
+      "procedure_applicability_reviewer"
+    ],
+    "completed_roles": []
+  },
+  "resolved_contradiction_keys": [],
+  "authoring_provenance": {
+    "method": "local_codex_curated",
+    "definition_file": "data/approach_library/curated/distal_femur_mipo_pin_swashbuckler_v1.json",
+    "api_used": false
+  }
+}

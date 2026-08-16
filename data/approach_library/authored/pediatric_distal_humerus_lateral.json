@@ -1,0 +1,474 @@
+{
+  "schema_version": "brobot_approach_packet_v1",
+  "approach_id": "pediatric_distal_humerus_lateral",
+  "name": "Pediatric lateral approach to the distal humerus",
+  "aliases": [
+    "pediatric lateral condyle approach",
+    "pediatric capitellar approach"
+  ],
+  "region": "lateral pediatric elbow",
+  "joint": "elbow",
+  "bones": [
+    "lateral condyle",
+    "capitellum",
+    "distal humerus",
+    "radial head"
+  ],
+  "corridor": "Between brachioradialis and triceps proximally, continuing anterior to anconeus along the posterior border of the extensor mass",
+  "positioning": [
+    {
+      "text": "Position supine with arm on radiolucent support, elbow freely mobile, and imaging available for AP, lateral, oblique, and arthrogram assessment.",
+      "claim_ids": [
+        "pediatric_distal_humerus_lateral_positioning_01"
+      ]
+    }
+  ],
+  "setup": [
+    {
+      "text": "Plan fixation and arthrogram use while prioritizing preservation of the posterolateral soft-tissue attachments that supply the fragment.",
+      "claim_ids": [
+        "pediatric_distal_humerus_lateral_setup_01"
+      ]
+    }
+  ],
+  "surface_landmarks": [
+    {
+      "text": "Mark lateral supracondylar ridge, lateral epicondyle, capitellum, radial head, proximal radius, and olecranon.",
+      "claim_ids": [
+        "pediatric_distal_humerus_lateral_surface_landmarks_01"
+      ]
+    }
+  ],
+  "incision": [
+    {
+      "text": "Begin 3-5 cm above the joint on the lateral ridge and extend posterior to the radial head onto proximal forearm; place it slightly more posterior than the adult incision.",
+      "claim_ids": [
+        "pediatric_distal_humerus_lateral_incision_01"
+      ]
+    }
+  ],
+  "superficial_interval": [
+    {
+      "text": "Open fascia on the lateral ridge and develop the interval between brachioradialis and triceps, continuing anterior to anconeus.",
+      "claim_ids": [
+        "pediatric_distal_humerus_lateral_superficial_interval_01"
+      ]
+    }
+  ],
+  "deep_interval": [
+    {
+      "text": "Open capsule anteriorly over capitellum toward radial head; elevate only the anterior tissue needed for visualization and preserve posterior fragment attachments.",
+      "claim_ids": [
+        "pediatric_distal_humerus_lateral_deep_interval_01"
+      ]
+    }
+  ],
+  "layers": [
+    {
+      "text": "Skin, lateral fascia, brachioradialis-triceps interval, extensor/anconeus border, capsule, then capitellum and lateral condyle.",
+      "claim_ids": [
+        "pediatric_distal_humerus_lateral_layers_01"
+      ]
+    }
+  ],
+  "structures_encountered": [
+    {
+      "text": "Brachioradialis, triceps, extensor origin, anconeus, capsule, capitellum, radial head, and lateral-condyle fragment are encountered.",
+      "claim_ids": [
+        "pediatric_distal_humerus_lateral_structures_encountered_01"
+      ]
+    }
+  ],
+  "structures_at_risk": [
+    {
+      "text": "Radial nerve and its branches near radial head, posterior fragment vascularity, articular cartilage, physis, and lateral collateral ligament are at risk.",
+      "claim_ids": [
+        "pediatric_distal_humerus_lateral_structures_at_risk_01"
+      ]
+    }
+  ],
+  "danger_zones": [
+    {
+      "text": "Do not strip the posterolateral fragment attachments and do not place a lever retractor anteriorly near the radial nerve.",
+      "claim_ids": [
+        "pediatric_distal_humerus_lateral_danger_zones_01"
+      ]
+    }
+  ],
+  "retraction_hazards": [
+    {
+      "text": "Use smooth soft-tissue retraction; anterior levering risks radial nerve injury and posterior stripping risks fragment devascularization.",
+      "claim_ids": [
+        "pediatric_distal_humerus_lateral_retraction_hazards_01"
+      ]
+    }
+  ],
+  "exposure": [
+    {
+      "text": "Exposes lateral condyle, capitellum, radiocapitellar joint, and anterior articular surface for direct reduction.",
+      "claim_ids": [
+        "pediatric_distal_humerus_lateral_exposure_01"
+      ]
+    }
+  ],
+  "limitations": [
+    {
+      "text": "The approach does not expose the medial column and aggressive posterior extension threatens fragment blood supply.",
+      "claim_ids": [
+        "pediatric_distal_humerus_lateral_limitations_01"
+      ]
+    }
+  ],
+  "extensions": [
+    {
+      "text": "Release anterior capsule or limited anterior brachioradialis/ECRL and posterior triceps attachments only as required for visualization.",
+      "claim_ids": [
+        "pediatric_distal_humerus_lateral_extensions_01"
+      ]
+    }
+  ],
+  "indications": [
+    {
+      "text": "Use for displaced lateral-condyle or capitellar fractures, unstable lateral-ligament avulsion, and selected irreducible supracondylar fractures.",
+      "claim_ids": [
+        "pediatric_distal_humerus_lateral_indications_01"
+      ]
+    }
+  ],
+  "relative_contraindications": [
+    {
+      "text": "Avoid unnecessary open exposure when closed reduction provides congruent stable alignment and avoid this isolated corridor for medial or bicondylar pathology.",
+      "claim_ids": [
+        "pediatric_distal_humerus_lateral_relative_contraindications_01"
+      ]
+    }
+  ],
+  "implant_implications": [
+    {
+      "text": "Select wire or screw trajectories that stabilize the fragment without violating the joint, physis, or preserved posterior vascular attachments.",
+      "claim_ids": [
+        "pediatric_distal_humerus_lateral_implant_implications_01"
+      ]
+    }
+  ],
+  "fluoroscopy_implications": [
+    {
+      "text": "Confirm articular congruity and fixation on AP, lateral, internal-oblique views and use arthrography when the cartilaginous surface is not directly visible.",
+      "claim_ids": [
+        "pediatric_distal_humerus_lateral_fluoroscopy_implications_01"
+      ]
+    }
+  ],
+  "closure": [
+    {
+      "text": "Repair capsule, muscle-fascial interval, and skin with absorbable sutures without strangulating preserved posterior tissues.",
+      "claim_ids": [
+        "pediatric_distal_humerus_lateral_closure_01"
+      ]
+    }
+  ],
+  "complications": [
+    {
+      "text": "Complications include nonunion, malunion, lateral overgrowth, fishtail deformity, growth arrest, stiffness, infection, radial neuropathy, and osteonecrosis.",
+      "claim_ids": [
+        "pediatric_distal_humerus_lateral_complications_01"
+      ]
+    }
+  ],
+  "bailouts": [
+    {
+      "text": "If the joint surface cannot be judged, use arthrogram and limited capsular extension rather than circumferential fragment stripping.",
+      "claim_ids": [
+        "pediatric_distal_humerus_lateral_bailouts_01"
+      ]
+    }
+  ],
+  "procedure_applications": [
+    {
+      "procedure_id": "pediatric_lateral_condyle_humerus_fracture_orif",
+      "relationship": "primary_option",
+      "condition": "A displaced or incongruent lateral-condyle fracture requires open articular reduction"
+    },
+    {
+      "procedure_id": "pediatric_capitellum_fracture_orif",
+      "relationship": "primary_option",
+      "condition": "A displaced capitellar fracture requires direct lateral access"
+    }
+  ],
+  "questions": [
+    {
+      "question": "Which attachments protect fragment blood supply?",
+      "answer": "The posterior and posterolateral soft-tissue attachments.",
+      "claim_ids": [
+        "pediatric_distal_humerus_lateral_questions_01"
+      ]
+    },
+    {
+      "question": "Which nerve is endangered near radial head?",
+      "answer": "The radial nerve as it divides into superficial and deep branches.",
+      "claim_ids": [
+        "pediatric_distal_humerus_lateral_questions_02"
+      ]
+    },
+    {
+      "question": "Which view best profiles lateral-condyle displacement?",
+      "answer": "The internal-oblique view.",
+      "claim_ids": [
+        "pediatric_distal_humerus_lateral_questions_03"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "pediatric_distal_humerus_lateral_positioning_01",
+      "text": "Position supine with arm on radiolucent support, elbow freely mobile, and imaging available for AP, lateral, oblique, and arthrogram assessment.",
+      "source_ids": [
+        "ao_ca0bee05f74f88ff",
+        "pmid_31268870"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "pediatric_distal_humerus_lateral_setup_01",
+      "text": "Plan fixation and arthrogram use while prioritizing preservation of the posterolateral soft-tissue attachments that supply the fragment.",
+      "source_ids": [
+        "ao_ca0bee05f74f88ff",
+        "pmid_31268870"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "pediatric_distal_humerus_lateral_surface_landmarks_01",
+      "text": "Mark lateral supracondylar ridge, lateral epicondyle, capitellum, radial head, proximal radius, and olecranon.",
+      "source_ids": [
+        "ao_ca0bee05f74f88ff"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "pediatric_distal_humerus_lateral_incision_01",
+      "text": "Begin 3-5 cm above the joint on the lateral ridge and extend posterior to the radial head onto proximal forearm; place it slightly more posterior than the adult incision.",
+      "source_ids": [
+        "ao_ca0bee05f74f88ff",
+        "pmid_31268870"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "pediatric_distal_humerus_lateral_superficial_interval_01",
+      "text": "Open fascia on the lateral ridge and develop the interval between brachioradialis and triceps, continuing anterior to anconeus.",
+      "source_ids": [
+        "ao_ca0bee05f74f88ff",
+        "pmid_31268870"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "pediatric_distal_humerus_lateral_deep_interval_01",
+      "text": "Open capsule anteriorly over capitellum toward radial head; elevate only the anterior tissue needed for visualization and preserve posterior fragment attachments.",
+      "source_ids": [
+        "ao_ca0bee05f74f88ff",
+        "pmid_35599717"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "pediatric_distal_humerus_lateral_layers_01",
+      "text": "Skin, lateral fascia, brachioradialis-triceps interval, extensor/anconeus border, capsule, then capitellum and lateral condyle.",
+      "source_ids": [
+        "ao_ca0bee05f74f88ff"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "pediatric_distal_humerus_lateral_structures_encountered_01",
+      "text": "Brachioradialis, triceps, extensor origin, anconeus, capsule, capitellum, radial head, and lateral-condyle fragment are encountered.",
+      "source_ids": [
+        "ao_ca0bee05f74f88ff",
+        "pmid_31268870"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "pediatric_distal_humerus_lateral_structures_at_risk_01",
+      "text": "Radial nerve and its branches near radial head, posterior fragment vascularity, articular cartilage, physis, and lateral collateral ligament are at risk.",
+      "source_ids": [
+        "ao_ca0bee05f74f88ff",
+        "pmid_31268870"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "pediatric_distal_humerus_lateral_danger_zones_01",
+      "text": "Do not strip the posterolateral fragment attachments and do not place a lever retractor anteriorly near the radial nerve.",
+      "source_ids": [
+        "ao_ca0bee05f74f88ff",
+        "pmid_35599717"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "pediatric_distal_humerus_lateral_retraction_hazards_01",
+      "text": "Use smooth soft-tissue retraction; anterior levering risks radial nerve injury and posterior stripping risks fragment devascularization.",
+      "source_ids": [
+        "ao_ca0bee05f74f88ff",
+        "pmid_31268870"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "pediatric_distal_humerus_lateral_exposure_01",
+      "text": "Exposes lateral condyle, capitellum, radiocapitellar joint, and anterior articular surface for direct reduction.",
+      "source_ids": [
+        "ao_ca0bee05f74f88ff",
+        "pmid_31268870"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "pediatric_distal_humerus_lateral_limitations_01",
+      "text": "The approach does not expose the medial column and aggressive posterior extension threatens fragment blood supply.",
+      "source_ids": [
+        "ao_ca0bee05f74f88ff",
+        "pmid_35599717"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "pediatric_distal_humerus_lateral_extensions_01",
+      "text": "Release anterior capsule or limited anterior brachioradialis/ECRL and posterior triceps attachments only as required for visualization.",
+      "source_ids": [
+        "ao_ca0bee05f74f88ff",
+        "pmid_31268870"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "pediatric_distal_humerus_lateral_indications_01",
+      "text": "Use for displaced lateral-condyle or capitellar fractures, unstable lateral-ligament avulsion, and selected irreducible supracondylar fractures.",
+      "source_ids": [
+        "ao_ca0bee05f74f88ff",
+        "pmid_31268870"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "pediatric_distal_humerus_lateral_relative_contraindications_01",
+      "text": "Avoid unnecessary open exposure when closed reduction provides congruent stable alignment and avoid this isolated corridor for medial or bicondylar pathology.",
+      "source_ids": [
+        "pmid_31268870",
+        "pmid_35599717"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "pediatric_distal_humerus_lateral_implant_implications_01",
+      "text": "Select wire or screw trajectories that stabilize the fragment without violating the joint, physis, or preserved posterior vascular attachments.",
+      "source_ids": [
+        "ao_ca0bee05f74f88ff",
+        "pmid_35599717"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "pediatric_distal_humerus_lateral_fluoroscopy_implications_01",
+      "text": "Confirm articular congruity and fixation on AP, lateral, internal-oblique views and use arthrography when the cartilaginous surface is not directly visible.",
+      "source_ids": [
+        "pmid_31268870",
+        "pmid_35599717"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "pediatric_distal_humerus_lateral_closure_01",
+      "text": "Repair capsule, muscle-fascial interval, and skin with absorbable sutures without strangulating preserved posterior tissues.",
+      "source_ids": [
+        "ao_ca0bee05f74f88ff",
+        "pmid_35599717"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "pediatric_distal_humerus_lateral_complications_01",
+      "text": "Complications include nonunion, malunion, lateral overgrowth, fishtail deformity, growth arrest, stiffness, infection, radial neuropathy, and osteonecrosis.",
+      "source_ids": [
+        "pmid_31268870",
+        "pmid_35599717"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "pediatric_distal_humerus_lateral_bailouts_01",
+      "text": "If the joint surface cannot be judged, use arthrogram and limited capsular extension rather than circumferential fragment stripping.",
+      "source_ids": [
+        "ao_ca0bee05f74f88ff",
+        "pmid_31268870"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "pediatric_distal_humerus_lateral_questions_01",
+      "text": "Which attachments protect fragment blood supply?",
+      "source_ids": [
+        "ao_ca0bee05f74f88ff"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "pediatric_distal_humerus_lateral_questions_02",
+      "text": "Which nerve is endangered near radial head?",
+      "source_ids": [
+        "ao_ca0bee05f74f88ff"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "pediatric_distal_humerus_lateral_questions_03",
+      "text": "Which view best profiles lateral-condyle displacement?",
+      "source_ids": [
+        "pmid_31268870"
+      ],
+      "risk_level": "medium"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "ao_ca0bee05f74f88ff",
+      "provider": "AO Surgery Reference",
+      "title": "Lateral Approach",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/pediatric-trauma/distal-humerus/approach/lateral-approach",
+      "source_page_id": "ao_ca0bee05f74f88ff"
+    },
+    {
+      "source_id": "pmid_31268870",
+      "provider": "PubMed",
+      "title": "Current Concepts in the Treatment of Lateral Condyle Fractures in Children",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/31268870/"
+    },
+    {
+      "source_id": "pmid_35599717",
+      "provider": "PubMed",
+      "title": "Open reduction of pediatric lateral condyle fractures: a systematic review",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/35599717/"
+    }
+  ],
+  "content_status": "agent_review_pending",
+  "review": {
+    "status": "agent_review_pending",
+    "required_roles": [
+      "adversarial_safety_reviewer",
+      "approach_anatomy_reviewer",
+      "educational_value_reviewer",
+      "evidence_reviewer",
+      "operative_exposure_reviewer",
+      "procedure_applicability_reviewer"
+    ],
+    "completed_roles": []
+  },
+  "resolved_contradiction_keys": [],
+  "authoring_provenance": {
+    "method": "local_codex_curated",
+    "definition_file": "data/approach_library/curated/pediatric_distal_humerus_approaches_v1.json",
+    "api_used": false
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "approaches": [
+    {
+      "approach_id": "femoral_shaft_lateral_open",
+      "name": "Direct lateral approach to the femoral shaft",
+      "aliases": ["lateral femoral shaft approach", "open lateral thigh approach", "vastus lateralis elevation approach"],
+      "region": "thigh",
+      "joint": "extra-articular",
+      "bones": ["femoral shaft"],
+      "corridor": "Through fascia lata, then along the posterior border of vastus lateralis with anterior extraperiosteal elevation from the lateral intermuscular septum and linea aspera",
+      "sources": [
+        {"source_id": "ao_ab876e208ec241f2", "provider": "AO Surgery Reference", "title": "Lateral approach to the femoral shaft", "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/femoral-shaft/approach/lateral-approach", "source_page_id": "ao_ab876e208ec241f2"},
+        {"source_id": "pmid_9755780", "provider": "PubMed", "title": "The evolution of femoral shaft plating technique", "url": "https://pubmed.ncbi.nlm.nih.gov/9755780/"},
+        {"source_id": "pmid_32310517", "provider": "PubMed", "title": "Femoral Shaft Fractures", "url": "https://pubmed.ncbi.nlm.nih.gov/32310517/"}
+      ],
+      "procedure_applications": [{"procedure_id": "femoral_shaft_fracture_orif", "relationship": "primary_option", "condition": "Open reduction or direct lateral plate application is required rather than intramedullary or minimally invasive fixation"}],
+      "sections": {
+        "positioning": [{"text": "Position supine with the injured side elevated or lateral, keeping the entire thigh accessible and permitting AP and lateral fluoroscopy from hip to knee.", "source_ids": ["ao_ab876e208ec241f2", "pmid_32310517"]}],
+        "setup": [{"text": "Prepare the full limb, plan plate length and reduction strategy, and ensure blood products and vascular control are available because shaft fractures and profunda perforators can produce substantial blood loss.", "source_ids": ["ao_ab876e208ec241f2", "pmid_32310517"], "risk_level": "high"}],
+        "surface_landmarks": [{"text": "Mark the greater trochanter, lateral epicondyle, lateral joint line, palpable shaft axis, and fracture level; the incision follows the line between trochanter and lateral epicondyle.", "source_ids": ["ao_ab876e208ec241f2"]}],
+        "incision": [{"text": "Center a longitudinal lateral incision over the required shaft exposure on the line from the greater trochanter to the lateral epicondyle, extending only as required for reduction and fixation.", "source_ids": ["ao_ab876e208ec241f2", "pmid_9755780"]}],
+        "superficial_interval": [{"text": "Split fascia lata in line with the skin incision and separate or retract vastus lateralis anteromedially to identify its posterior fascial border.", "source_ids": ["ao_ab876e208ec241f2"]}],
+        "deep_interval": [{"text": "Incise vastus lateralis fascia about 1 cm anterior to the lateral intermuscular septum, then detach vastus lateralis extraperiosteally from the septum and linea aspera while proceeding anteriorly onto the lateral shaft.", "source_ids": ["ao_ab876e208ec241f2", "pmid_9755780"], "risk_level": "high"}],
+        "layers": [{"text": "Skin, subcutaneous tissue, fascia lata, vastus lateralis fascia, extraperiosteal plane along the lateral intermuscular septum, then lateral femoral cortex.", "source_ids": ["ao_ab876e208ec241f2"]}],
+        "structures_encountered": [{"text": "Fascia lata, vastus lateralis, lateral intermuscular septum, linea aspera, profunda femoris perforators, periosteum, and lateral femoral shaft are encountered.", "source_ids": ["ao_ab876e208ec241f2", "pmid_32310517"]}],
+        "structures_at_risk": [{"text": "Profunda femoris perforating vessels are the principal structures at risk; the major femoral neurovascular bundle remains medial/posteromedial and should not be exposed during a correctly lateral approach.", "source_ids": ["ao_ab876e208ec241f2", "pmid_32310517"], "risk_level": "high"}],
+        "danger_zones": [{"text": "Perforators traversing the posterior vastus and septum must be identified and securely ligated before division because a cut vessel can retract posteriorly and bleed occultly into the thigh.", "source_ids": ["ao_ab876e208ec241f2", "pmid_32310517"], "risk_level": "high"}],
+        "retraction_hazards": [{"text": "Place retractors directly on bone under vision and avoid deep medial or posterior passage, which can endanger the femoral vessels or sciatic nerve; excessive anterior retraction also devascularizes vastus lateralis.", "source_ids": ["ao_ab876e208ec241f2", "pmid_32310517"], "risk_level": "high"}],
+        "exposure": [{"text": "Provides extensile visualization of the lateral femoral shaft for direct reduction, debridement, bone grafting, and plate fixation.", "source_ids": ["ao_ab876e208ec241f2", "pmid_9755780"]}],
+        "limitations": [{"text": "Wide exposure strips soft tissue and disrupts fracture biology; use the smallest exposure compatible with reduction and prefer indirect or minimally invasive methods when the fracture pattern permits.", "source_ids": ["pmid_9755780"]}],
+        "extensions": [{"text": "Extend distally along the lateral shaft; proximally release the vastus lateralis origin in an L shape and continue through the vertical interval between gluteus medius and vastus lateralis when proximal exposure is required.", "source_ids": ["ao_ab876e208ec241f2", "pmid_32310517"], "risk_level": "high"}],
+        "indications": [{"text": "Use when femoral-shaft plating requires direct reduction, when fracture-site debridement or grafting is necessary, or when a minimally invasive bridge construct cannot achieve the operative objective.", "source_ids": ["ao_ab876e208ec241f2", "pmid_9755780"]}],
+        "relative_contraindications": [{"text": "Avoid routine extensive exposure for simple fractures suitable for intramedullary fixation or biologic bridge plating, and modify the plan when lateral soft tissues are compromised or contaminated.", "source_ids": ["pmid_9755780", "pmid_32310517"]}],
+        "implant_implications": [{"text": "Seat the plate on the lateral or anterolateral surface without trapping muscle, preserve fracture blood supply, and select plate length and screw density appropriate to compression versus bridge-plating mechanics.", "source_ids": ["pmid_9755780", "pmid_32310517"], "risk_level": "high"}],
+        "fluoroscopy_implications": [{"text": "Confirm length, coronal and sagittal axes, rotation, plate position, screw length, and the hip and knee before closure; direct visualization does not replace whole-femur imaging.", "source_ids": ["pmid_9755780", "pmid_32310517"], "risk_level": "high"}],
+        "closure": [{"text": "Obtain meticulous perforator hemostasis, reapproximate vastus lateralis and fascia lata without excessive tension, and close subcutaneous tissue and skin while accounting for swelling.", "source_ids": ["ao_ab876e208ec241f2", "pmid_32310517"], "risk_level": "high"}],
+        "complications": [{"text": "Complications include profunda bleeding and hematoma, thigh compartment syndrome, muscle devascularization, infection, malalignment, delayed union or nonunion, implant failure, stiffness, and iatrogenic neurovascular injury.", "source_ids": ["ao_ab876e208ec241f2", "pmid_9755780", "pmid_32310517"], "risk_level": "high"}],
+        "bailouts": [{"text": "For uncontrolled posterior bleeding, stop blind clamping, enlarge the exposure, identify the retracted perforator under direct vision, obtain vascular assistance when needed, and reassess compartment pressure and physiology.", "source_ids": ["ao_ab876e208ec241f2", "pmid_32310517"], "risk_level": "high"}],
+        "questions": [
+          {"question": "Where is vastus lateralis fascia opened?", "answer": "About 1 cm anterior to the lateral intermuscular septum before extraperiosteal elevation from the septum and linea aspera.", "source_ids": ["ao_ab876e208ec241f2"]},
+          {"question": "Which vessels most commonly threaten this exposure?", "answer": "The perforating branches of the profunda femoris artery.", "source_ids": ["ao_ab876e208ec241f2"]},
+          {"question": "Why can a divided perforator be deceptive?", "answer": "It may retract posteriorly and continue bleeding out of view into the thigh.", "source_ids": ["ao_ab876e208ec241f2"]}
+        ]
+      }
+    },
+    {
+      "approach_id": "femoral_shaft_lateral_mipo",
+      "name": "Minimally invasive lateral plate approach to the femoral shaft",
+      "aliases": ["femoral shaft MIPO", "femoral shaft bridge plating approach", "submuscular lateral femoral plating"],
+      "region": "thigh",
+      "joint": "extra-articular",
+      "bones": ["femoral shaft"],
+      "corridor": "Separated proximal and distal lateral windows connected by an extraperiosteal sub-vastus-lateralis tunnel for indirect plate insertion",
+      "sources": [
+        {"source_id": "ao_befa25c53a40076c", "provider": "AO Surgery Reference", "title": "Minimally invasive approach to the femoral shaft", "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/femoral-shaft/approach/minimally-invasive-approach", "source_page_id": "ao_befa25c53a40076c"},
+        {"source_id": "pmid_10897283", "provider": "PubMed", "title": "Minimally invasive plate fixation in femoral shaft fractures", "url": "https://pubmed.ncbi.nlm.nih.gov/10897283/"},
+        {"source_id": "pmid_21808699", "provider": "PubMed", "title": "Dynamic plate osteosynthesis for fracture stabilization", "url": "https://pubmed.ncbi.nlm.nih.gov/21808699/"}
+      ],
+      "procedure_applications": [{"procedure_id": "femoral_shaft_fracture_orif", "relationship": "conditional_option", "condition": "Indirect reduction and bridge plating are selected for a comminuted or biologically vulnerable shaft fracture with suitable proximal and distal fixation segments"}],
+      "sections": {
+        "positioning": [{"text": "Position supine on a radiolucent table with traction or reduction aids available and unobstructed AP and lateral imaging from hip through knee.", "source_ids": ["ao_befa25c53a40076c", "pmid_10897283"]}],
+        "setup": [{"text": "Template plate length and window locations, restore length/alignment/rotation indirectly, and verify that the intended plate and every screw can be imaged before incision.", "source_ids": ["ao_befa25c53a40076c", "pmid_10897283"], "risk_level": "high"}],
+        "surface_landmarks": [{"text": "Mark the greater trochanter, lateral epicondyle, Gerdy tubercle, joint line, femoral axis, fracture zone, and planned proximal and distal fixation segments.", "source_ids": ["ao_befa25c53a40076c"]}],
+        "incision": [{"text": "Use short lateral proximal and distal incisions positioned for plate entry and terminal fixation, adding only small stab or reduction windows when essential.", "source_ids": ["ao_befa25c53a40076c", "pmid_10897283"]}],
+        "superficial_interval": [{"text": "Open fascia lata and vastus lateralis fascia only within each window; at midshaft use blunt spreading through vastus lateralis rather than broad muscle stripping.", "source_ids": ["ao_befa25c53a40076c", "pmid_10897283"]}],
+        "deep_interval": [{"text": "Develop an extraperiosteal tunnel between vastus lateralis and lateral femoral cortex, then pass the plate beneath muscle without opening the fracture zone.", "source_ids": ["ao_befa25c53a40076c", "pmid_10897283"], "risk_level": "high"}],
+        "layers": [{"text": "Skin windows, subcutaneous tissue, fascia lata, limited vastus lateralis fascia and muscle split, extraperiosteal submuscular plane, then lateral femoral cortex.", "source_ids": ["ao_befa25c53a40076c", "pmid_10897283"]}],
+        "structures_encountered": [{"text": "Proximal vastus lateralis origin, midshaft vastus lateralis, distal lateral femoral cortex, lateral intermuscular septum, and profunda perforators define the corridor.", "source_ids": ["ao_befa25c53a40076c"]}],
+        "structures_at_risk": [{"text": "Profunda perforators, femoral vessels medially, sciatic nerve posteriorly, quadriceps blood supply, knee capsule distally, and fracture hematoma are at risk during blind tunneling and percutaneous fixation.", "source_ids": ["ao_befa25c53a40076c", "pmid_10897283"], "risk_level": "high"}],
+        "danger_zones": [{"text": "Keep the tunneler and plate continuously against the lateral cortex; a medial or posterior passage can injure the major neurovascular structures, while blind drilling can overpenetrate the far cortex.", "source_ids": ["ao_befa25c53a40076c", "pmid_10897283"], "risk_level": "high"}],
+        "retraction_hazards": [{"text": "Place Hohmann retractors directly anterior and posterior to bone through the windows under tactile control; avoid circumferential stripping or uncontrolled posterior placement.", "source_ids": ["ao_befa25c53a40076c", "pmid_10897283"], "risk_level": "high"}],
+        "exposure": [{"text": "Provides proximal and distal fixation access while preserving the fracture hematoma, intervening soft-tissue envelope, and segmental blood supply.", "source_ids": ["ao_befa25c53a40076c", "pmid_10897283", "pmid_21808699"]}],
+        "limitations": [{"text": "The fracture is not directly visualized, so length, alignment, rotation, plate position, and screw trajectories depend on disciplined reduction methods and fluoroscopy.", "source_ids": ["pmid_10897283", "pmid_21808699"]}],
+        "extensions": [{"text": "Enlarge the proximal window with an L-shaped release of vastus lateralis origin, lengthen the distal window toward Gerdy tubercle, or add a limited midshaft window without exposing the comminuted zone.", "source_ids": ["ao_befa25c53a40076c", "pmid_10897283"], "risk_level": "high"}],
+        "indications": [{"text": "Use for bridge plating of comminuted shaft fractures and selected patterns where preserving periosteal perfusion and fracture biology is a priority.", "source_ids": ["pmid_10897283", "pmid_21808699"]}],
+        "relative_contraindications": [{"text": "Choose open exposure when contamination requires debridement, direct articular or anatomic reduction is necessary, vascular exploration is required, or acceptable indirect alignment cannot be obtained.", "source_ids": ["ao_befa25c53a40076c", "pmid_10897283"]}],
+        "implant_implications": [{"text": "Use a long bridge plate with adequate working length and balanced screw distribution; avoid filling every hole or creating an overly stiff short construct across comminution.", "source_ids": ["pmid_10897283", "pmid_21808699"], "risk_level": "high"}],
+        "fluoroscopy_implications": [{"text": "Sequentially verify hip and knee orientation, length, coronal and sagittal axes, rotation, plate centering, terminal fixation, and bicortical screw length throughout the case.", "source_ids": ["ao_befa25c53a40076c", "pmid_10897283"], "risk_level": "high"}],
+        "closure": [{"text": "Confirm hemostasis through every window, irrigate, release retractors, and close fascia lata and skin without converting the small incisions into tight compartments.", "source_ids": ["ao_befa25c53a40076c"]}],
+        "complications": [{"text": "Complications include malrotation, shortening, varus or sagittal malalignment, plate malposition, perforator or neurovascular injury, delayed union or nonunion, implant fatigue, infection, and knee stiffness.", "source_ids": ["ao_befa25c53a40076c", "pmid_10897283", "pmid_21808699"], "risk_level": "high"}],
+        "bailouts": [{"text": "If indirect reduction, rotation, or plate passage remains uncertain, stop blind manipulation, add a limited targeted window or temporary reduction aid, and convert to open reduction when safety or alignment demands it.", "source_ids": ["ao_befa25c53a40076c", "pmid_10897283"], "risk_level": "high"}],
+        "questions": [
+          {"question": "What tissue is intentionally preserved by MIPO?", "answer": "The fracture-zone soft-tissue envelope, periosteal blood supply, and fracture hematoma.", "source_ids": ["ao_befa25c53a40076c", "pmid_10897283"]},
+          {"question": "Where must the plate pass?", "answer": "Extraperiosteally beneath vastus lateralis while remaining against the lateral femoral cortex.", "source_ids": ["ao_befa25c53a40076c"]},
+          {"question": "What must be proven before final fixation despite acceptable AP alignment?", "answer": "Length, lateral-plane alignment, and femoral rotation, as well as plate and screw position.", "source_ids": ["pmid_10897283"]}
+        ]
+      }
+    }
+  ]
+}

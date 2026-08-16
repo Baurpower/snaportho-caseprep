@@ -1,0 +1,468 @@
+{
+  "schema_version": "brobot_approach_packet_v1",
+  "approach_id": "pediatric_distal_humerus_posterior_no_osteotomy",
+  "name": "Pediatric posterior distal-humerus approach without olecranon osteotomy",
+  "aliases": [
+    "pediatric posterior triceps-window approach",
+    "pediatric triceps flip"
+  ],
+  "region": "posterior pediatric elbow and distal humerus",
+  "joint": "elbow",
+  "bones": [
+    "distal humerus",
+    "olecranon",
+    "proximal ulna"
+  ],
+  "corridor": "Posterior medial, lateral, combined triceps-flip, or midline triceps window without olecranon osteotomy",
+  "positioning": [
+    {
+      "text": "Position lateral decubitus with arm supported and elbow capable of hyperflexion to move olecranon out of the articular view.",
+      "claim_ids": [
+        "pediatric_distal_humerus_posterior_no_osteotomy_positioning_01"
+      ]
+    }
+  ],
+  "setup": [
+    {
+      "text": "Select medial, lateral, combined, or midline window according to fracture geometry and plan ulnar- and radial-nerve thresholds before extending exposure.",
+      "claim_ids": [
+        "pediatric_distal_humerus_posterior_no_osteotomy_setup_01"
+      ]
+    }
+  ],
+  "surface_landmarks": [
+    {
+      "text": "Mark posterior humeral shaft, medial/lateral epicondyles, olecranon, ulnar crest, and ulnar-nerve course.",
+      "claim_ids": [
+        "pediatric_distal_humerus_posterior_no_osteotomy_surface_landmarks_01"
+      ]
+    }
+  ],
+  "incision": [
+    {
+      "text": "Begin about one child-hand breadth above olecranon, curve laterally around its tip, and continue 2-4 cm along ulnar crest to create an ulnar-based flap.",
+      "claim_ids": [
+        "pediatric_distal_humerus_posterior_no_osteotomy_incision_01"
+      ]
+    }
+  ],
+  "superficial_interval": [
+    {
+      "text": "Raise an ulnar-based flap and identify the selected medial, lateral, or exact midline triceps window.",
+      "claim_ids": [
+        "pediatric_distal_humerus_posterior_no_osteotomy_superficial_interval_01"
+      ]
+    }
+  ],
+  "deep_interval": [
+    {
+      "text": "For medial/lateral windows mobilize triceps from the corresponding humeral side; for midline split tendon to olecranon and extend 3-4 cm above fracture, preserving extensor continuity.",
+      "claim_ids": [
+        "pediatric_distal_humerus_posterior_no_osteotomy_deep_interval_01"
+      ]
+    }
+  ],
+  "layers": [
+    {
+      "text": "Skin, ulnar-based flap, triceps fascia/window, limited olecranon cartilage-periosteal sleeve, capsule, then posterior distal humerus.",
+      "claim_ids": [
+        "pediatric_distal_humerus_posterior_no_osteotomy_layers_01"
+      ]
+    }
+  ],
+  "structures_encountered": [
+    {
+      "text": "Ulnar nerve, triceps, anconeus, medial/lateral septa, olecranon fossa, posterior capsule, and distal-humeral joint are encountered.",
+      "claim_ids": [
+        "pediatric_distal_humerus_posterior_no_osteotomy_structures_encountered_01"
+      ]
+    }
+  ],
+  "structures_at_risk": [
+    {
+      "text": "Ulnar nerve medially, radial nerve with proximal lateral extension, triceps insertion, olecranon cartilage/periosteum, physis, and posterior periosteal hinge are at risk.",
+      "claim_ids": [
+        "pediatric_distal_humerus_posterior_no_osteotomy_structures_at_risk_01"
+      ]
+    }
+  ],
+  "danger_zones": [
+    {
+      "text": "Preserve sufficient triceps tendon, insertion, and ulnar periosteum for extensor continuity; identify radial nerve before proximal lateral extension.",
+      "claim_ids": [
+        "pediatric_distal_humerus_posterior_no_osteotomy_danger_zones_01"
+      ]
+    }
+  ],
+  "retraction_hazards": [
+    {
+      "text": "Use smooth broad retractors and avoid ulnar-nerve traction, forceful proximal triceps retraction, or excessive stripping of posterior periosteum.",
+      "claim_ids": [
+        "pediatric_distal_humerus_posterior_no_osteotomy_retraction_hazards_01"
+      ]
+    }
+  ],
+  "exposure": [
+    {
+      "text": "Combined medial and lateral windows or a midline split expose posterior columns, olecranon fossa, and joint without creating an olecranon osteotomy.",
+      "claim_ids": [
+        "pediatric_distal_humerus_posterior_no_osteotomy_exposure_01"
+      ]
+    }
+  ],
+  "limitations": [
+    {
+      "text": "Posterior exposure compromises the stabilizing posterior periosteum in extension-type supracondylar fractures and is not routine for those injuries.",
+      "claim_ids": [
+        "pediatric_distal_humerus_posterior_no_osteotomy_limitations_01"
+      ]
+    }
+  ],
+  "extensions": [
+    {
+      "text": "Combine medial and lateral windows for a triceps flip or extend a midline split proximally only with radial-nerve awareness.",
+      "claim_ids": [
+        "pediatric_distal_humerus_posterior_no_osteotomy_extensions_01"
+      ]
+    }
+  ],
+  "indications": [
+    {
+      "text": "Use for pediatric T- or Y-type intercondylar distal-humerus fractures requiring posterior articular access.",
+      "claim_ids": [
+        "pediatric_distal_humerus_posterior_no_osteotomy_indications_01"
+      ]
+    }
+  ],
+  "relative_contraindications": [
+    {
+      "text": "Avoid as the routine exposure for extension-type supracondylar fractures because posterior periosteal disruption removes a stabilizing structure.",
+      "claim_ids": [
+        "pediatric_distal_humerus_posterior_no_osteotomy_relative_contraindications_01"
+      ]
+    }
+  ],
+  "implant_implications": [
+    {
+      "text": "Plan fixation through chosen windows while maintaining enough olecranon-triceps-periosteal tissue for repair and keeping implants away from ulnar nerve.",
+      "claim_ids": [
+        "pediatric_distal_humerus_posterior_no_osteotomy_implant_implications_01"
+      ]
+    }
+  ],
+  "fluoroscopy_implications": [
+    {
+      "text": "Use AP, lateral, and oblique views through unrestricted elbow motion to verify articular reduction, column alignment, and implant containment.",
+      "claim_ids": [
+        "pediatric_distal_humerus_posterior_no_osteotomy_fluoroscopy_implications_01"
+      ]
+    }
+  ],
+  "closure": [
+    {
+      "text": "Repair capsule, reattach any cartilage-periosteal olecranon sleeve, close triceps and fascia anatomically, and confirm tension-free nerve positions.",
+      "claim_ids": [
+        "pediatric_distal_humerus_posterior_no_osteotomy_closure_01"
+      ]
+    }
+  ],
+  "complications": [
+    {
+      "text": "Complications include ulnar or radial neuropathy, triceps weakness, stiffness, growth disturbance, nonunion, infection, heterotopic ossification, and fixation failure.",
+      "claim_ids": [
+        "pediatric_distal_humerus_posterior_no_osteotomy_complications_01"
+      ]
+    }
+  ],
+  "bailouts": [
+    {
+      "text": "Combine the medial and lateral windows when one is inadequate, preserving extensor continuity rather than creating an unplanned osteotomy.",
+      "claim_ids": [
+        "pediatric_distal_humerus_posterior_no_osteotomy_bailouts_01"
+      ]
+    }
+  ],
+  "procedure_applications": [
+    {
+      "procedure_id": "pediatric_intercondylar_distal_humerus_fracture_orif",
+      "relationship": "primary_option",
+      "condition": "A pediatric T- or Y-type distal-humerus fracture requires posterior articular and column exposure"
+    }
+  ],
+  "questions": [
+    {
+      "question": "How does elbow flexion affect visualization?",
+      "answer": "At about 110 degrees the olecranon clears the posterior joint surface most completely.",
+      "claim_ids": [
+        "pediatric_distal_humerus_posterior_no_osteotomy_questions_01"
+      ]
+    },
+    {
+      "question": "Which nerve limits proximal lateral extension?",
+      "answer": "The radial nerve.",
+      "claim_ids": [
+        "pediatric_distal_humerus_posterior_no_osteotomy_questions_02"
+      ]
+    },
+    {
+      "question": "Why avoid this approach for routine extension supracondylar fractures?",
+      "answer": "It compromises the stabilizing posterior periosteum.",
+      "claim_ids": [
+        "pediatric_distal_humerus_posterior_no_osteotomy_questions_03"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "pediatric_distal_humerus_posterior_no_osteotomy_positioning_01",
+      "text": "Position lateral decubitus with arm supported and elbow capable of hyperflexion to move olecranon out of the articular view.",
+      "source_ids": [
+        "ao_1e90687456dd1e59",
+        "pmid_41878455"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "pediatric_distal_humerus_posterior_no_osteotomy_setup_01",
+      "text": "Select medial, lateral, combined, or midline window according to fracture geometry and plan ulnar- and radial-nerve thresholds before extending exposure.",
+      "source_ids": [
+        "ao_1e90687456dd1e59",
+        "pmid_41878455"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "pediatric_distal_humerus_posterior_no_osteotomy_surface_landmarks_01",
+      "text": "Mark posterior humeral shaft, medial/lateral epicondyles, olecranon, ulnar crest, and ulnar-nerve course.",
+      "source_ids": [
+        "ao_1e90687456dd1e59"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "pediatric_distal_humerus_posterior_no_osteotomy_incision_01",
+      "text": "Begin about one child-hand breadth above olecranon, curve laterally around its tip, and continue 2-4 cm along ulnar crest to create an ulnar-based flap.",
+      "source_ids": [
+        "ao_1e90687456dd1e59",
+        "pmid_41878455"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "pediatric_distal_humerus_posterior_no_osteotomy_superficial_interval_01",
+      "text": "Raise an ulnar-based flap and identify the selected medial, lateral, or exact midline triceps window.",
+      "source_ids": [
+        "ao_1e90687456dd1e59",
+        "pmid_41878455"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "pediatric_distal_humerus_posterior_no_osteotomy_deep_interval_01",
+      "text": "For medial/lateral windows mobilize triceps from the corresponding humeral side; for midline split tendon to olecranon and extend 3-4 cm above fracture, preserving extensor continuity.",
+      "source_ids": [
+        "ao_1e90687456dd1e59",
+        "pmid_41878455"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "pediatric_distal_humerus_posterior_no_osteotomy_layers_01",
+      "text": "Skin, ulnar-based flap, triceps fascia/window, limited olecranon cartilage-periosteal sleeve, capsule, then posterior distal humerus.",
+      "source_ids": [
+        "ao_1e90687456dd1e59"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "pediatric_distal_humerus_posterior_no_osteotomy_structures_encountered_01",
+      "text": "Ulnar nerve, triceps, anconeus, medial/lateral septa, olecranon fossa, posterior capsule, and distal-humeral joint are encountered.",
+      "source_ids": [
+        "ao_1e90687456dd1e59",
+        "pmid_41878455"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "pediatric_distal_humerus_posterior_no_osteotomy_structures_at_risk_01",
+      "text": "Ulnar nerve medially, radial nerve with proximal lateral extension, triceps insertion, olecranon cartilage/periosteum, physis, and posterior periosteal hinge are at risk.",
+      "source_ids": [
+        "ao_1e90687456dd1e59",
+        "pmid_41878455"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "pediatric_distal_humerus_posterior_no_osteotomy_danger_zones_01",
+      "text": "Preserve sufficient triceps tendon, insertion, and ulnar periosteum for extensor continuity; identify radial nerve before proximal lateral extension.",
+      "source_ids": [
+        "ao_1e90687456dd1e59",
+        "pmid_41878455"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "pediatric_distal_humerus_posterior_no_osteotomy_retraction_hazards_01",
+      "text": "Use smooth broad retractors and avoid ulnar-nerve traction, forceful proximal triceps retraction, or excessive stripping of posterior periosteum.",
+      "source_ids": [
+        "ao_1e90687456dd1e59",
+        "pmid_41878455"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "pediatric_distal_humerus_posterior_no_osteotomy_exposure_01",
+      "text": "Combined medial and lateral windows or a midline split expose posterior columns, olecranon fossa, and joint without creating an olecranon osteotomy.",
+      "source_ids": [
+        "ao_1e90687456dd1e59",
+        "pmid_41878455"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "pediatric_distal_humerus_posterior_no_osteotomy_limitations_01",
+      "text": "Posterior exposure compromises the stabilizing posterior periosteum in extension-type supracondylar fractures and is not routine for those injuries.",
+      "source_ids": [
+        "ao_1e90687456dd1e59",
+        "pmid_41878455"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "pediatric_distal_humerus_posterior_no_osteotomy_extensions_01",
+      "text": "Combine medial and lateral windows for a triceps flip or extend a midline split proximally only with radial-nerve awareness.",
+      "source_ids": [
+        "ao_1e90687456dd1e59",
+        "pmid_41878455"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "pediatric_distal_humerus_posterior_no_osteotomy_indications_01",
+      "text": "Use for pediatric T- or Y-type intercondylar distal-humerus fractures requiring posterior articular access.",
+      "source_ids": [
+        "ao_1e90687456dd1e59",
+        "pmid_41878455"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "pediatric_distal_humerus_posterior_no_osteotomy_relative_contraindications_01",
+      "text": "Avoid as the routine exposure for extension-type supracondylar fractures because posterior periosteal disruption removes a stabilizing structure.",
+      "source_ids": [
+        "ao_1e90687456dd1e59",
+        "pmid_41878455"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "pediatric_distal_humerus_posterior_no_osteotomy_implant_implications_01",
+      "text": "Plan fixation through chosen windows while maintaining enough olecranon-triceps-periosteal tissue for repair and keeping implants away from ulnar nerve.",
+      "source_ids": [
+        "ao_1e90687456dd1e59",
+        "pmid_41878455"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "pediatric_distal_humerus_posterior_no_osteotomy_fluoroscopy_implications_01",
+      "text": "Use AP, lateral, and oblique views through unrestricted elbow motion to verify articular reduction, column alignment, and implant containment.",
+      "source_ids": [
+        "ao_1e90687456dd1e59",
+        "pmid_41878455"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "pediatric_distal_humerus_posterior_no_osteotomy_closure_01",
+      "text": "Repair capsule, reattach any cartilage-periosteal olecranon sleeve, close triceps and fascia anatomically, and confirm tension-free nerve positions.",
+      "source_ids": [
+        "ao_1e90687456dd1e59",
+        "pmid_41878455"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "pediatric_distal_humerus_posterior_no_osteotomy_complications_01",
+      "text": "Complications include ulnar or radial neuropathy, triceps weakness, stiffness, growth disturbance, nonunion, infection, heterotopic ossification, and fixation failure.",
+      "source_ids": [
+        "pmid_41878455",
+        "pmid_29934098"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "pediatric_distal_humerus_posterior_no_osteotomy_bailouts_01",
+      "text": "Combine the medial and lateral windows when one is inadequate, preserving extensor continuity rather than creating an unplanned osteotomy.",
+      "source_ids": [
+        "ao_1e90687456dd1e59",
+        "pmid_41878455"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "pediatric_distal_humerus_posterior_no_osteotomy_questions_01",
+      "text": "How does elbow flexion affect visualization?",
+      "source_ids": [
+        "ao_1e90687456dd1e59"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "pediatric_distal_humerus_posterior_no_osteotomy_questions_02",
+      "text": "Which nerve limits proximal lateral extension?",
+      "source_ids": [
+        "ao_1e90687456dd1e59"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "pediatric_distal_humerus_posterior_no_osteotomy_questions_03",
+      "text": "Why avoid this approach for routine extension supracondylar fractures?",
+      "source_ids": [
+        "ao_1e90687456dd1e59"
+      ],
+      "risk_level": "medium"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "ao_1e90687456dd1e59",
+      "provider": "AO Surgery Reference",
+      "title": "Posterior Approach Without Olecranon Osteotomy",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/pediatric-trauma/distal-humerus/approach/posterior-approach-without-olecranon-osteotomy",
+      "source_page_id": "ao_1e90687456dd1e59"
+    },
+    {
+      "source_id": "pmid_41878455",
+      "provider": "PubMed",
+      "title": "Evidence-based treatment strategies and systematic review of pediatric AO/OTA type C2 distal-humerus fractures",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41878455/"
+    },
+    {
+      "source_id": "pmid_29934098",
+      "provider": "PubMed",
+      "title": "Surgical approaches for ORIF of intra-articular distal humerus fractures in adults",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/29934098/"
+    }
+  ],
+  "content_status": "agent_review_pending",
+  "review": {
+    "status": "agent_review_pending",
+    "required_roles": [
+      "adversarial_safety_reviewer",
+      "approach_anatomy_reviewer",
+      "educational_value_reviewer",
+      "evidence_reviewer",
+      "operative_exposure_reviewer",
+      "procedure_applicability_reviewer"
+    ],
+    "completed_roles": []
+  },
+  "resolved_contradiction_keys": [],
+  "authoring_provenance": {
+    "method": "local_codex_curated",
+    "definition_file": "data/approach_library/curated/pediatric_distal_humerus_approaches_v1.json",
+    "api_used": false
+  }
+}

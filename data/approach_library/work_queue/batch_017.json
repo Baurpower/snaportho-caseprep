@@ -1,0 +1,267 @@
+{
+  "schema_version": "brobot_approach_authoring_batch_v1",
+  "batch_id": "batch_017",
+  "tasks": [
+    {
+      "task_id": "author_ao_7ed8f91f7328028b",
+      "task_type": "approach_packet_authoring",
+      "status": "pending",
+      "source_page": {
+        "anatomic_area": "thoracolumbar",
+        "clinical_domain": "spine",
+        "collection": "trauma",
+        "discovery_method": "public_sitemap",
+        "page_type": "approach",
+        "provider": "ao_surgery_reference",
+        "region": "thoracolumbar",
+        "source_last_modified": "2026-04-17T05:56:17Z",
+        "source_page_id": "ao_7ed8f91f7328028b",
+        "title": "Percutaneous Posterior Approach For Pedicle Screw Placement",
+        "url": "https://surgeryreference.aofoundation.org/spine/trauma/thoracolumbar/approach/percutaneous-posterior-approach-for-pedicle-screw-placement",
+        "url_fingerprint": "7ed8f91f7328028b4cc1b2532187c68e7bc85763123066a80c1a188be6e59215",
+        "verified_at": "2026-08-15T22:17:56.343859+00:00"
+      },
+      "required_output": {
+        "schema_version": "brobot_approach_packet_v1",
+        "approach_id": "authored_ao_7ed8f91f7328028b",
+        "name": "Percutaneous Posterior Approach For Pedicle Screw Placement",
+        "aliases": [],
+        "region": "thoracolumbar",
+        "joint": "",
+        "bones": [],
+        "corridor": "",
+        "positioning": [],
+        "setup": [],
+        "surface_landmarks": [],
+        "incision": [],
+        "superficial_interval": [],
+        "deep_interval": [],
+        "layers": [],
+        "structures_encountered": [],
+        "structures_at_risk": [],
+        "danger_zones": [],
+        "retraction_hazards": [],
+        "exposure": [],
+        "limitations": [],
+        "extensions": [],
+        "indications": [],
+        "relative_contraindications": [],
+        "implant_implications": [],
+        "fluoroscopy_implications": [],
+        "closure": [],
+        "complications": [],
+        "bailouts": [],
+        "procedure_applications": [],
+        "questions": [],
+        "claims": [],
+        "sources": [
+          {
+            "source_id": "ao_7ed8f91f7328028b",
+            "provider": "ao_surgery_reference",
+            "url": "https://surgeryreference.aofoundation.org/spine/trauma/thoracolumbar/approach/percutaneous-posterior-approach-for-pedicle-screw-placement",
+            "title": "Percutaneous Posterior Approach For Pedicle Screw Placement",
+            "use": "primary_discovery_source"
+          }
+        ],
+        "content_status": "source_indexed",
+        "review": {
+          "status": "not_started",
+          "required_roles": [
+            "adversarial_safety_reviewer",
+            "approach_anatomy_reviewer",
+            "educational_value_reviewer",
+            "evidence_reviewer",
+            "operative_exposure_reviewer",
+            "procedure_applicability_reviewer"
+          ],
+          "completed_roles": []
+        }
+      },
+      "instructions": [
+        "Read the linked source; do not copy source prose or illustrations.",
+        "Synthesize original, concise, anatomically precise content into every applicable schema field.",
+        "Add at least one independent authoritative source; use PubMed evidence for comparative claims.",
+        "Represent every clinical assertion in claims[] with source_ids and risk_level.",
+        "Represent each clinical list item as an object with text and claim_ids; plain strings fail validation.",
+        "Give comparable claims a claim_key and normalized_value so contradictions can be detected.",
+        "Do not infer an operative detail absent from the cited sources.",
+        "Mark a field unresolved rather than filling it with generic content.",
+        "Do not mark the packet published or agent reviewed."
+      ]
+    },
+    {
+      "task_id": "author_ao_9c10dec84d26544e",
+      "task_type": "approach_packet_authoring",
+      "status": "pending",
+      "source_page": {
+        "anatomic_area": "thoracolumbar",
+        "clinical_domain": "spine",
+        "collection": "trauma",
+        "discovery_method": "public_sitemap",
+        "page_type": "approach",
+        "provider": "ao_surgery_reference",
+        "region": "thoracolumbar",
+        "source_last_modified": "2026-04-17T05:57:01Z",
+        "source_page_id": "ao_9c10dec84d26544e",
+        "title": "Posterior Open Approach Midline Approach T1 S1",
+        "url": "https://surgeryreference.aofoundation.org/spine/trauma/thoracolumbar/approach/posterior-open-approach---midline-approach-t1-s1",
+        "url_fingerprint": "9c10dec84d26544ee1035fff5824a98b9dbd442c4cda68a5c5860aa0a74eb873",
+        "verified_at": "2026-08-15T22:17:56.343859+00:00"
+      },
+      "required_output": {
+        "schema_version": "brobot_approach_packet_v1",
+        "approach_id": "authored_ao_9c10dec84d26544e",
+        "name": "Posterior Open Approach Midline Approach T1 S1",
+        "aliases": [],
+        "region": "thoracolumbar",
+        "joint": "",
+        "bones": [],
+        "corridor": "",
+        "positioning": [],
+        "setup": [],
+        "surface_landmarks": [],
+        "incision": [],
+        "superficial_interval": [],
+        "deep_interval": [],
+        "layers": [],
+        "structures_encountered": [],
+        "structures_at_risk": [],
+        "danger_zones": [],
+        "retraction_hazards": [],
+        "exposure": [],
+        "limitations": [],
+        "extensions": [],
+        "indications": [],
+        "relative_contraindications": [],
+        "implant_implications": [],
+        "fluoroscopy_implications": [],
+        "closure": [],
+        "complications": [],
+        "bailouts": [],
+        "procedure_applications": [],
+        "questions": [],
+        "claims": [],
+        "sources": [
+          {
+            "source_id": "ao_9c10dec84d26544e",
+            "provider": "ao_surgery_reference",
+            "url": "https://surgeryreference.aofoundation.org/spine/trauma/thoracolumbar/approach/posterior-open-approach---midline-approach-t1-s1",
+            "title": "Posterior Open Approach Midline Approach T1 S1",
+            "use": "primary_discovery_source"
+          }
+        ],
+        "content_status": "source_indexed",
+        "review": {
+          "status": "not_started",
+          "required_roles": [
+            "adversarial_safety_reviewer",
+            "approach_anatomy_reviewer",
+            "educational_value_reviewer",
+            "evidence_reviewer",
+            "operative_exposure_reviewer",
+            "procedure_applicability_reviewer"
+          ],
+          "completed_roles": []
+        }
+      },
+      "instructions": [
+        "Read the linked source; do not copy source prose or illustrations.",
+        "Synthesize original, concise, anatomically precise content into every applicable schema field.",
+        "Add at least one independent authoritative source; use PubMed evidence for comparative claims.",
+        "Represent every clinical assertion in claims[] with source_ids and risk_level.",
+        "Represent each clinical list item as an object with text and claim_ids; plain strings fail validation.",
+        "Give comparable claims a claim_key and normalized_value so contradictions can be detected.",
+        "Do not infer an operative detail absent from the cited sources.",
+        "Mark a field unresolved rather than filling it with generic content.",
+        "Do not mark the packet published or agent reviewed."
+      ]
+    },
+    {
+      "task_id": "author_ao_6c7131bc117e21d2",
+      "task_type": "approach_packet_authoring",
+      "status": "pending",
+      "source_page": {
+        "anatomic_area": "thoracolumbar",
+        "clinical_domain": "spine",
+        "collection": "trauma",
+        "discovery_method": "public_sitemap",
+        "page_type": "approach",
+        "provider": "ao_surgery_reference",
+        "region": "thoracolumbar",
+        "source_last_modified": "2026-04-17T05:57:29Z",
+        "source_page_id": "ao_6c7131bc117e21d2",
+        "title": "Right Sided Thoracotomy T3 T10",
+        "url": "https://surgeryreference.aofoundation.org/spine/trauma/thoracolumbar/approach/right-sided-thoracotomy-t3-t10",
+        "url_fingerprint": "6c7131bc117e21d2a7a03110cfe56d6cee9e7b5490e53f80f3bc1c48020cc1e4",
+        "verified_at": "2026-08-15T22:17:56.343859+00:00"
+      },
+      "required_output": {
+        "schema_version": "brobot_approach_packet_v1",
+        "approach_id": "authored_ao_6c7131bc117e21d2",
+        "name": "Right Sided Thoracotomy T3 T10",
+        "aliases": [],
+        "region": "thoracolumbar",
+        "joint": "",
+        "bones": [],
+        "corridor": "",
+        "positioning": [],
+        "setup": [],
+        "surface_landmarks": [],
+        "incision": [],
+        "superficial_interval": [],
+        "deep_interval": [],
+        "layers": [],
+        "structures_encountered": [],
+        "structures_at_risk": [],
+        "danger_zones": [],
+        "retraction_hazards": [],
+        "exposure": [],
+        "limitations": [],
+        "extensions": [],
+        "indications": [],
+        "relative_contraindications": [],
+        "implant_implications": [],
+        "fluoroscopy_implications": [],
+        "closure": [],
+        "complications": [],
+        "bailouts": [],
+        "procedure_applications": [],
+        "questions": [],
+        "claims": [],
+        "sources": [
+          {
+            "source_id": "ao_6c7131bc117e21d2",
+            "provider": "ao_surgery_reference",
+            "url": "https://surgeryreference.aofoundation.org/spine/trauma/thoracolumbar/approach/right-sided-thoracotomy-t3-t10",
+            "title": "Right Sided Thoracotomy T3 T10",
+            "use": "primary_discovery_source"
+          }
+        ],
+        "content_status": "source_indexed",
+        "review": {
+          "status": "not_started",
+          "required_roles": [
+            "adversarial_safety_reviewer",
+            "approach_anatomy_reviewer",
+            "educational_value_reviewer",
+            "evidence_reviewer",
+            "operative_exposure_reviewer",
+            "procedure_applicability_reviewer"
+          ],
+          "completed_roles": []
+        }
+      },
+      "instructions": [
+        "Read the linked source; do not copy source prose or illustrations.",
+        "Synthesize original, concise, anatomically precise content into every applicable schema field.",
+        "Add at least one independent authoritative source; use PubMed evidence for comparative claims.",
+        "Represent every clinical assertion in claims[] with source_ids and risk_level.",
+        "Represent each clinical list item as an object with text and claim_ids; plain strings fail validation.",
+        "Give comparable claims a claim_key and normalized_value so contradictions can be detected.",
+        "Do not infer an operative detail absent from the cited sources.",
+        "Mark a field unresolved rather than filling it with generic content.",
+        "Do not mark the packet published or agent reviewed."
+      ]
+    }
+  ]
+}

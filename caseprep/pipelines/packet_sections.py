@@ -77,32 +77,6 @@ def _keyword_questions(
     return output
 
 
-def teaching_topics_pipeline(payload: Optional[Dict[str, Any]]) -> Dict[str, Any]:
-    """Pipeline D — resident teaching topics from the curated review checklist."""
-    started = time.monotonic()
-    if not payload:
-        return pipeline_result("teaching_topics", started, [], status="unavailable")
-    refs = source_ids(payload)
-    items: List[Dict[str, Any]] = []
-    for topic in (payload.get("night_before_review_checklist") or [])[:6]:
-        topic_text = clean(topic)
-        if not topic_text or topic_text.lower().startswith("review linked modules"):
-            continue
-        result = item(
-            prefix="teach",
-            question="What should you review tonight?",
-            answer=topic_text,
-            category="teaching_topics",
-            sources=refs,
-            confidence=0.9,
-        )
-        if result:
-            items.append(result)
-    return pipeline_result(
-        "teaching_topics", started, _mark(items, payload), sources=refs
-    )
-
-
 def important_anatomy_pipeline(payload: Optional[Dict[str, Any]]) -> Dict[str, Any]:
     """Pipeline E — must-know anatomy, structures at risk, danger zones, landmarks.
 
@@ -189,27 +163,6 @@ def attending_questions_pipeline(payload: Optional[Dict[str, Any]]) -> Dict[str,
     return pipeline_result(
         "attending_questions", started, _mark(items[:12], payload), sources=refs
     )
-
-
-def pitfalls_pipeline(payload: Optional[Dict[str, Any]]) -> Dict[str, Any]:
-    """Pipeline G — mistakes junior residents actually make (curated)."""
-    started = time.monotonic()
-    if not payload:
-        return pipeline_result("pitfalls", started, [], status="unavailable")
-    refs = source_ids(payload)
-    items: List[Dict[str, Any]] = []
-    for mistake in (payload.get("common_mistakes") or [])[:8]:
-        result = item(
-            prefix="pitfall",
-            question="Common mistake to avoid",
-            answer=mistake,
-            category="pitfall",
-            sources=refs,
-            confidence=0.9,
-        )
-        if result:
-            items.append(result)
-    return pipeline_result("pitfalls", started, _mark(items, payload), sources=refs)
 
 
 def decision_points_pipeline(payload: Optional[Dict[str, Any]]) -> Dict[str, Any]:

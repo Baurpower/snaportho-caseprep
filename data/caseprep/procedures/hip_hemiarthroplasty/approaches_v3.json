@@ -1,0 +1,77 @@
+{
+  "schema_version": "caseprep_approaches_v3",
+  "approaches": [
+    {
+      "approach_id": "lateral_hardinge_hip",
+      "name": "Direct lateral (Hardinge)",
+      "role": "common_option",
+      "content_status": "curated",
+      "selection_indications": [
+        "Common exposure for fracture hemiarthroplasty; final selection depends on surgeon experience, patient factors, and institutional practice."
+      ],
+      "selection_limitations": [
+        "Abductor splitting and repair are approach-specific concerns.",
+        "Comparative evidence does not establish one universally superior approach."
+      ],
+      "positioning": ["Supine or lateral positioning may be used according to technique and surgeon preference."],
+      "exposure": [
+        "Center the incision over the greater trochanter, split the iliotibial band, and develop the anterior abductor flap while limiting proximal gluteus medius splitting.",
+        "Expose the anterior capsule and femoral neck; repair the abductor mechanism securely to the greater trochanter during closure."
+      ],
+      "layers": [],
+      "landmarks": ["Greater trochanter", "Iliotibial band", "Gluteus medius and minimus", "Femoral neck"],
+      "structures_at_risk": [
+        {"structure": "Superior gluteal nerve", "risk_phase": "Proximal abductor split", "protection": "Limit proximal extension and avoid blind proximal dissection."},
+        {"structure": "Abductor mechanism", "risk_phase": "Exposure and closure", "protection": "Preserve a repairable flap and obtain secure reattachment."}
+      ],
+      "pitfalls": ["Excessive proximal abductor split", "Inadequate abductor repair"],
+      "questions": [
+        "Q: What is the defining nerve risk of the direct lateral approach? A: The superior gluteal nerve is endangered by excessive proximal abductor splitting.",
+        "Q: Why is abductor repair central to closure? A: Failure can produce abductor weakness and Trendelenburg gait."
+      ],
+      "source_urls": [
+        "https://www.orthobullets.com/approaches/12022/hip-direct-lateral-approach-hardinge-transgluteal",
+        "https://pubmed.ncbi.nlm.nih.gov/40511667/"
+      ],
+      "review_status": "agent_review_pending",
+      "review_evidence": [],
+      "coverage_notes": "Approach-specific technique is curated; comparative outcome claims are intentionally qualified because current evidence is uncertain."
+    },
+    {
+      "approach_id": "approach_lower_ext_hip_posterior_moore_southern",
+      "name": "Posterolateral / posterior (Moore-Southern)",
+      "role": "common_option",
+      "content_status": "curated",
+      "selection_indications": [
+        "Common alternative for hemiarthroplasty; selection depends on surgeon experience, patient factors, and institutional practice."
+      ],
+      "selection_limitations": [
+        "Posterior soft-tissue repair is important for stability.",
+        "Comparative evidence is heterogeneous and does not support presenting this as universally preferred."
+      ],
+      "positioning": ["Lateral decubitus positioning is used for the AO-described posterolateral approach."],
+      "exposure": [
+        "Split gluteus maximus, identify and tag the short external rotators near their femoral insertion, and reflect them to protect the sciatic nerve while exposing the capsule.",
+        "Perform the capsulotomy while preserving the acetabular labrum for hemiarthroplasty; repair the posterior capsule and short external rotators at closure."
+      ],
+      "layers": [],
+      "landmarks": ["Greater trochanter", "Gluteus maximus fibers", "Piriformis and conjoined tendon", "Posterior capsule"],
+      "structures_at_risk": [
+        {"structure": "Sciatic nerve", "risk_phase": "Deep exposure and retraction", "protection": "Respect its posterior location and avoid injurious retractor placement; routine exposure is unnecessary in uncomplicated arthroplasty."},
+        {"structure": "Posterior capsule and short external rotators", "risk_phase": "Release and closure", "protection": "Tag for controlled retraction and subsequent repair."}
+      ],
+      "pitfalls": ["Uncontrolled posterior retraction", "Failure to repair the posterior capsule and short external rotators"],
+      "questions": [
+        "Q: How do the released short external rotators help protect the sciatic nerve? A: They are tagged and reflected posteriorly, creating a soft-tissue layer between the operative field and the nerve.",
+        "Q: Which structures should be repaired during posterior closure? A: The posterior capsule and released short external rotator tendons should be securely repaired when feasible."
+      ],
+      "source_urls": [
+        "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/proximal-femur/approach/posterolateral-posterior-approach",
+        "https://pubmed.ncbi.nlm.nih.gov/40511667/"
+      ],
+      "review_status": "agent_review_pending",
+      "review_evidence": [],
+      "coverage_notes": "Technique follows AO Surgery Reference; comparative claims are qualified to match the 2025 Cochrane review."
+    }
+  ]
+}

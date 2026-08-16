@@ -1,0 +1,470 @@
+{
+  "schema_version": "brobot_approach_packet_v1",
+  "approach_id": "distal_humerus_lateral",
+  "name": "Lateral approach to the distal humerus",
+  "aliases": [
+    "lateral column approach",
+    "extended lateral capitellar approach"
+  ],
+  "region": "lateral elbow and distal humerus",
+  "joint": "elbow",
+  "bones": [
+    "lateral condyle",
+    "capitellum",
+    "trochlea",
+    "lateral epicondyle"
+  ],
+  "corridor": "Subperiosteal lateral-column elevation with common-extensor split anterior to the lateral collateral ligament",
+  "positioning": [
+    {
+      "text": "Position supine or lateral with elbow freely flexed and forearm rotatable for radial-nerve relaxation and imaging.",
+      "claim_ids": [
+        "distal_humerus_lateral_positioning_01"
+      ]
+    }
+  ],
+  "setup": [
+    {
+      "text": "Review CT for posterior comminution and trochlear extension; prepare for LCL repair or epicondyle osteotomy if exposure must be extended.",
+      "claim_ids": [
+        "distal_humerus_lateral_setup_01"
+      ]
+    }
+  ],
+  "surface_landmarks": [
+    {
+      "text": "Mark lateral epicondyle, supracondylar ridge, radial head, olecranon, and common-extensor origin.",
+      "claim_ids": [
+        "distal_humerus_lateral_surface_landmarks_01"
+      ]
+    }
+  ],
+  "incision": [
+    {
+      "text": "Center incision on lateral epicondyle, extend proximally along supracondylar ridge and distally toward radial head in line with common extensors.",
+      "claim_ids": [
+        "distal_humerus_lateral_incision_01"
+      ]
+    }
+  ],
+  "superficial_interval": [
+    {
+      "text": "Open deep fascia in line and elevate lateral-column muscle-capsule subperiosteally proximally.",
+      "claim_ids": [
+        "distal_humerus_lateral_superficial_interval_01"
+      ]
+    }
+  ],
+  "deep_interval": [
+    {
+      "text": "Split common extensors anterior to the LCL and radial-head equator; preserve ligament unless planned release/osteotomy is required and repairable.",
+      "claim_ids": [
+        "distal_humerus_lateral_deep_interval_01"
+      ]
+    }
+  ],
+  "layers": [
+    {
+      "text": "Skin, subcutaneous tissue, deep fascia, common extensor origin, capsule, then lateral distal humerus.",
+      "claim_ids": [
+        "distal_humerus_lateral_layers_01"
+      ]
+    }
+  ],
+  "structures_encountered": [
+    {
+      "text": "Common extensors, brachioradialis, LCL/LUCL, capsule, capitellum, trochlea, radial head, anconeus, and lateral triceps are encountered.",
+      "claim_ids": [
+        "distal_humerus_lateral_structures_encountered_01"
+      ]
+    }
+  ],
+  "structures_at_risk": [
+    {
+      "text": "Radial nerve and PIN, LCL complex, articular cartilage, capitellar blood supply, and posterior interosseous structures are at risk.",
+      "claim_ids": [
+        "distal_humerus_lateral_structures_at_risk_01"
+      ]
+    }
+  ],
+  "danger_zones": [
+    {
+      "text": "Radial nerve divides near radial head; avoid prolonged or levered anterior retraction and do not split posterior to radial-head equator into LCL.",
+      "claim_ids": [
+        "distal_humerus_lateral_danger_zones_01"
+      ]
+    }
+  ],
+  "retraction_hazards": [
+    {
+      "text": "Avoid anterior lever retractors and excessive traction near radial head/neck; protect cartilage and lateral blood supply.",
+      "claim_ids": [
+        "distal_humerus_lateral_retraction_hazards_01"
+      ]
+    }
+  ],
+  "exposure": [
+    {
+      "text": "Exposes lateral condyle, capitellum, lateral trochlea, and with posterior elevation the lateral column.",
+      "claim_ids": [
+        "distal_humerus_lateral_exposure_01"
+      ]
+    }
+  ],
+  "limitations": [
+    {
+      "text": "Medial trochlea and deep anterior surface may remain limited without LCL release, osteotomy, or another approach.",
+      "claim_ids": [
+        "distal_humerus_lateral_limitations_01"
+      ]
+    }
+  ],
+  "extensions": [
+    {
+      "text": "Elevate lateral triceps/anconeus posteriorly or perform repairable epicondyle osteotomy/LCL release to hinge the joint around intact MCL.",
+      "claim_ids": [
+        "distal_humerus_lateral_extensions_01"
+      ]
+    }
+  ],
+  "indications": [
+    {
+      "text": "Use for lateral condyle or epicondyle fractures and capitellar/trochlear coronal shear fractures.",
+      "claim_ids": [
+        "distal_humerus_lateral_indications_01"
+      ]
+    }
+  ],
+  "relative_contraindications": [
+    {
+      "text": "Choose a broader posterior approach for complex bicondylar fractures and an anterior approach for selected isolated anterior fragments.",
+      "claim_ids": [
+        "distal_humerus_lateral_relative_contraindications_01"
+      ]
+    }
+  ],
+  "implant_implications": [
+    {
+      "text": "Supports headless articular screws and lateral-column fixation; any released LCL or osteotomized epicondyle requires stable repair.",
+      "claim_ids": [
+        "distal_humerus_lateral_implant_implications_01"
+      ]
+    }
+  ],
+  "fluoroscopy_implications": [
+    {
+      "text": "Use AP, lateral, oblique, and radiocapitellar views to verify articular reduction, column fixation, and screw containment.",
+      "claim_ids": [
+        "distal_humerus_lateral_fluoroscopy_implications_01"
+      ]
+    }
+  ],
+  "closure": [
+    {
+      "text": "Repair capsule and common extensors and anatomically repair LCL or epicondyle to prevent posterolateral rotatory instability.",
+      "claim_ids": [
+        "distal_humerus_lateral_closure_01"
+      ]
+    }
+  ],
+  "complications": [
+    {
+      "text": "Complications include radial/PIN injury, PLRI, stiffness, heterotopic ossification, avascular necrosis, arthritis, nonunion, and fixation failure.",
+      "claim_ids": [
+        "distal_humerus_lateral_complications_01"
+      ]
+    }
+  ],
+  "bailouts": [
+    {
+      "text": "Use planned osteotomy or alternate exposure when the trochlea/posterior surface remains unseen; never sacrifice LCL without secure repair.",
+      "claim_ids": [
+        "distal_humerus_lateral_bailouts_01"
+      ]
+    }
+  ],
+  "procedure_applications": [
+    {
+      "procedure_id": "capitellum_fracture_orif",
+      "relationship": "primary_option",
+      "condition": "A lateral-condyle, epicondyle, capitellar, or lateral trochlear shear fracture needs direct lateral control"
+    }
+  ],
+  "questions": [
+    {
+      "question": "Where is the extensor split placed?",
+      "answer": "Anterior to the LCL and anterior to the radial-head equator.",
+      "claim_ids": [
+        "distal_humerus_lateral_questions_01"
+      ]
+    },
+    {
+      "question": "What retractor practice is avoided?",
+      "answer": "Levered or prolonged anterior retraction near radial head and neck.",
+      "claim_ids": [
+        "distal_humerus_lateral_questions_02"
+      ]
+    },
+    {
+      "question": "What must be repaired if released?",
+      "answer": "The LCL or lateral epicondyle to prevent PLRI.",
+      "claim_ids": [
+        "distal_humerus_lateral_questions_03"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "distal_humerus_lateral_positioning_01",
+      "text": "Position supine or lateral with elbow freely flexed and forearm rotatable for radial-nerve relaxation and imaging.",
+      "source_ids": [
+        "ao_306b45cc79e975cf",
+        "pmid_36353417"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "distal_humerus_lateral_setup_01",
+      "text": "Review CT for posterior comminution and trochlear extension; prepare for LCL repair or epicondyle osteotomy if exposure must be extended.",
+      "source_ids": [
+        "pmid_36353417",
+        "pmid_40741145"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "distal_humerus_lateral_surface_landmarks_01",
+      "text": "Mark lateral epicondyle, supracondylar ridge, radial head, olecranon, and common-extensor origin.",
+      "source_ids": [
+        "ao_306b45cc79e975cf"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "distal_humerus_lateral_incision_01",
+      "text": "Center incision on lateral epicondyle, extend proximally along supracondylar ridge and distally toward radial head in line with common extensors.",
+      "source_ids": [
+        "ao_306b45cc79e975cf",
+        "pmid_36353417"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "distal_humerus_lateral_superficial_interval_01",
+      "text": "Open deep fascia in line and elevate lateral-column muscle-capsule subperiosteally proximally.",
+      "source_ids": [
+        "ao_306b45cc79e975cf",
+        "pmid_36353417"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "distal_humerus_lateral_deep_interval_01",
+      "text": "Split common extensors anterior to the LCL and radial-head equator; preserve ligament unless planned release/osteotomy is required and repairable.",
+      "source_ids": [
+        "ao_306b45cc79e975cf",
+        "pmid_40741145"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "distal_humerus_lateral_layers_01",
+      "text": "Skin, subcutaneous tissue, deep fascia, common extensor origin, capsule, then lateral distal humerus.",
+      "source_ids": [
+        "ao_306b45cc79e975cf"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "distal_humerus_lateral_structures_encountered_01",
+      "text": "Common extensors, brachioradialis, LCL/LUCL, capsule, capitellum, trochlea, radial head, anconeus, and lateral triceps are encountered.",
+      "source_ids": [
+        "ao_306b45cc79e975cf",
+        "pmid_36353417"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "distal_humerus_lateral_structures_at_risk_01",
+      "text": "Radial nerve and PIN, LCL complex, articular cartilage, capitellar blood supply, and posterior interosseous structures are at risk.",
+      "source_ids": [
+        "ao_306b45cc79e975cf",
+        "pmid_36353417"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "distal_humerus_lateral_danger_zones_01",
+      "text": "Radial nerve divides near radial head; avoid prolonged or levered anterior retraction and do not split posterior to radial-head equator into LCL.",
+      "source_ids": [
+        "ao_306b45cc79e975cf",
+        "pmid_36353417"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "distal_humerus_lateral_retraction_hazards_01",
+      "text": "Avoid anterior lever retractors and excessive traction near radial head/neck; protect cartilage and lateral blood supply.",
+      "source_ids": [
+        "ao_306b45cc79e975cf",
+        "pmid_36353417"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "distal_humerus_lateral_exposure_01",
+      "text": "Exposes lateral condyle, capitellum, lateral trochlea, and with posterior elevation the lateral column.",
+      "source_ids": [
+        "ao_306b45cc79e975cf",
+        "pmid_36353417"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "distal_humerus_lateral_limitations_01",
+      "text": "Medial trochlea and deep anterior surface may remain limited without LCL release, osteotomy, or another approach.",
+      "source_ids": [
+        "ao_306b45cc79e975cf",
+        "pmid_36353417"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "distal_humerus_lateral_extensions_01",
+      "text": "Elevate lateral triceps/anconeus posteriorly or perform repairable epicondyle osteotomy/LCL release to hinge the joint around intact MCL.",
+      "source_ids": [
+        "ao_306b45cc79e975cf",
+        "pmid_40741145"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "distal_humerus_lateral_indications_01",
+      "text": "Use for lateral condyle or epicondyle fractures and capitellar/trochlear coronal shear fractures.",
+      "source_ids": [
+        "ao_306b45cc79e975cf",
+        "pmid_36353417"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "distal_humerus_lateral_relative_contraindications_01",
+      "text": "Choose a broader posterior approach for complex bicondylar fractures and an anterior approach for selected isolated anterior fragments.",
+      "source_ids": [
+        "ao_306b45cc79e975cf",
+        "pmid_36353417"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "distal_humerus_lateral_implant_implications_01",
+      "text": "Supports headless articular screws and lateral-column fixation; any released LCL or osteotomized epicondyle requires stable repair.",
+      "source_ids": [
+        "pmid_36353417",
+        "pmid_40741145"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "distal_humerus_lateral_fluoroscopy_implications_01",
+      "text": "Use AP, lateral, oblique, and radiocapitellar views to verify articular reduction, column fixation, and screw containment.",
+      "source_ids": [
+        "pmid_36353417",
+        "pmid_40741145"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "distal_humerus_lateral_closure_01",
+      "text": "Repair capsule and common extensors and anatomically repair LCL or epicondyle to prevent posterolateral rotatory instability.",
+      "source_ids": [
+        "ao_306b45cc79e975cf",
+        "pmid_40741145"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "distal_humerus_lateral_complications_01",
+      "text": "Complications include radial/PIN injury, PLRI, stiffness, heterotopic ossification, avascular necrosis, arthritis, nonunion, and fixation failure.",
+      "source_ids": [
+        "pmid_36353417",
+        "pmid_40741145"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "distal_humerus_lateral_bailouts_01",
+      "text": "Use planned osteotomy or alternate exposure when the trochlea/posterior surface remains unseen; never sacrifice LCL without secure repair.",
+      "source_ids": [
+        "ao_306b45cc79e975cf",
+        "pmid_40741145"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "distal_humerus_lateral_questions_01",
+      "text": "Where is the extensor split placed?",
+      "source_ids": [
+        "ao_306b45cc79e975cf"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "distal_humerus_lateral_questions_02",
+      "text": "What retractor practice is avoided?",
+      "source_ids": [
+        "ao_306b45cc79e975cf"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "distal_humerus_lateral_questions_03",
+      "text": "What must be repaired if released?",
+      "source_ids": [
+        "ao_306b45cc79e975cf",
+        "pmid_40741145"
+      ],
+      "risk_level": "medium"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "ao_306b45cc79e975cf",
+      "provider": "AO Surgery Reference",
+      "title": "Lateral Approach",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/distal-humerus/approach/lateral-approach",
+      "source_page_id": "ao_306b45cc79e975cf"
+    },
+    {
+      "source_id": "pmid_36353417",
+      "provider": "PubMed",
+      "title": "Are outcomes after fixation of distal humerus coronal shear fractures affected by surgical approach?",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/36353417/"
+    },
+    {
+      "source_id": "pmid_40741145",
+      "provider": "PubMed",
+      "title": "Capitellum fractures: should the collateral ligament be repaired primarily?",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40741145/"
+    }
+  ],
+  "content_status": "agent_review_pending",
+  "review": {
+    "status": "agent_review_pending",
+    "required_roles": [
+      "adversarial_safety_reviewer",
+      "approach_anatomy_reviewer",
+      "educational_value_reviewer",
+      "evidence_reviewer",
+      "operative_exposure_reviewer",
+      "procedure_applicability_reviewer"
+    ],
+    "completed_roles": []
+  },
+  "resolved_contradiction_keys": [],
+  "authoring_provenance": {
+    "method": "local_codex_curated",
+    "definition_file": "data/approach_library/curated/distal_humerus_anterior_lateral_v1.json",
+    "api_used": false
+  }
+}

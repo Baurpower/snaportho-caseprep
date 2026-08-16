@@ -1,0 +1,474 @@
+{
+  "schema_version": "brobot_approach_packet_v1",
+  "approach_id": "hamate_hook_ulnar",
+  "name": "Ulnar approach to the hook of hamate",
+  "aliases": [
+    "hook of hamate excision approach",
+    "Guyon canal hamate-hook approach",
+    "ulnar palmar hamate approach"
+  ],
+  "region": "ulnar palm and hypothenar carpus",
+  "joint": "pisotriquetral and ulnar carpal region",
+  "bones": [
+    "hamate",
+    "pisiform"
+  ],
+  "corridor": "Ulnar palmar exposure through Guyon-canal territory with direct identification and mobilization of the ulnar nerve and artery to the hamate hook",
+  "positioning": [
+    {
+      "text": "Position supine with the forearm supinated on a hand table and the wrist gently extended and radially deviated to expose the ulnar palm.",
+      "claim_ids": [
+        "hamate_hook_ulnar_positioning_01"
+      ]
+    }
+  ],
+  "setup": [
+    {
+      "text": "Prepare the hand and distal forearm, confirm the target on CT or appropriate imaging, and have microsurgical instruments available for ulnar neurovascular dissection.",
+      "claim_ids": [
+        "hamate_hook_ulnar_setup_01"
+      ]
+    }
+  ],
+  "surface_landmarks": [
+    {
+      "text": "Mark FCU, pisiform, palpable ulnar artery radial to FCU, hamate hook distal-radial to the pisiform, DRUJ level, and distal palmar crease.",
+      "claim_ids": [
+        "hamate_hook_ulnar_surface_landmarks_01"
+      ]
+    }
+  ],
+  "incision": [
+    {
+      "text": "Use an approximately 5-cm zigzag incision beginning radial to FCU at DRUJ level, turning near the pisiform and distal palmar crease, then continuing distally in the hypothenar palm.",
+      "claim_ids": [
+        "hamate_hook_ulnar_incision_01"
+      ]
+    }
+  ],
+  "superficial_interval": [
+    {
+      "text": "Open antebrachial fascia proximally, identify the ulnar artery and nerve before entering Guyon canal, and divide palmaris brevis distally under direct vision.",
+      "claim_ids": [
+        "hamate_hook_ulnar_superficial_interval_01"
+      ]
+    }
+  ],
+  "deep_interval": [
+    {
+      "text": "Trace and protect the ulnar neurovascular bundle distally, retract it ulnarly, divide hypothenar origins from the hook as needed, and expose the hook subperiosteally.",
+      "claim_ids": [
+        "hamate_hook_ulnar_deep_interval_01"
+      ]
+    }
+  ],
+  "layers": [
+    {
+      "text": "Skin, subcutaneous tissue, antebrachial fascia and palmaris brevis, Guyon canal with ulnar nerve and artery, hypothenar origins and pisohamate ligament, then hamate hook periosteum.",
+      "claim_ids": [
+        "hamate_hook_ulnar_layers_01"
+      ]
+    }
+  ],
+  "structures_encountered": [
+    {
+      "text": "FCU, pisiform, ulnar artery and nerve, superficial and deep ulnar branches, palmaris brevis, pisohamate ligament, flexor retinaculum, hypothenar origins, flexor tendons, and hamate hook are encountered.",
+      "claim_ids": [
+        "hamate_hook_ulnar_structures_encountered_01"
+      ]
+    }
+  ],
+  "structures_at_risk": [
+    {
+      "text": "The ulnar artery, superficial sensory and deep motor branches of the ulnar nerve, superficial palmar arch, flexor tendons, and motor branches to hypothenar muscles are at risk.",
+      "claim_ids": [
+        "hamate_hook_ulnar_structures_at_risk_01"
+      ]
+    }
+  ],
+  "danger_zones": [
+    {
+      "text": "The deep motor branch curves around the hook and the superficial palmar arch lies nearby; identify neurovascular anatomy before circumferential hook dissection or fragment removal.",
+      "claim_ids": [
+        "hamate_hook_ulnar_danger_zones_01"
+      ]
+    }
+  ],
+  "retraction_hazards": [
+    {
+      "text": "Use gentle intermittent ulnar retraction of the nerve and artery and avoid traction transmitted to the deep motor branch around the hook.",
+      "claim_ids": [
+        "hamate_hook_ulnar_retraction_hazards_01"
+      ]
+    }
+  ],
+  "exposure": [
+    {
+      "text": "Provides direct circumferential access to the hook for fragment excision or fixation and can be extended to selected pisiform excision or ulnar-tunnel decompression.",
+      "claim_ids": [
+        "hamate_hook_ulnar_exposure_01"
+      ]
+    }
+  ],
+  "limitations": [
+    {
+      "text": "The approach places the ulnar neurovascular bundle directly in the operative field; excision changes ligament and hypothenar attachments and is not automatically preferable to fixation in every patient.",
+      "claim_ids": [
+        "hamate_hook_ulnar_limitations_01"
+      ]
+    }
+  ],
+  "extensions": [
+    {
+      "text": "Extend proximally for Guyon-canal decompression or toward the pisiform for post-traumatic pisiform excision while maintaining direct control of ulnar nerve branches.",
+      "claim_ids": [
+        "hamate_hook_ulnar_extensions_01"
+      ]
+    }
+  ],
+  "indications": [
+    {
+      "text": "Use for symptomatic displaced hook fractures, painful hook nonunion, fragment excision in selected athletes, ORIF in selected reconstructable fractures, and selected post-traumatic pisiform sequelae.",
+      "claim_ids": [
+        "hamate_hook_ulnar_indications_01"
+      ]
+    }
+  ],
+  "relative_contraindications": [
+    {
+      "text": "Avoid fragment excision when preservation of hook biomechanics is prioritized and stable fixation is feasible; reassess the plan when ulnar neurovascular scarring makes safe mobilization uncertain.",
+      "claim_ids": [
+        "hamate_hook_ulnar_relative_contraindications_01"
+      ]
+    }
+  ],
+  "implant_implications": [
+    {
+      "text": "For ORIF, choose a trajectory that captures the hook without entering adjacent joints or impinging the ulnar nerve or flexor tendons; after excision, remove all sharp residual prominence.",
+      "claim_ids": [
+        "hamate_hook_ulnar_implant_implications_01"
+      ]
+    }
+  ],
+  "fluoroscopy_implications": [
+    {
+      "text": "Use dedicated carpal-tunnel or tangential views to localize the hook, verify complete excision or reduction, and confirm safe fixation when screws are used.",
+      "claim_ids": [
+        "hamate_hook_ulnar_fluoroscopy_implications_01"
+      ]
+    }
+  ],
+  "closure": [
+    {
+      "text": "Confirm intact ulnar-nerve branches and flexor glide, repair divided hypothenar fascia as appropriate without recreating compression, and close the zigzag skin incision without tension.",
+      "claim_ids": [
+        "hamate_hook_ulnar_closure_01"
+      ]
+    }
+  ],
+  "complications": [
+    {
+      "text": "Complications include transient or permanent ulnar sensory or motor dysfunction, vascular injury, scar pain, residual fragment pain, flexor-tendon irritation, weakness, infection, and reoperation.",
+      "claim_ids": [
+        "hamate_hook_ulnar_complications_01"
+      ]
+    }
+  ],
+  "bailouts": [
+    {
+      "text": "If scar or variant anatomy prevents safe hook access, extend Guyon-canal exposure and identify both superficial and deep ulnar branches before proceeding; do not remove the fragment blindly.",
+      "claim_ids": [
+        "hamate_hook_ulnar_bailouts_01"
+      ]
+    }
+  ],
+  "procedure_applications": [
+    {
+      "procedure_id": "hook_of_hamate_excision_orif",
+      "relationship": "primary_option",
+      "condition": "A symptomatic hook fracture or nonunion requires excision or fixation, or selected pisiform pathology requires excision"
+    }
+  ],
+  "questions": [
+    {
+      "question": "What forms the borders of Guyon canal at the hamate level?",
+      "answer": "The pisiform medially and hook of hamate laterally; the canal contains the ulnar nerve and artery.",
+      "claim_ids": [
+        "hamate_hook_ulnar_questions_01"
+      ]
+    },
+    {
+      "question": "Which ulnar-nerve branch is especially vulnerable around the hook?",
+      "answer": "The deep motor branch.",
+      "claim_ids": [
+        "hamate_hook_ulnar_questions_02"
+      ]
+    },
+    {
+      "question": "Which muscles originate from the hook and may require release?",
+      "answer": "Flexor digiti minimi brevis and opponens digiti minimi.",
+      "claim_ids": [
+        "hamate_hook_ulnar_questions_03"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "hamate_hook_ulnar_positioning_01",
+      "text": "Position supine with the forearm supinated on a hand table and the wrist gently extended and radially deviated to expose the ulnar palm.",
+      "source_ids": [
+        "ao_906b59f605ffc269",
+        "pmid_35368440"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "hamate_hook_ulnar_setup_01",
+      "text": "Prepare the hand and distal forearm, confirm the target on CT or appropriate imaging, and have microsurgical instruments available for ulnar neurovascular dissection.",
+      "source_ids": [
+        "ao_906b59f605ffc269",
+        "pmid_38903831"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "hamate_hook_ulnar_surface_landmarks_01",
+      "text": "Mark FCU, pisiform, palpable ulnar artery radial to FCU, hamate hook distal-radial to the pisiform, DRUJ level, and distal palmar crease.",
+      "source_ids": [
+        "ao_906b59f605ffc269",
+        "pmid_35368440"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "hamate_hook_ulnar_incision_01",
+      "text": "Use an approximately 5-cm zigzag incision beginning radial to FCU at DRUJ level, turning near the pisiform and distal palmar crease, then continuing distally in the hypothenar palm.",
+      "source_ids": [
+        "ao_906b59f605ffc269",
+        "pmid_35368440"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "hamate_hook_ulnar_superficial_interval_01",
+      "text": "Open antebrachial fascia proximally, identify the ulnar artery and nerve before entering Guyon canal, and divide palmaris brevis distally under direct vision.",
+      "source_ids": [
+        "ao_906b59f605ffc269",
+        "pmid_35368440"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "hamate_hook_ulnar_deep_interval_01",
+      "text": "Trace and protect the ulnar neurovascular bundle distally, retract it ulnarly, divide hypothenar origins from the hook as needed, and expose the hook subperiosteally.",
+      "source_ids": [
+        "ao_906b59f605ffc269",
+        "pmid_35368440"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "hamate_hook_ulnar_layers_01",
+      "text": "Skin, subcutaneous tissue, antebrachial fascia and palmaris brevis, Guyon canal with ulnar nerve and artery, hypothenar origins and pisohamate ligament, then hamate hook periosteum.",
+      "source_ids": [
+        "ao_906b59f605ffc269",
+        "pmid_35368440"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "hamate_hook_ulnar_structures_encountered_01",
+      "text": "FCU, pisiform, ulnar artery and nerve, superficial and deep ulnar branches, palmaris brevis, pisohamate ligament, flexor retinaculum, hypothenar origins, flexor tendons, and hamate hook are encountered.",
+      "source_ids": [
+        "ao_906b59f605ffc269",
+        "pmid_35368440"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "hamate_hook_ulnar_structures_at_risk_01",
+      "text": "The ulnar artery, superficial sensory and deep motor branches of the ulnar nerve, superficial palmar arch, flexor tendons, and motor branches to hypothenar muscles are at risk.",
+      "source_ids": [
+        "ao_906b59f605ffc269",
+        "pmid_38903831",
+        "pmid_35368440"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "hamate_hook_ulnar_danger_zones_01",
+      "text": "The deep motor branch curves around the hook and the superficial palmar arch lies nearby; identify neurovascular anatomy before circumferential hook dissection or fragment removal.",
+      "source_ids": [
+        "ao_906b59f605ffc269",
+        "pmid_35368440"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "hamate_hook_ulnar_retraction_hazards_01",
+      "text": "Use gentle intermittent ulnar retraction of the nerve and artery and avoid traction transmitted to the deep motor branch around the hook.",
+      "source_ids": [
+        "ao_906b59f605ffc269",
+        "pmid_38903831"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "hamate_hook_ulnar_exposure_01",
+      "text": "Provides direct circumferential access to the hook for fragment excision or fixation and can be extended to selected pisiform excision or ulnar-tunnel decompression.",
+      "source_ids": [
+        "ao_906b59f605ffc269",
+        "pmid_38903831"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "hamate_hook_ulnar_limitations_01",
+      "text": "The approach places the ulnar neurovascular bundle directly in the operative field; excision changes ligament and hypothenar attachments and is not automatically preferable to fixation in every patient.",
+      "source_ids": [
+        "ao_906b59f605ffc269",
+        "pmid_38903831"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "hamate_hook_ulnar_extensions_01",
+      "text": "Extend proximally for Guyon-canal decompression or toward the pisiform for post-traumatic pisiform excision while maintaining direct control of ulnar nerve branches.",
+      "source_ids": [
+        "ao_906b59f605ffc269",
+        "pmid_35368440"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "hamate_hook_ulnar_indications_01",
+      "text": "Use for symptomatic displaced hook fractures, painful hook nonunion, fragment excision in selected athletes, ORIF in selected reconstructable fractures, and selected post-traumatic pisiform sequelae.",
+      "source_ids": [
+        "ao_906b59f605ffc269",
+        "pmid_38903831",
+        "pmid_35368440"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "hamate_hook_ulnar_relative_contraindications_01",
+      "text": "Avoid fragment excision when preservation of hook biomechanics is prioritized and stable fixation is feasible; reassess the plan when ulnar neurovascular scarring makes safe mobilization uncertain.",
+      "source_ids": [
+        "ao_906b59f605ffc269",
+        "pmid_38903831"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "hamate_hook_ulnar_implant_implications_01",
+      "text": "For ORIF, choose a trajectory that captures the hook without entering adjacent joints or impinging the ulnar nerve or flexor tendons; after excision, remove all sharp residual prominence.",
+      "source_ids": [
+        "ao_906b59f605ffc269",
+        "pmid_38903831"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "hamate_hook_ulnar_fluoroscopy_implications_01",
+      "text": "Use dedicated carpal-tunnel or tangential views to localize the hook, verify complete excision or reduction, and confirm safe fixation when screws are used.",
+      "source_ids": [
+        "ao_906b59f605ffc269",
+        "pmid_38903831"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "hamate_hook_ulnar_closure_01",
+      "text": "Confirm intact ulnar-nerve branches and flexor glide, repair divided hypothenar fascia as appropriate without recreating compression, and close the zigzag skin incision without tension.",
+      "source_ids": [
+        "ao_906b59f605ffc269",
+        "pmid_35368440"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "hamate_hook_ulnar_complications_01",
+      "text": "Complications include transient or permanent ulnar sensory or motor dysfunction, vascular injury, scar pain, residual fragment pain, flexor-tendon irritation, weakness, infection, and reoperation.",
+      "source_ids": [
+        "ao_906b59f605ffc269",
+        "pmid_38903831",
+        "pmid_35368440"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "hamate_hook_ulnar_bailouts_01",
+      "text": "If scar or variant anatomy prevents safe hook access, extend Guyon-canal exposure and identify both superficial and deep ulnar branches before proceeding; do not remove the fragment blindly.",
+      "source_ids": [
+        "ao_906b59f605ffc269",
+        "pmid_38903831"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "hamate_hook_ulnar_questions_01",
+      "text": "What forms the borders of Guyon canal at the hamate level?",
+      "source_ids": [
+        "ao_906b59f605ffc269"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "hamate_hook_ulnar_questions_02",
+      "text": "Which ulnar-nerve branch is especially vulnerable around the hook?",
+      "source_ids": [
+        "ao_906b59f605ffc269",
+        "pmid_35368440"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "hamate_hook_ulnar_questions_03",
+      "text": "Which muscles originate from the hook and may require release?",
+      "source_ids": [
+        "ao_906b59f605ffc269"
+      ],
+      "risk_level": "medium"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "ao_906b59f605ffc269",
+      "provider": "AO Surgery Reference",
+      "title": "Ulnar approach to the hamate hook",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/carpal-bones/approach/ulnar-approach-to-the-hamate-hook",
+      "source_page_id": "ao_906b59f605ffc269"
+    },
+    {
+      "source_id": "pmid_38903831",
+      "provider": "PubMed",
+      "title": "Surgical management of hook of hamate fractures: a systematic review",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38903831/"
+    },
+    {
+      "source_id": "pmid_35368440",
+      "provider": "PubMed",
+      "title": "Excision of hook of hamate fractures in elite baseball players",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/35368440/"
+    }
+  ],
+  "content_status": "agent_review_pending",
+  "review": {
+    "status": "agent_review_pending",
+    "required_roles": [
+      "adversarial_safety_reviewer",
+      "approach_anatomy_reviewer",
+      "educational_value_reviewer",
+      "evidence_reviewer",
+      "operative_exposure_reviewer",
+      "procedure_applicability_reviewer"
+    ],
+    "completed_roles": []
+  },
+  "resolved_contradiction_keys": [],
+  "authoring_provenance": {
+    "method": "local_codex_curated",
+    "definition_file": "data/approach_library/curated/carpal_approaches_v1.json",
+    "api_used": false
+  }
+}

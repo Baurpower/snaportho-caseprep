@@ -1,0 +1,467 @@
+{
+  "schema_version": "brobot_approach_packet_v1",
+  "approach_id": "pediatric_femur_lateral_entry_rigid_nail",
+  "name": "Pediatric lateral-trochanteric entry for rigid femoral nailing",
+  "aliases": [
+    "adolescent lateral entry femoral nail",
+    "pediatric rigid femoral nail entry"
+  ],
+  "region": "pediatric proximal lateral femur",
+  "joint": "hip-adjacent extra-articular entry",
+  "bones": [
+    "greater trochanter",
+    "femoral shaft"
+  ],
+  "corridor": "Longitudinal lateral fascia-lata split to a start lateral and inferior to the greater-trochanter tip, collinear with the canal on the lateral view",
+  "positioning": [
+    {
+      "text": "Position supine on a radiolucent table with the proximal lateral femur accessible and the entire femur imageable in AP and lateral planes.",
+      "claim_ids": [
+        "pediatric_femur_lateral_entry_rigid_nail_positioning_01"
+      ]
+    }
+  ],
+  "setup": [
+    {
+      "text": "Confirm skeletal maturity, trochanteric anatomy, canal size, fracture reduction strategy, and compatibility of the implant with a lateral entry before incision.",
+      "claim_ids": [
+        "pediatric_femur_lateral_entry_rigid_nail_setup_01"
+      ]
+    }
+  ],
+  "surface_landmarks": [
+    {
+      "text": "Mark the palpable greater-trochanter tip, anterior and posterior trochanter borders, femoral axis, and a lateral fluoroscopic projection of the canal.",
+      "claim_ids": [
+        "pediatric_femur_lateral_entry_rigid_nail_surface_landmarks_01"
+      ]
+    }
+  ],
+  "incision": [
+    {
+      "text": "Center the incision on the trochanter tip, extending about 3 cm proximally and distally as required, in line with the medullary canal on the lateral image.",
+      "claim_ids": [
+        "pediatric_femur_lateral_entry_rigid_nail_incision_01"
+      ]
+    }
+  ],
+  "superficial_interval": [
+    {
+      "text": "Incise fascia lata longitudinally in the same direction and spread the underlying tissues to expose the lateral greater trochanter.",
+      "claim_ids": [
+        "pediatric_femur_lateral_entry_rigid_nail_superficial_interval_01"
+      ]
+    }
+  ],
+  "deep_interval": [
+    {
+      "text": "Palpate both trochanter borders and establish the nail entry lateral and inferior to the greater-trochanter tip under orthogonal fluoroscopy.",
+      "claim_ids": [
+        "pediatric_femur_lateral_entry_rigid_nail_deep_interval_01"
+      ]
+    }
+  ],
+  "layers": [
+    {
+      "text": "Skin, subcutaneous tissue, fascia lata, limited abductor-vastus soft-tissue corridor, trochanteric cortex, then femoral canal.",
+      "claim_ids": [
+        "pediatric_femur_lateral_entry_rigid_nail_layers_01"
+      ]
+    }
+  ],
+  "structures_encountered": [
+    {
+      "text": "Fascia lata, greater trochanter, abductor insertion region, proximal femoral cortex, and medullary canal define the approach.",
+      "claim_ids": [
+        "pediatric_femur_lateral_entry_rigid_nail_structures_encountered_01"
+      ]
+    }
+  ],
+  "structures_at_risk": [
+    {
+      "text": "The greater-trochanteric apophysis, abductor mechanism, proximal femoral cortex, femoral-neck blood supply, and posterior cortex are at risk from an incorrect portal or trajectory.",
+      "claim_ids": [
+        "pediatric_femur_lateral_entry_rigid_nail_structures_at_risk_01"
+      ]
+    }
+  ],
+  "danger_zones": [
+    {
+      "text": "Avoid a piriformis-fossa portal in a skeletally immature patient and avoid medial, superior, anterior, or posterior deviation from the implant-specific lateral start.",
+      "claim_ids": [
+        "pediatric_femur_lateral_entry_rigid_nail_danger_zones_01"
+      ]
+    }
+  ],
+  "retraction_hazards": [
+    {
+      "text": "Do not lever instruments against the trochanter or abductors to compensate for a poorly aligned incision; extend the skin and fascia until the working path is collinear.",
+      "claim_ids": [
+        "pediatric_femur_lateral_entry_rigid_nail_retraction_hazards_01"
+      ]
+    }
+  ],
+  "exposure": [
+    {
+      "text": "Provides a physeal-conscious lateral portal for a compatible locked rigid nail without opening the shaft fracture.",
+      "claim_ids": [
+        "pediatric_femur_lateral_entry_rigid_nail_exposure_01"
+      ]
+    }
+  ],
+  "limitations": [
+    {
+      "text": "Requires an adequately sized canal and a patient and fracture pattern appropriate for locked nailing; it is not interchangeable with piriformis-entry implant geometry.",
+      "claim_ids": [
+        "pediatric_femur_lateral_entry_rigid_nail_limitations_01"
+      ]
+    }
+  ],
+  "extensions": [
+    {
+      "text": "Extend proximally or distally along the lateral incision to obtain a collinear track; use a separate limited reduction window only when closed reduction fails.",
+      "claim_ids": [
+        "pediatric_femur_lateral_entry_rigid_nail_extensions_01"
+      ]
+    }
+  ],
+  "indications": [
+    {
+      "text": "Use in selected older, heavier children or adolescents with femoral-shaft fractures unsuitable for flexible nails and suitable for a lateral-entry locked nail.",
+      "claim_ids": [
+        "pediatric_femur_lateral_entry_rigid_nail_indications_01"
+      ]
+    }
+  ],
+  "relative_contraindications": [
+    {
+      "text": "Avoid when patient size, open proximal femoral growth anatomy, canal diameter, fracture location, infection, or implant design prevents a safe lateral-entry construct.",
+      "claim_ids": [
+        "pediatric_femur_lateral_entry_rigid_nail_relative_contraindications_01"
+      ]
+    }
+  ],
+  "implant_implications": [
+    {
+      "text": "Use only a nail designed for pediatric lateral-trochanteric entry; match diameter and curvature to the canal and keep guidewire, reamer, and nail on the planned axis.",
+      "claim_ids": [
+        "pediatric_femur_lateral_entry_rigid_nail_implant_implications_01"
+      ]
+    }
+  ],
+  "fluoroscopy_implications": [
+    {
+      "text": "Confirm the portal lateral and inferior to the trochanter tip on AP view and collinear with the canal laterally, then monitor reduction, reaming, depth, and locking across the whole femur.",
+      "claim_ids": [
+        "pediatric_femur_lateral_entry_rigid_nail_fluoroscopy_implications_01"
+      ]
+    }
+  ],
+  "closure": [
+    {
+      "text": "Irrigate, obtain hemostasis, repair fascia lata without abductor tethering, and close subcutaneous tissue and skin.",
+      "claim_ids": [
+        "pediatric_femur_lateral_entry_rigid_nail_closure_01"
+      ]
+    }
+  ],
+  "complications": [
+    {
+      "text": "Complications include growth disturbance, abductor injury, osteonecrosis, trochanteric or neck fracture, cortical perforation, malalignment, nonunion, infection, and hardware irritation.",
+      "claim_ids": [
+        "pediatric_femur_lateral_entry_rigid_nail_complications_01"
+      ]
+    }
+  ],
+  "bailouts": [
+    {
+      "text": "If the implant-specific safe start cannot be achieved, stop repeated opening attempts and change positioning, exposure, or fixation strategy rather than using a hazardous portal.",
+      "claim_ids": [
+        "pediatric_femur_lateral_entry_rigid_nail_bailouts_01"
+      ]
+    }
+  ],
+  "procedure_applications": [
+    {
+      "procedure_id": "femoral_shaft_fracture_orif",
+      "relationship": "conditional_option",
+      "condition": "An older or heavier pediatric patient is selected for a pediatric lateral-entry locked nail, with sufficient canal size and open-growth-plate considerations addressed"
+    }
+  ],
+  "questions": [
+    {
+      "question": "Where is the rigid lateral-entry start?",
+      "answer": "On the lateral greater trochanter, lateral and inferior to its tip.",
+      "claim_ids": [
+        "pediatric_femur_lateral_entry_rigid_nail_questions_01"
+      ]
+    },
+    {
+      "question": "How is the incision aligned?",
+      "answer": "With the medullary canal on the lateral fluoroscopic view.",
+      "claim_ids": [
+        "pediatric_femur_lateral_entry_rigid_nail_questions_02"
+      ]
+    },
+    {
+      "question": "Why avoid piriformis entry in an immature patient?",
+      "answer": "It risks proximal femoral blood supply and growth-related complications; a compatible lateral-entry design is preferred.",
+      "claim_ids": [
+        "pediatric_femur_lateral_entry_rigid_nail_questions_03"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "pediatric_femur_lateral_entry_rigid_nail_positioning_01",
+      "text": "Position supine on a radiolucent table with the proximal lateral femur accessible and the entire femur imageable in AP and lateral planes.",
+      "source_ids": [
+        "ao_b88fd405735e928f",
+        "pmid_17224662"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "pediatric_femur_lateral_entry_rigid_nail_setup_01",
+      "text": "Confirm skeletal maturity, trochanteric anatomy, canal size, fracture reduction strategy, and compatibility of the implant with a lateral entry before incision.",
+      "source_ids": [
+        "ao_b88fd405735e928f",
+        "pmid_17224662"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "pediatric_femur_lateral_entry_rigid_nail_surface_landmarks_01",
+      "text": "Mark the palpable greater-trochanter tip, anterior and posterior trochanter borders, femoral axis, and a lateral fluoroscopic projection of the canal.",
+      "source_ids": [
+        "ao_b88fd405735e928f"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "pediatric_femur_lateral_entry_rigid_nail_incision_01",
+      "text": "Center the incision on the trochanter tip, extending about 3 cm proximally and distally as required, in line with the medullary canal on the lateral image.",
+      "source_ids": [
+        "ao_b88fd405735e928f",
+        "pmid_17224662"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "pediatric_femur_lateral_entry_rigid_nail_superficial_interval_01",
+      "text": "Incise fascia lata longitudinally in the same direction and spread the underlying tissues to expose the lateral greater trochanter.",
+      "source_ids": [
+        "ao_b88fd405735e928f",
+        "pmid_17224662"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "pediatric_femur_lateral_entry_rigid_nail_deep_interval_01",
+      "text": "Palpate both trochanter borders and establish the nail entry lateral and inferior to the greater-trochanter tip under orthogonal fluoroscopy.",
+      "source_ids": [
+        "ao_b88fd405735e928f",
+        "pmid_17224662"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "pediatric_femur_lateral_entry_rigid_nail_layers_01",
+      "text": "Skin, subcutaneous tissue, fascia lata, limited abductor-vastus soft-tissue corridor, trochanteric cortex, then femoral canal.",
+      "source_ids": [
+        "ao_b88fd405735e928f"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "pediatric_femur_lateral_entry_rigid_nail_structures_encountered_01",
+      "text": "Fascia lata, greater trochanter, abductor insertion region, proximal femoral cortex, and medullary canal define the approach.",
+      "source_ids": [
+        "ao_b88fd405735e928f",
+        "pmid_16314721"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "pediatric_femur_lateral_entry_rigid_nail_structures_at_risk_01",
+      "text": "The greater-trochanteric apophysis, abductor mechanism, proximal femoral cortex, femoral-neck blood supply, and posterior cortex are at risk from an incorrect portal or trajectory.",
+      "source_ids": [
+        "ao_b88fd405735e928f",
+        "pmid_16314721"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "pediatric_femur_lateral_entry_rigid_nail_danger_zones_01",
+      "text": "Avoid a piriformis-fossa portal in a skeletally immature patient and avoid medial, superior, anterior, or posterior deviation from the implant-specific lateral start.",
+      "source_ids": [
+        "ao_b88fd405735e928f",
+        "pmid_16314721"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "pediatric_femur_lateral_entry_rigid_nail_retraction_hazards_01",
+      "text": "Do not lever instruments against the trochanter or abductors to compensate for a poorly aligned incision; extend the skin and fascia until the working path is collinear.",
+      "source_ids": [
+        "ao_b88fd405735e928f",
+        "pmid_17224662"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "pediatric_femur_lateral_entry_rigid_nail_exposure_01",
+      "text": "Provides a physeal-conscious lateral portal for a compatible locked rigid nail without opening the shaft fracture.",
+      "source_ids": [
+        "ao_b88fd405735e928f",
+        "pmid_17224662"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "pediatric_femur_lateral_entry_rigid_nail_limitations_01",
+      "text": "Requires an adequately sized canal and a patient and fracture pattern appropriate for locked nailing; it is not interchangeable with piriformis-entry implant geometry.",
+      "source_ids": [
+        "pmid_17224662",
+        "pmid_16314721"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "pediatric_femur_lateral_entry_rigid_nail_extensions_01",
+      "text": "Extend proximally or distally along the lateral incision to obtain a collinear track; use a separate limited reduction window only when closed reduction fails.",
+      "source_ids": [
+        "ao_b88fd405735e928f",
+        "pmid_17224662"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "pediatric_femur_lateral_entry_rigid_nail_indications_01",
+      "text": "Use in selected older, heavier children or adolescents with femoral-shaft fractures unsuitable for flexible nails and suitable for a lateral-entry locked nail.",
+      "source_ids": [
+        "pmid_17224662",
+        "pmid_16314721"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "pediatric_femur_lateral_entry_rigid_nail_relative_contraindications_01",
+      "text": "Avoid when patient size, open proximal femoral growth anatomy, canal diameter, fracture location, infection, or implant design prevents a safe lateral-entry construct.",
+      "source_ids": [
+        "pmid_17224662",
+        "pmid_16314721"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "pediatric_femur_lateral_entry_rigid_nail_implant_implications_01",
+      "text": "Use only a nail designed for pediatric lateral-trochanteric entry; match diameter and curvature to the canal and keep guidewire, reamer, and nail on the planned axis.",
+      "source_ids": [
+        "ao_b88fd405735e928f",
+        "pmid_17224662"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "pediatric_femur_lateral_entry_rigid_nail_fluoroscopy_implications_01",
+      "text": "Confirm the portal lateral and inferior to the trochanter tip on AP view and collinear with the canal laterally, then monitor reduction, reaming, depth, and locking across the whole femur.",
+      "source_ids": [
+        "ao_b88fd405735e928f",
+        "pmid_17224662"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "pediatric_femur_lateral_entry_rigid_nail_closure_01",
+      "text": "Irrigate, obtain hemostasis, repair fascia lata without abductor tethering, and close subcutaneous tissue and skin.",
+      "source_ids": [
+        "ao_b88fd405735e928f",
+        "pmid_17224662"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "pediatric_femur_lateral_entry_rigid_nail_complications_01",
+      "text": "Complications include growth disturbance, abductor injury, osteonecrosis, trochanteric or neck fracture, cortical perforation, malalignment, nonunion, infection, and hardware irritation.",
+      "source_ids": [
+        "ao_b88fd405735e928f",
+        "pmid_16314721"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "pediatric_femur_lateral_entry_rigid_nail_bailouts_01",
+      "text": "If the implant-specific safe start cannot be achieved, stop repeated opening attempts and change positioning, exposure, or fixation strategy rather than using a hazardous portal.",
+      "source_ids": [
+        "ao_b88fd405735e928f",
+        "pmid_17224662"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "pediatric_femur_lateral_entry_rigid_nail_questions_01",
+      "text": "Where is the rigid lateral-entry start?",
+      "source_ids": [
+        "ao_b88fd405735e928f"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "pediatric_femur_lateral_entry_rigid_nail_questions_02",
+      "text": "How is the incision aligned?",
+      "source_ids": [
+        "ao_b88fd405735e928f"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "pediatric_femur_lateral_entry_rigid_nail_questions_03",
+      "text": "Why avoid piriformis entry in an immature patient?",
+      "source_ids": [
+        "pmid_16314721"
+      ],
+      "risk_level": "medium"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "ao_b88fd405735e928f",
+      "provider": "AO Surgery Reference",
+      "title": "Entry Point For Lateral Entry Intramedullary Nailing",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/pediatric-trauma/femoral-shaft/approach/entry-point-for-lateral-entry-intramedullary-nailing",
+      "source_page_id": "ao_b88fd405735e928f"
+    },
+    {
+      "source_id": "pmid_17224662",
+      "provider": "PubMed",
+      "title": "Advances in the surgical management of pediatric femoral shaft fractures",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/17224662/"
+    },
+    {
+      "source_id": "pmid_16314721",
+      "provider": "PubMed",
+      "title": "Treatment options in pediatric femoral shaft fractures",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/16314721/"
+    }
+  ],
+  "content_status": "agent_review_pending",
+  "review": {
+    "status": "agent_review_pending",
+    "required_roles": [
+      "adversarial_safety_reviewer",
+      "approach_anatomy_reviewer",
+      "educational_value_reviewer",
+      "evidence_reviewer",
+      "operative_exposure_reviewer",
+      "procedure_applicability_reviewer"
+    ],
+    "completed_roles": []
+  },
+  "resolved_contradiction_keys": [],
+  "authoring_provenance": {
+    "method": "local_codex_curated",
+    "definition_file": "data/approach_library/curated/pediatric_femoral_shaft_nailing_entries_v1.json",
+    "api_used": false
+  }
+}

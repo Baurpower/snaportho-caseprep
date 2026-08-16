@@ -1,0 +1,467 @@
+{
+  "schema_version": "brobot_approach_packet_v1",
+  "approach_id": "pediatric_distal_tibia_medial_mipo",
+  "name": "Pediatric medial minimally invasive approach to the distal tibia",
+  "aliases": [
+    "pediatric distal-tibia MIPO",
+    "pediatric submuscular medial plating"
+  ],
+  "region": "medial distal leg and ankle",
+  "joint": "ankle",
+  "bones": [
+    "distal tibia",
+    "medial malleolus"
+  ],
+  "corridor": "Short medial distal incision with submuscular/epiperiosteal plate advancement proximally while preserving physis and perichondral ring",
+  "positioning": [
+    {
+      "text": "Position supine on a radiolucent table with medial distal tibia accessible and full-length AP/lateral imaging available.",
+      "claim_ids": [
+        "pediatric_distal_tibia_medial_mipo_positioning_01"
+      ]
+    }
+  ],
+  "setup": [
+    {
+      "text": "Mark physis/perichondral ring, saphenous structures, fracture zone, plate path, and proximal screw sites; confirm indirect reduction strategy.",
+      "claim_ids": [
+        "pediatric_distal_tibia_medial_mipo_setup_01"
+      ]
+    }
+  ],
+  "surface_landmarks": [
+    {
+      "text": "Mark medial malleolus, distal-tibial physis, medial tibial border, greater saphenous vein/nerve, and tibial shaft axis.",
+      "claim_ids": [
+        "pediatric_distal_tibia_medial_mipo_surface_landmarks_01"
+      ]
+    }
+  ],
+  "incision": [
+    {
+      "text": "Start just proximal to physis and extend proximally according to fracture/plate; begin at medial-malleolar tip only when plate must cross physis.",
+      "claim_ids": [
+        "pediatric_distal_tibia_medial_mipo_incision_01"
+      ]
+    }
+  ],
+  "superficial_interval": [
+    {
+      "text": "Deepen through subcutaneous fat and retract greater saphenous vein and saphenous nerve anteriorly using a blunt retractor.",
+      "claim_ids": [
+        "pediatric_distal_tibia_medial_mipo_superficial_interval_01"
+      ]
+    }
+  ],
+  "deep_interval": [
+    {
+      "text": "Avoid periosteal dissection at physis/perichondral ring and advance plate proximally in a submuscular, bone-hugging plane beneath intact injury-zone tissue.",
+      "claim_ids": [
+        "pediatric_distal_tibia_medial_mipo_deep_interval_01"
+      ]
+    }
+  ],
+  "layers": [
+    {
+      "text": "Skin, subcutaneous saphenous plane, preserved perichondral/periosteal layer, submuscular tunnel, then medial tibia.",
+      "claim_ids": [
+        "pediatric_distal_tibia_medial_mipo_layers_01"
+      ]
+    }
+  ],
+  "structures_encountered": [
+    {
+      "text": "Greater saphenous vein, saphenous nerve, medial physis/perichondral ring, periosteum, and medial tibia are encountered.",
+      "claim_ids": [
+        "pediatric_distal_tibia_medial_mipo_structures_encountered_01"
+      ]
+    }
+  ],
+  "structures_at_risk": [
+    {
+      "text": "Saphenous nerve/vein, distal-tibial physis and perichondral ring, periosteal blood supply, skin over plate, and posterior structures with off-bone tunneling are at risk.",
+      "claim_ids": [
+        "pediatric_distal_tibia_medial_mipo_structures_at_risk_01"
+      ]
+    }
+  ],
+  "danger_zones": [
+    {
+      "text": "Do not dissect periosteum at physis or injure perichondral ring; keep plate on bone and visualize each percutaneous screw trajectory.",
+      "claim_ids": [
+        "pediatric_distal_tibia_medial_mipo_danger_zones_01"
+      ]
+    }
+  ],
+  "retraction_hazards": [
+    {
+      "text": "Retract saphenous structures bluntly anterior and avoid forceful tunneling that perforates skin, strips periosteum, or enters fracture.",
+      "claim_ids": [
+        "pediatric_distal_tibia_medial_mipo_retraction_hazards_01"
+      ]
+    }
+  ],
+  "exposure": [
+    {
+      "text": "Permits submuscular bridge plating while preserving soft tissue and blood supply within metaphyseal injury zone.",
+      "claim_ids": [
+        "pediatric_distal_tibia_medial_mipo_exposure_01"
+      ]
+    }
+  ],
+  "limitations": [
+    {
+      "text": "Does not directly expose articular comminution and relies on imaging and indirect reduction to prevent malalignment.",
+      "claim_ids": [
+        "pediatric_distal_tibia_medial_mipo_limitations_01"
+      ]
+    }
+  ],
+  "extensions": [
+    {
+      "text": "Use separate proximal stab incisions for screws or an anterolateral tunnel when medial soft tissue is compromised.",
+      "claim_ids": [
+        "pediatric_distal_tibia_medial_mipo_extensions_01"
+      ]
+    }
+  ],
+  "indications": [
+    {
+      "text": "Use for selected unstable pediatric distal-tibial metaphyseal or high-energy tibial fractures suited to bridge plating.",
+      "claim_ids": [
+        "pediatric_distal_tibia_medial_mipo_indications_01"
+      ]
+    }
+  ],
+  "relative_contraindications": [
+    {
+      "text": "Choose direct reduction for displaced articular/physeal incongruity and another fixation method when plate crosses critical physis unnecessarily or medial skin is unsafe.",
+      "claim_ids": [
+        "pediatric_distal_tibia_medial_mipo_relative_contraindications_01"
+      ]
+    }
+  ],
+  "implant_implications": [
+    {
+      "text": "Choose pediatric-appropriate plate length and contour, minimize physeal crossings, and position screws through targeted incisions away from physis and neurovascular structures.",
+      "claim_ids": [
+        "pediatric_distal_tibia_medial_mipo_implant_implications_01"
+      ]
+    }
+  ],
+  "fluoroscopy_implications": [
+    {
+      "text": "Use full-length AP/lateral and ankle views to verify length, rotation, coronal/sagittal alignment, physis, plate position, and screw containment.",
+      "claim_ids": [
+        "pediatric_distal_tibia_medial_mipo_fluoroscopy_implications_01"
+      ]
+    }
+  ],
+  "closure": [
+    {
+      "text": "Ensure saphenous structures are free and plate is not prominent beneath skin, then close each incision in layers without tension.",
+      "claim_ids": [
+        "pediatric_distal_tibia_medial_mipo_closure_01"
+      ]
+    }
+  ],
+  "complications": [
+    {
+      "text": "Complications include physeal injury, malalignment, saphenous neuritis, skin/plate irritation, infection, delayed union/nonunion, and implant removal.",
+      "claim_ids": [
+        "pediatric_distal_tibia_medial_mipo_complications_01"
+      ]
+    }
+  ],
+  "bailouts": [
+    {
+      "text": "Add a limited direct-reduction window or change fixation when indirect maneuvers cannot restore acceptable length, rotation, and alignment.",
+      "claim_ids": [
+        "pediatric_distal_tibia_medial_mipo_bailouts_01"
+      ]
+    }
+  ],
+  "procedure_applications": [
+    {
+      "procedure_id": "pediatric_distal_tibia_fracture_orif",
+      "relationship": "primary_option",
+      "condition": "An unstable metaphyseal fracture requires bridge plating with maximal preservation of the injury-zone biology"
+    }
+  ],
+  "questions": [
+    {
+      "question": "Which structures are retracted anteriorly?",
+      "answer": "Greater saphenous vein and saphenous nerve.",
+      "claim_ids": [
+        "pediatric_distal_tibia_medial_mipo_questions_01"
+      ]
+    },
+    {
+      "question": "Which growth structure must not be dissected?",
+      "answer": "The perichondral ring at distal tibial physis.",
+      "claim_ids": [
+        "pediatric_distal_tibia_medial_mipo_questions_02"
+      ]
+    },
+    {
+      "question": "When does incision begin at malleolar tip?",
+      "answer": "When fracture configuration requires plate to cross physis.",
+      "claim_ids": [
+        "pediatric_distal_tibia_medial_mipo_questions_03"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "pediatric_distal_tibia_medial_mipo_positioning_01",
+      "text": "Position supine on a radiolucent table with medial distal tibia accessible and full-length AP/lateral imaging available.",
+      "source_ids": [
+        "ao_e6d3aaefc07b90e5",
+        "pmid_32097234"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "pediatric_distal_tibia_medial_mipo_setup_01",
+      "text": "Mark physis/perichondral ring, saphenous structures, fracture zone, plate path, and proximal screw sites; confirm indirect reduction strategy.",
+      "source_ids": [
+        "ao_e6d3aaefc07b90e5",
+        "pmid_32097234"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "pediatric_distal_tibia_medial_mipo_surface_landmarks_01",
+      "text": "Mark medial malleolus, distal-tibial physis, medial tibial border, greater saphenous vein/nerve, and tibial shaft axis.",
+      "source_ids": [
+        "ao_e6d3aaefc07b90e5"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "pediatric_distal_tibia_medial_mipo_incision_01",
+      "text": "Start just proximal to physis and extend proximally according to fracture/plate; begin at medial-malleolar tip only when plate must cross physis.",
+      "source_ids": [
+        "ao_e6d3aaefc07b90e5",
+        "pmid_32097234"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "pediatric_distal_tibia_medial_mipo_superficial_interval_01",
+      "text": "Deepen through subcutaneous fat and retract greater saphenous vein and saphenous nerve anteriorly using a blunt retractor.",
+      "source_ids": [
+        "ao_e6d3aaefc07b90e5",
+        "pmid_32097234"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "pediatric_distal_tibia_medial_mipo_deep_interval_01",
+      "text": "Avoid periosteal dissection at physis/perichondral ring and advance plate proximally in a submuscular, bone-hugging plane beneath intact injury-zone tissue.",
+      "source_ids": [
+        "ao_e6d3aaefc07b90e5",
+        "pmid_33978864"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "pediatric_distal_tibia_medial_mipo_layers_01",
+      "text": "Skin, subcutaneous saphenous plane, preserved perichondral/periosteal layer, submuscular tunnel, then medial tibia.",
+      "source_ids": [
+        "ao_e6d3aaefc07b90e5"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "pediatric_distal_tibia_medial_mipo_structures_encountered_01",
+      "text": "Greater saphenous vein, saphenous nerve, medial physis/perichondral ring, periosteum, and medial tibia are encountered.",
+      "source_ids": [
+        "ao_e6d3aaefc07b90e5",
+        "pmid_32097234"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "pediatric_distal_tibia_medial_mipo_structures_at_risk_01",
+      "text": "Saphenous nerve/vein, distal-tibial physis and perichondral ring, periosteal blood supply, skin over plate, and posterior structures with off-bone tunneling are at risk.",
+      "source_ids": [
+        "ao_e6d3aaefc07b90e5",
+        "pmid_32097234"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "pediatric_distal_tibia_medial_mipo_danger_zones_01",
+      "text": "Do not dissect periosteum at physis or injure perichondral ring; keep plate on bone and visualize each percutaneous screw trajectory.",
+      "source_ids": [
+        "ao_e6d3aaefc07b90e5",
+        "pmid_33978864"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "pediatric_distal_tibia_medial_mipo_retraction_hazards_01",
+      "text": "Retract saphenous structures bluntly anterior and avoid forceful tunneling that perforates skin, strips periosteum, or enters fracture.",
+      "source_ids": [
+        "ao_e6d3aaefc07b90e5",
+        "pmid_32097234"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "pediatric_distal_tibia_medial_mipo_exposure_01",
+      "text": "Permits submuscular bridge plating while preserving soft tissue and blood supply within metaphyseal injury zone.",
+      "source_ids": [
+        "ao_e6d3aaefc07b90e5",
+        "pmid_32097234"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "pediatric_distal_tibia_medial_mipo_limitations_01",
+      "text": "Does not directly expose articular comminution and relies on imaging and indirect reduction to prevent malalignment.",
+      "source_ids": [
+        "ao_e6d3aaefc07b90e5",
+        "pmid_33978864"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "pediatric_distal_tibia_medial_mipo_extensions_01",
+      "text": "Use separate proximal stab incisions for screws or an anterolateral tunnel when medial soft tissue is compromised.",
+      "source_ids": [
+        "ao_e6d3aaefc07b90e5",
+        "pmid_32097234"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "pediatric_distal_tibia_medial_mipo_indications_01",
+      "text": "Use for selected unstable pediatric distal-tibial metaphyseal or high-energy tibial fractures suited to bridge plating.",
+      "source_ids": [
+        "pmid_32097234",
+        "pmid_33978864"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "pediatric_distal_tibia_medial_mipo_relative_contraindications_01",
+      "text": "Choose direct reduction for displaced articular/physeal incongruity and another fixation method when plate crosses critical physis unnecessarily or medial skin is unsafe.",
+      "source_ids": [
+        "ao_e6d3aaefc07b90e5",
+        "pmid_33978864"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "pediatric_distal_tibia_medial_mipo_implant_implications_01",
+      "text": "Choose pediatric-appropriate plate length and contour, minimize physeal crossings, and position screws through targeted incisions away from physis and neurovascular structures.",
+      "source_ids": [
+        "ao_e6d3aaefc07b90e5",
+        "pmid_32097234"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "pediatric_distal_tibia_medial_mipo_fluoroscopy_implications_01",
+      "text": "Use full-length AP/lateral and ankle views to verify length, rotation, coronal/sagittal alignment, physis, plate position, and screw containment.",
+      "source_ids": [
+        "pmid_32097234",
+        "pmid_33978864"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "pediatric_distal_tibia_medial_mipo_closure_01",
+      "text": "Ensure saphenous structures are free and plate is not prominent beneath skin, then close each incision in layers without tension.",
+      "source_ids": [
+        "ao_e6d3aaefc07b90e5",
+        "pmid_32097234"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "pediatric_distal_tibia_medial_mipo_complications_01",
+      "text": "Complications include physeal injury, malalignment, saphenous neuritis, skin/plate irritation, infection, delayed union/nonunion, and implant removal.",
+      "source_ids": [
+        "pmid_32097234",
+        "pmid_33978864"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "pediatric_distal_tibia_medial_mipo_bailouts_01",
+      "text": "Add a limited direct-reduction window or change fixation when indirect maneuvers cannot restore acceptable length, rotation, and alignment.",
+      "source_ids": [
+        "ao_e6d3aaefc07b90e5",
+        "pmid_33978864"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "pediatric_distal_tibia_medial_mipo_questions_01",
+      "text": "Which structures are retracted anteriorly?",
+      "source_ids": [
+        "ao_e6d3aaefc07b90e5"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "pediatric_distal_tibia_medial_mipo_questions_02",
+      "text": "Which growth structure must not be dissected?",
+      "source_ids": [
+        "ao_e6d3aaefc07b90e5"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "pediatric_distal_tibia_medial_mipo_questions_03",
+      "text": "When does incision begin at malleolar tip?",
+      "source_ids": [
+        "ao_e6d3aaefc07b90e5"
+      ],
+      "risk_level": "medium"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "ao_e6d3aaefc07b90e5",
+      "provider": "AO Surgery Reference",
+      "title": "Minimally Invasive Approach",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/pediatric-trauma/distal-tibia-fibula/approach/minimally-invasive-approach",
+      "source_page_id": "ao_e6d3aaefc07b90e5"
+    },
+    {
+      "source_id": "pmid_32097234",
+      "provider": "PubMed",
+      "title": "Minimally invasive medial plate osteosynthesis of high-energy pediatric tibia fractures",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/32097234/"
+    },
+    {
+      "source_id": "pmid_33978864",
+      "provider": "PubMed",
+      "title": "Modern management of paediatric tibial shaft fractures: evidence-based update",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/33978864/"
+    }
+  ],
+  "content_status": "agent_review_pending",
+  "review": {
+    "status": "agent_review_pending",
+    "required_roles": [
+      "adversarial_safety_reviewer",
+      "approach_anatomy_reviewer",
+      "educational_value_reviewer",
+      "evidence_reviewer",
+      "operative_exposure_reviewer",
+      "procedure_applicability_reviewer"
+    ],
+    "completed_roles": []
+  },
+  "resolved_contradiction_keys": [],
+  "authoring_provenance": {
+    "method": "local_codex_curated",
+    "definition_file": "data/approach_library/curated/pediatric_distal_tibia_lateral_mipo_posterior_v1.json",
+    "api_used": false
+  }
+}

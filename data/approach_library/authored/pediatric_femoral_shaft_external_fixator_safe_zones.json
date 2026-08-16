@@ -1,0 +1,469 @@
+{
+  "schema_version": "brobot_approach_packet_v1",
+  "approach_id": "pediatric_femoral_shaft_external_fixator_safe_zones",
+  "name": "Pediatric femoral-shaft safe zones for external-fixator pins",
+  "aliases": [
+    "pediatric femur Schanz pin corridors",
+    "pediatric femoral external fixation safe zones"
+  ],
+  "region": "pediatric thigh",
+  "joint": "extra-articular percutaneous access",
+  "bones": [
+    "proximal femur",
+    "femoral shaft",
+    "distal femur"
+  ],
+  "corridor": "Anterolateral or direct-lateral percutaneous sleeves to bone, with level-specific trajectories and distal pins at least 2 cm proximal to the growth plate",
+  "positioning": [
+    {
+      "text": "Position supine with the full thigh accessible, the hip and knee freely assessable, and fluoroscopy available for the femur and growth plates.",
+      "claim_ids": [
+        "pediatric_femoral_shaft_external_fixator_safe_zones_positioning_01"
+      ]
+    }
+  ],
+  "setup": [
+    {
+      "text": "Map the soft-tissue injury, physes, fracture, future nail or plate path, and pin-spread requirements before inserting any pin.",
+      "claim_ids": [
+        "pediatric_femoral_shaft_external_fixator_safe_zones_setup_01"
+      ]
+    }
+  ],
+  "surface_landmarks": [
+    {
+      "text": "Mark the greater trochanter and its lateral face, vastus lateralis, rectus-vastus interval, lateral epicondyle, distal femoral growth plate, and intended definitive incisions.",
+      "claim_ids": [
+        "pediatric_femoral_shaft_external_fixator_safe_zones_surface_landmarks_01"
+      ]
+    }
+  ],
+  "incision": [
+    {
+      "text": "Use an adequate stab incision at each planned anterolateral or direct-lateral site and bluntly spread through soft tissue to bone before placing the sleeve.",
+      "claim_ids": [
+        "pediatric_femoral_shaft_external_fixator_safe_zones_incision_01"
+      ]
+    }
+  ],
+  "superficial_interval": [
+    {
+      "text": "Pass proximally through vastus lateralis, at midshaft directly lateral or between rectus femoris and vastus lateralis, and distally avoid tethering the inferior vastus-lateralis border.",
+      "claim_ids": [
+        "pediatric_femoral_shaft_external_fixator_safe_zones_superficial_interval_01"
+      ]
+    }
+  ],
+  "deep_interval": [
+    {
+      "text": "Advance with a protected sleeve to lateral cortex, obtain controlled bicortical purchase, and stop before medial overpenetration.",
+      "claim_ids": [
+        "pediatric_femoral_shaft_external_fixator_safe_zones_deep_interval_01"
+      ]
+    }
+  ],
+  "layers": [
+    {
+      "text": "Skin, subcutaneous tissue, fascia, vastus-lateralis or rectus-vastus corridor, thick periosteum, lateral cortex, canal, then controlled far-cortex purchase.",
+      "claim_ids": [
+        "pediatric_femoral_shaft_external_fixator_safe_zones_layers_01"
+      ]
+    }
+  ],
+  "structures_encountered": [
+    {
+      "text": "Circumferential thigh muscle, vastus lateralis, rectus femoris, greater trochanter, femoral periosteum, shaft cortex, and distal physis define pin placement.",
+      "claim_ids": [
+        "pediatric_femoral_shaft_external_fixator_safe_zones_structures_encountered_01"
+      ]
+    }
+  ],
+  "structures_at_risk": [
+    {
+      "text": "Medial femoral neurovascular structures, sciatic nerve posteriorly, distal growth plate, knee capsule, muscle and skin, and future fixation corridors are at risk.",
+      "claim_ids": [
+        "pediatric_femoral_shaft_external_fixator_safe_zones_structures_at_risk_01"
+      ]
+    }
+  ],
+  "danger_zones": [
+    {
+      "text": "Avoid medial cortical plunge, posterior trajectories, injured skin, transphyseal or intracapsular pins, and distal pins closer than 2 cm to the growth plate.",
+      "claim_ids": [
+        "pediatric_femoral_shaft_external_fixator_safe_zones_danger_zones_01"
+      ]
+    }
+  ],
+  "retraction_hazards": [
+    {
+      "text": "Release tethered skin and muscle around each pin, cool drilling to limit thermal injury, and avoid forcing a sleeve through tense soft tissue.",
+      "claim_ids": [
+        "pediatric_femoral_shaft_external_fixator_safe_zones_retraction_hazards_01"
+      ]
+    }
+  ],
+  "exposure": [
+    {
+      "text": "Provides safe skeletal purchase for temporary damage-control or selected definitive external fixation with minimal surgical exposure.",
+      "claim_ids": [
+        "pediatric_femoral_shaft_external_fixator_safe_zones_exposure_01"
+      ]
+    }
+  ],
+  "limitations": [
+    {
+      "text": "Safe zones are guides rather than substitutes for patient-specific imaging; external fixation carries pin-track, alignment, and refracture concerns.",
+      "claim_ids": [
+        "pediatric_femoral_shaft_external_fixator_safe_zones_limitations_01"
+      ]
+    }
+  ],
+  "extensions": [
+    {
+      "text": "Add or relocate a pin only after remapping physes, neurovascular anatomy, soft tissue, and planned definitive fixation; increase spread without entering joints or growth plates.",
+      "claim_ids": [
+        "pediatric_femoral_shaft_external_fixator_safe_zones_extensions_01"
+      ]
+    }
+  ],
+  "indications": [
+    {
+      "text": "Use for damage-control stabilization, severe soft-tissue injury, polytrauma, unstable reduction, or selected definitive pediatric shaft fixation.",
+      "claim_ids": [
+        "pediatric_femoral_shaft_external_fixator_safe_zones_indications_01"
+      ]
+    }
+  ],
+  "relative_contraindications": [
+    {
+      "text": "Avoid infected or severely damaged pin sites, corridors conflicting with definitive fixation, uncertain physeal location, and anatomy that cannot be safely localized.",
+      "claim_ids": [
+        "pediatric_femoral_shaft_external_fixator_safe_zones_relative_contraindications_01"
+      ]
+    }
+  ],
+  "implant_implications": [
+    {
+      "text": "Maximize safe pin spread and bicortical purchase, keep pins outside future nail and plate paths, and add stability without sacrificing physeal or neurovascular safety.",
+      "claim_ids": [
+        "pediatric_femoral_shaft_external_fixator_safe_zones_implant_implications_01"
+      ]
+    }
+  ],
+  "fluoroscopy_implications": [
+    {
+      "text": "Confirm trajectory, bicortical depth without medial overpenetration, fracture distance, joint clearance, and at least 2-cm distal physeal clearance on orthogonal views.",
+      "claim_ids": [
+        "pediatric_femoral_shaft_external_fixator_safe_zones_fluoroscopy_implications_01"
+      ]
+    }
+  ],
+  "closure": [
+    {
+      "text": "Release soft-tissue tethering, dress pin sites, document distal perfusion and nerve function, and reassess hip and knee motion after frame assembly.",
+      "claim_ids": [
+        "pediatric_femoral_shaft_external_fixator_safe_zones_closure_01"
+      ]
+    }
+  ],
+  "complications": [
+    {
+      "text": "Complications include neurovascular injury, physeal injury, pin-track infection, thermal necrosis, muscle tethering, loss of reduction, malunion, knee stiffness, and refracture after removal.",
+      "claim_ids": [
+        "pediatric_femoral_shaft_external_fixator_safe_zones_complications_01"
+      ]
+    }
+  ],
+  "bailouts": [
+    {
+      "text": "If trajectory or physis is uncertain, stop drilling and relocate under imaging; for medial plunge or vascular concern, leave a tamponading pin in place and obtain urgent vascular assessment rather than blind removal.",
+      "claim_ids": [
+        "pediatric_femoral_shaft_external_fixator_safe_zones_bailouts_01"
+      ]
+    }
+  ],
+  "procedure_applications": [
+    {
+      "procedure_id": "femoral_shaft_fracture_orif",
+      "relationship": "conditional_option",
+      "condition": "Temporary or definitive pediatric femoral external fixation is required and pins must preserve growth plates, neurovascular structures, joints, and future definitive fixation corridors"
+    }
+  ],
+  "questions": [
+    {
+      "question": "What are the safest general femoral pin regions?",
+      "answer": "The anterolateral and direct-lateral regions.",
+      "claim_ids": [
+        "pediatric_femoral_shaft_external_fixator_safe_zones_questions_01"
+      ]
+    },
+    {
+      "question": "How close may a distal pin be to the physis?",
+      "answer": "It should remain at least 2 cm proximal.",
+      "claim_ids": [
+        "pediatric_femoral_shaft_external_fixator_safe_zones_questions_02"
+      ]
+    },
+    {
+      "question": "Why avoid medial overpenetration?",
+      "answer": "The major femoral neurovascular structures lie medially and can be injured by drill or pin plunge.",
+      "claim_ids": [
+        "pediatric_femoral_shaft_external_fixator_safe_zones_questions_03"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "pediatric_femoral_shaft_external_fixator_safe_zones_positioning_01",
+      "text": "Position supine with the full thigh accessible, the hip and knee freely assessable, and fluoroscopy available for the femur and growth plates.",
+      "source_ids": [
+        "ao_5b6fad1f318db868",
+        "pmid_10488856"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "pediatric_femoral_shaft_external_fixator_safe_zones_setup_01",
+      "text": "Map the soft-tissue injury, physes, fracture, future nail or plate path, and pin-spread requirements before inserting any pin.",
+      "source_ids": [
+        "ao_5b6fad1f318db868",
+        "pmid_16314721"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "pediatric_femoral_shaft_external_fixator_safe_zones_surface_landmarks_01",
+      "text": "Mark the greater trochanter and its lateral face, vastus lateralis, rectus-vastus interval, lateral epicondyle, distal femoral growth plate, and intended definitive incisions.",
+      "source_ids": [
+        "ao_5b6fad1f318db868"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "pediatric_femoral_shaft_external_fixator_safe_zones_incision_01",
+      "text": "Use an adequate stab incision at each planned anterolateral or direct-lateral site and bluntly spread through soft tissue to bone before placing the sleeve.",
+      "source_ids": [
+        "ao_5b6fad1f318db868",
+        "pmid_10488856"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "pediatric_femoral_shaft_external_fixator_safe_zones_superficial_interval_01",
+      "text": "Pass proximally through vastus lateralis, at midshaft directly lateral or between rectus femoris and vastus lateralis, and distally avoid tethering the inferior vastus-lateralis border.",
+      "source_ids": [
+        "ao_5b6fad1f318db868",
+        "pmid_10488856"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "pediatric_femoral_shaft_external_fixator_safe_zones_deep_interval_01",
+      "text": "Advance with a protected sleeve to lateral cortex, obtain controlled bicortical purchase, and stop before medial overpenetration.",
+      "source_ids": [
+        "ao_5b6fad1f318db868",
+        "pmid_10488856"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "pediatric_femoral_shaft_external_fixator_safe_zones_layers_01",
+      "text": "Skin, subcutaneous tissue, fascia, vastus-lateralis or rectus-vastus corridor, thick periosteum, lateral cortex, canal, then controlled far-cortex purchase.",
+      "source_ids": [
+        "ao_5b6fad1f318db868"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "pediatric_femoral_shaft_external_fixator_safe_zones_structures_encountered_01",
+      "text": "Circumferential thigh muscle, vastus lateralis, rectus femoris, greater trochanter, femoral periosteum, shaft cortex, and distal physis define pin placement.",
+      "source_ids": [
+        "ao_5b6fad1f318db868",
+        "pmid_16314721"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "pediatric_femoral_shaft_external_fixator_safe_zones_structures_at_risk_01",
+      "text": "Medial femoral neurovascular structures, sciatic nerve posteriorly, distal growth plate, knee capsule, muscle and skin, and future fixation corridors are at risk.",
+      "source_ids": [
+        "ao_5b6fad1f318db868",
+        "pmid_16314721"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "pediatric_femoral_shaft_external_fixator_safe_zones_danger_zones_01",
+      "text": "Avoid medial cortical plunge, posterior trajectories, injured skin, transphyseal or intracapsular pins, and distal pins closer than 2 cm to the growth plate.",
+      "source_ids": [
+        "ao_5b6fad1f318db868",
+        "pmid_16314721"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "pediatric_femoral_shaft_external_fixator_safe_zones_retraction_hazards_01",
+      "text": "Release tethered skin and muscle around each pin, cool drilling to limit thermal injury, and avoid forcing a sleeve through tense soft tissue.",
+      "source_ids": [
+        "ao_5b6fad1f318db868",
+        "pmid_10488856"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "pediatric_femoral_shaft_external_fixator_safe_zones_exposure_01",
+      "text": "Provides safe skeletal purchase for temporary damage-control or selected definitive external fixation with minimal surgical exposure.",
+      "source_ids": [
+        "ao_5b6fad1f318db868",
+        "pmid_10488856"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "pediatric_femoral_shaft_external_fixator_safe_zones_limitations_01",
+      "text": "Safe zones are guides rather than substitutes for patient-specific imaging; external fixation carries pin-track, alignment, and refracture concerns.",
+      "source_ids": [
+        "pmid_10488856",
+        "pmid_16314721"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "pediatric_femoral_shaft_external_fixator_safe_zones_extensions_01",
+      "text": "Add or relocate a pin only after remapping physes, neurovascular anatomy, soft tissue, and planned definitive fixation; increase spread without entering joints or growth plates.",
+      "source_ids": [
+        "ao_5b6fad1f318db868",
+        "pmid_10488856"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "pediatric_femoral_shaft_external_fixator_safe_zones_indications_01",
+      "text": "Use for damage-control stabilization, severe soft-tissue injury, polytrauma, unstable reduction, or selected definitive pediatric shaft fixation.",
+      "source_ids": [
+        "pmid_10488856",
+        "pmid_16314721"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "pediatric_femoral_shaft_external_fixator_safe_zones_relative_contraindications_01",
+      "text": "Avoid infected or severely damaged pin sites, corridors conflicting with definitive fixation, uncertain physeal location, and anatomy that cannot be safely localized.",
+      "source_ids": [
+        "ao_5b6fad1f318db868",
+        "pmid_16314721"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "pediatric_femoral_shaft_external_fixator_safe_zones_implant_implications_01",
+      "text": "Maximize safe pin spread and bicortical purchase, keep pins outside future nail and plate paths, and add stability without sacrificing physeal or neurovascular safety.",
+      "source_ids": [
+        "ao_5b6fad1f318db868",
+        "pmid_10488856"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "pediatric_femoral_shaft_external_fixator_safe_zones_fluoroscopy_implications_01",
+      "text": "Confirm trajectory, bicortical depth without medial overpenetration, fracture distance, joint clearance, and at least 2-cm distal physeal clearance on orthogonal views.",
+      "source_ids": [
+        "ao_5b6fad1f318db868",
+        "pmid_10488856"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "pediatric_femoral_shaft_external_fixator_safe_zones_closure_01",
+      "text": "Release soft-tissue tethering, dress pin sites, document distal perfusion and nerve function, and reassess hip and knee motion after frame assembly.",
+      "source_ids": [
+        "ao_5b6fad1f318db868",
+        "pmid_10488856"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "pediatric_femoral_shaft_external_fixator_safe_zones_complications_01",
+      "text": "Complications include neurovascular injury, physeal injury, pin-track infection, thermal necrosis, muscle tethering, loss of reduction, malunion, knee stiffness, and refracture after removal.",
+      "source_ids": [
+        "ao_5b6fad1f318db868",
+        "pmid_10488856",
+        "pmid_16314721"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "pediatric_femoral_shaft_external_fixator_safe_zones_bailouts_01",
+      "text": "If trajectory or physis is uncertain, stop drilling and relocate under imaging; for medial plunge or vascular concern, leave a tamponading pin in place and obtain urgent vascular assessment rather than blind removal.",
+      "source_ids": [
+        "ao_5b6fad1f318db868",
+        "pmid_16314721"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "pediatric_femoral_shaft_external_fixator_safe_zones_questions_01",
+      "text": "What are the safest general femoral pin regions?",
+      "source_ids": [
+        "ao_5b6fad1f318db868"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "pediatric_femoral_shaft_external_fixator_safe_zones_questions_02",
+      "text": "How close may a distal pin be to the physis?",
+      "source_ids": [
+        "ao_5b6fad1f318db868"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "pediatric_femoral_shaft_external_fixator_safe_zones_questions_03",
+      "text": "Why avoid medial overpenetration?",
+      "source_ids": [
+        "ao_5b6fad1f318db868"
+      ],
+      "risk_level": "medium"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "ao_5b6fad1f318db868",
+      "provider": "AO Surgery Reference",
+      "title": "Safe Zones For Pin Placement",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/pediatric-trauma/femoral-shaft/approach/safe-zones-for-pin-placement",
+      "source_page_id": "ao_5b6fad1f318db868"
+    },
+    {
+      "source_id": "pmid_10488856",
+      "provider": "PubMed",
+      "title": "External fixation of femoral shaft fractures in children: enhanced stability with the use of an auxiliary pin",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/10488856/"
+    },
+    {
+      "source_id": "pmid_16314721",
+      "provider": "PubMed",
+      "title": "Treatment options in pediatric femoral shaft fractures",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/16314721/"
+    }
+  ],
+  "content_status": "agent_review_pending",
+  "review": {
+    "status": "agent_review_pending",
+    "required_roles": [
+      "adversarial_safety_reviewer",
+      "approach_anatomy_reviewer",
+      "educational_value_reviewer",
+      "evidence_reviewer",
+      "operative_exposure_reviewer",
+      "procedure_applicability_reviewer"
+    ],
+    "completed_roles": []
+  },
+  "resolved_contradiction_keys": [],
+  "authoring_provenance": {
+    "method": "local_codex_curated",
+    "definition_file": "data/approach_library/curated/pediatric_femoral_shaft_open_mio_pins_v1.json",
+    "api_used": false
+  }
+}

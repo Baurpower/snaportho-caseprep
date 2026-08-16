@@ -1,0 +1,468 @@
+{
+  "schema_version": "brobot_approach_packet_v1",
+  "approach_id": "pediatric_distal_ulna_direct_ulnar",
+  "name": "Pediatric direct ulnar approach to the distal ulna",
+  "aliases": [
+    "pediatric distal-ulna approach",
+    "pediatric ulnar styloid approach"
+  ],
+  "region": "pediatric ulnar distal forearm",
+  "joint": "distal radioulnar joint",
+  "bones": [
+    "distal ulna",
+    "ulnar styloid",
+    "distal ulnar physis"
+  ],
+  "corridor": "Longitudinal ECU-FCU interval with explicit dorsal sensory ulnar-nerve protection",
+  "positioning": [
+    {
+      "text": "Position supine with arm on a radiolucent hand table and forearm positioned for direct ulnar access.",
+      "claim_ids": [
+        "pediatric_distal_ulna_direct_ulnar_positioning_01"
+      ]
+    }
+  ],
+  "setup": [
+    {
+      "text": "Localize the distal-ulnar physis and DRUJ, assess remaining growth and associated radius injury, and map the dorsal sensory nerve.",
+      "claim_ids": [
+        "pediatric_distal_ulna_direct_ulnar_setup_01"
+      ]
+    }
+  ],
+  "surface_landmarks": [
+    {
+      "text": "Mark ulna, ulnar styloid, physis under imaging, ECU, FCU, and DRUJ.",
+      "claim_ids": [
+        "pediatric_distal_ulna_direct_ulnar_surface_landmarks_01"
+      ]
+    }
+  ],
+  "incision": [
+    {
+      "text": "Make a longitudinal incision over the distal ulna between ECU and FCU, centered on the fracture and kept no longer than needed.",
+      "claim_ids": [
+        "pediatric_distal_ulna_direct_ulnar_incision_01"
+      ]
+    }
+  ],
+  "superficial_interval": [
+    {
+      "text": "Seek and protect the dorsal sensory ulnar-nerve branch before developing the ECU-FCU interval.",
+      "claim_ids": [
+        "pediatric_distal_ulna_direct_ulnar_superficial_interval_01"
+      ]
+    }
+  ],
+  "deep_interval": [
+    {
+      "text": "Release only necessary ulnar extensor retinaculum and expose the fracture with minimal periosteal and physeal stripping.",
+      "claim_ids": [
+        "pediatric_distal_ulna_direct_ulnar_deep_interval_01"
+      ]
+    }
+  ],
+  "layers": [
+    {
+      "text": "Skin, subcutaneous sensory-nerve plane, ECU-FCU interval, retinaculum, periosteum, then distal ulna and physis.",
+      "claim_ids": [
+        "pediatric_distal_ulna_direct_ulnar_layers_01"
+      ]
+    }
+  ],
+  "structures_encountered": [
+    {
+      "text": "Dorsal sensory ulnar nerve, ECU, FCU, extensor retinaculum, ulnar styloid, distal-ulnar physis, and DRUJ are encountered.",
+      "claim_ids": [
+        "pediatric_distal_ulna_direct_ulnar_structures_encountered_01"
+      ]
+    }
+  ],
+  "structures_at_risk": [
+    {
+      "text": "Dorsal sensory nerve, ulnar physis and blood supply, ECU sheath, TFCC, DRUJ cartilage, and ulnar neurovascular bundle are at risk.",
+      "claim_ids": [
+        "pediatric_distal_ulna_direct_ulnar_structures_at_risk_01"
+      ]
+    }
+  ],
+  "danger_zones": [
+    {
+      "text": "Avoid repeated physeal manipulation, transphyseal thermal injury, and circumferential epiphyseal stripping; distal-ulnar growth arrest can produce major variance and deformity.",
+      "claim_ids": [
+        "pediatric_distal_ulna_direct_ulnar_danger_zones_01"
+      ]
+    }
+  ],
+  "retraction_hazards": [
+    {
+      "text": "Avoid traction on the dorsal sensory branch and forceful ECU or TFCC retraction.",
+      "claim_ids": [
+        "pediatric_distal_ulna_direct_ulnar_retraction_hazards_01"
+      ]
+    }
+  ],
+  "exposure": [
+    {
+      "text": "Provides direct access to pediatric distal-ulna, styloid, and physeal fractures while permitting DRUJ assessment.",
+      "claim_ids": [
+        "pediatric_distal_ulna_direct_ulnar_exposure_01"
+      ]
+    }
+  ],
+  "limitations": [
+    {
+      "text": "Does not expose the radius and cannot substitute for longitudinal surveillance after a physeal injury.",
+      "claim_ids": [
+        "pediatric_distal_ulna_direct_ulnar_limitations_01"
+      ]
+    }
+  ],
+  "extensions": [
+    {
+      "text": "Extend proximally along ulna or add a separate radius/DRUJ exposure while preserving nerve and physeal tissues.",
+      "claim_ids": [
+        "pediatric_distal_ulna_direct_ulnar_extensions_01"
+      ]
+    }
+  ],
+  "indications": [
+    {
+      "text": "Use selectively for irreducible or unstable displaced distal-ulnar physeal, neck, or styloid injuries requiring open control.",
+      "claim_ids": [
+        "pediatric_distal_ulna_direct_ulnar_indications_01"
+      ]
+    }
+  ],
+  "relative_contraindications": [
+    {
+      "text": "Avoid open exposure when acceptable stable closed reduction is achievable and avoid unnecessary fixation of stable small fragments.",
+      "claim_ids": [
+        "pediatric_distal_ulna_direct_ulnar_relative_contraindications_01"
+      ]
+    }
+  ],
+  "implant_implications": [
+    {
+      "text": "Choose low-profile, physeal-respecting fixation, avoid joint penetration, and plan removal when growth or implant position warrants it.",
+      "claim_ids": [
+        "pediatric_distal_ulna_direct_ulnar_implant_implications_01"
+      ]
+    }
+  ],
+  "fluoroscopy_implications": [
+    {
+      "text": "Confirm physeal alignment, ulnar variance, DRUJ congruity, and implant containment on orthogonal views.",
+      "claim_ids": [
+        "pediatric_distal_ulna_direct_ulnar_fluoroscopy_implications_01"
+      ]
+    }
+  ],
+  "closure": [
+    {
+      "text": "Repair retinaculum, confirm ECU glide and DRUJ stability, and close without injuring or trapping the dorsal sensory branch.",
+      "claim_ids": [
+        "pediatric_distal_ulna_direct_ulnar_closure_01"
+      ]
+    }
+  ],
+  "complications": [
+    {
+      "text": "Complications include growth arrest, ulnar variance and deformity, DRUJ instability, sensory neuroma, tendon irritation, infection, and nonunion.",
+      "claim_ids": [
+        "pediatric_distal_ulna_direct_ulnar_complications_01"
+      ]
+    }
+  ],
+  "bailouts": [
+    {
+      "text": "Use a separate approach for associated radius pathology and institute long-term growth surveillance even after satisfactory fixation.",
+      "claim_ids": [
+        "pediatric_distal_ulna_direct_ulnar_bailouts_01"
+      ]
+    }
+  ],
+  "procedure_applications": [
+    {
+      "procedure_id": "pediatric_distal_ulna_fracture_fixation",
+      "relationship": "primary_option",
+      "condition": "A displaced distal-ulna or physeal fracture requires open reduction or stable fixation"
+    }
+  ],
+  "questions": [
+    {
+      "question": "Which nerve branch must be protected?",
+      "answer": "The dorsal sensory branch of the ulnar nerve.",
+      "claim_ids": [
+        "pediatric_distal_ulna_direct_ulnar_questions_01"
+      ]
+    },
+    {
+      "question": "What is the interval?",
+      "answer": "Between ECU and FCU.",
+      "claim_ids": [
+        "pediatric_distal_ulna_direct_ulnar_questions_02"
+      ]
+    },
+    {
+      "question": "What long-term complication requires surveillance?",
+      "answer": "Distal-ulnar growth arrest with altered ulnar variance.",
+      "claim_ids": [
+        "pediatric_distal_ulna_direct_ulnar_questions_03"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "pediatric_distal_ulna_direct_ulnar_positioning_01",
+      "text": "Position supine with arm on a radiolucent hand table and forearm positioned for direct ulnar access.",
+      "source_ids": [
+        "ao_199285a4b9638bc7",
+        "pmid_38062866"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "pediatric_distal_ulna_direct_ulnar_setup_01",
+      "text": "Localize the distal-ulnar physis and DRUJ, assess remaining growth and associated radius injury, and map the dorsal sensory nerve.",
+      "source_ids": [
+        "pmid_38062866",
+        "pmid_8742284"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "pediatric_distal_ulna_direct_ulnar_surface_landmarks_01",
+      "text": "Mark ulna, ulnar styloid, physis under imaging, ECU, FCU, and DRUJ.",
+      "source_ids": [
+        "ao_199285a4b9638bc7"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "pediatric_distal_ulna_direct_ulnar_incision_01",
+      "text": "Make a longitudinal incision over the distal ulna between ECU and FCU, centered on the fracture and kept no longer than needed.",
+      "source_ids": [
+        "ao_199285a4b9638bc7",
+        "pmid_38062866"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "pediatric_distal_ulna_direct_ulnar_superficial_interval_01",
+      "text": "Seek and protect the dorsal sensory ulnar-nerve branch before developing the ECU-FCU interval.",
+      "source_ids": [
+        "ao_199285a4b9638bc7",
+        "pmid_38062866"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "pediatric_distal_ulna_direct_ulnar_deep_interval_01",
+      "text": "Release only necessary ulnar extensor retinaculum and expose the fracture with minimal periosteal and physeal stripping.",
+      "source_ids": [
+        "ao_199285a4b9638bc7",
+        "pmid_38062866"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "pediatric_distal_ulna_direct_ulnar_layers_01",
+      "text": "Skin, subcutaneous sensory-nerve plane, ECU-FCU interval, retinaculum, periosteum, then distal ulna and physis.",
+      "source_ids": [
+        "ao_199285a4b9638bc7"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "pediatric_distal_ulna_direct_ulnar_structures_encountered_01",
+      "text": "Dorsal sensory ulnar nerve, ECU, FCU, extensor retinaculum, ulnar styloid, distal-ulnar physis, and DRUJ are encountered.",
+      "source_ids": [
+        "ao_199285a4b9638bc7",
+        "pmid_38062866"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "pediatric_distal_ulna_direct_ulnar_structures_at_risk_01",
+      "text": "Dorsal sensory nerve, ulnar physis and blood supply, ECU sheath, TFCC, DRUJ cartilage, and ulnar neurovascular bundle are at risk.",
+      "source_ids": [
+        "ao_199285a4b9638bc7",
+        "pmid_38062866"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "pediatric_distal_ulna_direct_ulnar_danger_zones_01",
+      "text": "Avoid repeated physeal manipulation, transphyseal thermal injury, and circumferential epiphyseal stripping; distal-ulnar growth arrest can produce major variance and deformity.",
+      "source_ids": [
+        "pmid_38062866",
+        "pmid_8742284"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "pediatric_distal_ulna_direct_ulnar_retraction_hazards_01",
+      "text": "Avoid traction on the dorsal sensory branch and forceful ECU or TFCC retraction.",
+      "source_ids": [
+        "ao_199285a4b9638bc7",
+        "pmid_38062866"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "pediatric_distal_ulna_direct_ulnar_exposure_01",
+      "text": "Provides direct access to pediatric distal-ulna, styloid, and physeal fractures while permitting DRUJ assessment.",
+      "source_ids": [
+        "ao_199285a4b9638bc7",
+        "pmid_38062866"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "pediatric_distal_ulna_direct_ulnar_limitations_01",
+      "text": "Does not expose the radius and cannot substitute for longitudinal surveillance after a physeal injury.",
+      "source_ids": [
+        "pmid_38062866",
+        "pmid_8742284"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "pediatric_distal_ulna_direct_ulnar_extensions_01",
+      "text": "Extend proximally along ulna or add a separate radius/DRUJ exposure while preserving nerve and physeal tissues.",
+      "source_ids": [
+        "ao_199285a4b9638bc7",
+        "pmid_38062866"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "pediatric_distal_ulna_direct_ulnar_indications_01",
+      "text": "Use selectively for irreducible or unstable displaced distal-ulnar physeal, neck, or styloid injuries requiring open control.",
+      "source_ids": [
+        "pmid_38062866",
+        "pmid_8742284"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "pediatric_distal_ulna_direct_ulnar_relative_contraindications_01",
+      "text": "Avoid open exposure when acceptable stable closed reduction is achievable and avoid unnecessary fixation of stable small fragments.",
+      "source_ids": [
+        "pmid_38062866",
+        "pmid_8742284"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "pediatric_distal_ulna_direct_ulnar_implant_implications_01",
+      "text": "Choose low-profile, physeal-respecting fixation, avoid joint penetration, and plan removal when growth or implant position warrants it.",
+      "source_ids": [
+        "pmid_38062866",
+        "pmid_8742284"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "pediatric_distal_ulna_direct_ulnar_fluoroscopy_implications_01",
+      "text": "Confirm physeal alignment, ulnar variance, DRUJ congruity, and implant containment on orthogonal views.",
+      "source_ids": [
+        "pmid_38062866",
+        "pmid_8742284"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "pediatric_distal_ulna_direct_ulnar_closure_01",
+      "text": "Repair retinaculum, confirm ECU glide and DRUJ stability, and close without injuring or trapping the dorsal sensory branch.",
+      "source_ids": [
+        "ao_199285a4b9638bc7",
+        "pmid_38062866"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "pediatric_distal_ulna_direct_ulnar_complications_01",
+      "text": "Complications include growth arrest, ulnar variance and deformity, DRUJ instability, sensory neuroma, tendon irritation, infection, and nonunion.",
+      "source_ids": [
+        "pmid_38062866",
+        "pmid_8742284"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "pediatric_distal_ulna_direct_ulnar_bailouts_01",
+      "text": "Use a separate approach for associated radius pathology and institute long-term growth surveillance even after satisfactory fixation.",
+      "source_ids": [
+        "pmid_38062866",
+        "pmid_8742284"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "pediatric_distal_ulna_direct_ulnar_questions_01",
+      "text": "Which nerve branch must be protected?",
+      "source_ids": [
+        "ao_199285a4b9638bc7"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "pediatric_distal_ulna_direct_ulnar_questions_02",
+      "text": "What is the interval?",
+      "source_ids": [
+        "ao_199285a4b9638bc7"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "pediatric_distal_ulna_direct_ulnar_questions_03",
+      "text": "What long-term complication requires surveillance?",
+      "source_ids": [
+        "pmid_38062866"
+      ],
+      "risk_level": "medium"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "ao_199285a4b9638bc7",
+      "provider": "AO Surgery Reference",
+      "title": "Ulnar Approach To The Distal Ulna",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/pediatric-trauma/distal-forearm/approach/ulnar-approach-to-the-distal-ulna",
+      "source_page_id": "ao_199285a4b9638bc7"
+    },
+    {
+      "source_id": "pmid_38062866",
+      "provider": "PubMed",
+      "title": "Physeal Fractures of the Distal Ulna: Incidence and Risk Factors for Premature Growth Arrest",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38062866/"
+    },
+    {
+      "source_id": "pmid_8742284",
+      "provider": "PubMed",
+      "title": "Traumatic ulnar physeal arrest after distal forearm fractures in children",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/8742284/"
+    }
+  ],
+  "content_status": "agent_review_pending",
+  "review": {
+    "status": "agent_review_pending",
+    "required_roles": [
+      "adversarial_safety_reviewer",
+      "approach_anatomy_reviewer",
+      "educational_value_reviewer",
+      "evidence_reviewer",
+      "operative_exposure_reviewer",
+      "procedure_applicability_reviewer"
+    ],
+    "completed_roles": []
+  },
+  "resolved_contradiction_keys": [],
+  "authoring_provenance": {
+    "method": "local_codex_curated",
+    "definition_file": "data/approach_library/curated/distal_forearm_ulnar_approaches_v1.json",
+    "api_used": false
+  }
+}

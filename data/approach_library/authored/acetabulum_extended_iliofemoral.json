@@ -1,0 +1,472 @@
+{
+  "schema_version": "brobot_approach_packet_v1",
+  "approach_id": "acetabulum_extended_iliofemoral",
+  "name": "Extended iliofemoral approach to the acetabulum",
+  "aliases": [
+    "extended iliofemoral approach",
+    "extensile acetabular approach"
+  ],
+  "region": "acetabulum and hemipelvis",
+  "joint": "hip",
+  "bones": [
+    "acetabulum",
+    "innominate bone",
+    "proximal femur"
+  ],
+  "corridor": "Extensile lateral exposure created by posterior reflection of the abductors and short external rotators, with optional anterior extension into the iliac window",
+  "positioning": [
+    {
+      "text": "Position lateral on a radiolucent or fracture table with the entire buttock, hemipelvis, and limb accessible for manipulation and imaging.",
+      "claim_ids": [
+        "acetabulum_extended_iliofemoral_positioning_01"
+      ]
+    }
+  ],
+  "setup": [
+    {
+      "text": "Prep from the posterior midline to the umbilicus and include the buttock and thigh while isolating the groin and perineum.",
+      "claim_ids": [
+        "acetabulum_extended_iliofemoral_setup_01"
+      ]
+    }
+  ],
+  "surface_landmarks": [
+    {
+      "text": "Mark the posterior and anterior superior iliac spines, iliac crest, greater trochanter, and lateral femoral shaft.",
+      "claim_ids": [
+        "acetabulum_extended_iliofemoral_surface_landmarks_01"
+      ]
+    }
+  ],
+  "incision": [
+    {
+      "text": "Use an inverted-J incision from the posterior iliac region along the crest to the ASIS, then continue distally over the anterolateral thigh to permit posterior flap reflection.",
+      "claim_ids": [
+        "acetabulum_extended_iliofemoral_incision_01"
+      ]
+    }
+  ],
+  "superficial_interval": [
+    {
+      "text": "Develop the separately innervated abdominal-wall–gluteal interval along the iliac crest and the sartorius–tensor fasciae latae interval anteriorly.",
+      "claim_ids": [
+        "acetabulum_extended_iliofemoral_superficial_interval_01"
+      ]
+    }
+  ],
+  "deep_interval": [
+    {
+      "text": "Elevate the gluteal flap subperiosteally from the external ilium, then release gluteus minimus, gluteus medius, piriformis, and the conjoined short external rotators with repairable tendon stumps.",
+      "claim_ids": [
+        "acetabulum_extended_iliofemoral_deep_interval_01"
+      ]
+    }
+  ],
+  "layers": [
+    {
+      "text": "Skin and large musculocutaneous flap, fascia lata and tensor interval, subperiosteal external-iliac exposure, abductor and short-external-rotator releases, then capsule and acetabular columns.",
+      "claim_ids": [
+        "acetabulum_extended_iliofemoral_layers_01"
+      ]
+    }
+  ],
+  "structures_encountered": [
+    {
+      "text": "The approach encounters lateral femoral circumflex branches, superior gluteal neurovascular pedicle, sciatic nerve, abductors, short external rotators, rectus origins, and hip capsule.",
+      "claim_ids": [
+        "acetabulum_extended_iliofemoral_structures_encountered_01"
+      ]
+    }
+  ],
+  "structures_at_risk": [
+    {
+      "text": "The superior gluteal artery, veins, and nerve are at high risk where they exit the greater sciatic notch and travel on the deep gluteal surface.",
+      "claim_ids": [
+        "acetabulum_extended_iliofemoral_structures_at_risk_01"
+      ]
+    },
+    {
+      "text": "The sciatic nerve and medial femoral circumflex artery are at risk during short-external-rotator release, notch retraction, and posterior exposure.",
+      "claim_ids": [
+        "acetabulum_extended_iliofemoral_structures_at_risk_02"
+      ]
+    }
+  ],
+  "danger_zones": [
+    {
+      "text": "Continuously assess gluteal-pedicle perfusion during posterior flap retraction; pedicle thrombosis can cause catastrophic flap necrosis.",
+      "claim_ids": [
+        "acetabulum_extended_iliofemoral_danger_zones_01"
+      ]
+    }
+  ],
+  "retraction_hazards": [
+    {
+      "text": "Avoid aggressive or prolonged gluteal and sciatic-nerve retraction and protect neurovascular structures crossing the greater sciatic notch throughout reduction and fixation.",
+      "claim_ids": [
+        "acetabulum_extended_iliofemoral_retraction_hazards_01"
+      ]
+    }
+  ],
+  "exposure": [
+    {
+      "text": "Exposes nearly the entire lateral innominate bone and posterior acetabulum, with anterior extension into the internal iliac fossa when required.",
+      "claim_ids": [
+        "acetabulum_extended_iliofemoral_exposure_01"
+      ]
+    }
+  ],
+  "limitations": [
+    {
+      "text": "This highly morbid exposure demands complex flap mobilization and reconstruction and should be reserved for reductions not achievable safely through less-extensile approaches.",
+      "claim_ids": [
+        "acetabulum_extended_iliofemoral_limitations_01"
+      ]
+    }
+  ],
+  "extensions": [
+    {
+      "text": "Extend anteriorly into the first ilioinguinal window for internal iliac-fossa access; a trochanteric osteotomy can preserve abductor insertions as a mobilized osseous fragment.",
+      "claim_ids": [
+        "acetabulum_extended_iliofemoral_extensions_01"
+      ]
+    }
+  ],
+  "indications": [
+    {
+      "text": "A salvage extensile option for complex acetabular fracture patterns whose columns, dome, or chronic displacement cannot be reduced through standard anterior or posterior exposures.",
+      "claim_ids": [
+        "acetabulum_extended_iliofemoral_indications_01"
+      ]
+    }
+  ],
+  "relative_contraindications": [
+    {
+      "text": "Avoid when a less-extensile approach can achieve reduction or when soft-tissue condition, vascular disease, or inability to tolerate prolonged surgery makes the flap risk unacceptable.",
+      "claim_ids": [
+        "acetabulum_extended_iliofemoral_relative_contraindications_01"
+      ]
+    }
+  ],
+  "implant_implications": [
+    {
+      "text": "The broad exposure allows multiplanar column fixation, but implants and retractors must not compromise the superior gluteal pedicle, sciatic nerve, or femoral-head blood supply.",
+      "claim_ids": [
+        "acetabulum_extended_iliofemoral_implant_implications_01"
+      ]
+    }
+  ],
+  "fluoroscopy_implications": [
+    {
+      "text": "Use a radiolucent setup that preserves AP and Judet views despite lateral positioning and the large reflected flap.",
+      "claim_ids": [
+        "acetabulum_extended_iliofemoral_fluoroscopy_implications_01"
+      ]
+    }
+  ],
+  "closure": [
+    {
+      "text": "Perform anatomic, mechanically secure repair of capsule, short external rotators, gluteus medius and minimus, rectus origin, iliac-crest muscle origins, fascia, and superficial layers.",
+      "claim_ids": [
+        "acetabulum_extended_iliofemoral_closure_01"
+      ]
+    }
+  ],
+  "complications": [
+    {
+      "text": "Major complications include superior-gluteal hemorrhage or thrombosis, gluteal-flap necrosis, sciatic or superior-gluteal neuropathy, abductor failure, heterotopic ossification, infection, and wound breakdown.",
+      "claim_ids": [
+        "acetabulum_extended_iliofemoral_complications_01"
+      ]
+    }
+  ],
+  "bailouts": [
+    {
+      "text": "For uncontrolled superior-gluteal bleeding, pack the notch and obtain definitive vascular control or angiographic embolization; do not pursue blind clamping into the pelvis.",
+      "claim_ids": [
+        "acetabulum_extended_iliofemoral_bailouts_01"
+      ]
+    }
+  ],
+  "procedure_applications": [
+    {
+      "procedure_id": "acetabulum_fracture_orif_posterior",
+      "relationship": "conditional_option",
+      "condition": "A complex pattern cannot be reduced through a less-extensile posterior exposure"
+    },
+    {
+      "procedure_id": "acetabulum_fracture_orif_anterior",
+      "relationship": "conditional_option",
+      "condition": "Combined lateral and anterior innominate-bone exposure is required"
+    }
+  ],
+  "questions": [
+    {
+      "question": "Which vascular pedicle determines viability of the reflected gluteal flap?",
+      "answer": "The superior gluteal artery and accompanying veins.",
+      "claim_ids": [
+        "acetabulum_extended_iliofemoral_questions_01"
+      ]
+    },
+    {
+      "question": "Why is aggressive gluteal-flap retraction dangerous?",
+      "answer": "It can obstruct or thrombose the superior gluteal pedicle, causing flap necrosis, and can injure the superior gluteal nerve.",
+      "claim_ids": [
+        "acetabulum_extended_iliofemoral_questions_02"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "acetabulum_extended_iliofemoral_positioning_01",
+      "text": "Position lateral on a radiolucent or fracture table with the entire buttock, hemipelvis, and limb accessible for manipulation and imaging.",
+      "source_ids": [
+        "ao_dd8b976218ee67fd",
+        "orthobullets_ad364fde9138d281"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "acetabulum_extended_iliofemoral_setup_01",
+      "text": "Prep from the posterior midline to the umbilicus and include the buttock and thigh while isolating the groin and perineum.",
+      "source_ids": [
+        "ao_dd8b976218ee67fd",
+        "orthobullets_ad364fde9138d281"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "acetabulum_extended_iliofemoral_surface_landmarks_01",
+      "text": "Mark the posterior and anterior superior iliac spines, iliac crest, greater trochanter, and lateral femoral shaft.",
+      "source_ids": [
+        "ao_dd8b976218ee67fd",
+        "orthobullets_ad364fde9138d281"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "acetabulum_extended_iliofemoral_incision_01",
+      "text": "Use an inverted-J incision from the posterior iliac region along the crest to the ASIS, then continue distally over the anterolateral thigh to permit posterior flap reflection.",
+      "source_ids": [
+        "ao_dd8b976218ee67fd",
+        "orthobullets_ad364fde9138d281"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "acetabulum_extended_iliofemoral_superficial_interval_01",
+      "text": "Develop the separately innervated abdominal-wall–gluteal interval along the iliac crest and the sartorius–tensor fasciae latae interval anteriorly.",
+      "source_ids": [
+        "ao_dd8b976218ee67fd",
+        "orthobullets_ad364fde9138d281"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "acetabulum_extended_iliofemoral_deep_interval_01",
+      "text": "Elevate the gluteal flap subperiosteally from the external ilium, then release gluteus minimus, gluteus medius, piriformis, and the conjoined short external rotators with repairable tendon stumps.",
+      "source_ids": [
+        "ao_dd8b976218ee67fd",
+        "orthobullets_ad364fde9138d281"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "acetabulum_extended_iliofemoral_layers_01",
+      "text": "Skin and large musculocutaneous flap, fascia lata and tensor interval, subperiosteal external-iliac exposure, abductor and short-external-rotator releases, then capsule and acetabular columns.",
+      "source_ids": [
+        "ao_dd8b976218ee67fd",
+        "orthobullets_ad364fde9138d281"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "acetabulum_extended_iliofemoral_structures_encountered_01",
+      "text": "The approach encounters lateral femoral circumflex branches, superior gluteal neurovascular pedicle, sciatic nerve, abductors, short external rotators, rectus origins, and hip capsule.",
+      "source_ids": [
+        "ao_dd8b976218ee67fd",
+        "orthobullets_ad364fde9138d281"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "acetabulum_extended_iliofemoral_structures_at_risk_01",
+      "text": "The superior gluteal artery, veins, and nerve are at high risk where they exit the greater sciatic notch and travel on the deep gluteal surface.",
+      "source_ids": [
+        "ao_dd8b976218ee67fd",
+        "orthobullets_ad364fde9138d281"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "acetabulum_extended_iliofemoral_structures_at_risk_02",
+      "text": "The sciatic nerve and medial femoral circumflex artery are at risk during short-external-rotator release, notch retraction, and posterior exposure.",
+      "source_ids": [
+        "ao_dd8b976218ee67fd",
+        "orthobullets_ad364fde9138d281"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "acetabulum_extended_iliofemoral_danger_zones_01",
+      "text": "Continuously assess gluteal-pedicle perfusion during posterior flap retraction; pedicle thrombosis can cause catastrophic flap necrosis.",
+      "source_ids": [
+        "ao_dd8b976218ee67fd",
+        "orthobullets_ad364fde9138d281"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "acetabulum_extended_iliofemoral_retraction_hazards_01",
+      "text": "Avoid aggressive or prolonged gluteal and sciatic-nerve retraction and protect neurovascular structures crossing the greater sciatic notch throughout reduction and fixation.",
+      "source_ids": [
+        "ao_dd8b976218ee67fd",
+        "orthobullets_ad364fde9138d281"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "acetabulum_extended_iliofemoral_exposure_01",
+      "text": "Exposes nearly the entire lateral innominate bone and posterior acetabulum, with anterior extension into the internal iliac fossa when required.",
+      "source_ids": [
+        "ao_dd8b976218ee67fd",
+        "orthobullets_ad364fde9138d281"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "acetabulum_extended_iliofemoral_limitations_01",
+      "text": "This highly morbid exposure demands complex flap mobilization and reconstruction and should be reserved for reductions not achievable safely through less-extensile approaches.",
+      "source_ids": [
+        "ao_dd8b976218ee67fd",
+        "orthobullets_ad364fde9138d281"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "acetabulum_extended_iliofemoral_extensions_01",
+      "text": "Extend anteriorly into the first ilioinguinal window for internal iliac-fossa access; a trochanteric osteotomy can preserve abductor insertions as a mobilized osseous fragment.",
+      "source_ids": [
+        "ao_dd8b976218ee67fd",
+        "orthobullets_ad364fde9138d281"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "acetabulum_extended_iliofemoral_indications_01",
+      "text": "A salvage extensile option for complex acetabular fracture patterns whose columns, dome, or chronic displacement cannot be reduced through standard anterior or posterior exposures.",
+      "source_ids": [
+        "ao_dd8b976218ee67fd",
+        "orthobullets_ad364fde9138d281"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "acetabulum_extended_iliofemoral_relative_contraindications_01",
+      "text": "Avoid when a less-extensile approach can achieve reduction or when soft-tissue condition, vascular disease, or inability to tolerate prolonged surgery makes the flap risk unacceptable.",
+      "source_ids": [
+        "ao_dd8b976218ee67fd",
+        "orthobullets_ad364fde9138d281"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "acetabulum_extended_iliofemoral_implant_implications_01",
+      "text": "The broad exposure allows multiplanar column fixation, but implants and retractors must not compromise the superior gluteal pedicle, sciatic nerve, or femoral-head blood supply.",
+      "source_ids": [
+        "ao_dd8b976218ee67fd",
+        "orthobullets_ad364fde9138d281"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "acetabulum_extended_iliofemoral_fluoroscopy_implications_01",
+      "text": "Use a radiolucent setup that preserves AP and Judet views despite lateral positioning and the large reflected flap.",
+      "source_ids": [
+        "ao_dd8b976218ee67fd",
+        "orthobullets_ad364fde9138d281"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "acetabulum_extended_iliofemoral_closure_01",
+      "text": "Perform anatomic, mechanically secure repair of capsule, short external rotators, gluteus medius and minimus, rectus origin, iliac-crest muscle origins, fascia, and superficial layers.",
+      "source_ids": [
+        "ao_dd8b976218ee67fd",
+        "orthobullets_ad364fde9138d281"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "acetabulum_extended_iliofemoral_complications_01",
+      "text": "Major complications include superior-gluteal hemorrhage or thrombosis, gluteal-flap necrosis, sciatic or superior-gluteal neuropathy, abductor failure, heterotopic ossification, infection, and wound breakdown.",
+      "source_ids": [
+        "ao_dd8b976218ee67fd",
+        "orthobullets_ad364fde9138d281"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "acetabulum_extended_iliofemoral_bailouts_01",
+      "text": "For uncontrolled superior-gluteal bleeding, pack the notch and obtain definitive vascular control or angiographic embolization; do not pursue blind clamping into the pelvis.",
+      "source_ids": [
+        "ao_dd8b976218ee67fd",
+        "orthobullets_ad364fde9138d281"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "acetabulum_extended_iliofemoral_questions_01",
+      "text": "Which vascular pedicle determines viability of the reflected gluteal flap?",
+      "source_ids": [
+        "ao_dd8b976218ee67fd",
+        "orthobullets_ad364fde9138d281"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "acetabulum_extended_iliofemoral_questions_02",
+      "text": "Why is aggressive gluteal-flap retraction dangerous?",
+      "source_ids": [
+        "ao_dd8b976218ee67fd",
+        "orthobullets_ad364fde9138d281"
+      ],
+      "risk_level": "medium"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "ao_dd8b976218ee67fd",
+      "provider": "AO Surgery Reference",
+      "title": "Extended iliofemoral approach to the acetabulum",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/acetabulum/approach/extended-iliofemoral-approach-to-the-acetabulum",
+      "source_page_id": "ao_dd8b976218ee67fd"
+    },
+    {
+      "source_id": "orthobullets_ad364fde9138d281",
+      "provider": "Orthobullets",
+      "title": "Extensile Extended Iliofemoral Approach to Acetabulum",
+      "url": "https://www.orthobullets.com/approaches/12017/extensile-extended-iliofemoral-approach-to-acetabulum",
+      "source_page_id": "orthobullets_ad364fde9138d281"
+    }
+  ],
+  "content_status": "agent_review_pending",
+  "review": {
+    "status": "agent_review_pending",
+    "required_roles": [
+      "adversarial_safety_reviewer",
+      "approach_anatomy_reviewer",
+      "educational_value_reviewer",
+      "evidence_reviewer",
+      "operative_exposure_reviewer",
+      "procedure_applicability_reviewer"
+    ],
+    "completed_roles": []
+  },
+  "resolved_contradiction_keys": [],
+  "authoring_provenance": {
+    "method": "local_codex_curated",
+    "definition_file": "data/approach_library/curated/extensile_approaches_v1.json",
+    "api_used": false
+  }
+}

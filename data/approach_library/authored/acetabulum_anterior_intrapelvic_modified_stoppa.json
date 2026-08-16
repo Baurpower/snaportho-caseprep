@@ -1,0 +1,468 @@
+{
+  "schema_version": "brobot_approach_packet_v1",
+  "approach_id": "acetabulum_anterior_intrapelvic_modified_stoppa",
+  "name": "Anterior intrapelvic approach (modified Stoppa)",
+  "aliases": [
+    "Modified Stoppa approach",
+    "AIP approach",
+    "anterior intrapelvic approach"
+  ],
+  "region": "acetabulum and anterior pelvis",
+  "joint": "hip",
+  "bones": [
+    "acetabulum",
+    "superior pubic ramus",
+    "quadrilateral surface"
+  ],
+  "corridor": "Extraperitoneal retropubic corridor deep to rectus abdominis along the inner pelvis and quadrilateral surface",
+  "positioning": [
+    {
+      "text": "Position supine on a radiolucent table with the injured leg in the field and the hip and knee flexed enough to relax iliopsoas and external iliac vessels.",
+      "claim_ids": [
+        "acetabulum_anterior_intrapelvic_modified_stoppa_positioning_01"
+      ]
+    }
+  ],
+  "setup": [
+    {
+      "text": "Place a urinary catheter, prepare the lower abdomen and hemipelvis, and arrange fluoroscopy for AP and Judet views before incision.",
+      "claim_ids": [
+        "acetabulum_anterior_intrapelvic_modified_stoppa_setup_01"
+      ]
+    }
+  ],
+  "surface_landmarks": [
+    {
+      "text": "Identify the pubic symphysis, linea alba, rectus borders, inguinal ligament, and iliac crest if a lateral window may be added.",
+      "claim_ids": [
+        "acetabulum_anterior_intrapelvic_modified_stoppa_surface_landmarks_01"
+      ]
+    }
+  ],
+  "incision": [
+    {
+      "text": "Use a transverse Pfannenstiel incision just proximal to the pubic symphysis, with a separate lateral-window extension when upper anterior-column exposure is needed.",
+      "claim_ids": [
+        "acetabulum_anterior_intrapelvic_modified_stoppa_incision_01"
+      ]
+    }
+  ],
+  "superficial_interval": [
+    {
+      "text": "Open the rectus fascia at the linea alba, separate the rectus bellies, and remain strictly in the preperitoneal space.",
+      "claim_ids": [
+        "acetabulum_anterior_intrapelvic_modified_stoppa_superficial_interval_01"
+      ]
+    }
+  ],
+  "deep_interval": [
+    {
+      "text": "Develop the inner surface of the superior pubic ramus and pelvic brim subperiosteally, mobilizing obturator structures and elevating obturator internus to expose the quadrilateral surface.",
+      "claim_ids": [
+        "acetabulum_anterior_intrapelvic_modified_stoppa_deep_interval_01"
+      ]
+    }
+  ],
+  "layers": [
+    {
+      "text": "Skin and subcutaneous tissue, anterior rectus sheath and linea alba, rectus separation, preperitoneal retropubic space, periosteum and obturator internus, then quadrilateral surface and pelvic brim.",
+      "claim_ids": [
+        "acetabulum_anterior_intrapelvic_modified_stoppa_layers_01"
+      ]
+    }
+  ],
+  "structures_encountered": [
+    {
+      "text": "Corona-mortis vessels, external iliac vessels and iliopsoas laterally, obturator neurovascular bundle, bladder, peritoneum, pelvic floor, and lumbosacral trunk define the exposure.",
+      "claim_ids": [
+        "acetabulum_anterior_intrapelvic_modified_stoppa_structures_encountered_01"
+      ]
+    }
+  ],
+  "structures_at_risk": [
+    {
+      "text": "The obturator neurovascular bundle, corona mortis, external iliac vein, bladder, peritoneum, pelvic floor, and lumbosacral trunk are at risk during intrapelvic dissection and retraction.",
+      "claim_ids": [
+        "acetabulum_anterior_intrapelvic_modified_stoppa_structures_at_risk_01"
+      ]
+    }
+  ],
+  "danger_zones": [
+    {
+      "text": "Identify and control corona-mortis vessels before deeper lateral mobilization, and protect the obturator bundle with a malleable retractor while elevating obturator internus.",
+      "claim_ids": [
+        "acetabulum_anterior_intrapelvic_modified_stoppa_danger_zones_01"
+      ]
+    }
+  ],
+  "retraction_hazards": [
+    {
+      "text": "Prevent retractor slippage into the pelvis; avoid avulsion of variably tethered obturator vessels and direct pressure on external iliac vein, bladder, or lumbosacral trunk.",
+      "claim_ids": [
+        "acetabulum_anterior_intrapelvic_modified_stoppa_retraction_hazards_01"
+      ]
+    }
+  ],
+  "exposure": [
+    {
+      "text": "Directly exposes the pubic symphysis, superior pubic ramus, quadrilateral surface, pelvic brim, and medial posterior column; a lateral window completes upper anterior-column exposure.",
+      "claim_ids": [
+        "acetabulum_anterior_intrapelvic_modified_stoppa_exposure_01"
+      ]
+    }
+  ],
+  "limitations": [
+    {
+      "text": "The upper iliac wing and sacroiliac region require a lateral window, and distal internal-iliac branching can restrict safe posterior quadrilateral-surface dissection.",
+      "claim_ids": [
+        "acetabulum_anterior_intrapelvic_modified_stoppa_limitations_01"
+      ]
+    }
+  ],
+  "extensions": [
+    {
+      "text": "Add an iliac-crest lateral window to expose the internal iliac fossa, sacral ala, anterior sacroiliac joint, and upper anterior column.",
+      "claim_ids": [
+        "acetabulum_anterior_intrapelvic_modified_stoppa_extensions_01"
+      ]
+    }
+  ],
+  "indications": [
+    {
+      "text": "Useful for anterior-column, both-column, quadrilateral-surface, and selected transverse acetabular patterns requiring direct medial buttress access.",
+      "claim_ids": [
+        "acetabulum_anterior_intrapelvic_modified_stoppa_indications_01"
+      ]
+    }
+  ],
+  "relative_contraindications": [
+    {
+      "text": "Use caution after extensive lower-abdominal surgery or when vascular anatomy, intrapelvic scarring, or the fracture target prevents safe extraperitoneal access.",
+      "claim_ids": [
+        "acetabulum_anterior_intrapelvic_modified_stoppa_relative_contraindications_01"
+      ]
+    }
+  ],
+  "implant_implications": [
+    {
+      "text": "The approach permits direct infrapectineal buttress plating of the quadrilateral surface while protecting obturator and external iliac structures from clamps, drills, and screws.",
+      "claim_ids": [
+        "acetabulum_anterior_intrapelvic_modified_stoppa_implant_implications_01"
+      ]
+    }
+  ],
+  "fluoroscopy_implications": [
+    {
+      "text": "Preserve AP and Judet imaging access to assess column reduction, posterior-column screws, and intra-articular penetration.",
+      "claim_ids": [
+        "acetabulum_anterior_intrapelvic_modified_stoppa_fluoroscopy_implications_01"
+      ]
+    }
+  ],
+  "closure": [
+    {
+      "text": "Close linea alba and rectus fascia while protecting bladder and peritoneum; reconstruct each lateral-window fascial layer when used.",
+      "claim_ids": [
+        "acetabulum_anterior_intrapelvic_modified_stoppa_closure_01"
+      ]
+    }
+  ],
+  "complications": [
+    {
+      "text": "Complications include obturator or external-iliac neurovascular injury, major corona-mortis bleeding, bladder or peritoneal injury, hernia, infection, and wound complications.",
+      "claim_ids": [
+        "acetabulum_anterior_intrapelvic_modified_stoppa_complications_01"
+      ]
+    }
+  ],
+  "bailouts": [
+    {
+      "text": "If bleeding obscures the field or safe mobilization is impossible, pack and obtain vascular control before proceeding; add the lateral window rather than forcing upper-column access intrapelvically.",
+      "claim_ids": [
+        "acetabulum_anterior_intrapelvic_modified_stoppa_bailouts_01"
+      ]
+    }
+  ],
+  "procedure_applications": [
+    {
+      "procedure_id": "acetabulum_fracture_orif_anterior",
+      "relationship": "primary_option",
+      "condition": "Direct intrapelvic access to the quadrilateral surface, anterior column, or medial posterior column is required"
+    }
+  ],
+  "questions": [
+    {
+      "question": "Which surface is directly visualized by the modified Stoppa approach but only indirectly addressed through classic ilioinguinal windows?",
+      "answer": "The quadrilateral surface.",
+      "claim_ids": [
+        "acetabulum_anterior_intrapelvic_modified_stoppa_questions_01"
+      ]
+    },
+    {
+      "question": "Which vascular anastomosis should be identified and controlled along the superior pubic ramus?",
+      "answer": "Corona mortis.",
+      "claim_ids": [
+        "acetabulum_anterior_intrapelvic_modified_stoppa_questions_02"
+      ]
+    },
+    {
+      "question": "Which neurovascular bundle crosses the quadrilateral surface?",
+      "answer": "The obturator neurovascular bundle.",
+      "claim_ids": [
+        "acetabulum_anterior_intrapelvic_modified_stoppa_questions_03"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "acetabulum_anterior_intrapelvic_modified_stoppa_positioning_01",
+      "text": "Position supine on a radiolucent table with the injured leg in the field and the hip and knee flexed enough to relax iliopsoas and external iliac vessels.",
+      "source_ids": [
+        "ao_92912c506230bf66",
+        "orthobullets_73361e1ca081f06d"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "acetabulum_anterior_intrapelvic_modified_stoppa_setup_01",
+      "text": "Place a urinary catheter, prepare the lower abdomen and hemipelvis, and arrange fluoroscopy for AP and Judet views before incision.",
+      "source_ids": [
+        "ao_92912c506230bf66",
+        "orthobullets_73361e1ca081f06d"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "acetabulum_anterior_intrapelvic_modified_stoppa_surface_landmarks_01",
+      "text": "Identify the pubic symphysis, linea alba, rectus borders, inguinal ligament, and iliac crest if a lateral window may be added.",
+      "source_ids": [
+        "ao_92912c506230bf66",
+        "orthobullets_73361e1ca081f06d"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "acetabulum_anterior_intrapelvic_modified_stoppa_incision_01",
+      "text": "Use a transverse Pfannenstiel incision just proximal to the pubic symphysis, with a separate lateral-window extension when upper anterior-column exposure is needed.",
+      "source_ids": [
+        "ao_92912c506230bf66",
+        "orthobullets_73361e1ca081f06d"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "acetabulum_anterior_intrapelvic_modified_stoppa_superficial_interval_01",
+      "text": "Open the rectus fascia at the linea alba, separate the rectus bellies, and remain strictly in the preperitoneal space.",
+      "source_ids": [
+        "ao_92912c506230bf66",
+        "orthobullets_73361e1ca081f06d"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "acetabulum_anterior_intrapelvic_modified_stoppa_deep_interval_01",
+      "text": "Develop the inner surface of the superior pubic ramus and pelvic brim subperiosteally, mobilizing obturator structures and elevating obturator internus to expose the quadrilateral surface.",
+      "source_ids": [
+        "ao_92912c506230bf66",
+        "orthobullets_73361e1ca081f06d"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "acetabulum_anterior_intrapelvic_modified_stoppa_layers_01",
+      "text": "Skin and subcutaneous tissue, anterior rectus sheath and linea alba, rectus separation, preperitoneal retropubic space, periosteum and obturator internus, then quadrilateral surface and pelvic brim.",
+      "source_ids": [
+        "ao_92912c506230bf66",
+        "orthobullets_73361e1ca081f06d"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "acetabulum_anterior_intrapelvic_modified_stoppa_structures_encountered_01",
+      "text": "Corona-mortis vessels, external iliac vessels and iliopsoas laterally, obturator neurovascular bundle, bladder, peritoneum, pelvic floor, and lumbosacral trunk define the exposure.",
+      "source_ids": [
+        "ao_92912c506230bf66",
+        "orthobullets_73361e1ca081f06d"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "acetabulum_anterior_intrapelvic_modified_stoppa_structures_at_risk_01",
+      "text": "The obturator neurovascular bundle, corona mortis, external iliac vein, bladder, peritoneum, pelvic floor, and lumbosacral trunk are at risk during intrapelvic dissection and retraction.",
+      "source_ids": [
+        "ao_92912c506230bf66",
+        "orthobullets_73361e1ca081f06d"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "acetabulum_anterior_intrapelvic_modified_stoppa_danger_zones_01",
+      "text": "Identify and control corona-mortis vessels before deeper lateral mobilization, and protect the obturator bundle with a malleable retractor while elevating obturator internus.",
+      "source_ids": [
+        "ao_92912c506230bf66",
+        "orthobullets_73361e1ca081f06d"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "acetabulum_anterior_intrapelvic_modified_stoppa_retraction_hazards_01",
+      "text": "Prevent retractor slippage into the pelvis; avoid avulsion of variably tethered obturator vessels and direct pressure on external iliac vein, bladder, or lumbosacral trunk.",
+      "source_ids": [
+        "ao_92912c506230bf66",
+        "orthobullets_73361e1ca081f06d"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "acetabulum_anterior_intrapelvic_modified_stoppa_exposure_01",
+      "text": "Directly exposes the pubic symphysis, superior pubic ramus, quadrilateral surface, pelvic brim, and medial posterior column; a lateral window completes upper anterior-column exposure.",
+      "source_ids": [
+        "ao_92912c506230bf66",
+        "orthobullets_73361e1ca081f06d"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "acetabulum_anterior_intrapelvic_modified_stoppa_limitations_01",
+      "text": "The upper iliac wing and sacroiliac region require a lateral window, and distal internal-iliac branching can restrict safe posterior quadrilateral-surface dissection.",
+      "source_ids": [
+        "ao_92912c506230bf66"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "acetabulum_anterior_intrapelvic_modified_stoppa_extensions_01",
+      "text": "Add an iliac-crest lateral window to expose the internal iliac fossa, sacral ala, anterior sacroiliac joint, and upper anterior column.",
+      "source_ids": [
+        "ao_92912c506230bf66",
+        "orthobullets_73361e1ca081f06d"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "acetabulum_anterior_intrapelvic_modified_stoppa_indications_01",
+      "text": "Useful for anterior-column, both-column, quadrilateral-surface, and selected transverse acetabular patterns requiring direct medial buttress access.",
+      "source_ids": [
+        "ao_92912c506230bf66",
+        "orthobullets_73361e1ca081f06d"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "acetabulum_anterior_intrapelvic_modified_stoppa_relative_contraindications_01",
+      "text": "Use caution after extensive lower-abdominal surgery or when vascular anatomy, intrapelvic scarring, or the fracture target prevents safe extraperitoneal access.",
+      "source_ids": [
+        "ao_92912c506230bf66",
+        "orthobullets_73361e1ca081f06d"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "acetabulum_anterior_intrapelvic_modified_stoppa_implant_implications_01",
+      "text": "The approach permits direct infrapectineal buttress plating of the quadrilateral surface while protecting obturator and external iliac structures from clamps, drills, and screws.",
+      "source_ids": [
+        "ao_92912c506230bf66",
+        "orthobullets_73361e1ca081f06d"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "acetabulum_anterior_intrapelvic_modified_stoppa_fluoroscopy_implications_01",
+      "text": "Preserve AP and Judet imaging access to assess column reduction, posterior-column screws, and intra-articular penetration.",
+      "source_ids": [
+        "ao_92912c506230bf66",
+        "orthobullets_73361e1ca081f06d"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "acetabulum_anterior_intrapelvic_modified_stoppa_closure_01",
+      "text": "Close linea alba and rectus fascia while protecting bladder and peritoneum; reconstruct each lateral-window fascial layer when used.",
+      "source_ids": [
+        "ao_92912c506230bf66",
+        "orthobullets_73361e1ca081f06d"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "acetabulum_anterior_intrapelvic_modified_stoppa_complications_01",
+      "text": "Complications include obturator or external-iliac neurovascular injury, major corona-mortis bleeding, bladder or peritoneal injury, hernia, infection, and wound complications.",
+      "source_ids": [
+        "ao_92912c506230bf66",
+        "orthobullets_73361e1ca081f06d"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "acetabulum_anterior_intrapelvic_modified_stoppa_bailouts_01",
+      "text": "If bleeding obscures the field or safe mobilization is impossible, pack and obtain vascular control before proceeding; add the lateral window rather than forcing upper-column access intrapelvically.",
+      "source_ids": [
+        "ao_92912c506230bf66",
+        "orthobullets_73361e1ca081f06d"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "acetabulum_anterior_intrapelvic_modified_stoppa_questions_01",
+      "text": "Which surface is directly visualized by the modified Stoppa approach but only indirectly addressed through classic ilioinguinal windows?",
+      "source_ids": [
+        "ao_92912c506230bf66",
+        "orthobullets_73361e1ca081f06d"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "acetabulum_anterior_intrapelvic_modified_stoppa_questions_02",
+      "text": "Which vascular anastomosis should be identified and controlled along the superior pubic ramus?",
+      "source_ids": [
+        "ao_92912c506230bf66",
+        "orthobullets_73361e1ca081f06d"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "acetabulum_anterior_intrapelvic_modified_stoppa_questions_03",
+      "text": "Which neurovascular bundle crosses the quadrilateral surface?",
+      "source_ids": [
+        "ao_92912c506230bf66",
+        "orthobullets_73361e1ca081f06d"
+      ],
+      "risk_level": "medium"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "ao_92912c506230bf66",
+      "provider": "AO Surgery Reference",
+      "title": "Modified Stoppa approach",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/acetabulum/approach/modified-stoppa-approach",
+      "source_page_id": "ao_92912c506230bf66"
+    },
+    {
+      "source_id": "orthobullets_73361e1ca081f06d",
+      "provider": "Orthobullets",
+      "title": "Stoppa Approach to Acetabulum",
+      "url": "https://www.orthobullets.com/approaches/12056/stoppa-approach-to-acetabulum",
+      "source_page_id": "orthobullets_73361e1ca081f06d"
+    }
+  ],
+  "content_status": "agent_review_pending",
+  "review": {
+    "status": "agent_review_pending",
+    "required_roles": [
+      "adversarial_safety_reviewer",
+      "approach_anatomy_reviewer",
+      "educational_value_reviewer",
+      "evidence_reviewer",
+      "operative_exposure_reviewer",
+      "procedure_applicability_reviewer"
+    ],
+    "completed_roles": []
+  },
+  "resolved_contradiction_keys": [],
+  "authoring_provenance": {
+    "method": "local_codex_curated",
+    "definition_file": "data/approach_library/curated/acetabulum_anterior_v1.json",
+    "api_used": false
+  }
+}

@@ -1,0 +1,133 @@
+{
+  "approaches": [
+    {
+      "approach_id": "carpus_combined_perilunate",
+      "name": "Combined dorsal and palmar approach to perilunate injuries",
+      "aliases": ["combined perilunate approach", "dual dorsal-volar wrist approach", "dorsopalmar perilunate exposure"],
+      "region": "wrist and carpus",
+      "joint": "radiocarpal and midcarpal joints",
+      "bones": ["scaphoid", "lunate", "triquetrum", "capitate", "distal radius"],
+      "corridor": "Radially based dorsal capsular flap combined selectively with an extended carpal-tunnel exposure to the palmar carpus",
+      "sources": [
+        {"source_id": "ao_54198dc4caa6063e", "provider": "AO Surgery Reference", "title": "Combined approach to perilunate fractures and dislocations", "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/carpal-bones/approach/combined-approach-to-perilunate-fractures-and-dislocations", "source_page_id": "ao_54198dc4caa6063e"},
+        {"source_id": "pmid_26205701", "provider": "PubMed", "title": "Perilunate dislocations and fracture dislocations", "url": "https://pubmed.ncbi.nlm.nih.gov/26205701/"},
+        {"source_id": "pmid_38415721", "provider": "PubMed", "title": "A comparison of outcomes in acute perilunate injuries", "url": "https://pubmed.ncbi.nlm.nih.gov/38415721/"}
+      ],
+      "procedure_applications": [{"procedure_id": "perilunate_fracture_dislocation_orif", "relationship": "conditional_option", "condition": "Dorsal reduction alone is inadequate or palmar lunate displacement, median-nerve compression, osteochondral injury, or volar soft-tissue interposition requires direct access"}],
+      "sections": {
+        "positioning": [{"text": "Position supine with the arm on a radiolucent hand table, forearm freely rotatable, and the hand accessible from both dorsal and palmar sides.", "source_ids": ["ao_54198dc4caa6063e", "pmid_26205701"]}],
+        "setup": [{"text": "Prepare the forearm and hand circumferentially, obtain provisional reduction when safe, document median-nerve status, and confirm complete PA and lateral fluoroscopic access.", "source_ids": ["ao_54198dc4caa6063e", "pmid_26205701"], "risk_level": "high"}],
+        "surface_landmarks": [{"text": "Dorsally mark Lister tubercle, radial and ulnar styloids, DRUJ, and third CMC joint; palmarly mark palmaris longus, wrist creases, fourth ray, and carpal-tunnel course.", "source_ids": ["ao_54198dc4caa6063e", "pmid_26205701"]}],
+        "incision": [{"text": "Start with an approximately 8-cm longitudinal dorsal incision from proximal-ulnar to Lister tubercle toward the third CMC joint; add an extended carpal-tunnel incision only when palmar access is required.", "source_ids": ["ao_54198dc4caa6063e", "pmid_26205701"]}],
+        "superficial_interval": [{"text": "Dorsally protect radial sensory branches, release EPL from the third compartment, retract second-compartment tendons radially, and elevate the fourth compartment ulnarly; palmarly elevate flaps ulnar to palmaris longus and open the carpal tunnel under direct protection.", "source_ids": ["ao_54198dc4caa6063e", "pmid_26205701"], "risk_level": "high"}],
+        "deep_interval": [{"text": "Raise a radially based dorsal capsuloligamentous flap while preserving its radial attachment and the radiolunotriquetral insertion; through the palmar window, protect the median nerve and retract flexors to inspect volar ligaments and interposed tissue.", "source_ids": ["ao_54198dc4caa6063e", "pmid_26205701"], "risk_level": "high"}],
+        "layers": [{"text": "Dorsal skin, retinaculum and extensor compartments, dorsal capsule, then carpus; palmar skin, palmar aponeurosis and antebrachial fascia, flexor retinaculum, median nerve and flexors, then palmar capsule and ligaments.", "source_ids": ["ao_54198dc4caa6063e", "pmid_26205701"]}],
+        "structures_encountered": [{"text": "EPL, second and fourth extensor compartments, posterior interosseous nerve, dorsal capsular ligaments, proximal carpal row, median nerve, flexor tendons, ulnar neurovascular bundle, and palmar carpal ligaments define the exposure.", "source_ids": ["ao_54198dc4caa6063e", "pmid_26205701"]}],
+        "structures_at_risk": [{"text": "The median nerve and recurrent motor branch, radial sensory branches, EPL and extensor tendons, dorsal radioulnar ligament, TFCC, intrinsic carpal ligaments, and articular cartilage are at risk.", "source_ids": ["ao_54198dc4caa6063e", "pmid_26205701"], "risk_level": "high"}],
+        "danger_zones": [{"text": "Divide the flexor retinaculum ulnar to the median nerve over a blunt protector, preserve the radial capsular insertion, and do not injure the dorsal radioulnar ligament or TFCC near the DRUJ.", "source_ids": ["ao_54198dc4caa6063e", "pmid_26205701"], "risk_level": "high"}],
+        "retraction_hazards": [{"text": "Avoid fixed pressure on the median nerve and avoid tensioning superficial sensory branches or extensor tendons; release exposure longitudinally rather than retracting harder.", "source_ids": ["ao_54198dc4caa6063e", "pmid_26205701"], "risk_level": "high"}],
+        "exposure": [{"text": "The dorsal window surveys the proximal row, intrinsic ligaments, and midcarpal joint; the palmar window decompresses the carpal tunnel and permits removal of palmar interposition and repair of volar injury.", "source_ids": ["ao_54198dc4caa6063e", "pmid_26205701"]}],
+        "limitations": [{"text": "Dual exposure increases soft-tissue dissection and is not required when stable anatomic reduction and all necessary repairs can be achieved dorsally; comparative evidence has not shown one approach universally superior.", "source_ids": ["ao_54198dc4caa6063e", "pmid_38415721"]}],
+        "extensions": [{"text": "Extend the dorsal incision proximally or distally as needed; add the palmar limb for irreducible volar displacement, median-nerve decompression, or palmar tissue interposition rather than using it routinely.", "source_ids": ["ao_54198dc4caa6063e", "pmid_26205701", "pmid_38415721"]}],
+        "indications": [{"text": "Use combined exposure for selected irreducible perilunate or lunate dislocations, trans-scaphoid patterns with volar interposition, osteochondral injury, or combined dorsal and palmar ligament pathology requiring direct repair.", "source_ids": ["ao_54198dc4caa6063e", "pmid_26205701"]}],
+        "relative_contraindications": [{"text": "Avoid the additional palmar exposure when dorsal reduction is anatomic and stable, median-nerve decompression is unnecessary, and no volar pathology requires treatment.", "source_ids": ["ao_54198dc4caa6063e", "pmid_38415721"]}],
+        "implant_implications": [{"text": "Plan intercarpal wires, screws, and ligament anchors so they restore carpal alignment without tethering extensor tendons or penetrating radiocarpal and midcarpal cartilage.", "source_ids": ["ao_54198dc4caa6063e", "pmid_26205701"], "risk_level": "high"}],
+        "fluoroscopy_implications": [{"text": "Confirm scapholunate and lunotriquetral relationships, capitate-lunate alignment, carpal height, fracture reduction, and safe implant position on PA, lateral, and oblique views.", "source_ids": ["ao_54198dc4caa6063e", "pmid_26205701"], "risk_level": "high"}],
+        "closure": [{"text": "Repair the dorsal capsular flap, close the third compartment without EPL constriction or leave EPL superficial if glide is limited, and close the palmar wound without reconstituting carpal-tunnel compression.", "source_ids": ["ao_54198dc4caa6063e", "pmid_26205701"], "risk_level": "high"}],
+        "complications": [{"text": "Complications include recurrent instability or reduction loss, median or sensory-nerve injury, tendon adhesion or rupture, stiffness, diminished grip, infection, osteonecrosis, and post-traumatic arthritis.", "source_ids": ["ao_54198dc4caa6063e", "pmid_26205701", "pmid_38415721"], "risk_level": "high"}],
+        "bailouts": [{"text": "If the lunate or carpus remains irreducible dorsally, stop forceful manipulation and add the palmar exposure to remove interposed tissue under direct vision.", "source_ids": ["ao_54198dc4caa6063e", "pmid_26205701"], "risk_level": "high"}],
+        "questions": [
+          {"question": "Which approach is generally performed first for a perilunate injury?", "answer": "The dorsal approach.", "source_ids": ["ao_54198dc4caa6063e"]},
+          {"question": "What are key reasons to add the palmar exposure?", "answer": "Irreducible palmar lunate or carpal displacement, palmar soft-tissue interposition, osteochondral pathology, or median-nerve decompression.", "source_ids": ["ao_54198dc4caa6063e", "pmid_26205701"]},
+          {"question": "On which side of the median nerve is the flexor retinaculum divided?", "answer": "On its ulnar side, over a blunt protector.", "source_ids": ["ao_54198dc4caa6063e"]}
+        ]
+      }
+    },
+    {
+      "approach_id": "carpometacarpal_joints_dorsal",
+      "name": "Dorsal approach to the finger carpometacarpal joints",
+      "aliases": ["dorsal CMC approach", "dorsal metacarpal-base approach"],
+      "region": "dorsal hand and carpometacarpal joints",
+      "joint": "second through fifth carpometacarpal joints",
+      "bones": ["metacarpal bases", "trapezoid", "capitate", "hamate"],
+      "corridor": "Longitudinal dorsal interval between extensor tendons centered over the injured CMC joint or joint cluster",
+      "sources": [
+        {"source_id": "ao_ff90094dc3e2b188", "provider": "AO Surgery Reference", "title": "Dorsal approach to the carpometacarpal joints", "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/carpal-bones/approach/dorsal-approach-to-the-carpometacarpal-joints", "source_page_id": "ao_ff90094dc3e2b188"},
+        {"source_id": "pmid_32684693", "provider": "PubMed", "title": "Fracture dislocations of the carpometacarpal joints of the fingers", "url": "https://pubmed.ncbi.nlm.nih.gov/32684693/"},
+        {"source_id": "pmid_29411672", "provider": "PubMed", "title": "Management of fracture-dislocations of the little finger carpometacarpal joint", "url": "https://pubmed.ncbi.nlm.nih.gov/29411672/"}
+      ],
+      "procedure_applications": [{"procedure_id": "finger_cmc_fracture_dislocation_orif", "relationship": "primary_option", "condition": "A second-through-fifth CMC dislocation or fracture-dislocation is irreducible, unstable, chronic, or blocked by interposed tissue"}],
+      "sections": {
+        "positioning": [{"text": "Position supine with the hand pronated on a radiolucent table and fingers free for rotational assessment and fluoroscopy.", "source_ids": ["ao_ff90094dc3e2b188", "pmid_32684693"]}],
+        "setup": [{"text": "Prepare the full hand and wrist, assess all adjacent CMC joints, and ensure PA, lateral, and oblique imaging because overlapping anatomy can conceal malalignment.", "source_ids": ["ao_ff90094dc3e2b188", "pmid_32684693"], "risk_level": "high"}],
+        "surface_landmarks": [{"text": "Mark affected metacarpal shafts and bases, neighboring CMC joints, extensor tendon paths, and planned wire exit zones.", "source_ids": ["ao_ff90094dc3e2b188", "pmid_32684693"]}],
+        "incision": [{"text": "Use a longitudinal incision from the metacarpal base toward the proximal carpal row between extensor tendons, centered over the affected joint or between multiple involved joints.", "source_ids": ["ao_ff90094dc3e2b188", "pmid_32684693"]}],
+        "superficial_interval": [{"text": "Protect dorsal sensory branches and longitudinal veins, identify intertendinous connections, and mobilize extensor tendons with their loose surrounding tissue radially or ulnarly.", "source_ids": ["ao_ff90094dc3e2b188", "pmid_32684693"], "risk_level": "high"}],
+        "deep_interval": [{"text": "Use the traumatic capsular rent in acute injuries or perform a limited formal capsulotomy in partially healed or chronic cases to remove blocks and restore the CMC articulation.", "source_ids": ["ao_ff90094dc3e2b188", "pmid_32684693"], "risk_level": "high"}],
+        "layers": [{"text": "Skin, dorsal sensory branches and veins, extensor tendon interval with juncturae, dorsal capsule, then metacarpal base and distal carpal row.", "source_ids": ["ao_ff90094dc3e2b188", "pmid_32684693"]}],
+        "structures_encountered": [{"text": "Dorsal veins, radial and ulnar sensory branches, extensor tendons and juncturae, dorsal CMC capsule, metacarpal bases, and distal carpal row are encountered.", "source_ids": ["ao_ff90094dc3e2b188", "pmid_32684693"]}],
+        "structures_at_risk": [{"text": "Dorsal sensory nerves, extensor tendons and intertendinous connections, CMC cartilage, and nearby deep motor or vascular structures are at risk from dissection and fixation.", "source_ids": ["ao_ff90094dc3e2b188", "pmid_32684693"], "risk_level": "high"}],
+        "danger_zones": [{"text": "Retract radial sensory branches radially and ulnar sensory branches ulnarly; enlarge exposure rather than stretching a nerve across the operative field.", "source_ids": ["ao_ff90094dc3e2b188", "pmid_32684693"], "risk_level": "high"}],
+        "retraction_hazards": [{"text": "Avoid focal traction on sensory branches and preserve tendon gliding by retracting tendons with their surrounding tissue and minimizing central wire-tendon conflict.", "source_ids": ["ao_ff90094dc3e2b188", "pmid_32684693"], "risk_level": "high"}],
+        "exposure": [{"text": "Provides direct visualization of one or several dorsal CMC joints to remove interposed tissue, reduce articular fragments, and stabilize the metacarpal bases.", "source_ids": ["ao_ff90094dc3e2b188", "pmid_32684693"]}],
+        "limitations": [{"text": "A single narrow interval may not safely expose widely separated radial and ulnar injuries, and volar pathology or neurovascular compression may require a separate approach.", "source_ids": ["ao_ff90094dc3e2b188", "pmid_32684693"]}],
+        "extensions": [{"text": "Lengthen proximally and distally or use separate tendon-respecting windows for multiple joints rather than excessive transverse undermining.", "source_ids": ["ao_ff90094dc3e2b188", "pmid_32684693"]}],
+        "indications": [{"text": "Use for irreducible, unstable, delayed, or multiply injured finger CMC dislocations and fracture-dislocations requiring direct reduction or fixation.", "source_ids": ["ao_ff90094dc3e2b188", "pmid_32684693", "pmid_29411672"]}],
+        "relative_contraindications": [{"text": "Open exposure is unnecessary when early closed reduction is anatomic, stable, and maintainable without tendon or nerve compromise.", "source_ids": ["ao_ff90094dc3e2b188", "pmid_29411672"]}],
+        "implant_implications": [{"text": "Place K-wires or screws to stabilize the injured ray to a stable adjacent metacarpal or carpus while avoiding central extensor-tendon tethering and articular penetration.", "source_ids": ["ao_ff90094dc3e2b188", "pmid_32684693"], "risk_level": "high"}],
+        "fluoroscopy_implications": [{"text": "Use true lateral plus PA and oblique views to confirm parallel CMC joint lines, restoration of metacarpal cascade, articular reduction, and safe hardware.", "source_ids": ["ao_ff90094dc3e2b188", "pmid_32684693"], "risk_level": "high"}],
+        "closure": [{"text": "Repair the capsule with nonabsorbable suture, repair any divided intertendinous connection, verify tendon glide, and close skin without nerve entrapment.", "source_ids": ["ao_ff90094dc3e2b188", "pmid_32684693"], "risk_level": "high"}],
+        "complications": [{"text": "Complications include missed residual dislocation, reduction loss, sensory neurapraxia or neuroma, extensor adhesion, stiffness, pin infection, post-traumatic arthritis, and weakness.", "source_ids": ["ao_ff90094dc3e2b188", "pmid_32684693", "pmid_29411672"], "risk_level": "high"}],
+        "bailouts": [{"text": "If one incision cannot safely expose multiple joints, use an additional tendon-respecting window; if reduction remains blocked, directly identify the interposed capsule, tendon, or fracture fragment.", "source_ids": ["ao_ff90094dc3e2b188", "pmid_32684693"], "risk_level": "high"}],
+        "questions": [
+          {"question": "What determines incision placement for multiple CMC injuries?", "answer": "It is centered between the affected joints while respecting extensor tendons.", "source_ids": ["ao_ff90094dc3e2b188"]},
+          {"question": "Which superficial structures require protection?", "answer": "Dorsal sensory nerve branches and longitudinal veins.", "source_ids": ["ao_ff90094dc3e2b188"]},
+          {"question": "What must be repaired if divided during exposure?", "answer": "The dorsal capsule and any cut intertendinous connection.", "source_ids": ["ao_ff90094dc3e2b188"]}
+        ]
+      }
+    },
+    {
+      "approach_id": "hamate_hook_ulnar",
+      "name": "Ulnar approach to the hook of hamate",
+      "aliases": ["hook of hamate excision approach", "Guyon canal hamate-hook approach", "ulnar palmar hamate approach"],
+      "region": "ulnar palm and hypothenar carpus",
+      "joint": "pisotriquetral and ulnar carpal region",
+      "bones": ["hamate", "pisiform"],
+      "corridor": "Ulnar palmar exposure through Guyon-canal territory with direct identification and mobilization of the ulnar nerve and artery to the hamate hook",
+      "sources": [
+        {"source_id": "ao_906b59f605ffc269", "provider": "AO Surgery Reference", "title": "Ulnar approach to the hamate hook", "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/carpal-bones/approach/ulnar-approach-to-the-hamate-hook", "source_page_id": "ao_906b59f605ffc269"},
+        {"source_id": "pmid_38903831", "provider": "PubMed", "title": "Surgical management of hook of hamate fractures: a systematic review", "url": "https://pubmed.ncbi.nlm.nih.gov/38903831/"},
+        {"source_id": "pmid_35368440", "provider": "PubMed", "title": "Excision of hook of hamate fractures in elite baseball players", "url": "https://pubmed.ncbi.nlm.nih.gov/35368440/"}
+      ],
+      "procedure_applications": [{"procedure_id": "hook_of_hamate_excision_orif", "relationship": "primary_option", "condition": "A symptomatic hook fracture or nonunion requires excision or fixation, or selected pisiform pathology requires excision"}],
+      "sections": {
+        "positioning": [{"text": "Position supine with the forearm supinated on a hand table and the wrist gently extended and radially deviated to expose the ulnar palm.", "source_ids": ["ao_906b59f605ffc269", "pmid_35368440"]}],
+        "setup": [{"text": "Prepare the hand and distal forearm, confirm the target on CT or appropriate imaging, and have microsurgical instruments available for ulnar neurovascular dissection.", "source_ids": ["ao_906b59f605ffc269", "pmid_38903831"], "risk_level": "high"}],
+        "surface_landmarks": [{"text": "Mark FCU, pisiform, palpable ulnar artery radial to FCU, hamate hook distal-radial to the pisiform, DRUJ level, and distal palmar crease.", "source_ids": ["ao_906b59f605ffc269", "pmid_35368440"]}],
+        "incision": [{"text": "Use an approximately 5-cm zigzag incision beginning radial to FCU at DRUJ level, turning near the pisiform and distal palmar crease, then continuing distally in the hypothenar palm.", "source_ids": ["ao_906b59f605ffc269", "pmid_35368440"]}],
+        "superficial_interval": [{"text": "Open antebrachial fascia proximally, identify the ulnar artery and nerve before entering Guyon canal, and divide palmaris brevis distally under direct vision.", "source_ids": ["ao_906b59f605ffc269", "pmid_35368440"], "risk_level": "high"}],
+        "deep_interval": [{"text": "Trace and protect the ulnar neurovascular bundle distally, retract it ulnarly, divide hypothenar origins from the hook as needed, and expose the hook subperiosteally.", "source_ids": ["ao_906b59f605ffc269", "pmid_35368440"], "risk_level": "high"}],
+        "layers": [{"text": "Skin, subcutaneous tissue, antebrachial fascia and palmaris brevis, Guyon canal with ulnar nerve and artery, hypothenar origins and pisohamate ligament, then hamate hook periosteum.", "source_ids": ["ao_906b59f605ffc269", "pmid_35368440"]}],
+        "structures_encountered": [{"text": "FCU, pisiform, ulnar artery and nerve, superficial and deep ulnar branches, palmaris brevis, pisohamate ligament, flexor retinaculum, hypothenar origins, flexor tendons, and hamate hook are encountered.", "source_ids": ["ao_906b59f605ffc269", "pmid_35368440"]}],
+        "structures_at_risk": [{"text": "The ulnar artery, superficial sensory and deep motor branches of the ulnar nerve, superficial palmar arch, flexor tendons, and motor branches to hypothenar muscles are at risk.", "source_ids": ["ao_906b59f605ffc269", "pmid_38903831", "pmid_35368440"], "risk_level": "high"}],
+        "danger_zones": [{"text": "The deep motor branch curves around the hook and the superficial palmar arch lies nearby; identify neurovascular anatomy before circumferential hook dissection or fragment removal.", "source_ids": ["ao_906b59f605ffc269", "pmid_35368440"], "risk_level": "high"}],
+        "retraction_hazards": [{"text": "Use gentle intermittent ulnar retraction of the nerve and artery and avoid traction transmitted to the deep motor branch around the hook.", "source_ids": ["ao_906b59f605ffc269", "pmid_38903831"], "risk_level": "high"}],
+        "exposure": [{"text": "Provides direct circumferential access to the hook for fragment excision or fixation and can be extended to selected pisiform excision or ulnar-tunnel decompression.", "source_ids": ["ao_906b59f605ffc269", "pmid_38903831"]}],
+        "limitations": [{"text": "The approach places the ulnar neurovascular bundle directly in the operative field; excision changes ligament and hypothenar attachments and is not automatically preferable to fixation in every patient.", "source_ids": ["ao_906b59f605ffc269", "pmid_38903831"]}],
+        "extensions": [{"text": "Extend proximally for Guyon-canal decompression or toward the pisiform for post-traumatic pisiform excision while maintaining direct control of ulnar nerve branches.", "source_ids": ["ao_906b59f605ffc269", "pmid_35368440"], "risk_level": "high"}],
+        "indications": [{"text": "Use for symptomatic displaced hook fractures, painful hook nonunion, fragment excision in selected athletes, ORIF in selected reconstructable fractures, and selected post-traumatic pisiform sequelae.", "source_ids": ["ao_906b59f605ffc269", "pmid_38903831", "pmid_35368440"]}],
+        "relative_contraindications": [{"text": "Avoid fragment excision when preservation of hook biomechanics is prioritized and stable fixation is feasible; reassess the plan when ulnar neurovascular scarring makes safe mobilization uncertain.", "source_ids": ["ao_906b59f605ffc269", "pmid_38903831"]}],
+        "implant_implications": [{"text": "For ORIF, choose a trajectory that captures the hook without entering adjacent joints or impinging the ulnar nerve or flexor tendons; after excision, remove all sharp residual prominence.", "source_ids": ["ao_906b59f605ffc269", "pmid_38903831"], "risk_level": "high"}],
+        "fluoroscopy_implications": [{"text": "Use dedicated carpal-tunnel or tangential views to localize the hook, verify complete excision or reduction, and confirm safe fixation when screws are used.", "source_ids": ["ao_906b59f605ffc269", "pmid_38903831"]}],
+        "closure": [{"text": "Confirm intact ulnar-nerve branches and flexor glide, repair divided hypothenar fascia as appropriate without recreating compression, and close the zigzag skin incision without tension.", "source_ids": ["ao_906b59f605ffc269", "pmid_35368440"], "risk_level": "high"}],
+        "complications": [{"text": "Complications include transient or permanent ulnar sensory or motor dysfunction, vascular injury, scar pain, residual fragment pain, flexor-tendon irritation, weakness, infection, and reoperation.", "source_ids": ["ao_906b59f605ffc269", "pmid_38903831", "pmid_35368440"], "risk_level": "high"}],
+        "bailouts": [{"text": "If scar or variant anatomy prevents safe hook access, extend Guyon-canal exposure and identify both superficial and deep ulnar branches before proceeding; do not remove the fragment blindly.", "source_ids": ["ao_906b59f605ffc269", "pmid_38903831"], "risk_level": "high"}],
+        "questions": [
+          {"question": "What forms the borders of Guyon canal at the hamate level?", "answer": "The pisiform medially and hook of hamate laterally; the canal contains the ulnar nerve and artery.", "source_ids": ["ao_906b59f605ffc269"]},
+          {"question": "Which ulnar-nerve branch is especially vulnerable around the hook?", "answer": "The deep motor branch.", "source_ids": ["ao_906b59f605ffc269", "pmid_35368440"]},
+          {"question": "Which muscles originate from the hook and may require release?", "answer": "Flexor digiti minimi brevis and opponens digiti minimi.", "source_ids": ["ao_906b59f605ffc269"]}
+        ]
+      }
+    }
+  ]
+}

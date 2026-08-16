@@ -1,0 +1,467 @@
+{
+  "schema_version": "brobot_approach_packet_v1",
+  "approach_id": "ulnar_shaft_direct_subcutaneous",
+  "name": "Direct subcutaneous approach to the ulnar shaft",
+  "aliases": [
+    "approach to the ulna",
+    "direct ulnar shaft approach"
+  ],
+  "region": "ulnar forearm",
+  "joint": "elbow-to-wrist extra-articular corridor",
+  "bones": [
+    "ulna"
+  ],
+  "corridor": "Along the subcutaneous ulnar border through the interval between flexor carpi ulnaris and extensor carpi ulnaris",
+  "positioning": [
+    {
+      "text": "Position according to the accompanying radial procedure; for isolated ulna exposure, maintain neutral rotation with the forearm accessible across the torso, on a side table, or vertical with the elbow supported.",
+      "claim_ids": [
+        "ulnar_shaft_direct_subcutaneous_positioning_01"
+      ]
+    }
+  ],
+  "setup": [
+    {
+      "text": "Prepare the whole limb for forearm rotation and choose a position that preserves access to a separate radial incision when both bones require fixation.",
+      "claim_ids": [
+        "ulnar_shaft_direct_subcutaneous_setup_01"
+      ]
+    }
+  ],
+  "surface_landmarks": [
+    {
+      "text": "Mark the olecranon tip, palpable subcutaneous border of the ulna, ulnar styloid, and the required shaft segment.",
+      "claim_ids": [
+        "ulnar_shaft_direct_subcutaneous_surface_landmarks_01"
+      ]
+    }
+  ],
+  "incision": [
+    {
+      "text": "Incise longitudinally along the subcutaneous border from the olecranon toward the ulnar styloid, limiting length to the exposure required; when severe swelling threatens closure, place the incision slightly over adjacent extensor muscle so an open wound does not leave an implant directly exposed.",
+      "claim_ids": [
+        "ulnar_shaft_direct_subcutaneous_incision_01"
+      ]
+    }
+  ],
+  "superficial_interval": [
+    {
+      "text": "Raise limited full-thickness flaps from the subcutaneous ulnar border and identify the fascia over flexor carpi ulnaris and extensor carpi ulnaris.",
+      "claim_ids": [
+        "ulnar_shaft_direct_subcutaneous_superficial_interval_01"
+      ]
+    }
+  ],
+  "deep_interval": [
+    {
+      "text": "Develop the internervous interval between flexor carpi ulnaris and extensor carpi ulnaris directly onto the ulna.",
+      "claim_ids": [
+        "ulnar_shaft_direct_subcutaneous_deep_interval_01"
+      ]
+    }
+  ],
+  "layers": [
+    {
+      "text": "Skin, thin subcutaneous tissue, forearm fascia, flexor carpi ulnaris–extensor carpi ulnaris interval, periosteum, then ulna.",
+      "claim_ids": [
+        "ulnar_shaft_direct_subcutaneous_layers_01"
+      ]
+    }
+  ],
+  "structures_encountered": [
+    {
+      "text": "The subcutaneous ulnar border, flexor carpi ulnaris, extensor carpi ulnaris, periosteum, and ulnar shaft are encountered; the dorsal sensory branch of the ulnar nerve enters the distal field.",
+      "claim_ids": [
+        "ulnar_shaft_direct_subcutaneous_structures_encountered_01"
+      ]
+    }
+  ],
+  "structures_at_risk": [
+    {
+      "text": "The dorsal sensory branch of the ulnar nerve distally, ulnar neurovascular structures with excessive volar dissection, extensor and flexor muscle attachments, and vulnerable subcutaneous skin are at risk.",
+      "claim_ids": [
+        "ulnar_shaft_direct_subcutaneous_structures_at_risk_01"
+      ]
+    }
+  ],
+  "danger_zones": [
+    {
+      "text": "During distal extension, identify and protect the dorsal sensory branch of the ulnar nerve as it crosses toward the dorsum of the hand.",
+      "claim_ids": [
+        "ulnar_shaft_direct_subcutaneous_danger_zones_01"
+      ]
+    }
+  ],
+  "retraction_hazards": [
+    {
+      "text": "Limit circumferential stripping and avoid forceful volar retraction that threatens the ulnar neurovascular bundle or fracture blood supply.",
+      "claim_ids": [
+        "ulnar_shaft_direct_subcutaneous_retraction_hazards_01"
+      ]
+    }
+  ],
+  "exposure": [
+    {
+      "text": "Provides direct extensile access to the middle and distal ulnar shaft and can be lengthened proximally or distally as pathology requires.",
+      "claim_ids": [
+        "ulnar_shaft_direct_subcutaneous_exposure_01"
+      ]
+    }
+  ],
+  "limitations": [
+    {
+      "text": "The implant and bone have little soft-tissue cover, distal extension threatens the dorsal sensory branch, and marked swelling can prevent safe primary closure.",
+      "claim_ids": [
+        "ulnar_shaft_direct_subcutaneous_limitations_01"
+      ]
+    }
+  ],
+  "extensions": [
+    {
+      "text": "Extend along the subcutaneous border toward the olecranon or ulnar styloid while reassessing nerve anatomy and skin viability at each end.",
+      "claim_ids": [
+        "ulnar_shaft_direct_subcutaneous_extensions_01"
+      ]
+    }
+  ],
+  "indications": [
+    {
+      "text": "Use for direct fixation, debridement, grafting, or reconstruction of the ulnar shaft and for the ulnar component of selected both-bone forearm procedures.",
+      "claim_ids": [
+        "ulnar_shaft_direct_subcutaneous_indications_01"
+      ]
+    }
+  ],
+  "relative_contraindications": [
+    {
+      "text": "Modify or defer the approach when the ulnar skin is compromised, swelling precludes closure, or previous scarring makes the direct subcutaneous corridor unsafe.",
+      "claim_ids": [
+        "ulnar_shaft_direct_subcutaneous_relative_contraindications_01"
+      ]
+    }
+  ],
+  "implant_implications": [
+    {
+      "text": "Select a plate position that respects the subcutaneous soft-tissue envelope and minimizes symptomatic prominence while preserving fracture biology.",
+      "claim_ids": [
+        "ulnar_shaft_direct_subcutaneous_implant_implications_01"
+      ]
+    }
+  ],
+  "fluoroscopy_implications": [
+    {
+      "text": "Confirm ulnar length, alignment, rotation, plate position, screw containment, and proximal and distal radioulnar-joint congruity on orthogonal views.",
+      "claim_ids": [
+        "ulnar_shaft_direct_subcutaneous_fluoroscopy_implications_01"
+      ]
+    }
+  ],
+  "closure": [
+    {
+      "text": "Close fascia and skin without nerve entrapment or tension; if swelling prevents safe coverage, use a staged wound-management strategy rather than closing over pressure.",
+      "claim_ids": [
+        "ulnar_shaft_direct_subcutaneous_closure_01"
+      ]
+    }
+  ],
+  "complications": [
+    {
+      "text": "Complications include dorsal ulnar sensory neuropathy, wound breakdown, symptomatic hardware, infection, compartment syndrome, radioulnar synostosis, malunion, and nonunion.",
+      "claim_ids": [
+        "ulnar_shaft_direct_subcutaneous_complications_01"
+      ]
+    }
+  ],
+  "bailouts": [
+    {
+      "text": "If skin cannot cover the implant without tension, alter the incision over a muscular bed when planned preoperatively or use staged soft-tissue management rather than forced primary closure.",
+      "claim_ids": [
+        "ulnar_shaft_direct_subcutaneous_bailouts_01"
+      ]
+    }
+  ],
+  "procedure_applications": [
+    {
+      "procedure_id": "ulnar_shaft_fracture_orif",
+      "relationship": "primary_option",
+      "condition": "Direct plate fixation or reconstruction of the middle or distal ulnar shaft is required"
+    },
+    {
+      "procedure_id": "both_bone_forearm_fracture_orif",
+      "relationship": "primary_option",
+      "condition": "The ulna requires a separate direct exposure in addition to the selected radial approach"
+    }
+  ],
+  "questions": [
+    {
+      "question": "What is the deep interval for the direct ulnar approach?",
+      "answer": "Between flexor carpi ulnaris and extensor carpi ulnaris.",
+      "claim_ids": [
+        "ulnar_shaft_direct_subcutaneous_questions_01"
+      ]
+    },
+    {
+      "question": "Which nerve is endangered by distal extension?",
+      "answer": "The dorsal sensory branch of the ulnar nerve.",
+      "claim_ids": [
+        "ulnar_shaft_direct_subcutaneous_questions_02"
+      ]
+    },
+    {
+      "question": "Why might a swollen forearm change incision placement?",
+      "answer": "An incision over adjacent extensor muscle leaves a muscular bed if safe primary closure is impossible.",
+      "claim_ids": [
+        "ulnar_shaft_direct_subcutaneous_questions_03"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "ulnar_shaft_direct_subcutaneous_positioning_01",
+      "text": "Position according to the accompanying radial procedure; for isolated ulna exposure, maintain neutral rotation with the forearm accessible across the torso, on a side table, or vertical with the elbow supported.",
+      "source_ids": [
+        "ao_a33ca465237041b1",
+        "pmid_25440071"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "ulnar_shaft_direct_subcutaneous_setup_01",
+      "text": "Prepare the whole limb for forearm rotation and choose a position that preserves access to a separate radial incision when both bones require fixation.",
+      "source_ids": [
+        "ao_a33ca465237041b1",
+        "pmid_25440071"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "ulnar_shaft_direct_subcutaneous_surface_landmarks_01",
+      "text": "Mark the olecranon tip, palpable subcutaneous border of the ulna, ulnar styloid, and the required shaft segment.",
+      "source_ids": [
+        "ao_a33ca465237041b1"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "ulnar_shaft_direct_subcutaneous_incision_01",
+      "text": "Incise longitudinally along the subcutaneous border from the olecranon toward the ulnar styloid, limiting length to the exposure required; when severe swelling threatens closure, place the incision slightly over adjacent extensor muscle so an open wound does not leave an implant directly exposed.",
+      "source_ids": [
+        "ao_a33ca465237041b1",
+        "pmid_25440071"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "ulnar_shaft_direct_subcutaneous_superficial_interval_01",
+      "text": "Raise limited full-thickness flaps from the subcutaneous ulnar border and identify the fascia over flexor carpi ulnaris and extensor carpi ulnaris.",
+      "source_ids": [
+        "ao_a33ca465237041b1",
+        "pmid_25440071"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "ulnar_shaft_direct_subcutaneous_deep_interval_01",
+      "text": "Develop the internervous interval between flexor carpi ulnaris and extensor carpi ulnaris directly onto the ulna.",
+      "source_ids": [
+        "ao_a33ca465237041b1",
+        "pmid_25440071"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "ulnar_shaft_direct_subcutaneous_layers_01",
+      "text": "Skin, thin subcutaneous tissue, forearm fascia, flexor carpi ulnaris–extensor carpi ulnaris interval, periosteum, then ulna.",
+      "source_ids": [
+        "ao_a33ca465237041b1",
+        "pmid_25440071"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "ulnar_shaft_direct_subcutaneous_structures_encountered_01",
+      "text": "The subcutaneous ulnar border, flexor carpi ulnaris, extensor carpi ulnaris, periosteum, and ulnar shaft are encountered; the dorsal sensory branch of the ulnar nerve enters the distal field.",
+      "source_ids": [
+        "ao_a33ca465237041b1",
+        "pmid_25440071"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "ulnar_shaft_direct_subcutaneous_structures_at_risk_01",
+      "text": "The dorsal sensory branch of the ulnar nerve distally, ulnar neurovascular structures with excessive volar dissection, extensor and flexor muscle attachments, and vulnerable subcutaneous skin are at risk.",
+      "source_ids": [
+        "ao_a33ca465237041b1",
+        "pmid_25440071"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "ulnar_shaft_direct_subcutaneous_danger_zones_01",
+      "text": "During distal extension, identify and protect the dorsal sensory branch of the ulnar nerve as it crosses toward the dorsum of the hand.",
+      "source_ids": [
+        "ao_a33ca465237041b1",
+        "pmid_25440071"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "ulnar_shaft_direct_subcutaneous_retraction_hazards_01",
+      "text": "Limit circumferential stripping and avoid forceful volar retraction that threatens the ulnar neurovascular bundle or fracture blood supply.",
+      "source_ids": [
+        "ao_a33ca465237041b1",
+        "pmid_25440071"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "ulnar_shaft_direct_subcutaneous_exposure_01",
+      "text": "Provides direct extensile access to the middle and distal ulnar shaft and can be lengthened proximally or distally as pathology requires.",
+      "source_ids": [
+        "ao_a33ca465237041b1",
+        "pmid_25440071"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "ulnar_shaft_direct_subcutaneous_limitations_01",
+      "text": "The implant and bone have little soft-tissue cover, distal extension threatens the dorsal sensory branch, and marked swelling can prevent safe primary closure.",
+      "source_ids": [
+        "ao_a33ca465237041b1",
+        "pmid_25440071"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "ulnar_shaft_direct_subcutaneous_extensions_01",
+      "text": "Extend along the subcutaneous border toward the olecranon or ulnar styloid while reassessing nerve anatomy and skin viability at each end.",
+      "source_ids": [
+        "ao_a33ca465237041b1",
+        "pmid_25440071"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "ulnar_shaft_direct_subcutaneous_indications_01",
+      "text": "Use for direct fixation, debridement, grafting, or reconstruction of the ulnar shaft and for the ulnar component of selected both-bone forearm procedures.",
+      "source_ids": [
+        "ao_a33ca465237041b1",
+        "pmid_25440071"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "ulnar_shaft_direct_subcutaneous_relative_contraindications_01",
+      "text": "Modify or defer the approach when the ulnar skin is compromised, swelling precludes closure, or previous scarring makes the direct subcutaneous corridor unsafe.",
+      "source_ids": [
+        "ao_a33ca465237041b1",
+        "pmid_25440071"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "ulnar_shaft_direct_subcutaneous_implant_implications_01",
+      "text": "Select a plate position that respects the subcutaneous soft-tissue envelope and minimizes symptomatic prominence while preserving fracture biology.",
+      "source_ids": [
+        "ao_a33ca465237041b1",
+        "pmid_25440071"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "ulnar_shaft_direct_subcutaneous_fluoroscopy_implications_01",
+      "text": "Confirm ulnar length, alignment, rotation, plate position, screw containment, and proximal and distal radioulnar-joint congruity on orthogonal views.",
+      "source_ids": [
+        "ao_a33ca465237041b1",
+        "pmid_25440071"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "ulnar_shaft_direct_subcutaneous_closure_01",
+      "text": "Close fascia and skin without nerve entrapment or tension; if swelling prevents safe coverage, use a staged wound-management strategy rather than closing over pressure.",
+      "source_ids": [
+        "ao_a33ca465237041b1",
+        "pmid_25440071"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "ulnar_shaft_direct_subcutaneous_complications_01",
+      "text": "Complications include dorsal ulnar sensory neuropathy, wound breakdown, symptomatic hardware, infection, compartment syndrome, radioulnar synostosis, malunion, and nonunion.",
+      "source_ids": [
+        "ao_a33ca465237041b1",
+        "pmid_25440071"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "ulnar_shaft_direct_subcutaneous_bailouts_01",
+      "text": "If skin cannot cover the implant without tension, alter the incision over a muscular bed when planned preoperatively or use staged soft-tissue management rather than forced primary closure.",
+      "source_ids": [
+        "ao_a33ca465237041b1",
+        "pmid_25440071"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "ulnar_shaft_direct_subcutaneous_questions_01",
+      "text": "What is the deep interval for the direct ulnar approach?",
+      "source_ids": [
+        "ao_a33ca465237041b1"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "ulnar_shaft_direct_subcutaneous_questions_02",
+      "text": "Which nerve is endangered by distal extension?",
+      "source_ids": [
+        "ao_a33ca465237041b1",
+        "pmid_25440071"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "ulnar_shaft_direct_subcutaneous_questions_03",
+      "text": "Why might a swollen forearm change incision placement?",
+      "source_ids": [
+        "ao_a33ca465237041b1"
+      ],
+      "risk_level": "medium"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "ao_a33ca465237041b1",
+      "provider": "AO Surgery Reference",
+      "title": "Approach To The Ulna",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/forearm-shaft/approach/approach-to-the-ulna",
+      "source_page_id": "ao_a33ca465237041b1"
+    },
+    {
+      "source_id": "pmid_25440071",
+      "provider": "PubMed",
+      "title": "Exposure of the forearm and distal radius",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/25440071/"
+    }
+  ],
+  "content_status": "agent_review_pending",
+  "review": {
+    "status": "agent_review_pending",
+    "required_roles": [
+      "adversarial_safety_reviewer",
+      "approach_anatomy_reviewer",
+      "educational_value_reviewer",
+      "evidence_reviewer",
+      "operative_exposure_reviewer",
+      "procedure_applicability_reviewer"
+    ],
+    "completed_roles": []
+  },
+  "resolved_contradiction_keys": [],
+  "authoring_provenance": {
+    "method": "local_codex_curated",
+    "definition_file": "data/approach_library/curated/forearm_ulna_v1.json",
+    "api_used": false
+  }
+}

@@ -1,0 +1,472 @@
+{
+  "schema_version": "brobot_approach_packet_v1",
+  "approach_id": "clavicle_intramedullary_nailing",
+  "name": "Medial-entry intramedullary nailing approach to the clavicle",
+  "aliases": [
+    "clavicle nail approach",
+    "elastic stable intramedullary clavicle nailing",
+    "medial clavicle nail entry"
+  ],
+  "region": "medial clavicle and clavicular canal",
+  "joint": "sternoclavicular to acromioclavicular span",
+  "bones": [
+    "clavicle"
+  ],
+  "corridor": "Small anterior medial-clavicle window into the intramedullary canal for lateral nail passage",
+  "positioning": [
+    {
+      "text": "Position beach-chair or supine with the shoulder supported, medial clavicle accessible, and arm mobile for indirect reduction.",
+      "claim_ids": [
+        "clavicle_intramedullary_nailing_positioning_01"
+      ]
+    }
+  ],
+  "setup": [
+    {
+      "text": "Prepare the full clavicle and arm, template nail diameter and length, and obtain clear fluoroscopic views of the medial entry, fracture, and lateral fragment.",
+      "claim_ids": [
+        "clavicle_intramedullary_nailing_setup_01"
+      ]
+    }
+  ],
+  "surface_landmarks": [
+    {
+      "text": "Mark the sternoclavicular joint, medial clavicle, fracture, lateral clavicle, and anticipated anterior nail entry just lateral to the joint.",
+      "claim_ids": [
+        "clavicle_intramedullary_nailing_surface_landmarks_01"
+      ]
+    }
+  ],
+  "incision": [
+    {
+      "text": "Make a 1–2 cm anterior incision just lateral to the sternoclavicular joint over the medial clavicular entry point.",
+      "claim_ids": [
+        "clavicle_intramedullary_nailing_incision_01"
+      ]
+    }
+  ],
+  "superficial_interval": [
+    {
+      "text": "Bluntly dissect to bone, protecting supraclavicular sensory branches and maintaining direct contact with the anterior clavicle.",
+      "claim_ids": [
+        "clavicle_intramedullary_nailing_superficial_interval_01"
+      ]
+    }
+  ],
+  "deep_interval": [
+    {
+      "text": "Create the medial canal entry under direct and fluoroscopic control, then advance the flexible nail along the S-shaped canal without perforating cortex.",
+      "claim_ids": [
+        "clavicle_intramedullary_nailing_deep_interval_01"
+      ]
+    }
+  ],
+  "layers": [
+    {
+      "text": "Skin, subcutaneous tissue and supraclavicular branches, fascia and periosteum, medial clavicular cortex, then intramedullary canal.",
+      "claim_ids": [
+        "clavicle_intramedullary_nailing_layers_01"
+      ]
+    }
+  ],
+  "structures_encountered": [
+    {
+      "text": "Supraclavicular sensory branches, platysma, medial clavicle, sternoclavicular-adjacent soft tissues, canal, and fracture are encountered.",
+      "claim_ids": [
+        "clavicle_intramedullary_nailing_structures_encountered_01"
+      ]
+    }
+  ],
+  "structures_at_risk": [
+    {
+      "text": "Supraclavicular nerves, sternoclavicular joint, subclavian vessels, brachial plexus, pleura, and skin at the medial nail end are at risk.",
+      "claim_ids": [
+        "clavicle_intramedullary_nailing_structures_at_risk_01"
+      ]
+    }
+  ],
+  "danger_zones": [
+    {
+      "text": "Do not direct the entry tool or nail posteriorly beyond the far cortex; avoid medial migration toward the sternoclavicular region and intrathoracic structures.",
+      "claim_ids": [
+        "clavicle_intramedullary_nailing_danger_zones_01"
+      ]
+    }
+  ],
+  "retraction_hazards": [
+    {
+      "text": "Use minimal retraction through the small medial window and enlarge it if the entry point cannot be seen directly.",
+      "claim_ids": [
+        "clavicle_intramedullary_nailing_retraction_hazards_01"
+      ]
+    }
+  ],
+  "exposure": [
+    {
+      "text": "Provides limited medial canal access with indirect fracture reduction and little fracture-site stripping.",
+      "claim_ids": [
+        "clavicle_intramedullary_nailing_exposure_01"
+      ]
+    }
+  ],
+  "limitations": [
+    {
+      "text": "The curved canal and comminution can impede passage, rotational control is less direct than plating, and some patterns require a small fracture-site incision.",
+      "claim_ids": [
+        "clavicle_intramedullary_nailing_limitations_01"
+      ]
+    }
+  ],
+  "extensions": [
+    {
+      "text": "Add a limited fracture window for reduction or nail passage, or convert to plate fixation when canal passage or stable alignment cannot be achieved.",
+      "claim_ids": [
+        "clavicle_intramedullary_nailing_extensions_01"
+      ]
+    }
+  ],
+  "indications": [
+    {
+      "text": "Use for selected displaced midshaft fractures with a canal and pattern suitable for intramedullary fixation; technique choice remains patient- and fracture-specific.",
+      "claim_ids": [
+        "clavicle_intramedullary_nailing_indications_01"
+      ]
+    }
+  ],
+  "relative_contraindications": [
+    {
+      "text": "Avoid in markedly comminuted, very medial or lateral, canal-incompatible, pathologic, or irreducible patterns lacking reliable length and rotational control.",
+      "claim_ids": [
+        "clavicle_intramedullary_nailing_relative_contraindications_01"
+      ]
+    }
+  ],
+  "implant_implications": [
+    {
+      "text": "Select a nail that negotiates the canal without cortical perforation, seat the medial end to minimize skin irritation, and secure it against migration according to device design.",
+      "claim_ids": [
+        "clavicle_intramedullary_nailing_implant_implications_01"
+      ]
+    }
+  ],
+  "fluoroscopy_implications": [
+    {
+      "text": "Continuously confirm entry, intramedullary passage, fracture reduction, lateral endpoint, absence of cortical perforation, and final nail position.",
+      "claim_ids": [
+        "clavicle_intramedullary_nailing_fluoroscopy_implications_01"
+      ]
+    }
+  ],
+  "closure": [
+    {
+      "text": "Irrigate, verify the nail end is not prominent beneath skin, close fascia and skin in layers, and protect the medial entry wound.",
+      "claim_ids": [
+        "clavicle_intramedullary_nailing_closure_01"
+      ]
+    }
+  ],
+  "complications": [
+    {
+      "text": "Complications include cortical perforation, nail migration, medial skin irritation, supraclavicular neuropathy, pneumothorax or neurovascular injury, malalignment, nonunion, infection, and implant removal.",
+      "claim_ids": [
+        "clavicle_intramedullary_nailing_complications_01"
+      ]
+    }
+  ],
+  "bailouts": [
+    {
+      "text": "Stop if the nail leaves the canal or cannot cross safely; use a targeted fracture window, exchange the implant, or convert to plating rather than forcing passage.",
+      "claim_ids": [
+        "clavicle_intramedullary_nailing_bailouts_01"
+      ]
+    }
+  ],
+  "procedure_applications": [
+    {
+      "procedure_id": "clavicle_fracture_orif",
+      "relationship": "conditional_option",
+      "condition": "A selected midshaft fracture can be reduced and stabilized with an intramedullary device"
+    }
+  ],
+  "questions": [
+    {
+      "question": "Where is the standard clavicle nail entry incision?",
+      "answer": "Anteriorly just lateral to the sternoclavicular joint.",
+      "claim_ids": [
+        "clavicle_intramedullary_nailing_questions_01"
+      ]
+    },
+    {
+      "question": "What geometric feature makes nail passage difficult?",
+      "answer": "The clavicle's S-shaped canal.",
+      "claim_ids": [
+        "clavicle_intramedullary_nailing_questions_02"
+      ]
+    },
+    {
+      "question": "What must never be accepted during nail passage?",
+      "answer": "Posterior cortical perforation or extraosseous advancement toward neurovascular and thoracic structures.",
+      "claim_ids": [
+        "clavicle_intramedullary_nailing_questions_03"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "clavicle_intramedullary_nailing_positioning_01",
+      "text": "Position beach-chair or supine with the shoulder supported, medial clavicle accessible, and arm mobile for indirect reduction.",
+      "source_ids": [
+        "ao_39537aeee53b306d",
+        "pmid_27762393"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "clavicle_intramedullary_nailing_setup_01",
+      "text": "Prepare the full clavicle and arm, template nail diameter and length, and obtain clear fluoroscopic views of the medial entry, fracture, and lateral fragment.",
+      "source_ids": [
+        "ao_39537aeee53b306d",
+        "pmid_27068381"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "clavicle_intramedullary_nailing_surface_landmarks_01",
+      "text": "Mark the sternoclavicular joint, medial clavicle, fracture, lateral clavicle, and anticipated anterior nail entry just lateral to the joint.",
+      "source_ids": [
+        "ao_39537aeee53b306d",
+        "pmid_27762393"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "clavicle_intramedullary_nailing_incision_01",
+      "text": "Make a 1–2 cm anterior incision just lateral to the sternoclavicular joint over the medial clavicular entry point.",
+      "source_ids": [
+        "ao_39537aeee53b306d",
+        "pmid_27762393"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "clavicle_intramedullary_nailing_superficial_interval_01",
+      "text": "Bluntly dissect to bone, protecting supraclavicular sensory branches and maintaining direct contact with the anterior clavicle.",
+      "source_ids": [
+        "ao_39537aeee53b306d",
+        "pmid_27068381"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "clavicle_intramedullary_nailing_deep_interval_01",
+      "text": "Create the medial canal entry under direct and fluoroscopic control, then advance the flexible nail along the S-shaped canal without perforating cortex.",
+      "source_ids": [
+        "ao_39537aeee53b306d",
+        "pmid_27762393"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "clavicle_intramedullary_nailing_layers_01",
+      "text": "Skin, subcutaneous tissue and supraclavicular branches, fascia and periosteum, medial clavicular cortex, then intramedullary canal.",
+      "source_ids": [
+        "ao_39537aeee53b306d",
+        "pmid_27068381"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "clavicle_intramedullary_nailing_structures_encountered_01",
+      "text": "Supraclavicular sensory branches, platysma, medial clavicle, sternoclavicular-adjacent soft tissues, canal, and fracture are encountered.",
+      "source_ids": [
+        "ao_39537aeee53b306d",
+        "pmid_27762393"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "clavicle_intramedullary_nailing_structures_at_risk_01",
+      "text": "Supraclavicular nerves, sternoclavicular joint, subclavian vessels, brachial plexus, pleura, and skin at the medial nail end are at risk.",
+      "source_ids": [
+        "ao_39537aeee53b306d",
+        "pmid_27068381"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "clavicle_intramedullary_nailing_danger_zones_01",
+      "text": "Do not direct the entry tool or nail posteriorly beyond the far cortex; avoid medial migration toward the sternoclavicular region and intrathoracic structures.",
+      "source_ids": [
+        "ao_39537aeee53b306d",
+        "pmid_27068381"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "clavicle_intramedullary_nailing_retraction_hazards_01",
+      "text": "Use minimal retraction through the small medial window and enlarge it if the entry point cannot be seen directly.",
+      "source_ids": [
+        "ao_39537aeee53b306d",
+        "pmid_27762393"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "clavicle_intramedullary_nailing_exposure_01",
+      "text": "Provides limited medial canal access with indirect fracture reduction and little fracture-site stripping.",
+      "source_ids": [
+        "ao_39537aeee53b306d",
+        "pmid_27762393"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "clavicle_intramedullary_nailing_limitations_01",
+      "text": "The curved canal and comminution can impede passage, rotational control is less direct than plating, and some patterns require a small fracture-site incision.",
+      "source_ids": [
+        "ao_39537aeee53b306d",
+        "pmid_27068381"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "clavicle_intramedullary_nailing_extensions_01",
+      "text": "Add a limited fracture window for reduction or nail passage, or convert to plate fixation when canal passage or stable alignment cannot be achieved.",
+      "source_ids": [
+        "ao_39537aeee53b306d",
+        "pmid_27068381"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "clavicle_intramedullary_nailing_indications_01",
+      "text": "Use for selected displaced midshaft fractures with a canal and pattern suitable for intramedullary fixation; technique choice remains patient- and fracture-specific.",
+      "source_ids": [
+        "ao_39537aeee53b306d",
+        "pmid_27762393",
+        "pmid_27068381"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "clavicle_intramedullary_nailing_relative_contraindications_01",
+      "text": "Avoid in markedly comminuted, very medial or lateral, canal-incompatible, pathologic, or irreducible patterns lacking reliable length and rotational control.",
+      "source_ids": [
+        "ao_39537aeee53b306d",
+        "pmid_27068381"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "clavicle_intramedullary_nailing_implant_implications_01",
+      "text": "Select a nail that negotiates the canal without cortical perforation, seat the medial end to minimize skin irritation, and secure it against migration according to device design.",
+      "source_ids": [
+        "ao_39537aeee53b306d",
+        "pmid_27762393"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "clavicle_intramedullary_nailing_fluoroscopy_implications_01",
+      "text": "Continuously confirm entry, intramedullary passage, fracture reduction, lateral endpoint, absence of cortical perforation, and final nail position.",
+      "source_ids": [
+        "ao_39537aeee53b306d",
+        "pmid_27068381"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "clavicle_intramedullary_nailing_closure_01",
+      "text": "Irrigate, verify the nail end is not prominent beneath skin, close fascia and skin in layers, and protect the medial entry wound.",
+      "source_ids": [
+        "ao_39537aeee53b306d",
+        "pmid_27762393"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "clavicle_intramedullary_nailing_complications_01",
+      "text": "Complications include cortical perforation, nail migration, medial skin irritation, supraclavicular neuropathy, pneumothorax or neurovascular injury, malalignment, nonunion, infection, and implant removal.",
+      "source_ids": [
+        "ao_39537aeee53b306d",
+        "pmid_27762393",
+        "pmid_27068381"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "clavicle_intramedullary_nailing_bailouts_01",
+      "text": "Stop if the nail leaves the canal or cannot cross safely; use a targeted fracture window, exchange the implant, or convert to plating rather than forcing passage.",
+      "source_ids": [
+        "ao_39537aeee53b306d",
+        "pmid_27068381"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "clavicle_intramedullary_nailing_questions_01",
+      "text": "Where is the standard clavicle nail entry incision?",
+      "source_ids": [
+        "ao_39537aeee53b306d"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "clavicle_intramedullary_nailing_questions_02",
+      "text": "What geometric feature makes nail passage difficult?",
+      "source_ids": [
+        "ao_39537aeee53b306d"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "clavicle_intramedullary_nailing_questions_03",
+      "text": "What must never be accepted during nail passage?",
+      "source_ids": [
+        "ao_39537aeee53b306d",
+        "pmid_27068381"
+      ],
+      "risk_level": "medium"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "ao_39537aeee53b306d",
+      "provider": "AO Surgery Reference",
+      "title": "Nailing approach to the clavicle",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/clavicle-fractures/approach/nailing-approach-to-the-clavicle",
+      "source_page_id": "ao_39537aeee53b306d"
+    },
+    {
+      "source_id": "pmid_27762393",
+      "provider": "PubMed",
+      "title": "Intramedullary nailing versus plate fixation for displaced midshaft clavicle fractures",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/27762393/"
+    },
+    {
+      "source_id": "pmid_27068381",
+      "provider": "PubMed",
+      "title": "Plate fixation or intramedullary fixation for midshaft clavicle fractures",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/27068381/"
+    }
+  ],
+  "content_status": "agent_review_pending",
+  "review": {
+    "status": "agent_review_pending",
+    "required_roles": [
+      "adversarial_safety_reviewer",
+      "approach_anatomy_reviewer",
+      "educational_value_reviewer",
+      "evidence_reviewer",
+      "operative_exposure_reviewer",
+      "procedure_applicability_reviewer"
+    ],
+    "completed_roles": []
+  },
+  "resolved_contradiction_keys": [],
+  "authoring_provenance": {
+    "method": "local_codex_curated",
+    "definition_file": "data/approach_library/curated/clavicle_approaches_v1.json",
+    "api_used": false
+  }
+}

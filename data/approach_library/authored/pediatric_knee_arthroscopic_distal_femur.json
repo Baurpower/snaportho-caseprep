@@ -1,0 +1,467 @@
+{
+  "schema_version": "brobot_approach_packet_v1",
+  "approach_id": "pediatric_knee_arthroscopic_distal_femur",
+  "name": "Pediatric arthroscopic approach for distal-femoral epiphyseal fractures",
+  "aliases": [
+    "pediatric knee arthroscopy for epiphyseal fracture"
+  ],
+  "region": "pediatric knee and distal femoral epiphysis",
+  "joint": "knee",
+  "bones": [
+    "distal femoral epiphysis",
+    "patella",
+    "proximal tibia"
+  ],
+  "corridor": "Standard anterolateral viewing and anteromedial working portals beside the patellar tendon",
+  "positioning": [
+    {
+      "text": "Position supine with a thigh support and freely mobile knee, preserving access for percutaneous fixation and fluoroscopy.",
+      "claim_ids": [
+        "pediatric_knee_arthroscopic_distal_femur_positioning_01"
+      ]
+    }
+  ],
+  "setup": [
+    {
+      "text": "Use only with arthroscopic expertise; prepare low-pressure irrigation, pediatric instruments, percutaneous fixation, and fluoroscopy before portal placement.",
+      "claim_ids": [
+        "pediatric_knee_arthroscopic_distal_femur_setup_01"
+      ]
+    }
+  ],
+  "surface_landmarks": [
+    {
+      "text": "Mark patella, patellar-tendon borders, joint lines, femoral condyles, tibial tubercle, and anteromedial and anterolateral soft spots.",
+      "claim_ids": [
+        "pediatric_knee_arthroscopic_distal_femur_surface_landmarks_01"
+      ]
+    }
+  ],
+  "incision": [
+    {
+      "text": "Create approximately 5-mm anterolateral and anteromedial stab incisions at the palpated soft spots adjacent to the patellar tendon.",
+      "claim_ids": [
+        "pediatric_knee_arthroscopic_distal_femur_incision_01"
+      ]
+    }
+  ],
+  "superficial_interval": [
+    {
+      "text": "Bluntly spread each portal tract and establish the medial portal under direct arthroscopic control.",
+      "claim_ids": [
+        "pediatric_knee_arthroscopic_distal_femur_superficial_interval_01"
+      ]
+    }
+  ],
+  "deep_interval": [
+    {
+      "text": "Insert a blunt trocar and sleeve gently, clear hemarthrosis, inspect the epiphyseal reduction, and manipulate only under direct visualization.",
+      "claim_ids": [
+        "pediatric_knee_arthroscopic_distal_femur_deep_interval_01"
+      ]
+    }
+  ],
+  "layers": [
+    {
+      "text": "Skin, subcutaneous tissue, retinacular capsule, synovium, then pediatric knee articular cavity.",
+      "claim_ids": [
+        "pediatric_knee_arthroscopic_distal_femur_layers_01"
+      ]
+    }
+  ],
+  "structures_encountered": [
+    {
+      "text": "Patellar tendon, fat pad, cartilage, menisci, cruciate ligaments, distal-femoral physis and epiphyseal fracture are assessed.",
+      "claim_ids": [
+        "pediatric_knee_arthroscopic_distal_femur_structures_encountered_01"
+      ]
+    }
+  ],
+  "structures_at_risk": [
+    {
+      "text": "Articular cartilage, menisci, cruciates, patellar tendon, open physis, portal-adjacent nerves, and posterior neurovascular structures are at risk.",
+      "claim_ids": [
+        "pediatric_knee_arthroscopic_distal_femur_structures_at_risk_01"
+      ]
+    }
+  ],
+  "danger_zones": [
+    {
+      "text": "Avoid sharp intra-articular advancement and excessive pump pressure; capsular disruption can cause fluid extravasation and compartment syndrome.",
+      "claim_ids": [
+        "pediatric_knee_arthroscopic_distal_femur_danger_zones_01"
+      ]
+    }
+  ],
+  "retraction_hazards": [
+    {
+      "text": "Do not lever instruments on pediatric cartilage or the physis; add a visualized accessory portal rather than forcing trajectory.",
+      "claim_ids": [
+        "pediatric_knee_arthroscopic_distal_femur_retraction_hazards_01"
+      ]
+    }
+  ],
+  "exposure": [
+    {
+      "text": "Provides magnified articular-reduction assessment and survey for associated meniscal, ligament, and osteochondral injury.",
+      "claim_ids": [
+        "pediatric_knee_arthroscopic_distal_femur_exposure_01"
+      ]
+    }
+  ],
+  "limitations": [
+    {
+      "text": "Recommended only for minimally or nondisplaced fractures; displaced, comminuted, or unstable patterns generally require open control.",
+      "claim_ids": [
+        "pediatric_knee_arthroscopic_distal_femur_limitations_01"
+      ]
+    }
+  ],
+  "extensions": [
+    {
+      "text": "Add a portal under visualization or convert promptly to an open pediatric lateral or parapatellar exposure when reduction cannot be controlled.",
+      "claim_ids": [
+        "pediatric_knee_arthroscopic_distal_femur_extensions_01"
+      ]
+    }
+  ],
+  "indications": [
+    {
+      "text": "Consider for selected minimally or nondisplaced distal-femoral epiphyseal fractures when direct surface assessment improves reduction confidence.",
+      "claim_ids": [
+        "pediatric_knee_arthroscopic_distal_femur_indications_01"
+      ]
+    }
+  ],
+  "relative_contraindications": [
+    {
+      "text": "Avoid with major displacement, comminution, uncontrolled capsular leakage, infection, or unavailable pediatric arthroscopic expertise.",
+      "claim_ids": [
+        "pediatric_knee_arthroscopic_distal_femur_relative_contraindications_01"
+      ]
+    }
+  ],
+  "implant_implications": [
+    {
+      "text": "Plan fixation to restore epiphyseal anatomy while minimizing avoidable physeal violation and keeping implants outside cartilage.",
+      "claim_ids": [
+        "pediatric_knee_arthroscopic_distal_femur_implant_implications_01"
+      ]
+    }
+  ],
+  "fluoroscopy_implications": [
+    {
+      "text": "Combine surface visualization with orthogonal and tangential imaging to confirm physis, reduction, trajectory, length, and joint containment.",
+      "claim_ids": [
+        "pediatric_knee_arthroscopic_distal_femur_fluoroscopy_implications_01"
+      ]
+    }
+  ],
+  "closure": [
+    {
+      "text": "Drain irrigation, confirm soft compartments and hemostasis, and close portal skin incisions routinely.",
+      "claim_ids": [
+        "pediatric_knee_arthroscopic_distal_femur_closure_01"
+      ]
+    }
+  ],
+  "complications": [
+    {
+      "text": "Complications include chondral injury, extravasation or compartment syndrome, infection, stiffness, fixation loss, and growth arrest or deformity.",
+      "claim_ids": [
+        "pediatric_knee_arthroscopic_distal_femur_complications_01"
+      ]
+    }
+  ],
+  "bailouts": [
+    {
+      "text": "Stop pump inflow and convert to open exposure if extravasation progresses or stable anatomic reduction cannot be obtained.",
+      "claim_ids": [
+        "pediatric_knee_arthroscopic_distal_femur_bailouts_01"
+      ]
+    }
+  ],
+  "procedure_applications": [
+    {
+      "procedure_id": "pediatric_distal_femur_fracture_fixation",
+      "relationship": "conditional_option",
+      "condition": "A minimally or nondisplaced epiphyseal fracture is suitable for arthroscopy-assisted assessment and fixation by an experienced pediatric knee arthroscopist"
+    }
+  ],
+  "questions": [
+    {
+      "question": "Which fractures are candidates?",
+      "answer": "Selected minimally or nondisplaced epiphyseal fractures.",
+      "claim_ids": [
+        "pediatric_knee_arthroscopic_distal_femur_questions_01"
+      ]
+    },
+    {
+      "question": "What associated injuries should be surveyed?",
+      "answer": "Meniscal, ligament, and osteochondral injuries.",
+      "claim_ids": [
+        "pediatric_knee_arthroscopic_distal_femur_questions_02"
+      ]
+    },
+    {
+      "question": "What pump complication is especially important?",
+      "answer": "Fluid extravasation and compartment syndrome when the capsule is ruptured.",
+      "claim_ids": [
+        "pediatric_knee_arthroscopic_distal_femur_questions_03"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "pediatric_knee_arthroscopic_distal_femur_positioning_01",
+      "text": "Position supine with a thigh support and freely mobile knee, preserving access for percutaneous fixation and fluoroscopy.",
+      "source_ids": [
+        "ao_79cb6957ad8d7e5f",
+        "pmid_37931413"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "pediatric_knee_arthroscopic_distal_femur_setup_01",
+      "text": "Use only with arthroscopic expertise; prepare low-pressure irrigation, pediatric instruments, percutaneous fixation, and fluoroscopy before portal placement.",
+      "source_ids": [
+        "ao_79cb6957ad8d7e5f",
+        "pmid_27604531"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "pediatric_knee_arthroscopic_distal_femur_surface_landmarks_01",
+      "text": "Mark patella, patellar-tendon borders, joint lines, femoral condyles, tibial tubercle, and anteromedial and anterolateral soft spots.",
+      "source_ids": [
+        "ao_79cb6957ad8d7e5f"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "pediatric_knee_arthroscopic_distal_femur_incision_01",
+      "text": "Create approximately 5-mm anterolateral and anteromedial stab incisions at the palpated soft spots adjacent to the patellar tendon.",
+      "source_ids": [
+        "ao_79cb6957ad8d7e5f",
+        "pmid_27604531"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "pediatric_knee_arthroscopic_distal_femur_superficial_interval_01",
+      "text": "Bluntly spread each portal tract and establish the medial portal under direct arthroscopic control.",
+      "source_ids": [
+        "ao_79cb6957ad8d7e5f",
+        "pmid_27604531"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "pediatric_knee_arthroscopic_distal_femur_deep_interval_01",
+      "text": "Insert a blunt trocar and sleeve gently, clear hemarthrosis, inspect the epiphyseal reduction, and manipulate only under direct visualization.",
+      "source_ids": [
+        "ao_79cb6957ad8d7e5f",
+        "pmid_27604531"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "pediatric_knee_arthroscopic_distal_femur_layers_01",
+      "text": "Skin, subcutaneous tissue, retinacular capsule, synovium, then pediatric knee articular cavity.",
+      "source_ids": [
+        "ao_79cb6957ad8d7e5f"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "pediatric_knee_arthroscopic_distal_femur_structures_encountered_01",
+      "text": "Patellar tendon, fat pad, cartilage, menisci, cruciate ligaments, distal-femoral physis and epiphyseal fracture are assessed.",
+      "source_ids": [
+        "ao_79cb6957ad8d7e5f",
+        "pmid_27604531"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "pediatric_knee_arthroscopic_distal_femur_structures_at_risk_01",
+      "text": "Articular cartilage, menisci, cruciates, patellar tendon, open physis, portal-adjacent nerves, and posterior neurovascular structures are at risk.",
+      "source_ids": [
+        "ao_79cb6957ad8d7e5f",
+        "pmid_27604531"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "pediatric_knee_arthroscopic_distal_femur_danger_zones_01",
+      "text": "Avoid sharp intra-articular advancement and excessive pump pressure; capsular disruption can cause fluid extravasation and compartment syndrome.",
+      "source_ids": [
+        "ao_79cb6957ad8d7e5f",
+        "pmid_27604531"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "pediatric_knee_arthroscopic_distal_femur_retraction_hazards_01",
+      "text": "Do not lever instruments on pediatric cartilage or the physis; add a visualized accessory portal rather than forcing trajectory.",
+      "source_ids": [
+        "ao_79cb6957ad8d7e5f",
+        "pmid_27604531"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "pediatric_knee_arthroscopic_distal_femur_exposure_01",
+      "text": "Provides magnified articular-reduction assessment and survey for associated meniscal, ligament, and osteochondral injury.",
+      "source_ids": [
+        "ao_79cb6957ad8d7e5f",
+        "pmid_27604531"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "pediatric_knee_arthroscopic_distal_femur_limitations_01",
+      "text": "Recommended only for minimally or nondisplaced fractures; displaced, comminuted, or unstable patterns generally require open control.",
+      "source_ids": [
+        "ao_79cb6957ad8d7e5f",
+        "pmid_37931413"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "pediatric_knee_arthroscopic_distal_femur_extensions_01",
+      "text": "Add a portal under visualization or convert promptly to an open pediatric lateral or parapatellar exposure when reduction cannot be controlled.",
+      "source_ids": [
+        "ao_79cb6957ad8d7e5f",
+        "pmid_27604531"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "pediatric_knee_arthroscopic_distal_femur_indications_01",
+      "text": "Consider for selected minimally or nondisplaced distal-femoral epiphyseal fractures when direct surface assessment improves reduction confidence.",
+      "source_ids": [
+        "ao_79cb6957ad8d7e5f",
+        "pmid_37931413"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "pediatric_knee_arthroscopic_distal_femur_relative_contraindications_01",
+      "text": "Avoid with major displacement, comminution, uncontrolled capsular leakage, infection, or unavailable pediatric arthroscopic expertise.",
+      "source_ids": [
+        "ao_79cb6957ad8d7e5f",
+        "pmid_37931413"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "pediatric_knee_arthroscopic_distal_femur_implant_implications_01",
+      "text": "Plan fixation to restore epiphyseal anatomy while minimizing avoidable physeal violation and keeping implants outside cartilage.",
+      "source_ids": [
+        "pmid_37931413",
+        "pmid_27604531"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "pediatric_knee_arthroscopic_distal_femur_fluoroscopy_implications_01",
+      "text": "Combine surface visualization with orthogonal and tangential imaging to confirm physis, reduction, trajectory, length, and joint containment.",
+      "source_ids": [
+        "ao_79cb6957ad8d7e5f",
+        "pmid_27604531"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "pediatric_knee_arthroscopic_distal_femur_closure_01",
+      "text": "Drain irrigation, confirm soft compartments and hemostasis, and close portal skin incisions routinely.",
+      "source_ids": [
+        "ao_79cb6957ad8d7e5f",
+        "pmid_27604531"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "pediatric_knee_arthroscopic_distal_femur_complications_01",
+      "text": "Complications include chondral injury, extravasation or compartment syndrome, infection, stiffness, fixation loss, and growth arrest or deformity.",
+      "source_ids": [
+        "ao_79cb6957ad8d7e5f",
+        "pmid_37931413"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "pediatric_knee_arthroscopic_distal_femur_bailouts_01",
+      "text": "Stop pump inflow and convert to open exposure if extravasation progresses or stable anatomic reduction cannot be obtained.",
+      "source_ids": [
+        "ao_79cb6957ad8d7e5f",
+        "pmid_27604531"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "pediatric_knee_arthroscopic_distal_femur_questions_01",
+      "text": "Which fractures are candidates?",
+      "source_ids": [
+        "ao_79cb6957ad8d7e5f"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "pediatric_knee_arthroscopic_distal_femur_questions_02",
+      "text": "What associated injuries should be surveyed?",
+      "source_ids": [
+        "ao_79cb6957ad8d7e5f"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "pediatric_knee_arthroscopic_distal_femur_questions_03",
+      "text": "What pump complication is especially important?",
+      "source_ids": [
+        "ao_79cb6957ad8d7e5f"
+      ],
+      "risk_level": "medium"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "ao_79cb6957ad8d7e5f",
+      "provider": "AO Surgery Reference",
+      "title": "Arthroscopic Approach To The Knee",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/pediatric-trauma/distal-femur/approach/arthroscopic-approach-to-the-knee",
+      "source_page_id": "ao_79cb6957ad8d7e5f"
+    },
+    {
+      "source_id": "pmid_37931413",
+      "provider": "PubMed",
+      "title": "Distal femoral fractures in children",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/37931413/"
+    },
+    {
+      "source_id": "pmid_27604531",
+      "provider": "PubMed",
+      "title": "Physeal fractures about the knee",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/27604531/"
+    }
+  ],
+  "content_status": "agent_review_pending",
+  "review": {
+    "status": "agent_review_pending",
+    "required_roles": [
+      "adversarial_safety_reviewer",
+      "approach_anatomy_reviewer",
+      "educational_value_reviewer",
+      "evidence_reviewer",
+      "operative_exposure_reviewer",
+      "procedure_applicability_reviewer"
+    ],
+    "completed_roles": []
+  },
+  "resolved_contradiction_keys": [],
+  "authoring_provenance": {
+    "method": "local_codex_curated",
+    "definition_file": "data/approach_library/curated/pediatric_distal_femur_approaches_v1.json",
+    "api_used": false
+  }
+}

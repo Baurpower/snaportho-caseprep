@@ -1,0 +1,475 @@
+{
+  "schema_version": "brobot_approach_packet_v1",
+  "approach_id": "calcaneus_sinus_tarsi",
+  "name": "Sinus tarsi approach to the calcaneus",
+  "aliases": [
+    "limited lateral calcaneal approach",
+    "sinus tarsi calcaneus approach"
+  ],
+  "region": "lateral hindfoot and calcaneus",
+  "joint": "subtalar joint",
+  "bones": [
+    "calcaneus",
+    "talus"
+  ],
+  "corridor": "Limited lateral interval from fibular tip toward fourth-metatarsal base, superior to the peroneal tendons, entering the sinus tarsi and posterior subtalar facet",
+  "positioning": [
+    {
+      "text": "Position lateral or floppy lateral with the operative hindfoot uppermost and the foot accessible for traction, reduction, and fluoroscopy.",
+      "claim_ids": [
+        "calcaneus_sinus_tarsi_positioning_01"
+      ]
+    }
+  ],
+  "setup": [
+    {
+      "text": "Respect soft-tissue timing and generally wait for recovery of lateral skin wrinkling; prepare an adjunctive reduction method for the calcaneal body and primary fracture line.",
+      "claim_ids": [
+        "calcaneus_sinus_tarsi_setup_01"
+      ]
+    }
+  ],
+  "surface_landmarks": [
+    {
+      "text": "Mark the fibular tip, base of the fourth metatarsal, peroneal-tendon course, sural-nerve region, and subtalar joint line.",
+      "claim_ids": [
+        "calcaneus_sinus_tarsi_surface_landmarks_01"
+      ]
+    }
+  ],
+  "incision": [
+    {
+      "text": "Make a limited incision from the fibular tip toward the fourth-metatarsal base, adjusting length and orientation to the fracture while avoiding posterior extension toward the sural nerve.",
+      "claim_ids": [
+        "calcaneus_sinus_tarsi_incision_01"
+      ]
+    }
+  ],
+  "superficial_interval": [
+    {
+      "text": "Open deep fascia, protect the sural nerve and peroneal tendons inferiorly, and reflect only the necessary portion of extensor digitorum brevis.",
+      "claim_ids": [
+        "calcaneus_sinus_tarsi_superficial_interval_01"
+      ]
+    }
+  ],
+  "deep_interval": [
+    {
+      "text": "Enter the sinus tarsi and subtalar capsule to visualize the posterior facet; preserve the deep superior peroneal retinaculum if proximal extension is required.",
+      "claim_ids": [
+        "calcaneus_sinus_tarsi_deep_interval_01"
+      ]
+    }
+  ],
+  "layers": [
+    {
+      "text": "Skin and subcutaneous tissue, deep fascia, protected sural nerve/peroneal tendons, limited extensor-digitorum-brevis reflection, sinus-tarsi capsule, then posterior subtalar facet.",
+      "claim_ids": [
+        "calcaneus_sinus_tarsi_layers_01"
+      ]
+    }
+  ],
+  "structures_encountered": [
+    {
+      "text": "Sural nerve, peroneal tendons and retinacula, extensor digitorum brevis, lateral calcaneal artery territory, sinus-tarsi contents, and posterior facet define the approach.",
+      "claim_ids": [
+        "calcaneus_sinus_tarsi_structures_encountered_01"
+      ]
+    }
+  ],
+  "structures_at_risk": [
+    {
+      "text": "The sural nerve and peroneal tendons are at risk inferiorly, while proximal violation of the deep superior peroneal retinaculum can endanger the lateral calcaneal artery and skin perfusion.",
+      "claim_ids": [
+        "calcaneus_sinus_tarsi_structures_at_risk_01"
+      ]
+    }
+  ],
+  "danger_zones": [
+    {
+      "text": "Avoid extending posterior to the lateral malleolus without identifying the sural-nerve course, and avoid deep proximal retinacular dissection that compromises lateral calcaneal blood supply.",
+      "claim_ids": [
+        "calcaneus_sinus_tarsi_danger_zones_01"
+      ]
+    }
+  ],
+  "retraction_hazards": [
+    {
+      "text": "Retract peroneal tendons and sural nerve gently and intermittently; do not lever forcefully through the small window to compensate for inadequate body-fragment reduction.",
+      "claim_ids": [
+        "calcaneus_sinus_tarsi_retraction_hazards_01"
+      ]
+    }
+  ],
+  "exposure": [
+    {
+      "text": "Provides direct visualization of the posterior subtalar facet and anterior calcaneus through a limited incision, with less visualization of the posterior body and primary fracture line.",
+      "claim_ids": [
+        "calcaneus_sinus_tarsi_exposure_01"
+      ]
+    }
+  ],
+  "limitations": [
+    {
+      "text": "The calcaneal body and primary fracture line are not directly visualized; an external fixator, Schanz pin, percutaneous manipulation, or other adjunct is needed for body reduction.",
+      "claim_ids": [
+        "calcaneus_sinus_tarsi_limitations_01"
+      ]
+    }
+  ],
+  "extensions": [
+    {
+      "text": "Lengthen distally along the lateral utility line for selected anterior-process or calcaneocuboid involvement while preserving lateral soft-tissue perfusion.",
+      "claim_ids": [
+        "calcaneus_sinus_tarsi_extensions_01"
+      ]
+    }
+  ],
+  "indications": [
+    {
+      "text": "Used for selected displaced intra-articular calcaneal fractures when posterior-facet reduction and fixation can be achieved through a limited lateral window.",
+      "claim_ids": [
+        "calcaneus_sinus_tarsi_indications_01"
+      ]
+    }
+  ],
+  "relative_contraindications": [
+    {
+      "text": "Choose another exposure when fracture morphology demands broad direct body or posterior visualization, when the facet cannot be reduced through the window, or when lateral skin remains compromised.",
+      "claim_ids": [
+        "calcaneus_sinus_tarsi_relative_contraindications_01"
+      ]
+    }
+  ],
+  "implant_implications": [
+    {
+      "text": "Low-profile fixation can pass through the incision, but plate position, peroneal-tendon clearance, screw length, and subtalar penetration require imaging because body visualization is limited.",
+      "claim_ids": [
+        "calcaneus_sinus_tarsi_implant_implications_01"
+      ]
+    }
+  ],
+  "fluoroscopy_implications": [
+    {
+      "text": "Use lateral, axial heel, and Broden-type views to verify body reduction, posterior-facet congruity, width, alignment, and extra-articular screw placement.",
+      "claim_ids": [
+        "calcaneus_sinus_tarsi_fluoroscopy_implications_01"
+      ]
+    }
+  ],
+  "closure": [
+    {
+      "text": "Replace reflected extensor tissue, close deep fascia with absorbable suture, and perform tension-free subcuticular or interrupted skin closure.",
+      "claim_ids": [
+        "calcaneus_sinus_tarsi_closure_01"
+      ]
+    }
+  ],
+  "complications": [
+    {
+      "text": "Complications include sural neuropathy, wound necrosis or infection, peroneal injury or subluxation, residual body malreduction, subtalar incongruity, and symptomatic fixation.",
+      "claim_ids": [
+        "calcaneus_sinus_tarsi_complications_01"
+      ]
+    }
+  ],
+  "bailouts": [
+    {
+      "text": "If body or articular reduction cannot be verified, add percutaneous reduction tools, arthroscopy, or the preplanned alternative exposure rather than accepting unseen malreduction.",
+      "claim_ids": [
+        "calcaneus_sinus_tarsi_bailouts_01"
+      ]
+    }
+  ],
+  "procedure_applications": [
+    {
+      "procedure_id": "calcaneus_fracture_orif",
+      "relationship": "primary_option",
+      "condition": "A displaced intra-articular fracture is reducible through a limited lateral articular window with adjunctive body reduction"
+    }
+  ],
+  "questions": [
+    {
+      "question": "What portion of a calcaneal fracture is poorly visualized through the sinus-tarsi approach?",
+      "answer": "The posterior calcaneal body and the primary fracture line.",
+      "claim_ids": [
+        "calcaneus_sinus_tarsi_questions_01"
+      ]
+    },
+    {
+      "question": "What is the incision trajectory?",
+      "answer": "From the fibular tip toward the base of the fourth metatarsal.",
+      "claim_ids": [
+        "calcaneus_sinus_tarsi_questions_02"
+      ]
+    },
+    {
+      "question": "Which structures are protected inferior to the incision?",
+      "answer": "The sural nerve and peroneal tendons.",
+      "claim_ids": [
+        "calcaneus_sinus_tarsi_questions_03"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "calcaneus_sinus_tarsi_positioning_01",
+      "text": "Position lateral or floppy lateral with the operative hindfoot uppermost and the foot accessible for traction, reduction, and fluoroscopy.",
+      "source_ids": [
+        "ao_3ac4777d6982b3ed",
+        "orthobullets_calcaneus_1051"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "calcaneus_sinus_tarsi_setup_01",
+      "text": "Respect soft-tissue timing and generally wait for recovery of lateral skin wrinkling; prepare an adjunctive reduction method for the calcaneal body and primary fracture line.",
+      "source_ids": [
+        "ao_3ac4777d6982b3ed",
+        "orthobullets_calcaneus_1051",
+        "pmid_33543722"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "calcaneus_sinus_tarsi_surface_landmarks_01",
+      "text": "Mark the fibular tip, base of the fourth metatarsal, peroneal-tendon course, sural-nerve region, and subtalar joint line.",
+      "source_ids": [
+        "ao_3ac4777d6982b3ed",
+        "orthobullets_calcaneus_1051"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "calcaneus_sinus_tarsi_incision_01",
+      "text": "Make a limited incision from the fibular tip toward the fourth-metatarsal base, adjusting length and orientation to the fracture while avoiding posterior extension toward the sural nerve.",
+      "source_ids": [
+        "ao_3ac4777d6982b3ed",
+        "orthobullets_calcaneus_1051"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "calcaneus_sinus_tarsi_superficial_interval_01",
+      "text": "Open deep fascia, protect the sural nerve and peroneal tendons inferiorly, and reflect only the necessary portion of extensor digitorum brevis.",
+      "source_ids": [
+        "ao_3ac4777d6982b3ed",
+        "orthobullets_calcaneus_1051"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "calcaneus_sinus_tarsi_deep_interval_01",
+      "text": "Enter the sinus tarsi and subtalar capsule to visualize the posterior facet; preserve the deep superior peroneal retinaculum if proximal extension is required.",
+      "source_ids": [
+        "ao_3ac4777d6982b3ed",
+        "orthobullets_calcaneus_1051"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "calcaneus_sinus_tarsi_layers_01",
+      "text": "Skin and subcutaneous tissue, deep fascia, protected sural nerve/peroneal tendons, limited extensor-digitorum-brevis reflection, sinus-tarsi capsule, then posterior subtalar facet.",
+      "source_ids": [
+        "ao_3ac4777d6982b3ed",
+        "orthobullets_calcaneus_1051"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "calcaneus_sinus_tarsi_structures_encountered_01",
+      "text": "Sural nerve, peroneal tendons and retinacula, extensor digitorum brevis, lateral calcaneal artery territory, sinus-tarsi contents, and posterior facet define the approach.",
+      "source_ids": [
+        "ao_3ac4777d6982b3ed",
+        "orthobullets_calcaneus_1051"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "calcaneus_sinus_tarsi_structures_at_risk_01",
+      "text": "The sural nerve and peroneal tendons are at risk inferiorly, while proximal violation of the deep superior peroneal retinaculum can endanger the lateral calcaneal artery and skin perfusion.",
+      "source_ids": [
+        "ao_3ac4777d6982b3ed",
+        "orthobullets_calcaneus_1051"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "calcaneus_sinus_tarsi_danger_zones_01",
+      "text": "Avoid extending posterior to the lateral malleolus without identifying the sural-nerve course, and avoid deep proximal retinacular dissection that compromises lateral calcaneal blood supply.",
+      "source_ids": [
+        "ao_3ac4777d6982b3ed",
+        "pmid_33543722"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "calcaneus_sinus_tarsi_retraction_hazards_01",
+      "text": "Retract peroneal tendons and sural nerve gently and intermittently; do not lever forcefully through the small window to compensate for inadequate body-fragment reduction.",
+      "source_ids": [
+        "ao_3ac4777d6982b3ed",
+        "orthobullets_calcaneus_1051"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "calcaneus_sinus_tarsi_exposure_01",
+      "text": "Provides direct visualization of the posterior subtalar facet and anterior calcaneus through a limited incision, with less visualization of the posterior body and primary fracture line.",
+      "source_ids": [
+        "ao_3ac4777d6982b3ed",
+        "orthobullets_calcaneus_1051"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "calcaneus_sinus_tarsi_limitations_01",
+      "text": "The calcaneal body and primary fracture line are not directly visualized; an external fixator, Schanz pin, percutaneous manipulation, or other adjunct is needed for body reduction.",
+      "source_ids": [
+        "ao_3ac4777d6982b3ed",
+        "orthobullets_calcaneus_1051"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "calcaneus_sinus_tarsi_extensions_01",
+      "text": "Lengthen distally along the lateral utility line for selected anterior-process or calcaneocuboid involvement while preserving lateral soft-tissue perfusion.",
+      "source_ids": [
+        "ao_3ac4777d6982b3ed",
+        "pmid_33543722"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "calcaneus_sinus_tarsi_indications_01",
+      "text": "Used for selected displaced intra-articular calcaneal fractures when posterior-facet reduction and fixation can be achieved through a limited lateral window.",
+      "source_ids": [
+        "ao_3ac4777d6982b3ed",
+        "orthobullets_calcaneus_1051",
+        "pmid_33543722"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "calcaneus_sinus_tarsi_relative_contraindications_01",
+      "text": "Choose another exposure when fracture morphology demands broad direct body or posterior visualization, when the facet cannot be reduced through the window, or when lateral skin remains compromised.",
+      "source_ids": [
+        "ao_3ac4777d6982b3ed",
+        "orthobullets_calcaneus_1051"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "calcaneus_sinus_tarsi_implant_implications_01",
+      "text": "Low-profile fixation can pass through the incision, but plate position, peroneal-tendon clearance, screw length, and subtalar penetration require imaging because body visualization is limited.",
+      "source_ids": [
+        "ao_3ac4777d6982b3ed",
+        "orthobullets_calcaneus_1051"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "calcaneus_sinus_tarsi_fluoroscopy_implications_01",
+      "text": "Use lateral, axial heel, and Broden-type views to verify body reduction, posterior-facet congruity, width, alignment, and extra-articular screw placement.",
+      "source_ids": [
+        "ao_3ac4777d6982b3ed",
+        "orthobullets_calcaneus_1051"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "calcaneus_sinus_tarsi_closure_01",
+      "text": "Replace reflected extensor tissue, close deep fascia with absorbable suture, and perform tension-free subcuticular or interrupted skin closure.",
+      "source_ids": [
+        "ao_3ac4777d6982b3ed",
+        "orthobullets_calcaneus_1051"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "calcaneus_sinus_tarsi_complications_01",
+      "text": "Complications include sural neuropathy, wound necrosis or infection, peroneal injury or subluxation, residual body malreduction, subtalar incongruity, and symptomatic fixation.",
+      "source_ids": [
+        "ao_3ac4777d6982b3ed",
+        "orthobullets_calcaneus_1051",
+        "pmid_33543722"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "calcaneus_sinus_tarsi_bailouts_01",
+      "text": "If body or articular reduction cannot be verified, add percutaneous reduction tools, arthroscopy, or the preplanned alternative exposure rather than accepting unseen malreduction.",
+      "source_ids": [
+        "ao_3ac4777d6982b3ed",
+        "orthobullets_calcaneus_1051"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "calcaneus_sinus_tarsi_questions_01",
+      "text": "What portion of a calcaneal fracture is poorly visualized through the sinus-tarsi approach?",
+      "source_ids": [
+        "ao_3ac4777d6982b3ed",
+        "orthobullets_calcaneus_1051"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "calcaneus_sinus_tarsi_questions_02",
+      "text": "What is the incision trajectory?",
+      "source_ids": [
+        "ao_3ac4777d6982b3ed",
+        "orthobullets_calcaneus_1051"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "calcaneus_sinus_tarsi_questions_03",
+      "text": "Which structures are protected inferior to the incision?",
+      "source_ids": [
+        "ao_3ac4777d6982b3ed",
+        "orthobullets_calcaneus_1051"
+      ],
+      "risk_level": "medium"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "ao_3ac4777d6982b3ed",
+      "provider": "AO Surgery Reference",
+      "title": "Sinus tarsi approach",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/calcaneous/approach/sinus-tarsi-approach",
+      "source_page_id": "ao_3ac4777d6982b3ed"
+    },
+    {
+      "source_id": "orthobullets_calcaneus_1051",
+      "provider": "Orthobullets",
+      "title": "Calcaneus Fractures",
+      "url": "https://www.orthobullets.com/trauma/1051/calcaneus-fractures"
+    },
+    {
+      "source_id": "pmid_33543722",
+      "provider": "PubMed",
+      "title": "Sinus Tarsi Approach for Calcaneal Fractures: The New Gold Standard?",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/33543722/"
+    }
+  ],
+  "content_status": "agent_review_pending",
+  "review": {
+    "status": "agent_review_pending",
+    "required_roles": [
+      "adversarial_safety_reviewer",
+      "approach_anatomy_reviewer",
+      "educational_value_reviewer",
+      "evidence_reviewer",
+      "operative_exposure_reviewer",
+      "procedure_applicability_reviewer"
+    ],
+    "completed_roles": []
+  },
+  "resolved_contradiction_keys": [],
+  "authoring_provenance": {
+    "method": "local_codex_curated",
+    "definition_file": "data/approach_library/curated/calcaneus_limited_v1.json",
+    "api_used": false
+  }
+}

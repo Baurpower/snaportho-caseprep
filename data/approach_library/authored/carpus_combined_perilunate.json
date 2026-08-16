@@ -1,0 +1,476 @@
+{
+  "schema_version": "brobot_approach_packet_v1",
+  "approach_id": "carpus_combined_perilunate",
+  "name": "Combined dorsal and palmar approach to perilunate injuries",
+  "aliases": [
+    "combined perilunate approach",
+    "dual dorsal-volar wrist approach",
+    "dorsopalmar perilunate exposure"
+  ],
+  "region": "wrist and carpus",
+  "joint": "radiocarpal and midcarpal joints",
+  "bones": [
+    "scaphoid",
+    "lunate",
+    "triquetrum",
+    "capitate",
+    "distal radius"
+  ],
+  "corridor": "Radially based dorsal capsular flap combined selectively with an extended carpal-tunnel exposure to the palmar carpus",
+  "positioning": [
+    {
+      "text": "Position supine with the arm on a radiolucent hand table, forearm freely rotatable, and the hand accessible from both dorsal and palmar sides.",
+      "claim_ids": [
+        "carpus_combined_perilunate_positioning_01"
+      ]
+    }
+  ],
+  "setup": [
+    {
+      "text": "Prepare the forearm and hand circumferentially, obtain provisional reduction when safe, document median-nerve status, and confirm complete PA and lateral fluoroscopic access.",
+      "claim_ids": [
+        "carpus_combined_perilunate_setup_01"
+      ]
+    }
+  ],
+  "surface_landmarks": [
+    {
+      "text": "Dorsally mark Lister tubercle, radial and ulnar styloids, DRUJ, and third CMC joint; palmarly mark palmaris longus, wrist creases, fourth ray, and carpal-tunnel course.",
+      "claim_ids": [
+        "carpus_combined_perilunate_surface_landmarks_01"
+      ]
+    }
+  ],
+  "incision": [
+    {
+      "text": "Start with an approximately 8-cm longitudinal dorsal incision from proximal-ulnar to Lister tubercle toward the third CMC joint; add an extended carpal-tunnel incision only when palmar access is required.",
+      "claim_ids": [
+        "carpus_combined_perilunate_incision_01"
+      ]
+    }
+  ],
+  "superficial_interval": [
+    {
+      "text": "Dorsally protect radial sensory branches, release EPL from the third compartment, retract second-compartment tendons radially, and elevate the fourth compartment ulnarly; palmarly elevate flaps ulnar to palmaris longus and open the carpal tunnel under direct protection.",
+      "claim_ids": [
+        "carpus_combined_perilunate_superficial_interval_01"
+      ]
+    }
+  ],
+  "deep_interval": [
+    {
+      "text": "Raise a radially based dorsal capsuloligamentous flap while preserving its radial attachment and the radiolunotriquetral insertion; through the palmar window, protect the median nerve and retract flexors to inspect volar ligaments and interposed tissue.",
+      "claim_ids": [
+        "carpus_combined_perilunate_deep_interval_01"
+      ]
+    }
+  ],
+  "layers": [
+    {
+      "text": "Dorsal skin, retinaculum and extensor compartments, dorsal capsule, then carpus; palmar skin, palmar aponeurosis and antebrachial fascia, flexor retinaculum, median nerve and flexors, then palmar capsule and ligaments.",
+      "claim_ids": [
+        "carpus_combined_perilunate_layers_01"
+      ]
+    }
+  ],
+  "structures_encountered": [
+    {
+      "text": "EPL, second and fourth extensor compartments, posterior interosseous nerve, dorsal capsular ligaments, proximal carpal row, median nerve, flexor tendons, ulnar neurovascular bundle, and palmar carpal ligaments define the exposure.",
+      "claim_ids": [
+        "carpus_combined_perilunate_structures_encountered_01"
+      ]
+    }
+  ],
+  "structures_at_risk": [
+    {
+      "text": "The median nerve and recurrent motor branch, radial sensory branches, EPL and extensor tendons, dorsal radioulnar ligament, TFCC, intrinsic carpal ligaments, and articular cartilage are at risk.",
+      "claim_ids": [
+        "carpus_combined_perilunate_structures_at_risk_01"
+      ]
+    }
+  ],
+  "danger_zones": [
+    {
+      "text": "Divide the flexor retinaculum ulnar to the median nerve over a blunt protector, preserve the radial capsular insertion, and do not injure the dorsal radioulnar ligament or TFCC near the DRUJ.",
+      "claim_ids": [
+        "carpus_combined_perilunate_danger_zones_01"
+      ]
+    }
+  ],
+  "retraction_hazards": [
+    {
+      "text": "Avoid fixed pressure on the median nerve and avoid tensioning superficial sensory branches or extensor tendons; release exposure longitudinally rather than retracting harder.",
+      "claim_ids": [
+        "carpus_combined_perilunate_retraction_hazards_01"
+      ]
+    }
+  ],
+  "exposure": [
+    {
+      "text": "The dorsal window surveys the proximal row, intrinsic ligaments, and midcarpal joint; the palmar window decompresses the carpal tunnel and permits removal of palmar interposition and repair of volar injury.",
+      "claim_ids": [
+        "carpus_combined_perilunate_exposure_01"
+      ]
+    }
+  ],
+  "limitations": [
+    {
+      "text": "Dual exposure increases soft-tissue dissection and is not required when stable anatomic reduction and all necessary repairs can be achieved dorsally; comparative evidence has not shown one approach universally superior.",
+      "claim_ids": [
+        "carpus_combined_perilunate_limitations_01"
+      ]
+    }
+  ],
+  "extensions": [
+    {
+      "text": "Extend the dorsal incision proximally or distally as needed; add the palmar limb for irreducible volar displacement, median-nerve decompression, or palmar tissue interposition rather than using it routinely.",
+      "claim_ids": [
+        "carpus_combined_perilunate_extensions_01"
+      ]
+    }
+  ],
+  "indications": [
+    {
+      "text": "Use combined exposure for selected irreducible perilunate or lunate dislocations, trans-scaphoid patterns with volar interposition, osteochondral injury, or combined dorsal and palmar ligament pathology requiring direct repair.",
+      "claim_ids": [
+        "carpus_combined_perilunate_indications_01"
+      ]
+    }
+  ],
+  "relative_contraindications": [
+    {
+      "text": "Avoid the additional palmar exposure when dorsal reduction is anatomic and stable, median-nerve decompression is unnecessary, and no volar pathology requires treatment.",
+      "claim_ids": [
+        "carpus_combined_perilunate_relative_contraindications_01"
+      ]
+    }
+  ],
+  "implant_implications": [
+    {
+      "text": "Plan intercarpal wires, screws, and ligament anchors so they restore carpal alignment without tethering extensor tendons or penetrating radiocarpal and midcarpal cartilage.",
+      "claim_ids": [
+        "carpus_combined_perilunate_implant_implications_01"
+      ]
+    }
+  ],
+  "fluoroscopy_implications": [
+    {
+      "text": "Confirm scapholunate and lunotriquetral relationships, capitate-lunate alignment, carpal height, fracture reduction, and safe implant position on PA, lateral, and oblique views.",
+      "claim_ids": [
+        "carpus_combined_perilunate_fluoroscopy_implications_01"
+      ]
+    }
+  ],
+  "closure": [
+    {
+      "text": "Repair the dorsal capsular flap, close the third compartment without EPL constriction or leave EPL superficial if glide is limited, and close the palmar wound without reconstituting carpal-tunnel compression.",
+      "claim_ids": [
+        "carpus_combined_perilunate_closure_01"
+      ]
+    }
+  ],
+  "complications": [
+    {
+      "text": "Complications include recurrent instability or reduction loss, median or sensory-nerve injury, tendon adhesion or rupture, stiffness, diminished grip, infection, osteonecrosis, and post-traumatic arthritis.",
+      "claim_ids": [
+        "carpus_combined_perilunate_complications_01"
+      ]
+    }
+  ],
+  "bailouts": [
+    {
+      "text": "If the lunate or carpus remains irreducible dorsally, stop forceful manipulation and add the palmar exposure to remove interposed tissue under direct vision.",
+      "claim_ids": [
+        "carpus_combined_perilunate_bailouts_01"
+      ]
+    }
+  ],
+  "procedure_applications": [
+    {
+      "procedure_id": "perilunate_fracture_dislocation_orif",
+      "relationship": "conditional_option",
+      "condition": "Dorsal reduction alone is inadequate or palmar lunate displacement, median-nerve compression, osteochondral injury, or volar soft-tissue interposition requires direct access"
+    }
+  ],
+  "questions": [
+    {
+      "question": "Which approach is generally performed first for a perilunate injury?",
+      "answer": "The dorsal approach.",
+      "claim_ids": [
+        "carpus_combined_perilunate_questions_01"
+      ]
+    },
+    {
+      "question": "What are key reasons to add the palmar exposure?",
+      "answer": "Irreducible palmar lunate or carpal displacement, palmar soft-tissue interposition, osteochondral pathology, or median-nerve decompression.",
+      "claim_ids": [
+        "carpus_combined_perilunate_questions_02"
+      ]
+    },
+    {
+      "question": "On which side of the median nerve is the flexor retinaculum divided?",
+      "answer": "On its ulnar side, over a blunt protector.",
+      "claim_ids": [
+        "carpus_combined_perilunate_questions_03"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "carpus_combined_perilunate_positioning_01",
+      "text": "Position supine with the arm on a radiolucent hand table, forearm freely rotatable, and the hand accessible from both dorsal and palmar sides.",
+      "source_ids": [
+        "ao_54198dc4caa6063e",
+        "pmid_26205701"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "carpus_combined_perilunate_setup_01",
+      "text": "Prepare the forearm and hand circumferentially, obtain provisional reduction when safe, document median-nerve status, and confirm complete PA and lateral fluoroscopic access.",
+      "source_ids": [
+        "ao_54198dc4caa6063e",
+        "pmid_26205701"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "carpus_combined_perilunate_surface_landmarks_01",
+      "text": "Dorsally mark Lister tubercle, radial and ulnar styloids, DRUJ, and third CMC joint; palmarly mark palmaris longus, wrist creases, fourth ray, and carpal-tunnel course.",
+      "source_ids": [
+        "ao_54198dc4caa6063e",
+        "pmid_26205701"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "carpus_combined_perilunate_incision_01",
+      "text": "Start with an approximately 8-cm longitudinal dorsal incision from proximal-ulnar to Lister tubercle toward the third CMC joint; add an extended carpal-tunnel incision only when palmar access is required.",
+      "source_ids": [
+        "ao_54198dc4caa6063e",
+        "pmid_26205701"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "carpus_combined_perilunate_superficial_interval_01",
+      "text": "Dorsally protect radial sensory branches, release EPL from the third compartment, retract second-compartment tendons radially, and elevate the fourth compartment ulnarly; palmarly elevate flaps ulnar to palmaris longus and open the carpal tunnel under direct protection.",
+      "source_ids": [
+        "ao_54198dc4caa6063e",
+        "pmid_26205701"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "carpus_combined_perilunate_deep_interval_01",
+      "text": "Raise a radially based dorsal capsuloligamentous flap while preserving its radial attachment and the radiolunotriquetral insertion; through the palmar window, protect the median nerve and retract flexors to inspect volar ligaments and interposed tissue.",
+      "source_ids": [
+        "ao_54198dc4caa6063e",
+        "pmid_26205701"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "carpus_combined_perilunate_layers_01",
+      "text": "Dorsal skin, retinaculum and extensor compartments, dorsal capsule, then carpus; palmar skin, palmar aponeurosis and antebrachial fascia, flexor retinaculum, median nerve and flexors, then palmar capsule and ligaments.",
+      "source_ids": [
+        "ao_54198dc4caa6063e",
+        "pmid_26205701"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "carpus_combined_perilunate_structures_encountered_01",
+      "text": "EPL, second and fourth extensor compartments, posterior interosseous nerve, dorsal capsular ligaments, proximal carpal row, median nerve, flexor tendons, ulnar neurovascular bundle, and palmar carpal ligaments define the exposure.",
+      "source_ids": [
+        "ao_54198dc4caa6063e",
+        "pmid_26205701"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "carpus_combined_perilunate_structures_at_risk_01",
+      "text": "The median nerve and recurrent motor branch, radial sensory branches, EPL and extensor tendons, dorsal radioulnar ligament, TFCC, intrinsic carpal ligaments, and articular cartilage are at risk.",
+      "source_ids": [
+        "ao_54198dc4caa6063e",
+        "pmid_26205701"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "carpus_combined_perilunate_danger_zones_01",
+      "text": "Divide the flexor retinaculum ulnar to the median nerve over a blunt protector, preserve the radial capsular insertion, and do not injure the dorsal radioulnar ligament or TFCC near the DRUJ.",
+      "source_ids": [
+        "ao_54198dc4caa6063e",
+        "pmid_26205701"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "carpus_combined_perilunate_retraction_hazards_01",
+      "text": "Avoid fixed pressure on the median nerve and avoid tensioning superficial sensory branches or extensor tendons; release exposure longitudinally rather than retracting harder.",
+      "source_ids": [
+        "ao_54198dc4caa6063e",
+        "pmid_26205701"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "carpus_combined_perilunate_exposure_01",
+      "text": "The dorsal window surveys the proximal row, intrinsic ligaments, and midcarpal joint; the palmar window decompresses the carpal tunnel and permits removal of palmar interposition and repair of volar injury.",
+      "source_ids": [
+        "ao_54198dc4caa6063e",
+        "pmid_26205701"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "carpus_combined_perilunate_limitations_01",
+      "text": "Dual exposure increases soft-tissue dissection and is not required when stable anatomic reduction and all necessary repairs can be achieved dorsally; comparative evidence has not shown one approach universally superior.",
+      "source_ids": [
+        "ao_54198dc4caa6063e",
+        "pmid_38415721"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "carpus_combined_perilunate_extensions_01",
+      "text": "Extend the dorsal incision proximally or distally as needed; add the palmar limb for irreducible volar displacement, median-nerve decompression, or palmar tissue interposition rather than using it routinely.",
+      "source_ids": [
+        "ao_54198dc4caa6063e",
+        "pmid_26205701",
+        "pmid_38415721"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "carpus_combined_perilunate_indications_01",
+      "text": "Use combined exposure for selected irreducible perilunate or lunate dislocations, trans-scaphoid patterns with volar interposition, osteochondral injury, or combined dorsal and palmar ligament pathology requiring direct repair.",
+      "source_ids": [
+        "ao_54198dc4caa6063e",
+        "pmid_26205701"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "carpus_combined_perilunate_relative_contraindications_01",
+      "text": "Avoid the additional palmar exposure when dorsal reduction is anatomic and stable, median-nerve decompression is unnecessary, and no volar pathology requires treatment.",
+      "source_ids": [
+        "ao_54198dc4caa6063e",
+        "pmid_38415721"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "carpus_combined_perilunate_implant_implications_01",
+      "text": "Plan intercarpal wires, screws, and ligament anchors so they restore carpal alignment without tethering extensor tendons or penetrating radiocarpal and midcarpal cartilage.",
+      "source_ids": [
+        "ao_54198dc4caa6063e",
+        "pmid_26205701"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "carpus_combined_perilunate_fluoroscopy_implications_01",
+      "text": "Confirm scapholunate and lunotriquetral relationships, capitate-lunate alignment, carpal height, fracture reduction, and safe implant position on PA, lateral, and oblique views.",
+      "source_ids": [
+        "ao_54198dc4caa6063e",
+        "pmid_26205701"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "carpus_combined_perilunate_closure_01",
+      "text": "Repair the dorsal capsular flap, close the third compartment without EPL constriction or leave EPL superficial if glide is limited, and close the palmar wound without reconstituting carpal-tunnel compression.",
+      "source_ids": [
+        "ao_54198dc4caa6063e",
+        "pmid_26205701"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "carpus_combined_perilunate_complications_01",
+      "text": "Complications include recurrent instability or reduction loss, median or sensory-nerve injury, tendon adhesion or rupture, stiffness, diminished grip, infection, osteonecrosis, and post-traumatic arthritis.",
+      "source_ids": [
+        "ao_54198dc4caa6063e",
+        "pmid_26205701",
+        "pmid_38415721"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "carpus_combined_perilunate_bailouts_01",
+      "text": "If the lunate or carpus remains irreducible dorsally, stop forceful manipulation and add the palmar exposure to remove interposed tissue under direct vision.",
+      "source_ids": [
+        "ao_54198dc4caa6063e",
+        "pmid_26205701"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "carpus_combined_perilunate_questions_01",
+      "text": "Which approach is generally performed first for a perilunate injury?",
+      "source_ids": [
+        "ao_54198dc4caa6063e"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "carpus_combined_perilunate_questions_02",
+      "text": "What are key reasons to add the palmar exposure?",
+      "source_ids": [
+        "ao_54198dc4caa6063e",
+        "pmid_26205701"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "carpus_combined_perilunate_questions_03",
+      "text": "On which side of the median nerve is the flexor retinaculum divided?",
+      "source_ids": [
+        "ao_54198dc4caa6063e"
+      ],
+      "risk_level": "medium"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "ao_54198dc4caa6063e",
+      "provider": "AO Surgery Reference",
+      "title": "Combined approach to perilunate fractures and dislocations",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/carpal-bones/approach/combined-approach-to-perilunate-fractures-and-dislocations",
+      "source_page_id": "ao_54198dc4caa6063e"
+    },
+    {
+      "source_id": "pmid_26205701",
+      "provider": "PubMed",
+      "title": "Perilunate dislocations and fracture dislocations",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/26205701/"
+    },
+    {
+      "source_id": "pmid_38415721",
+      "provider": "PubMed",
+      "title": "A comparison of outcomes in acute perilunate injuries",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38415721/"
+    }
+  ],
+  "content_status": "agent_review_pending",
+  "review": {
+    "status": "agent_review_pending",
+    "required_roles": [
+      "adversarial_safety_reviewer",
+      "approach_anatomy_reviewer",
+      "educational_value_reviewer",
+      "evidence_reviewer",
+      "operative_exposure_reviewer",
+      "procedure_applicability_reviewer"
+    ],
+    "completed_roles": []
+  },
+  "resolved_contradiction_keys": [],
+  "authoring_provenance": {
+    "method": "local_codex_curated",
+    "definition_file": "data/approach_library/curated/carpal_approaches_v1.json",
+    "api_used": false
+  }
+}

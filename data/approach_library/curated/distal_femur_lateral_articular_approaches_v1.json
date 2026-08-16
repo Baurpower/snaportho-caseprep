@@ -1,0 +1,133 @@
+{
+  "approaches": [
+    {
+      "approach_id": "knee_arthroscopic_distal_femur_fracture",
+      "name": "Arthroscopic approach for selected distal femoral articular fractures",
+      "aliases": ["arthroscopy-assisted distal femur fixation", "knee arthroscopic fracture approach"],
+      "region": "knee and distal femoral articular surface",
+      "joint": "knee",
+      "bones": ["distal femur", "patella", "proximal tibia"],
+      "corridor": "Standard anterolateral viewing and anteromedial working portals adjacent to the patellar tendon",
+      "sources": [
+        {"source_id": "ao_83f3eb9cef6d29fc", "provider": "AO Surgery Reference", "title": "Arthroscopic approach to the knee", "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/distal-femur/approach/arthroscopic-approach-to-the-knee", "source_page_id": "ao_83f3eb9cef6d29fc"},
+        {"source_id": "pmid_21082166", "provider": "PubMed", "title": "Arthroscopy-assisted fracture fixation", "url": "https://pubmed.ncbi.nlm.nih.gov/21082166/"},
+        {"source_id": "pmid_31460990", "provider": "PubMed", "title": "Surgical approaches and outcomes associated with intra-articular Hoffa fractures", "url": "https://pubmed.ncbi.nlm.nih.gov/31460990/"}
+      ],
+      "procedure_applications": [{"procedure_id": "distal_femur_fracture_orif", "relationship": "conditional_option", "condition": "A young patient has a minimally or nondisplaced articular fracture suitable for arthroscopy-assisted assessment and fixation by an experienced knee arthroscopist"}],
+      "sections": {
+        "positioning": [{"text": "Position supine with a thigh holder or post, the knee freely flexible, and the distal femur accessible for percutaneous fixation and fluoroscopy.", "source_ids": ["ao_83f3eb9cef6d29fc", "pmid_21082166"]}],
+        "setup": [{"text": "Use only with advanced arthroscopic expertise; prepare pump irrigation, full knee arthroscopy instruments, percutaneous fixation tools, and fluoroscopy before portal placement.", "source_ids": ["ao_83f3eb9cef6d29fc", "pmid_21082166"], "risk_level": "high"}],
+        "surface_landmarks": [{"text": "Mark patella, patellar tendon borders, medial and lateral joint lines, femoral condyles, and standard soft spots adjacent to the tendon.", "source_ids": ["ao_83f3eb9cef6d29fc", "pmid_21082166"]}],
+        "incision": [{"text": "Create approximately 5-mm anterolateral and anteromedial stab incisions at the palpated soft spots adjacent to the patellar tendon.", "source_ids": ["ao_83f3eb9cef6d29fc", "pmid_21082166"]}],
+        "superficial_interval": [{"text": "Spread portal tracts bluntly through capsule while protecting skin nerves and the patellar tendon; establish the medial portal under direct arthroscopic control.", "source_ids": ["ao_83f3eb9cef6d29fc", "pmid_21082166"], "risk_level": "high"}],
+        "deep_interval": [{"text": "Insert the anterolateral cannula gently into the joint, replace the blunt trocar with the scope, clear hemarthrosis, and use the medial portal for probing and controlled instrumentation.", "source_ids": ["ao_83f3eb9cef6d29fc", "pmid_21082166"], "risk_level": "high"}],
+        "layers": [{"text": "Skin, subcutaneous tissue, retinacular capsule at standard portals, synovium, then the knee articular cavity and distal femoral surface.", "source_ids": ["ao_83f3eb9cef6d29fc", "pmid_21082166"]}],
+        "structures_encountered": [{"text": "Patellar tendon, fat pad, synovium, patellofemoral and tibiofemoral cartilage, menisci, cruciate ligaments, and fracture surface are examined.", "source_ids": ["ao_83f3eb9cef6d29fc", "pmid_21082166"]}],
+        "structures_at_risk": [{"text": "Articular cartilage, menisci, cruciate ligaments, patellar tendon, portal-adjacent sensory branches, and posterior neurovascular structures are at risk.", "source_ids": ["ao_83f3eb9cef6d29fc", "pmid_21082166"], "risk_level": "high"}],
+        "danger_zones": [{"text": "Never advance a sharp trocar or drill across the joint without direct visualization; monitor fluid extravasation because fracture planes can communicate with thigh compartments.", "source_ids": ["ao_83f3eb9cef6d29fc", "pmid_21082166"], "risk_level": "high"}],
+        "retraction_hazards": [{"text": "Avoid forcing instruments against cartilage or using portal leverage to compensate for poor trajectory; create an accessory portal under visualization when required.", "source_ids": ["ao_83f3eb9cef6d29fc", "pmid_21082166"], "risk_level": "high"}],
+        "exposure": [{"text": "Provides magnified assessment of articular reduction and permits a complete survey for meniscal, ligament, and osteochondral injuries with minimal arthrotomy.", "source_ids": ["ao_83f3eb9cef6d29fc", "pmid_21082166"]}],
+        "limitations": [{"text": "Recommended only for selected minimally displaced patterns; comminution, displaced columns, limited fixation options, and fluid extravasation constrain its use.", "source_ids": ["ao_83f3eb9cef6d29fc", "pmid_21082166", "pmid_31460990"]}],
+        "extensions": [{"text": "Add image-guided accessory portals or convert to an open parapatellar or condylar exposure when direct reduction, buttressing, or fragment control is inadequate.", "source_ids": ["ao_83f3eb9cef6d29fc", "pmid_21082166"], "risk_level": "high"}],
+        "indications": [{"text": "Consider for minimally or nondisplaced intra-articular distal femoral fractures in young patients when arthroscopy can verify congruity and associated soft-tissue injury.", "source_ids": ["ao_83f3eb9cef6d29fc", "pmid_21082166"]}],
+        "relative_contraindications": [{"text": "Avoid in displaced or highly comminuted fractures requiring open reduction, major capsular disruption with uncontrolled extravasation, active infection, or when arthroscopic expertise is unavailable.", "source_ids": ["ao_83f3eb9cef6d29fc", "pmid_21082166"]}],
+        "implant_implications": [{"text": "Choose percutaneous screw trajectories that compress the fracture while remaining outside weight-bearing cartilage and clear of cruciate attachments and the notch.", "source_ids": ["ao_83f3eb9cef6d29fc", "pmid_31460990"], "risk_level": "high"}],
+        "fluoroscopy_implications": [{"text": "Combine arthroscopic surface assessment with orthogonal and tangential imaging to verify fragment position, screw trajectory, length, and absence of intra-articular prominence.", "source_ids": ["ao_83f3eb9cef6d29fc", "pmid_21082166"], "risk_level": "high"}],
+        "closure": [{"text": "Drain irrigation fluid as appropriate, confirm hemostasis and compartment softness, and close portal skin incisions routinely.", "source_ids": ["ao_83f3eb9cef6d29fc", "pmid_21082166"], "risk_level": "high"}],
+        "complications": [{"text": "Complications include chondral injury, fluid extravasation and compartment syndrome, missed instability, infection, fixation loss, stiffness, neurovascular injury, and post-traumatic arthritis.", "source_ids": ["ao_83f3eb9cef6d29fc", "pmid_21082166", "pmid_31460990"], "risk_level": "high"}],
+        "bailouts": [{"text": "If visualization deteriorates, extravasation progresses, or stable anatomic reduction cannot be obtained, stop pump inflow and convert promptly to the appropriate open exposure.", "source_ids": ["ao_83f3eb9cef6d29fc", "pmid_21082166"], "risk_level": "high"}],
+        "questions": [
+          {"question": "Which fractures are candidates for this approach?", "answer": "Selected minimally or nondisplaced articular fractures in young patients.", "source_ids": ["ao_83f3eb9cef6d29fc"]},
+          {"question": "What examination must accompany fracture assessment?", "answer": "A complete knee arthroscopy for meniscal, ligament, and osteochondral injuries.", "source_ids": ["ao_83f3eb9cef6d29fc"]},
+          {"question": "Where are the standard portals?", "answer": "At the anterolateral and anteromedial soft spots adjacent to the patellar tendon.", "source_ids": ["ao_83f3eb9cef6d29fc"]}
+        ]
+      }
+    },
+    {
+      "approach_id": "distal_femur_gerdy_tubercle_osteotomy",
+      "name": "Gerdy-tubercle osteotomy approach for a lateral Hoffa fracture",
+      "aliases": ["Gerdy's tubercle osteotomy", "posterior lateral condyle approach", "lateral Hoffa posterior screw approach"],
+      "region": "lateral knee and posterior lateral femoral condyle",
+      "joint": "knee",
+      "bones": ["lateral femoral condyle", "Gerdy tubercle", "proximal tibia"],
+      "corridor": "Extended lateral knee exposure with osteotomy of the iliotibial-band insertion at Gerdy tubercle to reach the posterior lateral condyle",
+      "sources": [
+        {"source_id": "ao_f513ef103aef8ddd", "provider": "AO Surgery Reference", "title": "Gerdy tubercle osteotomy approach", "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/distal-femur/approach/gerdytubercle-osteotomy-approach", "source_page_id": "ao_f513ef103aef8ddd"},
+        {"source_id": "pmid_23997126", "provider": "PubMed", "title": "Coronal plane partial articular fractures of the distal femoral condyle", "url": "https://pubmed.ncbi.nlm.nih.gov/23997126/"},
+        {"source_id": "pmid_29881228", "provider": "PubMed", "title": "The Hoffa fracture: a review", "url": "https://pubmed.ncbi.nlm.nih.gov/29881228/"}
+      ],
+      "procedure_applications": [{"procedure_id": "distal_femur_hoffa_fracture_orif", "relationship": "conditional_option", "condition": "A lateral Hoffa fragment requires posterior articular access and posterior-to-anterior lag-screw or buttress fixation"}],
+      "sections": {
+        "positioning": [{"text": "Position supine with a bump or lateral tilt and the knee freely flexible so the lateral and posterior condyle can be accessed and imaged.", "source_ids": ["ao_f513ef103aef8ddd", "pmid_23997126"]}],
+        "setup": [{"text": "Review thin-cut CT for fragment morphology, plan osteotomy fixation before incision, and prepare direct posterior-condyle reduction, lag-screw, and buttress options.", "source_ids": ["ao_f513ef103aef8ddd", "pmid_23997126"], "risk_level": "high"}],
+        "surface_landmarks": [{"text": "Mark patella, joint line, fibular head, Gerdy tubercle, iliotibial band, lateral epicondyle, and peroneal-nerve course.", "source_ids": ["ao_f513ef103aef8ddd", "pmid_23997126"]}],
+        "incision": [{"text": "Use a lateral knee incision centered over the distal iliotibial band and Gerdy tubercle, extending proximally and distally for the planned osteotomy and condylar access.", "source_ids": ["ao_f513ef103aef8ddd", "pmid_23997126"]}],
+        "superficial_interval": [{"text": "Expose the iliotibial-band insertion as a repairable unit, preserve lateral sensory tissue, and identify the posterolateral danger zone before osteotomy.", "source_ids": ["ao_f513ef103aef8ddd", "pmid_23997126"], "risk_level": "high"}],
+        "deep_interval": [{"text": "Create and mobilize a controlled Gerdy-tubercle osteotomy with the iliotibial-band attachment, then develop the lateral capsular interval to the posterior lateral femoral condyle.", "source_ids": ["ao_f513ef103aef8ddd", "pmid_23997126"], "risk_level": "high"}],
+        "layers": [{"text": "Skin, subcutaneous tissue, iliotibial band and Gerdy insertion, osteotomy fragment, lateral capsule and posterolateral soft tissues, then posterior lateral condyle.", "source_ids": ["ao_f513ef103aef8ddd", "pmid_23997126"]}],
+        "structures_encountered": [{"text": "Iliotibial band, Gerdy tubercle, lateral capsule, lateral meniscus, lateral collateral and popliteus region, posterior condylar cartilage, and Hoffa fragment are encountered.", "source_ids": ["ao_f513ef103aef8ddd", "pmid_23997126"]}],
+        "structures_at_risk": [{"text": "Common peroneal nerve, popliteal vessels, lateral meniscus, popliteus, lateral collateral complex, articular cartilage, and osteotomy fragment are at risk.", "source_ids": ["ao_f513ef103aef8ddd", "pmid_23997126"], "risk_level": "high"}],
+        "danger_zones": [{"text": "Posterior dissection and posterior-to-anterior drilling approach the popliteal bundle; maintain direct bony contact, guarded depth, and fluoroscopic control.", "source_ids": ["ao_f513ef103aef8ddd", "pmid_23997126"], "risk_level": "high"}],
+        "retraction_hazards": [{"text": "Avoid forceful posterolateral retraction that tensions the peroneal nerve or collateral structures, and protect the meniscus and cartilage from retractors.", "source_ids": ["ao_f513ef103aef8ddd", "pmid_23997126"], "risk_level": "high"}],
+        "exposure": [{"text": "Provides direct access to the posterior lateral condylar articular surface and enables posterior-to-anterior lag-screw placement or posterior buttressing.", "source_ids": ["ao_f513ef103aef8ddd", "pmid_23997126"]}],
+        "limitations": [{"text": "This specialized approach adds an osteotomy requiring repair and is not appropriate for medial Hoffa fragments or fractures adequately exposed by a standard parapatellar route.", "source_ids": ["ao_f513ef103aef8ddd", "pmid_29881228"]}],
+        "extensions": [{"text": "Extend proximally along the lateral distal femur or combine with a parapatellar arthrotomy when broader anterior articular visualization is required.", "source_ids": ["ao_f513ef103aef8ddd", "pmid_23997126"]}],
+        "indications": [{"text": "Use selectively for a lateral coronal-plane Hoffa fracture when posterior fragment visualization and posterior-to-anterior fixation cannot be achieved safely through a simpler exposure.", "source_ids": ["ao_f513ef103aef8ddd", "pmid_23997126", "pmid_29881228"]}],
+        "relative_contraindications": [{"text": "Avoid for medial condylar fragments, inadequate Gerdy-tubercle bone, compromised lateral soft tissue, or when an alternative approach provides equivalent access without osteotomy.", "source_ids": ["ao_f513ef103aef8ddd", "pmid_29881228"]}],
+        "implant_implications": [{"text": "Plan posterior-to-anterior lag screws perpendicular to the fracture, add a buttress when shear demands it, and securely refix the Gerdy osteotomy without joint penetration.", "source_ids": ["ao_f513ef103aef8ddd", "pmid_23997126"], "risk_level": "high"}],
+        "fluoroscopy_implications": [{"text": "Use AP, lateral, oblique, and tangential condylar views to confirm articular reduction, posterior screw start and length, and osteotomy fixation.", "source_ids": ["ao_f513ef103aef8ddd", "pmid_23997126"], "risk_level": "high"}],
+        "closure": [{"text": "Repair the capsule and any released lateral structures, anatomically reduce and fix the Gerdy fragment with the iliotibial band tension restored, then close fascia and skin.", "source_ids": ["ao_f513ef103aef8ddd", "pmid_23997126"], "risk_level": "high"}],
+        "complications": [{"text": "Complications include peroneal or popliteal injury, osteotomy nonunion or displacement, articular malreduction, stiffness, ligament or meniscal injury, infection, and post-traumatic arthritis.", "source_ids": ["ao_f513ef103aef8ddd", "pmid_23997126", "pmid_29881228"], "risk_level": "high"}],
+        "bailouts": [{"text": "If posterior visualization remains unsafe, add a complementary exposure or revise fixation direction rather than drilling blindly toward the popliteal fossa.", "source_ids": ["ao_f513ef103aef8ddd", "pmid_23997126"], "risk_level": "high"}],
+        "questions": [
+          {"question": "What fracture is the classic indication?", "answer": "A lateral femoral-condyle Hoffa fracture needing posterior fixation.", "source_ids": ["ao_f513ef103aef8ddd"]},
+          {"question": "What structure remains attached to the osteotomy fragment?", "answer": "The iliotibial band at Gerdy tubercle.", "source_ids": ["ao_f513ef103aef8ddd", "pmid_23997126"]},
+          {"question": "Why use posterior-to-anterior screws?", "answer": "They can be placed perpendicular to the coronal fracture plane and provide compression.", "source_ids": ["pmid_23997126"]}
+        ]
+      }
+    },
+    {
+      "approach_id": "distal_femur_lateral_anterolateral",
+      "name": "Lateral anterolateral approach to the distal femur",
+      "aliases": ["lateral distal femur approach", "vastus-lateralis elevation approach"],
+      "region": "lateral distal thigh and distal femur",
+      "joint": "knee",
+      "bones": ["distal femur", "lateral femoral condyle"],
+      "corridor": "Lateral iliotibial-band incision with distal-to-proximal vastus-lateralis elevation and optional lateral arthrotomy",
+      "sources": [
+        {"source_id": "ao_88a414fba662db87", "provider": "AO Surgery Reference", "title": "Lateral anterolateral approach to the distal femur", "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/distal-femur/approach/lateral-anterolateral-approach-to-the-distal-femur", "source_page_id": "ao_88a414fba662db87"},
+        {"source_id": "pmid_41637603", "provider": "PubMed", "title": "Surgical approaches to the lateral knee", "url": "https://pubmed.ncbi.nlm.nih.gov/41637603/"},
+        {"source_id": "pmid_42267346", "provider": "PubMed", "title": "Current concepts in the treatment of distal femur fractures in adults", "url": "https://pubmed.ncbi.nlm.nih.gov/42267346/"}
+      ],
+      "procedure_applications": [{"procedure_id": "distal_femur_fracture_orif", "relationship": "primary_option", "condition": "A simple lateral articular or extra-articular distal femur fracture requires direct lateral reduction and plate fixation"}],
+      "sections": {
+        "positioning": [{"text": "Position supine on a radiolucent table with a bump under the ipsilateral hip and the knee flexed enough to relax gastrocnemius and permit lateral imaging.", "source_ids": ["ao_88a414fba662db87", "pmid_41637603"]}],
+        "setup": [{"text": "Prepare the entire limb, review CT for articular extensions, plan plate length, and ensure unobstructed AP, lateral, and oblique imaging.", "source_ids": ["ao_88a414fba662db87", "pmid_42267346"], "risk_level": "high"}],
+        "surface_landmarks": [{"text": "Mark femoral shaft, lateral epicondyle, joint line, patella, Gerdy tubercle, iliotibial band, and fibular head.", "source_ids": ["ao_88a414fba662db87", "pmid_41637603"]}],
+        "incision": [{"text": "Begin in the midlateral thigh at the needed proximal level, curve over the lateral condyle, and extend toward Gerdy tubercle when arthrotomy is required; stop just distal to the joint line if it is not.", "source_ids": ["ao_88a414fba662db87", "pmid_41637603"]}],
+        "superficial_interval": [{"text": "Divide the iliotibial band once in line with its fibers and the incision to preserve clean edges for repair.", "source_ids": ["ao_88a414fba662db87", "pmid_41637603"], "risk_level": "high"}],
+        "deep_interval": [{"text": "Incise vastus-lateralis fascia just anterior to the lateral intermuscular septum, elevate muscle from distal to proximal, ligate perforators, and retract the muscle anteromedially.", "source_ids": ["ao_88a414fba662db87", "pmid_41637603"], "risk_level": "high"}],
+        "layers": [{"text": "Skin, subcutaneous tissue, iliotibial band, vastus-lateralis fascia, muscle-septum interval and perforators, lateral periosteum, and optional lateral capsule.", "source_ids": ["ao_88a414fba662db87", "pmid_41637603"]}],
+        "structures_encountered": [{"text": "Iliotibial band, vastus lateralis, lateral intermuscular septum, profunda perforators, lateral femur, joint capsule, patellar tendon, and lateral meniscus are encountered.", "source_ids": ["ao_88a414fba662db87", "pmid_41637603"]}],
+        "structures_at_risk": [{"text": "Profunda femoris perforators, periosteal blood supply, lateral superior genicular vessels, lateral meniscus, patellar tendon, and articular cartilage are at risk.", "source_ids": ["ao_88a414fba662db87", "pmid_41637603"], "risk_level": "high"}],
+        "danger_zones": [{"text": "Identify and ligate perforators during proximal elevation and avoid posterior blind dissection across the septum toward the popliteal neurovascular bundle.", "source_ids": ["ao_88a414fba662db87", "pmid_41637603"], "risk_level": "high"}],
+        "retraction_hazards": [{"text": "Retract vastus lateralis atraumatically and avoid excessive tension on the patellar tendon during arthrotomy, particularly in osteoporotic bone.", "source_ids": ["ao_88a414fba662db87", "pmid_41637603"], "risk_level": "high"}],
+        "exposure": [{"text": "Exposes the lateral distal femur for reduction and plate placement; an optional anterior-third lateral arthrotomy visualizes simple articular fractures.", "source_ids": ["ao_88a414fba662db87", "pmid_41637603"]}],
+        "limitations": [{"text": "Medial-condyle and complex complete-articular patterns are poorly visualized and are generally better served by a parapatellar or broader articular exposure.", "source_ids": ["ao_88a414fba662db87", "pmid_42267346"]}],
+        "extensions": [{"text": "Extend proximally along the lateral femoral shaft and distally into a lateral arthrotomy as dictated by fracture and plate length.", "source_ids": ["ao_88a414fba662db87", "pmid_41637603"]}],
+        "indications": [{"text": "Use for extra-articular fractures and simple lateral articular patterns that can be reduced and plated from the lateral side.", "source_ids": ["ao_88a414fba662db87", "pmid_42267346"]}],
+        "relative_contraindications": [{"text": "Choose a parapatellar or alternative exposure for complex bicondylar, medial-condylar, posterior, or highly comminuted articular injuries needing broader visualization.", "source_ids": ["ao_88a414fba662db87", "pmid_42267346"]}],
+        "implant_implications": [{"text": "Center the lateral plate on the distal femur, preserve periosteum, obtain appropriate distal subchondral and proximal fixation, and avoid notch or joint penetration.", "source_ids": ["ao_88a414fba662db87", "pmid_42267346"], "risk_level": "high"}],
+        "fluoroscopy_implications": [{"text": "Confirm mechanical and anatomic alignment, condylar width, articular congruity, plate position, and screw containment on AP, lateral, and oblique views.", "source_ids": ["ao_88a414fba662db87", "pmid_42267346"], "risk_level": "high"}],
+        "closure": [{"text": "Close arthrotomy, repair vastus-lateralis fascia, precisely reapproximate iliotibial band, and close subcutaneous tissue and skin.", "source_ids": ["ao_88a414fba662db87", "pmid_41637603"], "risk_level": "high"}],
+        "complications": [{"text": "Complications include perforator bleeding, muscle or periosteal devascularization, malalignment, articular malreduction, stiffness, patellar-tendon injury, infection, nonunion, and hardware irritation.", "source_ids": ["ao_88a414fba662db87", "pmid_41637603", "pmid_42267346"], "risk_level": "high"}],
+        "bailouts": [{"text": "If medial or posterior articular reduction cannot be assessed, add or convert to a parapatellar or fragment-specific exposure rather than accepting unseen malreduction.", "source_ids": ["ao_88a414fba662db87", "pmid_42267346"], "risk_level": "high"}],
+        "questions": [
+          {"question": "Where is vastus lateralis elevated?", "answer": "From the lateral intermuscular septum, working distal to proximal and retracting it anteromedially.", "source_ids": ["ao_88a414fba662db87"]},
+          {"question": "Which vessels commonly require ligation?", "answer": "Perforating branches of the profunda femoris artery and vein.", "source_ids": ["ao_88a414fba662db87"]},
+          {"question": "When can the distal skin incision stop above Gerdy tubercle?", "answer": "When no arthrotomy or direct joint visualization is required.", "source_ids": ["ao_88a414fba662db87"]}
+        ]
+      }
+    }
+  ]
+}
