@@ -439,6 +439,20 @@
       "provider": "PubMed",
       "title": "Current concepts in the treatment of distal femur fractures in adults",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42267346/"
+    },
+    {
+      "source_id": "orthobullets_2edeb4b4a8386171",
+      "provider": "Orthobullets",
+      "title": "Knee Medial Approach",
+      "url": "https://www.orthobullets.com/approaches/12029/knee-medial-approach",
+      "source_page_id": "orthobullets_2edeb4b4a8386171"
+    },
+    {
+      "source_id": "orthobullets_5c14640ae03c86dd",
+      "provider": "Orthobullets",
+      "title": "Femur Anteromedial Approach",
+      "url": "https://www.orthobullets.com/approaches/12026/femur-anteromedial-approach",
+      "source_page_id": "orthobullets_5c14640ae03c86dd"
     }
   ],
   "content_status": "agent_review_pending",

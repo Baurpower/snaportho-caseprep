@@ -1,0 +1,347 @@
+{
+  "schema_version": "brobot_approach_packet_v1",
+  "approach_id": "tibial_shaft_lateral_parapatellar_nail",
+  "name": "Semi-extended lateral parapatellar approach for tibial nailing",
+  "aliases": [
+    "lateral parapatellar tibial nail entry"
+  ],
+  "region": "tibial-shaft",
+  "joint": "knee",
+  "bones": [
+    "proximal tibia",
+    "tibial shaft"
+  ],
+  "corridor": "Longitudinal cut over or along the lateral patella, lateral parapatellar retinaculum divided leaving a few-millimeter cuff, sleeve passed extra-articularly onto the anterior crest to the same canal-aligned start",
+  "positioning": [
+    {
+      "text": "Position in semi-extension so the sleeve can sit on the anterior crest and true AP and lateral knee images can be obtained.",
+      "claim_ids": [
+        "tibial_shaft_lateral_parapatellar_nail_positioning_01"
+      ]
+    }
+  ],
+  "setup": [],
+  "surface_landmarks": [
+    {
+      "text": "Mark the patella, lateral retinaculum, tibial crest, and the same canal-aligned start used for other tibial nails: medial aspect of the lateral spine, 3 mm medial to the crest, just distal to the plateau–metaphyseal angle.",
+      "claim_ids": [
+        "tibial_shaft_lateral_parapatellar_nail_surface_landmarks_01"
+      ]
+    }
+  ],
+  "incision": [
+    {
+      "text": "Make a longitudinal cut over the patella or along its lateral border, long enough for a lateral parapatellar arthrotomy-style window.",
+      "claim_ids": [
+        "tibial_shaft_lateral_parapatellar_nail_incision_01"
+      ]
+    }
+  ],
+  "superficial_interval": [
+    {
+      "text": "Divide the lateral parapatellar retinaculum, leaving a few-millimeter cuff on the patella for repair. Lengthen the retinacular cut if the patella is stiff so cartilage can be protected. The joint capsule is usually not opened.",
+      "claim_ids": [
+        "tibial_shaft_lateral_parapatellar_nail_superficial_interval_01"
+      ]
+    }
+  ],
+  "deep_interval": [
+    {
+      "text": "Pass the nail guide sleeves atraumatically onto the anterior tibial crest. Keep the sleeve in for the whole case to protect patellar and distal-femoral cartilage. Do not damage those articular surfaces while inserting the sleeve.",
+      "claim_ids": [
+        "tibial_shaft_lateral_parapatellar_nail_deep_interval_01"
+      ]
+    }
+  ],
+  "layers": [
+    {
+      "text": "Skin, lateral parapatellar retinaculum with a repair cuff, extra-articular sleeve on the anterior crest, then the canal start.",
+      "claim_ids": [
+        "tibial_shaft_lateral_parapatellar_nail_layers_01"
+      ]
+    }
+  ],
+  "structures_encountered": [],
+  "structures_at_risk": [
+    {
+      "text": "Patellar and distal-femoral articular cartilage are at risk if the sleeve is not kept in place. A missing retinacular cuff prevents repair.",
+      "claim_ids": [
+        "tibial_shaft_lateral_parapatellar_nail_structures_at_risk_01"
+      ]
+    }
+  ],
+  "danger_zones": [
+    {
+      "text": "Inserting or working without a protective sleeve against the articular surfaces is the cartilage danger zone.",
+      "claim_ids": [
+        "tibial_shaft_lateral_parapatellar_nail_danger_zones_01"
+      ]
+    }
+  ],
+  "retraction_hazards": [
+    {
+      "text": "If the patella is not mobile, lengthen the retinacular split rather than levering on cartilage.",
+      "claim_ids": [
+        "tibial_shaft_lateral_parapatellar_nail_retraction_hazards_01"
+      ]
+    }
+  ],
+  "exposure": [
+    {
+      "text": "A semi-extended extra-articular alternative to the suprapatellar quadriceps-tendon sleeve for the same canal start.",
+      "claim_ids": [
+        "tibial_shaft_lateral_parapatellar_nail_exposure_01"
+      ]
+    }
+  ],
+  "limitations": [
+    {
+      "text": "The capsule is usually not opened, so this is not an articular reduction window.",
+      "claim_ids": [
+        "tibial_shaft_lateral_parapatellar_nail_limitations_01"
+      ]
+    }
+  ],
+  "extensions": [],
+  "indications": [
+    {
+      "text": "Used for semi-extended tibial nailing through a lateral parapatellar sleeve.",
+      "claim_ids": [
+        "tibial_shaft_lateral_parapatellar_nail_indications_01"
+      ]
+    }
+  ],
+  "relative_contraindications": [],
+  "implant_implications": [],
+  "fluoroscopy_implications": [],
+  "closure": [
+    {
+      "text": "Repair the lateral retinaculum to the patellar cuff and close skin.",
+      "claim_ids": [
+        "tibial_shaft_lateral_parapatellar_nail_closure_01"
+      ]
+    }
+  ],
+  "complications": [
+    {
+      "text": "Complications include chondral injury to the patella or distal femur if the sleeve is omitted, and retinacular repair failure if no cuff is left.",
+      "claim_ids": [
+        "tibial_shaft_lateral_parapatellar_nail_complications_01"
+      ]
+    }
+  ],
+  "bailouts": [],
+  "procedure_applications": [
+    {
+      "procedure_id": "tibial_shaft_fracture_orif",
+      "relationship": "primary_option",
+      "condition": "A tibial shaft is nailed in semi-extension through a lateral parapatellar sleeve rather than a suprapatellar quadriceps split"
+    }
+  ],
+  "questions": [
+    {
+      "question": "Is the joint capsule usually opened in the lateral parapatellar nail approach?",
+      "answer": "No; the capsule is usually not opened.",
+      "claim_ids": [
+        "tibial_shaft_lateral_parapatellar_nail_questions_01"
+      ]
+    },
+    {
+      "question": "How is the retinaculum divided so it can be repaired?",
+      "answer": "Leave a cuff of a few millimeters on the patella.",
+      "claim_ids": [
+        "tibial_shaft_lateral_parapatellar_nail_questions_02"
+      ]
+    },
+    {
+      "question": "Why keep the sleeve in for the whole case?",
+      "answer": "To protect the articular cartilage of the patella and distal femur.",
+      "claim_ids": [
+        "tibial_shaft_lateral_parapatellar_nail_questions_03"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "tibial_shaft_lateral_parapatellar_nail_positioning_01",
+      "text": "Position in semi-extension so the sleeve can sit on the anterior crest and true AP and lateral knee images can be obtained.",
+      "source_ids": [
+        "ao_a586323a012ceab0",
+        "ao_7043a76b3dfa9353"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "tibial_shaft_lateral_parapatellar_nail_surface_landmarks_01",
+      "text": "Mark the patella, lateral retinaculum, tibial crest, and the same canal-aligned start used for other tibial nails: medial aspect of the lateral spine, 3 mm medial to the crest, just distal to the plateau–metaphyseal angle.",
+      "source_ids": [
+        "ao_a586323a012ceab0",
+        "ao_7043a76b3dfa9353"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "tibial_shaft_lateral_parapatellar_nail_incision_01",
+      "text": "Make a longitudinal cut over the patella or along its lateral border, long enough for a lateral parapatellar arthrotomy-style window.",
+      "source_ids": [
+        "ao_a586323a012ceab0"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "tibial_shaft_lateral_parapatellar_nail_superficial_interval_01",
+      "text": "Divide the lateral parapatellar retinaculum, leaving a few-millimeter cuff on the patella for repair. Lengthen the retinacular cut if the patella is stiff so cartilage can be protected. The joint capsule is usually not opened.",
+      "source_ids": [
+        "ao_a586323a012ceab0"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "tibial_shaft_lateral_parapatellar_nail_deep_interval_01",
+      "text": "Pass the nail guide sleeves atraumatically onto the anterior tibial crest. Keep the sleeve in for the whole case to protect patellar and distal-femoral cartilage. Do not damage those articular surfaces while inserting the sleeve.",
+      "source_ids": [
+        "ao_a586323a012ceab0",
+        "ao_7043a76b3dfa9353"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "tibial_shaft_lateral_parapatellar_nail_layers_01",
+      "text": "Skin, lateral parapatellar retinaculum with a repair cuff, extra-articular sleeve on the anterior crest, then the canal start.",
+      "source_ids": [
+        "ao_a586323a012ceab0",
+        "ao_7043a76b3dfa9353"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "tibial_shaft_lateral_parapatellar_nail_structures_at_risk_01",
+      "text": "Patellar and distal-femoral articular cartilage are at risk if the sleeve is not kept in place. A missing retinacular cuff prevents repair.",
+      "source_ids": [
+        "ao_a586323a012ceab0",
+        "ao_7043a76b3dfa9353"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "tibial_shaft_lateral_parapatellar_nail_danger_zones_01",
+      "text": "Inserting or working without a protective sleeve against the articular surfaces is the cartilage danger zone.",
+      "source_ids": [
+        "ao_a586323a012ceab0",
+        "ao_7043a76b3dfa9353"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "tibial_shaft_lateral_parapatellar_nail_retraction_hazards_01",
+      "text": "If the patella is not mobile, lengthen the retinacular split rather than levering on cartilage.",
+      "source_ids": [
+        "ao_a586323a012ceab0",
+        "ao_7043a76b3dfa9353"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "tibial_shaft_lateral_parapatellar_nail_exposure_01",
+      "text": "A semi-extended extra-articular alternative to the suprapatellar quadriceps-tendon sleeve for the same canal start.",
+      "source_ids": [
+        "ao_a586323a012ceab0",
+        "ao_7043a76b3dfa9353"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "tibial_shaft_lateral_parapatellar_nail_limitations_01",
+      "text": "The capsule is usually not opened, so this is not an articular reduction window.",
+      "source_ids": [
+        "ao_a586323a012ceab0"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "tibial_shaft_lateral_parapatellar_nail_indications_01",
+      "text": "Used for semi-extended tibial nailing through a lateral parapatellar sleeve.",
+      "source_ids": [
+        "ao_a586323a012ceab0"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "tibial_shaft_lateral_parapatellar_nail_closure_01",
+      "text": "Repair the lateral retinaculum to the patellar cuff and close skin.",
+      "source_ids": [
+        "ao_a586323a012ceab0"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "tibial_shaft_lateral_parapatellar_nail_complications_01",
+      "text": "Complications include chondral injury to the patella or distal femur if the sleeve is omitted, and retinacular repair failure if no cuff is left.",
+      "source_ids": [
+        "ao_a586323a012ceab0",
+        "ao_7043a76b3dfa9353"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "tibial_shaft_lateral_parapatellar_nail_questions_01",
+      "text": "Is the joint capsule usually opened in the lateral parapatellar nail approach?",
+      "source_ids": [
+        "ao_a586323a012ceab0"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "tibial_shaft_lateral_parapatellar_nail_questions_02",
+      "text": "How is the retinaculum divided so it can be repaired?",
+      "source_ids": [
+        "ao_a586323a012ceab0"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "tibial_shaft_lateral_parapatellar_nail_questions_03",
+      "text": "Why keep the sleeve in for the whole case?",
+      "source_ids": [
+        "ao_a586323a012ceab0",
+        "ao_7043a76b3dfa9353"
+      ],
+      "risk_level": "medium"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "ao_a586323a012ceab0",
+      "provider": "AO Surgery Reference",
+      "title": "Semi Extended Lateral Parapatellar Approach For Intramedullary Nailing Of The Tibial Shaft",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/tibial-shaft/approach/semi-extended-lateral-parapatellar-approach-for-intramedullary-nailing-of-the-tibial-shaft",
+      "source_page_id": "ao_a586323a012ceab0"
+    },
+    {
+      "source_id": "ao_7043a76b3dfa9353",
+      "provider": "AO Surgery Reference",
+      "title": "Semi Extended Suprapatellar Approach For Intramedullary Nailing Of The Tibial Shaft",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/tibial-shaft/approach/semi-extended-suprapatellar-approach-for-intramedullary-nailing-of-the-tibial-shaft",
+      "source_page_id": "ao_7043a76b3dfa9353"
+    }
+  ],
+  "content_status": "agent_review_pending",
+  "review": {
+    "status": "agent_review_pending",
+    "required_roles": [
+      "adversarial_safety_reviewer",
+      "approach_anatomy_reviewer",
+      "educational_value_reviewer",
+      "evidence_reviewer",
+      "operative_exposure_reviewer",
+      "procedure_applicability_reviewer"
+    ],
+    "completed_roles": []
+  },
+  "resolved_contradiction_keys": [],
+  "authoring_provenance": {
+    "method": "local_codex_curated",
+    "definition_file": "data/approach_library/curated/tibial_shaft_batch001_v1.json",
+    "api_used": false
+  }
+}

@@ -1,0 +1,1730 @@
+{
+  "approaches": [
+    {
+      "approach_id": "forearm_pediatric_pin_safe_zones",
+      "name": "Pediatric safe zones for forearm pin placement",
+      "aliases": [
+        "pediatric radius and ulna external-fixator pin corridors"
+      ],
+      "region": "forearm-shaft",
+      "joint": "",
+      "bones": [
+        "radius",
+        "ulna"
+      ],
+      "corridor": "Mini-open posterolateral windows in neutral rotation: proximal radius distal to the neck between ECU and the mobile wad, distal radius under direct vision away from the superficial radial nerve, proximal ulna between anconeus and FCU, and distal ulna between ECU and FCU, protecting the physes",
+      "sources": [
+        {
+          "source_id": "ao_86bd0dbf857c1c2f",
+          "provider": "AO Surgery Reference",
+          "title": "Safe Zones For Pin Placement In The Radius",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/pediatric-trauma/forearm-shaft/approach/safe-zones-for-pin-placement-in-the-radius",
+          "source_page_id": "ao_86bd0dbf857c1c2f"
+        },
+        {
+          "source_id": "ao_ab9aab6ba621c5d3",
+          "provider": "AO Surgery Reference",
+          "title": "Safe Zones For Pin Placement In The Ulna",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/pediatric-trauma/forearm-shaft/approach/safe-zones-for-pin-placement-in-the-ulna",
+          "source_page_id": "ao_ab9aab6ba621c5d3"
+        },
+        {
+          "source_id": "ao_dba28fa580cb941b",
+          "provider": "AO Surgery Reference",
+          "title": "Safe zones for pin placement in the forearm",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/forearm-shaft/approach/safe-zones-for-pin-placement-in-the-forearm",
+          "source_page_id": "ao_dba28fa580cb941b"
+        }
+      ],
+      "procedure_applications": [
+        {
+          "procedure_id": "both_bone_forearm_fracture_orif",
+          "relationship": "conditional_option",
+          "condition": "Pediatric external-fixator pins are placed in the radius or ulna"
+        }
+      ],
+      "sections": {
+        "positioning": [
+          {
+            "text": "Hold the hand in neutral rotation for both radial and ulnar pins; relationships change with forearm rotation.",
+            "source_ids": [
+              "ao_86bd0dbf857c1c2f",
+              "ao_ab9aab6ba621c5d3"
+            ]
+          }
+        ],
+        "surface_landmarks": [
+          {
+            "text": "Use the thinnest posterolateral envelope and stay between compartments. Avoid anterior insertion. Proximal work has greater neurovascular risk.",
+            "source_ids": [
+              "ao_86bd0dbf857c1c2f",
+              "ao_ab9aab6ba621c5d3",
+              "ao_dba28fa580cb941b"
+            ]
+          }
+        ],
+        "incision": [
+          {
+            "text": "Make a 1–2 cm incision at each planned pin and deepen it with an artery clip or forceps and small retractors until bone is seen.",
+            "source_ids": [
+              "ao_86bd0dbf857c1c2f",
+              "ao_dba28fa580cb941b"
+            ]
+          }
+        ],
+        "superficial_interval": [
+          {
+            "text": "On the proximal radius pass between extensor carpi ulnaris and the mobile wad, distal to the radial neck. On the distal radius stay under direct vision away from the superficial radial nerve and cephalic vein. On the ulna use anconeus–FCU in the proximal fifth and ECU–FCU in the distal four-fifths.",
+            "source_ids": [
+              "ao_86bd0dbf857c1c2f",
+              "ao_ab9aab6ba621c5d3"
+            ]
+          }
+        ],
+        "deep_interval": [
+          {
+            "text": "Reach cortex under direct vision so the pin does not pass blindly through muscle or beside a nerve. A second proximal-radius pin, if used, sits distal to the supinator insertion.",
+            "source_ids": [
+              "ao_86bd0dbf857c1c2f",
+              "ao_dba28fa580cb941b"
+            ]
+          }
+        ],
+        "layers": [
+          {
+            "text": "Skin, thin subcutaneous tissue, intercompartmental interval, periosteum, then radius or ulna, staying clear of the physes.",
+            "source_ids": [
+              "ao_86bd0dbf857c1c2f",
+              "ao_ab9aab6ba621c5d3"
+            ]
+          }
+        ],
+        "structures_at_risk": [
+          {
+            "text": "The posterior interosseous nerve in the proximal-radius supinator, the superficial radial nerve and cephalic vein distally, the ulnar nerve and artery, the anterior flexor-compartment neurovascular bundle, and the physes are at risk.",
+            "source_ids": [
+              "ao_86bd0dbf857c1c2f",
+              "ao_ab9aab6ba621c5d3",
+              "ao_dba28fa580cb941b"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "danger_zones": [
+          {
+            "text": "Do not insert pins from anterior. Proximal-radius pins are used infrequently because they sit next to the posterior interosseous nerve. Do not transfix a physis.",
+            "source_ids": [
+              "ao_86bd0dbf857c1c2f",
+              "ao_dba28fa580cb941b"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "retraction_hazards": [
+          {
+            "text": "Spread to bone with retractors rather than driving a pin through unvisualized muscle, especially near the posterior interosseous and superficial radial nerves.",
+            "source_ids": [
+              "ao_86bd0dbf857c1c2f",
+              "ao_dba28fa580cb941b"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "exposure": [
+          {
+            "text": "Each corridor is only a pin window, not an open fracture exposure.",
+            "source_ids": [
+              "ao_86bd0dbf857c1c2f",
+              "ao_ab9aab6ba621c5d3"
+            ]
+          }
+        ],
+        "limitations": [
+          {
+            "text": "The proximal-radius corridor is infrequently used because of the posterior interosseous nerve. Neutral rotation is the usual pediatric position for both bones.",
+            "source_ids": [
+              "ao_86bd0dbf857c1c2f",
+              "ao_ab9aab6ba621c5d3"
+            ]
+          }
+        ],
+        "indications": [
+          {
+            "text": "Used to place percutaneous or external-fixator pins in the pediatric radius or ulna through defined safe zones.",
+            "source_ids": [
+              "ao_86bd0dbf857c1c2f",
+              "ao_ab9aab6ba621c5d3"
+            ]
+          }
+        ],
+        "closure": [
+          {
+            "text": "Close each mini-incision after the pin is seated and the soft tissue is confirmed free of the shaft.",
+            "source_ids": [
+              "ao_dba28fa580cb941b"
+            ]
+          }
+        ],
+        "complications": [
+          {
+            "text": "Complications include posterior interosseous or superficial radial nerve injury, ulnar neurovascular injury, physeal penetration, and pin-site infection.",
+            "source_ids": [
+              "ao_86bd0dbf857c1c2f",
+              "ao_ab9aab6ba621c5d3",
+              "ao_dba28fa580cb941b"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "questions": [
+          {
+            "question": "What forearm rotation is used for pediatric radial and ulnar pins?",
+            "answer": "Neutral rotation for both bones.",
+            "source_ids": [
+              "ao_86bd0dbf857c1c2f",
+              "ao_ab9aab6ba621c5d3"
+            ]
+          },
+          {
+            "question": "What is the proximal ulnar safe interval in a child?",
+            "answer": "Between anconeus and flexor carpi ulnaris in the proximal fifth of the shaft.",
+            "source_ids": [
+              "ao_ab9aab6ba621c5d3"
+            ]
+          },
+          {
+            "question": "Why are proximal-radius pins uncommon?",
+            "answer": "They sit next to the posterior interosseous nerve in the supinator.",
+            "source_ids": [
+              "ao_86bd0dbf857c1c2f",
+              "ao_dba28fa580cb941b"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "approach_id": "hand_dip_joint_dorsal",
+      "name": "Dorsal approach to the distal interphalangeal joint",
+      "aliases": [
+        "dorsal DIP approach",
+        "H-Y-Z dorsal DIP exposure"
+      ],
+      "region": "hand-distal-phalanges",
+      "joint": "distal interphalangeal joint",
+      "bones": [
+        "distal phalanx",
+        "middle phalanx"
+      ],
+      "corridor": "Dorsal H-, Y-, or Z-shaped skin flaps at the DIP, elevating thin flaps and retracting the terminal extensor tendon to the joint while protecting the nail matrix",
+      "sources": [
+        {
+          "source_id": "ao_5a649db4ce488812",
+          "provider": "AO Surgery Reference",
+          "title": "Dorsal Approach To The Dip Joint",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/hand-distal-phalanges/approach/dorsal-approach-to-the-dip-joint",
+          "source_page_id": "ao_5a649db4ce488812"
+        },
+        {
+          "source_id": "ao_c8fa94300f2558ac",
+          "provider": "AO Surgery Reference",
+          "title": "Palmar Approach To The Dip Joint",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/hand-distal-phalanges/approach/palmar-approach-to-the-dip-joint",
+          "source_page_id": "ao_c8fa94300f2558ac"
+        }
+      ],
+      "procedure_applications": [
+        {
+          "procedure_id": "distal_phalanx_fracture_orif",
+          "relationship": "primary_option",
+          "condition": "A dorsal-base extensor avulsion, intra-articular DIP fracture with palmar dislocation, or DIP arthrodesis needs a dorsal window"
+        }
+      ],
+      "sections": {
+        "positioning": [
+          {
+            "text": "Position the hand so the dorsal DIP and nail fold are accessible under tourniquet.",
+            "source_ids": [
+              "ao_5a649db4ce488812"
+            ]
+          }
+        ],
+        "surface_landmarks": [
+          {
+            "text": "Mark the DIP crease, the dorsal crest of the distal-phalanx base where the extensor inserts, and the nail matrix.",
+            "source_ids": [
+              "ao_5a649db4ce488812",
+              "ao_c8fa94300f2558ac"
+            ]
+          }
+        ],
+        "incision": [
+          {
+            "text": "Use an H-, Y-, or Z-shaped incision; if an H is chosen, diverge the sides slightly to improve flap vascularity.",
+            "source_ids": [
+              "ao_5a649db4ce488812"
+            ]
+          }
+        ],
+        "superficial_interval": [
+          {
+            "text": "Elevate thin flaps and hold them with fine sutures. Coagulate tiny veins with bipolar forceps.",
+            "source_ids": [
+              "ao_5a649db4ce488812"
+            ]
+          }
+        ],
+        "deep_interval": [
+          {
+            "text": "Retract the terminal extensor tendon proximally to see the DIP. If collateral ligaments remain on an avulsed fragment, only part of the joint is visible.",
+            "source_ids": [
+              "ao_5a649db4ce488812"
+            ]
+          }
+        ],
+        "layers": [
+          {
+            "text": "Skin flaps, dorsal veins, terminal extensor tendon adherent to capsule, then the DIP joint.",
+            "source_ids": [
+              "ao_5a649db4ce488812",
+              "ao_c8fa94300f2558ac"
+            ]
+          }
+        ],
+        "structures_at_risk": [
+          {
+            "text": "The nail matrix, the terminal extensor tendon (poorly vascular and slow to heal), and the germinal matrix at the distal end of the exposure are at risk.",
+            "source_ids": [
+              "ao_5a649db4ce488812",
+              "ao_c8fa94300f2558ac"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "danger_zones": [
+          {
+            "text": "Damage to the nail matrix can permanently deform the nail. Do not detach the extensor insertion unnecessarily.",
+            "source_ids": [
+              "ao_5a649db4ce488812"
+            ],
+            "risk_level": "medium"
+          }
+        ],
+        "retraction_hazards": [
+          {
+            "text": "Hold flaps with fine sutures rather than crushing them, and do not stretch the terminal extensor off the dorsal crest.",
+            "source_ids": [
+              "ao_5a649db4ce488812"
+            ],
+            "risk_level": "medium"
+          }
+        ],
+        "exposure": [
+          {
+            "text": "Shows the dorsal DIP and the extensor insertion; a fragment that still carries collateral ligaments limits the view.",
+            "source_ids": [
+              "ao_5a649db4ce488812"
+            ]
+          }
+        ],
+        "limitations": [
+          {
+            "text": "A palmar profundus avulsion cannot be reached from this side.",
+            "source_ids": [
+              "ao_5a649db4ce488812",
+              "ao_c8fa94300f2558ac"
+            ]
+          }
+        ],
+        "indications": [
+          {
+            "text": "Indicated for extensor avulsion of the dorsal distal-phalanx base, intra-articular DIP fractures with palmar dislocation, and DIP arthrodesis.",
+            "source_ids": [
+              "ao_5a649db4ce488812"
+            ]
+          }
+        ],
+        "closure": [
+          {
+            "text": "Close the skin in a standard manner after the joint work is done.",
+            "source_ids": [
+              "ao_5a649db4ce488812"
+            ]
+          }
+        ],
+        "complications": [
+          {
+            "text": "Complications include permanent nail deformity from matrix injury and delayed extensor healing because the tendon is poorly vascular.",
+            "source_ids": [
+              "ao_5a649db4ce488812",
+              "ao_c8fa94300f2558ac"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "questions": [
+          {
+            "question": "Which dorsal DIP incisions are commonly used?",
+            "answer": "H-shaped, Y-shaped, and Z-shaped, with the H sides often diverged to improve flap blood supply.",
+            "source_ids": [
+              "ao_5a649db4ce488812"
+            ]
+          },
+          {
+            "question": "What must be protected at the distal end of the exposure?",
+            "answer": "The nail matrix.",
+            "source_ids": [
+              "ao_5a649db4ce488812"
+            ]
+          },
+          {
+            "question": "How is the DIP joint entered dorsally?",
+            "answer": "By retracting the terminal extensor tendon proximally.",
+            "source_ids": [
+              "ao_5a649db4ce488812"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "approach_id": "hand_dip_joint_palmar",
+      "name": "Palmar approach to the distal interphalangeal joint",
+      "aliases": [
+        "volar Bruner approach to the DIP joint"
+      ],
+      "region": "hand-distal-phalanges",
+      "joint": "distal interphalangeal joint",
+      "bones": [
+        "distal phalanx",
+        "middle phalanx"
+      ],
+      "corridor": "Bruner zigzag at the distal flexor crease, protecting the digital neurovascular bundles, dividing A5 and C3 while preserving A4, and retracting FDP to the palmar DIP",
+      "sources": [
+        {
+          "source_id": "ao_c8fa94300f2558ac",
+          "provider": "AO Surgery Reference",
+          "title": "Palmar Approach To The Dip Joint",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/hand-distal-phalanges/approach/palmar-approach-to-the-dip-joint",
+          "source_page_id": "ao_c8fa94300f2558ac"
+        },
+        {
+          "source_id": "ao_5a649db4ce488812",
+          "provider": "AO Surgery Reference",
+          "title": "Dorsal Approach To The Dip Joint",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/hand-distal-phalanges/approach/dorsal-approach-to-the-dip-joint",
+          "source_page_id": "ao_5a649db4ce488812"
+        },
+        {
+          "source_id": "ao_84c90651b50152c6",
+          "provider": "AO Surgery Reference",
+          "title": "Palmar approach to the proximal interphalangeal joint",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/hand-proximal-phalanges/approach/palmar-approach-to-proximal-interphalangeal-joint",
+          "source_page_id": "ao_84c90651b50152c6"
+        }
+      ],
+      "procedure_applications": [
+        {
+          "procedure_id": "distal_phalanx_fracture_orif",
+          "relationship": "primary_option",
+          "condition": "A palmar-base profundus avulsion of the distal phalanx needs a volar DIP window"
+        }
+      ],
+      "sections": {
+        "positioning": [
+          {
+            "text": "Position the hand supine on a hand table under tourniquet so the palmar DIP crease is accessible.",
+            "source_ids": [
+              "ao_c8fa94300f2558ac",
+              "ao_84c90651b50152c6"
+            ]
+          }
+        ],
+        "surface_landmarks": [
+          {
+            "text": "Use the distal flexor crease as the Bruner apex, level with the DIP joint.",
+            "source_ids": [
+              "ao_c8fa94300f2558ac"
+            ]
+          }
+        ],
+        "incision": [
+          {
+            "text": "Make a planned Bruner zigzag with the apex at the distal flexor crease.",
+            "source_ids": [
+              "ao_c8fa94300f2558ac",
+              "ao_84c90651b50152c6"
+            ]
+          }
+        ],
+        "superficial_interval": [
+          {
+            "text": "Elevate the angled flap by blunt dissection, retract the apex with a fine stitch, and identify and gently mobilize the digital arteries and nerves.",
+            "source_ids": [
+              "ao_c8fa94300f2558ac",
+              "ao_84c90651b50152c6"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "deep_interval": [
+          {
+            "text": "Divide A5 and C3 laterally near bone, leaving at least 2 mm for repair. Do not cut A4. Elevate the pulley flap, retract FDP, and expose the palmar DIP without dividing the volar plate, which lies immediately deep to profundus.",
+            "source_ids": [
+              "ao_c8fa94300f2558ac"
+            ],
+            "risk_level": "medium"
+          }
+        ],
+        "layers": [
+          {
+            "text": "Skin, thin subcutis, digital neurovascular bundles, A5/C3 pulleys, FDP (superficial fibers to the lateral base, deep fibers more distal), volar plate, then palmar DIP.",
+            "source_ids": [
+              "ao_c8fa94300f2558ac",
+              "ao_5a649db4ce488812"
+            ]
+          }
+        ],
+        "structures_at_risk": [
+          {
+            "text": "The digital nerve and artery, the A4 pulley, the volar plate immediately deep to FDP, and the profundus insertion that spans the whole palmar base are at risk.",
+            "source_ids": [
+              "ao_c8fa94300f2558ac",
+              "ao_5a649db4ce488812"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "danger_zones": [
+          {
+            "text": "Cutting A4 produces bowstringing. Dividing the volar plate is unnecessary and should be avoided.",
+            "source_ids": [
+              "ao_c8fa94300f2558ac"
+            ],
+            "risk_level": "medium"
+          }
+        ],
+        "retraction_hazards": [
+          {
+            "text": "Mobilize digital neurovascular bundles gently and retract FDP only after the pulley flap is elevated.",
+            "source_ids": [
+              "ao_c8fa94300f2558ac",
+              "ao_84c90651b50152c6"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "exposure": [
+          {
+            "text": "Shows the palmar DIP and distal phalanx for profundus-avulsion fixation.",
+            "source_ids": [
+              "ao_c8fa94300f2558ac"
+            ]
+          }
+        ],
+        "limitations": [
+          {
+            "text": "A dorsal extensor avulsion or DIP arthrodesis is not reached from this corridor.",
+            "source_ids": [
+              "ao_c8fa94300f2558ac",
+              "ao_5a649db4ce488812"
+            ]
+          }
+        ],
+        "indications": [
+          {
+            "text": "Indicated for avulsion fractures of the palmar distal-phalanx base at the profundus insertion.",
+            "source_ids": [
+              "ao_c8fa94300f2558ac"
+            ]
+          }
+        ],
+        "closure": [
+          {
+            "text": "Reattach A5 and C3 with fine mattress sutures before standard skin closure.",
+            "source_ids": [
+              "ao_c8fa94300f2558ac"
+            ]
+          }
+        ],
+        "complications": [
+          {
+            "text": "Complications include digital neurovascular injury, A4 disruption with bowstringing, and missed profundus-insertion anatomy.",
+            "source_ids": [
+              "ao_c8fa94300f2558ac",
+              "ao_5a649db4ce488812"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "questions": [
+          {
+            "question": "Which pulleys may be divided at the palmar DIP?",
+            "answer": "A5 and C3, leaving at least 2 mm for repair. A4 is preserved.",
+            "source_ids": [
+              "ao_c8fa94300f2558ac"
+            ]
+          },
+          {
+            "question": "Where is the volar plate relative to FDP?",
+            "answer": "Immediately deep to the profundus tendon.",
+            "source_ids": [
+              "ao_c8fa94300f2558ac"
+            ]
+          },
+          {
+            "question": "Where is the Bruner apex placed?",
+            "answer": "At the distal flexor crease, level with the DIP joint.",
+            "source_ids": [
+              "ao_c8fa94300f2558ac"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "approach_id": "hand_middle_phalanx_dorsal",
+      "name": "Dorsal approach to the middle phalanx",
+      "aliases": [
+        "dorsal middle-phalanx shaft approach"
+      ],
+      "region": "hand-middle-phalanges",
+      "joint": "",
+      "bones": [
+        "middle phalanx"
+      ],
+      "corridor": "Dorsal skin (straight, curved, or fasciocutaneous flap) from PIP to DIP, then either a midline split of the terminal extensor and triangular ligament or a paratendon interval between the lateral band and central slip, preserving periosteum and the nail matrix",
+      "sources": [
+        {
+          "source_id": "ao_ae78e73de8f9c222",
+          "provider": "AO Surgery Reference",
+          "title": "Dorsal Approach To Middle Phalanx",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/hand-middle-phalanges/approach/dorsal-approach-to-middle-phalanx",
+          "source_page_id": "ao_ae78e73de8f9c222"
+        },
+        {
+          "source_id": "ao_cd07a2ca87b019ec",
+          "provider": "AO Surgery Reference",
+          "title": "Dorsal Approach To The Proximal Phalanx",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/hand-proximal-phalanges/approach/dorsal-approach-to-the-proximal-phalanx",
+          "source_page_id": "ao_cd07a2ca87b019ec"
+        }
+      ],
+      "procedure_applications": [
+        {
+          "procedure_id": "middle_phalanx_fracture_orif",
+          "relationship": "primary_option",
+          "condition": "An oblique, spiral, comminuted, or transverse middle-phalanx diaphyseal or metaphyseal fracture, or a corrective osteotomy, is fixed dorsally"
+        }
+      ],
+      "sections": {
+        "positioning": [
+          {
+            "text": "Position the hand so the dorsal middle phalanx from PIP to DIP is accessible under tourniquet.",
+            "source_ids": [
+              "ao_ae78e73de8f9c222"
+            ]
+          }
+        ],
+        "surface_landmarks": [
+          {
+            "text": "Mark the PIP and DIP creases, the extensor apparatus, and the nail matrix. Plan a curved incision so the scar does not sit on the radial border of the index or the ulnar border of the little finger.",
+            "source_ids": [
+              "ao_ae78e73de8f9c222",
+              "ao_cd07a2ca87b019ec"
+            ]
+          }
+        ],
+        "incision": [
+          {
+            "text": "Use a straight midline dorsal cut, a curved cut, or a fasciocutaneous flap based on the contralateral digital artery. Distally stay off the nail matrix.",
+            "source_ids": [
+              "ao_ae78e73de8f9c222"
+            ]
+          }
+        ],
+        "superficial_interval": [
+          {
+            "text": "Elevate skin and fascia together, protect dorsal sensory branches, and preserve longitudinal veins; transverse veins may be ligated.",
+            "source_ids": [
+              "ao_ae78e73de8f9c222",
+              "ao_cd07a2ca87b019ec"
+            ]
+          }
+        ],
+        "deep_interval": [
+          {
+            "text": "Either split the terminal extensor and triangular ligament in the midline without detaching the tendon or the periosteum, or enter between the lateral band and central slip and retract the tendon toward the midline.",
+            "source_ids": [
+              "ao_ae78e73de8f9c222",
+              "ao_cd07a2ca87b019ec"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "layers": [
+          {
+            "text": "Skin, dorsal veins and sensory nerves, extensor apparatus and triangular ligament, periosteum, then middle-phalanx cortex.",
+            "source_ids": [
+              "ao_ae78e73de8f9c222"
+            ]
+          }
+        ],
+        "structures_at_risk": [
+          {
+            "text": "The nail matrix, the terminal extensor insertion (detachment causes mallet deformity), dorsal sensory nerves, and longitudinal veins are at risk.",
+            "source_ids": [
+              "ao_ae78e73de8f9c222",
+              "ao_cd07a2ca87b019ec"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "danger_zones": [
+          {
+            "text": "Do not detach the terminal extensor. Distal dissection that enters the nail matrix permanently deforms the nail.",
+            "source_ids": [
+              "ao_ae78e73de8f9c222"
+            ],
+            "risk_level": "medium"
+          }
+        ],
+        "retraction_hazards": [
+          {
+            "text": "Elevate layers together to avoid flap necrosis. A fasciocutaneous flap must not be dissected at its contralateral arterial base.",
+            "source_ids": [
+              "ao_ae78e73de8f9c222"
+            ],
+            "risk_level": "medium"
+          }
+        ],
+        "exposure": [
+          {
+            "text": "Exposes the extensor tendon and the middle-phalanx metaphysis and diaphysis.",
+            "source_ids": [
+              "ao_ae78e73de8f9c222"
+            ]
+          }
+        ],
+        "limitations": [
+          {
+            "text": "A straight midline scar can tether skin to tendon. A curved flap has poorer apical perfusion. Lateral structures are limited from a purely dorsal split.",
+            "source_ids": [
+              "ao_ae78e73de8f9c222"
+            ]
+          }
+        ],
+        "indications": [
+          {
+            "text": "Used for oblique, spiral, comminuted, or transverse middle-phalanx shaft or metaphyseal fractures and for corrective osteotomy.",
+            "source_ids": [
+              "ao_ae78e73de8f9c222"
+            ]
+          }
+        ],
+        "closure": [
+          {
+            "text": "Repair the tendon with 4-0 and ligaments or periosteum with 6-0 nonabsorbable monofilament on an atraumatic needle. Cover metal with periosteum.",
+            "source_ids": [
+              "ao_ae78e73de8f9c222",
+              "ao_cd07a2ca87b019ec"
+            ]
+          }
+        ],
+        "complications": [
+          {
+            "text": "Complications include mallet deformity from terminal-extensor detachment, nail deformity, flap necrosis, and extensor adhesion to uncovered implants.",
+            "source_ids": [
+              "ao_ae78e73de8f9c222",
+              "ao_cd07a2ca87b019ec"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "questions": [
+          {
+            "question": "What happens if the terminal extensor is detached?",
+            "answer": "A mallet-finger deformity.",
+            "source_ids": [
+              "ao_ae78e73de8f9c222"
+            ]
+          },
+          {
+            "question": "What are the two deep options?",
+            "answer": "A midline split of the terminal extensor and triangular ligament, or a paratendon interval between the lateral band and central slip.",
+            "source_ids": [
+              "ao_ae78e73de8f9c222"
+            ]
+          },
+          {
+            "question": "Which veins should be preserved?",
+            "answer": "The longitudinal dorsal veins.",
+            "source_ids": [
+              "ao_ae78e73de8f9c222",
+              "ao_cd07a2ca87b019ec"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "approach_id": "hand_middle_phalanx_midaxial",
+      "name": "Midaxial approach to the middle phalanx",
+      "aliases": [
+        "lateral approach to the middle phalanx"
+      ],
+      "region": "hand-middle-phalanges",
+      "joint": "",
+      "bones": [
+        "middle phalanx"
+      ],
+      "corridor": "Midaxial line marked from the dorsal ends of the flexed flexor creases, staying dorsal to the digital neurovascular bundle, dividing the transverse retinacular ligament on a pick, and exposing the shaft extraperiosteally",
+      "sources": [
+        {
+          "source_id": "ao_eba4b8ad4d434894",
+          "provider": "AO Surgery Reference",
+          "title": "Midaxial Approach To Middle Phalanx",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/hand-middle-phalanges/approach/midaxial-approach-to-middle-phalanx",
+          "source_page_id": "ao_eba4b8ad4d434894"
+        },
+        {
+          "source_id": "ao_262e3660647baac5",
+          "provider": "AO Surgery Reference",
+          "title": "Midaxial Lateral Approach To The Proximal Phalanx",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/hand-proximal-phalanges/approach/midaxial-lateral-approach-to-the-proximal-phalanx",
+          "source_page_id": "ao_262e3660647baac5"
+        },
+        {
+          "source_id": "ao_4513bb2779bb3e8c",
+          "provider": "AO Surgery Reference",
+          "title": "Midaxial Lateral Approach To Pip Joint",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/hand-middle-phalanges/approach/midaxial-lateral-approach-to-pip-joint",
+          "source_page_id": "ao_4513bb2779bb3e8c"
+        }
+      ],
+      "procedure_applications": [
+        {
+          "procedure_id": "middle_phalanx_fracture_orif",
+          "relationship": "primary_option",
+          "condition": "An oblique, spiral, comminuted, or transverse middle-phalanx fracture is fixed from the midaxial line"
+        }
+      ],
+      "sections": {
+        "positioning": [
+          {
+            "text": "Position so the finger can be fully flexed to mark the midaxial line and then extended for the incision.",
+            "source_ids": [
+              "ao_eba4b8ad4d434894",
+              "ao_262e3660647baac5"
+            ]
+          }
+        ],
+        "surface_landmarks": [
+          {
+            "text": "Fully flex the finger, mark the dorsal ends of the flexor creases, then extend the finger and connect the dots. The digital artery and nerve lie palmar to this line.",
+            "source_ids": [
+              "ao_eba4b8ad4d434894",
+              "ao_262e3660647baac5",
+              "ao_4513bb2779bb3e8c"
+            ]
+          }
+        ],
+        "incision": [
+          {
+            "text": "Incise on the marked midaxial line over the middle phalanx and extend proximally if more length is needed.",
+            "source_ids": [
+              "ao_eba4b8ad4d434894"
+            ]
+          }
+        ],
+        "superficial_interval": [
+          {
+            "text": "Elevate thin subcutis bluntly, protect dorsal sensory branches and longitudinal veins, and gently retract the digital neurovascular bundle palmarward.",
+            "source_ids": [
+              "ao_eba4b8ad4d434894",
+              "ao_4513bb2779bb3e8c"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "deep_interval": [
+          {
+            "text": "Divide the transverse retinacular ligament on a dental pick so the collateral ligament is not cut. Retract the dorsal TRL fringe with the lateral band and the palmar remainder palmarward to expose the fracture extraperiosteally.",
+            "source_ids": [
+              "ao_eba4b8ad4d434894",
+              "ao_4513bb2779bb3e8c"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "layers": [
+          {
+            "text": "Skin, dorsal sensory nerves and veins, digital neurovascular bundle palmar to the line, TRL and lateral band, periosteum, then middle-phalanx shaft.",
+            "source_ids": [
+              "ao_eba4b8ad4d434894",
+              "ao_4513bb2779bb3e8c"
+            ]
+          }
+        ],
+        "structures_at_risk": [
+          {
+            "text": "The digital artery and nerve, the collateral ligament under the TRL, and Landsmeer's oblique retinacular ligament (division without repair risks mallet deformity) are at risk.",
+            "source_ids": [
+              "ao_eba4b8ad4d434894",
+              "ao_4513bb2779bb3e8c"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "danger_zones": [
+          {
+            "text": "An incision palmar to the midaxial line enters the digital neurovascular bundle. Cutting the TRL without a pick can divide the collateral ligament.",
+            "source_ids": [
+              "ao_eba4b8ad4d434894",
+              "ao_4513bb2779bb3e8c"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "retraction_hazards": [
+          {
+            "text": "Retract the neurovascular bundle gently palmarward and preserve Landsmeer's ligament or repair it if it must be divided.",
+            "source_ids": [
+              "ao_eba4b8ad4d434894",
+              "ao_4513bb2779bb3e8c"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "exposure": [
+          {
+            "text": "Gives midaxial access to the ligaments and to the middle-phalanx shaft and end segments; articular head work may need distal enlargement.",
+            "source_ids": [
+              "ao_eba4b8ad4d434894"
+            ]
+          }
+        ],
+        "limitations": [
+          {
+            "text": "Only the ipsilateral side is seen. The opposite condyle is not reached.",
+            "source_ids": [
+              "ao_4513bb2779bb3e8c"
+            ]
+          }
+        ],
+        "indications": [
+          {
+            "text": "Indicated for oblique, spiral, comminuted, or transverse middle-phalanx diaphyseal and metaphyseal fractures.",
+            "source_ids": [
+              "ao_eba4b8ad4d434894"
+            ]
+          }
+        ],
+        "closure": [
+          {
+            "text": "Repair the TRL with fine mattress sutures and repair any tendon cut with nonabsorbable monofilament before skin closure.",
+            "source_ids": [
+              "ao_eba4b8ad4d434894",
+              "ao_4513bb2779bb3e8c"
+            ]
+          }
+        ],
+        "complications": [
+          {
+            "text": "Complications include digital neurovascular injury, collateral-ligament division, and mallet deformity if Landsmeer's ligament is divided and not repaired.",
+            "source_ids": [
+              "ao_eba4b8ad4d434894",
+              "ao_4513bb2779bb3e8c"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "questions": [
+          {
+            "question": "How is the safe midaxial line marked?",
+            "answer": "Flex the finger fully, mark the dorsal ends of the flexor creases, extend the finger, and connect the dots.",
+            "source_ids": [
+              "ao_eba4b8ad4d434894",
+              "ao_262e3660647baac5"
+            ]
+          },
+          {
+            "question": "Where do the digital artery and nerve lie relative to this line?",
+            "answer": "Palmar to the midaxial line, beside the flexor sheath.",
+            "source_ids": [
+              "ao_eba4b8ad4d434894",
+              "ao_4513bb2779bb3e8c"
+            ]
+          },
+          {
+            "question": "Why divide the TRL on a dental pick?",
+            "answer": "To avoid accidentally cutting the collateral ligament.",
+            "source_ids": [
+              "ao_eba4b8ad4d434894",
+              "ao_4513bb2779bb3e8c"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "approach_id": "hand_pip_joint_dorsal",
+      "name": "Dorsal approach to the proximal interphalangeal joint",
+      "aliases": [
+        "dorsal PIP approach",
+        "Chamay PIP approach"
+      ],
+      "region": "hand-proximal-phalanges",
+      "joint": "proximal interphalangeal joint",
+      "bones": [
+        "proximal phalanx",
+        "middle phalanx"
+      ],
+      "corridor": "Dorsal straight, curved, or zigzag skin over the PIP, then one of four extensor intervals (central–lateral slip, midline split, lateral to the lateral band, or a distally based Chamay flap), with a vertical capsulotomy that preserves the central-slip insertion",
+      "sources": [
+        {
+          "source_id": "ao_b8d4d73f4633fb8f",
+          "provider": "AO Surgery Reference",
+          "title": "Dorsal Approach To Pip Joint",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/hand-middle-phalanges/approach/dorsal-approach-to-pip-joint",
+          "source_page_id": "ao_b8d4d73f4633fb8f"
+        },
+        {
+          "source_id": "ao_716a37093bfc1d3b",
+          "provider": "AO Surgery Reference",
+          "title": "Dorsal Approaches To The Proximal Interphalangeal Joint",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/hand-proximal-phalanges/approach/dorsal-approaches-to-the-proximal-interphalangeal-joint",
+          "source_page_id": "ao_716a37093bfc1d3b"
+        }
+      ],
+      "procedure_applications": [
+        {
+          "procedure_id": "proximal_phalanx_fracture_orif",
+          "relationship": "primary_option",
+          "condition": "A PIP intra-articular, condylar, or central-slip avulsion fracture is exposed from dorsal"
+        }
+      ],
+      "sections": {
+        "positioning": [
+          {
+            "text": "Position the hand so the PIP can be flexed and extended under tourniquet.",
+            "source_ids": [
+              "ao_b8d4d73f4633fb8f",
+              "ao_716a37093bfc1d3b"
+            ]
+          }
+        ],
+        "surface_landmarks": [
+          {
+            "text": "Mark the PIP crease and plan any curve so the scar avoids the radial index and ulnar little-finger borders.",
+            "source_ids": [
+              "ao_b8d4d73f4633fb8f",
+              "ao_716a37093bfc1d3b"
+            ]
+          }
+        ],
+        "incision": [
+          {
+            "text": "Use a straight midline, curved, or zigzag dorsal incision over the PIP and elevate skin and subcutis as one layer.",
+            "source_ids": [
+              "ao_b8d4d73f4633fb8f",
+              "ao_716a37093bfc1d3b"
+            ]
+          }
+        ],
+        "superficial_interval": [
+          {
+            "text": "Protect dorsal sensory nerves and longitudinal veins while exposing the intact extensor apparatus.",
+            "source_ids": [
+              "ao_b8d4d73f4633fb8f",
+              "ao_716a37093bfc1d3b"
+            ]
+          }
+        ],
+        "deep_interval": [
+          {
+            "text": "The preferred interval is between the central slip and lateral band, then a vertical capsulotomy. Alternatives are a midline tenotomy that does not disinsert the central slip, a cut lateral to the lateral band after dividing the TRL on a pick, or a distally based Chamay V-flap of the central slip left attached to the middle-phalanx base. Flexion lets the lateral band slide palmar and improves the view.",
+            "source_ids": [
+              "ao_b8d4d73f4633fb8f",
+              "ao_716a37093bfc1d3b"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "layers": [
+          {
+            "text": "Skin, dorsal veins and nerves, extensor apparatus, dorsal capsule, then the PIP condyles and middle-phalanx base.",
+            "source_ids": [
+              "ao_b8d4d73f4633fb8f",
+              "ao_716a37093bfc1d3b"
+            ]
+          }
+        ],
+        "structures_at_risk": [
+          {
+            "text": "The central-slip insertion, collateral ligaments, dorsal sensory nerves, and longitudinal veins are at risk. Detaching the central slip or collaterals can produce a boutonnière deformity.",
+            "source_ids": [
+              "ao_b8d4d73f4633fb8f",
+              "ao_716a37093bfc1d3b"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "danger_zones": [
+          {
+            "text": "Do not detach the central-slip insertion from the middle-phalanx base. A purely dorsolateral window cannot reach the opposite condyle of an irreducible bicondylar fracture.",
+            "source_ids": [
+              "ao_b8d4d73f4633fb8f",
+              "ao_716a37093bfc1d3b"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "retraction_hazards": [
+          {
+            "text": "Preserve as many longitudinal veins as possible. After a paratendon approach, reattach the tendon so it does not sublux.",
+            "source_ids": [
+              "ao_b8d4d73f4633fb8f",
+              "ao_716a37093bfc1d3b"
+            ],
+            "risk_level": "medium"
+          }
+        ],
+        "exposure": [
+          {
+            "text": "Exposes the extensor tendon, capsule, collaterals, distal proximal phalanx, and middle-phalanx base, and can be extended along the shaft.",
+            "source_ids": [
+              "ao_b8d4d73f4633fb8f",
+              "ao_716a37093bfc1d3b"
+            ]
+          }
+        ],
+        "limitations": [
+          {
+            "text": "A lateral-to-the-band window sees only the ipsilateral condyle. Midline splitting can weaken extension or produce boutonnière if the central slip is mishandled.",
+            "source_ids": [
+              "ao_b8d4d73f4633fb8f"
+            ]
+          }
+        ],
+        "indications": [
+          {
+            "text": "Indicated for intra-articular PIP fractures, dorsal coronal condylar fractures of the proximal phalanx, and central-slip avulsions from the middle-phalanx base.",
+            "source_ids": [
+              "ao_b8d4d73f4633fb8f",
+              "ao_716a37093bfc1d3b"
+            ]
+          }
+        ],
+        "closure": [
+          {
+            "text": "Repair tendon with 4-0 and ligament or periosteum with 6-0 nonabsorbable monofilament. Cover implants with periosteum.",
+            "source_ids": [
+              "ao_b8d4d73f4633fb8f",
+              "ao_716a37093bfc1d3b"
+            ]
+          }
+        ],
+        "complications": [
+          {
+            "text": "Complications include boutonnière deformity, incomplete condylar exposure from a lateral-only window, extensor adhesion, and flap-apex necrosis with a curved or zigzag cut.",
+            "source_ids": [
+              "ao_b8d4d73f4633fb8f",
+              "ao_716a37093bfc1d3b"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "questions": [
+          {
+            "question": "What is the recommended extensor interval?",
+            "answer": "Between the central slip and the lateral band, then a vertical capsulotomy.",
+            "source_ids": [
+              "ao_b8d4d73f4633fb8f"
+            ]
+          },
+          {
+            "question": "What deformity follows central-slip detachment?",
+            "answer": "A boutonnière deformity.",
+            "source_ids": [
+              "ao_b8d4d73f4633fb8f",
+              "ao_716a37093bfc1d3b"
+            ]
+          },
+          {
+            "question": "What is the Chamay flap?",
+            "answer": "A distally based V-shaped flap of the central slip left attached to the middle-phalanx base.",
+            "source_ids": [
+              "ao_b8d4d73f4633fb8f"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "approach_id": "hand_pip_joint_midaxial",
+      "name": "Midaxial approach to the proximal interphalangeal joint",
+      "aliases": [
+        "lateral PIP approach"
+      ],
+      "region": "hand-proximal-phalanges",
+      "joint": "proximal interphalangeal joint",
+      "bones": [
+        "proximal phalanx",
+        "middle phalanx"
+      ],
+      "corridor": "Short midaxial incision over the PIP, TRL divided on a pick, then windows proximal, between, and distal to the collateral ligaments, or an alternative interval between the central and lateral slips",
+      "sources": [
+        {
+          "source_id": "ao_4513bb2779bb3e8c",
+          "provider": "AO Surgery Reference",
+          "title": "Midaxial Lateral Approach To Pip Joint",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/hand-middle-phalanges/approach/midaxial-lateral-approach-to-pip-joint",
+          "source_page_id": "ao_4513bb2779bb3e8c"
+        },
+        {
+          "source_id": "ao_6f042a57beae4527",
+          "provider": "AO Surgery Reference",
+          "title": "Midaxial Lateral Approach To The Proximal Interphalangeal Joint",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/hand-proximal-phalanges/approach/midaxial-lateral-approach-to-the-proximal-interphalangeal-joint",
+          "source_page_id": "ao_6f042a57beae4527"
+        }
+      ],
+      "procedure_applications": [
+        {
+          "procedure_id": "proximal_phalanx_fracture_orif",
+          "relationship": "primary_option",
+          "condition": "A unicondylar, basal, or selected bicondylar PIP fracture or an irreducible dislocation needing collateral repair is approached from the midaxial line"
+        }
+      ],
+      "sections": {
+        "positioning": [
+          {
+            "text": "Position so the finger can be flexed to mark the midaxial line and later flexed at the PIP to open an extensor interval.",
+            "source_ids": [
+              "ao_4513bb2779bb3e8c",
+              "ao_6f042a57beae4527"
+            ]
+          }
+        ],
+        "surface_landmarks": [
+          {
+            "text": "Mark the midaxial line from the dorsal ends of the flexed flexor creases. The digital neurovascular bundle is palmar to this line.",
+            "source_ids": [
+              "ao_4513bb2779bb3e8c",
+              "ao_6f042a57beae4527"
+            ]
+          }
+        ],
+        "incision": [
+          {
+            "text": "Incise the short midaxial segment over the PIP (midpoint A–B to midpoint B–C). A limited cut can support percutaneous fixation.",
+            "source_ids": [
+              "ao_4513bb2779bb3e8c",
+              "ao_6f042a57beae4527"
+            ]
+          }
+        ],
+        "superficial_interval": [
+          {
+            "text": "Protect dorsal sensory nerves and longitudinal veins and keep the digital artery and nerve palmar.",
+            "source_ids": [
+              "ao_4513bb2779bb3e8c",
+              "ao_6f042a57beae4527"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "deep_interval": [
+          {
+            "text": "Divide the TRL on a dental pick. Retract the dorsal fringe with the lateral band and the palmar remainder palmarward. Develop windows proximal to the collaterals (distal proximal-phalanx shaft), between true and accessory collaterals (small articular fragments), and distal to the collaterals (middle-phalanx shaft). Alternatively flex the PIP and enter between the central and lateral slips without detaching the central slip.",
+            "source_ids": [
+              "ao_4513bb2779bb3e8c",
+              "ao_6f042a57beae4527"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "layers": [
+          {
+            "text": "Skin, dorsal nerves and veins, TRL and lateral band, collateral ligaments, capsule, then the ipsilateral PIP.",
+            "source_ids": [
+              "ao_4513bb2779bb3e8c",
+              "ao_6f042a57beae4527"
+            ]
+          }
+        ],
+        "structures_at_risk": [
+          {
+            "text": "The digital neurovascular bundle, collateral ligaments, Landsmeer's oblique retinacular ligaments, and the central-slip insertion are at risk.",
+            "source_ids": [
+              "ao_4513bb2779bb3e8c",
+              "ao_6f042a57beae4527"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "danger_zones": [
+          {
+            "text": "This window does not reach the opposite condyle, so it is insufficient for many irreducible bicondylar fractures. Detaching the central slip produces boutonnière deformity.",
+            "source_ids": [
+              "ao_4513bb2779bb3e8c",
+              "ao_6f042a57beae4527"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "retraction_hazards": [
+          {
+            "text": "Repair Landsmeer's ligaments if they are divided, or the extensor tendon can dislocate.",
+            "source_ids": [
+              "ao_4513bb2779bb3e8c",
+              "ao_6f042a57beae4527"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "exposure": [
+          {
+            "text": "Shows the ipsilateral extensor mechanism, distal proximal-phalanx condyle, middle-phalanx base, volar plate, and ligaments—about half of the dorsal joint compared with a dorsal approach.",
+            "source_ids": [
+              "ao_4513bb2779bb3e8c",
+              "ao_6f042a57beae4527"
+            ]
+          }
+        ],
+        "limitations": [
+          {
+            "text": "The opposite condyle is not accessible. Only half of the dorsal joint is seen.",
+            "source_ids": [
+              "ao_4513bb2779bb3e8c",
+              "ao_6f042a57beae4527"
+            ]
+          }
+        ],
+        "indications": [
+          {
+            "text": "Used for intra- or extra-articular basal fractures, condylar fractures, selected bicondylar patterns whose main line faces this side, and irreducible dislocations needing collateral repair.",
+            "source_ids": [
+              "ao_4513bb2779bb3e8c",
+              "ao_6f042a57beae4527"
+            ]
+          }
+        ],
+        "closure": [
+          {
+            "text": "Repair tendon cuts with nonabsorbable monofilament, cover implants with periosteum, and repair the TRL with multiple fine mattress sutures.",
+            "source_ids": [
+              "ao_4513bb2779bb3e8c",
+              "ao_6f042a57beae4527"
+            ]
+          }
+        ],
+        "complications": [
+          {
+            "text": "Complications include missed opposite-condyle pathology, boutonnière from central-slip injury, extensor dislocation if Landsmeer is not repaired, and digital neurovascular injury.",
+            "source_ids": [
+              "ao_4513bb2779bb3e8c",
+              "ao_6f042a57beae4527"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "questions": [
+          {
+            "question": "Why is this approach insufficient for many bicondylar PIP fractures?",
+            "answer": "It does not reach the opposite condyle.",
+            "source_ids": [
+              "ao_4513bb2779bb3e8c",
+              "ao_6f042a57beae4527"
+            ]
+          },
+          {
+            "question": "What are the three TRL windows?",
+            "answer": "Proximal to the collaterals (distal proximal-phalanx shaft), between true and accessory collaterals (small articular fragments), and distal to the collaterals (middle-phalanx shaft).",
+            "source_ids": [
+              "ao_4513bb2779bb3e8c",
+              "ao_6f042a57beae4527"
+            ]
+          },
+          {
+            "question": "What must be preserved in the alternative extensor-interval window?",
+            "answer": "The central-slip insertion.",
+            "source_ids": [
+              "ao_4513bb2779bb3e8c",
+              "ao_6f042a57beae4527"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "approach_id": "hand_proximal_phalanx_dorsal",
+      "name": "Dorsal approach to the proximal phalanx",
+      "aliases": [
+        "Pratt dorsal proximal-phalanx approach"
+      ],
+      "region": "hand-proximal-phalanges",
+      "joint": "",
+      "bones": [
+        "proximal phalanx"
+      ],
+      "corridor": "Dorsal straight, curved, zigzag, or fasciocutaneous exposure from MCP to PIP, then a midline extensor split that stops short of the central slip or a paratendon interval between the lateral band and central slip",
+      "sources": [
+        {
+          "source_id": "ao_cd07a2ca87b019ec",
+          "provider": "AO Surgery Reference",
+          "title": "Dorsal Approach To The Proximal Phalanx",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/hand-proximal-phalanges/approach/dorsal-approach-to-the-proximal-phalanx",
+          "source_page_id": "ao_cd07a2ca87b019ec"
+        },
+        {
+          "source_id": "ao_ae78e73de8f9c222",
+          "provider": "AO Surgery Reference",
+          "title": "Dorsal Approach To Middle Phalanx",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/hand-middle-phalanges/approach/dorsal-approach-to-middle-phalanx",
+          "source_page_id": "ao_ae78e73de8f9c222"
+        }
+      ],
+      "procedure_applications": [
+        {
+          "procedure_id": "proximal_phalanx_fracture_orif",
+          "relationship": "primary_option",
+          "condition": "A proximal-phalanx intra-articular, metaphyseal, or diaphyseal fracture is fixed through a dorsal Pratt window"
+        }
+      ],
+      "sections": {
+        "positioning": [
+          {
+            "text": "Position the hand so the dorsum of the proximal phalanx from MCP to PIP is accessible.",
+            "source_ids": [
+              "ao_cd07a2ca87b019ec"
+            ]
+          }
+        ],
+        "surface_landmarks": [
+          {
+            "text": "Mark the MCP and PIP creases and plan any curve off the radial index and ulnar little-finger borders.",
+            "source_ids": [
+              "ao_cd07a2ca87b019ec",
+              "ao_ae78e73de8f9c222"
+            ]
+          }
+        ],
+        "incision": [
+          {
+            "text": "Use a straight cut from MCP to proximal PIP, a gentle curve, a zigzag, or a fasciocutaneous flap based on the contralateral digital artery.",
+            "source_ids": [
+              "ao_cd07a2ca87b019ec"
+            ]
+          }
+        ],
+        "superficial_interval": [
+          {
+            "text": "Elevate layers together, protect dorsal sensory nerves, and preserve longitudinal veins.",
+            "source_ids": [
+              "ao_cd07a2ca87b019ec",
+              "ao_ae78e73de8f9c222"
+            ]
+          }
+        ],
+        "deep_interval": [
+          {
+            "text": "Split the extensor along its midline fibers without cutting periosteum and without going so far distal that the central slip is injured, or enter between the lateral band and central slip. Elevate periosteum only next to the fracture.",
+            "source_ids": [
+              "ao_cd07a2ca87b019ec"
+            ],
+            "risk_level": "medium"
+          }
+        ],
+        "layers": [
+          {
+            "text": "Skin, dorsal veins and nerves, extensor apparatus, periosteum, then the proximal-phalanx shaft.",
+            "source_ids": [
+              "ao_cd07a2ca87b019ec"
+            ]
+          }
+        ],
+        "structures_at_risk": [
+          {
+            "text": "The central slip (injury causes boutonnière), dorsal sensory nerves, and longitudinal veins are at risk.",
+            "source_ids": [
+              "ao_cd07a2ca87b019ec",
+              "ao_ae78e73de8f9c222"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "danger_zones": [
+          {
+            "text": "A split carried too far distal injures the central slip and can produce a boutonnière deformity.",
+            "source_ids": [
+              "ao_cd07a2ca87b019ec"
+            ],
+            "risk_level": "medium"
+          }
+        ],
+        "retraction_hazards": [
+          {
+            "text": "After a paratendon approach reattach the tendon so it does not sublux. Limit fasciocutaneous-flap dissection at its arterial base.",
+            "source_ids": [
+              "ao_cd07a2ca87b019ec"
+            ],
+            "risk_level": "medium"
+          }
+        ],
+        "exposure": [
+          {
+            "text": "Exposes the extensor and the dorsal proximal-phalanx shaft; extension can include the MCP or PIP.",
+            "source_ids": [
+              "ao_cd07a2ca87b019ec"
+            ]
+          }
+        ],
+        "limitations": [
+          {
+            "text": "A straight midline scar can tether skin to tendon. A curved flap has poorer apical perfusion.",
+            "source_ids": [
+              "ao_cd07a2ca87b019ec",
+              "ao_ae78e73de8f9c222"
+            ]
+          }
+        ],
+        "indications": [
+          {
+            "text": "Used for proximal intra-articular, metaphyseal, and diaphyseal proximal-phalanx fractures, including basal articular fractures that extend into the shaft.",
+            "source_ids": [
+              "ao_cd07a2ca87b019ec"
+            ]
+          }
+        ],
+        "closure": [
+          {
+            "text": "Repair tendon incisions with nonabsorbable monofilament and cover implants with periosteum.",
+            "source_ids": [
+              "ao_cd07a2ca87b019ec",
+              "ao_ae78e73de8f9c222"
+            ]
+          }
+        ],
+        "complications": [
+          {
+            "text": "Complications include boutonnière deformity, extensor adhesion to uncovered metal, and flap-apex necrosis.",
+            "source_ids": [
+              "ao_cd07a2ca87b019ec",
+              "ao_ae78e73de8f9c222"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "questions": [
+          {
+            "question": "What eponym is attached to the dorsal proximal-phalanx approach?",
+            "answer": "Pratt.",
+            "source_ids": [
+              "ao_cd07a2ca87b019ec"
+            ]
+          },
+          {
+            "question": "Why must a midline extensor split not run too far distal?",
+            "answer": "It can injure the central slip and produce a boutonnière deformity.",
+            "source_ids": [
+              "ao_cd07a2ca87b019ec"
+            ]
+          },
+          {
+            "question": "How much periosteum should be elevated?",
+            "answer": "Only immediately adjacent to the fracture line.",
+            "source_ids": [
+              "ao_cd07a2ca87b019ec"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "approach_id": "hand_proximal_phalanx_midaxial",
+      "name": "Midaxial approach to the proximal phalanx",
+      "aliases": [
+        "lateral approach to the proximal phalanx"
+      ],
+      "region": "hand-proximal-phalanges",
+      "joint": "",
+      "bones": [
+        "proximal phalanx"
+      ],
+      "corridor": "Midaxial line from the dorsal flexor-crease marks, retracting or rarely resecting oblique lateral-band fibers, staying out of the flexor sheath, and elevating periosteum only at the fracture",
+      "sources": [
+        {
+          "source_id": "ao_262e3660647baac5",
+          "provider": "AO Surgery Reference",
+          "title": "Midaxial Lateral Approach To The Proximal Phalanx",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/hand-proximal-phalanges/approach/midaxial-lateral-approach-to-the-proximal-phalanx",
+          "source_page_id": "ao_262e3660647baac5"
+        },
+        {
+          "source_id": "ao_eba4b8ad4d434894",
+          "provider": "AO Surgery Reference",
+          "title": "Midaxial Approach To Middle Phalanx",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/hand-middle-phalanges/approach/midaxial-approach-to-middle-phalanx",
+          "source_page_id": "ao_eba4b8ad4d434894"
+        }
+      ],
+      "procedure_applications": [
+        {
+          "procedure_id": "proximal_phalanx_fracture_orif",
+          "relationship": "primary_option",
+          "condition": "An oblique, spiral, transverse, or multifragmentary proximal-phalanx shaft or metaphyseal fracture is fixed from the midaxial line"
+        }
+      ],
+      "sections": {
+        "positioning": [
+          {
+            "text": "Position so the finger can be fully flexed to mark the midaxial line.",
+            "source_ids": [
+              "ao_262e3660647baac5",
+              "ao_eba4b8ad4d434894"
+            ]
+          }
+        ],
+        "surface_landmarks": [
+          {
+            "text": "Flex the finger, mark the dorsal ends of the flexor creases, extend the finger, and connect the dots. The digital neurovascular bundle is palmar to this line.",
+            "source_ids": [
+              "ao_262e3660647baac5",
+              "ao_eba4b8ad4d434894"
+            ]
+          }
+        ],
+        "incision": [
+          {
+            "text": "For proximal fractures incise from B to C on the marked line and extend to A if more length is needed.",
+            "source_ids": [
+              "ao_262e3660647baac5"
+            ]
+          }
+        ],
+        "superficial_interval": [
+          {
+            "text": "Protect dorsal sensory nerves and longitudinal veins and keep the digital artery and nerve palmar.",
+            "source_ids": [
+              "ao_262e3660647baac5",
+              "ao_eba4b8ad4d434894"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "deep_interval": [
+          {
+            "text": "Retract the oblique fibers of the lateral band. For very proximal fractures those fibers may be resected on one side to avoid implant impingement. Elevate periosteum only next to the fracture and generally stay out of the flexor sheath.",
+            "source_ids": [
+              "ao_262e3660647baac5"
+            ]
+          }
+        ],
+        "layers": [
+          {
+            "text": "Skin, dorsal nerves and veins, lateral-band fibers, periosteum, then the proximal-phalanx shaft.",
+            "source_ids": [
+              "ao_262e3660647baac5"
+            ]
+          }
+        ],
+        "structures_at_risk": [
+          {
+            "text": "The digital neurovascular bundle palmar to the line and the flexor sheath (if entered unintentionally) are at risk.",
+            "source_ids": [
+              "ao_262e3660647baac5",
+              "ao_eba4b8ad4d434894"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "danger_zones": [
+          {
+            "text": "An incision palmar to the midaxial line enters the digital neurovascular bundle. Unnecessary periosteal stripping promotes adhesion and fragment devascularization.",
+            "source_ids": [
+              "ao_262e3660647baac5",
+              "ao_eba4b8ad4d434894"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "retraction_hazards": [
+          {
+            "text": "If the tendon interval is opened, repair it so the tendon does not sublux.",
+            "source_ids": [
+              "ao_262e3660647baac5"
+            ],
+            "risk_level": "medium"
+          }
+        ],
+        "exposure": [
+          {
+            "text": "Gives midaxial access to the ligaments and to the proximal phalanx including its end segments.",
+            "source_ids": [
+              "ao_262e3660647baac5"
+            ]
+          }
+        ],
+        "limitations": [
+          {
+            "text": "Only the ipsilateral side is seen. The flexor sheath is not a routine working space.",
+            "source_ids": [
+              "ao_262e3660647baac5"
+            ]
+          }
+        ],
+        "indications": [
+          {
+            "text": "Indicated for oblique, spiral, transverse, and multifragmentary diaphyseal and metaphyseal proximal-phalanx fractures.",
+            "source_ids": [
+              "ao_262e3660647baac5"
+            ]
+          }
+        ],
+        "closure": [
+          {
+            "text": "Repair any tendon cut with nonabsorbable monofilament, cover implants with periosteum, and repair the tendon sheath if a paratendon interval was used.",
+            "source_ids": [
+              "ao_262e3660647baac5"
+            ]
+          }
+        ],
+        "complications": [
+          {
+            "text": "Complications include digital neurovascular injury, tendon adhesion, fragment devascularization from periosteal stripping, and tendon subluxation if the interval is not repaired.",
+            "source_ids": [
+              "ao_262e3660647baac5",
+              "ao_eba4b8ad4d434894"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "questions": [
+          {
+            "question": "For proximal fractures, which segment of the midaxial line is used?",
+            "answer": "From B to C, extended to A if more length is needed.",
+            "source_ids": [
+              "ao_262e3660647baac5"
+            ]
+          },
+          {
+            "question": "When may oblique lateral-band fibers be resected?",
+            "answer": "For visualization of very proximal fractures, to avoid implant impingement and intrinsic adhesions.",
+            "source_ids": [
+              "ao_262e3660647baac5"
+            ]
+          },
+          {
+            "question": "Should the flexor sheath be opened routinely?",
+            "answer": "No. Avoid penetrating it unless a tendon laceration is being repaired.",
+            "source_ids": [
+              "ao_262e3660647baac5"
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

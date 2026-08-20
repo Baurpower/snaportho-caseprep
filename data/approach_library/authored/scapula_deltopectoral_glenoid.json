@@ -1,0 +1,343 @@
+{
+  "schema_version": "brobot_approach_packet_v1",
+  "approach_id": "scapula_deltopectoral_glenoid",
+  "name": "Deltopectoral approach for anterior glenoid and scapular work",
+  "aliases": [
+    "anterior deltopectoral approach to the glenoid"
+  ],
+  "region": "scapula",
+  "joint": "shoulder",
+  "bones": [
+    "glenoid",
+    "proximal humerus"
+  ],
+  "corridor": "12–14 cm deltopectoral interval from coracoid toward the deltoid insertion, clavipectoral fascia lateral to the conjoint tendon, vertical subscapularis tenotomy and medial capsulotomy to retract the head and see the glenoid",
+  "positioning": [
+    {
+      "text": "Position so the coracoid, proximal humeral shaft at the axilla, and acromion can be marked.",
+      "claim_ids": [
+        "scapula_deltopectoral_glenoid_positioning_01"
+      ]
+    }
+  ],
+  "setup": [],
+  "surface_landmarks": [
+    {
+      "text": "Mark the coracoid, the proximal humeral shaft at the axilla, and the acromion. The cut can be extended to the AC joint or acromion.",
+      "claim_ids": [
+        "scapula_deltopectoral_glenoid_surface_landmarks_01"
+      ]
+    }
+  ],
+  "incision": [
+    {
+      "text": "Make a 12–14 cm cut between the coracoid and the proximal humeral shaft toward the deltoid insertion.",
+      "claim_ids": [
+        "scapula_deltopectoral_glenoid_incision_01"
+      ]
+    }
+  ],
+  "superficial_interval": [
+    {
+      "text": "Develop the pectoralis–deltoid interval and preserve the cephalic vein, taking it either way. Missing the groove risks denervating anterior deltoid.",
+      "claim_ids": [
+        "scapula_deltopectoral_glenoid_superficial_interval_01"
+      ]
+    }
+  ],
+  "deep_interval": [
+    {
+      "text": "Incise clavipectoral fascia lateral to the conjoint tendon and inferior to the coracoacromial ligament. Retract deltoid laterally and the conjoint tendon medially. The musculocutaneous nerve enters coracobrachialis as close as 2.5 cm distal to the coracoid. Divide subscapularis vertically lateral to the musculotendinous junction, reflect it from capsule, and enter the joint with a vertical capsulotomy medial to the lateral subscapularis stump. Retract the head to see the glenoid.",
+      "claim_ids": [
+        "scapula_deltopectoral_glenoid_deep_interval_01"
+      ]
+    }
+  ],
+  "layers": [
+    {
+      "text": "Skin, deltopectoral groove and cephalic vein, clavipectoral fascia, subscapularis, capsule, then the glenoid.",
+      "claim_ids": [
+        "scapula_deltopectoral_glenoid_layers_01"
+      ]
+    }
+  ],
+  "structures_encountered": [],
+  "structures_at_risk": [
+    {
+      "text": "The cephalic vein, musculocutaneous nerve, axillary nerve (on subscapularis then inferior to the glenoid into the quadrilateral space), anterior circumflex vessels, and the brachial plexus with excessive medial retraction are at risk.",
+      "claim_ids": [
+        "scapula_deltopectoral_glenoid_structures_at_risk_01"
+      ]
+    }
+  ],
+  "danger_zones": [
+    {
+      "text": "Vigorous medial retraction under the conjoint tendon is the musculocutaneous-nerve danger zone. The axillary nerve is unseen but present on medial subscapularis and inferior to the glenoid.",
+      "claim_ids": [
+        "scapula_deltopectoral_glenoid_danger_zones_01"
+      ]
+    }
+  ],
+  "retraction_hazards": [
+    {
+      "text": "Avoid excessive medial traction on the conjoint tendon and plexus.",
+      "claim_ids": [
+        "scapula_deltopectoral_glenoid_retraction_hazards_01"
+      ]
+    }
+  ],
+  "exposure": [
+    {
+      "text": "Preferred for almost any shoulder fracture and especially for anterior glenoid fractures; it is also the recommended extensile anterior corridor.",
+      "claim_ids": [
+        "scapula_deltopectoral_glenoid_exposure_01"
+      ]
+    }
+  ],
+  "limitations": [
+    {
+      "text": "The axillary nerve is not seen and must be respected. Posterior scapular body work needs a different window.",
+      "claim_ids": [
+        "scapula_deltopectoral_glenoid_limitations_01"
+      ]
+    }
+  ],
+  "extensions": [],
+  "indications": [
+    {
+      "text": "Used for almost any shoulder fracture treatment and especially for anterior glenoid fractures.",
+      "claim_ids": [
+        "scapula_deltopectoral_glenoid_indications_01"
+      ]
+    }
+  ],
+  "relative_contraindications": [],
+  "implant_implications": [],
+  "fluoroscopy_implications": [],
+  "closure": [
+    {
+      "text": "Repair capsule then subscapularis, obtain hemostasis (cephalic vein or the inferior subscapularis vessel trio), close the deltopectoral groove, and close skin. A drain may be used.",
+      "claim_ids": [
+        "scapula_deltopectoral_glenoid_closure_01"
+      ]
+    }
+  ],
+  "complications": [
+    {
+      "text": "Complications include musculocutaneous or axillary-nerve injury, cephalic-vein bleeding, and anterior deltoid denervation if the groove is missed.",
+      "claim_ids": [
+        "scapula_deltopectoral_glenoid_complications_01"
+      ]
+    }
+  ],
+  "bailouts": [],
+  "procedure_applications": [
+    {
+      "procedure_id": "glenoid_fracture_orif",
+      "relationship": "primary_option",
+      "condition": "An anterior glenoid or other anterior shoulder fracture is exposed through the deltopectoral interval"
+    }
+  ],
+  "questions": [
+    {
+      "question": "How close to the coracoid can the musculocutaneous nerve enter coracobrachialis?",
+      "answer": "As close as 2.5 cm distal to the coracoid tip.",
+      "claim_ids": [
+        "scapula_deltopectoral_glenoid_questions_01"
+      ]
+    },
+    {
+      "question": "Where is the subscapularis divided?",
+      "answer": "Vertically, lateral to the musculotendinous junction.",
+      "claim_ids": [
+        "scapula_deltopectoral_glenoid_questions_02"
+      ]
+    },
+    {
+      "question": "How is the glenoid then seen?",
+      "answer": "After a vertical capsulotomy medial to the lateral subscapularis stump, the humeral head is retracted.",
+      "claim_ids": [
+        "scapula_deltopectoral_glenoid_questions_03"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "scapula_deltopectoral_glenoid_positioning_01",
+      "text": "Position so the coracoid, proximal humeral shaft at the axilla, and acromion can be marked.",
+      "source_ids": [
+        "ao_33a2adf3f7c2a8d6",
+        "ao_c5861e08ea2a1064"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "scapula_deltopectoral_glenoid_surface_landmarks_01",
+      "text": "Mark the coracoid, the proximal humeral shaft at the axilla, and the acromion. The cut can be extended to the AC joint or acromion.",
+      "source_ids": [
+        "ao_33a2adf3f7c2a8d6"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "scapula_deltopectoral_glenoid_incision_01",
+      "text": "Make a 12–14 cm cut between the coracoid and the proximal humeral shaft toward the deltoid insertion.",
+      "source_ids": [
+        "ao_33a2adf3f7c2a8d6",
+        "ao_c5861e08ea2a1064"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "scapula_deltopectoral_glenoid_superficial_interval_01",
+      "text": "Develop the pectoralis–deltoid interval and preserve the cephalic vein, taking it either way. Missing the groove risks denervating anterior deltoid.",
+      "source_ids": [
+        "ao_33a2adf3f7c2a8d6",
+        "ao_c5861e08ea2a1064"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "scapula_deltopectoral_glenoid_deep_interval_01",
+      "text": "Incise clavipectoral fascia lateral to the conjoint tendon and inferior to the coracoacromial ligament. Retract deltoid laterally and the conjoint tendon medially. The musculocutaneous nerve enters coracobrachialis as close as 2.5 cm distal to the coracoid. Divide subscapularis vertically lateral to the musculotendinous junction, reflect it from capsule, and enter the joint with a vertical capsulotomy medial to the lateral subscapularis stump. Retract the head to see the glenoid.",
+      "source_ids": [
+        "ao_33a2adf3f7c2a8d6",
+        "ao_c5861e08ea2a1064"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "scapula_deltopectoral_glenoid_layers_01",
+      "text": "Skin, deltopectoral groove and cephalic vein, clavipectoral fascia, subscapularis, capsule, then the glenoid.",
+      "source_ids": [
+        "ao_33a2adf3f7c2a8d6"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "scapula_deltopectoral_glenoid_structures_at_risk_01",
+      "text": "The cephalic vein, musculocutaneous nerve, axillary nerve (on subscapularis then inferior to the glenoid into the quadrilateral space), anterior circumflex vessels, and the brachial plexus with excessive medial retraction are at risk.",
+      "source_ids": [
+        "ao_33a2adf3f7c2a8d6",
+        "ao_c5861e08ea2a1064"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "scapula_deltopectoral_glenoid_danger_zones_01",
+      "text": "Vigorous medial retraction under the conjoint tendon is the musculocutaneous-nerve danger zone. The axillary nerve is unseen but present on medial subscapularis and inferior to the glenoid.",
+      "source_ids": [
+        "ao_33a2adf3f7c2a8d6"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "scapula_deltopectoral_glenoid_retraction_hazards_01",
+      "text": "Avoid excessive medial traction on the conjoint tendon and plexus.",
+      "source_ids": [
+        "ao_33a2adf3f7c2a8d6"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "scapula_deltopectoral_glenoid_exposure_01",
+      "text": "Preferred for almost any shoulder fracture and especially for anterior glenoid fractures; it is also the recommended extensile anterior corridor.",
+      "source_ids": [
+        "ao_33a2adf3f7c2a8d6"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "scapula_deltopectoral_glenoid_limitations_01",
+      "text": "The axillary nerve is not seen and must be respected. Posterior scapular body work needs a different window.",
+      "source_ids": [
+        "ao_33a2adf3f7c2a8d6"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "scapula_deltopectoral_glenoid_indications_01",
+      "text": "Used for almost any shoulder fracture treatment and especially for anterior glenoid fractures.",
+      "source_ids": [
+        "ao_33a2adf3f7c2a8d6"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "scapula_deltopectoral_glenoid_closure_01",
+      "text": "Repair capsule then subscapularis, obtain hemostasis (cephalic vein or the inferior subscapularis vessel trio), close the deltopectoral groove, and close skin. A drain may be used.",
+      "source_ids": [
+        "ao_33a2adf3f7c2a8d6"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "scapula_deltopectoral_glenoid_complications_01",
+      "text": "Complications include musculocutaneous or axillary-nerve injury, cephalic-vein bleeding, and anterior deltoid denervation if the groove is missed.",
+      "source_ids": [
+        "ao_33a2adf3f7c2a8d6",
+        "ao_c5861e08ea2a1064"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "scapula_deltopectoral_glenoid_questions_01",
+      "text": "How close to the coracoid can the musculocutaneous nerve enter coracobrachialis?",
+      "source_ids": [
+        "ao_33a2adf3f7c2a8d6"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "scapula_deltopectoral_glenoid_questions_02",
+      "text": "Where is the subscapularis divided?",
+      "source_ids": [
+        "ao_33a2adf3f7c2a8d6"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "scapula_deltopectoral_glenoid_questions_03",
+      "text": "How is the glenoid then seen?",
+      "source_ids": [
+        "ao_33a2adf3f7c2a8d6"
+      ],
+      "risk_level": "medium"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "ao_33a2adf3f7c2a8d6",
+      "provider": "AO Surgery Reference",
+      "title": "Deltopectoral Approach",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/scapula/approach/deltopectoral-approach",
+      "source_page_id": "ao_33a2adf3f7c2a8d6"
+    },
+    {
+      "source_id": "ao_c5861e08ea2a1064",
+      "provider": "AO Surgery Reference",
+      "title": "Deltopectoral approach to the proximal humerus",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/proximal-humerus/approach/deltopectoral-approach-to-the-proximal-humerus",
+      "source_page_id": "ao_c5861e08ea2a1064"
+    }
+  ],
+  "content_status": "agent_review_pending",
+  "review": {
+    "status": "agent_review_pending",
+    "required_roles": [
+      "adversarial_safety_reviewer",
+      "approach_anatomy_reviewer",
+      "educational_value_reviewer",
+      "evidence_reviewer",
+      "operative_exposure_reviewer",
+      "procedure_applicability_reviewer"
+    ],
+    "completed_roles": []
+  },
+  "resolved_contradiction_keys": [],
+  "authoring_provenance": {
+    "method": "local_codex_curated",
+    "definition_file": "data/approach_library/curated/pediatric_tibia_scapula_batch001_v1.json",
+    "api_used": false
+  }
+}

@@ -1,0 +1,339 @@
+{
+  "schema_version": "brobot_approach_packet_v1",
+  "approach_id": "proximal_femur_transgluteal",
+  "name": "Transgluteal approach to the proximal femur",
+  "aliases": [
+    "anterior gluteus medius-splitting approach to the femoral neck"
+  ],
+  "region": "proximal-femur",
+  "joint": "hip",
+  "bones": [
+    "proximal femur"
+  ],
+  "corridor": "Transgluteal split within gluteus medius with an anterior vastus lateralis sleeve to the anterior femoral neck, limiting the split to protect the nerve to gluteus medius",
+  "positioning": [
+    {
+      "text": "Position supine or lateral with the greater trochanter and anterior femoral neck accessible.",
+      "claim_ids": [
+        "proximal_femur_transgluteal_positioning_01"
+      ]
+    }
+  ],
+  "setup": [],
+  "surface_landmarks": [
+    {
+      "text": "Mark the anterior superior iliac spine, the greater trochanter, and the femoral axis.",
+      "claim_ids": [
+        "proximal_femur_transgluteal_surface_landmarks_01"
+      ]
+    }
+  ],
+  "incision": [
+    {
+      "text": "Begin several centimeters proximal to the ASIS and run the incision along the femoral axis just anterior to the greater trochanter, extending equally above and below it.",
+      "claim_ids": [
+        "proximal_femur_transgluteal_incision_01"
+      ]
+    }
+  ],
+  "superficial_interval": [
+    {
+      "text": "Incise the fascia lata along the anterior border of gluteus maximus and develop the plane within the gluteus medius between its anterior and medial parts.",
+      "claim_ids": [
+        "proximal_femur_transgluteal_superficial_interval_01"
+      ]
+    }
+  ],
+  "deep_interval": [
+    {
+      "text": "Mobilize vastus lateralis from the anterolateral femur and dissect the anterior gluteus medius off the trochanter, not splitting the muscle more than 30 to 40 percent of its length to protect its motor nerve, then make a Z-capsulotomy avoiding the labrum.",
+      "claim_ids": [
+        "proximal_femur_transgluteal_deep_interval_01"
+      ]
+    }
+  ],
+  "layers": [
+    {
+      "text": "Skin, fascia lata, gluteus medius, the anterior capsule, and the femoral neck.",
+      "claim_ids": [
+        "proximal_femur_transgluteal_layers_01"
+      ]
+    }
+  ],
+  "structures_encountered": [],
+  "structures_at_risk": [
+    {
+      "text": "The motor nerve to gluteus medius is at risk if the muscle is split too far proximally, and the labrum during capsulotomy.",
+      "claim_ids": [
+        "proximal_femur_transgluteal_structures_at_risk_01"
+      ]
+    }
+  ],
+  "danger_zones": [
+    {
+      "text": "Splitting the gluteus medius more than 30 to 40 percent of its length is the danger zone for its motor nerve.",
+      "claim_ids": [
+        "proximal_femur_transgluteal_danger_zones_01"
+      ]
+    }
+  ],
+  "retraction_hazards": [
+    {
+      "text": "Limit the proximal extent of the gluteus medius split and avoid cutting the labrum during capsulotomy.",
+      "claim_ids": [
+        "proximal_femur_transgluteal_retraction_hazards_01"
+      ]
+    }
+  ],
+  "exposure": [
+    {
+      "text": "Exposes the anterior femoral neck for open reduction and stabilization.",
+      "claim_ids": [
+        "proximal_femur_transgluteal_exposure_01"
+      ]
+    }
+  ],
+  "limitations": [
+    {
+      "text": "The safe proximal split is limited by the motor nerve to gluteus medius, restricting cranial exposure.",
+      "claim_ids": [
+        "proximal_femur_transgluteal_limitations_01"
+      ]
+    }
+  ],
+  "extensions": [],
+  "indications": [
+    {
+      "text": "Indicated for open reduction and stabilization of extracapsular neck fractures and nondisplaced complete intracapsular fractures.",
+      "claim_ids": [
+        "proximal_femur_transgluteal_indications_01"
+      ]
+    }
+  ],
+  "relative_contraindications": [],
+  "implant_implications": [],
+  "fluoroscopy_implications": [],
+  "closure": [
+    {
+      "text": "Close the capsule loosely to prevent a pressurized hemarthrosis and reposition the trochanteric bursa.",
+      "claim_ids": [
+        "proximal_femur_transgluteal_closure_01"
+      ]
+    }
+  ],
+  "complications": [
+    {
+      "text": "Complications include gluteus medius weakness from motor nerve injury and hemarthrosis.",
+      "claim_ids": [
+        "proximal_femur_transgluteal_complications_01"
+      ]
+    }
+  ],
+  "bailouts": [],
+  "procedure_applications": [
+    {
+      "procedure_id": "femoral_neck_fracture_orif_young",
+      "relationship": "primary_option",
+      "condition": "A pediatric extracapsular neck fracture or a nondisplaced complete intracapsular fracture needs open reduction or stabilization"
+    }
+  ],
+  "questions": [
+    {
+      "question": "How far may the gluteus medius be split in the transgluteal approach?",
+      "answer": "No more than 30 to 40 percent of its length, to protect its motor nerve.",
+      "claim_ids": [
+        "proximal_femur_transgluteal_questions_01"
+      ]
+    },
+    {
+      "question": "What does the transgluteal approach expose?",
+      "answer": "The anterior femoral neck.",
+      "claim_ids": [
+        "proximal_femur_transgluteal_questions_02"
+      ]
+    },
+    {
+      "question": "Why is the capsule closed loosely?",
+      "answer": "To prevent a pressurized hemarthrosis.",
+      "claim_ids": [
+        "proximal_femur_transgluteal_questions_03"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "proximal_femur_transgluteal_positioning_01",
+      "text": "Position supine or lateral with the greater trochanter and anterior femoral neck accessible.",
+      "source_ids": [
+        "ao_28b2da9187de318d"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "proximal_femur_transgluteal_surface_landmarks_01",
+      "text": "Mark the anterior superior iliac spine, the greater trochanter, and the femoral axis.",
+      "source_ids": [
+        "ao_28b2da9187de318d"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "proximal_femur_transgluteal_incision_01",
+      "text": "Begin several centimeters proximal to the ASIS and run the incision along the femoral axis just anterior to the greater trochanter, extending equally above and below it.",
+      "source_ids": [
+        "ao_28b2da9187de318d"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "proximal_femur_transgluteal_superficial_interval_01",
+      "text": "Incise the fascia lata along the anterior border of gluteus maximus and develop the plane within the gluteus medius between its anterior and medial parts.",
+      "source_ids": [
+        "ao_28b2da9187de318d"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "proximal_femur_transgluteal_deep_interval_01",
+      "text": "Mobilize vastus lateralis from the anterolateral femur and dissect the anterior gluteus medius off the trochanter, not splitting the muscle more than 30 to 40 percent of its length to protect its motor nerve, then make a Z-capsulotomy avoiding the labrum.",
+      "source_ids": [
+        "ao_28b2da9187de318d"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "proximal_femur_transgluteal_layers_01",
+      "text": "Skin, fascia lata, gluteus medius, the anterior capsule, and the femoral neck.",
+      "source_ids": [
+        "ao_28b2da9187de318d"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "proximal_femur_transgluteal_structures_at_risk_01",
+      "text": "The motor nerve to gluteus medius is at risk if the muscle is split too far proximally, and the labrum during capsulotomy.",
+      "source_ids": [
+        "ao_28b2da9187de318d",
+        "ao_235b0fb9748c5272"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "proximal_femur_transgluteal_danger_zones_01",
+      "text": "Splitting the gluteus medius more than 30 to 40 percent of its length is the danger zone for its motor nerve.",
+      "source_ids": [
+        "ao_28b2da9187de318d"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "proximal_femur_transgluteal_retraction_hazards_01",
+      "text": "Limit the proximal extent of the gluteus medius split and avoid cutting the labrum during capsulotomy.",
+      "source_ids": [
+        "ao_28b2da9187de318d"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "proximal_femur_transgluteal_exposure_01",
+      "text": "Exposes the anterior femoral neck for open reduction and stabilization.",
+      "source_ids": [
+        "ao_28b2da9187de318d"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "proximal_femur_transgluteal_limitations_01",
+      "text": "The safe proximal split is limited by the motor nerve to gluteus medius, restricting cranial exposure.",
+      "source_ids": [
+        "ao_28b2da9187de318d"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "proximal_femur_transgluteal_indications_01",
+      "text": "Indicated for open reduction and stabilization of extracapsular neck fractures and nondisplaced complete intracapsular fractures.",
+      "source_ids": [
+        "ao_28b2da9187de318d"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "proximal_femur_transgluteal_closure_01",
+      "text": "Close the capsule loosely to prevent a pressurized hemarthrosis and reposition the trochanteric bursa.",
+      "source_ids": [
+        "ao_28b2da9187de318d",
+        "ao_235b0fb9748c5272"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "proximal_femur_transgluteal_complications_01",
+      "text": "Complications include gluteus medius weakness from motor nerve injury and hemarthrosis.",
+      "source_ids": [
+        "ao_28b2da9187de318d"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "proximal_femur_transgluteal_questions_01",
+      "text": "How far may the gluteus medius be split in the transgluteal approach?",
+      "source_ids": [
+        "ao_28b2da9187de318d"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "proximal_femur_transgluteal_questions_02",
+      "text": "What does the transgluteal approach expose?",
+      "source_ids": [
+        "ao_28b2da9187de318d"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "proximal_femur_transgluteal_questions_03",
+      "text": "Why is the capsule closed loosely?",
+      "source_ids": [
+        "ao_28b2da9187de318d",
+        "ao_235b0fb9748c5272"
+      ],
+      "risk_level": "medium"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "ao_28b2da9187de318d",
+      "provider": "AO Surgery Reference",
+      "title": "Transgluteal approach (pediatric proximal femur)",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/pediatric-trauma/proximal-femur/approach/transgluteal-approach",
+      "source_page_id": "ao_28b2da9187de318d"
+    },
+    {
+      "source_id": "ao_235b0fb9748c5272",
+      "provider": "AO Surgery Reference",
+      "title": "Surgical hip dislocation (pediatric proximal femur)",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/pediatric-trauma/proximal-femur/approach/surgical-hip-dislocation",
+      "source_page_id": "ao_235b0fb9748c5272"
+    }
+  ],
+  "content_status": "agent_review_pending",
+  "review": {
+    "status": "agent_review_pending",
+    "required_roles": [
+      "adversarial_safety_reviewer",
+      "approach_anatomy_reviewer",
+      "educational_value_reviewer",
+      "evidence_reviewer",
+      "operative_exposure_reviewer",
+      "procedure_applicability_reviewer"
+    ],
+    "completed_roles": []
+  },
+  "resolved_contradiction_keys": [],
+  "authoring_provenance": {
+    "method": "local_codex_curated",
+    "definition_file": "data/approach_library/curated/proximal_femur_batch004_v1.json",
+    "api_used": false
+  }
+}

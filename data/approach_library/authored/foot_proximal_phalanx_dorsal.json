@@ -1,0 +1,353 @@
+{
+  "schema_version": "brobot_approach_packet_v1",
+  "approach_id": "foot_proximal_phalanx_dorsal",
+  "name": "Dorsal approach to a proximal phalanx of the foot",
+  "aliases": [
+    "dorsal midline approach to the toe phalanx"
+  ],
+  "region": "foot-phalanges",
+  "joint": "",
+  "bones": [
+    "proximal phalanx"
+  ],
+  "corridor": "Dorsal midline interval over the toe through or beside the extensor tendon to the phalanx, keeping the digital neurovascular bundles on the sides protected",
+  "positioning": [
+    {
+      "text": "Position supine with the forefoot at the end of the table under tourniquet control.",
+      "claim_ids": [
+        "foot_proximal_phalanx_dorsal_positioning_01"
+      ]
+    }
+  ],
+  "setup": [],
+  "surface_landmarks": [
+    {
+      "text": "Use the dorsal midline axis of the toe, since the digital arteries and nerves lie on the medial and lateral aspects.",
+      "claim_ids": [
+        "foot_proximal_phalanx_dorsal_surface_landmarks_01"
+      ]
+    }
+  ],
+  "incision": [
+    {
+      "text": "Make a longitudinal incision over the center of the toe from the MTP joint to the PIP joint.",
+      "claim_ids": [
+        "foot_proximal_phalanx_dorsal_incision_01"
+      ]
+    }
+  ],
+  "superficial_interval": [
+    {
+      "text": "Either expose and retract the extensor tendon, or divide it with a Z-lengthening using short proximal and distal transverse cuts joined by a longitudinal midline cut.",
+      "claim_ids": [
+        "foot_proximal_phalanx_dorsal_superficial_interval_01"
+      ]
+    }
+  ],
+  "deep_interval": [
+    {
+      "text": "Dissect the capsule on each side and insert small right-angle retractors to protect the neurovascular structures before capsulotomy or bone work.",
+      "claim_ids": [
+        "foot_proximal_phalanx_dorsal_deep_interval_01"
+      ]
+    }
+  ],
+  "layers": [
+    {
+      "text": "Skin, subcutaneous tissue with dorsal veins, extensor tendon, capsule, and the phalanx.",
+      "claim_ids": [
+        "foot_proximal_phalanx_dorsal_layers_01"
+      ]
+    }
+  ],
+  "structures_encountered": [],
+  "structures_at_risk": [
+    {
+      "text": "The dorsal digital nerves and the digital neurovascular bundles on each side and the extensor tendon are at risk.",
+      "claim_ids": [
+        "foot_proximal_phalanx_dorsal_structures_at_risk_01"
+      ]
+    }
+  ],
+  "danger_zones": [
+    {
+      "text": "The medial and lateral borders of the toe are the danger zones for the digital nerves and arteries.",
+      "claim_ids": [
+        "foot_proximal_phalanx_dorsal_danger_zones_01"
+      ]
+    }
+  ],
+  "retraction_hazards": [
+    {
+      "text": "Use small right-angle retractors on each side to protect the neurovascular bundles and preserve longitudinal dorsal veins.",
+      "claim_ids": [
+        "foot_proximal_phalanx_dorsal_retraction_hazards_01"
+      ]
+    }
+  ],
+  "exposure": [
+    {
+      "text": "Exposes the dorsal surface of the proximal phalanx from the MTP to the PIP joint.",
+      "claim_ids": [
+        "foot_proximal_phalanx_dorsal_exposure_01"
+      ]
+    }
+  ],
+  "limitations": [
+    {
+      "text": "Exposure is limited by the small size of the toe and the need to protect the side-lying digital neurovascular bundles.",
+      "claim_ids": [
+        "foot_proximal_phalanx_dorsal_limitations_01"
+      ]
+    }
+  ],
+  "extensions": [],
+  "indications": [
+    {
+      "text": "Indicated for fixation or osteotomy of a proximal phalanx of the foot.",
+      "claim_ids": [
+        "foot_proximal_phalanx_dorsal_indications_01"
+      ]
+    }
+  ],
+  "relative_contraindications": [],
+  "implant_implications": [],
+  "fluoroscopy_implications": [],
+  "closure": [
+    {
+      "text": "Repair the extensor tendon with a 3-0 suture if divided and close the wound with a running 4-0 self-absorbing suture.",
+      "claim_ids": [
+        "foot_proximal_phalanx_dorsal_closure_01"
+      ]
+    }
+  ],
+  "complications": [
+    {
+      "text": "Complications include dorsal digital nerve injury, extensor tendon problems, and stiffness.",
+      "claim_ids": [
+        "foot_proximal_phalanx_dorsal_complications_01"
+      ]
+    }
+  ],
+  "bailouts": [],
+  "procedure_applications": [
+    {
+      "procedure_id": "hallux_valgus_correction",
+      "relationship": "conditional_option",
+      "condition": "Dorsal open exposure of a phalanx is needed, for example for phalangeal fracture fixation or osteotomy"
+    }
+  ],
+  "questions": [
+    {
+      "question": "Why is a dorsal midline incision chosen over the toe?",
+      "answer": "Because the digital arteries and nerves lie on the medial and lateral aspects, away from the midline.",
+      "claim_ids": [
+        "foot_proximal_phalanx_dorsal_questions_01"
+      ]
+    },
+    {
+      "question": "How is the extensor tendon managed in this approach?",
+      "answer": "It is either retracted or divided with a Z-lengthening for repair at closure.",
+      "claim_ids": [
+        "foot_proximal_phalanx_dorsal_questions_02"
+      ]
+    },
+    {
+      "question": "How are the digital neurovascular bundles protected?",
+      "answer": "With small right-angle retractors placed on each side before capsulotomy.",
+      "claim_ids": [
+        "foot_proximal_phalanx_dorsal_questions_03"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "foot_proximal_phalanx_dorsal_positioning_01",
+      "text": "Position supine with the forefoot at the end of the table under tourniquet control.",
+      "source_ids": [
+        "ao_1a49f0de5394c729"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "foot_proximal_phalanx_dorsal_surface_landmarks_01",
+      "text": "Use the dorsal midline axis of the toe, since the digital arteries and nerves lie on the medial and lateral aspects.",
+      "source_ids": [
+        "ao_1a49f0de5394c729"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "foot_proximal_phalanx_dorsal_incision_01",
+      "text": "Make a longitudinal incision over the center of the toe from the MTP joint to the PIP joint.",
+      "source_ids": [
+        "ao_1a49f0de5394c729"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "foot_proximal_phalanx_dorsal_superficial_interval_01",
+      "text": "Either expose and retract the extensor tendon, or divide it with a Z-lengthening using short proximal and distal transverse cuts joined by a longitudinal midline cut.",
+      "source_ids": [
+        "ao_1a49f0de5394c729"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "foot_proximal_phalanx_dorsal_deep_interval_01",
+      "text": "Dissect the capsule on each side and insert small right-angle retractors to protect the neurovascular structures before capsulotomy or bone work.",
+      "source_ids": [
+        "ao_1a49f0de5394c729"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "foot_proximal_phalanx_dorsal_layers_01",
+      "text": "Skin, subcutaneous tissue with dorsal veins, extensor tendon, capsule, and the phalanx.",
+      "source_ids": [
+        "ao_1a49f0de5394c729"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "foot_proximal_phalanx_dorsal_structures_at_risk_01",
+      "text": "The dorsal digital nerves and the digital neurovascular bundles on each side and the extensor tendon are at risk.",
+      "source_ids": [
+        "ao_1a49f0de5394c729",
+        "ao_bcc8b63468456cbc"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "foot_proximal_phalanx_dorsal_danger_zones_01",
+      "text": "The medial and lateral borders of the toe are the danger zones for the digital nerves and arteries.",
+      "source_ids": [
+        "ao_1a49f0de5394c729",
+        "ao_bcc8b63468456cbc"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "foot_proximal_phalanx_dorsal_retraction_hazards_01",
+      "text": "Use small right-angle retractors on each side to protect the neurovascular bundles and preserve longitudinal dorsal veins.",
+      "source_ids": [
+        "ao_1a49f0de5394c729"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "foot_proximal_phalanx_dorsal_exposure_01",
+      "text": "Exposes the dorsal surface of the proximal phalanx from the MTP to the PIP joint.",
+      "source_ids": [
+        "ao_1a49f0de5394c729"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "foot_proximal_phalanx_dorsal_limitations_01",
+      "text": "Exposure is limited by the small size of the toe and the need to protect the side-lying digital neurovascular bundles.",
+      "source_ids": [
+        "ao_1a49f0de5394c729"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "foot_proximal_phalanx_dorsal_indications_01",
+      "text": "Indicated for fixation or osteotomy of a proximal phalanx of the foot.",
+      "source_ids": [
+        "ao_1a49f0de5394c729"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "foot_proximal_phalanx_dorsal_closure_01",
+      "text": "Repair the extensor tendon with a 3-0 suture if divided and close the wound with a running 4-0 self-absorbing suture.",
+      "source_ids": [
+        "ao_1a49f0de5394c729"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "foot_proximal_phalanx_dorsal_complications_01",
+      "text": "Complications include dorsal digital nerve injury, extensor tendon problems, and stiffness.",
+      "source_ids": [
+        "ao_1a49f0de5394c729",
+        "ao_bcc8b63468456cbc"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "foot_proximal_phalanx_dorsal_questions_01",
+      "text": "Why is a dorsal midline incision chosen over the toe?",
+      "source_ids": [
+        "ao_1a49f0de5394c729"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "foot_proximal_phalanx_dorsal_questions_02",
+      "text": "How is the extensor tendon managed in this approach?",
+      "source_ids": [
+        "ao_1a49f0de5394c729"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "foot_proximal_phalanx_dorsal_questions_03",
+      "text": "How are the digital neurovascular bundles protected?",
+      "source_ids": [
+        "ao_1a49f0de5394c729"
+      ],
+      "risk_level": "medium"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "ao_1a49f0de5394c729",
+      "provider": "AO Surgery Reference",
+      "title": "Dorsal approach to the proximal phalanx (foot)",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/foot-phalanges/approach/dorsal-approach-to-the-proximal-phalanx",
+      "source_page_id": "ao_1a49f0de5394c729"
+    },
+    {
+      "source_id": "ao_bcc8b63468456cbc",
+      "provider": "AO Surgery Reference",
+      "title": "Dorsal approach to the first metatarsophalangeal joint (MTPJ)",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/foot-phalanges/approach/dorsal-approach-to-the-first-metatarsal-phalangeal-joint-mtpj",
+      "source_page_id": "ao_bcc8b63468456cbc"
+    },
+    {
+      "source_id": "ao_3c5569f2b2353725",
+      "provider": "AO Surgery Reference",
+      "title": "Dorsal approach to the proximal phalanx (metatarsals)",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/metatarsals/approach/dorsal-approach-to-the-proximal-phalanx",
+      "source_page_id": "ao_3c5569f2b2353725"
+    },
+    {
+      "source_id": "orthobullets_8a89ed574d5bad5f",
+      "provider": "Orthobullets",
+      "title": "Approach To Ip Joint Of The Toes",
+      "url": "https://www.orthobullets.com/approaches/12053/approach-to-ip-joint-of-the-toes",
+      "source_page_id": "orthobullets_8a89ed574d5bad5f"
+    }
+  ],
+  "content_status": "agent_review_pending",
+  "review": {
+    "status": "agent_review_pending",
+    "required_roles": [
+      "adversarial_safety_reviewer",
+      "approach_anatomy_reviewer",
+      "educational_value_reviewer",
+      "evidence_reviewer",
+      "operative_exposure_reviewer",
+      "procedure_applicability_reviewer"
+    ],
+    "completed_roles": []
+  },
+  "resolved_contradiction_keys": [],
+  "authoring_provenance": {
+    "method": "local_codex_curated",
+    "definition_file": "data/approach_library/curated/foot_humerus_batch001_v1.json",
+    "api_used": false
+  }
+}

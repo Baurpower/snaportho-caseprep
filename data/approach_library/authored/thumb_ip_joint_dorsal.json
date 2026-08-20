@@ -1,0 +1,345 @@
+{
+  "schema_version": "brobot_approach_packet_v1",
+  "approach_id": "thumb_ip_joint_dorsal",
+  "name": "Dorsal approach to the thumb interphalangeal joint",
+  "aliases": [
+    "dorsal thumb IP approach"
+  ],
+  "region": "thumb",
+  "joint": "interphalangeal",
+  "bones": [
+    "distal phalanx",
+    "proximal phalanx"
+  ],
+  "corridor": "Dorsal H-, Y-, lazy-S, midline, or transverse flaps over the thumb IP joint, with EPL tenotomy or single-sided retraction to the joint",
+  "positioning": [
+    {
+      "text": "Position the hand so the dorsal thumb IP joint and distal-phalanx base are accessible under tourniquet.",
+      "claim_ids": [
+        "thumb_ip_joint_dorsal_positioning_01"
+      ]
+    }
+  ],
+  "setup": [],
+  "surface_landmarks": [
+    {
+      "text": "Mark the IP joint. The joint line lies deep to the most distal dorsal extensor crease; a transverse cut placed too proximal misses the distal-phalanx base.",
+      "claim_ids": [
+        "thumb_ip_joint_dorsal_surface_landmarks_01"
+      ]
+    }
+  ],
+  "incision": [
+    {
+      "text": "Use an H-, Y-, lazy-S, or midline longitudinal cut. If an H is chosen, diverge the sides slightly to spare flap vessels. A simple transverse cut can suffice for osteosynthesis or arthrodesis preparation if it sits over the true joint line.",
+      "claim_ids": [
+        "thumb_ip_joint_dorsal_incision_01"
+      ]
+    }
+  ],
+  "superficial_interval": [
+    {
+      "text": "Elevate flaps and hold them with fine sutures. Coagulate tiny veins with bipolar forceps.",
+      "claim_ids": [
+        "thumb_ip_joint_dorsal_superficial_interval_01"
+      ]
+    }
+  ],
+  "deep_interval": [
+    {
+      "text": "Divide distal EPL with a transverse, step-cut, or long-oblique tenotomy (step-cut and oblique are easier to repair), retract the tendon proximally, and enter the IP joint. A straight dorsoradial or dorsoulnar cut can retract EPL without dividing it but shows only one condyle.",
+      "claim_ids": [
+        "thumb_ip_joint_dorsal_deep_interval_01"
+      ]
+    }
+  ],
+  "layers": [
+    {
+      "text": "Skin flaps, dorsal veins, EPL tendon, then the IP joint.",
+      "claim_ids": [
+        "thumb_ip_joint_dorsal_layers_01"
+      ]
+    }
+  ],
+  "structures_encountered": [],
+  "structures_at_risk": [
+    {
+      "text": "Flap blood supply, tiny dorsal veins, and EPL (which must be repaired after tenotomy) are at risk. A proximal transverse cut that misses the joint line limits access to the distal-phalanx base.",
+      "claim_ids": [
+        "thumb_ip_joint_dorsal_structures_at_risk_01"
+      ]
+    }
+  ],
+  "danger_zones": [
+    {
+      "text": "Placing a transverse incision too proximal, at the more proximal crease rather than the most distal dorsal crease, is the common access error.",
+      "claim_ids": [
+        "thumb_ip_joint_dorsal_danger_zones_01"
+      ]
+    }
+  ],
+  "retraction_hazards": [
+    {
+      "text": "Hold flaps with sutures rather than crushing them, and do not expect a single-sided EPL retraction to show both condyles.",
+      "claim_ids": [
+        "thumb_ip_joint_dorsal_retraction_hazards_01"
+      ]
+    }
+  ],
+  "exposure": [
+    {
+      "text": "Shows the thumb IP joint for arthrodesis, intra-articular fractures, EPL avulsion from the distal-phalanx base, and collateral avulsions.",
+      "claim_ids": [
+        "thumb_ip_joint_dorsal_exposure_01"
+      ]
+    }
+  ],
+  "limitations": [
+    {
+      "text": "Retracting EPL without tenotomy reaches only one condyle.",
+      "claim_ids": [
+        "thumb_ip_joint_dorsal_limitations_01"
+      ]
+    }
+  ],
+  "extensions": [],
+  "indications": [
+    {
+      "text": "Indicated for IP arthrodesis, intra-articular IP fractures, EPL avulsion fractures of the distal-phalanx base, and IP collateral avulsions.",
+      "claim_ids": [
+        "thumb_ip_joint_dorsal_indications_01"
+      ]
+    }
+  ],
+  "relative_contraindications": [],
+  "implant_implications": [],
+  "fluoroscopy_implications": [],
+  "closure": [
+    {
+      "text": "Repair an EPL tenotomy with fine interrupted mattress sutures and close the skin.",
+      "claim_ids": [
+        "thumb_ip_joint_dorsal_closure_01"
+      ]
+    }
+  ],
+  "complications": [
+    {
+      "text": "Complications include flap ischemia, missed joint-line placement, and incomplete EPL repair after tenotomy.",
+      "claim_ids": [
+        "thumb_ip_joint_dorsal_complications_01"
+      ]
+    }
+  ],
+  "bailouts": [],
+  "procedure_applications": [
+    {
+      "procedure_id": "thumb_fracture_orif",
+      "relationship": "primary_option",
+      "condition": "A thumb IP intra-articular fracture, EPL avulsion from the distal-phalanx base, collateral avulsion, or IP arthrodesis is exposed dorsally"
+    }
+  ],
+  "questions": [
+    {
+      "question": "Where is the thumb IP joint line relative to the dorsal creases?",
+      "answer": "Deep to the most distal dorsal extensor crease; a more proximal crease leads the less experienced surgeon to place a transverse cut too high.",
+      "claim_ids": [
+        "thumb_ip_joint_dorsal_questions_01"
+      ]
+    },
+    {
+      "question": "Which EPL tenotomies are easier to repair?",
+      "answer": "A step cut or a long oblique cut, rather than a simple transverse tenotomy.",
+      "claim_ids": [
+        "thumb_ip_joint_dorsal_questions_02"
+      ]
+    },
+    {
+      "question": "What does retracting EPL without dividing it allow?",
+      "answer": "Access to only one condyle, never both.",
+      "claim_ids": [
+        "thumb_ip_joint_dorsal_questions_03"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "thumb_ip_joint_dorsal_positioning_01",
+      "text": "Position the hand so the dorsal thumb IP joint and distal-phalanx base are accessible under tourniquet.",
+      "source_ids": [
+        "ao_359f89af791d95fa",
+        "ao_5a649db4ce488812"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "thumb_ip_joint_dorsal_surface_landmarks_01",
+      "text": "Mark the IP joint. The joint line lies deep to the most distal dorsal extensor crease; a transverse cut placed too proximal misses the distal-phalanx base.",
+      "source_ids": [
+        "ao_359f89af791d95fa"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "thumb_ip_joint_dorsal_incision_01",
+      "text": "Use an H-, Y-, lazy-S, or midline longitudinal cut. If an H is chosen, diverge the sides slightly to spare flap vessels. A simple transverse cut can suffice for osteosynthesis or arthrodesis preparation if it sits over the true joint line.",
+      "source_ids": [
+        "ao_359f89af791d95fa",
+        "ao_5a649db4ce488812"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "thumb_ip_joint_dorsal_superficial_interval_01",
+      "text": "Elevate flaps and hold them with fine sutures. Coagulate tiny veins with bipolar forceps.",
+      "source_ids": [
+        "ao_359f89af791d95fa",
+        "ao_5a649db4ce488812"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "thumb_ip_joint_dorsal_deep_interval_01",
+      "text": "Divide distal EPL with a transverse, step-cut, or long-oblique tenotomy (step-cut and oblique are easier to repair), retract the tendon proximally, and enter the IP joint. A straight dorsoradial or dorsoulnar cut can retract EPL without dividing it but shows only one condyle.",
+      "source_ids": [
+        "ao_359f89af791d95fa"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "thumb_ip_joint_dorsal_layers_01",
+      "text": "Skin flaps, dorsal veins, EPL tendon, then the IP joint.",
+      "source_ids": [
+        "ao_359f89af791d95fa",
+        "ao_5a649db4ce488812"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "thumb_ip_joint_dorsal_structures_at_risk_01",
+      "text": "Flap blood supply, tiny dorsal veins, and EPL (which must be repaired after tenotomy) are at risk. A proximal transverse cut that misses the joint line limits access to the distal-phalanx base.",
+      "source_ids": [
+        "ao_359f89af791d95fa",
+        "ao_5a649db4ce488812"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "thumb_ip_joint_dorsal_danger_zones_01",
+      "text": "Placing a transverse incision too proximal, at the more proximal crease rather than the most distal dorsal crease, is the common access error.",
+      "source_ids": [
+        "ao_359f89af791d95fa"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "thumb_ip_joint_dorsal_retraction_hazards_01",
+      "text": "Hold flaps with sutures rather than crushing them, and do not expect a single-sided EPL retraction to show both condyles.",
+      "source_ids": [
+        "ao_359f89af791d95fa",
+        "ao_5a649db4ce488812"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "thumb_ip_joint_dorsal_exposure_01",
+      "text": "Shows the thumb IP joint for arthrodesis, intra-articular fractures, EPL avulsion from the distal-phalanx base, and collateral avulsions.",
+      "source_ids": [
+        "ao_359f89af791d95fa"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "thumb_ip_joint_dorsal_limitations_01",
+      "text": "Retracting EPL without tenotomy reaches only one condyle.",
+      "source_ids": [
+        "ao_359f89af791d95fa"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "thumb_ip_joint_dorsal_indications_01",
+      "text": "Indicated for IP arthrodesis, intra-articular IP fractures, EPL avulsion fractures of the distal-phalanx base, and IP collateral avulsions.",
+      "source_ids": [
+        "ao_359f89af791d95fa"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "thumb_ip_joint_dorsal_closure_01",
+      "text": "Repair an EPL tenotomy with fine interrupted mattress sutures and close the skin.",
+      "source_ids": [
+        "ao_359f89af791d95fa",
+        "ao_5a649db4ce488812"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "thumb_ip_joint_dorsal_complications_01",
+      "text": "Complications include flap ischemia, missed joint-line placement, and incomplete EPL repair after tenotomy.",
+      "source_ids": [
+        "ao_359f89af791d95fa",
+        "ao_5a649db4ce488812"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "thumb_ip_joint_dorsal_questions_01",
+      "text": "Where is the thumb IP joint line relative to the dorsal creases?",
+      "source_ids": [
+        "ao_359f89af791d95fa"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "thumb_ip_joint_dorsal_questions_02",
+      "text": "Which EPL tenotomies are easier to repair?",
+      "source_ids": [
+        "ao_359f89af791d95fa"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "thumb_ip_joint_dorsal_questions_03",
+      "text": "What does retracting EPL without dividing it allow?",
+      "source_ids": [
+        "ao_359f89af791d95fa"
+      ],
+      "risk_level": "medium"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "ao_359f89af791d95fa",
+      "provider": "AO Surgery Reference",
+      "title": "Dorsal Approach To The Ip Joint Of The Thumb",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/thumb/approach/dorsal-approach-to-the-ip-joint-of-the-thumb",
+      "source_page_id": "ao_359f89af791d95fa"
+    },
+    {
+      "source_id": "ao_5a649db4ce488812",
+      "provider": "AO Surgery Reference",
+      "title": "Dorsal Approach To The Dip Joint",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/hand-distal-phalanges/approach/dorsal-approach-to-the-dip-joint",
+      "source_page_id": "ao_5a649db4ce488812"
+    }
+  ],
+  "content_status": "agent_review_pending",
+  "review": {
+    "status": "agent_review_pending",
+    "required_roles": [
+      "adversarial_safety_reviewer",
+      "approach_anatomy_reviewer",
+      "educational_value_reviewer",
+      "evidence_reviewer",
+      "operative_exposure_reviewer",
+      "procedure_applicability_reviewer"
+    ],
+    "completed_roles": []
+  },
+  "resolved_contradiction_keys": [],
+  "authoring_provenance": {
+    "method": "local_codex_curated",
+    "definition_file": "data/approach_library/curated/thumb_batch001_v1.json",
+    "api_used": false
+  }
+}

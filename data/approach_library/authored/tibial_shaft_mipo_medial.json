@@ -1,0 +1,361 @@
+{
+  "schema_version": "brobot_approach_packet_v1",
+  "approach_id": "tibial_shaft_mipo_medial",
+  "name": "Minimally invasive medial approach to the tibial shaft",
+  "aliases": [
+    "medial tibial MIPO"
+  ],
+  "region": "tibial-shaft",
+  "joint": "",
+  "bones": [
+    "tibia"
+  ],
+  "corridor": "Separate proximal and distal 5 cm medial windows spanning plate length, with a subcutaneous epiperiosteal tunnel that leaves periosteum and muscle intact",
+  "positioning": [
+    {
+      "text": "Position so separate medial windows and a large distractor can be used. In children, mark both physes before cutting.",
+      "claim_ids": [
+        "tibial_shaft_mipo_medial_positioning_01"
+      ]
+    }
+  ],
+  "setup": [],
+  "surface_landmarks": [
+    {
+      "text": "Mark the medial tibial face, planned plate length, and the distal saphenous vein and nerve.",
+      "claim_ids": [
+        "tibial_shaft_mipo_medial_surface_landmarks_01"
+      ]
+    }
+  ],
+  "incision": [
+    {
+      "text": "Make separate proximal and distal cuts about 5 cm long on the medial tibia, spanning the plate. Distally use a straight cut (more direct but over the plate) or a slightly oblique cut (off the plate, possibly fewer wound problems, but closer to the saphenous vein and nerve).",
+      "claim_ids": [
+        "tibial_shaft_mipo_medial_incision_01"
+      ]
+    }
+  ],
+  "superficial_interval": [
+    {
+      "text": "Deepen to intact periosteum. Identify and protect the saphenous vein and nerve in the distal window.",
+      "claim_ids": [
+        "tibial_shaft_mipo_medial_superficial_interval_01"
+      ]
+    }
+  ],
+  "deep_interval": [
+    {
+      "text": "Prepare a tunnel under subcutaneous tissue and over intact periosteum with an elevator or the plate. Do not strip periosteum. In children, do not damage the perichondral ring at either physis. A large distractor helps reduce and hold the fracture. This window does not take muscle off bone and does not affect tibial blood supply.",
+      "claim_ids": [
+        "tibial_shaft_mipo_medial_deep_interval_01"
+      ]
+    }
+  ],
+  "layers": [
+    {
+      "text": "Skin, saphenous plane, intact periosteum, then a subcutaneous medial plate tunnel.",
+      "claim_ids": [
+        "tibial_shaft_mipo_medial_layers_01"
+      ]
+    }
+  ],
+  "structures_encountered": [],
+  "structures_at_risk": [
+    {
+      "text": "The saphenous vein and nerve distally, medial skin over a plate, and in children the physes and perichondral rings are at risk.",
+      "claim_ids": [
+        "tibial_shaft_mipo_medial_structures_at_risk_01"
+      ]
+    }
+  ],
+  "danger_zones": [
+    {
+      "text": "An oblique distal cut that hits the saphenous structures, and using the window through injured medial skin, are the danger zones.",
+      "claim_ids": [
+        "tibial_shaft_mipo_medial_danger_zones_01"
+      ]
+    }
+  ],
+  "retraction_hazards": [
+    {
+      "text": "Protect the saphenous vein and nerve while inserting the plate; do not convert the tunnel into periosteal stripping.",
+      "claim_ids": [
+        "tibial_shaft_mipo_medial_retraction_hazards_01"
+      ]
+    }
+  ],
+  "exposure": [
+    {
+      "text": "Preferred MIPO corridor for tibial fractures, especially distal, when skin is healthy. A contoured plate fits the medial face relatively easily.",
+      "claim_ids": [
+        "tibial_shaft_mipo_medial_exposure_01"
+      ]
+    }
+  ],
+  "limitations": [
+    {
+      "text": "Unsafe if overlying skin is injured.",
+      "claim_ids": [
+        "tibial_shaft_mipo_medial_limitations_01"
+      ]
+    }
+  ],
+  "extensions": [],
+  "indications": [
+    {
+      "text": "Used for minimally invasive medial plating, particularly of distal tibial fractures, when the medial envelope is intact.",
+      "claim_ids": [
+        "tibial_shaft_mipo_medial_indications_01"
+      ]
+    }
+  ],
+  "relative_contraindications": [],
+  "implant_implications": [],
+  "fluoroscopy_implications": [],
+  "closure": [
+    {
+      "text": "Close skin and subcutaneous tissue.",
+      "claim_ids": [
+        "tibial_shaft_mipo_medial_closure_01"
+      ]
+    }
+  ],
+  "complications": [
+    {
+      "text": "Complications include saphenous injury, wound breakdown over a subcutaneous plate, and physeal injury in children.",
+      "claim_ids": [
+        "tibial_shaft_mipo_medial_complications_01"
+      ]
+    }
+  ],
+  "bailouts": [],
+  "procedure_applications": [
+    {
+      "procedure_id": "tibial_shaft_fracture_orif",
+      "relationship": "primary_option",
+      "condition": "A tibial fracture, especially distal, is bridge-plated on the medial face when the skin is healthy"
+    }
+  ],
+  "questions": [
+    {
+      "question": "What is the trade-off between a straight and an oblique distal medial window?",
+      "answer": "Straight is more direct but lies over the plate; oblique is off the plate and may reduce wound problems but brings the saphenous vein and nerve closer.",
+      "claim_ids": [
+        "tibial_shaft_mipo_medial_questions_01"
+      ]
+    },
+    {
+      "question": "In which plane is the medial plate passed?",
+      "answer": "Under the subcutaneous tissues and over intact periosteum.",
+      "claim_ids": [
+        "tibial_shaft_mipo_medial_questions_02"
+      ]
+    },
+    {
+      "question": "When is medial tibial MIPO not safe?",
+      "answer": "When the overlying medial skin is injured.",
+      "claim_ids": [
+        "tibial_shaft_mipo_medial_questions_03"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "tibial_shaft_mipo_medial_positioning_01",
+      "text": "Position so separate medial windows and a large distractor can be used. In children, mark both physes before cutting.",
+      "source_ids": [
+        "ao_3853ccfaa20ea753",
+        "ao_beb61e3ac4091f9d"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "tibial_shaft_mipo_medial_surface_landmarks_01",
+      "text": "Mark the medial tibial face, planned plate length, and the distal saphenous vein and nerve.",
+      "source_ids": [
+        "ao_3853ccfaa20ea753",
+        "ao_3b8e878d0388efe6"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "tibial_shaft_mipo_medial_incision_01",
+      "text": "Make separate proximal and distal cuts about 5 cm long on the medial tibia, spanning the plate. Distally use a straight cut (more direct but over the plate) or a slightly oblique cut (off the plate, possibly fewer wound problems, but closer to the saphenous vein and nerve).",
+      "source_ids": [
+        "ao_3853ccfaa20ea753",
+        "ao_beb61e3ac4091f9d"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "tibial_shaft_mipo_medial_superficial_interval_01",
+      "text": "Deepen to intact periosteum. Identify and protect the saphenous vein and nerve in the distal window.",
+      "source_ids": [
+        "ao_3853ccfaa20ea753",
+        "ao_3b8e878d0388efe6"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "tibial_shaft_mipo_medial_deep_interval_01",
+      "text": "Prepare a tunnel under subcutaneous tissue and over intact periosteum with an elevator or the plate. Do not strip periosteum. In children, do not damage the perichondral ring at either physis. A large distractor helps reduce and hold the fracture. This window does not take muscle off bone and does not affect tibial blood supply.",
+      "source_ids": [
+        "ao_3853ccfaa20ea753",
+        "ao_beb61e3ac4091f9d"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "tibial_shaft_mipo_medial_layers_01",
+      "text": "Skin, saphenous plane, intact periosteum, then a subcutaneous medial plate tunnel.",
+      "source_ids": [
+        "ao_3853ccfaa20ea753",
+        "ao_3b8e878d0388efe6"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "tibial_shaft_mipo_medial_structures_at_risk_01",
+      "text": "The saphenous vein and nerve distally, medial skin over a plate, and in children the physes and perichondral rings are at risk.",
+      "source_ids": [
+        "ao_3853ccfaa20ea753",
+        "ao_beb61e3ac4091f9d",
+        "ao_3b8e878d0388efe6"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "tibial_shaft_mipo_medial_danger_zones_01",
+      "text": "An oblique distal cut that hits the saphenous structures, and using the window through injured medial skin, are the danger zones.",
+      "source_ids": [
+        "ao_3853ccfaa20ea753",
+        "ao_beb61e3ac4091f9d"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "tibial_shaft_mipo_medial_retraction_hazards_01",
+      "text": "Protect the saphenous vein and nerve while inserting the plate; do not convert the tunnel into periosteal stripping.",
+      "source_ids": [
+        "ao_3853ccfaa20ea753",
+        "ao_3b8e878d0388efe6"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "tibial_shaft_mipo_medial_exposure_01",
+      "text": "Preferred MIPO corridor for tibial fractures, especially distal, when skin is healthy. A contoured plate fits the medial face relatively easily.",
+      "source_ids": [
+        "ao_3853ccfaa20ea753",
+        "ao_beb61e3ac4091f9d"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "tibial_shaft_mipo_medial_limitations_01",
+      "text": "Unsafe if overlying skin is injured.",
+      "source_ids": [
+        "ao_3853ccfaa20ea753",
+        "ao_beb61e3ac4091f9d"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "tibial_shaft_mipo_medial_indications_01",
+      "text": "Used for minimally invasive medial plating, particularly of distal tibial fractures, when the medial envelope is intact.",
+      "source_ids": [
+        "ao_3853ccfaa20ea753",
+        "ao_beb61e3ac4091f9d"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "tibial_shaft_mipo_medial_closure_01",
+      "text": "Close skin and subcutaneous tissue.",
+      "source_ids": [
+        "ao_3853ccfaa20ea753",
+        "ao_beb61e3ac4091f9d"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "tibial_shaft_mipo_medial_complications_01",
+      "text": "Complications include saphenous injury, wound breakdown over a subcutaneous plate, and physeal injury in children.",
+      "source_ids": [
+        "ao_3853ccfaa20ea753",
+        "ao_beb61e3ac4091f9d"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "tibial_shaft_mipo_medial_questions_01",
+      "text": "What is the trade-off between a straight and an oblique distal medial window?",
+      "source_ids": [
+        "ao_3853ccfaa20ea753",
+        "ao_beb61e3ac4091f9d"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "tibial_shaft_mipo_medial_questions_02",
+      "text": "In which plane is the medial plate passed?",
+      "source_ids": [
+        "ao_3853ccfaa20ea753",
+        "ao_3b8e878d0388efe6"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "tibial_shaft_mipo_medial_questions_03",
+      "text": "When is medial tibial MIPO not safe?",
+      "source_ids": [
+        "ao_3853ccfaa20ea753",
+        "ao_beb61e3ac4091f9d"
+      ],
+      "risk_level": "medium"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "ao_3853ccfaa20ea753",
+      "provider": "AO Surgery Reference",
+      "title": "Minimally Invasive Medial Approach To Tibial Shaft",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/tibial-shaft/approach/minimally-invasive-medial-approach-to-tibial-shaft",
+      "source_page_id": "ao_3853ccfaa20ea753"
+    },
+    {
+      "source_id": "ao_beb61e3ac4091f9d",
+      "provider": "AO Surgery Reference",
+      "title": "Minimally Invasive Medial Approach To Tibia",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/pediatric-trauma/tibial-shaft/approach/minimally-invasive-medial-approach-to-tibia",
+      "source_page_id": "ao_beb61e3ac4091f9d"
+    },
+    {
+      "source_id": "ao_3b8e878d0388efe6",
+      "provider": "AO Surgery Reference",
+      "title": "Minimally Invasive Approach To The Distal Tibia",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/distal-tibia/approach/minimally-invasive-approach-to-the-distal-tibia",
+      "source_page_id": "ao_3b8e878d0388efe6"
+    }
+  ],
+  "content_status": "agent_review_pending",
+  "review": {
+    "status": "agent_review_pending",
+    "required_roles": [
+      "adversarial_safety_reviewer",
+      "approach_anatomy_reviewer",
+      "educational_value_reviewer",
+      "evidence_reviewer",
+      "operative_exposure_reviewer",
+      "procedure_applicability_reviewer"
+    ],
+    "completed_roles": []
+  },
+  "resolved_contradiction_keys": [],
+  "authoring_provenance": {
+    "method": "local_codex_curated",
+    "definition_file": "data/approach_library/curated/tibial_shaft_batch001_v1.json",
+    "api_used": false
+  }
+}

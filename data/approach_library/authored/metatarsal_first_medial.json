@@ -1,0 +1,352 @@
+{
+  "schema_version": "brobot_approach_packet_v1",
+  "approach_id": "metatarsal_first_medial",
+  "name": "Medial approach to the 1st metatarsal",
+  "aliases": [
+    "medial midaxial approach to the first metatarsal"
+  ],
+  "region": "metatarsals",
+  "joint": "",
+  "bones": [
+    "first metatarsal"
+  ],
+  "corridor": "Medial midaxial incision along the first metatarsal, retracting abductor hallucis plantarward, protecting the dorsomedial and plantar-medial cutaneous nerves, to expose the whole medial first metatarsal",
+  "positioning": [
+    {
+      "text": "Position supine with the foot externally rotated so the medial border is accessible, under tourniquet control.",
+      "claim_ids": [
+        "metatarsal_first_medial_positioning_01"
+      ]
+    }
+  ],
+  "setup": [],
+  "surface_landmarks": [
+    {
+      "text": "Mark the medial aspect of the first metatarsal from the medial cuneiform to the first MTP joint.",
+      "claim_ids": [
+        "metatarsal_first_medial_surface_landmarks_01"
+      ]
+    }
+  ],
+  "incision": [
+    {
+      "text": "Incise over the medial aspect of the metatarsal shaft, starting at the medial cuneiform and extending distally to the first MTP joint.",
+      "claim_ids": [
+        "metatarsal_first_medial_incision_01"
+      ]
+    }
+  ],
+  "superficial_interval": [
+    {
+      "text": "Protect the dorsomedial collateral (superficial peroneal) cutaneous nerve and the medial plantar hallucal nerve and the marginal veins.",
+      "claim_ids": [
+        "metatarsal_first_medial_superficial_interval_01"
+      ]
+    }
+  ],
+  "deep_interval": [
+    {
+      "text": "Find the dorsal edge of the abductor hallucis and retract it plantarward, and free the distal tibialis anterior tendon to reach the first tarsometatarsal joint if needed.",
+      "claim_ids": [
+        "metatarsal_first_medial_deep_interval_01"
+      ]
+    }
+  ],
+  "layers": [
+    {
+      "text": "Skin, subcutaneous tissue with medial cutaneous nerves and veins, the abductor hallucis, and the medial first metatarsal.",
+      "claim_ids": [
+        "metatarsal_first_medial_layers_01"
+      ]
+    }
+  ],
+  "structures_encountered": [],
+  "structures_at_risk": [
+    {
+      "text": "The dorsomedial collateral cutaneous nerve and the medial plantar hallucal nerve are at risk, and the abductor hallucis insertion into the medial MTP capsule should be respected.",
+      "claim_ids": [
+        "metatarsal_first_medial_structures_at_risk_01"
+      ]
+    }
+  ],
+  "danger_zones": [
+    {
+      "text": "The dorsomedial and plantar-medial corners are the danger zones for the medial digital cutaneous nerves.",
+      "claim_ids": [
+        "metatarsal_first_medial_danger_zones_01"
+      ]
+    }
+  ],
+  "retraction_hazards": [
+    {
+      "text": "Retract abductor hallucis plantarward gently and keep the medial cutaneous nerves out of the retractor.",
+      "claim_ids": [
+        "metatarsal_first_medial_retraction_hazards_01"
+      ]
+    }
+  ],
+  "exposure": [
+    {
+      "text": "Exposes the entire length of the first metatarsal medially, though the lateral surface is hard to see.",
+      "claim_ids": [
+        "metatarsal_first_medial_exposure_01"
+      ]
+    }
+  ],
+  "limitations": [
+    {
+      "text": "The lateral aspect of the first metatarsal is difficult to visualize through this medial approach.",
+      "claim_ids": [
+        "metatarsal_first_medial_limitations_01"
+      ]
+    }
+  ],
+  "extensions": [],
+  "indications": [
+    {
+      "text": "Indicated to access the entire first metatarsal for fracture fixation or osteotomy.",
+      "claim_ids": [
+        "metatarsal_first_medial_indications_01"
+      ]
+    }
+  ],
+  "relative_contraindications": [],
+  "implant_implications": [],
+  "fluoroscopy_implications": [],
+  "closure": [
+    {
+      "text": "Perform subcuticular closure with resorbable sutures and close skin with nylon.",
+      "claim_ids": [
+        "metatarsal_first_medial_closure_01"
+      ]
+    }
+  ],
+  "complications": [
+    {
+      "text": "Complications include medial cutaneous nerve injury with numbness or neuroma and MTP stiffness.",
+      "claim_ids": [
+        "metatarsal_first_medial_complications_01"
+      ]
+    }
+  ],
+  "bailouts": [],
+  "procedure_applications": [
+    {
+      "procedure_id": "hallux_valgus_correction",
+      "relationship": "primary_option",
+      "condition": "A first metatarsal osteotomy or fracture is exposed medially"
+    },
+    {
+      "procedure_id": "metatarsal_fracture_orif",
+      "relationship": "primary_option",
+      "condition": "A first metatarsal fracture is fixed through a medial approach"
+    }
+  ],
+  "questions": [
+    {
+      "question": "Which muscle is retracted plantarward in the medial first metatarsal approach?",
+      "answer": "The abductor hallucis.",
+      "claim_ids": [
+        "metatarsal_first_medial_questions_01"
+      ]
+    },
+    {
+      "question": "What is a key limitation of the medial approach?",
+      "answer": "The lateral aspect of the first metatarsal is hard to visualize.",
+      "claim_ids": [
+        "metatarsal_first_medial_questions_02"
+      ]
+    },
+    {
+      "question": "Which nerves are at risk medially?",
+      "answer": "The dorsomedial collateral cutaneous nerve and the medial plantar hallucal nerve.",
+      "claim_ids": [
+        "metatarsal_first_medial_questions_03"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "metatarsal_first_medial_positioning_01",
+      "text": "Position supine with the foot externally rotated so the medial border is accessible, under tourniquet control.",
+      "source_ids": [
+        "ao_a0b6cc1457fadac7"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "metatarsal_first_medial_surface_landmarks_01",
+      "text": "Mark the medial aspect of the first metatarsal from the medial cuneiform to the first MTP joint.",
+      "source_ids": [
+        "ao_a0b6cc1457fadac7"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "metatarsal_first_medial_incision_01",
+      "text": "Incise over the medial aspect of the metatarsal shaft, starting at the medial cuneiform and extending distally to the first MTP joint.",
+      "source_ids": [
+        "ao_a0b6cc1457fadac7"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "metatarsal_first_medial_superficial_interval_01",
+      "text": "Protect the dorsomedial collateral (superficial peroneal) cutaneous nerve and the medial plantar hallucal nerve and the marginal veins.",
+      "source_ids": [
+        "ao_a0b6cc1457fadac7",
+        "ao_f597cd84c4ad82e2"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "metatarsal_first_medial_deep_interval_01",
+      "text": "Find the dorsal edge of the abductor hallucis and retract it plantarward, and free the distal tibialis anterior tendon to reach the first tarsometatarsal joint if needed.",
+      "source_ids": [
+        "ao_a0b6cc1457fadac7"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "metatarsal_first_medial_layers_01",
+      "text": "Skin, subcutaneous tissue with medial cutaneous nerves and veins, the abductor hallucis, and the medial first metatarsal.",
+      "source_ids": [
+        "ao_a0b6cc1457fadac7"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "metatarsal_first_medial_structures_at_risk_01",
+      "text": "The dorsomedial collateral cutaneous nerve and the medial plantar hallucal nerve are at risk, and the abductor hallucis insertion into the medial MTP capsule should be respected.",
+      "source_ids": [
+        "ao_a0b6cc1457fadac7",
+        "ao_f597cd84c4ad82e2"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "metatarsal_first_medial_danger_zones_01",
+      "text": "The dorsomedial and plantar-medial corners are the danger zones for the medial digital cutaneous nerves.",
+      "source_ids": [
+        "ao_a0b6cc1457fadac7"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "metatarsal_first_medial_retraction_hazards_01",
+      "text": "Retract abductor hallucis plantarward gently and keep the medial cutaneous nerves out of the retractor.",
+      "source_ids": [
+        "ao_a0b6cc1457fadac7"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "metatarsal_first_medial_exposure_01",
+      "text": "Exposes the entire length of the first metatarsal medially, though the lateral surface is hard to see.",
+      "source_ids": [
+        "ao_a0b6cc1457fadac7"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "metatarsal_first_medial_limitations_01",
+      "text": "The lateral aspect of the first metatarsal is difficult to visualize through this medial approach.",
+      "source_ids": [
+        "ao_a0b6cc1457fadac7"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "metatarsal_first_medial_indications_01",
+      "text": "Indicated to access the entire first metatarsal for fracture fixation or osteotomy.",
+      "source_ids": [
+        "ao_a0b6cc1457fadac7"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "metatarsal_first_medial_closure_01",
+      "text": "Perform subcuticular closure with resorbable sutures and close skin with nylon.",
+      "source_ids": [
+        "ao_a0b6cc1457fadac7"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "metatarsal_first_medial_complications_01",
+      "text": "Complications include medial cutaneous nerve injury with numbness or neuroma and MTP stiffness.",
+      "source_ids": [
+        "ao_a0b6cc1457fadac7",
+        "ao_f597cd84c4ad82e2"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "metatarsal_first_medial_questions_01",
+      "text": "Which muscle is retracted plantarward in the medial first metatarsal approach?",
+      "source_ids": [
+        "ao_a0b6cc1457fadac7"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "metatarsal_first_medial_questions_02",
+      "text": "What is a key limitation of the medial approach?",
+      "source_ids": [
+        "ao_a0b6cc1457fadac7"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "metatarsal_first_medial_questions_03",
+      "text": "Which nerves are at risk medially?",
+      "source_ids": [
+        "ao_a0b6cc1457fadac7",
+        "ao_f597cd84c4ad82e2"
+      ],
+      "risk_level": "medium"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "ao_a0b6cc1457fadac7",
+      "provider": "AO Surgery Reference",
+      "title": "Medial approach to the 1st metatarsal",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/metatarsals/approach/medial-approach-to-1st-metatarsal",
+      "source_page_id": "ao_a0b6cc1457fadac7"
+    },
+    {
+      "source_id": "ao_f597cd84c4ad82e2",
+      "provider": "AO Surgery Reference",
+      "title": "Dorsal approach to the 1st metatarsal",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/metatarsals/approach/dorsal-approach-to-1st-metatarsal",
+      "source_page_id": "ao_f597cd84c4ad82e2"
+    },
+    {
+      "source_id": "ao_6679583ed198af1b",
+      "provider": "AO Surgery Reference",
+      "title": "Medial approach to the 1st metatarsal (midfoot)",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/midfoot/approach/medial-approach-to-1st-metatarsal",
+      "source_page_id": "ao_6679583ed198af1b"
+    }
+  ],
+  "content_status": "agent_review_pending",
+  "review": {
+    "status": "agent_review_pending",
+    "required_roles": [
+      "adversarial_safety_reviewer",
+      "approach_anatomy_reviewer",
+      "educational_value_reviewer",
+      "evidence_reviewer",
+      "operative_exposure_reviewer",
+      "procedure_applicability_reviewer"
+    ],
+    "completed_roles": []
+  },
+  "resolved_contradiction_keys": [],
+  "authoring_provenance": {
+    "method": "local_codex_curated",
+    "definition_file": "data/approach_library/curated/foot_medial_lateral_safezone_batch003_v1.json",
+    "api_used": false
+  }
+}

@@ -1,0 +1,791 @@
+{
+  "approaches": [
+    {
+      "approach_id": "forearm_pediatric_ulna_esin_entries",
+      "name": "Pediatric ESIN entry points for the ulna",
+      "aliases": [
+        "elastic stable intramedullary nailing ulnar entries",
+        "pediatric proximal-lateral and distal-medial ulnar nail entries"
+      ],
+      "region": "forearm-shaft",
+      "joint": "",
+      "bones": [
+        "ulna"
+      ],
+      "corridor": "Either a proximal-lateral ulnar window 1 cm lateral to the dorsal ulnar rim and 3 cm from the olecranon tip, or a distal-medial metaphyseal window 1 cm proximal to the ulnar physis",
+      "sources": [
+        {
+          "source_id": "ao_e2bedbe164d25c32",
+          "provider": "AO Surgery Reference",
+          "title": "Esin Entry Points Ulna",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/pediatric-trauma/forearm-shaft/approach/esin-entry-points-ulna",
+          "source_page_id": "ao_e2bedbe164d25c32"
+        },
+        {
+          "source_id": "ao_dfc6ba8c5b8b7804",
+          "provider": "AO Surgery Reference",
+          "title": "Esin Entry Point Distal Ulna",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/pediatric-trauma/proximal-forearm/approach/esin-entry-point-distal-ulna",
+          "source_page_id": "ao_dfc6ba8c5b8b7804"
+        }
+      ],
+      "procedure_applications": [
+        {
+          "procedure_id": "both_bone_forearm_fracture_orif",
+          "relationship": "primary_option",
+          "condition": "A pediatric ulnar or both-bone forearm fracture is treated with elastic stable intramedullary nailing"
+        }
+      ],
+      "sections": {
+        "positioning": [
+          {
+            "text": "Position so the olecranon, dorsal ulnar rim, and distal ulnar physis can be palpated and imaged.",
+            "source_ids": [
+              "ao_e2bedbe164d25c32"
+            ]
+          }
+        ],
+        "surface_landmarks": [
+          {
+            "text": "For the proximal-lateral start, mark a point 1 cm lateral to the dorsal ulnar rim and 3 cm from the olecranon tip and confirm on the image intensifier. For the distal-medial start, mark the medial ulna 1 cm proximal to the growth plate.",
+            "source_ids": [
+              "ao_e2bedbe164d25c32",
+              "ao_dfc6ba8c5b8b7804"
+            ]
+          }
+        ],
+        "incision": [
+          {
+            "text": "The proximal-lateral portal is a stab incision to bone. The distal-medial incision starts at the entry and extends 2 cm distally.",
+            "source_ids": [
+              "ao_e2bedbe164d25c32",
+              "ao_dfc6ba8c5b8b7804"
+            ]
+          }
+        ],
+        "superficial_interval": [
+          {
+            "text": "Dissect to bone under direct vision with small scissors or a clip and small retractors.",
+            "source_ids": [
+              "ao_e2bedbe164d25c32",
+              "ao_dfc6ba8c5b8b7804"
+            ]
+          }
+        ],
+        "deep_interval": [
+          {
+            "text": "Open the chosen metaphyseal cortex; do not introduce the nail through the olecranon.",
+            "source_ids": [
+              "ao_e2bedbe164d25c32"
+            ],
+            "risk_level": "medium"
+          }
+        ],
+        "layers": [
+          {
+            "text": "Skin, subcutaneous tissue, limited deep dissection to the ulnar cortex, then the medullary canal.",
+            "source_ids": [
+              "ao_e2bedbe164d25c32",
+              "ao_dfc6ba8c5b8b7804"
+            ]
+          }
+        ],
+        "structures_at_risk": [
+          {
+            "text": "At the distal-medial portal the dorsal branch of the ulnar nerve and the basilic vein are at risk. The distal ulnar physis is at risk if the start is too distal. An olecranon portal causes soft-tissue irritation.",
+            "source_ids": [
+              "ao_e2bedbe164d25c32",
+              "ao_dfc6ba8c5b8b7804"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "danger_zones": [
+          {
+            "text": "Do not enter through the olecranon. If image intensification is unavailable, prefer the proximal-lateral start rather than guessing the distal physeal distance.",
+            "source_ids": [
+              "ao_e2bedbe164d25c32"
+            ],
+            "risk_level": "medium"
+          }
+        ],
+        "retraction_hazards": [
+          {
+            "text": "Keep dissection under direct vision at the distal-medial window so the dorsal ulnar sensory branch and basilic vein are not injured.",
+            "source_ids": [
+              "ao_e2bedbe164d25c32",
+              "ao_dfc6ba8c5b8b7804"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "exposure": [
+          {
+            "text": "Provides a proximal-lateral or distal-medial cortical window for a pediatric ulnar elastic nail without opening the shaft fracture.",
+            "source_ids": [
+              "ao_e2bedbe164d25c32"
+            ]
+          }
+        ],
+        "limitations": [
+          {
+            "text": "The distal-medial start depends on accurate physeal imaging; without an image intensifier the proximal-lateral start is safer.",
+            "source_ids": [
+              "ao_e2bedbe164d25c32"
+            ]
+          }
+        ],
+        "indications": [
+          {
+            "text": "Used for elastic nailing of the pediatric ulna, choosing either the proximal-lateral or the distal-medial entry.",
+            "source_ids": [
+              "ao_e2bedbe164d25c32",
+              "ao_dfc6ba8c5b8b7804"
+            ]
+          }
+        ],
+        "closure": [
+          {
+            "text": "Close skin and subcutaneous tissue with fine resorbable sutures to avoid later suture removal in a child.",
+            "source_ids": [
+              "ao_e2bedbe164d25c32",
+              "ao_dfc6ba8c5b8b7804"
+            ]
+          }
+        ],
+        "complications": [
+          {
+            "text": "Complications include olecranon soft-tissue irritation if that portal is used, sensory-nerve injury at the distal-medial start, and physeal injury from a start that is too distal.",
+            "source_ids": [
+              "ao_e2bedbe164d25c32",
+              "ao_dfc6ba8c5b8b7804"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "questions": [
+          {
+            "question": "Where is the proximal-lateral ulnar ESIN entry?",
+            "answer": "One centimeter lateral to the dorsal ulnar rim and 3 cm from the olecranon tip.",
+            "source_ids": [
+              "ao_e2bedbe164d25c32"
+            ]
+          },
+          {
+            "question": "Where is the distal-medial ulnar ESIN entry?",
+            "answer": "On the medial ulna, 1 cm proximal to the growth plate.",
+            "source_ids": [
+              "ao_e2bedbe164d25c32",
+              "ao_dfc6ba8c5b8b7804"
+            ]
+          },
+          {
+            "question": "Why is an olecranon entry avoided?",
+            "answer": "It does not improve fixation and causes troublesome soft-tissue irritation.",
+            "source_ids": [
+              "ao_e2bedbe164d25c32"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "approach_id": "forearm_pediatric_lateral_kocher",
+      "name": "Pediatric lateral (Kocher) approach to the proximal radius",
+      "aliases": [
+        "pediatric Kocher approach",
+        "pediatric anconeus–ECU approach to the radial head"
+      ],
+      "region": "proximal-forearm",
+      "joint": "elbow",
+      "bones": [
+        "radius",
+        "distal humerus"
+      ],
+      "corridor": "Lateral or posterior-with-lateral-flap incision over the lateral condyle, through the Kocher interval between anconeus and extensor carpi ulnaris, with the forearm pronated to protect the posterior interosseous nerve",
+      "sources": [
+        {
+          "source_id": "ao_67c252d5865d146b",
+          "provider": "AO Surgery Reference",
+          "title": "Lateral Kocher Approach To The Proximal Radius",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/pediatric-trauma/forearm-shaft/approach/lateral-kocher-approach-to-the-proximal-radius",
+          "source_page_id": "ao_67c252d5865d146b"
+        },
+        {
+          "source_id": "ao_2ad31e5f21d3d221",
+          "provider": "AO Surgery Reference",
+          "title": "Lateral Approach To The Proximal Radius",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/pediatric-trauma/proximal-forearm/approach/lateral-approach-to-the-proximal-radius",
+          "source_page_id": "ao_2ad31e5f21d3d221"
+        },
+        {
+          "source_id": "ao_dafb27f83a9496e0",
+          "provider": "AO Surgery Reference",
+          "title": "Lateral approach to the proximal radius",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/forearm-shaft/approach/lateral-approach-to-the-proximal-radius",
+          "source_page_id": "ao_dafb27f83a9496e0"
+        }
+      ],
+      "procedure_applications": [
+        {
+          "procedure_id": "radial_head_fracture_orif",
+          "relationship": "primary_option",
+          "condition": "A pediatric radial head or neck fracture needs open reduction through a lateral interval"
+        }
+      ],
+      "sections": {
+        "positioning": [
+          {
+            "text": "Place the elbow at 90° with the forearm fully pronated so the posterior interosseous nerve is carried away from the field.",
+            "source_ids": [
+              "ao_67c252d5865d146b",
+              "ao_2ad31e5f21d3d221",
+              "ao_dafb27f83a9496e0"
+            ]
+          }
+        ],
+        "surface_landmarks": [
+          {
+            "text": "Palpate the lateral condyle; the posterior interosseous nerve crosses the posterior radius about three of the patient's finger breadths distal to the radial head.",
+            "source_ids": [
+              "ao_67c252d5865d146b",
+              "ao_2ad31e5f21d3d221"
+            ]
+          }
+        ],
+        "incision": [
+          {
+            "text": "Use a gently curved lateral incision over the middle of the lateral condyle (about 5–8 cm, extended as needed) or a posterior incision with a lateral flap.",
+            "source_ids": [
+              "ao_67c252d5865d146b",
+              "ao_2ad31e5f21d3d221"
+            ]
+          }
+        ],
+        "superficial_interval": [
+          {
+            "text": "Incise subcutaneous tissue, raise flaps to fascia, and identify the Kocher interval between extensor carpi ulnaris and anconeus; intervals are easier to see distally but distal dissection is limited by the posterior interosseous nerve.",
+            "source_ids": [
+              "ao_67c252d5865d146b",
+              "ao_dafb27f83a9496e0"
+            ]
+          }
+        ],
+        "deep_interval": [
+          {
+            "text": "Prefer reduction through an intact capsule when periosteal vessels to the radial head must be preserved. If needed, make an arthrotomy proximal to the radial head and divide the annular ligament only when it blocks reduction, in line with the muscle interval. Do not place retractors around the radial neck.",
+            "source_ids": [
+              "ao_67c252d5865d146b",
+              "ao_2ad31e5f21d3d221",
+              "ao_dafb27f83a9496e0"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "layers": [
+          {
+            "text": "Skin, subcutaneous flaps, fascia, anconeus–ECU interval, lateral capsule and annular ligament, then radial head, neck, and coronoid tip.",
+            "source_ids": [
+              "ao_67c252d5865d146b",
+              "ao_2ad31e5f21d3d221"
+            ]
+          }
+        ],
+        "structures_at_risk": [
+          {
+            "text": "The posterior interosseous nerve in the supinator, the radial nerve over the anterolateral capsule, and periosteal vessels to the radial head are at risk.",
+            "source_ids": [
+              "ao_67c252d5865d146b",
+              "ao_2ad31e5f21d3d221",
+              "ao_dafb27f83a9496e0"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "danger_zones": [
+          {
+            "text": "Avoid dissection distal to the annular ligament, strenuous retraction, retractors around the radial neck, and an arthrotomy that is too far anterior over the radial nerve.",
+            "source_ids": [
+              "ao_67c252d5865d146b",
+              "ao_2ad31e5f21d3d221",
+              "ao_dafb27f83a9496e0"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "retraction_hazards": [
+          {
+            "text": "Keep the forearm pronated and do not lever around the radial neck; distal retraction stretches the posterior interosseous nerve.",
+            "source_ids": [
+              "ao_67c252d5865d146b",
+              "ao_2ad31e5f21d3d221",
+              "ao_dafb27f83a9496e0"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "exposure": [
+          {
+            "text": "Exposes the radial head, radial neck, and coronoid tip; releasing capsule and muscle from the lateral supracondylar ridge improves the view of the capitellum and radial head.",
+            "source_ids": [
+              "ao_67c252d5865d146b",
+              "ao_2ad31e5f21d3d221"
+            ]
+          }
+        ],
+        "limitations": [
+          {
+            "text": "Safe distal extension is limited by the posterior interosseous nerve. In children the most common use is open reduction of radial head or neck fractures.",
+            "source_ids": [
+              "ao_67c252d5865d146b"
+            ]
+          }
+        ],
+        "indications": [
+          {
+            "text": "Used for pediatric open reduction of radial head or neck fractures and for access to the coronoid tip.",
+            "source_ids": [
+              "ao_67c252d5865d146b",
+              "ao_2ad31e5f21d3d221"
+            ]
+          }
+        ],
+        "closure": [
+          {
+            "text": "Close the capsule with 3-0 resorbable suture, reattach muscle and fascia with 2-0 or 3-0 resorbable suture, and close skin with fine resorbable suture.",
+            "source_ids": [
+              "ao_67c252d5865d146b",
+              "ao_2ad31e5f21d3d221"
+            ]
+          }
+        ],
+        "complications": [
+          {
+            "text": "Complications include posterior interosseous or radial nerve injury and disruption of periosteal vessels to the radial head if the periosteum is divided unnecessarily.",
+            "source_ids": [
+              "ao_67c252d5865d146b",
+              "ao_2ad31e5f21d3d221",
+              "ao_dafb27f83a9496e0"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "questions": [
+          {
+            "question": "What is the Kocher interval?",
+            "answer": "Extensor carpi ulnaris and anconeus.",
+            "source_ids": [
+              "ao_67c252d5865d146b",
+              "ao_dafb27f83a9496e0"
+            ]
+          },
+          {
+            "question": "How is the posterior interosseous nerve moved away from the field?",
+            "answer": "By fully pronating the forearm.",
+            "source_ids": [
+              "ao_67c252d5865d146b",
+              "ao_2ad31e5f21d3d221"
+            ]
+          },
+          {
+            "question": "Should the annular ligament always be divided in a child?",
+            "answer": "No. Divide it only if it obstructs reduction, and first try to reduce through an intact capsule to preserve periosteal vessels.",
+            "source_ids": [
+              "ao_2ad31e5f21d3d221"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "approach_id": "forearm_pediatric_thompson",
+      "name": "Pediatric posterolateral (Thompson) approach to the radius",
+      "aliases": [
+        "pediatric Thompson approach",
+        "pediatric dorsal approach to the radial shaft"
+      ],
+      "region": "forearm-shaft",
+      "joint": "",
+      "bones": [
+        "radius"
+      ],
+      "corridor": "Dorsal forearm interval between extensor carpi radialis brevis and extensor digitorum communis, with the forearm supinated and the supinator elevated subperiosteally to protect the posterior interosseous nerve",
+      "sources": [
+        {
+          "source_id": "ao_dffbb147abf4ad24",
+          "provider": "AO Surgery Reference",
+          "title": "Posterolateral Thompson Approach To The Radius",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/pediatric-trauma/forearm-shaft/approach/posterolateral-thompson-approach-to-the-radius",
+          "source_page_id": "ao_dffbb147abf4ad24"
+        },
+        {
+          "source_id": "ao_24eb9bd2e1f62a70",
+          "provider": "AO Surgery Reference",
+          "title": "Posterolateral approach (Thompson) to the forearm shaft",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/forearm-shaft/approach/posterolateral-approach-thompson",
+          "source_page_id": "ao_24eb9bd2e1f62a70"
+        }
+      ],
+      "procedure_applications": [
+        {
+          "procedure_id": "both_bone_forearm_fracture_orif",
+          "relationship": "primary_option",
+          "condition": "A pediatric radial-shaft fracture needs open exposure of the middle or distal third, with cautious proximal extension"
+        }
+      ],
+      "sections": {
+        "positioning": [
+          {
+            "text": "Position with the forearm accessible on a hand table so it can be fully supinated during proximal work.",
+            "source_ids": [
+              "ao_dffbb147abf4ad24",
+              "ao_24eb9bd2e1f62a70"
+            ]
+          }
+        ],
+        "surface_landmarks": [
+          {
+            "text": "The dorsal incision is planned from distal to Lister's tubercle toward, but not onto, the lateral epicondyle.",
+            "source_ids": [
+              "ao_dffbb147abf4ad24"
+            ]
+          }
+        ],
+        "incision": [
+          {
+            "text": "Make a straight dorsal forearm incision whose length matches the needed exposure, stopping short of the lateral epicondyle proximally.",
+            "source_ids": [
+              "ao_dffbb147abf4ad24"
+            ]
+          }
+        ],
+        "superficial_interval": [
+          {
+            "text": "Incise skin and fat, watching for the superficial radial nerve and cephalic vein distally.",
+            "source_ids": [
+              "ao_dffbb147abf4ad24"
+            ]
+          }
+        ],
+        "deep_interval": [
+          {
+            "text": "Start distally where abductor pollicis longus crosses the radius, develop the plane beneath it, then continue proximally between extensor carpi radialis brevis (lateral) and extensor digitorum communis (medial). Fully supinate, identify the posterior interosseous nerve in the supinator about three of the child's finger breadths distal to the radial-neck flare, and elevate the supinator subperiosteally.",
+            "source_ids": [
+              "ao_dffbb147abf4ad24",
+              "ao_24eb9bd2e1f62a70"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "layers": [
+          {
+            "text": "Skin, subcutaneous tissue, ECRB–EDC interval, abductor pollicis longus, supinator, then radial shaft.",
+            "source_ids": [
+              "ao_dffbb147abf4ad24",
+              "ao_24eb9bd2e1f62a70"
+            ]
+          }
+        ],
+        "structures_at_risk": [
+          {
+            "text": "The posterior interosseous nerve in the supinator, the superficial radial nerve and cephalic vein distally, and extensor pollicis longus beside Lister's tubercle are at risk.",
+            "source_ids": [
+              "ao_dffbb147abf4ad24",
+              "ao_24eb9bd2e1f62a70"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "danger_zones": [
+          {
+            "text": "Proximal extension through the supinator carries considerable risk to the posterior interosseous nerve unless the nerve is identified and the muscle is elevated subperiosteally.",
+            "source_ids": [
+              "ao_dffbb147abf4ad24",
+              "ao_24eb9bd2e1f62a70"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "retraction_hazards": [
+          {
+            "text": "Lift abductor pollicis longus rather than cutting it blindly, and respect extensor pollicis longus on the medial side of Lister's tubercle during distal extension.",
+            "source_ids": [
+              "ao_dffbb147abf4ad24"
+            ],
+            "risk_level": "medium"
+          }
+        ],
+        "exposure": [
+          {
+            "text": "Exposes the middle and distal thirds of the radial shaft; a small fracture-site incision with blunt muscle parting is the minimally invasive variant.",
+            "source_ids": [
+              "ao_dffbb147abf4ad24"
+            ]
+          }
+        ],
+        "limitations": [
+          {
+            "text": "The skin incision should not reach the lateral epicondyle, and proximal extension is limited by the posterior interosseous nerve.",
+            "source_ids": [
+              "ao_dffbb147abf4ad24"
+            ]
+          }
+        ],
+        "indications": [
+          {
+            "text": "Used for open exposure of the pediatric middle and distal radial shaft, with cautious proximal extension when required.",
+            "source_ids": [
+              "ao_dffbb147abf4ad24"
+            ]
+          }
+        ],
+        "closure": [
+          {
+            "text": "Do not close forearm fascia because of compartment-syndrome risk; muscles fall back anatomically. Close skin and subcutaneous tissue with fine resorbable sutures.",
+            "source_ids": [
+              "ao_dffbb147abf4ad24"
+            ]
+          }
+        ],
+        "complications": [
+          {
+            "text": "Complications include posterior interosseous nerve injury and compartment syndrome if the fascia is closed.",
+            "source_ids": [
+              "ao_dffbb147abf4ad24",
+              "ao_24eb9bd2e1f62a70"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "questions": [
+          {
+            "question": "Which interval is used in the Thompson approach?",
+            "answer": "Extensor carpi radialis brevis laterally and extensor digitorum communis medially.",
+            "source_ids": [
+              "ao_dffbb147abf4ad24",
+              "ao_24eb9bd2e1f62a70"
+            ]
+          },
+          {
+            "question": "How is the posterior interosseous nerve protected when elevating supinator?",
+            "answer": "Fully supinate the forearm and elevate the supinator subperiosteally after identifying the nerve about three of the child's finger breadths distal to the radial-neck flare.",
+            "source_ids": [
+              "ao_dffbb147abf4ad24"
+            ]
+          },
+          {
+            "question": "Should forearm fascia be closed?",
+            "answer": "No. Leaving it open reduces the risk of compartment syndrome.",
+            "source_ids": [
+              "ao_dffbb147abf4ad24"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "approach_id": "midfoot_navicular_percutaneous",
+      "name": "Percutaneous approach to the navicular",
+      "aliases": [
+        "mini-open navicular screw approach",
+        "percutaneous navicular stress-fracture approach"
+      ],
+      "region": "midfoot",
+      "joint": "talonavicular-adjacent",
+      "bones": [
+        "navicular"
+      ],
+      "corridor": "Full-thickness dorsomedial window between tibialis anterior and extensor hallucis longus straight to periosteum, with optional dorsomedial and dorsolateral stab incisions for clamps and a medial utility-line portal for lag screws",
+      "sources": [
+        {
+          "source_id": "ao_4701d88a358a2a8b",
+          "provider": "AO Surgery Reference",
+          "title": "Percutaneous Approach To The Navicular",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/metatarsals/approach/percutaneous-approach-to-the-navicular",
+          "source_page_id": "ao_4701d88a358a2a8b"
+        },
+        {
+          "source_id": "ao_afe2b45dd12aa4dd",
+          "provider": "AO Surgery Reference",
+          "title": "Percutaneous Approach To The Navicular (midfoot)",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/midfoot/approach/percutaneous-approach-to-the-navicular",
+          "source_page_id": "ao_afe2b45dd12aa4dd"
+        },
+        {
+          "source_id": "ao_5a2480d7716c078d",
+          "provider": "AO Surgery Reference",
+          "title": "Dorsomedial approach to the navicular and cuneiform",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/metatarsals/approach/dorsomedial-approach-to-the-navicular-and-cuneiform",
+          "source_page_id": "ao_5a2480d7716c078d"
+        }
+      ],
+      "procedure_applications": [
+        {
+          "procedure_id": "lisfranc_orif",
+          "relationship": "conditional_option",
+          "condition": "A non-displaced or minimally displaced navicular body or stress fracture is fixed with percutaneous screws"
+        }
+      ],
+      "sections": {
+        "positioning": [
+          {
+            "text": "Position so the dorsomedial midfoot can be imaged and the tibialis anterior–EHL interval palpated.",
+            "source_ids": [
+              "ao_4701d88a358a2a8b",
+              "ao_5a2480d7716c078d"
+            ]
+          }
+        ],
+        "surface_landmarks": [
+          {
+            "text": "Mark the tibialis anterior and extensor hallucis longus tendons and the navicular body under image intensification.",
+            "source_ids": [
+              "ao_4701d88a358a2a8b",
+              "ao_afe2b45dd12aa4dd"
+            ]
+          }
+        ],
+        "incision": [
+          {
+            "text": "Make a full-thickness cut in the tibialis anterior–EHL interval directly over the fracture, without raising flaps. Add small dorsomedial and dorsolateral stabs for pointed reduction clamps if needed, and a medial stab in the line of the medial utility incision for lag screws.",
+            "source_ids": [
+              "ao_4701d88a358a2a8b",
+              "ao_afe2b45dd12aa4dd"
+            ]
+          }
+        ],
+        "superficial_interval": [
+          {
+            "text": "Go straight from skin to periosteum in the tibialis anterior–EHL interval; do not undermine flaps.",
+            "source_ids": [
+              "ao_4701d88a358a2a8b",
+              "ao_afe2b45dd12aa4dd",
+              "ao_5a2480d7716c078d"
+            ]
+          }
+        ],
+        "deep_interval": [
+          {
+            "text": "Enter the fracture under image intensification. For a non-healing stress fracture, freshen the surfaces by curettage or drilling and fill a small cavity with bone graft if present.",
+            "source_ids": [
+              "ao_4701d88a358a2a8b",
+              "ao_afe2b45dd12aa4dd"
+            ]
+          }
+        ],
+        "layers": [
+          {
+            "text": "Skin, immediate periosteum of the navicular in the tibialis anterior–EHL interval, then the navicular body.",
+            "source_ids": [
+              "ao_4701d88a358a2a8b",
+              "ao_afe2b45dd12aa4dd"
+            ]
+          }
+        ],
+        "structures_at_risk": [
+          {
+            "text": "The dorsalis pedis artery should lie lateral to extensor hallucis longus; avoid or cauterize small branches. Unnecessary flap elevation threatens the dorsal skin.",
+            "source_ids": [
+              "ao_4701d88a358a2a8b",
+              "ao_afe2b45dd12aa4dd",
+              "ao_5a2480d7716c078d"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "danger_zones": [
+          {
+            "text": "Do not stray lateral to extensor hallucis longus toward the dorsalis pedis bundle, and do not raise flaps.",
+            "source_ids": [
+              "ao_4701d88a358a2a8b",
+              "ao_afe2b45dd12aa4dd"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "retraction_hazards": [
+          {
+            "text": "Keep the window full-thickness and limited; enlarge the medial utility-line stab only as needed for lag screws.",
+            "source_ids": [
+              "ao_4701d88a358a2a8b",
+              "ao_afe2b45dd12aa4dd"
+            ],
+            "risk_level": "medium"
+          }
+        ],
+        "exposure": [
+          {
+            "text": "Gives limited access for screw fixation of a simple non-displaced or minimally displaced navicular body or stress fracture.",
+            "source_ids": [
+              "ao_4701d88a358a2a8b",
+              "ao_afe2b45dd12aa4dd"
+            ]
+          }
+        ],
+        "limitations": [
+          {
+            "text": "Not appropriate for displaced, comminuted navicular fractures that need an open articular reconstruction.",
+            "source_ids": [
+              "ao_4701d88a358a2a8b",
+              "ao_afe2b45dd12aa4dd"
+            ]
+          }
+        ],
+        "indications": [
+          {
+            "text": "Used for screw fixation of non-displaced or minimally displaced simple navicular fractures, including mid-body stress fractures.",
+            "source_ids": [
+              "ao_4701d88a358a2a8b",
+              "ao_afe2b45dd12aa4dd"
+            ]
+          }
+        ],
+        "closure": [
+          {
+            "text": "Close skin without tension using a running everting absorbable suture; nylon may be used when multiple adjacent dorsal incisions are present.",
+            "source_ids": [
+              "ao_4701d88a358a2a8b",
+              "ao_afe2b45dd12aa4dd"
+            ]
+          }
+        ],
+        "complications": [
+          {
+            "text": "Complications include dorsal-skin breakdown from flap elevation or tensioned closure, and injury to dorsalis pedis branches.",
+            "source_ids": [
+              "ao_4701d88a358a2a8b",
+              "ao_afe2b45dd12aa4dd"
+            ],
+            "risk_level": "medium"
+          }
+        ],
+        "questions": [
+          {
+            "question": "Which interval is used for the percutaneous navicular approach?",
+            "answer": "Tibialis anterior and extensor hallucis longus, straight down to periosteum.",
+            "source_ids": [
+              "ao_4701d88a358a2a8b",
+              "ao_afe2b45dd12aa4dd"
+            ]
+          },
+          {
+            "question": "Where should the dorsalis pedis artery lie relative to EHL?",
+            "answer": "Lateral to extensor hallucis longus.",
+            "source_ids": [
+              "ao_4701d88a358a2a8b",
+              "ao_afe2b45dd12aa4dd"
+            ]
+          },
+          {
+            "question": "When is this percutaneous window appropriate?",
+            "answer": "For non-displaced or minimally displaced simple or non-comminuted navicular fractures, including mid-body stress fractures.",
+            "source_ids": [
+              "ao_4701d88a358a2a8b",
+              "ao_afe2b45dd12aa4dd"
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

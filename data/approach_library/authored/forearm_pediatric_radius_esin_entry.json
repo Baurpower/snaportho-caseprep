@@ -1,0 +1,349 @@
+{
+  "schema_version": "brobot_approach_packet_v1",
+  "approach_id": "forearm_pediatric_radius_esin_entry",
+  "name": "ESIN entry points for the pediatric radius",
+  "aliases": [
+    "elastic stable intramedullary nailing radius entry (child)",
+    "distal radius flexible nail entry"
+  ],
+  "region": "forearm-shaft",
+  "joint": "wrist",
+  "bones": [
+    "radius"
+  ],
+  "corridor": "Distal radial metaphyseal entry 1–1.5 cm proximal to the physis, either laterally between the first and second compartments or dorsally in line with Lister's tubercle, for retrograde elastic nailing",
+  "positioning": [
+    {
+      "text": "Position supine with the arm on a hand table and image intensifier available to localize the entry relative to the distal radial physis.",
+      "claim_ids": [
+        "forearm_pediatric_radius_esin_entry_positioning_01"
+      ]
+    }
+  ],
+  "setup": [],
+  "surface_landmarks": [
+    {
+      "text": "Identify the distal radial physis, the radial styloid, and Lister's tubercle; the entry sits 1 to 1.5 cm proximal to the growth plate.",
+      "claim_ids": [
+        "forearm_pediatric_radius_esin_entry_surface_landmarks_01"
+      ]
+    }
+  ],
+  "incision": [
+    {
+      "text": "For a lateral entry, incise at the entry level and extend about 2 cm distally (or 3–4 cm proximal to the joint if no imaging); for a Lister's tubercle entry, use a transverse skin-crease incision for cosmesis.",
+      "claim_ids": [
+        "forearm_pediatric_radius_esin_entry_incision_01"
+      ]
+    }
+  ],
+  "superficial_interval": [
+    {
+      "text": "Spread bluntly to bone; for the lateral entry stay anterior to the first compartment and protect the superficial radial nerve, cephalic vein, and thumb tendons.",
+      "claim_ids": [
+        "forearm_pediatric_radius_esin_entry_superficial_interval_01"
+      ]
+    }
+  ],
+  "deep_interval": [
+    {
+      "text": "Open a small cortical window in the metaphysis proximal to the physis; for a dorsal entry stay proximal to Lister's tubercle because its tip is part of the epiphysis.",
+      "claim_ids": [
+        "forearm_pediatric_radius_esin_entry_deep_interval_01"
+      ]
+    }
+  ],
+  "layers": [
+    {
+      "text": "Skin, subcutaneous tissue with superficial radial nerve branches, extensor tendon compartments, and the distal radial metaphyseal cortex.",
+      "claim_ids": [
+        "forearm_pediatric_radius_esin_entry_layers_01"
+      ]
+    }
+  ],
+  "structures_encountered": [],
+  "structures_at_risk": [
+    {
+      "text": "The superficial radial nerve, cephalic vein, and thumb extensor/abductor tendons are at risk with the lateral entry, and the distal radial physis is at risk with any entry, particularly at Lister's tubercle.",
+      "claim_ids": [
+        "forearm_pediatric_radius_esin_entry_structures_at_risk_01"
+      ]
+    }
+  ],
+  "danger_zones": [
+    {
+      "text": "The tip of Lister's tubercle is part of the epiphysis; do not open the bone there because it will injure the growth plate.",
+      "claim_ids": [
+        "forearm_pediatric_radius_esin_entry_danger_zones_01"
+      ]
+    }
+  ],
+  "retraction_hazards": [
+    {
+      "text": "Keep superficial radial nerve branches and the cephalic vein out of the retractor, and avoid levering against the physis.",
+      "claim_ids": [
+        "forearm_pediatric_radius_esin_entry_retraction_hazards_01"
+      ]
+    }
+  ],
+  "exposure": [
+    {
+      "text": "Exposes a small metaphyseal cortical window sufficient to introduce an elastic nail while sparing the physis.",
+      "claim_ids": [
+        "forearm_pediatric_radius_esin_entry_exposure_01"
+      ]
+    }
+  ],
+  "limitations": [
+    {
+      "text": "The window gives no direct fracture visualization and relies on closed reduction and imaging; without imaging a more proximal entry is safer.",
+      "claim_ids": [
+        "forearm_pediatric_radius_esin_entry_limitations_01"
+      ]
+    }
+  ],
+  "extensions": [],
+  "indications": [
+    {
+      "text": "Indicated to establish a physeal-sparing distal radial entry for elastic stable intramedullary nailing in children.",
+      "claim_ids": [
+        "forearm_pediatric_radius_esin_entry_indications_01"
+      ]
+    }
+  ],
+  "relative_contraindications": [],
+  "implant_implications": [],
+  "fluoroscopy_implications": [],
+  "closure": [
+    {
+      "text": "Trim and bury the nail end to limit skin irritation, and close subcutaneous tissue and skin.",
+      "claim_ids": [
+        "forearm_pediatric_radius_esin_entry_closure_01"
+      ]
+    }
+  ],
+  "complications": [
+    {
+      "text": "Complications include superficial radial nerve injury, physeal injury with growth disturbance, and skin irritation or bursitis over the nail end.",
+      "claim_ids": [
+        "forearm_pediatric_radius_esin_entry_complications_01"
+      ]
+    }
+  ],
+  "bailouts": [],
+  "procedure_applications": [
+    {
+      "procedure_id": "both_bone_forearm_fracture_orif",
+      "relationship": "primary_option",
+      "condition": "A pediatric both-bone or radial shaft fracture is treated with elastic stable intramedullary nailing"
+    }
+  ],
+  "questions": [
+    {
+      "question": "How far proximal to the physis is the pediatric radial ESIN entry placed?",
+      "answer": "About 1 to 1.5 cm proximal to the growth plate.",
+      "claim_ids": [
+        "forearm_pediatric_radius_esin_entry_questions_01"
+      ]
+    },
+    {
+      "question": "Why must the surgeon avoid opening bone at the tip of Lister's tubercle in a child?",
+      "answer": "Because the tip is part of the epiphysis and opening it injures the growth plate.",
+      "claim_ids": [
+        "forearm_pediatric_radius_esin_entry_questions_02"
+      ]
+    },
+    {
+      "question": "Which nerve is most at risk with the lateral radial entry?",
+      "answer": "The superficial radial nerve.",
+      "claim_ids": [
+        "forearm_pediatric_radius_esin_entry_questions_03"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "forearm_pediatric_radius_esin_entry_positioning_01",
+      "text": "Position supine with the arm on a hand table and image intensifier available to localize the entry relative to the distal radial physis.",
+      "source_ids": [
+        "ao_8131b093559873c1"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "forearm_pediatric_radius_esin_entry_surface_landmarks_01",
+      "text": "Identify the distal radial physis, the radial styloid, and Lister's tubercle; the entry sits 1 to 1.5 cm proximal to the growth plate.",
+      "source_ids": [
+        "ao_8131b093559873c1"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "forearm_pediatric_radius_esin_entry_incision_01",
+      "text": "For a lateral entry, incise at the entry level and extend about 2 cm distally (or 3–4 cm proximal to the joint if no imaging); for a Lister's tubercle entry, use a transverse skin-crease incision for cosmesis.",
+      "source_ids": [
+        "ao_8131b093559873c1"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "forearm_pediatric_radius_esin_entry_superficial_interval_01",
+      "text": "Spread bluntly to bone; for the lateral entry stay anterior to the first compartment and protect the superficial radial nerve, cephalic vein, and thumb tendons.",
+      "source_ids": [
+        "ao_8131b093559873c1",
+        "ao_c308ece8590757a8"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "forearm_pediatric_radius_esin_entry_deep_interval_01",
+      "text": "Open a small cortical window in the metaphysis proximal to the physis; for a dorsal entry stay proximal to Lister's tubercle because its tip is part of the epiphysis.",
+      "source_ids": [
+        "ao_8131b093559873c1"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "forearm_pediatric_radius_esin_entry_layers_01",
+      "text": "Skin, subcutaneous tissue with superficial radial nerve branches, extensor tendon compartments, and the distal radial metaphyseal cortex.",
+      "source_ids": [
+        "ao_8131b093559873c1",
+        "ao_c308ece8590757a8"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "forearm_pediatric_radius_esin_entry_structures_at_risk_01",
+      "text": "The superficial radial nerve, cephalic vein, and thumb extensor/abductor tendons are at risk with the lateral entry, and the distal radial physis is at risk with any entry, particularly at Lister's tubercle.",
+      "source_ids": [
+        "ao_8131b093559873c1",
+        "ao_c308ece8590757a8"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "forearm_pediatric_radius_esin_entry_danger_zones_01",
+      "text": "The tip of Lister's tubercle is part of the epiphysis; do not open the bone there because it will injure the growth plate.",
+      "source_ids": [
+        "ao_8131b093559873c1"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "forearm_pediatric_radius_esin_entry_retraction_hazards_01",
+      "text": "Keep superficial radial nerve branches and the cephalic vein out of the retractor, and avoid levering against the physis.",
+      "source_ids": [
+        "ao_8131b093559873c1"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "forearm_pediatric_radius_esin_entry_exposure_01",
+      "text": "Exposes a small metaphyseal cortical window sufficient to introduce an elastic nail while sparing the physis.",
+      "source_ids": [
+        "ao_8131b093559873c1"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "forearm_pediatric_radius_esin_entry_limitations_01",
+      "text": "The window gives no direct fracture visualization and relies on closed reduction and imaging; without imaging a more proximal entry is safer.",
+      "source_ids": [
+        "ao_8131b093559873c1"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "forearm_pediatric_radius_esin_entry_indications_01",
+      "text": "Indicated to establish a physeal-sparing distal radial entry for elastic stable intramedullary nailing in children.",
+      "source_ids": [
+        "ao_8131b093559873c1"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "forearm_pediatric_radius_esin_entry_closure_01",
+      "text": "Trim and bury the nail end to limit skin irritation, and close subcutaneous tissue and skin.",
+      "source_ids": [
+        "ao_8131b093559873c1"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "forearm_pediatric_radius_esin_entry_complications_01",
+      "text": "Complications include superficial radial nerve injury, physeal injury with growth disturbance, and skin irritation or bursitis over the nail end.",
+      "source_ids": [
+        "ao_8131b093559873c1",
+        "ao_c308ece8590757a8"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "forearm_pediatric_radius_esin_entry_questions_01",
+      "text": "How far proximal to the physis is the pediatric radial ESIN entry placed?",
+      "source_ids": [
+        "ao_8131b093559873c1"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "forearm_pediatric_radius_esin_entry_questions_02",
+      "text": "Why must the surgeon avoid opening bone at the tip of Lister's tubercle in a child?",
+      "source_ids": [
+        "ao_8131b093559873c1"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "forearm_pediatric_radius_esin_entry_questions_03",
+      "text": "Which nerve is most at risk with the lateral radial entry?",
+      "source_ids": [
+        "ao_8131b093559873c1",
+        "ao_c308ece8590757a8"
+      ],
+      "risk_level": "medium"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "ao_8131b093559873c1",
+      "provider": "AO Surgery Reference",
+      "title": "ESIN entry points, radius (pediatric)",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/pediatric-trauma/forearm-shaft/approach/esin-entry-points-radius",
+      "source_page_id": "ao_8131b093559873c1"
+    },
+    {
+      "source_id": "ao_c308ece8590757a8",
+      "provider": "AO Surgery Reference",
+      "title": "Approaches to the radius for intramedullary nailing",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/forearm-shaft/approach/approaches-to-the-radius-for-intramedullary-nailing",
+      "source_page_id": "ao_c308ece8590757a8"
+    },
+    {
+      "source_id": "ao_2ff6ad85fd224a58",
+      "provider": "AO Surgery Reference",
+      "title": "ESIN entry points radius (pediatric proximal forearm)",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/pediatric-trauma/proximal-forearm/approach/esin-entry-points-radius",
+      "source_page_id": "ao_2ff6ad85fd224a58"
+    }
+  ],
+  "content_status": "agent_review_pending",
+  "review": {
+    "status": "agent_review_pending",
+    "required_roles": [
+      "adversarial_safety_reviewer",
+      "approach_anatomy_reviewer",
+      "educational_value_reviewer",
+      "evidence_reviewer",
+      "operative_exposure_reviewer",
+      "procedure_applicability_reviewer"
+    ],
+    "completed_roles": []
+  },
+  "resolved_contradiction_keys": [],
+  "authoring_provenance": {
+    "method": "local_codex_curated",
+    "definition_file": "data/approach_library/curated/forearm_shaft_batch001_v1.json",
+    "api_used": false
+  }
+}

@@ -1,0 +1,376 @@
+{
+  "schema_version": "brobot_approach_packet_v1",
+  "approach_id": "proximal_humerus_anterolateral_deltoid_split",
+  "name": "Anterolateral (deltoid-split) approach to the proximal humerus",
+  "aliases": [
+    "deltoid-splitting approach to the proximal humerus"
+  ],
+  "region": "proximal-humerus",
+  "joint": "shoulder",
+  "bones": [
+    "proximal humerus"
+  ],
+  "corridor": "Anterolateral deltoid raphe split from the acromion, limited to about 5 cm to protect the axillary nerve, exposing the greater tuberosity and lateral proximal humerus",
+  "positioning": [
+    {
+      "text": "Position beach-chair or supine with the lateral acromion and lateral proximal humerus accessible.",
+      "claim_ids": [
+        "proximal_humerus_anterolateral_deltoid_split_positioning_01"
+      ]
+    }
+  ],
+  "setup": [],
+  "surface_landmarks": [
+    {
+      "text": "Palpate the anterolateral edge of the acromion and the lateral proximal humeral shaft.",
+      "claim_ids": [
+        "proximal_humerus_anterolateral_deltoid_split_surface_landmarks_01"
+      ]
+    }
+  ],
+  "incision": [
+    {
+      "text": "Incise from the anterior border of the acromion about 5 cm distally, parallel to the humeral axis, between the clavicular and acromial parts of the deltoid.",
+      "claim_ids": [
+        "proximal_humerus_anterolateral_deltoid_split_incision_01"
+      ]
+    }
+  ],
+  "superficial_interval": [
+    {
+      "text": "Split the deltoid raphe in line with its fibers for a fairly avascular approach, not extending more than 5 cm from the origin to protect the axillary nerve.",
+      "claim_ids": [
+        "proximal_humerus_anterolateral_deltoid_split_superficial_interval_01"
+      ]
+    }
+  ],
+  "deep_interval": [
+    {
+      "text": "Identify the anterior motor branch of the axillary nerve crossing about 6 cm below the acromion and place a stay suture at the inferior border of the split to guard it while exposing the tuberosity.",
+      "claim_ids": [
+        "proximal_humerus_anterolateral_deltoid_split_deep_interval_01"
+      ]
+    }
+  ],
+  "layers": [
+    {
+      "text": "Skin, subcutaneous tissue, the deltoid raphe, the subdeltoid space with the axillary nerve, and the lateral proximal humerus.",
+      "claim_ids": [
+        "proximal_humerus_anterolateral_deltoid_split_layers_01"
+      ]
+    }
+  ],
+  "structures_encountered": [],
+  "structures_at_risk": [
+    {
+      "text": "The axillary nerve crossing about 5 to 9.5 cm below the top of the humeral head is the principal structure at risk.",
+      "claim_ids": [
+        "proximal_humerus_anterolateral_deltoid_split_structures_at_risk_01"
+      ]
+    }
+  ],
+  "danger_zones": [
+    {
+      "text": "The subdeltoid zone roughly 5 to 9.5 cm below the humeral head top, where the axillary nerve runs, is the danger zone; do not split the deltoid beyond 5 cm.",
+      "claim_ids": [
+        "proximal_humerus_anterolateral_deltoid_split_danger_zones_01"
+      ]
+    }
+  ],
+  "retraction_hazards": [
+    {
+      "text": "Place a stay suture at the inferior end of the split and avoid uncontrolled distal dissection past the axillary nerve.",
+      "claim_ids": [
+        "proximal_humerus_anterolateral_deltoid_split_retraction_hazards_01"
+      ]
+    }
+  ],
+  "exposure": [
+    {
+      "text": "Exposes the greater tuberosity and lateral proximal humerus for tuberosity fixation, nailing, or MIPO.",
+      "claim_ids": [
+        "proximal_humerus_anterolateral_deltoid_split_exposure_01"
+      ]
+    }
+  ],
+  "limitations": [
+    {
+      "text": "The skin incision may not extend more than 5 cm distal to the acromion because of the axillary nerve, limiting distal access.",
+      "claim_ids": [
+        "proximal_humerus_anterolateral_deltoid_split_limitations_01"
+      ]
+    }
+  ],
+  "extensions": [],
+  "indications": [
+    {
+      "text": "Indicated for greater tuberosity fractures, nailing or minimally invasive plate osteosynthesis of proximal humeral fractures, and limited-access osteosynthesis of periprosthetic greater-tuberosity fractures around an anatomic prosthesis.",
+      "claim_ids": [
+        "proximal_humerus_anterolateral_deltoid_split_indications_01"
+      ]
+    }
+  ],
+  "relative_contraindications": [],
+  "implant_implications": [],
+  "fluoroscopy_implications": [],
+  "closure": [
+    {
+      "text": "Close the anteromedial raphe, subcutaneous tissue, and skin.",
+      "claim_ids": [
+        "proximal_humerus_anterolateral_deltoid_split_closure_01"
+      ]
+    }
+  ],
+  "complications": [
+    {
+      "text": "The principal complication is axillary nerve injury with deltoid weakness.",
+      "claim_ids": [
+        "proximal_humerus_anterolateral_deltoid_split_complications_01"
+      ]
+    }
+  ],
+  "bailouts": [],
+  "procedure_applications": [
+    {
+      "procedure_id": "proximal_humerus_fracture_orif",
+      "relationship": "primary_option",
+      "condition": "A greater tuberosity fracture or a proximal humeral fracture treated by MIPO or nailing needs lateral access"
+    },
+    {
+      "procedure_id": "periprosthetic_shoulder_fracture_orif",
+      "relationship": "primary_option",
+      "condition": "A greater-tuberosity periprosthetic fracture around an anatomic prosthesis is fixed through a limited transdeltoid window"
+    }
+  ],
+  "questions": [
+    {
+      "question": "How far may the deltoid be split from the acromion in this approach?",
+      "answer": "No more than about 5 cm, to protect the axillary nerve.",
+      "claim_ids": [
+        "proximal_humerus_anterolateral_deltoid_split_questions_01"
+      ]
+    },
+    {
+      "question": "How is the axillary nerve safeguarded during the split?",
+      "answer": "By identifying it and placing a stay suture at the inferior border of the deltoid split.",
+      "claim_ids": [
+        "proximal_humerus_anterolateral_deltoid_split_questions_02"
+      ]
+    },
+    {
+      "question": "What are the main indications for the deltoid-split approach?",
+      "answer": "Greater tuberosity fractures and MIPO or nailing of proximal humeral fractures.",
+      "claim_ids": [
+        "proximal_humerus_anterolateral_deltoid_split_questions_03"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "proximal_humerus_anterolateral_deltoid_split_positioning_01",
+      "text": "Position beach-chair or supine with the lateral acromion and lateral proximal humerus accessible.",
+      "source_ids": [
+        "ao_8f2c45a58145d70b"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "proximal_humerus_anterolateral_deltoid_split_surface_landmarks_01",
+      "text": "Palpate the anterolateral edge of the acromion and the lateral proximal humeral shaft.",
+      "source_ids": [
+        "ao_8f2c45a58145d70b"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "proximal_humerus_anterolateral_deltoid_split_incision_01",
+      "text": "Incise from the anterior border of the acromion about 5 cm distally, parallel to the humeral axis, between the clavicular and acromial parts of the deltoid.",
+      "source_ids": [
+        "ao_8f2c45a58145d70b"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "proximal_humerus_anterolateral_deltoid_split_superficial_interval_01",
+      "text": "Split the deltoid raphe in line with its fibers for a fairly avascular approach, not extending more than 5 cm from the origin to protect the axillary nerve.",
+      "source_ids": [
+        "ao_8f2c45a58145d70b",
+        "ao_fe9a06e24651710f"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "proximal_humerus_anterolateral_deltoid_split_deep_interval_01",
+      "text": "Identify the anterior motor branch of the axillary nerve crossing about 6 cm below the acromion and place a stay suture at the inferior border of the split to guard it while exposing the tuberosity.",
+      "source_ids": [
+        "ao_8f2c45a58145d70b",
+        "ao_fe9a06e24651710f"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "proximal_humerus_anterolateral_deltoid_split_layers_01",
+      "text": "Skin, subcutaneous tissue, the deltoid raphe, the subdeltoid space with the axillary nerve, and the lateral proximal humerus.",
+      "source_ids": [
+        "ao_8f2c45a58145d70b"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "proximal_humerus_anterolateral_deltoid_split_structures_at_risk_01",
+      "text": "The axillary nerve crossing about 5 to 9.5 cm below the top of the humeral head is the principal structure at risk.",
+      "source_ids": [
+        "ao_8f2c45a58145d70b",
+        "ao_fe9a06e24651710f"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "proximal_humerus_anterolateral_deltoid_split_danger_zones_01",
+      "text": "The subdeltoid zone roughly 5 to 9.5 cm below the humeral head top, where the axillary nerve runs, is the danger zone; do not split the deltoid beyond 5 cm.",
+      "source_ids": [
+        "ao_8f2c45a58145d70b",
+        "ao_fe9a06e24651710f"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "proximal_humerus_anterolateral_deltoid_split_retraction_hazards_01",
+      "text": "Place a stay suture at the inferior end of the split and avoid uncontrolled distal dissection past the axillary nerve.",
+      "source_ids": [
+        "ao_8f2c45a58145d70b"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "proximal_humerus_anterolateral_deltoid_split_exposure_01",
+      "text": "Exposes the greater tuberosity and lateral proximal humerus for tuberosity fixation, nailing, or MIPO.",
+      "source_ids": [
+        "ao_8f2c45a58145d70b"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "proximal_humerus_anterolateral_deltoid_split_limitations_01",
+      "text": "The skin incision may not extend more than 5 cm distal to the acromion because of the axillary nerve, limiting distal access.",
+      "source_ids": [
+        "ao_8f2c45a58145d70b"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "proximal_humerus_anterolateral_deltoid_split_indications_01",
+      "text": "Indicated for greater tuberosity fractures, nailing or minimally invasive plate osteosynthesis of proximal humeral fractures, and limited-access osteosynthesis of periprosthetic greater-tuberosity fractures around an anatomic prosthesis.",
+      "source_ids": [
+        "ao_8f2c45a58145d70b",
+        "ao_e4e8318425a50921"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "proximal_humerus_anterolateral_deltoid_split_closure_01",
+      "text": "Close the anteromedial raphe, subcutaneous tissue, and skin.",
+      "source_ids": [
+        "ao_8f2c45a58145d70b"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "proximal_humerus_anterolateral_deltoid_split_complications_01",
+      "text": "The principal complication is axillary nerve injury with deltoid weakness.",
+      "source_ids": [
+        "ao_8f2c45a58145d70b",
+        "ao_fe9a06e24651710f"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "proximal_humerus_anterolateral_deltoid_split_questions_01",
+      "text": "How far may the deltoid be split from the acromion in this approach?",
+      "source_ids": [
+        "ao_8f2c45a58145d70b"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "proximal_humerus_anterolateral_deltoid_split_questions_02",
+      "text": "How is the axillary nerve safeguarded during the split?",
+      "source_ids": [
+        "ao_8f2c45a58145d70b",
+        "ao_fe9a06e24651710f"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "proximal_humerus_anterolateral_deltoid_split_questions_03",
+      "text": "What are the main indications for the deltoid-split approach?",
+      "source_ids": [
+        "ao_8f2c45a58145d70b"
+      ],
+      "risk_level": "medium"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "ao_8f2c45a58145d70b",
+      "provider": "AO Surgery Reference",
+      "title": "Anterolateral approach to the proximal humerus",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/proximal-humerus/approach/anterolateral-approach",
+      "source_page_id": "ao_8f2c45a58145d70b"
+    },
+    {
+      "source_id": "ao_fe9a06e24651710f",
+      "provider": "AO Surgery Reference",
+      "title": "Safe zones in the proximal humerus",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/proximal-humerus/approach/safe-zones-in-the-proximal-humerus",
+      "source_page_id": "ao_fe9a06e24651710f"
+    },
+    {
+      "source_id": "ao_37dd75d4e431f40d",
+      "provider": "AO Surgery Reference",
+      "title": "Transdeltoid Lateral Approach",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/proximal-humerus/approach/transdeltoid-lateral-approach",
+      "source_page_id": "ao_37dd75d4e431f40d"
+    },
+    {
+      "source_id": "ao_e4e8318425a50921",
+      "provider": "AO Surgery Reference",
+      "title": "Deltoid Split Approach",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/periprosthetic-fractures/shoulder/approach/deltoid-split-approach",
+      "source_page_id": "ao_e4e8318425a50921"
+    },
+    {
+      "source_id": "orthobullets_24fe7c65ca8ab1ac",
+      "provider": "Orthobullets",
+      "title": "Shoulder Anterolateral Approach",
+      "url": "https://www.orthobullets.com/approaches/12062/shoulder-anterolateral-approach",
+      "source_page_id": "orthobullets_24fe7c65ca8ab1ac"
+    },
+    {
+      "source_id": "orthobullets_dd33f0608477689c",
+      "provider": "Orthobullets",
+      "title": "Shoulder Lateral Deltoid Splitting Approach",
+      "url": "https://www.orthobullets.com/approaches/12063/shoulder-lateral-deltoid-splitting-approach",
+      "source_page_id": "orthobullets_dd33f0608477689c"
+    }
+  ],
+  "content_status": "agent_review_pending",
+  "review": {
+    "status": "agent_review_pending",
+    "required_roles": [
+      "adversarial_safety_reviewer",
+      "approach_anatomy_reviewer",
+      "educational_value_reviewer",
+      "evidence_reviewer",
+      "operative_exposure_reviewer",
+      "procedure_applicability_reviewer"
+    ],
+    "completed_roles": []
+  },
+  "resolved_contradiction_keys": [],
+  "authoring_provenance": {
+    "method": "local_codex_curated",
+    "definition_file": "data/approach_library/curated/proximal_humerus_batch004_v1.json",
+    "api_used": false
+  }
+}

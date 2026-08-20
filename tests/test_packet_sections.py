@@ -67,6 +67,31 @@ ALL_PIPELINES = (
 )
 
 
+class CrossSectionDedupTests(unittest.TestCase):
+    """The 'recurrent motor branch' structure appears in both a highlight block
+    (key_takeaways) and the fuller body section (anatomy). Highlight and body
+    must produce the SAME framing-independent _dedup_key so the engine can
+    suppress the repeat."""
+
+    def _keys(self, items):
+        return {i["_dedup_key"] for i in items if i.get("_dedup_key")}
+
+    def test_structure_key_shared_between_highlight_and_body(self) -> None:
+        anatomy_keys = self._keys(important_anatomy_pipeline(PAYLOAD)["items"])
+        highlight_keys = self._keys(key_takeaways_block(PAYLOAD)["items"])
+        shared = anatomy_keys & highlight_keys
+        self.assertIn("structure:recurrent motor branch", shared)
+
+    def test_anatomy_and_fluoro_keys_reach_top_things(self) -> None:
+        top_keys = self._keys(top_things_to_know_block(PAYLOAD)["items"])
+        anatomy_keys = self._keys(important_anatomy_pipeline(PAYLOAD)["items"])
+        flow_keys = self._keys(operative_flow_pipeline(PAYLOAD)["items"])
+        # must_know_anatomy fact is claimable from top over anatomy
+        self.assertTrue(anatomy_keys & top_keys)
+        # fluoroscopy checkpoint is claimable from top over operative_flow
+        self.assertTrue(flow_keys & top_keys)
+
+
 class PacketSectionContractTests(unittest.TestCase):
     def test_empty_payload_is_unavailable_not_crash(self) -> None:
         for pipeline in ALL_PIPELINES:
@@ -114,15 +139,18 @@ class PacketSectionContentTests(unittest.TestCase):
         self.assertIn("checkpoint", categories)
         self.assertIn("pearl", categories)
 
-    def test_decision_points_seeded_from_indication_questions(self) -> None:
-        items = decision_points_pipeline(PAYLOAD)["items"]
-        self.assertEqual(len(items), 1)
-        self.assertIn("indications", items[0]["question"].lower())
+    def test_decision_points_no_longer_slices_pimp_questions(self) -> None:
+        # The curated seed was a keyword slice of attending_pimp_questions —
+        # every item duplicated a card already shown in pimp_questions. It is
+        # dropped; the section is now enrichment-only.
+        result = decision_points_pipeline(PAYLOAD)
+        self.assertEqual(result["items"], [])
+        self.assertEqual(result["status"], "unavailable")
 
-    def test_postop_keyword_filter(self) -> None:
-        items = postop_pipeline(PAYLOAD)["items"]
-        self.assertEqual(len(items), 1)
-        self.assertIn("postoperative", items[0]["question"].lower())
+    def test_postop_no_longer_slices_pimp_questions(self) -> None:
+        result = postop_pipeline(PAYLOAD)
+        self.assertEqual(result["items"], [])
+        self.assertEqual(result["status"], "unavailable")
 
     def test_top_things_capped_at_ten(self) -> None:
         self.assertLessEqual(len(top_things_to_know_block(PAYLOAD)["items"]), 10)

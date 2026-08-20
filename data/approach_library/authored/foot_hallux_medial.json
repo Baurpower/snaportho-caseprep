@@ -1,0 +1,339 @@
+{
+  "schema_version": "brobot_approach_packet_v1",
+  "approach_id": "foot_hallux_medial",
+  "name": "Medial approach to the hallux",
+  "aliases": [
+    "medial midline approach to the great toe"
+  ],
+  "region": "foot-phalanges",
+  "joint": "first metatarsophalangeal joint",
+  "bones": [
+    "proximal phalanx of hallux",
+    "first metatarsal"
+  ],
+  "corridor": "Medial midaxial interval along the hallux between the dorsomedial and plantar-medial digital nerves to the phalanx and MTP joint",
+  "positioning": [
+    {
+      "text": "Position supine with the forefoot at the end of the table under tourniquet control.",
+      "claim_ids": [
+        "foot_hallux_medial_positioning_01"
+      ]
+    }
+  ],
+  "setup": [],
+  "surface_landmarks": [
+    {
+      "text": "Identify the midpoint of the first metatarsal head and the medial midaxial line of the hallux.",
+      "claim_ids": [
+        "foot_hallux_medial_surface_landmarks_01"
+      ]
+    }
+  ],
+  "incision": [
+    {
+      "text": "Start the incision at the midpoint of the metatarsal head and run it distally along the mid diaphysis toward the distal phalanx.",
+      "claim_ids": [
+        "foot_hallux_medial_incision_01"
+      ]
+    }
+  ],
+  "superficial_interval": [],
+  "deep_interval": [
+    {
+      "text": "Carry dissection through the subdermal tissues directly to periosteum, and for joint access incise the capsule in line with its fibers while preserving side attachments.",
+      "claim_ids": [
+        "foot_hallux_medial_deep_interval_01"
+      ]
+    }
+  ],
+  "layers": [
+    {
+      "text": "Skin, subcutaneous tissue with the dorsomedial and plantar-medial digital nerves, periosteum, and the phalanx or MTP capsule.",
+      "claim_ids": [
+        "foot_hallux_medial_layers_01"
+      ]
+    }
+  ],
+  "structures_encountered": [],
+  "structures_at_risk": [
+    {
+      "text": "The dorsomedial collateral digital nerve on the dorsal half of the medial side and the medial plantar hallucal nerve along the plantar aspect are at risk.",
+      "claim_ids": [
+        "foot_hallux_medial_structures_at_risk_01"
+      ]
+    }
+  ],
+  "danger_zones": [
+    {
+      "text": "The dorsomedial and plantar-medial corners are the danger zones for the medial digital nerves.",
+      "claim_ids": [
+        "foot_hallux_medial_danger_zones_01"
+      ]
+    }
+  ],
+  "retraction_hazards": [
+    {
+      "text": "Do not detach the medial collateral ligaments of the MTP and IP joints from their attachment sites.",
+      "claim_ids": [
+        "foot_hallux_medial_retraction_hazards_01"
+      ]
+    }
+  ],
+  "exposure": [
+    {
+      "text": "Exposes the medial phalanx and first MTP joint for fixation, osteotomy, or reconstruction.",
+      "claim_ids": [
+        "foot_hallux_medial_exposure_01"
+      ]
+    }
+  ],
+  "limitations": [
+    {
+      "text": "The medial digital nerves and the collateral ligament attachments limit dorsal and plantar extension of the exposure.",
+      "claim_ids": [
+        "foot_hallux_medial_limitations_01"
+      ]
+    }
+  ],
+  "extensions": [],
+  "indications": [
+    {
+      "text": "Indicated for medial exposure of the hallux phalanx and first MTP joint, including hallux deformity and fracture surgery.",
+      "claim_ids": [
+        "foot_hallux_medial_indications_01"
+      ]
+    }
+  ],
+  "relative_contraindications": [],
+  "implant_implications": [],
+  "fluoroscopy_implications": [],
+  "closure": [
+    {
+      "text": "Close the capsule with interrupted sutures and close the skin in layers with resorbable dermal suture and a monofilament skin suture.",
+      "claim_ids": [
+        "foot_hallux_medial_closure_01"
+      ]
+    }
+  ],
+  "complications": [
+    {
+      "text": "Complications include medial digital nerve injury with numbness or neuroma and MTP or IP instability if collateral ligaments are detached.",
+      "claim_ids": [
+        "foot_hallux_medial_complications_01"
+      ]
+    }
+  ],
+  "bailouts": [],
+  "procedure_applications": [
+    {
+      "procedure_id": "hallux_valgus_correction",
+      "relationship": "primary_option",
+      "condition": "Medial exposure of the hallux phalanx or first MTP joint is needed"
+    }
+  ],
+  "questions": [
+    {
+      "question": "Which two nerves are at risk in the medial approach to the hallux?",
+      "answer": "The dorsomedial collateral digital nerve and the medial plantar hallucal nerve.",
+      "claim_ids": [
+        "foot_hallux_medial_questions_01"
+      ]
+    },
+    {
+      "question": "What must not be detached during the medial hallux approach?",
+      "answer": "The medial collateral ligaments of the MTP and IP joints.",
+      "claim_ids": [
+        "foot_hallux_medial_questions_02"
+      ]
+    },
+    {
+      "question": "Along which line does the medial hallux incision run?",
+      "answer": "The medial midaxial line, from the metatarsal head midpoint distally.",
+      "claim_ids": [
+        "foot_hallux_medial_questions_03"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "foot_hallux_medial_positioning_01",
+      "text": "Position supine with the forefoot at the end of the table under tourniquet control.",
+      "source_ids": [
+        "ao_cd765b197ba05e53"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "foot_hallux_medial_surface_landmarks_01",
+      "text": "Identify the midpoint of the first metatarsal head and the medial midaxial line of the hallux.",
+      "source_ids": [
+        "ao_cd765b197ba05e53"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "foot_hallux_medial_incision_01",
+      "text": "Start the incision at the midpoint of the metatarsal head and run it distally along the mid diaphysis toward the distal phalanx.",
+      "source_ids": [
+        "ao_cd765b197ba05e53"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "foot_hallux_medial_deep_interval_01",
+      "text": "Carry dissection through the subdermal tissues directly to periosteum, and for joint access incise the capsule in line with its fibers while preserving side attachments.",
+      "source_ids": [
+        "ao_cd765b197ba05e53"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "foot_hallux_medial_layers_01",
+      "text": "Skin, subcutaneous tissue with the dorsomedial and plantar-medial digital nerves, periosteum, and the phalanx or MTP capsule.",
+      "source_ids": [
+        "ao_cd765b197ba05e53"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "foot_hallux_medial_structures_at_risk_01",
+      "text": "The dorsomedial collateral digital nerve on the dorsal half of the medial side and the medial plantar hallucal nerve along the plantar aspect are at risk.",
+      "source_ids": [
+        "ao_cd765b197ba05e53",
+        "ao_bcc8b63468456cbc"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "foot_hallux_medial_danger_zones_01",
+      "text": "The dorsomedial and plantar-medial corners are the danger zones for the medial digital nerves.",
+      "source_ids": [
+        "ao_cd765b197ba05e53",
+        "ao_bcc8b63468456cbc"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "foot_hallux_medial_retraction_hazards_01",
+      "text": "Do not detach the medial collateral ligaments of the MTP and IP joints from their attachment sites.",
+      "source_ids": [
+        "ao_cd765b197ba05e53"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "foot_hallux_medial_exposure_01",
+      "text": "Exposes the medial phalanx and first MTP joint for fixation, osteotomy, or reconstruction.",
+      "source_ids": [
+        "ao_cd765b197ba05e53"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "foot_hallux_medial_limitations_01",
+      "text": "The medial digital nerves and the collateral ligament attachments limit dorsal and plantar extension of the exposure.",
+      "source_ids": [
+        "ao_cd765b197ba05e53"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "foot_hallux_medial_indications_01",
+      "text": "Indicated for medial exposure of the hallux phalanx and first MTP joint, including hallux deformity and fracture surgery.",
+      "source_ids": [
+        "ao_cd765b197ba05e53"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "foot_hallux_medial_closure_01",
+      "text": "Close the capsule with interrupted sutures and close the skin in layers with resorbable dermal suture and a monofilament skin suture.",
+      "source_ids": [
+        "ao_cd765b197ba05e53"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "foot_hallux_medial_complications_01",
+      "text": "Complications include medial digital nerve injury with numbness or neuroma and MTP or IP instability if collateral ligaments are detached.",
+      "source_ids": [
+        "ao_cd765b197ba05e53",
+        "ao_bcc8b63468456cbc"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "foot_hallux_medial_questions_01",
+      "text": "Which two nerves are at risk in the medial approach to the hallux?",
+      "source_ids": [
+        "ao_cd765b197ba05e53"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "foot_hallux_medial_questions_02",
+      "text": "What must not be detached during the medial hallux approach?",
+      "source_ids": [
+        "ao_cd765b197ba05e53"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "foot_hallux_medial_questions_03",
+      "text": "Along which line does the medial hallux incision run?",
+      "source_ids": [
+        "ao_cd765b197ba05e53"
+      ],
+      "risk_level": "medium"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "ao_cd765b197ba05e53",
+      "provider": "AO Surgery Reference",
+      "title": "Medial approach to the hallux",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/foot-phalanges/approach/medial-approach-to-the-hallux",
+      "source_page_id": "ao_cd765b197ba05e53"
+    },
+    {
+      "source_id": "ao_5832a9428a992502",
+      "provider": "AO Surgery Reference",
+      "title": "Medial approach to the hallux (metatarsals)",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/metatarsals/approach/medial-approach-to-the-hallux",
+      "source_page_id": "ao_5832a9428a992502"
+    },
+    {
+      "source_id": "ao_bcc8b63468456cbc",
+      "provider": "AO Surgery Reference",
+      "title": "Dorsal approach to the first metatarsophalangeal joint (MTPJ)",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/foot-phalanges/approach/dorsal-approach-to-the-first-metatarsal-phalangeal-joint-mtpj",
+      "source_page_id": "ao_bcc8b63468456cbc"
+    },
+    {
+      "source_id": "orthobullets_b6026cc1d153b39d",
+      "provider": "Orthobullets",
+      "title": "Medial Approach To Mtp Joint Of Great Toe",
+      "url": "https://www.orthobullets.com/approaches/12050/medial-approach-to-mtp-joint-of-great-toe",
+      "source_page_id": "orthobullets_b6026cc1d153b39d"
+    }
+  ],
+  "content_status": "agent_review_pending",
+  "review": {
+    "status": "agent_review_pending",
+    "required_roles": [
+      "adversarial_safety_reviewer",
+      "approach_anatomy_reviewer",
+      "educational_value_reviewer",
+      "evidence_reviewer",
+      "operative_exposure_reviewer",
+      "procedure_applicability_reviewer"
+    ],
+    "completed_roles": []
+  },
+  "resolved_contradiction_keys": [],
+  "authoring_provenance": {
+    "method": "local_codex_curated",
+    "definition_file": "data/approach_library/curated/foot_humerus_batch001_v1.json",
+    "api_used": false
+  }
+}

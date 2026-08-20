@@ -1,0 +1,559 @@
+{
+  "approaches": [
+    {
+      "approach_id": "metacarpal_dorsal_shaft",
+      "name": "Dorsal approach to the metacarpals",
+      "aliases": [
+        "dorsal approach to the metacarpal shaft"
+      ],
+      "region": "metacarpals",
+      "joint": "",
+      "bones": [
+        "metacarpal"
+      ],
+      "corridor": "Longitudinal dorsal interval just to the side of the extensor tendons, retracting the tendons and subperiosteally elevating the interossei to reach the metacarpal shaft",
+      "sources": [
+        {
+          "source_id": "ao_2407e0d9a61b8122",
+          "provider": "AO Surgery Reference",
+          "title": "Dorsal approach to the metacarpals",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/metacarpals/approach/dorsal-approach-to-metacarpals",
+          "source_page_id": "ao_2407e0d9a61b8122"
+        },
+        {
+          "source_id": "ao_676fca76b76f70b0",
+          "provider": "AO Surgery Reference",
+          "title": "Radial approach to the 2nd metacarpal",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/metacarpals/approach/radial-approach-to-2nd-metacarpal",
+          "source_page_id": "ao_676fca76b76f70b0"
+        }
+      ],
+      "procedure_applications": [
+        {
+          "procedure_id": "metacarpal_fracture_orif",
+          "relationship": "primary_option",
+          "condition": "A metacarpal shaft fracture or corrective osteotomy is fixed through a dorsal exposure"
+        }
+      ],
+      "sections": {
+        "positioning": [
+          {
+            "text": "Position supine with the hand pronated on a hand table under tourniquet control.",
+            "source_ids": [
+              "ao_2407e0d9a61b8122"
+            ]
+          }
+        ],
+        "surface_landmarks": [
+          {
+            "text": "Identify the extensor tendons over the metacarpals and the intertendinous connections over the distal thirds.",
+            "source_ids": [
+              "ao_2407e0d9a61b8122"
+            ]
+          }
+        ],
+        "incision": [
+          {
+            "text": "Make a straight longitudinal incision not directly over the extensor tendons, extending obliquely at the ends if needed.",
+            "source_ids": [
+              "ao_2407e0d9a61b8122"
+            ]
+          }
+        ],
+        "superficial_interval": [
+          {
+            "text": "Protect the dorsal sensory nerve branches and longitudinal veins, retracting the extensor tendons with their surrounding tissue and incising intertendinous connections only when necessary for repair later.",
+            "source_ids": [
+              "ao_2407e0d9a61b8122",
+              "ao_676fca76b76f70b0"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "deep_interval": [
+          {
+            "text": "Partially detach the dorsal interosseous muscles subperiosteally from the metacarpal, using short blunt Langenbeck retractors rather than Hohmann levers to avoid complete muscle detachment and volar injury.",
+            "source_ids": [
+              "ao_2407e0d9a61b8122",
+              "ao_676fca76b76f70b0"
+            ]
+          }
+        ],
+        "layers": [
+          {
+            "text": "Skin, subcutaneous tissue with dorsal veins and sensory nerves, extensor tendons and intertendinous connections, interosseous muscle, and the metacarpal.",
+            "source_ids": [
+              "ao_2407e0d9a61b8122"
+            ]
+          }
+        ],
+        "structures_at_risk": [
+          {
+            "text": "The dorsal sensory branches of the radial and ulnar nerves (especially the ulnar branches over the proximal fifth metacarpal) and the longitudinal dorsal veins are at risk.",
+            "source_ids": [
+              "ao_2407e0d9a61b8122",
+              "ao_676fca76b76f70b0"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "danger_zones": [
+          {
+            "text": "The proximal third of the fifth metacarpal is the danger zone for the dorsal sensory branches of the ulnar nerve.",
+            "source_ids": [
+              "ao_2407e0d9a61b8122"
+            ],
+            "risk_level": "medium"
+          }
+        ],
+        "retraction_hazards": [
+          {
+            "text": "Use short blunt Langenbeck retractors instead of Hohmann levers to avoid detaching the interossei completely and injuring volar structures.",
+            "source_ids": [
+              "ao_2407e0d9a61b8122",
+              "ao_676fca76b76f70b0"
+            ]
+          }
+        ],
+        "exposure": [
+          {
+            "text": "Exposes the diaphysis and metaphysis of the metacarpal for plating or osteotomy.",
+            "source_ids": [
+              "ao_2407e0d9a61b8122"
+            ]
+          }
+        ],
+        "limitations": [
+          {
+            "text": "The overlying extensor tendons and intertendinous connections limit the dorsal window and mandate periosteal coverage of any implant.",
+            "source_ids": [
+              "ao_2407e0d9a61b8122"
+            ]
+          }
+        ],
+        "indications": [
+          {
+            "text": "Indicated for oblique, spiral, transverse, and multifragmentary metacarpal shaft fractures and corrective osteotomies.",
+            "source_ids": [
+              "ao_2407e0d9a61b8122"
+            ]
+          }
+        ],
+        "closure": [
+          {
+            "text": "Cover the implant with periosteum as far as possible, repair any divided intertendinous connections, and close the skin.",
+            "source_ids": [
+              "ao_2407e0d9a61b8122"
+            ]
+          }
+        ],
+        "complications": [
+          {
+            "text": "Complications include dorsal sensory nerve injury with numbness or neuroma, extensor tendon adhesions, and stiffness.",
+            "source_ids": [
+              "ao_2407e0d9a61b8122",
+              "ao_676fca76b76f70b0"
+            ],
+            "risk_level": "medium"
+          }
+        ],
+        "questions": [
+          {
+            "question": "Why is the dorsal metacarpal incision placed to the side of the extensor tendons?",
+            "answer": "To avoid implant-tendon contact and adhesions and to protect the tendons.",
+            "source_ids": [
+              "ao_2407e0d9a61b8122"
+            ]
+          },
+          {
+            "question": "Which retractors are preferred and why?",
+            "answer": "Short blunt Langenbeck retractors rather than Hohmann levers, to avoid detaching the interossei and injuring volar structures.",
+            "source_ids": [
+              "ao_2407e0d9a61b8122",
+              "ao_676fca76b76f70b0"
+            ]
+          },
+          {
+            "question": "Where are the ulnar dorsal sensory branches most vulnerable?",
+            "answer": "Over the proximal third of the fifth metacarpal.",
+            "source_ids": [
+              "ao_2407e0d9a61b8122"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "approach_id": "metacarpal_mcp_joint_dorsal",
+      "name": "Dorsal approach to the metacarpophalangeal joints",
+      "aliases": [
+        "dorsal approach to the MCP joint"
+      ],
+      "region": "metacarpals",
+      "joint": "metacarpophalangeal joint",
+      "bones": [
+        "metacarpal",
+        "proximal phalanx"
+      ],
+      "corridor": "Curved dorsal interval over the MCP joint, splitting the extensor tendon or incising the extensor hood with a repair fringe, then a longitudinal capsulotomy to the joint",
+      "sources": [
+        {
+          "source_id": "ao_607a897bff28761c",
+          "provider": "AO Surgery Reference",
+          "title": "Dorsal approach to the MCP joints",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/metacarpals/approach/dorsal-approach-to-mcp-joints",
+          "source_page_id": "ao_607a897bff28761c"
+        },
+        {
+          "source_id": "ao_2407e0d9a61b8122",
+          "provider": "AO Surgery Reference",
+          "title": "Dorsal approach to the metacarpals",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/metacarpals/approach/dorsal-approach-to-metacarpals",
+          "source_page_id": "ao_2407e0d9a61b8122"
+        },
+        {
+          "source_id": "ao_a6e4a2a34c24a8b5",
+          "provider": "AO Surgery Reference",
+          "title": "Dorsal approach to the metacarpophalangeal joint (proximal-phalanges collection)",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/hand-proximal-phalanges/approach/dorsal-approach-to-metacarpophalangeal-joint",
+          "source_page_id": "ao_a6e4a2a34c24a8b5"
+        }
+      ],
+      "procedure_applications": [
+        {
+          "procedure_id": "metacarpal_fracture_orif",
+          "relationship": "primary_option",
+          "condition": "A metacarpal head or MCP joint fracture needs dorsal joint exposure"
+        }
+      ],
+      "sections": {
+        "positioning": [
+          {
+            "text": "Position supine with the hand pronated on a hand table under tourniquet control.",
+            "source_ids": [
+              "ao_607a897bff28761c"
+            ]
+          }
+        ],
+        "surface_landmarks": [
+          {
+            "text": "Mark the MCP joint and the extensor digitorum tendon with its sagittal bands.",
+            "source_ids": [
+              "ao_607a897bff28761c"
+            ]
+          }
+        ],
+        "incision": [
+          {
+            "text": "Make a gently curved longitudinal incision over the MCP joint, curving radially for the 2nd MCP and dorsoulnar for the 5th MCP to protect against later ulnar subluxation.",
+            "source_ids": [
+              "ao_607a897bff28761c"
+            ]
+          }
+        ],
+        "superficial_interval": [
+          {
+            "text": "Elevate skin flaps carefully, identify and protect the dorsal sensory branches of the radial and ulnar nerves, preserve the longitudinal dorsal veins, and ligate transverse veins only as needed.",
+            "source_ids": [
+              "ao_607a897bff28761c",
+              "ao_2407e0d9a61b8122"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "deep_interval": [
+          {
+            "text": "Split the extensor digitorum tendon longitudinally, or incise the extensor hood parallel to the tendon leaving a fringe for repair, then make a longitudinal capsulotomy to open the MCP joint.",
+            "source_ids": [
+              "ao_607a897bff28761c"
+            ]
+          }
+        ],
+        "layers": [
+          {
+            "text": "Skin, subcutaneous tissue with dorsal veins and sensory nerves, extensor tendon and hood/sagittal bands, dorsal capsule, and the MCP joint.",
+            "source_ids": [
+              "ao_607a897bff28761c"
+            ]
+          }
+        ],
+        "structures_at_risk": [
+          {
+            "text": "The extensor tendon and sagittal bands (whose loss causes subluxation) and the dorsal sensory branches of the radial and ulnar nerves are at risk.",
+            "source_ids": [
+              "ao_607a897bff28761c",
+              "ao_2407e0d9a61b8122"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "danger_zones": [
+          {
+            "text": "The sagittal band region is the danger zone for extensor tendon subluxation, which is why a dorsoulnar incision is preferred at the 5th MCP joint.",
+            "source_ids": [
+              "ao_607a897bff28761c"
+            ],
+            "risk_level": "medium"
+          }
+        ],
+        "retraction_hazards": [
+          {
+            "text": "Handle skin flaps gently to avoid damaging the connective tissue, dorsal nerves, and veins.",
+            "source_ids": [
+              "ao_607a897bff28761c"
+            ],
+            "risk_level": "medium"
+          }
+        ],
+        "exposure": [
+          {
+            "text": "Exposes the metacarpal head and MCP joint for fixation or reconstruction.",
+            "source_ids": [
+              "ao_607a897bff28761c"
+            ]
+          }
+        ],
+        "limitations": [
+          {
+            "text": "The extensor mechanism overlies the joint, so exposure depends on careful tendon and sagittal band handling and repair.",
+            "source_ids": [
+              "ao_607a897bff28761c"
+            ]
+          }
+        ],
+        "indications": [
+          {
+            "text": "Indicated for metacarpal head fractures and MCP joint pathology requiring dorsal access.",
+            "source_ids": [
+              "ao_607a897bff28761c"
+            ]
+          }
+        ],
+        "closure": [
+          {
+            "text": "Repair the joint capsule with fine sutures, repair the extensor tendon with nonabsorbable monofilament, and repair the sagittal band to prevent subluxation.",
+            "source_ids": [
+              "ao_607a897bff28761c"
+            ],
+            "risk_level": "medium"
+          }
+        ],
+        "complications": [
+          {
+            "text": "Complications include extensor tendon subluxation from sagittal band failure, dorsal sensory nerve injury, and MCP stiffness.",
+            "source_ids": [
+              "ao_607a897bff28761c",
+              "ao_2407e0d9a61b8122"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "questions": [
+          {
+            "question": "Why is a dorsoulnar incision preferred at the 5th MCP joint?",
+            "answer": "To prevent extensor tendon ulnar subluxation if the sagittal band repair fails.",
+            "source_ids": [
+              "ao_607a897bff28761c"
+            ]
+          },
+          {
+            "question": "How is the extensor mechanism opened in this approach?",
+            "answer": "By splitting the extensor tendon longitudinally or incising the extensor hood leaving a fringe for repair.",
+            "source_ids": [
+              "ao_607a897bff28761c"
+            ]
+          },
+          {
+            "question": "What must be repaired to avoid extensor subluxation?",
+            "answer": "The sagittal band.",
+            "source_ids": [
+              "ao_607a897bff28761c"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "approach_id": "metacarpal_second_radial",
+      "name": "Radial approach to the 2nd metacarpal",
+      "aliases": [
+        "radial approach to the index metacarpal"
+      ],
+      "region": "metacarpals",
+      "joint": "",
+      "bones": [
+        "metacarpal"
+      ],
+      "corridor": "Radial longitudinal interval along the index metacarpal, retracting the extensor tendons dorsoulnarward and subperiosteally elevating the first dorsal interosseous, protecting the radial sensory nerve",
+      "sources": [
+        {
+          "source_id": "ao_676fca76b76f70b0",
+          "provider": "AO Surgery Reference",
+          "title": "Radial approach to the 2nd metacarpal",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/metacarpals/approach/radial-approach-to-2nd-metacarpal",
+          "source_page_id": "ao_676fca76b76f70b0"
+        },
+        {
+          "source_id": "ao_2407e0d9a61b8122",
+          "provider": "AO Surgery Reference",
+          "title": "Dorsal approach to the metacarpals",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/metacarpals/approach/dorsal-approach-to-metacarpals",
+          "source_page_id": "ao_2407e0d9a61b8122"
+        }
+      ],
+      "procedure_applications": [
+        {
+          "procedure_id": "metacarpal_fracture_orif",
+          "relationship": "primary_option",
+          "condition": "A distal two-thirds fracture or osteotomy of the index metacarpal is fixed through a radial exposure"
+        }
+      ],
+      "sections": {
+        "positioning": [
+          {
+            "text": "Position supine with the hand pronated on a hand table under tourniquet control.",
+            "source_ids": [
+              "ao_676fca76b76f70b0"
+            ]
+          }
+        ],
+        "surface_landmarks": [
+          {
+            "text": "Mark the radial border of the index metacarpal and its MCP joint center of rotation.",
+            "source_ids": [
+              "ao_676fca76b76f70b0"
+            ]
+          }
+        ],
+        "incision": [
+          {
+            "text": "Begin dorsal to the center of rotation of the MCP joint and continue with a straight longitudinal incision radial to the diaphysis.",
+            "source_ids": [
+              "ao_676fca76b76f70b0"
+            ]
+          }
+        ],
+        "superficial_interval": [
+          {
+            "text": "Protect the dorsal radial cutaneous sensory nerve branches and longitudinal veins, and retract the index extensor tendons dorsoulnarward with loose connective tissue.",
+            "source_ids": [
+              "ao_676fca76b76f70b0",
+              "ao_2407e0d9a61b8122"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "deep_interval": [
+          {
+            "text": "Partially detach the first dorsal interosseous muscle subperiosteally from the metacarpal, preserving the sagittal bands when exposing the neck, and use short blunt retractors.",
+            "source_ids": [
+              "ao_676fca76b76f70b0",
+              "ao_2407e0d9a61b8122"
+            ]
+          }
+        ],
+        "layers": [
+          {
+            "text": "Skin, subcutaneous tissue with radial sensory nerve branches and veins, the first dorsal interosseous, and the index metacarpal.",
+            "source_ids": [
+              "ao_676fca76b76f70b0"
+            ]
+          }
+        ],
+        "structures_at_risk": [
+          {
+            "text": "The dorsal radial sensory nerve branches and longitudinal veins are at risk, and the volar structures if the interosseous is fully detached.",
+            "source_ids": [
+              "ao_676fca76b76f70b0",
+              "ao_2407e0d9a61b8122"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "danger_zones": [
+          {
+            "text": "Complete detachment of the first dorsal interosseous is the danger zone for volar structure injury.",
+            "source_ids": [
+              "ao_676fca76b76f70b0"
+            ],
+            "risk_level": "medium"
+          }
+        ],
+        "retraction_hazards": [
+          {
+            "text": "Use short blunt Langenbeck retractors rather than Hohmann levers to avoid complete interosseous detachment.",
+            "source_ids": [
+              "ao_676fca76b76f70b0",
+              "ao_2407e0d9a61b8122"
+            ]
+          }
+        ],
+        "exposure": [
+          {
+            "text": "Exposes the distal two-thirds of the index metacarpal for plating or osteotomy.",
+            "source_ids": [
+              "ao_676fca76b76f70b0"
+            ]
+          }
+        ],
+        "limitations": [
+          {
+            "text": "The radial window is best for the distal two-thirds and requires protecting the radial sensory nerve throughout.",
+            "source_ids": [
+              "ao_676fca76b76f70b0"
+            ]
+          }
+        ],
+        "indications": [
+          {
+            "text": "Indicated for oblique, spiral, transverse, and multifragmentary fractures of the distal two-thirds of the index metacarpal and corrective osteotomy.",
+            "source_ids": [
+              "ao_676fca76b76f70b0"
+            ]
+          }
+        ],
+        "closure": [
+          {
+            "text": "Cover the implant with periosteum as far as possible and close the skin.",
+            "source_ids": [
+              "ao_676fca76b76f70b0"
+            ]
+          }
+        ],
+        "complications": [
+          {
+            "text": "Complications include radial sensory nerve injury, first dorsal interosseous weakness, and stiffness.",
+            "source_ids": [
+              "ao_676fca76b76f70b0",
+              "ao_2407e0d9a61b8122"
+            ],
+            "risk_level": "medium"
+          }
+        ],
+        "questions": [
+          {
+            "question": "Which muscle is subperiosteally elevated in the radial approach to the index metacarpal?",
+            "answer": "The first dorsal interosseous.",
+            "source_ids": [
+              "ao_676fca76b76f70b0"
+            ]
+          },
+          {
+            "question": "Which nerve must be protected throughout this approach?",
+            "answer": "The dorsal radial cutaneous sensory nerve.",
+            "source_ids": [
+              "ao_676fca76b76f70b0"
+            ]
+          },
+          {
+            "question": "What part of the metacarpal is best exposed radially?",
+            "answer": "The distal two-thirds.",
+            "source_ids": [
+              "ao_676fca76b76f70b0"
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

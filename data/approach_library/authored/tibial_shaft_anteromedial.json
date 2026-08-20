@@ -1,0 +1,360 @@
+{
+  "schema_version": "brobot_approach_packet_v1",
+  "approach_id": "tibial_shaft_anteromedial",
+  "name": "Anteromedial approach to the tibial shaft",
+  "aliases": [
+    "medial subcutaneous tibial-shaft approach"
+  ],
+  "region": "tibial-shaft",
+  "joint": "",
+  "bones": [
+    "tibia"
+  ],
+  "corridor": "Incision 1–2 cm lateral to the crest, remaining superficial to anterior-compartment fascia, then full-thickness flaps mobilized medially onto the subcutaneous anteromedial tibia",
+  "positioning": [
+    {
+      "text": "Position so the crest, medial face, and medial malleolus can be seen. In children, mark both physes before incision.",
+      "claim_ids": [
+        "tibial_shaft_anteromedial_positioning_01"
+      ]
+    }
+  ],
+  "setup": [],
+  "surface_landmarks": [
+    {
+      "text": "Mark the tibial crest, medial edge of tibialis anterior, medial malleolus, and the distal saphenous vein and nerve.",
+      "claim_ids": [
+        "tibial_shaft_anteromedial_surface_landmarks_01"
+      ]
+    }
+  ],
+  "incision": [
+    {
+      "text": "Incise 1–2 cm lateral to the crest and continue distally along the medial edge of tibialis anterior in a gentle curve toward the medial malleolus. Do not enter the tibialis-anterior sheath.",
+      "claim_ids": [
+        "tibial_shaft_anteromedial_incision_01"
+      ]
+    }
+  ],
+  "superficial_interval": [
+    {
+      "text": "Stay superficial to anterior-compartment fascia. Mobilize full-thickness skin and fat medially onto the anteromedial tibia. Protect the saphenous vein and nerve distally.",
+      "claim_ids": [
+        "tibial_shaft_anteromedial_superficial_interval_01"
+      ]
+    }
+  ],
+  "deep_interval": [
+    {
+      "text": "Leave periosteum intact or lift it only at fracture edges for a direct reduction. In children, spare the perichondral ring at either physis. This window does not take muscle off the fragments.",
+      "claim_ids": [
+        "tibial_shaft_anteromedial_deep_interval_01"
+      ]
+    }
+  ],
+  "layers": [
+    {
+      "text": "Skin, subcutaneous fat, intact anterior-compartment fascia, periosteum, then the anteromedial tibia.",
+      "claim_ids": [
+        "tibial_shaft_anteromedial_layers_01"
+      ]
+    }
+  ],
+  "structures_encountered": [],
+  "structures_at_risk": [
+    {
+      "text": "The saphenous nerve and vein distally, the tibialis-anterior sheath, thin medial skin, and in children the physes and perichondral rings are at risk.",
+      "claim_ids": [
+        "tibial_shaft_anteromedial_structures_at_risk_01"
+      ]
+    }
+  ],
+  "danger_zones": [
+    {
+      "text": "Using this window through contused medial skin, opening the tibialis-anterior sheath, and closing fascia over a swollen compartment are the danger zones.",
+      "claim_ids": [
+        "tibial_shaft_anteromedial_danger_zones_01"
+      ]
+    }
+  ],
+  "retraction_hazards": [
+    {
+      "text": "Keep flaps full-thickness and do not undermine onto compromised medial skin.",
+      "claim_ids": [
+        "tibial_shaft_anteromedial_retraction_hazards_01"
+      ]
+    }
+  ],
+  "exposure": [
+    {
+      "text": "Shows the entire anteromedial surface, most often used for the distal third. The flat face is easy to contour, including with precontoured plates. It is also used to debride an open fracture without cutting on the injured subcutaneous surface.",
+      "claim_ids": [
+        "tibial_shaft_anteromedial_exposure_01"
+      ]
+    }
+  ],
+  "limitations": [
+    {
+      "text": "Do not use it when medial skin is compromised or substantially contused. The subcutaneous face has less blood supply to bone than the muscle-covered surfaces.",
+      "claim_ids": [
+        "tibial_shaft_anteromedial_limitations_01"
+      ]
+    }
+  ],
+  "extensions": [],
+  "indications": [
+    {
+      "text": "Used for distal-third tibial-shaft plating, whole-face exposure when medial skin is healthy, and open-fracture debridement that avoids an incision on the injured subcutaneous surface.",
+      "claim_ids": [
+        "tibial_shaft_anteromedial_indications_01"
+      ]
+    }
+  ],
+  "relative_contraindications": [],
+  "implant_implications": [],
+  "fluoroscopy_implications": [],
+  "closure": [
+    {
+      "text": "Close skin and subcutaneous tissue. Leave fascia open to reduce compartment-syndrome risk.",
+      "claim_ids": [
+        "tibial_shaft_anteromedial_closure_01"
+      ]
+    }
+  ],
+  "complications": [
+    {
+      "text": "Complications include saphenous injury, tibialis-anterior adhesions from sheath violation, medial wound breakdown, and compartment syndrome if fascia is closed.",
+      "claim_ids": [
+        "tibial_shaft_anteromedial_complications_01"
+      ]
+    }
+  ],
+  "bailouts": [],
+  "procedure_applications": [
+    {
+      "procedure_id": "tibial_shaft_fracture_orif",
+      "relationship": "primary_option",
+      "condition": "A tibial shaft, most often the distal third, is plated on the flat anteromedial surface when medial skin is healthy"
+    }
+  ],
+  "questions": [
+    {
+      "question": "How is the anteromedial face reached from a cut lateral to the crest?",
+      "answer": "Stay superficial to anterior-compartment fascia and mobilize full-thickness flaps medially onto the subcutaneous tibia.",
+      "claim_ids": [
+        "tibial_shaft_anteromedial_questions_01"
+      ]
+    },
+    {
+      "question": "Which structures are at risk distally?",
+      "answer": "The saphenous nerve and vein, and the tibialis-anterior tendon sheath if it is entered.",
+      "claim_ids": [
+        "tibial_shaft_anteromedial_questions_02"
+      ]
+    },
+    {
+      "question": "When should this approach not be used?",
+      "answer": "When medial skin is compromised or substantially contused.",
+      "claim_ids": [
+        "tibial_shaft_anteromedial_questions_03"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "tibial_shaft_anteromedial_positioning_01",
+      "text": "Position so the crest, medial face, and medial malleolus can be seen. In children, mark both physes before incision.",
+      "source_ids": [
+        "ao_cfa4cd67341c12a8",
+        "ao_9754e47968e9e00d"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "tibial_shaft_anteromedial_surface_landmarks_01",
+      "text": "Mark the tibial crest, medial edge of tibialis anterior, medial malleolus, and the distal saphenous vein and nerve.",
+      "source_ids": [
+        "ao_cfa4cd67341c12a8",
+        "ao_9754e47968e9e00d"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "tibial_shaft_anteromedial_incision_01",
+      "text": "Incise 1–2 cm lateral to the crest and continue distally along the medial edge of tibialis anterior in a gentle curve toward the medial malleolus. Do not enter the tibialis-anterior sheath.",
+      "source_ids": [
+        "ao_cfa4cd67341c12a8",
+        "ao_9754e47968e9e00d"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "tibial_shaft_anteromedial_superficial_interval_01",
+      "text": "Stay superficial to anterior-compartment fascia. Mobilize full-thickness skin and fat medially onto the anteromedial tibia. Protect the saphenous vein and nerve distally.",
+      "source_ids": [
+        "ao_cfa4cd67341c12a8",
+        "ao_9754e47968e9e00d"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "tibial_shaft_anteromedial_deep_interval_01",
+      "text": "Leave periosteum intact or lift it only at fracture edges for a direct reduction. In children, spare the perichondral ring at either physis. This window does not take muscle off the fragments.",
+      "source_ids": [
+        "ao_cfa4cd67341c12a8",
+        "ao_9754e47968e9e00d"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "tibial_shaft_anteromedial_layers_01",
+      "text": "Skin, subcutaneous fat, intact anterior-compartment fascia, periosteum, then the anteromedial tibia.",
+      "source_ids": [
+        "ao_cfa4cd67341c12a8",
+        "ao_9754e47968e9e00d"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "tibial_shaft_anteromedial_structures_at_risk_01",
+      "text": "The saphenous nerve and vein distally, the tibialis-anterior sheath, thin medial skin, and in children the physes and perichondral rings are at risk.",
+      "source_ids": [
+        "ao_cfa4cd67341c12a8",
+        "ao_9754e47968e9e00d"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "tibial_shaft_anteromedial_danger_zones_01",
+      "text": "Using this window through contused medial skin, opening the tibialis-anterior sheath, and closing fascia over a swollen compartment are the danger zones.",
+      "source_ids": [
+        "ao_cfa4cd67341c12a8",
+        "ao_9754e47968e9e00d"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "tibial_shaft_anteromedial_retraction_hazards_01",
+      "text": "Keep flaps full-thickness and do not undermine onto compromised medial skin.",
+      "source_ids": [
+        "ao_cfa4cd67341c12a8",
+        "ao_9754e47968e9e00d"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "tibial_shaft_anteromedial_exposure_01",
+      "text": "Shows the entire anteromedial surface, most often used for the distal third. The flat face is easy to contour, including with precontoured plates. It is also used to debride an open fracture without cutting on the injured subcutaneous surface.",
+      "source_ids": [
+        "ao_cfa4cd67341c12a8",
+        "ao_9754e47968e9e00d"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "tibial_shaft_anteromedial_limitations_01",
+      "text": "Do not use it when medial skin is compromised or substantially contused. The subcutaneous face has less blood supply to bone than the muscle-covered surfaces.",
+      "source_ids": [
+        "ao_cfa4cd67341c12a8",
+        "ao_9754e47968e9e00d"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "tibial_shaft_anteromedial_indications_01",
+      "text": "Used for distal-third tibial-shaft plating, whole-face exposure when medial skin is healthy, and open-fracture debridement that avoids an incision on the injured subcutaneous surface.",
+      "source_ids": [
+        "ao_cfa4cd67341c12a8",
+        "ao_9754e47968e9e00d"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "tibial_shaft_anteromedial_closure_01",
+      "text": "Close skin and subcutaneous tissue. Leave fascia open to reduce compartment-syndrome risk.",
+      "source_ids": [
+        "ao_cfa4cd67341c12a8",
+        "ao_9754e47968e9e00d"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "tibial_shaft_anteromedial_complications_01",
+      "text": "Complications include saphenous injury, tibialis-anterior adhesions from sheath violation, medial wound breakdown, and compartment syndrome if fascia is closed.",
+      "source_ids": [
+        "ao_cfa4cd67341c12a8",
+        "ao_9754e47968e9e00d"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "tibial_shaft_anteromedial_questions_01",
+      "text": "How is the anteromedial face reached from a cut lateral to the crest?",
+      "source_ids": [
+        "ao_cfa4cd67341c12a8",
+        "ao_9754e47968e9e00d"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "tibial_shaft_anteromedial_questions_02",
+      "text": "Which structures are at risk distally?",
+      "source_ids": [
+        "ao_cfa4cd67341c12a8",
+        "ao_9754e47968e9e00d"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "tibial_shaft_anteromedial_questions_03",
+      "text": "When should this approach not be used?",
+      "source_ids": [
+        "ao_cfa4cd67341c12a8",
+        "ao_9754e47968e9e00d"
+      ],
+      "risk_level": "medium"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "ao_cfa4cd67341c12a8",
+      "provider": "AO Surgery Reference",
+      "title": "Approach To Anteromedial Surface Of Tibial Shaft",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/tibial-shaft/approach/approach-to-anteromedial-surface-of-tibial-shaft",
+      "source_page_id": "ao_cfa4cd67341c12a8"
+    },
+    {
+      "source_id": "ao_9754e47968e9e00d",
+      "provider": "AO Surgery Reference",
+      "title": "Approach To Anteromedial Tibial Surface",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/pediatric-trauma/tibial-shaft/approach/approach-to-anteromedial-tibial-surface",
+      "source_page_id": "ao_9754e47968e9e00d"
+    },
+    {
+      "source_id": "orthobullets_eff0a853c22d863f",
+      "provider": "Orthobullets",
+      "title": "Tibia Anterior Approach",
+      "url": "https://www.orthobullets.com/approaches/12033/tibia-anterior-approach",
+      "source_page_id": "orthobullets_eff0a853c22d863f"
+    }
+  ],
+  "content_status": "agent_review_pending",
+  "review": {
+    "status": "agent_review_pending",
+    "required_roles": [
+      "adversarial_safety_reviewer",
+      "approach_anatomy_reviewer",
+      "educational_value_reviewer",
+      "evidence_reviewer",
+      "operative_exposure_reviewer",
+      "procedure_applicability_reviewer"
+    ],
+    "completed_roles": []
+  },
+  "resolved_contradiction_keys": [],
+  "authoring_provenance": {
+    "method": "local_codex_curated",
+    "definition_file": "data/approach_library/curated/tibial_shaft_batch001_v1.json",
+    "api_used": false
+  }
+}

@@ -1,0 +1,349 @@
+{
+  "schema_version": "brobot_approach_packet_v1",
+  "approach_id": "hip_periprosthetic_direct_anterior",
+  "name": "Direct anterior approach to the hip (periprosthetic)",
+  "aliases": [
+    "Hueter anterior approach",
+    "DAA"
+  ],
+  "region": "hip",
+  "joint": "hip",
+  "bones": [
+    "acetabulum",
+    "proximal femur"
+  ],
+  "corridor": "Anterior Hueter interval between tensor fasciae latae (superior gluteal nerve) and sartorius/rectus femoris (femoral nerve), through a T-capsulotomy to the femoral head and neck",
+  "positioning": [
+    {
+      "text": "Position supine on a standard or specialty table with the ipsilateral arm padded across the chest and the limb free for traction and rotation.",
+      "claim_ids": [
+        "hip_periprosthetic_direct_anterior_positioning_01"
+      ]
+    }
+  ],
+  "setup": [],
+  "surface_landmarks": [
+    {
+      "text": "Mark the anterior superior iliac spine and the tensor fasciae latae; the incision runs from just lateral and distal to the ASIS toward the lateral femoral epicondyle over the TFL.",
+      "claim_ids": [
+        "hip_periprosthetic_direct_anterior_surface_landmarks_01"
+      ]
+    }
+  ],
+  "incision": [
+    {
+      "text": "Make an approximately 10 cm incision over the tensor fasciae latae, entering the TFL sheath from its medial side to spare the muscle belly.",
+      "claim_ids": [
+        "hip_periprosthetic_direct_anterior_incision_01"
+      ]
+    }
+  ],
+  "superficial_interval": [
+    {
+      "text": "Develop the Hueter interval between the tensor fasciae latae laterally and the sartorius and rectus femoris medially, keeping the lateral femoral cutaneous nerve protected within the sartorial fascia.",
+      "claim_ids": [
+        "hip_periprosthetic_direct_anterior_superficial_interval_01"
+      ]
+    }
+  ],
+  "deep_interval": [
+    {
+      "text": "Isolate and coagulate the ascending branch of the lateral femoral circumflex vessels, place a retractor around the superior femoral neck, and expose the anterior capsule.",
+      "claim_ids": [
+        "hip_periprosthetic_direct_anterior_deep_interval_01"
+      ]
+    }
+  ],
+  "layers": [
+    {
+      "text": "Skin, subcutaneous tissue with the lateral femoral cutaneous nerve, TFL sheath, the intermuscular Hueter interval, the lateral femoral circumflex vessels, and the anterior hip capsule.",
+      "claim_ids": [
+        "hip_periprosthetic_direct_anterior_layers_01"
+      ]
+    }
+  ],
+  "structures_encountered": [],
+  "structures_at_risk": [
+    {
+      "text": "The lateral femoral cutaneous nerve, the femoral nerve deep to an aggressive medial retractor, and the ascending branch of the lateral femoral circumflex artery are at risk.",
+      "claim_ids": [
+        "hip_periprosthetic_direct_anterior_structures_at_risk_01"
+      ]
+    }
+  ],
+  "danger_zones": [
+    {
+      "text": "The medial edge of the interval is the danger zone: branches of the lateral femoral cutaneous nerve that perforate the fascia early, and femoral nerve traction from a deep medial retractor.",
+      "claim_ids": [
+        "hip_periprosthetic_direct_anterior_danger_zones_01"
+      ]
+    }
+  ],
+  "retraction_hazards": [
+    {
+      "text": "Avoid forceful medial retraction, which can injure the femoral nerve, and protect lateral femoral cutaneous nerve branches in the subcutaneous fat.",
+      "claim_ids": [
+        "hip_periprosthetic_direct_anterior_retraction_hazards_01"
+      ]
+    }
+  ],
+  "exposure": [
+    {
+      "text": "A T-shaped capsulotomy with medial and lateral stay sutures exposes the femoral head and neck for arthroplasty or fracture work.",
+      "claim_ids": [
+        "hip_periprosthetic_direct_anterior_exposure_01"
+      ]
+    }
+  ],
+  "limitations": [
+    {
+      "text": "The approach gives restricted access to posterior wall and column fractures and limited femoral exposure without extension.",
+      "claim_ids": [
+        "hip_periprosthetic_direct_anterior_limitations_01"
+      ]
+    }
+  ],
+  "extensions": [],
+  "indications": [
+    {
+      "text": "Indicated for primary total hip arthroplasty and for periprosthetic fracture treatment where the posterior capsule is preserved, and it can be extended for fixation.",
+      "claim_ids": [
+        "hip_periprosthetic_direct_anterior_indications_01"
+      ]
+    }
+  ],
+  "relative_contraindications": [],
+  "implant_implications": [],
+  "fluoroscopy_implications": [],
+  "closure": [
+    {
+      "text": "Close the capsule with non-absorbable sutures, close the TFL fascia, and consider a subfascial drain given the bleeding risk from the circumflex vessels.",
+      "claim_ids": [
+        "hip_periprosthetic_direct_anterior_closure_01"
+      ]
+    }
+  ],
+  "complications": [
+    {
+      "text": "Complications include lateral femoral cutaneous nerve paresthesia, femoral nerve injury, wound problems, and bleeding from the lateral femoral circumflex vessels.",
+      "claim_ids": [
+        "hip_periprosthetic_direct_anterior_complications_01"
+      ]
+    }
+  ],
+  "bailouts": [],
+  "procedure_applications": [
+    {
+      "procedure_id": "tha_anterior",
+      "relationship": "primary_option",
+      "condition": "Total hip arthroplasty is performed through an anterior intermuscular interval"
+    },
+    {
+      "procedure_id": "periprosthetic_hip_fracture_orif",
+      "relationship": "conditional_option",
+      "condition": "An anterior exposure that preserves the posterior capsule is preferred for a periprosthetic fracture"
+    }
+  ],
+  "questions": [
+    {
+      "question": "Which intermuscular interval defines the direct anterior approach?",
+      "answer": "The Hueter interval between tensor fasciae latae and sartorius/rectus femoris.",
+      "claim_ids": [
+        "hip_periprosthetic_direct_anterior_questions_01"
+      ]
+    },
+    {
+      "question": "Which cutaneous nerve is characteristically injured in the direct anterior approach?",
+      "answer": "The lateral femoral cutaneous nerve.",
+      "claim_ids": [
+        "hip_periprosthetic_direct_anterior_questions_02"
+      ]
+    },
+    {
+      "question": "Which vessels are coagulated during the deep dissection?",
+      "answer": "The ascending branch of the lateral femoral circumflex vessels.",
+      "claim_ids": [
+        "hip_periprosthetic_direct_anterior_questions_03"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "hip_periprosthetic_direct_anterior_positioning_01",
+      "text": "Position supine on a standard or specialty table with the ipsilateral arm padded across the chest and the limb free for traction and rotation.",
+      "source_ids": [
+        "ao_08d40c5bb7ca560c"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "hip_periprosthetic_direct_anterior_surface_landmarks_01",
+      "text": "Mark the anterior superior iliac spine and the tensor fasciae latae; the incision runs from just lateral and distal to the ASIS toward the lateral femoral epicondyle over the TFL.",
+      "source_ids": [
+        "ao_08d40c5bb7ca560c"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "hip_periprosthetic_direct_anterior_incision_01",
+      "text": "Make an approximately 10 cm incision over the tensor fasciae latae, entering the TFL sheath from its medial side to spare the muscle belly.",
+      "source_ids": [
+        "ao_08d40c5bb7ca560c"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "hip_periprosthetic_direct_anterior_superficial_interval_01",
+      "text": "Develop the Hueter interval between the tensor fasciae latae laterally and the sartorius and rectus femoris medially, keeping the lateral femoral cutaneous nerve protected within the sartorial fascia.",
+      "source_ids": [
+        "ao_08d40c5bb7ca560c",
+        "orthobullets_12116"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "hip_periprosthetic_direct_anterior_deep_interval_01",
+      "text": "Isolate and coagulate the ascending branch of the lateral femoral circumflex vessels, place a retractor around the superior femoral neck, and expose the anterior capsule.",
+      "source_ids": [
+        "ao_08d40c5bb7ca560c"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "hip_periprosthetic_direct_anterior_layers_01",
+      "text": "Skin, subcutaneous tissue with the lateral femoral cutaneous nerve, TFL sheath, the intermuscular Hueter interval, the lateral femoral circumflex vessels, and the anterior hip capsule.",
+      "source_ids": [
+        "ao_08d40c5bb7ca560c"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "hip_periprosthetic_direct_anterior_structures_at_risk_01",
+      "text": "The lateral femoral cutaneous nerve, the femoral nerve deep to an aggressive medial retractor, and the ascending branch of the lateral femoral circumflex artery are at risk.",
+      "source_ids": [
+        "ao_08d40c5bb7ca560c",
+        "orthobullets_12116"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "hip_periprosthetic_direct_anterior_danger_zones_01",
+      "text": "The medial edge of the interval is the danger zone: branches of the lateral femoral cutaneous nerve that perforate the fascia early, and femoral nerve traction from a deep medial retractor.",
+      "source_ids": [
+        "ao_08d40c5bb7ca560c",
+        "orthobullets_12116"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "hip_periprosthetic_direct_anterior_retraction_hazards_01",
+      "text": "Avoid forceful medial retraction, which can injure the femoral nerve, and protect lateral femoral cutaneous nerve branches in the subcutaneous fat.",
+      "source_ids": [
+        "ao_08d40c5bb7ca560c",
+        "orthobullets_12116"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "hip_periprosthetic_direct_anterior_exposure_01",
+      "text": "A T-shaped capsulotomy with medial and lateral stay sutures exposes the femoral head and neck for arthroplasty or fracture work.",
+      "source_ids": [
+        "ao_08d40c5bb7ca560c"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "hip_periprosthetic_direct_anterior_limitations_01",
+      "text": "The approach gives restricted access to posterior wall and column fractures and limited femoral exposure without extension.",
+      "source_ids": [
+        "ao_08d40c5bb7ca560c"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "hip_periprosthetic_direct_anterior_indications_01",
+      "text": "Indicated for primary total hip arthroplasty and for periprosthetic fracture treatment where the posterior capsule is preserved, and it can be extended for fixation.",
+      "source_ids": [
+        "ao_08d40c5bb7ca560c"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "hip_periprosthetic_direct_anterior_closure_01",
+      "text": "Close the capsule with non-absorbable sutures, close the TFL fascia, and consider a subfascial drain given the bleeding risk from the circumflex vessels.",
+      "source_ids": [
+        "ao_08d40c5bb7ca560c"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "hip_periprosthetic_direct_anterior_complications_01",
+      "text": "Complications include lateral femoral cutaneous nerve paresthesia, femoral nerve injury, wound problems, and bleeding from the lateral femoral circumflex vessels.",
+      "source_ids": [
+        "ao_08d40c5bb7ca560c",
+        "orthobullets_12116"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "hip_periprosthetic_direct_anterior_questions_01",
+      "text": "Which intermuscular interval defines the direct anterior approach?",
+      "source_ids": [
+        "ao_08d40c5bb7ca560c",
+        "orthobullets_12116"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "hip_periprosthetic_direct_anterior_questions_02",
+      "text": "Which cutaneous nerve is characteristically injured in the direct anterior approach?",
+      "source_ids": [
+        "ao_08d40c5bb7ca560c",
+        "orthobullets_12116"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "hip_periprosthetic_direct_anterior_questions_03",
+      "text": "Which vessels are coagulated during the deep dissection?",
+      "source_ids": [
+        "ao_08d40c5bb7ca560c"
+      ],
+      "risk_level": "medium"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "ao_08d40c5bb7ca560c",
+      "provider": "AO Surgery Reference",
+      "title": "Direct anterior approach (periprosthetic hip)",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/periprosthetic-fractures/hip/approach/direct-anterior-approach",
+      "source_page_id": "ao_08d40c5bb7ca560c"
+    },
+    {
+      "source_id": "orthobullets_12116",
+      "provider": "Orthobullets",
+      "title": "THA Approaches",
+      "url": "https://www.orthobullets.com/recon/12116/tha-approaches"
+    }
+  ],
+  "content_status": "agent_review_pending",
+  "review": {
+    "status": "agent_review_pending",
+    "required_roles": [
+      "adversarial_safety_reviewer",
+      "approach_anatomy_reviewer",
+      "educational_value_reviewer",
+      "evidence_reviewer",
+      "operative_exposure_reviewer",
+      "procedure_applicability_reviewer"
+    ],
+    "completed_roles": []
+  },
+  "resolved_contradiction_keys": [],
+  "authoring_provenance": {
+    "method": "local_codex_curated",
+    "definition_file": "data/approach_library/curated/hip_periprosthetic_batch002_v1.json",
+    "api_used": false
+  }
+}

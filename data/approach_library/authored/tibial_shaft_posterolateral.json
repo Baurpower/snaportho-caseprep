@@ -1,0 +1,350 @@
+{
+  "schema_version": "brobot_approach_packet_v1",
+  "approach_id": "tibial_shaft_posterolateral",
+  "name": "Posterolateral approach to the tibial shaft",
+  "aliases": [
+    "posterolateral tibial plating and bone-graft approach"
+  ],
+  "region": "tibial-shaft",
+  "joint": "",
+  "bones": [
+    "tibia",
+    "fibula"
+  ],
+  "corridor": "Incision from the lateral gastrocnemius border to a point midway between Achilles and fibula, between the superficial posterior and lateral compartments, then FHL and the entire deep posterior compartment mobilized from fibula, interosseous membrane, and tibia, lateral to medial",
+  "positioning": [
+    {
+      "text": "Position lateral or, preferably, prone because the fibula sits more posterior than the tibia. A high-thigh tourniquet is optional.",
+      "claim_ids": [
+        "tibial_shaft_posterolateral_positioning_01"
+      ]
+    }
+  ],
+  "setup": [],
+  "surface_landmarks": [
+    {
+      "text": "Mark the lateral gastrocnemius border, Achilles, and fibula. The interval between lateral and posterior compartments is easier to find distally.",
+      "claim_ids": [
+        "tibial_shaft_posterolateral_surface_landmarks_01"
+      ]
+    }
+  ],
+  "incision": [
+    {
+      "text": "Begin over the lateral gastrocnemius border and extend distally to a point midway between the Achilles and the fibula.",
+      "claim_ids": [
+        "tibial_shaft_posterolateral_incision_01"
+      ]
+    }
+  ],
+  "superficial_interval": [
+    {
+      "text": "Develop the plane between the superficial posterior and lateral compartments. Incise fascia, take gastrocnemius and soleus medially, and leave peroneals lateral to show the posterolateral fibula. Ligate crossing peroneal perforators.",
+      "claim_ids": [
+        "tibial_shaft_posterolateral_superficial_interval_01"
+      ]
+    }
+  ],
+  "deep_interval": [
+    {
+      "text": "Mobilize FHL from the posterior fibula posteromedially, then continue medially to the interosseous membrane. Mobilize the entire deep posterior compartment from the fibula, membrane, and tibia, starting outside the fracture zone, and retract it lateral to medial so its contents stay protected. This is rarely used on the proximal tibia.",
+      "claim_ids": [
+        "tibial_shaft_posterolateral_deep_interval_01"
+      ]
+    }
+  ],
+  "layers": [
+    {
+      "text": "Skin, superficial-posterior versus lateral compartment interval, FHL, deep posterior compartment, interosseous membrane, then the posterior tibia and fibula.",
+      "claim_ids": [
+        "tibial_shaft_posterolateral_layers_01"
+      ]
+    }
+  ],
+  "structures_encountered": [],
+  "structures_at_risk": [
+    {
+      "text": "Peroneal perforators, the deep posterior-compartment neurovascular contents, and, if fascia is closed, both the superficial posterior and lateral compartments are at risk of compartment syndrome.",
+      "claim_ids": [
+        "tibial_shaft_posterolateral_structures_at_risk_01"
+      ]
+    }
+  ],
+  "danger_zones": [
+    {
+      "text": "Incomplete mobilization of the deep posterior compartment, and closing fascia when swelling is expected, are the danger zones.",
+      "claim_ids": [
+        "tibial_shaft_posterolateral_danger_zones_01"
+      ]
+    }
+  ],
+  "retraction_hazards": [
+    {
+      "text": "Retract the whole deep posterior compartment as a unit from lateral to medial; do not pick through it over the fracture.",
+      "claim_ids": [
+        "tibial_shaft_posterolateral_retraction_hazards_01"
+      ]
+    }
+  ],
+  "exposure": [
+    {
+      "text": "Shows the relatively flat posterior tibia for plating with little contouring, and both tibia and fibula. Often used for nonunion with posterolateral bone graft. Ideal for midshaft and distal tibia when anterior soft tissues are compromised.",
+      "claim_ids": [
+        "tibial_shaft_posterolateral_exposure_01"
+      ]
+    }
+  ],
+  "limitations": [
+    {
+      "text": "Surgically demanding and rarely used on the proximal tibia.",
+      "claim_ids": [
+        "tibial_shaft_posterolateral_limitations_01"
+      ]
+    }
+  ],
+  "extensions": [],
+  "indications": [
+    {
+      "text": "Used for posterior plating when anterior tissues are unsafe, and for posterolateral grafting of nonunion.",
+      "claim_ids": [
+        "tibial_shaft_posterolateral_indications_01"
+      ]
+    }
+  ],
+  "relative_contraindications": [],
+  "implant_implications": [],
+  "fluoroscopy_implications": [],
+  "closure": [
+    {
+      "text": "If compartment syndrome is a concern, leave fascia open and close only skin and subcutaneous tissue if that is safe; otherwise use temporary coverage until swelling settles.",
+      "claim_ids": [
+        "tibial_shaft_posterolateral_closure_01"
+      ]
+    }
+  ],
+  "complications": [
+    {
+      "text": "Complications include injury to deep posterior-compartment vessels or nerve and compartment syndrome in the opened posterior and lateral compartments.",
+      "claim_ids": [
+        "tibial_shaft_posterolateral_complications_01"
+      ]
+    }
+  ],
+  "bailouts": [],
+  "procedure_applications": [
+    {
+      "procedure_id": "tibial_shaft_fracture_orif",
+      "relationship": "conditional_option",
+      "condition": "A midshaft or distal tibia is plated posteriorly because anterior soft tissues are unsafe, or a nonunion is grafted posterolaterally"
+    }
+  ],
+  "questions": [
+    {
+      "question": "Which compartment interval is used?",
+      "answer": "Between the superficial posterior compartment (gastrocnemius/soleus) and the lateral (peroneal) compartment.",
+      "claim_ids": [
+        "tibial_shaft_posterolateral_questions_01"
+      ]
+    },
+    {
+      "question": "In which direction is the deep posterior compartment mobilized?",
+      "answer": "As a unit from lateral to medial off the fibula, interosseous membrane, and tibia.",
+      "claim_ids": [
+        "tibial_shaft_posterolateral_questions_02"
+      ]
+    },
+    {
+      "question": "Why is prone positioning preferred?",
+      "answer": "The fibula lies more posterior than the tibia, so prone positioning makes the interval easier.",
+      "claim_ids": [
+        "tibial_shaft_posterolateral_questions_03"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "tibial_shaft_posterolateral_positioning_01",
+      "text": "Position lateral or, preferably, prone because the fibula sits more posterior than the tibia. A high-thigh tourniquet is optional.",
+      "source_ids": [
+        "ao_235dfad5df539c6e"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "tibial_shaft_posterolateral_surface_landmarks_01",
+      "text": "Mark the lateral gastrocnemius border, Achilles, and fibula. The interval between lateral and posterior compartments is easier to find distally.",
+      "source_ids": [
+        "ao_235dfad5df539c6e",
+        "ao_d1d6e660d076a419"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "tibial_shaft_posterolateral_incision_01",
+      "text": "Begin over the lateral gastrocnemius border and extend distally to a point midway between the Achilles and the fibula.",
+      "source_ids": [
+        "ao_235dfad5df539c6e"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "tibial_shaft_posterolateral_superficial_interval_01",
+      "text": "Develop the plane between the superficial posterior and lateral compartments. Incise fascia, take gastrocnemius and soleus medially, and leave peroneals lateral to show the posterolateral fibula. Ligate crossing peroneal perforators.",
+      "source_ids": [
+        "ao_235dfad5df539c6e",
+        "ao_d1d6e660d076a419"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "tibial_shaft_posterolateral_deep_interval_01",
+      "text": "Mobilize FHL from the posterior fibula posteromedially, then continue medially to the interosseous membrane. Mobilize the entire deep posterior compartment from the fibula, membrane, and tibia, starting outside the fracture zone, and retract it lateral to medial so its contents stay protected. This is rarely used on the proximal tibia.",
+      "source_ids": [
+        "ao_235dfad5df539c6e",
+        "ao_d1d6e660d076a419"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "tibial_shaft_posterolateral_layers_01",
+      "text": "Skin, superficial-posterior versus lateral compartment interval, FHL, deep posterior compartment, interosseous membrane, then the posterior tibia and fibula.",
+      "source_ids": [
+        "ao_235dfad5df539c6e",
+        "ao_d1d6e660d076a419"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "tibial_shaft_posterolateral_structures_at_risk_01",
+      "text": "Peroneal perforators, the deep posterior-compartment neurovascular contents, and, if fascia is closed, both the superficial posterior and lateral compartments are at risk of compartment syndrome.",
+      "source_ids": [
+        "ao_235dfad5df539c6e",
+        "ao_d1d6e660d076a419"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "tibial_shaft_posterolateral_danger_zones_01",
+      "text": "Incomplete mobilization of the deep posterior compartment, and closing fascia when swelling is expected, are the danger zones.",
+      "source_ids": [
+        "ao_235dfad5df539c6e"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "tibial_shaft_posterolateral_retraction_hazards_01",
+      "text": "Retract the whole deep posterior compartment as a unit from lateral to medial; do not pick through it over the fracture.",
+      "source_ids": [
+        "ao_235dfad5df539c6e",
+        "ao_d1d6e660d076a419"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "tibial_shaft_posterolateral_exposure_01",
+      "text": "Shows the relatively flat posterior tibia for plating with little contouring, and both tibia and fibula. Often used for nonunion with posterolateral bone graft. Ideal for midshaft and distal tibia when anterior soft tissues are compromised.",
+      "source_ids": [
+        "ao_235dfad5df539c6e"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "tibial_shaft_posterolateral_limitations_01",
+      "text": "Surgically demanding and rarely used on the proximal tibia.",
+      "source_ids": [
+        "ao_235dfad5df539c6e"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "tibial_shaft_posterolateral_indications_01",
+      "text": "Used for posterior plating when anterior tissues are unsafe, and for posterolateral grafting of nonunion.",
+      "source_ids": [
+        "ao_235dfad5df539c6e"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "tibial_shaft_posterolateral_closure_01",
+      "text": "If compartment syndrome is a concern, leave fascia open and close only skin and subcutaneous tissue if that is safe; otherwise use temporary coverage until swelling settles.",
+      "source_ids": [
+        "ao_235dfad5df539c6e"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "tibial_shaft_posterolateral_complications_01",
+      "text": "Complications include injury to deep posterior-compartment vessels or nerve and compartment syndrome in the opened posterior and lateral compartments.",
+      "source_ids": [
+        "ao_235dfad5df539c6e"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "tibial_shaft_posterolateral_questions_01",
+      "text": "Which compartment interval is used?",
+      "source_ids": [
+        "ao_235dfad5df539c6e"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "tibial_shaft_posterolateral_questions_02",
+      "text": "In which direction is the deep posterior compartment mobilized?",
+      "source_ids": [
+        "ao_235dfad5df539c6e"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "tibial_shaft_posterolateral_questions_03",
+      "text": "Why is prone positioning preferred?",
+      "source_ids": [
+        "ao_235dfad5df539c6e"
+      ],
+      "risk_level": "medium"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "ao_235dfad5df539c6e",
+      "provider": "AO Surgery Reference",
+      "title": "Approach To Posterolateral Surface Of Tibial Shaft",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/tibial-shaft/approach/approach-to-posterolateral-surface-of-tibial-shaft",
+      "source_page_id": "ao_235dfad5df539c6e"
+    },
+    {
+      "source_id": "ao_d1d6e660d076a419",
+      "provider": "AO Surgery Reference",
+      "title": "Posterolateral Limited Open Approach To The Distal Tibia",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/distal-tibia/approach/posterolateral-limited-open-approach-to-the-distal-tibia",
+      "source_page_id": "ao_d1d6e660d076a419"
+    },
+    {
+      "source_id": "orthobullets_c6839dbdf0568598",
+      "provider": "Orthobullets",
+      "title": "Tibia Posterolateral Approach",
+      "url": "https://www.orthobullets.com/approaches/12035/tibia-posterolateral-approach",
+      "source_page_id": "orthobullets_c6839dbdf0568598"
+    }
+  ],
+  "content_status": "agent_review_pending",
+  "review": {
+    "status": "agent_review_pending",
+    "required_roles": [
+      "adversarial_safety_reviewer",
+      "approach_anatomy_reviewer",
+      "educational_value_reviewer",
+      "evidence_reviewer",
+      "operative_exposure_reviewer",
+      "procedure_applicability_reviewer"
+    ],
+    "completed_roles": []
+  },
+  "resolved_contradiction_keys": [],
+  "authoring_provenance": {
+    "method": "local_codex_curated",
+    "definition_file": "data/approach_library/curated/tibial_shaft_batch001_v1.json",
+    "api_used": false
+  }
+}

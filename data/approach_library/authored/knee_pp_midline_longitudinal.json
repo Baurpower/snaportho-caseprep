@@ -1,0 +1,342 @@
+{
+  "schema_version": "brobot_approach_packet_v1",
+  "approach_id": "knee_pp_midline_longitudinal",
+  "name": "Midline longitudinal approach (periprosthetic knee)",
+  "aliases": [
+    "periprosthetic TKA midline approach"
+  ],
+  "region": "knee",
+  "joint": "knee",
+  "bones": [
+    "distal femur",
+    "proximal tibia",
+    "patella"
+  ],
+  "corridor": "Reused full-thickness midline TKA incision with a medial parapatellar arthrotomy, extensible to the quadriceps or tibial tubercle, used for periprosthetic, patellar, and antegrade tibial-nail work",
+  "positioning": [
+    {
+      "text": "Position so the prior midline scar can be reused and extended proximal or distal.",
+      "claim_ids": [
+        "knee_pp_midline_longitudinal_positioning_01"
+      ]
+    }
+  ],
+  "setup": [],
+  "surface_landmarks": [
+    {
+      "text": "Mark the existing midline TKA scar, the patella, and the tibial tubercle. Note the infrapatellar saphenous branches crossing from medial to lateral.",
+      "claim_ids": [
+        "knee_pp_midline_longitudinal_surface_landmarks_01"
+      ]
+    }
+  ],
+  "incision": [
+    {
+      "text": "Reuse the longitudinal midline incision and extend it as needed. Raise full-thickness flaps to protect skin blood supply.",
+      "claim_ids": [
+        "knee_pp_midline_longitudinal_incision_01"
+      ]
+    }
+  ],
+  "superficial_interval": [
+    {
+      "text": "Develop full-thickness flaps. Expect minor lateral sensory loss from infrapatellar saphenous branches; significant saphenous-trunk injury is avoidable.",
+      "claim_ids": [
+        "knee_pp_midline_longitudinal_superficial_interval_01"
+      ]
+    }
+  ],
+  "deep_interval": [
+    {
+      "text": "Perform a medial parapatellar arthrotomy through the retinaculum and capsule. Extend proximally or toward the tibial tubercle as the fracture requires. Evert the patella only for patellar-component or patellar-fracture work, and avoid avulsing the patellar tendon, especially in flexion.",
+      "claim_ids": [
+        "knee_pp_midline_longitudinal_deep_interval_01"
+      ]
+    }
+  ],
+  "layers": [
+    {
+      "text": "Skin (prior midline), full-thickness flaps, medial retinaculum and capsule, then the joint, distal femur, and proximal tibia.",
+      "claim_ids": [
+        "knee_pp_midline_longitudinal_layers_01"
+      ]
+    }
+  ],
+  "structures_encountered": [],
+  "structures_at_risk": [
+    {
+      "text": "The patellar tendon insertion on the tubercle, the extraosseous patellar arterial ring, and infrapatellar saphenous branches are at risk.",
+      "claim_ids": [
+        "knee_pp_midline_longitudinal_structures_at_risk_01"
+      ]
+    }
+  ],
+  "danger_zones": [
+    {
+      "text": "Patellar eversion in flexion can avulse the patellar tendon from the tubercle.",
+      "claim_ids": [
+        "knee_pp_midline_longitudinal_danger_zones_01"
+      ]
+    }
+  ],
+  "retraction_hazards": [
+    {
+      "text": "Thin flaps jeopardize skin blood supply. Additional quadriceps, lateral-retinacular, or tubercle release may be needed rather than forced eversion.",
+      "claim_ids": [
+        "knee_pp_midline_longitudinal_retraction_hazards_01"
+      ]
+    }
+  ],
+  "exposure": [
+    {
+      "text": "Gives a universal window for primary or revision TKA and for periprosthetic work needing medial or lateral arthrotomy, patellar fixation, or isolated distal extension for tibial nailing.",
+      "claim_ids": [
+        "knee_pp_midline_longitudinal_exposure_01"
+      ]
+    }
+  ],
+  "limitations": [
+    {
+      "text": "Lateral parapatellar arthrotomy is rare. Forced eversion without release risks tendon avulsion.",
+      "claim_ids": [
+        "knee_pp_midline_longitudinal_limitations_01"
+      ]
+    }
+  ],
+  "extensions": [],
+  "indications": [
+    {
+      "text": "Used whenever the prior midline TKA incision can serve a periprosthetic fracture, patellar fracture, or antegrade tibial nail.",
+      "claim_ids": [
+        "knee_pp_midline_longitudinal_indications_01"
+      ]
+    }
+  ],
+  "relative_contraindications": [],
+  "implant_implications": [],
+  "fluoroscopy_implications": [],
+  "closure": [
+    {
+      "text": "Irrigate the joint, close in layers, consider a drain, and close skin with staples or nonabsorbable suture.",
+      "claim_ids": [
+        "knee_pp_midline_longitudinal_closure_01"
+      ]
+    }
+  ],
+  "complications": [
+    {
+      "text": "Complications include patellar-tendon avulsion, skin-flap necrosis, and saphenous neuroma.",
+      "claim_ids": [
+        "knee_pp_midline_longitudinal_complications_01"
+      ]
+    }
+  ],
+  "bailouts": [],
+  "procedure_applications": [
+    {
+      "procedure_id": "periprosthetic_knee_fracture_orif",
+      "relationship": "primary_option",
+      "condition": "A periprosthetic fracture, patellar fracture, or antegrade tibial nail is handled through the prior midline TKA incision"
+    }
+  ],
+  "questions": [
+    {
+      "question": "Which arthrotomy is routine through this incision?",
+      "answer": "Medial parapatellar.",
+      "claim_ids": [
+        "knee_pp_midline_longitudinal_questions_01"
+      ]
+    },
+    {
+      "question": "When is patellar eversion required?",
+      "answer": "Only for patellar fractures or revision of the patellar component.",
+      "claim_ids": [
+        "knee_pp_midline_longitudinal_questions_02"
+      ]
+    },
+    {
+      "question": "What can isolated distal extension be used for?",
+      "answer": "Tibial intramedullary nailing.",
+      "claim_ids": [
+        "knee_pp_midline_longitudinal_questions_03"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "knee_pp_midline_longitudinal_positioning_01",
+      "text": "Position so the prior midline scar can be reused and extended proximal or distal.",
+      "source_ids": [
+        "ao_a3814d82afad1b07",
+        "ao_b0d34644f9c1079e"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "knee_pp_midline_longitudinal_surface_landmarks_01",
+      "text": "Mark the existing midline TKA scar, the patella, and the tibial tubercle. Note the infrapatellar saphenous branches crossing from medial to lateral.",
+      "source_ids": [
+        "ao_a3814d82afad1b07"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "knee_pp_midline_longitudinal_incision_01",
+      "text": "Reuse the longitudinal midline incision and extend it as needed. Raise full-thickness flaps to protect skin blood supply.",
+      "source_ids": [
+        "ao_a3814d82afad1b07"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "knee_pp_midline_longitudinal_superficial_interval_01",
+      "text": "Develop full-thickness flaps. Expect minor lateral sensory loss from infrapatellar saphenous branches; significant saphenous-trunk injury is avoidable.",
+      "source_ids": [
+        "ao_a3814d82afad1b07"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "knee_pp_midline_longitudinal_deep_interval_01",
+      "text": "Perform a medial parapatellar arthrotomy through the retinaculum and capsule. Extend proximally or toward the tibial tubercle as the fracture requires. Evert the patella only for patellar-component or patellar-fracture work, and avoid avulsing the patellar tendon, especially in flexion.",
+      "source_ids": [
+        "ao_a3814d82afad1b07",
+        "ao_b0d34644f9c1079e"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "knee_pp_midline_longitudinal_layers_01",
+      "text": "Skin (prior midline), full-thickness flaps, medial retinaculum and capsule, then the joint, distal femur, and proximal tibia.",
+      "source_ids": [
+        "ao_a3814d82afad1b07",
+        "ao_b0d34644f9c1079e"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "knee_pp_midline_longitudinal_structures_at_risk_01",
+      "text": "The patellar tendon insertion on the tubercle, the extraosseous patellar arterial ring, and infrapatellar saphenous branches are at risk.",
+      "source_ids": [
+        "ao_a3814d82afad1b07",
+        "ao_b0d34644f9c1079e"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "knee_pp_midline_longitudinal_danger_zones_01",
+      "text": "Patellar eversion in flexion can avulse the patellar tendon from the tubercle.",
+      "source_ids": [
+        "ao_a3814d82afad1b07"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "knee_pp_midline_longitudinal_retraction_hazards_01",
+      "text": "Thin flaps jeopardize skin blood supply. Additional quadriceps, lateral-retinacular, or tubercle release may be needed rather than forced eversion.",
+      "source_ids": [
+        "ao_a3814d82afad1b07"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "knee_pp_midline_longitudinal_exposure_01",
+      "text": "Gives a universal window for primary or revision TKA and for periprosthetic work needing medial or lateral arthrotomy, patellar fixation, or isolated distal extension for tibial nailing.",
+      "source_ids": [
+        "ao_a3814d82afad1b07"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "knee_pp_midline_longitudinal_limitations_01",
+      "text": "Lateral parapatellar arthrotomy is rare. Forced eversion without release risks tendon avulsion.",
+      "source_ids": [
+        "ao_a3814d82afad1b07"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "knee_pp_midline_longitudinal_indications_01",
+      "text": "Used whenever the prior midline TKA incision can serve a periprosthetic fracture, patellar fracture, or antegrade tibial nail.",
+      "source_ids": [
+        "ao_a3814d82afad1b07"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "knee_pp_midline_longitudinal_closure_01",
+      "text": "Irrigate the joint, close in layers, consider a drain, and close skin with staples or nonabsorbable suture.",
+      "source_ids": [
+        "ao_a3814d82afad1b07"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "knee_pp_midline_longitudinal_complications_01",
+      "text": "Complications include patellar-tendon avulsion, skin-flap necrosis, and saphenous neuroma.",
+      "source_ids": [
+        "ao_a3814d82afad1b07"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "knee_pp_midline_longitudinal_questions_01",
+      "text": "Which arthrotomy is routine through this incision?",
+      "source_ids": [
+        "ao_a3814d82afad1b07"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "knee_pp_midline_longitudinal_questions_02",
+      "text": "When is patellar eversion required?",
+      "source_ids": [
+        "ao_a3814d82afad1b07"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "knee_pp_midline_longitudinal_questions_03",
+      "text": "What can isolated distal extension be used for?",
+      "source_ids": [
+        "ao_a3814d82afad1b07"
+      ],
+      "risk_level": "medium"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "ao_a3814d82afad1b07",
+      "provider": "AO Surgery Reference",
+      "title": "Midline Longitudinal Approach",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/periprosthetic-fractures/knee/approach/midline-longitudinal-approach",
+      "source_page_id": "ao_a3814d82afad1b07"
+    },
+    {
+      "source_id": "ao_b0d34644f9c1079e",
+      "provider": "AO Surgery Reference",
+      "title": "Medial Parapatellar Approach",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/distal-femur/approach/medial-parapatellar-approach",
+      "source_page_id": "ao_b0d34644f9c1079e"
+    }
+  ],
+  "content_status": "agent_review_pending",
+  "review": {
+    "status": "agent_review_pending",
+    "required_roles": [
+      "adversarial_safety_reviewer",
+      "approach_anatomy_reviewer",
+      "educational_value_reviewer",
+      "evidence_reviewer",
+      "operative_exposure_reviewer",
+      "procedure_applicability_reviewer"
+    ],
+    "completed_roles": []
+  },
+  "resolved_contradiction_keys": [],
+  "authoring_provenance": {
+    "method": "local_codex_curated",
+    "definition_file": "data/approach_library/curated/periprosthetic_knee_batch001_v1.json",
+    "api_used": false
+  }
+}

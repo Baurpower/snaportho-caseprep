@@ -1,0 +1,2013 @@
+{
+  "approaches": [
+    {
+      "approach_id": "spine_posterior_ctj",
+      "name": "Posterior approach to the cervicothoracic junction",
+      "aliases": [
+        "posterior C7–T2 approach",
+        "posterolateral costotransversectomy"
+      ],
+      "region": "subaxial-cervical",
+      "joint": "",
+      "bones": [
+        "C7",
+        "T1",
+        "T2"
+      ],
+      "corridor": "Midline incision through trapezius, latissimus, rhomboids, and paraspinal fascia to the spinous processes, then subperiosteal elevation along the posterior elements, with optional costotransversectomy for the anterior column",
+      "sources": [
+        {
+          "source_id": "ao_6bf1b671b5992716",
+          "provider": "AO Surgery Reference",
+          "title": "Posterior Access To The Thoraco Cervical Junction",
+          "url": "https://surgeryreference.aofoundation.org/spine/trauma/subaxial-cervical/approach/posterior-access-to-the-thoraco-cervical-junction",
+          "source_page_id": "ao_6bf1b671b5992716"
+        },
+        {
+          "source_id": "ao_19f14d08da9963b9",
+          "provider": "AO Surgery Reference",
+          "title": "Posterior Access To The Cervicothoracic Junction",
+          "url": "https://surgeryreference.aofoundation.org/spine/tumors/metastatic-tumors/approach/posterior-access-to-the-cervicothoracic-junction",
+          "source_page_id": "ao_19f14d08da9963b9"
+        },
+        {
+          "source_id": "ao_94506eb4e9baf85a",
+          "provider": "AO Surgery Reference",
+          "title": "Posterior Access To The Cervicothoracic Junction C7 To T2",
+          "url": "https://surgeryreference.aofoundation.org/spine/tumors/primary-tumors/approach/posterior-access-to-the-cervicothoracic-junction-c7-to-t2",
+          "source_page_id": "ao_94506eb4e9baf85a"
+        }
+      ],
+      "procedure_applications": [
+        {
+          "procedure_id": "cervical_spine_orif",
+          "relationship": "primary_option",
+          "condition": "A C7–T2 injury or tumor is instrumented from a posterior midline window, with optional costotransversectomy for anterior-column access"
+        }
+      ],
+      "sections": {
+        "positioning": [
+          {
+            "text": "Position so a C-arm can mark the exact midline segment before incision.",
+            "source_ids": ["ao_6bf1b671b5992716", "ao_19f14d08da9963b9"]
+          }
+        ],
+        "surface_landmarks": [
+          {
+            "text": "Mark the midline over the involved cervicothoracic segment after C-arm localization.",
+            "source_ids": ["ao_6bf1b671b5992716", "ao_19f14d08da9963b9"]
+          }
+        ],
+        "incision": [
+          {
+            "text": "Infiltrate with 1:500,000 epinephrine if desired and make a midline cut centered on the marked segment.",
+            "source_ids": ["ao_6bf1b671b5992716", "ao_19f14d08da9963b9"]
+          }
+        ],
+        "superficial_interval": [
+          {
+            "text": "Stay in the midline through fat and the fascia of trapezius, latissimus, rhomboids, and paraspinous muscle to the spinous-process tips. Confirm the level on fluoroscopy as soon as bone is visible, before further dissection.",
+            "source_ids": ["ao_6bf1b671b5992716", "ao_19f14d08da9963b9"],
+            "risk_level": "high"
+          }
+        ],
+        "deep_interval": [
+          {
+            "text": "Elevate paraspinal muscle subperiosteally from the laminae with a Cobb or cautery along the posterior elements bilaterally. If tumor involves the lamina, do not use a Cobb blindly. Spare facet capsules cranial and caudal to the planned fusion. Anterior-column access uses a posterolateral costotransversectomy (subperiosteal exposure of the posterior 5 cm of rib, osteotomy ~5 cm from the costovertebral joint, protect pleura and the inferior neurovascular bundle) or a far-lateral extracavitary plane lateral to the paraspinal mass with 8–10 cm of rib resection.",
+            "source_ids": ["ao_6bf1b671b5992716", "ao_19f14d08da9963b9"],
+            "risk_level": "high"
+          }
+        ],
+        "layers": [
+          {
+            "text": "Skin, upper-back fascia, spinous processes, lamina, optional rib and costotransversectomy window to the lateral vertebral body.",
+            "source_ids": ["ao_6bf1b671b5992716", "ao_19f14d08da9963b9"]
+          }
+        ],
+        "structures_at_risk": [
+          {
+            "text": "Pleura and the intercostal neurovascular bundle during rib takedown, the great vessels on the anterolateral vertebral body, and adjacent facet capsules are at risk. Obtain an upright chest film after costotransversectomy to look for pneumothorax.",
+            "source_ids": ["ao_6bf1b671b5992716"],
+            "risk_level": "medium"
+          }
+        ],
+        "danger_zones": [
+          {
+            "text": "Non-subperiosteal rib dissection, Cobb elevation through a tumor-involved lamina, and closing fascia without first approximating muscle (dead space plus high-tension fascial dehiscence) are the danger zones.",
+            "source_ids": ["ao_6bf1b671b5992716", "ao_19f14d08da9963b9", "ao_94506eb4e9baf85a"],
+            "risk_level": "high"
+          }
+        ],
+        "retraction_hazards": [
+          {
+            "text": "Cervicothoracic muscle approximation is under considerable tension; consider nonabsorbable fascial sutures.",
+            "source_ids": ["ao_6bf1b671b5992716", "ao_19f14d08da9963b9"]
+          }
+        ],
+        "exposure": [
+          {
+            "text": "Shows the posterior C7–T2 elements; costotransversectomy adds the lateral vertebral body and anulus.",
+            "source_ids": ["ao_6bf1b671b5992716", "ao_94506eb4e9baf85a"]
+          }
+        ],
+        "limitations": [
+          {
+            "text": "A formal sternotomy is not required for most anterior-column work here; posterolateral windows have less morbidity below T2.",
+            "source_ids": ["ao_6bf1b671b5992716"]
+          }
+        ],
+        "indications": [
+          {
+            "text": "Used for posterior cervicothoracic trauma, metastatic, and primary-tumor access, including optional anterior-column exposure.",
+            "source_ids": ["ao_6bf1b671b5992716", "ao_19f14d08da9963b9", "ao_94506eb4e9baf85a"]
+          }
+        ],
+        "closure": [
+          {
+            "text": "Approximate muscle over a deep drain, then close fascia, fat, and skin. Avoid a fascial-only closure that leaves dead space.",
+            "source_ids": ["ao_6bf1b671b5992716", "ao_19f14d08da9963b9"]
+          }
+        ],
+        "complications": [
+          {
+            "text": "Complications include pneumothorax after rib resection, fascial dehiscence, dead-space seroma, and neural injury under a split or tumor-involved lamina.",
+            "source_ids": ["ao_6bf1b671b5992716", "ao_19f14d08da9963b9"],
+            "risk_level": "high"
+          }
+        ],
+        "questions": [
+          {
+            "question": "Which upper-back muscles are crossed in the midline at the CTJ?",
+            "answer": "Trapezius, latissimus dorsi, rhomboids, and paraspinous muscle.",
+            "source_ids": ["ao_6bf1b671b5992716", "ao_19f14d08da9963b9"]
+          },
+          {
+            "question": "How far from the costovertebral joint is the rib osteotomized in a posterolateral costotransversectomy?",
+            "answer": "About 5 cm, after circumferential subperiosteal exposure of the posterior 5 cm of rib.",
+            "source_ids": ["ao_6bf1b671b5992716"]
+          },
+          {
+            "question": "Why consider nonabsorbable fascial sutures here?",
+            "answer": "Cervicothoracic muscle approximation is under considerable tension and fascia can dehisce.",
+            "source_ids": ["ao_6bf1b671b5992716", "ao_19f14d08da9963b9"]
+          }
+        ]
+      }
+    },
+    {
+      "approach_id": "spine_posterior_occipitocervical",
+      "name": "Posterior occipitocervical and C1–C2 approach",
+      "aliases": [
+        "posterior C0–C2 approach",
+        "posterior C1–C2 approach"
+      ],
+      "region": "occipitocervical",
+      "joint": "",
+      "bones": [
+        "occiput",
+        "C1",
+        "C2"
+      ],
+      "corridor": "Midline avascular plane from the external occipital protuberance to C2–C5, subperiosteal C1 ring staying within 1.5 cm of midline, then C2 lamina and facet with optional C2-root reflection for C1 lateral-mass screws",
+      "sources": [
+        {
+          "source_id": "ao_c779adf8b81e1ca3",
+          "provider": "AO Surgery Reference",
+          "title": "Posterior Access To C1 C2",
+          "url": "https://surgeryreference.aofoundation.org/spine/trauma/occipitocervical/approach/posterior-access-to-c1-c2",
+          "source_page_id": "ao_c779adf8b81e1ca3"
+        },
+        {
+          "source_id": "ao_a8db8360221a635a",
+          "provider": "AO Surgery Reference",
+          "title": "Posterior Access To The Occipitocervical Spine",
+          "url": "https://surgeryreference.aofoundation.org/spine/tumors/metastatic-tumors/approach/posterior-access-to-the-occipitocervical-spine",
+          "source_page_id": "ao_a8db8360221a635a"
+        },
+        {
+          "source_id": "ao_da04522addb8664f",
+          "provider": "AO Surgery Reference",
+          "title": "Posterior Access To The Occipitocervical Spine C0 To C2",
+          "url": "https://surgeryreference.aofoundation.org/spine/tumors/primary-tumors/approach/posterior-access-to-the-occipitocervical-spine-c0-to-c2",
+          "source_page_id": "ao_da04522addb8664f"
+        }
+      ],
+      "procedure_applications": [
+        {
+          "procedure_id": "cervical_spine_orif",
+          "relationship": "primary_option",
+          "condition": "C1–C2 or occipitocervical instrumentation is placed from a posterior midline window"
+        }
+      ],
+      "sections": {
+        "positioning": [
+          {
+            "text": "Position prone so the external occipital protuberance, C1 arch, and C2 spinous process can be marked.",
+            "source_ids": ["ao_c779adf8b81e1ca3", "ao_a8db8360221a635a"]
+          }
+        ],
+        "surface_landmarks": [
+          {
+            "text": "Mark the EOP, superior nuchal line, foramen magnum, and the C1–C2 spinous processes. Occipitocervical cuts typically run 5–7 cm from the EOP to C3 or C5; an isolated C1–C2 cut starts at the top of C1 and ends at the bottom of C2.",
+            "source_ids": ["ao_c779adf8b81e1ca3", "ao_a8db8360221a635a", "ao_da04522addb8664f"]
+          }
+        ],
+        "incision": [
+          {
+            "text": "Incise in the midline over the planned segment, typically no more than 5–7 cm.",
+            "source_ids": ["ao_c779adf8b81e1ca3", "ao_a8db8360221a635a"]
+          }
+        ],
+        "superficial_interval": [
+          {
+            "text": "Stay in the relatively avascular midline intermuscular plane with cautery or scissors. Wandering laterally into muscle markedly increases blood loss. Identify the midline of the C1 posterior arch.",
+            "source_ids": ["ao_c779adf8b81e1ca3", "ao_a8db8360221a635a"],
+            "risk_level": "high"
+          }
+        ],
+        "deep_interval": [
+          {
+            "text": "Push soft tissue subperiosteally off the C1 arch with a Cobb. The vertebral artery lies only 1.5 cm lateral to the midline; do not go beyond the lateral mass if C1 screws are planned. Expose C2 spinous process, lamina, and facet; preserve the semispinalis cervicis attachment on the caudal C2 spinous process and do not detach the C2–C3 soft tissues, which risks postoperative kyphosis. For C1 lateral-mass screws, reflect the C2 root and veins caudally with a Penfield 4; pack thrombin-Gelfoam if it bleeds and work the other side. Cutting the C2 nerve widens the field but 15–20% develop chronic pain and 10–15% have an intersegmental or anomalous vertebral artery with the nerve.",
+            "source_ids": ["ao_c779adf8b81e1ca3", "ao_a8db8360221a635a", "ao_da04522addb8664f"],
+            "risk_level": "high"
+          }
+        ],
+        "layers": [
+          {
+            "text": "Skin, midline nuchal plane, occiput and C1 arch, C2 lamina and facet, optional C2-root window to the C1 lateral mass.",
+            "source_ids": ["ao_c779adf8b81e1ca3", "ao_a8db8360221a635a"]
+          }
+        ],
+        "structures_at_risk": [
+          {
+            "text": "The vertebral artery 1.5 cm lateral to the C1 midline, the C2 nerve and its venous plexus, an anomalous vertebral or intersegmental artery with the C2 nerve, and the semispinalis cervicis insertion on C2 are at risk.",
+            "source_ids": ["ao_c779adf8b81e1ca3", "ao_a8db8360221a635a"],
+            "risk_level": "high"
+          }
+        ],
+        "danger_zones": [
+          {
+            "text": "Lateral dissection past 1.5 cm on the C1 arch, Cobb work through tumor-involved posterior elements, and Gelfoam over an open dura (it expands and compresses the cord) are the danger zones.",
+            "source_ids": ["ao_c779adf8b81e1ca3", "ao_da04522addb8664f"],
+            "risk_level": "high"
+          }
+        ],
+        "retraction_hazards": [
+          {
+            "text": "If C2-root venous bleeding starts, pack it and switch sides rather than chasing bleeders around the artery.",
+            "source_ids": ["ao_c779adf8b81e1ca3", "ao_a8db8360221a635a"]
+          }
+        ],
+        "exposure": [
+          {
+            "text": "Shows the occiput to C2, and farther caudally if planned, for C1 lateral-mass and C2 screws or an occipital plate.",
+            "source_ids": ["ao_c779adf8b81e1ca3", "ao_a8db8360221a635a"]
+          }
+        ],
+        "limitations": [
+          {
+            "text": "An isolated C1–C2 window does not include the occiput. Cutting C2 for exposure has a chronic-pain cost.",
+            "source_ids": ["ao_c779adf8b81e1ca3", "ao_a8db8360221a635a"]
+          }
+        ],
+        "indications": [
+          {
+            "text": "Used for posterior C1–C2 trauma fixation and for occipitocervical metastatic or primary-tumor access.",
+            "source_ids": ["ao_c779adf8b81e1ca3", "ao_a8db8360221a635a", "ao_da04522addb8664f"]
+          }
+        ],
+        "closure": [
+          {
+            "text": "Achieve hemostasis, reapproximate muscle with interrupted sutures about 1 cm apart, and compress each layer 30–60 seconds. A drain is often unnecessary after meticulous hemostasis in isolated C1–C2 work. Do not leave Gelfoam on open dura.",
+            "source_ids": ["ao_c779adf8b81e1ca3", "ao_a8db8360221a635a"]
+          }
+        ],
+        "complications": [
+          {
+            "text": "Complications include vertebral-artery injury, C2 neuralgia after root sacrifice, postoperative C2–C3 kyphosis if the extensor insertion is taken down, and hematoma or dehiscence if muscle is not reapproximated densely.",
+            "source_ids": ["ao_c779adf8b81e1ca3", "ao_a8db8360221a635a"],
+            "risk_level": "high"
+          }
+        ],
+        "questions": [
+          {
+            "question": "How far lateral to the C1 midline does the vertebral artery lie?",
+            "answer": "Only 1.5 cm.",
+            "source_ids": ["ao_c779adf8b81e1ca3", "ao_a8db8360221a635a"]
+          },
+          {
+            "question": "Which C2 muscle attachment should be preserved?",
+            "answer": "Semispinalis cervicis on the caudal border of the C2 spinous process.",
+            "source_ids": ["ao_c779adf8b81e1ca3"]
+          },
+          {
+            "question": "What is the chronic-pain risk of cutting the C2 nerve?",
+            "answer": "15–20% of patients develop chronic pain requiring medication.",
+            "source_ids": ["ao_c779adf8b81e1ca3", "ao_a8db8360221a635a"]
+          }
+        ]
+      }
+    },
+    {
+      "approach_id": "spine_anterior_c1_c2",
+      "name": "Anterior approach to C1–C2",
+      "aliases": [
+        "high anterior retropharyngeal C1–C2 approach"
+      ],
+      "region": "occipitocervical",
+      "joint": "",
+      "bones": [
+        "C1",
+        "C2"
+      ],
+      "corridor": "Transverse cut, platysma, fascia along the anteromedial sternocleidomastoid border, blunt plane between carotid sheath and trachea/esophagus to prevertebral fascia at C1–C2",
+      "sources": [
+        {
+          "source_id": "ao_a986a7ad079aeb7b",
+          "provider": "AO Surgery Reference",
+          "title": "Anterior Access To C1 C2",
+          "url": "https://surgeryreference.aofoundation.org/spine/trauma/occipitocervical/approach/anterior-access-to-c1-c2",
+          "source_page_id": "ao_a986a7ad079aeb7b"
+        },
+        {
+          "source_id": "ao_798a5b02effb79e8",
+          "provider": "AO Surgery Reference",
+          "title": "Anterior Approach To The Cervical Spine",
+          "url": "https://surgeryreference.aofoundation.org/spine/trauma/subaxial-cervical/approach/anterior-approach-to-the-cervical-spine",
+          "source_page_id": "ao_798a5b02effb79e8"
+        }
+      ],
+      "procedure_applications": [
+        {
+          "procedure_id": "cervical_spine_orif",
+          "relationship": "conditional_option",
+          "condition": "Anterior C1–C2 work is done through the same retropharyngeal plane used for subaxial anterior cervical exposure"
+        }
+      ],
+      "sections": {
+        "positioning": [
+          {
+            "text": "Position so a nasogastric tube and the endotracheal tube can be felt and C1–C2 can be imaged.",
+            "source_ids": ["ao_a986a7ad079aeb7b", "ao_798a5b02effb79e8"]
+          }
+        ],
+        "surface_landmarks": [
+          {
+            "text": "Mark the sternocleidomastoid and midline viscera. Left-sided approaches make the recurrent laryngeal nerve more predictable; right-sided approaches let it be seen and protected.",
+            "source_ids": ["ao_a986a7ad079aeb7b", "ao_798a5b02effb79e8"]
+          }
+        ],
+        "incision": [
+          {
+            "text": "Make a transverse cut at the required high cervical level for a better scar.",
+            "source_ids": ["ao_a986a7ad079aeb7b", "ao_798a5b02effb79e8"]
+          }
+        ],
+        "superficial_interval": [
+          {
+            "text": "Divide platysma in line with the skin, then divide deep cervical fascia along the anteromedial sternocleidomastoid border.",
+            "source_ids": ["ao_a986a7ad079aeb7b", "ao_798a5b02effb79e8"]
+          }
+        ],
+        "deep_interval": [
+          {
+            "text": "Bluntly develop the plane between the carotid sheath and the trachea/esophagus to prevertebral fascia. Open that fascia longitudinally, confirm the level, mobilize longus colli, and place distractors. Identify and protect the recurrent laryngeal nerve. A nasogastric tube marks the esophagus.",
+            "source_ids": ["ao_a986a7ad079aeb7b", "ao_798a5b02effb79e8"],
+            "risk_level": "high"
+          }
+        ],
+        "layers": [
+          {
+            "text": "Skin, platysma, deep cervical fascia, carotid-sheath versus visceral plane, prevertebral fascia, longus colli, then C1–C2.",
+            "source_ids": ["ao_a986a7ad079aeb7b", "ao_798a5b02effb79e8"]
+          }
+        ],
+        "structures_at_risk": [
+          {
+            "text": "The esophagus, recurrent laryngeal nerve, and carotid artery are at risk. Esophageal injury is potentially lethal.",
+            "source_ids": ["ao_a986a7ad079aeb7b", "ao_798a5b02effb79e8"],
+            "risk_level": "high"
+          }
+        ],
+        "danger_zones": [
+          {
+            "text": "Sharp dissection through the carotid sheath or viscera, and working without a nasogastric tube to mark the esophagus, are the danger zones. Hold carotid bleeding with direct pressure and call vascular surgery.",
+            "source_ids": ["ao_a986a7ad079aeb7b", "ao_798a5b02effb79e8"],
+            "risk_level": "high"
+          }
+        ],
+        "retraction_hazards": [
+          {
+            "text": "Do not retract forcefully on the esophagus or carotid sheath.",
+            "source_ids": ["ao_a986a7ad079aeb7b", "ao_798a5b02effb79e8"]
+          }
+        ],
+        "exposure": [
+          {
+            "text": "Shows the anterior C1–C2 bodies through the same interval as a subaxial anterior cervical approach, placed more cranially.",
+            "source_ids": ["ao_a986a7ad079aeb7b", "ao_798a5b02effb79e8"]
+          }
+        ],
+        "limitations": [
+          {
+            "text": "This is not a transoral window and does not replace posterior C1–C2 fixation when that is the planned construct.",
+            "source_ids": ["ao_a986a7ad079aeb7b"]
+          }
+        ],
+        "indications": [
+          {
+            "text": "Used for anterior access to C1–C2.",
+            "source_ids": ["ao_a986a7ad079aeb7b"]
+          }
+        ],
+        "closure": [
+          {
+            "text": "Suture platysma, then fat and skin, and place a drain through a separate stab.",
+            "source_ids": ["ao_a986a7ad079aeb7b", "ao_798a5b02effb79e8"]
+          }
+        ],
+        "complications": [
+          {
+            "text": "Complications include esophageal perforation, recurrent-laryngeal palsy, and carotid injury.",
+            "source_ids": ["ao_a986a7ad079aeb7b", "ao_798a5b02effb79e8"],
+            "risk_level": "high"
+          }
+        ],
+        "questions": [
+          {
+            "question": "What is the deep plane to C1–C2 from the front?",
+            "answer": "Between the carotid sheath and the trachea/esophagus, down to prevertebral fascia.",
+            "source_ids": ["ao_a986a7ad079aeb7b", "ao_798a5b02effb79e8"]
+          },
+          {
+            "question": "Why place a nasogastric tube?",
+            "answer": "To identify the esophagus and help prevent accidental injury.",
+            "source_ids": ["ao_a986a7ad079aeb7b", "ao_798a5b02effb79e8"]
+          }
+        ]
+      }
+    },
+    {
+      "approach_id": "spine_anterior_ctj",
+      "name": "Anterior approach to the cervicothoracic junction",
+      "aliases": [
+        "manubrial-window anterior CTJ approach"
+      ],
+      "region": "subaxial-cervical",
+      "joint": "",
+      "bones": [
+        "C7",
+        "T1",
+        "T2"
+      ],
+      "corridor": "Incision along the medial sternocleidomastoid to the sternal notch, same retropharyngeal plane as anterior cervical, with optional manubriotomy or 3 cm medial clavicle resection to reach T1–T2",
+      "sources": [
+        {
+          "source_id": "ao_7235f46265f4dc11",
+          "provider": "AO Surgery Reference",
+          "title": "Anterior Approach To The Cervico Thoracic Junction",
+          "url": "https://surgeryreference.aofoundation.org/spine/trauma/subaxial-cervical/approach/anterior-approach-to-the-cervico-thoracic-junction",
+          "source_page_id": "ao_7235f46265f4dc11"
+        },
+        {
+          "source_id": "ao_798a5b02effb79e8",
+          "provider": "AO Surgery Reference",
+          "title": "Anterior Approach To The Cervical Spine",
+          "url": "https://surgeryreference.aofoundation.org/spine/trauma/subaxial-cervical/approach/anterior-approach-to-the-cervical-spine",
+          "source_page_id": "ao_798a5b02effb79e8"
+        }
+      ],
+      "procedure_applications": [
+        {
+          "procedure_id": "cervical_spine_orif",
+          "relationship": "conditional_option",
+          "condition": "Anterior C7–T2 decompression or reconstruction is done through a cervical incision, extended with a manubrial window when the sternum hides the target"
+        }
+      ],
+      "sections": {
+        "positioning": [
+          {
+            "text": "Position so a nasogastric tube is in place and a lateral radiograph or sagittal CT can show whether the manubrial notch already sees the upper thoracic spine.",
+            "source_ids": ["ao_7235f46265f4dc11", "ao_798a5b02effb79e8"]
+          }
+        ],
+        "surface_landmarks": [
+          {
+            "text": "Mark the medial sternocleidomastoid, sternal notch, and manubrium. A left-sided approach puts the thoracic duct at risk; a right-sided approach is more likely to injure the recurrent laryngeal nerve.",
+            "source_ids": ["ao_7235f46265f4dc11"]
+          }
+        ],
+        "incision": [
+          {
+            "text": "Start along the medial sternocleidomastoid down to the sternal notch and continue onto the proximal third of the sternum if a manubrial window is needed.",
+            "source_ids": ["ao_7235f46265f4dc11"]
+          }
+        ],
+        "superficial_interval": [
+          {
+            "text": "Divide platysma, then deep cervical fascia along the anteromedial sternocleidomastoid. Release the superficial fascia fully. The omohyoid at C6, and sternohyoid/sternothyroid, may be divided to improve the extensile window.",
+            "source_ids": ["ao_7235f46265f4dc11", "ao_798a5b02effb79e8"]
+          }
+        ],
+        "deep_interval": [
+          {
+            "text": "Stay medial to the carotid sheath and bluntly develop the plane to prevertebral fascia. If the manubrial notch already sees the upper thoracic vertebra, a standard lower-cervical window may suffice. Otherwise open the manubrium or the sternoclavicular joint and resect about 3 cm of medial clavicle (usable as strut graft). Mobilize the brachiocephalic trunk as needed, protect lung with a sponge, open prevertebral fascia, confirm the level, and mobilize longus colli.",
+            "source_ids": ["ao_7235f46265f4dc11", "ao_798a5b02effb79e8"]
+          }
+        ],
+        "layers": [
+          {
+            "text": "Skin, platysma, strap muscles, carotid-sheath versus visceral plane, optional manubrium/clavicle, prevertebral fascia, then C7–T2.",
+            "source_ids": ["ao_7235f46265f4dc11", "ao_798a5b02effb79e8"]
+          }
+        ],
+        "structures_at_risk": [
+          {
+            "text": "The esophagus, carotid, recurrent laryngeal nerve, thoracic duct (left), brachiocephalic trunk, and lung are at risk.",
+            "source_ids": ["ao_7235f46265f4dc11", "ao_798a5b02effb79e8"],
+            "risk_level": "high"
+          }
+        ],
+        "danger_zones": [
+          {
+            "text": "A formal sternotomy for levels below T2 has more morbidity than posterolateral alternatives. Unrecognized esophageal injury is potentially lethal.",
+            "source_ids": ["ao_7235f46265f4dc11", "ao_798a5b02effb79e8"],
+            "risk_level": "high"
+          }
+        ],
+        "retraction_hazards": [
+          {
+            "text": "Use blunt dissection only between the sheath and viscera. Hold carotid bleeding with direct pressure and call vascular surgery.",
+            "source_ids": ["ao_7235f46265f4dc11", "ao_798a5b02effb79e8"]
+          }
+        ],
+        "exposure": [
+          {
+            "text": "Shows anterior C7–T1 through T1–T2; lower levels may be reachable depending on sternal anatomy.",
+            "source_ids": ["ao_7235f46265f4dc11"]
+          }
+        ],
+        "limitations": [
+          {
+            "text": "If the manubrial notch does not see the target on sagittal imaging, a manubrial or sternoclavicular extension is required. Below T2, posterolateral windows are usually easier.",
+            "source_ids": ["ao_7235f46265f4dc11"]
+          }
+        ],
+        "indications": [
+          {
+            "text": "Used for anterior decompression or reconstruction of the injured C7–T2 column.",
+            "source_ids": ["ao_7235f46265f4dc11"]
+          }
+        ],
+        "closure": [
+          {
+            "text": "Approximate split muscles, suture transected straps and platysma, close skin, and place a drain through a separate stab.",
+            "source_ids": ["ao_7235f46265f4dc11"]
+          }
+        ],
+        "complications": [
+          {
+            "text": "Complications include esophageal perforation, thoracic-duct leak, recurrent-laryngeal palsy, carotid or brachiocephalic injury, and lung injury.",
+            "source_ids": ["ao_7235f46265f4dc11", "ao_798a5b02effb79e8"],
+            "risk_level": "high"
+          }
+        ],
+        "questions": [
+          {
+            "question": "How do you decide whether a standard lower-cervical cut reaches the CTJ?",
+            "answer": "If looking through the manubrial notch on a lateral radiograph or sagittal CT you can see the upper thoracic vertebra, a common lower-cervical window may suffice; otherwise extend.",
+            "source_ids": ["ao_7235f46265f4dc11"]
+          },
+          {
+            "question": "How much medial clavicle may be resected, and for what?",
+            "answer": "About 3 cm, which can be used as a strut graft.",
+            "source_ids": ["ao_7235f46265f4dc11"]
+          },
+          {
+            "question": "Which side risks the thoracic duct?",
+            "answer": "The left-sided approach.",
+            "source_ids": ["ao_7235f46265f4dc11"]
+          }
+        ]
+      }
+    },
+    {
+      "approach_id": "spine_sacrum_posterior_midline",
+      "name": "Posterior midline approach to the sacrum",
+      "aliases": [
+        "posterior sacral midline approach"
+      ],
+      "region": "sacrum",
+      "joint": "sacroiliac",
+      "bones": [
+        "sacrum",
+        "posterior ilium"
+      ],
+      "corridor": "Midline incision, lumbosacral fascia opened parallel to L4–L5 spinous processes, multifidus taken from medial to lateral; complete muscle mass can be lifted off the posterior iliac crest for the sacral ala",
+      "sources": [
+        {
+          "source_id": "ao_5c4513b89c6a1314",
+          "provider": "AO Surgery Reference",
+          "title": "Posterior Midline Approach To The Sacrum",
+          "url": "https://surgeryreference.aofoundation.org/spine/trauma/sacrum/approach/posterior-midline-approach-to-the-sacrum",
+          "source_page_id": "ao_5c4513b89c6a1314"
+        },
+        {
+          "source_id": "ao_7137f89cdc36f652",
+          "provider": "AO Surgery Reference",
+          "title": "Posterior Midline Approach To The Sacrum S1 To S5",
+          "url": "https://surgeryreference.aofoundation.org/spine/tumors/primary-tumors/approach/posterior-midline-approach-to-the-sacrum-s1-to-s5",
+          "source_page_id": "ao_7137f89cdc36f652"
+        }
+      ],
+      "procedure_applications": [
+        {
+          "procedure_id": "pelvic_ring_orif",
+          "relationship": "primary_option",
+          "condition": "A sacral fracture, sacral-root decompression, or posterior sacral tumor is exposed from the midline"
+        }
+      ],
+      "sections": {
+        "positioning": [
+          {
+            "text": "Position prone so both sides of the sacrum and the posterior iliac crests can be reached, avoiding crushed posterior skin.",
+            "source_ids": ["ao_5c4513b89c6a1314", "ao_7137f89cdc36f652"]
+          }
+        ],
+        "surface_landmarks": [
+          {
+            "text": "Mark the midline over the sacrum, L4–L5 spinous processes, and posterior iliac crests.",
+            "source_ids": ["ao_5c4513b89c6a1314", "ao_7137f89cdc36f652"]
+          }
+        ],
+        "incision": [
+          {
+            "text": "Use a midline cut whose length follows the fracture or pathology so both sides of the sacrum can be seen. Do not go through severely contused skin, crushed tissue, or a Morel-Lavallée hematoma.",
+            "source_ids": ["ao_5c4513b89c6a1314"]
+          }
+        ],
+        "superficial_interval": [
+          {
+            "text": "Incise the lumbosacral fascia parallel to the L4 and L5 spinous processes on the injured side if a lumbar extension is needed.",
+            "source_ids": ["ao_5c4513b89c6a1314", "ao_7137f89cdc36f652"]
+          }
+        ],
+        "deep_interval": [
+          {
+            "text": "Elevate lumbosacral musculature subperiosteally. Incise the multifidus insertion medially and lift it laterally. For the sacral ala, elevate the complete muscle mass by taking its lateral attachment off the posterior iliac crest.",
+            "source_ids": ["ao_5c4513b89c6a1314", "ao_7137f89cdc36f652"]
+          }
+        ],
+        "layers": [
+          {
+            "text": "Skin, lumbosacral fascia, multifidus, then the posterior sacrum and optional posterior ilium.",
+            "source_ids": ["ao_5c4513b89c6a1314", "ao_7137f89cdc36f652"]
+          }
+        ],
+        "structures_at_risk": [
+          {
+            "text": "Posterior skin over a Morel-Lavallée lesion and the sacral nerve roots during decompression are at risk.",
+            "source_ids": ["ao_5c4513b89c6a1314"]
+          }
+        ],
+        "danger_zones": [
+          {
+            "text": "Incising through crushed posterior tissue or a subcutaneous hematoma is the wound-healing danger zone.",
+            "source_ids": ["ao_5c4513b89c6a1314"]
+          }
+        ],
+        "retraction_hazards": [
+          {
+            "text": "Reposition erector spinae gently and reattach the superior gluteus maximus origin at closure.",
+            "source_ids": ["ao_5c4513b89c6a1314", "ao_7137f89cdc36f652"]
+          }
+        ],
+        "exposure": [
+          {
+            "text": "Shows the posterior sacral surface, the posterior aspects of both SI joints, and adjacent posterior ilium.",
+            "source_ids": ["ao_5c4513b89c6a1314"]
+          }
+        ],
+        "limitations": [
+          {
+            "text": "Does not replace a paramedian window when only one side of the posterior ilium is needed.",
+            "source_ids": ["ao_5c4513b89c6a1314"]
+          }
+        ],
+        "indications": [
+          {
+            "text": "Used for sacral-fracture fixation, sacral-root decompression, and posterior S1–S5 tumor access.",
+            "source_ids": ["ao_5c4513b89c6a1314", "ao_7137f89cdc36f652"]
+          }
+        ],
+        "closure": [
+          {
+            "text": "Reposition erector spinae, reattach the superior gluteus maximus origin, and close fat and skin in layers.",
+            "source_ids": ["ao_5c4513b89c6a1314", "ao_7137f89cdc36f652"]
+          }
+        ],
+        "complications": [
+          {
+            "text": "Complications include wound breakdown through a Morel-Lavallée lesion and dehiscence if gluteus maximus is not reattached.",
+            "source_ids": ["ao_5c4513b89c6a1314", "ao_7137f89cdc36f652"]
+          }
+        ],
+        "questions": [
+          {
+            "question": "How is multifidus taken down in the midline sacral approach?",
+            "answer": "Its insertion is incised medially and the muscle is elevated laterally.",
+            "source_ids": ["ao_5c4513b89c6a1314", "ao_7137f89cdc36f652"]
+          },
+          {
+            "question": "How is the sacral ala reached?",
+            "answer": "Elevate the complete muscle mass by dissecting its lateral attachment from the posterior iliac crest.",
+            "source_ids": ["ao_5c4513b89c6a1314", "ao_7137f89cdc36f652"]
+          }
+        ]
+      }
+    },
+    {
+      "approach_id": "spine_sacrum_posterior_paramedian",
+      "name": "Posterior paramedian approach to the sacrum",
+      "aliases": [
+        "paramedian posterior sacral approach"
+      ],
+      "region": "sacrum",
+      "joint": "sacroiliac",
+      "bones": [
+        "sacrum",
+        "posterior ilium"
+      ],
+      "corridor": "Vertical cut starting 1–2 fingerbreadths distal and medial to the PSIS, along gluteus maximus fascia to the iliac crest and sacral spinous processes, then multifidus detached from either side",
+      "sources": [
+        {
+          "source_id": "ao_9f1629a6e5c92cbb",
+          "provider": "AO Surgery Reference",
+          "title": "Posterior Paramedian Approach To The Sacrum",
+          "url": "https://surgeryreference.aofoundation.org/spine/trauma/sacrum/approach/posterior-paramedian-approach-to-the-sacrum",
+          "source_page_id": "ao_9f1629a6e5c92cbb"
+        },
+        {
+          "source_id": "ao_5c4513b89c6a1314",
+          "provider": "AO Surgery Reference",
+          "title": "Posterior Midline Approach To The Sacrum",
+          "url": "https://surgeryreference.aofoundation.org/spine/trauma/sacrum/approach/posterior-midline-approach-to-the-sacrum",
+          "source_page_id": "ao_5c4513b89c6a1314"
+        }
+      ],
+      "procedure_applications": [
+        {
+          "procedure_id": "pelvic_ring_orif",
+          "relationship": "primary_option",
+          "condition": "The posterior ilium, SI joint, or one side of the posterior sacrum is fixed, including spinopelvic constructs"
+        }
+      ],
+      "sections": {
+        "positioning": [
+          {
+            "text": "Position prone so the PSIS, posterior ilium, and sacrum can be marked, avoiding crushed posterior skin.",
+            "source_ids": ["ao_9f1629a6e5c92cbb", "ao_5c4513b89c6a1314"]
+          }
+        ],
+        "surface_landmarks": [
+          {
+            "text": "Mark the PSIS, posterior iliac crest, and sacral spinous processes.",
+            "source_ids": ["ao_9f1629a6e5c92cbb"]
+          }
+        ],
+        "incision": [
+          {
+            "text": "Start 1–2 fingerbreadths distal and medial to the PSIS and run a straight vertical line proximally about 10–15 cm, lengthened cranially as needed for spinopelvic fixation. Do not go through crushed tissue or a Morel-Lavallée hematoma.",
+            "source_ids": ["ao_9f1629a6e5c92cbb", "ao_5c4513b89c6a1314"]
+          }
+        ],
+        "superficial_interval": [
+          {
+            "text": "Divide fat in line with the skin to gluteus maximus fascia, then dissect along that fascia laterally to the iliac crest and medially to the sacral spinous processes.",
+            "source_ids": ["ao_9f1629a6e5c92cbb"]
+          }
+        ],
+        "deep_interval": [
+          {
+            "text": "Detach multifidus from medially or laterally according to the fracture. In most displaced unstable fractures the muscle is already disrupted at the injury, which leads directly to the site.",
+            "source_ids": ["ao_9f1629a6e5c92cbb"]
+          }
+        ],
+        "layers": [
+          {
+            "text": "Skin, gluteus maximus fascia, multifidus, then posterior ilium, SI joint, and posterior sacrum.",
+            "source_ids": ["ao_9f1629a6e5c92cbb"]
+          }
+        ],
+        "structures_at_risk": [
+          {
+            "text": "Posterior skin over a Morel-Lavallée lesion is the principal local risk, as in the midline sacral approach.",
+            "source_ids": ["ao_9f1629a6e5c92cbb", "ao_5c4513b89c6a1314"]
+          }
+        ],
+        "danger_zones": [
+          {
+            "text": "Incising through crushed posterior tissue or a subcutaneous hematoma is the wound-healing danger zone.",
+            "source_ids": ["ao_9f1629a6e5c92cbb", "ao_5c4513b89c6a1314"]
+          }
+        ],
+        "retraction_hazards": [
+          {
+            "text": "Reattach gluteus to the fascia flap over the posterior ilium at closure.",
+            "source_ids": ["ao_9f1629a6e5c92cbb"]
+          }
+        ],
+        "exposure": [
+          {
+            "text": "Shows the posterior ilium, SI joint, and posterior sacral surface, extendable cranially for spinopelvic fixation.",
+            "source_ids": ["ao_9f1629a6e5c92cbb"]
+          }
+        ],
+        "limitations": [
+          {
+            "text": "A single paramedian cut does not show both sides of the sacrum the way a midline cut does.",
+            "source_ids": ["ao_9f1629a6e5c92cbb", "ao_5c4513b89c6a1314"]
+          }
+        ],
+        "indications": [
+          {
+            "text": "Used for posterior iliac, SI, and unilateral posterior sacral work, including spinopelvic fixation.",
+            "source_ids": ["ao_9f1629a6e5c92cbb"]
+          }
+        ],
+        "closure": [
+          {
+            "text": "Reattach gluteus muscles to the fascia flap over the posterior ilium and close fat and skin in layers.",
+            "source_ids": ["ao_9f1629a6e5c92cbb"]
+          }
+        ],
+        "complications": [
+          {
+            "text": "Complications include wound breakdown through a Morel-Lavallée lesion and gluteal detachment if the fascia flap is not repaired.",
+            "source_ids": ["ao_9f1629a6e5c92cbb", "ao_5c4513b89c6a1314"]
+          }
+        ],
+        "questions": [
+          {
+            "question": "Where does the paramedian sacral incision start?",
+            "answer": "1–2 fingerbreadths distal and medial to the PSIS, then vertically proximal about 10–15 cm.",
+            "source_ids": ["ao_9f1629a6e5c92cbb"]
+          },
+          {
+            "question": "What does this window show that a midline cut is not required for?",
+            "answer": "The posterior ilium and SI joint on the incised side, extendable for spinopelvic fixation.",
+            "source_ids": ["ao_9f1629a6e5c92cbb"]
+          }
+        ]
+      }
+    },
+    {
+      "approach_id": "spine_wiltse",
+      "name": "Wiltse paraspinal approach",
+      "aliases": [
+        "multifidus–longissimus interval"
+      ],
+      "region": "lumbar",
+      "joint": "",
+      "bones": [
+        "L4",
+        "L5",
+        "sacrum"
+      ],
+      "corridor": "Paired paramedian cuts 2.5–3 cm off the midline at L4–S1, or a midline skin cut then the same intramuscular plane, bluntly between multifidus and longissimus down to the transverse process and sacral ala",
+      "sources": [
+        {
+          "source_id": "ao_8d67c6312c318af7",
+          "provider": "AO Surgery Reference",
+          "title": "Wiltse Approach",
+          "url": "https://surgeryreference.aofoundation.org/spine/deformities/spondylolisthesis/approach/wiltse-approach",
+          "source_page_id": "ao_8d67c6312c318af7"
+        },
+        {
+          "source_id": "orthobullets_df68a1f33f2bce88",
+          "provider": "Orthobullets",
+          "title": "Wiltse Paraspinal Approach",
+          "url": "https://www.orthobullets.com/approaches/12070/wiltse-paraspinal-approach",
+          "source_page_id": "orthobullets_df68a1f33f2bce88"
+        }
+      ],
+      "procedure_applications": [
+        {
+          "procedure_id": "lumbar_fusion",
+          "relationship": "primary_option",
+          "condition": "An L4–S1 spondylolisthesis, far-lateral disc, or pars defect is reached through the multifidus–longissimus interval"
+        }
+      ],
+      "sections": {
+        "positioning": [
+          {
+            "text": "Position prone on a Wilson or Jackson table so AP and lateral images can confirm the L4–S1 level.",
+            "source_ids": ["ao_8d67c6312c318af7", "orthobullets_df68a1f33f2bce88"]
+          }
+        ],
+        "surface_landmarks": [
+          {
+            "text": "Mark the L4–S1 spinous processes and a line 2.5–3 cm lateral to the midline.",
+            "source_ids": ["ao_8d67c6312c318af7", "orthobullets_df68a1f33f2bce88"]
+          }
+        ],
+        "incision": [
+          {
+            "text": "Infiltrate with 1:500,000 epinephrine. Make two parallel cuts 2.5 cm lateral to the midline at L4–S1, or a single midline skin cut over those spinous processes and then the same intramuscular plane. Orthobullets describes a 3 cm paramedian cut.",
+            "source_ids": ["ao_8d67c6312c318af7", "orthobullets_df68a1f33f2bce88"]
+          }
+        ],
+        "superficial_interval": [
+          {
+            "text": "Develop the intramuscular plane between multifidus and longissimus with blunt dissection.",
+            "source_ids": ["ao_8d67c6312c318af7", "orthobullets_df68a1f33f2bce88"],
+            "risk_level": "high"
+          }
+        ],
+        "deep_interval": [
+          {
+            "text": "Palpate the facets medially and continue lateral to them down to the transverse process. Place retractors so the pars is medial and the transverse process lateral. Distally take the dissection onto the sacral ala; at S1 the iliac crest is on the superficial lateral aspect and can yield graft.",
+            "source_ids": ["ao_8d67c6312c318af7", "orthobullets_df68a1f33f2bce88"]
+          }
+        ],
+        "layers": [
+          {
+            "text": "Skin, multifidus–longissimus interval, then the pars, transverse process, and sacral ala.",
+            "source_ids": ["ao_8d67c6312c318af7", "orthobullets_df68a1f33f2bce88"]
+          }
+        ],
+        "structures_at_risk": [
+          {
+            "text": "The dorsal root ganglion is the named danger in this interval.",
+            "source_ids": ["orthobullets_df68a1f33f2bce88"]
+          }
+        ],
+        "danger_zones": [
+          {
+            "text": "Missing the multifidus–longissimus plane and stripping through muscle toward the ganglion is the local danger zone.",
+            "source_ids": ["ao_8d67c6312c318af7", "orthobullets_df68a1f33f2bce88"]
+          }
+        ],
+        "retraction_hazards": [
+          {
+            "text": "Confirm the transverse-process level on a radiograph before placing implants.",
+            "source_ids": ["orthobullets_df68a1f33f2bce88"]
+          }
+        ],
+        "exposure": [
+          {
+            "text": "Shows the pars medially and the transverse process laterally at L4–S1, including the sacral ala.",
+            "source_ids": ["ao_8d67c6312c318af7", "orthobullets_df68a1f33f2bce88"]
+          }
+        ],
+        "limitations": [
+          {
+            "text": "This is not a midline laminectomy window.",
+            "source_ids": ["ao_8d67c6312c318af7", "orthobullets_df68a1f33f2bce88"]
+          }
+        ],
+        "indications": [
+          {
+            "text": "Used for spondylolisthesis at L4–S1, far-lateral disc herniation, and pars defects.",
+            "source_ids": ["ao_8d67c6312c318af7", "orthobullets_df68a1f33f2bce88"]
+          }
+        ],
+        "closure": [
+          {
+            "text": "Close muscle and fascia tightly, optionally over a separate-stab drain, then fat and skin.",
+            "source_ids": ["ao_8d67c6312c318af7"]
+          }
+        ],
+        "complications": [
+          {
+            "text": "Complications include dorsal-root-ganglion injury and wrong-level exposure if the transverse process is not imaged.",
+            "source_ids": ["orthobullets_df68a1f33f2bce88"]
+          }
+        ],
+        "questions": [
+          {
+            "question": "What intermuscular plane is the Wiltse approach?",
+            "answer": "Between multifidus and longissimus.",
+            "source_ids": ["ao_8d67c6312c318af7", "orthobullets_df68a1f33f2bce88"]
+          },
+          {
+            "question": "How far off the midline are the paramedian cuts?",
+            "answer": "About 2.5 cm in the AO spondylolisthesis chapter and 3 cm in Orthobullets.",
+            "source_ids": ["ao_8d67c6312c318af7", "orthobullets_df68a1f33f2bce88"]
+          }
+        ]
+      }
+    },
+    {
+      "approach_id": "spine_retroperitoneal_l4_s1",
+      "name": "Anterior retroperitoneal approach to L4–S1",
+      "aliases": [
+        "ALIF retroperitoneal approach",
+        "mini-open anterior L4–S1 approach"
+      ],
+      "region": "lumbar",
+      "joint": "",
+      "bones": [
+        "L4",
+        "L5",
+        "sacrum"
+      ],
+      "corridor": "Left-of-midline or Pfannenstiel-type cut, anterior rectus sheath, muscle mobilized, posterior sheath/arcuate line, hand sweep of peritoneum to the spine; L5–S1 between the vascular bifurcation, L4–L5 by retracting aorta/IVC after ligating the iliolumbar vein",
+      "sources": [
+        {
+          "source_id": "ao_816cbb5177d0f743",
+          "provider": "AO Surgery Reference",
+          "title": "Retroperitoneal Approach For Alif",
+          "url": "https://surgeryreference.aofoundation.org/spine/degenerative/lumbar/approach/retroperitoneal-approach-for-alif",
+          "source_page_id": "ao_816cbb5177d0f743"
+        },
+        {
+          "source_id": "ao_fce8590df8426590",
+          "provider": "AO Surgery Reference",
+          "title": "Mini Open Retroperitoneal Approach L4 S1",
+          "url": "https://surgeryreference.aofoundation.org/spine/trauma/thoracolumbar/approach/mini-open-retroperitoneal-approach-l4-s1",
+          "source_page_id": "ao_fce8590df8426590"
+        },
+        {
+          "source_id": "ao_d94f4ac567b28fb2",
+          "provider": "AO Surgery Reference",
+          "title": "Retroperitoneal Approach L4 To S1",
+          "url": "https://surgeryreference.aofoundation.org/spine/tumors/primary-tumors/approach/retroperitoneal-approach-l4-to-s1",
+          "source_page_id": "ao_d94f4ac567b28fb2"
+        },
+        {
+          "source_id": "ao_3808ac7a46688ce5",
+          "provider": "AO Surgery Reference",
+          "title": "Retroperitoneal Approach",
+          "url": "https://surgeryreference.aofoundation.org/spine/deformities/spondylolisthesis/approach/retroperitoneal-approach",
+          "source_page_id": "ao_3808ac7a46688ce5"
+        },
+        {
+          "source_id": "orthobullets_a33615389652b544",
+          "provider": "Orthobullets",
+          "title": "Retroperitoneal Anterolateral Approach To The Lumbar Spine",
+          "url": "https://www.orthobullets.com/approaches/12004/retroperitoneal-anterolateral-approach-to-the-lumbar-spine",
+          "source_page_id": "orthobullets_a33615389652b544"
+        }
+      ],
+      "procedure_applications": [
+        {
+          "procedure_id": "lumbar_fusion",
+          "relationship": "primary_option",
+          "condition": "An L4–S1 ALIF, corpectomy, or spondylolisthesis reduction is done through an anterior retroperitoneal window"
+        }
+      ],
+      "sections": {
+        "positioning": [
+          {
+            "text": "Position so fluoroscopy can mark L4–S1. A left-sided corridor is preferred because the aorta is more resistant than the vena cava.",
+            "source_ids": ["ao_816cbb5177d0f743", "orthobullets_a33615389652b544"]
+          }
+        ],
+        "surface_landmarks": [
+          {
+            "text": "Mark the midline, left rectus, sacral slope, and the L4–S1 disc on fluoroscopy. This window does not reach L1/2 and above.",
+            "source_ids": ["ao_fce8590df8426590", "ao_d94f4ac567b28fb2"]
+          }
+        ],
+        "incision": [
+          {
+            "text": "Use a short left-of-midline horizontal cut (about 6–7 cm, slightly like a Pfannenstiel), or a midline, pararectal, or transverse mark over the target. Account for sacral slope.",
+            "source_ids": ["ao_816cbb5177d0f743", "ao_fce8590df8426590"]
+          }
+        ],
+        "superficial_interval": [
+          {
+            "text": "Open the anterior rectus sheath and mobilize rectus about 10 cm cranially to caudally to the arcuate line, which marks the caudal incomplete posterior sheath.",
+            "source_ids": ["ao_816cbb5177d0f743", "ao_fce8590df8426590"]
+          }
+        ],
+        "deep_interval": [
+          {
+            "text": "Sweep peritoneum with a hand superiorly, inferiorly, and medially. Identify the ureter (take it with the peritoneum) and psoas. At L5–S1 work below the vascular bifurcation after ligating the middle sacral vessels. At L4–L5 retract aorta and cava to the right after ligating the ascending iliolumbar vein and segmental vessels. Never use monopolar cautery along the ALL (hypogastric plexus, retrograde ejaculation).",
+            "source_ids": ["ao_816cbb5177d0f743", "ao_fce8590df8426590", "ao_d94f4ac567b28fb2"],
+            "risk_level": "high"
+          }
+        ],
+        "layers": [
+          {
+            "text": "Skin, anterior rectus sheath, rectus, posterior sheath/arcuate line, retroperitoneal fat, ureter with peritoneum, great vessels, then the L4–S1 disc or body.",
+            "source_ids": ["ao_816cbb5177d0f743", "ao_fce8590df8426590"]
+          }
+        ],
+        "structures_at_risk": [
+          {
+            "text": "The iliac vessels, iliolumbar vein, ureter, hypogastric plexus, and peritoneum are at risk.",
+            "source_ids": ["ao_816cbb5177d0f743", "orthobullets_a33615389652b544"],
+            "risk_level": "high"
+          }
+        ],
+        "danger_zones": [
+          {
+            "text": "Failing to ligate the iliolumbar vein at L4–L5 and monopolar cautery on the ALL are the named bleeding and ejaculatory danger zones.",
+            "source_ids": ["ao_816cbb5177d0f743", "ao_fce8590df8426590"],
+            "risk_level": "high"
+          }
+        ],
+        "retraction_hazards": [
+          {
+            "text": "Lock self-retaining retractors or Steinmann pins so they cannot migrate into vessels.",
+            "source_ids": ["ao_816cbb5177d0f743", "ao_3808ac7a46688ce5"]
+          }
+        ],
+        "exposure": [
+          {
+            "text": "Excellent for corpectomy, canal decompression, and vertebral-body replacement at L4–S1; a lumbotomy is preferred for plating.",
+            "source_ids": ["ao_fce8590df8426590", "ao_d94f4ac567b28fb2"]
+          }
+        ],
+        "limitations": [
+          {
+            "text": "Does not reach L1/2 and above.",
+            "source_ids": ["ao_fce8590df8426590", "ao_d94f4ac567b28fb2"]
+          }
+        ],
+        "indications": [
+          {
+            "text": "Used for ALIF, trauma corpectomy, primary-tumor resection, and spondylolisthesis at L4–S1.",
+            "source_ids": ["ao_816cbb5177d0f743", "ao_fce8590df8426590", "ao_3808ac7a46688ce5"]
+          }
+        ],
+        "closure": [
+          {
+            "text": "Visualize all passed structures, close fascia, and close the remainder usually without drainage; a retroperitoneal drain is optional.",
+            "source_ids": ["ao_816cbb5177d0f743", "ao_fce8590df8426590"]
+          }
+        ],
+        "complications": [
+          {
+            "text": "Complications include iliolumbar-vein hemorrhage, ureteral injury, peritoneal tear, and retrograde ejaculation from hypogastric-plexus injury.",
+            "source_ids": ["ao_816cbb5177d0f743", "orthobullets_a33615389652b544"],
+            "risk_level": "high"
+          }
+        ],
+        "questions": [
+          {
+            "question": "How is L5–S1 reached relative to the great vessels?",
+            "answer": "Between the bifurcation, after controlling the middle sacral vessels.",
+            "source_ids": ["ao_816cbb5177d0f743", "ao_fce8590df8426590"]
+          },
+          {
+            "question": "Which vein must be ligated for L4–L5?",
+            "answer": "The ascending iliolumbar vein.",
+            "source_ids": ["ao_816cbb5177d0f743", "ao_fce8590df8426590"]
+          },
+          {
+            "question": "Why avoid monopolar cautery on the ALL?",
+            "answer": "It can injure the hypogastric plexus and cause retrograde ejaculation in males.",
+            "source_ids": ["ao_816cbb5177d0f743", "orthobullets_a33615389652b544"]
+          }
+        ]
+      }
+    },
+    {
+      "approach_id": "spine_thoracoscopic",
+      "name": "Anterior thoracoscopic approach to the thoracic spine",
+      "aliases": [
+        "video-assisted thoracoscopic spinal release"
+      ],
+      "region": "thoracolumbar",
+      "joint": "",
+      "bones": [
+        "thoracic vertebrae"
+      ],
+      "corridor": "Viewing portal in the 7th–10th intercostal space on the anterior axillary line above the diaphragm at about T10, then working portals opposite the apical disc, each covering two to three discs",
+      "sources": [
+        {
+          "source_id": "ao_d94ed2f9823c498f",
+          "provider": "AO Surgery Reference",
+          "title": "Anterior Thoracoscopic Approach",
+          "url": "https://surgeryreference.aofoundation.org/spine/deformities/adolescent-idiopathic-scoliosis/approach/anterior-thoracoscopic-approach",
+          "source_page_id": "ao_d94ed2f9823c498f"
+        },
+        {
+          "source_id": "ao_8f4806519b024c44",
+          "provider": "AO Surgery Reference",
+          "title": "Anterior Thoracoscopic Release",
+          "url": "https://surgeryreference.aofoundation.org/spine/deformities/scheuermanns-kyphosis/approach/anterior-thoracoscopic-release",
+          "source_page_id": "ao_8f4806519b024c44"
+        }
+      ],
+      "procedure_applications": [
+        {
+          "procedure_id": "spinal_deformity_correction",
+          "relationship": "primary_option",
+          "condition": "Anterior thoracic discectomy or ALL release is done thoracoscopically for AIS or Scheuermann kyphosis"
+        }
+      ],
+      "sections": {
+        "positioning": [
+          {
+            "text": "Position for thoracoscopy so the anterior axillary line and the apical disc can be imaged, with the viewing portal above the diaphragm at about T10.",
+            "source_ids": ["ao_d94ed2f9823c498f", "ao_8f4806519b024c44"]
+          }
+        ],
+        "surface_landmarks": [
+          {
+            "text": "Mark the anterior axillary line, the 7th–10th intercostal spaces, the apical disc, and the internal mammary artery if a mid-clavicular retraction portal is added.",
+            "source_ids": ["ao_d94ed2f9823c498f", "ao_8f4806519b024c44"]
+          }
+        ],
+        "incision": [
+          {
+            "text": "Make a 10 mm viewing cut in the lower chest between the 7th and 10th intercostal spaces on the anterior axillary line. Place further portals after a needle is seen from inside the chest or on an image.",
+            "source_ids": ["ao_d94ed2f9823c498f", "ao_8f4806519b024c44"]
+          }
+        ],
+        "superficial_interval": [
+          {
+            "text": "Deepen to the pleural cavity above the rib to spare the intercostal bundle, insert a finger to feel for adhesions, then a blunt trocar and thoracoscope. Inspect the chest before any further portals.",
+            "source_ids": ["ao_d94ed2f9823c498f", "ao_8f4806519b024c44"],
+            "risk_level": "high"
+          }
+        ],
+        "deep_interval": [
+          {
+            "text": "The second portal sits opposite the apical disc (working portal). A third sits cranial because each instrument portal reaches at most two to three discs. Divide parietal pleura longitudinally over the discs. Spare segmental vessels for discectomy; coagulate them if instrumentation is planned.",
+            "source_ids": ["ao_d94ed2f9823c498f", "ao_8f4806519b024c44"]
+          }
+        ],
+        "layers": [
+          {
+            "text": "Skin, intercostal space above the rib, pleural cavity, parietal pleura over the spine, then the disc and vertebral body.",
+            "source_ids": ["ao_d94ed2f9823c498f", "ao_8f4806519b024c44"]
+          }
+        ],
+        "structures_at_risk": [
+          {
+            "text": "The intercostal bundle, lung, internal mammary artery at a mid-clavicular portal, and the spinal canal if instruments are not kept on the anterolateral spine are at risk.",
+            "source_ids": ["ao_d94ed2f9823c498f", "ao_8f4806519b024c44"],
+            "risk_level": "high"
+          }
+        ],
+        "danger_zones": [
+          {
+            "text": "Entering below the rib (intercostal vessels) and aiming instruments into the canal instead of the anterolateral disc are the danger zones.",
+            "source_ids": ["ao_d94ed2f9823c498f", "ao_8f4806519b024c44"],
+            "risk_level": "high"
+          }
+        ],
+        "retraction_hazards": [
+          {
+            "text": "Use a fan retractor for lung or diaphragm; remove the viewing portal last after the lung is fully inflated under thoracoscopic vision.",
+            "source_ids": ["ao_d94ed2f9823c498f", "ao_8f4806519b024c44"]
+          }
+        ],
+        "exposure": [
+          {
+            "text": "Allows anterolateral disc removal and, in Scheuermann release, ALL division without entering the canal.",
+            "source_ids": ["ao_d94ed2f9823c498f", "ao_8f4806519b024c44"]
+          }
+        ],
+        "limitations": [
+          {
+            "text": "Each working portal reaches only two to three discs, so additional portals are required for a long curve.",
+            "source_ids": ["ao_d94ed2f9823c498f", "ao_8f4806519b024c44"]
+          }
+        ],
+        "indications": [
+          {
+            "text": "Used for anterior thoracoscopic disc work in AIS and for anterior thoracoscopic release in Scheuermann kyphosis.",
+            "source_ids": ["ao_d94ed2f9823c498f", "ao_8f4806519b024c44"]
+          }
+        ],
+        "closure": [
+          {
+            "text": "Inflate the lung under vision, place a chest drain through the viewing portal along the posterior chest wall up to T2, and close portals in layers.",
+            "source_ids": ["ao_d94ed2f9823c498f", "ao_8f4806519b024c44"]
+          }
+        ],
+        "complications": [
+          {
+            "text": "Complications include intercostal-bundle injury, lung injury, missed adhesions, and canal entry if portals are not on the anterolateral spine.",
+            "source_ids": ["ao_d94ed2f9823c498f", "ao_8f4806519b024c44"],
+            "risk_level": "high"
+          }
+        ],
+        "questions": [
+          {
+            "question": "Where is the first (viewing) thoracoscopic portal placed?",
+            "answer": "A 10 mm cut between the 7th and 10th intercostal spaces on the anterior axillary line, above the diaphragm at about T10.",
+            "source_ids": ["ao_d94ed2f9823c498f", "ao_8f4806519b024c44"]
+          },
+          {
+            "question": "How many discs can one working portal typically reach?",
+            "answer": "At most two to three, because the disc spaces slant away from the apex.",
+            "source_ids": ["ao_d94ed2f9823c498f", "ao_8f4806519b024c44"]
+          }
+        ]
+      }
+    },
+    {
+      "approach_id": "spine_transpsoas_l2_l4",
+      "name": "Minimally invasive transpsoas approach (L2–L4)",
+      "aliases": [
+        "lateral lumbar interbody transpsoas approach"
+      ],
+      "region": "lumbar",
+      "joint": "",
+      "bones": [
+        "L2",
+        "L3",
+        "L4"
+      ],
+      "corridor": "3–4 cm lateral cut over the disc, split the three abdominal-wall layers without cautery, finger into retroperitoneal fat, then a 3–4 cm psoas split over the disc with a tubular localizer",
+      "sources": [
+        {
+          "source_id": "ao_b983748a53ea8269",
+          "provider": "AO Surgery Reference",
+          "title": "Minimally Invasive Transpsoas Approach For L2 To L4",
+          "url": "https://surgeryreference.aofoundation.org/spine/degenerative/lumbar/approach/minimally-invasive-transpsoas-approach-for-l2-to-l4",
+          "source_page_id": "ao_b983748a53ea8269"
+        },
+        {
+          "source_id": "ao_edd227745e845331",
+          "provider": "AO Surgery Reference",
+          "title": "Minimally Invasive Lumbotomy L2 L4",
+          "url": "https://surgeryreference.aofoundation.org/spine/trauma/thoracolumbar/approach/minimally-invasive-lumbotomy-l2-l4",
+          "source_page_id": "ao_edd227745e845331"
+        }
+      ],
+      "procedure_applications": [
+        {
+          "procedure_id": "lumbar_fusion",
+          "relationship": "primary_option",
+          "condition": "An L2–L4 cage is inserted through a lateral transpsoas window; L5–S1 cannot be reached"
+        }
+      ],
+      "sections": {
+        "positioning": [
+          {
+            "text": "Position so fluoroscopy can mark the target disc. L5–S1 cannot be reached.",
+            "source_ids": ["ao_b983748a53ea8269", "ao_edd227745e845331"]
+          }
+        ],
+        "surface_landmarks": [
+          {
+            "text": "Mark the disc on the skin exactly in the line of the target.",
+            "source_ids": ["ao_b983748a53ea8269"]
+          }
+        ],
+        "incision": [
+          {
+            "text": "Make a 3–4 cm cut in the direction of the disc (longer if more than one level).",
+            "source_ids": ["ao_b983748a53ea8269"]
+          }
+        ],
+        "superficial_interval": [
+          {
+            "text": "Split external oblique, then internal oblique (fibers roughly perpendicular), then open transversalis fascia carefully. Do not use cautery; it can injure superficial sensory nerves. Repair a peritoneal tear immediately with absorbable suture on a blunt tapered needle.",
+            "source_ids": ["ao_b983748a53ea8269", "ao_edd227745e845331"],
+            "risk_level": "high"
+          }
+        ],
+        "deep_interval": [
+          {
+            "text": "Use a finger to find retroperitoneal fat and follow psoas fibers without wandering anterior or posterior. After x-ray confirmation, split psoas 3–4 cm over the disc and place a tubular localizer, checked on AP and lateral views. Neuromonitoring is recommended for a transpsoas split; temporary iliopsoas pain and nerve-root lesions are common.",
+            "source_ids": ["ao_b983748a53ea8269", "ao_edd227745e845331"],
+            "risk_level": "high"
+          }
+        ],
+        "layers": [
+          {
+            "text": "Skin, three abdominal-wall layers, retroperitoneal fat, psoas split, then the L2–L4 disc.",
+            "source_ids": ["ao_b983748a53ea8269", "ao_edd227745e845331"]
+          }
+        ],
+        "structures_at_risk": [
+          {
+            "text": "The peritoneum, lumbar plexus within psoas, and superficial abdominal-wall sensory nerves are at risk.",
+            "source_ids": ["ao_b983748a53ea8269", "ao_edd227745e845331"],
+            "risk_level": "high"
+          }
+        ],
+        "danger_zones": [
+          {
+            "text": "Cautery in the abdominal wall, wandering off psoas fibers, and a transpsoas split without neuromonitoring are the danger zones.",
+            "source_ids": ["ao_b983748a53ea8269", "ao_edd227745e845331"],
+            "risk_level": "high"
+          }
+        ],
+        "retraction_hazards": [
+          {
+            "text": "Muscles are split, not cut, so they are not sutured; close fascia only.",
+            "source_ids": ["ao_b983748a53ea8269"]
+          }
+        ],
+        "exposure": [
+          {
+            "text": "A retroperitoneal minimally invasive corridor ideal for cage insertion at L2–L4.",
+            "source_ids": ["ao_b983748a53ea8269"]
+          }
+        ],
+        "limitations": [
+          {
+            "text": "Cannot reach L5–S1. A lumbotomy that retracts psoas posteriorly rather than splitting it is the alternative.",
+            "source_ids": ["ao_b983748a53ea8269", "ao_edd227745e845331"]
+          }
+        ],
+        "indications": [
+          {
+            "text": "Used for minimally invasive lateral cage insertion at L2–L4.",
+            "source_ids": ["ao_b983748a53ea8269"]
+          }
+        ],
+        "closure": [
+          {
+            "text": "Close fascia and the wound in layers; do not suture the split muscles.",
+            "source_ids": ["ao_b983748a53ea8269"]
+          }
+        ],
+        "complications": [
+          {
+            "text": "Complications include peritoneal injury with organ damage or hernia, iliopsoas pain, and mostly temporary nerve-root lesions after a psoas split.",
+            "source_ids": ["ao_b983748a53ea8269", "ao_edd227745e845331"],
+            "risk_level": "high"
+          }
+        ],
+        "questions": [
+          {
+            "question": "Which disc cannot be reached by this transpsoas window?",
+            "answer": "L5–S1.",
+            "source_ids": ["ao_b983748a53ea8269", "ao_edd227745e845331"]
+          },
+          {
+            "question": "Why is cautery avoided in the abdominal wall?",
+            "answer": "It can injure superficial sensory nerves.",
+            "source_ids": ["ao_b983748a53ea8269"]
+          }
+        ]
+      }
+    },
+    {
+      "approach_id": "spine_mi_lumbotomy_l2_l4",
+      "name": "Minimally invasive lumbotomy (L2–L4)",
+      "aliases": [
+        "less-invasive left lumbotomy"
+      ],
+      "region": "lumbar",
+      "joint": "",
+      "bones": [
+        "L2",
+        "L3",
+        "L4"
+      ],
+      "corridor": "Short left-sided cut over the marked vertebra, three abdominal-wall layers, retroperitoneal fat to psoas, then psoas released anteriorly and retracted posteriorly (or optionally split as transpsoas)",
+      "sources": [
+        {
+          "source_id": "ao_edd227745e845331",
+          "provider": "AO Surgery Reference",
+          "title": "Minimally Invasive Lumbotomy L2 L4",
+          "url": "https://surgeryreference.aofoundation.org/spine/trauma/thoracolumbar/approach/minimally-invasive-lumbotomy-l2-l4",
+          "source_page_id": "ao_edd227745e845331"
+        },
+        {
+          "source_id": "ao_483997dbd5e0b6e5",
+          "provider": "AO Surgery Reference",
+          "title": "Minimally Invasive Lumbotomy In L2 L4",
+          "url": "https://surgeryreference.aofoundation.org/spine/tumors/metastatic-tumors/approach/minimally-invasive-lumbotomy-in-l2-l4",
+          "source_page_id": "ao_483997dbd5e0b6e5"
+        }
+      ],
+      "procedure_applications": [
+        {
+          "procedure_id": "thoracolumbar_fracture_orif",
+          "relationship": "primary_option",
+          "condition": "An L2–L4 fracture or tumor is plated through a less-invasive left lumbotomy; L5–S1 cannot be reached"
+        }
+      ],
+      "sections": {
+        "positioning": [
+          {
+            "text": "Position so fluoroscopy can mark the involved vertebra. Left-sided is the usual side; right-sided is possible but rare.",
+            "source_ids": ["ao_edd227745e845331", "ao_483997dbd5e0b6e5"]
+          }
+        ],
+        "surface_landmarks": [
+          {
+            "text": "For bisegmental work, mark from the posterior edge of the lower endplate of the vertebra above to the anterior edge of the upper endplate of the involved vertebra. For monosegmental work, mark from the midpoint of the posterior wall above to the midpoint of the anterior wall below.",
+            "source_ids": ["ao_edd227745e845331", "ao_483997dbd5e0b6e5"]
+          }
+        ],
+        "incision": [
+          {
+            "text": "Incise on the fluoroscopic mark. L5–S1 cannot be reached.",
+            "source_ids": ["ao_edd227745e845331", "ao_483997dbd5e0b6e5"]
+          }
+        ],
+        "superficial_interval": [
+          {
+            "text": "Incise external oblique with cautery, split internal oblique, and open transversalis fascia carefully. Use a finger to detach muscle from peritoneum. Retroperitoneal fat marks the space. Repair a peritoneal tear immediately.",
+            "source_ids": ["ao_edd227745e845331", "ao_483997dbd5e0b6e5"],
+            "risk_level": "high"
+          }
+        ],
+        "deep_interval": [
+          {
+            "text": "Shift peritoneum off the lateral wall to psoas. Standard option: release psoas anteriorly and retract it posteriorly toward the canal. Alternative: blunt longitudinal psoas split (transpsoas) with neuromonitoring. Ligate segmental vessels above, below, and over the involved body unless only a discectomy is planned. A table-mounted retractor holds psoas, viscera, and the great vessels/sympathetic chain.",
+            "source_ids": ["ao_edd227745e845331", "ao_483997dbd5e0b6e5"],
+            "risk_level": "high"
+          }
+        ],
+        "layers": [
+          {
+            "text": "Skin, three abdominal-wall layers, retroperitoneal fat, psoas, segmental vessels, then the L2–L4 body.",
+            "source_ids": ["ao_edd227745e845331", "ao_483997dbd5e0b6e5"]
+          }
+        ],
+        "structures_at_risk": [
+          {
+            "text": "The peritoneum, psoas, lumbar plexus if the muscle is split, segmental vessels, great vessels, and sympathetic chain are at risk.",
+            "source_ids": ["ao_edd227745e845331", "ao_483997dbd5e0b6e5"],
+            "risk_level": "high"
+          }
+        ],
+        "danger_zones": [
+          {
+            "text": "An unrepaired peritoneal tear (organ injury or hernia) and a transpsoas split without neuromonitoring are the danger zones.",
+            "source_ids": ["ao_edd227745e845331", "ao_483997dbd5e0b6e5"],
+            "risk_level": "high"
+          }
+        ],
+        "retraction_hazards": [
+          {
+            "text": "Retract psoas, viscera, and vessels only with a table-mounted system.",
+            "source_ids": ["ao_edd227745e845331", "ao_483997dbd5e0b6e5"]
+          }
+        ],
+        "exposure": [
+          {
+            "text": "Ideal for plating; the companion mini-open retroperitoneal window is better for vertebral-body replacement.",
+            "source_ids": ["ao_edd227745e845331", "ao_483997dbd5e0b6e5"]
+          }
+        ],
+        "limitations": [
+          {
+            "text": "Cannot reach L5–S1.",
+            "source_ids": ["ao_edd227745e845331", "ao_483997dbd5e0b6e5"]
+          }
+        ],
+        "indications": [
+          {
+            "text": "Used for less-invasive left lumbotomy plating of L2–L4 trauma or metastatic disease.",
+            "source_ids": ["ao_edd227745e845331", "ao_483997dbd5e0b6e5"]
+          }
+        ],
+        "closure": [
+          {
+            "text": "Insert a retroperitoneal drain and close in layers.",
+            "source_ids": ["ao_edd227745e845331", "ao_483997dbd5e0b6e5"]
+          }
+        ],
+        "complications": [
+          {
+            "text": "Complications include peritoneal injury with hernia, iliopsoas pain, and nerve-root lesions if psoas is split.",
+            "source_ids": ["ao_edd227745e845331", "ao_483997dbd5e0b6e5"],
+            "risk_level": "high"
+          }
+        ],
+        "questions": [
+          {
+            "question": "What is the standard psoas maneuver in a lumbotomy (as opposed to transpsoas)?",
+            "answer": "Release psoas anteriorly and retract it posteriorly toward the spinal canal.",
+            "source_ids": ["ao_edd227745e845331", "ao_483997dbd5e0b6e5"]
+          },
+          {
+            "question": "Which disc cannot be reached?",
+            "answer": "L5–S1.",
+            "source_ids": ["ao_edd227745e845331", "ao_483997dbd5e0b6e5"]
+          }
+        ]
+      }
+    },
+    {
+      "approach_id": "spine_lumbotomy_l1_l4",
+      "name": "Open lumbotomy (L1–L4)",
+      "aliases": [
+        "left lumbotomy with 12th-rib resection"
+      ],
+      "region": "lumbar",
+      "joint": "",
+      "bones": [
+        "L1",
+        "L2",
+        "L3",
+        "L4"
+      ],
+      "corridor": "Lateral abdominal-wall split, distal 5 cm of the 12th rib excised, transversalis fascia opened, psoas retracted from its anterior border over the discs, segmental vessels ligated, exposure to the pedicles posteriorly and the ALL anteriorly",
+      "sources": [
+        {
+          "source_id": "ao_d4d91da9da62b1e6",
+          "provider": "AO Surgery Reference",
+          "title": "Lumbotomy L1 L4",
+          "url": "https://surgeryreference.aofoundation.org/spine/trauma/thoracolumbar/approach/lumbotomy-l1-l4",
+          "source_page_id": "ao_d4d91da9da62b1e6"
+        },
+        {
+          "source_id": "ao_edd227745e845331",
+          "provider": "AO Surgery Reference",
+          "title": "Minimally Invasive Lumbotomy L2 L4",
+          "url": "https://surgeryreference.aofoundation.org/spine/trauma/thoracolumbar/approach/minimally-invasive-lumbotomy-l2-l4",
+          "source_page_id": "ao_edd227745e845331"
+        }
+      ],
+      "procedure_applications": [
+        {
+          "procedure_id": "thoracolumbar_fracture_orif",
+          "relationship": "primary_option",
+          "condition": "Three lumbar vertebrae around an L1–L4 fracture are plated through an open left lumbotomy"
+        }
+      ],
+      "sections": {
+        "positioning": [
+          {
+            "text": "Position so fluoroscopy can mark the fracture; usually three vertebrae are accessible.",
+            "source_ids": ["ao_d4d91da9da62b1e6"]
+          }
+        ],
+        "surface_landmarks": [
+          {
+            "text": "Mark the fracture level and the distal 5 cm of the 12th rib.",
+            "source_ids": ["ao_d4d91da9da62b1e6"]
+          }
+        ],
+        "incision": [
+          {
+            "text": "Incise on the marked line, length set by the number of levels, body habitus, and prior chest surgery.",
+            "source_ids": ["ao_d4d91da9da62b1e6"]
+          }
+        ],
+        "superficial_interval": [
+          {
+            "text": "Incise external oblique, split internal oblique, and expose the distal 5 cm of the 12th rib subperiosteally. Excise that rib segment to enter the retroperitoneum.",
+            "source_ids": ["ao_d4d91da9da62b1e6"]
+          }
+        ],
+        "deep_interval": [
+          {
+            "text": "Open transversalis fascia carefully, sweep peritoneum to psoas, and start on the anterior psoas border over a disc. Expose the discs above and below first. Ligate segmental vessels above, below, and over the fractured body. Reflect psoas posteriorly subperiosteally to the pedicles without injuring foraminal vessels. Carry the dissection anteriorly to the ALL while protecting the great vessels; take the sympathetic chain anteriorly with the periosteum.",
+            "source_ids": ["ao_d4d91da9da62b1e6", "ao_edd227745e845331"],
+            "risk_level": "high"
+          }
+        ],
+        "layers": [
+          {
+            "text": "Skin, three abdominal-wall layers, 12th rib, retroperitoneal fat, psoas, segmental vessels, then the lumbar body to the ALL and pedicles.",
+            "source_ids": ["ao_d4d91da9da62b1e6", "ao_edd227745e845331"]
+          }
+        ],
+        "structures_at_risk": [
+          {
+            "text": "The peritoneum, 12th-rib neurovascular bundle, psoas, segmental and foraminal vessels, great vessels, and sympathetic chain are at risk.",
+            "source_ids": ["ao_d4d91da9da62b1e6", "ao_edd227745e845331"],
+            "risk_level": "high"
+          }
+        ],
+        "danger_zones": [
+          {
+            "text": "An unrepaired peritoneal tear and dissection into the neural foramina are the danger zones.",
+            "source_ids": ["ao_d4d91da9da62b1e6", "ao_edd227745e845331"],
+            "risk_level": "high"
+          }
+        ],
+        "retraction_hazards": [
+          {
+            "text": "Use a table-mounted system for psoas, viscera, great vessels, and the sympathetic chain.",
+            "source_ids": ["ao_d4d91da9da62b1e6", "ao_edd227745e845331"]
+          }
+        ],
+        "exposure": [
+          {
+            "text": "Usually shows three vertebrae for open lumbar plating.",
+            "source_ids": ["ao_d4d91da9da62b1e6"]
+          }
+        ],
+        "limitations": [
+          {
+            "text": "More extensive than a mini-lumbotomy; L5–S1 still requires an anterior retroperitoneal window.",
+            "source_ids": ["ao_d4d91da9da62b1e6", "ao_edd227745e845331"]
+          }
+        ],
+        "indications": [
+          {
+            "text": "Used for open anterior plating of L1–L4 fractures.",
+            "source_ids": ["ao_d4d91da9da62b1e6"]
+          }
+        ],
+        "closure": [
+          {
+            "text": "A retroperitoneal suction drain is optional. Approximate the three abdominal-wall layers, then fat and skin.",
+            "source_ids": ["ao_d4d91da9da62b1e6"]
+          }
+        ],
+        "complications": [
+          {
+            "text": "Complications include peritoneal injury with hernia, great-vessel injury, and foraminal bleeding.",
+            "source_ids": ["ao_d4d91da9da62b1e6", "ao_edd227745e845331"],
+            "risk_level": "high"
+          }
+        ],
+        "questions": [
+          {
+            "question": "How does the open lumbotomy enter the retroperitoneum at L1–L4?",
+            "answer": "By excising the distal 5 cm of the 12th rib after subperiosteal exposure.",
+            "source_ids": ["ao_d4d91da9da62b1e6"]
+          },
+          {
+            "question": "Where does psoas dissection begin?",
+            "answer": "On the anterior border of psoas over a disc space, typically the discs above and below the fracture first.",
+            "source_ids": ["ao_d4d91da9da62b1e6"]
+          }
+        ]
+      }
+    },
+    {
+      "approach_id": "spine_mi_left_thoracic",
+      "name": "Minimally invasive left-sided thoracic approach (T10–L2)",
+      "aliases": [
+        "mini-open thoracoscopically assisted left thoracotomy"
+      ],
+      "region": "thoracolumbar",
+      "joint": "",
+      "bones": [
+        "T10",
+        "T11",
+        "T12",
+        "L1",
+        "L2"
+      ],
+      "corridor": "Mini-thoracotomy over the marked vertebra, pleura entered above the rib, then thoracoscopic viewing and retraction portals; alternatively fully video-assisted portals without a mini-thoracotomy",
+      "sources": [
+        {
+          "source_id": "ao_b3ce0222076ef04f",
+          "provider": "AO Surgery Reference",
+          "title": "Minimally Invasive Left Sided Thoracic Approach T10 L2",
+          "url": "https://surgeryreference.aofoundation.org/spine/trauma/thoracolumbar/approach/minimally-invasive-left-sided-thoracic-approach-t10-l2",
+          "source_page_id": "ao_b3ce0222076ef04f"
+        },
+        {
+          "source_id": "ao_db81909246111999",
+          "provider": "AO Surgery Reference",
+          "title": "Minimally Invasive Left Side Thoracic Approach",
+          "url": "https://surgeryreference.aofoundation.org/spine/deformities/scheuermanns-kyphosis/approach/minimally-invasive-left-side-thoracic-approach",
+          "source_page_id": "ao_db81909246111999"
+        }
+      ],
+      "procedure_applications": [
+        {
+          "procedure_id": "thoracolumbar_fracture_orif",
+          "relationship": "primary_option",
+          "condition": "A T10–L2 fracture is instrumented through a mini-open left thoracotomy; VAT is preferred for noninstrumented release"
+        }
+      ],
+      "sections": {
+        "positioning": [
+          {
+            "text": "Position for a left chest approach. Right-sided windows are used for T4–T10; left-sided for T10–L2, depending on aortic anatomy. Between T8–T10 either side may be chosen after locating the aorta.",
+            "source_ids": ["ao_b3ce0222076ef04f"]
+          }
+        ],
+        "surface_landmarks": [
+          {
+            "text": "Mark the fractured or apical vertebra. For bisegmental work the cut runs from the posterior edge of the lower endplate above to the anterior edge of the upper endplate below.",
+            "source_ids": ["ao_b3ce0222076ef04f", "ao_db81909246111999"]
+          }
+        ],
+        "incision": [
+          {
+            "text": "Incise on the mark down to the rib. For Scheuermann, a small apical cut can release up to five discs.",
+            "source_ids": ["ao_b3ce0222076ef04f", "ao_db81909246111999"]
+          }
+        ],
+        "superficial_interval": [
+          {
+            "text": "Take intercostal muscle off the cranial rib border, open pleura without injuring lung, and spread the rib. Insert a thoracoscope through the mini-thoracotomy to inspect for adhesions before further portals.",
+            "source_ids": ["ao_b3ce0222076ef04f", "ao_db81909246111999"],
+            "risk_level": "high"
+          }
+        ],
+        "deep_interval": [
+          {
+            "text": "Place a 20 mm viewing portal two intercostal spaces cranial at the anterior vertebral-body edge and a retraction portal one space cranial and about 10 cm anterior, entering above the rib. Open parietal pleura over the discs (hills) at the target and one level above and below. Spare segmental vessels for discectomy; coagulate them for instrumentation. Expose subperiosteally to the ALL and posteriorly to the rib heads. Full VAT replaces the mini-thoracotomy with two extra portals and is used mainly for noninstrumented cases.",
+            "source_ids": ["ao_b3ce0222076ef04f", "ao_db81909246111999"],
+            "risk_level": "high"
+          }
+        ],
+        "layers": [
+          {
+            "text": "Skin, chest wall, pleural cavity, parietal pleura over the spine, segmental vessels, then the vertebral body.",
+            "source_ids": ["ao_b3ce0222076ef04f", "ao_db81909246111999"]
+          }
+        ],
+        "structures_at_risk": [
+          {
+            "text": "Lung, intercostal bundle, segmental vessels, and the great vessels at the ALL are at risk. On the right the thoracic duct is in play; on the left the hemiazygos may need ligation. The aorta is shifted anteriorly at a Scheuermann apex.",
+            "source_ids": ["ao_b3ce0222076ef04f", "ao_db81909246111999"],
+            "risk_level": "high"
+          }
+        ],
+        "danger_zones": [
+          {
+            "text": "Entering below the rib and working without protecting the great vessels at the ALL are the danger zones.",
+            "source_ids": ["ao_b3ce0222076ef04f", "ao_db81909246111999"],
+            "risk_level": "high"
+          }
+        ],
+        "retraction_hazards": [
+          {
+            "text": "Remove the viewing portal last after the lung is fully inflated under thoracoscopic vision.",
+            "source_ids": ["ao_b3ce0222076ef04f", "ao_db81909246111999"]
+          }
+        ],
+        "exposure": [
+          {
+            "text": "Mini-open thoracoscopically assisted thoracotomy is preferred for instrumented cases; full VAT for noninstrumented release.",
+            "source_ids": ["ao_b3ce0222076ef04f"]
+          }
+        ],
+        "limitations": [
+          {
+            "text": "Side choice depends on aortic anatomy; T4–T10 is typically a right-sided window.",
+            "source_ids": ["ao_b3ce0222076ef04f"]
+          }
+        ],
+        "indications": [
+          {
+            "text": "Used for minimally invasive left thoracic access from T10 to L2 in trauma and for apical release in Scheuermann kyphosis.",
+            "source_ids": ["ao_b3ce0222076ef04f", "ao_db81909246111999"]
+          }
+        ],
+        "closure": [
+          {
+            "text": "Suture parietal pleura if possible. Place two chest drains (viewing portal to the cranial anterior chest as a pneumothorax drain; retraction portal to the caudal posterior chest as a wound drain) and close in layers.",
+            "source_ids": ["ao_b3ce0222076ef04f"]
+          }
+        ],
+        "complications": [
+          {
+            "text": "Complications include lung injury, intercostal-bundle injury, and great-vessel injury.",
+            "source_ids": ["ao_b3ce0222076ef04f", "ao_db81909246111999"],
+            "risk_level": "high"
+          }
+        ],
+        "questions": [
+          {
+            "question": "When is left versus right mini-thoracic access preferred?",
+            "answer": "Right for T4–T10, left for T10–L2, according to aortic anatomy; T8–T10 can be either after locating the aorta.",
+            "source_ids": ["ao_b3ce0222076ef04f"]
+          },
+          {
+            "question": "Where are the viewing and retraction portals relative to the mini-thoracotomy?",
+            "answer": "Viewing portal two intercostal spaces cranial at the anterior vertebral-body edge; retraction portal one space cranial and about 10 cm anterior.",
+            "source_ids": ["ao_b3ce0222076ef04f", "ao_db81909246111999"]
+          }
+        ]
+      }
+    },
+    {
+      "approach_id": "spine_mi_right_thoracic",
+      "name": "Minimally invasive right-sided thoracic approach (T4–T10)",
+      "aliases": [
+        "mini-open right thoracoscopically assisted thoracotomy"
+      ],
+      "region": "thoracolumbar",
+      "joint": "",
+      "bones": [
+        "T4",
+        "T5",
+        "T6",
+        "T7",
+        "T8",
+        "T9",
+        "T10"
+      ],
+      "corridor": "Same mini-thoracotomy plus viewing and retraction portals as the left-sided T10–L2 window, used on the right for T4–T10",
+      "sources": [
+        {
+          "source_id": "ao_62614a9ac0ed661b",
+          "provider": "AO Surgery Reference",
+          "title": "Minimally Invasive Right Sided Thoracic Approach T4 T10",
+          "url": "https://surgeryreference.aofoundation.org/spine/trauma/thoracolumbar/approach/minimally-invasive-right-sided-thoracic-approach-t4-t10",
+          "source_page_id": "ao_62614a9ac0ed661b"
+        },
+        {
+          "source_id": "ao_b3ce0222076ef04f",
+          "provider": "AO Surgery Reference",
+          "title": "Minimally Invasive Left Sided Thoracic Approach T10 L2",
+          "url": "https://surgeryreference.aofoundation.org/spine/trauma/thoracolumbar/approach/minimally-invasive-left-sided-thoracic-approach-t10-l2",
+          "source_page_id": "ao_b3ce0222076ef04f"
+        }
+      ],
+      "procedure_applications": [
+        {
+          "procedure_id": "thoracolumbar_fracture_orif",
+          "relationship": "primary_option",
+          "condition": "A T4–T10 fracture is instrumented through a mini-open right thoracotomy"
+        }
+      ],
+      "sections": {
+        "positioning": [
+          {
+            "text": "Position for a right chest approach. The left-sided T10–L2 chapter states that T4–T10 is approached from the right and T10–L2 from the left, according to aortic anatomy.",
+            "source_ids": ["ao_62614a9ac0ed661b", "ao_b3ce0222076ef04f"]
+          }
+        ],
+        "surface_landmarks": [
+          {
+            "text": "Mark the fractured vertebra on the right chest. Portal geometry matches the left mini-thoracic window: viewing portal two spaces cranial, retraction portal one space cranial and about 10 cm anterior.",
+            "source_ids": ["ao_62614a9ac0ed661b", "ao_b3ce0222076ef04f"]
+          }
+        ],
+        "incision": [
+          {
+            "text": "Mini-thoracotomy over the marked vertebra, with additional 20 mm portals entering above the rib.",
+            "source_ids": ["ao_62614a9ac0ed661b", "ao_b3ce0222076ef04f"]
+          }
+        ],
+        "superficial_interval": [
+          {
+            "text": "Take intercostal muscle off the cranial rib, open pleura, inspect with a thoracoscope, then place further portals under vision.",
+            "source_ids": ["ao_62614a9ac0ed661b", "ao_b3ce0222076ef04f"],
+            "risk_level": "high"
+          }
+        ],
+        "deep_interval": [
+          {
+            "text": "Open parietal pleura over the discs at the target and one level above and below, manage segmental vessels, and expose to the ALL and rib heads as on the left.",
+            "source_ids": ["ao_62614a9ac0ed661b", "ao_b3ce0222076ef04f"],
+            "risk_level": "high"
+          }
+        ],
+        "layers": [
+          {
+            "text": "Skin, chest wall, pleural cavity, parietal pleura, then the right side of T4–T10.",
+            "source_ids": ["ao_62614a9ac0ed661b", "ao_b3ce0222076ef04f"]
+          }
+        ],
+        "structures_at_risk": [
+          {
+            "text": "Lung, intercostal bundle, segmental vessels, and the great vessels; the thoracic duct is a right-sided concern in this field.",
+            "source_ids": ["ao_62614a9ac0ed661b", "ao_b3ce0222076ef04f"],
+            "risk_level": "high"
+          }
+        ],
+        "danger_zones": [
+          {
+            "text": "Entering below the rib and working without protecting mediastinal vessels are the danger zones.",
+            "source_ids": ["ao_62614a9ac0ed661b", "ao_b3ce0222076ef04f"],
+            "risk_level": "high"
+          }
+        ],
+        "retraction_hazards": [
+          {
+            "text": "Inflate the lung under thoracoscopic vision before removing the last portal.",
+            "source_ids": ["ao_62614a9ac0ed661b", "ao_b3ce0222076ef04f"]
+          }
+        ],
+        "exposure": [
+          {
+            "text": "Shows T4–T10 from a mini-open right thoracotomy.",
+            "source_ids": ["ao_62614a9ac0ed661b", "ao_b3ce0222076ef04f"]
+          }
+        ],
+        "limitations": [
+          {
+            "text": "Not the preferred side for T10–L2, where a left window is used because of the aorta.",
+            "source_ids": ["ao_b3ce0222076ef04f"]
+          }
+        ],
+        "indications": [
+          {
+            "text": "Used for minimally invasive right thoracic access from T4 to T10.",
+            "source_ids": ["ao_62614a9ac0ed661b", "ao_b3ce0222076ef04f"]
+          }
+        ],
+        "closure": [
+          {
+            "text": "Close as for the left mini-thoracic window, with chest drains through the portals.",
+            "source_ids": ["ao_62614a9ac0ed661b", "ao_b3ce0222076ef04f"]
+          }
+        ],
+        "complications": [
+          {
+            "text": "Complications include lung injury, intercostal-bundle injury, and thoracic-duct injury.",
+            "source_ids": ["ao_62614a9ac0ed661b", "ao_b3ce0222076ef04f"],
+            "risk_level": "high"
+          }
+        ],
+        "questions": [
+          {
+            "question": "Which thoracic levels are approached from the right in the mini-open system?",
+            "answer": "T4–T10, with T10–L2 typically left-sided because of the aorta.",
+            "source_ids": ["ao_62614a9ac0ed661b", "ao_b3ce0222076ef04f"]
+          }
+        ]
+      }
+    }
+  ]
+}

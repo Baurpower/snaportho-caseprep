@@ -1,0 +1,350 @@
+{
+  "schema_version": "brobot_approach_packet_v1",
+  "approach_id": "proximal_forearm_boyd",
+  "name": "Posterolateral Boyd approach to the proximal radius and ulna",
+  "aliases": [
+    "Boyd approach to the proximal forearm"
+  ],
+  "region": "proximal-forearm",
+  "joint": "elbow",
+  "bones": [
+    "ulna",
+    "radius"
+  ],
+  "corridor": "Posterolateral interval behind the supracondylar ridge to the lateral ulnar border, reflecting anconeus and detaching the supinator from its ulnar origin to reach the radial head and proximal ulna, protecting the posterior interosseous nerve",
+  "positioning": [
+    {
+      "text": "Position with the arm across the chest or on a support so the posterolateral elbow and subcutaneous ulna are accessible.",
+      "claim_ids": [
+        "proximal_forearm_boyd_positioning_01"
+      ]
+    }
+  ],
+  "setup": [],
+  "surface_landmarks": [
+    {
+      "text": "Mark the supracondylar ridge, the lateral epicondyle, and the lateral border of the ulna.",
+      "claim_ids": [
+        "proximal_forearm_boyd_surface_landmarks_01"
+      ]
+    }
+  ],
+  "incision": [
+    {
+      "text": "Start posterolaterally behind the supracondylar ridge and continue distally to the lateral border of the ulna.",
+      "claim_ids": [
+        "proximal_forearm_boyd_incision_01"
+      ]
+    }
+  ],
+  "superficial_interval": [
+    {
+      "text": "Incise the deep fascia along the lateral margin of the ulna and reflect the anconeus anterolaterally after releasing its ulnar attachment.",
+      "claim_ids": [
+        "proximal_forearm_boyd_superficial_interval_01"
+      ]
+    }
+  ],
+  "deep_interval": [
+    {
+      "text": "Detach the supinator near its ulnar origin and elevate it from the interosseous membrane to expose the posterior capsule over the radial head, avoiding retractors around the radius that could injure the posterior interosseous nerve.",
+      "claim_ids": [
+        "proximal_forearm_boyd_deep_interval_01"
+      ]
+    }
+  ],
+  "layers": [
+    {
+      "text": "Skin, subcutaneous tissue, deep fascia, anconeus and supinator, the posterior capsule, and the radial head and proximal ulna.",
+      "claim_ids": [
+        "proximal_forearm_boyd_layers_01"
+      ]
+    }
+  ],
+  "structures_encountered": [],
+  "structures_at_risk": [
+    {
+      "text": "The posterior interosseous nerve within the supinator is the principal structure at risk, and retractors around the radius can injure it.",
+      "claim_ids": [
+        "proximal_forearm_boyd_structures_at_risk_01"
+      ]
+    }
+  ],
+  "danger_zones": [
+    {
+      "text": "The supinator mass over the radial neck is the danger zone for the posterior interosseous nerve.",
+      "claim_ids": [
+        "proximal_forearm_boyd_danger_zones_01"
+      ]
+    }
+  ],
+  "retraction_hazards": [
+    {
+      "text": "Do not place retractors around the radius, and preserve the periosteal vessels to the radial head while reducing the fracture.",
+      "claim_ids": [
+        "proximal_forearm_boyd_retraction_hazards_01"
+      ]
+    }
+  ],
+  "exposure": [
+    {
+      "text": "Exposes the radial head and the proximal ulna through a single posterolateral incision.",
+      "claim_ids": [
+        "proximal_forearm_boyd_exposure_01"
+      ]
+    }
+  ],
+  "limitations": [
+    {
+      "text": "As a combined exposure of both bones it carries a radioulnar synostosis risk, so it is used selectively.",
+      "claim_ids": [
+        "proximal_forearm_boyd_limitations_01"
+      ]
+    }
+  ],
+  "extensions": [],
+  "indications": [
+    {
+      "text": "Indicated for Monteggia injuries and combined proximal radioulnar exposure.",
+      "claim_ids": [
+        "proximal_forearm_boyd_indications_01"
+      ]
+    }
+  ],
+  "relative_contraindications": [],
+  "implant_implications": [],
+  "fluoroscopy_implications": [],
+  "closure": [
+    {
+      "text": "Close the capsule with 3-0 resorbable sutures, reattach the muscles and fascia with 2-0 or 3-0 resorbable sutures, and close skin with fine resorbable sutures.",
+      "claim_ids": [
+        "proximal_forearm_boyd_closure_01"
+      ]
+    }
+  ],
+  "complications": [
+    {
+      "text": "Complications include posterior interosseous nerve palsy and radioulnar synostosis.",
+      "claim_ids": [
+        "proximal_forearm_boyd_complications_01"
+      ]
+    }
+  ],
+  "bailouts": [],
+  "procedure_applications": [
+    {
+      "procedure_id": "monteggia_fracture_orif",
+      "relationship": "primary_option",
+      "condition": "A Monteggia injury needs combined exposure of the proximal ulna and radial head"
+    }
+  ],
+  "questions": [
+    {
+      "question": "Where does the Boyd incision begin?",
+      "answer": "Posterolaterally behind the supracondylar ridge, continuing to the lateral border of the ulna.",
+      "claim_ids": [
+        "proximal_forearm_boyd_questions_01"
+      ]
+    },
+    {
+      "question": "Why should retractors not be placed around the radius?",
+      "answer": "They may injure the posterior interosseous nerve.",
+      "claim_ids": [
+        "proximal_forearm_boyd_questions_02"
+      ]
+    },
+    {
+      "question": "What is preserved while reducing the radial head fracture?",
+      "answer": "The periosteal vessels to the radial head.",
+      "claim_ids": [
+        "proximal_forearm_boyd_questions_03"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "proximal_forearm_boyd_positioning_01",
+      "text": "Position with the arm across the chest or on a support so the posterolateral elbow and subcutaneous ulna are accessible.",
+      "source_ids": [
+        "ao_a1e9500de96875ed"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "proximal_forearm_boyd_surface_landmarks_01",
+      "text": "Mark the supracondylar ridge, the lateral epicondyle, and the lateral border of the ulna.",
+      "source_ids": [
+        "ao_a1e9500de96875ed"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "proximal_forearm_boyd_incision_01",
+      "text": "Start posterolaterally behind the supracondylar ridge and continue distally to the lateral border of the ulna.",
+      "source_ids": [
+        "ao_a1e9500de96875ed"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "proximal_forearm_boyd_superficial_interval_01",
+      "text": "Incise the deep fascia along the lateral margin of the ulna and reflect the anconeus anterolaterally after releasing its ulnar attachment.",
+      "source_ids": [
+        "ao_a1e9500de96875ed",
+        "ao_43a73c40a5d31f67"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "proximal_forearm_boyd_deep_interval_01",
+      "text": "Detach the supinator near its ulnar origin and elevate it from the interosseous membrane to expose the posterior capsule over the radial head, avoiding retractors around the radius that could injure the posterior interosseous nerve.",
+      "source_ids": [
+        "ao_a1e9500de96875ed",
+        "ao_43a73c40a5d31f67"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "proximal_forearm_boyd_layers_01",
+      "text": "Skin, subcutaneous tissue, deep fascia, anconeus and supinator, the posterior capsule, and the radial head and proximal ulna.",
+      "source_ids": [
+        "ao_a1e9500de96875ed"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "proximal_forearm_boyd_structures_at_risk_01",
+      "text": "The posterior interosseous nerve within the supinator is the principal structure at risk, and retractors around the radius can injure it.",
+      "source_ids": [
+        "ao_a1e9500de96875ed",
+        "ao_43a73c40a5d31f67"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "proximal_forearm_boyd_danger_zones_01",
+      "text": "The supinator mass over the radial neck is the danger zone for the posterior interosseous nerve.",
+      "source_ids": [
+        "ao_a1e9500de96875ed",
+        "ao_43a73c40a5d31f67"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "proximal_forearm_boyd_retraction_hazards_01",
+      "text": "Do not place retractors around the radius, and preserve the periosteal vessels to the radial head while reducing the fracture.",
+      "source_ids": [
+        "ao_a1e9500de96875ed"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "proximal_forearm_boyd_exposure_01",
+      "text": "Exposes the radial head and the proximal ulna through a single posterolateral incision.",
+      "source_ids": [
+        "ao_a1e9500de96875ed"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "proximal_forearm_boyd_limitations_01",
+      "text": "As a combined exposure of both bones it carries a radioulnar synostosis risk, so it is used selectively.",
+      "source_ids": [
+        "ao_a1e9500de96875ed",
+        "ao_43a73c40a5d31f67"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "proximal_forearm_boyd_indications_01",
+      "text": "Indicated for Monteggia injuries and combined proximal radioulnar exposure.",
+      "source_ids": [
+        "ao_a1e9500de96875ed"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "proximal_forearm_boyd_closure_01",
+      "text": "Close the capsule with 3-0 resorbable sutures, reattach the muscles and fascia with 2-0 or 3-0 resorbable sutures, and close skin with fine resorbable sutures.",
+      "source_ids": [
+        "ao_a1e9500de96875ed"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "proximal_forearm_boyd_complications_01",
+      "text": "Complications include posterior interosseous nerve palsy and radioulnar synostosis.",
+      "source_ids": [
+        "ao_a1e9500de96875ed",
+        "ao_43a73c40a5d31f67"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "proximal_forearm_boyd_questions_01",
+      "text": "Where does the Boyd incision begin?",
+      "source_ids": [
+        "ao_a1e9500de96875ed"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "proximal_forearm_boyd_questions_02",
+      "text": "Why should retractors not be placed around the radius?",
+      "source_ids": [
+        "ao_a1e9500de96875ed"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "proximal_forearm_boyd_questions_03",
+      "text": "What is preserved while reducing the radial head fracture?",
+      "source_ids": [
+        "ao_a1e9500de96875ed"
+      ],
+      "risk_level": "medium"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "ao_a1e9500de96875ed",
+      "provider": "AO Surgery Reference",
+      "title": "Posterolateral (Boyd) approach to the proximal radius and ulna (pediatric)",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/pediatric-trauma/proximal-forearm/approach/posterolateral-boyd-approach-to-the-proximal-radius-and-ulna",
+      "source_page_id": "ao_a1e9500de96875ed"
+    },
+    {
+      "source_id": "ao_43a73c40a5d31f67",
+      "provider": "AO Surgery Reference",
+      "title": "Speed and Boyd's approach to the forearm shaft",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/forearm-shaft/approach/speed-and-boyds-approach",
+      "source_page_id": "ao_43a73c40a5d31f67"
+    },
+    {
+      "source_id": "ao_c7ce24b68a2b0724",
+      "provider": "AO Surgery Reference",
+      "title": "Posterolateral Boyd Approach To The Proximal Radius And Ulna (pediatric forearm shaft)",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/pediatric-trauma/forearm-shaft/approach/posterolateral-boyd-approach-to-the-proximal-radius-and-ulna",
+      "source_page_id": "ao_c7ce24b68a2b0724"
+    }
+  ],
+  "content_status": "agent_review_pending",
+  "review": {
+    "status": "agent_review_pending",
+    "required_roles": [
+      "adversarial_safety_reviewer",
+      "approach_anatomy_reviewer",
+      "educational_value_reviewer",
+      "evidence_reviewer",
+      "operative_exposure_reviewer",
+      "procedure_applicability_reviewer"
+    ],
+    "completed_roles": []
+  },
+  "resolved_contradiction_keys": [],
+  "authoring_provenance": {
+    "method": "local_codex_curated",
+    "definition_file": "data/approach_library/curated/proximal_forearm_boyd_safezones_batch004_v1.json",
+    "api_used": false
+  }
+}

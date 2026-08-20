@@ -1,0 +1,345 @@
+{
+  "schema_version": "brobot_approach_packet_v1",
+  "approach_id": "forearm_druj_posterior_anterior",
+  "name": "Posterior and anterior approaches to the distal radioulnar joint",
+  "aliases": [
+    "DRUJ approach for irreducible Galeazzi",
+    "dorsal and volar DRUJ exposure"
+  ],
+  "region": "distal-forearm",
+  "joint": "distal radioulnar joint",
+  "bones": [
+    "ulna",
+    "radius"
+  ],
+  "corridor": "Dorsal window through the extensor retinaculum between the fourth and fifth compartments, or a volar window medial to palmaris longus incising the distal pronator quadratus, to reach a dislocated ulnar head",
+  "positioning": [
+    {
+      "text": "Position supine with the arm on a hand table; forearm rotation (supination for the posterior approach, pronation for the anterior approach) is used to reduce and hold the ulnar head.",
+      "claim_ids": [
+        "forearm_druj_posterior_anterior_positioning_01"
+      ]
+    }
+  ],
+  "setup": [],
+  "surface_landmarks": [
+    {
+      "text": "Mark the distal radioulnar joint between the radius and ulna dorsally, and volarly the palmaris longus, flexor carpi ulnaris, and the ulnar neurovascular course.",
+      "claim_ids": [
+        "forearm_druj_posterior_anterior_surface_landmarks_01"
+      ]
+    }
+  ],
+  "incision": [
+    {
+      "text": "For the posterior approach make a longitudinal incision between radius and ulna over the DRUJ; for the anterior approach incise just medial to the palmaris longus tendon.",
+      "claim_ids": [
+        "forearm_druj_posterior_anterior_incision_01"
+      ]
+    }
+  ],
+  "superficial_interval": [
+    {
+      "text": "Posteriorly, incise the extensor retinaculum between the fourth and fifth compartments; anteriorly, develop the plane medial to palmaris longus with the median nerve and flexor tendons radial and the ulnar nerve and vessels ulnar.",
+      "claim_ids": [
+        "forearm_druj_posterior_anterior_superficial_interval_01"
+      ]
+    }
+  ],
+  "deep_interval": [
+    {
+      "text": "Posteriorly, retract the extensor digitorum tendons radially and the little-finger extensors ulnarward to reach the capsule and ulnar head; anteriorly, incise the distal pronator quadratus longitudinally to expose the torn capsule and dislocated ulnar head.",
+      "claim_ids": [
+        "forearm_druj_posterior_anterior_deep_interval_01"
+      ]
+    }
+  ],
+  "layers": [
+    {
+      "text": "Skin, subcutaneous tissue, extensor retinaculum and the fourth/fifth compartment tendons dorsally, or palmaris longus, flexor tendons, and pronator quadratus volarly, then the DRUJ capsule.",
+      "claim_ids": [
+        "forearm_druj_posterior_anterior_layers_01"
+      ]
+    }
+  ],
+  "structures_encountered": [],
+  "structures_at_risk": [
+    {
+      "text": "The median nerve and its palmar cutaneous branch on the radial side and the ulnar nerve and vessels on the ulnar side are at risk during the anterior approach; the extensor tendons are at risk dorsally.",
+      "claim_ids": [
+        "forearm_druj_posterior_anterior_structures_at_risk_01"
+      ]
+    }
+  ],
+  "danger_zones": [
+    {
+      "text": "Do not retract the median nerve medially during the anterior approach, because this stretches and can damage the palmar cutaneous branch of the median nerve.",
+      "claim_ids": [
+        "forearm_druj_posterior_anterior_danger_zones_01"
+      ]
+    }
+  ],
+  "retraction_hazards": [
+    {
+      "text": "Retract the median nerve and flexor tendons radially rather than ulnarward, and protect the ulnar neurovascular bundle behind the flexor carpi ulnaris.",
+      "claim_ids": [
+        "forearm_druj_posterior_anterior_retraction_hazards_01"
+      ]
+    }
+  ],
+  "exposure": [
+    {
+      "text": "Exposes the DRUJ capsule and ulnar head for open reduction, capsular repair, and temporary transfixation.",
+      "claim_ids": [
+        "forearm_druj_posterior_anterior_exposure_01"
+      ]
+    }
+  ],
+  "limitations": [
+    {
+      "text": "The approaches are reserved for irreducible DRUJ dislocations and give limited exposure beyond the joint itself.",
+      "claim_ids": [
+        "forearm_druj_posterior_anterior_limitations_01"
+      ]
+    }
+  ],
+  "extensions": [],
+  "indications": [
+    {
+      "text": "Indicated when an ulnar head dislocation in a Galeazzi injury cannot be reduced closed after fixation of the radius.",
+      "claim_ids": [
+        "forearm_druj_posterior_anterior_indications_01"
+      ]
+    }
+  ],
+  "relative_contraindications": [],
+  "implant_implications": [],
+  "fluoroscopy_implications": [],
+  "closure": [
+    {
+      "text": "Repair the capsule with interrupted resorbable sutures, place a temporary transfixation K-wire in the most stable position for about three weeks, and protect in a cast.",
+      "claim_ids": [
+        "forearm_druj_posterior_anterior_closure_01"
+      ]
+    }
+  ],
+  "complications": [
+    {
+      "text": "Complications include injury to the palmar cutaneous branch of the median nerve or the ulnar neurovascular bundle, recurrent DRUJ instability, and K-wire breakage or migration.",
+      "claim_ids": [
+        "forearm_druj_posterior_anterior_complications_01"
+      ]
+    }
+  ],
+  "bailouts": [],
+  "procedure_applications": [
+    {
+      "procedure_id": "both_bone_forearm_fracture_orif",
+      "relationship": "conditional_option",
+      "condition": "A Galeazzi injury has an ulnar head that cannot be reduced closed after radial fixation"
+    }
+  ],
+  "questions": [
+    {
+      "question": "Between which extensor compartments is the retinaculum opened for the posterior DRUJ approach?",
+      "answer": "Between the fourth and fifth compartments.",
+      "claim_ids": [
+        "forearm_druj_posterior_anterior_questions_01"
+      ]
+    },
+    {
+      "question": "Why should the median nerve not be retracted medially in the anterior DRUJ approach?",
+      "answer": "Because it would damage the palmar cutaneous branch of the median nerve.",
+      "claim_ids": [
+        "forearm_druj_posterior_anterior_questions_02"
+      ]
+    },
+    {
+      "question": "What is the usual indication for open DRUJ exposure in a Galeazzi injury?",
+      "answer": "An ulnar head dislocation that cannot be reduced closed after fixing the radius.",
+      "claim_ids": [
+        "forearm_druj_posterior_anterior_questions_03"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "forearm_druj_posterior_anterior_positioning_01",
+      "text": "Position supine with the arm on a hand table; forearm rotation (supination for the posterior approach, pronation for the anterior approach) is used to reduce and hold the ulnar head.",
+      "source_ids": [
+        "ao_0f1233fc83708b1b"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "forearm_druj_posterior_anterior_surface_landmarks_01",
+      "text": "Mark the distal radioulnar joint between the radius and ulna dorsally, and volarly the palmaris longus, flexor carpi ulnaris, and the ulnar neurovascular course.",
+      "source_ids": [
+        "ao_0f1233fc83708b1b",
+        "ao_1966107fff0ea485"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "forearm_druj_posterior_anterior_incision_01",
+      "text": "For the posterior approach make a longitudinal incision between radius and ulna over the DRUJ; for the anterior approach incise just medial to the palmaris longus tendon.",
+      "source_ids": [
+        "ao_0f1233fc83708b1b"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "forearm_druj_posterior_anterior_superficial_interval_01",
+      "text": "Posteriorly, incise the extensor retinaculum between the fourth and fifth compartments; anteriorly, develop the plane medial to palmaris longus with the median nerve and flexor tendons radial and the ulnar nerve and vessels ulnar.",
+      "source_ids": [
+        "ao_0f1233fc83708b1b",
+        "ao_1966107fff0ea485"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "forearm_druj_posterior_anterior_deep_interval_01",
+      "text": "Posteriorly, retract the extensor digitorum tendons radially and the little-finger extensors ulnarward to reach the capsule and ulnar head; anteriorly, incise the distal pronator quadratus longitudinally to expose the torn capsule and dislocated ulnar head.",
+      "source_ids": [
+        "ao_0f1233fc83708b1b"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "forearm_druj_posterior_anterior_layers_01",
+      "text": "Skin, subcutaneous tissue, extensor retinaculum and the fourth/fifth compartment tendons dorsally, or palmaris longus, flexor tendons, and pronator quadratus volarly, then the DRUJ capsule.",
+      "source_ids": [
+        "ao_0f1233fc83708b1b",
+        "ao_1966107fff0ea485"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "forearm_druj_posterior_anterior_structures_at_risk_01",
+      "text": "The median nerve and its palmar cutaneous branch on the radial side and the ulnar nerve and vessels on the ulnar side are at risk during the anterior approach; the extensor tendons are at risk dorsally.",
+      "source_ids": [
+        "ao_0f1233fc83708b1b",
+        "ao_1966107fff0ea485"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "forearm_druj_posterior_anterior_danger_zones_01",
+      "text": "Do not retract the median nerve medially during the anterior approach, because this stretches and can damage the palmar cutaneous branch of the median nerve.",
+      "source_ids": [
+        "ao_0f1233fc83708b1b",
+        "ao_1966107fff0ea485"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "forearm_druj_posterior_anterior_retraction_hazards_01",
+      "text": "Retract the median nerve and flexor tendons radially rather than ulnarward, and protect the ulnar neurovascular bundle behind the flexor carpi ulnaris.",
+      "source_ids": [
+        "ao_0f1233fc83708b1b",
+        "ao_1966107fff0ea485"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "forearm_druj_posterior_anterior_exposure_01",
+      "text": "Exposes the DRUJ capsule and ulnar head for open reduction, capsular repair, and temporary transfixation.",
+      "source_ids": [
+        "ao_0f1233fc83708b1b"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "forearm_druj_posterior_anterior_limitations_01",
+      "text": "The approaches are reserved for irreducible DRUJ dislocations and give limited exposure beyond the joint itself.",
+      "source_ids": [
+        "ao_0f1233fc83708b1b"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "forearm_druj_posterior_anterior_indications_01",
+      "text": "Indicated when an ulnar head dislocation in a Galeazzi injury cannot be reduced closed after fixation of the radius.",
+      "source_ids": [
+        "ao_0f1233fc83708b1b"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "forearm_druj_posterior_anterior_closure_01",
+      "text": "Repair the capsule with interrupted resorbable sutures, place a temporary transfixation K-wire in the most stable position for about three weeks, and protect in a cast.",
+      "source_ids": [
+        "ao_0f1233fc83708b1b"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "forearm_druj_posterior_anterior_complications_01",
+      "text": "Complications include injury to the palmar cutaneous branch of the median nerve or the ulnar neurovascular bundle, recurrent DRUJ instability, and K-wire breakage or migration.",
+      "source_ids": [
+        "ao_0f1233fc83708b1b",
+        "ao_1966107fff0ea485"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "forearm_druj_posterior_anterior_questions_01",
+      "text": "Between which extensor compartments is the retinaculum opened for the posterior DRUJ approach?",
+      "source_ids": [
+        "ao_0f1233fc83708b1b"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "forearm_druj_posterior_anterior_questions_02",
+      "text": "Why should the median nerve not be retracted medially in the anterior DRUJ approach?",
+      "source_ids": [
+        "ao_0f1233fc83708b1b"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "forearm_druj_posterior_anterior_questions_03",
+      "text": "What is the usual indication for open DRUJ exposure in a Galeazzi injury?",
+      "source_ids": [
+        "ao_0f1233fc83708b1b"
+      ],
+      "risk_level": "medium"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "ao_0f1233fc83708b1b",
+      "provider": "AO Surgery Reference",
+      "title": "Approaches to the DRUJ (posterior, anterior)",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/forearm-shaft/approach/approaches-to-the-druj-posterior-anterior",
+      "source_page_id": "ao_0f1233fc83708b1b"
+    },
+    {
+      "source_id": "ao_1966107fff0ea485",
+      "provider": "AO Surgery Reference",
+      "title": "Anatomy of the distal forearm",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/distal-forearm/approach/anatomy-of-the-distal-forearm",
+      "source_page_id": "ao_1966107fff0ea485"
+    }
+  ],
+  "content_status": "agent_review_pending",
+  "review": {
+    "status": "agent_review_pending",
+    "required_roles": [
+      "adversarial_safety_reviewer",
+      "approach_anatomy_reviewer",
+      "educational_value_reviewer",
+      "evidence_reviewer",
+      "operative_exposure_reviewer",
+      "procedure_applicability_reviewer"
+    ],
+    "completed_roles": []
+  },
+  "resolved_contradiction_keys": [],
+  "authoring_provenance": {
+    "method": "local_codex_curated",
+    "definition_file": "data/approach_library/curated/forearm_shaft_batch001_v1.json",
+    "api_used": false
+  }
+}

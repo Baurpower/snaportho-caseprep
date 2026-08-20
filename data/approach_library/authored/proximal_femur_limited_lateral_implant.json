@@ -1,0 +1,374 @@
+{
+  "schema_version": "brobot_approach_packet_v1",
+  "approach_id": "proximal_femur_limited_lateral_implant",
+  "name": "Limited lateral approach for proximal femoral implant insertion",
+  "aliases": [
+    "limited lateral sliding-hip-screw approach",
+    "lateral proximal-femur implant window"
+  ],
+  "region": "proximal-femur",
+  "joint": "hip-adjacent extra-articular",
+  "bones": [
+    "proximal femur"
+  ],
+  "corridor": "Lateral window through fascia lata and vastus lateralis onto the lateral proximal femur, aligned with the femoral-neck axis for screws or a side plate",
+  "positioning": [
+    {
+      "text": "Position so closed reduction can be held and the lateral proximal femur imaged; the limb must remain accessible for a neck-axis-aligned lateral incision.",
+      "claim_ids": [
+        "proximal_femur_limited_lateral_implant_positioning_01"
+      ]
+    }
+  ],
+  "setup": [],
+  "surface_landmarks": [
+    {
+      "text": "Mark the greater trochanter, femoral shaft, and the femoral-neck axis; a guide wire laid on the anterior hip and checked on the image intensifier locates the screw entry and the proximal end of the incision.",
+      "claim_ids": [
+        "proximal_femur_limited_lateral_implant_surface_landmarks_01"
+      ]
+    }
+  ],
+  "incision": [
+    {
+      "text": "For multiple screws, center a slightly posterior lateral incision on the neck-axis line. For a two-hole 135° sliding hip screw, begin a few centimeters proximal to the palpable greater trochanter and extend about 10 cm distally; a 95° blade plate needs a longer distal incision.",
+      "claim_ids": [
+        "proximal_femur_limited_lateral_implant_incision_01"
+      ]
+    }
+  ],
+  "superficial_interval": [
+    {
+      "text": "Incise the iliotibial band distal to the greater trochanter in line with the skin, posterior to tensor fasciae latae so that muscle is not injured.",
+      "claim_ids": [
+        "proximal_femur_limited_lateral_implant_superficial_interval_01"
+      ]
+    }
+  ],
+  "deep_interval": [
+    {
+      "text": "Incise vastus lateralis fascia, retract the muscle anteriorly or split atrophic fibers, and expose only enough lateral femur for hardware; bulky muscle can be reflected anteriorly through an added proximal transverse limb.",
+      "claim_ids": [
+        "proximal_femur_limited_lateral_implant_deep_interval_01"
+      ]
+    }
+  ],
+  "layers": [
+    {
+      "text": "Skin, subcutaneous tissue, iliotibial band, vastus lateralis, and the lateral femoral cortex.",
+      "claim_ids": [
+        "proximal_femur_limited_lateral_implant_layers_01"
+      ]
+    }
+  ],
+  "structures_encountered": [],
+  "structures_at_risk": [
+    {
+      "text": "The first perforating vessels typically lie more than 5 cm distal to the vastus lateralis ridge; careless division causes persistent bleeding. No named nerves are encountered until those vessels are reached.",
+      "claim_ids": [
+        "proximal_femur_limited_lateral_implant_structures_at_risk_01"
+      ]
+    }
+  ],
+  "danger_zones": [
+    {
+      "text": "Anticipate and control perforators before exposing more than 5 cm below the inferior border of the greater trochanter, especially beyond a short DHS plate.",
+      "claim_ids": [
+        "proximal_femur_limited_lateral_implant_danger_zones_01"
+      ]
+    }
+  ],
+  "retraction_hazards": [
+    {
+      "text": "Use limited Hohmann retraction and expose only the lateral surface needed for the implant; do not avulse perforators by uncontrolled posterior retraction.",
+      "claim_ids": [
+        "proximal_femur_limited_lateral_implant_retraction_hazards_01"
+      ]
+    }
+  ],
+  "exposure": [
+    {
+      "text": "Gives enough lateral proximal-femur surface for screws, a sliding hip screw, a blade plate, or a trochanteric stabilizing plate after proximal extension.",
+      "claim_ids": [
+        "proximal_femur_limited_lateral_implant_exposure_01"
+      ]
+    }
+  ],
+  "limitations": [
+    {
+      "text": "The standard window is for implant insertion after closed reduction; a femoral-neck fracture that needs direct reduction requires proximal-anterior extension into the gluteus medius–tensor interval.",
+      "claim_ids": [
+        "proximal_femur_limited_lateral_implant_limitations_01"
+      ]
+    }
+  ],
+  "extensions": [
+    {
+      "text": "Extend proximally through fascia lata onto the trochanter and gluteus medius insertion for a trochanteric stabilizing plate, or proximally and anteriorly toward the ASIS into the gluteus medius–tensor interval with a labrum-sparing capsulotomy for open neck reduction.",
+      "claim_ids": [
+        "proximal_femur_limited_lateral_implant_extensions_01"
+      ]
+    }
+  ],
+  "indications": [
+    {
+      "text": "Used to insert lateral fixation devices after closed reduction of proximal femoral fractures.",
+      "claim_ids": [
+        "proximal_femur_limited_lateral_implant_indications_01"
+      ]
+    }
+  ],
+  "relative_contraindications": [],
+  "implant_implications": [],
+  "fluoroscopy_implications": [],
+  "closure": [
+    {
+      "text": "Repair fascia lata and close subcutaneous tissue and skin after hemostasis of any divided perforators.",
+      "claim_ids": [
+        "proximal_femur_limited_lateral_implant_closure_01"
+      ]
+    }
+  ],
+  "complications": [
+    {
+      "text": "Approach-related complications include perforator bleeding and hematoma, and labral injury if an anterior capsular extension is made carelessly.",
+      "claim_ids": [
+        "proximal_femur_limited_lateral_implant_complications_01"
+      ]
+    }
+  ],
+  "bailouts": [],
+  "procedure_applications": [
+    {
+      "procedure_id": "intertrochanteric_hip_fracture_orif",
+      "relationship": "primary_option",
+      "condition": "Closed reduction is followed by extramedullary fixation with a sliding hip screw, blade plate, or similar lateral implant"
+    },
+    {
+      "procedure_id": "femoral_neck_fracture_orif",
+      "relationship": "conditional_option",
+      "condition": "Multiple screws or a side-plate construct is inserted from a lateral window after closed reduction"
+    }
+  ],
+  "questions": [
+    {
+      "question": "How is the proximal end of a sliding-hip-screw incision located?",
+      "answer": "Lay a guide wire on the anterior hip, confirm it on the image intensifier along the neck axis, and start the incision where that line meets the lateral skin.",
+      "claim_ids": [
+        "proximal_femur_limited_lateral_implant_questions_01"
+      ]
+    },
+    {
+      "question": "Where are the first perforating vessels relative to the greater trochanter?",
+      "answer": "About 5 cm distal to the vastus lateralis ridge at the inferior border of the greater trochanter.",
+      "claim_ids": [
+        "proximal_femur_limited_lateral_implant_questions_02"
+      ]
+    },
+    {
+      "question": "Why is the fascia lata incised posterior to tensor fasciae latae?",
+      "answer": "To avoid injuring the tensor, which lies anteriorly between layers of the fascia.",
+      "claim_ids": [
+        "proximal_femur_limited_lateral_implant_questions_03"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "proximal_femur_limited_lateral_implant_positioning_01",
+      "text": "Position so closed reduction can be held and the lateral proximal femur imaged; the limb must remain accessible for a neck-axis-aligned lateral incision.",
+      "source_ids": [
+        "ao_23abe1d847f8918c",
+        "ao_ab876e208ec241f2"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "proximal_femur_limited_lateral_implant_surface_landmarks_01",
+      "text": "Mark the greater trochanter, femoral shaft, and the femoral-neck axis; a guide wire laid on the anterior hip and checked on the image intensifier locates the screw entry and the proximal end of the incision.",
+      "source_ids": [
+        "ao_23abe1d847f8918c"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "proximal_femur_limited_lateral_implant_incision_01",
+      "text": "For multiple screws, center a slightly posterior lateral incision on the neck-axis line. For a two-hole 135° sliding hip screw, begin a few centimeters proximal to the palpable greater trochanter and extend about 10 cm distally; a 95° blade plate needs a longer distal incision.",
+      "source_ids": [
+        "ao_23abe1d847f8918c"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "proximal_femur_limited_lateral_implant_superficial_interval_01",
+      "text": "Incise the iliotibial band distal to the greater trochanter in line with the skin, posterior to tensor fasciae latae so that muscle is not injured.",
+      "source_ids": [
+        "ao_23abe1d847f8918c",
+        "ao_ab876e208ec241f2"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "proximal_femur_limited_lateral_implant_deep_interval_01",
+      "text": "Incise vastus lateralis fascia, retract the muscle anteriorly or split atrophic fibers, and expose only enough lateral femur for hardware; bulky muscle can be reflected anteriorly through an added proximal transverse limb.",
+      "source_ids": [
+        "ao_23abe1d847f8918c",
+        "ao_ab876e208ec241f2"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "proximal_femur_limited_lateral_implant_layers_01",
+      "text": "Skin, subcutaneous tissue, iliotibial band, vastus lateralis, and the lateral femoral cortex.",
+      "source_ids": [
+        "ao_23abe1d847f8918c",
+        "ao_ab876e208ec241f2"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "proximal_femur_limited_lateral_implant_structures_at_risk_01",
+      "text": "The first perforating vessels typically lie more than 5 cm distal to the vastus lateralis ridge; careless division causes persistent bleeding. No named nerves are encountered until those vessels are reached.",
+      "source_ids": [
+        "ao_23abe1d847f8918c",
+        "ao_ab876e208ec241f2",
+        "orthobullets_10c9d61b22bde8fc"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "proximal_femur_limited_lateral_implant_danger_zones_01",
+      "text": "Anticipate and control perforators before exposing more than 5 cm below the inferior border of the greater trochanter, especially beyond a short DHS plate.",
+      "source_ids": [
+        "ao_23abe1d847f8918c",
+        "ao_ab876e208ec241f2"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "proximal_femur_limited_lateral_implant_retraction_hazards_01",
+      "text": "Use limited Hohmann retraction and expose only the lateral surface needed for the implant; do not avulse perforators by uncontrolled posterior retraction.",
+      "source_ids": [
+        "ao_23abe1d847f8918c",
+        "orthobullets_10c9d61b22bde8fc"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "proximal_femur_limited_lateral_implant_exposure_01",
+      "text": "Gives enough lateral proximal-femur surface for screws, a sliding hip screw, a blade plate, or a trochanteric stabilizing plate after proximal extension.",
+      "source_ids": [
+        "ao_23abe1d847f8918c"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "proximal_femur_limited_lateral_implant_limitations_01",
+      "text": "The standard window is for implant insertion after closed reduction; a femoral-neck fracture that needs direct reduction requires proximal-anterior extension into the gluteus medius–tensor interval.",
+      "source_ids": [
+        "ao_23abe1d847f8918c"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "proximal_femur_limited_lateral_implant_extensions_01",
+      "text": "Extend proximally through fascia lata onto the trochanter and gluteus medius insertion for a trochanteric stabilizing plate, or proximally and anteriorly toward the ASIS into the gluteus medius–tensor interval with a labrum-sparing capsulotomy for open neck reduction.",
+      "source_ids": [
+        "ao_23abe1d847f8918c"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "proximal_femur_limited_lateral_implant_indications_01",
+      "text": "Used to insert lateral fixation devices after closed reduction of proximal femoral fractures.",
+      "source_ids": [
+        "ao_23abe1d847f8918c"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "proximal_femur_limited_lateral_implant_closure_01",
+      "text": "Repair fascia lata and close subcutaneous tissue and skin after hemostasis of any divided perforators.",
+      "source_ids": [
+        "ao_ab876e208ec241f2",
+        "orthobullets_10c9d61b22bde8fc"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "proximal_femur_limited_lateral_implant_complications_01",
+      "text": "Approach-related complications include perforator bleeding and hematoma, and labral injury if an anterior capsular extension is made carelessly.",
+      "source_ids": [
+        "ao_23abe1d847f8918c",
+        "ao_ab876e208ec241f2"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "proximal_femur_limited_lateral_implant_questions_01",
+      "text": "How is the proximal end of a sliding-hip-screw incision located?",
+      "source_ids": [
+        "ao_23abe1d847f8918c"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "proximal_femur_limited_lateral_implant_questions_02",
+      "text": "Where are the first perforating vessels relative to the greater trochanter?",
+      "source_ids": [
+        "ao_23abe1d847f8918c"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "proximal_femur_limited_lateral_implant_questions_03",
+      "text": "Why is the fascia lata incised posterior to tensor fasciae latae?",
+      "source_ids": [
+        "ao_23abe1d847f8918c"
+      ],
+      "risk_level": "medium"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "ao_23abe1d847f8918c",
+      "provider": "AO Surgery Reference",
+      "title": "Limited Lateral Approach For Implant Insertion",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/proximal-femur/approach/limited-lateral-approach-for-implant-insertion",
+      "source_page_id": "ao_23abe1d847f8918c"
+    },
+    {
+      "source_id": "ao_ab876e208ec241f2",
+      "provider": "AO Surgery Reference",
+      "title": "Lateral Approach (femoral shaft)",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/femoral-shaft/approach/lateral-approach",
+      "source_page_id": "ao_ab876e208ec241f2"
+    },
+    {
+      "source_id": "orthobullets_10c9d61b22bde8fc",
+      "provider": "Orthobullets",
+      "title": "Femur Lateral Approach",
+      "url": "https://www.orthobullets.com/approaches/12024/femur-lateral-approach",
+      "source_page_id": "orthobullets_10c9d61b22bde8fc"
+    }
+  ],
+  "content_status": "agent_review_pending",
+  "review": {
+    "status": "agent_review_pending",
+    "required_roles": [
+      "adversarial_safety_reviewer",
+      "approach_anatomy_reviewer",
+      "educational_value_reviewer",
+      "evidence_reviewer",
+      "operative_exposure_reviewer",
+      "procedure_applicability_reviewer"
+    ],
+    "completed_roles": []
+  },
+  "resolved_contradiction_keys": [],
+  "authoring_provenance": {
+    "method": "local_codex_curated",
+    "definition_file": "data/approach_library/curated/proximal_femur_nailing_lateral_gibson_batch004_v1.json",
+    "api_used": false
+  }
+}

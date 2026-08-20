@@ -1,0 +1,363 @@
+{
+  "schema_version": "brobot_approach_packet_v1",
+  "approach_id": "midfoot_navicular_percutaneous",
+  "name": "Percutaneous approach to the navicular",
+  "aliases": [
+    "mini-open navicular screw approach",
+    "percutaneous navicular stress-fracture approach"
+  ],
+  "region": "midfoot",
+  "joint": "talonavicular-adjacent",
+  "bones": [
+    "navicular"
+  ],
+  "corridor": "Full-thickness dorsomedial window between tibialis anterior and extensor hallucis longus straight to periosteum, with optional dorsomedial and dorsolateral stab incisions for clamps and a medial utility-line portal for lag screws",
+  "positioning": [
+    {
+      "text": "Position so the dorsomedial midfoot can be imaged and the tibialis anterior–EHL interval palpated.",
+      "claim_ids": [
+        "midfoot_navicular_percutaneous_positioning_01"
+      ]
+    }
+  ],
+  "setup": [],
+  "surface_landmarks": [
+    {
+      "text": "Mark the tibialis anterior and extensor hallucis longus tendons and the navicular body under image intensification.",
+      "claim_ids": [
+        "midfoot_navicular_percutaneous_surface_landmarks_01"
+      ]
+    }
+  ],
+  "incision": [
+    {
+      "text": "Make a full-thickness cut in the tibialis anterior–EHL interval directly over the fracture, without raising flaps. Add small dorsomedial and dorsolateral stabs for pointed reduction clamps if needed, and a medial stab in the line of the medial utility incision for lag screws.",
+      "claim_ids": [
+        "midfoot_navicular_percutaneous_incision_01"
+      ]
+    }
+  ],
+  "superficial_interval": [
+    {
+      "text": "Go straight from skin to periosteum in the tibialis anterior–EHL interval; do not undermine flaps.",
+      "claim_ids": [
+        "midfoot_navicular_percutaneous_superficial_interval_01"
+      ]
+    }
+  ],
+  "deep_interval": [
+    {
+      "text": "Enter the fracture under image intensification. For a non-healing stress fracture, freshen the surfaces by curettage or drilling and fill a small cavity with bone graft if present.",
+      "claim_ids": [
+        "midfoot_navicular_percutaneous_deep_interval_01"
+      ]
+    }
+  ],
+  "layers": [
+    {
+      "text": "Skin, immediate periosteum of the navicular in the tibialis anterior–EHL interval, then the navicular body.",
+      "claim_ids": [
+        "midfoot_navicular_percutaneous_layers_01"
+      ]
+    }
+  ],
+  "structures_encountered": [],
+  "structures_at_risk": [
+    {
+      "text": "The dorsalis pedis artery should lie lateral to extensor hallucis longus; avoid or cauterize small branches. Unnecessary flap elevation threatens the dorsal skin.",
+      "claim_ids": [
+        "midfoot_navicular_percutaneous_structures_at_risk_01"
+      ]
+    }
+  ],
+  "danger_zones": [
+    {
+      "text": "Do not stray lateral to extensor hallucis longus toward the dorsalis pedis bundle, and do not raise flaps.",
+      "claim_ids": [
+        "midfoot_navicular_percutaneous_danger_zones_01"
+      ]
+    }
+  ],
+  "retraction_hazards": [
+    {
+      "text": "Keep the window full-thickness and limited; enlarge the medial utility-line stab only as needed for lag screws.",
+      "claim_ids": [
+        "midfoot_navicular_percutaneous_retraction_hazards_01"
+      ]
+    }
+  ],
+  "exposure": [
+    {
+      "text": "Gives limited access for screw fixation of a simple non-displaced or minimally displaced navicular body or stress fracture.",
+      "claim_ids": [
+        "midfoot_navicular_percutaneous_exposure_01"
+      ]
+    }
+  ],
+  "limitations": [
+    {
+      "text": "Not appropriate for displaced, comminuted navicular fractures that need an open articular reconstruction.",
+      "claim_ids": [
+        "midfoot_navicular_percutaneous_limitations_01"
+      ]
+    }
+  ],
+  "extensions": [],
+  "indications": [
+    {
+      "text": "Used for screw fixation of non-displaced or minimally displaced simple navicular fractures, including mid-body stress fractures.",
+      "claim_ids": [
+        "midfoot_navicular_percutaneous_indications_01"
+      ]
+    }
+  ],
+  "relative_contraindications": [],
+  "implant_implications": [],
+  "fluoroscopy_implications": [],
+  "closure": [
+    {
+      "text": "Close skin without tension using a running everting absorbable suture; nylon may be used when multiple adjacent dorsal incisions are present.",
+      "claim_ids": [
+        "midfoot_navicular_percutaneous_closure_01"
+      ]
+    }
+  ],
+  "complications": [
+    {
+      "text": "Complications include dorsal-skin breakdown from flap elevation or tensioned closure, and injury to dorsalis pedis branches.",
+      "claim_ids": [
+        "midfoot_navicular_percutaneous_complications_01"
+      ]
+    }
+  ],
+  "bailouts": [],
+  "procedure_applications": [
+    {
+      "procedure_id": "lisfranc_orif",
+      "relationship": "conditional_option",
+      "condition": "A non-displaced or minimally displaced navicular body or stress fracture is fixed with percutaneous screws"
+    }
+  ],
+  "questions": [
+    {
+      "question": "Which interval is used for the percutaneous navicular approach?",
+      "answer": "Tibialis anterior and extensor hallucis longus, straight down to periosteum.",
+      "claim_ids": [
+        "midfoot_navicular_percutaneous_questions_01"
+      ]
+    },
+    {
+      "question": "Where should the dorsalis pedis artery lie relative to EHL?",
+      "answer": "Lateral to extensor hallucis longus.",
+      "claim_ids": [
+        "midfoot_navicular_percutaneous_questions_02"
+      ]
+    },
+    {
+      "question": "When is this percutaneous window appropriate?",
+      "answer": "For non-displaced or minimally displaced simple or non-comminuted navicular fractures, including mid-body stress fractures.",
+      "claim_ids": [
+        "midfoot_navicular_percutaneous_questions_03"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "midfoot_navicular_percutaneous_positioning_01",
+      "text": "Position so the dorsomedial midfoot can be imaged and the tibialis anterior–EHL interval palpated.",
+      "source_ids": [
+        "ao_4701d88a358a2a8b",
+        "ao_5a2480d7716c078d"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "midfoot_navicular_percutaneous_surface_landmarks_01",
+      "text": "Mark the tibialis anterior and extensor hallucis longus tendons and the navicular body under image intensification.",
+      "source_ids": [
+        "ao_4701d88a358a2a8b",
+        "ao_afe2b45dd12aa4dd"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "midfoot_navicular_percutaneous_incision_01",
+      "text": "Make a full-thickness cut in the tibialis anterior–EHL interval directly over the fracture, without raising flaps. Add small dorsomedial and dorsolateral stabs for pointed reduction clamps if needed, and a medial stab in the line of the medial utility incision for lag screws.",
+      "source_ids": [
+        "ao_4701d88a358a2a8b",
+        "ao_afe2b45dd12aa4dd"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "midfoot_navicular_percutaneous_superficial_interval_01",
+      "text": "Go straight from skin to periosteum in the tibialis anterior–EHL interval; do not undermine flaps.",
+      "source_ids": [
+        "ao_4701d88a358a2a8b",
+        "ao_afe2b45dd12aa4dd",
+        "ao_5a2480d7716c078d"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "midfoot_navicular_percutaneous_deep_interval_01",
+      "text": "Enter the fracture under image intensification. For a non-healing stress fracture, freshen the surfaces by curettage or drilling and fill a small cavity with bone graft if present.",
+      "source_ids": [
+        "ao_4701d88a358a2a8b",
+        "ao_afe2b45dd12aa4dd"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "midfoot_navicular_percutaneous_layers_01",
+      "text": "Skin, immediate periosteum of the navicular in the tibialis anterior–EHL interval, then the navicular body.",
+      "source_ids": [
+        "ao_4701d88a358a2a8b",
+        "ao_afe2b45dd12aa4dd"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "midfoot_navicular_percutaneous_structures_at_risk_01",
+      "text": "The dorsalis pedis artery should lie lateral to extensor hallucis longus; avoid or cauterize small branches. Unnecessary flap elevation threatens the dorsal skin.",
+      "source_ids": [
+        "ao_4701d88a358a2a8b",
+        "ao_afe2b45dd12aa4dd",
+        "ao_5a2480d7716c078d"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "midfoot_navicular_percutaneous_danger_zones_01",
+      "text": "Do not stray lateral to extensor hallucis longus toward the dorsalis pedis bundle, and do not raise flaps.",
+      "source_ids": [
+        "ao_4701d88a358a2a8b",
+        "ao_afe2b45dd12aa4dd"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "midfoot_navicular_percutaneous_retraction_hazards_01",
+      "text": "Keep the window full-thickness and limited; enlarge the medial utility-line stab only as needed for lag screws.",
+      "source_ids": [
+        "ao_4701d88a358a2a8b",
+        "ao_afe2b45dd12aa4dd"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "midfoot_navicular_percutaneous_exposure_01",
+      "text": "Gives limited access for screw fixation of a simple non-displaced or minimally displaced navicular body or stress fracture.",
+      "source_ids": [
+        "ao_4701d88a358a2a8b",
+        "ao_afe2b45dd12aa4dd"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "midfoot_navicular_percutaneous_limitations_01",
+      "text": "Not appropriate for displaced, comminuted navicular fractures that need an open articular reconstruction.",
+      "source_ids": [
+        "ao_4701d88a358a2a8b",
+        "ao_afe2b45dd12aa4dd"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "midfoot_navicular_percutaneous_indications_01",
+      "text": "Used for screw fixation of non-displaced or minimally displaced simple navicular fractures, including mid-body stress fractures.",
+      "source_ids": [
+        "ao_4701d88a358a2a8b",
+        "ao_afe2b45dd12aa4dd"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "midfoot_navicular_percutaneous_closure_01",
+      "text": "Close skin without tension using a running everting absorbable suture; nylon may be used when multiple adjacent dorsal incisions are present.",
+      "source_ids": [
+        "ao_4701d88a358a2a8b",
+        "ao_afe2b45dd12aa4dd"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "midfoot_navicular_percutaneous_complications_01",
+      "text": "Complications include dorsal-skin breakdown from flap elevation or tensioned closure, and injury to dorsalis pedis branches.",
+      "source_ids": [
+        "ao_4701d88a358a2a8b",
+        "ao_afe2b45dd12aa4dd"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "midfoot_navicular_percutaneous_questions_01",
+      "text": "Which interval is used for the percutaneous navicular approach?",
+      "source_ids": [
+        "ao_4701d88a358a2a8b",
+        "ao_afe2b45dd12aa4dd"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "midfoot_navicular_percutaneous_questions_02",
+      "text": "Where should the dorsalis pedis artery lie relative to EHL?",
+      "source_ids": [
+        "ao_4701d88a358a2a8b",
+        "ao_afe2b45dd12aa4dd"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "midfoot_navicular_percutaneous_questions_03",
+      "text": "When is this percutaneous window appropriate?",
+      "source_ids": [
+        "ao_4701d88a358a2a8b",
+        "ao_afe2b45dd12aa4dd"
+      ],
+      "risk_level": "medium"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "ao_4701d88a358a2a8b",
+      "provider": "AO Surgery Reference",
+      "title": "Percutaneous Approach To The Navicular",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/metatarsals/approach/percutaneous-approach-to-the-navicular",
+      "source_page_id": "ao_4701d88a358a2a8b"
+    },
+    {
+      "source_id": "ao_afe2b45dd12aa4dd",
+      "provider": "AO Surgery Reference",
+      "title": "Percutaneous Approach To The Navicular (midfoot)",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/midfoot/approach/percutaneous-approach-to-the-navicular",
+      "source_page_id": "ao_afe2b45dd12aa4dd"
+    },
+    {
+      "source_id": "ao_5a2480d7716c078d",
+      "provider": "AO Surgery Reference",
+      "title": "Dorsomedial approach to the navicular and cuneiform",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/metatarsals/approach/dorsomedial-approach-to-the-navicular-and-cuneiform",
+      "source_page_id": "ao_5a2480d7716c078d"
+    }
+  ],
+  "content_status": "agent_review_pending",
+  "review": {
+    "status": "agent_review_pending",
+    "required_roles": [
+      "adversarial_safety_reviewer",
+      "approach_anatomy_reviewer",
+      "educational_value_reviewer",
+      "evidence_reviewer",
+      "operative_exposure_reviewer",
+      "procedure_applicability_reviewer"
+    ],
+    "completed_roles": []
+  },
+  "resolved_contradiction_keys": [],
+  "authoring_provenance": {
+    "method": "local_codex_curated",
+    "definition_file": "data/approach_library/curated/forearm_pediatric_esin_kocher_navicular_batch004_v1.json",
+    "api_used": false
+  }
+}

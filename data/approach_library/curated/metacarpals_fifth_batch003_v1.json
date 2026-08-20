@@ -1,0 +1,377 @@
+{
+  "approaches": [
+    {
+      "approach_id": "metacarpal_fifth_dorsoulnar",
+      "name": "Dorsoulnar approach to the 5th metacarpal",
+      "aliases": [
+        "dorsoulnar approach to the small finger metacarpal"
+      ],
+      "region": "metacarpals",
+      "joint": "",
+      "bones": [
+        "metacarpal"
+      ],
+      "corridor": "Dorsoulnar longitudinal interval along the fifth metacarpal, mobilizing the dorsal sensory branch of the ulnar nerve and staying ulnar to the extensor mechanism to reach the diaphysis and neck",
+      "sources": [
+        {
+          "source_id": "ao_e8a6650dd3af88f6",
+          "provider": "AO Surgery Reference",
+          "title": "Dorsoulnar approach to the 5th metacarpal",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/metacarpals/approach/dorsoulnar-approach-to-5th-metacarpal",
+          "source_page_id": "ao_e8a6650dd3af88f6"
+        },
+        {
+          "source_id": "ao_8380c153a59817fa",
+          "provider": "AO Surgery Reference",
+          "title": "Dorsoulnar approach to the 5th metacarpal base",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/metacarpals/approach/dorsoulnar-approach-to-5th-metacarpal-base",
+          "source_page_id": "ao_8380c153a59817fa"
+        }
+      ],
+      "procedure_applications": [
+        {
+          "procedure_id": "boxers_fracture_orif",
+          "relationship": "primary_option",
+          "condition": "An extraarticular 5th metacarpal neck (boxer's) fracture needs open or percutaneous fixation"
+        },
+        {
+          "procedure_id": "metacarpal_fracture_orif",
+          "relationship": "primary_option",
+          "condition": "An extraarticular 5th metacarpal shaft or neck fracture is fixed"
+        }
+      ],
+      "sections": {
+        "positioning": [
+          {
+            "text": "Position supine with the hand pronated on a hand table under tourniquet control.",
+            "source_ids": [
+              "ao_e8a6650dd3af88f6"
+            ]
+          }
+        ],
+        "surface_landmarks": [
+          {
+            "text": "Mark the extensor carpi ulnaris insertion onto the ulnar base of the fifth metacarpal and the course of the dorsal sensory branch of the ulnar nerve over the base.",
+            "source_ids": [
+              "ao_e8a6650dd3af88f6",
+              "ao_8380c153a59817fa"
+            ]
+          }
+        ],
+        "incision": [
+          {
+            "text": "Start distal to the metacarpal base, lateral in line with the diaphysis, and continue with a slight dorsal curve to the metacarpal head.",
+            "source_ids": [
+              "ao_e8a6650dd3af88f6"
+            ]
+          }
+        ],
+        "superficial_interval": [
+          {
+            "text": "Identify the dorsal sensory branch of the ulnar nerve in the subcutaneous tissue and mobilize it so it can be shifted dorsally or palmarly to gain access, staying ulnar to the extensor mechanism.",
+            "source_ids": [
+              "ao_e8a6650dd3af88f6",
+              "ao_8380c153a59817fa"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "deep_interval": [
+          {
+            "text": "Expose the diaphysis down to bone subperiosteally, keeping the exposure ulnar to avoid the extensor tendons.",
+            "source_ids": [
+              "ao_e8a6650dd3af88f6"
+            ]
+          }
+        ],
+        "layers": [
+          {
+            "text": "Skin, subcutaneous tissue with the dorsal ulnar sensory nerve, the ulnar border of the extensor mechanism, and the fifth metacarpal.",
+            "source_ids": [
+              "ao_e8a6650dd3af88f6"
+            ]
+          }
+        ],
+        "structures_at_risk": [
+          {
+            "text": "The dorsal sensory branch of the ulnar nerve crossing the base and the extensor mechanism are at risk.",
+            "source_ids": [
+              "ao_e8a6650dd3af88f6",
+              "ao_8380c153a59817fa"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "danger_zones": [
+          {
+            "text": "The base of the fifth metacarpal, where the dorsal sensory branch of the ulnar nerve crosses, is the danger zone.",
+            "source_ids": [
+              "ao_e8a6650dd3af88f6",
+              "ao_8380c153a59817fa"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "retraction_hazards": [
+          {
+            "text": "Mobilize and protect the dorsal ulnar sensory nerve rather than retracting it under tension.",
+            "source_ids": [
+              "ao_e8a6650dd3af88f6"
+            ],
+            "risk_level": "medium"
+          }
+        ],
+        "exposure": [
+          {
+            "text": "Exposes the fifth metacarpal diaphysis and neck while avoiding the MCP extensor mechanism.",
+            "source_ids": [
+              "ao_e8a6650dd3af88f6"
+            ]
+          }
+        ],
+        "limitations": [
+          {
+            "text": "It is intended for extraarticular fractures and gives limited access to the MCP joint itself.",
+            "source_ids": [
+              "ao_e8a6650dd3af88f6"
+            ]
+          }
+        ],
+        "indications": [
+          {
+            "text": "Indicated for extraarticular fifth metacarpal fractures, especially extraarticular neck fractures, avoiding conflict with the MCP extensor mechanism.",
+            "source_ids": [
+              "ao_e8a6650dd3af88f6"
+            ]
+          }
+        ],
+        "closure": [
+          {
+            "text": "Cover the implant with periosteum as far as possible, repair any cut intertendinous connection, and close the skin.",
+            "source_ids": [
+              "ao_e8a6650dd3af88f6"
+            ]
+          }
+        ],
+        "complications": [
+          {
+            "text": "Complications include dorsal ulnar sensory nerve injury with numbness or neuroma and extensor irritation.",
+            "source_ids": [
+              "ao_e8a6650dd3af88f6",
+              "ao_8380c153a59817fa"
+            ],
+            "risk_level": "medium"
+          }
+        ],
+        "questions": [
+          {
+            "question": "Which nerve crosses the base of the fifth metacarpal and must be protected?",
+            "answer": "The dorsal sensory branch of the ulnar nerve.",
+            "source_ids": [
+              "ao_e8a6650dd3af88f6",
+              "ao_8380c153a59817fa"
+            ]
+          },
+          {
+            "question": "Why is a dorsoulnar rather than dorsal midline approach chosen for the fifth metacarpal?",
+            "answer": "To avoid conflict with the extensor mechanism of the MCP joint.",
+            "source_ids": [
+              "ao_e8a6650dd3af88f6"
+            ]
+          },
+          {
+            "question": "What is the main indication for this approach?",
+            "answer": "Extraarticular fifth metacarpal fractures, especially neck fractures.",
+            "source_ids": [
+              "ao_e8a6650dd3af88f6"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "approach_id": "metacarpal_fifth_base_dorsoulnar",
+      "name": "Dorsoulnar approach to the 5th metacarpal base",
+      "aliases": [
+        "dorsoulnar approach to the small finger CMC/base"
+      ],
+      "region": "metacarpals",
+      "joint": "carpometacarpal joint",
+      "bones": [
+        "metacarpal"
+      ],
+      "corridor": "Small dorsoulnar window over the fifth metacarpal base exposing the extensor carpi ulnaris insertion, protecting the dorsal sensory branch of the ulnar nerve",
+      "sources": [
+        {
+          "source_id": "ao_8380c153a59817fa",
+          "provider": "AO Surgery Reference",
+          "title": "Dorsoulnar approach to the 5th metacarpal base",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/metacarpals/approach/dorsoulnar-approach-to-5th-metacarpal-base",
+          "source_page_id": "ao_8380c153a59817fa"
+        },
+        {
+          "source_id": "ao_e8a6650dd3af88f6",
+          "provider": "AO Surgery Reference",
+          "title": "Dorsoulnar approach to the 5th metacarpal",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/metacarpals/approach/dorsoulnar-approach-to-5th-metacarpal",
+          "source_page_id": "ao_e8a6650dd3af88f6"
+        }
+      ],
+      "procedure_applications": [
+        {
+          "procedure_id": "metacarpal_fracture_orif",
+          "relationship": "primary_option",
+          "condition": "A fifth metacarpal base or avulsion fracture, or a neck fracture treated with intramedullary wiring, needs a basal entry"
+        }
+      ],
+      "sections": {
+        "positioning": [
+          {
+            "text": "Position supine with the hand pronated on a hand table under tourniquet control.",
+            "source_ids": [
+              "ao_8380c153a59817fa"
+            ]
+          }
+        ],
+        "surface_landmarks": [
+          {
+            "text": "Identify the extensor carpi ulnaris insertion on the ulnar base of the fifth metacarpal and the dorsal sensory branch of the ulnar nerve crossing the base.",
+            "source_ids": [
+              "ao_8380c153a59817fa",
+              "ao_e8a6650dd3af88f6"
+            ]
+          }
+        ],
+        "incision": [
+          {
+            "text": "Make a small longitudinal incision over the dorsoulnar aspect of the metacarpal base.",
+            "source_ids": [
+              "ao_8380c153a59817fa"
+            ]
+          }
+        ],
+        "superficial_interval": [
+          {
+            "text": "Protect the dorsal sensory branch of the ulnar nerve in the subcutaneous tissue and use blunt dissection to expose the extensor carpi ulnaris insertion.",
+            "source_ids": [
+              "ao_8380c153a59817fa",
+              "ao_e8a6650dd3af88f6"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "deep_interval": [
+          {
+            "text": "Expose the metacarpal base subperiosteally at the extensor carpi ulnaris insertion for fixation or intramedullary wire entry.",
+            "source_ids": [
+              "ao_8380c153a59817fa"
+            ]
+          }
+        ],
+        "layers": [
+          {
+            "text": "Skin, subcutaneous tissue with the dorsal ulnar sensory nerve, the extensor carpi ulnaris insertion, and the fifth metacarpal base.",
+            "source_ids": [
+              "ao_8380c153a59817fa"
+            ]
+          }
+        ],
+        "structures_at_risk": [
+          {
+            "text": "The dorsal sensory branch of the ulnar nerve at the base and the extensor carpi ulnaris tendon are at risk.",
+            "source_ids": [
+              "ao_8380c153a59817fa",
+              "ao_e8a6650dd3af88f6"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "danger_zones": [
+          {
+            "text": "The dorsoulnar base is the danger zone for the dorsal sensory branch of the ulnar nerve.",
+            "source_ids": [
+              "ao_8380c153a59817fa",
+              "ao_e8a6650dd3af88f6"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "retraction_hazards": [
+          {
+            "text": "Protect the dorsal ulnar sensory nerve and avoid detaching the extensor carpi ulnaris insertion unnecessarily.",
+            "source_ids": [
+              "ao_8380c153a59817fa"
+            ],
+            "risk_level": "medium"
+          }
+        ],
+        "exposure": [
+          {
+            "text": "Exposes the fifth metacarpal base and the extensor carpi ulnaris insertion.",
+            "source_ids": [
+              "ao_8380c153a59817fa"
+            ]
+          }
+        ],
+        "limitations": [
+          {
+            "text": "The window is small and focused on the base, giving limited diaphyseal exposure.",
+            "source_ids": [
+              "ao_8380c153a59817fa"
+            ]
+          }
+        ],
+        "indications": [
+          {
+            "text": "Indicated for fifth metacarpal base and avulsion fractures and as an entry for intramedullary wiring of neck fractures.",
+            "source_ids": [
+              "ao_8380c153a59817fa"
+            ]
+          }
+        ],
+        "closure": [
+          {
+            "text": "Cover the implant with periosteum as far as possible, repair any cut intertendinous connection, and close the skin.",
+            "source_ids": [
+              "ao_8380c153a59817fa"
+            ]
+          }
+        ],
+        "complications": [
+          {
+            "text": "Complications include dorsal ulnar sensory nerve injury and extensor carpi ulnaris irritation.",
+            "source_ids": [
+              "ao_8380c153a59817fa",
+              "ao_e8a6650dd3af88f6"
+            ],
+            "risk_level": "medium"
+          }
+        ],
+        "questions": [
+          {
+            "question": "Which tendon inserts on the ulnar base of the fifth metacarpal?",
+            "answer": "The extensor carpi ulnaris.",
+            "source_ids": [
+              "ao_8380c153a59817fa"
+            ]
+          },
+          {
+            "question": "What is this approach used for besides base fractures?",
+            "answer": "As an entry for intramedullary wire fixation of extraarticular neck fractures.",
+            "source_ids": [
+              "ao_8380c153a59817fa"
+            ]
+          },
+          {
+            "question": "Which nerve is at greatest risk at the base?",
+            "answer": "The dorsal sensory branch of the ulnar nerve.",
+            "source_ids": [
+              "ao_8380c153a59817fa",
+              "ao_e8a6650dd3af88f6"
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

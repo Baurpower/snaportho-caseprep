@@ -1,0 +1,358 @@
+{
+  "schema_version": "brobot_approach_packet_v1",
+  "approach_id": "talus_anteromedial",
+  "name": "Anteromedial approach to the talus",
+  "aliases": [
+    "anteromedial talar-neck approach"
+  ],
+  "region": "talus",
+  "joint": "ankle",
+  "bones": [
+    "talus",
+    "medial malleolus",
+    "navicular"
+  ],
+  "corridor": "Incision from the medial malleolus toward the navicular, protecting the saphenous vein and nerve and staying off the posteromedial deltoid arterial branches to the talar body",
+  "positioning": [
+    {
+      "text": "Position so the medial malleolus, navicular, and medial neck can be seen; this window is usually combined with an anterolateral approach.",
+      "claim_ids": [
+        "talus_anteromedial_positioning_01"
+      ]
+    }
+  ],
+  "setup": [],
+  "surface_landmarks": [
+    {
+      "text": "Mark the medial malleolus, navicular, and the saphenous vein and nerve.",
+      "claim_ids": [
+        "talus_anteromedial_surface_landmarks_01"
+      ]
+    }
+  ],
+  "incision": [
+    {
+      "text": "Incise from the medial malleolus distally to the navicular. For more complex fractures, especially if a medial malleolar osteotomy is planned, extend more inferiorly and proximally.",
+      "claim_ids": [
+        "talus_anteromedial_incision_01"
+      ]
+    }
+  ],
+  "superficial_interval": [
+    {
+      "text": "Identify the long saphenous vein and nerve. Vein branches may be ligated or coagulated. Stay immediately medial to the tibialis-anterior sheath if the distal-tibia anteromedial interval is used as the proximal guide.",
+      "claim_ids": [
+        "talus_anteromedial_superficial_interval_01"
+      ]
+    }
+  ],
+  "deep_interval": [
+    {
+      "text": "Evacuate hematoma to see the inferomedial neck. Do not damage the deltoid arterial branches that arise posteromedially and supply the medial two-thirds of the talar body. Minimize periosteal stripping.",
+      "claim_ids": [
+        "talus_anteromedial_deep_interval_01"
+      ]
+    }
+  ],
+  "layers": [
+    {
+      "text": "Skin, saphenous vein and nerve, then the medial talar neck with preserved deltoid arterial branches.",
+      "claim_ids": [
+        "talus_anteromedial_layers_01"
+      ]
+    }
+  ],
+  "structures_encountered": [],
+  "structures_at_risk": [
+    {
+      "text": "The saphenous nerve and vein, the deltoid arterial branches to the medial talar body, and remaining extraosseous talar vessels after a fracture-dislocation are at risk.",
+      "claim_ids": [
+        "talus_anteromedial_structures_at_risk_01"
+      ]
+    }
+  ],
+  "danger_zones": [
+    {
+      "text": "Posteromedial stripping of deltoid branches and broad periosteal elevation of the neck are the osteonecrosis danger zones.",
+      "claim_ids": [
+        "talus_anteromedial_danger_zones_01"
+      ]
+    }
+  ],
+  "retraction_hazards": [
+    {
+      "text": "Do not retract posteromedially into the deltoid arterial leash or strip periosteum off the neck to improve the view.",
+      "claim_ids": [
+        "talus_anteromedial_retraction_hazards_01"
+      ]
+    }
+  ],
+  "exposure": [
+    {
+      "text": "Shows the medial neck for reduction and medially based fixation. Combined with the anterolateral window it is used for displaced and comminuted neck fractures.",
+      "claim_ids": [
+        "talus_anteromedial_exposure_01"
+      ]
+    }
+  ],
+  "limitations": [
+    {
+      "text": "Does not show the lateral neck or subtalar joint. A more inferior proximal cut is needed if a medial malleolar osteotomy is added for the medial talar dome.",
+      "claim_ids": [
+        "talus_anteromedial_limitations_01"
+      ]
+    }
+  ],
+  "extensions": [],
+  "indications": [
+    {
+      "text": "Used with an anterolateral approach for displaced or comminuted talar-neck fractures so the medial reduction and medial fixation can be seen.",
+      "claim_ids": [
+        "talus_anteromedial_indications_01"
+      ]
+    }
+  ],
+  "relative_contraindications": [],
+  "implant_implications": [],
+  "fluoroscopy_implications": [],
+  "closure": [
+    {
+      "text": "Close in two layers.",
+      "claim_ids": [
+        "talus_anteromedial_closure_01"
+      ]
+    }
+  ],
+  "complications": [
+    {
+      "text": "Complications include saphenous neurapraxia and talar osteonecrosis from injury to deltoid branches or periosteal stripping.",
+      "claim_ids": [
+        "talus_anteromedial_complications_01"
+      ]
+    }
+  ],
+  "bailouts": [],
+  "procedure_applications": [
+    {
+      "procedure_id": "talus_fracture_orif",
+      "relationship": "primary_option",
+      "condition": "The medial talar neck is reduced and fixed, usually together with an anterolateral window; the cut is shifted more inferior proximally if a medial malleolar osteotomy is planned"
+    }
+  ],
+  "questions": [
+    {
+      "question": "From where to where does the anteromedial talar incision run?",
+      "answer": "From the medial malleolus distally to the navicular, extended more inferiorly and proximally if a medial malleolar osteotomy is planned.",
+      "claim_ids": [
+        "talus_anteromedial_questions_01"
+      ]
+    },
+    {
+      "question": "Which arterial branches must be preserved on the medial side?",
+      "answer": "The deltoid branches that arise posteromedially and supply the medial two-thirds of the talar body.",
+      "claim_ids": [
+        "talus_anteromedial_questions_02"
+      ]
+    },
+    {
+      "question": "Why is this approach usually combined with an anterolateral window?",
+      "answer": "Displaced and comminuted neck fractures need both sides seen for an anatomic reduction.",
+      "claim_ids": [
+        "talus_anteromedial_questions_03"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "talus_anteromedial_positioning_01",
+      "text": "Position so the medial malleolus, navicular, and medial neck can be seen; this window is usually combined with an anterolateral approach.",
+      "source_ids": [
+        "ao_56c0768fdeb445d3",
+        "ao_0bc032ac24ff0529"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "talus_anteromedial_surface_landmarks_01",
+      "text": "Mark the medial malleolus, navicular, and the saphenous vein and nerve.",
+      "source_ids": [
+        "ao_56c0768fdeb445d3",
+        "ao_389d177f1d1c05aa"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "talus_anteromedial_incision_01",
+      "text": "Incise from the medial malleolus distally to the navicular. For more complex fractures, especially if a medial malleolar osteotomy is planned, extend more inferiorly and proximally.",
+      "source_ids": [
+        "ao_56c0768fdeb445d3"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "talus_anteromedial_superficial_interval_01",
+      "text": "Identify the long saphenous vein and nerve. Vein branches may be ligated or coagulated. Stay immediately medial to the tibialis-anterior sheath if the distal-tibia anteromedial interval is used as the proximal guide.",
+      "source_ids": [
+        "ao_56c0768fdeb445d3",
+        "ao_389d177f1d1c05aa"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "talus_anteromedial_deep_interval_01",
+      "text": "Evacuate hematoma to see the inferomedial neck. Do not damage the deltoid arterial branches that arise posteromedially and supply the medial two-thirds of the talar body. Minimize periosteal stripping.",
+      "source_ids": [
+        "ao_56c0768fdeb445d3",
+        "ao_0bc032ac24ff0529"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "talus_anteromedial_layers_01",
+      "text": "Skin, saphenous vein and nerve, then the medial talar neck with preserved deltoid arterial branches.",
+      "source_ids": [
+        "ao_56c0768fdeb445d3",
+        "ao_389d177f1d1c05aa"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "talus_anteromedial_structures_at_risk_01",
+      "text": "The saphenous nerve and vein, the deltoid arterial branches to the medial talar body, and remaining extraosseous talar vessels after a fracture-dislocation are at risk.",
+      "source_ids": [
+        "ao_56c0768fdeb445d3",
+        "ao_0bc032ac24ff0529"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "talus_anteromedial_danger_zones_01",
+      "text": "Posteromedial stripping of deltoid branches and broad periosteal elevation of the neck are the osteonecrosis danger zones.",
+      "source_ids": [
+        "ao_56c0768fdeb445d3",
+        "ao_0bc032ac24ff0529"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "talus_anteromedial_retraction_hazards_01",
+      "text": "Do not retract posteromedially into the deltoid arterial leash or strip periosteum off the neck to improve the view.",
+      "source_ids": [
+        "ao_56c0768fdeb445d3",
+        "ao_0bc032ac24ff0529"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "talus_anteromedial_exposure_01",
+      "text": "Shows the medial neck for reduction and medially based fixation. Combined with the anterolateral window it is used for displaced and comminuted neck fractures.",
+      "source_ids": [
+        "ao_56c0768fdeb445d3",
+        "ao_0bc032ac24ff0529"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "talus_anteromedial_limitations_01",
+      "text": "Does not show the lateral neck or subtalar joint. A more inferior proximal cut is needed if a medial malleolar osteotomy is added for the medial talar dome.",
+      "source_ids": [
+        "ao_56c0768fdeb445d3"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "talus_anteromedial_indications_01",
+      "text": "Used with an anterolateral approach for displaced or comminuted talar-neck fractures so the medial reduction and medial fixation can be seen.",
+      "source_ids": [
+        "ao_56c0768fdeb445d3",
+        "ao_0bc032ac24ff0529"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "talus_anteromedial_closure_01",
+      "text": "Close in two layers.",
+      "source_ids": [
+        "ao_56c0768fdeb445d3"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "talus_anteromedial_complications_01",
+      "text": "Complications include saphenous neurapraxia and talar osteonecrosis from injury to deltoid branches or periosteal stripping.",
+      "source_ids": [
+        "ao_56c0768fdeb445d3",
+        "ao_0bc032ac24ff0529"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "talus_anteromedial_questions_01",
+      "text": "From where to where does the anteromedial talar incision run?",
+      "source_ids": [
+        "ao_56c0768fdeb445d3"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "talus_anteromedial_questions_02",
+      "text": "Which arterial branches must be preserved on the medial side?",
+      "source_ids": [
+        "ao_56c0768fdeb445d3",
+        "ao_0bc032ac24ff0529"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "talus_anteromedial_questions_03",
+      "text": "Why is this approach usually combined with an anterolateral window?",
+      "source_ids": [
+        "ao_56c0768fdeb445d3",
+        "ao_0bc032ac24ff0529"
+      ],
+      "risk_level": "medium"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "ao_56c0768fdeb445d3",
+      "provider": "AO Surgery Reference",
+      "title": "Anteromedial Approach",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/talus/approach/anteromedial-approach",
+      "source_page_id": "ao_56c0768fdeb445d3"
+    },
+    {
+      "source_id": "ao_389d177f1d1c05aa",
+      "provider": "AO Surgery Reference",
+      "title": "Anteromedial Approach To The Distal Tibia",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/distal-tibia/approach/anteromedial-approach-to-the-distal-tibia",
+      "source_page_id": "ao_389d177f1d1c05aa"
+    },
+    {
+      "source_id": "ao_0bc032ac24ff0529",
+      "provider": "AO Surgery Reference",
+      "title": "Anterolateral Approach",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/talus/approach/anterolateral-approach",
+      "source_page_id": "ao_0bc032ac24ff0529"
+    }
+  ],
+  "content_status": "agent_review_pending",
+  "review": {
+    "status": "agent_review_pending",
+    "required_roles": [
+      "adversarial_safety_reviewer",
+      "approach_anatomy_reviewer",
+      "educational_value_reviewer",
+      "evidence_reviewer",
+      "operative_exposure_reviewer",
+      "procedure_applicability_reviewer"
+    ],
+    "completed_roles": []
+  },
+  "resolved_contradiction_keys": [],
+  "authoring_provenance": {
+    "method": "local_codex_curated",
+    "definition_file": "data/approach_library/curated/talus_batch001_v1.json",
+    "api_used": false
+  }
+}

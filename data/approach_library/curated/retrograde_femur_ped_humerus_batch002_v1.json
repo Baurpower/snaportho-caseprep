@@ -1,0 +1,383 @@
+{
+  "approaches": [
+    {
+      "approach_id": "femur_retrograde_nailing_entry",
+      "name": "Retrograde nailing approach to the femur",
+      "aliases": [
+        "retrograde femoral nail entry",
+        "intercondylar notch entry"
+      ],
+      "region": "hip",
+      "joint": "knee",
+      "bones": [
+        "femur"
+      ],
+      "corridor": "Medial parapatellar or transtendon knee window to an entry point in the intercondylar notch at the apex of Blumensaat's line, anterior to the PCL, for retrograde femoral nailing",
+      "sources": [
+        {
+          "source_id": "ao_875866d4601d308f",
+          "provider": "AO Surgery Reference",
+          "title": "Retrograde nailing approach (periprosthetic femur)",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/periprosthetic-fractures/hip/approach/retrograde-nailing-approach",
+          "source_page_id": "ao_875866d4601d308f"
+        },
+        {
+          "source_id": "orthobullets_12457",
+          "provider": "Orthobullets",
+          "title": "Femoral Shaft Fracture Retrograde Intramedullary Nailing",
+          "url": "https://www.orthobullets.com/trauma/12457/femoral-shaft-fracture-retrograde-intramedullary-nailing"
+        }
+      ],
+      "procedure_applications": [
+        {
+          "procedure_id": "femoral_shaft_fracture_orif",
+          "relationship": "primary_option",
+          "condition": "A femoral shaft or distal femoral fracture is stabilized with a retrograde intramedullary nail"
+        },
+        {
+          "procedure_id": "distal_femur_fracture_orif",
+          "relationship": "primary_option",
+          "condition": "A distal femoral fracture, including one above a total knee replacement, is nailed retrograde"
+        }
+      ],
+      "sections": {
+        "positioning": [
+          {
+            "text": "Position supine with the knee flexed to at least 70 degrees over a bolster and image intensifier access to the knee and femur.",
+            "source_ids": [
+              "ao_875866d4601d308f",
+              "orthobullets_12457"
+            ]
+          }
+        ],
+        "surface_landmarks": [
+          {
+            "text": "Identify the inferior pole of the patella, the patellar tendon, and the intercondylar notch; Blumensaat's line marks the roof of the notch on the lateral image.",
+            "source_ids": [
+              "ao_875866d4601d308f",
+              "orthobullets_12457"
+            ]
+          }
+        ],
+        "incision": [
+          {
+            "text": "Make a roughly 2 cm longitudinal incision just distal to the inferior patellar pole over the medial third of the patellar tendon.",
+            "source_ids": [
+              "ao_875866d4601d308f",
+              "orthobullets_12457"
+            ]
+          }
+        ],
+        "superficial_interval": [
+          {
+            "text": "Spread the medial parapatellar tissues longitudinally and retract the patellar tendon laterally, or split the tendon in line with its fibers.",
+            "source_ids": [
+              "ao_875866d4601d308f",
+              "orthobullets_12457"
+            ]
+          }
+        ],
+        "deep_interval": [
+          {
+            "text": "Place the entry in the center of the intercondylar notch at the apex of Blumensaat's line, in line with the canal axis and just anterior to the PCL origin, protecting the articular cartilage.",
+            "source_ids": [
+              "ao_875866d4601d308f",
+              "orthobullets_12457"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "layers": [
+          {
+            "text": "Skin, subcutaneous tissue, patellar tendon or its medial border, the fat pad, and the intercondylar notch entry.",
+            "source_ids": [
+              "ao_875866d4601d308f",
+              "orthobullets_12457"
+            ]
+          }
+        ],
+        "structures_at_risk": [
+          {
+            "text": "The articular cartilage of the weight-bearing zones, the anterior and posterior cruciate ligaments, and the popliteal neurovascular structures behind the knee are at risk.",
+            "source_ids": [
+              "ao_875866d4601d308f",
+              "orthobullets_12457"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "danger_zones": [
+          {
+            "text": "Plunging out the back of the distal femur is a major danger zone because of the popliteal neurovascular structures.",
+            "source_ids": [
+              "ao_875866d4601d308f"
+            ],
+            "risk_level": "medium"
+          }
+        ],
+        "retraction_hazards": [
+          {
+            "text": "Retract the patellar tendon gently and keep the guide and reamers within the notch to spare cartilage and the cruciates.",
+            "source_ids": [
+              "ao_875866d4601d308f",
+              "orthobullets_12457"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "exposure": [
+          {
+            "text": "Exposes the intercondylar notch entry for retrograde nail insertion.",
+            "source_ids": [
+              "ao_875866d4601d308f"
+            ]
+          }
+        ],
+        "limitations": [
+          {
+            "text": "Retrograde nailing requires the ability to flex the knee to at least 70 degrees and depends on an accurate, cartilage-sparing entry; a non-anatomic entry risks malalignment.",
+            "source_ids": [
+              "ao_875866d4601d308f",
+              "orthobullets_12457"
+            ]
+          }
+        ],
+        "indications": [
+          {
+            "text": "Indicated for retrograde intramedullary nailing of femoral shaft and distal femoral fractures, including periprosthetic fractures above a total knee replacement.",
+            "source_ids": [
+              "ao_875866d4601d308f",
+              "orthobullets_12457"
+            ]
+          }
+        ],
+        "closure": [
+          {
+            "text": "Close the paratenon or tendon split and the peritendinous tissue, then close subcutaneous tissue and skin.",
+            "source_ids": [
+              "ao_875866d4601d308f"
+            ]
+          }
+        ],
+        "complications": [
+          {
+            "text": "Complications include chondral damage, cruciate injury, varus or valgus malalignment, knee pain, and rarely popliteal neurovascular injury.",
+            "source_ids": [
+              "ao_875866d4601d308f",
+              "orthobullets_12457"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "questions": [
+          {
+            "question": "Where is the retrograde femoral nail entry point?",
+            "answer": "In the center of the intercondylar notch at the apex of Blumensaat's line, just anterior to the PCL.",
+            "source_ids": [
+              "ao_875866d4601d308f",
+              "orthobullets_12457"
+            ]
+          },
+          {
+            "question": "What knee flexion is required for retrograde nailing?",
+            "answer": "At least about 70 degrees.",
+            "source_ids": [
+              "orthobullets_12457"
+            ]
+          },
+          {
+            "question": "What is the major deep risk when establishing the entry?",
+            "answer": "Plunging out the back of the femur into the popliteal neurovascular structures.",
+            "source_ids": [
+              "ao_875866d4601d308f"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "approach_id": "humeral_shaft_pediatric_posterior",
+      "name": "Pediatric posterior approach to the humeral shaft",
+      "aliases": [
+        "child posterior humeral approach"
+      ],
+      "region": "humeral-shaft",
+      "joint": "elbow",
+      "bones": [
+        "humerus"
+      ],
+      "corridor": "Posterior midline approach, triceps-sparing or triceps-splitting, protecting the radial nerve in the spiral groove and the ulnar nerve, to expose the distal humerus in a child",
+      "sources": [
+        {
+          "source_id": "ao_7b595bf952911b61",
+          "provider": "AO Surgery Reference",
+          "title": "Posterior approach to the humeral shaft (pediatric)",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/pediatric-trauma/humeral-shaft/approach/posterior-approach",
+          "source_page_id": "ao_7b595bf952911b61"
+        },
+        {
+          "source_id": "ao_ed5059e726fd9d32",
+          "provider": "AO Surgery Reference",
+          "title": "Posterior triceps-sparing approach (triceps-on) to the humeral shaft",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/humeral-shaft/approach/posterior-triceps-sparing-approach-triceps-on",
+          "source_page_id": "ao_ed5059e726fd9d32"
+        }
+      ],
+      "procedure_applications": [
+        {
+          "procedure_id": "humeral_shaft_fracture_orif",
+          "relationship": "primary_option",
+          "condition": "A pediatric distal humeral shaft fracture is plated posteriorly"
+        }
+      ],
+      "sections": {
+        "positioning": [
+          {
+            "text": "Position prone or lateral with the arm over a bolster and the elbow flexed so the posterior arm is presented.",
+            "source_ids": [
+              "ao_7b595bf952911b61"
+            ]
+          }
+        ],
+        "surface_landmarks": [
+          {
+            "text": "Mark the tip of the olecranon and the posterior midline of the arm.",
+            "source_ids": [
+              "ao_7b595bf952911b61"
+            ]
+          }
+        ],
+        "incision": [
+          {
+            "text": "Run a straight posterior midline incision proximally from the olecranon, aware that it crosses the radial and axillary nerve territories at different levels.",
+            "source_ids": [
+              "ao_7b595bf952911b61"
+            ]
+          }
+        ],
+        "superficial_interval": [
+          {
+            "text": "Prefer a triceps-sparing elevation that leaves the triceps insertion undisturbed, or use a triceps split, which carries a higher risk of radial nerve injury.",
+            "source_ids": [
+              "ao_7b595bf952911b61",
+              "ao_ed5059e726fd9d32"
+            ]
+          }
+        ],
+        "deep_interval": [
+          {
+            "text": "Identify and protect the radial nerve and profunda brachii in the spiral groove, using an age-based safe zone (in younger children the window between the distal physis and about 1 cm per year of age proximal to it), and loop the ulnar nerve medially.",
+            "source_ids": [
+              "ao_7b595bf952911b61",
+              "ao_ed5059e726fd9d32"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "layers": [
+          {
+            "text": "Skin, subcutaneous tissue, deep fascia, the triceps, the radial and ulnar nerves, and the posterior humerus.",
+            "source_ids": [
+              "ao_7b595bf952911b61"
+            ]
+          }
+        ],
+        "structures_at_risk": [
+          {
+            "text": "The radial nerve with the profunda brachii in the spiral groove and the ulnar nerve medially are at risk.",
+            "source_ids": [
+              "ao_7b595bf952911b61",
+              "ao_ed5059e726fd9d32"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "danger_zones": [
+          {
+            "text": "The spiral groove is the danger zone for the radial nerve, and a triceps split increases that risk; the safe bony window is age-dependent.",
+            "source_ids": [
+              "ao_7b595bf952911b61",
+              "ao_ed5059e726fd9d32"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "retraction_hazards": [
+          {
+            "text": "Loop and protect the ulnar nerve and avoid uncontrolled traction on the triceps and both nerves.",
+            "source_ids": [
+              "ao_7b595bf952911b61"
+            ],
+            "risk_level": "medium"
+          }
+        ],
+        "exposure": [
+          {
+            "text": "Exposes the distal posterior humerus in a child for fracture fixation.",
+            "source_ids": [
+              "ao_7b595bf952911b61"
+            ]
+          }
+        ],
+        "limitations": [
+          {
+            "text": "The radial nerve safe zone is age-dependent and limits proximal extension, and a triceps split trades wider access for greater nerve risk.",
+            "source_ids": [
+              "ao_7b595bf952911b61"
+            ]
+          }
+        ],
+        "indications": [
+          {
+            "text": "Indicated for open reduction and fixation of pediatric distal humeral shaft fractures approached posteriorly.",
+            "source_ids": [
+              "ao_7b595bf952911b61"
+            ]
+          }
+        ],
+        "closure": [
+          {
+            "text": "Reattach or lay back the triceps and close the wound in layers with resorbable sutures.",
+            "source_ids": [
+              "ao_7b595bf952911b61"
+            ]
+          }
+        ],
+        "complications": [
+          {
+            "text": "Complications include radial nerve palsy, ulnar nerve irritation, and triceps weakness.",
+            "source_ids": [
+              "ao_7b595bf952911b61",
+              "ao_ed5059e726fd9d32"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "questions": [
+          {
+            "question": "Which posterior technique is preferred in children and why?",
+            "answer": "Triceps-sparing, because it preserves triceps integrity and lowers radial nerve risk compared with a split.",
+            "source_ids": [
+              "ao_7b595bf952911b61",
+              "ao_ed5059e726fd9d32"
+            ]
+          },
+          {
+            "question": "How is the radial nerve safe zone estimated in a young child?",
+            "answer": "The window between the distal physis and about 1 cm per year of age proximal to it.",
+            "source_ids": [
+              "ao_7b595bf952911b61"
+            ]
+          },
+          {
+            "question": "Which nerve is looped and protected medially?",
+            "answer": "The ulnar nerve.",
+            "source_ids": [
+              "ao_7b595bf952911b61"
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

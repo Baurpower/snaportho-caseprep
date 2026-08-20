@@ -1,0 +1,339 @@
+{
+  "schema_version": "brobot_approach_packet_v1",
+  "approach_id": "metatarsal_fifth_lateral",
+  "name": "Lateral approach to the 5th metatarsal",
+  "aliases": [
+    "lateral approach to the fifth metatarsal base"
+  ],
+  "region": "metatarsals",
+  "joint": "",
+  "bones": [
+    "fifth metatarsal"
+  ],
+  "corridor": "Lateral incision at the dorsal-plantar skin junction along the fifth metatarsal, protecting the sural nerve branches and short saphenous vein, elevating abductor digiti minimi to expose the bone",
+  "positioning": [
+    {
+      "text": "Position supine with a bump under the ipsilateral hip so the lateral foot is presented, under tourniquet control.",
+      "claim_ids": [
+        "metatarsal_fifth_lateral_positioning_01"
+      ]
+    }
+  ],
+  "setup": [],
+  "surface_landmarks": [
+    {
+      "text": "Identify the styloid process of the base of the fifth metatarsal and the dorsal-plantar skin junction.",
+      "claim_ids": [
+        "metatarsal_fifth_lateral_surface_landmarks_01"
+      ]
+    }
+  ],
+  "incision": [
+    {
+      "text": "Start just proximal to the styloid process at the junction of dorsal and plantar skin and extend distally as far as required.",
+      "claim_ids": [
+        "metatarsal_fifth_lateral_incision_01"
+      ]
+    }
+  ],
+  "superficial_interval": [
+    {
+      "text": "Identify and protect the branches of the sural nerve and the short saphenous vein, which lie subcutaneously in the line of the approach.",
+      "claim_ids": [
+        "metatarsal_fifth_lateral_superficial_interval_01"
+      ]
+    }
+  ],
+  "deep_interval": [
+    {
+      "text": "Expose and longitudinally incise the fascia over the abductor digiti minimi, retracting the muscle plantarward and the skin dorsally with Langenbeck retractors to reach the bone.",
+      "claim_ids": [
+        "metatarsal_fifth_lateral_deep_interval_01"
+      ]
+    }
+  ],
+  "layers": [
+    {
+      "text": "Skin, subcutaneous tissue with sural nerve branches and short saphenous vein, abductor digiti minimi, and the fifth metatarsal.",
+      "claim_ids": [
+        "metatarsal_fifth_lateral_layers_01"
+      ]
+    }
+  ],
+  "structures_encountered": [],
+  "structures_at_risk": [
+    {
+      "text": "The branches of the sural nerve and the short saphenous vein are at risk in the line of the incision.",
+      "claim_ids": [
+        "metatarsal_fifth_lateral_structures_at_risk_01"
+      ]
+    }
+  ],
+  "danger_zones": [
+    {
+      "text": "The subcutaneous lateral border is the danger zone for the sural nerve and short saphenous vein.",
+      "claim_ids": [
+        "metatarsal_fifth_lateral_danger_zones_01"
+      ]
+    }
+  ],
+  "retraction_hazards": [
+    {
+      "text": "Use Langenbeck retractors and keep the sural nerve and vein out of the retractor.",
+      "claim_ids": [
+        "metatarsal_fifth_lateral_retraction_hazards_01"
+      ]
+    }
+  ],
+  "exposure": [
+    {
+      "text": "Exposes the base and shaft of the fifth metatarsal.",
+      "claim_ids": [
+        "metatarsal_fifth_lateral_exposure_01"
+      ]
+    }
+  ],
+  "limitations": [
+    {
+      "text": "The sural nerve and short saphenous vein limit the safe subcutaneous dissection.",
+      "claim_ids": [
+        "metatarsal_fifth_lateral_limitations_01"
+      ]
+    }
+  ],
+  "extensions": [],
+  "indications": [
+    {
+      "text": "Indicated for fixation of fifth metatarsal fractures.",
+      "claim_ids": [
+        "metatarsal_fifth_lateral_indications_01"
+      ]
+    }
+  ],
+  "relative_contraindications": [],
+  "implant_implications": [],
+  "fluoroscopy_implications": [],
+  "closure": [
+    {
+      "text": "Perform subcuticular closure with resorbable sutures and close skin with nylon.",
+      "claim_ids": [
+        "metatarsal_fifth_lateral_closure_01"
+      ]
+    }
+  ],
+  "complications": [
+    {
+      "text": "Complications include sural nerve injury with lateral foot numbness or neuroma and wound problems.",
+      "claim_ids": [
+        "metatarsal_fifth_lateral_complications_01"
+      ]
+    }
+  ],
+  "bailouts": [],
+  "procedure_applications": [
+    {
+      "procedure_id": "metatarsal_fracture_orif",
+      "relationship": "primary_option",
+      "condition": "A fifth metatarsal fracture, including a base or Jones fracture, is fixed"
+    }
+  ],
+  "questions": [
+    {
+      "question": "Where does the lateral fifth metatarsal incision lie relative to the skin?",
+      "answer": "At the junction of the dorsal and plantar skin.",
+      "claim_ids": [
+        "metatarsal_fifth_lateral_questions_01"
+      ]
+    },
+    {
+      "question": "Which two structures lie subcutaneously in the line of this approach?",
+      "answer": "Branches of the sural nerve and the short saphenous vein.",
+      "claim_ids": [
+        "metatarsal_fifth_lateral_questions_02"
+      ]
+    },
+    {
+      "question": "Which muscle fascia is incised to reach the bone?",
+      "answer": "The fascia over the abductor digiti minimi.",
+      "claim_ids": [
+        "metatarsal_fifth_lateral_questions_03"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "metatarsal_fifth_lateral_positioning_01",
+      "text": "Position supine with a bump under the ipsilateral hip so the lateral foot is presented, under tourniquet control.",
+      "source_ids": [
+        "ao_2ec52c7db918bf8e"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "metatarsal_fifth_lateral_surface_landmarks_01",
+      "text": "Identify the styloid process of the base of the fifth metatarsal and the dorsal-plantar skin junction.",
+      "source_ids": [
+        "ao_2ec52c7db918bf8e"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "metatarsal_fifth_lateral_incision_01",
+      "text": "Start just proximal to the styloid process at the junction of dorsal and plantar skin and extend distally as far as required.",
+      "source_ids": [
+        "ao_2ec52c7db918bf8e"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "metatarsal_fifth_lateral_superficial_interval_01",
+      "text": "Identify and protect the branches of the sural nerve and the short saphenous vein, which lie subcutaneously in the line of the approach.",
+      "source_ids": [
+        "ao_2ec52c7db918bf8e",
+        "ao_05f61d6c29dd7855"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "metatarsal_fifth_lateral_deep_interval_01",
+      "text": "Expose and longitudinally incise the fascia over the abductor digiti minimi, retracting the muscle plantarward and the skin dorsally with Langenbeck retractors to reach the bone.",
+      "source_ids": [
+        "ao_2ec52c7db918bf8e"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "metatarsal_fifth_lateral_layers_01",
+      "text": "Skin, subcutaneous tissue with sural nerve branches and short saphenous vein, abductor digiti minimi, and the fifth metatarsal.",
+      "source_ids": [
+        "ao_2ec52c7db918bf8e"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "metatarsal_fifth_lateral_structures_at_risk_01",
+      "text": "The branches of the sural nerve and the short saphenous vein are at risk in the line of the incision.",
+      "source_ids": [
+        "ao_2ec52c7db918bf8e",
+        "ao_05f61d6c29dd7855"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "metatarsal_fifth_lateral_danger_zones_01",
+      "text": "The subcutaneous lateral border is the danger zone for the sural nerve and short saphenous vein.",
+      "source_ids": [
+        "ao_2ec52c7db918bf8e"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "metatarsal_fifth_lateral_retraction_hazards_01",
+      "text": "Use Langenbeck retractors and keep the sural nerve and vein out of the retractor.",
+      "source_ids": [
+        "ao_2ec52c7db918bf8e"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "metatarsal_fifth_lateral_exposure_01",
+      "text": "Exposes the base and shaft of the fifth metatarsal.",
+      "source_ids": [
+        "ao_2ec52c7db918bf8e"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "metatarsal_fifth_lateral_limitations_01",
+      "text": "The sural nerve and short saphenous vein limit the safe subcutaneous dissection.",
+      "source_ids": [
+        "ao_2ec52c7db918bf8e"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "metatarsal_fifth_lateral_indications_01",
+      "text": "Indicated for fixation of fifth metatarsal fractures.",
+      "source_ids": [
+        "ao_2ec52c7db918bf8e"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "metatarsal_fifth_lateral_closure_01",
+      "text": "Perform subcuticular closure with resorbable sutures and close skin with nylon.",
+      "source_ids": [
+        "ao_2ec52c7db918bf8e"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "metatarsal_fifth_lateral_complications_01",
+      "text": "Complications include sural nerve injury with lateral foot numbness or neuroma and wound problems.",
+      "source_ids": [
+        "ao_2ec52c7db918bf8e",
+        "ao_05f61d6c29dd7855"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "metatarsal_fifth_lateral_questions_01",
+      "text": "Where does the lateral fifth metatarsal incision lie relative to the skin?",
+      "source_ids": [
+        "ao_2ec52c7db918bf8e"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "metatarsal_fifth_lateral_questions_02",
+      "text": "Which two structures lie subcutaneously in the line of this approach?",
+      "source_ids": [
+        "ao_2ec52c7db918bf8e"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "metatarsal_fifth_lateral_questions_03",
+      "text": "Which muscle fascia is incised to reach the bone?",
+      "source_ids": [
+        "ao_2ec52c7db918bf8e"
+      ],
+      "risk_level": "medium"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "ao_2ec52c7db918bf8e",
+      "provider": "AO Surgery Reference",
+      "title": "Lateral approach to the 5th metatarsal",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/metatarsals/approach/lateral-approach-to-5th-metatarsal",
+      "source_page_id": "ao_2ec52c7db918bf8e"
+    },
+    {
+      "source_id": "ao_05f61d6c29dd7855",
+      "provider": "AO Surgery Reference",
+      "title": "Dorsolateral approach to the cuboid",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/metatarsals/approach/dorsolateral-approach-to-the-cuboid",
+      "source_page_id": "ao_05f61d6c29dd7855"
+    }
+  ],
+  "content_status": "agent_review_pending",
+  "review": {
+    "status": "agent_review_pending",
+    "required_roles": [
+      "adversarial_safety_reviewer",
+      "approach_anatomy_reviewer",
+      "educational_value_reviewer",
+      "evidence_reviewer",
+      "operative_exposure_reviewer",
+      "procedure_applicability_reviewer"
+    ],
+    "completed_roles": []
+  },
+  "resolved_contradiction_keys": [],
+  "authoring_provenance": {
+    "method": "local_codex_curated",
+    "definition_file": "data/approach_library/curated/foot_medial_lateral_safezone_batch003_v1.json",
+    "api_used": false
+  }
+}

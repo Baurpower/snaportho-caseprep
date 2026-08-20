@@ -1,0 +1,344 @@
+{
+  "schema_version": "brobot_approach_packet_v1",
+  "approach_id": "patella_midaxial_longitudinal",
+  "name": "Mid-axial longitudinal approach to the patella",
+  "aliases": [
+    "midline patellar approach"
+  ],
+  "region": "patella",
+  "joint": "knee",
+  "bones": [
+    "patella"
+  ],
+  "corridor": "Full-thickness midline incision from 5 cm above the superior pole to the tibial tubercle, exposing the extraosseous genicular ring and any traumatic retinacular tears, with optional medial parapatellar arthrotomy",
+  "positioning": [
+    {
+      "text": "Position so the patella, patellar tendon, and tibial tubercle are palpable and the incision can be extended into the quadriceps or onto the tubercle.",
+      "claim_ids": [
+        "patella_midaxial_longitudinal_positioning_01"
+      ]
+    }
+  ],
+  "setup": [],
+  "surface_landmarks": [
+    {
+      "text": "Mark the patella, the patellar tendon, and the tibial tubercle.",
+      "claim_ids": [
+        "patella_midaxial_longitudinal_surface_landmarks_01"
+      ]
+    }
+  ],
+  "incision": [
+    {
+      "text": "Make a longitudinal mid-axial cut from 5 cm above the superior pole to the tibial tubercle. Raise full-thickness flaps. A transverse prepatellar scar is not recommended because of wound problems and later arthroplasty healing.",
+      "claim_ids": [
+        "patella_midaxial_longitudinal_incision_01"
+      ]
+    }
+  ],
+  "superficial_interval": [
+    {
+      "text": "Incise superficial fascia and map the full injury, including traumatic tears of the medial and lateral retinacula and capsule. Expect minor lateral sensory loss from infrapatellar saphenous branches.",
+      "claim_ids": [
+        "patella_midaxial_longitudinal_superficial_interval_01"
+      ]
+    }
+  ],
+  "deep_interval": [
+    {
+      "text": "Expose the extra-articular anterior surface. A medial parapatellar arthrotomy is added if the joint must be inspected. In open fractures or chronic bursitis the prepatellar bursa may be excised.",
+      "claim_ids": [
+        "patella_midaxial_longitudinal_deep_interval_01"
+      ]
+    }
+  ],
+  "layers": [
+    {
+      "text": "Skin, full-thickness flaps, extraosseous genicular arterial ring, retinaculum and capsule, then the patella.",
+      "claim_ids": [
+        "patella_midaxial_longitudinal_layers_01"
+      ]
+    }
+  ],
+  "structures_encountered": [],
+  "structures_at_risk": [
+    {
+      "text": "Infrapatellar saphenous branches, the extraosseous arterial ring (mid-patellar and polar vessels), and skin-flap blood supply are at risk.",
+      "claim_ids": [
+        "patella_midaxial_longitudinal_structures_at_risk_01"
+      ]
+    }
+  ],
+  "danger_zones": [
+    {
+      "text": "Thin flaps jeopardize the skin. A transverse incision compromises later reconstructive-knee surgery.",
+      "claim_ids": [
+        "patella_midaxial_longitudinal_danger_zones_01"
+      ]
+    }
+  ],
+  "retraction_hazards": [
+    {
+      "text": "Keep flaps full thickness. Significant saphenous-trunk injury is avoidable if dissection respects the medial distal femur.",
+      "claim_ids": [
+        "patella_midaxial_longitudinal_retraction_hazards_01"
+      ]
+    }
+  ],
+  "exposure": [
+    {
+      "text": "A universal window for all patellar fractures that can be reopened later and extended proximally or distally.",
+      "claim_ids": [
+        "patella_midaxial_longitudinal_exposure_01"
+      ]
+    }
+  ],
+  "limitations": [
+    {
+      "text": "Joint inspection requires a medial parapatellar arthrotomy. Parapatellar skin cuts are reserved mainly for open fractures.",
+      "claim_ids": [
+        "patella_midaxial_longitudinal_limitations_01"
+      ]
+    }
+  ],
+  "extensions": [],
+  "indications": [
+    {
+      "text": "The preferred approach for patellar fractures because it exposes the fracture well and remains reusable.",
+      "claim_ids": [
+        "patella_midaxial_longitudinal_indications_01"
+      ]
+    }
+  ],
+  "relative_contraindications": [],
+  "implant_implications": [],
+  "fluoroscopy_implications": [],
+  "closure": [
+    {
+      "text": "Irrigate with warm Ringer lactate, repair medial and lateral retinacular tears, consider a drain, and close skin as preferred.",
+      "claim_ids": [
+        "patella_midaxial_longitudinal_closure_01"
+      ]
+    }
+  ],
+  "complications": [
+    {
+      "text": "Complications include skin-flap necrosis, saphenous neuroma, unrepaired retinacular incompetence, and a problematic transverse scar if that obsolete cut is used.",
+      "claim_ids": [
+        "patella_midaxial_longitudinal_complications_01"
+      ]
+    }
+  ],
+  "bailouts": [],
+  "procedure_applications": [
+    {
+      "procedure_id": "patella_fracture_orif",
+      "relationship": "primary_option",
+      "condition": "A patellar fracture is reduced and fixed through a reusable midline incision"
+    }
+  ],
+  "questions": [
+    {
+      "question": "How long is the preferred incision?",
+      "answer": "From 5 cm above the superior pole of the patella to the tibial tubercle.",
+      "claim_ids": [
+        "patella_midaxial_longitudinal_questions_01"
+      ]
+    },
+    {
+      "question": "Why is a transverse prepatellar incision not recommended?",
+      "answer": "Wound healing is frequently a problem, and the scar may compromise later reconstructive knee surgery.",
+      "claim_ids": [
+        "patella_midaxial_longitudinal_questions_02"
+      ]
+    },
+    {
+      "question": "What must be sutured before skin closure?",
+      "answer": "Tears in the medial and lateral parapatellar retinacula.",
+      "claim_ids": [
+        "patella_midaxial_longitudinal_questions_03"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "patella_midaxial_longitudinal_positioning_01",
+      "text": "Position so the patella, patellar tendon, and tibial tubercle are palpable and the incision can be extended into the quadriceps or onto the tubercle.",
+      "source_ids": [
+        "ao_dbc21192213e700c",
+        "ao_a3814d82afad1b07"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "patella_midaxial_longitudinal_surface_landmarks_01",
+      "text": "Mark the patella, the patellar tendon, and the tibial tubercle.",
+      "source_ids": [
+        "ao_dbc21192213e700c"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "patella_midaxial_longitudinal_incision_01",
+      "text": "Make a longitudinal mid-axial cut from 5 cm above the superior pole to the tibial tubercle. Raise full-thickness flaps. A transverse prepatellar scar is not recommended because of wound problems and later arthroplasty healing.",
+      "source_ids": [
+        "ao_dbc21192213e700c"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "patella_midaxial_longitudinal_superficial_interval_01",
+      "text": "Incise superficial fascia and map the full injury, including traumatic tears of the medial and lateral retinacula and capsule. Expect minor lateral sensory loss from infrapatellar saphenous branches.",
+      "source_ids": [
+        "ao_dbc21192213e700c",
+        "ao_a3814d82afad1b07"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "patella_midaxial_longitudinal_deep_interval_01",
+      "text": "Expose the extra-articular anterior surface. A medial parapatellar arthrotomy is added if the joint must be inspected. In open fractures or chronic bursitis the prepatellar bursa may be excised.",
+      "source_ids": [
+        "ao_dbc21192213e700c",
+        "ao_a3814d82afad1b07"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "patella_midaxial_longitudinal_layers_01",
+      "text": "Skin, full-thickness flaps, extraosseous genicular arterial ring, retinaculum and capsule, then the patella.",
+      "source_ids": [
+        "ao_dbc21192213e700c",
+        "ao_a3814d82afad1b07"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "patella_midaxial_longitudinal_structures_at_risk_01",
+      "text": "Infrapatellar saphenous branches, the extraosseous arterial ring (mid-patellar and polar vessels), and skin-flap blood supply are at risk.",
+      "source_ids": [
+        "ao_dbc21192213e700c",
+        "ao_a3814d82afad1b07"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "patella_midaxial_longitudinal_danger_zones_01",
+      "text": "Thin flaps jeopardize the skin. A transverse incision compromises later reconstructive-knee surgery.",
+      "source_ids": [
+        "ao_dbc21192213e700c",
+        "ao_a3814d82afad1b07"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "patella_midaxial_longitudinal_retraction_hazards_01",
+      "text": "Keep flaps full thickness. Significant saphenous-trunk injury is avoidable if dissection respects the medial distal femur.",
+      "source_ids": [
+        "ao_dbc21192213e700c",
+        "ao_a3814d82afad1b07"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "patella_midaxial_longitudinal_exposure_01",
+      "text": "A universal window for all patellar fractures that can be reopened later and extended proximally or distally.",
+      "source_ids": [
+        "ao_dbc21192213e700c"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "patella_midaxial_longitudinal_limitations_01",
+      "text": "Joint inspection requires a medial parapatellar arthrotomy. Parapatellar skin cuts are reserved mainly for open fractures.",
+      "source_ids": [
+        "ao_dbc21192213e700c"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "patella_midaxial_longitudinal_indications_01",
+      "text": "The preferred approach for patellar fractures because it exposes the fracture well and remains reusable.",
+      "source_ids": [
+        "ao_dbc21192213e700c"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "patella_midaxial_longitudinal_closure_01",
+      "text": "Irrigate with warm Ringer lactate, repair medial and lateral retinacular tears, consider a drain, and close skin as preferred.",
+      "source_ids": [
+        "ao_dbc21192213e700c"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "patella_midaxial_longitudinal_complications_01",
+      "text": "Complications include skin-flap necrosis, saphenous neuroma, unrepaired retinacular incompetence, and a problematic transverse scar if that obsolete cut is used.",
+      "source_ids": [
+        "ao_dbc21192213e700c",
+        "ao_a3814d82afad1b07"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "patella_midaxial_longitudinal_questions_01",
+      "text": "How long is the preferred incision?",
+      "source_ids": [
+        "ao_dbc21192213e700c"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "patella_midaxial_longitudinal_questions_02",
+      "text": "Why is a transverse prepatellar incision not recommended?",
+      "source_ids": [
+        "ao_dbc21192213e700c"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "patella_midaxial_longitudinal_questions_03",
+      "text": "What must be sutured before skin closure?",
+      "source_ids": [
+        "ao_dbc21192213e700c"
+      ],
+      "risk_level": "medium"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "ao_dbc21192213e700c",
+      "provider": "AO Surgery Reference",
+      "title": "Mid Axial Longitudinal Approach",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/patella/approach/mid-axial-longitudinal-approach",
+      "source_page_id": "ao_dbc21192213e700c"
+    },
+    {
+      "source_id": "ao_a3814d82afad1b07",
+      "provider": "AO Surgery Reference",
+      "title": "Midline Longitudinal Approach",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/periprosthetic-fractures/knee/approach/midline-longitudinal-approach",
+      "source_page_id": "ao_a3814d82afad1b07"
+    }
+  ],
+  "content_status": "agent_review_pending",
+  "review": {
+    "status": "agent_review_pending",
+    "required_roles": [
+      "adversarial_safety_reviewer",
+      "approach_anatomy_reviewer",
+      "educational_value_reviewer",
+      "evidence_reviewer",
+      "operative_exposure_reviewer",
+      "procedure_applicability_reviewer"
+    ],
+    "completed_roles": []
+  },
+  "resolved_contradiction_keys": [],
+  "authoring_provenance": {
+    "method": "local_codex_curated",
+    "definition_file": "data/approach_library/curated/malleoli_patella_batch001_v1.json",
+    "api_used": false
+  }
+}

@@ -1,0 +1,360 @@
+{
+  "schema_version": "brobot_approach_packet_v1",
+  "approach_id": "malleolus_medial_anterior",
+  "name": "Anterior medial approach to the medial malleolus",
+  "aliases": [
+    "anteromedial medial-malleolar approach"
+  ],
+  "region": "malleoli",
+  "joint": "ankle",
+  "bones": [
+    "medial malleolus",
+    "distal tibia"
+  ],
+  "corridor": "Curved incision from 2 cm distal to the anterior medial-malleolar tip toward the anterior edge of the malleolus and the mid-distal tibia, retracting the saphenous vein and nerve, with a limited anteromedial capsulotomy to see the joint",
+  "positioning": [
+    {
+      "text": "Position so the medial malleolus and anteromedial ankle joint can be seen and the saphenous structures identified.",
+      "claim_ids": [
+        "malleolus_medial_anterior_positioning_01"
+      ]
+    }
+  ],
+  "setup": [],
+  "surface_landmarks": [
+    {
+      "text": "Mark the anterior tip of the medial malleolus, the anterior malleolar edge, and the midline of the distal tibia. The standard medial cut runs posterior to the malleolus; this anterior variant is used when more anterior access is needed.",
+      "claim_ids": [
+        "malleolus_medial_anterior_surface_landmarks_01"
+      ]
+    }
+  ],
+  "incision": [
+    {
+      "text": "Start 2 cm distal to the anterior tip of the medial malleolus, curve toward its anterior edge, and continue toward the middle of the distal tibia. An even more anterior dotted-line variant makes the saphenous vein and nerve more vulnerable.",
+      "claim_ids": [
+        "malleolus_medial_anterior_incision_01"
+      ]
+    }
+  ],
+  "superficial_interval": [
+    {
+      "text": "Find the saphenous vein and nerve and retract them with a vessel loop.",
+      "claim_ids": [
+        "malleolus_medial_anterior_superficial_interval_01"
+      ]
+    }
+  ],
+  "deep_interval": [
+    {
+      "text": "Expose the anterior fracture, free periosteum from the medial-malleolar edges to the joint, and inspect the joint. A vertical incision at the anteromedial capsule may be added. Strip periosteum posteriorly only enough to control reduction.",
+      "claim_ids": [
+        "malleolus_medial_anterior_deep_interval_01"
+      ]
+    }
+  ],
+  "layers": [
+    {
+      "text": "Skin, saphenous vein and nerve, limited periosteum, optional anteromedial capsule, then the medial malleolus and joint.",
+      "claim_ids": [
+        "malleolus_medial_anterior_layers_01"
+      ]
+    }
+  ],
+  "structures_encountered": [],
+  "structures_at_risk": [
+    {
+      "text": "The saphenous vein and nerve, especially with a more anterior skin cut, are the principal structures at risk.",
+      "claim_ids": [
+        "malleolus_medial_anterior_structures_at_risk_01"
+      ]
+    }
+  ],
+  "danger_zones": [
+    {
+      "text": "The more anterior alternative incision is the danger zone for dividing the saphenous vein and nerve.",
+      "claim_ids": [
+        "malleolus_medial_anterior_danger_zones_01"
+      ]
+    }
+  ],
+  "retraction_hazards": [
+    {
+      "text": "Retract the saphenous structures with a vessel loop rather than cutting across them.",
+      "claim_ids": [
+        "malleolus_medial_anterior_retraction_hazards_01"
+      ]
+    }
+  ],
+  "exposure": [
+    {
+      "text": "Shows the anterior medial-malleolar fracture and allows inspection of the anteromedial joint surface.",
+      "claim_ids": [
+        "malleolus_medial_anterior_exposure_01"
+      ]
+    }
+  ],
+  "limitations": [
+    {
+      "text": "This is not the standard posterior-to-malleolus medial cut. Posterior comminution is better served by a posteromedial window.",
+      "claim_ids": [
+        "malleolus_medial_anterior_limitations_01"
+      ]
+    }
+  ],
+  "extensions": [],
+  "indications": [
+    {
+      "text": "Used when a medial-malleolar fracture needs anterior access and joint inspection.",
+      "claim_ids": [
+        "malleolus_medial_anterior_indications_01"
+      ]
+    }
+  ],
+  "relative_contraindications": [],
+  "implant_implications": [],
+  "fluoroscopy_implications": [],
+  "closure": [
+    {
+      "text": "Confirm the saphenous vein and nerve are free and close the limited capsulotomy and skin.",
+      "claim_ids": [
+        "malleolus_medial_anterior_closure_01"
+      ]
+    }
+  ],
+  "complications": [
+    {
+      "text": "Complications include saphenous-nerve injury or neuroma and saphenous-vein injury, especially with a more anterior incision.",
+      "claim_ids": [
+        "malleolus_medial_anterior_complications_01"
+      ]
+    }
+  ],
+  "bailouts": [],
+  "procedure_applications": [
+    {
+      "procedure_id": "ankle_fracture_orif",
+      "relationship": "primary_option",
+      "condition": "A medial-malleolar fracture needs open reduction with inspection of the anteromedial joint"
+    }
+  ],
+  "questions": [
+    {
+      "question": "Where does the anterior medial incision start?",
+      "answer": "Two centimeters distal to the anterior tip of the medial malleolus.",
+      "claim_ids": [
+        "malleolus_medial_anterior_questions_01"
+      ]
+    },
+    {
+      "question": "Which structures must be looped and protected?",
+      "answer": "The saphenous vein and nerve.",
+      "claim_ids": [
+        "malleolus_medial_anterior_questions_02"
+      ]
+    },
+    {
+      "question": "How may the joint be inspected?",
+      "answer": "With a vertical incision at the anteromedial edge of the capsule, extended only as far as needed.",
+      "claim_ids": [
+        "malleolus_medial_anterior_questions_03"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "malleolus_medial_anterior_positioning_01",
+      "text": "Position so the medial malleolus and anteromedial ankle joint can be seen and the saphenous structures identified.",
+      "source_ids": [
+        "ao_b177a7fa41266408",
+        "ao_389d177f1d1c05aa"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "malleolus_medial_anterior_surface_landmarks_01",
+      "text": "Mark the anterior tip of the medial malleolus, the anterior malleolar edge, and the midline of the distal tibia. The standard medial cut runs posterior to the malleolus; this anterior variant is used when more anterior access is needed.",
+      "source_ids": [
+        "ao_b177a7fa41266408"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "malleolus_medial_anterior_incision_01",
+      "text": "Start 2 cm distal to the anterior tip of the medial malleolus, curve toward its anterior edge, and continue toward the middle of the distal tibia. An even more anterior dotted-line variant makes the saphenous vein and nerve more vulnerable.",
+      "source_ids": [
+        "ao_b177a7fa41266408"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "malleolus_medial_anterior_superficial_interval_01",
+      "text": "Find the saphenous vein and nerve and retract them with a vessel loop.",
+      "source_ids": [
+        "ao_b177a7fa41266408",
+        "ao_52f475041bb237f7"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "malleolus_medial_anterior_deep_interval_01",
+      "text": "Expose the anterior fracture, free periosteum from the medial-malleolar edges to the joint, and inspect the joint. A vertical incision at the anteromedial capsule may be added. Strip periosteum posteriorly only enough to control reduction.",
+      "source_ids": [
+        "ao_b177a7fa41266408",
+        "ao_389d177f1d1c05aa"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "malleolus_medial_anterior_layers_01",
+      "text": "Skin, saphenous vein and nerve, limited periosteum, optional anteromedial capsule, then the medial malleolus and joint.",
+      "source_ids": [
+        "ao_b177a7fa41266408",
+        "ao_389d177f1d1c05aa"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "malleolus_medial_anterior_structures_at_risk_01",
+      "text": "The saphenous vein and nerve, especially with a more anterior skin cut, are the principal structures at risk.",
+      "source_ids": [
+        "ao_b177a7fa41266408",
+        "ao_52f475041bb237f7"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "malleolus_medial_anterior_danger_zones_01",
+      "text": "The more anterior alternative incision is the danger zone for dividing the saphenous vein and nerve.",
+      "source_ids": [
+        "ao_b177a7fa41266408"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "malleolus_medial_anterior_retraction_hazards_01",
+      "text": "Retract the saphenous structures with a vessel loop rather than cutting across them.",
+      "source_ids": [
+        "ao_b177a7fa41266408"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "malleolus_medial_anterior_exposure_01",
+      "text": "Shows the anterior medial-malleolar fracture and allows inspection of the anteromedial joint surface.",
+      "source_ids": [
+        "ao_b177a7fa41266408"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "malleolus_medial_anterior_limitations_01",
+      "text": "This is not the standard posterior-to-malleolus medial cut. Posterior comminution is better served by a posteromedial window.",
+      "source_ids": [
+        "ao_b177a7fa41266408",
+        "ao_52f475041bb237f7"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "malleolus_medial_anterior_indications_01",
+      "text": "Used when a medial-malleolar fracture needs anterior access and joint inspection.",
+      "source_ids": [
+        "ao_b177a7fa41266408"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "malleolus_medial_anterior_closure_01",
+      "text": "Confirm the saphenous vein and nerve are free and close the limited capsulotomy and skin.",
+      "source_ids": [
+        "ao_b177a7fa41266408",
+        "ao_389d177f1d1c05aa"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "malleolus_medial_anterior_complications_01",
+      "text": "Complications include saphenous-nerve injury or neuroma and saphenous-vein injury, especially with a more anterior incision.",
+      "source_ids": [
+        "ao_b177a7fa41266408",
+        "ao_52f475041bb237f7"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "malleolus_medial_anterior_questions_01",
+      "text": "Where does the anterior medial incision start?",
+      "source_ids": [
+        "ao_b177a7fa41266408"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "malleolus_medial_anterior_questions_02",
+      "text": "Which structures must be looped and protected?",
+      "source_ids": [
+        "ao_b177a7fa41266408",
+        "ao_52f475041bb237f7"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "malleolus_medial_anterior_questions_03",
+      "text": "How may the joint be inspected?",
+      "source_ids": [
+        "ao_b177a7fa41266408"
+      ],
+      "risk_level": "medium"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "ao_b177a7fa41266408",
+      "provider": "AO Surgery Reference",
+      "title": "Medial Approach Anterior",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/malleoli/approach/medial-approach-anterior",
+      "source_page_id": "ao_b177a7fa41266408"
+    },
+    {
+      "source_id": "ao_389d177f1d1c05aa",
+      "provider": "AO Surgery Reference",
+      "title": "Anteromedial Approach To The Distal Tibia",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/distal-tibia/approach/anteromedial-approach-to-the-distal-tibia",
+      "source_page_id": "ao_389d177f1d1c05aa"
+    },
+    {
+      "source_id": "ao_52f475041bb237f7",
+      "provider": "AO Surgery Reference",
+      "title": "Posteromedial Approach",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/malleoli/approach/posteromedial-approach",
+      "source_page_id": "ao_52f475041bb237f7"
+    },
+    {
+      "source_id": "orthobullets_1aaafa4810a5075c",
+      "provider": "Orthobullets",
+      "title": "Anteromedial Approach To Medial Malleolus And Ankle",
+      "url": "https://www.orthobullets.com/approaches/12038/anteromedial-approach-to-medial-malleolus-and-ankle",
+      "source_page_id": "orthobullets_1aaafa4810a5075c"
+    }
+  ],
+  "content_status": "agent_review_pending",
+  "review": {
+    "status": "agent_review_pending",
+    "required_roles": [
+      "adversarial_safety_reviewer",
+      "approach_anatomy_reviewer",
+      "educational_value_reviewer",
+      "evidence_reviewer",
+      "operative_exposure_reviewer",
+      "procedure_applicability_reviewer"
+    ],
+    "completed_roles": []
+  },
+  "resolved_contradiction_keys": [],
+  "authoring_provenance": {
+    "method": "local_codex_curated",
+    "definition_file": "data/approach_library/curated/malleoli_patella_batch001_v1.json",
+    "api_used": false
+  }
+}

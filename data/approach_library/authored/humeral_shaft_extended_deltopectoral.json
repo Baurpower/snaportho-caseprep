@@ -1,0 +1,345 @@
+{
+  "schema_version": "brobot_approach_packet_v1",
+  "approach_id": "humeral_shaft_extended_deltopectoral",
+  "name": "Extended deltopectoral approach to the humeral shaft",
+  "aliases": [
+    "extended anterior deltopectoral approach to the humerus"
+  ],
+  "region": "humeral-shaft",
+  "joint": "shoulder",
+  "bones": [
+    "humerus"
+  ],
+  "corridor": "Deltopectoral interval extended distally along the lateral biceps to expose the anterior humeral shaft between the musculocutaneous and radial nerve territories",
+  "positioning": [
+    {
+      "text": "Position supine (beach-chair) with the arm draped free and the shoulder to distal humerus accessible.",
+      "claim_ids": [
+        "humeral_shaft_extended_deltopectoral_positioning_01"
+      ]
+    }
+  ],
+  "setup": [],
+  "surface_landmarks": [
+    {
+      "text": "Mark the coracoid process, the proximal humeral shaft at the axilla, the midshaft, and the radial epicondyle.",
+      "claim_ids": [
+        "humeral_shaft_extended_deltopectoral_surface_landmarks_01"
+      ]
+    }
+  ],
+  "incision": [
+    {
+      "text": "Start at the coracoid process and follow the humeral shaft distally toward the lateral epicondyle.",
+      "claim_ids": [
+        "humeral_shaft_extended_deltopectoral_incision_01"
+      ]
+    }
+  ],
+  "superficial_interval": [
+    {
+      "text": "Open the deltopectoral groove, retract the cephalic vein laterally, and develop the plane between deltoid and pectoralis major, incising the clavipectoral fascia lateral to the conjoined tendon.",
+      "claim_ids": [
+        "humeral_shaft_extended_deltopectoral_superficial_interval_01"
+      ]
+    }
+  ],
+  "deep_interval": [
+    {
+      "text": "Extend distally between the biceps/brachialis and the mobile wad, identify the lateral cutaneous nerve of the forearm, and where needed mobilize the radial nerve as it perforates the lateral intermuscular septum distally.",
+      "claim_ids": [
+        "humeral_shaft_extended_deltopectoral_deep_interval_01"
+      ]
+    }
+  ],
+  "layers": [
+    {
+      "text": "Skin, subcutaneous tissue, the deltopectoral interval with the cephalic vein, clavipectoral fascia, the anterior humerus, and distally the brachialis split.",
+      "claim_ids": [
+        "humeral_shaft_extended_deltopectoral_layers_01"
+      ]
+    }
+  ],
+  "structures_encountered": [],
+  "structures_at_risk": [
+    {
+      "text": "The axillary nerve under proximal retractors, the musculocutaneous nerve entering coracobrachialis as close as 2.5 cm from the coracoid, the radial nerve in the distal two-fifths, and the cephalic vein are at risk.",
+      "claim_ids": [
+        "humeral_shaft_extended_deltopectoral_structures_at_risk_01"
+      ]
+    }
+  ],
+  "danger_zones": [
+    {
+      "text": "Retractors under the conjoined tendon endanger the musculocutaneous nerve, and Hohmann retractors in the distal two-fifths of the humerus carry a high risk of radial nerve injury.",
+      "claim_ids": [
+        "humeral_shaft_extended_deltopectoral_danger_zones_01"
+      ]
+    }
+  ],
+  "retraction_hazards": [
+    {
+      "text": "Position Roux or Hohmann retractors carefully to avoid the axillary nerve proximally and the radial nerve distally, and avoid vigorous retraction under the conjoined tendon.",
+      "claim_ids": [
+        "humeral_shaft_extended_deltopectoral_retraction_hazards_01"
+      ]
+    }
+  ],
+  "exposure": [
+    {
+      "text": "Exposes almost any humeral shaft fracture involving the proximal four-fifths of the humerus.",
+      "claim_ids": [
+        "humeral_shaft_extended_deltopectoral_exposure_01"
+      ]
+    }
+  ],
+  "limitations": [
+    {
+      "text": "The approach does not give good access to the most distal humerus or the distal radial nerve, which may require a separate lateral exposure.",
+      "claim_ids": [
+        "humeral_shaft_extended_deltopectoral_limitations_01"
+      ]
+    }
+  ],
+  "extensions": [],
+  "indications": [
+    {
+      "text": "Indicated for plating of proximal and midshaft humeral fractures involving the proximal four-fifths.",
+      "claim_ids": [
+        "humeral_shaft_extended_deltopectoral_indications_01"
+      ]
+    }
+  ],
+  "relative_contraindications": [],
+  "implant_implications": [],
+  "fluoroscopy_implications": [],
+  "closure": [
+    {
+      "text": "Irrigate, optionally place a drain under the deltoid, preserve the cephalic vein, and close in layers.",
+      "claim_ids": [
+        "humeral_shaft_extended_deltopectoral_closure_01"
+      ]
+    }
+  ],
+  "complications": [
+    {
+      "text": "Complications relate mainly to nerve injury: axillary nerve from proximal retractors, musculocutaneous neurapraxia from conjoined-tendon retraction, and radial nerve injury from distal retractors.",
+      "claim_ids": [
+        "humeral_shaft_extended_deltopectoral_complications_01"
+      ]
+    }
+  ],
+  "bailouts": [],
+  "procedure_applications": [
+    {
+      "procedure_id": "humeral_shaft_fracture_orif",
+      "relationship": "primary_option",
+      "condition": "A proximal four-fifths humeral shaft fracture is exposed anteriorly"
+    }
+  ],
+  "questions": [
+    {
+      "question": "How close to the coracoid can the musculocutaneous nerve enter coracobrachialis?",
+      "answer": "As close as 2.5 cm distal to the tip of the coracoid.",
+      "claim_ids": [
+        "humeral_shaft_extended_deltopectoral_questions_01"
+      ]
+    },
+    {
+      "question": "Which retractor placement carries a high risk of radial nerve injury?",
+      "answer": "Hohmann retractors in the distal two-fifths of the humerus.",
+      "claim_ids": [
+        "humeral_shaft_extended_deltopectoral_questions_02"
+      ]
+    },
+    {
+      "question": "Which vein marks the deltopectoral interval and should be preserved?",
+      "answer": "The cephalic vein.",
+      "claim_ids": [
+        "humeral_shaft_extended_deltopectoral_questions_03"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "humeral_shaft_extended_deltopectoral_positioning_01",
+      "text": "Position supine (beach-chair) with the arm draped free and the shoulder to distal humerus accessible.",
+      "source_ids": [
+        "ao_b1d85a2691e1f064"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "humeral_shaft_extended_deltopectoral_surface_landmarks_01",
+      "text": "Mark the coracoid process, the proximal humeral shaft at the axilla, the midshaft, and the radial epicondyle.",
+      "source_ids": [
+        "ao_b1d85a2691e1f064"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "humeral_shaft_extended_deltopectoral_incision_01",
+      "text": "Start at the coracoid process and follow the humeral shaft distally toward the lateral epicondyle.",
+      "source_ids": [
+        "ao_b1d85a2691e1f064"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "humeral_shaft_extended_deltopectoral_superficial_interval_01",
+      "text": "Open the deltopectoral groove, retract the cephalic vein laterally, and develop the plane between deltoid and pectoralis major, incising the clavipectoral fascia lateral to the conjoined tendon.",
+      "source_ids": [
+        "ao_b1d85a2691e1f064"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "humeral_shaft_extended_deltopectoral_deep_interval_01",
+      "text": "Extend distally between the biceps/brachialis and the mobile wad, identify the lateral cutaneous nerve of the forearm, and where needed mobilize the radial nerve as it perforates the lateral intermuscular septum distally.",
+      "source_ids": [
+        "ao_b1d85a2691e1f064",
+        "ao_48fcde9b4b59d848"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "humeral_shaft_extended_deltopectoral_layers_01",
+      "text": "Skin, subcutaneous tissue, the deltopectoral interval with the cephalic vein, clavipectoral fascia, the anterior humerus, and distally the brachialis split.",
+      "source_ids": [
+        "ao_b1d85a2691e1f064"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "humeral_shaft_extended_deltopectoral_structures_at_risk_01",
+      "text": "The axillary nerve under proximal retractors, the musculocutaneous nerve entering coracobrachialis as close as 2.5 cm from the coracoid, the radial nerve in the distal two-fifths, and the cephalic vein are at risk.",
+      "source_ids": [
+        "ao_b1d85a2691e1f064"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "humeral_shaft_extended_deltopectoral_danger_zones_01",
+      "text": "Retractors under the conjoined tendon endanger the musculocutaneous nerve, and Hohmann retractors in the distal two-fifths of the humerus carry a high risk of radial nerve injury.",
+      "source_ids": [
+        "ao_b1d85a2691e1f064"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "humeral_shaft_extended_deltopectoral_retraction_hazards_01",
+      "text": "Position Roux or Hohmann retractors carefully to avoid the axillary nerve proximally and the radial nerve distally, and avoid vigorous retraction under the conjoined tendon.",
+      "source_ids": [
+        "ao_b1d85a2691e1f064"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "humeral_shaft_extended_deltopectoral_exposure_01",
+      "text": "Exposes almost any humeral shaft fracture involving the proximal four-fifths of the humerus.",
+      "source_ids": [
+        "ao_b1d85a2691e1f064"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "humeral_shaft_extended_deltopectoral_limitations_01",
+      "text": "The approach does not give good access to the most distal humerus or the distal radial nerve, which may require a separate lateral exposure.",
+      "source_ids": [
+        "ao_b1d85a2691e1f064",
+        "ao_48fcde9b4b59d848"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "humeral_shaft_extended_deltopectoral_indications_01",
+      "text": "Indicated for plating of proximal and midshaft humeral fractures involving the proximal four-fifths.",
+      "source_ids": [
+        "ao_b1d85a2691e1f064"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "humeral_shaft_extended_deltopectoral_closure_01",
+      "text": "Irrigate, optionally place a drain under the deltoid, preserve the cephalic vein, and close in layers.",
+      "source_ids": [
+        "ao_b1d85a2691e1f064"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "humeral_shaft_extended_deltopectoral_complications_01",
+      "text": "Complications relate mainly to nerve injury: axillary nerve from proximal retractors, musculocutaneous neurapraxia from conjoined-tendon retraction, and radial nerve injury from distal retractors.",
+      "source_ids": [
+        "ao_b1d85a2691e1f064"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "humeral_shaft_extended_deltopectoral_questions_01",
+      "text": "How close to the coracoid can the musculocutaneous nerve enter coracobrachialis?",
+      "source_ids": [
+        "ao_b1d85a2691e1f064"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "humeral_shaft_extended_deltopectoral_questions_02",
+      "text": "Which retractor placement carries a high risk of radial nerve injury?",
+      "source_ids": [
+        "ao_b1d85a2691e1f064"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "humeral_shaft_extended_deltopectoral_questions_03",
+      "text": "Which vein marks the deltopectoral interval and should be preserved?",
+      "source_ids": [
+        "ao_b1d85a2691e1f064"
+      ],
+      "risk_level": "medium"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "ao_b1d85a2691e1f064",
+      "provider": "AO Surgery Reference",
+      "title": "Extended deltopectoral approach to the humeral shaft",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/humeral-shaft/approach/extended-deltopectoral-approach-to-the-humeral-shaft",
+      "source_page_id": "ao_b1d85a2691e1f064"
+    },
+    {
+      "source_id": "ao_48fcde9b4b59d848",
+      "provider": "AO Surgery Reference",
+      "title": "Lateral approach to the humeral shaft",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/humeral-shaft/approach/lateral-approach-to-the-humeral-shaft",
+      "source_page_id": "ao_48fcde9b4b59d848"
+    },
+    {
+      "source_id": "orthobullets_22072262f38867ea",
+      "provider": "Orthobullets",
+      "title": "Anterior Brachialis Splitting Approach To Humerus",
+      "url": "https://www.orthobullets.com/approaches/12065/anterior-brachialis-splitting-approach-to-humerus",
+      "source_page_id": "orthobullets_22072262f38867ea"
+    }
+  ],
+  "content_status": "agent_review_pending",
+  "review": {
+    "status": "agent_review_pending",
+    "required_roles": [
+      "adversarial_safety_reviewer",
+      "approach_anatomy_reviewer",
+      "educational_value_reviewer",
+      "evidence_reviewer",
+      "operative_exposure_reviewer",
+      "procedure_applicability_reviewer"
+    ],
+    "completed_roles": []
+  },
+  "resolved_contradiction_keys": [],
+  "authoring_provenance": {
+    "method": "local_codex_curated",
+    "definition_file": "data/approach_library/curated/humeral_shaft_batch002_v1.json",
+    "api_used": false
+  }
+}

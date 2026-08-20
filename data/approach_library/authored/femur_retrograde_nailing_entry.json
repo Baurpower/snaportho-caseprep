@@ -1,0 +1,353 @@
+{
+  "schema_version": "brobot_approach_packet_v1",
+  "approach_id": "femur_retrograde_nailing_entry",
+  "name": "Retrograde nailing approach to the femur",
+  "aliases": [
+    "retrograde femoral nail entry",
+    "intercondylar notch entry"
+  ],
+  "region": "hip",
+  "joint": "knee",
+  "bones": [
+    "femur"
+  ],
+  "corridor": "Medial parapatellar or transtendon knee window to an entry point in the intercondylar notch at the apex of Blumensaat's line, anterior to the PCL, for retrograde femoral nailing",
+  "positioning": [
+    {
+      "text": "Position supine with the knee flexed to at least 70 degrees over a bolster and image intensifier access to the knee and femur.",
+      "claim_ids": [
+        "femur_retrograde_nailing_entry_positioning_01"
+      ]
+    }
+  ],
+  "setup": [],
+  "surface_landmarks": [
+    {
+      "text": "Identify the inferior pole of the patella, the patellar tendon, and the intercondylar notch; Blumensaat's line marks the roof of the notch on the lateral image.",
+      "claim_ids": [
+        "femur_retrograde_nailing_entry_surface_landmarks_01"
+      ]
+    }
+  ],
+  "incision": [
+    {
+      "text": "Make a roughly 2 cm longitudinal incision just distal to the inferior patellar pole over the medial third of the patellar tendon.",
+      "claim_ids": [
+        "femur_retrograde_nailing_entry_incision_01"
+      ]
+    }
+  ],
+  "superficial_interval": [
+    {
+      "text": "Spread the medial parapatellar tissues longitudinally and retract the patellar tendon laterally, or split the tendon in line with its fibers.",
+      "claim_ids": [
+        "femur_retrograde_nailing_entry_superficial_interval_01"
+      ]
+    }
+  ],
+  "deep_interval": [
+    {
+      "text": "Place the entry in the center of the intercondylar notch at the apex of Blumensaat's line, in line with the canal axis and just anterior to the PCL origin, protecting the articular cartilage.",
+      "claim_ids": [
+        "femur_retrograde_nailing_entry_deep_interval_01"
+      ]
+    }
+  ],
+  "layers": [
+    {
+      "text": "Skin, subcutaneous tissue, patellar tendon or its medial border, the fat pad, and the intercondylar notch entry.",
+      "claim_ids": [
+        "femur_retrograde_nailing_entry_layers_01"
+      ]
+    }
+  ],
+  "structures_encountered": [],
+  "structures_at_risk": [
+    {
+      "text": "The articular cartilage of the weight-bearing zones, the anterior and posterior cruciate ligaments, and the popliteal neurovascular structures behind the knee are at risk.",
+      "claim_ids": [
+        "femur_retrograde_nailing_entry_structures_at_risk_01"
+      ]
+    }
+  ],
+  "danger_zones": [
+    {
+      "text": "Plunging out the back of the distal femur is a major danger zone because of the popliteal neurovascular structures.",
+      "claim_ids": [
+        "femur_retrograde_nailing_entry_danger_zones_01"
+      ]
+    }
+  ],
+  "retraction_hazards": [
+    {
+      "text": "Retract the patellar tendon gently and keep the guide and reamers within the notch to spare cartilage and the cruciates.",
+      "claim_ids": [
+        "femur_retrograde_nailing_entry_retraction_hazards_01"
+      ]
+    }
+  ],
+  "exposure": [
+    {
+      "text": "Exposes the intercondylar notch entry for retrograde nail insertion.",
+      "claim_ids": [
+        "femur_retrograde_nailing_entry_exposure_01"
+      ]
+    }
+  ],
+  "limitations": [
+    {
+      "text": "Retrograde nailing requires the ability to flex the knee to at least 70 degrees and depends on an accurate, cartilage-sparing entry; a non-anatomic entry risks malalignment.",
+      "claim_ids": [
+        "femur_retrograde_nailing_entry_limitations_01"
+      ]
+    }
+  ],
+  "extensions": [],
+  "indications": [
+    {
+      "text": "Indicated for retrograde intramedullary nailing of femoral shaft and distal femoral fractures, including periprosthetic fractures above a total knee replacement.",
+      "claim_ids": [
+        "femur_retrograde_nailing_entry_indications_01"
+      ]
+    }
+  ],
+  "relative_contraindications": [],
+  "implant_implications": [],
+  "fluoroscopy_implications": [],
+  "closure": [
+    {
+      "text": "Close the paratenon or tendon split and the peritendinous tissue, then close subcutaneous tissue and skin.",
+      "claim_ids": [
+        "femur_retrograde_nailing_entry_closure_01"
+      ]
+    }
+  ],
+  "complications": [
+    {
+      "text": "Complications include chondral damage, cruciate injury, varus or valgus malalignment, knee pain, and rarely popliteal neurovascular injury.",
+      "claim_ids": [
+        "femur_retrograde_nailing_entry_complications_01"
+      ]
+    }
+  ],
+  "bailouts": [],
+  "procedure_applications": [
+    {
+      "procedure_id": "femoral_shaft_fracture_orif",
+      "relationship": "primary_option",
+      "condition": "A femoral shaft or distal femoral fracture is stabilized with a retrograde intramedullary nail"
+    },
+    {
+      "procedure_id": "distal_femur_fracture_orif",
+      "relationship": "primary_option",
+      "condition": "A distal femoral fracture, including one above a total knee replacement, is nailed retrograde"
+    }
+  ],
+  "questions": [
+    {
+      "question": "Where is the retrograde femoral nail entry point?",
+      "answer": "In the center of the intercondylar notch at the apex of Blumensaat's line, just anterior to the PCL.",
+      "claim_ids": [
+        "femur_retrograde_nailing_entry_questions_01"
+      ]
+    },
+    {
+      "question": "What knee flexion is required for retrograde nailing?",
+      "answer": "At least about 70 degrees.",
+      "claim_ids": [
+        "femur_retrograde_nailing_entry_questions_02"
+      ]
+    },
+    {
+      "question": "What is the major deep risk when establishing the entry?",
+      "answer": "Plunging out the back of the femur into the popliteal neurovascular structures.",
+      "claim_ids": [
+        "femur_retrograde_nailing_entry_questions_03"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "femur_retrograde_nailing_entry_positioning_01",
+      "text": "Position supine with the knee flexed to at least 70 degrees over a bolster and image intensifier access to the knee and femur.",
+      "source_ids": [
+        "ao_875866d4601d308f",
+        "orthobullets_12457"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "femur_retrograde_nailing_entry_surface_landmarks_01",
+      "text": "Identify the inferior pole of the patella, the patellar tendon, and the intercondylar notch; Blumensaat's line marks the roof of the notch on the lateral image.",
+      "source_ids": [
+        "ao_875866d4601d308f",
+        "orthobullets_12457"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "femur_retrograde_nailing_entry_incision_01",
+      "text": "Make a roughly 2 cm longitudinal incision just distal to the inferior patellar pole over the medial third of the patellar tendon.",
+      "source_ids": [
+        "ao_875866d4601d308f",
+        "orthobullets_12457"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "femur_retrograde_nailing_entry_superficial_interval_01",
+      "text": "Spread the medial parapatellar tissues longitudinally and retract the patellar tendon laterally, or split the tendon in line with its fibers.",
+      "source_ids": [
+        "ao_875866d4601d308f",
+        "orthobullets_12457"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "femur_retrograde_nailing_entry_deep_interval_01",
+      "text": "Place the entry in the center of the intercondylar notch at the apex of Blumensaat's line, in line with the canal axis and just anterior to the PCL origin, protecting the articular cartilage.",
+      "source_ids": [
+        "ao_875866d4601d308f",
+        "orthobullets_12457"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "femur_retrograde_nailing_entry_layers_01",
+      "text": "Skin, subcutaneous tissue, patellar tendon or its medial border, the fat pad, and the intercondylar notch entry.",
+      "source_ids": [
+        "ao_875866d4601d308f",
+        "orthobullets_12457"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "femur_retrograde_nailing_entry_structures_at_risk_01",
+      "text": "The articular cartilage of the weight-bearing zones, the anterior and posterior cruciate ligaments, and the popliteal neurovascular structures behind the knee are at risk.",
+      "source_ids": [
+        "ao_875866d4601d308f",
+        "orthobullets_12457"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "femur_retrograde_nailing_entry_danger_zones_01",
+      "text": "Plunging out the back of the distal femur is a major danger zone because of the popliteal neurovascular structures.",
+      "source_ids": [
+        "ao_875866d4601d308f"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "femur_retrograde_nailing_entry_retraction_hazards_01",
+      "text": "Retract the patellar tendon gently and keep the guide and reamers within the notch to spare cartilage and the cruciates.",
+      "source_ids": [
+        "ao_875866d4601d308f",
+        "orthobullets_12457"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "femur_retrograde_nailing_entry_exposure_01",
+      "text": "Exposes the intercondylar notch entry for retrograde nail insertion.",
+      "source_ids": [
+        "ao_875866d4601d308f"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "femur_retrograde_nailing_entry_limitations_01",
+      "text": "Retrograde nailing requires the ability to flex the knee to at least 70 degrees and depends on an accurate, cartilage-sparing entry; a non-anatomic entry risks malalignment.",
+      "source_ids": [
+        "ao_875866d4601d308f",
+        "orthobullets_12457"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "femur_retrograde_nailing_entry_indications_01",
+      "text": "Indicated for retrograde intramedullary nailing of femoral shaft and distal femoral fractures, including periprosthetic fractures above a total knee replacement.",
+      "source_ids": [
+        "ao_875866d4601d308f",
+        "orthobullets_12457"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "femur_retrograde_nailing_entry_closure_01",
+      "text": "Close the paratenon or tendon split and the peritendinous tissue, then close subcutaneous tissue and skin.",
+      "source_ids": [
+        "ao_875866d4601d308f"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "femur_retrograde_nailing_entry_complications_01",
+      "text": "Complications include chondral damage, cruciate injury, varus or valgus malalignment, knee pain, and rarely popliteal neurovascular injury.",
+      "source_ids": [
+        "ao_875866d4601d308f",
+        "orthobullets_12457"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "femur_retrograde_nailing_entry_questions_01",
+      "text": "Where is the retrograde femoral nail entry point?",
+      "source_ids": [
+        "ao_875866d4601d308f",
+        "orthobullets_12457"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "femur_retrograde_nailing_entry_questions_02",
+      "text": "What knee flexion is required for retrograde nailing?",
+      "source_ids": [
+        "orthobullets_12457"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "femur_retrograde_nailing_entry_questions_03",
+      "text": "What is the major deep risk when establishing the entry?",
+      "source_ids": [
+        "ao_875866d4601d308f"
+      ],
+      "risk_level": "medium"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "ao_875866d4601d308f",
+      "provider": "AO Surgery Reference",
+      "title": "Retrograde nailing approach (periprosthetic femur)",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/periprosthetic-fractures/hip/approach/retrograde-nailing-approach",
+      "source_page_id": "ao_875866d4601d308f"
+    },
+    {
+      "source_id": "orthobullets_12457",
+      "provider": "Orthobullets",
+      "title": "Femoral Shaft Fracture Retrograde Intramedullary Nailing",
+      "url": "https://www.orthobullets.com/trauma/12457/femoral-shaft-fracture-retrograde-intramedullary-nailing"
+    }
+  ],
+  "content_status": "agent_review_pending",
+  "review": {
+    "status": "agent_review_pending",
+    "required_roles": [
+      "adversarial_safety_reviewer",
+      "approach_anatomy_reviewer",
+      "educational_value_reviewer",
+      "evidence_reviewer",
+      "operative_exposure_reviewer",
+      "procedure_applicability_reviewer"
+    ],
+    "completed_roles": []
+  },
+  "resolved_contradiction_keys": [],
+  "authoring_provenance": {
+    "method": "local_codex_curated",
+    "definition_file": "data/approach_library/curated/retrograde_femur_ped_humerus_batch002_v1.json",
+    "api_used": false
+  }
+}

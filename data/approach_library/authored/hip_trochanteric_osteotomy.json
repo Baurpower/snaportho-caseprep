@@ -1,0 +1,348 @@
+{
+  "schema_version": "brobot_approach_packet_v1",
+  "approach_id": "hip_trochanteric_osteotomy",
+  "name": "Trochanteric osteotomy for hip exposure (periprosthetic)",
+  "aliases": [
+    "greater trochanteric osteotomy",
+    "trochanteric slide"
+  ],
+  "region": "hip",
+  "joint": "hip",
+  "bones": [
+    "proximal femur"
+  ],
+  "corridor": "Osteotomy of the greater trochanter with the abductors attached, mobilized to widen exposure of the hip and acetabulum, then reattached with cables or a claw plate",
+  "positioning": [
+    {
+      "text": "Position in lateral decubitus through a posterolateral approach that can extend into a Kocher-Langenbeck exposure.",
+      "claim_ids": [
+        "hip_trochanteric_osteotomy_positioning_01"
+      ]
+    }
+  ],
+  "setup": [],
+  "surface_landmarks": [
+    {
+      "text": "Mark the tip of the greater trochanter and the vastus tubercle.",
+      "claim_ids": [
+        "hip_trochanteric_osteotomy_surface_landmarks_01"
+      ]
+    }
+  ],
+  "incision": [
+    {
+      "text": "Use the posterolateral skin incision, incising the vastus lateralis fascia distally 5 to 8 cm for extraperiosteal mobilization.",
+      "claim_ids": [
+        "hip_trochanteric_osteotomy_incision_01"
+      ]
+    }
+  ],
+  "superficial_interval": [
+    {
+      "text": "Cauterize the trochanteric anastomotic vessels, then make the osteotomy from the tip of the trochanter to the base of the vastus tubercle with a cooled saw or osteotome.",
+      "claim_ids": [
+        "hip_trochanteric_osteotomy_superficial_interval_01"
+      ]
+    }
+  ],
+  "deep_interval": [
+    {
+      "text": "Mobilize the trochanteric fragment with its attached abductors, releasing gluteus minimus from the retroacetabular surface and femoral insertion, keeping the vastus lateralis in continuity.",
+      "claim_ids": [
+        "hip_trochanteric_osteotomy_deep_interval_01"
+      ]
+    }
+  ],
+  "layers": [
+    {
+      "text": "Skin, subcutaneous tissue, fascia lata, the trochanteric fragment with abductors, and the hip capsule.",
+      "claim_ids": [
+        "hip_trochanteric_osteotomy_layers_01"
+      ]
+    }
+  ],
+  "structures_encountered": [],
+  "structures_at_risk": [
+    {
+      "text": "The sciatic nerve posteriorly and the medial femoral circumflex artery supplying the head are at risk, and the short external rotators should be tagged for repair.",
+      "claim_ids": [
+        "hip_trochanteric_osteotomy_structures_at_risk_01"
+      ]
+    }
+  ],
+  "danger_zones": [
+    {
+      "text": "The retroacetabular surface where the sciatic nerve lies is the danger zone; the trochanteric anastomosis should be cauterized before the cut to protect the head blood supply.",
+      "claim_ids": [
+        "hip_trochanteric_osteotomy_danger_zones_01"
+      ]
+    }
+  ],
+  "retraction_hazards": [
+    {
+      "text": "Palpate and protect the sciatic nerve and avoid over-retraction of the mobilized abductor fragment.",
+      "claim_ids": [
+        "hip_trochanteric_osteotomy_retraction_hazards_01"
+      ]
+    }
+  ],
+  "exposure": [
+    {
+      "text": "Widely exposes the hip and acetabulum for revision arthroplasty or periprosthetic fracture fixation.",
+      "claim_ids": [
+        "hip_trochanteric_osteotomy_exposure_01"
+      ]
+    }
+  ],
+  "limitations": [
+    {
+      "text": "Active abduction must be limited postoperatively to prevent osteotomy escape, and nonunion of the trochanter can occur.",
+      "claim_ids": [
+        "hip_trochanteric_osteotomy_limitations_01"
+      ]
+    }
+  ],
+  "extensions": [],
+  "indications": [
+    {
+      "text": "Indicated for revision hip arthroplasty and ORIF of periprosthetic acetabular and femoral fractures requiring wide exposure.",
+      "claim_ids": [
+        "hip_trochanteric_osteotomy_indications_01"
+      ]
+    }
+  ],
+  "relative_contraindications": [],
+  "implant_implications": [],
+  "fluoroscopy_implications": [],
+  "closure": [
+    {
+      "text": "Reattach the trochanter with cerclage wires through drill holes or a trochanteric claw or hook plate, repair the capsule and rotators, and close in layers.",
+      "claim_ids": [
+        "hip_trochanteric_osteotomy_closure_01"
+      ]
+    }
+  ],
+  "complications": [
+    {
+      "text": "Complications include trochanteric nonunion or escape, sciatic nerve injury, and abductor weakness.",
+      "claim_ids": [
+        "hip_trochanteric_osteotomy_complications_01"
+      ]
+    }
+  ],
+  "bailouts": [],
+  "procedure_applications": [
+    {
+      "procedure_id": "periprosthetic_hip_fracture_orif",
+      "relationship": "conditional_option",
+      "condition": "Wider access to the hip or acetabulum is needed during periprosthetic fracture fixation"
+    },
+    {
+      "procedure_id": "revision_tha",
+      "relationship": "conditional_option",
+      "condition": "Improved acetabular and proximal femoral exposure is required for revision"
+    }
+  ],
+  "questions": [
+    {
+      "question": "Between which points does the standard trochanteric osteotomy run?",
+      "answer": "From the tip of the greater trochanter to the base of the vastus tubercle.",
+      "claim_ids": [
+        "hip_trochanteric_osteotomy_questions_01"
+      ]
+    },
+    {
+      "question": "What must be limited postoperatively to protect the osteotomy?",
+      "answer": "Active abduction, to prevent osteotomy escape.",
+      "claim_ids": [
+        "hip_trochanteric_osteotomy_questions_02"
+      ]
+    },
+    {
+      "question": "How is the trochanter reattached?",
+      "answer": "With cerclage wires through drill holes or a trochanteric claw/hook plate.",
+      "claim_ids": [
+        "hip_trochanteric_osteotomy_questions_03"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "hip_trochanteric_osteotomy_positioning_01",
+      "text": "Position in lateral decubitus through a posterolateral approach that can extend into a Kocher-Langenbeck exposure.",
+      "source_ids": [
+        "ao_43c3d5fa8a5f6c78"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "hip_trochanteric_osteotomy_surface_landmarks_01",
+      "text": "Mark the tip of the greater trochanter and the vastus tubercle.",
+      "source_ids": [
+        "ao_43c3d5fa8a5f6c78"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "hip_trochanteric_osteotomy_incision_01",
+      "text": "Use the posterolateral skin incision, incising the vastus lateralis fascia distally 5 to 8 cm for extraperiosteal mobilization.",
+      "source_ids": [
+        "ao_43c3d5fa8a5f6c78"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "hip_trochanteric_osteotomy_superficial_interval_01",
+      "text": "Cauterize the trochanteric anastomotic vessels, then make the osteotomy from the tip of the trochanter to the base of the vastus tubercle with a cooled saw or osteotome.",
+      "source_ids": [
+        "ao_43c3d5fa8a5f6c78"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "hip_trochanteric_osteotomy_deep_interval_01",
+      "text": "Mobilize the trochanteric fragment with its attached abductors, releasing gluteus minimus from the retroacetabular surface and femoral insertion, keeping the vastus lateralis in continuity.",
+      "source_ids": [
+        "ao_43c3d5fa8a5f6c78",
+        "ao_513cb92dcdc257f2"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "hip_trochanteric_osteotomy_layers_01",
+      "text": "Skin, subcutaneous tissue, fascia lata, the trochanteric fragment with abductors, and the hip capsule.",
+      "source_ids": [
+        "ao_43c3d5fa8a5f6c78"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "hip_trochanteric_osteotomy_structures_at_risk_01",
+      "text": "The sciatic nerve posteriorly and the medial femoral circumflex artery supplying the head are at risk, and the short external rotators should be tagged for repair.",
+      "source_ids": [
+        "ao_43c3d5fa8a5f6c78",
+        "ao_513cb92dcdc257f2"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "hip_trochanteric_osteotomy_danger_zones_01",
+      "text": "The retroacetabular surface where the sciatic nerve lies is the danger zone; the trochanteric anastomosis should be cauterized before the cut to protect the head blood supply.",
+      "source_ids": [
+        "ao_43c3d5fa8a5f6c78"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "hip_trochanteric_osteotomy_retraction_hazards_01",
+      "text": "Palpate and protect the sciatic nerve and avoid over-retraction of the mobilized abductor fragment.",
+      "source_ids": [
+        "ao_43c3d5fa8a5f6c78",
+        "ao_513cb92dcdc257f2"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "hip_trochanteric_osteotomy_exposure_01",
+      "text": "Widely exposes the hip and acetabulum for revision arthroplasty or periprosthetic fracture fixation.",
+      "source_ids": [
+        "ao_43c3d5fa8a5f6c78"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "hip_trochanteric_osteotomy_limitations_01",
+      "text": "Active abduction must be limited postoperatively to prevent osteotomy escape, and nonunion of the trochanter can occur.",
+      "source_ids": [
+        "ao_43c3d5fa8a5f6c78",
+        "ao_513cb92dcdc257f2"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "hip_trochanteric_osteotomy_indications_01",
+      "text": "Indicated for revision hip arthroplasty and ORIF of periprosthetic acetabular and femoral fractures requiring wide exposure.",
+      "source_ids": [
+        "ao_43c3d5fa8a5f6c78"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "hip_trochanteric_osteotomy_closure_01",
+      "text": "Reattach the trochanter with cerclage wires through drill holes or a trochanteric claw or hook plate, repair the capsule and rotators, and close in layers.",
+      "source_ids": [
+        "ao_43c3d5fa8a5f6c78"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "hip_trochanteric_osteotomy_complications_01",
+      "text": "Complications include trochanteric nonunion or escape, sciatic nerve injury, and abductor weakness.",
+      "source_ids": [
+        "ao_43c3d5fa8a5f6c78",
+        "ao_513cb92dcdc257f2"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "hip_trochanteric_osteotomy_questions_01",
+      "text": "Between which points does the standard trochanteric osteotomy run?",
+      "source_ids": [
+        "ao_43c3d5fa8a5f6c78"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "hip_trochanteric_osteotomy_questions_02",
+      "text": "What must be limited postoperatively to protect the osteotomy?",
+      "source_ids": [
+        "ao_43c3d5fa8a5f6c78",
+        "ao_513cb92dcdc257f2"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "hip_trochanteric_osteotomy_questions_03",
+      "text": "How is the trochanter reattached?",
+      "source_ids": [
+        "ao_43c3d5fa8a5f6c78"
+      ],
+      "risk_level": "medium"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "ao_43c3d5fa8a5f6c78",
+      "provider": "AO Surgery Reference",
+      "title": "Trochanteric osteotomy (periprosthetic hip)",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/periprosthetic-fractures/hip/approach/trochanteric-osteotomy",
+      "source_page_id": "ao_43c3d5fa8a5f6c78"
+    },
+    {
+      "source_id": "ao_513cb92dcdc257f2",
+      "provider": "AO Surgery Reference",
+      "title": "Extended trochanteric osteotomy (ETO) of the femur",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/periprosthetic-fractures/hip/approach/eto-femur-osteotomy",
+      "source_page_id": "ao_513cb92dcdc257f2"
+    }
+  ],
+  "content_status": "agent_review_pending",
+  "review": {
+    "status": "agent_review_pending",
+    "required_roles": [
+      "adversarial_safety_reviewer",
+      "approach_anatomy_reviewer",
+      "educational_value_reviewer",
+      "evidence_reviewer",
+      "operative_exposure_reviewer",
+      "procedure_applicability_reviewer"
+    ],
+    "completed_roles": []
+  },
+  "resolved_contradiction_keys": [],
+  "authoring_provenance": {
+    "method": "local_codex_curated",
+    "definition_file": "data/approach_library/curated/hip_osteotomy_acetabulum_batch002_v1.json",
+    "api_used": false
+  }
+}

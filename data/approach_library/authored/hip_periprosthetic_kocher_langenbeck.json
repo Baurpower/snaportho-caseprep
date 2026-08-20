@@ -1,0 +1,349 @@
+{
+  "schema_version": "brobot_approach_packet_v1",
+  "approach_id": "hip_periprosthetic_kocher_langenbeck",
+  "name": "Kocher-Langenbeck approach to the acetabulum (periprosthetic)",
+  "aliases": [
+    "posterior approach to the acetabulum"
+  ],
+  "region": "hip",
+  "joint": "hip",
+  "bones": [
+    "acetabulum",
+    "proximal femur"
+  ],
+  "corridor": "Posterior approach splitting gluteus maximus and detaching the short external rotators to expose the posterior column and retroacetabular surface, protecting the sciatic nerve",
+  "positioning": [
+    {
+      "text": "Position prone or lateral, with the lateral position preferred for periprosthetic fracture and revision arthroplasty.",
+      "claim_ids": [
+        "hip_periprosthetic_kocher_langenbeck_positioning_01"
+      ]
+    }
+  ],
+  "setup": [],
+  "surface_landmarks": [
+    {
+      "text": "Mark the posterior superior iliac spine, the greater trochanter, and the femoral shaft.",
+      "claim_ids": [
+        "hip_periprosthetic_kocher_langenbeck_surface_landmarks_01"
+      ]
+    }
+  ],
+  "incision": [
+    {
+      "text": "Begin several centimeters distal and lateral to the PSIS, run anteriorly over the greater trochanter, and curve distally along the lateral femoral shaft to the mid-thigh.",
+      "claim_ids": [
+        "hip_periprosthetic_kocher_langenbeck_incision_01"
+      ]
+    }
+  ],
+  "superficial_interval": [
+    {
+      "text": "Split the gluteus maximus along its fibers from the trochanter proximally to the first neurovascular bundle, optionally releasing its femoral insertion 1 cm from the gluteal tuberosity.",
+      "claim_ids": [
+        "hip_periprosthetic_kocher_langenbeck_superficial_interval_01"
+      ]
+    }
+  ],
+  "deep_interval": [
+    {
+      "text": "Tag the piriformis and conjoined obturator internus and gemelli with heavy nonabsorbable stay sutures and detach them to expose the posterior capsule and retroacetabular surface.",
+      "claim_ids": [
+        "hip_periprosthetic_kocher_langenbeck_deep_interval_01"
+      ]
+    }
+  ],
+  "layers": [
+    {
+      "text": "Skin, subcutaneous tissue, fascia lata, gluteus maximus, the short external rotators, and the posterior column and capsule.",
+      "claim_ids": [
+        "hip_periprosthetic_kocher_langenbeck_layers_01"
+      ]
+    }
+  ],
+  "structures_encountered": [],
+  "structures_at_risk": [
+    {
+      "text": "The sciatic nerve behind the short external rotators is the principal structure at risk throughout the exposure.",
+      "claim_ids": [
+        "hip_periprosthetic_kocher_langenbeck_structures_at_risk_01"
+      ]
+    }
+  ],
+  "danger_zones": [
+    {
+      "text": "The retroacetabular surface and the greater and lesser sciatic notches are danger zones for the sciatic nerve.",
+      "claim_ids": [
+        "hip_periprosthetic_kocher_langenbeck_danger_zones_01"
+      ]
+    }
+  ],
+  "retraction_hazards": [
+    {
+      "text": "Maintain knee flexion at about 90 degrees and hip extension to reduce sciatic nerve tension during retraction.",
+      "claim_ids": [
+        "hip_periprosthetic_kocher_langenbeck_retraction_hazards_01"
+      ]
+    }
+  ],
+  "exposure": [
+    {
+      "text": "Exposes the posterior column, retroacetabular surface, and the greater and lesser sciatic notches.",
+      "claim_ids": [
+        "hip_periprosthetic_kocher_langenbeck_exposure_01"
+      ]
+    }
+  ],
+  "limitations": [
+    {
+      "text": "Anterior column and wall access is limited, so complex anterior involvement may require an additional or different approach.",
+      "claim_ids": [
+        "hip_periprosthetic_kocher_langenbeck_limitations_01"
+      ]
+    }
+  ],
+  "extensions": [],
+  "indications": [
+    {
+      "text": "Indicated for ORIF of periprosthetic acetabular and femoral fractures and for revision arthroplasty.",
+      "claim_ids": [
+        "hip_periprosthetic_kocher_langenbeck_indications_01"
+      ]
+    }
+  ],
+  "relative_contraindications": [],
+  "implant_implications": [],
+  "fluoroscopy_implications": [],
+  "closure": [
+    {
+      "text": "Repair the capsular flap and reattach the external rotator tendons through drill holes in the greater trochanter, then close in layers.",
+      "claim_ids": [
+        "hip_periprosthetic_kocher_langenbeck_closure_01"
+      ]
+    }
+  ],
+  "complications": [
+    {
+      "text": "Complications include sciatic nerve injury, posterior instability, heterotopic ossification, and wound problems.",
+      "claim_ids": [
+        "hip_periprosthetic_kocher_langenbeck_complications_01"
+      ]
+    }
+  ],
+  "bailouts": [],
+  "procedure_applications": [
+    {
+      "procedure_id": "periprosthetic_hip_fracture_orif",
+      "relationship": "primary_option",
+      "condition": "A periprosthetic acetabular or posterior column fracture needs posterior exposure"
+    },
+    {
+      "procedure_id": "acetabulum_fracture_orif_posterior",
+      "relationship": "primary_option",
+      "condition": "A posterior wall or column acetabular fracture is fixed"
+    }
+  ],
+  "questions": [
+    {
+      "question": "What knee and hip position reduces sciatic nerve tension in the Kocher-Langenbeck approach?",
+      "answer": "Knee flexion at about 90 degrees with hip extension.",
+      "claim_ids": [
+        "hip_periprosthetic_kocher_langenbeck_questions_01"
+      ]
+    },
+    {
+      "question": "Which acetabular surfaces does this approach expose?",
+      "answer": "The posterior column and retroacetabular surface, with access to the sciatic notches.",
+      "claim_ids": [
+        "hip_periprosthetic_kocher_langenbeck_questions_02"
+      ]
+    },
+    {
+      "question": "How are the external rotators managed for later repair?",
+      "answer": "They are tagged with heavy nonabsorbable stay sutures before detachment.",
+      "claim_ids": [
+        "hip_periprosthetic_kocher_langenbeck_questions_03"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "hip_periprosthetic_kocher_langenbeck_positioning_01",
+      "text": "Position prone or lateral, with the lateral position preferred for periprosthetic fracture and revision arthroplasty.",
+      "source_ids": [
+        "ao_4f5824f729fb5a9a"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "hip_periprosthetic_kocher_langenbeck_surface_landmarks_01",
+      "text": "Mark the posterior superior iliac spine, the greater trochanter, and the femoral shaft.",
+      "source_ids": [
+        "ao_4f5824f729fb5a9a"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "hip_periprosthetic_kocher_langenbeck_incision_01",
+      "text": "Begin several centimeters distal and lateral to the PSIS, run anteriorly over the greater trochanter, and curve distally along the lateral femoral shaft to the mid-thigh.",
+      "source_ids": [
+        "ao_4f5824f729fb5a9a"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "hip_periprosthetic_kocher_langenbeck_superficial_interval_01",
+      "text": "Split the gluteus maximus along its fibers from the trochanter proximally to the first neurovascular bundle, optionally releasing its femoral insertion 1 cm from the gluteal tuberosity.",
+      "source_ids": [
+        "ao_4f5824f729fb5a9a",
+        "ao_b998d482cbad2405"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "hip_periprosthetic_kocher_langenbeck_deep_interval_01",
+      "text": "Tag the piriformis and conjoined obturator internus and gemelli with heavy nonabsorbable stay sutures and detach them to expose the posterior capsule and retroacetabular surface.",
+      "source_ids": [
+        "ao_4f5824f729fb5a9a",
+        "ao_b998d482cbad2405"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "hip_periprosthetic_kocher_langenbeck_layers_01",
+      "text": "Skin, subcutaneous tissue, fascia lata, gluteus maximus, the short external rotators, and the posterior column and capsule.",
+      "source_ids": [
+        "ao_4f5824f729fb5a9a"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "hip_periprosthetic_kocher_langenbeck_structures_at_risk_01",
+      "text": "The sciatic nerve behind the short external rotators is the principal structure at risk throughout the exposure.",
+      "source_ids": [
+        "ao_4f5824f729fb5a9a",
+        "ao_b998d482cbad2405"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "hip_periprosthetic_kocher_langenbeck_danger_zones_01",
+      "text": "The retroacetabular surface and the greater and lesser sciatic notches are danger zones for the sciatic nerve.",
+      "source_ids": [
+        "ao_4f5824f729fb5a9a",
+        "ao_b998d482cbad2405"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "hip_periprosthetic_kocher_langenbeck_retraction_hazards_01",
+      "text": "Maintain knee flexion at about 90 degrees and hip extension to reduce sciatic nerve tension during retraction.",
+      "source_ids": [
+        "ao_4f5824f729fb5a9a",
+        "ao_b998d482cbad2405"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "hip_periprosthetic_kocher_langenbeck_exposure_01",
+      "text": "Exposes the posterior column, retroacetabular surface, and the greater and lesser sciatic notches.",
+      "source_ids": [
+        "ao_4f5824f729fb5a9a"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "hip_periprosthetic_kocher_langenbeck_limitations_01",
+      "text": "Anterior column and wall access is limited, so complex anterior involvement may require an additional or different approach.",
+      "source_ids": [
+        "ao_4f5824f729fb5a9a"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "hip_periprosthetic_kocher_langenbeck_indications_01",
+      "text": "Indicated for ORIF of periprosthetic acetabular and femoral fractures and for revision arthroplasty.",
+      "source_ids": [
+        "ao_4f5824f729fb5a9a"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "hip_periprosthetic_kocher_langenbeck_closure_01",
+      "text": "Repair the capsular flap and reattach the external rotator tendons through drill holes in the greater trochanter, then close in layers.",
+      "source_ids": [
+        "ao_4f5824f729fb5a9a",
+        "ao_b998d482cbad2405"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "hip_periprosthetic_kocher_langenbeck_complications_01",
+      "text": "Complications include sciatic nerve injury, posterior instability, heterotopic ossification, and wound problems.",
+      "source_ids": [
+        "ao_4f5824f729fb5a9a",
+        "ao_b998d482cbad2405"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "hip_periprosthetic_kocher_langenbeck_questions_01",
+      "text": "What knee and hip position reduces sciatic nerve tension in the Kocher-Langenbeck approach?",
+      "source_ids": [
+        "ao_4f5824f729fb5a9a"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "hip_periprosthetic_kocher_langenbeck_questions_02",
+      "text": "Which acetabular surfaces does this approach expose?",
+      "source_ids": [
+        "ao_4f5824f729fb5a9a"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "hip_periprosthetic_kocher_langenbeck_questions_03",
+      "text": "How are the external rotators managed for later repair?",
+      "source_ids": [
+        "ao_4f5824f729fb5a9a"
+      ],
+      "risk_level": "medium"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "ao_4f5824f729fb5a9a",
+      "provider": "AO Surgery Reference",
+      "title": "Kocher-Langenbeck approach to the acetabulum (periprosthetic hip)",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/periprosthetic-fractures/hip/approach/kocher-langenbeck-approach-acetabulum",
+      "source_page_id": "ao_4f5824f729fb5a9a"
+    },
+    {
+      "source_id": "ao_b998d482cbad2405",
+      "provider": "AO Surgery Reference",
+      "title": "Posterolateral approach (periprosthetic hip)",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/periprosthetic-fractures/hip/approach/posterolateral-approach",
+      "source_page_id": "ao_b998d482cbad2405"
+    }
+  ],
+  "content_status": "agent_review_pending",
+  "review": {
+    "status": "agent_review_pending",
+    "required_roles": [
+      "adversarial_safety_reviewer",
+      "approach_anatomy_reviewer",
+      "educational_value_reviewer",
+      "evidence_reviewer",
+      "operative_exposure_reviewer",
+      "procedure_applicability_reviewer"
+    ],
+    "completed_roles": []
+  },
+  "resolved_contradiction_keys": [],
+  "authoring_provenance": {
+    "method": "local_codex_curated",
+    "definition_file": "data/approach_library/curated/hip_periprosthetic_batch002b_v1.json",
+    "api_used": false
+  }
+}

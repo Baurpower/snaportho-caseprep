@@ -1,0 +1,595 @@
+{
+  "approaches": [
+    {
+      "approach_id": "proximal_humerus_deltopectoral",
+      "name": "Deltopectoral approach to the proximal humerus",
+      "aliases": [
+        "anterior deltopectoral approach to the shoulder"
+      ],
+      "region": "proximal-humerus",
+      "joint": "shoulder",
+      "bones": [
+        "proximal humerus"
+      ],
+      "corridor": "Deltopectoral interval between deltoid (axillary nerve) and pectoralis major, through the clavipectoral fascia lateral to the conjoined tendon, to the anterior proximal humerus",
+      "sources": [
+        {
+          "source_id": "ao_c5861e08ea2a1064",
+          "provider": "AO Surgery Reference",
+          "title": "Deltopectoral approach to the proximal humerus",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/proximal-humerus/approach/deltopectoral-approach-to-the-proximal-humerus",
+          "source_page_id": "ao_c5861e08ea2a1064"
+        },
+        {
+          "source_id": "ao_b1d85a2691e1f064",
+          "provider": "AO Surgery Reference",
+          "title": "Extended deltopectoral approach to the humeral shaft",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/humeral-shaft/approach/extended-deltopectoral-approach-to-the-humeral-shaft",
+          "source_page_id": "ao_b1d85a2691e1f064"
+        }
+      ],
+      "procedure_applications": [
+        {
+          "procedure_id": "proximal_humerus_fracture_orif",
+          "relationship": "primary_option",
+          "condition": "A proximal humeral fracture is plated or reconstructed through an anterior interval"
+        },
+        {
+          "procedure_id": "reverse_shoulder_arthroplasty",
+          "relationship": "primary_option",
+          "condition": "Shoulder arthroplasty is performed through the deltopectoral interval"
+        }
+      ],
+      "sections": {
+        "positioning": [
+          {
+            "text": "Position in a beach-chair position with the arm draped free and image intensifier access to the shoulder.",
+            "source_ids": [
+              "ao_c5861e08ea2a1064"
+            ]
+          }
+        ],
+        "surface_landmarks": [
+          {
+            "text": "Palpate the coracoid process and the proximal humeral shaft at the axilla and mark the deltopectoral groove.",
+            "source_ids": [
+              "ao_c5861e08ea2a1064"
+            ]
+          }
+        ],
+        "incision": [
+          {
+            "text": "Make a 12 to 14 cm incision between the coracoid process and the proximal humeral shaft.",
+            "source_ids": [
+              "ao_c5861e08ea2a1064"
+            ]
+          }
+        ],
+        "superficial_interval": [
+          {
+            "text": "Dissect between deltoid and pectoralis major to the clavipectoral fascia, retracting and preserving the cephalic vein either laterally or medially.",
+            "source_ids": [
+              "ao_c5861e08ea2a1064",
+              "ao_b1d85a2691e1f064"
+            ]
+          }
+        ],
+        "deep_interval": [
+          {
+            "text": "Incise the clavipectoral fascia lateral to the conjoined tendon, avoiding vigorous retraction under the conjoined tendon because the musculocutaneous nerve enters coracobrachialis as close as 2.5 cm distal to the coracoid, and keep the axillary nerve protected inferiorly.",
+            "source_ids": [
+              "ao_c5861e08ea2a1064",
+              "ao_b1d85a2691e1f064"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "layers": [
+          {
+            "text": "Skin, subcutaneous tissue, the deltopectoral interval with the cephalic vein, clavipectoral fascia, the conjoined tendon, and the anterior proximal humerus.",
+            "source_ids": [
+              "ao_c5861e08ea2a1064"
+            ]
+          }
+        ],
+        "structures_at_risk": [
+          {
+            "text": "The axillary nerve inferiorly, the musculocutaneous nerve under the conjoined tendon, the cephalic vein, and the anterior humeral circumflex artery are at risk.",
+            "source_ids": [
+              "ao_c5861e08ea2a1064",
+              "ao_b1d85a2691e1f064"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "danger_zones": [
+          {
+            "text": "Retraction under the conjoined tendon endangers the musculocutaneous nerve, and deep inferior retractors endanger the axillary nerve.",
+            "source_ids": [
+              "ao_c5861e08ea2a1064",
+              "ao_b1d85a2691e1f064"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "retraction_hazards": [
+          {
+            "text": "Position Roux or Hohmann retractors carefully to avoid the axillary nerve and avoid vigorous retraction under the conjoined tendon.",
+            "source_ids": [
+              "ao_c5861e08ea2a1064"
+            ],
+            "risk_level": "medium"
+          }
+        ],
+        "exposure": [
+          {
+            "text": "Exposes almost the entire anterior proximal humerus for fracture fixation or arthroplasty.",
+            "source_ids": [
+              "ao_c5861e08ea2a1064"
+            ]
+          }
+        ],
+        "limitations": [
+          {
+            "text": "Posterior and greater tuberosity access is limited, and the axillary and musculocutaneous nerves bound the deep dissection.",
+            "source_ids": [
+              "ao_c5861e08ea2a1064"
+            ]
+          }
+        ],
+        "indications": [
+          {
+            "text": "Indicated for almost any proximal humeral fracture and highly recommended for revision surgery and arthroplasty.",
+            "source_ids": [
+              "ao_c5861e08ea2a1064"
+            ]
+          }
+        ],
+        "closure": [
+          {
+            "text": "Irrigate, consider a drain under the deltoid, and close the deltopectoral groove, subcutaneous tissue, and skin.",
+            "source_ids": [
+              "ao_c5861e08ea2a1064"
+            ]
+          }
+        ],
+        "complications": [
+          {
+            "text": "Complications include axillary nerve injury, musculocutaneous neurapraxia, deltoid denervation, and edema from cephalic vein injury.",
+            "source_ids": [
+              "ao_c5861e08ea2a1064",
+              "ao_b1d85a2691e1f064"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "questions": [
+          {
+            "question": "How close to the coracoid can the musculocutaneous nerve enter coracobrachialis?",
+            "answer": "As close as 2.5 cm distal to the tip of the coracoid.",
+            "source_ids": [
+              "ao_c5861e08ea2a1064"
+            ]
+          },
+          {
+            "question": "Which vein marks the deltopectoral interval?",
+            "answer": "The cephalic vein.",
+            "source_ids": [
+              "ao_c5861e08ea2a1064"
+            ]
+          },
+          {
+            "question": "Why is the deltopectoral approach favored for revision and arthroplasty?",
+            "answer": "It is extensile and exposes almost the entire anterior proximal humerus.",
+            "source_ids": [
+              "ao_c5861e08ea2a1064"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "approach_id": "proximal_humerus_anterolateral_deltoid_split",
+      "name": "Anterolateral (deltoid-split) approach to the proximal humerus",
+      "aliases": [
+        "deltoid-splitting approach to the proximal humerus"
+      ],
+      "region": "proximal-humerus",
+      "joint": "shoulder",
+      "bones": [
+        "proximal humerus"
+      ],
+      "corridor": "Anterolateral deltoid raphe split from the acromion, limited to about 5 cm to protect the axillary nerve, exposing the greater tuberosity and lateral proximal humerus",
+      "sources": [
+        {
+          "source_id": "ao_8f2c45a58145d70b",
+          "provider": "AO Surgery Reference",
+          "title": "Anterolateral approach to the proximal humerus",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/proximal-humerus/approach/anterolateral-approach",
+          "source_page_id": "ao_8f2c45a58145d70b"
+        },
+        {
+          "source_id": "ao_fe9a06e24651710f",
+          "provider": "AO Surgery Reference",
+          "title": "Safe zones in the proximal humerus",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/proximal-humerus/approach/safe-zones-in-the-proximal-humerus",
+          "source_page_id": "ao_fe9a06e24651710f"
+        },
+        {
+          "source_id": "ao_37dd75d4e431f40d",
+          "provider": "AO Surgery Reference",
+          "title": "Transdeltoid Lateral Approach",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/proximal-humerus/approach/transdeltoid-lateral-approach",
+          "source_page_id": "ao_37dd75d4e431f40d"
+        },
+        {
+          "source_id": "ao_e4e8318425a50921",
+          "provider": "AO Surgery Reference",
+          "title": "Deltoid Split Approach",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/periprosthetic-fractures/shoulder/approach/deltoid-split-approach",
+          "source_page_id": "ao_e4e8318425a50921"
+        },
+        {
+          "source_id": "orthobullets_24fe7c65ca8ab1ac",
+          "provider": "Orthobullets",
+          "title": "Shoulder Anterolateral Approach",
+          "url": "https://www.orthobullets.com/approaches/12062/shoulder-anterolateral-approach",
+          "source_page_id": "orthobullets_24fe7c65ca8ab1ac"
+        },
+        {
+          "source_id": "orthobullets_dd33f0608477689c",
+          "provider": "Orthobullets",
+          "title": "Shoulder Lateral Deltoid Splitting Approach",
+          "url": "https://www.orthobullets.com/approaches/12063/shoulder-lateral-deltoid-splitting-approach",
+          "source_page_id": "orthobullets_dd33f0608477689c"
+        }
+      ],
+      "procedure_applications": [
+        {
+          "procedure_id": "proximal_humerus_fracture_orif",
+          "relationship": "primary_option",
+          "condition": "A greater tuberosity fracture or a proximal humeral fracture treated by MIPO or nailing needs lateral access"
+        },
+        {
+          "procedure_id": "periprosthetic_shoulder_fracture_orif",
+          "relationship": "primary_option",
+          "condition": "A greater-tuberosity periprosthetic fracture around an anatomic prosthesis is fixed through a limited transdeltoid window"
+        }
+      ],
+      "sections": {
+        "positioning": [
+          {
+            "text": "Position beach-chair or supine with the lateral acromion and lateral proximal humerus accessible.",
+            "source_ids": [
+              "ao_8f2c45a58145d70b"
+            ]
+          }
+        ],
+        "surface_landmarks": [
+          {
+            "text": "Palpate the anterolateral edge of the acromion and the lateral proximal humeral shaft.",
+            "source_ids": [
+              "ao_8f2c45a58145d70b"
+            ]
+          }
+        ],
+        "incision": [
+          {
+            "text": "Incise from the anterior border of the acromion about 5 cm distally, parallel to the humeral axis, between the clavicular and acromial parts of the deltoid.",
+            "source_ids": [
+              "ao_8f2c45a58145d70b"
+            ]
+          }
+        ],
+        "superficial_interval": [
+          {
+            "text": "Split the deltoid raphe in line with its fibers for a fairly avascular approach, not extending more than 5 cm from the origin to protect the axillary nerve.",
+            "source_ids": [
+              "ao_8f2c45a58145d70b",
+              "ao_fe9a06e24651710f"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "deep_interval": [
+          {
+            "text": "Identify the anterior motor branch of the axillary nerve crossing about 6 cm below the acromion and place a stay suture at the inferior border of the split to guard it while exposing the tuberosity.",
+            "source_ids": [
+              "ao_8f2c45a58145d70b",
+              "ao_fe9a06e24651710f"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "layers": [
+          {
+            "text": "Skin, subcutaneous tissue, the deltoid raphe, the subdeltoid space with the axillary nerve, and the lateral proximal humerus.",
+            "source_ids": [
+              "ao_8f2c45a58145d70b"
+            ]
+          }
+        ],
+        "structures_at_risk": [
+          {
+            "text": "The axillary nerve crossing about 5 to 9.5 cm below the top of the humeral head is the principal structure at risk.",
+            "source_ids": [
+              "ao_8f2c45a58145d70b",
+              "ao_fe9a06e24651710f"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "danger_zones": [
+          {
+            "text": "The subdeltoid zone roughly 5 to 9.5 cm below the humeral head top, where the axillary nerve runs, is the danger zone; do not split the deltoid beyond 5 cm.",
+            "source_ids": [
+              "ao_8f2c45a58145d70b",
+              "ao_fe9a06e24651710f"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "retraction_hazards": [
+          {
+            "text": "Place a stay suture at the inferior end of the split and avoid uncontrolled distal dissection past the axillary nerve.",
+            "source_ids": [
+              "ao_8f2c45a58145d70b"
+            ],
+            "risk_level": "medium"
+          }
+        ],
+        "exposure": [
+          {
+            "text": "Exposes the greater tuberosity and lateral proximal humerus for tuberosity fixation, nailing, or MIPO.",
+            "source_ids": [
+              "ao_8f2c45a58145d70b"
+            ]
+          }
+        ],
+        "limitations": [
+          {
+            "text": "The skin incision may not extend more than 5 cm distal to the acromion because of the axillary nerve, limiting distal access.",
+            "source_ids": [
+              "ao_8f2c45a58145d70b"
+            ]
+          }
+        ],
+        "indications": [
+          {
+            "text": "Indicated for greater tuberosity fractures, nailing or minimally invasive plate osteosynthesis of proximal humeral fractures, and limited-access osteosynthesis of periprosthetic greater-tuberosity fractures around an anatomic prosthesis.",
+            "source_ids": [
+              "ao_8f2c45a58145d70b",
+              "ao_e4e8318425a50921"
+            ]
+          }
+        ],
+        "closure": [
+          {
+            "text": "Close the anteromedial raphe, subcutaneous tissue, and skin.",
+            "source_ids": [
+              "ao_8f2c45a58145d70b"
+            ]
+          }
+        ],
+        "complications": [
+          {
+            "text": "The principal complication is axillary nerve injury with deltoid weakness.",
+            "source_ids": [
+              "ao_8f2c45a58145d70b",
+              "ao_fe9a06e24651710f"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "questions": [
+          {
+            "question": "How far may the deltoid be split from the acromion in this approach?",
+            "answer": "No more than about 5 cm, to protect the axillary nerve.",
+            "source_ids": [
+              "ao_8f2c45a58145d70b"
+            ]
+          },
+          {
+            "question": "How is the axillary nerve safeguarded during the split?",
+            "answer": "By identifying it and placing a stay suture at the inferior border of the deltoid split.",
+            "source_ids": [
+              "ao_8f2c45a58145d70b",
+              "ao_fe9a06e24651710f"
+            ]
+          },
+          {
+            "question": "What are the main indications for the deltoid-split approach?",
+            "answer": "Greater tuberosity fractures and MIPO or nailing of proximal humeral fractures.",
+            "source_ids": [
+              "ao_8f2c45a58145d70b"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "approach_id": "proximal_humerus_safe_zones",
+      "name": "Safe zones in the proximal humerus",
+      "aliases": [
+        "proximal humeral pin and plate safe zones"
+      ],
+      "region": "proximal-humerus",
+      "joint": "shoulder",
+      "bones": [
+        "proximal humerus"
+      ],
+      "corridor": "Lateral trans-deltoid pin and plate corridors that avoid the axillary nerve zone below the humeral head and the circumflex vessels, with controlled far-cortex penetration",
+      "sources": [
+        {
+          "source_id": "ao_fe9a06e24651710f",
+          "provider": "AO Surgery Reference",
+          "title": "Safe zones in the proximal humerus",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/proximal-humerus/approach/safe-zones-in-the-proximal-humerus",
+          "source_page_id": "ao_fe9a06e24651710f"
+        },
+        {
+          "source_id": "ao_8f2c45a58145d70b",
+          "provider": "AO Surgery Reference",
+          "title": "Anterolateral approach to the proximal humerus",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/proximal-humerus/approach/anterolateral-approach",
+          "source_page_id": "ao_8f2c45a58145d70b"
+        }
+      ],
+      "procedure_applications": [
+        {
+          "procedure_id": "proximal_humerus_fracture_orif",
+          "relationship": "conditional_option",
+          "condition": "Percutaneous pins or a lateral plate are placed in the proximal humerus"
+        }
+      ],
+      "sections": {
+        "positioning": [
+          {
+            "text": "Position beach-chair or supine with fluoroscopy to localize pin and plate positions relative to the humeral head.",
+            "source_ids": [
+              "ao_fe9a06e24651710f"
+            ]
+          }
+        ],
+        "surface_landmarks": [
+          {
+            "text": "Reference the top of the humeral head and the lateral acromion to estimate the axillary nerve zone.",
+            "source_ids": [
+              "ao_fe9a06e24651710f",
+              "ao_8f2c45a58145d70b"
+            ]
+          }
+        ],
+        "incision": [
+          {
+            "text": "Use small lateral stab incisions through the deltoid for percutaneous pins.",
+            "source_ids": [
+              "ao_fe9a06e24651710f"
+            ]
+          }
+        ],
+        "superficial_interval": [
+          {
+            "text": "Insert pins laterally through the deltoid, keeping clear of the axillary nerve zone that lies about 5 to 9.5 cm below the top of the humeral head.",
+            "source_ids": [
+              "ao_fe9a06e24651710f",
+              "ao_8f2c45a58145d70b"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "deep_interval": [
+          {
+            "text": "Let pin tips just perforate the far cortex, controlling posteromedial penetration to avoid the main axillary nerve trunk, and do not pin the long head of biceps to bone.",
+            "source_ids": [
+              "ao_fe9a06e24651710f"
+            ],
+            "risk_level": "medium"
+          }
+        ],
+        "layers": [
+          {
+            "text": "Skin, subcutaneous tissue, deltoid, the subdeltoid space with the axillary nerve and circumflex vessels, and the proximal humeral cortex.",
+            "source_ids": [
+              "ao_fe9a06e24651710f"
+            ]
+          }
+        ],
+        "structures_at_risk": [
+          {
+            "text": "The axillary nerve below the humeral head, the anterior and posterior circumflex humeral arteries and the arcuate branch to the head, and the long head of biceps are at risk.",
+            "source_ids": [
+              "ao_fe9a06e24651710f",
+              "ao_8f2c45a58145d70b"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "danger_zones": [
+          {
+            "text": "The band 4.5 to 9.5 cm below the top of the humeral head is the danger zone for the axillary nerve, and deep posteromedial drilling endangers its main trunk.",
+            "source_ids": [
+              "ao_fe9a06e24651710f",
+              "ao_8f2c45a58145d70b"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "retraction_hazards": [
+          {
+            "text": "Keep far-cortex penetration minimal, especially posteromedially, and avoid transfixing the biceps tendon.",
+            "source_ids": [
+              "ao_fe9a06e24651710f"
+            ],
+            "risk_level": "medium"
+          }
+        ],
+        "exposure": [
+          {
+            "text": "Defines safe lateral corridors for pins and plates rather than a formal open exposure.",
+            "source_ids": [
+              "ao_fe9a06e24651710f"
+            ]
+          }
+        ],
+        "limitations": [
+          {
+            "text": "The stated distances are guides only because axillary nerve position varies considerably, so imaging and caution remain essential.",
+            "source_ids": [
+              "ao_fe9a06e24651710f"
+            ]
+          }
+        ],
+        "indications": [
+          {
+            "text": "Indicated to guide safe pin, screw, and plate placement in the proximal humerus.",
+            "source_ids": [
+              "ao_fe9a06e24651710f"
+            ]
+          }
+        ],
+        "closure": [
+          {
+            "text": "Close each stab incision loosely around the pins.",
+            "source_ids": [
+              "ao_fe9a06e24651710f"
+            ]
+          }
+        ],
+        "complications": [
+          {
+            "text": "Complications include axillary nerve injury, circumflex vessel injury with head devascularization, and biceps tendon transfixion.",
+            "source_ids": [
+              "ao_fe9a06e24651710f",
+              "ao_8f2c45a58145d70b"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "questions": [
+          {
+            "question": "How far below the humeral head top does the axillary nerve risk zone lie?",
+            "answer": "About 4.5 to 9.5 cm below the top of the humeral head.",
+            "source_ids": [
+              "ao_fe9a06e24651710f"
+            ]
+          },
+          {
+            "question": "How deep should pin tips go in the humeral shaft?",
+            "answer": "Just perforating the far cortex, with controlled posteromedial penetration.",
+            "source_ids": [
+              "ao_fe9a06e24651710f"
+            ]
+          },
+          {
+            "question": "What structure should never be pinned to bone here?",
+            "answer": "The tendon of the long head of biceps.",
+            "source_ids": [
+              "ao_fe9a06e24651710f"
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

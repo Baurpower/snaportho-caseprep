@@ -445,6 +445,13 @@
       "provider": "PubMed",
       "title": "A staged protocol for soft tissue management in complex pilon fractures",
       "url": "https://pubmed.ncbi.nlm.nih.gov/10052780/"
+    },
+    {
+      "source_id": "orthobullets_ae1bb898d84969e6",
+      "provider": "Orthobullets",
+      "title": "Ankle Anterior Approach",
+      "url": "https://www.orthobullets.com/approaches/12040/ankle-anterior-approach",
+      "source_page_id": "orthobullets_ae1bb898d84969e6"
     }
   ],
   "content_status": "agent_review_pending",

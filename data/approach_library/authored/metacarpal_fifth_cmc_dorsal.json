@@ -1,0 +1,344 @@
+{
+  "schema_version": "brobot_approach_packet_v1",
+  "approach_id": "metacarpal_fifth_cmc_dorsal",
+  "name": "Dorsal approach to the fifth carpometacarpal joint",
+  "aliases": [
+    "dorsoulnar 5th CMC approach"
+  ],
+  "region": "metacarpals",
+  "joint": "fifth carpometacarpal joint",
+  "bones": [
+    "fifth metacarpal",
+    "hamate"
+  ],
+  "corridor": "Curved dorsoulnar incision along the fifth metacarpal that turns radially over the hamate, retracting the little-finger extensors radially and the dorsal sensory ulnar nerve with ECU ulnarly",
+  "positioning": [
+    {
+      "text": "Position the hand pronated so the dorsoulnar fifth ray and hamate are accessible.",
+      "claim_ids": [
+        "metacarpal_fifth_cmc_dorsal_positioning_01"
+      ]
+    }
+  ],
+  "setup": [],
+  "surface_landmarks": [
+    {
+      "text": "Mark the fifth metacarpal, the hamate, the ECU insertion on the ulnar fifth-metacarpal base, and the course of the dorsal sensory ulnar nerve.",
+      "claim_ids": [
+        "metacarpal_fifth_cmc_dorsal_surface_landmarks_01"
+      ]
+    }
+  ],
+  "incision": [
+    {
+      "text": "Make a curved cut along the dorsoulnar fifth metacarpal that turns radially over the hamate. The dorsal sensory ulnar branches are especially vulnerable in the proximal third.",
+      "claim_ids": [
+        "metacarpal_fifth_cmc_dorsal_incision_01"
+      ]
+    }
+  ],
+  "superficial_interval": [
+    {
+      "text": "Protect the dorsal sensory ulnar nerve and longitudinal veins. Retract the little-finger extensors radially with their loose tissue, and retract the sensory nerve ulnarly, often with ECU.",
+      "claim_ids": [
+        "metacarpal_fifth_cmc_dorsal_superficial_interval_01"
+      ]
+    }
+  ],
+  "deep_interval": [
+    {
+      "text": "Make a longitudinal capsulotomy for intra-articular fractures, or extend an existing capsular tear. If the joint is not opened, mark it with a needle or K-wire and check on the image intensifier before placing screws.",
+      "claim_ids": [
+        "metacarpal_fifth_cmc_dorsal_deep_interval_01"
+      ]
+    }
+  ],
+  "layers": [
+    {
+      "text": "Skin, dorsal sensory ulnar nerve and veins, little-finger extensors and ECU, dorsal capsule, then the fifth CMC and hamate.",
+      "claim_ids": [
+        "metacarpal_fifth_cmc_dorsal_layers_01"
+      ]
+    }
+  ],
+  "structures_encountered": [],
+  "structures_at_risk": [
+    {
+      "text": "The dorsal sensory branch of the ulnar nerve, longitudinal veins, little-finger extensors, and the ECU insertion are at risk.",
+      "claim_ids": [
+        "metacarpal_fifth_cmc_dorsal_structures_at_risk_01"
+      ]
+    }
+  ],
+  "danger_zones": [
+    {
+      "text": "The proximal third of the incision is the danger zone for the dorsal sensory ulnar nerve. Blind screws can enter the CMC joint.",
+      "claim_ids": [
+        "metacarpal_fifth_cmc_dorsal_danger_zones_01"
+      ]
+    }
+  ],
+  "retraction_hazards": [
+    {
+      "text": "Retract radial sensory branches radially and ulnar sensory branches ulnarly rather than stretching a nerve across the field.",
+      "claim_ids": [
+        "metacarpal_fifth_cmc_dorsal_retraction_hazards_01"
+      ]
+    }
+  ],
+  "exposure": [
+    {
+      "text": "Exposes the fifth CMC for base fractures, fracture-dislocations, and ECU avulsions.",
+      "claim_ids": [
+        "metacarpal_fifth_cmc_dorsal_exposure_01"
+      ]
+    }
+  ],
+  "limitations": [
+    {
+      "text": "This window is specific to the fifth ray; widely separated radial CMC injuries need a separate tendon-respecting incision.",
+      "claim_ids": [
+        "metacarpal_fifth_cmc_dorsal_limitations_01"
+      ]
+    }
+  ],
+  "extensions": [],
+  "indications": [
+    {
+      "text": "Indicated for intra-articular fifth-metacarpal-base fractures, 5th CMC fracture-dislocations, ECU avulsions, and rare displaced extra-articular fifth-metacarpal-base fractures.",
+      "claim_ids": [
+        "metacarpal_fifth_cmc_dorsal_indications_01"
+      ]
+    }
+  ],
+  "relative_contraindications": [],
+  "implant_implications": [],
+  "fluoroscopy_implications": [],
+  "closure": [
+    {
+      "text": "Cover implants with periosteum, repair any divided intertendinous connection, and close skin without trapping the sensory nerve.",
+      "claim_ids": [
+        "metacarpal_fifth_cmc_dorsal_closure_01"
+      ]
+    }
+  ],
+  "complications": [
+    {
+      "text": "Complications include dorsal sensory ulnar neurapraxia or neuroma, extensor adhesion to uncovered metal, and intra-articular screw penetration.",
+      "claim_ids": [
+        "metacarpal_fifth_cmc_dorsal_complications_01"
+      ]
+    }
+  ],
+  "bailouts": [],
+  "procedure_applications": [
+    {
+      "procedure_id": "finger_cmc_fracture_dislocation_orif",
+      "relationship": "primary_option",
+      "condition": "A fifth-metacarpal-base intra-articular fracture, 5th CMC fracture-dislocation, or ECU avulsion is exposed dorsoulnarly"
+    }
+  ],
+  "questions": [
+    {
+      "question": "Where is the dorsal sensory ulnar nerve most vulnerable?",
+      "answer": "In the proximal third of the incision as it curves over the hamate.",
+      "claim_ids": [
+        "metacarpal_fifth_cmc_dorsal_questions_01"
+      ]
+    },
+    {
+      "question": "Where does ECU insert?",
+      "answer": "On the ulnar side of the fifth-metacarpal base.",
+      "claim_ids": [
+        "metacarpal_fifth_cmc_dorsal_questions_02"
+      ]
+    },
+    {
+      "question": "How can the joint be marked if a capsulotomy is not made?",
+      "answer": "With a hypodermic needle or small K-wire checked on the image intensifier.",
+      "claim_ids": [
+        "metacarpal_fifth_cmc_dorsal_questions_03"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "metacarpal_fifth_cmc_dorsal_positioning_01",
+      "text": "Position the hand pronated so the dorsoulnar fifth ray and hamate are accessible.",
+      "source_ids": [
+        "ao_bb130dc336fb9064",
+        "ao_ff90094dc3e2b188"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "metacarpal_fifth_cmc_dorsal_surface_landmarks_01",
+      "text": "Mark the fifth metacarpal, the hamate, the ECU insertion on the ulnar fifth-metacarpal base, and the course of the dorsal sensory ulnar nerve.",
+      "source_ids": [
+        "ao_bb130dc336fb9064"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "metacarpal_fifth_cmc_dorsal_incision_01",
+      "text": "Make a curved cut along the dorsoulnar fifth metacarpal that turns radially over the hamate. The dorsal sensory ulnar branches are especially vulnerable in the proximal third.",
+      "source_ids": [
+        "ao_bb130dc336fb9064"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "metacarpal_fifth_cmc_dorsal_superficial_interval_01",
+      "text": "Protect the dorsal sensory ulnar nerve and longitudinal veins. Retract the little-finger extensors radially with their loose tissue, and retract the sensory nerve ulnarly, often with ECU.",
+      "source_ids": [
+        "ao_bb130dc336fb9064",
+        "ao_ff90094dc3e2b188"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "metacarpal_fifth_cmc_dorsal_deep_interval_01",
+      "text": "Make a longitudinal capsulotomy for intra-articular fractures, or extend an existing capsular tear. If the joint is not opened, mark it with a needle or K-wire and check on the image intensifier before placing screws.",
+      "source_ids": [
+        "ao_bb130dc336fb9064",
+        "ao_ff90094dc3e2b188"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "metacarpal_fifth_cmc_dorsal_layers_01",
+      "text": "Skin, dorsal sensory ulnar nerve and veins, little-finger extensors and ECU, dorsal capsule, then the fifth CMC and hamate.",
+      "source_ids": [
+        "ao_bb130dc336fb9064"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "metacarpal_fifth_cmc_dorsal_structures_at_risk_01",
+      "text": "The dorsal sensory branch of the ulnar nerve, longitudinal veins, little-finger extensors, and the ECU insertion are at risk.",
+      "source_ids": [
+        "ao_bb130dc336fb9064",
+        "ao_ff90094dc3e2b188"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "metacarpal_fifth_cmc_dorsal_danger_zones_01",
+      "text": "The proximal third of the incision is the danger zone for the dorsal sensory ulnar nerve. Blind screws can enter the CMC joint.",
+      "source_ids": [
+        "ao_bb130dc336fb9064"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "metacarpal_fifth_cmc_dorsal_retraction_hazards_01",
+      "text": "Retract radial sensory branches radially and ulnar sensory branches ulnarly rather than stretching a nerve across the field.",
+      "source_ids": [
+        "ao_ff90094dc3e2b188",
+        "ao_bb130dc336fb9064"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "metacarpal_fifth_cmc_dorsal_exposure_01",
+      "text": "Exposes the fifth CMC for base fractures, fracture-dislocations, and ECU avulsions.",
+      "source_ids": [
+        "ao_bb130dc336fb9064"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "metacarpal_fifth_cmc_dorsal_limitations_01",
+      "text": "This window is specific to the fifth ray; widely separated radial CMC injuries need a separate tendon-respecting incision.",
+      "source_ids": [
+        "ao_ff90094dc3e2b188"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "metacarpal_fifth_cmc_dorsal_indications_01",
+      "text": "Indicated for intra-articular fifth-metacarpal-base fractures, 5th CMC fracture-dislocations, ECU avulsions, and rare displaced extra-articular fifth-metacarpal-base fractures.",
+      "source_ids": [
+        "ao_bb130dc336fb9064"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "metacarpal_fifth_cmc_dorsal_closure_01",
+      "text": "Cover implants with periosteum, repair any divided intertendinous connection, and close skin without trapping the sensory nerve.",
+      "source_ids": [
+        "ao_bb130dc336fb9064",
+        "ao_ff90094dc3e2b188"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "metacarpal_fifth_cmc_dorsal_complications_01",
+      "text": "Complications include dorsal sensory ulnar neurapraxia or neuroma, extensor adhesion to uncovered metal, and intra-articular screw penetration.",
+      "source_ids": [
+        "ao_bb130dc336fb9064",
+        "ao_ff90094dc3e2b188"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "metacarpal_fifth_cmc_dorsal_questions_01",
+      "text": "Where is the dorsal sensory ulnar nerve most vulnerable?",
+      "source_ids": [
+        "ao_bb130dc336fb9064"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "metacarpal_fifth_cmc_dorsal_questions_02",
+      "text": "Where does ECU insert?",
+      "source_ids": [
+        "ao_bb130dc336fb9064"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "metacarpal_fifth_cmc_dorsal_questions_03",
+      "text": "How can the joint be marked if a capsulotomy is not made?",
+      "source_ids": [
+        "ao_bb130dc336fb9064"
+      ],
+      "risk_level": "medium"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "ao_bb130dc336fb9064",
+      "provider": "AO Surgery Reference",
+      "title": "Dorsal Approach To 5Th Cmc Joint",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/metacarpals/approach/dorsal-approach-to-5th-cmc-joint",
+      "source_page_id": "ao_bb130dc336fb9064"
+    },
+    {
+      "source_id": "ao_ff90094dc3e2b188",
+      "provider": "AO Surgery Reference",
+      "title": "Dorsal approach to the carpometacarpal joints",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/carpal-bones/approach/dorsal-approach-to-the-carpometacarpal-joints",
+      "source_page_id": "ao_ff90094dc3e2b188"
+    }
+  ],
+  "content_status": "agent_review_pending",
+  "review": {
+    "status": "agent_review_pending",
+    "required_roles": [
+      "adversarial_safety_reviewer",
+      "approach_anatomy_reviewer",
+      "educational_value_reviewer",
+      "evidence_reviewer",
+      "operative_exposure_reviewer",
+      "procedure_applicability_reviewer"
+    ],
+    "completed_roles": []
+  },
+  "resolved_contradiction_keys": [],
+  "authoring_provenance": {
+    "method": "local_codex_curated",
+    "definition_file": "data/approach_library/curated/humerus_fifth_cmc_batch001_v1.json",
+    "api_used": false
+  }
+}

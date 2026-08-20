@@ -1,0 +1,341 @@
+{
+  "schema_version": "brobot_approach_packet_v1",
+  "approach_id": "tibial_shaft_posteromedial",
+  "name": "Posteromedial approach to the tibial shaft",
+  "aliases": [
+    "posteromedial tibial plating approach"
+  ],
+  "region": "tibial-shaft",
+  "joint": "",
+  "bones": [
+    "tibia"
+  ],
+  "corridor": "Incision 1–2 cm posterior to the posteromedial tibial border, saphenous structures taken anteriorly, then extra-periosteal mobilization of the superficial and deep posterior compartments to the posterolateral tibial edge",
+  "positioning": [
+    {
+      "text": "Position supine with the knee flexed and the hip externally rotated, or prone, which needs less manipulation.",
+      "claim_ids": [
+        "tibial_shaft_posteromedial_positioning_01"
+      ]
+    }
+  ],
+  "setup": [],
+  "surface_landmarks": [
+    {
+      "text": "Palpate the posteromedial tibial border along its length and mark a line 1–2 cm posterior to it. Note the saphenous vein and nerve.",
+      "claim_ids": [
+        "tibial_shaft_posteromedial_surface_landmarks_01"
+      ]
+    }
+  ],
+  "incision": [
+    {
+      "text": "Incise parallel to and 1–2 cm behind the posterior tibial border. Length follows the fracture and plate. Mini-open cuts are safe in this region.",
+      "claim_ids": [
+        "tibial_shaft_posteromedial_incision_01"
+      ]
+    }
+  ],
+  "superficial_interval": [
+    {
+      "text": "Identify and protect the saphenous vein and nerve and typically mobilize them anteriorly.",
+      "claim_ids": [
+        "tibial_shaft_posteromedial_superficial_interval_01"
+      ]
+    }
+  ],
+  "deep_interval": [
+    {
+      "text": "Incise fascia in line with the skin and mobilize the superficial and deep posterior compartments. Gastrocnemius, soleus, and flexor digitorum are lifted extra-periosteally according to fracture level. Do not dissect beyond the posterolateral tibial edge. The middle three-fifths of the posterior tibia can be shown. The fibula is not reached.",
+      "claim_ids": [
+        "tibial_shaft_posteromedial_deep_interval_01"
+      ]
+    }
+  ],
+  "layers": [
+    {
+      "text": "Skin, saphenous plane, fascia, posterior-compartment muscle, extra-periosteal tibia.",
+      "claim_ids": [
+        "tibial_shaft_posteromedial_layers_01"
+      ]
+    }
+  ],
+  "structures_encountered": [],
+  "structures_at_risk": [
+    {
+      "text": "The saphenous vein and nerve, and the deep posterior compartment if fascia is closed, are at risk.",
+      "claim_ids": [
+        "tibial_shaft_posteromedial_structures_at_risk_01"
+      ]
+    }
+  ],
+  "danger_zones": [
+    {
+      "text": "Closing deep fascia over the deep posterior space is the compartment-syndrome danger zone.",
+      "claim_ids": [
+        "tibial_shaft_posteromedial_danger_zones_01"
+      ]
+    }
+  ],
+  "retraction_hazards": [
+    {
+      "text": "Stay extra-periosteal and stop at the posterolateral tibial edge rather than chasing the fibula.",
+      "claim_ids": [
+        "tibial_shaft_posteromedial_retraction_hazards_01"
+      ]
+    }
+  ],
+  "exposure": [
+    {
+      "text": "Shows the flat posterior tibia for plating with little contouring, and can also be used for a medial fasciotomy. Access is tibia only, not fibula.",
+      "claim_ids": [
+        "tibial_shaft_posteromedial_exposure_01"
+      ]
+    }
+  ],
+  "limitations": [
+    {
+      "text": "Does not reach the fibula. Use it when only posteromedial skin is safe.",
+      "claim_ids": [
+        "tibial_shaft_posteromedial_limitations_01"
+      ]
+    }
+  ],
+  "extensions": [],
+  "indications": [
+    {
+      "text": "Used for open posterior plating when only posteromedial tissues can be incised, and as a medial fasciotomy incision.",
+      "claim_ids": [
+        "tibial_shaft_posteromedial_indications_01"
+      ]
+    }
+  ],
+  "relative_contraindications": [],
+  "implant_implications": [],
+  "fluoroscopy_implications": [],
+  "closure": [
+    {
+      "text": "Almost always leave deep fascia open. Close only skin and subcutaneous tissue.",
+      "claim_ids": [
+        "tibial_shaft_posteromedial_closure_01"
+      ]
+    }
+  ],
+  "complications": [
+    {
+      "text": "Complications include saphenous injury and deep-posterior compartment syndrome if fascia is closed.",
+      "claim_ids": [
+        "tibial_shaft_posteromedial_complications_01"
+      ]
+    }
+  ],
+  "bailouts": [],
+  "procedure_applications": [
+    {
+      "procedure_id": "tibial_shaft_fracture_orif",
+      "relationship": "conditional_option",
+      "condition": "The posterior tibia is plated because only the posteromedial skin is safe to incise"
+    }
+  ],
+  "questions": [
+    {
+      "question": "Where is the posteromedial tibial-shaft incision placed?",
+      "answer": "1–2 cm posterior to the palpated posteromedial tibial border.",
+      "claim_ids": [
+        "tibial_shaft_posteromedial_questions_01"
+      ]
+    },
+    {
+      "question": "How far should dissection go?",
+      "answer": "Not beyond the posterolateral aspect of the tibia; the middle three-fifths of the posterior tibia can be exposed.",
+      "claim_ids": [
+        "tibial_shaft_posteromedial_questions_02"
+      ]
+    },
+    {
+      "question": "Should deep fascia be closed?",
+      "answer": "Almost never; leave it open to protect the deep posterior compartment.",
+      "claim_ids": [
+        "tibial_shaft_posteromedial_questions_03"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "tibial_shaft_posteromedial_positioning_01",
+      "text": "Position supine with the knee flexed and the hip externally rotated, or prone, which needs less manipulation.",
+      "source_ids": [
+        "ao_62a03d1b28e42ad4"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "tibial_shaft_posteromedial_surface_landmarks_01",
+      "text": "Palpate the posteromedial tibial border along its length and mark a line 1–2 cm posterior to it. Note the saphenous vein and nerve.",
+      "source_ids": [
+        "ao_62a03d1b28e42ad4",
+        "ao_52556d8e928066ce"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "tibial_shaft_posteromedial_incision_01",
+      "text": "Incise parallel to and 1–2 cm behind the posterior tibial border. Length follows the fracture and plate. Mini-open cuts are safe in this region.",
+      "source_ids": [
+        "ao_62a03d1b28e42ad4"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "tibial_shaft_posteromedial_superficial_interval_01",
+      "text": "Identify and protect the saphenous vein and nerve and typically mobilize them anteriorly.",
+      "source_ids": [
+        "ao_62a03d1b28e42ad4",
+        "ao_52556d8e928066ce"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "tibial_shaft_posteromedial_deep_interval_01",
+      "text": "Incise fascia in line with the skin and mobilize the superficial and deep posterior compartments. Gastrocnemius, soleus, and flexor digitorum are lifted extra-periosteally according to fracture level. Do not dissect beyond the posterolateral tibial edge. The middle three-fifths of the posterior tibia can be shown. The fibula is not reached.",
+      "source_ids": [
+        "ao_62a03d1b28e42ad4"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "tibial_shaft_posteromedial_layers_01",
+      "text": "Skin, saphenous plane, fascia, posterior-compartment muscle, extra-periosteal tibia.",
+      "source_ids": [
+        "ao_62a03d1b28e42ad4",
+        "ao_52556d8e928066ce"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "tibial_shaft_posteromedial_structures_at_risk_01",
+      "text": "The saphenous vein and nerve, and the deep posterior compartment if fascia is closed, are at risk.",
+      "source_ids": [
+        "ao_62a03d1b28e42ad4",
+        "ao_52556d8e928066ce"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "tibial_shaft_posteromedial_danger_zones_01",
+      "text": "Closing deep fascia over the deep posterior space is the compartment-syndrome danger zone.",
+      "source_ids": [
+        "ao_62a03d1b28e42ad4"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "tibial_shaft_posteromedial_retraction_hazards_01",
+      "text": "Stay extra-periosteal and stop at the posterolateral tibial edge rather than chasing the fibula.",
+      "source_ids": [
+        "ao_62a03d1b28e42ad4"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "tibial_shaft_posteromedial_exposure_01",
+      "text": "Shows the flat posterior tibia for plating with little contouring, and can also be used for a medial fasciotomy. Access is tibia only, not fibula.",
+      "source_ids": [
+        "ao_62a03d1b28e42ad4"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "tibial_shaft_posteromedial_limitations_01",
+      "text": "Does not reach the fibula. Use it when only posteromedial skin is safe.",
+      "source_ids": [
+        "ao_62a03d1b28e42ad4"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "tibial_shaft_posteromedial_indications_01",
+      "text": "Used for open posterior plating when only posteromedial tissues can be incised, and as a medial fasciotomy incision.",
+      "source_ids": [
+        "ao_62a03d1b28e42ad4"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "tibial_shaft_posteromedial_closure_01",
+      "text": "Almost always leave deep fascia open. Close only skin and subcutaneous tissue.",
+      "source_ids": [
+        "ao_62a03d1b28e42ad4"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "tibial_shaft_posteromedial_complications_01",
+      "text": "Complications include saphenous injury and deep-posterior compartment syndrome if fascia is closed.",
+      "source_ids": [
+        "ao_62a03d1b28e42ad4",
+        "ao_52556d8e928066ce"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "tibial_shaft_posteromedial_questions_01",
+      "text": "Where is the posteromedial tibial-shaft incision placed?",
+      "source_ids": [
+        "ao_62a03d1b28e42ad4"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "tibial_shaft_posteromedial_questions_02",
+      "text": "How far should dissection go?",
+      "source_ids": [
+        "ao_62a03d1b28e42ad4"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "tibial_shaft_posteromedial_questions_03",
+      "text": "Should deep fascia be closed?",
+      "source_ids": [
+        "ao_62a03d1b28e42ad4"
+      ],
+      "risk_level": "medium"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "ao_62a03d1b28e42ad4",
+      "provider": "AO Surgery Reference",
+      "title": "Approach To Posteromedial Surface Of The Tibial Shaft",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/tibial-shaft/approach/approach-to-posteromedial-surface-of-the-tibial-shaft",
+      "source_page_id": "ao_62a03d1b28e42ad4"
+    },
+    {
+      "source_id": "ao_52556d8e928066ce",
+      "provider": "AO Surgery Reference",
+      "title": "Posteromedial Approach To The Distal Tibia",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/distal-tibia/approach/posteromedial-approach-to-the-distal-tibia",
+      "source_page_id": "ao_52556d8e928066ce"
+    }
+  ],
+  "content_status": "agent_review_pending",
+  "review": {
+    "status": "agent_review_pending",
+    "required_roles": [
+      "adversarial_safety_reviewer",
+      "approach_anatomy_reviewer",
+      "educational_value_reviewer",
+      "evidence_reviewer",
+      "operative_exposure_reviewer",
+      "procedure_applicability_reviewer"
+    ],
+    "completed_roles": []
+  },
+  "resolved_contradiction_keys": [],
+  "authoring_provenance": {
+    "method": "local_codex_curated",
+    "definition_file": "data/approach_library/curated/tibial_shaft_batch001_v1.json",
+    "api_used": false
+  }
+}

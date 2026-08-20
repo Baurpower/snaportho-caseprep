@@ -1,0 +1,333 @@
+{
+  "schema_version": "brobot_approach_packet_v1",
+  "approach_id": "spine_sacrum_posterior_midline",
+  "name": "Posterior midline approach to the sacrum",
+  "aliases": [
+    "posterior sacral midline approach"
+  ],
+  "region": "sacrum",
+  "joint": "sacroiliac",
+  "bones": [
+    "sacrum",
+    "posterior ilium"
+  ],
+  "corridor": "Midline incision, lumbosacral fascia opened parallel to L4–L5 spinous processes, multifidus taken from medial to lateral; complete muscle mass can be lifted off the posterior iliac crest for the sacral ala",
+  "positioning": [
+    {
+      "text": "Position prone so both sides of the sacrum and the posterior iliac crests can be reached, avoiding crushed posterior skin.",
+      "claim_ids": [
+        "spine_sacrum_posterior_midline_positioning_01"
+      ]
+    }
+  ],
+  "setup": [],
+  "surface_landmarks": [
+    {
+      "text": "Mark the midline over the sacrum, L4–L5 spinous processes, and posterior iliac crests.",
+      "claim_ids": [
+        "spine_sacrum_posterior_midline_surface_landmarks_01"
+      ]
+    }
+  ],
+  "incision": [
+    {
+      "text": "Use a midline cut whose length follows the fracture or pathology so both sides of the sacrum can be seen. Do not go through severely contused skin, crushed tissue, or a Morel-Lavallée hematoma.",
+      "claim_ids": [
+        "spine_sacrum_posterior_midline_incision_01"
+      ]
+    }
+  ],
+  "superficial_interval": [
+    {
+      "text": "Incise the lumbosacral fascia parallel to the L4 and L5 spinous processes on the injured side if a lumbar extension is needed.",
+      "claim_ids": [
+        "spine_sacrum_posterior_midline_superficial_interval_01"
+      ]
+    }
+  ],
+  "deep_interval": [
+    {
+      "text": "Elevate lumbosacral musculature subperiosteally. Incise the multifidus insertion medially and lift it laterally. For the sacral ala, elevate the complete muscle mass by taking its lateral attachment off the posterior iliac crest.",
+      "claim_ids": [
+        "spine_sacrum_posterior_midline_deep_interval_01"
+      ]
+    }
+  ],
+  "layers": [
+    {
+      "text": "Skin, lumbosacral fascia, multifidus, then the posterior sacrum and optional posterior ilium.",
+      "claim_ids": [
+        "spine_sacrum_posterior_midline_layers_01"
+      ]
+    }
+  ],
+  "structures_encountered": [],
+  "structures_at_risk": [
+    {
+      "text": "Posterior skin over a Morel-Lavallée lesion and the sacral nerve roots during decompression are at risk.",
+      "claim_ids": [
+        "spine_sacrum_posterior_midline_structures_at_risk_01"
+      ]
+    }
+  ],
+  "danger_zones": [
+    {
+      "text": "Incising through crushed posterior tissue or a subcutaneous hematoma is the wound-healing danger zone.",
+      "claim_ids": [
+        "spine_sacrum_posterior_midline_danger_zones_01"
+      ]
+    }
+  ],
+  "retraction_hazards": [
+    {
+      "text": "Reposition erector spinae gently and reattach the superior gluteus maximus origin at closure.",
+      "claim_ids": [
+        "spine_sacrum_posterior_midline_retraction_hazards_01"
+      ]
+    }
+  ],
+  "exposure": [
+    {
+      "text": "Shows the posterior sacral surface, the posterior aspects of both SI joints, and adjacent posterior ilium.",
+      "claim_ids": [
+        "spine_sacrum_posterior_midline_exposure_01"
+      ]
+    }
+  ],
+  "limitations": [
+    {
+      "text": "Does not replace a paramedian window when only one side of the posterior ilium is needed.",
+      "claim_ids": [
+        "spine_sacrum_posterior_midline_limitations_01"
+      ]
+    }
+  ],
+  "extensions": [],
+  "indications": [
+    {
+      "text": "Used for sacral-fracture fixation, sacral-root decompression, and posterior S1–S5 tumor access.",
+      "claim_ids": [
+        "spine_sacrum_posterior_midline_indications_01"
+      ]
+    }
+  ],
+  "relative_contraindications": [],
+  "implant_implications": [],
+  "fluoroscopy_implications": [],
+  "closure": [
+    {
+      "text": "Reposition erector spinae, reattach the superior gluteus maximus origin, and close fat and skin in layers.",
+      "claim_ids": [
+        "spine_sacrum_posterior_midline_closure_01"
+      ]
+    }
+  ],
+  "complications": [
+    {
+      "text": "Complications include wound breakdown through a Morel-Lavallée lesion and dehiscence if gluteus maximus is not reattached.",
+      "claim_ids": [
+        "spine_sacrum_posterior_midline_complications_01"
+      ]
+    }
+  ],
+  "bailouts": [],
+  "procedure_applications": [
+    {
+      "procedure_id": "pelvic_ring_orif",
+      "relationship": "primary_option",
+      "condition": "A sacral fracture, sacral-root decompression, or posterior sacral tumor is exposed from the midline"
+    }
+  ],
+  "questions": [
+    {
+      "question": "How is multifidus taken down in the midline sacral approach?",
+      "answer": "Its insertion is incised medially and the muscle is elevated laterally.",
+      "claim_ids": [
+        "spine_sacrum_posterior_midline_questions_01"
+      ]
+    },
+    {
+      "question": "How is the sacral ala reached?",
+      "answer": "Elevate the complete muscle mass by dissecting its lateral attachment from the posterior iliac crest.",
+      "claim_ids": [
+        "spine_sacrum_posterior_midline_questions_02"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "spine_sacrum_posterior_midline_positioning_01",
+      "text": "Position prone so both sides of the sacrum and the posterior iliac crests can be reached, avoiding crushed posterior skin.",
+      "source_ids": [
+        "ao_5c4513b89c6a1314",
+        "ao_7137f89cdc36f652"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "spine_sacrum_posterior_midline_surface_landmarks_01",
+      "text": "Mark the midline over the sacrum, L4–L5 spinous processes, and posterior iliac crests.",
+      "source_ids": [
+        "ao_5c4513b89c6a1314",
+        "ao_7137f89cdc36f652"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "spine_sacrum_posterior_midline_incision_01",
+      "text": "Use a midline cut whose length follows the fracture or pathology so both sides of the sacrum can be seen. Do not go through severely contused skin, crushed tissue, or a Morel-Lavallée hematoma.",
+      "source_ids": [
+        "ao_5c4513b89c6a1314"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "spine_sacrum_posterior_midline_superficial_interval_01",
+      "text": "Incise the lumbosacral fascia parallel to the L4 and L5 spinous processes on the injured side if a lumbar extension is needed.",
+      "source_ids": [
+        "ao_5c4513b89c6a1314",
+        "ao_7137f89cdc36f652"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "spine_sacrum_posterior_midline_deep_interval_01",
+      "text": "Elevate lumbosacral musculature subperiosteally. Incise the multifidus insertion medially and lift it laterally. For the sacral ala, elevate the complete muscle mass by taking its lateral attachment off the posterior iliac crest.",
+      "source_ids": [
+        "ao_5c4513b89c6a1314",
+        "ao_7137f89cdc36f652"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "spine_sacrum_posterior_midline_layers_01",
+      "text": "Skin, lumbosacral fascia, multifidus, then the posterior sacrum and optional posterior ilium.",
+      "source_ids": [
+        "ao_5c4513b89c6a1314",
+        "ao_7137f89cdc36f652"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "spine_sacrum_posterior_midline_structures_at_risk_01",
+      "text": "Posterior skin over a Morel-Lavallée lesion and the sacral nerve roots during decompression are at risk.",
+      "source_ids": [
+        "ao_5c4513b89c6a1314"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "spine_sacrum_posterior_midline_danger_zones_01",
+      "text": "Incising through crushed posterior tissue or a subcutaneous hematoma is the wound-healing danger zone.",
+      "source_ids": [
+        "ao_5c4513b89c6a1314"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "spine_sacrum_posterior_midline_retraction_hazards_01",
+      "text": "Reposition erector spinae gently and reattach the superior gluteus maximus origin at closure.",
+      "source_ids": [
+        "ao_5c4513b89c6a1314",
+        "ao_7137f89cdc36f652"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "spine_sacrum_posterior_midline_exposure_01",
+      "text": "Shows the posterior sacral surface, the posterior aspects of both SI joints, and adjacent posterior ilium.",
+      "source_ids": [
+        "ao_5c4513b89c6a1314"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "spine_sacrum_posterior_midline_limitations_01",
+      "text": "Does not replace a paramedian window when only one side of the posterior ilium is needed.",
+      "source_ids": [
+        "ao_5c4513b89c6a1314"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "spine_sacrum_posterior_midline_indications_01",
+      "text": "Used for sacral-fracture fixation, sacral-root decompression, and posterior S1–S5 tumor access.",
+      "source_ids": [
+        "ao_5c4513b89c6a1314",
+        "ao_7137f89cdc36f652"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "spine_sacrum_posterior_midline_closure_01",
+      "text": "Reposition erector spinae, reattach the superior gluteus maximus origin, and close fat and skin in layers.",
+      "source_ids": [
+        "ao_5c4513b89c6a1314",
+        "ao_7137f89cdc36f652"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "spine_sacrum_posterior_midline_complications_01",
+      "text": "Complications include wound breakdown through a Morel-Lavallée lesion and dehiscence if gluteus maximus is not reattached.",
+      "source_ids": [
+        "ao_5c4513b89c6a1314",
+        "ao_7137f89cdc36f652"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "spine_sacrum_posterior_midline_questions_01",
+      "text": "How is multifidus taken down in the midline sacral approach?",
+      "source_ids": [
+        "ao_5c4513b89c6a1314",
+        "ao_7137f89cdc36f652"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "spine_sacrum_posterior_midline_questions_02",
+      "text": "How is the sacral ala reached?",
+      "source_ids": [
+        "ao_5c4513b89c6a1314",
+        "ao_7137f89cdc36f652"
+      ],
+      "risk_level": "medium"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "ao_5c4513b89c6a1314",
+      "provider": "AO Surgery Reference",
+      "title": "Posterior Midline Approach To The Sacrum",
+      "url": "https://surgeryreference.aofoundation.org/spine/trauma/sacrum/approach/posterior-midline-approach-to-the-sacrum",
+      "source_page_id": "ao_5c4513b89c6a1314"
+    },
+    {
+      "source_id": "ao_7137f89cdc36f652",
+      "provider": "AO Surgery Reference",
+      "title": "Posterior Midline Approach To The Sacrum S1 To S5",
+      "url": "https://surgeryreference.aofoundation.org/spine/tumors/primary-tumors/approach/posterior-midline-approach-to-the-sacrum-s1-to-s5",
+      "source_page_id": "ao_7137f89cdc36f652"
+    }
+  ],
+  "content_status": "agent_review_pending",
+  "review": {
+    "status": "agent_review_pending",
+    "required_roles": [
+      "adversarial_safety_reviewer",
+      "approach_anatomy_reviewer",
+      "educational_value_reviewer",
+      "evidence_reviewer",
+      "operative_exposure_reviewer",
+      "procedure_applicability_reviewer"
+    ],
+    "completed_roles": []
+  },
+  "resolved_contradiction_keys": [],
+  "authoring_provenance": {
+    "method": "local_codex_curated",
+    "definition_file": "data/approach_library/curated/spine_remaining_batch001_v1.json",
+    "api_used": false
+  }
+}

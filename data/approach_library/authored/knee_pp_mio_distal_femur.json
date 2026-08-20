@@ -1,0 +1,341 @@
+{
+  "schema_version": "brobot_approach_packet_v1",
+  "approach_id": "knee_pp_mio_distal_femur",
+  "name": "Minimally invasive lateral approach to the distal femur (periprosthetic knee)",
+  "aliases": [
+    "periprosthetic distal-femur MIO"
+  ],
+  "region": "distal-femur",
+  "joint": "knee",
+  "bones": [
+    "distal femur",
+    "femoral shaft"
+  ],
+  "corridor": "Short lateral distal window through the IT band with vastus lateralis left largely undisturbed, a submuscular plate tunnel, a proximal vastus-split window, and 1.5–2 cm stab incisions for screws",
+  "positioning": [
+    {
+      "text": "Position supine so the lateral epicondyle, Gerdy tubercle, and a line to the greater trochanter can be imaged. The corridor is safe next to a healed midline TKA scar.",
+      "claim_ids": [
+        "knee_pp_mio_distal_femur_positioning_01"
+      ]
+    }
+  ],
+  "setup": [],
+  "surface_landmarks": [
+    {
+      "text": "Mark the lateral femoral epicondyle, Gerdy tubercle, and the line toward the greater trochanter.",
+      "claim_ids": [
+        "knee_pp_mio_distal_femur_surface_landmarks_01"
+      ]
+    }
+  ],
+  "incision": [
+    {
+      "text": "Use a shortened open-lateral distal cut starting in the metaphysis and extending beyond Gerdy only if arthrotomy is needed. Add a short proximal incision on the epicondyle–trochanter line and 1.5–2 cm stabs for screws.",
+      "claim_ids": [
+        "knee_pp_mio_distal_femur_incision_01"
+      ]
+    }
+  ],
+  "superficial_interval": [
+    {
+      "text": "Divide the IT band in line with its fibers. Distally there are few vastus-lateralis fibers in the last 8–10 cm, so the lateral femur is seen once the IT band is open.",
+      "claim_ids": [
+        "knee_pp_mio_distal_femur_superficial_interval_01"
+      ]
+    }
+  ],
+  "deep_interval": [
+    {
+      "text": "Slide the plate in the submuscular space beneath vastus lateralis. Proximally split vastus fibers rather than elevating the whole belly from the septum. Cauterize superior lateral genicular vessels. Optional arthrotomy over the anterior third of the lateral condyle can reach the anterior lateral tibial prosthesis.",
+      "claim_ids": [
+        "knee_pp_mio_distal_femur_deep_interval_01"
+      ]
+    }
+  ],
+  "layers": [
+    {
+      "text": "Skin, IT band, largely undisturbed vastus lateralis, submuscular tunnel, periosteum, then the lateral femur.",
+      "claim_ids": [
+        "knee_pp_mio_distal_femur_layers_01"
+      ]
+    }
+  ],
+  "structures_encountered": [],
+  "structures_at_risk": [
+    {
+      "text": "Superior lateral genicular vessels, the patellar tendon during arthrotomy, and an off-center proximal plate that misses the shaft are at risk.",
+      "claim_ids": [
+        "knee_pp_mio_distal_femur_structures_at_risk_01"
+      ]
+    }
+  ],
+  "danger_zones": [
+    {
+      "text": "A too-small stab incision hides the screw path. Confirm the most proximal hole is centered before any other proximal screws are placed.",
+      "claim_ids": [
+        "knee_pp_mio_distal_femur_danger_zones_01"
+      ]
+    }
+  ],
+  "retraction_hazards": [
+    {
+      "text": "Avoid excessive tension on the patellar tendon, especially in osteoporotic bone. Use anterior and posterior Hohmann retractors in the proximal window.",
+      "claim_ids": [
+        "knee_pp_mio_distal_femur_retraction_hazards_01"
+      ]
+    }
+  ],
+  "exposure": [
+    {
+      "text": "Combines a short distal lateral window, a submuscular plate tunnel, a proximal alignment window, and percutaneous screws.",
+      "claim_ids": [
+        "knee_pp_mio_distal_femur_exposure_01"
+      ]
+    }
+  ],
+  "limitations": [
+    {
+      "text": "Vastus lateralis is not fully elevated. Joint view requires a 3–4 cm distal extension.",
+      "claim_ids": [
+        "knee_pp_mio_distal_femur_limitations_01"
+      ]
+    }
+  ],
+  "extensions": [],
+  "indications": [
+    {
+      "text": "Used for lateral MIO plating of a distal-femoral periprosthetic fracture beside a healed midline TKA incision.",
+      "claim_ids": [
+        "knee_pp_mio_distal_femur_indications_01"
+      ]
+    }
+  ],
+  "relative_contraindications": [],
+  "implant_implications": [],
+  "fluoroscopy_implications": [],
+  "closure": [
+    {
+      "text": "Close any arthrotomy and the IT band with absorbable suture at each window, then close skin routinely.",
+      "claim_ids": [
+        "knee_pp_mio_distal_femur_closure_01"
+      ]
+    }
+  ],
+  "complications": [
+    {
+      "text": "Complications include genicular bleeding, patellar-tendon injury, and an off-axis proximal plate.",
+      "claim_ids": [
+        "knee_pp_mio_distal_femur_complications_01"
+      ]
+    }
+  ],
+  "bailouts": [],
+  "procedure_applications": [
+    {
+      "procedure_id": "distal_femur_fracture_orif",
+      "relationship": "primary_option",
+      "condition": "A distal-femoral periprosthetic fracture is plated with a lateral MIO construct beside a healed midline TKA scar"
+    }
+  ],
+  "questions": [
+    {
+      "question": "Where is the plate slid?",
+      "answer": "In the natural submuscular space beneath vastus lateralis.",
+      "claim_ids": [
+        "knee_pp_mio_distal_femur_questions_01"
+      ]
+    },
+    {
+      "question": "How does the proximal window differ from a formal lateral femur approach?",
+      "answer": "Vastus fibers are split rather than elevating the whole belly from the intermuscular septum.",
+      "claim_ids": [
+        "knee_pp_mio_distal_femur_questions_02"
+      ]
+    },
+    {
+      "question": "How wide should screw stabs be?",
+      "answer": "1.5–2 cm; too-small stabs are a common mistake.",
+      "claim_ids": [
+        "knee_pp_mio_distal_femur_questions_03"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "knee_pp_mio_distal_femur_positioning_01",
+      "text": "Position supine so the lateral epicondyle, Gerdy tubercle, and a line to the greater trochanter can be imaged. The corridor is safe next to a healed midline TKA scar.",
+      "source_ids": [
+        "ao_d1413c1b3e24fd19"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "knee_pp_mio_distal_femur_surface_landmarks_01",
+      "text": "Mark the lateral femoral epicondyle, Gerdy tubercle, and the line toward the greater trochanter.",
+      "source_ids": [
+        "ao_d1413c1b3e24fd19",
+        "ao_14af295b107767ca"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "knee_pp_mio_distal_femur_incision_01",
+      "text": "Use a shortened open-lateral distal cut starting in the metaphysis and extending beyond Gerdy only if arthrotomy is needed. Add a short proximal incision on the epicondyle–trochanter line and 1.5–2 cm stabs for screws.",
+      "source_ids": [
+        "ao_d1413c1b3e24fd19"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "knee_pp_mio_distal_femur_superficial_interval_01",
+      "text": "Divide the IT band in line with its fibers. Distally there are few vastus-lateralis fibers in the last 8–10 cm, so the lateral femur is seen once the IT band is open.",
+      "source_ids": [
+        "ao_d1413c1b3e24fd19"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "knee_pp_mio_distal_femur_deep_interval_01",
+      "text": "Slide the plate in the submuscular space beneath vastus lateralis. Proximally split vastus fibers rather than elevating the whole belly from the septum. Cauterize superior lateral genicular vessels. Optional arthrotomy over the anterior third of the lateral condyle can reach the anterior lateral tibial prosthesis.",
+      "source_ids": [
+        "ao_d1413c1b3e24fd19",
+        "ao_14af295b107767ca"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "knee_pp_mio_distal_femur_layers_01",
+      "text": "Skin, IT band, largely undisturbed vastus lateralis, submuscular tunnel, periosteum, then the lateral femur.",
+      "source_ids": [
+        "ao_d1413c1b3e24fd19"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "knee_pp_mio_distal_femur_structures_at_risk_01",
+      "text": "Superior lateral genicular vessels, the patellar tendon during arthrotomy, and an off-center proximal plate that misses the shaft are at risk.",
+      "source_ids": [
+        "ao_d1413c1b3e24fd19",
+        "ao_14af295b107767ca"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "knee_pp_mio_distal_femur_danger_zones_01",
+      "text": "A too-small stab incision hides the screw path. Confirm the most proximal hole is centered before any other proximal screws are placed.",
+      "source_ids": [
+        "ao_d1413c1b3e24fd19"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "knee_pp_mio_distal_femur_retraction_hazards_01",
+      "text": "Avoid excessive tension on the patellar tendon, especially in osteoporotic bone. Use anterior and posterior Hohmann retractors in the proximal window.",
+      "source_ids": [
+        "ao_d1413c1b3e24fd19"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "knee_pp_mio_distal_femur_exposure_01",
+      "text": "Combines a short distal lateral window, a submuscular plate tunnel, a proximal alignment window, and percutaneous screws.",
+      "source_ids": [
+        "ao_d1413c1b3e24fd19"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "knee_pp_mio_distal_femur_limitations_01",
+      "text": "Vastus lateralis is not fully elevated. Joint view requires a 3–4 cm distal extension.",
+      "source_ids": [
+        "ao_d1413c1b3e24fd19"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "knee_pp_mio_distal_femur_indications_01",
+      "text": "Used for lateral MIO plating of a distal-femoral periprosthetic fracture beside a healed midline TKA incision.",
+      "source_ids": [
+        "ao_d1413c1b3e24fd19"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "knee_pp_mio_distal_femur_closure_01",
+      "text": "Close any arthrotomy and the IT band with absorbable suture at each window, then close skin routinely.",
+      "source_ids": [
+        "ao_d1413c1b3e24fd19"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "knee_pp_mio_distal_femur_complications_01",
+      "text": "Complications include genicular bleeding, patellar-tendon injury, and an off-axis proximal plate.",
+      "source_ids": [
+        "ao_d1413c1b3e24fd19",
+        "ao_14af295b107767ca"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "knee_pp_mio_distal_femur_questions_01",
+      "text": "Where is the plate slid?",
+      "source_ids": [
+        "ao_d1413c1b3e24fd19"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "knee_pp_mio_distal_femur_questions_02",
+      "text": "How does the proximal window differ from a formal lateral femur approach?",
+      "source_ids": [
+        "ao_d1413c1b3e24fd19"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "knee_pp_mio_distal_femur_questions_03",
+      "text": "How wide should screw stabs be?",
+      "source_ids": [
+        "ao_d1413c1b3e24fd19"
+      ],
+      "risk_level": "medium"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "ao_d1413c1b3e24fd19",
+      "provider": "AO Surgery Reference",
+      "title": "Mio Approach Distal Femur",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/periprosthetic-fractures/knee/approach/mio-approach-distal-femur",
+      "source_page_id": "ao_d1413c1b3e24fd19"
+    },
+    {
+      "source_id": "ao_14af295b107767ca",
+      "provider": "AO Surgery Reference",
+      "title": "MIPO Approach To The Distal Femur From Lateral Anterolateral",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/distal-femur/approach/mipo-approach-to-the-distal-femur-from-lateral-anterolateral",
+      "source_page_id": "ao_14af295b107767ca"
+    }
+  ],
+  "content_status": "agent_review_pending",
+  "review": {
+    "status": "agent_review_pending",
+    "required_roles": [
+      "adversarial_safety_reviewer",
+      "approach_anatomy_reviewer",
+      "educational_value_reviewer",
+      "evidence_reviewer",
+      "operative_exposure_reviewer",
+      "procedure_applicability_reviewer"
+    ],
+    "completed_roles": []
+  },
+  "resolved_contradiction_keys": [],
+  "authoring_provenance": {
+    "method": "local_codex_curated",
+    "definition_file": "data/approach_library/curated/periprosthetic_knee_batch001_v1.json",
+    "api_used": false
+  }
+}

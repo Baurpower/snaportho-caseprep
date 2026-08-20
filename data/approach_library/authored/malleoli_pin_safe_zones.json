@@ -1,0 +1,356 @@
+{
+  "schema_version": "brobot_approach_packet_v1",
+  "approach_id": "malleoli_pin_safe_zones",
+  "name": "Safe zones for pins and percutaneous instrumentation around the ankle",
+  "aliases": [
+    "ankle spanning-frame pin corridors",
+    "malleoli percutaneous pin safe zones"
+  ],
+  "region": "malleoli",
+  "joint": "ankle",
+  "bones": [
+    "calcaneus",
+    "tibia",
+    "fourth metatarsal"
+  ],
+  "corridor": "Medial-to-lateral calcaneal tuberosity pin posterior to the posterior-tibial bundle, anterior-to-medial tibial Schanz screws in the distal half of the shaft, and a hand-inserted screw in the fourth-metatarsal base between extensor tendons",
+  "positioning": [
+    {
+      "text": "Position so the calcaneal tuberosity, distal tibial shaft, and fourth-metatarsal base can be imaged and, if swelling allows, the posterior tibial pulse palpated.",
+      "claim_ids": [
+        "malleoli_pin_safe_zones_positioning_01"
+      ]
+    }
+  ],
+  "setup": [],
+  "surface_landmarks": [
+    {
+      "text": "Mark the posterior tibial pulse behind the medial malleolus (or copy its location from the uninjured side if the injured pulse is not felt), the anterior and medial tibial faces, and the extensor intervals at the fourth-metatarsal base.",
+      "claim_ids": [
+        "malleoli_pin_safe_zones_surface_landmarks_01"
+      ]
+    }
+  ],
+  "incision": [
+    {
+      "text": "Use mini-open windows rather than blind power insertion, especially at the calcaneus and fourth metatarsal.",
+      "claim_ids": [
+        "malleoli_pin_safe_zones_incision_01"
+      ]
+    }
+  ],
+  "superficial_interval": [
+    {
+      "text": "Insert a calcaneal Steinmann pin from medial through the tuberosity, staying away from the posterior tibial bundle. Place two tibial Schanz screws in the distal half of the shaft in the wide anterior-to-medial safe zone, generally from anterior so medial hardware does not strike the other leg.",
+      "claim_ids": [
+        "malleoli_pin_safe_zones_superficial_interval_01"
+      ]
+    }
+  ],
+  "deep_interval": [
+    {
+      "text": "Do not over-penetrate the posterior tibial cortex, which can impale tibialis posterior or the posterior bundle. At the fourth-metatarsal base, thread a small Schanz screw by hand between the extensors to the fourth and fifth toes, or between the third and fourth; never use a power tool, because plantar over-penetration endangers plantar structures.",
+      "claim_ids": [
+        "malleoli_pin_safe_zones_deep_interval_01"
+      ]
+    }
+  ],
+  "layers": [
+    {
+      "text": "Skin, defined safe corridors (calcaneal tuberosity, anterior/medial tibia, fourth-metatarsal extensor intervals), then bicortical bone.",
+      "claim_ids": [
+        "malleoli_pin_safe_zones_layers_01"
+      ]
+    }
+  ],
+  "structures_encountered": [],
+  "structures_at_risk": [
+    {
+      "text": "The posterior tibial neurovascular bundle, tibialis posterior, extensor tendons at the fourth-metatarsal base, and plantar structures with over-penetration are at risk.",
+      "claim_ids": [
+        "malleoli_pin_safe_zones_structures_at_risk_01"
+      ]
+    }
+  ],
+  "danger_zones": [
+    {
+      "text": "The bundle behind the medial malleolus is the calcaneal-pin danger zone. The posterior tibial cortex and the plantar fourth-metatarsal cortex are over-penetration danger zones.",
+      "claim_ids": [
+        "malleoli_pin_safe_zones_danger_zones_01"
+      ]
+    }
+  ],
+  "retraction_hazards": [
+    {
+      "text": "If the injured posterior tibial pulse cannot be felt, use the uninjured side as a guide rather than guessing through swelling.",
+      "claim_ids": [
+        "malleoli_pin_safe_zones_retraction_hazards_01"
+      ]
+    }
+  ],
+  "exposure": [
+    {
+      "text": "Provides only pin and wire corridors, not an open articular exposure.",
+      "claim_ids": [
+        "malleoli_pin_safe_zones_exposure_01"
+      ]
+    }
+  ],
+  "limitations": [
+    {
+      "text": "The paired anterior-approach safe-zone page states only the general principle and supplies no extra corridors. Medial tibial metalwork can bother the contralateral leg, so anterior tibial pins are preferred.",
+      "claim_ids": [
+        "malleoli_pin_safe_zones_limitations_01"
+      ]
+    }
+  ],
+  "extensions": [],
+  "indications": [
+    {
+      "text": "Used to place calcaneal, distal-tibial, and fourth-metatarsal pins or transfixion wires through defined ankle safe zones.",
+      "claim_ids": [
+        "malleoli_pin_safe_zones_indications_01"
+      ]
+    }
+  ],
+  "relative_contraindications": [],
+  "implant_implications": [],
+  "fluoroscopy_implications": [],
+  "closure": [
+    {
+      "text": "Dress pin sites after confirming far-cortex engagement without over-penetration.",
+      "claim_ids": [
+        "malleoli_pin_safe_zones_closure_01"
+      ]
+    }
+  ],
+  "complications": [
+    {
+      "text": "Complications include posterior-tibial bundle injury from a medial calcaneal pin, posterior neurovascular injury from an over-long tibial screw, and plantar-structure injury from a powered fourth-metatarsal pin.",
+      "claim_ids": [
+        "malleoli_pin_safe_zones_complications_01"
+      ]
+    }
+  ],
+  "bailouts": [],
+  "procedure_applications": [
+    {
+      "procedure_id": "pilon_ankle_fracture_orif",
+      "relationship": "conditional_option",
+      "condition": "A spanning external fixator or percutaneous wires are placed around an ankle or pilon injury"
+    }
+  ],
+  "questions": [
+    {
+      "question": "From which side is a calcaneal Steinmann pin inserted?",
+      "answer": "From the medial side through the calcaneal tuberosity, avoiding the posterior tibial bundle.",
+      "claim_ids": [
+        "malleoli_pin_safe_zones_questions_01"
+      ]
+    },
+    {
+      "question": "Where is the tibial Schanz-screw safe zone in the distal half of the shaft?",
+      "answer": "A wide corridor from direct anterior to direct medial, usually used from anterior.",
+      "claim_ids": [
+        "malleoli_pin_safe_zones_questions_02"
+      ]
+    },
+    {
+      "question": "How must a fourth-metatarsal-base screw be inserted?",
+      "answer": "By hand, never with a power tool, between the extensor tendons.",
+      "claim_ids": [
+        "malleoli_pin_safe_zones_questions_03"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "malleoli_pin_safe_zones_positioning_01",
+      "text": "Position so the calcaneal tuberosity, distal tibial shaft, and fourth-metatarsal base can be imaged and, if swelling allows, the posterior tibial pulse palpated.",
+      "source_ids": [
+        "ao_9615eab8a001bf0e",
+        "ao_e853cb1071acace7"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "malleoli_pin_safe_zones_surface_landmarks_01",
+      "text": "Mark the posterior tibial pulse behind the medial malleolus (or copy its location from the uninjured side if the injured pulse is not felt), the anterior and medial tibial faces, and the extensor intervals at the fourth-metatarsal base.",
+      "source_ids": [
+        "ao_9615eab8a001bf0e"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "malleoli_pin_safe_zones_incision_01",
+      "text": "Use mini-open windows rather than blind power insertion, especially at the calcaneus and fourth metatarsal.",
+      "source_ids": [
+        "ao_9615eab8a001bf0e",
+        "ao_7ad725da3000c2d9"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "malleoli_pin_safe_zones_superficial_interval_01",
+      "text": "Insert a calcaneal Steinmann pin from medial through the tuberosity, staying away from the posterior tibial bundle. Place two tibial Schanz screws in the distal half of the shaft in the wide anterior-to-medial safe zone, generally from anterior so medial hardware does not strike the other leg.",
+      "source_ids": [
+        "ao_9615eab8a001bf0e",
+        "ao_e853cb1071acace7"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "malleoli_pin_safe_zones_deep_interval_01",
+      "text": "Do not over-penetrate the posterior tibial cortex, which can impale tibialis posterior or the posterior bundle. At the fourth-metatarsal base, thread a small Schanz screw by hand between the extensors to the fourth and fifth toes, or between the third and fourth; never use a power tool, because plantar over-penetration endangers plantar structures.",
+      "source_ids": [
+        "ao_9615eab8a001bf0e"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "malleoli_pin_safe_zones_layers_01",
+      "text": "Skin, defined safe corridors (calcaneal tuberosity, anterior/medial tibia, fourth-metatarsal extensor intervals), then bicortical bone.",
+      "source_ids": [
+        "ao_9615eab8a001bf0e",
+        "ao_e853cb1071acace7"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "malleoli_pin_safe_zones_structures_at_risk_01",
+      "text": "The posterior tibial neurovascular bundle, tibialis posterior, extensor tendons at the fourth-metatarsal base, and plantar structures with over-penetration are at risk.",
+      "source_ids": [
+        "ao_9615eab8a001bf0e",
+        "ao_e853cb1071acace7"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "malleoli_pin_safe_zones_danger_zones_01",
+      "text": "The bundle behind the medial malleolus is the calcaneal-pin danger zone. The posterior tibial cortex and the plantar fourth-metatarsal cortex are over-penetration danger zones.",
+      "source_ids": [
+        "ao_9615eab8a001bf0e"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "malleoli_pin_safe_zones_retraction_hazards_01",
+      "text": "If the injured posterior tibial pulse cannot be felt, use the uninjured side as a guide rather than guessing through swelling.",
+      "source_ids": [
+        "ao_9615eab8a001bf0e"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "malleoli_pin_safe_zones_exposure_01",
+      "text": "Provides only pin and wire corridors, not an open articular exposure.",
+      "source_ids": [
+        "ao_9615eab8a001bf0e",
+        "ao_7ad725da3000c2d9"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "malleoli_pin_safe_zones_limitations_01",
+      "text": "The paired anterior-approach safe-zone page states only the general principle and supplies no extra corridors. Medial tibial metalwork can bother the contralateral leg, so anterior tibial pins are preferred.",
+      "source_ids": [
+        "ao_9615eab8a001bf0e",
+        "ao_7ad725da3000c2d9"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "malleoli_pin_safe_zones_indications_01",
+      "text": "Used to place calcaneal, distal-tibial, and fourth-metatarsal pins or transfixion wires through defined ankle safe zones.",
+      "source_ids": [
+        "ao_9615eab8a001bf0e",
+        "ao_7ad725da3000c2d9"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "malleoli_pin_safe_zones_closure_01",
+      "text": "Dress pin sites after confirming far-cortex engagement without over-penetration.",
+      "source_ids": [
+        "ao_9615eab8a001bf0e",
+        "ao_e853cb1071acace7"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "malleoli_pin_safe_zones_complications_01",
+      "text": "Complications include posterior-tibial bundle injury from a medial calcaneal pin, posterior neurovascular injury from an over-long tibial screw, and plantar-structure injury from a powered fourth-metatarsal pin.",
+      "source_ids": [
+        "ao_9615eab8a001bf0e",
+        "ao_e853cb1071acace7"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "malleoli_pin_safe_zones_questions_01",
+      "text": "From which side is a calcaneal Steinmann pin inserted?",
+      "source_ids": [
+        "ao_9615eab8a001bf0e"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "malleoli_pin_safe_zones_questions_02",
+      "text": "Where is the tibial Schanz-screw safe zone in the distal half of the shaft?",
+      "source_ids": [
+        "ao_9615eab8a001bf0e"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "malleoli_pin_safe_zones_questions_03",
+      "text": "How must a fourth-metatarsal-base screw be inserted?",
+      "source_ids": [
+        "ao_9615eab8a001bf0e"
+      ],
+      "risk_level": "medium"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "ao_9615eab8a001bf0e",
+      "provider": "AO Surgery Reference",
+      "title": "Safe Zones For Percutaneous Instrumentation",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/malleoli/approach/safe-zones-for-percutaneous-instrumentation",
+      "source_page_id": "ao_9615eab8a001bf0e"
+    },
+    {
+      "source_id": "ao_7ad725da3000c2d9",
+      "provider": "AO Surgery Reference",
+      "title": "Safe Zones For Anterior Approach",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/malleoli/approach/safe-zones-for-anterior-approach",
+      "source_page_id": "ao_7ad725da3000c2d9"
+    },
+    {
+      "source_id": "ao_e853cb1071acace7",
+      "provider": "AO Surgery Reference",
+      "title": "Safe zones (distal tibia)",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/distal-tibia/approach/safe-zones",
+      "source_page_id": "ao_e853cb1071acace7"
+    }
+  ],
+  "content_status": "agent_review_pending",
+  "review": {
+    "status": "agent_review_pending",
+    "required_roles": [
+      "adversarial_safety_reviewer",
+      "approach_anatomy_reviewer",
+      "educational_value_reviewer",
+      "evidence_reviewer",
+      "operative_exposure_reviewer",
+      "procedure_applicability_reviewer"
+    ],
+    "completed_roles": []
+  },
+  "resolved_contradiction_keys": [],
+  "authoring_provenance": {
+    "method": "local_codex_curated",
+    "definition_file": "data/approach_library/curated/malleoli_patella_batch001_v1.json",
+    "api_used": false
+  }
+}

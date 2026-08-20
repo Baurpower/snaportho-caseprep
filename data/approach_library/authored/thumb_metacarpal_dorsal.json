@@ -1,0 +1,351 @@
+{
+  "schema_version": "brobot_approach_packet_v1",
+  "approach_id": "thumb_metacarpal_dorsal",
+  "name": "Dorsal approach to the thumb metacarpal",
+  "aliases": [
+    "dorsal first-metacarpal approach"
+  ],
+  "region": "thumb",
+  "joint": "carpometacarpal",
+  "bones": [
+    "first metacarpal",
+    "trapezium"
+  ],
+  "corridor": "Straight cut over the EPL–EPB interval along the first metacarpal, or radial to EPB with both tendons taken ulnarly, protecting dorsal sensory radial-nerve branches and the radial artery over the trapezium",
+  "positioning": [
+    {
+      "text": "Position the hand so the full first metacarpal and first CMC can be seen under tourniquet.",
+      "claim_ids": [
+        "thumb_metacarpal_dorsal_positioning_01"
+      ]
+    }
+  ],
+  "setup": [],
+  "surface_landmarks": [
+    {
+      "text": "Mark the EPL–EPB interval along the first metacarpal, the trapezium, and the expected dorsoulnar and dorsoradial sensory radial-nerve branches.",
+      "claim_ids": [
+        "thumb_metacarpal_dorsal_surface_landmarks_01"
+      ]
+    }
+  ],
+  "incision": [
+    {
+      "text": "Make a straight cut over the EPL–EPB interval for the length of the first metacarpal. Alternatively cut radial to EPB; that cut can be extended proximally, curving ulnarly.",
+      "claim_ids": [
+        "thumb_metacarpal_dorsal_incision_01"
+      ]
+    }
+  ],
+  "superficial_interval": [
+    {
+      "text": "Identify and protect the dorsal sensory radial-nerve divisions and the longitudinal veins.",
+      "claim_ids": [
+        "thumb_metacarpal_dorsal_superficial_interval_01"
+      ]
+    }
+  ],
+  "deep_interval": [
+    {
+      "text": "Incise fascia between EPL and EPB and retract them apart. If the more radial cut was used, incise fascia radial to EPB and retract both tendons ulnarly. Add a first-CMC capsulotomy for intra-articular work or arthrodesis. The radial artery crosses the trapezium.",
+      "claim_ids": [
+        "thumb_metacarpal_dorsal_deep_interval_01"
+      ]
+    }
+  ],
+  "layers": [
+    {
+      "text": "Skin, sensory radial-nerve branches and veins, EPL–EPB fascia, periosteum, then the first-metacarpal shaft and optional first-CMC capsule.",
+      "claim_ids": [
+        "thumb_metacarpal_dorsal_layers_01"
+      ]
+    }
+  ],
+  "structures_encountered": [],
+  "structures_at_risk": [
+    {
+      "text": "The dorsoulnar and dorsoradial sensory radial-nerve branches, longitudinal veins, EPL and EPB, and the radial artery over the trapezium are at risk.",
+      "claim_ids": [
+        "thumb_metacarpal_dorsal_structures_at_risk_01"
+      ]
+    }
+  ],
+  "danger_zones": [
+    {
+      "text": "The radial artery crossing the trapezium and unpadded plate contact under EPL/EPB are the deep danger zones.",
+      "claim_ids": [
+        "thumb_metacarpal_dorsal_danger_zones_01"
+      ]
+    }
+  ],
+  "retraction_hazards": [
+    {
+      "text": "Protect the sensory nerves and veins while retracting the extensors; lift periosteum over an implant so the tendons glide on periosteum rather than metal.",
+      "claim_ids": [
+        "thumb_metacarpal_dorsal_retraction_hazards_01"
+      ]
+    }
+  ],
+  "exposure": [
+    {
+      "text": "Shows extra-articular first-metacarpal fractures, periarticular first-CMC fractures, and first-CMC arthrodesis.",
+      "claim_ids": [
+        "thumb_metacarpal_dorsal_exposure_01"
+      ]
+    }
+  ],
+  "limitations": [
+    {
+      "text": "Bennett or Rolando intra-articular base fractures that need the volar beak are better served by a radiopalmar window.",
+      "claim_ids": [
+        "thumb_metacarpal_dorsal_limitations_01"
+      ]
+    }
+  ],
+  "extensions": [],
+  "indications": [
+    {
+      "text": "Indicated for extra-articular first-metacarpal fractures, periarticular first-CMC fractures, and first-CMC arthrodesis.",
+      "claim_ids": [
+        "thumb_metacarpal_dorsal_indications_01"
+      ]
+    }
+  ],
+  "relative_contraindications": [],
+  "implant_implications": [],
+  "fluoroscopy_implications": [],
+  "closure": [
+    {
+      "text": "Repair the fascia between EPB and EPL with a running suture or fine mattress sutures.",
+      "claim_ids": [
+        "thumb_metacarpal_dorsal_closure_01"
+      ]
+    }
+  ],
+  "complications": [
+    {
+      "text": "Complications include sensory radial-nerve neuroma, radial-artery injury over the trapezium, and extensor irritation from an uncovered plate.",
+      "claim_ids": [
+        "thumb_metacarpal_dorsal_complications_01"
+      ]
+    }
+  ],
+  "bailouts": [],
+  "procedure_applications": [
+    {
+      "procedure_id": "thumb_fracture_orif",
+      "relationship": "primary_option",
+      "condition": "An extra-articular first-metacarpal fracture, a periarticular first-CMC fracture, or a first-CMC arthrodesis is exposed dorsally"
+    }
+  ],
+  "questions": [
+    {
+      "question": "Between which tendons is the standard dorsal first-metacarpal interval?",
+      "answer": "Extensor pollicis longus and extensor pollicis brevis.",
+      "claim_ids": [
+        "thumb_metacarpal_dorsal_questions_01"
+      ]
+    },
+    {
+      "question": "Which vessel crosses the trapezium in this field?",
+      "answer": "The radial artery.",
+      "claim_ids": [
+        "thumb_metacarpal_dorsal_questions_02"
+      ]
+    },
+    {
+      "question": "How can extensor-tendon contact with a plate be reduced?",
+      "answer": "Lift periosteum and cover the implant with it so the tendons glide on periosteum.",
+      "claim_ids": [
+        "thumb_metacarpal_dorsal_questions_03"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "thumb_metacarpal_dorsal_positioning_01",
+      "text": "Position the hand so the full first metacarpal and first CMC can be seen under tourniquet.",
+      "source_ids": [
+        "ao_291f448f05e405e9",
+        "ao_2407e0d9a61b8122"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "thumb_metacarpal_dorsal_surface_landmarks_01",
+      "text": "Mark the EPL–EPB interval along the first metacarpal, the trapezium, and the expected dorsoulnar and dorsoradial sensory radial-nerve branches.",
+      "source_ids": [
+        "ao_291f448f05e405e9",
+        "ao_bb6eacc3b4edcae4"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "thumb_metacarpal_dorsal_incision_01",
+      "text": "Make a straight cut over the EPL–EPB interval for the length of the first metacarpal. Alternatively cut radial to EPB; that cut can be extended proximally, curving ulnarly.",
+      "source_ids": [
+        "ao_291f448f05e405e9"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "thumb_metacarpal_dorsal_superficial_interval_01",
+      "text": "Identify and protect the dorsal sensory radial-nerve divisions and the longitudinal veins.",
+      "source_ids": [
+        "ao_291f448f05e405e9",
+        "ao_bb6eacc3b4edcae4"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "thumb_metacarpal_dorsal_deep_interval_01",
+      "text": "Incise fascia between EPL and EPB and retract them apart. If the more radial cut was used, incise fascia radial to EPB and retract both tendons ulnarly. Add a first-CMC capsulotomy for intra-articular work or arthrodesis. The radial artery crosses the trapezium.",
+      "source_ids": [
+        "ao_291f448f05e405e9"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "thumb_metacarpal_dorsal_layers_01",
+      "text": "Skin, sensory radial-nerve branches and veins, EPL–EPB fascia, periosteum, then the first-metacarpal shaft and optional first-CMC capsule.",
+      "source_ids": [
+        "ao_291f448f05e405e9",
+        "ao_2407e0d9a61b8122"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "thumb_metacarpal_dorsal_structures_at_risk_01",
+      "text": "The dorsoulnar and dorsoradial sensory radial-nerve branches, longitudinal veins, EPL and EPB, and the radial artery over the trapezium are at risk.",
+      "source_ids": [
+        "ao_291f448f05e405e9",
+        "ao_bb6eacc3b4edcae4"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "thumb_metacarpal_dorsal_danger_zones_01",
+      "text": "The radial artery crossing the trapezium and unpadded plate contact under EPL/EPB are the deep danger zones.",
+      "source_ids": [
+        "ao_291f448f05e405e9"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "thumb_metacarpal_dorsal_retraction_hazards_01",
+      "text": "Protect the sensory nerves and veins while retracting the extensors; lift periosteum over an implant so the tendons glide on periosteum rather than metal.",
+      "source_ids": [
+        "ao_291f448f05e405e9",
+        "ao_2407e0d9a61b8122"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "thumb_metacarpal_dorsal_exposure_01",
+      "text": "Shows extra-articular first-metacarpal fractures, periarticular first-CMC fractures, and first-CMC arthrodesis.",
+      "source_ids": [
+        "ao_291f448f05e405e9"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "thumb_metacarpal_dorsal_limitations_01",
+      "text": "Bennett or Rolando intra-articular base fractures that need the volar beak are better served by a radiopalmar window.",
+      "source_ids": [
+        "ao_291f448f05e405e9"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "thumb_metacarpal_dorsal_indications_01",
+      "text": "Indicated for extra-articular first-metacarpal fractures, periarticular first-CMC fractures, and first-CMC arthrodesis.",
+      "source_ids": [
+        "ao_291f448f05e405e9"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "thumb_metacarpal_dorsal_closure_01",
+      "text": "Repair the fascia between EPB and EPL with a running suture or fine mattress sutures.",
+      "source_ids": [
+        "ao_291f448f05e405e9"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "thumb_metacarpal_dorsal_complications_01",
+      "text": "Complications include sensory radial-nerve neuroma, radial-artery injury over the trapezium, and extensor irritation from an uncovered plate.",
+      "source_ids": [
+        "ao_291f448f05e405e9",
+        "ao_bb6eacc3b4edcae4"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "thumb_metacarpal_dorsal_questions_01",
+      "text": "Between which tendons is the standard dorsal first-metacarpal interval?",
+      "source_ids": [
+        "ao_291f448f05e405e9"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "thumb_metacarpal_dorsal_questions_02",
+      "text": "Which vessel crosses the trapezium in this field?",
+      "source_ids": [
+        "ao_291f448f05e405e9"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "thumb_metacarpal_dorsal_questions_03",
+      "text": "How can extensor-tendon contact with a plate be reduced?",
+      "source_ids": [
+        "ao_291f448f05e405e9"
+      ],
+      "risk_level": "medium"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "ao_291f448f05e405e9",
+      "provider": "AO Surgery Reference",
+      "title": "Dorsal Approach To The Thumb Metacarpal",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/thumb/approach/dorsal-approach-to-the-thumb-metacarpal",
+      "source_page_id": "ao_291f448f05e405e9"
+    },
+    {
+      "source_id": "ao_2407e0d9a61b8122",
+      "provider": "AO Surgery Reference",
+      "title": "Dorsal approach to the metacarpals",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/metacarpals/approach/dorsal-approach-to-metacarpals",
+      "source_page_id": "ao_2407e0d9a61b8122"
+    },
+    {
+      "source_id": "ao_bb6eacc3b4edcae4",
+      "provider": "AO Surgery Reference",
+      "title": "Dorsal Approach To The Metacarpophalangeal Mcp Joint Of The Thumb",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/thumb/approach/dorsal-approach-to-the-metacarpophalangeal-mcp-joint-of-the-thumb",
+      "source_page_id": "ao_bb6eacc3b4edcae4"
+    }
+  ],
+  "content_status": "agent_review_pending",
+  "review": {
+    "status": "agent_review_pending",
+    "required_roles": [
+      "adversarial_safety_reviewer",
+      "approach_anatomy_reviewer",
+      "educational_value_reviewer",
+      "evidence_reviewer",
+      "operative_exposure_reviewer",
+      "procedure_applicability_reviewer"
+    ],
+    "completed_roles": []
+  },
+  "resolved_contradiction_keys": [],
+  "authoring_provenance": {
+    "method": "local_codex_curated",
+    "definition_file": "data/approach_library/curated/thumb_batch001_v1.json",
+    "api_used": false
+  }
+}

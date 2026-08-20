@@ -1,0 +1,349 @@
+{
+  "schema_version": "brobot_approach_packet_v1",
+  "approach_id": "midfoot_navicular_cuneiform_medial_utility",
+  "name": "Medial utility incision to the navicular and cuneiform",
+  "aliases": [
+    "medial utility midfoot approach"
+  ],
+  "region": "midfoot",
+  "joint": "talonavicular joint",
+  "bones": [
+    "navicular",
+    "cuneiform",
+    "first metatarsal"
+  ],
+  "corridor": "Extensile medial incision in the internervous plane between tibialis anterior and tibialis posterior, with essentially no major neurovascular structures, exposing the whole medial column",
+  "positioning": [
+    {
+      "text": "Position supine with the foot externally rotated so the medial border is accessible, under tourniquet control.",
+      "claim_ids": [
+        "midfoot_navicular_cuneiform_medial_utility_positioning_01"
+      ]
+    }
+  ],
+  "setup": [],
+  "surface_landmarks": [
+    {
+      "text": "Mark the medial border of the foot over the navicular, between the tibialis anterior and tibialis posterior tendons.",
+      "claim_ids": [
+        "midfoot_navicular_cuneiform_medial_utility_surface_landmarks_01"
+      ]
+    }
+  ],
+  "incision": [
+    {
+      "text": "Make the medial utility incision over the navicular, extendable proximally to the talonavicular joint or distally to the cuneiforms and first metatarsal base, full thickness with no undermining.",
+      "claim_ids": [
+        "midfoot_navicular_cuneiform_medial_utility_incision_01"
+      ]
+    }
+  ],
+  "superficial_interval": [
+    {
+      "text": "Use the safe plane between tibialis posterior and tibialis anterior, cauterizing only small superficial veins since there are no major neurovascular structures in this region.",
+      "claim_ids": [
+        "midfoot_navicular_cuneiform_medial_utility_superficial_interval_01"
+      ]
+    }
+  ],
+  "deep_interval": [
+    {
+      "text": "Expose the medial column subperiosteally, keeping soft-tissue stripping minimal to protect the navicular blood supply, and add a dorsomedial incision only if needed for articular reduction with at least a 5 cm skin bridge.",
+      "claim_ids": [
+        "midfoot_navicular_cuneiform_medial_utility_deep_interval_01"
+      ]
+    }
+  ],
+  "layers": [
+    {
+      "text": "Skin, subcutaneous tissue with small veins, the tibialis anterior and posterior tendon interval, and the medial navicular, cuneiform, and first metatarsal.",
+      "claim_ids": [
+        "midfoot_navicular_cuneiform_medial_utility_layers_01"
+      ]
+    }
+  ],
+  "structures_encountered": [],
+  "structures_at_risk": [
+    {
+      "text": "There are no major neurovascular structures in this plane, but the navicular blood supply and the skin bridge to any second incision are at risk.",
+      "claim_ids": [
+        "midfoot_navicular_cuneiform_medial_utility_structures_at_risk_01"
+      ]
+    }
+  ],
+  "danger_zones": [
+    {
+      "text": "Over-stripping the navicular and a narrow skin bridge to a second incision are the danger zones.",
+      "claim_ids": [
+        "midfoot_navicular_cuneiform_medial_utility_danger_zones_01"
+      ]
+    }
+  ],
+  "retraction_hazards": [
+    {
+      "text": "Keep soft-tissue stripping minimal to protect navicular vascularity and maintain a full-thickness flap.",
+      "claim_ids": [
+        "midfoot_navicular_cuneiform_medial_utility_retraction_hazards_01"
+      ]
+    }
+  ],
+  "exposure": [
+    {
+      "text": "Exposes the whole medial first metatarsal, medial cuneiform, medial navicular, and head of the talus.",
+      "claim_ids": [
+        "midfoot_navicular_cuneiform_medial_utility_exposure_01"
+      ]
+    }
+  ],
+  "limitations": [
+    {
+      "text": "It exposes the medial column only; lateral or dorsal structures need an additional incision with an adequate skin bridge.",
+      "claim_ids": [
+        "midfoot_navicular_cuneiform_medial_utility_limitations_01"
+      ]
+    }
+  ],
+  "extensions": [],
+  "indications": [
+    {
+      "text": "Indicated for navicular, cuneiform, and first metatarsal base fractures and medial column reconstruction.",
+      "claim_ids": [
+        "midfoot_navicular_cuneiform_medial_utility_indications_01"
+      ]
+    }
+  ],
+  "relative_contraindications": [],
+  "implant_implications": [],
+  "fluoroscopy_implications": [],
+  "closure": [
+    {
+      "text": "Close the incision in layers.",
+      "claim_ids": [
+        "midfoot_navicular_cuneiform_medial_utility_closure_01"
+      ]
+    }
+  ],
+  "complications": [
+    {
+      "text": "Complications include navicular osteonecrosis from over-stripping and skin bridge necrosis when a second incision is used.",
+      "claim_ids": [
+        "midfoot_navicular_cuneiform_medial_utility_complications_01"
+      ]
+    }
+  ],
+  "bailouts": [],
+  "procedure_applications": [
+    {
+      "procedure_id": "lisfranc_orif",
+      "relationship": "primary_option",
+      "condition": "Extensile medial column exposure of the navicular, cuneiform, and first metatarsal base is needed"
+    }
+  ],
+  "questions": [
+    {
+      "question": "Which internervous plane does the medial utility incision use?",
+      "answer": "Between the tibialis posterior and the tibialis anterior.",
+      "claim_ids": [
+        "midfoot_navicular_cuneiform_medial_utility_questions_01"
+      ]
+    },
+    {
+      "question": "What minimum skin bridge is kept when adding a dorsomedial incision?",
+      "answer": "At least 5 cm.",
+      "claim_ids": [
+        "midfoot_navicular_cuneiform_medial_utility_questions_02"
+      ]
+    },
+    {
+      "question": "Why keep soft-tissue stripping minimal at the navicular?",
+      "answer": "To avoid disrupting its blood supply and causing osteonecrosis.",
+      "claim_ids": [
+        "midfoot_navicular_cuneiform_medial_utility_questions_03"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "midfoot_navicular_cuneiform_medial_utility_positioning_01",
+      "text": "Position supine with the foot externally rotated so the medial border is accessible, under tourniquet control.",
+      "source_ids": [
+        "ao_69e593655af090a4"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "midfoot_navicular_cuneiform_medial_utility_surface_landmarks_01",
+      "text": "Mark the medial border of the foot over the navicular, between the tibialis anterior and tibialis posterior tendons.",
+      "source_ids": [
+        "ao_69e593655af090a4"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "midfoot_navicular_cuneiform_medial_utility_incision_01",
+      "text": "Make the medial utility incision over the navicular, extendable proximally to the talonavicular joint or distally to the cuneiforms and first metatarsal base, full thickness with no undermining.",
+      "source_ids": [
+        "ao_69e593655af090a4"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "midfoot_navicular_cuneiform_medial_utility_superficial_interval_01",
+      "text": "Use the safe plane between tibialis posterior and tibialis anterior, cauterizing only small superficial veins since there are no major neurovascular structures in this region.",
+      "source_ids": [
+        "ao_69e593655af090a4"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "midfoot_navicular_cuneiform_medial_utility_deep_interval_01",
+      "text": "Expose the medial column subperiosteally, keeping soft-tissue stripping minimal to protect the navicular blood supply, and add a dorsomedial incision only if needed for articular reduction with at least a 5 cm skin bridge.",
+      "source_ids": [
+        "ao_69e593655af090a4",
+        "ao_5a2480d7716c078d"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "midfoot_navicular_cuneiform_medial_utility_layers_01",
+      "text": "Skin, subcutaneous tissue with small veins, the tibialis anterior and posterior tendon interval, and the medial navicular, cuneiform, and first metatarsal.",
+      "source_ids": [
+        "ao_69e593655af090a4"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "midfoot_navicular_cuneiform_medial_utility_structures_at_risk_01",
+      "text": "There are no major neurovascular structures in this plane, but the navicular blood supply and the skin bridge to any second incision are at risk.",
+      "source_ids": [
+        "ao_69e593655af090a4",
+        "ao_5a2480d7716c078d"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "midfoot_navicular_cuneiform_medial_utility_danger_zones_01",
+      "text": "Over-stripping the navicular and a narrow skin bridge to a second incision are the danger zones.",
+      "source_ids": [
+        "ao_69e593655af090a4"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "midfoot_navicular_cuneiform_medial_utility_retraction_hazards_01",
+      "text": "Keep soft-tissue stripping minimal to protect navicular vascularity and maintain a full-thickness flap.",
+      "source_ids": [
+        "ao_69e593655af090a4",
+        "ao_5a2480d7716c078d"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "midfoot_navicular_cuneiform_medial_utility_exposure_01",
+      "text": "Exposes the whole medial first metatarsal, medial cuneiform, medial navicular, and head of the talus.",
+      "source_ids": [
+        "ao_69e593655af090a4"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "midfoot_navicular_cuneiform_medial_utility_limitations_01",
+      "text": "It exposes the medial column only; lateral or dorsal structures need an additional incision with an adequate skin bridge.",
+      "source_ids": [
+        "ao_69e593655af090a4"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "midfoot_navicular_cuneiform_medial_utility_indications_01",
+      "text": "Indicated for navicular, cuneiform, and first metatarsal base fractures and medial column reconstruction.",
+      "source_ids": [
+        "ao_69e593655af090a4"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "midfoot_navicular_cuneiform_medial_utility_closure_01",
+      "text": "Close the incision in layers.",
+      "source_ids": [
+        "ao_69e593655af090a4"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "midfoot_navicular_cuneiform_medial_utility_complications_01",
+      "text": "Complications include navicular osteonecrosis from over-stripping and skin bridge necrosis when a second incision is used.",
+      "source_ids": [
+        "ao_69e593655af090a4",
+        "ao_5a2480d7716c078d"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "midfoot_navicular_cuneiform_medial_utility_questions_01",
+      "text": "Which internervous plane does the medial utility incision use?",
+      "source_ids": [
+        "ao_69e593655af090a4"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "midfoot_navicular_cuneiform_medial_utility_questions_02",
+      "text": "What minimum skin bridge is kept when adding a dorsomedial incision?",
+      "source_ids": [
+        "ao_69e593655af090a4"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "midfoot_navicular_cuneiform_medial_utility_questions_03",
+      "text": "Why keep soft-tissue stripping minimal at the navicular?",
+      "source_ids": [
+        "ao_69e593655af090a4"
+      ],
+      "risk_level": "medium"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "ao_69e593655af090a4",
+      "provider": "AO Surgery Reference",
+      "title": "Medial utility incision to the navicular and cuneiform",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/metatarsals/approach/medial-utility-incision-to-the-navicular-and-cuneiform",
+      "source_page_id": "ao_69e593655af090a4"
+    },
+    {
+      "source_id": "ao_5a2480d7716c078d",
+      "provider": "AO Surgery Reference",
+      "title": "Dorsomedial approach to the navicular and cuneiform",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/metatarsals/approach/dorsomedial-approach-to-the-navicular-and-cuneiform",
+      "source_page_id": "ao_5a2480d7716c078d"
+    },
+    {
+      "source_id": "ao_977ffa3d9db84673",
+      "provider": "AO Surgery Reference",
+      "title": "Medial utility incision to the navicular and cuneiform (midfoot)",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/midfoot/approach/medial-utility-incision-to-the-navicular-and-cuneiform",
+      "source_page_id": "ao_977ffa3d9db84673"
+    }
+  ],
+  "content_status": "agent_review_pending",
+  "review": {
+    "status": "agent_review_pending",
+    "required_roles": [
+      "adversarial_safety_reviewer",
+      "approach_anatomy_reviewer",
+      "educational_value_reviewer",
+      "evidence_reviewer",
+      "operative_exposure_reviewer",
+      "procedure_applicability_reviewer"
+    ],
+    "completed_roles": []
+  },
+  "resolved_contradiction_keys": [],
+  "authoring_provenance": {
+    "method": "local_codex_curated",
+    "definition_file": "data/approach_library/curated/midfoot_batch003_v1.json",
+    "api_used": false
+  }
+}

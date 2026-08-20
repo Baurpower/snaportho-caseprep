@@ -1,0 +1,348 @@
+{
+  "schema_version": "brobot_approach_packet_v1",
+  "approach_id": "knee_pp_posteromedial_proximal_tibia",
+  "name": "Posteromedial approach to the proximal tibia (periprosthetic knee)",
+  "aliases": [
+    "prone posteromedial periprosthetic tibial approach"
+  ],
+  "region": "proximal-tibia",
+  "joint": "knee",
+  "bones": [
+    "proximal tibia"
+  ],
+  "corridor": "Prone posteromedial incision along the hamstring and medial gastrocnemius, staying medial to gastrocnemius, reflecting pes, and elevating gastrocnemius and popliteus while protecting the popliteal vessels",
+  "positioning": [
+    {
+      "text": "Position prone with the hip fully extended and the knee flexed about 15°. A tourniquet may be applied before positioning.",
+      "claim_ids": [
+        "knee_pp_posteromedial_proximal_tibia_positioning_01"
+      ]
+    }
+  ],
+  "setup": [],
+  "surface_landmarks": [
+    {
+      "text": "Mark the posterior hamstring border, the medial gastrocnemius and soleus, and the prior midline scar so the new cut stays posterior and medial to it.",
+      "claim_ids": [
+        "knee_pp_posteromedial_proximal_tibia_surface_landmarks_01"
+      ]
+    }
+  ],
+  "incision": [
+    {
+      "text": "Make a 10–15 cm cut along the posterior hamstring border extending distally along medial gastrocnemius and soleus.",
+      "claim_ids": [
+        "knee_pp_posteromedial_proximal_tibia_incision_01"
+      ]
+    }
+  ],
+  "superficial_interval": [
+    {
+      "text": "Open crural fascia in line with the skin, preserve the short saphenous vein and medial sural cutaneous nerve, and stay on the medial aspect of gastrocnemius.",
+      "claim_ids": [
+        "knee_pp_posteromedial_proximal_tibia_superficial_interval_01"
+      ]
+    }
+  ],
+  "deep_interval": [
+    {
+      "text": "Reflect pes anteromedially to the posteromedial tibial border. Elevate gastrocnemius and underlying popliteus with a periosteal elevator and place a blunt retractor around the lateral tibia, carefully reflecting the popliteal artery and vein proximal to the trifurcation. Optional release of the medial gastrocnemius tendon from the medial femoral condyle increases exposure but raises neurovascular risk.",
+      "claim_ids": [
+        "knee_pp_posteromedial_proximal_tibia_deep_interval_01"
+      ]
+    }
+  ],
+  "layers": [
+    {
+      "text": "Skin, crural fascia, medial gastrocnemius, pes, popliteus, then the posteromedial tibia.",
+      "claim_ids": [
+        "knee_pp_posteromedial_proximal_tibia_layers_01"
+      ]
+    }
+  ],
+  "structures_encountered": [],
+  "structures_at_risk": [
+    {
+      "text": "The popliteal artery and vein proximal to the trifurcation, the short saphenous vein, and the medial sural cutaneous nerve are at risk.",
+      "claim_ids": [
+        "knee_pp_posteromedial_proximal_tibia_structures_at_risk_01"
+      ]
+    }
+  ],
+  "danger_zones": [
+    {
+      "text": "Leaving the medial gastrocnemius and drifting laterally endangers the popliteal neurovascular bundle.",
+      "claim_ids": [
+        "knee_pp_posteromedial_proximal_tibia_danger_zones_01"
+      ]
+    }
+  ],
+  "retraction_hazards": [
+    {
+      "text": "Releasing the medial gastrocnemius tendon increases exposure but places the neurovascular bundle at greater risk.",
+      "claim_ids": [
+        "knee_pp_posteromedial_proximal_tibia_retraction_hazards_01"
+      ]
+    }
+  ],
+  "exposure": [
+    {
+      "text": "Shows the posteromedial proximal tibia through a window that can sit safely posterior and medial to a prior midline TKA scar.",
+      "claim_ids": [
+        "knee_pp_posteromedial_proximal_tibia_exposure_01"
+      ]
+    }
+  ],
+  "limitations": [
+    {
+      "text": "The patient must be prone. Lateral-tibial access is only by careful retraction around the bone.",
+      "claim_ids": [
+        "knee_pp_posteromedial_proximal_tibia_limitations_01"
+      ]
+    }
+  ],
+  "extensions": [],
+  "indications": [
+    {
+      "text": "Used for posteromedial proximal-tibial periprosthetic fixation when a cut posterior and medial to the arthroplasty scar is required.",
+      "claim_ids": [
+        "knee_pp_posteromedial_proximal_tibia_indications_01"
+      ]
+    }
+  ],
+  "relative_contraindications": [],
+  "implant_implications": [],
+  "fluoroscopy_implications": [],
+  "closure": [
+    {
+      "text": "Repair released medial gastrocnemius with nonabsorbable suture or an anchor, close fascia with a running absorbable stitch, and close skin as preferred.",
+      "claim_ids": [
+        "knee_pp_posteromedial_proximal_tibia_closure_01"
+      ]
+    }
+  ],
+  "complications": [
+    {
+      "text": "The principal complication is popliteal-vessel injury, especially if gastrocnemius is released or dissection drifts off its medial border.",
+      "claim_ids": [
+        "knee_pp_posteromedial_proximal_tibia_complications_01"
+      ]
+    }
+  ],
+  "bailouts": [],
+  "procedure_applications": [
+    {
+      "procedure_id": "periprosthetic_knee_fracture_orif",
+      "relationship": "primary_option",
+      "condition": "A posteromedial proximal-tibial periprosthetic fragment is fixed through a cut posterior and medial to the TKA scar"
+    }
+  ],
+  "questions": [
+    {
+      "question": "How is the patient positioned?",
+      "answer": "Prone, hip extended, knee flexed about 15°.",
+      "claim_ids": [
+        "knee_pp_posteromedial_proximal_tibia_questions_01"
+      ]
+    },
+    {
+      "question": "Why stay medial to gastrocnemius?",
+      "answer": "To avoid the popliteal neurovascular bundle.",
+      "claim_ids": [
+        "knee_pp_posteromedial_proximal_tibia_questions_02"
+      ]
+    },
+    {
+      "question": "Is a posteromedial cut safe relative to a midline TKA scar?",
+      "answer": "Yes, a skin incision posterior and medial to the prior midline scar can be achieved safely.",
+      "claim_ids": [
+        "knee_pp_posteromedial_proximal_tibia_questions_03"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "knee_pp_posteromedial_proximal_tibia_positioning_01",
+      "text": "Position prone with the hip fully extended and the knee flexed about 15°. A tourniquet may be applied before positioning.",
+      "source_ids": [
+        "ao_d86dc42747320117"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "knee_pp_posteromedial_proximal_tibia_surface_landmarks_01",
+      "text": "Mark the posterior hamstring border, the medial gastrocnemius and soleus, and the prior midline scar so the new cut stays posterior and medial to it.",
+      "source_ids": [
+        "ao_d86dc42747320117"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "knee_pp_posteromedial_proximal_tibia_incision_01",
+      "text": "Make a 10–15 cm cut along the posterior hamstring border extending distally along medial gastrocnemius and soleus.",
+      "source_ids": [
+        "ao_d86dc42747320117"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "knee_pp_posteromedial_proximal_tibia_superficial_interval_01",
+      "text": "Open crural fascia in line with the skin, preserve the short saphenous vein and medial sural cutaneous nerve, and stay on the medial aspect of gastrocnemius.",
+      "source_ids": [
+        "ao_d86dc42747320117",
+        "ao_9ede4438db894c21"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "knee_pp_posteromedial_proximal_tibia_deep_interval_01",
+      "text": "Reflect pes anteromedially to the posteromedial tibial border. Elevate gastrocnemius and underlying popliteus with a periosteal elevator and place a blunt retractor around the lateral tibia, carefully reflecting the popliteal artery and vein proximal to the trifurcation. Optional release of the medial gastrocnemius tendon from the medial femoral condyle increases exposure but raises neurovascular risk.",
+      "source_ids": [
+        "ao_d86dc42747320117",
+        "ao_9ede4438db894c21"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "knee_pp_posteromedial_proximal_tibia_layers_01",
+      "text": "Skin, crural fascia, medial gastrocnemius, pes, popliteus, then the posteromedial tibia.",
+      "source_ids": [
+        "ao_d86dc42747320117",
+        "ao_9ede4438db894c21"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "knee_pp_posteromedial_proximal_tibia_structures_at_risk_01",
+      "text": "The popliteal artery and vein proximal to the trifurcation, the short saphenous vein, and the medial sural cutaneous nerve are at risk.",
+      "source_ids": [
+        "ao_d86dc42747320117",
+        "ao_9ede4438db894c21"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "knee_pp_posteromedial_proximal_tibia_danger_zones_01",
+      "text": "Leaving the medial gastrocnemius and drifting laterally endangers the popliteal neurovascular bundle.",
+      "source_ids": [
+        "ao_d86dc42747320117"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "knee_pp_posteromedial_proximal_tibia_retraction_hazards_01",
+      "text": "Releasing the medial gastrocnemius tendon increases exposure but places the neurovascular bundle at greater risk.",
+      "source_ids": [
+        "ao_d86dc42747320117"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "knee_pp_posteromedial_proximal_tibia_exposure_01",
+      "text": "Shows the posteromedial proximal tibia through a window that can sit safely posterior and medial to a prior midline TKA scar.",
+      "source_ids": [
+        "ao_d86dc42747320117"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "knee_pp_posteromedial_proximal_tibia_limitations_01",
+      "text": "The patient must be prone. Lateral-tibial access is only by careful retraction around the bone.",
+      "source_ids": [
+        "ao_d86dc42747320117"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "knee_pp_posteromedial_proximal_tibia_indications_01",
+      "text": "Used for posteromedial proximal-tibial periprosthetic fixation when a cut posterior and medial to the arthroplasty scar is required.",
+      "source_ids": [
+        "ao_d86dc42747320117"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "knee_pp_posteromedial_proximal_tibia_closure_01",
+      "text": "Repair released medial gastrocnemius with nonabsorbable suture or an anchor, close fascia with a running absorbable stitch, and close skin as preferred.",
+      "source_ids": [
+        "ao_d86dc42747320117"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "knee_pp_posteromedial_proximal_tibia_complications_01",
+      "text": "The principal complication is popliteal-vessel injury, especially if gastrocnemius is released or dissection drifts off its medial border.",
+      "source_ids": [
+        "ao_d86dc42747320117",
+        "ao_9ede4438db894c21"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "knee_pp_posteromedial_proximal_tibia_questions_01",
+      "text": "How is the patient positioned?",
+      "source_ids": [
+        "ao_d86dc42747320117"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "knee_pp_posteromedial_proximal_tibia_questions_02",
+      "text": "Why stay medial to gastrocnemius?",
+      "source_ids": [
+        "ao_d86dc42747320117"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "knee_pp_posteromedial_proximal_tibia_questions_03",
+      "text": "Is a posteromedial cut safe relative to a midline TKA scar?",
+      "source_ids": [
+        "ao_d86dc42747320117"
+      ],
+      "risk_level": "medium"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "ao_d86dc42747320117",
+      "provider": "AO Surgery Reference",
+      "title": "Posteromedial Approach Proximal Tibia",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/periprosthetic-fractures/knee/approach/posteromedial-approach-proximal-tibia",
+      "source_page_id": "ao_d86dc42747320117"
+    },
+    {
+      "source_id": "ao_9ede4438db894c21",
+      "provider": "AO Surgery Reference",
+      "title": "Prone Posteromedial Approach To Proximal Tibia",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/proximal-tibia/approach/prone-posteromedial-approach-to-proximal-tibia",
+      "source_page_id": "ao_9ede4438db894c21"
+    },
+    {
+      "source_id": "orthobullets_84ac0da8d7847913",
+      "provider": "Orthobullets",
+      "title": "Knee Posterior Approach",
+      "url": "https://www.orthobullets.com/approaches/12073/knee-posterior-approach",
+      "source_page_id": "orthobullets_84ac0da8d7847913"
+    }
+  ],
+  "content_status": "agent_review_pending",
+  "review": {
+    "status": "agent_review_pending",
+    "required_roles": [
+      "adversarial_safety_reviewer",
+      "approach_anatomy_reviewer",
+      "educational_value_reviewer",
+      "evidence_reviewer",
+      "operative_exposure_reviewer",
+      "procedure_applicability_reviewer"
+    ],
+    "completed_roles": []
+  },
+  "resolved_contradiction_keys": [],
+  "authoring_provenance": {
+    "method": "local_codex_curated",
+    "definition_file": "data/approach_library/curated/periprosthetic_knee_batch001_v1.json",
+    "api_used": false
+  }
+}

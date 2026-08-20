@@ -1,0 +1,328 @@
+{
+  "schema_version": "brobot_approach_packet_v1",
+  "approach_id": "spine_sacrum_posterior_paramedian",
+  "name": "Posterior paramedian approach to the sacrum",
+  "aliases": [
+    "paramedian posterior sacral approach"
+  ],
+  "region": "sacrum",
+  "joint": "sacroiliac",
+  "bones": [
+    "sacrum",
+    "posterior ilium"
+  ],
+  "corridor": "Vertical cut starting 1–2 fingerbreadths distal and medial to the PSIS, along gluteus maximus fascia to the iliac crest and sacral spinous processes, then multifidus detached from either side",
+  "positioning": [
+    {
+      "text": "Position prone so the PSIS, posterior ilium, and sacrum can be marked, avoiding crushed posterior skin.",
+      "claim_ids": [
+        "spine_sacrum_posterior_paramedian_positioning_01"
+      ]
+    }
+  ],
+  "setup": [],
+  "surface_landmarks": [
+    {
+      "text": "Mark the PSIS, posterior iliac crest, and sacral spinous processes.",
+      "claim_ids": [
+        "spine_sacrum_posterior_paramedian_surface_landmarks_01"
+      ]
+    }
+  ],
+  "incision": [
+    {
+      "text": "Start 1–2 fingerbreadths distal and medial to the PSIS and run a straight vertical line proximally about 10–15 cm, lengthened cranially as needed for spinopelvic fixation. Do not go through crushed tissue or a Morel-Lavallée hematoma.",
+      "claim_ids": [
+        "spine_sacrum_posterior_paramedian_incision_01"
+      ]
+    }
+  ],
+  "superficial_interval": [
+    {
+      "text": "Divide fat in line with the skin to gluteus maximus fascia, then dissect along that fascia laterally to the iliac crest and medially to the sacral spinous processes.",
+      "claim_ids": [
+        "spine_sacrum_posterior_paramedian_superficial_interval_01"
+      ]
+    }
+  ],
+  "deep_interval": [
+    {
+      "text": "Detach multifidus from medially or laterally according to the fracture. In most displaced unstable fractures the muscle is already disrupted at the injury, which leads directly to the site.",
+      "claim_ids": [
+        "spine_sacrum_posterior_paramedian_deep_interval_01"
+      ]
+    }
+  ],
+  "layers": [
+    {
+      "text": "Skin, gluteus maximus fascia, multifidus, then posterior ilium, SI joint, and posterior sacrum.",
+      "claim_ids": [
+        "spine_sacrum_posterior_paramedian_layers_01"
+      ]
+    }
+  ],
+  "structures_encountered": [],
+  "structures_at_risk": [
+    {
+      "text": "Posterior skin over a Morel-Lavallée lesion is the principal local risk, as in the midline sacral approach.",
+      "claim_ids": [
+        "spine_sacrum_posterior_paramedian_structures_at_risk_01"
+      ]
+    }
+  ],
+  "danger_zones": [
+    {
+      "text": "Incising through crushed posterior tissue or a subcutaneous hematoma is the wound-healing danger zone.",
+      "claim_ids": [
+        "spine_sacrum_posterior_paramedian_danger_zones_01"
+      ]
+    }
+  ],
+  "retraction_hazards": [
+    {
+      "text": "Reattach gluteus to the fascia flap over the posterior ilium at closure.",
+      "claim_ids": [
+        "spine_sacrum_posterior_paramedian_retraction_hazards_01"
+      ]
+    }
+  ],
+  "exposure": [
+    {
+      "text": "Shows the posterior ilium, SI joint, and posterior sacral surface, extendable cranially for spinopelvic fixation.",
+      "claim_ids": [
+        "spine_sacrum_posterior_paramedian_exposure_01"
+      ]
+    }
+  ],
+  "limitations": [
+    {
+      "text": "A single paramedian cut does not show both sides of the sacrum the way a midline cut does.",
+      "claim_ids": [
+        "spine_sacrum_posterior_paramedian_limitations_01"
+      ]
+    }
+  ],
+  "extensions": [],
+  "indications": [
+    {
+      "text": "Used for posterior iliac, SI, and unilateral posterior sacral work, including spinopelvic fixation.",
+      "claim_ids": [
+        "spine_sacrum_posterior_paramedian_indications_01"
+      ]
+    }
+  ],
+  "relative_contraindications": [],
+  "implant_implications": [],
+  "fluoroscopy_implications": [],
+  "closure": [
+    {
+      "text": "Reattach gluteus muscles to the fascia flap over the posterior ilium and close fat and skin in layers.",
+      "claim_ids": [
+        "spine_sacrum_posterior_paramedian_closure_01"
+      ]
+    }
+  ],
+  "complications": [
+    {
+      "text": "Complications include wound breakdown through a Morel-Lavallée lesion and gluteal detachment if the fascia flap is not repaired.",
+      "claim_ids": [
+        "spine_sacrum_posterior_paramedian_complications_01"
+      ]
+    }
+  ],
+  "bailouts": [],
+  "procedure_applications": [
+    {
+      "procedure_id": "pelvic_ring_orif",
+      "relationship": "primary_option",
+      "condition": "The posterior ilium, SI joint, or one side of the posterior sacrum is fixed, including spinopelvic constructs"
+    }
+  ],
+  "questions": [
+    {
+      "question": "Where does the paramedian sacral incision start?",
+      "answer": "1–2 fingerbreadths distal and medial to the PSIS, then vertically proximal about 10–15 cm.",
+      "claim_ids": [
+        "spine_sacrum_posterior_paramedian_questions_01"
+      ]
+    },
+    {
+      "question": "What does this window show that a midline cut is not required for?",
+      "answer": "The posterior ilium and SI joint on the incised side, extendable for spinopelvic fixation.",
+      "claim_ids": [
+        "spine_sacrum_posterior_paramedian_questions_02"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "spine_sacrum_posterior_paramedian_positioning_01",
+      "text": "Position prone so the PSIS, posterior ilium, and sacrum can be marked, avoiding crushed posterior skin.",
+      "source_ids": [
+        "ao_9f1629a6e5c92cbb",
+        "ao_5c4513b89c6a1314"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "spine_sacrum_posterior_paramedian_surface_landmarks_01",
+      "text": "Mark the PSIS, posterior iliac crest, and sacral spinous processes.",
+      "source_ids": [
+        "ao_9f1629a6e5c92cbb"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "spine_sacrum_posterior_paramedian_incision_01",
+      "text": "Start 1–2 fingerbreadths distal and medial to the PSIS and run a straight vertical line proximally about 10–15 cm, lengthened cranially as needed for spinopelvic fixation. Do not go through crushed tissue or a Morel-Lavallée hematoma.",
+      "source_ids": [
+        "ao_9f1629a6e5c92cbb",
+        "ao_5c4513b89c6a1314"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "spine_sacrum_posterior_paramedian_superficial_interval_01",
+      "text": "Divide fat in line with the skin to gluteus maximus fascia, then dissect along that fascia laterally to the iliac crest and medially to the sacral spinous processes.",
+      "source_ids": [
+        "ao_9f1629a6e5c92cbb"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "spine_sacrum_posterior_paramedian_deep_interval_01",
+      "text": "Detach multifidus from medially or laterally according to the fracture. In most displaced unstable fractures the muscle is already disrupted at the injury, which leads directly to the site.",
+      "source_ids": [
+        "ao_9f1629a6e5c92cbb"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "spine_sacrum_posterior_paramedian_layers_01",
+      "text": "Skin, gluteus maximus fascia, multifidus, then posterior ilium, SI joint, and posterior sacrum.",
+      "source_ids": [
+        "ao_9f1629a6e5c92cbb"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "spine_sacrum_posterior_paramedian_structures_at_risk_01",
+      "text": "Posterior skin over a Morel-Lavallée lesion is the principal local risk, as in the midline sacral approach.",
+      "source_ids": [
+        "ao_9f1629a6e5c92cbb",
+        "ao_5c4513b89c6a1314"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "spine_sacrum_posterior_paramedian_danger_zones_01",
+      "text": "Incising through crushed posterior tissue or a subcutaneous hematoma is the wound-healing danger zone.",
+      "source_ids": [
+        "ao_9f1629a6e5c92cbb",
+        "ao_5c4513b89c6a1314"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "spine_sacrum_posterior_paramedian_retraction_hazards_01",
+      "text": "Reattach gluteus to the fascia flap over the posterior ilium at closure.",
+      "source_ids": [
+        "ao_9f1629a6e5c92cbb"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "spine_sacrum_posterior_paramedian_exposure_01",
+      "text": "Shows the posterior ilium, SI joint, and posterior sacral surface, extendable cranially for spinopelvic fixation.",
+      "source_ids": [
+        "ao_9f1629a6e5c92cbb"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "spine_sacrum_posterior_paramedian_limitations_01",
+      "text": "A single paramedian cut does not show both sides of the sacrum the way a midline cut does.",
+      "source_ids": [
+        "ao_9f1629a6e5c92cbb",
+        "ao_5c4513b89c6a1314"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "spine_sacrum_posterior_paramedian_indications_01",
+      "text": "Used for posterior iliac, SI, and unilateral posterior sacral work, including spinopelvic fixation.",
+      "source_ids": [
+        "ao_9f1629a6e5c92cbb"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "spine_sacrum_posterior_paramedian_closure_01",
+      "text": "Reattach gluteus muscles to the fascia flap over the posterior ilium and close fat and skin in layers.",
+      "source_ids": [
+        "ao_9f1629a6e5c92cbb"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "spine_sacrum_posterior_paramedian_complications_01",
+      "text": "Complications include wound breakdown through a Morel-Lavallée lesion and gluteal detachment if the fascia flap is not repaired.",
+      "source_ids": [
+        "ao_9f1629a6e5c92cbb",
+        "ao_5c4513b89c6a1314"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "spine_sacrum_posterior_paramedian_questions_01",
+      "text": "Where does the paramedian sacral incision start?",
+      "source_ids": [
+        "ao_9f1629a6e5c92cbb"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "spine_sacrum_posterior_paramedian_questions_02",
+      "text": "What does this window show that a midline cut is not required for?",
+      "source_ids": [
+        "ao_9f1629a6e5c92cbb"
+      ],
+      "risk_level": "medium"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "ao_9f1629a6e5c92cbb",
+      "provider": "AO Surgery Reference",
+      "title": "Posterior Paramedian Approach To The Sacrum",
+      "url": "https://surgeryreference.aofoundation.org/spine/trauma/sacrum/approach/posterior-paramedian-approach-to-the-sacrum",
+      "source_page_id": "ao_9f1629a6e5c92cbb"
+    },
+    {
+      "source_id": "ao_5c4513b89c6a1314",
+      "provider": "AO Surgery Reference",
+      "title": "Posterior Midline Approach To The Sacrum",
+      "url": "https://surgeryreference.aofoundation.org/spine/trauma/sacrum/approach/posterior-midline-approach-to-the-sacrum",
+      "source_page_id": "ao_5c4513b89c6a1314"
+    }
+  ],
+  "content_status": "agent_review_pending",
+  "review": {
+    "status": "agent_review_pending",
+    "required_roles": [
+      "adversarial_safety_reviewer",
+      "approach_anatomy_reviewer",
+      "educational_value_reviewer",
+      "evidence_reviewer",
+      "operative_exposure_reviewer",
+      "procedure_applicability_reviewer"
+    ],
+    "completed_roles": []
+  },
+  "resolved_contradiction_keys": [],
+  "authoring_provenance": {
+    "method": "local_codex_curated",
+    "definition_file": "data/approach_library/curated/spine_remaining_batch001_v1.json",
+    "api_used": false
+  }
+}

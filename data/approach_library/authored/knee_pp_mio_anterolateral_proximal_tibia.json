@@ -1,0 +1,341 @@
+{
+  "schema_version": "brobot_approach_packet_v1",
+  "approach_id": "knee_pp_mio_anterolateral_proximal_tibia",
+  "name": "Minimally invasive anterolateral approach to the proximal tibia (periprosthetic knee)",
+  "aliases": [
+    "periprosthetic tibial MIO approach"
+  ],
+  "region": "proximal-tibia",
+  "joint": "knee",
+  "bones": [
+    "proximal tibia",
+    "tibial shaft"
+  ],
+  "corridor": "Short incision posterior to Gerdy tubercle for a submuscular plate, stab incisions in the proximal half, and a short distal-third window that retracts the deep peroneal nerve and anterior tibial vessels",
+  "positioning": [
+    {
+      "text": "Position so Gerdy tubercle, the tibial crest, and the distal-third anterolateral tibia can be imaged.",
+      "claim_ids": [
+        "knee_pp_mio_anterolateral_proximal_tibia_positioning_01"
+      ]
+    }
+  ],
+  "setup": [],
+  "surface_landmarks": [
+    {
+      "text": "Mark Gerdy tubercle, the prior TKA incision, and the junction of the third and fourth quarters of the tibia where the anterior tibial vessels and deep peroneal nerve cross.",
+      "claim_ids": [
+        "knee_pp_mio_anterolateral_proximal_tibia_surface_landmarks_01"
+      ]
+    }
+  ],
+  "incision": [
+    {
+      "text": "Make about a 5 cm cut starting posterior to Gerdy and running distal and anterior. Use stabs just lateral to the crest in the proximal half. In the distal third use a short incision rather than a stab.",
+      "claim_ids": [
+        "knee_pp_mio_anterolateral_proximal_tibia_incision_01"
+      ]
+    }
+  ],
+  "superficial_interval": [
+    {
+      "text": "Open fascia from Gerdy distally and release the anterior tibialis-anterior attachment. Weigh a new incision against the prior TKA scar; the skin between them is at risk if the operations are close in time.",
+      "claim_ids": [
+        "knee_pp_mio_anterolateral_proximal_tibia_superficial_interval_01"
+      ]
+    }
+  ],
+  "deep_interval": [
+    {
+      "text": "Elevate tibialis anterior without stripping periosteum and retract it laterally. Distally dissect the tibialis-anterior tendon off bone, preserve paratenon, and retract tendon, deep peroneal nerve, and anterior tibial vessels laterally. Proximal stabs may split anterior-compartment muscle bluntly.",
+      "claim_ids": [
+        "knee_pp_mio_anterolateral_proximal_tibia_deep_interval_01"
+      ]
+    }
+  ],
+  "layers": [
+    {
+      "text": "Skin, anterior-compartment fascia, tibialis anterior, periosteum, then the lateral tibia.",
+      "claim_ids": [
+        "knee_pp_mio_anterolateral_proximal_tibia_layers_01"
+      ]
+    }
+  ],
+  "structures_encountered": [],
+  "structures_at_risk": [
+    {
+      "text": "The deep peroneal nerve and anterior tibial vessels, trapped by a submuscular plate or a percutaneous screw in the distal third, and the skin bridge beside a recent TKA scar are at risk.",
+      "claim_ids": [
+        "knee_pp_mio_anterolateral_proximal_tibia_structures_at_risk_01"
+      ]
+    }
+  ],
+  "danger_zones": [
+    {
+      "text": "The distal third of the tibia, where the neurovascular bundle crosses the anterolateral surface, is the danger zone for percutaneous screws.",
+      "claim_ids": [
+        "knee_pp_mio_anterolateral_proximal_tibia_danger_zones_01"
+      ]
+    }
+  ],
+  "retraction_hazards": [
+    {
+      "text": "Preserve paratenon on the tibialis-anterior tendon in the distal window.",
+      "claim_ids": [
+        "knee_pp_mio_anterolateral_proximal_tibia_retraction_hazards_01"
+      ]
+    }
+  ],
+  "exposure": [
+    {
+      "text": "Allows submuscular plating of proximal and mid-tibial periprosthetic fractures with percutaneous distal screws only where the nerve and vessels can be seen or safely avoided.",
+      "claim_ids": [
+        "knee_pp_mio_anterolateral_proximal_tibia_exposure_01"
+      ]
+    }
+  ],
+  "limitations": [
+    {
+      "text": "The anteromedial tibial face is subcutaneous and poorly vascular. A recent TKA scar may forbid a nearby second cut.",
+      "claim_ids": [
+        "knee_pp_mio_anterolateral_proximal_tibia_limitations_01"
+      ]
+    }
+  ],
+  "extensions": [],
+  "indications": [
+    {
+      "text": "Used for minimally invasive fixation of proximal and mid-tibial periprosthetic fractures.",
+      "claim_ids": [
+        "knee_pp_mio_anterolateral_proximal_tibia_indications_01"
+      ]
+    }
+  ],
+  "relative_contraindications": [],
+  "implant_implications": [],
+  "fluoroscopy_implications": [],
+  "closure": [
+    {
+      "text": "Close the proximal and distal windows after the plate is seated and the neurovascular bundle is confirmed free.",
+      "claim_ids": [
+        "knee_pp_mio_anterolateral_proximal_tibia_closure_01"
+      ]
+    }
+  ],
+  "complications": [
+    {
+      "text": "Complications include deep-peroneal or anterior-tibial vessel injury, plate entrapment of those structures, and skin necrosis between a new cut and a recent TKA scar.",
+      "claim_ids": [
+        "knee_pp_mio_anterolateral_proximal_tibia_complications_01"
+      ]
+    }
+  ],
+  "bailouts": [],
+  "procedure_applications": [
+    {
+      "procedure_id": "periprosthetic_knee_fracture_orif",
+      "relationship": "primary_option",
+      "condition": "A proximal or mid-tibial periprosthetic fracture is plated submuscularly, balancing a new cut against the prior TKA scar"
+    }
+  ],
+  "questions": [
+    {
+      "question": "Where does the proximal MIO incision start?",
+      "answer": "Posterior to Gerdy tubercle, about 5 cm, running distal and anterior.",
+      "claim_ids": [
+        "knee_pp_mio_anterolateral_proximal_tibia_questions_01"
+      ]
+    },
+    {
+      "question": "Why is a short distal-third incision used instead of a stab?",
+      "answer": "To expose and retract the deep peroneal nerve and anterior tibial vessels.",
+      "claim_ids": [
+        "knee_pp_mio_anterolateral_proximal_tibia_questions_02"
+      ]
+    },
+    {
+      "question": "What must be balanced against a new incision?",
+      "answer": "The prior TKA scar and the skin between the two cuts.",
+      "claim_ids": [
+        "knee_pp_mio_anterolateral_proximal_tibia_questions_03"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "knee_pp_mio_anterolateral_proximal_tibia_positioning_01",
+      "text": "Position so Gerdy tubercle, the tibial crest, and the distal-third anterolateral tibia can be imaged.",
+      "source_ids": [
+        "ao_2248e107821cbd88",
+        "ao_4baab2c03d6a4f15"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "knee_pp_mio_anterolateral_proximal_tibia_surface_landmarks_01",
+      "text": "Mark Gerdy tubercle, the prior TKA incision, and the junction of the third and fourth quarters of the tibia where the anterior tibial vessels and deep peroneal nerve cross.",
+      "source_ids": [
+        "ao_2248e107821cbd88"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "knee_pp_mio_anterolateral_proximal_tibia_incision_01",
+      "text": "Make about a 5 cm cut starting posterior to Gerdy and running distal and anterior. Use stabs just lateral to the crest in the proximal half. In the distal third use a short incision rather than a stab.",
+      "source_ids": [
+        "ao_2248e107821cbd88"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "knee_pp_mio_anterolateral_proximal_tibia_superficial_interval_01",
+      "text": "Open fascia from Gerdy distally and release the anterior tibialis-anterior attachment. Weigh a new incision against the prior TKA scar; the skin between them is at risk if the operations are close in time.",
+      "source_ids": [
+        "ao_2248e107821cbd88"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "knee_pp_mio_anterolateral_proximal_tibia_deep_interval_01",
+      "text": "Elevate tibialis anterior without stripping periosteum and retract it laterally. Distally dissect the tibialis-anterior tendon off bone, preserve paratenon, and retract tendon, deep peroneal nerve, and anterior tibial vessels laterally. Proximal stabs may split anterior-compartment muscle bluntly.",
+      "source_ids": [
+        "ao_2248e107821cbd88",
+        "ao_4baab2c03d6a4f15"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "knee_pp_mio_anterolateral_proximal_tibia_layers_01",
+      "text": "Skin, anterior-compartment fascia, tibialis anterior, periosteum, then the lateral tibia.",
+      "source_ids": [
+        "ao_2248e107821cbd88"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "knee_pp_mio_anterolateral_proximal_tibia_structures_at_risk_01",
+      "text": "The deep peroneal nerve and anterior tibial vessels, trapped by a submuscular plate or a percutaneous screw in the distal third, and the skin bridge beside a recent TKA scar are at risk.",
+      "source_ids": [
+        "ao_2248e107821cbd88",
+        "ao_4baab2c03d6a4f15"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "knee_pp_mio_anterolateral_proximal_tibia_danger_zones_01",
+      "text": "The distal third of the tibia, where the neurovascular bundle crosses the anterolateral surface, is the danger zone for percutaneous screws.",
+      "source_ids": [
+        "ao_2248e107821cbd88"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "knee_pp_mio_anterolateral_proximal_tibia_retraction_hazards_01",
+      "text": "Preserve paratenon on the tibialis-anterior tendon in the distal window.",
+      "source_ids": [
+        "ao_2248e107821cbd88"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "knee_pp_mio_anterolateral_proximal_tibia_exposure_01",
+      "text": "Allows submuscular plating of proximal and mid-tibial periprosthetic fractures with percutaneous distal screws only where the nerve and vessels can be seen or safely avoided.",
+      "source_ids": [
+        "ao_2248e107821cbd88"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "knee_pp_mio_anterolateral_proximal_tibia_limitations_01",
+      "text": "The anteromedial tibial face is subcutaneous and poorly vascular. A recent TKA scar may forbid a nearby second cut.",
+      "source_ids": [
+        "ao_2248e107821cbd88"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "knee_pp_mio_anterolateral_proximal_tibia_indications_01",
+      "text": "Used for minimally invasive fixation of proximal and mid-tibial periprosthetic fractures.",
+      "source_ids": [
+        "ao_2248e107821cbd88"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "knee_pp_mio_anterolateral_proximal_tibia_closure_01",
+      "text": "Close the proximal and distal windows after the plate is seated and the neurovascular bundle is confirmed free.",
+      "source_ids": [
+        "ao_2248e107821cbd88",
+        "ao_4baab2c03d6a4f15"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "knee_pp_mio_anterolateral_proximal_tibia_complications_01",
+      "text": "Complications include deep-peroneal or anterior-tibial vessel injury, plate entrapment of those structures, and skin necrosis between a new cut and a recent TKA scar.",
+      "source_ids": [
+        "ao_2248e107821cbd88"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "knee_pp_mio_anterolateral_proximal_tibia_questions_01",
+      "text": "Where does the proximal MIO incision start?",
+      "source_ids": [
+        "ao_2248e107821cbd88"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "knee_pp_mio_anterolateral_proximal_tibia_questions_02",
+      "text": "Why is a short distal-third incision used instead of a stab?",
+      "source_ids": [
+        "ao_2248e107821cbd88"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "knee_pp_mio_anterolateral_proximal_tibia_questions_03",
+      "text": "What must be balanced against a new incision?",
+      "source_ids": [
+        "ao_2248e107821cbd88"
+      ],
+      "risk_level": "medium"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "ao_2248e107821cbd88",
+      "provider": "AO Surgery Reference",
+      "title": "Mio Anterolateral Approach Proximal Tibia",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/periprosthetic-fractures/knee/approach/mio-anterolateral-approach-proximal-tibia",
+      "source_page_id": "ao_2248e107821cbd88"
+    },
+    {
+      "source_id": "ao_4baab2c03d6a4f15",
+      "provider": "AO Surgery Reference",
+      "title": "Approach For Minimally Invasive Osteosynthesis Of Proximal Tibia",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/proximal-tibia/approach/approach-for-minimally-invasive-osteosynthesis-of-proximal-tibia",
+      "source_page_id": "ao_4baab2c03d6a4f15"
+    }
+  ],
+  "content_status": "agent_review_pending",
+  "review": {
+    "status": "agent_review_pending",
+    "required_roles": [
+      "adversarial_safety_reviewer",
+      "approach_anatomy_reviewer",
+      "educational_value_reviewer",
+      "evidence_reviewer",
+      "operative_exposure_reviewer",
+      "procedure_applicability_reviewer"
+    ],
+    "completed_roles": []
+  },
+  "resolved_contradiction_keys": [],
+  "authoring_provenance": {
+    "method": "local_codex_curated",
+    "definition_file": "data/approach_library/curated/periprosthetic_knee_batch001_v1.json",
+    "api_used": false
+  }
+}

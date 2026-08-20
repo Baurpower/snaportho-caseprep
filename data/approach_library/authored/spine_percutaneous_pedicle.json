@@ -1,0 +1,365 @@
+{
+  "schema_version": "brobot_approach_packet_v1",
+  "approach_id": "spine_percutaneous_pedicle",
+  "name": "Percutaneous posterior approach for pedicle-screw placement",
+  "aliases": [
+    "minimally invasive percutaneous pedicle-screw approach"
+  ],
+  "region": "thoracolumbar",
+  "joint": "",
+  "bones": [
+    "thoracic vertebrae",
+    "lumbar vertebrae"
+  ],
+  "corridor": "Stab lateral to the fluoroscopic pedicle projection, blunt passage to bone, cannulated needle at 3 o’clock on the right and 9 o’clock on the left to the medial pedicle wall, then K-wire and screw over a dilator",
+  "positioning": [
+    {
+      "text": "Position so true AP and lateral images of each targeted pedicle can be obtained and the level confirmed with fluoroscopy.",
+      "claim_ids": [
+        "spine_percutaneous_pedicle_positioning_01"
+      ]
+    }
+  ],
+  "setup": [],
+  "surface_landmarks": [
+    {
+      "text": "Mark the image projection of each pedicle. The skin cut sits lateral to that projection; the offset is smaller in the mid-thoracic spine and more lateral in the upper thoracic and lumbar spine, depending on pedicle convergence.",
+      "claim_ids": [
+        "spine_percutaneous_pedicle_surface_landmarks_01"
+      ]
+    }
+  ],
+  "incision": [
+    {
+      "text": "Incise skin lateral to the pedicle projection after confirming the level.",
+      "claim_ids": [
+        "spine_percutaneous_pedicle_incision_01"
+      ]
+    }
+  ],
+  "superficial_interval": [
+    {
+      "text": "Bluntly spread fat, fascia, and muscle with scissors down to bone.",
+      "claim_ids": [
+        "spine_percutaneous_pedicle_superficial_interval_01"
+      ]
+    }
+  ],
+  "deep_interval": [
+    {
+      "text": "Insert cannulated needles at 3 o’clock on the right and 9 o’clock on the left and tap them to the medial border of the pedicle projection. Check AP and lateral images. Advance into the body only after the needle tip has passed the posterior wall on the lateral view; if it has not, withdraw and redirect. Exchange for a K-wire, remove the needle, dilate, and insert the cannulated screw over the wire. Place the rod percutaneously.",
+      "claim_ids": [
+        "spine_percutaneous_pedicle_deep_interval_01"
+      ]
+    }
+  ],
+  "layers": [
+    {
+      "text": "Skin, blunt muscle path, cannulated needle, K-wire, dilator, then the pedicle screw.",
+      "claim_ids": [
+        "spine_percutaneous_pedicle_layers_01"
+      ]
+    }
+  ],
+  "structures_encountered": [],
+  "structures_at_risk": [
+    {
+      "text": "Medial pedicle breach threatens the canal and nerve root. Advancing a needle that has not yet passed the posterior wall on the lateral view risks a wrong trajectory.",
+      "claim_ids": [
+        "spine_percutaneous_pedicle_structures_at_risk_01"
+      ]
+    }
+  ],
+  "danger_zones": [
+    {
+      "text": "The medial pedicle wall on AP and the posterior vertebral-body wall on the lateral view are the imaging gates that must be respected before the needle is advanced.",
+      "claim_ids": [
+        "spine_percutaneous_pedicle_danger_zones_01"
+      ]
+    }
+  ],
+  "retraction_hazards": [
+    {
+      "text": "This is a blunt percutaneous path, not an open muscle strip. Do not drive the needle past the medial wall on AP.",
+      "claim_ids": [
+        "spine_percutaneous_pedicle_retraction_hazards_01"
+      ]
+    }
+  ],
+  "exposure": [
+    {
+      "text": "Places percutaneous pedicle screws and a rod without an open midline exposure.",
+      "claim_ids": [
+        "spine_percutaneous_pedicle_exposure_01"
+      ]
+    }
+  ],
+  "limitations": [
+    {
+      "text": "Does not decompress the canal or resect a tumor; it only places screws and a rod.",
+      "claim_ids": [
+        "spine_percutaneous_pedicle_limitations_01"
+      ]
+    }
+  ],
+  "extensions": [],
+  "indications": [
+    {
+      "text": "Used for percutaneous pedicle-screw constructs in thoracolumbar trauma, degenerative lumbar disease, and metastatic disease.",
+      "claim_ids": [
+        "spine_percutaneous_pedicle_indications_01"
+      ]
+    }
+  ],
+  "relative_contraindications": [],
+  "implant_implications": [],
+  "fluoroscopy_implications": [],
+  "closure": [
+    {
+      "text": "Close the small wounds in layers.",
+      "claim_ids": [
+        "spine_percutaneous_pedicle_closure_01"
+      ]
+    }
+  ],
+  "complications": [
+    {
+      "text": "Complications include medial pedicle breach, malpositioned screws, and neurologic injury from an uncorrected trajectory.",
+      "claim_ids": [
+        "spine_percutaneous_pedicle_complications_01"
+      ]
+    }
+  ],
+  "bailouts": [],
+  "procedure_applications": [
+    {
+      "procedure_id": "thoracolumbar_fracture_orif",
+      "relationship": "primary_option",
+      "condition": "Pedicle screws are placed percutaneously for trauma, degenerative, or metastatic constructs"
+    }
+  ],
+  "questions": [
+    {
+      "question": "Where are the cannulated needles clocked on each side?",
+      "answer": "3 o’clock on the right and 9 o’clock on the left, tapped to the medial pedicle-wall projection.",
+      "claim_ids": [
+        "spine_percutaneous_pedicle_questions_01"
+      ]
+    },
+    {
+      "question": "When may the needle be advanced into the vertebral body?",
+      "answer": "Only after its tip has passed the posterior wall of the body on the lateral image.",
+      "claim_ids": [
+        "spine_percutaneous_pedicle_questions_02"
+      ]
+    },
+    {
+      "question": "How does incision laterality change by level?",
+      "answer": "Closer to the pedicle projection in the mid-thoracic spine and more lateral in the upper thoracic and lumbar spine.",
+      "claim_ids": [
+        "spine_percutaneous_pedicle_questions_03"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "spine_percutaneous_pedicle_positioning_01",
+      "text": "Position so true AP and lateral images of each targeted pedicle can be obtained and the level confirmed with fluoroscopy.",
+      "source_ids": [
+        "ao_7ed8f91f7328028b",
+        "ao_2b7f5ea82ed89fb7"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "spine_percutaneous_pedicle_surface_landmarks_01",
+      "text": "Mark the image projection of each pedicle. The skin cut sits lateral to that projection; the offset is smaller in the mid-thoracic spine and more lateral in the upper thoracic and lumbar spine, depending on pedicle convergence.",
+      "source_ids": [
+        "ao_7ed8f91f7328028b",
+        "ao_2b7f5ea82ed89fb7",
+        "ao_6937c38c759c6eea"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "spine_percutaneous_pedicle_incision_01",
+      "text": "Incise skin lateral to the pedicle projection after confirming the level.",
+      "source_ids": [
+        "ao_7ed8f91f7328028b",
+        "ao_2b7f5ea82ed89fb7"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "spine_percutaneous_pedicle_superficial_interval_01",
+      "text": "Bluntly spread fat, fascia, and muscle with scissors down to bone.",
+      "source_ids": [
+        "ao_7ed8f91f7328028b",
+        "ao_2b7f5ea82ed89fb7"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "spine_percutaneous_pedicle_deep_interval_01",
+      "text": "Insert cannulated needles at 3 o’clock on the right and 9 o’clock on the left and tap them to the medial border of the pedicle projection. Check AP and lateral images. Advance into the body only after the needle tip has passed the posterior wall on the lateral view; if it has not, withdraw and redirect. Exchange for a K-wire, remove the needle, dilate, and insert the cannulated screw over the wire. Place the rod percutaneously.",
+      "source_ids": [
+        "ao_7ed8f91f7328028b",
+        "ao_2b7f5ea82ed89fb7",
+        "ao_6937c38c759c6eea"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "spine_percutaneous_pedicle_layers_01",
+      "text": "Skin, blunt muscle path, cannulated needle, K-wire, dilator, then the pedicle screw.",
+      "source_ids": [
+        "ao_7ed8f91f7328028b",
+        "ao_2b7f5ea82ed89fb7"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "spine_percutaneous_pedicle_structures_at_risk_01",
+      "text": "Medial pedicle breach threatens the canal and nerve root. Advancing a needle that has not yet passed the posterior wall on the lateral view risks a wrong trajectory.",
+      "source_ids": [
+        "ao_7ed8f91f7328028b",
+        "ao_6937c38c759c6eea"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "spine_percutaneous_pedicle_danger_zones_01",
+      "text": "The medial pedicle wall on AP and the posterior vertebral-body wall on the lateral view are the imaging gates that must be respected before the needle is advanced.",
+      "source_ids": [
+        "ao_7ed8f91f7328028b",
+        "ao_2b7f5ea82ed89fb7",
+        "ao_6937c38c759c6eea"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "spine_percutaneous_pedicle_retraction_hazards_01",
+      "text": "This is a blunt percutaneous path, not an open muscle strip. Do not drive the needle past the medial wall on AP.",
+      "source_ids": [
+        "ao_7ed8f91f7328028b",
+        "ao_2b7f5ea82ed89fb7"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "spine_percutaneous_pedicle_exposure_01",
+      "text": "Places percutaneous pedicle screws and a rod without an open midline exposure.",
+      "source_ids": [
+        "ao_7ed8f91f7328028b",
+        "ao_2b7f5ea82ed89fb7"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "spine_percutaneous_pedicle_limitations_01",
+      "text": "Does not decompress the canal or resect a tumor; it only places screws and a rod.",
+      "source_ids": [
+        "ao_7ed8f91f7328028b",
+        "ao_6937c38c759c6eea"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "spine_percutaneous_pedicle_indications_01",
+      "text": "Used for percutaneous pedicle-screw constructs in thoracolumbar trauma, degenerative lumbar disease, and metastatic disease.",
+      "source_ids": [
+        "ao_7ed8f91f7328028b",
+        "ao_2b7f5ea82ed89fb7",
+        "ao_6937c38c759c6eea"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "spine_percutaneous_pedicle_closure_01",
+      "text": "Close the small wounds in layers.",
+      "source_ids": [
+        "ao_7ed8f91f7328028b",
+        "ao_2b7f5ea82ed89fb7"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "spine_percutaneous_pedicle_complications_01",
+      "text": "Complications include medial pedicle breach, malpositioned screws, and neurologic injury from an uncorrected trajectory.",
+      "source_ids": [
+        "ao_7ed8f91f7328028b",
+        "ao_6937c38c759c6eea"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "spine_percutaneous_pedicle_questions_01",
+      "text": "Where are the cannulated needles clocked on each side?",
+      "source_ids": [
+        "ao_7ed8f91f7328028b",
+        "ao_2b7f5ea82ed89fb7"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "spine_percutaneous_pedicle_questions_02",
+      "text": "When may the needle be advanced into the vertebral body?",
+      "source_ids": [
+        "ao_7ed8f91f7328028b",
+        "ao_6937c38c759c6eea"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "spine_percutaneous_pedicle_questions_03",
+      "text": "How does incision laterality change by level?",
+      "source_ids": [
+        "ao_7ed8f91f7328028b",
+        "ao_2b7f5ea82ed89fb7"
+      ],
+      "risk_level": "medium"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "ao_7ed8f91f7328028b",
+      "provider": "AO Surgery Reference",
+      "title": "Percutaneous Posterior Approach For Pedicle Screw Placement",
+      "url": "https://surgeryreference.aofoundation.org/spine/trauma/thoracolumbar/approach/percutaneous-posterior-approach-for-pedicle-screw-placement",
+      "source_page_id": "ao_7ed8f91f7328028b"
+    },
+    {
+      "source_id": "ao_2b7f5ea82ed89fb7",
+      "provider": "AO Surgery Reference",
+      "title": "Percutaneous Posterior Approach For Pedicle Screw Placement",
+      "url": "https://surgeryreference.aofoundation.org/spine/degenerative/lumbar/approach/percutaneous-posterior-approach-for-pedicle-screw-placement",
+      "source_page_id": "ao_2b7f5ea82ed89fb7"
+    },
+    {
+      "source_id": "ao_6937c38c759c6eea",
+      "provider": "AO Surgery Reference",
+      "title": "Percutaneous Pedicle Screw Insertion In The Thoracolumbar Spine",
+      "url": "https://surgeryreference.aofoundation.org/spine/tumors/metastatic-tumors/approach/percutaneous-pedicle-screw-insertion-in-the-thoracolumbar-spine",
+      "source_page_id": "ao_6937c38c759c6eea"
+    }
+  ],
+  "content_status": "agent_review_pending",
+  "review": {
+    "status": "agent_review_pending",
+    "required_roles": [
+      "adversarial_safety_reviewer",
+      "approach_anatomy_reviewer",
+      "educational_value_reviewer",
+      "evidence_reviewer",
+      "operative_exposure_reviewer",
+      "procedure_applicability_reviewer"
+    ],
+    "completed_roles": []
+  },
+  "resolved_contradiction_keys": [],
+  "authoring_provenance": {
+    "method": "local_codex_curated",
+    "definition_file": "data/approach_library/curated/spine_core_batch001_v1.json",
+    "api_used": false
+  }
+}

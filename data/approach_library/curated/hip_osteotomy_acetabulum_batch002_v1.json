@@ -1,0 +1,763 @@
+{
+  "approaches": [
+    {
+      "approach_id": "hip_trochanteric_osteotomy",
+      "name": "Trochanteric osteotomy for hip exposure (periprosthetic)",
+      "aliases": [
+        "greater trochanteric osteotomy",
+        "trochanteric slide"
+      ],
+      "region": "hip",
+      "joint": "hip",
+      "bones": [
+        "proximal femur"
+      ],
+      "corridor": "Osteotomy of the greater trochanter with the abductors attached, mobilized to widen exposure of the hip and acetabulum, then reattached with cables or a claw plate",
+      "sources": [
+        {
+          "source_id": "ao_43c3d5fa8a5f6c78",
+          "provider": "AO Surgery Reference",
+          "title": "Trochanteric osteotomy (periprosthetic hip)",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/periprosthetic-fractures/hip/approach/trochanteric-osteotomy",
+          "source_page_id": "ao_43c3d5fa8a5f6c78"
+        },
+        {
+          "source_id": "ao_513cb92dcdc257f2",
+          "provider": "AO Surgery Reference",
+          "title": "Extended trochanteric osteotomy (ETO) of the femur",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/periprosthetic-fractures/hip/approach/eto-femur-osteotomy",
+          "source_page_id": "ao_513cb92dcdc257f2"
+        }
+      ],
+      "procedure_applications": [
+        {
+          "procedure_id": "periprosthetic_hip_fracture_orif",
+          "relationship": "conditional_option",
+          "condition": "Wider access to the hip or acetabulum is needed during periprosthetic fracture fixation"
+        },
+        {
+          "procedure_id": "revision_tha",
+          "relationship": "conditional_option",
+          "condition": "Improved acetabular and proximal femoral exposure is required for revision"
+        }
+      ],
+      "sections": {
+        "positioning": [
+          {
+            "text": "Position in lateral decubitus through a posterolateral approach that can extend into a Kocher-Langenbeck exposure.",
+            "source_ids": [
+              "ao_43c3d5fa8a5f6c78"
+            ]
+          }
+        ],
+        "surface_landmarks": [
+          {
+            "text": "Mark the tip of the greater trochanter and the vastus tubercle.",
+            "source_ids": [
+              "ao_43c3d5fa8a5f6c78"
+            ]
+          }
+        ],
+        "incision": [
+          {
+            "text": "Use the posterolateral skin incision, incising the vastus lateralis fascia distally 5 to 8 cm for extraperiosteal mobilization.",
+            "source_ids": [
+              "ao_43c3d5fa8a5f6c78"
+            ]
+          }
+        ],
+        "superficial_interval": [
+          {
+            "text": "Cauterize the trochanteric anastomotic vessels, then make the osteotomy from the tip of the trochanter to the base of the vastus tubercle with a cooled saw or osteotome.",
+            "source_ids": [
+              "ao_43c3d5fa8a5f6c78"
+            ]
+          }
+        ],
+        "deep_interval": [
+          {
+            "text": "Mobilize the trochanteric fragment with its attached abductors, releasing gluteus minimus from the retroacetabular surface and femoral insertion, keeping the vastus lateralis in continuity.",
+            "source_ids": [
+              "ao_43c3d5fa8a5f6c78",
+              "ao_513cb92dcdc257f2"
+            ]
+          }
+        ],
+        "layers": [
+          {
+            "text": "Skin, subcutaneous tissue, fascia lata, the trochanteric fragment with abductors, and the hip capsule.",
+            "source_ids": [
+              "ao_43c3d5fa8a5f6c78"
+            ]
+          }
+        ],
+        "structures_at_risk": [
+          {
+            "text": "The sciatic nerve posteriorly and the medial femoral circumflex artery supplying the head are at risk, and the short external rotators should be tagged for repair.",
+            "source_ids": [
+              "ao_43c3d5fa8a5f6c78",
+              "ao_513cb92dcdc257f2"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "danger_zones": [
+          {
+            "text": "The retroacetabular surface where the sciatic nerve lies is the danger zone; the trochanteric anastomosis should be cauterized before the cut to protect the head blood supply.",
+            "source_ids": [
+              "ao_43c3d5fa8a5f6c78"
+            ],
+            "risk_level": "medium"
+          }
+        ],
+        "retraction_hazards": [
+          {
+            "text": "Palpate and protect the sciatic nerve and avoid over-retraction of the mobilized abductor fragment.",
+            "source_ids": [
+              "ao_43c3d5fa8a5f6c78",
+              "ao_513cb92dcdc257f2"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "exposure": [
+          {
+            "text": "Widely exposes the hip and acetabulum for revision arthroplasty or periprosthetic fracture fixation.",
+            "source_ids": [
+              "ao_43c3d5fa8a5f6c78"
+            ]
+          }
+        ],
+        "limitations": [
+          {
+            "text": "Active abduction must be limited postoperatively to prevent osteotomy escape, and nonunion of the trochanter can occur.",
+            "source_ids": [
+              "ao_43c3d5fa8a5f6c78",
+              "ao_513cb92dcdc257f2"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "indications": [
+          {
+            "text": "Indicated for revision hip arthroplasty and ORIF of periprosthetic acetabular and femoral fractures requiring wide exposure.",
+            "source_ids": [
+              "ao_43c3d5fa8a5f6c78"
+            ]
+          }
+        ],
+        "closure": [
+          {
+            "text": "Reattach the trochanter with cerclage wires through drill holes or a trochanteric claw or hook plate, repair the capsule and rotators, and close in layers.",
+            "source_ids": [
+              "ao_43c3d5fa8a5f6c78"
+            ]
+          }
+        ],
+        "complications": [
+          {
+            "text": "Complications include trochanteric nonunion or escape, sciatic nerve injury, and abductor weakness.",
+            "source_ids": [
+              "ao_43c3d5fa8a5f6c78",
+              "ao_513cb92dcdc257f2"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "questions": [
+          {
+            "question": "Between which points does the standard trochanteric osteotomy run?",
+            "answer": "From the tip of the greater trochanter to the base of the vastus tubercle.",
+            "source_ids": [
+              "ao_43c3d5fa8a5f6c78"
+            ]
+          },
+          {
+            "question": "What must be limited postoperatively to protect the osteotomy?",
+            "answer": "Active abduction, to prevent osteotomy escape.",
+            "source_ids": [
+              "ao_43c3d5fa8a5f6c78",
+              "ao_513cb92dcdc257f2"
+            ]
+          },
+          {
+            "question": "How is the trochanter reattached?",
+            "answer": "With cerclage wires through drill holes or a trochanteric claw/hook plate.",
+            "source_ids": [
+              "ao_43c3d5fa8a5f6c78"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "approach_id": "hip_extended_trochanteric_osteotomy",
+      "name": "Extended trochanteric osteotomy (ETO) of the femur",
+      "aliases": [
+        "ETO",
+        "extended trochanteric osteotomy for revision"
+      ],
+      "region": "hip",
+      "joint": "hip",
+      "bones": [
+        "proximal femur"
+      ],
+      "corridor": "Lateral longitudinal osteotomy taking the greater trochanter and about one-third of the femoral circumference with vastus lateralis and abductors as one sleeve, hinged anterolaterally, to access a well-fixed stem or cement",
+      "sources": [
+        {
+          "source_id": "ao_513cb92dcdc257f2",
+          "provider": "AO Surgery Reference",
+          "title": "Extended trochanteric osteotomy (ETO) of the femur",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/periprosthetic-fractures/hip/approach/eto-femur-osteotomy",
+          "source_page_id": "ao_513cb92dcdc257f2"
+        },
+        {
+          "source_id": "ao_43c3d5fa8a5f6c78",
+          "provider": "AO Surgery Reference",
+          "title": "Trochanteric osteotomy (periprosthetic hip)",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/periprosthetic-fractures/hip/approach/trochanteric-osteotomy",
+          "source_page_id": "ao_43c3d5fa8a5f6c78"
+        }
+      ],
+      "procedure_applications": [
+        {
+          "procedure_id": "revision_tha",
+          "relationship": "primary_option",
+          "condition": "A well-fixed femoral stem or cement mantle must be removed under direct vision"
+        },
+        {
+          "procedure_id": "periprosthetic_hip_fracture_orif",
+          "relationship": "conditional_option",
+          "condition": "Extensile femoral exposure is required around a periprosthetic femoral fracture"
+        }
+      ],
+      "sections": {
+        "positioning": [
+          {
+            "text": "Position in lateral decubitus through a posterolateral approach, the workhorse for revision arthroplasty.",
+            "source_ids": [
+              "ao_513cb92dcdc257f2"
+            ]
+          }
+        ],
+        "surface_landmarks": [
+          {
+            "text": "Mark the greater trochanter and the lateral femoral shaft to the planned distal extent from templating.",
+            "source_ids": [
+              "ao_513cb92dcdc257f2"
+            ]
+          }
+        ],
+        "incision": [
+          {
+            "text": "Extend the lateral incision distally over the femur to at least the level of the implant tip.",
+            "source_ids": [
+              "ao_513cb92dcdc257f2"
+            ]
+          }
+        ],
+        "superficial_interval": [
+          {
+            "text": "Expose vastus lateralis through a subvastus approach, then begin the osteotomy at the greater trochanter and carry it anterolaterally for about one-third of the femoral circumference, distally to the implant tip.",
+            "source_ids": [
+              "ao_513cb92dcdc257f2"
+            ]
+          }
+        ],
+        "deep_interval": [
+          {
+            "text": "Keep the greater trochanter, abductors, and vastus lateralis together as one osteoperiosteal sleeve hinged on an anterolateral periosteal and muscle hinge, limiting soft-tissue stripping to preserve blood supply.",
+            "source_ids": [
+              "ao_513cb92dcdc257f2",
+              "ao_43c3d5fa8a5f6c78"
+            ]
+          }
+        ],
+        "layers": [
+          {
+            "text": "Skin, subcutaneous tissue, fascia lata, vastus lateralis, the osteotomized lateral femur with abductors, and the medullary canal.",
+            "source_ids": [
+              "ao_513cb92dcdc257f2"
+            ]
+          }
+        ],
+        "structures_at_risk": [
+          {
+            "text": "The sciatic nerve requires protection from retractors, and excessive soft-tissue stripping endangers the blood supply of the osteotomy fragment.",
+            "source_ids": [
+              "ao_513cb92dcdc257f2",
+              "ao_43c3d5fa8a5f6c78"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "danger_zones": [
+          {
+            "text": "The distal transverse end of the osteotomy is a danger zone for propagating a distal femoral fracture and should be protected by a cable or wire.",
+            "source_ids": [
+              "ao_513cb92dcdc257f2"
+            ],
+            "risk_level": "medium"
+          }
+        ],
+        "retraction_hazards": [
+          {
+            "text": "Protect the sciatic nerve with careful retractor placement and preserve the posterior soft-tissue hinge.",
+            "source_ids": [
+              "ao_513cb92dcdc257f2",
+              "ao_43c3d5fa8a5f6c78"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "exposure": [
+          {
+            "text": "Gives direct vision of the femoral canal to remove a well-fixed stem or cement and to prepare for revision.",
+            "source_ids": [
+              "ao_513cb92dcdc257f2"
+            ]
+          }
+        ],
+        "limitations": [
+          {
+            "text": "Active abduction must be limited postoperatively to prevent osteotomy escape, and healing of the large fragment must be protected.",
+            "source_ids": [
+              "ao_513cb92dcdc257f2",
+              "ao_43c3d5fa8a5f6c78"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "indications": [
+          {
+            "text": "Indicated in revision arthroplasty to remove well-fixed cementless or cemented implants and cement under direct vision.",
+            "source_ids": [
+              "ao_513cb92dcdc257f2"
+            ]
+          }
+        ],
+        "closure": [
+          {
+            "text": "Reduce and fix the osteotomy with cerclage wires or cables, add a cable distal to the transverse cut to prevent distal femoral fracture, and close in layers.",
+            "source_ids": [
+              "ao_513cb92dcdc257f2"
+            ]
+          }
+        ],
+        "complications": [
+          {
+            "text": "Complications include osteotomy escape or nonunion, distal femoral fracture, sciatic nerve injury, and devascularization of the fragment.",
+            "source_ids": [
+              "ao_513cb92dcdc257f2",
+              "ao_43c3d5fa8a5f6c78"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "questions": [
+          {
+            "question": "How much of the femoral circumference does the ETO take?",
+            "answer": "About one-third of the circumference, carried anterolaterally.",
+            "source_ids": [
+              "ao_513cb92dcdc257f2"
+            ]
+          },
+          {
+            "question": "On what does the ETO fragment hinge to keep its blood supply?",
+            "answer": "An anterolateral hinge of periosteum and muscle with the vastus lateralis and abductors.",
+            "source_ids": [
+              "ao_513cb92dcdc257f2"
+            ]
+          },
+          {
+            "question": "What prevents a distal femoral fracture at the transverse osteotomy?",
+            "answer": "A prophylactic cable or wire placed distal to the transverse cut.",
+            "source_ids": [
+              "ao_513cb92dcdc257f2"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "approach_id": "hip_ilioinguinal_acetabulum",
+      "name": "Ilioinguinal approach to the acetabulum (periprosthetic)",
+      "aliases": [
+        "ilioinguinal approach"
+      ],
+      "region": "hip",
+      "joint": "hip",
+      "bones": [
+        "acetabulum",
+        "pelvis"
+      ],
+      "corridor": "Anterior approach along the iliac crest to the symphysis with three windows exposing the internal iliac fossa, the pelvic brim and quadrilateral surface, and the retropubic space",
+      "sources": [
+        {
+          "source_id": "ao_01bb35e0585ef010",
+          "provider": "AO Surgery Reference",
+          "title": "Ilioinguinal approach to the acetabulum (periprosthetic)",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/periprosthetic-fractures/hip/approach/ilioinguinal-approach-acetabulum",
+          "source_page_id": "ao_01bb35e0585ef010"
+        },
+        {
+          "source_id": "ao_e1443294f466baa7",
+          "provider": "AO Surgery Reference",
+          "title": "Anterior intrapelvic approach to the acetabulum (periprosthetic)",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/periprosthetic-fractures/hip/approach/anterior-intrapelvic-approach-acetabulum",
+          "source_page_id": "ao_e1443294f466baa7"
+        }
+      ],
+      "procedure_applications": [
+        {
+          "procedure_id": "acetabulum_fracture_orif_anterior",
+          "relationship": "primary_option",
+          "condition": "An anterior column or associated acetabular fracture requires the classic three-window exposure"
+        },
+        {
+          "procedure_id": "periprosthetic_hip_fracture_orif",
+          "relationship": "conditional_option",
+          "condition": "A periprosthetic acetabular fracture needs anterior exposure"
+        }
+      ],
+      "sections": {
+        "positioning": [
+          {
+            "text": "Position supine, using hip flexion to relax the iliopsoas during exposure.",
+            "source_ids": [
+              "ao_01bb35e0585ef010"
+            ]
+          }
+        ],
+        "surface_landmarks": [
+          {
+            "text": "Mark the iliac crest, the anterior superior iliac spine, and the pubic symphysis.",
+            "source_ids": [
+              "ao_01bb35e0585ef010"
+            ]
+          }
+        ],
+        "incision": [
+          {
+            "text": "Make a curved incision beginning posterior to the gluteus medius pillar and extend it past the midline to 2 cm proximal to the symphysis.",
+            "source_ids": [
+              "ao_01bb35e0585ef010"
+            ]
+          }
+        ],
+        "superficial_interval": [
+          {
+            "text": "Develop the first window in the internal iliac fossa, the second window along the pelvic brim and quadrilateral surface between the iliopsoas/femoral nerve and the external iliac vessels, and the third medial window after protecting the bladder.",
+            "source_ids": [
+              "ao_01bb35e0585ef010"
+            ]
+          }
+        ],
+        "deep_interval": [
+          {
+            "text": "Retract the external iliac vessels gently, keep the femoral nerve on the anteromedial iliopsoas, mobilize the spermatic cord or round ligament medially, and identify and control the corona mortis before working near the pubic ramus.",
+            "source_ids": [
+              "ao_01bb35e0585ef010",
+              "ao_e1443294f466baa7"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "layers": [
+          {
+            "text": "Skin, subcutaneous tissue, external oblique aponeurosis and inguinal canal structures, the iliopsoas and femoral nerve, the external iliac vessels, and the inner pelvis.",
+            "source_ids": [
+              "ao_01bb35e0585ef010"
+            ]
+          }
+        ],
+        "structures_at_risk": [
+          {
+            "text": "The femoral nerve on the iliopsoas, the external iliac vessels, the spermatic cord or round ligament, and the corona mortis (present in 40% or more of patients) are at risk.",
+            "source_ids": [
+              "ao_01bb35e0585ef010",
+              "ao_e1443294f466baa7"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "danger_zones": [
+          {
+            "text": "The retropubic corona mortis and the middle window over the external iliac vessels are the danger zones for major bleeding.",
+            "source_ids": [
+              "ao_01bb35e0585ef010",
+              "ao_e1443294f466baa7"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "retraction_hazards": [
+          {
+            "text": "Retract the external iliac vessels gently and avoid tearing the corona mortis or injuring the femoral nerve.",
+            "source_ids": [
+              "ao_01bb35e0585ef010",
+              "ao_e1443294f466baa7"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "exposure": [
+          {
+            "text": "Exposes the internal iliac fossa, pelvic brim, quadrilateral surface, and anterior column and pubis through the three windows.",
+            "source_ids": [
+              "ao_01bb35e0585ef010"
+            ]
+          }
+        ],
+        "limitations": [
+          {
+            "text": "Prior inguinal or femoral hernia or hernia surgery may complicate the approach and require modifying the windows.",
+            "source_ids": [
+              "ao_01bb35e0585ef010"
+            ]
+          }
+        ],
+        "indications": [
+          {
+            "text": "Indicated for ORIF of anterior column and periprosthetic acetabular fractures.",
+            "source_ids": [
+              "ao_01bb35e0585ef010"
+            ]
+          }
+        ],
+        "closure": [
+          {
+            "text": "Repair the conjoint tendon, external oblique aponeurosis, and abdominal wall to the iliac crest in layers, protecting the bladder.",
+            "source_ids": [
+              "ao_01bb35e0585ef010"
+            ]
+          }
+        ],
+        "complications": [
+          {
+            "text": "Complications include external iliac or corona mortis bleeding, femoral nerve injury, hernia, and lymphocele.",
+            "source_ids": [
+              "ao_01bb35e0585ef010",
+              "ao_e1443294f466baa7"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "questions": [
+          {
+            "question": "What do the three windows of the ilioinguinal approach expose?",
+            "answer": "The internal iliac fossa, the pelvic brim and quadrilateral surface, and the retropubic/medial pelvis.",
+            "source_ids": [
+              "ao_01bb35e0585ef010"
+            ]
+          },
+          {
+            "question": "What is the corona mortis and why does it matter?",
+            "answer": "A retropubic anastomosis between the obturator and external iliac/epigastric vessels, present in 40% or more of patients, that can bleed heavily if torn.",
+            "source_ids": [
+              "ao_01bb35e0585ef010",
+              "ao_e1443294f466baa7"
+            ]
+          },
+          {
+            "question": "Where does the femoral nerve lie in this approach?",
+            "answer": "On the anteromedial surface of the iliopsoas.",
+            "source_ids": [
+              "ao_01bb35e0585ef010"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "approach_id": "hip_anterior_intrapelvic_acetabulum",
+      "name": "Anterior intrapelvic (modified Stoppa) approach to the acetabulum (periprosthetic)",
+      "aliases": [
+        "modified Stoppa approach",
+        "Pfannenstiel intrapelvic approach"
+      ],
+      "region": "hip",
+      "joint": "hip",
+      "bones": [
+        "acetabulum",
+        "pelvis"
+      ],
+      "corridor": "Low Pfannenstiel approach through the linea alba behind the pubis into the true pelvis, along the pelvic brim to the quadrilateral surface, protecting the bladder and pelvic vessels",
+      "sources": [
+        {
+          "source_id": "ao_e1443294f466baa7",
+          "provider": "AO Surgery Reference",
+          "title": "Anterior intrapelvic approach to the acetabulum (periprosthetic)",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/periprosthetic-fractures/hip/approach/anterior-intrapelvic-approach-acetabulum",
+          "source_page_id": "ao_e1443294f466baa7"
+        },
+        {
+          "source_id": "ao_01bb35e0585ef010",
+          "provider": "AO Surgery Reference",
+          "title": "Ilioinguinal approach to the acetabulum (periprosthetic)",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/periprosthetic-fractures/hip/approach/ilioinguinal-approach-acetabulum",
+          "source_page_id": "ao_01bb35e0585ef010"
+        }
+      ],
+      "procedure_applications": [
+        {
+          "procedure_id": "acetabulum_fracture_orif_anterior",
+          "relationship": "primary_option",
+          "condition": "A quadrilateral surface or anterior column acetabular fracture needs direct intrapelvic access"
+        },
+        {
+          "procedure_id": "periprosthetic_hip_fracture_orif",
+          "relationship": "conditional_option",
+          "condition": "A periprosthetic acetabular fracture requires intrapelvic exposure and buttressing"
+        }
+      ],
+      "sections": {
+        "positioning": [
+          {
+            "text": "Position supine with a sterile bolster under the knee of the injured leg to relax the psoas and vessels.",
+            "source_ids": [
+              "ao_e1443294f466baa7"
+            ]
+          }
+        ],
+        "surface_landmarks": [
+          {
+            "text": "Mark the pubic symphysis and a transverse Pfannenstiel line just above it.",
+            "source_ids": [
+              "ao_e1443294f466baa7"
+            ]
+          }
+        ],
+        "incision": [
+          {
+            "text": "Make a Pfannenstiel incision above the symphysis and incise the rectus fascia longitudinally along the linea alba.",
+            "source_ids": [
+              "ao_e1443294f466baa7"
+            ]
+          }
+        ],
+        "superficial_interval": [
+          {
+            "text": "Retract both rectus bellies laterally, partly detach the medial rectus from the symphysis, and stay in the preperitoneal space while dissecting the bladder off the pelvis.",
+            "source_ids": [
+              "ao_e1443294f466baa7"
+            ],
+            "risk_level": "medium"
+          }
+        ],
+        "deep_interval": [
+          {
+            "text": "Follow the pelvic brim laterally, identify and control the corona mortis before it is divided, mobilize the obturator neurovascular bundle with a malleable retractor, and elevate the obturator internus and periosteum off the quadrilateral surface with a Cobb elevator.",
+            "source_ids": [
+              "ao_e1443294f466baa7",
+              "ao_01bb35e0585ef010"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "layers": [
+          {
+            "text": "Skin, subcutaneous tissue, rectus fascia and linea alba, rectus abdominis, the preperitoneal space with the bladder, and the inner pelvis and quadrilateral surface.",
+            "source_ids": [
+              "ao_e1443294f466baa7"
+            ]
+          }
+        ],
+        "structures_at_risk": [
+          {
+            "text": "The external iliac vein, the corona mortis, the obturator neurovascular bundle, and the bladder are at risk.",
+            "source_ids": [
+              "ao_e1443294f466baa7",
+              "ao_01bb35e0585ef010"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "danger_zones": [
+          {
+            "text": "The retropubic corona mortis and the external iliac vein near the elevators are the danger zones for catastrophic bleeding.",
+            "source_ids": [
+              "ao_e1443294f466baa7",
+              "ao_01bb35e0585ef010"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "retraction_hazards": [
+          {
+            "text": "Keep malleable retractors between the vessels and bone, avoid the external iliac vein with elevators, and protect the bladder with blunt dissection.",
+            "source_ids": [
+              "ao_e1443294f466baa7"
+            ],
+            "risk_level": "medium"
+          }
+        ],
+        "exposure": [
+          {
+            "text": "Gives excellent visualization of the entire quadrilateral surface, pelvic brim, and pubic symphysis, extendable with a lateral window to the iliac fossa.",
+            "source_ids": [
+              "ao_e1443294f466baa7"
+            ]
+          }
+        ],
+        "limitations": [
+          {
+            "text": "The lateral window extension is limited by the L5 nerve root on the anterior ala, and blood loss can be significant.",
+            "source_ids": [
+              "ao_e1443294f466baa7"
+            ]
+          }
+        ],
+        "indications": [
+          {
+            "text": "Indicated for ORIF of quadrilateral surface, anterior column, and periprosthetic acetabular fractures.",
+            "source_ids": [
+              "ao_e1443294f466baa7"
+            ]
+          }
+        ],
+        "closure": [
+          {
+            "text": "Close the midline rectus and superficial layers protecting the bladder and peritoneum, and consider a subfascial drain given significant blood loss.",
+            "source_ids": [
+              "ao_e1443294f466baa7"
+            ]
+          }
+        ],
+        "complications": [
+          {
+            "text": "Complications include major vascular bleeding from the corona mortis or external iliac vein, bladder injury, obturator nerve injury, and hematoma.",
+            "source_ids": [
+              "ao_e1443294f466baa7",
+              "ao_01bb35e0585ef010"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "questions": [
+          {
+            "question": "Through what plane does the modified Stoppa approach enter the pelvis?",
+            "answer": "Through the linea alba, retracting the rectus abdominis and staying preperitoneal.",
+            "source_ids": [
+              "ao_e1443294f466baa7"
+            ]
+          },
+          {
+            "question": "Which surface is best visualized with the anterior intrapelvic approach?",
+            "answer": "The entire quadrilateral surface.",
+            "source_ids": [
+              "ao_e1443294f466baa7"
+            ]
+          },
+          {
+            "question": "What limits the lateral window extension?",
+            "answer": "The L5 nerve root on the anterior aspect of the ala.",
+            "source_ids": [
+              "ao_e1443294f466baa7"
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

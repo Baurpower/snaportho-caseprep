@@ -446,6 +446,27 @@
       "provider": "PubMed",
       "title": "Capitellum fractures: should the collateral ligament be repaired primarily?",
       "url": "https://pubmed.ncbi.nlm.nih.gov/40741145/"
+    },
+    {
+      "source_id": "orthobullets_3a317a98c5e9f536",
+      "provider": "Orthobullets",
+      "title": "Elbow Anterolateral Approach",
+      "url": "https://www.orthobullets.com/approaches/12007/elbow-anterolateral-approach",
+      "source_page_id": "orthobullets_3a317a98c5e9f536"
+    },
+    {
+      "source_id": "orthobullets_6d04705bc24fa49f",
+      "provider": "Orthobullets",
+      "title": "Anterolateral Approach To Distal Humerus",
+      "url": "https://www.orthobullets.com/approaches/12066/anterolateral-approach-to-distal-humerus",
+      "source_page_id": "orthobullets_6d04705bc24fa49f"
+    },
+    {
+      "source_id": "orthobullets_fe00a1e2e7dd58f2",
+      "provider": "Orthobullets",
+      "title": "Lateral Approach To Distal Humerus",
+      "url": "https://www.orthobullets.com/approaches/12068/lateral-approach-to-distal-humerus",
+      "source_page_id": "orthobullets_fe00a1e2e7dd58f2"
     }
   ],
   "content_status": "agent_review_pending",

@@ -1,0 +1,351 @@
+{
+  "schema_version": "brobot_approach_packet_v1",
+  "approach_id": "pelvic_ring_posterior_si",
+  "name": "Posterior approach to the sacroiliac joint",
+  "aliases": [
+    "posterior iliac-crest SI approach"
+  ],
+  "region": "pelvic-ring",
+  "joint": "sacroiliac",
+  "bones": [
+    "ilium",
+    "sacrum"
+  ],
+  "corridor": "Curved incision over the posterior iliac crest to the PIIS, or a vertical cut 1–2 fingerbreadths distal and lateral to the PSIS, elevating gluteus from the posterolateral ilium while protecting the superior and inferior gluteal neurovascular bundles and palpating the SI joint through the greater sciatic notch",
+  "positioning": [
+    {
+      "text": "Position prone so the posterior iliac crest, PSIS, PIIS, and sacral spinous processes are accessible.",
+      "claim_ids": [
+        "pelvic_ring_posterior_si_positioning_01"
+      ]
+    }
+  ],
+  "setup": [],
+  "surface_landmarks": [
+    {
+      "text": "Mark the posterior iliac crest, PSIS, PIIS, and sacral spinous processes.",
+      "claim_ids": [
+        "pelvic_ring_posterior_si_surface_landmarks_01"
+      ]
+    }
+  ],
+  "incision": [
+    {
+      "text": "Make a curved cut over the posterior iliac crest from as far proximal as the fracture needs down to the PIIS, or a 10–15 cm vertical cut starting 1–2 fingerbreadths distal and lateral to the PSIS. Avoid Morel-Lavallée or crushed skin.",
+      "claim_ids": [
+        "pelvic_ring_posterior_si_incision_01"
+      ]
+    }
+  ],
+  "superficial_interval": [
+    {
+      "text": "Divide fat to the crest, then follow the gluteus maximus fascia medially to the sacral spinous processes.",
+      "claim_ids": [
+        "pelvic_ring_posterior_si_superficial_interval_01"
+      ]
+    }
+  ],
+  "deep_interval": [
+    {
+      "text": "Detach the gluteals from the ilium and elevate them laterally. Do not lift the muscle too far anteriorly; it is tethered by its deep neurovascular bundle. A finger in the greater sciatic notch, dorsal to piriformis, can palpate the anterior SI joint. Inferior gluteal vessels and nerve exit at the caudal edge of piriformis and wrap around it into gluteus maximus; they cannot be mobilized distally with piriformis.",
+      "claim_ids": [
+        "pelvic_ring_posterior_si_deep_interval_01"
+      ]
+    }
+  ],
+  "layers": [
+    {
+      "text": "Skin, gluteal fascia, gluteus maximus, posterolateral ilium, greater sciatic notch, then the posterior SI joint and posterior sacrum.",
+      "claim_ids": [
+        "pelvic_ring_posterior_si_layers_01"
+      ]
+    }
+  ],
+  "structures_encountered": [],
+  "structures_at_risk": [
+    {
+      "text": "The superior gluteal vessels and nerves during anterior/posterior iliac elevation, the inferior gluteal neurovascular bundle at the caudal piriformis, and posterior skin over a Morel-Lavallée lesion are at risk.",
+      "claim_ids": [
+        "pelvic_ring_posterior_si_structures_at_risk_01"
+      ]
+    }
+  ],
+  "danger_zones": [
+    {
+      "text": "The greater sciatic notch and the deep surface of gluteus maximus, where the inferior gluteal bundle enters after wrapping piriformis, are the danger zones.",
+      "claim_ids": [
+        "pelvic_ring_posterior_si_danger_zones_01"
+      ]
+    }
+  ],
+  "retraction_hazards": [
+    {
+      "text": "Protect the inferior gluteal bundle from sharp injury and excessive tension. Do not try to mobilize piriformis distally.",
+      "claim_ids": [
+        "pelvic_ring_posterior_si_retraction_hazards_01"
+      ]
+    }
+  ],
+  "exposure": [
+    {
+      "text": "Gives access to the posterior ilium, the SI joint, and the posterior sacral surface. Joint alignment is judged by palpating through the notch: edges should be level and without a gap.",
+      "claim_ids": [
+        "pelvic_ring_posterior_si_exposure_01"
+      ]
+    }
+  ],
+  "limitations": [
+    {
+      "text": "Anterior muscle elevation is limited by the gluteal neurovascular tether. Crushed posterior skin may forbid the corridor.",
+      "claim_ids": [
+        "pelvic_ring_posterior_si_limitations_01"
+      ]
+    }
+  ],
+  "extensions": [],
+  "indications": [
+    {
+      "text": "Used when the posterior ilium, SI joint, or posterior sacral surface must be reduced from behind.",
+      "claim_ids": [
+        "pelvic_ring_posterior_si_indications_01"
+      ]
+    }
+  ],
+  "relative_contraindications": [],
+  "implant_implications": [],
+  "fluoroscopy_implications": [],
+  "closure": [
+    {
+      "text": "Reattach the gluteals to the medial fascia flap over the posterior ilium and close fat and skin in layers.",
+      "claim_ids": [
+        "pelvic_ring_posterior_si_closure_01"
+      ]
+    }
+  ],
+  "complications": [
+    {
+      "text": "Complications include superior- or inferior-gluteal neurovascular injury, gluteus maximus denervation or ischemia, and posterior wound breakdown through a Morel-Lavallée lesion.",
+      "claim_ids": [
+        "pelvic_ring_posterior_si_complications_01"
+      ]
+    }
+  ],
+  "bailouts": [],
+  "procedure_applications": [
+    {
+      "procedure_id": "pelvic_ring_orif",
+      "relationship": "primary_option",
+      "condition": "The posterior ilium, SI joint, or posterior sacral surface is reduced through a posterior iliac window"
+    }
+  ],
+  "questions": [
+    {
+      "question": "Where can the anterior SI joint be palpated?",
+      "answer": "Through the greater sciatic notch, with a finger dorsal to piriformis and ventral to the joint.",
+      "claim_ids": [
+        "pelvic_ring_posterior_si_questions_01"
+      ]
+    },
+    {
+      "question": "Where do the inferior gluteal vessels exit?",
+      "answer": "At the caudal edge of piriformis in the greater sciatic foramen, then upward into the deep surface of gluteus maximus.",
+      "claim_ids": [
+        "pelvic_ring_posterior_si_questions_02"
+      ]
+    },
+    {
+      "question": "Why can gluteus not be elevated too far anteriorly?",
+      "answer": "Its deep surface is tethered by its neurovascular bundle.",
+      "claim_ids": [
+        "pelvic_ring_posterior_si_questions_03"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "pelvic_ring_posterior_si_positioning_01",
+      "text": "Position prone so the posterior iliac crest, PSIS, PIIS, and sacral spinous processes are accessible.",
+      "source_ids": [
+        "ao_9729dceb18c8c492"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "pelvic_ring_posterior_si_surface_landmarks_01",
+      "text": "Mark the posterior iliac crest, PSIS, PIIS, and sacral spinous processes.",
+      "source_ids": [
+        "ao_9729dceb18c8c492"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "pelvic_ring_posterior_si_incision_01",
+      "text": "Make a curved cut over the posterior iliac crest from as far proximal as the fracture needs down to the PIIS, or a 10–15 cm vertical cut starting 1–2 fingerbreadths distal and lateral to the PSIS. Avoid Morel-Lavallée or crushed skin.",
+      "source_ids": [
+        "ao_9729dceb18c8c492",
+        "ao_856eb39c56d17b72"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "pelvic_ring_posterior_si_superficial_interval_01",
+      "text": "Divide fat to the crest, then follow the gluteus maximus fascia medially to the sacral spinous processes.",
+      "source_ids": [
+        "ao_9729dceb18c8c492"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "pelvic_ring_posterior_si_deep_interval_01",
+      "text": "Detach the gluteals from the ilium and elevate them laterally. Do not lift the muscle too far anteriorly; it is tethered by its deep neurovascular bundle. A finger in the greater sciatic notch, dorsal to piriformis, can palpate the anterior SI joint. Inferior gluteal vessels and nerve exit at the caudal edge of piriformis and wrap around it into gluteus maximus; they cannot be mobilized distally with piriformis.",
+      "source_ids": [
+        "ao_9729dceb18c8c492",
+        "ao_e2c55bc94714d94b"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "pelvic_ring_posterior_si_layers_01",
+      "text": "Skin, gluteal fascia, gluteus maximus, posterolateral ilium, greater sciatic notch, then the posterior SI joint and posterior sacrum.",
+      "source_ids": [
+        "ao_9729dceb18c8c492"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "pelvic_ring_posterior_si_structures_at_risk_01",
+      "text": "The superior gluteal vessels and nerves during anterior/posterior iliac elevation, the inferior gluteal neurovascular bundle at the caudal piriformis, and posterior skin over a Morel-Lavallée lesion are at risk.",
+      "source_ids": [
+        "ao_9729dceb18c8c492",
+        "ao_e2c55bc94714d94b"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "pelvic_ring_posterior_si_danger_zones_01",
+      "text": "The greater sciatic notch and the deep surface of gluteus maximus, where the inferior gluteal bundle enters after wrapping piriformis, are the danger zones.",
+      "source_ids": [
+        "ao_9729dceb18c8c492",
+        "ao_e2c55bc94714d94b"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "pelvic_ring_posterior_si_retraction_hazards_01",
+      "text": "Protect the inferior gluteal bundle from sharp injury and excessive tension. Do not try to mobilize piriformis distally.",
+      "source_ids": [
+        "ao_9729dceb18c8c492"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "pelvic_ring_posterior_si_exposure_01",
+      "text": "Gives access to the posterior ilium, the SI joint, and the posterior sacral surface. Joint alignment is judged by palpating through the notch: edges should be level and without a gap.",
+      "source_ids": [
+        "ao_9729dceb18c8c492"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "pelvic_ring_posterior_si_limitations_01",
+      "text": "Anterior muscle elevation is limited by the gluteal neurovascular tether. Crushed posterior skin may forbid the corridor.",
+      "source_ids": [
+        "ao_9729dceb18c8c492",
+        "ao_856eb39c56d17b72"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "pelvic_ring_posterior_si_indications_01",
+      "text": "Used when the posterior ilium, SI joint, or posterior sacral surface must be reduced from behind.",
+      "source_ids": [
+        "ao_9729dceb18c8c492"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "pelvic_ring_posterior_si_closure_01",
+      "text": "Reattach the gluteals to the medial fascia flap over the posterior ilium and close fat and skin in layers.",
+      "source_ids": [
+        "ao_9729dceb18c8c492"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "pelvic_ring_posterior_si_complications_01",
+      "text": "Complications include superior- or inferior-gluteal neurovascular injury, gluteus maximus denervation or ischemia, and posterior wound breakdown through a Morel-Lavallée lesion.",
+      "source_ids": [
+        "ao_9729dceb18c8c492",
+        "ao_e2c55bc94714d94b",
+        "ao_856eb39c56d17b72"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "pelvic_ring_posterior_si_questions_01",
+      "text": "Where can the anterior SI joint be palpated?",
+      "source_ids": [
+        "ao_9729dceb18c8c492"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "pelvic_ring_posterior_si_questions_02",
+      "text": "Where do the inferior gluteal vessels exit?",
+      "source_ids": [
+        "ao_9729dceb18c8c492"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "pelvic_ring_posterior_si_questions_03",
+      "text": "Why can gluteus not be elevated too far anteriorly?",
+      "source_ids": [
+        "ao_9729dceb18c8c492"
+      ],
+      "risk_level": "medium"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "ao_9729dceb18c8c492",
+      "provider": "AO Surgery Reference",
+      "title": "Posterior Approach To The Si Joint",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/pelvic-ring/approach/posterior-approach-to-the-si-joint",
+      "source_page_id": "ao_9729dceb18c8c492"
+    },
+    {
+      "source_id": "ao_856eb39c56d17b72",
+      "provider": "AO Surgery Reference",
+      "title": "Posterior Approach To The Sacrum",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/pelvic-ring/approach/posterior-approach-to-the-sacrum",
+      "source_page_id": "ao_856eb39c56d17b72"
+    },
+    {
+      "source_id": "ao_e2c55bc94714d94b",
+      "provider": "AO Surgery Reference",
+      "title": "Kocher-Langenbeck approach to the acetabulum",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/acetabulum/approach/kocher-langenbeck-approach-to-the-acetabulum",
+      "source_page_id": "ao_e2c55bc94714d94b"
+    }
+  ],
+  "content_status": "agent_review_pending",
+  "review": {
+    "status": "agent_review_pending",
+    "required_roles": [
+      "adversarial_safety_reviewer",
+      "approach_anatomy_reviewer",
+      "educational_value_reviewer",
+      "evidence_reviewer",
+      "operative_exposure_reviewer",
+      "procedure_applicability_reviewer"
+    ],
+    "completed_roles": []
+  },
+  "resolved_contradiction_keys": [],
+  "authoring_provenance": {
+    "method": "local_codex_curated",
+    "definition_file": "data/approach_library/curated/pelvis_tibia_batch001_v1.json",
+    "api_used": false
+  }
+}

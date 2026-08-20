@@ -1,0 +1,350 @@
+{
+  "schema_version": "brobot_approach_packet_v1",
+  "approach_id": "hand_pip_joint_palmar",
+  "name": "Palmar approach to the proximal interphalangeal joint",
+  "aliases": [
+    "volar Bruner approach to the PIP joint",
+    "shotgun approach to the PIP joint"
+  ],
+  "region": "hand-proximal-phalanges",
+  "joint": "proximal interphalangeal joint",
+  "bones": [
+    "proximal phalanx",
+    "middle phalanx"
+  ],
+  "corridor": "Volar Bruner interval through the flexor sheath between the A2 and A4 pulleys, retracting the flexor tendons and detaching the volar plate to open the PIP joint",
+  "positioning": [
+    {
+      "text": "Position supine with the hand on a hand table under tourniquet control.",
+      "claim_ids": [
+        "hand_pip_joint_palmar_positioning_01"
+      ]
+    }
+  ],
+  "setup": [],
+  "surface_landmarks": [
+    {
+      "text": "Use the palmar flexor skin creases as a guide, with the incision apex at the intermediate crease over the PIP joint.",
+      "claim_ids": [
+        "hand_pip_joint_palmar_surface_landmarks_01"
+      ]
+    }
+  ],
+  "incision": [
+    {
+      "text": "Make a carefully planned Bruner zig-zag palmar incision using the flexor creases.",
+      "claim_ids": [
+        "hand_pip_joint_palmar_incision_01"
+      ]
+    }
+  ],
+  "superficial_interval": [
+    {
+      "text": "Elevate thin skin flaps and identify and gently mobilize the digital arteries and nerves on each side.",
+      "claim_ids": [
+        "hand_pip_joint_palmar_superficial_interval_01"
+      ]
+    }
+  ],
+  "deep_interval": [
+    {
+      "text": "Incise the C1, A3, and C2 pulleys laterally near their bony attachments leaving a cuff for repair, preserve the A2 and A4 pulleys, retract the flexor tendons with a loop, and detach the volar plate as a flap.",
+      "claim_ids": [
+        "hand_pip_joint_palmar_deep_interval_01"
+      ]
+    }
+  ],
+  "layers": [
+    {
+      "text": "Skin, subcutaneous tissue with digital neurovascular bundles, flexor sheath and pulleys, flexor tendons, volar plate, and the PIP joint.",
+      "claim_ids": [
+        "hand_pip_joint_palmar_layers_01"
+      ]
+    }
+  ],
+  "structures_encountered": [],
+  "structures_at_risk": [
+    {
+      "text": "The digital arteries and nerves on each side, the vincular arteries to the flexor tendons, and the A2 and A4 pulleys are at risk.",
+      "claim_ids": [
+        "hand_pip_joint_palmar_structures_at_risk_01"
+      ]
+    }
+  ],
+  "danger_zones": [
+    {
+      "text": "The lateral borders of the sheath are the danger zones for the digital neurovascular bundles; cutting the A2 or A4 pulleys risks tendon bowstringing.",
+      "claim_ids": [
+        "hand_pip_joint_palmar_danger_zones_01"
+      ]
+    }
+  ],
+  "retraction_hazards": [
+    {
+      "text": "Retract the mobilized digital neurovascular bundles gently and preserve the vincular blood supply to the flexor tendons.",
+      "claim_ids": [
+        "hand_pip_joint_palmar_retraction_hazards_01"
+      ]
+    }
+  ],
+  "exposure": [
+    {
+      "text": "Opens the volar PIP joint fully, and dividing both collateral ligaments allows hyperextension (shotgun) exposure for comminuted fractures.",
+      "claim_ids": [
+        "hand_pip_joint_palmar_exposure_01"
+      ]
+    }
+  ],
+  "limitations": [
+    {
+      "text": "Preservation of the A2 and A4 pulleys constrains proximal and distal extension, and wide exposure requires collateral ligament release.",
+      "claim_ids": [
+        "hand_pip_joint_palmar_limitations_01"
+      ]
+    }
+  ],
+  "extensions": [],
+  "indications": [
+    {
+      "text": "Indicated for volar PIP fracture-dislocations and intra-articular fractures of the base of the middle phalanx.",
+      "claim_ids": [
+        "hand_pip_joint_palmar_indications_01"
+      ]
+    }
+  ],
+  "relative_contraindications": [],
+  "implant_implications": [],
+  "fluoroscopy_implications": [],
+  "closure": [
+    {
+      "text": "Repair the volar plate with pullout or anchor sutures and reattach the A3 and, where possible, the C1 and C2 pulleys with nonabsorbable monofilament.",
+      "claim_ids": [
+        "hand_pip_joint_palmar_closure_01"
+      ]
+    }
+  ],
+  "complications": [
+    {
+      "text": "Complications include digital nerve injury, flexor tendon bowstringing from pulley loss, PIP stiffness, and skin flap problems.",
+      "claim_ids": [
+        "hand_pip_joint_palmar_complications_01"
+      ]
+    }
+  ],
+  "bailouts": [],
+  "procedure_applications": [
+    {
+      "procedure_id": "proximal_phalanx_fracture_orif",
+      "relationship": "conditional_option",
+      "condition": "A volar PIP fracture-dislocation or intra-articular base of middle phalanx fracture needs open joint access"
+    }
+  ],
+  "questions": [
+    {
+      "question": "Which pulleys must be preserved in the palmar PIP approach?",
+      "answer": "The A2 and A4 pulleys.",
+      "claim_ids": [
+        "hand_pip_joint_palmar_questions_01"
+      ]
+    },
+    {
+      "question": "What is the shotgun maneuver for PIP exposure?",
+      "answer": "Dividing both collateral ligaments to hyperextend and fully open the joint.",
+      "claim_ids": [
+        "hand_pip_joint_palmar_questions_02"
+      ]
+    },
+    {
+      "question": "Which structures must be mobilized and protected in the skin flaps?",
+      "answer": "The digital arteries and nerves.",
+      "claim_ids": [
+        "hand_pip_joint_palmar_questions_03"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "hand_pip_joint_palmar_positioning_01",
+      "text": "Position supine with the hand on a hand table under tourniquet control.",
+      "source_ids": [
+        "ao_84c90651b50152c6"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "hand_pip_joint_palmar_surface_landmarks_01",
+      "text": "Use the palmar flexor skin creases as a guide, with the incision apex at the intermediate crease over the PIP joint.",
+      "source_ids": [
+        "ao_84c90651b50152c6"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "hand_pip_joint_palmar_incision_01",
+      "text": "Make a carefully planned Bruner zig-zag palmar incision using the flexor creases.",
+      "source_ids": [
+        "ao_84c90651b50152c6"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "hand_pip_joint_palmar_superficial_interval_01",
+      "text": "Elevate thin skin flaps and identify and gently mobilize the digital arteries and nerves on each side.",
+      "source_ids": [
+        "ao_84c90651b50152c6",
+        "ao_f2dbdf967e028e42"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "hand_pip_joint_palmar_deep_interval_01",
+      "text": "Incise the C1, A3, and C2 pulleys laterally near their bony attachments leaving a cuff for repair, preserve the A2 and A4 pulleys, retract the flexor tendons with a loop, and detach the volar plate as a flap.",
+      "source_ids": [
+        "ao_84c90651b50152c6"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "hand_pip_joint_palmar_layers_01",
+      "text": "Skin, subcutaneous tissue with digital neurovascular bundles, flexor sheath and pulleys, flexor tendons, volar plate, and the PIP joint.",
+      "source_ids": [
+        "ao_84c90651b50152c6"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "hand_pip_joint_palmar_structures_at_risk_01",
+      "text": "The digital arteries and nerves on each side, the vincular arteries to the flexor tendons, and the A2 and A4 pulleys are at risk.",
+      "source_ids": [
+        "ao_84c90651b50152c6",
+        "ao_f2dbdf967e028e42"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "hand_pip_joint_palmar_danger_zones_01",
+      "text": "The lateral borders of the sheath are the danger zones for the digital neurovascular bundles; cutting the A2 or A4 pulleys risks tendon bowstringing.",
+      "source_ids": [
+        "ao_84c90651b50152c6",
+        "ao_f2dbdf967e028e42"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "hand_pip_joint_palmar_retraction_hazards_01",
+      "text": "Retract the mobilized digital neurovascular bundles gently and preserve the vincular blood supply to the flexor tendons.",
+      "source_ids": [
+        "ao_84c90651b50152c6"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "hand_pip_joint_palmar_exposure_01",
+      "text": "Opens the volar PIP joint fully, and dividing both collateral ligaments allows hyperextension (shotgun) exposure for comminuted fractures.",
+      "source_ids": [
+        "ao_84c90651b50152c6"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "hand_pip_joint_palmar_limitations_01",
+      "text": "Preservation of the A2 and A4 pulleys constrains proximal and distal extension, and wide exposure requires collateral ligament release.",
+      "source_ids": [
+        "ao_84c90651b50152c6"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "hand_pip_joint_palmar_indications_01",
+      "text": "Indicated for volar PIP fracture-dislocations and intra-articular fractures of the base of the middle phalanx.",
+      "source_ids": [
+        "ao_84c90651b50152c6"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "hand_pip_joint_palmar_closure_01",
+      "text": "Repair the volar plate with pullout or anchor sutures and reattach the A3 and, where possible, the C1 and C2 pulleys with nonabsorbable monofilament.",
+      "source_ids": [
+        "ao_84c90651b50152c6"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "hand_pip_joint_palmar_complications_01",
+      "text": "Complications include digital nerve injury, flexor tendon bowstringing from pulley loss, PIP stiffness, and skin flap problems.",
+      "source_ids": [
+        "ao_84c90651b50152c6",
+        "ao_f2dbdf967e028e42"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "hand_pip_joint_palmar_questions_01",
+      "text": "Which pulleys must be preserved in the palmar PIP approach?",
+      "source_ids": [
+        "ao_84c90651b50152c6"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "hand_pip_joint_palmar_questions_02",
+      "text": "What is the shotgun maneuver for PIP exposure?",
+      "source_ids": [
+        "ao_84c90651b50152c6"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "hand_pip_joint_palmar_questions_03",
+      "text": "Which structures must be mobilized and protected in the skin flaps?",
+      "source_ids": [
+        "ao_84c90651b50152c6",
+        "ao_f2dbdf967e028e42"
+      ],
+      "risk_level": "medium"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "ao_84c90651b50152c6",
+      "provider": "AO Surgery Reference",
+      "title": "Palmar approach to the proximal interphalangeal joint",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/hand-proximal-phalanges/approach/palmar-approach-to-proximal-interphalangeal-joint",
+      "source_page_id": "ao_84c90651b50152c6"
+    },
+    {
+      "source_id": "ao_f2dbdf967e028e42",
+      "provider": "AO Surgery Reference",
+      "title": "Volar approach to the metacarpophalangeal joint",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/hand-proximal-phalanges/approach/volar-approach-to-metacarpophalangeal-joint",
+      "source_page_id": "ao_f2dbdf967e028e42"
+    },
+    {
+      "source_id": "ao_df4970800c7a5860",
+      "provider": "AO Surgery Reference",
+      "title": "Palmar approach to PIP joint (middle-phalanges collection)",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/hand-middle-phalanges/approach/palmar-approach-to-pip-joint",
+      "source_page_id": "ao_df4970800c7a5860"
+    }
+  ],
+  "content_status": "agent_review_pending",
+  "review": {
+    "status": "agent_review_pending",
+    "required_roles": [
+      "adversarial_safety_reviewer",
+      "approach_anatomy_reviewer",
+      "educational_value_reviewer",
+      "evidence_reviewer",
+      "operative_exposure_reviewer",
+      "procedure_applicability_reviewer"
+    ],
+    "completed_roles": []
+  },
+  "resolved_contradiction_keys": [],
+  "authoring_provenance": {
+    "method": "local_codex_curated",
+    "definition_file": "data/approach_library/curated/hand_humerus_ped_batch002_v1.json",
+    "api_used": false
+  }
+}

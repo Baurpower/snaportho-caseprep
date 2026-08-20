@@ -1,0 +1,351 @@
+{
+  "schema_version": "brobot_approach_packet_v1",
+  "approach_id": "pediatric_proximal_tibia_pin_safe_zones",
+  "name": "Pediatric safe zones for spanning-fixator pins around the proximal tibia",
+  "aliases": [
+    "pediatric knee-spanning pin corridors"
+  ],
+  "region": "proximal-tibia",
+  "joint": "knee",
+  "bones": [
+    "tibia",
+    "femur"
+  ],
+  "corridor": "Anterolateral or direct-lateral femoral pins (not through IT band) at least 2 cm above the distal femoral physis, and anteromedial tibial pins medial to the crest, about 20° to the sagittal plane, avoiding physes and apophysis",
+  "positioning": [
+    {
+      "text": "Position supine so vastus lateralis and rectus femoris can be palpated and the tibial crest imaged.",
+      "claim_ids": [
+        "pediatric_proximal_tibia_pin_safe_zones_positioning_01"
+      ]
+    }
+  ],
+  "setup": [],
+  "surface_landmarks": [
+    {
+      "text": "Mark the distal femoral physis (stay ≥2 cm proximal), the plane between vastus lateralis and rectus, the tibial crest, and the fibular head (peroneal nerve).",
+      "claim_ids": [
+        "pediatric_proximal_tibia_pin_safe_zones_surface_landmarks_01"
+      ]
+    }
+  ],
+  "incision": [
+    {
+      "text": "Use mini-open windows in the described femoral and tibial corridors, avoiding damaged skin.",
+      "claim_ids": [
+        "pediatric_proximal_tibia_pin_safe_zones_incision_01"
+      ]
+    }
+  ],
+  "superficial_interval": [
+    {
+      "text": "On the femur aim in the plane between vastus lateralis and rectus femoris. Do not insert pins laterally through the IT band. On the tibia insert pins medial to the crest on the anteromedial face, angled about 20° to the sagittal plane.",
+      "claim_ids": [
+        "pediatric_proximal_tibia_pin_safe_zones_superficial_interval_01"
+      ]
+    }
+  ],
+  "deep_interval": [
+    {
+      "text": "Obtain both femoral cortices but do not perforate beyond the medial femoral cortex. Distal femoral pins stay at least 2 cm above the growth plate. Avoid the red-dotted posterolateral tibial trajectory that hits the anterior tibial vessels and deep peroneal nerve.",
+      "claim_ids": [
+        "pediatric_proximal_tibia_pin_safe_zones_deep_interval_01"
+      ]
+    }
+  ],
+  "layers": [
+    {
+      "text": "Skin, defined extra-physeal corridors, then bicortical femur or tibia.",
+      "claim_ids": [
+        "pediatric_proximal_tibia_pin_safe_zones_layers_01"
+      ]
+    }
+  ],
+  "structures_encountered": [],
+  "structures_at_risk": [
+    {
+      "text": "The medial femoral neurovascular bundle, the distal femoral physis, the common peroneal nerve at the fibular head, and the anterior tibial vessels with the deep peroneal nerve along the posterolateral tibia are at risk.",
+      "claim_ids": [
+        "pediatric_proximal_tibia_pin_safe_zones_structures_at_risk_01"
+      ]
+    }
+  ],
+  "danger_zones": [
+    {
+      "text": "A pin through the IT band loosens and infects. A posterolateral tibial pin trajectory is the deep-peroneal danger zone. Pins must miss physes and the tibial apophysis.",
+      "claim_ids": [
+        "pediatric_proximal_tibia_pin_safe_zones_danger_zones_01"
+      ]
+    }
+  ],
+  "retraction_hazards": [
+    {
+      "text": "Avoid damaged soft-tissue envelopes to reduce pin-track infection.",
+      "claim_ids": [
+        "pediatric_proximal_tibia_pin_safe_zones_retraction_hazards_01"
+      ]
+    }
+  ],
+  "exposure": [
+    {
+      "text": "Provides only spanning-frame pin corridors in the femoral and tibial shafts.",
+      "claim_ids": [
+        "pediatric_proximal_tibia_pin_safe_zones_exposure_01"
+      ]
+    }
+  ],
+  "limitations": [
+    {
+      "text": "Physes and the tibial apophysis forbid juxta-articular pins that would be used in an adult.",
+      "claim_ids": [
+        "pediatric_proximal_tibia_pin_safe_zones_limitations_01"
+      ]
+    }
+  ],
+  "extensions": [],
+  "indications": [
+    {
+      "text": "Used for a knee-spanning external fixator in a child.",
+      "claim_ids": [
+        "pediatric_proximal_tibia_pin_safe_zones_indications_01"
+      ]
+    }
+  ],
+  "relative_contraindications": [],
+  "implant_implications": [],
+  "fluoroscopy_implications": [],
+  "closure": [
+    {
+      "text": "Dress pin sites after confirming bicortical purchase without medial femoral over-penetration.",
+      "claim_ids": [
+        "pediatric_proximal_tibia_pin_safe_zones_closure_01"
+      ]
+    }
+  ],
+  "complications": [
+    {
+      "text": "Complications include physeal injury, medial femoral neurovascular injury, deep-peroneal or anterior-tibial vessel injury, and pin-track infection, especially through the IT band.",
+      "claim_ids": [
+        "pediatric_proximal_tibia_pin_safe_zones_complications_01"
+      ]
+    }
+  ],
+  "bailouts": [],
+  "procedure_applications": [
+    {
+      "procedure_id": "pediatric_proximal_tibia_fracture_orif",
+      "relationship": "conditional_option",
+      "condition": "A knee-spanning external fixator is applied without crossing physes or apophyses"
+    }
+  ],
+  "questions": [
+    {
+      "question": "How far from the distal femoral physis should a pin stay?",
+      "answer": "At least 2 cm proximal.",
+      "claim_ids": [
+        "pediatric_proximal_tibia_pin_safe_zones_questions_01"
+      ]
+    },
+    {
+      "question": "Where are tibial pins placed relative to the crest?",
+      "answer": "Medial to the tibial crest on the anteromedial face, angled about 20° to the sagittal plane.",
+      "claim_ids": [
+        "pediatric_proximal_tibia_pin_safe_zones_questions_02"
+      ]
+    },
+    {
+      "question": "Why avoid the IT band?",
+      "answer": "Pins through the tract increase loosening and pin-track infection.",
+      "claim_ids": [
+        "pediatric_proximal_tibia_pin_safe_zones_questions_03"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "pediatric_proximal_tibia_pin_safe_zones_positioning_01",
+      "text": "Position supine so vastus lateralis and rectus femoris can be palpated and the tibial crest imaged.",
+      "source_ids": [
+        "ao_4553575688e289e7",
+        "ao_2799cb323ca69e06"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "pediatric_proximal_tibia_pin_safe_zones_surface_landmarks_01",
+      "text": "Mark the distal femoral physis (stay ≥2 cm proximal), the plane between vastus lateralis and rectus, the tibial crest, and the fibular head (peroneal nerve).",
+      "source_ids": [
+        "ao_4553575688e289e7"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "pediatric_proximal_tibia_pin_safe_zones_incision_01",
+      "text": "Use mini-open windows in the described femoral and tibial corridors, avoiding damaged skin.",
+      "source_ids": [
+        "ao_4553575688e289e7",
+        "ao_ed1fb233e33dfd30"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "pediatric_proximal_tibia_pin_safe_zones_superficial_interval_01",
+      "text": "On the femur aim in the plane between vastus lateralis and rectus femoris. Do not insert pins laterally through the IT band. On the tibia insert pins medial to the crest on the anteromedial face, angled about 20° to the sagittal plane.",
+      "source_ids": [
+        "ao_4553575688e289e7"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "pediatric_proximal_tibia_pin_safe_zones_deep_interval_01",
+      "text": "Obtain both femoral cortices but do not perforate beyond the medial femoral cortex. Distal femoral pins stay at least 2 cm above the growth plate. Avoid the red-dotted posterolateral tibial trajectory that hits the anterior tibial vessels and deep peroneal nerve.",
+      "source_ids": [
+        "ao_4553575688e289e7",
+        "ao_ed1fb233e33dfd30"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "pediatric_proximal_tibia_pin_safe_zones_layers_01",
+      "text": "Skin, defined extra-physeal corridors, then bicortical femur or tibia.",
+      "source_ids": [
+        "ao_4553575688e289e7",
+        "ao_2799cb323ca69e06"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "pediatric_proximal_tibia_pin_safe_zones_structures_at_risk_01",
+      "text": "The medial femoral neurovascular bundle, the distal femoral physis, the common peroneal nerve at the fibular head, and the anterior tibial vessels with the deep peroneal nerve along the posterolateral tibia are at risk.",
+      "source_ids": [
+        "ao_4553575688e289e7",
+        "ao_ed1fb233e33dfd30"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "pediatric_proximal_tibia_pin_safe_zones_danger_zones_01",
+      "text": "A pin through the IT band loosens and infects. A posterolateral tibial pin trajectory is the deep-peroneal danger zone. Pins must miss physes and the tibial apophysis.",
+      "source_ids": [
+        "ao_4553575688e289e7"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "pediatric_proximal_tibia_pin_safe_zones_retraction_hazards_01",
+      "text": "Avoid damaged soft-tissue envelopes to reduce pin-track infection.",
+      "source_ids": [
+        "ao_4553575688e289e7"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "pediatric_proximal_tibia_pin_safe_zones_exposure_01",
+      "text": "Provides only spanning-frame pin corridors in the femoral and tibial shafts.",
+      "source_ids": [
+        "ao_4553575688e289e7"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "pediatric_proximal_tibia_pin_safe_zones_limitations_01",
+      "text": "Physes and the tibial apophysis forbid juxta-articular pins that would be used in an adult.",
+      "source_ids": [
+        "ao_4553575688e289e7"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "pediatric_proximal_tibia_pin_safe_zones_indications_01",
+      "text": "Used for a knee-spanning external fixator in a child.",
+      "source_ids": [
+        "ao_4553575688e289e7"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "pediatric_proximal_tibia_pin_safe_zones_closure_01",
+      "text": "Dress pin sites after confirming bicortical purchase without medial femoral over-penetration.",
+      "source_ids": [
+        "ao_4553575688e289e7",
+        "ao_ed1fb233e33dfd30"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "pediatric_proximal_tibia_pin_safe_zones_complications_01",
+      "text": "Complications include physeal injury, medial femoral neurovascular injury, deep-peroneal or anterior-tibial vessel injury, and pin-track infection, especially through the IT band.",
+      "source_ids": [
+        "ao_4553575688e289e7",
+        "ao_ed1fb233e33dfd30"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "pediatric_proximal_tibia_pin_safe_zones_questions_01",
+      "text": "How far from the distal femoral physis should a pin stay?",
+      "source_ids": [
+        "ao_4553575688e289e7"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "pediatric_proximal_tibia_pin_safe_zones_questions_02",
+      "text": "Where are tibial pins placed relative to the crest?",
+      "source_ids": [
+        "ao_4553575688e289e7"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "pediatric_proximal_tibia_pin_safe_zones_questions_03",
+      "text": "Why avoid the IT band?",
+      "source_ids": [
+        "ao_4553575688e289e7"
+      ],
+      "risk_level": "medium"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "ao_4553575688e289e7",
+      "provider": "AO Surgery Reference",
+      "title": "Safe Zones For Pin Placement",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/pediatric-trauma/proximal-tibia/approach/safe-zones-for-pin-placement",
+      "source_page_id": "ao_4553575688e289e7"
+    },
+    {
+      "source_id": "ao_ed1fb233e33dfd30",
+      "provider": "AO Surgery Reference",
+      "title": "Safe Zones In Tibia For Wire And Schanz Screw Insertion",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/proximal-tibia/approach/safe-zones-in-tibia-for-wire-and-schanz-screw-insertion",
+      "source_page_id": "ao_ed1fb233e33dfd30"
+    },
+    {
+      "source_id": "ao_2799cb323ca69e06",
+      "provider": "AO Surgery Reference",
+      "title": "Safe Zones For Pin Placement",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/pediatric-trauma/distal-femur/approach/safe-zones-for-pin-placement",
+      "source_page_id": "ao_2799cb323ca69e06"
+    }
+  ],
+  "content_status": "agent_review_pending",
+  "review": {
+    "status": "agent_review_pending",
+    "required_roles": [
+      "adversarial_safety_reviewer",
+      "approach_anatomy_reviewer",
+      "educational_value_reviewer",
+      "evidence_reviewer",
+      "operative_exposure_reviewer",
+      "procedure_applicability_reviewer"
+    ],
+    "completed_roles": []
+  },
+  "resolved_contradiction_keys": [],
+  "authoring_provenance": {
+    "method": "local_codex_curated",
+    "definition_file": "data/approach_library/curated/pediatric_tibia_scapula_batch001_v1.json",
+    "api_used": false
+  }
+}

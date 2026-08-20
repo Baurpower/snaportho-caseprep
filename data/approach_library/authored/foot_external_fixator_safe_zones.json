@@ -1,0 +1,348 @@
+{
+  "schema_version": "brobot_approach_packet_v1",
+  "approach_id": "foot_external_fixator_safe_zones",
+  "name": "Safe zones for external fixator pins in the foot",
+  "aliases": [
+    "midfoot and metatarsal ex-fix pin safe zones"
+  ],
+  "region": "midfoot",
+  "joint": "",
+  "bones": [
+    "metatarsal",
+    "navicular",
+    "cuneiform"
+  ],
+  "corridor": "Medial-to-lateral pins along the medial first metatarsal, navicular, and cuneiform, and lateral-to-medial pins in the fifth metatarsal, kept in the safe medial and lateral corridors",
+  "positioning": [
+    {
+      "text": "Position supine with the foot accessible medially and laterally under imaging.",
+      "claim_ids": [
+        "foot_external_fixator_safe_zones_positioning_01"
+      ]
+    }
+  ],
+  "setup": [],
+  "surface_landmarks": [
+    {
+      "text": "Identify the medial first metatarsal, the navicular tubercle, the medial cuneiform, and the lateral fifth metatarsal.",
+      "claim_ids": [
+        "foot_external_fixator_safe_zones_surface_landmarks_01"
+      ]
+    }
+  ],
+  "incision": [
+    {
+      "text": "Use small stab incisions at each planned pin site down to bone.",
+      "claim_ids": [
+        "foot_external_fixator_safe_zones_incision_01"
+      ]
+    }
+  ],
+  "superficial_interval": [
+    {
+      "text": "Place first metatarsal pins anywhere along the medial aspect directed medial to lateral, navicular pins just distal to the tubercle, cuneiform pins on the medial surface, and fifth metatarsal pins on the lateral aspect from lateral to medial.",
+      "claim_ids": [
+        "foot_external_fixator_safe_zones_superficial_interval_01"
+      ]
+    }
+  ],
+  "deep_interval": [
+    {
+      "text": "For an unstable fifth metatarsal, pass pins through the fifth and fourth metatarsals together for added support.",
+      "claim_ids": [
+        "foot_external_fixator_safe_zones_deep_interval_01"
+      ]
+    }
+  ],
+  "layers": [
+    {
+      "text": "Skin, subcutaneous tissue, and the pin-entry cortex of the target bone.",
+      "claim_ids": [
+        "foot_external_fixator_safe_zones_layers_01"
+      ]
+    }
+  ],
+  "structures_encountered": [],
+  "structures_at_risk": [
+    {
+      "text": "Dorsal cutaneous nerves and marginal veins over the metatarsals and midfoot bones are at risk if pins stray from the medial and lateral safe corridors.",
+      "claim_ids": [
+        "foot_external_fixator_safe_zones_structures_at_risk_01"
+      ]
+    }
+  ],
+  "danger_zones": [
+    {
+      "text": "The dorsal surface of the midfoot, away from the medial and lateral corridors, is the danger zone for cutaneous nerves and dorsal vessels.",
+      "claim_ids": [
+        "foot_external_fixator_safe_zones_danger_zones_01"
+      ]
+    }
+  ],
+  "retraction_hazards": [
+    {
+      "text": "Keep pins in the medial and lateral corridors and protect the skin at each pin site.",
+      "claim_ids": [
+        "foot_external_fixator_safe_zones_retraction_hazards_01"
+      ]
+    }
+  ],
+  "exposure": [
+    {
+      "text": "Provides safe percutaneous corridors for midfoot and metatarsal external fixator pins.",
+      "claim_ids": [
+        "foot_external_fixator_safe_zones_exposure_01"
+      ]
+    }
+  ],
+  "limitations": [
+    {
+      "text": "Safe corridors are limited to the medial and lateral surfaces to avoid the dorsal neurovascular structures.",
+      "claim_ids": [
+        "foot_external_fixator_safe_zones_limitations_01"
+      ]
+    }
+  ],
+  "extensions": [],
+  "indications": [
+    {
+      "text": "Indicated for external fixator pin placement across the midfoot and metatarsals.",
+      "claim_ids": [
+        "foot_external_fixator_safe_zones_indications_01"
+      ]
+    }
+  ],
+  "relative_contraindications": [],
+  "implant_implications": [],
+  "fluoroscopy_implications": [],
+  "closure": [
+    {
+      "text": "Close each stab incision loosely around the pin.",
+      "claim_ids": [
+        "foot_external_fixator_safe_zones_closure_01"
+      ]
+    }
+  ],
+  "complications": [
+    {
+      "text": "Complications include cutaneous nerve injury and pin-tract problems.",
+      "claim_ids": [
+        "foot_external_fixator_safe_zones_complications_01"
+      ]
+    }
+  ],
+  "bailouts": [],
+  "procedure_applications": [
+    {
+      "procedure_id": "lisfranc_orif",
+      "relationship": "conditional_option",
+      "condition": "A spanning or temporary external fixator is applied across the midfoot"
+    }
+  ],
+  "questions": [
+    {
+      "question": "In which direction are first metatarsal external fixator pins placed?",
+      "answer": "Medial to lateral, along the medial aspect.",
+      "claim_ids": [
+        "foot_external_fixator_safe_zones_questions_01"
+      ]
+    },
+    {
+      "question": "How can added support be gained for an unstable fifth metatarsal?",
+      "answer": "By passing pins through the fifth and fourth metatarsals together.",
+      "claim_ids": [
+        "foot_external_fixator_safe_zones_questions_02"
+      ]
+    },
+    {
+      "question": "Where is the navicular pin placed?",
+      "answer": "Slightly distal to the navicular tubercle, medial to lateral.",
+      "claim_ids": [
+        "foot_external_fixator_safe_zones_questions_03"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "foot_external_fixator_safe_zones_positioning_01",
+      "text": "Position supine with the foot accessible medially and laterally under imaging.",
+      "source_ids": [
+        "ao_fd490527b6012c84"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "foot_external_fixator_safe_zones_surface_landmarks_01",
+      "text": "Identify the medial first metatarsal, the navicular tubercle, the medial cuneiform, and the lateral fifth metatarsal.",
+      "source_ids": [
+        "ao_fd490527b6012c84",
+        "ao_a0b6cc1457fadac7"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "foot_external_fixator_safe_zones_incision_01",
+      "text": "Use small stab incisions at each planned pin site down to bone.",
+      "source_ids": [
+        "ao_fd490527b6012c84"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "foot_external_fixator_safe_zones_superficial_interval_01",
+      "text": "Place first metatarsal pins anywhere along the medial aspect directed medial to lateral, navicular pins just distal to the tubercle, cuneiform pins on the medial surface, and fifth metatarsal pins on the lateral aspect from lateral to medial.",
+      "source_ids": [
+        "ao_fd490527b6012c84"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "foot_external_fixator_safe_zones_deep_interval_01",
+      "text": "For an unstable fifth metatarsal, pass pins through the fifth and fourth metatarsals together for added support.",
+      "source_ids": [
+        "ao_fd490527b6012c84"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "foot_external_fixator_safe_zones_layers_01",
+      "text": "Skin, subcutaneous tissue, and the pin-entry cortex of the target bone.",
+      "source_ids": [
+        "ao_fd490527b6012c84"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "foot_external_fixator_safe_zones_structures_at_risk_01",
+      "text": "Dorsal cutaneous nerves and marginal veins over the metatarsals and midfoot bones are at risk if pins stray from the medial and lateral safe corridors.",
+      "source_ids": [
+        "ao_fd490527b6012c84",
+        "ao_a0b6cc1457fadac7"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "foot_external_fixator_safe_zones_danger_zones_01",
+      "text": "The dorsal surface of the midfoot, away from the medial and lateral corridors, is the danger zone for cutaneous nerves and dorsal vessels.",
+      "source_ids": [
+        "ao_fd490527b6012c84"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "foot_external_fixator_safe_zones_retraction_hazards_01",
+      "text": "Keep pins in the medial and lateral corridors and protect the skin at each pin site.",
+      "source_ids": [
+        "ao_fd490527b6012c84"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "foot_external_fixator_safe_zones_exposure_01",
+      "text": "Provides safe percutaneous corridors for midfoot and metatarsal external fixator pins.",
+      "source_ids": [
+        "ao_fd490527b6012c84"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "foot_external_fixator_safe_zones_limitations_01",
+      "text": "Safe corridors are limited to the medial and lateral surfaces to avoid the dorsal neurovascular structures.",
+      "source_ids": [
+        "ao_fd490527b6012c84"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "foot_external_fixator_safe_zones_indications_01",
+      "text": "Indicated for external fixator pin placement across the midfoot and metatarsals.",
+      "source_ids": [
+        "ao_fd490527b6012c84"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "foot_external_fixator_safe_zones_closure_01",
+      "text": "Close each stab incision loosely around the pin.",
+      "source_ids": [
+        "ao_fd490527b6012c84"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "foot_external_fixator_safe_zones_complications_01",
+      "text": "Complications include cutaneous nerve injury and pin-tract problems.",
+      "source_ids": [
+        "ao_fd490527b6012c84",
+        "ao_a0b6cc1457fadac7"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "foot_external_fixator_safe_zones_questions_01",
+      "text": "In which direction are first metatarsal external fixator pins placed?",
+      "source_ids": [
+        "ao_fd490527b6012c84"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "foot_external_fixator_safe_zones_questions_02",
+      "text": "How can added support be gained for an unstable fifth metatarsal?",
+      "source_ids": [
+        "ao_fd490527b6012c84"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "foot_external_fixator_safe_zones_questions_03",
+      "text": "Where is the navicular pin placed?",
+      "source_ids": [
+        "ao_fd490527b6012c84"
+      ],
+      "risk_level": "medium"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "ao_fd490527b6012c84",
+      "provider": "AO Surgery Reference",
+      "title": "Safe zone for external fixator (foot)",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/metatarsals/approach/safe-zone-for-external-fixator",
+      "source_page_id": "ao_fd490527b6012c84"
+    },
+    {
+      "source_id": "ao_a0b6cc1457fadac7",
+      "provider": "AO Surgery Reference",
+      "title": "Medial approach to the 1st metatarsal",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/metatarsals/approach/medial-approach-to-1st-metatarsal",
+      "source_page_id": "ao_a0b6cc1457fadac7"
+    },
+    {
+      "source_id": "ao_8f9ff84bbb0d269d",
+      "provider": "AO Surgery Reference",
+      "title": "Safe zone for external fixator (midfoot)",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/midfoot/approach/safe-zone-for-external-fixator",
+      "source_page_id": "ao_8f9ff84bbb0d269d"
+    }
+  ],
+  "content_status": "agent_review_pending",
+  "review": {
+    "status": "agent_review_pending",
+    "required_roles": [
+      "adversarial_safety_reviewer",
+      "approach_anatomy_reviewer",
+      "educational_value_reviewer",
+      "evidence_reviewer",
+      "operative_exposure_reviewer",
+      "procedure_applicability_reviewer"
+    ],
+    "completed_roles": []
+  },
+  "resolved_contradiction_keys": [],
+  "authoring_provenance": {
+    "method": "local_codex_curated",
+    "definition_file": "data/approach_library/curated/foot_medial_lateral_safezone_batch003_v1.json",
+    "api_used": false
+  }
+}

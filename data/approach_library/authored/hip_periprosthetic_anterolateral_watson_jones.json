@@ -1,0 +1,341 @@
+{
+  "schema_version": "brobot_approach_packet_v1",
+  "approach_id": "hip_periprosthetic_anterolateral_watson_jones",
+  "name": "Anterolateral (Watson-Jones) approach to the hip (periprosthetic)",
+  "aliases": [
+    "Watson-Jones approach"
+  ],
+  "region": "hip",
+  "joint": "hip",
+  "bones": [
+    "proximal femur"
+  ],
+  "corridor": "Anterolateral interval between tensor fasciae latae and gluteus medius, releasing anterior vastus lateralis to reach the anterior hip capsule and femoral neck",
+  "positioning": [
+    {
+      "text": "Position supine or lateral with the greater trochanter and proximal femur accessible.",
+      "claim_ids": [
+        "hip_periprosthetic_anterolateral_watson_jones_positioning_01"
+      ]
+    }
+  ],
+  "setup": [],
+  "surface_landmarks": [
+    {
+      "text": "Mark the lateral greater trochanter and the iliac crest tubercle.",
+      "claim_ids": [
+        "hip_periprosthetic_anterolateral_watson_jones_surface_landmarks_01"
+      ]
+    }
+  ],
+  "incision": [
+    {
+      "text": "Start a slightly anteriorly curved incision about 7 to 10 cm proximal to the lateral greater trochanter and extend it about 10 cm distal to the trochanter.",
+      "claim_ids": [
+        "hip_periprosthetic_anterolateral_watson_jones_incision_01"
+      ]
+    }
+  ],
+  "superficial_interval": [
+    {
+      "text": "Incise the fascia lata and develop the interval between the gluteus medius and the tensor fasciae latae, ligating or cauterizing the vessels crossing it.",
+      "claim_ids": [
+        "hip_periprosthetic_anterolateral_watson_jones_superficial_interval_01"
+      ]
+    }
+  ],
+  "deep_interval": [
+    {
+      "text": "Retract the tensor fasciae latae anteriorly and gluteus medius posteriorly, release vastus lateralis from the anterior inferior trochanteric region, and open a T-shaped capsulotomy with anterior and posterior stay sutures.",
+      "claim_ids": [
+        "hip_periprosthetic_anterolateral_watson_jones_deep_interval_01"
+      ]
+    }
+  ],
+  "layers": [
+    {
+      "text": "Skin, subcutaneous tissue, fascia lata, the tensor fasciae latae and gluteus medius interval, vastus lateralis, and the anterior hip capsule.",
+      "claim_ids": [
+        "hip_periprosthetic_anterolateral_watson_jones_layers_01"
+      ]
+    }
+  ],
+  "structures_encountered": [],
+  "structures_at_risk": [
+    {
+      "text": "The superior gluteal nerve, which crosses about 3 to 5 cm proximal to the greater trochanter, limits proximal dissection between the medius and tensor fasciae latae.",
+      "claim_ids": [
+        "hip_periprosthetic_anterolateral_watson_jones_structures_at_risk_01"
+      ]
+    }
+  ],
+  "danger_zones": [
+    {
+      "text": "Proximal dissection more than 3 to 5 cm above the trochanter between medius and tensor fasciae latae is the danger zone for the superior gluteal nerve.",
+      "claim_ids": [
+        "hip_periprosthetic_anterolateral_watson_jones_danger_zones_01"
+      ]
+    }
+  ],
+  "retraction_hazards": [
+    {
+      "text": "Avoid excessive proximal retraction of the gluteus medius that endangers the superior gluteal nerve.",
+      "claim_ids": [
+        "hip_periprosthetic_anterolateral_watson_jones_retraction_hazards_01"
+      ]
+    }
+  ],
+  "exposure": [
+    {
+      "text": "Exposes the anterior hip capsule, femoral head, and neck, though access to the joint is somewhat limited.",
+      "claim_ids": [
+        "hip_periprosthetic_anterolateral_watson_jones_exposure_01"
+      ]
+    }
+  ],
+  "limitations": [
+    {
+      "text": "The approach gives somewhat limited access to the hip joint and less distal femoral exposure than the direct lateral approach.",
+      "claim_ids": [
+        "hip_periprosthetic_anterolateral_watson_jones_limitations_01"
+      ]
+    }
+  ],
+  "extensions": [],
+  "indications": [
+    {
+      "text": "Indicated for open reduction of proximal periprosthetic femoral fractures and for revision arthroplasty.",
+      "claim_ids": [
+        "hip_periprosthetic_anterolateral_watson_jones_indications_01"
+      ]
+    }
+  ],
+  "relative_contraindications": [],
+  "implant_implications": [],
+  "fluoroscopy_implications": [],
+  "closure": [
+    {
+      "text": "Repair the capsule, reattach vastus lateralis, and close the fascia lata in layers.",
+      "claim_ids": [
+        "hip_periprosthetic_anterolateral_watson_jones_closure_01"
+      ]
+    }
+  ],
+  "complications": [
+    {
+      "text": "Complications include superior gluteal nerve injury with abductor weakness, periarticular ossification, and hematoma.",
+      "claim_ids": [
+        "hip_periprosthetic_anterolateral_watson_jones_complications_01"
+      ]
+    }
+  ],
+  "bailouts": [],
+  "procedure_applications": [
+    {
+      "procedure_id": "periprosthetic_hip_fracture_orif",
+      "relationship": "primary_option",
+      "condition": "A proximal periprosthetic femoral fracture is exposed through an anterolateral interval"
+    }
+  ],
+  "questions": [
+    {
+      "question": "Which interval defines the Watson-Jones approach?",
+      "answer": "Between the gluteus medius and the tensor fasciae latae.",
+      "claim_ids": [
+        "hip_periprosthetic_anterolateral_watson_jones_questions_01"
+      ]
+    },
+    {
+      "question": "Which nerve limits proximal dissection in this interval?",
+      "answer": "The superior gluteal nerve, about 3 to 5 cm above the greater trochanter.",
+      "claim_ids": [
+        "hip_periprosthetic_anterolateral_watson_jones_questions_02"
+      ]
+    },
+    {
+      "question": "What is a noted limitation of the anterolateral approach?",
+      "answer": "Somewhat limited access to the hip joint.",
+      "claim_ids": [
+        "hip_periprosthetic_anterolateral_watson_jones_questions_03"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "hip_periprosthetic_anterolateral_watson_jones_positioning_01",
+      "text": "Position supine or lateral with the greater trochanter and proximal femur accessible.",
+      "source_ids": [
+        "ao_097e3b3bca93e5f5"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "hip_periprosthetic_anterolateral_watson_jones_surface_landmarks_01",
+      "text": "Mark the lateral greater trochanter and the iliac crest tubercle.",
+      "source_ids": [
+        "ao_097e3b3bca93e5f5"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "hip_periprosthetic_anterolateral_watson_jones_incision_01",
+      "text": "Start a slightly anteriorly curved incision about 7 to 10 cm proximal to the lateral greater trochanter and extend it about 10 cm distal to the trochanter.",
+      "source_ids": [
+        "ao_097e3b3bca93e5f5"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "hip_periprosthetic_anterolateral_watson_jones_superficial_interval_01",
+      "text": "Incise the fascia lata and develop the interval between the gluteus medius and the tensor fasciae latae, ligating or cauterizing the vessels crossing it.",
+      "source_ids": [
+        "ao_097e3b3bca93e5f5"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "hip_periprosthetic_anterolateral_watson_jones_deep_interval_01",
+      "text": "Retract the tensor fasciae latae anteriorly and gluteus medius posteriorly, release vastus lateralis from the anterior inferior trochanteric region, and open a T-shaped capsulotomy with anterior and posterior stay sutures.",
+      "source_ids": [
+        "ao_097e3b3bca93e5f5"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "hip_periprosthetic_anterolateral_watson_jones_layers_01",
+      "text": "Skin, subcutaneous tissue, fascia lata, the tensor fasciae latae and gluteus medius interval, vastus lateralis, and the anterior hip capsule.",
+      "source_ids": [
+        "ao_097e3b3bca93e5f5"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "hip_periprosthetic_anterolateral_watson_jones_structures_at_risk_01",
+      "text": "The superior gluteal nerve, which crosses about 3 to 5 cm proximal to the greater trochanter, limits proximal dissection between the medius and tensor fasciae latae.",
+      "source_ids": [
+        "ao_097e3b3bca93e5f5",
+        "ao_44a417314292e3fa"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "hip_periprosthetic_anterolateral_watson_jones_danger_zones_01",
+      "text": "Proximal dissection more than 3 to 5 cm above the trochanter between medius and tensor fasciae latae is the danger zone for the superior gluteal nerve.",
+      "source_ids": [
+        "ao_097e3b3bca93e5f5",
+        "ao_44a417314292e3fa"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "hip_periprosthetic_anterolateral_watson_jones_retraction_hazards_01",
+      "text": "Avoid excessive proximal retraction of the gluteus medius that endangers the superior gluteal nerve.",
+      "source_ids": [
+        "ao_097e3b3bca93e5f5",
+        "ao_44a417314292e3fa"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "hip_periprosthetic_anterolateral_watson_jones_exposure_01",
+      "text": "Exposes the anterior hip capsule, femoral head, and neck, though access to the joint is somewhat limited.",
+      "source_ids": [
+        "ao_097e3b3bca93e5f5"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "hip_periprosthetic_anterolateral_watson_jones_limitations_01",
+      "text": "The approach gives somewhat limited access to the hip joint and less distal femoral exposure than the direct lateral approach.",
+      "source_ids": [
+        "ao_097e3b3bca93e5f5"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "hip_periprosthetic_anterolateral_watson_jones_indications_01",
+      "text": "Indicated for open reduction of proximal periprosthetic femoral fractures and for revision arthroplasty.",
+      "source_ids": [
+        "ao_097e3b3bca93e5f5"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "hip_periprosthetic_anterolateral_watson_jones_closure_01",
+      "text": "Repair the capsule, reattach vastus lateralis, and close the fascia lata in layers.",
+      "source_ids": [
+        "ao_097e3b3bca93e5f5"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "hip_periprosthetic_anterolateral_watson_jones_complications_01",
+      "text": "Complications include superior gluteal nerve injury with abductor weakness, periarticular ossification, and hematoma.",
+      "source_ids": [
+        "ao_097e3b3bca93e5f5",
+        "ao_44a417314292e3fa"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "hip_periprosthetic_anterolateral_watson_jones_questions_01",
+      "text": "Which interval defines the Watson-Jones approach?",
+      "source_ids": [
+        "ao_097e3b3bca93e5f5"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "hip_periprosthetic_anterolateral_watson_jones_questions_02",
+      "text": "Which nerve limits proximal dissection in this interval?",
+      "source_ids": [
+        "ao_097e3b3bca93e5f5",
+        "ao_44a417314292e3fa"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "hip_periprosthetic_anterolateral_watson_jones_questions_03",
+      "text": "What is a noted limitation of the anterolateral approach?",
+      "source_ids": [
+        "ao_097e3b3bca93e5f5"
+      ],
+      "risk_level": "medium"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "ao_097e3b3bca93e5f5",
+      "provider": "AO Surgery Reference",
+      "title": "Anterolateral approach (periprosthetic hip)",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/periprosthetic-fractures/hip/approach/anterolateral-approach",
+      "source_page_id": "ao_097e3b3bca93e5f5"
+    },
+    {
+      "source_id": "ao_44a417314292e3fa",
+      "provider": "AO Surgery Reference",
+      "title": "Direct lateral approach to the proximal femur (periprosthetic hip)",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/periprosthetic-fractures/hip/approach/direct-lateral-approach-proximal-femur",
+      "source_page_id": "ao_44a417314292e3fa"
+    }
+  ],
+  "content_status": "agent_review_pending",
+  "review": {
+    "status": "agent_review_pending",
+    "required_roles": [
+      "adversarial_safety_reviewer",
+      "approach_anatomy_reviewer",
+      "educational_value_reviewer",
+      "evidence_reviewer",
+      "operative_exposure_reviewer",
+      "procedure_applicability_reviewer"
+    ],
+    "completed_roles": []
+  },
+  "resolved_contradiction_keys": [],
+  "authoring_provenance": {
+    "method": "local_codex_curated",
+    "definition_file": "data/approach_library/curated/hip_periprosthetic_batch002b_v1.json",
+    "api_used": false
+  }
+}

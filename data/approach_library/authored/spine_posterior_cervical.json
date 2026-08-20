@@ -1,0 +1,360 @@
+{
+  "schema_version": "brobot_approach_packet_v1",
+  "approach_id": "spine_posterior_cervical",
+  "name": "Posterior midline approach to the subaxial cervical spine",
+  "aliases": [
+    "posterior cervical lateral-mass approach"
+  ],
+  "region": "subaxial-cervical",
+  "joint": "",
+  "bones": [
+    "cervical vertebrae"
+  ],
+  "corridor": "Midline cervical incision confirmed on a C-arm, dissection in the midline to the spinous processes, then subperiosteal elevation along spinous process, lamina, and lateral mass",
+  "positioning": [
+    {
+      "text": "Position so a C-arm can mark the exact midline segment before incision.",
+      "claim_ids": [
+        "spine_posterior_cervical_positioning_01"
+      ]
+    }
+  ],
+  "setup": [],
+  "surface_landmarks": [
+    {
+      "text": "Mark the midline over the involved segment after C-arm localization.",
+      "claim_ids": [
+        "spine_posterior_cervical_surface_landmarks_01"
+      ]
+    }
+  ],
+  "incision": [
+    {
+      "text": "Infiltrate with 1:500,000 epinephrine if desired and make a midline cut centered on the marked segment.",
+      "claim_ids": [
+        "spine_posterior_cervical_incision_01"
+      ]
+    }
+  ],
+  "superficial_interval": [
+    {
+      "text": "Stay strictly in the midline through fat and fascia to the spinous-process tips to limit bleeding. Confirm the level on fluoroscopy as soon as bone is visible, before any further dissection.",
+      "claim_ids": [
+        "spine_posterior_cervical_superficial_interval_01"
+      ]
+    }
+  ],
+  "deep_interval": [
+    {
+      "text": "Elevate paraspinal muscle subperiosteally with a Cobb along the spinous processes, laminae, and lateral masses bilaterally. If tumor invades the lamina, do not use a Cobb blindly. Spare proximal and distal facet capsules that are not to be fused.",
+      "claim_ids": [
+        "spine_posterior_cervical_deep_interval_01"
+      ]
+    }
+  ],
+  "layers": [
+    {
+      "text": "Skin, midline fascia, spinous processes, lamina, then lateral masses.",
+      "claim_ids": [
+        "spine_posterior_cervical_layers_01"
+      ]
+    }
+  ],
+  "structures_encountered": [],
+  "structures_at_risk": [
+    {
+      "text": "Unintended facet capsules at the ends of the exposure, and neural structures under a tumor-involved or deficient lamina, are at risk.",
+      "claim_ids": [
+        "spine_posterior_cervical_structures_at_risk_01"
+      ]
+    }
+  ],
+  "danger_zones": [
+    {
+      "text": "Continuing dissection before the level is confirmed on fluoroscopy, and Cobb elevation through a tumor-involved lamina, are the danger zones.",
+      "claim_ids": [
+        "spine_posterior_cervical_danger_zones_01"
+      ]
+    }
+  ],
+  "retraction_hazards": [
+    {
+      "text": "Close fascia only after approximating muscle, or a dead space is left.",
+      "claim_ids": [
+        "spine_posterior_cervical_retraction_hazards_01"
+      ]
+    }
+  ],
+  "exposure": [
+    {
+      "text": "Shows the posterior subaxial cervical elements and lateral masses for trauma or metastatic work.",
+      "claim_ids": [
+        "spine_posterior_cervical_exposure_01"
+      ]
+    }
+  ],
+  "limitations": [
+    {
+      "text": "Does not replace an anterior decompression when one is required.",
+      "claim_ids": [
+        "spine_posterior_cervical_limitations_01"
+      ]
+    }
+  ],
+  "extensions": [],
+  "indications": [
+    {
+      "text": "Used for posterior subaxial cervical access in trauma and metastatic disease.",
+      "claim_ids": [
+        "spine_posterior_cervical_indications_01"
+      ]
+    }
+  ],
+  "relative_contraindications": [],
+  "implant_implications": [],
+  "fluoroscopy_implications": [],
+  "closure": [
+    {
+      "text": "Approximate muscle, then close fascia, place a drain through a separate stab, and close fat and skin. Vancomycin powder may be used. Radiated or revision metastatic wounds should be reconstructed by plastic surgery.",
+      "claim_ids": [
+        "spine_posterior_cervical_closure_01"
+      ]
+    }
+  ],
+  "complications": [
+    {
+      "text": "Complications include wrong-level exposure, unintended adjacent-facet fusion, dead-space seroma if fascia is closed without muscle approximation, and wound breakdown after radiation.",
+      "claim_ids": [
+        "spine_posterior_cervical_complications_01"
+      ]
+    }
+  ],
+  "bailouts": [],
+  "procedure_applications": [
+    {
+      "procedure_id": "cervical_spine_orif",
+      "relationship": "primary_option",
+      "condition": "A subaxial cervical injury or tumor is instrumented from a posterior midline window"
+    }
+  ],
+  "questions": [
+    {
+      "question": "When is the cervical level confirmed?",
+      "answer": "As soon as bony structures are visible, before any further dissection.",
+      "claim_ids": [
+        "spine_posterior_cervical_questions_01"
+      ]
+    },
+    {
+      "question": "To which landmarks is the deep dissection carried?",
+      "answer": "Along the spinous processes, laminae, and lateral masses bilaterally.",
+      "claim_ids": [
+        "spine_posterior_cervical_questions_02"
+      ]
+    },
+    {
+      "question": "Why approximate muscle before fascia?",
+      "answer": "Closing fascia alone leaves a dead space.",
+      "claim_ids": [
+        "spine_posterior_cervical_questions_03"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "spine_posterior_cervical_positioning_01",
+      "text": "Position so a C-arm can mark the exact midline segment before incision.",
+      "source_ids": [
+        "ao_092891ab43b304f4",
+        "ao_6aa374029d37c69d"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "spine_posterior_cervical_surface_landmarks_01",
+      "text": "Mark the midline over the involved segment after C-arm localization.",
+      "source_ids": [
+        "ao_092891ab43b304f4",
+        "ao_6aa374029d37c69d"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "spine_posterior_cervical_incision_01",
+      "text": "Infiltrate with 1:500,000 epinephrine if desired and make a midline cut centered on the marked segment.",
+      "source_ids": [
+        "ao_092891ab43b304f4",
+        "ao_6aa374029d37c69d"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "spine_posterior_cervical_superficial_interval_01",
+      "text": "Stay strictly in the midline through fat and fascia to the spinous-process tips to limit bleeding. Confirm the level on fluoroscopy as soon as bone is visible, before any further dissection.",
+      "source_ids": [
+        "ao_092891ab43b304f4",
+        "ao_6aa374029d37c69d"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "spine_posterior_cervical_deep_interval_01",
+      "text": "Elevate paraspinal muscle subperiosteally with a Cobb along the spinous processes, laminae, and lateral masses bilaterally. If tumor invades the lamina, do not use a Cobb blindly. Spare proximal and distal facet capsules that are not to be fused.",
+      "source_ids": [
+        "ao_092891ab43b304f4",
+        "ao_6aa374029d37c69d"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "spine_posterior_cervical_layers_01",
+      "text": "Skin, midline fascia, spinous processes, lamina, then lateral masses.",
+      "source_ids": [
+        "ao_092891ab43b304f4",
+        "ao_6aa374029d37c69d"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "spine_posterior_cervical_structures_at_risk_01",
+      "text": "Unintended facet capsules at the ends of the exposure, and neural structures under a tumor-involved or deficient lamina, are at risk.",
+      "source_ids": [
+        "ao_092891ab43b304f4",
+        "ao_6aa374029d37c69d"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "spine_posterior_cervical_danger_zones_01",
+      "text": "Continuing dissection before the level is confirmed on fluoroscopy, and Cobb elevation through a tumor-involved lamina, are the danger zones.",
+      "source_ids": [
+        "ao_092891ab43b304f4",
+        "ao_6aa374029d37c69d"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "spine_posterior_cervical_retraction_hazards_01",
+      "text": "Close fascia only after approximating muscle, or a dead space is left.",
+      "source_ids": [
+        "ao_092891ab43b304f4",
+        "ao_6aa374029d37c69d"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "spine_posterior_cervical_exposure_01",
+      "text": "Shows the posterior subaxial cervical elements and lateral masses for trauma or metastatic work.",
+      "source_ids": [
+        "ao_092891ab43b304f4",
+        "ao_6aa374029d37c69d"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "spine_posterior_cervical_limitations_01",
+      "text": "Does not replace an anterior decompression when one is required.",
+      "source_ids": [
+        "ao_092891ab43b304f4",
+        "ao_6aa374029d37c69d"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "spine_posterior_cervical_indications_01",
+      "text": "Used for posterior subaxial cervical access in trauma and metastatic disease.",
+      "source_ids": [
+        "ao_092891ab43b304f4",
+        "ao_6aa374029d37c69d"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "spine_posterior_cervical_closure_01",
+      "text": "Approximate muscle, then close fascia, place a drain through a separate stab, and close fat and skin. Vancomycin powder may be used. Radiated or revision metastatic wounds should be reconstructed by plastic surgery.",
+      "source_ids": [
+        "ao_092891ab43b304f4",
+        "ao_6aa374029d37c69d"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "spine_posterior_cervical_complications_01",
+      "text": "Complications include wrong-level exposure, unintended adjacent-facet fusion, dead-space seroma if fascia is closed without muscle approximation, and wound breakdown after radiation.",
+      "source_ids": [
+        "ao_092891ab43b304f4",
+        "ao_6aa374029d37c69d"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "spine_posterior_cervical_questions_01",
+      "text": "When is the cervical level confirmed?",
+      "source_ids": [
+        "ao_092891ab43b304f4",
+        "ao_6aa374029d37c69d"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "spine_posterior_cervical_questions_02",
+      "text": "To which landmarks is the deep dissection carried?",
+      "source_ids": [
+        "ao_092891ab43b304f4",
+        "ao_6aa374029d37c69d"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "spine_posterior_cervical_questions_03",
+      "text": "Why approximate muscle before fascia?",
+      "source_ids": [
+        "ao_092891ab43b304f4",
+        "ao_6aa374029d37c69d"
+      ],
+      "risk_level": "medium"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "ao_092891ab43b304f4",
+      "provider": "AO Surgery Reference",
+      "title": "Posterior Approach To The Cervical Spine",
+      "url": "https://surgeryreference.aofoundation.org/spine/trauma/subaxial-cervical/approach/posterior-approach-to-the-cervical-spine",
+      "source_page_id": "ao_092891ab43b304f4"
+    },
+    {
+      "source_id": "ao_6aa374029d37c69d",
+      "provider": "AO Surgery Reference",
+      "title": "Posterior Access To The Cervical Spine",
+      "url": "https://surgeryreference.aofoundation.org/spine/tumors/metastatic-tumors/approach/posterior-access-to-the-cervical-spine",
+      "source_page_id": "ao_6aa374029d37c69d"
+    },
+    {
+      "source_id": "ao_11cc1f3a9baf6dc1",
+      "provider": "AO Surgery Reference",
+      "title": "Posterior Access To The Cervical Spine C3 To C7",
+      "url": "https://surgeryreference.aofoundation.org/spine/tumors/primary-tumors/approach/posterior-access-to-the-cervical-spine-c3-to-c7",
+      "source_page_id": "ao_11cc1f3a9baf6dc1"
+    }
+  ],
+  "content_status": "agent_review_pending",
+  "review": {
+    "status": "agent_review_pending",
+    "required_roles": [
+      "adversarial_safety_reviewer",
+      "approach_anatomy_reviewer",
+      "educational_value_reviewer",
+      "evidence_reviewer",
+      "operative_exposure_reviewer",
+      "procedure_applicability_reviewer"
+    ],
+    "completed_roles": []
+  },
+  "resolved_contradiction_keys": [],
+  "authoring_provenance": {
+    "method": "local_codex_curated",
+    "definition_file": "data/approach_library/curated/spine_core_batch001_v1.json",
+    "api_used": false
+  }
+}

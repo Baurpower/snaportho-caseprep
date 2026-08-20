@@ -1,0 +1,1850 @@
+{
+  "approaches": [
+    {
+      "approach_id": "knee_pp_anterolateral_proximal_tibia",
+      "name": "Anterolateral approach to the proximal tibia (periprosthetic knee)",
+      "aliases": [
+        "periprosthetic anterolateral tibial approach"
+      ],
+      "region": "proximal-tibia",
+      "joint": "knee",
+      "bones": [
+        "proximal tibia"
+      ],
+      "corridor": "Anterolateral window through fascia anterior to the iliotibial tract, releasing tibialis anterior from the lateral tibia without periosteal stripping, optionally using a prior midline TKA incision or a more lateral mini-incision",
+      "sources": [
+        {
+          "source_id": "ao_7986e912d259fa51",
+          "provider": "AO Surgery Reference",
+          "title": "Anterolateral Approach Proximal Tibia",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/periprosthetic-fractures/knee/approach/anterolateral-approach-proximal-tibia",
+          "source_page_id": "ao_7986e912d259fa51"
+        },
+        {
+          "source_id": "ao_d032f518d347e3bb",
+          "provider": "AO Surgery Reference",
+          "title": "Anterolateral And Extended Anterolateral Approach To Proximal Tibia",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/proximal-tibia/approach/anterolateral-and-extended-anterolateral-approach-to-proximal-tibia",
+          "source_page_id": "ao_d032f518d347e3bb"
+        }
+      ],
+      "procedure_applications": [
+        {
+          "procedure_id": "periprosthetic_knee_fracture_orif",
+          "relationship": "primary_option",
+          "condition": "A proximal-tibial periprosthetic fracture is plated from anterolateral, respecting a prior midline TKA scar"
+        }
+      ],
+      "sections": {
+        "positioning": [
+          {
+            "text": "Position so the prior midline scar, Gerdy tubercle, and lateral tibial crest can be seen and the knee imaged.",
+            "source_ids": [
+              "ao_7986e912d259fa51",
+              "ao_d032f518d347e3bb"
+            ]
+          }
+        ],
+        "surface_landmarks": [
+          {
+            "text": "Mark the prior midline TKA incision, Gerdy tubercle, and the anterior tibial crest. A more lateral mini-incision is chosen if the sentinel scar is too medial.",
+            "source_ids": [
+              "ao_7986e912d259fa51"
+            ]
+          }
+        ],
+        "incision": [
+          {
+            "text": "Reuse the midline TKA incision when it allows safe retraction. If it is too medial, make a more lateral minimally invasive cut. Skin risk is lower when the fracture is remote from the arthroplasty.",
+            "source_ids": [
+              "ao_7986e912d259fa51"
+            ]
+          }
+        ],
+        "superficial_interval": [
+          {
+            "text": "Open deep fascia anterior to the iliotibial tract. Release the proximal tibialis anterior attachment, and if needed incise the IT band or take a small Gerdy flake.",
+            "source_ids": [
+              "ao_7986e912d259fa51",
+              "ao_d032f518d347e3bb"
+            ]
+          }
+        ],
+        "deep_interval": [
+          {
+            "text": "Elevate tibialis anterior from bone without stripping periosteum and retract it laterally. Do not chase the posteromedial tibia from this side.",
+            "source_ids": [
+              "ao_7986e912d259fa51",
+              "ao_d032f518d347e3bb"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "layers": [
+          {
+            "text": "Skin (prior midline or new lateral), fascia and IT band, tibialis anterior, periosteum, then the lateral proximal tibia.",
+            "source_ids": [
+              "ao_7986e912d259fa51",
+              "ao_d032f518d347e3bb"
+            ]
+          }
+        ],
+        "structures_at_risk": [
+          {
+            "text": "The extensor mechanism and the skin bridge between a medial TKA scar and a new lateral cut are at risk. Posteromedial dissection from this side is hazardous.",
+            "source_ids": [
+              "ao_7986e912d259fa51"
+            ],
+            "risk_level": "medium"
+          }
+        ],
+        "danger_zones": [
+          {
+            "text": "Do not expose the posteromedial tibia from anterolateral. That risks the extensor mechanism and a poorly healing skin envelope.",
+            "source_ids": [
+              "ao_7986e912d259fa51"
+            ],
+            "risk_level": "medium"
+          }
+        ],
+        "retraction_hazards": [
+          {
+            "text": "Judge how much retraction a reused midline scar can tolerate before making a separate lateral window.",
+            "source_ids": [
+              "ao_7986e912d259fa51"
+            ],
+            "risk_level": "medium"
+          }
+        ],
+        "exposure": [
+          {
+            "text": "Shows the lateral proximal tibia for periprosthetic plating without a formal submeniscal plateau reconstruction unless the adult extensile window is added.",
+            "source_ids": [
+              "ao_7986e912d259fa51",
+              "ao_d032f518d347e3bb"
+            ]
+          }
+        ],
+        "limitations": [
+          {
+            "text": "Posteromedial fragments cannot be reached. A too-medial TKA scar may force a second lateral incision.",
+            "source_ids": [
+              "ao_7986e912d259fa51"
+            ]
+          }
+        ],
+        "indications": [
+          {
+            "text": "Used for anterolateral fixation of a proximal-tibial periprosthetic fracture around a total knee.",
+            "source_ids": [
+              "ao_7986e912d259fa51"
+            ]
+          }
+        ],
+        "closure": [
+          {
+            "text": "Irrigate the joint if it was opened, close in layers, consider a drain, and close skin with staples or nonabsorbable suture.",
+            "source_ids": [
+              "ao_7986e912d259fa51"
+            ]
+          }
+        ],
+        "complications": [
+          {
+            "text": "Complications include skin-bridge necrosis between a reused midline scar and a new lateral cut, and extensor-mechanism injury from posteromedial dissection.",
+            "source_ids": [
+              "ao_7986e912d259fa51"
+            ],
+            "risk_level": "medium"
+          }
+        ],
+        "questions": [
+          {
+            "question": "When is a new lateral mini-incision preferred over the TKA scar?",
+            "answer": "When the sentinel midline incision is too medial to allow safe visualization without excessive retraction.",
+            "source_ids": [
+              "ao_7986e912d259fa51"
+            ]
+          },
+          {
+            "question": "Why must posteromedial tibia not be exposed from this side?",
+            "answer": "It risks the extensor mechanism and creates a difficult skin-healing environment.",
+            "source_ids": [
+              "ao_7986e912d259fa51"
+            ]
+          },
+          {
+            "question": "How is tibialis anterior handled?",
+            "answer": "Released from bone without periosteal stripping and retracted laterally.",
+            "source_ids": [
+              "ao_7986e912d259fa51",
+              "ao_d032f518d347e3bb"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "approach_id": "knee_pp_lateral_anterolateral_distal_femur",
+      "name": "Lateral anterolateral approach to the distal femur (periprosthetic knee)",
+      "aliases": [
+        "periprosthetic lateral distal-femur approach"
+      ],
+      "region": "distal-femur",
+      "joint": "knee",
+      "bones": [
+        "distal femur"
+      ],
+      "corridor": "Lateral incision from Gerdy tubercle along the mid-lateral femur, IT-band split, distal-to-proximal vastus-lateralis elevation, and optional lateral arthrotomy to the tibial component, safe beside a healed midline TKA scar",
+      "sources": [
+        {
+          "source_id": "ao_94a04668aa999a5b",
+          "provider": "AO Surgery Reference",
+          "title": "Lateral Anterolateral Approach",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/periprosthetic-fractures/knee/approach/lateral-anterolateral-approach",
+          "source_page_id": "ao_94a04668aa999a5b"
+        },
+        {
+          "source_id": "ao_88a414fba662db87",
+          "provider": "AO Surgery Reference",
+          "title": "Lateral anterolateral approach to the distal femur",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/distal-femur/approach/lateral-anterolateral-approach-to-the-distal-femur",
+          "source_page_id": "ao_88a414fba662db87"
+        }
+      ],
+      "procedure_applications": [
+        {
+          "procedure_id": "distal_femur_fracture_orif",
+          "relationship": "primary_option",
+          "condition": "A distal-femoral periprosthetic fracture is reduced and plated laterally beside a healed TKA incision"
+        }
+      ],
+      "sections": {
+        "positioning": [
+          {
+            "text": "Position supine so the lateral condyle, Gerdy tubercle, and femoral shaft can be imaged; this corridor is safe next to a healed midline TKA scar.",
+            "source_ids": [
+              "ao_94a04668aa999a5b",
+              "ao_88a414fba662db87"
+            ]
+          }
+        ],
+        "surface_landmarks": [
+          {
+            "text": "Mark Gerdy tubercle, the lateral femoral condyle, the mid-lateral femoral shaft, and the prior midline scar.",
+            "source_ids": [
+              "ao_94a04668aa999a5b",
+              "ao_88a414fba662db87"
+            ]
+          }
+        ],
+        "incision": [
+          {
+            "text": "Begin in the mid-lateral femoral line at Gerdy tubercle and curve proximally over the lateral condyle as far as the fracture requires. Carry it distal to Gerdy only if an arthrotomy is needed.",
+            "source_ids": [
+              "ao_94a04668aa999a5b",
+              "ao_88a414fba662db87"
+            ]
+          }
+        ],
+        "superficial_interval": [
+          {
+            "text": "Divide the IT band once, in line with its fibers, including the distal slope toward Gerdy tubercle.",
+            "source_ids": [
+              "ao_94a04668aa999a5b",
+              "ao_88a414fba662db87"
+            ]
+          }
+        ],
+        "deep_interval": [
+          {
+            "text": "Incise vastus-lateralis fascia just anterior to the lateral intermuscular septum and elevate the muscle from distal to proximal. Ligate profunda perforators. Optional arthrotomy over the anterior third of the lateral condyle can reach the lateral tibial component.",
+            "source_ids": [
+              "ao_94a04668aa999a5b",
+              "ao_88a414fba662db87"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "layers": [
+          {
+            "text": "Skin, IT band, vastus lateralis and septum, periosteum, optional lateral capsule, then the distal femur.",
+            "source_ids": [
+              "ao_94a04668aa999a5b",
+              "ao_88a414fba662db87"
+            ]
+          }
+        ],
+        "structures_at_risk": [
+          {
+            "text": "Lateral genicular vessels, profunda perforators, periosteum, the patellar tendon, and the posterior popliteal neurovascular bundle if dissection strays behind the septum are at risk.",
+            "source_ids": [
+              "ao_94a04668aa999a5b",
+              "ao_88a414fba662db87"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "danger_zones": [
+          {
+            "text": "Uncontrolled posterior dissection toward the popliteal vessels is the danger zone. Failure to ligate perforators causes heavy bleeding.",
+            "source_ids": [
+              "ao_94a04668aa999a5b",
+              "ao_88a414fba662db87"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "retraction_hazards": [
+          {
+            "text": "Avoid excessive tension on the patellar tendon during arthrotomy, especially in osteoporotic bone.",
+            "source_ids": [
+              "ao_94a04668aa999a5b",
+              "ao_88a414fba662db87"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "exposure": [
+          {
+            "text": "Shows the lateral distal femur for reduction and plating, with optional joint view as far as the lateral tibial component.",
+            "source_ids": [
+              "ao_94a04668aa999a5b"
+            ]
+          }
+        ],
+        "limitations": [
+          {
+            "text": "There are no major named nerves on the lateral knee, but the window does not expose the medial femur. Arthrotomy is optional.",
+            "source_ids": [
+              "ao_94a04668aa999a5b"
+            ]
+          }
+        ],
+        "indications": [
+          {
+            "text": "Used to visualize, reduce, and fix a distal-femoral periprosthetic fracture beside a healed midline TKA incision.",
+            "source_ids": [
+              "ao_94a04668aa999a5b"
+            ]
+          }
+        ],
+        "closure": [
+          {
+            "text": "Close any arthrotomy, vastus fascia, and IT band with absorbable suture, then close skin routinely.",
+            "source_ids": [
+              "ao_94a04668aa999a5b",
+              "ao_88a414fba662db87"
+            ]
+          }
+        ],
+        "complications": [
+          {
+            "text": "Complications include perforator bleeding, patellar-tendon injury, periosteal stripping that delays union, and popliteal neurovascular injury from posterior dissection.",
+            "source_ids": [
+              "ao_94a04668aa999a5b",
+              "ao_88a414fba662db87"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "questions": [
+          {
+            "question": "Is this approach safe next to a healed midline TKA scar?",
+            "answer": "Yes.",
+            "source_ids": [
+              "ao_94a04668aa999a5b"
+            ]
+          },
+          {
+            "question": "How far can the optional arthrotomy be carried?",
+            "answer": "Distally as far as the lateral tibial component.",
+            "source_ids": [
+              "ao_94a04668aa999a5b"
+            ]
+          },
+          {
+            "question": "Which vessels must be ligated during vastus elevation?",
+            "answer": "Perforating branches of profunda femoris.",
+            "source_ids": [
+              "ao_94a04668aa999a5b",
+              "ao_88a414fba662db87"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "approach_id": "knee_pp_medial_distal_femur",
+      "name": "Medial approach to the distal femur (periprosthetic knee)",
+      "aliases": [
+        "periprosthetic medial distal-femur approach"
+      ],
+      "region": "distal-femur",
+      "joint": "knee",
+      "bones": [
+        "distal femur"
+      ],
+      "corridor": "Straight incision along the adductor-magnus tendon, elevating vastus medialis anteriorly off sartorius, with Hunter-canal vessels protected if the cut is carried proximally",
+      "sources": [
+        {
+          "source_id": "ao_3c2cfc8bc315c970",
+          "provider": "AO Surgery Reference",
+          "title": "Medial Approach Distal Femur",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/periprosthetic-fractures/knee/approach/medial-approach-distal-femur",
+          "source_page_id": "ao_3c2cfc8bc315c970"
+        },
+        {
+          "source_id": "ao_30f13838a1aed4e2",
+          "provider": "AO Surgery Reference",
+          "title": "Medial Approach To The Distal Femur",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/distal-femur/approach/medial-approach-to-the-distal-femur",
+          "source_page_id": "ao_30f13838a1aed4e2"
+        }
+      ],
+      "procedure_applications": [
+        {
+          "procedure_id": "distal_femur_fracture_orif",
+          "relationship": "primary_option",
+          "condition": "A medial distal-femoral periprosthetic fracture, or a dual-plate construct, is exposed medially beside a healed TKA scar"
+        }
+      ],
+      "sections": {
+        "positioning": [
+          {
+            "text": "Position so the adductor tubercle and adductor-magnus tendon can be marked; the corridor is safe beside a healed midline TKA scar.",
+            "source_ids": [
+              "ao_3c2cfc8bc315c970"
+            ]
+          }
+        ],
+        "surface_landmarks": [
+          {
+            "text": "Identify the adductor tubercle and mark the adductor-magnus tendon proximally.",
+            "source_ids": [
+              "ao_3c2cfc8bc315c970",
+              "ao_30f13838a1aed4e2"
+            ]
+          }
+        ],
+        "incision": [
+          {
+            "text": "Make a straight cut along the posterior border of the adductor-magnus tendon and extend it proximally as needed.",
+            "source_ids": [
+              "ao_3c2cfc8bc315c970"
+            ]
+          }
+        ],
+        "superficial_interval": [
+          {
+            "text": "Find the posterior border of vastus medialis distally and elevate it anteriorly, developing the plane between vastus medialis and sartorius.",
+            "source_ids": [
+              "ao_3c2cfc8bc315c970",
+              "ao_30f13838a1aed4e2"
+            ]
+          }
+        ],
+        "deep_interval": [
+          {
+            "text": "Flex the knee so sartorius can be retracted posteriorly, exposing the adductor-magnus tendon to the adductor tubercle. Retract adductor magnus posteriorly and vastus medialis anteriorly onto the femur. Proximally this plane borders Hunter's canal.",
+            "source_ids": [
+              "ao_3c2cfc8bc315c970",
+              "ao_30f13838a1aed4e2"
+            ],
+            "risk_level": "medium"
+          }
+        ],
+        "layers": [
+          {
+            "text": "Skin, vastus medialis\u2013sartorius interval, adductor-magnus tendon, then the medial distal femur.",
+            "source_ids": [
+              "ao_3c2cfc8bc315c970",
+              "ao_30f13838a1aed4e2"
+            ]
+          }
+        ],
+        "structures_at_risk": [
+          {
+            "text": "The femoral vessels in Hunter's canal are at risk if proximal dissection is careless.",
+            "source_ids": [
+              "ao_3c2cfc8bc315c970",
+              "ao_30f13838a1aed4e2"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "danger_zones": [
+          {
+            "text": "Hunter's canal, formed by sartorius as the cut is carried proximally, is the danger zone for the femoral vessels.",
+            "source_ids": [
+              "ao_3c2cfc8bc315c970"
+            ],
+            "risk_level": "medium"
+          }
+        ],
+        "retraction_hazards": [
+          {
+            "text": "Do not injure the femoral vessels while retracting sartorius or working beside Hunter's canal.",
+            "source_ids": [
+              "ao_3c2cfc8bc315c970"
+            ],
+            "risk_level": "medium"
+          }
+        ],
+        "exposure": [
+          {
+            "text": "Shows the medial distal femur for a medial plate or a second plate in a dual-plate construct.",
+            "source_ids": [
+              "ao_3c2cfc8bc315c970"
+            ]
+          }
+        ],
+        "limitations": [
+          {
+            "text": "The window is medial only. Proximal length is limited by Hunter's canal.",
+            "source_ids": [
+              "ao_3c2cfc8bc315c970"
+            ]
+          }
+        ],
+        "indications": [
+          {
+            "text": "Used for a medial distal-femoral periprosthetic fracture and when simultaneous medial and lateral plates are planned.",
+            "source_ids": [
+              "ao_3c2cfc8bc315c970"
+            ]
+          }
+        ],
+        "closure": [
+          {
+            "text": "After hemostasis, close in layers with absorbable suture and the chosen skin closure.",
+            "source_ids": [
+              "ao_3c2cfc8bc315c970"
+            ]
+          }
+        ],
+        "complications": [
+          {
+            "text": "The principal complication is femoral-vessel injury in Hunter's canal during proximal extension.",
+            "source_ids": [
+              "ao_3c2cfc8bc315c970",
+              "ao_30f13838a1aed4e2"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "questions": [
+          {
+            "question": "Along which tendon is the incision placed?",
+            "answer": "The adductor-magnus tendon, after marking the adductor tubercle.",
+            "source_ids": [
+              "ao_3c2cfc8bc315c970"
+            ]
+          },
+          {
+            "question": "What structure forms the border of Hunter's canal in this approach?",
+            "answer": "Sartorius.",
+            "source_ids": [
+              "ao_3c2cfc8bc315c970"
+            ]
+          },
+          {
+            "question": "Is the approach safe next to a healed midline TKA scar?",
+            "answer": "Yes.",
+            "source_ids": [
+              "ao_3c2cfc8bc315c970"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "approach_id": "knee_pp_medial_proximal_tibia",
+      "name": "Medial approach to the proximal tibia (periprosthetic knee)",
+      "aliases": [
+        "periprosthetic medial tibial approach"
+      ],
+      "region": "proximal-tibia",
+      "joint": "knee",
+      "bones": [
+        "proximal tibia"
+      ],
+      "corridor": "Straight or slightly curved cut from the medial epicondyle to the posteromedial tibial border, reflecting or elevating pes anserinus while leaving the MCL on bone",
+      "sources": [
+        {
+          "source_id": "ao_af1e9417f1305398",
+          "provider": "AO Surgery Reference",
+          "title": "Medial Approach Proximal Tibia",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/periprosthetic-fractures/knee/approach/medial-approach-proximal-tibia",
+          "source_page_id": "ao_af1e9417f1305398"
+        },
+        {
+          "source_id": "ao_9fc597027038b30b",
+          "provider": "AO Surgery Reference",
+          "title": "Medial And Posteromedial Approach To Proximal Tibia",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/proximal-tibia/approach/medial-and-posteromedial-approach-to-proximal-tibia",
+          "source_page_id": "ao_9fc597027038b30b"
+        }
+      ],
+      "procedure_applications": [
+        {
+          "procedure_id": "periprosthetic_knee_fracture_orif",
+          "relationship": "primary_option",
+          "condition": "A medial or posteromedial proximal-tibial periprosthetic fracture is plated over an intact MCL"
+        }
+      ],
+      "sections": {
+        "positioning": [
+          {
+            "text": "If the hip is mobile, place the patient supine with the limb abducted, externally rotated, and in a figure-of-4. If the hip is stiff, use lateral decubitus with the involved limb down. A proximal-thigh tourniquet may be used.",
+            "source_ids": [
+              "ao_af1e9417f1305398"
+            ]
+          }
+        ],
+        "surface_landmarks": [
+          {
+            "text": "Mark the medial epicondyle and the posteromedial tibial border with the knee slightly flexed.",
+            "source_ids": [
+              "ao_af1e9417f1305398"
+            ]
+          }
+        ],
+        "incision": [
+          {
+            "text": "Make a straight or slightly curved cut from the medial epicondyle toward the posteromedial tibial edge and extend it as needed.",
+            "source_ids": [
+              "ao_af1e9417f1305398"
+            ]
+          }
+        ],
+        "superficial_interval": [
+          {
+            "text": "Open fascia over semimembranosus and expose the pes anserinus.",
+            "source_ids": [
+              "ao_af1e9417f1305398"
+            ]
+          }
+        ],
+        "deep_interval": [
+          {
+            "text": "Reflect the pes tendons posteriorly, or elevate their broad insertion from anterior, to see the posteromedial and medial tibia. Do not elevate the MCL from its insertion; a plate may sit over the MCL with care.",
+            "source_ids": [
+              "ao_af1e9417f1305398",
+              "ao_9fc597027038b30b"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "layers": [
+          {
+            "text": "Skin, fascia, pes anserinus, MCL on bone, then the medial and posteromedial tibia.",
+            "source_ids": [
+              "ao_af1e9417f1305398"
+            ]
+          }
+        ],
+        "structures_at_risk": [
+          {
+            "text": "The MCL is closely adherent to bone anteriorly and proximally; lifting it destabilizes the knee.",
+            "source_ids": [
+              "ao_af1e9417f1305398",
+              "ao_9fc597027038b30b"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "danger_zones": [
+          {
+            "text": "The MCL insertion is the danger zone. Do not strip it to seat a plate.",
+            "source_ids": [
+              "ao_af1e9417f1305398"
+            ],
+            "risk_level": "medium"
+          }
+        ],
+        "retraction_hazards": [
+          {
+            "text": "Elevating pes from anterior does not create instability if the MCL is left on bone.",
+            "source_ids": [
+              "ao_af1e9417f1305398"
+            ]
+          }
+        ],
+        "exposure": [
+          {
+            "text": "Shows the medial and posteromedial tibial edge for plating around a TKA.",
+            "source_ids": [
+              "ao_af1e9417f1305398"
+            ]
+          }
+        ],
+        "limitations": [
+          {
+            "text": "A stiff hip forces lateral-decubitus positioning. The MCL cannot be used as a dissection plane.",
+            "source_ids": [
+              "ao_af1e9417f1305398"
+            ]
+          }
+        ],
+        "indications": [
+          {
+            "text": "Used for medial or posteromedial proximal-tibial periprosthetic fracture fixation.",
+            "source_ids": [
+              "ao_af1e9417f1305398"
+            ]
+          }
+        ],
+        "closure": [
+          {
+            "text": "Insert drains if needed and close the soft tissues routinely.",
+            "source_ids": [
+              "ao_af1e9417f1305398"
+            ]
+          }
+        ],
+        "complications": [
+          {
+            "text": "The principal complication is knee instability from MCL elevation.",
+            "source_ids": [
+              "ao_af1e9417f1305398",
+              "ao_9fc597027038b30b"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "questions": [
+          {
+            "question": "How is the limb positioned if the hip is mobile?",
+            "answer": "Supine, abducted and externally rotated, in a figure-of-4.",
+            "source_ids": [
+              "ao_af1e9417f1305398"
+            ]
+          },
+          {
+            "question": "May the MCL be elevated from bone?",
+            "answer": "No. Elevation of its insertion can destabilize the knee. A plate may lie over an intact MCL.",
+            "source_ids": [
+              "ao_af1e9417f1305398"
+            ]
+          },
+          {
+            "question": "How can pes anserinus be handled?",
+            "answer": "Reflected posteriorly, or elevated from anterior without creating instability.",
+            "source_ids": [
+              "ao_af1e9417f1305398"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "approach_id": "knee_pp_midline_longitudinal",
+      "name": "Midline longitudinal approach (periprosthetic knee)",
+      "aliases": [
+        "periprosthetic TKA midline approach"
+      ],
+      "region": "knee",
+      "joint": "knee",
+      "bones": [
+        "distal femur",
+        "proximal tibia",
+        "patella"
+      ],
+      "corridor": "Reused full-thickness midline TKA incision with a medial parapatellar arthrotomy, extensible to the quadriceps or tibial tubercle, used for periprosthetic, patellar, and antegrade tibial-nail work",
+      "sources": [
+        {
+          "source_id": "ao_a3814d82afad1b07",
+          "provider": "AO Surgery Reference",
+          "title": "Midline Longitudinal Approach",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/periprosthetic-fractures/knee/approach/midline-longitudinal-approach",
+          "source_page_id": "ao_a3814d82afad1b07"
+        },
+        {
+          "source_id": "ao_b0d34644f9c1079e",
+          "provider": "AO Surgery Reference",
+          "title": "Medial Parapatellar Approach",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/distal-femur/approach/medial-parapatellar-approach",
+          "source_page_id": "ao_b0d34644f9c1079e"
+        }
+      ],
+      "procedure_applications": [
+        {
+          "procedure_id": "periprosthetic_knee_fracture_orif",
+          "relationship": "primary_option",
+          "condition": "A periprosthetic fracture, patellar fracture, or antegrade tibial nail is handled through the prior midline TKA incision"
+        }
+      ],
+      "sections": {
+        "positioning": [
+          {
+            "text": "Position so the prior midline scar can be reused and extended proximal or distal.",
+            "source_ids": [
+              "ao_a3814d82afad1b07",
+              "ao_b0d34644f9c1079e"
+            ]
+          }
+        ],
+        "surface_landmarks": [
+          {
+            "text": "Mark the existing midline TKA scar, the patella, and the tibial tubercle. Note the infrapatellar saphenous branches crossing from medial to lateral.",
+            "source_ids": [
+              "ao_a3814d82afad1b07"
+            ]
+          }
+        ],
+        "incision": [
+          {
+            "text": "Reuse the longitudinal midline incision and extend it as needed. Raise full-thickness flaps to protect skin blood supply.",
+            "source_ids": [
+              "ao_a3814d82afad1b07"
+            ]
+          }
+        ],
+        "superficial_interval": [
+          {
+            "text": "Develop full-thickness flaps. Expect minor lateral sensory loss from infrapatellar saphenous branches; significant saphenous-trunk injury is avoidable.",
+            "source_ids": [
+              "ao_a3814d82afad1b07"
+            ]
+          }
+        ],
+        "deep_interval": [
+          {
+            "text": "Perform a medial parapatellar arthrotomy through the retinaculum and capsule. Extend proximally or toward the tibial tubercle as the fracture requires. Evert the patella only for patellar-component or patellar-fracture work, and avoid avulsing the patellar tendon, especially in flexion.",
+            "source_ids": [
+              "ao_a3814d82afad1b07",
+              "ao_b0d34644f9c1079e"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "layers": [
+          {
+            "text": "Skin (prior midline), full-thickness flaps, medial retinaculum and capsule, then the joint, distal femur, and proximal tibia.",
+            "source_ids": [
+              "ao_a3814d82afad1b07",
+              "ao_b0d34644f9c1079e"
+            ]
+          }
+        ],
+        "structures_at_risk": [
+          {
+            "text": "The patellar tendon insertion on the tubercle, the extraosseous patellar arterial ring, and infrapatellar saphenous branches are at risk.",
+            "source_ids": [
+              "ao_a3814d82afad1b07",
+              "ao_b0d34644f9c1079e"
+            ],
+            "risk_level": "medium"
+          }
+        ],
+        "danger_zones": [
+          {
+            "text": "Patellar eversion in flexion can avulse the patellar tendon from the tubercle.",
+            "source_ids": [
+              "ao_a3814d82afad1b07"
+            ],
+            "risk_level": "medium"
+          }
+        ],
+        "retraction_hazards": [
+          {
+            "text": "Thin flaps jeopardize skin blood supply. Additional quadriceps, lateral-retinacular, or tubercle release may be needed rather than forced eversion.",
+            "source_ids": [
+              "ao_a3814d82afad1b07"
+            ],
+            "risk_level": "medium"
+          }
+        ],
+        "exposure": [
+          {
+            "text": "Gives a universal window for primary or revision TKA and for periprosthetic work needing medial or lateral arthrotomy, patellar fixation, or isolated distal extension for tibial nailing.",
+            "source_ids": [
+              "ao_a3814d82afad1b07"
+            ]
+          }
+        ],
+        "limitations": [
+          {
+            "text": "Lateral parapatellar arthrotomy is rare. Forced eversion without release risks tendon avulsion.",
+            "source_ids": [
+              "ao_a3814d82afad1b07"
+            ]
+          }
+        ],
+        "indications": [
+          {
+            "text": "Used whenever the prior midline TKA incision can serve a periprosthetic fracture, patellar fracture, or antegrade tibial nail.",
+            "source_ids": [
+              "ao_a3814d82afad1b07"
+            ]
+          }
+        ],
+        "closure": [
+          {
+            "text": "Irrigate the joint, close in layers, consider a drain, and close skin with staples or nonabsorbable suture.",
+            "source_ids": [
+              "ao_a3814d82afad1b07"
+            ]
+          }
+        ],
+        "complications": [
+          {
+            "text": "Complications include patellar-tendon avulsion, skin-flap necrosis, and saphenous neuroma.",
+            "source_ids": [
+              "ao_a3814d82afad1b07"
+            ],
+            "risk_level": "medium"
+          }
+        ],
+        "questions": [
+          {
+            "question": "Which arthrotomy is routine through this incision?",
+            "answer": "Medial parapatellar.",
+            "source_ids": [
+              "ao_a3814d82afad1b07"
+            ]
+          },
+          {
+            "question": "When is patellar eversion required?",
+            "answer": "Only for patellar fractures or revision of the patellar component.",
+            "source_ids": [
+              "ao_a3814d82afad1b07"
+            ]
+          },
+          {
+            "question": "What can isolated distal extension be used for?",
+            "answer": "Tibial intramedullary nailing.",
+            "source_ids": [
+              "ao_a3814d82afad1b07"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "approach_id": "knee_pp_mio_anterolateral_proximal_tibia",
+      "name": "Minimally invasive anterolateral approach to the proximal tibia (periprosthetic knee)",
+      "aliases": [
+        "periprosthetic tibial MIO approach"
+      ],
+      "region": "proximal-tibia",
+      "joint": "knee",
+      "bones": [
+        "proximal tibia",
+        "tibial shaft"
+      ],
+      "corridor": "Short incision posterior to Gerdy tubercle for a submuscular plate, stab incisions in the proximal half, and a short distal-third window that retracts the deep peroneal nerve and anterior tibial vessels",
+      "sources": [
+        {
+          "source_id": "ao_2248e107821cbd88",
+          "provider": "AO Surgery Reference",
+          "title": "Mio Anterolateral Approach Proximal Tibia",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/periprosthetic-fractures/knee/approach/mio-anterolateral-approach-proximal-tibia",
+          "source_page_id": "ao_2248e107821cbd88"
+        },
+        {
+          "source_id": "ao_4baab2c03d6a4f15",
+          "provider": "AO Surgery Reference",
+          "title": "Approach For Minimally Invasive Osteosynthesis Of Proximal Tibia",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/proximal-tibia/approach/approach-for-minimally-invasive-osteosynthesis-of-proximal-tibia",
+          "source_page_id": "ao_4baab2c03d6a4f15"
+        }
+      ],
+      "procedure_applications": [
+        {
+          "procedure_id": "periprosthetic_knee_fracture_orif",
+          "relationship": "primary_option",
+          "condition": "A proximal or mid-tibial periprosthetic fracture is plated submuscularly, balancing a new cut against the prior TKA scar"
+        }
+      ],
+      "sections": {
+        "positioning": [
+          {
+            "text": "Position so Gerdy tubercle, the tibial crest, and the distal-third anterolateral tibia can be imaged.",
+            "source_ids": [
+              "ao_2248e107821cbd88",
+              "ao_4baab2c03d6a4f15"
+            ]
+          }
+        ],
+        "surface_landmarks": [
+          {
+            "text": "Mark Gerdy tubercle, the prior TKA incision, and the junction of the third and fourth quarters of the tibia where the anterior tibial vessels and deep peroneal nerve cross.",
+            "source_ids": [
+              "ao_2248e107821cbd88"
+            ]
+          }
+        ],
+        "incision": [
+          {
+            "text": "Make about a 5 cm cut starting posterior to Gerdy and running distal and anterior. Use stabs just lateral to the crest in the proximal half. In the distal third use a short incision rather than a stab.",
+            "source_ids": [
+              "ao_2248e107821cbd88"
+            ]
+          }
+        ],
+        "superficial_interval": [
+          {
+            "text": "Open fascia from Gerdy distally and release the anterior tibialis-anterior attachment. Weigh a new incision against the prior TKA scar; the skin between them is at risk if the operations are close in time.",
+            "source_ids": [
+              "ao_2248e107821cbd88"
+            ],
+            "risk_level": "medium"
+          }
+        ],
+        "deep_interval": [
+          {
+            "text": "Elevate tibialis anterior without stripping periosteum and retract it laterally. Distally dissect the tibialis-anterior tendon off bone, preserve paratenon, and retract tendon, deep peroneal nerve, and anterior tibial vessels laterally. Proximal stabs may split anterior-compartment muscle bluntly.",
+            "source_ids": [
+              "ao_2248e107821cbd88",
+              "ao_4baab2c03d6a4f15"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "layers": [
+          {
+            "text": "Skin, anterior-compartment fascia, tibialis anterior, periosteum, then the lateral tibia.",
+            "source_ids": [
+              "ao_2248e107821cbd88"
+            ]
+          }
+        ],
+        "structures_at_risk": [
+          {
+            "text": "The deep peroneal nerve and anterior tibial vessels, trapped by a submuscular plate or a percutaneous screw in the distal third, and the skin bridge beside a recent TKA scar are at risk.",
+            "source_ids": [
+              "ao_2248e107821cbd88",
+              "ao_4baab2c03d6a4f15"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "danger_zones": [
+          {
+            "text": "The distal third of the tibia, where the neurovascular bundle crosses the anterolateral surface, is the danger zone for percutaneous screws.",
+            "source_ids": [
+              "ao_2248e107821cbd88"
+            ],
+            "risk_level": "medium"
+          }
+        ],
+        "retraction_hazards": [
+          {
+            "text": "Preserve paratenon on the tibialis-anterior tendon in the distal window.",
+            "source_ids": [
+              "ao_2248e107821cbd88"
+            ],
+            "risk_level": "medium"
+          }
+        ],
+        "exposure": [
+          {
+            "text": "Allows submuscular plating of proximal and mid-tibial periprosthetic fractures with percutaneous distal screws only where the nerve and vessels can be seen or safely avoided.",
+            "source_ids": [
+              "ao_2248e107821cbd88"
+            ]
+          }
+        ],
+        "limitations": [
+          {
+            "text": "The anteromedial tibial face is subcutaneous and poorly vascular. A recent TKA scar may forbid a nearby second cut.",
+            "source_ids": [
+              "ao_2248e107821cbd88"
+            ]
+          }
+        ],
+        "indications": [
+          {
+            "text": "Used for minimally invasive fixation of proximal and mid-tibial periprosthetic fractures.",
+            "source_ids": [
+              "ao_2248e107821cbd88"
+            ]
+          }
+        ],
+        "closure": [
+          {
+            "text": "Close the proximal and distal windows after the plate is seated and the neurovascular bundle is confirmed free.",
+            "source_ids": [
+              "ao_2248e107821cbd88",
+              "ao_4baab2c03d6a4f15"
+            ]
+          }
+        ],
+        "complications": [
+          {
+            "text": "Complications include deep-peroneal or anterior-tibial vessel injury, plate entrapment of those structures, and skin necrosis between a new cut and a recent TKA scar.",
+            "source_ids": [
+              "ao_2248e107821cbd88"
+            ],
+            "risk_level": "medium"
+          }
+        ],
+        "questions": [
+          {
+            "question": "Where does the proximal MIO incision start?",
+            "answer": "Posterior to Gerdy tubercle, about 5 cm, running distal and anterior.",
+            "source_ids": [
+              "ao_2248e107821cbd88"
+            ]
+          },
+          {
+            "question": "Why is a short distal-third incision used instead of a stab?",
+            "answer": "To expose and retract the deep peroneal nerve and anterior tibial vessels.",
+            "source_ids": [
+              "ao_2248e107821cbd88"
+            ]
+          },
+          {
+            "question": "What must be balanced against a new incision?",
+            "answer": "The prior TKA scar and the skin between the two cuts.",
+            "source_ids": [
+              "ao_2248e107821cbd88"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "approach_id": "knee_pp_mio_distal_femur",
+      "name": "Minimally invasive lateral approach to the distal femur (periprosthetic knee)",
+      "aliases": [
+        "periprosthetic distal-femur MIO"
+      ],
+      "region": "distal-femur",
+      "joint": "knee",
+      "bones": [
+        "distal femur",
+        "femoral shaft"
+      ],
+      "corridor": "Short lateral distal window through the IT band with vastus lateralis left largely undisturbed, a submuscular plate tunnel, a proximal vastus-split window, and 1.5\u20132 cm stab incisions for screws",
+      "sources": [
+        {
+          "source_id": "ao_d1413c1b3e24fd19",
+          "provider": "AO Surgery Reference",
+          "title": "Mio Approach Distal Femur",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/periprosthetic-fractures/knee/approach/mio-approach-distal-femur",
+          "source_page_id": "ao_d1413c1b3e24fd19"
+        },
+        {
+          "source_id": "ao_14af295b107767ca",
+          "provider": "AO Surgery Reference",
+          "title": "MIPO Approach To The Distal Femur From Lateral Anterolateral",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/distal-femur/approach/mipo-approach-to-the-distal-femur-from-lateral-anterolateral",
+          "source_page_id": "ao_14af295b107767ca"
+        }
+      ],
+      "procedure_applications": [
+        {
+          "procedure_id": "distal_femur_fracture_orif",
+          "relationship": "primary_option",
+          "condition": "A distal-femoral periprosthetic fracture is plated with a lateral MIO construct beside a healed midline TKA scar"
+        }
+      ],
+      "sections": {
+        "positioning": [
+          {
+            "text": "Position supine so the lateral epicondyle, Gerdy tubercle, and a line to the greater trochanter can be imaged. The corridor is safe next to a healed midline TKA scar.",
+            "source_ids": [
+              "ao_d1413c1b3e24fd19"
+            ]
+          }
+        ],
+        "surface_landmarks": [
+          {
+            "text": "Mark the lateral femoral epicondyle, Gerdy tubercle, and the line toward the greater trochanter.",
+            "source_ids": [
+              "ao_d1413c1b3e24fd19",
+              "ao_14af295b107767ca"
+            ]
+          }
+        ],
+        "incision": [
+          {
+            "text": "Use a shortened open-lateral distal cut starting in the metaphysis and extending beyond Gerdy only if arthrotomy is needed. Add a short proximal incision on the epicondyle\u2013trochanter line and 1.5\u20132 cm stabs for screws.",
+            "source_ids": [
+              "ao_d1413c1b3e24fd19"
+            ]
+          }
+        ],
+        "superficial_interval": [
+          {
+            "text": "Divide the IT band in line with its fibers. Distally there are few vastus-lateralis fibers in the last 8\u201310 cm, so the lateral femur is seen once the IT band is open.",
+            "source_ids": [
+              "ao_d1413c1b3e24fd19"
+            ]
+          }
+        ],
+        "deep_interval": [
+          {
+            "text": "Slide the plate in the submuscular space beneath vastus lateralis. Proximally split vastus fibers rather than elevating the whole belly from the septum. Cauterize superior lateral genicular vessels. Optional arthrotomy over the anterior third of the lateral condyle can reach the anterior lateral tibial prosthesis.",
+            "source_ids": [
+              "ao_d1413c1b3e24fd19",
+              "ao_14af295b107767ca"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "layers": [
+          {
+            "text": "Skin, IT band, largely undisturbed vastus lateralis, submuscular tunnel, periosteum, then the lateral femur.",
+            "source_ids": [
+              "ao_d1413c1b3e24fd19"
+            ]
+          }
+        ],
+        "structures_at_risk": [
+          {
+            "text": "Superior lateral genicular vessels, the patellar tendon during arthrotomy, and an off-center proximal plate that misses the shaft are at risk.",
+            "source_ids": [
+              "ao_d1413c1b3e24fd19",
+              "ao_14af295b107767ca"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "danger_zones": [
+          {
+            "text": "A too-small stab incision hides the screw path. Confirm the most proximal hole is centered before any other proximal screws are placed.",
+            "source_ids": [
+              "ao_d1413c1b3e24fd19"
+            ],
+            "risk_level": "medium"
+          }
+        ],
+        "retraction_hazards": [
+          {
+            "text": "Avoid excessive tension on the patellar tendon, especially in osteoporotic bone. Use anterior and posterior Hohmann retractors in the proximal window.",
+            "source_ids": [
+              "ao_d1413c1b3e24fd19"
+            ],
+            "risk_level": "medium"
+          }
+        ],
+        "exposure": [
+          {
+            "text": "Combines a short distal lateral window, a submuscular plate tunnel, a proximal alignment window, and percutaneous screws.",
+            "source_ids": [
+              "ao_d1413c1b3e24fd19"
+            ]
+          }
+        ],
+        "limitations": [
+          {
+            "text": "Vastus lateralis is not fully elevated. Joint view requires a 3\u20134 cm distal extension.",
+            "source_ids": [
+              "ao_d1413c1b3e24fd19"
+            ]
+          }
+        ],
+        "indications": [
+          {
+            "text": "Used for lateral MIO plating of a distal-femoral periprosthetic fracture beside a healed midline TKA incision.",
+            "source_ids": [
+              "ao_d1413c1b3e24fd19"
+            ]
+          }
+        ],
+        "closure": [
+          {
+            "text": "Close any arthrotomy and the IT band with absorbable suture at each window, then close skin routinely.",
+            "source_ids": [
+              "ao_d1413c1b3e24fd19"
+            ]
+          }
+        ],
+        "complications": [
+          {
+            "text": "Complications include genicular bleeding, patellar-tendon injury, and an off-axis proximal plate.",
+            "source_ids": [
+              "ao_d1413c1b3e24fd19",
+              "ao_14af295b107767ca"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "questions": [
+          {
+            "question": "Where is the plate slid?",
+            "answer": "In the natural submuscular space beneath vastus lateralis.",
+            "source_ids": [
+              "ao_d1413c1b3e24fd19"
+            ]
+          },
+          {
+            "question": "How does the proximal window differ from a formal lateral femur approach?",
+            "answer": "Vastus fibers are split rather than elevating the whole belly from the intermuscular septum.",
+            "source_ids": [
+              "ao_d1413c1b3e24fd19"
+            ]
+          },
+          {
+            "question": "How wide should screw stabs be?",
+            "answer": "1.5\u20132 cm; too-small stabs are a common mistake.",
+            "source_ids": [
+              "ao_d1413c1b3e24fd19"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "approach_id": "knee_pp_posteromedial_proximal_tibia",
+      "name": "Posteromedial approach to the proximal tibia (periprosthetic knee)",
+      "aliases": [
+        "prone posteromedial periprosthetic tibial approach"
+      ],
+      "region": "proximal-tibia",
+      "joint": "knee",
+      "bones": [
+        "proximal tibia"
+      ],
+      "corridor": "Prone posteromedial incision along the hamstring and medial gastrocnemius, staying medial to gastrocnemius, reflecting pes, and elevating gastrocnemius and popliteus while protecting the popliteal vessels",
+      "sources": [
+        {
+          "source_id": "ao_d86dc42747320117",
+          "provider": "AO Surgery Reference",
+          "title": "Posteromedial Approach Proximal Tibia",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/periprosthetic-fractures/knee/approach/posteromedial-approach-proximal-tibia",
+          "source_page_id": "ao_d86dc42747320117"
+        },
+        {
+          "source_id": "ao_9ede4438db894c21",
+          "provider": "AO Surgery Reference",
+          "title": "Prone Posteromedial Approach To Proximal Tibia",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/proximal-tibia/approach/prone-posteromedial-approach-to-proximal-tibia",
+          "source_page_id": "ao_9ede4438db894c21"
+        },
+        {
+          "source_id": "orthobullets_84ac0da8d7847913",
+          "provider": "Orthobullets",
+          "title": "Knee Posterior Approach",
+          "url": "https://www.orthobullets.com/approaches/12073/knee-posterior-approach",
+          "source_page_id": "orthobullets_84ac0da8d7847913"
+        }
+      ],
+      "procedure_applications": [
+        {
+          "procedure_id": "periprosthetic_knee_fracture_orif",
+          "relationship": "primary_option",
+          "condition": "A posteromedial proximal-tibial periprosthetic fragment is fixed through a cut posterior and medial to the TKA scar"
+        }
+      ],
+      "sections": {
+        "positioning": [
+          {
+            "text": "Position prone with the hip fully extended and the knee flexed about 15\u00b0. A tourniquet may be applied before positioning.",
+            "source_ids": [
+              "ao_d86dc42747320117"
+            ]
+          }
+        ],
+        "surface_landmarks": [
+          {
+            "text": "Mark the posterior hamstring border, the medial gastrocnemius and soleus, and the prior midline scar so the new cut stays posterior and medial to it.",
+            "source_ids": [
+              "ao_d86dc42747320117"
+            ]
+          }
+        ],
+        "incision": [
+          {
+            "text": "Make a 10\u201315 cm cut along the posterior hamstring border extending distally along medial gastrocnemius and soleus.",
+            "source_ids": [
+              "ao_d86dc42747320117"
+            ]
+          }
+        ],
+        "superficial_interval": [
+          {
+            "text": "Open crural fascia in line with the skin, preserve the short saphenous vein and medial sural cutaneous nerve, and stay on the medial aspect of gastrocnemius.",
+            "source_ids": [
+              "ao_d86dc42747320117",
+              "ao_9ede4438db894c21"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "deep_interval": [
+          {
+            "text": "Reflect pes anteromedially to the posteromedial tibial border. Elevate gastrocnemius and underlying popliteus with a periosteal elevator and place a blunt retractor around the lateral tibia, carefully reflecting the popliteal artery and vein proximal to the trifurcation. Optional release of the medial gastrocnemius tendon from the medial femoral condyle increases exposure but raises neurovascular risk.",
+            "source_ids": [
+              "ao_d86dc42747320117",
+              "ao_9ede4438db894c21"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "layers": [
+          {
+            "text": "Skin, crural fascia, medial gastrocnemius, pes, popliteus, then the posteromedial tibia.",
+            "source_ids": [
+              "ao_d86dc42747320117",
+              "ao_9ede4438db894c21"
+            ]
+          }
+        ],
+        "structures_at_risk": [
+          {
+            "text": "The popliteal artery and vein proximal to the trifurcation, the short saphenous vein, and the medial sural cutaneous nerve are at risk.",
+            "source_ids": [
+              "ao_d86dc42747320117",
+              "ao_9ede4438db894c21"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "danger_zones": [
+          {
+            "text": "Leaving the medial gastrocnemius and drifting laterally endangers the popliteal neurovascular bundle.",
+            "source_ids": [
+              "ao_d86dc42747320117"
+            ],
+            "risk_level": "medium"
+          }
+        ],
+        "retraction_hazards": [
+          {
+            "text": "Releasing the medial gastrocnemius tendon increases exposure but places the neurovascular bundle at greater risk.",
+            "source_ids": [
+              "ao_d86dc42747320117"
+            ],
+            "risk_level": "medium"
+          }
+        ],
+        "exposure": [
+          {
+            "text": "Shows the posteromedial proximal tibia through a window that can sit safely posterior and medial to a prior midline TKA scar.",
+            "source_ids": [
+              "ao_d86dc42747320117"
+            ]
+          }
+        ],
+        "limitations": [
+          {
+            "text": "The patient must be prone. Lateral-tibial access is only by careful retraction around the bone.",
+            "source_ids": [
+              "ao_d86dc42747320117"
+            ]
+          }
+        ],
+        "indications": [
+          {
+            "text": "Used for posteromedial proximal-tibial periprosthetic fixation when a cut posterior and medial to the arthroplasty scar is required.",
+            "source_ids": [
+              "ao_d86dc42747320117"
+            ]
+          }
+        ],
+        "closure": [
+          {
+            "text": "Repair released medial gastrocnemius with nonabsorbable suture or an anchor, close fascia with a running absorbable stitch, and close skin as preferred.",
+            "source_ids": [
+              "ao_d86dc42747320117"
+            ]
+          }
+        ],
+        "complications": [
+          {
+            "text": "The principal complication is popliteal-vessel injury, especially if gastrocnemius is released or dissection drifts off its medial border.",
+            "source_ids": [
+              "ao_d86dc42747320117",
+              "ao_9ede4438db894c21"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "questions": [
+          {
+            "question": "How is the patient positioned?",
+            "answer": "Prone, hip extended, knee flexed about 15\u00b0.",
+            "source_ids": [
+              "ao_d86dc42747320117"
+            ]
+          },
+          {
+            "question": "Why stay medial to gastrocnemius?",
+            "answer": "To avoid the popliteal neurovascular bundle.",
+            "source_ids": [
+              "ao_d86dc42747320117"
+            ]
+          },
+          {
+            "question": "Is a posteromedial cut safe relative to a midline TKA scar?",
+            "answer": "Yes, a skin incision posterior and medial to the prior midline scar can be achieved safely.",
+            "source_ids": [
+              "ao_d86dc42747320117"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "approach_id": "knee_pp_retrograde_femoral_nailing",
+      "name": "Retrograde nailing approach to the distal femur (periprosthetic knee)",
+      "aliases": [
+        "periprosthetic retrograde femoral nail entry"
+      ],
+      "region": "distal-femur",
+      "joint": "knee",
+      "bones": [
+        "distal femur"
+      ],
+      "corridor": "Limited midline or medial-paratendinous window just distal to the inferior patellar pole, through an open femoral-component box, to an intercondylar start on Blumensaat's line at 45\u00b0 of flexion",
+      "sources": [
+        {
+          "source_id": "ao_4bc1100ab39394f1",
+          "provider": "AO Surgery Reference",
+          "title": "Retrograde Nailing Approach Distal Femur",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/periprosthetic-fractures/knee/approach/retrograde-nailing-approach-distal-femur",
+          "source_page_id": "ao_4bc1100ab39394f1"
+        },
+        {
+          "source_id": "ao_875866d4601d308f",
+          "provider": "AO Surgery Reference",
+          "title": "Retrograde nailing approach (periprosthetic femur)",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/periprosthetic-fractures/hip/approach/retrograde-nailing-approach",
+          "source_page_id": "ao_875866d4601d308f"
+        }
+      ],
+      "procedure_applications": [
+        {
+          "procedure_id": "distal_femur_fracture_orif",
+          "relationship": "primary_option",
+          "condition": "A distal-femoral periprosthetic fracture is nailed retrograde through an open-box femoral component"
+        }
+      ],
+      "sections": {
+        "positioning": [
+          {
+            "text": "Flex the knee about 45\u00b0. Less flexion lets the tibial component block the wire; more flexion puts the patella in the way.",
+            "source_ids": [
+              "ao_4bc1100ab39394f1"
+            ]
+          }
+        ],
+        "surface_landmarks": [
+          {
+            "text": "Mark the inferior patellar pole and the midline or medial edge of the patellar tendon. Confirm on the image intensifier that the femoral component has an open box.",
+            "source_ids": [
+              "ao_4bc1100ab39394f1"
+            ]
+          }
+        ],
+        "incision": [
+          {
+            "text": "Make a longitudinal cut just distal to the inferior patellar pole, over the midline or the medial edge of the patellar tendon.",
+            "source_ids": [
+              "ao_4bc1100ab39394f1",
+              "ao_875866d4601d308f"
+            ]
+          }
+        ],
+        "superficial_interval": [
+          {
+            "text": "Spread the medial parapatellar soft tissues with scissors and retract the patellar tendon laterally, or split the tendon.",
+            "source_ids": [
+              "ao_4bc1100ab39394f1"
+            ]
+          }
+        ],
+        "deep_interval": [
+          {
+            "text": "Place the guidewire in the middle of the intercondylar notch on the AP view, usually through the prosthetic hole, and on the extension of Blumensaat's line on the lateral view, in line with the canal just below the notch crest. Protect the tibial component with a sleeve while opening about 30 mm with a cannulated drill.",
+            "source_ids": [
+              "ao_4bc1100ab39394f1",
+              "ao_875866d4601d308f"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "layers": [
+          {
+            "text": "Skin, parapatellar or transtendon interval, intercondylar notch through an open femoral box, then the femoral canal.",
+            "source_ids": [
+              "ao_4bc1100ab39394f1"
+            ]
+          }
+        ],
+        "structures_at_risk": [
+          {
+            "text": "A closed femoral box blocks entry. The tibial component can be damaged by reaming if it is not sleeved.",
+            "source_ids": [
+              "ao_4bc1100ab39394f1"
+            ],
+            "risk_level": "medium"
+          }
+        ],
+        "danger_zones": [
+          {
+            "text": "Many cruciate-sacrificing designs have a closed box that forbids nail entry. Do not ream against an unprotected tibial tray.",
+            "source_ids": [
+              "ao_4bc1100ab39394f1"
+            ],
+            "risk_level": "medium"
+          }
+        ],
+        "retraction_hazards": [
+          {
+            "text": "Retract the patellar tendon gently. Wrong flexion either blocks the wire on the tibial component or on the patella.",
+            "source_ids": [
+              "ao_4bc1100ab39394f1"
+            ],
+            "risk_level": "medium"
+          }
+        ],
+        "exposure": [
+          {
+            "text": "A minimally invasive notch window sufficient to start a retrograde nail through a compatible open-box femoral component.",
+            "source_ids": [
+              "ao_4bc1100ab39394f1"
+            ]
+          }
+        ],
+        "limitations": [
+          {
+            "text": "The approach is useless if the femoral component has a closed box.",
+            "source_ids": [
+              "ao_4bc1100ab39394f1"
+            ]
+          }
+        ],
+        "indications": [
+          {
+            "text": "Used for retrograde nailing of a distal-femoral periprosthetic fracture when the femoral component will accept the nail.",
+            "source_ids": [
+              "ao_4bc1100ab39394f1"
+            ]
+          }
+        ],
+        "closure": [
+          {
+            "text": "Irrigate the joint, close in layers, and close skin with staples or nonabsorbable suture.",
+            "source_ids": [
+              "ao_4bc1100ab39394f1"
+            ]
+          }
+        ],
+        "complications": [
+          {
+            "text": "Complications include inability to enter a closed box, tibial-component damage from unprotected reaming, and an off-axis start.",
+            "source_ids": [
+              "ao_4bc1100ab39394f1",
+              "ao_875866d4601d308f"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "questions": [
+          {
+            "question": "What femoral-component feature is required?",
+            "answer": "An open box that can accommodate the nail entry. Many cruciate-sacrificing designs are closed.",
+            "source_ids": [
+              "ao_4bc1100ab39394f1"
+            ]
+          },
+          {
+            "question": "What knee flexion is desirable?",
+            "answer": "About 45\u00b0.",
+            "source_ids": [
+              "ao_4bc1100ab39394f1"
+            ]
+          },
+          {
+            "question": "Where is the start on the lateral view?",
+            "answer": "On the extension of Blumensaat's line, just below the intercondylar-notch crest.",
+            "source_ids": [
+              "ao_4bc1100ab39394f1"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "approach_id": "knee_pp_external_fixator_safe_zones",
+      "name": "Safe zones for external-fixator pins around a periprosthetic knee",
+      "aliases": [
+        "periprosthetic knee spanning-pin corridors"
+      ],
+      "region": "knee",
+      "joint": "knee",
+      "bones": [
+        "femur",
+        "tibia"
+      ],
+      "corridor": "Anterolateral to direct-lateral femoral pins more than 8\u201310 cm above the patella, and tibial pins on the crest or medial face distal to the tubercle and at least 2 cm below the plateau, kept away from the prosthesis and the fracture hematoma",
+      "sources": [
+        {
+          "source_id": "ao_ffd3c4fb6bfca618",
+          "provider": "AO Surgery Reference",
+          "title": "Safe Zones",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/periprosthetic-fractures/knee/approach/safe-zones",
+          "source_page_id": "ao_ffd3c4fb6bfca618"
+        },
+        {
+          "source_id": "ao_a21adb25f7703ca1",
+          "provider": "AO Surgery Reference",
+          "title": "Safe Zones For Pin Insertion",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/distal-femur/approach/safe-zones-for-pin-insertion",
+          "source_page_id": "ao_a21adb25f7703ca1"
+        }
+      ],
+      "procedure_applications": [
+        {
+          "procedure_id": "periprosthetic_knee_fracture_orif",
+          "relationship": "conditional_option",
+          "condition": "Temporary spanning or nonbridging external fixation is applied around a total knee"
+        }
+      ],
+      "sections": {
+        "positioning": [
+          {
+            "text": "Position so the femoral and tibial shafts can be imaged and crushed or badly damaged skin can be avoided.",
+            "source_ids": [
+              "ao_ffd3c4fb6bfca618",
+              "ao_a21adb25f7703ca1"
+            ]
+          }
+        ],
+        "surface_landmarks": [
+          {
+            "text": "Mark the superior patellar pole (stay more than 8\u201310 cm proximal on the femur), the tibial tubercle, a line 2 cm below the plateau, and the prosthesis so pins stay as far from it as possible.",
+            "source_ids": [
+              "ao_ffd3c4fb6bfca618"
+            ]
+          }
+        ],
+        "incision": [
+          {
+            "text": "Use mini-open windows rather than driving pins through crushed skin. Bridging frames take anterior femoral and tibial shaft pins; nonbridging frames use tibial pins only.",
+            "source_ids": [
+              "ao_ffd3c4fb6bfca618"
+            ]
+          }
+        ],
+        "superficial_interval": [
+          {
+            "text": "On the femur use the anterolateral or direct-lateral envelope. On the tibia distal to the tubercle use the crest or medial face, where soft-tissue cover is thinnest.",
+            "source_ids": [
+              "ao_ffd3c4fb6bfca618",
+              "ao_a21adb25f7703ca1"
+            ]
+          }
+        ],
+        "deep_interval": [
+          {
+            "text": "Engage the far cortex but do not over-protrude. Do not run self-drilling self-tapping Schanz pins beyond the second cortex. Keep pins outside the fracture hematoma and away from the prosthesis.",
+            "source_ids": [
+              "ao_ffd3c4fb6bfca618",
+              "ao_a21adb25f7703ca1"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "layers": [
+          {
+            "text": "Skin, thin or muscular envelope depending on site, periosteum, then bicortical bone, extra-articular to the knee.",
+            "source_ids": [
+              "ao_ffd3c4fb6bfca618",
+              "ao_a21adb25f7703ca1"
+            ]
+          }
+        ],
+        "structures_at_risk": [
+          {
+            "text": "The common peroneal nerve at the fibular neck, the deep peroneal nerve and anterior tibial vessels along the posterolateral tibia, the popliteal artery in the fossa, and the prosthesis (via pin-track inoculation of the canal) are at risk.",
+            "source_ids": [
+              "ao_ffd3c4fb6bfca618",
+              "ao_a21adb25f7703ca1"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "danger_zones": [
+          {
+            "text": "Pins within 2 cm of the tibial plateau enter the capsule unless placed very anterior. Femoral pins within 8\u201310 cm of the superior patellar pole enter the suprapatellar pouch. A pin aimed from midway between the tibial crest and medial edge can hit the anterior tibial bundle.",
+            "source_ids": [
+              "ao_ffd3c4fb6bfca618"
+            ],
+            "risk_level": "medium"
+          }
+        ],
+        "retraction_hazards": [
+          {
+            "text": "A TKA narrows the safe zone. Keep every pin as far from the implant as the construct allows.",
+            "source_ids": [
+              "ao_ffd3c4fb6bfca618"
+            ],
+            "risk_level": "medium"
+          }
+        ],
+        "exposure": [
+          {
+            "text": "Provides only pin corridors, not an open fracture exposure.",
+            "source_ids": [
+              "ao_ffd3c4fb6bfca618"
+            ]
+          }
+        ],
+        "limitations": [
+          {
+            "text": "The arthroplasty itself significantly limits safe pin sites. Fine wires are preferred if fixation must be closer to the joint.",
+            "source_ids": [
+              "ao_ffd3c4fb6bfca618"
+            ]
+          }
+        ],
+        "indications": [
+          {
+            "text": "Used for bridging or nonbridging external fixation of a periprosthetic knee fracture when the soft-tissue envelope allows.",
+            "source_ids": [
+              "ao_ffd3c4fb6bfca618"
+            ]
+          }
+        ],
+        "closure": [
+          {
+            "text": "Leave pin sites dressed after confirming the far cortex is engaged without over-penetration.",
+            "source_ids": [
+              "ao_ffd3c4fb6bfca618"
+            ]
+          }
+        ],
+        "complications": [
+          {
+            "text": "Complications include pin-track infection that can seed the prosthesis, common-peroneal or popliteal injury, intra-articular pins, and thermal necrosis with loosening if self-drilling tips are driven too far.",
+            "source_ids": [
+              "ao_ffd3c4fb6bfca618",
+              "ao_a21adb25f7703ca1"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "questions": [
+          {
+            "question": "How far from the superior patellar pole should femoral pins stay?",
+            "answer": "More than 8\u201310 cm, to remain extra-articular to the suprapatellar pouch.",
+            "source_ids": [
+              "ao_ffd3c4fb6bfca618"
+            ]
+          },
+          {
+            "question": "How far below the tibial plateau should pins stay?",
+            "answer": "At least 2 cm, or as anterior as possible if a more proximal pin is mandatory.",
+            "source_ids": [
+              "ao_ffd3c4fb6bfca618"
+            ]
+          },
+          {
+            "question": "Where are bridging-frame pins placed?",
+            "answer": "Anteriorly in the femoral and tibial shafts.",
+            "source_ids": [
+              "ao_ffd3c4fb6bfca618"
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

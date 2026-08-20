@@ -1,0 +1,347 @@
+{
+  "schema_version": "brobot_approach_packet_v1",
+  "approach_id": "hip_periprosthetic_iliofemoral_smith_petersen",
+  "name": "Iliofemoral (Smith-Petersen) approach to the hip (periprosthetic)",
+  "aliases": [
+    "Smith-Petersen approach",
+    "anterior iliofemoral approach"
+  ],
+  "region": "hip",
+  "joint": "hip",
+  "bones": [
+    "ilium",
+    "acetabulum",
+    "proximal femur"
+  ],
+  "corridor": "Anterior iliofemoral exposure developing the interval between tensor fasciae latae and sartorius superficially and releasing rectus femoris to reach the anterior hip and ilium",
+  "positioning": [
+    {
+      "text": "Position supine with the limb free for rotation and traction and a bump under the ipsilateral pelvis.",
+      "claim_ids": [
+        "hip_periprosthetic_iliofemoral_smith_petersen_positioning_01"
+      ]
+    }
+  ],
+  "setup": [],
+  "surface_landmarks": [
+    {
+      "text": "Mark the lateral iliac crest and the anterior superior iliac spine.",
+      "claim_ids": [
+        "hip_periprosthetic_iliofemoral_smith_petersen_surface_landmarks_01"
+      ]
+    }
+  ],
+  "incision": [
+    {
+      "text": "Begin the incision over the lateral iliac crest, follow it to the ASIS, then turn distally along the lateral border of the sartorius toward the patella.",
+      "claim_ids": [
+        "hip_periprosthetic_iliofemoral_smith_petersen_incision_01"
+      ]
+    }
+  ],
+  "superficial_interval": [
+    {
+      "text": "Develop the interval between the tensor fasciae latae and the sartorius, protecting the lateral femoral cutaneous nerve near the ASIS.",
+      "claim_ids": [
+        "hip_periprosthetic_iliofemoral_smith_petersen_superficial_interval_01"
+      ]
+    }
+  ],
+  "deep_interval": [
+    {
+      "text": "Identify, divide, and ligate the lateral femoral circumflex vessels distally, and release the direct head of rectus femoris from the anterior inferior iliac spine, taking the reflected head for more proximal exposure.",
+      "claim_ids": [
+        "hip_periprosthetic_iliofemoral_smith_petersen_deep_interval_01"
+      ]
+    }
+  ],
+  "layers": [
+    {
+      "text": "Skin, subcutaneous tissue with the lateral femoral cutaneous nerve, the tensor fasciae latae and sartorius interval, rectus femoris, the lateral femoral circumflex vessels, and the anterior hip capsule and ilium.",
+      "claim_ids": [
+        "hip_periprosthetic_iliofemoral_smith_petersen_layers_01"
+      ]
+    }
+  ],
+  "structures_encountered": [],
+  "structures_at_risk": [
+    {
+      "text": "The lateral femoral cutaneous nerve near the ASIS and the lateral femoral circumflex vessels are at risk.",
+      "claim_ids": [
+        "hip_periprosthetic_iliofemoral_smith_petersen_structures_at_risk_01"
+      ]
+    }
+  ],
+  "danger_zones": [
+    {
+      "text": "The region just medial and distal to the ASIS is the danger zone for the lateral femoral cutaneous nerve.",
+      "claim_ids": [
+        "hip_periprosthetic_iliofemoral_smith_petersen_danger_zones_01"
+      ]
+    }
+  ],
+  "retraction_hazards": [
+    {
+      "text": "Avoid vigorous medial retraction near the sartorius that stretches the lateral femoral cutaneous nerve.",
+      "claim_ids": [
+        "hip_periprosthetic_iliofemoral_smith_petersen_retraction_hazards_01"
+      ]
+    }
+  ],
+  "exposure": [
+    {
+      "text": "Provides the most direct access to the anterior hip and the outer and inner tables of the ilium.",
+      "claim_ids": [
+        "hip_periprosthetic_iliofemoral_smith_petersen_exposure_01"
+      ]
+    }
+  ],
+  "limitations": [
+    {
+      "text": "It gives poor access to the posterior column and is not commonly used for periprosthetic acetabular fractures.",
+      "claim_ids": [
+        "hip_periprosthetic_iliofemoral_smith_petersen_limitations_01"
+      ]
+    }
+  ],
+  "extensions": [],
+  "indications": [
+    {
+      "text": "Indicated when direct anterior access to the hip and ilium is required, and it can be extended along the iliac crest.",
+      "claim_ids": [
+        "hip_periprosthetic_iliofemoral_smith_petersen_indications_01"
+      ]
+    }
+  ],
+  "relative_contraindications": [],
+  "implant_implications": [],
+  "fluoroscopy_implications": [],
+  "closure": [
+    {
+      "text": "Repair the capsule, reattach the rectus femoris if released, repair the abductor origin, and close in layers over a subfascial drain.",
+      "claim_ids": [
+        "hip_periprosthetic_iliofemoral_smith_petersen_closure_01"
+      ]
+    }
+  ],
+  "complications": [
+    {
+      "text": "Complications include lateral femoral cutaneous nerve injury, hematoma from the circumflex vessels, and heterotopic ossification.",
+      "claim_ids": [
+        "hip_periprosthetic_iliofemoral_smith_petersen_complications_01"
+      ]
+    }
+  ],
+  "bailouts": [],
+  "procedure_applications": [
+    {
+      "procedure_id": "periprosthetic_hip_fracture_orif",
+      "relationship": "conditional_option",
+      "condition": "Direct anterior access to the hip and ilium is needed, though it is uncommon for periprosthetic acetabular fractures"
+    }
+  ],
+  "questions": [
+    {
+      "question": "Along which muscle border does the Smith-Petersen incision turn distally?",
+      "answer": "Along the lateral border of the sartorius.",
+      "claim_ids": [
+        "hip_periprosthetic_iliofemoral_smith_petersen_questions_01"
+      ]
+    },
+    {
+      "question": "Which vessels are ligated in the deep dissection?",
+      "answer": "The lateral femoral circumflex vessels.",
+      "claim_ids": [
+        "hip_periprosthetic_iliofemoral_smith_petersen_questions_02"
+      ]
+    },
+    {
+      "question": "Which nerve is most at risk near the ASIS?",
+      "answer": "The lateral femoral cutaneous nerve.",
+      "claim_ids": [
+        "hip_periprosthetic_iliofemoral_smith_petersen_questions_03"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "hip_periprosthetic_iliofemoral_smith_petersen_positioning_01",
+      "text": "Position supine with the limb free for rotation and traction and a bump under the ipsilateral pelvis.",
+      "source_ids": [
+        "ao_7581d0bcaf9364a6"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "hip_periprosthetic_iliofemoral_smith_petersen_surface_landmarks_01",
+      "text": "Mark the lateral iliac crest and the anterior superior iliac spine.",
+      "source_ids": [
+        "ao_7581d0bcaf9364a6"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "hip_periprosthetic_iliofemoral_smith_petersen_incision_01",
+      "text": "Begin the incision over the lateral iliac crest, follow it to the ASIS, then turn distally along the lateral border of the sartorius toward the patella.",
+      "source_ids": [
+        "ao_7581d0bcaf9364a6"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "hip_periprosthetic_iliofemoral_smith_petersen_superficial_interval_01",
+      "text": "Develop the interval between the tensor fasciae latae and the sartorius, protecting the lateral femoral cutaneous nerve near the ASIS.",
+      "source_ids": [
+        "ao_7581d0bcaf9364a6",
+        "ao_08d40c5bb7ca560c"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "hip_periprosthetic_iliofemoral_smith_petersen_deep_interval_01",
+      "text": "Identify, divide, and ligate the lateral femoral circumflex vessels distally, and release the direct head of rectus femoris from the anterior inferior iliac spine, taking the reflected head for more proximal exposure.",
+      "source_ids": [
+        "ao_7581d0bcaf9364a6",
+        "ao_08d40c5bb7ca560c"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "hip_periprosthetic_iliofemoral_smith_petersen_layers_01",
+      "text": "Skin, subcutaneous tissue with the lateral femoral cutaneous nerve, the tensor fasciae latae and sartorius interval, rectus femoris, the lateral femoral circumflex vessels, and the anterior hip capsule and ilium.",
+      "source_ids": [
+        "ao_7581d0bcaf9364a6",
+        "ao_08d40c5bb7ca560c"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "hip_periprosthetic_iliofemoral_smith_petersen_structures_at_risk_01",
+      "text": "The lateral femoral cutaneous nerve near the ASIS and the lateral femoral circumflex vessels are at risk.",
+      "source_ids": [
+        "ao_7581d0bcaf9364a6",
+        "ao_08d40c5bb7ca560c"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "hip_periprosthetic_iliofemoral_smith_petersen_danger_zones_01",
+      "text": "The region just medial and distal to the ASIS is the danger zone for the lateral femoral cutaneous nerve.",
+      "source_ids": [
+        "ao_7581d0bcaf9364a6",
+        "ao_08d40c5bb7ca560c"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "hip_periprosthetic_iliofemoral_smith_petersen_retraction_hazards_01",
+      "text": "Avoid vigorous medial retraction near the sartorius that stretches the lateral femoral cutaneous nerve.",
+      "source_ids": [
+        "ao_7581d0bcaf9364a6",
+        "ao_08d40c5bb7ca560c"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "hip_periprosthetic_iliofemoral_smith_petersen_exposure_01",
+      "text": "Provides the most direct access to the anterior hip and the outer and inner tables of the ilium.",
+      "source_ids": [
+        "ao_7581d0bcaf9364a6"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "hip_periprosthetic_iliofemoral_smith_petersen_limitations_01",
+      "text": "It gives poor access to the posterior column and is not commonly used for periprosthetic acetabular fractures.",
+      "source_ids": [
+        "ao_7581d0bcaf9364a6"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "hip_periprosthetic_iliofemoral_smith_petersen_indications_01",
+      "text": "Indicated when direct anterior access to the hip and ilium is required, and it can be extended along the iliac crest.",
+      "source_ids": [
+        "ao_7581d0bcaf9364a6"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "hip_periprosthetic_iliofemoral_smith_petersen_closure_01",
+      "text": "Repair the capsule, reattach the rectus femoris if released, repair the abductor origin, and close in layers over a subfascial drain.",
+      "source_ids": [
+        "ao_7581d0bcaf9364a6"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "hip_periprosthetic_iliofemoral_smith_petersen_complications_01",
+      "text": "Complications include lateral femoral cutaneous nerve injury, hematoma from the circumflex vessels, and heterotopic ossification.",
+      "source_ids": [
+        "ao_7581d0bcaf9364a6",
+        "ao_08d40c5bb7ca560c"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "hip_periprosthetic_iliofemoral_smith_petersen_questions_01",
+      "text": "Along which muscle border does the Smith-Petersen incision turn distally?",
+      "source_ids": [
+        "ao_7581d0bcaf9364a6"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "hip_periprosthetic_iliofemoral_smith_petersen_questions_02",
+      "text": "Which vessels are ligated in the deep dissection?",
+      "source_ids": [
+        "ao_7581d0bcaf9364a6"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "hip_periprosthetic_iliofemoral_smith_petersen_questions_03",
+      "text": "Which nerve is most at risk near the ASIS?",
+      "source_ids": [
+        "ao_7581d0bcaf9364a6",
+        "ao_08d40c5bb7ca560c"
+      ],
+      "risk_level": "medium"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "ao_7581d0bcaf9364a6",
+      "provider": "AO Surgery Reference",
+      "title": "Iliofemoral approach (Smith-Petersen), periprosthetic hip",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/periprosthetic-fractures/hip/approach/iliofemoral-approach-smith-petersen",
+      "source_page_id": "ao_7581d0bcaf9364a6"
+    },
+    {
+      "source_id": "ao_08d40c5bb7ca560c",
+      "provider": "AO Surgery Reference",
+      "title": "Direct anterior approach (periprosthetic hip)",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/periprosthetic-fractures/hip/approach/direct-anterior-approach",
+      "source_page_id": "ao_08d40c5bb7ca560c"
+    }
+  ],
+  "content_status": "agent_review_pending",
+  "review": {
+    "status": "agent_review_pending",
+    "required_roles": [
+      "adversarial_safety_reviewer",
+      "approach_anatomy_reviewer",
+      "educational_value_reviewer",
+      "evidence_reviewer",
+      "operative_exposure_reviewer",
+      "procedure_applicability_reviewer"
+    ],
+    "completed_roles": []
+  },
+  "resolved_contradiction_keys": [],
+  "authoring_provenance": {
+    "method": "local_codex_curated",
+    "definition_file": "data/approach_library/curated/hip_periprosthetic_batch002b_v1.json",
+    "api_used": false
+  }
+}

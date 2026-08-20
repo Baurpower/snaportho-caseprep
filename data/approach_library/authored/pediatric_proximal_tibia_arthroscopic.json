@@ -1,0 +1,353 @@
+{
+  "schema_version": "brobot_approach_packet_v1",
+  "approach_id": "pediatric_proximal_tibia_arthroscopic",
+  "name": "Pediatric arthroscopic approach to the proximal tibia",
+  "aliases": [
+    "pediatric knee arthroscopy for epiphyseal fracture"
+  ],
+  "region": "proximal-tibia",
+  "joint": "knee",
+  "bones": [
+    "proximal tibia"
+  ],
+  "corridor": "Standard anterolateral viewing and anteromedial working portals beside the patellar tendon, with restrained irrigation because extravasation can cause compartment syndrome",
+  "positioning": [
+    {
+      "text": "Position so the medial and lateral soft spots beside the patellar tendon can be used and the knee fully examined.",
+      "claim_ids": [
+        "pediatric_proximal_tibia_arthroscopic_positioning_01"
+      ]
+    }
+  ],
+  "setup": [],
+  "surface_landmarks": [
+    {
+      "text": "Mark the patellar tendon and the medial and lateral soft spots adjacent to it.",
+      "claim_ids": [
+        "pediatric_proximal_tibia_arthroscopic_surface_landmarks_01"
+      ]
+    }
+  ],
+  "incision": [
+    {
+      "text": "Make a 5 mm stab at the lateral soft spot for the camera and a 5 mm medial stab for a hook.",
+      "claim_ids": [
+        "pediatric_proximal_tibia_arthroscopic_incision_01"
+      ]
+    }
+  ],
+  "superficial_interval": [
+    {
+      "text": "Insert the trocar and sleeve carefully to avoid articular cartilage, then exchange for the arthroscope.",
+      "claim_ids": [
+        "pediatric_proximal_tibia_arthroscopic_superficial_interval_01"
+      ]
+    }
+  ],
+  "deep_interval": [
+    {
+      "text": "Irrigate until the joint is clear. Continuous pump irrigation may help, but extravasation through a ruptured capsule can cause compartment syndrome. Examine the whole joint for meniscal, ligament, and osteochondral injury.",
+      "claim_ids": [
+        "pediatric_proximal_tibia_arthroscopic_deep_interval_01"
+      ]
+    }
+  ],
+  "layers": [
+    {
+      "text": "Skin, portal tracks beside the patellar tendon, capsule, then the joint and epiphyseal fracture.",
+      "claim_ids": [
+        "pediatric_proximal_tibia_arthroscopic_layers_01"
+      ]
+    }
+  ],
+  "structures_encountered": [],
+  "structures_at_risk": [
+    {
+      "text": "Articular cartilage at portal entry and the compartments of the leg if irrigation extravasates are at risk.",
+      "claim_ids": [
+        "pediatric_proximal_tibia_arthroscopic_structures_at_risk_01"
+      ]
+    }
+  ],
+  "danger_zones": [
+    {
+      "text": "A ruptured capsule plus high-pressure irrigation is the compartment-syndrome danger zone.",
+      "claim_ids": [
+        "pediatric_proximal_tibia_arthroscopic_danger_zones_01"
+      ]
+    }
+  ],
+  "retraction_hazards": [
+    {
+      "text": "Do not force the trocar against cartilage.",
+      "claim_ids": [
+        "pediatric_proximal_tibia_arthroscopic_retraction_hazards_01"
+      ]
+    }
+  ],
+  "exposure": [
+    {
+      "text": "Allows visualization and manipulation of a minimally or nondisplaced epiphyseal fracture and a full intra-articular survey.",
+      "claim_ids": [
+        "pediatric_proximal_tibia_arthroscopic_exposure_01"
+      ]
+    }
+  ],
+  "limitations": [
+    {
+      "text": "Only for minimally or nondisplaced patterns, or to check reduction quality. Advanced arthroscopic experience is required.",
+      "claim_ids": [
+        "pediatric_proximal_tibia_arthroscopic_limitations_01"
+      ]
+    }
+  ],
+  "extensions": [],
+  "indications": [
+    {
+      "text": "Used for selected pediatric epiphyseal fractures that can be seen and handled through standard AM/AL portals.",
+      "claim_ids": [
+        "pediatric_proximal_tibia_arthroscopic_indications_01"
+      ]
+    }
+  ],
+  "relative_contraindications": [],
+  "implant_implications": [],
+  "fluoroscopy_implications": [],
+  "closure": [
+    {
+      "text": "Close the portal skin.",
+      "claim_ids": [
+        "pediatric_proximal_tibia_arthroscopic_closure_01"
+      ]
+    }
+  ],
+  "complications": [
+    {
+      "text": "Complications include cartilage scuffing and compartment syndrome from fluid extravasation.",
+      "claim_ids": [
+        "pediatric_proximal_tibia_arthroscopic_complications_01"
+      ]
+    }
+  ],
+  "bailouts": [],
+  "procedure_applications": [
+    {
+      "procedure_id": "pediatric_proximal_tibia_fracture_orif",
+      "relationship": "conditional_option",
+      "condition": "A minimally or nondisplaced epiphyseal fracture is visualized or reduced arthroscopically by an experienced surgeon"
+    }
+  ],
+  "questions": [
+    {
+      "question": "Which portals are used?",
+      "answer": "Anterolateral viewing and anteromedial working portals beside the patellar tendon.",
+      "claim_ids": [
+        "pediatric_proximal_tibia_arthroscopic_questions_01"
+      ]
+    },
+    {
+      "question": "What extra pediatric irrigation risk is emphasized?",
+      "answer": "Fluid extravasation that may lead to compartment syndrome, especially if the capsule is ruptured.",
+      "claim_ids": [
+        "pediatric_proximal_tibia_arthroscopic_questions_02"
+      ]
+    },
+    {
+      "question": "When is arthroscopy recommended?",
+      "answer": "Only for minimally or nondisplaced fractures, or to evaluate reduction, by an experienced arthroscopist.",
+      "claim_ids": [
+        "pediatric_proximal_tibia_arthroscopic_questions_03"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "pediatric_proximal_tibia_arthroscopic_positioning_01",
+      "text": "Position so the medial and lateral soft spots beside the patellar tendon can be used and the knee fully examined.",
+      "source_ids": [
+        "ao_27f1fff3842239f1",
+        "ao_c767c51b9f14b8d9"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "pediatric_proximal_tibia_arthroscopic_surface_landmarks_01",
+      "text": "Mark the patellar tendon and the medial and lateral soft spots adjacent to it.",
+      "source_ids": [
+        "ao_27f1fff3842239f1",
+        "ao_c767c51b9f14b8d9"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "pediatric_proximal_tibia_arthroscopic_incision_01",
+      "text": "Make a 5 mm stab at the lateral soft spot for the camera and a 5 mm medial stab for a hook.",
+      "source_ids": [
+        "ao_27f1fff3842239f1",
+        "ao_c767c51b9f14b8d9"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "pediatric_proximal_tibia_arthroscopic_superficial_interval_01",
+      "text": "Insert the trocar and sleeve carefully to avoid articular cartilage, then exchange for the arthroscope.",
+      "source_ids": [
+        "ao_27f1fff3842239f1",
+        "ao_c767c51b9f14b8d9"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "pediatric_proximal_tibia_arthroscopic_deep_interval_01",
+      "text": "Irrigate until the joint is clear. Continuous pump irrigation may help, but extravasation through a ruptured capsule can cause compartment syndrome. Examine the whole joint for meniscal, ligament, and osteochondral injury.",
+      "source_ids": [
+        "ao_27f1fff3842239f1",
+        "ao_c767c51b9f14b8d9"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "pediatric_proximal_tibia_arthroscopic_layers_01",
+      "text": "Skin, portal tracks beside the patellar tendon, capsule, then the joint and epiphyseal fracture.",
+      "source_ids": [
+        "ao_27f1fff3842239f1"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "pediatric_proximal_tibia_arthroscopic_structures_at_risk_01",
+      "text": "Articular cartilage at portal entry and the compartments of the leg if irrigation extravasates are at risk.",
+      "source_ids": [
+        "ao_27f1fff3842239f1",
+        "ao_c767c51b9f14b8d9"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "pediatric_proximal_tibia_arthroscopic_danger_zones_01",
+      "text": "A ruptured capsule plus high-pressure irrigation is the compartment-syndrome danger zone.",
+      "source_ids": [
+        "ao_27f1fff3842239f1"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "pediatric_proximal_tibia_arthroscopic_retraction_hazards_01",
+      "text": "Do not force the trocar against cartilage.",
+      "source_ids": [
+        "ao_27f1fff3842239f1",
+        "ao_c767c51b9f14b8d9"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "pediatric_proximal_tibia_arthroscopic_exposure_01",
+      "text": "Allows visualization and manipulation of a minimally or nondisplaced epiphyseal fracture and a full intra-articular survey.",
+      "source_ids": [
+        "ao_27f1fff3842239f1"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "pediatric_proximal_tibia_arthroscopic_limitations_01",
+      "text": "Only for minimally or nondisplaced patterns, or to check reduction quality. Advanced arthroscopic experience is required.",
+      "source_ids": [
+        "ao_27f1fff3842239f1",
+        "ao_c767c51b9f14b8d9"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "pediatric_proximal_tibia_arthroscopic_indications_01",
+      "text": "Used for selected pediatric epiphyseal fractures that can be seen and handled through standard AM/AL portals.",
+      "source_ids": [
+        "ao_27f1fff3842239f1"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "pediatric_proximal_tibia_arthroscopic_closure_01",
+      "text": "Close the portal skin.",
+      "source_ids": [
+        "ao_27f1fff3842239f1"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "pediatric_proximal_tibia_arthroscopic_complications_01",
+      "text": "Complications include cartilage scuffing and compartment syndrome from fluid extravasation.",
+      "source_ids": [
+        "ao_27f1fff3842239f1",
+        "ao_c767c51b9f14b8d9"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "pediatric_proximal_tibia_arthroscopic_questions_01",
+      "text": "Which portals are used?",
+      "source_ids": [
+        "ao_27f1fff3842239f1",
+        "ao_c767c51b9f14b8d9"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "pediatric_proximal_tibia_arthroscopic_questions_02",
+      "text": "What extra pediatric irrigation risk is emphasized?",
+      "source_ids": [
+        "ao_27f1fff3842239f1"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "pediatric_proximal_tibia_arthroscopic_questions_03",
+      "text": "When is arthroscopy recommended?",
+      "source_ids": [
+        "ao_27f1fff3842239f1"
+      ],
+      "risk_level": "medium"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "ao_27f1fff3842239f1",
+      "provider": "AO Surgery Reference",
+      "title": "Arthroscopic Approach",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/pediatric-trauma/proximal-tibia/approach/arthroscopic-approach",
+      "source_page_id": "ao_27f1fff3842239f1"
+    },
+    {
+      "source_id": "ao_c767c51b9f14b8d9",
+      "provider": "AO Surgery Reference",
+      "title": "Arthroscopic Approach To Knee",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/proximal-tibia/approach/arthroscopic-approach-to-knee",
+      "source_page_id": "ao_c767c51b9f14b8d9"
+    },
+    {
+      "source_id": "ao_83f3eb9cef6d29fc",
+      "provider": "AO Surgery Reference",
+      "title": "Arthroscopic approach to the knee",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/distal-femur/approach/arthroscopic-approach-to-the-knee",
+      "source_page_id": "ao_83f3eb9cef6d29fc"
+    }
+  ],
+  "content_status": "agent_review_pending",
+  "review": {
+    "status": "agent_review_pending",
+    "required_roles": [
+      "adversarial_safety_reviewer",
+      "approach_anatomy_reviewer",
+      "educational_value_reviewer",
+      "evidence_reviewer",
+      "operative_exposure_reviewer",
+      "procedure_applicability_reviewer"
+    ],
+    "completed_roles": []
+  },
+  "resolved_contradiction_keys": [],
+  "authoring_provenance": {
+    "method": "local_codex_curated",
+    "definition_file": "data/approach_library/curated/pediatric_tibia_scapula_batch001_v1.json",
+    "api_used": false
+  }
+}

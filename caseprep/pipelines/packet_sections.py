@@ -11,34 +11,14 @@ from __future__ import annotations
 import time
 from typing import Any, Dict, List, Optional
 
-from caseprep.pipelines.shared import clean, item, parse_qa, pipeline_result, source_ids
-
-_DECISION_KEYWORDS = (
-    "indication",
-    "contraindication",
-    "nonoperative",
-    "non-operative",
-    "when do",
-    "when should",
-    "who should",
-    "convert",
-    "bailout",
-    "alternative",
+from caseprep.pipelines.shared import (
+    clean,
+    item,
+    norm_key,
+    parse_qa,
+    pipeline_result,
+    source_ids,
 )
-_POSTOP_KEYWORDS = (
-    "postop",
-    "post-op",
-    "postoperative",
-    "weight bearing",
-    "weight-bearing",
-    "immobil",
-    "splint",
-    "rehab",
-    "therapy",
-    "follow-up",
-    "return to",
-)
-
 
 def _payload_source(payload: Dict[str, Any]) -> str:
     status = clean(payload.get("case_prep_status")).lower()
@@ -50,31 +30,6 @@ def _mark(items: List[Dict[str, Any]], payload: Dict[str, Any]) -> List[Dict[str
     for entry in items:
         entry["source"] = source
     return items
-
-
-def _keyword_questions(
-    payload: Dict[str, Any], keywords: tuple[str, ...], category: str, limit: int
-) -> List[Dict[str, Any]]:
-    refs = source_ids(payload)
-    output: List[Dict[str, Any]] = []
-    for raw in payload.get("attending_pimp_questions") or []:
-        question, answer = parse_qa(raw)
-        blob = f"{question} {answer}".lower()
-        if not question or not any(word in blob for word in keywords):
-            continue
-        result = item(
-            prefix=category,
-            question=question,
-            answer=answer,
-            category=category,
-            sources=refs,
-            confidence=0.9,
-        )
-        if result:
-            output.append(result)
-        if len(output) >= limit:
-            break
-    return output
 
 
 def important_anatomy_pipeline(payload: Optional[Dict[str, Any]]) -> Dict[str, Any]:
@@ -95,6 +50,7 @@ def important_anatomy_pipeline(payload: Optional[Dict[str, Any]]) -> Dict[str, A
             category="must_know_anatomy",
             sources=refs,
             confidence=0.95,
+            dedup_key=f"anatomy:{norm_key(fact)}",
         )
         if result:
             items.append(result)
@@ -110,6 +66,7 @@ def important_anatomy_pipeline(payload: Optional[Dict[str, Any]]) -> Dict[str, A
             category="structure_at_risk",
             sources=structure.get("source_refs") or refs,
             confidence=0.95,
+            dedup_key=f"structure:{norm_key(name)}",
         )
         if result:
             items.append(result)
@@ -121,6 +78,7 @@ def important_anatomy_pipeline(payload: Optional[Dict[str, Any]]) -> Dict[str, A
             category="danger_zone",
             sources=refs,
             confidence=0.95,
+            dedup_key=f"danger:{norm_key(zone)}",
         )
         if result:
             items.append(result)
@@ -168,27 +126,23 @@ def attending_questions_pipeline(payload: Optional[Dict[str, Any]]) -> Dict[str,
 def decision_points_pipeline(payload: Optional[Dict[str, Any]]) -> Dict[str, Any]:
     """Pipeline H — operate / who-not / convert / stop / alternatives.
 
-    Curated payloads only seed this via indication-flavored attending questions;
-    the enrichment layer completes it (marked generated).
+    The curated seed was a keyword-filtered slice of ``attending_pimp_questions``
+    — every item was a verbatim copy of a card already shown in ``pimp_questions``.
+    That slice is dropped; the section now carries only enrichment-generated
+    decision points (marked generated).
     """
     started = time.monotonic()
-    if not payload:
-        return pipeline_result("decision_points", started, [], status="unavailable")
-    items = _keyword_questions(payload, _DECISION_KEYWORDS, "decision_point", 6)
-    return pipeline_result(
-        "decision_points", started, _mark(items, payload), sources=source_ids(payload)
-    )
+    return pipeline_result("decision_points", started, [], status="unavailable")
 
 
 def postop_pipeline(payload: Optional[Dict[str, Any]]) -> Dict[str, Any]:
-    """Pipeline I — postoperative protocol seeded from curated Q/A."""
+    """Pipeline I — postoperative protocol.
+
+    Formerly a keyword slice of ``attending_pimp_questions`` (duplicated
+    ``pimp_questions``); dropped in favor of enrichment-generated postop content.
+    """
     started = time.monotonic()
-    if not payload:
-        return pipeline_result("postop", started, [], status="unavailable")
-    items = _keyword_questions(payload, _POSTOP_KEYWORDS, "postop", 6)
-    return pipeline_result(
-        "postop", started, _mark(items, payload), sources=source_ids(payload)
-    )
+    return pipeline_result("postop", started, [], status="unavailable")
 
 
 def evidence_pipeline(payload: Optional[Dict[str, Any]]) -> Dict[str, Any]:
@@ -279,6 +233,7 @@ def operative_flow_pipeline(payload: Optional[Dict[str, Any]]) -> Dict[str, Any]
             category="checkpoint",
             sources=refs,
             confidence=0.9,
+            dedup_key=f"fluoro:{norm_key(checkpoint)}",
         )
         if result:
             items.append(result)
@@ -343,6 +298,7 @@ def key_takeaways_block(payload: Optional[Dict[str, Any]]) -> Dict[str, Any]:
                 category="key_takeaway",
                 sources=structure.get("source_refs") or refs,
                 confidence=0.95,
+                dedup_key=f"structure:{norm_key(name)}",
             )
             if result:
                 items.append(result)
@@ -354,6 +310,7 @@ def key_takeaways_block(payload: Optional[Dict[str, Any]]) -> Dict[str, Any]:
             category="key_takeaway",
             sources=refs,
             confidence=0.9,
+            dedup_key=f"mistake:{norm_key(mistake)}",
         )
         if result:
             items.append(result)
@@ -365,6 +322,7 @@ def key_takeaways_block(payload: Optional[Dict[str, Any]]) -> Dict[str, Any]:
             category="key_takeaway",
             sources=refs,
             confidence=0.95,
+            dedup_key=f"danger:{norm_key(zone)}",
         )
         if result:
             items.append(result)
@@ -381,7 +339,13 @@ def top_things_to_know_block(payload: Optional[Dict[str, Any]]) -> Dict[str, Any
     refs = source_ids(payload)
     items: List[Dict[str, Any]] = []
 
-    def _add(question: str, answer: Any, category: str, confidence: float) -> None:
+    def _add(
+        question: str,
+        answer: Any,
+        category: str,
+        confidence: float,
+        dedup_key: Optional[str] = None,
+    ) -> None:
         if len(items) >= 10:
             return
         result = item(
@@ -391,24 +355,37 @@ def top_things_to_know_block(payload: Optional[Dict[str, Any]]) -> Dict[str, Any
             category=category,
             sources=refs,
             confidence=confidence,
+            dedup_key=dedup_key,
         )
         if result:
             items.append(result)
 
     for fact in (payload.get("must_know_anatomy") or [])[:3]:
-        _add("Must-know anatomy", fact, "anatomy", 0.95)
+        _add("Must-know anatomy", fact, "anatomy", 0.95, dedup_key=f"anatomy:{norm_key(fact)}")
     for structure in (payload.get("structures_at_risk") or [])[:3]:
         if isinstance(structure, dict):
             name = clean(structure.get("structure") or structure.get("name"))
-            _add(name or "Structure at risk", structure.get("why_at_risk"), "risk", 0.95)
+            _add(
+                name or "Structure at risk",
+                structure.get("why_at_risk"),
+                "risk",
+                0.95,
+                dedup_key=f"structure:{norm_key(name)}" if name else None,
+            )
     for raw in (payload.get("attending_pimp_questions") or [])[:3]:
         question, answer = parse_qa(raw)
         if question:
-            _add(question, answer, "pimp", 0.9)
+            _add(question, answer, "pimp", 0.9, dedup_key=f"pimpq:{norm_key(question)}")
     for mistake in (payload.get("common_mistakes") or [])[:2]:
-        _add("Common mistake", mistake, "pitfall", 0.9)
+        _add("Common mistake", mistake, "pitfall", 0.9, dedup_key=f"mistake:{norm_key(mistake)}")
     for checkpoint in (payload.get("fluoroscopy_checkpoints") or [])[:1]:
-        _add("Fluoroscopy checkpoint", checkpoint, "checkpoint", 0.9)
+        _add(
+            "Fluoroscopy checkpoint",
+            checkpoint,
+            "checkpoint",
+            0.9,
+            dedup_key=f"fluoro:{norm_key(checkpoint)}",
+        )
     return pipeline_result(
         "top_things_to_know", started, _mark(items[:10], payload), sources=refs
     )

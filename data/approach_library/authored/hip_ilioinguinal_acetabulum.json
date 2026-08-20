@@ -1,0 +1,348 @@
+{
+  "schema_version": "brobot_approach_packet_v1",
+  "approach_id": "hip_ilioinguinal_acetabulum",
+  "name": "Ilioinguinal approach to the acetabulum (periprosthetic)",
+  "aliases": [
+    "ilioinguinal approach"
+  ],
+  "region": "hip",
+  "joint": "hip",
+  "bones": [
+    "acetabulum",
+    "pelvis"
+  ],
+  "corridor": "Anterior approach along the iliac crest to the symphysis with three windows exposing the internal iliac fossa, the pelvic brim and quadrilateral surface, and the retropubic space",
+  "positioning": [
+    {
+      "text": "Position supine, using hip flexion to relax the iliopsoas during exposure.",
+      "claim_ids": [
+        "hip_ilioinguinal_acetabulum_positioning_01"
+      ]
+    }
+  ],
+  "setup": [],
+  "surface_landmarks": [
+    {
+      "text": "Mark the iliac crest, the anterior superior iliac spine, and the pubic symphysis.",
+      "claim_ids": [
+        "hip_ilioinguinal_acetabulum_surface_landmarks_01"
+      ]
+    }
+  ],
+  "incision": [
+    {
+      "text": "Make a curved incision beginning posterior to the gluteus medius pillar and extend it past the midline to 2 cm proximal to the symphysis.",
+      "claim_ids": [
+        "hip_ilioinguinal_acetabulum_incision_01"
+      ]
+    }
+  ],
+  "superficial_interval": [
+    {
+      "text": "Develop the first window in the internal iliac fossa, the second window along the pelvic brim and quadrilateral surface between the iliopsoas/femoral nerve and the external iliac vessels, and the third medial window after protecting the bladder.",
+      "claim_ids": [
+        "hip_ilioinguinal_acetabulum_superficial_interval_01"
+      ]
+    }
+  ],
+  "deep_interval": [
+    {
+      "text": "Retract the external iliac vessels gently, keep the femoral nerve on the anteromedial iliopsoas, mobilize the spermatic cord or round ligament medially, and identify and control the corona mortis before working near the pubic ramus.",
+      "claim_ids": [
+        "hip_ilioinguinal_acetabulum_deep_interval_01"
+      ]
+    }
+  ],
+  "layers": [
+    {
+      "text": "Skin, subcutaneous tissue, external oblique aponeurosis and inguinal canal structures, the iliopsoas and femoral nerve, the external iliac vessels, and the inner pelvis.",
+      "claim_ids": [
+        "hip_ilioinguinal_acetabulum_layers_01"
+      ]
+    }
+  ],
+  "structures_encountered": [],
+  "structures_at_risk": [
+    {
+      "text": "The femoral nerve on the iliopsoas, the external iliac vessels, the spermatic cord or round ligament, and the corona mortis (present in 40% or more of patients) are at risk.",
+      "claim_ids": [
+        "hip_ilioinguinal_acetabulum_structures_at_risk_01"
+      ]
+    }
+  ],
+  "danger_zones": [
+    {
+      "text": "The retropubic corona mortis and the middle window over the external iliac vessels are the danger zones for major bleeding.",
+      "claim_ids": [
+        "hip_ilioinguinal_acetabulum_danger_zones_01"
+      ]
+    }
+  ],
+  "retraction_hazards": [
+    {
+      "text": "Retract the external iliac vessels gently and avoid tearing the corona mortis or injuring the femoral nerve.",
+      "claim_ids": [
+        "hip_ilioinguinal_acetabulum_retraction_hazards_01"
+      ]
+    }
+  ],
+  "exposure": [
+    {
+      "text": "Exposes the internal iliac fossa, pelvic brim, quadrilateral surface, and anterior column and pubis through the three windows.",
+      "claim_ids": [
+        "hip_ilioinguinal_acetabulum_exposure_01"
+      ]
+    }
+  ],
+  "limitations": [
+    {
+      "text": "Prior inguinal or femoral hernia or hernia surgery may complicate the approach and require modifying the windows.",
+      "claim_ids": [
+        "hip_ilioinguinal_acetabulum_limitations_01"
+      ]
+    }
+  ],
+  "extensions": [],
+  "indications": [
+    {
+      "text": "Indicated for ORIF of anterior column and periprosthetic acetabular fractures.",
+      "claim_ids": [
+        "hip_ilioinguinal_acetabulum_indications_01"
+      ]
+    }
+  ],
+  "relative_contraindications": [],
+  "implant_implications": [],
+  "fluoroscopy_implications": [],
+  "closure": [
+    {
+      "text": "Repair the conjoint tendon, external oblique aponeurosis, and abdominal wall to the iliac crest in layers, protecting the bladder.",
+      "claim_ids": [
+        "hip_ilioinguinal_acetabulum_closure_01"
+      ]
+    }
+  ],
+  "complications": [
+    {
+      "text": "Complications include external iliac or corona mortis bleeding, femoral nerve injury, hernia, and lymphocele.",
+      "claim_ids": [
+        "hip_ilioinguinal_acetabulum_complications_01"
+      ]
+    }
+  ],
+  "bailouts": [],
+  "procedure_applications": [
+    {
+      "procedure_id": "acetabulum_fracture_orif_anterior",
+      "relationship": "primary_option",
+      "condition": "An anterior column or associated acetabular fracture requires the classic three-window exposure"
+    },
+    {
+      "procedure_id": "periprosthetic_hip_fracture_orif",
+      "relationship": "conditional_option",
+      "condition": "A periprosthetic acetabular fracture needs anterior exposure"
+    }
+  ],
+  "questions": [
+    {
+      "question": "What do the three windows of the ilioinguinal approach expose?",
+      "answer": "The internal iliac fossa, the pelvic brim and quadrilateral surface, and the retropubic/medial pelvis.",
+      "claim_ids": [
+        "hip_ilioinguinal_acetabulum_questions_01"
+      ]
+    },
+    {
+      "question": "What is the corona mortis and why does it matter?",
+      "answer": "A retropubic anastomosis between the obturator and external iliac/epigastric vessels, present in 40% or more of patients, that can bleed heavily if torn.",
+      "claim_ids": [
+        "hip_ilioinguinal_acetabulum_questions_02"
+      ]
+    },
+    {
+      "question": "Where does the femoral nerve lie in this approach?",
+      "answer": "On the anteromedial surface of the iliopsoas.",
+      "claim_ids": [
+        "hip_ilioinguinal_acetabulum_questions_03"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "hip_ilioinguinal_acetabulum_positioning_01",
+      "text": "Position supine, using hip flexion to relax the iliopsoas during exposure.",
+      "source_ids": [
+        "ao_01bb35e0585ef010"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "hip_ilioinguinal_acetabulum_surface_landmarks_01",
+      "text": "Mark the iliac crest, the anterior superior iliac spine, and the pubic symphysis.",
+      "source_ids": [
+        "ao_01bb35e0585ef010"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "hip_ilioinguinal_acetabulum_incision_01",
+      "text": "Make a curved incision beginning posterior to the gluteus medius pillar and extend it past the midline to 2 cm proximal to the symphysis.",
+      "source_ids": [
+        "ao_01bb35e0585ef010"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "hip_ilioinguinal_acetabulum_superficial_interval_01",
+      "text": "Develop the first window in the internal iliac fossa, the second window along the pelvic brim and quadrilateral surface between the iliopsoas/femoral nerve and the external iliac vessels, and the third medial window after protecting the bladder.",
+      "source_ids": [
+        "ao_01bb35e0585ef010"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "hip_ilioinguinal_acetabulum_deep_interval_01",
+      "text": "Retract the external iliac vessels gently, keep the femoral nerve on the anteromedial iliopsoas, mobilize the spermatic cord or round ligament medially, and identify and control the corona mortis before working near the pubic ramus.",
+      "source_ids": [
+        "ao_01bb35e0585ef010",
+        "ao_e1443294f466baa7"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "hip_ilioinguinal_acetabulum_layers_01",
+      "text": "Skin, subcutaneous tissue, external oblique aponeurosis and inguinal canal structures, the iliopsoas and femoral nerve, the external iliac vessels, and the inner pelvis.",
+      "source_ids": [
+        "ao_01bb35e0585ef010"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "hip_ilioinguinal_acetabulum_structures_at_risk_01",
+      "text": "The femoral nerve on the iliopsoas, the external iliac vessels, the spermatic cord or round ligament, and the corona mortis (present in 40% or more of patients) are at risk.",
+      "source_ids": [
+        "ao_01bb35e0585ef010",
+        "ao_e1443294f466baa7"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "hip_ilioinguinal_acetabulum_danger_zones_01",
+      "text": "The retropubic corona mortis and the middle window over the external iliac vessels are the danger zones for major bleeding.",
+      "source_ids": [
+        "ao_01bb35e0585ef010",
+        "ao_e1443294f466baa7"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "hip_ilioinguinal_acetabulum_retraction_hazards_01",
+      "text": "Retract the external iliac vessels gently and avoid tearing the corona mortis or injuring the femoral nerve.",
+      "source_ids": [
+        "ao_01bb35e0585ef010",
+        "ao_e1443294f466baa7"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "hip_ilioinguinal_acetabulum_exposure_01",
+      "text": "Exposes the internal iliac fossa, pelvic brim, quadrilateral surface, and anterior column and pubis through the three windows.",
+      "source_ids": [
+        "ao_01bb35e0585ef010"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "hip_ilioinguinal_acetabulum_limitations_01",
+      "text": "Prior inguinal or femoral hernia or hernia surgery may complicate the approach and require modifying the windows.",
+      "source_ids": [
+        "ao_01bb35e0585ef010"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "hip_ilioinguinal_acetabulum_indications_01",
+      "text": "Indicated for ORIF of anterior column and periprosthetic acetabular fractures.",
+      "source_ids": [
+        "ao_01bb35e0585ef010"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "hip_ilioinguinal_acetabulum_closure_01",
+      "text": "Repair the conjoint tendon, external oblique aponeurosis, and abdominal wall to the iliac crest in layers, protecting the bladder.",
+      "source_ids": [
+        "ao_01bb35e0585ef010"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "hip_ilioinguinal_acetabulum_complications_01",
+      "text": "Complications include external iliac or corona mortis bleeding, femoral nerve injury, hernia, and lymphocele.",
+      "source_ids": [
+        "ao_01bb35e0585ef010",
+        "ao_e1443294f466baa7"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "hip_ilioinguinal_acetabulum_questions_01",
+      "text": "What do the three windows of the ilioinguinal approach expose?",
+      "source_ids": [
+        "ao_01bb35e0585ef010"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "hip_ilioinguinal_acetabulum_questions_02",
+      "text": "What is the corona mortis and why does it matter?",
+      "source_ids": [
+        "ao_01bb35e0585ef010",
+        "ao_e1443294f466baa7"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "hip_ilioinguinal_acetabulum_questions_03",
+      "text": "Where does the femoral nerve lie in this approach?",
+      "source_ids": [
+        "ao_01bb35e0585ef010"
+      ],
+      "risk_level": "medium"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "ao_01bb35e0585ef010",
+      "provider": "AO Surgery Reference",
+      "title": "Ilioinguinal approach to the acetabulum (periprosthetic)",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/periprosthetic-fractures/hip/approach/ilioinguinal-approach-acetabulum",
+      "source_page_id": "ao_01bb35e0585ef010"
+    },
+    {
+      "source_id": "ao_e1443294f466baa7",
+      "provider": "AO Surgery Reference",
+      "title": "Anterior intrapelvic approach to the acetabulum (periprosthetic)",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/periprosthetic-fractures/hip/approach/anterior-intrapelvic-approach-acetabulum",
+      "source_page_id": "ao_e1443294f466baa7"
+    }
+  ],
+  "content_status": "agent_review_pending",
+  "review": {
+    "status": "agent_review_pending",
+    "required_roles": [
+      "adversarial_safety_reviewer",
+      "approach_anatomy_reviewer",
+      "educational_value_reviewer",
+      "evidence_reviewer",
+      "operative_exposure_reviewer",
+      "procedure_applicability_reviewer"
+    ],
+    "completed_roles": []
+  },
+  "resolved_contradiction_keys": [],
+  "authoring_provenance": {
+    "method": "local_codex_curated",
+    "definition_file": "data/approach_library/curated/hip_osteotomy_acetabulum_batch002_v1.json",
+    "api_used": false
+  }
+}

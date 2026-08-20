@@ -1,0 +1,354 @@
+{
+  "schema_version": "brobot_approach_packet_v1",
+  "approach_id": "metatarsal_dorsal_multiple",
+  "name": "Dorsal approach to multiple metatarsals",
+  "aliases": [
+    "dual-incision dorsal metatarsal approach"
+  ],
+  "region": "metatarsals",
+  "joint": "",
+  "bones": [
+    "metatarsal"
+  ],
+  "corridor": "Dorsal longitudinal incisions in the intermetatarsal grooves (between 1st-2nd and/or 3rd-4th) with adequate skin bridges, working between the long and short extensor tendons to reach several metatarsals",
+  "positioning": [
+    {
+      "text": "Position supine with the foot at the end of the table under tourniquet control.",
+      "claim_ids": [
+        "metatarsal_dorsal_multiple_positioning_01"
+      ]
+    }
+  ],
+  "setup": [],
+  "surface_landmarks": [
+    {
+      "text": "Mark the intermetatarsal grooves and the long and short extensor tendons of each involved ray.",
+      "claim_ids": [
+        "metatarsal_dorsal_multiple_surface_landmarks_01"
+      ]
+    }
+  ],
+  "incision": [
+    {
+      "text": "Use one incision between the 1st and 2nd and, or, one between the 3rd and 4th metatarsals, avoiding more than two close parallel incisions to preserve skin vitality.",
+      "claim_ids": [
+        "metatarsal_dorsal_multiple_incision_01"
+      ]
+    }
+  ],
+  "superficial_interval": [
+    {
+      "text": "Preserve the longitudinal dorsal veins and identify and protect the branches of the deep peroneal nerve that provide superficial digital innervation.",
+      "claim_ids": [
+        "metatarsal_dorsal_multiple_superficial_interval_01"
+      ]
+    }
+  ],
+  "deep_interval": [
+    {
+      "text": "Enter between the long and short extensor tendons of the corresponding ray without cutting muscle, releasing muscle from bone and elevating periosteum to reach each metatarsal.",
+      "claim_ids": [
+        "metatarsal_dorsal_multiple_deep_interval_01"
+      ]
+    }
+  ],
+  "layers": [
+    {
+      "text": "Skin, subcutaneous tissue with dorsal veins and intermetatarsal nerves, the long and short extensor tendons, and the metatarsals.",
+      "claim_ids": [
+        "metatarsal_dorsal_multiple_layers_01"
+      ]
+    }
+  ],
+  "structures_encountered": [],
+  "structures_at_risk": [
+    {
+      "text": "The intermetatarsal branches of the deep peroneal nerve and the crossing superficial veins are at risk, and the skin bridges are at risk of necrosis if incisions are too close.",
+      "claim_ids": [
+        "metatarsal_dorsal_multiple_structures_at_risk_01"
+      ]
+    }
+  ],
+  "danger_zones": [
+    {
+      "text": "Narrow skin bridges between parallel incisions are the danger zone for skin necrosis.",
+      "claim_ids": [
+        "metatarsal_dorsal_multiple_danger_zones_01"
+      ]
+    }
+  ],
+  "retraction_hazards": [
+    {
+      "text": "Preserve longitudinal veins and intermetatarsal nerves and avoid undermining the skin bridges.",
+      "claim_ids": [
+        "metatarsal_dorsal_multiple_retraction_hazards_01"
+      ]
+    }
+  ],
+  "exposure": [
+    {
+      "text": "Exposes multiple metatarsal shafts through the intermetatarsal windows.",
+      "claim_ids": [
+        "metatarsal_dorsal_multiple_exposure_01"
+      ]
+    }
+  ],
+  "limitations": [
+    {
+      "text": "No more than two parallel incisions can be used safely, limiting how many adjacent metatarsals are exposed at once.",
+      "claim_ids": [
+        "metatarsal_dorsal_multiple_limitations_01"
+      ]
+    }
+  ],
+  "extensions": [],
+  "indications": [
+    {
+      "text": "Indicated for fixation of multiple metatarsal fractures.",
+      "claim_ids": [
+        "metatarsal_dorsal_multiple_indications_01"
+      ]
+    }
+  ],
+  "relative_contraindications": [],
+  "implant_implications": [],
+  "fluoroscopy_implications": [],
+  "closure": [
+    {
+      "text": "Close any joint capsule with resorbable sutures, repair the tendon sheath where possible, and close subcuticular tissue with resorbable sutures and skin with nylon.",
+      "claim_ids": [
+        "metatarsal_dorsal_multiple_closure_01"
+      ]
+    }
+  ],
+  "complications": [
+    {
+      "text": "Complications include skin bridge necrosis, dorsal cutaneous nerve injury, and extensor tendon adhesions.",
+      "claim_ids": [
+        "metatarsal_dorsal_multiple_complications_01"
+      ]
+    }
+  ],
+  "bailouts": [],
+  "procedure_applications": [
+    {
+      "procedure_id": "metatarsal_fracture_orif",
+      "relationship": "primary_option",
+      "condition": "Several metatarsal fractures require simultaneous dorsal exposure"
+    }
+  ],
+  "questions": [
+    {
+      "question": "Where are the incisions placed for multiple metatarsal exposure?",
+      "answer": "Between the 1st and 2nd and/or the 3rd and 4th metatarsals.",
+      "claim_ids": [
+        "metatarsal_dorsal_multiple_questions_01"
+      ]
+    },
+    {
+      "question": "Why should more than two close parallel incisions be avoided?",
+      "answer": "They compromise the vitality of the skin bridges.",
+      "claim_ids": [
+        "metatarsal_dorsal_multiple_questions_02"
+      ]
+    },
+    {
+      "question": "Which nerve branches must be protected dorsally?",
+      "answer": "The branches of the deep peroneal nerve providing superficial digital innervation.",
+      "claim_ids": [
+        "metatarsal_dorsal_multiple_questions_03"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "metatarsal_dorsal_multiple_positioning_01",
+      "text": "Position supine with the foot at the end of the table under tourniquet control.",
+      "source_ids": [
+        "ao_a3e38c372a4f1c20"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "metatarsal_dorsal_multiple_surface_landmarks_01",
+      "text": "Mark the intermetatarsal grooves and the long and short extensor tendons of each involved ray.",
+      "source_ids": [
+        "ao_a3e38c372a4f1c20"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "metatarsal_dorsal_multiple_incision_01",
+      "text": "Use one incision between the 1st and 2nd and, or, one between the 3rd and 4th metatarsals, avoiding more than two close parallel incisions to preserve skin vitality.",
+      "source_ids": [
+        "ao_a3e38c372a4f1c20"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "metatarsal_dorsal_multiple_superficial_interval_01",
+      "text": "Preserve the longitudinal dorsal veins and identify and protect the branches of the deep peroneal nerve that provide superficial digital innervation.",
+      "source_ids": [
+        "ao_a3e38c372a4f1c20",
+        "ao_5d405f342c03afff"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "metatarsal_dorsal_multiple_deep_interval_01",
+      "text": "Enter between the long and short extensor tendons of the corresponding ray without cutting muscle, releasing muscle from bone and elevating periosteum to reach each metatarsal.",
+      "source_ids": [
+        "ao_a3e38c372a4f1c20"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "metatarsal_dorsal_multiple_layers_01",
+      "text": "Skin, subcutaneous tissue with dorsal veins and intermetatarsal nerves, the long and short extensor tendons, and the metatarsals.",
+      "source_ids": [
+        "ao_a3e38c372a4f1c20"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "metatarsal_dorsal_multiple_structures_at_risk_01",
+      "text": "The intermetatarsal branches of the deep peroneal nerve and the crossing superficial veins are at risk, and the skin bridges are at risk of necrosis if incisions are too close.",
+      "source_ids": [
+        "ao_a3e38c372a4f1c20",
+        "ao_5d405f342c03afff"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "metatarsal_dorsal_multiple_danger_zones_01",
+      "text": "Narrow skin bridges between parallel incisions are the danger zone for skin necrosis.",
+      "source_ids": [
+        "ao_a3e38c372a4f1c20"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "metatarsal_dorsal_multiple_retraction_hazards_01",
+      "text": "Preserve longitudinal veins and intermetatarsal nerves and avoid undermining the skin bridges.",
+      "source_ids": [
+        "ao_a3e38c372a4f1c20"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "metatarsal_dorsal_multiple_exposure_01",
+      "text": "Exposes multiple metatarsal shafts through the intermetatarsal windows.",
+      "source_ids": [
+        "ao_a3e38c372a4f1c20"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "metatarsal_dorsal_multiple_limitations_01",
+      "text": "No more than two parallel incisions can be used safely, limiting how many adjacent metatarsals are exposed at once.",
+      "source_ids": [
+        "ao_a3e38c372a4f1c20"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "metatarsal_dorsal_multiple_indications_01",
+      "text": "Indicated for fixation of multiple metatarsal fractures.",
+      "source_ids": [
+        "ao_a3e38c372a4f1c20"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "metatarsal_dorsal_multiple_closure_01",
+      "text": "Close any joint capsule with resorbable sutures, repair the tendon sheath where possible, and close subcuticular tissue with resorbable sutures and skin with nylon.",
+      "source_ids": [
+        "ao_a3e38c372a4f1c20"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "metatarsal_dorsal_multiple_complications_01",
+      "text": "Complications include skin bridge necrosis, dorsal cutaneous nerve injury, and extensor tendon adhesions.",
+      "source_ids": [
+        "ao_a3e38c372a4f1c20",
+        "ao_5d405f342c03afff"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "metatarsal_dorsal_multiple_questions_01",
+      "text": "Where are the incisions placed for multiple metatarsal exposure?",
+      "source_ids": [
+        "ao_a3e38c372a4f1c20"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "metatarsal_dorsal_multiple_questions_02",
+      "text": "Why should more than two close parallel incisions be avoided?",
+      "source_ids": [
+        "ao_a3e38c372a4f1c20"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "metatarsal_dorsal_multiple_questions_03",
+      "text": "Which nerve branches must be protected dorsally?",
+      "source_ids": [
+        "ao_a3e38c372a4f1c20",
+        "ao_5d405f342c03afff"
+      ],
+      "risk_level": "medium"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "ao_a3e38c372a4f1c20",
+      "provider": "AO Surgery Reference",
+      "title": "Dorsal approach to multiple metatarsals",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/metatarsals/approach/dorsal-approach-to-multiple-metatarsals",
+      "source_page_id": "ao_a3e38c372a4f1c20"
+    },
+    {
+      "source_id": "ao_5d405f342c03afff",
+      "provider": "AO Surgery Reference",
+      "title": "Dorsal approach to single metatarsals 2 to 4",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/metatarsals/approach/dorsal-approach-to-single-metatarsals-2-to-4",
+      "source_page_id": "ao_5d405f342c03afff"
+    },
+    {
+      "source_id": "ao_4ff5be892be32320",
+      "provider": "AO Surgery Reference",
+      "title": "Dorsal approach to multiple metatarsals (midfoot)",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/midfoot/approach/dorsal-approach-to-multiple-metatarsals",
+      "source_page_id": "ao_4ff5be892be32320"
+    },
+    {
+      "source_id": "orthobullets_4539a1b264a38010",
+      "provider": "Orthobullets",
+      "title": "Lesser Toe Mtp Joint Approach",
+      "url": "https://www.orthobullets.com/approaches/12052/lesser-toe-mtp-joint-approach",
+      "source_page_id": "orthobullets_4539a1b264a38010"
+    }
+  ],
+  "content_status": "agent_review_pending",
+  "review": {
+    "status": "agent_review_pending",
+    "required_roles": [
+      "adversarial_safety_reviewer",
+      "approach_anatomy_reviewer",
+      "educational_value_reviewer",
+      "evidence_reviewer",
+      "operative_exposure_reviewer",
+      "procedure_applicability_reviewer"
+    ],
+    "completed_roles": []
+  },
+  "resolved_contradiction_keys": [],
+  "authoring_provenance": {
+    "method": "local_codex_curated",
+    "definition_file": "data/approach_library/curated/metatarsals_dorsal_batch003_v1.json",
+    "api_used": false
+  }
+}

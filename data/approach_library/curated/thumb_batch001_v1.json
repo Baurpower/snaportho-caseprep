@@ -1,0 +1,935 @@
+{
+  "approaches": [
+    {
+      "approach_id": "thumb_ip_joint_dorsal",
+      "name": "Dorsal approach to the thumb interphalangeal joint",
+      "aliases": [
+        "dorsal thumb IP approach"
+      ],
+      "region": "thumb",
+      "joint": "interphalangeal",
+      "bones": [
+        "distal phalanx",
+        "proximal phalanx"
+      ],
+      "corridor": "Dorsal H-, Y-, lazy-S, midline, or transverse flaps over the thumb IP joint, with EPL tenotomy or single-sided retraction to the joint",
+      "sources": [
+        {
+          "source_id": "ao_359f89af791d95fa",
+          "provider": "AO Surgery Reference",
+          "title": "Dorsal Approach To The Ip Joint Of The Thumb",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/thumb/approach/dorsal-approach-to-the-ip-joint-of-the-thumb",
+          "source_page_id": "ao_359f89af791d95fa"
+        },
+        {
+          "source_id": "ao_5a649db4ce488812",
+          "provider": "AO Surgery Reference",
+          "title": "Dorsal Approach To The Dip Joint",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/hand-distal-phalanges/approach/dorsal-approach-to-the-dip-joint",
+          "source_page_id": "ao_5a649db4ce488812"
+        }
+      ],
+      "procedure_applications": [
+        {
+          "procedure_id": "thumb_fracture_orif",
+          "relationship": "primary_option",
+          "condition": "A thumb IP intra-articular fracture, EPL avulsion from the distal-phalanx base, collateral avulsion, or IP arthrodesis is exposed dorsally"
+        }
+      ],
+      "sections": {
+        "positioning": [
+          {
+            "text": "Position the hand so the dorsal thumb IP joint and distal-phalanx base are accessible under tourniquet.",
+            "source_ids": [
+              "ao_359f89af791d95fa",
+              "ao_5a649db4ce488812"
+            ]
+          }
+        ],
+        "surface_landmarks": [
+          {
+            "text": "Mark the IP joint. The joint line lies deep to the most distal dorsal extensor crease; a transverse cut placed too proximal misses the distal-phalanx base.",
+            "source_ids": [
+              "ao_359f89af791d95fa"
+            ]
+          }
+        ],
+        "incision": [
+          {
+            "text": "Use an H-, Y-, lazy-S, or midline longitudinal cut. If an H is chosen, diverge the sides slightly to spare flap vessels. A simple transverse cut can suffice for osteosynthesis or arthrodesis preparation if it sits over the true joint line.",
+            "source_ids": [
+              "ao_359f89af791d95fa",
+              "ao_5a649db4ce488812"
+            ]
+          }
+        ],
+        "superficial_interval": [
+          {
+            "text": "Elevate flaps and hold them with fine sutures. Coagulate tiny veins with bipolar forceps.",
+            "source_ids": [
+              "ao_359f89af791d95fa",
+              "ao_5a649db4ce488812"
+            ]
+          }
+        ],
+        "deep_interval": [
+          {
+            "text": "Divide distal EPL with a transverse, step-cut, or long-oblique tenotomy (step-cut and oblique are easier to repair), retract the tendon proximally, and enter the IP joint. A straight dorsoradial or dorsoulnar cut can retract EPL without dividing it but shows only one condyle.",
+            "source_ids": [
+              "ao_359f89af791d95fa"
+            ]
+          }
+        ],
+        "layers": [
+          {
+            "text": "Skin flaps, dorsal veins, EPL tendon, then the IP joint.",
+            "source_ids": [
+              "ao_359f89af791d95fa",
+              "ao_5a649db4ce488812"
+            ]
+          }
+        ],
+        "structures_at_risk": [
+          {
+            "text": "Flap blood supply, tiny dorsal veins, and EPL (which must be repaired after tenotomy) are at risk. A proximal transverse cut that misses the joint line limits access to the distal-phalanx base.",
+            "source_ids": [
+              "ao_359f89af791d95fa",
+              "ao_5a649db4ce488812"
+            ]
+          }
+        ],
+        "danger_zones": [
+          {
+            "text": "Placing a transverse incision too proximal, at the more proximal crease rather than the most distal dorsal crease, is the common access error.",
+            "source_ids": [
+              "ao_359f89af791d95fa"
+            ]
+          }
+        ],
+        "retraction_hazards": [
+          {
+            "text": "Hold flaps with sutures rather than crushing them, and do not expect a single-sided EPL retraction to show both condyles.",
+            "source_ids": [
+              "ao_359f89af791d95fa",
+              "ao_5a649db4ce488812"
+            ]
+          }
+        ],
+        "exposure": [
+          {
+            "text": "Shows the thumb IP joint for arthrodesis, intra-articular fractures, EPL avulsion from the distal-phalanx base, and collateral avulsions.",
+            "source_ids": [
+              "ao_359f89af791d95fa"
+            ]
+          }
+        ],
+        "limitations": [
+          {
+            "text": "Retracting EPL without tenotomy reaches only one condyle.",
+            "source_ids": [
+              "ao_359f89af791d95fa"
+            ]
+          }
+        ],
+        "indications": [
+          {
+            "text": "Indicated for IP arthrodesis, intra-articular IP fractures, EPL avulsion fractures of the distal-phalanx base, and IP collateral avulsions.",
+            "source_ids": [
+              "ao_359f89af791d95fa"
+            ]
+          }
+        ],
+        "closure": [
+          {
+            "text": "Repair an EPL tenotomy with fine interrupted mattress sutures and close the skin.",
+            "source_ids": [
+              "ao_359f89af791d95fa",
+              "ao_5a649db4ce488812"
+            ]
+          }
+        ],
+        "complications": [
+          {
+            "text": "Complications include flap ischemia, missed joint-line placement, and incomplete EPL repair after tenotomy.",
+            "source_ids": [
+              "ao_359f89af791d95fa",
+              "ao_5a649db4ce488812"
+            ]
+          }
+        ],
+        "questions": [
+          {
+            "question": "Where is the thumb IP joint line relative to the dorsal creases?",
+            "answer": "Deep to the most distal dorsal extensor crease; a more proximal crease leads the less experienced surgeon to place a transverse cut too high.",
+            "source_ids": [
+              "ao_359f89af791d95fa"
+            ]
+          },
+          {
+            "question": "Which EPL tenotomies are easier to repair?",
+            "answer": "A step cut or a long oblique cut, rather than a simple transverse tenotomy.",
+            "source_ids": [
+              "ao_359f89af791d95fa"
+            ]
+          },
+          {
+            "question": "What does retracting EPL without dividing it allow?",
+            "answer": "Access to only one condyle, never both.",
+            "source_ids": [
+              "ao_359f89af791d95fa"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "approach_id": "thumb_mcp_joint_dorsal",
+      "name": "Dorsal approach to the thumb metacarpophalangeal joint",
+      "aliases": [
+        "dorsal thumb MCP approach"
+      ],
+      "region": "thumb",
+      "joint": "metacarpophalangeal",
+      "bones": [
+        "first metacarpal",
+        "proximal phalanx"
+      ],
+      "corridor": "Straight or gently curved dorsal cut from 2 cm proximal to 2 cm distal to the thumb MCP, between EPL and EPB, then a longitudinal capsulotomy that leaves the collaterals attached",
+      "sources": [
+        {
+          "source_id": "ao_bb6eacc3b4edcae4",
+          "provider": "AO Surgery Reference",
+          "title": "Dorsal Approach To The Metacarpophalangeal Mcp Joint Of The Thumb",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/thumb/approach/dorsal-approach-to-the-metacarpophalangeal-mcp-joint-of-the-thumb",
+          "source_page_id": "ao_bb6eacc3b4edcae4"
+        },
+        {
+          "source_id": "ao_607a897bff28761c",
+          "provider": "AO Surgery Reference",
+          "title": "Dorsal approach to the MCP joints",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/metacarpals/approach/dorsal-approach-to-mcp-joints",
+          "source_page_id": "ao_607a897bff28761c"
+        }
+      ],
+      "procedure_applications": [
+        {
+          "procedure_id": "thumb_fracture_orif",
+          "relationship": "primary_option",
+          "condition": "An intra-articular or periarticular thumb MCP fracture or an MCP arthrodesis is exposed between EPL and EPB"
+        }
+      ],
+      "sections": {
+        "positioning": [
+          {
+            "text": "Position the hand so the dorsal thumb MCP from 2 cm proximal to 2 cm distal is accessible under tourniquet.",
+            "source_ids": [
+              "ao_bb6eacc3b4edcae4",
+              "ao_607a897bff28761c"
+            ]
+          }
+        ],
+        "surface_landmarks": [
+          {
+            "text": "Mark the MCP joint and the expected dorsal sensory branches of the radial nerve and dorsal veins.",
+            "source_ids": [
+              "ao_bb6eacc3b4edcae4",
+              "ao_607a897bff28761c"
+            ]
+          }
+        ],
+        "incision": [
+          {
+            "text": "Make a straight or gently curved cut starting 2 cm proximal to the MCP and ending about 2 cm distal.",
+            "source_ids": [
+              "ao_bb6eacc3b4edcae4"
+            ]
+          }
+        ],
+        "superficial_interval": [
+          {
+            "text": "Identify and protect the dorsal divisions of the dorsal sensory radial nerve and the dorsal veins. Elevate skin and thin subcutaneous tissue as one layer to EPL and EPB.",
+            "source_ids": [
+              "ao_bb6eacc3b4edcae4",
+              "ao_607a897bff28761c"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "deep_interval": [
+          {
+            "text": "Incise between EPL and EPB without detaching EPB from the proximal-phalanx base. Perform a longitudinal capsulotomy, leaving the collateral ligaments attached, and flex the thumb to see the joint fully.",
+            "source_ids": [
+              "ao_bb6eacc3b4edcae4",
+              "ao_607a897bff28761c"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "layers": [
+          {
+            "text": "Skin, dorsal sensory radial-nerve branches and veins, EPL–EPB interval, capsule, then the MCP joint.",
+            "source_ids": [
+              "ao_bb6eacc3b4edcae4",
+              "ao_607a897bff28761c"
+            ]
+          }
+        ],
+        "structures_at_risk": [
+          {
+            "text": "Dorsal sensory radial-nerve branches, dorsal veins, the EPB insertion on the proximal phalanx, and the collateral ligaments are at risk.",
+            "source_ids": [
+              "ao_bb6eacc3b4edcae4",
+              "ao_607a897bff28761c"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "danger_zones": [
+          {
+            "text": "Detaching EPB from the proximal-phalanx base or taking the collaterals off the metacarpal or phalanx destabilizes the joint.",
+            "source_ids": [
+              "ao_bb6eacc3b4edcae4"
+            ]
+          }
+        ],
+        "retraction_hazards": [
+          {
+            "text": "Protect the sensory radial-nerve branches with the skin flap and do not peel EPB or the collaterals off bone.",
+            "source_ids": [
+              "ao_bb6eacc3b4edcae4",
+              "ao_607a897bff28761c"
+            ]
+          }
+        ],
+        "exposure": [
+          {
+            "text": "Shows the thumb MCP for intra-articular or periarticular fractures and for arthrodesis.",
+            "source_ids": [
+              "ao_bb6eacc3b4edcae4"
+            ]
+          }
+        ],
+        "limitations": [
+          {
+            "text": "This is not the dedicated dorsoulnar window for an ulnar-collateral or Stener lesion.",
+            "source_ids": [
+              "ao_bb6eacc3b4edcae4"
+            ]
+          }
+        ],
+        "indications": [
+          {
+            "text": "Indicated for intra-articular or periarticular thumb MCP fractures and for MCP arthrodesis.",
+            "source_ids": [
+              "ao_bb6eacc3b4edcae4"
+            ]
+          }
+        ],
+        "closure": [
+          {
+            "text": "Repair the capsule with fine interrupted mattress sutures and approximate EPL to EPB.",
+            "source_ids": [
+              "ao_bb6eacc3b4edcae4",
+              "ao_607a897bff28761c"
+            ]
+          }
+        ],
+        "complications": [
+          {
+            "text": "Complications include sensory radial-nerve neuroma, EPB insertion loss, and collateral detachment.",
+            "source_ids": [
+              "ao_bb6eacc3b4edcae4",
+              "ao_607a897bff28761c"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "questions": [
+          {
+            "question": "What interval is used to enter the thumb MCP dorsally?",
+            "answer": "Between EPL and EPB, without detaching the EPB insertion from the proximal-phalanx base.",
+            "source_ids": [
+              "ao_bb6eacc3b4edcae4"
+            ]
+          },
+          {
+            "question": "How long is the typical skin incision?",
+            "answer": "From about 2 cm proximal to 2 cm distal to the MCP joint.",
+            "source_ids": [
+              "ao_bb6eacc3b4edcae4"
+            ]
+          },
+          {
+            "question": "How is the joint fully exposed after capsulotomy?",
+            "answer": "By flexing the thumb.",
+            "source_ids": [
+              "ao_bb6eacc3b4edcae4"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "approach_id": "thumb_metacarpal_dorsal",
+      "name": "Dorsal approach to the thumb metacarpal",
+      "aliases": [
+        "dorsal first-metacarpal approach"
+      ],
+      "region": "thumb",
+      "joint": "carpometacarpal",
+      "bones": [
+        "first metacarpal",
+        "trapezium"
+      ],
+      "corridor": "Straight cut over the EPL–EPB interval along the first metacarpal, or radial to EPB with both tendons taken ulnarly, protecting dorsal sensory radial-nerve branches and the radial artery over the trapezium",
+      "sources": [
+        {
+          "source_id": "ao_291f448f05e405e9",
+          "provider": "AO Surgery Reference",
+          "title": "Dorsal Approach To The Thumb Metacarpal",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/thumb/approach/dorsal-approach-to-the-thumb-metacarpal",
+          "source_page_id": "ao_291f448f05e405e9"
+        },
+        {
+          "source_id": "ao_2407e0d9a61b8122",
+          "provider": "AO Surgery Reference",
+          "title": "Dorsal approach to the metacarpals",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/metacarpals/approach/dorsal-approach-to-metacarpals",
+          "source_page_id": "ao_2407e0d9a61b8122"
+        },
+        {
+          "source_id": "ao_bb6eacc3b4edcae4",
+          "provider": "AO Surgery Reference",
+          "title": "Dorsal Approach To The Metacarpophalangeal Mcp Joint Of The Thumb",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/thumb/approach/dorsal-approach-to-the-metacarpophalangeal-mcp-joint-of-the-thumb",
+          "source_page_id": "ao_bb6eacc3b4edcae4"
+        }
+      ],
+      "procedure_applications": [
+        {
+          "procedure_id": "thumb_fracture_orif",
+          "relationship": "primary_option",
+          "condition": "An extra-articular first-metacarpal fracture, a periarticular first-CMC fracture, or a first-CMC arthrodesis is exposed dorsally"
+        }
+      ],
+      "sections": {
+        "positioning": [
+          {
+            "text": "Position the hand so the full first metacarpal and first CMC can be seen under tourniquet.",
+            "source_ids": [
+              "ao_291f448f05e405e9",
+              "ao_2407e0d9a61b8122"
+            ]
+          }
+        ],
+        "surface_landmarks": [
+          {
+            "text": "Mark the EPL–EPB interval along the first metacarpal, the trapezium, and the expected dorsoulnar and dorsoradial sensory radial-nerve branches.",
+            "source_ids": [
+              "ao_291f448f05e405e9",
+              "ao_bb6eacc3b4edcae4"
+            ]
+          }
+        ],
+        "incision": [
+          {
+            "text": "Make a straight cut over the EPL–EPB interval for the length of the first metacarpal. Alternatively cut radial to EPB; that cut can be extended proximally, curving ulnarly.",
+            "source_ids": [
+              "ao_291f448f05e405e9"
+            ]
+          }
+        ],
+        "superficial_interval": [
+          {
+            "text": "Identify and protect the dorsal sensory radial-nerve divisions and the longitudinal veins.",
+            "source_ids": [
+              "ao_291f448f05e405e9",
+              "ao_bb6eacc3b4edcae4"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "deep_interval": [
+          {
+            "text": "Incise fascia between EPL and EPB and retract them apart. If the more radial cut was used, incise fascia radial to EPB and retract both tendons ulnarly. Add a first-CMC capsulotomy for intra-articular work or arthrodesis. The radial artery crosses the trapezium.",
+            "source_ids": [
+              "ao_291f448f05e405e9"
+            ]
+          }
+        ],
+        "layers": [
+          {
+            "text": "Skin, sensory radial-nerve branches and veins, EPL–EPB fascia, periosteum, then the first-metacarpal shaft and optional first-CMC capsule.",
+            "source_ids": [
+              "ao_291f448f05e405e9",
+              "ao_2407e0d9a61b8122"
+            ]
+          }
+        ],
+        "structures_at_risk": [
+          {
+            "text": "The dorsoulnar and dorsoradial sensory radial-nerve branches, longitudinal veins, EPL and EPB, and the radial artery over the trapezium are at risk.",
+            "source_ids": [
+              "ao_291f448f05e405e9",
+              "ao_bb6eacc3b4edcae4"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "danger_zones": [
+          {
+            "text": "The radial artery crossing the trapezium and unpadded plate contact under EPL/EPB are the deep danger zones.",
+            "source_ids": [
+              "ao_291f448f05e405e9"
+            ]
+          }
+        ],
+        "retraction_hazards": [
+          {
+            "text": "Protect the sensory nerves and veins while retracting the extensors; lift periosteum over an implant so the tendons glide on periosteum rather than metal.",
+            "source_ids": [
+              "ao_291f448f05e405e9",
+              "ao_2407e0d9a61b8122"
+            ]
+          }
+        ],
+        "exposure": [
+          {
+            "text": "Shows extra-articular first-metacarpal fractures, periarticular first-CMC fractures, and first-CMC arthrodesis.",
+            "source_ids": [
+              "ao_291f448f05e405e9"
+            ]
+          }
+        ],
+        "limitations": [
+          {
+            "text": "Bennett or Rolando intra-articular base fractures that need the volar beak are better served by a radiopalmar window.",
+            "source_ids": [
+              "ao_291f448f05e405e9"
+            ]
+          }
+        ],
+        "indications": [
+          {
+            "text": "Indicated for extra-articular first-metacarpal fractures, periarticular first-CMC fractures, and first-CMC arthrodesis.",
+            "source_ids": [
+              "ao_291f448f05e405e9"
+            ]
+          }
+        ],
+        "closure": [
+          {
+            "text": "Repair the fascia between EPB and EPL with a running suture or fine mattress sutures.",
+            "source_ids": [
+              "ao_291f448f05e405e9"
+            ]
+          }
+        ],
+        "complications": [
+          {
+            "text": "Complications include sensory radial-nerve neuroma, radial-artery injury over the trapezium, and extensor irritation from an uncovered plate.",
+            "source_ids": [
+              "ao_291f448f05e405e9",
+              "ao_bb6eacc3b4edcae4"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "questions": [
+          {
+            "question": "Between which tendons is the standard dorsal first-metacarpal interval?",
+            "answer": "Extensor pollicis longus and extensor pollicis brevis.",
+            "source_ids": [
+              "ao_291f448f05e405e9"
+            ]
+          },
+          {
+            "question": "Which vessel crosses the trapezium in this field?",
+            "answer": "The radial artery.",
+            "source_ids": [
+              "ao_291f448f05e405e9"
+            ]
+          },
+          {
+            "question": "How can extensor-tendon contact with a plate be reduced?",
+            "answer": "Lift periosteum and cover the implant with it so the tendons glide on periosteum.",
+            "source_ids": [
+              "ao_291f448f05e405e9"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "approach_id": "thumb_mcp_dorsoulnar",
+      "name": "Dorsoulnar approach to the thumb metacarpophalangeal joint",
+      "aliases": [
+        "ulnar-collateral thumb MCP approach",
+        "Stener-lesion approach"
+      ],
+      "region": "thumb",
+      "joint": "metacarpophalangeal",
+      "bones": [
+        "first metacarpal",
+        "proximal phalanx"
+      ],
+      "corridor": "Oblique or lazy-S cut from 1 cm proximal around the ulnar MCP to 1 cm distal, dividing adductor aponeurosis 3–5 mm from EPL to expose the ulnar collateral ligament",
+      "sources": [
+        {
+          "source_id": "ao_f8b1995570223dbe",
+          "provider": "AO Surgery Reference",
+          "title": "Dorsoulnar Approach To The Mcp Joint Of The Thumb",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/thumb/approach/dorsoulnar-approach-to-the-mcp-joint-of-the-thumb",
+          "source_page_id": "ao_f8b1995570223dbe"
+        },
+        {
+          "source_id": "ao_bb6eacc3b4edcae4",
+          "provider": "AO Surgery Reference",
+          "title": "Dorsal Approach To The Metacarpophalangeal Mcp Joint Of The Thumb",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/thumb/approach/dorsal-approach-to-the-metacarpophalangeal-mcp-joint-of-the-thumb",
+          "source_page_id": "ao_bb6eacc3b4edcae4"
+        }
+      ],
+      "procedure_applications": [
+        {
+          "procedure_id": "thumb_fracture_orif",
+          "relationship": "primary_option",
+          "condition": "An ulnar first-metacarpal-head fracture, an ulnar proximal-phalanx-base avulsion, or a Stener/gamekeeper/skier ulnar-collateral avulsion is repaired"
+        }
+      ],
+      "sections": {
+        "positioning": [
+          {
+            "text": "Position the hand so the ulnar thumb MCP from 1 cm proximal to 1 cm distal is accessible.",
+            "source_ids": [
+              "ao_f8b1995570223dbe",
+              "ao_bb6eacc3b4edcae4"
+            ]
+          }
+        ],
+        "surface_landmarks": [
+          {
+            "text": "Mark the ulnar MCP, EPL, and the expected dorsal sensory radial-nerve branches in the subcutaneous tissue.",
+            "source_ids": [
+              "ao_f8b1995570223dbe",
+              "ao_bb6eacc3b4edcae4"
+            ]
+          }
+        ],
+        "incision": [
+          {
+            "text": "Start dorsally about 1 cm proximal to the MCP, curve palmar around the ulnar joint, and end about 1 cm distal. The cut may be oblique or a lazy S.",
+            "source_ids": [
+              "ao_f8b1995570223dbe"
+            ]
+          }
+        ],
+        "superficial_interval": [
+          {
+            "text": "Identify and protect the dorsal sensory radial-nerve divisions with a vessel loop. Identify adductor pollicis and its aponeurosis plus EPL and EPB.",
+            "source_ids": [
+              "ao_f8b1995570223dbe",
+              "ao_bb6eacc3b4edcae4"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "deep_interval": [
+          {
+            "text": "Pass a dental pick deep to the adductor aponeurosis, between it and the ulnar collateral ligament and dorsal capsule, then divide the aponeurosis longitudinally close to its EPL insertion, leaving a 3–5 mm fringe. Retract the aponeurosis palmarly and EPL dorsally. Make a longitudinal dorsal capsulotomy that does not take the collateral off the metacarpal tubercle.",
+            "source_ids": [
+              "ao_f8b1995570223dbe"
+            ]
+          }
+        ],
+        "layers": [
+          {
+            "text": "Skin, sensory radial-nerve branches, adductor aponeurosis, ulnar collateral ligament and dorsal capsule, then the ulnar MCP.",
+            "source_ids": [
+              "ao_f8b1995570223dbe",
+              "ao_bb6eacc3b4edcae4"
+            ]
+          }
+        ],
+        "structures_at_risk": [
+          {
+            "text": "Dorsal sensory radial-nerve branches, the adductor aponeurosis insertion on EPL, and the proximal ulnar-collateral attachment on the metacarpal tubercle are at risk.",
+            "source_ids": [
+              "ao_f8b1995570223dbe",
+              "ao_bb6eacc3b4edcae4"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "danger_zones": [
+          {
+            "text": "Dividing the adductor aponeurosis without a pick beneath it, or leaving no 3–5 mm fringe, prevents secure reattachment and can injure the collateral or capsule.",
+            "source_ids": [
+              "ao_f8b1995570223dbe"
+            ]
+          }
+        ],
+        "retraction_hazards": [
+          {
+            "text": "Retract the aponeurosis palmarly with fine sutures and EPL dorsally with a small retractor; do not peel the collateral off the metacarpal tubercle.",
+            "source_ids": [
+              "ao_f8b1995570223dbe"
+            ]
+          }
+        ],
+        "exposure": [
+          {
+            "text": "Shows the ulnar first-metacarpal head, ulnar proximal-phalanx-base avulsions, and the ulnar collateral ligament, including Stener, gamekeeper, and skier lesions.",
+            "source_ids": [
+              "ao_f8b1995570223dbe"
+            ]
+          }
+        ],
+        "limitations": [
+          {
+            "text": "This is not a general thumb-MCP arthrodesis window; the dorsal EPL–EPB interval is used for that.",
+            "source_ids": [
+              "ao_f8b1995570223dbe",
+              "ao_bb6eacc3b4edcae4"
+            ]
+          }
+        ],
+        "indications": [
+          {
+            "text": "Indicated for ulnar-margin first-metacarpal-head fractures, ulnar proximal-phalanx-base avulsions, and ulnar-collateral avulsion (Stener, gamekeeper, or skier thumb).",
+            "source_ids": [
+              "ao_f8b1995570223dbe"
+            ]
+          }
+        ],
+        "closure": [
+          {
+            "text": "Close the capsule, then reattach the adductor aponeurosis with fine interrupted mattress sutures.",
+            "source_ids": [
+              "ao_f8b1995570223dbe"
+            ]
+          }
+        ],
+        "complications": [
+          {
+            "text": "Complications include sensory radial-nerve injury, adductor-aponeurosis failure if no fringe is left, and iatrogenic collateral disinsertion.",
+            "source_ids": [
+              "ao_f8b1995570223dbe",
+              "ao_bb6eacc3b4edcae4"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "questions": [
+          {
+            "question": "How much adductor-aponeurosis fringe is left on EPL?",
+            "answer": "A 3–5 mm fringe for later reattachment.",
+            "source_ids": [
+              "ao_f8b1995570223dbe"
+            ]
+          },
+          {
+            "question": "What is passed under the aponeurosis before it is divided?",
+            "answer": "A dental pick, between the aponeurosis and the ulnar collateral ligament and dorsal capsule.",
+            "source_ids": [
+              "ao_f8b1995570223dbe"
+            ]
+          },
+          {
+            "question": "Which attachment must a dorsal capsulotomy spare?",
+            "answer": "The proximal ulnar-collateral attachment on the metacarpal tubercle.",
+            "source_ids": [
+              "ao_f8b1995570223dbe"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "approach_id": "thumb_base_radiopalmar",
+      "name": "Radiopalmar approach to the base of the thumb",
+      "aliases": [
+        "Wagner approach to the first CMC",
+        "Bennett radiopalmar approach"
+      ],
+      "region": "thumb",
+      "joint": "carpometacarpal",
+      "bones": [
+        "first metacarpal",
+        "trapezium"
+      ],
+      "corridor": "Straight radiopalmar cut at the dorsal–palmar thenar skin junction from 1 cm distal to the radial styloid for 4–5 cm, or a curved Wagner cut, then thenar-muscle reflection to a first-CMC capsulotomy",
+      "sources": [
+        {
+          "source_id": "ao_161e78065b51e9b4",
+          "provider": "AO Surgery Reference",
+          "title": "Radiopalmar Approach To The Base Of The Thumb",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/thumb/approach/radiopalmar-approach-to-the-base-of-the-thumb",
+          "source_page_id": "ao_161e78065b51e9b4"
+        },
+        {
+          "source_id": "ao_291f448f05e405e9",
+          "provider": "AO Surgery Reference",
+          "title": "Dorsal Approach To The Thumb Metacarpal",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/thumb/approach/dorsal-approach-to-the-thumb-metacarpal",
+          "source_page_id": "ao_291f448f05e405e9"
+        }
+      ],
+      "procedure_applications": [
+        {
+          "procedure_id": "thumb_fracture_orif",
+          "relationship": "primary_option",
+          "condition": "A Bennett or Rolando first-CMC fracture, or a basal first-metacarpal or trapezial fracture, is reduced through a radiopalmar window"
+        }
+      ],
+      "sections": {
+        "positioning": [
+          {
+            "text": "Position the hand so the thenar–dorsal skin junction, radial styloid, and first CMC can be seen and the thumb can be pronated, supinated, and pulled out to length.",
+            "source_ids": [
+              "ao_161e78065b51e9b4"
+            ]
+          }
+        ],
+        "surface_landmarks": [
+          {
+            "text": "Mark the radial styloid, the dorsal–palmar thenar skin junction, the APL tendon, and the expected dorsal sensory radial-nerve branches.",
+            "source_ids": [
+              "ao_161e78065b51e9b4",
+              "ao_291f448f05e405e9"
+            ]
+          }
+        ],
+        "incision": [
+          {
+            "text": "Use a straight radiopalmar cut at the thenar dorsal–palmar skin junction starting about 1 cm distal to the radial styloid and running 4–5 cm distally, or a curved Wagner cut along the thenar eminence toward the palm. Wagner risks a scar across the wrist crease.",
+            "source_ids": [
+              "ao_161e78065b51e9b4"
+            ]
+          }
+        ],
+        "superficial_interval": [
+          {
+            "text": "Elevate skin and subcutaneous flaps bluntly. Identify and protect the dorsal sensory radial-nerve divisions and the APL tendon with vessel loops; excessive loop retraction can impair flap blood supply.",
+            "source_ids": [
+              "ao_161e78065b51e9b4",
+              "ao_291f448f05e405e9"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "deep_interval": [
+          {
+            "text": "Detach thenar muscles from the first-metacarpal base, leaving a small insertion cuff, and reflect them palmarly. Perform a transverse or longitudinal capsulotomy. Inspect the joint by rotating the thumb in pronation and supination under longitudinal traction, which also helps reduce Bennett fractures. Preserve the volar oblique ligament on the ulnar volar beak; APL inserts on the radial base, and adductor pollicis pulls the shaft palmar and ulnar, producing the typical Bennett deformity.",
+            "source_ids": [
+              "ao_161e78065b51e9b4"
+            ]
+          }
+        ],
+        "layers": [
+          {
+            "text": "Skin, sensory radial-nerve branches and APL, thenar muscle origin, capsule, then the first CMC.",
+            "source_ids": [
+              "ao_161e78065b51e9b4",
+              "ao_291f448f05e405e9"
+            ]
+          }
+        ],
+        "structures_at_risk": [
+          {
+            "text": "Dorsal sensory radial-nerve branches (neuroma risk), the APL tendon, thenar-muscle origin, and the volar oblique ligament on the ulnar beak are at risk.",
+            "source_ids": [
+              "ao_161e78065b51e9b4",
+              "ao_291f448f05e405e9"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "danger_zones": [
+          {
+            "text": "Missing the sensory radial-nerve branches in this zone produces a troublesome neuroma. Leaving no thenar insertion cuff prevents secure muscle repair.",
+            "source_ids": [
+              "ao_161e78065b51e9b4",
+              "ao_291f448f05e405e9"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "retraction_hazards": [
+          {
+            "text": "Do not retract sensory-nerve or APL vessel loops so hard that flap perfusion is lost.",
+            "source_ids": [
+              "ao_161e78065b51e9b4"
+            ]
+          }
+        ],
+        "exposure": [
+          {
+            "text": "Shows intra-articular first-CMC injuries such as Bennett and Rolando fractures, and basal metacarpal or trapezial fractures.",
+            "source_ids": [
+              "ao_161e78065b51e9b4"
+            ]
+          }
+        ],
+        "limitations": [
+          {
+            "text": "A Wagner curve can scar across the wrist crease. Extra-articular first-metacarpal shaft work is better done through the dorsal EPL–EPB interval.",
+            "source_ids": [
+              "ao_161e78065b51e9b4",
+              "ao_291f448f05e405e9"
+            ]
+          }
+        ],
+        "indications": [
+          {
+            "text": "Indicated for intra-articular first-CMC fractures such as Bennett or Rolando injuries, and for basal metacarpal or trapezial fractures.",
+            "source_ids": [
+              "ao_161e78065b51e9b4"
+            ]
+          }
+        ],
+        "closure": [
+          {
+            "text": "Close the capsule with interrupted sutures and reattach the thenar muscles to the first-metacarpal base.",
+            "source_ids": [
+              "ao_161e78065b51e9b4"
+            ]
+          }
+        ],
+        "complications": [
+          {
+            "text": "Complications include sensory radial-nerve neuroma, thenar-muscle detachment if no cuff is left, and a wrist-crease scar after a Wagner cut.",
+            "source_ids": [
+              "ao_161e78065b51e9b4",
+              "ao_291f448f05e405e9"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "questions": [
+          {
+            "question": "Where does the straight radiopalmar incision start and how long is it?",
+            "answer": "About 1 cm distal to the radial styloid, running 4–5 cm distally at the dorsal–palmar thenar skin junction.",
+            "source_ids": [
+              "ao_161e78065b51e9b4"
+            ]
+          },
+          {
+            "question": "Which ligament must be preserved on the ulnar volar beak?",
+            "answer": "The volar oblique ligament, the key stabilizer of the first-metacarpal base.",
+            "source_ids": [
+              "ao_161e78065b51e9b4"
+            ]
+          },
+          {
+            "question": "What is the disadvantage of the Wagner curve?",
+            "answer": "It risks a scar across the wrist crease.",
+            "source_ids": [
+              "ao_161e78065b51e9b4"
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

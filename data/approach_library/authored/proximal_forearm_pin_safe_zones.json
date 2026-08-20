@@ -1,0 +1,341 @@
+{
+  "schema_version": "brobot_approach_packet_v1",
+  "approach_id": "proximal_forearm_pin_safe_zones",
+  "name": "Safe zones for external fixator pins in the proximal forearm",
+  "aliases": [
+    "proximal ulna Schanz screw safe zone"
+  ],
+  "region": "proximal-forearm",
+  "joint": "",
+  "bones": [
+    "ulna"
+  ],
+  "corridor": "Lateral to posterolateral Schanz screw corridor in the proximal or middle third of the subcutaneous ulna, with the forearm neutral, checking that the screw does not tether the radius",
+  "positioning": [
+    {
+      "text": "Position with the forearm in neutral rotation and the subcutaneous ulna accessible under imaging.",
+      "claim_ids": [
+        "proximal_forearm_pin_safe_zones_positioning_01"
+      ]
+    }
+  ],
+  "setup": [],
+  "surface_landmarks": [
+    {
+      "text": "Palpate the easily recognizable subcutaneous border of the proximal and middle ulna.",
+      "claim_ids": [
+        "proximal_forearm_pin_safe_zones_surface_landmarks_01"
+      ]
+    }
+  ],
+  "incision": [
+    {
+      "text": "Make a small incision to bone at each planned Schanz screw site.",
+      "claim_ids": [
+        "proximal_forearm_pin_safe_zones_incision_01"
+      ]
+    }
+  ],
+  "superficial_interval": [
+    {
+      "text": "Insert Schanz screws into the lateral or posterolateral part of the proximal or middle third of the ulna with the forearm neutral.",
+      "claim_ids": [
+        "proximal_forearm_pin_safe_zones_superficial_interval_01"
+      ]
+    }
+  ],
+  "deep_interval": [
+    {
+      "text": "After insertion, check pronation and supination to make sure the Schanz screw does not tether or contact the radius.",
+      "claim_ids": [
+        "proximal_forearm_pin_safe_zones_deep_interval_01"
+      ]
+    }
+  ],
+  "layers": [
+    {
+      "text": "Skin, subcutaneous tissue, and the ulnar cortex.",
+      "claim_ids": [
+        "proximal_forearm_pin_safe_zones_layers_01"
+      ]
+    }
+  ],
+  "structures_encountered": [],
+  "structures_at_risk": [
+    {
+      "text": "The posterior interosseous nerve near the proximal radius and the forearm rotation (if the screw contacts the radius) are the concerns; the subcutaneous ulna itself is a safe corridor.",
+      "claim_ids": [
+        "proximal_forearm_pin_safe_zones_structures_at_risk_01"
+      ]
+    }
+  ],
+  "danger_zones": [
+    {
+      "text": "Screws that stray toward the radius or the proximal supinator region risk tethering rotation or endangering the posterior interosseous nerve.",
+      "claim_ids": [
+        "proximal_forearm_pin_safe_zones_danger_zones_01"
+      ]
+    }
+  ],
+  "retraction_hazards": [
+    {
+      "text": "Keep the screw within the ulna and confirm free forearm rotation after insertion.",
+      "claim_ids": [
+        "proximal_forearm_pin_safe_zones_retraction_hazards_01"
+      ]
+    }
+  ],
+  "exposure": [
+    {
+      "text": "Provides a safe ulnar corridor for external fixator Schanz screws rather than a formal exposure.",
+      "claim_ids": [
+        "proximal_forearm_pin_safe_zones_exposure_01"
+      ]
+    }
+  ],
+  "limitations": [
+    {
+      "text": "The safe corridor is limited to the lateral and posterolateral proximal-to-middle ulna to avoid the radius and proximal nerves.",
+      "claim_ids": [
+        "proximal_forearm_pin_safe_zones_limitations_01"
+      ]
+    }
+  ],
+  "extensions": [],
+  "indications": [
+    {
+      "text": "Indicated for external fixator Schanz screw placement in the proximal forearm.",
+      "claim_ids": [
+        "proximal_forearm_pin_safe_zones_indications_01"
+      ]
+    }
+  ],
+  "relative_contraindications": [],
+  "implant_implications": [],
+  "fluoroscopy_implications": [],
+  "closure": [
+    {
+      "text": "Close each incision loosely around the screw.",
+      "claim_ids": [
+        "proximal_forearm_pin_safe_zones_closure_01"
+      ]
+    }
+  ],
+  "complications": [
+    {
+      "text": "Complications include restricted forearm rotation if the screw contacts the radius and pin-tract problems.",
+      "claim_ids": [
+        "proximal_forearm_pin_safe_zones_complications_01"
+      ]
+    }
+  ],
+  "bailouts": [],
+  "procedure_applications": [
+    {
+      "procedure_id": "both_bone_forearm_fracture_orif",
+      "relationship": "conditional_option",
+      "condition": "A spanning external fixator is applied across the elbow or proximal forearm"
+    }
+  ],
+  "questions": [
+    {
+      "question": "Into which part of the ulna are proximal forearm Schanz screws placed?",
+      "answer": "The lateral or posterolateral proximal or middle third of the ulna.",
+      "claim_ids": [
+        "proximal_forearm_pin_safe_zones_questions_01"
+      ]
+    },
+    {
+      "question": "What must be checked after screw insertion?",
+      "answer": "Pronation and supination, to ensure the screw does not affect the radius.",
+      "claim_ids": [
+        "proximal_forearm_pin_safe_zones_questions_02"
+      ]
+    },
+    {
+      "question": "In what rotation is the forearm held for insertion?",
+      "answer": "Neutral rotation.",
+      "claim_ids": [
+        "proximal_forearm_pin_safe_zones_questions_03"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "proximal_forearm_pin_safe_zones_positioning_01",
+      "text": "Position with the forearm in neutral rotation and the subcutaneous ulna accessible under imaging.",
+      "source_ids": [
+        "ao_6c1346a3836a917c"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "proximal_forearm_pin_safe_zones_surface_landmarks_01",
+      "text": "Palpate the easily recognizable subcutaneous border of the proximal and middle ulna.",
+      "source_ids": [
+        "ao_6c1346a3836a917c",
+        "ao_dba28fa580cb941b"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "proximal_forearm_pin_safe_zones_incision_01",
+      "text": "Make a small incision to bone at each planned Schanz screw site.",
+      "source_ids": [
+        "ao_6c1346a3836a917c"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "proximal_forearm_pin_safe_zones_superficial_interval_01",
+      "text": "Insert Schanz screws into the lateral or posterolateral part of the proximal or middle third of the ulna with the forearm neutral.",
+      "source_ids": [
+        "ao_6c1346a3836a917c",
+        "ao_dba28fa580cb941b"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "proximal_forearm_pin_safe_zones_deep_interval_01",
+      "text": "After insertion, check pronation and supination to make sure the Schanz screw does not tether or contact the radius.",
+      "source_ids": [
+        "ao_6c1346a3836a917c"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "proximal_forearm_pin_safe_zones_layers_01",
+      "text": "Skin, subcutaneous tissue, and the ulnar cortex.",
+      "source_ids": [
+        "ao_6c1346a3836a917c"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "proximal_forearm_pin_safe_zones_structures_at_risk_01",
+      "text": "The posterior interosseous nerve near the proximal radius and the forearm rotation (if the screw contacts the radius) are the concerns; the subcutaneous ulna itself is a safe corridor.",
+      "source_ids": [
+        "ao_6c1346a3836a917c",
+        "ao_dba28fa580cb941b"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "proximal_forearm_pin_safe_zones_danger_zones_01",
+      "text": "Screws that stray toward the radius or the proximal supinator region risk tethering rotation or endangering the posterior interosseous nerve.",
+      "source_ids": [
+        "ao_6c1346a3836a917c",
+        "ao_dba28fa580cb941b"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "proximal_forearm_pin_safe_zones_retraction_hazards_01",
+      "text": "Keep the screw within the ulna and confirm free forearm rotation after insertion.",
+      "source_ids": [
+        "ao_6c1346a3836a917c"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "proximal_forearm_pin_safe_zones_exposure_01",
+      "text": "Provides a safe ulnar corridor for external fixator Schanz screws rather than a formal exposure.",
+      "source_ids": [
+        "ao_6c1346a3836a917c"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "proximal_forearm_pin_safe_zones_limitations_01",
+      "text": "The safe corridor is limited to the lateral and posterolateral proximal-to-middle ulna to avoid the radius and proximal nerves.",
+      "source_ids": [
+        "ao_6c1346a3836a917c"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "proximal_forearm_pin_safe_zones_indications_01",
+      "text": "Indicated for external fixator Schanz screw placement in the proximal forearm.",
+      "source_ids": [
+        "ao_6c1346a3836a917c"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "proximal_forearm_pin_safe_zones_closure_01",
+      "text": "Close each incision loosely around the screw.",
+      "source_ids": [
+        "ao_6c1346a3836a917c"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "proximal_forearm_pin_safe_zones_complications_01",
+      "text": "Complications include restricted forearm rotation if the screw contacts the radius and pin-tract problems.",
+      "source_ids": [
+        "ao_6c1346a3836a917c",
+        "ao_dba28fa580cb941b"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "proximal_forearm_pin_safe_zones_questions_01",
+      "text": "Into which part of the ulna are proximal forearm Schanz screws placed?",
+      "source_ids": [
+        "ao_6c1346a3836a917c"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "proximal_forearm_pin_safe_zones_questions_02",
+      "text": "What must be checked after screw insertion?",
+      "source_ids": [
+        "ao_6c1346a3836a917c"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "proximal_forearm_pin_safe_zones_questions_03",
+      "text": "In what rotation is the forearm held for insertion?",
+      "source_ids": [
+        "ao_6c1346a3836a917c"
+      ],
+      "risk_level": "medium"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "ao_6c1346a3836a917c",
+      "provider": "AO Surgery Reference",
+      "title": "Safe zones (proximal forearm)",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/proximal-forearm/approach/safe-zones",
+      "source_page_id": "ao_6c1346a3836a917c"
+    },
+    {
+      "source_id": "ao_dba28fa580cb941b",
+      "provider": "AO Surgery Reference",
+      "title": "Safe zones for pin placement in the forearm",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/forearm-shaft/approach/safe-zones-for-pin-placement-in-the-forearm",
+      "source_page_id": "ao_dba28fa580cb941b"
+    }
+  ],
+  "content_status": "agent_review_pending",
+  "review": {
+    "status": "agent_review_pending",
+    "required_roles": [
+      "adversarial_safety_reviewer",
+      "approach_anatomy_reviewer",
+      "educational_value_reviewer",
+      "evidence_reviewer",
+      "operative_exposure_reviewer",
+      "procedure_applicability_reviewer"
+    ],
+    "completed_roles": []
+  },
+  "resolved_contradiction_keys": [],
+  "authoring_provenance": {
+    "method": "local_codex_curated",
+    "definition_file": "data/approach_library/curated/proximal_forearm_boyd_safezones_batch004_v1.json",
+    "api_used": false
+  }
+}

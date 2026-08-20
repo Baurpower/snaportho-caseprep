@@ -1,0 +1,345 @@
+{
+  "schema_version": "brobot_approach_packet_v1",
+  "approach_id": "thumb_base_radiopalmar",
+  "name": "Radiopalmar approach to the base of the thumb",
+  "aliases": [
+    "Wagner approach to the first CMC",
+    "Bennett radiopalmar approach"
+  ],
+  "region": "thumb",
+  "joint": "carpometacarpal",
+  "bones": [
+    "first metacarpal",
+    "trapezium"
+  ],
+  "corridor": "Straight radiopalmar cut at the dorsal–palmar thenar skin junction from 1 cm distal to the radial styloid for 4–5 cm, or a curved Wagner cut, then thenar-muscle reflection to a first-CMC capsulotomy",
+  "positioning": [
+    {
+      "text": "Position the hand so the thenar–dorsal skin junction, radial styloid, and first CMC can be seen and the thumb can be pronated, supinated, and pulled out to length.",
+      "claim_ids": [
+        "thumb_base_radiopalmar_positioning_01"
+      ]
+    }
+  ],
+  "setup": [],
+  "surface_landmarks": [
+    {
+      "text": "Mark the radial styloid, the dorsal–palmar thenar skin junction, the APL tendon, and the expected dorsal sensory radial-nerve branches.",
+      "claim_ids": [
+        "thumb_base_radiopalmar_surface_landmarks_01"
+      ]
+    }
+  ],
+  "incision": [
+    {
+      "text": "Use a straight radiopalmar cut at the thenar dorsal–palmar skin junction starting about 1 cm distal to the radial styloid and running 4–5 cm distally, or a curved Wagner cut along the thenar eminence toward the palm. Wagner risks a scar across the wrist crease.",
+      "claim_ids": [
+        "thumb_base_radiopalmar_incision_01"
+      ]
+    }
+  ],
+  "superficial_interval": [
+    {
+      "text": "Elevate skin and subcutaneous flaps bluntly. Identify and protect the dorsal sensory radial-nerve divisions and the APL tendon with vessel loops; excessive loop retraction can impair flap blood supply.",
+      "claim_ids": [
+        "thumb_base_radiopalmar_superficial_interval_01"
+      ]
+    }
+  ],
+  "deep_interval": [
+    {
+      "text": "Detach thenar muscles from the first-metacarpal base, leaving a small insertion cuff, and reflect them palmarly. Perform a transverse or longitudinal capsulotomy. Inspect the joint by rotating the thumb in pronation and supination under longitudinal traction, which also helps reduce Bennett fractures. Preserve the volar oblique ligament on the ulnar volar beak; APL inserts on the radial base, and adductor pollicis pulls the shaft palmar and ulnar, producing the typical Bennett deformity.",
+      "claim_ids": [
+        "thumb_base_radiopalmar_deep_interval_01"
+      ]
+    }
+  ],
+  "layers": [
+    {
+      "text": "Skin, sensory radial-nerve branches and APL, thenar muscle origin, capsule, then the first CMC.",
+      "claim_ids": [
+        "thumb_base_radiopalmar_layers_01"
+      ]
+    }
+  ],
+  "structures_encountered": [],
+  "structures_at_risk": [
+    {
+      "text": "Dorsal sensory radial-nerve branches (neuroma risk), the APL tendon, thenar-muscle origin, and the volar oblique ligament on the ulnar beak are at risk.",
+      "claim_ids": [
+        "thumb_base_radiopalmar_structures_at_risk_01"
+      ]
+    }
+  ],
+  "danger_zones": [
+    {
+      "text": "Missing the sensory radial-nerve branches in this zone produces a troublesome neuroma. Leaving no thenar insertion cuff prevents secure muscle repair.",
+      "claim_ids": [
+        "thumb_base_radiopalmar_danger_zones_01"
+      ]
+    }
+  ],
+  "retraction_hazards": [
+    {
+      "text": "Do not retract sensory-nerve or APL vessel loops so hard that flap perfusion is lost.",
+      "claim_ids": [
+        "thumb_base_radiopalmar_retraction_hazards_01"
+      ]
+    }
+  ],
+  "exposure": [
+    {
+      "text": "Shows intra-articular first-CMC injuries such as Bennett and Rolando fractures, and basal metacarpal or trapezial fractures.",
+      "claim_ids": [
+        "thumb_base_radiopalmar_exposure_01"
+      ]
+    }
+  ],
+  "limitations": [
+    {
+      "text": "A Wagner curve can scar across the wrist crease. Extra-articular first-metacarpal shaft work is better done through the dorsal EPL–EPB interval.",
+      "claim_ids": [
+        "thumb_base_radiopalmar_limitations_01"
+      ]
+    }
+  ],
+  "extensions": [],
+  "indications": [
+    {
+      "text": "Indicated for intra-articular first-CMC fractures such as Bennett or Rolando injuries, and for basal metacarpal or trapezial fractures.",
+      "claim_ids": [
+        "thumb_base_radiopalmar_indications_01"
+      ]
+    }
+  ],
+  "relative_contraindications": [],
+  "implant_implications": [],
+  "fluoroscopy_implications": [],
+  "closure": [
+    {
+      "text": "Close the capsule with interrupted sutures and reattach the thenar muscles to the first-metacarpal base.",
+      "claim_ids": [
+        "thumb_base_radiopalmar_closure_01"
+      ]
+    }
+  ],
+  "complications": [
+    {
+      "text": "Complications include sensory radial-nerve neuroma, thenar-muscle detachment if no cuff is left, and a wrist-crease scar after a Wagner cut.",
+      "claim_ids": [
+        "thumb_base_radiopalmar_complications_01"
+      ]
+    }
+  ],
+  "bailouts": [],
+  "procedure_applications": [
+    {
+      "procedure_id": "thumb_fracture_orif",
+      "relationship": "primary_option",
+      "condition": "A Bennett or Rolando first-CMC fracture, or a basal first-metacarpal or trapezial fracture, is reduced through a radiopalmar window"
+    }
+  ],
+  "questions": [
+    {
+      "question": "Where does the straight radiopalmar incision start and how long is it?",
+      "answer": "About 1 cm distal to the radial styloid, running 4–5 cm distally at the dorsal–palmar thenar skin junction.",
+      "claim_ids": [
+        "thumb_base_radiopalmar_questions_01"
+      ]
+    },
+    {
+      "question": "Which ligament must be preserved on the ulnar volar beak?",
+      "answer": "The volar oblique ligament, the key stabilizer of the first-metacarpal base.",
+      "claim_ids": [
+        "thumb_base_radiopalmar_questions_02"
+      ]
+    },
+    {
+      "question": "What is the disadvantage of the Wagner curve?",
+      "answer": "It risks a scar across the wrist crease.",
+      "claim_ids": [
+        "thumb_base_radiopalmar_questions_03"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "thumb_base_radiopalmar_positioning_01",
+      "text": "Position the hand so the thenar–dorsal skin junction, radial styloid, and first CMC can be seen and the thumb can be pronated, supinated, and pulled out to length.",
+      "source_ids": [
+        "ao_161e78065b51e9b4"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "thumb_base_radiopalmar_surface_landmarks_01",
+      "text": "Mark the radial styloid, the dorsal–palmar thenar skin junction, the APL tendon, and the expected dorsal sensory radial-nerve branches.",
+      "source_ids": [
+        "ao_161e78065b51e9b4",
+        "ao_291f448f05e405e9"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "thumb_base_radiopalmar_incision_01",
+      "text": "Use a straight radiopalmar cut at the thenar dorsal–palmar skin junction starting about 1 cm distal to the radial styloid and running 4–5 cm distally, or a curved Wagner cut along the thenar eminence toward the palm. Wagner risks a scar across the wrist crease.",
+      "source_ids": [
+        "ao_161e78065b51e9b4"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "thumb_base_radiopalmar_superficial_interval_01",
+      "text": "Elevate skin and subcutaneous flaps bluntly. Identify and protect the dorsal sensory radial-nerve divisions and the APL tendon with vessel loops; excessive loop retraction can impair flap blood supply.",
+      "source_ids": [
+        "ao_161e78065b51e9b4",
+        "ao_291f448f05e405e9"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "thumb_base_radiopalmar_deep_interval_01",
+      "text": "Detach thenar muscles from the first-metacarpal base, leaving a small insertion cuff, and reflect them palmarly. Perform a transverse or longitudinal capsulotomy. Inspect the joint by rotating the thumb in pronation and supination under longitudinal traction, which also helps reduce Bennett fractures. Preserve the volar oblique ligament on the ulnar volar beak; APL inserts on the radial base, and adductor pollicis pulls the shaft palmar and ulnar, producing the typical Bennett deformity.",
+      "source_ids": [
+        "ao_161e78065b51e9b4"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "thumb_base_radiopalmar_layers_01",
+      "text": "Skin, sensory radial-nerve branches and APL, thenar muscle origin, capsule, then the first CMC.",
+      "source_ids": [
+        "ao_161e78065b51e9b4",
+        "ao_291f448f05e405e9"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "thumb_base_radiopalmar_structures_at_risk_01",
+      "text": "Dorsal sensory radial-nerve branches (neuroma risk), the APL tendon, thenar-muscle origin, and the volar oblique ligament on the ulnar beak are at risk.",
+      "source_ids": [
+        "ao_161e78065b51e9b4",
+        "ao_291f448f05e405e9"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "thumb_base_radiopalmar_danger_zones_01",
+      "text": "Missing the sensory radial-nerve branches in this zone produces a troublesome neuroma. Leaving no thenar insertion cuff prevents secure muscle repair.",
+      "source_ids": [
+        "ao_161e78065b51e9b4",
+        "ao_291f448f05e405e9"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "thumb_base_radiopalmar_retraction_hazards_01",
+      "text": "Do not retract sensory-nerve or APL vessel loops so hard that flap perfusion is lost.",
+      "source_ids": [
+        "ao_161e78065b51e9b4"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "thumb_base_radiopalmar_exposure_01",
+      "text": "Shows intra-articular first-CMC injuries such as Bennett and Rolando fractures, and basal metacarpal or trapezial fractures.",
+      "source_ids": [
+        "ao_161e78065b51e9b4"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "thumb_base_radiopalmar_limitations_01",
+      "text": "A Wagner curve can scar across the wrist crease. Extra-articular first-metacarpal shaft work is better done through the dorsal EPL–EPB interval.",
+      "source_ids": [
+        "ao_161e78065b51e9b4",
+        "ao_291f448f05e405e9"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "thumb_base_radiopalmar_indications_01",
+      "text": "Indicated for intra-articular first-CMC fractures such as Bennett or Rolando injuries, and for basal metacarpal or trapezial fractures.",
+      "source_ids": [
+        "ao_161e78065b51e9b4"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "thumb_base_radiopalmar_closure_01",
+      "text": "Close the capsule with interrupted sutures and reattach the thenar muscles to the first-metacarpal base.",
+      "source_ids": [
+        "ao_161e78065b51e9b4"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "thumb_base_radiopalmar_complications_01",
+      "text": "Complications include sensory radial-nerve neuroma, thenar-muscle detachment if no cuff is left, and a wrist-crease scar after a Wagner cut.",
+      "source_ids": [
+        "ao_161e78065b51e9b4",
+        "ao_291f448f05e405e9"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "thumb_base_radiopalmar_questions_01",
+      "text": "Where does the straight radiopalmar incision start and how long is it?",
+      "source_ids": [
+        "ao_161e78065b51e9b4"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "thumb_base_radiopalmar_questions_02",
+      "text": "Which ligament must be preserved on the ulnar volar beak?",
+      "source_ids": [
+        "ao_161e78065b51e9b4"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "thumb_base_radiopalmar_questions_03",
+      "text": "What is the disadvantage of the Wagner curve?",
+      "source_ids": [
+        "ao_161e78065b51e9b4"
+      ],
+      "risk_level": "medium"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "ao_161e78065b51e9b4",
+      "provider": "AO Surgery Reference",
+      "title": "Radiopalmar Approach To The Base Of The Thumb",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/thumb/approach/radiopalmar-approach-to-the-base-of-the-thumb",
+      "source_page_id": "ao_161e78065b51e9b4"
+    },
+    {
+      "source_id": "ao_291f448f05e405e9",
+      "provider": "AO Surgery Reference",
+      "title": "Dorsal Approach To The Thumb Metacarpal",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/thumb/approach/dorsal-approach-to-the-thumb-metacarpal",
+      "source_page_id": "ao_291f448f05e405e9"
+    }
+  ],
+  "content_status": "agent_review_pending",
+  "review": {
+    "status": "agent_review_pending",
+    "required_roles": [
+      "adversarial_safety_reviewer",
+      "approach_anatomy_reviewer",
+      "educational_value_reviewer",
+      "evidence_reviewer",
+      "operative_exposure_reviewer",
+      "procedure_applicability_reviewer"
+    ],
+    "completed_roles": []
+  },
+  "resolved_contradiction_keys": [],
+  "authoring_provenance": {
+    "method": "local_codex_curated",
+    "definition_file": "data/approach_library/curated/thumb_batch001_v1.json",
+    "api_used": false
+  }
+}

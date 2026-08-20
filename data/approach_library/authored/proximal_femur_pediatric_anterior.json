@@ -1,0 +1,354 @@
+{
+  "schema_version": "brobot_approach_packet_v1",
+  "approach_id": "proximal_femur_pediatric_anterior",
+  "name": "Pediatric anterior approach to the proximal femur",
+  "aliases": [
+    "pediatric Smith-Petersen approach",
+    "pediatric bikini anterior hip approach"
+  ],
+  "region": "proximal-femur",
+  "joint": "hip",
+  "bones": [
+    "proximal femur"
+  ],
+  "corridor": "Bikini anterior interval between tensor fascia lata and sartorius, then rectus femoris release to a Z-capsulotomy of the anterior femoral head and neck",
+  "positioning": [
+    {
+      "text": "Position supine so the anterior hip, iliac spines, and operative limb can be manipulated.",
+      "claim_ids": [
+        "proximal_femur_pediatric_anterior_positioning_01"
+      ]
+    }
+  ],
+  "setup": [],
+  "surface_landmarks": [
+    {
+      "text": "Mark the anterior superior and anterior inferior iliac spines; the bikini incision sits below the ASIS and is centered on the AIIS.",
+      "claim_ids": [
+        "proximal_femur_pediatric_anterior_surface_landmarks_01"
+      ]
+    }
+  ],
+  "incision": [
+    {
+      "text": "Use a bikini incision below the anterior superior iliac spine, centered on the anterior inferior iliac spine.",
+      "claim_ids": [
+        "proximal_femur_pediatric_anterior_incision_01"
+      ]
+    }
+  ],
+  "superficial_interval": [
+    {
+      "text": "Incise fascia in the tensor–sartorius interval, preferably along the medial edge of tensor fascia lata, and identify and protect the lateral cutaneous nerve of the thigh.",
+      "claim_ids": [
+        "proximal_femur_pediatric_anterior_superficial_interval_01"
+      ]
+    }
+  ],
+  "deep_interval": [
+    {
+      "text": "Release the straight head of rectus femoris from the AIIS, separate and retract the reflected head from the capsule, and open a Z-capsulotomy with stay sutures while protecting the labrum.",
+      "claim_ids": [
+        "proximal_femur_pediatric_anterior_deep_interval_01"
+      ]
+    }
+  ],
+  "layers": [
+    {
+      "text": "Skin, fat, deep fascia, tensor–sartorius interval, rectus femoris, anterior capsule, then femoral head and neck.",
+      "claim_ids": [
+        "proximal_femur_pediatric_anterior_layers_01"
+      ]
+    }
+  ],
+  "structures_encountered": [],
+  "structures_at_risk": [
+    {
+      "text": "The lateral cutaneous nerve of the thigh, the labrum, and the medial femoral circumflex artery (protected by intact obturator externus and by staying cranial to piriformis when the capsule is prepared) are at risk.",
+      "claim_ids": [
+        "proximal_femur_pediatric_anterior_structures_at_risk_01"
+      ]
+    }
+  ],
+  "danger_zones": [
+    {
+      "text": "Capsule preparation must stay cranial to piriformis; the medial femoral circumflex artery enters the capsule between gemellus superior and piriformis.",
+      "claim_ids": [
+        "proximal_femur_pediatric_anterior_danger_zones_01"
+      ]
+    }
+  ],
+  "retraction_hazards": [
+    {
+      "text": "Protect the lateral cutaneous nerve of the thigh and the labrum; in children the iliac apophysis can often be left intact, with only a partial tensor release from the crest if access is tight.",
+      "claim_ids": [
+        "proximal_femur_pediatric_anterior_retraction_hazards_01"
+      ]
+    }
+  ],
+  "exposure": [
+    {
+      "text": "Gives the most direct view of the anterior femoral head and neck; screw or plate fixation still requires a separate lateral incision.",
+      "claim_ids": [
+        "proximal_femur_pediatric_anterior_exposure_01"
+      ]
+    }
+  ],
+  "limitations": [
+    {
+      "text": "This corridor does not provide the lateral implant window; fixation of a reduced neck fracture needs a separate stab or formal lateral approach.",
+      "claim_ids": [
+        "proximal_femur_pediatric_anterior_limitations_01"
+      ]
+    }
+  ],
+  "extensions": [],
+  "indications": [
+    {
+      "text": "Preferred by many surgeons for open reduction of pediatric femoral head and neck fractures.",
+      "claim_ids": [
+        "proximal_femur_pediatric_anterior_indications_01"
+      ]
+    }
+  ],
+  "relative_contraindications": [],
+  "implant_implications": [],
+  "fluoroscopy_implications": [],
+  "closure": [
+    {
+      "text": "Repair the capsule and the released rectus origin, then close fascia, fat, and skin.",
+      "claim_ids": [
+        "proximal_femur_pediatric_anterior_closure_01"
+      ]
+    }
+  ],
+  "complications": [
+    {
+      "text": "Complications include lateral femoral cutaneous nerve injury and avascular necrosis if the medial femoral circumflex artery is injured during capsular work.",
+      "claim_ids": [
+        "proximal_femur_pediatric_anterior_complications_01"
+      ]
+    }
+  ],
+  "bailouts": [],
+  "procedure_applications": [
+    {
+      "procedure_id": "femoral_neck_fracture_orif_young",
+      "relationship": "primary_option",
+      "condition": "A pediatric femoral head or neck fracture needs open anterior reduction, with fixation through a separate lateral window"
+    }
+  ],
+  "questions": [
+    {
+      "question": "Where is the pediatric bikini incision centered?",
+      "answer": "Below the anterior superior iliac spine, centered on the anterior inferior iliac spine.",
+      "claim_ids": [
+        "proximal_femur_pediatric_anterior_questions_01"
+      ]
+    },
+    {
+      "question": "Which nerve must be protected in the tensor–sartorius interval?",
+      "answer": "The lateral cutaneous nerve of the thigh.",
+      "claim_ids": [
+        "proximal_femur_pediatric_anterior_questions_02"
+      ]
+    },
+    {
+      "question": "Can neck fixation be inserted through this incision alone?",
+      "answer": "No. Screws or a plate require a separate lateral approach.",
+      "claim_ids": [
+        "proximal_femur_pediatric_anterior_questions_03"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "proximal_femur_pediatric_anterior_positioning_01",
+      "text": "Position supine so the anterior hip, iliac spines, and operative limb can be manipulated.",
+      "source_ids": [
+        "ao_b8234e68bf76e475"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "proximal_femur_pediatric_anterior_surface_landmarks_01",
+      "text": "Mark the anterior superior and anterior inferior iliac spines; the bikini incision sits below the ASIS and is centered on the AIIS.",
+      "source_ids": [
+        "ao_a370dc7d87dd01d0",
+        "ao_b8234e68bf76e475"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "proximal_femur_pediatric_anterior_incision_01",
+      "text": "Use a bikini incision below the anterior superior iliac spine, centered on the anterior inferior iliac spine.",
+      "source_ids": [
+        "ao_a370dc7d87dd01d0"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "proximal_femur_pediatric_anterior_superficial_interval_01",
+      "text": "Incise fascia in the tensor–sartorius interval, preferably along the medial edge of tensor fascia lata, and identify and protect the lateral cutaneous nerve of the thigh.",
+      "source_ids": [
+        "ao_a370dc7d87dd01d0",
+        "ao_b8234e68bf76e475"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "proximal_femur_pediatric_anterior_deep_interval_01",
+      "text": "Release the straight head of rectus femoris from the AIIS, separate and retract the reflected head from the capsule, and open a Z-capsulotomy with stay sutures while protecting the labrum.",
+      "source_ids": [
+        "ao_a370dc7d87dd01d0",
+        "ao_b8234e68bf76e475"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "proximal_femur_pediatric_anterior_layers_01",
+      "text": "Skin, fat, deep fascia, tensor–sartorius interval, rectus femoris, anterior capsule, then femoral head and neck.",
+      "source_ids": [
+        "ao_a370dc7d87dd01d0",
+        "ao_b8234e68bf76e475"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "proximal_femur_pediatric_anterior_structures_at_risk_01",
+      "text": "The lateral cutaneous nerve of the thigh, the labrum, and the medial femoral circumflex artery (protected by intact obturator externus and by staying cranial to piriformis when the capsule is prepared) are at risk.",
+      "source_ids": [
+        "ao_a370dc7d87dd01d0",
+        "ao_b8234e68bf76e475",
+        "ao_235b0fb9748c5272"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "proximal_femur_pediatric_anterior_danger_zones_01",
+      "text": "Capsule preparation must stay cranial to piriformis; the medial femoral circumflex artery enters the capsule between gemellus superior and piriformis.",
+      "source_ids": [
+        "ao_a370dc7d87dd01d0",
+        "ao_235b0fb9748c5272"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "proximal_femur_pediatric_anterior_retraction_hazards_01",
+      "text": "Protect the lateral cutaneous nerve of the thigh and the labrum; in children the iliac apophysis can often be left intact, with only a partial tensor release from the crest if access is tight.",
+      "source_ids": [
+        "ao_a370dc7d87dd01d0"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "proximal_femur_pediatric_anterior_exposure_01",
+      "text": "Gives the most direct view of the anterior femoral head and neck; screw or plate fixation still requires a separate lateral incision.",
+      "source_ids": [
+        "ao_a370dc7d87dd01d0"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "proximal_femur_pediatric_anterior_limitations_01",
+      "text": "This corridor does not provide the lateral implant window; fixation of a reduced neck fracture needs a separate stab or formal lateral approach.",
+      "source_ids": [
+        "ao_a370dc7d87dd01d0"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "proximal_femur_pediatric_anterior_indications_01",
+      "text": "Preferred by many surgeons for open reduction of pediatric femoral head and neck fractures.",
+      "source_ids": [
+        "ao_a370dc7d87dd01d0"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "proximal_femur_pediatric_anterior_closure_01",
+      "text": "Repair the capsule and the released rectus origin, then close fascia, fat, and skin.",
+      "source_ids": [
+        "ao_b8234e68bf76e475"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "proximal_femur_pediatric_anterior_complications_01",
+      "text": "Complications include lateral femoral cutaneous nerve injury and avascular necrosis if the medial femoral circumflex artery is injured during capsular work.",
+      "source_ids": [
+        "ao_a370dc7d87dd01d0",
+        "ao_b8234e68bf76e475",
+        "ao_235b0fb9748c5272"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "proximal_femur_pediatric_anterior_questions_01",
+      "text": "Where is the pediatric bikini incision centered?",
+      "source_ids": [
+        "ao_a370dc7d87dd01d0"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "proximal_femur_pediatric_anterior_questions_02",
+      "text": "Which nerve must be protected in the tensor–sartorius interval?",
+      "source_ids": [
+        "ao_a370dc7d87dd01d0",
+        "ao_b8234e68bf76e475"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "proximal_femur_pediatric_anterior_questions_03",
+      "text": "Can neck fixation be inserted through this incision alone?",
+      "source_ids": [
+        "ao_a370dc7d87dd01d0"
+      ],
+      "risk_level": "medium"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "ao_a370dc7d87dd01d0",
+      "provider": "AO Surgery Reference",
+      "title": "Anterior Approach",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/pediatric-trauma/proximal-femur/approach/anterior-approach",
+      "source_page_id": "ao_a370dc7d87dd01d0"
+    },
+    {
+      "source_id": "ao_b8234e68bf76e475",
+      "provider": "AO Surgery Reference",
+      "title": "Anterior approach (Smith-Petersen)",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/proximal-femur/approach/anterior-approach-smith-petersen",
+      "source_page_id": "ao_b8234e68bf76e475"
+    },
+    {
+      "source_id": "ao_235b0fb9748c5272",
+      "provider": "AO Surgery Reference",
+      "title": "Surgical hip dislocation (pediatric proximal femur)",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/pediatric-trauma/proximal-femur/approach/surgical-hip-dislocation",
+      "source_page_id": "ao_235b0fb9748c5272"
+    }
+  ],
+  "content_status": "agent_review_pending",
+  "review": {
+    "status": "agent_review_pending",
+    "required_roles": [
+      "adversarial_safety_reviewer",
+      "approach_anatomy_reviewer",
+      "educational_value_reviewer",
+      "evidence_reviewer",
+      "operative_exposure_reviewer",
+      "procedure_applicability_reviewer"
+    ],
+    "completed_roles": []
+  },
+  "resolved_contradiction_keys": [],
+  "authoring_provenance": {
+    "method": "local_codex_curated",
+    "definition_file": "data/approach_library/curated/proximal_femur_nailing_lateral_gibson_batch004_v1.json",
+    "api_used": false
+  }
+}

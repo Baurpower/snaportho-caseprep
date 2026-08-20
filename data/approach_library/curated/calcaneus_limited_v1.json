@@ -3,89 +3,548 @@
     {
       "approach_id": "calcaneus_medial_sustentacular",
       "name": "Medial approach to the calcaneus",
-      "aliases": ["medial sustentacular approach", "medial calcaneal approach"],
+      "aliases": [
+        "medial sustentacular approach",
+        "medial calcaneal approach"
+      ],
       "region": "medial hindfoot and calcaneus",
       "joint": "subtalar joint",
-      "bones": ["calcaneus", "talus"],
+      "bones": [
+        "calcaneus",
+        "talus"
+      ],
       "corridor": "Interval between the posterior tibial neurovascular bundle and flexor hallucis longus to the sustentaculum tali and medial calcaneal wall",
       "sources": [
-        {"source_id": "ao_b47e3bda0df67c85", "provider": "AO Surgery Reference", "title": "Medial approach", "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/calcaneous/approach/medial-approach", "source_page_id": "ao_b47e3bda0df67c85"},
-        {"source_id": "orthobullets_33cf186941001c44", "provider": "Orthobullets", "title": "Medial Approach to Calcaneus", "url": "https://www.orthobullets.com/approaches/12046/medial-approach-to-calcaneus", "source_page_id": "orthobullets_33cf186941001c44"}
+        {
+          "source_id": "ao_b47e3bda0df67c85",
+          "provider": "AO Surgery Reference",
+          "title": "Medial approach",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/calcaneous/approach/medial-approach",
+          "source_page_id": "ao_b47e3bda0df67c85"
+        },
+        {
+          "source_id": "orthobullets_33cf186941001c44",
+          "provider": "Orthobullets",
+          "title": "Medial Approach to Calcaneus",
+          "url": "https://www.orthobullets.com/approaches/12046/medial-approach-to-calcaneus",
+          "source_page_id": "orthobullets_33cf186941001c44"
+        }
       ],
       "procedure_applications": [
-        {"procedure_id": "calcaneus_fracture_orif", "relationship": "conditional_option", "condition": "A displaced sustentaculum-tali fragment or medial-wall target requires direct reduction"},
-        {"procedure_id": "calcaneus_open_fracture_debridement", "relationship": "conditional_option", "condition": "A medial open wound requires debridement and direct medial access"}
+        {
+          "procedure_id": "calcaneus_fracture_orif",
+          "relationship": "conditional_option",
+          "condition": "A displaced sustentaculum-tali fragment or medial-wall target requires direct reduction"
+        },
+        {
+          "procedure_id": "calcaneus_open_fracture_debridement",
+          "relationship": "conditional_option",
+          "condition": "A medial open wound requires debridement and direct medial access"
+        }
       ],
       "sections": {
-        "positioning": [{"text": "Position supine with the hip externally rotated or use a bump so the medial hindfoot faces upward and remains accessible to imaging.", "source_ids": ["ao_b47e3bda0df67c85", "orthobullets_33cf186941001c44"]}],
-        "setup": [{"text": "Prep the leg and foot freely and confirm that lateral and axial heel fluoroscopic views can be obtained before incision.", "source_ids": ["ao_b47e3bda0df67c85", "orthobullets_33cf186941001c44"]}],
-        "surface_landmarks": [{"text": "Mark the medial malleolus, navicular, sustentaculum tali, posterior tibial tendon, and anticipated course of the tarsal-tunnel neurovascular bundle.", "source_ids": ["ao_b47e3bda0df67c85", "orthobullets_33cf186941001c44"]}],
-        "incision": [{"text": "Place an approximately 5-cm incision parallel to the neurovascular bundle, centered inferior to the medial malleolus and directed toward the proximal navicular.", "source_ids": ["ao_b47e3bda0df67c85", "orthobullets_33cf186941001c44"], "risk_level": "high"}],
-        "superficial_interval": [{"text": "Open flexor retinaculum and identify posterior tibial tendon, flexor digitorum longus, posterior tibial vessels and nerve, and flexor hallucis longus before developing a deep window.", "source_ids": ["ao_b47e3bda0df67c85", "orthobullets_33cf186941001c44"], "risk_level": "high"}],
-        "deep_interval": [{"text": "Develop the interval between the posterior tibial neurovascular bundle and flexor hallucis longus, retracting FHL plantarly to expose sustentaculum and medial calcaneal wall.", "source_ids": ["ao_b47e3bda0df67c85", "orthobullets_33cf186941001c44"], "risk_level": "high"}],
-        "layers": [{"text": "Skin and subcutaneous tissue, flexor retinaculum, identified tarsal-tunnel tendons and neurovascular bundle, interval beside FHL, then medial calcaneal periosteum and sustentaculum.", "source_ids": ["ao_b47e3bda0df67c85", "orthobullets_33cf186941001c44"]}],
-        "structures_encountered": [{"text": "Posterior tibial tendon, flexor digitorum longus, posterior tibial artery/veins and tibial nerve, flexor hallucis longus, sustentaculum tali, and deltoid-ligament fibers define the field.", "source_ids": ["ao_b47e3bda0df67c85", "orthobullets_33cf186941001c44"]}],
-        "structures_at_risk": [{"text": "The posterior tibial neurovascular bundle, medial calcaneal nerve branches, nerve to abductor digiti minimi, and flexor hallucis longus are at risk during exposure and fixation.", "source_ids": ["ao_b47e3bda0df67c85", "orthobullets_33cf186941001c44"], "risk_level": "high"}],
-        "danger_zones": [{"text": "Do not create a blind window across the neurovascular bundle; identify every tarsal-tunnel structure and protect the bundle before working on either side of FHL.", "source_ids": ["ao_b47e3bda0df67c85", "orthobullets_33cf186941001c44"], "risk_level": "high"}],
-        "retraction_hazards": [{"text": "Use gentle, intermittent retraction of the tibial neurovascular bundle and FHL and avoid fixed pressure within the confined tarsal tunnel.", "source_ids": ["ao_b47e3bda0df67c85", "orthobullets_33cf186941001c44"], "risk_level": "high"}],
-        "exposure": [{"text": "Directly exposes the sustentaculum tali and medial/inferomedial calcaneal wall but does not provide the broad posterior-facet visualization of lateral approaches.", "source_ids": ["ao_b47e3bda0df67c85", "orthobullets_33cf186941001c44"]}],
-        "limitations": [{"text": "This is a targeted medial exposure for uncommon sustentacular or medial-wall pathology; most calcaneal fracture patterns are better addressed laterally or posteriorly.", "source_ids": ["ao_b47e3bda0df67c85", "orthobullets_33cf186941001c44"]}],
-        "extensions": [{"text": "Additional carefully separated windows may be developed around FHL and the protected bundle when fracture geometry requires more medial-wall access.", "source_ids": ["ao_b47e3bda0df67c85"]}],
-        "indications": [{"text": "Indicated for displaced sustentaculum-tali fractures, selected medial-wall reduction, and debridement of medial open calcaneal fractures.", "source_ids": ["ao_b47e3bda0df67c85", "orthobullets_33cf186941001c44"]}],
-        "relative_contraindications": [{"text": "Avoid using this limited corridor as the sole exposure when posterior-facet, lateral-wall, or calcaneal-body reduction cannot be verified medially.", "source_ids": ["ao_b47e3bda0df67c85", "orthobullets_33cf186941001c44"]}],
-        "implant_implications": [{"text": "Plan screw and plate trajectories around the tibial neurovascular bundle and FHL and confirm that fixation does not penetrate the subtalar joint.", "source_ids": ["ao_b47e3bda0df67c85", "orthobullets_33cf186941001c44"], "risk_level": "high"}],
-        "fluoroscopy_implications": [{"text": "Use image intensification to localize the sustentaculum and verify reduction, screw trajectory, and avoidance of subtalar penetration.", "source_ids": ["ao_b47e3bda0df67c85", "orthobullets_33cf186941001c44"]}],
-        "closure": [{"text": "Release retractors and confirm neurovascular integrity, repair flexor retinaculum when appropriate, and close subcutaneous tissue and skin without tension.", "source_ids": ["ao_b47e3bda0df67c85", "orthobullets_33cf186941001c44"], "risk_level": "high"}],
-        "complications": [{"text": "Complications include tibial or medial-calcaneal neuropathy, posterior tibial vascular injury, FHL injury or tethering, medial instability, wound problems, and intra-articular fixation.", "source_ids": ["ao_b47e3bda0df67c85", "orthobullets_33cf186941001c44"], "risk_level": "high"}],
-        "bailouts": [{"text": "If neurovascular mobilization is unsafe or reduction cannot be assessed, stop blind medial work and add the fracture-appropriate lateral or posterior exposure.", "source_ids": ["ao_b47e3bda0df67c85", "orthobullets_33cf186941001c44"], "risk_level": "high"}],
+        "positioning": [
+          {
+            "text": "Position supine with the hip externally rotated or use a bump so the medial hindfoot faces upward and remains accessible to imaging.",
+            "source_ids": [
+              "ao_b47e3bda0df67c85",
+              "orthobullets_33cf186941001c44"
+            ]
+          }
+        ],
+        "setup": [
+          {
+            "text": "Prep the leg and foot freely and confirm that lateral and axial heel fluoroscopic views can be obtained before incision.",
+            "source_ids": [
+              "ao_b47e3bda0df67c85",
+              "orthobullets_33cf186941001c44"
+            ]
+          }
+        ],
+        "surface_landmarks": [
+          {
+            "text": "Mark the medial malleolus, navicular, sustentaculum tali, posterior tibial tendon, and anticipated course of the tarsal-tunnel neurovascular bundle.",
+            "source_ids": [
+              "ao_b47e3bda0df67c85",
+              "orthobullets_33cf186941001c44"
+            ]
+          }
+        ],
+        "incision": [
+          {
+            "text": "Place an approximately 5-cm incision parallel to the neurovascular bundle, centered inferior to the medial malleolus and directed toward the proximal navicular.",
+            "source_ids": [
+              "ao_b47e3bda0df67c85",
+              "orthobullets_33cf186941001c44"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "superficial_interval": [
+          {
+            "text": "Open flexor retinaculum and identify posterior tibial tendon, flexor digitorum longus, posterior tibial vessels and nerve, and flexor hallucis longus before developing a deep window.",
+            "source_ids": [
+              "ao_b47e3bda0df67c85",
+              "orthobullets_33cf186941001c44"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "deep_interval": [
+          {
+            "text": "Develop the interval between the posterior tibial neurovascular bundle and flexor hallucis longus, retracting FHL plantarly to expose sustentaculum and medial calcaneal wall.",
+            "source_ids": [
+              "ao_b47e3bda0df67c85",
+              "orthobullets_33cf186941001c44"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "layers": [
+          {
+            "text": "Skin and subcutaneous tissue, flexor retinaculum, identified tarsal-tunnel tendons and neurovascular bundle, interval beside FHL, then medial calcaneal periosteum and sustentaculum.",
+            "source_ids": [
+              "ao_b47e3bda0df67c85",
+              "orthobullets_33cf186941001c44"
+            ]
+          }
+        ],
+        "structures_encountered": [
+          {
+            "text": "Posterior tibial tendon, flexor digitorum longus, posterior tibial artery/veins and tibial nerve, flexor hallucis longus, sustentaculum tali, and deltoid-ligament fibers define the field.",
+            "source_ids": [
+              "ao_b47e3bda0df67c85",
+              "orthobullets_33cf186941001c44"
+            ]
+          }
+        ],
+        "structures_at_risk": [
+          {
+            "text": "The posterior tibial neurovascular bundle, medial calcaneal nerve branches, nerve to abductor digiti minimi, and flexor hallucis longus are at risk during exposure and fixation.",
+            "source_ids": [
+              "ao_b47e3bda0df67c85",
+              "orthobullets_33cf186941001c44"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "danger_zones": [
+          {
+            "text": "Do not create a blind window across the neurovascular bundle; identify every tarsal-tunnel structure and protect the bundle before working on either side of FHL.",
+            "source_ids": [
+              "ao_b47e3bda0df67c85",
+              "orthobullets_33cf186941001c44"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "retraction_hazards": [
+          {
+            "text": "Use gentle, intermittent retraction of the tibial neurovascular bundle and FHL and avoid fixed pressure within the confined tarsal tunnel.",
+            "source_ids": [
+              "ao_b47e3bda0df67c85",
+              "orthobullets_33cf186941001c44"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "exposure": [
+          {
+            "text": "Directly exposes the sustentaculum tali and medial/inferomedial calcaneal wall but does not provide the broad posterior-facet visualization of lateral approaches.",
+            "source_ids": [
+              "ao_b47e3bda0df67c85",
+              "orthobullets_33cf186941001c44"
+            ]
+          }
+        ],
+        "limitations": [
+          {
+            "text": "This is a targeted medial exposure for uncommon sustentacular or medial-wall pathology; most calcaneal fracture patterns are better addressed laterally or posteriorly.",
+            "source_ids": [
+              "ao_b47e3bda0df67c85",
+              "orthobullets_33cf186941001c44"
+            ]
+          }
+        ],
+        "extensions": [
+          {
+            "text": "Additional carefully separated windows may be developed around FHL and the protected bundle when fracture geometry requires more medial-wall access.",
+            "source_ids": [
+              "ao_b47e3bda0df67c85"
+            ]
+          }
+        ],
+        "indications": [
+          {
+            "text": "Indicated for displaced sustentaculum-tali fractures, selected medial-wall reduction, and debridement of medial open calcaneal fractures.",
+            "source_ids": [
+              "ao_b47e3bda0df67c85",
+              "orthobullets_33cf186941001c44"
+            ]
+          }
+        ],
+        "relative_contraindications": [
+          {
+            "text": "Avoid using this limited corridor as the sole exposure when posterior-facet, lateral-wall, or calcaneal-body reduction cannot be verified medially.",
+            "source_ids": [
+              "ao_b47e3bda0df67c85",
+              "orthobullets_33cf186941001c44"
+            ]
+          }
+        ],
+        "implant_implications": [
+          {
+            "text": "Plan screw and plate trajectories around the tibial neurovascular bundle and FHL and confirm that fixation does not penetrate the subtalar joint.",
+            "source_ids": [
+              "ao_b47e3bda0df67c85",
+              "orthobullets_33cf186941001c44"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "fluoroscopy_implications": [
+          {
+            "text": "Use image intensification to localize the sustentaculum and verify reduction, screw trajectory, and avoidance of subtalar penetration.",
+            "source_ids": [
+              "ao_b47e3bda0df67c85",
+              "orthobullets_33cf186941001c44"
+            ]
+          }
+        ],
+        "closure": [
+          {
+            "text": "Release retractors and confirm neurovascular integrity, repair flexor retinaculum when appropriate, and close subcutaneous tissue and skin without tension.",
+            "source_ids": [
+              "ao_b47e3bda0df67c85",
+              "orthobullets_33cf186941001c44"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "complications": [
+          {
+            "text": "Complications include tibial or medial-calcaneal neuropathy, posterior tibial vascular injury, FHL injury or tethering, medial instability, wound problems, and intra-articular fixation.",
+            "source_ids": [
+              "ao_b47e3bda0df67c85",
+              "orthobullets_33cf186941001c44"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "bailouts": [
+          {
+            "text": "If neurovascular mobilization is unsafe or reduction cannot be assessed, stop blind medial work and add the fracture-appropriate lateral or posterior exposure.",
+            "source_ids": [
+              "ao_b47e3bda0df67c85",
+              "orthobullets_33cf186941001c44"
+            ],
+            "risk_level": "high"
+          }
+        ],
         "questions": [
-          {"question": "What interval reaches the sustentaculum through the medial approach?", "answer": "Between the posterior tibial neurovascular bundle and flexor hallucis longus.", "source_ids": ["ao_b47e3bda0df67c85", "orthobullets_33cf186941001c44"]},
-          {"question": "Which ligamentous fibers should be preserved to avoid medial instability and protect talar blood supply?", "answer": "The tibiocalcaneal portion of the deltoid ligament.", "source_ids": ["ao_b47e3bda0df67c85", "orthobullets_33cf186941001c44"]}
+          {
+            "question": "What interval reaches the sustentaculum through the medial approach?",
+            "answer": "Between the posterior tibial neurovascular bundle and flexor hallucis longus.",
+            "source_ids": [
+              "ao_b47e3bda0df67c85",
+              "orthobullets_33cf186941001c44"
+            ]
+          },
+          {
+            "question": "Which ligamentous fibers should be preserved to avoid medial instability and protect talar blood supply?",
+            "answer": "The tibiocalcaneal portion of the deltoid ligament.",
+            "source_ids": [
+              "ao_b47e3bda0df67c85",
+              "orthobullets_33cf186941001c44"
+            ]
+          }
         ]
       }
     },
     {
       "approach_id": "calcaneus_sinus_tarsi",
       "name": "Sinus tarsi approach to the calcaneus",
-      "aliases": ["limited lateral calcaneal approach", "sinus tarsi calcaneus approach"],
+      "aliases": [
+        "limited lateral calcaneal approach",
+        "sinus tarsi calcaneus approach"
+      ],
       "region": "lateral hindfoot and calcaneus",
       "joint": "subtalar joint",
-      "bones": ["calcaneus", "talus"],
+      "bones": [
+        "calcaneus",
+        "talus"
+      ],
       "corridor": "Limited lateral interval from fibular tip toward fourth-metatarsal base, superior to the peroneal tendons, entering the sinus tarsi and posterior subtalar facet",
       "sources": [
-        {"source_id": "ao_3ac4777d6982b3ed", "provider": "AO Surgery Reference", "title": "Sinus tarsi approach", "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/calcaneous/approach/sinus-tarsi-approach", "source_page_id": "ao_3ac4777d6982b3ed"},
-        {"source_id": "orthobullets_calcaneus_1051", "provider": "Orthobullets", "title": "Calcaneus Fractures", "url": "https://www.orthobullets.com/trauma/1051/calcaneus-fractures"},
-        {"source_id": "pmid_33543722", "provider": "PubMed", "title": "Sinus Tarsi Approach for Calcaneal Fractures: The New Gold Standard?", "url": "https://pubmed.ncbi.nlm.nih.gov/33543722/"}
+        {
+          "source_id": "ao_3ac4777d6982b3ed",
+          "provider": "AO Surgery Reference",
+          "title": "Sinus tarsi approach",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/calcaneous/approach/sinus-tarsi-approach",
+          "source_page_id": "ao_3ac4777d6982b3ed"
+        },
+        {
+          "source_id": "orthobullets_calcaneus_1051",
+          "provider": "Orthobullets",
+          "title": "Calcaneus Fractures",
+          "url": "https://www.orthobullets.com/trauma/1051/calcaneus-fractures"
+        },
+        {
+          "source_id": "pmid_33543722",
+          "provider": "PubMed",
+          "title": "Sinus Tarsi Approach for Calcaneal Fractures: The New Gold Standard?",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/33543722/"
+        },
+        {
+          "source_id": "orthobullets_b625b76c6bbae45b",
+          "provider": "Orthobullets",
+          "title": "Tarsus And Ankle Kocher Lateral Approach",
+          "url": "https://www.orthobullets.com/approaches/12044/tarsus-and-ankle-kocher-lateral-approach",
+          "source_page_id": "orthobullets_b625b76c6bbae45b"
+        },
+        {
+          "source_id": "orthobullets_244912a3487d1296",
+          "provider": "Orthobullets",
+          "title": "Olliers Lateral Approach To The Hindfoot",
+          "url": "https://www.orthobullets.com/approaches/12045/olliers-lateral-approach-to-the-hindfoot",
+          "source_page_id": "orthobullets_244912a3487d1296"
+        }
       ],
       "procedure_applications": [
-        {"procedure_id": "calcaneus_fracture_orif", "relationship": "primary_option", "condition": "A displaced intra-articular fracture is reducible through a limited lateral articular window with adjunctive body reduction"}
+        {
+          "procedure_id": "calcaneus_fracture_orif",
+          "relationship": "primary_option",
+          "condition": "A displaced intra-articular fracture is reducible through a limited lateral articular window with adjunctive body reduction"
+        }
       ],
       "sections": {
-        "positioning": [{"text": "Position lateral or floppy lateral with the operative hindfoot uppermost and the foot accessible for traction, reduction, and fluoroscopy.", "source_ids": ["ao_3ac4777d6982b3ed", "orthobullets_calcaneus_1051"]}],
-        "setup": [{"text": "Respect soft-tissue timing and generally wait for recovery of lateral skin wrinkling; prepare an adjunctive reduction method for the calcaneal body and primary fracture line.", "source_ids": ["ao_3ac4777d6982b3ed", "orthobullets_calcaneus_1051", "pmid_33543722"], "risk_level": "high"}],
-        "surface_landmarks": [{"text": "Mark the fibular tip, base of the fourth metatarsal, peroneal-tendon course, sural-nerve region, and subtalar joint line.", "source_ids": ["ao_3ac4777d6982b3ed", "orthobullets_calcaneus_1051"]}],
-        "incision": [{"text": "Make a limited incision from the fibular tip toward the fourth-metatarsal base, adjusting length and orientation to the fracture while avoiding posterior extension toward the sural nerve.", "source_ids": ["ao_3ac4777d6982b3ed", "orthobullets_calcaneus_1051"], "risk_level": "high"}],
-        "superficial_interval": [{"text": "Open deep fascia, protect the sural nerve and peroneal tendons inferiorly, and reflect only the necessary portion of extensor digitorum brevis.", "source_ids": ["ao_3ac4777d6982b3ed", "orthobullets_calcaneus_1051"], "risk_level": "high"}],
-        "deep_interval": [{"text": "Enter the sinus tarsi and subtalar capsule to visualize the posterior facet; preserve the deep superior peroneal retinaculum if proximal extension is required.", "source_ids": ["ao_3ac4777d6982b3ed", "orthobullets_calcaneus_1051"], "risk_level": "high"}],
-        "layers": [{"text": "Skin and subcutaneous tissue, deep fascia, protected sural nerve/peroneal tendons, limited extensor-digitorum-brevis reflection, sinus-tarsi capsule, then posterior subtalar facet.", "source_ids": ["ao_3ac4777d6982b3ed", "orthobullets_calcaneus_1051"]}],
-        "structures_encountered": [{"text": "Sural nerve, peroneal tendons and retinacula, extensor digitorum brevis, lateral calcaneal artery territory, sinus-tarsi contents, and posterior facet define the approach.", "source_ids": ["ao_3ac4777d6982b3ed", "orthobullets_calcaneus_1051"]}],
-        "structures_at_risk": [{"text": "The sural nerve and peroneal tendons are at risk inferiorly, while proximal violation of the deep superior peroneal retinaculum can endanger the lateral calcaneal artery and skin perfusion.", "source_ids": ["ao_3ac4777d6982b3ed", "orthobullets_calcaneus_1051"], "risk_level": "high"}],
-        "danger_zones": [{"text": "Avoid extending posterior to the lateral malleolus without identifying the sural-nerve course, and avoid deep proximal retinacular dissection that compromises lateral calcaneal blood supply.", "source_ids": ["ao_3ac4777d6982b3ed", "pmid_33543722"], "risk_level": "high"}],
-        "retraction_hazards": [{"text": "Retract peroneal tendons and sural nerve gently and intermittently; do not lever forcefully through the small window to compensate for inadequate body-fragment reduction.", "source_ids": ["ao_3ac4777d6982b3ed", "orthobullets_calcaneus_1051"], "risk_level": "high"}],
-        "exposure": [{"text": "Provides direct visualization of the posterior subtalar facet and anterior calcaneus through a limited incision, with less visualization of the posterior body and primary fracture line.", "source_ids": ["ao_3ac4777d6982b3ed", "orthobullets_calcaneus_1051"]}],
-        "limitations": [{"text": "The calcaneal body and primary fracture line are not directly visualized; an external fixator, Schanz pin, percutaneous manipulation, or other adjunct is needed for body reduction.", "source_ids": ["ao_3ac4777d6982b3ed", "orthobullets_calcaneus_1051"]}],
-        "extensions": [{"text": "Lengthen distally along the lateral utility line for selected anterior-process or calcaneocuboid involvement while preserving lateral soft-tissue perfusion.", "source_ids": ["ao_3ac4777d6982b3ed", "pmid_33543722"]}],
-        "indications": [{"text": "Used for selected displaced intra-articular calcaneal fractures when posterior-facet reduction and fixation can be achieved through a limited lateral window.", "source_ids": ["ao_3ac4777d6982b3ed", "orthobullets_calcaneus_1051", "pmid_33543722"]}],
-        "relative_contraindications": [{"text": "Choose another exposure when fracture morphology demands broad direct body or posterior visualization, when the facet cannot be reduced through the window, or when lateral skin remains compromised.", "source_ids": ["ao_3ac4777d6982b3ed", "orthobullets_calcaneus_1051"]}],
-        "implant_implications": [{"text": "Low-profile fixation can pass through the incision, but plate position, peroneal-tendon clearance, screw length, and subtalar penetration require imaging because body visualization is limited.", "source_ids": ["ao_3ac4777d6982b3ed", "orthobullets_calcaneus_1051"], "risk_level": "high"}],
-        "fluoroscopy_implications": [{"text": "Use lateral, axial heel, and Broden-type views to verify body reduction, posterior-facet congruity, width, alignment, and extra-articular screw placement.", "source_ids": ["ao_3ac4777d6982b3ed", "orthobullets_calcaneus_1051"]}],
-        "closure": [{"text": "Replace reflected extensor tissue, close deep fascia with absorbable suture, and perform tension-free subcuticular or interrupted skin closure.", "source_ids": ["ao_3ac4777d6982b3ed", "orthobullets_calcaneus_1051"]}],
-        "complications": [{"text": "Complications include sural neuropathy, wound necrosis or infection, peroneal injury or subluxation, residual body malreduction, subtalar incongruity, and symptomatic fixation.", "source_ids": ["ao_3ac4777d6982b3ed", "orthobullets_calcaneus_1051", "pmid_33543722"], "risk_level": "high"}],
-        "bailouts": [{"text": "If body or articular reduction cannot be verified, add percutaneous reduction tools, arthroscopy, or the preplanned alternative exposure rather than accepting unseen malreduction.", "source_ids": ["ao_3ac4777d6982b3ed", "orthobullets_calcaneus_1051"], "risk_level": "high"}],
+        "positioning": [
+          {
+            "text": "Position lateral or floppy lateral with the operative hindfoot uppermost and the foot accessible for traction, reduction, and fluoroscopy.",
+            "source_ids": [
+              "ao_3ac4777d6982b3ed",
+              "orthobullets_calcaneus_1051"
+            ]
+          }
+        ],
+        "setup": [
+          {
+            "text": "Respect soft-tissue timing and generally wait for recovery of lateral skin wrinkling; prepare an adjunctive reduction method for the calcaneal body and primary fracture line.",
+            "source_ids": [
+              "ao_3ac4777d6982b3ed",
+              "orthobullets_calcaneus_1051",
+              "pmid_33543722"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "surface_landmarks": [
+          {
+            "text": "Mark the fibular tip, base of the fourth metatarsal, peroneal-tendon course, sural-nerve region, and subtalar joint line.",
+            "source_ids": [
+              "ao_3ac4777d6982b3ed",
+              "orthobullets_calcaneus_1051"
+            ]
+          }
+        ],
+        "incision": [
+          {
+            "text": "Make a limited incision from the fibular tip toward the fourth-metatarsal base, adjusting length and orientation to the fracture while avoiding posterior extension toward the sural nerve.",
+            "source_ids": [
+              "ao_3ac4777d6982b3ed",
+              "orthobullets_calcaneus_1051"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "superficial_interval": [
+          {
+            "text": "Open deep fascia, protect the sural nerve and peroneal tendons inferiorly, and reflect only the necessary portion of extensor digitorum brevis.",
+            "source_ids": [
+              "ao_3ac4777d6982b3ed",
+              "orthobullets_calcaneus_1051"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "deep_interval": [
+          {
+            "text": "Enter the sinus tarsi and subtalar capsule to visualize the posterior facet; preserve the deep superior peroneal retinaculum if proximal extension is required.",
+            "source_ids": [
+              "ao_3ac4777d6982b3ed",
+              "orthobullets_calcaneus_1051"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "layers": [
+          {
+            "text": "Skin and subcutaneous tissue, deep fascia, protected sural nerve/peroneal tendons, limited extensor-digitorum-brevis reflection, sinus-tarsi capsule, then posterior subtalar facet.",
+            "source_ids": [
+              "ao_3ac4777d6982b3ed",
+              "orthobullets_calcaneus_1051"
+            ]
+          }
+        ],
+        "structures_encountered": [
+          {
+            "text": "Sural nerve, peroneal tendons and retinacula, extensor digitorum brevis, lateral calcaneal artery territory, sinus-tarsi contents, and posterior facet define the approach.",
+            "source_ids": [
+              "ao_3ac4777d6982b3ed",
+              "orthobullets_calcaneus_1051"
+            ]
+          }
+        ],
+        "structures_at_risk": [
+          {
+            "text": "The sural nerve and peroneal tendons are at risk inferiorly, while proximal violation of the deep superior peroneal retinaculum can endanger the lateral calcaneal artery and skin perfusion.",
+            "source_ids": [
+              "ao_3ac4777d6982b3ed",
+              "orthobullets_calcaneus_1051"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "danger_zones": [
+          {
+            "text": "Avoid extending posterior to the lateral malleolus without identifying the sural-nerve course, and avoid deep proximal retinacular dissection that compromises lateral calcaneal blood supply.",
+            "source_ids": [
+              "ao_3ac4777d6982b3ed",
+              "pmid_33543722"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "retraction_hazards": [
+          {
+            "text": "Retract peroneal tendons and sural nerve gently and intermittently; do not lever forcefully through the small window to compensate for inadequate body-fragment reduction.",
+            "source_ids": [
+              "ao_3ac4777d6982b3ed",
+              "orthobullets_calcaneus_1051"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "exposure": [
+          {
+            "text": "Provides direct visualization of the posterior subtalar facet and anterior calcaneus through a limited incision, with less visualization of the posterior body and primary fracture line.",
+            "source_ids": [
+              "ao_3ac4777d6982b3ed",
+              "orthobullets_calcaneus_1051"
+            ]
+          }
+        ],
+        "limitations": [
+          {
+            "text": "The calcaneal body and primary fracture line are not directly visualized; an external fixator, Schanz pin, percutaneous manipulation, or other adjunct is needed for body reduction.",
+            "source_ids": [
+              "ao_3ac4777d6982b3ed",
+              "orthobullets_calcaneus_1051"
+            ]
+          }
+        ],
+        "extensions": [
+          {
+            "text": "Lengthen distally along the lateral utility line for selected anterior-process or calcaneocuboid involvement while preserving lateral soft-tissue perfusion.",
+            "source_ids": [
+              "ao_3ac4777d6982b3ed",
+              "pmid_33543722"
+            ]
+          }
+        ],
+        "indications": [
+          {
+            "text": "Used for selected displaced intra-articular calcaneal fractures when posterior-facet reduction and fixation can be achieved through a limited lateral window.",
+            "source_ids": [
+              "ao_3ac4777d6982b3ed",
+              "orthobullets_calcaneus_1051",
+              "pmid_33543722"
+            ]
+          }
+        ],
+        "relative_contraindications": [
+          {
+            "text": "Choose another exposure when fracture morphology demands broad direct body or posterior visualization, when the facet cannot be reduced through the window, or when lateral skin remains compromised.",
+            "source_ids": [
+              "ao_3ac4777d6982b3ed",
+              "orthobullets_calcaneus_1051"
+            ]
+          }
+        ],
+        "implant_implications": [
+          {
+            "text": "Low-profile fixation can pass through the incision, but plate position, peroneal-tendon clearance, screw length, and subtalar penetration require imaging because body visualization is limited.",
+            "source_ids": [
+              "ao_3ac4777d6982b3ed",
+              "orthobullets_calcaneus_1051"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "fluoroscopy_implications": [
+          {
+            "text": "Use lateral, axial heel, and Broden-type views to verify body reduction, posterior-facet congruity, width, alignment, and extra-articular screw placement.",
+            "source_ids": [
+              "ao_3ac4777d6982b3ed",
+              "orthobullets_calcaneus_1051"
+            ]
+          }
+        ],
+        "closure": [
+          {
+            "text": "Replace reflected extensor tissue, close deep fascia with absorbable suture, and perform tension-free subcuticular or interrupted skin closure.",
+            "source_ids": [
+              "ao_3ac4777d6982b3ed",
+              "orthobullets_calcaneus_1051"
+            ]
+          }
+        ],
+        "complications": [
+          {
+            "text": "Complications include sural neuropathy, wound necrosis or infection, peroneal injury or subluxation, residual body malreduction, subtalar incongruity, and symptomatic fixation.",
+            "source_ids": [
+              "ao_3ac4777d6982b3ed",
+              "orthobullets_calcaneus_1051",
+              "pmid_33543722"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "bailouts": [
+          {
+            "text": "If body or articular reduction cannot be verified, add percutaneous reduction tools, arthroscopy, or the preplanned alternative exposure rather than accepting unseen malreduction.",
+            "source_ids": [
+              "ao_3ac4777d6982b3ed",
+              "orthobullets_calcaneus_1051"
+            ],
+            "risk_level": "high"
+          }
+        ],
         "questions": [
-          {"question": "What portion of a calcaneal fracture is poorly visualized through the sinus-tarsi approach?", "answer": "The posterior calcaneal body and the primary fracture line.", "source_ids": ["ao_3ac4777d6982b3ed", "orthobullets_calcaneus_1051"]},
-          {"question": "What is the incision trajectory?", "answer": "From the fibular tip toward the base of the fourth metatarsal.", "source_ids": ["ao_3ac4777d6982b3ed", "orthobullets_calcaneus_1051"]},
-          {"question": "Which structures are protected inferior to the incision?", "answer": "The sural nerve and peroneal tendons.", "source_ids": ["ao_3ac4777d6982b3ed", "orthobullets_calcaneus_1051"]}
+          {
+            "question": "What portion of a calcaneal fracture is poorly visualized through the sinus-tarsi approach?",
+            "answer": "The posterior calcaneal body and the primary fracture line.",
+            "source_ids": [
+              "ao_3ac4777d6982b3ed",
+              "orthobullets_calcaneus_1051"
+            ]
+          },
+          {
+            "question": "What is the incision trajectory?",
+            "answer": "From the fibular tip toward the base of the fourth metatarsal.",
+            "source_ids": [
+              "ao_3ac4777d6982b3ed",
+              "orthobullets_calcaneus_1051"
+            ]
+          },
+          {
+            "question": "Which structures are protected inferior to the incision?",
+            "answer": "The sural nerve and peroneal tendons.",
+            "source_ids": [
+              "ao_3ac4777d6982b3ed",
+              "orthobullets_calcaneus_1051"
+            ]
+          }
         ]
       }
     }

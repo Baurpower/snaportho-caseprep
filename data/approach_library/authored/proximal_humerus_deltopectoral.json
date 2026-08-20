@@ -1,0 +1,346 @@
+{
+  "schema_version": "brobot_approach_packet_v1",
+  "approach_id": "proximal_humerus_deltopectoral",
+  "name": "Deltopectoral approach to the proximal humerus",
+  "aliases": [
+    "anterior deltopectoral approach to the shoulder"
+  ],
+  "region": "proximal-humerus",
+  "joint": "shoulder",
+  "bones": [
+    "proximal humerus"
+  ],
+  "corridor": "Deltopectoral interval between deltoid (axillary nerve) and pectoralis major, through the clavipectoral fascia lateral to the conjoined tendon, to the anterior proximal humerus",
+  "positioning": [
+    {
+      "text": "Position in a beach-chair position with the arm draped free and image intensifier access to the shoulder.",
+      "claim_ids": [
+        "proximal_humerus_deltopectoral_positioning_01"
+      ]
+    }
+  ],
+  "setup": [],
+  "surface_landmarks": [
+    {
+      "text": "Palpate the coracoid process and the proximal humeral shaft at the axilla and mark the deltopectoral groove.",
+      "claim_ids": [
+        "proximal_humerus_deltopectoral_surface_landmarks_01"
+      ]
+    }
+  ],
+  "incision": [
+    {
+      "text": "Make a 12 to 14 cm incision between the coracoid process and the proximal humeral shaft.",
+      "claim_ids": [
+        "proximal_humerus_deltopectoral_incision_01"
+      ]
+    }
+  ],
+  "superficial_interval": [
+    {
+      "text": "Dissect between deltoid and pectoralis major to the clavipectoral fascia, retracting and preserving the cephalic vein either laterally or medially.",
+      "claim_ids": [
+        "proximal_humerus_deltopectoral_superficial_interval_01"
+      ]
+    }
+  ],
+  "deep_interval": [
+    {
+      "text": "Incise the clavipectoral fascia lateral to the conjoined tendon, avoiding vigorous retraction under the conjoined tendon because the musculocutaneous nerve enters coracobrachialis as close as 2.5 cm distal to the coracoid, and keep the axillary nerve protected inferiorly.",
+      "claim_ids": [
+        "proximal_humerus_deltopectoral_deep_interval_01"
+      ]
+    }
+  ],
+  "layers": [
+    {
+      "text": "Skin, subcutaneous tissue, the deltopectoral interval with the cephalic vein, clavipectoral fascia, the conjoined tendon, and the anterior proximal humerus.",
+      "claim_ids": [
+        "proximal_humerus_deltopectoral_layers_01"
+      ]
+    }
+  ],
+  "structures_encountered": [],
+  "structures_at_risk": [
+    {
+      "text": "The axillary nerve inferiorly, the musculocutaneous nerve under the conjoined tendon, the cephalic vein, and the anterior humeral circumflex artery are at risk.",
+      "claim_ids": [
+        "proximal_humerus_deltopectoral_structures_at_risk_01"
+      ]
+    }
+  ],
+  "danger_zones": [
+    {
+      "text": "Retraction under the conjoined tendon endangers the musculocutaneous nerve, and deep inferior retractors endanger the axillary nerve.",
+      "claim_ids": [
+        "proximal_humerus_deltopectoral_danger_zones_01"
+      ]
+    }
+  ],
+  "retraction_hazards": [
+    {
+      "text": "Position Roux or Hohmann retractors carefully to avoid the axillary nerve and avoid vigorous retraction under the conjoined tendon.",
+      "claim_ids": [
+        "proximal_humerus_deltopectoral_retraction_hazards_01"
+      ]
+    }
+  ],
+  "exposure": [
+    {
+      "text": "Exposes almost the entire anterior proximal humerus for fracture fixation or arthroplasty.",
+      "claim_ids": [
+        "proximal_humerus_deltopectoral_exposure_01"
+      ]
+    }
+  ],
+  "limitations": [
+    {
+      "text": "Posterior and greater tuberosity access is limited, and the axillary and musculocutaneous nerves bound the deep dissection.",
+      "claim_ids": [
+        "proximal_humerus_deltopectoral_limitations_01"
+      ]
+    }
+  ],
+  "extensions": [],
+  "indications": [
+    {
+      "text": "Indicated for almost any proximal humeral fracture and highly recommended for revision surgery and arthroplasty.",
+      "claim_ids": [
+        "proximal_humerus_deltopectoral_indications_01"
+      ]
+    }
+  ],
+  "relative_contraindications": [],
+  "implant_implications": [],
+  "fluoroscopy_implications": [],
+  "closure": [
+    {
+      "text": "Irrigate, consider a drain under the deltoid, and close the deltopectoral groove, subcutaneous tissue, and skin.",
+      "claim_ids": [
+        "proximal_humerus_deltopectoral_closure_01"
+      ]
+    }
+  ],
+  "complications": [
+    {
+      "text": "Complications include axillary nerve injury, musculocutaneous neurapraxia, deltoid denervation, and edema from cephalic vein injury.",
+      "claim_ids": [
+        "proximal_humerus_deltopectoral_complications_01"
+      ]
+    }
+  ],
+  "bailouts": [],
+  "procedure_applications": [
+    {
+      "procedure_id": "proximal_humerus_fracture_orif",
+      "relationship": "primary_option",
+      "condition": "A proximal humeral fracture is plated or reconstructed through an anterior interval"
+    },
+    {
+      "procedure_id": "reverse_shoulder_arthroplasty",
+      "relationship": "primary_option",
+      "condition": "Shoulder arthroplasty is performed through the deltopectoral interval"
+    }
+  ],
+  "questions": [
+    {
+      "question": "How close to the coracoid can the musculocutaneous nerve enter coracobrachialis?",
+      "answer": "As close as 2.5 cm distal to the tip of the coracoid.",
+      "claim_ids": [
+        "proximal_humerus_deltopectoral_questions_01"
+      ]
+    },
+    {
+      "question": "Which vein marks the deltopectoral interval?",
+      "answer": "The cephalic vein.",
+      "claim_ids": [
+        "proximal_humerus_deltopectoral_questions_02"
+      ]
+    },
+    {
+      "question": "Why is the deltopectoral approach favored for revision and arthroplasty?",
+      "answer": "It is extensile and exposes almost the entire anterior proximal humerus.",
+      "claim_ids": [
+        "proximal_humerus_deltopectoral_questions_03"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "proximal_humerus_deltopectoral_positioning_01",
+      "text": "Position in a beach-chair position with the arm draped free and image intensifier access to the shoulder.",
+      "source_ids": [
+        "ao_c5861e08ea2a1064"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "proximal_humerus_deltopectoral_surface_landmarks_01",
+      "text": "Palpate the coracoid process and the proximal humeral shaft at the axilla and mark the deltopectoral groove.",
+      "source_ids": [
+        "ao_c5861e08ea2a1064"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "proximal_humerus_deltopectoral_incision_01",
+      "text": "Make a 12 to 14 cm incision between the coracoid process and the proximal humeral shaft.",
+      "source_ids": [
+        "ao_c5861e08ea2a1064"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "proximal_humerus_deltopectoral_superficial_interval_01",
+      "text": "Dissect between deltoid and pectoralis major to the clavipectoral fascia, retracting and preserving the cephalic vein either laterally or medially.",
+      "source_ids": [
+        "ao_c5861e08ea2a1064",
+        "ao_b1d85a2691e1f064"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "proximal_humerus_deltopectoral_deep_interval_01",
+      "text": "Incise the clavipectoral fascia lateral to the conjoined tendon, avoiding vigorous retraction under the conjoined tendon because the musculocutaneous nerve enters coracobrachialis as close as 2.5 cm distal to the coracoid, and keep the axillary nerve protected inferiorly.",
+      "source_ids": [
+        "ao_c5861e08ea2a1064",
+        "ao_b1d85a2691e1f064"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "proximal_humerus_deltopectoral_layers_01",
+      "text": "Skin, subcutaneous tissue, the deltopectoral interval with the cephalic vein, clavipectoral fascia, the conjoined tendon, and the anterior proximal humerus.",
+      "source_ids": [
+        "ao_c5861e08ea2a1064"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "proximal_humerus_deltopectoral_structures_at_risk_01",
+      "text": "The axillary nerve inferiorly, the musculocutaneous nerve under the conjoined tendon, the cephalic vein, and the anterior humeral circumflex artery are at risk.",
+      "source_ids": [
+        "ao_c5861e08ea2a1064",
+        "ao_b1d85a2691e1f064"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "proximal_humerus_deltopectoral_danger_zones_01",
+      "text": "Retraction under the conjoined tendon endangers the musculocutaneous nerve, and deep inferior retractors endanger the axillary nerve.",
+      "source_ids": [
+        "ao_c5861e08ea2a1064",
+        "ao_b1d85a2691e1f064"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "proximal_humerus_deltopectoral_retraction_hazards_01",
+      "text": "Position Roux or Hohmann retractors carefully to avoid the axillary nerve and avoid vigorous retraction under the conjoined tendon.",
+      "source_ids": [
+        "ao_c5861e08ea2a1064"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "proximal_humerus_deltopectoral_exposure_01",
+      "text": "Exposes almost the entire anterior proximal humerus for fracture fixation or arthroplasty.",
+      "source_ids": [
+        "ao_c5861e08ea2a1064"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "proximal_humerus_deltopectoral_limitations_01",
+      "text": "Posterior and greater tuberosity access is limited, and the axillary and musculocutaneous nerves bound the deep dissection.",
+      "source_ids": [
+        "ao_c5861e08ea2a1064"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "proximal_humerus_deltopectoral_indications_01",
+      "text": "Indicated for almost any proximal humeral fracture and highly recommended for revision surgery and arthroplasty.",
+      "source_ids": [
+        "ao_c5861e08ea2a1064"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "proximal_humerus_deltopectoral_closure_01",
+      "text": "Irrigate, consider a drain under the deltoid, and close the deltopectoral groove, subcutaneous tissue, and skin.",
+      "source_ids": [
+        "ao_c5861e08ea2a1064"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "proximal_humerus_deltopectoral_complications_01",
+      "text": "Complications include axillary nerve injury, musculocutaneous neurapraxia, deltoid denervation, and edema from cephalic vein injury.",
+      "source_ids": [
+        "ao_c5861e08ea2a1064",
+        "ao_b1d85a2691e1f064"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "proximal_humerus_deltopectoral_questions_01",
+      "text": "How close to the coracoid can the musculocutaneous nerve enter coracobrachialis?",
+      "source_ids": [
+        "ao_c5861e08ea2a1064"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "proximal_humerus_deltopectoral_questions_02",
+      "text": "Which vein marks the deltopectoral interval?",
+      "source_ids": [
+        "ao_c5861e08ea2a1064"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "proximal_humerus_deltopectoral_questions_03",
+      "text": "Why is the deltopectoral approach favored for revision and arthroplasty?",
+      "source_ids": [
+        "ao_c5861e08ea2a1064"
+      ],
+      "risk_level": "medium"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "ao_c5861e08ea2a1064",
+      "provider": "AO Surgery Reference",
+      "title": "Deltopectoral approach to the proximal humerus",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/proximal-humerus/approach/deltopectoral-approach-to-the-proximal-humerus",
+      "source_page_id": "ao_c5861e08ea2a1064"
+    },
+    {
+      "source_id": "ao_b1d85a2691e1f064",
+      "provider": "AO Surgery Reference",
+      "title": "Extended deltopectoral approach to the humeral shaft",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/humeral-shaft/approach/extended-deltopectoral-approach-to-the-humeral-shaft",
+      "source_page_id": "ao_b1d85a2691e1f064"
+    }
+  ],
+  "content_status": "agent_review_pending",
+  "review": {
+    "status": "agent_review_pending",
+    "required_roles": [
+      "adversarial_safety_reviewer",
+      "approach_anatomy_reviewer",
+      "educational_value_reviewer",
+      "evidence_reviewer",
+      "operative_exposure_reviewer",
+      "procedure_applicability_reviewer"
+    ],
+    "completed_roles": []
+  },
+  "resolved_contradiction_keys": [],
+  "authoring_provenance": {
+    "method": "local_codex_curated",
+    "definition_file": "data/approach_library/curated/proximal_humerus_batch004_v1.json",
+    "api_used": false
+  }
+}

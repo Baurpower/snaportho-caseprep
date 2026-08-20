@@ -1,0 +1,350 @@
+{
+  "schema_version": "brobot_approach_packet_v1",
+  "approach_id": "shoulder_pp_humeral_osteotomy",
+  "name": "Anterior humeral osteotomy for well-fixed stem extraction",
+  "aliases": [
+    "vertical humeral osteotomy for revision arthroplasty"
+  ],
+  "region": "proximal-humerus",
+  "joint": "shoulder",
+  "bones": [
+    "proximal humerus",
+    "humeral shaft"
+  ],
+  "corridor": "Deltopectoral interval, then a vertical osteotomy between the pectoralis and deltoid tendons from the proximal humerus to the distal end of the stem",
+  "positioning": [
+    {
+      "text": "Position as for a deltopectoral revision so the coracoid, bicipital groove, and shaft to the distal stem can be imaged.",
+      "claim_ids": [
+        "shoulder_pp_humeral_osteotomy_positioning_01"
+      ]
+    }
+  ],
+  "setup": [],
+  "surface_landmarks": [
+    {
+      "text": "After the deltopectoral interval is open, mark the pectoralis tendon, deltoid tendon, long head of biceps, and bicipital groove for the osteotomy line. Fluoroscopy can show the distal end of the stem.",
+      "claim_ids": [
+        "shoulder_pp_humeral_osteotomy_surface_landmarks_01"
+      ]
+    }
+  ],
+  "incision": [
+    {
+      "text": "Perform a deltopectoral approach, reusing or replacing the prior scar as for other humeral periprosthetic work.",
+      "claim_ids": [
+        "shoulder_pp_humeral_osteotomy_incision_01"
+      ]
+    }
+  ],
+  "superficial_interval": [
+    {
+      "text": "Develop the deltopectoral groove and protect remaining cephalic vein and conjoint-tendon structures as in the revision deltopectoral interval.",
+      "claim_ids": [
+        "shoulder_pp_humeral_osteotomy_superficial_interval_01"
+      ]
+    }
+  ],
+  "deep_interval": [
+    {
+      "text": "Cut a single vertical osteotomy between the pectoralis and deltoid tendons from the most proximal humerus to the distal end of the prosthesis, using a microsaw down to the implant, or 2 mm drill holes connected with osteotomes if no microsaw is available. A 3.5 mm hole at the distal end of the cut can stop the split from propagating. Spread the osteotomy with multiple osteotomes, backslap the stem on its extractor, and clear remaining cement with osteotomes, curettes, and rongeurs.",
+      "claim_ids": [
+        "shoulder_pp_humeral_osteotomy_deep_interval_01"
+      ]
+    }
+  ],
+  "layers": [
+    {
+      "text": "Skin, deltopectoral interval, then a controlled anterior cortical osteotomy down to the stem.",
+      "claim_ids": [
+        "shoulder_pp_humeral_osteotomy_layers_01"
+      ]
+    }
+  ],
+  "structures_encountered": [],
+  "structures_at_risk": [
+    {
+      "text": "The axillary and radial nerves are at risk when cerclage is passed around the posterior humerus. Distal uncontrolled split of the shaft is a risk if the osteotomy is not terminated.",
+      "claim_ids": [
+        "shoulder_pp_humeral_osteotomy_structures_at_risk_01"
+      ]
+    }
+  ],
+  "danger_zones": [
+    {
+      "text": "Passing cerclage around the posterior humerus without protecting the axillary and radial nerves, and allowing the osteotomy to propagate distal to the stem, are the principal danger zones.",
+      "claim_ids": [
+        "shoulder_pp_humeral_osteotomy_danger_zones_01"
+      ]
+    }
+  ],
+  "retraction_hazards": [
+    {
+      "text": "Spread the osteotomy with osteotomes rather than levering the shaft apart, and pass cerclage under direct protection of the posterior nerves.",
+      "claim_ids": [
+        "shoulder_pp_humeral_osteotomy_retraction_hazards_01"
+      ]
+    }
+  ],
+  "exposure": [
+    {
+      "text": "Used when ongrowth or a well-fixed cement mantle prevents stem removal through the deltopectoral interval alone.",
+      "claim_ids": [
+        "shoulder_pp_humeral_osteotomy_exposure_01"
+      ]
+    }
+  ],
+  "limitations": [
+    {
+      "text": "This is not a skin approach by itself; it depends on a deltopectoral interval and converts a well-fixed stem into a controlled shaft split that must be repaired.",
+      "claim_ids": [
+        "shoulder_pp_humeral_osteotomy_limitations_01"
+      ]
+    }
+  ],
+  "extensions": [],
+  "indications": [
+    {
+      "text": "Indicated when bone ongrowth or a well-fixed cement mantle prevents easy stem removal.",
+      "claim_ids": [
+        "shoulder_pp_humeral_osteotomy_indications_01"
+      ]
+    }
+  ],
+  "relative_contraindications": [],
+  "implant_implications": [],
+  "fluoroscopy_implications": [],
+  "closure": [
+    {
+      "text": "Repair the osteotomy with at least two cerclage wires or cables, then close the deltopectoral interval in layers.",
+      "claim_ids": [
+        "shoulder_pp_humeral_osteotomy_closure_01"
+      ]
+    }
+  ],
+  "complications": [
+    {
+      "text": "Complications include axillary or radial nerve injury during posterior cerclage, distal shaft propagation of the split, and incomplete cement removal.",
+      "claim_ids": [
+        "shoulder_pp_humeral_osteotomy_complications_01"
+      ]
+    }
+  ],
+  "bailouts": [],
+  "procedure_applications": [
+    {
+      "procedure_id": "periprosthetic_shoulder_fracture_orif",
+      "relationship": "conditional_option",
+      "condition": "A well-fixed stem or cement mantle that cannot be extracted through a deltopectoral interval is removed through a controlled vertical humeral osteotomy"
+    }
+  ],
+  "questions": [
+    {
+      "question": "Where is the vertical humeral osteotomy placed relative to the tendons?",
+      "answer": "Between the pectoralis and deltoid tendons, using the long head of biceps and bicipital groove as additional landmarks, from the proximal humerus to the distal end of the stem.",
+      "claim_ids": [
+        "shoulder_pp_humeral_osteotomy_questions_01"
+      ]
+    },
+    {
+      "question": "How can distal propagation of the osteotomy be limited?",
+      "answer": "A 3.5 mm drill hole at the distal end of the cut can stop the split from running into the distal shaft.",
+      "claim_ids": [
+        "shoulder_pp_humeral_osteotomy_questions_02"
+      ]
+    },
+    {
+      "question": "How is the osteotomy repaired, and which nerves are at risk during cerclage?",
+      "answer": "With at least two cerclage wires or cables; the axillary and radial nerves are at risk as the wire is passed around the posterior humerus.",
+      "claim_ids": [
+        "shoulder_pp_humeral_osteotomy_questions_03"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "shoulder_pp_humeral_osteotomy_positioning_01",
+      "text": "Position as for a deltopectoral revision so the coracoid, bicipital groove, and shaft to the distal stem can be imaged.",
+      "source_ids": [
+        "ao_58d4245588d948d6",
+        "ao_c5861e08ea2a1064"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "shoulder_pp_humeral_osteotomy_surface_landmarks_01",
+      "text": "After the deltopectoral interval is open, mark the pectoralis tendon, deltoid tendon, long head of biceps, and bicipital groove for the osteotomy line. Fluoroscopy can show the distal end of the stem.",
+      "source_ids": [
+        "ao_58d4245588d948d6"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "shoulder_pp_humeral_osteotomy_incision_01",
+      "text": "Perform a deltopectoral approach, reusing or replacing the prior scar as for other humeral periprosthetic work.",
+      "source_ids": [
+        "ao_58d4245588d948d6",
+        "ao_6cdbbf257a917f43"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "shoulder_pp_humeral_osteotomy_superficial_interval_01",
+      "text": "Develop the deltopectoral groove and protect remaining cephalic vein and conjoint-tendon structures as in the revision deltopectoral interval.",
+      "source_ids": [
+        "ao_58d4245588d948d6",
+        "ao_6cdbbf257a917f43"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "shoulder_pp_humeral_osteotomy_deep_interval_01",
+      "text": "Cut a single vertical osteotomy between the pectoralis and deltoid tendons from the most proximal humerus to the distal end of the prosthesis, using a microsaw down to the implant, or 2 mm drill holes connected with osteotomes if no microsaw is available. A 3.5 mm hole at the distal end of the cut can stop the split from propagating. Spread the osteotomy with multiple osteotomes, backslap the stem on its extractor, and clear remaining cement with osteotomes, curettes, and rongeurs.",
+      "source_ids": [
+        "ao_58d4245588d948d6"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "shoulder_pp_humeral_osteotomy_layers_01",
+      "text": "Skin, deltopectoral interval, then a controlled anterior cortical osteotomy down to the stem.",
+      "source_ids": [
+        "ao_58d4245588d948d6",
+        "ao_6cdbbf257a917f43"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "shoulder_pp_humeral_osteotomy_structures_at_risk_01",
+      "text": "The axillary and radial nerves are at risk when cerclage is passed around the posterior humerus. Distal uncontrolled split of the shaft is a risk if the osteotomy is not terminated.",
+      "source_ids": [
+        "ao_58d4245588d948d6"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "shoulder_pp_humeral_osteotomy_danger_zones_01",
+      "text": "Passing cerclage around the posterior humerus without protecting the axillary and radial nerves, and allowing the osteotomy to propagate distal to the stem, are the principal danger zones.",
+      "source_ids": [
+        "ao_58d4245588d948d6"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "shoulder_pp_humeral_osteotomy_retraction_hazards_01",
+      "text": "Spread the osteotomy with osteotomes rather than levering the shaft apart, and pass cerclage under direct protection of the posterior nerves.",
+      "source_ids": [
+        "ao_58d4245588d948d6"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "shoulder_pp_humeral_osteotomy_exposure_01",
+      "text": "Used when ongrowth or a well-fixed cement mantle prevents stem removal through the deltopectoral interval alone.",
+      "source_ids": [
+        "ao_58d4245588d948d6"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "shoulder_pp_humeral_osteotomy_limitations_01",
+      "text": "This is not a skin approach by itself; it depends on a deltopectoral interval and converts a well-fixed stem into a controlled shaft split that must be repaired.",
+      "source_ids": [
+        "ao_58d4245588d948d6",
+        "ao_6cdbbf257a917f43"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "shoulder_pp_humeral_osteotomy_indications_01",
+      "text": "Indicated when bone ongrowth or a well-fixed cement mantle prevents easy stem removal.",
+      "source_ids": [
+        "ao_58d4245588d948d6"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "shoulder_pp_humeral_osteotomy_closure_01",
+      "text": "Repair the osteotomy with at least two cerclage wires or cables, then close the deltopectoral interval in layers.",
+      "source_ids": [
+        "ao_58d4245588d948d6",
+        "ao_6cdbbf257a917f43"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "shoulder_pp_humeral_osteotomy_complications_01",
+      "text": "Complications include axillary or radial nerve injury during posterior cerclage, distal shaft propagation of the split, and incomplete cement removal.",
+      "source_ids": [
+        "ao_58d4245588d948d6"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "shoulder_pp_humeral_osteotomy_questions_01",
+      "text": "Where is the vertical humeral osteotomy placed relative to the tendons?",
+      "source_ids": [
+        "ao_58d4245588d948d6"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "shoulder_pp_humeral_osteotomy_questions_02",
+      "text": "How can distal propagation of the osteotomy be limited?",
+      "source_ids": [
+        "ao_58d4245588d948d6"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "shoulder_pp_humeral_osteotomy_questions_03",
+      "text": "How is the osteotomy repaired, and which nerves are at risk during cerclage?",
+      "source_ids": [
+        "ao_58d4245588d948d6"
+      ],
+      "risk_level": "medium"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "ao_58d4245588d948d6",
+      "provider": "AO Surgery Reference",
+      "title": "Humeral Osteotomy",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/periprosthetic-fractures/shoulder/approach/humeral-osteotomy",
+      "source_page_id": "ao_58d4245588d948d6"
+    },
+    {
+      "source_id": "ao_6cdbbf257a917f43",
+      "provider": "AO Surgery Reference",
+      "title": "Deltopectoral Approach",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/periprosthetic-fractures/shoulder/approach/deltopectoral-approach",
+      "source_page_id": "ao_6cdbbf257a917f43"
+    },
+    {
+      "source_id": "ao_c5861e08ea2a1064",
+      "provider": "AO Surgery Reference",
+      "title": "Deltopectoral approach to the proximal humerus",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/proximal-humerus/approach/deltopectoral-approach-to-the-proximal-humerus",
+      "source_page_id": "ao_c5861e08ea2a1064"
+    }
+  ],
+  "content_status": "agent_review_pending",
+  "review": {
+    "status": "agent_review_pending",
+    "required_roles": [
+      "adversarial_safety_reviewer",
+      "approach_anatomy_reviewer",
+      "educational_value_reviewer",
+      "evidence_reviewer",
+      "operative_exposure_reviewer",
+      "procedure_applicability_reviewer"
+    ],
+    "completed_roles": []
+  },
+  "resolved_contradiction_keys": [],
+  "authoring_provenance": {
+    "method": "local_codex_curated",
+    "definition_file": "data/approach_library/curated/shoulder_pp_batch001_v1.json",
+    "api_used": false
+  }
+}

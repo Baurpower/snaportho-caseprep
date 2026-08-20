@@ -1,0 +1,347 @@
+{
+  "schema_version": "brobot_approach_packet_v1",
+  "approach_id": "hip_asis_osteotomy",
+  "name": "ASIS osteotomy to extend anterior pelvic exposure",
+  "aliases": [
+    "anterior superior iliac spine osteotomy"
+  ],
+  "region": "hip",
+  "joint": "",
+  "bones": [
+    "pelvis",
+    "ilium"
+  ],
+  "corridor": "Digastric osteotomy of the anterior superior iliac spine with the sartorius and inguinal ligament attached, reflected medially to widen anterior pelvic and acetabular exposure while sparing the lateral femoral cutaneous nerve",
+  "positioning": [
+    {
+      "text": "Position supine as part of an anterior pelvic or ilioinguinal exposure.",
+      "claim_ids": [
+        "hip_asis_osteotomy_positioning_01"
+      ]
+    }
+  ],
+  "setup": [],
+  "surface_landmarks": [
+    {
+      "text": "Identify the anterior superior iliac spine and the attached inguinal ligament and sartorius.",
+      "claim_ids": [
+        "hip_asis_osteotomy_surface_landmarks_01"
+      ]
+    }
+  ],
+  "incision": [
+    {
+      "text": "Through the anterior pelvic incision, expose the ASIS while protecting the lateral femoral cutaneous nerve.",
+      "claim_ids": [
+        "hip_asis_osteotomy_incision_01"
+      ]
+    }
+  ],
+  "superficial_interval": [
+    {
+      "text": "Perform a digastric osteotomy of the ASIS with an osteotome or sagittal saw, keeping the sartorius and external oblique attached.",
+      "claim_ids": [
+        "hip_asis_osteotomy_superficial_interval_01"
+      ]
+    }
+  ],
+  "deep_interval": [
+    {
+      "text": "Retract the osteotomized ASIS with the sartorius and external oblique medially to widen access to the deeper pelvis.",
+      "claim_ids": [
+        "hip_asis_osteotomy_deep_interval_01"
+      ]
+    }
+  ],
+  "layers": [
+    {
+      "text": "Skin, subcutaneous tissue with the lateral femoral cutaneous nerve, the ASIS fragment with inguinal ligament and sartorius, and the inner pelvis.",
+      "claim_ids": [
+        "hip_asis_osteotomy_layers_01"
+      ]
+    }
+  ],
+  "structures_encountered": [],
+  "structures_at_risk": [
+    {
+      "text": "The lateral femoral cutaneous nerve at the ASIS and, with the anterior retractor, the superior gluteal artery and nerve are at risk.",
+      "claim_ids": [
+        "hip_asis_osteotomy_structures_at_risk_01"
+      ]
+    }
+  ],
+  "danger_zones": [
+    {
+      "text": "The region of the ASIS is the danger zone for the lateral femoral cutaneous nerve, and deep anterior retractor placement endangers the superior gluteal artery and nerve.",
+      "claim_ids": [
+        "hip_asis_osteotomy_danger_zones_01"
+      ]
+    }
+  ],
+  "retraction_hazards": [
+    {
+      "text": "Place the anterior retractor carefully to avoid the superior gluteal artery and nerve and protect the lateral femoral cutaneous nerve.",
+      "claim_ids": [
+        "hip_asis_osteotomy_retraction_hazards_01"
+      ]
+    }
+  ],
+  "exposure": [
+    {
+      "text": "Widens the anterior pelvic and acetabular exposure by reflecting the ASIS and its attached structures.",
+      "claim_ids": [
+        "hip_asis_osteotomy_exposure_01"
+      ]
+    }
+  ],
+  "limitations": [
+    {
+      "text": "It is an adjunct that adds exposure to an anterior approach and carries a risk of osteotomy nonunion if not securely fixed.",
+      "claim_ids": [
+        "hip_asis_osteotomy_limitations_01"
+      ]
+    }
+  ],
+  "extensions": [],
+  "indications": [
+    {
+      "text": "Indicated to extend anterior exposure for ORIF of periprosthetic acetabular fractures or revision arthroplasty.",
+      "claim_ids": [
+        "hip_asis_osteotomy_indications_01"
+      ]
+    }
+  ],
+  "relative_contraindications": [],
+  "implant_implications": [],
+  "fluoroscopy_implications": [],
+  "closure": [
+    {
+      "text": "Repair the osteotomy with a single lag screw of at least 3.5 mm to resist nonunion and failure, then close in layers.",
+      "claim_ids": [
+        "hip_asis_osteotomy_closure_01"
+      ]
+    }
+  ],
+  "complications": [
+    {
+      "text": "Complications include osteotomy nonunion or escape, lateral femoral cutaneous nerve injury, and superior gluteal neurovascular injury.",
+      "claim_ids": [
+        "hip_asis_osteotomy_complications_01"
+      ]
+    }
+  ],
+  "bailouts": [],
+  "procedure_applications": [
+    {
+      "procedure_id": "acetabulum_fracture_orif_anterior",
+      "relationship": "conditional_option",
+      "condition": "Additional anterior pelvic exposure is needed during an anterior acetabular approach"
+    },
+    {
+      "procedure_id": "periprosthetic_hip_fracture_orif",
+      "relationship": "conditional_option",
+      "condition": "Extended anterior exposure is required for a periprosthetic acetabular fracture or revision"
+    }
+  ],
+  "questions": [
+    {
+      "question": "What remains attached to the osteotomized ASIS fragment?",
+      "answer": "The sartorius and the external oblique (with the inguinal ligament).",
+      "claim_ids": [
+        "hip_asis_osteotomy_questions_01"
+      ]
+    },
+    {
+      "question": "Which nerve is most at risk during an ASIS osteotomy?",
+      "answer": "The lateral femoral cutaneous nerve.",
+      "claim_ids": [
+        "hip_asis_osteotomy_questions_02"
+      ]
+    },
+    {
+      "question": "How is the ASIS osteotomy fixed at closure?",
+      "answer": "With a single lag screw of at least 3.5 mm to resist nonunion.",
+      "claim_ids": [
+        "hip_asis_osteotomy_questions_03"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "hip_asis_osteotomy_positioning_01",
+      "text": "Position supine as part of an anterior pelvic or ilioinguinal exposure.",
+      "source_ids": [
+        "ao_b5a97504037a41d9"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "hip_asis_osteotomy_surface_landmarks_01",
+      "text": "Identify the anterior superior iliac spine and the attached inguinal ligament and sartorius.",
+      "source_ids": [
+        "ao_b5a97504037a41d9"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "hip_asis_osteotomy_incision_01",
+      "text": "Through the anterior pelvic incision, expose the ASIS while protecting the lateral femoral cutaneous nerve.",
+      "source_ids": [
+        "ao_b5a97504037a41d9",
+        "ao_01bb35e0585ef010"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "hip_asis_osteotomy_superficial_interval_01",
+      "text": "Perform a digastric osteotomy of the ASIS with an osteotome or sagittal saw, keeping the sartorius and external oblique attached.",
+      "source_ids": [
+        "ao_b5a97504037a41d9"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "hip_asis_osteotomy_deep_interval_01",
+      "text": "Retract the osteotomized ASIS with the sartorius and external oblique medially to widen access to the deeper pelvis.",
+      "source_ids": [
+        "ao_b5a97504037a41d9"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "hip_asis_osteotomy_layers_01",
+      "text": "Skin, subcutaneous tissue with the lateral femoral cutaneous nerve, the ASIS fragment with inguinal ligament and sartorius, and the inner pelvis.",
+      "source_ids": [
+        "ao_b5a97504037a41d9",
+        "ao_01bb35e0585ef010"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "hip_asis_osteotomy_structures_at_risk_01",
+      "text": "The lateral femoral cutaneous nerve at the ASIS and, with the anterior retractor, the superior gluteal artery and nerve are at risk.",
+      "source_ids": [
+        "ao_b5a97504037a41d9",
+        "ao_01bb35e0585ef010"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "hip_asis_osteotomy_danger_zones_01",
+      "text": "The region of the ASIS is the danger zone for the lateral femoral cutaneous nerve, and deep anterior retractor placement endangers the superior gluteal artery and nerve.",
+      "source_ids": [
+        "ao_b5a97504037a41d9"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "hip_asis_osteotomy_retraction_hazards_01",
+      "text": "Place the anterior retractor carefully to avoid the superior gluteal artery and nerve and protect the lateral femoral cutaneous nerve.",
+      "source_ids": [
+        "ao_b5a97504037a41d9"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "hip_asis_osteotomy_exposure_01",
+      "text": "Widens the anterior pelvic and acetabular exposure by reflecting the ASIS and its attached structures.",
+      "source_ids": [
+        "ao_b5a97504037a41d9"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "hip_asis_osteotomy_limitations_01",
+      "text": "It is an adjunct that adds exposure to an anterior approach and carries a risk of osteotomy nonunion if not securely fixed.",
+      "source_ids": [
+        "ao_b5a97504037a41d9"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "hip_asis_osteotomy_indications_01",
+      "text": "Indicated to extend anterior exposure for ORIF of periprosthetic acetabular fractures or revision arthroplasty.",
+      "source_ids": [
+        "ao_b5a97504037a41d9"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "hip_asis_osteotomy_closure_01",
+      "text": "Repair the osteotomy with a single lag screw of at least 3.5 mm to resist nonunion and failure, then close in layers.",
+      "source_ids": [
+        "ao_b5a97504037a41d9"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "hip_asis_osteotomy_complications_01",
+      "text": "Complications include osteotomy nonunion or escape, lateral femoral cutaneous nerve injury, and superior gluteal neurovascular injury.",
+      "source_ids": [
+        "ao_b5a97504037a41d9",
+        "ao_01bb35e0585ef010"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "hip_asis_osteotomy_questions_01",
+      "text": "What remains attached to the osteotomized ASIS fragment?",
+      "source_ids": [
+        "ao_b5a97504037a41d9"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "hip_asis_osteotomy_questions_02",
+      "text": "Which nerve is most at risk during an ASIS osteotomy?",
+      "source_ids": [
+        "ao_b5a97504037a41d9",
+        "ao_01bb35e0585ef010"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "hip_asis_osteotomy_questions_03",
+      "text": "How is the ASIS osteotomy fixed at closure?",
+      "source_ids": [
+        "ao_b5a97504037a41d9"
+      ],
+      "risk_level": "medium"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "ao_b5a97504037a41d9",
+      "provider": "AO Surgery Reference",
+      "title": "ASIS osteotomy (periprosthetic hip)",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/periprosthetic-fractures/hip/approach/asis-osteotomy",
+      "source_page_id": "ao_b5a97504037a41d9"
+    },
+    {
+      "source_id": "ao_01bb35e0585ef010",
+      "provider": "AO Surgery Reference",
+      "title": "Ilioinguinal approach to the acetabulum (periprosthetic)",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/periprosthetic-fractures/hip/approach/ilioinguinal-approach-acetabulum",
+      "source_page_id": "ao_01bb35e0585ef010"
+    }
+  ],
+  "content_status": "agent_review_pending",
+  "review": {
+    "status": "agent_review_pending",
+    "required_roles": [
+      "adversarial_safety_reviewer",
+      "approach_anatomy_reviewer",
+      "educational_value_reviewer",
+      "evidence_reviewer",
+      "operative_exposure_reviewer",
+      "procedure_applicability_reviewer"
+    ],
+    "completed_roles": []
+  },
+  "resolved_contradiction_keys": [],
+  "authoring_provenance": {
+    "method": "local_codex_curated",
+    "definition_file": "data/approach_library/curated/hip_lateralfemur_asis_batch002_v1.json",
+    "api_used": false
+  }
+}

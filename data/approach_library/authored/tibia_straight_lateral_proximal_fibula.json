@@ -1,0 +1,341 @@
+{
+  "schema_version": "brobot_approach_packet_v1",
+  "approach_id": "tibia_straight_lateral_proximal_fibula",
+  "name": "Straight lateral approach to the proximal fibula",
+  "aliases": [
+    "lateral proximal tibiofibular approach"
+  ],
+  "region": "proximal-tibia",
+  "joint": "proximal tibiofibular",
+  "bones": [
+    "proximal fibula",
+    "proximal tibia"
+  ],
+  "corridor": "Longitudinal cut over the fibular head with formal identification, mobilization, and tagging of the common peroneal nerve from behind the biceps around the fibular neck before the proximal fibula is handled",
+  "positioning": [
+    {
+      "text": "Position so the fibular head, biceps tendon, and lateral tibial plateau can be seen.",
+      "claim_ids": [
+        "tibia_straight_lateral_proximal_fibula_positioning_01"
+      ]
+    }
+  ],
+  "setup": [],
+  "surface_landmarks": [
+    {
+      "text": "Mark the fibular head, fibular neck, biceps tendon, and, if needed, a more anterior line toward Gerdy tubercle.",
+      "claim_ids": [
+        "tibia_straight_lateral_proximal_fibula_surface_landmarks_01"
+      ]
+    }
+  ],
+  "incision": [
+    {
+      "text": "Make a longitudinal cut directly over the fibular head. Shift it anteriorly or combine it with a curvilinear anterolateral approach if the lateral plateau must be seen.",
+      "claim_ids": [
+        "tibia_straight_lateral_proximal_fibula_incision_01"
+      ]
+    }
+  ],
+  "superficial_interval": [
+    {
+      "text": "Open skin and fat, then open deep fascia carefully with Metzenbaum scissors. Find the common peroneal nerve immediately posterior to the biceps tendon proximally.",
+      "claim_ids": [
+        "tibia_straight_lateral_proximal_fibula_superficial_interval_01"
+      ]
+    }
+  ],
+  "deep_interval": [
+    {
+      "text": "Mobilize the nerve from its fascial constraints around the fibular neck and release the anterior fascial constraints and posterior intermuscular septum as it enters the anterior compartment. Tag the nerve, then handle the proximal fibula and neck.",
+      "claim_ids": [
+        "tibia_straight_lateral_proximal_fibula_deep_interval_01"
+      ]
+    }
+  ],
+  "layers": [
+    {
+      "text": "Skin, deep fascia, common peroneal nerve, then the proximal fibula and tibiofibular joint.",
+      "claim_ids": [
+        "tibia_straight_lateral_proximal_fibula_layers_01"
+      ]
+    }
+  ],
+  "structures_encountered": [],
+  "structures_at_risk": [
+    {
+      "text": "The common peroneal nerve at the biceps tendon and fibular neck is the principal structure at risk.",
+      "claim_ids": [
+        "tibia_straight_lateral_proximal_fibula_structures_at_risk_01"
+      ]
+    }
+  ],
+  "danger_zones": [
+    {
+      "text": "The fibular neck, where the nerve is constrained by fascia before entering the anterior compartment, is the danger zone.",
+      "claim_ids": [
+        "tibia_straight_lateral_proximal_fibula_danger_zones_01"
+      ]
+    }
+  ],
+  "retraction_hazards": [
+    {
+      "text": "Do not manipulate the proximal fibula until the nerve is identified, mobilized, and tagged.",
+      "claim_ids": [
+        "tibia_straight_lateral_proximal_fibula_retraction_hazards_01"
+      ]
+    }
+  ],
+  "exposure": [
+    {
+      "text": "Shows the proximal fibula and proximal tibiofibular joint with the common peroneal nerve under direct control.",
+      "claim_ids": [
+        "tibia_straight_lateral_proximal_fibula_exposure_01"
+      ]
+    }
+  ],
+  "limitations": [
+    {
+      "text": "Lateral-plateau work needs a more anterior cut or a combined anterolateral approach. A standard anterolateral plateau window does not encounter this nerve if it stays anterior.",
+      "claim_ids": [
+        "tibia_straight_lateral_proximal_fibula_limitations_01"
+      ]
+    }
+  ],
+  "extensions": [],
+  "indications": [
+    {
+      "text": "Preferred for fractures of the proximal fibula and proximal tibiofibular joint when the common peroneal nerve must be seen and mobilized.",
+      "claim_ids": [
+        "tibia_straight_lateral_proximal_fibula_indications_01"
+      ]
+    }
+  ],
+  "relative_contraindications": [],
+  "implant_implications": [],
+  "fluoroscopy_implications": [],
+  "closure": [
+    {
+      "text": "Close only skin and subcutaneous tissue so the nerve is not constricted by a fascial repair.",
+      "claim_ids": [
+        "tibia_straight_lateral_proximal_fibula_closure_01"
+      ]
+    }
+  ],
+  "complications": [
+    {
+      "text": "The principal complication is common-peroneal-nerve injury or constriction if fascia is closed over the nerve.",
+      "claim_ids": [
+        "tibia_straight_lateral_proximal_fibula_complications_01"
+      ]
+    }
+  ],
+  "bailouts": [],
+  "procedure_applications": [
+    {
+      "procedure_id": "tibial_plateau_fracture_orif",
+      "relationship": "conditional_option",
+      "condition": "A proximal-fibular or proximal-tibiofibular injury needs direct nerve-safe exposure, with optional combination with an anterolateral plateau window"
+    }
+  ],
+  "questions": [
+    {
+      "question": "Where is the common peroneal nerve found proximally?",
+      "answer": "Immediately posterior to the biceps tendon.",
+      "claim_ids": [
+        "tibia_straight_lateral_proximal_fibula_questions_01"
+      ]
+    },
+    {
+      "question": "What must be released as the nerve enters the anterior compartment?",
+      "answer": "The anterior fascial constraints and the posterior intermuscular septum.",
+      "claim_ids": [
+        "tibia_straight_lateral_proximal_fibula_questions_02"
+      ]
+    },
+    {
+      "question": "What is closed at the end of the case?",
+      "answer": "Only skin and subcutaneous tissue, to avoid nerve constriction.",
+      "claim_ids": [
+        "tibia_straight_lateral_proximal_fibula_questions_03"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "tibia_straight_lateral_proximal_fibula_positioning_01",
+      "text": "Position so the fibular head, biceps tendon, and lateral tibial plateau can be seen.",
+      "source_ids": [
+        "ao_354921dcd8650339",
+        "ao_d032f518d347e3bb"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "tibia_straight_lateral_proximal_fibula_surface_landmarks_01",
+      "text": "Mark the fibular head, fibular neck, biceps tendon, and, if needed, a more anterior line toward Gerdy tubercle.",
+      "source_ids": [
+        "ao_354921dcd8650339"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "tibia_straight_lateral_proximal_fibula_incision_01",
+      "text": "Make a longitudinal cut directly over the fibular head. Shift it anteriorly or combine it with a curvilinear anterolateral approach if the lateral plateau must be seen.",
+      "source_ids": [
+        "ao_354921dcd8650339"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "tibia_straight_lateral_proximal_fibula_superficial_interval_01",
+      "text": "Open skin and fat, then open deep fascia carefully with Metzenbaum scissors. Find the common peroneal nerve immediately posterior to the biceps tendon proximally.",
+      "source_ids": [
+        "ao_354921dcd8650339"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "tibia_straight_lateral_proximal_fibula_deep_interval_01",
+      "text": "Mobilize the nerve from its fascial constraints around the fibular neck and release the anterior fascial constraints and posterior intermuscular septum as it enters the anterior compartment. Tag the nerve, then handle the proximal fibula and neck.",
+      "source_ids": [
+        "ao_354921dcd8650339"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "tibia_straight_lateral_proximal_fibula_layers_01",
+      "text": "Skin, deep fascia, common peroneal nerve, then the proximal fibula and tibiofibular joint.",
+      "source_ids": [
+        "ao_354921dcd8650339"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "tibia_straight_lateral_proximal_fibula_structures_at_risk_01",
+      "text": "The common peroneal nerve at the biceps tendon and fibular neck is the principal structure at risk.",
+      "source_ids": [
+        "ao_354921dcd8650339",
+        "ao_d032f518d347e3bb"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "tibia_straight_lateral_proximal_fibula_danger_zones_01",
+      "text": "The fibular neck, where the nerve is constrained by fascia before entering the anterior compartment, is the danger zone.",
+      "source_ids": [
+        "ao_354921dcd8650339"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "tibia_straight_lateral_proximal_fibula_retraction_hazards_01",
+      "text": "Do not manipulate the proximal fibula until the nerve is identified, mobilized, and tagged.",
+      "source_ids": [
+        "ao_354921dcd8650339"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "tibia_straight_lateral_proximal_fibula_exposure_01",
+      "text": "Shows the proximal fibula and proximal tibiofibular joint with the common peroneal nerve under direct control.",
+      "source_ids": [
+        "ao_354921dcd8650339"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "tibia_straight_lateral_proximal_fibula_limitations_01",
+      "text": "Lateral-plateau work needs a more anterior cut or a combined anterolateral approach. A standard anterolateral plateau window does not encounter this nerve if it stays anterior.",
+      "source_ids": [
+        "ao_354921dcd8650339",
+        "ao_d032f518d347e3bb"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "tibia_straight_lateral_proximal_fibula_indications_01",
+      "text": "Preferred for fractures of the proximal fibula and proximal tibiofibular joint when the common peroneal nerve must be seen and mobilized.",
+      "source_ids": [
+        "ao_354921dcd8650339"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "tibia_straight_lateral_proximal_fibula_closure_01",
+      "text": "Close only skin and subcutaneous tissue so the nerve is not constricted by a fascial repair.",
+      "source_ids": [
+        "ao_354921dcd8650339"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "tibia_straight_lateral_proximal_fibula_complications_01",
+      "text": "The principal complication is common-peroneal-nerve injury or constriction if fascia is closed over the nerve.",
+      "source_ids": [
+        "ao_354921dcd8650339",
+        "ao_d032f518d347e3bb"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "tibia_straight_lateral_proximal_fibula_questions_01",
+      "text": "Where is the common peroneal nerve found proximally?",
+      "source_ids": [
+        "ao_354921dcd8650339"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "tibia_straight_lateral_proximal_fibula_questions_02",
+      "text": "What must be released as the nerve enters the anterior compartment?",
+      "source_ids": [
+        "ao_354921dcd8650339"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "tibia_straight_lateral_proximal_fibula_questions_03",
+      "text": "What is closed at the end of the case?",
+      "source_ids": [
+        "ao_354921dcd8650339"
+      ],
+      "risk_level": "medium"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "ao_354921dcd8650339",
+      "provider": "AO Surgery Reference",
+      "title": "Straight Lateral Approach",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/proximal-tibia/approach/straight-lateral-approach",
+      "source_page_id": "ao_354921dcd8650339"
+    },
+    {
+      "source_id": "ao_d032f518d347e3bb",
+      "provider": "AO Surgery Reference",
+      "title": "Anterolateral And Extended Anterolateral Approach To Proximal Tibia",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/proximal-tibia/approach/anterolateral-and-extended-anterolateral-approach-to-proximal-tibia",
+      "source_page_id": "ao_d032f518d347e3bb"
+    }
+  ],
+  "content_status": "agent_review_pending",
+  "review": {
+    "status": "agent_review_pending",
+    "required_roles": [
+      "adversarial_safety_reviewer",
+      "approach_anatomy_reviewer",
+      "educational_value_reviewer",
+      "evidence_reviewer",
+      "operative_exposure_reviewer",
+      "procedure_applicability_reviewer"
+    ],
+    "completed_roles": []
+  },
+  "resolved_contradiction_keys": [],
+  "authoring_provenance": {
+    "method": "local_codex_curated",
+    "definition_file": "data/approach_library/curated/pelvis_tibia_batch001_v1.json",
+    "api_used": false
+  }
+}

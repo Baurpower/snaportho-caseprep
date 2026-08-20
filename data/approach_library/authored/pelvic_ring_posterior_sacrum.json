@@ -1,0 +1,342 @@
+{
+  "schema_version": "brobot_approach_packet_v1",
+  "approach_id": "pelvic_ring_posterior_sacrum",
+  "name": "Posterior approach to the sacrum",
+  "aliases": [
+    "midline posterior sacral approach"
+  ],
+  "region": "pelvic-ring",
+  "joint": "sacroiliac",
+  "bones": [
+    "sacrum",
+    "posterior ilium"
+  ],
+  "corridor": "Midline incision from L4/L5 to proximal to the anus, with a distally based V in the lumbosacral fascia and subperiosteal elevation of multifidus as a flap or bipedicle, exposing the posterior sacrum and both posterior SI joints",
+  "positioning": [
+    {
+      "text": "Position prone so the lumbosacral spine, posterior ilium, and a zone proximal to the anus can be draped.",
+      "claim_ids": [
+        "pelvic_ring_posterior_sacrum_positioning_01"
+      ]
+    }
+  ],
+  "setup": [],
+  "surface_landmarks": [
+    {
+      "text": "Mark L4/L5 spinous processes, the sacral midline, the posterior iliac crest, and stay proximal to the anus.",
+      "claim_ids": [
+        "pelvic_ring_posterior_sacrum_surface_landmarks_01"
+      ]
+    }
+  ],
+  "incision": [
+    {
+      "text": "Use a midline cut from L4 or L5 to just proximal to the anus to see both sides of the sacrum. Transiliac fixation can add oblique cuts from the PIIS plus a midline for submuscular implants. Do not go through crushed skin or a Morel-Lavallée hematoma.",
+      "claim_ids": [
+        "pelvic_ring_posterior_sacrum_incision_01"
+      ]
+    }
+  ],
+  "superficial_interval": [
+    {
+      "text": "Incise lumbosacral fascia parallel to the L4/L5 spinous processes on the injured side and make a distally based V toward the iliac crest.",
+      "claim_ids": [
+        "pelvic_ring_posterior_sacrum_superficial_interval_01"
+      ]
+    }
+  ],
+  "deep_interval": [
+    {
+      "text": "Elevate lumbosacral muscle subperiosteally from the posterior sacrum either by releasing multifidus distally as a flap or by incising it medially and laterally as a bipedicle flap. For more ala exposure, take the muscle off its lateral attachment to the posterior iliac crest.",
+      "claim_ids": [
+        "pelvic_ring_posterior_sacrum_deep_interval_01"
+      ]
+    }
+  ],
+  "layers": [
+    {
+      "text": "Skin, lumbosacral fascia, multifidus/erector spinae, then the posterior sacrum and adjacent posterior ilium.",
+      "claim_ids": [
+        "pelvic_ring_posterior_sacrum_layers_01"
+      ]
+    }
+  ],
+  "structures_encountered": [],
+  "structures_at_risk": [
+    {
+      "text": "Posterior skin over a Morel-Lavallée lesion, sacral nerve roots being decompressed, and the gluteus maximus origin at closure are at risk.",
+      "claim_ids": [
+        "pelvic_ring_posterior_sacrum_structures_at_risk_01"
+      ]
+    }
+  ],
+  "danger_zones": [
+    {
+      "text": "A posterior cut through severely contused tissue or a subcutaneous hematoma is the wound-healing danger zone.",
+      "claim_ids": [
+        "pelvic_ring_posterior_sacrum_danger_zones_01"
+      ]
+    }
+  ],
+  "retraction_hazards": [
+    {
+      "text": "Reposition erector spinae gently at closure and reattach the superior gluteus maximus origin.",
+      "claim_ids": [
+        "pelvic_ring_posterior_sacrum_retraction_hazards_01"
+      ]
+    }
+  ],
+  "exposure": [
+    {
+      "text": "Shows the posterior sacral surface, the posterior aspects of both SI joints, and adjacent posterior ilium, typically for sacral ORIF and nerve-root decompression.",
+      "claim_ids": [
+        "pelvic_ring_posterior_sacrum_exposure_01"
+      ]
+    }
+  ],
+  "limitations": [
+    {
+      "text": "The incision must stop proximal to the anus. Crushed posterior soft tissue may forbid the corridor.",
+      "claim_ids": [
+        "pelvic_ring_posterior_sacrum_limitations_01"
+      ]
+    }
+  ],
+  "extensions": [],
+  "indications": [
+    {
+      "text": "Indicated to expose the posterior sacrum and both posterior SI joints, especially for sacral-fracture ORIF with nerve-root decompression.",
+      "claim_ids": [
+        "pelvic_ring_posterior_sacrum_indications_01"
+      ]
+    }
+  ],
+  "relative_contraindications": [],
+  "implant_implications": [],
+  "fluoroscopy_implications": [],
+  "closure": [
+    {
+      "text": "Gently replace erector spinae, reattach the superior origin of gluteus maximus, and close fat and skin in layers.",
+      "claim_ids": [
+        "pelvic_ring_posterior_sacrum_closure_01"
+      ]
+    }
+  ],
+  "complications": [
+    {
+      "text": "The principal complication is posterior wound breakdown when the cut goes through crushed skin or a Morel-Lavallée lesion.",
+      "claim_ids": [
+        "pelvic_ring_posterior_sacrum_complications_01"
+      ]
+    }
+  ],
+  "bailouts": [],
+  "procedure_applications": [
+    {
+      "procedure_id": "pelvic_ring_orif",
+      "relationship": "primary_option",
+      "condition": "A sacral fracture, especially one needing nerve-root decompression, is exposed from posterior"
+    }
+  ],
+  "questions": [
+    {
+      "question": "Where does a midline sacral incision start and stop?",
+      "answer": "From the L4 or L5 spinous process, ending proximal to the anus.",
+      "claim_ids": [
+        "pelvic_ring_posterior_sacrum_questions_01"
+      ]
+    },
+    {
+      "question": "What fascia incision is used on the injured side?",
+      "answer": "A cut parallel to L4/L5 spinous processes plus a distally based V aimed at the iliac crest.",
+      "claim_ids": [
+        "pelvic_ring_posterior_sacrum_questions_02"
+      ]
+    },
+    {
+      "question": "Why avoid crushed posterior skin?",
+      "answer": "Approaches through contused tissue or Morel-Lavallée hematomas cause significant wound-healing problems.",
+      "claim_ids": [
+        "pelvic_ring_posterior_sacrum_questions_03"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "pelvic_ring_posterior_sacrum_positioning_01",
+      "text": "Position prone so the lumbosacral spine, posterior ilium, and a zone proximal to the anus can be draped.",
+      "source_ids": [
+        "ao_856eb39c56d17b72"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "pelvic_ring_posterior_sacrum_surface_landmarks_01",
+      "text": "Mark L4/L5 spinous processes, the sacral midline, the posterior iliac crest, and stay proximal to the anus.",
+      "source_ids": [
+        "ao_856eb39c56d17b72"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "pelvic_ring_posterior_sacrum_incision_01",
+      "text": "Use a midline cut from L4 or L5 to just proximal to the anus to see both sides of the sacrum. Transiliac fixation can add oblique cuts from the PIIS plus a midline for submuscular implants. Do not go through crushed skin or a Morel-Lavallée hematoma.",
+      "source_ids": [
+        "ao_856eb39c56d17b72",
+        "ao_9729dceb18c8c492"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "pelvic_ring_posterior_sacrum_superficial_interval_01",
+      "text": "Incise lumbosacral fascia parallel to the L4/L5 spinous processes on the injured side and make a distally based V toward the iliac crest.",
+      "source_ids": [
+        "ao_856eb39c56d17b72"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "pelvic_ring_posterior_sacrum_deep_interval_01",
+      "text": "Elevate lumbosacral muscle subperiosteally from the posterior sacrum either by releasing multifidus distally as a flap or by incising it medially and laterally as a bipedicle flap. For more ala exposure, take the muscle off its lateral attachment to the posterior iliac crest.",
+      "source_ids": [
+        "ao_856eb39c56d17b72"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "pelvic_ring_posterior_sacrum_layers_01",
+      "text": "Skin, lumbosacral fascia, multifidus/erector spinae, then the posterior sacrum and adjacent posterior ilium.",
+      "source_ids": [
+        "ao_856eb39c56d17b72"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "pelvic_ring_posterior_sacrum_structures_at_risk_01",
+      "text": "Posterior skin over a Morel-Lavallée lesion, sacral nerve roots being decompressed, and the gluteus maximus origin at closure are at risk.",
+      "source_ids": [
+        "ao_856eb39c56d17b72",
+        "ao_9729dceb18c8c492"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "pelvic_ring_posterior_sacrum_danger_zones_01",
+      "text": "A posterior cut through severely contused tissue or a subcutaneous hematoma is the wound-healing danger zone.",
+      "source_ids": [
+        "ao_856eb39c56d17b72",
+        "ao_9729dceb18c8c492"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "pelvic_ring_posterior_sacrum_retraction_hazards_01",
+      "text": "Reposition erector spinae gently at closure and reattach the superior gluteus maximus origin.",
+      "source_ids": [
+        "ao_856eb39c56d17b72"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "pelvic_ring_posterior_sacrum_exposure_01",
+      "text": "Shows the posterior sacral surface, the posterior aspects of both SI joints, and adjacent posterior ilium, typically for sacral ORIF and nerve-root decompression.",
+      "source_ids": [
+        "ao_856eb39c56d17b72"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "pelvic_ring_posterior_sacrum_limitations_01",
+      "text": "The incision must stop proximal to the anus. Crushed posterior soft tissue may forbid the corridor.",
+      "source_ids": [
+        "ao_856eb39c56d17b72"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "pelvic_ring_posterior_sacrum_indications_01",
+      "text": "Indicated to expose the posterior sacrum and both posterior SI joints, especially for sacral-fracture ORIF with nerve-root decompression.",
+      "source_ids": [
+        "ao_856eb39c56d17b72"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "pelvic_ring_posterior_sacrum_closure_01",
+      "text": "Gently replace erector spinae, reattach the superior origin of gluteus maximus, and close fat and skin in layers.",
+      "source_ids": [
+        "ao_856eb39c56d17b72"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "pelvic_ring_posterior_sacrum_complications_01",
+      "text": "The principal complication is posterior wound breakdown when the cut goes through crushed skin or a Morel-Lavallée lesion.",
+      "source_ids": [
+        "ao_856eb39c56d17b72",
+        "ao_9729dceb18c8c492"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "pelvic_ring_posterior_sacrum_questions_01",
+      "text": "Where does a midline sacral incision start and stop?",
+      "source_ids": [
+        "ao_856eb39c56d17b72"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "pelvic_ring_posterior_sacrum_questions_02",
+      "text": "What fascia incision is used on the injured side?",
+      "source_ids": [
+        "ao_856eb39c56d17b72"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "pelvic_ring_posterior_sacrum_questions_03",
+      "text": "Why avoid crushed posterior skin?",
+      "source_ids": [
+        "ao_856eb39c56d17b72",
+        "ao_9729dceb18c8c492"
+      ],
+      "risk_level": "medium"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "ao_856eb39c56d17b72",
+      "provider": "AO Surgery Reference",
+      "title": "Posterior Approach To The Sacrum",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/pelvic-ring/approach/posterior-approach-to-the-sacrum",
+      "source_page_id": "ao_856eb39c56d17b72"
+    },
+    {
+      "source_id": "ao_9729dceb18c8c492",
+      "provider": "AO Surgery Reference",
+      "title": "Posterior Approach To The Si Joint",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/pelvic-ring/approach/posterior-approach-to-the-si-joint",
+      "source_page_id": "ao_9729dceb18c8c492"
+    }
+  ],
+  "content_status": "agent_review_pending",
+  "review": {
+    "status": "agent_review_pending",
+    "required_roles": [
+      "adversarial_safety_reviewer",
+      "approach_anatomy_reviewer",
+      "educational_value_reviewer",
+      "evidence_reviewer",
+      "operative_exposure_reviewer",
+      "procedure_applicability_reviewer"
+    ],
+    "completed_roles": []
+  },
+  "resolved_contradiction_keys": [],
+  "authoring_provenance": {
+    "method": "local_codex_curated",
+    "definition_file": "data/approach_library/curated/pelvis_tibia_batch001_v1.json",
+    "api_used": false
+  }
+}

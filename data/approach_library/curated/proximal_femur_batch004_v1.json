@@ -1,0 +1,564 @@
+{
+  "approaches": [
+    {
+      "approach_id": "proximal_femur_surgical_hip_dislocation",
+      "name": "Surgical hip dislocation (Ganz) approach",
+      "aliases": [
+        "Ganz surgical dislocation",
+        "trochanteric flip with controlled dislocation"
+      ],
+      "region": "proximal-femur",
+      "joint": "hip",
+      "bones": [
+        "proximal femur",
+        "acetabulum"
+      ],
+      "corridor": "Lateral Gibson interval with a digastric trochanteric flip osteotomy that keeps obturator externus intact to protect the medial femoral circumflex artery, then a Z-capsulotomy and controlled anterior dislocation for full head and acetabular access",
+      "sources": [
+        {
+          "source_id": "ao_235b0fb9748c5272",
+          "provider": "AO Surgery Reference",
+          "title": "Surgical hip dislocation (pediatric proximal femur)",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/pediatric-trauma/proximal-femur/approach/surgical-hip-dislocation",
+          "source_page_id": "ao_235b0fb9748c5272"
+        },
+        {
+          "source_id": "ao_67a86eb94e66b735",
+          "provider": "AO Surgery Reference",
+          "title": "Lateral approach via trochanteric flip (pediatric proximal femur)",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/pediatric-trauma/proximal-femur/approach/lateral-approach-via-trochanteric-flip",
+          "source_page_id": "ao_67a86eb94e66b735"
+        }
+      ],
+      "procedure_applications": [
+        {
+          "procedure_id": "scfe_pinning",
+          "relationship": "conditional_option",
+          "condition": "A slipped capital femoral epiphysis needs open realignment or intra-articular access"
+        },
+        {
+          "procedure_id": "perthes_disease_surgery",
+          "relationship": "conditional_option",
+          "condition": "Perthes disease with subluxation or hinging needs full femoral head and acetabular exposure"
+        }
+      ],
+      "sections": {
+        "positioning": [
+          {
+            "text": "Position in lateral decubitus with OR-table support allowing the leg to be dislocated anteriorly into a sterile bag.",
+            "source_ids": [
+              "ao_235b0fb9748c5272"
+            ]
+          }
+        ],
+        "surface_landmarks": [
+          {
+            "text": "Mark the greater trochanter and the anterior border of gluteus maximus for the Gibson interval.",
+            "source_ids": [
+              "ao_235b0fb9748c5272"
+            ]
+          }
+        ],
+        "incision": [
+          {
+            "text": "Incise the fascia lata longitudinally along the anterior border of gluteus maximus and develop the interval between gluteus maximus and medius.",
+            "source_ids": [
+              "ao_235b0fb9748c5272"
+            ]
+          }
+        ],
+        "superficial_interval": [
+          {
+            "text": "With the knee flexed and hip extended, expose the posterior border of gluteus medius and plan the digastric trochanteric osteotomy leaving a 5 mm cuff of the posterior gluteus medius on the shaft.",
+            "source_ids": [
+              "ao_235b0fb9748c5272",
+              "ao_67a86eb94e66b735"
+            ]
+          }
+        ],
+        "deep_interval": [
+          {
+            "text": "Make an approximately 1.5 cm thick trochanteric flip, keep the dissection cranial to piriformis, and preserve obturator externus intact to protect the medial femoral circumflex artery, then perform a Z-capsulotomy avoiding the labrum and retinacular vessels.",
+            "source_ids": [
+              "ao_235b0fb9748c5272",
+              "ao_67a86eb94e66b735"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "layers": [
+          {
+            "text": "Skin, fascia lata, the gluteus maximus and medius interval, the trochanteric flip with abductors and vastus lateralis, the short external rotators and obturator externus, and the hip capsule.",
+            "source_ids": [
+              "ao_235b0fb9748c5272"
+            ]
+          }
+        ],
+        "structures_at_risk": [
+          {
+            "text": "The medial femoral circumflex artery (protected by intact obturator externus and staying cranial to piriformis), the retinacular vessels, the labrum, and the sciatic nerve are at risk.",
+            "source_ids": [
+              "ao_235b0fb9748c5272",
+              "ao_67a86eb94e66b735"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "danger_zones": [
+          {
+            "text": "The interval between gemellus superior and piriformis, where the medial femoral circumflex artery enters the capsule, is the danger zone; dissection must stay cranial to piriformis and spare obturator externus.",
+            "source_ids": [
+              "ao_235b0fb9748c5272",
+              "ao_67a86eb94e66b735"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "retraction_hazards": [
+          {
+            "text": "Do not detach obturator externus and avoid a thin osteotomy that fractures or a deep cut that injures the circumflex vessels.",
+            "source_ids": [
+              "ao_235b0fb9748c5272",
+              "ao_67a86eb94e66b735"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "exposure": [
+          {
+            "text": "Provides full visualization of the entire femoral head and acetabulum after controlled dislocation.",
+            "source_ids": [
+              "ao_235b0fb9748c5272"
+            ]
+          }
+        ],
+        "limitations": [
+          {
+            "text": "It depends on a correctly sized osteotomy and intact obturator externus; too thin a fragment fractures and too deep a cut risks avascular necrosis.",
+            "source_ids": [
+              "ao_235b0fb9748c5272"
+            ]
+          }
+        ],
+        "indications": [
+          {
+            "text": "Indicated for femoroacetabular impingement, slipped capital femoral epiphysis, Perthes disease with subluxation or hinging, and acetabular or femoral head fractures and osteochondral lesions.",
+            "source_ids": [
+              "ao_235b0fb9748c5272"
+            ]
+          }
+        ],
+        "closure": [
+          {
+            "text": "Close the capsule loosely with 2-0 absorbable sutures to prevent tension hemarthrosis, fix the trochanter with two 3.5 mm cortex screws perpendicular to the osteotomy, and repair the trochanteric bursa.",
+            "source_ids": [
+              "ao_235b0fb9748c5272"
+            ]
+          }
+        ],
+        "complications": [
+          {
+            "text": "Complications include avascular necrosis from medial femoral circumflex artery injury, trochanteric fragment fracture or nonunion, and tension hemarthrosis.",
+            "source_ids": [
+              "ao_235b0fb9748c5272",
+              "ao_67a86eb94e66b735"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "questions": [
+          {
+            "question": "Which muscle must stay intact to protect the medial femoral circumflex artery?",
+            "answer": "The obturator externus.",
+            "source_ids": [
+              "ao_235b0fb9748c5272",
+              "ao_67a86eb94e66b735"
+            ]
+          },
+          {
+            "question": "How thick should the trochanteric flip fragment be?",
+            "answer": "About 1.5 cm, with a 5 mm posterior gluteus medius cuff left on the shaft.",
+            "source_ids": [
+              "ao_235b0fb9748c5272"
+            ]
+          },
+          {
+            "question": "Why is the capsule closed loosely?",
+            "answer": "To prevent a tension hemarthrosis.",
+            "source_ids": [
+              "ao_235b0fb9748c5272"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "approach_id": "proximal_femur_transgluteal",
+      "name": "Transgluteal approach to the proximal femur",
+      "aliases": [
+        "anterior gluteus medius-splitting approach to the femoral neck"
+      ],
+      "region": "proximal-femur",
+      "joint": "hip",
+      "bones": [
+        "proximal femur"
+      ],
+      "corridor": "Transgluteal split within gluteus medius with an anterior vastus lateralis sleeve to the anterior femoral neck, limiting the split to protect the nerve to gluteus medius",
+      "sources": [
+        {
+          "source_id": "ao_28b2da9187de318d",
+          "provider": "AO Surgery Reference",
+          "title": "Transgluteal approach (pediatric proximal femur)",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/pediatric-trauma/proximal-femur/approach/transgluteal-approach",
+          "source_page_id": "ao_28b2da9187de318d"
+        },
+        {
+          "source_id": "ao_235b0fb9748c5272",
+          "provider": "AO Surgery Reference",
+          "title": "Surgical hip dislocation (pediatric proximal femur)",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/pediatric-trauma/proximal-femur/approach/surgical-hip-dislocation",
+          "source_page_id": "ao_235b0fb9748c5272"
+        }
+      ],
+      "procedure_applications": [
+        {
+          "procedure_id": "femoral_neck_fracture_orif_young",
+          "relationship": "primary_option",
+          "condition": "A pediatric extracapsular neck fracture or a nondisplaced complete intracapsular fracture needs open reduction or stabilization"
+        }
+      ],
+      "sections": {
+        "positioning": [
+          {
+            "text": "Position supine or lateral with the greater trochanter and anterior femoral neck accessible.",
+            "source_ids": [
+              "ao_28b2da9187de318d"
+            ]
+          }
+        ],
+        "surface_landmarks": [
+          {
+            "text": "Mark the anterior superior iliac spine, the greater trochanter, and the femoral axis.",
+            "source_ids": [
+              "ao_28b2da9187de318d"
+            ]
+          }
+        ],
+        "incision": [
+          {
+            "text": "Begin several centimeters proximal to the ASIS and run the incision along the femoral axis just anterior to the greater trochanter, extending equally above and below it.",
+            "source_ids": [
+              "ao_28b2da9187de318d"
+            ]
+          }
+        ],
+        "superficial_interval": [
+          {
+            "text": "Incise the fascia lata along the anterior border of gluteus maximus and develop the plane within the gluteus medius between its anterior and medial parts.",
+            "source_ids": [
+              "ao_28b2da9187de318d"
+            ]
+          }
+        ],
+        "deep_interval": [
+          {
+            "text": "Mobilize vastus lateralis from the anterolateral femur and dissect the anterior gluteus medius off the trochanter, not splitting the muscle more than 30 to 40 percent of its length to protect its motor nerve, then make a Z-capsulotomy avoiding the labrum.",
+            "source_ids": [
+              "ao_28b2da9187de318d"
+            ],
+            "risk_level": "medium"
+          }
+        ],
+        "layers": [
+          {
+            "text": "Skin, fascia lata, gluteus medius, the anterior capsule, and the femoral neck.",
+            "source_ids": [
+              "ao_28b2da9187de318d"
+            ]
+          }
+        ],
+        "structures_at_risk": [
+          {
+            "text": "The motor nerve to gluteus medius is at risk if the muscle is split too far proximally, and the labrum during capsulotomy.",
+            "source_ids": [
+              "ao_28b2da9187de318d",
+              "ao_235b0fb9748c5272"
+            ],
+            "risk_level": "medium"
+          }
+        ],
+        "danger_zones": [
+          {
+            "text": "Splitting the gluteus medius more than 30 to 40 percent of its length is the danger zone for its motor nerve.",
+            "source_ids": [
+              "ao_28b2da9187de318d"
+            ],
+            "risk_level": "medium"
+          }
+        ],
+        "retraction_hazards": [
+          {
+            "text": "Limit the proximal extent of the gluteus medius split and avoid cutting the labrum during capsulotomy.",
+            "source_ids": [
+              "ao_28b2da9187de318d"
+            ],
+            "risk_level": "medium"
+          }
+        ],
+        "exposure": [
+          {
+            "text": "Exposes the anterior femoral neck for open reduction and stabilization.",
+            "source_ids": [
+              "ao_28b2da9187de318d"
+            ]
+          }
+        ],
+        "limitations": [
+          {
+            "text": "The safe proximal split is limited by the motor nerve to gluteus medius, restricting cranial exposure.",
+            "source_ids": [
+              "ao_28b2da9187de318d"
+            ]
+          }
+        ],
+        "indications": [
+          {
+            "text": "Indicated for open reduction and stabilization of extracapsular neck fractures and nondisplaced complete intracapsular fractures.",
+            "source_ids": [
+              "ao_28b2da9187de318d"
+            ]
+          }
+        ],
+        "closure": [
+          {
+            "text": "Close the capsule loosely to prevent a pressurized hemarthrosis and reposition the trochanteric bursa.",
+            "source_ids": [
+              "ao_28b2da9187de318d",
+              "ao_235b0fb9748c5272"
+            ]
+          }
+        ],
+        "complications": [
+          {
+            "text": "Complications include gluteus medius weakness from motor nerve injury and hemarthrosis.",
+            "source_ids": [
+              "ao_28b2da9187de318d"
+            ],
+            "risk_level": "medium"
+          }
+        ],
+        "questions": [
+          {
+            "question": "How far may the gluteus medius be split in the transgluteal approach?",
+            "answer": "No more than 30 to 40 percent of its length, to protect its motor nerve.",
+            "source_ids": [
+              "ao_28b2da9187de318d"
+            ]
+          },
+          {
+            "question": "What does the transgluteal approach expose?",
+            "answer": "The anterior femoral neck.",
+            "source_ids": [
+              "ao_28b2da9187de318d"
+            ]
+          },
+          {
+            "question": "Why is the capsule closed loosely?",
+            "answer": "To prevent a pressurized hemarthrosis.",
+            "source_ids": [
+              "ao_28b2da9187de318d",
+              "ao_235b0fb9748c5272"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "approach_id": "proximal_femur_lateral_trochanteric_flip",
+      "name": "Lateral approach via trochanteric flip to the proximal femur",
+      "aliases": [
+        "trochanteric flip approach without dislocation"
+      ],
+      "region": "proximal-femur",
+      "joint": "hip",
+      "bones": [
+        "proximal femur"
+      ],
+      "corridor": "Lateral trochanteric flip osteotomy with abductors and vastus lateralis attached, mobilized anteriorly with obturator externus kept intact to protect the medial femoral circumflex artery, exposing the anterolateral femoral head and neck without full dislocation",
+      "sources": [
+        {
+          "source_id": "ao_67a86eb94e66b735",
+          "provider": "AO Surgery Reference",
+          "title": "Lateral approach via trochanteric flip (pediatric proximal femur)",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/pediatric-trauma/proximal-femur/approach/lateral-approach-via-trochanteric-flip",
+          "source_page_id": "ao_67a86eb94e66b735"
+        },
+        {
+          "source_id": "ao_235b0fb9748c5272",
+          "provider": "AO Surgery Reference",
+          "title": "Surgical hip dislocation (pediatric proximal femur)",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/pediatric-trauma/proximal-femur/approach/surgical-hip-dislocation",
+          "source_page_id": "ao_235b0fb9748c5272"
+        }
+      ],
+      "procedure_applications": [
+        {
+          "procedure_id": "femoral_neck_fracture_orif_young",
+          "relationship": "primary_option",
+          "condition": "An intracapsular femoral neck fracture needs open exposure where full dislocation is not appropriate"
+        }
+      ],
+      "sections": {
+        "positioning": [
+          {
+            "text": "Position in lateral decubitus with OR-table support for safe access to the trochanter and hip.",
+            "source_ids": [
+              "ao_67a86eb94e66b735"
+            ]
+          }
+        ],
+        "surface_landmarks": [
+          {
+            "text": "Mark the greater trochanter and the anterior border of gluteus maximus.",
+            "source_ids": [
+              "ao_67a86eb94e66b735"
+            ]
+          }
+        ],
+        "incision": [
+          {
+            "text": "Use a lateral incision over the trochanter through the fascia lata to the Gibson interval.",
+            "source_ids": [
+              "ao_67a86eb94e66b735",
+              "ao_235b0fb9748c5272"
+            ]
+          }
+        ],
+        "superficial_interval": [
+          {
+            "text": "Make a trochanteric flip osteotomy about 1.5 cm thick leaving a 5 mm posterior gluteus medius cuff on the shaft, keeping the abductors and vastus lateralis on the fragment.",
+            "source_ids": [
+              "ao_67a86eb94e66b735",
+              "ao_235b0fb9748c5272"
+            ]
+          }
+        ],
+        "deep_interval": [
+          {
+            "text": "Move the trochanter anteriorly in continuity with the abductors, keep dissection cranial to piriformis with obturator externus intact to protect the medial femoral circumflex artery, and use an inside-out technique to release remaining periosteum, then a Z-capsulotomy to see the anterolateral head and neck.",
+            "source_ids": [
+              "ao_67a86eb94e66b735",
+              "ao_235b0fb9748c5272"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "layers": [
+          {
+            "text": "Skin, fascia lata, the trochanteric flip with abductors and vastus lateralis, the short external rotators and obturator externus, and the hip capsule.",
+            "source_ids": [
+              "ao_67a86eb94e66b735"
+            ]
+          }
+        ],
+        "structures_at_risk": [
+          {
+            "text": "The medial femoral circumflex artery is the primary structure at risk, threatened by an inadequate or too-deep osteotomy or detachment of obturator externus.",
+            "source_ids": [
+              "ao_67a86eb94e66b735",
+              "ao_235b0fb9748c5272"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "danger_zones": [
+          {
+            "text": "The zone between gemellus superior and piriformis where the medial femoral circumflex artery enters the capsule is the danger zone.",
+            "source_ids": [
+              "ao_67a86eb94e66b735",
+              "ao_235b0fb9748c5272"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "retraction_hazards": [
+          {
+            "text": "Keep obturator externus intact and stay cranial to piriformis, and avoid a thin fragment that fractures.",
+            "source_ids": [
+              "ao_67a86eb94e66b735",
+              "ao_235b0fb9748c5272"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "exposure": [
+          {
+            "text": "Exposes the anterior and lateral aspect of the femoral head and the labrum without full dislocation.",
+            "source_ids": [
+              "ao_67a86eb94e66b735"
+            ]
+          }
+        ],
+        "limitations": [
+          {
+            "text": "It gives less complete head and acetabular access than a full surgical dislocation and depends on a correctly sized osteotomy.",
+            "source_ids": [
+              "ao_67a86eb94e66b735"
+            ]
+          }
+        ],
+        "indications": [
+          {
+            "text": "Indicated for intracapsular fractures when a full surgical dislocation is not appropriate.",
+            "source_ids": [
+              "ao_67a86eb94e66b735"
+            ]
+          }
+        ],
+        "closure": [
+          {
+            "text": "Fix the trochanter with two 3.5 mm cortex screws perpendicular to the osteotomy, close the capsule loosely, and repair the bursa.",
+            "source_ids": [
+              "ao_67a86eb94e66b735",
+              "ao_235b0fb9748c5272"
+            ]
+          }
+        ],
+        "complications": [
+          {
+            "text": "Complications include avascular necrosis from medial femoral circumflex artery injury and trochanteric fragment fracture or nonunion.",
+            "source_ids": [
+              "ao_67a86eb94e66b735",
+              "ao_235b0fb9748c5272"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "questions": [
+          {
+            "question": "How does the lateral trochanteric flip differ from a full surgical dislocation?",
+            "answer": "It exposes the anterolateral head and neck without dislocating the hip.",
+            "source_ids": [
+              "ao_67a86eb94e66b735"
+            ]
+          },
+          {
+            "question": "What protects the medial femoral circumflex artery in this approach?",
+            "answer": "Keeping the obturator externus intact and staying cranial to piriformis.",
+            "source_ids": [
+              "ao_67a86eb94e66b735",
+              "ao_235b0fb9748c5272"
+            ]
+          },
+          {
+            "question": "How is the trochanter refixed?",
+            "answer": "With two 3.5 mm cortex screws perpendicular to the osteotomy.",
+            "source_ids": [
+              "ao_67a86eb94e66b735"
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

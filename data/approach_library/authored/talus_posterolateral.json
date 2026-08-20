@@ -1,0 +1,354 @@
+{
+  "schema_version": "brobot_approach_packet_v1",
+  "approach_id": "talus_posterolateral",
+  "name": "Posterolateral approach to the talus",
+  "aliases": [
+    "posterolateral talar-body approach"
+  ],
+  "region": "talus",
+  "joint": "ankle",
+  "bones": [
+    "talus",
+    "distal tibia",
+    "distal fibula",
+    "calcaneus"
+  ],
+  "corridor": "Incision just lateral to the Achilles, not over the tendon, through pre-Achilles fat with FHL protecting the posterior tibial bundle medially, then vertical ankle and subtalar capsulotomies",
+  "positioning": [
+    {
+      "text": "Position so the lateral Achilles border, calcaneal tuberosity, and posterior ankle can be seen and a tibia–calcaneus distractor can be applied.",
+      "claim_ids": [
+        "talus_posterolateral_positioning_01"
+      ]
+    }
+  ],
+  "setup": [],
+  "surface_landmarks": [
+    {
+      "text": "Mark the lateral aspect of the Achilles tendon and the calcaneal tuberosity. Keep the cut off the Achilles and posterior to the sural nerve.",
+      "claim_ids": [
+        "talus_posterolateral_surface_landmarks_01"
+      ]
+    }
+  ],
+  "incision": [
+    {
+      "text": "Incise just lateral to the Achilles, not over the tendon. This is the vertical limb of an extended lateral calcaneal cut and can be lengthened farther than a typical extended-lateral vertical limb.",
+      "claim_ids": [
+        "talus_posterolateral_incision_01"
+      ]
+    }
+  ],
+  "superficial_interval": [
+    {
+      "text": "Stay posterior to the sural nerve, especially superiorly. Deepen lateral to Achilles paratenon through pre-Achilles fat. Respect the lateral calcaneal artery, which supplies most of this skin.",
+      "claim_ids": [
+        "talus_posterolateral_superficial_interval_01"
+      ]
+    }
+  ],
+  "deep_interval": [
+    {
+      "text": "Medially the FHL belly protects the posterior tibial neurovascular bundle. Incise the ankle and subtalar capsules vertically to show distal tibia above, calcaneus below, and the talar body between them. A distractor or external fixator between tibia and calcaneus widens the window.",
+      "claim_ids": [
+        "talus_posterolateral_deep_interval_01"
+      ]
+    }
+  ],
+  "layers": [
+    {
+      "text": "Skin, sural-nerve and lateral-calcaneal-artery plane, Achilles paratenon and pre-Achilles fat, FHL, then posterior ankle and subtalar capsules and the posterior talar body.",
+      "claim_ids": [
+        "talus_posterolateral_layers_01"
+      ]
+    }
+  ],
+  "structures_encountered": [],
+  "structures_at_risk": [
+    {
+      "text": "The sural nerve, Achilles tendon, and lateral calcaneal artery are the local structures at risk. Compared with a posteromedial window this cut does not put the posterior tibial bundle in the field.",
+      "claim_ids": [
+        "talus_posterolateral_structures_at_risk_01"
+      ]
+    }
+  ],
+  "danger_zones": [
+    {
+      "text": "A cut over the Achilles or too far anterior toward the sural nerve, and injury to the lateral calcaneal artery, are the danger zones.",
+      "claim_ids": [
+        "talus_posterolateral_danger_zones_01"
+      ]
+    }
+  ],
+  "retraction_hazards": [
+    {
+      "text": "This is a deep window to the back of the talus. Do not retract through FHL into the posterior tibial bundle, and do not expect a proximal extensile interval because FHL blocks it.",
+      "claim_ids": [
+        "talus_posterolateral_retraction_hazards_01"
+      ]
+    }
+  ],
+  "exposure": [
+    {
+      "text": "Shows the posterior half of the talar body, the posterior distal tibia and fibula, and the posterior calcaneus.",
+      "claim_ids": [
+        "talus_posterolateral_exposure_01"
+      ]
+    }
+  ],
+  "limitations": [
+    {
+      "text": "Dissection to the back of the talus is deep, and the approach is not extensile proximally because of FHL. It does not show the anterior half of the body.",
+      "claim_ids": [
+        "talus_posterolateral_limitations_01"
+      ]
+    }
+  ],
+  "extensions": [],
+  "indications": [
+    {
+      "text": "Used for acute posterior talar fractures, nonunion surgery, and posterior stabilization of a reduced talar neck.",
+      "claim_ids": [
+        "talus_posterolateral_indications_01"
+      ]
+    }
+  ],
+  "relative_contraindications": [],
+  "implant_implications": [],
+  "fluoroscopy_implications": [],
+  "closure": [
+    {
+      "text": "Close in layers.",
+      "claim_ids": [
+        "talus_posterolateral_closure_01"
+      ]
+    }
+  ],
+  "complications": [
+    {
+      "text": "Complications include sural neurapraxia, Achilles-tendon injury, and lateral-calcaneal-artery compromise of the posterior skin.",
+      "claim_ids": [
+        "talus_posterolateral_complications_01"
+      ]
+    }
+  ],
+  "bailouts": [],
+  "procedure_applications": [
+    {
+      "procedure_id": "talus_fracture_orif",
+      "relationship": "primary_option",
+      "condition": "A posterior talar-body fracture or nonunion is fixed, or a reduced talar neck is stabilized from behind"
+    }
+  ],
+  "questions": [
+    {
+      "question": "Where is the posterolateral talar incision placed relative to the Achilles?",
+      "answer": "Just lateral to the Achilles, not over the tendon, using the lateral Achilles border and calcaneal tuberosity as landmarks.",
+      "claim_ids": [
+        "talus_posterolateral_questions_01"
+      ]
+    },
+    {
+      "question": "What is the main advantage of this window over a posteromedial approach?",
+      "answer": "It does not put the posterior tibial neurovascular bundle in the field.",
+      "claim_ids": [
+        "talus_posterolateral_questions_02"
+      ]
+    },
+    {
+      "question": "Why is the approach not extensile proximally?",
+      "answer": "Flexor hallucis longus blocks proximal extension.",
+      "claim_ids": [
+        "talus_posterolateral_questions_03"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "talus_posterolateral_positioning_01",
+      "text": "Position so the lateral Achilles border, calcaneal tuberosity, and posterior ankle can be seen and a tibia–calcaneus distractor can be applied.",
+      "source_ids": [
+        "ao_d417994673ca4c70",
+        "ao_d1d6e660d076a419"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "talus_posterolateral_surface_landmarks_01",
+      "text": "Mark the lateral aspect of the Achilles tendon and the calcaneal tuberosity. Keep the cut off the Achilles and posterior to the sural nerve.",
+      "source_ids": [
+        "ao_d417994673ca4c70",
+        "ao_272a8b6430a22ffb"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "talus_posterolateral_incision_01",
+      "text": "Incise just lateral to the Achilles, not over the tendon. This is the vertical limb of an extended lateral calcaneal cut and can be lengthened farther than a typical extended-lateral vertical limb.",
+      "source_ids": [
+        "ao_d417994673ca4c70"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "talus_posterolateral_superficial_interval_01",
+      "text": "Stay posterior to the sural nerve, especially superiorly. Deepen lateral to Achilles paratenon through pre-Achilles fat. Respect the lateral calcaneal artery, which supplies most of this skin.",
+      "source_ids": [
+        "ao_d417994673ca4c70",
+        "ao_272a8b6430a22ffb"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "talus_posterolateral_deep_interval_01",
+      "text": "Medially the FHL belly protects the posterior tibial neurovascular bundle. Incise the ankle and subtalar capsules vertically to show distal tibia above, calcaneus below, and the talar body between them. A distractor or external fixator between tibia and calcaneus widens the window.",
+      "source_ids": [
+        "ao_d417994673ca4c70",
+        "ao_d1d6e660d076a419"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "talus_posterolateral_layers_01",
+      "text": "Skin, sural-nerve and lateral-calcaneal-artery plane, Achilles paratenon and pre-Achilles fat, FHL, then posterior ankle and subtalar capsules and the posterior talar body.",
+      "source_ids": [
+        "ao_d417994673ca4c70",
+        "ao_d1d6e660d076a419"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "talus_posterolateral_structures_at_risk_01",
+      "text": "The sural nerve, Achilles tendon, and lateral calcaneal artery are the local structures at risk. Compared with a posteromedial window this cut does not put the posterior tibial bundle in the field.",
+      "source_ids": [
+        "ao_d417994673ca4c70",
+        "ao_272a8b6430a22ffb"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "talus_posterolateral_danger_zones_01",
+      "text": "A cut over the Achilles or too far anterior toward the sural nerve, and injury to the lateral calcaneal artery, are the danger zones.",
+      "source_ids": [
+        "ao_d417994673ca4c70",
+        "ao_272a8b6430a22ffb"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "talus_posterolateral_retraction_hazards_01",
+      "text": "This is a deep window to the back of the talus. Do not retract through FHL into the posterior tibial bundle, and do not expect a proximal extensile interval because FHL blocks it.",
+      "source_ids": [
+        "ao_d417994673ca4c70"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "talus_posterolateral_exposure_01",
+      "text": "Shows the posterior half of the talar body, the posterior distal tibia and fibula, and the posterior calcaneus.",
+      "source_ids": [
+        "ao_d417994673ca4c70"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "talus_posterolateral_limitations_01",
+      "text": "Dissection to the back of the talus is deep, and the approach is not extensile proximally because of FHL. It does not show the anterior half of the body.",
+      "source_ids": [
+        "ao_d417994673ca4c70"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "talus_posterolateral_indications_01",
+      "text": "Used for acute posterior talar fractures, nonunion surgery, and posterior stabilization of a reduced talar neck.",
+      "source_ids": [
+        "ao_d417994673ca4c70"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "talus_posterolateral_closure_01",
+      "text": "Close in layers.",
+      "source_ids": [
+        "ao_d417994673ca4c70"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "talus_posterolateral_complications_01",
+      "text": "Complications include sural neurapraxia, Achilles-tendon injury, and lateral-calcaneal-artery compromise of the posterior skin.",
+      "source_ids": [
+        "ao_d417994673ca4c70",
+        "ao_272a8b6430a22ffb"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "talus_posterolateral_questions_01",
+      "text": "Where is the posterolateral talar incision placed relative to the Achilles?",
+      "source_ids": [
+        "ao_d417994673ca4c70"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "talus_posterolateral_questions_02",
+      "text": "What is the main advantage of this window over a posteromedial approach?",
+      "source_ids": [
+        "ao_d417994673ca4c70"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "talus_posterolateral_questions_03",
+      "text": "Why is the approach not extensile proximally?",
+      "source_ids": [
+        "ao_d417994673ca4c70"
+      ],
+      "risk_level": "medium"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "ao_d417994673ca4c70",
+      "provider": "AO Surgery Reference",
+      "title": "Posterolateral Approach",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/talus/approach/posterolateral-approach",
+      "source_page_id": "ao_d417994673ca4c70"
+    },
+    {
+      "source_id": "ao_d1d6e660d076a419",
+      "provider": "AO Surgery Reference",
+      "title": "Posterolateral Limited Open Approach To The Distal Tibia",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/distal-tibia/approach/posterolateral-limited-open-approach-to-the-distal-tibia",
+      "source_page_id": "ao_d1d6e660d076a419"
+    },
+    {
+      "source_id": "ao_272a8b6430a22ffb",
+      "provider": "AO Surgery Reference",
+      "title": "Posterolateral Approach To The Volkmann Fragment",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/malleoli/approach/posterolateral-approach-to-the-volkmann-fragment",
+      "source_page_id": "ao_272a8b6430a22ffb"
+    }
+  ],
+  "content_status": "agent_review_pending",
+  "review": {
+    "status": "agent_review_pending",
+    "required_roles": [
+      "adversarial_safety_reviewer",
+      "approach_anatomy_reviewer",
+      "educational_value_reviewer",
+      "evidence_reviewer",
+      "operative_exposure_reviewer",
+      "procedure_applicability_reviewer"
+    ],
+    "completed_roles": []
+  },
+  "resolved_contradiction_keys": [],
+  "authoring_provenance": {
+    "method": "local_codex_curated",
+    "definition_file": "data/approach_library/curated/talus_batch001_v1.json",
+    "api_used": false
+  }
+}

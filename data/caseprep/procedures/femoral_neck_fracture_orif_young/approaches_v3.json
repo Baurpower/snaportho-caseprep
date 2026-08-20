@@ -1,0 +1,55 @@
+{
+  "schema_version": "caseprep_approaches_v3",
+  "approaches": [
+    {
+      "approach_id": "hip_anterior_smith_petersen",
+      "name": "Anterior (Smith-Petersen)",
+      "role": "common_option",
+      "content_status": "curated",
+      "selection_indications": ["Anterior open reduction of the young femoral neck fracture when direct visualization of the neck and anatomic reduction is required before internal fixation."],
+      "selection_limitations": ["Provides limited access for lateral implant application, so fixation is often placed through a separate lateral incision.", "Comparative evidence does not establish one universally superior approach."],
+      "positioning": ["Supine on a radiolucent table with the limb free-draped to allow reduction maneuvers and fluoroscopy."],
+      "exposure": ["Use the superficial internervous interval between sartorius and tensor fasciae latae, then the deep interval between rectus femoris and gluteus medius to reach the anterior capsule and femoral neck.", "Open the capsule to expose the neck for direct, anatomic reduction."],
+      "layers": [],
+      "landmarks": ["Anterior superior iliac spine", "Tensor fasciae latae", "Sartorius", "Anterior hip capsule and femoral neck"],
+      "structures_at_risk": [
+        {"structure": "Lateral femoral cutaneous nerve", "risk_phase": "Superficial dissection near the ASIS", "protection": "Keep the fascial opening lateral and avoid aggressive medial subcutaneous dissection."},
+        {"structure": "Femoral nerve and vessels", "risk_phase": "Deep/medial retraction and instrumentation", "protection": "Avoid deep or medially directed retractors and instrumentation."}
+      ],
+      "pitfalls": ["Medially directed dissection injuring the lateral femoral cutaneous nerve", "Excessive medial retraction endangering the femoral neurovascular bundle"],
+      "questions": [
+        "Q: What is the superficial internervous plane in the Smith-Petersen approach? A: Sartorius (femoral nerve) medially and tensor fasciae latae (superior gluteal nerve) laterally.",
+        "Q: Which sensory nerve is most vulnerable during the superficial dissection? A: The lateral femoral cutaneous nerve."
+      ],
+      "source_urls": ["https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/proximal-femur/approach/anterior-approach-smith-petersen", "https://www.orthobullets.com/approaches/12020/hip-anterior-approach-smith-petersen"],
+      "review_status": "agent_review_pending",
+      "review_evidence": [],
+      "coverage_notes": "Approach-specific technique is curated from AO Surgery Reference and Orthobullets; comparative outcome claims are intentionally qualified."
+    },
+    {
+      "approach_id": "hip_anterolateral_watson_jones",
+      "name": "Anterolateral (Watson-Jones)",
+      "role": "common_option",
+      "content_status": "curated",
+      "selection_indications": ["Anterolateral exposure of the femoral neck for reduction and fixation when an interval anterior to the abductors is preferred."],
+      "selection_limitations": ["Proximal dissection is limited by the superior gluteal neurovascular bundle.", "Comparative evidence does not establish one universally superior approach."],
+      "positioning": ["Supine or lateral with the limb free-draped and fluoroscopy available."],
+      "exposure": ["Develop the interval between tensor fasciae latae anteriorly and gluteus medius posteriorly to reach the anterior capsule and femoral neck.", "Expose the neck for reduction while protecting the abductors."],
+      "layers": [],
+      "landmarks": ["Anterior superior iliac spine", "Greater trochanter", "Tensor fasciae latae", "Gluteus medius"],
+      "structures_at_risk": [
+        {"structure": "Superior gluteal nerve and vessels", "risk_phase": "Proximal extension of the interval", "protection": "Do not extend the gluteus medius dissection proximally without accounting for the superior gluteal neurovascular bundle."},
+        {"structure": "Femoral neurovascular structures", "risk_phase": "Anterior retractor placement", "protection": "Place anterior retractors carefully on bone and avoid deep medial pressure."}
+      ],
+      "pitfalls": ["Proximal dissection injuring the superior gluteal neurovascular bundle", "Abductor injury from the intermuscular interval"],
+      "questions": [
+        "Q: What muscular interval defines the Watson-Jones approach? A: Tensor fasciae latae anteriorly and gluteus medius posteriorly.",
+        "Q: What structure limits proximal extension of this approach? A: The superior gluteal neurovascular bundle."
+      ],
+      "source_urls": ["https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/proximal-femur/approach/anterolateral-approach-watson-jones", "https://www.orthobullets.com/approaches/12021/hip-anterolateral-approach-watson-jones"],
+      "review_status": "agent_review_pending",
+      "review_evidence": [],
+      "coverage_notes": "Approach-specific technique is curated from AO Surgery Reference and Orthobullets; comparative outcome claims are intentionally qualified."
+    }
+  ]
+}

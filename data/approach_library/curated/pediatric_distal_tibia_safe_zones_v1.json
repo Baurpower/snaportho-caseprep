@@ -1,0 +1,187 @@
+{
+  "approaches": [
+    {
+      "approach_id": "pediatric_distal_tibia_fibula_pin_safe_zones",
+      "name": "Safe zones for pin placement in the pediatric distal tibia and fibula",
+      "aliases": [
+        "child distal tibia external fixator pin safe zones"
+      ],
+      "region": "distal-tibia-fibula",
+      "joint": "ankle",
+      "bones": [
+        "tibia",
+        "fibula"
+      ],
+      "corridor": "Mini-open pin corridors in the distal tibia placed at least 2 cm proximal to the physis, directed anteromedial to posterolateral, avoiding the anterior tibial vessels and the peroneal bundle",
+      "sources": [
+        {
+          "source_id": "ao_bfebc2b8ce898d13",
+          "provider": "AO Surgery Reference",
+          "title": "Safe zones for pin placement (pediatric distal tibia and fibula)",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/pediatric-trauma/distal-tibia-fibula/approach/safe-zones-for-pin-placement",
+          "source_page_id": "ao_bfebc2b8ce898d13"
+        },
+        {
+          "source_id": "ao_e853cb1071acace7",
+          "provider": "AO Surgery Reference",
+          "title": "Safe zones (distal tibia)",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/distal-tibia/approach/safe-zones",
+          "source_page_id": "ao_e853cb1071acace7"
+        }
+      ],
+      "procedure_applications": [
+        {
+          "procedure_id": "pilon_ankle_fracture_orif",
+          "relationship": "conditional_option",
+          "condition": "A pediatric distal tibial fracture is stabilized with smooth wires or an external fixator"
+        }
+      ],
+      "sections": {
+        "positioning": [
+          {
+            "text": "Position supine with the leg on a radiolucent support and imaging available to locate the distal tibial physis.",
+            "source_ids": [
+              "ao_bfebc2b8ce898d13"
+            ]
+          }
+        ],
+        "surface_landmarks": [
+          {
+            "text": "Identify the distal tibial physis and the anteromedial subcutaneous surface of the distal tibia; plan pins at least 2 cm proximal to the physis.",
+            "source_ids": [
+              "ao_bfebc2b8ce898d13"
+            ]
+          }
+        ],
+        "incision": [
+          {
+            "text": "Make a 1 cm incision with dissection down to bone for each pin rather than inserting percutaneously.",
+            "source_ids": [
+              "ao_bfebc2b8ce898d13",
+              "ao_e853cb1071acace7"
+            ]
+          }
+        ],
+        "superficial_interval": [
+          {
+            "text": "Spread to bone under direct vision, protecting the extensor tendons and neurovascular structures with small retractors.",
+            "source_ids": [
+              "ao_bfebc2b8ce898d13",
+              "ao_e853cb1071acace7"
+            ]
+          }
+        ],
+        "deep_interval": [
+          {
+            "text": "Direct pins anteromedial to posterolateral, or medial to anterolateral as a secondary route, staying at least 2 cm proximal to the physis.",
+            "source_ids": [
+              "ao_bfebc2b8ce898d13"
+            ]
+          }
+        ],
+        "layers": [
+          {
+            "text": "Skin, subcutaneous tissue, extensor tendons and anterior neurovascular bundle, and the distal tibial metaphyseal cortex.",
+            "source_ids": [
+              "ao_bfebc2b8ce898d13",
+              "ao_e853cb1071acace7"
+            ]
+          }
+        ],
+        "structures_at_risk": [
+          {
+            "text": "The distal tibial physis, the anterior tibial artery and vein anteriorly, and the peroneal bundle near the posterolateral tibial border are at risk.",
+            "source_ids": [
+              "ao_bfebc2b8ce898d13",
+              "ao_e853cb1071acace7"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "danger_zones": [
+          {
+            "text": "Percutaneous insertion in the distal tibia is dangerous, and a posterolateral direction endangers the peroneal neurovascular bundle, so both are avoided.",
+            "source_ids": [
+              "ao_bfebc2b8ce898d13",
+              "ao_e853cb1071acace7"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "retraction_hazards": [
+          {
+            "text": "Use small retractors to protect the anterior neurovascular bundle and extensor tendons and avoid levering against the physis.",
+            "source_ids": [
+              "ao_bfebc2b8ce898d13"
+            ]
+          }
+        ],
+        "exposure": [
+          {
+            "text": "Provides safe mini-open corridors for smooth wires or external fixator pins in the pediatric distal tibia.",
+            "source_ids": [
+              "ao_bfebc2b8ce898d13"
+            ]
+          }
+        ],
+        "limitations": [
+          {
+            "text": "Pin placement is constrained by the physis proximally and the anterior and peroneal neurovascular structures, leaving a narrow safe corridor.",
+            "source_ids": [
+              "ao_bfebc2b8ce898d13"
+            ]
+          }
+        ],
+        "indications": [
+          {
+            "text": "Indicated for smooth wire or external fixator pin placement in the pediatric distal tibia and fibula.",
+            "source_ids": [
+              "ao_bfebc2b8ce898d13"
+            ]
+          }
+        ],
+        "closure": [
+          {
+            "text": "Close each mini-incision loosely around the pin to avoid skin tension.",
+            "source_ids": [
+              "ao_bfebc2b8ce898d13"
+            ]
+          }
+        ],
+        "complications": [
+          {
+            "text": "Complications include growth disturbance from physeal injury, anterior tibial or peroneal neurovascular injury, and pin-tract problems.",
+            "source_ids": [
+              "ao_bfebc2b8ce898d13",
+              "ao_e853cb1071acace7"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "questions": [
+          {
+            "question": "How far proximal to the physis should pediatric distal tibial pins be placed?",
+            "answer": "At least 2 cm proximal to the physis.",
+            "source_ids": [
+              "ao_bfebc2b8ce898d13"
+            ]
+          },
+          {
+            "question": "Which direction of pin insertion is avoided and why?",
+            "answer": "The posterolateral direction, because it endangers the peroneal neurovascular bundle.",
+            "source_ids": [
+              "ao_bfebc2b8ce898d13"
+            ]
+          },
+          {
+            "question": "Why is a 1 cm incision used instead of percutaneous pinning here?",
+            "answer": "Because percutaneous insertion in the distal tibia is dangerous to the neurovascular structures.",
+            "source_ids": [
+              "ao_bfebc2b8ce898d13"
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,571 @@
+{
+  "approaches": [
+    {
+      "approach_id": "hand_pip_joint_palmar",
+      "name": "Palmar approach to the proximal interphalangeal joint",
+      "aliases": [
+        "volar Bruner approach to the PIP joint",
+        "shotgun approach to the PIP joint"
+      ],
+      "region": "hand-proximal-phalanges",
+      "joint": "proximal interphalangeal joint",
+      "bones": [
+        "proximal phalanx",
+        "middle phalanx"
+      ],
+      "corridor": "Volar Bruner interval through the flexor sheath between the A2 and A4 pulleys, retracting the flexor tendons and detaching the volar plate to open the PIP joint",
+      "sources": [
+        {
+          "source_id": "ao_84c90651b50152c6",
+          "provider": "AO Surgery Reference",
+          "title": "Palmar approach to the proximal interphalangeal joint",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/hand-proximal-phalanges/approach/palmar-approach-to-proximal-interphalangeal-joint",
+          "source_page_id": "ao_84c90651b50152c6"
+        },
+        {
+          "source_id": "ao_f2dbdf967e028e42",
+          "provider": "AO Surgery Reference",
+          "title": "Volar approach to the metacarpophalangeal joint",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/hand-proximal-phalanges/approach/volar-approach-to-metacarpophalangeal-joint",
+          "source_page_id": "ao_f2dbdf967e028e42"
+        },
+        {
+          "source_id": "ao_df4970800c7a5860",
+          "provider": "AO Surgery Reference",
+          "title": "Palmar approach to PIP joint (middle-phalanges collection)",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/hand-middle-phalanges/approach/palmar-approach-to-pip-joint",
+          "source_page_id": "ao_df4970800c7a5860"
+        }
+      ],
+      "procedure_applications": [
+        {
+          "procedure_id": "proximal_phalanx_fracture_orif",
+          "relationship": "conditional_option",
+          "condition": "A volar PIP fracture-dislocation or intra-articular base of middle phalanx fracture needs open joint access"
+        }
+      ],
+      "sections": {
+        "positioning": [
+          {
+            "text": "Position supine with the hand on a hand table under tourniquet control.",
+            "source_ids": [
+              "ao_84c90651b50152c6"
+            ]
+          }
+        ],
+        "surface_landmarks": [
+          {
+            "text": "Use the palmar flexor skin creases as a guide, with the incision apex at the intermediate crease over the PIP joint.",
+            "source_ids": [
+              "ao_84c90651b50152c6"
+            ]
+          }
+        ],
+        "incision": [
+          {
+            "text": "Make a carefully planned Bruner zig-zag palmar incision using the flexor creases.",
+            "source_ids": [
+              "ao_84c90651b50152c6"
+            ]
+          }
+        ],
+        "superficial_interval": [
+          {
+            "text": "Elevate thin skin flaps and identify and gently mobilize the digital arteries and nerves on each side.",
+            "source_ids": [
+              "ao_84c90651b50152c6",
+              "ao_f2dbdf967e028e42"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "deep_interval": [
+          {
+            "text": "Incise the C1, A3, and C2 pulleys laterally near their bony attachments leaving a cuff for repair, preserve the A2 and A4 pulleys, retract the flexor tendons with a loop, and detach the volar plate as a flap.",
+            "source_ids": [
+              "ao_84c90651b50152c6"
+            ]
+          }
+        ],
+        "layers": [
+          {
+            "text": "Skin, subcutaneous tissue with digital neurovascular bundles, flexor sheath and pulleys, flexor tendons, volar plate, and the PIP joint.",
+            "source_ids": [
+              "ao_84c90651b50152c6"
+            ]
+          }
+        ],
+        "structures_at_risk": [
+          {
+            "text": "The digital arteries and nerves on each side, the vincular arteries to the flexor tendons, and the A2 and A4 pulleys are at risk.",
+            "source_ids": [
+              "ao_84c90651b50152c6",
+              "ao_f2dbdf967e028e42"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "danger_zones": [
+          {
+            "text": "The lateral borders of the sheath are the danger zones for the digital neurovascular bundles; cutting the A2 or A4 pulleys risks tendon bowstringing.",
+            "source_ids": [
+              "ao_84c90651b50152c6",
+              "ao_f2dbdf967e028e42"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "retraction_hazards": [
+          {
+            "text": "Retract the mobilized digital neurovascular bundles gently and preserve the vincular blood supply to the flexor tendons.",
+            "source_ids": [
+              "ao_84c90651b50152c6"
+            ],
+            "risk_level": "medium"
+          }
+        ],
+        "exposure": [
+          {
+            "text": "Opens the volar PIP joint fully, and dividing both collateral ligaments allows hyperextension (shotgun) exposure for comminuted fractures.",
+            "source_ids": [
+              "ao_84c90651b50152c6"
+            ]
+          }
+        ],
+        "limitations": [
+          {
+            "text": "Preservation of the A2 and A4 pulleys constrains proximal and distal extension, and wide exposure requires collateral ligament release.",
+            "source_ids": [
+              "ao_84c90651b50152c6"
+            ]
+          }
+        ],
+        "indications": [
+          {
+            "text": "Indicated for volar PIP fracture-dislocations and intra-articular fractures of the base of the middle phalanx.",
+            "source_ids": [
+              "ao_84c90651b50152c6"
+            ]
+          }
+        ],
+        "closure": [
+          {
+            "text": "Repair the volar plate with pullout or anchor sutures and reattach the A3 and, where possible, the C1 and C2 pulleys with nonabsorbable monofilament.",
+            "source_ids": [
+              "ao_84c90651b50152c6"
+            ]
+          }
+        ],
+        "complications": [
+          {
+            "text": "Complications include digital nerve injury, flexor tendon bowstringing from pulley loss, PIP stiffness, and skin flap problems.",
+            "source_ids": [
+              "ao_84c90651b50152c6",
+              "ao_f2dbdf967e028e42"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "questions": [
+          {
+            "question": "Which pulleys must be preserved in the palmar PIP approach?",
+            "answer": "The A2 and A4 pulleys.",
+            "source_ids": [
+              "ao_84c90651b50152c6"
+            ]
+          },
+          {
+            "question": "What is the shotgun maneuver for PIP exposure?",
+            "answer": "Dividing both collateral ligaments to hyperextend and fully open the joint.",
+            "source_ids": [
+              "ao_84c90651b50152c6"
+            ]
+          },
+          {
+            "question": "Which structures must be mobilized and protected in the skin flaps?",
+            "answer": "The digital arteries and nerves.",
+            "source_ids": [
+              "ao_84c90651b50152c6",
+              "ao_f2dbdf967e028e42"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "approach_id": "hand_mcp_joint_volar",
+      "name": "Volar approach to the metacarpophalangeal joint",
+      "aliases": [
+        "palmar approach to the MCP joint"
+      ],
+      "region": "hand-proximal-phalanges",
+      "joint": "metacarpophalangeal joint",
+      "bones": [
+        "metacarpal",
+        "proximal phalanx"
+      ],
+      "corridor": "Volar Z-incision over the MCP joint through the A1 pulley region, retracting the flexor tendons to reach the volar plate and joint, protecting the collateral digital nerves",
+      "sources": [
+        {
+          "source_id": "ao_f2dbdf967e028e42",
+          "provider": "AO Surgery Reference",
+          "title": "Volar approach to the metacarpophalangeal joint",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/hand-proximal-phalanges/approach/volar-approach-to-metacarpophalangeal-joint",
+          "source_page_id": "ao_f2dbdf967e028e42"
+        },
+        {
+          "source_id": "ao_84c90651b50152c6",
+          "provider": "AO Surgery Reference",
+          "title": "Palmar approach to the proximal interphalangeal joint",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/hand-proximal-phalanges/approach/palmar-approach-to-proximal-interphalangeal-joint",
+          "source_page_id": "ao_84c90651b50152c6"
+        },
+        {
+          "source_id": "ao_19cb706450006e6b",
+          "provider": "AO Surgery Reference",
+          "title": "Volar approach to the MCP joints (metacarpals)",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/metacarpals/approach/volar-approach-to-mcp-joints",
+          "source_page_id": "ao_19cb706450006e6b"
+        }
+      ],
+      "procedure_applications": [
+        {
+          "procedure_id": "metacarpal_fracture_orif",
+          "relationship": "conditional_option",
+          "condition": "An irreducible volar MCP dislocation or metacarpal head fracture needs open volar access"
+        }
+      ],
+      "sections": {
+        "positioning": [
+          {
+            "text": "Position supine with the hand on a hand table under tourniquet control.",
+            "source_ids": [
+              "ao_f2dbdf967e028e42"
+            ]
+          }
+        ],
+        "surface_landmarks": [
+          {
+            "text": "Mark the MCP joint level and the palmar skin creases.",
+            "source_ids": [
+              "ao_f2dbdf967e028e42"
+            ]
+          }
+        ],
+        "incision": [
+          {
+            "text": "Make a Z-shaped incision over the MCP joint with the apex radial or ulnar at a skin crease, extending proximally in Z-fashion along the creases to avoid contracture.",
+            "source_ids": [
+              "ao_f2dbdf967e028e42"
+            ]
+          }
+        ],
+        "superficial_interval": [
+          {
+            "text": "Expose the flexor retinaculum and A1 pulley and identify the collateral neurovascular bundles, remembering the digital nerve may be displaced volarly with the metacarpal head after dislocation.",
+            "source_ids": [
+              "ao_f2dbdf967e028e42",
+              "ao_84c90651b50152c6"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "deep_interval": [
+          {
+            "text": "Sharply dissect the flexor digitorum superficialis and profundus off the volar plate and capsule and retract them to expose the volar joint.",
+            "source_ids": [
+              "ao_f2dbdf967e028e42"
+            ]
+          }
+        ],
+        "layers": [
+          {
+            "text": "Skin, subcutaneous tissue with collateral digital nerves, flexor retinaculum and A1 pulley, flexor tendons, volar plate, and the MCP joint.",
+            "source_ids": [
+              "ao_f2dbdf967e028e42"
+            ]
+          }
+        ],
+        "structures_at_risk": [
+          {
+            "text": "The collateral neurovascular bundles of the digit and the common digital nerve are at risk, especially when a nerve is displaced volarly with the metacarpal head.",
+            "source_ids": [
+              "ao_f2dbdf967e028e42",
+              "ao_84c90651b50152c6"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "danger_zones": [
+          {
+            "text": "The volar-displaced metacarpal head region is the danger zone because the digital nerve can be draped over it.",
+            "source_ids": [
+              "ao_f2dbdf967e028e42",
+              "ao_84c90651b50152c6"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "retraction_hazards": [
+          {
+            "text": "Avoid overretraction to prevent nerve damage and keep multiple incisions spaced to prevent skin flap ischemia.",
+            "source_ids": [
+              "ao_f2dbdf967e028e42"
+            ],
+            "risk_level": "medium"
+          }
+        ],
+        "exposure": [
+          {
+            "text": "Exposes the volar MCP joint and any interposed ruptured capsule after dislocation.",
+            "source_ids": [
+              "ao_f2dbdf967e028e42"
+            ]
+          }
+        ],
+        "limitations": [
+          {
+            "text": "The volar approach gives limited access to the dorsal joint and depends on careful digital nerve identification.",
+            "source_ids": [
+              "ao_f2dbdf967e028e42"
+            ]
+          }
+        ],
+        "indications": [
+          {
+            "text": "Indicated for irreducible volar MCP dislocation and selected volar MCP joint pathology.",
+            "source_ids": [
+              "ao_f2dbdf967e028e42"
+            ]
+          }
+        ],
+        "closure": [
+          {
+            "text": "Repair the joint capsule with fine sutures, reposition the flexor tendons, and do not repair the A1 pulley to avoid tendon sheath contracture.",
+            "source_ids": [
+              "ao_f2dbdf967e028e42"
+            ]
+          }
+        ],
+        "complications": [
+          {
+            "text": "Complications include digital nerve injury, skin flap ischemia, and MCP stiffness.",
+            "source_ids": [
+              "ao_f2dbdf967e028e42",
+              "ao_84c90651b50152c6"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "questions": [
+          {
+            "question": "Why is a Z-shaped incision used over the MCP joint?",
+            "answer": "To respect the skin creases and avoid contracture.",
+            "source_ids": [
+              "ao_f2dbdf967e028e42"
+            ]
+          },
+          {
+            "question": "Why is the A1 pulley not repaired at closure?",
+            "answer": "Because repair may cause tendon sheath contracture and restrict flexor excursion.",
+            "source_ids": [
+              "ao_f2dbdf967e028e42"
+            ]
+          },
+          {
+            "question": "Where may the digital nerve lie after a volar MCP dislocation?",
+            "answer": "Displaced volarly, draped over the metacarpal head.",
+            "source_ids": [
+              "ao_f2dbdf967e028e42",
+              "ao_84c90651b50152c6"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "approach_id": "humeral_shaft_pediatric_anterolateral",
+      "name": "Pediatric anterolateral approach to the humeral shaft",
+      "aliases": [
+        "child anterolateral humeral approach"
+      ],
+      "region": "humeral-shaft",
+      "joint": "",
+      "bones": [
+        "humerus"
+      ],
+      "corridor": "Anterolateral interval between biceps/brachialis medially and the mobile wad laterally, splitting brachialis in the plane between the radial and musculocutaneous nerves to reach the anterior humerus",
+      "sources": [
+        {
+          "source_id": "ao_1d8aafada0e59515",
+          "provider": "AO Surgery Reference",
+          "title": "Anterolateral approach to the humeral shaft (pediatric)",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/pediatric-trauma/humeral-shaft/approach/anterolateral-approach",
+          "source_page_id": "ao_1d8aafada0e59515"
+        },
+        {
+          "source_id": "ao_b1d85a2691e1f064",
+          "provider": "AO Surgery Reference",
+          "title": "Extended deltopectoral approach to the humeral shaft",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/humeral-shaft/approach/extended-deltopectoral-approach-to-the-humeral-shaft",
+          "source_page_id": "ao_b1d85a2691e1f064"
+        }
+      ],
+      "procedure_applications": [
+        {
+          "procedure_id": "humeral_shaft_fracture_orif",
+          "relationship": "primary_option",
+          "condition": "A pediatric proximal or midshaft humeral fracture is plated through an anterior interval"
+        }
+      ],
+      "sections": {
+        "positioning": [
+          {
+            "text": "Position supine with the arm on a hand table and the shoulder to distal arm accessible.",
+            "source_ids": [
+              "ao_1d8aafada0e59515"
+            ]
+          }
+        ],
+        "surface_landmarks": [
+          {
+            "text": "Mark the deltopectoral interval proximally and the biceps and mobile wad interval distally.",
+            "source_ids": [
+              "ao_1d8aafada0e59515"
+            ]
+          }
+        ],
+        "incision": [
+          {
+            "text": "Follow a line from the interval between biceps and the mobile wad distally to the deltopectoral interval proximally.",
+            "source_ids": [
+              "ao_1d8aafada0e59515"
+            ]
+          }
+        ],
+        "superficial_interval": [
+          {
+            "text": "Incise the fascia between biceps/brachialis and the mobile wad, retract the biceps medially and the mobile wad laterally, identifying the cephalic vein proximally.",
+            "source_ids": [
+              "ao_1d8aafada0e59515",
+              "ao_b1d85a2691e1f064"
+            ]
+          }
+        ],
+        "deep_interval": [
+          {
+            "text": "Split the brachialis in the plane between the radial and musculocutaneous nerves to keep its dual innervation and protect the radial nerve where it perforates the lateral intermuscular septum.",
+            "source_ids": [
+              "ao_1d8aafada0e59515",
+              "ao_b1d85a2691e1f064"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "layers": [
+          {
+            "text": "Skin, subcutaneous tissue, fascia, the biceps/brachialis and mobile wad interval, the split brachialis, and the anterior humerus.",
+            "source_ids": [
+              "ao_1d8aafada0e59515"
+            ]
+          }
+        ],
+        "structures_at_risk": [
+          {
+            "text": "The radial nerve perforating the lateral intermuscular septum, the lateral cutaneous nerve of the forearm distally, and the musculocutaneous nerve are at risk.",
+            "source_ids": [
+              "ao_1d8aafada0e59515",
+              "ao_b1d85a2691e1f064"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "danger_zones": [
+          {
+            "text": "The distal lateral humerus where the radial nerve perforates the septum is the danger zone.",
+            "source_ids": [
+              "ao_1d8aafada0e59515",
+              "ao_b1d85a2691e1f064"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "retraction_hazards": [
+          {
+            "text": "Split brachialis in its midline to protect the radial nerve laterally and keep the mobile wad retraction gentle.",
+            "source_ids": [
+              "ao_1d8aafada0e59515"
+            ],
+            "risk_level": "medium"
+          }
+        ],
+        "exposure": [
+          {
+            "text": "Exposes the anterior surface of the proximal and mid humerus.",
+            "source_ids": [
+              "ao_1d8aafada0e59515"
+            ]
+          }
+        ],
+        "limitations": [
+          {
+            "text": "Distal extension is limited by the radial nerve, and very distal fractures may need a separate exposure.",
+            "source_ids": [
+              "ao_1d8aafada0e59515"
+            ]
+          }
+        ],
+        "indications": [
+          {
+            "text": "Indicated for plating of pediatric proximal and midshaft humeral fractures.",
+            "source_ids": [
+              "ao_1d8aafada0e59515"
+            ]
+          }
+        ],
+        "closure": [
+          {
+            "text": "Close the subcutaneous tissues and skin in layers with absorbable sutures.",
+            "source_ids": [
+              "ao_1d8aafada0e59515"
+            ]
+          }
+        ],
+        "complications": [
+          {
+            "text": "Complications include radial nerve palsy, lateral forearm cutaneous nerve injury, and wound problems.",
+            "source_ids": [
+              "ao_1d8aafada0e59515",
+              "ao_b1d85a2691e1f064"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "questions": [
+          {
+            "question": "In what nerve plane is the brachialis split in the anterolateral humeral approach?",
+            "answer": "Between the radial and musculocutaneous nerves.",
+            "source_ids": [
+              "ao_1d8aafada0e59515"
+            ]
+          },
+          {
+            "question": "Where does the radial nerve enter the anterior compartment?",
+            "answer": "By perforating the lateral intermuscular septum distally.",
+            "source_ids": [
+              "ao_1d8aafada0e59515",
+              "ao_b1d85a2691e1f064"
+            ]
+          },
+          {
+            "question": "Why split brachialis rather than take it off one side?",
+            "answer": "To preserve its dual radial and musculocutaneous innervation.",
+            "source_ids": [
+              "ao_1d8aafada0e59515"
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

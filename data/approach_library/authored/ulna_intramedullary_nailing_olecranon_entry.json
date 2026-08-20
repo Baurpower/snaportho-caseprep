@@ -1,0 +1,330 @@
+{
+  "schema_version": "brobot_approach_packet_v1",
+  "approach_id": "ulna_intramedullary_nailing_olecranon_entry",
+  "name": "Olecranon-tip approach for ulnar intramedullary nailing",
+  "aliases": [
+    "antegrade ulnar nail entry",
+    "olecranon entry for ulnar nailing"
+  ],
+  "region": "forearm-shaft",
+  "joint": "elbow",
+  "bones": [
+    "ulna",
+    "olecranon"
+  ],
+  "corridor": "Straight 1 cm longitudinal cut at the olecranon tip with the arm pronated, splitting triceps tendon to bone for antegrade ulnar nailing",
+  "positioning": [
+    {
+      "text": "Position supine with the arm pronated on an arm table so the olecranon tip is accessible.",
+      "claim_ids": [
+        "ulna_intramedullary_nailing_olecranon_entry_positioning_01"
+      ]
+    }
+  ],
+  "setup": [],
+  "surface_landmarks": [
+    {
+      "text": "Palpate the tip of the olecranon.",
+      "claim_ids": [
+        "ulna_intramedullary_nailing_olecranon_entry_surface_landmarks_01"
+      ]
+    }
+  ],
+  "incision": [
+    {
+      "text": "Make a straight longitudinal cut about 1 cm long at the olecranon tip. This is a limited nail-entry window, not the full posterior-arm triceps split that starts at the same landmark.",
+      "claim_ids": [
+        "ulna_intramedullary_nailing_olecranon_entry_incision_01"
+      ]
+    }
+  ],
+  "superficial_interval": [
+    {
+      "text": "Incise skin and subcutaneous tissue over the olecranon tip down to the triceps tendon.",
+      "claim_ids": [
+        "ulna_intramedullary_nailing_olecranon_entry_superficial_interval_01"
+      ]
+    }
+  ],
+  "deep_interval": [
+    {
+      "text": "Split the triceps tendon down to bone at the olecranon tip to enter the ulnar canal. Do not convert this 1 cm window into a shaft exposure.",
+      "claim_ids": [
+        "ulna_intramedullary_nailing_olecranon_entry_deep_interval_01"
+      ]
+    }
+  ],
+  "layers": [
+    {
+      "text": "Skin, triceps tendon, olecranon tip, then the ulnar medullary canal.",
+      "claim_ids": [
+        "ulna_intramedullary_nailing_olecranon_entry_layers_01"
+      ]
+    }
+  ],
+  "structures_encountered": [],
+  "structures_at_risk": [
+    {
+      "text": "The triceps tendon and olecranon articular surface are at risk if the split is uncontrolled. This short entry does not reach the radial nerve of a full posterior humeral split.",
+      "claim_ids": [
+        "ulna_intramedullary_nailing_olecranon_entry_structures_at_risk_01"
+      ]
+    }
+  ],
+  "danger_zones": [
+    {
+      "text": "Missing the olecranon tip and skiving into the joint, or lengthening the cut into a full posterior-arm approach without identifying the radial nerve, are the danger zones.",
+      "claim_ids": [
+        "ulna_intramedullary_nailing_olecranon_entry_danger_zones_01"
+      ]
+    }
+  ],
+  "retraction_hazards": [
+    {
+      "text": "Keep the tendon split only as wide as the nail entry requires.",
+      "claim_ids": [
+        "ulna_intramedullary_nailing_olecranon_entry_retraction_hazards_01"
+      ]
+    }
+  ],
+  "exposure": [
+    {
+      "text": "Shows only the olecranon-tip entry for antegrade ulnar nailing.",
+      "claim_ids": [
+        "ulna_intramedullary_nailing_olecranon_entry_exposure_01"
+      ]
+    }
+  ],
+  "limitations": [
+    {
+      "text": "Does not expose the ulnar shaft for plating. Pediatric elastic nailing uses metaphyseal windows and specifically avoids an olecranon portal.",
+      "claim_ids": [
+        "ulna_intramedullary_nailing_olecranon_entry_limitations_01"
+      ]
+    }
+  ],
+  "extensions": [],
+  "indications": [
+    {
+      "text": "Used to insert an antegrade ulnar intramedullary nail through the olecranon tip.",
+      "claim_ids": [
+        "ulna_intramedullary_nailing_olecranon_entry_indications_01"
+      ]
+    }
+  ],
+  "relative_contraindications": [],
+  "implant_implications": [],
+  "fluoroscopy_implications": [],
+  "closure": [
+    {
+      "text": "Repair the triceps split and close the short skin cut.",
+      "claim_ids": [
+        "ulna_intramedullary_nailing_olecranon_entry_closure_01"
+      ]
+    }
+  ],
+  "complications": [
+    {
+      "text": "Complications include triceps irritation at the olecranon entry and intra-articular skiving.",
+      "claim_ids": [
+        "ulna_intramedullary_nailing_olecranon_entry_complications_01"
+      ]
+    }
+  ],
+  "bailouts": [],
+  "procedure_applications": [
+    {
+      "procedure_id": "both_bone_forearm_fracture_orif",
+      "relationship": "conditional_option",
+      "condition": "The ulna is nailed antegrade through the olecranon tip rather than plated"
+    }
+  ],
+  "questions": [
+    {
+      "question": "How is the arm positioned for ulnar nail entry?",
+      "answer": "Supine with the arm pronated on an arm table.",
+      "claim_ids": [
+        "ulna_intramedullary_nailing_olecranon_entry_questions_01"
+      ]
+    },
+    {
+      "question": "How long is the olecranon-tip incision and what is split?",
+      "answer": "About 1 cm, splitting the triceps tendon down to bone.",
+      "claim_ids": [
+        "ulna_intramedullary_nailing_olecranon_entry_questions_02"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "ulna_intramedullary_nailing_olecranon_entry_positioning_01",
+      "text": "Position supine with the arm pronated on an arm table so the olecranon tip is accessible.",
+      "source_ids": [
+        "ao_6aebdef94ef38c10"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "ulna_intramedullary_nailing_olecranon_entry_surface_landmarks_01",
+      "text": "Palpate the tip of the olecranon.",
+      "source_ids": [
+        "ao_6aebdef94ef38c10",
+        "ao_06a42af78d4203b6"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "ulna_intramedullary_nailing_olecranon_entry_incision_01",
+      "text": "Make a straight longitudinal cut about 1 cm long at the olecranon tip. This is a limited nail-entry window, not the full posterior-arm triceps split that starts at the same landmark.",
+      "source_ids": [
+        "ao_6aebdef94ef38c10"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "ulna_intramedullary_nailing_olecranon_entry_superficial_interval_01",
+      "text": "Incise skin and subcutaneous tissue over the olecranon tip down to the triceps tendon.",
+      "source_ids": [
+        "ao_6aebdef94ef38c10",
+        "ao_06a42af78d4203b6"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "ulna_intramedullary_nailing_olecranon_entry_deep_interval_01",
+      "text": "Split the triceps tendon down to bone at the olecranon tip to enter the ulnar canal. Do not convert this 1 cm window into a shaft exposure.",
+      "source_ids": [
+        "ao_6aebdef94ef38c10",
+        "ao_06a42af78d4203b6"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "ulna_intramedullary_nailing_olecranon_entry_layers_01",
+      "text": "Skin, triceps tendon, olecranon tip, then the ulnar medullary canal.",
+      "source_ids": [
+        "ao_6aebdef94ef38c10",
+        "ao_06a42af78d4203b6"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "ulna_intramedullary_nailing_olecranon_entry_structures_at_risk_01",
+      "text": "The triceps tendon and olecranon articular surface are at risk if the split is uncontrolled. This short entry does not reach the radial nerve of a full posterior humeral split.",
+      "source_ids": [
+        "ao_6aebdef94ef38c10",
+        "ao_06a42af78d4203b6"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "ulna_intramedullary_nailing_olecranon_entry_danger_zones_01",
+      "text": "Missing the olecranon tip and skiving into the joint, or lengthening the cut into a full posterior-arm approach without identifying the radial nerve, are the danger zones.",
+      "source_ids": [
+        "ao_6aebdef94ef38c10",
+        "ao_06a42af78d4203b6"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "ulna_intramedullary_nailing_olecranon_entry_retraction_hazards_01",
+      "text": "Keep the tendon split only as wide as the nail entry requires.",
+      "source_ids": [
+        "ao_6aebdef94ef38c10"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "ulna_intramedullary_nailing_olecranon_entry_exposure_01",
+      "text": "Shows only the olecranon-tip entry for antegrade ulnar nailing.",
+      "source_ids": [
+        "ao_6aebdef94ef38c10"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "ulna_intramedullary_nailing_olecranon_entry_limitations_01",
+      "text": "Does not expose the ulnar shaft for plating. Pediatric elastic nailing uses metaphyseal windows and specifically avoids an olecranon portal.",
+      "source_ids": [
+        "ao_6aebdef94ef38c10"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "ulna_intramedullary_nailing_olecranon_entry_indications_01",
+      "text": "Used to insert an antegrade ulnar intramedullary nail through the olecranon tip.",
+      "source_ids": [
+        "ao_6aebdef94ef38c10"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "ulna_intramedullary_nailing_olecranon_entry_closure_01",
+      "text": "Repair the triceps split and close the short skin cut.",
+      "source_ids": [
+        "ao_6aebdef94ef38c10",
+        "ao_06a42af78d4203b6"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "ulna_intramedullary_nailing_olecranon_entry_complications_01",
+      "text": "Complications include triceps irritation at the olecranon entry and intra-articular skiving.",
+      "source_ids": [
+        "ao_6aebdef94ef38c10"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "ulna_intramedullary_nailing_olecranon_entry_questions_01",
+      "text": "How is the arm positioned for ulnar nail entry?",
+      "source_ids": [
+        "ao_6aebdef94ef38c10"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "ulna_intramedullary_nailing_olecranon_entry_questions_02",
+      "text": "How long is the olecranon-tip incision and what is split?",
+      "source_ids": [
+        "ao_6aebdef94ef38c10"
+      ],
+      "risk_level": "medium"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "ao_6aebdef94ef38c10",
+      "provider": "AO Surgery Reference",
+      "title": "Approach To The Ulna For Intramedullary Nailing",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/forearm-shaft/approach/approach-to-the-ulna-for-intramedullary-nailing",
+      "source_page_id": "ao_6aebdef94ef38c10"
+    },
+    {
+      "source_id": "ao_06a42af78d4203b6",
+      "provider": "AO Surgery Reference",
+      "title": "Posterior triceps-split approach to the humeral shaft",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/humeral-shaft/approach/posterior-triceps-split-approach",
+      "source_page_id": "ao_06a42af78d4203b6"
+    }
+  ],
+  "content_status": "agent_review_pending",
+  "review": {
+    "status": "agent_review_pending",
+    "required_roles": [
+      "adversarial_safety_reviewer",
+      "approach_anatomy_reviewer",
+      "educational_value_reviewer",
+      "evidence_reviewer",
+      "operative_exposure_reviewer",
+      "procedure_applicability_reviewer"
+    ],
+    "completed_roles": []
+  },
+  "resolved_contradiction_keys": [],
+  "authoring_provenance": {
+    "method": "local_codex_curated",
+    "definition_file": "data/approach_library/curated/ulna_im_nailing_v1.json",
+    "api_used": false
+  }
+}

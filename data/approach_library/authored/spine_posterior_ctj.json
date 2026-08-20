@@ -1,0 +1,362 @@
+{
+  "schema_version": "brobot_approach_packet_v1",
+  "approach_id": "spine_posterior_ctj",
+  "name": "Posterior approach to the cervicothoracic junction",
+  "aliases": [
+    "posterior C7–T2 approach",
+    "posterolateral costotransversectomy"
+  ],
+  "region": "subaxial-cervical",
+  "joint": "",
+  "bones": [
+    "C7",
+    "T1",
+    "T2"
+  ],
+  "corridor": "Midline incision through trapezius, latissimus, rhomboids, and paraspinal fascia to the spinous processes, then subperiosteal elevation along the posterior elements, with optional costotransversectomy for the anterior column",
+  "positioning": [
+    {
+      "text": "Position so a C-arm can mark the exact midline segment before incision.",
+      "claim_ids": [
+        "spine_posterior_ctj_positioning_01"
+      ]
+    }
+  ],
+  "setup": [],
+  "surface_landmarks": [
+    {
+      "text": "Mark the midline over the involved cervicothoracic segment after C-arm localization.",
+      "claim_ids": [
+        "spine_posterior_ctj_surface_landmarks_01"
+      ]
+    }
+  ],
+  "incision": [
+    {
+      "text": "Infiltrate with 1:500,000 epinephrine if desired and make a midline cut centered on the marked segment.",
+      "claim_ids": [
+        "spine_posterior_ctj_incision_01"
+      ]
+    }
+  ],
+  "superficial_interval": [
+    {
+      "text": "Stay in the midline through fat and the fascia of trapezius, latissimus, rhomboids, and paraspinous muscle to the spinous-process tips. Confirm the level on fluoroscopy as soon as bone is visible, before further dissection.",
+      "claim_ids": [
+        "spine_posterior_ctj_superficial_interval_01"
+      ]
+    }
+  ],
+  "deep_interval": [
+    {
+      "text": "Elevate paraspinal muscle subperiosteally from the laminae with a Cobb or cautery along the posterior elements bilaterally. If tumor involves the lamina, do not use a Cobb blindly. Spare facet capsules cranial and caudal to the planned fusion. Anterior-column access uses a posterolateral costotransversectomy (subperiosteal exposure of the posterior 5 cm of rib, osteotomy ~5 cm from the costovertebral joint, protect pleura and the inferior neurovascular bundle) or a far-lateral extracavitary plane lateral to the paraspinal mass with 8–10 cm of rib resection.",
+      "claim_ids": [
+        "spine_posterior_ctj_deep_interval_01"
+      ]
+    }
+  ],
+  "layers": [
+    {
+      "text": "Skin, upper-back fascia, spinous processes, lamina, optional rib and costotransversectomy window to the lateral vertebral body.",
+      "claim_ids": [
+        "spine_posterior_ctj_layers_01"
+      ]
+    }
+  ],
+  "structures_encountered": [],
+  "structures_at_risk": [
+    {
+      "text": "Pleura and the intercostal neurovascular bundle during rib takedown, the great vessels on the anterolateral vertebral body, and adjacent facet capsules are at risk. Obtain an upright chest film after costotransversectomy to look for pneumothorax.",
+      "claim_ids": [
+        "spine_posterior_ctj_structures_at_risk_01"
+      ]
+    }
+  ],
+  "danger_zones": [
+    {
+      "text": "Non-subperiosteal rib dissection, Cobb elevation through a tumor-involved lamina, and closing fascia without first approximating muscle (dead space plus high-tension fascial dehiscence) are the danger zones.",
+      "claim_ids": [
+        "spine_posterior_ctj_danger_zones_01"
+      ]
+    }
+  ],
+  "retraction_hazards": [
+    {
+      "text": "Cervicothoracic muscle approximation is under considerable tension; consider nonabsorbable fascial sutures.",
+      "claim_ids": [
+        "spine_posterior_ctj_retraction_hazards_01"
+      ]
+    }
+  ],
+  "exposure": [
+    {
+      "text": "Shows the posterior C7–T2 elements; costotransversectomy adds the lateral vertebral body and anulus.",
+      "claim_ids": [
+        "spine_posterior_ctj_exposure_01"
+      ]
+    }
+  ],
+  "limitations": [
+    {
+      "text": "A formal sternotomy is not required for most anterior-column work here; posterolateral windows have less morbidity below T2.",
+      "claim_ids": [
+        "spine_posterior_ctj_limitations_01"
+      ]
+    }
+  ],
+  "extensions": [],
+  "indications": [
+    {
+      "text": "Used for posterior cervicothoracic trauma, metastatic, and primary-tumor access, including optional anterior-column exposure.",
+      "claim_ids": [
+        "spine_posterior_ctj_indications_01"
+      ]
+    }
+  ],
+  "relative_contraindications": [],
+  "implant_implications": [],
+  "fluoroscopy_implications": [],
+  "closure": [
+    {
+      "text": "Approximate muscle over a deep drain, then close fascia, fat, and skin. Avoid a fascial-only closure that leaves dead space.",
+      "claim_ids": [
+        "spine_posterior_ctj_closure_01"
+      ]
+    }
+  ],
+  "complications": [
+    {
+      "text": "Complications include pneumothorax after rib resection, fascial dehiscence, dead-space seroma, and neural injury under a split or tumor-involved lamina.",
+      "claim_ids": [
+        "spine_posterior_ctj_complications_01"
+      ]
+    }
+  ],
+  "bailouts": [],
+  "procedure_applications": [
+    {
+      "procedure_id": "cervical_spine_orif",
+      "relationship": "primary_option",
+      "condition": "A C7–T2 injury or tumor is instrumented from a posterior midline window, with optional costotransversectomy for anterior-column access"
+    }
+  ],
+  "questions": [
+    {
+      "question": "Which upper-back muscles are crossed in the midline at the CTJ?",
+      "answer": "Trapezius, latissimus dorsi, rhomboids, and paraspinous muscle.",
+      "claim_ids": [
+        "spine_posterior_ctj_questions_01"
+      ]
+    },
+    {
+      "question": "How far from the costovertebral joint is the rib osteotomized in a posterolateral costotransversectomy?",
+      "answer": "About 5 cm, after circumferential subperiosteal exposure of the posterior 5 cm of rib.",
+      "claim_ids": [
+        "spine_posterior_ctj_questions_02"
+      ]
+    },
+    {
+      "question": "Why consider nonabsorbable fascial sutures here?",
+      "answer": "Cervicothoracic muscle approximation is under considerable tension and fascia can dehisce.",
+      "claim_ids": [
+        "spine_posterior_ctj_questions_03"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "spine_posterior_ctj_positioning_01",
+      "text": "Position so a C-arm can mark the exact midline segment before incision.",
+      "source_ids": [
+        "ao_6bf1b671b5992716",
+        "ao_19f14d08da9963b9"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "spine_posterior_ctj_surface_landmarks_01",
+      "text": "Mark the midline over the involved cervicothoracic segment after C-arm localization.",
+      "source_ids": [
+        "ao_6bf1b671b5992716",
+        "ao_19f14d08da9963b9"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "spine_posterior_ctj_incision_01",
+      "text": "Infiltrate with 1:500,000 epinephrine if desired and make a midline cut centered on the marked segment.",
+      "source_ids": [
+        "ao_6bf1b671b5992716",
+        "ao_19f14d08da9963b9"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "spine_posterior_ctj_superficial_interval_01",
+      "text": "Stay in the midline through fat and the fascia of trapezius, latissimus, rhomboids, and paraspinous muscle to the spinous-process tips. Confirm the level on fluoroscopy as soon as bone is visible, before further dissection.",
+      "source_ids": [
+        "ao_6bf1b671b5992716",
+        "ao_19f14d08da9963b9"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "spine_posterior_ctj_deep_interval_01",
+      "text": "Elevate paraspinal muscle subperiosteally from the laminae with a Cobb or cautery along the posterior elements bilaterally. If tumor involves the lamina, do not use a Cobb blindly. Spare facet capsules cranial and caudal to the planned fusion. Anterior-column access uses a posterolateral costotransversectomy (subperiosteal exposure of the posterior 5 cm of rib, osteotomy ~5 cm from the costovertebral joint, protect pleura and the inferior neurovascular bundle) or a far-lateral extracavitary plane lateral to the paraspinal mass with 8–10 cm of rib resection.",
+      "source_ids": [
+        "ao_6bf1b671b5992716",
+        "ao_19f14d08da9963b9"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "spine_posterior_ctj_layers_01",
+      "text": "Skin, upper-back fascia, spinous processes, lamina, optional rib and costotransversectomy window to the lateral vertebral body.",
+      "source_ids": [
+        "ao_6bf1b671b5992716",
+        "ao_19f14d08da9963b9"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "spine_posterior_ctj_structures_at_risk_01",
+      "text": "Pleura and the intercostal neurovascular bundle during rib takedown, the great vessels on the anterolateral vertebral body, and adjacent facet capsules are at risk. Obtain an upright chest film after costotransversectomy to look for pneumothorax.",
+      "source_ids": [
+        "ao_6bf1b671b5992716"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "spine_posterior_ctj_danger_zones_01",
+      "text": "Non-subperiosteal rib dissection, Cobb elevation through a tumor-involved lamina, and closing fascia without first approximating muscle (dead space plus high-tension fascial dehiscence) are the danger zones.",
+      "source_ids": [
+        "ao_6bf1b671b5992716",
+        "ao_19f14d08da9963b9",
+        "ao_94506eb4e9baf85a"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "spine_posterior_ctj_retraction_hazards_01",
+      "text": "Cervicothoracic muscle approximation is under considerable tension; consider nonabsorbable fascial sutures.",
+      "source_ids": [
+        "ao_6bf1b671b5992716",
+        "ao_19f14d08da9963b9"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "spine_posterior_ctj_exposure_01",
+      "text": "Shows the posterior C7–T2 elements; costotransversectomy adds the lateral vertebral body and anulus.",
+      "source_ids": [
+        "ao_6bf1b671b5992716",
+        "ao_94506eb4e9baf85a"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "spine_posterior_ctj_limitations_01",
+      "text": "A formal sternotomy is not required for most anterior-column work here; posterolateral windows have less morbidity below T2.",
+      "source_ids": [
+        "ao_6bf1b671b5992716"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "spine_posterior_ctj_indications_01",
+      "text": "Used for posterior cervicothoracic trauma, metastatic, and primary-tumor access, including optional anterior-column exposure.",
+      "source_ids": [
+        "ao_6bf1b671b5992716",
+        "ao_19f14d08da9963b9",
+        "ao_94506eb4e9baf85a"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "spine_posterior_ctj_closure_01",
+      "text": "Approximate muscle over a deep drain, then close fascia, fat, and skin. Avoid a fascial-only closure that leaves dead space.",
+      "source_ids": [
+        "ao_6bf1b671b5992716",
+        "ao_19f14d08da9963b9"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "spine_posterior_ctj_complications_01",
+      "text": "Complications include pneumothorax after rib resection, fascial dehiscence, dead-space seroma, and neural injury under a split or tumor-involved lamina.",
+      "source_ids": [
+        "ao_6bf1b671b5992716",
+        "ao_19f14d08da9963b9"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "spine_posterior_ctj_questions_01",
+      "text": "Which upper-back muscles are crossed in the midline at the CTJ?",
+      "source_ids": [
+        "ao_6bf1b671b5992716",
+        "ao_19f14d08da9963b9"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "spine_posterior_ctj_questions_02",
+      "text": "How far from the costovertebral joint is the rib osteotomized in a posterolateral costotransversectomy?",
+      "source_ids": [
+        "ao_6bf1b671b5992716"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "spine_posterior_ctj_questions_03",
+      "text": "Why consider nonabsorbable fascial sutures here?",
+      "source_ids": [
+        "ao_6bf1b671b5992716",
+        "ao_19f14d08da9963b9"
+      ],
+      "risk_level": "medium"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "ao_6bf1b671b5992716",
+      "provider": "AO Surgery Reference",
+      "title": "Posterior Access To The Thoraco Cervical Junction",
+      "url": "https://surgeryreference.aofoundation.org/spine/trauma/subaxial-cervical/approach/posterior-access-to-the-thoraco-cervical-junction",
+      "source_page_id": "ao_6bf1b671b5992716"
+    },
+    {
+      "source_id": "ao_19f14d08da9963b9",
+      "provider": "AO Surgery Reference",
+      "title": "Posterior Access To The Cervicothoracic Junction",
+      "url": "https://surgeryreference.aofoundation.org/spine/tumors/metastatic-tumors/approach/posterior-access-to-the-cervicothoracic-junction",
+      "source_page_id": "ao_19f14d08da9963b9"
+    },
+    {
+      "source_id": "ao_94506eb4e9baf85a",
+      "provider": "AO Surgery Reference",
+      "title": "Posterior Access To The Cervicothoracic Junction C7 To T2",
+      "url": "https://surgeryreference.aofoundation.org/spine/tumors/primary-tumors/approach/posterior-access-to-the-cervicothoracic-junction-c7-to-t2",
+      "source_page_id": "ao_94506eb4e9baf85a"
+    }
+  ],
+  "content_status": "agent_review_pending",
+  "review": {
+    "status": "agent_review_pending",
+    "required_roles": [
+      "adversarial_safety_reviewer",
+      "approach_anatomy_reviewer",
+      "educational_value_reviewer",
+      "evidence_reviewer",
+      "operative_exposure_reviewer",
+      "procedure_applicability_reviewer"
+    ],
+    "completed_roles": []
+  },
+  "resolved_contradiction_keys": [],
+  "authoring_provenance": {
+    "method": "local_codex_curated",
+    "definition_file": "data/approach_library/curated/spine_remaining_batch001_v1.json",
+    "api_used": false
+  }
+}

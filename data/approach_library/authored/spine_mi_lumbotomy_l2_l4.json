@@ -1,0 +1,339 @@
+{
+  "schema_version": "brobot_approach_packet_v1",
+  "approach_id": "spine_mi_lumbotomy_l2_l4",
+  "name": "Minimally invasive lumbotomy (L2–L4)",
+  "aliases": [
+    "less-invasive left lumbotomy"
+  ],
+  "region": "lumbar",
+  "joint": "",
+  "bones": [
+    "L2",
+    "L3",
+    "L4"
+  ],
+  "corridor": "Short left-sided cut over the marked vertebra, three abdominal-wall layers, retroperitoneal fat to psoas, then psoas released anteriorly and retracted posteriorly (or optionally split as transpsoas)",
+  "positioning": [
+    {
+      "text": "Position so fluoroscopy can mark the involved vertebra. Left-sided is the usual side; right-sided is possible but rare.",
+      "claim_ids": [
+        "spine_mi_lumbotomy_l2_l4_positioning_01"
+      ]
+    }
+  ],
+  "setup": [],
+  "surface_landmarks": [
+    {
+      "text": "For bisegmental work, mark from the posterior edge of the lower endplate of the vertebra above to the anterior edge of the upper endplate of the involved vertebra. For monosegmental work, mark from the midpoint of the posterior wall above to the midpoint of the anterior wall below.",
+      "claim_ids": [
+        "spine_mi_lumbotomy_l2_l4_surface_landmarks_01"
+      ]
+    }
+  ],
+  "incision": [
+    {
+      "text": "Incise on the fluoroscopic mark. L5–S1 cannot be reached.",
+      "claim_ids": [
+        "spine_mi_lumbotomy_l2_l4_incision_01"
+      ]
+    }
+  ],
+  "superficial_interval": [
+    {
+      "text": "Incise external oblique with cautery, split internal oblique, and open transversalis fascia carefully. Use a finger to detach muscle from peritoneum. Retroperitoneal fat marks the space. Repair a peritoneal tear immediately.",
+      "claim_ids": [
+        "spine_mi_lumbotomy_l2_l4_superficial_interval_01"
+      ]
+    }
+  ],
+  "deep_interval": [
+    {
+      "text": "Shift peritoneum off the lateral wall to psoas. Standard option: release psoas anteriorly and retract it posteriorly toward the canal. Alternative: blunt longitudinal psoas split (transpsoas) with neuromonitoring. Ligate segmental vessels above, below, and over the involved body unless only a discectomy is planned. A table-mounted retractor holds psoas, viscera, and the great vessels/sympathetic chain.",
+      "claim_ids": [
+        "spine_mi_lumbotomy_l2_l4_deep_interval_01"
+      ]
+    }
+  ],
+  "layers": [
+    {
+      "text": "Skin, three abdominal-wall layers, retroperitoneal fat, psoas, segmental vessels, then the L2–L4 body.",
+      "claim_ids": [
+        "spine_mi_lumbotomy_l2_l4_layers_01"
+      ]
+    }
+  ],
+  "structures_encountered": [],
+  "structures_at_risk": [
+    {
+      "text": "The peritoneum, psoas, lumbar plexus if the muscle is split, segmental vessels, great vessels, and sympathetic chain are at risk.",
+      "claim_ids": [
+        "spine_mi_lumbotomy_l2_l4_structures_at_risk_01"
+      ]
+    }
+  ],
+  "danger_zones": [
+    {
+      "text": "An unrepaired peritoneal tear (organ injury or hernia) and a transpsoas split without neuromonitoring are the danger zones.",
+      "claim_ids": [
+        "spine_mi_lumbotomy_l2_l4_danger_zones_01"
+      ]
+    }
+  ],
+  "retraction_hazards": [
+    {
+      "text": "Retract psoas, viscera, and vessels only with a table-mounted system.",
+      "claim_ids": [
+        "spine_mi_lumbotomy_l2_l4_retraction_hazards_01"
+      ]
+    }
+  ],
+  "exposure": [
+    {
+      "text": "Ideal for plating; the companion mini-open retroperitoneal window is better for vertebral-body replacement.",
+      "claim_ids": [
+        "spine_mi_lumbotomy_l2_l4_exposure_01"
+      ]
+    }
+  ],
+  "limitations": [
+    {
+      "text": "Cannot reach L5–S1.",
+      "claim_ids": [
+        "spine_mi_lumbotomy_l2_l4_limitations_01"
+      ]
+    }
+  ],
+  "extensions": [],
+  "indications": [
+    {
+      "text": "Used for less-invasive left lumbotomy plating of L2–L4 trauma or metastatic disease.",
+      "claim_ids": [
+        "spine_mi_lumbotomy_l2_l4_indications_01"
+      ]
+    }
+  ],
+  "relative_contraindications": [],
+  "implant_implications": [],
+  "fluoroscopy_implications": [],
+  "closure": [
+    {
+      "text": "Insert a retroperitoneal drain and close in layers.",
+      "claim_ids": [
+        "spine_mi_lumbotomy_l2_l4_closure_01"
+      ]
+    }
+  ],
+  "complications": [
+    {
+      "text": "Complications include peritoneal injury with hernia, iliopsoas pain, and nerve-root lesions if psoas is split.",
+      "claim_ids": [
+        "spine_mi_lumbotomy_l2_l4_complications_01"
+      ]
+    }
+  ],
+  "bailouts": [],
+  "procedure_applications": [
+    {
+      "procedure_id": "thoracolumbar_fracture_orif",
+      "relationship": "primary_option",
+      "condition": "An L2–L4 fracture or tumor is plated through a less-invasive left lumbotomy; L5–S1 cannot be reached"
+    }
+  ],
+  "questions": [
+    {
+      "question": "What is the standard psoas maneuver in a lumbotomy (as opposed to transpsoas)?",
+      "answer": "Release psoas anteriorly and retract it posteriorly toward the spinal canal.",
+      "claim_ids": [
+        "spine_mi_lumbotomy_l2_l4_questions_01"
+      ]
+    },
+    {
+      "question": "Which disc cannot be reached?",
+      "answer": "L5–S1.",
+      "claim_ids": [
+        "spine_mi_lumbotomy_l2_l4_questions_02"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "spine_mi_lumbotomy_l2_l4_positioning_01",
+      "text": "Position so fluoroscopy can mark the involved vertebra. Left-sided is the usual side; right-sided is possible but rare.",
+      "source_ids": [
+        "ao_edd227745e845331",
+        "ao_483997dbd5e0b6e5"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "spine_mi_lumbotomy_l2_l4_surface_landmarks_01",
+      "text": "For bisegmental work, mark from the posterior edge of the lower endplate of the vertebra above to the anterior edge of the upper endplate of the involved vertebra. For monosegmental work, mark from the midpoint of the posterior wall above to the midpoint of the anterior wall below.",
+      "source_ids": [
+        "ao_edd227745e845331",
+        "ao_483997dbd5e0b6e5"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "spine_mi_lumbotomy_l2_l4_incision_01",
+      "text": "Incise on the fluoroscopic mark. L5–S1 cannot be reached.",
+      "source_ids": [
+        "ao_edd227745e845331",
+        "ao_483997dbd5e0b6e5"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "spine_mi_lumbotomy_l2_l4_superficial_interval_01",
+      "text": "Incise external oblique with cautery, split internal oblique, and open transversalis fascia carefully. Use a finger to detach muscle from peritoneum. Retroperitoneal fat marks the space. Repair a peritoneal tear immediately.",
+      "source_ids": [
+        "ao_edd227745e845331",
+        "ao_483997dbd5e0b6e5"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "spine_mi_lumbotomy_l2_l4_deep_interval_01",
+      "text": "Shift peritoneum off the lateral wall to psoas. Standard option: release psoas anteriorly and retract it posteriorly toward the canal. Alternative: blunt longitudinal psoas split (transpsoas) with neuromonitoring. Ligate segmental vessels above, below, and over the involved body unless only a discectomy is planned. A table-mounted retractor holds psoas, viscera, and the great vessels/sympathetic chain.",
+      "source_ids": [
+        "ao_edd227745e845331",
+        "ao_483997dbd5e0b6e5"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "spine_mi_lumbotomy_l2_l4_layers_01",
+      "text": "Skin, three abdominal-wall layers, retroperitoneal fat, psoas, segmental vessels, then the L2–L4 body.",
+      "source_ids": [
+        "ao_edd227745e845331",
+        "ao_483997dbd5e0b6e5"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "spine_mi_lumbotomy_l2_l4_structures_at_risk_01",
+      "text": "The peritoneum, psoas, lumbar plexus if the muscle is split, segmental vessels, great vessels, and sympathetic chain are at risk.",
+      "source_ids": [
+        "ao_edd227745e845331",
+        "ao_483997dbd5e0b6e5"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "spine_mi_lumbotomy_l2_l4_danger_zones_01",
+      "text": "An unrepaired peritoneal tear (organ injury or hernia) and a transpsoas split without neuromonitoring are the danger zones.",
+      "source_ids": [
+        "ao_edd227745e845331",
+        "ao_483997dbd5e0b6e5"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "spine_mi_lumbotomy_l2_l4_retraction_hazards_01",
+      "text": "Retract psoas, viscera, and vessels only with a table-mounted system.",
+      "source_ids": [
+        "ao_edd227745e845331",
+        "ao_483997dbd5e0b6e5"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "spine_mi_lumbotomy_l2_l4_exposure_01",
+      "text": "Ideal for plating; the companion mini-open retroperitoneal window is better for vertebral-body replacement.",
+      "source_ids": [
+        "ao_edd227745e845331",
+        "ao_483997dbd5e0b6e5"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "spine_mi_lumbotomy_l2_l4_limitations_01",
+      "text": "Cannot reach L5–S1.",
+      "source_ids": [
+        "ao_edd227745e845331",
+        "ao_483997dbd5e0b6e5"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "spine_mi_lumbotomy_l2_l4_indications_01",
+      "text": "Used for less-invasive left lumbotomy plating of L2–L4 trauma or metastatic disease.",
+      "source_ids": [
+        "ao_edd227745e845331",
+        "ao_483997dbd5e0b6e5"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "spine_mi_lumbotomy_l2_l4_closure_01",
+      "text": "Insert a retroperitoneal drain and close in layers.",
+      "source_ids": [
+        "ao_edd227745e845331",
+        "ao_483997dbd5e0b6e5"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "spine_mi_lumbotomy_l2_l4_complications_01",
+      "text": "Complications include peritoneal injury with hernia, iliopsoas pain, and nerve-root lesions if psoas is split.",
+      "source_ids": [
+        "ao_edd227745e845331",
+        "ao_483997dbd5e0b6e5"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "spine_mi_lumbotomy_l2_l4_questions_01",
+      "text": "What is the standard psoas maneuver in a lumbotomy (as opposed to transpsoas)?",
+      "source_ids": [
+        "ao_edd227745e845331",
+        "ao_483997dbd5e0b6e5"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "spine_mi_lumbotomy_l2_l4_questions_02",
+      "text": "Which disc cannot be reached?",
+      "source_ids": [
+        "ao_edd227745e845331",
+        "ao_483997dbd5e0b6e5"
+      ],
+      "risk_level": "medium"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "ao_edd227745e845331",
+      "provider": "AO Surgery Reference",
+      "title": "Minimally Invasive Lumbotomy L2 L4",
+      "url": "https://surgeryreference.aofoundation.org/spine/trauma/thoracolumbar/approach/minimally-invasive-lumbotomy-l2-l4",
+      "source_page_id": "ao_edd227745e845331"
+    },
+    {
+      "source_id": "ao_483997dbd5e0b6e5",
+      "provider": "AO Surgery Reference",
+      "title": "Minimally Invasive Lumbotomy In L2 L4",
+      "url": "https://surgeryreference.aofoundation.org/spine/tumors/metastatic-tumors/approach/minimally-invasive-lumbotomy-in-l2-l4",
+      "source_page_id": "ao_483997dbd5e0b6e5"
+    }
+  ],
+  "content_status": "agent_review_pending",
+  "review": {
+    "status": "agent_review_pending",
+    "required_roles": [
+      "adversarial_safety_reviewer",
+      "approach_anatomy_reviewer",
+      "educational_value_reviewer",
+      "evidence_reviewer",
+      "operative_exposure_reviewer",
+      "procedure_applicability_reviewer"
+    ],
+    "completed_roles": []
+  },
+  "resolved_contradiction_keys": [],
+  "authoring_provenance": {
+    "method": "local_codex_curated",
+    "definition_file": "data/approach_library/curated/spine_remaining_batch001_v1.json",
+    "api_used": false
+  }
+}

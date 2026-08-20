@@ -1,0 +1,55 @@
+{
+  "schema_version": "caseprep_approaches_v3",
+  "approaches": [
+    {
+      "approach_id": "femur_antegrade_trochanteric_entry",
+      "name": "Cephalomedullary nail — trochanteric entry",
+      "role": "common_option",
+      "content_status": "curated",
+      "selection_indications": ["Intramedullary fixation of intertrochanteric fractures using a proximally curved cephalomedullary nail inserted through a trochanteric start point, favored for unstable and reverse-obliquity patterns."],
+      "selection_limitations": ["Requires a nail geometry designed for a trochanteric (not piriformis) start.", "Start-point error propagates to malreduction, so it depends on accurate biplanar fluoroscopy."],
+      "positioning": ["Supine on a fracture table (or radiolucent flat table) with the fracture reduced closed and biplanar fluoroscopy available before incision."],
+      "exposure": ["Make a small proximal lateral portal above the greater trochanter and split the abductors to reach the trochanteric tip.", "Establish an axial start point centered on the greater trochanter and aligned with the femoral canal, then ream and pass the nail."],
+      "layers": [],
+      "landmarks": ["Greater trochanter tip", "Femoral canal axis", "Abductor mass"],
+      "structures_at_risk": [
+        {"structure": "Superior gluteal nerve and abductor tissue", "risk_phase": "Proximal split for the start point", "protection": "Split the abductors in line with their fibers and limit proximal extension."},
+        {"structure": "Trochanteric walls / femoral neck / posterior shaft cortex", "risk_phase": "Reaming and nail insertion", "protection": "Keep the start point exactly centered and axial to avoid blowout, eccentric reaming, or neck stress."}
+      ],
+      "pitfalls": ["Off-center or distal start point causing trochanteric blowout or eccentric reaming", "Medial cortical weakening or iatrogenic neck stress from a malpositioned start"],
+      "questions": [
+        "Q: Where must the trochanteric start lie on axial imaging? A: Exactly centered on the greater trochanter and aligned with the canal.",
+        "Q: Which nail geometry uses this portal? A: A proximally curved antegrade nail designed for trochanteric entry."
+      ],
+      "source_urls": ["https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/femoral-shaft/approach/antegrade-nailing-approach-with-trochanteric-entry-point", "https://pubmed.ncbi.nlm.nih.gov/38744693/"],
+      "review_status": "agent_review_pending",
+      "review_evidence": [],
+      "coverage_notes": "Trochanteric-entry technique is curated from AO Surgery Reference; nail selection depends on implant system and fracture pattern."
+    },
+    {
+      "approach_id": "approach_lower_ext_thigh_lateral",
+      "name": "Lateral approach to the proximal femur (extramedullary)",
+      "role": "common_option",
+      "content_status": "curated",
+      "selection_indications": ["Lateral exposure of the proximal femur for extramedullary fixation (sliding hip screw / dynamic hip screw or proximal femoral plate), typically for stable intertrochanteric patterns."],
+      "selection_limitations": ["There is no true internervous plane, and access to the posterior femur is limited.", "Extramedullary fixation is less mechanically favorable than a nail for unstable and reverse-obliquity patterns."],
+      "positioning": ["Supine on a fracture or radiolucent table with the hip bumped, the limb free-draped, and unobstructed fluoroscopy of the proximal femur."],
+      "exposure": ["Incise along the line from the greater trochanter distally, open the fascia lata and iliotibial tract, and reflect vastus lateralis anteriorly off the lateral intermuscular septum to expose the lateral proximal femur extraperiosteally.", "Control profunda femoris perforators as vastus lateralis is elevated."],
+      "layers": [],
+      "landmarks": ["Greater trochanter", "Vastus lateralis", "Lateral intermuscular septum", "Lateral femoral shaft"],
+      "structures_at_risk": [
+        {"structure": "Profunda femoris perforating vessels", "risk_phase": "Elevation of vastus lateralis off the septum", "protection": "Identify and ligate perforators before they are divided so they do not retract into the posterior compartment."},
+        {"structure": "Femoral-nerve branches to vastus lateralis", "risk_phase": "Anterior/proximal intramuscular dissection", "protection": "Stay in the extraperiosteal plane and avoid dissecting too far anteriorly into the muscle belly."}
+      ],
+      "pitfalls": ["Uncontrolled perforator bleeding with thigh hematoma", "Excessive periosteal stripping devascularizing fracture fragments"],
+      "questions": [
+        "Q: Why is the lateral approach to the femur not a true internervous approach? A: Vastus lateralis is femoral-nerve innervated throughout, so the plane is intramuscular/extraperiosteal.",
+        "Q: Which vessels are most at risk during this exposure? A: The perforating branches of the profunda femoris as they cross the lateral intermuscular septum."
+      ],
+      "source_urls": ["https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/femoral-shaft/approach/lateral-approach", "https://www.orthobullets.com/approaches/12024/femur-lateral-approach"],
+      "review_status": "agent_review_pending",
+      "review_evidence": [],
+      "coverage_notes": "Lateral extramedullary exposure is curated from AO Surgery Reference and Orthobullets; implant choice depends on fracture stability."
+    }
+  ]
+}

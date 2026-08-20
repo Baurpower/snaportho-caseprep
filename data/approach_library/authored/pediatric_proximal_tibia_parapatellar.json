@@ -1,0 +1,342 @@
+{
+  "schema_version": "brobot_approach_packet_v1",
+  "approach_id": "pediatric_proximal_tibia_parapatellar",
+  "name": "Pediatric parapatellar arthrotomy for the proximal tibia",
+  "aliases": [
+    "pediatric lateral or medial parapatellar proximal-tibial arthrotomy"
+  ],
+  "region": "proximal-tibia",
+  "joint": "knee",
+  "bones": [
+    "proximal tibia",
+    "patella"
+  ],
+  "corridor": "Incision from the inferior patellar pole to the tibial physis on either side of the patellar tendon, with a matching capsular cut that stays off the meniscus and physis",
+  "positioning": [
+    {
+      "text": "Position so either side of the patellar tendon, the inferior pole, and the tibial physis can be marked.",
+      "claim_ids": [
+        "pediatric_proximal_tibia_parapatellar_positioning_01"
+      ]
+    }
+  ],
+  "setup": [],
+  "surface_landmarks": [
+    {
+      "text": "Mark the inferior patellar pole, both borders of the patellar tendon, and the tibial physis.",
+      "claim_ids": [
+        "pediatric_proximal_tibia_parapatellar_surface_landmarks_01"
+      ]
+    }
+  ],
+  "incision": [
+    {
+      "text": "Start at the lower pole of the patella and extend to the tibial physis on the chosen side of the tendon. Lengthen the cut if more articular surface is needed.",
+      "claim_ids": [
+        "pediatric_proximal_tibia_parapatellar_incision_01"
+      ]
+    }
+  ],
+  "superficial_interval": [
+    {
+      "text": "Incise the capsule in line with the skin.",
+      "claim_ids": [
+        "pediatric_proximal_tibia_parapatellar_superficial_interval_01"
+      ]
+    }
+  ],
+  "deep_interval": [
+    {
+      "text": "Use retractors to see the fracture. Avoid sharp dissection around the meniscus. Do not strip periosteum or compress the physis.",
+      "claim_ids": [
+        "pediatric_proximal_tibia_parapatellar_deep_interval_01"
+      ]
+    }
+  ],
+  "layers": [
+    {
+      "text": "Skin, capsule beside the patellar tendon, then the joint and proximal tibial articular surface.",
+      "claim_ids": [
+        "pediatric_proximal_tibia_parapatellar_layers_01"
+      ]
+    }
+  ],
+  "structures_encountered": [],
+  "structures_at_risk": [
+    {
+      "text": "The meniscus, the tibial physis, and periosteum around the growth plate are at risk.",
+      "claim_ids": [
+        "pediatric_proximal_tibia_parapatellar_structures_at_risk_01"
+      ]
+    }
+  ],
+  "danger_zones": [
+    {
+      "text": "Sharp work around the meniscus is the articular danger zone. Physeal compression is the growth-plate danger zone.",
+      "claim_ids": [
+        "pediatric_proximal_tibia_parapatellar_danger_zones_01"
+      ]
+    }
+  ],
+  "retraction_hazards": [
+    {
+      "text": "Retract the capsule rather than cutting toward the meniscus.",
+      "claim_ids": [
+        "pediatric_proximal_tibia_parapatellar_retraction_hazards_01"
+      ]
+    }
+  ],
+  "exposure": [
+    {
+      "text": "Shows intra-articular, avulsion, and osteochondral flake fractures of the proximal tibia.",
+      "claim_ids": [
+        "pediatric_proximal_tibia_parapatellar_exposure_01"
+      ]
+    }
+  ],
+  "limitations": [
+    {
+      "text": "The window stops at the physis unless a planned extension is added for more articular view.",
+      "claim_ids": [
+        "pediatric_proximal_tibia_parapatellar_limitations_01"
+      ]
+    }
+  ],
+  "extensions": [],
+  "indications": [
+    {
+      "text": "Used for intra-articular fractures, avulsions, and flake osteochondral fractures.",
+      "claim_ids": [
+        "pediatric_proximal_tibia_parapatellar_indications_01"
+      ]
+    }
+  ],
+  "relative_contraindications": [],
+  "implant_implications": [],
+  "fluoroscopy_implications": [],
+  "closure": [
+    {
+      "text": "Repair the capsule with absorbable suture and close skin.",
+      "claim_ids": [
+        "pediatric_proximal_tibia_parapatellar_closure_01"
+      ]
+    }
+  ],
+  "complications": [
+    {
+      "text": "Complications include meniscal injury and physeal arrest from stripping or compression.",
+      "claim_ids": [
+        "pediatric_proximal_tibia_parapatellar_complications_01"
+      ]
+    }
+  ],
+  "bailouts": [],
+  "procedure_applications": [
+    {
+      "procedure_id": "pediatric_proximal_tibia_fracture_orif",
+      "relationship": "primary_option",
+      "condition": "An intra-articular, avulsion, or osteochondral flake fracture of the proximal tibia needs a limited parapatellar arthrotomy"
+    }
+  ],
+  "questions": [
+    {
+      "question": "Where does the incision run?",
+      "answer": "From the inferior patellar pole to the tibial physis on either side of the patellar tendon.",
+      "claim_ids": [
+        "pediatric_proximal_tibia_parapatellar_questions_01"
+      ]
+    },
+    {
+      "question": "What must be avoided around the meniscus?",
+      "answer": "Sharp dissection.",
+      "claim_ids": [
+        "pediatric_proximal_tibia_parapatellar_questions_02"
+      ]
+    },
+    {
+      "question": "What physeal errors are forbidden?",
+      "answer": "Periosteal stripping and physeal compression.",
+      "claim_ids": [
+        "pediatric_proximal_tibia_parapatellar_questions_03"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "pediatric_proximal_tibia_parapatellar_positioning_01",
+      "text": "Position so either side of the patellar tendon, the inferior pole, and the tibial physis can be marked.",
+      "source_ids": [
+        "ao_d079d86841a38148",
+        "ao_16af99fd4e90e404"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "pediatric_proximal_tibia_parapatellar_surface_landmarks_01",
+      "text": "Mark the inferior patellar pole, both borders of the patellar tendon, and the tibial physis.",
+      "source_ids": [
+        "ao_d079d86841a38148"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "pediatric_proximal_tibia_parapatellar_incision_01",
+      "text": "Start at the lower pole of the patella and extend to the tibial physis on the chosen side of the tendon. Lengthen the cut if more articular surface is needed.",
+      "source_ids": [
+        "ao_d079d86841a38148"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "pediatric_proximal_tibia_parapatellar_superficial_interval_01",
+      "text": "Incise the capsule in line with the skin.",
+      "source_ids": [
+        "ao_d079d86841a38148"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "pediatric_proximal_tibia_parapatellar_deep_interval_01",
+      "text": "Use retractors to see the fracture. Avoid sharp dissection around the meniscus. Do not strip periosteum or compress the physis.",
+      "source_ids": [
+        "ao_d079d86841a38148",
+        "ao_16af99fd4e90e404"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "pediatric_proximal_tibia_parapatellar_layers_01",
+      "text": "Skin, capsule beside the patellar tendon, then the joint and proximal tibial articular surface.",
+      "source_ids": [
+        "ao_d079d86841a38148"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "pediatric_proximal_tibia_parapatellar_structures_at_risk_01",
+      "text": "The meniscus, the tibial physis, and periosteum around the growth plate are at risk.",
+      "source_ids": [
+        "ao_d079d86841a38148",
+        "ao_16af99fd4e90e404"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "pediatric_proximal_tibia_parapatellar_danger_zones_01",
+      "text": "Sharp work around the meniscus is the articular danger zone. Physeal compression is the growth-plate danger zone.",
+      "source_ids": [
+        "ao_d079d86841a38148"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "pediatric_proximal_tibia_parapatellar_retraction_hazards_01",
+      "text": "Retract the capsule rather than cutting toward the meniscus.",
+      "source_ids": [
+        "ao_d079d86841a38148"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "pediatric_proximal_tibia_parapatellar_exposure_01",
+      "text": "Shows intra-articular, avulsion, and osteochondral flake fractures of the proximal tibia.",
+      "source_ids": [
+        "ao_d079d86841a38148"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "pediatric_proximal_tibia_parapatellar_limitations_01",
+      "text": "The window stops at the physis unless a planned extension is added for more articular view.",
+      "source_ids": [
+        "ao_d079d86841a38148"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "pediatric_proximal_tibia_parapatellar_indications_01",
+      "text": "Used for intra-articular fractures, avulsions, and flake osteochondral fractures.",
+      "source_ids": [
+        "ao_d079d86841a38148"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "pediatric_proximal_tibia_parapatellar_closure_01",
+      "text": "Repair the capsule with absorbable suture and close skin.",
+      "source_ids": [
+        "ao_d079d86841a38148",
+        "ao_16af99fd4e90e404"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "pediatric_proximal_tibia_parapatellar_complications_01",
+      "text": "Complications include meniscal injury and physeal arrest from stripping or compression.",
+      "source_ids": [
+        "ao_d079d86841a38148",
+        "ao_16af99fd4e90e404"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "pediatric_proximal_tibia_parapatellar_questions_01",
+      "text": "Where does the incision run?",
+      "source_ids": [
+        "ao_d079d86841a38148"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "pediatric_proximal_tibia_parapatellar_questions_02",
+      "text": "What must be avoided around the meniscus?",
+      "source_ids": [
+        "ao_d079d86841a38148"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "pediatric_proximal_tibia_parapatellar_questions_03",
+      "text": "What physeal errors are forbidden?",
+      "source_ids": [
+        "ao_d079d86841a38148"
+      ],
+      "risk_level": "medium"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "ao_d079d86841a38148",
+      "provider": "AO Surgery Reference",
+      "title": "Lateral Medial Parapatellar Arthrotomy",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/pediatric-trauma/proximal-tibia/approach/lateral-medial-parapatellar-arthrotomy",
+      "source_page_id": "ao_d079d86841a38148"
+    },
+    {
+      "source_id": "ao_16af99fd4e90e404",
+      "provider": "AO Surgery Reference",
+      "title": "Lateral Medial Parapatellar Arthrotomy",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/pediatric-trauma/distal-femur/approach/lateral-medial-parapatellar-arthrotomy",
+      "source_page_id": "ao_16af99fd4e90e404"
+    }
+  ],
+  "content_status": "agent_review_pending",
+  "review": {
+    "status": "agent_review_pending",
+    "required_roles": [
+      "adversarial_safety_reviewer",
+      "approach_anatomy_reviewer",
+      "educational_value_reviewer",
+      "evidence_reviewer",
+      "operative_exposure_reviewer",
+      "procedure_applicability_reviewer"
+    ],
+    "completed_roles": []
+  },
+  "resolved_contradiction_keys": [],
+  "authoring_provenance": {
+    "method": "local_codex_curated",
+    "definition_file": "data/approach_library/curated/pediatric_tibia_scapula_batch001_v1.json",
+    "api_used": false
+  }
+}

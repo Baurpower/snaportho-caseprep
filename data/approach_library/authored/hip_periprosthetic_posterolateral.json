@@ -1,0 +1,350 @@
+{
+  "schema_version": "brobot_approach_packet_v1",
+  "approach_id": "hip_periprosthetic_posterolateral",
+  "name": "Posterolateral approach to the hip (periprosthetic)",
+  "aliases": [
+    "posterior approach to the hip",
+    "Southern/Moore approach"
+  ],
+  "region": "hip",
+  "joint": "hip",
+  "bones": [
+    "acetabulum",
+    "proximal femur"
+  ],
+  "corridor": "Posterolateral split of gluteus maximus with detachment of the short external rotators and a posterior capsulotomy to reach the posterior hip and femur",
+  "positioning": [
+    {
+      "text": "Position in lateral decubitus with supports preventing rotation away from true lateral and padding at pressure points; prone positioning is also possible.",
+      "claim_ids": [
+        "hip_periprosthetic_posterolateral_positioning_01"
+      ]
+    }
+  ],
+  "setup": [],
+  "surface_landmarks": [
+    {
+      "text": "Mark the posterior superior iliac spine, the greater trochanter, and the femoral shaft.",
+      "claim_ids": [
+        "hip_periprosthetic_posterolateral_surface_landmarks_01"
+      ]
+    }
+  ],
+  "incision": [
+    {
+      "text": "Curve the incision toward the PSIS to a point about 6 cm proximal to the greater trochanter and extend it about 6 cm distally along the femoral axis.",
+      "claim_ids": [
+        "hip_periprosthetic_posterolateral_incision_01"
+      ]
+    }
+  ],
+  "superficial_interval": [
+    {
+      "text": "Incise the fascia lata and split the gluteus maximus in line with its fibers across the greater trochanter.",
+      "claim_ids": [
+        "hip_periprosthetic_posterolateral_superficial_interval_01"
+      ]
+    }
+  ],
+  "deep_interval": [
+    {
+      "text": "Place heavy stay sutures in the piriformis and conjoined obturator internus and gemelli, detach the short external rotators bluntly, and open a broad-based three-sided posterior capsulotomy.",
+      "claim_ids": [
+        "hip_periprosthetic_posterolateral_deep_interval_01"
+      ]
+    }
+  ],
+  "layers": [
+    {
+      "text": "Skin, subcutaneous tissue, fascia lata, gluteus maximus, the short external rotators, and the posterior hip capsule.",
+      "claim_ids": [
+        "hip_periprosthetic_posterolateral_layers_01"
+      ]
+    }
+  ],
+  "structures_encountered": [],
+  "structures_at_risk": [
+    {
+      "text": "The sciatic nerve lies just posterior to the short external rotators and must be protected, and its exposure is unnecessary for routine arthroplasty.",
+      "claim_ids": [
+        "hip_periprosthetic_posterolateral_structures_at_risk_01"
+      ]
+    }
+  ],
+  "danger_zones": [
+    {
+      "text": "The interval deep to the short external rotators and quadratus femoris is the danger zone for the sciatic nerve.",
+      "claim_ids": [
+        "hip_periprosthetic_posterolateral_danger_zones_01"
+      ]
+    }
+  ],
+  "retraction_hazards": [
+    {
+      "text": "Keep the hip extended and knee flexed and avoid deep posterior retraction that stretches the sciatic nerve.",
+      "claim_ids": [
+        "hip_periprosthetic_posterolateral_retraction_hazards_01"
+      ]
+    }
+  ],
+  "exposure": [
+    {
+      "text": "Exposes the posterior hip, femoral head and neck, and proximal femur for arthroplasty or fracture fixation.",
+      "claim_ids": [
+        "hip_periprosthetic_posterolateral_exposure_01"
+      ]
+    }
+  ],
+  "limitations": [
+    {
+      "text": "The posterior approach has a higher dislocation rate than anterior exposures unless the capsule and rotators are securely repaired.",
+      "claim_ids": [
+        "hip_periprosthetic_posterolateral_limitations_01"
+      ]
+    }
+  ],
+  "extensions": [],
+  "indications": [
+    {
+      "text": "Indicated for revision hip arthroplasty and open reduction and internal fixation of periprosthetic femoral fractures.",
+      "claim_ids": [
+        "hip_periprosthetic_posterolateral_indications_01"
+      ]
+    }
+  ],
+  "relative_contraindications": [],
+  "implant_implications": [],
+  "fluoroscopy_implications": [],
+  "closure": [
+    {
+      "text": "Repair the short external rotators and capsule through drill holes in the posterior greater trochanter, since secure repair reduces dislocation, then close in layers with a subfascial drain.",
+      "claim_ids": [
+        "hip_periprosthetic_posterolateral_closure_01"
+      ]
+    }
+  ],
+  "complications": [
+    {
+      "text": "Complications include posterior hip dislocation, sciatic nerve injury, and wound problems.",
+      "claim_ids": [
+        "hip_periprosthetic_posterolateral_complications_01"
+      ]
+    }
+  ],
+  "bailouts": [],
+  "procedure_applications": [
+    {
+      "procedure_id": "periprosthetic_hip_fracture_orif",
+      "relationship": "primary_option",
+      "condition": "A periprosthetic femoral fracture or revision needs posterior exposure of the hip and femur"
+    },
+    {
+      "procedure_id": "revision_tha",
+      "relationship": "primary_option",
+      "condition": "Revision hip arthroplasty is performed posteriorly"
+    }
+  ],
+  "questions": [
+    {
+      "question": "Which nerve is most at risk in the posterolateral hip approach?",
+      "answer": "The sciatic nerve, lying just posterior to the short external rotators.",
+      "claim_ids": [
+        "hip_periprosthetic_posterolateral_questions_01"
+      ]
+    },
+    {
+      "question": "What most reduces dislocation risk after a posterior approach?",
+      "answer": "Secure repair of the capsule and short external rotators.",
+      "claim_ids": [
+        "hip_periprosthetic_posterolateral_questions_02"
+      ]
+    },
+    {
+      "question": "Which muscle is split to reach the short external rotators?",
+      "answer": "The gluteus maximus, in line with its fibers.",
+      "claim_ids": [
+        "hip_periprosthetic_posterolateral_questions_03"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "hip_periprosthetic_posterolateral_positioning_01",
+      "text": "Position in lateral decubitus with supports preventing rotation away from true lateral and padding at pressure points; prone positioning is also possible.",
+      "source_ids": [
+        "ao_b998d482cbad2405"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "hip_periprosthetic_posterolateral_surface_landmarks_01",
+      "text": "Mark the posterior superior iliac spine, the greater trochanter, and the femoral shaft.",
+      "source_ids": [
+        "ao_b998d482cbad2405"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "hip_periprosthetic_posterolateral_incision_01",
+      "text": "Curve the incision toward the PSIS to a point about 6 cm proximal to the greater trochanter and extend it about 6 cm distally along the femoral axis.",
+      "source_ids": [
+        "ao_b998d482cbad2405"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "hip_periprosthetic_posterolateral_superficial_interval_01",
+      "text": "Incise the fascia lata and split the gluteus maximus in line with its fibers across the greater trochanter.",
+      "source_ids": [
+        "ao_b998d482cbad2405"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "hip_periprosthetic_posterolateral_deep_interval_01",
+      "text": "Place heavy stay sutures in the piriformis and conjoined obturator internus and gemelli, detach the short external rotators bluntly, and open a broad-based three-sided posterior capsulotomy.",
+      "source_ids": [
+        "ao_b998d482cbad2405"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "hip_periprosthetic_posterolateral_layers_01",
+      "text": "Skin, subcutaneous tissue, fascia lata, gluteus maximus, the short external rotators, and the posterior hip capsule.",
+      "source_ids": [
+        "ao_b998d482cbad2405"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "hip_periprosthetic_posterolateral_structures_at_risk_01",
+      "text": "The sciatic nerve lies just posterior to the short external rotators and must be protected, and its exposure is unnecessary for routine arthroplasty.",
+      "source_ids": [
+        "ao_b998d482cbad2405",
+        "orthobullets_12116"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "hip_periprosthetic_posterolateral_danger_zones_01",
+      "text": "The interval deep to the short external rotators and quadratus femoris is the danger zone for the sciatic nerve.",
+      "source_ids": [
+        "ao_b998d482cbad2405",
+        "orthobullets_12116"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "hip_periprosthetic_posterolateral_retraction_hazards_01",
+      "text": "Keep the hip extended and knee flexed and avoid deep posterior retraction that stretches the sciatic nerve.",
+      "source_ids": [
+        "ao_b998d482cbad2405",
+        "orthobullets_12116"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "hip_periprosthetic_posterolateral_exposure_01",
+      "text": "Exposes the posterior hip, femoral head and neck, and proximal femur for arthroplasty or fracture fixation.",
+      "source_ids": [
+        "ao_b998d482cbad2405"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "hip_periprosthetic_posterolateral_limitations_01",
+      "text": "The posterior approach has a higher dislocation rate than anterior exposures unless the capsule and rotators are securely repaired.",
+      "source_ids": [
+        "ao_b998d482cbad2405",
+        "orthobullets_12116"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "hip_periprosthetic_posterolateral_indications_01",
+      "text": "Indicated for revision hip arthroplasty and open reduction and internal fixation of periprosthetic femoral fractures.",
+      "source_ids": [
+        "ao_b998d482cbad2405"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "hip_periprosthetic_posterolateral_closure_01",
+      "text": "Repair the short external rotators and capsule through drill holes in the posterior greater trochanter, since secure repair reduces dislocation, then close in layers with a subfascial drain.",
+      "source_ids": [
+        "ao_b998d482cbad2405",
+        "orthobullets_12116"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "hip_periprosthetic_posterolateral_complications_01",
+      "text": "Complications include posterior hip dislocation, sciatic nerve injury, and wound problems.",
+      "source_ids": [
+        "ao_b998d482cbad2405",
+        "orthobullets_12116"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "hip_periprosthetic_posterolateral_questions_01",
+      "text": "Which nerve is most at risk in the posterolateral hip approach?",
+      "source_ids": [
+        "ao_b998d482cbad2405",
+        "orthobullets_12116"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "hip_periprosthetic_posterolateral_questions_02",
+      "text": "What most reduces dislocation risk after a posterior approach?",
+      "source_ids": [
+        "ao_b998d482cbad2405",
+        "orthobullets_12116"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "hip_periprosthetic_posterolateral_questions_03",
+      "text": "Which muscle is split to reach the short external rotators?",
+      "source_ids": [
+        "ao_b998d482cbad2405"
+      ],
+      "risk_level": "medium"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "ao_b998d482cbad2405",
+      "provider": "AO Surgery Reference",
+      "title": "Posterolateral approach (periprosthetic hip)",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/periprosthetic-fractures/hip/approach/posterolateral-approach",
+      "source_page_id": "ao_b998d482cbad2405"
+    },
+    {
+      "source_id": "orthobullets_12116",
+      "provider": "Orthobullets",
+      "title": "THA Approaches",
+      "url": "https://www.orthobullets.com/recon/12116/tha-approaches"
+    }
+  ],
+  "content_status": "agent_review_pending",
+  "review": {
+    "status": "agent_review_pending",
+    "required_roles": [
+      "adversarial_safety_reviewer",
+      "approach_anatomy_reviewer",
+      "educational_value_reviewer",
+      "evidence_reviewer",
+      "operative_exposure_reviewer",
+      "procedure_applicability_reviewer"
+    ],
+    "completed_roles": []
+  },
+  "resolved_contradiction_keys": [],
+  "authoring_provenance": {
+    "method": "local_codex_curated",
+    "definition_file": "data/approach_library/curated/hip_periprosthetic_batch002_v1.json",
+    "api_used": false
+  }
+}

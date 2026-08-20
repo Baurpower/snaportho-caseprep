@@ -1,0 +1,337 @@
+{
+  "schema_version": "brobot_approach_packet_v1",
+  "approach_id": "spine_thoracoscopic",
+  "name": "Anterior thoracoscopic approach to the thoracic spine",
+  "aliases": [
+    "video-assisted thoracoscopic spinal release"
+  ],
+  "region": "thoracolumbar",
+  "joint": "",
+  "bones": [
+    "thoracic vertebrae"
+  ],
+  "corridor": "Viewing portal in the 7th–10th intercostal space on the anterior axillary line above the diaphragm at about T10, then working portals opposite the apical disc, each covering two to three discs",
+  "positioning": [
+    {
+      "text": "Position for thoracoscopy so the anterior axillary line and the apical disc can be imaged, with the viewing portal above the diaphragm at about T10.",
+      "claim_ids": [
+        "spine_thoracoscopic_positioning_01"
+      ]
+    }
+  ],
+  "setup": [],
+  "surface_landmarks": [
+    {
+      "text": "Mark the anterior axillary line, the 7th–10th intercostal spaces, the apical disc, and the internal mammary artery if a mid-clavicular retraction portal is added.",
+      "claim_ids": [
+        "spine_thoracoscopic_surface_landmarks_01"
+      ]
+    }
+  ],
+  "incision": [
+    {
+      "text": "Make a 10 mm viewing cut in the lower chest between the 7th and 10th intercostal spaces on the anterior axillary line. Place further portals after a needle is seen from inside the chest or on an image.",
+      "claim_ids": [
+        "spine_thoracoscopic_incision_01"
+      ]
+    }
+  ],
+  "superficial_interval": [
+    {
+      "text": "Deepen to the pleural cavity above the rib to spare the intercostal bundle, insert a finger to feel for adhesions, then a blunt trocar and thoracoscope. Inspect the chest before any further portals.",
+      "claim_ids": [
+        "spine_thoracoscopic_superficial_interval_01"
+      ]
+    }
+  ],
+  "deep_interval": [
+    {
+      "text": "The second portal sits opposite the apical disc (working portal). A third sits cranial because each instrument portal reaches at most two to three discs. Divide parietal pleura longitudinally over the discs. Spare segmental vessels for discectomy; coagulate them if instrumentation is planned.",
+      "claim_ids": [
+        "spine_thoracoscopic_deep_interval_01"
+      ]
+    }
+  ],
+  "layers": [
+    {
+      "text": "Skin, intercostal space above the rib, pleural cavity, parietal pleura over the spine, then the disc and vertebral body.",
+      "claim_ids": [
+        "spine_thoracoscopic_layers_01"
+      ]
+    }
+  ],
+  "structures_encountered": [],
+  "structures_at_risk": [
+    {
+      "text": "The intercostal bundle, lung, internal mammary artery at a mid-clavicular portal, and the spinal canal if instruments are not kept on the anterolateral spine are at risk.",
+      "claim_ids": [
+        "spine_thoracoscopic_structures_at_risk_01"
+      ]
+    }
+  ],
+  "danger_zones": [
+    {
+      "text": "Entering below the rib (intercostal vessels) and aiming instruments into the canal instead of the anterolateral disc are the danger zones.",
+      "claim_ids": [
+        "spine_thoracoscopic_danger_zones_01"
+      ]
+    }
+  ],
+  "retraction_hazards": [
+    {
+      "text": "Use a fan retractor for lung or diaphragm; remove the viewing portal last after the lung is fully inflated under thoracoscopic vision.",
+      "claim_ids": [
+        "spine_thoracoscopic_retraction_hazards_01"
+      ]
+    }
+  ],
+  "exposure": [
+    {
+      "text": "Allows anterolateral disc removal and, in Scheuermann release, ALL division without entering the canal.",
+      "claim_ids": [
+        "spine_thoracoscopic_exposure_01"
+      ]
+    }
+  ],
+  "limitations": [
+    {
+      "text": "Each working portal reaches only two to three discs, so additional portals are required for a long curve.",
+      "claim_ids": [
+        "spine_thoracoscopic_limitations_01"
+      ]
+    }
+  ],
+  "extensions": [],
+  "indications": [
+    {
+      "text": "Used for anterior thoracoscopic disc work in AIS and for anterior thoracoscopic release in Scheuermann kyphosis.",
+      "claim_ids": [
+        "spine_thoracoscopic_indications_01"
+      ]
+    }
+  ],
+  "relative_contraindications": [],
+  "implant_implications": [],
+  "fluoroscopy_implications": [],
+  "closure": [
+    {
+      "text": "Inflate the lung under vision, place a chest drain through the viewing portal along the posterior chest wall up to T2, and close portals in layers.",
+      "claim_ids": [
+        "spine_thoracoscopic_closure_01"
+      ]
+    }
+  ],
+  "complications": [
+    {
+      "text": "Complications include intercostal-bundle injury, lung injury, missed adhesions, and canal entry if portals are not on the anterolateral spine.",
+      "claim_ids": [
+        "spine_thoracoscopic_complications_01"
+      ]
+    }
+  ],
+  "bailouts": [],
+  "procedure_applications": [
+    {
+      "procedure_id": "spinal_deformity_correction",
+      "relationship": "primary_option",
+      "condition": "Anterior thoracic discectomy or ALL release is done thoracoscopically for AIS or Scheuermann kyphosis"
+    }
+  ],
+  "questions": [
+    {
+      "question": "Where is the first (viewing) thoracoscopic portal placed?",
+      "answer": "A 10 mm cut between the 7th and 10th intercostal spaces on the anterior axillary line, above the diaphragm at about T10.",
+      "claim_ids": [
+        "spine_thoracoscopic_questions_01"
+      ]
+    },
+    {
+      "question": "How many discs can one working portal typically reach?",
+      "answer": "At most two to three, because the disc spaces slant away from the apex.",
+      "claim_ids": [
+        "spine_thoracoscopic_questions_02"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "spine_thoracoscopic_positioning_01",
+      "text": "Position for thoracoscopy so the anterior axillary line and the apical disc can be imaged, with the viewing portal above the diaphragm at about T10.",
+      "source_ids": [
+        "ao_d94ed2f9823c498f",
+        "ao_8f4806519b024c44"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "spine_thoracoscopic_surface_landmarks_01",
+      "text": "Mark the anterior axillary line, the 7th–10th intercostal spaces, the apical disc, and the internal mammary artery if a mid-clavicular retraction portal is added.",
+      "source_ids": [
+        "ao_d94ed2f9823c498f",
+        "ao_8f4806519b024c44"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "spine_thoracoscopic_incision_01",
+      "text": "Make a 10 mm viewing cut in the lower chest between the 7th and 10th intercostal spaces on the anterior axillary line. Place further portals after a needle is seen from inside the chest or on an image.",
+      "source_ids": [
+        "ao_d94ed2f9823c498f",
+        "ao_8f4806519b024c44"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "spine_thoracoscopic_superficial_interval_01",
+      "text": "Deepen to the pleural cavity above the rib to spare the intercostal bundle, insert a finger to feel for adhesions, then a blunt trocar and thoracoscope. Inspect the chest before any further portals.",
+      "source_ids": [
+        "ao_d94ed2f9823c498f",
+        "ao_8f4806519b024c44"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "spine_thoracoscopic_deep_interval_01",
+      "text": "The second portal sits opposite the apical disc (working portal). A third sits cranial because each instrument portal reaches at most two to three discs. Divide parietal pleura longitudinally over the discs. Spare segmental vessels for discectomy; coagulate them if instrumentation is planned.",
+      "source_ids": [
+        "ao_d94ed2f9823c498f",
+        "ao_8f4806519b024c44"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "spine_thoracoscopic_layers_01",
+      "text": "Skin, intercostal space above the rib, pleural cavity, parietal pleura over the spine, then the disc and vertebral body.",
+      "source_ids": [
+        "ao_d94ed2f9823c498f",
+        "ao_8f4806519b024c44"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "spine_thoracoscopic_structures_at_risk_01",
+      "text": "The intercostal bundle, lung, internal mammary artery at a mid-clavicular portal, and the spinal canal if instruments are not kept on the anterolateral spine are at risk.",
+      "source_ids": [
+        "ao_d94ed2f9823c498f",
+        "ao_8f4806519b024c44"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "spine_thoracoscopic_danger_zones_01",
+      "text": "Entering below the rib (intercostal vessels) and aiming instruments into the canal instead of the anterolateral disc are the danger zones.",
+      "source_ids": [
+        "ao_d94ed2f9823c498f",
+        "ao_8f4806519b024c44"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "spine_thoracoscopic_retraction_hazards_01",
+      "text": "Use a fan retractor for lung or diaphragm; remove the viewing portal last after the lung is fully inflated under thoracoscopic vision.",
+      "source_ids": [
+        "ao_d94ed2f9823c498f",
+        "ao_8f4806519b024c44"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "spine_thoracoscopic_exposure_01",
+      "text": "Allows anterolateral disc removal and, in Scheuermann release, ALL division without entering the canal.",
+      "source_ids": [
+        "ao_d94ed2f9823c498f",
+        "ao_8f4806519b024c44"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "spine_thoracoscopic_limitations_01",
+      "text": "Each working portal reaches only two to three discs, so additional portals are required for a long curve.",
+      "source_ids": [
+        "ao_d94ed2f9823c498f",
+        "ao_8f4806519b024c44"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "spine_thoracoscopic_indications_01",
+      "text": "Used for anterior thoracoscopic disc work in AIS and for anterior thoracoscopic release in Scheuermann kyphosis.",
+      "source_ids": [
+        "ao_d94ed2f9823c498f",
+        "ao_8f4806519b024c44"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "spine_thoracoscopic_closure_01",
+      "text": "Inflate the lung under vision, place a chest drain through the viewing portal along the posterior chest wall up to T2, and close portals in layers.",
+      "source_ids": [
+        "ao_d94ed2f9823c498f",
+        "ao_8f4806519b024c44"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "spine_thoracoscopic_complications_01",
+      "text": "Complications include intercostal-bundle injury, lung injury, missed adhesions, and canal entry if portals are not on the anterolateral spine.",
+      "source_ids": [
+        "ao_d94ed2f9823c498f",
+        "ao_8f4806519b024c44"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "spine_thoracoscopic_questions_01",
+      "text": "Where is the first (viewing) thoracoscopic portal placed?",
+      "source_ids": [
+        "ao_d94ed2f9823c498f",
+        "ao_8f4806519b024c44"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "spine_thoracoscopic_questions_02",
+      "text": "How many discs can one working portal typically reach?",
+      "source_ids": [
+        "ao_d94ed2f9823c498f",
+        "ao_8f4806519b024c44"
+      ],
+      "risk_level": "medium"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "ao_d94ed2f9823c498f",
+      "provider": "AO Surgery Reference",
+      "title": "Anterior Thoracoscopic Approach",
+      "url": "https://surgeryreference.aofoundation.org/spine/deformities/adolescent-idiopathic-scoliosis/approach/anterior-thoracoscopic-approach",
+      "source_page_id": "ao_d94ed2f9823c498f"
+    },
+    {
+      "source_id": "ao_8f4806519b024c44",
+      "provider": "AO Surgery Reference",
+      "title": "Anterior Thoracoscopic Release",
+      "url": "https://surgeryreference.aofoundation.org/spine/deformities/scheuermanns-kyphosis/approach/anterior-thoracoscopic-release",
+      "source_page_id": "ao_8f4806519b024c44"
+    }
+  ],
+  "content_status": "agent_review_pending",
+  "review": {
+    "status": "agent_review_pending",
+    "required_roles": [
+      "adversarial_safety_reviewer",
+      "approach_anatomy_reviewer",
+      "educational_value_reviewer",
+      "evidence_reviewer",
+      "operative_exposure_reviewer",
+      "procedure_applicability_reviewer"
+    ],
+    "completed_roles": []
+  },
+  "resolved_contradiction_keys": [],
+  "authoring_provenance": {
+    "method": "local_codex_curated",
+    "definition_file": "data/approach_library/curated/spine_remaining_batch001_v1.json",
+    "api_used": false
+  }
+}

@@ -1,0 +1,342 @@
+{
+  "schema_version": "brobot_approach_packet_v1",
+  "approach_id": "proximal_forearm_posterolateral",
+  "name": "Posterolateral approach to the proximal forearm",
+  "aliases": [
+    "posterolateral approach to the proximal radius and ulna"
+  ],
+  "region": "proximal-forearm",
+  "joint": "elbow",
+  "bones": [
+    "radius",
+    "ulna"
+  ],
+  "corridor": "Posterior or short lateral incision using the flexor carpi ulnaris and extensor carpi ulnaris interval to the posterior ulna, extending to the radial head with the traumatic plane, protecting the posterior interosseous nerve",
+  "positioning": [
+    {
+      "text": "Position with the arm across the chest or on a support so the posterolateral elbow and proximal ulna are accessible.",
+      "claim_ids": [
+        "proximal_forearm_posterolateral_positioning_01"
+      ]
+    }
+  ],
+  "setup": [],
+  "surface_landmarks": [
+    {
+      "text": "Mark the tip of the olecranon, the subcutaneous border of the ulna, and the radial head.",
+      "claim_ids": [
+        "proximal_forearm_posterolateral_surface_landmarks_01"
+      ]
+    }
+  ],
+  "incision": [
+    {
+      "text": "Use a straight midline posterior incision starting a few centimeters proximal to the olecranon tip, optionally curving around the tip, or a shorter more lateral incision.",
+      "claim_ids": [
+        "proximal_forearm_posterolateral_incision_01"
+      ]
+    }
+  ],
+  "superficial_interval": [
+    {
+      "text": "Split the interval between flexor carpi ulnaris and extensor carpi ulnaris to reach the posterior ulnar surface, and use the traumatic soft-tissue plane to expose the radial head.",
+      "claim_ids": [
+        "proximal_forearm_posterolateral_superficial_interval_01"
+      ]
+    }
+  ],
+  "deep_interval": [
+    {
+      "text": "Protect the posterior interosseous nerve when working toward the radial head, and consider a dual deep dissection to lower synostosis risk.",
+      "claim_ids": [
+        "proximal_forearm_posterolateral_deep_interval_01"
+      ]
+    }
+  ],
+  "layers": [
+    {
+      "text": "Skin, subcutaneous tissue, the flexor carpi ulnaris and extensor carpi ulnaris interval, the posterior ulna, and the radial head region.",
+      "claim_ids": [
+        "proximal_forearm_posterolateral_layers_01"
+      ]
+    }
+  ],
+  "structures_encountered": [],
+  "structures_at_risk": [
+    {
+      "text": "The posterior interosseous nerve near the radial head and the lateral collateral ligament are at risk.",
+      "claim_ids": [
+        "proximal_forearm_posterolateral_structures_at_risk_01"
+      ]
+    }
+  ],
+  "danger_zones": [
+    {
+      "text": "The proximal radius over the supinator is the danger zone for the posterior interosseous nerve, and a single combined plane raises synostosis risk.",
+      "claim_ids": [
+        "proximal_forearm_posterolateral_danger_zones_01"
+      ]
+    }
+  ],
+  "retraction_hazards": [
+    {
+      "text": "Keep the forearm pronated near the radial head and avoid stripping the interosseous membrane between the bones.",
+      "claim_ids": [
+        "proximal_forearm_posterolateral_retraction_hazards_01"
+      ]
+    }
+  ],
+  "exposure": [
+    {
+      "text": "Exposes the proximal ulna and the radial head for combined fixation in a Monteggia injury.",
+      "claim_ids": [
+        "proximal_forearm_posterolateral_exposure_01"
+      ]
+    }
+  ],
+  "limitations": [
+    {
+      "text": "Combined exposure of both bones carries a synostosis risk, mitigated by a dual deep dissection; epicondylar osteotomy may be needed to preserve ligaments.",
+      "claim_ids": [
+        "proximal_forearm_posterolateral_limitations_01"
+      ]
+    }
+  ],
+  "extensions": [],
+  "indications": [
+    {
+      "text": "Indicated for Monteggia injuries and combined proximal radioulnar exposure.",
+      "claim_ids": [
+        "proximal_forearm_posterolateral_indications_01"
+      ]
+    }
+  ],
+  "relative_contraindications": [],
+  "implant_implications": [],
+  "fluoroscopy_implications": [],
+  "closure": [
+    {
+      "text": "Refix any epicondylar osteotomy, repair the interval, and close the wound in layers.",
+      "claim_ids": [
+        "proximal_forearm_posterolateral_closure_01"
+      ]
+    }
+  ],
+  "complications": [
+    {
+      "text": "Complications include posterior interosseous nerve palsy, radioulnar synostosis, and lateral instability.",
+      "claim_ids": [
+        "proximal_forearm_posterolateral_complications_01"
+      ]
+    }
+  ],
+  "bailouts": [],
+  "procedure_applications": [
+    {
+      "procedure_id": "monteggia_fracture_orif",
+      "relationship": "primary_option",
+      "condition": "A Monteggia injury needs combined exposure of the proximal ulna and radial head"
+    }
+  ],
+  "questions": [
+    {
+      "question": "Which interval reaches the posterior ulna in this approach?",
+      "answer": "Between the flexor carpi ulnaris and the extensor carpi ulnaris.",
+      "claim_ids": [
+        "proximal_forearm_posterolateral_questions_01"
+      ]
+    },
+    {
+      "question": "What is argued to reduce synostosis risk?",
+      "answer": "A dual deep dissection rather than a single combined plane.",
+      "claim_ids": [
+        "proximal_forearm_posterolateral_questions_02"
+      ]
+    },
+    {
+      "question": "What is the main indication for this approach?",
+      "answer": "A Monteggia injury requiring exposure of the proximal ulna and radial head.",
+      "claim_ids": [
+        "proximal_forearm_posterolateral_questions_03"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "proximal_forearm_posterolateral_positioning_01",
+      "text": "Position with the arm across the chest or on a support so the posterolateral elbow and proximal ulna are accessible.",
+      "source_ids": [
+        "ao_049fc1bd0b108e06"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "proximal_forearm_posterolateral_surface_landmarks_01",
+      "text": "Mark the tip of the olecranon, the subcutaneous border of the ulna, and the radial head.",
+      "source_ids": [
+        "ao_049fc1bd0b108e06"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "proximal_forearm_posterolateral_incision_01",
+      "text": "Use a straight midline posterior incision starting a few centimeters proximal to the olecranon tip, optionally curving around the tip, or a shorter more lateral incision.",
+      "source_ids": [
+        "ao_049fc1bd0b108e06"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "proximal_forearm_posterolateral_superficial_interval_01",
+      "text": "Split the interval between flexor carpi ulnaris and extensor carpi ulnaris to reach the posterior ulnar surface, and use the traumatic soft-tissue plane to expose the radial head.",
+      "source_ids": [
+        "ao_049fc1bd0b108e06"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "proximal_forearm_posterolateral_deep_interval_01",
+      "text": "Protect the posterior interosseous nerve when working toward the radial head, and consider a dual deep dissection to lower synostosis risk.",
+      "source_ids": [
+        "ao_049fc1bd0b108e06",
+        "ao_e858da2b7ccaf306"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "proximal_forearm_posterolateral_layers_01",
+      "text": "Skin, subcutaneous tissue, the flexor carpi ulnaris and extensor carpi ulnaris interval, the posterior ulna, and the radial head region.",
+      "source_ids": [
+        "ao_049fc1bd0b108e06"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "proximal_forearm_posterolateral_structures_at_risk_01",
+      "text": "The posterior interosseous nerve near the radial head and the lateral collateral ligament are at risk.",
+      "source_ids": [
+        "ao_049fc1bd0b108e06",
+        "ao_e858da2b7ccaf306"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "proximal_forearm_posterolateral_danger_zones_01",
+      "text": "The proximal radius over the supinator is the danger zone for the posterior interosseous nerve, and a single combined plane raises synostosis risk.",
+      "source_ids": [
+        "ao_049fc1bd0b108e06",
+        "ao_e858da2b7ccaf306"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "proximal_forearm_posterolateral_retraction_hazards_01",
+      "text": "Keep the forearm pronated near the radial head and avoid stripping the interosseous membrane between the bones.",
+      "source_ids": [
+        "ao_049fc1bd0b108e06",
+        "ao_e858da2b7ccaf306"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "proximal_forearm_posterolateral_exposure_01",
+      "text": "Exposes the proximal ulna and the radial head for combined fixation in a Monteggia injury.",
+      "source_ids": [
+        "ao_049fc1bd0b108e06"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "proximal_forearm_posterolateral_limitations_01",
+      "text": "Combined exposure of both bones carries a synostosis risk, mitigated by a dual deep dissection; epicondylar osteotomy may be needed to preserve ligaments.",
+      "source_ids": [
+        "ao_049fc1bd0b108e06"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "proximal_forearm_posterolateral_indications_01",
+      "text": "Indicated for Monteggia injuries and combined proximal radioulnar exposure.",
+      "source_ids": [
+        "ao_049fc1bd0b108e06"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "proximal_forearm_posterolateral_closure_01",
+      "text": "Refix any epicondylar osteotomy, repair the interval, and close the wound in layers.",
+      "source_ids": [
+        "ao_049fc1bd0b108e06"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "proximal_forearm_posterolateral_complications_01",
+      "text": "Complications include posterior interosseous nerve palsy, radioulnar synostosis, and lateral instability.",
+      "source_ids": [
+        "ao_049fc1bd0b108e06",
+        "ao_e858da2b7ccaf306"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "proximal_forearm_posterolateral_questions_01",
+      "text": "Which interval reaches the posterior ulna in this approach?",
+      "source_ids": [
+        "ao_049fc1bd0b108e06"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "proximal_forearm_posterolateral_questions_02",
+      "text": "What is argued to reduce synostosis risk?",
+      "source_ids": [
+        "ao_049fc1bd0b108e06"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "proximal_forearm_posterolateral_questions_03",
+      "text": "What is the main indication for this approach?",
+      "source_ids": [
+        "ao_049fc1bd0b108e06"
+      ],
+      "risk_level": "medium"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "ao_049fc1bd0b108e06",
+      "provider": "AO Surgery Reference",
+      "title": "Posterolateral approach to the proximal forearm",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/proximal-forearm/approach/posterolateral-approach",
+      "source_page_id": "ao_049fc1bd0b108e06"
+    },
+    {
+      "source_id": "ao_e858da2b7ccaf306",
+      "provider": "AO Surgery Reference",
+      "title": "Lateral approach to the proximal forearm",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/proximal-forearm/approach/lateral-approach",
+      "source_page_id": "ao_e858da2b7ccaf306"
+    }
+  ],
+  "content_status": "agent_review_pending",
+  "review": {
+    "status": "agent_review_pending",
+    "required_roles": [
+      "adversarial_safety_reviewer",
+      "approach_anatomy_reviewer",
+      "educational_value_reviewer",
+      "evidence_reviewer",
+      "operative_exposure_reviewer",
+      "procedure_applicability_reviewer"
+    ],
+    "completed_roles": []
+  },
+  "resolved_contradiction_keys": [],
+  "authoring_provenance": {
+    "method": "local_codex_curated",
+    "definition_file": "data/approach_library/curated/proximal_forearm_elbow_batch004_v1.json",
+    "api_used": false
+  }
+}

@@ -1,0 +1,1333 @@
+{
+  "approaches": [
+    {
+      "approach_id": "pelvic_ring_anterior_iliac_si",
+      "name": "Anterior approach to the iliac wing and sacroiliac joint",
+      "aliases": [
+        "anterior iliac fossa approach",
+        "first-window anterior SI approach"
+      ],
+      "region": "pelvic-ring",
+      "joint": "sacroiliac",
+      "bones": [
+        "ilium",
+        "sacral ala"
+      ],
+      "corridor": "Incision along the iliac crest with subperiosteal elevation of external oblique and iliacus into the internal iliac fossa and onto the sacral ala, limited medially by the L5 root 10–15 mm from the SI joint",
+      "sources": [
+        {
+          "source_id": "ao_d0156d90886255cb",
+          "provider": "AO Surgery Reference",
+          "title": "Anterior Approach To The Iliac Wing And Si Joint",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/pelvic-ring/approach/anterior-approach-to-the-iliac-wing-and-si-joint",
+          "source_page_id": "ao_d0156d90886255cb"
+        },
+        {
+          "source_id": "ao_2c5c75c12e989a0d",
+          "provider": "AO Surgery Reference",
+          "title": "Ilioinguinal approach to the acetabulum",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/acetabulum/approach/ilioinguinal-approach-to-the-acetabulum",
+          "source_page_id": "ao_2c5c75c12e989a0d"
+        }
+      ],
+      "procedure_applications": [
+        {
+          "procedure_id": "pelvic_ring_orif",
+          "relationship": "primary_option",
+          "condition": "An SI dislocation or iliac fracture extending into the SI joint needs direct anterior visualization"
+        }
+      ],
+      "sections": {
+        "positioning": [
+          {
+            "text": "Position so the iliac crest from ASIS toward the table can be draped and the internal iliac fossa imaged.",
+            "source_ids": [
+              "ao_d0156d90886255cb",
+              "ao_2c5c75c12e989a0d"
+            ]
+          }
+        ],
+        "surface_landmarks": [
+          {
+            "text": "Mark the iliac crest, ASIS (lateral femoral cutaneous nerve), and how far posterior the cut must run for SI or posterior-iliac work.",
+            "source_ids": [
+              "ao_d0156d90886255cb"
+            ]
+          }
+        ],
+        "incision": [
+          {
+            "text": "Incise along the iliac crest. Length matches the needed fossa exposure and can be extended intraoperatively. For posterior ilium or SI work, carry it posteriorly almost to the table.",
+            "source_ids": [
+              "ao_d0156d90886255cb"
+            ]
+          }
+        ],
+        "superficial_interval": [
+          {
+            "text": "Divide fat to the external-oblique fascia. Identify the gluteal–external-oblique border, incise that interval, and elevate external oblique subperiosteally from the crest, leaving periosteum lateral to the crest for later repair.",
+            "source_ids": [
+              "ao_d0156d90886255cb",
+              "ao_2c5c75c12e989a0d"
+            ]
+          }
+        ],
+        "deep_interval": [
+          {
+            "text": "Elevate iliacus in the same subperiosteal layer, control nutrient-vessel bleeding with bone wax, and continue bluntly to the interior SI joint and along the pelvic rim to the start of the iliopectineal eminence. Identify the SI capsule, place a Hohmann in the superior joint, then move carefully onto the sacral ala, watching the L5 root. An anterior Hohmann at the joint can injure the superior gluteal vessels in the greater sciatic notch.",
+            "source_ids": [
+              "ao_d0156d90886255cb",
+              "ao_2c5c75c12e989a0d"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "layers": [
+          {
+            "text": "Skin, external-oblique fascia, crest periosteum, iliacus, SI capsule, then internal iliac fossa and sacral ala.",
+            "source_ids": [
+              "ao_d0156d90886255cb"
+            ]
+          }
+        ],
+        "structures_at_risk": [
+          {
+            "text": "The L4/L5 lumbosacral trunk 10–15 mm medial to the SI joint on the ala, the LFCN near the ASIS, and the superior gluteal artery and nerve in the greater sciatic notch are at risk. Sacral fractures cannot be exposed here because of overlying nerves and vessels.",
+            "source_ids": [
+              "ao_d0156d90886255cb",
+              "ao_2c5c75c12e989a0d"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "danger_zones": [
+          {
+            "text": "The sacral ala medial to the SI joint is the L5-root danger zone. The anterior Hohmann at the sciatic notch is the superior-gluteal danger zone.",
+            "source_ids": [
+              "ao_d0156d90886255cb"
+            ],
+            "risk_level": "medium"
+          }
+        ],
+        "retraction_hazards": [
+          {
+            "text": "Move the Hohmann onto the ala carefully. Do not lever a retractor into the lumbosacral trunk.",
+            "source_ids": [
+              "ao_d0156d90886255cb"
+            ],
+            "risk_level": "medium"
+          }
+        ],
+        "exposure": [
+          {
+            "text": "Shows the iliac crest, the entire internal iliac fossa, the most lateral sacral ala, and the anterior SI joint, with digital and limited visual access to the quadrilateral surface and greater sciatic notch.",
+            "source_ids": [
+              "ao_d0156d90886255cb"
+            ]
+          }
+        ],
+        "limitations": [
+          {
+            "text": "Sacral fractures cannot be exposed through this corridor. Medial ala work is limited by the L5 root.",
+            "source_ids": [
+              "ao_d0156d90886255cb"
+            ]
+          }
+        ],
+        "indications": [
+          {
+            "text": "Used for SI dislocations and iliac fractures, including those that enter the SI joint, when the anterior and superior SI joint must be seen.",
+            "source_ids": [
+              "ao_d0156d90886255cb"
+            ]
+          }
+        ],
+        "closure": [
+          {
+            "text": "Repair the external-oblique aponeurosis to the periosteum left intact lateral to the iliac crest, then close fat and skin in layers.",
+            "source_ids": [
+              "ao_d0156d90886255cb"
+            ]
+          }
+        ],
+        "complications": [
+          {
+            "text": "Complications include L5-root injury on the ala, LFCN injury at the ASIS, superior-gluteal vessel injury in the notch, and nutrient-vessel bleeding from the iliac fossa.",
+            "source_ids": [
+              "ao_d0156d90886255cb",
+              "ao_2c5c75c12e989a0d"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "questions": [
+          {
+            "question": "How far medial to the SI joint does the lumbosacral trunk run?",
+            "answer": "About 10–15 mm on the sacral ala.",
+            "source_ids": [
+              "ao_d0156d90886255cb"
+            ]
+          },
+          {
+            "question": "Why can sacral fractures not be exposed here?",
+            "answer": "Overlying nerves and vessels prevent safe exposure.",
+            "source_ids": [
+              "ao_d0156d90886255cb"
+            ]
+          },
+          {
+            "question": "Which nerve is at risk near the ASIS?",
+            "answer": "The lateral femoral cutaneous nerve.",
+            "source_ids": [
+              "ao_d0156d90886255cb"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "approach_id": "pelvic_ring_pubic_symphysis",
+      "name": "Approach to the pubic symphysis",
+      "aliases": [
+        "Pfannenstiel approach to the anterior pelvic ring"
+      ],
+      "region": "pelvic-ring",
+      "joint": "pubic symphysis",
+      "bones": [
+        "pubis",
+        "superior pubic ramus"
+      ],
+      "corridor": "Pfannenstiel or inferior-midline laparotomy extension through the linea alba into the retropubic space, elevating rectus from the pubis while protecting the bladder and prostatic venous plexus",
+      "sources": [
+        {
+          "source_id": "ao_d048f30787e03982",
+          "provider": "AO Surgery Reference",
+          "title": "Approach To The Pubic Symphysis",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/pelvic-ring/approach/approach-to-the-pubic-symphysis",
+          "source_page_id": "ao_d048f30787e03982"
+        },
+        {
+          "source_id": "ao_6e54ab5cd02660cd",
+          "provider": "AO Surgery Reference",
+          "title": "Modified Stoppa",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/pelvic-ring/approach/modified-stoppa",
+          "source_page_id": "ao_6e54ab5cd02660cd"
+        },
+        {
+          "source_id": "ao_92912c506230bf66",
+          "provider": "AO Surgery Reference",
+          "title": "Modified Stoppa approach",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/acetabulum/approach/modified-stoppa-approach",
+          "source_page_id": "ao_92912c506230bf66"
+        }
+      ],
+      "procedure_applications": [
+        {
+          "procedure_id": "pelvic_ring_orif",
+          "relationship": "primary_option",
+          "condition": "A pubic-symphysis disruption or anterior-ring fracture is plated through a Pfannenstiel window"
+        }
+      ],
+      "sections": {
+        "positioning": [
+          {
+            "text": "Position supine so the lower abdomen and pubic tubercles are in the field and the bladder can be catheterized.",
+            "source_ids": [
+              "ao_d048f30787e03982",
+              "ao_92912c506230bf66"
+            ]
+          }
+        ],
+        "surface_landmarks": [
+          {
+            "text": "Mark the pubic tubercles, linea alba, and a line about two fingerbreadths proximal to the tubercles.",
+            "source_ids": [
+              "ao_d048f30787e03982"
+            ]
+          }
+        ],
+        "incision": [
+          {
+            "text": "Use a 5–10 cm horizontal Pfannenstiel cut about two fingerbreadths above the pubic tubercle, extended laterally as needed. If a midline laparotomy is already present, extend its inferior end instead.",
+            "source_ids": [
+              "ao_d048f30787e03982",
+              "ao_6e54ab5cd02660cd"
+            ]
+          }
+        ],
+        "superficial_interval": [
+          {
+            "text": "Identify the anterior rectus fascia, protect the spermatic cord or round ligament if the cut is carried laterally, locate the linea alba, and incise it longitudinally. Retract both rectus bellies laterally.",
+            "source_ids": [
+              "ao_d048f30787e03982",
+              "ao_6e54ab5cd02660cd"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "deep_interval": [
+          {
+            "text": "Bluntly develop the retropubic space, protecting the bladder and prostatic venous plexus. One rectus insertion is often avulsed by the injury; elevate remaining muscle subperiosteally past the pubic tubercle while keeping distal fascial continuity to reduce later hernia. A pointed Hohmann over the tubercle retracts muscle. Lateral dissection can reach the obturator foramen for forceps and the rami to the iliopectineal eminence, or be continued as a modified Stoppa.",
+            "source_ids": [
+              "ao_d048f30787e03982",
+              "ao_6e54ab5cd02660cd",
+              "ao_92912c506230bf66"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "layers": [
+          {
+            "text": "Skin, rectus fascia and linea alba, preperitoneal retropubic space, periosteum of the pubis, then the symphysis and superior rami.",
+            "source_ids": [
+              "ao_d048f30787e03982",
+              "ao_92912c506230bf66"
+            ]
+          }
+        ],
+        "structures_at_risk": [
+          {
+            "text": "The bladder, prostatic venous plexus, spermatic cord or round ligament, and later hernia if distal rectus fascia is sacrificed are at risk.",
+            "source_ids": [
+              "ao_d048f30787e03982",
+              "ao_6e54ab5cd02660cd"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "danger_zones": [
+          {
+            "text": "The retropubic space is the danger zone for the bladder and prostatic venous plexus. Stay preperitoneal proximally.",
+            "source_ids": [
+              "ao_d048f30787e03982",
+              "ao_6e54ab5cd02660cd"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "retraction_hazards": [
+          {
+            "text": "Do not avulse remaining distal rectus fascia. Inspect the Foley bag for blood before closure.",
+            "source_ids": [
+              "ao_d048f30787e03982"
+            ],
+            "risk_level": "medium"
+          }
+        ],
+        "exposure": [
+          {
+            "text": "Shows the anterior pelvic ring for symphyseal plating and superior-ramus work, and can be carried laterally to the SI joint as a modified Stoppa.",
+            "source_ids": [
+              "ao_d048f30787e03982"
+            ]
+          }
+        ],
+        "limitations": [
+          {
+            "text": "The standard window is the anterior ring. Quadrilateral-surface and SI access require lateral Stoppa extension.",
+            "source_ids": [
+              "ao_d048f30787e03982",
+              "ao_6e54ab5cd02660cd"
+            ]
+          }
+        ],
+        "indications": [
+          {
+            "text": "Used for pubic-symphysis disruption or diastasis and for anterior-ring fractures including the superior rami.",
+            "source_ids": [
+              "ao_d048f30787e03982"
+            ]
+          }
+        ],
+        "closure": [
+          {
+            "text": "Irrigate, inspect the bladder and urine, and close the midline rectus incision and superficial tissues in layers.",
+            "source_ids": [
+              "ao_d048f30787e03982",
+              "ao_6e54ab5cd02660cd"
+            ]
+          }
+        ],
+        "complications": [
+          {
+            "text": "Complications include bladder injury, prostatic-plexus bleeding, hernia from lost distal rectus fascia, and peritoneal entry.",
+            "source_ids": [
+              "ao_d048f30787e03982",
+              "ao_6e54ab5cd02660cd"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "questions": [
+          {
+            "question": "Where is a Pfannenstiel incision placed?",
+            "answer": "About two fingerbreadths proximal to the pubic tubercle, typically 5–10 cm.",
+            "source_ids": [
+              "ao_d048f30787e03982"
+            ]
+          },
+          {
+            "question": "Through which structure are the rectus bellies separated?",
+            "answer": "The linea alba.",
+            "source_ids": [
+              "ao_d048f30787e03982",
+              "ao_6e54ab5cd02660cd"
+            ]
+          },
+          {
+            "question": "Why preserve distal rectus fascial continuity?",
+            "answer": "To avoid later hernia formation.",
+            "source_ids": [
+              "ao_d048f30787e03982"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "approach_id": "pelvic_ring_posterior_sacrum",
+      "name": "Posterior approach to the sacrum",
+      "aliases": [
+        "midline posterior sacral approach"
+      ],
+      "region": "pelvic-ring",
+      "joint": "sacroiliac",
+      "bones": [
+        "sacrum",
+        "posterior ilium"
+      ],
+      "corridor": "Midline incision from L4/L5 to proximal to the anus, with a distally based V in the lumbosacral fascia and subperiosteal elevation of multifidus as a flap or bipedicle, exposing the posterior sacrum and both posterior SI joints",
+      "sources": [
+        {
+          "source_id": "ao_856eb39c56d17b72",
+          "provider": "AO Surgery Reference",
+          "title": "Posterior Approach To The Sacrum",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/pelvic-ring/approach/posterior-approach-to-the-sacrum",
+          "source_page_id": "ao_856eb39c56d17b72"
+        },
+        {
+          "source_id": "ao_9729dceb18c8c492",
+          "provider": "AO Surgery Reference",
+          "title": "Posterior Approach To The Si Joint",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/pelvic-ring/approach/posterior-approach-to-the-si-joint",
+          "source_page_id": "ao_9729dceb18c8c492"
+        }
+      ],
+      "procedure_applications": [
+        {
+          "procedure_id": "pelvic_ring_orif",
+          "relationship": "primary_option",
+          "condition": "A sacral fracture, especially one needing nerve-root decompression, is exposed from posterior"
+        }
+      ],
+      "sections": {
+        "positioning": [
+          {
+            "text": "Position prone so the lumbosacral spine, posterior ilium, and a zone proximal to the anus can be draped.",
+            "source_ids": [
+              "ao_856eb39c56d17b72"
+            ]
+          }
+        ],
+        "surface_landmarks": [
+          {
+            "text": "Mark L4/L5 spinous processes, the sacral midline, the posterior iliac crest, and stay proximal to the anus.",
+            "source_ids": [
+              "ao_856eb39c56d17b72"
+            ]
+          }
+        ],
+        "incision": [
+          {
+            "text": "Use a midline cut from L4 or L5 to just proximal to the anus to see both sides of the sacrum. Transiliac fixation can add oblique cuts from the PIIS plus a midline for submuscular implants. Do not go through crushed skin or a Morel-Lavallée hematoma.",
+            "source_ids": [
+              "ao_856eb39c56d17b72",
+              "ao_9729dceb18c8c492"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "superficial_interval": [
+          {
+            "text": "Incise lumbosacral fascia parallel to the L4/L5 spinous processes on the injured side and make a distally based V toward the iliac crest.",
+            "source_ids": [
+              "ao_856eb39c56d17b72"
+            ]
+          }
+        ],
+        "deep_interval": [
+          {
+            "text": "Elevate lumbosacral muscle subperiosteally from the posterior sacrum either by releasing multifidus distally as a flap or by incising it medially and laterally as a bipedicle flap. For more ala exposure, take the muscle off its lateral attachment to the posterior iliac crest.",
+            "source_ids": [
+              "ao_856eb39c56d17b72"
+            ]
+          }
+        ],
+        "layers": [
+          {
+            "text": "Skin, lumbosacral fascia, multifidus/erector spinae, then the posterior sacrum and adjacent posterior ilium.",
+            "source_ids": [
+              "ao_856eb39c56d17b72"
+            ]
+          }
+        ],
+        "structures_at_risk": [
+          {
+            "text": "Posterior skin over a Morel-Lavallée lesion, sacral nerve roots being decompressed, and the gluteus maximus origin at closure are at risk.",
+            "source_ids": [
+              "ao_856eb39c56d17b72",
+              "ao_9729dceb18c8c492"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "danger_zones": [
+          {
+            "text": "A posterior cut through severely contused tissue or a subcutaneous hematoma is the wound-healing danger zone.",
+            "source_ids": [
+              "ao_856eb39c56d17b72",
+              "ao_9729dceb18c8c492"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "retraction_hazards": [
+          {
+            "text": "Reposition erector spinae gently at closure and reattach the superior gluteus maximus origin.",
+            "source_ids": [
+              "ao_856eb39c56d17b72"
+            ],
+            "risk_level": "medium"
+          }
+        ],
+        "exposure": [
+          {
+            "text": "Shows the posterior sacral surface, the posterior aspects of both SI joints, and adjacent posterior ilium, typically for sacral ORIF and nerve-root decompression.",
+            "source_ids": [
+              "ao_856eb39c56d17b72"
+            ]
+          }
+        ],
+        "limitations": [
+          {
+            "text": "The incision must stop proximal to the anus. Crushed posterior soft tissue may forbid the corridor.",
+            "source_ids": [
+              "ao_856eb39c56d17b72"
+            ]
+          }
+        ],
+        "indications": [
+          {
+            "text": "Indicated to expose the posterior sacrum and both posterior SI joints, especially for sacral-fracture ORIF with nerve-root decompression.",
+            "source_ids": [
+              "ao_856eb39c56d17b72"
+            ]
+          }
+        ],
+        "closure": [
+          {
+            "text": "Gently replace erector spinae, reattach the superior origin of gluteus maximus, and close fat and skin in layers.",
+            "source_ids": [
+              "ao_856eb39c56d17b72"
+            ]
+          }
+        ],
+        "complications": [
+          {
+            "text": "The principal complication is posterior wound breakdown when the cut goes through crushed skin or a Morel-Lavallée lesion.",
+            "source_ids": [
+              "ao_856eb39c56d17b72",
+              "ao_9729dceb18c8c492"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "questions": [
+          {
+            "question": "Where does a midline sacral incision start and stop?",
+            "answer": "From the L4 or L5 spinous process, ending proximal to the anus.",
+            "source_ids": [
+              "ao_856eb39c56d17b72"
+            ]
+          },
+          {
+            "question": "What fascia incision is used on the injured side?",
+            "answer": "A cut parallel to L4/L5 spinous processes plus a distally based V aimed at the iliac crest.",
+            "source_ids": [
+              "ao_856eb39c56d17b72"
+            ]
+          },
+          {
+            "question": "Why avoid crushed posterior skin?",
+            "answer": "Approaches through contused tissue or Morel-Lavallée hematomas cause significant wound-healing problems.",
+            "source_ids": [
+              "ao_856eb39c56d17b72",
+              "ao_9729dceb18c8c492"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "approach_id": "pelvic_ring_posterior_si",
+      "name": "Posterior approach to the sacroiliac joint",
+      "aliases": [
+        "posterior iliac-crest SI approach"
+      ],
+      "region": "pelvic-ring",
+      "joint": "sacroiliac",
+      "bones": [
+        "ilium",
+        "sacrum"
+      ],
+      "corridor": "Curved incision over the posterior iliac crest to the PIIS, or a vertical cut 1–2 fingerbreadths distal and lateral to the PSIS, elevating gluteus from the posterolateral ilium while protecting the superior and inferior gluteal neurovascular bundles and palpating the SI joint through the greater sciatic notch",
+      "sources": [
+        {
+          "source_id": "ao_9729dceb18c8c492",
+          "provider": "AO Surgery Reference",
+          "title": "Posterior Approach To The Si Joint",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/pelvic-ring/approach/posterior-approach-to-the-si-joint",
+          "source_page_id": "ao_9729dceb18c8c492"
+        },
+        {
+          "source_id": "ao_856eb39c56d17b72",
+          "provider": "AO Surgery Reference",
+          "title": "Posterior Approach To The Sacrum",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/pelvic-ring/approach/posterior-approach-to-the-sacrum",
+          "source_page_id": "ao_856eb39c56d17b72"
+        },
+        {
+          "source_id": "ao_e2c55bc94714d94b",
+          "provider": "AO Surgery Reference",
+          "title": "Kocher-Langenbeck approach to the acetabulum",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/acetabulum/approach/kocher-langenbeck-approach-to-the-acetabulum",
+          "source_page_id": "ao_e2c55bc94714d94b"
+        }
+      ],
+      "procedure_applications": [
+        {
+          "procedure_id": "pelvic_ring_orif",
+          "relationship": "primary_option",
+          "condition": "The posterior ilium, SI joint, or posterior sacral surface is reduced through a posterior iliac window"
+        }
+      ],
+      "sections": {
+        "positioning": [
+          {
+            "text": "Position prone so the posterior iliac crest, PSIS, PIIS, and sacral spinous processes are accessible.",
+            "source_ids": [
+              "ao_9729dceb18c8c492"
+            ]
+          }
+        ],
+        "surface_landmarks": [
+          {
+            "text": "Mark the posterior iliac crest, PSIS, PIIS, and sacral spinous processes.",
+            "source_ids": [
+              "ao_9729dceb18c8c492"
+            ]
+          }
+        ],
+        "incision": [
+          {
+            "text": "Make a curved cut over the posterior iliac crest from as far proximal as the fracture needs down to the PIIS, or a 10–15 cm vertical cut starting 1–2 fingerbreadths distal and lateral to the PSIS. Avoid Morel-Lavallée or crushed skin.",
+            "source_ids": [
+              "ao_9729dceb18c8c492",
+              "ao_856eb39c56d17b72"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "superficial_interval": [
+          {
+            "text": "Divide fat to the crest, then follow the gluteus maximus fascia medially to the sacral spinous processes.",
+            "source_ids": [
+              "ao_9729dceb18c8c492"
+            ]
+          }
+        ],
+        "deep_interval": [
+          {
+            "text": "Detach the gluteals from the ilium and elevate them laterally. Do not lift the muscle too far anteriorly; it is tethered by its deep neurovascular bundle. A finger in the greater sciatic notch, dorsal to piriformis, can palpate the anterior SI joint. Inferior gluteal vessels and nerve exit at the caudal edge of piriformis and wrap around it into gluteus maximus; they cannot be mobilized distally with piriformis.",
+            "source_ids": [
+              "ao_9729dceb18c8c492",
+              "ao_e2c55bc94714d94b"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "layers": [
+          {
+            "text": "Skin, gluteal fascia, gluteus maximus, posterolateral ilium, greater sciatic notch, then the posterior SI joint and posterior sacrum.",
+            "source_ids": [
+              "ao_9729dceb18c8c492"
+            ]
+          }
+        ],
+        "structures_at_risk": [
+          {
+            "text": "The superior gluteal vessels and nerves during anterior/posterior iliac elevation, the inferior gluteal neurovascular bundle at the caudal piriformis, and posterior skin over a Morel-Lavallée lesion are at risk.",
+            "source_ids": [
+              "ao_9729dceb18c8c492",
+              "ao_e2c55bc94714d94b"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "danger_zones": [
+          {
+            "text": "The greater sciatic notch and the deep surface of gluteus maximus, where the inferior gluteal bundle enters after wrapping piriformis, are the danger zones.",
+            "source_ids": [
+              "ao_9729dceb18c8c492",
+              "ao_e2c55bc94714d94b"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "retraction_hazards": [
+          {
+            "text": "Protect the inferior gluteal bundle from sharp injury and excessive tension. Do not try to mobilize piriformis distally.",
+            "source_ids": [
+              "ao_9729dceb18c8c492"
+            ],
+            "risk_level": "medium"
+          }
+        ],
+        "exposure": [
+          {
+            "text": "Gives access to the posterior ilium, the SI joint, and the posterior sacral surface. Joint alignment is judged by palpating through the notch: edges should be level and without a gap.",
+            "source_ids": [
+              "ao_9729dceb18c8c492"
+            ]
+          }
+        ],
+        "limitations": [
+          {
+            "text": "Anterior muscle elevation is limited by the gluteal neurovascular tether. Crushed posterior skin may forbid the corridor.",
+            "source_ids": [
+              "ao_9729dceb18c8c492",
+              "ao_856eb39c56d17b72"
+            ]
+          }
+        ],
+        "indications": [
+          {
+            "text": "Used when the posterior ilium, SI joint, or posterior sacral surface must be reduced from behind.",
+            "source_ids": [
+              "ao_9729dceb18c8c492"
+            ]
+          }
+        ],
+        "closure": [
+          {
+            "text": "Reattach the gluteals to the medial fascia flap over the posterior ilium and close fat and skin in layers.",
+            "source_ids": [
+              "ao_9729dceb18c8c492"
+            ]
+          }
+        ],
+        "complications": [
+          {
+            "text": "Complications include superior- or inferior-gluteal neurovascular injury, gluteus maximus denervation or ischemia, and posterior wound breakdown through a Morel-Lavallée lesion.",
+            "source_ids": [
+              "ao_9729dceb18c8c492",
+              "ao_e2c55bc94714d94b",
+              "ao_856eb39c56d17b72"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "questions": [
+          {
+            "question": "Where can the anterior SI joint be palpated?",
+            "answer": "Through the greater sciatic notch, with a finger dorsal to piriformis and ventral to the joint.",
+            "source_ids": [
+              "ao_9729dceb18c8c492"
+            ]
+          },
+          {
+            "question": "Where do the inferior gluteal vessels exit?",
+            "answer": "At the caudal edge of piriformis in the greater sciatic foramen, then upward into the deep surface of gluteus maximus.",
+            "source_ids": [
+              "ao_9729dceb18c8c492"
+            ]
+          },
+          {
+            "question": "Why can gluteus not be elevated too far anteriorly?",
+            "answer": "Its deep surface is tethered by its neurovascular bundle.",
+            "source_ids": [
+              "ao_9729dceb18c8c492"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "approach_id": "tibia_wire_schanz_safe_zones",
+      "name": "Safe zones for tibial wires and Schanz screws",
+      "aliases": [
+        "tibial ring-fixator wire corridors"
+      ],
+      "region": "proximal-tibia",
+      "joint": "knee",
+      "bones": [
+        "tibia",
+        "fibula"
+      ],
+      "corridor": "Defined transverse, tibiofibular, and medial-face wire corridors at five tibial levels, plus Schanz screws on the entire anteromedial face and at the tibial tubercle distal to the patellar tendon, avoiding the peroneal nerve at the fibular neck",
+      "sources": [
+        {
+          "source_id": "ao_ed1fb233e33dfd30",
+          "provider": "AO Surgery Reference",
+          "title": "Safe Zones In Tibia For Wire And Schanz Screw Insertion",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/proximal-tibia/approach/safe-zones-in-tibia-for-wire-and-schanz-screw-insertion",
+          "source_page_id": "ao_ed1fb233e33dfd30"
+        },
+        {
+          "source_id": "ao_ffd3c4fb6bfca618",
+          "provider": "AO Surgery Reference",
+          "title": "Safe Zones",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/periprosthetic-fractures/knee/approach/safe-zones",
+          "source_page_id": "ao_ffd3c4fb6bfca618"
+        },
+        {
+          "source_id": "ao_e853cb1071acace7",
+          "provider": "AO Surgery Reference",
+          "title": "Safe zones (distal tibia)",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/distal-tibia/approach/safe-zones",
+          "source_page_id": "ao_e853cb1071acace7"
+        }
+      ],
+      "procedure_applications": [
+        {
+          "procedure_id": "tibial_shaft_fracture_orif",
+          "relationship": "conditional_option",
+          "condition": "A ring fixator or Schanz-screw frame is applied to the tibia"
+        }
+      ],
+      "sections": {
+        "positioning": [
+          {
+            "text": "Position so the full anteromedial tibial face, fibular neck, and tibial tubercle can be imaged.",
+            "source_ids": [
+              "ao_ed1fb233e33dfd30",
+              "ao_ffd3c4fb6bfca618"
+            ]
+          }
+        ],
+        "surface_landmarks": [
+          {
+            "text": "Mark the anteromedial face, tibial tubercle distal to the patellar tendon, anterior-compartment border at the proximal metaphysis, and the fibular neck where the peroneal nerve wraps.",
+            "source_ids": [
+              "ao_ed1fb233e33dfd30"
+            ]
+          }
+        ],
+        "incision": [
+          {
+            "text": "Use percutaneous or mini-open windows in the published safe zones. Oscillate or tap wires through dangerous locations even inside a safe zone.",
+            "source_ids": [
+              "ao_ed1fb233e33dfd30"
+            ]
+          }
+        ],
+        "superficial_interval": [
+          {
+            "text": "Wires are 1.5–2.0 mm and may be transverse, tibiofibular, or medial-face. Do not place a tibiofibular wire where the peroneal nerve wraps the fibular neck.",
+            "source_ids": [
+              "ao_ed1fb233e33dfd30"
+            ],
+            "risk_level": "medium"
+          }
+        ],
+        "deep_interval": [
+          {
+            "text": "The entire anteromedial face is safe for Schanz screws; proximally the zone extends to the anterior-compartment border. The tubercle distal to the patellar tendon is also safe. Let only one or two threads pass the far cortex. At the thick anterior crest, confirm a true bicortical pin and avoid thermal injury.",
+            "source_ids": [
+              "ao_ed1fb233e33dfd30",
+              "ao_ffd3c4fb6bfca618"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "layers": [
+          {
+            "text": "Skin, thin anteromedial envelope or defined wire corridors, then bicortical tibia.",
+            "source_ids": [
+              "ao_ed1fb233e33dfd30",
+              "ao_e853cb1071acace7"
+            ]
+          }
+        ],
+        "structures_at_risk": [
+          {
+            "text": "The common peroneal nerve at the fibular neck, far-cortex neurovascular structures from over-penetration, and thermal necrosis of a dense anterior crest are at risk.",
+            "source_ids": [
+              "ao_ed1fb233e33dfd30",
+              "ao_ffd3c4fb6bfca618"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "danger_zones": [
+          {
+            "text": "A tibiofibular wire at the fibular neck is the peroneal-nerve danger zone. Over-penetration of any Schanz screw is the deep danger zone.",
+            "source_ids": [
+              "ao_ed1fb233e33dfd30",
+              "ao_ffd3c4fb6bfca618"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "retraction_hazards": [
+          {
+            "text": "Oscillate or tap rather than spin a wire through a dangerous corridor.",
+            "source_ids": [
+              "ao_ed1fb233e33dfd30"
+            ],
+            "risk_level": "medium"
+          }
+        ],
+        "exposure": [
+          {
+            "text": "Provides only wire and pin corridors at five illustrated tibial levels, not an open articular exposure.",
+            "source_ids": [
+              "ao_ed1fb233e33dfd30"
+            ]
+          }
+        ],
+        "limitations": [
+          {
+            "text": "Safe-zone maps do not replace safe insertion technique. The anterior crest can be too dense for a casual pin.",
+            "source_ids": [
+              "ao_ed1fb233e33dfd30"
+            ]
+          }
+        ],
+        "indications": [
+          {
+            "text": "Used to place ring-fixator wires or tibial Schanz screws through defined corridors.",
+            "source_ids": [
+              "ao_ed1fb233e33dfd30"
+            ]
+          }
+        ],
+        "closure": [
+          {
+            "text": "Dress pin and wire sites after confirming far-cortex engagement without over-penetration.",
+            "source_ids": [
+              "ao_ed1fb233e33dfd30",
+              "ao_e853cb1071acace7"
+            ]
+          }
+        ],
+        "complications": [
+          {
+            "text": "Complications include peroneal-nerve injury from a neck-level tibiofibular wire, neurovascular injury from an over-long Schanz screw, and thermal necrosis at the anterior crest.",
+            "source_ids": [
+              "ao_ed1fb233e33dfd30",
+              "ao_ffd3c4fb6bfca618"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "questions": [
+          {
+            "question": "Where must a tibiofibular wire be avoided?",
+            "answer": "Where the peroneal nerve wraps around the neck of the fibula.",
+            "source_ids": [
+              "ao_ed1fb233e33dfd30"
+            ]
+          },
+          {
+            "question": "Is the anteromedial tibial face safe for Schanz screws?",
+            "answer": "Yes, the entire anteromedial face, extending to the anterior-compartment border at the proximal metaphysis.",
+            "source_ids": [
+              "ao_ed1fb233e33dfd30"
+            ]
+          },
+          {
+            "question": "How far should a Schanz screw pass the far cortex?",
+            "answer": "Only one or two threads.",
+            "source_ids": [
+              "ao_ed1fb233e33dfd30"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "approach_id": "tibia_suprapatellar_nail_entry",
+      "name": "Semi-extended suprapatellar approach for tibial nailing",
+      "aliases": [
+        "suprapatellar tibial nail entry"
+      ],
+      "region": "proximal-tibia",
+      "joint": "knee",
+      "bones": [
+        "proximal tibia",
+        "tibial shaft"
+      ],
+      "corridor": "Midline incision 4 cm proximal to the superior patellar pole through the quadriceps tendon, with a protective sleeve to a start in the medial aspect of the lateral tibial spine, 3 mm medial to the crest, just distal to the plateau–metaphyseal angle",
+      "sources": [
+        {
+          "source_id": "ao_be8cce25cfec1015",
+          "provider": "AO Surgery Reference",
+          "title": "Semi Extended Suprapatellar Approach For Intramedullary Nailing Of Tibial Shaft",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/proximal-tibia/approach/semi-extended-suprapatellar-approach-for-intramedullary-nailing-of-tibial-shaft",
+          "source_page_id": "ao_be8cce25cfec1015"
+        },
+        {
+          "source_id": "ao_3c069f08a492e87e",
+          "provider": "AO Surgery Reference",
+          "title": "Nailing Limited Open Approach To The Distal Tibia",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/distal-tibia/approach/nailing-limited-open-approach-to-the-distal-tibia",
+          "source_page_id": "ao_3c069f08a492e87e"
+        },
+        {
+          "source_id": "ao_7043a76b3dfa9353",
+          "provider": "AO Surgery Reference",
+          "title": "Semi Extended Suprapatellar Approach For Intramedullary Nailing Of The Tibial Shaft",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/tibial-shaft/approach/semi-extended-suprapatellar-approach-for-intramedullary-nailing-of-the-tibial-shaft",
+          "source_page_id": "ao_7043a76b3dfa9353"
+        }
+      ],
+      "procedure_applications": [
+        {
+          "procedure_id": "tibial_shaft_fracture_orif",
+          "relationship": "primary_option",
+          "condition": "A tibial shaft fracture is nailed in semi-extension through a suprapatellar sleeve"
+        }
+      ],
+      "sections": {
+        "positioning": [
+          {
+            "text": "Position for semi-extended nailing so true AP and lateral images of the knee and proximal tibia can be obtained.",
+            "source_ids": [
+              "ao_be8cce25cfec1015"
+            ]
+          }
+        ],
+        "surface_landmarks": [
+          {
+            "text": "Mark the superior patellar pole, the tibial crest, and the planned start. A guidewire laid along the crest and extended over the knee intersects the plateau at the insertion point.",
+            "source_ids": [
+              "ao_be8cce25cfec1015"
+            ]
+          }
+        ],
+        "incision": [
+          {
+            "text": "Make a longitudinal midline cut 4 cm proximal to the superior patellar pole, long enough for a limited medial or lateral parapatellar arthrotomy if the patella must be mobilized.",
+            "source_ids": [
+              "ao_be8cce25cfec1015"
+            ]
+          }
+        ],
+        "superficial_interval": [
+          {
+            "text": "Go through the quadriceps tendon so the nail guide sleeves can reach the anterior tibial crest atraumatically.",
+            "source_ids": [
+              "ao_be8cce25cfec1015"
+            ]
+          }
+        ],
+        "deep_interval": [
+          {
+            "text": "Keep the protection sleeve in for the whole case so patellar and distal-femoral cartilage are not damaged. On the AP view the start is the medial aspect of the lateral tibial spine, typically 3 mm medial to the crest in line with the canal. On the lateral view it sits just distal to the angle between the plateau and the anterior metaphysis, at the edge of the anterior joint line.",
+            "source_ids": [
+              "ao_be8cce25cfec1015",
+              "ao_3c069f08a492e87e"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "layers": [
+          {
+            "text": "Skin, quadriceps tendon, protective sleeve in the knee, then the proximal tibial entry.",
+            "source_ids": [
+              "ao_be8cce25cfec1015"
+            ]
+          }
+        ],
+        "structures_at_risk": [
+          {
+            "text": "The articular surfaces of the patella and distal femur are at risk from the sleeve and instruments.",
+            "source_ids": [
+              "ao_be8cce25cfec1015",
+              "ao_3c069f08a492e87e"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "danger_zones": [
+          {
+            "text": "An off-axis start or a sleeve that is removed mid-case endangers cartilage.",
+            "source_ids": [
+              "ao_be8cce25cfec1015"
+            ],
+            "risk_level": "medium"
+          }
+        ],
+        "retraction_hazards": [
+          {
+            "text": "If the patella is stiff, lengthen the quadriceps-tendon cut rather than scraping cartilage.",
+            "source_ids": [
+              "ao_be8cce25cfec1015"
+            ],
+            "risk_level": "medium"
+          }
+        ],
+        "exposure": [
+          {
+            "text": "A semi-extended nail entry that aligns with the canal without hyperflexing the knee.",
+            "source_ids": [
+              "ao_be8cce25cfec1015"
+            ]
+          }
+        ],
+        "limitations": [
+          {
+            "text": "The corridor depends on keeping a protective sleeve on the cartilage for the entire case.",
+            "source_ids": [
+              "ao_be8cce25cfec1015"
+            ]
+          }
+        ],
+        "indications": [
+          {
+            "text": "Used for semi-extended intramedullary nailing of the tibial shaft.",
+            "source_ids": [
+              "ao_be8cce25cfec1015"
+            ]
+          }
+        ],
+        "closure": [
+          {
+            "text": "Repair the quadriceps tendon after the sleeve is removed and close the midline skin.",
+            "source_ids": [
+              "ao_be8cce25cfec1015",
+              "ao_3c069f08a492e87e"
+            ]
+          }
+        ],
+        "complications": [
+          {
+            "text": "The principal complication is iatrogenic injury to patellar or distal-femoral cartilage from the sleeve or an off-axis start.",
+            "source_ids": [
+              "ao_be8cce25cfec1015",
+              "ao_3c069f08a492e87e"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "questions": [
+          {
+            "question": "Where is the skin incision?",
+            "answer": "Midline, 4 cm proximal to the superior pole of the patella.",
+            "source_ids": [
+              "ao_be8cce25cfec1015"
+            ]
+          },
+          {
+            "question": "Where is the AP start?",
+            "answer": "The medial aspect of the lateral tibial spine, typically 3 mm medial to the tibial crest in line with the canal.",
+            "source_ids": [
+              "ao_be8cce25cfec1015"
+            ]
+          },
+          {
+            "question": "Why keep the sleeve in for the whole case?",
+            "answer": "To protect the articular cartilage of the patella and distal femur.",
+            "source_ids": [
+              "ao_be8cce25cfec1015"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "approach_id": "tibia_straight_lateral_proximal_fibula",
+      "name": "Straight lateral approach to the proximal fibula",
+      "aliases": [
+        "lateral proximal tibiofibular approach"
+      ],
+      "region": "proximal-tibia",
+      "joint": "proximal tibiofibular",
+      "bones": [
+        "proximal fibula",
+        "proximal tibia"
+      ],
+      "corridor": "Longitudinal cut over the fibular head with formal identification, mobilization, and tagging of the common peroneal nerve from behind the biceps around the fibular neck before the proximal fibula is handled",
+      "sources": [
+        {
+          "source_id": "ao_354921dcd8650339",
+          "provider": "AO Surgery Reference",
+          "title": "Straight Lateral Approach",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/proximal-tibia/approach/straight-lateral-approach",
+          "source_page_id": "ao_354921dcd8650339"
+        },
+        {
+          "source_id": "ao_d032f518d347e3bb",
+          "provider": "AO Surgery Reference",
+          "title": "Anterolateral And Extended Anterolateral Approach To Proximal Tibia",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/proximal-tibia/approach/anterolateral-and-extended-anterolateral-approach-to-proximal-tibia",
+          "source_page_id": "ao_d032f518d347e3bb"
+        }
+      ],
+      "procedure_applications": [
+        {
+          "procedure_id": "tibial_plateau_fracture_orif",
+          "relationship": "conditional_option",
+          "condition": "A proximal-fibular or proximal-tibiofibular injury needs direct nerve-safe exposure, with optional combination with an anterolateral plateau window"
+        }
+      ],
+      "sections": {
+        "positioning": [
+          {
+            "text": "Position so the fibular head, biceps tendon, and lateral tibial plateau can be seen.",
+            "source_ids": [
+              "ao_354921dcd8650339",
+              "ao_d032f518d347e3bb"
+            ]
+          }
+        ],
+        "surface_landmarks": [
+          {
+            "text": "Mark the fibular head, fibular neck, biceps tendon, and, if needed, a more anterior line toward Gerdy tubercle.",
+            "source_ids": [
+              "ao_354921dcd8650339"
+            ]
+          }
+        ],
+        "incision": [
+          {
+            "text": "Make a longitudinal cut directly over the fibular head. Shift it anteriorly or combine it with a curvilinear anterolateral approach if the lateral plateau must be seen.",
+            "source_ids": [
+              "ao_354921dcd8650339"
+            ]
+          }
+        ],
+        "superficial_interval": [
+          {
+            "text": "Open skin and fat, then open deep fascia carefully with Metzenbaum scissors. Find the common peroneal nerve immediately posterior to the biceps tendon proximally.",
+            "source_ids": [
+              "ao_354921dcd8650339"
+            ]
+          }
+        ],
+        "deep_interval": [
+          {
+            "text": "Mobilize the nerve from its fascial constraints around the fibular neck and release the anterior fascial constraints and posterior intermuscular septum as it enters the anterior compartment. Tag the nerve, then handle the proximal fibula and neck.",
+            "source_ids": [
+              "ao_354921dcd8650339"
+            ],
+            "risk_level": "medium"
+          }
+        ],
+        "layers": [
+          {
+            "text": "Skin, deep fascia, common peroneal nerve, then the proximal fibula and tibiofibular joint.",
+            "source_ids": [
+              "ao_354921dcd8650339"
+            ]
+          }
+        ],
+        "structures_at_risk": [
+          {
+            "text": "The common peroneal nerve at the biceps tendon and fibular neck is the principal structure at risk.",
+            "source_ids": [
+              "ao_354921dcd8650339",
+              "ao_d032f518d347e3bb"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "danger_zones": [
+          {
+            "text": "The fibular neck, where the nerve is constrained by fascia before entering the anterior compartment, is the danger zone.",
+            "source_ids": [
+              "ao_354921dcd8650339"
+            ],
+            "risk_level": "medium"
+          }
+        ],
+        "retraction_hazards": [
+          {
+            "text": "Do not manipulate the proximal fibula until the nerve is identified, mobilized, and tagged.",
+            "source_ids": [
+              "ao_354921dcd8650339"
+            ],
+            "risk_level": "medium"
+          }
+        ],
+        "exposure": [
+          {
+            "text": "Shows the proximal fibula and proximal tibiofibular joint with the common peroneal nerve under direct control.",
+            "source_ids": [
+              "ao_354921dcd8650339"
+            ]
+          }
+        ],
+        "limitations": [
+          {
+            "text": "Lateral-plateau work needs a more anterior cut or a combined anterolateral approach. A standard anterolateral plateau window does not encounter this nerve if it stays anterior.",
+            "source_ids": [
+              "ao_354921dcd8650339",
+              "ao_d032f518d347e3bb"
+            ]
+          }
+        ],
+        "indications": [
+          {
+            "text": "Preferred for fractures of the proximal fibula and proximal tibiofibular joint when the common peroneal nerve must be seen and mobilized.",
+            "source_ids": [
+              "ao_354921dcd8650339"
+            ]
+          }
+        ],
+        "closure": [
+          {
+            "text": "Close only skin and subcutaneous tissue so the nerve is not constricted by a fascial repair.",
+            "source_ids": [
+              "ao_354921dcd8650339"
+            ]
+          }
+        ],
+        "complications": [
+          {
+            "text": "The principal complication is common-peroneal-nerve injury or constriction if fascia is closed over the nerve.",
+            "source_ids": [
+              "ao_354921dcd8650339",
+              "ao_d032f518d347e3bb"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "questions": [
+          {
+            "question": "Where is the common peroneal nerve found proximally?",
+            "answer": "Immediately posterior to the biceps tendon.",
+            "source_ids": [
+              "ao_354921dcd8650339"
+            ]
+          },
+          {
+            "question": "What must be released as the nerve enters the anterior compartment?",
+            "answer": "The anterior fascial constraints and the posterior intermuscular septum.",
+            "source_ids": [
+              "ao_354921dcd8650339"
+            ]
+          },
+          {
+            "question": "What is closed at the end of the case?",
+            "answer": "Only skin and subcutaneous tissue, to avoid nerve constriction.",
+            "source_ids": [
+              "ao_354921dcd8650339"
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,567 @@
+{
+  "approaches": [
+    {
+      "approach_id": "metatarsal_first_medial",
+      "name": "Medial approach to the 1st metatarsal",
+      "aliases": [
+        "medial midaxial approach to the first metatarsal"
+      ],
+      "region": "metatarsals",
+      "joint": "",
+      "bones": [
+        "first metatarsal"
+      ],
+      "corridor": "Medial midaxial incision along the first metatarsal, retracting abductor hallucis plantarward, protecting the dorsomedial and plantar-medial cutaneous nerves, to expose the whole medial first metatarsal",
+      "sources": [
+        {
+          "source_id": "ao_a0b6cc1457fadac7",
+          "provider": "AO Surgery Reference",
+          "title": "Medial approach to the 1st metatarsal",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/metatarsals/approach/medial-approach-to-1st-metatarsal",
+          "source_page_id": "ao_a0b6cc1457fadac7"
+        },
+        {
+          "source_id": "ao_f597cd84c4ad82e2",
+          "provider": "AO Surgery Reference",
+          "title": "Dorsal approach to the 1st metatarsal",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/metatarsals/approach/dorsal-approach-to-1st-metatarsal",
+          "source_page_id": "ao_f597cd84c4ad82e2"
+        },
+        {
+          "source_id": "ao_6679583ed198af1b",
+          "provider": "AO Surgery Reference",
+          "title": "Medial approach to the 1st metatarsal (midfoot)",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/midfoot/approach/medial-approach-to-1st-metatarsal",
+          "source_page_id": "ao_6679583ed198af1b"
+        }
+      ],
+      "procedure_applications": [
+        {
+          "procedure_id": "hallux_valgus_correction",
+          "relationship": "primary_option",
+          "condition": "A first metatarsal osteotomy or fracture is exposed medially"
+        },
+        {
+          "procedure_id": "metatarsal_fracture_orif",
+          "relationship": "primary_option",
+          "condition": "A first metatarsal fracture is fixed through a medial approach"
+        }
+      ],
+      "sections": {
+        "positioning": [
+          {
+            "text": "Position supine with the foot externally rotated so the medial border is accessible, under tourniquet control.",
+            "source_ids": [
+              "ao_a0b6cc1457fadac7"
+            ]
+          }
+        ],
+        "surface_landmarks": [
+          {
+            "text": "Mark the medial aspect of the first metatarsal from the medial cuneiform to the first MTP joint.",
+            "source_ids": [
+              "ao_a0b6cc1457fadac7"
+            ]
+          }
+        ],
+        "incision": [
+          {
+            "text": "Incise over the medial aspect of the metatarsal shaft, starting at the medial cuneiform and extending distally to the first MTP joint.",
+            "source_ids": [
+              "ao_a0b6cc1457fadac7"
+            ]
+          }
+        ],
+        "superficial_interval": [
+          {
+            "text": "Protect the dorsomedial collateral (superficial peroneal) cutaneous nerve and the medial plantar hallucal nerve and the marginal veins.",
+            "source_ids": [
+              "ao_a0b6cc1457fadac7",
+              "ao_f597cd84c4ad82e2"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "deep_interval": [
+          {
+            "text": "Find the dorsal edge of the abductor hallucis and retract it plantarward, and free the distal tibialis anterior tendon to reach the first tarsometatarsal joint if needed.",
+            "source_ids": [
+              "ao_a0b6cc1457fadac7"
+            ]
+          }
+        ],
+        "layers": [
+          {
+            "text": "Skin, subcutaneous tissue with medial cutaneous nerves and veins, the abductor hallucis, and the medial first metatarsal.",
+            "source_ids": [
+              "ao_a0b6cc1457fadac7"
+            ]
+          }
+        ],
+        "structures_at_risk": [
+          {
+            "text": "The dorsomedial collateral cutaneous nerve and the medial plantar hallucal nerve are at risk, and the abductor hallucis insertion into the medial MTP capsule should be respected.",
+            "source_ids": [
+              "ao_a0b6cc1457fadac7",
+              "ao_f597cd84c4ad82e2"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "danger_zones": [
+          {
+            "text": "The dorsomedial and plantar-medial corners are the danger zones for the medial digital cutaneous nerves.",
+            "source_ids": [
+              "ao_a0b6cc1457fadac7"
+            ],
+            "risk_level": "medium"
+          }
+        ],
+        "retraction_hazards": [
+          {
+            "text": "Retract abductor hallucis plantarward gently and keep the medial cutaneous nerves out of the retractor.",
+            "source_ids": [
+              "ao_a0b6cc1457fadac7"
+            ],
+            "risk_level": "medium"
+          }
+        ],
+        "exposure": [
+          {
+            "text": "Exposes the entire length of the first metatarsal medially, though the lateral surface is hard to see.",
+            "source_ids": [
+              "ao_a0b6cc1457fadac7"
+            ]
+          }
+        ],
+        "limitations": [
+          {
+            "text": "The lateral aspect of the first metatarsal is difficult to visualize through this medial approach.",
+            "source_ids": [
+              "ao_a0b6cc1457fadac7"
+            ]
+          }
+        ],
+        "indications": [
+          {
+            "text": "Indicated to access the entire first metatarsal for fracture fixation or osteotomy.",
+            "source_ids": [
+              "ao_a0b6cc1457fadac7"
+            ]
+          }
+        ],
+        "closure": [
+          {
+            "text": "Perform subcuticular closure with resorbable sutures and close skin with nylon.",
+            "source_ids": [
+              "ao_a0b6cc1457fadac7"
+            ]
+          }
+        ],
+        "complications": [
+          {
+            "text": "Complications include medial cutaneous nerve injury with numbness or neuroma and MTP stiffness.",
+            "source_ids": [
+              "ao_a0b6cc1457fadac7",
+              "ao_f597cd84c4ad82e2"
+            ],
+            "risk_level": "medium"
+          }
+        ],
+        "questions": [
+          {
+            "question": "Which muscle is retracted plantarward in the medial first metatarsal approach?",
+            "answer": "The abductor hallucis.",
+            "source_ids": [
+              "ao_a0b6cc1457fadac7"
+            ]
+          },
+          {
+            "question": "What is a key limitation of the medial approach?",
+            "answer": "The lateral aspect of the first metatarsal is hard to visualize.",
+            "source_ids": [
+              "ao_a0b6cc1457fadac7"
+            ]
+          },
+          {
+            "question": "Which nerves are at risk medially?",
+            "answer": "The dorsomedial collateral cutaneous nerve and the medial plantar hallucal nerve.",
+            "source_ids": [
+              "ao_a0b6cc1457fadac7",
+              "ao_f597cd84c4ad82e2"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "approach_id": "metatarsal_fifth_lateral",
+      "name": "Lateral approach to the 5th metatarsal",
+      "aliases": [
+        "lateral approach to the fifth metatarsal base"
+      ],
+      "region": "metatarsals",
+      "joint": "",
+      "bones": [
+        "fifth metatarsal"
+      ],
+      "corridor": "Lateral incision at the dorsal-plantar skin junction along the fifth metatarsal, protecting the sural nerve branches and short saphenous vein, elevating abductor digiti minimi to expose the bone",
+      "sources": [
+        {
+          "source_id": "ao_2ec52c7db918bf8e",
+          "provider": "AO Surgery Reference",
+          "title": "Lateral approach to the 5th metatarsal",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/metatarsals/approach/lateral-approach-to-5th-metatarsal",
+          "source_page_id": "ao_2ec52c7db918bf8e"
+        },
+        {
+          "source_id": "ao_05f61d6c29dd7855",
+          "provider": "AO Surgery Reference",
+          "title": "Dorsolateral approach to the cuboid",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/metatarsals/approach/dorsolateral-approach-to-the-cuboid",
+          "source_page_id": "ao_05f61d6c29dd7855"
+        }
+      ],
+      "procedure_applications": [
+        {
+          "procedure_id": "metatarsal_fracture_orif",
+          "relationship": "primary_option",
+          "condition": "A fifth metatarsal fracture, including a base or Jones fracture, is fixed"
+        }
+      ],
+      "sections": {
+        "positioning": [
+          {
+            "text": "Position supine with a bump under the ipsilateral hip so the lateral foot is presented, under tourniquet control.",
+            "source_ids": [
+              "ao_2ec52c7db918bf8e"
+            ]
+          }
+        ],
+        "surface_landmarks": [
+          {
+            "text": "Identify the styloid process of the base of the fifth metatarsal and the dorsal-plantar skin junction.",
+            "source_ids": [
+              "ao_2ec52c7db918bf8e"
+            ]
+          }
+        ],
+        "incision": [
+          {
+            "text": "Start just proximal to the styloid process at the junction of dorsal and plantar skin and extend distally as far as required.",
+            "source_ids": [
+              "ao_2ec52c7db918bf8e"
+            ]
+          }
+        ],
+        "superficial_interval": [
+          {
+            "text": "Identify and protect the branches of the sural nerve and the short saphenous vein, which lie subcutaneously in the line of the approach.",
+            "source_ids": [
+              "ao_2ec52c7db918bf8e",
+              "ao_05f61d6c29dd7855"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "deep_interval": [
+          {
+            "text": "Expose and longitudinally incise the fascia over the abductor digiti minimi, retracting the muscle plantarward and the skin dorsally with Langenbeck retractors to reach the bone.",
+            "source_ids": [
+              "ao_2ec52c7db918bf8e"
+            ]
+          }
+        ],
+        "layers": [
+          {
+            "text": "Skin, subcutaneous tissue with sural nerve branches and short saphenous vein, abductor digiti minimi, and the fifth metatarsal.",
+            "source_ids": [
+              "ao_2ec52c7db918bf8e"
+            ]
+          }
+        ],
+        "structures_at_risk": [
+          {
+            "text": "The branches of the sural nerve and the short saphenous vein are at risk in the line of the incision.",
+            "source_ids": [
+              "ao_2ec52c7db918bf8e",
+              "ao_05f61d6c29dd7855"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "danger_zones": [
+          {
+            "text": "The subcutaneous lateral border is the danger zone for the sural nerve and short saphenous vein.",
+            "source_ids": [
+              "ao_2ec52c7db918bf8e"
+            ],
+            "risk_level": "medium"
+          }
+        ],
+        "retraction_hazards": [
+          {
+            "text": "Use Langenbeck retractors and keep the sural nerve and vein out of the retractor.",
+            "source_ids": [
+              "ao_2ec52c7db918bf8e"
+            ],
+            "risk_level": "medium"
+          }
+        ],
+        "exposure": [
+          {
+            "text": "Exposes the base and shaft of the fifth metatarsal.",
+            "source_ids": [
+              "ao_2ec52c7db918bf8e"
+            ]
+          }
+        ],
+        "limitations": [
+          {
+            "text": "The sural nerve and short saphenous vein limit the safe subcutaneous dissection.",
+            "source_ids": [
+              "ao_2ec52c7db918bf8e"
+            ]
+          }
+        ],
+        "indications": [
+          {
+            "text": "Indicated for fixation of fifth metatarsal fractures.",
+            "source_ids": [
+              "ao_2ec52c7db918bf8e"
+            ]
+          }
+        ],
+        "closure": [
+          {
+            "text": "Perform subcuticular closure with resorbable sutures and close skin with nylon.",
+            "source_ids": [
+              "ao_2ec52c7db918bf8e"
+            ]
+          }
+        ],
+        "complications": [
+          {
+            "text": "Complications include sural nerve injury with lateral foot numbness or neuroma and wound problems.",
+            "source_ids": [
+              "ao_2ec52c7db918bf8e",
+              "ao_05f61d6c29dd7855"
+            ],
+            "risk_level": "medium"
+          }
+        ],
+        "questions": [
+          {
+            "question": "Where does the lateral fifth metatarsal incision lie relative to the skin?",
+            "answer": "At the junction of the dorsal and plantar skin.",
+            "source_ids": [
+              "ao_2ec52c7db918bf8e"
+            ]
+          },
+          {
+            "question": "Which two structures lie subcutaneously in the line of this approach?",
+            "answer": "Branches of the sural nerve and the short saphenous vein.",
+            "source_ids": [
+              "ao_2ec52c7db918bf8e"
+            ]
+          },
+          {
+            "question": "Which muscle fascia is incised to reach the bone?",
+            "answer": "The fascia over the abductor digiti minimi.",
+            "source_ids": [
+              "ao_2ec52c7db918bf8e"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "approach_id": "foot_external_fixator_safe_zones",
+      "name": "Safe zones for external fixator pins in the foot",
+      "aliases": [
+        "midfoot and metatarsal ex-fix pin safe zones"
+      ],
+      "region": "midfoot",
+      "joint": "",
+      "bones": [
+        "metatarsal",
+        "navicular",
+        "cuneiform"
+      ],
+      "corridor": "Medial-to-lateral pins along the medial first metatarsal, navicular, and cuneiform, and lateral-to-medial pins in the fifth metatarsal, kept in the safe medial and lateral corridors",
+      "sources": [
+        {
+          "source_id": "ao_fd490527b6012c84",
+          "provider": "AO Surgery Reference",
+          "title": "Safe zone for external fixator (foot)",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/metatarsals/approach/safe-zone-for-external-fixator",
+          "source_page_id": "ao_fd490527b6012c84"
+        },
+        {
+          "source_id": "ao_a0b6cc1457fadac7",
+          "provider": "AO Surgery Reference",
+          "title": "Medial approach to the 1st metatarsal",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/metatarsals/approach/medial-approach-to-1st-metatarsal",
+          "source_page_id": "ao_a0b6cc1457fadac7"
+        },
+        {
+          "source_id": "ao_8f9ff84bbb0d269d",
+          "provider": "AO Surgery Reference",
+          "title": "Safe zone for external fixator (midfoot)",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/midfoot/approach/safe-zone-for-external-fixator",
+          "source_page_id": "ao_8f9ff84bbb0d269d"
+        }
+      ],
+      "procedure_applications": [
+        {
+          "procedure_id": "lisfranc_orif",
+          "relationship": "conditional_option",
+          "condition": "A spanning or temporary external fixator is applied across the midfoot"
+        }
+      ],
+      "sections": {
+        "positioning": [
+          {
+            "text": "Position supine with the foot accessible medially and laterally under imaging.",
+            "source_ids": [
+              "ao_fd490527b6012c84"
+            ]
+          }
+        ],
+        "surface_landmarks": [
+          {
+            "text": "Identify the medial first metatarsal, the navicular tubercle, the medial cuneiform, and the lateral fifth metatarsal.",
+            "source_ids": [
+              "ao_fd490527b6012c84",
+              "ao_a0b6cc1457fadac7"
+            ]
+          }
+        ],
+        "incision": [
+          {
+            "text": "Use small stab incisions at each planned pin site down to bone.",
+            "source_ids": [
+              "ao_fd490527b6012c84"
+            ]
+          }
+        ],
+        "superficial_interval": [
+          {
+            "text": "Place first metatarsal pins anywhere along the medial aspect directed medial to lateral, navicular pins just distal to the tubercle, cuneiform pins on the medial surface, and fifth metatarsal pins on the lateral aspect from lateral to medial.",
+            "source_ids": [
+              "ao_fd490527b6012c84"
+            ]
+          }
+        ],
+        "deep_interval": [
+          {
+            "text": "For an unstable fifth metatarsal, pass pins through the fifth and fourth metatarsals together for added support.",
+            "source_ids": [
+              "ao_fd490527b6012c84"
+            ]
+          }
+        ],
+        "layers": [
+          {
+            "text": "Skin, subcutaneous tissue, and the pin-entry cortex of the target bone.",
+            "source_ids": [
+              "ao_fd490527b6012c84"
+            ]
+          }
+        ],
+        "structures_at_risk": [
+          {
+            "text": "Dorsal cutaneous nerves and marginal veins over the metatarsals and midfoot bones are at risk if pins stray from the medial and lateral safe corridors.",
+            "source_ids": [
+              "ao_fd490527b6012c84",
+              "ao_a0b6cc1457fadac7"
+            ],
+            "risk_level": "medium"
+          }
+        ],
+        "danger_zones": [
+          {
+            "text": "The dorsal surface of the midfoot, away from the medial and lateral corridors, is the danger zone for cutaneous nerves and dorsal vessels.",
+            "source_ids": [
+              "ao_fd490527b6012c84"
+            ],
+            "risk_level": "medium"
+          }
+        ],
+        "retraction_hazards": [
+          {
+            "text": "Keep pins in the medial and lateral corridors and protect the skin at each pin site.",
+            "source_ids": [
+              "ao_fd490527b6012c84"
+            ]
+          }
+        ],
+        "exposure": [
+          {
+            "text": "Provides safe percutaneous corridors for midfoot and metatarsal external fixator pins.",
+            "source_ids": [
+              "ao_fd490527b6012c84"
+            ]
+          }
+        ],
+        "limitations": [
+          {
+            "text": "Safe corridors are limited to the medial and lateral surfaces to avoid the dorsal neurovascular structures.",
+            "source_ids": [
+              "ao_fd490527b6012c84"
+            ]
+          }
+        ],
+        "indications": [
+          {
+            "text": "Indicated for external fixator pin placement across the midfoot and metatarsals.",
+            "source_ids": [
+              "ao_fd490527b6012c84"
+            ]
+          }
+        ],
+        "closure": [
+          {
+            "text": "Close each stab incision loosely around the pin.",
+            "source_ids": [
+              "ao_fd490527b6012c84"
+            ]
+          }
+        ],
+        "complications": [
+          {
+            "text": "Complications include cutaneous nerve injury and pin-tract problems.",
+            "source_ids": [
+              "ao_fd490527b6012c84",
+              "ao_a0b6cc1457fadac7"
+            ],
+            "risk_level": "medium"
+          }
+        ],
+        "questions": [
+          {
+            "question": "In which direction are first metatarsal external fixator pins placed?",
+            "answer": "Medial to lateral, along the medial aspect.",
+            "source_ids": [
+              "ao_fd490527b6012c84"
+            ]
+          },
+          {
+            "question": "How can added support be gained for an unstable fifth metatarsal?",
+            "answer": "By passing pins through the fifth and fourth metatarsals together.",
+            "source_ids": [
+              "ao_fd490527b6012c84"
+            ]
+          },
+          {
+            "question": "Where is the navicular pin placed?",
+            "answer": "Slightly distal to the navicular tubercle, medial to lateral.",
+            "source_ids": [
+              "ao_fd490527b6012c84"
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

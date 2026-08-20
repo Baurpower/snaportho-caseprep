@@ -1,0 +1,346 @@
+{
+  "schema_version": "brobot_approach_packet_v1",
+  "approach_id": "thumb_mcp_joint_dorsal",
+  "name": "Dorsal approach to the thumb metacarpophalangeal joint",
+  "aliases": [
+    "dorsal thumb MCP approach"
+  ],
+  "region": "thumb",
+  "joint": "metacarpophalangeal",
+  "bones": [
+    "first metacarpal",
+    "proximal phalanx"
+  ],
+  "corridor": "Straight or gently curved dorsal cut from 2 cm proximal to 2 cm distal to the thumb MCP, between EPL and EPB, then a longitudinal capsulotomy that leaves the collaterals attached",
+  "positioning": [
+    {
+      "text": "Position the hand so the dorsal thumb MCP from 2 cm proximal to 2 cm distal is accessible under tourniquet.",
+      "claim_ids": [
+        "thumb_mcp_joint_dorsal_positioning_01"
+      ]
+    }
+  ],
+  "setup": [],
+  "surface_landmarks": [
+    {
+      "text": "Mark the MCP joint and the expected dorsal sensory branches of the radial nerve and dorsal veins.",
+      "claim_ids": [
+        "thumb_mcp_joint_dorsal_surface_landmarks_01"
+      ]
+    }
+  ],
+  "incision": [
+    {
+      "text": "Make a straight or gently curved cut starting 2 cm proximal to the MCP and ending about 2 cm distal.",
+      "claim_ids": [
+        "thumb_mcp_joint_dorsal_incision_01"
+      ]
+    }
+  ],
+  "superficial_interval": [
+    {
+      "text": "Identify and protect the dorsal divisions of the dorsal sensory radial nerve and the dorsal veins. Elevate skin and thin subcutaneous tissue as one layer to EPL and EPB.",
+      "claim_ids": [
+        "thumb_mcp_joint_dorsal_superficial_interval_01"
+      ]
+    }
+  ],
+  "deep_interval": [
+    {
+      "text": "Incise between EPL and EPB without detaching EPB from the proximal-phalanx base. Perform a longitudinal capsulotomy, leaving the collateral ligaments attached, and flex the thumb to see the joint fully.",
+      "claim_ids": [
+        "thumb_mcp_joint_dorsal_deep_interval_01"
+      ]
+    }
+  ],
+  "layers": [
+    {
+      "text": "Skin, dorsal sensory radial-nerve branches and veins, EPL–EPB interval, capsule, then the MCP joint.",
+      "claim_ids": [
+        "thumb_mcp_joint_dorsal_layers_01"
+      ]
+    }
+  ],
+  "structures_encountered": [],
+  "structures_at_risk": [
+    {
+      "text": "Dorsal sensory radial-nerve branches, dorsal veins, the EPB insertion on the proximal phalanx, and the collateral ligaments are at risk.",
+      "claim_ids": [
+        "thumb_mcp_joint_dorsal_structures_at_risk_01"
+      ]
+    }
+  ],
+  "danger_zones": [
+    {
+      "text": "Detaching EPB from the proximal-phalanx base or taking the collaterals off the metacarpal or phalanx destabilizes the joint.",
+      "claim_ids": [
+        "thumb_mcp_joint_dorsal_danger_zones_01"
+      ]
+    }
+  ],
+  "retraction_hazards": [
+    {
+      "text": "Protect the sensory radial-nerve branches with the skin flap and do not peel EPB or the collaterals off bone.",
+      "claim_ids": [
+        "thumb_mcp_joint_dorsal_retraction_hazards_01"
+      ]
+    }
+  ],
+  "exposure": [
+    {
+      "text": "Shows the thumb MCP for intra-articular or periarticular fractures and for arthrodesis.",
+      "claim_ids": [
+        "thumb_mcp_joint_dorsal_exposure_01"
+      ]
+    }
+  ],
+  "limitations": [
+    {
+      "text": "This is not the dedicated dorsoulnar window for an ulnar-collateral or Stener lesion.",
+      "claim_ids": [
+        "thumb_mcp_joint_dorsal_limitations_01"
+      ]
+    }
+  ],
+  "extensions": [],
+  "indications": [
+    {
+      "text": "Indicated for intra-articular or periarticular thumb MCP fractures and for MCP arthrodesis.",
+      "claim_ids": [
+        "thumb_mcp_joint_dorsal_indications_01"
+      ]
+    }
+  ],
+  "relative_contraindications": [],
+  "implant_implications": [],
+  "fluoroscopy_implications": [],
+  "closure": [
+    {
+      "text": "Repair the capsule with fine interrupted mattress sutures and approximate EPL to EPB.",
+      "claim_ids": [
+        "thumb_mcp_joint_dorsal_closure_01"
+      ]
+    }
+  ],
+  "complications": [
+    {
+      "text": "Complications include sensory radial-nerve neuroma, EPB insertion loss, and collateral detachment.",
+      "claim_ids": [
+        "thumb_mcp_joint_dorsal_complications_01"
+      ]
+    }
+  ],
+  "bailouts": [],
+  "procedure_applications": [
+    {
+      "procedure_id": "thumb_fracture_orif",
+      "relationship": "primary_option",
+      "condition": "An intra-articular or periarticular thumb MCP fracture or an MCP arthrodesis is exposed between EPL and EPB"
+    }
+  ],
+  "questions": [
+    {
+      "question": "What interval is used to enter the thumb MCP dorsally?",
+      "answer": "Between EPL and EPB, without detaching the EPB insertion from the proximal-phalanx base.",
+      "claim_ids": [
+        "thumb_mcp_joint_dorsal_questions_01"
+      ]
+    },
+    {
+      "question": "How long is the typical skin incision?",
+      "answer": "From about 2 cm proximal to 2 cm distal to the MCP joint.",
+      "claim_ids": [
+        "thumb_mcp_joint_dorsal_questions_02"
+      ]
+    },
+    {
+      "question": "How is the joint fully exposed after capsulotomy?",
+      "answer": "By flexing the thumb.",
+      "claim_ids": [
+        "thumb_mcp_joint_dorsal_questions_03"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "thumb_mcp_joint_dorsal_positioning_01",
+      "text": "Position the hand so the dorsal thumb MCP from 2 cm proximal to 2 cm distal is accessible under tourniquet.",
+      "source_ids": [
+        "ao_bb6eacc3b4edcae4",
+        "ao_607a897bff28761c"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "thumb_mcp_joint_dorsal_surface_landmarks_01",
+      "text": "Mark the MCP joint and the expected dorsal sensory branches of the radial nerve and dorsal veins.",
+      "source_ids": [
+        "ao_bb6eacc3b4edcae4",
+        "ao_607a897bff28761c"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "thumb_mcp_joint_dorsal_incision_01",
+      "text": "Make a straight or gently curved cut starting 2 cm proximal to the MCP and ending about 2 cm distal.",
+      "source_ids": [
+        "ao_bb6eacc3b4edcae4"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "thumb_mcp_joint_dorsal_superficial_interval_01",
+      "text": "Identify and protect the dorsal divisions of the dorsal sensory radial nerve and the dorsal veins. Elevate skin and thin subcutaneous tissue as one layer to EPL and EPB.",
+      "source_ids": [
+        "ao_bb6eacc3b4edcae4",
+        "ao_607a897bff28761c"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "thumb_mcp_joint_dorsal_deep_interval_01",
+      "text": "Incise between EPL and EPB without detaching EPB from the proximal-phalanx base. Perform a longitudinal capsulotomy, leaving the collateral ligaments attached, and flex the thumb to see the joint fully.",
+      "source_ids": [
+        "ao_bb6eacc3b4edcae4",
+        "ao_607a897bff28761c"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "thumb_mcp_joint_dorsal_layers_01",
+      "text": "Skin, dorsal sensory radial-nerve branches and veins, EPL–EPB interval, capsule, then the MCP joint.",
+      "source_ids": [
+        "ao_bb6eacc3b4edcae4",
+        "ao_607a897bff28761c"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "thumb_mcp_joint_dorsal_structures_at_risk_01",
+      "text": "Dorsal sensory radial-nerve branches, dorsal veins, the EPB insertion on the proximal phalanx, and the collateral ligaments are at risk.",
+      "source_ids": [
+        "ao_bb6eacc3b4edcae4",
+        "ao_607a897bff28761c"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "thumb_mcp_joint_dorsal_danger_zones_01",
+      "text": "Detaching EPB from the proximal-phalanx base or taking the collaterals off the metacarpal or phalanx destabilizes the joint.",
+      "source_ids": [
+        "ao_bb6eacc3b4edcae4"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "thumb_mcp_joint_dorsal_retraction_hazards_01",
+      "text": "Protect the sensory radial-nerve branches with the skin flap and do not peel EPB or the collaterals off bone.",
+      "source_ids": [
+        "ao_bb6eacc3b4edcae4",
+        "ao_607a897bff28761c"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "thumb_mcp_joint_dorsal_exposure_01",
+      "text": "Shows the thumb MCP for intra-articular or periarticular fractures and for arthrodesis.",
+      "source_ids": [
+        "ao_bb6eacc3b4edcae4"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "thumb_mcp_joint_dorsal_limitations_01",
+      "text": "This is not the dedicated dorsoulnar window for an ulnar-collateral or Stener lesion.",
+      "source_ids": [
+        "ao_bb6eacc3b4edcae4"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "thumb_mcp_joint_dorsal_indications_01",
+      "text": "Indicated for intra-articular or periarticular thumb MCP fractures and for MCP arthrodesis.",
+      "source_ids": [
+        "ao_bb6eacc3b4edcae4"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "thumb_mcp_joint_dorsal_closure_01",
+      "text": "Repair the capsule with fine interrupted mattress sutures and approximate EPL to EPB.",
+      "source_ids": [
+        "ao_bb6eacc3b4edcae4",
+        "ao_607a897bff28761c"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "thumb_mcp_joint_dorsal_complications_01",
+      "text": "Complications include sensory radial-nerve neuroma, EPB insertion loss, and collateral detachment.",
+      "source_ids": [
+        "ao_bb6eacc3b4edcae4",
+        "ao_607a897bff28761c"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "thumb_mcp_joint_dorsal_questions_01",
+      "text": "What interval is used to enter the thumb MCP dorsally?",
+      "source_ids": [
+        "ao_bb6eacc3b4edcae4"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "thumb_mcp_joint_dorsal_questions_02",
+      "text": "How long is the typical skin incision?",
+      "source_ids": [
+        "ao_bb6eacc3b4edcae4"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "thumb_mcp_joint_dorsal_questions_03",
+      "text": "How is the joint fully exposed after capsulotomy?",
+      "source_ids": [
+        "ao_bb6eacc3b4edcae4"
+      ],
+      "risk_level": "medium"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "ao_bb6eacc3b4edcae4",
+      "provider": "AO Surgery Reference",
+      "title": "Dorsal Approach To The Metacarpophalangeal Mcp Joint Of The Thumb",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/thumb/approach/dorsal-approach-to-the-metacarpophalangeal-mcp-joint-of-the-thumb",
+      "source_page_id": "ao_bb6eacc3b4edcae4"
+    },
+    {
+      "source_id": "ao_607a897bff28761c",
+      "provider": "AO Surgery Reference",
+      "title": "Dorsal approach to the MCP joints",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/metacarpals/approach/dorsal-approach-to-mcp-joints",
+      "source_page_id": "ao_607a897bff28761c"
+    }
+  ],
+  "content_status": "agent_review_pending",
+  "review": {
+    "status": "agent_review_pending",
+    "required_roles": [
+      "adversarial_safety_reviewer",
+      "approach_anatomy_reviewer",
+      "educational_value_reviewer",
+      "evidence_reviewer",
+      "operative_exposure_reviewer",
+      "procedure_applicability_reviewer"
+    ],
+    "completed_roles": []
+  },
+  "resolved_contradiction_keys": [],
+  "authoring_provenance": {
+    "method": "local_codex_curated",
+    "definition_file": "data/approach_library/curated/thumb_batch001_v1.json",
+    "api_used": false
+  }
+}

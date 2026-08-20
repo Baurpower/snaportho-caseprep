@@ -1,0 +1,1750 @@
+{
+  "approaches": [
+    {
+      "approach_id": "pediatric_proximal_tibia_anterolateral",
+      "name": "Pediatric anterolateral approach to the proximal tibia",
+      "aliases": [
+        "pediatric anterolateral proximal-tibial approach"
+      ],
+      "region": "proximal-tibia",
+      "joint": "knee",
+      "bones": [
+        "proximal tibia"
+      ],
+      "corridor": "Straight incision lateral to the patellar tendon from the joint line distally, releasing tibialis anterior while staying off the physis and not chasing the posteromedial tibia",
+      "sources": [
+        {
+          "source_id": "ao_35af6bfaa5208a23",
+          "provider": "AO Surgery Reference",
+          "title": "Anterolateral Approach",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/pediatric-trauma/proximal-tibia/approach/anterolateral-approach",
+          "source_page_id": "ao_35af6bfaa5208a23"
+        },
+        {
+          "source_id": "ao_d032f518d347e3bb",
+          "provider": "AO Surgery Reference",
+          "title": "Anterolateral And Extended Anterolateral Approach To Proximal Tibia",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/proximal-tibia/approach/anterolateral-and-extended-anterolateral-approach-to-proximal-tibia",
+          "source_page_id": "ao_d032f518d347e3bb"
+        }
+      ],
+      "procedure_applications": [
+        {
+          "procedure_id": "pediatric_proximal_tibia_fracture_orif",
+          "relationship": "primary_option",
+          "condition": "An upper-shaft or Salter-Harris II\u2013IV proximal-tibial fracture with a large anterolateral component is fixed without periosteal stripping or physeal compression"
+        }
+      ],
+      "sections": {
+        "positioning": [
+          {
+            "text": "Position so the joint line, patellar tendon, and lateral proximal tibia can be seen and the physis protected.",
+            "source_ids": [
+              "ao_35af6bfaa5208a23",
+              "ao_d032f518d347e3bb"
+            ]
+          }
+        ],
+        "surface_landmarks": [
+          {
+            "text": "Mark the patellar tendon, joint line, Gerdy region, and fibular head (peroneal nerve behind the biceps).",
+            "source_ids": [
+              "ao_35af6bfaa5208a23",
+              "ao_d032f518d347e3bb"
+            ]
+          }
+        ],
+        "incision": [
+          {
+            "text": "Make a straight cut lateral to the patellar tendon starting at the joint line and extending distally as needed.",
+            "source_ids": [
+              "ao_35af6bfaa5208a23"
+            ]
+          }
+        ],
+        "superficial_interval": [
+          {
+            "text": "Open deep fascia, leaving enough anterior bony attachment for later closure.",
+            "source_ids": [
+              "ao_35af6bfaa5208a23"
+            ]
+          }
+        ],
+        "deep_interval": [
+          {
+            "text": "Release the proximal tibialis-anterior attachment. Avoid the peroneal nerve behind the biceps at the fibular head. Do not expose the posteromedial tibia from this side. For the joint, incise the capsule horizontally between the deep meniscal edge and the tibia. Avoid periosteal stripping and physeal compression.",
+            "source_ids": [
+              "ao_35af6bfaa5208a23",
+              "ao_d032f518d347e3bb"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "layers": [
+          {
+            "text": "Skin, fascia, tibialis anterior, optional submeniscal capsule, then the anterolateral proximal tibia below the physis.",
+            "source_ids": [
+              "ao_35af6bfaa5208a23"
+            ]
+          }
+        ],
+        "structures_at_risk": [
+          {
+            "text": "The peroneal nerve at the fibular head, the meniscus during arthrotomy, and the proximal tibial physis are at risk.",
+            "source_ids": [
+              "ao_35af6bfaa5208a23",
+              "ao_d032f518d347e3bb"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "danger_zones": [
+          {
+            "text": "Posteromedial dissection from this window is forbidden. Periosteal stripping or physeal compression must be avoided.",
+            "source_ids": [
+              "ao_35af6bfaa5208a23"
+            ],
+            "risk_level": "medium"
+          }
+        ],
+        "retraction_hazards": [
+          {
+            "text": "Leave enough fascia on bone anteriorly so it can be closed.",
+            "source_ids": [
+              "ao_35af6bfaa5208a23"
+            ]
+          }
+        ],
+        "exposure": [
+          {
+            "text": "Shows the anterolateral upper shaft and a large anterolateral Salter-Harris fragment, with optional submeniscal joint access.",
+            "source_ids": [
+              "ao_35af6bfaa5208a23"
+            ]
+          }
+        ],
+        "limitations": [
+          {
+            "text": "The posteromedial tibia cannot be reached. The physis limits how much periosteum can be raised.",
+            "source_ids": [
+              "ao_35af6bfaa5208a23"
+            ]
+          }
+        ],
+        "indications": [
+          {
+            "text": "Used for upper-shaft and Salter-Harris II\u2013IV proximal-tibial fractures with a large anterolateral component.",
+            "source_ids": [
+              "ao_35af6bfaa5208a23"
+            ]
+          }
+        ],
+        "closure": [
+          {
+            "text": "Reattach the meniscus and repair the capsule with absorbable suture, then close skin.",
+            "source_ids": [
+              "ao_35af6bfaa5208a23"
+            ]
+          }
+        ],
+        "complications": [
+          {
+            "text": "Complications include peroneal-nerve injury, meniscal injury, and physeal arrest from stripping or compression.",
+            "source_ids": [
+              "ao_35af6bfaa5208a23",
+              "ao_d032f518d347e3bb"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "questions": [
+          {
+            "question": "Where does the incision start?",
+            "answer": "Lateral to the patellar tendon at the joint line.",
+            "source_ids": [
+              "ao_35af6bfaa5208a23"
+            ]
+          },
+          {
+            "question": "May the posteromedial tibia be exposed from this side?",
+            "answer": "No.",
+            "source_ids": [
+              "ao_35af6bfaa5208a23"
+            ]
+          },
+          {
+            "question": "How is the joint opened?",
+            "answer": "With a horizontal capsular cut between the deep meniscal edge and the tibia.",
+            "source_ids": [
+              "ao_35af6bfaa5208a23"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "approach_id": "pediatric_proximal_tibia_arthroscopic",
+      "name": "Pediatric arthroscopic approach to the proximal tibia",
+      "aliases": [
+        "pediatric knee arthroscopy for epiphyseal fracture"
+      ],
+      "region": "proximal-tibia",
+      "joint": "knee",
+      "bones": [
+        "proximal tibia"
+      ],
+      "corridor": "Standard anterolateral viewing and anteromedial working portals beside the patellar tendon, with restrained irrigation because extravasation can cause compartment syndrome",
+      "sources": [
+        {
+          "source_id": "ao_27f1fff3842239f1",
+          "provider": "AO Surgery Reference",
+          "title": "Arthroscopic Approach",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/pediatric-trauma/proximal-tibia/approach/arthroscopic-approach",
+          "source_page_id": "ao_27f1fff3842239f1"
+        },
+        {
+          "source_id": "ao_c767c51b9f14b8d9",
+          "provider": "AO Surgery Reference",
+          "title": "Arthroscopic Approach To Knee",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/proximal-tibia/approach/arthroscopic-approach-to-knee",
+          "source_page_id": "ao_c767c51b9f14b8d9"
+        },
+        {
+          "source_id": "ao_83f3eb9cef6d29fc",
+          "provider": "AO Surgery Reference",
+          "title": "Arthroscopic approach to the knee",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/distal-femur/approach/arthroscopic-approach-to-the-knee",
+          "source_page_id": "ao_83f3eb9cef6d29fc"
+        }
+      ],
+      "procedure_applications": [
+        {
+          "procedure_id": "pediatric_proximal_tibia_fracture_orif",
+          "relationship": "conditional_option",
+          "condition": "A minimally or nondisplaced epiphyseal fracture is visualized or reduced arthroscopically by an experienced surgeon"
+        }
+      ],
+      "sections": {
+        "positioning": [
+          {
+            "text": "Position so the medial and lateral soft spots beside the patellar tendon can be used and the knee fully examined.",
+            "source_ids": [
+              "ao_27f1fff3842239f1",
+              "ao_c767c51b9f14b8d9"
+            ]
+          }
+        ],
+        "surface_landmarks": [
+          {
+            "text": "Mark the patellar tendon and the medial and lateral soft spots adjacent to it.",
+            "source_ids": [
+              "ao_27f1fff3842239f1",
+              "ao_c767c51b9f14b8d9"
+            ]
+          }
+        ],
+        "incision": [
+          {
+            "text": "Make a 5 mm stab at the lateral soft spot for the camera and a 5 mm medial stab for a hook.",
+            "source_ids": [
+              "ao_27f1fff3842239f1",
+              "ao_c767c51b9f14b8d9"
+            ]
+          }
+        ],
+        "superficial_interval": [
+          {
+            "text": "Insert the trocar and sleeve carefully to avoid articular cartilage, then exchange for the arthroscope.",
+            "source_ids": [
+              "ao_27f1fff3842239f1",
+              "ao_c767c51b9f14b8d9"
+            ]
+          }
+        ],
+        "deep_interval": [
+          {
+            "text": "Irrigate until the joint is clear. Continuous pump irrigation may help, but extravasation through a ruptured capsule can cause compartment syndrome. Examine the whole joint for meniscal, ligament, and osteochondral injury.",
+            "source_ids": [
+              "ao_27f1fff3842239f1",
+              "ao_c767c51b9f14b8d9"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "layers": [
+          {
+            "text": "Skin, portal tracks beside the patellar tendon, capsule, then the joint and epiphyseal fracture.",
+            "source_ids": [
+              "ao_27f1fff3842239f1"
+            ]
+          }
+        ],
+        "structures_at_risk": [
+          {
+            "text": "Articular cartilage at portal entry and the compartments of the leg if irrigation extravasates are at risk.",
+            "source_ids": [
+              "ao_27f1fff3842239f1",
+              "ao_c767c51b9f14b8d9"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "danger_zones": [
+          {
+            "text": "A ruptured capsule plus high-pressure irrigation is the compartment-syndrome danger zone.",
+            "source_ids": [
+              "ao_27f1fff3842239f1"
+            ],
+            "risk_level": "medium"
+          }
+        ],
+        "retraction_hazards": [
+          {
+            "text": "Do not force the trocar against cartilage.",
+            "source_ids": [
+              "ao_27f1fff3842239f1",
+              "ao_c767c51b9f14b8d9"
+            ],
+            "risk_level": "medium"
+          }
+        ],
+        "exposure": [
+          {
+            "text": "Allows visualization and manipulation of a minimally or nondisplaced epiphyseal fracture and a full intra-articular survey.",
+            "source_ids": [
+              "ao_27f1fff3842239f1"
+            ]
+          }
+        ],
+        "limitations": [
+          {
+            "text": "Only for minimally or nondisplaced patterns, or to check reduction quality. Advanced arthroscopic experience is required.",
+            "source_ids": [
+              "ao_27f1fff3842239f1",
+              "ao_c767c51b9f14b8d9"
+            ]
+          }
+        ],
+        "indications": [
+          {
+            "text": "Used for selected pediatric epiphyseal fractures that can be seen and handled through standard AM/AL portals.",
+            "source_ids": [
+              "ao_27f1fff3842239f1"
+            ]
+          }
+        ],
+        "closure": [
+          {
+            "text": "Close the portal skin.",
+            "source_ids": [
+              "ao_27f1fff3842239f1"
+            ]
+          }
+        ],
+        "complications": [
+          {
+            "text": "Complications include cartilage scuffing and compartment syndrome from fluid extravasation.",
+            "source_ids": [
+              "ao_27f1fff3842239f1",
+              "ao_c767c51b9f14b8d9"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "questions": [
+          {
+            "question": "Which portals are used?",
+            "answer": "Anterolateral viewing and anteromedial working portals beside the patellar tendon.",
+            "source_ids": [
+              "ao_27f1fff3842239f1",
+              "ao_c767c51b9f14b8d9"
+            ]
+          },
+          {
+            "question": "What extra pediatric irrigation risk is emphasized?",
+            "answer": "Fluid extravasation that may lead to compartment syndrome, especially if the capsule is ruptured.",
+            "source_ids": [
+              "ao_27f1fff3842239f1"
+            ]
+          },
+          {
+            "question": "When is arthroscopy recommended?",
+            "answer": "Only for minimally or nondisplaced fractures, or to evaluate reduction, by an experienced arthroscopist.",
+            "source_ids": [
+              "ao_27f1fff3842239f1"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "approach_id": "pediatric_proximal_tibia_parapatellar",
+      "name": "Pediatric parapatellar arthrotomy for the proximal tibia",
+      "aliases": [
+        "pediatric lateral or medial parapatellar proximal-tibial arthrotomy"
+      ],
+      "region": "proximal-tibia",
+      "joint": "knee",
+      "bones": [
+        "proximal tibia",
+        "patella"
+      ],
+      "corridor": "Incision from the inferior patellar pole to the tibial physis on either side of the patellar tendon, with a matching capsular cut that stays off the meniscus and physis",
+      "sources": [
+        {
+          "source_id": "ao_d079d86841a38148",
+          "provider": "AO Surgery Reference",
+          "title": "Lateral Medial Parapatellar Arthrotomy",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/pediatric-trauma/proximal-tibia/approach/lateral-medial-parapatellar-arthrotomy",
+          "source_page_id": "ao_d079d86841a38148"
+        },
+        {
+          "source_id": "ao_16af99fd4e90e404",
+          "provider": "AO Surgery Reference",
+          "title": "Lateral Medial Parapatellar Arthrotomy",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/pediatric-trauma/distal-femur/approach/lateral-medial-parapatellar-arthrotomy",
+          "source_page_id": "ao_16af99fd4e90e404"
+        }
+      ],
+      "procedure_applications": [
+        {
+          "procedure_id": "pediatric_proximal_tibia_fracture_orif",
+          "relationship": "primary_option",
+          "condition": "An intra-articular, avulsion, or osteochondral flake fracture of the proximal tibia needs a limited parapatellar arthrotomy"
+        }
+      ],
+      "sections": {
+        "positioning": [
+          {
+            "text": "Position so either side of the patellar tendon, the inferior pole, and the tibial physis can be marked.",
+            "source_ids": [
+              "ao_d079d86841a38148",
+              "ao_16af99fd4e90e404"
+            ]
+          }
+        ],
+        "surface_landmarks": [
+          {
+            "text": "Mark the inferior patellar pole, both borders of the patellar tendon, and the tibial physis.",
+            "source_ids": [
+              "ao_d079d86841a38148"
+            ]
+          }
+        ],
+        "incision": [
+          {
+            "text": "Start at the lower pole of the patella and extend to the tibial physis on the chosen side of the tendon. Lengthen the cut if more articular surface is needed.",
+            "source_ids": [
+              "ao_d079d86841a38148"
+            ]
+          }
+        ],
+        "superficial_interval": [
+          {
+            "text": "Incise the capsule in line with the skin.",
+            "source_ids": [
+              "ao_d079d86841a38148"
+            ]
+          }
+        ],
+        "deep_interval": [
+          {
+            "text": "Use retractors to see the fracture. Avoid sharp dissection around the meniscus. Do not strip periosteum or compress the physis.",
+            "source_ids": [
+              "ao_d079d86841a38148",
+              "ao_16af99fd4e90e404"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "layers": [
+          {
+            "text": "Skin, capsule beside the patellar tendon, then the joint and proximal tibial articular surface.",
+            "source_ids": [
+              "ao_d079d86841a38148"
+            ]
+          }
+        ],
+        "structures_at_risk": [
+          {
+            "text": "The meniscus, the tibial physis, and periosteum around the growth plate are at risk.",
+            "source_ids": [
+              "ao_d079d86841a38148",
+              "ao_16af99fd4e90e404"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "danger_zones": [
+          {
+            "text": "Sharp work around the meniscus is the articular danger zone. Physeal compression is the growth-plate danger zone.",
+            "source_ids": [
+              "ao_d079d86841a38148"
+            ],
+            "risk_level": "medium"
+          }
+        ],
+        "retraction_hazards": [
+          {
+            "text": "Retract the capsule rather than cutting toward the meniscus.",
+            "source_ids": [
+              "ao_d079d86841a38148"
+            ],
+            "risk_level": "medium"
+          }
+        ],
+        "exposure": [
+          {
+            "text": "Shows intra-articular, avulsion, and osteochondral flake fractures of the proximal tibia.",
+            "source_ids": [
+              "ao_d079d86841a38148"
+            ]
+          }
+        ],
+        "limitations": [
+          {
+            "text": "The window stops at the physis unless a planned extension is added for more articular view.",
+            "source_ids": [
+              "ao_d079d86841a38148"
+            ]
+          }
+        ],
+        "indications": [
+          {
+            "text": "Used for intra-articular fractures, avulsions, and flake osteochondral fractures.",
+            "source_ids": [
+              "ao_d079d86841a38148"
+            ]
+          }
+        ],
+        "closure": [
+          {
+            "text": "Repair the capsule with absorbable suture and close skin.",
+            "source_ids": [
+              "ao_d079d86841a38148",
+              "ao_16af99fd4e90e404"
+            ]
+          }
+        ],
+        "complications": [
+          {
+            "text": "Complications include meniscal injury and physeal arrest from stripping or compression.",
+            "source_ids": [
+              "ao_d079d86841a38148",
+              "ao_16af99fd4e90e404"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "questions": [
+          {
+            "question": "Where does the incision run?",
+            "answer": "From the inferior patellar pole to the tibial physis on either side of the patellar tendon.",
+            "source_ids": [
+              "ao_d079d86841a38148"
+            ]
+          },
+          {
+            "question": "What must be avoided around the meniscus?",
+            "answer": "Sharp dissection.",
+            "source_ids": [
+              "ao_d079d86841a38148"
+            ]
+          },
+          {
+            "question": "What physeal errors are forbidden?",
+            "answer": "Periosteal stripping and physeal compression.",
+            "source_ids": [
+              "ao_d079d86841a38148"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "approach_id": "pediatric_proximal_tibia_medial",
+      "name": "Pediatric medial approaches to the proximal tibia",
+      "aliases": [
+        "pediatric medial proximal-tibial approach",
+        "pediatric medial parapatellar proximal-tibial approach"
+      ],
+      "region": "proximal-tibia",
+      "joint": "knee",
+      "bones": [
+        "proximal tibia"
+      ],
+      "corridor": "Either a posteromedial cut from the medial joint line or a slightly curved cut medial to the patellar tendon; both open pes, retract gastrocnemius, make a submeniscal capsulotomy, and expose metaphysis only below the physis",
+      "sources": [
+        {
+          "source_id": "ao_b04ed6f06fc6b16c",
+          "provider": "AO Surgery Reference",
+          "title": "Medial Approach",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/pediatric-trauma/proximal-tibia/approach/medial-approach",
+          "source_page_id": "ao_b04ed6f06fc6b16c"
+        },
+        {
+          "source_id": "ao_182c8f329efe69da",
+          "provider": "AO Surgery Reference",
+          "title": "Medial Parapatellar Approach",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/pediatric-trauma/proximal-tibia/approach/medial-parapatellar-approach",
+          "source_page_id": "ao_182c8f329efe69da"
+        },
+        {
+          "source_id": "ao_af1e9417f1305398",
+          "provider": "AO Surgery Reference",
+          "title": "Medial Approach Proximal Tibia",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/periprosthetic-fractures/knee/approach/medial-approach-proximal-tibia",
+          "source_page_id": "ao_af1e9417f1305398"
+        }
+      ],
+      "procedure_applications": [
+        {
+          "procedure_id": "pediatric_proximal_tibia_fracture_orif",
+          "relationship": "primary_option",
+          "condition": "An upper-shaft or Salter-Harris II\u2013IV fracture with a large medial component is fixed through a pes-respecting medial window"
+        }
+      ],
+      "sections": {
+        "positioning": [
+          {
+            "text": "Position with the knee slightly flexed so the medial joint line, pes, and posteromedial tibial edge can be marked.",
+            "source_ids": [
+              "ao_b04ed6f06fc6b16c",
+              "ao_182c8f329efe69da"
+            ]
+          }
+        ],
+        "surface_landmarks": [
+          {
+            "text": "Mark the medial joint line, pes anserinus, tibial apophysis, and the posteromedial tibial shaft.",
+            "source_ids": [
+              "ao_b04ed6f06fc6b16c",
+              "ao_182c8f329efe69da"
+            ]
+          }
+        ],
+        "incision": [
+          {
+            "text": "The medial approach is a straight or slightly curved cut from the medial joint line toward the posteromedial tibial shaft. The medial-parapatellar variant is slightly curved medial to the patellar tendon from the joint line toward the medial tibial shaft. Both can be extended proximally for epiphyseal work and distally for metaphyseal work. The parapatellar variant runs between pes and the tibial apophysis and gives equivalent exposure.",
+            "source_ids": [
+              "ao_b04ed6f06fc6b16c",
+              "ao_182c8f329efe69da"
+            ]
+          }
+        ],
+        "superficial_interval": [
+          {
+            "text": "Open fascia and identify pes anserinus.",
+            "source_ids": [
+              "ao_b04ed6f06fc6b16c",
+              "ao_182c8f329efe69da",
+              "ao_af1e9417f1305398"
+            ]
+          }
+        ],
+        "deep_interval": [
+          {
+            "text": "Retract pes anteriorly and gastrocnemius posteriorly and distally. Open the capsule between the meniscus and the plateau edge. For metaphysis, start below the physis and work distally on the anteromedial tibia; pes can be retracted posteriorly for that window. Avoid periosteal stripping and physeal compression.",
+            "source_ids": [
+              "ao_b04ed6f06fc6b16c",
+              "ao_182c8f329efe69da"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "layers": [
+          {
+            "text": "Skin, fascia, pes anserinus, submeniscal capsule, then the medial plateau and metaphysis below the physis.",
+            "source_ids": [
+              "ao_b04ed6f06fc6b16c",
+              "ao_182c8f329efe69da"
+            ]
+          }
+        ],
+        "structures_at_risk": [
+          {
+            "text": "The meniscus, the proximal tibial physis, and periosteum around the growth plate are at risk.",
+            "source_ids": [
+              "ao_b04ed6f06fc6b16c",
+              "ao_182c8f329efe69da"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "danger_zones": [
+          {
+            "text": "Metaphyseal dissection must start below the physis. Stripping or compressing the physis is forbidden.",
+            "source_ids": [
+              "ao_b04ed6f06fc6b16c",
+              "ao_182c8f329efe69da"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "retraction_hazards": [
+          {
+            "text": "Retract pes anteriorly for the joint and posteriorly for the metaphysis rather than detaching it unnecessarily.",
+            "source_ids": [
+              "ao_b04ed6f06fc6b16c",
+              "ao_182c8f329efe69da"
+            ]
+          }
+        ],
+        "exposure": [
+          {
+            "text": "Shows a large medial Salter-Harris fragment, the medial plateau, and the anteromedial metaphysis below the physis.",
+            "source_ids": [
+              "ao_b04ed6f06fc6b16c",
+              "ao_182c8f329efe69da"
+            ]
+          }
+        ],
+        "limitations": [
+          {
+            "text": "The two skin lines give equivalent deep exposure. Neither should strip periosteum or compress the physis.",
+            "source_ids": [
+              "ao_182c8f329efe69da"
+            ]
+          }
+        ],
+        "indications": [
+          {
+            "text": "Used for upper-shaft and Salter-Harris II\u2013IV fractures with a large medial component.",
+            "source_ids": [
+              "ao_b04ed6f06fc6b16c",
+              "ao_182c8f329efe69da"
+            ]
+          }
+        ],
+        "closure": [
+          {
+            "text": "Repair the capsule with absorbable suture and close skin.",
+            "source_ids": [
+              "ao_b04ed6f06fc6b16c",
+              "ao_182c8f329efe69da"
+            ]
+          }
+        ],
+        "complications": [
+          {
+            "text": "Complications include meniscal injury and physeal arrest from stripping or compression.",
+            "source_ids": [
+              "ao_b04ed6f06fc6b16c",
+              "ao_182c8f329efe69da"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "questions": [
+          {
+            "question": "How do the medial and medial-parapatellar skin cuts differ?",
+            "answer": "One runs toward the posteromedial tibial edge; the other is medial to the patellar tendon between pes and the tibial apophysis. Deep exposure is equivalent.",
+            "source_ids": [
+              "ao_b04ed6f06fc6b16c",
+              "ao_182c8f329efe69da"
+            ]
+          },
+          {
+            "question": "Where must metaphyseal dissection start?",
+            "answer": "Below the physis.",
+            "source_ids": [
+              "ao_b04ed6f06fc6b16c",
+              "ao_182c8f329efe69da"
+            ]
+          },
+          {
+            "question": "How is the joint opened?",
+            "answer": "By incising the capsule between the meniscus and the plateau edge.",
+            "source_ids": [
+              "ao_b04ed6f06fc6b16c",
+              "ao_182c8f329efe69da"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "approach_id": "pediatric_proximal_tibia_pin_safe_zones",
+      "name": "Pediatric safe zones for spanning-fixator pins around the proximal tibia",
+      "aliases": [
+        "pediatric knee-spanning pin corridors"
+      ],
+      "region": "proximal-tibia",
+      "joint": "knee",
+      "bones": [
+        "tibia",
+        "femur"
+      ],
+      "corridor": "Anterolateral or direct-lateral femoral pins (not through IT band) at least 2 cm above the distal femoral physis, and anteromedial tibial pins medial to the crest, about 20\u00b0 to the sagittal plane, avoiding physes and apophysis",
+      "sources": [
+        {
+          "source_id": "ao_4553575688e289e7",
+          "provider": "AO Surgery Reference",
+          "title": "Safe Zones For Pin Placement",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/pediatric-trauma/proximal-tibia/approach/safe-zones-for-pin-placement",
+          "source_page_id": "ao_4553575688e289e7"
+        },
+        {
+          "source_id": "ao_ed1fb233e33dfd30",
+          "provider": "AO Surgery Reference",
+          "title": "Safe Zones In Tibia For Wire And Schanz Screw Insertion",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/proximal-tibia/approach/safe-zones-in-tibia-for-wire-and-schanz-screw-insertion",
+          "source_page_id": "ao_ed1fb233e33dfd30"
+        },
+        {
+          "source_id": "ao_2799cb323ca69e06",
+          "provider": "AO Surgery Reference",
+          "title": "Safe Zones For Pin Placement",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/pediatric-trauma/distal-femur/approach/safe-zones-for-pin-placement",
+          "source_page_id": "ao_2799cb323ca69e06"
+        }
+      ],
+      "procedure_applications": [
+        {
+          "procedure_id": "pediatric_proximal_tibia_fracture_orif",
+          "relationship": "conditional_option",
+          "condition": "A knee-spanning external fixator is applied without crossing physes or apophyses"
+        }
+      ],
+      "sections": {
+        "positioning": [
+          {
+            "text": "Position supine so vastus lateralis and rectus femoris can be palpated and the tibial crest imaged.",
+            "source_ids": [
+              "ao_4553575688e289e7",
+              "ao_2799cb323ca69e06"
+            ]
+          }
+        ],
+        "surface_landmarks": [
+          {
+            "text": "Mark the distal femoral physis (stay \u22652 cm proximal), the plane between vastus lateralis and rectus, the tibial crest, and the fibular head (peroneal nerve).",
+            "source_ids": [
+              "ao_4553575688e289e7"
+            ]
+          }
+        ],
+        "incision": [
+          {
+            "text": "Use mini-open windows in the described femoral and tibial corridors, avoiding damaged skin.",
+            "source_ids": [
+              "ao_4553575688e289e7",
+              "ao_ed1fb233e33dfd30"
+            ]
+          }
+        ],
+        "superficial_interval": [
+          {
+            "text": "On the femur aim in the plane between vastus lateralis and rectus femoris. Do not insert pins laterally through the IT band. On the tibia insert pins medial to the crest on the anteromedial face, angled about 20\u00b0 to the sagittal plane.",
+            "source_ids": [
+              "ao_4553575688e289e7"
+            ]
+          }
+        ],
+        "deep_interval": [
+          {
+            "text": "Obtain both femoral cortices but do not perforate beyond the medial femoral cortex. Distal femoral pins stay at least 2 cm above the growth plate. Avoid the red-dotted posterolateral tibial trajectory that hits the anterior tibial vessels and deep peroneal nerve.",
+            "source_ids": [
+              "ao_4553575688e289e7",
+              "ao_ed1fb233e33dfd30"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "layers": [
+          {
+            "text": "Skin, defined extra-physeal corridors, then bicortical femur or tibia.",
+            "source_ids": [
+              "ao_4553575688e289e7",
+              "ao_2799cb323ca69e06"
+            ]
+          }
+        ],
+        "structures_at_risk": [
+          {
+            "text": "The medial femoral neurovascular bundle, the distal femoral physis, the common peroneal nerve at the fibular head, and the anterior tibial vessels with the deep peroneal nerve along the posterolateral tibia are at risk.",
+            "source_ids": [
+              "ao_4553575688e289e7",
+              "ao_ed1fb233e33dfd30"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "danger_zones": [
+          {
+            "text": "A pin through the IT band loosens and infects. A posterolateral tibial pin trajectory is the deep-peroneal danger zone. Pins must miss physes and the tibial apophysis.",
+            "source_ids": [
+              "ao_4553575688e289e7"
+            ],
+            "risk_level": "medium"
+          }
+        ],
+        "retraction_hazards": [
+          {
+            "text": "Avoid damaged soft-tissue envelopes to reduce pin-track infection.",
+            "source_ids": [
+              "ao_4553575688e289e7"
+            ]
+          }
+        ],
+        "exposure": [
+          {
+            "text": "Provides only spanning-frame pin corridors in the femoral and tibial shafts.",
+            "source_ids": [
+              "ao_4553575688e289e7"
+            ]
+          }
+        ],
+        "limitations": [
+          {
+            "text": "Physes and the tibial apophysis forbid juxta-articular pins that would be used in an adult.",
+            "source_ids": [
+              "ao_4553575688e289e7"
+            ]
+          }
+        ],
+        "indications": [
+          {
+            "text": "Used for a knee-spanning external fixator in a child.",
+            "source_ids": [
+              "ao_4553575688e289e7"
+            ]
+          }
+        ],
+        "closure": [
+          {
+            "text": "Dress pin sites after confirming bicortical purchase without medial femoral over-penetration.",
+            "source_ids": [
+              "ao_4553575688e289e7",
+              "ao_ed1fb233e33dfd30"
+            ]
+          }
+        ],
+        "complications": [
+          {
+            "text": "Complications include physeal injury, medial femoral neurovascular injury, deep-peroneal or anterior-tibial vessel injury, and pin-track infection, especially through the IT band.",
+            "source_ids": [
+              "ao_4553575688e289e7",
+              "ao_ed1fb233e33dfd30"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "questions": [
+          {
+            "question": "How far from the distal femoral physis should a pin stay?",
+            "answer": "At least 2 cm proximal.",
+            "source_ids": [
+              "ao_4553575688e289e7"
+            ]
+          },
+          {
+            "question": "Where are tibial pins placed relative to the crest?",
+            "answer": "Medial to the tibial crest on the anteromedial face, angled about 20\u00b0 to the sagittal plane.",
+            "source_ids": [
+              "ao_4553575688e289e7"
+            ]
+          },
+          {
+            "question": "Why avoid the IT band?",
+            "answer": "Pins through the tract increase loosening and pin-track infection.",
+            "source_ids": [
+              "ao_4553575688e289e7"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "approach_id": "scapula_glenoid_arthroscopic_portals",
+      "name": "Arthroscopic entry points for glenoid fractures",
+      "aliases": [
+        "shoulder arthroscopy portals for glenoid"
+      ],
+      "region": "scapula",
+      "joint": "shoulder",
+      "bones": [
+        "glenoid",
+        "scapula"
+      ],
+      "corridor": "Beach-chair standard portals: dorsal soft spot for anterior glenoid, anterior (coracoid\u2013acromion) for posterior glenoid, and anterior-superior (inferior to the lateral acromial tip) for inferior glenoid, with the camera opposite the main fragment",
+      "sources": [
+        {
+          "source_id": "ao_d8f50e2784e02ee0",
+          "provider": "AO Surgery Reference",
+          "title": "Arthroscopic Entry Points",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/scapula/approach/arthroscopic-entry-points",
+          "source_page_id": "ao_d8f50e2784e02ee0"
+        },
+        {
+          "source_id": "ao_c767c51b9f14b8d9",
+          "provider": "AO Surgery Reference",
+          "title": "Arthroscopic Approach To Knee",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/proximal-tibia/approach/arthroscopic-approach-to-knee",
+          "source_page_id": "ao_c767c51b9f14b8d9"
+        },
+        {
+          "source_id": "orthobullets_15fa92dadcbd1137",
+          "provider": "Orthobullets",
+          "title": "Shoulder Arthroscopy Indications And Approach",
+          "url": "https://www.orthobullets.com/approaches/12064/shoulder-arthroscopy-indications-and-approach",
+          "source_page_id": "orthobullets_15fa92dadcbd1137"
+        }
+      ],
+      "procedure_applications": [
+        {
+          "procedure_id": "glenoid_fracture_orif",
+          "relationship": "conditional_option",
+          "condition": "An articular glenoid fracture is assessed or instrumented arthroscopically in the beach-chair position"
+        }
+      ],
+      "sections": {
+        "positioning": [
+          {
+            "text": "Use the beach-chair position. Arthroscopy is useful only for fractures that involve the articular surface.",
+            "source_ids": [
+              "ao_d8f50e2784e02ee0"
+            ]
+          }
+        ],
+        "surface_landmarks": [
+          {
+            "text": "Mark the acromion, scapular spine, coracoid, AC joint, and clavicle.",
+            "source_ids": [
+              "ao_d8f50e2784e02ee0"
+            ]
+          }
+        ],
+        "incision": [
+          {
+            "text": "Make a 1 cm cut at the chosen camera portal: dorsal soft spot 1\u20132 cm medial to the lateral acromion and 1 cm below the spine for anterior fragments; between coracoid tip and anterior acromion for posterior fragments; just inferior to the lateral acromial tip for inferior fragments.",
+            "source_ids": [
+              "ao_d8f50e2784e02ee0"
+            ]
+          }
+        ],
+        "superficial_interval": [
+          {
+            "text": "Bluntly spread with scissors to the capsule, then push a blunt rod into the joint and follow it with a trocar.",
+            "source_ids": [
+              "ao_d8f50e2784e02ee0",
+              "ao_c767c51b9f14b8d9"
+            ]
+          }
+        ],
+        "deep_interval": [
+          {
+            "text": "Place the camera on the opposite side of the main fragment. Create the instrument portal by watching a needle enter the capsule from the opposite side. Add further portals as the fracture requires.",
+            "source_ids": [
+              "ao_d8f50e2784e02ee0"
+            ]
+          }
+        ],
+        "layers": [
+          {
+            "text": "Skin, blunt track to capsule, then the glenohumeral joint.",
+            "source_ids": [
+              "ao_d8f50e2784e02ee0"
+            ]
+          }
+        ],
+        "structures_at_risk": [
+          {
+            "text": "Articular cartilage at portal entry is at risk if the trocar is forced.",
+            "source_ids": [
+              "ao_d8f50e2784e02ee0",
+              "ao_c767c51b9f14b8d9"
+            ],
+            "risk_level": "medium"
+          }
+        ],
+        "danger_zones": [
+          {
+            "text": "The camera must start opposite the main fragment so instruments can reach the fracture.",
+            "source_ids": [
+              "ao_d8f50e2784e02ee0"
+            ]
+          }
+        ],
+        "retraction_hazards": [
+          {
+            "text": "Enlarge the portal over a rod already inside the joint rather than plunging a sharp trocar.",
+            "source_ids": [
+              "ao_d8f50e2784e02ee0"
+            ]
+          }
+        ],
+        "exposure": [
+          {
+            "text": "Shows the glenoid articular surface for selected fracture fragments according to the portal chosen.",
+            "source_ids": [
+              "ao_d8f50e2784e02ee0"
+            ]
+          }
+        ],
+        "limitations": [
+          {
+            "text": "Useful only for articular-surface fractures and only in beach chair.",
+            "source_ids": [
+              "ao_d8f50e2784e02ee0"
+            ]
+          }
+        ],
+        "indications": [
+          {
+            "text": "Used when a glenoid articular fracture can be seen and instrumented through standard shoulder portals.",
+            "source_ids": [
+              "ao_d8f50e2784e02ee0"
+            ]
+          }
+        ],
+        "closure": [
+          {
+            "text": "Close the small portal incisions after instruments are removed.",
+            "source_ids": [
+              "ao_d8f50e2784e02ee0",
+              "ao_c767c51b9f14b8d9"
+            ]
+          }
+        ],
+        "complications": [
+          {
+            "text": "The principal complication is cartilage injury from a poorly placed trocar.",
+            "source_ids": [
+              "ao_d8f50e2784e02ee0",
+              "ao_c767c51b9f14b8d9"
+            ],
+            "risk_level": "medium"
+          }
+        ],
+        "questions": [
+          {
+            "question": "Where is the dorsal standard portal?",
+            "answer": "The soft spot 1\u20132 cm medial to the lateral acromial edge and 1 cm below the scapular spine, used for anterior glenoid fractures.",
+            "source_ids": [
+              "ao_d8f50e2784e02ee0"
+            ]
+          },
+          {
+            "question": "Which portal is used for posterior glenoid fractures?",
+            "answer": "The anterior portal between the coracoid tip and the anterior acromial edge.",
+            "source_ids": [
+              "ao_d8f50e2784e02ee0"
+            ]
+          },
+          {
+            "question": "When can arthroscopy be used?",
+            "answer": "Only for articular-surface fractures, and only in the beach-chair position.",
+            "source_ids": [
+              "ao_d8f50e2784e02ee0"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "approach_id": "scapula_deltopectoral_glenoid",
+      "name": "Deltopectoral approach for anterior glenoid and scapular work",
+      "aliases": [
+        "anterior deltopectoral approach to the glenoid"
+      ],
+      "region": "scapula",
+      "joint": "shoulder",
+      "bones": [
+        "glenoid",
+        "proximal humerus"
+      ],
+      "corridor": "12\u201314 cm deltopectoral interval from coracoid toward the deltoid insertion, clavipectoral fascia lateral to the conjoint tendon, vertical subscapularis tenotomy and medial capsulotomy to retract the head and see the glenoid",
+      "sources": [
+        {
+          "source_id": "ao_33a2adf3f7c2a8d6",
+          "provider": "AO Surgery Reference",
+          "title": "Deltopectoral Approach",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/scapula/approach/deltopectoral-approach",
+          "source_page_id": "ao_33a2adf3f7c2a8d6"
+        },
+        {
+          "source_id": "ao_c5861e08ea2a1064",
+          "provider": "AO Surgery Reference",
+          "title": "Deltopectoral approach to the proximal humerus",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/proximal-humerus/approach/deltopectoral-approach-to-the-proximal-humerus",
+          "source_page_id": "ao_c5861e08ea2a1064"
+        }
+      ],
+      "procedure_applications": [
+        {
+          "procedure_id": "glenoid_fracture_orif",
+          "relationship": "primary_option",
+          "condition": "An anterior glenoid or other anterior shoulder fracture is exposed through the deltopectoral interval"
+        }
+      ],
+      "sections": {
+        "positioning": [
+          {
+            "text": "Position so the coracoid, proximal humeral shaft at the axilla, and acromion can be marked.",
+            "source_ids": [
+              "ao_33a2adf3f7c2a8d6",
+              "ao_c5861e08ea2a1064"
+            ]
+          }
+        ],
+        "surface_landmarks": [
+          {
+            "text": "Mark the coracoid, the proximal humeral shaft at the axilla, and the acromion. The cut can be extended to the AC joint or acromion.",
+            "source_ids": [
+              "ao_33a2adf3f7c2a8d6"
+            ]
+          }
+        ],
+        "incision": [
+          {
+            "text": "Make a 12\u201314 cm cut between the coracoid and the proximal humeral shaft toward the deltoid insertion.",
+            "source_ids": [
+              "ao_33a2adf3f7c2a8d6",
+              "ao_c5861e08ea2a1064"
+            ]
+          }
+        ],
+        "superficial_interval": [
+          {
+            "text": "Develop the pectoralis\u2013deltoid interval and preserve the cephalic vein, taking it either way. Missing the groove risks denervating anterior deltoid.",
+            "source_ids": [
+              "ao_33a2adf3f7c2a8d6",
+              "ao_c5861e08ea2a1064"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "deep_interval": [
+          {
+            "text": "Incise clavipectoral fascia lateral to the conjoint tendon and inferior to the coracoacromial ligament. Retract deltoid laterally and the conjoint tendon medially. The musculocutaneous nerve enters coracobrachialis as close as 2.5 cm distal to the coracoid. Divide subscapularis vertically lateral to the musculotendinous junction, reflect it from capsule, and enter the joint with a vertical capsulotomy medial to the lateral subscapularis stump. Retract the head to see the glenoid.",
+            "source_ids": [
+              "ao_33a2adf3f7c2a8d6",
+              "ao_c5861e08ea2a1064"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "layers": [
+          {
+            "text": "Skin, deltopectoral groove and cephalic vein, clavipectoral fascia, subscapularis, capsule, then the glenoid.",
+            "source_ids": [
+              "ao_33a2adf3f7c2a8d6"
+            ]
+          }
+        ],
+        "structures_at_risk": [
+          {
+            "text": "The cephalic vein, musculocutaneous nerve, axillary nerve (on subscapularis then inferior to the glenoid into the quadrilateral space), anterior circumflex vessels, and the brachial plexus with excessive medial retraction are at risk.",
+            "source_ids": [
+              "ao_33a2adf3f7c2a8d6",
+              "ao_c5861e08ea2a1064"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "danger_zones": [
+          {
+            "text": "Vigorous medial retraction under the conjoint tendon is the musculocutaneous-nerve danger zone. The axillary nerve is unseen but present on medial subscapularis and inferior to the glenoid.",
+            "source_ids": [
+              "ao_33a2adf3f7c2a8d6"
+            ],
+            "risk_level": "medium"
+          }
+        ],
+        "retraction_hazards": [
+          {
+            "text": "Avoid excessive medial traction on the conjoint tendon and plexus.",
+            "source_ids": [
+              "ao_33a2adf3f7c2a8d6"
+            ],
+            "risk_level": "medium"
+          }
+        ],
+        "exposure": [
+          {
+            "text": "Preferred for almost any shoulder fracture and especially for anterior glenoid fractures; it is also the recommended extensile anterior corridor.",
+            "source_ids": [
+              "ao_33a2adf3f7c2a8d6"
+            ]
+          }
+        ],
+        "limitations": [
+          {
+            "text": "The axillary nerve is not seen and must be respected. Posterior scapular body work needs a different window.",
+            "source_ids": [
+              "ao_33a2adf3f7c2a8d6"
+            ]
+          }
+        ],
+        "indications": [
+          {
+            "text": "Used for almost any shoulder fracture treatment and especially for anterior glenoid fractures.",
+            "source_ids": [
+              "ao_33a2adf3f7c2a8d6"
+            ]
+          }
+        ],
+        "closure": [
+          {
+            "text": "Repair capsule then subscapularis, obtain hemostasis (cephalic vein or the inferior subscapularis vessel trio), close the deltopectoral groove, and close skin. A drain may be used.",
+            "source_ids": [
+              "ao_33a2adf3f7c2a8d6"
+            ]
+          }
+        ],
+        "complications": [
+          {
+            "text": "Complications include musculocutaneous or axillary-nerve injury, cephalic-vein bleeding, and anterior deltoid denervation if the groove is missed.",
+            "source_ids": [
+              "ao_33a2adf3f7c2a8d6",
+              "ao_c5861e08ea2a1064"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "questions": [
+          {
+            "question": "How close to the coracoid can the musculocutaneous nerve enter coracobrachialis?",
+            "answer": "As close as 2.5 cm distal to the coracoid tip.",
+            "source_ids": [
+              "ao_33a2adf3f7c2a8d6"
+            ]
+          },
+          {
+            "question": "Where is the subscapularis divided?",
+            "answer": "Vertically, lateral to the musculotendinous junction.",
+            "source_ids": [
+              "ao_33a2adf3f7c2a8d6"
+            ]
+          },
+          {
+            "question": "How is the glenoid then seen?",
+            "answer": "After a vertical capsulotomy medial to the lateral subscapularis stump, the humeral head is retracted.",
+            "source_ids": [
+              "ao_33a2adf3f7c2a8d6"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "approach_id": "scapula_posterior_judet_brodsky",
+      "name": "Posterior approaches to the scapular body (Judet and Brodsky)",
+      "aliases": [
+        "modified Judet scapular approach",
+        "Brodsky lateral-column scapular approach"
+      ],
+      "region": "scapula",
+      "joint": "shoulder",
+      "bones": [
+        "scapula",
+        "glenoid"
+      ],
+      "corridor": "Lateral decubitus Judet incision along the spine then the medial border, or a Brodsky cut parallel to the lateral border, developing internervous intervals (infraspinatus\u2013teres minor, spinoglenoid notch, teres minor\u2013major) while protecting the suprascapular nerve and axillary/posterior circumflex bundle",
+      "sources": [
+        {
+          "source_id": "ao_490a9577ceb8ef6e",
+          "provider": "AO Surgery Reference",
+          "title": "Posterior Approach To The Scapular Body",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/scapula/approach/posterior-approach-to-the-scapular-body",
+          "source_page_id": "ao_490a9577ceb8ef6e"
+        },
+        {
+          "source_id": "ao_d25ad02727930e87",
+          "provider": "AO Surgery Reference",
+          "title": "Posterior Approach To Scapular Body",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/periprosthetic-fractures/shoulder/approach/posterior-approach-to-scapular-body",
+          "source_page_id": "ao_d25ad02727930e87"
+        },
+        {
+          "source_id": "orthobullets_5787c754354dad09",
+          "provider": "Orthobullets",
+          "title": "Posterior To Shoulder",
+          "url": "https://www.orthobullets.com/approaches/12054/posterior-to-shoulder",
+          "source_page_id": "orthobullets_5787c754354dad09"
+        },
+        {
+          "source_id": "orthobullets_fba9cf092366dd01",
+          "provider": "Orthobullets",
+          "title": "Judet Approach To Scapula",
+          "url": "https://www.orthobullets.com/approaches/12069/judet-approach-to-scapula",
+          "source_page_id": "orthobullets_fba9cf092366dd01"
+        }
+      ],
+      "procedure_applications": [
+        {
+          "procedure_id": "scapula_fracture_orif",
+          "relationship": "primary_option",
+          "condition": "A scapular-body, lateral-column, or posterior glenoid fracture is exposed through a Judet or Brodsky window"
+        }
+      ],
+      "sections": {
+        "positioning": [
+          {
+            "text": "Prefer lateral decubitus with the arm on a support, abducted 45\u201390\u00b0 relative to the scapula.",
+            "source_ids": [
+              "ao_490a9577ceb8ef6e"
+            ]
+          }
+        ],
+        "surface_landmarks": [
+          {
+            "text": "Mark the posterior acromial corner, posterior AC joint, medial end of the scapular spine, and the inferior pole.",
+            "source_ids": [
+              "ao_490a9577ceb8ef6e"
+            ]
+          }
+        ],
+        "incision": [
+          {
+            "text": "Judet: from the posterior acromial corner along the spine to the medial border, then distally to the inferior pole. Brodsky: from medial to the posterior acromial corner distally to the inferior pole, parallel to the lateral border. Elevate skin only epifascially enough to see the inferior deltoid border.",
+            "source_ids": [
+              "ao_490a9577ceb8ef6e"
+            ]
+          }
+        ],
+        "superficial_interval": [
+          {
+            "text": "Modified Judet elevates the posterior deltoid border without detaching it. Classic Judet detaches deltoid from the spine if more superior articular access is needed.",
+            "source_ids": [
+              "ao_490a9577ceb8ef6e"
+            ]
+          }
+        ],
+        "deep_interval": [
+          {
+            "text": "Elevate infraspinatus from its fossa and retract it laterally for neck, posterior rim, and body. Brodsky: retract deltoid superiorly (mind axillary nerve and posterior circumflex vessels), split infraspinatus fascia, develop infraspinatus\u2013teres minor to the long head of triceps and the infraglenoid tubercle, use teres minor\u2013major (circumflex scapular vessels) for the rest of the lateral column, and supraspinatus\u2013infraspinatus for the superior articular segment while protecting the nerve at the spinoglenoid notch. A transverse posterior arthrotomy checks the fossa.",
+            "source_ids": [
+              "ao_490a9577ceb8ef6e",
+              "ao_d25ad02727930e87"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "layers": [
+          {
+            "text": "Skin, epifascial flap, deltoid border, infraspinatus/teres intervals, then the posterior scapula and glenoid.",
+            "source_ids": [
+              "ao_490a9577ceb8ef6e"
+            ]
+          }
+        ],
+        "structures_at_risk": [
+          {
+            "text": "The suprascapular nerve at the spinoglenoid notch, the axillary nerve and posterior circumflex vessels in the quadrilateral space (supplying teres minor), and skin over a bluntly injured flap are at risk.",
+            "source_ids": [
+              "ao_490a9577ceb8ef6e",
+              "ao_d25ad02727930e87"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "danger_zones": [
+          {
+            "text": "The spinoglenoid notch and the lateral retraction of deltoid over the axillary/posterior circumflex bundle are the danger zones.",
+            "source_ids": [
+              "ao_490a9577ceb8ef6e"
+            ],
+            "risk_level": "medium"
+          }
+        ],
+        "retraction_hazards": [
+          {
+            "text": "Avoid extensive desquamation of the skin flap. Do not over-retract deltoid laterally.",
+            "source_ids": [
+              "ao_490a9577ceb8ef6e"
+            ],
+            "risk_level": "medium"
+          }
+        ],
+        "exposure": [
+          {
+            "text": "Judet shows the lateral column, articular segment, medial border, and body. Brodsky shows the lateral column and articular segment without the medial border; a small medial-spine cut can control a medial-exit line.",
+            "source_ids": [
+              "ao_490a9577ceb8ef6e"
+            ]
+          }
+        ],
+        "limitations": [
+          {
+            "text": "Modified Judet avoids deltoid detachment and still gives almost the same view. Brodsky does not expose the medial border and body unless a second cut is added.",
+            "source_ids": [
+              "ao_490a9577ceb8ef6e"
+            ]
+          }
+        ],
+        "indications": [
+          {
+            "text": "Used for posterior exposure of the scapular body and articular segment.",
+            "source_ids": [
+              "ao_490a9577ceb8ef6e"
+            ]
+          }
+        ],
+        "closure": [
+          {
+            "text": "Repair the capsule and infraspinatus fascia. Let deltoid fall back; its fascia need not be repaired. Close fat and skin.",
+            "source_ids": [
+              "ao_490a9577ceb8ef6e"
+            ]
+          }
+        ],
+        "complications": [
+          {
+            "text": "Complications include suprascapular-nerve injury at the spinoglenoid notch, axillary-nerve injury, and skin necrosis after blunt injury if the flap is raised too widely.",
+            "source_ids": [
+              "ao_490a9577ceb8ef6e",
+              "ao_d25ad02727930e87"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "questions": [
+          {
+            "question": "How does modified Judet differ from classic Judet?",
+            "answer": "Modified Judet elevates the posterior deltoid border and does not detach deltoid from the spine.",
+            "source_ids": [
+              "ao_490a9577ceb8ef6e"
+            ]
+          },
+          {
+            "question": "Which interval exposes the inferolateral scapula in the Brodsky approach?",
+            "answer": "Infraspinatus\u2013teres minor, following the long head of triceps to the infraglenoid tubercle.",
+            "source_ids": [
+              "ao_490a9577ceb8ef6e"
+            ]
+          },
+          {
+            "question": "Which nerve is at risk at the spinoglenoid notch?",
+            "answer": "The suprascapular nerve to infraspinatus.",
+            "source_ids": [
+              "ao_490a9577ceb8ef6e"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "approach_id": "scapula_superior_saber_acromion",
+      "name": "Superior saber-cut and acromial approaches",
+      "aliases": [
+        "saber-cut AC approach",
+        "superior deltoid-split to the acromion"
+      ],
+      "region": "scapula",
+      "joint": "acriomioclavicular",
+      "bones": [
+        "acromion",
+        "clavicle"
+      ],
+      "corridor": "Either a front-to-back saber cut over the AC joint to the posterior acromion, or a superior deltoid split from the mid greater tuberosity across the anterior acromial tip toward the spine, with optional partial deltoid/trapezius release",
+      "sources": [
+        {
+          "source_id": "ao_21935af2a804d480",
+          "provider": "AO Surgery Reference",
+          "title": "Sabercut Approach",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/scapula/approach/sabercut-approach",
+          "source_page_id": "ao_21935af2a804d480"
+        },
+        {
+          "source_id": "ao_ac20a8526d645bb2",
+          "provider": "AO Surgery Reference",
+          "title": "Superior Approach To The Acromion",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/scapula/approach/superior-approach-to-the-acromion",
+          "source_page_id": "ao_ac20a8526d645bb2"
+        },
+        {
+          "source_id": "ao_8f2c45a58145d70b",
+          "provider": "AO Surgery Reference",
+          "title": "Anterolateral approach to the proximal humerus",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/proximal-humerus/approach/anterolateral-approach",
+          "source_page_id": "ao_8f2c45a58145d70b"
+        },
+        {
+          "source_id": "ao_1e9e26ed111452b4",
+          "provider": "AO Surgery Reference",
+          "title": "Superior Acromial Anterior To Posterior Approach",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/periprosthetic-fractures/shoulder/approach/superior-acromial-anterior-to-posterior-approach",
+          "source_page_id": "ao_1e9e26ed111452b4"
+        },
+        {
+          "source_id": "ao_3512a5b6cfced2c0",
+          "provider": "AO Surgery Reference",
+          "title": "Superior Scapular Approach",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/periprosthetic-fractures/shoulder/approach/superior-scapular-approach",
+          "source_page_id": "ao_3512a5b6cfced2c0"
+        }
+      ],
+      "procedure_applications": [
+        {
+          "procedure_id": "acromion_fracture_orif",
+          "relationship": "primary_option",
+          "condition": "An acromion or AC-joint fracture is exposed from superior, with optional extension into a deltoid split or deltopectoral interval"
+        },
+        {
+          "procedure_id": "periprosthetic_shoulder_fracture_orif",
+          "relationship": "primary_option",
+          "condition": "A periprosthetic acromial fracture around a reverse or anatomic prosthesis is exposed from superior"
+        }
+      ],
+      "sections": {
+        "positioning": [
+          {
+            "text": "Position so the AC joint, acromion, greater tuberosity, and scapular spine can be palpated.",
+            "source_ids": [
+              "ao_21935af2a804d480",
+              "ao_ac20a8526d645bb2"
+            ]
+          }
+        ],
+        "surface_landmarks": [
+          {
+            "text": "For the saber cut mark the AC joint and the dorsal acromial rim. For the superior deltoid split mark the acromion, greater tuberosity, and scapular spine.",
+            "source_ids": [
+              "ao_21935af2a804d480",
+              "ao_ac20a8526d645bb2"
+            ]
+          }
+        ],
+        "incision": [
+          {
+            "text": "Saber cut: start anteriorly over the humeral head, cross the AC joint, and end at the posterior acromion; it can join a deltopectoral cut in front or a posterior approach behind. Superior split: start at the midpoint of the greater tuberosity and aim at the spine, crossing just posterior to the anterior acromial tip.",
+            "source_ids": [
+              "ao_21935af2a804d480",
+              "ao_ac20a8526d645bb2"
+            ]
+          }
+        ],
+        "superficial_interval": [
+          {
+            "text": "The superior split goes through the acromial part of deltoid in line with its fibers and can be extended into a standard deltoid split.",
+            "source_ids": [
+              "ao_ac20a8526d645bb2",
+              "ao_8f2c45a58145d70b"
+            ]
+          }
+        ],
+        "deep_interval": [
+          {
+            "text": "Partially detach deltoid and trapezius if needed to see the full acromial fracture line. If the split is carried inferiorly, the axillary nerve crosses about 6 cm distal to the lateral acromion.",
+            "source_ids": [
+              "ao_21935af2a804d480",
+              "ao_ac20a8526d645bb2"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "layers": [
+          {
+            "text": "Skin, deltoid/trapezius origin, then the AC joint and acromion.",
+            "source_ids": [
+              "ao_21935af2a804d480",
+              "ao_ac20a8526d645bb2"
+            ]
+          }
+        ],
+        "structures_at_risk": [
+          {
+            "text": "The axillary nerve if a superior split is extended inferiorly, and the deltoid/trapezius origins if they are released and not repaired.",
+            "source_ids": [
+              "ao_ac20a8526d645bb2",
+              "ao_8f2c45a58145d70b"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "danger_zones": [
+          {
+            "text": "A distal deltoid-split extension more than about 5\u20136 cm below the acromion is the axillary-nerve danger zone.",
+            "source_ids": [
+              "ao_ac20a8526d645bb2",
+              "ao_8f2c45a58145d70b"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "retraction_hazards": [
+          {
+            "text": "Release muscle only as far as the fracture requires so it can be reattached.",
+            "source_ids": [
+              "ao_21935af2a804d480",
+              "ao_ac20a8526d645bb2"
+            ]
+          }
+        ],
+        "exposure": [
+          {
+            "text": "The saber cut shows the AC joint and acromion. The superior split shows simple acromion fractures and can be used for proximal-humeral nailing.",
+            "source_ids": [
+              "ao_21935af2a804d480",
+              "ao_ac20a8526d645bb2"
+            ]
+          }
+        ],
+        "limitations": [
+          {
+            "text": "Neither window exposes the scapular body. Distal deltoid-split length is capped by the axillary nerve.",
+            "source_ids": [
+              "ao_ac20a8526d645bb2",
+              "ao_8f2c45a58145d70b"
+            ]
+          }
+        ],
+        "indications": [
+          {
+            "text": "Used to expose the AC joint and acromion, including simple acromion fractures, periprosthetic acromial fractures around reverse or anatomic prostheses, and as a superior extension for proximal-humeral nailing.",
+            "source_ids": [
+              "ao_21935af2a804d480",
+              "ao_ac20a8526d645bb2",
+              "ao_1e9e26ed111452b4",
+              "ao_3512a5b6cfced2c0"
+            ]
+          }
+        ],
+        "closure": [
+          {
+            "text": "Reattach released muscle and close fascia, fat, and skin in layers.",
+            "source_ids": [
+              "ao_21935af2a804d480",
+              "ao_ac20a8526d645bb2"
+            ]
+          }
+        ],
+        "complications": [
+          {
+            "text": "Complications include axillary-nerve injury from an over-long inferior split and failure to reattach deltoid or trapezius.",
+            "source_ids": [
+              "ao_ac20a8526d645bb2",
+              "ao_8f2c45a58145d70b"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "questions": [
+          {
+            "question": "Where does a saber-cut incision run?",
+            "answer": "From over the humeral head, across the AC joint, to the posterior acromion.",
+            "source_ids": [
+              "ao_21935af2a804d480"
+            ]
+          },
+          {
+            "question": "Where does the superior acromial split start and aim?",
+            "answer": "From the midpoint of the greater tuberosity toward the scapular spine, crossing just posterior to the anterior acromial tip.",
+            "source_ids": [
+              "ao_ac20a8526d645bb2"
+            ]
+          },
+          {
+            "question": "How far below the acromion does the axillary nerve typically cross?",
+            "answer": "About 6 cm distal to the lateral acromial border.",
+            "source_ids": [
+              "ao_ac20a8526d645bb2"
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,365 @@
+{
+  "schema_version": "brobot_approach_packet_v1",
+  "approach_id": "spine_posterior_occipitocervical",
+  "name": "Posterior occipitocervical and C1–C2 approach",
+  "aliases": [
+    "posterior C0–C2 approach",
+    "posterior C1–C2 approach"
+  ],
+  "region": "occipitocervical",
+  "joint": "",
+  "bones": [
+    "occiput",
+    "C1",
+    "C2"
+  ],
+  "corridor": "Midline avascular plane from the external occipital protuberance to C2–C5, subperiosteal C1 ring staying within 1.5 cm of midline, then C2 lamina and facet with optional C2-root reflection for C1 lateral-mass screws",
+  "positioning": [
+    {
+      "text": "Position prone so the external occipital protuberance, C1 arch, and C2 spinous process can be marked.",
+      "claim_ids": [
+        "spine_posterior_occipitocervical_positioning_01"
+      ]
+    }
+  ],
+  "setup": [],
+  "surface_landmarks": [
+    {
+      "text": "Mark the EOP, superior nuchal line, foramen magnum, and the C1–C2 spinous processes. Occipitocervical cuts typically run 5–7 cm from the EOP to C3 or C5; an isolated C1–C2 cut starts at the top of C1 and ends at the bottom of C2.",
+      "claim_ids": [
+        "spine_posterior_occipitocervical_surface_landmarks_01"
+      ]
+    }
+  ],
+  "incision": [
+    {
+      "text": "Incise in the midline over the planned segment, typically no more than 5–7 cm.",
+      "claim_ids": [
+        "spine_posterior_occipitocervical_incision_01"
+      ]
+    }
+  ],
+  "superficial_interval": [
+    {
+      "text": "Stay in the relatively avascular midline intermuscular plane with cautery or scissors. Wandering laterally into muscle markedly increases blood loss. Identify the midline of the C1 posterior arch.",
+      "claim_ids": [
+        "spine_posterior_occipitocervical_superficial_interval_01"
+      ]
+    }
+  ],
+  "deep_interval": [
+    {
+      "text": "Push soft tissue subperiosteally off the C1 arch with a Cobb. The vertebral artery lies only 1.5 cm lateral to the midline; do not go beyond the lateral mass if C1 screws are planned. Expose C2 spinous process, lamina, and facet; preserve the semispinalis cervicis attachment on the caudal C2 spinous process and do not detach the C2–C3 soft tissues, which risks postoperative kyphosis. For C1 lateral-mass screws, reflect the C2 root and veins caudally with a Penfield 4; pack thrombin-Gelfoam if it bleeds and work the other side. Cutting the C2 nerve widens the field but 15–20% develop chronic pain and 10–15% have an intersegmental or anomalous vertebral artery with the nerve.",
+      "claim_ids": [
+        "spine_posterior_occipitocervical_deep_interval_01"
+      ]
+    }
+  ],
+  "layers": [
+    {
+      "text": "Skin, midline nuchal plane, occiput and C1 arch, C2 lamina and facet, optional C2-root window to the C1 lateral mass.",
+      "claim_ids": [
+        "spine_posterior_occipitocervical_layers_01"
+      ]
+    }
+  ],
+  "structures_encountered": [],
+  "structures_at_risk": [
+    {
+      "text": "The vertebral artery 1.5 cm lateral to the C1 midline, the C2 nerve and its venous plexus, an anomalous vertebral or intersegmental artery with the C2 nerve, and the semispinalis cervicis insertion on C2 are at risk.",
+      "claim_ids": [
+        "spine_posterior_occipitocervical_structures_at_risk_01"
+      ]
+    }
+  ],
+  "danger_zones": [
+    {
+      "text": "Lateral dissection past 1.5 cm on the C1 arch, Cobb work through tumor-involved posterior elements, and Gelfoam over an open dura (it expands and compresses the cord) are the danger zones.",
+      "claim_ids": [
+        "spine_posterior_occipitocervical_danger_zones_01"
+      ]
+    }
+  ],
+  "retraction_hazards": [
+    {
+      "text": "If C2-root venous bleeding starts, pack it and switch sides rather than chasing bleeders around the artery.",
+      "claim_ids": [
+        "spine_posterior_occipitocervical_retraction_hazards_01"
+      ]
+    }
+  ],
+  "exposure": [
+    {
+      "text": "Shows the occiput to C2, and farther caudally if planned, for C1 lateral-mass and C2 screws or an occipital plate.",
+      "claim_ids": [
+        "spine_posterior_occipitocervical_exposure_01"
+      ]
+    }
+  ],
+  "limitations": [
+    {
+      "text": "An isolated C1–C2 window does not include the occiput. Cutting C2 for exposure has a chronic-pain cost.",
+      "claim_ids": [
+        "spine_posterior_occipitocervical_limitations_01"
+      ]
+    }
+  ],
+  "extensions": [],
+  "indications": [
+    {
+      "text": "Used for posterior C1–C2 trauma fixation and for occipitocervical metastatic or primary-tumor access.",
+      "claim_ids": [
+        "spine_posterior_occipitocervical_indications_01"
+      ]
+    }
+  ],
+  "relative_contraindications": [],
+  "implant_implications": [],
+  "fluoroscopy_implications": [],
+  "closure": [
+    {
+      "text": "Achieve hemostasis, reapproximate muscle with interrupted sutures about 1 cm apart, and compress each layer 30–60 seconds. A drain is often unnecessary after meticulous hemostasis in isolated C1–C2 work. Do not leave Gelfoam on open dura.",
+      "claim_ids": [
+        "spine_posterior_occipitocervical_closure_01"
+      ]
+    }
+  ],
+  "complications": [
+    {
+      "text": "Complications include vertebral-artery injury, C2 neuralgia after root sacrifice, postoperative C2–C3 kyphosis if the extensor insertion is taken down, and hematoma or dehiscence if muscle is not reapproximated densely.",
+      "claim_ids": [
+        "spine_posterior_occipitocervical_complications_01"
+      ]
+    }
+  ],
+  "bailouts": [],
+  "procedure_applications": [
+    {
+      "procedure_id": "cervical_spine_orif",
+      "relationship": "primary_option",
+      "condition": "C1–C2 or occipitocervical instrumentation is placed from a posterior midline window"
+    }
+  ],
+  "questions": [
+    {
+      "question": "How far lateral to the C1 midline does the vertebral artery lie?",
+      "answer": "Only 1.5 cm.",
+      "claim_ids": [
+        "spine_posterior_occipitocervical_questions_01"
+      ]
+    },
+    {
+      "question": "Which C2 muscle attachment should be preserved?",
+      "answer": "Semispinalis cervicis on the caudal border of the C2 spinous process.",
+      "claim_ids": [
+        "spine_posterior_occipitocervical_questions_02"
+      ]
+    },
+    {
+      "question": "What is the chronic-pain risk of cutting the C2 nerve?",
+      "answer": "15–20% of patients develop chronic pain requiring medication.",
+      "claim_ids": [
+        "spine_posterior_occipitocervical_questions_03"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "spine_posterior_occipitocervical_positioning_01",
+      "text": "Position prone so the external occipital protuberance, C1 arch, and C2 spinous process can be marked.",
+      "source_ids": [
+        "ao_c779adf8b81e1ca3",
+        "ao_a8db8360221a635a"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "spine_posterior_occipitocervical_surface_landmarks_01",
+      "text": "Mark the EOP, superior nuchal line, foramen magnum, and the C1–C2 spinous processes. Occipitocervical cuts typically run 5–7 cm from the EOP to C3 or C5; an isolated C1–C2 cut starts at the top of C1 and ends at the bottom of C2.",
+      "source_ids": [
+        "ao_c779adf8b81e1ca3",
+        "ao_a8db8360221a635a",
+        "ao_da04522addb8664f"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "spine_posterior_occipitocervical_incision_01",
+      "text": "Incise in the midline over the planned segment, typically no more than 5–7 cm.",
+      "source_ids": [
+        "ao_c779adf8b81e1ca3",
+        "ao_a8db8360221a635a"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "spine_posterior_occipitocervical_superficial_interval_01",
+      "text": "Stay in the relatively avascular midline intermuscular plane with cautery or scissors. Wandering laterally into muscle markedly increases blood loss. Identify the midline of the C1 posterior arch.",
+      "source_ids": [
+        "ao_c779adf8b81e1ca3",
+        "ao_a8db8360221a635a"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "spine_posterior_occipitocervical_deep_interval_01",
+      "text": "Push soft tissue subperiosteally off the C1 arch with a Cobb. The vertebral artery lies only 1.5 cm lateral to the midline; do not go beyond the lateral mass if C1 screws are planned. Expose C2 spinous process, lamina, and facet; preserve the semispinalis cervicis attachment on the caudal C2 spinous process and do not detach the C2–C3 soft tissues, which risks postoperative kyphosis. For C1 lateral-mass screws, reflect the C2 root and veins caudally with a Penfield 4; pack thrombin-Gelfoam if it bleeds and work the other side. Cutting the C2 nerve widens the field but 15–20% develop chronic pain and 10–15% have an intersegmental or anomalous vertebral artery with the nerve.",
+      "source_ids": [
+        "ao_c779adf8b81e1ca3",
+        "ao_a8db8360221a635a",
+        "ao_da04522addb8664f"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "spine_posterior_occipitocervical_layers_01",
+      "text": "Skin, midline nuchal plane, occiput and C1 arch, C2 lamina and facet, optional C2-root window to the C1 lateral mass.",
+      "source_ids": [
+        "ao_c779adf8b81e1ca3",
+        "ao_a8db8360221a635a"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "spine_posterior_occipitocervical_structures_at_risk_01",
+      "text": "The vertebral artery 1.5 cm lateral to the C1 midline, the C2 nerve and its venous plexus, an anomalous vertebral or intersegmental artery with the C2 nerve, and the semispinalis cervicis insertion on C2 are at risk.",
+      "source_ids": [
+        "ao_c779adf8b81e1ca3",
+        "ao_a8db8360221a635a"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "spine_posterior_occipitocervical_danger_zones_01",
+      "text": "Lateral dissection past 1.5 cm on the C1 arch, Cobb work through tumor-involved posterior elements, and Gelfoam over an open dura (it expands and compresses the cord) are the danger zones.",
+      "source_ids": [
+        "ao_c779adf8b81e1ca3",
+        "ao_da04522addb8664f"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "spine_posterior_occipitocervical_retraction_hazards_01",
+      "text": "If C2-root venous bleeding starts, pack it and switch sides rather than chasing bleeders around the artery.",
+      "source_ids": [
+        "ao_c779adf8b81e1ca3",
+        "ao_a8db8360221a635a"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "spine_posterior_occipitocervical_exposure_01",
+      "text": "Shows the occiput to C2, and farther caudally if planned, for C1 lateral-mass and C2 screws or an occipital plate.",
+      "source_ids": [
+        "ao_c779adf8b81e1ca3",
+        "ao_a8db8360221a635a"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "spine_posterior_occipitocervical_limitations_01",
+      "text": "An isolated C1–C2 window does not include the occiput. Cutting C2 for exposure has a chronic-pain cost.",
+      "source_ids": [
+        "ao_c779adf8b81e1ca3",
+        "ao_a8db8360221a635a"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "spine_posterior_occipitocervical_indications_01",
+      "text": "Used for posterior C1–C2 trauma fixation and for occipitocervical metastatic or primary-tumor access.",
+      "source_ids": [
+        "ao_c779adf8b81e1ca3",
+        "ao_a8db8360221a635a",
+        "ao_da04522addb8664f"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "spine_posterior_occipitocervical_closure_01",
+      "text": "Achieve hemostasis, reapproximate muscle with interrupted sutures about 1 cm apart, and compress each layer 30–60 seconds. A drain is often unnecessary after meticulous hemostasis in isolated C1–C2 work. Do not leave Gelfoam on open dura.",
+      "source_ids": [
+        "ao_c779adf8b81e1ca3",
+        "ao_a8db8360221a635a"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "spine_posterior_occipitocervical_complications_01",
+      "text": "Complications include vertebral-artery injury, C2 neuralgia after root sacrifice, postoperative C2–C3 kyphosis if the extensor insertion is taken down, and hematoma or dehiscence if muscle is not reapproximated densely.",
+      "source_ids": [
+        "ao_c779adf8b81e1ca3",
+        "ao_a8db8360221a635a"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "spine_posterior_occipitocervical_questions_01",
+      "text": "How far lateral to the C1 midline does the vertebral artery lie?",
+      "source_ids": [
+        "ao_c779adf8b81e1ca3",
+        "ao_a8db8360221a635a"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "spine_posterior_occipitocervical_questions_02",
+      "text": "Which C2 muscle attachment should be preserved?",
+      "source_ids": [
+        "ao_c779adf8b81e1ca3"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "spine_posterior_occipitocervical_questions_03",
+      "text": "What is the chronic-pain risk of cutting the C2 nerve?",
+      "source_ids": [
+        "ao_c779adf8b81e1ca3",
+        "ao_a8db8360221a635a"
+      ],
+      "risk_level": "medium"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "ao_c779adf8b81e1ca3",
+      "provider": "AO Surgery Reference",
+      "title": "Posterior Access To C1 C2",
+      "url": "https://surgeryreference.aofoundation.org/spine/trauma/occipitocervical/approach/posterior-access-to-c1-c2",
+      "source_page_id": "ao_c779adf8b81e1ca3"
+    },
+    {
+      "source_id": "ao_a8db8360221a635a",
+      "provider": "AO Surgery Reference",
+      "title": "Posterior Access To The Occipitocervical Spine",
+      "url": "https://surgeryreference.aofoundation.org/spine/tumors/metastatic-tumors/approach/posterior-access-to-the-occipitocervical-spine",
+      "source_page_id": "ao_a8db8360221a635a"
+    },
+    {
+      "source_id": "ao_da04522addb8664f",
+      "provider": "AO Surgery Reference",
+      "title": "Posterior Access To The Occipitocervical Spine C0 To C2",
+      "url": "https://surgeryreference.aofoundation.org/spine/tumors/primary-tumors/approach/posterior-access-to-the-occipitocervical-spine-c0-to-c2",
+      "source_page_id": "ao_da04522addb8664f"
+    }
+  ],
+  "content_status": "agent_review_pending",
+  "review": {
+    "status": "agent_review_pending",
+    "required_roles": [
+      "adversarial_safety_reviewer",
+      "approach_anatomy_reviewer",
+      "educational_value_reviewer",
+      "evidence_reviewer",
+      "operative_exposure_reviewer",
+      "procedure_applicability_reviewer"
+    ],
+    "completed_roles": []
+  },
+  "resolved_contradiction_keys": [],
+  "authoring_provenance": {
+    "method": "local_codex_curated",
+    "definition_file": "data/approach_library/curated/spine_remaining_batch001_v1.json",
+    "api_used": false
+  }
+}

@@ -1,0 +1,352 @@
+{
+  "schema_version": "brobot_approach_packet_v1",
+  "approach_id": "hand_dip_joint_palmar",
+  "name": "Palmar approach to the distal interphalangeal joint",
+  "aliases": [
+    "volar Bruner approach to the DIP joint"
+  ],
+  "region": "hand-distal-phalanges",
+  "joint": "distal interphalangeal joint",
+  "bones": [
+    "distal phalanx",
+    "middle phalanx"
+  ],
+  "corridor": "Bruner zigzag at the distal flexor crease, protecting the digital neurovascular bundles, dividing A5 and C3 while preserving A4, and retracting FDP to the palmar DIP",
+  "positioning": [
+    {
+      "text": "Position the hand supine on a hand table under tourniquet so the palmar DIP crease is accessible.",
+      "claim_ids": [
+        "hand_dip_joint_palmar_positioning_01"
+      ]
+    }
+  ],
+  "setup": [],
+  "surface_landmarks": [
+    {
+      "text": "Use the distal flexor crease as the Bruner apex, level with the DIP joint.",
+      "claim_ids": [
+        "hand_dip_joint_palmar_surface_landmarks_01"
+      ]
+    }
+  ],
+  "incision": [
+    {
+      "text": "Make a planned Bruner zigzag with the apex at the distal flexor crease.",
+      "claim_ids": [
+        "hand_dip_joint_palmar_incision_01"
+      ]
+    }
+  ],
+  "superficial_interval": [
+    {
+      "text": "Elevate the angled flap by blunt dissection, retract the apex with a fine stitch, and identify and gently mobilize the digital arteries and nerves.",
+      "claim_ids": [
+        "hand_dip_joint_palmar_superficial_interval_01"
+      ]
+    }
+  ],
+  "deep_interval": [
+    {
+      "text": "Divide A5 and C3 laterally near bone, leaving at least 2 mm for repair. Do not cut A4. Elevate the pulley flap, retract FDP, and expose the palmar DIP without dividing the volar plate, which lies immediately deep to profundus.",
+      "claim_ids": [
+        "hand_dip_joint_palmar_deep_interval_01"
+      ]
+    }
+  ],
+  "layers": [
+    {
+      "text": "Skin, thin subcutis, digital neurovascular bundles, A5/C3 pulleys, FDP (superficial fibers to the lateral base, deep fibers more distal), volar plate, then palmar DIP.",
+      "claim_ids": [
+        "hand_dip_joint_palmar_layers_01"
+      ]
+    }
+  ],
+  "structures_encountered": [],
+  "structures_at_risk": [
+    {
+      "text": "The digital nerve and artery, the A4 pulley, the volar plate immediately deep to FDP, and the profundus insertion that spans the whole palmar base are at risk.",
+      "claim_ids": [
+        "hand_dip_joint_palmar_structures_at_risk_01"
+      ]
+    }
+  ],
+  "danger_zones": [
+    {
+      "text": "Cutting A4 produces bowstringing. Dividing the volar plate is unnecessary and should be avoided.",
+      "claim_ids": [
+        "hand_dip_joint_palmar_danger_zones_01"
+      ]
+    }
+  ],
+  "retraction_hazards": [
+    {
+      "text": "Mobilize digital neurovascular bundles gently and retract FDP only after the pulley flap is elevated.",
+      "claim_ids": [
+        "hand_dip_joint_palmar_retraction_hazards_01"
+      ]
+    }
+  ],
+  "exposure": [
+    {
+      "text": "Shows the palmar DIP and distal phalanx for profundus-avulsion fixation.",
+      "claim_ids": [
+        "hand_dip_joint_palmar_exposure_01"
+      ]
+    }
+  ],
+  "limitations": [
+    {
+      "text": "A dorsal extensor avulsion or DIP arthrodesis is not reached from this corridor.",
+      "claim_ids": [
+        "hand_dip_joint_palmar_limitations_01"
+      ]
+    }
+  ],
+  "extensions": [],
+  "indications": [
+    {
+      "text": "Indicated for avulsion fractures of the palmar distal-phalanx base at the profundus insertion.",
+      "claim_ids": [
+        "hand_dip_joint_palmar_indications_01"
+      ]
+    }
+  ],
+  "relative_contraindications": [],
+  "implant_implications": [],
+  "fluoroscopy_implications": [],
+  "closure": [
+    {
+      "text": "Reattach A5 and C3 with fine mattress sutures before standard skin closure.",
+      "claim_ids": [
+        "hand_dip_joint_palmar_closure_01"
+      ]
+    }
+  ],
+  "complications": [
+    {
+      "text": "Complications include digital neurovascular injury, A4 disruption with bowstringing, and missed profundus-insertion anatomy.",
+      "claim_ids": [
+        "hand_dip_joint_palmar_complications_01"
+      ]
+    }
+  ],
+  "bailouts": [],
+  "procedure_applications": [
+    {
+      "procedure_id": "distal_phalanx_fracture_orif",
+      "relationship": "primary_option",
+      "condition": "A palmar-base profundus avulsion of the distal phalanx needs a volar DIP window"
+    }
+  ],
+  "questions": [
+    {
+      "question": "Which pulleys may be divided at the palmar DIP?",
+      "answer": "A5 and C3, leaving at least 2 mm for repair. A4 is preserved.",
+      "claim_ids": [
+        "hand_dip_joint_palmar_questions_01"
+      ]
+    },
+    {
+      "question": "Where is the volar plate relative to FDP?",
+      "answer": "Immediately deep to the profundus tendon.",
+      "claim_ids": [
+        "hand_dip_joint_palmar_questions_02"
+      ]
+    },
+    {
+      "question": "Where is the Bruner apex placed?",
+      "answer": "At the distal flexor crease, level with the DIP joint.",
+      "claim_ids": [
+        "hand_dip_joint_palmar_questions_03"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "hand_dip_joint_palmar_positioning_01",
+      "text": "Position the hand supine on a hand table under tourniquet so the palmar DIP crease is accessible.",
+      "source_ids": [
+        "ao_c8fa94300f2558ac",
+        "ao_84c90651b50152c6"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "hand_dip_joint_palmar_surface_landmarks_01",
+      "text": "Use the distal flexor crease as the Bruner apex, level with the DIP joint.",
+      "source_ids": [
+        "ao_c8fa94300f2558ac"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "hand_dip_joint_palmar_incision_01",
+      "text": "Make a planned Bruner zigzag with the apex at the distal flexor crease.",
+      "source_ids": [
+        "ao_c8fa94300f2558ac",
+        "ao_84c90651b50152c6"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "hand_dip_joint_palmar_superficial_interval_01",
+      "text": "Elevate the angled flap by blunt dissection, retract the apex with a fine stitch, and identify and gently mobilize the digital arteries and nerves.",
+      "source_ids": [
+        "ao_c8fa94300f2558ac",
+        "ao_84c90651b50152c6"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "hand_dip_joint_palmar_deep_interval_01",
+      "text": "Divide A5 and C3 laterally near bone, leaving at least 2 mm for repair. Do not cut A4. Elevate the pulley flap, retract FDP, and expose the palmar DIP without dividing the volar plate, which lies immediately deep to profundus.",
+      "source_ids": [
+        "ao_c8fa94300f2558ac"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "hand_dip_joint_palmar_layers_01",
+      "text": "Skin, thin subcutis, digital neurovascular bundles, A5/C3 pulleys, FDP (superficial fibers to the lateral base, deep fibers more distal), volar plate, then palmar DIP.",
+      "source_ids": [
+        "ao_c8fa94300f2558ac",
+        "ao_5a649db4ce488812"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "hand_dip_joint_palmar_structures_at_risk_01",
+      "text": "The digital nerve and artery, the A4 pulley, the volar plate immediately deep to FDP, and the profundus insertion that spans the whole palmar base are at risk.",
+      "source_ids": [
+        "ao_c8fa94300f2558ac",
+        "ao_5a649db4ce488812"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "hand_dip_joint_palmar_danger_zones_01",
+      "text": "Cutting A4 produces bowstringing. Dividing the volar plate is unnecessary and should be avoided.",
+      "source_ids": [
+        "ao_c8fa94300f2558ac"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "hand_dip_joint_palmar_retraction_hazards_01",
+      "text": "Mobilize digital neurovascular bundles gently and retract FDP only after the pulley flap is elevated.",
+      "source_ids": [
+        "ao_c8fa94300f2558ac",
+        "ao_84c90651b50152c6"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "hand_dip_joint_palmar_exposure_01",
+      "text": "Shows the palmar DIP and distal phalanx for profundus-avulsion fixation.",
+      "source_ids": [
+        "ao_c8fa94300f2558ac"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "hand_dip_joint_palmar_limitations_01",
+      "text": "A dorsal extensor avulsion or DIP arthrodesis is not reached from this corridor.",
+      "source_ids": [
+        "ao_c8fa94300f2558ac",
+        "ao_5a649db4ce488812"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "hand_dip_joint_palmar_indications_01",
+      "text": "Indicated for avulsion fractures of the palmar distal-phalanx base at the profundus insertion.",
+      "source_ids": [
+        "ao_c8fa94300f2558ac"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "hand_dip_joint_palmar_closure_01",
+      "text": "Reattach A5 and C3 with fine mattress sutures before standard skin closure.",
+      "source_ids": [
+        "ao_c8fa94300f2558ac"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "hand_dip_joint_palmar_complications_01",
+      "text": "Complications include digital neurovascular injury, A4 disruption with bowstringing, and missed profundus-insertion anatomy.",
+      "source_ids": [
+        "ao_c8fa94300f2558ac",
+        "ao_5a649db4ce488812"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "hand_dip_joint_palmar_questions_01",
+      "text": "Which pulleys may be divided at the palmar DIP?",
+      "source_ids": [
+        "ao_c8fa94300f2558ac"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "hand_dip_joint_palmar_questions_02",
+      "text": "Where is the volar plate relative to FDP?",
+      "source_ids": [
+        "ao_c8fa94300f2558ac"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "hand_dip_joint_palmar_questions_03",
+      "text": "Where is the Bruner apex placed?",
+      "source_ids": [
+        "ao_c8fa94300f2558ac"
+      ],
+      "risk_level": "medium"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "ao_c8fa94300f2558ac",
+      "provider": "AO Surgery Reference",
+      "title": "Palmar Approach To The Dip Joint",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/hand-distal-phalanges/approach/palmar-approach-to-the-dip-joint",
+      "source_page_id": "ao_c8fa94300f2558ac"
+    },
+    {
+      "source_id": "ao_5a649db4ce488812",
+      "provider": "AO Surgery Reference",
+      "title": "Dorsal Approach To The Dip Joint",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/hand-distal-phalanges/approach/dorsal-approach-to-the-dip-joint",
+      "source_page_id": "ao_5a649db4ce488812"
+    },
+    {
+      "source_id": "ao_84c90651b50152c6",
+      "provider": "AO Surgery Reference",
+      "title": "Palmar approach to the proximal interphalangeal joint",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/hand-proximal-phalanges/approach/palmar-approach-to-proximal-interphalangeal-joint",
+      "source_page_id": "ao_84c90651b50152c6"
+    }
+  ],
+  "content_status": "agent_review_pending",
+  "review": {
+    "status": "agent_review_pending",
+    "required_roles": [
+      "adversarial_safety_reviewer",
+      "approach_anatomy_reviewer",
+      "educational_value_reviewer",
+      "evidence_reviewer",
+      "operative_exposure_reviewer",
+      "procedure_applicability_reviewer"
+    ],
+    "completed_roles": []
+  },
+  "resolved_contradiction_keys": [],
+  "authoring_provenance": {
+    "method": "local_codex_curated",
+    "definition_file": "data/approach_library/curated/hand_dip_pip_phalanx_batch001_v1.json",
+    "api_used": false
+  }
+}

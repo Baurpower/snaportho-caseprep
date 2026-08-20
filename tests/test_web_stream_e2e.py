@@ -251,10 +251,91 @@ class WebStreamE2ETests(unittest.TestCase):
             data for name, data in events
             if name == "section" and data["section_id"] == "decision_points"
         )
+        # decision_points no longer slices pimp_questions; with no curated seed
+        # it is filled by enrichment gap-fill (clearly marked generated).
         generated = [item for item in decision["items"] if item.get("generated")]
-        self.assertFalse(generated)
-        # The grounded indication question is preserved without AI additions.
-        self.assertFalse(decision["items"][0].get("generated"))
+        self.assertTrue(generated)
+        self.assertEqual(generated[0]["question"], "When do we operate?")
+
+    def test_certified_v1_2_fills_themed_sections_but_keeps_body_grounded(self) -> None:
+        """Certified v1.2: enrichment fills decision_points/postop only; pimp and
+        the descriptive body stay grounded-only (no partial pass, no padding)."""
+        from caseprep.services.enrichment_v1_1 import EnrichmentResult, _sanitize
+
+        enrichment = EnrichmentResult(
+            _sanitize(
+                {
+                    # Would gap-fill pimp/anatomy if allowed — must be ignored for
+                    # a certified packet (those stay grounded-only).
+                    "generated_pimp_questions": [
+                        {"question": "AI pimp?", "answer": "AI answer."}
+                    ],
+                    "anatomy_gap_fill": [
+                        {"question": "AI anatomy?", "answer": "AI anatomy fact.",
+                         "category": "must_know_anatomy"}
+                    ],
+                    "decision_points": [
+                        {"category": "when_to_operate",
+                         "question": "When do we operate?",
+                         "answer": "Failed conservative care."}
+                    ],
+                    "postop": ["Early digital motion; wound check at two weeks."],
+                }
+            ),
+            certified=True,
+        )
+        import main
+
+        with mock.patch.dict(
+            os.environ,
+            {"ENABLE_CASEPREP_WEB_V1_2_STREAM": "true",
+             "CASEPREP_V1_1_ENRICHMENT_ENABLED": "true"},
+        ), mock.patch.object(main, "OPENAI_CLIENT", mock.Mock()), mock.patch(
+            "caseprep.engines.v1_1_web_stream.curated_content_store.get_certified_payload",
+            return_value=PAYLOAD,
+        ), mock.patch(
+            "caseprep.engines.v1_1_web_stream.ai_fallback.refine_prompt",
+            return_value={"search_text": "trigger thumb release", "procedures": []},
+        ), mock.patch(
+            "caseprep.engines.v1_1_web_stream.retrieve_case_qas",
+            return_value=[],
+        ), mock.patch(
+            "caseprep.services.enrichment_v1_1.enrich_packet_sections",
+            return_value=enrichment,
+        ):
+            response = self.client.post(
+                "/case-prep/web/v1.2/stream", json={"prompt": "trigger thumb release"}
+            )
+        self.assertEqual(response.status_code, 200)
+        events = parse_sse(response.content)
+        sections = {
+            data["section_id"]: data
+            for name, data in events
+            if name == "section" and "section_id" in data
+        }
+
+        # Themed gap-fill sections are AI-filled on a certified packet.
+        self.assertIn("decision_points", sections)
+        self.assertTrue(
+            any(i.get("generated") for i in sections["decision_points"]["items"])
+        )
+
+        # Pimp questions never went "partial" and carry no AI-generated card.
+        pimp_events = [
+            data for name, data in events
+            if name == "section" and data.get("section_id") == "pimp_questions"
+        ]
+        self.assertNotIn("partial", [e["status"] for e in pimp_events])
+        if pimp_events:
+            self.assertFalse(
+                any(i.get("generated") for i in pimp_events[-1]["items"])
+            )
+
+        # Anatomy stays grounded-only — the AI anatomy fact must not appear.
+        if "anatomy" in sections:
+            self.assertFalse(
+                any(i.get("generated") for i in sections["anatomy"]["items"])
+            )
 
 
 class NonStreamRegressionTests(unittest.TestCase):

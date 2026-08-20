@@ -1,0 +1,353 @@
+{
+  "schema_version": "brobot_approach_packet_v1",
+  "approach_id": "proximal_femur_pediatric_anterolateral",
+  "name": "Pediatric anterolateral approach to the proximal femur",
+  "aliases": [
+    "pediatric Watson-Jones approach",
+    "pediatric gluteus medius–tensor interval"
+  ],
+  "region": "proximal-femur",
+  "joint": "hip",
+  "bones": [
+    "proximal femur"
+  ],
+  "corridor": "Interval between tensor fascia lata and gluteus medius, with optional distal vastus lateralis release for a plate on the lateral proximal femur",
+  "positioning": [
+    {
+      "text": "Position supine or so the ASIS, greater trochanter, and femoral shaft are accessible and the limb can be rotated.",
+      "claim_ids": [
+        "proximal_femur_pediatric_anterolateral_positioning_01"
+      ]
+    }
+  ],
+  "setup": [],
+  "surface_landmarks": [
+    {
+      "text": "Mark the anterior superior iliac spine, the anterior greater trochanter, and the femoral shaft.",
+      "claim_ids": [
+        "proximal_femur_pediatric_anterolateral_surface_landmarks_01"
+      ]
+    }
+  ],
+  "incision": [
+    {
+      "text": "Start just posterior to the ASIS, curve posteriorly and distally across the anterior greater trochanter, and continue down the femoral shaft.",
+      "claim_ids": [
+        "proximal_femur_pediatric_anterolateral_incision_01"
+      ]
+    }
+  ],
+  "superficial_interval": [
+    {
+      "text": "Incise fascia lata from distal to proximal behind the tensor belly and anterior to gluteus medius, identifying the posterior edge of tensor fascia lata at or below the trochanter.",
+      "claim_ids": [
+        "proximal_femur_pediatric_anterolateral_superficial_interval_01"
+      ]
+    }
+  ],
+  "deep_interval": [
+    {
+      "text": "Retract tensor anteriorly and gluteus medius posteriorly, ligate or cauterize vessels crossing the proximal interval, preserve the nerve to tensor fascia lata, and open a longitudinal capsulotomy that can be converted to a Z while protecting the labrum.",
+      "claim_ids": [
+        "proximal_femur_pediatric_anterolateral_deep_interval_01"
+      ]
+    }
+  ],
+  "layers": [
+    {
+      "text": "Skin, fat, fascia lata, tensor–gluteus medius interval, anterior capsule, then femoral head, neck, and optional lateral proximal femur.",
+      "claim_ids": [
+        "proximal_femur_pediatric_anterolateral_layers_01"
+      ]
+    }
+  ],
+  "structures_encountered": [],
+  "structures_at_risk": [
+    {
+      "text": "The nerve to tensor fascia lata in the proximal interval, vessels crossing that interval, the acetabular labrum, the medial femoral circumflex artery during capsular work, and the neurovascular supply of vastus lateralis if the muscle is released too far anteriorly.",
+      "claim_ids": [
+        "proximal_femur_pediatric_anterolateral_structures_at_risk_01"
+      ]
+    }
+  ],
+  "danger_zones": [
+    {
+      "text": "Stay cranial to piriformis when preparing the capsule. Limit anterior vastus lateralis release to protect its neurovascular supply; posterior release may be more extensive for plating.",
+      "claim_ids": [
+        "proximal_femur_pediatric_anterolateral_danger_zones_01"
+      ]
+    }
+  ],
+  "retraction_hazards": [
+    {
+      "text": "External rotation improves capsular access; keep the labrum protected and do not sacrifice the nerve to tensor fascia lata in the proximal interval.",
+      "claim_ids": [
+        "proximal_femur_pediatric_anterolateral_retraction_hazards_01"
+      ]
+    }
+  ],
+  "exposure": [
+    {
+      "text": "Exposes the anterior femoral head and neck and, with distal vastus lateralis release, the lateral proximal femur for a plate or screws.",
+      "claim_ids": [
+        "proximal_femur_pediatric_anterolateral_exposure_01"
+      ]
+    }
+  ],
+  "limitations": [
+    {
+      "text": "Screw fixation can be done without vastus lateralis release, but plating requires origin release and enough distal length for drill guides.",
+      "claim_ids": [
+        "proximal_femur_pediatric_anterolateral_limitations_01"
+      ]
+    }
+  ],
+  "extensions": [],
+  "indications": [
+    {
+      "text": "Indicated when fracture fixation needs both hip-joint access and a plate on the lateral proximal femur.",
+      "claim_ids": [
+        "proximal_femur_pediatric_anterolateral_indications_01"
+      ]
+    }
+  ],
+  "relative_contraindications": [],
+  "implant_implications": [],
+  "fluoroscopy_implications": [],
+  "closure": [
+    {
+      "text": "Close the capsule loosely to avoid a pressurized hemarthrosis and close fascia lata with a continuous suture.",
+      "claim_ids": [
+        "proximal_femur_pediatric_anterolateral_closure_01"
+      ]
+    }
+  ],
+  "complications": [
+    {
+      "text": "Complications include tensor denervation, pressurized hemarthrosis if the capsule is closed tightly, labral injury, and avascular necrosis from medial femoral circumflex injury.",
+      "claim_ids": [
+        "proximal_femur_pediatric_anterolateral_complications_01"
+      ]
+    }
+  ],
+  "bailouts": [],
+  "procedure_applications": [
+    {
+      "procedure_id": "femoral_neck_fracture_orif_young",
+      "relationship": "primary_option",
+      "condition": "A pediatric proximal-femur fracture needs both hip-joint access and a lateral plate or screws through one extensile corridor"
+    }
+  ],
+  "questions": [
+    {
+      "question": "Which interval is developed in the pediatric anterolateral approach?",
+      "answer": "Tensor fascia lata anteriorly and gluteus medius posteriorly.",
+      "claim_ids": [
+        "proximal_femur_pediatric_anterolateral_questions_01"
+      ]
+    },
+    {
+      "question": "Which nerve in the proximal interval should be preserved?",
+      "answer": "The nerve to tensor fascia lata.",
+      "claim_ids": [
+        "proximal_femur_pediatric_anterolateral_questions_02"
+      ]
+    },
+    {
+      "question": "Why is the capsule closed loosely?",
+      "answer": "To prevent accumulation of a hemarthrosis under pressure.",
+      "claim_ids": [
+        "proximal_femur_pediatric_anterolateral_questions_03"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "proximal_femur_pediatric_anterolateral_positioning_01",
+      "text": "Position supine or so the ASIS, greater trochanter, and femoral shaft are accessible and the limb can be rotated.",
+      "source_ids": [
+        "ao_b6a83f32e7f02a7e"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "proximal_femur_pediatric_anterolateral_surface_landmarks_01",
+      "text": "Mark the anterior superior iliac spine, the anterior greater trochanter, and the femoral shaft.",
+      "source_ids": [
+        "ao_0ce64dbf77644109",
+        "ao_b6a83f32e7f02a7e"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "proximal_femur_pediatric_anterolateral_incision_01",
+      "text": "Start just posterior to the ASIS, curve posteriorly and distally across the anterior greater trochanter, and continue down the femoral shaft.",
+      "source_ids": [
+        "ao_0ce64dbf77644109"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "proximal_femur_pediatric_anterolateral_superficial_interval_01",
+      "text": "Incise fascia lata from distal to proximal behind the tensor belly and anterior to gluteus medius, identifying the posterior edge of tensor fascia lata at or below the trochanter.",
+      "source_ids": [
+        "ao_0ce64dbf77644109",
+        "ao_b6a83f32e7f02a7e"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "proximal_femur_pediatric_anterolateral_deep_interval_01",
+      "text": "Retract tensor anteriorly and gluteus medius posteriorly, ligate or cauterize vessels crossing the proximal interval, preserve the nerve to tensor fascia lata, and open a longitudinal capsulotomy that can be converted to a Z while protecting the labrum.",
+      "source_ids": [
+        "ao_0ce64dbf77644109",
+        "ao_b6a83f32e7f02a7e"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "proximal_femur_pediatric_anterolateral_layers_01",
+      "text": "Skin, fat, fascia lata, tensor–gluteus medius interval, anterior capsule, then femoral head, neck, and optional lateral proximal femur.",
+      "source_ids": [
+        "ao_0ce64dbf77644109",
+        "ao_b6a83f32e7f02a7e"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "proximal_femur_pediatric_anterolateral_structures_at_risk_01",
+      "text": "The nerve to tensor fascia lata in the proximal interval, vessels crossing that interval, the acetabular labrum, the medial femoral circumflex artery during capsular work, and the neurovascular supply of vastus lateralis if the muscle is released too far anteriorly.",
+      "source_ids": [
+        "ao_0ce64dbf77644109",
+        "ao_b6a83f32e7f02a7e",
+        "ao_a370dc7d87dd01d0"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "proximal_femur_pediatric_anterolateral_danger_zones_01",
+      "text": "Stay cranial to piriformis when preparing the capsule. Limit anterior vastus lateralis release to protect its neurovascular supply; posterior release may be more extensive for plating.",
+      "source_ids": [
+        "ao_0ce64dbf77644109",
+        "ao_a370dc7d87dd01d0"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "proximal_femur_pediatric_anterolateral_retraction_hazards_01",
+      "text": "External rotation improves capsular access; keep the labrum protected and do not sacrifice the nerve to tensor fascia lata in the proximal interval.",
+      "source_ids": [
+        "ao_0ce64dbf77644109"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "proximal_femur_pediatric_anterolateral_exposure_01",
+      "text": "Exposes the anterior femoral head and neck and, with distal vastus lateralis release, the lateral proximal femur for a plate or screws.",
+      "source_ids": [
+        "ao_0ce64dbf77644109"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "proximal_femur_pediatric_anterolateral_limitations_01",
+      "text": "Screw fixation can be done without vastus lateralis release, but plating requires origin release and enough distal length for drill guides.",
+      "source_ids": [
+        "ao_0ce64dbf77644109"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "proximal_femur_pediatric_anterolateral_indications_01",
+      "text": "Indicated when fracture fixation needs both hip-joint access and a plate on the lateral proximal femur.",
+      "source_ids": [
+        "ao_0ce64dbf77644109"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "proximal_femur_pediatric_anterolateral_closure_01",
+      "text": "Close the capsule loosely to avoid a pressurized hemarthrosis and close fascia lata with a continuous suture.",
+      "source_ids": [
+        "ao_0ce64dbf77644109"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "proximal_femur_pediatric_anterolateral_complications_01",
+      "text": "Complications include tensor denervation, pressurized hemarthrosis if the capsule is closed tightly, labral injury, and avascular necrosis from medial femoral circumflex injury.",
+      "source_ids": [
+        "ao_0ce64dbf77644109",
+        "ao_a370dc7d87dd01d0"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "proximal_femur_pediatric_anterolateral_questions_01",
+      "text": "Which interval is developed in the pediatric anterolateral approach?",
+      "source_ids": [
+        "ao_0ce64dbf77644109",
+        "ao_b6a83f32e7f02a7e"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "proximal_femur_pediatric_anterolateral_questions_02",
+      "text": "Which nerve in the proximal interval should be preserved?",
+      "source_ids": [
+        "ao_0ce64dbf77644109"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "proximal_femur_pediatric_anterolateral_questions_03",
+      "text": "Why is the capsule closed loosely?",
+      "source_ids": [
+        "ao_0ce64dbf77644109"
+      ],
+      "risk_level": "medium"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "ao_0ce64dbf77644109",
+      "provider": "AO Surgery Reference",
+      "title": "Anterolateral Approach",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/pediatric-trauma/proximal-femur/approach/anterolateral-approach",
+      "source_page_id": "ao_0ce64dbf77644109"
+    },
+    {
+      "source_id": "ao_b6a83f32e7f02a7e",
+      "provider": "AO Surgery Reference",
+      "title": "Anterolateral approach (Watson-Jones)",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/proximal-femur/approach/anterolateral-approach-watson-jones",
+      "source_page_id": "ao_b6a83f32e7f02a7e"
+    },
+    {
+      "source_id": "ao_a370dc7d87dd01d0",
+      "provider": "AO Surgery Reference",
+      "title": "Anterior Approach",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/pediatric-trauma/proximal-femur/approach/anterior-approach",
+      "source_page_id": "ao_a370dc7d87dd01d0"
+    }
+  ],
+  "content_status": "agent_review_pending",
+  "review": {
+    "status": "agent_review_pending",
+    "required_roles": [
+      "adversarial_safety_reviewer",
+      "approach_anatomy_reviewer",
+      "educational_value_reviewer",
+      "evidence_reviewer",
+      "operative_exposure_reviewer",
+      "procedure_applicability_reviewer"
+    ],
+    "completed_roles": []
+  },
+  "resolved_contradiction_keys": [],
+  "authoring_provenance": {
+    "method": "local_codex_curated",
+    "definition_file": "data/approach_library/curated/proximal_femur_nailing_lateral_gibson_batch004_v1.json",
+    "api_used": false
+  }
+}

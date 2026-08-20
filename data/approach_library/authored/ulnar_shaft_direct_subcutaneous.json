@@ -443,6 +443,13 @@
       "provider": "PubMed",
       "title": "Exposure of the forearm and distal radius",
       "url": "https://pubmed.ncbi.nlm.nih.gov/25440071/"
+    },
+    {
+      "source_id": "orthobullets_2e063bef305f37e4",
+      "provider": "Orthobullets",
+      "title": "Subcutaneous Approach To Ulnar Shaft",
+      "url": "https://www.orthobullets.com/approaches/12012/subcutaneous-approach-to-ulnar-shaft",
+      "source_page_id": "orthobullets_2e063bef305f37e4"
     }
   ],
   "content_status": "agent_review_pending",

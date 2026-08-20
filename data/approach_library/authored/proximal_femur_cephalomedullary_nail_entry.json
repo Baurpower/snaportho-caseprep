@@ -1,0 +1,346 @@
+{
+  "schema_version": "brobot_approach_packet_v1",
+  "approach_id": "proximal_femur_cephalomedullary_nail_entry",
+  "name": "Approach for proximal femoral nailing",
+  "aliases": [
+    "cephalomedullary nail greater-trochanter entry",
+    "trochanteric-entry proximal femoral nail approach"
+  ],
+  "region": "proximal-femur",
+  "joint": "hip-adjacent extra-articular entry",
+  "bones": [
+    "proximal femur",
+    "greater trochanter"
+  ],
+  "corridor": "Proximal gluteal split several centimeters above the greater-trochanter tip, along the posterior bowed femoral axis, to an implant-specific trochanteric start",
+  "positioning": [
+    {
+      "text": "Position supine or lateral so the pelvis and greater trochanter are accessible and true AP and lateral images of the proximal femur can be obtained.",
+      "claim_ids": [
+        "proximal_femur_cephalomedullary_nail_entry_positioning_01"
+      ]
+    }
+  ],
+  "setup": [],
+  "surface_landmarks": [
+    {
+      "text": "Mark the tip of the greater trochanter and the femoral axis, using the image intensifier when habitus obscures palpation.",
+      "claim_ids": [
+        "proximal_femur_cephalomedullary_nail_entry_surface_landmarks_01"
+      ]
+    }
+  ],
+  "incision": [
+    {
+      "text": "Make a 3–5 cm incision several centimeters proximal to the greater-trochanter tip on the proximal extension of the bowed femoral axis, which lies somewhat posterior to a purely lateral line; shift the portal with soft-tissue thickness and the insertion handle.",
+      "claim_ids": [
+        "proximal_femur_cephalomedullary_nail_entry_incision_01"
+      ]
+    }
+  ],
+  "superficial_interval": [
+    {
+      "text": "Incise the gluteal fascia 3–8 cm longitudinally and split gluteal fibers by blunt dissection to the trochanter tip.",
+      "claim_ids": [
+        "proximal_femur_cephalomedullary_nail_entry_superficial_interval_01"
+      ]
+    }
+  ],
+  "deep_interval": [
+    {
+      "text": "Identify the trochanter tip with a finger or instrument and place the entry according to the selected nail; most trochanteric-fracture nails enter through the greater trochanter rather than the trochanteric fossa.",
+      "claim_ids": [
+        "proximal_femur_cephalomedullary_nail_entry_deep_interval_01"
+      ]
+    }
+  ],
+  "layers": [
+    {
+      "text": "Skin, subcutaneous tissue, gluteal fascia, longitudinal gluteal split, trochanteric cortex, then the femoral canal.",
+      "claim_ids": [
+        "proximal_femur_cephalomedullary_nail_entry_layers_01"
+      ]
+    }
+  ],
+  "structures_encountered": [],
+  "structures_at_risk": [
+    {
+      "text": "The posterior femoral shaft cortex, abductor muscle, and an eccentric canal track are at risk if the incision and instruments do not follow the bowed femoral axis.",
+      "claim_ids": [
+        "proximal_femur_cephalomedullary_nail_entry_structures_at_risk_01"
+      ]
+    }
+  ],
+  "danger_zones": [
+    {
+      "text": "A too-anterior or off-axis incision promotes eccentric reaming or posterior cortical perforation, especially with long nails.",
+      "claim_ids": [
+        "proximal_femur_cephalomedullary_nail_entry_danger_zones_01"
+      ]
+    }
+  ],
+  "retraction_hazards": [
+    {
+      "text": "Do not lever instruments against the trochanter to compensate for a poorly aligned skin portal; keep the working path collinear with the canal.",
+      "claim_ids": [
+        "proximal_femur_cephalomedullary_nail_entry_retraction_hazards_01"
+      ]
+    }
+  ],
+  "exposure": [
+    {
+      "text": "Provides a proximal portal for implant-specific trochanteric-entry nailing without opening the fracture.",
+      "claim_ids": [
+        "proximal_femur_cephalomedullary_nail_entry_exposure_01"
+      ]
+    }
+  ],
+  "limitations": [
+    {
+      "text": "The exact start depends on nail design, and flexion or abduction deformity of the proximal fragment can hide the desired entry until the fragment is realigned.",
+      "claim_ids": [
+        "proximal_femur_cephalomedullary_nail_entry_limitations_01"
+      ]
+    }
+  ],
+  "extensions": [],
+  "indications": [
+    {
+      "text": "Used to insert trochanteric-entry intramedullary nails for trochanteric fractures after the proximal femur is aligned.",
+      "claim_ids": [
+        "proximal_femur_cephalomedullary_nail_entry_indications_01"
+      ]
+    }
+  ],
+  "relative_contraindications": [],
+  "implant_implications": [],
+  "fluoroscopy_implications": [],
+  "closure": [
+    {
+      "text": "Repair fascia without tethering abductors and close subcutaneous tissue and skin.",
+      "claim_ids": [
+        "proximal_femur_cephalomedullary_nail_entry_closure_01"
+      ]
+    }
+  ],
+  "complications": [
+    {
+      "text": "Complications include eccentric reaming, posterior femoral cortical perforation, and a poorly seated nail from an incorrect implant-specific start.",
+      "claim_ids": [
+        "proximal_femur_cephalomedullary_nail_entry_complications_01"
+      ]
+    }
+  ],
+  "bailouts": [],
+  "procedure_applications": [
+    {
+      "procedure_id": "intertrochanteric_hip_fracture_orif",
+      "relationship": "primary_option",
+      "condition": "A cephalomedullary nail with a greater-trochanter entry is selected for a trochanteric or pertrochanteric fracture"
+    }
+  ],
+  "questions": [
+    {
+      "question": "Where do most nails designed for trochanteric fractures enter?",
+      "answer": "Through the greater trochanter, not the trochanteric fossa; the precise point is implant-specific.",
+      "claim_ids": [
+        "proximal_femur_cephalomedullary_nail_entry_questions_01"
+      ]
+    },
+    {
+      "question": "Why is the incision placed somewhat posterior along the femoral bow?",
+      "answer": "So instruments and the nail travel along the canal and do not perforate the posterior cortex.",
+      "claim_ids": [
+        "proximal_femur_cephalomedullary_nail_entry_questions_02"
+      ]
+    },
+    {
+      "question": "How can a flexed or abducted proximal fragment be realigned to find the start?",
+      "answer": "With a percutaneous Schanz screw and/or a ball-spiked pusher.",
+      "claim_ids": [
+        "proximal_femur_cephalomedullary_nail_entry_questions_03"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "proximal_femur_cephalomedullary_nail_entry_positioning_01",
+      "text": "Position supine or lateral so the pelvis and greater trochanter are accessible and true AP and lateral images of the proximal femur can be obtained.",
+      "source_ids": [
+        "ao_87554683edcd029d"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "proximal_femur_cephalomedullary_nail_entry_surface_landmarks_01",
+      "text": "Mark the tip of the greater trochanter and the femoral axis, using the image intensifier when habitus obscures palpation.",
+      "source_ids": [
+        "ao_14af9b0dbcb35a28",
+        "ao_87554683edcd029d"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "proximal_femur_cephalomedullary_nail_entry_incision_01",
+      "text": "Make a 3–5 cm incision several centimeters proximal to the greater-trochanter tip on the proximal extension of the bowed femoral axis, which lies somewhat posterior to a purely lateral line; shift the portal with soft-tissue thickness and the insertion handle.",
+      "source_ids": [
+        "ao_14af9b0dbcb35a28",
+        "ao_87554683edcd029d"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "proximal_femur_cephalomedullary_nail_entry_superficial_interval_01",
+      "text": "Incise the gluteal fascia 3–8 cm longitudinally and split gluteal fibers by blunt dissection to the trochanter tip.",
+      "source_ids": [
+        "ao_14af9b0dbcb35a28",
+        "ao_87554683edcd029d"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "proximal_femur_cephalomedullary_nail_entry_deep_interval_01",
+      "text": "Identify the trochanter tip with a finger or instrument and place the entry according to the selected nail; most trochanteric-fracture nails enter through the greater trochanter rather than the trochanteric fossa.",
+      "source_ids": [
+        "ao_14af9b0dbcb35a28"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "proximal_femur_cephalomedullary_nail_entry_layers_01",
+      "text": "Skin, subcutaneous tissue, gluteal fascia, longitudinal gluteal split, trochanteric cortex, then the femoral canal.",
+      "source_ids": [
+        "ao_14af9b0dbcb35a28",
+        "ao_87554683edcd029d"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "proximal_femur_cephalomedullary_nail_entry_structures_at_risk_01",
+      "text": "The posterior femoral shaft cortex, abductor muscle, and an eccentric canal track are at risk if the incision and instruments do not follow the bowed femoral axis.",
+      "source_ids": [
+        "ao_14af9b0dbcb35a28",
+        "ao_87554683edcd029d"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "proximal_femur_cephalomedullary_nail_entry_danger_zones_01",
+      "text": "A too-anterior or off-axis incision promotes eccentric reaming or posterior cortical perforation, especially with long nails.",
+      "source_ids": [
+        "ao_14af9b0dbcb35a28",
+        "ao_87554683edcd029d"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "proximal_femur_cephalomedullary_nail_entry_retraction_hazards_01",
+      "text": "Do not lever instruments against the trochanter to compensate for a poorly aligned skin portal; keep the working path collinear with the canal.",
+      "source_ids": [
+        "ao_87554683edcd029d"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "proximal_femur_cephalomedullary_nail_entry_exposure_01",
+      "text": "Provides a proximal portal for implant-specific trochanteric-entry nailing without opening the fracture.",
+      "source_ids": [
+        "ao_14af9b0dbcb35a28"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "proximal_femur_cephalomedullary_nail_entry_limitations_01",
+      "text": "The exact start depends on nail design, and flexion or abduction deformity of the proximal fragment can hide the desired entry until the fragment is realigned.",
+      "source_ids": [
+        "ao_14af9b0dbcb35a28"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "proximal_femur_cephalomedullary_nail_entry_indications_01",
+      "text": "Used to insert trochanteric-entry intramedullary nails for trochanteric fractures after the proximal femur is aligned.",
+      "source_ids": [
+        "ao_14af9b0dbcb35a28"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "proximal_femur_cephalomedullary_nail_entry_closure_01",
+      "text": "Repair fascia without tethering abductors and close subcutaneous tissue and skin.",
+      "source_ids": [
+        "ao_87554683edcd029d"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "proximal_femur_cephalomedullary_nail_entry_complications_01",
+      "text": "Complications include eccentric reaming, posterior femoral cortical perforation, and a poorly seated nail from an incorrect implant-specific start.",
+      "source_ids": [
+        "ao_14af9b0dbcb35a28",
+        "ao_87554683edcd029d"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "proximal_femur_cephalomedullary_nail_entry_questions_01",
+      "text": "Where do most nails designed for trochanteric fractures enter?",
+      "source_ids": [
+        "ao_14af9b0dbcb35a28"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "proximal_femur_cephalomedullary_nail_entry_questions_02",
+      "text": "Why is the incision placed somewhat posterior along the femoral bow?",
+      "source_ids": [
+        "ao_14af9b0dbcb35a28",
+        "ao_87554683edcd029d"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "proximal_femur_cephalomedullary_nail_entry_questions_03",
+      "text": "How can a flexed or abducted proximal fragment be realigned to find the start?",
+      "source_ids": [
+        "ao_14af9b0dbcb35a28"
+      ],
+      "risk_level": "medium"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "ao_14af9b0dbcb35a28",
+      "provider": "AO Surgery Reference",
+      "title": "Approach For Proximal Femoral Nailing",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/proximal-femur/approach/approach-for-proximal-femoral-nailing",
+      "source_page_id": "ao_14af9b0dbcb35a28"
+    },
+    {
+      "source_id": "ao_87554683edcd029d",
+      "provider": "AO Surgery Reference",
+      "title": "Antegrade nailing approach with trochanteric entry point",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/femoral-shaft/approach/antegrade-nailing-approach-with-trochanteric-entry-point",
+      "source_page_id": "ao_87554683edcd029d"
+    }
+  ],
+  "content_status": "agent_review_pending",
+  "review": {
+    "status": "agent_review_pending",
+    "required_roles": [
+      "adversarial_safety_reviewer",
+      "approach_anatomy_reviewer",
+      "educational_value_reviewer",
+      "evidence_reviewer",
+      "operative_exposure_reviewer",
+      "procedure_applicability_reviewer"
+    ],
+    "completed_roles": []
+  },
+  "resolved_contradiction_keys": [],
+  "authoring_provenance": {
+    "method": "local_codex_curated",
+    "definition_file": "data/approach_library/curated/proximal_femur_nailing_lateral_gibson_batch004_v1.json",
+    "api_used": false
+  }
+}

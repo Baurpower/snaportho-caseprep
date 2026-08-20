@@ -1,0 +1,351 @@
+{
+  "schema_version": "brobot_approach_packet_v1",
+  "approach_id": "metatarsal_first_dorsal",
+  "name": "Dorsal approach to the 1st metatarsal",
+  "aliases": [
+    "dorsomedial approach to the first metatarsal"
+  ],
+  "region": "metatarsals",
+  "joint": "",
+  "bones": [
+    "first metatarsal"
+  ],
+  "corridor": "Dorsomedial incision in line with the first ray, medial to the extensor hallucis longus, protecting the dorsomedial cutaneous nerve and dorsalis pedis vessels, to expose the whole first metatarsal",
+  "positioning": [
+    {
+      "text": "Position supine with the foot at the end of the table under tourniquet control.",
+      "claim_ids": [
+        "metatarsal_first_dorsal_positioning_01"
+      ]
+    }
+  ],
+  "setup": [],
+  "surface_landmarks": [
+    {
+      "text": "Mark the medial cuneiform, the first ray, and the extensor hallucis longus tendon.",
+      "claim_ids": [
+        "metatarsal_first_dorsal_surface_landmarks_01"
+      ]
+    }
+  ],
+  "incision": [
+    {
+      "text": "Begin over the medial cuneiform and extend distally in line with the first ray, medial to the EHL tendon between the branches of the deep peroneal, superficial peroneal, and saphenous nerves, extending across the first TMT joint if needed.",
+      "claim_ids": [
+        "metatarsal_first_dorsal_incision_01"
+      ]
+    }
+  ],
+  "superficial_interval": [
+    {
+      "text": "Dissect medial to the dorsalis pedis vessels and the cutaneous branches of the deep peroneal nerve, protect the dorsomedial cutaneous nerve of the hallux and the longitudinal veins.",
+      "claim_ids": [
+        "metatarsal_first_dorsal_superficial_interval_01"
+      ]
+    }
+  ],
+  "deep_interval": [
+    {
+      "text": "Retract the EHL tendon laterally and expose the metatarsal subperiosteally, incising the capsule and freeing the sesamoids with plantarflexion to see the articular surfaces if needed.",
+      "claim_ids": [
+        "metatarsal_first_dorsal_deep_interval_01"
+      ]
+    }
+  ],
+  "layers": [
+    {
+      "text": "Skin, subcutaneous tissue with the dorsomedial cutaneous nerve and veins, the EHL tendon, and the first metatarsal.",
+      "claim_ids": [
+        "metatarsal_first_dorsal_layers_01"
+      ]
+    }
+  ],
+  "structures_encountered": [],
+  "structures_at_risk": [
+    {
+      "text": "The dorsomedial cutaneous nerve of the hallux, the deep peroneal nerve branches, and the dorsalis pedis vessels are at risk.",
+      "claim_ids": [
+        "metatarsal_first_dorsal_structures_at_risk_01"
+      ]
+    }
+  ],
+  "danger_zones": [
+    {
+      "text": "The lateral side of the incision near the dorsalis pedis and deep peroneal nerve is the danger zone; stay medial to them.",
+      "claim_ids": [
+        "metatarsal_first_dorsal_danger_zones_01"
+      ]
+    }
+  ],
+  "retraction_hazards": [
+    {
+      "text": "Retract the EHL gently and keep dissection medial to protect the dorsalis pedis and deep peroneal nerve.",
+      "claim_ids": [
+        "metatarsal_first_dorsal_retraction_hazards_01"
+      ]
+    }
+  ],
+  "exposure": [
+    {
+      "text": "Exposes the entire first metatarsal from the TMT joint to the MTP joint.",
+      "claim_ids": [
+        "metatarsal_first_dorsal_exposure_01"
+      ]
+    }
+  ],
+  "limitations": [
+    {
+      "text": "The dorsomedial cutaneous nerve and the dorsalis pedis limit how far laterally the exposure can be carried.",
+      "claim_ids": [
+        "metatarsal_first_dorsal_limitations_01"
+      ]
+    }
+  ],
+  "extensions": [],
+  "indications": [
+    {
+      "text": "Indicated to access the entire first metatarsal for fracture fixation or osteotomy.",
+      "claim_ids": [
+        "metatarsal_first_dorsal_indications_01"
+      ]
+    }
+  ],
+  "relative_contraindications": [],
+  "implant_implications": [],
+  "fluoroscopy_implications": [],
+  "closure": [
+    {
+      "text": "Close any joint capsule with resorbable sutures, repair the tendon sheath, and use subcuticular resorbable sutures and nylon for skin.",
+      "claim_ids": [
+        "metatarsal_first_dorsal_closure_01"
+      ]
+    }
+  ],
+  "complications": [
+    {
+      "text": "Complications include dorsomedial cutaneous nerve injury, dorsalis pedis injury, and stiffness.",
+      "claim_ids": [
+        "metatarsal_first_dorsal_complications_01"
+      ]
+    }
+  ],
+  "bailouts": [],
+  "procedure_applications": [
+    {
+      "procedure_id": "hallux_valgus_correction",
+      "relationship": "primary_option",
+      "condition": "A first metatarsal osteotomy or fracture is exposed dorsally"
+    },
+    {
+      "procedure_id": "metatarsal_fracture_orif",
+      "relationship": "primary_option",
+      "condition": "A first metatarsal fracture is fixed"
+    }
+  ],
+  "questions": [
+    {
+      "question": "Relative to the EHL tendon, where does the dorsal first metatarsal incision lie?",
+      "answer": "Medial to the EHL tendon.",
+      "claim_ids": [
+        "metatarsal_first_dorsal_questions_01"
+      ]
+    },
+    {
+      "question": "Which vessels must be protected on the lateral side of the exposure?",
+      "answer": "The dorsalis pedis vessels.",
+      "claim_ids": [
+        "metatarsal_first_dorsal_questions_02"
+      ]
+    },
+    {
+      "question": "How much of the first metatarsal does this approach expose?",
+      "answer": "The entire first metatarsal.",
+      "claim_ids": [
+        "metatarsal_first_dorsal_questions_03"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "metatarsal_first_dorsal_positioning_01",
+      "text": "Position supine with the foot at the end of the table under tourniquet control.",
+      "source_ids": [
+        "ao_f597cd84c4ad82e2"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "metatarsal_first_dorsal_surface_landmarks_01",
+      "text": "Mark the medial cuneiform, the first ray, and the extensor hallucis longus tendon.",
+      "source_ids": [
+        "ao_f597cd84c4ad82e2"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "metatarsal_first_dorsal_incision_01",
+      "text": "Begin over the medial cuneiform and extend distally in line with the first ray, medial to the EHL tendon between the branches of the deep peroneal, superficial peroneal, and saphenous nerves, extending across the first TMT joint if needed.",
+      "source_ids": [
+        "ao_f597cd84c4ad82e2"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "metatarsal_first_dorsal_superficial_interval_01",
+      "text": "Dissect medial to the dorsalis pedis vessels and the cutaneous branches of the deep peroneal nerve, protect the dorsomedial cutaneous nerve of the hallux and the longitudinal veins.",
+      "source_ids": [
+        "ao_f597cd84c4ad82e2",
+        "ao_a3e38c372a4f1c20"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "metatarsal_first_dorsal_deep_interval_01",
+      "text": "Retract the EHL tendon laterally and expose the metatarsal subperiosteally, incising the capsule and freeing the sesamoids with plantarflexion to see the articular surfaces if needed.",
+      "source_ids": [
+        "ao_f597cd84c4ad82e2"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "metatarsal_first_dorsal_layers_01",
+      "text": "Skin, subcutaneous tissue with the dorsomedial cutaneous nerve and veins, the EHL tendon, and the first metatarsal.",
+      "source_ids": [
+        "ao_f597cd84c4ad82e2"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "metatarsal_first_dorsal_structures_at_risk_01",
+      "text": "The dorsomedial cutaneous nerve of the hallux, the deep peroneal nerve branches, and the dorsalis pedis vessels are at risk.",
+      "source_ids": [
+        "ao_f597cd84c4ad82e2",
+        "ao_a3e38c372a4f1c20"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "metatarsal_first_dorsal_danger_zones_01",
+      "text": "The lateral side of the incision near the dorsalis pedis and deep peroneal nerve is the danger zone; stay medial to them.",
+      "source_ids": [
+        "ao_f597cd84c4ad82e2"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "metatarsal_first_dorsal_retraction_hazards_01",
+      "text": "Retract the EHL gently and keep dissection medial to protect the dorsalis pedis and deep peroneal nerve.",
+      "source_ids": [
+        "ao_f597cd84c4ad82e2"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "metatarsal_first_dorsal_exposure_01",
+      "text": "Exposes the entire first metatarsal from the TMT joint to the MTP joint.",
+      "source_ids": [
+        "ao_f597cd84c4ad82e2"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "metatarsal_first_dorsal_limitations_01",
+      "text": "The dorsomedial cutaneous nerve and the dorsalis pedis limit how far laterally the exposure can be carried.",
+      "source_ids": [
+        "ao_f597cd84c4ad82e2"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "metatarsal_first_dorsal_indications_01",
+      "text": "Indicated to access the entire first metatarsal for fracture fixation or osteotomy.",
+      "source_ids": [
+        "ao_f597cd84c4ad82e2"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "metatarsal_first_dorsal_closure_01",
+      "text": "Close any joint capsule with resorbable sutures, repair the tendon sheath, and use subcuticular resorbable sutures and nylon for skin.",
+      "source_ids": [
+        "ao_f597cd84c4ad82e2"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "metatarsal_first_dorsal_complications_01",
+      "text": "Complications include dorsomedial cutaneous nerve injury, dorsalis pedis injury, and stiffness.",
+      "source_ids": [
+        "ao_f597cd84c4ad82e2",
+        "ao_a3e38c372a4f1c20"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "metatarsal_first_dorsal_questions_01",
+      "text": "Relative to the EHL tendon, where does the dorsal first metatarsal incision lie?",
+      "source_ids": [
+        "ao_f597cd84c4ad82e2"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "metatarsal_first_dorsal_questions_02",
+      "text": "Which vessels must be protected on the lateral side of the exposure?",
+      "source_ids": [
+        "ao_f597cd84c4ad82e2"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "metatarsal_first_dorsal_questions_03",
+      "text": "How much of the first metatarsal does this approach expose?",
+      "source_ids": [
+        "ao_f597cd84c4ad82e2"
+      ],
+      "risk_level": "medium"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "ao_f597cd84c4ad82e2",
+      "provider": "AO Surgery Reference",
+      "title": "Dorsal approach to the 1st metatarsal",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/metatarsals/approach/dorsal-approach-to-1st-metatarsal",
+      "source_page_id": "ao_f597cd84c4ad82e2"
+    },
+    {
+      "source_id": "ao_a3e38c372a4f1c20",
+      "provider": "AO Surgery Reference",
+      "title": "Dorsal approach to multiple metatarsals",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/metatarsals/approach/dorsal-approach-to-multiple-metatarsals",
+      "source_page_id": "ao_a3e38c372a4f1c20"
+    },
+    {
+      "source_id": "ao_8723d6e85873fca0",
+      "provider": "AO Surgery Reference",
+      "title": "Dorsal approach to the 1st metatarsal (midfoot)",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/midfoot/approach/dorsal-approach-to-the-first-metatarsal",
+      "source_page_id": "ao_8723d6e85873fca0"
+    }
+  ],
+  "content_status": "agent_review_pending",
+  "review": {
+    "status": "agent_review_pending",
+    "required_roles": [
+      "adversarial_safety_reviewer",
+      "approach_anatomy_reviewer",
+      "educational_value_reviewer",
+      "evidence_reviewer",
+      "operative_exposure_reviewer",
+      "procedure_applicability_reviewer"
+    ],
+    "completed_roles": []
+  },
+  "resolved_contradiction_keys": [],
+  "authoring_provenance": {
+    "method": "local_codex_curated",
+    "definition_file": "data/approach_library/curated/metatarsals_dorsal_batch003_v1.json",
+    "api_used": false
+  }
+}

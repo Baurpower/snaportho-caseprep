@@ -1,0 +1,568 @@
+{
+  "approaches": [
+    {
+      "approach_id": "midfoot_cuboid_dorsolateral",
+      "name": "Dorsolateral approach to the cuboid",
+      "aliases": [
+        "lateral column approach to the cuboid"
+      ],
+      "region": "midfoot",
+      "joint": "calcaneocuboid joint",
+      "bones": [
+        "cuboid"
+      ],
+      "corridor": "Dorsolateral incision along the fourth metatarsal axis in the interval between extensor digitorum brevis and the peroneal tendons, protecting the sural and superficial peroneal cutaneous branches, to reach the cuboid and lateral column",
+      "sources": [
+        {
+          "source_id": "ao_05f61d6c29dd7855",
+          "provider": "AO Surgery Reference",
+          "title": "Dorsolateral approach to the cuboid",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/metatarsals/approach/dorsolateral-approach-to-the-cuboid",
+          "source_page_id": "ao_05f61d6c29dd7855"
+        },
+        {
+          "source_id": "ao_5a2480d7716c078d",
+          "provider": "AO Surgery Reference",
+          "title": "Dorsomedial approach to the navicular and cuneiform",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/metatarsals/approach/dorsomedial-approach-to-the-navicular-and-cuneiform",
+          "source_page_id": "ao_5a2480d7716c078d"
+        },
+        {
+          "source_id": "ao_43d67d32c1ba6b91",
+          "provider": "AO Surgery Reference",
+          "title": "Dorsolateral approach to the cuboid (midfoot)",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/midfoot/approach/dorsolateral-approach-to-the-cuboid",
+          "source_page_id": "ao_43d67d32c1ba6b91"
+        }
+      ],
+      "procedure_applications": [
+        {
+          "procedure_id": "lisfranc_orif",
+          "relationship": "primary_option",
+          "condition": "A lateral column or cuboid fracture accompanies a midfoot injury"
+        }
+      ],
+      "sections": {
+        "positioning": [
+          {
+            "text": "Position supine with a bump under the ipsilateral hip so the foot is neutral, under tourniquet control.",
+            "source_ids": [
+              "ao_05f61d6c29dd7855"
+            ]
+          }
+        ],
+        "surface_landmarks": [
+          {
+            "text": "Palpate the sinus tarsi and distal calcaneus proximally and the bases of the 4th and 5th metatarsals distally, with the cuboid between them.",
+            "source_ids": [
+              "ao_05f61d6c29dd7855"
+            ]
+          }
+        ],
+        "incision": [
+          {
+            "text": "Center the incision over the cuboid along the fourth metatarsal axis, extending proximally toward the tip of the fibula and distally to the 4th metatarsal base as needed.",
+            "source_ids": [
+              "ao_05f61d6c29dd7855"
+            ]
+          }
+        ],
+        "superficial_interval": [
+          {
+            "text": "Take care not to harm the dorsolateral or lateral sural nerve branches and the superficial peroneal nerve, raising a full-thickness flap without undermining.",
+            "source_ids": [
+              "ao_05f61d6c29dd7855",
+              "ao_5a2480d7716c078d"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "deep_interval": [
+          {
+            "text": "Reflect the extensor digitorum brevis dorsomedially and retract the peroneal tendons plantarward, exposing the cuboid, lateral cuneiform, and 3rd-5th metatarsal bases in the plane between EDB and the peroneals.",
+            "source_ids": [
+              "ao_05f61d6c29dd7855"
+            ]
+          }
+        ],
+        "layers": [
+          {
+            "text": "Skin, subcutaneous tissue with sural and superficial peroneal branches, extensor digitorum brevis, the peroneal tendons, and the cuboid.",
+            "source_ids": [
+              "ao_05f61d6c29dd7855"
+            ]
+          }
+        ],
+        "structures_at_risk": [
+          {
+            "text": "The sural nerve branches and the superficial peroneal nerve are at risk, and the peroneal tendons must be protected.",
+            "source_ids": [
+              "ao_05f61d6c29dd7855"
+            ],
+            "risk_level": "medium"
+          }
+        ],
+        "danger_zones": [
+          {
+            "text": "The subcutaneous dorsolateral foot is the danger zone for the sural and superficial peroneal cutaneous branches.",
+            "source_ids": [
+              "ao_05f61d6c29dd7855"
+            ],
+            "risk_level": "medium"
+          }
+        ],
+        "retraction_hazards": [
+          {
+            "text": "Raise a full-thickness flap without undermining to protect skin vitality and keep cutaneous nerves out of the retractor.",
+            "source_ids": [
+              "ao_05f61d6c29dd7855",
+              "ao_5a2480d7716c078d"
+            ]
+          }
+        ],
+        "exposure": [
+          {
+            "text": "Exposes the cuboid, calcaneocuboid and cuboid-metatarsal joints, and lateral column.",
+            "source_ids": [
+              "ao_05f61d6c29dd7855"
+            ]
+          }
+        ],
+        "limitations": [
+          {
+            "text": "The lateral cutaneous nerves and peroneal tendons limit the width of the exposure.",
+            "source_ids": [
+              "ao_05f61d6c29dd7855"
+            ]
+          }
+        ],
+        "indications": [
+          {
+            "text": "Indicated for fractures of the lateral column centered on the cuboid.",
+            "source_ids": [
+              "ao_05f61d6c29dd7855"
+            ]
+          }
+        ],
+        "closure": [
+          {
+            "text": "Close the wound in layers taking care to prevent skin tension.",
+            "source_ids": [
+              "ao_05f61d6c29dd7855",
+              "ao_5a2480d7716c078d"
+            ]
+          }
+        ],
+        "complications": [
+          {
+            "text": "Complications include sural or superficial peroneal nerve injury, peroneal tendon irritation, and wound problems.",
+            "source_ids": [
+              "ao_05f61d6c29dd7855"
+            ],
+            "risk_level": "medium"
+          }
+        ],
+        "questions": [
+          {
+            "question": "Along which axis is the dorsolateral cuboid incision centered?",
+            "answer": "Along the fourth metatarsal axis over the cuboid.",
+            "source_ids": [
+              "ao_05f61d6c29dd7855"
+            ]
+          },
+          {
+            "question": "Which muscle is reflected dorsomedially in this approach?",
+            "answer": "The extensor digitorum brevis.",
+            "source_ids": [
+              "ao_05f61d6c29dd7855"
+            ]
+          },
+          {
+            "question": "Which cutaneous nerves are most at risk?",
+            "answer": "The sural nerve branches and the superficial peroneal nerve.",
+            "source_ids": [
+              "ao_05f61d6c29dd7855"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "approach_id": "midfoot_navicular_cuneiform_dorsomedial",
+      "name": "Dorsomedial approach to the navicular and cuneiform",
+      "aliases": [
+        "dorsomedial midfoot approach"
+      ],
+      "region": "midfoot",
+      "joint": "tarsometatarsal joint",
+      "bones": [
+        "navicular",
+        "cuneiform"
+      ],
+      "corridor": "Dorsomedial incision in the interval between tibialis anterior and extensor hallucis longus, protecting the anterior tibial neurovascular bundle, giving medial and lateral planes to the navicular, cuneiforms, and first two TMT joints",
+      "sources": [
+        {
+          "source_id": "ao_5a2480d7716c078d",
+          "provider": "AO Surgery Reference",
+          "title": "Dorsomedial approach to the navicular and cuneiform",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/metatarsals/approach/dorsomedial-approach-to-the-navicular-and-cuneiform",
+          "source_page_id": "ao_5a2480d7716c078d"
+        },
+        {
+          "source_id": "ao_69e593655af090a4",
+          "provider": "AO Surgery Reference",
+          "title": "Medial utility incision to the navicular and cuneiform",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/metatarsals/approach/medial-utility-incision-to-the-navicular-and-cuneiform",
+          "source_page_id": "ao_69e593655af090a4"
+        },
+        {
+          "source_id": "ao_025eb2b027bd436d",
+          "provider": "AO Surgery Reference",
+          "title": "Dorsomedial approach to the navicular and cuneiform (midfoot)",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/midfoot/approach/dorsomedial-approach-to-the-navicular-and-cuneiform",
+          "source_page_id": "ao_025eb2b027bd436d"
+        }
+      ],
+      "procedure_applications": [
+        {
+          "procedure_id": "lisfranc_orif",
+          "relationship": "primary_option",
+          "condition": "A medial column midfoot or tarsometatarsal injury needs dorsal access"
+        }
+      ],
+      "sections": {
+        "positioning": [
+          {
+            "text": "Position supine with the foot at the end of the table under tourniquet control.",
+            "source_ids": [
+              "ao_5a2480d7716c078d"
+            ]
+          }
+        ],
+        "surface_landmarks": [
+          {
+            "text": "Mark the tibialis anterior and extensor hallucis longus tendons and the navicular and cuneiforms.",
+            "source_ids": [
+              "ao_5a2480d7716c078d"
+            ]
+          }
+        ],
+        "incision": [
+          {
+            "text": "Center the incision over the fracture in the interval between tibialis anterior and extensor hallucis longus, raising a full-thickness flap without undermining.",
+            "source_ids": [
+              "ao_5a2480d7716c078d"
+            ]
+          }
+        ],
+        "superficial_interval": [
+          {
+            "text": "Protect the anterior tibial neurovascular bundle, and develop a medial plane for the navicular and medial cuneiform or a lateral plane for the 1st-2nd TMT joints and middle cuneiform.",
+            "source_ids": [
+              "ao_5a2480d7716c078d"
+            ],
+            "risk_level": "medium"
+          }
+        ],
+        "deep_interval": [
+          {
+            "text": "Expose the target bones subperiosteally through the chosen plane, keeping soft-tissue stripping minimal to protect the navicular blood supply.",
+            "source_ids": [
+              "ao_5a2480d7716c078d",
+              "ao_69e593655af090a4"
+            ]
+          }
+        ],
+        "layers": [
+          {
+            "text": "Skin, subcutaneous tissue, the tibialis anterior and extensor hallucis longus tendons, the anterior tibial neurovascular bundle, and the navicular and cuneiforms.",
+            "source_ids": [
+              "ao_5a2480d7716c078d"
+            ]
+          }
+        ],
+        "structures_at_risk": [
+          {
+            "text": "The anterior tibial neurovascular bundle (dorsalis pedis and deep peroneal nerve) is the principal structure at risk.",
+            "source_ids": [
+              "ao_5a2480d7716c078d"
+            ],
+            "risk_level": "medium"
+          }
+        ],
+        "danger_zones": [
+          {
+            "text": "The lateral edge of the interval near the anterior tibial neurovascular bundle is the danger zone.",
+            "source_ids": [
+              "ao_5a2480d7716c078d"
+            ],
+            "risk_level": "medium"
+          }
+        ],
+        "retraction_hazards": [
+          {
+            "text": "Keep the flap full thickness without undermining and protect the anterior tibial bundle at the lateral border.",
+            "source_ids": [
+              "ao_5a2480d7716c078d",
+              "ao_69e593655af090a4"
+            ]
+          }
+        ],
+        "exposure": [
+          {
+            "text": "Exposes the navicular, medial and middle cuneiforms, and the first and second TMT joints and proximal metatarsals.",
+            "source_ids": [
+              "ao_5a2480d7716c078d"
+            ]
+          }
+        ],
+        "limitations": [
+          {
+            "text": "The anterior tibial neurovascular bundle limits lateral extension, and navicular blood supply must be preserved.",
+            "source_ids": [
+              "ao_5a2480d7716c078d"
+            ]
+          }
+        ],
+        "indications": [
+          {
+            "text": "Indicated for fractures of the navicular and cuneiforms and medial-column tarsometatarsal injuries.",
+            "source_ids": [
+              "ao_5a2480d7716c078d"
+            ]
+          }
+        ],
+        "closure": [
+          {
+            "text": "Close the wound in layers taking care to prevent skin tension.",
+            "source_ids": [
+              "ao_5a2480d7716c078d",
+              "ao_69e593655af090a4"
+            ]
+          }
+        ],
+        "complications": [
+          {
+            "text": "Complications include anterior tibial neurovascular injury, navicular osteonecrosis from over-stripping, and wound problems.",
+            "source_ids": [
+              "ao_5a2480d7716c078d"
+            ],
+            "risk_level": "medium"
+          }
+        ],
+        "questions": [
+          {
+            "question": "In which interval is the dorsomedial midfoot incision made?",
+            "answer": "Between the tibialis anterior and the extensor hallucis longus.",
+            "source_ids": [
+              "ao_5a2480d7716c078d"
+            ]
+          },
+          {
+            "question": "Which neurovascular bundle is protected in this approach?",
+            "answer": "The anterior tibial neurovascular bundle.",
+            "source_ids": [
+              "ao_5a2480d7716c078d"
+            ]
+          },
+          {
+            "question": "Why should the flap be full thickness with no undermining?",
+            "answer": "To preserve the skin blood supply over the dorsal midfoot.",
+            "source_ids": [
+              "ao_5a2480d7716c078d"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "approach_id": "midfoot_navicular_cuneiform_medial_utility",
+      "name": "Medial utility incision to the navicular and cuneiform",
+      "aliases": [
+        "medial utility midfoot approach"
+      ],
+      "region": "midfoot",
+      "joint": "talonavicular joint",
+      "bones": [
+        "navicular",
+        "cuneiform",
+        "first metatarsal"
+      ],
+      "corridor": "Extensile medial incision in the internervous plane between tibialis anterior and tibialis posterior, with essentially no major neurovascular structures, exposing the whole medial column",
+      "sources": [
+        {
+          "source_id": "ao_69e593655af090a4",
+          "provider": "AO Surgery Reference",
+          "title": "Medial utility incision to the navicular and cuneiform",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/metatarsals/approach/medial-utility-incision-to-the-navicular-and-cuneiform",
+          "source_page_id": "ao_69e593655af090a4"
+        },
+        {
+          "source_id": "ao_5a2480d7716c078d",
+          "provider": "AO Surgery Reference",
+          "title": "Dorsomedial approach to the navicular and cuneiform",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/metatarsals/approach/dorsomedial-approach-to-the-navicular-and-cuneiform",
+          "source_page_id": "ao_5a2480d7716c078d"
+        },
+        {
+          "source_id": "ao_977ffa3d9db84673",
+          "provider": "AO Surgery Reference",
+          "title": "Medial utility incision to the navicular and cuneiform (midfoot)",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/midfoot/approach/medial-utility-incision-to-the-navicular-and-cuneiform",
+          "source_page_id": "ao_977ffa3d9db84673"
+        }
+      ],
+      "procedure_applications": [
+        {
+          "procedure_id": "lisfranc_orif",
+          "relationship": "primary_option",
+          "condition": "Extensile medial column exposure of the navicular, cuneiform, and first metatarsal base is needed"
+        }
+      ],
+      "sections": {
+        "positioning": [
+          {
+            "text": "Position supine with the foot externally rotated so the medial border is accessible, under tourniquet control.",
+            "source_ids": [
+              "ao_69e593655af090a4"
+            ]
+          }
+        ],
+        "surface_landmarks": [
+          {
+            "text": "Mark the medial border of the foot over the navicular, between the tibialis anterior and tibialis posterior tendons.",
+            "source_ids": [
+              "ao_69e593655af090a4"
+            ]
+          }
+        ],
+        "incision": [
+          {
+            "text": "Make the medial utility incision over the navicular, extendable proximally to the talonavicular joint or distally to the cuneiforms and first metatarsal base, full thickness with no undermining.",
+            "source_ids": [
+              "ao_69e593655af090a4"
+            ]
+          }
+        ],
+        "superficial_interval": [
+          {
+            "text": "Use the safe plane between tibialis posterior and tibialis anterior, cauterizing only small superficial veins since there are no major neurovascular structures in this region.",
+            "source_ids": [
+              "ao_69e593655af090a4"
+            ]
+          }
+        ],
+        "deep_interval": [
+          {
+            "text": "Expose the medial column subperiosteally, keeping soft-tissue stripping minimal to protect the navicular blood supply, and add a dorsomedial incision only if needed for articular reduction with at least a 5 cm skin bridge.",
+            "source_ids": [
+              "ao_69e593655af090a4",
+              "ao_5a2480d7716c078d"
+            ]
+          }
+        ],
+        "layers": [
+          {
+            "text": "Skin, subcutaneous tissue with small veins, the tibialis anterior and posterior tendon interval, and the medial navicular, cuneiform, and first metatarsal.",
+            "source_ids": [
+              "ao_69e593655af090a4"
+            ]
+          }
+        ],
+        "structures_at_risk": [
+          {
+            "text": "There are no major neurovascular structures in this plane, but the navicular blood supply and the skin bridge to any second incision are at risk.",
+            "source_ids": [
+              "ao_69e593655af090a4",
+              "ao_5a2480d7716c078d"
+            ],
+            "risk_level": "medium"
+          }
+        ],
+        "danger_zones": [
+          {
+            "text": "Over-stripping the navicular and a narrow skin bridge to a second incision are the danger zones.",
+            "source_ids": [
+              "ao_69e593655af090a4"
+            ],
+            "risk_level": "medium"
+          }
+        ],
+        "retraction_hazards": [
+          {
+            "text": "Keep soft-tissue stripping minimal to protect navicular vascularity and maintain a full-thickness flap.",
+            "source_ids": [
+              "ao_69e593655af090a4",
+              "ao_5a2480d7716c078d"
+            ]
+          }
+        ],
+        "exposure": [
+          {
+            "text": "Exposes the whole medial first metatarsal, medial cuneiform, medial navicular, and head of the talus.",
+            "source_ids": [
+              "ao_69e593655af090a4"
+            ]
+          }
+        ],
+        "limitations": [
+          {
+            "text": "It exposes the medial column only; lateral or dorsal structures need an additional incision with an adequate skin bridge.",
+            "source_ids": [
+              "ao_69e593655af090a4"
+            ]
+          }
+        ],
+        "indications": [
+          {
+            "text": "Indicated for navicular, cuneiform, and first metatarsal base fractures and medial column reconstruction.",
+            "source_ids": [
+              "ao_69e593655af090a4"
+            ]
+          }
+        ],
+        "closure": [
+          {
+            "text": "Close the incision in layers.",
+            "source_ids": [
+              "ao_69e593655af090a4"
+            ]
+          }
+        ],
+        "complications": [
+          {
+            "text": "Complications include navicular osteonecrosis from over-stripping and skin bridge necrosis when a second incision is used.",
+            "source_ids": [
+              "ao_69e593655af090a4",
+              "ao_5a2480d7716c078d"
+            ],
+            "risk_level": "medium"
+          }
+        ],
+        "questions": [
+          {
+            "question": "Which internervous plane does the medial utility incision use?",
+            "answer": "Between the tibialis posterior and the tibialis anterior.",
+            "source_ids": [
+              "ao_69e593655af090a4"
+            ]
+          },
+          {
+            "question": "What minimum skin bridge is kept when adding a dorsomedial incision?",
+            "answer": "At least 5 cm.",
+            "source_ids": [
+              "ao_69e593655af090a4"
+            ]
+          },
+          {
+            "question": "Why keep soft-tissue stripping minimal at the navicular?",
+            "answer": "To avoid disrupting its blood supply and causing osteonecrosis.",
+            "source_ids": [
+              "ao_69e593655af090a4"
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

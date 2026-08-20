@@ -1,0 +1,342 @@
+{
+  "schema_version": "brobot_approach_packet_v1",
+  "approach_id": "foot_first_mtpj_dorsal",
+  "name": "Dorsal approach to the first metatarsophalangeal joint",
+  "aliases": [
+    "dorsal approach to the first MTPJ"
+  ],
+  "region": "foot-phalanges",
+  "joint": "first metatarsophalangeal joint",
+  "bones": [
+    "first metatarsal",
+    "proximal phalanx of hallux"
+  ],
+  "corridor": "Dorsal or dorsomedial interval just medial to the extensor hallucis longus tendon, through the joint capsule to the first MTP joint and sesamoids",
+  "positioning": [
+    {
+      "text": "Position supine with the forefoot at the end of the table under tourniquet control and imaging available.",
+      "claim_ids": [
+        "foot_first_mtpj_dorsal_positioning_01"
+      ]
+    }
+  ],
+  "setup": [],
+  "surface_landmarks": [
+    {
+      "text": "Identify the extensor hallucis longus tendon and the level of the first MTP joint.",
+      "claim_ids": [
+        "foot_first_mtpj_dorsal_surface_landmarks_01"
+      ]
+    }
+  ],
+  "incision": [
+    {
+      "text": "Run the skin incision medial to the EHL tendon at the level of the first MTP joint, between the branches of the deep peroneal, superficial peroneal, and saphenous nerves, extending proximally across the first tarsometatarsal joint if needed.",
+      "claim_ids": [
+        "foot_first_mtpj_dorsal_incision_01"
+      ]
+    }
+  ],
+  "superficial_interval": [],
+  "deep_interval": [
+    {
+      "text": "Retract the EHL tendon laterally, incise the capsule along its fibers, and free the plantar sesamoids with a smooth elevator; plantarflexing the hallux and using a mini distractor improves view of the metatarsal head.",
+      "claim_ids": [
+        "foot_first_mtpj_dorsal_deep_interval_01"
+      ]
+    }
+  ],
+  "layers": [
+    {
+      "text": "Skin, subcutaneous tissue with dorsal cutaneous nerve branches and veins, extensor hallucis longus, and the first MTP joint capsule.",
+      "claim_ids": [
+        "foot_first_mtpj_dorsal_layers_01"
+      ]
+    }
+  ],
+  "structures_encountered": [],
+  "structures_at_risk": [
+    {
+      "text": "The dorsomedial superficial peroneal nerve branch and digital artery lie dorsomedially, the deep peroneal nerve lies laterally, and the EHL tendon and crossing dorsal veins are at risk.",
+      "claim_ids": [
+        "foot_first_mtpj_dorsal_structures_at_risk_01"
+      ]
+    }
+  ],
+  "danger_zones": [
+    {
+      "text": "The dorsomedial corner is the danger zone for the dorsomedial cutaneous nerve and digital artery.",
+      "claim_ids": [
+        "foot_first_mtpj_dorsal_danger_zones_01"
+      ]
+    }
+  ],
+  "retraction_hazards": [
+    {
+      "text": "Protect the dorsal cutaneous nerves with small retractors and preserve the longitudinal dorsal veins.",
+      "claim_ids": [
+        "foot_first_mtpj_dorsal_retraction_hazards_01"
+      ]
+    }
+  ],
+  "exposure": [
+    {
+      "text": "Exposes the first MTP joint, metatarsal head, and sesamoid complex.",
+      "claim_ids": [
+        "foot_first_mtpj_dorsal_exposure_01"
+      ]
+    }
+  ],
+  "limitations": [
+    {
+      "text": "The dorsomedial nerve and digital artery constrain medial dissection, and articular visualization of the metatarsal head depends on distraction and plantarflexion.",
+      "claim_ids": [
+        "foot_first_mtpj_dorsal_limitations_01"
+      ]
+    }
+  ],
+  "extensions": [],
+  "indications": [
+    {
+      "text": "Indicated for open fixation, arthrodesis, or reconstruction at the first MTP joint and sesamoids.",
+      "claim_ids": [
+        "foot_first_mtpj_dorsal_indications_01"
+      ]
+    }
+  ],
+  "relative_contraindications": [],
+  "implant_implications": [],
+  "fluoroscopy_implications": [],
+  "closure": [
+    {
+      "text": "Close the capsule with interrupted sutures, reattach collateral ligaments with suture anchors if detached, and close skin in layers with resorbable dermal sutures and nylon.",
+      "claim_ids": [
+        "foot_first_mtpj_dorsal_closure_01"
+      ]
+    }
+  ],
+  "complications": [
+    {
+      "text": "Complications include dorsomedial cutaneous nerve injury, EHL tendon injury, and stiffness of the first MTP joint.",
+      "claim_ids": [
+        "foot_first_mtpj_dorsal_complications_01"
+      ]
+    }
+  ],
+  "bailouts": [],
+  "procedure_applications": [
+    {
+      "procedure_id": "hallux_valgus_correction",
+      "relationship": "conditional_option",
+      "condition": "Open access to the first MTP joint or sesamoids is required, for example for articular fracture fixation or arthrodesis"
+    }
+  ],
+  "questions": [
+    {
+      "question": "Where does the incision run relative to the EHL tendon in the dorsal first MTPJ approach?",
+      "answer": "Medial to the EHL tendon at the level of the joint.",
+      "claim_ids": [
+        "foot_first_mtpj_dorsal_questions_01"
+      ]
+    },
+    {
+      "question": "What helps visualize the metatarsal head articular surface?",
+      "answer": "Plantarflexing the hallux and using a mini or K-wire distractor.",
+      "claim_ids": [
+        "foot_first_mtpj_dorsal_questions_02"
+      ]
+    },
+    {
+      "question": "Which nerve is most at risk dorsomedially?",
+      "answer": "The dorsomedial branch of the superficial peroneal nerve.",
+      "claim_ids": [
+        "foot_first_mtpj_dorsal_questions_03"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "foot_first_mtpj_dorsal_positioning_01",
+      "text": "Position supine with the forefoot at the end of the table under tourniquet control and imaging available.",
+      "source_ids": [
+        "ao_bcc8b63468456cbc"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "foot_first_mtpj_dorsal_surface_landmarks_01",
+      "text": "Identify the extensor hallucis longus tendon and the level of the first MTP joint.",
+      "source_ids": [
+        "ao_bcc8b63468456cbc"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "foot_first_mtpj_dorsal_incision_01",
+      "text": "Run the skin incision medial to the EHL tendon at the level of the first MTP joint, between the branches of the deep peroneal, superficial peroneal, and saphenous nerves, extending proximally across the first tarsometatarsal joint if needed.",
+      "source_ids": [
+        "ao_bcc8b63468456cbc"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "foot_first_mtpj_dorsal_deep_interval_01",
+      "text": "Retract the EHL tendon laterally, incise the capsule along its fibers, and free the plantar sesamoids with a smooth elevator; plantarflexing the hallux and using a mini distractor improves view of the metatarsal head.",
+      "source_ids": [
+        "ao_bcc8b63468456cbc"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "foot_first_mtpj_dorsal_layers_01",
+      "text": "Skin, subcutaneous tissue with dorsal cutaneous nerve branches and veins, extensor hallucis longus, and the first MTP joint capsule.",
+      "source_ids": [
+        "ao_bcc8b63468456cbc",
+        "ao_1a49f0de5394c729"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "foot_first_mtpj_dorsal_structures_at_risk_01",
+      "text": "The dorsomedial superficial peroneal nerve branch and digital artery lie dorsomedially, the deep peroneal nerve lies laterally, and the EHL tendon and crossing dorsal veins are at risk.",
+      "source_ids": [
+        "ao_bcc8b63468456cbc",
+        "ao_1a49f0de5394c729"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "foot_first_mtpj_dorsal_danger_zones_01",
+      "text": "The dorsomedial corner is the danger zone for the dorsomedial cutaneous nerve and digital artery.",
+      "source_ids": [
+        "ao_bcc8b63468456cbc",
+        "ao_1a49f0de5394c729"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "foot_first_mtpj_dorsal_retraction_hazards_01",
+      "text": "Protect the dorsal cutaneous nerves with small retractors and preserve the longitudinal dorsal veins.",
+      "source_ids": [
+        "ao_bcc8b63468456cbc",
+        "ao_1a49f0de5394c729"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "foot_first_mtpj_dorsal_exposure_01",
+      "text": "Exposes the first MTP joint, metatarsal head, and sesamoid complex.",
+      "source_ids": [
+        "ao_bcc8b63468456cbc"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "foot_first_mtpj_dorsal_limitations_01",
+      "text": "The dorsomedial nerve and digital artery constrain medial dissection, and articular visualization of the metatarsal head depends on distraction and plantarflexion.",
+      "source_ids": [
+        "ao_bcc8b63468456cbc"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "foot_first_mtpj_dorsal_indications_01",
+      "text": "Indicated for open fixation, arthrodesis, or reconstruction at the first MTP joint and sesamoids.",
+      "source_ids": [
+        "ao_bcc8b63468456cbc"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "foot_first_mtpj_dorsal_closure_01",
+      "text": "Close the capsule with interrupted sutures, reattach collateral ligaments with suture anchors if detached, and close skin in layers with resorbable dermal sutures and nylon.",
+      "source_ids": [
+        "ao_bcc8b63468456cbc"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "foot_first_mtpj_dorsal_complications_01",
+      "text": "Complications include dorsomedial cutaneous nerve injury, EHL tendon injury, and stiffness of the first MTP joint.",
+      "source_ids": [
+        "ao_bcc8b63468456cbc",
+        "ao_1a49f0de5394c729"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "foot_first_mtpj_dorsal_questions_01",
+      "text": "Where does the incision run relative to the EHL tendon in the dorsal first MTPJ approach?",
+      "source_ids": [
+        "ao_bcc8b63468456cbc"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "foot_first_mtpj_dorsal_questions_02",
+      "text": "What helps visualize the metatarsal head articular surface?",
+      "source_ids": [
+        "ao_bcc8b63468456cbc"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "foot_first_mtpj_dorsal_questions_03",
+      "text": "Which nerve is most at risk dorsomedially?",
+      "source_ids": [
+        "ao_bcc8b63468456cbc",
+        "ao_1a49f0de5394c729"
+      ],
+      "risk_level": "medium"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "ao_bcc8b63468456cbc",
+      "provider": "AO Surgery Reference",
+      "title": "Dorsal approach to the first metatarsophalangeal joint (MTPJ)",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/foot-phalanges/approach/dorsal-approach-to-the-first-metatarsal-phalangeal-joint-mtpj",
+      "source_page_id": "ao_bcc8b63468456cbc"
+    },
+    {
+      "source_id": "ao_1a49f0de5394c729",
+      "provider": "AO Surgery Reference",
+      "title": "Dorsal approach to the proximal phalanx (foot)",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/foot-phalanges/approach/dorsal-approach-to-the-proximal-phalanx",
+      "source_page_id": "ao_1a49f0de5394c729"
+    },
+    {
+      "source_id": "ao_e36a0a8456e74384",
+      "provider": "AO Surgery Reference",
+      "title": "Dorsal approach to the first MTPJ (metatarsals)",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/metatarsals/approach/dorsal-approach-to-the-first-metatarsal-phalangeal-joint-mtpj",
+      "source_page_id": "ao_e36a0a8456e74384"
+    },
+    {
+      "source_id": "orthobullets_62bfe405a9548c0f",
+      "provider": "Orthobullets",
+      "title": "Dorsomedial Approach To Mtp Joint Of Great Toe",
+      "url": "https://www.orthobullets.com/approaches/12051/dorsomedial-approach-to-mtp-joint-of-great-toe",
+      "source_page_id": "orthobullets_62bfe405a9548c0f"
+    }
+  ],
+  "content_status": "agent_review_pending",
+  "review": {
+    "status": "agent_review_pending",
+    "required_roles": [
+      "adversarial_safety_reviewer",
+      "approach_anatomy_reviewer",
+      "educational_value_reviewer",
+      "evidence_reviewer",
+      "operative_exposure_reviewer",
+      "procedure_applicability_reviewer"
+    ],
+    "completed_roles": []
+  },
+  "resolved_contradiction_keys": [],
+  "authoring_provenance": {
+    "method": "local_codex_curated",
+    "definition_file": "data/approach_library/curated/foot_humerus_batch001_v1.json",
+    "api_used": false
+  }
+}

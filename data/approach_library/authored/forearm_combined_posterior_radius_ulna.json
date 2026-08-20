@@ -1,0 +1,352 @@
+{
+  "schema_version": "brobot_approach_packet_v1",
+  "approach_id": "forearm_combined_posterior_radius_ulna",
+  "name": "Combined posterior approach to the radius and ulna",
+  "aliases": [
+    "single-incision posterior approach to both forearm bones"
+  ],
+  "region": "forearm-shaft",
+  "joint": "",
+  "bones": [
+    "radius",
+    "ulna"
+  ],
+  "corridor": "Single posterior incision giving an ulnar window along the subcutaneous ulna and a radial window through the extensor carpi radialis brevis and extensor digitorum communis interval with supinator division",
+  "positioning": [
+    {
+      "text": "Position the forearm in mid-pronation on a hand table so both the subcutaneous ulna and the dorsoradial forearm are accessible.",
+      "claim_ids": [
+        "forearm_combined_posterior_radius_ulna_positioning_01"
+      ]
+    }
+  ],
+  "setup": [],
+  "surface_landmarks": [
+    {
+      "text": "Mark the interval between the olecranon and lateral epicondyle proximally, the subcutaneous crest of the proximal ulna, and the middle third of the radius.",
+      "claim_ids": [
+        "forearm_combined_posterior_radius_ulna_surface_landmarks_01"
+      ]
+    }
+  ],
+  "incision": [
+    {
+      "text": "Start the incision proximally between the olecranon and the lateral epicondyle and curve it distally over the proximal third of the ulna and the middle third of the radius.",
+      "claim_ids": [
+        "forearm_combined_posterior_radius_ulna_incision_01"
+      ]
+    }
+  ],
+  "superficial_interval": [
+    {
+      "text": "For the ulnar window, deepen the proximal incision onto the subcutaneous and radial surfaces of the ulna, retracting extensor carpi ulnaris laterally; for the radial window, split the seam between extensor carpi radialis brevis and extensor digitorum communis.",
+      "claim_ids": [
+        "forearm_combined_posterior_radius_ulna_superficial_interval_01"
+      ]
+    }
+  ],
+  "deep_interval": [
+    {
+      "text": "Elevate extensor carpi ulnaris extraperiosteally from the ulna, and on the radial side expose the supinator, identify the posterior interosseous nerve, then divide the supinator insertion longitudinally at the lateral radius and retract it medially.",
+      "claim_ids": [
+        "forearm_combined_posterior_radius_ulna_deep_interval_01"
+      ]
+    }
+  ],
+  "layers": [
+    {
+      "text": "Skin, subcutaneous tissue, deep fascia, the ulnar periosteal surface via the extensor carpi ulnaris, and the extensor carpi radialis brevis and extensor digitorum communis interval with the underlying supinator on the radial side.",
+      "claim_ids": [
+        "forearm_combined_posterior_radius_ulna_layers_01"
+      ]
+    }
+  ],
+  "structures_encountered": [],
+  "structures_at_risk": [
+    {
+      "text": "The posterior interosseous nerve within the supinator must be identified before the supinator is divided and retracted.",
+      "claim_ids": [
+        "forearm_combined_posterior_radius_ulna_structures_at_risk_01"
+      ]
+    }
+  ],
+  "danger_zones": [
+    {
+      "text": "The single incision brings the raw surfaces of radius and ulna and the interosseous membrane into one field, which is the danger zone for cross-union.",
+      "claim_ids": [
+        "forearm_combined_posterior_radius_ulna_danger_zones_01"
+      ]
+    }
+  ],
+  "retraction_hazards": [
+    {
+      "text": "Avoid stripping the interosseous membrane and forceful supinator retraction, both of which raise the risk of nerve injury and synostosis.",
+      "claim_ids": [
+        "forearm_combined_posterior_radius_ulna_retraction_hazards_01"
+      ]
+    }
+  ],
+  "exposure": [
+    {
+      "text": "Exposes the proximal-to-middle ulna and the middle radius through a single dorsal incision.",
+      "claim_ids": [
+        "forearm_combined_posterior_radius_ulna_exposure_01"
+      ]
+    }
+  ],
+  "limitations": [
+    {
+      "text": "The main drawback is a high risk of radioulnar synostosis, so the approach is rarely used and reserved for patients with large dorsal soft-tissue wounds.",
+      "claim_ids": [
+        "forearm_combined_posterior_radius_ulna_limitations_01"
+      ]
+    }
+  ],
+  "extensions": [],
+  "indications": [
+    {
+      "text": "Reserved for both-bone forearm fractures where a large dorsal wound precludes the standard separate volar and dorsal incisions.",
+      "claim_ids": [
+        "forearm_combined_posterior_radius_ulna_indications_01"
+      ]
+    }
+  ],
+  "relative_contraindications": [],
+  "implant_implications": [],
+  "fluoroscopy_implications": [],
+  "closure": [
+    {
+      "text": "Lay the extensor muscles back over the bones, keep soft tissue interposed between the two repair sites where possible, close fascia and subcutaneous tissue, and close skin.",
+      "claim_ids": [
+        "forearm_combined_posterior_radius_ulna_closure_01"
+      ]
+    }
+  ],
+  "complications": [
+    {
+      "text": "Radioulnar synostosis is the dominant complication; posterior interosseous nerve injury and wound problems may also occur.",
+      "claim_ids": [
+        "forearm_combined_posterior_radius_ulna_complications_01"
+      ]
+    }
+  ],
+  "bailouts": [],
+  "procedure_applications": [
+    {
+      "procedure_id": "both_bone_forearm_fracture_orif",
+      "relationship": "conditional_option",
+      "condition": "A large dorsal soft-tissue wound makes separate volar and dorsal incisions impractical"
+    }
+  ],
+  "questions": [
+    {
+      "question": "Why is a combined single-incision approach to both forearm bones rarely used?",
+      "answer": "Because it carries a high risk of radioulnar synostosis.",
+      "claim_ids": [
+        "forearm_combined_posterior_radius_ulna_questions_01"
+      ]
+    },
+    {
+      "question": "What is the principal indication for the combined posterior approach?",
+      "answer": "A large dorsal soft-tissue wound that prevents standard separate volar and dorsal incisions.",
+      "claim_ids": [
+        "forearm_combined_posterior_radius_ulna_questions_02"
+      ]
+    },
+    {
+      "question": "Which nerve must be identified before dividing the supinator in the radial window?",
+      "answer": "The posterior interosseous nerve.",
+      "claim_ids": [
+        "forearm_combined_posterior_radius_ulna_questions_03"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "forearm_combined_posterior_radius_ulna_positioning_01",
+      "text": "Position the forearm in mid-pronation on a hand table so both the subcutaneous ulna and the dorsoradial forearm are accessible.",
+      "source_ids": [
+        "ao_5ec4eb68cf7740a9"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "forearm_combined_posterior_radius_ulna_surface_landmarks_01",
+      "text": "Mark the interval between the olecranon and lateral epicondyle proximally, the subcutaneous crest of the proximal ulna, and the middle third of the radius.",
+      "source_ids": [
+        "ao_5ec4eb68cf7740a9"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "forearm_combined_posterior_radius_ulna_incision_01",
+      "text": "Start the incision proximally between the olecranon and the lateral epicondyle and curve it distally over the proximal third of the ulna and the middle third of the radius.",
+      "source_ids": [
+        "ao_5ec4eb68cf7740a9"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "forearm_combined_posterior_radius_ulna_superficial_interval_01",
+      "text": "For the ulnar window, deepen the proximal incision onto the subcutaneous and radial surfaces of the ulna, retracting extensor carpi ulnaris laterally; for the radial window, split the seam between extensor carpi radialis brevis and extensor digitorum communis.",
+      "source_ids": [
+        "ao_5ec4eb68cf7740a9",
+        "ao_24eb9bd2e1f62a70"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "forearm_combined_posterior_radius_ulna_deep_interval_01",
+      "text": "Elevate extensor carpi ulnaris extraperiosteally from the ulna, and on the radial side expose the supinator, identify the posterior interosseous nerve, then divide the supinator insertion longitudinally at the lateral radius and retract it medially.",
+      "source_ids": [
+        "ao_5ec4eb68cf7740a9",
+        "ao_24eb9bd2e1f62a70"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "forearm_combined_posterior_radius_ulna_layers_01",
+      "text": "Skin, subcutaneous tissue, deep fascia, the ulnar periosteal surface via the extensor carpi ulnaris, and the extensor carpi radialis brevis and extensor digitorum communis interval with the underlying supinator on the radial side.",
+      "source_ids": [
+        "ao_5ec4eb68cf7740a9"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "forearm_combined_posterior_radius_ulna_structures_at_risk_01",
+      "text": "The posterior interosseous nerve within the supinator must be identified before the supinator is divided and retracted.",
+      "source_ids": [
+        "ao_5ec4eb68cf7740a9",
+        "ao_24eb9bd2e1f62a70"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "forearm_combined_posterior_radius_ulna_danger_zones_01",
+      "text": "The single incision brings the raw surfaces of radius and ulna and the interosseous membrane into one field, which is the danger zone for cross-union.",
+      "source_ids": [
+        "ao_5ec4eb68cf7740a9",
+        "ao_43a73c40a5d31f67"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "forearm_combined_posterior_radius_ulna_retraction_hazards_01",
+      "text": "Avoid stripping the interosseous membrane and forceful supinator retraction, both of which raise the risk of nerve injury and synostosis.",
+      "source_ids": [
+        "ao_5ec4eb68cf7740a9",
+        "ao_24eb9bd2e1f62a70"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "forearm_combined_posterior_radius_ulna_exposure_01",
+      "text": "Exposes the proximal-to-middle ulna and the middle radius through a single dorsal incision.",
+      "source_ids": [
+        "ao_5ec4eb68cf7740a9"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "forearm_combined_posterior_radius_ulna_limitations_01",
+      "text": "The main drawback is a high risk of radioulnar synostosis, so the approach is rarely used and reserved for patients with large dorsal soft-tissue wounds.",
+      "source_ids": [
+        "ao_5ec4eb68cf7740a9",
+        "ao_43a73c40a5d31f67"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "forearm_combined_posterior_radius_ulna_indications_01",
+      "text": "Reserved for both-bone forearm fractures where a large dorsal wound precludes the standard separate volar and dorsal incisions.",
+      "source_ids": [
+        "ao_5ec4eb68cf7740a9"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "forearm_combined_posterior_radius_ulna_closure_01",
+      "text": "Lay the extensor muscles back over the bones, keep soft tissue interposed between the two repair sites where possible, close fascia and subcutaneous tissue, and close skin.",
+      "source_ids": [
+        "ao_5ec4eb68cf7740a9"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "forearm_combined_posterior_radius_ulna_complications_01",
+      "text": "Radioulnar synostosis is the dominant complication; posterior interosseous nerve injury and wound problems may also occur.",
+      "source_ids": [
+        "ao_5ec4eb68cf7740a9",
+        "ao_24eb9bd2e1f62a70"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "forearm_combined_posterior_radius_ulna_questions_01",
+      "text": "Why is a combined single-incision approach to both forearm bones rarely used?",
+      "source_ids": [
+        "ao_5ec4eb68cf7740a9"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "forearm_combined_posterior_radius_ulna_questions_02",
+      "text": "What is the principal indication for the combined posterior approach?",
+      "source_ids": [
+        "ao_5ec4eb68cf7740a9"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "forearm_combined_posterior_radius_ulna_questions_03",
+      "text": "Which nerve must be identified before dividing the supinator in the radial window?",
+      "source_ids": [
+        "ao_5ec4eb68cf7740a9",
+        "ao_24eb9bd2e1f62a70"
+      ],
+      "risk_level": "medium"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "ao_5ec4eb68cf7740a9",
+      "provider": "AO Surgery Reference",
+      "title": "Combined posterior approach to radius and ulna",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/forearm-shaft/approach/combined-posterior-approach-to-radius-and-ulna",
+      "source_page_id": "ao_5ec4eb68cf7740a9"
+    },
+    {
+      "source_id": "ao_24eb9bd2e1f62a70",
+      "provider": "AO Surgery Reference",
+      "title": "Posterolateral approach (Thompson) to the forearm shaft",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/forearm-shaft/approach/posterolateral-approach-thompson",
+      "source_page_id": "ao_24eb9bd2e1f62a70"
+    },
+    {
+      "source_id": "ao_43a73c40a5d31f67",
+      "provider": "AO Surgery Reference",
+      "title": "Speed and Boyd's approach to the forearm shaft",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/forearm-shaft/approach/speed-and-boyds-approach",
+      "source_page_id": "ao_43a73c40a5d31f67"
+    }
+  ],
+  "content_status": "agent_review_pending",
+  "review": {
+    "status": "agent_review_pending",
+    "required_roles": [
+      "adversarial_safety_reviewer",
+      "approach_anatomy_reviewer",
+      "educational_value_reviewer",
+      "evidence_reviewer",
+      "operative_exposure_reviewer",
+      "procedure_applicability_reviewer"
+    ],
+    "completed_roles": []
+  },
+  "resolved_contradiction_keys": [],
+  "authoring_provenance": {
+    "method": "local_codex_curated",
+    "definition_file": "data/approach_library/curated/forearm_shaft_batch001_v1.json",
+    "api_used": false
+  }
+}

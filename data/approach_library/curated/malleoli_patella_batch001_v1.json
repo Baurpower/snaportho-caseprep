@@ -1,0 +1,1211 @@
+{
+  "approaches": [
+    {
+      "approach_id": "malleolus_lateral_fibula",
+      "name": "Lateral approach to the fibula and lateral malleolus",
+      "aliases": [
+        "direct lateral fibular approach",
+        "lateral approach for high fibular fractures"
+      ],
+      "region": "malleoli",
+      "joint": "ankle",
+      "bones": [
+        "fibula",
+        "lateral malleolus",
+        "distal tibia"
+      ],
+      "corridor": "Longitudinal interval between peroneus tertius anteriorly and peroneus longus/brevis posteriorly, with the incision biased slightly anterior or posterior so a plate does not sit under the wound, and optional limited or extended posterolateral windows to a Volkmann fragment",
+      "sources": [
+        {
+          "source_id": "ao_692babf8613ec05e",
+          "provider": "AO Surgery Reference",
+          "title": "Lateral Approach",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/malleoli/approach/lateral-approach",
+          "source_page_id": "ao_692babf8613ec05e"
+        },
+        {
+          "source_id": "ao_c5620b5bc2bd3364",
+          "provider": "AO Surgery Reference",
+          "title": "Lateral Approach For High Fibular Fractures",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/malleoli/approach/lateral-approach-for-high-fibular-fractures",
+          "source_page_id": "ao_c5620b5bc2bd3364"
+        },
+        {
+          "source_id": "ao_7633add5d34bfe3f",
+          "provider": "AO Surgery Reference",
+          "title": "Lateral Approach (pediatric distal fibula)",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/pediatric-trauma/distal-tibia-fibula/approach/lateral-approach",
+          "source_page_id": "ao_7633add5d34bfe3f"
+        },
+        {
+          "source_id": "orthobullets_e194760466959ba7",
+          "provider": "Orthobullets",
+          "title": "Approach To The Lateral Malleolus",
+          "url": "https://www.orthobullets.com/approaches/12037/approach-to-the-lateral-malleolus",
+          "source_page_id": "orthobullets_e194760466959ba7"
+        },
+        {
+          "source_id": "orthobullets_ff367d6088940ae0",
+          "provider": "Orthobullets",
+          "title": "Approach To The Fibula",
+          "url": "https://www.orthobullets.com/approaches/12036/approach-to-the-fibula",
+          "source_page_id": "orthobullets_ff367d6088940ae0"
+        }
+      ],
+      "procedure_applications": [
+        {
+          "procedure_id": "ankle_fracture_orif",
+          "relationship": "primary_option",
+          "condition": "A lateral-malleolar or high-fibular fracture is plated, with optional access to the anterior syndesmosis or a Volkmann fragment"
+        }
+      ],
+      "sections": {
+        "positioning": [
+          {
+            "text": "Position so the fibular shaft, lateral malleolus, and syndesmosis can be imaged and the incision biased anterior or posterior to the planned plate.",
+            "source_ids": [
+              "ao_692babf8613ec05e",
+              "ao_c5620b5bc2bd3364"
+            ]
+          }
+        ],
+        "surface_landmarks": [
+          {
+            "text": "Mark the fibular shaft, the tip of the lateral malleolus, and the planned plate line. For a high fibular fracture, center the cut over the shaft fracture.",
+            "source_ids": [
+              "ao_692babf8613ec05e",
+              "ao_c5620b5bc2bd3364"
+            ]
+          }
+        ],
+        "incision": [
+          {
+            "text": "Make a 10\u201315 cm cut in line with the fibula. Place it slightly posterior for a posterior plate, or slightly anterior if the anterior syndesmosis or an anterior-to-posterior Chaput screw is needed. Distally it may curve 2 cm anterior to the malleolar tip to add exposure and release tension.",
+            "source_ids": [
+              "ao_692babf8613ec05e",
+              "ao_c5620b5bc2bd3364"
+            ]
+          }
+        ],
+        "superficial_interval": [
+          {
+            "text": "Develop the plane between peroneus tertius anteriorly and peroneus longus/brevis posteriorly. Identify and protect the superficial peroneal nerve, which lies close anteriorly, especially proximally. Posteriorly protect the short saphenous vein and sural nerve. Use small retractors or protecting sutures only in good soft tissue.",
+            "source_ids": [
+              "ao_692babf8613ec05e",
+              "ao_c5620b5bc2bd3364",
+              "ao_7633add5d34bfe3f"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "deep_interval": [
+          {
+            "text": "Free periosteum only at the fracture. Keep any further dissection on periosteum to spare terminal peroneal-artery branches. A limited Volkmann window incises fascia along the posterior fibula, spares peroneal paratenon, and retracts peroneals dorsally. An extended window incises fascia dorsal to the peroneals at the FHL border, watches the sural nerve, and retracts peroneals anteriorly with FHL and Achilles dorsally.",
+            "source_ids": [
+              "ao_692babf8613ec05e",
+              "ao_c5620b5bc2bd3364"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "layers": [
+          {
+            "text": "Skin, sensory-neurovascular plane, peroneus tertius\u2013peroneal interval, limited periosteum, then fibula, with optional posterolateral fascia to the posterior tibia.",
+            "source_ids": [
+              "ao_692babf8613ec05e",
+              "ao_7633add5d34bfe3f"
+            ]
+          }
+        ],
+        "structures_at_risk": [
+          {
+            "text": "The superficial peroneal nerve, sural nerve, short saphenous vein, peroneal tendons and paratenon, and terminal peroneal-artery branches are at risk.",
+            "source_ids": [
+              "ao_692babf8613ec05e",
+              "ao_c5620b5bc2bd3364",
+              "ao_7633add5d34bfe3f"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "danger_zones": [
+          {
+            "text": "The proximal and more-anterior incision is the danger zone for the superficial peroneal nerve; it should be identified and protected whenever the cut is carried proximally for a high fibular fracture.",
+            "source_ids": [
+              "ao_692babf8613ec05e",
+              "ao_c5620b5bc2bd3364"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "retraction_hazards": [
+          {
+            "text": "Do not use large retractors in damaged soft tissue. Avoid stripping periosteum beyond what is needed to see the fracture.",
+            "source_ids": [
+              "ao_692babf8613ec05e",
+              "ao_c5620b5bc2bd3364"
+            ],
+            "risk_level": "medium"
+          }
+        ],
+        "exposure": [
+          {
+            "text": "Shows the lateral malleolus or high fibular shaft for plating. Distal extension can reach the syndesmosis. Limited or extended posterolateral windows can reach a Volkmann fragment, though a dedicated posterolateral approach may be easier.",
+            "source_ids": [
+              "ao_692babf8613ec05e",
+              "ao_c5620b5bc2bd3364"
+            ]
+          }
+        ],
+        "limitations": [
+          {
+            "text": "A plate should not lie directly under the skin cut. A high fibular fracture plus a large Volkmann fragment may be better treated through two separate incisions.",
+            "source_ids": [
+              "ao_692babf8613ec05e",
+              "ao_c5620b5bc2bd3364"
+            ]
+          }
+        ],
+        "indications": [
+          {
+            "text": "The standard corridor for most lateral-malleolar fractures and for high fibular fractures that need open reduction, syndesmotic access, or a Chaput lag screw.",
+            "source_ids": [
+              "ao_692babf8613ec05e",
+              "ao_c5620b5bc2bd3364"
+            ]
+          }
+        ],
+        "closure": [
+          {
+            "text": "Allow peroneals to cover hardware, close fascia without nerve or tendon entrapment, and close skin off the plate line.",
+            "source_ids": [
+              "ao_7633add5d34bfe3f",
+              "ao_692babf8613ec05e"
+            ]
+          }
+        ],
+        "complications": [
+          {
+            "text": "Complications include superficial-peroneal or sural neuropathy, wound breakdown over a plate under the incision, and periosteal stripping that delays union.",
+            "source_ids": [
+              "ao_692babf8613ec05e",
+              "ao_c5620b5bc2bd3364",
+              "ao_7633add5d34bfe3f"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "questions": [
+          {
+            "question": "What is the deep interval?",
+            "answer": "Peroneus tertius anteriorly and peroneus longus/brevis posteriorly.",
+            "source_ids": [
+              "ao_692babf8613ec05e",
+              "ao_c5620b5bc2bd3364"
+            ]
+          },
+          {
+            "question": "When should the incision be placed slightly anterior?",
+            "answer": "When anterior syndesmotic access or an anterior-to-posterior Chaput screw is planned.",
+            "source_ids": [
+              "ao_692babf8613ec05e",
+              "ao_c5620b5bc2bd3364"
+            ]
+          },
+          {
+            "question": "Which nerve is most at risk proximally?",
+            "answer": "The superficial peroneal nerve.",
+            "source_ids": [
+              "ao_692babf8613ec05e",
+              "ao_c5620b5bc2bd3364"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "approach_id": "malleolus_medial_anterior",
+      "name": "Anterior medial approach to the medial malleolus",
+      "aliases": [
+        "anteromedial medial-malleolar approach"
+      ],
+      "region": "malleoli",
+      "joint": "ankle",
+      "bones": [
+        "medial malleolus",
+        "distal tibia"
+      ],
+      "corridor": "Curved incision from 2 cm distal to the anterior medial-malleolar tip toward the anterior edge of the malleolus and the mid-distal tibia, retracting the saphenous vein and nerve, with a limited anteromedial capsulotomy to see the joint",
+      "sources": [
+        {
+          "source_id": "ao_b177a7fa41266408",
+          "provider": "AO Surgery Reference",
+          "title": "Medial Approach Anterior",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/malleoli/approach/medial-approach-anterior",
+          "source_page_id": "ao_b177a7fa41266408"
+        },
+        {
+          "source_id": "ao_389d177f1d1c05aa",
+          "provider": "AO Surgery Reference",
+          "title": "Anteromedial Approach To The Distal Tibia",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/distal-tibia/approach/anteromedial-approach-to-the-distal-tibia",
+          "source_page_id": "ao_389d177f1d1c05aa"
+        },
+        {
+          "source_id": "ao_52f475041bb237f7",
+          "provider": "AO Surgery Reference",
+          "title": "Posteromedial Approach",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/malleoli/approach/posteromedial-approach",
+          "source_page_id": "ao_52f475041bb237f7"
+        },
+        {
+          "source_id": "orthobullets_1aaafa4810a5075c",
+          "provider": "Orthobullets",
+          "title": "Anteromedial Approach To Medial Malleolus And Ankle",
+          "url": "https://www.orthobullets.com/approaches/12038/anteromedial-approach-to-medial-malleolus-and-ankle",
+          "source_page_id": "orthobullets_1aaafa4810a5075c"
+        }
+      ],
+      "procedure_applications": [
+        {
+          "procedure_id": "ankle_fracture_orif",
+          "relationship": "primary_option",
+          "condition": "A medial-malleolar fracture needs open reduction with inspection of the anteromedial joint"
+        }
+      ],
+      "sections": {
+        "positioning": [
+          {
+            "text": "Position so the medial malleolus and anteromedial ankle joint can be seen and the saphenous structures identified.",
+            "source_ids": [
+              "ao_b177a7fa41266408",
+              "ao_389d177f1d1c05aa"
+            ]
+          }
+        ],
+        "surface_landmarks": [
+          {
+            "text": "Mark the anterior tip of the medial malleolus, the anterior malleolar edge, and the midline of the distal tibia. The standard medial cut runs posterior to the malleolus; this anterior variant is used when more anterior access is needed.",
+            "source_ids": [
+              "ao_b177a7fa41266408"
+            ]
+          }
+        ],
+        "incision": [
+          {
+            "text": "Start 2 cm distal to the anterior tip of the medial malleolus, curve toward its anterior edge, and continue toward the middle of the distal tibia. An even more anterior dotted-line variant makes the saphenous vein and nerve more vulnerable.",
+            "source_ids": [
+              "ao_b177a7fa41266408"
+            ]
+          }
+        ],
+        "superficial_interval": [
+          {
+            "text": "Find the saphenous vein and nerve and retract them with a vessel loop.",
+            "source_ids": [
+              "ao_b177a7fa41266408",
+              "ao_52f475041bb237f7"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "deep_interval": [
+          {
+            "text": "Expose the anterior fracture, free periosteum from the medial-malleolar edges to the joint, and inspect the joint. A vertical incision at the anteromedial capsule may be added. Strip periosteum posteriorly only enough to control reduction.",
+            "source_ids": [
+              "ao_b177a7fa41266408",
+              "ao_389d177f1d1c05aa"
+            ]
+          }
+        ],
+        "layers": [
+          {
+            "text": "Skin, saphenous vein and nerve, limited periosteum, optional anteromedial capsule, then the medial malleolus and joint.",
+            "source_ids": [
+              "ao_b177a7fa41266408",
+              "ao_389d177f1d1c05aa"
+            ]
+          }
+        ],
+        "structures_at_risk": [
+          {
+            "text": "The saphenous vein and nerve, especially with a more anterior skin cut, are the principal structures at risk.",
+            "source_ids": [
+              "ao_b177a7fa41266408",
+              "ao_52f475041bb237f7"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "danger_zones": [
+          {
+            "text": "The more anterior alternative incision is the danger zone for dividing the saphenous vein and nerve.",
+            "source_ids": [
+              "ao_b177a7fa41266408"
+            ],
+            "risk_level": "medium"
+          }
+        ],
+        "retraction_hazards": [
+          {
+            "text": "Retract the saphenous structures with a vessel loop rather than cutting across them.",
+            "source_ids": [
+              "ao_b177a7fa41266408"
+            ],
+            "risk_level": "medium"
+          }
+        ],
+        "exposure": [
+          {
+            "text": "Shows the anterior medial-malleolar fracture and allows inspection of the anteromedial joint surface.",
+            "source_ids": [
+              "ao_b177a7fa41266408"
+            ]
+          }
+        ],
+        "limitations": [
+          {
+            "text": "This is not the standard posterior-to-malleolus medial cut. Posterior comminution is better served by a posteromedial window.",
+            "source_ids": [
+              "ao_b177a7fa41266408",
+              "ao_52f475041bb237f7"
+            ]
+          }
+        ],
+        "indications": [
+          {
+            "text": "Used when a medial-malleolar fracture needs anterior access and joint inspection.",
+            "source_ids": [
+              "ao_b177a7fa41266408"
+            ]
+          }
+        ],
+        "closure": [
+          {
+            "text": "Confirm the saphenous vein and nerve are free and close the limited capsulotomy and skin.",
+            "source_ids": [
+              "ao_b177a7fa41266408",
+              "ao_389d177f1d1c05aa"
+            ]
+          }
+        ],
+        "complications": [
+          {
+            "text": "Complications include saphenous-nerve injury or neuroma and saphenous-vein injury, especially with a more anterior incision.",
+            "source_ids": [
+              "ao_b177a7fa41266408",
+              "ao_52f475041bb237f7"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "questions": [
+          {
+            "question": "Where does the anterior medial incision start?",
+            "answer": "Two centimeters distal to the anterior tip of the medial malleolus.",
+            "source_ids": [
+              "ao_b177a7fa41266408"
+            ]
+          },
+          {
+            "question": "Which structures must be looped and protected?",
+            "answer": "The saphenous vein and nerve.",
+            "source_ids": [
+              "ao_b177a7fa41266408",
+              "ao_52f475041bb237f7"
+            ]
+          },
+          {
+            "question": "How may the joint be inspected?",
+            "answer": "With a vertical incision at the anteromedial edge of the capsule, extended only as far as needed.",
+            "source_ids": [
+              "ao_b177a7fa41266408"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "approach_id": "malleolus_posterolateral_volkmann",
+      "name": "Posterolateral approach to the Volkmann fragment",
+      "aliases": [
+        "prone posterolateral posterior-malleolus approach"
+      ],
+      "region": "malleoli",
+      "joint": "ankle",
+      "bones": [
+        "distal tibia",
+        "fibula"
+      ],
+      "corridor": "Prone 10\u201315 cm incision midway between the fibula and Achilles, developing the medial border of the peroneals against Achilles to the Volkmann fragment, then retracting peroneals medially to plate the posterior fibula",
+      "sources": [
+        {
+          "source_id": "ao_272a8b6430a22ffb",
+          "provider": "AO Surgery Reference",
+          "title": "Posterolateral Approach To The Volkmann Fragment",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/malleoli/approach/posterolateral-approach-to-the-volkmann-fragment",
+          "source_page_id": "ao_272a8b6430a22ffb"
+        },
+        {
+          "source_id": "ao_d1d6e660d076a419",
+          "provider": "AO Surgery Reference",
+          "title": "Posterolateral Limited Open Approach To The Distal Tibia",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/distal-tibia/approach/posterolateral-limited-open-approach-to-the-distal-tibia",
+          "source_page_id": "ao_d1d6e660d076a419"
+        },
+        {
+          "source_id": "ao_692babf8613ec05e",
+          "provider": "AO Surgery Reference",
+          "title": "Lateral Approach",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/malleoli/approach/lateral-approach",
+          "source_page_id": "ao_692babf8613ec05e"
+        },
+        {
+          "source_id": "orthobullets_a44799d2bf61510d",
+          "provider": "Orthobullets",
+          "title": "Ankle Posterolateral Approach",
+          "url": "https://www.orthobullets.com/approaches/12043/ankle-posterolateral-approach",
+          "source_page_id": "orthobullets_a44799d2bf61510d"
+        }
+      ],
+      "procedure_applications": [
+        {
+          "procedure_id": "ankle_fracture_orif",
+          "relationship": "primary_option",
+          "condition": "A Volkmann posterior-malleolar fragment is reduced under direct vision, with optional posterior fibular plating through the same window"
+        }
+      ],
+      "sections": {
+        "positioning": [
+          {
+            "text": "Position prone. The fibula and Achilles remain palpable even with swelling and can be used as landmarks.",
+            "source_ids": [
+              "ao_272a8b6430a22ffb"
+            ]
+          }
+        ],
+        "surface_landmarks": [
+          {
+            "text": "Mark the fibula, the Achilles tendon, and a line midway between them. The sural nerve runs parallel to the lateral Achilles margin.",
+            "source_ids": [
+              "ao_272a8b6430a22ffb",
+              "ao_d1d6e660d076a419"
+            ]
+          }
+        ],
+        "incision": [
+          {
+            "text": "Make a 10\u201315 cm longitudinal cut midway between the fibula and Achilles.",
+            "source_ids": [
+              "ao_272a8b6430a22ffb"
+            ]
+          }
+        ],
+        "superficial_interval": [
+          {
+            "text": "Dissect to the peroneal muscles. The sural nerve usually lies medial to this cut but must still be protected if it appears in the wound.",
+            "source_ids": [
+              "ao_272a8b6430a22ffb",
+              "ao_d1d6e660d076a419"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "deep_interval": [
+          {
+            "text": "Develop the medial side of the peroneals and displace them laterally against the Achilles to see the Volkmann fragment. After that fragment is fixed, retract the peroneals medially to plate the posterior fibula.",
+            "source_ids": [
+              "ao_272a8b6430a22ffb",
+              "ao_d1d6e660d076a419"
+            ]
+          }
+        ],
+        "layers": [
+          {
+            "text": "Skin, sural-nerve plane, peroneal muscles, posterior tibia (Volkmann fragment), then, with peroneals shifted medially, the posterior fibula.",
+            "source_ids": [
+              "ao_272a8b6430a22ffb",
+              "ao_692babf8613ec05e"
+            ]
+          }
+        ],
+        "structures_at_risk": [
+          {
+            "text": "The sural nerve and peroneal tendons are at risk. The interval is between the peroneals and FHL/Achilles for an extended posterior-tibial view.",
+            "source_ids": [
+              "ao_272a8b6430a22ffb",
+              "ao_d1d6e660d076a419",
+              "ao_692babf8613ec05e"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "danger_zones": [
+          {
+            "text": "The sural nerve running parallel to the lateral Achilles is the danger zone for this incision.",
+            "source_ids": [
+              "ao_272a8b6430a22ffb",
+              "ao_d1d6e660d076a419"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "retraction_hazards": [
+          {
+            "text": "Use a self-retainer against the Achilles while the peroneals are held laterally, then reverse the retraction for the fibula.",
+            "source_ids": [
+              "ao_272a8b6430a22ffb"
+            ],
+            "risk_level": "medium"
+          }
+        ],
+        "exposure": [
+          {
+            "text": "Gives direct access to the Volkmann fragment and allows a posterior fibular plate through the same incision.",
+            "source_ids": [
+              "ao_272a8b6430a22ffb"
+            ]
+          }
+        ],
+        "limitations": [
+          {
+            "text": "The patient must be prone. Anterior and medial ankle fragments are not seen.",
+            "source_ids": [
+              "ao_272a8b6430a22ffb",
+              "ao_d1d6e660d076a419"
+            ]
+          }
+        ],
+        "indications": [
+          {
+            "text": "Used when a Volkmann fragment needs direct reduction, and when a posterior fibular plate is planned through the same window.",
+            "source_ids": [
+              "ao_272a8b6430a22ffb"
+            ]
+          }
+        ],
+        "closure": [
+          {
+            "text": "Let the peroneals fall back over the hardware. Close deep fascia over them only if it is easy and tension-free.",
+            "source_ids": [
+              "ao_272a8b6430a22ffb",
+              "ao_d1d6e660d076a419"
+            ]
+          }
+        ],
+        "complications": [
+          {
+            "text": "Complications include sural-nerve injury and peroneal-tendon irritation from uncovered posterior hardware.",
+            "source_ids": [
+              "ao_272a8b6430a22ffb",
+              "ao_d1d6e660d076a419"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "questions": [
+          {
+            "question": "Where is the skin incision placed?",
+            "answer": "Midway between the fibula and the Achilles tendon, 10\u201315 cm long, with the patient prone.",
+            "source_ids": [
+              "ao_272a8b6430a22ffb"
+            ]
+          },
+          {
+            "question": "How are the peroneals retracted to see the Volkmann fragment?",
+            "answer": "Laterally, with a retractor against the Achilles.",
+            "source_ids": [
+              "ao_272a8b6430a22ffb"
+            ]
+          },
+          {
+            "question": "How is the fibula then plated?",
+            "answer": "By retracting the peroneals medially to expose the posterior fibular surface.",
+            "source_ids": [
+              "ao_272a8b6430a22ffb"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "approach_id": "malleolus_posteromedial",
+      "name": "Posteromedial approach to the medial malleolus and posterior tibia",
+      "aliases": [
+        "posteromedial medial-malleolar approach"
+      ],
+      "region": "malleoli",
+      "joint": "ankle",
+      "bones": [
+        "medial malleolus",
+        "distal tibia"
+      ],
+      "corridor": "Incision starting 1 cm distal and 1 cm anterior to the medial-malleolar tip, curving dorsally over the tip toward the posterior tibial crest, opening crural fascia at the posterior tibial edge, and retracting TP, FDL, and the posterior tibial neurovascular bundle",
+      "sources": [
+        {
+          "source_id": "ao_52f475041bb237f7",
+          "provider": "AO Surgery Reference",
+          "title": "Posteromedial Approach",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/malleoli/approach/posteromedial-approach",
+          "source_page_id": "ao_52f475041bb237f7"
+        },
+        {
+          "source_id": "ao_52556d8e928066ce",
+          "provider": "AO Surgery Reference",
+          "title": "Posteromedial Approach To The Distal Tibia",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/distal-tibia/approach/posteromedial-approach-to-the-distal-tibia",
+          "source_page_id": "ao_52556d8e928066ce"
+        },
+        {
+          "source_id": "orthobullets_c52b5acc0faf6852",
+          "provider": "Orthobullets",
+          "title": "Posteromedial Approach To Medial Malleolus",
+          "url": "https://www.orthobullets.com/approaches/12039/posteromedial-approach-to-medial-malleolus",
+          "source_page_id": "orthobullets_c52b5acc0faf6852"
+        }
+      ],
+      "procedure_applications": [
+        {
+          "procedure_id": "ankle_fracture_orif",
+          "relationship": "primary_option",
+          "condition": "A medial-malleolar fracture with posterior comminution or posterior extension is reduced along the posterior tibial edge"
+        }
+      ],
+      "sections": {
+        "positioning": [
+          {
+            "text": "Position so the medial malleolus and posterior tibial crest can be followed and the saphenous structures identified distally.",
+            "source_ids": [
+              "ao_52f475041bb237f7",
+              "ao_52556d8e928066ce"
+            ]
+          }
+        ],
+        "surface_landmarks": [
+          {
+            "text": "Mark the middle of the medial-malleolar tip and the posterior crest of the distal tibia.",
+            "source_ids": [
+              "ao_52f475041bb237f7"
+            ]
+          }
+        ],
+        "incision": [
+          {
+            "text": "Start 1 cm distal and 1 cm anterior to the middle of the medial-malleolar tip, curve dorsally over the tip, and continue toward the posterior tibial crest.",
+            "source_ids": [
+              "ao_52f475041bb237f7"
+            ]
+          }
+        ],
+        "superficial_interval": [
+          {
+            "text": "Deepen through fat and fascia in line with the posteromedial tibial crest. Protect the saphenous vein and nerve, especially distally. Do not strip periosteum at the fracture.",
+            "source_ids": [
+              "ao_52f475041bb237f7",
+              "ao_52556d8e928066ce"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "deep_interval": [
+          {
+            "text": "Follow the fracture to the posterior tibial edge. Open crural fascia there, proximally as needed and distally to the proximal flexor retinaculum. Retract TP, FDL, and the posterior tibial neurovascular bundle with blunt retractors until the posterior fracture is fully seen. If the line runs far laterally, work between the tendons anteriorly and the bundle posteriorly.",
+            "source_ids": [
+              "ao_52f475041bb237f7",
+              "ao_52556d8e928066ce"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "layers": [
+          {
+            "text": "Skin, saphenous plane, crural fascia, TP/FDL and posterior tibial bundle, limited periosteum, then the posterior distal tibia.",
+            "source_ids": [
+              "ao_52f475041bb237f7",
+              "ao_52556d8e928066ce"
+            ]
+          }
+        ],
+        "structures_at_risk": [
+          {
+            "text": "The saphenous vein and nerve distally, and the posterior tibial neurovascular bundle with TP and FDL, are at risk.",
+            "source_ids": [
+              "ao_52f475041bb237f7",
+              "ao_52556d8e928066ce"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "danger_zones": [
+          {
+            "text": "The posterior tibial bundle behind the medial malleolus is the deep danger zone; the saphenous structures are the distal superficial danger zone.",
+            "source_ids": [
+              "ao_52f475041bb237f7",
+              "ao_52556d8e928066ce"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "retraction_hazards": [
+          {
+            "text": "Use blunt retractors on the tendons and bundle. Strip periosteum only enough to judge metaphyseal reduction.",
+            "source_ids": [
+              "ao_52f475041bb237f7"
+            ],
+            "risk_level": "medium"
+          }
+        ],
+        "exposure": [
+          {
+            "text": "Shows a medial-malleolar fracture that extends to the posterior tibial edge, including posterior comminution.",
+            "source_ids": [
+              "ao_52f475041bb237f7"
+            ]
+          }
+        ],
+        "limitations": [
+          {
+            "text": "A purely anterior medial-malleolar fracture is better served by the anterior medial window.",
+            "source_ids": [
+              "ao_52f475041bb237f7"
+            ]
+          }
+        ],
+        "indications": [
+          {
+            "text": "Indicated for posterior comminution or posterior extension of a medial-malleolar fracture.",
+            "source_ids": [
+              "ao_52f475041bb237f7"
+            ]
+          }
+        ],
+        "closure": [
+          {
+            "text": "Confirm the posterior tibial bundle and saphenous structures are free, then close fascia and skin.",
+            "source_ids": [
+              "ao_52f475041bb237f7",
+              "ao_52556d8e928066ce"
+            ]
+          }
+        ],
+        "complications": [
+          {
+            "text": "Complications include posterior-tibial neurovascular injury and saphenous-nerve or vein injury.",
+            "source_ids": [
+              "ao_52f475041bb237f7",
+              "ao_52556d8e928066ce"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "questions": [
+          {
+            "question": "Where does the incision start?",
+            "answer": "One centimeter distal and 1 cm anterior to the middle of the medial-malleolar tip.",
+            "source_ids": [
+              "ao_52f475041bb237f7"
+            ]
+          },
+          {
+            "question": "Which tendons and bundle are retracted?",
+            "answer": "Tibialis posterior, flexor digitorum longus, and the posterior tibial neurovascular bundle.",
+            "source_ids": [
+              "ao_52f475041bb237f7"
+            ]
+          },
+          {
+            "question": "When is the interval between tendons and the bundle used?",
+            "answer": "When the fracture line extends far onto the lateral posterior tibia.",
+            "source_ids": [
+              "ao_52f475041bb237f7"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "approach_id": "malleoli_pin_safe_zones",
+      "name": "Safe zones for pins and percutaneous instrumentation around the ankle",
+      "aliases": [
+        "ankle spanning-frame pin corridors",
+        "malleoli percutaneous pin safe zones"
+      ],
+      "region": "malleoli",
+      "joint": "ankle",
+      "bones": [
+        "calcaneus",
+        "tibia",
+        "fourth metatarsal"
+      ],
+      "corridor": "Medial-to-lateral calcaneal tuberosity pin posterior to the posterior-tibial bundle, anterior-to-medial tibial Schanz screws in the distal half of the shaft, and a hand-inserted screw in the fourth-metatarsal base between extensor tendons",
+      "sources": [
+        {
+          "source_id": "ao_9615eab8a001bf0e",
+          "provider": "AO Surgery Reference",
+          "title": "Safe Zones For Percutaneous Instrumentation",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/malleoli/approach/safe-zones-for-percutaneous-instrumentation",
+          "source_page_id": "ao_9615eab8a001bf0e"
+        },
+        {
+          "source_id": "ao_7ad725da3000c2d9",
+          "provider": "AO Surgery Reference",
+          "title": "Safe Zones For Anterior Approach",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/malleoli/approach/safe-zones-for-anterior-approach",
+          "source_page_id": "ao_7ad725da3000c2d9"
+        },
+        {
+          "source_id": "ao_e853cb1071acace7",
+          "provider": "AO Surgery Reference",
+          "title": "Safe zones (distal tibia)",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/distal-tibia/approach/safe-zones",
+          "source_page_id": "ao_e853cb1071acace7"
+        }
+      ],
+      "procedure_applications": [
+        {
+          "procedure_id": "pilon_ankle_fracture_orif",
+          "relationship": "conditional_option",
+          "condition": "A spanning external fixator or percutaneous wires are placed around an ankle or pilon injury"
+        }
+      ],
+      "sections": {
+        "positioning": [
+          {
+            "text": "Position so the calcaneal tuberosity, distal tibial shaft, and fourth-metatarsal base can be imaged and, if swelling allows, the posterior tibial pulse palpated.",
+            "source_ids": [
+              "ao_9615eab8a001bf0e",
+              "ao_e853cb1071acace7"
+            ]
+          }
+        ],
+        "surface_landmarks": [
+          {
+            "text": "Mark the posterior tibial pulse behind the medial malleolus (or copy its location from the uninjured side if the injured pulse is not felt), the anterior and medial tibial faces, and the extensor intervals at the fourth-metatarsal base.",
+            "source_ids": [
+              "ao_9615eab8a001bf0e"
+            ]
+          }
+        ],
+        "incision": [
+          {
+            "text": "Use mini-open windows rather than blind power insertion, especially at the calcaneus and fourth metatarsal.",
+            "source_ids": [
+              "ao_9615eab8a001bf0e",
+              "ao_7ad725da3000c2d9"
+            ]
+          }
+        ],
+        "superficial_interval": [
+          {
+            "text": "Insert a calcaneal Steinmann pin from medial through the tuberosity, staying away from the posterior tibial bundle. Place two tibial Schanz screws in the distal half of the shaft in the wide anterior-to-medial safe zone, generally from anterior so medial hardware does not strike the other leg.",
+            "source_ids": [
+              "ao_9615eab8a001bf0e",
+              "ao_e853cb1071acace7"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "deep_interval": [
+          {
+            "text": "Do not over-penetrate the posterior tibial cortex, which can impale tibialis posterior or the posterior bundle. At the fourth-metatarsal base, thread a small Schanz screw by hand between the extensors to the fourth and fifth toes, or between the third and fourth; never use a power tool, because plantar over-penetration endangers plantar structures.",
+            "source_ids": [
+              "ao_9615eab8a001bf0e"
+            ],
+            "risk_level": "medium"
+          }
+        ],
+        "layers": [
+          {
+            "text": "Skin, defined safe corridors (calcaneal tuberosity, anterior/medial tibia, fourth-metatarsal extensor intervals), then bicortical bone.",
+            "source_ids": [
+              "ao_9615eab8a001bf0e",
+              "ao_e853cb1071acace7"
+            ]
+          }
+        ],
+        "structures_at_risk": [
+          {
+            "text": "The posterior tibial neurovascular bundle, tibialis posterior, extensor tendons at the fourth-metatarsal base, and plantar structures with over-penetration are at risk.",
+            "source_ids": [
+              "ao_9615eab8a001bf0e",
+              "ao_e853cb1071acace7"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "danger_zones": [
+          {
+            "text": "The bundle behind the medial malleolus is the calcaneal-pin danger zone. The posterior tibial cortex and the plantar fourth-metatarsal cortex are over-penetration danger zones.",
+            "source_ids": [
+              "ao_9615eab8a001bf0e"
+            ],
+            "risk_level": "medium"
+          }
+        ],
+        "retraction_hazards": [
+          {
+            "text": "If the injured posterior tibial pulse cannot be felt, use the uninjured side as a guide rather than guessing through swelling.",
+            "source_ids": [
+              "ao_9615eab8a001bf0e"
+            ],
+            "risk_level": "medium"
+          }
+        ],
+        "exposure": [
+          {
+            "text": "Provides only pin and wire corridors, not an open articular exposure.",
+            "source_ids": [
+              "ao_9615eab8a001bf0e",
+              "ao_7ad725da3000c2d9"
+            ]
+          }
+        ],
+        "limitations": [
+          {
+            "text": "The paired anterior-approach safe-zone page states only the general principle and supplies no extra corridors. Medial tibial metalwork can bother the contralateral leg, so anterior tibial pins are preferred.",
+            "source_ids": [
+              "ao_9615eab8a001bf0e",
+              "ao_7ad725da3000c2d9"
+            ]
+          }
+        ],
+        "indications": [
+          {
+            "text": "Used to place calcaneal, distal-tibial, and fourth-metatarsal pins or transfixion wires through defined ankle safe zones.",
+            "source_ids": [
+              "ao_9615eab8a001bf0e",
+              "ao_7ad725da3000c2d9"
+            ]
+          }
+        ],
+        "closure": [
+          {
+            "text": "Dress pin sites after confirming far-cortex engagement without over-penetration.",
+            "source_ids": [
+              "ao_9615eab8a001bf0e",
+              "ao_e853cb1071acace7"
+            ]
+          }
+        ],
+        "complications": [
+          {
+            "text": "Complications include posterior-tibial bundle injury from a medial calcaneal pin, posterior neurovascular injury from an over-long tibial screw, and plantar-structure injury from a powered fourth-metatarsal pin.",
+            "source_ids": [
+              "ao_9615eab8a001bf0e",
+              "ao_e853cb1071acace7"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "questions": [
+          {
+            "question": "From which side is a calcaneal Steinmann pin inserted?",
+            "answer": "From the medial side through the calcaneal tuberosity, avoiding the posterior tibial bundle.",
+            "source_ids": [
+              "ao_9615eab8a001bf0e"
+            ]
+          },
+          {
+            "question": "Where is the tibial Schanz-screw safe zone in the distal half of the shaft?",
+            "answer": "A wide corridor from direct anterior to direct medial, usually used from anterior.",
+            "source_ids": [
+              "ao_9615eab8a001bf0e"
+            ]
+          },
+          {
+            "question": "How must a fourth-metatarsal-base screw be inserted?",
+            "answer": "By hand, never with a power tool, between the extensor tendons.",
+            "source_ids": [
+              "ao_9615eab8a001bf0e"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "approach_id": "patella_midaxial_longitudinal",
+      "name": "Mid-axial longitudinal approach to the patella",
+      "aliases": [
+        "midline patellar approach"
+      ],
+      "region": "patella",
+      "joint": "knee",
+      "bones": [
+        "patella"
+      ],
+      "corridor": "Full-thickness midline incision from 5 cm above the superior pole to the tibial tubercle, exposing the extraosseous genicular ring and any traumatic retinacular tears, with optional medial parapatellar arthrotomy",
+      "sources": [
+        {
+          "source_id": "ao_dbc21192213e700c",
+          "provider": "AO Surgery Reference",
+          "title": "Mid Axial Longitudinal Approach",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/patella/approach/mid-axial-longitudinal-approach",
+          "source_page_id": "ao_dbc21192213e700c"
+        },
+        {
+          "source_id": "ao_a3814d82afad1b07",
+          "provider": "AO Surgery Reference",
+          "title": "Midline Longitudinal Approach",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/periprosthetic-fractures/knee/approach/midline-longitudinal-approach",
+          "source_page_id": "ao_a3814d82afad1b07"
+        }
+      ],
+      "procedure_applications": [
+        {
+          "procedure_id": "patella_fracture_orif",
+          "relationship": "primary_option",
+          "condition": "A patellar fracture is reduced and fixed through a reusable midline incision"
+        }
+      ],
+      "sections": {
+        "positioning": [
+          {
+            "text": "Position so the patella, patellar tendon, and tibial tubercle are palpable and the incision can be extended into the quadriceps or onto the tubercle.",
+            "source_ids": [
+              "ao_dbc21192213e700c",
+              "ao_a3814d82afad1b07"
+            ]
+          }
+        ],
+        "surface_landmarks": [
+          {
+            "text": "Mark the patella, the patellar tendon, and the tibial tubercle.",
+            "source_ids": [
+              "ao_dbc21192213e700c"
+            ]
+          }
+        ],
+        "incision": [
+          {
+            "text": "Make a longitudinal mid-axial cut from 5 cm above the superior pole to the tibial tubercle. Raise full-thickness flaps. A transverse prepatellar scar is not recommended because of wound problems and later arthroplasty healing.",
+            "source_ids": [
+              "ao_dbc21192213e700c"
+            ]
+          }
+        ],
+        "superficial_interval": [
+          {
+            "text": "Incise superficial fascia and map the full injury, including traumatic tears of the medial and lateral retinacula and capsule. Expect minor lateral sensory loss from infrapatellar saphenous branches.",
+            "source_ids": [
+              "ao_dbc21192213e700c",
+              "ao_a3814d82afad1b07"
+            ]
+          }
+        ],
+        "deep_interval": [
+          {
+            "text": "Expose the extra-articular anterior surface. A medial parapatellar arthrotomy is added if the joint must be inspected. In open fractures or chronic bursitis the prepatellar bursa may be excised.",
+            "source_ids": [
+              "ao_dbc21192213e700c",
+              "ao_a3814d82afad1b07"
+            ]
+          }
+        ],
+        "layers": [
+          {
+            "text": "Skin, full-thickness flaps, extraosseous genicular arterial ring, retinaculum and capsule, then the patella.",
+            "source_ids": [
+              "ao_dbc21192213e700c",
+              "ao_a3814d82afad1b07"
+            ]
+          }
+        ],
+        "structures_at_risk": [
+          {
+            "text": "Infrapatellar saphenous branches, the extraosseous arterial ring (mid-patellar and polar vessels), and skin-flap blood supply are at risk.",
+            "source_ids": [
+              "ao_dbc21192213e700c",
+              "ao_a3814d82afad1b07"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "danger_zones": [
+          {
+            "text": "Thin flaps jeopardize the skin. A transverse incision compromises later reconstructive-knee surgery.",
+            "source_ids": [
+              "ao_dbc21192213e700c",
+              "ao_a3814d82afad1b07"
+            ],
+            "risk_level": "medium"
+          }
+        ],
+        "retraction_hazards": [
+          {
+            "text": "Keep flaps full thickness. Significant saphenous-trunk injury is avoidable if dissection respects the medial distal femur.",
+            "source_ids": [
+              "ao_dbc21192213e700c",
+              "ao_a3814d82afad1b07"
+            ],
+            "risk_level": "medium"
+          }
+        ],
+        "exposure": [
+          {
+            "text": "A universal window for all patellar fractures that can be reopened later and extended proximally or distally.",
+            "source_ids": [
+              "ao_dbc21192213e700c"
+            ]
+          }
+        ],
+        "limitations": [
+          {
+            "text": "Joint inspection requires a medial parapatellar arthrotomy. Parapatellar skin cuts are reserved mainly for open fractures.",
+            "source_ids": [
+              "ao_dbc21192213e700c"
+            ]
+          }
+        ],
+        "indications": [
+          {
+            "text": "The preferred approach for patellar fractures because it exposes the fracture well and remains reusable.",
+            "source_ids": [
+              "ao_dbc21192213e700c"
+            ]
+          }
+        ],
+        "closure": [
+          {
+            "text": "Irrigate with warm Ringer lactate, repair medial and lateral retinacular tears, consider a drain, and close skin as preferred.",
+            "source_ids": [
+              "ao_dbc21192213e700c"
+            ]
+          }
+        ],
+        "complications": [
+          {
+            "text": "Complications include skin-flap necrosis, saphenous neuroma, unrepaired retinacular incompetence, and a problematic transverse scar if that obsolete cut is used.",
+            "source_ids": [
+              "ao_dbc21192213e700c",
+              "ao_a3814d82afad1b07"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "questions": [
+          {
+            "question": "How long is the preferred incision?",
+            "answer": "From 5 cm above the superior pole of the patella to the tibial tubercle.",
+            "source_ids": [
+              "ao_dbc21192213e700c"
+            ]
+          },
+          {
+            "question": "Why is a transverse prepatellar incision not recommended?",
+            "answer": "Wound healing is frequently a problem, and the scar may compromise later reconstructive knee surgery.",
+            "source_ids": [
+              "ao_dbc21192213e700c"
+            ]
+          },
+          {
+            "question": "What must be sutured before skin closure?",
+            "answer": "Tears in the medial and lateral parapatellar retinacula.",
+            "source_ids": [
+              "ao_dbc21192213e700c"
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

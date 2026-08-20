@@ -1,0 +1,362 @@
+{
+  "schema_version": "brobot_approach_packet_v1",
+  "approach_id": "forearm_pediatric_pin_safe_zones",
+  "name": "Pediatric safe zones for forearm pin placement",
+  "aliases": [
+    "pediatric radius and ulna external-fixator pin corridors"
+  ],
+  "region": "forearm-shaft",
+  "joint": "",
+  "bones": [
+    "radius",
+    "ulna"
+  ],
+  "corridor": "Mini-open posterolateral windows in neutral rotation: proximal radius distal to the neck between ECU and the mobile wad, distal radius under direct vision away from the superficial radial nerve, proximal ulna between anconeus and FCU, and distal ulna between ECU and FCU, protecting the physes",
+  "positioning": [
+    {
+      "text": "Hold the hand in neutral rotation for both radial and ulnar pins; relationships change with forearm rotation.",
+      "claim_ids": [
+        "forearm_pediatric_pin_safe_zones_positioning_01"
+      ]
+    }
+  ],
+  "setup": [],
+  "surface_landmarks": [
+    {
+      "text": "Use the thinnest posterolateral envelope and stay between compartments. Avoid anterior insertion. Proximal work has greater neurovascular risk.",
+      "claim_ids": [
+        "forearm_pediatric_pin_safe_zones_surface_landmarks_01"
+      ]
+    }
+  ],
+  "incision": [
+    {
+      "text": "Make a 1–2 cm incision at each planned pin and deepen it with an artery clip or forceps and small retractors until bone is seen.",
+      "claim_ids": [
+        "forearm_pediatric_pin_safe_zones_incision_01"
+      ]
+    }
+  ],
+  "superficial_interval": [
+    {
+      "text": "On the proximal radius pass between extensor carpi ulnaris and the mobile wad, distal to the radial neck. On the distal radius stay under direct vision away from the superficial radial nerve and cephalic vein. On the ulna use anconeus–FCU in the proximal fifth and ECU–FCU in the distal four-fifths.",
+      "claim_ids": [
+        "forearm_pediatric_pin_safe_zones_superficial_interval_01"
+      ]
+    }
+  ],
+  "deep_interval": [
+    {
+      "text": "Reach cortex under direct vision so the pin does not pass blindly through muscle or beside a nerve. A second proximal-radius pin, if used, sits distal to the supinator insertion.",
+      "claim_ids": [
+        "forearm_pediatric_pin_safe_zones_deep_interval_01"
+      ]
+    }
+  ],
+  "layers": [
+    {
+      "text": "Skin, thin subcutaneous tissue, intercompartmental interval, periosteum, then radius or ulna, staying clear of the physes.",
+      "claim_ids": [
+        "forearm_pediatric_pin_safe_zones_layers_01"
+      ]
+    }
+  ],
+  "structures_encountered": [],
+  "structures_at_risk": [
+    {
+      "text": "The posterior interosseous nerve in the proximal-radius supinator, the superficial radial nerve and cephalic vein distally, the ulnar nerve and artery, the anterior flexor-compartment neurovascular bundle, and the physes are at risk.",
+      "claim_ids": [
+        "forearm_pediatric_pin_safe_zones_structures_at_risk_01"
+      ]
+    }
+  ],
+  "danger_zones": [
+    {
+      "text": "Do not insert pins from anterior. Proximal-radius pins are used infrequently because they sit next to the posterior interosseous nerve. Do not transfix a physis.",
+      "claim_ids": [
+        "forearm_pediatric_pin_safe_zones_danger_zones_01"
+      ]
+    }
+  ],
+  "retraction_hazards": [
+    {
+      "text": "Spread to bone with retractors rather than driving a pin through unvisualized muscle, especially near the posterior interosseous and superficial radial nerves.",
+      "claim_ids": [
+        "forearm_pediatric_pin_safe_zones_retraction_hazards_01"
+      ]
+    }
+  ],
+  "exposure": [
+    {
+      "text": "Each corridor is only a pin window, not an open fracture exposure.",
+      "claim_ids": [
+        "forearm_pediatric_pin_safe_zones_exposure_01"
+      ]
+    }
+  ],
+  "limitations": [
+    {
+      "text": "The proximal-radius corridor is infrequently used because of the posterior interosseous nerve. Neutral rotation is the usual pediatric position for both bones.",
+      "claim_ids": [
+        "forearm_pediatric_pin_safe_zones_limitations_01"
+      ]
+    }
+  ],
+  "extensions": [],
+  "indications": [
+    {
+      "text": "Used to place percutaneous or external-fixator pins in the pediatric radius or ulna through defined safe zones.",
+      "claim_ids": [
+        "forearm_pediatric_pin_safe_zones_indications_01"
+      ]
+    }
+  ],
+  "relative_contraindications": [],
+  "implant_implications": [],
+  "fluoroscopy_implications": [],
+  "closure": [
+    {
+      "text": "Close each mini-incision after the pin is seated and the soft tissue is confirmed free of the shaft.",
+      "claim_ids": [
+        "forearm_pediatric_pin_safe_zones_closure_01"
+      ]
+    }
+  ],
+  "complications": [
+    {
+      "text": "Complications include posterior interosseous or superficial radial nerve injury, ulnar neurovascular injury, physeal penetration, and pin-site infection.",
+      "claim_ids": [
+        "forearm_pediatric_pin_safe_zones_complications_01"
+      ]
+    }
+  ],
+  "bailouts": [],
+  "procedure_applications": [
+    {
+      "procedure_id": "both_bone_forearm_fracture_orif",
+      "relationship": "conditional_option",
+      "condition": "Pediatric external-fixator pins are placed in the radius or ulna"
+    }
+  ],
+  "questions": [
+    {
+      "question": "What forearm rotation is used for pediatric radial and ulnar pins?",
+      "answer": "Neutral rotation for both bones.",
+      "claim_ids": [
+        "forearm_pediatric_pin_safe_zones_questions_01"
+      ]
+    },
+    {
+      "question": "What is the proximal ulnar safe interval in a child?",
+      "answer": "Between anconeus and flexor carpi ulnaris in the proximal fifth of the shaft.",
+      "claim_ids": [
+        "forearm_pediatric_pin_safe_zones_questions_02"
+      ]
+    },
+    {
+      "question": "Why are proximal-radius pins uncommon?",
+      "answer": "They sit next to the posterior interosseous nerve in the supinator.",
+      "claim_ids": [
+        "forearm_pediatric_pin_safe_zones_questions_03"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "forearm_pediatric_pin_safe_zones_positioning_01",
+      "text": "Hold the hand in neutral rotation for both radial and ulnar pins; relationships change with forearm rotation.",
+      "source_ids": [
+        "ao_86bd0dbf857c1c2f",
+        "ao_ab9aab6ba621c5d3"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "forearm_pediatric_pin_safe_zones_surface_landmarks_01",
+      "text": "Use the thinnest posterolateral envelope and stay between compartments. Avoid anterior insertion. Proximal work has greater neurovascular risk.",
+      "source_ids": [
+        "ao_86bd0dbf857c1c2f",
+        "ao_ab9aab6ba621c5d3",
+        "ao_dba28fa580cb941b"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "forearm_pediatric_pin_safe_zones_incision_01",
+      "text": "Make a 1–2 cm incision at each planned pin and deepen it with an artery clip or forceps and small retractors until bone is seen.",
+      "source_ids": [
+        "ao_86bd0dbf857c1c2f",
+        "ao_dba28fa580cb941b"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "forearm_pediatric_pin_safe_zones_superficial_interval_01",
+      "text": "On the proximal radius pass between extensor carpi ulnaris and the mobile wad, distal to the radial neck. On the distal radius stay under direct vision away from the superficial radial nerve and cephalic vein. On the ulna use anconeus–FCU in the proximal fifth and ECU–FCU in the distal four-fifths.",
+      "source_ids": [
+        "ao_86bd0dbf857c1c2f",
+        "ao_ab9aab6ba621c5d3"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "forearm_pediatric_pin_safe_zones_deep_interval_01",
+      "text": "Reach cortex under direct vision so the pin does not pass blindly through muscle or beside a nerve. A second proximal-radius pin, if used, sits distal to the supinator insertion.",
+      "source_ids": [
+        "ao_86bd0dbf857c1c2f",
+        "ao_dba28fa580cb941b"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "forearm_pediatric_pin_safe_zones_layers_01",
+      "text": "Skin, thin subcutaneous tissue, intercompartmental interval, periosteum, then radius or ulna, staying clear of the physes.",
+      "source_ids": [
+        "ao_86bd0dbf857c1c2f",
+        "ao_ab9aab6ba621c5d3"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "forearm_pediatric_pin_safe_zones_structures_at_risk_01",
+      "text": "The posterior interosseous nerve in the proximal-radius supinator, the superficial radial nerve and cephalic vein distally, the ulnar nerve and artery, the anterior flexor-compartment neurovascular bundle, and the physes are at risk.",
+      "source_ids": [
+        "ao_86bd0dbf857c1c2f",
+        "ao_ab9aab6ba621c5d3",
+        "ao_dba28fa580cb941b"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "forearm_pediatric_pin_safe_zones_danger_zones_01",
+      "text": "Do not insert pins from anterior. Proximal-radius pins are used infrequently because they sit next to the posterior interosseous nerve. Do not transfix a physis.",
+      "source_ids": [
+        "ao_86bd0dbf857c1c2f",
+        "ao_dba28fa580cb941b"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "forearm_pediatric_pin_safe_zones_retraction_hazards_01",
+      "text": "Spread to bone with retractors rather than driving a pin through unvisualized muscle, especially near the posterior interosseous and superficial radial nerves.",
+      "source_ids": [
+        "ao_86bd0dbf857c1c2f",
+        "ao_dba28fa580cb941b"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "forearm_pediatric_pin_safe_zones_exposure_01",
+      "text": "Each corridor is only a pin window, not an open fracture exposure.",
+      "source_ids": [
+        "ao_86bd0dbf857c1c2f",
+        "ao_ab9aab6ba621c5d3"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "forearm_pediatric_pin_safe_zones_limitations_01",
+      "text": "The proximal-radius corridor is infrequently used because of the posterior interosseous nerve. Neutral rotation is the usual pediatric position for both bones.",
+      "source_ids": [
+        "ao_86bd0dbf857c1c2f",
+        "ao_ab9aab6ba621c5d3"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "forearm_pediatric_pin_safe_zones_indications_01",
+      "text": "Used to place percutaneous or external-fixator pins in the pediatric radius or ulna through defined safe zones.",
+      "source_ids": [
+        "ao_86bd0dbf857c1c2f",
+        "ao_ab9aab6ba621c5d3"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "forearm_pediatric_pin_safe_zones_closure_01",
+      "text": "Close each mini-incision after the pin is seated and the soft tissue is confirmed free of the shaft.",
+      "source_ids": [
+        "ao_dba28fa580cb941b"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "forearm_pediatric_pin_safe_zones_complications_01",
+      "text": "Complications include posterior interosseous or superficial radial nerve injury, ulnar neurovascular injury, physeal penetration, and pin-site infection.",
+      "source_ids": [
+        "ao_86bd0dbf857c1c2f",
+        "ao_ab9aab6ba621c5d3",
+        "ao_dba28fa580cb941b"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "forearm_pediatric_pin_safe_zones_questions_01",
+      "text": "What forearm rotation is used for pediatric radial and ulnar pins?",
+      "source_ids": [
+        "ao_86bd0dbf857c1c2f",
+        "ao_ab9aab6ba621c5d3"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "forearm_pediatric_pin_safe_zones_questions_02",
+      "text": "What is the proximal ulnar safe interval in a child?",
+      "source_ids": [
+        "ao_ab9aab6ba621c5d3"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "forearm_pediatric_pin_safe_zones_questions_03",
+      "text": "Why are proximal-radius pins uncommon?",
+      "source_ids": [
+        "ao_86bd0dbf857c1c2f",
+        "ao_dba28fa580cb941b"
+      ],
+      "risk_level": "medium"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "ao_86bd0dbf857c1c2f",
+      "provider": "AO Surgery Reference",
+      "title": "Safe Zones For Pin Placement In The Radius",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/pediatric-trauma/forearm-shaft/approach/safe-zones-for-pin-placement-in-the-radius",
+      "source_page_id": "ao_86bd0dbf857c1c2f"
+    },
+    {
+      "source_id": "ao_ab9aab6ba621c5d3",
+      "provider": "AO Surgery Reference",
+      "title": "Safe Zones For Pin Placement In The Ulna",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/pediatric-trauma/forearm-shaft/approach/safe-zones-for-pin-placement-in-the-ulna",
+      "source_page_id": "ao_ab9aab6ba621c5d3"
+    },
+    {
+      "source_id": "ao_dba28fa580cb941b",
+      "provider": "AO Surgery Reference",
+      "title": "Safe zones for pin placement in the forearm",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/forearm-shaft/approach/safe-zones-for-pin-placement-in-the-forearm",
+      "source_page_id": "ao_dba28fa580cb941b"
+    }
+  ],
+  "content_status": "agent_review_pending",
+  "review": {
+    "status": "agent_review_pending",
+    "required_roles": [
+      "adversarial_safety_reviewer",
+      "approach_anatomy_reviewer",
+      "educational_value_reviewer",
+      "evidence_reviewer",
+      "operative_exposure_reviewer",
+      "procedure_applicability_reviewer"
+    ],
+    "completed_roles": []
+  },
+  "resolved_contradiction_keys": [],
+  "authoring_provenance": {
+    "method": "local_codex_curated",
+    "definition_file": "data/approach_library/curated/hand_dip_pip_phalanx_batch001_v1.json",
+    "api_used": false
+  }
+}

@@ -1,0 +1,551 @@
+{
+  "approaches": [
+    {
+      "approach_id": "humeral_shaft_antegrade_transdeltoid_entry",
+      "name": "Anterolateral transdeltoid approach for antegrade humeral nailing",
+      "aliases": [
+        "transdeltoid antegrade humeral nail entry"
+      ],
+      "region": "humeral-shaft",
+      "joint": "shoulder",
+      "bones": [
+        "humerus"
+      ],
+      "corridor": "Anterolateral deltoid-splitting window through the supraspinatus tendon to the superior humeral head entry point just posterior to the long head of biceps",
+      "sources": [
+        {
+          "source_id": "ao_69eb3cbdac2ac7cb",
+          "provider": "AO Surgery Reference",
+          "title": "Anterolateral transdeltoid approach for antegrade nailing",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/humeral-shaft/approach/anterolateral-transdeltoid-approach-for-antegrade-nailing",
+          "source_page_id": "ao_69eb3cbdac2ac7cb"
+        },
+        {
+          "source_id": "ao_448da66bc421d7ed",
+          "provider": "AO Surgery Reference",
+          "title": "MIO transdeltoid lateral approach to the humeral shaft",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/humeral-shaft/approach/mio-transdeltoid-lateral-approach",
+          "source_page_id": "ao_448da66bc421d7ed"
+        }
+      ],
+      "procedure_applications": [
+        {
+          "procedure_id": "humeral_shaft_fracture_orif",
+          "relationship": "primary_option",
+          "condition": "A humeral shaft fracture is stabilized with an antegrade intramedullary nail"
+        }
+      ],
+      "sections": {
+        "positioning": [
+          {
+            "text": "Position in a beach-chair position with the arm draped free and image intensifier access to the shoulder.",
+            "source_ids": [
+              "ao_69eb3cbdac2ac7cb"
+            ]
+          }
+        ],
+        "surface_landmarks": [
+          {
+            "text": "Mark the anterolateral edge of the acromion and the line of the deltoid toward its insertion.",
+            "source_ids": [
+              "ao_69eb3cbdac2ac7cb"
+            ]
+          }
+        ],
+        "incision": [
+          {
+            "text": "Make a small skin incision from the anterolateral edge of the acromion running distally toward the deltoid insertion.",
+            "source_ids": [
+              "ao_69eb3cbdac2ac7cb"
+            ]
+          }
+        ],
+        "superficial_interval": [
+          {
+            "text": "Split and retract the deltoid within its raphe, keeping the split limited to protect the axillary nerve on the deep surface of the muscle.",
+            "source_ids": [
+              "ao_69eb3cbdac2ac7cb",
+              "ao_448da66bc421d7ed"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "deep_interval": [
+          {
+            "text": "Incise the supraspinatus tendon in line with its fibers with a pointed blade, retract both borders with sutures, and make the entry on the superior humeral head cartilage just posterior to the long head of biceps and medial to the greater tuberosity.",
+            "source_ids": [
+              "ao_69eb3cbdac2ac7cb"
+            ]
+          }
+        ],
+        "layers": [
+          {
+            "text": "Skin, subcutaneous tissue, deltoid, subacromial bursa, supraspinatus tendon, and the superior humeral head.",
+            "source_ids": [
+              "ao_69eb3cbdac2ac7cb"
+            ]
+          }
+        ],
+        "structures_at_risk": [
+          {
+            "text": "The axillary nerve on the deep deltoid surface and the supraspinatus/rotator cuff at the entry point are at risk.",
+            "source_ids": [
+              "ao_69eb3cbdac2ac7cb",
+              "ao_448da66bc421d7ed"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "danger_zones": [
+          {
+            "text": "The rotator cuff entry through the supraspinatus is the danger zone; cuff damage is minimized by a sharp incision and reamer sleeves.",
+            "source_ids": [
+              "ao_69eb3cbdac2ac7cb"
+            ],
+            "risk_level": "medium"
+          }
+        ],
+        "retraction_hazards": [
+          {
+            "text": "Keep the deltoid split short to avoid the axillary nerve and pass reamers only through sleeves to spare the cuff.",
+            "source_ids": [
+              "ao_69eb3cbdac2ac7cb",
+              "ao_448da66bc421d7ed"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "exposure": [
+          {
+            "text": "Exposes the superior humeral head entry point for antegrade nail insertion.",
+            "source_ids": [
+              "ao_69eb3cbdac2ac7cb"
+            ]
+          }
+        ],
+        "limitations": [
+          {
+            "text": "The approach accesses only the proximal entry and depends on the rotator cuff, which must be preserved and repaired.",
+            "source_ids": [
+              "ao_69eb3cbdac2ac7cb"
+            ]
+          }
+        ],
+        "indications": [
+          {
+            "text": "Indicated to establish the entry point for antegrade intramedullary nailing of humeral shaft fractures.",
+            "source_ids": [
+              "ao_69eb3cbdac2ac7cb"
+            ]
+          }
+        ],
+        "closure": [
+          {
+            "text": "Close the supraspinatus tendon carefully, place a drain in the subacromial space if needed, and close the deltoid fascia and skin.",
+            "source_ids": [
+              "ao_69eb3cbdac2ac7cb"
+            ]
+          }
+        ],
+        "complications": [
+          {
+            "text": "Complications include rotator cuff dysfunction and shoulder pain, axillary nerve injury, and an incorrect entry point.",
+            "source_ids": [
+              "ao_69eb3cbdac2ac7cb",
+              "ao_448da66bc421d7ed"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "questions": [
+          {
+            "question": "Where is the ideal antegrade humeral nail entry point?",
+            "answer": "On the superior humeral head cartilage just posterior to the long head of biceps, medial to the greater tuberosity.",
+            "source_ids": [
+              "ao_69eb3cbdac2ac7cb"
+            ]
+          },
+          {
+            "question": "How is rotator cuff damage minimized during this approach?",
+            "answer": "By a sharp in-line incision of the supraspinatus and using reamer sleeves.",
+            "source_ids": [
+              "ao_69eb3cbdac2ac7cb"
+            ]
+          },
+          {
+            "question": "Why is the deltoid split kept short?",
+            "answer": "To avoid injuring the axillary nerve on the deep surface of the deltoid.",
+            "source_ids": [
+              "ao_69eb3cbdac2ac7cb",
+              "ao_448da66bc421d7ed"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "approach_id": "humeral_shaft_mio_transdeltoid_lateral",
+      "name": "MIO transdeltoid lateral approach to the humeral shaft",
+      "aliases": [
+        "minimally invasive lateral humeral plating approach"
+      ],
+      "region": "humeral-shaft",
+      "joint": "",
+      "bones": [
+        "humerus"
+      ],
+      "corridor": "Proximal deltoid-splitting window and a distal window between biceps and triceps, with submuscular passage of a plate under the axillary nerve along the lateral humerus",
+      "sources": [
+        {
+          "source_id": "ao_448da66bc421d7ed",
+          "provider": "AO Surgery Reference",
+          "title": "MIO transdeltoid lateral approach to the humeral shaft",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/humeral-shaft/approach/mio-transdeltoid-lateral-approach",
+          "source_page_id": "ao_448da66bc421d7ed"
+        },
+        {
+          "source_id": "ao_48fcde9b4b59d848",
+          "provider": "AO Surgery Reference",
+          "title": "Lateral approach to the humeral shaft",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/humeral-shaft/approach/lateral-approach-to-the-humeral-shaft",
+          "source_page_id": "ao_48fcde9b4b59d848"
+        }
+      ],
+      "procedure_applications": [
+        {
+          "procedure_id": "humeral_shaft_fracture_orif",
+          "relationship": "primary_option",
+          "condition": "A more proximal humeral shaft fracture, especially with greater tuberosity extension, is treated with minimally invasive plating"
+        }
+      ],
+      "sections": {
+        "positioning": [
+          {
+            "text": "Position beach-chair or supine with the lateral acromion and lateral humeral shaft accessible for proximal and distal windows.",
+            "source_ids": [
+              "ao_448da66bc421d7ed"
+            ]
+          }
+        ],
+        "surface_landmarks": [
+          {
+            "text": "Palpate the lateral border of the acromion and the lateral humeral shaft, and mark the axillary nerve zone about 5 to 7 cm below the acromion.",
+            "source_ids": [
+              "ao_448da66bc421d7ed"
+            ]
+          }
+        ],
+        "incision": [
+          {
+            "text": "Make the proximal incision from the lateral border of the acromion about 5 cm distally parallel to the humeral axis, and a separate distal window over the lateral humerus.",
+            "source_ids": [
+              "ao_448da66bc421d7ed"
+            ]
+          }
+        ],
+        "superficial_interval": [
+          {
+            "text": "Split the middle (acromial) third of the deltoid between its fibers, not extending beyond 5 cm from the origin, and distally develop the plane between biceps and triceps.",
+            "source_ids": [
+              "ao_448da66bc421d7ed",
+              "ao_48fcde9b4b59d848"
+            ]
+          }
+        ],
+        "deep_interval": [
+          {
+            "text": "Identify the anterior motor branch of the axillary nerve crossing the humerus about 6 cm below the acromion, pass the plate submuscularly under the nerve and its vessels, and protect the radial nerve in the distal window.",
+            "source_ids": [
+              "ao_448da66bc421d7ed",
+              "ao_48fcde9b4b59d848"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "layers": [
+          {
+            "text": "Skin, subcutaneous tissue, deltoid proximally, the biceps-triceps interval distally, the axillary nerve, and the lateral humeral surface.",
+            "source_ids": [
+              "ao_448da66bc421d7ed"
+            ]
+          }
+        ],
+        "structures_at_risk": [
+          {
+            "text": "The anterior branch of the axillary nerve crossing about 6 cm below the acromion and the radial nerve in the distal window are at risk.",
+            "source_ids": [
+              "ao_448da66bc421d7ed",
+              "ao_48fcde9b4b59d848"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "danger_zones": [
+          {
+            "text": "The zone roughly 5 to 7 cm below the lateral acromion where the axillary nerve crosses is the danger zone; do not split the deltoid beyond 5 cm from its origin.",
+            "source_ids": [
+              "ao_448da66bc421d7ed"
+            ],
+            "risk_level": "medium"
+          }
+        ],
+        "retraction_hazards": [
+          {
+            "text": "Palpate the axillary nerve on the deep deltoid surface, place a stay suture at the inferior border of the split, and pass instruments carefully beneath the nerve.",
+            "source_ids": [
+              "ao_448da66bc421d7ed"
+            ],
+            "risk_level": "medium"
+          }
+        ],
+        "exposure": [
+          {
+            "text": "Provides proximal and distal lateral windows for submuscular plate fixation of the humeral shaft.",
+            "source_ids": [
+              "ao_448da66bc421d7ed"
+            ]
+          }
+        ],
+        "limitations": [
+          {
+            "text": "It gives no direct visualization of the fracture and relies on indirect reduction and imaging, with the axillary and radial nerves bounding the safe corridor.",
+            "source_ids": [
+              "ao_448da66bc421d7ed"
+            ]
+          }
+        ],
+        "indications": [
+          {
+            "text": "Indicated for minimally invasive plating of proximal humeral shaft fractures, especially with greater tuberosity extension.",
+            "source_ids": [
+              "ao_448da66bc421d7ed"
+            ]
+          }
+        ],
+        "closure": [
+          {
+            "text": "Irrigate, optionally drain, and close the deltoid fascia, subcutaneous tissue, and skin in sequence.",
+            "source_ids": [
+              "ao_448da66bc421d7ed"
+            ]
+          }
+        ],
+        "complications": [
+          {
+            "text": "Complications include axillary nerve injury with deltoid weakness, radial nerve injury distally, and malreduction.",
+            "source_ids": [
+              "ao_448da66bc421d7ed",
+              "ao_48fcde9b4b59d848"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "questions": [
+          {
+            "question": "How far below the acromion does the axillary nerve cross the humerus?",
+            "answer": "About 6 cm below the lateral border of the acromion.",
+            "source_ids": [
+              "ao_448da66bc421d7ed"
+            ]
+          },
+          {
+            "question": "How far may the deltoid be split from its origin?",
+            "answer": "No more than 5 cm, to protect the axillary nerve.",
+            "source_ids": [
+              "ao_448da66bc421d7ed"
+            ]
+          },
+          {
+            "question": "Which nerve is protected in the distal window?",
+            "answer": "The radial nerve.",
+            "source_ids": [
+              "ao_448da66bc421d7ed",
+              "ao_48fcde9b4b59d848"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "approach_id": "humeral_shaft_retrograde_nailing_entry",
+      "name": "Retrograde nailing approach to the humeral shaft",
+      "aliases": [
+        "posterior retrograde humeral nail entry"
+      ],
+      "region": "humeral-shaft",
+      "joint": "elbow",
+      "bones": [
+        "humerus"
+      ],
+      "corridor": "Posterior triceps-splitting window to an entry point just proximal to the olecranon fossa for retrograde humeral nailing",
+      "sources": [
+        {
+          "source_id": "ao_0568d2d364823362",
+          "provider": "AO Surgery Reference",
+          "title": "Retrograde nailing approach to the humeral shaft",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/humeral-shaft/approach/retrograde-nailing-approach",
+          "source_page_id": "ao_0568d2d364823362"
+        },
+        {
+          "source_id": "ao_06a42af78d4203b6",
+          "provider": "AO Surgery Reference",
+          "title": "Posterior triceps-split approach to the humeral shaft",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/humeral-shaft/approach/posterior-triceps-split-approach",
+          "source_page_id": "ao_06a42af78d4203b6"
+        }
+      ],
+      "procedure_applications": [
+        {
+          "procedure_id": "humeral_shaft_fracture_orif",
+          "relationship": "primary_option",
+          "condition": "A humeral shaft fracture is stabilized with a retrograde intramedullary nail"
+        }
+      ],
+      "sections": {
+        "positioning": [
+          {
+            "text": "Position prone or lateral with the arm over a support and the elbow flexed so the posterior distal humerus is presented.",
+            "source_ids": [
+              "ao_0568d2d364823362"
+            ]
+          }
+        ],
+        "surface_landmarks": [
+          {
+            "text": "Mark the medial and lateral supracondylar ridges, the tip of the olecranon, and the posterior humeral shaft.",
+            "source_ids": [
+              "ao_0568d2d364823362"
+            ]
+          }
+        ],
+        "incision": [
+          {
+            "text": "Make an 8 to 10 cm straight dorsal incision proximally from the tip of the olecranon.",
+            "source_ids": [
+              "ao_0568d2d364823362"
+            ]
+          }
+        ],
+        "superficial_interval": [
+          {
+            "text": "Split the triceps tendon longitudinally and separate the edges with right-angle retractors.",
+            "source_ids": [
+              "ao_0568d2d364823362",
+              "ao_06a42af78d4203b6"
+            ]
+          }
+        ],
+        "deep_interval": [
+          {
+            "text": "Expose bone just proximal to the olecranon fossa, extending about 25 mm proximally from the fossa edge, palpating the medial and lateral columns to center the entry and protecting the elbow joint capsule.",
+            "source_ids": [
+              "ao_0568d2d364823362"
+            ]
+          }
+        ],
+        "layers": [
+          {
+            "text": "Skin, subcutaneous tissue, triceps tendon and muscle, and the posterior supracondylar humerus above the olecranon fossa.",
+            "source_ids": [
+              "ao_0568d2d364823362"
+            ]
+          }
+        ],
+        "structures_at_risk": [
+          {
+            "text": "The ulnar nerve medially and the triceps mechanism are at risk, and a poorly placed or low entry can create a supracondylar stress riser.",
+            "source_ids": [
+              "ao_0568d2d364823362",
+              "ao_06a42af78d4203b6"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "danger_zones": [
+          {
+            "text": "The supracondylar entry region is the danger zone: an eccentric or distal entry risks iatrogenic supracondylar fracture, and the ulnar nerve lies just medial.",
+            "source_ids": [
+              "ao_0568d2d364823362",
+              "ao_06a42af78d4203b6"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "retraction_hazards": [
+          {
+            "text": "Protect the ulnar nerve medially and the elbow capsule during preparation of the entry.",
+            "source_ids": [
+              "ao_0568d2d364823362"
+            ],
+            "risk_level": "medium"
+          }
+        ],
+        "exposure": [
+          {
+            "text": "Exposes the posterior supracondylar humerus for the retrograde entry point.",
+            "source_ids": [
+              "ao_0568d2d364823362"
+            ]
+          }
+        ],
+        "limitations": [
+          {
+            "text": "The narrow entry corridor above the olecranon fossa and the risk of supracondylar fracture limit nail diameter and mandate a well-centered entry.",
+            "source_ids": [
+              "ao_0568d2d364823362"
+            ]
+          }
+        ],
+        "indications": [
+          {
+            "text": "Indicated to establish the entry point for retrograde intramedullary nailing of humeral shaft fractures.",
+            "source_ids": [
+              "ao_0568d2d364823362"
+            ]
+          }
+        ],
+        "closure": [
+          {
+            "text": "Repair the split triceps tendon and posterior fascia in layers, place a drain if needed, and close skin.",
+            "source_ids": [
+              "ao_0568d2d364823362"
+            ]
+          }
+        ],
+        "complications": [
+          {
+            "text": "Complications include iatrogenic supracondylar fracture, ulnar nerve injury, triceps weakness, and elbow stiffness.",
+            "source_ids": [
+              "ao_0568d2d364823362",
+              "ao_06a42af78d4203b6"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "questions": [
+          {
+            "question": "Where is the retrograde humeral nail entry point?",
+            "answer": "Just proximal to the olecranon fossa, centered between the medial and lateral columns.",
+            "source_ids": [
+              "ao_0568d2d364823362"
+            ]
+          },
+          {
+            "question": "What is the characteristic bony risk of a poorly placed retrograde entry?",
+            "answer": "An iatrogenic supracondylar fracture.",
+            "source_ids": [
+              "ao_0568d2d364823362"
+            ]
+          },
+          {
+            "question": "Which nerve lies just medial to the retrograde entry exposure?",
+            "answer": "The ulnar nerve.",
+            "source_ids": [
+              "ao_0568d2d364823362"
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

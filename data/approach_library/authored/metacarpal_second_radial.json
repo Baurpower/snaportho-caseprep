@@ -1,0 +1,341 @@
+{
+  "schema_version": "brobot_approach_packet_v1",
+  "approach_id": "metacarpal_second_radial",
+  "name": "Radial approach to the 2nd metacarpal",
+  "aliases": [
+    "radial approach to the index metacarpal"
+  ],
+  "region": "metacarpals",
+  "joint": "",
+  "bones": [
+    "metacarpal"
+  ],
+  "corridor": "Radial longitudinal interval along the index metacarpal, retracting the extensor tendons dorsoulnarward and subperiosteally elevating the first dorsal interosseous, protecting the radial sensory nerve",
+  "positioning": [
+    {
+      "text": "Position supine with the hand pronated on a hand table under tourniquet control.",
+      "claim_ids": [
+        "metacarpal_second_radial_positioning_01"
+      ]
+    }
+  ],
+  "setup": [],
+  "surface_landmarks": [
+    {
+      "text": "Mark the radial border of the index metacarpal and its MCP joint center of rotation.",
+      "claim_ids": [
+        "metacarpal_second_radial_surface_landmarks_01"
+      ]
+    }
+  ],
+  "incision": [
+    {
+      "text": "Begin dorsal to the center of rotation of the MCP joint and continue with a straight longitudinal incision radial to the diaphysis.",
+      "claim_ids": [
+        "metacarpal_second_radial_incision_01"
+      ]
+    }
+  ],
+  "superficial_interval": [
+    {
+      "text": "Protect the dorsal radial cutaneous sensory nerve branches and longitudinal veins, and retract the index extensor tendons dorsoulnarward with loose connective tissue.",
+      "claim_ids": [
+        "metacarpal_second_radial_superficial_interval_01"
+      ]
+    }
+  ],
+  "deep_interval": [
+    {
+      "text": "Partially detach the first dorsal interosseous muscle subperiosteally from the metacarpal, preserving the sagittal bands when exposing the neck, and use short blunt retractors.",
+      "claim_ids": [
+        "metacarpal_second_radial_deep_interval_01"
+      ]
+    }
+  ],
+  "layers": [
+    {
+      "text": "Skin, subcutaneous tissue with radial sensory nerve branches and veins, the first dorsal interosseous, and the index metacarpal.",
+      "claim_ids": [
+        "metacarpal_second_radial_layers_01"
+      ]
+    }
+  ],
+  "structures_encountered": [],
+  "structures_at_risk": [
+    {
+      "text": "The dorsal radial sensory nerve branches and longitudinal veins are at risk, and the volar structures if the interosseous is fully detached.",
+      "claim_ids": [
+        "metacarpal_second_radial_structures_at_risk_01"
+      ]
+    }
+  ],
+  "danger_zones": [
+    {
+      "text": "Complete detachment of the first dorsal interosseous is the danger zone for volar structure injury.",
+      "claim_ids": [
+        "metacarpal_second_radial_danger_zones_01"
+      ]
+    }
+  ],
+  "retraction_hazards": [
+    {
+      "text": "Use short blunt Langenbeck retractors rather than Hohmann levers to avoid complete interosseous detachment.",
+      "claim_ids": [
+        "metacarpal_second_radial_retraction_hazards_01"
+      ]
+    }
+  ],
+  "exposure": [
+    {
+      "text": "Exposes the distal two-thirds of the index metacarpal for plating or osteotomy.",
+      "claim_ids": [
+        "metacarpal_second_radial_exposure_01"
+      ]
+    }
+  ],
+  "limitations": [
+    {
+      "text": "The radial window is best for the distal two-thirds and requires protecting the radial sensory nerve throughout.",
+      "claim_ids": [
+        "metacarpal_second_radial_limitations_01"
+      ]
+    }
+  ],
+  "extensions": [],
+  "indications": [
+    {
+      "text": "Indicated for oblique, spiral, transverse, and multifragmentary fractures of the distal two-thirds of the index metacarpal and corrective osteotomy.",
+      "claim_ids": [
+        "metacarpal_second_radial_indications_01"
+      ]
+    }
+  ],
+  "relative_contraindications": [],
+  "implant_implications": [],
+  "fluoroscopy_implications": [],
+  "closure": [
+    {
+      "text": "Cover the implant with periosteum as far as possible and close the skin.",
+      "claim_ids": [
+        "metacarpal_second_radial_closure_01"
+      ]
+    }
+  ],
+  "complications": [
+    {
+      "text": "Complications include radial sensory nerve injury, first dorsal interosseous weakness, and stiffness.",
+      "claim_ids": [
+        "metacarpal_second_radial_complications_01"
+      ]
+    }
+  ],
+  "bailouts": [],
+  "procedure_applications": [
+    {
+      "procedure_id": "metacarpal_fracture_orif",
+      "relationship": "primary_option",
+      "condition": "A distal two-thirds fracture or osteotomy of the index metacarpal is fixed through a radial exposure"
+    }
+  ],
+  "questions": [
+    {
+      "question": "Which muscle is subperiosteally elevated in the radial approach to the index metacarpal?",
+      "answer": "The first dorsal interosseous.",
+      "claim_ids": [
+        "metacarpal_second_radial_questions_01"
+      ]
+    },
+    {
+      "question": "Which nerve must be protected throughout this approach?",
+      "answer": "The dorsal radial cutaneous sensory nerve.",
+      "claim_ids": [
+        "metacarpal_second_radial_questions_02"
+      ]
+    },
+    {
+      "question": "What part of the metacarpal is best exposed radially?",
+      "answer": "The distal two-thirds.",
+      "claim_ids": [
+        "metacarpal_second_radial_questions_03"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "metacarpal_second_radial_positioning_01",
+      "text": "Position supine with the hand pronated on a hand table under tourniquet control.",
+      "source_ids": [
+        "ao_676fca76b76f70b0"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "metacarpal_second_radial_surface_landmarks_01",
+      "text": "Mark the radial border of the index metacarpal and its MCP joint center of rotation.",
+      "source_ids": [
+        "ao_676fca76b76f70b0"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "metacarpal_second_radial_incision_01",
+      "text": "Begin dorsal to the center of rotation of the MCP joint and continue with a straight longitudinal incision radial to the diaphysis.",
+      "source_ids": [
+        "ao_676fca76b76f70b0"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "metacarpal_second_radial_superficial_interval_01",
+      "text": "Protect the dorsal radial cutaneous sensory nerve branches and longitudinal veins, and retract the index extensor tendons dorsoulnarward with loose connective tissue.",
+      "source_ids": [
+        "ao_676fca76b76f70b0",
+        "ao_2407e0d9a61b8122"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "metacarpal_second_radial_deep_interval_01",
+      "text": "Partially detach the first dorsal interosseous muscle subperiosteally from the metacarpal, preserving the sagittal bands when exposing the neck, and use short blunt retractors.",
+      "source_ids": [
+        "ao_676fca76b76f70b0",
+        "ao_2407e0d9a61b8122"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "metacarpal_second_radial_layers_01",
+      "text": "Skin, subcutaneous tissue with radial sensory nerve branches and veins, the first dorsal interosseous, and the index metacarpal.",
+      "source_ids": [
+        "ao_676fca76b76f70b0"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "metacarpal_second_radial_structures_at_risk_01",
+      "text": "The dorsal radial sensory nerve branches and longitudinal veins are at risk, and the volar structures if the interosseous is fully detached.",
+      "source_ids": [
+        "ao_676fca76b76f70b0",
+        "ao_2407e0d9a61b8122"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "metacarpal_second_radial_danger_zones_01",
+      "text": "Complete detachment of the first dorsal interosseous is the danger zone for volar structure injury.",
+      "source_ids": [
+        "ao_676fca76b76f70b0"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "metacarpal_second_radial_retraction_hazards_01",
+      "text": "Use short blunt Langenbeck retractors rather than Hohmann levers to avoid complete interosseous detachment.",
+      "source_ids": [
+        "ao_676fca76b76f70b0",
+        "ao_2407e0d9a61b8122"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "metacarpal_second_radial_exposure_01",
+      "text": "Exposes the distal two-thirds of the index metacarpal for plating or osteotomy.",
+      "source_ids": [
+        "ao_676fca76b76f70b0"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "metacarpal_second_radial_limitations_01",
+      "text": "The radial window is best for the distal two-thirds and requires protecting the radial sensory nerve throughout.",
+      "source_ids": [
+        "ao_676fca76b76f70b0"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "metacarpal_second_radial_indications_01",
+      "text": "Indicated for oblique, spiral, transverse, and multifragmentary fractures of the distal two-thirds of the index metacarpal and corrective osteotomy.",
+      "source_ids": [
+        "ao_676fca76b76f70b0"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "metacarpal_second_radial_closure_01",
+      "text": "Cover the implant with periosteum as far as possible and close the skin.",
+      "source_ids": [
+        "ao_676fca76b76f70b0"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "metacarpal_second_radial_complications_01",
+      "text": "Complications include radial sensory nerve injury, first dorsal interosseous weakness, and stiffness.",
+      "source_ids": [
+        "ao_676fca76b76f70b0",
+        "ao_2407e0d9a61b8122"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "metacarpal_second_radial_questions_01",
+      "text": "Which muscle is subperiosteally elevated in the radial approach to the index metacarpal?",
+      "source_ids": [
+        "ao_676fca76b76f70b0"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "metacarpal_second_radial_questions_02",
+      "text": "Which nerve must be protected throughout this approach?",
+      "source_ids": [
+        "ao_676fca76b76f70b0"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "metacarpal_second_radial_questions_03",
+      "text": "What part of the metacarpal is best exposed radially?",
+      "source_ids": [
+        "ao_676fca76b76f70b0"
+      ],
+      "risk_level": "medium"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "ao_676fca76b76f70b0",
+      "provider": "AO Surgery Reference",
+      "title": "Radial approach to the 2nd metacarpal",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/metacarpals/approach/radial-approach-to-2nd-metacarpal",
+      "source_page_id": "ao_676fca76b76f70b0"
+    },
+    {
+      "source_id": "ao_2407e0d9a61b8122",
+      "provider": "AO Surgery Reference",
+      "title": "Dorsal approach to the metacarpals",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/metacarpals/approach/dorsal-approach-to-metacarpals",
+      "source_page_id": "ao_2407e0d9a61b8122"
+    }
+  ],
+  "content_status": "agent_review_pending",
+  "review": {
+    "status": "agent_review_pending",
+    "required_roles": [
+      "adversarial_safety_reviewer",
+      "approach_anatomy_reviewer",
+      "educational_value_reviewer",
+      "evidence_reviewer",
+      "operative_exposure_reviewer",
+      "procedure_applicability_reviewer"
+    ],
+    "completed_roles": []
+  },
+  "resolved_contradiction_keys": [],
+  "authoring_provenance": {
+    "method": "local_codex_curated",
+    "definition_file": "data/approach_library/curated/metacarpals_dorsal_batch003_v1.json",
+    "api_used": false
+  }
+}

@@ -277,6 +277,16 @@ async def stream_caseprep_packet(
         elapsed_ms=int((time.monotonic() - started) * 1000),
     )
 
+    # Cross-section de-dup: highlight blocks (below) claim a fact by its
+    # framing-independent ``_dedup_key``; the fuller body sections then suppress
+    # any item that repeats a claimed fact so it is shown once (highlights win).
+    claimed_dedup_keys: set[str] = set()
+
+    def _suppress_body_dupes(items: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
+        if not (cfg.enable_v1_1_dedup and claimed_dedup_keys):
+            return items
+        return [i for i in items if i.get("_dedup_key") not in claimed_dedup_keys]
+
     # ── Above-the-fold sections: synchronous curated transforms ──────────────
     for section_id, builder in (
         ("summary", packet_sections.summary_block),
@@ -284,6 +294,10 @@ async def stream_caseprep_packet(
         ("top_things_to_know", packet_sections.top_things_to_know_block),
     ):
         result = builder(payload)
+        if cfg.enable_v1_1_dedup and section_id in ("key_takeaways", "top_things_to_know"):
+            claimed_dedup_keys.update(
+                key for item in result["items"] if (key := item.get("_dedup_key"))
+            )
         pipeline_status[section_id] = {
             "status": result["status"],
             "item_count": len(result["items"]),
@@ -348,10 +362,10 @@ async def stream_caseprep_packet(
                 )
 
     async def run_enrichment(pimp_questions: List[Dict[str, Any]]) -> Optional[Any]:
-        # v1.2 never delays a certified packet for optional prose, and strong
-        # grounded question coverage does not need synthetic padding.
-        if policy_version == "v1.2" and (payload is not None or len(pimp_questions) >= 8):
-            return None
+        # A lean (certified / strongly-grounded) v1.2 packet still runs
+        # enrichment, but only the themed gap-fill sections (decision_points /
+        # postop) consume it — see ``lean_gap_fill_only`` below. Pimp pedagogy
+        # and descriptive gap-fill stay grounded-only for those packets.
         if not (cfg.enable_v1_1_enrichment and openai_client and identity["canonical_slug"]):
             return None
         from caseprep.services.enrichment_v1_1 import enrich_packet_sections
@@ -405,9 +419,11 @@ async def stream_caseprep_packet(
     # Enrichment-backed sections wait for the enrichment result; everything
     # else streams as soon as its pipeline completes. When no curated payload
     # exists, most sections are enrichment gap-fill targets too.
-    enrichment_sections = {"decision_points", "evidence"}
+    # decision_points and postop no longer carry curated content (they used to
+    # be keyword slices of pimp_questions); they are enrichment-only now.
+    enrichment_sections = {"decision_points", "postop", "evidence"}
     if payload is None and cfg.enable_v1_1_enrichment:
-        enrichment_sections |= {"anatomy", "operative_flow", "postop"}
+        enrichment_sections |= {"anatomy", "operative_flow"}
     held_for_enrichment: Dict[str, Dict[str, Any]] = {}
     curated_questions: Optional[Dict[str, Any]] = None
 
@@ -429,14 +445,16 @@ async def stream_caseprep_packet(
             continue
         if result["status"] == "failed":
             yield protocol.section_error_event(section_id, (result.get("warnings") or ["failed"])[0])
-        elif result.get("items"):
-            yield protocol.section_event(
-                section_id,
-                status="complete",
-                items=result["items"],
-                duration_ms=result.get("duration_ms", 0),
-                **_section_meta(result),
-            )
+        else:
+            emit_items = _suppress_body_dupes(result.get("items") or [])
+            if emit_items:
+                yield protocol.section_event(
+                    section_id,
+                    status="complete",
+                    items=emit_items,
+                    duration_ms=result.get("duration_ms", 0),
+                    **_section_meta({"items": emit_items}),
+                )
 
     # ── Pimp questions: curated first, then Pocket Pimped RAG ────────────────
     while not retrieval_task.done():
@@ -490,11 +508,19 @@ async def stream_caseprep_packet(
     # Stream the merged questions immediately; pedagogy fields (pearl / why /
     # difficulty) arrive with a follow-up "complete" emission once enrichment
     # resolves. The client replaces the slot content in place.
-    enrichment_pending = bool(
+    base_enrichment_enabled = bool(
         cfg.enable_v1_1_enrichment and openai_client and identity["canonical_slug"]
-        and not (policy_version == "v1.2" and (payload is not None or len(pimp_items) >= 8))
     )
-    if pimp_items and enrichment_pending:
+    # A lean v1.2 packet (certified, or strongly grounded) keeps pimp questions
+    # and descriptive sections grounded-only — no pedagogy pass, no padding.
+    v1_2_lean = policy_version == "v1.2" and (payload is not None or len(pimp_items) >= 8)
+    pimp_enrichment_pending = base_enrichment_enabled and not v1_2_lean
+    # decision_points / postop have no curated seed anymore, so even a lean
+    # packet fills them from enrichment (clearly marked generated).
+    enrichment_needed = base_enrichment_enabled
+    lean_gap_fill_only = {"decision_points", "postop"}
+
+    if pimp_items and pimp_enrichment_pending:
         yield _pimp_event(pimp_items, "partial", [])
     elif pimp_items:
         yield _pimp_event(pimp_items, "complete", [])
@@ -502,7 +528,7 @@ async def stream_caseprep_packet(
         yield protocol.section_error_event("pimp_questions", "Pimp question retrieval failed.")
 
     enrichment = None
-    if enrichment_pending:
+    if enrichment_needed:
         yield protocol.progress_event(
             "enhancing", "Enhancing the remaining case details", 65, 92,
             elapsed_ms=int((time.monotonic() - started) * 1000),
@@ -521,7 +547,7 @@ async def stream_caseprep_packet(
                 heartbeat=True,
             )
         enrichment = await enrichment_task
-    if enrichment_pending:
+    if pimp_enrichment_pending:
         generated_paths: List[str] = []
         if enrichment:
             pimp_items, generated_paths = enrichment.apply_to_pimp_questions(pimp_items)
@@ -544,8 +570,13 @@ async def stream_caseprep_packet(
         base = held_for_enrichment.get(section_id) or _failed_pipeline(section_id, "missing")
         items = list(base.get("items") or [])
         generated_paths = []
-        if enrichment:
+        # In lean mode only the themed gap-fill sections consume enrichment;
+        # descriptive sections (anatomy / operative_flow) stay grounded-only.
+        may_enrich = pimp_enrichment_pending or section_id in lean_gap_fill_only
+        if enrichment and may_enrich:
             items, generated_paths = enrichment.apply_to_section(section_id, items)
+        if section_id in ("anatomy", "operative_flow"):
+            items = _suppress_body_dupes(items)
         if items:
             meta = _section_meta({"items": items})
             meta["generated_field_paths"] = generated_paths or meta["generated_field_paths"]

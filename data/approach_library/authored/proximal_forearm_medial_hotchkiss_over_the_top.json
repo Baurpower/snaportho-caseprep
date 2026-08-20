@@ -1,0 +1,339 @@
+{
+  "schema_version": "brobot_approach_packet_v1",
+  "approach_id": "proximal_forearm_medial_hotchkiss_over_the_top",
+  "name": "Medial Hotchkiss over-the-top approach to the coronoid",
+  "aliases": [
+    "Hotchkiss over-the-top approach"
+  ],
+  "region": "proximal-forearm",
+  "joint": "elbow",
+  "bones": [
+    "ulna"
+  ],
+  "corridor": "Most anterior medial approach elevating the flexor-pronator mass off the medial epicondyle to work over the top to the coronoid tip and anterior elbow joint, with the ulnar nerve protected",
+  "positioning": [
+    {
+      "text": "Position supine with the arm on a hand table and the medial elbow accessible.",
+      "claim_ids": [
+        "proximal_forearm_medial_hotchkiss_over_the_top_positioning_01"
+      ]
+    }
+  ],
+  "setup": [],
+  "surface_landmarks": [
+    {
+      "text": "Mark the medial epicondyle, the medial supracondylar ridge, and the ulnar nerve.",
+      "claim_ids": [
+        "proximal_forearm_medial_hotchkiss_over_the_top_surface_landmarks_01"
+      ]
+    }
+  ],
+  "incision": [
+    {
+      "text": "Use a posterior incision with a medial skin flap or a direct medial incision, protecting the anteriorly running branches of the medial antebrachial cutaneous nerve.",
+      "claim_ids": [
+        "proximal_forearm_medial_hotchkiss_over_the_top_incision_01"
+      ]
+    }
+  ],
+  "superficial_interval": [
+    {
+      "text": "Identify and expose the ulnar nerve for about 6 cm proximally and distally, starting proximally where it is safer, transposing it anteriorly if needed.",
+      "claim_ids": [
+        "proximal_forearm_medial_hotchkiss_over_the_top_superficial_interval_01"
+      ]
+    }
+  ],
+  "deep_interval": [
+    {
+      "text": "Bluntly elevate the pronator teres, flexor carpi radialis, and palmaris longus origins off the medial epicondyle and extend proximally along brachialis and the medial supracondylar ridge extraperiosteally to work over the top of the coronoid, using an anterior capsulotomy or capsulectomy as needed.",
+      "claim_ids": [
+        "proximal_forearm_medial_hotchkiss_over_the_top_deep_interval_01"
+      ]
+    }
+  ],
+  "layers": [
+    {
+      "text": "Skin, subcutaneous tissue with the medial antebrachial cutaneous nerve, the ulnar nerve, the flexor-pronator mass, the anterior capsule, and the coronoid.",
+      "claim_ids": [
+        "proximal_forearm_medial_hotchkiss_over_the_top_layers_01"
+      ]
+    }
+  ],
+  "structures_encountered": [],
+  "structures_at_risk": [
+    {
+      "text": "The ulnar nerve, and the median nerve and brachial artery lying near the anterior edge of the flexor-pronator mass, are at risk.",
+      "claim_ids": [
+        "proximal_forearm_medial_hotchkiss_over_the_top_structures_at_risk_01"
+      ]
+    }
+  ],
+  "danger_zones": [
+    {
+      "text": "The anterior edge of the flexor-pronator mass is the danger zone for the median nerve and brachial artery.",
+      "claim_ids": [
+        "proximal_forearm_medial_hotchkiss_over_the_top_danger_zones_01"
+      ]
+    }
+  ],
+  "retraction_hazards": [
+    {
+      "text": "Use blunt Hohmann retractors carefully across the anterior joint and keep the ulnar nerve protected.",
+      "claim_ids": [
+        "proximal_forearm_medial_hotchkiss_over_the_top_retraction_hazards_01"
+      ]
+    }
+  ],
+  "exposure": [
+    {
+      "text": "Exposes the coronoid tip and the entire anterior elbow joint.",
+      "claim_ids": [
+        "proximal_forearm_medial_hotchkiss_over_the_top_exposure_01"
+      ]
+    }
+  ],
+  "limitations": [
+    {
+      "text": "The anterior neurovascular structures at the edge of the flexor-pronator mass limit how far anteriorly the dissection can go.",
+      "claim_ids": [
+        "proximal_forearm_medial_hotchkiss_over_the_top_limitations_01"
+      ]
+    }
+  ],
+  "extensions": [],
+  "indications": [
+    {
+      "text": "Indicated for coronoid tip fractures and anterior elbow joint access.",
+      "claim_ids": [
+        "proximal_forearm_medial_hotchkiss_over_the_top_indications_01"
+      ]
+    }
+  ],
+  "relative_contraindications": [],
+  "implant_implications": [],
+  "fluoroscopy_implications": [],
+  "closure": [
+    {
+      "text": "Reattach the flexor-pronator origin, ensure the ulnar nerve lies in a healthy bed, and close in layers.",
+      "claim_ids": [
+        "proximal_forearm_medial_hotchkiss_over_the_top_closure_01"
+      ]
+    }
+  ],
+  "complications": [
+    {
+      "text": "Complications include ulnar neuropathy, median nerve or brachial artery injury, and flexor-pronator weakness.",
+      "claim_ids": [
+        "proximal_forearm_medial_hotchkiss_over_the_top_complications_01"
+      ]
+    }
+  ],
+  "bailouts": [],
+  "procedure_applications": [
+    {
+      "procedure_id": "coronoid_fracture_orif",
+      "relationship": "primary_option",
+      "condition": "The coronoid tip or anterior elbow joint needs the most anterior medial exposure"
+    }
+  ],
+  "questions": [
+    {
+      "question": "What makes the Hotchkiss approach the most anterior of the medial approaches?",
+      "answer": "It elevates the flexor-pronator mass and works over the top to the coronoid tip and anterior joint.",
+      "claim_ids": [
+        "proximal_forearm_medial_hotchkiss_over_the_top_questions_01"
+      ]
+    },
+    {
+      "question": "Which anterior structures are at risk at the edge of the flexor-pronator mass?",
+      "answer": "The median nerve and brachial artery.",
+      "claim_ids": [
+        "proximal_forearm_medial_hotchkiss_over_the_top_questions_02"
+      ]
+    },
+    {
+      "question": "How is the anterior joint entered?",
+      "answer": "Through an anterior capsulotomy or capsulectomy as circumstances dictate.",
+      "claim_ids": [
+        "proximal_forearm_medial_hotchkiss_over_the_top_questions_03"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "proximal_forearm_medial_hotchkiss_over_the_top_positioning_01",
+      "text": "Position supine with the arm on a hand table and the medial elbow accessible.",
+      "source_ids": [
+        "ao_905e5b99d543b23e"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "proximal_forearm_medial_hotchkiss_over_the_top_surface_landmarks_01",
+      "text": "Mark the medial epicondyle, the medial supracondylar ridge, and the ulnar nerve.",
+      "source_ids": [
+        "ao_905e5b99d543b23e"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "proximal_forearm_medial_hotchkiss_over_the_top_incision_01",
+      "text": "Use a posterior incision with a medial skin flap or a direct medial incision, protecting the anteriorly running branches of the medial antebrachial cutaneous nerve.",
+      "source_ids": [
+        "ao_905e5b99d543b23e",
+        "ao_38754047e709a146"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "proximal_forearm_medial_hotchkiss_over_the_top_superficial_interval_01",
+      "text": "Identify and expose the ulnar nerve for about 6 cm proximally and distally, starting proximally where it is safer, transposing it anteriorly if needed.",
+      "source_ids": [
+        "ao_905e5b99d543b23e",
+        "ao_38754047e709a146"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "proximal_forearm_medial_hotchkiss_over_the_top_deep_interval_01",
+      "text": "Bluntly elevate the pronator teres, flexor carpi radialis, and palmaris longus origins off the medial epicondyle and extend proximally along brachialis and the medial supracondylar ridge extraperiosteally to work over the top of the coronoid, using an anterior capsulotomy or capsulectomy as needed.",
+      "source_ids": [
+        "ao_905e5b99d543b23e"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "proximal_forearm_medial_hotchkiss_over_the_top_layers_01",
+      "text": "Skin, subcutaneous tissue with the medial antebrachial cutaneous nerve, the ulnar nerve, the flexor-pronator mass, the anterior capsule, and the coronoid.",
+      "source_ids": [
+        "ao_905e5b99d543b23e"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "proximal_forearm_medial_hotchkiss_over_the_top_structures_at_risk_01",
+      "text": "The ulnar nerve, and the median nerve and brachial artery lying near the anterior edge of the flexor-pronator mass, are at risk.",
+      "source_ids": [
+        "ao_905e5b99d543b23e"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "proximal_forearm_medial_hotchkiss_over_the_top_danger_zones_01",
+      "text": "The anterior edge of the flexor-pronator mass is the danger zone for the median nerve and brachial artery.",
+      "source_ids": [
+        "ao_905e5b99d543b23e"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "proximal_forearm_medial_hotchkiss_over_the_top_retraction_hazards_01",
+      "text": "Use blunt Hohmann retractors carefully across the anterior joint and keep the ulnar nerve protected.",
+      "source_ids": [
+        "ao_905e5b99d543b23e"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "proximal_forearm_medial_hotchkiss_over_the_top_exposure_01",
+      "text": "Exposes the coronoid tip and the entire anterior elbow joint.",
+      "source_ids": [
+        "ao_905e5b99d543b23e"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "proximal_forearm_medial_hotchkiss_over_the_top_limitations_01",
+      "text": "The anterior neurovascular structures at the edge of the flexor-pronator mass limit how far anteriorly the dissection can go.",
+      "source_ids": [
+        "ao_905e5b99d543b23e"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "proximal_forearm_medial_hotchkiss_over_the_top_indications_01",
+      "text": "Indicated for coronoid tip fractures and anterior elbow joint access.",
+      "source_ids": [
+        "ao_905e5b99d543b23e"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "proximal_forearm_medial_hotchkiss_over_the_top_closure_01",
+      "text": "Reattach the flexor-pronator origin, ensure the ulnar nerve lies in a healthy bed, and close in layers.",
+      "source_ids": [
+        "ao_905e5b99d543b23e"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "proximal_forearm_medial_hotchkiss_over_the_top_complications_01",
+      "text": "Complications include ulnar neuropathy, median nerve or brachial artery injury, and flexor-pronator weakness.",
+      "source_ids": [
+        "ao_905e5b99d543b23e",
+        "ao_38754047e709a146"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "proximal_forearm_medial_hotchkiss_over_the_top_questions_01",
+      "text": "What makes the Hotchkiss approach the most anterior of the medial approaches?",
+      "source_ids": [
+        "ao_905e5b99d543b23e"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "proximal_forearm_medial_hotchkiss_over_the_top_questions_02",
+      "text": "Which anterior structures are at risk at the edge of the flexor-pronator mass?",
+      "source_ids": [
+        "ao_905e5b99d543b23e"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "proximal_forearm_medial_hotchkiss_over_the_top_questions_03",
+      "text": "How is the anterior joint entered?",
+      "source_ids": [
+        "ao_905e5b99d543b23e"
+      ],
+      "risk_level": "medium"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "ao_905e5b99d543b23e",
+      "provider": "AO Surgery Reference",
+      "title": "Medial Hotchkiss over-the-top approach (proximal forearm)",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/proximal-forearm/approach/medial-hotchkiss-over-the-top",
+      "source_page_id": "ao_905e5b99d543b23e"
+    },
+    {
+      "source_id": "ao_38754047e709a146",
+      "provider": "AO Surgery Reference",
+      "title": "Medial FCU-split approach (proximal forearm)",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/proximal-forearm/approach/medial-fcu-split",
+      "source_page_id": "ao_38754047e709a146"
+    }
+  ],
+  "content_status": "agent_review_pending",
+  "review": {
+    "status": "agent_review_pending",
+    "required_roles": [
+      "adversarial_safety_reviewer",
+      "approach_anatomy_reviewer",
+      "educational_value_reviewer",
+      "evidence_reviewer",
+      "operative_exposure_reviewer",
+      "procedure_applicability_reviewer"
+    ],
+    "completed_roles": []
+  },
+  "resolved_contradiction_keys": [],
+  "authoring_provenance": {
+    "method": "local_codex_curated",
+    "definition_file": "data/approach_library/curated/proximal_forearm_medial_batch004_v1.json",
+    "api_used": false
+  }
+}

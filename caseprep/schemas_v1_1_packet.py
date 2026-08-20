@@ -131,7 +131,10 @@ def section_event(
         "duration_ms": duration_ms,
     }
     if items is not None:
-        data["items"] = items
+        # ``_dedup_key`` is an internal cross-section marker — never stream it.
+        data["items"] = [
+            {k: v for k, v in entry.items() if k != "_dedup_key"} for entry in items
+        ]
     if payload is not None:
         data["payload"] = payload
     return sse_event(EVENT_SECTION, data)

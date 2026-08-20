@@ -1,0 +1,380 @@
+{
+  "schema_version": "brobot_approach_packet_v1",
+  "approach_id": "scapula_superior_saber_acromion",
+  "name": "Superior saber-cut and acromial approaches",
+  "aliases": [
+    "saber-cut AC approach",
+    "superior deltoid-split to the acromion"
+  ],
+  "region": "scapula",
+  "joint": "acriomioclavicular",
+  "bones": [
+    "acromion",
+    "clavicle"
+  ],
+  "corridor": "Either a front-to-back saber cut over the AC joint to the posterior acromion, or a superior deltoid split from the mid greater tuberosity across the anterior acromial tip toward the spine, with optional partial deltoid/trapezius release",
+  "positioning": [
+    {
+      "text": "Position so the AC joint, acromion, greater tuberosity, and scapular spine can be palpated.",
+      "claim_ids": [
+        "scapula_superior_saber_acromion_positioning_01"
+      ]
+    }
+  ],
+  "setup": [],
+  "surface_landmarks": [
+    {
+      "text": "For the saber cut mark the AC joint and the dorsal acromial rim. For the superior deltoid split mark the acromion, greater tuberosity, and scapular spine.",
+      "claim_ids": [
+        "scapula_superior_saber_acromion_surface_landmarks_01"
+      ]
+    }
+  ],
+  "incision": [
+    {
+      "text": "Saber cut: start anteriorly over the humeral head, cross the AC joint, and end at the posterior acromion; it can join a deltopectoral cut in front or a posterior approach behind. Superior split: start at the midpoint of the greater tuberosity and aim at the spine, crossing just posterior to the anterior acromial tip.",
+      "claim_ids": [
+        "scapula_superior_saber_acromion_incision_01"
+      ]
+    }
+  ],
+  "superficial_interval": [
+    {
+      "text": "The superior split goes through the acromial part of deltoid in line with its fibers and can be extended into a standard deltoid split.",
+      "claim_ids": [
+        "scapula_superior_saber_acromion_superficial_interval_01"
+      ]
+    }
+  ],
+  "deep_interval": [
+    {
+      "text": "Partially detach deltoid and trapezius if needed to see the full acromial fracture line. If the split is carried inferiorly, the axillary nerve crosses about 6 cm distal to the lateral acromion.",
+      "claim_ids": [
+        "scapula_superior_saber_acromion_deep_interval_01"
+      ]
+    }
+  ],
+  "layers": [
+    {
+      "text": "Skin, deltoid/trapezius origin, then the AC joint and acromion.",
+      "claim_ids": [
+        "scapula_superior_saber_acromion_layers_01"
+      ]
+    }
+  ],
+  "structures_encountered": [],
+  "structures_at_risk": [
+    {
+      "text": "The axillary nerve if a superior split is extended inferiorly, and the deltoid/trapezius origins if they are released and not repaired.",
+      "claim_ids": [
+        "scapula_superior_saber_acromion_structures_at_risk_01"
+      ]
+    }
+  ],
+  "danger_zones": [
+    {
+      "text": "A distal deltoid-split extension more than about 5–6 cm below the acromion is the axillary-nerve danger zone.",
+      "claim_ids": [
+        "scapula_superior_saber_acromion_danger_zones_01"
+      ]
+    }
+  ],
+  "retraction_hazards": [
+    {
+      "text": "Release muscle only as far as the fracture requires so it can be reattached.",
+      "claim_ids": [
+        "scapula_superior_saber_acromion_retraction_hazards_01"
+      ]
+    }
+  ],
+  "exposure": [
+    {
+      "text": "The saber cut shows the AC joint and acromion. The superior split shows simple acromion fractures and can be used for proximal-humeral nailing.",
+      "claim_ids": [
+        "scapula_superior_saber_acromion_exposure_01"
+      ]
+    }
+  ],
+  "limitations": [
+    {
+      "text": "Neither window exposes the scapular body. Distal deltoid-split length is capped by the axillary nerve.",
+      "claim_ids": [
+        "scapula_superior_saber_acromion_limitations_01"
+      ]
+    }
+  ],
+  "extensions": [],
+  "indications": [
+    {
+      "text": "Used to expose the AC joint and acromion, including simple acromion fractures, periprosthetic acromial fractures around reverse or anatomic prostheses, and as a superior extension for proximal-humeral nailing.",
+      "claim_ids": [
+        "scapula_superior_saber_acromion_indications_01"
+      ]
+    }
+  ],
+  "relative_contraindications": [],
+  "implant_implications": [],
+  "fluoroscopy_implications": [],
+  "closure": [
+    {
+      "text": "Reattach released muscle and close fascia, fat, and skin in layers.",
+      "claim_ids": [
+        "scapula_superior_saber_acromion_closure_01"
+      ]
+    }
+  ],
+  "complications": [
+    {
+      "text": "Complications include axillary-nerve injury from an over-long inferior split and failure to reattach deltoid or trapezius.",
+      "claim_ids": [
+        "scapula_superior_saber_acromion_complications_01"
+      ]
+    }
+  ],
+  "bailouts": [],
+  "procedure_applications": [
+    {
+      "procedure_id": "acromion_fracture_orif",
+      "relationship": "primary_option",
+      "condition": "An acromion or AC-joint fracture is exposed from superior, with optional extension into a deltoid split or deltopectoral interval"
+    },
+    {
+      "procedure_id": "periprosthetic_shoulder_fracture_orif",
+      "relationship": "primary_option",
+      "condition": "A periprosthetic acromial fracture around a reverse or anatomic prosthesis is exposed from superior"
+    }
+  ],
+  "questions": [
+    {
+      "question": "Where does a saber-cut incision run?",
+      "answer": "From over the humeral head, across the AC joint, to the posterior acromion.",
+      "claim_ids": [
+        "scapula_superior_saber_acromion_questions_01"
+      ]
+    },
+    {
+      "question": "Where does the superior acromial split start and aim?",
+      "answer": "From the midpoint of the greater tuberosity toward the scapular spine, crossing just posterior to the anterior acromial tip.",
+      "claim_ids": [
+        "scapula_superior_saber_acromion_questions_02"
+      ]
+    },
+    {
+      "question": "How far below the acromion does the axillary nerve typically cross?",
+      "answer": "About 6 cm distal to the lateral acromial border.",
+      "claim_ids": [
+        "scapula_superior_saber_acromion_questions_03"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "scapula_superior_saber_acromion_positioning_01",
+      "text": "Position so the AC joint, acromion, greater tuberosity, and scapular spine can be palpated.",
+      "source_ids": [
+        "ao_21935af2a804d480",
+        "ao_ac20a8526d645bb2"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "scapula_superior_saber_acromion_surface_landmarks_01",
+      "text": "For the saber cut mark the AC joint and the dorsal acromial rim. For the superior deltoid split mark the acromion, greater tuberosity, and scapular spine.",
+      "source_ids": [
+        "ao_21935af2a804d480",
+        "ao_ac20a8526d645bb2"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "scapula_superior_saber_acromion_incision_01",
+      "text": "Saber cut: start anteriorly over the humeral head, cross the AC joint, and end at the posterior acromion; it can join a deltopectoral cut in front or a posterior approach behind. Superior split: start at the midpoint of the greater tuberosity and aim at the spine, crossing just posterior to the anterior acromial tip.",
+      "source_ids": [
+        "ao_21935af2a804d480",
+        "ao_ac20a8526d645bb2"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "scapula_superior_saber_acromion_superficial_interval_01",
+      "text": "The superior split goes through the acromial part of deltoid in line with its fibers and can be extended into a standard deltoid split.",
+      "source_ids": [
+        "ao_ac20a8526d645bb2",
+        "ao_8f2c45a58145d70b"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "scapula_superior_saber_acromion_deep_interval_01",
+      "text": "Partially detach deltoid and trapezius if needed to see the full acromial fracture line. If the split is carried inferiorly, the axillary nerve crosses about 6 cm distal to the lateral acromion.",
+      "source_ids": [
+        "ao_21935af2a804d480",
+        "ao_ac20a8526d645bb2"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "scapula_superior_saber_acromion_layers_01",
+      "text": "Skin, deltoid/trapezius origin, then the AC joint and acromion.",
+      "source_ids": [
+        "ao_21935af2a804d480",
+        "ao_ac20a8526d645bb2"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "scapula_superior_saber_acromion_structures_at_risk_01",
+      "text": "The axillary nerve if a superior split is extended inferiorly, and the deltoid/trapezius origins if they are released and not repaired.",
+      "source_ids": [
+        "ao_ac20a8526d645bb2",
+        "ao_8f2c45a58145d70b"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "scapula_superior_saber_acromion_danger_zones_01",
+      "text": "A distal deltoid-split extension more than about 5–6 cm below the acromion is the axillary-nerve danger zone.",
+      "source_ids": [
+        "ao_ac20a8526d645bb2",
+        "ao_8f2c45a58145d70b"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "scapula_superior_saber_acromion_retraction_hazards_01",
+      "text": "Release muscle only as far as the fracture requires so it can be reattached.",
+      "source_ids": [
+        "ao_21935af2a804d480",
+        "ao_ac20a8526d645bb2"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "scapula_superior_saber_acromion_exposure_01",
+      "text": "The saber cut shows the AC joint and acromion. The superior split shows simple acromion fractures and can be used for proximal-humeral nailing.",
+      "source_ids": [
+        "ao_21935af2a804d480",
+        "ao_ac20a8526d645bb2"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "scapula_superior_saber_acromion_limitations_01",
+      "text": "Neither window exposes the scapular body. Distal deltoid-split length is capped by the axillary nerve.",
+      "source_ids": [
+        "ao_ac20a8526d645bb2",
+        "ao_8f2c45a58145d70b"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "scapula_superior_saber_acromion_indications_01",
+      "text": "Used to expose the AC joint and acromion, including simple acromion fractures, periprosthetic acromial fractures around reverse or anatomic prostheses, and as a superior extension for proximal-humeral nailing.",
+      "source_ids": [
+        "ao_21935af2a804d480",
+        "ao_ac20a8526d645bb2",
+        "ao_1e9e26ed111452b4",
+        "ao_3512a5b6cfced2c0"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "scapula_superior_saber_acromion_closure_01",
+      "text": "Reattach released muscle and close fascia, fat, and skin in layers.",
+      "source_ids": [
+        "ao_21935af2a804d480",
+        "ao_ac20a8526d645bb2"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "scapula_superior_saber_acromion_complications_01",
+      "text": "Complications include axillary-nerve injury from an over-long inferior split and failure to reattach deltoid or trapezius.",
+      "source_ids": [
+        "ao_ac20a8526d645bb2",
+        "ao_8f2c45a58145d70b"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "scapula_superior_saber_acromion_questions_01",
+      "text": "Where does a saber-cut incision run?",
+      "source_ids": [
+        "ao_21935af2a804d480"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "scapula_superior_saber_acromion_questions_02",
+      "text": "Where does the superior acromial split start and aim?",
+      "source_ids": [
+        "ao_ac20a8526d645bb2"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "scapula_superior_saber_acromion_questions_03",
+      "text": "How far below the acromion does the axillary nerve typically cross?",
+      "source_ids": [
+        "ao_ac20a8526d645bb2"
+      ],
+      "risk_level": "medium"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "ao_21935af2a804d480",
+      "provider": "AO Surgery Reference",
+      "title": "Sabercut Approach",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/scapula/approach/sabercut-approach",
+      "source_page_id": "ao_21935af2a804d480"
+    },
+    {
+      "source_id": "ao_ac20a8526d645bb2",
+      "provider": "AO Surgery Reference",
+      "title": "Superior Approach To The Acromion",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/scapula/approach/superior-approach-to-the-acromion",
+      "source_page_id": "ao_ac20a8526d645bb2"
+    },
+    {
+      "source_id": "ao_8f2c45a58145d70b",
+      "provider": "AO Surgery Reference",
+      "title": "Anterolateral approach to the proximal humerus",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/proximal-humerus/approach/anterolateral-approach",
+      "source_page_id": "ao_8f2c45a58145d70b"
+    },
+    {
+      "source_id": "ao_1e9e26ed111452b4",
+      "provider": "AO Surgery Reference",
+      "title": "Superior Acromial Anterior To Posterior Approach",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/periprosthetic-fractures/shoulder/approach/superior-acromial-anterior-to-posterior-approach",
+      "source_page_id": "ao_1e9e26ed111452b4"
+    },
+    {
+      "source_id": "ao_3512a5b6cfced2c0",
+      "provider": "AO Surgery Reference",
+      "title": "Superior Scapular Approach",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/periprosthetic-fractures/shoulder/approach/superior-scapular-approach",
+      "source_page_id": "ao_3512a5b6cfced2c0"
+    }
+  ],
+  "content_status": "agent_review_pending",
+  "review": {
+    "status": "agent_review_pending",
+    "required_roles": [
+      "adversarial_safety_reviewer",
+      "approach_anatomy_reviewer",
+      "educational_value_reviewer",
+      "evidence_reviewer",
+      "operative_exposure_reviewer",
+      "procedure_applicability_reviewer"
+    ],
+    "completed_roles": []
+  },
+  "resolved_contradiction_keys": [],
+  "authoring_provenance": {
+    "method": "local_codex_curated",
+    "definition_file": "data/approach_library/curated/pediatric_tibia_scapula_batch001_v1.json",
+    "api_used": false
+  }
+}

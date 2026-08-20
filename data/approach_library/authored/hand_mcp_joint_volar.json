@@ -1,0 +1,349 @@
+{
+  "schema_version": "brobot_approach_packet_v1",
+  "approach_id": "hand_mcp_joint_volar",
+  "name": "Volar approach to the metacarpophalangeal joint",
+  "aliases": [
+    "palmar approach to the MCP joint"
+  ],
+  "region": "hand-proximal-phalanges",
+  "joint": "metacarpophalangeal joint",
+  "bones": [
+    "metacarpal",
+    "proximal phalanx"
+  ],
+  "corridor": "Volar Z-incision over the MCP joint through the A1 pulley region, retracting the flexor tendons to reach the volar plate and joint, protecting the collateral digital nerves",
+  "positioning": [
+    {
+      "text": "Position supine with the hand on a hand table under tourniquet control.",
+      "claim_ids": [
+        "hand_mcp_joint_volar_positioning_01"
+      ]
+    }
+  ],
+  "setup": [],
+  "surface_landmarks": [
+    {
+      "text": "Mark the MCP joint level and the palmar skin creases.",
+      "claim_ids": [
+        "hand_mcp_joint_volar_surface_landmarks_01"
+      ]
+    }
+  ],
+  "incision": [
+    {
+      "text": "Make a Z-shaped incision over the MCP joint with the apex radial or ulnar at a skin crease, extending proximally in Z-fashion along the creases to avoid contracture.",
+      "claim_ids": [
+        "hand_mcp_joint_volar_incision_01"
+      ]
+    }
+  ],
+  "superficial_interval": [
+    {
+      "text": "Expose the flexor retinaculum and A1 pulley and identify the collateral neurovascular bundles, remembering the digital nerve may be displaced volarly with the metacarpal head after dislocation.",
+      "claim_ids": [
+        "hand_mcp_joint_volar_superficial_interval_01"
+      ]
+    }
+  ],
+  "deep_interval": [
+    {
+      "text": "Sharply dissect the flexor digitorum superficialis and profundus off the volar plate and capsule and retract them to expose the volar joint.",
+      "claim_ids": [
+        "hand_mcp_joint_volar_deep_interval_01"
+      ]
+    }
+  ],
+  "layers": [
+    {
+      "text": "Skin, subcutaneous tissue with collateral digital nerves, flexor retinaculum and A1 pulley, flexor tendons, volar plate, and the MCP joint.",
+      "claim_ids": [
+        "hand_mcp_joint_volar_layers_01"
+      ]
+    }
+  ],
+  "structures_encountered": [],
+  "structures_at_risk": [
+    {
+      "text": "The collateral neurovascular bundles of the digit and the common digital nerve are at risk, especially when a nerve is displaced volarly with the metacarpal head.",
+      "claim_ids": [
+        "hand_mcp_joint_volar_structures_at_risk_01"
+      ]
+    }
+  ],
+  "danger_zones": [
+    {
+      "text": "The volar-displaced metacarpal head region is the danger zone because the digital nerve can be draped over it.",
+      "claim_ids": [
+        "hand_mcp_joint_volar_danger_zones_01"
+      ]
+    }
+  ],
+  "retraction_hazards": [
+    {
+      "text": "Avoid overretraction to prevent nerve damage and keep multiple incisions spaced to prevent skin flap ischemia.",
+      "claim_ids": [
+        "hand_mcp_joint_volar_retraction_hazards_01"
+      ]
+    }
+  ],
+  "exposure": [
+    {
+      "text": "Exposes the volar MCP joint and any interposed ruptured capsule after dislocation.",
+      "claim_ids": [
+        "hand_mcp_joint_volar_exposure_01"
+      ]
+    }
+  ],
+  "limitations": [
+    {
+      "text": "The volar approach gives limited access to the dorsal joint and depends on careful digital nerve identification.",
+      "claim_ids": [
+        "hand_mcp_joint_volar_limitations_01"
+      ]
+    }
+  ],
+  "extensions": [],
+  "indications": [
+    {
+      "text": "Indicated for irreducible volar MCP dislocation and selected volar MCP joint pathology.",
+      "claim_ids": [
+        "hand_mcp_joint_volar_indications_01"
+      ]
+    }
+  ],
+  "relative_contraindications": [],
+  "implant_implications": [],
+  "fluoroscopy_implications": [],
+  "closure": [
+    {
+      "text": "Repair the joint capsule with fine sutures, reposition the flexor tendons, and do not repair the A1 pulley to avoid tendon sheath contracture.",
+      "claim_ids": [
+        "hand_mcp_joint_volar_closure_01"
+      ]
+    }
+  ],
+  "complications": [
+    {
+      "text": "Complications include digital nerve injury, skin flap ischemia, and MCP stiffness.",
+      "claim_ids": [
+        "hand_mcp_joint_volar_complications_01"
+      ]
+    }
+  ],
+  "bailouts": [],
+  "procedure_applications": [
+    {
+      "procedure_id": "metacarpal_fracture_orif",
+      "relationship": "conditional_option",
+      "condition": "An irreducible volar MCP dislocation or metacarpal head fracture needs open volar access"
+    }
+  ],
+  "questions": [
+    {
+      "question": "Why is a Z-shaped incision used over the MCP joint?",
+      "answer": "To respect the skin creases and avoid contracture.",
+      "claim_ids": [
+        "hand_mcp_joint_volar_questions_01"
+      ]
+    },
+    {
+      "question": "Why is the A1 pulley not repaired at closure?",
+      "answer": "Because repair may cause tendon sheath contracture and restrict flexor excursion.",
+      "claim_ids": [
+        "hand_mcp_joint_volar_questions_02"
+      ]
+    },
+    {
+      "question": "Where may the digital nerve lie after a volar MCP dislocation?",
+      "answer": "Displaced volarly, draped over the metacarpal head.",
+      "claim_ids": [
+        "hand_mcp_joint_volar_questions_03"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "hand_mcp_joint_volar_positioning_01",
+      "text": "Position supine with the hand on a hand table under tourniquet control.",
+      "source_ids": [
+        "ao_f2dbdf967e028e42"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "hand_mcp_joint_volar_surface_landmarks_01",
+      "text": "Mark the MCP joint level and the palmar skin creases.",
+      "source_ids": [
+        "ao_f2dbdf967e028e42"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "hand_mcp_joint_volar_incision_01",
+      "text": "Make a Z-shaped incision over the MCP joint with the apex radial or ulnar at a skin crease, extending proximally in Z-fashion along the creases to avoid contracture.",
+      "source_ids": [
+        "ao_f2dbdf967e028e42"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "hand_mcp_joint_volar_superficial_interval_01",
+      "text": "Expose the flexor retinaculum and A1 pulley and identify the collateral neurovascular bundles, remembering the digital nerve may be displaced volarly with the metacarpal head after dislocation.",
+      "source_ids": [
+        "ao_f2dbdf967e028e42",
+        "ao_84c90651b50152c6"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "hand_mcp_joint_volar_deep_interval_01",
+      "text": "Sharply dissect the flexor digitorum superficialis and profundus off the volar plate and capsule and retract them to expose the volar joint.",
+      "source_ids": [
+        "ao_f2dbdf967e028e42"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "hand_mcp_joint_volar_layers_01",
+      "text": "Skin, subcutaneous tissue with collateral digital nerves, flexor retinaculum and A1 pulley, flexor tendons, volar plate, and the MCP joint.",
+      "source_ids": [
+        "ao_f2dbdf967e028e42"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "hand_mcp_joint_volar_structures_at_risk_01",
+      "text": "The collateral neurovascular bundles of the digit and the common digital nerve are at risk, especially when a nerve is displaced volarly with the metacarpal head.",
+      "source_ids": [
+        "ao_f2dbdf967e028e42",
+        "ao_84c90651b50152c6"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "hand_mcp_joint_volar_danger_zones_01",
+      "text": "The volar-displaced metacarpal head region is the danger zone because the digital nerve can be draped over it.",
+      "source_ids": [
+        "ao_f2dbdf967e028e42",
+        "ao_84c90651b50152c6"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "hand_mcp_joint_volar_retraction_hazards_01",
+      "text": "Avoid overretraction to prevent nerve damage and keep multiple incisions spaced to prevent skin flap ischemia.",
+      "source_ids": [
+        "ao_f2dbdf967e028e42"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "hand_mcp_joint_volar_exposure_01",
+      "text": "Exposes the volar MCP joint and any interposed ruptured capsule after dislocation.",
+      "source_ids": [
+        "ao_f2dbdf967e028e42"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "hand_mcp_joint_volar_limitations_01",
+      "text": "The volar approach gives limited access to the dorsal joint and depends on careful digital nerve identification.",
+      "source_ids": [
+        "ao_f2dbdf967e028e42"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "hand_mcp_joint_volar_indications_01",
+      "text": "Indicated for irreducible volar MCP dislocation and selected volar MCP joint pathology.",
+      "source_ids": [
+        "ao_f2dbdf967e028e42"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "hand_mcp_joint_volar_closure_01",
+      "text": "Repair the joint capsule with fine sutures, reposition the flexor tendons, and do not repair the A1 pulley to avoid tendon sheath contracture.",
+      "source_ids": [
+        "ao_f2dbdf967e028e42"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "hand_mcp_joint_volar_complications_01",
+      "text": "Complications include digital nerve injury, skin flap ischemia, and MCP stiffness.",
+      "source_ids": [
+        "ao_f2dbdf967e028e42",
+        "ao_84c90651b50152c6"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "hand_mcp_joint_volar_questions_01",
+      "text": "Why is a Z-shaped incision used over the MCP joint?",
+      "source_ids": [
+        "ao_f2dbdf967e028e42"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "hand_mcp_joint_volar_questions_02",
+      "text": "Why is the A1 pulley not repaired at closure?",
+      "source_ids": [
+        "ao_f2dbdf967e028e42"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "hand_mcp_joint_volar_questions_03",
+      "text": "Where may the digital nerve lie after a volar MCP dislocation?",
+      "source_ids": [
+        "ao_f2dbdf967e028e42",
+        "ao_84c90651b50152c6"
+      ],
+      "risk_level": "medium"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "ao_f2dbdf967e028e42",
+      "provider": "AO Surgery Reference",
+      "title": "Volar approach to the metacarpophalangeal joint",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/hand-proximal-phalanges/approach/volar-approach-to-metacarpophalangeal-joint",
+      "source_page_id": "ao_f2dbdf967e028e42"
+    },
+    {
+      "source_id": "ao_84c90651b50152c6",
+      "provider": "AO Surgery Reference",
+      "title": "Palmar approach to the proximal interphalangeal joint",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/hand-proximal-phalanges/approach/palmar-approach-to-proximal-interphalangeal-joint",
+      "source_page_id": "ao_84c90651b50152c6"
+    },
+    {
+      "source_id": "ao_19cb706450006e6b",
+      "provider": "AO Surgery Reference",
+      "title": "Volar approach to the MCP joints (metacarpals)",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/metacarpals/approach/volar-approach-to-mcp-joints",
+      "source_page_id": "ao_19cb706450006e6b"
+    }
+  ],
+  "content_status": "agent_review_pending",
+  "review": {
+    "status": "agent_review_pending",
+    "required_roles": [
+      "adversarial_safety_reviewer",
+      "approach_anatomy_reviewer",
+      "educational_value_reviewer",
+      "evidence_reviewer",
+      "operative_exposure_reviewer",
+      "procedure_applicability_reviewer"
+    ],
+    "completed_roles": []
+  },
+  "resolved_contradiction_keys": [],
+  "authoring_provenance": {
+    "method": "local_codex_curated",
+    "definition_file": "data/approach_library/curated/hand_humerus_ped_batch002_v1.json",
+    "api_used": false
+  }
+}

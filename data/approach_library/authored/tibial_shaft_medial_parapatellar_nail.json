@@ -1,0 +1,350 @@
+{
+  "schema_version": "brobot_approach_packet_v1",
+  "approach_id": "tibial_shaft_medial_parapatellar_nail",
+  "name": "Medial parapatellar approach for tibial nailing",
+  "aliases": [
+    "medial paratendinous tibial nail entry"
+  ],
+  "region": "tibial-shaft",
+  "joint": "knee",
+  "bones": [
+    "proximal tibia",
+    "tibial shaft"
+  ],
+  "corridor": "Longitudinal cut over the patellar tendon and patella, interval medial to the tendon, optionally through medial parapatellar retinaculum, to a start in the medial aspect of the lateral tibial spine 3 mm medial to the crest",
+  "positioning": [
+    {
+      "text": "Position so true AP and lateral images of the knee and proximal tibia can confirm the start.",
+      "claim_ids": [
+        "tibial_shaft_medial_parapatellar_nail_positioning_01"
+      ]
+    }
+  ],
+  "setup": [],
+  "surface_landmarks": [
+    {
+      "text": "Mark the tibial crest, patellar tendon, and plateau. A guide wire laid along the crest and extended over the knee meets the plateau at the start, typically 3 mm medial to the crest in line with the canal, in the medial aspect of the lateral tibial spine, just distal to the plateau–metaphyseal angle at the anterior joint-line edge.",
+      "claim_ids": [
+        "tibial_shaft_medial_parapatellar_nail_surface_landmarks_01"
+      ]
+    }
+  ],
+  "incision": [
+    {
+      "text": "Make a longitudinal cut over the patellar tendon and patella.",
+      "claim_ids": [
+        "tibial_shaft_medial_parapatellar_nail_incision_01"
+      ]
+    }
+  ],
+  "superficial_interval": [
+    {
+      "text": "Go medial to the patellar tendon. If the patella is stiff, extend through the medial parapatellar retinaculum proximally. Studies have found no difference in knee pain between through-tendon and beside-tendon incisions.",
+      "claim_ids": [
+        "tibial_shaft_medial_parapatellar_nail_superficial_interval_01"
+      ]
+    }
+  ],
+  "deep_interval": [
+    {
+      "text": "Place the opening device in line with the canal. A start that is too medial tends to produce valgus in proximal-shaft fractures.",
+      "claim_ids": [
+        "tibial_shaft_medial_parapatellar_nail_deep_interval_01"
+      ]
+    }
+  ],
+  "layers": [
+    {
+      "text": "Skin, medial paratendinous interval and optional medial retinaculum, then the extra-articular anterior start.",
+      "claim_ids": [
+        "tibial_shaft_medial_parapatellar_nail_layers_01"
+      ]
+    }
+  ],
+  "structures_encountered": [],
+  "structures_at_risk": [
+    {
+      "text": "A medialized start malaligns proximal-shaft fractures into valgus. The patellar tendon is spared compared with a transtendinous split but can still be injured by a poorly placed cut.",
+      "claim_ids": [
+        "tibial_shaft_medial_parapatellar_nail_structures_at_risk_01"
+      ]
+    }
+  ],
+  "danger_zones": [
+    {
+      "text": "An entry medial to the canal axis is the valgus danger zone for proximal tibial-shaft fractures.",
+      "claim_ids": [
+        "tibial_shaft_medial_parapatellar_nail_danger_zones_01"
+      ]
+    }
+  ],
+  "retraction_hazards": [
+    {
+      "text": "Do not let tendon retraction pull the opening device medial to the crest line.",
+      "claim_ids": [
+        "tibial_shaft_medial_parapatellar_nail_retraction_hazards_01"
+      ]
+    }
+  ],
+  "exposure": [
+    {
+      "text": "Gives a flexed-knee nail start medial to the tendon, with optional proximal retinacular extension for a stiff patella.",
+      "claim_ids": [
+        "tibial_shaft_medial_parapatellar_nail_exposure_01"
+      ]
+    }
+  ],
+  "limitations": [
+    {
+      "text": "Knee flexion can still make proximal-shaft alignment harder than a semi-extended method.",
+      "claim_ids": [
+        "tibial_shaft_medial_parapatellar_nail_limitations_01"
+      ]
+    }
+  ],
+  "extensions": [],
+  "indications": [
+    {
+      "text": "Used for infrapatellar nailing when the surgeon prefers a medial paratendinous rather than transtendinous window.",
+      "claim_ids": [
+        "tibial_shaft_medial_parapatellar_nail_indications_01"
+      ]
+    }
+  ],
+  "relative_contraindications": [],
+  "implant_implications": [],
+  "fluoroscopy_implications": [],
+  "closure": [
+    {
+      "text": "Repair retinaculum if it was opened and close skin.",
+      "claim_ids": [
+        "tibial_shaft_medial_parapatellar_nail_closure_01"
+      ]
+    }
+  ],
+  "complications": [
+    {
+      "text": "Complications include valgus malalignment from a too-medial start in proximal-shaft fractures.",
+      "claim_ids": [
+        "tibial_shaft_medial_parapatellar_nail_complications_01"
+      ]
+    }
+  ],
+  "bailouts": [],
+  "procedure_applications": [
+    {
+      "procedure_id": "tibial_shaft_fracture_orif",
+      "relationship": "primary_option",
+      "condition": "A tibial shaft is nailed through a medial paratendinous window rather than a tendon split"
+    }
+  ],
+  "questions": [
+    {
+      "question": "Where is the frontal-plane tibial nail start?",
+      "answer": "In the medial aspect of the lateral tibial spine, typically 3 mm medial to the crest in line with the canal.",
+      "claim_ids": [
+        "tibial_shaft_medial_parapatellar_nail_questions_01"
+      ]
+    },
+    {
+      "question": "What deformity follows a too-medial start in a proximal-shaft fracture?",
+      "answer": "Valgus.",
+      "claim_ids": [
+        "tibial_shaft_medial_parapatellar_nail_questions_02"
+      ]
+    },
+    {
+      "question": "Where does this interval run relative to the patellar tendon?",
+      "answer": "Medial to the tendon, extended through medial parapatellar retinaculum if the patella is not mobile.",
+      "claim_ids": [
+        "tibial_shaft_medial_parapatellar_nail_questions_03"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "tibial_shaft_medial_parapatellar_nail_positioning_01",
+      "text": "Position so true AP and lateral images of the knee and proximal tibia can confirm the start.",
+      "source_ids": [
+        "ao_3ae1a31978456e14",
+        "ao_f6b5bd1c8c7e5760"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "tibial_shaft_medial_parapatellar_nail_surface_landmarks_01",
+      "text": "Mark the tibial crest, patellar tendon, and plateau. A guide wire laid along the crest and extended over the knee meets the plateau at the start, typically 3 mm medial to the crest in line with the canal, in the medial aspect of the lateral tibial spine, just distal to the plateau–metaphyseal angle at the anterior joint-line edge.",
+      "source_ids": [
+        "ao_3ae1a31978456e14",
+        "ao_f6b5bd1c8c7e5760"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "tibial_shaft_medial_parapatellar_nail_incision_01",
+      "text": "Make a longitudinal cut over the patellar tendon and patella.",
+      "source_ids": [
+        "ao_3ae1a31978456e14"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "tibial_shaft_medial_parapatellar_nail_superficial_interval_01",
+      "text": "Go medial to the patellar tendon. If the patella is stiff, extend through the medial parapatellar retinaculum proximally. Studies have found no difference in knee pain between through-tendon and beside-tendon incisions.",
+      "source_ids": [
+        "ao_3ae1a31978456e14",
+        "ao_f6b5bd1c8c7e5760"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "tibial_shaft_medial_parapatellar_nail_deep_interval_01",
+      "text": "Place the opening device in line with the canal. A start that is too medial tends to produce valgus in proximal-shaft fractures.",
+      "source_ids": [
+        "ao_3ae1a31978456e14",
+        "ao_f6b5bd1c8c7e5760"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "tibial_shaft_medial_parapatellar_nail_layers_01",
+      "text": "Skin, medial paratendinous interval and optional medial retinaculum, then the extra-articular anterior start.",
+      "source_ids": [
+        "ao_3ae1a31978456e14",
+        "ao_f6b5bd1c8c7e5760"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "tibial_shaft_medial_parapatellar_nail_structures_at_risk_01",
+      "text": "A medialized start malaligns proximal-shaft fractures into valgus. The patellar tendon is spared compared with a transtendinous split but can still be injured by a poorly placed cut.",
+      "source_ids": [
+        "ao_3ae1a31978456e14",
+        "ao_f6b5bd1c8c7e5760"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "tibial_shaft_medial_parapatellar_nail_danger_zones_01",
+      "text": "An entry medial to the canal axis is the valgus danger zone for proximal tibial-shaft fractures.",
+      "source_ids": [
+        "ao_3ae1a31978456e14",
+        "ao_f6b5bd1c8c7e5760"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "tibial_shaft_medial_parapatellar_nail_retraction_hazards_01",
+      "text": "Do not let tendon retraction pull the opening device medial to the crest line.",
+      "source_ids": [
+        "ao_3ae1a31978456e14",
+        "ao_f6b5bd1c8c7e5760"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "tibial_shaft_medial_parapatellar_nail_exposure_01",
+      "text": "Gives a flexed-knee nail start medial to the tendon, with optional proximal retinacular extension for a stiff patella.",
+      "source_ids": [
+        "ao_3ae1a31978456e14"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "tibial_shaft_medial_parapatellar_nail_limitations_01",
+      "text": "Knee flexion can still make proximal-shaft alignment harder than a semi-extended method.",
+      "source_ids": [
+        "ao_3ae1a31978456e14",
+        "ao_f6b5bd1c8c7e5760"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "tibial_shaft_medial_parapatellar_nail_indications_01",
+      "text": "Used for infrapatellar nailing when the surgeon prefers a medial paratendinous rather than transtendinous window.",
+      "source_ids": [
+        "ao_3ae1a31978456e14",
+        "ao_f6b5bd1c8c7e5760"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "tibial_shaft_medial_parapatellar_nail_closure_01",
+      "text": "Repair retinaculum if it was opened and close skin.",
+      "source_ids": [
+        "ao_3ae1a31978456e14"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "tibial_shaft_medial_parapatellar_nail_complications_01",
+      "text": "Complications include valgus malalignment from a too-medial start in proximal-shaft fractures.",
+      "source_ids": [
+        "ao_3ae1a31978456e14",
+        "ao_f6b5bd1c8c7e5760"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "tibial_shaft_medial_parapatellar_nail_questions_01",
+      "text": "Where is the frontal-plane tibial nail start?",
+      "source_ids": [
+        "ao_3ae1a31978456e14",
+        "ao_f6b5bd1c8c7e5760"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "tibial_shaft_medial_parapatellar_nail_questions_02",
+      "text": "What deformity follows a too-medial start in a proximal-shaft fracture?",
+      "source_ids": [
+        "ao_3ae1a31978456e14",
+        "ao_f6b5bd1c8c7e5760"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "tibial_shaft_medial_parapatellar_nail_questions_03",
+      "text": "Where does this interval run relative to the patellar tendon?",
+      "source_ids": [
+        "ao_3ae1a31978456e14"
+      ],
+      "risk_level": "medium"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "ao_3ae1a31978456e14",
+      "provider": "AO Surgery Reference",
+      "title": "Medial Parapatellar Approach For Intramedullary Nailing Of The Tibial Shaft",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/tibial-shaft/approach/medial-parapatellar-approach-for-intramedullary-nailing-of-the-tibial-shaft",
+      "source_page_id": "ao_3ae1a31978456e14"
+    },
+    {
+      "source_id": "ao_f6b5bd1c8c7e5760",
+      "provider": "AO Surgery Reference",
+      "title": "Infrapatellar Approach For Intramedullary Nailing Of The Tibial Shaft",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/tibial-shaft/approach/infrapatellar-approach-for-intramedullary-nailing-of-the-tibial-shaft",
+      "source_page_id": "ao_f6b5bd1c8c7e5760"
+    }
+  ],
+  "content_status": "agent_review_pending",
+  "review": {
+    "status": "agent_review_pending",
+    "required_roles": [
+      "adversarial_safety_reviewer",
+      "approach_anatomy_reviewer",
+      "educational_value_reviewer",
+      "evidence_reviewer",
+      "operative_exposure_reviewer",
+      "procedure_applicability_reviewer"
+    ],
+    "completed_roles": []
+  },
+  "resolved_contradiction_keys": [],
+  "authoring_provenance": {
+    "method": "local_codex_curated",
+    "definition_file": "data/approach_library/curated/tibial_shaft_batch001_v1.json",
+    "api_used": false
+  }
+}

@@ -1,0 +1,345 @@
+{
+  "schema_version": "brobot_approach_packet_v1",
+  "approach_id": "forearm_radius_intramedullary_nailing_entry",
+  "name": "Distal radius entry approach for intramedullary nailing",
+  "aliases": [
+    "dorsal distal radius nail entry",
+    "radial styloid nail entry"
+  ],
+  "region": "distal-forearm",
+  "joint": "wrist",
+  "bones": [
+    "radius"
+  ],
+  "corridor": "Small dorsal window over the distal radius at the radial side of Lister's tubercle (between the second and third extensor compartments) or at the radial styloid (between the first and second compartments) to gain the intramedullary canal",
+  "positioning": [
+    {
+      "text": "Position supine with the arm on a hand table and the wrist accessible for a dorsal entry and for fluoroscopy.",
+      "claim_ids": [
+        "forearm_radius_intramedullary_nailing_entry_positioning_01"
+      ]
+    }
+  ],
+  "setup": [],
+  "surface_landmarks": [
+    {
+      "text": "Identify Lister's tubercle and the radial styloid; the entry lies at the radial side of Lister's tubercle between the second and third dorsal compartments, or at the radial styloid between the first and second compartments.",
+      "claim_ids": [
+        "forearm_radius_intramedullary_nailing_entry_surface_landmarks_01"
+      ]
+    }
+  ],
+  "incision": [
+    {
+      "text": "Make a 2.5 to 3 cm longitudinal incision over the distal radius on the radial side of Lister's tubercle.",
+      "claim_ids": [
+        "forearm_radius_intramedullary_nailing_entry_incision_01"
+      ]
+    }
+  ],
+  "superficial_interval": [
+    {
+      "text": "Spread bluntly through subcutaneous tissue toward bone, protecting the dorsal branches of the superficial radial nerve that cross the tendons.",
+      "claim_ids": [
+        "forearm_radius_intramedullary_nailing_entry_superficial_interval_01"
+      ]
+    }
+  ],
+  "deep_interval": [
+    {
+      "text": "Deepen the dissection by spreading a forceps and advancing retractors layer by layer to the bone, incising the extensor retinaculum only partially and avoiding the third-compartment extensor pollicis longus at Lister's tubercle.",
+      "claim_ids": [
+        "forearm_radius_intramedullary_nailing_entry_deep_interval_01"
+      ]
+    }
+  ],
+  "layers": [
+    {
+      "text": "Skin, subcutaneous tissue with superficial radial nerve branches, extensor retinaculum, the second and third compartment tendons, and the dorsal cortex of the distal radius.",
+      "claim_ids": [
+        "forearm_radius_intramedullary_nailing_entry_layers_01"
+      ]
+    }
+  ],
+  "structures_encountered": [],
+  "structures_at_risk": [
+    {
+      "text": "The dorsal branches of the superficial radial nerve, the second and third compartment extensor tendons, and the extensor pollicis longus at Lister's tubercle are at risk.",
+      "claim_ids": [
+        "forearm_radius_intramedullary_nailing_entry_structures_at_risk_01"
+      ]
+    }
+  ],
+  "danger_zones": [
+    {
+      "text": "Complete division of the extensor retinaculum is a danger zone because it can lead to extensor tendon subluxation or bowstringing; a prominent nail can abrade the second and third compartment tendons.",
+      "claim_ids": [
+        "forearm_radius_intramedullary_nailing_entry_danger_zones_01"
+      ]
+    }
+  ],
+  "retraction_hazards": [
+    {
+      "text": "Retract tendons gently and keep the superficial radial nerve branches out of the retractor to avoid traction neuropraxia.",
+      "claim_ids": [
+        "forearm_radius_intramedullary_nailing_entry_retraction_hazards_01"
+      ]
+    }
+  ],
+  "exposure": [
+    {
+      "text": "Exposes a limited dorsal window of the distal radius sufficient to establish the intramedullary entry point.",
+      "claim_ids": [
+        "forearm_radius_intramedullary_nailing_entry_exposure_01"
+      ]
+    }
+  ],
+  "limitations": [
+    {
+      "text": "The window gives no direct fracture visualization and depends on closed reduction and fluoroscopy; tendon irritation limits the acceptable nail prominence.",
+      "claim_ids": [
+        "forearm_radius_intramedullary_nailing_entry_limitations_01"
+      ]
+    }
+  ],
+  "extensions": [],
+  "indications": [
+    {
+      "text": "Indicated to establish the distal radius entry point for antegrade intramedullary nailing of radial shaft fractures.",
+      "claim_ids": [
+        "forearm_radius_intramedullary_nailing_entry_indications_01"
+      ]
+    }
+  ],
+  "relative_contraindications": [],
+  "implant_implications": [],
+  "fluoroscopy_implications": [],
+  "closure": [
+    {
+      "text": "Repair or leave the partially incised retinaculum so tendons are not left subluxed, and close subcutaneous tissue and skin.",
+      "claim_ids": [
+        "forearm_radius_intramedullary_nailing_entry_closure_01"
+      ]
+    }
+  ],
+  "complications": [
+    {
+      "text": "Complications include superficial radial nerve injury, extensor tendon irritation or rupture, and tendon subluxation from complete retinacular division.",
+      "claim_ids": [
+        "forearm_radius_intramedullary_nailing_entry_complications_01"
+      ]
+    }
+  ],
+  "bailouts": [],
+  "procedure_applications": [
+    {
+      "procedure_id": "both_bone_forearm_fracture_orif",
+      "relationship": "conditional_option",
+      "condition": "The radius is stabilized with an intramedullary nail rather than a plate"
+    }
+  ],
+  "questions": [
+    {
+      "question": "Where is the dorsal entry point for radius intramedullary nailing?",
+      "answer": "At the radial side of Lister's tubercle between the second and third compartments, or at the radial styloid between the first and second compartments.",
+      "claim_ids": [
+        "forearm_radius_intramedullary_nailing_entry_questions_01"
+      ]
+    },
+    {
+      "question": "Why should the extensor retinaculum not be completely divided?",
+      "answer": "Complete division can cause extensor tendon subluxation or bowstringing.",
+      "claim_ids": [
+        "forearm_radius_intramedullary_nailing_entry_questions_02"
+      ]
+    },
+    {
+      "question": "Which nerve branches are most at risk during this dorsal exposure?",
+      "answer": "The dorsal branches of the superficial radial nerve.",
+      "claim_ids": [
+        "forearm_radius_intramedullary_nailing_entry_questions_03"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "forearm_radius_intramedullary_nailing_entry_positioning_01",
+      "text": "Position supine with the arm on a hand table and the wrist accessible for a dorsal entry and for fluoroscopy.",
+      "source_ids": [
+        "ao_c308ece8590757a8"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "forearm_radius_intramedullary_nailing_entry_surface_landmarks_01",
+      "text": "Identify Lister's tubercle and the radial styloid; the entry lies at the radial side of Lister's tubercle between the second and third dorsal compartments, or at the radial styloid between the first and second compartments.",
+      "source_ids": [
+        "ao_c308ece8590757a8",
+        "ao_1966107fff0ea485"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "forearm_radius_intramedullary_nailing_entry_incision_01",
+      "text": "Make a 2.5 to 3 cm longitudinal incision over the distal radius on the radial side of Lister's tubercle.",
+      "source_ids": [
+        "ao_c308ece8590757a8"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "forearm_radius_intramedullary_nailing_entry_superficial_interval_01",
+      "text": "Spread bluntly through subcutaneous tissue toward bone, protecting the dorsal branches of the superficial radial nerve that cross the tendons.",
+      "source_ids": [
+        "ao_c308ece8590757a8",
+        "ao_1966107fff0ea485"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "forearm_radius_intramedullary_nailing_entry_deep_interval_01",
+      "text": "Deepen the dissection by spreading a forceps and advancing retractors layer by layer to the bone, incising the extensor retinaculum only partially and avoiding the third-compartment extensor pollicis longus at Lister's tubercle.",
+      "source_ids": [
+        "ao_c308ece8590757a8",
+        "ao_1966107fff0ea485"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "forearm_radius_intramedullary_nailing_entry_layers_01",
+      "text": "Skin, subcutaneous tissue with superficial radial nerve branches, extensor retinaculum, the second and third compartment tendons, and the dorsal cortex of the distal radius.",
+      "source_ids": [
+        "ao_c308ece8590757a8",
+        "ao_1966107fff0ea485"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "forearm_radius_intramedullary_nailing_entry_structures_at_risk_01",
+      "text": "The dorsal branches of the superficial radial nerve, the second and third compartment extensor tendons, and the extensor pollicis longus at Lister's tubercle are at risk.",
+      "source_ids": [
+        "ao_c308ece8590757a8",
+        "ao_1966107fff0ea485"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "forearm_radius_intramedullary_nailing_entry_danger_zones_01",
+      "text": "Complete division of the extensor retinaculum is a danger zone because it can lead to extensor tendon subluxation or bowstringing; a prominent nail can abrade the second and third compartment tendons.",
+      "source_ids": [
+        "ao_c308ece8590757a8"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "forearm_radius_intramedullary_nailing_entry_retraction_hazards_01",
+      "text": "Retract tendons gently and keep the superficial radial nerve branches out of the retractor to avoid traction neuropraxia.",
+      "source_ids": [
+        "ao_c308ece8590757a8",
+        "ao_1966107fff0ea485"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "forearm_radius_intramedullary_nailing_entry_exposure_01",
+      "text": "Exposes a limited dorsal window of the distal radius sufficient to establish the intramedullary entry point.",
+      "source_ids": [
+        "ao_c308ece8590757a8"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "forearm_radius_intramedullary_nailing_entry_limitations_01",
+      "text": "The window gives no direct fracture visualization and depends on closed reduction and fluoroscopy; tendon irritation limits the acceptable nail prominence.",
+      "source_ids": [
+        "ao_c308ece8590757a8"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "forearm_radius_intramedullary_nailing_entry_indications_01",
+      "text": "Indicated to establish the distal radius entry point for antegrade intramedullary nailing of radial shaft fractures.",
+      "source_ids": [
+        "ao_c308ece8590757a8"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "forearm_radius_intramedullary_nailing_entry_closure_01",
+      "text": "Repair or leave the partially incised retinaculum so tendons are not left subluxed, and close subcutaneous tissue and skin.",
+      "source_ids": [
+        "ao_c308ece8590757a8"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "forearm_radius_intramedullary_nailing_entry_complications_01",
+      "text": "Complications include superficial radial nerve injury, extensor tendon irritation or rupture, and tendon subluxation from complete retinacular division.",
+      "source_ids": [
+        "ao_c308ece8590757a8",
+        "ao_1966107fff0ea485"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "forearm_radius_intramedullary_nailing_entry_questions_01",
+      "text": "Where is the dorsal entry point for radius intramedullary nailing?",
+      "source_ids": [
+        "ao_c308ece8590757a8"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "forearm_radius_intramedullary_nailing_entry_questions_02",
+      "text": "Why should the extensor retinaculum not be completely divided?",
+      "source_ids": [
+        "ao_c308ece8590757a8"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "forearm_radius_intramedullary_nailing_entry_questions_03",
+      "text": "Which nerve branches are most at risk during this dorsal exposure?",
+      "source_ids": [
+        "ao_c308ece8590757a8",
+        "ao_1966107fff0ea485"
+      ],
+      "risk_level": "medium"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "ao_c308ece8590757a8",
+      "provider": "AO Surgery Reference",
+      "title": "Approaches to the radius for intramedullary nailing",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/forearm-shaft/approach/approaches-to-the-radius-for-intramedullary-nailing",
+      "source_page_id": "ao_c308ece8590757a8"
+    },
+    {
+      "source_id": "ao_1966107fff0ea485",
+      "provider": "AO Surgery Reference",
+      "title": "Anatomy of the distal forearm",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/distal-forearm/approach/anatomy-of-the-distal-forearm",
+      "source_page_id": "ao_1966107fff0ea485"
+    }
+  ],
+  "content_status": "agent_review_pending",
+  "review": {
+    "status": "agent_review_pending",
+    "required_roles": [
+      "adversarial_safety_reviewer",
+      "approach_anatomy_reviewer",
+      "educational_value_reviewer",
+      "evidence_reviewer",
+      "operative_exposure_reviewer",
+      "procedure_applicability_reviewer"
+    ],
+    "completed_roles": []
+  },
+  "resolved_contradiction_keys": [],
+  "authoring_provenance": {
+    "method": "local_codex_curated",
+    "definition_file": "data/approach_library/curated/forearm_shaft_batch001_v1.json",
+    "api_used": false
+  }
+}

@@ -1,0 +1,341 @@
+{
+  "schema_version": "brobot_approach_packet_v1",
+  "approach_id": "humeral_shaft_antegrade_transdeltoid_entry",
+  "name": "Anterolateral transdeltoid approach for antegrade humeral nailing",
+  "aliases": [
+    "transdeltoid antegrade humeral nail entry"
+  ],
+  "region": "humeral-shaft",
+  "joint": "shoulder",
+  "bones": [
+    "humerus"
+  ],
+  "corridor": "Anterolateral deltoid-splitting window through the supraspinatus tendon to the superior humeral head entry point just posterior to the long head of biceps",
+  "positioning": [
+    {
+      "text": "Position in a beach-chair position with the arm draped free and image intensifier access to the shoulder.",
+      "claim_ids": [
+        "humeral_shaft_antegrade_transdeltoid_entry_positioning_01"
+      ]
+    }
+  ],
+  "setup": [],
+  "surface_landmarks": [
+    {
+      "text": "Mark the anterolateral edge of the acromion and the line of the deltoid toward its insertion.",
+      "claim_ids": [
+        "humeral_shaft_antegrade_transdeltoid_entry_surface_landmarks_01"
+      ]
+    }
+  ],
+  "incision": [
+    {
+      "text": "Make a small skin incision from the anterolateral edge of the acromion running distally toward the deltoid insertion.",
+      "claim_ids": [
+        "humeral_shaft_antegrade_transdeltoid_entry_incision_01"
+      ]
+    }
+  ],
+  "superficial_interval": [
+    {
+      "text": "Split and retract the deltoid within its raphe, keeping the split limited to protect the axillary nerve on the deep surface of the muscle.",
+      "claim_ids": [
+        "humeral_shaft_antegrade_transdeltoid_entry_superficial_interval_01"
+      ]
+    }
+  ],
+  "deep_interval": [
+    {
+      "text": "Incise the supraspinatus tendon in line with its fibers with a pointed blade, retract both borders with sutures, and make the entry on the superior humeral head cartilage just posterior to the long head of biceps and medial to the greater tuberosity.",
+      "claim_ids": [
+        "humeral_shaft_antegrade_transdeltoid_entry_deep_interval_01"
+      ]
+    }
+  ],
+  "layers": [
+    {
+      "text": "Skin, subcutaneous tissue, deltoid, subacromial bursa, supraspinatus tendon, and the superior humeral head.",
+      "claim_ids": [
+        "humeral_shaft_antegrade_transdeltoid_entry_layers_01"
+      ]
+    }
+  ],
+  "structures_encountered": [],
+  "structures_at_risk": [
+    {
+      "text": "The axillary nerve on the deep deltoid surface and the supraspinatus/rotator cuff at the entry point are at risk.",
+      "claim_ids": [
+        "humeral_shaft_antegrade_transdeltoid_entry_structures_at_risk_01"
+      ]
+    }
+  ],
+  "danger_zones": [
+    {
+      "text": "The rotator cuff entry through the supraspinatus is the danger zone; cuff damage is minimized by a sharp incision and reamer sleeves.",
+      "claim_ids": [
+        "humeral_shaft_antegrade_transdeltoid_entry_danger_zones_01"
+      ]
+    }
+  ],
+  "retraction_hazards": [
+    {
+      "text": "Keep the deltoid split short to avoid the axillary nerve and pass reamers only through sleeves to spare the cuff.",
+      "claim_ids": [
+        "humeral_shaft_antegrade_transdeltoid_entry_retraction_hazards_01"
+      ]
+    }
+  ],
+  "exposure": [
+    {
+      "text": "Exposes the superior humeral head entry point for antegrade nail insertion.",
+      "claim_ids": [
+        "humeral_shaft_antegrade_transdeltoid_entry_exposure_01"
+      ]
+    }
+  ],
+  "limitations": [
+    {
+      "text": "The approach accesses only the proximal entry and depends on the rotator cuff, which must be preserved and repaired.",
+      "claim_ids": [
+        "humeral_shaft_antegrade_transdeltoid_entry_limitations_01"
+      ]
+    }
+  ],
+  "extensions": [],
+  "indications": [
+    {
+      "text": "Indicated to establish the entry point for antegrade intramedullary nailing of humeral shaft fractures.",
+      "claim_ids": [
+        "humeral_shaft_antegrade_transdeltoid_entry_indications_01"
+      ]
+    }
+  ],
+  "relative_contraindications": [],
+  "implant_implications": [],
+  "fluoroscopy_implications": [],
+  "closure": [
+    {
+      "text": "Close the supraspinatus tendon carefully, place a drain in the subacromial space if needed, and close the deltoid fascia and skin.",
+      "claim_ids": [
+        "humeral_shaft_antegrade_transdeltoid_entry_closure_01"
+      ]
+    }
+  ],
+  "complications": [
+    {
+      "text": "Complications include rotator cuff dysfunction and shoulder pain, axillary nerve injury, and an incorrect entry point.",
+      "claim_ids": [
+        "humeral_shaft_antegrade_transdeltoid_entry_complications_01"
+      ]
+    }
+  ],
+  "bailouts": [],
+  "procedure_applications": [
+    {
+      "procedure_id": "humeral_shaft_fracture_orif",
+      "relationship": "primary_option",
+      "condition": "A humeral shaft fracture is stabilized with an antegrade intramedullary nail"
+    }
+  ],
+  "questions": [
+    {
+      "question": "Where is the ideal antegrade humeral nail entry point?",
+      "answer": "On the superior humeral head cartilage just posterior to the long head of biceps, medial to the greater tuberosity.",
+      "claim_ids": [
+        "humeral_shaft_antegrade_transdeltoid_entry_questions_01"
+      ]
+    },
+    {
+      "question": "How is rotator cuff damage minimized during this approach?",
+      "answer": "By a sharp in-line incision of the supraspinatus and using reamer sleeves.",
+      "claim_ids": [
+        "humeral_shaft_antegrade_transdeltoid_entry_questions_02"
+      ]
+    },
+    {
+      "question": "Why is the deltoid split kept short?",
+      "answer": "To avoid injuring the axillary nerve on the deep surface of the deltoid.",
+      "claim_ids": [
+        "humeral_shaft_antegrade_transdeltoid_entry_questions_03"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "humeral_shaft_antegrade_transdeltoid_entry_positioning_01",
+      "text": "Position in a beach-chair position with the arm draped free and image intensifier access to the shoulder.",
+      "source_ids": [
+        "ao_69eb3cbdac2ac7cb"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "humeral_shaft_antegrade_transdeltoid_entry_surface_landmarks_01",
+      "text": "Mark the anterolateral edge of the acromion and the line of the deltoid toward its insertion.",
+      "source_ids": [
+        "ao_69eb3cbdac2ac7cb"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "humeral_shaft_antegrade_transdeltoid_entry_incision_01",
+      "text": "Make a small skin incision from the anterolateral edge of the acromion running distally toward the deltoid insertion.",
+      "source_ids": [
+        "ao_69eb3cbdac2ac7cb"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "humeral_shaft_antegrade_transdeltoid_entry_superficial_interval_01",
+      "text": "Split and retract the deltoid within its raphe, keeping the split limited to protect the axillary nerve on the deep surface of the muscle.",
+      "source_ids": [
+        "ao_69eb3cbdac2ac7cb",
+        "ao_448da66bc421d7ed"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "humeral_shaft_antegrade_transdeltoid_entry_deep_interval_01",
+      "text": "Incise the supraspinatus tendon in line with its fibers with a pointed blade, retract both borders with sutures, and make the entry on the superior humeral head cartilage just posterior to the long head of biceps and medial to the greater tuberosity.",
+      "source_ids": [
+        "ao_69eb3cbdac2ac7cb"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "humeral_shaft_antegrade_transdeltoid_entry_layers_01",
+      "text": "Skin, subcutaneous tissue, deltoid, subacromial bursa, supraspinatus tendon, and the superior humeral head.",
+      "source_ids": [
+        "ao_69eb3cbdac2ac7cb"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "humeral_shaft_antegrade_transdeltoid_entry_structures_at_risk_01",
+      "text": "The axillary nerve on the deep deltoid surface and the supraspinatus/rotator cuff at the entry point are at risk.",
+      "source_ids": [
+        "ao_69eb3cbdac2ac7cb",
+        "ao_448da66bc421d7ed"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "humeral_shaft_antegrade_transdeltoid_entry_danger_zones_01",
+      "text": "The rotator cuff entry through the supraspinatus is the danger zone; cuff damage is minimized by a sharp incision and reamer sleeves.",
+      "source_ids": [
+        "ao_69eb3cbdac2ac7cb"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "humeral_shaft_antegrade_transdeltoid_entry_retraction_hazards_01",
+      "text": "Keep the deltoid split short to avoid the axillary nerve and pass reamers only through sleeves to spare the cuff.",
+      "source_ids": [
+        "ao_69eb3cbdac2ac7cb",
+        "ao_448da66bc421d7ed"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "humeral_shaft_antegrade_transdeltoid_entry_exposure_01",
+      "text": "Exposes the superior humeral head entry point for antegrade nail insertion.",
+      "source_ids": [
+        "ao_69eb3cbdac2ac7cb"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "humeral_shaft_antegrade_transdeltoid_entry_limitations_01",
+      "text": "The approach accesses only the proximal entry and depends on the rotator cuff, which must be preserved and repaired.",
+      "source_ids": [
+        "ao_69eb3cbdac2ac7cb"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "humeral_shaft_antegrade_transdeltoid_entry_indications_01",
+      "text": "Indicated to establish the entry point for antegrade intramedullary nailing of humeral shaft fractures.",
+      "source_ids": [
+        "ao_69eb3cbdac2ac7cb"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "humeral_shaft_antegrade_transdeltoid_entry_closure_01",
+      "text": "Close the supraspinatus tendon carefully, place a drain in the subacromial space if needed, and close the deltoid fascia and skin.",
+      "source_ids": [
+        "ao_69eb3cbdac2ac7cb"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "humeral_shaft_antegrade_transdeltoid_entry_complications_01",
+      "text": "Complications include rotator cuff dysfunction and shoulder pain, axillary nerve injury, and an incorrect entry point.",
+      "source_ids": [
+        "ao_69eb3cbdac2ac7cb",
+        "ao_448da66bc421d7ed"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "humeral_shaft_antegrade_transdeltoid_entry_questions_01",
+      "text": "Where is the ideal antegrade humeral nail entry point?",
+      "source_ids": [
+        "ao_69eb3cbdac2ac7cb"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "humeral_shaft_antegrade_transdeltoid_entry_questions_02",
+      "text": "How is rotator cuff damage minimized during this approach?",
+      "source_ids": [
+        "ao_69eb3cbdac2ac7cb"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "humeral_shaft_antegrade_transdeltoid_entry_questions_03",
+      "text": "Why is the deltoid split kept short?",
+      "source_ids": [
+        "ao_69eb3cbdac2ac7cb",
+        "ao_448da66bc421d7ed"
+      ],
+      "risk_level": "medium"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "ao_69eb3cbdac2ac7cb",
+      "provider": "AO Surgery Reference",
+      "title": "Anterolateral transdeltoid approach for antegrade nailing",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/humeral-shaft/approach/anterolateral-transdeltoid-approach-for-antegrade-nailing",
+      "source_page_id": "ao_69eb3cbdac2ac7cb"
+    },
+    {
+      "source_id": "ao_448da66bc421d7ed",
+      "provider": "AO Surgery Reference",
+      "title": "MIO transdeltoid lateral approach to the humeral shaft",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/humeral-shaft/approach/mio-transdeltoid-lateral-approach",
+      "source_page_id": "ao_448da66bc421d7ed"
+    }
+  ],
+  "content_status": "agent_review_pending",
+  "review": {
+    "status": "agent_review_pending",
+    "required_roles": [
+      "adversarial_safety_reviewer",
+      "approach_anatomy_reviewer",
+      "educational_value_reviewer",
+      "evidence_reviewer",
+      "operative_exposure_reviewer",
+      "procedure_applicability_reviewer"
+    ],
+    "completed_roles": []
+  },
+  "resolved_contradiction_keys": [],
+  "authoring_provenance": {
+    "method": "local_codex_curated",
+    "definition_file": "data/approach_library/curated/humeral_shaft_nailing_batch002_v1.json",
+    "api_used": false
+  }
+}

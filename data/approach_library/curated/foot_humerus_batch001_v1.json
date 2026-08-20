@@ -1,0 +1,747 @@
+{
+  "approaches": [
+    {
+      "approach_id": "foot_first_mtpj_dorsal",
+      "name": "Dorsal approach to the first metatarsophalangeal joint",
+      "aliases": [
+        "dorsal approach to the first MTPJ"
+      ],
+      "region": "foot-phalanges",
+      "joint": "first metatarsophalangeal joint",
+      "bones": [
+        "first metatarsal",
+        "proximal phalanx of hallux"
+      ],
+      "corridor": "Dorsal or dorsomedial interval just medial to the extensor hallucis longus tendon, through the joint capsule to the first MTP joint and sesamoids",
+      "sources": [
+        {
+          "source_id": "ao_bcc8b63468456cbc",
+          "provider": "AO Surgery Reference",
+          "title": "Dorsal approach to the first metatarsophalangeal joint (MTPJ)",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/foot-phalanges/approach/dorsal-approach-to-the-first-metatarsal-phalangeal-joint-mtpj",
+          "source_page_id": "ao_bcc8b63468456cbc"
+        },
+        {
+          "source_id": "ao_1a49f0de5394c729",
+          "provider": "AO Surgery Reference",
+          "title": "Dorsal approach to the proximal phalanx (foot)",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/foot-phalanges/approach/dorsal-approach-to-the-proximal-phalanx",
+          "source_page_id": "ao_1a49f0de5394c729"
+        },
+        {
+          "source_id": "ao_e36a0a8456e74384",
+          "provider": "AO Surgery Reference",
+          "title": "Dorsal approach to the first MTPJ (metatarsals)",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/metatarsals/approach/dorsal-approach-to-the-first-metatarsal-phalangeal-joint-mtpj",
+          "source_page_id": "ao_e36a0a8456e74384"
+        },
+        {
+          "source_id": "orthobullets_62bfe405a9548c0f",
+          "provider": "Orthobullets",
+          "title": "Dorsomedial Approach To Mtp Joint Of Great Toe",
+          "url": "https://www.orthobullets.com/approaches/12051/dorsomedial-approach-to-mtp-joint-of-great-toe",
+          "source_page_id": "orthobullets_62bfe405a9548c0f"
+        }
+      ],
+      "procedure_applications": [
+        {
+          "procedure_id": "hallux_valgus_correction",
+          "relationship": "conditional_option",
+          "condition": "Open access to the first MTP joint or sesamoids is required, for example for articular fracture fixation or arthrodesis"
+        }
+      ],
+      "sections": {
+        "positioning": [
+          {
+            "text": "Position supine with the forefoot at the end of the table under tourniquet control and imaging available.",
+            "source_ids": [
+              "ao_bcc8b63468456cbc"
+            ]
+          }
+        ],
+        "surface_landmarks": [
+          {
+            "text": "Identify the extensor hallucis longus tendon and the level of the first MTP joint.",
+            "source_ids": [
+              "ao_bcc8b63468456cbc"
+            ]
+          }
+        ],
+        "incision": [
+          {
+            "text": "Run the skin incision medial to the EHL tendon at the level of the first MTP joint, between the branches of the deep peroneal, superficial peroneal, and saphenous nerves, extending proximally across the first tarsometatarsal joint if needed.",
+            "source_ids": [
+              "ao_bcc8b63468456cbc"
+            ]
+          }
+        ],
+        "deep_interval": [
+          {
+            "text": "Retract the EHL tendon laterally, incise the capsule along its fibers, and free the plantar sesamoids with a smooth elevator; plantarflexing the hallux and using a mini distractor improves view of the metatarsal head.",
+            "source_ids": [
+              "ao_bcc8b63468456cbc"
+            ]
+          }
+        ],
+        "layers": [
+          {
+            "text": "Skin, subcutaneous tissue with dorsal cutaneous nerve branches and veins, extensor hallucis longus, and the first MTP joint capsule.",
+            "source_ids": [
+              "ao_bcc8b63468456cbc",
+              "ao_1a49f0de5394c729"
+            ]
+          }
+        ],
+        "structures_at_risk": [
+          {
+            "text": "The dorsomedial superficial peroneal nerve branch and digital artery lie dorsomedially, the deep peroneal nerve lies laterally, and the EHL tendon and crossing dorsal veins are at risk.",
+            "source_ids": [
+              "ao_bcc8b63468456cbc",
+              "ao_1a49f0de5394c729"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "danger_zones": [
+          {
+            "text": "The dorsomedial corner is the danger zone for the dorsomedial cutaneous nerve and digital artery.",
+            "source_ids": [
+              "ao_bcc8b63468456cbc",
+              "ao_1a49f0de5394c729"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "retraction_hazards": [
+          {
+            "text": "Protect the dorsal cutaneous nerves with small retractors and preserve the longitudinal dorsal veins.",
+            "source_ids": [
+              "ao_bcc8b63468456cbc",
+              "ao_1a49f0de5394c729"
+            ]
+          }
+        ],
+        "exposure": [
+          {
+            "text": "Exposes the first MTP joint, metatarsal head, and sesamoid complex.",
+            "source_ids": [
+              "ao_bcc8b63468456cbc"
+            ]
+          }
+        ],
+        "limitations": [
+          {
+            "text": "The dorsomedial nerve and digital artery constrain medial dissection, and articular visualization of the metatarsal head depends on distraction and plantarflexion.",
+            "source_ids": [
+              "ao_bcc8b63468456cbc"
+            ]
+          }
+        ],
+        "indications": [
+          {
+            "text": "Indicated for open fixation, arthrodesis, or reconstruction at the first MTP joint and sesamoids.",
+            "source_ids": [
+              "ao_bcc8b63468456cbc"
+            ]
+          }
+        ],
+        "closure": [
+          {
+            "text": "Close the capsule with interrupted sutures, reattach collateral ligaments with suture anchors if detached, and close skin in layers with resorbable dermal sutures and nylon.",
+            "source_ids": [
+              "ao_bcc8b63468456cbc"
+            ]
+          }
+        ],
+        "complications": [
+          {
+            "text": "Complications include dorsomedial cutaneous nerve injury, EHL tendon injury, and stiffness of the first MTP joint.",
+            "source_ids": [
+              "ao_bcc8b63468456cbc",
+              "ao_1a49f0de5394c729"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "questions": [
+          {
+            "question": "Where does the incision run relative to the EHL tendon in the dorsal first MTPJ approach?",
+            "answer": "Medial to the EHL tendon at the level of the joint.",
+            "source_ids": [
+              "ao_bcc8b63468456cbc"
+            ]
+          },
+          {
+            "question": "What helps visualize the metatarsal head articular surface?",
+            "answer": "Plantarflexing the hallux and using a mini or K-wire distractor.",
+            "source_ids": [
+              "ao_bcc8b63468456cbc"
+            ]
+          },
+          {
+            "question": "Which nerve is most at risk dorsomedially?",
+            "answer": "The dorsomedial branch of the superficial peroneal nerve.",
+            "source_ids": [
+              "ao_bcc8b63468456cbc",
+              "ao_1a49f0de5394c729"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "approach_id": "foot_proximal_phalanx_dorsal",
+      "name": "Dorsal approach to a proximal phalanx of the foot",
+      "aliases": [
+        "dorsal midline approach to the toe phalanx"
+      ],
+      "region": "foot-phalanges",
+      "joint": "",
+      "bones": [
+        "proximal phalanx"
+      ],
+      "corridor": "Dorsal midline interval over the toe through or beside the extensor tendon to the phalanx, keeping the digital neurovascular bundles on the sides protected",
+      "sources": [
+        {
+          "source_id": "ao_1a49f0de5394c729",
+          "provider": "AO Surgery Reference",
+          "title": "Dorsal approach to the proximal phalanx (foot)",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/foot-phalanges/approach/dorsal-approach-to-the-proximal-phalanx",
+          "source_page_id": "ao_1a49f0de5394c729"
+        },
+        {
+          "source_id": "ao_bcc8b63468456cbc",
+          "provider": "AO Surgery Reference",
+          "title": "Dorsal approach to the first metatarsophalangeal joint (MTPJ)",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/foot-phalanges/approach/dorsal-approach-to-the-first-metatarsal-phalangeal-joint-mtpj",
+          "source_page_id": "ao_bcc8b63468456cbc"
+        },
+        {
+          "source_id": "ao_3c5569f2b2353725",
+          "provider": "AO Surgery Reference",
+          "title": "Dorsal approach to the proximal phalanx (metatarsals)",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/metatarsals/approach/dorsal-approach-to-the-proximal-phalanx",
+          "source_page_id": "ao_3c5569f2b2353725"
+        },
+        {
+          "source_id": "orthobullets_8a89ed574d5bad5f",
+          "provider": "Orthobullets",
+          "title": "Approach To Ip Joint Of The Toes",
+          "url": "https://www.orthobullets.com/approaches/12053/approach-to-ip-joint-of-the-toes",
+          "source_page_id": "orthobullets_8a89ed574d5bad5f"
+        }
+      ],
+      "procedure_applications": [
+        {
+          "procedure_id": "hallux_valgus_correction",
+          "relationship": "conditional_option",
+          "condition": "Dorsal open exposure of a phalanx is needed, for example for phalangeal fracture fixation or osteotomy"
+        }
+      ],
+      "sections": {
+        "positioning": [
+          {
+            "text": "Position supine with the forefoot at the end of the table under tourniquet control.",
+            "source_ids": [
+              "ao_1a49f0de5394c729"
+            ]
+          }
+        ],
+        "surface_landmarks": [
+          {
+            "text": "Use the dorsal midline axis of the toe, since the digital arteries and nerves lie on the medial and lateral aspects.",
+            "source_ids": [
+              "ao_1a49f0de5394c729"
+            ]
+          }
+        ],
+        "incision": [
+          {
+            "text": "Make a longitudinal incision over the center of the toe from the MTP joint to the PIP joint.",
+            "source_ids": [
+              "ao_1a49f0de5394c729"
+            ]
+          }
+        ],
+        "superficial_interval": [
+          {
+            "text": "Either expose and retract the extensor tendon, or divide it with a Z-lengthening using short proximal and distal transverse cuts joined by a longitudinal midline cut.",
+            "source_ids": [
+              "ao_1a49f0de5394c729"
+            ]
+          }
+        ],
+        "deep_interval": [
+          {
+            "text": "Dissect the capsule on each side and insert small right-angle retractors to protect the neurovascular structures before capsulotomy or bone work.",
+            "source_ids": [
+              "ao_1a49f0de5394c729"
+            ]
+          }
+        ],
+        "layers": [
+          {
+            "text": "Skin, subcutaneous tissue with dorsal veins, extensor tendon, capsule, and the phalanx.",
+            "source_ids": [
+              "ao_1a49f0de5394c729"
+            ]
+          }
+        ],
+        "structures_at_risk": [
+          {
+            "text": "The dorsal digital nerves and the digital neurovascular bundles on each side and the extensor tendon are at risk.",
+            "source_ids": [
+              "ao_1a49f0de5394c729",
+              "ao_bcc8b63468456cbc"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "danger_zones": [
+          {
+            "text": "The medial and lateral borders of the toe are the danger zones for the digital nerves and arteries.",
+            "source_ids": [
+              "ao_1a49f0de5394c729",
+              "ao_bcc8b63468456cbc"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "retraction_hazards": [
+          {
+            "text": "Use small right-angle retractors on each side to protect the neurovascular bundles and preserve longitudinal dorsal veins.",
+            "source_ids": [
+              "ao_1a49f0de5394c729"
+            ]
+          }
+        ],
+        "exposure": [
+          {
+            "text": "Exposes the dorsal surface of the proximal phalanx from the MTP to the PIP joint.",
+            "source_ids": [
+              "ao_1a49f0de5394c729"
+            ]
+          }
+        ],
+        "limitations": [
+          {
+            "text": "Exposure is limited by the small size of the toe and the need to protect the side-lying digital neurovascular bundles.",
+            "source_ids": [
+              "ao_1a49f0de5394c729"
+            ]
+          }
+        ],
+        "indications": [
+          {
+            "text": "Indicated for fixation or osteotomy of a proximal phalanx of the foot.",
+            "source_ids": [
+              "ao_1a49f0de5394c729"
+            ]
+          }
+        ],
+        "closure": [
+          {
+            "text": "Repair the extensor tendon with a 3-0 suture if divided and close the wound with a running 4-0 self-absorbing suture.",
+            "source_ids": [
+              "ao_1a49f0de5394c729"
+            ]
+          }
+        ],
+        "complications": [
+          {
+            "text": "Complications include dorsal digital nerve injury, extensor tendon problems, and stiffness.",
+            "source_ids": [
+              "ao_1a49f0de5394c729",
+              "ao_bcc8b63468456cbc"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "questions": [
+          {
+            "question": "Why is a dorsal midline incision chosen over the toe?",
+            "answer": "Because the digital arteries and nerves lie on the medial and lateral aspects, away from the midline.",
+            "source_ids": [
+              "ao_1a49f0de5394c729"
+            ]
+          },
+          {
+            "question": "How is the extensor tendon managed in this approach?",
+            "answer": "It is either retracted or divided with a Z-lengthening for repair at closure.",
+            "source_ids": [
+              "ao_1a49f0de5394c729"
+            ]
+          },
+          {
+            "question": "How are the digital neurovascular bundles protected?",
+            "answer": "With small right-angle retractors placed on each side before capsulotomy.",
+            "source_ids": [
+              "ao_1a49f0de5394c729"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "approach_id": "foot_hallux_medial",
+      "name": "Medial approach to the hallux",
+      "aliases": [
+        "medial midline approach to the great toe"
+      ],
+      "region": "foot-phalanges",
+      "joint": "first metatarsophalangeal joint",
+      "bones": [
+        "proximal phalanx of hallux",
+        "first metatarsal"
+      ],
+      "corridor": "Medial midaxial interval along the hallux between the dorsomedial and plantar-medial digital nerves to the phalanx and MTP joint",
+      "sources": [
+        {
+          "source_id": "ao_cd765b197ba05e53",
+          "provider": "AO Surgery Reference",
+          "title": "Medial approach to the hallux",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/foot-phalanges/approach/medial-approach-to-the-hallux",
+          "source_page_id": "ao_cd765b197ba05e53"
+        },
+        {
+          "source_id": "ao_5832a9428a992502",
+          "provider": "AO Surgery Reference",
+          "title": "Medial approach to the hallux (metatarsals)",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/metatarsals/approach/medial-approach-to-the-hallux",
+          "source_page_id": "ao_5832a9428a992502"
+        },
+        {
+          "source_id": "ao_bcc8b63468456cbc",
+          "provider": "AO Surgery Reference",
+          "title": "Dorsal approach to the first metatarsophalangeal joint (MTPJ)",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/foot-phalanges/approach/dorsal-approach-to-the-first-metatarsal-phalangeal-joint-mtpj",
+          "source_page_id": "ao_bcc8b63468456cbc"
+        },
+        {
+          "source_id": "orthobullets_b6026cc1d153b39d",
+          "provider": "Orthobullets",
+          "title": "Medial Approach To Mtp Joint Of Great Toe",
+          "url": "https://www.orthobullets.com/approaches/12050/medial-approach-to-mtp-joint-of-great-toe",
+          "source_page_id": "orthobullets_b6026cc1d153b39d"
+        }
+      ],
+      "procedure_applications": [
+        {
+          "procedure_id": "hallux_valgus_correction",
+          "relationship": "primary_option",
+          "condition": "Medial exposure of the hallux phalanx or first MTP joint is needed"
+        }
+      ],
+      "sections": {
+        "positioning": [
+          {
+            "text": "Position supine with the forefoot at the end of the table under tourniquet control.",
+            "source_ids": [
+              "ao_cd765b197ba05e53"
+            ]
+          }
+        ],
+        "surface_landmarks": [
+          {
+            "text": "Identify the midpoint of the first metatarsal head and the medial midaxial line of the hallux.",
+            "source_ids": [
+              "ao_cd765b197ba05e53"
+            ]
+          }
+        ],
+        "incision": [
+          {
+            "text": "Start the incision at the midpoint of the metatarsal head and run it distally along the mid diaphysis toward the distal phalanx.",
+            "source_ids": [
+              "ao_cd765b197ba05e53"
+            ]
+          }
+        ],
+        "deep_interval": [
+          {
+            "text": "Carry dissection through the subdermal tissues directly to periosteum, and for joint access incise the capsule in line with its fibers while preserving side attachments.",
+            "source_ids": [
+              "ao_cd765b197ba05e53"
+            ]
+          }
+        ],
+        "layers": [
+          {
+            "text": "Skin, subcutaneous tissue with the dorsomedial and plantar-medial digital nerves, periosteum, and the phalanx or MTP capsule.",
+            "source_ids": [
+              "ao_cd765b197ba05e53"
+            ]
+          }
+        ],
+        "structures_at_risk": [
+          {
+            "text": "The dorsomedial collateral digital nerve on the dorsal half of the medial side and the medial plantar hallucal nerve along the plantar aspect are at risk.",
+            "source_ids": [
+              "ao_cd765b197ba05e53",
+              "ao_bcc8b63468456cbc"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "danger_zones": [
+          {
+            "text": "The dorsomedial and plantar-medial corners are the danger zones for the medial digital nerves.",
+            "source_ids": [
+              "ao_cd765b197ba05e53",
+              "ao_bcc8b63468456cbc"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "retraction_hazards": [
+          {
+            "text": "Do not detach the medial collateral ligaments of the MTP and IP joints from their attachment sites.",
+            "source_ids": [
+              "ao_cd765b197ba05e53"
+            ]
+          }
+        ],
+        "exposure": [
+          {
+            "text": "Exposes the medial phalanx and first MTP joint for fixation, osteotomy, or reconstruction.",
+            "source_ids": [
+              "ao_cd765b197ba05e53"
+            ]
+          }
+        ],
+        "limitations": [
+          {
+            "text": "The medial digital nerves and the collateral ligament attachments limit dorsal and plantar extension of the exposure.",
+            "source_ids": [
+              "ao_cd765b197ba05e53"
+            ]
+          }
+        ],
+        "indications": [
+          {
+            "text": "Indicated for medial exposure of the hallux phalanx and first MTP joint, including hallux deformity and fracture surgery.",
+            "source_ids": [
+              "ao_cd765b197ba05e53"
+            ]
+          }
+        ],
+        "closure": [
+          {
+            "text": "Close the capsule with interrupted sutures and close the skin in layers with resorbable dermal suture and a monofilament skin suture.",
+            "source_ids": [
+              "ao_cd765b197ba05e53"
+            ]
+          }
+        ],
+        "complications": [
+          {
+            "text": "Complications include medial digital nerve injury with numbness or neuroma and MTP or IP instability if collateral ligaments are detached.",
+            "source_ids": [
+              "ao_cd765b197ba05e53",
+              "ao_bcc8b63468456cbc"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "questions": [
+          {
+            "question": "Which two nerves are at risk in the medial approach to the hallux?",
+            "answer": "The dorsomedial collateral digital nerve and the medial plantar hallucal nerve.",
+            "source_ids": [
+              "ao_cd765b197ba05e53"
+            ]
+          },
+          {
+            "question": "What must not be detached during the medial hallux approach?",
+            "answer": "The medial collateral ligaments of the MTP and IP joints.",
+            "source_ids": [
+              "ao_cd765b197ba05e53"
+            ]
+          },
+          {
+            "question": "Along which line does the medial hallux incision run?",
+            "answer": "The medial midaxial line, from the metatarsal head midpoint distally.",
+            "source_ids": [
+              "ao_cd765b197ba05e53"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "approach_id": "humerus_percutaneous_pin_safe_zones",
+      "name": "Safe zones for percutaneous pins or screws in the humerus",
+      "aliases": [
+        "humeral shaft pin safe zones",
+        "distal humerus percutaneous pin caution"
+      ],
+      "region": "distal-humerus",
+      "joint": "",
+      "bones": [
+        "humerus"
+      ],
+      "corridor": "Open or mini-open pin corridors in the humerus with direct identification of the radial nerve, since percutaneous pin placement in the humerus is not safe",
+      "sources": [
+        {
+          "source_id": "ao_ef05b2dcf7a75661",
+          "provider": "AO Surgery Reference",
+          "title": "Safe zones for percutaneous pins or screws (humerus)",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/distal-humerus/approach/safe-zones-for-percutaneous-pins-or-screws",
+          "source_page_id": "ao_ef05b2dcf7a75661"
+        },
+        {
+          "source_id": "ao_dba28fa580cb941b",
+          "provider": "AO Surgery Reference",
+          "title": "Safe zones for pin placement in the forearm",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/forearm-shaft/approach/safe-zones-for-pin-placement-in-the-forearm",
+          "source_page_id": "ao_dba28fa580cb941b"
+        }
+      ],
+      "procedure_applications": [
+        {
+          "procedure_id": "humeral_shaft_fracture_orif",
+          "relationship": "conditional_option",
+          "condition": "External fixator pins are placed in the humerus, for example for temporary spanning fixation"
+        }
+      ],
+      "sections": {
+        "positioning": [
+          {
+            "text": "Position with the arm supported and accessible laterally, with imaging available to localize pin sites.",
+            "source_ids": [
+              "ao_ef05b2dcf7a75661"
+            ]
+          }
+        ],
+        "surface_landmarks": [
+          {
+            "text": "Identify the lateral humeral shaft and the course of the radial nerve as it crosses the posterolateral humerus.",
+            "source_ids": [
+              "ao_ef05b2dcf7a75661",
+              "ao_dba28fa580cb941b"
+            ]
+          }
+        ],
+        "incision": [
+          {
+            "text": "Use an open incision rather than percutaneous entry, large enough to insert pins and retract the radial nerve.",
+            "source_ids": [
+              "ao_ef05b2dcf7a75661"
+            ]
+          }
+        ],
+        "superficial_interval": [
+          {
+            "text": "Dissect down to bone under direct vision, identifying and protecting the radial nerve before drilling.",
+            "source_ids": [
+              "ao_ef05b2dcf7a75661"
+            ],
+            "risk_level": "medium"
+          }
+        ],
+        "layers": [
+          {
+            "text": "Skin, subcutaneous tissue, the brachial fascia and muscle, the radial nerve, and the humeral cortex.",
+            "source_ids": [
+              "ao_ef05b2dcf7a75661"
+            ]
+          }
+        ],
+        "structures_at_risk": [
+          {
+            "text": "The radial nerve is the principal structure at risk and must be identified and protected before pin or screw insertion in the humerus.",
+            "source_ids": [
+              "ao_ef05b2dcf7a75661",
+              "ao_dba28fa580cb941b"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "danger_zones": [
+          {
+            "text": "The posterolateral humeral shaft where the radial nerve crosses is the danger zone; percutaneous placement here is unsafe.",
+            "source_ids": [
+              "ao_ef05b2dcf7a75661",
+              "ao_dba28fa580cb941b"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "retraction_hazards": [
+          {
+            "text": "Retract the radial nerve gently under direct vision during drilling and pin insertion.",
+            "source_ids": [
+              "ao_ef05b2dcf7a75661"
+            ],
+            "risk_level": "medium"
+          }
+        ],
+        "exposure": [
+          {
+            "text": "Provides a controlled open corridor for humeral pins with the radial nerve protected.",
+            "source_ids": [
+              "ao_ef05b2dcf7a75661"
+            ]
+          }
+        ],
+        "limitations": [
+          {
+            "text": "Percutaneous humeral pin placement is not safe, so an open technique is mandatory and available corridors are limited by the radial nerve.",
+            "source_ids": [
+              "ao_ef05b2dcf7a75661"
+            ]
+          }
+        ],
+        "indications": [
+          {
+            "text": "Indicated for open placement of external fixator pins or screws in the humerus.",
+            "source_ids": [
+              "ao_ef05b2dcf7a75661"
+            ]
+          }
+        ],
+        "closure": [
+          {
+            "text": "Close the soft tissues loosely around each pin, ensuring the radial nerve is not tethered.",
+            "source_ids": [
+              "ao_ef05b2dcf7a75661"
+            ]
+          }
+        ],
+        "complications": [
+          {
+            "text": "The principal complication is radial nerve injury; pin-tract infection may also occur.",
+            "source_ids": [
+              "ao_ef05b2dcf7a75661",
+              "ao_dba28fa580cb941b"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "questions": [
+          {
+            "question": "Is percutaneous pin placement in the humerus considered safe?",
+            "answer": "No; an open technique with radial nerve protection is required.",
+            "source_ids": [
+              "ao_ef05b2dcf7a75661"
+            ]
+          },
+          {
+            "question": "Which nerve must be identified before humeral pin insertion?",
+            "answer": "The radial nerve.",
+            "source_ids": [
+              "ao_ef05b2dcf7a75661"
+            ]
+          },
+          {
+            "question": "Why is a larger incision recommended for humeral pins?",
+            "answer": "To allow insertion of pins and retraction of the radial nerve under direct vision.",
+            "source_ids": [
+              "ao_ef05b2dcf7a75661"
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

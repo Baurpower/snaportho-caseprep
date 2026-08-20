@@ -1,0 +1,356 @@
+{
+  "schema_version": "brobot_approach_packet_v1",
+  "approach_id": "hip_periprosthetic_direct_lateral_hardinge",
+  "name": "Direct lateral (Hardinge) approach to the proximal femur (periprosthetic)",
+  "aliases": [
+    "Hardinge approach",
+    "transgluteal approach"
+  ],
+  "region": "hip",
+  "joint": "hip",
+  "bones": [
+    "proximal femur"
+  ],
+  "corridor": "Transgluteal split of gluteus medius and vastus lateralis raising an anterior myofascial sleeve to reach the anterior hip capsule and proximal femur",
+  "positioning": [
+    {
+      "text": "Position in lateral decubitus or supine with the greater trochanter accessible and the limb free.",
+      "claim_ids": [
+        "hip_periprosthetic_direct_lateral_hardinge_positioning_01"
+      ]
+    }
+  ],
+  "setup": [],
+  "surface_landmarks": [
+    {
+      "text": "Center the incision over the greater trochanter with its proximal end directed slightly posteriorly.",
+      "claim_ids": [
+        "hip_periprosthetic_direct_lateral_hardinge_surface_landmarks_01"
+      ]
+    }
+  ],
+  "incision": [
+    {
+      "text": "Make a longitudinal incision through skin and subcutaneous tissue down to the fascia lata over the trochanter.",
+      "claim_ids": [
+        "hip_periprosthetic_direct_lateral_hardinge_incision_01"
+      ]
+    }
+  ],
+  "superficial_interval": [
+    {
+      "text": "Split the fascia lata and release the anterior third of gluteus medius and minimus while preserving their posterior femoral attachment.",
+      "claim_ids": [
+        "hip_periprosthetic_direct_lateral_hardinge_superficial_interval_01"
+      ]
+    }
+  ],
+  "deep_interval": [
+    {
+      "text": "Elevate the anterior fibers of vastus lateralis from the anterior femur in continuity with the abductors to create an anterior myofascial sleeve, then perform an anterior longitudinal capsulotomy with a proximal transverse limb.",
+      "claim_ids": [
+        "hip_periprosthetic_direct_lateral_hardinge_deep_interval_01"
+      ]
+    }
+  ],
+  "layers": [
+    {
+      "text": "Skin, subcutaneous tissue, fascia lata, gluteus medius and minimus anteriorly, vastus lateralis, and the anterior hip capsule.",
+      "claim_ids": [
+        "hip_periprosthetic_direct_lateral_hardinge_layers_01"
+      ]
+    }
+  ],
+  "structures_encountered": [],
+  "structures_at_risk": [
+    {
+      "text": "The superior gluteal nerve, which crosses 3 to 5 cm proximal to the tip of the greater trochanter, limits proximal splitting of the abductors and its injury causes abductor weakness.",
+      "claim_ids": [
+        "hip_periprosthetic_direct_lateral_hardinge_structures_at_risk_01"
+      ]
+    }
+  ],
+  "danger_zones": [
+    {
+      "text": "Splitting the gluteus medius more than 3 to 5 cm above the trochanteric tip is the danger zone for the superior gluteal nerve.",
+      "claim_ids": [
+        "hip_periprosthetic_direct_lateral_hardinge_danger_zones_01"
+      ]
+    }
+  ],
+  "retraction_hazards": [
+    {
+      "text": "Do not extend the abductor split proximally beyond the safe margin and avoid excessive proximal retraction on the medius.",
+      "claim_ids": [
+        "hip_periprosthetic_direct_lateral_hardinge_retraction_hazards_01"
+      ]
+    }
+  ],
+  "exposure": [
+    {
+      "text": "Gentle external rotation, and dislocation if needed, exposes the femoral head, neck, and proximal femur.",
+      "claim_ids": [
+        "hip_periprosthetic_direct_lateral_hardinge_exposure_01"
+      ]
+    }
+  ],
+  "limitations": [
+    {
+      "text": "Violation of the abductor mechanism can cause a postoperative limp, and heterotopic ossification is common.",
+      "claim_ids": [
+        "hip_periprosthetic_direct_lateral_hardinge_limitations_01"
+      ]
+    }
+  ],
+  "extensions": [],
+  "indications": [
+    {
+      "text": "Excellent for periprosthetic fractures of the proximal femur and usable for revision arthroplasty and hemiarthroplasty.",
+      "claim_ids": [
+        "hip_periprosthetic_direct_lateral_hardinge_indications_01"
+      ]
+    }
+  ],
+  "relative_contraindications": [],
+  "implant_implications": [],
+  "fluoroscopy_implications": [],
+  "closure": [
+    {
+      "text": "Reattach the anterior myofascial sleeve securely with heavy sutures, close in layers, and consider a subfascial drain given the blood loss risk.",
+      "claim_ids": [
+        "hip_periprosthetic_direct_lateral_hardinge_closure_01"
+      ]
+    }
+  ],
+  "complications": [
+    {
+      "text": "Complications include superior gluteal nerve injury with abductor weakness and limp, heterotopic ossification, and wound problems.",
+      "claim_ids": [
+        "hip_periprosthetic_direct_lateral_hardinge_complications_01"
+      ]
+    }
+  ],
+  "bailouts": [],
+  "procedure_applications": [
+    {
+      "procedure_id": "periprosthetic_hip_fracture_orif",
+      "relationship": "primary_option",
+      "condition": "A periprosthetic proximal femoral fracture needs lateral exposure of the hip and femur"
+    },
+    {
+      "procedure_id": "hip_hemiarthroplasty",
+      "relationship": "primary_option",
+      "condition": "Hemiarthroplasty is performed through a direct lateral exposure"
+    }
+  ],
+  "questions": [
+    {
+      "question": "How far above the greater trochanter does the superior gluteal nerve cross?",
+      "answer": "About 3 to 5 cm proximal to the tip of the greater trochanter.",
+      "claim_ids": [
+        "hip_periprosthetic_direct_lateral_hardinge_questions_01"
+      ]
+    },
+    {
+      "question": "What is created by elevating the anterior abductors with vastus lateralis?",
+      "answer": "A continuous anterior myofascial sleeve.",
+      "claim_ids": [
+        "hip_periprosthetic_direct_lateral_hardinge_questions_02"
+      ]
+    },
+    {
+      "question": "What is the characteristic late complication of the direct lateral approach?",
+      "answer": "Abductor weakness with a postoperative limp.",
+      "claim_ids": [
+        "hip_periprosthetic_direct_lateral_hardinge_questions_03"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "hip_periprosthetic_direct_lateral_hardinge_positioning_01",
+      "text": "Position in lateral decubitus or supine with the greater trochanter accessible and the limb free.",
+      "source_ids": [
+        "ao_44a417314292e3fa"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "hip_periprosthetic_direct_lateral_hardinge_surface_landmarks_01",
+      "text": "Center the incision over the greater trochanter with its proximal end directed slightly posteriorly.",
+      "source_ids": [
+        "ao_44a417314292e3fa"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "hip_periprosthetic_direct_lateral_hardinge_incision_01",
+      "text": "Make a longitudinal incision through skin and subcutaneous tissue down to the fascia lata over the trochanter.",
+      "source_ids": [
+        "ao_44a417314292e3fa"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "hip_periprosthetic_direct_lateral_hardinge_superficial_interval_01",
+      "text": "Split the fascia lata and release the anterior third of gluteus medius and minimus while preserving their posterior femoral attachment.",
+      "source_ids": [
+        "ao_44a417314292e3fa",
+        "orthobullets_12116"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "hip_periprosthetic_direct_lateral_hardinge_deep_interval_01",
+      "text": "Elevate the anterior fibers of vastus lateralis from the anterior femur in continuity with the abductors to create an anterior myofascial sleeve, then perform an anterior longitudinal capsulotomy with a proximal transverse limb.",
+      "source_ids": [
+        "ao_44a417314292e3fa"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "hip_periprosthetic_direct_lateral_hardinge_layers_01",
+      "text": "Skin, subcutaneous tissue, fascia lata, gluteus medius and minimus anteriorly, vastus lateralis, and the anterior hip capsule.",
+      "source_ids": [
+        "ao_44a417314292e3fa"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "hip_periprosthetic_direct_lateral_hardinge_structures_at_risk_01",
+      "text": "The superior gluteal nerve, which crosses 3 to 5 cm proximal to the tip of the greater trochanter, limits proximal splitting of the abductors and its injury causes abductor weakness.",
+      "source_ids": [
+        "ao_44a417314292e3fa",
+        "orthobullets_12116"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "hip_periprosthetic_direct_lateral_hardinge_danger_zones_01",
+      "text": "Splitting the gluteus medius more than 3 to 5 cm above the trochanteric tip is the danger zone for the superior gluteal nerve.",
+      "source_ids": [
+        "ao_44a417314292e3fa",
+        "orthobullets_12116"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "hip_periprosthetic_direct_lateral_hardinge_retraction_hazards_01",
+      "text": "Do not extend the abductor split proximally beyond the safe margin and avoid excessive proximal retraction on the medius.",
+      "source_ids": [
+        "ao_44a417314292e3fa",
+        "orthobullets_12116"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "hip_periprosthetic_direct_lateral_hardinge_exposure_01",
+      "text": "Gentle external rotation, and dislocation if needed, exposes the femoral head, neck, and proximal femur.",
+      "source_ids": [
+        "ao_44a417314292e3fa"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "hip_periprosthetic_direct_lateral_hardinge_limitations_01",
+      "text": "Violation of the abductor mechanism can cause a postoperative limp, and heterotopic ossification is common.",
+      "source_ids": [
+        "ao_44a417314292e3fa",
+        "orthobullets_12116"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "hip_periprosthetic_direct_lateral_hardinge_indications_01",
+      "text": "Excellent for periprosthetic fractures of the proximal femur and usable for revision arthroplasty and hemiarthroplasty.",
+      "source_ids": [
+        "ao_44a417314292e3fa"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "hip_periprosthetic_direct_lateral_hardinge_closure_01",
+      "text": "Reattach the anterior myofascial sleeve securely with heavy sutures, close in layers, and consider a subfascial drain given the blood loss risk.",
+      "source_ids": [
+        "ao_44a417314292e3fa"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "hip_periprosthetic_direct_lateral_hardinge_complications_01",
+      "text": "Complications include superior gluteal nerve injury with abductor weakness and limp, heterotopic ossification, and wound problems.",
+      "source_ids": [
+        "ao_44a417314292e3fa",
+        "orthobullets_12116"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "hip_periprosthetic_direct_lateral_hardinge_questions_01",
+      "text": "How far above the greater trochanter does the superior gluteal nerve cross?",
+      "source_ids": [
+        "ao_44a417314292e3fa",
+        "orthobullets_12116"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "hip_periprosthetic_direct_lateral_hardinge_questions_02",
+      "text": "What is created by elevating the anterior abductors with vastus lateralis?",
+      "source_ids": [
+        "ao_44a417314292e3fa"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "hip_periprosthetic_direct_lateral_hardinge_questions_03",
+      "text": "What is the characteristic late complication of the direct lateral approach?",
+      "source_ids": [
+        "ao_44a417314292e3fa",
+        "orthobullets_12116"
+      ],
+      "risk_level": "medium"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "ao_44a417314292e3fa",
+      "provider": "AO Surgery Reference",
+      "title": "Direct lateral approach to the proximal femur (periprosthetic hip)",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/periprosthetic-fractures/hip/approach/direct-lateral-approach-proximal-femur",
+      "source_page_id": "ao_44a417314292e3fa"
+    },
+    {
+      "source_id": "orthobullets_12116",
+      "provider": "Orthobullets",
+      "title": "THA Approaches",
+      "url": "https://www.orthobullets.com/recon/12116/tha-approaches"
+    },
+    {
+      "source_id": "orthobullets_92783300de76d58e",
+      "provider": "Orthobullets",
+      "title": "Hip Medial Approach",
+      "url": "https://www.orthobullets.com/approaches/12055/hip-medial-approach",
+      "source_page_id": "orthobullets_92783300de76d58e"
+    }
+  ],
+  "content_status": "agent_review_pending",
+  "review": {
+    "status": "agent_review_pending",
+    "required_roles": [
+      "adversarial_safety_reviewer",
+      "approach_anatomy_reviewer",
+      "educational_value_reviewer",
+      "evidence_reviewer",
+      "operative_exposure_reviewer",
+      "procedure_applicability_reviewer"
+    ],
+    "completed_roles": []
+  },
+  "resolved_contradiction_keys": [],
+  "authoring_provenance": {
+    "method": "local_codex_curated",
+    "definition_file": "data/approach_library/curated/hip_periprosthetic_batch002_v1.json",
+    "api_used": false
+  }
+}

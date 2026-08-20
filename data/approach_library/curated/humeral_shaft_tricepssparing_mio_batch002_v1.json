@@ -1,0 +1,373 @@
+{
+  "approaches": [
+    {
+      "approach_id": "humeral_shaft_posterior_triceps_sparing",
+      "name": "Posterior triceps-sparing (paratricipital) approach to the humeral shaft",
+      "aliases": [
+        "triceps-on approach to the distal humerus",
+        "paratricipital approach"
+      ],
+      "region": "humeral-shaft",
+      "joint": "elbow",
+      "bones": [
+        "humerus"
+      ],
+      "corridor": "Posterior approach that mobilizes the triceps as an intact sleeve and works medial and lateral to it, protecting the ulnar nerve medially and the radial nerve laterally, to expose the distal humeral shaft",
+      "sources": [
+        {
+          "source_id": "ao_ed5059e726fd9d32",
+          "provider": "AO Surgery Reference",
+          "title": "Posterior triceps-sparing approach (triceps-on) to the humeral shaft",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/humeral-shaft/approach/posterior-triceps-sparing-approach-triceps-on",
+          "source_page_id": "ao_ed5059e726fd9d32"
+        },
+        {
+          "source_id": "ao_06a42af78d4203b6",
+          "provider": "AO Surgery Reference",
+          "title": "Posterior triceps-split approach to the humeral shaft",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/humeral-shaft/approach/posterior-triceps-split-approach",
+          "source_page_id": "ao_06a42af78d4203b6"
+        }
+      ],
+      "procedure_applications": [
+        {
+          "procedure_id": "humeral_shaft_fracture_orif",
+          "relationship": "primary_option",
+          "condition": "A midshaft or distal humeral shaft fracture is plated posteriorly while preserving triceps continuity"
+        }
+      ],
+      "sections": {
+        "positioning": [
+          {
+            "text": "Position prone or lateral with the arm over a bolster and the elbow flexed so the posterior arm is presented.",
+            "source_ids": [
+              "ao_ed5059e726fd9d32"
+            ]
+          }
+        ],
+        "surface_landmarks": [
+          {
+            "text": "Mark the tip of the olecranon and the posterior midline of the arm.",
+            "source_ids": [
+              "ao_ed5059e726fd9d32"
+            ]
+          }
+        ],
+        "incision": [
+          {
+            "text": "Begin at the tip of the olecranon and run the incision proximally in a straight line along the posterior midline, incising the deep fascia in line with the skin.",
+            "source_ids": [
+              "ao_ed5059e726fd9d32"
+            ]
+          }
+        ],
+        "superficial_interval": [
+          {
+            "text": "Rather than splitting the triceps, bluntly dissect the medial head of triceps off the posterior humerus and mobilize the whole triceps as a liberated sleeve that can be retracted medially or laterally.",
+            "source_ids": [
+              "ao_ed5059e726fd9d32"
+            ]
+          }
+        ],
+        "deep_interval": [
+          {
+            "text": "Work medial and lateral to the mobilized triceps, protecting the ulnar nerve on the medial intermuscular septum with a vessel loop and identifying the radial nerve where it penetrates the lateral intermuscular septum.",
+            "source_ids": [
+              "ao_ed5059e726fd9d32",
+              "ao_06a42af78d4203b6"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "layers": [
+          {
+            "text": "Skin, subcutaneous tissue, deep fascia, the mobilized triceps sleeve, the ulnar and radial nerves, and the posterior humerus.",
+            "source_ids": [
+              "ao_ed5059e726fd9d32"
+            ]
+          }
+        ],
+        "structures_at_risk": [
+          {
+            "text": "The ulnar nerve medially on the intermuscular septum and the radial nerve where it perforates the lateral septum are at risk.",
+            "source_ids": [
+              "ao_ed5059e726fd9d32",
+              "ao_06a42af78d4203b6"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "danger_zones": [
+          {
+            "text": "The medial septum (ulnar nerve) and the lateral septum penetration point (radial nerve) are the danger zones; identify both before mobilizing the triceps widely.",
+            "source_ids": [
+              "ao_ed5059e726fd9d32",
+              "ao_06a42af78d4203b6"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "retraction_hazards": [
+          {
+            "text": "Loop and protect the ulnar nerve and avoid uncontrolled traction on the triceps and both nerves.",
+            "source_ids": [
+              "ao_ed5059e726fd9d32"
+            ],
+            "risk_level": "medium"
+          }
+        ],
+        "exposure": [
+          {
+            "text": "Exposes the midshaft and distal humerus from both sides of the intact triceps.",
+            "source_ids": [
+              "ao_ed5059e726fd9d32"
+            ]
+          }
+        ],
+        "limitations": [
+          {
+            "text": "Access to the articular surface is limited compared with an olecranon osteotomy, since the triceps is preserved.",
+            "source_ids": [
+              "ao_ed5059e726fd9d32"
+            ]
+          }
+        ],
+        "indications": [
+          {
+            "text": "Indicated for midshaft and distal humeral shaft fractures where preserving triceps continuity speeds rehabilitation.",
+            "source_ids": [
+              "ao_ed5059e726fd9d32"
+            ]
+          }
+        ],
+        "closure": [
+          {
+            "text": "Allow the triceps sleeve to fall back into position and close the wound in layers in the standard manner.",
+            "source_ids": [
+              "ao_ed5059e726fd9d32"
+            ]
+          }
+        ],
+        "complications": [
+          {
+            "text": "Complications include ulnar or radial nerve injury and, less than with a triceps split, triceps weakness.",
+            "source_ids": [
+              "ao_ed5059e726fd9d32",
+              "ao_06a42af78d4203b6"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "questions": [
+          {
+            "question": "How does the triceps-sparing approach differ from the triceps-split approach?",
+            "answer": "It mobilizes the triceps as an intact sleeve and works around it rather than dividing the tendon.",
+            "source_ids": [
+              "ao_ed5059e726fd9d32",
+              "ao_06a42af78d4203b6"
+            ]
+          },
+          {
+            "question": "Which nerve is looped and protected medially?",
+            "answer": "The ulnar nerve.",
+            "source_ids": [
+              "ao_ed5059e726fd9d32"
+            ]
+          },
+          {
+            "question": "What is the main advantage of preserving the triceps?",
+            "answer": "It retains triceps integrity and allows more rapid postoperative rehabilitation.",
+            "source_ids": [
+              "ao_ed5059e726fd9d32"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "approach_id": "humeral_shaft_limited_anterior_mio",
+      "name": "Limited approaches for anterior MIO of the humeral shaft",
+      "aliases": [
+        "minimally invasive anterior humeral plating windows"
+      ],
+      "region": "humeral-shaft",
+      "joint": "",
+      "bones": [
+        "humerus"
+      ],
+      "corridor": "Proximal deltoid-split or deltobicipital window and a distal window between biceps and brachialis, with a submuscular extraperiosteal tunnel under brachialis for anterior plate passage",
+      "sources": [
+        {
+          "source_id": "ao_ddc4138b1ee9eb55",
+          "provider": "AO Surgery Reference",
+          "title": "Limited approaches for anterior MIO (humeral shaft)",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/humeral-shaft/approach/limited-approaches-for-anterior-mio",
+          "source_page_id": "ao_ddc4138b1ee9eb55"
+        },
+        {
+          "source_id": "ao_448da66bc421d7ed",
+          "provider": "AO Surgery Reference",
+          "title": "MIO transdeltoid lateral approach to the humeral shaft",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/humeral-shaft/approach/mio-transdeltoid-lateral-approach",
+          "source_page_id": "ao_448da66bc421d7ed"
+        }
+      ],
+      "procedure_applications": [
+        {
+          "procedure_id": "humeral_shaft_fracture_orif",
+          "relationship": "primary_option",
+          "condition": "A humeral shaft fracture is fixed with an anterior minimally invasive bridge plate"
+        }
+      ],
+      "sections": {
+        "positioning": [
+          {
+            "text": "Position supine (beach-chair) with the arm draped free and imaging access along the humerus.",
+            "source_ids": [
+              "ao_ddc4138b1ee9eb55"
+            ]
+          }
+        ],
+        "surface_landmarks": [
+          {
+            "text": "Mark the anterolateral acromial tip and deltopectoral interval proximally and the biceps-brachialis interval and elbow crease distally.",
+            "source_ids": [
+              "ao_ddc4138b1ee9eb55"
+            ]
+          }
+        ],
+        "incision": [
+          {
+            "text": "Use a proximal window by an anterior deltoid split from the anterolateral acromial tip or a deltobicipital interval, and a distal window between biceps and brachialis, starting near the joint crease and extending 5 to 6 cm proximally.",
+            "source_ids": [
+              "ao_ddc4138b1ee9eb55"
+            ]
+          }
+        ],
+        "superficial_interval": [
+          {
+            "text": "Proximally split the deltoid raphe finding and protecting the axillary nerve, or use the deltoid-biceps interval protecting the cephalic vein; distally develop the plane between biceps and brachialis and retract the lateral antebrachial cutaneous nerve medially.",
+            "source_ids": [
+              "ao_ddc4138b1ee9eb55",
+              "ao_448da66bc421d7ed"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "deep_interval": [
+          {
+            "text": "Split the brachialis longitudinally for extraperiosteal access to the anterior distal humerus, keeping the radial nerve protected within the lateral brachialis, and create a submuscular extraperiosteal tunnel under brachialis to pass the plate from distal to proximal.",
+            "source_ids": [
+              "ao_ddc4138b1ee9eb55",
+              "ao_448da66bc421d7ed"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "layers": [
+          {
+            "text": "Skin, subcutaneous tissue, the deltoid or deltopectoral interval proximally, the biceps-brachialis interval and split brachialis distally, and the anterior humerus.",
+            "source_ids": [
+              "ao_ddc4138b1ee9eb55"
+            ]
+          }
+        ],
+        "structures_at_risk": [
+          {
+            "text": "The axillary nerve at the proximal portal, the radial nerve laterally under brachialis, the lateral antebrachial cutaneous nerve, and the cephalic vein are at risk.",
+            "source_ids": [
+              "ao_ddc4138b1ee9eb55",
+              "ao_448da66bc421d7ed"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "danger_zones": [
+          {
+            "text": "The proximal portal is the danger zone for the axillary nerve and its vessels, especially when working proximally.",
+            "source_ids": [
+              "ao_ddc4138b1ee9eb55",
+              "ao_448da66bc421d7ed"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "retraction_hazards": [
+          {
+            "text": "Retract the lateral antebrachial cutaneous nerve medially, keep the radial nerve within the lateral brachialis, and avoid levering near the axillary nerve proximally.",
+            "source_ids": [
+              "ao_ddc4138b1ee9eb55"
+            ],
+            "risk_level": "medium"
+          }
+        ],
+        "exposure": [
+          {
+            "text": "Provides limited proximal and distal anterior windows connected by a submuscular tunnel for bridge plating.",
+            "source_ids": [
+              "ao_ddc4138b1ee9eb55"
+            ]
+          }
+        ],
+        "limitations": [
+          {
+            "text": "It gives no direct fracture visualization and relies on indirect reduction and imaging, with the axillary and radial nerves bounding the corridor.",
+            "source_ids": [
+              "ao_ddc4138b1ee9eb55"
+            ]
+          }
+        ],
+        "indications": [
+          {
+            "text": "Indicated for minimally invasive anterior bridge plating of humeral shaft fractures.",
+            "source_ids": [
+              "ao_ddc4138b1ee9eb55"
+            ]
+          }
+        ],
+        "closure": [
+          {
+            "text": "Close the proximal and distal incisions in layers in the standard manner.",
+            "source_ids": [
+              "ao_ddc4138b1ee9eb55"
+            ]
+          }
+        ],
+        "complications": [
+          {
+            "text": "Complications include axillary nerve injury from the proximal portal, radial nerve injury, and malreduction.",
+            "source_ids": [
+              "ao_ddc4138b1ee9eb55",
+              "ao_448da66bc421d7ed"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "questions": [
+          {
+            "question": "Between which muscles is the distal anterior MIO window developed?",
+            "answer": "Between the biceps and brachialis, splitting the brachialis.",
+            "source_ids": [
+              "ao_ddc4138b1ee9eb55"
+            ]
+          },
+          {
+            "question": "Which nerve is most at risk when working from the proximal portal?",
+            "answer": "The axillary nerve.",
+            "source_ids": [
+              "ao_ddc4138b1ee9eb55",
+              "ao_448da66bc421d7ed"
+            ]
+          },
+          {
+            "question": "How is the plate passed between the windows?",
+            "answer": "Through a submuscular extraperiosteal tunnel under the brachialis.",
+            "source_ids": [
+              "ao_ddc4138b1ee9eb55"
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

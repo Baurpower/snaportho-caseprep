@@ -1,0 +1,347 @@
+{
+  "schema_version": "brobot_approach_packet_v1",
+  "approach_id": "hip_anterior_intrapelvic_acetabulum",
+  "name": "Anterior intrapelvic (modified Stoppa) approach to the acetabulum (periprosthetic)",
+  "aliases": [
+    "modified Stoppa approach",
+    "Pfannenstiel intrapelvic approach"
+  ],
+  "region": "hip",
+  "joint": "hip",
+  "bones": [
+    "acetabulum",
+    "pelvis"
+  ],
+  "corridor": "Low Pfannenstiel approach through the linea alba behind the pubis into the true pelvis, along the pelvic brim to the quadrilateral surface, protecting the bladder and pelvic vessels",
+  "positioning": [
+    {
+      "text": "Position supine with a sterile bolster under the knee of the injured leg to relax the psoas and vessels.",
+      "claim_ids": [
+        "hip_anterior_intrapelvic_acetabulum_positioning_01"
+      ]
+    }
+  ],
+  "setup": [],
+  "surface_landmarks": [
+    {
+      "text": "Mark the pubic symphysis and a transverse Pfannenstiel line just above it.",
+      "claim_ids": [
+        "hip_anterior_intrapelvic_acetabulum_surface_landmarks_01"
+      ]
+    }
+  ],
+  "incision": [
+    {
+      "text": "Make a Pfannenstiel incision above the symphysis and incise the rectus fascia longitudinally along the linea alba.",
+      "claim_ids": [
+        "hip_anterior_intrapelvic_acetabulum_incision_01"
+      ]
+    }
+  ],
+  "superficial_interval": [
+    {
+      "text": "Retract both rectus bellies laterally, partly detach the medial rectus from the symphysis, and stay in the preperitoneal space while dissecting the bladder off the pelvis.",
+      "claim_ids": [
+        "hip_anterior_intrapelvic_acetabulum_superficial_interval_01"
+      ]
+    }
+  ],
+  "deep_interval": [
+    {
+      "text": "Follow the pelvic brim laterally, identify and control the corona mortis before it is divided, mobilize the obturator neurovascular bundle with a malleable retractor, and elevate the obturator internus and periosteum off the quadrilateral surface with a Cobb elevator.",
+      "claim_ids": [
+        "hip_anterior_intrapelvic_acetabulum_deep_interval_01"
+      ]
+    }
+  ],
+  "layers": [
+    {
+      "text": "Skin, subcutaneous tissue, rectus fascia and linea alba, rectus abdominis, the preperitoneal space with the bladder, and the inner pelvis and quadrilateral surface.",
+      "claim_ids": [
+        "hip_anterior_intrapelvic_acetabulum_layers_01"
+      ]
+    }
+  ],
+  "structures_encountered": [],
+  "structures_at_risk": [
+    {
+      "text": "The external iliac vein, the corona mortis, the obturator neurovascular bundle, and the bladder are at risk.",
+      "claim_ids": [
+        "hip_anterior_intrapelvic_acetabulum_structures_at_risk_01"
+      ]
+    }
+  ],
+  "danger_zones": [
+    {
+      "text": "The retropubic corona mortis and the external iliac vein near the elevators are the danger zones for catastrophic bleeding.",
+      "claim_ids": [
+        "hip_anterior_intrapelvic_acetabulum_danger_zones_01"
+      ]
+    }
+  ],
+  "retraction_hazards": [
+    {
+      "text": "Keep malleable retractors between the vessels and bone, avoid the external iliac vein with elevators, and protect the bladder with blunt dissection.",
+      "claim_ids": [
+        "hip_anterior_intrapelvic_acetabulum_retraction_hazards_01"
+      ]
+    }
+  ],
+  "exposure": [
+    {
+      "text": "Gives excellent visualization of the entire quadrilateral surface, pelvic brim, and pubic symphysis, extendable with a lateral window to the iliac fossa.",
+      "claim_ids": [
+        "hip_anterior_intrapelvic_acetabulum_exposure_01"
+      ]
+    }
+  ],
+  "limitations": [
+    {
+      "text": "The lateral window extension is limited by the L5 nerve root on the anterior ala, and blood loss can be significant.",
+      "claim_ids": [
+        "hip_anterior_intrapelvic_acetabulum_limitations_01"
+      ]
+    }
+  ],
+  "extensions": [],
+  "indications": [
+    {
+      "text": "Indicated for ORIF of quadrilateral surface, anterior column, and periprosthetic acetabular fractures.",
+      "claim_ids": [
+        "hip_anterior_intrapelvic_acetabulum_indications_01"
+      ]
+    }
+  ],
+  "relative_contraindications": [],
+  "implant_implications": [],
+  "fluoroscopy_implications": [],
+  "closure": [
+    {
+      "text": "Close the midline rectus and superficial layers protecting the bladder and peritoneum, and consider a subfascial drain given significant blood loss.",
+      "claim_ids": [
+        "hip_anterior_intrapelvic_acetabulum_closure_01"
+      ]
+    }
+  ],
+  "complications": [
+    {
+      "text": "Complications include major vascular bleeding from the corona mortis or external iliac vein, bladder injury, obturator nerve injury, and hematoma.",
+      "claim_ids": [
+        "hip_anterior_intrapelvic_acetabulum_complications_01"
+      ]
+    }
+  ],
+  "bailouts": [],
+  "procedure_applications": [
+    {
+      "procedure_id": "acetabulum_fracture_orif_anterior",
+      "relationship": "primary_option",
+      "condition": "A quadrilateral surface or anterior column acetabular fracture needs direct intrapelvic access"
+    },
+    {
+      "procedure_id": "periprosthetic_hip_fracture_orif",
+      "relationship": "conditional_option",
+      "condition": "A periprosthetic acetabular fracture requires intrapelvic exposure and buttressing"
+    }
+  ],
+  "questions": [
+    {
+      "question": "Through what plane does the modified Stoppa approach enter the pelvis?",
+      "answer": "Through the linea alba, retracting the rectus abdominis and staying preperitoneal.",
+      "claim_ids": [
+        "hip_anterior_intrapelvic_acetabulum_questions_01"
+      ]
+    },
+    {
+      "question": "Which surface is best visualized with the anterior intrapelvic approach?",
+      "answer": "The entire quadrilateral surface.",
+      "claim_ids": [
+        "hip_anterior_intrapelvic_acetabulum_questions_02"
+      ]
+    },
+    {
+      "question": "What limits the lateral window extension?",
+      "answer": "The L5 nerve root on the anterior aspect of the ala.",
+      "claim_ids": [
+        "hip_anterior_intrapelvic_acetabulum_questions_03"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "hip_anterior_intrapelvic_acetabulum_positioning_01",
+      "text": "Position supine with a sterile bolster under the knee of the injured leg to relax the psoas and vessels.",
+      "source_ids": [
+        "ao_e1443294f466baa7"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "hip_anterior_intrapelvic_acetabulum_surface_landmarks_01",
+      "text": "Mark the pubic symphysis and a transverse Pfannenstiel line just above it.",
+      "source_ids": [
+        "ao_e1443294f466baa7"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "hip_anterior_intrapelvic_acetabulum_incision_01",
+      "text": "Make a Pfannenstiel incision above the symphysis and incise the rectus fascia longitudinally along the linea alba.",
+      "source_ids": [
+        "ao_e1443294f466baa7"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "hip_anterior_intrapelvic_acetabulum_superficial_interval_01",
+      "text": "Retract both rectus bellies laterally, partly detach the medial rectus from the symphysis, and stay in the preperitoneal space while dissecting the bladder off the pelvis.",
+      "source_ids": [
+        "ao_e1443294f466baa7"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "hip_anterior_intrapelvic_acetabulum_deep_interval_01",
+      "text": "Follow the pelvic brim laterally, identify and control the corona mortis before it is divided, mobilize the obturator neurovascular bundle with a malleable retractor, and elevate the obturator internus and periosteum off the quadrilateral surface with a Cobb elevator.",
+      "source_ids": [
+        "ao_e1443294f466baa7",
+        "ao_01bb35e0585ef010"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "hip_anterior_intrapelvic_acetabulum_layers_01",
+      "text": "Skin, subcutaneous tissue, rectus fascia and linea alba, rectus abdominis, the preperitoneal space with the bladder, and the inner pelvis and quadrilateral surface.",
+      "source_ids": [
+        "ao_e1443294f466baa7"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "hip_anterior_intrapelvic_acetabulum_structures_at_risk_01",
+      "text": "The external iliac vein, the corona mortis, the obturator neurovascular bundle, and the bladder are at risk.",
+      "source_ids": [
+        "ao_e1443294f466baa7",
+        "ao_01bb35e0585ef010"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "hip_anterior_intrapelvic_acetabulum_danger_zones_01",
+      "text": "The retropubic corona mortis and the external iliac vein near the elevators are the danger zones for catastrophic bleeding.",
+      "source_ids": [
+        "ao_e1443294f466baa7",
+        "ao_01bb35e0585ef010"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "hip_anterior_intrapelvic_acetabulum_retraction_hazards_01",
+      "text": "Keep malleable retractors between the vessels and bone, avoid the external iliac vein with elevators, and protect the bladder with blunt dissection.",
+      "source_ids": [
+        "ao_e1443294f466baa7"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "hip_anterior_intrapelvic_acetabulum_exposure_01",
+      "text": "Gives excellent visualization of the entire quadrilateral surface, pelvic brim, and pubic symphysis, extendable with a lateral window to the iliac fossa.",
+      "source_ids": [
+        "ao_e1443294f466baa7"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "hip_anterior_intrapelvic_acetabulum_limitations_01",
+      "text": "The lateral window extension is limited by the L5 nerve root on the anterior ala, and blood loss can be significant.",
+      "source_ids": [
+        "ao_e1443294f466baa7"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "hip_anterior_intrapelvic_acetabulum_indications_01",
+      "text": "Indicated for ORIF of quadrilateral surface, anterior column, and periprosthetic acetabular fractures.",
+      "source_ids": [
+        "ao_e1443294f466baa7"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "hip_anterior_intrapelvic_acetabulum_closure_01",
+      "text": "Close the midline rectus and superficial layers protecting the bladder and peritoneum, and consider a subfascial drain given significant blood loss.",
+      "source_ids": [
+        "ao_e1443294f466baa7"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "hip_anterior_intrapelvic_acetabulum_complications_01",
+      "text": "Complications include major vascular bleeding from the corona mortis or external iliac vein, bladder injury, obturator nerve injury, and hematoma.",
+      "source_ids": [
+        "ao_e1443294f466baa7",
+        "ao_01bb35e0585ef010"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "hip_anterior_intrapelvic_acetabulum_questions_01",
+      "text": "Through what plane does the modified Stoppa approach enter the pelvis?",
+      "source_ids": [
+        "ao_e1443294f466baa7"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "hip_anterior_intrapelvic_acetabulum_questions_02",
+      "text": "Which surface is best visualized with the anterior intrapelvic approach?",
+      "source_ids": [
+        "ao_e1443294f466baa7"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "hip_anterior_intrapelvic_acetabulum_questions_03",
+      "text": "What limits the lateral window extension?",
+      "source_ids": [
+        "ao_e1443294f466baa7"
+      ],
+      "risk_level": "medium"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "ao_e1443294f466baa7",
+      "provider": "AO Surgery Reference",
+      "title": "Anterior intrapelvic approach to the acetabulum (periprosthetic)",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/periprosthetic-fractures/hip/approach/anterior-intrapelvic-approach-acetabulum",
+      "source_page_id": "ao_e1443294f466baa7"
+    },
+    {
+      "source_id": "ao_01bb35e0585ef010",
+      "provider": "AO Surgery Reference",
+      "title": "Ilioinguinal approach to the acetabulum (periprosthetic)",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/periprosthetic-fractures/hip/approach/ilioinguinal-approach-acetabulum",
+      "source_page_id": "ao_01bb35e0585ef010"
+    }
+  ],
+  "content_status": "agent_review_pending",
+  "review": {
+    "status": "agent_review_pending",
+    "required_roles": [
+      "adversarial_safety_reviewer",
+      "approach_anatomy_reviewer",
+      "educational_value_reviewer",
+      "evidence_reviewer",
+      "operative_exposure_reviewer",
+      "procedure_applicability_reviewer"
+    ],
+    "completed_roles": []
+  },
+  "resolved_contradiction_keys": [],
+  "authoring_provenance": {
+    "method": "local_codex_curated",
+    "definition_file": "data/approach_library/curated/hip_osteotomy_acetabulum_batch002_v1.json",
+    "api_used": false
+  }
+}

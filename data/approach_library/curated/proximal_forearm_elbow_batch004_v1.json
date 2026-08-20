@@ -1,0 +1,565 @@
+{
+  "approaches": [
+    {
+      "approach_id": "proximal_forearm_anterior",
+      "name": "Anterior approach to the proximal forearm",
+      "aliases": [
+        "anterior approach to the proximal radius / bicipital tuberosity"
+      ],
+      "region": "proximal-forearm",
+      "joint": "elbow",
+      "bones": [
+        "radius"
+      ],
+      "corridor": "Curved anterior cubital incision developing the plane at the lateral margin of brachialis, protecting the posterior interosseous nerve and ligating the recurrent radial artery, to the bicipital tuberosity and radial neck",
+      "sources": [
+        {
+          "source_id": "ao_59ab79f42428c83f",
+          "provider": "AO Surgery Reference",
+          "title": "Anterior approach to the proximal forearm",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/proximal-forearm/approach/anterior-approach",
+          "source_page_id": "ao_59ab79f42428c83f"
+        },
+        {
+          "source_id": "ao_e858da2b7ccaf306",
+          "provider": "AO Surgery Reference",
+          "title": "Lateral approach to the proximal forearm",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/proximal-forearm/approach/lateral-approach",
+          "source_page_id": "ao_e858da2b7ccaf306"
+        }
+      ],
+      "procedure_applications": [
+        {
+          "procedure_id": "radial_head_fracture_orif",
+          "relationship": "conditional_option",
+          "condition": "Anterior access to the radial neck or bicipital tuberosity is required, for example for a distal biceps reattachment or radial neck exposure"
+        }
+      ],
+      "sections": {
+        "positioning": [
+          {
+            "text": "Position supine with the arm on a hand table and the elbow extendable for anterior access.",
+            "source_ids": [
+              "ao_59ab79f42428c83f"
+            ]
+          }
+        ],
+        "surface_landmarks": [
+          {
+            "text": "Mark the biceps tendon, the flexion crease of the elbow, and the medial border of brachioradialis.",
+            "source_ids": [
+              "ao_59ab79f42428c83f"
+            ]
+          }
+        ],
+        "incision": [
+          {
+            "text": "Start a curved incision about 5 cm above the flexion crease on the lateral side of biceps, curve it over the front of the elbow, and end along the medial border of brachioradialis.",
+            "source_ids": [
+              "ao_59ab79f42428c83f"
+            ]
+          }
+        ],
+        "superficial_interval": [
+          {
+            "text": "Split the fascia and ligate the recurrent radial artery, then identify and protect the posterior interosseous nerve at the lateral margin of the brachialis and trace it into the supinator.",
+            "source_ids": [
+              "ao_59ab79f42428c83f",
+              "ao_e858da2b7ccaf306"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "deep_interval": [
+          {
+            "text": "Expose the bicipital tuberosity or radial neck, and for a biceps reattachment release and reflect the supinator while protecting the PIN, displaying the tuberosity with full supination.",
+            "source_ids": [
+              "ao_59ab79f42428c83f"
+            ]
+          }
+        ],
+        "layers": [
+          {
+            "text": "Skin, subcutaneous tissue, antebrachial fascia, the recurrent radial vessels, the posterior interosseous nerve and supinator, and the anterior proximal radius.",
+            "source_ids": [
+              "ao_59ab79f42428c83f"
+            ]
+          }
+        ],
+        "structures_at_risk": [
+          {
+            "text": "The posterior interosseous nerve at the lateral brachialis and within the supinator and the recurrent radial vessels are at risk.",
+            "source_ids": [
+              "ao_59ab79f42428c83f",
+              "ao_e858da2b7ccaf306"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "danger_zones": [
+          {
+            "text": "The supinator mass over the proximal radius is the danger zone for the posterior interosseous nerve.",
+            "source_ids": [
+              "ao_59ab79f42428c83f",
+              "ao_e858da2b7ccaf306"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "retraction_hazards": [
+          {
+            "text": "Protect the PIN before releasing the supinator and keep the forearm supinated during proximal radial work.",
+            "source_ids": [
+              "ao_59ab79f42428c83f",
+              "ao_e858da2b7ccaf306"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "exposure": [
+          {
+            "text": "Exposes the bicipital tuberosity and radial neck through an anterior corridor.",
+            "source_ids": [
+              "ao_59ab79f42428c83f"
+            ]
+          }
+        ],
+        "limitations": [
+          {
+            "text": "Proximal radial exposure is constrained by the posterior interosseous nerve and the neurovascular contents of the cubital fossa.",
+            "source_ids": [
+              "ao_59ab79f42428c83f"
+            ]
+          }
+        ],
+        "indications": [
+          {
+            "text": "Indicated for anterior access to the radial neck and bicipital tuberosity, including distal biceps reattachment.",
+            "source_ids": [
+              "ao_59ab79f42428c83f"
+            ]
+          }
+        ],
+        "closure": [
+          {
+            "text": "Close the wound in layers.",
+            "source_ids": [
+              "ao_59ab79f42428c83f"
+            ]
+          }
+        ],
+        "complications": [
+          {
+            "text": "Complications include posterior interosseous nerve palsy and bleeding from the recurrent radial vessels.",
+            "source_ids": [
+              "ao_59ab79f42428c83f",
+              "ao_e858da2b7ccaf306"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "questions": [
+          {
+            "question": "Where is the posterior interosseous nerve first identified in the anterior approach?",
+            "answer": "At the lateral margin of the brachialis muscle.",
+            "source_ids": [
+              "ao_59ab79f42428c83f"
+            ]
+          },
+          {
+            "question": "Which vessel is ligated during this approach?",
+            "answer": "The recurrent radial artery.",
+            "source_ids": [
+              "ao_59ab79f42428c83f"
+            ]
+          },
+          {
+            "question": "How is the bicipital tuberosity brought into view?",
+            "answer": "By fully supinating the forearm after protecting and reflecting the supinator.",
+            "source_ids": [
+              "ao_59ab79f42428c83f"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "approach_id": "proximal_forearm_lateral_kocher_kaplan",
+      "name": "Lateral approach to the proximal forearm (Kocher/Kaplan)",
+      "aliases": [
+        "Kocher approach to the radial head",
+        "Kaplan approach to the proximal radius"
+      ],
+      "region": "proximal-forearm",
+      "joint": "elbow",
+      "bones": [
+        "radius"
+      ],
+      "corridor": "Lateral elbow interval, Kocher between anconeus and ECU or Kaplan between ECRB and EDC, dividing the annular ligament with the forearm pronated to protect the posterior interosseous nerve and reach the radial head",
+      "sources": [
+        {
+          "source_id": "ao_e858da2b7ccaf306",
+          "provider": "AO Surgery Reference",
+          "title": "Lateral approach to the proximal forearm",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/proximal-forearm/approach/lateral-approach",
+          "source_page_id": "ao_e858da2b7ccaf306"
+        },
+        {
+          "source_id": "orthobullets_12099",
+          "provider": "Orthobullets",
+          "title": "Radial Head Lateral Approach",
+          "url": "https://www.orthobullets.com/approaches/12099/radial-head-lateral-approach"
+        },
+        {
+          "source_id": "orthobullets_6c240d38412e9fd1",
+          "provider": "Orthobullets",
+          "title": "Elbow Kaplan Approach",
+          "url": "https://www.orthobullets.com/approaches/3068/elbow-kaplan-approach",
+          "source_page_id": "orthobullets_6c240d38412e9fd1"
+        }
+      ],
+      "procedure_applications": [
+        {
+          "procedure_id": "radial_head_fracture_orif",
+          "relationship": "primary_option",
+          "condition": "A radial head or neck fracture needs lateral exposure for fixation or replacement"
+        }
+      ],
+      "sections": {
+        "positioning": [
+          {
+            "text": "Position with the elbow at 90 degrees and palpate the lateral condyle to orient the approach.",
+            "source_ids": [
+              "ao_e858da2b7ccaf306"
+            ]
+          }
+        ],
+        "surface_landmarks": [
+          {
+            "text": "Mark the lateral condyle, radial head, and the line of the elbow joint.",
+            "source_ids": [
+              "ao_e858da2b7ccaf306",
+              "orthobullets_12099"
+            ]
+          }
+        ],
+        "incision": [
+          {
+            "text": "Make a 6 to 8 cm straight incision directly over the middle of the lateral condyle.",
+            "source_ids": [
+              "ao_e858da2b7ccaf306"
+            ]
+          }
+        ],
+        "superficial_interval": [
+          {
+            "text": "Use the Kaplan interval between extensor carpi radialis brevis and extensor digitorum communis, or the more posterior Kocher interval between anconeus and extensor carpi ulnaris, which risks the lateral collateral ligament.",
+            "source_ids": [
+              "ao_e858da2b7ccaf306",
+              "orthobullets_12099"
+            ]
+          }
+        ],
+        "deep_interval": [
+          {
+            "text": "Fully pronate the forearm to move the posterior interosseous nerve (which lies about three finger-breadths distal to the radial head in the supinator) away from the field, then divide the annular ligament along the interval to expose the radial head.",
+            "source_ids": [
+              "ao_e858da2b7ccaf306",
+              "orthobullets_12099"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "layers": [
+          {
+            "text": "Skin, subcutaneous tissue, the extensor interval, the annular ligament and lateral capsule, and the radial head.",
+            "source_ids": [
+              "ao_e858da2b7ccaf306"
+            ]
+          }
+        ],
+        "structures_at_risk": [
+          {
+            "text": "The posterior interosseous nerve in the supinator and the lateral collateral ligament (especially with the Kocher interval) are at risk.",
+            "source_ids": [
+              "ao_e858da2b7ccaf306",
+              "orthobullets_12099"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "danger_zones": [
+          {
+            "text": "Dissection distal to the annular ligament is the danger zone for the posterior interosseous nerve, and the posterior Kocher interval endangers the lateral collateral ligament.",
+            "source_ids": [
+              "ao_e858da2b7ccaf306",
+              "orthobullets_12099"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "retraction_hazards": [
+          {
+            "text": "Avoid strenuous distal retraction and excessive anterior capsular incision and keep the forearm pronated.",
+            "source_ids": [
+              "ao_e858da2b7ccaf306",
+              "orthobullets_12099"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "exposure": [
+          {
+            "text": "Exposes the radial head and neck; a lateral epicondyle osteotomy can improve exposure if the collateral ligament is intact.",
+            "source_ids": [
+              "ao_e858da2b7ccaf306"
+            ]
+          }
+        ],
+        "limitations": [
+          {
+            "text": "Safe distal extension is limited by the posterior interosseous nerve, and the lateral collateral ligament must be preserved to avoid instability.",
+            "source_ids": [
+              "ao_e858da2b7ccaf306",
+              "orthobullets_12099"
+            ]
+          }
+        ],
+        "indications": [
+          {
+            "text": "Indicated for open reduction and fixation or replacement of radial head and neck fractures.",
+            "source_ids": [
+              "ao_e858da2b7ccaf306"
+            ]
+          }
+        ],
+        "closure": [
+          {
+            "text": "Repair the annular ligament and lateral capsule, fix any epicondylar osteotomy, and close the wound in layers.",
+            "source_ids": [
+              "ao_e858da2b7ccaf306"
+            ]
+          }
+        ],
+        "complications": [
+          {
+            "text": "Complications include posterior interosseous nerve palsy and posterolateral rotatory instability from lateral collateral ligament injury.",
+            "source_ids": [
+              "ao_e858da2b7ccaf306",
+              "orthobullets_12099"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "questions": [
+          {
+            "question": "How is the posterior interosseous nerve protected in the lateral elbow approach?",
+            "answer": "By fully pronating the forearm to move it away from the operative field.",
+            "source_ids": [
+              "ao_e858da2b7ccaf306",
+              "orthobullets_12099"
+            ]
+          },
+          {
+            "question": "Which interval risks the lateral collateral ligament?",
+            "answer": "The more posterior Kocher interval between anconeus and extensor carpi ulnaris.",
+            "source_ids": [
+              "ao_e858da2b7ccaf306"
+            ]
+          },
+          {
+            "question": "How far distal to the radial head does the PIN cross?",
+            "answer": "About three finger-breadths distal, within the supinator.",
+            "source_ids": [
+              "ao_e858da2b7ccaf306"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "approach_id": "proximal_forearm_posterolateral",
+      "name": "Posterolateral approach to the proximal forearm",
+      "aliases": [
+        "posterolateral approach to the proximal radius and ulna"
+      ],
+      "region": "proximal-forearm",
+      "joint": "elbow",
+      "bones": [
+        "radius",
+        "ulna"
+      ],
+      "corridor": "Posterior or short lateral incision using the flexor carpi ulnaris and extensor carpi ulnaris interval to the posterior ulna, extending to the radial head with the traumatic plane, protecting the posterior interosseous nerve",
+      "sources": [
+        {
+          "source_id": "ao_049fc1bd0b108e06",
+          "provider": "AO Surgery Reference",
+          "title": "Posterolateral approach to the proximal forearm",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/proximal-forearm/approach/posterolateral-approach",
+          "source_page_id": "ao_049fc1bd0b108e06"
+        },
+        {
+          "source_id": "ao_e858da2b7ccaf306",
+          "provider": "AO Surgery Reference",
+          "title": "Lateral approach to the proximal forearm",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/proximal-forearm/approach/lateral-approach",
+          "source_page_id": "ao_e858da2b7ccaf306"
+        }
+      ],
+      "procedure_applications": [
+        {
+          "procedure_id": "monteggia_fracture_orif",
+          "relationship": "primary_option",
+          "condition": "A Monteggia injury needs combined exposure of the proximal ulna and radial head"
+        }
+      ],
+      "sections": {
+        "positioning": [
+          {
+            "text": "Position with the arm across the chest or on a support so the posterolateral elbow and proximal ulna are accessible.",
+            "source_ids": [
+              "ao_049fc1bd0b108e06"
+            ]
+          }
+        ],
+        "surface_landmarks": [
+          {
+            "text": "Mark the tip of the olecranon, the subcutaneous border of the ulna, and the radial head.",
+            "source_ids": [
+              "ao_049fc1bd0b108e06"
+            ]
+          }
+        ],
+        "incision": [
+          {
+            "text": "Use a straight midline posterior incision starting a few centimeters proximal to the olecranon tip, optionally curving around the tip, or a shorter more lateral incision.",
+            "source_ids": [
+              "ao_049fc1bd0b108e06"
+            ]
+          }
+        ],
+        "superficial_interval": [
+          {
+            "text": "Split the interval between flexor carpi ulnaris and extensor carpi ulnaris to reach the posterior ulnar surface, and use the traumatic soft-tissue plane to expose the radial head.",
+            "source_ids": [
+              "ao_049fc1bd0b108e06"
+            ]
+          }
+        ],
+        "deep_interval": [
+          {
+            "text": "Protect the posterior interosseous nerve when working toward the radial head, and consider a dual deep dissection to lower synostosis risk.",
+            "source_ids": [
+              "ao_049fc1bd0b108e06",
+              "ao_e858da2b7ccaf306"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "layers": [
+          {
+            "text": "Skin, subcutaneous tissue, the flexor carpi ulnaris and extensor carpi ulnaris interval, the posterior ulna, and the radial head region.",
+            "source_ids": [
+              "ao_049fc1bd0b108e06"
+            ]
+          }
+        ],
+        "structures_at_risk": [
+          {
+            "text": "The posterior interosseous nerve near the radial head and the lateral collateral ligament are at risk.",
+            "source_ids": [
+              "ao_049fc1bd0b108e06",
+              "ao_e858da2b7ccaf306"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "danger_zones": [
+          {
+            "text": "The proximal radius over the supinator is the danger zone for the posterior interosseous nerve, and a single combined plane raises synostosis risk.",
+            "source_ids": [
+              "ao_049fc1bd0b108e06",
+              "ao_e858da2b7ccaf306"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "retraction_hazards": [
+          {
+            "text": "Keep the forearm pronated near the radial head and avoid stripping the interosseous membrane between the bones.",
+            "source_ids": [
+              "ao_049fc1bd0b108e06",
+              "ao_e858da2b7ccaf306"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "exposure": [
+          {
+            "text": "Exposes the proximal ulna and the radial head for combined fixation in a Monteggia injury.",
+            "source_ids": [
+              "ao_049fc1bd0b108e06"
+            ]
+          }
+        ],
+        "limitations": [
+          {
+            "text": "Combined exposure of both bones carries a synostosis risk, mitigated by a dual deep dissection; epicondylar osteotomy may be needed to preserve ligaments.",
+            "source_ids": [
+              "ao_049fc1bd0b108e06"
+            ]
+          }
+        ],
+        "indications": [
+          {
+            "text": "Indicated for Monteggia injuries and combined proximal radioulnar exposure.",
+            "source_ids": [
+              "ao_049fc1bd0b108e06"
+            ]
+          }
+        ],
+        "closure": [
+          {
+            "text": "Refix any epicondylar osteotomy, repair the interval, and close the wound in layers.",
+            "source_ids": [
+              "ao_049fc1bd0b108e06"
+            ]
+          }
+        ],
+        "complications": [
+          {
+            "text": "Complications include posterior interosseous nerve palsy, radioulnar synostosis, and lateral instability.",
+            "source_ids": [
+              "ao_049fc1bd0b108e06",
+              "ao_e858da2b7ccaf306"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "questions": [
+          {
+            "question": "Which interval reaches the posterior ulna in this approach?",
+            "answer": "Between the flexor carpi ulnaris and the extensor carpi ulnaris.",
+            "source_ids": [
+              "ao_049fc1bd0b108e06"
+            ]
+          },
+          {
+            "question": "What is argued to reduce synostosis risk?",
+            "answer": "A dual deep dissection rather than a single combined plane.",
+            "source_ids": [
+              "ao_049fc1bd0b108e06"
+            ]
+          },
+          {
+            "question": "What is the main indication for this approach?",
+            "answer": "A Monteggia injury requiring exposure of the proximal ulna and radial head.",
+            "source_ids": [
+              "ao_049fc1bd0b108e06"
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

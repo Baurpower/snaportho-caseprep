@@ -1,0 +1,341 @@
+{
+  "schema_version": "brobot_approach_packet_v1",
+  "approach_id": "pediatric_proximal_tibia_anterolateral",
+  "name": "Pediatric anterolateral approach to the proximal tibia",
+  "aliases": [
+    "pediatric anterolateral proximal-tibial approach"
+  ],
+  "region": "proximal-tibia",
+  "joint": "knee",
+  "bones": [
+    "proximal tibia"
+  ],
+  "corridor": "Straight incision lateral to the patellar tendon from the joint line distally, releasing tibialis anterior while staying off the physis and not chasing the posteromedial tibia",
+  "positioning": [
+    {
+      "text": "Position so the joint line, patellar tendon, and lateral proximal tibia can be seen and the physis protected.",
+      "claim_ids": [
+        "pediatric_proximal_tibia_anterolateral_positioning_01"
+      ]
+    }
+  ],
+  "setup": [],
+  "surface_landmarks": [
+    {
+      "text": "Mark the patellar tendon, joint line, Gerdy region, and fibular head (peroneal nerve behind the biceps).",
+      "claim_ids": [
+        "pediatric_proximal_tibia_anterolateral_surface_landmarks_01"
+      ]
+    }
+  ],
+  "incision": [
+    {
+      "text": "Make a straight cut lateral to the patellar tendon starting at the joint line and extending distally as needed.",
+      "claim_ids": [
+        "pediatric_proximal_tibia_anterolateral_incision_01"
+      ]
+    }
+  ],
+  "superficial_interval": [
+    {
+      "text": "Open deep fascia, leaving enough anterior bony attachment for later closure.",
+      "claim_ids": [
+        "pediatric_proximal_tibia_anterolateral_superficial_interval_01"
+      ]
+    }
+  ],
+  "deep_interval": [
+    {
+      "text": "Release the proximal tibialis-anterior attachment. Avoid the peroneal nerve behind the biceps at the fibular head. Do not expose the posteromedial tibia from this side. For the joint, incise the capsule horizontally between the deep meniscal edge and the tibia. Avoid periosteal stripping and physeal compression.",
+      "claim_ids": [
+        "pediatric_proximal_tibia_anterolateral_deep_interval_01"
+      ]
+    }
+  ],
+  "layers": [
+    {
+      "text": "Skin, fascia, tibialis anterior, optional submeniscal capsule, then the anterolateral proximal tibia below the physis.",
+      "claim_ids": [
+        "pediatric_proximal_tibia_anterolateral_layers_01"
+      ]
+    }
+  ],
+  "structures_encountered": [],
+  "structures_at_risk": [
+    {
+      "text": "The peroneal nerve at the fibular head, the meniscus during arthrotomy, and the proximal tibial physis are at risk.",
+      "claim_ids": [
+        "pediatric_proximal_tibia_anterolateral_structures_at_risk_01"
+      ]
+    }
+  ],
+  "danger_zones": [
+    {
+      "text": "Posteromedial dissection from this window is forbidden. Periosteal stripping or physeal compression must be avoided.",
+      "claim_ids": [
+        "pediatric_proximal_tibia_anterolateral_danger_zones_01"
+      ]
+    }
+  ],
+  "retraction_hazards": [
+    {
+      "text": "Leave enough fascia on bone anteriorly so it can be closed.",
+      "claim_ids": [
+        "pediatric_proximal_tibia_anterolateral_retraction_hazards_01"
+      ]
+    }
+  ],
+  "exposure": [
+    {
+      "text": "Shows the anterolateral upper shaft and a large anterolateral Salter-Harris fragment, with optional submeniscal joint access.",
+      "claim_ids": [
+        "pediatric_proximal_tibia_anterolateral_exposure_01"
+      ]
+    }
+  ],
+  "limitations": [
+    {
+      "text": "The posteromedial tibia cannot be reached. The physis limits how much periosteum can be raised.",
+      "claim_ids": [
+        "pediatric_proximal_tibia_anterolateral_limitations_01"
+      ]
+    }
+  ],
+  "extensions": [],
+  "indications": [
+    {
+      "text": "Used for upper-shaft and Salter-Harris II–IV proximal-tibial fractures with a large anterolateral component.",
+      "claim_ids": [
+        "pediatric_proximal_tibia_anterolateral_indications_01"
+      ]
+    }
+  ],
+  "relative_contraindications": [],
+  "implant_implications": [],
+  "fluoroscopy_implications": [],
+  "closure": [
+    {
+      "text": "Reattach the meniscus and repair the capsule with absorbable suture, then close skin.",
+      "claim_ids": [
+        "pediatric_proximal_tibia_anterolateral_closure_01"
+      ]
+    }
+  ],
+  "complications": [
+    {
+      "text": "Complications include peroneal-nerve injury, meniscal injury, and physeal arrest from stripping or compression.",
+      "claim_ids": [
+        "pediatric_proximal_tibia_anterolateral_complications_01"
+      ]
+    }
+  ],
+  "bailouts": [],
+  "procedure_applications": [
+    {
+      "procedure_id": "pediatric_proximal_tibia_fracture_orif",
+      "relationship": "primary_option",
+      "condition": "An upper-shaft or Salter-Harris II–IV proximal-tibial fracture with a large anterolateral component is fixed without periosteal stripping or physeal compression"
+    }
+  ],
+  "questions": [
+    {
+      "question": "Where does the incision start?",
+      "answer": "Lateral to the patellar tendon at the joint line.",
+      "claim_ids": [
+        "pediatric_proximal_tibia_anterolateral_questions_01"
+      ]
+    },
+    {
+      "question": "May the posteromedial tibia be exposed from this side?",
+      "answer": "No.",
+      "claim_ids": [
+        "pediatric_proximal_tibia_anterolateral_questions_02"
+      ]
+    },
+    {
+      "question": "How is the joint opened?",
+      "answer": "With a horizontal capsular cut between the deep meniscal edge and the tibia.",
+      "claim_ids": [
+        "pediatric_proximal_tibia_anterolateral_questions_03"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "pediatric_proximal_tibia_anterolateral_positioning_01",
+      "text": "Position so the joint line, patellar tendon, and lateral proximal tibia can be seen and the physis protected.",
+      "source_ids": [
+        "ao_35af6bfaa5208a23",
+        "ao_d032f518d347e3bb"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "pediatric_proximal_tibia_anterolateral_surface_landmarks_01",
+      "text": "Mark the patellar tendon, joint line, Gerdy region, and fibular head (peroneal nerve behind the biceps).",
+      "source_ids": [
+        "ao_35af6bfaa5208a23",
+        "ao_d032f518d347e3bb"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "pediatric_proximal_tibia_anterolateral_incision_01",
+      "text": "Make a straight cut lateral to the patellar tendon starting at the joint line and extending distally as needed.",
+      "source_ids": [
+        "ao_35af6bfaa5208a23"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "pediatric_proximal_tibia_anterolateral_superficial_interval_01",
+      "text": "Open deep fascia, leaving enough anterior bony attachment for later closure.",
+      "source_ids": [
+        "ao_35af6bfaa5208a23"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "pediatric_proximal_tibia_anterolateral_deep_interval_01",
+      "text": "Release the proximal tibialis-anterior attachment. Avoid the peroneal nerve behind the biceps at the fibular head. Do not expose the posteromedial tibia from this side. For the joint, incise the capsule horizontally between the deep meniscal edge and the tibia. Avoid periosteal stripping and physeal compression.",
+      "source_ids": [
+        "ao_35af6bfaa5208a23",
+        "ao_d032f518d347e3bb"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "pediatric_proximal_tibia_anterolateral_layers_01",
+      "text": "Skin, fascia, tibialis anterior, optional submeniscal capsule, then the anterolateral proximal tibia below the physis.",
+      "source_ids": [
+        "ao_35af6bfaa5208a23"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "pediatric_proximal_tibia_anterolateral_structures_at_risk_01",
+      "text": "The peroneal nerve at the fibular head, the meniscus during arthrotomy, and the proximal tibial physis are at risk.",
+      "source_ids": [
+        "ao_35af6bfaa5208a23",
+        "ao_d032f518d347e3bb"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "pediatric_proximal_tibia_anterolateral_danger_zones_01",
+      "text": "Posteromedial dissection from this window is forbidden. Periosteal stripping or physeal compression must be avoided.",
+      "source_ids": [
+        "ao_35af6bfaa5208a23"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "pediatric_proximal_tibia_anterolateral_retraction_hazards_01",
+      "text": "Leave enough fascia on bone anteriorly so it can be closed.",
+      "source_ids": [
+        "ao_35af6bfaa5208a23"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "pediatric_proximal_tibia_anterolateral_exposure_01",
+      "text": "Shows the anterolateral upper shaft and a large anterolateral Salter-Harris fragment, with optional submeniscal joint access.",
+      "source_ids": [
+        "ao_35af6bfaa5208a23"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "pediatric_proximal_tibia_anterolateral_limitations_01",
+      "text": "The posteromedial tibia cannot be reached. The physis limits how much periosteum can be raised.",
+      "source_ids": [
+        "ao_35af6bfaa5208a23"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "pediatric_proximal_tibia_anterolateral_indications_01",
+      "text": "Used for upper-shaft and Salter-Harris II–IV proximal-tibial fractures with a large anterolateral component.",
+      "source_ids": [
+        "ao_35af6bfaa5208a23"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "pediatric_proximal_tibia_anterolateral_closure_01",
+      "text": "Reattach the meniscus and repair the capsule with absorbable suture, then close skin.",
+      "source_ids": [
+        "ao_35af6bfaa5208a23"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "pediatric_proximal_tibia_anterolateral_complications_01",
+      "text": "Complications include peroneal-nerve injury, meniscal injury, and physeal arrest from stripping or compression.",
+      "source_ids": [
+        "ao_35af6bfaa5208a23",
+        "ao_d032f518d347e3bb"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "pediatric_proximal_tibia_anterolateral_questions_01",
+      "text": "Where does the incision start?",
+      "source_ids": [
+        "ao_35af6bfaa5208a23"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "pediatric_proximal_tibia_anterolateral_questions_02",
+      "text": "May the posteromedial tibia be exposed from this side?",
+      "source_ids": [
+        "ao_35af6bfaa5208a23"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "pediatric_proximal_tibia_anterolateral_questions_03",
+      "text": "How is the joint opened?",
+      "source_ids": [
+        "ao_35af6bfaa5208a23"
+      ],
+      "risk_level": "medium"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "ao_35af6bfaa5208a23",
+      "provider": "AO Surgery Reference",
+      "title": "Anterolateral Approach",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/pediatric-trauma/proximal-tibia/approach/anterolateral-approach",
+      "source_page_id": "ao_35af6bfaa5208a23"
+    },
+    {
+      "source_id": "ao_d032f518d347e3bb",
+      "provider": "AO Surgery Reference",
+      "title": "Anterolateral And Extended Anterolateral Approach To Proximal Tibia",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/proximal-tibia/approach/anterolateral-and-extended-anterolateral-approach-to-proximal-tibia",
+      "source_page_id": "ao_d032f518d347e3bb"
+    }
+  ],
+  "content_status": "agent_review_pending",
+  "review": {
+    "status": "agent_review_pending",
+    "required_roles": [
+      "adversarial_safety_reviewer",
+      "approach_anatomy_reviewer",
+      "educational_value_reviewer",
+      "evidence_reviewer",
+      "operative_exposure_reviewer",
+      "procedure_applicability_reviewer"
+    ],
+    "completed_roles": []
+  },
+  "resolved_contradiction_keys": [],
+  "authoring_provenance": {
+    "method": "local_codex_curated",
+    "definition_file": "data/approach_library/curated/pediatric_tibia_scapula_batch001_v1.json",
+    "api_used": false
+  }
+}

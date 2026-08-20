@@ -1,0 +1,336 @@
+{
+  "schema_version": "brobot_approach_packet_v1",
+  "approach_id": "spine_anterior_c1_c2",
+  "name": "Anterior approach to C1–C2",
+  "aliases": [
+    "high anterior retropharyngeal C1–C2 approach"
+  ],
+  "region": "occipitocervical",
+  "joint": "",
+  "bones": [
+    "C1",
+    "C2"
+  ],
+  "corridor": "Transverse cut, platysma, fascia along the anteromedial sternocleidomastoid border, blunt plane between carotid sheath and trachea/esophagus to prevertebral fascia at C1–C2",
+  "positioning": [
+    {
+      "text": "Position so a nasogastric tube and the endotracheal tube can be felt and C1–C2 can be imaged.",
+      "claim_ids": [
+        "spine_anterior_c1_c2_positioning_01"
+      ]
+    }
+  ],
+  "setup": [],
+  "surface_landmarks": [
+    {
+      "text": "Mark the sternocleidomastoid and midline viscera. Left-sided approaches make the recurrent laryngeal nerve more predictable; right-sided approaches let it be seen and protected.",
+      "claim_ids": [
+        "spine_anterior_c1_c2_surface_landmarks_01"
+      ]
+    }
+  ],
+  "incision": [
+    {
+      "text": "Make a transverse cut at the required high cervical level for a better scar.",
+      "claim_ids": [
+        "spine_anterior_c1_c2_incision_01"
+      ]
+    }
+  ],
+  "superficial_interval": [
+    {
+      "text": "Divide platysma in line with the skin, then divide deep cervical fascia along the anteromedial sternocleidomastoid border.",
+      "claim_ids": [
+        "spine_anterior_c1_c2_superficial_interval_01"
+      ]
+    }
+  ],
+  "deep_interval": [
+    {
+      "text": "Bluntly develop the plane between the carotid sheath and the trachea/esophagus to prevertebral fascia. Open that fascia longitudinally, confirm the level, mobilize longus colli, and place distractors. Identify and protect the recurrent laryngeal nerve. A nasogastric tube marks the esophagus.",
+      "claim_ids": [
+        "spine_anterior_c1_c2_deep_interval_01"
+      ]
+    }
+  ],
+  "layers": [
+    {
+      "text": "Skin, platysma, deep cervical fascia, carotid-sheath versus visceral plane, prevertebral fascia, longus colli, then C1–C2.",
+      "claim_ids": [
+        "spine_anterior_c1_c2_layers_01"
+      ]
+    }
+  ],
+  "structures_encountered": [],
+  "structures_at_risk": [
+    {
+      "text": "The esophagus, recurrent laryngeal nerve, and carotid artery are at risk. Esophageal injury is potentially lethal.",
+      "claim_ids": [
+        "spine_anterior_c1_c2_structures_at_risk_01"
+      ]
+    }
+  ],
+  "danger_zones": [
+    {
+      "text": "Sharp dissection through the carotid sheath or viscera, and working without a nasogastric tube to mark the esophagus, are the danger zones. Hold carotid bleeding with direct pressure and call vascular surgery.",
+      "claim_ids": [
+        "spine_anterior_c1_c2_danger_zones_01"
+      ]
+    }
+  ],
+  "retraction_hazards": [
+    {
+      "text": "Do not retract forcefully on the esophagus or carotid sheath.",
+      "claim_ids": [
+        "spine_anterior_c1_c2_retraction_hazards_01"
+      ]
+    }
+  ],
+  "exposure": [
+    {
+      "text": "Shows the anterior C1–C2 bodies through the same interval as a subaxial anterior cervical approach, placed more cranially.",
+      "claim_ids": [
+        "spine_anterior_c1_c2_exposure_01"
+      ]
+    }
+  ],
+  "limitations": [
+    {
+      "text": "This is not a transoral window and does not replace posterior C1–C2 fixation when that is the planned construct.",
+      "claim_ids": [
+        "spine_anterior_c1_c2_limitations_01"
+      ]
+    }
+  ],
+  "extensions": [],
+  "indications": [
+    {
+      "text": "Used for anterior access to C1–C2.",
+      "claim_ids": [
+        "spine_anterior_c1_c2_indications_01"
+      ]
+    }
+  ],
+  "relative_contraindications": [],
+  "implant_implications": [],
+  "fluoroscopy_implications": [],
+  "closure": [
+    {
+      "text": "Suture platysma, then fat and skin, and place a drain through a separate stab.",
+      "claim_ids": [
+        "spine_anterior_c1_c2_closure_01"
+      ]
+    }
+  ],
+  "complications": [
+    {
+      "text": "Complications include esophageal perforation, recurrent-laryngeal palsy, and carotid injury.",
+      "claim_ids": [
+        "spine_anterior_c1_c2_complications_01"
+      ]
+    }
+  ],
+  "bailouts": [],
+  "procedure_applications": [
+    {
+      "procedure_id": "cervical_spine_orif",
+      "relationship": "conditional_option",
+      "condition": "Anterior C1–C2 work is done through the same retropharyngeal plane used for subaxial anterior cervical exposure"
+    }
+  ],
+  "questions": [
+    {
+      "question": "What is the deep plane to C1–C2 from the front?",
+      "answer": "Between the carotid sheath and the trachea/esophagus, down to prevertebral fascia.",
+      "claim_ids": [
+        "spine_anterior_c1_c2_questions_01"
+      ]
+    },
+    {
+      "question": "Why place a nasogastric tube?",
+      "answer": "To identify the esophagus and help prevent accidental injury.",
+      "claim_ids": [
+        "spine_anterior_c1_c2_questions_02"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "spine_anterior_c1_c2_positioning_01",
+      "text": "Position so a nasogastric tube and the endotracheal tube can be felt and C1–C2 can be imaged.",
+      "source_ids": [
+        "ao_a986a7ad079aeb7b",
+        "ao_798a5b02effb79e8"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "spine_anterior_c1_c2_surface_landmarks_01",
+      "text": "Mark the sternocleidomastoid and midline viscera. Left-sided approaches make the recurrent laryngeal nerve more predictable; right-sided approaches let it be seen and protected.",
+      "source_ids": [
+        "ao_a986a7ad079aeb7b",
+        "ao_798a5b02effb79e8"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "spine_anterior_c1_c2_incision_01",
+      "text": "Make a transverse cut at the required high cervical level for a better scar.",
+      "source_ids": [
+        "ao_a986a7ad079aeb7b",
+        "ao_798a5b02effb79e8"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "spine_anterior_c1_c2_superficial_interval_01",
+      "text": "Divide platysma in line with the skin, then divide deep cervical fascia along the anteromedial sternocleidomastoid border.",
+      "source_ids": [
+        "ao_a986a7ad079aeb7b",
+        "ao_798a5b02effb79e8"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "spine_anterior_c1_c2_deep_interval_01",
+      "text": "Bluntly develop the plane between the carotid sheath and the trachea/esophagus to prevertebral fascia. Open that fascia longitudinally, confirm the level, mobilize longus colli, and place distractors. Identify and protect the recurrent laryngeal nerve. A nasogastric tube marks the esophagus.",
+      "source_ids": [
+        "ao_a986a7ad079aeb7b",
+        "ao_798a5b02effb79e8"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "spine_anterior_c1_c2_layers_01",
+      "text": "Skin, platysma, deep cervical fascia, carotid-sheath versus visceral plane, prevertebral fascia, longus colli, then C1–C2.",
+      "source_ids": [
+        "ao_a986a7ad079aeb7b",
+        "ao_798a5b02effb79e8"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "spine_anterior_c1_c2_structures_at_risk_01",
+      "text": "The esophagus, recurrent laryngeal nerve, and carotid artery are at risk. Esophageal injury is potentially lethal.",
+      "source_ids": [
+        "ao_a986a7ad079aeb7b",
+        "ao_798a5b02effb79e8"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "spine_anterior_c1_c2_danger_zones_01",
+      "text": "Sharp dissection through the carotid sheath or viscera, and working without a nasogastric tube to mark the esophagus, are the danger zones. Hold carotid bleeding with direct pressure and call vascular surgery.",
+      "source_ids": [
+        "ao_a986a7ad079aeb7b",
+        "ao_798a5b02effb79e8"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "spine_anterior_c1_c2_retraction_hazards_01",
+      "text": "Do not retract forcefully on the esophagus or carotid sheath.",
+      "source_ids": [
+        "ao_a986a7ad079aeb7b",
+        "ao_798a5b02effb79e8"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "spine_anterior_c1_c2_exposure_01",
+      "text": "Shows the anterior C1–C2 bodies through the same interval as a subaxial anterior cervical approach, placed more cranially.",
+      "source_ids": [
+        "ao_a986a7ad079aeb7b",
+        "ao_798a5b02effb79e8"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "spine_anterior_c1_c2_limitations_01",
+      "text": "This is not a transoral window and does not replace posterior C1–C2 fixation when that is the planned construct.",
+      "source_ids": [
+        "ao_a986a7ad079aeb7b"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "spine_anterior_c1_c2_indications_01",
+      "text": "Used for anterior access to C1–C2.",
+      "source_ids": [
+        "ao_a986a7ad079aeb7b"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "spine_anterior_c1_c2_closure_01",
+      "text": "Suture platysma, then fat and skin, and place a drain through a separate stab.",
+      "source_ids": [
+        "ao_a986a7ad079aeb7b",
+        "ao_798a5b02effb79e8"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "spine_anterior_c1_c2_complications_01",
+      "text": "Complications include esophageal perforation, recurrent-laryngeal palsy, and carotid injury.",
+      "source_ids": [
+        "ao_a986a7ad079aeb7b",
+        "ao_798a5b02effb79e8"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "spine_anterior_c1_c2_questions_01",
+      "text": "What is the deep plane to C1–C2 from the front?",
+      "source_ids": [
+        "ao_a986a7ad079aeb7b",
+        "ao_798a5b02effb79e8"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "spine_anterior_c1_c2_questions_02",
+      "text": "Why place a nasogastric tube?",
+      "source_ids": [
+        "ao_a986a7ad079aeb7b",
+        "ao_798a5b02effb79e8"
+      ],
+      "risk_level": "medium"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "ao_a986a7ad079aeb7b",
+      "provider": "AO Surgery Reference",
+      "title": "Anterior Access To C1 C2",
+      "url": "https://surgeryreference.aofoundation.org/spine/trauma/occipitocervical/approach/anterior-access-to-c1-c2",
+      "source_page_id": "ao_a986a7ad079aeb7b"
+    },
+    {
+      "source_id": "ao_798a5b02effb79e8",
+      "provider": "AO Surgery Reference",
+      "title": "Anterior Approach To The Cervical Spine",
+      "url": "https://surgeryreference.aofoundation.org/spine/trauma/subaxial-cervical/approach/anterior-approach-to-the-cervical-spine",
+      "source_page_id": "ao_798a5b02effb79e8"
+    }
+  ],
+  "content_status": "agent_review_pending",
+  "review": {
+    "status": "agent_review_pending",
+    "required_roles": [
+      "adversarial_safety_reviewer",
+      "approach_anatomy_reviewer",
+      "educational_value_reviewer",
+      "evidence_reviewer",
+      "operative_exposure_reviewer",
+      "procedure_applicability_reviewer"
+    ],
+    "completed_roles": []
+  },
+  "resolved_contradiction_keys": [],
+  "authoring_provenance": {
+    "method": "local_codex_curated",
+    "definition_file": "data/approach_library/curated/spine_remaining_batch001_v1.json",
+    "api_used": false
+  }
+}

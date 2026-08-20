@@ -1,0 +1,346 @@
+{
+  "schema_version": "brobot_approach_packet_v1",
+  "approach_id": "spine_anterior_ctj",
+  "name": "Anterior approach to the cervicothoracic junction",
+  "aliases": [
+    "manubrial-window anterior CTJ approach"
+  ],
+  "region": "subaxial-cervical",
+  "joint": "",
+  "bones": [
+    "C7",
+    "T1",
+    "T2"
+  ],
+  "corridor": "Incision along the medial sternocleidomastoid to the sternal notch, same retropharyngeal plane as anterior cervical, with optional manubriotomy or 3 cm medial clavicle resection to reach T1–T2",
+  "positioning": [
+    {
+      "text": "Position so a nasogastric tube is in place and a lateral radiograph or sagittal CT can show whether the manubrial notch already sees the upper thoracic spine.",
+      "claim_ids": [
+        "spine_anterior_ctj_positioning_01"
+      ]
+    }
+  ],
+  "setup": [],
+  "surface_landmarks": [
+    {
+      "text": "Mark the medial sternocleidomastoid, sternal notch, and manubrium. A left-sided approach puts the thoracic duct at risk; a right-sided approach is more likely to injure the recurrent laryngeal nerve.",
+      "claim_ids": [
+        "spine_anterior_ctj_surface_landmarks_01"
+      ]
+    }
+  ],
+  "incision": [
+    {
+      "text": "Start along the medial sternocleidomastoid down to the sternal notch and continue onto the proximal third of the sternum if a manubrial window is needed.",
+      "claim_ids": [
+        "spine_anterior_ctj_incision_01"
+      ]
+    }
+  ],
+  "superficial_interval": [
+    {
+      "text": "Divide platysma, then deep cervical fascia along the anteromedial sternocleidomastoid. Release the superficial fascia fully. The omohyoid at C6, and sternohyoid/sternothyroid, may be divided to improve the extensile window.",
+      "claim_ids": [
+        "spine_anterior_ctj_superficial_interval_01"
+      ]
+    }
+  ],
+  "deep_interval": [
+    {
+      "text": "Stay medial to the carotid sheath and bluntly develop the plane to prevertebral fascia. If the manubrial notch already sees the upper thoracic vertebra, a standard lower-cervical window may suffice. Otherwise open the manubrium or the sternoclavicular joint and resect about 3 cm of medial clavicle (usable as strut graft). Mobilize the brachiocephalic trunk as needed, protect lung with a sponge, open prevertebral fascia, confirm the level, and mobilize longus colli.",
+      "claim_ids": [
+        "spine_anterior_ctj_deep_interval_01"
+      ]
+    }
+  ],
+  "layers": [
+    {
+      "text": "Skin, platysma, strap muscles, carotid-sheath versus visceral plane, optional manubrium/clavicle, prevertebral fascia, then C7–T2.",
+      "claim_ids": [
+        "spine_anterior_ctj_layers_01"
+      ]
+    }
+  ],
+  "structures_encountered": [],
+  "structures_at_risk": [
+    {
+      "text": "The esophagus, carotid, recurrent laryngeal nerve, thoracic duct (left), brachiocephalic trunk, and lung are at risk.",
+      "claim_ids": [
+        "spine_anterior_ctj_structures_at_risk_01"
+      ]
+    }
+  ],
+  "danger_zones": [
+    {
+      "text": "A formal sternotomy for levels below T2 has more morbidity than posterolateral alternatives. Unrecognized esophageal injury is potentially lethal.",
+      "claim_ids": [
+        "spine_anterior_ctj_danger_zones_01"
+      ]
+    }
+  ],
+  "retraction_hazards": [
+    {
+      "text": "Use blunt dissection only between the sheath and viscera. Hold carotid bleeding with direct pressure and call vascular surgery.",
+      "claim_ids": [
+        "spine_anterior_ctj_retraction_hazards_01"
+      ]
+    }
+  ],
+  "exposure": [
+    {
+      "text": "Shows anterior C7–T1 through T1–T2; lower levels may be reachable depending on sternal anatomy.",
+      "claim_ids": [
+        "spine_anterior_ctj_exposure_01"
+      ]
+    }
+  ],
+  "limitations": [
+    {
+      "text": "If the manubrial notch does not see the target on sagittal imaging, a manubrial or sternoclavicular extension is required. Below T2, posterolateral windows are usually easier.",
+      "claim_ids": [
+        "spine_anterior_ctj_limitations_01"
+      ]
+    }
+  ],
+  "extensions": [],
+  "indications": [
+    {
+      "text": "Used for anterior decompression or reconstruction of the injured C7–T2 column.",
+      "claim_ids": [
+        "spine_anterior_ctj_indications_01"
+      ]
+    }
+  ],
+  "relative_contraindications": [],
+  "implant_implications": [],
+  "fluoroscopy_implications": [],
+  "closure": [
+    {
+      "text": "Approximate split muscles, suture transected straps and platysma, close skin, and place a drain through a separate stab.",
+      "claim_ids": [
+        "spine_anterior_ctj_closure_01"
+      ]
+    }
+  ],
+  "complications": [
+    {
+      "text": "Complications include esophageal perforation, thoracic-duct leak, recurrent-laryngeal palsy, carotid or brachiocephalic injury, and lung injury.",
+      "claim_ids": [
+        "spine_anterior_ctj_complications_01"
+      ]
+    }
+  ],
+  "bailouts": [],
+  "procedure_applications": [
+    {
+      "procedure_id": "cervical_spine_orif",
+      "relationship": "conditional_option",
+      "condition": "Anterior C7–T2 decompression or reconstruction is done through a cervical incision, extended with a manubrial window when the sternum hides the target"
+    }
+  ],
+  "questions": [
+    {
+      "question": "How do you decide whether a standard lower-cervical cut reaches the CTJ?",
+      "answer": "If looking through the manubrial notch on a lateral radiograph or sagittal CT you can see the upper thoracic vertebra, a common lower-cervical window may suffice; otherwise extend.",
+      "claim_ids": [
+        "spine_anterior_ctj_questions_01"
+      ]
+    },
+    {
+      "question": "How much medial clavicle may be resected, and for what?",
+      "answer": "About 3 cm, which can be used as a strut graft.",
+      "claim_ids": [
+        "spine_anterior_ctj_questions_02"
+      ]
+    },
+    {
+      "question": "Which side risks the thoracic duct?",
+      "answer": "The left-sided approach.",
+      "claim_ids": [
+        "spine_anterior_ctj_questions_03"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "spine_anterior_ctj_positioning_01",
+      "text": "Position so a nasogastric tube is in place and a lateral radiograph or sagittal CT can show whether the manubrial notch already sees the upper thoracic spine.",
+      "source_ids": [
+        "ao_7235f46265f4dc11",
+        "ao_798a5b02effb79e8"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "spine_anterior_ctj_surface_landmarks_01",
+      "text": "Mark the medial sternocleidomastoid, sternal notch, and manubrium. A left-sided approach puts the thoracic duct at risk; a right-sided approach is more likely to injure the recurrent laryngeal nerve.",
+      "source_ids": [
+        "ao_7235f46265f4dc11"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "spine_anterior_ctj_incision_01",
+      "text": "Start along the medial sternocleidomastoid down to the sternal notch and continue onto the proximal third of the sternum if a manubrial window is needed.",
+      "source_ids": [
+        "ao_7235f46265f4dc11"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "spine_anterior_ctj_superficial_interval_01",
+      "text": "Divide platysma, then deep cervical fascia along the anteromedial sternocleidomastoid. Release the superficial fascia fully. The omohyoid at C6, and sternohyoid/sternothyroid, may be divided to improve the extensile window.",
+      "source_ids": [
+        "ao_7235f46265f4dc11",
+        "ao_798a5b02effb79e8"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "spine_anterior_ctj_deep_interval_01",
+      "text": "Stay medial to the carotid sheath and bluntly develop the plane to prevertebral fascia. If the manubrial notch already sees the upper thoracic vertebra, a standard lower-cervical window may suffice. Otherwise open the manubrium or the sternoclavicular joint and resect about 3 cm of medial clavicle (usable as strut graft). Mobilize the brachiocephalic trunk as needed, protect lung with a sponge, open prevertebral fascia, confirm the level, and mobilize longus colli.",
+      "source_ids": [
+        "ao_7235f46265f4dc11",
+        "ao_798a5b02effb79e8"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "spine_anterior_ctj_layers_01",
+      "text": "Skin, platysma, strap muscles, carotid-sheath versus visceral plane, optional manubrium/clavicle, prevertebral fascia, then C7–T2.",
+      "source_ids": [
+        "ao_7235f46265f4dc11",
+        "ao_798a5b02effb79e8"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "spine_anterior_ctj_structures_at_risk_01",
+      "text": "The esophagus, carotid, recurrent laryngeal nerve, thoracic duct (left), brachiocephalic trunk, and lung are at risk.",
+      "source_ids": [
+        "ao_7235f46265f4dc11",
+        "ao_798a5b02effb79e8"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "spine_anterior_ctj_danger_zones_01",
+      "text": "A formal sternotomy for levels below T2 has more morbidity than posterolateral alternatives. Unrecognized esophageal injury is potentially lethal.",
+      "source_ids": [
+        "ao_7235f46265f4dc11",
+        "ao_798a5b02effb79e8"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "spine_anterior_ctj_retraction_hazards_01",
+      "text": "Use blunt dissection only between the sheath and viscera. Hold carotid bleeding with direct pressure and call vascular surgery.",
+      "source_ids": [
+        "ao_7235f46265f4dc11",
+        "ao_798a5b02effb79e8"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "spine_anterior_ctj_exposure_01",
+      "text": "Shows anterior C7–T1 through T1–T2; lower levels may be reachable depending on sternal anatomy.",
+      "source_ids": [
+        "ao_7235f46265f4dc11"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "spine_anterior_ctj_limitations_01",
+      "text": "If the manubrial notch does not see the target on sagittal imaging, a manubrial or sternoclavicular extension is required. Below T2, posterolateral windows are usually easier.",
+      "source_ids": [
+        "ao_7235f46265f4dc11"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "spine_anterior_ctj_indications_01",
+      "text": "Used for anterior decompression or reconstruction of the injured C7–T2 column.",
+      "source_ids": [
+        "ao_7235f46265f4dc11"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "spine_anterior_ctj_closure_01",
+      "text": "Approximate split muscles, suture transected straps and platysma, close skin, and place a drain through a separate stab.",
+      "source_ids": [
+        "ao_7235f46265f4dc11"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "spine_anterior_ctj_complications_01",
+      "text": "Complications include esophageal perforation, thoracic-duct leak, recurrent-laryngeal palsy, carotid or brachiocephalic injury, and lung injury.",
+      "source_ids": [
+        "ao_7235f46265f4dc11",
+        "ao_798a5b02effb79e8"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "spine_anterior_ctj_questions_01",
+      "text": "How do you decide whether a standard lower-cervical cut reaches the CTJ?",
+      "source_ids": [
+        "ao_7235f46265f4dc11"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "spine_anterior_ctj_questions_02",
+      "text": "How much medial clavicle may be resected, and for what?",
+      "source_ids": [
+        "ao_7235f46265f4dc11"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "spine_anterior_ctj_questions_03",
+      "text": "Which side risks the thoracic duct?",
+      "source_ids": [
+        "ao_7235f46265f4dc11"
+      ],
+      "risk_level": "medium"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "ao_7235f46265f4dc11",
+      "provider": "AO Surgery Reference",
+      "title": "Anterior Approach To The Cervico Thoracic Junction",
+      "url": "https://surgeryreference.aofoundation.org/spine/trauma/subaxial-cervical/approach/anterior-approach-to-the-cervico-thoracic-junction",
+      "source_page_id": "ao_7235f46265f4dc11"
+    },
+    {
+      "source_id": "ao_798a5b02effb79e8",
+      "provider": "AO Surgery Reference",
+      "title": "Anterior Approach To The Cervical Spine",
+      "url": "https://surgeryreference.aofoundation.org/spine/trauma/subaxial-cervical/approach/anterior-approach-to-the-cervical-spine",
+      "source_page_id": "ao_798a5b02effb79e8"
+    }
+  ],
+  "content_status": "agent_review_pending",
+  "review": {
+    "status": "agent_review_pending",
+    "required_roles": [
+      "adversarial_safety_reviewer",
+      "approach_anatomy_reviewer",
+      "educational_value_reviewer",
+      "evidence_reviewer",
+      "operative_exposure_reviewer",
+      "procedure_applicability_reviewer"
+    ],
+    "completed_roles": []
+  },
+  "resolved_contradiction_keys": [],
+  "authoring_provenance": {
+    "method": "local_codex_curated",
+    "definition_file": "data/approach_library/curated/spine_remaining_batch001_v1.json",
+    "api_used": false
+  }
+}

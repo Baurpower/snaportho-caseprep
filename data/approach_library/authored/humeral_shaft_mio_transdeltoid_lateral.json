@@ -1,0 +1,341 @@
+{
+  "schema_version": "brobot_approach_packet_v1",
+  "approach_id": "humeral_shaft_mio_transdeltoid_lateral",
+  "name": "MIO transdeltoid lateral approach to the humeral shaft",
+  "aliases": [
+    "minimally invasive lateral humeral plating approach"
+  ],
+  "region": "humeral-shaft",
+  "joint": "",
+  "bones": [
+    "humerus"
+  ],
+  "corridor": "Proximal deltoid-splitting window and a distal window between biceps and triceps, with submuscular passage of a plate under the axillary nerve along the lateral humerus",
+  "positioning": [
+    {
+      "text": "Position beach-chair or supine with the lateral acromion and lateral humeral shaft accessible for proximal and distal windows.",
+      "claim_ids": [
+        "humeral_shaft_mio_transdeltoid_lateral_positioning_01"
+      ]
+    }
+  ],
+  "setup": [],
+  "surface_landmarks": [
+    {
+      "text": "Palpate the lateral border of the acromion and the lateral humeral shaft, and mark the axillary nerve zone about 5 to 7 cm below the acromion.",
+      "claim_ids": [
+        "humeral_shaft_mio_transdeltoid_lateral_surface_landmarks_01"
+      ]
+    }
+  ],
+  "incision": [
+    {
+      "text": "Make the proximal incision from the lateral border of the acromion about 5 cm distally parallel to the humeral axis, and a separate distal window over the lateral humerus.",
+      "claim_ids": [
+        "humeral_shaft_mio_transdeltoid_lateral_incision_01"
+      ]
+    }
+  ],
+  "superficial_interval": [
+    {
+      "text": "Split the middle (acromial) third of the deltoid between its fibers, not extending beyond 5 cm from the origin, and distally develop the plane between biceps and triceps.",
+      "claim_ids": [
+        "humeral_shaft_mio_transdeltoid_lateral_superficial_interval_01"
+      ]
+    }
+  ],
+  "deep_interval": [
+    {
+      "text": "Identify the anterior motor branch of the axillary nerve crossing the humerus about 6 cm below the acromion, pass the plate submuscularly under the nerve and its vessels, and protect the radial nerve in the distal window.",
+      "claim_ids": [
+        "humeral_shaft_mio_transdeltoid_lateral_deep_interval_01"
+      ]
+    }
+  ],
+  "layers": [
+    {
+      "text": "Skin, subcutaneous tissue, deltoid proximally, the biceps-triceps interval distally, the axillary nerve, and the lateral humeral surface.",
+      "claim_ids": [
+        "humeral_shaft_mio_transdeltoid_lateral_layers_01"
+      ]
+    }
+  ],
+  "structures_encountered": [],
+  "structures_at_risk": [
+    {
+      "text": "The anterior branch of the axillary nerve crossing about 6 cm below the acromion and the radial nerve in the distal window are at risk.",
+      "claim_ids": [
+        "humeral_shaft_mio_transdeltoid_lateral_structures_at_risk_01"
+      ]
+    }
+  ],
+  "danger_zones": [
+    {
+      "text": "The zone roughly 5 to 7 cm below the lateral acromion where the axillary nerve crosses is the danger zone; do not split the deltoid beyond 5 cm from its origin.",
+      "claim_ids": [
+        "humeral_shaft_mio_transdeltoid_lateral_danger_zones_01"
+      ]
+    }
+  ],
+  "retraction_hazards": [
+    {
+      "text": "Palpate the axillary nerve on the deep deltoid surface, place a stay suture at the inferior border of the split, and pass instruments carefully beneath the nerve.",
+      "claim_ids": [
+        "humeral_shaft_mio_transdeltoid_lateral_retraction_hazards_01"
+      ]
+    }
+  ],
+  "exposure": [
+    {
+      "text": "Provides proximal and distal lateral windows for submuscular plate fixation of the humeral shaft.",
+      "claim_ids": [
+        "humeral_shaft_mio_transdeltoid_lateral_exposure_01"
+      ]
+    }
+  ],
+  "limitations": [
+    {
+      "text": "It gives no direct visualization of the fracture and relies on indirect reduction and imaging, with the axillary and radial nerves bounding the safe corridor.",
+      "claim_ids": [
+        "humeral_shaft_mio_transdeltoid_lateral_limitations_01"
+      ]
+    }
+  ],
+  "extensions": [],
+  "indications": [
+    {
+      "text": "Indicated for minimally invasive plating of proximal humeral shaft fractures, especially with greater tuberosity extension.",
+      "claim_ids": [
+        "humeral_shaft_mio_transdeltoid_lateral_indications_01"
+      ]
+    }
+  ],
+  "relative_contraindications": [],
+  "implant_implications": [],
+  "fluoroscopy_implications": [],
+  "closure": [
+    {
+      "text": "Irrigate, optionally drain, and close the deltoid fascia, subcutaneous tissue, and skin in sequence.",
+      "claim_ids": [
+        "humeral_shaft_mio_transdeltoid_lateral_closure_01"
+      ]
+    }
+  ],
+  "complications": [
+    {
+      "text": "Complications include axillary nerve injury with deltoid weakness, radial nerve injury distally, and malreduction.",
+      "claim_ids": [
+        "humeral_shaft_mio_transdeltoid_lateral_complications_01"
+      ]
+    }
+  ],
+  "bailouts": [],
+  "procedure_applications": [
+    {
+      "procedure_id": "humeral_shaft_fracture_orif",
+      "relationship": "primary_option",
+      "condition": "A more proximal humeral shaft fracture, especially with greater tuberosity extension, is treated with minimally invasive plating"
+    }
+  ],
+  "questions": [
+    {
+      "question": "How far below the acromion does the axillary nerve cross the humerus?",
+      "answer": "About 6 cm below the lateral border of the acromion.",
+      "claim_ids": [
+        "humeral_shaft_mio_transdeltoid_lateral_questions_01"
+      ]
+    },
+    {
+      "question": "How far may the deltoid be split from its origin?",
+      "answer": "No more than 5 cm, to protect the axillary nerve.",
+      "claim_ids": [
+        "humeral_shaft_mio_transdeltoid_lateral_questions_02"
+      ]
+    },
+    {
+      "question": "Which nerve is protected in the distal window?",
+      "answer": "The radial nerve.",
+      "claim_ids": [
+        "humeral_shaft_mio_transdeltoid_lateral_questions_03"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "humeral_shaft_mio_transdeltoid_lateral_positioning_01",
+      "text": "Position beach-chair or supine with the lateral acromion and lateral humeral shaft accessible for proximal and distal windows.",
+      "source_ids": [
+        "ao_448da66bc421d7ed"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "humeral_shaft_mio_transdeltoid_lateral_surface_landmarks_01",
+      "text": "Palpate the lateral border of the acromion and the lateral humeral shaft, and mark the axillary nerve zone about 5 to 7 cm below the acromion.",
+      "source_ids": [
+        "ao_448da66bc421d7ed"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "humeral_shaft_mio_transdeltoid_lateral_incision_01",
+      "text": "Make the proximal incision from the lateral border of the acromion about 5 cm distally parallel to the humeral axis, and a separate distal window over the lateral humerus.",
+      "source_ids": [
+        "ao_448da66bc421d7ed"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "humeral_shaft_mio_transdeltoid_lateral_superficial_interval_01",
+      "text": "Split the middle (acromial) third of the deltoid between its fibers, not extending beyond 5 cm from the origin, and distally develop the plane between biceps and triceps.",
+      "source_ids": [
+        "ao_448da66bc421d7ed",
+        "ao_48fcde9b4b59d848"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "humeral_shaft_mio_transdeltoid_lateral_deep_interval_01",
+      "text": "Identify the anterior motor branch of the axillary nerve crossing the humerus about 6 cm below the acromion, pass the plate submuscularly under the nerve and its vessels, and protect the radial nerve in the distal window.",
+      "source_ids": [
+        "ao_448da66bc421d7ed",
+        "ao_48fcde9b4b59d848"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "humeral_shaft_mio_transdeltoid_lateral_layers_01",
+      "text": "Skin, subcutaneous tissue, deltoid proximally, the biceps-triceps interval distally, the axillary nerve, and the lateral humeral surface.",
+      "source_ids": [
+        "ao_448da66bc421d7ed"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "humeral_shaft_mio_transdeltoid_lateral_structures_at_risk_01",
+      "text": "The anterior branch of the axillary nerve crossing about 6 cm below the acromion and the radial nerve in the distal window are at risk.",
+      "source_ids": [
+        "ao_448da66bc421d7ed",
+        "ao_48fcde9b4b59d848"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "humeral_shaft_mio_transdeltoid_lateral_danger_zones_01",
+      "text": "The zone roughly 5 to 7 cm below the lateral acromion where the axillary nerve crosses is the danger zone; do not split the deltoid beyond 5 cm from its origin.",
+      "source_ids": [
+        "ao_448da66bc421d7ed"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "humeral_shaft_mio_transdeltoid_lateral_retraction_hazards_01",
+      "text": "Palpate the axillary nerve on the deep deltoid surface, place a stay suture at the inferior border of the split, and pass instruments carefully beneath the nerve.",
+      "source_ids": [
+        "ao_448da66bc421d7ed"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "humeral_shaft_mio_transdeltoid_lateral_exposure_01",
+      "text": "Provides proximal and distal lateral windows for submuscular plate fixation of the humeral shaft.",
+      "source_ids": [
+        "ao_448da66bc421d7ed"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "humeral_shaft_mio_transdeltoid_lateral_limitations_01",
+      "text": "It gives no direct visualization of the fracture and relies on indirect reduction and imaging, with the axillary and radial nerves bounding the safe corridor.",
+      "source_ids": [
+        "ao_448da66bc421d7ed"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "humeral_shaft_mio_transdeltoid_lateral_indications_01",
+      "text": "Indicated for minimally invasive plating of proximal humeral shaft fractures, especially with greater tuberosity extension.",
+      "source_ids": [
+        "ao_448da66bc421d7ed"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "humeral_shaft_mio_transdeltoid_lateral_closure_01",
+      "text": "Irrigate, optionally drain, and close the deltoid fascia, subcutaneous tissue, and skin in sequence.",
+      "source_ids": [
+        "ao_448da66bc421d7ed"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "humeral_shaft_mio_transdeltoid_lateral_complications_01",
+      "text": "Complications include axillary nerve injury with deltoid weakness, radial nerve injury distally, and malreduction.",
+      "source_ids": [
+        "ao_448da66bc421d7ed",
+        "ao_48fcde9b4b59d848"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "humeral_shaft_mio_transdeltoid_lateral_questions_01",
+      "text": "How far below the acromion does the axillary nerve cross the humerus?",
+      "source_ids": [
+        "ao_448da66bc421d7ed"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "humeral_shaft_mio_transdeltoid_lateral_questions_02",
+      "text": "How far may the deltoid be split from its origin?",
+      "source_ids": [
+        "ao_448da66bc421d7ed"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "humeral_shaft_mio_transdeltoid_lateral_questions_03",
+      "text": "Which nerve is protected in the distal window?",
+      "source_ids": [
+        "ao_448da66bc421d7ed",
+        "ao_48fcde9b4b59d848"
+      ],
+      "risk_level": "medium"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "ao_448da66bc421d7ed",
+      "provider": "AO Surgery Reference",
+      "title": "MIO transdeltoid lateral approach to the humeral shaft",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/humeral-shaft/approach/mio-transdeltoid-lateral-approach",
+      "source_page_id": "ao_448da66bc421d7ed"
+    },
+    {
+      "source_id": "ao_48fcde9b4b59d848",
+      "provider": "AO Surgery Reference",
+      "title": "Lateral approach to the humeral shaft",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/humeral-shaft/approach/lateral-approach-to-the-humeral-shaft",
+      "source_page_id": "ao_48fcde9b4b59d848"
+    }
+  ],
+  "content_status": "agent_review_pending",
+  "review": {
+    "status": "agent_review_pending",
+    "required_roles": [
+      "adversarial_safety_reviewer",
+      "approach_anatomy_reviewer",
+      "educational_value_reviewer",
+      "evidence_reviewer",
+      "operative_exposure_reviewer",
+      "procedure_applicability_reviewer"
+    ],
+    "completed_roles": []
+  },
+  "resolved_contradiction_keys": [],
+  "authoring_provenance": {
+    "method": "local_codex_curated",
+    "definition_file": "data/approach_library/curated/humeral_shaft_nailing_batch002_v1.json",
+    "api_used": false
+  }
+}

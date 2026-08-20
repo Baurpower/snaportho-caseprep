@@ -1,0 +1,342 @@
+{
+  "schema_version": "brobot_approach_packet_v1",
+  "approach_id": "hand_proximal_phalanx_dorsal",
+  "name": "Dorsal approach to the proximal phalanx",
+  "aliases": [
+    "Pratt dorsal proximal-phalanx approach"
+  ],
+  "region": "hand-proximal-phalanges",
+  "joint": "",
+  "bones": [
+    "proximal phalanx"
+  ],
+  "corridor": "Dorsal straight, curved, zigzag, or fasciocutaneous exposure from MCP to PIP, then a midline extensor split that stops short of the central slip or a paratendon interval between the lateral band and central slip",
+  "positioning": [
+    {
+      "text": "Position the hand so the dorsum of the proximal phalanx from MCP to PIP is accessible.",
+      "claim_ids": [
+        "hand_proximal_phalanx_dorsal_positioning_01"
+      ]
+    }
+  ],
+  "setup": [],
+  "surface_landmarks": [
+    {
+      "text": "Mark the MCP and PIP creases and plan any curve off the radial index and ulnar little-finger borders.",
+      "claim_ids": [
+        "hand_proximal_phalanx_dorsal_surface_landmarks_01"
+      ]
+    }
+  ],
+  "incision": [
+    {
+      "text": "Use a straight cut from MCP to proximal PIP, a gentle curve, a zigzag, or a fasciocutaneous flap based on the contralateral digital artery.",
+      "claim_ids": [
+        "hand_proximal_phalanx_dorsal_incision_01"
+      ]
+    }
+  ],
+  "superficial_interval": [
+    {
+      "text": "Elevate layers together, protect dorsal sensory nerves, and preserve longitudinal veins.",
+      "claim_ids": [
+        "hand_proximal_phalanx_dorsal_superficial_interval_01"
+      ]
+    }
+  ],
+  "deep_interval": [
+    {
+      "text": "Split the extensor along its midline fibers without cutting periosteum and without going so far distal that the central slip is injured, or enter between the lateral band and central slip. Elevate periosteum only next to the fracture.",
+      "claim_ids": [
+        "hand_proximal_phalanx_dorsal_deep_interval_01"
+      ]
+    }
+  ],
+  "layers": [
+    {
+      "text": "Skin, dorsal veins and nerves, extensor apparatus, periosteum, then the proximal-phalanx shaft.",
+      "claim_ids": [
+        "hand_proximal_phalanx_dorsal_layers_01"
+      ]
+    }
+  ],
+  "structures_encountered": [],
+  "structures_at_risk": [
+    {
+      "text": "The central slip (injury causes boutonnière), dorsal sensory nerves, and longitudinal veins are at risk.",
+      "claim_ids": [
+        "hand_proximal_phalanx_dorsal_structures_at_risk_01"
+      ]
+    }
+  ],
+  "danger_zones": [
+    {
+      "text": "A split carried too far distal injures the central slip and can produce a boutonnière deformity.",
+      "claim_ids": [
+        "hand_proximal_phalanx_dorsal_danger_zones_01"
+      ]
+    }
+  ],
+  "retraction_hazards": [
+    {
+      "text": "After a paratendon approach reattach the tendon so it does not sublux. Limit fasciocutaneous-flap dissection at its arterial base.",
+      "claim_ids": [
+        "hand_proximal_phalanx_dorsal_retraction_hazards_01"
+      ]
+    }
+  ],
+  "exposure": [
+    {
+      "text": "Exposes the extensor and the dorsal proximal-phalanx shaft; extension can include the MCP or PIP.",
+      "claim_ids": [
+        "hand_proximal_phalanx_dorsal_exposure_01"
+      ]
+    }
+  ],
+  "limitations": [
+    {
+      "text": "A straight midline scar can tether skin to tendon. A curved flap has poorer apical perfusion.",
+      "claim_ids": [
+        "hand_proximal_phalanx_dorsal_limitations_01"
+      ]
+    }
+  ],
+  "extensions": [],
+  "indications": [
+    {
+      "text": "Used for proximal intra-articular, metaphyseal, and diaphyseal proximal-phalanx fractures, including basal articular fractures that extend into the shaft.",
+      "claim_ids": [
+        "hand_proximal_phalanx_dorsal_indications_01"
+      ]
+    }
+  ],
+  "relative_contraindications": [],
+  "implant_implications": [],
+  "fluoroscopy_implications": [],
+  "closure": [
+    {
+      "text": "Repair tendon incisions with nonabsorbable monofilament and cover implants with periosteum.",
+      "claim_ids": [
+        "hand_proximal_phalanx_dorsal_closure_01"
+      ]
+    }
+  ],
+  "complications": [
+    {
+      "text": "Complications include boutonnière deformity, extensor adhesion to uncovered metal, and flap-apex necrosis.",
+      "claim_ids": [
+        "hand_proximal_phalanx_dorsal_complications_01"
+      ]
+    }
+  ],
+  "bailouts": [],
+  "procedure_applications": [
+    {
+      "procedure_id": "proximal_phalanx_fracture_orif",
+      "relationship": "primary_option",
+      "condition": "A proximal-phalanx intra-articular, metaphyseal, or diaphyseal fracture is fixed through a dorsal Pratt window"
+    }
+  ],
+  "questions": [
+    {
+      "question": "What eponym is attached to the dorsal proximal-phalanx approach?",
+      "answer": "Pratt.",
+      "claim_ids": [
+        "hand_proximal_phalanx_dorsal_questions_01"
+      ]
+    },
+    {
+      "question": "Why must a midline extensor split not run too far distal?",
+      "answer": "It can injure the central slip and produce a boutonnière deformity.",
+      "claim_ids": [
+        "hand_proximal_phalanx_dorsal_questions_02"
+      ]
+    },
+    {
+      "question": "How much periosteum should be elevated?",
+      "answer": "Only immediately adjacent to the fracture line.",
+      "claim_ids": [
+        "hand_proximal_phalanx_dorsal_questions_03"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "hand_proximal_phalanx_dorsal_positioning_01",
+      "text": "Position the hand so the dorsum of the proximal phalanx from MCP to PIP is accessible.",
+      "source_ids": [
+        "ao_cd07a2ca87b019ec"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "hand_proximal_phalanx_dorsal_surface_landmarks_01",
+      "text": "Mark the MCP and PIP creases and plan any curve off the radial index and ulnar little-finger borders.",
+      "source_ids": [
+        "ao_cd07a2ca87b019ec",
+        "ao_ae78e73de8f9c222"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "hand_proximal_phalanx_dorsal_incision_01",
+      "text": "Use a straight cut from MCP to proximal PIP, a gentle curve, a zigzag, or a fasciocutaneous flap based on the contralateral digital artery.",
+      "source_ids": [
+        "ao_cd07a2ca87b019ec"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "hand_proximal_phalanx_dorsal_superficial_interval_01",
+      "text": "Elevate layers together, protect dorsal sensory nerves, and preserve longitudinal veins.",
+      "source_ids": [
+        "ao_cd07a2ca87b019ec",
+        "ao_ae78e73de8f9c222"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "hand_proximal_phalanx_dorsal_deep_interval_01",
+      "text": "Split the extensor along its midline fibers without cutting periosteum and without going so far distal that the central slip is injured, or enter between the lateral band and central slip. Elevate periosteum only next to the fracture.",
+      "source_ids": [
+        "ao_cd07a2ca87b019ec"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "hand_proximal_phalanx_dorsal_layers_01",
+      "text": "Skin, dorsal veins and nerves, extensor apparatus, periosteum, then the proximal-phalanx shaft.",
+      "source_ids": [
+        "ao_cd07a2ca87b019ec"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "hand_proximal_phalanx_dorsal_structures_at_risk_01",
+      "text": "The central slip (injury causes boutonnière), dorsal sensory nerves, and longitudinal veins are at risk.",
+      "source_ids": [
+        "ao_cd07a2ca87b019ec",
+        "ao_ae78e73de8f9c222"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "hand_proximal_phalanx_dorsal_danger_zones_01",
+      "text": "A split carried too far distal injures the central slip and can produce a boutonnière deformity.",
+      "source_ids": [
+        "ao_cd07a2ca87b019ec"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "hand_proximal_phalanx_dorsal_retraction_hazards_01",
+      "text": "After a paratendon approach reattach the tendon so it does not sublux. Limit fasciocutaneous-flap dissection at its arterial base.",
+      "source_ids": [
+        "ao_cd07a2ca87b019ec"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "hand_proximal_phalanx_dorsal_exposure_01",
+      "text": "Exposes the extensor and the dorsal proximal-phalanx shaft; extension can include the MCP or PIP.",
+      "source_ids": [
+        "ao_cd07a2ca87b019ec"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "hand_proximal_phalanx_dorsal_limitations_01",
+      "text": "A straight midline scar can tether skin to tendon. A curved flap has poorer apical perfusion.",
+      "source_ids": [
+        "ao_cd07a2ca87b019ec",
+        "ao_ae78e73de8f9c222"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "hand_proximal_phalanx_dorsal_indications_01",
+      "text": "Used for proximal intra-articular, metaphyseal, and diaphyseal proximal-phalanx fractures, including basal articular fractures that extend into the shaft.",
+      "source_ids": [
+        "ao_cd07a2ca87b019ec"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "hand_proximal_phalanx_dorsal_closure_01",
+      "text": "Repair tendon incisions with nonabsorbable monofilament and cover implants with periosteum.",
+      "source_ids": [
+        "ao_cd07a2ca87b019ec",
+        "ao_ae78e73de8f9c222"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "hand_proximal_phalanx_dorsal_complications_01",
+      "text": "Complications include boutonnière deformity, extensor adhesion to uncovered metal, and flap-apex necrosis.",
+      "source_ids": [
+        "ao_cd07a2ca87b019ec",
+        "ao_ae78e73de8f9c222"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "hand_proximal_phalanx_dorsal_questions_01",
+      "text": "What eponym is attached to the dorsal proximal-phalanx approach?",
+      "source_ids": [
+        "ao_cd07a2ca87b019ec"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "hand_proximal_phalanx_dorsal_questions_02",
+      "text": "Why must a midline extensor split not run too far distal?",
+      "source_ids": [
+        "ao_cd07a2ca87b019ec"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "hand_proximal_phalanx_dorsal_questions_03",
+      "text": "How much periosteum should be elevated?",
+      "source_ids": [
+        "ao_cd07a2ca87b019ec"
+      ],
+      "risk_level": "medium"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "ao_cd07a2ca87b019ec",
+      "provider": "AO Surgery Reference",
+      "title": "Dorsal Approach To The Proximal Phalanx",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/hand-proximal-phalanges/approach/dorsal-approach-to-the-proximal-phalanx",
+      "source_page_id": "ao_cd07a2ca87b019ec"
+    },
+    {
+      "source_id": "ao_ae78e73de8f9c222",
+      "provider": "AO Surgery Reference",
+      "title": "Dorsal Approach To Middle Phalanx",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/hand-middle-phalanges/approach/dorsal-approach-to-middle-phalanx",
+      "source_page_id": "ao_ae78e73de8f9c222"
+    }
+  ],
+  "content_status": "agent_review_pending",
+  "review": {
+    "status": "agent_review_pending",
+    "required_roles": [
+      "adversarial_safety_reviewer",
+      "approach_anatomy_reviewer",
+      "educational_value_reviewer",
+      "evidence_reviewer",
+      "operative_exposure_reviewer",
+      "procedure_applicability_reviewer"
+    ],
+    "completed_roles": []
+  },
+  "resolved_contradiction_keys": [],
+  "authoring_provenance": {
+    "method": "local_codex_curated",
+    "definition_file": "data/approach_library/curated/hand_dip_pip_phalanx_batch001_v1.json",
+    "api_used": false
+  }
+}

@@ -1,0 +1,369 @@
+{
+  "schema_version": "brobot_approach_packet_v1",
+  "approach_id": "spine_anterior_cervical_c3_c7",
+  "name": "Anterior approach to the subaxial cervical spine (C3–C7)",
+  "aliases": [
+    "Smith-Robinson anterior cervical approach"
+  ],
+  "region": "subaxial-cervical",
+  "joint": "",
+  "bones": [
+    "C3",
+    "C4",
+    "C5",
+    "C6",
+    "C7"
+  ],
+  "corridor": "Transverse or longitudinal cut, platysma, fascia along the anteromedial sternocleidomastoid border, blunt plane between carotid sheath and trachea/esophagus to prevertebral fascia, then longus colli mobilization",
+  "positioning": [
+    {
+      "text": "Position so a nasogastric tube and the endotracheal tube can be felt, and the planned cervical level can be imaged.",
+      "claim_ids": [
+        "spine_anterior_cervical_c3_c7_positioning_01"
+      ]
+    }
+  ],
+  "setup": [],
+  "surface_landmarks": [
+    {
+      "text": "Mark the sternocleidomastoid, midline viscera, and the planned transverse level. Side is surgeon preference: left tends to avoid the recurrent laryngeal nerve, right lets it be seen and protected.",
+      "claim_ids": [
+        "spine_anterior_cervical_c3_c7_surface_landmarks_01"
+      ]
+    }
+  ],
+  "incision": [
+    {
+      "text": "Use a transverse cut at the required level for a better scar and limited exposure, or a more longitudinal cut for multilevel work. Revision, radiated, or C2-extending primary-tumor cases may need a head-and-neck surgeon.",
+      "claim_ids": [
+        "spine_anterior_cervical_c3_c7_incision_01"
+      ]
+    }
+  ],
+  "superficial_interval": [
+    {
+      "text": "Divide platysma in line with the skin, then divide deep cervical fascia along the anteromedial sternocleidomastoid border.",
+      "claim_ids": [
+        "spine_anterior_cervical_c3_c7_superficial_interval_01"
+      ]
+    }
+  ],
+  "deep_interval": [
+    {
+      "text": "Palpate the carotid pulse and stay medial to the sheath. Bluntly develop the plane between the carotid sheath and the trachea/esophagus down to prevertebral fascia. Identify and protect the recurrent laryngeal nerve. Open prevertebral fascia longitudinally, confirm the level, mobilize longus colli, and place distractors. A nasogastric tube helps identify the esophagus.",
+      "claim_ids": [
+        "spine_anterior_cervical_c3_c7_deep_interval_01"
+      ]
+    }
+  ],
+  "layers": [
+    {
+      "text": "Skin, platysma, deep cervical fascia, carotid-sheath versus visceral plane, prevertebral fascia, longus colli, then the vertebral body.",
+      "claim_ids": [
+        "spine_anterior_cervical_c3_c7_layers_01"
+      ]
+    }
+  ],
+  "structures_encountered": [],
+  "structures_at_risk": [
+    {
+      "text": "The esophagus, recurrent laryngeal nerve, and carotid artery are the principal structures at risk. Esophageal injury is potentially lethal.",
+      "claim_ids": [
+        "spine_anterior_cervical_c3_c7_structures_at_risk_01"
+      ]
+    }
+  ],
+  "danger_zones": [
+    {
+      "text": "Blind sharp dissection medial to the viscera or through the carotid sheath, and working without a nasogastric tube to mark the esophagus, are the danger zones. Carotid injury is held with direct pressure while vascular surgery is called.",
+      "claim_ids": [
+        "spine_anterior_cervical_c3_c7_danger_zones_01"
+      ]
+    }
+  ],
+  "retraction_hazards": [
+    {
+      "text": "Do not retract forcefully on the esophagus or carotid sheath. Call thoracic or ENT if esophageal injury is suspected.",
+      "claim_ids": [
+        "spine_anterior_cervical_c3_c7_retraction_hazards_01"
+      ]
+    }
+  ],
+  "exposure": [
+    {
+      "text": "Shows C3–C7 vertebral bodies for anterior trauma, metastatic, or primary-tumor work. Primary-tumor exposure may be wider than trauma.",
+      "claim_ids": [
+        "spine_anterior_cervical_c3_c7_exposure_01"
+      ]
+    }
+  ],
+  "limitations": [
+    {
+      "text": "A transverse cut gives limited multilevel access. Superior extension to C2 needs additional head-and-neck help.",
+      "claim_ids": [
+        "spine_anterior_cervical_c3_c7_limitations_01"
+      ]
+    }
+  ],
+  "extensions": [],
+  "indications": [
+    {
+      "text": "Used for anterior access to C3–C7 in trauma, metastatic disease, and primary tumors.",
+      "claim_ids": [
+        "spine_anterior_cervical_c3_c7_indications_01"
+      ]
+    }
+  ],
+  "relative_contraindications": [],
+  "implant_implications": [],
+  "fluoroscopy_implications": [],
+  "closure": [
+    {
+      "text": "Suture platysma, then fat and skin. Place a drain through a separate stab.",
+      "claim_ids": [
+        "spine_anterior_cervical_c3_c7_closure_01"
+      ]
+    }
+  ],
+  "complications": [
+    {
+      "text": "Complications include esophageal perforation, recurrent-laryngeal palsy, and carotid injury.",
+      "claim_ids": [
+        "spine_anterior_cervical_c3_c7_complications_01"
+      ]
+    }
+  ],
+  "bailouts": [],
+  "procedure_applications": [
+    {
+      "procedure_id": "cervical_spine_orif",
+      "relationship": "primary_option",
+      "condition": "A C3–C7 fracture, tumor, or anterior reconstruction is exposed between the carotid sheath and the viscera"
+    }
+  ],
+  "questions": [
+    {
+      "question": "What is the deep plane of the anterior cervical approach?",
+      "answer": "Medial to the carotid sheath and lateral to the trachea and esophagus, down to prevertebral fascia.",
+      "claim_ids": [
+        "spine_anterior_cervical_c3_c7_questions_01"
+      ]
+    },
+    {
+      "question": "How does side choice affect the recurrent laryngeal nerve?",
+      "answer": "A left-sided approach tends to avoid it; a right-sided approach lets it be visualized and protected.",
+      "claim_ids": [
+        "spine_anterior_cervical_c3_c7_questions_02"
+      ]
+    },
+    {
+      "question": "Why is a nasogastric tube used?",
+      "answer": "To identify the esophagus and help prevent accidental injury.",
+      "claim_ids": [
+        "spine_anterior_cervical_c3_c7_questions_03"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "spine_anterior_cervical_c3_c7_positioning_01",
+      "text": "Position so a nasogastric tube and the endotracheal tube can be felt, and the planned cervical level can be imaged.",
+      "source_ids": [
+        "ao_798a5b02effb79e8",
+        "ao_84532b52fa87b529"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "spine_anterior_cervical_c3_c7_surface_landmarks_01",
+      "text": "Mark the sternocleidomastoid, midline viscera, and the planned transverse level. Side is surgeon preference: left tends to avoid the recurrent laryngeal nerve, right lets it be seen and protected.",
+      "source_ids": [
+        "ao_798a5b02effb79e8",
+        "ao_84532b52fa87b529",
+        "ao_f7fe36b5c2cea82a"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "spine_anterior_cervical_c3_c7_incision_01",
+      "text": "Use a transverse cut at the required level for a better scar and limited exposure, or a more longitudinal cut for multilevel work. Revision, radiated, or C2-extending primary-tumor cases may need a head-and-neck surgeon.",
+      "source_ids": [
+        "ao_798a5b02effb79e8",
+        "ao_84532b52fa87b529",
+        "ao_f7fe36b5c2cea82a"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "spine_anterior_cervical_c3_c7_superficial_interval_01",
+      "text": "Divide platysma in line with the skin, then divide deep cervical fascia along the anteromedial sternocleidomastoid border.",
+      "source_ids": [
+        "ao_798a5b02effb79e8",
+        "ao_84532b52fa87b529"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "spine_anterior_cervical_c3_c7_deep_interval_01",
+      "text": "Palpate the carotid pulse and stay medial to the sheath. Bluntly develop the plane between the carotid sheath and the trachea/esophagus down to prevertebral fascia. Identify and protect the recurrent laryngeal nerve. Open prevertebral fascia longitudinally, confirm the level, mobilize longus colli, and place distractors. A nasogastric tube helps identify the esophagus.",
+      "source_ids": [
+        "ao_798a5b02effb79e8",
+        "ao_84532b52fa87b529",
+        "ao_f7fe36b5c2cea82a"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "spine_anterior_cervical_c3_c7_layers_01",
+      "text": "Skin, platysma, deep cervical fascia, carotid-sheath versus visceral plane, prevertebral fascia, longus colli, then the vertebral body.",
+      "source_ids": [
+        "ao_798a5b02effb79e8",
+        "ao_84532b52fa87b529"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "spine_anterior_cervical_c3_c7_structures_at_risk_01",
+      "text": "The esophagus, recurrent laryngeal nerve, and carotid artery are the principal structures at risk. Esophageal injury is potentially lethal.",
+      "source_ids": [
+        "ao_798a5b02effb79e8",
+        "ao_84532b52fa87b529",
+        "ao_f7fe36b5c2cea82a"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "spine_anterior_cervical_c3_c7_danger_zones_01",
+      "text": "Blind sharp dissection medial to the viscera or through the carotid sheath, and working without a nasogastric tube to mark the esophagus, are the danger zones. Carotid injury is held with direct pressure while vascular surgery is called.",
+      "source_ids": [
+        "ao_798a5b02effb79e8",
+        "ao_84532b52fa87b529"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "spine_anterior_cervical_c3_c7_retraction_hazards_01",
+      "text": "Do not retract forcefully on the esophagus or carotid sheath. Call thoracic or ENT if esophageal injury is suspected.",
+      "source_ids": [
+        "ao_798a5b02effb79e8",
+        "ao_84532b52fa87b529"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "spine_anterior_cervical_c3_c7_exposure_01",
+      "text": "Shows C3–C7 vertebral bodies for anterior trauma, metastatic, or primary-tumor work. Primary-tumor exposure may be wider than trauma.",
+      "source_ids": [
+        "ao_798a5b02effb79e8",
+        "ao_f7fe36b5c2cea82a"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "spine_anterior_cervical_c3_c7_limitations_01",
+      "text": "A transverse cut gives limited multilevel access. Superior extension to C2 needs additional head-and-neck help.",
+      "source_ids": [
+        "ao_798a5b02effb79e8",
+        "ao_f7fe36b5c2cea82a"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "spine_anterior_cervical_c3_c7_indications_01",
+      "text": "Used for anterior access to C3–C7 in trauma, metastatic disease, and primary tumors.",
+      "source_ids": [
+        "ao_798a5b02effb79e8",
+        "ao_84532b52fa87b529",
+        "ao_f7fe36b5c2cea82a"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "spine_anterior_cervical_c3_c7_closure_01",
+      "text": "Suture platysma, then fat and skin. Place a drain through a separate stab.",
+      "source_ids": [
+        "ao_798a5b02effb79e8"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "spine_anterior_cervical_c3_c7_complications_01",
+      "text": "Complications include esophageal perforation, recurrent-laryngeal palsy, and carotid injury.",
+      "source_ids": [
+        "ao_798a5b02effb79e8",
+        "ao_84532b52fa87b529",
+        "ao_f7fe36b5c2cea82a"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "spine_anterior_cervical_c3_c7_questions_01",
+      "text": "What is the deep plane of the anterior cervical approach?",
+      "source_ids": [
+        "ao_798a5b02effb79e8",
+        "ao_84532b52fa87b529"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "spine_anterior_cervical_c3_c7_questions_02",
+      "text": "How does side choice affect the recurrent laryngeal nerve?",
+      "source_ids": [
+        "ao_798a5b02effb79e8",
+        "ao_84532b52fa87b529"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "spine_anterior_cervical_c3_c7_questions_03",
+      "text": "Why is a nasogastric tube used?",
+      "source_ids": [
+        "ao_798a5b02effb79e8",
+        "ao_84532b52fa87b529"
+      ],
+      "risk_level": "medium"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "ao_798a5b02effb79e8",
+      "provider": "AO Surgery Reference",
+      "title": "Anterior Approach To The Cervical Spine",
+      "url": "https://surgeryreference.aofoundation.org/spine/trauma/subaxial-cervical/approach/anterior-approach-to-the-cervical-spine",
+      "source_page_id": "ao_798a5b02effb79e8"
+    },
+    {
+      "source_id": "ao_84532b52fa87b529",
+      "provider": "AO Surgery Reference",
+      "title": "Anterior Access To C3 C7",
+      "url": "https://surgeryreference.aofoundation.org/spine/tumors/metastatic-tumors/approach/anterior-access-to-c3-c7",
+      "source_page_id": "ao_84532b52fa87b529"
+    },
+    {
+      "source_id": "ao_f7fe36b5c2cea82a",
+      "provider": "AO Surgery Reference",
+      "title": "Anterior Access To The Cervical Spine C3 To C7",
+      "url": "https://surgeryreference.aofoundation.org/spine/tumors/primary-tumors/approach/anterior-access-to-the-cervical-spine-c3-to-c7",
+      "source_page_id": "ao_f7fe36b5c2cea82a"
+    }
+  ],
+  "content_status": "agent_review_pending",
+  "review": {
+    "status": "agent_review_pending",
+    "required_roles": [
+      "adversarial_safety_reviewer",
+      "approach_anatomy_reviewer",
+      "educational_value_reviewer",
+      "evidence_reviewer",
+      "operative_exposure_reviewer",
+      "procedure_applicability_reviewer"
+    ],
+    "completed_roles": []
+  },
+  "resolved_contradiction_keys": [],
+  "authoring_provenance": {
+    "method": "local_codex_curated",
+    "definition_file": "data/approach_library/curated/spine_core_batch001_v1.json",
+    "api_used": false
+  }
+}

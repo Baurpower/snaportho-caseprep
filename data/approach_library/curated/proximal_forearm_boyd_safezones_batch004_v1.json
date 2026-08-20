@@ -1,0 +1,559 @@
+{
+  "approaches": [
+    {
+      "approach_id": "proximal_forearm_boyd",
+      "name": "Posterolateral Boyd approach to the proximal radius and ulna",
+      "aliases": [
+        "Boyd approach to the proximal forearm"
+      ],
+      "region": "proximal-forearm",
+      "joint": "elbow",
+      "bones": [
+        "ulna",
+        "radius"
+      ],
+      "corridor": "Posterolateral interval behind the supracondylar ridge to the lateral ulnar border, reflecting anconeus and detaching the supinator from its ulnar origin to reach the radial head and proximal ulna, protecting the posterior interosseous nerve",
+      "sources": [
+        {
+          "source_id": "ao_a1e9500de96875ed",
+          "provider": "AO Surgery Reference",
+          "title": "Posterolateral (Boyd) approach to the proximal radius and ulna (pediatric)",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/pediatric-trauma/proximal-forearm/approach/posterolateral-boyd-approach-to-the-proximal-radius-and-ulna",
+          "source_page_id": "ao_a1e9500de96875ed"
+        },
+        {
+          "source_id": "ao_43a73c40a5d31f67",
+          "provider": "AO Surgery Reference",
+          "title": "Speed and Boyd's approach to the forearm shaft",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/forearm-shaft/approach/speed-and-boyds-approach",
+          "source_page_id": "ao_43a73c40a5d31f67"
+        },
+        {
+          "source_id": "ao_c7ce24b68a2b0724",
+          "provider": "AO Surgery Reference",
+          "title": "Posterolateral Boyd Approach To The Proximal Radius And Ulna (pediatric forearm shaft)",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/pediatric-trauma/forearm-shaft/approach/posterolateral-boyd-approach-to-the-proximal-radius-and-ulna",
+          "source_page_id": "ao_c7ce24b68a2b0724"
+        }
+      ],
+      "procedure_applications": [
+        {
+          "procedure_id": "monteggia_fracture_orif",
+          "relationship": "primary_option",
+          "condition": "A Monteggia injury needs combined exposure of the proximal ulna and radial head"
+        }
+      ],
+      "sections": {
+        "positioning": [
+          {
+            "text": "Position with the arm across the chest or on a support so the posterolateral elbow and subcutaneous ulna are accessible.",
+            "source_ids": [
+              "ao_a1e9500de96875ed"
+            ]
+          }
+        ],
+        "surface_landmarks": [
+          {
+            "text": "Mark the supracondylar ridge, the lateral epicondyle, and the lateral border of the ulna.",
+            "source_ids": [
+              "ao_a1e9500de96875ed"
+            ]
+          }
+        ],
+        "incision": [
+          {
+            "text": "Start posterolaterally behind the supracondylar ridge and continue distally to the lateral border of the ulna.",
+            "source_ids": [
+              "ao_a1e9500de96875ed"
+            ]
+          }
+        ],
+        "superficial_interval": [
+          {
+            "text": "Incise the deep fascia along the lateral margin of the ulna and reflect the anconeus anterolaterally after releasing its ulnar attachment.",
+            "source_ids": [
+              "ao_a1e9500de96875ed",
+              "ao_43a73c40a5d31f67"
+            ]
+          }
+        ],
+        "deep_interval": [
+          {
+            "text": "Detach the supinator near its ulnar origin and elevate it from the interosseous membrane to expose the posterior capsule over the radial head, avoiding retractors around the radius that could injure the posterior interosseous nerve.",
+            "source_ids": [
+              "ao_a1e9500de96875ed",
+              "ao_43a73c40a5d31f67"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "layers": [
+          {
+            "text": "Skin, subcutaneous tissue, deep fascia, anconeus and supinator, the posterior capsule, and the radial head and proximal ulna.",
+            "source_ids": [
+              "ao_a1e9500de96875ed"
+            ]
+          }
+        ],
+        "structures_at_risk": [
+          {
+            "text": "The posterior interosseous nerve within the supinator is the principal structure at risk, and retractors around the radius can injure it.",
+            "source_ids": [
+              "ao_a1e9500de96875ed",
+              "ao_43a73c40a5d31f67"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "danger_zones": [
+          {
+            "text": "The supinator mass over the radial neck is the danger zone for the posterior interosseous nerve.",
+            "source_ids": [
+              "ao_a1e9500de96875ed",
+              "ao_43a73c40a5d31f67"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "retraction_hazards": [
+          {
+            "text": "Do not place retractors around the radius, and preserve the periosteal vessels to the radial head while reducing the fracture.",
+            "source_ids": [
+              "ao_a1e9500de96875ed"
+            ],
+            "risk_level": "medium"
+          }
+        ],
+        "exposure": [
+          {
+            "text": "Exposes the radial head and the proximal ulna through a single posterolateral incision.",
+            "source_ids": [
+              "ao_a1e9500de96875ed"
+            ]
+          }
+        ],
+        "limitations": [
+          {
+            "text": "As a combined exposure of both bones it carries a radioulnar synostosis risk, so it is used selectively.",
+            "source_ids": [
+              "ao_a1e9500de96875ed",
+              "ao_43a73c40a5d31f67"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "indications": [
+          {
+            "text": "Indicated for Monteggia injuries and combined proximal radioulnar exposure.",
+            "source_ids": [
+              "ao_a1e9500de96875ed"
+            ]
+          }
+        ],
+        "closure": [
+          {
+            "text": "Close the capsule with 3-0 resorbable sutures, reattach the muscles and fascia with 2-0 or 3-0 resorbable sutures, and close skin with fine resorbable sutures.",
+            "source_ids": [
+              "ao_a1e9500de96875ed"
+            ]
+          }
+        ],
+        "complications": [
+          {
+            "text": "Complications include posterior interosseous nerve palsy and radioulnar synostosis.",
+            "source_ids": [
+              "ao_a1e9500de96875ed",
+              "ao_43a73c40a5d31f67"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "questions": [
+          {
+            "question": "Where does the Boyd incision begin?",
+            "answer": "Posterolaterally behind the supracondylar ridge, continuing to the lateral border of the ulna.",
+            "source_ids": [
+              "ao_a1e9500de96875ed"
+            ]
+          },
+          {
+            "question": "Why should retractors not be placed around the radius?",
+            "answer": "They may injure the posterior interosseous nerve.",
+            "source_ids": [
+              "ao_a1e9500de96875ed"
+            ]
+          },
+          {
+            "question": "What is preserved while reducing the radial head fracture?",
+            "answer": "The periosteal vessels to the radial head.",
+            "source_ids": [
+              "ao_a1e9500de96875ed"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "approach_id": "proximal_forearm_posterior_ulna",
+      "name": "Posterior approach to the proximal ulna",
+      "aliases": [
+        "posterior approach to the olecranon and proximal ulna"
+      ],
+      "region": "proximal-forearm",
+      "joint": "elbow",
+      "bones": [
+        "ulna"
+      ],
+      "corridor": "Posterior incision curving around the olecranon tip along the subcutaneous ulnar border, exposing the proximal ulna between anconeus and flexor carpi ulnaris while protecting the ulnar nerve",
+      "sources": [
+        {
+          "source_id": "ao_1942c6cf57c65f8b",
+          "provider": "AO Surgery Reference",
+          "title": "Posterior approach to the ulna (pediatric proximal forearm)",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/pediatric-trauma/proximal-forearm/approach/posterior-approach-to-the-ulna",
+          "source_page_id": "ao_1942c6cf57c65f8b"
+        },
+        {
+          "source_id": "ao_8ddea5ff05bc3556",
+          "provider": "AO Surgery Reference",
+          "title": "Approach to the ulna (pediatric)",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/pediatric-trauma/forearm-shaft/approach/approach-to-the-ulna",
+          "source_page_id": "ao_8ddea5ff05bc3556"
+        }
+      ],
+      "procedure_applications": [
+        {
+          "procedure_id": "olecranon_fracture_orif",
+          "relationship": "primary_option",
+          "condition": "An olecranon or proximal ulnar fracture is fixed posteriorly"
+        }
+      ],
+      "sections": {
+        "positioning": [
+          {
+            "text": "Position with the arm across the chest and the elbow flexed so the posterior elbow and subcutaneous ulna are presented.",
+            "source_ids": [
+              "ao_1942c6cf57c65f8b"
+            ]
+          }
+        ],
+        "surface_landmarks": [
+          {
+            "text": "Mark the tip of the olecranon and the subcutaneous dorsal border of the ulna.",
+            "source_ids": [
+              "ao_1942c6cf57c65f8b"
+            ]
+          }
+        ],
+        "incision": [
+          {
+            "text": "Start a few centimeters proximal to the olecranon tip and curve the incision slightly laterally around the tip to protect the ulnar nerve and avoid a tender scar.",
+            "source_ids": [
+              "ao_1942c6cf57c65f8b"
+            ],
+            "risk_level": "medium"
+          }
+        ],
+        "superficial_interval": [
+          {
+            "text": "Incise the deep fascia to the dorsal border of the ulna, splitting the triceps tendon to reach the olecranon tip if needed.",
+            "source_ids": [
+              "ao_1942c6cf57c65f8b"
+            ]
+          }
+        ],
+        "deep_interval": [
+          {
+            "text": "Expose the proximal ulnar metaphysis between anconeus and flexor carpi ulnaris, extending distally along the subcutaneous ulna as required.",
+            "source_ids": [
+              "ao_1942c6cf57c65f8b",
+              "ao_8ddea5ff05bc3556"
+            ]
+          }
+        ],
+        "layers": [
+          {
+            "text": "Skin, subcutaneous tissue, deep fascia, the triceps tendon, the anconeus and flexor carpi ulnaris interval, and the proximal ulna.",
+            "source_ids": [
+              "ao_1942c6cf57c65f8b"
+            ]
+          }
+        ],
+        "structures_at_risk": [
+          {
+            "text": "The ulnar nerve medial to the olecranon is the principal structure at risk.",
+            "source_ids": [
+              "ao_1942c6cf57c65f8b",
+              "ao_8ddea5ff05bc3556"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "danger_zones": [
+          {
+            "text": "The medial side of the olecranon tip is the danger zone for the ulnar nerve, which is why the incision curves laterally around the tip.",
+            "source_ids": [
+              "ao_1942c6cf57c65f8b"
+            ],
+            "risk_level": "medium"
+          }
+        ],
+        "retraction_hazards": [
+          {
+            "text": "Keep the ulnar nerve protected medially and avoid a midline scar directly over the olecranon tip.",
+            "source_ids": [
+              "ao_1942c6cf57c65f8b"
+            ],
+            "risk_level": "medium"
+          }
+        ],
+        "exposure": [
+          {
+            "text": "Exposes the olecranon and proximal ulna, extendable distally as a direct subcutaneous ulnar approach.",
+            "source_ids": [
+              "ao_1942c6cf57c65f8b"
+            ]
+          }
+        ],
+        "limitations": [
+          {
+            "text": "It is a posterior ulnar exposure and does not directly address the radial side.",
+            "source_ids": [
+              "ao_1942c6cf57c65f8b"
+            ]
+          }
+        ],
+        "indications": [
+          {
+            "text": "Indicated for olecranon and proximal ulnar fractures.",
+            "source_ids": [
+              "ao_1942c6cf57c65f8b"
+            ]
+          }
+        ],
+        "closure": [
+          {
+            "text": "Reattach the flexor carpi ulnaris and anconeus, repair the fascia with resorbable sutures, and close subcutaneous tissue and skin.",
+            "source_ids": [
+              "ao_1942c6cf57c65f8b"
+            ]
+          }
+        ],
+        "complications": [
+          {
+            "text": "Complications include ulnar neuropathy, a tender posterior scar, and triceps weakness.",
+            "source_ids": [
+              "ao_1942c6cf57c65f8b",
+              "ao_8ddea5ff05bc3556"
+            ],
+            "risk_level": "medium"
+          }
+        ],
+        "questions": [
+          {
+            "question": "Why does the incision curve laterally around the olecranon tip?",
+            "answer": "To protect the ulnar nerve and avoid a tender scar when leaning on the elbow.",
+            "source_ids": [
+              "ao_1942c6cf57c65f8b"
+            ]
+          },
+          {
+            "question": "Between which muscles is the proximal ulnar metaphysis exposed?",
+            "answer": "Between the anconeus and the flexor carpi ulnaris.",
+            "source_ids": [
+              "ao_1942c6cf57c65f8b"
+            ]
+          },
+          {
+            "question": "How is the approach extended distally?",
+            "answer": "As a direct subcutaneous approach along the ulnar shaft.",
+            "source_ids": [
+              "ao_1942c6cf57c65f8b"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "approach_id": "proximal_forearm_pin_safe_zones",
+      "name": "Safe zones for external fixator pins in the proximal forearm",
+      "aliases": [
+        "proximal ulna Schanz screw safe zone"
+      ],
+      "region": "proximal-forearm",
+      "joint": "",
+      "bones": [
+        "ulna"
+      ],
+      "corridor": "Lateral to posterolateral Schanz screw corridor in the proximal or middle third of the subcutaneous ulna, with the forearm neutral, checking that the screw does not tether the radius",
+      "sources": [
+        {
+          "source_id": "ao_6c1346a3836a917c",
+          "provider": "AO Surgery Reference",
+          "title": "Safe zones (proximal forearm)",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/proximal-forearm/approach/safe-zones",
+          "source_page_id": "ao_6c1346a3836a917c"
+        },
+        {
+          "source_id": "ao_dba28fa580cb941b",
+          "provider": "AO Surgery Reference",
+          "title": "Safe zones for pin placement in the forearm",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/forearm-shaft/approach/safe-zones-for-pin-placement-in-the-forearm",
+          "source_page_id": "ao_dba28fa580cb941b"
+        }
+      ],
+      "procedure_applications": [
+        {
+          "procedure_id": "both_bone_forearm_fracture_orif",
+          "relationship": "conditional_option",
+          "condition": "A spanning external fixator is applied across the elbow or proximal forearm"
+        }
+      ],
+      "sections": {
+        "positioning": [
+          {
+            "text": "Position with the forearm in neutral rotation and the subcutaneous ulna accessible under imaging.",
+            "source_ids": [
+              "ao_6c1346a3836a917c"
+            ]
+          }
+        ],
+        "surface_landmarks": [
+          {
+            "text": "Palpate the easily recognizable subcutaneous border of the proximal and middle ulna.",
+            "source_ids": [
+              "ao_6c1346a3836a917c",
+              "ao_dba28fa580cb941b"
+            ]
+          }
+        ],
+        "incision": [
+          {
+            "text": "Make a small incision to bone at each planned Schanz screw site.",
+            "source_ids": [
+              "ao_6c1346a3836a917c"
+            ]
+          }
+        ],
+        "superficial_interval": [
+          {
+            "text": "Insert Schanz screws into the lateral or posterolateral part of the proximal or middle third of the ulna with the forearm neutral.",
+            "source_ids": [
+              "ao_6c1346a3836a917c",
+              "ao_dba28fa580cb941b"
+            ]
+          }
+        ],
+        "deep_interval": [
+          {
+            "text": "After insertion, check pronation and supination to make sure the Schanz screw does not tether or contact the radius.",
+            "source_ids": [
+              "ao_6c1346a3836a917c"
+            ]
+          }
+        ],
+        "layers": [
+          {
+            "text": "Skin, subcutaneous tissue, and the ulnar cortex.",
+            "source_ids": [
+              "ao_6c1346a3836a917c"
+            ]
+          }
+        ],
+        "structures_at_risk": [
+          {
+            "text": "The posterior interosseous nerve near the proximal radius and the forearm rotation (if the screw contacts the radius) are the concerns; the subcutaneous ulna itself is a safe corridor.",
+            "source_ids": [
+              "ao_6c1346a3836a917c",
+              "ao_dba28fa580cb941b"
+            ],
+            "risk_level": "medium"
+          }
+        ],
+        "danger_zones": [
+          {
+            "text": "Screws that stray toward the radius or the proximal supinator region risk tethering rotation or endangering the posterior interosseous nerve.",
+            "source_ids": [
+              "ao_6c1346a3836a917c",
+              "ao_dba28fa580cb941b"
+            ],
+            "risk_level": "medium"
+          }
+        ],
+        "retraction_hazards": [
+          {
+            "text": "Keep the screw within the ulna and confirm free forearm rotation after insertion.",
+            "source_ids": [
+              "ao_6c1346a3836a917c"
+            ]
+          }
+        ],
+        "exposure": [
+          {
+            "text": "Provides a safe ulnar corridor for external fixator Schanz screws rather than a formal exposure.",
+            "source_ids": [
+              "ao_6c1346a3836a917c"
+            ]
+          }
+        ],
+        "limitations": [
+          {
+            "text": "The safe corridor is limited to the lateral and posterolateral proximal-to-middle ulna to avoid the radius and proximal nerves.",
+            "source_ids": [
+              "ao_6c1346a3836a917c"
+            ]
+          }
+        ],
+        "indications": [
+          {
+            "text": "Indicated for external fixator Schanz screw placement in the proximal forearm.",
+            "source_ids": [
+              "ao_6c1346a3836a917c"
+            ]
+          }
+        ],
+        "closure": [
+          {
+            "text": "Close each incision loosely around the screw.",
+            "source_ids": [
+              "ao_6c1346a3836a917c"
+            ]
+          }
+        ],
+        "complications": [
+          {
+            "text": "Complications include restricted forearm rotation if the screw contacts the radius and pin-tract problems.",
+            "source_ids": [
+              "ao_6c1346a3836a917c",
+              "ao_dba28fa580cb941b"
+            ],
+            "risk_level": "medium"
+          }
+        ],
+        "questions": [
+          {
+            "question": "Into which part of the ulna are proximal forearm Schanz screws placed?",
+            "answer": "The lateral or posterolateral proximal or middle third of the ulna.",
+            "source_ids": [
+              "ao_6c1346a3836a917c"
+            ]
+          },
+          {
+            "question": "What must be checked after screw insertion?",
+            "answer": "Pronation and supination, to ensure the screw does not affect the radius.",
+            "source_ids": [
+              "ao_6c1346a3836a917c"
+            ]
+          },
+          {
+            "question": "In what rotation is the forearm held for insertion?",
+            "answer": "Neutral rotation.",
+            "source_ids": [
+              "ao_6c1346a3836a917c"
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

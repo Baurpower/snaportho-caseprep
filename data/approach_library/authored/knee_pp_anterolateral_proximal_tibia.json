@@ -1,0 +1,342 @@
+{
+  "schema_version": "brobot_approach_packet_v1",
+  "approach_id": "knee_pp_anterolateral_proximal_tibia",
+  "name": "Anterolateral approach to the proximal tibia (periprosthetic knee)",
+  "aliases": [
+    "periprosthetic anterolateral tibial approach"
+  ],
+  "region": "proximal-tibia",
+  "joint": "knee",
+  "bones": [
+    "proximal tibia"
+  ],
+  "corridor": "Anterolateral window through fascia anterior to the iliotibial tract, releasing tibialis anterior from the lateral tibia without periosteal stripping, optionally using a prior midline TKA incision or a more lateral mini-incision",
+  "positioning": [
+    {
+      "text": "Position so the prior midline scar, Gerdy tubercle, and lateral tibial crest can be seen and the knee imaged.",
+      "claim_ids": [
+        "knee_pp_anterolateral_proximal_tibia_positioning_01"
+      ]
+    }
+  ],
+  "setup": [],
+  "surface_landmarks": [
+    {
+      "text": "Mark the prior midline TKA incision, Gerdy tubercle, and the anterior tibial crest. A more lateral mini-incision is chosen if the sentinel scar is too medial.",
+      "claim_ids": [
+        "knee_pp_anterolateral_proximal_tibia_surface_landmarks_01"
+      ]
+    }
+  ],
+  "incision": [
+    {
+      "text": "Reuse the midline TKA incision when it allows safe retraction. If it is too medial, make a more lateral minimally invasive cut. Skin risk is lower when the fracture is remote from the arthroplasty.",
+      "claim_ids": [
+        "knee_pp_anterolateral_proximal_tibia_incision_01"
+      ]
+    }
+  ],
+  "superficial_interval": [
+    {
+      "text": "Open deep fascia anterior to the iliotibial tract. Release the proximal tibialis anterior attachment, and if needed incise the IT band or take a small Gerdy flake.",
+      "claim_ids": [
+        "knee_pp_anterolateral_proximal_tibia_superficial_interval_01"
+      ]
+    }
+  ],
+  "deep_interval": [
+    {
+      "text": "Elevate tibialis anterior from bone without stripping periosteum and retract it laterally. Do not chase the posteromedial tibia from this side.",
+      "claim_ids": [
+        "knee_pp_anterolateral_proximal_tibia_deep_interval_01"
+      ]
+    }
+  ],
+  "layers": [
+    {
+      "text": "Skin (prior midline or new lateral), fascia and IT band, tibialis anterior, periosteum, then the lateral proximal tibia.",
+      "claim_ids": [
+        "knee_pp_anterolateral_proximal_tibia_layers_01"
+      ]
+    }
+  ],
+  "structures_encountered": [],
+  "structures_at_risk": [
+    {
+      "text": "The extensor mechanism and the skin bridge between a medial TKA scar and a new lateral cut are at risk. Posteromedial dissection from this side is hazardous.",
+      "claim_ids": [
+        "knee_pp_anterolateral_proximal_tibia_structures_at_risk_01"
+      ]
+    }
+  ],
+  "danger_zones": [
+    {
+      "text": "Do not expose the posteromedial tibia from anterolateral. That risks the extensor mechanism and a poorly healing skin envelope.",
+      "claim_ids": [
+        "knee_pp_anterolateral_proximal_tibia_danger_zones_01"
+      ]
+    }
+  ],
+  "retraction_hazards": [
+    {
+      "text": "Judge how much retraction a reused midline scar can tolerate before making a separate lateral window.",
+      "claim_ids": [
+        "knee_pp_anterolateral_proximal_tibia_retraction_hazards_01"
+      ]
+    }
+  ],
+  "exposure": [
+    {
+      "text": "Shows the lateral proximal tibia for periprosthetic plating without a formal submeniscal plateau reconstruction unless the adult extensile window is added.",
+      "claim_ids": [
+        "knee_pp_anterolateral_proximal_tibia_exposure_01"
+      ]
+    }
+  ],
+  "limitations": [
+    {
+      "text": "Posteromedial fragments cannot be reached. A too-medial TKA scar may force a second lateral incision.",
+      "claim_ids": [
+        "knee_pp_anterolateral_proximal_tibia_limitations_01"
+      ]
+    }
+  ],
+  "extensions": [],
+  "indications": [
+    {
+      "text": "Used for anterolateral fixation of a proximal-tibial periprosthetic fracture around a total knee.",
+      "claim_ids": [
+        "knee_pp_anterolateral_proximal_tibia_indications_01"
+      ]
+    }
+  ],
+  "relative_contraindications": [],
+  "implant_implications": [],
+  "fluoroscopy_implications": [],
+  "closure": [
+    {
+      "text": "Irrigate the joint if it was opened, close in layers, consider a drain, and close skin with staples or nonabsorbable suture.",
+      "claim_ids": [
+        "knee_pp_anterolateral_proximal_tibia_closure_01"
+      ]
+    }
+  ],
+  "complications": [
+    {
+      "text": "Complications include skin-bridge necrosis between a reused midline scar and a new lateral cut, and extensor-mechanism injury from posteromedial dissection.",
+      "claim_ids": [
+        "knee_pp_anterolateral_proximal_tibia_complications_01"
+      ]
+    }
+  ],
+  "bailouts": [],
+  "procedure_applications": [
+    {
+      "procedure_id": "periprosthetic_knee_fracture_orif",
+      "relationship": "primary_option",
+      "condition": "A proximal-tibial periprosthetic fracture is plated from anterolateral, respecting a prior midline TKA scar"
+    }
+  ],
+  "questions": [
+    {
+      "question": "When is a new lateral mini-incision preferred over the TKA scar?",
+      "answer": "When the sentinel midline incision is too medial to allow safe visualization without excessive retraction.",
+      "claim_ids": [
+        "knee_pp_anterolateral_proximal_tibia_questions_01"
+      ]
+    },
+    {
+      "question": "Why must posteromedial tibia not be exposed from this side?",
+      "answer": "It risks the extensor mechanism and creates a difficult skin-healing environment.",
+      "claim_ids": [
+        "knee_pp_anterolateral_proximal_tibia_questions_02"
+      ]
+    },
+    {
+      "question": "How is tibialis anterior handled?",
+      "answer": "Released from bone without periosteal stripping and retracted laterally.",
+      "claim_ids": [
+        "knee_pp_anterolateral_proximal_tibia_questions_03"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "knee_pp_anterolateral_proximal_tibia_positioning_01",
+      "text": "Position so the prior midline scar, Gerdy tubercle, and lateral tibial crest can be seen and the knee imaged.",
+      "source_ids": [
+        "ao_7986e912d259fa51",
+        "ao_d032f518d347e3bb"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "knee_pp_anterolateral_proximal_tibia_surface_landmarks_01",
+      "text": "Mark the prior midline TKA incision, Gerdy tubercle, and the anterior tibial crest. A more lateral mini-incision is chosen if the sentinel scar is too medial.",
+      "source_ids": [
+        "ao_7986e912d259fa51"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "knee_pp_anterolateral_proximal_tibia_incision_01",
+      "text": "Reuse the midline TKA incision when it allows safe retraction. If it is too medial, make a more lateral minimally invasive cut. Skin risk is lower when the fracture is remote from the arthroplasty.",
+      "source_ids": [
+        "ao_7986e912d259fa51"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "knee_pp_anterolateral_proximal_tibia_superficial_interval_01",
+      "text": "Open deep fascia anterior to the iliotibial tract. Release the proximal tibialis anterior attachment, and if needed incise the IT band or take a small Gerdy flake.",
+      "source_ids": [
+        "ao_7986e912d259fa51",
+        "ao_d032f518d347e3bb"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "knee_pp_anterolateral_proximal_tibia_deep_interval_01",
+      "text": "Elevate tibialis anterior from bone without stripping periosteum and retract it laterally. Do not chase the posteromedial tibia from this side.",
+      "source_ids": [
+        "ao_7986e912d259fa51",
+        "ao_d032f518d347e3bb"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "knee_pp_anterolateral_proximal_tibia_layers_01",
+      "text": "Skin (prior midline or new lateral), fascia and IT band, tibialis anterior, periosteum, then the lateral proximal tibia.",
+      "source_ids": [
+        "ao_7986e912d259fa51",
+        "ao_d032f518d347e3bb"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "knee_pp_anterolateral_proximal_tibia_structures_at_risk_01",
+      "text": "The extensor mechanism and the skin bridge between a medial TKA scar and a new lateral cut are at risk. Posteromedial dissection from this side is hazardous.",
+      "source_ids": [
+        "ao_7986e912d259fa51"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "knee_pp_anterolateral_proximal_tibia_danger_zones_01",
+      "text": "Do not expose the posteromedial tibia from anterolateral. That risks the extensor mechanism and a poorly healing skin envelope.",
+      "source_ids": [
+        "ao_7986e912d259fa51"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "knee_pp_anterolateral_proximal_tibia_retraction_hazards_01",
+      "text": "Judge how much retraction a reused midline scar can tolerate before making a separate lateral window.",
+      "source_ids": [
+        "ao_7986e912d259fa51"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "knee_pp_anterolateral_proximal_tibia_exposure_01",
+      "text": "Shows the lateral proximal tibia for periprosthetic plating without a formal submeniscal plateau reconstruction unless the adult extensile window is added.",
+      "source_ids": [
+        "ao_7986e912d259fa51",
+        "ao_d032f518d347e3bb"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "knee_pp_anterolateral_proximal_tibia_limitations_01",
+      "text": "Posteromedial fragments cannot be reached. A too-medial TKA scar may force a second lateral incision.",
+      "source_ids": [
+        "ao_7986e912d259fa51"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "knee_pp_anterolateral_proximal_tibia_indications_01",
+      "text": "Used for anterolateral fixation of a proximal-tibial periprosthetic fracture around a total knee.",
+      "source_ids": [
+        "ao_7986e912d259fa51"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "knee_pp_anterolateral_proximal_tibia_closure_01",
+      "text": "Irrigate the joint if it was opened, close in layers, consider a drain, and close skin with staples or nonabsorbable suture.",
+      "source_ids": [
+        "ao_7986e912d259fa51"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "knee_pp_anterolateral_proximal_tibia_complications_01",
+      "text": "Complications include skin-bridge necrosis between a reused midline scar and a new lateral cut, and extensor-mechanism injury from posteromedial dissection.",
+      "source_ids": [
+        "ao_7986e912d259fa51"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "knee_pp_anterolateral_proximal_tibia_questions_01",
+      "text": "When is a new lateral mini-incision preferred over the TKA scar?",
+      "source_ids": [
+        "ao_7986e912d259fa51"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "knee_pp_anterolateral_proximal_tibia_questions_02",
+      "text": "Why must posteromedial tibia not be exposed from this side?",
+      "source_ids": [
+        "ao_7986e912d259fa51"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "knee_pp_anterolateral_proximal_tibia_questions_03",
+      "text": "How is tibialis anterior handled?",
+      "source_ids": [
+        "ao_7986e912d259fa51",
+        "ao_d032f518d347e3bb"
+      ],
+      "risk_level": "medium"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "ao_7986e912d259fa51",
+      "provider": "AO Surgery Reference",
+      "title": "Anterolateral Approach Proximal Tibia",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/periprosthetic-fractures/knee/approach/anterolateral-approach-proximal-tibia",
+      "source_page_id": "ao_7986e912d259fa51"
+    },
+    {
+      "source_id": "ao_d032f518d347e3bb",
+      "provider": "AO Surgery Reference",
+      "title": "Anterolateral And Extended Anterolateral Approach To Proximal Tibia",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/proximal-tibia/approach/anterolateral-and-extended-anterolateral-approach-to-proximal-tibia",
+      "source_page_id": "ao_d032f518d347e3bb"
+    }
+  ],
+  "content_status": "agent_review_pending",
+  "review": {
+    "status": "agent_review_pending",
+    "required_roles": [
+      "adversarial_safety_reviewer",
+      "approach_anatomy_reviewer",
+      "educational_value_reviewer",
+      "evidence_reviewer",
+      "operative_exposure_reviewer",
+      "procedure_applicability_reviewer"
+    ],
+    "completed_roles": []
+  },
+  "resolved_contradiction_keys": [],
+  "authoring_provenance": {
+    "method": "local_codex_curated",
+    "definition_file": "data/approach_library/curated/periprosthetic_knee_batch001_v1.json",
+    "api_used": false
+  }
+}

@@ -1,0 +1,365 @@
+{
+  "approaches": [
+    {
+      "approach_id": "proximal_femur_nailing_entry",
+      "name": "Approach for proximal femoral nailing",
+      "aliases": [
+        "trochanteric entry approach for cephalomedullary nailing"
+      ],
+      "region": "proximal-femur",
+      "joint": "",
+      "bones": [
+        "proximal femur"
+      ],
+      "corridor": "Small proximal incision above the greater trochanter, splitting the gluteal fascia and fibers bluntly to the trochanteric tip entry point for a cephalomedullary nail",
+      "sources": [
+        {
+          "source_id": "ao_14af9b0dbcb35a28",
+          "provider": "AO Surgery Reference",
+          "title": "Approach for proximal femoral nailing",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/proximal-femur/approach/approach-for-proximal-femoral-nailing",
+          "source_page_id": "ao_14af9b0dbcb35a28"
+        },
+        {
+          "source_id": "ao_d24605ca10a9a4e3",
+          "provider": "AO Surgery Reference",
+          "title": "Locations for pin placement (femoral shaft)",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/femoral-shaft/approach/locations-for-pin-placement",
+          "source_page_id": "ao_d24605ca10a9a4e3"
+        }
+      ],
+      "procedure_applications": [
+        {
+          "procedure_id": "intertrochanteric_hip_fracture_orif",
+          "relationship": "primary_option",
+          "condition": "An intertrochanteric or subtrochanteric fracture is stabilized with a cephalomedullary nail"
+        }
+      ],
+      "sections": {
+        "positioning": [
+          {
+            "text": "Position supine on a traction table with the trunk adducted toward the injured side to allow a straight proximal nail entry, with image intensifier access.",
+            "source_ids": [
+              "ao_14af9b0dbcb35a28"
+            ]
+          }
+        ],
+        "surface_landmarks": [
+          {
+            "text": "Palpate the tip of the greater trochanter and plan the incision along the bowed femoral axis.",
+            "source_ids": [
+              "ao_14af9b0dbcb35a28",
+              "ao_d24605ca10a9a4e3"
+            ]
+          }
+        ],
+        "incision": [
+          {
+            "text": "Make a 3 to 5 cm skin incision several centimeters proximal to the tip of the greater trochanter.",
+            "source_ids": [
+              "ao_14af9b0dbcb35a28"
+            ]
+          }
+        ],
+        "superficial_interval": [
+          {
+            "text": "Incise the gluteal fascia longitudinally over 3 to 8 cm and split the gluteal muscle fibers bluntly to reach the tip of the trochanter.",
+            "source_ids": [
+              "ao_14af9b0dbcb35a28"
+            ]
+          }
+        ],
+        "deep_interval": [
+          {
+            "text": "Establish the entry at the greater trochanter (most trochanteric nails enter through the tip, not the trochanteric fossa), using a Schanz screw or ball-spiked pusher to correct fracture deformity and find the entry when needed.",
+            "source_ids": [
+              "ao_14af9b0dbcb35a28"
+            ]
+          }
+        ],
+        "layers": [
+          {
+            "text": "Skin, subcutaneous tissue, gluteal fascia, the abductor muscle fibers, and the tip of the greater trochanter.",
+            "source_ids": [
+              "ao_14af9b0dbcb35a28"
+            ]
+          }
+        ],
+        "structures_at_risk": [
+          {
+            "text": "The abductor muscles at the entry and the posterior femoral cortex during reaming are at risk; eccentric reaming or posterior perforation must be avoided.",
+            "source_ids": [
+              "ao_14af9b0dbcb35a28",
+              "ao_d24605ca10a9a4e3"
+            ],
+            "risk_level": "medium"
+          }
+        ],
+        "danger_zones": [
+          {
+            "text": "The posterior femoral cortex is the danger zone for eccentric reaming and perforation.",
+            "source_ids": [
+              "ao_14af9b0dbcb35a28"
+            ],
+            "risk_level": "medium"
+          }
+        ],
+        "retraction_hazards": [
+          {
+            "text": "Split rather than cut the abductors and protect them during reaming and nail insertion.",
+            "source_ids": [
+              "ao_14af9b0dbcb35a28"
+            ],
+            "risk_level": "medium"
+          }
+        ],
+        "exposure": [
+          {
+            "text": "Exposes the trochanteric entry point for cephalomedullary nailing.",
+            "source_ids": [
+              "ao_14af9b0dbcb35a28"
+            ]
+          }
+        ],
+        "limitations": [
+          {
+            "text": "Fracture deformity can make the entry hard to find, requiring percutaneous reduction aids, and the correct entry depends on the specific nail design.",
+            "source_ids": [
+              "ao_14af9b0dbcb35a28"
+            ]
+          }
+        ],
+        "indications": [
+          {
+            "text": "Indicated for cephalomedullary nailing of intertrochanteric and subtrochanteric femoral fractures.",
+            "source_ids": [
+              "ao_14af9b0dbcb35a28"
+            ]
+          }
+        ],
+        "closure": [
+          {
+            "text": "Allow the abductor fibers to fall back together and close the gluteal fascia, subcutaneous tissue, and skin.",
+            "source_ids": [
+              "ao_14af9b0dbcb35a28"
+            ]
+          }
+        ],
+        "complications": [
+          {
+            "text": "Complications include abductor injury with limp, malreduction from an eccentric entry, and posterior cortical perforation.",
+            "source_ids": [
+              "ao_14af9b0dbcb35a28",
+              "ao_d24605ca10a9a4e3"
+            ],
+            "risk_level": "medium"
+          }
+        ],
+        "questions": [
+          {
+            "question": "Where do most trochanteric nails enter the proximal femur?",
+            "answer": "Through the tip of the greater trochanter, not the trochanteric fossa.",
+            "source_ids": [
+              "ao_14af9b0dbcb35a28"
+            ]
+          },
+          {
+            "question": "What helps find the entry point when fracture deformity obscures it?",
+            "answer": "A percutaneous Schanz screw or ball-spiked pusher to correct the deformity.",
+            "source_ids": [
+              "ao_14af9b0dbcb35a28"
+            ]
+          },
+          {
+            "question": "What reaming error must be avoided proximally?",
+            "answer": "Eccentric reaming or perforation of the posterior femoral cortex.",
+            "source_ids": [
+              "ao_14af9b0dbcb35a28"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "approach_id": "proximal_femur_limited_lateral",
+      "name": "Limited lateral approach for implant insertion in the proximal femur",
+      "aliases": [
+        "lateral approach for a sliding hip screw / plate"
+      ],
+      "region": "proximal-femur",
+      "joint": "",
+      "bones": [
+        "proximal femur"
+      ],
+      "corridor": "Lateral incision through the iliotibial band and vastus lateralis over the proximal femur, exposing only the lateral surface needed to place a sliding hip screw, plate, or blade plate",
+      "sources": [
+        {
+          "source_id": "ao_23abe1d847f8918c",
+          "provider": "AO Surgery Reference",
+          "title": "Limited lateral approach for implant insertion (proximal femur)",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/proximal-femur/approach/limited-lateral-approach-for-implant-insertion",
+          "source_page_id": "ao_23abe1d847f8918c"
+        },
+        {
+          "source_id": "ao_c6346243232a9332",
+          "provider": "AO Surgery Reference",
+          "title": "Lateral approach to the femoral shaft (periprosthetic)",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/periprosthetic-fractures/hip/approach/lateral-approach-femur-shaft",
+          "source_page_id": "ao_c6346243232a9332"
+        }
+      ],
+      "procedure_applications": [
+        {
+          "procedure_id": "intertrochanteric_hip_fracture_orif",
+          "relationship": "primary_option",
+          "condition": "An intertrochanteric fracture is fixed with a sliding hip screw or angled blade plate"
+        }
+      ],
+      "sections": {
+        "positioning": [
+          {
+            "text": "Position supine on a traction table or radiolucent table with the lateral proximal femur accessible and imaging available.",
+            "source_ids": [
+              "ao_23abe1d847f8918c"
+            ]
+          }
+        ],
+        "surface_landmarks": [
+          {
+            "text": "Mark the greater trochanter, the femoral neck axis, and the palpable midline of the trochanter.",
+            "source_ids": [
+              "ao_23abe1d847f8918c"
+            ]
+          }
+        ],
+        "incision": [
+          {
+            "text": "Center the incision over the femoral neck axis line slightly posterior to the trochanteric midline; for a 135-degree two-hole sliding hip screw begin a few centimeters proximal to the trochanter and extend about 10 cm distally, longer for a 95-degree blade plate.",
+            "source_ids": [
+              "ao_23abe1d847f8918c"
+            ]
+          }
+        ],
+        "superficial_interval": [
+          {
+            "text": "Incise the iliotibial band in line with the skin incision and then the vastus lateralis fascia, either reflecting the muscle anteriorly or splitting it longitudinally depending on bulk.",
+            "source_ids": [
+              "ao_23abe1d847f8918c",
+              "ao_c6346243232a9332"
+            ]
+          }
+        ],
+        "deep_interval": [
+          {
+            "text": "Use one or two small elevators to expose only the lateral femoral shaft needed and place a Hohmann retractor anteriorly.",
+            "source_ids": [
+              "ao_23abe1d847f8918c"
+            ]
+          }
+        ],
+        "layers": [
+          {
+            "text": "Skin, subcutaneous tissue, iliotibial band, vastus lateralis, and the lateral proximal femur.",
+            "source_ids": [
+              "ao_23abe1d847f8918c"
+            ]
+          }
+        ],
+        "structures_at_risk": [
+          {
+            "text": "The first perforating vessels, typically just distal to a short sliding hip screw side plate, can cause persistent bleeding if divided carelessly.",
+            "source_ids": [
+              "ao_23abe1d847f8918c",
+              "ao_c6346243232a9332"
+            ],
+            "risk_level": "medium"
+          }
+        ],
+        "danger_zones": [
+          {
+            "text": "The distal end of the exposure, where the first perforating vessels lie, is the danger zone for bleeding.",
+            "source_ids": [
+              "ao_23abe1d847f8918c",
+              "ao_c6346243232a9332"
+            ],
+            "risk_level": "medium"
+          }
+        ],
+        "retraction_hazards": [
+          {
+            "text": "Identify and control perforating vessels rather than tearing them, and limit the lateral exposure to what the implant needs.",
+            "source_ids": [
+              "ao_23abe1d847f8918c",
+              "ao_c6346243232a9332"
+            ]
+          }
+        ],
+        "exposure": [
+          {
+            "text": "Exposes the lateral proximal femur sufficient for a sliding hip screw, plate, or blade plate.",
+            "source_ids": [
+              "ao_23abe1d847f8918c"
+            ]
+          }
+        ],
+        "limitations": [
+          {
+            "text": "It deliberately exposes only the lateral surface, so the incision length is dictated by the chosen implant.",
+            "source_ids": [
+              "ao_23abe1d847f8918c"
+            ]
+          }
+        ],
+        "indications": [
+          {
+            "text": "Indicated for insertion of sliding hip screws, side plates, and angled blade plates in the proximal femur.",
+            "source_ids": [
+              "ao_23abe1d847f8918c"
+            ]
+          }
+        ],
+        "closure": [
+          {
+            "text": "Repair the vastus lateralis fascia and iliotibial band and close subcutaneous tissue and skin.",
+            "source_ids": [
+              "ao_23abe1d847f8918c"
+            ]
+          }
+        ],
+        "complications": [
+          {
+            "text": "Complications include perforating vessel hematoma and, rarely, lateral thigh wound problems.",
+            "source_ids": [
+              "ao_23abe1d847f8918c",
+              "ao_c6346243232a9332"
+            ],
+            "risk_level": "medium"
+          }
+        ],
+        "questions": [
+          {
+            "question": "Where is the incision centered for a sliding hip screw?",
+            "answer": "Over the femoral neck axis line, slightly posterior to the trochanteric midline.",
+            "source_ids": [
+              "ao_23abe1d847f8918c"
+            ]
+          },
+          {
+            "question": "Which vessels commonly bleed at the distal end of this exposure?",
+            "answer": "The first perforating vessels.",
+            "source_ids": [
+              "ao_23abe1d847f8918c"
+            ]
+          },
+          {
+            "question": "How much lateral femur is exposed?",
+            "answer": "Only enough lateral surface for the chosen implant.",
+            "source_ids": [
+              "ao_23abe1d847f8918c"
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

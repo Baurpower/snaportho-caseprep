@@ -16,6 +16,10 @@ ENGINE = "grounded_packet_stream"
 EXPECTED_CLINICAL_SECTIONS = tuple(
     section for section in SECTION_IDS if section not in {"related_concepts", "sources"}
 )
+# Themed sections with no curated seed: AI supplementation is allowed through
+# the grounding filter here (clearly marked generated). Every other section
+# still requires direct source support.
+GENERATED_SUPPLEMENT_SECTIONS = {"decision_points", "postop"}
 OPERATIVE_WORDS = {
     "orif", "fixation", "arthroplasty", "replacement", "reconstruction", "repair",
     "release", "decompression", "fusion", "osteotomy", "nailing", "pinning",
@@ -117,8 +121,11 @@ def _transform_section(data: Dict[str, Any]) -> Tuple[Optional[Dict[str, Any]], 
         items = grounded
         generated = []
     if generated:
-        warnings.append(f"Omitted {section_id} because it lacked direct source support.")
-        return None, warnings
+        if section_id not in GENERATED_SUPPLEMENT_SECTIONS:
+            warnings.append(f"Omitted {section_id} because it lacked direct source support.")
+            return None, warnings
+        # AI supplementation is intentional for these themed sections.
+        items = generated
     if not items and raw_items:
         return None, warnings
 

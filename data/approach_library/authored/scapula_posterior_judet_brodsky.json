@@ -1,0 +1,355 @@
+{
+  "schema_version": "brobot_approach_packet_v1",
+  "approach_id": "scapula_posterior_judet_brodsky",
+  "name": "Posterior approaches to the scapular body (Judet and Brodsky)",
+  "aliases": [
+    "modified Judet scapular approach",
+    "Brodsky lateral-column scapular approach"
+  ],
+  "region": "scapula",
+  "joint": "shoulder",
+  "bones": [
+    "scapula",
+    "glenoid"
+  ],
+  "corridor": "Lateral decubitus Judet incision along the spine then the medial border, or a Brodsky cut parallel to the lateral border, developing internervous intervals (infraspinatus–teres minor, spinoglenoid notch, teres minor–major) while protecting the suprascapular nerve and axillary/posterior circumflex bundle",
+  "positioning": [
+    {
+      "text": "Prefer lateral decubitus with the arm on a support, abducted 45–90° relative to the scapula.",
+      "claim_ids": [
+        "scapula_posterior_judet_brodsky_positioning_01"
+      ]
+    }
+  ],
+  "setup": [],
+  "surface_landmarks": [
+    {
+      "text": "Mark the posterior acromial corner, posterior AC joint, medial end of the scapular spine, and the inferior pole.",
+      "claim_ids": [
+        "scapula_posterior_judet_brodsky_surface_landmarks_01"
+      ]
+    }
+  ],
+  "incision": [
+    {
+      "text": "Judet: from the posterior acromial corner along the spine to the medial border, then distally to the inferior pole. Brodsky: from medial to the posterior acromial corner distally to the inferior pole, parallel to the lateral border. Elevate skin only epifascially enough to see the inferior deltoid border.",
+      "claim_ids": [
+        "scapula_posterior_judet_brodsky_incision_01"
+      ]
+    }
+  ],
+  "superficial_interval": [
+    {
+      "text": "Modified Judet elevates the posterior deltoid border without detaching it. Classic Judet detaches deltoid from the spine if more superior articular access is needed.",
+      "claim_ids": [
+        "scapula_posterior_judet_brodsky_superficial_interval_01"
+      ]
+    }
+  ],
+  "deep_interval": [
+    {
+      "text": "Elevate infraspinatus from its fossa and retract it laterally for neck, posterior rim, and body. Brodsky: retract deltoid superiorly (mind axillary nerve and posterior circumflex vessels), split infraspinatus fascia, develop infraspinatus–teres minor to the long head of triceps and the infraglenoid tubercle, use teres minor–major (circumflex scapular vessels) for the rest of the lateral column, and supraspinatus–infraspinatus for the superior articular segment while protecting the nerve at the spinoglenoid notch. A transverse posterior arthrotomy checks the fossa.",
+      "claim_ids": [
+        "scapula_posterior_judet_brodsky_deep_interval_01"
+      ]
+    }
+  ],
+  "layers": [
+    {
+      "text": "Skin, epifascial flap, deltoid border, infraspinatus/teres intervals, then the posterior scapula and glenoid.",
+      "claim_ids": [
+        "scapula_posterior_judet_brodsky_layers_01"
+      ]
+    }
+  ],
+  "structures_encountered": [],
+  "structures_at_risk": [
+    {
+      "text": "The suprascapular nerve at the spinoglenoid notch, the axillary nerve and posterior circumflex vessels in the quadrilateral space (supplying teres minor), and skin over a bluntly injured flap are at risk.",
+      "claim_ids": [
+        "scapula_posterior_judet_brodsky_structures_at_risk_01"
+      ]
+    }
+  ],
+  "danger_zones": [
+    {
+      "text": "The spinoglenoid notch and the lateral retraction of deltoid over the axillary/posterior circumflex bundle are the danger zones.",
+      "claim_ids": [
+        "scapula_posterior_judet_brodsky_danger_zones_01"
+      ]
+    }
+  ],
+  "retraction_hazards": [
+    {
+      "text": "Avoid extensive desquamation of the skin flap. Do not over-retract deltoid laterally.",
+      "claim_ids": [
+        "scapula_posterior_judet_brodsky_retraction_hazards_01"
+      ]
+    }
+  ],
+  "exposure": [
+    {
+      "text": "Judet shows the lateral column, articular segment, medial border, and body. Brodsky shows the lateral column and articular segment without the medial border; a small medial-spine cut can control a medial-exit line.",
+      "claim_ids": [
+        "scapula_posterior_judet_brodsky_exposure_01"
+      ]
+    }
+  ],
+  "limitations": [
+    {
+      "text": "Modified Judet avoids deltoid detachment and still gives almost the same view. Brodsky does not expose the medial border and body unless a second cut is added.",
+      "claim_ids": [
+        "scapula_posterior_judet_brodsky_limitations_01"
+      ]
+    }
+  ],
+  "extensions": [],
+  "indications": [
+    {
+      "text": "Used for posterior exposure of the scapular body and articular segment.",
+      "claim_ids": [
+        "scapula_posterior_judet_brodsky_indications_01"
+      ]
+    }
+  ],
+  "relative_contraindications": [],
+  "implant_implications": [],
+  "fluoroscopy_implications": [],
+  "closure": [
+    {
+      "text": "Repair the capsule and infraspinatus fascia. Let deltoid fall back; its fascia need not be repaired. Close fat and skin.",
+      "claim_ids": [
+        "scapula_posterior_judet_brodsky_closure_01"
+      ]
+    }
+  ],
+  "complications": [
+    {
+      "text": "Complications include suprascapular-nerve injury at the spinoglenoid notch, axillary-nerve injury, and skin necrosis after blunt injury if the flap is raised too widely.",
+      "claim_ids": [
+        "scapula_posterior_judet_brodsky_complications_01"
+      ]
+    }
+  ],
+  "bailouts": [],
+  "procedure_applications": [
+    {
+      "procedure_id": "scapula_fracture_orif",
+      "relationship": "primary_option",
+      "condition": "A scapular-body, lateral-column, or posterior glenoid fracture is exposed through a Judet or Brodsky window"
+    }
+  ],
+  "questions": [
+    {
+      "question": "How does modified Judet differ from classic Judet?",
+      "answer": "Modified Judet elevates the posterior deltoid border and does not detach deltoid from the spine.",
+      "claim_ids": [
+        "scapula_posterior_judet_brodsky_questions_01"
+      ]
+    },
+    {
+      "question": "Which interval exposes the inferolateral scapula in the Brodsky approach?",
+      "answer": "Infraspinatus–teres minor, following the long head of triceps to the infraglenoid tubercle.",
+      "claim_ids": [
+        "scapula_posterior_judet_brodsky_questions_02"
+      ]
+    },
+    {
+      "question": "Which nerve is at risk at the spinoglenoid notch?",
+      "answer": "The suprascapular nerve to infraspinatus.",
+      "claim_ids": [
+        "scapula_posterior_judet_brodsky_questions_03"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "scapula_posterior_judet_brodsky_positioning_01",
+      "text": "Prefer lateral decubitus with the arm on a support, abducted 45–90° relative to the scapula.",
+      "source_ids": [
+        "ao_490a9577ceb8ef6e"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "scapula_posterior_judet_brodsky_surface_landmarks_01",
+      "text": "Mark the posterior acromial corner, posterior AC joint, medial end of the scapular spine, and the inferior pole.",
+      "source_ids": [
+        "ao_490a9577ceb8ef6e"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "scapula_posterior_judet_brodsky_incision_01",
+      "text": "Judet: from the posterior acromial corner along the spine to the medial border, then distally to the inferior pole. Brodsky: from medial to the posterior acromial corner distally to the inferior pole, parallel to the lateral border. Elevate skin only epifascially enough to see the inferior deltoid border.",
+      "source_ids": [
+        "ao_490a9577ceb8ef6e"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "scapula_posterior_judet_brodsky_superficial_interval_01",
+      "text": "Modified Judet elevates the posterior deltoid border without detaching it. Classic Judet detaches deltoid from the spine if more superior articular access is needed.",
+      "source_ids": [
+        "ao_490a9577ceb8ef6e"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "scapula_posterior_judet_brodsky_deep_interval_01",
+      "text": "Elevate infraspinatus from its fossa and retract it laterally for neck, posterior rim, and body. Brodsky: retract deltoid superiorly (mind axillary nerve and posterior circumflex vessels), split infraspinatus fascia, develop infraspinatus–teres minor to the long head of triceps and the infraglenoid tubercle, use teres minor–major (circumflex scapular vessels) for the rest of the lateral column, and supraspinatus–infraspinatus for the superior articular segment while protecting the nerve at the spinoglenoid notch. A transverse posterior arthrotomy checks the fossa.",
+      "source_ids": [
+        "ao_490a9577ceb8ef6e",
+        "ao_d25ad02727930e87"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "scapula_posterior_judet_brodsky_layers_01",
+      "text": "Skin, epifascial flap, deltoid border, infraspinatus/teres intervals, then the posterior scapula and glenoid.",
+      "source_ids": [
+        "ao_490a9577ceb8ef6e"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "scapula_posterior_judet_brodsky_structures_at_risk_01",
+      "text": "The suprascapular nerve at the spinoglenoid notch, the axillary nerve and posterior circumflex vessels in the quadrilateral space (supplying teres minor), and skin over a bluntly injured flap are at risk.",
+      "source_ids": [
+        "ao_490a9577ceb8ef6e",
+        "ao_d25ad02727930e87"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "scapula_posterior_judet_brodsky_danger_zones_01",
+      "text": "The spinoglenoid notch and the lateral retraction of deltoid over the axillary/posterior circumflex bundle are the danger zones.",
+      "source_ids": [
+        "ao_490a9577ceb8ef6e"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "scapula_posterior_judet_brodsky_retraction_hazards_01",
+      "text": "Avoid extensive desquamation of the skin flap. Do not over-retract deltoid laterally.",
+      "source_ids": [
+        "ao_490a9577ceb8ef6e"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "scapula_posterior_judet_brodsky_exposure_01",
+      "text": "Judet shows the lateral column, articular segment, medial border, and body. Brodsky shows the lateral column and articular segment without the medial border; a small medial-spine cut can control a medial-exit line.",
+      "source_ids": [
+        "ao_490a9577ceb8ef6e"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "scapula_posterior_judet_brodsky_limitations_01",
+      "text": "Modified Judet avoids deltoid detachment and still gives almost the same view. Brodsky does not expose the medial border and body unless a second cut is added.",
+      "source_ids": [
+        "ao_490a9577ceb8ef6e"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "scapula_posterior_judet_brodsky_indications_01",
+      "text": "Used for posterior exposure of the scapular body and articular segment.",
+      "source_ids": [
+        "ao_490a9577ceb8ef6e"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "scapula_posterior_judet_brodsky_closure_01",
+      "text": "Repair the capsule and infraspinatus fascia. Let deltoid fall back; its fascia need not be repaired. Close fat and skin.",
+      "source_ids": [
+        "ao_490a9577ceb8ef6e"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "scapula_posterior_judet_brodsky_complications_01",
+      "text": "Complications include suprascapular-nerve injury at the spinoglenoid notch, axillary-nerve injury, and skin necrosis after blunt injury if the flap is raised too widely.",
+      "source_ids": [
+        "ao_490a9577ceb8ef6e",
+        "ao_d25ad02727930e87"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "scapula_posterior_judet_brodsky_questions_01",
+      "text": "How does modified Judet differ from classic Judet?",
+      "source_ids": [
+        "ao_490a9577ceb8ef6e"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "scapula_posterior_judet_brodsky_questions_02",
+      "text": "Which interval exposes the inferolateral scapula in the Brodsky approach?",
+      "source_ids": [
+        "ao_490a9577ceb8ef6e"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "scapula_posterior_judet_brodsky_questions_03",
+      "text": "Which nerve is at risk at the spinoglenoid notch?",
+      "source_ids": [
+        "ao_490a9577ceb8ef6e"
+      ],
+      "risk_level": "medium"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "ao_490a9577ceb8ef6e",
+      "provider": "AO Surgery Reference",
+      "title": "Posterior Approach To The Scapular Body",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/scapula/approach/posterior-approach-to-the-scapular-body",
+      "source_page_id": "ao_490a9577ceb8ef6e"
+    },
+    {
+      "source_id": "ao_d25ad02727930e87",
+      "provider": "AO Surgery Reference",
+      "title": "Posterior Approach To Scapular Body",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/periprosthetic-fractures/shoulder/approach/posterior-approach-to-scapular-body",
+      "source_page_id": "ao_d25ad02727930e87"
+    },
+    {
+      "source_id": "orthobullets_5787c754354dad09",
+      "provider": "Orthobullets",
+      "title": "Posterior To Shoulder",
+      "url": "https://www.orthobullets.com/approaches/12054/posterior-to-shoulder",
+      "source_page_id": "orthobullets_5787c754354dad09"
+    },
+    {
+      "source_id": "orthobullets_fba9cf092366dd01",
+      "provider": "Orthobullets",
+      "title": "Judet Approach To Scapula",
+      "url": "https://www.orthobullets.com/approaches/12069/judet-approach-to-scapula",
+      "source_page_id": "orthobullets_fba9cf092366dd01"
+    }
+  ],
+  "content_status": "agent_review_pending",
+  "review": {
+    "status": "agent_review_pending",
+    "required_roles": [
+      "adversarial_safety_reviewer",
+      "approach_anatomy_reviewer",
+      "educational_value_reviewer",
+      "evidence_reviewer",
+      "operative_exposure_reviewer",
+      "procedure_applicability_reviewer"
+    ],
+    "completed_roles": []
+  },
+  "resolved_contradiction_keys": [],
+  "authoring_provenance": {
+    "method": "local_codex_curated",
+    "definition_file": "data/approach_library/curated/pediatric_tibia_scapula_batch001_v1.json",
+    "api_used": false
+  }
+}

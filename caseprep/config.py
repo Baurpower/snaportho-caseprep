@@ -47,6 +47,10 @@ class CasePrepConfig:
     enable_web_v1_1_stream: bool = False
     enable_v1_1_enrichment: bool = False
     enable_web_v1_2_stream: bool = False
+    # Cross-section de-duplication: highlight blocks (key_takeaways /
+    # top_things_to_know) claim a fact and it is suppressed from the fuller body
+    # sections (anatomy / operative_flow) so the same fact is shown once.
+    enable_v1_1_dedup: bool = False
     v1_1_model: str = "gpt-4o-mini"
 
     @classmethod
@@ -63,6 +67,7 @@ class CasePrepConfig:
             enable_web_v1_1_stream=_env_bool("ENABLE_CASEPREP_WEB_V1_1_STREAM", False),
             enable_v1_1_enrichment=_env_bool("CASEPREP_V1_1_ENRICHMENT_ENABLED", False),
             enable_web_v1_2_stream=_env_bool("ENABLE_CASEPREP_WEB_V1_2_STREAM", False),
+            enable_v1_1_dedup=_env_bool("CASEPREP_V1_1_DEDUP_ENABLED", False),
             v1_1_model=(os.getenv("CASEPREP_V1_1_MODEL", "gpt-4o-mini") or "gpt-4o-mini").strip(),
         )
 

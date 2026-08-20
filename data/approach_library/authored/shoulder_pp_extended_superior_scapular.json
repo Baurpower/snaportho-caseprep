@@ -1,0 +1,357 @@
+{
+  "schema_version": "brobot_approach_packet_v1",
+  "approach_id": "shoulder_pp_extended_superior_scapular",
+  "name": "Extended superior scapular approach for periprosthetic spine fractures",
+  "aliases": [
+    "scapular-spine approach around a shoulder prosthesis"
+  ],
+  "region": "scapula",
+  "joint": "shoulder",
+  "bones": [
+    "scapular spine",
+    "acromion"
+  ],
+  "corridor": "Incision along the palpable scapular spine, sharp division of deltoid from the spine and acromial base leaving a cuff for reattachment",
+  "positioning": [
+    {
+      "text": "Position according to the fracture; extra-articular scapular-spine fractures are generally approached from posterior so the spine and acromial base can be palpated.",
+      "claim_ids": [
+        "shoulder_pp_extended_superior_scapular_positioning_01"
+      ]
+    }
+  ],
+  "setup": [],
+  "surface_landmarks": [
+    {
+      "text": "Mark the scapular spine, which is usually easy to palpate, and the acromial base.",
+      "claim_ids": [
+        "shoulder_pp_extended_superior_scapular_surface_landmarks_01"
+      ]
+    }
+  ],
+  "incision": [
+    {
+      "text": "Incise along the scapular spine; length depends on the exposure required.",
+      "claim_ids": [
+        "shoulder_pp_extended_superior_scapular_incision_01"
+      ]
+    }
+  ],
+  "superficial_interval": [
+    {
+      "text": "Sharply divide deltoid from its insertion on the scapular spine and the acromial base, leaving a small tissue border so the muscle can be repaired.",
+      "claim_ids": [
+        "shoulder_pp_extended_superior_scapular_superficial_interval_01"
+      ]
+    }
+  ],
+  "deep_interval": [
+    {
+      "text": "Work on the extra-articular spine. This is not a full Judet elevation of the scapular body and is not a saber-cut over the AC joint, though a saber cut can be joined if the acromion also needs exposure.",
+      "claim_ids": [
+        "shoulder_pp_extended_superior_scapular_deep_interval_01"
+      ]
+    }
+  ],
+  "layers": [
+    {
+      "text": "Skin, deltoid origin on the spine and acromion, then the extra-articular scapular spine.",
+      "claim_ids": [
+        "shoulder_pp_extended_superior_scapular_layers_01"
+      ]
+    }
+  ],
+  "structures_encountered": [],
+  "structures_at_risk": [
+    {
+      "text": "The deltoid origin is at risk if no cuff is left for reattachment. A full posterior body dissection would add the suprascapular nerve at the spinoglenoid notch, which this limited spine window does not require.",
+      "claim_ids": [
+        "shoulder_pp_extended_superior_scapular_structures_at_risk_01"
+      ]
+    }
+  ],
+  "danger_zones": [
+    {
+      "text": "Detaching deltoid flush with bone without a repair cuff prevents secure reattachment to the remaining deltoid cuff on the acromion and spine.",
+      "claim_ids": [
+        "shoulder_pp_extended_superior_scapular_danger_zones_01"
+      ]
+    }
+  ],
+  "retraction_hazards": [
+    {
+      "text": "Release only as much deltoid as the spine fracture requires so the muscle can be repaired to the leftover cuff.",
+      "claim_ids": [
+        "shoulder_pp_extended_superior_scapular_retraction_hazards_01"
+      ]
+    }
+  ],
+  "exposure": [
+    {
+      "text": "Shows extra-articular oblique or transverse spine fractures around reverse or anatomic prostheses; these fractures are more often seen with reverse arthroplasty.",
+      "claim_ids": [
+        "shoulder_pp_extended_superior_scapular_exposure_01"
+      ]
+    }
+  ],
+  "limitations": [
+    {
+      "text": "Does not expose the scapular body or glenoid the way a Judet approach does, and does not replace a saber-cut AC window.",
+      "claim_ids": [
+        "shoulder_pp_extended_superior_scapular_limitations_01"
+      ]
+    }
+  ],
+  "extensions": [],
+  "indications": [
+    {
+      "text": "Used for extra-articular oblique or transverse scapular-spine fractures around reverse or anatomic prostheses.",
+      "claim_ids": [
+        "shoulder_pp_extended_superior_scapular_indications_01"
+      ]
+    }
+  ],
+  "relative_contraindications": [],
+  "implant_implications": [],
+  "fluoroscopy_implications": [],
+  "closure": [
+    {
+      "text": "Reattach the deltoid base and its deep and superficial fascia to the remaining deltoid cuff on the acromion and spine, then close subcutaneous fascia and skin.",
+      "claim_ids": [
+        "shoulder_pp_extended_superior_scapular_closure_01"
+      ]
+    }
+  ],
+  "complications": [
+    {
+      "text": "Failure to leave a repair cuff or to reattach deltoid leaves a detached origin on the spine and acromion.",
+      "claim_ids": [
+        "shoulder_pp_extended_superior_scapular_complications_01"
+      ]
+    }
+  ],
+  "bailouts": [],
+  "procedure_applications": [
+    {
+      "procedure_id": "periprosthetic_shoulder_fracture_orif",
+      "relationship": "primary_option",
+      "condition": "An oblique or transverse scapular-spine fracture around a reverse or anatomic prosthesis is plated from the spine"
+    }
+  ],
+  "questions": [
+    {
+      "question": "Where is the incision for the extended superior scapular approach?",
+      "answer": "Along the palpable scapular spine, with length set by the needed exposure.",
+      "claim_ids": [
+        "shoulder_pp_extended_superior_scapular_questions_01"
+      ]
+    },
+    {
+      "question": "How is deltoid taken off the spine so it can be repaired?",
+      "answer": "Divide it from the spine and acromial base while leaving a small tissue border, then reattach that cuff to the remaining deltoid on the acromion and spine.",
+      "claim_ids": [
+        "shoulder_pp_extended_superior_scapular_questions_02"
+      ]
+    },
+    {
+      "question": "Which prosthesis is more often associated with this spine fracture pattern?",
+      "answer": "A reverse shoulder prosthesis.",
+      "claim_ids": [
+        "shoulder_pp_extended_superior_scapular_questions_03"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "shoulder_pp_extended_superior_scapular_positioning_01",
+      "text": "Position according to the fracture; extra-articular scapular-spine fractures are generally approached from posterior so the spine and acromial base can be palpated.",
+      "source_ids": [
+        "ao_ae7562b8bfc2f2bd",
+        "ao_490a9577ceb8ef6e"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "shoulder_pp_extended_superior_scapular_surface_landmarks_01",
+      "text": "Mark the scapular spine, which is usually easy to palpate, and the acromial base.",
+      "source_ids": [
+        "ao_ae7562b8bfc2f2bd",
+        "ao_490a9577ceb8ef6e"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "shoulder_pp_extended_superior_scapular_incision_01",
+      "text": "Incise along the scapular spine; length depends on the exposure required.",
+      "source_ids": [
+        "ao_ae7562b8bfc2f2bd",
+        "ao_490a9577ceb8ef6e"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "shoulder_pp_extended_superior_scapular_superficial_interval_01",
+      "text": "Sharply divide deltoid from its insertion on the scapular spine and the acromial base, leaving a small tissue border so the muscle can be repaired.",
+      "source_ids": [
+        "ao_ae7562b8bfc2f2bd",
+        "ao_490a9577ceb8ef6e"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "shoulder_pp_extended_superior_scapular_deep_interval_01",
+      "text": "Work on the extra-articular spine. This is not a full Judet elevation of the scapular body and is not a saber-cut over the AC joint, though a saber cut can be joined if the acromion also needs exposure.",
+      "source_ids": [
+        "ao_ae7562b8bfc2f2bd",
+        "ao_21935af2a804d480"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "shoulder_pp_extended_superior_scapular_layers_01",
+      "text": "Skin, deltoid origin on the spine and acromion, then the extra-articular scapular spine.",
+      "source_ids": [
+        "ao_ae7562b8bfc2f2bd",
+        "ao_490a9577ceb8ef6e"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "shoulder_pp_extended_superior_scapular_structures_at_risk_01",
+      "text": "The deltoid origin is at risk if no cuff is left for reattachment. A full posterior body dissection would add the suprascapular nerve at the spinoglenoid notch, which this limited spine window does not require.",
+      "source_ids": [
+        "ao_ae7562b8bfc2f2bd",
+        "ao_490a9577ceb8ef6e"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "shoulder_pp_extended_superior_scapular_danger_zones_01",
+      "text": "Detaching deltoid flush with bone without a repair cuff prevents secure reattachment to the remaining deltoid cuff on the acromion and spine.",
+      "source_ids": [
+        "ao_ae7562b8bfc2f2bd",
+        "ao_490a9577ceb8ef6e"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "shoulder_pp_extended_superior_scapular_retraction_hazards_01",
+      "text": "Release only as much deltoid as the spine fracture requires so the muscle can be repaired to the leftover cuff.",
+      "source_ids": [
+        "ao_ae7562b8bfc2f2bd",
+        "ao_21935af2a804d480"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "shoulder_pp_extended_superior_scapular_exposure_01",
+      "text": "Shows extra-articular oblique or transverse spine fractures around reverse or anatomic prostheses; these fractures are more often seen with reverse arthroplasty.",
+      "source_ids": [
+        "ao_ae7562b8bfc2f2bd"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "shoulder_pp_extended_superior_scapular_limitations_01",
+      "text": "Does not expose the scapular body or glenoid the way a Judet approach does, and does not replace a saber-cut AC window.",
+      "source_ids": [
+        "ao_ae7562b8bfc2f2bd",
+        "ao_490a9577ceb8ef6e"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "shoulder_pp_extended_superior_scapular_indications_01",
+      "text": "Used for extra-articular oblique or transverse scapular-spine fractures around reverse or anatomic prostheses.",
+      "source_ids": [
+        "ao_ae7562b8bfc2f2bd"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "shoulder_pp_extended_superior_scapular_closure_01",
+      "text": "Reattach the deltoid base and its deep and superficial fascia to the remaining deltoid cuff on the acromion and spine, then close subcutaneous fascia and skin.",
+      "source_ids": [
+        "ao_ae7562b8bfc2f2bd",
+        "ao_490a9577ceb8ef6e"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "shoulder_pp_extended_superior_scapular_complications_01",
+      "text": "Failure to leave a repair cuff or to reattach deltoid leaves a detached origin on the spine and acromion.",
+      "source_ids": [
+        "ao_ae7562b8bfc2f2bd",
+        "ao_490a9577ceb8ef6e"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "shoulder_pp_extended_superior_scapular_questions_01",
+      "text": "Where is the incision for the extended superior scapular approach?",
+      "source_ids": [
+        "ao_ae7562b8bfc2f2bd"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "shoulder_pp_extended_superior_scapular_questions_02",
+      "text": "How is deltoid taken off the spine so it can be repaired?",
+      "source_ids": [
+        "ao_ae7562b8bfc2f2bd",
+        "ao_490a9577ceb8ef6e"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "shoulder_pp_extended_superior_scapular_questions_03",
+      "text": "Which prosthesis is more often associated with this spine fracture pattern?",
+      "source_ids": [
+        "ao_ae7562b8bfc2f2bd"
+      ],
+      "risk_level": "medium"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "ao_ae7562b8bfc2f2bd",
+      "provider": "AO Surgery Reference",
+      "title": "Extended Superior Scapular Approach",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/periprosthetic-fractures/shoulder/approach/extended-superior-scapular-approach",
+      "source_page_id": "ao_ae7562b8bfc2f2bd"
+    },
+    {
+      "source_id": "ao_490a9577ceb8ef6e",
+      "provider": "AO Surgery Reference",
+      "title": "Posterior Approach",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/scapula/approach/posterior-approach",
+      "source_page_id": "ao_490a9577ceb8ef6e"
+    },
+    {
+      "source_id": "ao_21935af2a804d480",
+      "provider": "AO Surgery Reference",
+      "title": "Sabercut Approach",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/scapula/approach/sabercut-approach",
+      "source_page_id": "ao_21935af2a804d480"
+    }
+  ],
+  "content_status": "agent_review_pending",
+  "review": {
+    "status": "agent_review_pending",
+    "required_roles": [
+      "adversarial_safety_reviewer",
+      "approach_anatomy_reviewer",
+      "educational_value_reviewer",
+      "evidence_reviewer",
+      "operative_exposure_reviewer",
+      "procedure_applicability_reviewer"
+    ],
+    "completed_roles": []
+  },
+  "resolved_contradiction_keys": [],
+  "authoring_provenance": {
+    "method": "local_codex_curated",
+    "definition_file": "data/approach_library/curated/shoulder_pp_batch001_v1.json",
+    "api_used": false
+  }
+}

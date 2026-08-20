@@ -1,0 +1,352 @@
+{
+  "schema_version": "brobot_approach_packet_v1",
+  "approach_id": "hand_pip_joint_dorsal",
+  "name": "Dorsal approach to the proximal interphalangeal joint",
+  "aliases": [
+    "dorsal PIP approach",
+    "Chamay PIP approach"
+  ],
+  "region": "hand-proximal-phalanges",
+  "joint": "proximal interphalangeal joint",
+  "bones": [
+    "proximal phalanx",
+    "middle phalanx"
+  ],
+  "corridor": "Dorsal straight, curved, or zigzag skin over the PIP, then one of four extensor intervals (central–lateral slip, midline split, lateral to the lateral band, or a distally based Chamay flap), with a vertical capsulotomy that preserves the central-slip insertion",
+  "positioning": [
+    {
+      "text": "Position the hand so the PIP can be flexed and extended under tourniquet.",
+      "claim_ids": [
+        "hand_pip_joint_dorsal_positioning_01"
+      ]
+    }
+  ],
+  "setup": [],
+  "surface_landmarks": [
+    {
+      "text": "Mark the PIP crease and plan any curve so the scar avoids the radial index and ulnar little-finger borders.",
+      "claim_ids": [
+        "hand_pip_joint_dorsal_surface_landmarks_01"
+      ]
+    }
+  ],
+  "incision": [
+    {
+      "text": "Use a straight midline, curved, or zigzag dorsal incision over the PIP and elevate skin and subcutis as one layer.",
+      "claim_ids": [
+        "hand_pip_joint_dorsal_incision_01"
+      ]
+    }
+  ],
+  "superficial_interval": [
+    {
+      "text": "Protect dorsal sensory nerves and longitudinal veins while exposing the intact extensor apparatus.",
+      "claim_ids": [
+        "hand_pip_joint_dorsal_superficial_interval_01"
+      ]
+    }
+  ],
+  "deep_interval": [
+    {
+      "text": "The preferred interval is between the central slip and lateral band, then a vertical capsulotomy. Alternatives are a midline tenotomy that does not disinsert the central slip, a cut lateral to the lateral band after dividing the TRL on a pick, or a distally based Chamay V-flap of the central slip left attached to the middle-phalanx base. Flexion lets the lateral band slide palmar and improves the view.",
+      "claim_ids": [
+        "hand_pip_joint_dorsal_deep_interval_01"
+      ]
+    }
+  ],
+  "layers": [
+    {
+      "text": "Skin, dorsal veins and nerves, extensor apparatus, dorsal capsule, then the PIP condyles and middle-phalanx base.",
+      "claim_ids": [
+        "hand_pip_joint_dorsal_layers_01"
+      ]
+    }
+  ],
+  "structures_encountered": [],
+  "structures_at_risk": [
+    {
+      "text": "The central-slip insertion, collateral ligaments, dorsal sensory nerves, and longitudinal veins are at risk. Detaching the central slip or collaterals can produce a boutonnière deformity.",
+      "claim_ids": [
+        "hand_pip_joint_dorsal_structures_at_risk_01"
+      ]
+    }
+  ],
+  "danger_zones": [
+    {
+      "text": "Do not detach the central-slip insertion from the middle-phalanx base. A purely dorsolateral window cannot reach the opposite condyle of an irreducible bicondylar fracture.",
+      "claim_ids": [
+        "hand_pip_joint_dorsal_danger_zones_01"
+      ]
+    }
+  ],
+  "retraction_hazards": [
+    {
+      "text": "Preserve as many longitudinal veins as possible. After a paratendon approach, reattach the tendon so it does not sublux.",
+      "claim_ids": [
+        "hand_pip_joint_dorsal_retraction_hazards_01"
+      ]
+    }
+  ],
+  "exposure": [
+    {
+      "text": "Exposes the extensor tendon, capsule, collaterals, distal proximal phalanx, and middle-phalanx base, and can be extended along the shaft.",
+      "claim_ids": [
+        "hand_pip_joint_dorsal_exposure_01"
+      ]
+    }
+  ],
+  "limitations": [
+    {
+      "text": "A lateral-to-the-band window sees only the ipsilateral condyle. Midline splitting can weaken extension or produce boutonnière if the central slip is mishandled.",
+      "claim_ids": [
+        "hand_pip_joint_dorsal_limitations_01"
+      ]
+    }
+  ],
+  "extensions": [],
+  "indications": [
+    {
+      "text": "Indicated for intra-articular PIP fractures, dorsal coronal condylar fractures of the proximal phalanx, and central-slip avulsions from the middle-phalanx base.",
+      "claim_ids": [
+        "hand_pip_joint_dorsal_indications_01"
+      ]
+    }
+  ],
+  "relative_contraindications": [],
+  "implant_implications": [],
+  "fluoroscopy_implications": [],
+  "closure": [
+    {
+      "text": "Repair tendon with 4-0 and ligament or periosteum with 6-0 nonabsorbable monofilament. Cover implants with periosteum.",
+      "claim_ids": [
+        "hand_pip_joint_dorsal_closure_01"
+      ]
+    }
+  ],
+  "complications": [
+    {
+      "text": "Complications include boutonnière deformity, incomplete condylar exposure from a lateral-only window, extensor adhesion, and flap-apex necrosis with a curved or zigzag cut.",
+      "claim_ids": [
+        "hand_pip_joint_dorsal_complications_01"
+      ]
+    }
+  ],
+  "bailouts": [],
+  "procedure_applications": [
+    {
+      "procedure_id": "proximal_phalanx_fracture_orif",
+      "relationship": "primary_option",
+      "condition": "A PIP intra-articular, condylar, or central-slip avulsion fracture is exposed from dorsal"
+    }
+  ],
+  "questions": [
+    {
+      "question": "What is the recommended extensor interval?",
+      "answer": "Between the central slip and the lateral band, then a vertical capsulotomy.",
+      "claim_ids": [
+        "hand_pip_joint_dorsal_questions_01"
+      ]
+    },
+    {
+      "question": "What deformity follows central-slip detachment?",
+      "answer": "A boutonnière deformity.",
+      "claim_ids": [
+        "hand_pip_joint_dorsal_questions_02"
+      ]
+    },
+    {
+      "question": "What is the Chamay flap?",
+      "answer": "A distally based V-shaped flap of the central slip left attached to the middle-phalanx base.",
+      "claim_ids": [
+        "hand_pip_joint_dorsal_questions_03"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "hand_pip_joint_dorsal_positioning_01",
+      "text": "Position the hand so the PIP can be flexed and extended under tourniquet.",
+      "source_ids": [
+        "ao_b8d4d73f4633fb8f",
+        "ao_716a37093bfc1d3b"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "hand_pip_joint_dorsal_surface_landmarks_01",
+      "text": "Mark the PIP crease and plan any curve so the scar avoids the radial index and ulnar little-finger borders.",
+      "source_ids": [
+        "ao_b8d4d73f4633fb8f",
+        "ao_716a37093bfc1d3b"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "hand_pip_joint_dorsal_incision_01",
+      "text": "Use a straight midline, curved, or zigzag dorsal incision over the PIP and elevate skin and subcutis as one layer.",
+      "source_ids": [
+        "ao_b8d4d73f4633fb8f",
+        "ao_716a37093bfc1d3b"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "hand_pip_joint_dorsal_superficial_interval_01",
+      "text": "Protect dorsal sensory nerves and longitudinal veins while exposing the intact extensor apparatus.",
+      "source_ids": [
+        "ao_b8d4d73f4633fb8f",
+        "ao_716a37093bfc1d3b"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "hand_pip_joint_dorsal_deep_interval_01",
+      "text": "The preferred interval is between the central slip and lateral band, then a vertical capsulotomy. Alternatives are a midline tenotomy that does not disinsert the central slip, a cut lateral to the lateral band after dividing the TRL on a pick, or a distally based Chamay V-flap of the central slip left attached to the middle-phalanx base. Flexion lets the lateral band slide palmar and improves the view.",
+      "source_ids": [
+        "ao_b8d4d73f4633fb8f",
+        "ao_716a37093bfc1d3b"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "hand_pip_joint_dorsal_layers_01",
+      "text": "Skin, dorsal veins and nerves, extensor apparatus, dorsal capsule, then the PIP condyles and middle-phalanx base.",
+      "source_ids": [
+        "ao_b8d4d73f4633fb8f",
+        "ao_716a37093bfc1d3b"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "hand_pip_joint_dorsal_structures_at_risk_01",
+      "text": "The central-slip insertion, collateral ligaments, dorsal sensory nerves, and longitudinal veins are at risk. Detaching the central slip or collaterals can produce a boutonnière deformity.",
+      "source_ids": [
+        "ao_b8d4d73f4633fb8f",
+        "ao_716a37093bfc1d3b"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "hand_pip_joint_dorsal_danger_zones_01",
+      "text": "Do not detach the central-slip insertion from the middle-phalanx base. A purely dorsolateral window cannot reach the opposite condyle of an irreducible bicondylar fracture.",
+      "source_ids": [
+        "ao_b8d4d73f4633fb8f",
+        "ao_716a37093bfc1d3b"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "hand_pip_joint_dorsal_retraction_hazards_01",
+      "text": "Preserve as many longitudinal veins as possible. After a paratendon approach, reattach the tendon so it does not sublux.",
+      "source_ids": [
+        "ao_b8d4d73f4633fb8f",
+        "ao_716a37093bfc1d3b"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "hand_pip_joint_dorsal_exposure_01",
+      "text": "Exposes the extensor tendon, capsule, collaterals, distal proximal phalanx, and middle-phalanx base, and can be extended along the shaft.",
+      "source_ids": [
+        "ao_b8d4d73f4633fb8f",
+        "ao_716a37093bfc1d3b"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "hand_pip_joint_dorsal_limitations_01",
+      "text": "A lateral-to-the-band window sees only the ipsilateral condyle. Midline splitting can weaken extension or produce boutonnière if the central slip is mishandled.",
+      "source_ids": [
+        "ao_b8d4d73f4633fb8f"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "hand_pip_joint_dorsal_indications_01",
+      "text": "Indicated for intra-articular PIP fractures, dorsal coronal condylar fractures of the proximal phalanx, and central-slip avulsions from the middle-phalanx base.",
+      "source_ids": [
+        "ao_b8d4d73f4633fb8f",
+        "ao_716a37093bfc1d3b"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "hand_pip_joint_dorsal_closure_01",
+      "text": "Repair tendon with 4-0 and ligament or periosteum with 6-0 nonabsorbable monofilament. Cover implants with periosteum.",
+      "source_ids": [
+        "ao_b8d4d73f4633fb8f",
+        "ao_716a37093bfc1d3b"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "hand_pip_joint_dorsal_complications_01",
+      "text": "Complications include boutonnière deformity, incomplete condylar exposure from a lateral-only window, extensor adhesion, and flap-apex necrosis with a curved or zigzag cut.",
+      "source_ids": [
+        "ao_b8d4d73f4633fb8f",
+        "ao_716a37093bfc1d3b"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "hand_pip_joint_dorsal_questions_01",
+      "text": "What is the recommended extensor interval?",
+      "source_ids": [
+        "ao_b8d4d73f4633fb8f"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "hand_pip_joint_dorsal_questions_02",
+      "text": "What deformity follows central-slip detachment?",
+      "source_ids": [
+        "ao_b8d4d73f4633fb8f",
+        "ao_716a37093bfc1d3b"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "hand_pip_joint_dorsal_questions_03",
+      "text": "What is the Chamay flap?",
+      "source_ids": [
+        "ao_b8d4d73f4633fb8f"
+      ],
+      "risk_level": "medium"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "ao_b8d4d73f4633fb8f",
+      "provider": "AO Surgery Reference",
+      "title": "Dorsal Approach To Pip Joint",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/hand-middle-phalanges/approach/dorsal-approach-to-pip-joint",
+      "source_page_id": "ao_b8d4d73f4633fb8f"
+    },
+    {
+      "source_id": "ao_716a37093bfc1d3b",
+      "provider": "AO Surgery Reference",
+      "title": "Dorsal Approaches To The Proximal Interphalangeal Joint",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/hand-proximal-phalanges/approach/dorsal-approaches-to-the-proximal-interphalangeal-joint",
+      "source_page_id": "ao_716a37093bfc1d3b"
+    }
+  ],
+  "content_status": "agent_review_pending",
+  "review": {
+    "status": "agent_review_pending",
+    "required_roles": [
+      "adversarial_safety_reviewer",
+      "approach_anatomy_reviewer",
+      "educational_value_reviewer",
+      "evidence_reviewer",
+      "operative_exposure_reviewer",
+      "procedure_applicability_reviewer"
+    ],
+    "completed_roles": []
+  },
+  "resolved_contradiction_keys": [],
+  "authoring_provenance": {
+    "method": "local_codex_curated",
+    "definition_file": "data/approach_library/curated/hand_dip_pip_phalanx_batch001_v1.json",
+    "api_used": false
+  }
+}

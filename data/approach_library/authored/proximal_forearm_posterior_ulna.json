@@ -1,0 +1,339 @@
+{
+  "schema_version": "brobot_approach_packet_v1",
+  "approach_id": "proximal_forearm_posterior_ulna",
+  "name": "Posterior approach to the proximal ulna",
+  "aliases": [
+    "posterior approach to the olecranon and proximal ulna"
+  ],
+  "region": "proximal-forearm",
+  "joint": "elbow",
+  "bones": [
+    "ulna"
+  ],
+  "corridor": "Posterior incision curving around the olecranon tip along the subcutaneous ulnar border, exposing the proximal ulna between anconeus and flexor carpi ulnaris while protecting the ulnar nerve",
+  "positioning": [
+    {
+      "text": "Position with the arm across the chest and the elbow flexed so the posterior elbow and subcutaneous ulna are presented.",
+      "claim_ids": [
+        "proximal_forearm_posterior_ulna_positioning_01"
+      ]
+    }
+  ],
+  "setup": [],
+  "surface_landmarks": [
+    {
+      "text": "Mark the tip of the olecranon and the subcutaneous dorsal border of the ulna.",
+      "claim_ids": [
+        "proximal_forearm_posterior_ulna_surface_landmarks_01"
+      ]
+    }
+  ],
+  "incision": [
+    {
+      "text": "Start a few centimeters proximal to the olecranon tip and curve the incision slightly laterally around the tip to protect the ulnar nerve and avoid a tender scar.",
+      "claim_ids": [
+        "proximal_forearm_posterior_ulna_incision_01"
+      ]
+    }
+  ],
+  "superficial_interval": [
+    {
+      "text": "Incise the deep fascia to the dorsal border of the ulna, splitting the triceps tendon to reach the olecranon tip if needed.",
+      "claim_ids": [
+        "proximal_forearm_posterior_ulna_superficial_interval_01"
+      ]
+    }
+  ],
+  "deep_interval": [
+    {
+      "text": "Expose the proximal ulnar metaphysis between anconeus and flexor carpi ulnaris, extending distally along the subcutaneous ulna as required.",
+      "claim_ids": [
+        "proximal_forearm_posterior_ulna_deep_interval_01"
+      ]
+    }
+  ],
+  "layers": [
+    {
+      "text": "Skin, subcutaneous tissue, deep fascia, the triceps tendon, the anconeus and flexor carpi ulnaris interval, and the proximal ulna.",
+      "claim_ids": [
+        "proximal_forearm_posterior_ulna_layers_01"
+      ]
+    }
+  ],
+  "structures_encountered": [],
+  "structures_at_risk": [
+    {
+      "text": "The ulnar nerve medial to the olecranon is the principal structure at risk.",
+      "claim_ids": [
+        "proximal_forearm_posterior_ulna_structures_at_risk_01"
+      ]
+    }
+  ],
+  "danger_zones": [
+    {
+      "text": "The medial side of the olecranon tip is the danger zone for the ulnar nerve, which is why the incision curves laterally around the tip.",
+      "claim_ids": [
+        "proximal_forearm_posterior_ulna_danger_zones_01"
+      ]
+    }
+  ],
+  "retraction_hazards": [
+    {
+      "text": "Keep the ulnar nerve protected medially and avoid a midline scar directly over the olecranon tip.",
+      "claim_ids": [
+        "proximal_forearm_posterior_ulna_retraction_hazards_01"
+      ]
+    }
+  ],
+  "exposure": [
+    {
+      "text": "Exposes the olecranon and proximal ulna, extendable distally as a direct subcutaneous ulnar approach.",
+      "claim_ids": [
+        "proximal_forearm_posterior_ulna_exposure_01"
+      ]
+    }
+  ],
+  "limitations": [
+    {
+      "text": "It is a posterior ulnar exposure and does not directly address the radial side.",
+      "claim_ids": [
+        "proximal_forearm_posterior_ulna_limitations_01"
+      ]
+    }
+  ],
+  "extensions": [],
+  "indications": [
+    {
+      "text": "Indicated for olecranon and proximal ulnar fractures.",
+      "claim_ids": [
+        "proximal_forearm_posterior_ulna_indications_01"
+      ]
+    }
+  ],
+  "relative_contraindications": [],
+  "implant_implications": [],
+  "fluoroscopy_implications": [],
+  "closure": [
+    {
+      "text": "Reattach the flexor carpi ulnaris and anconeus, repair the fascia with resorbable sutures, and close subcutaneous tissue and skin.",
+      "claim_ids": [
+        "proximal_forearm_posterior_ulna_closure_01"
+      ]
+    }
+  ],
+  "complications": [
+    {
+      "text": "Complications include ulnar neuropathy, a tender posterior scar, and triceps weakness.",
+      "claim_ids": [
+        "proximal_forearm_posterior_ulna_complications_01"
+      ]
+    }
+  ],
+  "bailouts": [],
+  "procedure_applications": [
+    {
+      "procedure_id": "olecranon_fracture_orif",
+      "relationship": "primary_option",
+      "condition": "An olecranon or proximal ulnar fracture is fixed posteriorly"
+    }
+  ],
+  "questions": [
+    {
+      "question": "Why does the incision curve laterally around the olecranon tip?",
+      "answer": "To protect the ulnar nerve and avoid a tender scar when leaning on the elbow.",
+      "claim_ids": [
+        "proximal_forearm_posterior_ulna_questions_01"
+      ]
+    },
+    {
+      "question": "Between which muscles is the proximal ulnar metaphysis exposed?",
+      "answer": "Between the anconeus and the flexor carpi ulnaris.",
+      "claim_ids": [
+        "proximal_forearm_posterior_ulna_questions_02"
+      ]
+    },
+    {
+      "question": "How is the approach extended distally?",
+      "answer": "As a direct subcutaneous approach along the ulnar shaft.",
+      "claim_ids": [
+        "proximal_forearm_posterior_ulna_questions_03"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "proximal_forearm_posterior_ulna_positioning_01",
+      "text": "Position with the arm across the chest and the elbow flexed so the posterior elbow and subcutaneous ulna are presented.",
+      "source_ids": [
+        "ao_1942c6cf57c65f8b"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "proximal_forearm_posterior_ulna_surface_landmarks_01",
+      "text": "Mark the tip of the olecranon and the subcutaneous dorsal border of the ulna.",
+      "source_ids": [
+        "ao_1942c6cf57c65f8b"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "proximal_forearm_posterior_ulna_incision_01",
+      "text": "Start a few centimeters proximal to the olecranon tip and curve the incision slightly laterally around the tip to protect the ulnar nerve and avoid a tender scar.",
+      "source_ids": [
+        "ao_1942c6cf57c65f8b"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "proximal_forearm_posterior_ulna_superficial_interval_01",
+      "text": "Incise the deep fascia to the dorsal border of the ulna, splitting the triceps tendon to reach the olecranon tip if needed.",
+      "source_ids": [
+        "ao_1942c6cf57c65f8b"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "proximal_forearm_posterior_ulna_deep_interval_01",
+      "text": "Expose the proximal ulnar metaphysis between anconeus and flexor carpi ulnaris, extending distally along the subcutaneous ulna as required.",
+      "source_ids": [
+        "ao_1942c6cf57c65f8b",
+        "ao_8ddea5ff05bc3556"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "proximal_forearm_posterior_ulna_layers_01",
+      "text": "Skin, subcutaneous tissue, deep fascia, the triceps tendon, the anconeus and flexor carpi ulnaris interval, and the proximal ulna.",
+      "source_ids": [
+        "ao_1942c6cf57c65f8b"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "proximal_forearm_posterior_ulna_structures_at_risk_01",
+      "text": "The ulnar nerve medial to the olecranon is the principal structure at risk.",
+      "source_ids": [
+        "ao_1942c6cf57c65f8b",
+        "ao_8ddea5ff05bc3556"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "proximal_forearm_posterior_ulna_danger_zones_01",
+      "text": "The medial side of the olecranon tip is the danger zone for the ulnar nerve, which is why the incision curves laterally around the tip.",
+      "source_ids": [
+        "ao_1942c6cf57c65f8b"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "proximal_forearm_posterior_ulna_retraction_hazards_01",
+      "text": "Keep the ulnar nerve protected medially and avoid a midline scar directly over the olecranon tip.",
+      "source_ids": [
+        "ao_1942c6cf57c65f8b"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "proximal_forearm_posterior_ulna_exposure_01",
+      "text": "Exposes the olecranon and proximal ulna, extendable distally as a direct subcutaneous ulnar approach.",
+      "source_ids": [
+        "ao_1942c6cf57c65f8b"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "proximal_forearm_posterior_ulna_limitations_01",
+      "text": "It is a posterior ulnar exposure and does not directly address the radial side.",
+      "source_ids": [
+        "ao_1942c6cf57c65f8b"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "proximal_forearm_posterior_ulna_indications_01",
+      "text": "Indicated for olecranon and proximal ulnar fractures.",
+      "source_ids": [
+        "ao_1942c6cf57c65f8b"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "proximal_forearm_posterior_ulna_closure_01",
+      "text": "Reattach the flexor carpi ulnaris and anconeus, repair the fascia with resorbable sutures, and close subcutaneous tissue and skin.",
+      "source_ids": [
+        "ao_1942c6cf57c65f8b"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "proximal_forearm_posterior_ulna_complications_01",
+      "text": "Complications include ulnar neuropathy, a tender posterior scar, and triceps weakness.",
+      "source_ids": [
+        "ao_1942c6cf57c65f8b",
+        "ao_8ddea5ff05bc3556"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "proximal_forearm_posterior_ulna_questions_01",
+      "text": "Why does the incision curve laterally around the olecranon tip?",
+      "source_ids": [
+        "ao_1942c6cf57c65f8b"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "proximal_forearm_posterior_ulna_questions_02",
+      "text": "Between which muscles is the proximal ulnar metaphysis exposed?",
+      "source_ids": [
+        "ao_1942c6cf57c65f8b"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "proximal_forearm_posterior_ulna_questions_03",
+      "text": "How is the approach extended distally?",
+      "source_ids": [
+        "ao_1942c6cf57c65f8b"
+      ],
+      "risk_level": "medium"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "ao_1942c6cf57c65f8b",
+      "provider": "AO Surgery Reference",
+      "title": "Posterior approach to the ulna (pediatric proximal forearm)",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/pediatric-trauma/proximal-forearm/approach/posterior-approach-to-the-ulna",
+      "source_page_id": "ao_1942c6cf57c65f8b"
+    },
+    {
+      "source_id": "ao_8ddea5ff05bc3556",
+      "provider": "AO Surgery Reference",
+      "title": "Approach to the ulna (pediatric)",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/pediatric-trauma/forearm-shaft/approach/approach-to-the-ulna",
+      "source_page_id": "ao_8ddea5ff05bc3556"
+    }
+  ],
+  "content_status": "agent_review_pending",
+  "review": {
+    "status": "agent_review_pending",
+    "required_roles": [
+      "adversarial_safety_reviewer",
+      "approach_anatomy_reviewer",
+      "educational_value_reviewer",
+      "evidence_reviewer",
+      "operative_exposure_reviewer",
+      "procedure_applicability_reviewer"
+    ],
+    "completed_roles": []
+  },
+  "resolved_contradiction_keys": [],
+  "authoring_provenance": {
+    "method": "local_codex_curated",
+    "definition_file": "data/approach_library/curated/proximal_forearm_boyd_safezones_batch004_v1.json",
+    "api_used": false
+  }
+}

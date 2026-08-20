@@ -1,0 +1,341 @@
+{
+  "schema_version": "brobot_approach_packet_v1",
+  "approach_id": "proximal_humerus_safe_zones",
+  "name": "Safe zones in the proximal humerus",
+  "aliases": [
+    "proximal humeral pin and plate safe zones"
+  ],
+  "region": "proximal-humerus",
+  "joint": "shoulder",
+  "bones": [
+    "proximal humerus"
+  ],
+  "corridor": "Lateral trans-deltoid pin and plate corridors that avoid the axillary nerve zone below the humeral head and the circumflex vessels, with controlled far-cortex penetration",
+  "positioning": [
+    {
+      "text": "Position beach-chair or supine with fluoroscopy to localize pin and plate positions relative to the humeral head.",
+      "claim_ids": [
+        "proximal_humerus_safe_zones_positioning_01"
+      ]
+    }
+  ],
+  "setup": [],
+  "surface_landmarks": [
+    {
+      "text": "Reference the top of the humeral head and the lateral acromion to estimate the axillary nerve zone.",
+      "claim_ids": [
+        "proximal_humerus_safe_zones_surface_landmarks_01"
+      ]
+    }
+  ],
+  "incision": [
+    {
+      "text": "Use small lateral stab incisions through the deltoid for percutaneous pins.",
+      "claim_ids": [
+        "proximal_humerus_safe_zones_incision_01"
+      ]
+    }
+  ],
+  "superficial_interval": [
+    {
+      "text": "Insert pins laterally through the deltoid, keeping clear of the axillary nerve zone that lies about 5 to 9.5 cm below the top of the humeral head.",
+      "claim_ids": [
+        "proximal_humerus_safe_zones_superficial_interval_01"
+      ]
+    }
+  ],
+  "deep_interval": [
+    {
+      "text": "Let pin tips just perforate the far cortex, controlling posteromedial penetration to avoid the main axillary nerve trunk, and do not pin the long head of biceps to bone.",
+      "claim_ids": [
+        "proximal_humerus_safe_zones_deep_interval_01"
+      ]
+    }
+  ],
+  "layers": [
+    {
+      "text": "Skin, subcutaneous tissue, deltoid, the subdeltoid space with the axillary nerve and circumflex vessels, and the proximal humeral cortex.",
+      "claim_ids": [
+        "proximal_humerus_safe_zones_layers_01"
+      ]
+    }
+  ],
+  "structures_encountered": [],
+  "structures_at_risk": [
+    {
+      "text": "The axillary nerve below the humeral head, the anterior and posterior circumflex humeral arteries and the arcuate branch to the head, and the long head of biceps are at risk.",
+      "claim_ids": [
+        "proximal_humerus_safe_zones_structures_at_risk_01"
+      ]
+    }
+  ],
+  "danger_zones": [
+    {
+      "text": "The band 4.5 to 9.5 cm below the top of the humeral head is the danger zone for the axillary nerve, and deep posteromedial drilling endangers its main trunk.",
+      "claim_ids": [
+        "proximal_humerus_safe_zones_danger_zones_01"
+      ]
+    }
+  ],
+  "retraction_hazards": [
+    {
+      "text": "Keep far-cortex penetration minimal, especially posteromedially, and avoid transfixing the biceps tendon.",
+      "claim_ids": [
+        "proximal_humerus_safe_zones_retraction_hazards_01"
+      ]
+    }
+  ],
+  "exposure": [
+    {
+      "text": "Defines safe lateral corridors for pins and plates rather than a formal open exposure.",
+      "claim_ids": [
+        "proximal_humerus_safe_zones_exposure_01"
+      ]
+    }
+  ],
+  "limitations": [
+    {
+      "text": "The stated distances are guides only because axillary nerve position varies considerably, so imaging and caution remain essential.",
+      "claim_ids": [
+        "proximal_humerus_safe_zones_limitations_01"
+      ]
+    }
+  ],
+  "extensions": [],
+  "indications": [
+    {
+      "text": "Indicated to guide safe pin, screw, and plate placement in the proximal humerus.",
+      "claim_ids": [
+        "proximal_humerus_safe_zones_indications_01"
+      ]
+    }
+  ],
+  "relative_contraindications": [],
+  "implant_implications": [],
+  "fluoroscopy_implications": [],
+  "closure": [
+    {
+      "text": "Close each stab incision loosely around the pins.",
+      "claim_ids": [
+        "proximal_humerus_safe_zones_closure_01"
+      ]
+    }
+  ],
+  "complications": [
+    {
+      "text": "Complications include axillary nerve injury, circumflex vessel injury with head devascularization, and biceps tendon transfixion.",
+      "claim_ids": [
+        "proximal_humerus_safe_zones_complications_01"
+      ]
+    }
+  ],
+  "bailouts": [],
+  "procedure_applications": [
+    {
+      "procedure_id": "proximal_humerus_fracture_orif",
+      "relationship": "conditional_option",
+      "condition": "Percutaneous pins or a lateral plate are placed in the proximal humerus"
+    }
+  ],
+  "questions": [
+    {
+      "question": "How far below the humeral head top does the axillary nerve risk zone lie?",
+      "answer": "About 4.5 to 9.5 cm below the top of the humeral head.",
+      "claim_ids": [
+        "proximal_humerus_safe_zones_questions_01"
+      ]
+    },
+    {
+      "question": "How deep should pin tips go in the humeral shaft?",
+      "answer": "Just perforating the far cortex, with controlled posteromedial penetration.",
+      "claim_ids": [
+        "proximal_humerus_safe_zones_questions_02"
+      ]
+    },
+    {
+      "question": "What structure should never be pinned to bone here?",
+      "answer": "The tendon of the long head of biceps.",
+      "claim_ids": [
+        "proximal_humerus_safe_zones_questions_03"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "proximal_humerus_safe_zones_positioning_01",
+      "text": "Position beach-chair or supine with fluoroscopy to localize pin and plate positions relative to the humeral head.",
+      "source_ids": [
+        "ao_fe9a06e24651710f"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "proximal_humerus_safe_zones_surface_landmarks_01",
+      "text": "Reference the top of the humeral head and the lateral acromion to estimate the axillary nerve zone.",
+      "source_ids": [
+        "ao_fe9a06e24651710f",
+        "ao_8f2c45a58145d70b"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "proximal_humerus_safe_zones_incision_01",
+      "text": "Use small lateral stab incisions through the deltoid for percutaneous pins.",
+      "source_ids": [
+        "ao_fe9a06e24651710f"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "proximal_humerus_safe_zones_superficial_interval_01",
+      "text": "Insert pins laterally through the deltoid, keeping clear of the axillary nerve zone that lies about 5 to 9.5 cm below the top of the humeral head.",
+      "source_ids": [
+        "ao_fe9a06e24651710f",
+        "ao_8f2c45a58145d70b"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "proximal_humerus_safe_zones_deep_interval_01",
+      "text": "Let pin tips just perforate the far cortex, controlling posteromedial penetration to avoid the main axillary nerve trunk, and do not pin the long head of biceps to bone.",
+      "source_ids": [
+        "ao_fe9a06e24651710f"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "proximal_humerus_safe_zones_layers_01",
+      "text": "Skin, subcutaneous tissue, deltoid, the subdeltoid space with the axillary nerve and circumflex vessels, and the proximal humeral cortex.",
+      "source_ids": [
+        "ao_fe9a06e24651710f"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "proximal_humerus_safe_zones_structures_at_risk_01",
+      "text": "The axillary nerve below the humeral head, the anterior and posterior circumflex humeral arteries and the arcuate branch to the head, and the long head of biceps are at risk.",
+      "source_ids": [
+        "ao_fe9a06e24651710f",
+        "ao_8f2c45a58145d70b"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "proximal_humerus_safe_zones_danger_zones_01",
+      "text": "The band 4.5 to 9.5 cm below the top of the humeral head is the danger zone for the axillary nerve, and deep posteromedial drilling endangers its main trunk.",
+      "source_ids": [
+        "ao_fe9a06e24651710f",
+        "ao_8f2c45a58145d70b"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "proximal_humerus_safe_zones_retraction_hazards_01",
+      "text": "Keep far-cortex penetration minimal, especially posteromedially, and avoid transfixing the biceps tendon.",
+      "source_ids": [
+        "ao_fe9a06e24651710f"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "proximal_humerus_safe_zones_exposure_01",
+      "text": "Defines safe lateral corridors for pins and plates rather than a formal open exposure.",
+      "source_ids": [
+        "ao_fe9a06e24651710f"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "proximal_humerus_safe_zones_limitations_01",
+      "text": "The stated distances are guides only because axillary nerve position varies considerably, so imaging and caution remain essential.",
+      "source_ids": [
+        "ao_fe9a06e24651710f"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "proximal_humerus_safe_zones_indications_01",
+      "text": "Indicated to guide safe pin, screw, and plate placement in the proximal humerus.",
+      "source_ids": [
+        "ao_fe9a06e24651710f"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "proximal_humerus_safe_zones_closure_01",
+      "text": "Close each stab incision loosely around the pins.",
+      "source_ids": [
+        "ao_fe9a06e24651710f"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "proximal_humerus_safe_zones_complications_01",
+      "text": "Complications include axillary nerve injury, circumflex vessel injury with head devascularization, and biceps tendon transfixion.",
+      "source_ids": [
+        "ao_fe9a06e24651710f",
+        "ao_8f2c45a58145d70b"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "proximal_humerus_safe_zones_questions_01",
+      "text": "How far below the humeral head top does the axillary nerve risk zone lie?",
+      "source_ids": [
+        "ao_fe9a06e24651710f"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "proximal_humerus_safe_zones_questions_02",
+      "text": "How deep should pin tips go in the humeral shaft?",
+      "source_ids": [
+        "ao_fe9a06e24651710f"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "proximal_humerus_safe_zones_questions_03",
+      "text": "What structure should never be pinned to bone here?",
+      "source_ids": [
+        "ao_fe9a06e24651710f"
+      ],
+      "risk_level": "medium"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "ao_fe9a06e24651710f",
+      "provider": "AO Surgery Reference",
+      "title": "Safe zones in the proximal humerus",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/proximal-humerus/approach/safe-zones-in-the-proximal-humerus",
+      "source_page_id": "ao_fe9a06e24651710f"
+    },
+    {
+      "source_id": "ao_8f2c45a58145d70b",
+      "provider": "AO Surgery Reference",
+      "title": "Anterolateral approach to the proximal humerus",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/proximal-humerus/approach/anterolateral-approach",
+      "source_page_id": "ao_8f2c45a58145d70b"
+    }
+  ],
+  "content_status": "agent_review_pending",
+  "review": {
+    "status": "agent_review_pending",
+    "required_roles": [
+      "adversarial_safety_reviewer",
+      "approach_anatomy_reviewer",
+      "educational_value_reviewer",
+      "evidence_reviewer",
+      "operative_exposure_reviewer",
+      "procedure_applicability_reviewer"
+    ],
+    "completed_roles": []
+  },
+  "resolved_contradiction_keys": [],
+  "authoring_provenance": {
+    "method": "local_codex_curated",
+    "definition_file": "data/approach_library/curated/proximal_humerus_batch004_v1.json",
+    "api_used": false
+  }
+}

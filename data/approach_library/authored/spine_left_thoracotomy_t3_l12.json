@@ -1,0 +1,360 @@
+{
+  "schema_version": "brobot_approach_packet_v1",
+  "approach_id": "spine_left_thoracotomy_t3_l12",
+  "name": "Left-sided thoracotomy (T3–L1/2)",
+  "aliases": [
+    "left thoracic approach to the spine"
+  ],
+  "region": "thoracolumbar",
+  "joint": "",
+  "bones": [
+    "thoracic vertebrae"
+  ],
+  "corridor": "Oblique cut around the scapular angle two levels above the target, rib exposure or resection, pleural entry, lung retracted anteriorly, parietal pleura opened over the discs, segmental vessels ligated in mid-body",
+  "positioning": [
+    {
+      "text": "Position for a left chest approach with single-lung ventilation available and fluoroscopy to confirm the level.",
+      "claim_ids": [
+        "spine_left_thoracotomy_t3_l12_positioning_01"
+      ]
+    }
+  ],
+  "setup": [],
+  "surface_landmarks": [
+    {
+      "text": "Mark the scapular angle and the rib two levels above the involved vertebra. Above T5, place the cut 2 cm below the scapular tip so the scapula can be released from subscapularis and lifted.",
+      "claim_ids": [
+        "spine_left_thoracotomy_t3_l12_surface_landmarks_01"
+      ]
+    }
+  ],
+  "incision": [
+    {
+      "text": "Incise from posterosuperior around the scapular angle, sloping obliquely anteroinferior. The upper end must reach the level above the target and the lower end the level below.",
+      "claim_ids": [
+        "spine_left_thoracotomy_t3_l12_incision_01"
+      ]
+    }
+  ],
+  "superficial_interval": [
+    {
+      "text": "Incise skin, fat, and overlying muscle down to the chosen rib. If a rib is removed, take it subperiosteally from the posterior angle as far anterior as possible, sparing the caudal neurovascular bundle, and save it for graft.",
+      "claim_ids": [
+        "spine_left_thoracotomy_t3_l12_superficial_interval_01"
+      ]
+    }
+  ],
+  "deep_interval": [
+    {
+      "text": "Open pleura without injuring lung, spread the rib space, retract lung anteriorly (ideally with ipsilateral collapse), and open parietal pleura longitudinally over the discs (avascular hills) at the target and one level above and below. Isolate and ligate segmental vessels in the mid-body. Expose subperiosteally to the ALL while protecting the great vessels, and posteriorly to the rib heads.",
+      "claim_ids": [
+        "spine_left_thoracotomy_t3_l12_deep_interval_01"
+      ]
+    }
+  ],
+  "layers": [
+    {
+      "text": "Skin, chest-wall muscle, rib or intercostal space, pleura, lung, parietal pleura over the spine, segmental vessels, then the vertebral body.",
+      "claim_ids": [
+        "spine_left_thoracotomy_t3_l12_layers_01"
+      ]
+    }
+  ],
+  "structures_encountered": [],
+  "structures_at_risk": [
+    {
+      "text": "Lung, intercostal neurovascular bundle, segmental vessels, and the great vessels at the ALL are at risk.",
+      "claim_ids": [
+        "spine_left_thoracotomy_t3_l12_structures_at_risk_01"
+      ]
+    }
+  ],
+  "danger_zones": [
+    {
+      "text": "Cutting the rib off the caudal neurovascular bundle, opening pleura into lung, and subperiosteal work without protecting the great vessels are the danger zones.",
+      "claim_ids": [
+        "spine_left_thoracotomy_t3_l12_danger_zones_01"
+      ]
+    }
+  ],
+  "retraction_hazards": [
+    {
+      "text": "Use a table-mounted system to retract lung and vessels gently rather than levering on the aorta.",
+      "claim_ids": [
+        "spine_left_thoracotomy_t3_l12_retraction_hazards_01"
+      ]
+    }
+  ],
+  "exposure": [
+    {
+      "text": "Shows T3–L1/2 for anterior trauma or metastatic decompression and reconstruction.",
+      "claim_ids": [
+        "spine_left_thoracotomy_t3_l12_exposure_01"
+      ]
+    }
+  ],
+  "limitations": [
+    {
+      "text": "Requires chest entry and preferably single-lung ventilation. Radiated or revision metastatic closures may need plastic reconstruction.",
+      "claim_ids": [
+        "spine_left_thoracotomy_t3_l12_limitations_01"
+      ]
+    }
+  ],
+  "extensions": [],
+  "indications": [
+    {
+      "text": "Used for left-sided anterior access from T3 to L1/2 in trauma and metastatic disease.",
+      "claim_ids": [
+        "spine_left_thoracotomy_t3_l12_indications_01"
+      ]
+    }
+  ],
+  "relative_contraindications": [],
+  "implant_implications": [],
+  "fluoroscopy_implications": [],
+  "closure": [
+    {
+      "text": "Suture parietal pleura if possible. Radiated or revision metastatic wounds may need plastic-surgery reconstruction.",
+      "claim_ids": [
+        "spine_left_thoracotomy_t3_l12_closure_01"
+      ]
+    }
+  ],
+  "complications": [
+    {
+      "text": "Complications include lung injury, intercostal-bundle injury, bleeding from segmental or great vessels, and wound breakdown after radiation.",
+      "claim_ids": [
+        "spine_left_thoracotomy_t3_l12_complications_01"
+      ]
+    }
+  ],
+  "bailouts": [],
+  "procedure_applications": [
+    {
+      "procedure_id": "thoracolumbar_fracture_orif",
+      "relationship": "primary_option",
+      "condition": "An anterior thoracic or thoracolumbar reconstruction from T3 to L1/2 is done through a left chest"
+    }
+  ],
+  "questions": [
+    {
+      "question": "At which rib level is a thoracotomy generally planned?",
+      "answer": "Two levels above the involved vertebra.",
+      "claim_ids": [
+        "spine_left_thoracotomy_t3_l12_questions_01"
+      ]
+    },
+    {
+      "question": "Where are segmental vessels ligated?",
+      "answer": "In the mid-vertebral body, at the target and one level above and below.",
+      "claim_ids": [
+        "spine_left_thoracotomy_t3_l12_questions_02"
+      ]
+    },
+    {
+      "question": "How is access above T5 modified because of the scapula?",
+      "answer": "The cut is made 2 cm below the scapular tip so the scapula can be released from subscapularis and lifted.",
+      "claim_ids": [
+        "spine_left_thoracotomy_t3_l12_questions_03"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "spine_left_thoracotomy_t3_l12_positioning_01",
+      "text": "Position for a left chest approach with single-lung ventilation available and fluoroscopy to confirm the level.",
+      "source_ids": [
+        "ao_4841477a90588746",
+        "ao_a4a09e6db243835b"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "spine_left_thoracotomy_t3_l12_surface_landmarks_01",
+      "text": "Mark the scapular angle and the rib two levels above the involved vertebra. Above T5, place the cut 2 cm below the scapular tip so the scapula can be released from subscapularis and lifted.",
+      "source_ids": [
+        "ao_4841477a90588746",
+        "ao_a4a09e6db243835b"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "spine_left_thoracotomy_t3_l12_incision_01",
+      "text": "Incise from posterosuperior around the scapular angle, sloping obliquely anteroinferior. The upper end must reach the level above the target and the lower end the level below.",
+      "source_ids": [
+        "ao_4841477a90588746",
+        "ao_a4a09e6db243835b"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "spine_left_thoracotomy_t3_l12_superficial_interval_01",
+      "text": "Incise skin, fat, and overlying muscle down to the chosen rib. If a rib is removed, take it subperiosteally from the posterior angle as far anterior as possible, sparing the caudal neurovascular bundle, and save it for graft.",
+      "source_ids": [
+        "ao_4841477a90588746",
+        "ao_a4a09e6db243835b"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "spine_left_thoracotomy_t3_l12_deep_interval_01",
+      "text": "Open pleura without injuring lung, spread the rib space, retract lung anteriorly (ideally with ipsilateral collapse), and open parietal pleura longitudinally over the discs (avascular hills) at the target and one level above and below. Isolate and ligate segmental vessels in the mid-body. Expose subperiosteally to the ALL while protecting the great vessels, and posteriorly to the rib heads.",
+      "source_ids": [
+        "ao_4841477a90588746",
+        "ao_a4a09e6db243835b"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "spine_left_thoracotomy_t3_l12_layers_01",
+      "text": "Skin, chest-wall muscle, rib or intercostal space, pleura, lung, parietal pleura over the spine, segmental vessels, then the vertebral body.",
+      "source_ids": [
+        "ao_4841477a90588746",
+        "ao_a4a09e6db243835b"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "spine_left_thoracotomy_t3_l12_structures_at_risk_01",
+      "text": "Lung, intercostal neurovascular bundle, segmental vessels, and the great vessels at the ALL are at risk.",
+      "source_ids": [
+        "ao_4841477a90588746",
+        "ao_a4a09e6db243835b"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "spine_left_thoracotomy_t3_l12_danger_zones_01",
+      "text": "Cutting the rib off the caudal neurovascular bundle, opening pleura into lung, and subperiosteal work without protecting the great vessels are the danger zones.",
+      "source_ids": [
+        "ao_4841477a90588746",
+        "ao_a4a09e6db243835b"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "spine_left_thoracotomy_t3_l12_retraction_hazards_01",
+      "text": "Use a table-mounted system to retract lung and vessels gently rather than levering on the aorta.",
+      "source_ids": [
+        "ao_4841477a90588746",
+        "ao_a4a09e6db243835b"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "spine_left_thoracotomy_t3_l12_exposure_01",
+      "text": "Shows T3–L1/2 for anterior trauma or metastatic decompression and reconstruction.",
+      "source_ids": [
+        "ao_4841477a90588746",
+        "ao_a4a09e6db243835b"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "spine_left_thoracotomy_t3_l12_limitations_01",
+      "text": "Requires chest entry and preferably single-lung ventilation. Radiated or revision metastatic closures may need plastic reconstruction.",
+      "source_ids": [
+        "ao_4841477a90588746",
+        "ao_a4a09e6db243835b"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "spine_left_thoracotomy_t3_l12_indications_01",
+      "text": "Used for left-sided anterior access from T3 to L1/2 in trauma and metastatic disease.",
+      "source_ids": [
+        "ao_4841477a90588746",
+        "ao_a4a09e6db243835b"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "spine_left_thoracotomy_t3_l12_closure_01",
+      "text": "Suture parietal pleura if possible. Radiated or revision metastatic wounds may need plastic-surgery reconstruction.",
+      "source_ids": [
+        "ao_4841477a90588746",
+        "ao_a4a09e6db243835b"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "spine_left_thoracotomy_t3_l12_complications_01",
+      "text": "Complications include lung injury, intercostal-bundle injury, bleeding from segmental or great vessels, and wound breakdown after radiation.",
+      "source_ids": [
+        "ao_4841477a90588746",
+        "ao_a4a09e6db243835b"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "spine_left_thoracotomy_t3_l12_questions_01",
+      "text": "At which rib level is a thoracotomy generally planned?",
+      "source_ids": [
+        "ao_4841477a90588746",
+        "ao_a4a09e6db243835b"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "spine_left_thoracotomy_t3_l12_questions_02",
+      "text": "Where are segmental vessels ligated?",
+      "source_ids": [
+        "ao_4841477a90588746",
+        "ao_a4a09e6db243835b"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "spine_left_thoracotomy_t3_l12_questions_03",
+      "text": "How is access above T5 modified because of the scapula?",
+      "source_ids": [
+        "ao_4841477a90588746",
+        "ao_a4a09e6db243835b"
+      ],
+      "risk_level": "medium"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "ao_4841477a90588746",
+      "provider": "AO Surgery Reference",
+      "title": "Left Sided Thoracotomy T3 L12",
+      "url": "https://surgeryreference.aofoundation.org/spine/trauma/thoracolumbar/approach/left-sided-thoracotomy-t3-l12",
+      "source_page_id": "ao_4841477a90588746"
+    },
+    {
+      "source_id": "ao_a4a09e6db243835b",
+      "provider": "AO Surgery Reference",
+      "title": "Left Sided Thoracotomy T3 L12",
+      "url": "https://surgeryreference.aofoundation.org/spine/tumors/metastatic-tumors/approach/left-sided-thoracotomy-t3-l12",
+      "source_page_id": "ao_a4a09e6db243835b"
+    },
+    {
+      "source_id": "orthobullets_5e85c534356b2dca",
+      "provider": "Orthobullets",
+      "title": "Transthoracic Approach To Thoracic Spine",
+      "url": "https://www.orthobullets.com/approaches/2079/transthoracic-approach-to-thoracic-spine",
+      "source_page_id": "orthobullets_5e85c534356b2dca"
+    }
+  ],
+  "content_status": "agent_review_pending",
+  "review": {
+    "status": "agent_review_pending",
+    "required_roles": [
+      "adversarial_safety_reviewer",
+      "approach_anatomy_reviewer",
+      "educational_value_reviewer",
+      "evidence_reviewer",
+      "operative_exposure_reviewer",
+      "procedure_applicability_reviewer"
+    ],
+    "completed_roles": []
+  },
+  "resolved_contradiction_keys": [],
+  "authoring_provenance": {
+    "method": "local_codex_curated",
+    "definition_file": "data/approach_library/curated/spine_core_batch001_v1.json",
+    "api_used": false
+  }
+}

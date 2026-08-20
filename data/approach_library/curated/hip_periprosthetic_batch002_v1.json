@@ -1,0 +1,585 @@
+{
+  "approaches": [
+    {
+      "approach_id": "hip_periprosthetic_direct_anterior",
+      "name": "Direct anterior approach to the hip (periprosthetic)",
+      "aliases": [
+        "Hueter anterior approach",
+        "DAA"
+      ],
+      "region": "hip",
+      "joint": "hip",
+      "bones": [
+        "acetabulum",
+        "proximal femur"
+      ],
+      "corridor": "Anterior Hueter interval between tensor fasciae latae (superior gluteal nerve) and sartorius/rectus femoris (femoral nerve), through a T-capsulotomy to the femoral head and neck",
+      "sources": [
+        {
+          "source_id": "ao_08d40c5bb7ca560c",
+          "provider": "AO Surgery Reference",
+          "title": "Direct anterior approach (periprosthetic hip)",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/periprosthetic-fractures/hip/approach/direct-anterior-approach",
+          "source_page_id": "ao_08d40c5bb7ca560c"
+        },
+        {
+          "source_id": "orthobullets_12116",
+          "provider": "Orthobullets",
+          "title": "THA Approaches",
+          "url": "https://www.orthobullets.com/recon/12116/tha-approaches"
+        }
+      ],
+      "procedure_applications": [
+        {
+          "procedure_id": "tha_anterior",
+          "relationship": "primary_option",
+          "condition": "Total hip arthroplasty is performed through an anterior intermuscular interval"
+        },
+        {
+          "procedure_id": "periprosthetic_hip_fracture_orif",
+          "relationship": "conditional_option",
+          "condition": "An anterior exposure that preserves the posterior capsule is preferred for a periprosthetic fracture"
+        }
+      ],
+      "sections": {
+        "positioning": [
+          {
+            "text": "Position supine on a standard or specialty table with the ipsilateral arm padded across the chest and the limb free for traction and rotation.",
+            "source_ids": [
+              "ao_08d40c5bb7ca560c"
+            ]
+          }
+        ],
+        "surface_landmarks": [
+          {
+            "text": "Mark the anterior superior iliac spine and the tensor fasciae latae; the incision runs from just lateral and distal to the ASIS toward the lateral femoral epicondyle over the TFL.",
+            "source_ids": [
+              "ao_08d40c5bb7ca560c"
+            ]
+          }
+        ],
+        "incision": [
+          {
+            "text": "Make an approximately 10 cm incision over the tensor fasciae latae, entering the TFL sheath from its medial side to spare the muscle belly.",
+            "source_ids": [
+              "ao_08d40c5bb7ca560c"
+            ]
+          }
+        ],
+        "superficial_interval": [
+          {
+            "text": "Develop the Hueter interval between the tensor fasciae latae laterally and the sartorius and rectus femoris medially, keeping the lateral femoral cutaneous nerve protected within the sartorial fascia.",
+            "source_ids": [
+              "ao_08d40c5bb7ca560c",
+              "orthobullets_12116"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "deep_interval": [
+          {
+            "text": "Isolate and coagulate the ascending branch of the lateral femoral circumflex vessels, place a retractor around the superior femoral neck, and expose the anterior capsule.",
+            "source_ids": [
+              "ao_08d40c5bb7ca560c"
+            ]
+          }
+        ],
+        "layers": [
+          {
+            "text": "Skin, subcutaneous tissue with the lateral femoral cutaneous nerve, TFL sheath, the intermuscular Hueter interval, the lateral femoral circumflex vessels, and the anterior hip capsule.",
+            "source_ids": [
+              "ao_08d40c5bb7ca560c"
+            ]
+          }
+        ],
+        "structures_at_risk": [
+          {
+            "text": "The lateral femoral cutaneous nerve, the femoral nerve deep to an aggressive medial retractor, and the ascending branch of the lateral femoral circumflex artery are at risk.",
+            "source_ids": [
+              "ao_08d40c5bb7ca560c",
+              "orthobullets_12116"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "danger_zones": [
+          {
+            "text": "The medial edge of the interval is the danger zone: branches of the lateral femoral cutaneous nerve that perforate the fascia early, and femoral nerve traction from a deep medial retractor.",
+            "source_ids": [
+              "ao_08d40c5bb7ca560c",
+              "orthobullets_12116"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "retraction_hazards": [
+          {
+            "text": "Avoid forceful medial retraction, which can injure the femoral nerve, and protect lateral femoral cutaneous nerve branches in the subcutaneous fat.",
+            "source_ids": [
+              "ao_08d40c5bb7ca560c",
+              "orthobullets_12116"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "exposure": [
+          {
+            "text": "A T-shaped capsulotomy with medial and lateral stay sutures exposes the femoral head and neck for arthroplasty or fracture work.",
+            "source_ids": [
+              "ao_08d40c5bb7ca560c"
+            ]
+          }
+        ],
+        "limitations": [
+          {
+            "text": "The approach gives restricted access to posterior wall and column fractures and limited femoral exposure without extension.",
+            "source_ids": [
+              "ao_08d40c5bb7ca560c"
+            ]
+          }
+        ],
+        "indications": [
+          {
+            "text": "Indicated for primary total hip arthroplasty and for periprosthetic fracture treatment where the posterior capsule is preserved, and it can be extended for fixation.",
+            "source_ids": [
+              "ao_08d40c5bb7ca560c"
+            ]
+          }
+        ],
+        "closure": [
+          {
+            "text": "Close the capsule with non-absorbable sutures, close the TFL fascia, and consider a subfascial drain given the bleeding risk from the circumflex vessels.",
+            "source_ids": [
+              "ao_08d40c5bb7ca560c"
+            ]
+          }
+        ],
+        "complications": [
+          {
+            "text": "Complications include lateral femoral cutaneous nerve paresthesia, femoral nerve injury, wound problems, and bleeding from the lateral femoral circumflex vessels.",
+            "source_ids": [
+              "ao_08d40c5bb7ca560c",
+              "orthobullets_12116"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "questions": [
+          {
+            "question": "Which intermuscular interval defines the direct anterior approach?",
+            "answer": "The Hueter interval between tensor fasciae latae and sartorius/rectus femoris.",
+            "source_ids": [
+              "ao_08d40c5bb7ca560c",
+              "orthobullets_12116"
+            ]
+          },
+          {
+            "question": "Which cutaneous nerve is characteristically injured in the direct anterior approach?",
+            "answer": "The lateral femoral cutaneous nerve.",
+            "source_ids": [
+              "ao_08d40c5bb7ca560c",
+              "orthobullets_12116"
+            ]
+          },
+          {
+            "question": "Which vessels are coagulated during the deep dissection?",
+            "answer": "The ascending branch of the lateral femoral circumflex vessels.",
+            "source_ids": [
+              "ao_08d40c5bb7ca560c"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "approach_id": "hip_periprosthetic_direct_lateral_hardinge",
+      "name": "Direct lateral (Hardinge) approach to the proximal femur (periprosthetic)",
+      "aliases": [
+        "Hardinge approach",
+        "transgluteal approach"
+      ],
+      "region": "hip",
+      "joint": "hip",
+      "bones": [
+        "proximal femur"
+      ],
+      "corridor": "Transgluteal split of gluteus medius and vastus lateralis raising an anterior myofascial sleeve to reach the anterior hip capsule and proximal femur",
+      "sources": [
+        {
+          "source_id": "ao_44a417314292e3fa",
+          "provider": "AO Surgery Reference",
+          "title": "Direct lateral approach to the proximal femur (periprosthetic hip)",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/periprosthetic-fractures/hip/approach/direct-lateral-approach-proximal-femur",
+          "source_page_id": "ao_44a417314292e3fa"
+        },
+        {
+          "source_id": "orthobullets_12116",
+          "provider": "Orthobullets",
+          "title": "THA Approaches",
+          "url": "https://www.orthobullets.com/recon/12116/tha-approaches"
+        },
+        {
+          "source_id": "orthobullets_92783300de76d58e",
+          "provider": "Orthobullets",
+          "title": "Hip Medial Approach",
+          "url": "https://www.orthobullets.com/approaches/12055/hip-medial-approach",
+          "source_page_id": "orthobullets_92783300de76d58e"
+        }
+      ],
+      "procedure_applications": [
+        {
+          "procedure_id": "periprosthetic_hip_fracture_orif",
+          "relationship": "primary_option",
+          "condition": "A periprosthetic proximal femoral fracture needs lateral exposure of the hip and femur"
+        },
+        {
+          "procedure_id": "hip_hemiarthroplasty",
+          "relationship": "primary_option",
+          "condition": "Hemiarthroplasty is performed through a direct lateral exposure"
+        }
+      ],
+      "sections": {
+        "positioning": [
+          {
+            "text": "Position in lateral decubitus or supine with the greater trochanter accessible and the limb free.",
+            "source_ids": [
+              "ao_44a417314292e3fa"
+            ]
+          }
+        ],
+        "surface_landmarks": [
+          {
+            "text": "Center the incision over the greater trochanter with its proximal end directed slightly posteriorly.",
+            "source_ids": [
+              "ao_44a417314292e3fa"
+            ]
+          }
+        ],
+        "incision": [
+          {
+            "text": "Make a longitudinal incision through skin and subcutaneous tissue down to the fascia lata over the trochanter.",
+            "source_ids": [
+              "ao_44a417314292e3fa"
+            ]
+          }
+        ],
+        "superficial_interval": [
+          {
+            "text": "Split the fascia lata and release the anterior third of gluteus medius and minimus while preserving their posterior femoral attachment.",
+            "source_ids": [
+              "ao_44a417314292e3fa",
+              "orthobullets_12116"
+            ]
+          }
+        ],
+        "deep_interval": [
+          {
+            "text": "Elevate the anterior fibers of vastus lateralis from the anterior femur in continuity with the abductors to create an anterior myofascial sleeve, then perform an anterior longitudinal capsulotomy with a proximal transverse limb.",
+            "source_ids": [
+              "ao_44a417314292e3fa"
+            ]
+          }
+        ],
+        "layers": [
+          {
+            "text": "Skin, subcutaneous tissue, fascia lata, gluteus medius and minimus anteriorly, vastus lateralis, and the anterior hip capsule.",
+            "source_ids": [
+              "ao_44a417314292e3fa"
+            ]
+          }
+        ],
+        "structures_at_risk": [
+          {
+            "text": "The superior gluteal nerve, which crosses 3 to 5 cm proximal to the tip of the greater trochanter, limits proximal splitting of the abductors and its injury causes abductor weakness.",
+            "source_ids": [
+              "ao_44a417314292e3fa",
+              "orthobullets_12116"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "danger_zones": [
+          {
+            "text": "Splitting the gluteus medius more than 3 to 5 cm above the trochanteric tip is the danger zone for the superior gluteal nerve.",
+            "source_ids": [
+              "ao_44a417314292e3fa",
+              "orthobullets_12116"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "retraction_hazards": [
+          {
+            "text": "Do not extend the abductor split proximally beyond the safe margin and avoid excessive proximal retraction on the medius.",
+            "source_ids": [
+              "ao_44a417314292e3fa",
+              "orthobullets_12116"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "exposure": [
+          {
+            "text": "Gentle external rotation, and dislocation if needed, exposes the femoral head, neck, and proximal femur.",
+            "source_ids": [
+              "ao_44a417314292e3fa"
+            ]
+          }
+        ],
+        "limitations": [
+          {
+            "text": "Violation of the abductor mechanism can cause a postoperative limp, and heterotopic ossification is common.",
+            "source_ids": [
+              "ao_44a417314292e3fa",
+              "orthobullets_12116"
+            ]
+          }
+        ],
+        "indications": [
+          {
+            "text": "Excellent for periprosthetic fractures of the proximal femur and usable for revision arthroplasty and hemiarthroplasty.",
+            "source_ids": [
+              "ao_44a417314292e3fa"
+            ]
+          }
+        ],
+        "closure": [
+          {
+            "text": "Reattach the anterior myofascial sleeve securely with heavy sutures, close in layers, and consider a subfascial drain given the blood loss risk.",
+            "source_ids": [
+              "ao_44a417314292e3fa"
+            ]
+          }
+        ],
+        "complications": [
+          {
+            "text": "Complications include superior gluteal nerve injury with abductor weakness and limp, heterotopic ossification, and wound problems.",
+            "source_ids": [
+              "ao_44a417314292e3fa",
+              "orthobullets_12116"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "questions": [
+          {
+            "question": "How far above the greater trochanter does the superior gluteal nerve cross?",
+            "answer": "About 3 to 5 cm proximal to the tip of the greater trochanter.",
+            "source_ids": [
+              "ao_44a417314292e3fa",
+              "orthobullets_12116"
+            ]
+          },
+          {
+            "question": "What is created by elevating the anterior abductors with vastus lateralis?",
+            "answer": "A continuous anterior myofascial sleeve.",
+            "source_ids": [
+              "ao_44a417314292e3fa"
+            ]
+          },
+          {
+            "question": "What is the characteristic late complication of the direct lateral approach?",
+            "answer": "Abductor weakness with a postoperative limp.",
+            "source_ids": [
+              "ao_44a417314292e3fa",
+              "orthobullets_12116"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "approach_id": "hip_periprosthetic_posterolateral",
+      "name": "Posterolateral approach to the hip (periprosthetic)",
+      "aliases": [
+        "posterior approach to the hip",
+        "Southern/Moore approach"
+      ],
+      "region": "hip",
+      "joint": "hip",
+      "bones": [
+        "acetabulum",
+        "proximal femur"
+      ],
+      "corridor": "Posterolateral split of gluteus maximus with detachment of the short external rotators and a posterior capsulotomy to reach the posterior hip and femur",
+      "sources": [
+        {
+          "source_id": "ao_b998d482cbad2405",
+          "provider": "AO Surgery Reference",
+          "title": "Posterolateral approach (periprosthetic hip)",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/periprosthetic-fractures/hip/approach/posterolateral-approach",
+          "source_page_id": "ao_b998d482cbad2405"
+        },
+        {
+          "source_id": "orthobullets_12116",
+          "provider": "Orthobullets",
+          "title": "THA Approaches",
+          "url": "https://www.orthobullets.com/recon/12116/tha-approaches"
+        }
+      ],
+      "procedure_applications": [
+        {
+          "procedure_id": "periprosthetic_hip_fracture_orif",
+          "relationship": "primary_option",
+          "condition": "A periprosthetic femoral fracture or revision needs posterior exposure of the hip and femur"
+        },
+        {
+          "procedure_id": "revision_tha",
+          "relationship": "primary_option",
+          "condition": "Revision hip arthroplasty is performed posteriorly"
+        }
+      ],
+      "sections": {
+        "positioning": [
+          {
+            "text": "Position in lateral decubitus with supports preventing rotation away from true lateral and padding at pressure points; prone positioning is also possible.",
+            "source_ids": [
+              "ao_b998d482cbad2405"
+            ]
+          }
+        ],
+        "surface_landmarks": [
+          {
+            "text": "Mark the posterior superior iliac spine, the greater trochanter, and the femoral shaft.",
+            "source_ids": [
+              "ao_b998d482cbad2405"
+            ]
+          }
+        ],
+        "incision": [
+          {
+            "text": "Curve the incision toward the PSIS to a point about 6 cm proximal to the greater trochanter and extend it about 6 cm distally along the femoral axis.",
+            "source_ids": [
+              "ao_b998d482cbad2405"
+            ]
+          }
+        ],
+        "superficial_interval": [
+          {
+            "text": "Incise the fascia lata and split the gluteus maximus in line with its fibers across the greater trochanter.",
+            "source_ids": [
+              "ao_b998d482cbad2405"
+            ]
+          }
+        ],
+        "deep_interval": [
+          {
+            "text": "Place heavy stay sutures in the piriformis and conjoined obturator internus and gemelli, detach the short external rotators bluntly, and open a broad-based three-sided posterior capsulotomy.",
+            "source_ids": [
+              "ao_b998d482cbad2405"
+            ]
+          }
+        ],
+        "layers": [
+          {
+            "text": "Skin, subcutaneous tissue, fascia lata, gluteus maximus, the short external rotators, and the posterior hip capsule.",
+            "source_ids": [
+              "ao_b998d482cbad2405"
+            ]
+          }
+        ],
+        "structures_at_risk": [
+          {
+            "text": "The sciatic nerve lies just posterior to the short external rotators and must be protected, and its exposure is unnecessary for routine arthroplasty.",
+            "source_ids": [
+              "ao_b998d482cbad2405",
+              "orthobullets_12116"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "danger_zones": [
+          {
+            "text": "The interval deep to the short external rotators and quadratus femoris is the danger zone for the sciatic nerve.",
+            "source_ids": [
+              "ao_b998d482cbad2405",
+              "orthobullets_12116"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "retraction_hazards": [
+          {
+            "text": "Keep the hip extended and knee flexed and avoid deep posterior retraction that stretches the sciatic nerve.",
+            "source_ids": [
+              "ao_b998d482cbad2405",
+              "orthobullets_12116"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "exposure": [
+          {
+            "text": "Exposes the posterior hip, femoral head and neck, and proximal femur for arthroplasty or fracture fixation.",
+            "source_ids": [
+              "ao_b998d482cbad2405"
+            ]
+          }
+        ],
+        "limitations": [
+          {
+            "text": "The posterior approach has a higher dislocation rate than anterior exposures unless the capsule and rotators are securely repaired.",
+            "source_ids": [
+              "ao_b998d482cbad2405",
+              "orthobullets_12116"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "indications": [
+          {
+            "text": "Indicated for revision hip arthroplasty and open reduction and internal fixation of periprosthetic femoral fractures.",
+            "source_ids": [
+              "ao_b998d482cbad2405"
+            ]
+          }
+        ],
+        "closure": [
+          {
+            "text": "Repair the short external rotators and capsule through drill holes in the posterior greater trochanter, since secure repair reduces dislocation, then close in layers with a subfascial drain.",
+            "source_ids": [
+              "ao_b998d482cbad2405",
+              "orthobullets_12116"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "complications": [
+          {
+            "text": "Complications include posterior hip dislocation, sciatic nerve injury, and wound problems.",
+            "source_ids": [
+              "ao_b998d482cbad2405",
+              "orthobullets_12116"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "questions": [
+          {
+            "question": "Which nerve is most at risk in the posterolateral hip approach?",
+            "answer": "The sciatic nerve, lying just posterior to the short external rotators.",
+            "source_ids": [
+              "ao_b998d482cbad2405",
+              "orthobullets_12116"
+            ]
+          },
+          {
+            "question": "What most reduces dislocation risk after a posterior approach?",
+            "answer": "Secure repair of the capsule and short external rotators.",
+            "source_ids": [
+              "ao_b998d482cbad2405",
+              "orthobullets_12116"
+            ]
+          },
+          {
+            "question": "Which muscle is split to reach the short external rotators?",
+            "answer": "The gluteus maximus, in line with its fibers.",
+            "source_ids": [
+              "ao_b998d482cbad2405"
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

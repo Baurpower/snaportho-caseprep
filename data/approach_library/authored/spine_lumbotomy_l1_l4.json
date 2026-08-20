@@ -1,0 +1,331 @@
+{
+  "schema_version": "brobot_approach_packet_v1",
+  "approach_id": "spine_lumbotomy_l1_l4",
+  "name": "Open lumbotomy (L1–L4)",
+  "aliases": [
+    "left lumbotomy with 12th-rib resection"
+  ],
+  "region": "lumbar",
+  "joint": "",
+  "bones": [
+    "L1",
+    "L2",
+    "L3",
+    "L4"
+  ],
+  "corridor": "Lateral abdominal-wall split, distal 5 cm of the 12th rib excised, transversalis fascia opened, psoas retracted from its anterior border over the discs, segmental vessels ligated, exposure to the pedicles posteriorly and the ALL anteriorly",
+  "positioning": [
+    {
+      "text": "Position so fluoroscopy can mark the fracture; usually three vertebrae are accessible.",
+      "claim_ids": [
+        "spine_lumbotomy_l1_l4_positioning_01"
+      ]
+    }
+  ],
+  "setup": [],
+  "surface_landmarks": [
+    {
+      "text": "Mark the fracture level and the distal 5 cm of the 12th rib.",
+      "claim_ids": [
+        "spine_lumbotomy_l1_l4_surface_landmarks_01"
+      ]
+    }
+  ],
+  "incision": [
+    {
+      "text": "Incise on the marked line, length set by the number of levels, body habitus, and prior chest surgery.",
+      "claim_ids": [
+        "spine_lumbotomy_l1_l4_incision_01"
+      ]
+    }
+  ],
+  "superficial_interval": [
+    {
+      "text": "Incise external oblique, split internal oblique, and expose the distal 5 cm of the 12th rib subperiosteally. Excise that rib segment to enter the retroperitoneum.",
+      "claim_ids": [
+        "spine_lumbotomy_l1_l4_superficial_interval_01"
+      ]
+    }
+  ],
+  "deep_interval": [
+    {
+      "text": "Open transversalis fascia carefully, sweep peritoneum to psoas, and start on the anterior psoas border over a disc. Expose the discs above and below first. Ligate segmental vessels above, below, and over the fractured body. Reflect psoas posteriorly subperiosteally to the pedicles without injuring foraminal vessels. Carry the dissection anteriorly to the ALL while protecting the great vessels; take the sympathetic chain anteriorly with the periosteum.",
+      "claim_ids": [
+        "spine_lumbotomy_l1_l4_deep_interval_01"
+      ]
+    }
+  ],
+  "layers": [
+    {
+      "text": "Skin, three abdominal-wall layers, 12th rib, retroperitoneal fat, psoas, segmental vessels, then the lumbar body to the ALL and pedicles.",
+      "claim_ids": [
+        "spine_lumbotomy_l1_l4_layers_01"
+      ]
+    }
+  ],
+  "structures_encountered": [],
+  "structures_at_risk": [
+    {
+      "text": "The peritoneum, 12th-rib neurovascular bundle, psoas, segmental and foraminal vessels, great vessels, and sympathetic chain are at risk.",
+      "claim_ids": [
+        "spine_lumbotomy_l1_l4_structures_at_risk_01"
+      ]
+    }
+  ],
+  "danger_zones": [
+    {
+      "text": "An unrepaired peritoneal tear and dissection into the neural foramina are the danger zones.",
+      "claim_ids": [
+        "spine_lumbotomy_l1_l4_danger_zones_01"
+      ]
+    }
+  ],
+  "retraction_hazards": [
+    {
+      "text": "Use a table-mounted system for psoas, viscera, great vessels, and the sympathetic chain.",
+      "claim_ids": [
+        "spine_lumbotomy_l1_l4_retraction_hazards_01"
+      ]
+    }
+  ],
+  "exposure": [
+    {
+      "text": "Usually shows three vertebrae for open lumbar plating.",
+      "claim_ids": [
+        "spine_lumbotomy_l1_l4_exposure_01"
+      ]
+    }
+  ],
+  "limitations": [
+    {
+      "text": "More extensive than a mini-lumbotomy; L5–S1 still requires an anterior retroperitoneal window.",
+      "claim_ids": [
+        "spine_lumbotomy_l1_l4_limitations_01"
+      ]
+    }
+  ],
+  "extensions": [],
+  "indications": [
+    {
+      "text": "Used for open anterior plating of L1–L4 fractures.",
+      "claim_ids": [
+        "spine_lumbotomy_l1_l4_indications_01"
+      ]
+    }
+  ],
+  "relative_contraindications": [],
+  "implant_implications": [],
+  "fluoroscopy_implications": [],
+  "closure": [
+    {
+      "text": "A retroperitoneal suction drain is optional. Approximate the three abdominal-wall layers, then fat and skin.",
+      "claim_ids": [
+        "spine_lumbotomy_l1_l4_closure_01"
+      ]
+    }
+  ],
+  "complications": [
+    {
+      "text": "Complications include peritoneal injury with hernia, great-vessel injury, and foraminal bleeding.",
+      "claim_ids": [
+        "spine_lumbotomy_l1_l4_complications_01"
+      ]
+    }
+  ],
+  "bailouts": [],
+  "procedure_applications": [
+    {
+      "procedure_id": "thoracolumbar_fracture_orif",
+      "relationship": "primary_option",
+      "condition": "Three lumbar vertebrae around an L1–L4 fracture are plated through an open left lumbotomy"
+    }
+  ],
+  "questions": [
+    {
+      "question": "How does the open lumbotomy enter the retroperitoneum at L1–L4?",
+      "answer": "By excising the distal 5 cm of the 12th rib after subperiosteal exposure.",
+      "claim_ids": [
+        "spine_lumbotomy_l1_l4_questions_01"
+      ]
+    },
+    {
+      "question": "Where does psoas dissection begin?",
+      "answer": "On the anterior border of psoas over a disc space, typically the discs above and below the fracture first.",
+      "claim_ids": [
+        "spine_lumbotomy_l1_l4_questions_02"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "spine_lumbotomy_l1_l4_positioning_01",
+      "text": "Position so fluoroscopy can mark the fracture; usually three vertebrae are accessible.",
+      "source_ids": [
+        "ao_d4d91da9da62b1e6"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "spine_lumbotomy_l1_l4_surface_landmarks_01",
+      "text": "Mark the fracture level and the distal 5 cm of the 12th rib.",
+      "source_ids": [
+        "ao_d4d91da9da62b1e6"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "spine_lumbotomy_l1_l4_incision_01",
+      "text": "Incise on the marked line, length set by the number of levels, body habitus, and prior chest surgery.",
+      "source_ids": [
+        "ao_d4d91da9da62b1e6"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "spine_lumbotomy_l1_l4_superficial_interval_01",
+      "text": "Incise external oblique, split internal oblique, and expose the distal 5 cm of the 12th rib subperiosteally. Excise that rib segment to enter the retroperitoneum.",
+      "source_ids": [
+        "ao_d4d91da9da62b1e6"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "spine_lumbotomy_l1_l4_deep_interval_01",
+      "text": "Open transversalis fascia carefully, sweep peritoneum to psoas, and start on the anterior psoas border over a disc. Expose the discs above and below first. Ligate segmental vessels above, below, and over the fractured body. Reflect psoas posteriorly subperiosteally to the pedicles without injuring foraminal vessels. Carry the dissection anteriorly to the ALL while protecting the great vessels; take the sympathetic chain anteriorly with the periosteum.",
+      "source_ids": [
+        "ao_d4d91da9da62b1e6",
+        "ao_edd227745e845331"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "spine_lumbotomy_l1_l4_layers_01",
+      "text": "Skin, three abdominal-wall layers, 12th rib, retroperitoneal fat, psoas, segmental vessels, then the lumbar body to the ALL and pedicles.",
+      "source_ids": [
+        "ao_d4d91da9da62b1e6",
+        "ao_edd227745e845331"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "spine_lumbotomy_l1_l4_structures_at_risk_01",
+      "text": "The peritoneum, 12th-rib neurovascular bundle, psoas, segmental and foraminal vessels, great vessels, and sympathetic chain are at risk.",
+      "source_ids": [
+        "ao_d4d91da9da62b1e6",
+        "ao_edd227745e845331"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "spine_lumbotomy_l1_l4_danger_zones_01",
+      "text": "An unrepaired peritoneal tear and dissection into the neural foramina are the danger zones.",
+      "source_ids": [
+        "ao_d4d91da9da62b1e6",
+        "ao_edd227745e845331"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "spine_lumbotomy_l1_l4_retraction_hazards_01",
+      "text": "Use a table-mounted system for psoas, viscera, great vessels, and the sympathetic chain.",
+      "source_ids": [
+        "ao_d4d91da9da62b1e6",
+        "ao_edd227745e845331"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "spine_lumbotomy_l1_l4_exposure_01",
+      "text": "Usually shows three vertebrae for open lumbar plating.",
+      "source_ids": [
+        "ao_d4d91da9da62b1e6"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "spine_lumbotomy_l1_l4_limitations_01",
+      "text": "More extensive than a mini-lumbotomy; L5–S1 still requires an anterior retroperitoneal window.",
+      "source_ids": [
+        "ao_d4d91da9da62b1e6",
+        "ao_edd227745e845331"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "spine_lumbotomy_l1_l4_indications_01",
+      "text": "Used for open anterior plating of L1–L4 fractures.",
+      "source_ids": [
+        "ao_d4d91da9da62b1e6"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "spine_lumbotomy_l1_l4_closure_01",
+      "text": "A retroperitoneal suction drain is optional. Approximate the three abdominal-wall layers, then fat and skin.",
+      "source_ids": [
+        "ao_d4d91da9da62b1e6"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "spine_lumbotomy_l1_l4_complications_01",
+      "text": "Complications include peritoneal injury with hernia, great-vessel injury, and foraminal bleeding.",
+      "source_ids": [
+        "ao_d4d91da9da62b1e6",
+        "ao_edd227745e845331"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "spine_lumbotomy_l1_l4_questions_01",
+      "text": "How does the open lumbotomy enter the retroperitoneum at L1–L4?",
+      "source_ids": [
+        "ao_d4d91da9da62b1e6"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "spine_lumbotomy_l1_l4_questions_02",
+      "text": "Where does psoas dissection begin?",
+      "source_ids": [
+        "ao_d4d91da9da62b1e6"
+      ],
+      "risk_level": "medium"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "ao_d4d91da9da62b1e6",
+      "provider": "AO Surgery Reference",
+      "title": "Lumbotomy L1 L4",
+      "url": "https://surgeryreference.aofoundation.org/spine/trauma/thoracolumbar/approach/lumbotomy-l1-l4",
+      "source_page_id": "ao_d4d91da9da62b1e6"
+    },
+    {
+      "source_id": "ao_edd227745e845331",
+      "provider": "AO Surgery Reference",
+      "title": "Minimally Invasive Lumbotomy L2 L4",
+      "url": "https://surgeryreference.aofoundation.org/spine/trauma/thoracolumbar/approach/minimally-invasive-lumbotomy-l2-l4",
+      "source_page_id": "ao_edd227745e845331"
+    }
+  ],
+  "content_status": "agent_review_pending",
+  "review": {
+    "status": "agent_review_pending",
+    "required_roles": [
+      "adversarial_safety_reviewer",
+      "approach_anatomy_reviewer",
+      "educational_value_reviewer",
+      "evidence_reviewer",
+      "operative_exposure_reviewer",
+      "procedure_applicability_reviewer"
+    ],
+    "completed_roles": []
+  },
+  "resolved_contradiction_keys": [],
+  "authoring_provenance": {
+    "method": "local_codex_curated",
+    "definition_file": "data/approach_library/curated/spine_remaining_batch001_v1.json",
+    "api_used": false
+  }
+}

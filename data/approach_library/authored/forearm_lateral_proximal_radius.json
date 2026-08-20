@@ -1,0 +1,363 @@
+{
+  "schema_version": "brobot_approach_packet_v1",
+  "approach_id": "forearm_lateral_proximal_radius",
+  "name": "Lateral approach to the proximal radius",
+  "aliases": [
+    "Kocher-type lateral approach to the radial head",
+    "anconeus–extensor carpi ulnaris interval"
+  ],
+  "region": "forearm-shaft",
+  "joint": "elbow",
+  "bones": [
+    "radius"
+  ],
+  "corridor": "Lateral elbow interval between anconeus and extensor carpi ulnaris, through the lateral capsule to the radial head, neck, and annular ligament",
+  "positioning": [
+    {
+      "text": "Position supine with the arm across the chest or on a hand table with the forearm pronated, since pronation carries the posterior interosseous nerve away from the operative field.",
+      "claim_ids": [
+        "forearm_lateral_proximal_radius_positioning_01"
+      ]
+    }
+  ],
+  "setup": [],
+  "surface_landmarks": [
+    {
+      "text": "Mark the lateral humeral epicondyle, the radial head, and the line of the elbow joint.",
+      "claim_ids": [
+        "forearm_lateral_proximal_radius_surface_landmarks_01"
+      ]
+    }
+  ],
+  "incision": [
+    {
+      "text": "Begin about 2 cm proximal to the lateral epicondyle and carry the incision across the elbow joint over the radial head to approximately 5 cm distal to the joint.",
+      "claim_ids": [
+        "forearm_lateral_proximal_radius_incision_01"
+      ]
+    }
+  ],
+  "superficial_interval": [
+    {
+      "text": "Incise the subcutaneous tissue and deep fascia and develop the interval between the anterior border of anconeus and the extensor carpi ulnaris, using the fat stripe under the fascia to identify the plane.",
+      "claim_ids": [
+        "forearm_lateral_proximal_radius_superficial_interval_01"
+      ]
+    }
+  ],
+  "deep_interval": [
+    {
+      "text": "Separate anconeus from extensor carpi ulnaris, elevate the muscles from the joint capsule, and incise the capsule to expose the radial head and annular ligament, keeping the forearm pronated.",
+      "claim_ids": [
+        "forearm_lateral_proximal_radius_deep_interval_01"
+      ]
+    }
+  ],
+  "layers": [
+    {
+      "text": "Skin, subcutaneous tissue, deep fascia, the anconeus and extensor carpi ulnaris interval, the lateral elbow capsule, and the radial head.",
+      "claim_ids": [
+        "forearm_lateral_proximal_radius_layers_01"
+      ]
+    }
+  ],
+  "structures_encountered": [],
+  "structures_at_risk": [
+    {
+      "text": "The posterior interosseous nerve within the supinator (roughly three finger-breadths distal to the radial head, with a safe zone near 48 mm from the radiocapitellar joint), the radial nerve over the anterolateral capsule, and the lateral ulnar collateral ligament are at risk.",
+      "claim_ids": [
+        "forearm_lateral_proximal_radius_structures_at_risk_01"
+      ]
+    }
+  ],
+  "danger_zones": [
+    {
+      "text": "Dissection distal to the annular ligament and excessive anterior capsular incision are the danger zones for the posterior interosseous and radial nerves.",
+      "claim_ids": [
+        "forearm_lateral_proximal_radius_danger_zones_01"
+      ]
+    }
+  ],
+  "retraction_hazards": [
+    {
+      "text": "Avoid strenuous distal retraction, which can stretch the posterior interosseous nerve; keep the forearm pronated during distal work.",
+      "claim_ids": [
+        "forearm_lateral_proximal_radius_retraction_hazards_01"
+      ]
+    }
+  ],
+  "exposure": [
+    {
+      "text": "Exposes the radial head, neck, and annular ligament for fixation or arthroplasty.",
+      "claim_ids": [
+        "forearm_lateral_proximal_radius_exposure_01"
+      ]
+    }
+  ],
+  "limitations": [
+    {
+      "text": "Safe distal extension is limited by the posterior interosseous nerve; posterior structures behind the radial head, especially near the lateral ulnar collateral ligament, must be respected to avoid instability.",
+      "claim_ids": [
+        "forearm_lateral_proximal_radius_limitations_01"
+      ]
+    }
+  ],
+  "extensions": [
+    {
+      "text": "A lateral epicondyle osteotomy variant preserves the collateral ligaments and common extensor origin but requires fixation of the fragment during closure.",
+      "claim_ids": [
+        "forearm_lateral_proximal_radius_extensions_01"
+      ]
+    }
+  ],
+  "indications": [
+    {
+      "text": "Indicated for open reduction and internal fixation or replacement of radial head and neck fractures.",
+      "claim_ids": [
+        "forearm_lateral_proximal_radius_indications_01"
+      ]
+    }
+  ],
+  "relative_contraindications": [],
+  "implant_implications": [],
+  "fluoroscopy_implications": [],
+  "closure": [
+    {
+      "text": "Repair the lateral capsule, protect the lateral ulnar collateral ligament, fix any epicondylar osteotomy, and close fascia, subcutaneous tissue, and skin in layers.",
+      "claim_ids": [
+        "forearm_lateral_proximal_radius_closure_01"
+      ]
+    }
+  ],
+  "complications": [
+    {
+      "text": "Complications include posterior interosseous nerve palsy, radial nerve injury, and posterolateral rotatory instability from lateral ulnar collateral ligament injury.",
+      "claim_ids": [
+        "forearm_lateral_proximal_radius_complications_01"
+      ]
+    }
+  ],
+  "bailouts": [],
+  "procedure_applications": [
+    {
+      "procedure_id": "radial_head_fracture_orif",
+      "relationship": "primary_option",
+      "condition": "The radial head or neck requires exposure for fixation or replacement"
+    }
+  ],
+  "questions": [
+    {
+      "question": "Which muscle interval is used for the lateral approach to the radial head?",
+      "answer": "Between the anconeus and the extensor carpi ulnaris.",
+      "claim_ids": [
+        "forearm_lateral_proximal_radius_questions_01"
+      ]
+    },
+    {
+      "question": "How is the posterior interosseous nerve protected in this approach?",
+      "answer": "By fully pronating the forearm and avoiding dissection distal to the annular ligament.",
+      "claim_ids": [
+        "forearm_lateral_proximal_radius_questions_02"
+      ]
+    },
+    {
+      "question": "Which ligament must be preserved behind the radial head to avoid instability?",
+      "answer": "The lateral ulnar collateral ligament.",
+      "claim_ids": [
+        "forearm_lateral_proximal_radius_questions_03"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "forearm_lateral_proximal_radius_positioning_01",
+      "text": "Position supine with the arm across the chest or on a hand table with the forearm pronated, since pronation carries the posterior interosseous nerve away from the operative field.",
+      "source_ids": [
+        "ao_dafb27f83a9496e0",
+        "orthobullets_12099"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "forearm_lateral_proximal_radius_surface_landmarks_01",
+      "text": "Mark the lateral humeral epicondyle, the radial head, and the line of the elbow joint.",
+      "source_ids": [
+        "ao_dafb27f83a9496e0"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "forearm_lateral_proximal_radius_incision_01",
+      "text": "Begin about 2 cm proximal to the lateral epicondyle and carry the incision across the elbow joint over the radial head to approximately 5 cm distal to the joint.",
+      "source_ids": [
+        "ao_dafb27f83a9496e0"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "forearm_lateral_proximal_radius_superficial_interval_01",
+      "text": "Incise the subcutaneous tissue and deep fascia and develop the interval between the anterior border of anconeus and the extensor carpi ulnaris, using the fat stripe under the fascia to identify the plane.",
+      "source_ids": [
+        "ao_dafb27f83a9496e0",
+        "orthobullets_12099"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "forearm_lateral_proximal_radius_deep_interval_01",
+      "text": "Separate anconeus from extensor carpi ulnaris, elevate the muscles from the joint capsule, and incise the capsule to expose the radial head and annular ligament, keeping the forearm pronated.",
+      "source_ids": [
+        "ao_dafb27f83a9496e0",
+        "orthobullets_12099"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "forearm_lateral_proximal_radius_layers_01",
+      "text": "Skin, subcutaneous tissue, deep fascia, the anconeus and extensor carpi ulnaris interval, the lateral elbow capsule, and the radial head.",
+      "source_ids": [
+        "ao_dafb27f83a9496e0"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "forearm_lateral_proximal_radius_structures_at_risk_01",
+      "text": "The posterior interosseous nerve within the supinator (roughly three finger-breadths distal to the radial head, with a safe zone near 48 mm from the radiocapitellar joint), the radial nerve over the anterolateral capsule, and the lateral ulnar collateral ligament are at risk.",
+      "source_ids": [
+        "ao_dafb27f83a9496e0",
+        "orthobullets_12099"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "forearm_lateral_proximal_radius_danger_zones_01",
+      "text": "Dissection distal to the annular ligament and excessive anterior capsular incision are the danger zones for the posterior interosseous and radial nerves.",
+      "source_ids": [
+        "ao_dafb27f83a9496e0",
+        "orthobullets_12099"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "forearm_lateral_proximal_radius_retraction_hazards_01",
+      "text": "Avoid strenuous distal retraction, which can stretch the posterior interosseous nerve; keep the forearm pronated during distal work.",
+      "source_ids": [
+        "ao_dafb27f83a9496e0",
+        "orthobullets_12099"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "forearm_lateral_proximal_radius_exposure_01",
+      "text": "Exposes the radial head, neck, and annular ligament for fixation or arthroplasty.",
+      "source_ids": [
+        "ao_dafb27f83a9496e0"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "forearm_lateral_proximal_radius_limitations_01",
+      "text": "Safe distal extension is limited by the posterior interosseous nerve; posterior structures behind the radial head, especially near the lateral ulnar collateral ligament, must be respected to avoid instability.",
+      "source_ids": [
+        "ao_dafb27f83a9496e0",
+        "orthobullets_12099"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "forearm_lateral_proximal_radius_extensions_01",
+      "text": "A lateral epicondyle osteotomy variant preserves the collateral ligaments and common extensor origin but requires fixation of the fragment during closure.",
+      "source_ids": [
+        "ao_dafb27f83a9496e0"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "forearm_lateral_proximal_radius_indications_01",
+      "text": "Indicated for open reduction and internal fixation or replacement of radial head and neck fractures.",
+      "source_ids": [
+        "ao_dafb27f83a9496e0",
+        "orthobullets_12099"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "forearm_lateral_proximal_radius_closure_01",
+      "text": "Repair the lateral capsule, protect the lateral ulnar collateral ligament, fix any epicondylar osteotomy, and close fascia, subcutaneous tissue, and skin in layers.",
+      "source_ids": [
+        "ao_dafb27f83a9496e0"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "forearm_lateral_proximal_radius_complications_01",
+      "text": "Complications include posterior interosseous nerve palsy, radial nerve injury, and posterolateral rotatory instability from lateral ulnar collateral ligament injury.",
+      "source_ids": [
+        "ao_dafb27f83a9496e0",
+        "orthobullets_12099"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "forearm_lateral_proximal_radius_questions_01",
+      "text": "Which muscle interval is used for the lateral approach to the radial head?",
+      "source_ids": [
+        "ao_dafb27f83a9496e0",
+        "orthobullets_12099"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "forearm_lateral_proximal_radius_questions_02",
+      "text": "How is the posterior interosseous nerve protected in this approach?",
+      "source_ids": [
+        "ao_dafb27f83a9496e0",
+        "orthobullets_12099"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "forearm_lateral_proximal_radius_questions_03",
+      "text": "Which ligament must be preserved behind the radial head to avoid instability?",
+      "source_ids": [
+        "ao_dafb27f83a9496e0",
+        "orthobullets_12099"
+      ],
+      "risk_level": "medium"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "ao_dafb27f83a9496e0",
+      "provider": "AO Surgery Reference",
+      "title": "Lateral approach to the proximal radius",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/forearm-shaft/approach/lateral-approach-to-the-proximal-radius",
+      "source_page_id": "ao_dafb27f83a9496e0"
+    },
+    {
+      "source_id": "orthobullets_12099",
+      "provider": "Orthobullets",
+      "title": "Radial Head Lateral Approach",
+      "url": "https://www.orthobullets.com/approaches/12099/radial-head-lateral-approach"
+    }
+  ],
+  "content_status": "agent_review_pending",
+  "review": {
+    "status": "agent_review_pending",
+    "required_roles": [
+      "adversarial_safety_reviewer",
+      "approach_anatomy_reviewer",
+      "educational_value_reviewer",
+      "evidence_reviewer",
+      "operative_exposure_reviewer",
+      "procedure_applicability_reviewer"
+    ],
+    "completed_roles": []
+  },
+  "resolved_contradiction_keys": [],
+  "authoring_provenance": {
+    "method": "local_codex_curated",
+    "definition_file": "data/approach_library/curated/forearm_shaft_batch001_v1.json",
+    "api_used": false
+  }
+}

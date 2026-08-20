@@ -1,0 +1,348 @@
+{
+  "schema_version": "brobot_approach_packet_v1",
+  "approach_id": "forearm_pediatric_ulna_subcutaneous",
+  "name": "Pediatric approach to the ulna",
+  "aliases": [
+    "child subcutaneous border approach to the ulna"
+  ],
+  "region": "forearm-shaft",
+  "joint": "",
+  "bones": [
+    "ulna"
+  ],
+  "corridor": "Direct approach along the subcutaneous border of the ulna through the interval between extensor carpi ulnaris and flexor carpi ulnaris to the whole ulnar shaft",
+  "positioning": [
+    {
+      "text": "Position supine with the forearm across the chest or pronated on a hand table so the subcutaneous border of the ulna is accessible.",
+      "claim_ids": [
+        "forearm_pediatric_ulna_subcutaneous_positioning_01"
+      ]
+    }
+  ],
+  "setup": [],
+  "surface_landmarks": [
+    {
+      "text": "Mark the tip of the olecranon and the ulnar styloid; the incision follows the subcutaneous border between them.",
+      "claim_ids": [
+        "forearm_pediatric_ulna_subcutaneous_surface_landmarks_01"
+      ]
+    }
+  ],
+  "incision": [
+    {
+      "text": "Incise along the subcutaneous border of the ulna; in a very swollen forearm place the incision slightly over the extensor compartment so muscle can cover the bone if the wound is left open.",
+      "claim_ids": [
+        "forearm_pediatric_ulna_subcutaneous_incision_01"
+      ]
+    }
+  ],
+  "superficial_interval": [
+    {
+      "text": "Develop the interval between the extensor carpi ulnaris and the flexor carpi ulnaris directly onto the ulnar crest.",
+      "claim_ids": [
+        "forearm_pediatric_ulna_subcutaneous_superficial_interval_01"
+      ]
+    }
+  ],
+  "deep_interval": [
+    {
+      "text": "Elevate the periosteum subperiosteally to expose the ulnar shaft, extending proximally or distally as needed.",
+      "claim_ids": [
+        "forearm_pediatric_ulna_subcutaneous_deep_interval_01"
+      ]
+    }
+  ],
+  "layers": [
+    {
+      "text": "Skin, subcutaneous tissue, deep fascia, the extensor carpi ulnaris and flexor carpi ulnaris interval, and the ulnar periosteum.",
+      "claim_ids": [
+        "forearm_pediatric_ulna_subcutaneous_layers_01"
+      ]
+    }
+  ],
+  "structures_encountered": [],
+  "structures_at_risk": [
+    {
+      "text": "The dorsal cutaneous branch of the ulnar nerve is at risk with distal extension as it passes to the dorsum of the hand, and the ulnar neurovascular bundle lies anterior along the flexor carpi ulnaris.",
+      "claim_ids": [
+        "forearm_pediatric_ulna_subcutaneous_structures_at_risk_01"
+      ]
+    }
+  ],
+  "danger_zones": [
+    {
+      "text": "The distal ulna is the danger zone for the dorsal cutaneous branch of the ulnar nerve; the volar aspect near flexor carpi ulnaris is the danger zone for the ulnar neurovascular bundle.",
+      "claim_ids": [
+        "forearm_pediatric_ulna_subcutaneous_danger_zones_01"
+      ]
+    }
+  ],
+  "retraction_hazards": [
+    {
+      "text": "Stay subperiosteal on the ulnar crest and avoid retracting volarly onto the ulnar nerve and vessels.",
+      "claim_ids": [
+        "forearm_pediatric_ulna_subcutaneous_retraction_hazards_01"
+      ]
+    }
+  ],
+  "exposure": [
+    {
+      "text": "Provides good exposure of the whole ulnar shaft with easy proximal and distal extension.",
+      "claim_ids": [
+        "forearm_pediatric_ulna_subcutaneous_exposure_01"
+      ]
+    }
+  ],
+  "limitations": [
+    {
+      "text": "Wound closure can be difficult in a markedly swollen forearm, which may dictate a slightly dorsal incision for muscular coverage.",
+      "claim_ids": [
+        "forearm_pediatric_ulna_subcutaneous_limitations_01"
+      ]
+    }
+  ],
+  "extensions": [],
+  "indications": [
+    {
+      "text": "Indicated for open reduction and fixation of pediatric ulnar shaft fractures and the ulnar component of Monteggia injuries.",
+      "claim_ids": [
+        "forearm_pediatric_ulna_subcutaneous_indications_01"
+      ]
+    }
+  ],
+  "relative_contraindications": [],
+  "implant_implications": [],
+  "fluoroscopy_implications": [],
+  "closure": [
+    {
+      "text": "Do not close the forearm fascia because of compartment syndrome risk, optionally tack flexor carpi ulnaris over the implant, and close skin with fine resorbable sutures.",
+      "claim_ids": [
+        "forearm_pediatric_ulna_subcutaneous_closure_01"
+      ]
+    }
+  ],
+  "complications": [
+    {
+      "text": "Complications include injury to the dorsal cutaneous branch of the ulnar nerve, ulnar neurovascular injury, and compartment syndrome.",
+      "claim_ids": [
+        "forearm_pediatric_ulna_subcutaneous_complications_01"
+      ]
+    }
+  ],
+  "bailouts": [],
+  "procedure_applications": [
+    {
+      "procedure_id": "both_bone_forearm_fracture_orif",
+      "relationship": "primary_option",
+      "condition": "A child's ulnar shaft fracture requires open exposure for reduction and fixation"
+    },
+    {
+      "procedure_id": "monteggia_fracture_orif",
+      "relationship": "primary_option",
+      "condition": "The ulnar component of a pediatric Monteggia injury needs exposure"
+    }
+  ],
+  "questions": [
+    {
+      "question": "Along which border is the pediatric ulna approached?",
+      "answer": "The subcutaneous border, between extensor carpi ulnaris and flexor carpi ulnaris.",
+      "claim_ids": [
+        "forearm_pediatric_ulna_subcutaneous_questions_01"
+      ]
+    },
+    {
+      "question": "Which nerve is at risk with distal extension of the ulnar approach?",
+      "answer": "The dorsal cutaneous branch of the ulnar nerve.",
+      "claim_ids": [
+        "forearm_pediatric_ulna_subcutaneous_questions_02"
+      ]
+    },
+    {
+      "question": "Why is the forearm fascia left open in children after this approach?",
+      "answer": "To reduce the risk of compartment syndrome.",
+      "claim_ids": [
+        "forearm_pediatric_ulna_subcutaneous_questions_03"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "forearm_pediatric_ulna_subcutaneous_positioning_01",
+      "text": "Position supine with the forearm across the chest or pronated on a hand table so the subcutaneous border of the ulna is accessible.",
+      "source_ids": [
+        "ao_8ddea5ff05bc3556"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "forearm_pediatric_ulna_subcutaneous_surface_landmarks_01",
+      "text": "Mark the tip of the olecranon and the ulnar styloid; the incision follows the subcutaneous border between them.",
+      "source_ids": [
+        "ao_8ddea5ff05bc3556"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "forearm_pediatric_ulna_subcutaneous_incision_01",
+      "text": "Incise along the subcutaneous border of the ulna; in a very swollen forearm place the incision slightly over the extensor compartment so muscle can cover the bone if the wound is left open.",
+      "source_ids": [
+        "ao_8ddea5ff05bc3556"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "forearm_pediatric_ulna_subcutaneous_superficial_interval_01",
+      "text": "Develop the interval between the extensor carpi ulnaris and the flexor carpi ulnaris directly onto the ulnar crest.",
+      "source_ids": [
+        "ao_8ddea5ff05bc3556",
+        "ao_dba28fa580cb941b"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "forearm_pediatric_ulna_subcutaneous_deep_interval_01",
+      "text": "Elevate the periosteum subperiosteally to expose the ulnar shaft, extending proximally or distally as needed.",
+      "source_ids": [
+        "ao_8ddea5ff05bc3556"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "forearm_pediatric_ulna_subcutaneous_layers_01",
+      "text": "Skin, subcutaneous tissue, deep fascia, the extensor carpi ulnaris and flexor carpi ulnaris interval, and the ulnar periosteum.",
+      "source_ids": [
+        "ao_8ddea5ff05bc3556",
+        "ao_dba28fa580cb941b"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "forearm_pediatric_ulna_subcutaneous_structures_at_risk_01",
+      "text": "The dorsal cutaneous branch of the ulnar nerve is at risk with distal extension as it passes to the dorsum of the hand, and the ulnar neurovascular bundle lies anterior along the flexor carpi ulnaris.",
+      "source_ids": [
+        "ao_8ddea5ff05bc3556",
+        "ao_dba28fa580cb941b"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "forearm_pediatric_ulna_subcutaneous_danger_zones_01",
+      "text": "The distal ulna is the danger zone for the dorsal cutaneous branch of the ulnar nerve; the volar aspect near flexor carpi ulnaris is the danger zone for the ulnar neurovascular bundle.",
+      "source_ids": [
+        "ao_8ddea5ff05bc3556",
+        "ao_dba28fa580cb941b"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "forearm_pediatric_ulna_subcutaneous_retraction_hazards_01",
+      "text": "Stay subperiosteal on the ulnar crest and avoid retracting volarly onto the ulnar nerve and vessels.",
+      "source_ids": [
+        "ao_8ddea5ff05bc3556",
+        "ao_dba28fa580cb941b"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "forearm_pediatric_ulna_subcutaneous_exposure_01",
+      "text": "Provides good exposure of the whole ulnar shaft with easy proximal and distal extension.",
+      "source_ids": [
+        "ao_8ddea5ff05bc3556"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "forearm_pediatric_ulna_subcutaneous_limitations_01",
+      "text": "Wound closure can be difficult in a markedly swollen forearm, which may dictate a slightly dorsal incision for muscular coverage.",
+      "source_ids": [
+        "ao_8ddea5ff05bc3556"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "forearm_pediatric_ulna_subcutaneous_indications_01",
+      "text": "Indicated for open reduction and fixation of pediatric ulnar shaft fractures and the ulnar component of Monteggia injuries.",
+      "source_ids": [
+        "ao_8ddea5ff05bc3556"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "forearm_pediatric_ulna_subcutaneous_closure_01",
+      "text": "Do not close the forearm fascia because of compartment syndrome risk, optionally tack flexor carpi ulnaris over the implant, and close skin with fine resorbable sutures.",
+      "source_ids": [
+        "ao_8ddea5ff05bc3556"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "forearm_pediatric_ulna_subcutaneous_complications_01",
+      "text": "Complications include injury to the dorsal cutaneous branch of the ulnar nerve, ulnar neurovascular injury, and compartment syndrome.",
+      "source_ids": [
+        "ao_8ddea5ff05bc3556",
+        "ao_dba28fa580cb941b"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "forearm_pediatric_ulna_subcutaneous_questions_01",
+      "text": "Along which border is the pediatric ulna approached?",
+      "source_ids": [
+        "ao_8ddea5ff05bc3556",
+        "ao_dba28fa580cb941b"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "forearm_pediatric_ulna_subcutaneous_questions_02",
+      "text": "Which nerve is at risk with distal extension of the ulnar approach?",
+      "source_ids": [
+        "ao_8ddea5ff05bc3556"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "forearm_pediatric_ulna_subcutaneous_questions_03",
+      "text": "Why is the forearm fascia left open in children after this approach?",
+      "source_ids": [
+        "ao_8ddea5ff05bc3556"
+      ],
+      "risk_level": "medium"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "ao_8ddea5ff05bc3556",
+      "provider": "AO Surgery Reference",
+      "title": "Approach to the ulna (pediatric)",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/pediatric-trauma/forearm-shaft/approach/approach-to-the-ulna",
+      "source_page_id": "ao_8ddea5ff05bc3556"
+    },
+    {
+      "source_id": "ao_dba28fa580cb941b",
+      "provider": "AO Surgery Reference",
+      "title": "Safe zones for pin placement in the forearm",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/forearm-shaft/approach/safe-zones-for-pin-placement-in-the-forearm",
+      "source_page_id": "ao_dba28fa580cb941b"
+    }
+  ],
+  "content_status": "agent_review_pending",
+  "review": {
+    "status": "agent_review_pending",
+    "required_roles": [
+      "adversarial_safety_reviewer",
+      "approach_anatomy_reviewer",
+      "educational_value_reviewer",
+      "evidence_reviewer",
+      "operative_exposure_reviewer",
+      "procedure_applicability_reviewer"
+    ],
+    "completed_roles": []
+  },
+  "resolved_contradiction_keys": [],
+  "authoring_provenance": {
+    "method": "local_codex_curated",
+    "definition_file": "data/approach_library/curated/forearm_shaft_batch001_v1.json",
+    "api_used": false
+  }
+}

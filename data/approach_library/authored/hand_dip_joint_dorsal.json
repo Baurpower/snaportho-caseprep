@@ -1,0 +1,343 @@
+{
+  "schema_version": "brobot_approach_packet_v1",
+  "approach_id": "hand_dip_joint_dorsal",
+  "name": "Dorsal approach to the distal interphalangeal joint",
+  "aliases": [
+    "dorsal DIP approach",
+    "H-Y-Z dorsal DIP exposure"
+  ],
+  "region": "hand-distal-phalanges",
+  "joint": "distal interphalangeal joint",
+  "bones": [
+    "distal phalanx",
+    "middle phalanx"
+  ],
+  "corridor": "Dorsal H-, Y-, or Z-shaped skin flaps at the DIP, elevating thin flaps and retracting the terminal extensor tendon to the joint while protecting the nail matrix",
+  "positioning": [
+    {
+      "text": "Position the hand so the dorsal DIP and nail fold are accessible under tourniquet.",
+      "claim_ids": [
+        "hand_dip_joint_dorsal_positioning_01"
+      ]
+    }
+  ],
+  "setup": [],
+  "surface_landmarks": [
+    {
+      "text": "Mark the DIP crease, the dorsal crest of the distal-phalanx base where the extensor inserts, and the nail matrix.",
+      "claim_ids": [
+        "hand_dip_joint_dorsal_surface_landmarks_01"
+      ]
+    }
+  ],
+  "incision": [
+    {
+      "text": "Use an H-, Y-, or Z-shaped incision; if an H is chosen, diverge the sides slightly to improve flap vascularity.",
+      "claim_ids": [
+        "hand_dip_joint_dorsal_incision_01"
+      ]
+    }
+  ],
+  "superficial_interval": [
+    {
+      "text": "Elevate thin flaps and hold them with fine sutures. Coagulate tiny veins with bipolar forceps.",
+      "claim_ids": [
+        "hand_dip_joint_dorsal_superficial_interval_01"
+      ]
+    }
+  ],
+  "deep_interval": [
+    {
+      "text": "Retract the terminal extensor tendon proximally to see the DIP. If collateral ligaments remain on an avulsed fragment, only part of the joint is visible.",
+      "claim_ids": [
+        "hand_dip_joint_dorsal_deep_interval_01"
+      ]
+    }
+  ],
+  "layers": [
+    {
+      "text": "Skin flaps, dorsal veins, terminal extensor tendon adherent to capsule, then the DIP joint.",
+      "claim_ids": [
+        "hand_dip_joint_dorsal_layers_01"
+      ]
+    }
+  ],
+  "structures_encountered": [],
+  "structures_at_risk": [
+    {
+      "text": "The nail matrix, the terminal extensor tendon (poorly vascular and slow to heal), and the germinal matrix at the distal end of the exposure are at risk.",
+      "claim_ids": [
+        "hand_dip_joint_dorsal_structures_at_risk_01"
+      ]
+    }
+  ],
+  "danger_zones": [
+    {
+      "text": "Damage to the nail matrix can permanently deform the nail. Do not detach the extensor insertion unnecessarily.",
+      "claim_ids": [
+        "hand_dip_joint_dorsal_danger_zones_01"
+      ]
+    }
+  ],
+  "retraction_hazards": [
+    {
+      "text": "Hold flaps with fine sutures rather than crushing them, and do not stretch the terminal extensor off the dorsal crest.",
+      "claim_ids": [
+        "hand_dip_joint_dorsal_retraction_hazards_01"
+      ]
+    }
+  ],
+  "exposure": [
+    {
+      "text": "Shows the dorsal DIP and the extensor insertion; a fragment that still carries collateral ligaments limits the view.",
+      "claim_ids": [
+        "hand_dip_joint_dorsal_exposure_01"
+      ]
+    }
+  ],
+  "limitations": [
+    {
+      "text": "A palmar profundus avulsion cannot be reached from this side.",
+      "claim_ids": [
+        "hand_dip_joint_dorsal_limitations_01"
+      ]
+    }
+  ],
+  "extensions": [],
+  "indications": [
+    {
+      "text": "Indicated for extensor avulsion of the dorsal distal-phalanx base, intra-articular DIP fractures with palmar dislocation, and DIP arthrodesis.",
+      "claim_ids": [
+        "hand_dip_joint_dorsal_indications_01"
+      ]
+    }
+  ],
+  "relative_contraindications": [],
+  "implant_implications": [],
+  "fluoroscopy_implications": [],
+  "closure": [
+    {
+      "text": "Close the skin in a standard manner after the joint work is done.",
+      "claim_ids": [
+        "hand_dip_joint_dorsal_closure_01"
+      ]
+    }
+  ],
+  "complications": [
+    {
+      "text": "Complications include permanent nail deformity from matrix injury and delayed extensor healing because the tendon is poorly vascular.",
+      "claim_ids": [
+        "hand_dip_joint_dorsal_complications_01"
+      ]
+    }
+  ],
+  "bailouts": [],
+  "procedure_applications": [
+    {
+      "procedure_id": "distal_phalanx_fracture_orif",
+      "relationship": "primary_option",
+      "condition": "A dorsal-base extensor avulsion, intra-articular DIP fracture with palmar dislocation, or DIP arthrodesis needs a dorsal window"
+    }
+  ],
+  "questions": [
+    {
+      "question": "Which dorsal DIP incisions are commonly used?",
+      "answer": "H-shaped, Y-shaped, and Z-shaped, with the H sides often diverged to improve flap blood supply.",
+      "claim_ids": [
+        "hand_dip_joint_dorsal_questions_01"
+      ]
+    },
+    {
+      "question": "What must be protected at the distal end of the exposure?",
+      "answer": "The nail matrix.",
+      "claim_ids": [
+        "hand_dip_joint_dorsal_questions_02"
+      ]
+    },
+    {
+      "question": "How is the DIP joint entered dorsally?",
+      "answer": "By retracting the terminal extensor tendon proximally.",
+      "claim_ids": [
+        "hand_dip_joint_dorsal_questions_03"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "hand_dip_joint_dorsal_positioning_01",
+      "text": "Position the hand so the dorsal DIP and nail fold are accessible under tourniquet.",
+      "source_ids": [
+        "ao_5a649db4ce488812"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "hand_dip_joint_dorsal_surface_landmarks_01",
+      "text": "Mark the DIP crease, the dorsal crest of the distal-phalanx base where the extensor inserts, and the nail matrix.",
+      "source_ids": [
+        "ao_5a649db4ce488812",
+        "ao_c8fa94300f2558ac"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "hand_dip_joint_dorsal_incision_01",
+      "text": "Use an H-, Y-, or Z-shaped incision; if an H is chosen, diverge the sides slightly to improve flap vascularity.",
+      "source_ids": [
+        "ao_5a649db4ce488812"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "hand_dip_joint_dorsal_superficial_interval_01",
+      "text": "Elevate thin flaps and hold them with fine sutures. Coagulate tiny veins with bipolar forceps.",
+      "source_ids": [
+        "ao_5a649db4ce488812"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "hand_dip_joint_dorsal_deep_interval_01",
+      "text": "Retract the terminal extensor tendon proximally to see the DIP. If collateral ligaments remain on an avulsed fragment, only part of the joint is visible.",
+      "source_ids": [
+        "ao_5a649db4ce488812"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "hand_dip_joint_dorsal_layers_01",
+      "text": "Skin flaps, dorsal veins, terminal extensor tendon adherent to capsule, then the DIP joint.",
+      "source_ids": [
+        "ao_5a649db4ce488812",
+        "ao_c8fa94300f2558ac"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "hand_dip_joint_dorsal_structures_at_risk_01",
+      "text": "The nail matrix, the terminal extensor tendon (poorly vascular and slow to heal), and the germinal matrix at the distal end of the exposure are at risk.",
+      "source_ids": [
+        "ao_5a649db4ce488812",
+        "ao_c8fa94300f2558ac"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "hand_dip_joint_dorsal_danger_zones_01",
+      "text": "Damage to the nail matrix can permanently deform the nail. Do not detach the extensor insertion unnecessarily.",
+      "source_ids": [
+        "ao_5a649db4ce488812"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "hand_dip_joint_dorsal_retraction_hazards_01",
+      "text": "Hold flaps with fine sutures rather than crushing them, and do not stretch the terminal extensor off the dorsal crest.",
+      "source_ids": [
+        "ao_5a649db4ce488812"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "hand_dip_joint_dorsal_exposure_01",
+      "text": "Shows the dorsal DIP and the extensor insertion; a fragment that still carries collateral ligaments limits the view.",
+      "source_ids": [
+        "ao_5a649db4ce488812"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "hand_dip_joint_dorsal_limitations_01",
+      "text": "A palmar profundus avulsion cannot be reached from this side.",
+      "source_ids": [
+        "ao_5a649db4ce488812",
+        "ao_c8fa94300f2558ac"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "hand_dip_joint_dorsal_indications_01",
+      "text": "Indicated for extensor avulsion of the dorsal distal-phalanx base, intra-articular DIP fractures with palmar dislocation, and DIP arthrodesis.",
+      "source_ids": [
+        "ao_5a649db4ce488812"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "hand_dip_joint_dorsal_closure_01",
+      "text": "Close the skin in a standard manner after the joint work is done.",
+      "source_ids": [
+        "ao_5a649db4ce488812"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "hand_dip_joint_dorsal_complications_01",
+      "text": "Complications include permanent nail deformity from matrix injury and delayed extensor healing because the tendon is poorly vascular.",
+      "source_ids": [
+        "ao_5a649db4ce488812",
+        "ao_c8fa94300f2558ac"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "hand_dip_joint_dorsal_questions_01",
+      "text": "Which dorsal DIP incisions are commonly used?",
+      "source_ids": [
+        "ao_5a649db4ce488812"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "hand_dip_joint_dorsal_questions_02",
+      "text": "What must be protected at the distal end of the exposure?",
+      "source_ids": [
+        "ao_5a649db4ce488812"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "hand_dip_joint_dorsal_questions_03",
+      "text": "How is the DIP joint entered dorsally?",
+      "source_ids": [
+        "ao_5a649db4ce488812"
+      ],
+      "risk_level": "medium"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "ao_5a649db4ce488812",
+      "provider": "AO Surgery Reference",
+      "title": "Dorsal Approach To The Dip Joint",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/hand-distal-phalanges/approach/dorsal-approach-to-the-dip-joint",
+      "source_page_id": "ao_5a649db4ce488812"
+    },
+    {
+      "source_id": "ao_c8fa94300f2558ac",
+      "provider": "AO Surgery Reference",
+      "title": "Palmar Approach To The Dip Joint",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/hand-distal-phalanges/approach/palmar-approach-to-the-dip-joint",
+      "source_page_id": "ao_c8fa94300f2558ac"
+    }
+  ],
+  "content_status": "agent_review_pending",
+  "review": {
+    "status": "agent_review_pending",
+    "required_roles": [
+      "adversarial_safety_reviewer",
+      "approach_anatomy_reviewer",
+      "educational_value_reviewer",
+      "evidence_reviewer",
+      "operative_exposure_reviewer",
+      "procedure_applicability_reviewer"
+    ],
+    "completed_roles": []
+  },
+  "resolved_contradiction_keys": [],
+  "authoring_provenance": {
+    "method": "local_codex_curated",
+    "definition_file": "data/approach_library/curated/hand_dip_pip_phalanx_batch001_v1.json",
+    "api_used": false
+  }
+}

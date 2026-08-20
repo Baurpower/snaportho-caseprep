@@ -1,0 +1,343 @@
+{
+  "schema_version": "brobot_approach_packet_v1",
+  "approach_id": "hand_middle_phalanx_dorsal",
+  "name": "Dorsal approach to the middle phalanx",
+  "aliases": [
+    "dorsal middle-phalanx shaft approach"
+  ],
+  "region": "hand-middle-phalanges",
+  "joint": "",
+  "bones": [
+    "middle phalanx"
+  ],
+  "corridor": "Dorsal skin (straight, curved, or fasciocutaneous flap) from PIP to DIP, then either a midline split of the terminal extensor and triangular ligament or a paratendon interval between the lateral band and central slip, preserving periosteum and the nail matrix",
+  "positioning": [
+    {
+      "text": "Position the hand so the dorsal middle phalanx from PIP to DIP is accessible under tourniquet.",
+      "claim_ids": [
+        "hand_middle_phalanx_dorsal_positioning_01"
+      ]
+    }
+  ],
+  "setup": [],
+  "surface_landmarks": [
+    {
+      "text": "Mark the PIP and DIP creases, the extensor apparatus, and the nail matrix. Plan a curved incision so the scar does not sit on the radial border of the index or the ulnar border of the little finger.",
+      "claim_ids": [
+        "hand_middle_phalanx_dorsal_surface_landmarks_01"
+      ]
+    }
+  ],
+  "incision": [
+    {
+      "text": "Use a straight midline dorsal cut, a curved cut, or a fasciocutaneous flap based on the contralateral digital artery. Distally stay off the nail matrix.",
+      "claim_ids": [
+        "hand_middle_phalanx_dorsal_incision_01"
+      ]
+    }
+  ],
+  "superficial_interval": [
+    {
+      "text": "Elevate skin and fascia together, protect dorsal sensory branches, and preserve longitudinal veins; transverse veins may be ligated.",
+      "claim_ids": [
+        "hand_middle_phalanx_dorsal_superficial_interval_01"
+      ]
+    }
+  ],
+  "deep_interval": [
+    {
+      "text": "Either split the terminal extensor and triangular ligament in the midline without detaching the tendon or the periosteum, or enter between the lateral band and central slip and retract the tendon toward the midline.",
+      "claim_ids": [
+        "hand_middle_phalanx_dorsal_deep_interval_01"
+      ]
+    }
+  ],
+  "layers": [
+    {
+      "text": "Skin, dorsal veins and sensory nerves, extensor apparatus and triangular ligament, periosteum, then middle-phalanx cortex.",
+      "claim_ids": [
+        "hand_middle_phalanx_dorsal_layers_01"
+      ]
+    }
+  ],
+  "structures_encountered": [],
+  "structures_at_risk": [
+    {
+      "text": "The nail matrix, the terminal extensor insertion (detachment causes mallet deformity), dorsal sensory nerves, and longitudinal veins are at risk.",
+      "claim_ids": [
+        "hand_middle_phalanx_dorsal_structures_at_risk_01"
+      ]
+    }
+  ],
+  "danger_zones": [
+    {
+      "text": "Do not detach the terminal extensor. Distal dissection that enters the nail matrix permanently deforms the nail.",
+      "claim_ids": [
+        "hand_middle_phalanx_dorsal_danger_zones_01"
+      ]
+    }
+  ],
+  "retraction_hazards": [
+    {
+      "text": "Elevate layers together to avoid flap necrosis. A fasciocutaneous flap must not be dissected at its contralateral arterial base.",
+      "claim_ids": [
+        "hand_middle_phalanx_dorsal_retraction_hazards_01"
+      ]
+    }
+  ],
+  "exposure": [
+    {
+      "text": "Exposes the extensor tendon and the middle-phalanx metaphysis and diaphysis.",
+      "claim_ids": [
+        "hand_middle_phalanx_dorsal_exposure_01"
+      ]
+    }
+  ],
+  "limitations": [
+    {
+      "text": "A straight midline scar can tether skin to tendon. A curved flap has poorer apical perfusion. Lateral structures are limited from a purely dorsal split.",
+      "claim_ids": [
+        "hand_middle_phalanx_dorsal_limitations_01"
+      ]
+    }
+  ],
+  "extensions": [],
+  "indications": [
+    {
+      "text": "Used for oblique, spiral, comminuted, or transverse middle-phalanx shaft or metaphyseal fractures and for corrective osteotomy.",
+      "claim_ids": [
+        "hand_middle_phalanx_dorsal_indications_01"
+      ]
+    }
+  ],
+  "relative_contraindications": [],
+  "implant_implications": [],
+  "fluoroscopy_implications": [],
+  "closure": [
+    {
+      "text": "Repair the tendon with 4-0 and ligaments or periosteum with 6-0 nonabsorbable monofilament on an atraumatic needle. Cover metal with periosteum.",
+      "claim_ids": [
+        "hand_middle_phalanx_dorsal_closure_01"
+      ]
+    }
+  ],
+  "complications": [
+    {
+      "text": "Complications include mallet deformity from terminal-extensor detachment, nail deformity, flap necrosis, and extensor adhesion to uncovered implants.",
+      "claim_ids": [
+        "hand_middle_phalanx_dorsal_complications_01"
+      ]
+    }
+  ],
+  "bailouts": [],
+  "procedure_applications": [
+    {
+      "procedure_id": "middle_phalanx_fracture_orif",
+      "relationship": "primary_option",
+      "condition": "An oblique, spiral, comminuted, or transverse middle-phalanx diaphyseal or metaphyseal fracture, or a corrective osteotomy, is fixed dorsally"
+    }
+  ],
+  "questions": [
+    {
+      "question": "What happens if the terminal extensor is detached?",
+      "answer": "A mallet-finger deformity.",
+      "claim_ids": [
+        "hand_middle_phalanx_dorsal_questions_01"
+      ]
+    },
+    {
+      "question": "What are the two deep options?",
+      "answer": "A midline split of the terminal extensor and triangular ligament, or a paratendon interval between the lateral band and central slip.",
+      "claim_ids": [
+        "hand_middle_phalanx_dorsal_questions_02"
+      ]
+    },
+    {
+      "question": "Which veins should be preserved?",
+      "answer": "The longitudinal dorsal veins.",
+      "claim_ids": [
+        "hand_middle_phalanx_dorsal_questions_03"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "hand_middle_phalanx_dorsal_positioning_01",
+      "text": "Position the hand so the dorsal middle phalanx from PIP to DIP is accessible under tourniquet.",
+      "source_ids": [
+        "ao_ae78e73de8f9c222"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "hand_middle_phalanx_dorsal_surface_landmarks_01",
+      "text": "Mark the PIP and DIP creases, the extensor apparatus, and the nail matrix. Plan a curved incision so the scar does not sit on the radial border of the index or the ulnar border of the little finger.",
+      "source_ids": [
+        "ao_ae78e73de8f9c222",
+        "ao_cd07a2ca87b019ec"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "hand_middle_phalanx_dorsal_incision_01",
+      "text": "Use a straight midline dorsal cut, a curved cut, or a fasciocutaneous flap based on the contralateral digital artery. Distally stay off the nail matrix.",
+      "source_ids": [
+        "ao_ae78e73de8f9c222"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "hand_middle_phalanx_dorsal_superficial_interval_01",
+      "text": "Elevate skin and fascia together, protect dorsal sensory branches, and preserve longitudinal veins; transverse veins may be ligated.",
+      "source_ids": [
+        "ao_ae78e73de8f9c222",
+        "ao_cd07a2ca87b019ec"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "hand_middle_phalanx_dorsal_deep_interval_01",
+      "text": "Either split the terminal extensor and triangular ligament in the midline without detaching the tendon or the periosteum, or enter between the lateral band and central slip and retract the tendon toward the midline.",
+      "source_ids": [
+        "ao_ae78e73de8f9c222",
+        "ao_cd07a2ca87b019ec"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "hand_middle_phalanx_dorsal_layers_01",
+      "text": "Skin, dorsal veins and sensory nerves, extensor apparatus and triangular ligament, periosteum, then middle-phalanx cortex.",
+      "source_ids": [
+        "ao_ae78e73de8f9c222"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "hand_middle_phalanx_dorsal_structures_at_risk_01",
+      "text": "The nail matrix, the terminal extensor insertion (detachment causes mallet deformity), dorsal sensory nerves, and longitudinal veins are at risk.",
+      "source_ids": [
+        "ao_ae78e73de8f9c222",
+        "ao_cd07a2ca87b019ec"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "hand_middle_phalanx_dorsal_danger_zones_01",
+      "text": "Do not detach the terminal extensor. Distal dissection that enters the nail matrix permanently deforms the nail.",
+      "source_ids": [
+        "ao_ae78e73de8f9c222"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "hand_middle_phalanx_dorsal_retraction_hazards_01",
+      "text": "Elevate layers together to avoid flap necrosis. A fasciocutaneous flap must not be dissected at its contralateral arterial base.",
+      "source_ids": [
+        "ao_ae78e73de8f9c222"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "hand_middle_phalanx_dorsal_exposure_01",
+      "text": "Exposes the extensor tendon and the middle-phalanx metaphysis and diaphysis.",
+      "source_ids": [
+        "ao_ae78e73de8f9c222"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "hand_middle_phalanx_dorsal_limitations_01",
+      "text": "A straight midline scar can tether skin to tendon. A curved flap has poorer apical perfusion. Lateral structures are limited from a purely dorsal split.",
+      "source_ids": [
+        "ao_ae78e73de8f9c222"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "hand_middle_phalanx_dorsal_indications_01",
+      "text": "Used for oblique, spiral, comminuted, or transverse middle-phalanx shaft or metaphyseal fractures and for corrective osteotomy.",
+      "source_ids": [
+        "ao_ae78e73de8f9c222"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "hand_middle_phalanx_dorsal_closure_01",
+      "text": "Repair the tendon with 4-0 and ligaments or periosteum with 6-0 nonabsorbable monofilament on an atraumatic needle. Cover metal with periosteum.",
+      "source_ids": [
+        "ao_ae78e73de8f9c222",
+        "ao_cd07a2ca87b019ec"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "hand_middle_phalanx_dorsal_complications_01",
+      "text": "Complications include mallet deformity from terminal-extensor detachment, nail deformity, flap necrosis, and extensor adhesion to uncovered implants.",
+      "source_ids": [
+        "ao_ae78e73de8f9c222",
+        "ao_cd07a2ca87b019ec"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "hand_middle_phalanx_dorsal_questions_01",
+      "text": "What happens if the terminal extensor is detached?",
+      "source_ids": [
+        "ao_ae78e73de8f9c222"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "hand_middle_phalanx_dorsal_questions_02",
+      "text": "What are the two deep options?",
+      "source_ids": [
+        "ao_ae78e73de8f9c222"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "hand_middle_phalanx_dorsal_questions_03",
+      "text": "Which veins should be preserved?",
+      "source_ids": [
+        "ao_ae78e73de8f9c222",
+        "ao_cd07a2ca87b019ec"
+      ],
+      "risk_level": "medium"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "ao_ae78e73de8f9c222",
+      "provider": "AO Surgery Reference",
+      "title": "Dorsal Approach To Middle Phalanx",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/hand-middle-phalanges/approach/dorsal-approach-to-middle-phalanx",
+      "source_page_id": "ao_ae78e73de8f9c222"
+    },
+    {
+      "source_id": "ao_cd07a2ca87b019ec",
+      "provider": "AO Surgery Reference",
+      "title": "Dorsal Approach To The Proximal Phalanx",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/hand-proximal-phalanges/approach/dorsal-approach-to-the-proximal-phalanx",
+      "source_page_id": "ao_cd07a2ca87b019ec"
+    }
+  ],
+  "content_status": "agent_review_pending",
+  "review": {
+    "status": "agent_review_pending",
+    "required_roles": [
+      "adversarial_safety_reviewer",
+      "approach_anatomy_reviewer",
+      "educational_value_reviewer",
+      "evidence_reviewer",
+      "operative_exposure_reviewer",
+      "procedure_applicability_reviewer"
+    ],
+    "completed_roles": []
+  },
+  "resolved_contradiction_keys": [],
+  "authoring_provenance": {
+    "method": "local_codex_curated",
+    "definition_file": "data/approach_library/curated/hand_dip_pip_phalanx_batch001_v1.json",
+    "api_used": false
+  }
+}

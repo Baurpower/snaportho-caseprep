@@ -1,0 +1,1375 @@
+{
+  "approaches": [
+    {
+      "approach_id": "proximal_femur_cephalomedullary_nail_entry",
+      "name": "Approach for proximal femoral nailing",
+      "aliases": [
+        "cephalomedullary nail greater-trochanter entry",
+        "trochanteric-entry proximal femoral nail approach"
+      ],
+      "region": "proximal-femur",
+      "joint": "hip-adjacent extra-articular entry",
+      "bones": [
+        "proximal femur",
+        "greater trochanter"
+      ],
+      "corridor": "Proximal gluteal split several centimeters above the greater-trochanter tip, along the posterior bowed femoral axis, to an implant-specific trochanteric start",
+      "sources": [
+        {
+          "source_id": "ao_14af9b0dbcb35a28",
+          "provider": "AO Surgery Reference",
+          "title": "Approach For Proximal Femoral Nailing",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/proximal-femur/approach/approach-for-proximal-femoral-nailing",
+          "source_page_id": "ao_14af9b0dbcb35a28"
+        },
+        {
+          "source_id": "ao_87554683edcd029d",
+          "provider": "AO Surgery Reference",
+          "title": "Antegrade nailing approach with trochanteric entry point",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/femoral-shaft/approach/antegrade-nailing-approach-with-trochanteric-entry-point",
+          "source_page_id": "ao_87554683edcd029d"
+        }
+      ],
+      "procedure_applications": [
+        {
+          "procedure_id": "intertrochanteric_hip_fracture_orif",
+          "relationship": "primary_option",
+          "condition": "A cephalomedullary nail with a greater-trochanter entry is selected for a trochanteric or pertrochanteric fracture"
+        }
+      ],
+      "sections": {
+        "positioning": [
+          {
+            "text": "Position supine or lateral so the pelvis and greater trochanter are accessible and true AP and lateral images of the proximal femur can be obtained.",
+            "source_ids": [
+              "ao_87554683edcd029d"
+            ]
+          }
+        ],
+        "surface_landmarks": [
+          {
+            "text": "Mark the tip of the greater trochanter and the femoral axis, using the image intensifier when habitus obscures palpation.",
+            "source_ids": [
+              "ao_14af9b0dbcb35a28",
+              "ao_87554683edcd029d"
+            ]
+          }
+        ],
+        "incision": [
+          {
+            "text": "Make a 3–5 cm incision several centimeters proximal to the greater-trochanter tip on the proximal extension of the bowed femoral axis, which lies somewhat posterior to a purely lateral line; shift the portal with soft-tissue thickness and the insertion handle.",
+            "source_ids": [
+              "ao_14af9b0dbcb35a28",
+              "ao_87554683edcd029d"
+            ]
+          }
+        ],
+        "superficial_interval": [
+          {
+            "text": "Incise the gluteal fascia 3–8 cm longitudinally and split gluteal fibers by blunt dissection to the trochanter tip.",
+            "source_ids": [
+              "ao_14af9b0dbcb35a28",
+              "ao_87554683edcd029d"
+            ]
+          }
+        ],
+        "deep_interval": [
+          {
+            "text": "Identify the trochanter tip with a finger or instrument and place the entry according to the selected nail; most trochanteric-fracture nails enter through the greater trochanter rather than the trochanteric fossa.",
+            "source_ids": [
+              "ao_14af9b0dbcb35a28"
+            ],
+            "risk_level": "medium"
+          }
+        ],
+        "layers": [
+          {
+            "text": "Skin, subcutaneous tissue, gluteal fascia, longitudinal gluteal split, trochanteric cortex, then the femoral canal.",
+            "source_ids": [
+              "ao_14af9b0dbcb35a28",
+              "ao_87554683edcd029d"
+            ]
+          }
+        ],
+        "structures_at_risk": [
+          {
+            "text": "The posterior femoral shaft cortex, abductor muscle, and an eccentric canal track are at risk if the incision and instruments do not follow the bowed femoral axis.",
+            "source_ids": [
+              "ao_14af9b0dbcb35a28",
+              "ao_87554683edcd029d"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "danger_zones": [
+          {
+            "text": "A too-anterior or off-axis incision promotes eccentric reaming or posterior cortical perforation, especially with long nails.",
+            "source_ids": [
+              "ao_14af9b0dbcb35a28",
+              "ao_87554683edcd029d"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "retraction_hazards": [
+          {
+            "text": "Do not lever instruments against the trochanter to compensate for a poorly aligned skin portal; keep the working path collinear with the canal.",
+            "source_ids": [
+              "ao_87554683edcd029d"
+            ],
+            "risk_level": "medium"
+          }
+        ],
+        "exposure": [
+          {
+            "text": "Provides a proximal portal for implant-specific trochanteric-entry nailing without opening the fracture.",
+            "source_ids": [
+              "ao_14af9b0dbcb35a28"
+            ]
+          }
+        ],
+        "limitations": [
+          {
+            "text": "The exact start depends on nail design, and flexion or abduction deformity of the proximal fragment can hide the desired entry until the fragment is realigned.",
+            "source_ids": [
+              "ao_14af9b0dbcb35a28"
+            ]
+          }
+        ],
+        "indications": [
+          {
+            "text": "Used to insert trochanteric-entry intramedullary nails for trochanteric fractures after the proximal femur is aligned.",
+            "source_ids": [
+              "ao_14af9b0dbcb35a28"
+            ]
+          }
+        ],
+        "closure": [
+          {
+            "text": "Repair fascia without tethering abductors and close subcutaneous tissue and skin.",
+            "source_ids": [
+              "ao_87554683edcd029d"
+            ]
+          }
+        ],
+        "complications": [
+          {
+            "text": "Complications include eccentric reaming, posterior femoral cortical perforation, and a poorly seated nail from an incorrect implant-specific start.",
+            "source_ids": [
+              "ao_14af9b0dbcb35a28",
+              "ao_87554683edcd029d"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "questions": [
+          {
+            "question": "Where do most nails designed for trochanteric fractures enter?",
+            "answer": "Through the greater trochanter, not the trochanteric fossa; the precise point is implant-specific.",
+            "source_ids": [
+              "ao_14af9b0dbcb35a28"
+            ]
+          },
+          {
+            "question": "Why is the incision placed somewhat posterior along the femoral bow?",
+            "answer": "So instruments and the nail travel along the canal and do not perforate the posterior cortex.",
+            "source_ids": [
+              "ao_14af9b0dbcb35a28",
+              "ao_87554683edcd029d"
+            ]
+          },
+          {
+            "question": "How can a flexed or abducted proximal fragment be realigned to find the start?",
+            "answer": "With a percutaneous Schanz screw and/or a ball-spiked pusher.",
+            "source_ids": [
+              "ao_14af9b0dbcb35a28"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "approach_id": "proximal_femur_limited_lateral_implant",
+      "name": "Limited lateral approach for proximal femoral implant insertion",
+      "aliases": [
+        "limited lateral sliding-hip-screw approach",
+        "lateral proximal-femur implant window"
+      ],
+      "region": "proximal-femur",
+      "joint": "hip-adjacent extra-articular",
+      "bones": [
+        "proximal femur"
+      ],
+      "corridor": "Lateral window through fascia lata and vastus lateralis onto the lateral proximal femur, aligned with the femoral-neck axis for screws or a side plate",
+      "sources": [
+        {
+          "source_id": "ao_23abe1d847f8918c",
+          "provider": "AO Surgery Reference",
+          "title": "Limited Lateral Approach For Implant Insertion",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/proximal-femur/approach/limited-lateral-approach-for-implant-insertion",
+          "source_page_id": "ao_23abe1d847f8918c"
+        },
+        {
+          "source_id": "ao_ab876e208ec241f2",
+          "provider": "AO Surgery Reference",
+          "title": "Lateral Approach (femoral shaft)",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/femoral-shaft/approach/lateral-approach",
+          "source_page_id": "ao_ab876e208ec241f2"
+        },
+        {
+          "source_id": "orthobullets_10c9d61b22bde8fc",
+          "provider": "Orthobullets",
+          "title": "Femur Lateral Approach",
+          "url": "https://www.orthobullets.com/approaches/12024/femur-lateral-approach",
+          "source_page_id": "orthobullets_10c9d61b22bde8fc"
+        }
+      ],
+      "procedure_applications": [
+        {
+          "procedure_id": "intertrochanteric_hip_fracture_orif",
+          "relationship": "primary_option",
+          "condition": "Closed reduction is followed by extramedullary fixation with a sliding hip screw, blade plate, or similar lateral implant"
+        },
+        {
+          "procedure_id": "femoral_neck_fracture_orif",
+          "relationship": "conditional_option",
+          "condition": "Multiple screws or a side-plate construct is inserted from a lateral window after closed reduction"
+        }
+      ],
+      "sections": {
+        "positioning": [
+          {
+            "text": "Position so closed reduction can be held and the lateral proximal femur imaged; the limb must remain accessible for a neck-axis-aligned lateral incision.",
+            "source_ids": [
+              "ao_23abe1d847f8918c",
+              "ao_ab876e208ec241f2"
+            ]
+          }
+        ],
+        "surface_landmarks": [
+          {
+            "text": "Mark the greater trochanter, femoral shaft, and the femoral-neck axis; a guide wire laid on the anterior hip and checked on the image intensifier locates the screw entry and the proximal end of the incision.",
+            "source_ids": [
+              "ao_23abe1d847f8918c"
+            ]
+          }
+        ],
+        "incision": [
+          {
+            "text": "For multiple screws, center a slightly posterior lateral incision on the neck-axis line. For a two-hole 135° sliding hip screw, begin a few centimeters proximal to the palpable greater trochanter and extend about 10 cm distally; a 95° blade plate needs a longer distal incision.",
+            "source_ids": [
+              "ao_23abe1d847f8918c"
+            ]
+          }
+        ],
+        "superficial_interval": [
+          {
+            "text": "Incise the iliotibial band distal to the greater trochanter in line with the skin, posterior to tensor fasciae latae so that muscle is not injured.",
+            "source_ids": [
+              "ao_23abe1d847f8918c",
+              "ao_ab876e208ec241f2"
+            ]
+          }
+        ],
+        "deep_interval": [
+          {
+            "text": "Incise vastus lateralis fascia, retract the muscle anteriorly or split atrophic fibers, and expose only enough lateral femur for hardware; bulky muscle can be reflected anteriorly through an added proximal transverse limb.",
+            "source_ids": [
+              "ao_23abe1d847f8918c",
+              "ao_ab876e208ec241f2"
+            ]
+          }
+        ],
+        "layers": [
+          {
+            "text": "Skin, subcutaneous tissue, iliotibial band, vastus lateralis, and the lateral femoral cortex.",
+            "source_ids": [
+              "ao_23abe1d847f8918c",
+              "ao_ab876e208ec241f2"
+            ]
+          }
+        ],
+        "structures_at_risk": [
+          {
+            "text": "The first perforating vessels typically lie more than 5 cm distal to the vastus lateralis ridge; careless division causes persistent bleeding. No named nerves are encountered until those vessels are reached.",
+            "source_ids": [
+              "ao_23abe1d847f8918c",
+              "ao_ab876e208ec241f2",
+              "orthobullets_10c9d61b22bde8fc"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "danger_zones": [
+          {
+            "text": "Anticipate and control perforators before exposing more than 5 cm below the inferior border of the greater trochanter, especially beyond a short DHS plate.",
+            "source_ids": [
+              "ao_23abe1d847f8918c",
+              "ao_ab876e208ec241f2"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "retraction_hazards": [
+          {
+            "text": "Use limited Hohmann retraction and expose only the lateral surface needed for the implant; do not avulse perforators by uncontrolled posterior retraction.",
+            "source_ids": [
+              "ao_23abe1d847f8918c",
+              "orthobullets_10c9d61b22bde8fc"
+            ],
+            "risk_level": "medium"
+          }
+        ],
+        "exposure": [
+          {
+            "text": "Gives enough lateral proximal-femur surface for screws, a sliding hip screw, a blade plate, or a trochanteric stabilizing plate after proximal extension.",
+            "source_ids": [
+              "ao_23abe1d847f8918c"
+            ]
+          }
+        ],
+        "limitations": [
+          {
+            "text": "The standard window is for implant insertion after closed reduction; a femoral-neck fracture that needs direct reduction requires proximal-anterior extension into the gluteus medius–tensor interval.",
+            "source_ids": [
+              "ao_23abe1d847f8918c"
+            ]
+          }
+        ],
+        "extensions": [
+          {
+            "text": "Extend proximally through fascia lata onto the trochanter and gluteus medius insertion for a trochanteric stabilizing plate, or proximally and anteriorly toward the ASIS into the gluteus medius–tensor interval with a labrum-sparing capsulotomy for open neck reduction.",
+            "source_ids": [
+              "ao_23abe1d847f8918c"
+            ]
+          }
+        ],
+        "indications": [
+          {
+            "text": "Used to insert lateral fixation devices after closed reduction of proximal femoral fractures.",
+            "source_ids": [
+              "ao_23abe1d847f8918c"
+            ]
+          }
+        ],
+        "closure": [
+          {
+            "text": "Repair fascia lata and close subcutaneous tissue and skin after hemostasis of any divided perforators.",
+            "source_ids": [
+              "ao_ab876e208ec241f2",
+              "orthobullets_10c9d61b22bde8fc"
+            ]
+          }
+        ],
+        "complications": [
+          {
+            "text": "Approach-related complications include perforator bleeding and hematoma, and labral injury if an anterior capsular extension is made carelessly.",
+            "source_ids": [
+              "ao_23abe1d847f8918c",
+              "ao_ab876e208ec241f2"
+            ],
+            "risk_level": "medium"
+          }
+        ],
+        "questions": [
+          {
+            "question": "How is the proximal end of a sliding-hip-screw incision located?",
+            "answer": "Lay a guide wire on the anterior hip, confirm it on the image intensifier along the neck axis, and start the incision where that line meets the lateral skin.",
+            "source_ids": [
+              "ao_23abe1d847f8918c"
+            ]
+          },
+          {
+            "question": "Where are the first perforating vessels relative to the greater trochanter?",
+            "answer": "About 5 cm distal to the vastus lateralis ridge at the inferior border of the greater trochanter.",
+            "source_ids": [
+              "ao_23abe1d847f8918c"
+            ]
+          },
+          {
+            "question": "Why is the fascia lata incised posterior to tensor fasciae latae?",
+            "answer": "To avoid injuring the tensor, which lies anteriorly between layers of the fascia.",
+            "source_ids": [
+              "ao_23abe1d847f8918c"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "approach_id": "proximal_femur_gibson_trochanteric_flip",
+      "name": "Trochanteric flip osteotomy through the Gibson interval",
+      "aliases": [
+        "modified Gibson approach with digastric trochanteric osteotomy",
+        "adult surgical hip dislocation via Gibson interval"
+      ],
+      "region": "proximal-femur",
+      "joint": "hip",
+      "bones": [
+        "proximal femur",
+        "acetabulum"
+      ],
+      "corridor": "Gibson interval anterior to gluteus maximus with a digastric trochanteric osteotomy, Z-capsulotomy, and optional controlled dislocation for the femoral head and superior acetabulum",
+      "sources": [
+        {
+          "source_id": "ao_f6eb9412764b5bf2",
+          "provider": "AO Surgery Reference",
+          "title": "Trochanteric Flip Osteotomy Through The Gibson Interval",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/proximal-femur/approach/trochanteric-flip-osteotomy-through-the-gibson-interval",
+          "source_page_id": "ao_f6eb9412764b5bf2"
+        },
+        {
+          "source_id": "ao_235b0fb9748c5272",
+          "provider": "AO Surgery Reference",
+          "title": "Surgical hip dislocation (pediatric proximal femur)",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/pediatric-trauma/proximal-femur/approach/surgical-hip-dislocation",
+          "source_page_id": "ao_235b0fb9748c5272"
+        },
+        {
+          "source_id": "ao_67a86eb94e66b735",
+          "provider": "AO Surgery Reference",
+          "title": "Lateral approach via trochanteric flip (pediatric proximal femur)",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/pediatric-trauma/proximal-femur/approach/lateral-approach-via-trochanteric-flip",
+          "source_page_id": "ao_67a86eb94e66b735"
+        }
+      ],
+      "procedure_applications": [
+        {
+          "procedure_id": "femoral_neck_fracture_orif",
+          "relationship": "conditional_option",
+          "condition": "An intracapsular or femoral-head injury needs direct head and superior acetabular access that a limited anterior window cannot provide"
+        }
+      ],
+      "sections": {
+        "positioning": [
+          {
+            "text": "Position lateral; hip flexion and rotation are required for anterior exposure, and a sterile pouch is needed if the hip is dislocated in a figure-of-four position.",
+            "source_ids": [
+              "ao_f6eb9412764b5bf2",
+              "ao_235b0fb9748c5272"
+            ]
+          }
+        ],
+        "surface_landmarks": [
+          {
+            "text": "Mark the iliac crest, greater-trochanter tip, vastus ridge, and femoral shaft.",
+            "source_ids": [
+              "ao_f6eb9412764b5bf2",
+              "ao_235b0fb9748c5272"
+            ]
+          }
+        ],
+        "incision": [
+          {
+            "text": "Start halfway between the iliac crest and the greater-trochanter tip in line with the femoral shaft and extend 5 cm below the vastus ridge, farther in larger patients.",
+            "source_ids": [
+              "ao_f6eb9412764b5bf2"
+            ]
+          }
+        ],
+        "superficial_interval": [
+          {
+            "text": "Develop the Gibson interval between gluteus maximus and medius, split the iliotibial tract distally, and mobilize gluteus medius fascia with the gluteus maximus belly to preserve superior gluteal arterial supply; a portion of the gluteus maximus tendon may be released in larger patients.",
+            "source_ids": [
+              "ao_f6eb9412764b5bf2",
+              "ao_235b0fb9748c5272"
+            ]
+          }
+        ],
+        "deep_interval": [
+          {
+            "text": "Identify the sciatic nerve posterior to quadratus femoris, develop the piriformis–gluteus minimus interval while protecting minimus (it carries circumflex vessels), osteotomize from the trochanter tip to the vastus ridge, evert the digastric fragment with 5–8 cm of extra-periosteal vastus lateralis, and make a Z-capsulotomy that stays anterior to the lesser trochanter.",
+            "source_ids": [
+              "ao_f6eb9412764b5bf2",
+              "ao_235b0fb9748c5272",
+              "ao_67a86eb94e66b735"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "layers": [
+          {
+            "text": "Skin, subcutaneous fat, Gibson fascia and iliotibial tract, trochanteric fragment with abductors and vastus lateralis, short external rotators, and hip capsule.",
+            "source_ids": [
+              "ao_f6eb9412764b5bf2",
+              "ao_67a86eb94e66b735"
+            ]
+          }
+        ],
+        "structures_at_risk": [
+          {
+            "text": "The medial femoral circumflex artery and retinacular vessels, the sciatic nerve, the superior gluteal neurovascular bundle at the greater sciatic notch, and a posterior-wall capsular pedicle are at risk.",
+            "source_ids": [
+              "ao_f6eb9412764b5bf2",
+              "ao_235b0fb9748c5272",
+              "ao_67a86eb94e66b735"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "danger_zones": [
+          {
+            "text": "An excessively thick osteotomy threatens retinacular vessels; a capsulotomy that strays posterior to the lesser trochanter threatens the medial femoral circumflex artery; and a bifid or piriformis-penetrating sciatic nerve may need piriformis release 1 cm posterior to the trochanter before dislocation.",
+            "source_ids": [
+              "ao_f6eb9412764b5bf2",
+              "ao_235b0fb9748c5272"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "retraction_hazards": [
+          {
+            "text": "Keep the knee flexed 90° and the hip extended to reduce sciatic tension, and do not detach a posterior-wall fragment from its capsule.",
+            "source_ids": [
+              "ao_f6eb9412764b5bf2"
+            ],
+            "risk_level": "medium"
+          }
+        ],
+        "exposure": [
+          {
+            "text": "After controlled dislocation in a figure-of-four position, the entire femoral head and acetabulum can be seen; without dislocation the corridor still gives a hemicircumferential view from behind the piriformis around to the reflected rectus.",
+            "source_ids": [
+              "ao_f6eb9412764b5bf2",
+              "ao_235b0fb9748c5272"
+            ]
+          }
+        ],
+        "limitations": [
+          {
+            "text": "The exposure depends on a correctly executed digastric osteotomy and on recognizing sciatic-nerve variants before dislocation.",
+            "source_ids": [
+              "ao_f6eb9412764b5bf2",
+              "ao_67a86eb94e66b735"
+            ]
+          }
+        ],
+        "indications": [
+          {
+            "text": "Used when a digastric trochanteric flip and optional surgical dislocation are needed for direct access to the femoral head and the superior acetabulum, including selected posterior-wall patterns.",
+            "source_ids": [
+              "ao_f6eb9412764b5bf2"
+            ]
+          }
+        ],
+        "closure": [
+          {
+            "text": "Close the capsule loosely to drain secondary hemarthrosis, reattach the trochanter with lag screws sized to bone density, repair vastus lateralis fascia and short rotators, repair the gluteus maximus tendon if released, and close the iliotibial tract.",
+            "source_ids": [
+              "ao_f6eb9412764b5bf2",
+              "ao_235b0fb9748c5272"
+            ]
+          }
+        ],
+        "complications": [
+          {
+            "text": "Complications include avascular necrosis from medial femoral circumflex or retinacular injury, sciatic-nerve palsy, trochanteric nonunion, and tension hemarthrosis if the capsule is closed tightly.",
+            "source_ids": [
+              "ao_f6eb9412764b5bf2",
+              "ao_235b0fb9748c5272",
+              "ao_67a86eb94e66b735"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "questions": [
+          {
+            "question": "Where is the Gibson interval?",
+            "answer": "Anterior to gluteus maximus, between gluteus maximus and gluteus medius.",
+            "source_ids": [
+              "ao_f6eb9412764b5bf2",
+              "ao_235b0fb9748c5272"
+            ]
+          },
+          {
+            "question": "Why must the capsulotomy stay anterior to the lesser trochanter?",
+            "answer": "To avoid damaging the medial femoral circumflex artery.",
+            "source_ids": [
+              "ao_f6eb9412764b5bf2"
+            ]
+          },
+          {
+            "question": "How is sciatic-nerve tension reduced during the procedure?",
+            "answer": "Keep the knee flexed 90° and the hip extended.",
+            "source_ids": [
+              "ao_f6eb9412764b5bf2"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "approach_id": "proximal_femur_pediatric_anterior",
+      "name": "Pediatric anterior approach to the proximal femur",
+      "aliases": [
+        "pediatric Smith-Petersen approach",
+        "pediatric bikini anterior hip approach"
+      ],
+      "region": "proximal-femur",
+      "joint": "hip",
+      "bones": [
+        "proximal femur"
+      ],
+      "corridor": "Bikini anterior interval between tensor fascia lata and sartorius, then rectus femoris release to a Z-capsulotomy of the anterior femoral head and neck",
+      "sources": [
+        {
+          "source_id": "ao_a370dc7d87dd01d0",
+          "provider": "AO Surgery Reference",
+          "title": "Anterior Approach",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/pediatric-trauma/proximal-femur/approach/anterior-approach",
+          "source_page_id": "ao_a370dc7d87dd01d0"
+        },
+        {
+          "source_id": "ao_b8234e68bf76e475",
+          "provider": "AO Surgery Reference",
+          "title": "Anterior approach (Smith-Petersen)",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/proximal-femur/approach/anterior-approach-smith-petersen",
+          "source_page_id": "ao_b8234e68bf76e475"
+        },
+        {
+          "source_id": "ao_235b0fb9748c5272",
+          "provider": "AO Surgery Reference",
+          "title": "Surgical hip dislocation (pediatric proximal femur)",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/pediatric-trauma/proximal-femur/approach/surgical-hip-dislocation",
+          "source_page_id": "ao_235b0fb9748c5272"
+        }
+      ],
+      "procedure_applications": [
+        {
+          "procedure_id": "femoral_neck_fracture_orif_young",
+          "relationship": "primary_option",
+          "condition": "A pediatric femoral head or neck fracture needs open anterior reduction, with fixation through a separate lateral window"
+        }
+      ],
+      "sections": {
+        "positioning": [
+          {
+            "text": "Position supine so the anterior hip, iliac spines, and operative limb can be manipulated.",
+            "source_ids": [
+              "ao_b8234e68bf76e475"
+            ]
+          }
+        ],
+        "surface_landmarks": [
+          {
+            "text": "Mark the anterior superior and anterior inferior iliac spines; the bikini incision sits below the ASIS and is centered on the AIIS.",
+            "source_ids": [
+              "ao_a370dc7d87dd01d0",
+              "ao_b8234e68bf76e475"
+            ]
+          }
+        ],
+        "incision": [
+          {
+            "text": "Use a bikini incision below the anterior superior iliac spine, centered on the anterior inferior iliac spine.",
+            "source_ids": [
+              "ao_a370dc7d87dd01d0"
+            ]
+          }
+        ],
+        "superficial_interval": [
+          {
+            "text": "Incise fascia in the tensor–sartorius interval, preferably along the medial edge of tensor fascia lata, and identify and protect the lateral cutaneous nerve of the thigh.",
+            "source_ids": [
+              "ao_a370dc7d87dd01d0",
+              "ao_b8234e68bf76e475"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "deep_interval": [
+          {
+            "text": "Release the straight head of rectus femoris from the AIIS, separate and retract the reflected head from the capsule, and open a Z-capsulotomy with stay sutures while protecting the labrum.",
+            "source_ids": [
+              "ao_a370dc7d87dd01d0",
+              "ao_b8234e68bf76e475"
+            ]
+          }
+        ],
+        "layers": [
+          {
+            "text": "Skin, fat, deep fascia, tensor–sartorius interval, rectus femoris, anterior capsule, then femoral head and neck.",
+            "source_ids": [
+              "ao_a370dc7d87dd01d0",
+              "ao_b8234e68bf76e475"
+            ]
+          }
+        ],
+        "structures_at_risk": [
+          {
+            "text": "The lateral cutaneous nerve of the thigh, the labrum, and the medial femoral circumflex artery (protected by intact obturator externus and by staying cranial to piriformis when the capsule is prepared) are at risk.",
+            "source_ids": [
+              "ao_a370dc7d87dd01d0",
+              "ao_b8234e68bf76e475",
+              "ao_235b0fb9748c5272"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "danger_zones": [
+          {
+            "text": "Capsule preparation must stay cranial to piriformis; the medial femoral circumflex artery enters the capsule between gemellus superior and piriformis.",
+            "source_ids": [
+              "ao_a370dc7d87dd01d0",
+              "ao_235b0fb9748c5272"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "retraction_hazards": [
+          {
+            "text": "Protect the lateral cutaneous nerve of the thigh and the labrum; in children the iliac apophysis can often be left intact, with only a partial tensor release from the crest if access is tight.",
+            "source_ids": [
+              "ao_a370dc7d87dd01d0"
+            ],
+            "risk_level": "medium"
+          }
+        ],
+        "exposure": [
+          {
+            "text": "Gives the most direct view of the anterior femoral head and neck; screw or plate fixation still requires a separate lateral incision.",
+            "source_ids": [
+              "ao_a370dc7d87dd01d0"
+            ]
+          }
+        ],
+        "limitations": [
+          {
+            "text": "This corridor does not provide the lateral implant window; fixation of a reduced neck fracture needs a separate stab or formal lateral approach.",
+            "source_ids": [
+              "ao_a370dc7d87dd01d0"
+            ]
+          }
+        ],
+        "indications": [
+          {
+            "text": "Preferred by many surgeons for open reduction of pediatric femoral head and neck fractures.",
+            "source_ids": [
+              "ao_a370dc7d87dd01d0"
+            ]
+          }
+        ],
+        "closure": [
+          {
+            "text": "Repair the capsule and the released rectus origin, then close fascia, fat, and skin.",
+            "source_ids": [
+              "ao_b8234e68bf76e475"
+            ]
+          }
+        ],
+        "complications": [
+          {
+            "text": "Complications include lateral femoral cutaneous nerve injury and avascular necrosis if the medial femoral circumflex artery is injured during capsular work.",
+            "source_ids": [
+              "ao_a370dc7d87dd01d0",
+              "ao_b8234e68bf76e475",
+              "ao_235b0fb9748c5272"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "questions": [
+          {
+            "question": "Where is the pediatric bikini incision centered?",
+            "answer": "Below the anterior superior iliac spine, centered on the anterior inferior iliac spine.",
+            "source_ids": [
+              "ao_a370dc7d87dd01d0"
+            ]
+          },
+          {
+            "question": "Which nerve must be protected in the tensor–sartorius interval?",
+            "answer": "The lateral cutaneous nerve of the thigh.",
+            "source_ids": [
+              "ao_a370dc7d87dd01d0",
+              "ao_b8234e68bf76e475"
+            ]
+          },
+          {
+            "question": "Can neck fixation be inserted through this incision alone?",
+            "answer": "No. Screws or a plate require a separate lateral approach.",
+            "source_ids": [
+              "ao_a370dc7d87dd01d0"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "approach_id": "proximal_femur_pediatric_anterolateral",
+      "name": "Pediatric anterolateral approach to the proximal femur",
+      "aliases": [
+        "pediatric Watson-Jones approach",
+        "pediatric gluteus medius–tensor interval"
+      ],
+      "region": "proximal-femur",
+      "joint": "hip",
+      "bones": [
+        "proximal femur"
+      ],
+      "corridor": "Interval between tensor fascia lata and gluteus medius, with optional distal vastus lateralis release for a plate on the lateral proximal femur",
+      "sources": [
+        {
+          "source_id": "ao_0ce64dbf77644109",
+          "provider": "AO Surgery Reference",
+          "title": "Anterolateral Approach",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/pediatric-trauma/proximal-femur/approach/anterolateral-approach",
+          "source_page_id": "ao_0ce64dbf77644109"
+        },
+        {
+          "source_id": "ao_b6a83f32e7f02a7e",
+          "provider": "AO Surgery Reference",
+          "title": "Anterolateral approach (Watson-Jones)",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/proximal-femur/approach/anterolateral-approach-watson-jones",
+          "source_page_id": "ao_b6a83f32e7f02a7e"
+        },
+        {
+          "source_id": "ao_a370dc7d87dd01d0",
+          "provider": "AO Surgery Reference",
+          "title": "Anterior Approach",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/pediatric-trauma/proximal-femur/approach/anterior-approach",
+          "source_page_id": "ao_a370dc7d87dd01d0"
+        }
+      ],
+      "procedure_applications": [
+        {
+          "procedure_id": "femoral_neck_fracture_orif_young",
+          "relationship": "primary_option",
+          "condition": "A pediatric proximal-femur fracture needs both hip-joint access and a lateral plate or screws through one extensile corridor"
+        }
+      ],
+      "sections": {
+        "positioning": [
+          {
+            "text": "Position supine or so the ASIS, greater trochanter, and femoral shaft are accessible and the limb can be rotated.",
+            "source_ids": [
+              "ao_b6a83f32e7f02a7e"
+            ]
+          }
+        ],
+        "surface_landmarks": [
+          {
+            "text": "Mark the anterior superior iliac spine, the anterior greater trochanter, and the femoral shaft.",
+            "source_ids": [
+              "ao_0ce64dbf77644109",
+              "ao_b6a83f32e7f02a7e"
+            ]
+          }
+        ],
+        "incision": [
+          {
+            "text": "Start just posterior to the ASIS, curve posteriorly and distally across the anterior greater trochanter, and continue down the femoral shaft.",
+            "source_ids": [
+              "ao_0ce64dbf77644109"
+            ]
+          }
+        ],
+        "superficial_interval": [
+          {
+            "text": "Incise fascia lata from distal to proximal behind the tensor belly and anterior to gluteus medius, identifying the posterior edge of tensor fascia lata at or below the trochanter.",
+            "source_ids": [
+              "ao_0ce64dbf77644109",
+              "ao_b6a83f32e7f02a7e"
+            ]
+          }
+        ],
+        "deep_interval": [
+          {
+            "text": "Retract tensor anteriorly and gluteus medius posteriorly, ligate or cauterize vessels crossing the proximal interval, preserve the nerve to tensor fascia lata, and open a longitudinal capsulotomy that can be converted to a Z while protecting the labrum.",
+            "source_ids": [
+              "ao_0ce64dbf77644109",
+              "ao_b6a83f32e7f02a7e"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "layers": [
+          {
+            "text": "Skin, fat, fascia lata, tensor–gluteus medius interval, anterior capsule, then femoral head, neck, and optional lateral proximal femur.",
+            "source_ids": [
+              "ao_0ce64dbf77644109",
+              "ao_b6a83f32e7f02a7e"
+            ]
+          }
+        ],
+        "structures_at_risk": [
+          {
+            "text": "The nerve to tensor fascia lata in the proximal interval, vessels crossing that interval, the acetabular labrum, the medial femoral circumflex artery during capsular work, and the neurovascular supply of vastus lateralis if the muscle is released too far anteriorly.",
+            "source_ids": [
+              "ao_0ce64dbf77644109",
+              "ao_b6a83f32e7f02a7e",
+              "ao_a370dc7d87dd01d0"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "danger_zones": [
+          {
+            "text": "Stay cranial to piriformis when preparing the capsule. Limit anterior vastus lateralis release to protect its neurovascular supply; posterior release may be more extensive for plating.",
+            "source_ids": [
+              "ao_0ce64dbf77644109",
+              "ao_a370dc7d87dd01d0"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "retraction_hazards": [
+          {
+            "text": "External rotation improves capsular access; keep the labrum protected and do not sacrifice the nerve to tensor fascia lata in the proximal interval.",
+            "source_ids": [
+              "ao_0ce64dbf77644109"
+            ],
+            "risk_level": "medium"
+          }
+        ],
+        "exposure": [
+          {
+            "text": "Exposes the anterior femoral head and neck and, with distal vastus lateralis release, the lateral proximal femur for a plate or screws.",
+            "source_ids": [
+              "ao_0ce64dbf77644109"
+            ]
+          }
+        ],
+        "limitations": [
+          {
+            "text": "Screw fixation can be done without vastus lateralis release, but plating requires origin release and enough distal length for drill guides.",
+            "source_ids": [
+              "ao_0ce64dbf77644109"
+            ]
+          }
+        ],
+        "indications": [
+          {
+            "text": "Indicated when fracture fixation needs both hip-joint access and a plate on the lateral proximal femur.",
+            "source_ids": [
+              "ao_0ce64dbf77644109"
+            ]
+          }
+        ],
+        "closure": [
+          {
+            "text": "Close the capsule loosely to avoid a pressurized hemarthrosis and close fascia lata with a continuous suture.",
+            "source_ids": [
+              "ao_0ce64dbf77644109"
+            ]
+          }
+        ],
+        "complications": [
+          {
+            "text": "Complications include tensor denervation, pressurized hemarthrosis if the capsule is closed tightly, labral injury, and avascular necrosis from medial femoral circumflex injury.",
+            "source_ids": [
+              "ao_0ce64dbf77644109",
+              "ao_a370dc7d87dd01d0"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "questions": [
+          {
+            "question": "Which interval is developed in the pediatric anterolateral approach?",
+            "answer": "Tensor fascia lata anteriorly and gluteus medius posteriorly.",
+            "source_ids": [
+              "ao_0ce64dbf77644109",
+              "ao_b6a83f32e7f02a7e"
+            ]
+          },
+          {
+            "question": "Which nerve in the proximal interval should be preserved?",
+            "answer": "The nerve to tensor fascia lata.",
+            "source_ids": [
+              "ao_0ce64dbf77644109"
+            ]
+          },
+          {
+            "question": "Why is the capsule closed loosely?",
+            "answer": "To prevent accumulation of a hemarthrosis under pressure.",
+            "source_ids": [
+              "ao_0ce64dbf77644109"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "approach_id": "proximal_femur_pediatric_lateral",
+      "name": "Pediatric lateral approach to the proximal femur",
+      "aliases": [
+        "pediatric lateral implant window",
+        "pediatric vastus lateralis approach to proximal femur"
+      ],
+      "region": "proximal-femur",
+      "joint": "hip-adjacent extra-articular",
+      "bones": [
+        "proximal femur"
+      ],
+      "corridor": "Lateral fascia-lata and vastus lateralis window aligned with the femoral-neck axis for screws or a pediatric hip locking plate",
+      "sources": [
+        {
+          "source_id": "ao_d5fd73c28a568203",
+          "provider": "AO Surgery Reference",
+          "title": "Lateral Approach",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/pediatric-trauma/proximal-femur/approach/lateral-approach",
+          "source_page_id": "ao_d5fd73c28a568203"
+        },
+        {
+          "source_id": "ao_23abe1d847f8918c",
+          "provider": "AO Surgery Reference",
+          "title": "Limited Lateral Approach For Implant Insertion",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/proximal-femur/approach/limited-lateral-approach-for-implant-insertion",
+          "source_page_id": "ao_23abe1d847f8918c"
+        },
+        {
+          "source_id": "ao_a370dc7d87dd01d0",
+          "provider": "AO Surgery Reference",
+          "title": "Anterior Approach",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/pediatric-trauma/proximal-femur/approach/anterior-approach",
+          "source_page_id": "ao_a370dc7d87dd01d0"
+        }
+      ],
+      "procedure_applications": [
+        {
+          "procedure_id": "femoral_neck_fracture_orif_young",
+          "relationship": "primary_option",
+          "condition": "Screws or a pediatric hip locking plate are inserted from the lateral femur, including after a separate anterior reduction"
+        }
+      ],
+      "sections": {
+        "positioning": [
+          {
+            "text": "Position so the lateral proximal femur and femoral-neck axis can be imaged and the incision aligned with planned implants.",
+            "source_ids": [
+              "ao_d5fd73c28a568203",
+              "ao_23abe1d847f8918c"
+            ]
+          }
+        ],
+        "surface_landmarks": [
+          {
+            "text": "Mark the greater trochanter and the femoral-neck axis so screws in the neck line up with that axis; prolong the mark distally when a plate is planned.",
+            "source_ids": [
+              "ao_d5fd73c28a568203",
+              "ao_23abe1d847f8918c"
+            ]
+          }
+        ],
+        "incision": [
+          {
+            "text": "Place the incision along the neck axis and extend it distally far enough for plate fixation, drill guides, and jigs when an angular-stable plate is used. Image intensification helps site the cut.",
+            "source_ids": [
+              "ao_d5fd73c28a568203",
+              "ao_23abe1d847f8918c"
+            ]
+          }
+        ],
+        "superficial_interval": [
+          {
+            "text": "Incise fascia lata in line with the skin incision.",
+            "source_ids": [
+              "ao_d5fd73c28a568203",
+              "ao_23abe1d847f8918c"
+            ]
+          }
+        ],
+        "deep_interval": [
+          {
+            "text": "Incise the vastus lateralis origin with a longitudinal or L-shaped cut and elevate the muscle from the femur.",
+            "source_ids": [
+              "ao_d5fd73c28a568203",
+              "ao_23abe1d847f8918c"
+            ]
+          }
+        ],
+        "layers": [
+          {
+            "text": "Skin, fascia lata, vastus lateralis, and the lateral femoral cortex.",
+            "source_ids": [
+              "ao_d5fd73c28a568203",
+              "ao_23abe1d847f8918c"
+            ]
+          }
+        ],
+        "structures_at_risk": [
+          {
+            "text": "The medial femoral circumflex artery is the key vascular structure of the proximal femur and must be respected if dissection approaches the capsule; stay cranial to piriformis and keep obturator externus intact.",
+            "source_ids": [
+              "ao_d5fd73c28a568203",
+              "ao_a370dc7d87dd01d0"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "danger_zones": [
+          {
+            "text": "Capsule preparation, if performed, must remain cranial to piriformis where the medial femoral circumflex artery enters the joint.",
+            "source_ids": [
+              "ao_d5fd73c28a568203",
+              "ao_a370dc7d87dd01d0"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "retraction_hazards": [
+          {
+            "text": "Elevate vastus lateralis only as far as the implant requires; angular-stable plates need extra distal room for jigs.",
+            "source_ids": [
+              "ao_d5fd73c28a568203"
+            ],
+            "risk_level": "medium"
+          }
+        ],
+        "exposure": [
+          {
+            "text": "Exposes the lateral proximal femur for screws or a pediatric hip locking plate, including when combined with a separate anterior reduction.",
+            "source_ids": [
+              "ao_d5fd73c28a568203"
+            ]
+          }
+        ],
+        "limitations": [
+          {
+            "text": "Used for implant insertion and for extracapsular or nondisplaced intracapsular fixation; displaced intracapsular work still needs a companion anterior approach.",
+            "source_ids": [
+              "ao_d5fd73c28a568203"
+            ]
+          }
+        ],
+        "indications": [
+          {
+            "text": "Indicated with an anterior approach for screw or pediatric hip-locking-plate insertion, for open or closed stabilization of extracapsular fractures, and for nondisplaced intracapsular fractures.",
+            "source_ids": [
+              "ao_d5fd73c28a568203"
+            ]
+          }
+        ],
+        "closure": [
+          {
+            "text": "Close the wound in layers.",
+            "source_ids": [
+              "ao_d5fd73c28a568203"
+            ]
+          }
+        ],
+        "complications": [
+          {
+            "text": "Complications include avascular necrosis if proximal dissection injures the medial femoral circumflex artery.",
+            "source_ids": [
+              "ao_d5fd73c28a568203",
+              "ao_a370dc7d87dd01d0"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "questions": [
+          {
+            "question": "How should the lateral incision be aligned?",
+            "answer": "So that screws in the femoral neck line up with the neck axis.",
+            "source_ids": [
+              "ao_d5fd73c28a568203",
+              "ao_23abe1d847f8918c"
+            ]
+          },
+          {
+            "question": "When is this lateral window combined with an anterior approach?",
+            "answer": "When screws or a pediatric hip locking plate are inserted after anterior reduction.",
+            "source_ids": [
+              "ao_d5fd73c28a568203"
+            ]
+          },
+          {
+            "question": "Why do angular-stable plates need a longer distal incision?",
+            "answer": "To accommodate drill guides and jigs.",
+            "source_ids": [
+              "ao_d5fd73c28a568203"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "approach_id": "proximal_femur_pediatric_esin_retrograde",
+      "name": "Pediatric retrograde ESIN entries for proximal femoral fractures",
+      "aliases": [
+        "ESIN entry points for pediatric proximal femur",
+        "retrograde elastic nailing entries for proximal femur"
+      ],
+      "region": "proximal-femur",
+      "joint": "knee-adjacent extra-articular entry",
+      "bones": [
+        "distal femoral metaphysis",
+        "femur"
+      ],
+      "corridor": "Paired medial and lateral distal-metaphyseal windows 2 cm above the distal femoral physis, with an optional second lateral portal 1.5 cm more proximal",
+      "sources": [
+        {
+          "source_id": "ao_f592734c27243657",
+          "provider": "AO Surgery Reference",
+          "title": "Esin Entry Points For Retrograde Nailing",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/pediatric-trauma/proximal-femur/approach/esin-entry-points-for-retrograde-nailing",
+          "source_page_id": "ao_f592734c27243657"
+        },
+        {
+          "source_id": "ao_beea67bebaa21b9e",
+          "provider": "AO Surgery Reference",
+          "title": "ESIN Entry Points For Retrograde Nailing (femoral shaft)",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/pediatric-trauma/femoral-shaft/approach/esin-entry-points-for-retrograde-nailing",
+          "source_page_id": "ao_beea67bebaa21b9e"
+        }
+      ],
+      "procedure_applications": [
+        {
+          "procedure_id": "femoral_neck_fracture_orif_young",
+          "relationship": "conditional_option",
+          "condition": "A selected pediatric proximal femoral fracture is treated with retrograde elastic nails through distal metaphyseal entries"
+        }
+      ],
+      "sections": {
+        "positioning": [
+          {
+            "text": "Position supine with the knee and distal femur accessible and the femur imageable on orthogonal views.",
+            "source_ids": [
+              "ao_beea67bebaa21b9e"
+            ]
+          }
+        ],
+        "surface_landmarks": [
+          {
+            "text": "Mark the distal femoral physis and plan medial and first-lateral entries 2 cm above it; if a third nail is needed, mark a second lateral entry 1.5 cm proximal to the first lateral portal.",
+            "source_ids": [
+              "ao_f592734c27243657"
+            ]
+          }
+        ],
+        "incision": [
+          {
+            "text": "Start an incision at each planned entry and extend it 2–4 cm distally, sized to the child.",
+            "source_ids": [
+              "ao_f592734c27243657",
+              "ao_beea67bebaa21b9e"
+            ]
+          }
+        ],
+        "superficial_interval": [
+          {
+            "text": "Divide subcutaneous tissues by blunt dissection to the medial and lateral femoral cortices.",
+            "source_ids": [
+              "ao_f592734c27243657",
+              "ao_beea67bebaa21b9e"
+            ]
+          }
+        ],
+        "deep_interval": [
+          {
+            "text": "Create cortical entries at the marked metaphyseal points, directed away from the open distal femoral physis.",
+            "source_ids": [
+              "ao_f592734c27243657",
+              "ao_beea67bebaa21b9e"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "layers": [
+          {
+            "text": "Skin, subcutaneous tissue, medial or lateral fascia and muscle, periosteum, distal metaphyseal cortex, then the medullary canal.",
+            "source_ids": [
+              "ao_f592734c27243657",
+              "ao_beea67bebaa21b9e"
+            ]
+          }
+        ],
+        "structures_at_risk": [
+          {
+            "text": "The distal femoral physis is the principal structure at risk if the portal is too close to the growth plate.",
+            "source_ids": [
+              "ao_f592734c27243657",
+              "ao_beea67bebaa21b9e"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "danger_zones": [
+          {
+            "text": "Keep the primary entries 2 cm above the physis; a third nail uses a second lateral portal 1.5 cm more proximal rather than crowding the growth plate.",
+            "source_ids": [
+              "ao_f592734c27243657"
+            ],
+            "risk_level": "medium"
+          }
+        ],
+        "retraction_hazards": [
+          {
+            "text": "Use blunt dissection to bone; avoid plunging toward the physis or trapping soft tissue around the nails.",
+            "source_ids": [
+              "ao_f592734c27243657",
+              "ao_beea67bebaa21b9e"
+            ],
+            "risk_level": "medium"
+          }
+        ],
+        "exposure": [
+          {
+            "text": "Provides minimally invasive distal entries for retrograde elastic nails, preserving proximal soft tissues and facilitating early joint motion.",
+            "source_ids": [
+              "ao_f592734c27243657"
+            ]
+          }
+        ],
+        "limitations": [
+          {
+            "text": "The corridor is an entry technique for selected proximal femoral fractures treated with ESIN; it does not expose the hip.",
+            "source_ids": [
+              "ao_f592734c27243657"
+            ]
+          }
+        ],
+        "indications": [
+          {
+            "text": "Used for retrograde elastic nailing of selected pediatric proximal femoral fractures.",
+            "source_ids": [
+              "ao_f592734c27243657"
+            ]
+          }
+        ],
+        "closure": [
+          {
+            "text": "Close subcutaneous tissue and skin according to surgeon preference.",
+            "source_ids": [
+              "ao_f592734c27243657"
+            ]
+          }
+        ],
+        "complications": [
+          {
+            "text": "Complications include physeal injury from a portal that is too close to the growth plate.",
+            "source_ids": [
+              "ao_f592734c27243657",
+              "ao_beea67bebaa21b9e"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "questions": [
+          {
+            "question": "How far above the physis are the medial and first lateral ESIN entries?",
+            "answer": "Two centimeters.",
+            "source_ids": [
+              "ao_f592734c27243657"
+            ]
+          },
+          {
+            "question": "Where is a third nail inserted?",
+            "answer": "Through a second lateral entry 1.5 cm proximal to the first lateral portal.",
+            "source_ids": [
+              "ao_f592734c27243657"
+            ]
+          },
+          {
+            "question": "In which direction does each incision extend from the entry?",
+            "answer": "Distally, 2–4 cm depending on the size of the child.",
+            "source_ids": [
+              "ao_f592734c27243657"
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

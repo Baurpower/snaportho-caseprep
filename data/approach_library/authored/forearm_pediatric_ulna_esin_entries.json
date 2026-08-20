@@ -1,0 +1,347 @@
+{
+  "schema_version": "brobot_approach_packet_v1",
+  "approach_id": "forearm_pediatric_ulna_esin_entries",
+  "name": "Pediatric ESIN entry points for the ulna",
+  "aliases": [
+    "elastic stable intramedullary nailing ulnar entries",
+    "pediatric proximal-lateral and distal-medial ulnar nail entries"
+  ],
+  "region": "forearm-shaft",
+  "joint": "",
+  "bones": [
+    "ulna"
+  ],
+  "corridor": "Either a proximal-lateral ulnar window 1 cm lateral to the dorsal ulnar rim and 3 cm from the olecranon tip, or a distal-medial metaphyseal window 1 cm proximal to the ulnar physis",
+  "positioning": [
+    {
+      "text": "Position so the olecranon, dorsal ulnar rim, and distal ulnar physis can be palpated and imaged.",
+      "claim_ids": [
+        "forearm_pediatric_ulna_esin_entries_positioning_01"
+      ]
+    }
+  ],
+  "setup": [],
+  "surface_landmarks": [
+    {
+      "text": "For the proximal-lateral start, mark a point 1 cm lateral to the dorsal ulnar rim and 3 cm from the olecranon tip and confirm on the image intensifier. For the distal-medial start, mark the medial ulna 1 cm proximal to the growth plate.",
+      "claim_ids": [
+        "forearm_pediatric_ulna_esin_entries_surface_landmarks_01"
+      ]
+    }
+  ],
+  "incision": [
+    {
+      "text": "The proximal-lateral portal is a stab incision to bone. The distal-medial incision starts at the entry and extends 2 cm distally.",
+      "claim_ids": [
+        "forearm_pediatric_ulna_esin_entries_incision_01"
+      ]
+    }
+  ],
+  "superficial_interval": [
+    {
+      "text": "Dissect to bone under direct vision with small scissors or a clip and small retractors.",
+      "claim_ids": [
+        "forearm_pediatric_ulna_esin_entries_superficial_interval_01"
+      ]
+    }
+  ],
+  "deep_interval": [
+    {
+      "text": "Open the chosen metaphyseal cortex; do not introduce the nail through the olecranon.",
+      "claim_ids": [
+        "forearm_pediatric_ulna_esin_entries_deep_interval_01"
+      ]
+    }
+  ],
+  "layers": [
+    {
+      "text": "Skin, subcutaneous tissue, limited deep dissection to the ulnar cortex, then the medullary canal.",
+      "claim_ids": [
+        "forearm_pediatric_ulna_esin_entries_layers_01"
+      ]
+    }
+  ],
+  "structures_encountered": [],
+  "structures_at_risk": [
+    {
+      "text": "At the distal-medial portal the dorsal branch of the ulnar nerve and the basilic vein are at risk. The distal ulnar physis is at risk if the start is too distal. An olecranon portal causes soft-tissue irritation.",
+      "claim_ids": [
+        "forearm_pediatric_ulna_esin_entries_structures_at_risk_01"
+      ]
+    }
+  ],
+  "danger_zones": [
+    {
+      "text": "Do not enter through the olecranon. If image intensification is unavailable, prefer the proximal-lateral start rather than guessing the distal physeal distance.",
+      "claim_ids": [
+        "forearm_pediatric_ulna_esin_entries_danger_zones_01"
+      ]
+    }
+  ],
+  "retraction_hazards": [
+    {
+      "text": "Keep dissection under direct vision at the distal-medial window so the dorsal ulnar sensory branch and basilic vein are not injured.",
+      "claim_ids": [
+        "forearm_pediatric_ulna_esin_entries_retraction_hazards_01"
+      ]
+    }
+  ],
+  "exposure": [
+    {
+      "text": "Provides a proximal-lateral or distal-medial cortical window for a pediatric ulnar elastic nail without opening the shaft fracture.",
+      "claim_ids": [
+        "forearm_pediatric_ulna_esin_entries_exposure_01"
+      ]
+    }
+  ],
+  "limitations": [
+    {
+      "text": "The distal-medial start depends on accurate physeal imaging; without an image intensifier the proximal-lateral start is safer.",
+      "claim_ids": [
+        "forearm_pediatric_ulna_esin_entries_limitations_01"
+      ]
+    }
+  ],
+  "extensions": [],
+  "indications": [
+    {
+      "text": "Used for elastic nailing of the pediatric ulna, choosing either the proximal-lateral or the distal-medial entry.",
+      "claim_ids": [
+        "forearm_pediatric_ulna_esin_entries_indications_01"
+      ]
+    }
+  ],
+  "relative_contraindications": [],
+  "implant_implications": [],
+  "fluoroscopy_implications": [],
+  "closure": [
+    {
+      "text": "Close skin and subcutaneous tissue with fine resorbable sutures to avoid later suture removal in a child.",
+      "claim_ids": [
+        "forearm_pediatric_ulna_esin_entries_closure_01"
+      ]
+    }
+  ],
+  "complications": [
+    {
+      "text": "Complications include olecranon soft-tissue irritation if that portal is used, sensory-nerve injury at the distal-medial start, and physeal injury from a start that is too distal.",
+      "claim_ids": [
+        "forearm_pediatric_ulna_esin_entries_complications_01"
+      ]
+    }
+  ],
+  "bailouts": [],
+  "procedure_applications": [
+    {
+      "procedure_id": "both_bone_forearm_fracture_orif",
+      "relationship": "primary_option",
+      "condition": "A pediatric ulnar or both-bone forearm fracture is treated with elastic stable intramedullary nailing"
+    }
+  ],
+  "questions": [
+    {
+      "question": "Where is the proximal-lateral ulnar ESIN entry?",
+      "answer": "One centimeter lateral to the dorsal ulnar rim and 3 cm from the olecranon tip.",
+      "claim_ids": [
+        "forearm_pediatric_ulna_esin_entries_questions_01"
+      ]
+    },
+    {
+      "question": "Where is the distal-medial ulnar ESIN entry?",
+      "answer": "On the medial ulna, 1 cm proximal to the growth plate.",
+      "claim_ids": [
+        "forearm_pediatric_ulna_esin_entries_questions_02"
+      ]
+    },
+    {
+      "question": "Why is an olecranon entry avoided?",
+      "answer": "It does not improve fixation and causes troublesome soft-tissue irritation.",
+      "claim_ids": [
+        "forearm_pediatric_ulna_esin_entries_questions_03"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "forearm_pediatric_ulna_esin_entries_positioning_01",
+      "text": "Position so the olecranon, dorsal ulnar rim, and distal ulnar physis can be palpated and imaged.",
+      "source_ids": [
+        "ao_e2bedbe164d25c32"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "forearm_pediatric_ulna_esin_entries_surface_landmarks_01",
+      "text": "For the proximal-lateral start, mark a point 1 cm lateral to the dorsal ulnar rim and 3 cm from the olecranon tip and confirm on the image intensifier. For the distal-medial start, mark the medial ulna 1 cm proximal to the growth plate.",
+      "source_ids": [
+        "ao_e2bedbe164d25c32",
+        "ao_dfc6ba8c5b8b7804"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "forearm_pediatric_ulna_esin_entries_incision_01",
+      "text": "The proximal-lateral portal is a stab incision to bone. The distal-medial incision starts at the entry and extends 2 cm distally.",
+      "source_ids": [
+        "ao_e2bedbe164d25c32",
+        "ao_dfc6ba8c5b8b7804"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "forearm_pediatric_ulna_esin_entries_superficial_interval_01",
+      "text": "Dissect to bone under direct vision with small scissors or a clip and small retractors.",
+      "source_ids": [
+        "ao_e2bedbe164d25c32",
+        "ao_dfc6ba8c5b8b7804"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "forearm_pediatric_ulna_esin_entries_deep_interval_01",
+      "text": "Open the chosen metaphyseal cortex; do not introduce the nail through the olecranon.",
+      "source_ids": [
+        "ao_e2bedbe164d25c32"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "forearm_pediatric_ulna_esin_entries_layers_01",
+      "text": "Skin, subcutaneous tissue, limited deep dissection to the ulnar cortex, then the medullary canal.",
+      "source_ids": [
+        "ao_e2bedbe164d25c32",
+        "ao_dfc6ba8c5b8b7804"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "forearm_pediatric_ulna_esin_entries_structures_at_risk_01",
+      "text": "At the distal-medial portal the dorsal branch of the ulnar nerve and the basilic vein are at risk. The distal ulnar physis is at risk if the start is too distal. An olecranon portal causes soft-tissue irritation.",
+      "source_ids": [
+        "ao_e2bedbe164d25c32",
+        "ao_dfc6ba8c5b8b7804"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "forearm_pediatric_ulna_esin_entries_danger_zones_01",
+      "text": "Do not enter through the olecranon. If image intensification is unavailable, prefer the proximal-lateral start rather than guessing the distal physeal distance.",
+      "source_ids": [
+        "ao_e2bedbe164d25c32"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "forearm_pediatric_ulna_esin_entries_retraction_hazards_01",
+      "text": "Keep dissection under direct vision at the distal-medial window so the dorsal ulnar sensory branch and basilic vein are not injured.",
+      "source_ids": [
+        "ao_e2bedbe164d25c32",
+        "ao_dfc6ba8c5b8b7804"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "forearm_pediatric_ulna_esin_entries_exposure_01",
+      "text": "Provides a proximal-lateral or distal-medial cortical window for a pediatric ulnar elastic nail without opening the shaft fracture.",
+      "source_ids": [
+        "ao_e2bedbe164d25c32"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "forearm_pediatric_ulna_esin_entries_limitations_01",
+      "text": "The distal-medial start depends on accurate physeal imaging; without an image intensifier the proximal-lateral start is safer.",
+      "source_ids": [
+        "ao_e2bedbe164d25c32"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "forearm_pediatric_ulna_esin_entries_indications_01",
+      "text": "Used for elastic nailing of the pediatric ulna, choosing either the proximal-lateral or the distal-medial entry.",
+      "source_ids": [
+        "ao_e2bedbe164d25c32",
+        "ao_dfc6ba8c5b8b7804"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "forearm_pediatric_ulna_esin_entries_closure_01",
+      "text": "Close skin and subcutaneous tissue with fine resorbable sutures to avoid later suture removal in a child.",
+      "source_ids": [
+        "ao_e2bedbe164d25c32",
+        "ao_dfc6ba8c5b8b7804"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "forearm_pediatric_ulna_esin_entries_complications_01",
+      "text": "Complications include olecranon soft-tissue irritation if that portal is used, sensory-nerve injury at the distal-medial start, and physeal injury from a start that is too distal.",
+      "source_ids": [
+        "ao_e2bedbe164d25c32",
+        "ao_dfc6ba8c5b8b7804"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "forearm_pediatric_ulna_esin_entries_questions_01",
+      "text": "Where is the proximal-lateral ulnar ESIN entry?",
+      "source_ids": [
+        "ao_e2bedbe164d25c32"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "forearm_pediatric_ulna_esin_entries_questions_02",
+      "text": "Where is the distal-medial ulnar ESIN entry?",
+      "source_ids": [
+        "ao_e2bedbe164d25c32",
+        "ao_dfc6ba8c5b8b7804"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "forearm_pediatric_ulna_esin_entries_questions_03",
+      "text": "Why is an olecranon entry avoided?",
+      "source_ids": [
+        "ao_e2bedbe164d25c32"
+      ],
+      "risk_level": "medium"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "ao_e2bedbe164d25c32",
+      "provider": "AO Surgery Reference",
+      "title": "Esin Entry Points Ulna",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/pediatric-trauma/forearm-shaft/approach/esin-entry-points-ulna",
+      "source_page_id": "ao_e2bedbe164d25c32"
+    },
+    {
+      "source_id": "ao_dfc6ba8c5b8b7804",
+      "provider": "AO Surgery Reference",
+      "title": "Esin Entry Point Distal Ulna",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/pediatric-trauma/proximal-forearm/approach/esin-entry-point-distal-ulna",
+      "source_page_id": "ao_dfc6ba8c5b8b7804"
+    }
+  ],
+  "content_status": "agent_review_pending",
+  "review": {
+    "status": "agent_review_pending",
+    "required_roles": [
+      "adversarial_safety_reviewer",
+      "approach_anatomy_reviewer",
+      "educational_value_reviewer",
+      "evidence_reviewer",
+      "operative_exposure_reviewer",
+      "procedure_applicability_reviewer"
+    ],
+    "completed_roles": []
+  },
+  "resolved_contradiction_keys": [],
+  "authoring_provenance": {
+    "method": "local_codex_curated",
+    "definition_file": "data/approach_library/curated/forearm_pediatric_esin_kocher_navicular_batch004_v1.json",
+    "api_used": false
+  }
+}

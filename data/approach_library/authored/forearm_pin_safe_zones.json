@@ -1,0 +1,344 @@
+{
+  "schema_version": "brobot_approach_packet_v1",
+  "approach_id": "forearm_pin_safe_zones",
+  "name": "Safe zones for external fixator pin placement in the forearm",
+  "aliases": [
+    "forearm ex-fix pin corridors"
+  ],
+  "region": "forearm-shaft",
+  "joint": "",
+  "bones": [
+    "radius",
+    "ulna"
+  ],
+  "corridor": "Posterolateral pin corridors along the ulna (between extensor carpi ulnaris and flexor carpi ulnaris) and the radius, placed through mini-open windows to avoid forearm neurovascular structures",
+  "positioning": [
+    {
+      "text": "Place the forearm in pronation for ulnar pins and in neutral rotation for radial pins to present the safe posterolateral surfaces.",
+      "claim_ids": [
+        "forearm_pin_safe_zones_positioning_01"
+      ]
+    }
+  ],
+  "setup": [],
+  "surface_landmarks": [
+    {
+      "text": "Identify the posterolateral (subcutaneous) border of the ulna and the posterolateral surface of the radius, avoiding the anterior forearm.",
+      "claim_ids": [
+        "forearm_pin_safe_zones_surface_landmarks_01"
+      ]
+    }
+  ],
+  "incision": [
+    {
+      "text": "For each pin make a small skin incision and deepen it by spreading a forceps and advancing retractors layer by layer until bone is reached.",
+      "claim_ids": [
+        "forearm_pin_safe_zones_incision_01"
+      ]
+    }
+  ],
+  "superficial_interval": [
+    {
+      "text": "For ulnar pins use the corridor between extensor carpi ulnaris and flexor carpi ulnaris along the whole shaft; for radial pins approach the posterolateral surface and avoid the anterior compartment.",
+      "claim_ids": [
+        "forearm_pin_safe_zones_superficial_interval_01"
+      ]
+    }
+  ],
+  "deep_interval": [
+    {
+      "text": "Reach bone directly through the mini-open window under direct vision so soft tissues are protected while the pin is placed.",
+      "claim_ids": [
+        "forearm_pin_safe_zones_deep_interval_01"
+      ]
+    }
+  ],
+  "layers": [
+    {
+      "text": "Skin, subcutaneous tissue, deep fascia, the relevant muscular interval, and the pin-entry cortex.",
+      "claim_ids": [
+        "forearm_pin_safe_zones_layers_01"
+      ]
+    }
+  ],
+  "structures_encountered": [],
+  "structures_at_risk": [
+    {
+      "text": "The posterior interosseous nerve in the proximal third, the superficial radial nerve distally, the radial artery anteriorly, and the median and ulnar neurovascular bundles in the flexor compartment are at risk.",
+      "claim_ids": [
+        "forearm_pin_safe_zones_structures_at_risk_01"
+      ]
+    }
+  ],
+  "danger_zones": [
+    {
+      "text": "The proximal radius over the supinator and the anterior forearm are danger zones; the more proximal the field, the greater the risk to important structures.",
+      "claim_ids": [
+        "forearm_pin_safe_zones_danger_zones_01"
+      ]
+    }
+  ],
+  "retraction_hazards": [
+    {
+      "text": "Do not place radial pins anteriorly and keep the superficial radial nerve out of the retractor in the distal forearm.",
+      "claim_ids": [
+        "forearm_pin_safe_zones_retraction_hazards_01"
+      ]
+    }
+  ],
+  "exposure": [
+    {
+      "text": "Provides safe percutaneous corridors for half-pins rather than a formal open exposure.",
+      "claim_ids": [
+        "forearm_pin_safe_zones_exposure_01"
+      ]
+    }
+  ],
+  "limitations": [
+    {
+      "text": "Pin placement is constrained proximally by the posterior interosseous nerve and anteriorly by the radial artery, so corridors are limited to safe posterolateral surfaces.",
+      "claim_ids": [
+        "forearm_pin_safe_zones_limitations_01"
+      ]
+    }
+  ],
+  "extensions": [],
+  "indications": [
+    {
+      "text": "Indicated for external fixator half-pin placement in the radius and ulna for temporary or definitive stabilization.",
+      "claim_ids": [
+        "forearm_pin_safe_zones_indications_01"
+      ]
+    }
+  ],
+  "relative_contraindications": [],
+  "implant_implications": [],
+  "fluoroscopy_implications": [],
+  "closure": [
+    {
+      "text": "Close each mini-incision loosely around the pin to avoid skin tension.",
+      "claim_ids": [
+        "forearm_pin_safe_zones_closure_01"
+      ]
+    }
+  ],
+  "complications": [
+    {
+      "text": "Complications include superficial radial or posterior interosseous nerve injury, radial artery injury, and pin-tract problems.",
+      "claim_ids": [
+        "forearm_pin_safe_zones_complications_01"
+      ]
+    }
+  ],
+  "bailouts": [],
+  "procedure_applications": [
+    {
+      "procedure_id": "both_bone_forearm_fracture_orif",
+      "relationship": "conditional_option",
+      "condition": "Temporary or definitive external fixation of the forearm is used"
+    }
+  ],
+  "questions": [
+    {
+      "question": "Which forearm surface is safe for ulnar external fixator pins?",
+      "answer": "The posterolateral (subcutaneous) border, between extensor carpi ulnaris and flexor carpi ulnaris.",
+      "claim_ids": [
+        "forearm_pin_safe_zones_questions_01"
+      ]
+    },
+    {
+      "question": "Why should radial pins avoid an anterior approach?",
+      "answer": "The radial artery and the median and ulnar neurovascular bundles lie anteriorly.",
+      "claim_ids": [
+        "forearm_pin_safe_zones_questions_02"
+      ]
+    },
+    {
+      "question": "How does pin risk change with the level of the forearm?",
+      "answer": "The more proximal the field, the greater the risk to important structures.",
+      "claim_ids": [
+        "forearm_pin_safe_zones_questions_03"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "forearm_pin_safe_zones_positioning_01",
+      "text": "Place the forearm in pronation for ulnar pins and in neutral rotation for radial pins to present the safe posterolateral surfaces.",
+      "source_ids": [
+        "ao_dba28fa580cb941b"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "forearm_pin_safe_zones_surface_landmarks_01",
+      "text": "Identify the posterolateral (subcutaneous) border of the ulna and the posterolateral surface of the radius, avoiding the anterior forearm.",
+      "source_ids": [
+        "ao_dba28fa580cb941b",
+        "ao_1966107fff0ea485"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "forearm_pin_safe_zones_incision_01",
+      "text": "For each pin make a small skin incision and deepen it by spreading a forceps and advancing retractors layer by layer until bone is reached.",
+      "source_ids": [
+        "ao_dba28fa580cb941b"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "forearm_pin_safe_zones_superficial_interval_01",
+      "text": "For ulnar pins use the corridor between extensor carpi ulnaris and flexor carpi ulnaris along the whole shaft; for radial pins approach the posterolateral surface and avoid the anterior compartment.",
+      "source_ids": [
+        "ao_dba28fa580cb941b",
+        "ao_1966107fff0ea485"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "forearm_pin_safe_zones_deep_interval_01",
+      "text": "Reach bone directly through the mini-open window under direct vision so soft tissues are protected while the pin is placed.",
+      "source_ids": [
+        "ao_dba28fa580cb941b"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "forearm_pin_safe_zones_layers_01",
+      "text": "Skin, subcutaneous tissue, deep fascia, the relevant muscular interval, and the pin-entry cortex.",
+      "source_ids": [
+        "ao_dba28fa580cb941b"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "forearm_pin_safe_zones_structures_at_risk_01",
+      "text": "The posterior interosseous nerve in the proximal third, the superficial radial nerve distally, the radial artery anteriorly, and the median and ulnar neurovascular bundles in the flexor compartment are at risk.",
+      "source_ids": [
+        "ao_dba28fa580cb941b",
+        "ao_1966107fff0ea485"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "forearm_pin_safe_zones_danger_zones_01",
+      "text": "The proximal radius over the supinator and the anterior forearm are danger zones; the more proximal the field, the greater the risk to important structures.",
+      "source_ids": [
+        "ao_dba28fa580cb941b",
+        "ao_1966107fff0ea485"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "forearm_pin_safe_zones_retraction_hazards_01",
+      "text": "Do not place radial pins anteriorly and keep the superficial radial nerve out of the retractor in the distal forearm.",
+      "source_ids": [
+        "ao_dba28fa580cb941b",
+        "ao_1966107fff0ea485"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "forearm_pin_safe_zones_exposure_01",
+      "text": "Provides safe percutaneous corridors for half-pins rather than a formal open exposure.",
+      "source_ids": [
+        "ao_dba28fa580cb941b"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "forearm_pin_safe_zones_limitations_01",
+      "text": "Pin placement is constrained proximally by the posterior interosseous nerve and anteriorly by the radial artery, so corridors are limited to safe posterolateral surfaces.",
+      "source_ids": [
+        "ao_dba28fa580cb941b"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "forearm_pin_safe_zones_indications_01",
+      "text": "Indicated for external fixator half-pin placement in the radius and ulna for temporary or definitive stabilization.",
+      "source_ids": [
+        "ao_dba28fa580cb941b"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "forearm_pin_safe_zones_closure_01",
+      "text": "Close each mini-incision loosely around the pin to avoid skin tension.",
+      "source_ids": [
+        "ao_dba28fa580cb941b"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "forearm_pin_safe_zones_complications_01",
+      "text": "Complications include superficial radial or posterior interosseous nerve injury, radial artery injury, and pin-tract problems.",
+      "source_ids": [
+        "ao_dba28fa580cb941b",
+        "ao_1966107fff0ea485"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "forearm_pin_safe_zones_questions_01",
+      "text": "Which forearm surface is safe for ulnar external fixator pins?",
+      "source_ids": [
+        "ao_dba28fa580cb941b"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "forearm_pin_safe_zones_questions_02",
+      "text": "Why should radial pins avoid an anterior approach?",
+      "source_ids": [
+        "ao_dba28fa580cb941b",
+        "ao_1966107fff0ea485"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "forearm_pin_safe_zones_questions_03",
+      "text": "How does pin risk change with the level of the forearm?",
+      "source_ids": [
+        "ao_dba28fa580cb941b"
+      ],
+      "risk_level": "medium"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "ao_dba28fa580cb941b",
+      "provider": "AO Surgery Reference",
+      "title": "Safe zones for pin placement in the forearm",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/forearm-shaft/approach/safe-zones-for-pin-placement-in-the-forearm",
+      "source_page_id": "ao_dba28fa580cb941b"
+    },
+    {
+      "source_id": "ao_1966107fff0ea485",
+      "provider": "AO Surgery Reference",
+      "title": "Anatomy of the distal forearm",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/distal-forearm/approach/anatomy-of-the-distal-forearm",
+      "source_page_id": "ao_1966107fff0ea485"
+    }
+  ],
+  "content_status": "agent_review_pending",
+  "review": {
+    "status": "agent_review_pending",
+    "required_roles": [
+      "adversarial_safety_reviewer",
+      "approach_anatomy_reviewer",
+      "educational_value_reviewer",
+      "evidence_reviewer",
+      "operative_exposure_reviewer",
+      "procedure_applicability_reviewer"
+    ],
+    "completed_roles": []
+  },
+  "resolved_contradiction_keys": [],
+  "authoring_provenance": {
+    "method": "local_codex_curated",
+    "definition_file": "data/approach_library/curated/forearm_shaft_batch001_v1.json",
+    "api_used": false
+  }
+}

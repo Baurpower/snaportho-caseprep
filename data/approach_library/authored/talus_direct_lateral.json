@@ -1,0 +1,353 @@
+{
+  "schema_version": "brobot_approach_packet_v1",
+  "approach_id": "talus_direct_lateral",
+  "name": "Direct lateral approach to the talar lateral process",
+  "aliases": [
+    "snowboarder lateral-process approach"
+  ],
+  "region": "talus",
+  "joint": "subtalar",
+  "bones": [
+    "talus"
+  ],
+  "corridor": "Limited window more plantar than the anterolateral talar cut, between the peroneal tendons posteriorly and the extensor tendons anteriorly, through the fat pad to the subtalar capsule and lateral process",
+  "positioning": [
+    {
+      "text": "Position so a lateral fluoroscopic view can place a short cut over the lateral process.",
+      "claim_ids": [
+        "talus_direct_lateral_positioning_01"
+      ]
+    }
+  ],
+  "setup": [],
+  "surface_landmarks": [
+    {
+      "text": "Mark the lateral process, peroneal tendons posteriorly and laterally, extensor tendons anteriorly and dorsally, and the expected sural and superficial peroneal courses.",
+      "claim_ids": [
+        "talus_direct_lateral_surface_landmarks_01"
+      ]
+    }
+  ],
+  "incision": [
+    {
+      "text": "Use a short longitudinal cut parallel to the tendons or a transverse cut. The transverse cut is limited posteriorly by the sural nerve and anteriorly by the superficial peroneal nerve. Lateral fluoroscopy helps place the incision over the process.",
+      "claim_ids": [
+        "talus_direct_lateral_incision_01"
+      ]
+    }
+  ],
+  "superficial_interval": [
+    {
+      "text": "Protect the sural nerve posteriorly and the superficial peroneal nerve anteriorly. Few other named structures cross this fat-pad window.",
+      "claim_ids": [
+        "talus_direct_lateral_superficial_interval_01"
+      ]
+    }
+  ],
+  "deep_interval": [
+    {
+      "text": "After deep fascia, incise the fat pad between the peroneal and extensor tendons to the subtalar capsule and lateral talar process. The window is similar to the middle of the anterolateral talar approach but more plantar.",
+      "claim_ids": [
+        "talus_direct_lateral_deep_interval_01"
+      ]
+    }
+  ],
+  "layers": [
+    {
+      "text": "Skin, sural or superficial-peroneal plane, fat pad, subtalar capsule, then the lateral process.",
+      "claim_ids": [
+        "talus_direct_lateral_layers_01"
+      ]
+    }
+  ],
+  "structures_encountered": [],
+  "structures_at_risk": [
+    {
+      "text": "The sural nerve posteriorly and the superficial peroneal nerve anteriorly bound a transverse cut. Peroneal tendons sit posterior and lateral.",
+      "claim_ids": [
+        "talus_direct_lateral_structures_at_risk_01"
+      ]
+    }
+  ],
+  "danger_zones": [
+    {
+      "text": "A transverse incision that is too long posteriorly hits the sural nerve; too far anterior hits the superficial peroneal nerve.",
+      "claim_ids": [
+        "talus_direct_lateral_danger_zones_01"
+      ]
+    }
+  ],
+  "retraction_hazards": [
+    {
+      "text": "Do not pull the peroneal tendons or the two cutaneous nerves under tension in this short window.",
+      "claim_ids": [
+        "talus_direct_lateral_retraction_hazards_01"
+      ]
+    }
+  ],
+  "exposure": [
+    {
+      "text": "Shows a simple lateral-process fracture and allows debridement, arthrodesis, or arthroscopy of the posterior talocalcaneal joint.",
+      "claim_ids": [
+        "talus_direct_lateral_exposure_01"
+      ]
+    }
+  ],
+  "limitations": [
+    {
+      "text": "It is not a talar-neck approach and does not replace combined anteromedial and anterolateral windows.",
+      "claim_ids": [
+        "talus_direct_lateral_limitations_01"
+      ]
+    }
+  ],
+  "extensions": [],
+  "indications": [
+    {
+      "text": "Indicated for a simple lateral-process fracture or to debride the subtalar joint, including snowboarder fractures.",
+      "claim_ids": [
+        "talus_direct_lateral_indications_01"
+      ]
+    }
+  ],
+  "relative_contraindications": [],
+  "implant_implications": [],
+  "fluoroscopy_implications": [],
+  "closure": [
+    {
+      "text": "Close in layers.",
+      "claim_ids": [
+        "talus_direct_lateral_closure_01"
+      ]
+    }
+  ],
+  "complications": [
+    {
+      "text": "Complications include sural or superficial-peroneal neurapraxia if the short window is extended past those nerves.",
+      "claim_ids": [
+        "talus_direct_lateral_complications_01"
+      ]
+    }
+  ],
+  "bailouts": [],
+  "procedure_applications": [
+    {
+      "procedure_id": "talus_fracture_orif",
+      "relationship": "primary_option",
+      "condition": "A simple lateral-process (snowboarder) fracture is exposed, or the posterior talocalcaneal joint is debrided, fused, or scoped through this window"
+    }
+  ],
+  "questions": [
+    {
+      "question": "How does the direct lateral window differ from the anterolateral talar approach?",
+      "answer": "It is similar to the middle of the anterolateral approach but is placed more plantar to reach the lateral process.",
+      "claim_ids": [
+        "talus_direct_lateral_questions_01"
+      ]
+    },
+    {
+      "question": "What limits a transverse direct-lateral incision?",
+      "answer": "The sural nerve posteriorly and the superficial peroneal nerve anteriorly.",
+      "claim_ids": [
+        "talus_direct_lateral_questions_02"
+      ]
+    },
+    {
+      "question": "What structure between the peroneal and extensor tendons leads to the subtalar joint?",
+      "answer": "A fat pad; incising it reveals the subtalar capsule and lateral process.",
+      "claim_ids": [
+        "talus_direct_lateral_questions_03"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "talus_direct_lateral_positioning_01",
+      "text": "Position so a lateral fluoroscopic view can place a short cut over the lateral process.",
+      "source_ids": [
+        "ao_9abdef5f8e8e30e8",
+        "ao_3ac4777d6982b3ed"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "talus_direct_lateral_surface_landmarks_01",
+      "text": "Mark the lateral process, peroneal tendons posteriorly and laterally, extensor tendons anteriorly and dorsally, and the expected sural and superficial peroneal courses.",
+      "source_ids": [
+        "ao_9abdef5f8e8e30e8",
+        "ao_3ac4777d6982b3ed"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "talus_direct_lateral_incision_01",
+      "text": "Use a short longitudinal cut parallel to the tendons or a transverse cut. The transverse cut is limited posteriorly by the sural nerve and anteriorly by the superficial peroneal nerve. Lateral fluoroscopy helps place the incision over the process.",
+      "source_ids": [
+        "ao_9abdef5f8e8e30e8"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "talus_direct_lateral_superficial_interval_01",
+      "text": "Protect the sural nerve posteriorly and the superficial peroneal nerve anteriorly. Few other named structures cross this fat-pad window.",
+      "source_ids": [
+        "ao_9abdef5f8e8e30e8",
+        "ao_3ac4777d6982b3ed"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "talus_direct_lateral_deep_interval_01",
+      "text": "After deep fascia, incise the fat pad between the peroneal and extensor tendons to the subtalar capsule and lateral talar process. The window is similar to the middle of the anterolateral talar approach but more plantar.",
+      "source_ids": [
+        "ao_9abdef5f8e8e30e8",
+        "ao_0bc032ac24ff0529"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "talus_direct_lateral_layers_01",
+      "text": "Skin, sural or superficial-peroneal plane, fat pad, subtalar capsule, then the lateral process.",
+      "source_ids": [
+        "ao_9abdef5f8e8e30e8",
+        "ao_3ac4777d6982b3ed"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "talus_direct_lateral_structures_at_risk_01",
+      "text": "The sural nerve posteriorly and the superficial peroneal nerve anteriorly bound a transverse cut. Peroneal tendons sit posterior and lateral.",
+      "source_ids": [
+        "ao_9abdef5f8e8e30e8",
+        "ao_3ac4777d6982b3ed"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "talus_direct_lateral_danger_zones_01",
+      "text": "A transverse incision that is too long posteriorly hits the sural nerve; too far anterior hits the superficial peroneal nerve.",
+      "source_ids": [
+        "ao_9abdef5f8e8e30e8",
+        "ao_0bc032ac24ff0529"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "talus_direct_lateral_retraction_hazards_01",
+      "text": "Do not pull the peroneal tendons or the two cutaneous nerves under tension in this short window.",
+      "source_ids": [
+        "ao_9abdef5f8e8e30e8",
+        "ao_3ac4777d6982b3ed"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "talus_direct_lateral_exposure_01",
+      "text": "Shows a simple lateral-process fracture and allows debridement, arthrodesis, or arthroscopy of the posterior talocalcaneal joint.",
+      "source_ids": [
+        "ao_9abdef5f8e8e30e8"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "talus_direct_lateral_limitations_01",
+      "text": "It is not a talar-neck approach and does not replace combined anteromedial and anterolateral windows.",
+      "source_ids": [
+        "ao_9abdef5f8e8e30e8",
+        "ao_0bc032ac24ff0529"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "talus_direct_lateral_indications_01",
+      "text": "Indicated for a simple lateral-process fracture or to debride the subtalar joint, including snowboarder fractures.",
+      "source_ids": [
+        "ao_9abdef5f8e8e30e8"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "talus_direct_lateral_closure_01",
+      "text": "Close in layers.",
+      "source_ids": [
+        "ao_9abdef5f8e8e30e8"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "talus_direct_lateral_complications_01",
+      "text": "Complications include sural or superficial-peroneal neurapraxia if the short window is extended past those nerves.",
+      "source_ids": [
+        "ao_9abdef5f8e8e30e8",
+        "ao_3ac4777d6982b3ed"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "talus_direct_lateral_questions_01",
+      "text": "How does the direct lateral window differ from the anterolateral talar approach?",
+      "source_ids": [
+        "ao_9abdef5f8e8e30e8"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "talus_direct_lateral_questions_02",
+      "text": "What limits a transverse direct-lateral incision?",
+      "source_ids": [
+        "ao_9abdef5f8e8e30e8"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "talus_direct_lateral_questions_03",
+      "text": "What structure between the peroneal and extensor tendons leads to the subtalar joint?",
+      "source_ids": [
+        "ao_9abdef5f8e8e30e8"
+      ],
+      "risk_level": "medium"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "ao_9abdef5f8e8e30e8",
+      "provider": "AO Surgery Reference",
+      "title": "Direct Lateral Approach",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/talus/approach/direct-lateral-approach",
+      "source_page_id": "ao_9abdef5f8e8e30e8"
+    },
+    {
+      "source_id": "ao_0bc032ac24ff0529",
+      "provider": "AO Surgery Reference",
+      "title": "Anterolateral Approach",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/talus/approach/anterolateral-approach",
+      "source_page_id": "ao_0bc032ac24ff0529"
+    },
+    {
+      "source_id": "ao_3ac4777d6982b3ed",
+      "provider": "AO Surgery Reference",
+      "title": "Sinus tarsi approach",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/calcaneous/approach/sinus-tarsi-approach",
+      "source_page_id": "ao_3ac4777d6982b3ed"
+    }
+  ],
+  "content_status": "agent_review_pending",
+  "review": {
+    "status": "agent_review_pending",
+    "required_roles": [
+      "adversarial_safety_reviewer",
+      "approach_anatomy_reviewer",
+      "educational_value_reviewer",
+      "evidence_reviewer",
+      "operative_exposure_reviewer",
+      "procedure_applicability_reviewer"
+    ],
+    "completed_roles": []
+  },
+  "resolved_contradiction_keys": [],
+  "authoring_provenance": {
+    "method": "local_codex_curated",
+    "definition_file": "data/approach_library/curated/talus_batch001_v1.json",
+    "api_used": false
+  }
+}

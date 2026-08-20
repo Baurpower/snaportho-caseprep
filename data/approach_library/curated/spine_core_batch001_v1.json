@@ -1,0 +1,1466 @@
+{
+  "approaches": [
+    {
+      "approach_id": "spine_posterior_midline_thoracolumbar",
+      "name": "Posterior midline approach to the thoracolumbar spine",
+      "aliases": [
+        "open posterior T1–S1 approach",
+        "posterior deformity midline approach"
+      ],
+      "region": "thoracolumbar",
+      "joint": "",
+      "bones": [
+        "thoracic vertebrae",
+        "lumbar vertebrae"
+      ],
+      "corridor": "Midline incision over the instrumented segment, subperiosteal Cobb elevation of paraspinal muscle from spinous processes and laminae distal to proximal, to the transverse-process tips in the thorax and to the facets in the lumbar spine",
+      "sources": [
+        {
+          "source_id": "ao_9c10dec84d26544e",
+          "provider": "AO Surgery Reference",
+          "title": "Posterior Open Approach Midline Approach T1 S1",
+          "url": "https://surgeryreference.aofoundation.org/spine/trauma/thoracolumbar/approach/posterior-open-approach---midline-approach-t1-s1",
+          "source_page_id": "ao_9c10dec84d26544e"
+        },
+        {
+          "source_id": "ao_da20e26e8721880e",
+          "provider": "AO Surgery Reference",
+          "title": "Posterior Midline Access To The Thoracolumbar Spine",
+          "url": "https://surgeryreference.aofoundation.org/spine/tumors/metastatic-tumors/approach/posterior-midline-access-to-the-thoracolumbar-spine",
+          "source_page_id": "ao_da20e26e8721880e"
+        },
+        {
+          "source_id": "ao_e5fec10ff260c54b",
+          "provider": "AO Surgery Reference",
+          "title": "Posterior Midline Access To The Thoracolumbar Spine T1 To L5",
+          "url": "https://surgeryreference.aofoundation.org/spine/tumors/primary-tumors/approach/posterior-midline-access-to-the-thoracolumbar-spine-t1-to-l5",
+          "source_page_id": "ao_e5fec10ff260c54b"
+        },
+        {
+          "source_id": "ao_dc669979f592f951",
+          "provider": "AO Surgery Reference",
+          "title": "Posterior Approach",
+          "url": "https://surgeryreference.aofoundation.org/spine/deformities/adolescent-idiopathic-scoliosis/approach/posterior-approach",
+          "source_page_id": "ao_dc669979f592f951"
+        },
+        {
+          "source_id": "ao_f3b7520913962a43",
+          "provider": "AO Surgery Reference",
+          "title": "Posterior Approach",
+          "url": "https://surgeryreference.aofoundation.org/spine/deformities/scheuermanns-kyphosis/approach/posterior-approach",
+          "source_page_id": "ao_f3b7520913962a43"
+        },
+        {
+          "source_id": "orthobullets_91e3c648aa32617e",
+          "provider": "Orthobullets",
+          "title": "Posterior Approach To Lumbar Spine",
+          "url": "https://www.orthobullets.com/approaches/12003/posterior-approach-to-lumbar-spine",
+          "source_page_id": "orthobullets_91e3c648aa32617e"
+        },
+        {
+          "source_id": "orthobullets_05332b601750dec0",
+          "provider": "Orthobullets",
+          "title": "Posterior Approach To Thoracolumbar Spine",
+          "url": "https://www.orthobullets.com/approaches/2077/posterior-approach-to-thoracolumbar-spine",
+          "source_page_id": "orthobullets_05332b601750dec0"
+        }
+      ],
+      "procedure_applications": [
+        {
+          "procedure_id": "thoracolumbar_fracture_orif",
+          "relationship": "primary_option",
+          "condition": "A thoracolumbar fracture is instrumented from a midline posterior window"
+        }
+      ],
+      "sections": {
+        "positioning": [
+          {
+            "text": "Position prone so the planned segment can be marked and checked with fluoroscopy before and after exposure.",
+            "source_ids": [
+              "ao_9c10dec84d26544e",
+              "ao_da20e26e8721880e"
+            ]
+          }
+        ],
+        "surface_landmarks": [
+          {
+            "text": "Mark the midline over the involved segment. Trauma and metastatic short constructs expose one level above and below; long constructs and primary-tumor work expose at least two levels above and below. Deformity cuts run from planned UIV to LIV; some surgeons start a slightly off-midline curve toward the apex so the closed scar sits on the midline after correction.",
+            "source_ids": [
+              "ao_9c10dec84d26544e",
+              "ao_e5fec10ff260c54b",
+              "ao_dc669979f592f951"
+            ]
+          }
+        ],
+        "incision": [
+          {
+            "text": "Infiltrate skin and fat with 1:500,000 epinephrine. Make a midline cut centered on the segment, length set by the number of instrumented levels, and confirm the level with fluoroscopy.",
+            "source_ids": [
+              "ao_9c10dec84d26544e",
+              "ao_da20e26e8721880e",
+              "ao_e5fec10ff260c54b"
+            ]
+          }
+        ],
+        "superficial_interval": [
+          {
+            "text": "Carry the dissection in the midline through fat and fascia to the spinous-process tips and hold tension with self-retaining retractors.",
+            "source_ids": [
+              "ao_9c10dec84d26544e",
+              "ao_da20e26e8721880e",
+              "ao_dc669979f592f951"
+            ]
+          }
+        ],
+        "deep_interval": [
+          {
+            "text": "Elevate paraspinal muscle subperiosteally from the laminae distal to proximal with a Cobb along the spinous process and lamina. Thoracic dissection usually goes to the transverse-process tips; lumbar dissection stops at the facets. Spare facet capsules if fusion is not planned; excise capsule and denude cartilage if fusion is planned. If tumor involves the lamina, do not use a Cobb blindly. After exposure, recheck the level on an image.",
+            "source_ids": [
+              "ao_9c10dec84d26544e",
+              "ao_da20e26e8721880e",
+              "ao_e5fec10ff260c54b"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "layers": [
+          {
+            "text": "Skin, fat, fascia, spinous-process tips, subperiosteal lamina, then transverse processes or facets.",
+            "source_ids": [
+              "ao_9c10dec84d26544e",
+              "ao_da20e26e8721880e"
+            ]
+          }
+        ],
+        "structures_at_risk": [
+          {
+            "text": "In burst fractures with incomplete deficit a laminar split is present in at least 30% of patients and dura or roots can be impaled in the defect; monopolar diathermy can injure them. B1/B2 and type C injuries often have ligamentum-flavum and laminar defects. Type C translational injuries should be exposed one side at a time with a temporary rod before the second side is opened.",
+            "source_ids": [
+              "ao_9c10dec84d26544e"
+            ]
+          }
+        ],
+        "danger_zones": [
+          {
+            "text": "Cobb elevation through a tumor-involved or split lamina, and bilateral exposure of an unstabilized type C injury, are the neural danger zones.",
+            "source_ids": [
+              "ao_9c10dec84d26544e",
+              "ao_e5fec10ff260c54b"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "retraction_hazards": [
+          {
+            "text": "Keep dissection subperiosteal to limit bleeding and muscle damage. Primary-tumor cases may need a wider, more lateral window and scar excision if prior intralesional surgery contaminated the wound.",
+            "source_ids": [
+              "ao_9c10dec84d26544e",
+              "ao_e5fec10ff260c54b"
+            ]
+          }
+        ],
+        "exposure": [
+          {
+            "text": "Shows the posterior elements from T1 to the sacrum for short- or long-segment instrumentation, fusion, or deformity correction from UIV to LIV.",
+            "source_ids": [
+              "ao_9c10dec84d26544e",
+              "ao_dc669979f592f951",
+              "ao_f3b7520913962a43"
+            ]
+          }
+        ],
+        "limitations": [
+          {
+            "text": "Does not by itself decompress the anterior column. Primary-tumor and radiated revision wounds are more prone to breakdown.",
+            "source_ids": [
+              "ao_e5fec10ff260c54b",
+              "ao_da20e26e8721880e"
+            ]
+          }
+        ],
+        "indications": [
+          {
+            "text": "Used for posterior trauma fixation, metastatic and primary-tumor access, and posterior deformity correction (AIS and Scheuermann).",
+            "source_ids": [
+              "ao_9c10dec84d26544e",
+              "ao_da20e26e8721880e",
+              "ao_dc669979f592f951",
+              "ao_f3b7520913962a43"
+            ]
+          }
+        ],
+        "closure": [
+          {
+            "text": "Close muscle and fascia tightly with continuous or interrupted sutures, place a drain through a separate stab, and close fat and skin. Metastatic cases may receive intrawound vancomycin; radiated or revision metastatic wounds should be reconstructed by plastic surgery.",
+            "source_ids": [
+              "ao_da20e26e8721880e",
+              "ao_dc669979f592f951",
+              "ao_f3b7520913962a43"
+            ]
+          }
+        ],
+        "complications": [
+          {
+            "text": "Complications include neural injury in a split lamina, further displacement of a type C injury after bilateral exposure, wound breakdown after radiation or revision, and unintended facet fusion if capsules are violated at unfused levels.",
+            "source_ids": [
+              "ao_9c10dec84d26544e",
+              "ao_da20e26e8721880e"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "questions": [
+          {
+            "question": "In which direction are the paraspinal muscles elevated?",
+            "answer": "Subperiosteally from distal to proximal along the spinous process and lamina.",
+            "source_ids": [
+              "ao_9c10dec84d26544e",
+              "ao_da20e26e8721880e"
+            ]
+          },
+          {
+            "question": "How should a type C translational injury be exposed?",
+            "answer": "One side first, with a temporary rod on that side, before opening the second side.",
+            "source_ids": [
+              "ao_9c10dec84d26544e"
+            ]
+          },
+          {
+            "question": "How far does thoracic versus lumbar dissection usually go?",
+            "answer": "To the transverse-process tips in the thorax and to the facet joints in the lumbar spine.",
+            "source_ids": [
+              "ao_9c10dec84d26544e",
+              "ao_da20e26e8721880e"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "approach_id": "spine_anterior_cervical_c3_c7",
+      "name": "Anterior approach to the subaxial cervical spine (C3–C7)",
+      "aliases": [
+        "Smith-Robinson anterior cervical approach"
+      ],
+      "region": "subaxial-cervical",
+      "joint": "",
+      "bones": [
+        "C3",
+        "C4",
+        "C5",
+        "C6",
+        "C7"
+      ],
+      "corridor": "Transverse or longitudinal cut, platysma, fascia along the anteromedial sternocleidomastoid border, blunt plane between carotid sheath and trachea/esophagus to prevertebral fascia, then longus colli mobilization",
+      "sources": [
+        {
+          "source_id": "ao_798a5b02effb79e8",
+          "provider": "AO Surgery Reference",
+          "title": "Anterior Approach To The Cervical Spine",
+          "url": "https://surgeryreference.aofoundation.org/spine/trauma/subaxial-cervical/approach/anterior-approach-to-the-cervical-spine",
+          "source_page_id": "ao_798a5b02effb79e8"
+        },
+        {
+          "source_id": "ao_84532b52fa87b529",
+          "provider": "AO Surgery Reference",
+          "title": "Anterior Access To C3 C7",
+          "url": "https://surgeryreference.aofoundation.org/spine/tumors/metastatic-tumors/approach/anterior-access-to-c3-c7",
+          "source_page_id": "ao_84532b52fa87b529"
+        },
+        {
+          "source_id": "ao_f7fe36b5c2cea82a",
+          "provider": "AO Surgery Reference",
+          "title": "Anterior Access To The Cervical Spine C3 To C7",
+          "url": "https://surgeryreference.aofoundation.org/spine/tumors/primary-tumors/approach/anterior-access-to-the-cervical-spine-c3-to-c7",
+          "source_page_id": "ao_f7fe36b5c2cea82a"
+        }
+      ],
+      "procedure_applications": [
+        {
+          "procedure_id": "cervical_spine_orif",
+          "relationship": "primary_option",
+          "condition": "A C3–C7 fracture, tumor, or anterior reconstruction is exposed between the carotid sheath and the viscera"
+        }
+      ],
+      "sections": {
+        "positioning": [
+          {
+            "text": "Position so a nasogastric tube and the endotracheal tube can be felt, and the planned cervical level can be imaged.",
+            "source_ids": [
+              "ao_798a5b02effb79e8",
+              "ao_84532b52fa87b529"
+            ]
+          }
+        ],
+        "surface_landmarks": [
+          {
+            "text": "Mark the sternocleidomastoid, midline viscera, and the planned transverse level. Side is surgeon preference: left tends to avoid the recurrent laryngeal nerve, right lets it be seen and protected.",
+            "source_ids": [
+              "ao_798a5b02effb79e8",
+              "ao_84532b52fa87b529",
+              "ao_f7fe36b5c2cea82a"
+            ]
+          }
+        ],
+        "incision": [
+          {
+            "text": "Use a transverse cut at the required level for a better scar and limited exposure, or a more longitudinal cut for multilevel work. Revision, radiated, or C2-extending primary-tumor cases may need a head-and-neck surgeon.",
+            "source_ids": [
+              "ao_798a5b02effb79e8",
+              "ao_84532b52fa87b529",
+              "ao_f7fe36b5c2cea82a"
+            ]
+          }
+        ],
+        "superficial_interval": [
+          {
+            "text": "Divide platysma in line with the skin, then divide deep cervical fascia along the anteromedial sternocleidomastoid border.",
+            "source_ids": [
+              "ao_798a5b02effb79e8",
+              "ao_84532b52fa87b529"
+            ]
+          }
+        ],
+        "deep_interval": [
+          {
+            "text": "Palpate the carotid pulse and stay medial to the sheath. Bluntly develop the plane between the carotid sheath and the trachea/esophagus down to prevertebral fascia. Identify and protect the recurrent laryngeal nerve. Open prevertebral fascia longitudinally, confirm the level, mobilize longus colli, and place distractors. A nasogastric tube helps identify the esophagus.",
+            "source_ids": [
+              "ao_798a5b02effb79e8",
+              "ao_84532b52fa87b529",
+              "ao_f7fe36b5c2cea82a"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "layers": [
+          {
+            "text": "Skin, platysma, deep cervical fascia, carotid-sheath versus visceral plane, prevertebral fascia, longus colli, then the vertebral body.",
+            "source_ids": [
+              "ao_798a5b02effb79e8",
+              "ao_84532b52fa87b529"
+            ]
+          }
+        ],
+        "structures_at_risk": [
+          {
+            "text": "The esophagus, recurrent laryngeal nerve, and carotid artery are the principal structures at risk. Esophageal injury is potentially lethal.",
+            "source_ids": [
+              "ao_798a5b02effb79e8",
+              "ao_84532b52fa87b529",
+              "ao_f7fe36b5c2cea82a"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "danger_zones": [
+          {
+            "text": "Blind sharp dissection medial to the viscera or through the carotid sheath, and working without a nasogastric tube to mark the esophagus, are the danger zones. Carotid injury is held with direct pressure while vascular surgery is called.",
+            "source_ids": [
+              "ao_798a5b02effb79e8",
+              "ao_84532b52fa87b529"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "retraction_hazards": [
+          {
+            "text": "Do not retract forcefully on the esophagus or carotid sheath. Call thoracic or ENT if esophageal injury is suspected.",
+            "source_ids": [
+              "ao_798a5b02effb79e8",
+              "ao_84532b52fa87b529"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "exposure": [
+          {
+            "text": "Shows C3–C7 vertebral bodies for anterior trauma, metastatic, or primary-tumor work. Primary-tumor exposure may be wider than trauma.",
+            "source_ids": [
+              "ao_798a5b02effb79e8",
+              "ao_f7fe36b5c2cea82a"
+            ]
+          }
+        ],
+        "limitations": [
+          {
+            "text": "A transverse cut gives limited multilevel access. Superior extension to C2 needs additional head-and-neck help.",
+            "source_ids": [
+              "ao_798a5b02effb79e8",
+              "ao_f7fe36b5c2cea82a"
+            ]
+          }
+        ],
+        "indications": [
+          {
+            "text": "Used for anterior access to C3–C7 in trauma, metastatic disease, and primary tumors.",
+            "source_ids": [
+              "ao_798a5b02effb79e8",
+              "ao_84532b52fa87b529",
+              "ao_f7fe36b5c2cea82a"
+            ]
+          }
+        ],
+        "closure": [
+          {
+            "text": "Suture platysma, then fat and skin. Place a drain through a separate stab.",
+            "source_ids": [
+              "ao_798a5b02effb79e8"
+            ]
+          }
+        ],
+        "complications": [
+          {
+            "text": "Complications include esophageal perforation, recurrent-laryngeal palsy, and carotid injury.",
+            "source_ids": [
+              "ao_798a5b02effb79e8",
+              "ao_84532b52fa87b529",
+              "ao_f7fe36b5c2cea82a"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "questions": [
+          {
+            "question": "What is the deep plane of the anterior cervical approach?",
+            "answer": "Medial to the carotid sheath and lateral to the trachea and esophagus, down to prevertebral fascia.",
+            "source_ids": [
+              "ao_798a5b02effb79e8",
+              "ao_84532b52fa87b529"
+            ]
+          },
+          {
+            "question": "How does side choice affect the recurrent laryngeal nerve?",
+            "answer": "A left-sided approach tends to avoid it; a right-sided approach lets it be visualized and protected.",
+            "source_ids": [
+              "ao_798a5b02effb79e8",
+              "ao_84532b52fa87b529"
+            ]
+          },
+          {
+            "question": "Why is a nasogastric tube used?",
+            "answer": "To identify the esophagus and help prevent accidental injury.",
+            "source_ids": [
+              "ao_798a5b02effb79e8",
+              "ao_84532b52fa87b529"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "approach_id": "spine_percutaneous_pedicle",
+      "name": "Percutaneous posterior approach for pedicle-screw placement",
+      "aliases": [
+        "minimally invasive percutaneous pedicle-screw approach"
+      ],
+      "region": "thoracolumbar",
+      "joint": "",
+      "bones": [
+        "thoracic vertebrae",
+        "lumbar vertebrae"
+      ],
+      "corridor": "Stab lateral to the fluoroscopic pedicle projection, blunt passage to bone, cannulated needle at 3 o’clock on the right and 9 o’clock on the left to the medial pedicle wall, then K-wire and screw over a dilator",
+      "sources": [
+        {
+          "source_id": "ao_7ed8f91f7328028b",
+          "provider": "AO Surgery Reference",
+          "title": "Percutaneous Posterior Approach For Pedicle Screw Placement",
+          "url": "https://surgeryreference.aofoundation.org/spine/trauma/thoracolumbar/approach/percutaneous-posterior-approach-for-pedicle-screw-placement",
+          "source_page_id": "ao_7ed8f91f7328028b"
+        },
+        {
+          "source_id": "ao_2b7f5ea82ed89fb7",
+          "provider": "AO Surgery Reference",
+          "title": "Percutaneous Posterior Approach For Pedicle Screw Placement",
+          "url": "https://surgeryreference.aofoundation.org/spine/degenerative/lumbar/approach/percutaneous-posterior-approach-for-pedicle-screw-placement",
+          "source_page_id": "ao_2b7f5ea82ed89fb7"
+        },
+        {
+          "source_id": "ao_6937c38c759c6eea",
+          "provider": "AO Surgery Reference",
+          "title": "Percutaneous Pedicle Screw Insertion In The Thoracolumbar Spine",
+          "url": "https://surgeryreference.aofoundation.org/spine/tumors/metastatic-tumors/approach/percutaneous-pedicle-screw-insertion-in-the-thoracolumbar-spine",
+          "source_page_id": "ao_6937c38c759c6eea"
+        }
+      ],
+      "procedure_applications": [
+        {
+          "procedure_id": "thoracolumbar_fracture_orif",
+          "relationship": "primary_option",
+          "condition": "Pedicle screws are placed percutaneously for trauma, degenerative, or metastatic constructs"
+        }
+      ],
+      "sections": {
+        "positioning": [
+          {
+            "text": "Position so true AP and lateral images of each targeted pedicle can be obtained and the level confirmed with fluoroscopy.",
+            "source_ids": [
+              "ao_7ed8f91f7328028b",
+              "ao_2b7f5ea82ed89fb7"
+            ]
+          }
+        ],
+        "surface_landmarks": [
+          {
+            "text": "Mark the image projection of each pedicle. The skin cut sits lateral to that projection; the offset is smaller in the mid-thoracic spine and more lateral in the upper thoracic and lumbar spine, depending on pedicle convergence.",
+            "source_ids": [
+              "ao_7ed8f91f7328028b",
+              "ao_2b7f5ea82ed89fb7",
+              "ao_6937c38c759c6eea"
+            ]
+          }
+        ],
+        "incision": [
+          {
+            "text": "Incise skin lateral to the pedicle projection after confirming the level.",
+            "source_ids": [
+              "ao_7ed8f91f7328028b",
+              "ao_2b7f5ea82ed89fb7"
+            ]
+          }
+        ],
+        "superficial_interval": [
+          {
+            "text": "Bluntly spread fat, fascia, and muscle with scissors down to bone.",
+            "source_ids": [
+              "ao_7ed8f91f7328028b",
+              "ao_2b7f5ea82ed89fb7"
+            ]
+          }
+        ],
+        "deep_interval": [
+          {
+            "text": "Insert cannulated needles at 3 o’clock on the right and 9 o’clock on the left and tap them to the medial border of the pedicle projection. Check AP and lateral images. Advance into the body only after the needle tip has passed the posterior wall on the lateral view; if it has not, withdraw and redirect. Exchange for a K-wire, remove the needle, dilate, and insert the cannulated screw over the wire. Place the rod percutaneously.",
+            "source_ids": [
+              "ao_7ed8f91f7328028b",
+              "ao_2b7f5ea82ed89fb7",
+              "ao_6937c38c759c6eea"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "layers": [
+          {
+            "text": "Skin, blunt muscle path, cannulated needle, K-wire, dilator, then the pedicle screw.",
+            "source_ids": [
+              "ao_7ed8f91f7328028b",
+              "ao_2b7f5ea82ed89fb7"
+            ]
+          }
+        ],
+        "structures_at_risk": [
+          {
+            "text": "Medial pedicle breach threatens the canal and nerve root. Advancing a needle that has not yet passed the posterior wall on the lateral view risks a wrong trajectory.",
+            "source_ids": [
+              "ao_7ed8f91f7328028b",
+              "ao_6937c38c759c6eea"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "danger_zones": [
+          {
+            "text": "The medial pedicle wall on AP and the posterior vertebral-body wall on the lateral view are the imaging gates that must be respected before the needle is advanced.",
+            "source_ids": [
+              "ao_7ed8f91f7328028b",
+              "ao_2b7f5ea82ed89fb7",
+              "ao_6937c38c759c6eea"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "retraction_hazards": [
+          {
+            "text": "This is a blunt percutaneous path, not an open muscle strip. Do not drive the needle past the medial wall on AP.",
+            "source_ids": [
+              "ao_7ed8f91f7328028b",
+              "ao_2b7f5ea82ed89fb7"
+            ]
+          }
+        ],
+        "exposure": [
+          {
+            "text": "Places percutaneous pedicle screws and a rod without an open midline exposure.",
+            "source_ids": [
+              "ao_7ed8f91f7328028b",
+              "ao_2b7f5ea82ed89fb7"
+            ]
+          }
+        ],
+        "limitations": [
+          {
+            "text": "Does not decompress the canal or resect a tumor; it only places screws and a rod.",
+            "source_ids": [
+              "ao_7ed8f91f7328028b",
+              "ao_6937c38c759c6eea"
+            ]
+          }
+        ],
+        "indications": [
+          {
+            "text": "Used for percutaneous pedicle-screw constructs in thoracolumbar trauma, degenerative lumbar disease, and metastatic disease.",
+            "source_ids": [
+              "ao_7ed8f91f7328028b",
+              "ao_2b7f5ea82ed89fb7",
+              "ao_6937c38c759c6eea"
+            ]
+          }
+        ],
+        "closure": [
+          {
+            "text": "Close the small wounds in layers.",
+            "source_ids": [
+              "ao_7ed8f91f7328028b",
+              "ao_2b7f5ea82ed89fb7"
+            ]
+          }
+        ],
+        "complications": [
+          {
+            "text": "Complications include medial pedicle breach, malpositioned screws, and neurologic injury from an uncorrected trajectory.",
+            "source_ids": [
+              "ao_7ed8f91f7328028b",
+              "ao_6937c38c759c6eea"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "questions": [
+          {
+            "question": "Where are the cannulated needles clocked on each side?",
+            "answer": "3 o’clock on the right and 9 o’clock on the left, tapped to the medial pedicle-wall projection.",
+            "source_ids": [
+              "ao_7ed8f91f7328028b",
+              "ao_2b7f5ea82ed89fb7"
+            ]
+          },
+          {
+            "question": "When may the needle be advanced into the vertebral body?",
+            "answer": "Only after its tip has passed the posterior wall of the body on the lateral image.",
+            "source_ids": [
+              "ao_7ed8f91f7328028b",
+              "ao_6937c38c759c6eea"
+            ]
+          },
+          {
+            "question": "How does incision laterality change by level?",
+            "answer": "Closer to the pedicle projection in the mid-thoracic spine and more lateral in the upper thoracic and lumbar spine.",
+            "source_ids": [
+              "ao_7ed8f91f7328028b",
+              "ao_2b7f5ea82ed89fb7"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "approach_id": "spine_left_thoracotomy_t3_l12",
+      "name": "Left-sided thoracotomy (T3–L1/2)",
+      "aliases": [
+        "left thoracic approach to the spine"
+      ],
+      "region": "thoracolumbar",
+      "joint": "",
+      "bones": [
+        "thoracic vertebrae"
+      ],
+      "corridor": "Oblique cut around the scapular angle two levels above the target, rib exposure or resection, pleural entry, lung retracted anteriorly, parietal pleura opened over the discs, segmental vessels ligated in mid-body",
+      "sources": [
+        {
+          "source_id": "ao_4841477a90588746",
+          "provider": "AO Surgery Reference",
+          "title": "Left Sided Thoracotomy T3 L12",
+          "url": "https://surgeryreference.aofoundation.org/spine/trauma/thoracolumbar/approach/left-sided-thoracotomy-t3-l12",
+          "source_page_id": "ao_4841477a90588746"
+        },
+        {
+          "source_id": "ao_a4a09e6db243835b",
+          "provider": "AO Surgery Reference",
+          "title": "Left Sided Thoracotomy T3 L12",
+          "url": "https://surgeryreference.aofoundation.org/spine/tumors/metastatic-tumors/approach/left-sided-thoracotomy-t3-l12",
+          "source_page_id": "ao_a4a09e6db243835b"
+        },
+        {
+          "source_id": "orthobullets_5e85c534356b2dca",
+          "provider": "Orthobullets",
+          "title": "Transthoracic Approach To Thoracic Spine",
+          "url": "https://www.orthobullets.com/approaches/2079/transthoracic-approach-to-thoracic-spine",
+          "source_page_id": "orthobullets_5e85c534356b2dca"
+        }
+      ],
+      "procedure_applications": [
+        {
+          "procedure_id": "thoracolumbar_fracture_orif",
+          "relationship": "primary_option",
+          "condition": "An anterior thoracic or thoracolumbar reconstruction from T3 to L1/2 is done through a left chest"
+        }
+      ],
+      "sections": {
+        "positioning": [
+          {
+            "text": "Position for a left chest approach with single-lung ventilation available and fluoroscopy to confirm the level.",
+            "source_ids": [
+              "ao_4841477a90588746",
+              "ao_a4a09e6db243835b"
+            ]
+          }
+        ],
+        "surface_landmarks": [
+          {
+            "text": "Mark the scapular angle and the rib two levels above the involved vertebra. Above T5, place the cut 2 cm below the scapular tip so the scapula can be released from subscapularis and lifted.",
+            "source_ids": [
+              "ao_4841477a90588746",
+              "ao_a4a09e6db243835b"
+            ]
+          }
+        ],
+        "incision": [
+          {
+            "text": "Incise from posterosuperior around the scapular angle, sloping obliquely anteroinferior. The upper end must reach the level above the target and the lower end the level below.",
+            "source_ids": [
+              "ao_4841477a90588746",
+              "ao_a4a09e6db243835b"
+            ]
+          }
+        ],
+        "superficial_interval": [
+          {
+            "text": "Incise skin, fat, and overlying muscle down to the chosen rib. If a rib is removed, take it subperiosteally from the posterior angle as far anterior as possible, sparing the caudal neurovascular bundle, and save it for graft.",
+            "source_ids": [
+              "ao_4841477a90588746",
+              "ao_a4a09e6db243835b"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "deep_interval": [
+          {
+            "text": "Open pleura without injuring lung, spread the rib space, retract lung anteriorly (ideally with ipsilateral collapse), and open parietal pleura longitudinally over the discs (avascular hills) at the target and one level above and below. Isolate and ligate segmental vessels in the mid-body. Expose subperiosteally to the ALL while protecting the great vessels, and posteriorly to the rib heads.",
+            "source_ids": [
+              "ao_4841477a90588746",
+              "ao_a4a09e6db243835b"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "layers": [
+          {
+            "text": "Skin, chest-wall muscle, rib or intercostal space, pleura, lung, parietal pleura over the spine, segmental vessels, then the vertebral body.",
+            "source_ids": [
+              "ao_4841477a90588746",
+              "ao_a4a09e6db243835b"
+            ]
+          }
+        ],
+        "structures_at_risk": [
+          {
+            "text": "Lung, intercostal neurovascular bundle, segmental vessels, and the great vessels at the ALL are at risk.",
+            "source_ids": [
+              "ao_4841477a90588746",
+              "ao_a4a09e6db243835b"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "danger_zones": [
+          {
+            "text": "Cutting the rib off the caudal neurovascular bundle, opening pleura into lung, and subperiosteal work without protecting the great vessels are the danger zones.",
+            "source_ids": [
+              "ao_4841477a90588746",
+              "ao_a4a09e6db243835b"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "retraction_hazards": [
+          {
+            "text": "Use a table-mounted system to retract lung and vessels gently rather than levering on the aorta.",
+            "source_ids": [
+              "ao_4841477a90588746",
+              "ao_a4a09e6db243835b"
+            ]
+          }
+        ],
+        "exposure": [
+          {
+            "text": "Shows T3–L1/2 for anterior trauma or metastatic decompression and reconstruction.",
+            "source_ids": [
+              "ao_4841477a90588746",
+              "ao_a4a09e6db243835b"
+            ]
+          }
+        ],
+        "limitations": [
+          {
+            "text": "Requires chest entry and preferably single-lung ventilation. Radiated or revision metastatic closures may need plastic reconstruction.",
+            "source_ids": [
+              "ao_4841477a90588746",
+              "ao_a4a09e6db243835b"
+            ]
+          }
+        ],
+        "indications": [
+          {
+            "text": "Used for left-sided anterior access from T3 to L1/2 in trauma and metastatic disease.",
+            "source_ids": [
+              "ao_4841477a90588746",
+              "ao_a4a09e6db243835b"
+            ]
+          }
+        ],
+        "closure": [
+          {
+            "text": "Suture parietal pleura if possible. Radiated or revision metastatic wounds may need plastic-surgery reconstruction.",
+            "source_ids": [
+              "ao_4841477a90588746",
+              "ao_a4a09e6db243835b"
+            ]
+          }
+        ],
+        "complications": [
+          {
+            "text": "Complications include lung injury, intercostal-bundle injury, bleeding from segmental or great vessels, and wound breakdown after radiation.",
+            "source_ids": [
+              "ao_4841477a90588746",
+              "ao_a4a09e6db243835b"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "questions": [
+          {
+            "question": "At which rib level is a thoracotomy generally planned?",
+            "answer": "Two levels above the involved vertebra.",
+            "source_ids": [
+              "ao_4841477a90588746",
+              "ao_a4a09e6db243835b"
+            ]
+          },
+          {
+            "question": "Where are segmental vessels ligated?",
+            "answer": "In the mid-vertebral body, at the target and one level above and below.",
+            "source_ids": [
+              "ao_4841477a90588746",
+              "ao_a4a09e6db243835b"
+            ]
+          },
+          {
+            "question": "How is access above T5 modified because of the scapula?",
+            "answer": "The cut is made 2 cm below the scapular tip so the scapula can be released from subscapularis and lifted.",
+            "source_ids": [
+              "ao_4841477a90588746",
+              "ao_a4a09e6db243835b"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "approach_id": "spine_posterior_cervical",
+      "name": "Posterior midline approach to the subaxial cervical spine",
+      "aliases": [
+        "posterior cervical lateral-mass approach"
+      ],
+      "region": "subaxial-cervical",
+      "joint": "",
+      "bones": [
+        "cervical vertebrae"
+      ],
+      "corridor": "Midline cervical incision confirmed on a C-arm, dissection in the midline to the spinous processes, then subperiosteal elevation along spinous process, lamina, and lateral mass",
+      "sources": [
+        {
+          "source_id": "ao_092891ab43b304f4",
+          "provider": "AO Surgery Reference",
+          "title": "Posterior Approach To The Cervical Spine",
+          "url": "https://surgeryreference.aofoundation.org/spine/trauma/subaxial-cervical/approach/posterior-approach-to-the-cervical-spine",
+          "source_page_id": "ao_092891ab43b304f4"
+        },
+        {
+          "source_id": "ao_6aa374029d37c69d",
+          "provider": "AO Surgery Reference",
+          "title": "Posterior Access To The Cervical Spine",
+          "url": "https://surgeryreference.aofoundation.org/spine/tumors/metastatic-tumors/approach/posterior-access-to-the-cervical-spine",
+          "source_page_id": "ao_6aa374029d37c69d"
+        },
+        {
+          "source_id": "ao_11cc1f3a9baf6dc1",
+          "provider": "AO Surgery Reference",
+          "title": "Posterior Access To The Cervical Spine C3 To C7",
+          "url": "https://surgeryreference.aofoundation.org/spine/tumors/primary-tumors/approach/posterior-access-to-the-cervical-spine-c3-to-c7",
+          "source_page_id": "ao_11cc1f3a9baf6dc1"
+        }
+      ],
+      "procedure_applications": [
+        {
+          "procedure_id": "cervical_spine_orif",
+          "relationship": "primary_option",
+          "condition": "A subaxial cervical injury or tumor is instrumented from a posterior midline window"
+        }
+      ],
+      "sections": {
+        "positioning": [
+          {
+            "text": "Position so a C-arm can mark the exact midline segment before incision.",
+            "source_ids": [
+              "ao_092891ab43b304f4",
+              "ao_6aa374029d37c69d"
+            ]
+          }
+        ],
+        "surface_landmarks": [
+          {
+            "text": "Mark the midline over the involved segment after C-arm localization.",
+            "source_ids": [
+              "ao_092891ab43b304f4",
+              "ao_6aa374029d37c69d"
+            ]
+          }
+        ],
+        "incision": [
+          {
+            "text": "Infiltrate with 1:500,000 epinephrine if desired and make a midline cut centered on the marked segment.",
+            "source_ids": [
+              "ao_092891ab43b304f4",
+              "ao_6aa374029d37c69d"
+            ]
+          }
+        ],
+        "superficial_interval": [
+          {
+            "text": "Stay strictly in the midline through fat and fascia to the spinous-process tips to limit bleeding. Confirm the level on fluoroscopy as soon as bone is visible, before any further dissection.",
+            "source_ids": [
+              "ao_092891ab43b304f4",
+              "ao_6aa374029d37c69d"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "deep_interval": [
+          {
+            "text": "Elevate paraspinal muscle subperiosteally with a Cobb along the spinous processes, laminae, and lateral masses bilaterally. If tumor invades the lamina, do not use a Cobb blindly. Spare proximal and distal facet capsules that are not to be fused.",
+            "source_ids": [
+              "ao_092891ab43b304f4",
+              "ao_6aa374029d37c69d"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "layers": [
+          {
+            "text": "Skin, midline fascia, spinous processes, lamina, then lateral masses.",
+            "source_ids": [
+              "ao_092891ab43b304f4",
+              "ao_6aa374029d37c69d"
+            ]
+          }
+        ],
+        "structures_at_risk": [
+          {
+            "text": "Unintended facet capsules at the ends of the exposure, and neural structures under a tumor-involved or deficient lamina, are at risk.",
+            "source_ids": [
+              "ao_092891ab43b304f4",
+              "ao_6aa374029d37c69d"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "danger_zones": [
+          {
+            "text": "Continuing dissection before the level is confirmed on fluoroscopy, and Cobb elevation through a tumor-involved lamina, are the danger zones.",
+            "source_ids": [
+              "ao_092891ab43b304f4",
+              "ao_6aa374029d37c69d"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "retraction_hazards": [
+          {
+            "text": "Close fascia only after approximating muscle, or a dead space is left.",
+            "source_ids": [
+              "ao_092891ab43b304f4",
+              "ao_6aa374029d37c69d"
+            ]
+          }
+        ],
+        "exposure": [
+          {
+            "text": "Shows the posterior subaxial cervical elements and lateral masses for trauma or metastatic work.",
+            "source_ids": [
+              "ao_092891ab43b304f4",
+              "ao_6aa374029d37c69d"
+            ]
+          }
+        ],
+        "limitations": [
+          {
+            "text": "Does not replace an anterior decompression when one is required.",
+            "source_ids": [
+              "ao_092891ab43b304f4",
+              "ao_6aa374029d37c69d"
+            ]
+          }
+        ],
+        "indications": [
+          {
+            "text": "Used for posterior subaxial cervical access in trauma and metastatic disease.",
+            "source_ids": [
+              "ao_092891ab43b304f4",
+              "ao_6aa374029d37c69d"
+            ]
+          }
+        ],
+        "closure": [
+          {
+            "text": "Approximate muscle, then close fascia, place a drain through a separate stab, and close fat and skin. Vancomycin powder may be used. Radiated or revision metastatic wounds should be reconstructed by plastic surgery.",
+            "source_ids": [
+              "ao_092891ab43b304f4",
+              "ao_6aa374029d37c69d"
+            ]
+          }
+        ],
+        "complications": [
+          {
+            "text": "Complications include wrong-level exposure, unintended adjacent-facet fusion, dead-space seroma if fascia is closed without muscle approximation, and wound breakdown after radiation.",
+            "source_ids": [
+              "ao_092891ab43b304f4",
+              "ao_6aa374029d37c69d"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "questions": [
+          {
+            "question": "When is the cervical level confirmed?",
+            "answer": "As soon as bony structures are visible, before any further dissection.",
+            "source_ids": [
+              "ao_092891ab43b304f4",
+              "ao_6aa374029d37c69d"
+            ]
+          },
+          {
+            "question": "To which landmarks is the deep dissection carried?",
+            "answer": "Along the spinous processes, laminae, and lateral masses bilaterally.",
+            "source_ids": [
+              "ao_092891ab43b304f4",
+              "ao_6aa374029d37c69d"
+            ]
+          },
+          {
+            "question": "Why approximate muscle before fascia?",
+            "answer": "Closing fascia alone leaves a dead space.",
+            "source_ids": [
+              "ao_092891ab43b304f4",
+              "ao_6aa374029d37c69d"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "approach_id": "spine_left_tl_junction",
+      "name": "Left-sided thoracolumbar-junction approach (T10–L2)",
+      "aliases": [
+        "thoracophrenicolumbotomy"
+      ],
+      "region": "thoracolumbar",
+      "joint": "",
+      "bones": [
+        "T10",
+        "T11",
+        "T12",
+        "L1",
+        "L2"
+      ],
+      "corridor": "Incision over the rib two levels above the target, chest-wall and abdominal-wall split, rib resection if needed, diaphragm taken down leaving a 1 cm cuff to the crus, combining pleural and retroperitoneal windows",
+      "sources": [
+        {
+          "source_id": "ao_e2105f926657b2fe",
+          "provider": "AO Surgery Reference",
+          "title": "Left Sided Thoracolumbar Junction Approach T10 L2",
+          "url": "https://surgeryreference.aofoundation.org/spine/trauma/thoracolumbar/approach/left-sided-thoracolumbar-junction-approach-t10-l2",
+          "source_page_id": "ao_e2105f926657b2fe"
+        },
+        {
+          "source_id": "ao_33dc5a9c60a79493",
+          "provider": "AO Surgery Reference",
+          "title": "Left Sided Thoracolumbar Junction Approach T10 L2",
+          "url": "https://surgeryreference.aofoundation.org/spine/tumors/metastatic-tumors/approach/left-sided-thoracolumbar-junction-approach-t10-l2",
+          "source_page_id": "ao_33dc5a9c60a79493"
+        },
+        {
+          "source_id": "ao_7c21fdaaabc5109a",
+          "provider": "AO Surgery Reference",
+          "title": "Anterior Approach To The Lumbar Spine",
+          "url": "https://surgeryreference.aofoundation.org/spine/deformities/adolescent-idiopathic-scoliosis/approach/anterior-approach-to-the-lumbar-spine",
+          "source_page_id": "ao_7c21fdaaabc5109a"
+        }
+      ],
+      "procedure_applications": [
+        {
+          "procedure_id": "thoracolumbar_fracture_orif",
+          "relationship": "conditional_option",
+          "condition": "Extensive T10–L2 trauma or tumor work needs a combined chest and retroperitoneal window that a simple thoracotomy or lumbotomy cannot provide"
+        }
+      ],
+      "sections": {
+        "positioning": [
+          {
+            "text": "Position so the rib two levels above the target can be marked and confirmed with an image intensifier.",
+            "source_ids": [
+              "ao_e2105f926657b2fe",
+              "ao_33dc5a9c60a79493"
+            ]
+          }
+        ],
+        "surface_landmarks": [
+          {
+            "text": "Mark the chosen rib (usually the one attached two levels above the involved vertebra), the costal cartilage, and the abdominal wall distal to it.",
+            "source_ids": [
+              "ao_e2105f926657b2fe",
+              "ao_33dc5a9c60a79493"
+            ]
+          }
+        ],
+        "incision": [
+          {
+            "text": "Center the cut over the involved vertebra on the selected rib. This combined window is only needed for extensive junctional work and can be replaced by a left thoracotomy or a lumbotomy when the level allows.",
+            "source_ids": [
+              "ao_e2105f926657b2fe",
+              "ao_33dc5a9c60a79493"
+            ]
+          }
+        ],
+        "superficial_interval": [
+          {
+            "text": "Incise chest-wall muscle over the rib and the abdominal muscles distal to the costal cartilage. Retract latissimus dorsi posteriorly rather than cutting it. Expose the rib subperiosteally and resect it if needed, sparing the caudal neurovascular bundle.",
+            "source_ids": [
+              "ao_e2105f926657b2fe",
+              "ao_33dc5a9c60a79493"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "deep_interval": [
+          {
+            "text": "Open parietal pleura posteriorly to the lung. Anteriorly split the three abdominal-wall layers into the retroperitoneum. Sweep peritoneum off the undersurface of the diaphragm and take the diaphragm down to the crus, leaving a 1 cm peripheral cuff and marking sutures every 3–4 cm for reattachment.",
+            "source_ids": [
+              "ao_e2105f926657b2fe",
+              "ao_33dc5a9c60a79493"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "layers": [
+          {
+            "text": "Skin, chest and abdominal wall, rib, pleura and retroperitoneum, diaphragm with a repair cuff, then the T10–L2 vertebral bodies.",
+            "source_ids": [
+              "ao_e2105f926657b2fe",
+              "ao_33dc5a9c60a79493"
+            ]
+          }
+        ],
+        "structures_at_risk": [
+          {
+            "text": "The intercostal neurovascular bundle, lung, peritoneum, and the diaphragm (if no cuff is left for repair) are at risk.",
+            "source_ids": [
+              "ao_e2105f926657b2fe",
+              "ao_33dc5a9c60a79493"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "danger_zones": [
+          {
+            "text": "Taking the diaphragm off flush with the chest wall without a 1 cm cuff prevents secure reattachment.",
+            "source_ids": [
+              "ao_e2105f926657b2fe",
+              "ao_33dc5a9c60a79493"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "retraction_hazards": [
+          {
+            "text": "Sweep rather than tear peritoneum off the diaphragm, and retract latissimus instead of dividing it.",
+            "source_ids": [
+              "ao_e2105f926657b2fe",
+              "ao_33dc5a9c60a79493"
+            ]
+          }
+        ],
+        "exposure": [
+          {
+            "text": "Combines a pleural and a retroperitoneal window across T10–L2.",
+            "source_ids": [
+              "ao_e2105f926657b2fe",
+              "ao_33dc5a9c60a79493"
+            ]
+          }
+        ],
+        "limitations": [
+          {
+            "text": "Reserved for extensive junctional work; a simpler left thoracotomy or lumbotomy should replace it when the level allows.",
+            "source_ids": [
+              "ao_e2105f926657b2fe",
+              "ao_33dc5a9c60a79493"
+            ]
+          }
+        ],
+        "indications": [
+          {
+            "text": "Used when extensive T10–L2 trauma or tumor work needs both chest and retroperitoneal access.",
+            "source_ids": [
+              "ao_e2105f926657b2fe",
+              "ao_33dc5a9c60a79493"
+            ]
+          }
+        ],
+        "closure": [
+          {
+            "text": "Reattach the diaphragm to the 1 cm cuff using the marking sutures, then close the chest and abdominal walls.",
+            "source_ids": [
+              "ao_e2105f926657b2fe",
+              "ao_33dc5a9c60a79493"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "complications": [
+          {
+            "text": "Complications include diaphragmatic repair failure, peritoneal injury, lung injury, and intercostal-bundle injury.",
+            "source_ids": [
+              "ao_e2105f926657b2fe",
+              "ao_33dc5a9c60a79493"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "questions": [
+          {
+            "question": "Which rib is usually chosen?",
+            "answer": "The rib attached to the vertebra two levels above the involved level.",
+            "source_ids": [
+              "ao_e2105f926657b2fe",
+              "ao_33dc5a9c60a79493"
+            ]
+          },
+          {
+            "question": "How much diaphragm cuff is left for repair?",
+            "answer": "A 1 cm peripheral margin, with marking sutures every 3–4 cm.",
+            "source_ids": [
+              "ao_e2105f926657b2fe",
+              "ao_33dc5a9c60a79493"
+            ]
+          },
+          {
+            "question": "When can this combined window be avoided?",
+            "answer": "When a left thoracotomy or a lumbotomy alone reaches the involved level.",
+            "source_ids": [
+              "ao_e2105f926657b2fe",
+              "ao_33dc5a9c60a79493"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "approach_id": "spine_right_thoracotomy_t3_t10",
+      "name": "Right-sided thoracotomy (T3–T10)",
+      "aliases": [
+        "right thoracic approach to the spine"
+      ],
+      "region": "thoracolumbar",
+      "joint": "",
+      "bones": [
+        "thoracic vertebrae"
+      ],
+      "corridor": "Mirror of the left thoracotomy: oblique cut around the scapular angle two levels above the target, rib exposure or resection, pleural entry, lung retracted anteriorly",
+      "sources": [
+        {
+          "source_id": "ao_6c7131bc117e21d2",
+          "provider": "AO Surgery Reference",
+          "title": "Right Sided Thoracotomy T3 T10",
+          "url": "https://surgeryreference.aofoundation.org/spine/trauma/thoracolumbar/approach/right-sided-thoracotomy-t3-t10",
+          "source_page_id": "ao_6c7131bc117e21d2"
+        },
+        {
+          "source_id": "ao_3e11b6b2809b4ca5",
+          "provider": "AO Surgery Reference",
+          "title": "Right Sided Thoracotomy T3 T10",
+          "url": "https://surgeryreference.aofoundation.org/spine/tumors/metastatic-tumors/approach/right-sided-thoracotomy-t3-t10",
+          "source_page_id": "ao_3e11b6b2809b4ca5"
+        },
+        {
+          "source_id": "ao_4841477a90588746",
+          "provider": "AO Surgery Reference",
+          "title": "Left Sided Thoracotomy T3 L12",
+          "url": "https://surgeryreference.aofoundation.org/spine/trauma/thoracolumbar/approach/left-sided-thoracotomy-t3-l12",
+          "source_page_id": "ao_4841477a90588746"
+        }
+      ],
+      "procedure_applications": [
+        {
+          "procedure_id": "thoracolumbar_fracture_orif",
+          "relationship": "primary_option",
+          "condition": "An anterior thoracic reconstruction from T3 to T10 is done through a right chest"
+        }
+      ],
+      "sections": {
+        "positioning": [
+          {
+            "text": "Position for a right chest approach with single-lung ventilation available and fluoroscopy to confirm the level.",
+            "source_ids": [
+              "ao_6c7131bc117e21d2",
+              "ao_4841477a90588746"
+            ]
+          }
+        ],
+        "surface_landmarks": [
+          {
+            "text": "Mark the scapular angle and the rib two levels above the target. Above T5, place the cut 2 cm below the scapular tip so the scapula can be released and lifted.",
+            "source_ids": [
+              "ao_6c7131bc117e21d2",
+              "ao_4841477a90588746"
+            ]
+          }
+        ],
+        "incision": [
+          {
+            "text": "Incise from posterosuperior around the scapular angle, sloping obliquely anteroinferior, high enough for the level above and low enough for the level below.",
+            "source_ids": [
+              "ao_6c7131bc117e21d2",
+              "ao_4841477a90588746"
+            ]
+          }
+        ],
+        "superficial_interval": [
+          {
+            "text": "Incise skin, fat, and muscle to the rib. If a rib is removed, take it subperiosteally while sparing the caudal neurovascular bundle and save it for graft.",
+            "source_ids": [
+              "ao_6c7131bc117e21d2",
+              "ao_4841477a90588746"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "deep_interval": [
+          {
+            "text": "Open pleura without injuring lung, spread the rib space, retract lung anteriorly with ipsilateral collapse if possible, and use a table-mounted retractor for lung and vessels. The remaining pleural and segmental-vessel steps match the left thoracotomy.",
+            "source_ids": [
+              "ao_6c7131bc117e21d2",
+              "ao_4841477a90588746"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "layers": [
+          {
+            "text": "Skin, chest-wall muscle, rib or intercostal space, pleura, lung, then the right side of the thoracic vertebral column.",
+            "source_ids": [
+              "ao_6c7131bc117e21d2",
+              "ao_4841477a90588746"
+            ]
+          }
+        ],
+        "structures_at_risk": [
+          {
+            "text": "Lung, intercostal neurovascular bundle, and mediastinal vessels are at risk, as on the left.",
+            "source_ids": [
+              "ao_6c7131bc117e21d2",
+              "ao_4841477a90588746"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "danger_zones": [
+          {
+            "text": "Rib harvest off the caudal bundle and pleural entry into lung are the local danger zones.",
+            "source_ids": [
+              "ao_6c7131bc117e21d2",
+              "ao_4841477a90588746"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "retraction_hazards": [
+          {
+            "text": "Retract lung and vessels with a table-mounted system rather than levering on mediastinal structures.",
+            "source_ids": [
+              "ao_6c7131bc117e21d2",
+              "ao_4841477a90588746"
+            ]
+          }
+        ],
+        "exposure": [
+          {
+            "text": "Shows T3–T10 from the right chest.",
+            "source_ids": [
+              "ao_6c7131bc117e21d2"
+            ]
+          }
+        ],
+        "limitations": [
+          {
+            "text": "The published right-sided window is described to T10, not through the diaphragm to L1/2.",
+            "source_ids": [
+              "ao_6c7131bc117e21d2"
+            ]
+          }
+        ],
+        "indications": [
+          {
+            "text": "Used for right-sided anterior thoracic access from T3 to T10.",
+            "source_ids": [
+              "ao_6c7131bc117e21d2"
+            ]
+          }
+        ],
+        "closure": [
+          {
+            "text": "Close the chest wall after lung re-expansion; pleural repair follows the same principles as the left thoracotomy.",
+            "source_ids": [
+              "ao_6c7131bc117e21d2",
+              "ao_4841477a90588746"
+            ]
+          }
+        ],
+        "complications": [
+          {
+            "text": "Complications include lung injury, intercostal-bundle injury, and mediastinal vascular injury.",
+            "source_ids": [
+              "ao_6c7131bc117e21d2",
+              "ao_4841477a90588746"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "questions": [
+          {
+            "question": "How does the right thoracotomy incision compare with the left?",
+            "answer": "It is the same oblique scapular-angle cut, planned two levels above the target, with the same above-T5 scapular modification.",
+            "source_ids": [
+              "ao_6c7131bc117e21d2",
+              "ao_4841477a90588746"
+            ]
+          },
+          {
+            "question": "To which distal level is the right thoracotomy described?",
+            "answer": "T10.",
+            "source_ids": [
+              "ao_6c7131bc117e21d2"
+            ]
+          },
+          {
+            "question": "What ventilation setup is preferred?",
+            "answer": "Single-lung ventilation with selective collapse of the ipsilateral lung.",
+            "source_ids": [
+              "ao_6c7131bc117e21d2",
+              "ao_4841477a90588746"
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

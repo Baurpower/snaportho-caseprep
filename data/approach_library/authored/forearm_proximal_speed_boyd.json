@@ -1,0 +1,346 @@
+{
+  "schema_version": "brobot_approach_packet_v1",
+  "approach_id": "forearm_proximal_speed_boyd",
+  "name": "Speed and Boyd's approach to the proximal forearm",
+  "aliases": [
+    "Boyd approach to the proximal radius and ulna",
+    "posterior approach for Monteggia injuries"
+  ],
+  "region": "forearm-shaft",
+  "joint": "elbow",
+  "bones": [
+    "ulna",
+    "radius"
+  ],
+  "corridor": "Posterior interval along the subcutaneous border of the proximal ulna, reflecting anconeus and detaching the supinator from its ulnar origin to reach the radial head through a single posterior exposure",
+  "positioning": [
+    {
+      "text": "Position with the arm across the chest or on a support so the posterior elbow and subcutaneous border of the ulna are accessible; forearm rotation is used to protect the posterior interosseous nerve during supinator dissection.",
+      "claim_ids": [
+        "forearm_proximal_speed_boyd_positioning_01"
+      ]
+    }
+  ],
+  "setup": [],
+  "surface_landmarks": [
+    {
+      "text": "Mark the tip of the olecranon, the lateral epicondyle, the triceps tendon, and the subcutaneous border of the ulna.",
+      "claim_ids": [
+        "forearm_proximal_speed_boyd_surface_landmarks_01"
+      ]
+    }
+  ],
+  "incision": [
+    {
+      "text": "Begin the incision proximal to the elbow and lateral to the triceps tendon, curve it over the lateral aspect of the olecranon tip, and continue distally along the subcutaneous border of the ulna.",
+      "claim_ids": [
+        "forearm_proximal_speed_boyd_incision_01"
+      ]
+    }
+  ],
+  "superficial_interval": [
+    {
+      "text": "Incise the deep fascia to reach the lateral margin of the ulna in the interval between the anconeus and flexor carpi ulnaris.",
+      "claim_ids": [
+        "forearm_proximal_speed_boyd_superficial_interval_01"
+      ]
+    }
+  ],
+  "deep_interval": [
+    {
+      "text": "Incise the ulnar insertion of the anconeus and reflect it anterolaterally, detach the supinator near its ulnar origin, and free both muscles from the posterior interosseous membrane to expose the posterior capsule over the radial head.",
+      "claim_ids": [
+        "forearm_proximal_speed_boyd_deep_interval_01"
+      ]
+    }
+  ],
+  "layers": [
+    {
+      "text": "Skin, subcutaneous tissue, deep fascia, the anconeus and flexor carpi ulnaris interval, the supinator, and the posterior elbow capsule.",
+      "claim_ids": [
+        "forearm_proximal_speed_boyd_layers_01"
+      ]
+    }
+  ],
+  "structures_encountered": [],
+  "structures_at_risk": [
+    {
+      "text": "The posterior interosseous nerve, which lies within the supinator, is the key structure at risk and must be protected while the supinator is detached and retracted.",
+      "claim_ids": [
+        "forearm_proximal_speed_boyd_structures_at_risk_01"
+      ]
+    }
+  ],
+  "danger_zones": [
+    {
+      "text": "The supinator mass over the proximal radius is the danger zone for the posterior interosseous nerve; keep dissection subperiosteal and identify the nerve before forceful retraction.",
+      "claim_ids": [
+        "forearm_proximal_speed_boyd_danger_zones_01"
+      ]
+    }
+  ],
+  "retraction_hazards": [
+    {
+      "text": "Avoid vigorous retraction of the detached supinator, which can stretch the posterior interosseous nerve.",
+      "claim_ids": [
+        "forearm_proximal_speed_boyd_retraction_hazards_01"
+      ]
+    }
+  ],
+  "exposure": [
+    {
+      "text": "Exposes the proximal ulna and the radial head and neck through a single posterior incision.",
+      "claim_ids": [
+        "forearm_proximal_speed_boyd_exposure_01"
+      ]
+    }
+  ],
+  "limitations": [
+    {
+      "text": "As with any combined exposure of both forearm bones, there is an increased risk of radioulnar synostosis, which limits routine use.",
+      "claim_ids": [
+        "forearm_proximal_speed_boyd_limitations_01"
+      ]
+    }
+  ],
+  "extensions": [],
+  "indications": [
+    {
+      "text": "Indicated for proximal ulnar shaft fractures and radial-head disorders, particularly Monteggia injuries with persistent radial-head displacement after anatomical ulnar fixation.",
+      "claim_ids": [
+        "forearm_proximal_speed_boyd_indications_01"
+      ]
+    }
+  ],
+  "relative_contraindications": [],
+  "implant_implications": [],
+  "fluoroscopy_implications": [],
+  "closure": [
+    {
+      "text": "Reattach or lay back the anconeus and supinator, close the deep fascia and subcutaneous tissue in layers, and close skin, avoiding tissue interposition that could bridge to the radius.",
+      "claim_ids": [
+        "forearm_proximal_speed_boyd_closure_01"
+      ]
+    }
+  ],
+  "complications": [
+    {
+      "text": "Principal complications are posterior interosseous nerve palsy and radioulnar synostosis; malreduction of the radial head may also occur.",
+      "claim_ids": [
+        "forearm_proximal_speed_boyd_complications_01"
+      ]
+    }
+  ],
+  "bailouts": [],
+  "procedure_applications": [
+    {
+      "procedure_id": "monteggia_fracture_orif",
+      "relationship": "primary_option",
+      "condition": "A Monteggia injury needs exposure of the proximal ulna and radial head, especially with persistent radial-head displacement after ulnar fixation"
+    }
+  ],
+  "questions": [
+    {
+      "question": "Through which interval is the proximal ulna reached in Speed and Boyd's approach?",
+      "answer": "Along the subcutaneous border of the ulna, between the anconeus and flexor carpi ulnaris.",
+      "claim_ids": [
+        "forearm_proximal_speed_boyd_questions_01"
+      ]
+    },
+    {
+      "question": "What is the main long-term drawback of a combined posterior forearm exposure?",
+      "answer": "Increased risk of radioulnar synostosis.",
+      "claim_ids": [
+        "forearm_proximal_speed_boyd_questions_02"
+      ]
+    },
+    {
+      "question": "Why is Speed and Boyd's approach useful in a Monteggia injury?",
+      "answer": "It exposes both the proximal ulna and the radial head, allowing reduction of a radial head that remains displaced after ulnar fixation.",
+      "claim_ids": [
+        "forearm_proximal_speed_boyd_questions_03"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "forearm_proximal_speed_boyd_positioning_01",
+      "text": "Position with the arm across the chest or on a support so the posterior elbow and subcutaneous border of the ulna are accessible; forearm rotation is used to protect the posterior interosseous nerve during supinator dissection.",
+      "source_ids": [
+        "ao_43a73c40a5d31f67"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "forearm_proximal_speed_boyd_surface_landmarks_01",
+      "text": "Mark the tip of the olecranon, the lateral epicondyle, the triceps tendon, and the subcutaneous border of the ulna.",
+      "source_ids": [
+        "ao_43a73c40a5d31f67"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "forearm_proximal_speed_boyd_incision_01",
+      "text": "Begin the incision proximal to the elbow and lateral to the triceps tendon, curve it over the lateral aspect of the olecranon tip, and continue distally along the subcutaneous border of the ulna.",
+      "source_ids": [
+        "ao_43a73c40a5d31f67"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "forearm_proximal_speed_boyd_superficial_interval_01",
+      "text": "Incise the deep fascia to reach the lateral margin of the ulna in the interval between the anconeus and flexor carpi ulnaris.",
+      "source_ids": [
+        "ao_43a73c40a5d31f67"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "forearm_proximal_speed_boyd_deep_interval_01",
+      "text": "Incise the ulnar insertion of the anconeus and reflect it anterolaterally, detach the supinator near its ulnar origin, and free both muscles from the posterior interosseous membrane to expose the posterior capsule over the radial head.",
+      "source_ids": [
+        "ao_43a73c40a5d31f67",
+        "ao_5ec4eb68cf7740a9"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "forearm_proximal_speed_boyd_layers_01",
+      "text": "Skin, subcutaneous tissue, deep fascia, the anconeus and flexor carpi ulnaris interval, the supinator, and the posterior elbow capsule.",
+      "source_ids": [
+        "ao_43a73c40a5d31f67"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "forearm_proximal_speed_boyd_structures_at_risk_01",
+      "text": "The posterior interosseous nerve, which lies within the supinator, is the key structure at risk and must be protected while the supinator is detached and retracted.",
+      "source_ids": [
+        "ao_43a73c40a5d31f67",
+        "ao_5ec4eb68cf7740a9"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "forearm_proximal_speed_boyd_danger_zones_01",
+      "text": "The supinator mass over the proximal radius is the danger zone for the posterior interosseous nerve; keep dissection subperiosteal and identify the nerve before forceful retraction.",
+      "source_ids": [
+        "ao_43a73c40a5d31f67",
+        "ao_5ec4eb68cf7740a9"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "forearm_proximal_speed_boyd_retraction_hazards_01",
+      "text": "Avoid vigorous retraction of the detached supinator, which can stretch the posterior interosseous nerve.",
+      "source_ids": [
+        "ao_43a73c40a5d31f67",
+        "ao_5ec4eb68cf7740a9"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "forearm_proximal_speed_boyd_exposure_01",
+      "text": "Exposes the proximal ulna and the radial head and neck through a single posterior incision.",
+      "source_ids": [
+        "ao_43a73c40a5d31f67"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "forearm_proximal_speed_boyd_limitations_01",
+      "text": "As with any combined exposure of both forearm bones, there is an increased risk of radioulnar synostosis, which limits routine use.",
+      "source_ids": [
+        "ao_43a73c40a5d31f67",
+        "ao_5ec4eb68cf7740a9"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "forearm_proximal_speed_boyd_indications_01",
+      "text": "Indicated for proximal ulnar shaft fractures and radial-head disorders, particularly Monteggia injuries with persistent radial-head displacement after anatomical ulnar fixation.",
+      "source_ids": [
+        "ao_43a73c40a5d31f67"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "forearm_proximal_speed_boyd_closure_01",
+      "text": "Reattach or lay back the anconeus and supinator, close the deep fascia and subcutaneous tissue in layers, and close skin, avoiding tissue interposition that could bridge to the radius.",
+      "source_ids": [
+        "ao_43a73c40a5d31f67",
+        "ao_5ec4eb68cf7740a9"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "forearm_proximal_speed_boyd_complications_01",
+      "text": "Principal complications are posterior interosseous nerve palsy and radioulnar synostosis; malreduction of the radial head may also occur.",
+      "source_ids": [
+        "ao_43a73c40a5d31f67",
+        "ao_5ec4eb68cf7740a9"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "forearm_proximal_speed_boyd_questions_01",
+      "text": "Through which interval is the proximal ulna reached in Speed and Boyd's approach?",
+      "source_ids": [
+        "ao_43a73c40a5d31f67"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "forearm_proximal_speed_boyd_questions_02",
+      "text": "What is the main long-term drawback of a combined posterior forearm exposure?",
+      "source_ids": [
+        "ao_43a73c40a5d31f67",
+        "ao_5ec4eb68cf7740a9"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "forearm_proximal_speed_boyd_questions_03",
+      "text": "Why is Speed and Boyd's approach useful in a Monteggia injury?",
+      "source_ids": [
+        "ao_43a73c40a5d31f67"
+      ],
+      "risk_level": "medium"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "ao_43a73c40a5d31f67",
+      "provider": "AO Surgery Reference",
+      "title": "Speed and Boyd's approach to the forearm shaft",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/forearm-shaft/approach/speed-and-boyds-approach",
+      "source_page_id": "ao_43a73c40a5d31f67"
+    },
+    {
+      "source_id": "ao_5ec4eb68cf7740a9",
+      "provider": "AO Surgery Reference",
+      "title": "Combined posterior approach to radius and ulna",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/forearm-shaft/approach/combined-posterior-approach-to-radius-and-ulna",
+      "source_page_id": "ao_5ec4eb68cf7740a9"
+    }
+  ],
+  "content_status": "agent_review_pending",
+  "review": {
+    "status": "agent_review_pending",
+    "required_roles": [
+      "adversarial_safety_reviewer",
+      "approach_anatomy_reviewer",
+      "educational_value_reviewer",
+      "evidence_reviewer",
+      "operative_exposure_reviewer",
+      "procedure_applicability_reviewer"
+    ],
+    "completed_roles": []
+  },
+  "resolved_contradiction_keys": [],
+  "authoring_provenance": {
+    "method": "local_codex_curated",
+    "definition_file": "data/approach_library/curated/forearm_shaft_batch001_v1.json",
+    "api_used": false
+  }
+}

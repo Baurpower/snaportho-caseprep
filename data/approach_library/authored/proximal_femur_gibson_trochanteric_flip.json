@@ -1,0 +1,360 @@
+{
+  "schema_version": "brobot_approach_packet_v1",
+  "approach_id": "proximal_femur_gibson_trochanteric_flip",
+  "name": "Trochanteric flip osteotomy through the Gibson interval",
+  "aliases": [
+    "modified Gibson approach with digastric trochanteric osteotomy",
+    "adult surgical hip dislocation via Gibson interval"
+  ],
+  "region": "proximal-femur",
+  "joint": "hip",
+  "bones": [
+    "proximal femur",
+    "acetabulum"
+  ],
+  "corridor": "Gibson interval anterior to gluteus maximus with a digastric trochanteric osteotomy, Z-capsulotomy, and optional controlled dislocation for the femoral head and superior acetabulum",
+  "positioning": [
+    {
+      "text": "Position lateral; hip flexion and rotation are required for anterior exposure, and a sterile pouch is needed if the hip is dislocated in a figure-of-four position.",
+      "claim_ids": [
+        "proximal_femur_gibson_trochanteric_flip_positioning_01"
+      ]
+    }
+  ],
+  "setup": [],
+  "surface_landmarks": [
+    {
+      "text": "Mark the iliac crest, greater-trochanter tip, vastus ridge, and femoral shaft.",
+      "claim_ids": [
+        "proximal_femur_gibson_trochanteric_flip_surface_landmarks_01"
+      ]
+    }
+  ],
+  "incision": [
+    {
+      "text": "Start halfway between the iliac crest and the greater-trochanter tip in line with the femoral shaft and extend 5 cm below the vastus ridge, farther in larger patients.",
+      "claim_ids": [
+        "proximal_femur_gibson_trochanteric_flip_incision_01"
+      ]
+    }
+  ],
+  "superficial_interval": [
+    {
+      "text": "Develop the Gibson interval between gluteus maximus and medius, split the iliotibial tract distally, and mobilize gluteus medius fascia with the gluteus maximus belly to preserve superior gluteal arterial supply; a portion of the gluteus maximus tendon may be released in larger patients.",
+      "claim_ids": [
+        "proximal_femur_gibson_trochanteric_flip_superficial_interval_01"
+      ]
+    }
+  ],
+  "deep_interval": [
+    {
+      "text": "Identify the sciatic nerve posterior to quadratus femoris, develop the piriformis–gluteus minimus interval while protecting minimus (it carries circumflex vessels), osteotomize from the trochanter tip to the vastus ridge, evert the digastric fragment with 5–8 cm of extra-periosteal vastus lateralis, and make a Z-capsulotomy that stays anterior to the lesser trochanter.",
+      "claim_ids": [
+        "proximal_femur_gibson_trochanteric_flip_deep_interval_01"
+      ]
+    }
+  ],
+  "layers": [
+    {
+      "text": "Skin, subcutaneous fat, Gibson fascia and iliotibial tract, trochanteric fragment with abductors and vastus lateralis, short external rotators, and hip capsule.",
+      "claim_ids": [
+        "proximal_femur_gibson_trochanteric_flip_layers_01"
+      ]
+    }
+  ],
+  "structures_encountered": [],
+  "structures_at_risk": [
+    {
+      "text": "The medial femoral circumflex artery and retinacular vessels, the sciatic nerve, the superior gluteal neurovascular bundle at the greater sciatic notch, and a posterior-wall capsular pedicle are at risk.",
+      "claim_ids": [
+        "proximal_femur_gibson_trochanteric_flip_structures_at_risk_01"
+      ]
+    }
+  ],
+  "danger_zones": [
+    {
+      "text": "An excessively thick osteotomy threatens retinacular vessels; a capsulotomy that strays posterior to the lesser trochanter threatens the medial femoral circumflex artery; and a bifid or piriformis-penetrating sciatic nerve may need piriformis release 1 cm posterior to the trochanter before dislocation.",
+      "claim_ids": [
+        "proximal_femur_gibson_trochanteric_flip_danger_zones_01"
+      ]
+    }
+  ],
+  "retraction_hazards": [
+    {
+      "text": "Keep the knee flexed 90° and the hip extended to reduce sciatic tension, and do not detach a posterior-wall fragment from its capsule.",
+      "claim_ids": [
+        "proximal_femur_gibson_trochanteric_flip_retraction_hazards_01"
+      ]
+    }
+  ],
+  "exposure": [
+    {
+      "text": "After controlled dislocation in a figure-of-four position, the entire femoral head and acetabulum can be seen; without dislocation the corridor still gives a hemicircumferential view from behind the piriformis around to the reflected rectus.",
+      "claim_ids": [
+        "proximal_femur_gibson_trochanteric_flip_exposure_01"
+      ]
+    }
+  ],
+  "limitations": [
+    {
+      "text": "The exposure depends on a correctly executed digastric osteotomy and on recognizing sciatic-nerve variants before dislocation.",
+      "claim_ids": [
+        "proximal_femur_gibson_trochanteric_flip_limitations_01"
+      ]
+    }
+  ],
+  "extensions": [],
+  "indications": [
+    {
+      "text": "Used when a digastric trochanteric flip and optional surgical dislocation are needed for direct access to the femoral head and the superior acetabulum, including selected posterior-wall patterns.",
+      "claim_ids": [
+        "proximal_femur_gibson_trochanteric_flip_indications_01"
+      ]
+    }
+  ],
+  "relative_contraindications": [],
+  "implant_implications": [],
+  "fluoroscopy_implications": [],
+  "closure": [
+    {
+      "text": "Close the capsule loosely to drain secondary hemarthrosis, reattach the trochanter with lag screws sized to bone density, repair vastus lateralis fascia and short rotators, repair the gluteus maximus tendon if released, and close the iliotibial tract.",
+      "claim_ids": [
+        "proximal_femur_gibson_trochanteric_flip_closure_01"
+      ]
+    }
+  ],
+  "complications": [
+    {
+      "text": "Complications include avascular necrosis from medial femoral circumflex or retinacular injury, sciatic-nerve palsy, trochanteric nonunion, and tension hemarthrosis if the capsule is closed tightly.",
+      "claim_ids": [
+        "proximal_femur_gibson_trochanteric_flip_complications_01"
+      ]
+    }
+  ],
+  "bailouts": [],
+  "procedure_applications": [
+    {
+      "procedure_id": "femoral_neck_fracture_orif",
+      "relationship": "conditional_option",
+      "condition": "An intracapsular or femoral-head injury needs direct head and superior acetabular access that a limited anterior window cannot provide"
+    }
+  ],
+  "questions": [
+    {
+      "question": "Where is the Gibson interval?",
+      "answer": "Anterior to gluteus maximus, between gluteus maximus and gluteus medius.",
+      "claim_ids": [
+        "proximal_femur_gibson_trochanteric_flip_questions_01"
+      ]
+    },
+    {
+      "question": "Why must the capsulotomy stay anterior to the lesser trochanter?",
+      "answer": "To avoid damaging the medial femoral circumflex artery.",
+      "claim_ids": [
+        "proximal_femur_gibson_trochanteric_flip_questions_02"
+      ]
+    },
+    {
+      "question": "How is sciatic-nerve tension reduced during the procedure?",
+      "answer": "Keep the knee flexed 90° and the hip extended.",
+      "claim_ids": [
+        "proximal_femur_gibson_trochanteric_flip_questions_03"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "proximal_femur_gibson_trochanteric_flip_positioning_01",
+      "text": "Position lateral; hip flexion and rotation are required for anterior exposure, and a sterile pouch is needed if the hip is dislocated in a figure-of-four position.",
+      "source_ids": [
+        "ao_f6eb9412764b5bf2",
+        "ao_235b0fb9748c5272"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "proximal_femur_gibson_trochanteric_flip_surface_landmarks_01",
+      "text": "Mark the iliac crest, greater-trochanter tip, vastus ridge, and femoral shaft.",
+      "source_ids": [
+        "ao_f6eb9412764b5bf2",
+        "ao_235b0fb9748c5272"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "proximal_femur_gibson_trochanteric_flip_incision_01",
+      "text": "Start halfway between the iliac crest and the greater-trochanter tip in line with the femoral shaft and extend 5 cm below the vastus ridge, farther in larger patients.",
+      "source_ids": [
+        "ao_f6eb9412764b5bf2"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "proximal_femur_gibson_trochanteric_flip_superficial_interval_01",
+      "text": "Develop the Gibson interval between gluteus maximus and medius, split the iliotibial tract distally, and mobilize gluteus medius fascia with the gluteus maximus belly to preserve superior gluteal arterial supply; a portion of the gluteus maximus tendon may be released in larger patients.",
+      "source_ids": [
+        "ao_f6eb9412764b5bf2",
+        "ao_235b0fb9748c5272"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "proximal_femur_gibson_trochanteric_flip_deep_interval_01",
+      "text": "Identify the sciatic nerve posterior to quadratus femoris, develop the piriformis–gluteus minimus interval while protecting minimus (it carries circumflex vessels), osteotomize from the trochanter tip to the vastus ridge, evert the digastric fragment with 5–8 cm of extra-periosteal vastus lateralis, and make a Z-capsulotomy that stays anterior to the lesser trochanter.",
+      "source_ids": [
+        "ao_f6eb9412764b5bf2",
+        "ao_235b0fb9748c5272",
+        "ao_67a86eb94e66b735"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "proximal_femur_gibson_trochanteric_flip_layers_01",
+      "text": "Skin, subcutaneous fat, Gibson fascia and iliotibial tract, trochanteric fragment with abductors and vastus lateralis, short external rotators, and hip capsule.",
+      "source_ids": [
+        "ao_f6eb9412764b5bf2",
+        "ao_67a86eb94e66b735"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "proximal_femur_gibson_trochanteric_flip_structures_at_risk_01",
+      "text": "The medial femoral circumflex artery and retinacular vessels, the sciatic nerve, the superior gluteal neurovascular bundle at the greater sciatic notch, and a posterior-wall capsular pedicle are at risk.",
+      "source_ids": [
+        "ao_f6eb9412764b5bf2",
+        "ao_235b0fb9748c5272",
+        "ao_67a86eb94e66b735"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "proximal_femur_gibson_trochanteric_flip_danger_zones_01",
+      "text": "An excessively thick osteotomy threatens retinacular vessels; a capsulotomy that strays posterior to the lesser trochanter threatens the medial femoral circumflex artery; and a bifid or piriformis-penetrating sciatic nerve may need piriformis release 1 cm posterior to the trochanter before dislocation.",
+      "source_ids": [
+        "ao_f6eb9412764b5bf2",
+        "ao_235b0fb9748c5272"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "proximal_femur_gibson_trochanteric_flip_retraction_hazards_01",
+      "text": "Keep the knee flexed 90° and the hip extended to reduce sciatic tension, and do not detach a posterior-wall fragment from its capsule.",
+      "source_ids": [
+        "ao_f6eb9412764b5bf2"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "proximal_femur_gibson_trochanteric_flip_exposure_01",
+      "text": "After controlled dislocation in a figure-of-four position, the entire femoral head and acetabulum can be seen; without dislocation the corridor still gives a hemicircumferential view from behind the piriformis around to the reflected rectus.",
+      "source_ids": [
+        "ao_f6eb9412764b5bf2",
+        "ao_235b0fb9748c5272"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "proximal_femur_gibson_trochanteric_flip_limitations_01",
+      "text": "The exposure depends on a correctly executed digastric osteotomy and on recognizing sciatic-nerve variants before dislocation.",
+      "source_ids": [
+        "ao_f6eb9412764b5bf2",
+        "ao_67a86eb94e66b735"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "proximal_femur_gibson_trochanteric_flip_indications_01",
+      "text": "Used when a digastric trochanteric flip and optional surgical dislocation are needed for direct access to the femoral head and the superior acetabulum, including selected posterior-wall patterns.",
+      "source_ids": [
+        "ao_f6eb9412764b5bf2"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "proximal_femur_gibson_trochanteric_flip_closure_01",
+      "text": "Close the capsule loosely to drain secondary hemarthrosis, reattach the trochanter with lag screws sized to bone density, repair vastus lateralis fascia and short rotators, repair the gluteus maximus tendon if released, and close the iliotibial tract.",
+      "source_ids": [
+        "ao_f6eb9412764b5bf2",
+        "ao_235b0fb9748c5272"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "proximal_femur_gibson_trochanteric_flip_complications_01",
+      "text": "Complications include avascular necrosis from medial femoral circumflex or retinacular injury, sciatic-nerve palsy, trochanteric nonunion, and tension hemarthrosis if the capsule is closed tightly.",
+      "source_ids": [
+        "ao_f6eb9412764b5bf2",
+        "ao_235b0fb9748c5272",
+        "ao_67a86eb94e66b735"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "proximal_femur_gibson_trochanteric_flip_questions_01",
+      "text": "Where is the Gibson interval?",
+      "source_ids": [
+        "ao_f6eb9412764b5bf2",
+        "ao_235b0fb9748c5272"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "proximal_femur_gibson_trochanteric_flip_questions_02",
+      "text": "Why must the capsulotomy stay anterior to the lesser trochanter?",
+      "source_ids": [
+        "ao_f6eb9412764b5bf2"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "proximal_femur_gibson_trochanteric_flip_questions_03",
+      "text": "How is sciatic-nerve tension reduced during the procedure?",
+      "source_ids": [
+        "ao_f6eb9412764b5bf2"
+      ],
+      "risk_level": "medium"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "ao_f6eb9412764b5bf2",
+      "provider": "AO Surgery Reference",
+      "title": "Trochanteric Flip Osteotomy Through The Gibson Interval",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/proximal-femur/approach/trochanteric-flip-osteotomy-through-the-gibson-interval",
+      "source_page_id": "ao_f6eb9412764b5bf2"
+    },
+    {
+      "source_id": "ao_235b0fb9748c5272",
+      "provider": "AO Surgery Reference",
+      "title": "Surgical hip dislocation (pediatric proximal femur)",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/pediatric-trauma/proximal-femur/approach/surgical-hip-dislocation",
+      "source_page_id": "ao_235b0fb9748c5272"
+    },
+    {
+      "source_id": "ao_67a86eb94e66b735",
+      "provider": "AO Surgery Reference",
+      "title": "Lateral approach via trochanteric flip (pediatric proximal femur)",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/pediatric-trauma/proximal-femur/approach/lateral-approach-via-trochanteric-flip",
+      "source_page_id": "ao_67a86eb94e66b735"
+    }
+  ],
+  "content_status": "agent_review_pending",
+  "review": {
+    "status": "agent_review_pending",
+    "required_roles": [
+      "adversarial_safety_reviewer",
+      "approach_anatomy_reviewer",
+      "educational_value_reviewer",
+      "evidence_reviewer",
+      "operative_exposure_reviewer",
+      "procedure_applicability_reviewer"
+    ],
+    "completed_roles": []
+  },
+  "resolved_contradiction_keys": [],
+  "authoring_provenance": {
+    "method": "local_codex_curated",
+    "definition_file": "data/approach_library/curated/proximal_femur_nailing_lateral_gibson_batch004_v1.json",
+    "api_used": false
+  }
+}

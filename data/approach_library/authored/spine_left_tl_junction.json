@@ -1,0 +1,364 @@
+{
+  "schema_version": "brobot_approach_packet_v1",
+  "approach_id": "spine_left_tl_junction",
+  "name": "Left-sided thoracolumbar-junction approach (T10–L2)",
+  "aliases": [
+    "thoracophrenicolumbotomy"
+  ],
+  "region": "thoracolumbar",
+  "joint": "",
+  "bones": [
+    "T10",
+    "T11",
+    "T12",
+    "L1",
+    "L2"
+  ],
+  "corridor": "Incision over the rib two levels above the target, chest-wall and abdominal-wall split, rib resection if needed, diaphragm taken down leaving a 1 cm cuff to the crus, combining pleural and retroperitoneal windows",
+  "positioning": [
+    {
+      "text": "Position so the rib two levels above the target can be marked and confirmed with an image intensifier.",
+      "claim_ids": [
+        "spine_left_tl_junction_positioning_01"
+      ]
+    }
+  ],
+  "setup": [],
+  "surface_landmarks": [
+    {
+      "text": "Mark the chosen rib (usually the one attached two levels above the involved vertebra), the costal cartilage, and the abdominal wall distal to it.",
+      "claim_ids": [
+        "spine_left_tl_junction_surface_landmarks_01"
+      ]
+    }
+  ],
+  "incision": [
+    {
+      "text": "Center the cut over the involved vertebra on the selected rib. This combined window is only needed for extensive junctional work and can be replaced by a left thoracotomy or a lumbotomy when the level allows.",
+      "claim_ids": [
+        "spine_left_tl_junction_incision_01"
+      ]
+    }
+  ],
+  "superficial_interval": [
+    {
+      "text": "Incise chest-wall muscle over the rib and the abdominal muscles distal to the costal cartilage. Retract latissimus dorsi posteriorly rather than cutting it. Expose the rib subperiosteally and resect it if needed, sparing the caudal neurovascular bundle.",
+      "claim_ids": [
+        "spine_left_tl_junction_superficial_interval_01"
+      ]
+    }
+  ],
+  "deep_interval": [
+    {
+      "text": "Open parietal pleura posteriorly to the lung. Anteriorly split the three abdominal-wall layers into the retroperitoneum. Sweep peritoneum off the undersurface of the diaphragm and take the diaphragm down to the crus, leaving a 1 cm peripheral cuff and marking sutures every 3–4 cm for reattachment.",
+      "claim_ids": [
+        "spine_left_tl_junction_deep_interval_01"
+      ]
+    }
+  ],
+  "layers": [
+    {
+      "text": "Skin, chest and abdominal wall, rib, pleura and retroperitoneum, diaphragm with a repair cuff, then the T10–L2 vertebral bodies.",
+      "claim_ids": [
+        "spine_left_tl_junction_layers_01"
+      ]
+    }
+  ],
+  "structures_encountered": [],
+  "structures_at_risk": [
+    {
+      "text": "The intercostal neurovascular bundle, lung, peritoneum, and the diaphragm (if no cuff is left for repair) are at risk.",
+      "claim_ids": [
+        "spine_left_tl_junction_structures_at_risk_01"
+      ]
+    }
+  ],
+  "danger_zones": [
+    {
+      "text": "Taking the diaphragm off flush with the chest wall without a 1 cm cuff prevents secure reattachment.",
+      "claim_ids": [
+        "spine_left_tl_junction_danger_zones_01"
+      ]
+    }
+  ],
+  "retraction_hazards": [
+    {
+      "text": "Sweep rather than tear peritoneum off the diaphragm, and retract latissimus instead of dividing it.",
+      "claim_ids": [
+        "spine_left_tl_junction_retraction_hazards_01"
+      ]
+    }
+  ],
+  "exposure": [
+    {
+      "text": "Combines a pleural and a retroperitoneal window across T10–L2.",
+      "claim_ids": [
+        "spine_left_tl_junction_exposure_01"
+      ]
+    }
+  ],
+  "limitations": [
+    {
+      "text": "Reserved for extensive junctional work; a simpler left thoracotomy or lumbotomy should replace it when the level allows.",
+      "claim_ids": [
+        "spine_left_tl_junction_limitations_01"
+      ]
+    }
+  ],
+  "extensions": [],
+  "indications": [
+    {
+      "text": "Used when extensive T10–L2 trauma or tumor work needs both chest and retroperitoneal access.",
+      "claim_ids": [
+        "spine_left_tl_junction_indications_01"
+      ]
+    }
+  ],
+  "relative_contraindications": [],
+  "implant_implications": [],
+  "fluoroscopy_implications": [],
+  "closure": [
+    {
+      "text": "Reattach the diaphragm to the 1 cm cuff using the marking sutures, then close the chest and abdominal walls.",
+      "claim_ids": [
+        "spine_left_tl_junction_closure_01"
+      ]
+    }
+  ],
+  "complications": [
+    {
+      "text": "Complications include diaphragmatic repair failure, peritoneal injury, lung injury, and intercostal-bundle injury.",
+      "claim_ids": [
+        "spine_left_tl_junction_complications_01"
+      ]
+    }
+  ],
+  "bailouts": [],
+  "procedure_applications": [
+    {
+      "procedure_id": "thoracolumbar_fracture_orif",
+      "relationship": "conditional_option",
+      "condition": "Extensive T10–L2 trauma or tumor work needs a combined chest and retroperitoneal window that a simple thoracotomy or lumbotomy cannot provide"
+    }
+  ],
+  "questions": [
+    {
+      "question": "Which rib is usually chosen?",
+      "answer": "The rib attached to the vertebra two levels above the involved level.",
+      "claim_ids": [
+        "spine_left_tl_junction_questions_01"
+      ]
+    },
+    {
+      "question": "How much diaphragm cuff is left for repair?",
+      "answer": "A 1 cm peripheral margin, with marking sutures every 3–4 cm.",
+      "claim_ids": [
+        "spine_left_tl_junction_questions_02"
+      ]
+    },
+    {
+      "question": "When can this combined window be avoided?",
+      "answer": "When a left thoracotomy or a lumbotomy alone reaches the involved level.",
+      "claim_ids": [
+        "spine_left_tl_junction_questions_03"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "spine_left_tl_junction_positioning_01",
+      "text": "Position so the rib two levels above the target can be marked and confirmed with an image intensifier.",
+      "source_ids": [
+        "ao_e2105f926657b2fe",
+        "ao_33dc5a9c60a79493"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "spine_left_tl_junction_surface_landmarks_01",
+      "text": "Mark the chosen rib (usually the one attached two levels above the involved vertebra), the costal cartilage, and the abdominal wall distal to it.",
+      "source_ids": [
+        "ao_e2105f926657b2fe",
+        "ao_33dc5a9c60a79493"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "spine_left_tl_junction_incision_01",
+      "text": "Center the cut over the involved vertebra on the selected rib. This combined window is only needed for extensive junctional work and can be replaced by a left thoracotomy or a lumbotomy when the level allows.",
+      "source_ids": [
+        "ao_e2105f926657b2fe",
+        "ao_33dc5a9c60a79493"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "spine_left_tl_junction_superficial_interval_01",
+      "text": "Incise chest-wall muscle over the rib and the abdominal muscles distal to the costal cartilage. Retract latissimus dorsi posteriorly rather than cutting it. Expose the rib subperiosteally and resect it if needed, sparing the caudal neurovascular bundle.",
+      "source_ids": [
+        "ao_e2105f926657b2fe",
+        "ao_33dc5a9c60a79493"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "spine_left_tl_junction_deep_interval_01",
+      "text": "Open parietal pleura posteriorly to the lung. Anteriorly split the three abdominal-wall layers into the retroperitoneum. Sweep peritoneum off the undersurface of the diaphragm and take the diaphragm down to the crus, leaving a 1 cm peripheral cuff and marking sutures every 3–4 cm for reattachment.",
+      "source_ids": [
+        "ao_e2105f926657b2fe",
+        "ao_33dc5a9c60a79493"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "spine_left_tl_junction_layers_01",
+      "text": "Skin, chest and abdominal wall, rib, pleura and retroperitoneum, diaphragm with a repair cuff, then the T10–L2 vertebral bodies.",
+      "source_ids": [
+        "ao_e2105f926657b2fe",
+        "ao_33dc5a9c60a79493"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "spine_left_tl_junction_structures_at_risk_01",
+      "text": "The intercostal neurovascular bundle, lung, peritoneum, and the diaphragm (if no cuff is left for repair) are at risk.",
+      "source_ids": [
+        "ao_e2105f926657b2fe",
+        "ao_33dc5a9c60a79493"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "spine_left_tl_junction_danger_zones_01",
+      "text": "Taking the diaphragm off flush with the chest wall without a 1 cm cuff prevents secure reattachment.",
+      "source_ids": [
+        "ao_e2105f926657b2fe",
+        "ao_33dc5a9c60a79493"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "spine_left_tl_junction_retraction_hazards_01",
+      "text": "Sweep rather than tear peritoneum off the diaphragm, and retract latissimus instead of dividing it.",
+      "source_ids": [
+        "ao_e2105f926657b2fe",
+        "ao_33dc5a9c60a79493"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "spine_left_tl_junction_exposure_01",
+      "text": "Combines a pleural and a retroperitoneal window across T10–L2.",
+      "source_ids": [
+        "ao_e2105f926657b2fe",
+        "ao_33dc5a9c60a79493"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "spine_left_tl_junction_limitations_01",
+      "text": "Reserved for extensive junctional work; a simpler left thoracotomy or lumbotomy should replace it when the level allows.",
+      "source_ids": [
+        "ao_e2105f926657b2fe",
+        "ao_33dc5a9c60a79493"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "spine_left_tl_junction_indications_01",
+      "text": "Used when extensive T10–L2 trauma or tumor work needs both chest and retroperitoneal access.",
+      "source_ids": [
+        "ao_e2105f926657b2fe",
+        "ao_33dc5a9c60a79493"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "spine_left_tl_junction_closure_01",
+      "text": "Reattach the diaphragm to the 1 cm cuff using the marking sutures, then close the chest and abdominal walls.",
+      "source_ids": [
+        "ao_e2105f926657b2fe",
+        "ao_33dc5a9c60a79493"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "spine_left_tl_junction_complications_01",
+      "text": "Complications include diaphragmatic repair failure, peritoneal injury, lung injury, and intercostal-bundle injury.",
+      "source_ids": [
+        "ao_e2105f926657b2fe",
+        "ao_33dc5a9c60a79493"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "spine_left_tl_junction_questions_01",
+      "text": "Which rib is usually chosen?",
+      "source_ids": [
+        "ao_e2105f926657b2fe",
+        "ao_33dc5a9c60a79493"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "spine_left_tl_junction_questions_02",
+      "text": "How much diaphragm cuff is left for repair?",
+      "source_ids": [
+        "ao_e2105f926657b2fe",
+        "ao_33dc5a9c60a79493"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "spine_left_tl_junction_questions_03",
+      "text": "When can this combined window be avoided?",
+      "source_ids": [
+        "ao_e2105f926657b2fe",
+        "ao_33dc5a9c60a79493"
+      ],
+      "risk_level": "medium"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "ao_e2105f926657b2fe",
+      "provider": "AO Surgery Reference",
+      "title": "Left Sided Thoracolumbar Junction Approach T10 L2",
+      "url": "https://surgeryreference.aofoundation.org/spine/trauma/thoracolumbar/approach/left-sided-thoracolumbar-junction-approach-t10-l2",
+      "source_page_id": "ao_e2105f926657b2fe"
+    },
+    {
+      "source_id": "ao_33dc5a9c60a79493",
+      "provider": "AO Surgery Reference",
+      "title": "Left Sided Thoracolumbar Junction Approach T10 L2",
+      "url": "https://surgeryreference.aofoundation.org/spine/tumors/metastatic-tumors/approach/left-sided-thoracolumbar-junction-approach-t10-l2",
+      "source_page_id": "ao_33dc5a9c60a79493"
+    },
+    {
+      "source_id": "ao_7c21fdaaabc5109a",
+      "provider": "AO Surgery Reference",
+      "title": "Anterior Approach To The Lumbar Spine",
+      "url": "https://surgeryreference.aofoundation.org/spine/deformities/adolescent-idiopathic-scoliosis/approach/anterior-approach-to-the-lumbar-spine",
+      "source_page_id": "ao_7c21fdaaabc5109a"
+    }
+  ],
+  "content_status": "agent_review_pending",
+  "review": {
+    "status": "agent_review_pending",
+    "required_roles": [
+      "adversarial_safety_reviewer",
+      "approach_anatomy_reviewer",
+      "educational_value_reviewer",
+      "evidence_reviewer",
+      "operative_exposure_reviewer",
+      "procedure_applicability_reviewer"
+    ],
+    "completed_roles": []
+  },
+  "resolved_contradiction_keys": [],
+  "authoring_provenance": {
+    "method": "local_codex_curated",
+    "definition_file": "data/approach_library/curated/spine_core_batch001_v1.json",
+    "api_used": false
+  }
+}

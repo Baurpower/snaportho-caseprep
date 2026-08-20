@@ -449,6 +449,20 @@
       "provider": "PubMed",
       "title": "Management of fracture-dislocations of the little finger carpometacarpal joint",
       "url": "https://pubmed.ncbi.nlm.nih.gov/29411672/"
+    },
+    {
+      "source_id": "ao_9241d0b9611c4d3a",
+      "provider": "AO Surgery Reference",
+      "title": "Dorsal approach to CMC joint (middle-phalanges collection)",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/hand-middle-phalanges/approach/dorsal-approach-to-cmc-joint",
+      "source_page_id": "ao_9241d0b9611c4d3a"
+    },
+    {
+      "source_id": "ao_ba1917153cb0dfb4",
+      "provider": "AO Surgery Reference",
+      "title": "Dorsal approach to CMC joints (metacarpals collection)",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/metacarpals/approach/dorsal-approach-to-cmc-joints",
+      "source_page_id": "ao_ba1917153cb0dfb4"
     }
   ],
   "content_status": "agent_review_pending",

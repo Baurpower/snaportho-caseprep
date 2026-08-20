@@ -1,0 +1,360 @@
+{
+  "schema_version": "brobot_approach_packet_v1",
+  "approach_id": "talus_lateral_malleolar_osteotomy",
+  "name": "Lateral malleolar osteotomy for the talar body",
+  "aliases": [
+    "fibular osteotomy approach to the lateral talus"
+  ],
+  "region": "talus",
+  "joint": "ankle",
+  "bones": [
+    "talus",
+    "fibula",
+    "lateral malleolus"
+  ],
+  "corridor": "Proximal extension of the anterolateral talar incision along the fibular crest to the tip then along the fourth ray, dividing the anterior tibiofibular and talofibular ligaments, then a transverse fibular osteotomy about 3 cm above the joint so the distal fibula can be rotated out",
+  "positioning": [
+    {
+      "text": "Position so the fibular crest, fibular tip, fourth ray, and ankle joint can be imaged for a planned osteotomy about 3 cm above the joint.",
+      "claim_ids": [
+        "talus_lateral_malleolar_osteotomy_positioning_01"
+      ]
+    }
+  ],
+  "setup": [],
+  "surface_landmarks": [
+    {
+      "text": "Mark the fibular crest, fibular tip, fourth-ray axis, and the expected superficial peroneal nerve just anterior to the fibula.",
+      "claim_ids": [
+        "talus_lateral_malleolar_osteotomy_surface_landmarks_01"
+      ]
+    }
+  ],
+  "incision": [
+    {
+      "text": "Use a full-thickness longitudinal cut without undermining: a proximal extension of the anterolateral talar incision from the fibular crest to the tip and then in line with the fourth ray, staying posterior to the superficial peroneal nerve.",
+      "claim_ids": [
+        "talus_lateral_malleolar_osteotomy_incision_01"
+      ]
+    }
+  ],
+  "superficial_interval": [
+    {
+      "text": "Protect the superficial peroneal nerve by identifying it anterior to the cut or by placing the incision behind it.",
+      "claim_ids": [
+        "talus_lateral_malleolar_osteotomy_superficial_interval_01"
+      ]
+    }
+  ],
+  "deep_interval": [
+    {
+      "text": "Divide the anterior distal tibiofibular and talofibular ligaments; preserve the calcaneofibular ligament. Predrill the fibula for the later compression plate if desired, keeping proximal holes from blocking osteotomy compression. Under image intensification, make a transverse oscillating-saw osteotomy about 3 cm above the joint, just above the distal tibiofibular ligament insertion, at a level that still allows distal-fragment fixation. Rotate the fibula externally to see the lateral talus.",
+      "claim_ids": [
+        "talus_lateral_malleolar_osteotomy_deep_interval_01"
+      ]
+    }
+  ],
+  "layers": [
+    {
+      "text": "Skin, superficial peroneal nerve plane, anterior syndesmotic and talofibular ligaments, then the osteotomized and externally rotated distal fibula and the lateral talar body.",
+      "claim_ids": [
+        "talus_lateral_malleolar_osteotomy_layers_01"
+      ]
+    }
+  ],
+  "structures_encountered": [],
+  "structures_at_risk": [
+    {
+      "text": "The superficial peroneal nerve, the anterior tibiofibular and talofibular ligaments that must later be repaired, and ankle stability if the osteotomy or syndesmosis is not reconstructed are at risk. The peroneal blood supply is posterior and is not endangered.",
+      "claim_ids": [
+        "talus_lateral_malleolar_osteotomy_structures_at_risk_01"
+      ]
+    }
+  ],
+  "danger_zones": [
+    {
+      "text": "An osteotomy that is too distal leaves inadequate distal-fragment fixation. Leaving the anterior ligaments unrepaired or skipping needed syndesmotic stabilization leaves an unstable ankle.",
+      "claim_ids": [
+        "talus_lateral_malleolar_osteotomy_danger_zones_01"
+      ]
+    }
+  ],
+  "retraction_hazards": [
+    {
+      "text": "Rotate the distal fibula only as far as needed and protect the superficial peroneal nerve while the fragment is out.",
+      "claim_ids": [
+        "talus_lateral_malleolar_osteotomy_retraction_hazards_01"
+      ]
+    }
+  ],
+  "exposure": [
+    {
+      "text": "An uncommon alternative to the anterolateral approach that shows posterior and lateral talar-body fractures that cannot otherwise be reached.",
+      "claim_ids": [
+        "talus_lateral_malleolar_osteotomy_exposure_01"
+      ]
+    }
+  ],
+  "limitations": [
+    {
+      "text": "Iatrogenic bone and soft-tissue trauma must be weighed against the extra view. The calcaneofibular ligament is kept, so this is not a free fibular takedown.",
+      "claim_ids": [
+        "talus_lateral_malleolar_osteotomy_limitations_01"
+      ]
+    }
+  ],
+  "extensions": [],
+  "indications": [
+    {
+      "text": "Used when an anterolateral window cannot show a posterior or lateral talar-body fracture well enough.",
+      "claim_ids": [
+        "talus_lateral_malleolar_osteotomy_indications_01"
+      ]
+    }
+  ],
+  "relative_contraindications": [],
+  "implant_implications": [],
+  "fluoroscopy_implications": [],
+  "closure": [
+    {
+      "text": "Reduce the fibula anatomically and fix the transverse osteotomy with a contoured compression plate, or with a longitudinal screw or fibular nail. Repair the anterior distal tibiofibular ligament, with suture anchors if needed, and add syndesmotic suture-button or screw fixation when the syndesmosis is unstable. Close in layers.",
+      "claim_ids": [
+        "talus_lateral_malleolar_osteotomy_closure_01"
+      ]
+    }
+  ],
+  "complications": [
+    {
+      "text": "Complications include superficial peroneal injury, malreduced osteotomy, unrepaired anterior ligaments, and syndesmotic instability.",
+      "claim_ids": [
+        "talus_lateral_malleolar_osteotomy_complications_01"
+      ]
+    }
+  ],
+  "bailouts": [],
+  "procedure_applications": [
+    {
+      "procedure_id": "talus_fracture_orif",
+      "relationship": "conditional_option",
+      "condition": "A posterior or lateral talar-body fracture cannot be seen well enough through an anterolateral window alone"
+    }
+  ],
+  "questions": [
+    {
+      "question": "At what level is the fibular osteotomy planned?",
+      "answer": "About 3 cm above the joint surface, just above the insertion of the distal tibiofibular ligament, and high enough that the distal fragment can still be fixed.",
+      "claim_ids": [
+        "talus_lateral_malleolar_osteotomy_questions_01"
+      ]
+    },
+    {
+      "question": "Which ligaments are divided, and which is preserved?",
+      "answer": "The anterior distal tibiofibular and talofibular ligaments are divided and later repaired; the calcaneofibular ligament is preserved.",
+      "claim_ids": [
+        "talus_lateral_malleolar_osteotomy_questions_02"
+      ]
+    },
+    {
+      "question": "How is the osteotomy stabilized after talar fixation?",
+      "answer": "With a compression plate on the reduced fibula, or alternatively a longitudinal screw or fibular nail, plus ligament repair and syndesmotic fixation if needed.",
+      "claim_ids": [
+        "talus_lateral_malleolar_osteotomy_questions_03"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "talus_lateral_malleolar_osteotomy_positioning_01",
+      "text": "Position so the fibular crest, fibular tip, fourth ray, and ankle joint can be imaged for a planned osteotomy about 3 cm above the joint.",
+      "source_ids": [
+        "ao_c33748915def4543",
+        "ao_0bc032ac24ff0529"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "talus_lateral_malleolar_osteotomy_surface_landmarks_01",
+      "text": "Mark the fibular crest, fibular tip, fourth-ray axis, and the expected superficial peroneal nerve just anterior to the fibula.",
+      "source_ids": [
+        "ao_c33748915def4543",
+        "ao_0bc032ac24ff0529"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "talus_lateral_malleolar_osteotomy_incision_01",
+      "text": "Use a full-thickness longitudinal cut without undermining: a proximal extension of the anterolateral talar incision from the fibular crest to the tip and then in line with the fourth ray, staying posterior to the superficial peroneal nerve.",
+      "source_ids": [
+        "ao_c33748915def4543",
+        "ao_0bc032ac24ff0529"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "talus_lateral_malleolar_osteotomy_superficial_interval_01",
+      "text": "Protect the superficial peroneal nerve by identifying it anterior to the cut or by placing the incision behind it.",
+      "source_ids": [
+        "ao_c33748915def4543",
+        "ao_0bc032ac24ff0529"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "talus_lateral_malleolar_osteotomy_deep_interval_01",
+      "text": "Divide the anterior distal tibiofibular and talofibular ligaments; preserve the calcaneofibular ligament. Predrill the fibula for the later compression plate if desired, keeping proximal holes from blocking osteotomy compression. Under image intensification, make a transverse oscillating-saw osteotomy about 3 cm above the joint, just above the distal tibiofibular ligament insertion, at a level that still allows distal-fragment fixation. Rotate the fibula externally to see the lateral talus.",
+      "source_ids": [
+        "ao_c33748915def4543"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "talus_lateral_malleolar_osteotomy_layers_01",
+      "text": "Skin, superficial peroneal nerve plane, anterior syndesmotic and talofibular ligaments, then the osteotomized and externally rotated distal fibula and the lateral talar body.",
+      "source_ids": [
+        "ao_c33748915def4543",
+        "ao_692babf8613ec05e"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "talus_lateral_malleolar_osteotomy_structures_at_risk_01",
+      "text": "The superficial peroneal nerve, the anterior tibiofibular and talofibular ligaments that must later be repaired, and ankle stability if the osteotomy or syndesmosis is not reconstructed are at risk. The peroneal blood supply is posterior and is not endangered.",
+      "source_ids": [
+        "ao_c33748915def4543",
+        "ao_0bc032ac24ff0529"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "talus_lateral_malleolar_osteotomy_danger_zones_01",
+      "text": "An osteotomy that is too distal leaves inadequate distal-fragment fixation. Leaving the anterior ligaments unrepaired or skipping needed syndesmotic stabilization leaves an unstable ankle.",
+      "source_ids": [
+        "ao_c33748915def4543"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "talus_lateral_malleolar_osteotomy_retraction_hazards_01",
+      "text": "Rotate the distal fibula only as far as needed and protect the superficial peroneal nerve while the fragment is out.",
+      "source_ids": [
+        "ao_c33748915def4543",
+        "ao_0bc032ac24ff0529"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "talus_lateral_malleolar_osteotomy_exposure_01",
+      "text": "An uncommon alternative to the anterolateral approach that shows posterior and lateral talar-body fractures that cannot otherwise be reached.",
+      "source_ids": [
+        "ao_c33748915def4543"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "talus_lateral_malleolar_osteotomy_limitations_01",
+      "text": "Iatrogenic bone and soft-tissue trauma must be weighed against the extra view. The calcaneofibular ligament is kept, so this is not a free fibular takedown.",
+      "source_ids": [
+        "ao_c33748915def4543"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "talus_lateral_malleolar_osteotomy_indications_01",
+      "text": "Used when an anterolateral window cannot show a posterior or lateral talar-body fracture well enough.",
+      "source_ids": [
+        "ao_c33748915def4543"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "talus_lateral_malleolar_osteotomy_closure_01",
+      "text": "Reduce the fibula anatomically and fix the transverse osteotomy with a contoured compression plate, or with a longitudinal screw or fibular nail. Repair the anterior distal tibiofibular ligament, with suture anchors if needed, and add syndesmotic suture-button or screw fixation when the syndesmosis is unstable. Close in layers.",
+      "source_ids": [
+        "ao_c33748915def4543"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "talus_lateral_malleolar_osteotomy_complications_01",
+      "text": "Complications include superficial peroneal injury, malreduced osteotomy, unrepaired anterior ligaments, and syndesmotic instability.",
+      "source_ids": [
+        "ao_c33748915def4543",
+        "ao_0bc032ac24ff0529"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "talus_lateral_malleolar_osteotomy_questions_01",
+      "text": "At what level is the fibular osteotomy planned?",
+      "source_ids": [
+        "ao_c33748915def4543"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "talus_lateral_malleolar_osteotomy_questions_02",
+      "text": "Which ligaments are divided, and which is preserved?",
+      "source_ids": [
+        "ao_c33748915def4543"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "talus_lateral_malleolar_osteotomy_questions_03",
+      "text": "How is the osteotomy stabilized after talar fixation?",
+      "source_ids": [
+        "ao_c33748915def4543"
+      ],
+      "risk_level": "medium"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "ao_c33748915def4543",
+      "provider": "AO Surgery Reference",
+      "title": "Lateral Malleolar Osteotomy",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/talus/approach/lateral-malleolar-osteotomy",
+      "source_page_id": "ao_c33748915def4543"
+    },
+    {
+      "source_id": "ao_0bc032ac24ff0529",
+      "provider": "AO Surgery Reference",
+      "title": "Anterolateral Approach",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/talus/approach/anterolateral-approach",
+      "source_page_id": "ao_0bc032ac24ff0529"
+    },
+    {
+      "source_id": "ao_692babf8613ec05e",
+      "provider": "AO Surgery Reference",
+      "title": "Lateral Approach",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/malleoli/approach/lateral-approach",
+      "source_page_id": "ao_692babf8613ec05e"
+    },
+    {
+      "source_id": "orthobullets_878afbc8d50170f0",
+      "provider": "Orthobullets",
+      "title": "Gatellier Posterolateral Approach To Ankle",
+      "url": "https://www.orthobullets.com/approaches/12041/gatellier-posterolateral-approach-to-ankle",
+      "source_page_id": "orthobullets_878afbc8d50170f0"
+    }
+  ],
+  "content_status": "agent_review_pending",
+  "review": {
+    "status": "agent_review_pending",
+    "required_roles": [
+      "adversarial_safety_reviewer",
+      "approach_anatomy_reviewer",
+      "educational_value_reviewer",
+      "evidence_reviewer",
+      "operative_exposure_reviewer",
+      "procedure_applicability_reviewer"
+    ],
+    "completed_roles": []
+  },
+  "resolved_contradiction_keys": [],
+  "authoring_provenance": {
+    "method": "local_codex_curated",
+    "definition_file": "data/approach_library/curated/talus_batch001_v1.json",
+    "api_used": false
+  }
+}

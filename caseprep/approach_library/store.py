@@ -47,6 +47,36 @@ class ApproachLibrary:
 
     @staticmethod
     @lru_cache(maxsize=1)
+    def procedure_id_alias_map() -> Dict[str, List[str]]:
+        """Live CasePrep slugs → extra authored procedure_ids."""
+        mapping: Dict[str, List[str]] = {}
+        for row in _jsonl(LIBRARY_DIR / "procedure_id_aliases.jsonl"):
+            src = str(row.get("live_procedure_id") or "").strip()
+            dest = str(row.get("authored_procedure_id") or "").strip()
+            if not src or not dest:
+                continue
+            aliases = mapping.setdefault(src, [])
+            if dest not in aliases:
+                aliases.append(dest)
+        return mapping
+
+    @staticmethod
+    @lru_cache(maxsize=1)
+    def procedure_approach_alias_map() -> Dict[str, List[str]]:
+        """Live CasePrep slugs → extra approach_ids (when a full procedure_id would over-attach)."""
+        mapping: Dict[str, List[str]] = {}
+        for row in _jsonl(LIBRARY_DIR / "procedure_id_aliases.jsonl"):
+            src = str(row.get("live_procedure_id") or "").strip()
+            approach_id = str(row.get("approach_id") or "").strip()
+            if not src or not approach_id:
+                continue
+            aliases = mapping.setdefault(src, [])
+            if approach_id not in aliases:
+                aliases.append(approach_id)
+        return mapping
+
+    @staticmethod
+    @lru_cache(maxsize=1)
     def mappings() -> List[Dict[str, Any]]:
         rows = list(_jsonl(LIBRARY_DIR / "procedure_mappings.jsonl"))
         seen = {
@@ -83,7 +113,8 @@ class ApproachLibrary:
         return attach_review_state(dict(packet)) if packet else None
 
     def for_procedure(self, procedure_id: str) -> List[Dict[str, Any]]:
-        rows = [row for row in self.mappings() if row.get("procedure_id") == procedure_id]
+        lookup_ids = {procedure_id, *self.procedure_id_alias_map().get(procedure_id, [])}
+        rows = [row for row in self.mappings() if row.get("procedure_id") in lookup_ids]
         result: List[Dict[str, Any]] = []
         seen: set[str] = set()
         for mapping in rows:
@@ -94,6 +125,31 @@ class ApproachLibrary:
             if packet:
                 result.append({**packet, "procedure_mapping": mapping})
                 seen.add(approach_id)
+        for approach_id in self.procedure_approach_alias_map().get(procedure_id, []):
+            if not approach_id or approach_id in seen:
+                continue
+            packet = self.get(approach_id)
+            if not packet:
+                continue
+            result.append(
+                {
+                    **packet,
+                    "procedure_mapping": {
+                        "procedure_id": procedure_id,
+                        "approach_id": approach_id,
+                        "relationship": "applicable",
+                        "condition": "",
+                        "triggers": [],
+                        "evidence_urls": [
+                            source.get("url")
+                            for source in packet.get("sources") or []
+                            if source.get("url")
+                        ],
+                        "mapping_status": "procedure_id_alias",
+                    },
+                }
+            )
+            seen.add(approach_id)
         return result
 
     @classmethod
@@ -101,3 +157,5 @@ class ApproachLibrary:
         cls.source_pages.cache_clear()
         cls.packets.cache_clear()
         cls.mappings.cache_clear()
+        cls.procedure_id_alias_map.cache_clear()
+        cls.procedure_approach_alias_map.cache_clear()

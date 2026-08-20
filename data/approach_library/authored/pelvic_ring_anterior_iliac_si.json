@@ -1,0 +1,343 @@
+{
+  "schema_version": "brobot_approach_packet_v1",
+  "approach_id": "pelvic_ring_anterior_iliac_si",
+  "name": "Anterior approach to the iliac wing and sacroiliac joint",
+  "aliases": [
+    "anterior iliac fossa approach",
+    "first-window anterior SI approach"
+  ],
+  "region": "pelvic-ring",
+  "joint": "sacroiliac",
+  "bones": [
+    "ilium",
+    "sacral ala"
+  ],
+  "corridor": "Incision along the iliac crest with subperiosteal elevation of external oblique and iliacus into the internal iliac fossa and onto the sacral ala, limited medially by the L5 root 10–15 mm from the SI joint",
+  "positioning": [
+    {
+      "text": "Position so the iliac crest from ASIS toward the table can be draped and the internal iliac fossa imaged.",
+      "claim_ids": [
+        "pelvic_ring_anterior_iliac_si_positioning_01"
+      ]
+    }
+  ],
+  "setup": [],
+  "surface_landmarks": [
+    {
+      "text": "Mark the iliac crest, ASIS (lateral femoral cutaneous nerve), and how far posterior the cut must run for SI or posterior-iliac work.",
+      "claim_ids": [
+        "pelvic_ring_anterior_iliac_si_surface_landmarks_01"
+      ]
+    }
+  ],
+  "incision": [
+    {
+      "text": "Incise along the iliac crest. Length matches the needed fossa exposure and can be extended intraoperatively. For posterior ilium or SI work, carry it posteriorly almost to the table.",
+      "claim_ids": [
+        "pelvic_ring_anterior_iliac_si_incision_01"
+      ]
+    }
+  ],
+  "superficial_interval": [
+    {
+      "text": "Divide fat to the external-oblique fascia. Identify the gluteal–external-oblique border, incise that interval, and elevate external oblique subperiosteally from the crest, leaving periosteum lateral to the crest for later repair.",
+      "claim_ids": [
+        "pelvic_ring_anterior_iliac_si_superficial_interval_01"
+      ]
+    }
+  ],
+  "deep_interval": [
+    {
+      "text": "Elevate iliacus in the same subperiosteal layer, control nutrient-vessel bleeding with bone wax, and continue bluntly to the interior SI joint and along the pelvic rim to the start of the iliopectineal eminence. Identify the SI capsule, place a Hohmann in the superior joint, then move carefully onto the sacral ala, watching the L5 root. An anterior Hohmann at the joint can injure the superior gluteal vessels in the greater sciatic notch.",
+      "claim_ids": [
+        "pelvic_ring_anterior_iliac_si_deep_interval_01"
+      ]
+    }
+  ],
+  "layers": [
+    {
+      "text": "Skin, external-oblique fascia, crest periosteum, iliacus, SI capsule, then internal iliac fossa and sacral ala.",
+      "claim_ids": [
+        "pelvic_ring_anterior_iliac_si_layers_01"
+      ]
+    }
+  ],
+  "structures_encountered": [],
+  "structures_at_risk": [
+    {
+      "text": "The L4/L5 lumbosacral trunk 10–15 mm medial to the SI joint on the ala, the LFCN near the ASIS, and the superior gluteal artery and nerve in the greater sciatic notch are at risk. Sacral fractures cannot be exposed here because of overlying nerves and vessels.",
+      "claim_ids": [
+        "pelvic_ring_anterior_iliac_si_structures_at_risk_01"
+      ]
+    }
+  ],
+  "danger_zones": [
+    {
+      "text": "The sacral ala medial to the SI joint is the L5-root danger zone. The anterior Hohmann at the sciatic notch is the superior-gluteal danger zone.",
+      "claim_ids": [
+        "pelvic_ring_anterior_iliac_si_danger_zones_01"
+      ]
+    }
+  ],
+  "retraction_hazards": [
+    {
+      "text": "Move the Hohmann onto the ala carefully. Do not lever a retractor into the lumbosacral trunk.",
+      "claim_ids": [
+        "pelvic_ring_anterior_iliac_si_retraction_hazards_01"
+      ]
+    }
+  ],
+  "exposure": [
+    {
+      "text": "Shows the iliac crest, the entire internal iliac fossa, the most lateral sacral ala, and the anterior SI joint, with digital and limited visual access to the quadrilateral surface and greater sciatic notch.",
+      "claim_ids": [
+        "pelvic_ring_anterior_iliac_si_exposure_01"
+      ]
+    }
+  ],
+  "limitations": [
+    {
+      "text": "Sacral fractures cannot be exposed through this corridor. Medial ala work is limited by the L5 root.",
+      "claim_ids": [
+        "pelvic_ring_anterior_iliac_si_limitations_01"
+      ]
+    }
+  ],
+  "extensions": [],
+  "indications": [
+    {
+      "text": "Used for SI dislocations and iliac fractures, including those that enter the SI joint, when the anterior and superior SI joint must be seen.",
+      "claim_ids": [
+        "pelvic_ring_anterior_iliac_si_indications_01"
+      ]
+    }
+  ],
+  "relative_contraindications": [],
+  "implant_implications": [],
+  "fluoroscopy_implications": [],
+  "closure": [
+    {
+      "text": "Repair the external-oblique aponeurosis to the periosteum left intact lateral to the iliac crest, then close fat and skin in layers.",
+      "claim_ids": [
+        "pelvic_ring_anterior_iliac_si_closure_01"
+      ]
+    }
+  ],
+  "complications": [
+    {
+      "text": "Complications include L5-root injury on the ala, LFCN injury at the ASIS, superior-gluteal vessel injury in the notch, and nutrient-vessel bleeding from the iliac fossa.",
+      "claim_ids": [
+        "pelvic_ring_anterior_iliac_si_complications_01"
+      ]
+    }
+  ],
+  "bailouts": [],
+  "procedure_applications": [
+    {
+      "procedure_id": "pelvic_ring_orif",
+      "relationship": "primary_option",
+      "condition": "An SI dislocation or iliac fracture extending into the SI joint needs direct anterior visualization"
+    }
+  ],
+  "questions": [
+    {
+      "question": "How far medial to the SI joint does the lumbosacral trunk run?",
+      "answer": "About 10–15 mm on the sacral ala.",
+      "claim_ids": [
+        "pelvic_ring_anterior_iliac_si_questions_01"
+      ]
+    },
+    {
+      "question": "Why can sacral fractures not be exposed here?",
+      "answer": "Overlying nerves and vessels prevent safe exposure.",
+      "claim_ids": [
+        "pelvic_ring_anterior_iliac_si_questions_02"
+      ]
+    },
+    {
+      "question": "Which nerve is at risk near the ASIS?",
+      "answer": "The lateral femoral cutaneous nerve.",
+      "claim_ids": [
+        "pelvic_ring_anterior_iliac_si_questions_03"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "pelvic_ring_anterior_iliac_si_positioning_01",
+      "text": "Position so the iliac crest from ASIS toward the table can be draped and the internal iliac fossa imaged.",
+      "source_ids": [
+        "ao_d0156d90886255cb",
+        "ao_2c5c75c12e989a0d"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "pelvic_ring_anterior_iliac_si_surface_landmarks_01",
+      "text": "Mark the iliac crest, ASIS (lateral femoral cutaneous nerve), and how far posterior the cut must run for SI or posterior-iliac work.",
+      "source_ids": [
+        "ao_d0156d90886255cb"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "pelvic_ring_anterior_iliac_si_incision_01",
+      "text": "Incise along the iliac crest. Length matches the needed fossa exposure and can be extended intraoperatively. For posterior ilium or SI work, carry it posteriorly almost to the table.",
+      "source_ids": [
+        "ao_d0156d90886255cb"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "pelvic_ring_anterior_iliac_si_superficial_interval_01",
+      "text": "Divide fat to the external-oblique fascia. Identify the gluteal–external-oblique border, incise that interval, and elevate external oblique subperiosteally from the crest, leaving periosteum lateral to the crest for later repair.",
+      "source_ids": [
+        "ao_d0156d90886255cb",
+        "ao_2c5c75c12e989a0d"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "pelvic_ring_anterior_iliac_si_deep_interval_01",
+      "text": "Elevate iliacus in the same subperiosteal layer, control nutrient-vessel bleeding with bone wax, and continue bluntly to the interior SI joint and along the pelvic rim to the start of the iliopectineal eminence. Identify the SI capsule, place a Hohmann in the superior joint, then move carefully onto the sacral ala, watching the L5 root. An anterior Hohmann at the joint can injure the superior gluteal vessels in the greater sciatic notch.",
+      "source_ids": [
+        "ao_d0156d90886255cb",
+        "ao_2c5c75c12e989a0d"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "pelvic_ring_anterior_iliac_si_layers_01",
+      "text": "Skin, external-oblique fascia, crest periosteum, iliacus, SI capsule, then internal iliac fossa and sacral ala.",
+      "source_ids": [
+        "ao_d0156d90886255cb"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "pelvic_ring_anterior_iliac_si_structures_at_risk_01",
+      "text": "The L4/L5 lumbosacral trunk 10–15 mm medial to the SI joint on the ala, the LFCN near the ASIS, and the superior gluteal artery and nerve in the greater sciatic notch are at risk. Sacral fractures cannot be exposed here because of overlying nerves and vessels.",
+      "source_ids": [
+        "ao_d0156d90886255cb",
+        "ao_2c5c75c12e989a0d"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "pelvic_ring_anterior_iliac_si_danger_zones_01",
+      "text": "The sacral ala medial to the SI joint is the L5-root danger zone. The anterior Hohmann at the sciatic notch is the superior-gluteal danger zone.",
+      "source_ids": [
+        "ao_d0156d90886255cb"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "pelvic_ring_anterior_iliac_si_retraction_hazards_01",
+      "text": "Move the Hohmann onto the ala carefully. Do not lever a retractor into the lumbosacral trunk.",
+      "source_ids": [
+        "ao_d0156d90886255cb"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "pelvic_ring_anterior_iliac_si_exposure_01",
+      "text": "Shows the iliac crest, the entire internal iliac fossa, the most lateral sacral ala, and the anterior SI joint, with digital and limited visual access to the quadrilateral surface and greater sciatic notch.",
+      "source_ids": [
+        "ao_d0156d90886255cb"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "pelvic_ring_anterior_iliac_si_limitations_01",
+      "text": "Sacral fractures cannot be exposed through this corridor. Medial ala work is limited by the L5 root.",
+      "source_ids": [
+        "ao_d0156d90886255cb"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "pelvic_ring_anterior_iliac_si_indications_01",
+      "text": "Used for SI dislocations and iliac fractures, including those that enter the SI joint, when the anterior and superior SI joint must be seen.",
+      "source_ids": [
+        "ao_d0156d90886255cb"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "pelvic_ring_anterior_iliac_si_closure_01",
+      "text": "Repair the external-oblique aponeurosis to the periosteum left intact lateral to the iliac crest, then close fat and skin in layers.",
+      "source_ids": [
+        "ao_d0156d90886255cb"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "pelvic_ring_anterior_iliac_si_complications_01",
+      "text": "Complications include L5-root injury on the ala, LFCN injury at the ASIS, superior-gluteal vessel injury in the notch, and nutrient-vessel bleeding from the iliac fossa.",
+      "source_ids": [
+        "ao_d0156d90886255cb",
+        "ao_2c5c75c12e989a0d"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "pelvic_ring_anterior_iliac_si_questions_01",
+      "text": "How far medial to the SI joint does the lumbosacral trunk run?",
+      "source_ids": [
+        "ao_d0156d90886255cb"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "pelvic_ring_anterior_iliac_si_questions_02",
+      "text": "Why can sacral fractures not be exposed here?",
+      "source_ids": [
+        "ao_d0156d90886255cb"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "pelvic_ring_anterior_iliac_si_questions_03",
+      "text": "Which nerve is at risk near the ASIS?",
+      "source_ids": [
+        "ao_d0156d90886255cb"
+      ],
+      "risk_level": "medium"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "ao_d0156d90886255cb",
+      "provider": "AO Surgery Reference",
+      "title": "Anterior Approach To The Iliac Wing And Si Joint",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/pelvic-ring/approach/anterior-approach-to-the-iliac-wing-and-si-joint",
+      "source_page_id": "ao_d0156d90886255cb"
+    },
+    {
+      "source_id": "ao_2c5c75c12e989a0d",
+      "provider": "AO Surgery Reference",
+      "title": "Ilioinguinal approach to the acetabulum",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/acetabulum/approach/ilioinguinal-approach-to-the-acetabulum",
+      "source_page_id": "ao_2c5c75c12e989a0d"
+    }
+  ],
+  "content_status": "agent_review_pending",
+  "review": {
+    "status": "agent_review_pending",
+    "required_roles": [
+      "adversarial_safety_reviewer",
+      "approach_anatomy_reviewer",
+      "educational_value_reviewer",
+      "evidence_reviewer",
+      "operative_exposure_reviewer",
+      "procedure_applicability_reviewer"
+    ],
+    "completed_roles": []
+  },
+  "resolved_contradiction_keys": [],
+  "authoring_provenance": {
+    "method": "local_codex_curated",
+    "definition_file": "data/approach_library/curated/pelvis_tibia_batch001_v1.json",
+    "api_used": false
+  }
+}

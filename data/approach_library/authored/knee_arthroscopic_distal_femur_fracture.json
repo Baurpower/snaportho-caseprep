@@ -448,6 +448,20 @@
       "provider": "PubMed",
       "title": "Surgical approaches and outcomes associated with intra-articular Hoffa fractures",
       "url": "https://pubmed.ncbi.nlm.nih.gov/31460990/"
+    },
+    {
+      "source_id": "ao_c767c51b9f14b8d9",
+      "provider": "AO Surgery Reference",
+      "title": "Arthroscopic Approach To Knee",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/proximal-tibia/approach/arthroscopic-approach-to-knee",
+      "source_page_id": "ao_c767c51b9f14b8d9"
+    },
+    {
+      "source_id": "orthobullets_15a4350702eaa6c5",
+      "provider": "Orthobullets",
+      "title": "Knee Arthroscopy",
+      "url": "https://www.orthobullets.com/approaches/3031/knee-arthroscopy",
+      "source_page_id": "orthobullets_15a4350702eaa6c5"
     }
   ],
   "content_status": "agent_review_pending",

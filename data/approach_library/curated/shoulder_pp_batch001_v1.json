@@ -1,0 +1,590 @@
+{
+  "approaches": [
+    {
+      "approach_id": "shoulder_pp_deltopectoral",
+      "name": "Deltopectoral approach for periprosthetic humeral fractures",
+      "aliases": [
+        "revision deltopectoral approach to the humerus"
+      ],
+      "region": "proximal-humerus",
+      "joint": "shoulder",
+      "bones": [
+        "proximal humerus",
+        "humeral shaft"
+      ],
+      "corridor": "Prior or new deltopectoral interval from the coracoid toward the lateral epicondyle, through scarred clavipectoral fascia lateral to the conjoint tendon, with optional distal brachialis split to the shaft around a stem",
+      "sources": [
+        {
+          "source_id": "ao_6cdbbf257a917f43",
+          "provider": "AO Surgery Reference",
+          "title": "Deltopectoral Approach",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/periprosthetic-fractures/shoulder/approach/deltopectoral-approach",
+          "source_page_id": "ao_6cdbbf257a917f43"
+        },
+        {
+          "source_id": "ao_c5861e08ea2a1064",
+          "provider": "AO Surgery Reference",
+          "title": "Deltopectoral approach to the proximal humerus",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/proximal-humerus/approach/deltopectoral-approach-to-the-proximal-humerus",
+          "source_page_id": "ao_c5861e08ea2a1064"
+        },
+        {
+          "source_id": "ao_b1d85a2691e1f064",
+          "provider": "AO Surgery Reference",
+          "title": "Extended deltopectoral approach to the humeral shaft",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/humeral-shaft/approach/extended-deltopectoral-approach-to-the-humeral-shaft",
+          "source_page_id": "ao_b1d85a2691e1f064"
+        }
+      ],
+      "procedure_applications": [
+        {
+          "procedure_id": "periprosthetic_shoulder_fracture_orif",
+          "relationship": "primary_option",
+          "condition": "A humeral periprosthetic shaft fracture or a revision around a stem is exposed through an extensile deltopectoral interval"
+        }
+      ],
+      "sections": {
+        "positioning": [
+          {
+            "text": "Position so the coracoid, proximal humeral shaft at the axilla, and lateral epicondyle can be marked and the arm draped free for revision work.",
+            "source_ids": [
+              "ao_6cdbbf257a917f43",
+              "ao_c5861e08ea2a1064"
+            ]
+          }
+        ],
+        "surface_landmarks": [
+          {
+            "text": "Mark the coracoid, the proximal humeral shaft at the axilla, the prior deltopectoral scar, and the lateral epicondyle if distal extension is planned.",
+            "source_ids": [
+              "ao_6cdbbf257a917f43",
+              "ao_c5861e08ea2a1064"
+            ]
+          }
+        ],
+        "incision": [
+          {
+            "text": "Reuse the prior deltopectoral cut if it fits the planned revision; otherwise make a new cut from the coracoid along the shaft toward the lateral epicondyle, sized to the planned plate. Do not persist with a poorly placed old scar when a landmark-based new incision is safer.",
+            "source_ids": [
+              "ao_6cdbbf257a917f43"
+            ]
+          }
+        ],
+        "superficial_interval": [
+          {
+            "text": "Find the deltopectoral groove by fiber direction, remaining cephalic vein, or surrounding fat; in revision the fat is often replaced by scar that can still guide the interval. Dissect on the lateral border of pectoralis major. If the groove is unclear, extend into undisturbed tissue. The vein may have been ligated previously and may not be identifiable.",
+            "source_ids": [
+              "ao_6cdbbf257a917f43",
+              "ao_c5861e08ea2a1064"
+            ]
+          }
+        ],
+        "deep_interval": [
+          {
+            "text": "Incise clavipectoral fascia lateral to the conjoint tendon. The conjoint is often scarred to subscapularis, which hides the axillary nerve. Terminal axillary branches on the deep deltoid are near the superior border of the pectoralis-major tendon; avoid deep retractors there. Distally, open between biceps and brachialis, then between brachialis and brachioradialis to find the radial nerve, and split brachialis at the radial third to preserve dual innervation.",
+            "source_ids": [
+              "ao_6cdbbf257a917f43",
+              "ao_b1d85a2691e1f064"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "layers": [
+          {
+            "text": "Skin and prior scar, deltopectoral groove with or without a cephalic vein, clavipectoral fascia and conjoint tendon, scarred subdeltoid bursa, then the anterior humerus and stem; distally biceps, brachialis, and the radial nerve.",
+            "source_ids": [
+              "ao_6cdbbf257a917f43",
+              "ao_b1d85a2691e1f064"
+            ]
+          }
+        ],
+        "structures_at_risk": [
+          {
+            "text": "Scar, adhesions, and contracture raise the risk to the cephalic vein, anterior circumflex vessels, axillary nerve, posterior circumflex vessels, musculocutaneous nerve, radial nerve, and the brachial plexus if retraction is forceful.",
+            "source_ids": [
+              "ao_6cdbbf257a917f43",
+              "ao_c5861e08ea2a1064",
+              "ao_b1d85a2691e1f064"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "danger_zones": [
+          {
+            "text": "Hohmann retractors in the distal two-fifths of the humerus risk the radial nerve where it perforates the lateral intermuscular septum. Deep deltoid retractors at the pectoralis-major tendon risk the axillary nerve. Forceful conjoint retraction risks the musculocutaneous nerve.",
+            "source_ids": [
+              "ao_6cdbbf257a917f43",
+              "ao_b1d85a2691e1f064"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "retraction_hazards": [
+          {
+            "text": "Do not retract forcefully on scarred plexus branches. If the axillary nerve cannot be found medial to a prosthesis, identify it from the lateral cord and musculocutaneous nerve, protect the axillary vessels behind the lateral cord, then follow the first lateral branch of the posterior cord; ligate a bleeding posterior circumflex vein before chasing the nerve. If the quadrilateral space is obliterated, detach and gently retract the conjoint tendon. After reverse arthroplasty the subscapularis is often absent, so the usual axillary-nerve landmarks are gone.",
+            "source_ids": [
+              "ao_6cdbbf257a917f43"
+            ]
+          }
+        ],
+        "exposure": [
+          {
+            "text": "Gives access to almost any humeral periprosthetic shaft fracture and is the preferred corridor for revision around a stem, including distal extension for a long plate.",
+            "source_ids": [
+              "ao_6cdbbf257a917f43",
+              "ao_c5861e08ea2a1064"
+            ]
+          }
+        ],
+        "limitations": [
+          {
+            "text": "Scar can erase the cephalic vein, subscapularis, and axillary-nerve landmarks. Distal Hohmann use is unsafe in the distal two-fifths.",
+            "source_ids": [
+              "ao_6cdbbf257a917f43",
+              "ao_b1d85a2691e1f064"
+            ]
+          }
+        ],
+        "indications": [
+          {
+            "text": "Used for almost any humeral periprosthetic shaft fracture and is highly recommended for revision surgery.",
+            "source_ids": [
+              "ao_6cdbbf257a917f43",
+              "ao_c5861e08ea2a1064"
+            ]
+          }
+        ],
+        "closure": [
+          {
+            "text": "Irrigate, consider a drain under the deltoid, and close subcutaneous fascia and skin in layers.",
+            "source_ids": [
+              "ao_6cdbbf257a917f43",
+              "ao_c5861e08ea2a1064"
+            ]
+          }
+        ],
+        "complications": [
+          {
+            "text": "Complications include axillary, musculocutaneous, or radial neurapraxia, plexus injury from forceful retraction, and bleeding from posterior circumflex veins during axillary-nerve isolation.",
+            "source_ids": [
+              "ao_6cdbbf257a917f43",
+              "ao_c5861e08ea2a1064",
+              "ao_b1d85a2691e1f064"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "questions": [
+          {
+            "question": "When should a new deltopectoral incision be made instead of reusing the old scar?",
+            "answer": "When the prior incision does not fit the planned revision or does not allow a necessary landmark to be identified.",
+            "source_ids": [
+              "ao_6cdbbf257a917f43"
+            ]
+          },
+          {
+            "question": "Why are Hohmann retractors unsafe in the distal two-fifths of the humerus?",
+            "answer": "The radial nerve enters the anterior compartment through the lateral intermuscular septum there.",
+            "source_ids": [
+              "ao_6cdbbf257a917f43",
+              "ao_b1d85a2691e1f064"
+            ]
+          },
+          {
+            "question": "How is the axillary nerve found when scar hides it medial to a prosthesis?",
+            "answer": "Identify the lateral cord and musculocutaneous nerve, protect the axillary vessels, then follow the first lateral branch of the posterior cord, which is the axillary nerve.",
+            "source_ids": [
+              "ao_6cdbbf257a917f43"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "approach_id": "shoulder_pp_extended_superior_scapular",
+      "name": "Extended superior scapular approach for periprosthetic spine fractures",
+      "aliases": [
+        "scapular-spine approach around a shoulder prosthesis"
+      ],
+      "region": "scapula",
+      "joint": "shoulder",
+      "bones": [
+        "scapular spine",
+        "acromion"
+      ],
+      "corridor": "Incision along the palpable scapular spine, sharp division of deltoid from the spine and acromial base leaving a cuff for reattachment",
+      "sources": [
+        {
+          "source_id": "ao_ae7562b8bfc2f2bd",
+          "provider": "AO Surgery Reference",
+          "title": "Extended Superior Scapular Approach",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/periprosthetic-fractures/shoulder/approach/extended-superior-scapular-approach",
+          "source_page_id": "ao_ae7562b8bfc2f2bd"
+        },
+        {
+          "source_id": "ao_490a9577ceb8ef6e",
+          "provider": "AO Surgery Reference",
+          "title": "Posterior Approach",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/scapula/approach/posterior-approach",
+          "source_page_id": "ao_490a9577ceb8ef6e"
+        },
+        {
+          "source_id": "ao_21935af2a804d480",
+          "provider": "AO Surgery Reference",
+          "title": "Sabercut Approach",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/scapula/approach/sabercut-approach",
+          "source_page_id": "ao_21935af2a804d480"
+        }
+      ],
+      "procedure_applications": [
+        {
+          "procedure_id": "periprosthetic_shoulder_fracture_orif",
+          "relationship": "primary_option",
+          "condition": "An oblique or transverse scapular-spine fracture around a reverse or anatomic prosthesis is plated from the spine"
+        }
+      ],
+      "sections": {
+        "positioning": [
+          {
+            "text": "Position according to the fracture; extra-articular scapular-spine fractures are generally approached from posterior so the spine and acromial base can be palpated.",
+            "source_ids": [
+              "ao_ae7562b8bfc2f2bd",
+              "ao_490a9577ceb8ef6e"
+            ]
+          }
+        ],
+        "surface_landmarks": [
+          {
+            "text": "Mark the scapular spine, which is usually easy to palpate, and the acromial base.",
+            "source_ids": [
+              "ao_ae7562b8bfc2f2bd",
+              "ao_490a9577ceb8ef6e"
+            ]
+          }
+        ],
+        "incision": [
+          {
+            "text": "Incise along the scapular spine; length depends on the exposure required.",
+            "source_ids": [
+              "ao_ae7562b8bfc2f2bd",
+              "ao_490a9577ceb8ef6e"
+            ]
+          }
+        ],
+        "superficial_interval": [
+          {
+            "text": "Sharply divide deltoid from its insertion on the scapular spine and the acromial base, leaving a small tissue border so the muscle can be repaired.",
+            "source_ids": [
+              "ao_ae7562b8bfc2f2bd",
+              "ao_490a9577ceb8ef6e"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "deep_interval": [
+          {
+            "text": "Work on the extra-articular spine. This is not a full Judet elevation of the scapular body and is not a saber-cut over the AC joint, though a saber cut can be joined if the acromion also needs exposure.",
+            "source_ids": [
+              "ao_ae7562b8bfc2f2bd",
+              "ao_21935af2a804d480"
+            ]
+          }
+        ],
+        "layers": [
+          {
+            "text": "Skin, deltoid origin on the spine and acromion, then the extra-articular scapular spine.",
+            "source_ids": [
+              "ao_ae7562b8bfc2f2bd",
+              "ao_490a9577ceb8ef6e"
+            ]
+          }
+        ],
+        "structures_at_risk": [
+          {
+            "text": "The deltoid origin is at risk if no cuff is left for reattachment. A full posterior body dissection would add the suprascapular nerve at the spinoglenoid notch, which this limited spine window does not require.",
+            "source_ids": [
+              "ao_ae7562b8bfc2f2bd",
+              "ao_490a9577ceb8ef6e"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "danger_zones": [
+          {
+            "text": "Detaching deltoid flush with bone without a repair cuff prevents secure reattachment to the remaining deltoid cuff on the acromion and spine.",
+            "source_ids": [
+              "ao_ae7562b8bfc2f2bd",
+              "ao_490a9577ceb8ef6e"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "retraction_hazards": [
+          {
+            "text": "Release only as much deltoid as the spine fracture requires so the muscle can be repaired to the leftover cuff.",
+            "source_ids": [
+              "ao_ae7562b8bfc2f2bd",
+              "ao_21935af2a804d480"
+            ]
+          }
+        ],
+        "exposure": [
+          {
+            "text": "Shows extra-articular oblique or transverse spine fractures around reverse or anatomic prostheses; these fractures are more often seen with reverse arthroplasty.",
+            "source_ids": [
+              "ao_ae7562b8bfc2f2bd"
+            ]
+          }
+        ],
+        "limitations": [
+          {
+            "text": "Does not expose the scapular body or glenoid the way a Judet approach does, and does not replace a saber-cut AC window.",
+            "source_ids": [
+              "ao_ae7562b8bfc2f2bd",
+              "ao_490a9577ceb8ef6e"
+            ]
+          }
+        ],
+        "indications": [
+          {
+            "text": "Used for extra-articular oblique or transverse scapular-spine fractures around reverse or anatomic prostheses.",
+            "source_ids": [
+              "ao_ae7562b8bfc2f2bd"
+            ]
+          }
+        ],
+        "closure": [
+          {
+            "text": "Reattach the deltoid base and its deep and superficial fascia to the remaining deltoid cuff on the acromion and spine, then close subcutaneous fascia and skin.",
+            "source_ids": [
+              "ao_ae7562b8bfc2f2bd",
+              "ao_490a9577ceb8ef6e"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "complications": [
+          {
+            "text": "Failure to leave a repair cuff or to reattach deltoid leaves a detached origin on the spine and acromion.",
+            "source_ids": [
+              "ao_ae7562b8bfc2f2bd",
+              "ao_490a9577ceb8ef6e"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "questions": [
+          {
+            "question": "Where is the incision for the extended superior scapular approach?",
+            "answer": "Along the palpable scapular spine, with length set by the needed exposure.",
+            "source_ids": [
+              "ao_ae7562b8bfc2f2bd"
+            ]
+          },
+          {
+            "question": "How is deltoid taken off the spine so it can be repaired?",
+            "answer": "Divide it from the spine and acromial base while leaving a small tissue border, then reattach that cuff to the remaining deltoid on the acromion and spine.",
+            "source_ids": [
+              "ao_ae7562b8bfc2f2bd",
+              "ao_490a9577ceb8ef6e"
+            ]
+          },
+          {
+            "question": "Which prosthesis is more often associated with this spine fracture pattern?",
+            "answer": "A reverse shoulder prosthesis.",
+            "source_ids": [
+              "ao_ae7562b8bfc2f2bd"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "approach_id": "shoulder_pp_humeral_osteotomy",
+      "name": "Anterior humeral osteotomy for well-fixed stem extraction",
+      "aliases": [
+        "vertical humeral osteotomy for revision arthroplasty"
+      ],
+      "region": "proximal-humerus",
+      "joint": "shoulder",
+      "bones": [
+        "proximal humerus",
+        "humeral shaft"
+      ],
+      "corridor": "Deltopectoral interval, then a vertical osteotomy between the pectoralis and deltoid tendons from the proximal humerus to the distal end of the stem",
+      "sources": [
+        {
+          "source_id": "ao_58d4245588d948d6",
+          "provider": "AO Surgery Reference",
+          "title": "Humeral Osteotomy",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/periprosthetic-fractures/shoulder/approach/humeral-osteotomy",
+          "source_page_id": "ao_58d4245588d948d6"
+        },
+        {
+          "source_id": "ao_6cdbbf257a917f43",
+          "provider": "AO Surgery Reference",
+          "title": "Deltopectoral Approach",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/periprosthetic-fractures/shoulder/approach/deltopectoral-approach",
+          "source_page_id": "ao_6cdbbf257a917f43"
+        },
+        {
+          "source_id": "ao_c5861e08ea2a1064",
+          "provider": "AO Surgery Reference",
+          "title": "Deltopectoral approach to the proximal humerus",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/proximal-humerus/approach/deltopectoral-approach-to-the-proximal-humerus",
+          "source_page_id": "ao_c5861e08ea2a1064"
+        }
+      ],
+      "procedure_applications": [
+        {
+          "procedure_id": "periprosthetic_shoulder_fracture_orif",
+          "relationship": "conditional_option",
+          "condition": "A well-fixed stem or cement mantle that cannot be extracted through a deltopectoral interval is removed through a controlled vertical humeral osteotomy"
+        }
+      ],
+      "sections": {
+        "positioning": [
+          {
+            "text": "Position as for a deltopectoral revision so the coracoid, bicipital groove, and shaft to the distal stem can be imaged.",
+            "source_ids": [
+              "ao_58d4245588d948d6",
+              "ao_c5861e08ea2a1064"
+            ]
+          }
+        ],
+        "surface_landmarks": [
+          {
+            "text": "After the deltopectoral interval is open, mark the pectoralis tendon, deltoid tendon, long head of biceps, and bicipital groove for the osteotomy line. Fluoroscopy can show the distal end of the stem.",
+            "source_ids": [
+              "ao_58d4245588d948d6"
+            ]
+          }
+        ],
+        "incision": [
+          {
+            "text": "Perform a deltopectoral approach, reusing or replacing the prior scar as for other humeral periprosthetic work.",
+            "source_ids": [
+              "ao_58d4245588d948d6",
+              "ao_6cdbbf257a917f43"
+            ]
+          }
+        ],
+        "superficial_interval": [
+          {
+            "text": "Develop the deltopectoral groove and protect remaining cephalic vein and conjoint-tendon structures as in the revision deltopectoral interval.",
+            "source_ids": [
+              "ao_58d4245588d948d6",
+              "ao_6cdbbf257a917f43"
+            ]
+          }
+        ],
+        "deep_interval": [
+          {
+            "text": "Cut a single vertical osteotomy between the pectoralis and deltoid tendons from the most proximal humerus to the distal end of the prosthesis, using a microsaw down to the implant, or 2 mm drill holes connected with osteotomes if no microsaw is available. A 3.5 mm hole at the distal end of the cut can stop the split from propagating. Spread the osteotomy with multiple osteotomes, backslap the stem on its extractor, and clear remaining cement with osteotomes, curettes, and rongeurs.",
+            "source_ids": [
+              "ao_58d4245588d948d6"
+            ]
+          }
+        ],
+        "layers": [
+          {
+            "text": "Skin, deltopectoral interval, then a controlled anterior cortical osteotomy down to the stem.",
+            "source_ids": [
+              "ao_58d4245588d948d6",
+              "ao_6cdbbf257a917f43"
+            ]
+          }
+        ],
+        "structures_at_risk": [
+          {
+            "text": "The axillary and radial nerves are at risk when cerclage is passed around the posterior humerus. Distal uncontrolled split of the shaft is a risk if the osteotomy is not terminated.",
+            "source_ids": [
+              "ao_58d4245588d948d6"
+            ]
+          }
+        ],
+        "danger_zones": [
+          {
+            "text": "Passing cerclage around the posterior humerus without protecting the axillary and radial nerves, and allowing the osteotomy to propagate distal to the stem, are the principal danger zones.",
+            "source_ids": [
+              "ao_58d4245588d948d6"
+            ]
+          }
+        ],
+        "retraction_hazards": [
+          {
+            "text": "Spread the osteotomy with osteotomes rather than levering the shaft apart, and pass cerclage under direct protection of the posterior nerves.",
+            "source_ids": [
+              "ao_58d4245588d948d6"
+            ]
+          }
+        ],
+        "exposure": [
+          {
+            "text": "Used when ongrowth or a well-fixed cement mantle prevents stem removal through the deltopectoral interval alone.",
+            "source_ids": [
+              "ao_58d4245588d948d6"
+            ]
+          }
+        ],
+        "limitations": [
+          {
+            "text": "This is not a skin approach by itself; it depends on a deltopectoral interval and converts a well-fixed stem into a controlled shaft split that must be repaired.",
+            "source_ids": [
+              "ao_58d4245588d948d6",
+              "ao_6cdbbf257a917f43"
+            ]
+          }
+        ],
+        "indications": [
+          {
+            "text": "Indicated when bone ongrowth or a well-fixed cement mantle prevents easy stem removal.",
+            "source_ids": [
+              "ao_58d4245588d948d6"
+            ]
+          }
+        ],
+        "closure": [
+          {
+            "text": "Repair the osteotomy with at least two cerclage wires or cables, then close the deltopectoral interval in layers.",
+            "source_ids": [
+              "ao_58d4245588d948d6",
+              "ao_6cdbbf257a917f43"
+            ]
+          }
+        ],
+        "complications": [
+          {
+            "text": "Complications include axillary or radial nerve injury during posterior cerclage, distal shaft propagation of the split, and incomplete cement removal.",
+            "source_ids": [
+              "ao_58d4245588d948d6"
+            ]
+          }
+        ],
+        "questions": [
+          {
+            "question": "Where is the vertical humeral osteotomy placed relative to the tendons?",
+            "answer": "Between the pectoralis and deltoid tendons, using the long head of biceps and bicipital groove as additional landmarks, from the proximal humerus to the distal end of the stem.",
+            "source_ids": [
+              "ao_58d4245588d948d6"
+            ]
+          },
+          {
+            "question": "How can distal propagation of the osteotomy be limited?",
+            "answer": "A 3.5 mm drill hole at the distal end of the cut can stop the split from running into the distal shaft.",
+            "source_ids": [
+              "ao_58d4245588d948d6"
+            ]
+          },
+          {
+            "question": "How is the osteotomy repaired, and which nerves are at risk during cerclage?",
+            "answer": "With at least two cerclage wires or cables; the axillary and radial nerves are at risk as the wire is passed around the posterior humerus.",
+            "source_ids": [
+              "ao_58d4245588d948d6"
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,361 @@
+{
+  "schema_version": "brobot_approach_packet_v1",
+  "approach_id": "pediatric_proximal_tibia_medial",
+  "name": "Pediatric medial approaches to the proximal tibia",
+  "aliases": [
+    "pediatric medial proximal-tibial approach",
+    "pediatric medial parapatellar proximal-tibial approach"
+  ],
+  "region": "proximal-tibia",
+  "joint": "knee",
+  "bones": [
+    "proximal tibia"
+  ],
+  "corridor": "Either a posteromedial cut from the medial joint line or a slightly curved cut medial to the patellar tendon; both open pes, retract gastrocnemius, make a submeniscal capsulotomy, and expose metaphysis only below the physis",
+  "positioning": [
+    {
+      "text": "Position with the knee slightly flexed so the medial joint line, pes, and posteromedial tibial edge can be marked.",
+      "claim_ids": [
+        "pediatric_proximal_tibia_medial_positioning_01"
+      ]
+    }
+  ],
+  "setup": [],
+  "surface_landmarks": [
+    {
+      "text": "Mark the medial joint line, pes anserinus, tibial apophysis, and the posteromedial tibial shaft.",
+      "claim_ids": [
+        "pediatric_proximal_tibia_medial_surface_landmarks_01"
+      ]
+    }
+  ],
+  "incision": [
+    {
+      "text": "The medial approach is a straight or slightly curved cut from the medial joint line toward the posteromedial tibial shaft. The medial-parapatellar variant is slightly curved medial to the patellar tendon from the joint line toward the medial tibial shaft. Both can be extended proximally for epiphyseal work and distally for metaphyseal work. The parapatellar variant runs between pes and the tibial apophysis and gives equivalent exposure.",
+      "claim_ids": [
+        "pediatric_proximal_tibia_medial_incision_01"
+      ]
+    }
+  ],
+  "superficial_interval": [
+    {
+      "text": "Open fascia and identify pes anserinus.",
+      "claim_ids": [
+        "pediatric_proximal_tibia_medial_superficial_interval_01"
+      ]
+    }
+  ],
+  "deep_interval": [
+    {
+      "text": "Retract pes anteriorly and gastrocnemius posteriorly and distally. Open the capsule between the meniscus and the plateau edge. For metaphysis, start below the physis and work distally on the anteromedial tibia; pes can be retracted posteriorly for that window. Avoid periosteal stripping and physeal compression.",
+      "claim_ids": [
+        "pediatric_proximal_tibia_medial_deep_interval_01"
+      ]
+    }
+  ],
+  "layers": [
+    {
+      "text": "Skin, fascia, pes anserinus, submeniscal capsule, then the medial plateau and metaphysis below the physis.",
+      "claim_ids": [
+        "pediatric_proximal_tibia_medial_layers_01"
+      ]
+    }
+  ],
+  "structures_encountered": [],
+  "structures_at_risk": [
+    {
+      "text": "The meniscus, the proximal tibial physis, and periosteum around the growth plate are at risk.",
+      "claim_ids": [
+        "pediatric_proximal_tibia_medial_structures_at_risk_01"
+      ]
+    }
+  ],
+  "danger_zones": [
+    {
+      "text": "Metaphyseal dissection must start below the physis. Stripping or compressing the physis is forbidden.",
+      "claim_ids": [
+        "pediatric_proximal_tibia_medial_danger_zones_01"
+      ]
+    }
+  ],
+  "retraction_hazards": [
+    {
+      "text": "Retract pes anteriorly for the joint and posteriorly for the metaphysis rather than detaching it unnecessarily.",
+      "claim_ids": [
+        "pediatric_proximal_tibia_medial_retraction_hazards_01"
+      ]
+    }
+  ],
+  "exposure": [
+    {
+      "text": "Shows a large medial Salter-Harris fragment, the medial plateau, and the anteromedial metaphysis below the physis.",
+      "claim_ids": [
+        "pediatric_proximal_tibia_medial_exposure_01"
+      ]
+    }
+  ],
+  "limitations": [
+    {
+      "text": "The two skin lines give equivalent deep exposure. Neither should strip periosteum or compress the physis.",
+      "claim_ids": [
+        "pediatric_proximal_tibia_medial_limitations_01"
+      ]
+    }
+  ],
+  "extensions": [],
+  "indications": [
+    {
+      "text": "Used for upper-shaft and Salter-Harris II–IV fractures with a large medial component.",
+      "claim_ids": [
+        "pediatric_proximal_tibia_medial_indications_01"
+      ]
+    }
+  ],
+  "relative_contraindications": [],
+  "implant_implications": [],
+  "fluoroscopy_implications": [],
+  "closure": [
+    {
+      "text": "Repair the capsule with absorbable suture and close skin.",
+      "claim_ids": [
+        "pediatric_proximal_tibia_medial_closure_01"
+      ]
+    }
+  ],
+  "complications": [
+    {
+      "text": "Complications include meniscal injury and physeal arrest from stripping or compression.",
+      "claim_ids": [
+        "pediatric_proximal_tibia_medial_complications_01"
+      ]
+    }
+  ],
+  "bailouts": [],
+  "procedure_applications": [
+    {
+      "procedure_id": "pediatric_proximal_tibia_fracture_orif",
+      "relationship": "primary_option",
+      "condition": "An upper-shaft or Salter-Harris II–IV fracture with a large medial component is fixed through a pes-respecting medial window"
+    }
+  ],
+  "questions": [
+    {
+      "question": "How do the medial and medial-parapatellar skin cuts differ?",
+      "answer": "One runs toward the posteromedial tibial edge; the other is medial to the patellar tendon between pes and the tibial apophysis. Deep exposure is equivalent.",
+      "claim_ids": [
+        "pediatric_proximal_tibia_medial_questions_01"
+      ]
+    },
+    {
+      "question": "Where must metaphyseal dissection start?",
+      "answer": "Below the physis.",
+      "claim_ids": [
+        "pediatric_proximal_tibia_medial_questions_02"
+      ]
+    },
+    {
+      "question": "How is the joint opened?",
+      "answer": "By incising the capsule between the meniscus and the plateau edge.",
+      "claim_ids": [
+        "pediatric_proximal_tibia_medial_questions_03"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "pediatric_proximal_tibia_medial_positioning_01",
+      "text": "Position with the knee slightly flexed so the medial joint line, pes, and posteromedial tibial edge can be marked.",
+      "source_ids": [
+        "ao_b04ed6f06fc6b16c",
+        "ao_182c8f329efe69da"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "pediatric_proximal_tibia_medial_surface_landmarks_01",
+      "text": "Mark the medial joint line, pes anserinus, tibial apophysis, and the posteromedial tibial shaft.",
+      "source_ids": [
+        "ao_b04ed6f06fc6b16c",
+        "ao_182c8f329efe69da"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "pediatric_proximal_tibia_medial_incision_01",
+      "text": "The medial approach is a straight or slightly curved cut from the medial joint line toward the posteromedial tibial shaft. The medial-parapatellar variant is slightly curved medial to the patellar tendon from the joint line toward the medial tibial shaft. Both can be extended proximally for epiphyseal work and distally for metaphyseal work. The parapatellar variant runs between pes and the tibial apophysis and gives equivalent exposure.",
+      "source_ids": [
+        "ao_b04ed6f06fc6b16c",
+        "ao_182c8f329efe69da"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "pediatric_proximal_tibia_medial_superficial_interval_01",
+      "text": "Open fascia and identify pes anserinus.",
+      "source_ids": [
+        "ao_b04ed6f06fc6b16c",
+        "ao_182c8f329efe69da",
+        "ao_af1e9417f1305398"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "pediatric_proximal_tibia_medial_deep_interval_01",
+      "text": "Retract pes anteriorly and gastrocnemius posteriorly and distally. Open the capsule between the meniscus and the plateau edge. For metaphysis, start below the physis and work distally on the anteromedial tibia; pes can be retracted posteriorly for that window. Avoid periosteal stripping and physeal compression.",
+      "source_ids": [
+        "ao_b04ed6f06fc6b16c",
+        "ao_182c8f329efe69da"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "pediatric_proximal_tibia_medial_layers_01",
+      "text": "Skin, fascia, pes anserinus, submeniscal capsule, then the medial plateau and metaphysis below the physis.",
+      "source_ids": [
+        "ao_b04ed6f06fc6b16c",
+        "ao_182c8f329efe69da"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "pediatric_proximal_tibia_medial_structures_at_risk_01",
+      "text": "The meniscus, the proximal tibial physis, and periosteum around the growth plate are at risk.",
+      "source_ids": [
+        "ao_b04ed6f06fc6b16c",
+        "ao_182c8f329efe69da"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "pediatric_proximal_tibia_medial_danger_zones_01",
+      "text": "Metaphyseal dissection must start below the physis. Stripping or compressing the physis is forbidden.",
+      "source_ids": [
+        "ao_b04ed6f06fc6b16c",
+        "ao_182c8f329efe69da"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "pediatric_proximal_tibia_medial_retraction_hazards_01",
+      "text": "Retract pes anteriorly for the joint and posteriorly for the metaphysis rather than detaching it unnecessarily.",
+      "source_ids": [
+        "ao_b04ed6f06fc6b16c",
+        "ao_182c8f329efe69da"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "pediatric_proximal_tibia_medial_exposure_01",
+      "text": "Shows a large medial Salter-Harris fragment, the medial plateau, and the anteromedial metaphysis below the physis.",
+      "source_ids": [
+        "ao_b04ed6f06fc6b16c",
+        "ao_182c8f329efe69da"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "pediatric_proximal_tibia_medial_limitations_01",
+      "text": "The two skin lines give equivalent deep exposure. Neither should strip periosteum or compress the physis.",
+      "source_ids": [
+        "ao_182c8f329efe69da"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "pediatric_proximal_tibia_medial_indications_01",
+      "text": "Used for upper-shaft and Salter-Harris II–IV fractures with a large medial component.",
+      "source_ids": [
+        "ao_b04ed6f06fc6b16c",
+        "ao_182c8f329efe69da"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "pediatric_proximal_tibia_medial_closure_01",
+      "text": "Repair the capsule with absorbable suture and close skin.",
+      "source_ids": [
+        "ao_b04ed6f06fc6b16c",
+        "ao_182c8f329efe69da"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "pediatric_proximal_tibia_medial_complications_01",
+      "text": "Complications include meniscal injury and physeal arrest from stripping or compression.",
+      "source_ids": [
+        "ao_b04ed6f06fc6b16c",
+        "ao_182c8f329efe69da"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "pediatric_proximal_tibia_medial_questions_01",
+      "text": "How do the medial and medial-parapatellar skin cuts differ?",
+      "source_ids": [
+        "ao_b04ed6f06fc6b16c",
+        "ao_182c8f329efe69da"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "pediatric_proximal_tibia_medial_questions_02",
+      "text": "Where must metaphyseal dissection start?",
+      "source_ids": [
+        "ao_b04ed6f06fc6b16c",
+        "ao_182c8f329efe69da"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "pediatric_proximal_tibia_medial_questions_03",
+      "text": "How is the joint opened?",
+      "source_ids": [
+        "ao_b04ed6f06fc6b16c",
+        "ao_182c8f329efe69da"
+      ],
+      "risk_level": "medium"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "ao_b04ed6f06fc6b16c",
+      "provider": "AO Surgery Reference",
+      "title": "Medial Approach",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/pediatric-trauma/proximal-tibia/approach/medial-approach",
+      "source_page_id": "ao_b04ed6f06fc6b16c"
+    },
+    {
+      "source_id": "ao_182c8f329efe69da",
+      "provider": "AO Surgery Reference",
+      "title": "Medial Parapatellar Approach",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/pediatric-trauma/proximal-tibia/approach/medial-parapatellar-approach",
+      "source_page_id": "ao_182c8f329efe69da"
+    },
+    {
+      "source_id": "ao_af1e9417f1305398",
+      "provider": "AO Surgery Reference",
+      "title": "Medial Approach Proximal Tibia",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/periprosthetic-fractures/knee/approach/medial-approach-proximal-tibia",
+      "source_page_id": "ao_af1e9417f1305398"
+    }
+  ],
+  "content_status": "agent_review_pending",
+  "review": {
+    "status": "agent_review_pending",
+    "required_roles": [
+      "adversarial_safety_reviewer",
+      "approach_anatomy_reviewer",
+      "educational_value_reviewer",
+      "evidence_reviewer",
+      "operative_exposure_reviewer",
+      "procedure_applicability_reviewer"
+    ],
+    "completed_roles": []
+  },
+  "resolved_contradiction_keys": [],
+  "authoring_provenance": {
+    "method": "local_codex_curated",
+    "definition_file": "data/approach_library/curated/pediatric_tibia_scapula_batch001_v1.json",
+    "api_used": false
+  }
+}

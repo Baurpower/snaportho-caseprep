@@ -1,0 +1,553 @@
+{
+  "approaches": [
+    {
+      "approach_id": "proximal_forearm_medial_fcu_split",
+      "name": "Medial FCU-split approach to the coronoid",
+      "aliases": [
+        "flexor carpi ulnaris split approach to the coronoid"
+      ],
+      "region": "proximal-forearm",
+      "joint": "elbow",
+      "bones": [
+        "ulna"
+      ],
+      "corridor": "Medial approach unroofing the ulnar nerve and splitting the two heads of flexor carpi ulnaris to reach the anteromedial coronoid facet, sublime tubercle, and medial collateral ligament",
+      "sources": [
+        {
+          "source_id": "ao_38754047e709a146",
+          "provider": "AO Surgery Reference",
+          "title": "Medial FCU-split approach (proximal forearm)",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/proximal-forearm/approach/medial-fcu-split",
+          "source_page_id": "ao_38754047e709a146"
+        },
+        {
+          "source_id": "ao_14117b38e77168af",
+          "provider": "AO Surgery Reference",
+          "title": "Medial Taylor and Scham approach (proximal forearm)",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/proximal-forearm/approach/medial-taylor-and-scham",
+          "source_page_id": "ao_14117b38e77168af"
+        }
+      ],
+      "procedure_applications": [
+        {
+          "procedure_id": "coronoid_fracture_orif",
+          "relationship": "primary_option",
+          "condition": "An anteromedial facet coronoid fracture needs medial exposure"
+        }
+      ],
+      "sections": {
+        "positioning": [
+          {
+            "text": "Position supine with the arm on a hand table and the shoulder externally rotated, or across the chest, so the medial elbow is accessible.",
+            "source_ids": [
+              "ao_38754047e709a146"
+            ]
+          }
+        ],
+        "surface_landmarks": [
+          {
+            "text": "Mark the medial epicondyle, the sublime tubercle, and the course of the ulnar nerve between the two heads of flexor carpi ulnaris.",
+            "source_ids": [
+              "ao_38754047e709a146"
+            ]
+          }
+        ],
+        "incision": [
+          {
+            "text": "Use a posterior incision with a medial flap or a direct medial incision, protecting the posterior branches of the medial antebrachial cutaneous nerve.",
+            "source_ids": [
+              "ao_38754047e709a146",
+              "ao_14117b38e77168af"
+            ]
+          }
+        ],
+        "superficial_interval": [
+          {
+            "text": "Identify the ulnar nerve and unroof it about 6 cm proximal and distal to the epicondyle, starting proximally where it is safer, and transpose it anteriorly and subcutaneously if that is safer.",
+            "source_ids": [
+              "ao_38754047e709a146",
+              "ao_14117b38e77168af"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "deep_interval": [
+          {
+            "text": "Split the two heads of flexor carpi ulnaris along the ulnar nerve and elevate the humeral head extraperiosteally off the coronoid, medial collateral ligament, and anterior capsule, starting distally.",
+            "source_ids": [
+              "ao_38754047e709a146"
+            ]
+          }
+        ],
+        "layers": [
+          {
+            "text": "Skin, subcutaneous tissue with the medial antebrachial cutaneous nerve, the ulnar nerve, the two heads of flexor carpi ulnaris, and the anteromedial coronoid.",
+            "source_ids": [
+              "ao_38754047e709a146"
+            ]
+          }
+        ],
+        "structures_at_risk": [
+          {
+            "text": "The ulnar nerve between the FCU heads, the medial antebrachial cutaneous nerve, and the medial collateral ligament are at risk.",
+            "source_ids": [
+              "ao_38754047e709a146",
+              "ao_14117b38e77168af"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "danger_zones": [
+          {
+            "text": "The cubital tunnel and the interval between the FCU heads are the danger zone for the ulnar nerve and its first motor branch.",
+            "source_ids": [
+              "ao_38754047e709a146",
+              "ao_14117b38e77168af"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "retraction_hazards": [
+          {
+            "text": "Protect the unroofed ulnar nerve throughout and preserve the medial collateral ligament by staying extraperiosteal.",
+            "source_ids": [
+              "ao_38754047e709a146",
+              "ao_14117b38e77168af"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "exposure": [
+          {
+            "text": "Exposes the anteromedial facet of the coronoid, the sublime tubercle, and the medial collateral ligament.",
+            "source_ids": [
+              "ao_38754047e709a146"
+            ]
+          }
+        ],
+        "limitations": [
+          {
+            "text": "Exposure is medial; further reach requires additional FCU splitting or flexor-pronator elevation.",
+            "source_ids": [
+              "ao_38754047e709a146"
+            ]
+          }
+        ],
+        "indications": [
+          {
+            "text": "Indicated for fixation of anteromedial facet coronoid fractures.",
+            "source_ids": [
+              "ao_38754047e709a146"
+            ]
+          }
+        ],
+        "closure": [
+          {
+            "text": "Repair the FCU heads, ensure the transposed or in-situ ulnar nerve lies in a healthy bed, and close in layers.",
+            "source_ids": [
+              "ao_38754047e709a146"
+            ]
+          }
+        ],
+        "complications": [
+          {
+            "text": "Complications include ulnar neuropathy, medial antebrachial cutaneous nerve injury, and medial collateral ligament insufficiency.",
+            "source_ids": [
+              "ao_38754047e709a146",
+              "ao_14117b38e77168af"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "questions": [
+          {
+            "question": "What does the FCU-split approach expose best?",
+            "answer": "The anteromedial facet of the coronoid, the sublime tubercle, and the medial collateral ligament.",
+            "source_ids": [
+              "ao_38754047e709a146"
+            ]
+          },
+          {
+            "question": "How far is the ulnar nerve unroofed?",
+            "answer": "About 6 cm proximal and distal to the medial epicondyle.",
+            "source_ids": [
+              "ao_38754047e709a146"
+            ]
+          },
+          {
+            "question": "Where is ulnar nerve exposure begun and why?",
+            "answer": "Proximally, because it is easier and safer to identify the nerve there.",
+            "source_ids": [
+              "ao_38754047e709a146",
+              "ao_14117b38e77168af"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "approach_id": "proximal_forearm_medial_hotchkiss_over_the_top",
+      "name": "Medial Hotchkiss over-the-top approach to the coronoid",
+      "aliases": [
+        "Hotchkiss over-the-top approach"
+      ],
+      "region": "proximal-forearm",
+      "joint": "elbow",
+      "bones": [
+        "ulna"
+      ],
+      "corridor": "Most anterior medial approach elevating the flexor-pronator mass off the medial epicondyle to work over the top to the coronoid tip and anterior elbow joint, with the ulnar nerve protected",
+      "sources": [
+        {
+          "source_id": "ao_905e5b99d543b23e",
+          "provider": "AO Surgery Reference",
+          "title": "Medial Hotchkiss over-the-top approach (proximal forearm)",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/proximal-forearm/approach/medial-hotchkiss-over-the-top",
+          "source_page_id": "ao_905e5b99d543b23e"
+        },
+        {
+          "source_id": "ao_38754047e709a146",
+          "provider": "AO Surgery Reference",
+          "title": "Medial FCU-split approach (proximal forearm)",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/proximal-forearm/approach/medial-fcu-split",
+          "source_page_id": "ao_38754047e709a146"
+        }
+      ],
+      "procedure_applications": [
+        {
+          "procedure_id": "coronoid_fracture_orif",
+          "relationship": "primary_option",
+          "condition": "The coronoid tip or anterior elbow joint needs the most anterior medial exposure"
+        }
+      ],
+      "sections": {
+        "positioning": [
+          {
+            "text": "Position supine with the arm on a hand table and the medial elbow accessible.",
+            "source_ids": [
+              "ao_905e5b99d543b23e"
+            ]
+          }
+        ],
+        "surface_landmarks": [
+          {
+            "text": "Mark the medial epicondyle, the medial supracondylar ridge, and the ulnar nerve.",
+            "source_ids": [
+              "ao_905e5b99d543b23e"
+            ]
+          }
+        ],
+        "incision": [
+          {
+            "text": "Use a posterior incision with a medial skin flap or a direct medial incision, protecting the anteriorly running branches of the medial antebrachial cutaneous nerve.",
+            "source_ids": [
+              "ao_905e5b99d543b23e",
+              "ao_38754047e709a146"
+            ]
+          }
+        ],
+        "superficial_interval": [
+          {
+            "text": "Identify and expose the ulnar nerve for about 6 cm proximally and distally, starting proximally where it is safer, transposing it anteriorly if needed.",
+            "source_ids": [
+              "ao_905e5b99d543b23e",
+              "ao_38754047e709a146"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "deep_interval": [
+          {
+            "text": "Bluntly elevate the pronator teres, flexor carpi radialis, and palmaris longus origins off the medial epicondyle and extend proximally along brachialis and the medial supracondylar ridge extraperiosteally to work over the top of the coronoid, using an anterior capsulotomy or capsulectomy as needed.",
+            "source_ids": [
+              "ao_905e5b99d543b23e"
+            ]
+          }
+        ],
+        "layers": [
+          {
+            "text": "Skin, subcutaneous tissue with the medial antebrachial cutaneous nerve, the ulnar nerve, the flexor-pronator mass, the anterior capsule, and the coronoid.",
+            "source_ids": [
+              "ao_905e5b99d543b23e"
+            ]
+          }
+        ],
+        "structures_at_risk": [
+          {
+            "text": "The ulnar nerve, and the median nerve and brachial artery lying near the anterior edge of the flexor-pronator mass, are at risk.",
+            "source_ids": [
+              "ao_905e5b99d543b23e"
+            ],
+            "risk_level": "medium"
+          }
+        ],
+        "danger_zones": [
+          {
+            "text": "The anterior edge of the flexor-pronator mass is the danger zone for the median nerve and brachial artery.",
+            "source_ids": [
+              "ao_905e5b99d543b23e"
+            ],
+            "risk_level": "medium"
+          }
+        ],
+        "retraction_hazards": [
+          {
+            "text": "Use blunt Hohmann retractors carefully across the anterior joint and keep the ulnar nerve protected.",
+            "source_ids": [
+              "ao_905e5b99d543b23e"
+            ],
+            "risk_level": "medium"
+          }
+        ],
+        "exposure": [
+          {
+            "text": "Exposes the coronoid tip and the entire anterior elbow joint.",
+            "source_ids": [
+              "ao_905e5b99d543b23e"
+            ]
+          }
+        ],
+        "limitations": [
+          {
+            "text": "The anterior neurovascular structures at the edge of the flexor-pronator mass limit how far anteriorly the dissection can go.",
+            "source_ids": [
+              "ao_905e5b99d543b23e"
+            ]
+          }
+        ],
+        "indications": [
+          {
+            "text": "Indicated for coronoid tip fractures and anterior elbow joint access.",
+            "source_ids": [
+              "ao_905e5b99d543b23e"
+            ]
+          }
+        ],
+        "closure": [
+          {
+            "text": "Reattach the flexor-pronator origin, ensure the ulnar nerve lies in a healthy bed, and close in layers.",
+            "source_ids": [
+              "ao_905e5b99d543b23e"
+            ]
+          }
+        ],
+        "complications": [
+          {
+            "text": "Complications include ulnar neuropathy, median nerve or brachial artery injury, and flexor-pronator weakness.",
+            "source_ids": [
+              "ao_905e5b99d543b23e",
+              "ao_38754047e709a146"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "questions": [
+          {
+            "question": "What makes the Hotchkiss approach the most anterior of the medial approaches?",
+            "answer": "It elevates the flexor-pronator mass and works over the top to the coronoid tip and anterior joint.",
+            "source_ids": [
+              "ao_905e5b99d543b23e"
+            ]
+          },
+          {
+            "question": "Which anterior structures are at risk at the edge of the flexor-pronator mass?",
+            "answer": "The median nerve and brachial artery.",
+            "source_ids": [
+              "ao_905e5b99d543b23e"
+            ]
+          },
+          {
+            "question": "How is the anterior joint entered?",
+            "answer": "Through an anterior capsulotomy or capsulectomy as circumstances dictate.",
+            "source_ids": [
+              "ao_905e5b99d543b23e"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "approach_id": "proximal_forearm_medial_taylor_scham",
+      "name": "Medial Taylor and Scham approach to the coronoid",
+      "aliases": [
+        "Taylor and Scham flexor-pronator reflecting approach"
+      ],
+      "region": "proximal-forearm",
+      "joint": "elbow",
+      "bones": [
+        "ulna"
+      ],
+      "corridor": "Medial approach reflecting the whole flexor-pronator mass extraperiosteally from posterior to anterior off the ulna to expose the coronoid base while preserving the medial collateral ligament",
+      "sources": [
+        {
+          "source_id": "ao_14117b38e77168af",
+          "provider": "AO Surgery Reference",
+          "title": "Medial Taylor and Scham approach (proximal forearm)",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/proximal-forearm/approach/medial-taylor-and-scham",
+          "source_page_id": "ao_14117b38e77168af"
+        },
+        {
+          "source_id": "ao_38754047e709a146",
+          "provider": "AO Surgery Reference",
+          "title": "Medial FCU-split approach (proximal forearm)",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/proximal-forearm/approach/medial-fcu-split",
+          "source_page_id": "ao_38754047e709a146"
+        }
+      ],
+      "procedure_applications": [
+        {
+          "procedure_id": "coronoid_fracture_orif",
+          "relationship": "primary_option",
+          "condition": "A large basilar coronoid fracture needs medial plate fixation"
+        }
+      ],
+      "sections": {
+        "positioning": [
+          {
+            "text": "Position supine with the arm on a hand table and the medial elbow accessible.",
+            "source_ids": [
+              "ao_14117b38e77168af"
+            ]
+          }
+        ],
+        "surface_landmarks": [
+          {
+            "text": "Mark the medial epicondyle, the crest of the ulnar shaft, the olecranon, and the sublime tubercle.",
+            "source_ids": [
+              "ao_14117b38e77168af"
+            ]
+          }
+        ],
+        "incision": [
+          {
+            "text": "Use a posterior incision with a medial flap or a direct medial incision, protecting the posterior branches of the medial antebrachial cutaneous nerve.",
+            "source_ids": [
+              "ao_14117b38e77168af",
+              "ao_38754047e709a146"
+            ]
+          }
+        ],
+        "superficial_interval": [
+          {
+            "text": "Identify and protect the ulnar nerve, unroofing it about 6 cm proximal and distal to the epicondyle starting proximally, and incise the fascia between the FCU heads while protecting the first motor branch.",
+            "source_ids": [
+              "ao_14117b38e77168af",
+              "ao_38754047e709a146"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "deep_interval": [
+          {
+            "text": "Elevate the flexor carpi ulnaris and the whole flexor-pronator mass extraperiosteally from posterior to anterior, starting at the ulnar crest and the flat olecranon surface, to expose the coronoid fracture base, dissecting distal to proximal toward the sublime tubercle to protect the medial collateral ligament.",
+            "source_ids": [
+              "ao_14117b38e77168af"
+            ],
+            "risk_level": "medium"
+          }
+        ],
+        "layers": [
+          {
+            "text": "Skin, subcutaneous tissue with the medial antebrachial cutaneous nerve, the ulnar nerve, the flexor-pronator mass, and the medial coronoid base.",
+            "source_ids": [
+              "ao_14117b38e77168af"
+            ]
+          }
+        ],
+        "structures_at_risk": [
+          {
+            "text": "The ulnar nerve and the medial collateral ligament are the primary structures at risk.",
+            "source_ids": [
+              "ao_14117b38e77168af",
+              "ao_38754047e709a146"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "danger_zones": [
+          {
+            "text": "The sublime tubercle region is the danger zone for the medial collateral ligament during elevation.",
+            "source_ids": [
+              "ao_14117b38e77168af"
+            ],
+            "risk_level": "medium"
+          }
+        ],
+        "retraction_hazards": [
+          {
+            "text": "Stay strictly extraperiosteal and dissect distal to proximal toward the sublime tubercle to keep the medial collateral ligament intact, and protect the ulnar nerve.",
+            "source_ids": [
+              "ao_14117b38e77168af"
+            ],
+            "risk_level": "medium"
+          }
+        ],
+        "exposure": [
+          {
+            "text": "Exposes the base of the coronoid for medial plate fixation.",
+            "source_ids": [
+              "ao_14117b38e77168af"
+            ]
+          }
+        ],
+        "limitations": [
+          {
+            "text": "It is designed for large basilar coronoid fractures; an over-the-top interval is added if anterior capsule access is needed.",
+            "source_ids": [
+              "ao_14117b38e77168af"
+            ]
+          }
+        ],
+        "indications": [
+          {
+            "text": "Indicated for medial plate fixation of large, basilar coronoid fractures.",
+            "source_ids": [
+              "ao_14117b38e77168af"
+            ]
+          }
+        ],
+        "closure": [
+          {
+            "text": "Reattach the flexor-pronator mass, ensure the ulnar nerve lies in a healthy bed, and close in layers.",
+            "source_ids": [
+              "ao_14117b38e77168af"
+            ]
+          }
+        ],
+        "complications": [
+          {
+            "text": "Complications include ulnar neuropathy, medial collateral ligament insufficiency, and flexor-pronator weakness.",
+            "source_ids": [
+              "ao_14117b38e77168af",
+              "ao_38754047e709a146"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "questions": [
+          {
+            "question": "What is the crucial pearl of the Taylor and Scham approach?",
+            "answer": "Preserve the medial collateral ligament by dissecting distal to proximal toward the sublime tubercle and staying extraperiosteal.",
+            "source_ids": [
+              "ao_14117b38e77168af"
+            ]
+          },
+          {
+            "question": "In which direction is the flexor-pronator mass elevated?",
+            "answer": "Extraperiosteally from posterior to anterior, starting at the ulnar crest.",
+            "source_ids": [
+              "ao_14117b38e77168af"
+            ]
+          },
+          {
+            "question": "What is the main indication for this approach?",
+            "answer": "Medial plate fixation of large basilar coronoid fractures.",
+            "source_ids": [
+              "ao_14117b38e77168af"
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

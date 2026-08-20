@@ -1,0 +1,380 @@
+{
+  "schema_version": "brobot_approach_packet_v1",
+  "approach_id": "malleolus_lateral_fibula",
+  "name": "Lateral approach to the fibula and lateral malleolus",
+  "aliases": [
+    "direct lateral fibular approach",
+    "lateral approach for high fibular fractures"
+  ],
+  "region": "malleoli",
+  "joint": "ankle",
+  "bones": [
+    "fibula",
+    "lateral malleolus",
+    "distal tibia"
+  ],
+  "corridor": "Longitudinal interval between peroneus tertius anteriorly and peroneus longus/brevis posteriorly, with the incision biased slightly anterior or posterior so a plate does not sit under the wound, and optional limited or extended posterolateral windows to a Volkmann fragment",
+  "positioning": [
+    {
+      "text": "Position so the fibular shaft, lateral malleolus, and syndesmosis can be imaged and the incision biased anterior or posterior to the planned plate.",
+      "claim_ids": [
+        "malleolus_lateral_fibula_positioning_01"
+      ]
+    }
+  ],
+  "setup": [],
+  "surface_landmarks": [
+    {
+      "text": "Mark the fibular shaft, the tip of the lateral malleolus, and the planned plate line. For a high fibular fracture, center the cut over the shaft fracture.",
+      "claim_ids": [
+        "malleolus_lateral_fibula_surface_landmarks_01"
+      ]
+    }
+  ],
+  "incision": [
+    {
+      "text": "Make a 10–15 cm cut in line with the fibula. Place it slightly posterior for a posterior plate, or slightly anterior if the anterior syndesmosis or an anterior-to-posterior Chaput screw is needed. Distally it may curve 2 cm anterior to the malleolar tip to add exposure and release tension.",
+      "claim_ids": [
+        "malleolus_lateral_fibula_incision_01"
+      ]
+    }
+  ],
+  "superficial_interval": [
+    {
+      "text": "Develop the plane between peroneus tertius anteriorly and peroneus longus/brevis posteriorly. Identify and protect the superficial peroneal nerve, which lies close anteriorly, especially proximally. Posteriorly protect the short saphenous vein and sural nerve. Use small retractors or protecting sutures only in good soft tissue.",
+      "claim_ids": [
+        "malleolus_lateral_fibula_superficial_interval_01"
+      ]
+    }
+  ],
+  "deep_interval": [
+    {
+      "text": "Free periosteum only at the fracture. Keep any further dissection on periosteum to spare terminal peroneal-artery branches. A limited Volkmann window incises fascia along the posterior fibula, spares peroneal paratenon, and retracts peroneals dorsally. An extended window incises fascia dorsal to the peroneals at the FHL border, watches the sural nerve, and retracts peroneals anteriorly with FHL and Achilles dorsally.",
+      "claim_ids": [
+        "malleolus_lateral_fibula_deep_interval_01"
+      ]
+    }
+  ],
+  "layers": [
+    {
+      "text": "Skin, sensory-neurovascular plane, peroneus tertius–peroneal interval, limited periosteum, then fibula, with optional posterolateral fascia to the posterior tibia.",
+      "claim_ids": [
+        "malleolus_lateral_fibula_layers_01"
+      ]
+    }
+  ],
+  "structures_encountered": [],
+  "structures_at_risk": [
+    {
+      "text": "The superficial peroneal nerve, sural nerve, short saphenous vein, peroneal tendons and paratenon, and terminal peroneal-artery branches are at risk.",
+      "claim_ids": [
+        "malleolus_lateral_fibula_structures_at_risk_01"
+      ]
+    }
+  ],
+  "danger_zones": [
+    {
+      "text": "The proximal and more-anterior incision is the danger zone for the superficial peroneal nerve; it should be identified and protected whenever the cut is carried proximally for a high fibular fracture.",
+      "claim_ids": [
+        "malleolus_lateral_fibula_danger_zones_01"
+      ]
+    }
+  ],
+  "retraction_hazards": [
+    {
+      "text": "Do not use large retractors in damaged soft tissue. Avoid stripping periosteum beyond what is needed to see the fracture.",
+      "claim_ids": [
+        "malleolus_lateral_fibula_retraction_hazards_01"
+      ]
+    }
+  ],
+  "exposure": [
+    {
+      "text": "Shows the lateral malleolus or high fibular shaft for plating. Distal extension can reach the syndesmosis. Limited or extended posterolateral windows can reach a Volkmann fragment, though a dedicated posterolateral approach may be easier.",
+      "claim_ids": [
+        "malleolus_lateral_fibula_exposure_01"
+      ]
+    }
+  ],
+  "limitations": [
+    {
+      "text": "A plate should not lie directly under the skin cut. A high fibular fracture plus a large Volkmann fragment may be better treated through two separate incisions.",
+      "claim_ids": [
+        "malleolus_lateral_fibula_limitations_01"
+      ]
+    }
+  ],
+  "extensions": [],
+  "indications": [
+    {
+      "text": "The standard corridor for most lateral-malleolar fractures and for high fibular fractures that need open reduction, syndesmotic access, or a Chaput lag screw.",
+      "claim_ids": [
+        "malleolus_lateral_fibula_indications_01"
+      ]
+    }
+  ],
+  "relative_contraindications": [],
+  "implant_implications": [],
+  "fluoroscopy_implications": [],
+  "closure": [
+    {
+      "text": "Allow peroneals to cover hardware, close fascia without nerve or tendon entrapment, and close skin off the plate line.",
+      "claim_ids": [
+        "malleolus_lateral_fibula_closure_01"
+      ]
+    }
+  ],
+  "complications": [
+    {
+      "text": "Complications include superficial-peroneal or sural neuropathy, wound breakdown over a plate under the incision, and periosteal stripping that delays union.",
+      "claim_ids": [
+        "malleolus_lateral_fibula_complications_01"
+      ]
+    }
+  ],
+  "bailouts": [],
+  "procedure_applications": [
+    {
+      "procedure_id": "ankle_fracture_orif",
+      "relationship": "primary_option",
+      "condition": "A lateral-malleolar or high-fibular fracture is plated, with optional access to the anterior syndesmosis or a Volkmann fragment"
+    }
+  ],
+  "questions": [
+    {
+      "question": "What is the deep interval?",
+      "answer": "Peroneus tertius anteriorly and peroneus longus/brevis posteriorly.",
+      "claim_ids": [
+        "malleolus_lateral_fibula_questions_01"
+      ]
+    },
+    {
+      "question": "When should the incision be placed slightly anterior?",
+      "answer": "When anterior syndesmotic access or an anterior-to-posterior Chaput screw is planned.",
+      "claim_ids": [
+        "malleolus_lateral_fibula_questions_02"
+      ]
+    },
+    {
+      "question": "Which nerve is most at risk proximally?",
+      "answer": "The superficial peroneal nerve.",
+      "claim_ids": [
+        "malleolus_lateral_fibula_questions_03"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "malleolus_lateral_fibula_positioning_01",
+      "text": "Position so the fibular shaft, lateral malleolus, and syndesmosis can be imaged and the incision biased anterior or posterior to the planned plate.",
+      "source_ids": [
+        "ao_692babf8613ec05e",
+        "ao_c5620b5bc2bd3364"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "malleolus_lateral_fibula_surface_landmarks_01",
+      "text": "Mark the fibular shaft, the tip of the lateral malleolus, and the planned plate line. For a high fibular fracture, center the cut over the shaft fracture.",
+      "source_ids": [
+        "ao_692babf8613ec05e",
+        "ao_c5620b5bc2bd3364"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "malleolus_lateral_fibula_incision_01",
+      "text": "Make a 10–15 cm cut in line with the fibula. Place it slightly posterior for a posterior plate, or slightly anterior if the anterior syndesmosis or an anterior-to-posterior Chaput screw is needed. Distally it may curve 2 cm anterior to the malleolar tip to add exposure and release tension.",
+      "source_ids": [
+        "ao_692babf8613ec05e",
+        "ao_c5620b5bc2bd3364"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "malleolus_lateral_fibula_superficial_interval_01",
+      "text": "Develop the plane between peroneus tertius anteriorly and peroneus longus/brevis posteriorly. Identify and protect the superficial peroneal nerve, which lies close anteriorly, especially proximally. Posteriorly protect the short saphenous vein and sural nerve. Use small retractors or protecting sutures only in good soft tissue.",
+      "source_ids": [
+        "ao_692babf8613ec05e",
+        "ao_c5620b5bc2bd3364",
+        "ao_7633add5d34bfe3f"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "malleolus_lateral_fibula_deep_interval_01",
+      "text": "Free periosteum only at the fracture. Keep any further dissection on periosteum to spare terminal peroneal-artery branches. A limited Volkmann window incises fascia along the posterior fibula, spares peroneal paratenon, and retracts peroneals dorsally. An extended window incises fascia dorsal to the peroneals at the FHL border, watches the sural nerve, and retracts peroneals anteriorly with FHL and Achilles dorsally.",
+      "source_ids": [
+        "ao_692babf8613ec05e",
+        "ao_c5620b5bc2bd3364"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "malleolus_lateral_fibula_layers_01",
+      "text": "Skin, sensory-neurovascular plane, peroneus tertius–peroneal interval, limited periosteum, then fibula, with optional posterolateral fascia to the posterior tibia.",
+      "source_ids": [
+        "ao_692babf8613ec05e",
+        "ao_7633add5d34bfe3f"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "malleolus_lateral_fibula_structures_at_risk_01",
+      "text": "The superficial peroneal nerve, sural nerve, short saphenous vein, peroneal tendons and paratenon, and terminal peroneal-artery branches are at risk.",
+      "source_ids": [
+        "ao_692babf8613ec05e",
+        "ao_c5620b5bc2bd3364",
+        "ao_7633add5d34bfe3f"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "malleolus_lateral_fibula_danger_zones_01",
+      "text": "The proximal and more-anterior incision is the danger zone for the superficial peroneal nerve; it should be identified and protected whenever the cut is carried proximally for a high fibular fracture.",
+      "source_ids": [
+        "ao_692babf8613ec05e",
+        "ao_c5620b5bc2bd3364"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "malleolus_lateral_fibula_retraction_hazards_01",
+      "text": "Do not use large retractors in damaged soft tissue. Avoid stripping periosteum beyond what is needed to see the fracture.",
+      "source_ids": [
+        "ao_692babf8613ec05e",
+        "ao_c5620b5bc2bd3364"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "malleolus_lateral_fibula_exposure_01",
+      "text": "Shows the lateral malleolus or high fibular shaft for plating. Distal extension can reach the syndesmosis. Limited or extended posterolateral windows can reach a Volkmann fragment, though a dedicated posterolateral approach may be easier.",
+      "source_ids": [
+        "ao_692babf8613ec05e",
+        "ao_c5620b5bc2bd3364"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "malleolus_lateral_fibula_limitations_01",
+      "text": "A plate should not lie directly under the skin cut. A high fibular fracture plus a large Volkmann fragment may be better treated through two separate incisions.",
+      "source_ids": [
+        "ao_692babf8613ec05e",
+        "ao_c5620b5bc2bd3364"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "malleolus_lateral_fibula_indications_01",
+      "text": "The standard corridor for most lateral-malleolar fractures and for high fibular fractures that need open reduction, syndesmotic access, or a Chaput lag screw.",
+      "source_ids": [
+        "ao_692babf8613ec05e",
+        "ao_c5620b5bc2bd3364"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "malleolus_lateral_fibula_closure_01",
+      "text": "Allow peroneals to cover hardware, close fascia without nerve or tendon entrapment, and close skin off the plate line.",
+      "source_ids": [
+        "ao_7633add5d34bfe3f",
+        "ao_692babf8613ec05e"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "malleolus_lateral_fibula_complications_01",
+      "text": "Complications include superficial-peroneal or sural neuropathy, wound breakdown over a plate under the incision, and periosteal stripping that delays union.",
+      "source_ids": [
+        "ao_692babf8613ec05e",
+        "ao_c5620b5bc2bd3364",
+        "ao_7633add5d34bfe3f"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "malleolus_lateral_fibula_questions_01",
+      "text": "What is the deep interval?",
+      "source_ids": [
+        "ao_692babf8613ec05e",
+        "ao_c5620b5bc2bd3364"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "malleolus_lateral_fibula_questions_02",
+      "text": "When should the incision be placed slightly anterior?",
+      "source_ids": [
+        "ao_692babf8613ec05e",
+        "ao_c5620b5bc2bd3364"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "malleolus_lateral_fibula_questions_03",
+      "text": "Which nerve is most at risk proximally?",
+      "source_ids": [
+        "ao_692babf8613ec05e",
+        "ao_c5620b5bc2bd3364"
+      ],
+      "risk_level": "medium"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "ao_692babf8613ec05e",
+      "provider": "AO Surgery Reference",
+      "title": "Lateral Approach",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/malleoli/approach/lateral-approach",
+      "source_page_id": "ao_692babf8613ec05e"
+    },
+    {
+      "source_id": "ao_c5620b5bc2bd3364",
+      "provider": "AO Surgery Reference",
+      "title": "Lateral Approach For High Fibular Fractures",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/malleoli/approach/lateral-approach-for-high-fibular-fractures",
+      "source_page_id": "ao_c5620b5bc2bd3364"
+    },
+    {
+      "source_id": "ao_7633add5d34bfe3f",
+      "provider": "AO Surgery Reference",
+      "title": "Lateral Approach (pediatric distal fibula)",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/pediatric-trauma/distal-tibia-fibula/approach/lateral-approach",
+      "source_page_id": "ao_7633add5d34bfe3f"
+    },
+    {
+      "source_id": "orthobullets_e194760466959ba7",
+      "provider": "Orthobullets",
+      "title": "Approach To The Lateral Malleolus",
+      "url": "https://www.orthobullets.com/approaches/12037/approach-to-the-lateral-malleolus",
+      "source_page_id": "orthobullets_e194760466959ba7"
+    },
+    {
+      "source_id": "orthobullets_ff367d6088940ae0",
+      "provider": "Orthobullets",
+      "title": "Approach To The Fibula",
+      "url": "https://www.orthobullets.com/approaches/12036/approach-to-the-fibula",
+      "source_page_id": "orthobullets_ff367d6088940ae0"
+    }
+  ],
+  "content_status": "agent_review_pending",
+  "review": {
+    "status": "agent_review_pending",
+    "required_roles": [
+      "adversarial_safety_reviewer",
+      "approach_anatomy_reviewer",
+      "educational_value_reviewer",
+      "evidence_reviewer",
+      "operative_exposure_reviewer",
+      "procedure_applicability_reviewer"
+    ],
+    "completed_roles": []
+  },
+  "resolved_contradiction_keys": [],
+  "authoring_provenance": {
+    "method": "local_codex_curated",
+    "definition_file": "data/approach_library/curated/malleoli_patella_batch001_v1.json",
+    "api_used": false
+  }
+}

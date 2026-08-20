@@ -1,0 +1,336 @@
+{
+  "schema_version": "brobot_approach_packet_v1",
+  "approach_id": "spine_mi_left_thoracic",
+  "name": "Minimally invasive left-sided thoracic approach (T10–L2)",
+  "aliases": [
+    "mini-open thoracoscopically assisted left thoracotomy"
+  ],
+  "region": "thoracolumbar",
+  "joint": "",
+  "bones": [
+    "T10",
+    "T11",
+    "T12",
+    "L1",
+    "L2"
+  ],
+  "corridor": "Mini-thoracotomy over the marked vertebra, pleura entered above the rib, then thoracoscopic viewing and retraction portals; alternatively fully video-assisted portals without a mini-thoracotomy",
+  "positioning": [
+    {
+      "text": "Position for a left chest approach. Right-sided windows are used for T4–T10; left-sided for T10–L2, depending on aortic anatomy. Between T8–T10 either side may be chosen after locating the aorta.",
+      "claim_ids": [
+        "spine_mi_left_thoracic_positioning_01"
+      ]
+    }
+  ],
+  "setup": [],
+  "surface_landmarks": [
+    {
+      "text": "Mark the fractured or apical vertebra. For bisegmental work the cut runs from the posterior edge of the lower endplate above to the anterior edge of the upper endplate below.",
+      "claim_ids": [
+        "spine_mi_left_thoracic_surface_landmarks_01"
+      ]
+    }
+  ],
+  "incision": [
+    {
+      "text": "Incise on the mark down to the rib. For Scheuermann, a small apical cut can release up to five discs.",
+      "claim_ids": [
+        "spine_mi_left_thoracic_incision_01"
+      ]
+    }
+  ],
+  "superficial_interval": [
+    {
+      "text": "Take intercostal muscle off the cranial rib border, open pleura without injuring lung, and spread the rib. Insert a thoracoscope through the mini-thoracotomy to inspect for adhesions before further portals.",
+      "claim_ids": [
+        "spine_mi_left_thoracic_superficial_interval_01"
+      ]
+    }
+  ],
+  "deep_interval": [
+    {
+      "text": "Place a 20 mm viewing portal two intercostal spaces cranial at the anterior vertebral-body edge and a retraction portal one space cranial and about 10 cm anterior, entering above the rib. Open parietal pleura over the discs (hills) at the target and one level above and below. Spare segmental vessels for discectomy; coagulate them for instrumentation. Expose subperiosteally to the ALL and posteriorly to the rib heads. Full VAT replaces the mini-thoracotomy with two extra portals and is used mainly for noninstrumented cases.",
+      "claim_ids": [
+        "spine_mi_left_thoracic_deep_interval_01"
+      ]
+    }
+  ],
+  "layers": [
+    {
+      "text": "Skin, chest wall, pleural cavity, parietal pleura over the spine, segmental vessels, then the vertebral body.",
+      "claim_ids": [
+        "spine_mi_left_thoracic_layers_01"
+      ]
+    }
+  ],
+  "structures_encountered": [],
+  "structures_at_risk": [
+    {
+      "text": "Lung, intercostal bundle, segmental vessels, and the great vessels at the ALL are at risk. On the right the thoracic duct is in play; on the left the hemiazygos may need ligation. The aorta is shifted anteriorly at a Scheuermann apex.",
+      "claim_ids": [
+        "spine_mi_left_thoracic_structures_at_risk_01"
+      ]
+    }
+  ],
+  "danger_zones": [
+    {
+      "text": "Entering below the rib and working without protecting the great vessels at the ALL are the danger zones.",
+      "claim_ids": [
+        "spine_mi_left_thoracic_danger_zones_01"
+      ]
+    }
+  ],
+  "retraction_hazards": [
+    {
+      "text": "Remove the viewing portal last after the lung is fully inflated under thoracoscopic vision.",
+      "claim_ids": [
+        "spine_mi_left_thoracic_retraction_hazards_01"
+      ]
+    }
+  ],
+  "exposure": [
+    {
+      "text": "Mini-open thoracoscopically assisted thoracotomy is preferred for instrumented cases; full VAT for noninstrumented release.",
+      "claim_ids": [
+        "spine_mi_left_thoracic_exposure_01"
+      ]
+    }
+  ],
+  "limitations": [
+    {
+      "text": "Side choice depends on aortic anatomy; T4–T10 is typically a right-sided window.",
+      "claim_ids": [
+        "spine_mi_left_thoracic_limitations_01"
+      ]
+    }
+  ],
+  "extensions": [],
+  "indications": [
+    {
+      "text": "Used for minimally invasive left thoracic access from T10 to L2 in trauma and for apical release in Scheuermann kyphosis.",
+      "claim_ids": [
+        "spine_mi_left_thoracic_indications_01"
+      ]
+    }
+  ],
+  "relative_contraindications": [],
+  "implant_implications": [],
+  "fluoroscopy_implications": [],
+  "closure": [
+    {
+      "text": "Suture parietal pleura if possible. Place two chest drains (viewing portal to the cranial anterior chest as a pneumothorax drain; retraction portal to the caudal posterior chest as a wound drain) and close in layers.",
+      "claim_ids": [
+        "spine_mi_left_thoracic_closure_01"
+      ]
+    }
+  ],
+  "complications": [
+    {
+      "text": "Complications include lung injury, intercostal-bundle injury, and great-vessel injury.",
+      "claim_ids": [
+        "spine_mi_left_thoracic_complications_01"
+      ]
+    }
+  ],
+  "bailouts": [],
+  "procedure_applications": [
+    {
+      "procedure_id": "thoracolumbar_fracture_orif",
+      "relationship": "primary_option",
+      "condition": "A T10–L2 fracture is instrumented through a mini-open left thoracotomy; VAT is preferred for noninstrumented release"
+    }
+  ],
+  "questions": [
+    {
+      "question": "When is left versus right mini-thoracic access preferred?",
+      "answer": "Right for T4–T10, left for T10–L2, according to aortic anatomy; T8–T10 can be either after locating the aorta.",
+      "claim_ids": [
+        "spine_mi_left_thoracic_questions_01"
+      ]
+    },
+    {
+      "question": "Where are the viewing and retraction portals relative to the mini-thoracotomy?",
+      "answer": "Viewing portal two intercostal spaces cranial at the anterior vertebral-body edge; retraction portal one space cranial and about 10 cm anterior.",
+      "claim_ids": [
+        "spine_mi_left_thoracic_questions_02"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "spine_mi_left_thoracic_positioning_01",
+      "text": "Position for a left chest approach. Right-sided windows are used for T4–T10; left-sided for T10–L2, depending on aortic anatomy. Between T8–T10 either side may be chosen after locating the aorta.",
+      "source_ids": [
+        "ao_b3ce0222076ef04f"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "spine_mi_left_thoracic_surface_landmarks_01",
+      "text": "Mark the fractured or apical vertebra. For bisegmental work the cut runs from the posterior edge of the lower endplate above to the anterior edge of the upper endplate below.",
+      "source_ids": [
+        "ao_b3ce0222076ef04f",
+        "ao_db81909246111999"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "spine_mi_left_thoracic_incision_01",
+      "text": "Incise on the mark down to the rib. For Scheuermann, a small apical cut can release up to five discs.",
+      "source_ids": [
+        "ao_b3ce0222076ef04f",
+        "ao_db81909246111999"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "spine_mi_left_thoracic_superficial_interval_01",
+      "text": "Take intercostal muscle off the cranial rib border, open pleura without injuring lung, and spread the rib. Insert a thoracoscope through the mini-thoracotomy to inspect for adhesions before further portals.",
+      "source_ids": [
+        "ao_b3ce0222076ef04f",
+        "ao_db81909246111999"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "spine_mi_left_thoracic_deep_interval_01",
+      "text": "Place a 20 mm viewing portal two intercostal spaces cranial at the anterior vertebral-body edge and a retraction portal one space cranial and about 10 cm anterior, entering above the rib. Open parietal pleura over the discs (hills) at the target and one level above and below. Spare segmental vessels for discectomy; coagulate them for instrumentation. Expose subperiosteally to the ALL and posteriorly to the rib heads. Full VAT replaces the mini-thoracotomy with two extra portals and is used mainly for noninstrumented cases.",
+      "source_ids": [
+        "ao_b3ce0222076ef04f",
+        "ao_db81909246111999"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "spine_mi_left_thoracic_layers_01",
+      "text": "Skin, chest wall, pleural cavity, parietal pleura over the spine, segmental vessels, then the vertebral body.",
+      "source_ids": [
+        "ao_b3ce0222076ef04f",
+        "ao_db81909246111999"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "spine_mi_left_thoracic_structures_at_risk_01",
+      "text": "Lung, intercostal bundle, segmental vessels, and the great vessels at the ALL are at risk. On the right the thoracic duct is in play; on the left the hemiazygos may need ligation. The aorta is shifted anteriorly at a Scheuermann apex.",
+      "source_ids": [
+        "ao_b3ce0222076ef04f",
+        "ao_db81909246111999"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "spine_mi_left_thoracic_danger_zones_01",
+      "text": "Entering below the rib and working without protecting the great vessels at the ALL are the danger zones.",
+      "source_ids": [
+        "ao_b3ce0222076ef04f",
+        "ao_db81909246111999"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "spine_mi_left_thoracic_retraction_hazards_01",
+      "text": "Remove the viewing portal last after the lung is fully inflated under thoracoscopic vision.",
+      "source_ids": [
+        "ao_b3ce0222076ef04f",
+        "ao_db81909246111999"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "spine_mi_left_thoracic_exposure_01",
+      "text": "Mini-open thoracoscopically assisted thoracotomy is preferred for instrumented cases; full VAT for noninstrumented release.",
+      "source_ids": [
+        "ao_b3ce0222076ef04f"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "spine_mi_left_thoracic_limitations_01",
+      "text": "Side choice depends on aortic anatomy; T4–T10 is typically a right-sided window.",
+      "source_ids": [
+        "ao_b3ce0222076ef04f"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "spine_mi_left_thoracic_indications_01",
+      "text": "Used for minimally invasive left thoracic access from T10 to L2 in trauma and for apical release in Scheuermann kyphosis.",
+      "source_ids": [
+        "ao_b3ce0222076ef04f",
+        "ao_db81909246111999"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "spine_mi_left_thoracic_closure_01",
+      "text": "Suture parietal pleura if possible. Place two chest drains (viewing portal to the cranial anterior chest as a pneumothorax drain; retraction portal to the caudal posterior chest as a wound drain) and close in layers.",
+      "source_ids": [
+        "ao_b3ce0222076ef04f"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "spine_mi_left_thoracic_complications_01",
+      "text": "Complications include lung injury, intercostal-bundle injury, and great-vessel injury.",
+      "source_ids": [
+        "ao_b3ce0222076ef04f",
+        "ao_db81909246111999"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "spine_mi_left_thoracic_questions_01",
+      "text": "When is left versus right mini-thoracic access preferred?",
+      "source_ids": [
+        "ao_b3ce0222076ef04f"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "spine_mi_left_thoracic_questions_02",
+      "text": "Where are the viewing and retraction portals relative to the mini-thoracotomy?",
+      "source_ids": [
+        "ao_b3ce0222076ef04f",
+        "ao_db81909246111999"
+      ],
+      "risk_level": "medium"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "ao_b3ce0222076ef04f",
+      "provider": "AO Surgery Reference",
+      "title": "Minimally Invasive Left Sided Thoracic Approach T10 L2",
+      "url": "https://surgeryreference.aofoundation.org/spine/trauma/thoracolumbar/approach/minimally-invasive-left-sided-thoracic-approach-t10-l2",
+      "source_page_id": "ao_b3ce0222076ef04f"
+    },
+    {
+      "source_id": "ao_db81909246111999",
+      "provider": "AO Surgery Reference",
+      "title": "Minimally Invasive Left Side Thoracic Approach",
+      "url": "https://surgeryreference.aofoundation.org/spine/deformities/scheuermanns-kyphosis/approach/minimally-invasive-left-side-thoracic-approach",
+      "source_page_id": "ao_db81909246111999"
+    }
+  ],
+  "content_status": "agent_review_pending",
+  "review": {
+    "status": "agent_review_pending",
+    "required_roles": [
+      "adversarial_safety_reviewer",
+      "approach_anatomy_reviewer",
+      "educational_value_reviewer",
+      "evidence_reviewer",
+      "operative_exposure_reviewer",
+      "procedure_applicability_reviewer"
+    ],
+    "completed_roles": []
+  },
+  "resolved_contradiction_keys": [],
+  "authoring_provenance": {
+    "method": "local_codex_curated",
+    "definition_file": "data/approach_library/curated/spine_remaining_batch001_v1.json",
+    "api_used": false
+  }
+}

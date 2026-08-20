@@ -1,0 +1,342 @@
+{
+  "schema_version": "brobot_approach_packet_v1",
+  "approach_id": "humeral_shaft_pediatric_anterolateral",
+  "name": "Pediatric anterolateral approach to the humeral shaft",
+  "aliases": [
+    "child anterolateral humeral approach"
+  ],
+  "region": "humeral-shaft",
+  "joint": "",
+  "bones": [
+    "humerus"
+  ],
+  "corridor": "Anterolateral interval between biceps/brachialis medially and the mobile wad laterally, splitting brachialis in the plane between the radial and musculocutaneous nerves to reach the anterior humerus",
+  "positioning": [
+    {
+      "text": "Position supine with the arm on a hand table and the shoulder to distal arm accessible.",
+      "claim_ids": [
+        "humeral_shaft_pediatric_anterolateral_positioning_01"
+      ]
+    }
+  ],
+  "setup": [],
+  "surface_landmarks": [
+    {
+      "text": "Mark the deltopectoral interval proximally and the biceps and mobile wad interval distally.",
+      "claim_ids": [
+        "humeral_shaft_pediatric_anterolateral_surface_landmarks_01"
+      ]
+    }
+  ],
+  "incision": [
+    {
+      "text": "Follow a line from the interval between biceps and the mobile wad distally to the deltopectoral interval proximally.",
+      "claim_ids": [
+        "humeral_shaft_pediatric_anterolateral_incision_01"
+      ]
+    }
+  ],
+  "superficial_interval": [
+    {
+      "text": "Incise the fascia between biceps/brachialis and the mobile wad, retract the biceps medially and the mobile wad laterally, identifying the cephalic vein proximally.",
+      "claim_ids": [
+        "humeral_shaft_pediatric_anterolateral_superficial_interval_01"
+      ]
+    }
+  ],
+  "deep_interval": [
+    {
+      "text": "Split the brachialis in the plane between the radial and musculocutaneous nerves to keep its dual innervation and protect the radial nerve where it perforates the lateral intermuscular septum.",
+      "claim_ids": [
+        "humeral_shaft_pediatric_anterolateral_deep_interval_01"
+      ]
+    }
+  ],
+  "layers": [
+    {
+      "text": "Skin, subcutaneous tissue, fascia, the biceps/brachialis and mobile wad interval, the split brachialis, and the anterior humerus.",
+      "claim_ids": [
+        "humeral_shaft_pediatric_anterolateral_layers_01"
+      ]
+    }
+  ],
+  "structures_encountered": [],
+  "structures_at_risk": [
+    {
+      "text": "The radial nerve perforating the lateral intermuscular septum, the lateral cutaneous nerve of the forearm distally, and the musculocutaneous nerve are at risk.",
+      "claim_ids": [
+        "humeral_shaft_pediatric_anterolateral_structures_at_risk_01"
+      ]
+    }
+  ],
+  "danger_zones": [
+    {
+      "text": "The distal lateral humerus where the radial nerve perforates the septum is the danger zone.",
+      "claim_ids": [
+        "humeral_shaft_pediatric_anterolateral_danger_zones_01"
+      ]
+    }
+  ],
+  "retraction_hazards": [
+    {
+      "text": "Split brachialis in its midline to protect the radial nerve laterally and keep the mobile wad retraction gentle.",
+      "claim_ids": [
+        "humeral_shaft_pediatric_anterolateral_retraction_hazards_01"
+      ]
+    }
+  ],
+  "exposure": [
+    {
+      "text": "Exposes the anterior surface of the proximal and mid humerus.",
+      "claim_ids": [
+        "humeral_shaft_pediatric_anterolateral_exposure_01"
+      ]
+    }
+  ],
+  "limitations": [
+    {
+      "text": "Distal extension is limited by the radial nerve, and very distal fractures may need a separate exposure.",
+      "claim_ids": [
+        "humeral_shaft_pediatric_anterolateral_limitations_01"
+      ]
+    }
+  ],
+  "extensions": [],
+  "indications": [
+    {
+      "text": "Indicated for plating of pediatric proximal and midshaft humeral fractures.",
+      "claim_ids": [
+        "humeral_shaft_pediatric_anterolateral_indications_01"
+      ]
+    }
+  ],
+  "relative_contraindications": [],
+  "implant_implications": [],
+  "fluoroscopy_implications": [],
+  "closure": [
+    {
+      "text": "Close the subcutaneous tissues and skin in layers with absorbable sutures.",
+      "claim_ids": [
+        "humeral_shaft_pediatric_anterolateral_closure_01"
+      ]
+    }
+  ],
+  "complications": [
+    {
+      "text": "Complications include radial nerve palsy, lateral forearm cutaneous nerve injury, and wound problems.",
+      "claim_ids": [
+        "humeral_shaft_pediatric_anterolateral_complications_01"
+      ]
+    }
+  ],
+  "bailouts": [],
+  "procedure_applications": [
+    {
+      "procedure_id": "humeral_shaft_fracture_orif",
+      "relationship": "primary_option",
+      "condition": "A pediatric proximal or midshaft humeral fracture is plated through an anterior interval"
+    }
+  ],
+  "questions": [
+    {
+      "question": "In what nerve plane is the brachialis split in the anterolateral humeral approach?",
+      "answer": "Between the radial and musculocutaneous nerves.",
+      "claim_ids": [
+        "humeral_shaft_pediatric_anterolateral_questions_01"
+      ]
+    },
+    {
+      "question": "Where does the radial nerve enter the anterior compartment?",
+      "answer": "By perforating the lateral intermuscular septum distally.",
+      "claim_ids": [
+        "humeral_shaft_pediatric_anterolateral_questions_02"
+      ]
+    },
+    {
+      "question": "Why split brachialis rather than take it off one side?",
+      "answer": "To preserve its dual radial and musculocutaneous innervation.",
+      "claim_ids": [
+        "humeral_shaft_pediatric_anterolateral_questions_03"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "humeral_shaft_pediatric_anterolateral_positioning_01",
+      "text": "Position supine with the arm on a hand table and the shoulder to distal arm accessible.",
+      "source_ids": [
+        "ao_1d8aafada0e59515"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "humeral_shaft_pediatric_anterolateral_surface_landmarks_01",
+      "text": "Mark the deltopectoral interval proximally and the biceps and mobile wad interval distally.",
+      "source_ids": [
+        "ao_1d8aafada0e59515"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "humeral_shaft_pediatric_anterolateral_incision_01",
+      "text": "Follow a line from the interval between biceps and the mobile wad distally to the deltopectoral interval proximally.",
+      "source_ids": [
+        "ao_1d8aafada0e59515"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "humeral_shaft_pediatric_anterolateral_superficial_interval_01",
+      "text": "Incise the fascia between biceps/brachialis and the mobile wad, retract the biceps medially and the mobile wad laterally, identifying the cephalic vein proximally.",
+      "source_ids": [
+        "ao_1d8aafada0e59515",
+        "ao_b1d85a2691e1f064"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "humeral_shaft_pediatric_anterolateral_deep_interval_01",
+      "text": "Split the brachialis in the plane between the radial and musculocutaneous nerves to keep its dual innervation and protect the radial nerve where it perforates the lateral intermuscular septum.",
+      "source_ids": [
+        "ao_1d8aafada0e59515",
+        "ao_b1d85a2691e1f064"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "humeral_shaft_pediatric_anterolateral_layers_01",
+      "text": "Skin, subcutaneous tissue, fascia, the biceps/brachialis and mobile wad interval, the split brachialis, and the anterior humerus.",
+      "source_ids": [
+        "ao_1d8aafada0e59515"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "humeral_shaft_pediatric_anterolateral_structures_at_risk_01",
+      "text": "The radial nerve perforating the lateral intermuscular septum, the lateral cutaneous nerve of the forearm distally, and the musculocutaneous nerve are at risk.",
+      "source_ids": [
+        "ao_1d8aafada0e59515",
+        "ao_b1d85a2691e1f064"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "humeral_shaft_pediatric_anterolateral_danger_zones_01",
+      "text": "The distal lateral humerus where the radial nerve perforates the septum is the danger zone.",
+      "source_ids": [
+        "ao_1d8aafada0e59515",
+        "ao_b1d85a2691e1f064"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "humeral_shaft_pediatric_anterolateral_retraction_hazards_01",
+      "text": "Split brachialis in its midline to protect the radial nerve laterally and keep the mobile wad retraction gentle.",
+      "source_ids": [
+        "ao_1d8aafada0e59515"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "humeral_shaft_pediatric_anterolateral_exposure_01",
+      "text": "Exposes the anterior surface of the proximal and mid humerus.",
+      "source_ids": [
+        "ao_1d8aafada0e59515"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "humeral_shaft_pediatric_anterolateral_limitations_01",
+      "text": "Distal extension is limited by the radial nerve, and very distal fractures may need a separate exposure.",
+      "source_ids": [
+        "ao_1d8aafada0e59515"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "humeral_shaft_pediatric_anterolateral_indications_01",
+      "text": "Indicated for plating of pediatric proximal and midshaft humeral fractures.",
+      "source_ids": [
+        "ao_1d8aafada0e59515"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "humeral_shaft_pediatric_anterolateral_closure_01",
+      "text": "Close the subcutaneous tissues and skin in layers with absorbable sutures.",
+      "source_ids": [
+        "ao_1d8aafada0e59515"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "humeral_shaft_pediatric_anterolateral_complications_01",
+      "text": "Complications include radial nerve palsy, lateral forearm cutaneous nerve injury, and wound problems.",
+      "source_ids": [
+        "ao_1d8aafada0e59515",
+        "ao_b1d85a2691e1f064"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "humeral_shaft_pediatric_anterolateral_questions_01",
+      "text": "In what nerve plane is the brachialis split in the anterolateral humeral approach?",
+      "source_ids": [
+        "ao_1d8aafada0e59515"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "humeral_shaft_pediatric_anterolateral_questions_02",
+      "text": "Where does the radial nerve enter the anterior compartment?",
+      "source_ids": [
+        "ao_1d8aafada0e59515",
+        "ao_b1d85a2691e1f064"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "humeral_shaft_pediatric_anterolateral_questions_03",
+      "text": "Why split brachialis rather than take it off one side?",
+      "source_ids": [
+        "ao_1d8aafada0e59515"
+      ],
+      "risk_level": "medium"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "ao_1d8aafada0e59515",
+      "provider": "AO Surgery Reference",
+      "title": "Anterolateral approach to the humeral shaft (pediatric)",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/pediatric-trauma/humeral-shaft/approach/anterolateral-approach",
+      "source_page_id": "ao_1d8aafada0e59515"
+    },
+    {
+      "source_id": "ao_b1d85a2691e1f064",
+      "provider": "AO Surgery Reference",
+      "title": "Extended deltopectoral approach to the humeral shaft",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/humeral-shaft/approach/extended-deltopectoral-approach-to-the-humeral-shaft",
+      "source_page_id": "ao_b1d85a2691e1f064"
+    }
+  ],
+  "content_status": "agent_review_pending",
+  "review": {
+    "status": "agent_review_pending",
+    "required_roles": [
+      "adversarial_safety_reviewer",
+      "approach_anatomy_reviewer",
+      "educational_value_reviewer",
+      "evidence_reviewer",
+      "operative_exposure_reviewer",
+      "procedure_applicability_reviewer"
+    ],
+    "completed_roles": []
+  },
+  "resolved_contradiction_keys": [],
+  "authoring_provenance": {
+    "method": "local_codex_curated",
+    "definition_file": "data/approach_library/curated/hand_humerus_ped_batch002_v1.json",
+    "api_used": false
+  }
+}

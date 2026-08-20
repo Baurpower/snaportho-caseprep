@@ -1,0 +1,339 @@
+{
+  "schema_version": "brobot_approach_packet_v1",
+  "approach_id": "proximal_femur_nailing_entry",
+  "name": "Approach for proximal femoral nailing",
+  "aliases": [
+    "trochanteric entry approach for cephalomedullary nailing"
+  ],
+  "region": "proximal-femur",
+  "joint": "",
+  "bones": [
+    "proximal femur"
+  ],
+  "corridor": "Small proximal incision above the greater trochanter, splitting the gluteal fascia and fibers bluntly to the trochanteric tip entry point for a cephalomedullary nail",
+  "positioning": [
+    {
+      "text": "Position supine on a traction table with the trunk adducted toward the injured side to allow a straight proximal nail entry, with image intensifier access.",
+      "claim_ids": [
+        "proximal_femur_nailing_entry_positioning_01"
+      ]
+    }
+  ],
+  "setup": [],
+  "surface_landmarks": [
+    {
+      "text": "Palpate the tip of the greater trochanter and plan the incision along the bowed femoral axis.",
+      "claim_ids": [
+        "proximal_femur_nailing_entry_surface_landmarks_01"
+      ]
+    }
+  ],
+  "incision": [
+    {
+      "text": "Make a 3 to 5 cm skin incision several centimeters proximal to the tip of the greater trochanter.",
+      "claim_ids": [
+        "proximal_femur_nailing_entry_incision_01"
+      ]
+    }
+  ],
+  "superficial_interval": [
+    {
+      "text": "Incise the gluteal fascia longitudinally over 3 to 8 cm and split the gluteal muscle fibers bluntly to reach the tip of the trochanter.",
+      "claim_ids": [
+        "proximal_femur_nailing_entry_superficial_interval_01"
+      ]
+    }
+  ],
+  "deep_interval": [
+    {
+      "text": "Establish the entry at the greater trochanter (most trochanteric nails enter through the tip, not the trochanteric fossa), using a Schanz screw or ball-spiked pusher to correct fracture deformity and find the entry when needed.",
+      "claim_ids": [
+        "proximal_femur_nailing_entry_deep_interval_01"
+      ]
+    }
+  ],
+  "layers": [
+    {
+      "text": "Skin, subcutaneous tissue, gluteal fascia, the abductor muscle fibers, and the tip of the greater trochanter.",
+      "claim_ids": [
+        "proximal_femur_nailing_entry_layers_01"
+      ]
+    }
+  ],
+  "structures_encountered": [],
+  "structures_at_risk": [
+    {
+      "text": "The abductor muscles at the entry and the posterior femoral cortex during reaming are at risk; eccentric reaming or posterior perforation must be avoided.",
+      "claim_ids": [
+        "proximal_femur_nailing_entry_structures_at_risk_01"
+      ]
+    }
+  ],
+  "danger_zones": [
+    {
+      "text": "The posterior femoral cortex is the danger zone for eccentric reaming and perforation.",
+      "claim_ids": [
+        "proximal_femur_nailing_entry_danger_zones_01"
+      ]
+    }
+  ],
+  "retraction_hazards": [
+    {
+      "text": "Split rather than cut the abductors and protect them during reaming and nail insertion.",
+      "claim_ids": [
+        "proximal_femur_nailing_entry_retraction_hazards_01"
+      ]
+    }
+  ],
+  "exposure": [
+    {
+      "text": "Exposes the trochanteric entry point for cephalomedullary nailing.",
+      "claim_ids": [
+        "proximal_femur_nailing_entry_exposure_01"
+      ]
+    }
+  ],
+  "limitations": [
+    {
+      "text": "Fracture deformity can make the entry hard to find, requiring percutaneous reduction aids, and the correct entry depends on the specific nail design.",
+      "claim_ids": [
+        "proximal_femur_nailing_entry_limitations_01"
+      ]
+    }
+  ],
+  "extensions": [],
+  "indications": [
+    {
+      "text": "Indicated for cephalomedullary nailing of intertrochanteric and subtrochanteric femoral fractures.",
+      "claim_ids": [
+        "proximal_femur_nailing_entry_indications_01"
+      ]
+    }
+  ],
+  "relative_contraindications": [],
+  "implant_implications": [],
+  "fluoroscopy_implications": [],
+  "closure": [
+    {
+      "text": "Allow the abductor fibers to fall back together and close the gluteal fascia, subcutaneous tissue, and skin.",
+      "claim_ids": [
+        "proximal_femur_nailing_entry_closure_01"
+      ]
+    }
+  ],
+  "complications": [
+    {
+      "text": "Complications include abductor injury with limp, malreduction from an eccentric entry, and posterior cortical perforation.",
+      "claim_ids": [
+        "proximal_femur_nailing_entry_complications_01"
+      ]
+    }
+  ],
+  "bailouts": [],
+  "procedure_applications": [
+    {
+      "procedure_id": "intertrochanteric_hip_fracture_orif",
+      "relationship": "primary_option",
+      "condition": "An intertrochanteric or subtrochanteric fracture is stabilized with a cephalomedullary nail"
+    }
+  ],
+  "questions": [
+    {
+      "question": "Where do most trochanteric nails enter the proximal femur?",
+      "answer": "Through the tip of the greater trochanter, not the trochanteric fossa.",
+      "claim_ids": [
+        "proximal_femur_nailing_entry_questions_01"
+      ]
+    },
+    {
+      "question": "What helps find the entry point when fracture deformity obscures it?",
+      "answer": "A percutaneous Schanz screw or ball-spiked pusher to correct the deformity.",
+      "claim_ids": [
+        "proximal_femur_nailing_entry_questions_02"
+      ]
+    },
+    {
+      "question": "What reaming error must be avoided proximally?",
+      "answer": "Eccentric reaming or perforation of the posterior femoral cortex.",
+      "claim_ids": [
+        "proximal_femur_nailing_entry_questions_03"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "proximal_femur_nailing_entry_positioning_01",
+      "text": "Position supine on a traction table with the trunk adducted toward the injured side to allow a straight proximal nail entry, with image intensifier access.",
+      "source_ids": [
+        "ao_14af9b0dbcb35a28"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "proximal_femur_nailing_entry_surface_landmarks_01",
+      "text": "Palpate the tip of the greater trochanter and plan the incision along the bowed femoral axis.",
+      "source_ids": [
+        "ao_14af9b0dbcb35a28",
+        "ao_d24605ca10a9a4e3"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "proximal_femur_nailing_entry_incision_01",
+      "text": "Make a 3 to 5 cm skin incision several centimeters proximal to the tip of the greater trochanter.",
+      "source_ids": [
+        "ao_14af9b0dbcb35a28"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "proximal_femur_nailing_entry_superficial_interval_01",
+      "text": "Incise the gluteal fascia longitudinally over 3 to 8 cm and split the gluteal muscle fibers bluntly to reach the tip of the trochanter.",
+      "source_ids": [
+        "ao_14af9b0dbcb35a28"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "proximal_femur_nailing_entry_deep_interval_01",
+      "text": "Establish the entry at the greater trochanter (most trochanteric nails enter through the tip, not the trochanteric fossa), using a Schanz screw or ball-spiked pusher to correct fracture deformity and find the entry when needed.",
+      "source_ids": [
+        "ao_14af9b0dbcb35a28"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "proximal_femur_nailing_entry_layers_01",
+      "text": "Skin, subcutaneous tissue, gluteal fascia, the abductor muscle fibers, and the tip of the greater trochanter.",
+      "source_ids": [
+        "ao_14af9b0dbcb35a28"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "proximal_femur_nailing_entry_structures_at_risk_01",
+      "text": "The abductor muscles at the entry and the posterior femoral cortex during reaming are at risk; eccentric reaming or posterior perforation must be avoided.",
+      "source_ids": [
+        "ao_14af9b0dbcb35a28",
+        "ao_d24605ca10a9a4e3"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "proximal_femur_nailing_entry_danger_zones_01",
+      "text": "The posterior femoral cortex is the danger zone for eccentric reaming and perforation.",
+      "source_ids": [
+        "ao_14af9b0dbcb35a28"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "proximal_femur_nailing_entry_retraction_hazards_01",
+      "text": "Split rather than cut the abductors and protect them during reaming and nail insertion.",
+      "source_ids": [
+        "ao_14af9b0dbcb35a28"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "proximal_femur_nailing_entry_exposure_01",
+      "text": "Exposes the trochanteric entry point for cephalomedullary nailing.",
+      "source_ids": [
+        "ao_14af9b0dbcb35a28"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "proximal_femur_nailing_entry_limitations_01",
+      "text": "Fracture deformity can make the entry hard to find, requiring percutaneous reduction aids, and the correct entry depends on the specific nail design.",
+      "source_ids": [
+        "ao_14af9b0dbcb35a28"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "proximal_femur_nailing_entry_indications_01",
+      "text": "Indicated for cephalomedullary nailing of intertrochanteric and subtrochanteric femoral fractures.",
+      "source_ids": [
+        "ao_14af9b0dbcb35a28"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "proximal_femur_nailing_entry_closure_01",
+      "text": "Allow the abductor fibers to fall back together and close the gluteal fascia, subcutaneous tissue, and skin.",
+      "source_ids": [
+        "ao_14af9b0dbcb35a28"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "proximal_femur_nailing_entry_complications_01",
+      "text": "Complications include abductor injury with limp, malreduction from an eccentric entry, and posterior cortical perforation.",
+      "source_ids": [
+        "ao_14af9b0dbcb35a28",
+        "ao_d24605ca10a9a4e3"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "proximal_femur_nailing_entry_questions_01",
+      "text": "Where do most trochanteric nails enter the proximal femur?",
+      "source_ids": [
+        "ao_14af9b0dbcb35a28"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "proximal_femur_nailing_entry_questions_02",
+      "text": "What helps find the entry point when fracture deformity obscures it?",
+      "source_ids": [
+        "ao_14af9b0dbcb35a28"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "proximal_femur_nailing_entry_questions_03",
+      "text": "What reaming error must be avoided proximally?",
+      "source_ids": [
+        "ao_14af9b0dbcb35a28"
+      ],
+      "risk_level": "medium"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "ao_14af9b0dbcb35a28",
+      "provider": "AO Surgery Reference",
+      "title": "Approach for proximal femoral nailing",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/proximal-femur/approach/approach-for-proximal-femoral-nailing",
+      "source_page_id": "ao_14af9b0dbcb35a28"
+    },
+    {
+      "source_id": "ao_d24605ca10a9a4e3",
+      "provider": "AO Surgery Reference",
+      "title": "Locations for pin placement (femoral shaft)",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/femoral-shaft/approach/locations-for-pin-placement",
+      "source_page_id": "ao_d24605ca10a9a4e3"
+    }
+  ],
+  "content_status": "agent_review_pending",
+  "review": {
+    "status": "agent_review_pending",
+    "required_roles": [
+      "adversarial_safety_reviewer",
+      "approach_anatomy_reviewer",
+      "educational_value_reviewer",
+      "evidence_reviewer",
+      "operative_exposure_reviewer",
+      "procedure_applicability_reviewer"
+    ],
+    "completed_roles": []
+  },
+  "resolved_contradiction_keys": [],
+  "authoring_provenance": {
+    "method": "local_codex_curated",
+    "definition_file": "data/approach_library/curated/proximal_femur_adult_batch004_v1.json",
+    "api_used": false
+  }
+}

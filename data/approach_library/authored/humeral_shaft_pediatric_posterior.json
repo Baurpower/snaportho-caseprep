@@ -1,0 +1,342 @@
+{
+  "schema_version": "brobot_approach_packet_v1",
+  "approach_id": "humeral_shaft_pediatric_posterior",
+  "name": "Pediatric posterior approach to the humeral shaft",
+  "aliases": [
+    "child posterior humeral approach"
+  ],
+  "region": "humeral-shaft",
+  "joint": "elbow",
+  "bones": [
+    "humerus"
+  ],
+  "corridor": "Posterior midline approach, triceps-sparing or triceps-splitting, protecting the radial nerve in the spiral groove and the ulnar nerve, to expose the distal humerus in a child",
+  "positioning": [
+    {
+      "text": "Position prone or lateral with the arm over a bolster and the elbow flexed so the posterior arm is presented.",
+      "claim_ids": [
+        "humeral_shaft_pediatric_posterior_positioning_01"
+      ]
+    }
+  ],
+  "setup": [],
+  "surface_landmarks": [
+    {
+      "text": "Mark the tip of the olecranon and the posterior midline of the arm.",
+      "claim_ids": [
+        "humeral_shaft_pediatric_posterior_surface_landmarks_01"
+      ]
+    }
+  ],
+  "incision": [
+    {
+      "text": "Run a straight posterior midline incision proximally from the olecranon, aware that it crosses the radial and axillary nerve territories at different levels.",
+      "claim_ids": [
+        "humeral_shaft_pediatric_posterior_incision_01"
+      ]
+    }
+  ],
+  "superficial_interval": [
+    {
+      "text": "Prefer a triceps-sparing elevation that leaves the triceps insertion undisturbed, or use a triceps split, which carries a higher risk of radial nerve injury.",
+      "claim_ids": [
+        "humeral_shaft_pediatric_posterior_superficial_interval_01"
+      ]
+    }
+  ],
+  "deep_interval": [
+    {
+      "text": "Identify and protect the radial nerve and profunda brachii in the spiral groove, using an age-based safe zone (in younger children the window between the distal physis and about 1 cm per year of age proximal to it), and loop the ulnar nerve medially.",
+      "claim_ids": [
+        "humeral_shaft_pediatric_posterior_deep_interval_01"
+      ]
+    }
+  ],
+  "layers": [
+    {
+      "text": "Skin, subcutaneous tissue, deep fascia, the triceps, the radial and ulnar nerves, and the posterior humerus.",
+      "claim_ids": [
+        "humeral_shaft_pediatric_posterior_layers_01"
+      ]
+    }
+  ],
+  "structures_encountered": [],
+  "structures_at_risk": [
+    {
+      "text": "The radial nerve with the profunda brachii in the spiral groove and the ulnar nerve medially are at risk.",
+      "claim_ids": [
+        "humeral_shaft_pediatric_posterior_structures_at_risk_01"
+      ]
+    }
+  ],
+  "danger_zones": [
+    {
+      "text": "The spiral groove is the danger zone for the radial nerve, and a triceps split increases that risk; the safe bony window is age-dependent.",
+      "claim_ids": [
+        "humeral_shaft_pediatric_posterior_danger_zones_01"
+      ]
+    }
+  ],
+  "retraction_hazards": [
+    {
+      "text": "Loop and protect the ulnar nerve and avoid uncontrolled traction on the triceps and both nerves.",
+      "claim_ids": [
+        "humeral_shaft_pediatric_posterior_retraction_hazards_01"
+      ]
+    }
+  ],
+  "exposure": [
+    {
+      "text": "Exposes the distal posterior humerus in a child for fracture fixation.",
+      "claim_ids": [
+        "humeral_shaft_pediatric_posterior_exposure_01"
+      ]
+    }
+  ],
+  "limitations": [
+    {
+      "text": "The radial nerve safe zone is age-dependent and limits proximal extension, and a triceps split trades wider access for greater nerve risk.",
+      "claim_ids": [
+        "humeral_shaft_pediatric_posterior_limitations_01"
+      ]
+    }
+  ],
+  "extensions": [],
+  "indications": [
+    {
+      "text": "Indicated for open reduction and fixation of pediatric distal humeral shaft fractures approached posteriorly.",
+      "claim_ids": [
+        "humeral_shaft_pediatric_posterior_indications_01"
+      ]
+    }
+  ],
+  "relative_contraindications": [],
+  "implant_implications": [],
+  "fluoroscopy_implications": [],
+  "closure": [
+    {
+      "text": "Reattach or lay back the triceps and close the wound in layers with resorbable sutures.",
+      "claim_ids": [
+        "humeral_shaft_pediatric_posterior_closure_01"
+      ]
+    }
+  ],
+  "complications": [
+    {
+      "text": "Complications include radial nerve palsy, ulnar nerve irritation, and triceps weakness.",
+      "claim_ids": [
+        "humeral_shaft_pediatric_posterior_complications_01"
+      ]
+    }
+  ],
+  "bailouts": [],
+  "procedure_applications": [
+    {
+      "procedure_id": "humeral_shaft_fracture_orif",
+      "relationship": "primary_option",
+      "condition": "A pediatric distal humeral shaft fracture is plated posteriorly"
+    }
+  ],
+  "questions": [
+    {
+      "question": "Which posterior technique is preferred in children and why?",
+      "answer": "Triceps-sparing, because it preserves triceps integrity and lowers radial nerve risk compared with a split.",
+      "claim_ids": [
+        "humeral_shaft_pediatric_posterior_questions_01"
+      ]
+    },
+    {
+      "question": "How is the radial nerve safe zone estimated in a young child?",
+      "answer": "The window between the distal physis and about 1 cm per year of age proximal to it.",
+      "claim_ids": [
+        "humeral_shaft_pediatric_posterior_questions_02"
+      ]
+    },
+    {
+      "question": "Which nerve is looped and protected medially?",
+      "answer": "The ulnar nerve.",
+      "claim_ids": [
+        "humeral_shaft_pediatric_posterior_questions_03"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "humeral_shaft_pediatric_posterior_positioning_01",
+      "text": "Position prone or lateral with the arm over a bolster and the elbow flexed so the posterior arm is presented.",
+      "source_ids": [
+        "ao_7b595bf952911b61"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "humeral_shaft_pediatric_posterior_surface_landmarks_01",
+      "text": "Mark the tip of the olecranon and the posterior midline of the arm.",
+      "source_ids": [
+        "ao_7b595bf952911b61"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "humeral_shaft_pediatric_posterior_incision_01",
+      "text": "Run a straight posterior midline incision proximally from the olecranon, aware that it crosses the radial and axillary nerve territories at different levels.",
+      "source_ids": [
+        "ao_7b595bf952911b61"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "humeral_shaft_pediatric_posterior_superficial_interval_01",
+      "text": "Prefer a triceps-sparing elevation that leaves the triceps insertion undisturbed, or use a triceps split, which carries a higher risk of radial nerve injury.",
+      "source_ids": [
+        "ao_7b595bf952911b61",
+        "ao_ed5059e726fd9d32"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "humeral_shaft_pediatric_posterior_deep_interval_01",
+      "text": "Identify and protect the radial nerve and profunda brachii in the spiral groove, using an age-based safe zone (in younger children the window between the distal physis and about 1 cm per year of age proximal to it), and loop the ulnar nerve medially.",
+      "source_ids": [
+        "ao_7b595bf952911b61",
+        "ao_ed5059e726fd9d32"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "humeral_shaft_pediatric_posterior_layers_01",
+      "text": "Skin, subcutaneous tissue, deep fascia, the triceps, the radial and ulnar nerves, and the posterior humerus.",
+      "source_ids": [
+        "ao_7b595bf952911b61"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "humeral_shaft_pediatric_posterior_structures_at_risk_01",
+      "text": "The radial nerve with the profunda brachii in the spiral groove and the ulnar nerve medially are at risk.",
+      "source_ids": [
+        "ao_7b595bf952911b61",
+        "ao_ed5059e726fd9d32"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "humeral_shaft_pediatric_posterior_danger_zones_01",
+      "text": "The spiral groove is the danger zone for the radial nerve, and a triceps split increases that risk; the safe bony window is age-dependent.",
+      "source_ids": [
+        "ao_7b595bf952911b61",
+        "ao_ed5059e726fd9d32"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "humeral_shaft_pediatric_posterior_retraction_hazards_01",
+      "text": "Loop and protect the ulnar nerve and avoid uncontrolled traction on the triceps and both nerves.",
+      "source_ids": [
+        "ao_7b595bf952911b61"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "humeral_shaft_pediatric_posterior_exposure_01",
+      "text": "Exposes the distal posterior humerus in a child for fracture fixation.",
+      "source_ids": [
+        "ao_7b595bf952911b61"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "humeral_shaft_pediatric_posterior_limitations_01",
+      "text": "The radial nerve safe zone is age-dependent and limits proximal extension, and a triceps split trades wider access for greater nerve risk.",
+      "source_ids": [
+        "ao_7b595bf952911b61"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "humeral_shaft_pediatric_posterior_indications_01",
+      "text": "Indicated for open reduction and fixation of pediatric distal humeral shaft fractures approached posteriorly.",
+      "source_ids": [
+        "ao_7b595bf952911b61"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "humeral_shaft_pediatric_posterior_closure_01",
+      "text": "Reattach or lay back the triceps and close the wound in layers with resorbable sutures.",
+      "source_ids": [
+        "ao_7b595bf952911b61"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "humeral_shaft_pediatric_posterior_complications_01",
+      "text": "Complications include radial nerve palsy, ulnar nerve irritation, and triceps weakness.",
+      "source_ids": [
+        "ao_7b595bf952911b61",
+        "ao_ed5059e726fd9d32"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "humeral_shaft_pediatric_posterior_questions_01",
+      "text": "Which posterior technique is preferred in children and why?",
+      "source_ids": [
+        "ao_7b595bf952911b61",
+        "ao_ed5059e726fd9d32"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "humeral_shaft_pediatric_posterior_questions_02",
+      "text": "How is the radial nerve safe zone estimated in a young child?",
+      "source_ids": [
+        "ao_7b595bf952911b61"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "humeral_shaft_pediatric_posterior_questions_03",
+      "text": "Which nerve is looped and protected medially?",
+      "source_ids": [
+        "ao_7b595bf952911b61"
+      ],
+      "risk_level": "medium"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "ao_7b595bf952911b61",
+      "provider": "AO Surgery Reference",
+      "title": "Posterior approach to the humeral shaft (pediatric)",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/pediatric-trauma/humeral-shaft/approach/posterior-approach",
+      "source_page_id": "ao_7b595bf952911b61"
+    },
+    {
+      "source_id": "ao_ed5059e726fd9d32",
+      "provider": "AO Surgery Reference",
+      "title": "Posterior triceps-sparing approach (triceps-on) to the humeral shaft",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/humeral-shaft/approach/posterior-triceps-sparing-approach-triceps-on",
+      "source_page_id": "ao_ed5059e726fd9d32"
+    }
+  ],
+  "content_status": "agent_review_pending",
+  "review": {
+    "status": "agent_review_pending",
+    "required_roles": [
+      "adversarial_safety_reviewer",
+      "approach_anatomy_reviewer",
+      "educational_value_reviewer",
+      "evidence_reviewer",
+      "operative_exposure_reviewer",
+      "procedure_applicability_reviewer"
+    ],
+    "completed_roles": []
+  },
+  "resolved_contradiction_keys": [],
+  "authoring_provenance": {
+    "method": "local_codex_curated",
+    "definition_file": "data/approach_library/curated/retrograde_femur_ped_humerus_batch002_v1.json",
+    "api_used": false
+  }
+}

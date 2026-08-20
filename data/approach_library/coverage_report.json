@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-15T22:20:42.980550+00:00",
+  "generated_at": "2026-08-20T02:44:43.048288+00:00",
   "source_pages": 641,
   "providers": {
     "ao_surgery_reference": 575,
@@ -7,8 +7,8 @@
   },
   "canonical_seed_packets": 641,
   "cross_source_alias_candidates": 62,
-  "authored_clinical_packets": 8,
-  "procedure_mappings": 64,
+  "authored_clinical_packets": 12,
+  "procedure_mappings": 68,
   "publication_ready": 0,
   "note": "Inventory completeness is distinct from clinical packet publication readiness."
 }

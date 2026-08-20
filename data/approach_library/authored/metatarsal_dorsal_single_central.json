@@ -1,0 +1,347 @@
+{
+  "schema_version": "brobot_approach_packet_v1",
+  "approach_id": "metatarsal_dorsal_single_central",
+  "name": "Dorsal approach to a single central metatarsal (2 to 4)",
+  "aliases": [
+    "dorsal approach to a central metatarsal"
+  ],
+  "region": "metatarsals",
+  "joint": "",
+  "bones": [
+    "metatarsal"
+  ],
+  "corridor": "Single dorsal longitudinal incision over the involved central metatarsal, retracting the extensor digitorum longus to reach the shaft, head, or base",
+  "positioning": [
+    {
+      "text": "Position supine with the foot at the end of the table under tourniquet control.",
+      "claim_ids": [
+        "metatarsal_dorsal_single_central_positioning_01"
+      ]
+    }
+  ],
+  "setup": [],
+  "surface_landmarks": [
+    {
+      "text": "Mark the involved metatarsal and its long axis and the extensor digitorum longus tendon.",
+      "claim_ids": [
+        "metatarsal_dorsal_single_central_surface_landmarks_01"
+      ]
+    }
+  ],
+  "incision": [
+    {
+      "text": "Make the incision over the fracture site aligned with the long axis of the metatarsal.",
+      "claim_ids": [
+        "metatarsal_dorsal_single_central_incision_01"
+      ]
+    }
+  ],
+  "superficial_interval": [
+    {
+      "text": "Protect the longitudinal veins and the dorsal digital nerves and retract the extensor digitorum longus tendon laterally.",
+      "claim_ids": [
+        "metatarsal_dorsal_single_central_superficial_interval_01"
+      ]
+    }
+  ],
+  "deep_interval": [
+    {
+      "text": "Expose the shaft subperiosteally, or to reach a joint incise the capsule medial to the EDL tendon and, if needed, release collateral ligaments and plantarflex the toe with a mini distractor.",
+      "claim_ids": [
+        "metatarsal_dorsal_single_central_deep_interval_01"
+      ]
+    }
+  ],
+  "layers": [
+    {
+      "text": "Skin, subcutaneous tissue with dorsal veins and digital nerves, the extensor digitorum longus and brevis tendons, and the metatarsal.",
+      "claim_ids": [
+        "metatarsal_dorsal_single_central_layers_01"
+      ]
+    }
+  ],
+  "structures_encountered": [],
+  "structures_at_risk": [
+    {
+      "text": "The dorsal digital nerves and arteries and the longitudinal veins are at risk.",
+      "claim_ids": [
+        "metatarsal_dorsal_single_central_structures_at_risk_01"
+      ]
+    }
+  ],
+  "danger_zones": [
+    {
+      "text": "The dorsal digital neurovascular structures beside the extensor tendon are the danger zone.",
+      "claim_ids": [
+        "metatarsal_dorsal_single_central_danger_zones_01"
+      ]
+    }
+  ],
+  "retraction_hazards": [
+    {
+      "text": "Retract the extensor tendon gently and protect the longitudinal veins and digital nerves.",
+      "claim_ids": [
+        "metatarsal_dorsal_single_central_retraction_hazards_01"
+      ]
+    }
+  ],
+  "exposure": [
+    {
+      "text": "Exposes the shaft, head, or base of a single central metatarsal.",
+      "claim_ids": [
+        "metatarsal_dorsal_single_central_exposure_01"
+      ]
+    }
+  ],
+  "limitations": [
+    {
+      "text": "It addresses one metatarsal at a time; multiple metatarsals need a separate multi-incision plan.",
+      "claim_ids": [
+        "metatarsal_dorsal_single_central_limitations_01"
+      ]
+    }
+  ],
+  "extensions": [],
+  "indications": [
+    {
+      "text": "Indicated for a fracture of a single central metatarsal (2 to 4).",
+      "claim_ids": [
+        "metatarsal_dorsal_single_central_indications_01"
+      ]
+    }
+  ],
+  "relative_contraindications": [],
+  "implant_implications": [],
+  "fluoroscopy_implications": [],
+  "closure": [
+    {
+      "text": "Close any joint capsule with resorbable sutures and use subcuticular resorbable sutures and nylon for skin.",
+      "claim_ids": [
+        "metatarsal_dorsal_single_central_closure_01"
+      ]
+    }
+  ],
+  "complications": [
+    {
+      "text": "Complications include dorsal digital nerve injury and extensor tendon adhesions.",
+      "claim_ids": [
+        "metatarsal_dorsal_single_central_complications_01"
+      ]
+    }
+  ],
+  "bailouts": [],
+  "procedure_applications": [
+    {
+      "procedure_id": "metatarsal_fracture_orif",
+      "relationship": "primary_option",
+      "condition": "A single central metatarsal fracture is fixed dorsally"
+    }
+  ],
+  "questions": [
+    {
+      "question": "How is the incision oriented for a central metatarsal fracture?",
+      "answer": "Over the fracture site, aligned with the long axis of the metatarsal.",
+      "claim_ids": [
+        "metatarsal_dorsal_single_central_questions_01"
+      ]
+    },
+    {
+      "question": "Where is the capsule incised to reach the metatarsal head?",
+      "answer": "Medial to the extensor digitorum longus tendon.",
+      "claim_ids": [
+        "metatarsal_dorsal_single_central_questions_02"
+      ]
+    },
+    {
+      "question": "Which tendon is retracted to expose the shaft?",
+      "answer": "The extensor digitorum longus.",
+      "claim_ids": [
+        "metatarsal_dorsal_single_central_questions_03"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "metatarsal_dorsal_single_central_positioning_01",
+      "text": "Position supine with the foot at the end of the table under tourniquet control.",
+      "source_ids": [
+        "ao_5d405f342c03afff"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "metatarsal_dorsal_single_central_surface_landmarks_01",
+      "text": "Mark the involved metatarsal and its long axis and the extensor digitorum longus tendon.",
+      "source_ids": [
+        "ao_5d405f342c03afff"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "metatarsal_dorsal_single_central_incision_01",
+      "text": "Make the incision over the fracture site aligned with the long axis of the metatarsal.",
+      "source_ids": [
+        "ao_5d405f342c03afff"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "metatarsal_dorsal_single_central_superficial_interval_01",
+      "text": "Protect the longitudinal veins and the dorsal digital nerves and retract the extensor digitorum longus tendon laterally.",
+      "source_ids": [
+        "ao_5d405f342c03afff",
+        "ao_a3e38c372a4f1c20"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "metatarsal_dorsal_single_central_deep_interval_01",
+      "text": "Expose the shaft subperiosteally, or to reach a joint incise the capsule medial to the EDL tendon and, if needed, release collateral ligaments and plantarflex the toe with a mini distractor.",
+      "source_ids": [
+        "ao_5d405f342c03afff"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "metatarsal_dorsal_single_central_layers_01",
+      "text": "Skin, subcutaneous tissue with dorsal veins and digital nerves, the extensor digitorum longus and brevis tendons, and the metatarsal.",
+      "source_ids": [
+        "ao_5d405f342c03afff"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "metatarsal_dorsal_single_central_structures_at_risk_01",
+      "text": "The dorsal digital nerves and arteries and the longitudinal veins are at risk.",
+      "source_ids": [
+        "ao_5d405f342c03afff",
+        "ao_a3e38c372a4f1c20"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "metatarsal_dorsal_single_central_danger_zones_01",
+      "text": "The dorsal digital neurovascular structures beside the extensor tendon are the danger zone.",
+      "source_ids": [
+        "ao_5d405f342c03afff",
+        "ao_a3e38c372a4f1c20"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "metatarsal_dorsal_single_central_retraction_hazards_01",
+      "text": "Retract the extensor tendon gently and protect the longitudinal veins and digital nerves.",
+      "source_ids": [
+        "ao_5d405f342c03afff"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "metatarsal_dorsal_single_central_exposure_01",
+      "text": "Exposes the shaft, head, or base of a single central metatarsal.",
+      "source_ids": [
+        "ao_5d405f342c03afff"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "metatarsal_dorsal_single_central_limitations_01",
+      "text": "It addresses one metatarsal at a time; multiple metatarsals need a separate multi-incision plan.",
+      "source_ids": [
+        "ao_5d405f342c03afff"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "metatarsal_dorsal_single_central_indications_01",
+      "text": "Indicated for a fracture of a single central metatarsal (2 to 4).",
+      "source_ids": [
+        "ao_5d405f342c03afff"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "metatarsal_dorsal_single_central_closure_01",
+      "text": "Close any joint capsule with resorbable sutures and use subcuticular resorbable sutures and nylon for skin.",
+      "source_ids": [
+        "ao_5d405f342c03afff"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "metatarsal_dorsal_single_central_complications_01",
+      "text": "Complications include dorsal digital nerve injury and extensor tendon adhesions.",
+      "source_ids": [
+        "ao_5d405f342c03afff",
+        "ao_a3e38c372a4f1c20"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "metatarsal_dorsal_single_central_questions_01",
+      "text": "How is the incision oriented for a central metatarsal fracture?",
+      "source_ids": [
+        "ao_5d405f342c03afff"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "metatarsal_dorsal_single_central_questions_02",
+      "text": "Where is the capsule incised to reach the metatarsal head?",
+      "source_ids": [
+        "ao_5d405f342c03afff"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "metatarsal_dorsal_single_central_questions_03",
+      "text": "Which tendon is retracted to expose the shaft?",
+      "source_ids": [
+        "ao_5d405f342c03afff"
+      ],
+      "risk_level": "medium"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "ao_5d405f342c03afff",
+      "provider": "AO Surgery Reference",
+      "title": "Dorsal approach to single metatarsals 2 to 4",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/metatarsals/approach/dorsal-approach-to-single-metatarsals-2-to-4",
+      "source_page_id": "ao_5d405f342c03afff"
+    },
+    {
+      "source_id": "ao_a3e38c372a4f1c20",
+      "provider": "AO Surgery Reference",
+      "title": "Dorsal approach to multiple metatarsals",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/metatarsals/approach/dorsal-approach-to-multiple-metatarsals",
+      "source_page_id": "ao_a3e38c372a4f1c20"
+    },
+    {
+      "source_id": "ao_b0d88c343b700636",
+      "provider": "AO Surgery Reference",
+      "title": "Dorsal approach to single metatarsals 2 to 4 (midfoot)",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/midfoot/approach/dorsal-approach-to-single-metatarsals-2-4",
+      "source_page_id": "ao_b0d88c343b700636"
+    }
+  ],
+  "content_status": "agent_review_pending",
+  "review": {
+    "status": "agent_review_pending",
+    "required_roles": [
+      "adversarial_safety_reviewer",
+      "approach_anatomy_reviewer",
+      "educational_value_reviewer",
+      "evidence_reviewer",
+      "operative_exposure_reviewer",
+      "procedure_applicability_reviewer"
+    ],
+    "completed_roles": []
+  },
+  "resolved_contradiction_keys": [],
+  "authoring_provenance": {
+    "method": "local_codex_curated",
+    "definition_file": "data/approach_library/curated/metatarsals_dorsal_batch003_v1.json",
+    "api_used": false
+  }
+}

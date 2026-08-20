@@ -1,0 +1,347 @@
+{
+  "schema_version": "brobot_approach_packet_v1",
+  "approach_id": "hip_extended_trochanteric_osteotomy",
+  "name": "Extended trochanteric osteotomy (ETO) of the femur",
+  "aliases": [
+    "ETO",
+    "extended trochanteric osteotomy for revision"
+  ],
+  "region": "hip",
+  "joint": "hip",
+  "bones": [
+    "proximal femur"
+  ],
+  "corridor": "Lateral longitudinal osteotomy taking the greater trochanter and about one-third of the femoral circumference with vastus lateralis and abductors as one sleeve, hinged anterolaterally, to access a well-fixed stem or cement",
+  "positioning": [
+    {
+      "text": "Position in lateral decubitus through a posterolateral approach, the workhorse for revision arthroplasty.",
+      "claim_ids": [
+        "hip_extended_trochanteric_osteotomy_positioning_01"
+      ]
+    }
+  ],
+  "setup": [],
+  "surface_landmarks": [
+    {
+      "text": "Mark the greater trochanter and the lateral femoral shaft to the planned distal extent from templating.",
+      "claim_ids": [
+        "hip_extended_trochanteric_osteotomy_surface_landmarks_01"
+      ]
+    }
+  ],
+  "incision": [
+    {
+      "text": "Extend the lateral incision distally over the femur to at least the level of the implant tip.",
+      "claim_ids": [
+        "hip_extended_trochanteric_osteotomy_incision_01"
+      ]
+    }
+  ],
+  "superficial_interval": [
+    {
+      "text": "Expose vastus lateralis through a subvastus approach, then begin the osteotomy at the greater trochanter and carry it anterolaterally for about one-third of the femoral circumference, distally to the implant tip.",
+      "claim_ids": [
+        "hip_extended_trochanteric_osteotomy_superficial_interval_01"
+      ]
+    }
+  ],
+  "deep_interval": [
+    {
+      "text": "Keep the greater trochanter, abductors, and vastus lateralis together as one osteoperiosteal sleeve hinged on an anterolateral periosteal and muscle hinge, limiting soft-tissue stripping to preserve blood supply.",
+      "claim_ids": [
+        "hip_extended_trochanteric_osteotomy_deep_interval_01"
+      ]
+    }
+  ],
+  "layers": [
+    {
+      "text": "Skin, subcutaneous tissue, fascia lata, vastus lateralis, the osteotomized lateral femur with abductors, and the medullary canal.",
+      "claim_ids": [
+        "hip_extended_trochanteric_osteotomy_layers_01"
+      ]
+    }
+  ],
+  "structures_encountered": [],
+  "structures_at_risk": [
+    {
+      "text": "The sciatic nerve requires protection from retractors, and excessive soft-tissue stripping endangers the blood supply of the osteotomy fragment.",
+      "claim_ids": [
+        "hip_extended_trochanteric_osteotomy_structures_at_risk_01"
+      ]
+    }
+  ],
+  "danger_zones": [
+    {
+      "text": "The distal transverse end of the osteotomy is a danger zone for propagating a distal femoral fracture and should be protected by a cable or wire.",
+      "claim_ids": [
+        "hip_extended_trochanteric_osteotomy_danger_zones_01"
+      ]
+    }
+  ],
+  "retraction_hazards": [
+    {
+      "text": "Protect the sciatic nerve with careful retractor placement and preserve the posterior soft-tissue hinge.",
+      "claim_ids": [
+        "hip_extended_trochanteric_osteotomy_retraction_hazards_01"
+      ]
+    }
+  ],
+  "exposure": [
+    {
+      "text": "Gives direct vision of the femoral canal to remove a well-fixed stem or cement and to prepare for revision.",
+      "claim_ids": [
+        "hip_extended_trochanteric_osteotomy_exposure_01"
+      ]
+    }
+  ],
+  "limitations": [
+    {
+      "text": "Active abduction must be limited postoperatively to prevent osteotomy escape, and healing of the large fragment must be protected.",
+      "claim_ids": [
+        "hip_extended_trochanteric_osteotomy_limitations_01"
+      ]
+    }
+  ],
+  "extensions": [],
+  "indications": [
+    {
+      "text": "Indicated in revision arthroplasty to remove well-fixed cementless or cemented implants and cement under direct vision.",
+      "claim_ids": [
+        "hip_extended_trochanteric_osteotomy_indications_01"
+      ]
+    }
+  ],
+  "relative_contraindications": [],
+  "implant_implications": [],
+  "fluoroscopy_implications": [],
+  "closure": [
+    {
+      "text": "Reduce and fix the osteotomy with cerclage wires or cables, add a cable distal to the transverse cut to prevent distal femoral fracture, and close in layers.",
+      "claim_ids": [
+        "hip_extended_trochanteric_osteotomy_closure_01"
+      ]
+    }
+  ],
+  "complications": [
+    {
+      "text": "Complications include osteotomy escape or nonunion, distal femoral fracture, sciatic nerve injury, and devascularization of the fragment.",
+      "claim_ids": [
+        "hip_extended_trochanteric_osteotomy_complications_01"
+      ]
+    }
+  ],
+  "bailouts": [],
+  "procedure_applications": [
+    {
+      "procedure_id": "revision_tha",
+      "relationship": "primary_option",
+      "condition": "A well-fixed femoral stem or cement mantle must be removed under direct vision"
+    },
+    {
+      "procedure_id": "periprosthetic_hip_fracture_orif",
+      "relationship": "conditional_option",
+      "condition": "Extensile femoral exposure is required around a periprosthetic femoral fracture"
+    }
+  ],
+  "questions": [
+    {
+      "question": "How much of the femoral circumference does the ETO take?",
+      "answer": "About one-third of the circumference, carried anterolaterally.",
+      "claim_ids": [
+        "hip_extended_trochanteric_osteotomy_questions_01"
+      ]
+    },
+    {
+      "question": "On what does the ETO fragment hinge to keep its blood supply?",
+      "answer": "An anterolateral hinge of periosteum and muscle with the vastus lateralis and abductors.",
+      "claim_ids": [
+        "hip_extended_trochanteric_osteotomy_questions_02"
+      ]
+    },
+    {
+      "question": "What prevents a distal femoral fracture at the transverse osteotomy?",
+      "answer": "A prophylactic cable or wire placed distal to the transverse cut.",
+      "claim_ids": [
+        "hip_extended_trochanteric_osteotomy_questions_03"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "hip_extended_trochanteric_osteotomy_positioning_01",
+      "text": "Position in lateral decubitus through a posterolateral approach, the workhorse for revision arthroplasty.",
+      "source_ids": [
+        "ao_513cb92dcdc257f2"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "hip_extended_trochanteric_osteotomy_surface_landmarks_01",
+      "text": "Mark the greater trochanter and the lateral femoral shaft to the planned distal extent from templating.",
+      "source_ids": [
+        "ao_513cb92dcdc257f2"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "hip_extended_trochanteric_osteotomy_incision_01",
+      "text": "Extend the lateral incision distally over the femur to at least the level of the implant tip.",
+      "source_ids": [
+        "ao_513cb92dcdc257f2"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "hip_extended_trochanteric_osteotomy_superficial_interval_01",
+      "text": "Expose vastus lateralis through a subvastus approach, then begin the osteotomy at the greater trochanter and carry it anterolaterally for about one-third of the femoral circumference, distally to the implant tip.",
+      "source_ids": [
+        "ao_513cb92dcdc257f2"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "hip_extended_trochanteric_osteotomy_deep_interval_01",
+      "text": "Keep the greater trochanter, abductors, and vastus lateralis together as one osteoperiosteal sleeve hinged on an anterolateral periosteal and muscle hinge, limiting soft-tissue stripping to preserve blood supply.",
+      "source_ids": [
+        "ao_513cb92dcdc257f2",
+        "ao_43c3d5fa8a5f6c78"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "hip_extended_trochanteric_osteotomy_layers_01",
+      "text": "Skin, subcutaneous tissue, fascia lata, vastus lateralis, the osteotomized lateral femur with abductors, and the medullary canal.",
+      "source_ids": [
+        "ao_513cb92dcdc257f2"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "hip_extended_trochanteric_osteotomy_structures_at_risk_01",
+      "text": "The sciatic nerve requires protection from retractors, and excessive soft-tissue stripping endangers the blood supply of the osteotomy fragment.",
+      "source_ids": [
+        "ao_513cb92dcdc257f2",
+        "ao_43c3d5fa8a5f6c78"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "hip_extended_trochanteric_osteotomy_danger_zones_01",
+      "text": "The distal transverse end of the osteotomy is a danger zone for propagating a distal femoral fracture and should be protected by a cable or wire.",
+      "source_ids": [
+        "ao_513cb92dcdc257f2"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "hip_extended_trochanteric_osteotomy_retraction_hazards_01",
+      "text": "Protect the sciatic nerve with careful retractor placement and preserve the posterior soft-tissue hinge.",
+      "source_ids": [
+        "ao_513cb92dcdc257f2",
+        "ao_43c3d5fa8a5f6c78"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "hip_extended_trochanteric_osteotomy_exposure_01",
+      "text": "Gives direct vision of the femoral canal to remove a well-fixed stem or cement and to prepare for revision.",
+      "source_ids": [
+        "ao_513cb92dcdc257f2"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "hip_extended_trochanteric_osteotomy_limitations_01",
+      "text": "Active abduction must be limited postoperatively to prevent osteotomy escape, and healing of the large fragment must be protected.",
+      "source_ids": [
+        "ao_513cb92dcdc257f2",
+        "ao_43c3d5fa8a5f6c78"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "hip_extended_trochanteric_osteotomy_indications_01",
+      "text": "Indicated in revision arthroplasty to remove well-fixed cementless or cemented implants and cement under direct vision.",
+      "source_ids": [
+        "ao_513cb92dcdc257f2"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "hip_extended_trochanteric_osteotomy_closure_01",
+      "text": "Reduce and fix the osteotomy with cerclage wires or cables, add a cable distal to the transverse cut to prevent distal femoral fracture, and close in layers.",
+      "source_ids": [
+        "ao_513cb92dcdc257f2"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "hip_extended_trochanteric_osteotomy_complications_01",
+      "text": "Complications include osteotomy escape or nonunion, distal femoral fracture, sciatic nerve injury, and devascularization of the fragment.",
+      "source_ids": [
+        "ao_513cb92dcdc257f2",
+        "ao_43c3d5fa8a5f6c78"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "hip_extended_trochanteric_osteotomy_questions_01",
+      "text": "How much of the femoral circumference does the ETO take?",
+      "source_ids": [
+        "ao_513cb92dcdc257f2"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "hip_extended_trochanteric_osteotomy_questions_02",
+      "text": "On what does the ETO fragment hinge to keep its blood supply?",
+      "source_ids": [
+        "ao_513cb92dcdc257f2"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "hip_extended_trochanteric_osteotomy_questions_03",
+      "text": "What prevents a distal femoral fracture at the transverse osteotomy?",
+      "source_ids": [
+        "ao_513cb92dcdc257f2"
+      ],
+      "risk_level": "medium"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "ao_513cb92dcdc257f2",
+      "provider": "AO Surgery Reference",
+      "title": "Extended trochanteric osteotomy (ETO) of the femur",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/periprosthetic-fractures/hip/approach/eto-femur-osteotomy",
+      "source_page_id": "ao_513cb92dcdc257f2"
+    },
+    {
+      "source_id": "ao_43c3d5fa8a5f6c78",
+      "provider": "AO Surgery Reference",
+      "title": "Trochanteric osteotomy (periprosthetic hip)",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/periprosthetic-fractures/hip/approach/trochanteric-osteotomy",
+      "source_page_id": "ao_43c3d5fa8a5f6c78"
+    }
+  ],
+  "content_status": "agent_review_pending",
+  "review": {
+    "status": "agent_review_pending",
+    "required_roles": [
+      "adversarial_safety_reviewer",
+      "approach_anatomy_reviewer",
+      "educational_value_reviewer",
+      "evidence_reviewer",
+      "operative_exposure_reviewer",
+      "procedure_applicability_reviewer"
+    ],
+    "completed_roles": []
+  },
+  "resolved_contradiction_keys": [],
+  "authoring_provenance": {
+    "method": "local_codex_curated",
+    "definition_file": "data/approach_library/curated/hip_osteotomy_acetabulum_batch002_v1.json",
+    "api_used": false
+  }
+}

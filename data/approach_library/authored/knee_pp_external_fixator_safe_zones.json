@@ -1,0 +1,343 @@
+{
+  "schema_version": "brobot_approach_packet_v1",
+  "approach_id": "knee_pp_external_fixator_safe_zones",
+  "name": "Safe zones for external-fixator pins around a periprosthetic knee",
+  "aliases": [
+    "periprosthetic knee spanning-pin corridors"
+  ],
+  "region": "knee",
+  "joint": "knee",
+  "bones": [
+    "femur",
+    "tibia"
+  ],
+  "corridor": "Anterolateral to direct-lateral femoral pins more than 8–10 cm above the patella, and tibial pins on the crest or medial face distal to the tubercle and at least 2 cm below the plateau, kept away from the prosthesis and the fracture hematoma",
+  "positioning": [
+    {
+      "text": "Position so the femoral and tibial shafts can be imaged and crushed or badly damaged skin can be avoided.",
+      "claim_ids": [
+        "knee_pp_external_fixator_safe_zones_positioning_01"
+      ]
+    }
+  ],
+  "setup": [],
+  "surface_landmarks": [
+    {
+      "text": "Mark the superior patellar pole (stay more than 8–10 cm proximal on the femur), the tibial tubercle, a line 2 cm below the plateau, and the prosthesis so pins stay as far from it as possible.",
+      "claim_ids": [
+        "knee_pp_external_fixator_safe_zones_surface_landmarks_01"
+      ]
+    }
+  ],
+  "incision": [
+    {
+      "text": "Use mini-open windows rather than driving pins through crushed skin. Bridging frames take anterior femoral and tibial shaft pins; nonbridging frames use tibial pins only.",
+      "claim_ids": [
+        "knee_pp_external_fixator_safe_zones_incision_01"
+      ]
+    }
+  ],
+  "superficial_interval": [
+    {
+      "text": "On the femur use the anterolateral or direct-lateral envelope. On the tibia distal to the tubercle use the crest or medial face, where soft-tissue cover is thinnest.",
+      "claim_ids": [
+        "knee_pp_external_fixator_safe_zones_superficial_interval_01"
+      ]
+    }
+  ],
+  "deep_interval": [
+    {
+      "text": "Engage the far cortex but do not over-protrude. Do not run self-drilling self-tapping Schanz pins beyond the second cortex. Keep pins outside the fracture hematoma and away from the prosthesis.",
+      "claim_ids": [
+        "knee_pp_external_fixator_safe_zones_deep_interval_01"
+      ]
+    }
+  ],
+  "layers": [
+    {
+      "text": "Skin, thin or muscular envelope depending on site, periosteum, then bicortical bone, extra-articular to the knee.",
+      "claim_ids": [
+        "knee_pp_external_fixator_safe_zones_layers_01"
+      ]
+    }
+  ],
+  "structures_encountered": [],
+  "structures_at_risk": [
+    {
+      "text": "The common peroneal nerve at the fibular neck, the deep peroneal nerve and anterior tibial vessels along the posterolateral tibia, the popliteal artery in the fossa, and the prosthesis (via pin-track inoculation of the canal) are at risk.",
+      "claim_ids": [
+        "knee_pp_external_fixator_safe_zones_structures_at_risk_01"
+      ]
+    }
+  ],
+  "danger_zones": [
+    {
+      "text": "Pins within 2 cm of the tibial plateau enter the capsule unless placed very anterior. Femoral pins within 8–10 cm of the superior patellar pole enter the suprapatellar pouch. A pin aimed from midway between the tibial crest and medial edge can hit the anterior tibial bundle.",
+      "claim_ids": [
+        "knee_pp_external_fixator_safe_zones_danger_zones_01"
+      ]
+    }
+  ],
+  "retraction_hazards": [
+    {
+      "text": "A TKA narrows the safe zone. Keep every pin as far from the implant as the construct allows.",
+      "claim_ids": [
+        "knee_pp_external_fixator_safe_zones_retraction_hazards_01"
+      ]
+    }
+  ],
+  "exposure": [
+    {
+      "text": "Provides only pin corridors, not an open fracture exposure.",
+      "claim_ids": [
+        "knee_pp_external_fixator_safe_zones_exposure_01"
+      ]
+    }
+  ],
+  "limitations": [
+    {
+      "text": "The arthroplasty itself significantly limits safe pin sites. Fine wires are preferred if fixation must be closer to the joint.",
+      "claim_ids": [
+        "knee_pp_external_fixator_safe_zones_limitations_01"
+      ]
+    }
+  ],
+  "extensions": [],
+  "indications": [
+    {
+      "text": "Used for bridging or nonbridging external fixation of a periprosthetic knee fracture when the soft-tissue envelope allows.",
+      "claim_ids": [
+        "knee_pp_external_fixator_safe_zones_indications_01"
+      ]
+    }
+  ],
+  "relative_contraindications": [],
+  "implant_implications": [],
+  "fluoroscopy_implications": [],
+  "closure": [
+    {
+      "text": "Leave pin sites dressed after confirming the far cortex is engaged without over-penetration.",
+      "claim_ids": [
+        "knee_pp_external_fixator_safe_zones_closure_01"
+      ]
+    }
+  ],
+  "complications": [
+    {
+      "text": "Complications include pin-track infection that can seed the prosthesis, common-peroneal or popliteal injury, intra-articular pins, and thermal necrosis with loosening if self-drilling tips are driven too far.",
+      "claim_ids": [
+        "knee_pp_external_fixator_safe_zones_complications_01"
+      ]
+    }
+  ],
+  "bailouts": [],
+  "procedure_applications": [
+    {
+      "procedure_id": "periprosthetic_knee_fracture_orif",
+      "relationship": "conditional_option",
+      "condition": "Temporary spanning or nonbridging external fixation is applied around a total knee"
+    }
+  ],
+  "questions": [
+    {
+      "question": "How far from the superior patellar pole should femoral pins stay?",
+      "answer": "More than 8–10 cm, to remain extra-articular to the suprapatellar pouch.",
+      "claim_ids": [
+        "knee_pp_external_fixator_safe_zones_questions_01"
+      ]
+    },
+    {
+      "question": "How far below the tibial plateau should pins stay?",
+      "answer": "At least 2 cm, or as anterior as possible if a more proximal pin is mandatory.",
+      "claim_ids": [
+        "knee_pp_external_fixator_safe_zones_questions_02"
+      ]
+    },
+    {
+      "question": "Where are bridging-frame pins placed?",
+      "answer": "Anteriorly in the femoral and tibial shafts.",
+      "claim_ids": [
+        "knee_pp_external_fixator_safe_zones_questions_03"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "knee_pp_external_fixator_safe_zones_positioning_01",
+      "text": "Position so the femoral and tibial shafts can be imaged and crushed or badly damaged skin can be avoided.",
+      "source_ids": [
+        "ao_ffd3c4fb6bfca618",
+        "ao_a21adb25f7703ca1"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "knee_pp_external_fixator_safe_zones_surface_landmarks_01",
+      "text": "Mark the superior patellar pole (stay more than 8–10 cm proximal on the femur), the tibial tubercle, a line 2 cm below the plateau, and the prosthesis so pins stay as far from it as possible.",
+      "source_ids": [
+        "ao_ffd3c4fb6bfca618"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "knee_pp_external_fixator_safe_zones_incision_01",
+      "text": "Use mini-open windows rather than driving pins through crushed skin. Bridging frames take anterior femoral and tibial shaft pins; nonbridging frames use tibial pins only.",
+      "source_ids": [
+        "ao_ffd3c4fb6bfca618"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "knee_pp_external_fixator_safe_zones_superficial_interval_01",
+      "text": "On the femur use the anterolateral or direct-lateral envelope. On the tibia distal to the tubercle use the crest or medial face, where soft-tissue cover is thinnest.",
+      "source_ids": [
+        "ao_ffd3c4fb6bfca618",
+        "ao_a21adb25f7703ca1"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "knee_pp_external_fixator_safe_zones_deep_interval_01",
+      "text": "Engage the far cortex but do not over-protrude. Do not run self-drilling self-tapping Schanz pins beyond the second cortex. Keep pins outside the fracture hematoma and away from the prosthesis.",
+      "source_ids": [
+        "ao_ffd3c4fb6bfca618",
+        "ao_a21adb25f7703ca1"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "knee_pp_external_fixator_safe_zones_layers_01",
+      "text": "Skin, thin or muscular envelope depending on site, periosteum, then bicortical bone, extra-articular to the knee.",
+      "source_ids": [
+        "ao_ffd3c4fb6bfca618",
+        "ao_a21adb25f7703ca1"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "knee_pp_external_fixator_safe_zones_structures_at_risk_01",
+      "text": "The common peroneal nerve at the fibular neck, the deep peroneal nerve and anterior tibial vessels along the posterolateral tibia, the popliteal artery in the fossa, and the prosthesis (via pin-track inoculation of the canal) are at risk.",
+      "source_ids": [
+        "ao_ffd3c4fb6bfca618",
+        "ao_a21adb25f7703ca1"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "knee_pp_external_fixator_safe_zones_danger_zones_01",
+      "text": "Pins within 2 cm of the tibial plateau enter the capsule unless placed very anterior. Femoral pins within 8–10 cm of the superior patellar pole enter the suprapatellar pouch. A pin aimed from midway between the tibial crest and medial edge can hit the anterior tibial bundle.",
+      "source_ids": [
+        "ao_ffd3c4fb6bfca618"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "knee_pp_external_fixator_safe_zones_retraction_hazards_01",
+      "text": "A TKA narrows the safe zone. Keep every pin as far from the implant as the construct allows.",
+      "source_ids": [
+        "ao_ffd3c4fb6bfca618"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "knee_pp_external_fixator_safe_zones_exposure_01",
+      "text": "Provides only pin corridors, not an open fracture exposure.",
+      "source_ids": [
+        "ao_ffd3c4fb6bfca618"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "knee_pp_external_fixator_safe_zones_limitations_01",
+      "text": "The arthroplasty itself significantly limits safe pin sites. Fine wires are preferred if fixation must be closer to the joint.",
+      "source_ids": [
+        "ao_ffd3c4fb6bfca618"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "knee_pp_external_fixator_safe_zones_indications_01",
+      "text": "Used for bridging or nonbridging external fixation of a periprosthetic knee fracture when the soft-tissue envelope allows.",
+      "source_ids": [
+        "ao_ffd3c4fb6bfca618"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "knee_pp_external_fixator_safe_zones_closure_01",
+      "text": "Leave pin sites dressed after confirming the far cortex is engaged without over-penetration.",
+      "source_ids": [
+        "ao_ffd3c4fb6bfca618"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "knee_pp_external_fixator_safe_zones_complications_01",
+      "text": "Complications include pin-track infection that can seed the prosthesis, common-peroneal or popliteal injury, intra-articular pins, and thermal necrosis with loosening if self-drilling tips are driven too far.",
+      "source_ids": [
+        "ao_ffd3c4fb6bfca618",
+        "ao_a21adb25f7703ca1"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "knee_pp_external_fixator_safe_zones_questions_01",
+      "text": "How far from the superior patellar pole should femoral pins stay?",
+      "source_ids": [
+        "ao_ffd3c4fb6bfca618"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "knee_pp_external_fixator_safe_zones_questions_02",
+      "text": "How far below the tibial plateau should pins stay?",
+      "source_ids": [
+        "ao_ffd3c4fb6bfca618"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "knee_pp_external_fixator_safe_zones_questions_03",
+      "text": "Where are bridging-frame pins placed?",
+      "source_ids": [
+        "ao_ffd3c4fb6bfca618"
+      ],
+      "risk_level": "medium"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "ao_ffd3c4fb6bfca618",
+      "provider": "AO Surgery Reference",
+      "title": "Safe Zones",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/periprosthetic-fractures/knee/approach/safe-zones",
+      "source_page_id": "ao_ffd3c4fb6bfca618"
+    },
+    {
+      "source_id": "ao_a21adb25f7703ca1",
+      "provider": "AO Surgery Reference",
+      "title": "Safe Zones For Pin Insertion",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/distal-femur/approach/safe-zones-for-pin-insertion",
+      "source_page_id": "ao_a21adb25f7703ca1"
+    }
+  ],
+  "content_status": "agent_review_pending",
+  "review": {
+    "status": "agent_review_pending",
+    "required_roles": [
+      "adversarial_safety_reviewer",
+      "approach_anatomy_reviewer",
+      "educational_value_reviewer",
+      "evidence_reviewer",
+      "operative_exposure_reviewer",
+      "procedure_applicability_reviewer"
+    ],
+    "completed_roles": []
+  },
+  "resolved_contradiction_keys": [],
+  "authoring_provenance": {
+    "method": "local_codex_curated",
+    "definition_file": "data/approach_library/curated/periprosthetic_knee_batch001_v1.json",
+    "api_used": false
+  }
+}

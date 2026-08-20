@@ -1,0 +1,344 @@
+{
+  "schema_version": "brobot_approach_packet_v1",
+  "approach_id": "forearm_pediatric_thompson",
+  "name": "Pediatric posterolateral (Thompson) approach to the radius",
+  "aliases": [
+    "pediatric Thompson approach",
+    "pediatric dorsal approach to the radial shaft"
+  ],
+  "region": "forearm-shaft",
+  "joint": "",
+  "bones": [
+    "radius"
+  ],
+  "corridor": "Dorsal forearm interval between extensor carpi radialis brevis and extensor digitorum communis, with the forearm supinated and the supinator elevated subperiosteally to protect the posterior interosseous nerve",
+  "positioning": [
+    {
+      "text": "Position with the forearm accessible on a hand table so it can be fully supinated during proximal work.",
+      "claim_ids": [
+        "forearm_pediatric_thompson_positioning_01"
+      ]
+    }
+  ],
+  "setup": [],
+  "surface_landmarks": [
+    {
+      "text": "The dorsal incision is planned from distal to Lister's tubercle toward, but not onto, the lateral epicondyle.",
+      "claim_ids": [
+        "forearm_pediatric_thompson_surface_landmarks_01"
+      ]
+    }
+  ],
+  "incision": [
+    {
+      "text": "Make a straight dorsal forearm incision whose length matches the needed exposure, stopping short of the lateral epicondyle proximally.",
+      "claim_ids": [
+        "forearm_pediatric_thompson_incision_01"
+      ]
+    }
+  ],
+  "superficial_interval": [
+    {
+      "text": "Incise skin and fat, watching for the superficial radial nerve and cephalic vein distally.",
+      "claim_ids": [
+        "forearm_pediatric_thompson_superficial_interval_01"
+      ]
+    }
+  ],
+  "deep_interval": [
+    {
+      "text": "Start distally where abductor pollicis longus crosses the radius, develop the plane beneath it, then continue proximally between extensor carpi radialis brevis (lateral) and extensor digitorum communis (medial). Fully supinate, identify the posterior interosseous nerve in the supinator about three of the child's finger breadths distal to the radial-neck flare, and elevate the supinator subperiosteally.",
+      "claim_ids": [
+        "forearm_pediatric_thompson_deep_interval_01"
+      ]
+    }
+  ],
+  "layers": [
+    {
+      "text": "Skin, subcutaneous tissue, ECRB–EDC interval, abductor pollicis longus, supinator, then radial shaft.",
+      "claim_ids": [
+        "forearm_pediatric_thompson_layers_01"
+      ]
+    }
+  ],
+  "structures_encountered": [],
+  "structures_at_risk": [
+    {
+      "text": "The posterior interosseous nerve in the supinator, the superficial radial nerve and cephalic vein distally, and extensor pollicis longus beside Lister's tubercle are at risk.",
+      "claim_ids": [
+        "forearm_pediatric_thompson_structures_at_risk_01"
+      ]
+    }
+  ],
+  "danger_zones": [
+    {
+      "text": "Proximal extension through the supinator carries considerable risk to the posterior interosseous nerve unless the nerve is identified and the muscle is elevated subperiosteally.",
+      "claim_ids": [
+        "forearm_pediatric_thompson_danger_zones_01"
+      ]
+    }
+  ],
+  "retraction_hazards": [
+    {
+      "text": "Lift abductor pollicis longus rather than cutting it blindly, and respect extensor pollicis longus on the medial side of Lister's tubercle during distal extension.",
+      "claim_ids": [
+        "forearm_pediatric_thompson_retraction_hazards_01"
+      ]
+    }
+  ],
+  "exposure": [
+    {
+      "text": "Exposes the middle and distal thirds of the radial shaft; a small fracture-site incision with blunt muscle parting is the minimally invasive variant.",
+      "claim_ids": [
+        "forearm_pediatric_thompson_exposure_01"
+      ]
+    }
+  ],
+  "limitations": [
+    {
+      "text": "The skin incision should not reach the lateral epicondyle, and proximal extension is limited by the posterior interosseous nerve.",
+      "claim_ids": [
+        "forearm_pediatric_thompson_limitations_01"
+      ]
+    }
+  ],
+  "extensions": [],
+  "indications": [
+    {
+      "text": "Used for open exposure of the pediatric middle and distal radial shaft, with cautious proximal extension when required.",
+      "claim_ids": [
+        "forearm_pediatric_thompson_indications_01"
+      ]
+    }
+  ],
+  "relative_contraindications": [],
+  "implant_implications": [],
+  "fluoroscopy_implications": [],
+  "closure": [
+    {
+      "text": "Do not close forearm fascia because of compartment-syndrome risk; muscles fall back anatomically. Close skin and subcutaneous tissue with fine resorbable sutures.",
+      "claim_ids": [
+        "forearm_pediatric_thompson_closure_01"
+      ]
+    }
+  ],
+  "complications": [
+    {
+      "text": "Complications include posterior interosseous nerve injury and compartment syndrome if the fascia is closed.",
+      "claim_ids": [
+        "forearm_pediatric_thompson_complications_01"
+      ]
+    }
+  ],
+  "bailouts": [],
+  "procedure_applications": [
+    {
+      "procedure_id": "both_bone_forearm_fracture_orif",
+      "relationship": "primary_option",
+      "condition": "A pediatric radial-shaft fracture needs open exposure of the middle or distal third, with cautious proximal extension"
+    }
+  ],
+  "questions": [
+    {
+      "question": "Which interval is used in the Thompson approach?",
+      "answer": "Extensor carpi radialis brevis laterally and extensor digitorum communis medially.",
+      "claim_ids": [
+        "forearm_pediatric_thompson_questions_01"
+      ]
+    },
+    {
+      "question": "How is the posterior interosseous nerve protected when elevating supinator?",
+      "answer": "Fully supinate the forearm and elevate the supinator subperiosteally after identifying the nerve about three of the child's finger breadths distal to the radial-neck flare.",
+      "claim_ids": [
+        "forearm_pediatric_thompson_questions_02"
+      ]
+    },
+    {
+      "question": "Should forearm fascia be closed?",
+      "answer": "No. Leaving it open reduces the risk of compartment syndrome.",
+      "claim_ids": [
+        "forearm_pediatric_thompson_questions_03"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "forearm_pediatric_thompson_positioning_01",
+      "text": "Position with the forearm accessible on a hand table so it can be fully supinated during proximal work.",
+      "source_ids": [
+        "ao_dffbb147abf4ad24",
+        "ao_24eb9bd2e1f62a70"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "forearm_pediatric_thompson_surface_landmarks_01",
+      "text": "The dorsal incision is planned from distal to Lister's tubercle toward, but not onto, the lateral epicondyle.",
+      "source_ids": [
+        "ao_dffbb147abf4ad24"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "forearm_pediatric_thompson_incision_01",
+      "text": "Make a straight dorsal forearm incision whose length matches the needed exposure, stopping short of the lateral epicondyle proximally.",
+      "source_ids": [
+        "ao_dffbb147abf4ad24"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "forearm_pediatric_thompson_superficial_interval_01",
+      "text": "Incise skin and fat, watching for the superficial radial nerve and cephalic vein distally.",
+      "source_ids": [
+        "ao_dffbb147abf4ad24"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "forearm_pediatric_thompson_deep_interval_01",
+      "text": "Start distally where abductor pollicis longus crosses the radius, develop the plane beneath it, then continue proximally between extensor carpi radialis brevis (lateral) and extensor digitorum communis (medial). Fully supinate, identify the posterior interosseous nerve in the supinator about three of the child's finger breadths distal to the radial-neck flare, and elevate the supinator subperiosteally.",
+      "source_ids": [
+        "ao_dffbb147abf4ad24",
+        "ao_24eb9bd2e1f62a70"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "forearm_pediatric_thompson_layers_01",
+      "text": "Skin, subcutaneous tissue, ECRB–EDC interval, abductor pollicis longus, supinator, then radial shaft.",
+      "source_ids": [
+        "ao_dffbb147abf4ad24",
+        "ao_24eb9bd2e1f62a70"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "forearm_pediatric_thompson_structures_at_risk_01",
+      "text": "The posterior interosseous nerve in the supinator, the superficial radial nerve and cephalic vein distally, and extensor pollicis longus beside Lister's tubercle are at risk.",
+      "source_ids": [
+        "ao_dffbb147abf4ad24",
+        "ao_24eb9bd2e1f62a70"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "forearm_pediatric_thompson_danger_zones_01",
+      "text": "Proximal extension through the supinator carries considerable risk to the posterior interosseous nerve unless the nerve is identified and the muscle is elevated subperiosteally.",
+      "source_ids": [
+        "ao_dffbb147abf4ad24",
+        "ao_24eb9bd2e1f62a70"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "forearm_pediatric_thompson_retraction_hazards_01",
+      "text": "Lift abductor pollicis longus rather than cutting it blindly, and respect extensor pollicis longus on the medial side of Lister's tubercle during distal extension.",
+      "source_ids": [
+        "ao_dffbb147abf4ad24"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "forearm_pediatric_thompson_exposure_01",
+      "text": "Exposes the middle and distal thirds of the radial shaft; a small fracture-site incision with blunt muscle parting is the minimally invasive variant.",
+      "source_ids": [
+        "ao_dffbb147abf4ad24"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "forearm_pediatric_thompson_limitations_01",
+      "text": "The skin incision should not reach the lateral epicondyle, and proximal extension is limited by the posterior interosseous nerve.",
+      "source_ids": [
+        "ao_dffbb147abf4ad24"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "forearm_pediatric_thompson_indications_01",
+      "text": "Used for open exposure of the pediatric middle and distal radial shaft, with cautious proximal extension when required.",
+      "source_ids": [
+        "ao_dffbb147abf4ad24"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "forearm_pediatric_thompson_closure_01",
+      "text": "Do not close forearm fascia because of compartment-syndrome risk; muscles fall back anatomically. Close skin and subcutaneous tissue with fine resorbable sutures.",
+      "source_ids": [
+        "ao_dffbb147abf4ad24"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "forearm_pediatric_thompson_complications_01",
+      "text": "Complications include posterior interosseous nerve injury and compartment syndrome if the fascia is closed.",
+      "source_ids": [
+        "ao_dffbb147abf4ad24",
+        "ao_24eb9bd2e1f62a70"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "forearm_pediatric_thompson_questions_01",
+      "text": "Which interval is used in the Thompson approach?",
+      "source_ids": [
+        "ao_dffbb147abf4ad24",
+        "ao_24eb9bd2e1f62a70"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "forearm_pediatric_thompson_questions_02",
+      "text": "How is the posterior interosseous nerve protected when elevating supinator?",
+      "source_ids": [
+        "ao_dffbb147abf4ad24"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "forearm_pediatric_thompson_questions_03",
+      "text": "Should forearm fascia be closed?",
+      "source_ids": [
+        "ao_dffbb147abf4ad24"
+      ],
+      "risk_level": "medium"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "ao_dffbb147abf4ad24",
+      "provider": "AO Surgery Reference",
+      "title": "Posterolateral Thompson Approach To The Radius",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/pediatric-trauma/forearm-shaft/approach/posterolateral-thompson-approach-to-the-radius",
+      "source_page_id": "ao_dffbb147abf4ad24"
+    },
+    {
+      "source_id": "ao_24eb9bd2e1f62a70",
+      "provider": "AO Surgery Reference",
+      "title": "Posterolateral approach (Thompson) to the forearm shaft",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/forearm-shaft/approach/posterolateral-approach-thompson",
+      "source_page_id": "ao_24eb9bd2e1f62a70"
+    }
+  ],
+  "content_status": "agent_review_pending",
+  "review": {
+    "status": "agent_review_pending",
+    "required_roles": [
+      "adversarial_safety_reviewer",
+      "approach_anatomy_reviewer",
+      "educational_value_reviewer",
+      "evidence_reviewer",
+      "operative_exposure_reviewer",
+      "procedure_applicability_reviewer"
+    ],
+    "completed_roles": []
+  },
+  "resolved_contradiction_keys": [],
+  "authoring_provenance": {
+    "method": "local_codex_curated",
+    "definition_file": "data/approach_library/curated/forearm_pediatric_esin_kocher_navicular_batch004_v1.json",
+    "api_used": false
+  }
+}

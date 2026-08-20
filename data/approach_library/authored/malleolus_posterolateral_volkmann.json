@@ -1,0 +1,361 @@
+{
+  "schema_version": "brobot_approach_packet_v1",
+  "approach_id": "malleolus_posterolateral_volkmann",
+  "name": "Posterolateral approach to the Volkmann fragment",
+  "aliases": [
+    "prone posterolateral posterior-malleolus approach"
+  ],
+  "region": "malleoli",
+  "joint": "ankle",
+  "bones": [
+    "distal tibia",
+    "fibula"
+  ],
+  "corridor": "Prone 10–15 cm incision midway between the fibula and Achilles, developing the medial border of the peroneals against Achilles to the Volkmann fragment, then retracting peroneals medially to plate the posterior fibula",
+  "positioning": [
+    {
+      "text": "Position prone. The fibula and Achilles remain palpable even with swelling and can be used as landmarks.",
+      "claim_ids": [
+        "malleolus_posterolateral_volkmann_positioning_01"
+      ]
+    }
+  ],
+  "setup": [],
+  "surface_landmarks": [
+    {
+      "text": "Mark the fibula, the Achilles tendon, and a line midway between them. The sural nerve runs parallel to the lateral Achilles margin.",
+      "claim_ids": [
+        "malleolus_posterolateral_volkmann_surface_landmarks_01"
+      ]
+    }
+  ],
+  "incision": [
+    {
+      "text": "Make a 10–15 cm longitudinal cut midway between the fibula and Achilles.",
+      "claim_ids": [
+        "malleolus_posterolateral_volkmann_incision_01"
+      ]
+    }
+  ],
+  "superficial_interval": [
+    {
+      "text": "Dissect to the peroneal muscles. The sural nerve usually lies medial to this cut but must still be protected if it appears in the wound.",
+      "claim_ids": [
+        "malleolus_posterolateral_volkmann_superficial_interval_01"
+      ]
+    }
+  ],
+  "deep_interval": [
+    {
+      "text": "Develop the medial side of the peroneals and displace them laterally against the Achilles to see the Volkmann fragment. After that fragment is fixed, retract the peroneals medially to plate the posterior fibula.",
+      "claim_ids": [
+        "malleolus_posterolateral_volkmann_deep_interval_01"
+      ]
+    }
+  ],
+  "layers": [
+    {
+      "text": "Skin, sural-nerve plane, peroneal muscles, posterior tibia (Volkmann fragment), then, with peroneals shifted medially, the posterior fibula.",
+      "claim_ids": [
+        "malleolus_posterolateral_volkmann_layers_01"
+      ]
+    }
+  ],
+  "structures_encountered": [],
+  "structures_at_risk": [
+    {
+      "text": "The sural nerve and peroneal tendons are at risk. The interval is between the peroneals and FHL/Achilles for an extended posterior-tibial view.",
+      "claim_ids": [
+        "malleolus_posterolateral_volkmann_structures_at_risk_01"
+      ]
+    }
+  ],
+  "danger_zones": [
+    {
+      "text": "The sural nerve running parallel to the lateral Achilles is the danger zone for this incision.",
+      "claim_ids": [
+        "malleolus_posterolateral_volkmann_danger_zones_01"
+      ]
+    }
+  ],
+  "retraction_hazards": [
+    {
+      "text": "Use a self-retainer against the Achilles while the peroneals are held laterally, then reverse the retraction for the fibula.",
+      "claim_ids": [
+        "malleolus_posterolateral_volkmann_retraction_hazards_01"
+      ]
+    }
+  ],
+  "exposure": [
+    {
+      "text": "Gives direct access to the Volkmann fragment and allows a posterior fibular plate through the same incision.",
+      "claim_ids": [
+        "malleolus_posterolateral_volkmann_exposure_01"
+      ]
+    }
+  ],
+  "limitations": [
+    {
+      "text": "The patient must be prone. Anterior and medial ankle fragments are not seen.",
+      "claim_ids": [
+        "malleolus_posterolateral_volkmann_limitations_01"
+      ]
+    }
+  ],
+  "extensions": [],
+  "indications": [
+    {
+      "text": "Used when a Volkmann fragment needs direct reduction, and when a posterior fibular plate is planned through the same window.",
+      "claim_ids": [
+        "malleolus_posterolateral_volkmann_indications_01"
+      ]
+    }
+  ],
+  "relative_contraindications": [],
+  "implant_implications": [],
+  "fluoroscopy_implications": [],
+  "closure": [
+    {
+      "text": "Let the peroneals fall back over the hardware. Close deep fascia over them only if it is easy and tension-free.",
+      "claim_ids": [
+        "malleolus_posterolateral_volkmann_closure_01"
+      ]
+    }
+  ],
+  "complications": [
+    {
+      "text": "Complications include sural-nerve injury and peroneal-tendon irritation from uncovered posterior hardware.",
+      "claim_ids": [
+        "malleolus_posterolateral_volkmann_complications_01"
+      ]
+    }
+  ],
+  "bailouts": [],
+  "procedure_applications": [
+    {
+      "procedure_id": "ankle_fracture_orif",
+      "relationship": "primary_option",
+      "condition": "A Volkmann posterior-malleolar fragment is reduced under direct vision, with optional posterior fibular plating through the same window"
+    }
+  ],
+  "questions": [
+    {
+      "question": "Where is the skin incision placed?",
+      "answer": "Midway between the fibula and the Achilles tendon, 10–15 cm long, with the patient prone.",
+      "claim_ids": [
+        "malleolus_posterolateral_volkmann_questions_01"
+      ]
+    },
+    {
+      "question": "How are the peroneals retracted to see the Volkmann fragment?",
+      "answer": "Laterally, with a retractor against the Achilles.",
+      "claim_ids": [
+        "malleolus_posterolateral_volkmann_questions_02"
+      ]
+    },
+    {
+      "question": "How is the fibula then plated?",
+      "answer": "By retracting the peroneals medially to expose the posterior fibular surface.",
+      "claim_ids": [
+        "malleolus_posterolateral_volkmann_questions_03"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "malleolus_posterolateral_volkmann_positioning_01",
+      "text": "Position prone. The fibula and Achilles remain palpable even with swelling and can be used as landmarks.",
+      "source_ids": [
+        "ao_272a8b6430a22ffb"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "malleolus_posterolateral_volkmann_surface_landmarks_01",
+      "text": "Mark the fibula, the Achilles tendon, and a line midway between them. The sural nerve runs parallel to the lateral Achilles margin.",
+      "source_ids": [
+        "ao_272a8b6430a22ffb",
+        "ao_d1d6e660d076a419"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "malleolus_posterolateral_volkmann_incision_01",
+      "text": "Make a 10–15 cm longitudinal cut midway between the fibula and Achilles.",
+      "source_ids": [
+        "ao_272a8b6430a22ffb"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "malleolus_posterolateral_volkmann_superficial_interval_01",
+      "text": "Dissect to the peroneal muscles. The sural nerve usually lies medial to this cut but must still be protected if it appears in the wound.",
+      "source_ids": [
+        "ao_272a8b6430a22ffb",
+        "ao_d1d6e660d076a419"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "malleolus_posterolateral_volkmann_deep_interval_01",
+      "text": "Develop the medial side of the peroneals and displace them laterally against the Achilles to see the Volkmann fragment. After that fragment is fixed, retract the peroneals medially to plate the posterior fibula.",
+      "source_ids": [
+        "ao_272a8b6430a22ffb",
+        "ao_d1d6e660d076a419"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "malleolus_posterolateral_volkmann_layers_01",
+      "text": "Skin, sural-nerve plane, peroneal muscles, posterior tibia (Volkmann fragment), then, with peroneals shifted medially, the posterior fibula.",
+      "source_ids": [
+        "ao_272a8b6430a22ffb",
+        "ao_692babf8613ec05e"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "malleolus_posterolateral_volkmann_structures_at_risk_01",
+      "text": "The sural nerve and peroneal tendons are at risk. The interval is between the peroneals and FHL/Achilles for an extended posterior-tibial view.",
+      "source_ids": [
+        "ao_272a8b6430a22ffb",
+        "ao_d1d6e660d076a419",
+        "ao_692babf8613ec05e"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "malleolus_posterolateral_volkmann_danger_zones_01",
+      "text": "The sural nerve running parallel to the lateral Achilles is the danger zone for this incision.",
+      "source_ids": [
+        "ao_272a8b6430a22ffb",
+        "ao_d1d6e660d076a419"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "malleolus_posterolateral_volkmann_retraction_hazards_01",
+      "text": "Use a self-retainer against the Achilles while the peroneals are held laterally, then reverse the retraction for the fibula.",
+      "source_ids": [
+        "ao_272a8b6430a22ffb"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "malleolus_posterolateral_volkmann_exposure_01",
+      "text": "Gives direct access to the Volkmann fragment and allows a posterior fibular plate through the same incision.",
+      "source_ids": [
+        "ao_272a8b6430a22ffb"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "malleolus_posterolateral_volkmann_limitations_01",
+      "text": "The patient must be prone. Anterior and medial ankle fragments are not seen.",
+      "source_ids": [
+        "ao_272a8b6430a22ffb",
+        "ao_d1d6e660d076a419"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "malleolus_posterolateral_volkmann_indications_01",
+      "text": "Used when a Volkmann fragment needs direct reduction, and when a posterior fibular plate is planned through the same window.",
+      "source_ids": [
+        "ao_272a8b6430a22ffb"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "malleolus_posterolateral_volkmann_closure_01",
+      "text": "Let the peroneals fall back over the hardware. Close deep fascia over them only if it is easy and tension-free.",
+      "source_ids": [
+        "ao_272a8b6430a22ffb",
+        "ao_d1d6e660d076a419"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "malleolus_posterolateral_volkmann_complications_01",
+      "text": "Complications include sural-nerve injury and peroneal-tendon irritation from uncovered posterior hardware.",
+      "source_ids": [
+        "ao_272a8b6430a22ffb",
+        "ao_d1d6e660d076a419"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "malleolus_posterolateral_volkmann_questions_01",
+      "text": "Where is the skin incision placed?",
+      "source_ids": [
+        "ao_272a8b6430a22ffb"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "malleolus_posterolateral_volkmann_questions_02",
+      "text": "How are the peroneals retracted to see the Volkmann fragment?",
+      "source_ids": [
+        "ao_272a8b6430a22ffb"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "malleolus_posterolateral_volkmann_questions_03",
+      "text": "How is the fibula then plated?",
+      "source_ids": [
+        "ao_272a8b6430a22ffb"
+      ],
+      "risk_level": "medium"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "ao_272a8b6430a22ffb",
+      "provider": "AO Surgery Reference",
+      "title": "Posterolateral Approach To The Volkmann Fragment",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/malleoli/approach/posterolateral-approach-to-the-volkmann-fragment",
+      "source_page_id": "ao_272a8b6430a22ffb"
+    },
+    {
+      "source_id": "ao_d1d6e660d076a419",
+      "provider": "AO Surgery Reference",
+      "title": "Posterolateral Limited Open Approach To The Distal Tibia",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/distal-tibia/approach/posterolateral-limited-open-approach-to-the-distal-tibia",
+      "source_page_id": "ao_d1d6e660d076a419"
+    },
+    {
+      "source_id": "ao_692babf8613ec05e",
+      "provider": "AO Surgery Reference",
+      "title": "Lateral Approach",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/malleoli/approach/lateral-approach",
+      "source_page_id": "ao_692babf8613ec05e"
+    },
+    {
+      "source_id": "orthobullets_a44799d2bf61510d",
+      "provider": "Orthobullets",
+      "title": "Ankle Posterolateral Approach",
+      "url": "https://www.orthobullets.com/approaches/12043/ankle-posterolateral-approach",
+      "source_page_id": "orthobullets_a44799d2bf61510d"
+    }
+  ],
+  "content_status": "agent_review_pending",
+  "review": {
+    "status": "agent_review_pending",
+    "required_roles": [
+      "adversarial_safety_reviewer",
+      "approach_anatomy_reviewer",
+      "educational_value_reviewer",
+      "evidence_reviewer",
+      "operative_exposure_reviewer",
+      "procedure_applicability_reviewer"
+    ],
+    "completed_roles": []
+  },
+  "resolved_contradiction_keys": [],
+  "authoring_provenance": {
+    "method": "local_codex_curated",
+    "definition_file": "data/approach_library/curated/malleoli_patella_batch001_v1.json",
+    "api_used": false
+  }
+}

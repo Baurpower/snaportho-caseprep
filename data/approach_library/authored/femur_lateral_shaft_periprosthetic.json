@@ -1,0 +1,348 @@
+{
+  "schema_version": "brobot_approach_packet_v1",
+  "approach_id": "femur_lateral_shaft_periprosthetic",
+  "name": "Lateral approach to the femoral shaft (periprosthetic)",
+  "aliases": [
+    "lateral vastus-elevating approach to the femur"
+  ],
+  "region": "hip",
+  "joint": "",
+  "bones": [
+    "femur"
+  ],
+  "corridor": "Lateral approach splitting the fascia lata and elevating vastus lateralis off the lateral intermuscular septum and linea aspera, ligating profunda perforators, to expose the femoral shaft",
+  "positioning": [
+    {
+      "text": "Position supine or lateral decubitus with the lateral thigh accessible along the needed length of femur.",
+      "claim_ids": [
+        "femur_lateral_shaft_periprosthetic_positioning_01"
+      ]
+    }
+  ],
+  "setup": [],
+  "surface_landmarks": [
+    {
+      "text": "Mark a line between the greater trochanter and the lateral femoral epicondyle over the length required for the fracture.",
+      "claim_ids": [
+        "femur_lateral_shaft_periprosthetic_surface_landmarks_01"
+      ]
+    }
+  ],
+  "incision": [
+    {
+      "text": "Incise along that line and open the fascia lata with a scalpel and scissors parallel to the incision along its fibers.",
+      "claim_ids": [
+        "femur_lateral_shaft_periprosthetic_incision_01"
+      ]
+    }
+  ],
+  "superficial_interval": [
+    {
+      "text": "Separate vastus lateralis bluntly from the fascia lata with a Cobb elevator and retract it anteromedially.",
+      "claim_ids": [
+        "femur_lateral_shaft_periprosthetic_superficial_interval_01"
+      ]
+    }
+  ],
+  "deep_interval": [
+    {
+      "text": "Incise the investing fascia about 1 cm anterior to the intermuscular septum and detach vastus lateralis from the septum and linea aspera with a periosteal elevator, identifying and ligating the profunda perforating vessels as they pierce the septum from behind.",
+      "claim_ids": [
+        "femur_lateral_shaft_periprosthetic_deep_interval_01"
+      ]
+    }
+  ],
+  "layers": [
+    {
+      "text": "Skin, subcutaneous tissue, fascia lata, vastus lateralis, the perforating vessels at the lateral intermuscular septum, and the lateral femoral shaft.",
+      "claim_ids": [
+        "femur_lateral_shaft_periprosthetic_layers_01"
+      ]
+    }
+  ],
+  "structures_encountered": [],
+  "structures_at_risk": [
+    {
+      "text": "The perforating branches of the profunda femoris at the septum are the main structures at risk; the femoral vessels and sciatic nerve lie medially and posteromedially and are not exposed by this approach.",
+      "claim_ids": [
+        "femur_lateral_shaft_periprosthetic_structures_at_risk_01"
+      ]
+    }
+  ],
+  "danger_zones": [
+    {
+      "text": "The lateral intermuscular septum is the danger zone for perforating-vessel bleeding; a retracted, unligated perforator can cause troublesome occult bleeding.",
+      "claim_ids": [
+        "femur_lateral_shaft_periprosthetic_danger_zones_01"
+      ]
+    }
+  ],
+  "retraction_hazards": [
+    {
+      "text": "Ligate larger perforators and cauterize smaller ones before they retract into the posterior compartment.",
+      "claim_ids": [
+        "femur_lateral_shaft_periprosthetic_retraction_hazards_01"
+      ]
+    }
+  ],
+  "exposure": [
+    {
+      "text": "Exposes the lateral femoral shaft for plating over the required length.",
+      "claim_ids": [
+        "femur_lateral_shaft_periprosthetic_exposure_01"
+      ]
+    }
+  ],
+  "limitations": [
+    {
+      "text": "It does not expose the medial or posterior neurovascular structures and relies on control of the perforating vessels.",
+      "claim_ids": [
+        "femur_lateral_shaft_periprosthetic_limitations_01"
+      ]
+    }
+  ],
+  "extensions": [],
+  "indications": [
+    {
+      "text": "Indicated for periprosthetic femoral fractures with a stable prosthesis, fractures distal to a prosthesis, and femoral shaft plating.",
+      "claim_ids": [
+        "femur_lateral_shaft_periprosthetic_indications_01"
+      ]
+    }
+  ],
+  "relative_contraindications": [],
+  "implant_implications": [],
+  "fluoroscopy_implications": [],
+  "closure": [
+    {
+      "text": "Let vastus lateralis fall back over the femur and repair it to its anterior and lateral origin where possible, closing in layers over a subfascial drain.",
+      "claim_ids": [
+        "femur_lateral_shaft_periprosthetic_closure_01"
+      ]
+    }
+  ],
+  "complications": [
+    {
+      "text": "Complications include perforating-vessel hematoma, and rarely injury to medial neurovascular structures if the far cortex is breached.",
+      "claim_ids": [
+        "femur_lateral_shaft_periprosthetic_complications_01"
+      ]
+    }
+  ],
+  "bailouts": [],
+  "procedure_applications": [
+    {
+      "procedure_id": "periprosthetic_hip_fracture_orif",
+      "relationship": "primary_option",
+      "condition": "A periprosthetic femoral fracture with a stable prosthesis or a fracture distal to the prosthesis is plated laterally"
+    },
+    {
+      "procedure_id": "femoral_shaft_fracture_orif",
+      "relationship": "primary_option",
+      "condition": "A femoral shaft fracture is plated through a lateral approach"
+    }
+  ],
+  "questions": [
+    {
+      "question": "Which vessels must be controlled during the lateral femoral approach?",
+      "answer": "The perforating branches of the profunda femoris at the lateral intermuscular septum.",
+      "claim_ids": [
+        "femur_lateral_shaft_periprosthetic_questions_01"
+      ]
+    },
+    {
+      "question": "In which direction is vastus lateralis retracted?",
+      "answer": "Anteromedially.",
+      "claim_ids": [
+        "femur_lateral_shaft_periprosthetic_questions_02"
+      ]
+    },
+    {
+      "question": "Why are the femoral vessels and sciatic nerve usually safe in this approach?",
+      "answer": "They lie medially and posteromedially and are not exposed by the lateral dissection.",
+      "claim_ids": [
+        "femur_lateral_shaft_periprosthetic_questions_03"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "femur_lateral_shaft_periprosthetic_positioning_01",
+      "text": "Position supine or lateral decubitus with the lateral thigh accessible along the needed length of femur.",
+      "source_ids": [
+        "ao_c6346243232a9332"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "femur_lateral_shaft_periprosthetic_surface_landmarks_01",
+      "text": "Mark a line between the greater trochanter and the lateral femoral epicondyle over the length required for the fracture.",
+      "source_ids": [
+        "ao_c6346243232a9332"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "femur_lateral_shaft_periprosthetic_incision_01",
+      "text": "Incise along that line and open the fascia lata with a scalpel and scissors parallel to the incision along its fibers.",
+      "source_ids": [
+        "ao_c6346243232a9332"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "femur_lateral_shaft_periprosthetic_superficial_interval_01",
+      "text": "Separate vastus lateralis bluntly from the fascia lata with a Cobb elevator and retract it anteromedially.",
+      "source_ids": [
+        "ao_c6346243232a9332",
+        "orthobullets_12024"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "femur_lateral_shaft_periprosthetic_deep_interval_01",
+      "text": "Incise the investing fascia about 1 cm anterior to the intermuscular septum and detach vastus lateralis from the septum and linea aspera with a periosteal elevator, identifying and ligating the profunda perforating vessels as they pierce the septum from behind.",
+      "source_ids": [
+        "ao_c6346243232a9332",
+        "orthobullets_12024"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "femur_lateral_shaft_periprosthetic_layers_01",
+      "text": "Skin, subcutaneous tissue, fascia lata, vastus lateralis, the perforating vessels at the lateral intermuscular septum, and the lateral femoral shaft.",
+      "source_ids": [
+        "ao_c6346243232a9332"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "femur_lateral_shaft_periprosthetic_structures_at_risk_01",
+      "text": "The perforating branches of the profunda femoris at the septum are the main structures at risk; the femoral vessels and sciatic nerve lie medially and posteromedially and are not exposed by this approach.",
+      "source_ids": [
+        "ao_c6346243232a9332",
+        "orthobullets_12024"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "femur_lateral_shaft_periprosthetic_danger_zones_01",
+      "text": "The lateral intermuscular septum is the danger zone for perforating-vessel bleeding; a retracted, unligated perforator can cause troublesome occult bleeding.",
+      "source_ids": [
+        "ao_c6346243232a9332",
+        "orthobullets_12024"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "femur_lateral_shaft_periprosthetic_retraction_hazards_01",
+      "text": "Ligate larger perforators and cauterize smaller ones before they retract into the posterior compartment.",
+      "source_ids": [
+        "ao_c6346243232a9332",
+        "orthobullets_12024"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "femur_lateral_shaft_periprosthetic_exposure_01",
+      "text": "Exposes the lateral femoral shaft for plating over the required length.",
+      "source_ids": [
+        "ao_c6346243232a9332"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "femur_lateral_shaft_periprosthetic_limitations_01",
+      "text": "It does not expose the medial or posterior neurovascular structures and relies on control of the perforating vessels.",
+      "source_ids": [
+        "ao_c6346243232a9332"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "femur_lateral_shaft_periprosthetic_indications_01",
+      "text": "Indicated for periprosthetic femoral fractures with a stable prosthesis, fractures distal to a prosthesis, and femoral shaft plating.",
+      "source_ids": [
+        "ao_c6346243232a9332"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "femur_lateral_shaft_periprosthetic_closure_01",
+      "text": "Let vastus lateralis fall back over the femur and repair it to its anterior and lateral origin where possible, closing in layers over a subfascial drain.",
+      "source_ids": [
+        "ao_c6346243232a9332"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "femur_lateral_shaft_periprosthetic_complications_01",
+      "text": "Complications include perforating-vessel hematoma, and rarely injury to medial neurovascular structures if the far cortex is breached.",
+      "source_ids": [
+        "ao_c6346243232a9332",
+        "orthobullets_12024"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "femur_lateral_shaft_periprosthetic_questions_01",
+      "text": "Which vessels must be controlled during the lateral femoral approach?",
+      "source_ids": [
+        "ao_c6346243232a9332",
+        "orthobullets_12024"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "femur_lateral_shaft_periprosthetic_questions_02",
+      "text": "In which direction is vastus lateralis retracted?",
+      "source_ids": [
+        "ao_c6346243232a9332"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "femur_lateral_shaft_periprosthetic_questions_03",
+      "text": "Why are the femoral vessels and sciatic nerve usually safe in this approach?",
+      "source_ids": [
+        "ao_c6346243232a9332",
+        "orthobullets_12024"
+      ],
+      "risk_level": "medium"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "ao_c6346243232a9332",
+      "provider": "AO Surgery Reference",
+      "title": "Lateral approach to the femoral shaft (periprosthetic)",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/periprosthetic-fractures/hip/approach/lateral-approach-femur-shaft",
+      "source_page_id": "ao_c6346243232a9332"
+    },
+    {
+      "source_id": "orthobullets_12024",
+      "provider": "Orthobullets",
+      "title": "Femur Lateral Approach",
+      "url": "https://www.orthobullets.com/approaches/12024/femur-lateral-approach"
+    }
+  ],
+  "content_status": "agent_review_pending",
+  "review": {
+    "status": "agent_review_pending",
+    "required_roles": [
+      "adversarial_safety_reviewer",
+      "approach_anatomy_reviewer",
+      "educational_value_reviewer",
+      "evidence_reviewer",
+      "operative_exposure_reviewer",
+      "procedure_applicability_reviewer"
+    ],
+    "completed_roles": []
+  },
+  "resolved_contradiction_keys": [],
+  "authoring_provenance": {
+    "method": "local_codex_curated",
+    "definition_file": "data/approach_library/curated/hip_lateralfemur_asis_batch002_v1.json",
+    "api_used": false
+  }
+}

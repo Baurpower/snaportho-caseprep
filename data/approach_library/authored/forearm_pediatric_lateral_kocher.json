@@ -1,0 +1,366 @@
+{
+  "schema_version": "brobot_approach_packet_v1",
+  "approach_id": "forearm_pediatric_lateral_kocher",
+  "name": "Pediatric lateral (Kocher) approach to the proximal radius",
+  "aliases": [
+    "pediatric Kocher approach",
+    "pediatric anconeus–ECU approach to the radial head"
+  ],
+  "region": "proximal-forearm",
+  "joint": "elbow",
+  "bones": [
+    "radius",
+    "distal humerus"
+  ],
+  "corridor": "Lateral or posterior-with-lateral-flap incision over the lateral condyle, through the Kocher interval between anconeus and extensor carpi ulnaris, with the forearm pronated to protect the posterior interosseous nerve",
+  "positioning": [
+    {
+      "text": "Place the elbow at 90° with the forearm fully pronated so the posterior interosseous nerve is carried away from the field.",
+      "claim_ids": [
+        "forearm_pediatric_lateral_kocher_positioning_01"
+      ]
+    }
+  ],
+  "setup": [],
+  "surface_landmarks": [
+    {
+      "text": "Palpate the lateral condyle; the posterior interosseous nerve crosses the posterior radius about three of the patient's finger breadths distal to the radial head.",
+      "claim_ids": [
+        "forearm_pediatric_lateral_kocher_surface_landmarks_01"
+      ]
+    }
+  ],
+  "incision": [
+    {
+      "text": "Use a gently curved lateral incision over the middle of the lateral condyle (about 5–8 cm, extended as needed) or a posterior incision with a lateral flap.",
+      "claim_ids": [
+        "forearm_pediatric_lateral_kocher_incision_01"
+      ]
+    }
+  ],
+  "superficial_interval": [
+    {
+      "text": "Incise subcutaneous tissue, raise flaps to fascia, and identify the Kocher interval between extensor carpi ulnaris and anconeus; intervals are easier to see distally but distal dissection is limited by the posterior interosseous nerve.",
+      "claim_ids": [
+        "forearm_pediatric_lateral_kocher_superficial_interval_01"
+      ]
+    }
+  ],
+  "deep_interval": [
+    {
+      "text": "Prefer reduction through an intact capsule when periosteal vessels to the radial head must be preserved. If needed, make an arthrotomy proximal to the radial head and divide the annular ligament only when it blocks reduction, in line with the muscle interval. Do not place retractors around the radial neck.",
+      "claim_ids": [
+        "forearm_pediatric_lateral_kocher_deep_interval_01"
+      ]
+    }
+  ],
+  "layers": [
+    {
+      "text": "Skin, subcutaneous flaps, fascia, anconeus–ECU interval, lateral capsule and annular ligament, then radial head, neck, and coronoid tip.",
+      "claim_ids": [
+        "forearm_pediatric_lateral_kocher_layers_01"
+      ]
+    }
+  ],
+  "structures_encountered": [],
+  "structures_at_risk": [
+    {
+      "text": "The posterior interosseous nerve in the supinator, the radial nerve over the anterolateral capsule, and periosteal vessels to the radial head are at risk.",
+      "claim_ids": [
+        "forearm_pediatric_lateral_kocher_structures_at_risk_01"
+      ]
+    }
+  ],
+  "danger_zones": [
+    {
+      "text": "Avoid dissection distal to the annular ligament, strenuous retraction, retractors around the radial neck, and an arthrotomy that is too far anterior over the radial nerve.",
+      "claim_ids": [
+        "forearm_pediatric_lateral_kocher_danger_zones_01"
+      ]
+    }
+  ],
+  "retraction_hazards": [
+    {
+      "text": "Keep the forearm pronated and do not lever around the radial neck; distal retraction stretches the posterior interosseous nerve.",
+      "claim_ids": [
+        "forearm_pediatric_lateral_kocher_retraction_hazards_01"
+      ]
+    }
+  ],
+  "exposure": [
+    {
+      "text": "Exposes the radial head, radial neck, and coronoid tip; releasing capsule and muscle from the lateral supracondylar ridge improves the view of the capitellum and radial head.",
+      "claim_ids": [
+        "forearm_pediatric_lateral_kocher_exposure_01"
+      ]
+    }
+  ],
+  "limitations": [
+    {
+      "text": "Safe distal extension is limited by the posterior interosseous nerve. In children the most common use is open reduction of radial head or neck fractures.",
+      "claim_ids": [
+        "forearm_pediatric_lateral_kocher_limitations_01"
+      ]
+    }
+  ],
+  "extensions": [],
+  "indications": [
+    {
+      "text": "Used for pediatric open reduction of radial head or neck fractures and for access to the coronoid tip.",
+      "claim_ids": [
+        "forearm_pediatric_lateral_kocher_indications_01"
+      ]
+    }
+  ],
+  "relative_contraindications": [],
+  "implant_implications": [],
+  "fluoroscopy_implications": [],
+  "closure": [
+    {
+      "text": "Close the capsule with 3-0 resorbable suture, reattach muscle and fascia with 2-0 or 3-0 resorbable suture, and close skin with fine resorbable suture.",
+      "claim_ids": [
+        "forearm_pediatric_lateral_kocher_closure_01"
+      ]
+    }
+  ],
+  "complications": [
+    {
+      "text": "Complications include posterior interosseous or radial nerve injury and disruption of periosteal vessels to the radial head if the periosteum is divided unnecessarily.",
+      "claim_ids": [
+        "forearm_pediatric_lateral_kocher_complications_01"
+      ]
+    }
+  ],
+  "bailouts": [],
+  "procedure_applications": [
+    {
+      "procedure_id": "radial_head_fracture_orif",
+      "relationship": "primary_option",
+      "condition": "A pediatric radial head or neck fracture needs open reduction through a lateral interval"
+    }
+  ],
+  "questions": [
+    {
+      "question": "What is the Kocher interval?",
+      "answer": "Extensor carpi ulnaris and anconeus.",
+      "claim_ids": [
+        "forearm_pediatric_lateral_kocher_questions_01"
+      ]
+    },
+    {
+      "question": "How is the posterior interosseous nerve moved away from the field?",
+      "answer": "By fully pronating the forearm.",
+      "claim_ids": [
+        "forearm_pediatric_lateral_kocher_questions_02"
+      ]
+    },
+    {
+      "question": "Should the annular ligament always be divided in a child?",
+      "answer": "No. Divide it only if it obstructs reduction, and first try to reduce through an intact capsule to preserve periosteal vessels.",
+      "claim_ids": [
+        "forearm_pediatric_lateral_kocher_questions_03"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "forearm_pediatric_lateral_kocher_positioning_01",
+      "text": "Place the elbow at 90° with the forearm fully pronated so the posterior interosseous nerve is carried away from the field.",
+      "source_ids": [
+        "ao_67c252d5865d146b",
+        "ao_2ad31e5f21d3d221",
+        "ao_dafb27f83a9496e0"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "forearm_pediatric_lateral_kocher_surface_landmarks_01",
+      "text": "Palpate the lateral condyle; the posterior interosseous nerve crosses the posterior radius about three of the patient's finger breadths distal to the radial head.",
+      "source_ids": [
+        "ao_67c252d5865d146b",
+        "ao_2ad31e5f21d3d221"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "forearm_pediatric_lateral_kocher_incision_01",
+      "text": "Use a gently curved lateral incision over the middle of the lateral condyle (about 5–8 cm, extended as needed) or a posterior incision with a lateral flap.",
+      "source_ids": [
+        "ao_67c252d5865d146b",
+        "ao_2ad31e5f21d3d221"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "forearm_pediatric_lateral_kocher_superficial_interval_01",
+      "text": "Incise subcutaneous tissue, raise flaps to fascia, and identify the Kocher interval between extensor carpi ulnaris and anconeus; intervals are easier to see distally but distal dissection is limited by the posterior interosseous nerve.",
+      "source_ids": [
+        "ao_67c252d5865d146b",
+        "ao_dafb27f83a9496e0"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "forearm_pediatric_lateral_kocher_deep_interval_01",
+      "text": "Prefer reduction through an intact capsule when periosteal vessels to the radial head must be preserved. If needed, make an arthrotomy proximal to the radial head and divide the annular ligament only when it blocks reduction, in line with the muscle interval. Do not place retractors around the radial neck.",
+      "source_ids": [
+        "ao_67c252d5865d146b",
+        "ao_2ad31e5f21d3d221",
+        "ao_dafb27f83a9496e0"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "forearm_pediatric_lateral_kocher_layers_01",
+      "text": "Skin, subcutaneous flaps, fascia, anconeus–ECU interval, lateral capsule and annular ligament, then radial head, neck, and coronoid tip.",
+      "source_ids": [
+        "ao_67c252d5865d146b",
+        "ao_2ad31e5f21d3d221"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "forearm_pediatric_lateral_kocher_structures_at_risk_01",
+      "text": "The posterior interosseous nerve in the supinator, the radial nerve over the anterolateral capsule, and periosteal vessels to the radial head are at risk.",
+      "source_ids": [
+        "ao_67c252d5865d146b",
+        "ao_2ad31e5f21d3d221",
+        "ao_dafb27f83a9496e0"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "forearm_pediatric_lateral_kocher_danger_zones_01",
+      "text": "Avoid dissection distal to the annular ligament, strenuous retraction, retractors around the radial neck, and an arthrotomy that is too far anterior over the radial nerve.",
+      "source_ids": [
+        "ao_67c252d5865d146b",
+        "ao_2ad31e5f21d3d221",
+        "ao_dafb27f83a9496e0"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "forearm_pediatric_lateral_kocher_retraction_hazards_01",
+      "text": "Keep the forearm pronated and do not lever around the radial neck; distal retraction stretches the posterior interosseous nerve.",
+      "source_ids": [
+        "ao_67c252d5865d146b",
+        "ao_2ad31e5f21d3d221",
+        "ao_dafb27f83a9496e0"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "forearm_pediatric_lateral_kocher_exposure_01",
+      "text": "Exposes the radial head, radial neck, and coronoid tip; releasing capsule and muscle from the lateral supracondylar ridge improves the view of the capitellum and radial head.",
+      "source_ids": [
+        "ao_67c252d5865d146b",
+        "ao_2ad31e5f21d3d221"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "forearm_pediatric_lateral_kocher_limitations_01",
+      "text": "Safe distal extension is limited by the posterior interosseous nerve. In children the most common use is open reduction of radial head or neck fractures.",
+      "source_ids": [
+        "ao_67c252d5865d146b"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "forearm_pediatric_lateral_kocher_indications_01",
+      "text": "Used for pediatric open reduction of radial head or neck fractures and for access to the coronoid tip.",
+      "source_ids": [
+        "ao_67c252d5865d146b",
+        "ao_2ad31e5f21d3d221"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "forearm_pediatric_lateral_kocher_closure_01",
+      "text": "Close the capsule with 3-0 resorbable suture, reattach muscle and fascia with 2-0 or 3-0 resorbable suture, and close skin with fine resorbable suture.",
+      "source_ids": [
+        "ao_67c252d5865d146b",
+        "ao_2ad31e5f21d3d221"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "forearm_pediatric_lateral_kocher_complications_01",
+      "text": "Complications include posterior interosseous or radial nerve injury and disruption of periosteal vessels to the radial head if the periosteum is divided unnecessarily.",
+      "source_ids": [
+        "ao_67c252d5865d146b",
+        "ao_2ad31e5f21d3d221",
+        "ao_dafb27f83a9496e0"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "forearm_pediatric_lateral_kocher_questions_01",
+      "text": "What is the Kocher interval?",
+      "source_ids": [
+        "ao_67c252d5865d146b",
+        "ao_dafb27f83a9496e0"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "forearm_pediatric_lateral_kocher_questions_02",
+      "text": "How is the posterior interosseous nerve moved away from the field?",
+      "source_ids": [
+        "ao_67c252d5865d146b",
+        "ao_2ad31e5f21d3d221"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "forearm_pediatric_lateral_kocher_questions_03",
+      "text": "Should the annular ligament always be divided in a child?",
+      "source_ids": [
+        "ao_2ad31e5f21d3d221"
+      ],
+      "risk_level": "medium"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "ao_67c252d5865d146b",
+      "provider": "AO Surgery Reference",
+      "title": "Lateral Kocher Approach To The Proximal Radius",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/pediatric-trauma/forearm-shaft/approach/lateral-kocher-approach-to-the-proximal-radius",
+      "source_page_id": "ao_67c252d5865d146b"
+    },
+    {
+      "source_id": "ao_2ad31e5f21d3d221",
+      "provider": "AO Surgery Reference",
+      "title": "Lateral Approach To The Proximal Radius",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/pediatric-trauma/proximal-forearm/approach/lateral-approach-to-the-proximal-radius",
+      "source_page_id": "ao_2ad31e5f21d3d221"
+    },
+    {
+      "source_id": "ao_dafb27f83a9496e0",
+      "provider": "AO Surgery Reference",
+      "title": "Lateral approach to the proximal radius",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/forearm-shaft/approach/lateral-approach-to-the-proximal-radius",
+      "source_page_id": "ao_dafb27f83a9496e0"
+    }
+  ],
+  "content_status": "agent_review_pending",
+  "review": {
+    "status": "agent_review_pending",
+    "required_roles": [
+      "adversarial_safety_reviewer",
+      "approach_anatomy_reviewer",
+      "educational_value_reviewer",
+      "evidence_reviewer",
+      "operative_exposure_reviewer",
+      "procedure_applicability_reviewer"
+    ],
+    "completed_roles": []
+  },
+  "resolved_contradiction_keys": [],
+  "authoring_provenance": {
+    "method": "local_codex_curated",
+    "definition_file": "data/approach_library/curated/forearm_pediatric_esin_kocher_navicular_batch004_v1.json",
+    "api_used": false
+  }
+}

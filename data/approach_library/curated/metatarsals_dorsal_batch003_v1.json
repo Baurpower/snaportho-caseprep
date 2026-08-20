@@ -1,0 +1,582 @@
+{
+  "approaches": [
+    {
+      "approach_id": "metatarsal_dorsal_multiple",
+      "name": "Dorsal approach to multiple metatarsals",
+      "aliases": [
+        "dual-incision dorsal metatarsal approach"
+      ],
+      "region": "metatarsals",
+      "joint": "",
+      "bones": [
+        "metatarsal"
+      ],
+      "corridor": "Dorsal longitudinal incisions in the intermetatarsal grooves (between 1st-2nd and/or 3rd-4th) with adequate skin bridges, working between the long and short extensor tendons to reach several metatarsals",
+      "sources": [
+        {
+          "source_id": "ao_a3e38c372a4f1c20",
+          "provider": "AO Surgery Reference",
+          "title": "Dorsal approach to multiple metatarsals",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/metatarsals/approach/dorsal-approach-to-multiple-metatarsals",
+          "source_page_id": "ao_a3e38c372a4f1c20"
+        },
+        {
+          "source_id": "ao_5d405f342c03afff",
+          "provider": "AO Surgery Reference",
+          "title": "Dorsal approach to single metatarsals 2 to 4",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/metatarsals/approach/dorsal-approach-to-single-metatarsals-2-to-4",
+          "source_page_id": "ao_5d405f342c03afff"
+        },
+        {
+          "source_id": "ao_4ff5be892be32320",
+          "provider": "AO Surgery Reference",
+          "title": "Dorsal approach to multiple metatarsals (midfoot)",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/midfoot/approach/dorsal-approach-to-multiple-metatarsals",
+          "source_page_id": "ao_4ff5be892be32320"
+        },
+        {
+          "source_id": "orthobullets_4539a1b264a38010",
+          "provider": "Orthobullets",
+          "title": "Lesser Toe Mtp Joint Approach",
+          "url": "https://www.orthobullets.com/approaches/12052/lesser-toe-mtp-joint-approach",
+          "source_page_id": "orthobullets_4539a1b264a38010"
+        }
+      ],
+      "procedure_applications": [
+        {
+          "procedure_id": "metatarsal_fracture_orif",
+          "relationship": "primary_option",
+          "condition": "Several metatarsal fractures require simultaneous dorsal exposure"
+        }
+      ],
+      "sections": {
+        "positioning": [
+          {
+            "text": "Position supine with the foot at the end of the table under tourniquet control.",
+            "source_ids": [
+              "ao_a3e38c372a4f1c20"
+            ]
+          }
+        ],
+        "surface_landmarks": [
+          {
+            "text": "Mark the intermetatarsal grooves and the long and short extensor tendons of each involved ray.",
+            "source_ids": [
+              "ao_a3e38c372a4f1c20"
+            ]
+          }
+        ],
+        "incision": [
+          {
+            "text": "Use one incision between the 1st and 2nd and, or, one between the 3rd and 4th metatarsals, avoiding more than two close parallel incisions to preserve skin vitality.",
+            "source_ids": [
+              "ao_a3e38c372a4f1c20"
+            ]
+          }
+        ],
+        "superficial_interval": [
+          {
+            "text": "Preserve the longitudinal dorsal veins and identify and protect the branches of the deep peroneal nerve that provide superficial digital innervation.",
+            "source_ids": [
+              "ao_a3e38c372a4f1c20",
+              "ao_5d405f342c03afff"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "deep_interval": [
+          {
+            "text": "Enter between the long and short extensor tendons of the corresponding ray without cutting muscle, releasing muscle from bone and elevating periosteum to reach each metatarsal.",
+            "source_ids": [
+              "ao_a3e38c372a4f1c20"
+            ]
+          }
+        ],
+        "layers": [
+          {
+            "text": "Skin, subcutaneous tissue with dorsal veins and intermetatarsal nerves, the long and short extensor tendons, and the metatarsals.",
+            "source_ids": [
+              "ao_a3e38c372a4f1c20"
+            ]
+          }
+        ],
+        "structures_at_risk": [
+          {
+            "text": "The intermetatarsal branches of the deep peroneal nerve and the crossing superficial veins are at risk, and the skin bridges are at risk of necrosis if incisions are too close.",
+            "source_ids": [
+              "ao_a3e38c372a4f1c20",
+              "ao_5d405f342c03afff"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "danger_zones": [
+          {
+            "text": "Narrow skin bridges between parallel incisions are the danger zone for skin necrosis.",
+            "source_ids": [
+              "ao_a3e38c372a4f1c20"
+            ],
+            "risk_level": "medium"
+          }
+        ],
+        "retraction_hazards": [
+          {
+            "text": "Preserve longitudinal veins and intermetatarsal nerves and avoid undermining the skin bridges.",
+            "source_ids": [
+              "ao_a3e38c372a4f1c20"
+            ],
+            "risk_level": "medium"
+          }
+        ],
+        "exposure": [
+          {
+            "text": "Exposes multiple metatarsal shafts through the intermetatarsal windows.",
+            "source_ids": [
+              "ao_a3e38c372a4f1c20"
+            ]
+          }
+        ],
+        "limitations": [
+          {
+            "text": "No more than two parallel incisions can be used safely, limiting how many adjacent metatarsals are exposed at once.",
+            "source_ids": [
+              "ao_a3e38c372a4f1c20"
+            ]
+          }
+        ],
+        "indications": [
+          {
+            "text": "Indicated for fixation of multiple metatarsal fractures.",
+            "source_ids": [
+              "ao_a3e38c372a4f1c20"
+            ]
+          }
+        ],
+        "closure": [
+          {
+            "text": "Close any joint capsule with resorbable sutures, repair the tendon sheath where possible, and close subcuticular tissue with resorbable sutures and skin with nylon.",
+            "source_ids": [
+              "ao_a3e38c372a4f1c20"
+            ]
+          }
+        ],
+        "complications": [
+          {
+            "text": "Complications include skin bridge necrosis, dorsal cutaneous nerve injury, and extensor tendon adhesions.",
+            "source_ids": [
+              "ao_a3e38c372a4f1c20",
+              "ao_5d405f342c03afff"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "questions": [
+          {
+            "question": "Where are the incisions placed for multiple metatarsal exposure?",
+            "answer": "Between the 1st and 2nd and/or the 3rd and 4th metatarsals.",
+            "source_ids": [
+              "ao_a3e38c372a4f1c20"
+            ]
+          },
+          {
+            "question": "Why should more than two close parallel incisions be avoided?",
+            "answer": "They compromise the vitality of the skin bridges.",
+            "source_ids": [
+              "ao_a3e38c372a4f1c20"
+            ]
+          },
+          {
+            "question": "Which nerve branches must be protected dorsally?",
+            "answer": "The branches of the deep peroneal nerve providing superficial digital innervation.",
+            "source_ids": [
+              "ao_a3e38c372a4f1c20",
+              "ao_5d405f342c03afff"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "approach_id": "metatarsal_dorsal_single_central",
+      "name": "Dorsal approach to a single central metatarsal (2 to 4)",
+      "aliases": [
+        "dorsal approach to a central metatarsal"
+      ],
+      "region": "metatarsals",
+      "joint": "",
+      "bones": [
+        "metatarsal"
+      ],
+      "corridor": "Single dorsal longitudinal incision over the involved central metatarsal, retracting the extensor digitorum longus to reach the shaft, head, or base",
+      "sources": [
+        {
+          "source_id": "ao_5d405f342c03afff",
+          "provider": "AO Surgery Reference",
+          "title": "Dorsal approach to single metatarsals 2 to 4",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/metatarsals/approach/dorsal-approach-to-single-metatarsals-2-to-4",
+          "source_page_id": "ao_5d405f342c03afff"
+        },
+        {
+          "source_id": "ao_a3e38c372a4f1c20",
+          "provider": "AO Surgery Reference",
+          "title": "Dorsal approach to multiple metatarsals",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/metatarsals/approach/dorsal-approach-to-multiple-metatarsals",
+          "source_page_id": "ao_a3e38c372a4f1c20"
+        },
+        {
+          "source_id": "ao_b0d88c343b700636",
+          "provider": "AO Surgery Reference",
+          "title": "Dorsal approach to single metatarsals 2 to 4 (midfoot)",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/midfoot/approach/dorsal-approach-to-single-metatarsals-2-4",
+          "source_page_id": "ao_b0d88c343b700636"
+        }
+      ],
+      "procedure_applications": [
+        {
+          "procedure_id": "metatarsal_fracture_orif",
+          "relationship": "primary_option",
+          "condition": "A single central metatarsal fracture is fixed dorsally"
+        }
+      ],
+      "sections": {
+        "positioning": [
+          {
+            "text": "Position supine with the foot at the end of the table under tourniquet control.",
+            "source_ids": [
+              "ao_5d405f342c03afff"
+            ]
+          }
+        ],
+        "surface_landmarks": [
+          {
+            "text": "Mark the involved metatarsal and its long axis and the extensor digitorum longus tendon.",
+            "source_ids": [
+              "ao_5d405f342c03afff"
+            ]
+          }
+        ],
+        "incision": [
+          {
+            "text": "Make the incision over the fracture site aligned with the long axis of the metatarsal.",
+            "source_ids": [
+              "ao_5d405f342c03afff"
+            ]
+          }
+        ],
+        "superficial_interval": [
+          {
+            "text": "Protect the longitudinal veins and the dorsal digital nerves and retract the extensor digitorum longus tendon laterally.",
+            "source_ids": [
+              "ao_5d405f342c03afff",
+              "ao_a3e38c372a4f1c20"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "deep_interval": [
+          {
+            "text": "Expose the shaft subperiosteally, or to reach a joint incise the capsule medial to the EDL tendon and, if needed, release collateral ligaments and plantarflex the toe with a mini distractor.",
+            "source_ids": [
+              "ao_5d405f342c03afff"
+            ]
+          }
+        ],
+        "layers": [
+          {
+            "text": "Skin, subcutaneous tissue with dorsal veins and digital nerves, the extensor digitorum longus and brevis tendons, and the metatarsal.",
+            "source_ids": [
+              "ao_5d405f342c03afff"
+            ]
+          }
+        ],
+        "structures_at_risk": [
+          {
+            "text": "The dorsal digital nerves and arteries and the longitudinal veins are at risk.",
+            "source_ids": [
+              "ao_5d405f342c03afff",
+              "ao_a3e38c372a4f1c20"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "danger_zones": [
+          {
+            "text": "The dorsal digital neurovascular structures beside the extensor tendon are the danger zone.",
+            "source_ids": [
+              "ao_5d405f342c03afff",
+              "ao_a3e38c372a4f1c20"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "retraction_hazards": [
+          {
+            "text": "Retract the extensor tendon gently and protect the longitudinal veins and digital nerves.",
+            "source_ids": [
+              "ao_5d405f342c03afff"
+            ],
+            "risk_level": "medium"
+          }
+        ],
+        "exposure": [
+          {
+            "text": "Exposes the shaft, head, or base of a single central metatarsal.",
+            "source_ids": [
+              "ao_5d405f342c03afff"
+            ]
+          }
+        ],
+        "limitations": [
+          {
+            "text": "It addresses one metatarsal at a time; multiple metatarsals need a separate multi-incision plan.",
+            "source_ids": [
+              "ao_5d405f342c03afff"
+            ]
+          }
+        ],
+        "indications": [
+          {
+            "text": "Indicated for a fracture of a single central metatarsal (2 to 4).",
+            "source_ids": [
+              "ao_5d405f342c03afff"
+            ]
+          }
+        ],
+        "closure": [
+          {
+            "text": "Close any joint capsule with resorbable sutures and use subcuticular resorbable sutures and nylon for skin.",
+            "source_ids": [
+              "ao_5d405f342c03afff"
+            ]
+          }
+        ],
+        "complications": [
+          {
+            "text": "Complications include dorsal digital nerve injury and extensor tendon adhesions.",
+            "source_ids": [
+              "ao_5d405f342c03afff",
+              "ao_a3e38c372a4f1c20"
+            ],
+            "risk_level": "medium"
+          }
+        ],
+        "questions": [
+          {
+            "question": "How is the incision oriented for a central metatarsal fracture?",
+            "answer": "Over the fracture site, aligned with the long axis of the metatarsal.",
+            "source_ids": [
+              "ao_5d405f342c03afff"
+            ]
+          },
+          {
+            "question": "Where is the capsule incised to reach the metatarsal head?",
+            "answer": "Medial to the extensor digitorum longus tendon.",
+            "source_ids": [
+              "ao_5d405f342c03afff"
+            ]
+          },
+          {
+            "question": "Which tendon is retracted to expose the shaft?",
+            "answer": "The extensor digitorum longus.",
+            "source_ids": [
+              "ao_5d405f342c03afff"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "approach_id": "metatarsal_first_dorsal",
+      "name": "Dorsal approach to the 1st metatarsal",
+      "aliases": [
+        "dorsomedial approach to the first metatarsal"
+      ],
+      "region": "metatarsals",
+      "joint": "",
+      "bones": [
+        "first metatarsal"
+      ],
+      "corridor": "Dorsomedial incision in line with the first ray, medial to the extensor hallucis longus, protecting the dorsomedial cutaneous nerve and dorsalis pedis vessels, to expose the whole first metatarsal",
+      "sources": [
+        {
+          "source_id": "ao_f597cd84c4ad82e2",
+          "provider": "AO Surgery Reference",
+          "title": "Dorsal approach to the 1st metatarsal",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/metatarsals/approach/dorsal-approach-to-1st-metatarsal",
+          "source_page_id": "ao_f597cd84c4ad82e2"
+        },
+        {
+          "source_id": "ao_a3e38c372a4f1c20",
+          "provider": "AO Surgery Reference",
+          "title": "Dorsal approach to multiple metatarsals",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/metatarsals/approach/dorsal-approach-to-multiple-metatarsals",
+          "source_page_id": "ao_a3e38c372a4f1c20"
+        },
+        {
+          "source_id": "ao_8723d6e85873fca0",
+          "provider": "AO Surgery Reference",
+          "title": "Dorsal approach to the 1st metatarsal (midfoot)",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/midfoot/approach/dorsal-approach-to-the-first-metatarsal",
+          "source_page_id": "ao_8723d6e85873fca0"
+        }
+      ],
+      "procedure_applications": [
+        {
+          "procedure_id": "hallux_valgus_correction",
+          "relationship": "primary_option",
+          "condition": "A first metatarsal osteotomy or fracture is exposed dorsally"
+        },
+        {
+          "procedure_id": "metatarsal_fracture_orif",
+          "relationship": "primary_option",
+          "condition": "A first metatarsal fracture is fixed"
+        }
+      ],
+      "sections": {
+        "positioning": [
+          {
+            "text": "Position supine with the foot at the end of the table under tourniquet control.",
+            "source_ids": [
+              "ao_f597cd84c4ad82e2"
+            ]
+          }
+        ],
+        "surface_landmarks": [
+          {
+            "text": "Mark the medial cuneiform, the first ray, and the extensor hallucis longus tendon.",
+            "source_ids": [
+              "ao_f597cd84c4ad82e2"
+            ]
+          }
+        ],
+        "incision": [
+          {
+            "text": "Begin over the medial cuneiform and extend distally in line with the first ray, medial to the EHL tendon between the branches of the deep peroneal, superficial peroneal, and saphenous nerves, extending across the first TMT joint if needed.",
+            "source_ids": [
+              "ao_f597cd84c4ad82e2"
+            ]
+          }
+        ],
+        "superficial_interval": [
+          {
+            "text": "Dissect medial to the dorsalis pedis vessels and the cutaneous branches of the deep peroneal nerve, protect the dorsomedial cutaneous nerve of the hallux and the longitudinal veins.",
+            "source_ids": [
+              "ao_f597cd84c4ad82e2",
+              "ao_a3e38c372a4f1c20"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "deep_interval": [
+          {
+            "text": "Retract the EHL tendon laterally and expose the metatarsal subperiosteally, incising the capsule and freeing the sesamoids with plantarflexion to see the articular surfaces if needed.",
+            "source_ids": [
+              "ao_f597cd84c4ad82e2"
+            ]
+          }
+        ],
+        "layers": [
+          {
+            "text": "Skin, subcutaneous tissue with the dorsomedial cutaneous nerve and veins, the EHL tendon, and the first metatarsal.",
+            "source_ids": [
+              "ao_f597cd84c4ad82e2"
+            ]
+          }
+        ],
+        "structures_at_risk": [
+          {
+            "text": "The dorsomedial cutaneous nerve of the hallux, the deep peroneal nerve branches, and the dorsalis pedis vessels are at risk.",
+            "source_ids": [
+              "ao_f597cd84c4ad82e2",
+              "ao_a3e38c372a4f1c20"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "danger_zones": [
+          {
+            "text": "The lateral side of the incision near the dorsalis pedis and deep peroneal nerve is the danger zone; stay medial to them.",
+            "source_ids": [
+              "ao_f597cd84c4ad82e2"
+            ],
+            "risk_level": "medium"
+          }
+        ],
+        "retraction_hazards": [
+          {
+            "text": "Retract the EHL gently and keep dissection medial to protect the dorsalis pedis and deep peroneal nerve.",
+            "source_ids": [
+              "ao_f597cd84c4ad82e2"
+            ],
+            "risk_level": "medium"
+          }
+        ],
+        "exposure": [
+          {
+            "text": "Exposes the entire first metatarsal from the TMT joint to the MTP joint.",
+            "source_ids": [
+              "ao_f597cd84c4ad82e2"
+            ]
+          }
+        ],
+        "limitations": [
+          {
+            "text": "The dorsomedial cutaneous nerve and the dorsalis pedis limit how far laterally the exposure can be carried.",
+            "source_ids": [
+              "ao_f597cd84c4ad82e2"
+            ]
+          }
+        ],
+        "indications": [
+          {
+            "text": "Indicated to access the entire first metatarsal for fracture fixation or osteotomy.",
+            "source_ids": [
+              "ao_f597cd84c4ad82e2"
+            ]
+          }
+        ],
+        "closure": [
+          {
+            "text": "Close any joint capsule with resorbable sutures, repair the tendon sheath, and use subcuticular resorbable sutures and nylon for skin.",
+            "source_ids": [
+              "ao_f597cd84c4ad82e2"
+            ]
+          }
+        ],
+        "complications": [
+          {
+            "text": "Complications include dorsomedial cutaneous nerve injury, dorsalis pedis injury, and stiffness.",
+            "source_ids": [
+              "ao_f597cd84c4ad82e2",
+              "ao_a3e38c372a4f1c20"
+            ],
+            "risk_level": "medium"
+          }
+        ],
+        "questions": [
+          {
+            "question": "Relative to the EHL tendon, where does the dorsal first metatarsal incision lie?",
+            "answer": "Medial to the EHL tendon.",
+            "source_ids": [
+              "ao_f597cd84c4ad82e2"
+            ]
+          },
+          {
+            "question": "Which vessels must be protected on the lateral side of the exposure?",
+            "answer": "The dorsalis pedis vessels.",
+            "source_ids": [
+              "ao_f597cd84c4ad82e2"
+            ]
+          },
+          {
+            "question": "How much of the first metatarsal does this approach expose?",
+            "answer": "The entire first metatarsal.",
+            "source_ids": [
+              "ao_f597cd84c4ad82e2"
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

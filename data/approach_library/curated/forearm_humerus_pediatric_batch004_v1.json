@@ -1,0 +1,570 @@
+{
+  "approaches": [
+    {
+      "approach_id": "proximal_humerus_pediatric_deltopectoral",
+      "name": "Pediatric deltopectoral approach to the proximal humerus",
+      "aliases": [
+        "pediatric anterior deltopectoral approach"
+      ],
+      "region": "proximal-humerus",
+      "joint": "shoulder",
+      "bones": [
+        "proximal humerus"
+      ],
+      "corridor": "Limited deltopectoral interval between the coracoid and proximal humeral shaft, preserving the cephalic vein and staying lateral to the conjoint tendon",
+      "sources": [
+        {
+          "source_id": "ao_64ccfbea149671e0",
+          "provider": "AO Surgery Reference",
+          "title": "Deltopectoral Interval Approach",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/pediatric-trauma/proximal-humerus/approach/deltopectoral-interval-approach",
+          "source_page_id": "ao_64ccfbea149671e0"
+        },
+        {
+          "source_id": "ao_c5861e08ea2a1064",
+          "provider": "AO Surgery Reference",
+          "title": "Deltopectoral approach to the proximal humerus",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/proximal-humerus/approach/deltopectoral-approach-to-the-proximal-humerus",
+          "source_page_id": "ao_c5861e08ea2a1064"
+        }
+      ],
+      "procedure_applications": [
+        {
+          "procedure_id": "proximal_humerus_fracture_orif",
+          "relationship": "primary_option",
+          "condition": "A pediatric proximal humeral fracture needs open reduction of interposed soft tissue through a limited anterior interval"
+        }
+      ],
+      "sections": {
+        "positioning": [
+          {
+            "text": "Position so the coracoid and proximal humeral shaft at the axilla can be palpated and the arm moved.",
+            "source_ids": [
+              "ao_64ccfbea149671e0",
+              "ao_c5861e08ea2a1064"
+            ]
+          }
+        ],
+        "surface_landmarks": [
+          {
+            "text": "Mark the coracoid process and the proximal humeral shaft at the level of the axilla.",
+            "source_ids": [
+              "ao_64ccfbea149671e0"
+            ]
+          }
+        ],
+        "incision": [
+          {
+            "text": "Incise between the coracoid and the proximal humeral shaft, straight or curved.",
+            "source_ids": [
+              "ao_64ccfbea149671e0"
+            ]
+          }
+        ],
+        "superficial_interval": [
+          {
+            "text": "Identify the deltopectoral groove by muscle-fiber direction, the cephalic vein, and surrounding fat. Retract the vein medially or laterally but preserve it, then open fascia along the groove.",
+            "source_ids": [
+              "ao_64ccfbea149671e0",
+              "ao_c5861e08ea2a1064"
+            ]
+          }
+        ],
+        "deep_interval": [
+          {
+            "text": "Incise clavipectoral fascia lateral to the conjoint tendon and inferior to the coracoacromial ligament. Retract deltoid laterally and the conjoint tendon medially to see the subscapularis, lesser tuberosity, bicipital groove, and greater tuberosity.",
+            "source_ids": [
+              "ao_64ccfbea149671e0",
+              "ao_c5861e08ea2a1064"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "layers": [
+          {
+            "text": "Skin, deltopectoral fascia and cephalic vein, clavipectoral fascia, then the anterior proximal humerus.",
+            "source_ids": [
+              "ao_64ccfbea149671e0",
+              "ao_c5861e08ea2a1064"
+            ]
+          }
+        ],
+        "structures_at_risk": [
+          {
+            "text": "The cephalic vein, anterior circumflex humeral vessels, musculocutaneous nerve (as close as 2.5 cm distal to the coracoid tip), and axillary nerve are at risk. Missing the groove risks denervating the anterior deltoid.",
+            "source_ids": [
+              "ao_64ccfbea149671e0",
+              "ao_c5861e08ea2a1064"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "danger_zones": [
+          {
+            "text": "Vigorous medial retraction under the conjoint tendon can cause musculocutaneous neurapraxia. Retractors must also respect the axillary nerve.",
+            "source_ids": [
+              "ao_64ccfbea149671e0"
+            ],
+            "risk_level": "medium"
+          }
+        ],
+        "retraction_hazards": [
+          {
+            "text": "Avoid excessive traction that threatens the brachial plexus, and do not sacrifice the cephalic vein.",
+            "source_ids": [
+              "ao_64ccfbea149671e0"
+            ],
+            "risk_level": "medium"
+          }
+        ],
+        "exposure": [
+          {
+            "text": "In children the window is usually limited to managing interposed soft tissue and reducing the fracture; the adult extensile exposure is seldom required.",
+            "source_ids": [
+              "ao_64ccfbea149671e0"
+            ]
+          }
+        ],
+        "limitations": [
+          {
+            "text": "This is a limited pediatric interval, not the full adult extensile deltopectoral approach.",
+            "source_ids": [
+              "ao_64ccfbea149671e0"
+            ]
+          }
+        ],
+        "indications": [
+          {
+            "text": "Used for most pediatric proximal humeral fractures that need anterior access to reduction and interposed soft tissue.",
+            "source_ids": [
+              "ao_64ccfbea149671e0"
+            ]
+          }
+        ],
+        "closure": [
+          {
+            "text": "Irrigate and close the deltopectoral groove, subcutaneous tissue, and skin.",
+            "source_ids": [
+              "ao_64ccfbea149671e0"
+            ]
+          }
+        ],
+        "complications": [
+          {
+            "text": "Complications include cephalic-vein injury with limb edema, musculocutaneous or axillary nerve palsy, and anterior deltoid denervation if the groove is missed.",
+            "source_ids": [
+              "ao_64ccfbea149671e0",
+              "ao_c5861e08ea2a1064"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "questions": [
+          {
+            "question": "What are the skin-incision landmarks?",
+            "answer": "The coracoid process and the proximal humeral shaft at the level of the axilla.",
+            "source_ids": [
+              "ao_64ccfbea149671e0"
+            ]
+          },
+          {
+            "question": "How close to the coracoid can the musculocutaneous nerve exit coracobrachialis?",
+            "answer": "As close as 2.5 cm distal to the coracoid tip.",
+            "source_ids": [
+              "ao_64ccfbea149671e0"
+            ]
+          },
+          {
+            "question": "Why preserve the cephalic vein?",
+            "answer": "To reduce surgical edema of the limb.",
+            "source_ids": [
+              "ao_64ccfbea149671e0"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "approach_id": "proximal_humerus_pediatric_transdeltoid",
+      "name": "Pediatric transdeltoid lateral approach to the proximal humerus",
+      "aliases": [
+        "pediatric deltoid-splitting approach",
+        "pediatric lateral deltoid split"
+      ],
+      "region": "proximal-humerus",
+      "joint": "shoulder",
+      "bones": [
+        "proximal humerus"
+      ],
+      "corridor": "Split of the middle deltoid from the lateral acromion, stopped by the axillary nerve which crosses about 5 cm distal to the acromion in children 6 years and older",
+      "sources": [
+        {
+          "source_id": "ao_571fc5cde0248ee8",
+          "provider": "AO Surgery Reference",
+          "title": "Lateral Approach With Deltoid Splitting",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/pediatric-trauma/proximal-humerus/approach/lateral-approach-with-deltoid-splitting",
+          "source_page_id": "ao_571fc5cde0248ee8"
+        },
+        {
+          "source_id": "ao_8f2c45a58145d70b",
+          "provider": "AO Surgery Reference",
+          "title": "Anterolateral approach to the proximal humerus",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/proximal-humerus/approach/anterolateral-approach",
+          "source_page_id": "ao_8f2c45a58145d70b"
+        }
+      ],
+      "procedure_applications": [
+        {
+          "procedure_id": "proximal_humerus_fracture_orif",
+          "relationship": "conditional_option",
+          "condition": "A pediatric proximal humeral fracture is reduced through a limited transdeltoid window"
+        }
+      ],
+      "sections": {
+        "positioning": [
+          {
+            "text": "Position so the lateral acromion and lateral proximal humeral shaft can be palpated.",
+            "source_ids": [
+              "ao_571fc5cde0248ee8",
+              "ao_8f2c45a58145d70b"
+            ]
+          }
+        ],
+        "surface_landmarks": [
+          {
+            "text": "Mark the lateral border of the acromion and the lateral proximal humeral shaft. In children 6 years and older the anterior motor branch of the axillary nerve crosses about 5 cm distal to the lateral acromion, varying with patient size.",
+            "source_ids": [
+              "ao_571fc5cde0248ee8"
+            ]
+          }
+        ],
+        "incision": [
+          {
+            "text": "Incise from the lateral acromial border parallel to the humeral axis, in the middle part of the deltoid.",
+            "source_ids": [
+              "ao_571fc5cde0248ee8"
+            ]
+          }
+        ],
+        "superficial_interval": [
+          {
+            "text": "Expose the middle third of the deltoid and split in line with its fibers up to the acromial margin for maximum exposure.",
+            "source_ids": [
+              "ao_571fc5cde0248ee8",
+              "ao_8f2c45a58145d70b"
+            ]
+          }
+        ],
+        "deep_interval": [
+          {
+            "text": "Palpate the axillary nerve on the deep deltoid surface distal to the split and place a stay suture at the inferior border of the split before any distal extension. Excise hemorrhagic subdeltoid bursa if it hides the head.",
+            "source_ids": [
+              "ao_571fc5cde0248ee8",
+              "ao_8f2c45a58145d70b"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "layers": [
+          {
+            "text": "Skin, deltoid fascia, middle-deltoid split, subdeltoid bursa, then the lateral humeral head.",
+            "source_ids": [
+              "ao_571fc5cde0248ee8"
+            ]
+          }
+        ],
+        "structures_at_risk": [
+          {
+            "text": "The axillary nerve is the key structure at risk. The corridor is relatively away from the anterior and posterior circumflex humeral arteries.",
+            "source_ids": [
+              "ao_571fc5cde0248ee8",
+              "ao_8f2c45a58145d70b"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "danger_zones": [
+          {
+            "text": "Uncontrolled distal extension of the deltoid split endangers the axillary nerve, which runs about 5 cm below the acromion in children 6 years and older.",
+            "source_ids": [
+              "ao_571fc5cde0248ee8",
+              "ao_8f2c45a58145d70b"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "retraction_hazards": [
+          {
+            "text": "Use a stay suture at the inferior split to prevent the dissection from running onto the nerve.",
+            "source_ids": [
+              "ao_571fc5cde0248ee8"
+            ],
+            "risk_level": "medium"
+          }
+        ],
+        "exposure": [
+          {
+            "text": "Gives limited access to the joint, capsule, and biceps tendon for reduction of interposed soft tissue; the adult extensile approach is seldom needed.",
+            "source_ids": [
+              "ao_571fc5cde0248ee8"
+            ]
+          }
+        ],
+        "limitations": [
+          {
+            "text": "Joint access is limited and distal extension is capped by the axillary nerve.",
+            "source_ids": [
+              "ao_571fc5cde0248ee8"
+            ]
+          }
+        ],
+        "indications": [
+          {
+            "text": "An alternative to the deltopectoral interval for reducing selected pediatric proximal humeral fractures.",
+            "source_ids": [
+              "ao_571fc5cde0248ee8"
+            ]
+          }
+        ],
+        "closure": [
+          {
+            "text": "Irrigate and close the deltoid fascia, subcutaneous tissue, and skin.",
+            "source_ids": [
+              "ao_571fc5cde0248ee8"
+            ]
+          }
+        ],
+        "complications": [
+          {
+            "text": "The principal complication is axillary-nerve injury from a split that is carried too far distally.",
+            "source_ids": [
+              "ao_571fc5cde0248ee8",
+              "ao_8f2c45a58145d70b"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "questions": [
+          {
+            "question": "How far distal to the acromion does the axillary nerve typically cross in children 6 years and older?",
+            "answer": "About 5 cm, varying with patient size.",
+            "source_ids": [
+              "ao_571fc5cde0248ee8"
+            ]
+          },
+          {
+            "question": "How is uncontrolled distal dissection prevented?",
+            "answer": "Palpate the nerve on the deep deltoid surface and place a stay suture at the inferior border of the split.",
+            "source_ids": [
+              "ao_571fc5cde0248ee8"
+            ]
+          },
+          {
+            "question": "What does this limited window expose?",
+            "answer": "Limited access to the joint, capsule, and biceps tendon for reduction of interposed soft tissue.",
+            "source_ids": [
+              "ao_571fc5cde0248ee8"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "approach_id": "proximal_humerus_pediatric_anterolateral_mackenzie",
+      "name": "Pediatric anterolateral (Mackenzie) approach to the proximal humerus",
+      "aliases": [
+        "pediatric acromial deltoid-split approach"
+      ],
+      "region": "proximal-humerus",
+      "joint": "shoulder",
+      "bones": [
+        "proximal humerus"
+      ],
+      "corridor": "Limited split between the anterior and middle deltoid from the anterior acromial border, stopped by the axillary nerve about 5 cm distal to the acromion in children 6 years and older",
+      "sources": [
+        {
+          "source_id": "ao_ad8331eb69a6d9cc",
+          "provider": "AO Surgery Reference",
+          "title": "Anterolateral Approach",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/pediatric-trauma/proximal-humerus/approach/anterolateral-approach",
+          "source_page_id": "ao_ad8331eb69a6d9cc"
+        },
+        {
+          "source_id": "ao_571fc5cde0248ee8",
+          "provider": "AO Surgery Reference",
+          "title": "Lateral Approach With Deltoid Splitting",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/pediatric-trauma/proximal-humerus/approach/lateral-approach-with-deltoid-splitting",
+          "source_page_id": "ao_571fc5cde0248ee8"
+        },
+        {
+          "source_id": "ao_8f2c45a58145d70b",
+          "provider": "AO Surgery Reference",
+          "title": "Anterolateral approach to the proximal humerus",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/proximal-humerus/approach/anterolateral-approach",
+          "source_page_id": "ao_8f2c45a58145d70b"
+        }
+      ],
+      "procedure_applications": [
+        {
+          "procedure_id": "proximal_humerus_fracture_orif",
+          "relationship": "primary_option",
+          "condition": "A pediatric proximal humeral fracture that fails closed reduction is opened through a limited Mackenzie interval"
+        }
+      ],
+      "sections": {
+        "positioning": [
+          {
+            "text": "Position so the anterior acromial border and lateral proximal humeral shaft can be palpated.",
+            "source_ids": [
+              "ao_ad8331eb69a6d9cc",
+              "ao_8f2c45a58145d70b"
+            ]
+          }
+        ],
+        "surface_landmarks": [
+          {
+            "text": "Mark the anterolateral acromial edge and the lateral proximal humeral shaft. In children 6 years and older the anterior motor branch of the axillary nerve crosses about 5 cm distal to the lateral acromion, varying with patient size.",
+            "source_ids": [
+              "ao_ad8331eb69a6d9cc",
+              "ao_571fc5cde0248ee8"
+            ]
+          }
+        ],
+        "incision": [
+          {
+            "text": "Incise from the anterior border of the acromion parallel to the humeral axis. Distal extension is limited by the axillary nerve; the adult extensile cut is not required.",
+            "source_ids": [
+              "ao_ad8331eb69a6d9cc"
+            ]
+          }
+        ],
+        "superficial_interval": [
+          {
+            "text": "Split deltoid between anterior and middle fibers in a relatively avascular plane away from the circumflex humeral arteries.",
+            "source_ids": [
+              "ao_ad8331eb69a6d9cc",
+              "ao_8f2c45a58145d70b"
+            ]
+          }
+        ],
+        "deep_interval": [
+          {
+            "text": "Split up to the acromial margin for maximum exposure, palpate the axillary nerve on the deep deltoid surface distal to the cut, place a stay suture at the inferior split, and excise hemorrhagic subdeltoid bursa if it hides the head.",
+            "source_ids": [
+              "ao_ad8331eb69a6d9cc",
+              "ao_571fc5cde0248ee8"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "layers": [
+          {
+            "text": "Skin, anterior–middle deltoid split, subdeltoid bursa, then the humeral head.",
+            "source_ids": [
+              "ao_ad8331eb69a6d9cc"
+            ]
+          }
+        ],
+        "structures_at_risk": [
+          {
+            "text": "The axillary nerve is the key structure at risk. The plane is away from the anterior and posterior circumflex humeral arteries.",
+            "source_ids": [
+              "ao_ad8331eb69a6d9cc",
+              "ao_571fc5cde0248ee8",
+              "ao_8f2c45a58145d70b"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "danger_zones": [
+          {
+            "text": "Uncontrolled distal extension of the split endangers the axillary nerve, about 5 cm below the acromion in children 6 years and older.",
+            "source_ids": [
+              "ao_ad8331eb69a6d9cc",
+              "ao_571fc5cde0248ee8"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "retraction_hazards": [
+          {
+            "text": "Use a stay suture at the inferior split so dissection cannot run onto the nerve.",
+            "source_ids": [
+              "ao_ad8331eb69a6d9cc",
+              "ao_571fc5cde0248ee8"
+            ],
+            "risk_level": "medium"
+          }
+        ],
+        "exposure": [
+          {
+            "text": "A limited window for interposed soft tissue and fracture reduction; the adult extensile approach is seldom needed.",
+            "source_ids": [
+              "ao_ad8331eb69a6d9cc"
+            ]
+          }
+        ],
+        "limitations": [
+          {
+            "text": "Distal length is capped by the axillary nerve. Patient size changes the 5 cm estimate.",
+            "source_ids": [
+              "ao_ad8331eb69a6d9cc"
+            ]
+          }
+        ],
+        "indications": [
+          {
+            "text": "Used for open reduction of a pediatric proximal humeral fracture when closed reduction fails.",
+            "source_ids": [
+              "ao_ad8331eb69a6d9cc"
+            ]
+          }
+        ],
+        "closure": [
+          {
+            "text": "Irrigate and close the deltoid interval, subcutaneous tissue, and skin.",
+            "source_ids": [
+              "ao_ad8331eb69a6d9cc",
+              "ao_571fc5cde0248ee8"
+            ]
+          }
+        ],
+        "complications": [
+          {
+            "text": "The principal complication is axillary-nerve injury from a split carried too far distally.",
+            "source_ids": [
+              "ao_ad8331eb69a6d9cc",
+              "ao_571fc5cde0248ee8",
+              "ao_8f2c45a58145d70b"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "questions": [
+          {
+            "question": "Which deltoid interval is used?",
+            "answer": "Between the anterior and middle (acromial) fibers.",
+            "source_ids": [
+              "ao_ad8331eb69a6d9cc"
+            ]
+          },
+          {
+            "question": "How far distal to the acromion does the axillary nerve typically run in children 6 years and older?",
+            "answer": "About 5 cm, varying with patient size.",
+            "source_ids": [
+              "ao_ad8331eb69a6d9cc",
+              "ao_571fc5cde0248ee8"
+            ]
+          },
+          {
+            "question": "When is this open interval used?",
+            "answer": "When closed reduction of a pediatric proximal humeral fracture is unsuccessful.",
+            "source_ids": [
+              "ao_ad8331eb69a6d9cc"
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

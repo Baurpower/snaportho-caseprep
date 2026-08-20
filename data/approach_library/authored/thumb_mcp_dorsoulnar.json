@@ -1,0 +1,345 @@
+{
+  "schema_version": "brobot_approach_packet_v1",
+  "approach_id": "thumb_mcp_dorsoulnar",
+  "name": "Dorsoulnar approach to the thumb metacarpophalangeal joint",
+  "aliases": [
+    "ulnar-collateral thumb MCP approach",
+    "Stener-lesion approach"
+  ],
+  "region": "thumb",
+  "joint": "metacarpophalangeal",
+  "bones": [
+    "first metacarpal",
+    "proximal phalanx"
+  ],
+  "corridor": "Oblique or lazy-S cut from 1 cm proximal around the ulnar MCP to 1 cm distal, dividing adductor aponeurosis 3–5 mm from EPL to expose the ulnar collateral ligament",
+  "positioning": [
+    {
+      "text": "Position the hand so the ulnar thumb MCP from 1 cm proximal to 1 cm distal is accessible.",
+      "claim_ids": [
+        "thumb_mcp_dorsoulnar_positioning_01"
+      ]
+    }
+  ],
+  "setup": [],
+  "surface_landmarks": [
+    {
+      "text": "Mark the ulnar MCP, EPL, and the expected dorsal sensory radial-nerve branches in the subcutaneous tissue.",
+      "claim_ids": [
+        "thumb_mcp_dorsoulnar_surface_landmarks_01"
+      ]
+    }
+  ],
+  "incision": [
+    {
+      "text": "Start dorsally about 1 cm proximal to the MCP, curve palmar around the ulnar joint, and end about 1 cm distal. The cut may be oblique or a lazy S.",
+      "claim_ids": [
+        "thumb_mcp_dorsoulnar_incision_01"
+      ]
+    }
+  ],
+  "superficial_interval": [
+    {
+      "text": "Identify and protect the dorsal sensory radial-nerve divisions with a vessel loop. Identify adductor pollicis and its aponeurosis plus EPL and EPB.",
+      "claim_ids": [
+        "thumb_mcp_dorsoulnar_superficial_interval_01"
+      ]
+    }
+  ],
+  "deep_interval": [
+    {
+      "text": "Pass a dental pick deep to the adductor aponeurosis, between it and the ulnar collateral ligament and dorsal capsule, then divide the aponeurosis longitudinally close to its EPL insertion, leaving a 3–5 mm fringe. Retract the aponeurosis palmarly and EPL dorsally. Make a longitudinal dorsal capsulotomy that does not take the collateral off the metacarpal tubercle.",
+      "claim_ids": [
+        "thumb_mcp_dorsoulnar_deep_interval_01"
+      ]
+    }
+  ],
+  "layers": [
+    {
+      "text": "Skin, sensory radial-nerve branches, adductor aponeurosis, ulnar collateral ligament and dorsal capsule, then the ulnar MCP.",
+      "claim_ids": [
+        "thumb_mcp_dorsoulnar_layers_01"
+      ]
+    }
+  ],
+  "structures_encountered": [],
+  "structures_at_risk": [
+    {
+      "text": "Dorsal sensory radial-nerve branches, the adductor aponeurosis insertion on EPL, and the proximal ulnar-collateral attachment on the metacarpal tubercle are at risk.",
+      "claim_ids": [
+        "thumb_mcp_dorsoulnar_structures_at_risk_01"
+      ]
+    }
+  ],
+  "danger_zones": [
+    {
+      "text": "Dividing the adductor aponeurosis without a pick beneath it, or leaving no 3–5 mm fringe, prevents secure reattachment and can injure the collateral or capsule.",
+      "claim_ids": [
+        "thumb_mcp_dorsoulnar_danger_zones_01"
+      ]
+    }
+  ],
+  "retraction_hazards": [
+    {
+      "text": "Retract the aponeurosis palmarly with fine sutures and EPL dorsally with a small retractor; do not peel the collateral off the metacarpal tubercle.",
+      "claim_ids": [
+        "thumb_mcp_dorsoulnar_retraction_hazards_01"
+      ]
+    }
+  ],
+  "exposure": [
+    {
+      "text": "Shows the ulnar first-metacarpal head, ulnar proximal-phalanx-base avulsions, and the ulnar collateral ligament, including Stener, gamekeeper, and skier lesions.",
+      "claim_ids": [
+        "thumb_mcp_dorsoulnar_exposure_01"
+      ]
+    }
+  ],
+  "limitations": [
+    {
+      "text": "This is not a general thumb-MCP arthrodesis window; the dorsal EPL–EPB interval is used for that.",
+      "claim_ids": [
+        "thumb_mcp_dorsoulnar_limitations_01"
+      ]
+    }
+  ],
+  "extensions": [],
+  "indications": [
+    {
+      "text": "Indicated for ulnar-margin first-metacarpal-head fractures, ulnar proximal-phalanx-base avulsions, and ulnar-collateral avulsion (Stener, gamekeeper, or skier thumb).",
+      "claim_ids": [
+        "thumb_mcp_dorsoulnar_indications_01"
+      ]
+    }
+  ],
+  "relative_contraindications": [],
+  "implant_implications": [],
+  "fluoroscopy_implications": [],
+  "closure": [
+    {
+      "text": "Close the capsule, then reattach the adductor aponeurosis with fine interrupted mattress sutures.",
+      "claim_ids": [
+        "thumb_mcp_dorsoulnar_closure_01"
+      ]
+    }
+  ],
+  "complications": [
+    {
+      "text": "Complications include sensory radial-nerve injury, adductor-aponeurosis failure if no fringe is left, and iatrogenic collateral disinsertion.",
+      "claim_ids": [
+        "thumb_mcp_dorsoulnar_complications_01"
+      ]
+    }
+  ],
+  "bailouts": [],
+  "procedure_applications": [
+    {
+      "procedure_id": "thumb_fracture_orif",
+      "relationship": "primary_option",
+      "condition": "An ulnar first-metacarpal-head fracture, an ulnar proximal-phalanx-base avulsion, or a Stener/gamekeeper/skier ulnar-collateral avulsion is repaired"
+    }
+  ],
+  "questions": [
+    {
+      "question": "How much adductor-aponeurosis fringe is left on EPL?",
+      "answer": "A 3–5 mm fringe for later reattachment.",
+      "claim_ids": [
+        "thumb_mcp_dorsoulnar_questions_01"
+      ]
+    },
+    {
+      "question": "What is passed under the aponeurosis before it is divided?",
+      "answer": "A dental pick, between the aponeurosis and the ulnar collateral ligament and dorsal capsule.",
+      "claim_ids": [
+        "thumb_mcp_dorsoulnar_questions_02"
+      ]
+    },
+    {
+      "question": "Which attachment must a dorsal capsulotomy spare?",
+      "answer": "The proximal ulnar-collateral attachment on the metacarpal tubercle.",
+      "claim_ids": [
+        "thumb_mcp_dorsoulnar_questions_03"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "thumb_mcp_dorsoulnar_positioning_01",
+      "text": "Position the hand so the ulnar thumb MCP from 1 cm proximal to 1 cm distal is accessible.",
+      "source_ids": [
+        "ao_f8b1995570223dbe",
+        "ao_bb6eacc3b4edcae4"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "thumb_mcp_dorsoulnar_surface_landmarks_01",
+      "text": "Mark the ulnar MCP, EPL, and the expected dorsal sensory radial-nerve branches in the subcutaneous tissue.",
+      "source_ids": [
+        "ao_f8b1995570223dbe",
+        "ao_bb6eacc3b4edcae4"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "thumb_mcp_dorsoulnar_incision_01",
+      "text": "Start dorsally about 1 cm proximal to the MCP, curve palmar around the ulnar joint, and end about 1 cm distal. The cut may be oblique or a lazy S.",
+      "source_ids": [
+        "ao_f8b1995570223dbe"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "thumb_mcp_dorsoulnar_superficial_interval_01",
+      "text": "Identify and protect the dorsal sensory radial-nerve divisions with a vessel loop. Identify adductor pollicis and its aponeurosis plus EPL and EPB.",
+      "source_ids": [
+        "ao_f8b1995570223dbe",
+        "ao_bb6eacc3b4edcae4"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "thumb_mcp_dorsoulnar_deep_interval_01",
+      "text": "Pass a dental pick deep to the adductor aponeurosis, between it and the ulnar collateral ligament and dorsal capsule, then divide the aponeurosis longitudinally close to its EPL insertion, leaving a 3–5 mm fringe. Retract the aponeurosis palmarly and EPL dorsally. Make a longitudinal dorsal capsulotomy that does not take the collateral off the metacarpal tubercle.",
+      "source_ids": [
+        "ao_f8b1995570223dbe"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "thumb_mcp_dorsoulnar_layers_01",
+      "text": "Skin, sensory radial-nerve branches, adductor aponeurosis, ulnar collateral ligament and dorsal capsule, then the ulnar MCP.",
+      "source_ids": [
+        "ao_f8b1995570223dbe",
+        "ao_bb6eacc3b4edcae4"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "thumb_mcp_dorsoulnar_structures_at_risk_01",
+      "text": "Dorsal sensory radial-nerve branches, the adductor aponeurosis insertion on EPL, and the proximal ulnar-collateral attachment on the metacarpal tubercle are at risk.",
+      "source_ids": [
+        "ao_f8b1995570223dbe",
+        "ao_bb6eacc3b4edcae4"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "thumb_mcp_dorsoulnar_danger_zones_01",
+      "text": "Dividing the adductor aponeurosis without a pick beneath it, or leaving no 3–5 mm fringe, prevents secure reattachment and can injure the collateral or capsule.",
+      "source_ids": [
+        "ao_f8b1995570223dbe"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "thumb_mcp_dorsoulnar_retraction_hazards_01",
+      "text": "Retract the aponeurosis palmarly with fine sutures and EPL dorsally with a small retractor; do not peel the collateral off the metacarpal tubercle.",
+      "source_ids": [
+        "ao_f8b1995570223dbe"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "thumb_mcp_dorsoulnar_exposure_01",
+      "text": "Shows the ulnar first-metacarpal head, ulnar proximal-phalanx-base avulsions, and the ulnar collateral ligament, including Stener, gamekeeper, and skier lesions.",
+      "source_ids": [
+        "ao_f8b1995570223dbe"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "thumb_mcp_dorsoulnar_limitations_01",
+      "text": "This is not a general thumb-MCP arthrodesis window; the dorsal EPL–EPB interval is used for that.",
+      "source_ids": [
+        "ao_f8b1995570223dbe",
+        "ao_bb6eacc3b4edcae4"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "thumb_mcp_dorsoulnar_indications_01",
+      "text": "Indicated for ulnar-margin first-metacarpal-head fractures, ulnar proximal-phalanx-base avulsions, and ulnar-collateral avulsion (Stener, gamekeeper, or skier thumb).",
+      "source_ids": [
+        "ao_f8b1995570223dbe"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "thumb_mcp_dorsoulnar_closure_01",
+      "text": "Close the capsule, then reattach the adductor aponeurosis with fine interrupted mattress sutures.",
+      "source_ids": [
+        "ao_f8b1995570223dbe"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "thumb_mcp_dorsoulnar_complications_01",
+      "text": "Complications include sensory radial-nerve injury, adductor-aponeurosis failure if no fringe is left, and iatrogenic collateral disinsertion.",
+      "source_ids": [
+        "ao_f8b1995570223dbe",
+        "ao_bb6eacc3b4edcae4"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "thumb_mcp_dorsoulnar_questions_01",
+      "text": "How much adductor-aponeurosis fringe is left on EPL?",
+      "source_ids": [
+        "ao_f8b1995570223dbe"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "thumb_mcp_dorsoulnar_questions_02",
+      "text": "What is passed under the aponeurosis before it is divided?",
+      "source_ids": [
+        "ao_f8b1995570223dbe"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "thumb_mcp_dorsoulnar_questions_03",
+      "text": "Which attachment must a dorsal capsulotomy spare?",
+      "source_ids": [
+        "ao_f8b1995570223dbe"
+      ],
+      "risk_level": "medium"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "ao_f8b1995570223dbe",
+      "provider": "AO Surgery Reference",
+      "title": "Dorsoulnar Approach To The Mcp Joint Of The Thumb",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/thumb/approach/dorsoulnar-approach-to-the-mcp-joint-of-the-thumb",
+      "source_page_id": "ao_f8b1995570223dbe"
+    },
+    {
+      "source_id": "ao_bb6eacc3b4edcae4",
+      "provider": "AO Surgery Reference",
+      "title": "Dorsal Approach To The Metacarpophalangeal Mcp Joint Of The Thumb",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/thumb/approach/dorsal-approach-to-the-metacarpophalangeal-mcp-joint-of-the-thumb",
+      "source_page_id": "ao_bb6eacc3b4edcae4"
+    }
+  ],
+  "content_status": "agent_review_pending",
+  "review": {
+    "status": "agent_review_pending",
+    "required_roles": [
+      "adversarial_safety_reviewer",
+      "approach_anatomy_reviewer",
+      "educational_value_reviewer",
+      "evidence_reviewer",
+      "operative_exposure_reviewer",
+      "procedure_applicability_reviewer"
+    ],
+    "completed_roles": []
+  },
+  "resolved_contradiction_keys": [],
+  "authoring_provenance": {
+    "method": "local_codex_curated",
+    "definition_file": "data/approach_library/curated/thumb_batch001_v1.json",
+    "api_used": false
+  }
+}

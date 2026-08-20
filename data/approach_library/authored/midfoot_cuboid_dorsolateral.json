@@ -1,0 +1,346 @@
+{
+  "schema_version": "brobot_approach_packet_v1",
+  "approach_id": "midfoot_cuboid_dorsolateral",
+  "name": "Dorsolateral approach to the cuboid",
+  "aliases": [
+    "lateral column approach to the cuboid"
+  ],
+  "region": "midfoot",
+  "joint": "calcaneocuboid joint",
+  "bones": [
+    "cuboid"
+  ],
+  "corridor": "Dorsolateral incision along the fourth metatarsal axis in the interval between extensor digitorum brevis and the peroneal tendons, protecting the sural and superficial peroneal cutaneous branches, to reach the cuboid and lateral column",
+  "positioning": [
+    {
+      "text": "Position supine with a bump under the ipsilateral hip so the foot is neutral, under tourniquet control.",
+      "claim_ids": [
+        "midfoot_cuboid_dorsolateral_positioning_01"
+      ]
+    }
+  ],
+  "setup": [],
+  "surface_landmarks": [
+    {
+      "text": "Palpate the sinus tarsi and distal calcaneus proximally and the bases of the 4th and 5th metatarsals distally, with the cuboid between them.",
+      "claim_ids": [
+        "midfoot_cuboid_dorsolateral_surface_landmarks_01"
+      ]
+    }
+  ],
+  "incision": [
+    {
+      "text": "Center the incision over the cuboid along the fourth metatarsal axis, extending proximally toward the tip of the fibula and distally to the 4th metatarsal base as needed.",
+      "claim_ids": [
+        "midfoot_cuboid_dorsolateral_incision_01"
+      ]
+    }
+  ],
+  "superficial_interval": [
+    {
+      "text": "Take care not to harm the dorsolateral or lateral sural nerve branches and the superficial peroneal nerve, raising a full-thickness flap without undermining.",
+      "claim_ids": [
+        "midfoot_cuboid_dorsolateral_superficial_interval_01"
+      ]
+    }
+  ],
+  "deep_interval": [
+    {
+      "text": "Reflect the extensor digitorum brevis dorsomedially and retract the peroneal tendons plantarward, exposing the cuboid, lateral cuneiform, and 3rd-5th metatarsal bases in the plane between EDB and the peroneals.",
+      "claim_ids": [
+        "midfoot_cuboid_dorsolateral_deep_interval_01"
+      ]
+    }
+  ],
+  "layers": [
+    {
+      "text": "Skin, subcutaneous tissue with sural and superficial peroneal branches, extensor digitorum brevis, the peroneal tendons, and the cuboid.",
+      "claim_ids": [
+        "midfoot_cuboid_dorsolateral_layers_01"
+      ]
+    }
+  ],
+  "structures_encountered": [],
+  "structures_at_risk": [
+    {
+      "text": "The sural nerve branches and the superficial peroneal nerve are at risk, and the peroneal tendons must be protected.",
+      "claim_ids": [
+        "midfoot_cuboid_dorsolateral_structures_at_risk_01"
+      ]
+    }
+  ],
+  "danger_zones": [
+    {
+      "text": "The subcutaneous dorsolateral foot is the danger zone for the sural and superficial peroneal cutaneous branches.",
+      "claim_ids": [
+        "midfoot_cuboid_dorsolateral_danger_zones_01"
+      ]
+    }
+  ],
+  "retraction_hazards": [
+    {
+      "text": "Raise a full-thickness flap without undermining to protect skin vitality and keep cutaneous nerves out of the retractor.",
+      "claim_ids": [
+        "midfoot_cuboid_dorsolateral_retraction_hazards_01"
+      ]
+    }
+  ],
+  "exposure": [
+    {
+      "text": "Exposes the cuboid, calcaneocuboid and cuboid-metatarsal joints, and lateral column.",
+      "claim_ids": [
+        "midfoot_cuboid_dorsolateral_exposure_01"
+      ]
+    }
+  ],
+  "limitations": [
+    {
+      "text": "The lateral cutaneous nerves and peroneal tendons limit the width of the exposure.",
+      "claim_ids": [
+        "midfoot_cuboid_dorsolateral_limitations_01"
+      ]
+    }
+  ],
+  "extensions": [],
+  "indications": [
+    {
+      "text": "Indicated for fractures of the lateral column centered on the cuboid.",
+      "claim_ids": [
+        "midfoot_cuboid_dorsolateral_indications_01"
+      ]
+    }
+  ],
+  "relative_contraindications": [],
+  "implant_implications": [],
+  "fluoroscopy_implications": [],
+  "closure": [
+    {
+      "text": "Close the wound in layers taking care to prevent skin tension.",
+      "claim_ids": [
+        "midfoot_cuboid_dorsolateral_closure_01"
+      ]
+    }
+  ],
+  "complications": [
+    {
+      "text": "Complications include sural or superficial peroneal nerve injury, peroneal tendon irritation, and wound problems.",
+      "claim_ids": [
+        "midfoot_cuboid_dorsolateral_complications_01"
+      ]
+    }
+  ],
+  "bailouts": [],
+  "procedure_applications": [
+    {
+      "procedure_id": "lisfranc_orif",
+      "relationship": "primary_option",
+      "condition": "A lateral column or cuboid fracture accompanies a midfoot injury"
+    }
+  ],
+  "questions": [
+    {
+      "question": "Along which axis is the dorsolateral cuboid incision centered?",
+      "answer": "Along the fourth metatarsal axis over the cuboid.",
+      "claim_ids": [
+        "midfoot_cuboid_dorsolateral_questions_01"
+      ]
+    },
+    {
+      "question": "Which muscle is reflected dorsomedially in this approach?",
+      "answer": "The extensor digitorum brevis.",
+      "claim_ids": [
+        "midfoot_cuboid_dorsolateral_questions_02"
+      ]
+    },
+    {
+      "question": "Which cutaneous nerves are most at risk?",
+      "answer": "The sural nerve branches and the superficial peroneal nerve.",
+      "claim_ids": [
+        "midfoot_cuboid_dorsolateral_questions_03"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "midfoot_cuboid_dorsolateral_positioning_01",
+      "text": "Position supine with a bump under the ipsilateral hip so the foot is neutral, under tourniquet control.",
+      "source_ids": [
+        "ao_05f61d6c29dd7855"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "midfoot_cuboid_dorsolateral_surface_landmarks_01",
+      "text": "Palpate the sinus tarsi and distal calcaneus proximally and the bases of the 4th and 5th metatarsals distally, with the cuboid between them.",
+      "source_ids": [
+        "ao_05f61d6c29dd7855"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "midfoot_cuboid_dorsolateral_incision_01",
+      "text": "Center the incision over the cuboid along the fourth metatarsal axis, extending proximally toward the tip of the fibula and distally to the 4th metatarsal base as needed.",
+      "source_ids": [
+        "ao_05f61d6c29dd7855"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "midfoot_cuboid_dorsolateral_superficial_interval_01",
+      "text": "Take care not to harm the dorsolateral or lateral sural nerve branches and the superficial peroneal nerve, raising a full-thickness flap without undermining.",
+      "source_ids": [
+        "ao_05f61d6c29dd7855",
+        "ao_5a2480d7716c078d"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "midfoot_cuboid_dorsolateral_deep_interval_01",
+      "text": "Reflect the extensor digitorum brevis dorsomedially and retract the peroneal tendons plantarward, exposing the cuboid, lateral cuneiform, and 3rd-5th metatarsal bases in the plane between EDB and the peroneals.",
+      "source_ids": [
+        "ao_05f61d6c29dd7855"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "midfoot_cuboid_dorsolateral_layers_01",
+      "text": "Skin, subcutaneous tissue with sural and superficial peroneal branches, extensor digitorum brevis, the peroneal tendons, and the cuboid.",
+      "source_ids": [
+        "ao_05f61d6c29dd7855"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "midfoot_cuboid_dorsolateral_structures_at_risk_01",
+      "text": "The sural nerve branches and the superficial peroneal nerve are at risk, and the peroneal tendons must be protected.",
+      "source_ids": [
+        "ao_05f61d6c29dd7855"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "midfoot_cuboid_dorsolateral_danger_zones_01",
+      "text": "The subcutaneous dorsolateral foot is the danger zone for the sural and superficial peroneal cutaneous branches.",
+      "source_ids": [
+        "ao_05f61d6c29dd7855"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "midfoot_cuboid_dorsolateral_retraction_hazards_01",
+      "text": "Raise a full-thickness flap without undermining to protect skin vitality and keep cutaneous nerves out of the retractor.",
+      "source_ids": [
+        "ao_05f61d6c29dd7855",
+        "ao_5a2480d7716c078d"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "midfoot_cuboid_dorsolateral_exposure_01",
+      "text": "Exposes the cuboid, calcaneocuboid and cuboid-metatarsal joints, and lateral column.",
+      "source_ids": [
+        "ao_05f61d6c29dd7855"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "midfoot_cuboid_dorsolateral_limitations_01",
+      "text": "The lateral cutaneous nerves and peroneal tendons limit the width of the exposure.",
+      "source_ids": [
+        "ao_05f61d6c29dd7855"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "midfoot_cuboid_dorsolateral_indications_01",
+      "text": "Indicated for fractures of the lateral column centered on the cuboid.",
+      "source_ids": [
+        "ao_05f61d6c29dd7855"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "midfoot_cuboid_dorsolateral_closure_01",
+      "text": "Close the wound in layers taking care to prevent skin tension.",
+      "source_ids": [
+        "ao_05f61d6c29dd7855",
+        "ao_5a2480d7716c078d"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "midfoot_cuboid_dorsolateral_complications_01",
+      "text": "Complications include sural or superficial peroneal nerve injury, peroneal tendon irritation, and wound problems.",
+      "source_ids": [
+        "ao_05f61d6c29dd7855"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "midfoot_cuboid_dorsolateral_questions_01",
+      "text": "Along which axis is the dorsolateral cuboid incision centered?",
+      "source_ids": [
+        "ao_05f61d6c29dd7855"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "midfoot_cuboid_dorsolateral_questions_02",
+      "text": "Which muscle is reflected dorsomedially in this approach?",
+      "source_ids": [
+        "ao_05f61d6c29dd7855"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "midfoot_cuboid_dorsolateral_questions_03",
+      "text": "Which cutaneous nerves are most at risk?",
+      "source_ids": [
+        "ao_05f61d6c29dd7855"
+      ],
+      "risk_level": "medium"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "ao_05f61d6c29dd7855",
+      "provider": "AO Surgery Reference",
+      "title": "Dorsolateral approach to the cuboid",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/metatarsals/approach/dorsolateral-approach-to-the-cuboid",
+      "source_page_id": "ao_05f61d6c29dd7855"
+    },
+    {
+      "source_id": "ao_5a2480d7716c078d",
+      "provider": "AO Surgery Reference",
+      "title": "Dorsomedial approach to the navicular and cuneiform",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/metatarsals/approach/dorsomedial-approach-to-the-navicular-and-cuneiform",
+      "source_page_id": "ao_5a2480d7716c078d"
+    },
+    {
+      "source_id": "ao_43d67d32c1ba6b91",
+      "provider": "AO Surgery Reference",
+      "title": "Dorsolateral approach to the cuboid (midfoot)",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/midfoot/approach/dorsolateral-approach-to-the-cuboid",
+      "source_page_id": "ao_43d67d32c1ba6b91"
+    }
+  ],
+  "content_status": "agent_review_pending",
+  "review": {
+    "status": "agent_review_pending",
+    "required_roles": [
+      "adversarial_safety_reviewer",
+      "approach_anatomy_reviewer",
+      "educational_value_reviewer",
+      "evidence_reviewer",
+      "operative_exposure_reviewer",
+      "procedure_applicability_reviewer"
+    ],
+    "completed_roles": []
+  },
+  "resolved_contradiction_keys": [],
+  "authoring_provenance": {
+    "method": "local_codex_curated",
+    "definition_file": "data/approach_library/curated/midfoot_batch003_v1.json",
+    "api_used": false
+  }
+}

@@ -1,0 +1,396 @@
+{
+  "schema_version": "brobot_approach_packet_v1",
+  "approach_id": "spine_posterior_midline_thoracolumbar",
+  "name": "Posterior midline approach to the thoracolumbar spine",
+  "aliases": [
+    "open posterior T1–S1 approach",
+    "posterior deformity midline approach"
+  ],
+  "region": "thoracolumbar",
+  "joint": "",
+  "bones": [
+    "thoracic vertebrae",
+    "lumbar vertebrae"
+  ],
+  "corridor": "Midline incision over the instrumented segment, subperiosteal Cobb elevation of paraspinal muscle from spinous processes and laminae distal to proximal, to the transverse-process tips in the thorax and to the facets in the lumbar spine",
+  "positioning": [
+    {
+      "text": "Position prone so the planned segment can be marked and checked with fluoroscopy before and after exposure.",
+      "claim_ids": [
+        "spine_posterior_midline_thoracolumbar_positioning_01"
+      ]
+    }
+  ],
+  "setup": [],
+  "surface_landmarks": [
+    {
+      "text": "Mark the midline over the involved segment. Trauma and metastatic short constructs expose one level above and below; long constructs and primary-tumor work expose at least two levels above and below. Deformity cuts run from planned UIV to LIV; some surgeons start a slightly off-midline curve toward the apex so the closed scar sits on the midline after correction.",
+      "claim_ids": [
+        "spine_posterior_midline_thoracolumbar_surface_landmarks_01"
+      ]
+    }
+  ],
+  "incision": [
+    {
+      "text": "Infiltrate skin and fat with 1:500,000 epinephrine. Make a midline cut centered on the segment, length set by the number of instrumented levels, and confirm the level with fluoroscopy.",
+      "claim_ids": [
+        "spine_posterior_midline_thoracolumbar_incision_01"
+      ]
+    }
+  ],
+  "superficial_interval": [
+    {
+      "text": "Carry the dissection in the midline through fat and fascia to the spinous-process tips and hold tension with self-retaining retractors.",
+      "claim_ids": [
+        "spine_posterior_midline_thoracolumbar_superficial_interval_01"
+      ]
+    }
+  ],
+  "deep_interval": [
+    {
+      "text": "Elevate paraspinal muscle subperiosteally from the laminae distal to proximal with a Cobb along the spinous process and lamina. Thoracic dissection usually goes to the transverse-process tips; lumbar dissection stops at the facets. Spare facet capsules if fusion is not planned; excise capsule and denude cartilage if fusion is planned. If tumor involves the lamina, do not use a Cobb blindly. After exposure, recheck the level on an image.",
+      "claim_ids": [
+        "spine_posterior_midline_thoracolumbar_deep_interval_01"
+      ]
+    }
+  ],
+  "layers": [
+    {
+      "text": "Skin, fat, fascia, spinous-process tips, subperiosteal lamina, then transverse processes or facets.",
+      "claim_ids": [
+        "spine_posterior_midline_thoracolumbar_layers_01"
+      ]
+    }
+  ],
+  "structures_encountered": [],
+  "structures_at_risk": [
+    {
+      "text": "In burst fractures with incomplete deficit a laminar split is present in at least 30% of patients and dura or roots can be impaled in the defect; monopolar diathermy can injure them. B1/B2 and type C injuries often have ligamentum-flavum and laminar defects. Type C translational injuries should be exposed one side at a time with a temporary rod before the second side is opened.",
+      "claim_ids": [
+        "spine_posterior_midline_thoracolumbar_structures_at_risk_01"
+      ]
+    }
+  ],
+  "danger_zones": [
+    {
+      "text": "Cobb elevation through a tumor-involved or split lamina, and bilateral exposure of an unstabilized type C injury, are the neural danger zones.",
+      "claim_ids": [
+        "spine_posterior_midline_thoracolumbar_danger_zones_01"
+      ]
+    }
+  ],
+  "retraction_hazards": [
+    {
+      "text": "Keep dissection subperiosteal to limit bleeding and muscle damage. Primary-tumor cases may need a wider, more lateral window and scar excision if prior intralesional surgery contaminated the wound.",
+      "claim_ids": [
+        "spine_posterior_midline_thoracolumbar_retraction_hazards_01"
+      ]
+    }
+  ],
+  "exposure": [
+    {
+      "text": "Shows the posterior elements from T1 to the sacrum for short- or long-segment instrumentation, fusion, or deformity correction from UIV to LIV.",
+      "claim_ids": [
+        "spine_posterior_midline_thoracolumbar_exposure_01"
+      ]
+    }
+  ],
+  "limitations": [
+    {
+      "text": "Does not by itself decompress the anterior column. Primary-tumor and radiated revision wounds are more prone to breakdown.",
+      "claim_ids": [
+        "spine_posterior_midline_thoracolumbar_limitations_01"
+      ]
+    }
+  ],
+  "extensions": [],
+  "indications": [
+    {
+      "text": "Used for posterior trauma fixation, metastatic and primary-tumor access, and posterior deformity correction (AIS and Scheuermann).",
+      "claim_ids": [
+        "spine_posterior_midline_thoracolumbar_indications_01"
+      ]
+    }
+  ],
+  "relative_contraindications": [],
+  "implant_implications": [],
+  "fluoroscopy_implications": [],
+  "closure": [
+    {
+      "text": "Close muscle and fascia tightly with continuous or interrupted sutures, place a drain through a separate stab, and close fat and skin. Metastatic cases may receive intrawound vancomycin; radiated or revision metastatic wounds should be reconstructed by plastic surgery.",
+      "claim_ids": [
+        "spine_posterior_midline_thoracolumbar_closure_01"
+      ]
+    }
+  ],
+  "complications": [
+    {
+      "text": "Complications include neural injury in a split lamina, further displacement of a type C injury after bilateral exposure, wound breakdown after radiation or revision, and unintended facet fusion if capsules are violated at unfused levels.",
+      "claim_ids": [
+        "spine_posterior_midline_thoracolumbar_complications_01"
+      ]
+    }
+  ],
+  "bailouts": [],
+  "procedure_applications": [
+    {
+      "procedure_id": "thoracolumbar_fracture_orif",
+      "relationship": "primary_option",
+      "condition": "A thoracolumbar fracture is instrumented from a midline posterior window"
+    }
+  ],
+  "questions": [
+    {
+      "question": "In which direction are the paraspinal muscles elevated?",
+      "answer": "Subperiosteally from distal to proximal along the spinous process and lamina.",
+      "claim_ids": [
+        "spine_posterior_midline_thoracolumbar_questions_01"
+      ]
+    },
+    {
+      "question": "How should a type C translational injury be exposed?",
+      "answer": "One side first, with a temporary rod on that side, before opening the second side.",
+      "claim_ids": [
+        "spine_posterior_midline_thoracolumbar_questions_02"
+      ]
+    },
+    {
+      "question": "How far does thoracic versus lumbar dissection usually go?",
+      "answer": "To the transverse-process tips in the thorax and to the facet joints in the lumbar spine.",
+      "claim_ids": [
+        "spine_posterior_midline_thoracolumbar_questions_03"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "spine_posterior_midline_thoracolumbar_positioning_01",
+      "text": "Position prone so the planned segment can be marked and checked with fluoroscopy before and after exposure.",
+      "source_ids": [
+        "ao_9c10dec84d26544e",
+        "ao_da20e26e8721880e"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "spine_posterior_midline_thoracolumbar_surface_landmarks_01",
+      "text": "Mark the midline over the involved segment. Trauma and metastatic short constructs expose one level above and below; long constructs and primary-tumor work expose at least two levels above and below. Deformity cuts run from planned UIV to LIV; some surgeons start a slightly off-midline curve toward the apex so the closed scar sits on the midline after correction.",
+      "source_ids": [
+        "ao_9c10dec84d26544e",
+        "ao_e5fec10ff260c54b",
+        "ao_dc669979f592f951"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "spine_posterior_midline_thoracolumbar_incision_01",
+      "text": "Infiltrate skin and fat with 1:500,000 epinephrine. Make a midline cut centered on the segment, length set by the number of instrumented levels, and confirm the level with fluoroscopy.",
+      "source_ids": [
+        "ao_9c10dec84d26544e",
+        "ao_da20e26e8721880e",
+        "ao_e5fec10ff260c54b"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "spine_posterior_midline_thoracolumbar_superficial_interval_01",
+      "text": "Carry the dissection in the midline through fat and fascia to the spinous-process tips and hold tension with self-retaining retractors.",
+      "source_ids": [
+        "ao_9c10dec84d26544e",
+        "ao_da20e26e8721880e",
+        "ao_dc669979f592f951"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "spine_posterior_midline_thoracolumbar_deep_interval_01",
+      "text": "Elevate paraspinal muscle subperiosteally from the laminae distal to proximal with a Cobb along the spinous process and lamina. Thoracic dissection usually goes to the transverse-process tips; lumbar dissection stops at the facets. Spare facet capsules if fusion is not planned; excise capsule and denude cartilage if fusion is planned. If tumor involves the lamina, do not use a Cobb blindly. After exposure, recheck the level on an image.",
+      "source_ids": [
+        "ao_9c10dec84d26544e",
+        "ao_da20e26e8721880e",
+        "ao_e5fec10ff260c54b"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "spine_posterior_midline_thoracolumbar_layers_01",
+      "text": "Skin, fat, fascia, spinous-process tips, subperiosteal lamina, then transverse processes or facets.",
+      "source_ids": [
+        "ao_9c10dec84d26544e",
+        "ao_da20e26e8721880e"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "spine_posterior_midline_thoracolumbar_structures_at_risk_01",
+      "text": "In burst fractures with incomplete deficit a laminar split is present in at least 30% of patients and dura or roots can be impaled in the defect; monopolar diathermy can injure them. B1/B2 and type C injuries often have ligamentum-flavum and laminar defects. Type C translational injuries should be exposed one side at a time with a temporary rod before the second side is opened.",
+      "source_ids": [
+        "ao_9c10dec84d26544e"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "spine_posterior_midline_thoracolumbar_danger_zones_01",
+      "text": "Cobb elevation through a tumor-involved or split lamina, and bilateral exposure of an unstabilized type C injury, are the neural danger zones.",
+      "source_ids": [
+        "ao_9c10dec84d26544e",
+        "ao_e5fec10ff260c54b"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "spine_posterior_midline_thoracolumbar_retraction_hazards_01",
+      "text": "Keep dissection subperiosteal to limit bleeding and muscle damage. Primary-tumor cases may need a wider, more lateral window and scar excision if prior intralesional surgery contaminated the wound.",
+      "source_ids": [
+        "ao_9c10dec84d26544e",
+        "ao_e5fec10ff260c54b"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "spine_posterior_midline_thoracolumbar_exposure_01",
+      "text": "Shows the posterior elements from T1 to the sacrum for short- or long-segment instrumentation, fusion, or deformity correction from UIV to LIV.",
+      "source_ids": [
+        "ao_9c10dec84d26544e",
+        "ao_dc669979f592f951",
+        "ao_f3b7520913962a43"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "spine_posterior_midline_thoracolumbar_limitations_01",
+      "text": "Does not by itself decompress the anterior column. Primary-tumor and radiated revision wounds are more prone to breakdown.",
+      "source_ids": [
+        "ao_e5fec10ff260c54b",
+        "ao_da20e26e8721880e"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "spine_posterior_midline_thoracolumbar_indications_01",
+      "text": "Used for posterior trauma fixation, metastatic and primary-tumor access, and posterior deformity correction (AIS and Scheuermann).",
+      "source_ids": [
+        "ao_9c10dec84d26544e",
+        "ao_da20e26e8721880e",
+        "ao_dc669979f592f951",
+        "ao_f3b7520913962a43"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "spine_posterior_midline_thoracolumbar_closure_01",
+      "text": "Close muscle and fascia tightly with continuous or interrupted sutures, place a drain through a separate stab, and close fat and skin. Metastatic cases may receive intrawound vancomycin; radiated or revision metastatic wounds should be reconstructed by plastic surgery.",
+      "source_ids": [
+        "ao_da20e26e8721880e",
+        "ao_dc669979f592f951",
+        "ao_f3b7520913962a43"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "spine_posterior_midline_thoracolumbar_complications_01",
+      "text": "Complications include neural injury in a split lamina, further displacement of a type C injury after bilateral exposure, wound breakdown after radiation or revision, and unintended facet fusion if capsules are violated at unfused levels.",
+      "source_ids": [
+        "ao_9c10dec84d26544e",
+        "ao_da20e26e8721880e"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "spine_posterior_midline_thoracolumbar_questions_01",
+      "text": "In which direction are the paraspinal muscles elevated?",
+      "source_ids": [
+        "ao_9c10dec84d26544e",
+        "ao_da20e26e8721880e"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "spine_posterior_midline_thoracolumbar_questions_02",
+      "text": "How should a type C translational injury be exposed?",
+      "source_ids": [
+        "ao_9c10dec84d26544e"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "spine_posterior_midline_thoracolumbar_questions_03",
+      "text": "How far does thoracic versus lumbar dissection usually go?",
+      "source_ids": [
+        "ao_9c10dec84d26544e",
+        "ao_da20e26e8721880e"
+      ],
+      "risk_level": "medium"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "ao_9c10dec84d26544e",
+      "provider": "AO Surgery Reference",
+      "title": "Posterior Open Approach Midline Approach T1 S1",
+      "url": "https://surgeryreference.aofoundation.org/spine/trauma/thoracolumbar/approach/posterior-open-approach---midline-approach-t1-s1",
+      "source_page_id": "ao_9c10dec84d26544e"
+    },
+    {
+      "source_id": "ao_da20e26e8721880e",
+      "provider": "AO Surgery Reference",
+      "title": "Posterior Midline Access To The Thoracolumbar Spine",
+      "url": "https://surgeryreference.aofoundation.org/spine/tumors/metastatic-tumors/approach/posterior-midline-access-to-the-thoracolumbar-spine",
+      "source_page_id": "ao_da20e26e8721880e"
+    },
+    {
+      "source_id": "ao_e5fec10ff260c54b",
+      "provider": "AO Surgery Reference",
+      "title": "Posterior Midline Access To The Thoracolumbar Spine T1 To L5",
+      "url": "https://surgeryreference.aofoundation.org/spine/tumors/primary-tumors/approach/posterior-midline-access-to-the-thoracolumbar-spine-t1-to-l5",
+      "source_page_id": "ao_e5fec10ff260c54b"
+    },
+    {
+      "source_id": "ao_dc669979f592f951",
+      "provider": "AO Surgery Reference",
+      "title": "Posterior Approach",
+      "url": "https://surgeryreference.aofoundation.org/spine/deformities/adolescent-idiopathic-scoliosis/approach/posterior-approach",
+      "source_page_id": "ao_dc669979f592f951"
+    },
+    {
+      "source_id": "ao_f3b7520913962a43",
+      "provider": "AO Surgery Reference",
+      "title": "Posterior Approach",
+      "url": "https://surgeryreference.aofoundation.org/spine/deformities/scheuermanns-kyphosis/approach/posterior-approach",
+      "source_page_id": "ao_f3b7520913962a43"
+    },
+    {
+      "source_id": "orthobullets_91e3c648aa32617e",
+      "provider": "Orthobullets",
+      "title": "Posterior Approach To Lumbar Spine",
+      "url": "https://www.orthobullets.com/approaches/12003/posterior-approach-to-lumbar-spine",
+      "source_page_id": "orthobullets_91e3c648aa32617e"
+    },
+    {
+      "source_id": "orthobullets_05332b601750dec0",
+      "provider": "Orthobullets",
+      "title": "Posterior Approach To Thoracolumbar Spine",
+      "url": "https://www.orthobullets.com/approaches/2077/posterior-approach-to-thoracolumbar-spine",
+      "source_page_id": "orthobullets_05332b601750dec0"
+    }
+  ],
+  "content_status": "agent_review_pending",
+  "review": {
+    "status": "agent_review_pending",
+    "required_roles": [
+      "adversarial_safety_reviewer",
+      "approach_anatomy_reviewer",
+      "educational_value_reviewer",
+      "evidence_reviewer",
+      "operative_exposure_reviewer",
+      "procedure_applicability_reviewer"
+    ],
+    "completed_roles": []
+  },
+  "resolved_contradiction_keys": [],
+  "authoring_provenance": {
+    "method": "local_codex_curated",
+    "definition_file": "data/approach_library/curated/spine_core_batch001_v1.json",
+    "api_used": false
+  }
+}

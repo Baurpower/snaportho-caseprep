@@ -1,0 +1,342 @@
+{
+  "schema_version": "brobot_approach_packet_v1",
+  "approach_id": "metacarpal_dorsal_shaft",
+  "name": "Dorsal approach to the metacarpals",
+  "aliases": [
+    "dorsal approach to the metacarpal shaft"
+  ],
+  "region": "metacarpals",
+  "joint": "",
+  "bones": [
+    "metacarpal"
+  ],
+  "corridor": "Longitudinal dorsal interval just to the side of the extensor tendons, retracting the tendons and subperiosteally elevating the interossei to reach the metacarpal shaft",
+  "positioning": [
+    {
+      "text": "Position supine with the hand pronated on a hand table under tourniquet control.",
+      "claim_ids": [
+        "metacarpal_dorsal_shaft_positioning_01"
+      ]
+    }
+  ],
+  "setup": [],
+  "surface_landmarks": [
+    {
+      "text": "Identify the extensor tendons over the metacarpals and the intertendinous connections over the distal thirds.",
+      "claim_ids": [
+        "metacarpal_dorsal_shaft_surface_landmarks_01"
+      ]
+    }
+  ],
+  "incision": [
+    {
+      "text": "Make a straight longitudinal incision not directly over the extensor tendons, extending obliquely at the ends if needed.",
+      "claim_ids": [
+        "metacarpal_dorsal_shaft_incision_01"
+      ]
+    }
+  ],
+  "superficial_interval": [
+    {
+      "text": "Protect the dorsal sensory nerve branches and longitudinal veins, retracting the extensor tendons with their surrounding tissue and incising intertendinous connections only when necessary for repair later.",
+      "claim_ids": [
+        "metacarpal_dorsal_shaft_superficial_interval_01"
+      ]
+    }
+  ],
+  "deep_interval": [
+    {
+      "text": "Partially detach the dorsal interosseous muscles subperiosteally from the metacarpal, using short blunt Langenbeck retractors rather than Hohmann levers to avoid complete muscle detachment and volar injury.",
+      "claim_ids": [
+        "metacarpal_dorsal_shaft_deep_interval_01"
+      ]
+    }
+  ],
+  "layers": [
+    {
+      "text": "Skin, subcutaneous tissue with dorsal veins and sensory nerves, extensor tendons and intertendinous connections, interosseous muscle, and the metacarpal.",
+      "claim_ids": [
+        "metacarpal_dorsal_shaft_layers_01"
+      ]
+    }
+  ],
+  "structures_encountered": [],
+  "structures_at_risk": [
+    {
+      "text": "The dorsal sensory branches of the radial and ulnar nerves (especially the ulnar branches over the proximal fifth metacarpal) and the longitudinal dorsal veins are at risk.",
+      "claim_ids": [
+        "metacarpal_dorsal_shaft_structures_at_risk_01"
+      ]
+    }
+  ],
+  "danger_zones": [
+    {
+      "text": "The proximal third of the fifth metacarpal is the danger zone for the dorsal sensory branches of the ulnar nerve.",
+      "claim_ids": [
+        "metacarpal_dorsal_shaft_danger_zones_01"
+      ]
+    }
+  ],
+  "retraction_hazards": [
+    {
+      "text": "Use short blunt Langenbeck retractors instead of Hohmann levers to avoid detaching the interossei completely and injuring volar structures.",
+      "claim_ids": [
+        "metacarpal_dorsal_shaft_retraction_hazards_01"
+      ]
+    }
+  ],
+  "exposure": [
+    {
+      "text": "Exposes the diaphysis and metaphysis of the metacarpal for plating or osteotomy.",
+      "claim_ids": [
+        "metacarpal_dorsal_shaft_exposure_01"
+      ]
+    }
+  ],
+  "limitations": [
+    {
+      "text": "The overlying extensor tendons and intertendinous connections limit the dorsal window and mandate periosteal coverage of any implant.",
+      "claim_ids": [
+        "metacarpal_dorsal_shaft_limitations_01"
+      ]
+    }
+  ],
+  "extensions": [],
+  "indications": [
+    {
+      "text": "Indicated for oblique, spiral, transverse, and multifragmentary metacarpal shaft fractures and corrective osteotomies.",
+      "claim_ids": [
+        "metacarpal_dorsal_shaft_indications_01"
+      ]
+    }
+  ],
+  "relative_contraindications": [],
+  "implant_implications": [],
+  "fluoroscopy_implications": [],
+  "closure": [
+    {
+      "text": "Cover the implant with periosteum as far as possible, repair any divided intertendinous connections, and close the skin.",
+      "claim_ids": [
+        "metacarpal_dorsal_shaft_closure_01"
+      ]
+    }
+  ],
+  "complications": [
+    {
+      "text": "Complications include dorsal sensory nerve injury with numbness or neuroma, extensor tendon adhesions, and stiffness.",
+      "claim_ids": [
+        "metacarpal_dorsal_shaft_complications_01"
+      ]
+    }
+  ],
+  "bailouts": [],
+  "procedure_applications": [
+    {
+      "procedure_id": "metacarpal_fracture_orif",
+      "relationship": "primary_option",
+      "condition": "A metacarpal shaft fracture or corrective osteotomy is fixed through a dorsal exposure"
+    }
+  ],
+  "questions": [
+    {
+      "question": "Why is the dorsal metacarpal incision placed to the side of the extensor tendons?",
+      "answer": "To avoid implant-tendon contact and adhesions and to protect the tendons.",
+      "claim_ids": [
+        "metacarpal_dorsal_shaft_questions_01"
+      ]
+    },
+    {
+      "question": "Which retractors are preferred and why?",
+      "answer": "Short blunt Langenbeck retractors rather than Hohmann levers, to avoid detaching the interossei and injuring volar structures.",
+      "claim_ids": [
+        "metacarpal_dorsal_shaft_questions_02"
+      ]
+    },
+    {
+      "question": "Where are the ulnar dorsal sensory branches most vulnerable?",
+      "answer": "Over the proximal third of the fifth metacarpal.",
+      "claim_ids": [
+        "metacarpal_dorsal_shaft_questions_03"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "metacarpal_dorsal_shaft_positioning_01",
+      "text": "Position supine with the hand pronated on a hand table under tourniquet control.",
+      "source_ids": [
+        "ao_2407e0d9a61b8122"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "metacarpal_dorsal_shaft_surface_landmarks_01",
+      "text": "Identify the extensor tendons over the metacarpals and the intertendinous connections over the distal thirds.",
+      "source_ids": [
+        "ao_2407e0d9a61b8122"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "metacarpal_dorsal_shaft_incision_01",
+      "text": "Make a straight longitudinal incision not directly over the extensor tendons, extending obliquely at the ends if needed.",
+      "source_ids": [
+        "ao_2407e0d9a61b8122"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "metacarpal_dorsal_shaft_superficial_interval_01",
+      "text": "Protect the dorsal sensory nerve branches and longitudinal veins, retracting the extensor tendons with their surrounding tissue and incising intertendinous connections only when necessary for repair later.",
+      "source_ids": [
+        "ao_2407e0d9a61b8122",
+        "ao_676fca76b76f70b0"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "metacarpal_dorsal_shaft_deep_interval_01",
+      "text": "Partially detach the dorsal interosseous muscles subperiosteally from the metacarpal, using short blunt Langenbeck retractors rather than Hohmann levers to avoid complete muscle detachment and volar injury.",
+      "source_ids": [
+        "ao_2407e0d9a61b8122",
+        "ao_676fca76b76f70b0"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "metacarpal_dorsal_shaft_layers_01",
+      "text": "Skin, subcutaneous tissue with dorsal veins and sensory nerves, extensor tendons and intertendinous connections, interosseous muscle, and the metacarpal.",
+      "source_ids": [
+        "ao_2407e0d9a61b8122"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "metacarpal_dorsal_shaft_structures_at_risk_01",
+      "text": "The dorsal sensory branches of the radial and ulnar nerves (especially the ulnar branches over the proximal fifth metacarpal) and the longitudinal dorsal veins are at risk.",
+      "source_ids": [
+        "ao_2407e0d9a61b8122",
+        "ao_676fca76b76f70b0"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "metacarpal_dorsal_shaft_danger_zones_01",
+      "text": "The proximal third of the fifth metacarpal is the danger zone for the dorsal sensory branches of the ulnar nerve.",
+      "source_ids": [
+        "ao_2407e0d9a61b8122"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "metacarpal_dorsal_shaft_retraction_hazards_01",
+      "text": "Use short blunt Langenbeck retractors instead of Hohmann levers to avoid detaching the interossei completely and injuring volar structures.",
+      "source_ids": [
+        "ao_2407e0d9a61b8122",
+        "ao_676fca76b76f70b0"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "metacarpal_dorsal_shaft_exposure_01",
+      "text": "Exposes the diaphysis and metaphysis of the metacarpal for plating or osteotomy.",
+      "source_ids": [
+        "ao_2407e0d9a61b8122"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "metacarpal_dorsal_shaft_limitations_01",
+      "text": "The overlying extensor tendons and intertendinous connections limit the dorsal window and mandate periosteal coverage of any implant.",
+      "source_ids": [
+        "ao_2407e0d9a61b8122"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "metacarpal_dorsal_shaft_indications_01",
+      "text": "Indicated for oblique, spiral, transverse, and multifragmentary metacarpal shaft fractures and corrective osteotomies.",
+      "source_ids": [
+        "ao_2407e0d9a61b8122"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "metacarpal_dorsal_shaft_closure_01",
+      "text": "Cover the implant with periosteum as far as possible, repair any divided intertendinous connections, and close the skin.",
+      "source_ids": [
+        "ao_2407e0d9a61b8122"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "metacarpal_dorsal_shaft_complications_01",
+      "text": "Complications include dorsal sensory nerve injury with numbness or neuroma, extensor tendon adhesions, and stiffness.",
+      "source_ids": [
+        "ao_2407e0d9a61b8122",
+        "ao_676fca76b76f70b0"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "metacarpal_dorsal_shaft_questions_01",
+      "text": "Why is the dorsal metacarpal incision placed to the side of the extensor tendons?",
+      "source_ids": [
+        "ao_2407e0d9a61b8122"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "metacarpal_dorsal_shaft_questions_02",
+      "text": "Which retractors are preferred and why?",
+      "source_ids": [
+        "ao_2407e0d9a61b8122",
+        "ao_676fca76b76f70b0"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "metacarpal_dorsal_shaft_questions_03",
+      "text": "Where are the ulnar dorsal sensory branches most vulnerable?",
+      "source_ids": [
+        "ao_2407e0d9a61b8122"
+      ],
+      "risk_level": "medium"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "ao_2407e0d9a61b8122",
+      "provider": "AO Surgery Reference",
+      "title": "Dorsal approach to the metacarpals",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/metacarpals/approach/dorsal-approach-to-metacarpals",
+      "source_page_id": "ao_2407e0d9a61b8122"
+    },
+    {
+      "source_id": "ao_676fca76b76f70b0",
+      "provider": "AO Surgery Reference",
+      "title": "Radial approach to the 2nd metacarpal",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/metacarpals/approach/radial-approach-to-2nd-metacarpal",
+      "source_page_id": "ao_676fca76b76f70b0"
+    }
+  ],
+  "content_status": "agent_review_pending",
+  "review": {
+    "status": "agent_review_pending",
+    "required_roles": [
+      "adversarial_safety_reviewer",
+      "approach_anatomy_reviewer",
+      "educational_value_reviewer",
+      "evidence_reviewer",
+      "operative_exposure_reviewer",
+      "procedure_applicability_reviewer"
+    ],
+    "completed_roles": []
+  },
+  "resolved_contradiction_keys": [],
+  "authoring_provenance": {
+    "method": "local_codex_curated",
+    "definition_file": "data/approach_library/curated/metacarpals_dorsal_batch003_v1.json",
+    "api_used": false
+  }
+}

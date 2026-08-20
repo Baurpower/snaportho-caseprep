@@ -1,0 +1,348 @@
+{
+  "schema_version": "brobot_approach_packet_v1",
+  "approach_id": "talus_medial_malleolar_osteotomy",
+  "name": "Medial malleolar osteotomy for the talar body",
+  "aliases": [
+    "medial malleolar osteotomy approach to the talar dome"
+  ],
+  "region": "talus",
+  "joint": "ankle",
+  "bones": [
+    "talus",
+    "medial malleolus"
+  ],
+  "corridor": "Longitudinal cut over the distal tibia and medial malleolus toward the first-metatarsal base, predrilled lag-screw holes, then a saw cut that stops short of the plafond and is completed with an osteotome so the malleolus can be reflected distally on its deltoid leash",
+  "positioning": [
+    {
+      "text": "Position so the medial malleolus, first-metatarsal base, and talar dome can be seen; this osteotomy is often added to combined anteromedial and anterolateral talar windows.",
+      "claim_ids": [
+        "talus_medial_malleolar_osteotomy_positioning_01"
+      ]
+    }
+  ],
+  "setup": [],
+  "surface_landmarks": [
+    {
+      "text": "Mark the medial malleolus, distal tibia, first-metatarsal base, and the saphenous nerve and vein.",
+      "claim_ids": [
+        "talus_medial_malleolar_osteotomy_surface_landmarks_01"
+      ]
+    }
+  ],
+  "incision": [
+    {
+      "text": "Make a longitudinal cut over the distal tibia and medial malleolus and extend it toward the first-metatarsal base as needed.",
+      "claim_ids": [
+        "talus_medial_malleolar_osteotomy_incision_01"
+      ]
+    }
+  ],
+  "superficial_interval": [
+    {
+      "text": "Avoid the saphenous nerve. Ligate or coagulate the saphenous vein if needed. Incise periosteum and capsule over the medial distal tibia and malleolus, longitudinally or transversely; if longitudinal, take care distally not to injure talar blood supply.",
+      "claim_ids": [
+        "talus_medial_malleolar_osteotomy_superficial_interval_01"
+      ]
+    }
+  ],
+  "deep_interval": [
+    {
+      "text": "The osteotomy must miss the distal tibial plafond. Visualize the joint medial to the anterior colliculus. Predrill and tap two parallel screws perpendicular to the planned cut. Saw at 90° to those screws almost to the articular surface, using a K-wire as a guide if needed. Place small flat retractors around the malleolus to protect the talar dome and posterior tibial tendon, then complete the cut with an osteotome so the articular surface can be reapposed. Reflect the fragment distally on its retained soft tissue and blood supply without excessive retraction of the deltoid artery.",
+      "claim_ids": [
+        "talus_medial_malleolar_osteotomy_deep_interval_01"
+      ]
+    }
+  ],
+  "layers": [
+    {
+      "text": "Skin, saphenous plane, periosteum and capsule, then the reflected medial malleolus and the medial talar body.",
+      "claim_ids": [
+        "talus_medial_malleolar_osteotomy_layers_01"
+      ]
+    }
+  ],
+  "structures_encountered": [],
+  "structures_at_risk": [
+    {
+      "text": "The saphenous nerve, the talar dome and posterior tibial tendon at the osteotomy exit, and the deltoid arterial branch that supplies most of the medial talus are at risk. The peroneal contribution is not of concern on this side.",
+      "claim_ids": [
+        "talus_medial_malleolar_osteotomy_structures_at_risk_01"
+      ]
+    }
+  ],
+  "danger_zones": [
+    {
+      "text": "An osteotomy that enters the plafond, completing the cut with a saw across cartilage, and over-retracting the reflected malleolus on the deltoid artery are the danger zones.",
+      "claim_ids": [
+        "talus_medial_malleolar_osteotomy_danger_zones_01"
+      ]
+    }
+  ],
+  "retraction_hazards": [
+    {
+      "text": "Do not retract the medial malleolar fragment excessively; that can tear the deltoid artery.",
+      "claim_ids": [
+        "talus_medial_malleolar_osteotomy_retraction_hazards_01"
+      ]
+    }
+  ],
+  "exposure": [
+    {
+      "text": "Shows the medial talar body and medial weightbearing dome. A more distal osteotomy dissects less bone but shows less talus.",
+      "claim_ids": [
+        "talus_medial_malleolar_osteotomy_exposure_01"
+      ]
+    }
+  ],
+  "limitations": [
+    {
+      "text": "Does not show the lateral body. The deltoid leash must stay intact, so the fragment cannot be pulled freely.",
+      "claim_ids": [
+        "talus_medial_malleolar_osteotomy_limitations_01"
+      ]
+    }
+  ],
+  "extensions": [],
+  "indications": [
+    {
+      "text": "Used to improve visualization of complex talar-body fractures, particularly those involving the medial weightbearing dome.",
+      "claim_ids": [
+        "talus_medial_malleolar_osteotomy_indications_01"
+      ]
+    }
+  ],
+  "relative_contraindications": [],
+  "implant_implications": [],
+  "fluoroscopy_implications": [],
+  "closure": [
+    {
+      "text": "Reduce the medial malleolus and fix it with the predrilled lag screws. A more vertical osteotomy may need an antiglide plate. Close in two layers.",
+      "claim_ids": [
+        "talus_medial_malleolar_osteotomy_closure_01"
+      ]
+    }
+  ],
+  "complications": [
+    {
+      "text": "Complications include plafond violation, cartilage loss if the saw completes the cut, deltoid-artery injury with osteonecrosis, and osteotomy displacement if a vertical cut is not buttressed.",
+      "claim_ids": [
+        "talus_medial_malleolar_osteotomy_complications_01"
+      ]
+    }
+  ],
+  "bailouts": [],
+  "procedure_applications": [
+    {
+      "procedure_id": "talus_fracture_orif",
+      "relationship": "conditional_option",
+      "condition": "A complex talar-body fracture involving the medial weightbearing dome needs more view than an anteromedial window alone"
+    }
+  ],
+  "questions": [
+    {
+      "question": "How is the medial malleolar osteotomy prepared so it can be repaired accurately?",
+      "answer": "Predrill and tap two parallel screws perpendicular to the planned cut, saw almost to the joint, and finish with an osteotome.",
+      "claim_ids": [
+        "talus_medial_malleolar_osteotomy_questions_01"
+      ]
+    },
+    {
+      "question": "Why must the reflected malleolus not be over-retracted?",
+      "answer": "Excessive retraction can damage the deltoid arterial branch that supplies most of the medial talus.",
+      "claim_ids": [
+        "talus_medial_malleolar_osteotomy_questions_02"
+      ]
+    },
+    {
+      "question": "What extra implant may a more vertical osteotomy need?",
+      "answer": "An antiglide plate to stop proximal displacement.",
+      "claim_ids": [
+        "talus_medial_malleolar_osteotomy_questions_03"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "talus_medial_malleolar_osteotomy_positioning_01",
+      "text": "Position so the medial malleolus, first-metatarsal base, and talar dome can be seen; this osteotomy is often added to combined anteromedial and anterolateral talar windows.",
+      "source_ids": [
+        "ao_036c2123f0abe2c6",
+        "ao_56c0768fdeb445d3"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "talus_medial_malleolar_osteotomy_surface_landmarks_01",
+      "text": "Mark the medial malleolus, distal tibia, first-metatarsal base, and the saphenous nerve and vein.",
+      "source_ids": [
+        "ao_036c2123f0abe2c6",
+        "ao_56c0768fdeb445d3"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "talus_medial_malleolar_osteotomy_incision_01",
+      "text": "Make a longitudinal cut over the distal tibia and medial malleolus and extend it toward the first-metatarsal base as needed.",
+      "source_ids": [
+        "ao_036c2123f0abe2c6",
+        "ao_56c0768fdeb445d3"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "talus_medial_malleolar_osteotomy_superficial_interval_01",
+      "text": "Avoid the saphenous nerve. Ligate or coagulate the saphenous vein if needed. Incise periosteum and capsule over the medial distal tibia and malleolus, longitudinally or transversely; if longitudinal, take care distally not to injure talar blood supply.",
+      "source_ids": [
+        "ao_036c2123f0abe2c6",
+        "ao_56c0768fdeb445d3"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "talus_medial_malleolar_osteotomy_deep_interval_01",
+      "text": "The osteotomy must miss the distal tibial plafond. Visualize the joint medial to the anterior colliculus. Predrill and tap two parallel screws perpendicular to the planned cut. Saw at 90° to those screws almost to the articular surface, using a K-wire as a guide if needed. Place small flat retractors around the malleolus to protect the talar dome and posterior tibial tendon, then complete the cut with an osteotome so the articular surface can be reapposed. Reflect the fragment distally on its retained soft tissue and blood supply without excessive retraction of the deltoid artery.",
+      "source_ids": [
+        "ao_036c2123f0abe2c6"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "talus_medial_malleolar_osteotomy_layers_01",
+      "text": "Skin, saphenous plane, periosteum and capsule, then the reflected medial malleolus and the medial talar body.",
+      "source_ids": [
+        "ao_036c2123f0abe2c6",
+        "ao_56c0768fdeb445d3"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "talus_medial_malleolar_osteotomy_structures_at_risk_01",
+      "text": "The saphenous nerve, the talar dome and posterior tibial tendon at the osteotomy exit, and the deltoid arterial branch that supplies most of the medial talus are at risk. The peroneal contribution is not of concern on this side.",
+      "source_ids": [
+        "ao_036c2123f0abe2c6",
+        "ao_56c0768fdeb445d3"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "talus_medial_malleolar_osteotomy_danger_zones_01",
+      "text": "An osteotomy that enters the plafond, completing the cut with a saw across cartilage, and over-retracting the reflected malleolus on the deltoid artery are the danger zones.",
+      "source_ids": [
+        "ao_036c2123f0abe2c6",
+        "ao_56c0768fdeb445d3"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "talus_medial_malleolar_osteotomy_retraction_hazards_01",
+      "text": "Do not retract the medial malleolar fragment excessively; that can tear the deltoid artery.",
+      "source_ids": [
+        "ao_036c2123f0abe2c6",
+        "ao_56c0768fdeb445d3"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "talus_medial_malleolar_osteotomy_exposure_01",
+      "text": "Shows the medial talar body and medial weightbearing dome. A more distal osteotomy dissects less bone but shows less talus.",
+      "source_ids": [
+        "ao_036c2123f0abe2c6"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "talus_medial_malleolar_osteotomy_limitations_01",
+      "text": "Does not show the lateral body. The deltoid leash must stay intact, so the fragment cannot be pulled freely.",
+      "source_ids": [
+        "ao_036c2123f0abe2c6",
+        "ao_56c0768fdeb445d3"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "talus_medial_malleolar_osteotomy_indications_01",
+      "text": "Used to improve visualization of complex talar-body fractures, particularly those involving the medial weightbearing dome.",
+      "source_ids": [
+        "ao_036c2123f0abe2c6"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "talus_medial_malleolar_osteotomy_closure_01",
+      "text": "Reduce the medial malleolus and fix it with the predrilled lag screws. A more vertical osteotomy may need an antiglide plate. Close in two layers.",
+      "source_ids": [
+        "ao_036c2123f0abe2c6"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "talus_medial_malleolar_osteotomy_complications_01",
+      "text": "Complications include plafond violation, cartilage loss if the saw completes the cut, deltoid-artery injury with osteonecrosis, and osteotomy displacement if a vertical cut is not buttressed.",
+      "source_ids": [
+        "ao_036c2123f0abe2c6",
+        "ao_56c0768fdeb445d3"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "talus_medial_malleolar_osteotomy_questions_01",
+      "text": "How is the medial malleolar osteotomy prepared so it can be repaired accurately?",
+      "source_ids": [
+        "ao_036c2123f0abe2c6"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "talus_medial_malleolar_osteotomy_questions_02",
+      "text": "Why must the reflected malleolus not be over-retracted?",
+      "source_ids": [
+        "ao_036c2123f0abe2c6",
+        "ao_56c0768fdeb445d3"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "talus_medial_malleolar_osteotomy_questions_03",
+      "text": "What extra implant may a more vertical osteotomy need?",
+      "source_ids": [
+        "ao_036c2123f0abe2c6"
+      ],
+      "risk_level": "medium"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "ao_036c2123f0abe2c6",
+      "provider": "AO Surgery Reference",
+      "title": "Medial Malleolar Osteotomy",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/talus/approach/medial-malleolar-osteotomy",
+      "source_page_id": "ao_036c2123f0abe2c6"
+    },
+    {
+      "source_id": "ao_56c0768fdeb445d3",
+      "provider": "AO Surgery Reference",
+      "title": "Anteromedial Approach",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/talus/approach/anteromedial-approach",
+      "source_page_id": "ao_56c0768fdeb445d3"
+    }
+  ],
+  "content_status": "agent_review_pending",
+  "review": {
+    "status": "agent_review_pending",
+    "required_roles": [
+      "adversarial_safety_reviewer",
+      "approach_anatomy_reviewer",
+      "educational_value_reviewer",
+      "evidence_reviewer",
+      "operative_exposure_reviewer",
+      "procedure_applicability_reviewer"
+    ],
+    "completed_roles": []
+  },
+  "resolved_contradiction_keys": [],
+  "authoring_provenance": {
+    "method": "local_codex_curated",
+    "definition_file": "data/approach_library/curated/talus_batch001_v1.json",
+    "api_used": false
+  }
+}

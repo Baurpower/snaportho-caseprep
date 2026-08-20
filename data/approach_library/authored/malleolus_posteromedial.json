@@ -1,0 +1,352 @@
+{
+  "schema_version": "brobot_approach_packet_v1",
+  "approach_id": "malleolus_posteromedial",
+  "name": "Posteromedial approach to the medial malleolus and posterior tibia",
+  "aliases": [
+    "posteromedial medial-malleolar approach"
+  ],
+  "region": "malleoli",
+  "joint": "ankle",
+  "bones": [
+    "medial malleolus",
+    "distal tibia"
+  ],
+  "corridor": "Incision starting 1 cm distal and 1 cm anterior to the medial-malleolar tip, curving dorsally over the tip toward the posterior tibial crest, opening crural fascia at the posterior tibial edge, and retracting TP, FDL, and the posterior tibial neurovascular bundle",
+  "positioning": [
+    {
+      "text": "Position so the medial malleolus and posterior tibial crest can be followed and the saphenous structures identified distally.",
+      "claim_ids": [
+        "malleolus_posteromedial_positioning_01"
+      ]
+    }
+  ],
+  "setup": [],
+  "surface_landmarks": [
+    {
+      "text": "Mark the middle of the medial-malleolar tip and the posterior crest of the distal tibia.",
+      "claim_ids": [
+        "malleolus_posteromedial_surface_landmarks_01"
+      ]
+    }
+  ],
+  "incision": [
+    {
+      "text": "Start 1 cm distal and 1 cm anterior to the middle of the medial-malleolar tip, curve dorsally over the tip, and continue toward the posterior tibial crest.",
+      "claim_ids": [
+        "malleolus_posteromedial_incision_01"
+      ]
+    }
+  ],
+  "superficial_interval": [
+    {
+      "text": "Deepen through fat and fascia in line with the posteromedial tibial crest. Protect the saphenous vein and nerve, especially distally. Do not strip periosteum at the fracture.",
+      "claim_ids": [
+        "malleolus_posteromedial_superficial_interval_01"
+      ]
+    }
+  ],
+  "deep_interval": [
+    {
+      "text": "Follow the fracture to the posterior tibial edge. Open crural fascia there, proximally as needed and distally to the proximal flexor retinaculum. Retract TP, FDL, and the posterior tibial neurovascular bundle with blunt retractors until the posterior fracture is fully seen. If the line runs far laterally, work between the tendons anteriorly and the bundle posteriorly.",
+      "claim_ids": [
+        "malleolus_posteromedial_deep_interval_01"
+      ]
+    }
+  ],
+  "layers": [
+    {
+      "text": "Skin, saphenous plane, crural fascia, TP/FDL and posterior tibial bundle, limited periosteum, then the posterior distal tibia.",
+      "claim_ids": [
+        "malleolus_posteromedial_layers_01"
+      ]
+    }
+  ],
+  "structures_encountered": [],
+  "structures_at_risk": [
+    {
+      "text": "The saphenous vein and nerve distally, and the posterior tibial neurovascular bundle with TP and FDL, are at risk.",
+      "claim_ids": [
+        "malleolus_posteromedial_structures_at_risk_01"
+      ]
+    }
+  ],
+  "danger_zones": [
+    {
+      "text": "The posterior tibial bundle behind the medial malleolus is the deep danger zone; the saphenous structures are the distal superficial danger zone.",
+      "claim_ids": [
+        "malleolus_posteromedial_danger_zones_01"
+      ]
+    }
+  ],
+  "retraction_hazards": [
+    {
+      "text": "Use blunt retractors on the tendons and bundle. Strip periosteum only enough to judge metaphyseal reduction.",
+      "claim_ids": [
+        "malleolus_posteromedial_retraction_hazards_01"
+      ]
+    }
+  ],
+  "exposure": [
+    {
+      "text": "Shows a medial-malleolar fracture that extends to the posterior tibial edge, including posterior comminution.",
+      "claim_ids": [
+        "malleolus_posteromedial_exposure_01"
+      ]
+    }
+  ],
+  "limitations": [
+    {
+      "text": "A purely anterior medial-malleolar fracture is better served by the anterior medial window.",
+      "claim_ids": [
+        "malleolus_posteromedial_limitations_01"
+      ]
+    }
+  ],
+  "extensions": [],
+  "indications": [
+    {
+      "text": "Indicated for posterior comminution or posterior extension of a medial-malleolar fracture.",
+      "claim_ids": [
+        "malleolus_posteromedial_indications_01"
+      ]
+    }
+  ],
+  "relative_contraindications": [],
+  "implant_implications": [],
+  "fluoroscopy_implications": [],
+  "closure": [
+    {
+      "text": "Confirm the posterior tibial bundle and saphenous structures are free, then close fascia and skin.",
+      "claim_ids": [
+        "malleolus_posteromedial_closure_01"
+      ]
+    }
+  ],
+  "complications": [
+    {
+      "text": "Complications include posterior-tibial neurovascular injury and saphenous-nerve or vein injury.",
+      "claim_ids": [
+        "malleolus_posteromedial_complications_01"
+      ]
+    }
+  ],
+  "bailouts": [],
+  "procedure_applications": [
+    {
+      "procedure_id": "ankle_fracture_orif",
+      "relationship": "primary_option",
+      "condition": "A medial-malleolar fracture with posterior comminution or posterior extension is reduced along the posterior tibial edge"
+    }
+  ],
+  "questions": [
+    {
+      "question": "Where does the incision start?",
+      "answer": "One centimeter distal and 1 cm anterior to the middle of the medial-malleolar tip.",
+      "claim_ids": [
+        "malleolus_posteromedial_questions_01"
+      ]
+    },
+    {
+      "question": "Which tendons and bundle are retracted?",
+      "answer": "Tibialis posterior, flexor digitorum longus, and the posterior tibial neurovascular bundle.",
+      "claim_ids": [
+        "malleolus_posteromedial_questions_02"
+      ]
+    },
+    {
+      "question": "When is the interval between tendons and the bundle used?",
+      "answer": "When the fracture line extends far onto the lateral posterior tibia.",
+      "claim_ids": [
+        "malleolus_posteromedial_questions_03"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "malleolus_posteromedial_positioning_01",
+      "text": "Position so the medial malleolus and posterior tibial crest can be followed and the saphenous structures identified distally.",
+      "source_ids": [
+        "ao_52f475041bb237f7",
+        "ao_52556d8e928066ce"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "malleolus_posteromedial_surface_landmarks_01",
+      "text": "Mark the middle of the medial-malleolar tip and the posterior crest of the distal tibia.",
+      "source_ids": [
+        "ao_52f475041bb237f7"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "malleolus_posteromedial_incision_01",
+      "text": "Start 1 cm distal and 1 cm anterior to the middle of the medial-malleolar tip, curve dorsally over the tip, and continue toward the posterior tibial crest.",
+      "source_ids": [
+        "ao_52f475041bb237f7"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "malleolus_posteromedial_superficial_interval_01",
+      "text": "Deepen through fat and fascia in line with the posteromedial tibial crest. Protect the saphenous vein and nerve, especially distally. Do not strip periosteum at the fracture.",
+      "source_ids": [
+        "ao_52f475041bb237f7",
+        "ao_52556d8e928066ce"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "malleolus_posteromedial_deep_interval_01",
+      "text": "Follow the fracture to the posterior tibial edge. Open crural fascia there, proximally as needed and distally to the proximal flexor retinaculum. Retract TP, FDL, and the posterior tibial neurovascular bundle with blunt retractors until the posterior fracture is fully seen. If the line runs far laterally, work between the tendons anteriorly and the bundle posteriorly.",
+      "source_ids": [
+        "ao_52f475041bb237f7",
+        "ao_52556d8e928066ce"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "malleolus_posteromedial_layers_01",
+      "text": "Skin, saphenous plane, crural fascia, TP/FDL and posterior tibial bundle, limited periosteum, then the posterior distal tibia.",
+      "source_ids": [
+        "ao_52f475041bb237f7",
+        "ao_52556d8e928066ce"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "malleolus_posteromedial_structures_at_risk_01",
+      "text": "The saphenous vein and nerve distally, and the posterior tibial neurovascular bundle with TP and FDL, are at risk.",
+      "source_ids": [
+        "ao_52f475041bb237f7",
+        "ao_52556d8e928066ce"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "malleolus_posteromedial_danger_zones_01",
+      "text": "The posterior tibial bundle behind the medial malleolus is the deep danger zone; the saphenous structures are the distal superficial danger zone.",
+      "source_ids": [
+        "ao_52f475041bb237f7",
+        "ao_52556d8e928066ce"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "malleolus_posteromedial_retraction_hazards_01",
+      "text": "Use blunt retractors on the tendons and bundle. Strip periosteum only enough to judge metaphyseal reduction.",
+      "source_ids": [
+        "ao_52f475041bb237f7"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "malleolus_posteromedial_exposure_01",
+      "text": "Shows a medial-malleolar fracture that extends to the posterior tibial edge, including posterior comminution.",
+      "source_ids": [
+        "ao_52f475041bb237f7"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "malleolus_posteromedial_limitations_01",
+      "text": "A purely anterior medial-malleolar fracture is better served by the anterior medial window.",
+      "source_ids": [
+        "ao_52f475041bb237f7"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "malleolus_posteromedial_indications_01",
+      "text": "Indicated for posterior comminution or posterior extension of a medial-malleolar fracture.",
+      "source_ids": [
+        "ao_52f475041bb237f7"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "malleolus_posteromedial_closure_01",
+      "text": "Confirm the posterior tibial bundle and saphenous structures are free, then close fascia and skin.",
+      "source_ids": [
+        "ao_52f475041bb237f7",
+        "ao_52556d8e928066ce"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "malleolus_posteromedial_complications_01",
+      "text": "Complications include posterior-tibial neurovascular injury and saphenous-nerve or vein injury.",
+      "source_ids": [
+        "ao_52f475041bb237f7",
+        "ao_52556d8e928066ce"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "malleolus_posteromedial_questions_01",
+      "text": "Where does the incision start?",
+      "source_ids": [
+        "ao_52f475041bb237f7"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "malleolus_posteromedial_questions_02",
+      "text": "Which tendons and bundle are retracted?",
+      "source_ids": [
+        "ao_52f475041bb237f7"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "malleolus_posteromedial_questions_03",
+      "text": "When is the interval between tendons and the bundle used?",
+      "source_ids": [
+        "ao_52f475041bb237f7"
+      ],
+      "risk_level": "medium"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "ao_52f475041bb237f7",
+      "provider": "AO Surgery Reference",
+      "title": "Posteromedial Approach",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/malleoli/approach/posteromedial-approach",
+      "source_page_id": "ao_52f475041bb237f7"
+    },
+    {
+      "source_id": "ao_52556d8e928066ce",
+      "provider": "AO Surgery Reference",
+      "title": "Posteromedial Approach To The Distal Tibia",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/distal-tibia/approach/posteromedial-approach-to-the-distal-tibia",
+      "source_page_id": "ao_52556d8e928066ce"
+    },
+    {
+      "source_id": "orthobullets_c52b5acc0faf6852",
+      "provider": "Orthobullets",
+      "title": "Posteromedial Approach To Medial Malleolus",
+      "url": "https://www.orthobullets.com/approaches/12039/posteromedial-approach-to-medial-malleolus",
+      "source_page_id": "orthobullets_c52b5acc0faf6852"
+    }
+  ],
+  "content_status": "agent_review_pending",
+  "review": {
+    "status": "agent_review_pending",
+    "required_roles": [
+      "adversarial_safety_reviewer",
+      "approach_anatomy_reviewer",
+      "educational_value_reviewer",
+      "evidence_reviewer",
+      "operative_exposure_reviewer",
+      "procedure_applicability_reviewer"
+    ],
+    "completed_roles": []
+  },
+  "resolved_contradiction_keys": [],
+  "authoring_provenance": {
+    "method": "local_codex_curated",
+    "definition_file": "data/approach_library/curated/malleoli_patella_batch001_v1.json",
+    "api_used": false
+  }
+}

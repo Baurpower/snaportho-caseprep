@@ -1,0 +1,359 @@
+{
+  "schema_version": "brobot_approach_packet_v1",
+  "approach_id": "shoulder_pp_deltopectoral",
+  "name": "Deltopectoral approach for periprosthetic humeral fractures",
+  "aliases": [
+    "revision deltopectoral approach to the humerus"
+  ],
+  "region": "proximal-humerus",
+  "joint": "shoulder",
+  "bones": [
+    "proximal humerus",
+    "humeral shaft"
+  ],
+  "corridor": "Prior or new deltopectoral interval from the coracoid toward the lateral epicondyle, through scarred clavipectoral fascia lateral to the conjoint tendon, with optional distal brachialis split to the shaft around a stem",
+  "positioning": [
+    {
+      "text": "Position so the coracoid, proximal humeral shaft at the axilla, and lateral epicondyle can be marked and the arm draped free for revision work.",
+      "claim_ids": [
+        "shoulder_pp_deltopectoral_positioning_01"
+      ]
+    }
+  ],
+  "setup": [],
+  "surface_landmarks": [
+    {
+      "text": "Mark the coracoid, the proximal humeral shaft at the axilla, the prior deltopectoral scar, and the lateral epicondyle if distal extension is planned.",
+      "claim_ids": [
+        "shoulder_pp_deltopectoral_surface_landmarks_01"
+      ]
+    }
+  ],
+  "incision": [
+    {
+      "text": "Reuse the prior deltopectoral cut if it fits the planned revision; otherwise make a new cut from the coracoid along the shaft toward the lateral epicondyle, sized to the planned plate. Do not persist with a poorly placed old scar when a landmark-based new incision is safer.",
+      "claim_ids": [
+        "shoulder_pp_deltopectoral_incision_01"
+      ]
+    }
+  ],
+  "superficial_interval": [
+    {
+      "text": "Find the deltopectoral groove by fiber direction, remaining cephalic vein, or surrounding fat; in revision the fat is often replaced by scar that can still guide the interval. Dissect on the lateral border of pectoralis major. If the groove is unclear, extend into undisturbed tissue. The vein may have been ligated previously and may not be identifiable.",
+      "claim_ids": [
+        "shoulder_pp_deltopectoral_superficial_interval_01"
+      ]
+    }
+  ],
+  "deep_interval": [
+    {
+      "text": "Incise clavipectoral fascia lateral to the conjoint tendon. The conjoint is often scarred to subscapularis, which hides the axillary nerve. Terminal axillary branches on the deep deltoid are near the superior border of the pectoralis-major tendon; avoid deep retractors there. Distally, open between biceps and brachialis, then between brachialis and brachioradialis to find the radial nerve, and split brachialis at the radial third to preserve dual innervation.",
+      "claim_ids": [
+        "shoulder_pp_deltopectoral_deep_interval_01"
+      ]
+    }
+  ],
+  "layers": [
+    {
+      "text": "Skin and prior scar, deltopectoral groove with or without a cephalic vein, clavipectoral fascia and conjoint tendon, scarred subdeltoid bursa, then the anterior humerus and stem; distally biceps, brachialis, and the radial nerve.",
+      "claim_ids": [
+        "shoulder_pp_deltopectoral_layers_01"
+      ]
+    }
+  ],
+  "structures_encountered": [],
+  "structures_at_risk": [
+    {
+      "text": "Scar, adhesions, and contracture raise the risk to the cephalic vein, anterior circumflex vessels, axillary nerve, posterior circumflex vessels, musculocutaneous nerve, radial nerve, and the brachial plexus if retraction is forceful.",
+      "claim_ids": [
+        "shoulder_pp_deltopectoral_structures_at_risk_01"
+      ]
+    }
+  ],
+  "danger_zones": [
+    {
+      "text": "Hohmann retractors in the distal two-fifths of the humerus risk the radial nerve where it perforates the lateral intermuscular septum. Deep deltoid retractors at the pectoralis-major tendon risk the axillary nerve. Forceful conjoint retraction risks the musculocutaneous nerve.",
+      "claim_ids": [
+        "shoulder_pp_deltopectoral_danger_zones_01"
+      ]
+    }
+  ],
+  "retraction_hazards": [
+    {
+      "text": "Do not retract forcefully on scarred plexus branches. If the axillary nerve cannot be found medial to a prosthesis, identify it from the lateral cord and musculocutaneous nerve, protect the axillary vessels behind the lateral cord, then follow the first lateral branch of the posterior cord; ligate a bleeding posterior circumflex vein before chasing the nerve. If the quadrilateral space is obliterated, detach and gently retract the conjoint tendon. After reverse arthroplasty the subscapularis is often absent, so the usual axillary-nerve landmarks are gone.",
+      "claim_ids": [
+        "shoulder_pp_deltopectoral_retraction_hazards_01"
+      ]
+    }
+  ],
+  "exposure": [
+    {
+      "text": "Gives access to almost any humeral periprosthetic shaft fracture and is the preferred corridor for revision around a stem, including distal extension for a long plate.",
+      "claim_ids": [
+        "shoulder_pp_deltopectoral_exposure_01"
+      ]
+    }
+  ],
+  "limitations": [
+    {
+      "text": "Scar can erase the cephalic vein, subscapularis, and axillary-nerve landmarks. Distal Hohmann use is unsafe in the distal two-fifths.",
+      "claim_ids": [
+        "shoulder_pp_deltopectoral_limitations_01"
+      ]
+    }
+  ],
+  "extensions": [],
+  "indications": [
+    {
+      "text": "Used for almost any humeral periprosthetic shaft fracture and is highly recommended for revision surgery.",
+      "claim_ids": [
+        "shoulder_pp_deltopectoral_indications_01"
+      ]
+    }
+  ],
+  "relative_contraindications": [],
+  "implant_implications": [],
+  "fluoroscopy_implications": [],
+  "closure": [
+    {
+      "text": "Irrigate, consider a drain under the deltoid, and close subcutaneous fascia and skin in layers.",
+      "claim_ids": [
+        "shoulder_pp_deltopectoral_closure_01"
+      ]
+    }
+  ],
+  "complications": [
+    {
+      "text": "Complications include axillary, musculocutaneous, or radial neurapraxia, plexus injury from forceful retraction, and bleeding from posterior circumflex veins during axillary-nerve isolation.",
+      "claim_ids": [
+        "shoulder_pp_deltopectoral_complications_01"
+      ]
+    }
+  ],
+  "bailouts": [],
+  "procedure_applications": [
+    {
+      "procedure_id": "periprosthetic_shoulder_fracture_orif",
+      "relationship": "primary_option",
+      "condition": "A humeral periprosthetic shaft fracture or a revision around a stem is exposed through an extensile deltopectoral interval"
+    }
+  ],
+  "questions": [
+    {
+      "question": "When should a new deltopectoral incision be made instead of reusing the old scar?",
+      "answer": "When the prior incision does not fit the planned revision or does not allow a necessary landmark to be identified.",
+      "claim_ids": [
+        "shoulder_pp_deltopectoral_questions_01"
+      ]
+    },
+    {
+      "question": "Why are Hohmann retractors unsafe in the distal two-fifths of the humerus?",
+      "answer": "The radial nerve enters the anterior compartment through the lateral intermuscular septum there.",
+      "claim_ids": [
+        "shoulder_pp_deltopectoral_questions_02"
+      ]
+    },
+    {
+      "question": "How is the axillary nerve found when scar hides it medial to a prosthesis?",
+      "answer": "Identify the lateral cord and musculocutaneous nerve, protect the axillary vessels, then follow the first lateral branch of the posterior cord, which is the axillary nerve.",
+      "claim_ids": [
+        "shoulder_pp_deltopectoral_questions_03"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "shoulder_pp_deltopectoral_positioning_01",
+      "text": "Position so the coracoid, proximal humeral shaft at the axilla, and lateral epicondyle can be marked and the arm draped free for revision work.",
+      "source_ids": [
+        "ao_6cdbbf257a917f43",
+        "ao_c5861e08ea2a1064"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "shoulder_pp_deltopectoral_surface_landmarks_01",
+      "text": "Mark the coracoid, the proximal humeral shaft at the axilla, the prior deltopectoral scar, and the lateral epicondyle if distal extension is planned.",
+      "source_ids": [
+        "ao_6cdbbf257a917f43",
+        "ao_c5861e08ea2a1064"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "shoulder_pp_deltopectoral_incision_01",
+      "text": "Reuse the prior deltopectoral cut if it fits the planned revision; otherwise make a new cut from the coracoid along the shaft toward the lateral epicondyle, sized to the planned plate. Do not persist with a poorly placed old scar when a landmark-based new incision is safer.",
+      "source_ids": [
+        "ao_6cdbbf257a917f43"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "shoulder_pp_deltopectoral_superficial_interval_01",
+      "text": "Find the deltopectoral groove by fiber direction, remaining cephalic vein, or surrounding fat; in revision the fat is often replaced by scar that can still guide the interval. Dissect on the lateral border of pectoralis major. If the groove is unclear, extend into undisturbed tissue. The vein may have been ligated previously and may not be identifiable.",
+      "source_ids": [
+        "ao_6cdbbf257a917f43",
+        "ao_c5861e08ea2a1064"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "shoulder_pp_deltopectoral_deep_interval_01",
+      "text": "Incise clavipectoral fascia lateral to the conjoint tendon. The conjoint is often scarred to subscapularis, which hides the axillary nerve. Terminal axillary branches on the deep deltoid are near the superior border of the pectoralis-major tendon; avoid deep retractors there. Distally, open between biceps and brachialis, then between brachialis and brachioradialis to find the radial nerve, and split brachialis at the radial third to preserve dual innervation.",
+      "source_ids": [
+        "ao_6cdbbf257a917f43",
+        "ao_b1d85a2691e1f064"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "shoulder_pp_deltopectoral_layers_01",
+      "text": "Skin and prior scar, deltopectoral groove with or without a cephalic vein, clavipectoral fascia and conjoint tendon, scarred subdeltoid bursa, then the anterior humerus and stem; distally biceps, brachialis, and the radial nerve.",
+      "source_ids": [
+        "ao_6cdbbf257a917f43",
+        "ao_b1d85a2691e1f064"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "shoulder_pp_deltopectoral_structures_at_risk_01",
+      "text": "Scar, adhesions, and contracture raise the risk to the cephalic vein, anterior circumflex vessels, axillary nerve, posterior circumflex vessels, musculocutaneous nerve, radial nerve, and the brachial plexus if retraction is forceful.",
+      "source_ids": [
+        "ao_6cdbbf257a917f43",
+        "ao_c5861e08ea2a1064",
+        "ao_b1d85a2691e1f064"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "shoulder_pp_deltopectoral_danger_zones_01",
+      "text": "Hohmann retractors in the distal two-fifths of the humerus risk the radial nerve where it perforates the lateral intermuscular septum. Deep deltoid retractors at the pectoralis-major tendon risk the axillary nerve. Forceful conjoint retraction risks the musculocutaneous nerve.",
+      "source_ids": [
+        "ao_6cdbbf257a917f43",
+        "ao_b1d85a2691e1f064"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "shoulder_pp_deltopectoral_retraction_hazards_01",
+      "text": "Do not retract forcefully on scarred plexus branches. If the axillary nerve cannot be found medial to a prosthesis, identify it from the lateral cord and musculocutaneous nerve, protect the axillary vessels behind the lateral cord, then follow the first lateral branch of the posterior cord; ligate a bleeding posterior circumflex vein before chasing the nerve. If the quadrilateral space is obliterated, detach and gently retract the conjoint tendon. After reverse arthroplasty the subscapularis is often absent, so the usual axillary-nerve landmarks are gone.",
+      "source_ids": [
+        "ao_6cdbbf257a917f43"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "shoulder_pp_deltopectoral_exposure_01",
+      "text": "Gives access to almost any humeral periprosthetic shaft fracture and is the preferred corridor for revision around a stem, including distal extension for a long plate.",
+      "source_ids": [
+        "ao_6cdbbf257a917f43",
+        "ao_c5861e08ea2a1064"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "shoulder_pp_deltopectoral_limitations_01",
+      "text": "Scar can erase the cephalic vein, subscapularis, and axillary-nerve landmarks. Distal Hohmann use is unsafe in the distal two-fifths.",
+      "source_ids": [
+        "ao_6cdbbf257a917f43",
+        "ao_b1d85a2691e1f064"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "shoulder_pp_deltopectoral_indications_01",
+      "text": "Used for almost any humeral periprosthetic shaft fracture and is highly recommended for revision surgery.",
+      "source_ids": [
+        "ao_6cdbbf257a917f43",
+        "ao_c5861e08ea2a1064"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "shoulder_pp_deltopectoral_closure_01",
+      "text": "Irrigate, consider a drain under the deltoid, and close subcutaneous fascia and skin in layers.",
+      "source_ids": [
+        "ao_6cdbbf257a917f43",
+        "ao_c5861e08ea2a1064"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "shoulder_pp_deltopectoral_complications_01",
+      "text": "Complications include axillary, musculocutaneous, or radial neurapraxia, plexus injury from forceful retraction, and bleeding from posterior circumflex veins during axillary-nerve isolation.",
+      "source_ids": [
+        "ao_6cdbbf257a917f43",
+        "ao_c5861e08ea2a1064",
+        "ao_b1d85a2691e1f064"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "shoulder_pp_deltopectoral_questions_01",
+      "text": "When should a new deltopectoral incision be made instead of reusing the old scar?",
+      "source_ids": [
+        "ao_6cdbbf257a917f43"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "shoulder_pp_deltopectoral_questions_02",
+      "text": "Why are Hohmann retractors unsafe in the distal two-fifths of the humerus?",
+      "source_ids": [
+        "ao_6cdbbf257a917f43",
+        "ao_b1d85a2691e1f064"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "shoulder_pp_deltopectoral_questions_03",
+      "text": "How is the axillary nerve found when scar hides it medial to a prosthesis?",
+      "source_ids": [
+        "ao_6cdbbf257a917f43"
+      ],
+      "risk_level": "medium"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "ao_6cdbbf257a917f43",
+      "provider": "AO Surgery Reference",
+      "title": "Deltopectoral Approach",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/periprosthetic-fractures/shoulder/approach/deltopectoral-approach",
+      "source_page_id": "ao_6cdbbf257a917f43"
+    },
+    {
+      "source_id": "ao_c5861e08ea2a1064",
+      "provider": "AO Surgery Reference",
+      "title": "Deltopectoral approach to the proximal humerus",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/proximal-humerus/approach/deltopectoral-approach-to-the-proximal-humerus",
+      "source_page_id": "ao_c5861e08ea2a1064"
+    },
+    {
+      "source_id": "ao_b1d85a2691e1f064",
+      "provider": "AO Surgery Reference",
+      "title": "Extended deltopectoral approach to the humeral shaft",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/humeral-shaft/approach/extended-deltopectoral-approach-to-the-humeral-shaft",
+      "source_page_id": "ao_b1d85a2691e1f064"
+    }
+  ],
+  "content_status": "agent_review_pending",
+  "review": {
+    "status": "agent_review_pending",
+    "required_roles": [
+      "adversarial_safety_reviewer",
+      "approach_anatomy_reviewer",
+      "educational_value_reviewer",
+      "evidence_reviewer",
+      "operative_exposure_reviewer",
+      "procedure_applicability_reviewer"
+    ],
+    "completed_roles": []
+  },
+  "resolved_contradiction_keys": [],
+  "authoring_provenance": {
+    "method": "local_codex_curated",
+    "definition_file": "data/approach_library/curated/shoulder_pp_batch001_v1.json",
+    "api_used": false
+  }
+}

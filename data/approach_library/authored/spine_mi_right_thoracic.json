@@ -1,0 +1,326 @@
+{
+  "schema_version": "brobot_approach_packet_v1",
+  "approach_id": "spine_mi_right_thoracic",
+  "name": "Minimally invasive right-sided thoracic approach (T4–T10)",
+  "aliases": [
+    "mini-open right thoracoscopically assisted thoracotomy"
+  ],
+  "region": "thoracolumbar",
+  "joint": "",
+  "bones": [
+    "T4",
+    "T5",
+    "T6",
+    "T7",
+    "T8",
+    "T9",
+    "T10"
+  ],
+  "corridor": "Same mini-thoracotomy plus viewing and retraction portals as the left-sided T10–L2 window, used on the right for T4–T10",
+  "positioning": [
+    {
+      "text": "Position for a right chest approach. The left-sided T10–L2 chapter states that T4–T10 is approached from the right and T10–L2 from the left, according to aortic anatomy.",
+      "claim_ids": [
+        "spine_mi_right_thoracic_positioning_01"
+      ]
+    }
+  ],
+  "setup": [],
+  "surface_landmarks": [
+    {
+      "text": "Mark the fractured vertebra on the right chest. Portal geometry matches the left mini-thoracic window: viewing portal two spaces cranial, retraction portal one space cranial and about 10 cm anterior.",
+      "claim_ids": [
+        "spine_mi_right_thoracic_surface_landmarks_01"
+      ]
+    }
+  ],
+  "incision": [
+    {
+      "text": "Mini-thoracotomy over the marked vertebra, with additional 20 mm portals entering above the rib.",
+      "claim_ids": [
+        "spine_mi_right_thoracic_incision_01"
+      ]
+    }
+  ],
+  "superficial_interval": [
+    {
+      "text": "Take intercostal muscle off the cranial rib, open pleura, inspect with a thoracoscope, then place further portals under vision.",
+      "claim_ids": [
+        "spine_mi_right_thoracic_superficial_interval_01"
+      ]
+    }
+  ],
+  "deep_interval": [
+    {
+      "text": "Open parietal pleura over the discs at the target and one level above and below, manage segmental vessels, and expose to the ALL and rib heads as on the left.",
+      "claim_ids": [
+        "spine_mi_right_thoracic_deep_interval_01"
+      ]
+    }
+  ],
+  "layers": [
+    {
+      "text": "Skin, chest wall, pleural cavity, parietal pleura, then the right side of T4–T10.",
+      "claim_ids": [
+        "spine_mi_right_thoracic_layers_01"
+      ]
+    }
+  ],
+  "structures_encountered": [],
+  "structures_at_risk": [
+    {
+      "text": "Lung, intercostal bundle, segmental vessels, and the great vessels; the thoracic duct is a right-sided concern in this field.",
+      "claim_ids": [
+        "spine_mi_right_thoracic_structures_at_risk_01"
+      ]
+    }
+  ],
+  "danger_zones": [
+    {
+      "text": "Entering below the rib and working without protecting mediastinal vessels are the danger zones.",
+      "claim_ids": [
+        "spine_mi_right_thoracic_danger_zones_01"
+      ]
+    }
+  ],
+  "retraction_hazards": [
+    {
+      "text": "Inflate the lung under thoracoscopic vision before removing the last portal.",
+      "claim_ids": [
+        "spine_mi_right_thoracic_retraction_hazards_01"
+      ]
+    }
+  ],
+  "exposure": [
+    {
+      "text": "Shows T4–T10 from a mini-open right thoracotomy.",
+      "claim_ids": [
+        "spine_mi_right_thoracic_exposure_01"
+      ]
+    }
+  ],
+  "limitations": [
+    {
+      "text": "Not the preferred side for T10–L2, where a left window is used because of the aorta.",
+      "claim_ids": [
+        "spine_mi_right_thoracic_limitations_01"
+      ]
+    }
+  ],
+  "extensions": [],
+  "indications": [
+    {
+      "text": "Used for minimally invasive right thoracic access from T4 to T10.",
+      "claim_ids": [
+        "spine_mi_right_thoracic_indications_01"
+      ]
+    }
+  ],
+  "relative_contraindications": [],
+  "implant_implications": [],
+  "fluoroscopy_implications": [],
+  "closure": [
+    {
+      "text": "Close as for the left mini-thoracic window, with chest drains through the portals.",
+      "claim_ids": [
+        "spine_mi_right_thoracic_closure_01"
+      ]
+    }
+  ],
+  "complications": [
+    {
+      "text": "Complications include lung injury, intercostal-bundle injury, and thoracic-duct injury.",
+      "claim_ids": [
+        "spine_mi_right_thoracic_complications_01"
+      ]
+    }
+  ],
+  "bailouts": [],
+  "procedure_applications": [
+    {
+      "procedure_id": "thoracolumbar_fracture_orif",
+      "relationship": "primary_option",
+      "condition": "A T4–T10 fracture is instrumented through a mini-open right thoracotomy"
+    }
+  ],
+  "questions": [
+    {
+      "question": "Which thoracic levels are approached from the right in the mini-open system?",
+      "answer": "T4–T10, with T10–L2 typically left-sided because of the aorta.",
+      "claim_ids": [
+        "spine_mi_right_thoracic_questions_01"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "spine_mi_right_thoracic_positioning_01",
+      "text": "Position for a right chest approach. The left-sided T10–L2 chapter states that T4–T10 is approached from the right and T10–L2 from the left, according to aortic anatomy.",
+      "source_ids": [
+        "ao_62614a9ac0ed661b",
+        "ao_b3ce0222076ef04f"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "spine_mi_right_thoracic_surface_landmarks_01",
+      "text": "Mark the fractured vertebra on the right chest. Portal geometry matches the left mini-thoracic window: viewing portal two spaces cranial, retraction portal one space cranial and about 10 cm anterior.",
+      "source_ids": [
+        "ao_62614a9ac0ed661b",
+        "ao_b3ce0222076ef04f"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "spine_mi_right_thoracic_incision_01",
+      "text": "Mini-thoracotomy over the marked vertebra, with additional 20 mm portals entering above the rib.",
+      "source_ids": [
+        "ao_62614a9ac0ed661b",
+        "ao_b3ce0222076ef04f"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "spine_mi_right_thoracic_superficial_interval_01",
+      "text": "Take intercostal muscle off the cranial rib, open pleura, inspect with a thoracoscope, then place further portals under vision.",
+      "source_ids": [
+        "ao_62614a9ac0ed661b",
+        "ao_b3ce0222076ef04f"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "spine_mi_right_thoracic_deep_interval_01",
+      "text": "Open parietal pleura over the discs at the target and one level above and below, manage segmental vessels, and expose to the ALL and rib heads as on the left.",
+      "source_ids": [
+        "ao_62614a9ac0ed661b",
+        "ao_b3ce0222076ef04f"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "spine_mi_right_thoracic_layers_01",
+      "text": "Skin, chest wall, pleural cavity, parietal pleura, then the right side of T4–T10.",
+      "source_ids": [
+        "ao_62614a9ac0ed661b",
+        "ao_b3ce0222076ef04f"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "spine_mi_right_thoracic_structures_at_risk_01",
+      "text": "Lung, intercostal bundle, segmental vessels, and the great vessels; the thoracic duct is a right-sided concern in this field.",
+      "source_ids": [
+        "ao_62614a9ac0ed661b",
+        "ao_b3ce0222076ef04f"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "spine_mi_right_thoracic_danger_zones_01",
+      "text": "Entering below the rib and working without protecting mediastinal vessels are the danger zones.",
+      "source_ids": [
+        "ao_62614a9ac0ed661b",
+        "ao_b3ce0222076ef04f"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "spine_mi_right_thoracic_retraction_hazards_01",
+      "text": "Inflate the lung under thoracoscopic vision before removing the last portal.",
+      "source_ids": [
+        "ao_62614a9ac0ed661b",
+        "ao_b3ce0222076ef04f"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "spine_mi_right_thoracic_exposure_01",
+      "text": "Shows T4–T10 from a mini-open right thoracotomy.",
+      "source_ids": [
+        "ao_62614a9ac0ed661b",
+        "ao_b3ce0222076ef04f"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "spine_mi_right_thoracic_limitations_01",
+      "text": "Not the preferred side for T10–L2, where a left window is used because of the aorta.",
+      "source_ids": [
+        "ao_b3ce0222076ef04f"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "spine_mi_right_thoracic_indications_01",
+      "text": "Used for minimally invasive right thoracic access from T4 to T10.",
+      "source_ids": [
+        "ao_62614a9ac0ed661b",
+        "ao_b3ce0222076ef04f"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "spine_mi_right_thoracic_closure_01",
+      "text": "Close as for the left mini-thoracic window, with chest drains through the portals.",
+      "source_ids": [
+        "ao_62614a9ac0ed661b",
+        "ao_b3ce0222076ef04f"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "spine_mi_right_thoracic_complications_01",
+      "text": "Complications include lung injury, intercostal-bundle injury, and thoracic-duct injury.",
+      "source_ids": [
+        "ao_62614a9ac0ed661b",
+        "ao_b3ce0222076ef04f"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "spine_mi_right_thoracic_questions_01",
+      "text": "Which thoracic levels are approached from the right in the mini-open system?",
+      "source_ids": [
+        "ao_62614a9ac0ed661b",
+        "ao_b3ce0222076ef04f"
+      ],
+      "risk_level": "medium"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "ao_62614a9ac0ed661b",
+      "provider": "AO Surgery Reference",
+      "title": "Minimally Invasive Right Sided Thoracic Approach T4 T10",
+      "url": "https://surgeryreference.aofoundation.org/spine/trauma/thoracolumbar/approach/minimally-invasive-right-sided-thoracic-approach-t4-t10",
+      "source_page_id": "ao_62614a9ac0ed661b"
+    },
+    {
+      "source_id": "ao_b3ce0222076ef04f",
+      "provider": "AO Surgery Reference",
+      "title": "Minimally Invasive Left Sided Thoracic Approach T10 L2",
+      "url": "https://surgeryreference.aofoundation.org/spine/trauma/thoracolumbar/approach/minimally-invasive-left-sided-thoracic-approach-t10-l2",
+      "source_page_id": "ao_b3ce0222076ef04f"
+    }
+  ],
+  "content_status": "agent_review_pending",
+  "review": {
+    "status": "agent_review_pending",
+    "required_roles": [
+      "adversarial_safety_reviewer",
+      "approach_anatomy_reviewer",
+      "educational_value_reviewer",
+      "evidence_reviewer",
+      "operative_exposure_reviewer",
+      "procedure_applicability_reviewer"
+    ],
+    "completed_roles": []
+  },
+  "resolved_contradiction_keys": [],
+  "authoring_provenance": {
+    "method": "local_codex_curated",
+    "definition_file": "data/approach_library/curated/spine_remaining_batch001_v1.json",
+    "api_used": false
+  }
+}

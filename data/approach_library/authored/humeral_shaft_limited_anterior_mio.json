@@ -1,0 +1,342 @@
+{
+  "schema_version": "brobot_approach_packet_v1",
+  "approach_id": "humeral_shaft_limited_anterior_mio",
+  "name": "Limited approaches for anterior MIO of the humeral shaft",
+  "aliases": [
+    "minimally invasive anterior humeral plating windows"
+  ],
+  "region": "humeral-shaft",
+  "joint": "",
+  "bones": [
+    "humerus"
+  ],
+  "corridor": "Proximal deltoid-split or deltobicipital window and a distal window between biceps and brachialis, with a submuscular extraperiosteal tunnel under brachialis for anterior plate passage",
+  "positioning": [
+    {
+      "text": "Position supine (beach-chair) with the arm draped free and imaging access along the humerus.",
+      "claim_ids": [
+        "humeral_shaft_limited_anterior_mio_positioning_01"
+      ]
+    }
+  ],
+  "setup": [],
+  "surface_landmarks": [
+    {
+      "text": "Mark the anterolateral acromial tip and deltopectoral interval proximally and the biceps-brachialis interval and elbow crease distally.",
+      "claim_ids": [
+        "humeral_shaft_limited_anterior_mio_surface_landmarks_01"
+      ]
+    }
+  ],
+  "incision": [
+    {
+      "text": "Use a proximal window by an anterior deltoid split from the anterolateral acromial tip or a deltobicipital interval, and a distal window between biceps and brachialis, starting near the joint crease and extending 5 to 6 cm proximally.",
+      "claim_ids": [
+        "humeral_shaft_limited_anterior_mio_incision_01"
+      ]
+    }
+  ],
+  "superficial_interval": [
+    {
+      "text": "Proximally split the deltoid raphe finding and protecting the axillary nerve, or use the deltoid-biceps interval protecting the cephalic vein; distally develop the plane between biceps and brachialis and retract the lateral antebrachial cutaneous nerve medially.",
+      "claim_ids": [
+        "humeral_shaft_limited_anterior_mio_superficial_interval_01"
+      ]
+    }
+  ],
+  "deep_interval": [
+    {
+      "text": "Split the brachialis longitudinally for extraperiosteal access to the anterior distal humerus, keeping the radial nerve protected within the lateral brachialis, and create a submuscular extraperiosteal tunnel under brachialis to pass the plate from distal to proximal.",
+      "claim_ids": [
+        "humeral_shaft_limited_anterior_mio_deep_interval_01"
+      ]
+    }
+  ],
+  "layers": [
+    {
+      "text": "Skin, subcutaneous tissue, the deltoid or deltopectoral interval proximally, the biceps-brachialis interval and split brachialis distally, and the anterior humerus.",
+      "claim_ids": [
+        "humeral_shaft_limited_anterior_mio_layers_01"
+      ]
+    }
+  ],
+  "structures_encountered": [],
+  "structures_at_risk": [
+    {
+      "text": "The axillary nerve at the proximal portal, the radial nerve laterally under brachialis, the lateral antebrachial cutaneous nerve, and the cephalic vein are at risk.",
+      "claim_ids": [
+        "humeral_shaft_limited_anterior_mio_structures_at_risk_01"
+      ]
+    }
+  ],
+  "danger_zones": [
+    {
+      "text": "The proximal portal is the danger zone for the axillary nerve and its vessels, especially when working proximally.",
+      "claim_ids": [
+        "humeral_shaft_limited_anterior_mio_danger_zones_01"
+      ]
+    }
+  ],
+  "retraction_hazards": [
+    {
+      "text": "Retract the lateral antebrachial cutaneous nerve medially, keep the radial nerve within the lateral brachialis, and avoid levering near the axillary nerve proximally.",
+      "claim_ids": [
+        "humeral_shaft_limited_anterior_mio_retraction_hazards_01"
+      ]
+    }
+  ],
+  "exposure": [
+    {
+      "text": "Provides limited proximal and distal anterior windows connected by a submuscular tunnel for bridge plating.",
+      "claim_ids": [
+        "humeral_shaft_limited_anterior_mio_exposure_01"
+      ]
+    }
+  ],
+  "limitations": [
+    {
+      "text": "It gives no direct fracture visualization and relies on indirect reduction and imaging, with the axillary and radial nerves bounding the corridor.",
+      "claim_ids": [
+        "humeral_shaft_limited_anterior_mio_limitations_01"
+      ]
+    }
+  ],
+  "extensions": [],
+  "indications": [
+    {
+      "text": "Indicated for minimally invasive anterior bridge plating of humeral shaft fractures.",
+      "claim_ids": [
+        "humeral_shaft_limited_anterior_mio_indications_01"
+      ]
+    }
+  ],
+  "relative_contraindications": [],
+  "implant_implications": [],
+  "fluoroscopy_implications": [],
+  "closure": [
+    {
+      "text": "Close the proximal and distal incisions in layers in the standard manner.",
+      "claim_ids": [
+        "humeral_shaft_limited_anterior_mio_closure_01"
+      ]
+    }
+  ],
+  "complications": [
+    {
+      "text": "Complications include axillary nerve injury from the proximal portal, radial nerve injury, and malreduction.",
+      "claim_ids": [
+        "humeral_shaft_limited_anterior_mio_complications_01"
+      ]
+    }
+  ],
+  "bailouts": [],
+  "procedure_applications": [
+    {
+      "procedure_id": "humeral_shaft_fracture_orif",
+      "relationship": "primary_option",
+      "condition": "A humeral shaft fracture is fixed with an anterior minimally invasive bridge plate"
+    }
+  ],
+  "questions": [
+    {
+      "question": "Between which muscles is the distal anterior MIO window developed?",
+      "answer": "Between the biceps and brachialis, splitting the brachialis.",
+      "claim_ids": [
+        "humeral_shaft_limited_anterior_mio_questions_01"
+      ]
+    },
+    {
+      "question": "Which nerve is most at risk when working from the proximal portal?",
+      "answer": "The axillary nerve.",
+      "claim_ids": [
+        "humeral_shaft_limited_anterior_mio_questions_02"
+      ]
+    },
+    {
+      "question": "How is the plate passed between the windows?",
+      "answer": "Through a submuscular extraperiosteal tunnel under the brachialis.",
+      "claim_ids": [
+        "humeral_shaft_limited_anterior_mio_questions_03"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "humeral_shaft_limited_anterior_mio_positioning_01",
+      "text": "Position supine (beach-chair) with the arm draped free and imaging access along the humerus.",
+      "source_ids": [
+        "ao_ddc4138b1ee9eb55"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "humeral_shaft_limited_anterior_mio_surface_landmarks_01",
+      "text": "Mark the anterolateral acromial tip and deltopectoral interval proximally and the biceps-brachialis interval and elbow crease distally.",
+      "source_ids": [
+        "ao_ddc4138b1ee9eb55"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "humeral_shaft_limited_anterior_mio_incision_01",
+      "text": "Use a proximal window by an anterior deltoid split from the anterolateral acromial tip or a deltobicipital interval, and a distal window between biceps and brachialis, starting near the joint crease and extending 5 to 6 cm proximally.",
+      "source_ids": [
+        "ao_ddc4138b1ee9eb55"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "humeral_shaft_limited_anterior_mio_superficial_interval_01",
+      "text": "Proximally split the deltoid raphe finding and protecting the axillary nerve, or use the deltoid-biceps interval protecting the cephalic vein; distally develop the plane between biceps and brachialis and retract the lateral antebrachial cutaneous nerve medially.",
+      "source_ids": [
+        "ao_ddc4138b1ee9eb55",
+        "ao_448da66bc421d7ed"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "humeral_shaft_limited_anterior_mio_deep_interval_01",
+      "text": "Split the brachialis longitudinally for extraperiosteal access to the anterior distal humerus, keeping the radial nerve protected within the lateral brachialis, and create a submuscular extraperiosteal tunnel under brachialis to pass the plate from distal to proximal.",
+      "source_ids": [
+        "ao_ddc4138b1ee9eb55",
+        "ao_448da66bc421d7ed"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "humeral_shaft_limited_anterior_mio_layers_01",
+      "text": "Skin, subcutaneous tissue, the deltoid or deltopectoral interval proximally, the biceps-brachialis interval and split brachialis distally, and the anterior humerus.",
+      "source_ids": [
+        "ao_ddc4138b1ee9eb55"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "humeral_shaft_limited_anterior_mio_structures_at_risk_01",
+      "text": "The axillary nerve at the proximal portal, the radial nerve laterally under brachialis, the lateral antebrachial cutaneous nerve, and the cephalic vein are at risk.",
+      "source_ids": [
+        "ao_ddc4138b1ee9eb55",
+        "ao_448da66bc421d7ed"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "humeral_shaft_limited_anterior_mio_danger_zones_01",
+      "text": "The proximal portal is the danger zone for the axillary nerve and its vessels, especially when working proximally.",
+      "source_ids": [
+        "ao_ddc4138b1ee9eb55",
+        "ao_448da66bc421d7ed"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "humeral_shaft_limited_anterior_mio_retraction_hazards_01",
+      "text": "Retract the lateral antebrachial cutaneous nerve medially, keep the radial nerve within the lateral brachialis, and avoid levering near the axillary nerve proximally.",
+      "source_ids": [
+        "ao_ddc4138b1ee9eb55"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "humeral_shaft_limited_anterior_mio_exposure_01",
+      "text": "Provides limited proximal and distal anterior windows connected by a submuscular tunnel for bridge plating.",
+      "source_ids": [
+        "ao_ddc4138b1ee9eb55"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "humeral_shaft_limited_anterior_mio_limitations_01",
+      "text": "It gives no direct fracture visualization and relies on indirect reduction and imaging, with the axillary and radial nerves bounding the corridor.",
+      "source_ids": [
+        "ao_ddc4138b1ee9eb55"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "humeral_shaft_limited_anterior_mio_indications_01",
+      "text": "Indicated for minimally invasive anterior bridge plating of humeral shaft fractures.",
+      "source_ids": [
+        "ao_ddc4138b1ee9eb55"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "humeral_shaft_limited_anterior_mio_closure_01",
+      "text": "Close the proximal and distal incisions in layers in the standard manner.",
+      "source_ids": [
+        "ao_ddc4138b1ee9eb55"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "humeral_shaft_limited_anterior_mio_complications_01",
+      "text": "Complications include axillary nerve injury from the proximal portal, radial nerve injury, and malreduction.",
+      "source_ids": [
+        "ao_ddc4138b1ee9eb55",
+        "ao_448da66bc421d7ed"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "humeral_shaft_limited_anterior_mio_questions_01",
+      "text": "Between which muscles is the distal anterior MIO window developed?",
+      "source_ids": [
+        "ao_ddc4138b1ee9eb55"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "humeral_shaft_limited_anterior_mio_questions_02",
+      "text": "Which nerve is most at risk when working from the proximal portal?",
+      "source_ids": [
+        "ao_ddc4138b1ee9eb55",
+        "ao_448da66bc421d7ed"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "humeral_shaft_limited_anterior_mio_questions_03",
+      "text": "How is the plate passed between the windows?",
+      "source_ids": [
+        "ao_ddc4138b1ee9eb55"
+      ],
+      "risk_level": "medium"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "ao_ddc4138b1ee9eb55",
+      "provider": "AO Surgery Reference",
+      "title": "Limited approaches for anterior MIO (humeral shaft)",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/humeral-shaft/approach/limited-approaches-for-anterior-mio",
+      "source_page_id": "ao_ddc4138b1ee9eb55"
+    },
+    {
+      "source_id": "ao_448da66bc421d7ed",
+      "provider": "AO Surgery Reference",
+      "title": "MIO transdeltoid lateral approach to the humeral shaft",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/humeral-shaft/approach/mio-transdeltoid-lateral-approach",
+      "source_page_id": "ao_448da66bc421d7ed"
+    }
+  ],
+  "content_status": "agent_review_pending",
+  "review": {
+    "status": "agent_review_pending",
+    "required_roles": [
+      "adversarial_safety_reviewer",
+      "approach_anatomy_reviewer",
+      "educational_value_reviewer",
+      "evidence_reviewer",
+      "operative_exposure_reviewer",
+      "procedure_applicability_reviewer"
+    ],
+    "completed_roles": []
+  },
+  "resolved_contradiction_keys": [],
+  "authoring_provenance": {
+    "method": "local_codex_curated",
+    "definition_file": "data/approach_library/curated/humeral_shaft_tricepssparing_mio_batch002_v1.json",
+    "api_used": false
+  }
+}

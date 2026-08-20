@@ -1,0 +1,343 @@
+{
+  "schema_version": "brobot_approach_packet_v1",
+  "approach_id": "femoral_shaft_external_fixator_pin_locations",
+  "name": "External fixator pin locations in the femoral shaft",
+  "aliases": [
+    "femoral shaft Schanz screw safe corridors"
+  ],
+  "region": "femoral-shaft",
+  "joint": "",
+  "bones": [
+    "femur"
+  ],
+  "corridor": "Anterolateral and direct lateral half-pin corridors through vastus lateralis into the femoral diaphysis, keeping medial neurovascular structures protected by the muscular envelope",
+  "positioning": [
+    {
+      "text": "Position supine or lateral decubitus with the thigh accessible laterally and imaging available; lateral decubitus best exposes the shaft.",
+      "claim_ids": [
+        "femoral_shaft_external_fixator_pin_locations_positioning_01"
+      ]
+    }
+  ],
+  "setup": [],
+  "surface_landmarks": [
+    {
+      "text": "Palpate the tip of the greater trochanter and the lateral border of the femur down the thigh.",
+      "claim_ids": [
+        "femoral_shaft_external_fixator_pin_locations_surface_landmarks_01"
+      ]
+    }
+  ],
+  "incision": [
+    {
+      "text": "Make small lateral or anterolateral incisions over the chosen pin sites down to the iliotibial band and vastus lateralis.",
+      "claim_ids": [
+        "femoral_shaft_external_fixator_pin_locations_incision_01"
+      ]
+    }
+  ],
+  "superficial_interval": [
+    {
+      "text": "Split the fascia lata and pass through or lift vastus lateralis; there is no true internervous plane because this is an intramuscular corridor.",
+      "claim_ids": [
+        "femoral_shaft_external_fixator_pin_locations_superficial_interval_01"
+      ]
+    }
+  ],
+  "deep_interval": [
+    {
+      "text": "In the midshaft place anterolateral pins in the plane between vastus lateralis and rectus femoris, or direct lateral pins through vastus lateralis purchasing both cortices; proximally aim within the lateral face of the greater trochanter and distally use a direct lateral corridor.",
+      "claim_ids": [
+        "femoral_shaft_external_fixator_pin_locations_deep_interval_01"
+      ]
+    }
+  ],
+  "layers": [
+    {
+      "text": "Skin, subcutaneous tissue, iliotibial band and fascia lata, vastus lateralis, and the lateral femoral cortex.",
+      "claim_ids": [
+        "femoral_shaft_external_fixator_pin_locations_layers_01"
+      ]
+    }
+  ],
+  "structures_encountered": [],
+  "structures_at_risk": [
+    {
+      "text": "The perforating branches of the profunda femoris within vastus lateralis, the femoral vessels medially, and the sciatic nerve posteriorly are at risk; medial cortical perforation endangers the neurovascular structures.",
+      "claim_ids": [
+        "femoral_shaft_external_fixator_pin_locations_structures_at_risk_01"
+      ]
+    }
+  ],
+  "danger_zones": [
+    {
+      "text": "Medial cortical perforation and the posterolateral distal femur are danger zones; keep pins anterolateral to direct lateral and avoid a posterolateral distal exit.",
+      "claim_ids": [
+        "femoral_shaft_external_fixator_pin_locations_danger_zones_01"
+      ]
+    }
+  ],
+  "retraction_hazards": [
+    {
+      "text": "Ligate perforating branches of the profunda femoris that are encountered and avoid levering medially past the far cortex.",
+      "claim_ids": [
+        "femoral_shaft_external_fixator_pin_locations_retraction_hazards_01"
+      ]
+    }
+  ],
+  "exposure": [
+    {
+      "text": "Provides safe half-pin corridors along the femoral diaphysis rather than a formal open exposure.",
+      "claim_ids": [
+        "femoral_shaft_external_fixator_pin_locations_exposure_01"
+      ]
+    }
+  ],
+  "limitations": [
+    {
+      "text": "Avoid pins through crush injuries or extensively damaged soft tissue, plan sites for future conversion to nailing or plating, and keep the distal frame off the mattress.",
+      "claim_ids": [
+        "femoral_shaft_external_fixator_pin_locations_limitations_01"
+      ]
+    }
+  ],
+  "extensions": [],
+  "indications": [
+    {
+      "text": "Indicated for external fixator half-pin placement in the femoral shaft, commonly for damage-control stabilization.",
+      "claim_ids": [
+        "femoral_shaft_external_fixator_pin_locations_indications_01"
+      ]
+    }
+  ],
+  "relative_contraindications": [],
+  "implant_implications": [],
+  "fluoroscopy_implications": [],
+  "closure": [
+    {
+      "text": "Close each incision loosely around the pin and ensure hemostasis of any divided perforating vessels.",
+      "claim_ids": [
+        "femoral_shaft_external_fixator_pin_locations_closure_01"
+      ]
+    }
+  ],
+  "complications": [
+    {
+      "text": "Complications include hematoma from perforating vessel injury, neurovascular injury with medial perforation, and pin-tract infection.",
+      "claim_ids": [
+        "femoral_shaft_external_fixator_pin_locations_complications_01"
+      ]
+    }
+  ],
+  "bailouts": [],
+  "procedure_applications": [
+    {
+      "procedure_id": "femoral_shaft_fracture_orif",
+      "relationship": "conditional_option",
+      "condition": "A spanning external fixator is applied to the femur, for example in damage-control orthopedics before nailing"
+    }
+  ],
+  "questions": [
+    {
+      "question": "Which femoral corridors are safest for external fixator pins?",
+      "answer": "The anterolateral and direct lateral regions.",
+      "claim_ids": [
+        "femoral_shaft_external_fixator_pin_locations_questions_01"
+      ]
+    },
+    {
+      "question": "Why is the anterolateral-to-lateral femur considered safe for pins?",
+      "answer": "The major neurovascular structures lie medially, protected by the muscular envelope.",
+      "claim_ids": [
+        "femoral_shaft_external_fixator_pin_locations_questions_02"
+      ]
+    },
+    {
+      "question": "Which vessels are typically encountered and ligated during lateral vastus lateralis dissection?",
+      "answer": "The perforating branches of the profunda femoris artery.",
+      "claim_ids": [
+        "femoral_shaft_external_fixator_pin_locations_questions_03"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "femoral_shaft_external_fixator_pin_locations_positioning_01",
+      "text": "Position supine or lateral decubitus with the thigh accessible laterally and imaging available; lateral decubitus best exposes the shaft.",
+      "source_ids": [
+        "ao_d24605ca10a9a4e3",
+        "orthobullets_12024"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "femoral_shaft_external_fixator_pin_locations_surface_landmarks_01",
+      "text": "Palpate the tip of the greater trochanter and the lateral border of the femur down the thigh.",
+      "source_ids": [
+        "orthobullets_12024"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "femoral_shaft_external_fixator_pin_locations_incision_01",
+      "text": "Make small lateral or anterolateral incisions over the chosen pin sites down to the iliotibial band and vastus lateralis.",
+      "source_ids": [
+        "ao_d24605ca10a9a4e3",
+        "orthobullets_12024"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "femoral_shaft_external_fixator_pin_locations_superficial_interval_01",
+      "text": "Split the fascia lata and pass through or lift vastus lateralis; there is no true internervous plane because this is an intramuscular corridor.",
+      "source_ids": [
+        "orthobullets_12024"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "femoral_shaft_external_fixator_pin_locations_deep_interval_01",
+      "text": "In the midshaft place anterolateral pins in the plane between vastus lateralis and rectus femoris, or direct lateral pins through vastus lateralis purchasing both cortices; proximally aim within the lateral face of the greater trochanter and distally use a direct lateral corridor.",
+      "source_ids": [
+        "ao_d24605ca10a9a4e3"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "femoral_shaft_external_fixator_pin_locations_layers_01",
+      "text": "Skin, subcutaneous tissue, iliotibial band and fascia lata, vastus lateralis, and the lateral femoral cortex.",
+      "source_ids": [
+        "ao_d24605ca10a9a4e3",
+        "orthobullets_12024"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "femoral_shaft_external_fixator_pin_locations_structures_at_risk_01",
+      "text": "The perforating branches of the profunda femoris within vastus lateralis, the femoral vessels medially, and the sciatic nerve posteriorly are at risk; medial cortical perforation endangers the neurovascular structures.",
+      "source_ids": [
+        "ao_d24605ca10a9a4e3",
+        "orthobullets_12024"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "femoral_shaft_external_fixator_pin_locations_danger_zones_01",
+      "text": "Medial cortical perforation and the posterolateral distal femur are danger zones; keep pins anterolateral to direct lateral and avoid a posterolateral distal exit.",
+      "source_ids": [
+        "ao_d24605ca10a9a4e3"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "femoral_shaft_external_fixator_pin_locations_retraction_hazards_01",
+      "text": "Ligate perforating branches of the profunda femoris that are encountered and avoid levering medially past the far cortex.",
+      "source_ids": [
+        "ao_d24605ca10a9a4e3",
+        "orthobullets_12024"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "femoral_shaft_external_fixator_pin_locations_exposure_01",
+      "text": "Provides safe half-pin corridors along the femoral diaphysis rather than a formal open exposure.",
+      "source_ids": [
+        "ao_d24605ca10a9a4e3"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "femoral_shaft_external_fixator_pin_locations_limitations_01",
+      "text": "Avoid pins through crush injuries or extensively damaged soft tissue, plan sites for future conversion to nailing or plating, and keep the distal frame off the mattress.",
+      "source_ids": [
+        "ao_d24605ca10a9a4e3"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "femoral_shaft_external_fixator_pin_locations_indications_01",
+      "text": "Indicated for external fixator half-pin placement in the femoral shaft, commonly for damage-control stabilization.",
+      "source_ids": [
+        "ao_d24605ca10a9a4e3"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "femoral_shaft_external_fixator_pin_locations_closure_01",
+      "text": "Close each incision loosely around the pin and ensure hemostasis of any divided perforating vessels.",
+      "source_ids": [
+        "ao_d24605ca10a9a4e3",
+        "orthobullets_12024"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "femoral_shaft_external_fixator_pin_locations_complications_01",
+      "text": "Complications include hematoma from perforating vessel injury, neurovascular injury with medial perforation, and pin-tract infection.",
+      "source_ids": [
+        "ao_d24605ca10a9a4e3",
+        "orthobullets_12024"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "femoral_shaft_external_fixator_pin_locations_questions_01",
+      "text": "Which femoral corridors are safest for external fixator pins?",
+      "source_ids": [
+        "ao_d24605ca10a9a4e3"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "femoral_shaft_external_fixator_pin_locations_questions_02",
+      "text": "Why is the anterolateral-to-lateral femur considered safe for pins?",
+      "source_ids": [
+        "ao_d24605ca10a9a4e3"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "femoral_shaft_external_fixator_pin_locations_questions_03",
+      "text": "Which vessels are typically encountered and ligated during lateral vastus lateralis dissection?",
+      "source_ids": [
+        "ao_d24605ca10a9a4e3",
+        "orthobullets_12024"
+      ],
+      "risk_level": "medium"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "ao_d24605ca10a9a4e3",
+      "provider": "AO Surgery Reference",
+      "title": "Locations for pin placement (femoral shaft)",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/femoral-shaft/approach/locations-for-pin-placement",
+      "source_page_id": "ao_d24605ca10a9a4e3"
+    },
+    {
+      "source_id": "orthobullets_12024",
+      "provider": "Orthobullets",
+      "title": "Femur Lateral Approach",
+      "url": "https://www.orthobullets.com/approaches/12024/femur-lateral-approach"
+    }
+  ],
+  "content_status": "agent_review_pending",
+  "review": {
+    "status": "agent_review_pending",
+    "required_roles": [
+      "adversarial_safety_reviewer",
+      "approach_anatomy_reviewer",
+      "educational_value_reviewer",
+      "evidence_reviewer",
+      "operative_exposure_reviewer",
+      "procedure_applicability_reviewer"
+    ],
+    "completed_roles": []
+  },
+  "resolved_contradiction_keys": [],
+  "authoring_provenance": {
+    "method": "local_codex_curated",
+    "definition_file": "data/approach_library/curated/lower_ext_batch001_v1.json",
+    "api_used": false
+  }
+}

@@ -1,0 +1,353 @@
+{
+  "schema_version": "brobot_approach_packet_v1",
+  "approach_id": "tibial_shaft_anterolateral",
+  "name": "Anterolateral approach to the tibial shaft",
+  "aliases": [
+    "lateral tibial-crest approach"
+  ],
+  "region": "tibial-shaft",
+  "joint": "",
+  "bones": [
+    "tibia"
+  ],
+  "corridor": "Longitudinal incision 1–2 cm lateral to the tibial crest, fascia opened just off the crest, extraperiosteal elevation of anterior-compartment muscle from the lateral tibial surface",
+  "positioning": [
+    {
+      "text": "Position so the tibial crest, anterior compartment, and ankle can be seen. In children, mark both physes under image intensification before cutting.",
+      "claim_ids": [
+        "tibial_shaft_anterolateral_positioning_01"
+      ]
+    }
+  ],
+  "setup": [],
+  "surface_landmarks": [
+    {
+      "text": "Mark the tibial crest, tibialis-anterior line toward the ankle, and, in children, the proximal physis/tubercle apophysis and distal physis.",
+      "claim_ids": [
+        "tibial_shaft_anterolateral_surface_landmarks_01"
+      ]
+    }
+  ],
+  "incision": [
+    {
+      "text": "Make a longitudinal cut 1–2 cm lateral to the crest, continuing distally along tibialis anterior. Length follows the plate. Distal extension is useful for distal fractures but is crowded by anterior-compartment muscle and neurovascular structures.",
+      "claim_ids": [
+        "tibial_shaft_anterolateral_incision_01"
+      ]
+    }
+  ],
+  "superficial_interval": [
+    {
+      "text": "Incise fascia just lateral to the crest and stay extraperiosteal on the lateral tibial surface. Leave periosteum intact except at fracture edges if a direct reduction is needed. In children, do not strip periosteum broadly or compress or cut the perichondral ring.",
+      "claim_ids": [
+        "tibial_shaft_anterolateral_superficial_interval_01"
+      ]
+    }
+  ],
+  "deep_interval": [
+    {
+      "text": "Retract tibialis anterior only as far as the needed lateral surface. Near the junction of the middle and distal thirds, the anterior tibial artery and deep peroneal nerve meet the lateral tibia and then wrap obliquely anterior and distal; in the distal metaphysis they lie on periosteum under the myotendinous anterior-compartment muscles. If the cut enters the distal third, identify and mobilize that bundle with the muscle so a plate can pass to the distal tibia.",
+      "claim_ids": [
+        "tibial_shaft_anterolateral_deep_interval_01"
+      ]
+    }
+  ],
+  "layers": [
+    {
+      "text": "Skin, fascia just off the crest, anterior-compartment muscle, intact periosteum, then the lateral tibial surface.",
+      "claim_ids": [
+        "tibial_shaft_anterolateral_layers_01"
+      ]
+    }
+  ],
+  "structures_encountered": [],
+  "structures_at_risk": [
+    {
+      "text": "The anterior tibial artery and deep peroneal nerve in the distal third, anterior-compartment muscle blood supply, periosteum, and in children the physes, tubercle apophysis, and perichondral rings are at risk.",
+      "claim_ids": [
+        "tibial_shaft_anterolateral_structures_at_risk_01"
+      ]
+    }
+  ],
+  "danger_zones": [
+    {
+      "text": "Unidentified distal-third neurovascular bundle, closing fascia over a swollen anterior compartment, and in children periosteal or perichondral injury at either physis are the danger zones.",
+      "claim_ids": [
+        "tibial_shaft_anterolateral_danger_zones_01"
+      ]
+    }
+  ],
+  "retraction_hazards": [
+    {
+      "text": "Limit tibialis-anterior retraction to the essential lateral surface; this window mobilizes anterior-compartment muscle and reduces tibial blood supply compared with a medial subcutaneous plate.",
+      "claim_ids": [
+        "tibial_shaft_anterolateral_retraction_hazards_01"
+      ]
+    }
+  ],
+  "exposure": [
+    {
+      "text": "Used when medial skin is compromised, including an open wound over a planned medial plate. Distal extension can reach the ankle if the bundle is mobilized.",
+      "claim_ids": [
+        "tibial_shaft_anterolateral_exposure_01"
+      ]
+    }
+  ],
+  "limitations": [
+    {
+      "text": "Muscle mobilization compromises tibial blood supply. The window is less often used in children and is crowded distally.",
+      "claim_ids": [
+        "tibial_shaft_anterolateral_limitations_01"
+      ]
+    }
+  ],
+  "extensions": [],
+  "indications": [
+    {
+      "text": "Indicated when medial soft tissues cannot host a plate, including open fractures with a medial wound.",
+      "claim_ids": [
+        "tibial_shaft_anterolateral_indications_01"
+      ]
+    }
+  ],
+  "relative_contraindications": [],
+  "implant_implications": [],
+  "fluoroscopy_implications": [],
+  "closure": [
+    {
+      "text": "Close only skin and subcutaneous tissue. Leave fascia open to reduce compartment-syndrome risk.",
+      "claim_ids": [
+        "tibial_shaft_anterolateral_closure_01"
+      ]
+    }
+  ],
+  "complications": [
+    {
+      "text": "Complications include anterior-compartment syndrome if fascia is closed, deep-peroneal or anterior-tibial injury in the distal third, and in children physeal or apophyseal injury.",
+      "claim_ids": [
+        "tibial_shaft_anterolateral_complications_01"
+      ]
+    }
+  ],
+  "bailouts": [],
+  "procedure_applications": [
+    {
+      "procedure_id": "tibial_shaft_fracture_orif",
+      "relationship": "primary_option",
+      "condition": "A tibial shaft is plated on the lateral surface because the medial skin is open or compromised"
+    }
+  ],
+  "questions": [
+    {
+      "question": "Where is the anterolateral tibial-shaft incision placed?",
+      "answer": "1–2 cm lateral to the tibial crest, continuing along tibialis anterior toward the ankle.",
+      "claim_ids": [
+        "tibial_shaft_anterolateral_questions_01"
+      ]
+    },
+    {
+      "question": "Where do the anterior tibial artery and deep peroneal nerve meet the lateral tibia?",
+      "answer": "Near the junction of the middle and distal thirds, then wrapping obliquely onto periosteum in the distal metaphysis.",
+      "claim_ids": [
+        "tibial_shaft_anterolateral_questions_02"
+      ]
+    },
+    {
+      "question": "Should fascia be closed?",
+      "answer": "No; leave fascia open and close only skin and subcutaneous tissue to reduce compartment-syndrome risk.",
+      "claim_ids": [
+        "tibial_shaft_anterolateral_questions_03"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "tibial_shaft_anterolateral_positioning_01",
+      "text": "Position so the tibial crest, anterior compartment, and ankle can be seen. In children, mark both physes under image intensification before cutting.",
+      "source_ids": [
+        "ao_848a8863635c9bb3",
+        "ao_8b3f7de3eaca8580"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "tibial_shaft_anterolateral_surface_landmarks_01",
+      "text": "Mark the tibial crest, tibialis-anterior line toward the ankle, and, in children, the proximal physis/tubercle apophysis and distal physis.",
+      "source_ids": [
+        "ao_848a8863635c9bb3",
+        "ao_8b3f7de3eaca8580"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "tibial_shaft_anterolateral_incision_01",
+      "text": "Make a longitudinal cut 1–2 cm lateral to the crest, continuing distally along tibialis anterior. Length follows the plate. Distal extension is useful for distal fractures but is crowded by anterior-compartment muscle and neurovascular structures.",
+      "source_ids": [
+        "ao_848a8863635c9bb3",
+        "ao_8b3f7de3eaca8580"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "tibial_shaft_anterolateral_superficial_interval_01",
+      "text": "Incise fascia just lateral to the crest and stay extraperiosteal on the lateral tibial surface. Leave periosteum intact except at fracture edges if a direct reduction is needed. In children, do not strip periosteum broadly or compress or cut the perichondral ring.",
+      "source_ids": [
+        "ao_848a8863635c9bb3",
+        "ao_8b3f7de3eaca8580"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "tibial_shaft_anterolateral_deep_interval_01",
+      "text": "Retract tibialis anterior only as far as the needed lateral surface. Near the junction of the middle and distal thirds, the anterior tibial artery and deep peroneal nerve meet the lateral tibia and then wrap obliquely anterior and distal; in the distal metaphysis they lie on periosteum under the myotendinous anterior-compartment muscles. If the cut enters the distal third, identify and mobilize that bundle with the muscle so a plate can pass to the distal tibia.",
+      "source_ids": [
+        "ao_848a8863635c9bb3",
+        "ao_8b3f7de3eaca8580"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "tibial_shaft_anterolateral_layers_01",
+      "text": "Skin, fascia just off the crest, anterior-compartment muscle, intact periosteum, then the lateral tibial surface.",
+      "source_ids": [
+        "ao_848a8863635c9bb3",
+        "ao_8b3f7de3eaca8580"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "tibial_shaft_anterolateral_structures_at_risk_01",
+      "text": "The anterior tibial artery and deep peroneal nerve in the distal third, anterior-compartment muscle blood supply, periosteum, and in children the physes, tubercle apophysis, and perichondral rings are at risk.",
+      "source_ids": [
+        "ao_848a8863635c9bb3",
+        "ao_8b3f7de3eaca8580"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "tibial_shaft_anterolateral_danger_zones_01",
+      "text": "Unidentified distal-third neurovascular bundle, closing fascia over a swollen anterior compartment, and in children periosteal or perichondral injury at either physis are the danger zones.",
+      "source_ids": [
+        "ao_848a8863635c9bb3",
+        "ao_8b3f7de3eaca8580"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "tibial_shaft_anterolateral_retraction_hazards_01",
+      "text": "Limit tibialis-anterior retraction to the essential lateral surface; this window mobilizes anterior-compartment muscle and reduces tibial blood supply compared with a medial subcutaneous plate.",
+      "source_ids": [
+        "ao_848a8863635c9bb3",
+        "ao_8b3f7de3eaca8580"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "tibial_shaft_anterolateral_exposure_01",
+      "text": "Used when medial skin is compromised, including an open wound over a planned medial plate. Distal extension can reach the ankle if the bundle is mobilized.",
+      "source_ids": [
+        "ao_848a8863635c9bb3",
+        "ao_8b3f7de3eaca8580"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "tibial_shaft_anterolateral_limitations_01",
+      "text": "Muscle mobilization compromises tibial blood supply. The window is less often used in children and is crowded distally.",
+      "source_ids": [
+        "ao_848a8863635c9bb3",
+        "ao_8b3f7de3eaca8580"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "tibial_shaft_anterolateral_indications_01",
+      "text": "Indicated when medial soft tissues cannot host a plate, including open fractures with a medial wound.",
+      "source_ids": [
+        "ao_848a8863635c9bb3",
+        "ao_8b3f7de3eaca8580"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "tibial_shaft_anterolateral_closure_01",
+      "text": "Close only skin and subcutaneous tissue. Leave fascia open to reduce compartment-syndrome risk.",
+      "source_ids": [
+        "ao_848a8863635c9bb3",
+        "ao_8b3f7de3eaca8580"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "tibial_shaft_anterolateral_complications_01",
+      "text": "Complications include anterior-compartment syndrome if fascia is closed, deep-peroneal or anterior-tibial injury in the distal third, and in children physeal or apophyseal injury.",
+      "source_ids": [
+        "ao_848a8863635c9bb3",
+        "ao_8b3f7de3eaca8580"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "tibial_shaft_anterolateral_questions_01",
+      "text": "Where is the anterolateral tibial-shaft incision placed?",
+      "source_ids": [
+        "ao_848a8863635c9bb3",
+        "ao_8b3f7de3eaca8580"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "tibial_shaft_anterolateral_questions_02",
+      "text": "Where do the anterior tibial artery and deep peroneal nerve meet the lateral tibia?",
+      "source_ids": [
+        "ao_848a8863635c9bb3",
+        "ao_8b3f7de3eaca8580"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "tibial_shaft_anterolateral_questions_03",
+      "text": "Should fascia be closed?",
+      "source_ids": [
+        "ao_848a8863635c9bb3",
+        "ao_8b3f7de3eaca8580"
+      ],
+      "risk_level": "medium"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "ao_848a8863635c9bb3",
+      "provider": "AO Surgery Reference",
+      "title": "Approach To Anterolateral Surface Of Tibial Shaft",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/tibial-shaft/approach/approach-to-anterolateral-surface-of-tibial-shaft",
+      "source_page_id": "ao_848a8863635c9bb3"
+    },
+    {
+      "source_id": "ao_8b3f7de3eaca8580",
+      "provider": "AO Surgery Reference",
+      "title": "Approach To Anterolateral Tibial Surface",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/pediatric-trauma/tibial-shaft/approach/approach-to-anterolateral-tibial-surface",
+      "source_page_id": "ao_8b3f7de3eaca8580"
+    }
+  ],
+  "content_status": "agent_review_pending",
+  "review": {
+    "status": "agent_review_pending",
+    "required_roles": [
+      "adversarial_safety_reviewer",
+      "approach_anatomy_reviewer",
+      "educational_value_reviewer",
+      "evidence_reviewer",
+      "operative_exposure_reviewer",
+      "procedure_applicability_reviewer"
+    ],
+    "completed_roles": []
+  },
+  "resolved_contradiction_keys": [],
+  "authoring_provenance": {
+    "method": "local_codex_curated",
+    "definition_file": "data/approach_library/curated/tibial_shaft_batch001_v1.json",
+    "api_used": false
+  }
+}

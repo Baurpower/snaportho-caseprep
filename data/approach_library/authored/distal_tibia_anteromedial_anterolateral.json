@@ -1,0 +1,352 @@
+{
+  "schema_version": "brobot_approach_packet_v1",
+  "approach_id": "distal_tibia_anteromedial_anterolateral",
+  "name": "Anteromedial and anterolateral approaches to the distal tibia",
+  "aliases": [
+    "pilon anterior approaches",
+    "distal tibia anterolateral approach"
+  ],
+  "region": "distal-tibia",
+  "joint": "ankle",
+  "bones": [
+    "tibia"
+  ],
+  "corridor": "Anterior exposures of the distal tibia: an anteromedial window medial to tibialis anterior over the medial plafond, or an anterolateral window between the anterior and lateral compartments protecting the superficial peroneal nerve, chosen by fracture pattern and soft-tissue condition",
+  "positioning": [
+    {
+      "text": "Position supine on a radiolucent table with the leg supported; the anterolateral exposure can also be performed semi-lateral, and fluoroscopy must be available.",
+      "claim_ids": [
+        "distal_tibia_anteromedial_anterolateral_positioning_01"
+      ]
+    }
+  ],
+  "setup": [],
+  "surface_landmarks": [
+    {
+      "text": "Mark the tibialis anterior tendon, the medial malleolus and plafond for the anteromedial window, and a line toward the fourth ray just lateral to the tibial crest for the anterolateral window.",
+      "claim_ids": [
+        "distal_tibia_anteromedial_anterolateral_surface_landmarks_01"
+      ]
+    }
+  ],
+  "incision": [
+    {
+      "text": "Place the anteromedial incision just medial to the tibialis anterior tendon over the distal tibia, or the anterolateral incision in line with the fourth ray lateral to the crest; when both anteromedial and anterolateral work are combined, preserve an adequate skin bridge.",
+      "claim_ids": [
+        "distal_tibia_anteromedial_anterolateral_incision_01"
+      ]
+    }
+  ],
+  "superficial_interval": [
+    {
+      "text": "For the anterolateral approach identify and protect the superficial peroneal nerve, then incise the extensor retinaculum lateral to the tendons; for the anteromedial approach stay medial to tibialis anterior over the bone.",
+      "claim_ids": [
+        "distal_tibia_anteromedial_anterolateral_superficial_interval_01"
+      ]
+    }
+  ],
+  "deep_interval": [
+    {
+      "text": "Elevate the anterior compartment extensor musculature medially off the interosseous membrane and anterior tibia, keeping the anterior tibial artery and deep peroneal nerve protected on the surface of the membrane.",
+      "claim_ids": [
+        "distal_tibia_anteromedial_anterolateral_deep_interval_01"
+      ]
+    }
+  ],
+  "layers": [
+    {
+      "text": "Skin, subcutaneous tissue with cutaneous nerves, extensor retinaculum, the anterior compartment tendons and neurovascular bundle, and the distal tibia.",
+      "claim_ids": [
+        "distal_tibia_anteromedial_anterolateral_layers_01"
+      ]
+    }
+  ],
+  "structures_encountered": [],
+  "structures_at_risk": [
+    {
+      "text": "The superficial peroneal nerve (anterolateral), the saphenous vein and nerve (anteromedial), and the anterior tibial artery with the deep peroneal nerve are at risk.",
+      "claim_ids": [
+        "distal_tibia_anteromedial_anterolateral_structures_at_risk_01"
+      ]
+    }
+  ],
+  "danger_zones": [
+    {
+      "text": "The anterior neurovascular bundle over the distal tibia is the danger zone; percutaneous work here is dangerous and dissection should be done under direct vision with small retractors.",
+      "claim_ids": [
+        "distal_tibia_anteromedial_anterolateral_danger_zones_01"
+      ]
+    }
+  ],
+  "retraction_hazards": [
+    {
+      "text": "Use small retractors and avoid forceful traction on the fragile anterior skin and on the superficial peroneal nerve.",
+      "claim_ids": [
+        "distal_tibia_anteromedial_anterolateral_retraction_hazards_01"
+      ]
+    }
+  ],
+  "exposure": [
+    {
+      "text": "Exposes the anterior plafond and metaphysis of the distal tibia for articular reduction and plating.",
+      "claim_ids": [
+        "distal_tibia_anteromedial_anterolateral_exposure_01"
+      ]
+    }
+  ],
+  "limitations": [
+    {
+      "text": "Approach choice is dictated by fragment location, open-wound position, and metaphyseal comminution; the anterolateral window gives limited exposure and fragile anterior skin constrains timing.",
+      "claim_ids": [
+        "distal_tibia_anteromedial_anterolateral_limitations_01"
+      ]
+    }
+  ],
+  "extensions": [],
+  "indications": [
+    {
+      "text": "Indicated for open reduction and internal fixation of tibial pilon fractures approached anteriorly, with the specific window chosen by fragment and soft-tissue factors.",
+      "claim_ids": [
+        "distal_tibia_anteromedial_anterolateral_indications_01"
+      ]
+    }
+  ],
+  "relative_contraindications": [],
+  "implant_implications": [],
+  "fluoroscopy_implications": [],
+  "closure": [
+    {
+      "text": "Repair the extensor retinaculum, achieve tension-free skin closure to protect the anterior soft-tissue envelope, and delay surgery until swelling allows safe closure.",
+      "claim_ids": [
+        "distal_tibia_anteromedial_anterolateral_closure_01"
+      ]
+    }
+  ],
+  "complications": [
+    {
+      "text": "Complications include anterior wound breakdown, superficial peroneal nerve injury with dorsal foot numbness, and anterior tibial neurovascular injury.",
+      "claim_ids": [
+        "distal_tibia_anteromedial_anterolateral_complications_01"
+      ]
+    }
+  ],
+  "bailouts": [],
+  "procedure_applications": [
+    {
+      "procedure_id": "pilon_ankle_fracture_orif",
+      "relationship": "primary_option",
+      "condition": "A tibial pilon fracture is best approached anteriorly, with anteromedial or anterolateral chosen by fragment location and soft-tissue status"
+    }
+  ],
+  "questions": [
+    {
+      "question": "What most influences the choice between anteromedial and anterolateral approaches to the pilon?",
+      "answer": "Fragment location, the position of any open wound, and the metaphyseal comminution pattern.",
+      "claim_ids": [
+        "distal_tibia_anteromedial_anterolateral_questions_01"
+      ]
+    },
+    {
+      "question": "Which nerve is protected first in the anterolateral distal tibia approach?",
+      "answer": "The superficial peroneal nerve.",
+      "claim_ids": [
+        "distal_tibia_anteromedial_anterolateral_questions_02"
+      ]
+    },
+    {
+      "question": "Why is percutaneous work over the distal anterior tibia dangerous?",
+      "answer": "Because the anterior tibial artery and deep peroneal nerve lie there.",
+      "claim_ids": [
+        "distal_tibia_anteromedial_anterolateral_questions_03"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "distal_tibia_anteromedial_anterolateral_positioning_01",
+      "text": "Position supine on a radiolucent table with the leg supported; the anterolateral exposure can also be performed semi-lateral, and fluoroscopy must be available.",
+      "source_ids": [
+        "orthobullets_12034"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "distal_tibia_anteromedial_anterolateral_surface_landmarks_01",
+      "text": "Mark the tibialis anterior tendon, the medial malleolus and plafond for the anteromedial window, and a line toward the fourth ray just lateral to the tibial crest for the anterolateral window.",
+      "source_ids": [
+        "orthobullets_12034"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "distal_tibia_anteromedial_anterolateral_incision_01",
+      "text": "Place the anteromedial incision just medial to the tibialis anterior tendon over the distal tibia, or the anterolateral incision in line with the fourth ray lateral to the crest; when both anteromedial and anterolateral work are combined, preserve an adequate skin bridge.",
+      "source_ids": [
+        "ao_c77d79658acc100c",
+        "orthobullets_12034"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "distal_tibia_anteromedial_anterolateral_superficial_interval_01",
+      "text": "For the anterolateral approach identify and protect the superficial peroneal nerve, then incise the extensor retinaculum lateral to the tendons; for the anteromedial approach stay medial to tibialis anterior over the bone.",
+      "source_ids": [
+        "orthobullets_12034"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "distal_tibia_anteromedial_anterolateral_deep_interval_01",
+      "text": "Elevate the anterior compartment extensor musculature medially off the interosseous membrane and anterior tibia, keeping the anterior tibial artery and deep peroneal nerve protected on the surface of the membrane.",
+      "source_ids": [
+        "orthobullets_12034",
+        "ao_e853cb1071acace7"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "distal_tibia_anteromedial_anterolateral_layers_01",
+      "text": "Skin, subcutaneous tissue with cutaneous nerves, extensor retinaculum, the anterior compartment tendons and neurovascular bundle, and the distal tibia.",
+      "source_ids": [
+        "orthobullets_12034"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "distal_tibia_anteromedial_anterolateral_structures_at_risk_01",
+      "text": "The superficial peroneal nerve (anterolateral), the saphenous vein and nerve (anteromedial), and the anterior tibial artery with the deep peroneal nerve are at risk.",
+      "source_ids": [
+        "orthobullets_12034",
+        "ao_e853cb1071acace7"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "distal_tibia_anteromedial_anterolateral_danger_zones_01",
+      "text": "The anterior neurovascular bundle over the distal tibia is the danger zone; percutaneous work here is dangerous and dissection should be done under direct vision with small retractors.",
+      "source_ids": [
+        "ao_e853cb1071acace7",
+        "orthobullets_12034"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "distal_tibia_anteromedial_anterolateral_retraction_hazards_01",
+      "text": "Use small retractors and avoid forceful traction on the fragile anterior skin and on the superficial peroneal nerve.",
+      "source_ids": [
+        "ao_e853cb1071acace7",
+        "orthobullets_12034"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "distal_tibia_anteromedial_anterolateral_exposure_01",
+      "text": "Exposes the anterior plafond and metaphysis of the distal tibia for articular reduction and plating.",
+      "source_ids": [
+        "ao_c77d79658acc100c",
+        "orthobullets_12034"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "distal_tibia_anteromedial_anterolateral_limitations_01",
+      "text": "Approach choice is dictated by fragment location, open-wound position, and metaphyseal comminution; the anterolateral window gives limited exposure and fragile anterior skin constrains timing.",
+      "source_ids": [
+        "ao_c77d79658acc100c",
+        "orthobullets_12034"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "distal_tibia_anteromedial_anterolateral_indications_01",
+      "text": "Indicated for open reduction and internal fixation of tibial pilon fractures approached anteriorly, with the specific window chosen by fragment and soft-tissue factors.",
+      "source_ids": [
+        "ao_c77d79658acc100c"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "distal_tibia_anteromedial_anterolateral_closure_01",
+      "text": "Repair the extensor retinaculum, achieve tension-free skin closure to protect the anterior soft-tissue envelope, and delay surgery until swelling allows safe closure.",
+      "source_ids": [
+        "orthobullets_12034",
+        "ao_c77d79658acc100c"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "distal_tibia_anteromedial_anterolateral_complications_01",
+      "text": "Complications include anterior wound breakdown, superficial peroneal nerve injury with dorsal foot numbness, and anterior tibial neurovascular injury.",
+      "source_ids": [
+        "orthobullets_12034",
+        "ao_e853cb1071acace7"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "distal_tibia_anteromedial_anterolateral_questions_01",
+      "text": "What most influences the choice between anteromedial and anterolateral approaches to the pilon?",
+      "source_ids": [
+        "ao_c77d79658acc100c"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "distal_tibia_anteromedial_anterolateral_questions_02",
+      "text": "Which nerve is protected first in the anterolateral distal tibia approach?",
+      "source_ids": [
+        "orthobullets_12034"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "distal_tibia_anteromedial_anterolateral_questions_03",
+      "text": "Why is percutaneous work over the distal anterior tibia dangerous?",
+      "source_ids": [
+        "ao_e853cb1071acace7"
+      ],
+      "risk_level": "medium"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "ao_c77d79658acc100c",
+      "provider": "AO Surgery Reference",
+      "title": "Anteromedial or anterolateral approach (distal tibia)",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/distal-tibia/approach/anteromedial-or-anterolateral-approach",
+      "source_page_id": "ao_c77d79658acc100c"
+    },
+    {
+      "source_id": "orthobullets_12034",
+      "provider": "Orthobullets",
+      "title": "Anterolateral Approach to Tibia",
+      "url": "https://www.orthobullets.com/approaches/12034/anterolateral-approach-to-tibia"
+    },
+    {
+      "source_id": "ao_e853cb1071acace7",
+      "provider": "AO Surgery Reference",
+      "title": "Safe zones (distal tibia)",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/distal-tibia/approach/safe-zones",
+      "source_page_id": "ao_e853cb1071acace7"
+    }
+  ],
+  "content_status": "agent_review_pending",
+  "review": {
+    "status": "agent_review_pending",
+    "required_roles": [
+      "adversarial_safety_reviewer",
+      "approach_anatomy_reviewer",
+      "educational_value_reviewer",
+      "evidence_reviewer",
+      "operative_exposure_reviewer",
+      "procedure_applicability_reviewer"
+    ],
+    "completed_roles": []
+  },
+  "resolved_contradiction_keys": [],
+  "authoring_provenance": {
+    "method": "local_codex_curated",
+    "definition_file": "data/approach_library/curated/lower_ext_batch001_v1.json",
+    "api_used": false
+  }
+}

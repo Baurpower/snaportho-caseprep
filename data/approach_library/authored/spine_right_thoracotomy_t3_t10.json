@@ -1,0 +1,356 @@
+{
+  "schema_version": "brobot_approach_packet_v1",
+  "approach_id": "spine_right_thoracotomy_t3_t10",
+  "name": "Right-sided thoracotomy (T3–T10)",
+  "aliases": [
+    "right thoracic approach to the spine"
+  ],
+  "region": "thoracolumbar",
+  "joint": "",
+  "bones": [
+    "thoracic vertebrae"
+  ],
+  "corridor": "Mirror of the left thoracotomy: oblique cut around the scapular angle two levels above the target, rib exposure or resection, pleural entry, lung retracted anteriorly",
+  "positioning": [
+    {
+      "text": "Position for a right chest approach with single-lung ventilation available and fluoroscopy to confirm the level.",
+      "claim_ids": [
+        "spine_right_thoracotomy_t3_t10_positioning_01"
+      ]
+    }
+  ],
+  "setup": [],
+  "surface_landmarks": [
+    {
+      "text": "Mark the scapular angle and the rib two levels above the target. Above T5, place the cut 2 cm below the scapular tip so the scapula can be released and lifted.",
+      "claim_ids": [
+        "spine_right_thoracotomy_t3_t10_surface_landmarks_01"
+      ]
+    }
+  ],
+  "incision": [
+    {
+      "text": "Incise from posterosuperior around the scapular angle, sloping obliquely anteroinferior, high enough for the level above and low enough for the level below.",
+      "claim_ids": [
+        "spine_right_thoracotomy_t3_t10_incision_01"
+      ]
+    }
+  ],
+  "superficial_interval": [
+    {
+      "text": "Incise skin, fat, and muscle to the rib. If a rib is removed, take it subperiosteally while sparing the caudal neurovascular bundle and save it for graft.",
+      "claim_ids": [
+        "spine_right_thoracotomy_t3_t10_superficial_interval_01"
+      ]
+    }
+  ],
+  "deep_interval": [
+    {
+      "text": "Open pleura without injuring lung, spread the rib space, retract lung anteriorly with ipsilateral collapse if possible, and use a table-mounted retractor for lung and vessels. The remaining pleural and segmental-vessel steps match the left thoracotomy.",
+      "claim_ids": [
+        "spine_right_thoracotomy_t3_t10_deep_interval_01"
+      ]
+    }
+  ],
+  "layers": [
+    {
+      "text": "Skin, chest-wall muscle, rib or intercostal space, pleura, lung, then the right side of the thoracic vertebral column.",
+      "claim_ids": [
+        "spine_right_thoracotomy_t3_t10_layers_01"
+      ]
+    }
+  ],
+  "structures_encountered": [],
+  "structures_at_risk": [
+    {
+      "text": "Lung, intercostal neurovascular bundle, and mediastinal vessels are at risk, as on the left.",
+      "claim_ids": [
+        "spine_right_thoracotomy_t3_t10_structures_at_risk_01"
+      ]
+    }
+  ],
+  "danger_zones": [
+    {
+      "text": "Rib harvest off the caudal bundle and pleural entry into lung are the local danger zones.",
+      "claim_ids": [
+        "spine_right_thoracotomy_t3_t10_danger_zones_01"
+      ]
+    }
+  ],
+  "retraction_hazards": [
+    {
+      "text": "Retract lung and vessels with a table-mounted system rather than levering on mediastinal structures.",
+      "claim_ids": [
+        "spine_right_thoracotomy_t3_t10_retraction_hazards_01"
+      ]
+    }
+  ],
+  "exposure": [
+    {
+      "text": "Shows T3–T10 from the right chest.",
+      "claim_ids": [
+        "spine_right_thoracotomy_t3_t10_exposure_01"
+      ]
+    }
+  ],
+  "limitations": [
+    {
+      "text": "The published right-sided window is described to T10, not through the diaphragm to L1/2.",
+      "claim_ids": [
+        "spine_right_thoracotomy_t3_t10_limitations_01"
+      ]
+    }
+  ],
+  "extensions": [],
+  "indications": [
+    {
+      "text": "Used for right-sided anterior thoracic access from T3 to T10.",
+      "claim_ids": [
+        "spine_right_thoracotomy_t3_t10_indications_01"
+      ]
+    }
+  ],
+  "relative_contraindications": [],
+  "implant_implications": [],
+  "fluoroscopy_implications": [],
+  "closure": [
+    {
+      "text": "Close the chest wall after lung re-expansion; pleural repair follows the same principles as the left thoracotomy.",
+      "claim_ids": [
+        "spine_right_thoracotomy_t3_t10_closure_01"
+      ]
+    }
+  ],
+  "complications": [
+    {
+      "text": "Complications include lung injury, intercostal-bundle injury, and mediastinal vascular injury.",
+      "claim_ids": [
+        "spine_right_thoracotomy_t3_t10_complications_01"
+      ]
+    }
+  ],
+  "bailouts": [],
+  "procedure_applications": [
+    {
+      "procedure_id": "thoracolumbar_fracture_orif",
+      "relationship": "primary_option",
+      "condition": "An anterior thoracic reconstruction from T3 to T10 is done through a right chest"
+    }
+  ],
+  "questions": [
+    {
+      "question": "How does the right thoracotomy incision compare with the left?",
+      "answer": "It is the same oblique scapular-angle cut, planned two levels above the target, with the same above-T5 scapular modification.",
+      "claim_ids": [
+        "spine_right_thoracotomy_t3_t10_questions_01"
+      ]
+    },
+    {
+      "question": "To which distal level is the right thoracotomy described?",
+      "answer": "T10.",
+      "claim_ids": [
+        "spine_right_thoracotomy_t3_t10_questions_02"
+      ]
+    },
+    {
+      "question": "What ventilation setup is preferred?",
+      "answer": "Single-lung ventilation with selective collapse of the ipsilateral lung.",
+      "claim_ids": [
+        "spine_right_thoracotomy_t3_t10_questions_03"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "spine_right_thoracotomy_t3_t10_positioning_01",
+      "text": "Position for a right chest approach with single-lung ventilation available and fluoroscopy to confirm the level.",
+      "source_ids": [
+        "ao_6c7131bc117e21d2",
+        "ao_4841477a90588746"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "spine_right_thoracotomy_t3_t10_surface_landmarks_01",
+      "text": "Mark the scapular angle and the rib two levels above the target. Above T5, place the cut 2 cm below the scapular tip so the scapula can be released and lifted.",
+      "source_ids": [
+        "ao_6c7131bc117e21d2",
+        "ao_4841477a90588746"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "spine_right_thoracotomy_t3_t10_incision_01",
+      "text": "Incise from posterosuperior around the scapular angle, sloping obliquely anteroinferior, high enough for the level above and low enough for the level below.",
+      "source_ids": [
+        "ao_6c7131bc117e21d2",
+        "ao_4841477a90588746"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "spine_right_thoracotomy_t3_t10_superficial_interval_01",
+      "text": "Incise skin, fat, and muscle to the rib. If a rib is removed, take it subperiosteally while sparing the caudal neurovascular bundle and save it for graft.",
+      "source_ids": [
+        "ao_6c7131bc117e21d2",
+        "ao_4841477a90588746"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "spine_right_thoracotomy_t3_t10_deep_interval_01",
+      "text": "Open pleura without injuring lung, spread the rib space, retract lung anteriorly with ipsilateral collapse if possible, and use a table-mounted retractor for lung and vessels. The remaining pleural and segmental-vessel steps match the left thoracotomy.",
+      "source_ids": [
+        "ao_6c7131bc117e21d2",
+        "ao_4841477a90588746"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "spine_right_thoracotomy_t3_t10_layers_01",
+      "text": "Skin, chest-wall muscle, rib or intercostal space, pleura, lung, then the right side of the thoracic vertebral column.",
+      "source_ids": [
+        "ao_6c7131bc117e21d2",
+        "ao_4841477a90588746"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "spine_right_thoracotomy_t3_t10_structures_at_risk_01",
+      "text": "Lung, intercostal neurovascular bundle, and mediastinal vessels are at risk, as on the left.",
+      "source_ids": [
+        "ao_6c7131bc117e21d2",
+        "ao_4841477a90588746"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "spine_right_thoracotomy_t3_t10_danger_zones_01",
+      "text": "Rib harvest off the caudal bundle and pleural entry into lung are the local danger zones.",
+      "source_ids": [
+        "ao_6c7131bc117e21d2",
+        "ao_4841477a90588746"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "spine_right_thoracotomy_t3_t10_retraction_hazards_01",
+      "text": "Retract lung and vessels with a table-mounted system rather than levering on mediastinal structures.",
+      "source_ids": [
+        "ao_6c7131bc117e21d2",
+        "ao_4841477a90588746"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "spine_right_thoracotomy_t3_t10_exposure_01",
+      "text": "Shows T3–T10 from the right chest.",
+      "source_ids": [
+        "ao_6c7131bc117e21d2"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "spine_right_thoracotomy_t3_t10_limitations_01",
+      "text": "The published right-sided window is described to T10, not through the diaphragm to L1/2.",
+      "source_ids": [
+        "ao_6c7131bc117e21d2"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "spine_right_thoracotomy_t3_t10_indications_01",
+      "text": "Used for right-sided anterior thoracic access from T3 to T10.",
+      "source_ids": [
+        "ao_6c7131bc117e21d2"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "spine_right_thoracotomy_t3_t10_closure_01",
+      "text": "Close the chest wall after lung re-expansion; pleural repair follows the same principles as the left thoracotomy.",
+      "source_ids": [
+        "ao_6c7131bc117e21d2",
+        "ao_4841477a90588746"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "spine_right_thoracotomy_t3_t10_complications_01",
+      "text": "Complications include lung injury, intercostal-bundle injury, and mediastinal vascular injury.",
+      "source_ids": [
+        "ao_6c7131bc117e21d2",
+        "ao_4841477a90588746"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "spine_right_thoracotomy_t3_t10_questions_01",
+      "text": "How does the right thoracotomy incision compare with the left?",
+      "source_ids": [
+        "ao_6c7131bc117e21d2",
+        "ao_4841477a90588746"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "spine_right_thoracotomy_t3_t10_questions_02",
+      "text": "To which distal level is the right thoracotomy described?",
+      "source_ids": [
+        "ao_6c7131bc117e21d2"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "spine_right_thoracotomy_t3_t10_questions_03",
+      "text": "What ventilation setup is preferred?",
+      "source_ids": [
+        "ao_6c7131bc117e21d2",
+        "ao_4841477a90588746"
+      ],
+      "risk_level": "medium"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "ao_6c7131bc117e21d2",
+      "provider": "AO Surgery Reference",
+      "title": "Right Sided Thoracotomy T3 T10",
+      "url": "https://surgeryreference.aofoundation.org/spine/trauma/thoracolumbar/approach/right-sided-thoracotomy-t3-t10",
+      "source_page_id": "ao_6c7131bc117e21d2"
+    },
+    {
+      "source_id": "ao_3e11b6b2809b4ca5",
+      "provider": "AO Surgery Reference",
+      "title": "Right Sided Thoracotomy T3 T10",
+      "url": "https://surgeryreference.aofoundation.org/spine/tumors/metastatic-tumors/approach/right-sided-thoracotomy-t3-t10",
+      "source_page_id": "ao_3e11b6b2809b4ca5"
+    },
+    {
+      "source_id": "ao_4841477a90588746",
+      "provider": "AO Surgery Reference",
+      "title": "Left Sided Thoracotomy T3 L12",
+      "url": "https://surgeryreference.aofoundation.org/spine/trauma/thoracolumbar/approach/left-sided-thoracotomy-t3-l12",
+      "source_page_id": "ao_4841477a90588746"
+    }
+  ],
+  "content_status": "agent_review_pending",
+  "review": {
+    "status": "agent_review_pending",
+    "required_roles": [
+      "adversarial_safety_reviewer",
+      "approach_anatomy_reviewer",
+      "educational_value_reviewer",
+      "evidence_reviewer",
+      "operative_exposure_reviewer",
+      "procedure_applicability_reviewer"
+    ],
+    "completed_roles": []
+  },
+  "resolved_contradiction_keys": [],
+  "authoring_provenance": {
+    "method": "local_codex_curated",
+    "definition_file": "data/approach_library/curated/spine_core_batch001_v1.json",
+    "api_used": false
+  }
+}

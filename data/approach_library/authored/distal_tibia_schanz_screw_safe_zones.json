@@ -1,0 +1,339 @@
+{
+  "schema_version": "brobot_approach_packet_v1",
+  "approach_id": "distal_tibia_schanz_screw_safe_zones",
+  "name": "Safe zones for Schanz screw placement in the distal tibia",
+  "aliases": [
+    "distal tibia external fixator pin safe zones"
+  ],
+  "region": "distal-tibia",
+  "joint": "ankle",
+  "bones": [
+    "tibia"
+  ],
+  "corridor": "Mini-open Schanz screw corridors in the distal tibia, one anterior to posterior and one medial to lateral just medial to the tibialis anterior tendon, avoiding the anterior tibial vessels",
+  "positioning": [
+    {
+      "text": "Position supine with the leg on a radiolucent support and fluoroscopy available to guide distal screw placement.",
+      "claim_ids": [
+        "distal_tibia_schanz_screw_safe_zones_positioning_01"
+      ]
+    }
+  ],
+  "setup": [],
+  "surface_landmarks": [
+    {
+      "text": "Identify the tibialis anterior tendon and the anteromedial subcutaneous surface of the distal tibia.",
+      "claim_ids": [
+        "distal_tibia_schanz_screw_safe_zones_surface_landmarks_01"
+      ]
+    }
+  ],
+  "incision": [
+    {
+      "text": "Make small incisions for each Schanz screw rather than inserting percutaneously in the distal zone.",
+      "claim_ids": [
+        "distal_tibia_schanz_screw_safe_zones_incision_01"
+      ]
+    }
+  ],
+  "superficial_interval": [
+    {
+      "text": "Spread down to bone with small retractors protecting the extensor tendons and neurovascular structures.",
+      "claim_ids": [
+        "distal_tibia_schanz_screw_safe_zones_superficial_interval_01"
+      ]
+    }
+  ],
+  "deep_interval": [
+    {
+      "text": "Insert one Schanz screw from anterior to posterior and a second from medial to lateral, keeping the medial screw just medial to the tibialis anterior tendon.",
+      "claim_ids": [
+        "distal_tibia_schanz_screw_safe_zones_deep_interval_01"
+      ]
+    }
+  ],
+  "layers": [
+    {
+      "text": "Skin, subcutaneous tissue, extensor tendons and anterior neurovascular bundle, and the distal tibial cortex.",
+      "claim_ids": [
+        "distal_tibia_schanz_screw_safe_zones_layers_01"
+      ]
+    }
+  ],
+  "structures_encountered": [],
+  "structures_at_risk": [
+    {
+      "text": "The anterior tibial artery and vein and the deep peroneal nerve are at risk in the distal zone, along with the superficial peroneal nerve laterally.",
+      "claim_ids": [
+        "distal_tibia_schanz_screw_safe_zones_structures_at_risk_01"
+      ]
+    }
+  ],
+  "danger_zones": [
+    {
+      "text": "Percutaneous Schanz screw insertion in the distal anterior tibia is dangerous because of the anterior tibial vessels; use a mini-open technique instead.",
+      "claim_ids": [
+        "distal_tibia_schanz_screw_safe_zones_danger_zones_01"
+      ]
+    }
+  ],
+  "retraction_hazards": [
+    {
+      "text": "Protect the extensor tendons and anterior neurovascular bundle with small retractors during drilling and screw insertion.",
+      "claim_ids": [
+        "distal_tibia_schanz_screw_safe_zones_retraction_hazards_01"
+      ]
+    }
+  ],
+  "exposure": [
+    {
+      "text": "Provides safe corridors for distal tibial Schanz screws rather than a formal open exposure.",
+      "claim_ids": [
+        "distal_tibia_schanz_screw_safe_zones_exposure_01"
+      ]
+    }
+  ],
+  "limitations": [
+    {
+      "text": "The distal zone is anatomically crowded, so screw corridors are limited and mini-open placement is required.",
+      "claim_ids": [
+        "distal_tibia_schanz_screw_safe_zones_limitations_01"
+      ]
+    }
+  ],
+  "extensions": [],
+  "indications": [
+    {
+      "text": "Indicated for external fixator Schanz screw placement in the distal tibia during spanning fixation of pilon or distal tibial fractures.",
+      "claim_ids": [
+        "distal_tibia_schanz_screw_safe_zones_indications_01"
+      ]
+    }
+  ],
+  "relative_contraindications": [],
+  "implant_implications": [],
+  "fluoroscopy_implications": [],
+  "closure": [
+    {
+      "text": "Close each mini-incision loosely around the screw to avoid skin tension.",
+      "claim_ids": [
+        "distal_tibia_schanz_screw_safe_zones_closure_01"
+      ]
+    }
+  ],
+  "complications": [
+    {
+      "text": "Complications include anterior tibial neurovascular injury, extensor tendon injury, and pin-tract problems.",
+      "claim_ids": [
+        "distal_tibia_schanz_screw_safe_zones_complications_01"
+      ]
+    }
+  ],
+  "bailouts": [],
+  "procedure_applications": [
+    {
+      "procedure_id": "pilon_ankle_fracture_orif",
+      "relationship": "conditional_option",
+      "condition": "A spanning external fixator is applied for a pilon fracture before definitive fixation"
+    }
+  ],
+  "questions": [
+    {
+      "question": "Why should distal tibial Schanz screws not be placed percutaneously?",
+      "answer": "Because the anterior tibial artery and vein make percutaneous insertion dangerous.",
+      "claim_ids": [
+        "distal_tibia_schanz_screw_safe_zones_questions_01"
+      ]
+    },
+    {
+      "question": "Where is the medial distal tibial Schanz screw placed relative to the tibialis anterior tendon?",
+      "answer": "Just medial to the tibialis anterior tendon, inserted medial to lateral.",
+      "claim_ids": [
+        "distal_tibia_schanz_screw_safe_zones_questions_02"
+      ]
+    },
+    {
+      "question": "How are neurovascular structures protected during distal screw insertion?",
+      "answer": "By using a mini-open incision with small retractors instead of percutaneous placement.",
+      "claim_ids": [
+        "distal_tibia_schanz_screw_safe_zones_questions_03"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "distal_tibia_schanz_screw_safe_zones_positioning_01",
+      "text": "Position supine with the leg on a radiolucent support and fluoroscopy available to guide distal screw placement.",
+      "source_ids": [
+        "ao_e853cb1071acace7"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "distal_tibia_schanz_screw_safe_zones_surface_landmarks_01",
+      "text": "Identify the tibialis anterior tendon and the anteromedial subcutaneous surface of the distal tibia.",
+      "source_ids": [
+        "ao_e853cb1071acace7"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "distal_tibia_schanz_screw_safe_zones_incision_01",
+      "text": "Make small incisions for each Schanz screw rather than inserting percutaneously in the distal zone.",
+      "source_ids": [
+        "ao_e853cb1071acace7"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "distal_tibia_schanz_screw_safe_zones_superficial_interval_01",
+      "text": "Spread down to bone with small retractors protecting the extensor tendons and neurovascular structures.",
+      "source_ids": [
+        "ao_e853cb1071acace7"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "distal_tibia_schanz_screw_safe_zones_deep_interval_01",
+      "text": "Insert one Schanz screw from anterior to posterior and a second from medial to lateral, keeping the medial screw just medial to the tibialis anterior tendon.",
+      "source_ids": [
+        "ao_e853cb1071acace7"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "distal_tibia_schanz_screw_safe_zones_layers_01",
+      "text": "Skin, subcutaneous tissue, extensor tendons and anterior neurovascular bundle, and the distal tibial cortex.",
+      "source_ids": [
+        "ao_e853cb1071acace7",
+        "orthobullets_12034"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "distal_tibia_schanz_screw_safe_zones_structures_at_risk_01",
+      "text": "The anterior tibial artery and vein and the deep peroneal nerve are at risk in the distal zone, along with the superficial peroneal nerve laterally.",
+      "source_ids": [
+        "ao_e853cb1071acace7",
+        "orthobullets_12034"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "distal_tibia_schanz_screw_safe_zones_danger_zones_01",
+      "text": "Percutaneous Schanz screw insertion in the distal anterior tibia is dangerous because of the anterior tibial vessels; use a mini-open technique instead.",
+      "source_ids": [
+        "ao_e853cb1071acace7",
+        "orthobullets_12034"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "distal_tibia_schanz_screw_safe_zones_retraction_hazards_01",
+      "text": "Protect the extensor tendons and anterior neurovascular bundle with small retractors during drilling and screw insertion.",
+      "source_ids": [
+        "ao_e853cb1071acace7"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "distal_tibia_schanz_screw_safe_zones_exposure_01",
+      "text": "Provides safe corridors for distal tibial Schanz screws rather than a formal open exposure.",
+      "source_ids": [
+        "ao_e853cb1071acace7"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "distal_tibia_schanz_screw_safe_zones_limitations_01",
+      "text": "The distal zone is anatomically crowded, so screw corridors are limited and mini-open placement is required.",
+      "source_ids": [
+        "ao_e853cb1071acace7"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "distal_tibia_schanz_screw_safe_zones_indications_01",
+      "text": "Indicated for external fixator Schanz screw placement in the distal tibia during spanning fixation of pilon or distal tibial fractures.",
+      "source_ids": [
+        "ao_e853cb1071acace7"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "distal_tibia_schanz_screw_safe_zones_closure_01",
+      "text": "Close each mini-incision loosely around the screw to avoid skin tension.",
+      "source_ids": [
+        "ao_e853cb1071acace7"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "distal_tibia_schanz_screw_safe_zones_complications_01",
+      "text": "Complications include anterior tibial neurovascular injury, extensor tendon injury, and pin-tract problems.",
+      "source_ids": [
+        "ao_e853cb1071acace7",
+        "orthobullets_12034"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "distal_tibia_schanz_screw_safe_zones_questions_01",
+      "text": "Why should distal tibial Schanz screws not be placed percutaneously?",
+      "source_ids": [
+        "ao_e853cb1071acace7"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "distal_tibia_schanz_screw_safe_zones_questions_02",
+      "text": "Where is the medial distal tibial Schanz screw placed relative to the tibialis anterior tendon?",
+      "source_ids": [
+        "ao_e853cb1071acace7"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "distal_tibia_schanz_screw_safe_zones_questions_03",
+      "text": "How are neurovascular structures protected during distal screw insertion?",
+      "source_ids": [
+        "ao_e853cb1071acace7"
+      ],
+      "risk_level": "medium"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "ao_e853cb1071acace7",
+      "provider": "AO Surgery Reference",
+      "title": "Safe zones (distal tibia)",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/distal-tibia/approach/safe-zones",
+      "source_page_id": "ao_e853cb1071acace7"
+    },
+    {
+      "source_id": "orthobullets_12034",
+      "provider": "Orthobullets",
+      "title": "Anterolateral Approach to Tibia",
+      "url": "https://www.orthobullets.com/approaches/12034/anterolateral-approach-to-tibia"
+    }
+  ],
+  "content_status": "agent_review_pending",
+  "review": {
+    "status": "agent_review_pending",
+    "required_roles": [
+      "adversarial_safety_reviewer",
+      "approach_anatomy_reviewer",
+      "educational_value_reviewer",
+      "evidence_reviewer",
+      "operative_exposure_reviewer",
+      "procedure_applicability_reviewer"
+    ],
+    "completed_roles": []
+  },
+  "resolved_contradiction_keys": [],
+  "authoring_provenance": {
+    "method": "local_codex_curated",
+    "definition_file": "data/approach_library/curated/lower_ext_batch001_v1.json",
+    "api_used": false
+  }
+}

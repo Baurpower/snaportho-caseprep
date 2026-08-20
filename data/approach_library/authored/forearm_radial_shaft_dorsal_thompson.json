@@ -1,0 +1,358 @@
+{
+  "schema_version": "brobot_approach_packet_v1",
+  "approach_id": "forearm_radial_shaft_dorsal_thompson",
+  "name": "Dorsal (Thompson) approach to the radial shaft",
+  "aliases": [
+    "Thompson approach to the radius",
+    "posterolateral approach to the radial shaft"
+  ],
+  "region": "forearm-shaft",
+  "joint": "",
+  "bones": [
+    "radius"
+  ],
+  "corridor": "Dorsolateral forearm interval between extensor carpi radialis brevis and extensor digitorum communis, with subperiosteal detachment of the supinator to reach the proximal and middle radial shaft",
+  "positioning": [
+    {
+      "text": "Position supine with the arm on a hand table; the forearm is pronated when abducted on the board or supinated when adducted across the chest, and full supination is used during deep dissection to carry the posterior interosseous nerve away from the radius.",
+      "claim_ids": [
+        "forearm_radial_shaft_dorsal_thompson_positioning_01"
+      ]
+    }
+  ],
+  "setup": [],
+  "surface_landmarks": [
+    {
+      "text": "Mark the lateral epicondyle of the humerus proximally and Lister's (dorsoradial) tubercle distally; the incision follows a line joining these points along the dorsolateral forearm.",
+      "claim_ids": [
+        "forearm_radial_shaft_dorsal_thompson_surface_landmarks_01"
+      ]
+    }
+  ],
+  "incision": [
+    {
+      "text": "Incise the skin along the line from the lateral epicondyle to just distal-ulnar of Lister's tubercle, tailoring length to the segment of radius exposed.",
+      "claim_ids": [
+        "forearm_radial_shaft_dorsal_thompson_incision_01"
+      ]
+    }
+  ],
+  "superficial_interval": [
+    {
+      "text": "Open the deep fascia along the interval between extensor carpi radialis brevis (radial nerve) laterally and extensor digitorum communis (posterior interosseous nerve) medially; the abductor pollicis longus and extensor pollicis brevis are seen emerging obliquely between these muscles.",
+      "claim_ids": [
+        "forearm_radial_shaft_dorsal_thompson_superficial_interval_01"
+      ]
+    }
+  ],
+  "deep_interval": [
+    {
+      "text": "In the proximal third, fully supinate the forearm, identify the supinator, and strip its insertion subperiosteally to expose bone while keeping the posterior interosseous nerve within the muscle away from the field; in the middle third retract abductor pollicis longus and extensor pollicis brevis to reach the shaft, and distally separate extensor carpi radialis brevis from extensor pollicis longus.",
+      "claim_ids": [
+        "forearm_radial_shaft_dorsal_thompson_deep_interval_01"
+      ]
+    }
+  ],
+  "layers": [
+    {
+      "text": "Skin, subcutaneous tissue, deep fascia, the extensor carpi radialis brevis and extensor digitorum communis interval, the supinator proximally, and the periosteum of the radius.",
+      "claim_ids": [
+        "forearm_radial_shaft_dorsal_thompson_layers_01"
+      ]
+    }
+  ],
+  "structures_encountered": [],
+  "structures_at_risk": [
+    {
+      "text": "The posterior interosseous nerve is the principal structure at risk because it runs within the supinator and in about a quarter of patients contacts the dorsal radius; the superficial radial nerve and cephalic vein are at risk distally.",
+      "claim_ids": [
+        "forearm_radial_shaft_dorsal_thompson_structures_at_risk_01"
+      ]
+    }
+  ],
+  "danger_zones": [
+    {
+      "text": "The proximal third within the supinator is the danger zone for the posterior interosseous nerve; proximal extension of a middle-third exposure carries considerable risk unless the nerve is deliberately identified and protected.",
+      "claim_ids": [
+        "forearm_radial_shaft_dorsal_thompson_danger_zones_01"
+      ]
+    }
+  ],
+  "retraction_hazards": [
+    {
+      "text": "Most posterior interosseous nerve injuries arise from retraction rather than transection, so avoid forceful retraction across the supinator and keep the forearm supinated during proximal work.",
+      "claim_ids": [
+        "forearm_radial_shaft_dorsal_thompson_retraction_hazards_01"
+      ]
+    }
+  ],
+  "exposure": [
+    {
+      "text": "Exposes the posterior and lateral surfaces of the proximal and middle radial shaft for plating, osteotomy, or tumor work.",
+      "claim_ids": [
+        "forearm_radial_shaft_dorsal_thompson_exposure_01"
+      ]
+    }
+  ],
+  "limitations": [
+    {
+      "text": "Proximal extension is limited by the posterior interosseous nerve, and the volar (Henry) approach is generally preferred for the distal radius; a high dorsal plate can tether the nerve.",
+      "claim_ids": [
+        "forearm_radial_shaft_dorsal_thompson_limitations_01"
+      ]
+    }
+  ],
+  "extensions": [],
+  "indications": [
+    {
+      "text": "Indicated for fixation of proximal and middle radial shaft fractures, radial osteotomy, tumor or osteomyelitis surgery, and access to the posterior interosseous nerve.",
+      "claim_ids": [
+        "forearm_radial_shaft_dorsal_thompson_indications_01"
+      ]
+    }
+  ],
+  "relative_contraindications": [],
+  "implant_implications": [],
+  "fluoroscopy_implications": [],
+  "closure": [
+    {
+      "text": "Allow the supinator and extensor muscles to fall back into position, close the deep fascia and subcutaneous tissue in layers, and close skin; do not plicate tissue over a dorsal plate in a way that tents the nerve.",
+      "claim_ids": [
+        "forearm_radial_shaft_dorsal_thompson_closure_01"
+      ]
+    }
+  ],
+  "complications": [
+    {
+      "text": "The main complication is posterior interosseous nerve palsy from retraction or plate placement; others include superficial radial nerve injury, nonunion, and radioulnar synostosis.",
+      "claim_ids": [
+        "forearm_radial_shaft_dorsal_thompson_complications_01"
+      ]
+    }
+  ],
+  "bailouts": [],
+  "procedure_applications": [
+    {
+      "procedure_id": "both_bone_forearm_fracture_orif",
+      "relationship": "primary_option",
+      "condition": "Dorsal exposure of the proximal or middle radial shaft is preferred, for example in a both-bone forearm fracture fixed through separate radial and ulnar incisions"
+    },
+    {
+      "procedure_id": "monteggia_fracture_orif",
+      "relationship": "conditional_option",
+      "condition": "The radial component or proximal radius requires dorsal exposure"
+    }
+  ],
+  "questions": [
+    {
+      "question": "Which muscle interval defines the Thompson approach to the radius?",
+      "answer": "Between extensor carpi radialis brevis and extensor digitorum communis proximally.",
+      "claim_ids": [
+        "forearm_radial_shaft_dorsal_thompson_questions_01"
+      ]
+    },
+    {
+      "question": "How is the posterior interosseous nerve protected during the Thompson approach?",
+      "answer": "By fully supinating the forearm and subperiosteally stripping the supinator so the nerve is carried away from the radius.",
+      "claim_ids": [
+        "forearm_radial_shaft_dorsal_thompson_questions_02"
+      ]
+    },
+    {
+      "question": "Why is the distal radius usually approached volarly instead of through Thompson's interval?",
+      "answer": "The dorsal approach offers limited safe distal extension and risks the posterior interosseous and superficial radial nerves, so the volar Henry approach is preferred distally.",
+      "claim_ids": [
+        "forearm_radial_shaft_dorsal_thompson_questions_03"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "forearm_radial_shaft_dorsal_thompson_positioning_01",
+      "text": "Position supine with the arm on a hand table; the forearm is pronated when abducted on the board or supinated when adducted across the chest, and full supination is used during deep dissection to carry the posterior interosseous nerve away from the radius.",
+      "source_ids": [
+        "ao_24eb9bd2e1f62a70",
+        "orthobullets_12011"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "forearm_radial_shaft_dorsal_thompson_surface_landmarks_01",
+      "text": "Mark the lateral epicondyle of the humerus proximally and Lister's (dorsoradial) tubercle distally; the incision follows a line joining these points along the dorsolateral forearm.",
+      "source_ids": [
+        "ao_24eb9bd2e1f62a70",
+        "orthobullets_12011"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "forearm_radial_shaft_dorsal_thompson_incision_01",
+      "text": "Incise the skin along the line from the lateral epicondyle to just distal-ulnar of Lister's tubercle, tailoring length to the segment of radius exposed.",
+      "source_ids": [
+        "ao_24eb9bd2e1f62a70",
+        "orthobullets_12011"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "forearm_radial_shaft_dorsal_thompson_superficial_interval_01",
+      "text": "Open the deep fascia along the interval between extensor carpi radialis brevis (radial nerve) laterally and extensor digitorum communis (posterior interosseous nerve) medially; the abductor pollicis longus and extensor pollicis brevis are seen emerging obliquely between these muscles.",
+      "source_ids": [
+        "ao_24eb9bd2e1f62a70",
+        "orthobullets_12011"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "forearm_radial_shaft_dorsal_thompson_deep_interval_01",
+      "text": "In the proximal third, fully supinate the forearm, identify the supinator, and strip its insertion subperiosteally to expose bone while keeping the posterior interosseous nerve within the muscle away from the field; in the middle third retract abductor pollicis longus and extensor pollicis brevis to reach the shaft, and distally separate extensor carpi radialis brevis from extensor pollicis longus.",
+      "source_ids": [
+        "ao_24eb9bd2e1f62a70",
+        "orthobullets_12011"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "forearm_radial_shaft_dorsal_thompson_layers_01",
+      "text": "Skin, subcutaneous tissue, deep fascia, the extensor carpi radialis brevis and extensor digitorum communis interval, the supinator proximally, and the periosteum of the radius.",
+      "source_ids": [
+        "ao_24eb9bd2e1f62a70",
+        "orthobullets_12011"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "forearm_radial_shaft_dorsal_thompson_structures_at_risk_01",
+      "text": "The posterior interosseous nerve is the principal structure at risk because it runs within the supinator and in about a quarter of patients contacts the dorsal radius; the superficial radial nerve and cephalic vein are at risk distally.",
+      "source_ids": [
+        "ao_24eb9bd2e1f62a70",
+        "orthobullets_12011"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "forearm_radial_shaft_dorsal_thompson_danger_zones_01",
+      "text": "The proximal third within the supinator is the danger zone for the posterior interosseous nerve; proximal extension of a middle-third exposure carries considerable risk unless the nerve is deliberately identified and protected.",
+      "source_ids": [
+        "ao_24eb9bd2e1f62a70",
+        "orthobullets_12011"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "forearm_radial_shaft_dorsal_thompson_retraction_hazards_01",
+      "text": "Most posterior interosseous nerve injuries arise from retraction rather than transection, so avoid forceful retraction across the supinator and keep the forearm supinated during proximal work.",
+      "source_ids": [
+        "ao_24eb9bd2e1f62a70",
+        "orthobullets_12011"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "forearm_radial_shaft_dorsal_thompson_exposure_01",
+      "text": "Exposes the posterior and lateral surfaces of the proximal and middle radial shaft for plating, osteotomy, or tumor work.",
+      "source_ids": [
+        "ao_24eb9bd2e1f62a70",
+        "orthobullets_12011"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "forearm_radial_shaft_dorsal_thompson_limitations_01",
+      "text": "Proximal extension is limited by the posterior interosseous nerve, and the volar (Henry) approach is generally preferred for the distal radius; a high dorsal plate can tether the nerve.",
+      "source_ids": [
+        "ao_24eb9bd2e1f62a70",
+        "orthobullets_12011"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "forearm_radial_shaft_dorsal_thompson_indications_01",
+      "text": "Indicated for fixation of proximal and middle radial shaft fractures, radial osteotomy, tumor or osteomyelitis surgery, and access to the posterior interosseous nerve.",
+      "source_ids": [
+        "ao_24eb9bd2e1f62a70",
+        "orthobullets_12011"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "forearm_radial_shaft_dorsal_thompson_closure_01",
+      "text": "Allow the supinator and extensor muscles to fall back into position, close the deep fascia and subcutaneous tissue in layers, and close skin; do not plicate tissue over a dorsal plate in a way that tents the nerve.",
+      "source_ids": [
+        "ao_24eb9bd2e1f62a70",
+        "orthobullets_12011"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "forearm_radial_shaft_dorsal_thompson_complications_01",
+      "text": "The main complication is posterior interosseous nerve palsy from retraction or plate placement; others include superficial radial nerve injury, nonunion, and radioulnar synostosis.",
+      "source_ids": [
+        "ao_24eb9bd2e1f62a70",
+        "orthobullets_12011"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "forearm_radial_shaft_dorsal_thompson_questions_01",
+      "text": "Which muscle interval defines the Thompson approach to the radius?",
+      "source_ids": [
+        "ao_24eb9bd2e1f62a70",
+        "orthobullets_12011"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "forearm_radial_shaft_dorsal_thompson_questions_02",
+      "text": "How is the posterior interosseous nerve protected during the Thompson approach?",
+      "source_ids": [
+        "ao_24eb9bd2e1f62a70",
+        "orthobullets_12011"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "forearm_radial_shaft_dorsal_thompson_questions_03",
+      "text": "Why is the distal radius usually approached volarly instead of through Thompson's interval?",
+      "source_ids": [
+        "ao_24eb9bd2e1f62a70",
+        "orthobullets_12011"
+      ],
+      "risk_level": "medium"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "ao_24eb9bd2e1f62a70",
+      "provider": "AO Surgery Reference",
+      "title": "Posterolateral approach (Thompson) to the forearm shaft",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/forearm-shaft/approach/posterolateral-approach-thompson",
+      "source_page_id": "ao_24eb9bd2e1f62a70"
+    },
+    {
+      "source_id": "orthobullets_12011",
+      "provider": "Orthobullets",
+      "title": "Dorsal Approach to Radius (Thompson)",
+      "url": "https://www.orthobullets.com/approaches/12011/dorsal-approach-to-radius-thompson"
+    }
+  ],
+  "content_status": "agent_review_pending",
+  "review": {
+    "status": "agent_review_pending",
+    "required_roles": [
+      "adversarial_safety_reviewer",
+      "approach_anatomy_reviewer",
+      "educational_value_reviewer",
+      "evidence_reviewer",
+      "operative_exposure_reviewer",
+      "procedure_applicability_reviewer"
+    ],
+    "completed_roles": []
+  },
+  "resolved_contradiction_keys": [],
+  "authoring_provenance": {
+    "method": "local_codex_curated",
+    "definition_file": "data/approach_library/curated/forearm_shaft_batch001_v1.json",
+    "api_used": false
+  }
+}

@@ -1,0 +1,339 @@
+{
+  "schema_version": "brobot_approach_packet_v1",
+  "approach_id": "knee_pp_medial_proximal_tibia",
+  "name": "Medial approach to the proximal tibia (periprosthetic knee)",
+  "aliases": [
+    "periprosthetic medial tibial approach"
+  ],
+  "region": "proximal-tibia",
+  "joint": "knee",
+  "bones": [
+    "proximal tibia"
+  ],
+  "corridor": "Straight or slightly curved cut from the medial epicondyle to the posteromedial tibial border, reflecting or elevating pes anserinus while leaving the MCL on bone",
+  "positioning": [
+    {
+      "text": "If the hip is mobile, place the patient supine with the limb abducted, externally rotated, and in a figure-of-4. If the hip is stiff, use lateral decubitus with the involved limb down. A proximal-thigh tourniquet may be used.",
+      "claim_ids": [
+        "knee_pp_medial_proximal_tibia_positioning_01"
+      ]
+    }
+  ],
+  "setup": [],
+  "surface_landmarks": [
+    {
+      "text": "Mark the medial epicondyle and the posteromedial tibial border with the knee slightly flexed.",
+      "claim_ids": [
+        "knee_pp_medial_proximal_tibia_surface_landmarks_01"
+      ]
+    }
+  ],
+  "incision": [
+    {
+      "text": "Make a straight or slightly curved cut from the medial epicondyle toward the posteromedial tibial edge and extend it as needed.",
+      "claim_ids": [
+        "knee_pp_medial_proximal_tibia_incision_01"
+      ]
+    }
+  ],
+  "superficial_interval": [
+    {
+      "text": "Open fascia over semimembranosus and expose the pes anserinus.",
+      "claim_ids": [
+        "knee_pp_medial_proximal_tibia_superficial_interval_01"
+      ]
+    }
+  ],
+  "deep_interval": [
+    {
+      "text": "Reflect the pes tendons posteriorly, or elevate their broad insertion from anterior, to see the posteromedial and medial tibia. Do not elevate the MCL from its insertion; a plate may sit over the MCL with care.",
+      "claim_ids": [
+        "knee_pp_medial_proximal_tibia_deep_interval_01"
+      ]
+    }
+  ],
+  "layers": [
+    {
+      "text": "Skin, fascia, pes anserinus, MCL on bone, then the medial and posteromedial tibia.",
+      "claim_ids": [
+        "knee_pp_medial_proximal_tibia_layers_01"
+      ]
+    }
+  ],
+  "structures_encountered": [],
+  "structures_at_risk": [
+    {
+      "text": "The MCL is closely adherent to bone anteriorly and proximally; lifting it destabilizes the knee.",
+      "claim_ids": [
+        "knee_pp_medial_proximal_tibia_structures_at_risk_01"
+      ]
+    }
+  ],
+  "danger_zones": [
+    {
+      "text": "The MCL insertion is the danger zone. Do not strip it to seat a plate.",
+      "claim_ids": [
+        "knee_pp_medial_proximal_tibia_danger_zones_01"
+      ]
+    }
+  ],
+  "retraction_hazards": [
+    {
+      "text": "Elevating pes from anterior does not create instability if the MCL is left on bone.",
+      "claim_ids": [
+        "knee_pp_medial_proximal_tibia_retraction_hazards_01"
+      ]
+    }
+  ],
+  "exposure": [
+    {
+      "text": "Shows the medial and posteromedial tibial edge for plating around a TKA.",
+      "claim_ids": [
+        "knee_pp_medial_proximal_tibia_exposure_01"
+      ]
+    }
+  ],
+  "limitations": [
+    {
+      "text": "A stiff hip forces lateral-decubitus positioning. The MCL cannot be used as a dissection plane.",
+      "claim_ids": [
+        "knee_pp_medial_proximal_tibia_limitations_01"
+      ]
+    }
+  ],
+  "extensions": [],
+  "indications": [
+    {
+      "text": "Used for medial or posteromedial proximal-tibial periprosthetic fracture fixation.",
+      "claim_ids": [
+        "knee_pp_medial_proximal_tibia_indications_01"
+      ]
+    }
+  ],
+  "relative_contraindications": [],
+  "implant_implications": [],
+  "fluoroscopy_implications": [],
+  "closure": [
+    {
+      "text": "Insert drains if needed and close the soft tissues routinely.",
+      "claim_ids": [
+        "knee_pp_medial_proximal_tibia_closure_01"
+      ]
+    }
+  ],
+  "complications": [
+    {
+      "text": "The principal complication is knee instability from MCL elevation.",
+      "claim_ids": [
+        "knee_pp_medial_proximal_tibia_complications_01"
+      ]
+    }
+  ],
+  "bailouts": [],
+  "procedure_applications": [
+    {
+      "procedure_id": "periprosthetic_knee_fracture_orif",
+      "relationship": "primary_option",
+      "condition": "A medial or posteromedial proximal-tibial periprosthetic fracture is plated over an intact MCL"
+    }
+  ],
+  "questions": [
+    {
+      "question": "How is the limb positioned if the hip is mobile?",
+      "answer": "Supine, abducted and externally rotated, in a figure-of-4.",
+      "claim_ids": [
+        "knee_pp_medial_proximal_tibia_questions_01"
+      ]
+    },
+    {
+      "question": "May the MCL be elevated from bone?",
+      "answer": "No. Elevation of its insertion can destabilize the knee. A plate may lie over an intact MCL.",
+      "claim_ids": [
+        "knee_pp_medial_proximal_tibia_questions_02"
+      ]
+    },
+    {
+      "question": "How can pes anserinus be handled?",
+      "answer": "Reflected posteriorly, or elevated from anterior without creating instability.",
+      "claim_ids": [
+        "knee_pp_medial_proximal_tibia_questions_03"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "knee_pp_medial_proximal_tibia_positioning_01",
+      "text": "If the hip is mobile, place the patient supine with the limb abducted, externally rotated, and in a figure-of-4. If the hip is stiff, use lateral decubitus with the involved limb down. A proximal-thigh tourniquet may be used.",
+      "source_ids": [
+        "ao_af1e9417f1305398"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "knee_pp_medial_proximal_tibia_surface_landmarks_01",
+      "text": "Mark the medial epicondyle and the posteromedial tibial border with the knee slightly flexed.",
+      "source_ids": [
+        "ao_af1e9417f1305398"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "knee_pp_medial_proximal_tibia_incision_01",
+      "text": "Make a straight or slightly curved cut from the medial epicondyle toward the posteromedial tibial edge and extend it as needed.",
+      "source_ids": [
+        "ao_af1e9417f1305398"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "knee_pp_medial_proximal_tibia_superficial_interval_01",
+      "text": "Open fascia over semimembranosus and expose the pes anserinus.",
+      "source_ids": [
+        "ao_af1e9417f1305398"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "knee_pp_medial_proximal_tibia_deep_interval_01",
+      "text": "Reflect the pes tendons posteriorly, or elevate their broad insertion from anterior, to see the posteromedial and medial tibia. Do not elevate the MCL from its insertion; a plate may sit over the MCL with care.",
+      "source_ids": [
+        "ao_af1e9417f1305398",
+        "ao_9fc597027038b30b"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "knee_pp_medial_proximal_tibia_layers_01",
+      "text": "Skin, fascia, pes anserinus, MCL on bone, then the medial and posteromedial tibia.",
+      "source_ids": [
+        "ao_af1e9417f1305398"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "knee_pp_medial_proximal_tibia_structures_at_risk_01",
+      "text": "The MCL is closely adherent to bone anteriorly and proximally; lifting it destabilizes the knee.",
+      "source_ids": [
+        "ao_af1e9417f1305398",
+        "ao_9fc597027038b30b"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "knee_pp_medial_proximal_tibia_danger_zones_01",
+      "text": "The MCL insertion is the danger zone. Do not strip it to seat a plate.",
+      "source_ids": [
+        "ao_af1e9417f1305398"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "knee_pp_medial_proximal_tibia_retraction_hazards_01",
+      "text": "Elevating pes from anterior does not create instability if the MCL is left on bone.",
+      "source_ids": [
+        "ao_af1e9417f1305398"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "knee_pp_medial_proximal_tibia_exposure_01",
+      "text": "Shows the medial and posteromedial tibial edge for plating around a TKA.",
+      "source_ids": [
+        "ao_af1e9417f1305398"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "knee_pp_medial_proximal_tibia_limitations_01",
+      "text": "A stiff hip forces lateral-decubitus positioning. The MCL cannot be used as a dissection plane.",
+      "source_ids": [
+        "ao_af1e9417f1305398"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "knee_pp_medial_proximal_tibia_indications_01",
+      "text": "Used for medial or posteromedial proximal-tibial periprosthetic fracture fixation.",
+      "source_ids": [
+        "ao_af1e9417f1305398"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "knee_pp_medial_proximal_tibia_closure_01",
+      "text": "Insert drains if needed and close the soft tissues routinely.",
+      "source_ids": [
+        "ao_af1e9417f1305398"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "knee_pp_medial_proximal_tibia_complications_01",
+      "text": "The principal complication is knee instability from MCL elevation.",
+      "source_ids": [
+        "ao_af1e9417f1305398",
+        "ao_9fc597027038b30b"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "knee_pp_medial_proximal_tibia_questions_01",
+      "text": "How is the limb positioned if the hip is mobile?",
+      "source_ids": [
+        "ao_af1e9417f1305398"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "knee_pp_medial_proximal_tibia_questions_02",
+      "text": "May the MCL be elevated from bone?",
+      "source_ids": [
+        "ao_af1e9417f1305398"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "knee_pp_medial_proximal_tibia_questions_03",
+      "text": "How can pes anserinus be handled?",
+      "source_ids": [
+        "ao_af1e9417f1305398"
+      ],
+      "risk_level": "medium"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "ao_af1e9417f1305398",
+      "provider": "AO Surgery Reference",
+      "title": "Medial Approach Proximal Tibia",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/periprosthetic-fractures/knee/approach/medial-approach-proximal-tibia",
+      "source_page_id": "ao_af1e9417f1305398"
+    },
+    {
+      "source_id": "ao_9fc597027038b30b",
+      "provider": "AO Surgery Reference",
+      "title": "Medial And Posteromedial Approach To Proximal Tibia",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/proximal-tibia/approach/medial-and-posteromedial-approach-to-proximal-tibia",
+      "source_page_id": "ao_9fc597027038b30b"
+    }
+  ],
+  "content_status": "agent_review_pending",
+  "review": {
+    "status": "agent_review_pending",
+    "required_roles": [
+      "adversarial_safety_reviewer",
+      "approach_anatomy_reviewer",
+      "educational_value_reviewer",
+      "evidence_reviewer",
+      "operative_exposure_reviewer",
+      "procedure_applicability_reviewer"
+    ],
+    "completed_roles": []
+  },
+  "resolved_contradiction_keys": [],
+  "authoring_provenance": {
+    "method": "local_codex_curated",
+    "definition_file": "data/approach_library/curated/periprosthetic_knee_batch001_v1.json",
+    "api_used": false
+  }
+}

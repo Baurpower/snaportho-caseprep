@@ -1,0 +1,335 @@
+{
+  "schema_version": "brobot_approach_packet_v1",
+  "approach_id": "spine_wiltse",
+  "name": "Wiltse paraspinal approach",
+  "aliases": [
+    "multifidus–longissimus interval"
+  ],
+  "region": "lumbar",
+  "joint": "",
+  "bones": [
+    "L4",
+    "L5",
+    "sacrum"
+  ],
+  "corridor": "Paired paramedian cuts 2.5–3 cm off the midline at L4–S1, or a midline skin cut then the same intramuscular plane, bluntly between multifidus and longissimus down to the transverse process and sacral ala",
+  "positioning": [
+    {
+      "text": "Position prone on a Wilson or Jackson table so AP and lateral images can confirm the L4–S1 level.",
+      "claim_ids": [
+        "spine_wiltse_positioning_01"
+      ]
+    }
+  ],
+  "setup": [],
+  "surface_landmarks": [
+    {
+      "text": "Mark the L4–S1 spinous processes and a line 2.5–3 cm lateral to the midline.",
+      "claim_ids": [
+        "spine_wiltse_surface_landmarks_01"
+      ]
+    }
+  ],
+  "incision": [
+    {
+      "text": "Infiltrate with 1:500,000 epinephrine. Make two parallel cuts 2.5 cm lateral to the midline at L4–S1, or a single midline skin cut over those spinous processes and then the same intramuscular plane. Orthobullets describes a 3 cm paramedian cut.",
+      "claim_ids": [
+        "spine_wiltse_incision_01"
+      ]
+    }
+  ],
+  "superficial_interval": [
+    {
+      "text": "Develop the intramuscular plane between multifidus and longissimus with blunt dissection.",
+      "claim_ids": [
+        "spine_wiltse_superficial_interval_01"
+      ]
+    }
+  ],
+  "deep_interval": [
+    {
+      "text": "Palpate the facets medially and continue lateral to them down to the transverse process. Place retractors so the pars is medial and the transverse process lateral. Distally take the dissection onto the sacral ala; at S1 the iliac crest is on the superficial lateral aspect and can yield graft.",
+      "claim_ids": [
+        "spine_wiltse_deep_interval_01"
+      ]
+    }
+  ],
+  "layers": [
+    {
+      "text": "Skin, multifidus–longissimus interval, then the pars, transverse process, and sacral ala.",
+      "claim_ids": [
+        "spine_wiltse_layers_01"
+      ]
+    }
+  ],
+  "structures_encountered": [],
+  "structures_at_risk": [
+    {
+      "text": "The dorsal root ganglion is the named danger in this interval.",
+      "claim_ids": [
+        "spine_wiltse_structures_at_risk_01"
+      ]
+    }
+  ],
+  "danger_zones": [
+    {
+      "text": "Missing the multifidus–longissimus plane and stripping through muscle toward the ganglion is the local danger zone.",
+      "claim_ids": [
+        "spine_wiltse_danger_zones_01"
+      ]
+    }
+  ],
+  "retraction_hazards": [
+    {
+      "text": "Confirm the transverse-process level on a radiograph before placing implants.",
+      "claim_ids": [
+        "spine_wiltse_retraction_hazards_01"
+      ]
+    }
+  ],
+  "exposure": [
+    {
+      "text": "Shows the pars medially and the transverse process laterally at L4–S1, including the sacral ala.",
+      "claim_ids": [
+        "spine_wiltse_exposure_01"
+      ]
+    }
+  ],
+  "limitations": [
+    {
+      "text": "This is not a midline laminectomy window.",
+      "claim_ids": [
+        "spine_wiltse_limitations_01"
+      ]
+    }
+  ],
+  "extensions": [],
+  "indications": [
+    {
+      "text": "Used for spondylolisthesis at L4–S1, far-lateral disc herniation, and pars defects.",
+      "claim_ids": [
+        "spine_wiltse_indications_01"
+      ]
+    }
+  ],
+  "relative_contraindications": [],
+  "implant_implications": [],
+  "fluoroscopy_implications": [],
+  "closure": [
+    {
+      "text": "Close muscle and fascia tightly, optionally over a separate-stab drain, then fat and skin.",
+      "claim_ids": [
+        "spine_wiltse_closure_01"
+      ]
+    }
+  ],
+  "complications": [
+    {
+      "text": "Complications include dorsal-root-ganglion injury and wrong-level exposure if the transverse process is not imaged.",
+      "claim_ids": [
+        "spine_wiltse_complications_01"
+      ]
+    }
+  ],
+  "bailouts": [],
+  "procedure_applications": [
+    {
+      "procedure_id": "lumbar_fusion",
+      "relationship": "primary_option",
+      "condition": "An L4–S1 spondylolisthesis, far-lateral disc, or pars defect is reached through the multifidus–longissimus interval"
+    }
+  ],
+  "questions": [
+    {
+      "question": "What intermuscular plane is the Wiltse approach?",
+      "answer": "Between multifidus and longissimus.",
+      "claim_ids": [
+        "spine_wiltse_questions_01"
+      ]
+    },
+    {
+      "question": "How far off the midline are the paramedian cuts?",
+      "answer": "About 2.5 cm in the AO spondylolisthesis chapter and 3 cm in Orthobullets.",
+      "claim_ids": [
+        "spine_wiltse_questions_02"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "spine_wiltse_positioning_01",
+      "text": "Position prone on a Wilson or Jackson table so AP and lateral images can confirm the L4–S1 level.",
+      "source_ids": [
+        "ao_8d67c6312c318af7",
+        "orthobullets_df68a1f33f2bce88"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "spine_wiltse_surface_landmarks_01",
+      "text": "Mark the L4–S1 spinous processes and a line 2.5–3 cm lateral to the midline.",
+      "source_ids": [
+        "ao_8d67c6312c318af7",
+        "orthobullets_df68a1f33f2bce88"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "spine_wiltse_incision_01",
+      "text": "Infiltrate with 1:500,000 epinephrine. Make two parallel cuts 2.5 cm lateral to the midline at L4–S1, or a single midline skin cut over those spinous processes and then the same intramuscular plane. Orthobullets describes a 3 cm paramedian cut.",
+      "source_ids": [
+        "ao_8d67c6312c318af7",
+        "orthobullets_df68a1f33f2bce88"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "spine_wiltse_superficial_interval_01",
+      "text": "Develop the intramuscular plane between multifidus and longissimus with blunt dissection.",
+      "source_ids": [
+        "ao_8d67c6312c318af7",
+        "orthobullets_df68a1f33f2bce88"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "spine_wiltse_deep_interval_01",
+      "text": "Palpate the facets medially and continue lateral to them down to the transverse process. Place retractors so the pars is medial and the transverse process lateral. Distally take the dissection onto the sacral ala; at S1 the iliac crest is on the superficial lateral aspect and can yield graft.",
+      "source_ids": [
+        "ao_8d67c6312c318af7",
+        "orthobullets_df68a1f33f2bce88"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "spine_wiltse_layers_01",
+      "text": "Skin, multifidus–longissimus interval, then the pars, transverse process, and sacral ala.",
+      "source_ids": [
+        "ao_8d67c6312c318af7",
+        "orthobullets_df68a1f33f2bce88"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "spine_wiltse_structures_at_risk_01",
+      "text": "The dorsal root ganglion is the named danger in this interval.",
+      "source_ids": [
+        "orthobullets_df68a1f33f2bce88"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "spine_wiltse_danger_zones_01",
+      "text": "Missing the multifidus–longissimus plane and stripping through muscle toward the ganglion is the local danger zone.",
+      "source_ids": [
+        "ao_8d67c6312c318af7",
+        "orthobullets_df68a1f33f2bce88"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "spine_wiltse_retraction_hazards_01",
+      "text": "Confirm the transverse-process level on a radiograph before placing implants.",
+      "source_ids": [
+        "orthobullets_df68a1f33f2bce88"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "spine_wiltse_exposure_01",
+      "text": "Shows the pars medially and the transverse process laterally at L4–S1, including the sacral ala.",
+      "source_ids": [
+        "ao_8d67c6312c318af7",
+        "orthobullets_df68a1f33f2bce88"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "spine_wiltse_limitations_01",
+      "text": "This is not a midline laminectomy window.",
+      "source_ids": [
+        "ao_8d67c6312c318af7",
+        "orthobullets_df68a1f33f2bce88"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "spine_wiltse_indications_01",
+      "text": "Used for spondylolisthesis at L4–S1, far-lateral disc herniation, and pars defects.",
+      "source_ids": [
+        "ao_8d67c6312c318af7",
+        "orthobullets_df68a1f33f2bce88"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "spine_wiltse_closure_01",
+      "text": "Close muscle and fascia tightly, optionally over a separate-stab drain, then fat and skin.",
+      "source_ids": [
+        "ao_8d67c6312c318af7"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "spine_wiltse_complications_01",
+      "text": "Complications include dorsal-root-ganglion injury and wrong-level exposure if the transverse process is not imaged.",
+      "source_ids": [
+        "orthobullets_df68a1f33f2bce88"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "spine_wiltse_questions_01",
+      "text": "What intermuscular plane is the Wiltse approach?",
+      "source_ids": [
+        "ao_8d67c6312c318af7",
+        "orthobullets_df68a1f33f2bce88"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "spine_wiltse_questions_02",
+      "text": "How far off the midline are the paramedian cuts?",
+      "source_ids": [
+        "ao_8d67c6312c318af7",
+        "orthobullets_df68a1f33f2bce88"
+      ],
+      "risk_level": "medium"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "ao_8d67c6312c318af7",
+      "provider": "AO Surgery Reference",
+      "title": "Wiltse Approach",
+      "url": "https://surgeryreference.aofoundation.org/spine/deformities/spondylolisthesis/approach/wiltse-approach",
+      "source_page_id": "ao_8d67c6312c318af7"
+    },
+    {
+      "source_id": "orthobullets_df68a1f33f2bce88",
+      "provider": "Orthobullets",
+      "title": "Wiltse Paraspinal Approach",
+      "url": "https://www.orthobullets.com/approaches/12070/wiltse-paraspinal-approach",
+      "source_page_id": "orthobullets_df68a1f33f2bce88"
+    }
+  ],
+  "content_status": "agent_review_pending",
+  "review": {
+    "status": "agent_review_pending",
+    "required_roles": [
+      "adversarial_safety_reviewer",
+      "approach_anatomy_reviewer",
+      "educational_value_reviewer",
+      "evidence_reviewer",
+      "operative_exposure_reviewer",
+      "procedure_applicability_reviewer"
+    ],
+    "completed_roles": []
+  },
+  "resolved_contradiction_keys": [],
+  "authoring_provenance": {
+    "method": "local_codex_curated",
+    "definition_file": "data/approach_library/curated/spine_remaining_batch001_v1.json",
+    "api_used": false
+  }
+}

@@ -1,0 +1,288 @@
+{
+  "approaches": [
+    {
+      "approach_id": "approach_lower_ext_thigh_lateral",
+      "name": "Lateral approach to the femur (thigh)",
+      "aliases": [
+        "lateral approach to the femoral shaft",
+        "femur lateral approach",
+        "vastus lateralis approach to femur"
+      ],
+      "region": "thigh and femoral shaft",
+      "joint": "none (diaphyseal)",
+      "bones": [
+        "femur"
+      ],
+      "corridor": "Extraperiosteal plane along the lateral femur, elevating vastus lateralis anteriorly off the lateral intermuscular septum",
+      "sources": [
+        {
+          "source_id": "ao_ab876e208ec241f2",
+          "provider": "AO Surgery Reference",
+          "title": "Lateral Approach (femoral shaft)",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/femoral-shaft/approach/lateral-approach",
+          "source_page_id": "ao_ab876e208ec241f2"
+        },
+        {
+          "source_id": "orthobullets_10c9d61b22bde8fc",
+          "provider": "Orthobullets",
+          "title": "Femur Lateral Approach",
+          "url": "https://www.orthobullets.com/approaches/12024/femur-lateral-approach",
+          "source_page_id": "orthobullets_10c9d61b22bde8fc"
+        },
+        {
+          "source_id": "orthobullets_7f4ff07c75dd84e0",
+          "provider": "Orthobullets",
+          "title": "Femur Posterolateral Approach",
+          "url": "https://www.orthobullets.com/approaches/12025/femur-posterolateral-approach",
+          "source_page_id": "orthobullets_7f4ff07c75dd84e0"
+        },
+        {
+          "source_id": "orthobullets_db27817b353b221d",
+          "provider": "Orthobullets",
+          "title": "Posterior Approach To Femur",
+          "url": "https://www.orthobullets.com/approaches/12027/posterior-approach-to-femur",
+          "source_page_id": "orthobullets_db27817b353b221d"
+        }
+      ],
+      "procedure_applications": [
+        {
+          "procedure_id": "intertrochanteric_hip_fracture_orif",
+          "relationship": "primary_option",
+          "condition": "Lateral exposure of the proximal femur for extramedullary fixation"
+        },
+        {
+          "procedure_id": "femoral_shaft_fracture_orif",
+          "relationship": "primary_option",
+          "condition": "Open or minimally invasive lateral plating of the femoral shaft"
+        },
+        {
+          "procedure_id": "periprosthetic_hip_fracture_orif",
+          "relationship": "primary_option",
+          "condition": "Lateral exposure for plating around a femoral implant"
+        }
+      ],
+      "sections": {
+        "positioning": [
+          {
+            "text": "Position the patient supine on a radiolucent table with a bump under the ipsilateral hip, or lateral, with the limb free-draped so length, rotation, and alignment can be controlled.",
+            "source_ids": [
+              "ao_ab876e208ec241f2",
+              "orthobullets_10c9d61b22bde8fc"
+            ]
+          }
+        ],
+        "setup": [
+          {
+            "text": "Allow unobstructed fluoroscopy of the entire femur and drape the limb free for intraoperative manipulation and reduction.",
+            "source_ids": [
+              "ao_ab876e208ec241f2",
+              "orthobullets_10c9d61b22bde8fc"
+            ]
+          }
+        ],
+        "surface_landmarks": [
+          {
+            "text": "Mark the greater trochanter proximally and the lateral femoral condyle distally; the line connecting them defines the lateral femoral shaft and the incision axis.",
+            "source_ids": [
+              "ao_ab876e208ec241f2",
+              "orthobullets_10c9d61b22bde8fc"
+            ]
+          }
+        ],
+        "incision": [
+          {
+            "text": "Make a longitudinal lateral incision along the line from the greater trochanter to the lateral femoral condyle, centered over the fracture or planned implant and extended only as far as needed.",
+            "source_ids": [
+              "ao_ab876e208ec241f2",
+              "orthobullets_10c9d61b22bde8fc"
+            ]
+          }
+        ],
+        "superficial_interval": [
+          {
+            "text": "Incise the fascia lata and iliotibial tract in line with the skin incision to expose the vastus lateralis.",
+            "source_ids": [
+              "ao_ab876e208ec241f2",
+              "orthobullets_10c9d61b22bde8fc"
+            ]
+          }
+        ],
+        "deep_interval": [
+          {
+            "text": "Reflect vastus lateralis anteriorly off the lateral intermuscular septum and elevate it extraperiosteally from the lateral femur; there is no true internervous plane because vastus lateralis is femoral-nerve innervated throughout.",
+            "source_ids": [
+              "ao_ab876e208ec241f2",
+              "orthobullets_10c9d61b22bde8fc"
+            ],
+            "risk_level": "medium"
+          }
+        ],
+        "layers": [
+          {
+            "text": "Skin, subcutaneous tissue, fascia lata and iliotibial tract, vastus lateralis, and the periosteum of the lateral femur.",
+            "source_ids": [
+              "ao_ab876e208ec241f2",
+              "orthobullets_10c9d61b22bde8fc"
+            ]
+          }
+        ],
+        "structures_encountered": [
+          {
+            "text": "Perforating branches of the profunda femoris cross from posterior to anterior through the lateral intermuscular septum and must be identified and controlled during vastus lateralis elevation.",
+            "source_ids": [
+              "ao_ab876e208ec241f2",
+              "orthobullets_10c9d61b22bde8fc"
+            ]
+          }
+        ],
+        "structures_at_risk": [
+          {
+            "text": "The perforating branches of the profunda femoris artery are the principal structures at risk; avulsion causes brisk bleeding and retraction into the posterior compartment.",
+            "source_ids": [
+              "ao_ab876e208ec241f2",
+              "orthobullets_10c9d61b22bde8fc"
+            ],
+            "risk_level": "high"
+          },
+          {
+            "text": "Femoral-nerve motor branches to vastus lateralis are endangered by dissection carried too far anteriorly or proximally into the muscle belly.",
+            "source_ids": [
+              "ao_ab876e208ec241f2",
+              "orthobullets_10c9d61b22bde8fc"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "danger_zones": [
+          {
+            "text": "Control the profunda perforators as they traverse the lateral intermuscular septum before they are divided, because a retracted perforator bleeds into the posterior thigh and is difficult to retrieve.",
+            "source_ids": [
+              "ao_ab876e208ec241f2",
+              "orthobullets_10c9d61b22bde8fc"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "retraction_hazards": [
+          {
+            "text": "Avoid aggressive posterior retraction that tents the perforating vessels, and do not stray anteromedially toward the superficial femoral vessels in the adductor canal.",
+            "source_ids": [
+              "ao_ab876e208ec241f2",
+              "orthobullets_10c9d61b22bde8fc"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "exposure": [
+          {
+            "text": "Provides access to the entire lateral femoral shaft for plate or nail fixation and is readily extensile both proximally and distally.",
+            "source_ids": [
+              "ao_ab876e208ec241f2",
+              "orthobullets_10c9d61b22bde8fc"
+            ]
+          }
+        ],
+        "limitations": [
+          {
+            "text": "There is no true internervous plane, and the approach gives limited access to the posterior femur and the femoral vessels.",
+            "source_ids": [
+              "ao_ab876e208ec241f2",
+              "orthobullets_10c9d61b22bde8fc"
+            ]
+          }
+        ],
+        "extensions": [
+          {
+            "text": "Extend proximally toward the greater trochanter and lateral proximal femur for intertrochanteric or subtrochanteric fixation, and distally toward the lateral condyle for distal-femoral exposure.",
+            "source_ids": [
+              "ao_ab876e208ec241f2",
+              "orthobullets_10c9d61b22bde8fc"
+            ]
+          }
+        ],
+        "indications": [
+          {
+            "text": "Used for femoral-shaft plating (open or minimally invasive), intertrochanteric and subtrochanteric fixation, and periprosthetic femoral fracture fixation.",
+            "source_ids": [
+              "ao_ab876e208ec241f2",
+              "orthobullets_10c9d61b22bde8fc"
+            ]
+          }
+        ],
+        "relative_contraindications": [
+          {
+            "text": "Consider an alternative corridor when the lateral soft-tissue envelope is heavily contaminated or compromised, or when the target lies outside the lateral femur.",
+            "source_ids": [
+              "ao_ab876e208ec241f2",
+              "orthobullets_10c9d61b22bde8fc"
+            ]
+          }
+        ],
+        "implant_implications": [
+          {
+            "text": "Supports lateral plate application and submuscular tunneling deep to vastus lateralis for minimally invasive osteosynthesis; preserve periosteal blood supply by limiting soft-tissue stripping.",
+            "source_ids": [
+              "ao_ab876e208ec241f2",
+              "orthobullets_10c9d61b22bde8fc"
+            ]
+          }
+        ],
+        "fluoroscopy_implications": [
+          {
+            "text": "Confirm that positioning and draping allow unobstructed AP and lateral fluoroscopic views of the full femur before incision.",
+            "source_ids": [
+              "ao_ab876e208ec241f2"
+            ]
+          }
+        ],
+        "closure": [
+          {
+            "text": "Reapproximate vastus lateralis to the intermuscular septum where feasible, repair the fascia lata and iliotibial tract, and close subcutaneous tissue and skin.",
+            "source_ids": [
+              "ao_ab876e208ec241f2",
+              "orthobullets_10c9d61b22bde8fc"
+            ],
+            "risk_level": "medium"
+          }
+        ],
+        "complications": [
+          {
+            "text": "Approach-specific complications include perforator bleeding and thigh hematoma, quadriceps scarring with knee stiffness, iatrogenic vastus lateralis denervation, nonunion, and infection.",
+            "source_ids": [
+              "ao_ab876e208ec241f2",
+              "orthobullets_10c9d61b22bde8fc"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "bailouts": [
+          {
+            "text": "If a perforating vessel bleeds and retracts, extend the exposure to identify and ligate it directly rather than blindly clamping toward the posterior compartment.",
+            "source_ids": [
+              "ao_ab876e208ec241f2",
+              "orthobullets_10c9d61b22bde8fc"
+            ]
+          }
+        ],
+        "questions": [
+          {
+            "question": "Why is the lateral approach to the femur not a true internervous approach?",
+            "answer": "Because vastus lateralis is innervated by the femoral nerve throughout, so the plane is intramuscular/extraperiosteal rather than between two nerve territories.",
+            "source_ids": [
+              "ao_ab876e208ec241f2",
+              "orthobullets_10c9d61b22bde8fc"
+            ]
+          },
+          {
+            "question": "Which vessels are most at risk during the lateral approach to the femur?",
+            "answer": "The perforating branches of the profunda femoris artery as they cross the lateral intermuscular septum.",
+            "source_ids": [
+              "ao_ab876e208ec241f2",
+              "orthobullets_10c9d61b22bde8fc"
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

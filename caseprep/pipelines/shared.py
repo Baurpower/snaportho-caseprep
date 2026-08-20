@@ -15,6 +15,16 @@ def stable_id(prefix: str, question: str, answer: str) -> str:
     return f"{prefix}:{digest}"
 
 
+def norm_key(text: Any) -> str:
+    """Framing-independent key for the underlying fact (lowercased alnum tokens).
+
+    Used to detect the *same* payload entity surfaced by two sections even when
+    each frames it differently (e.g. a nerve shown as "why at risk" in anatomy
+    and "how to protect it" in key_takeaways).
+    """
+    return " ".join(re.findall(r"[a-z0-9]+", clean(text).lower()))
+
+
 def source_ids(payload: Optional[Dict[str, Any]]) -> List[str]:
     if not payload:
         return []
@@ -32,12 +42,13 @@ def item(
     supporting_detail: Any = "",
     confidence: float = 0.85,
     generated: bool = False,
+    dedup_key: Optional[str] = None,
 ) -> Optional[Dict[str, Any]]:
     q, a = clean(question), clean(answer)
     if not q or not a:
         return None
     refs = [clean(value) for value in sources if clean(value)]
-    return {
+    entry = {
         "id": stable_id(prefix, q, a),
         "question": q,
         "answer": a,
@@ -47,6 +58,10 @@ def item(
         "confidence": confidence,
         "generated": generated,
     }
+    if dedup_key:
+        # Internal only — the engine strips this before streaming to clients.
+        entry["_dedup_key"] = dedup_key
+    return entry
 
 
 def pipeline_result(

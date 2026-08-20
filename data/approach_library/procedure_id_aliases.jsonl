@@ -1,0 +1,5 @@
+{"live_procedure_id": "pelvis_ring_fracture_orif", "authored_procedure_id": "pelvic_ring_orif", "reason": "CasePrep slug is pelvis_ring_fracture_orif; authored packets use pelvic_ring_orif"}
+{"live_procedure_id": "supracondylar_humerus_fracture_pediatric", "authored_procedure_id": "pediatric_supracondylar_humerus_fracture_fixation", "reason": "CasePrep pediatric SCH slug vs authored pediatric_supracondylar_humerus_fracture_fixation"}
+{"live_procedure_id": "pilon_ankle_fracture_orif", "authored_procedure_id": "tibial_pilon_fracture_orif", "reason": "CasePrep pilon slug vs authored tibial_pilon_fracture_orif"}
+{"live_procedure_id": "posterior_lumbar_decompression_fusion", "approach_id": "spine_posterior_midline_thoracolumbar", "reason": "Certified PLDF is the posterior midline corridor; do not attach ALIF or transpsoas from lumbar_fusion"}
+{"live_procedure_id": "posterior_lumbar_decompression_fusion", "approach_id": "spine_wiltse", "reason": "Wiltse is a posterior paraspinal alternative used for lumbar fusion"}

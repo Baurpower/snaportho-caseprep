@@ -1,0 +1,1915 @@
+{
+  "approaches": [
+    {
+      "approach_id": "forearm_radial_shaft_dorsal_thompson",
+      "name": "Dorsal (Thompson) approach to the radial shaft",
+      "aliases": [
+        "Thompson approach to the radius",
+        "posterolateral approach to the radial shaft"
+      ],
+      "region": "forearm-shaft",
+      "joint": "",
+      "bones": [
+        "radius"
+      ],
+      "corridor": "Dorsolateral forearm interval between extensor carpi radialis brevis and extensor digitorum communis, with subperiosteal detachment of the supinator to reach the proximal and middle radial shaft",
+      "sources": [
+        {
+          "source_id": "ao_24eb9bd2e1f62a70",
+          "provider": "AO Surgery Reference",
+          "title": "Posterolateral approach (Thompson) to the forearm shaft",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/forearm-shaft/approach/posterolateral-approach-thompson",
+          "source_page_id": "ao_24eb9bd2e1f62a70"
+        },
+        {
+          "source_id": "orthobullets_12011",
+          "provider": "Orthobullets",
+          "title": "Dorsal Approach to Radius (Thompson)",
+          "url": "https://www.orthobullets.com/approaches/12011/dorsal-approach-to-radius-thompson"
+        }
+      ],
+      "procedure_applications": [
+        {
+          "procedure_id": "both_bone_forearm_fracture_orif",
+          "relationship": "primary_option",
+          "condition": "Dorsal exposure of the proximal or middle radial shaft is preferred, for example in a both-bone forearm fracture fixed through separate radial and ulnar incisions"
+        },
+        {
+          "procedure_id": "monteggia_fracture_orif",
+          "relationship": "conditional_option",
+          "condition": "The radial component or proximal radius requires dorsal exposure"
+        }
+      ],
+      "sections": {
+        "positioning": [
+          {
+            "text": "Position supine with the arm on a hand table; the forearm is pronated when abducted on the board or supinated when adducted across the chest, and full supination is used during deep dissection to carry the posterior interosseous nerve away from the radius.",
+            "source_ids": [
+              "ao_24eb9bd2e1f62a70",
+              "orthobullets_12011"
+            ]
+          }
+        ],
+        "surface_landmarks": [
+          {
+            "text": "Mark the lateral epicondyle of the humerus proximally and Lister's (dorsoradial) tubercle distally; the incision follows a line joining these points along the dorsolateral forearm.",
+            "source_ids": [
+              "ao_24eb9bd2e1f62a70",
+              "orthobullets_12011"
+            ]
+          }
+        ],
+        "incision": [
+          {
+            "text": "Incise the skin along the line from the lateral epicondyle to just distal-ulnar of Lister's tubercle, tailoring length to the segment of radius exposed.",
+            "source_ids": [
+              "ao_24eb9bd2e1f62a70",
+              "orthobullets_12011"
+            ]
+          }
+        ],
+        "superficial_interval": [
+          {
+            "text": "Open the deep fascia along the interval between extensor carpi radialis brevis (radial nerve) laterally and extensor digitorum communis (posterior interosseous nerve) medially; the abductor pollicis longus and extensor pollicis brevis are seen emerging obliquely between these muscles.",
+            "source_ids": [
+              "ao_24eb9bd2e1f62a70",
+              "orthobullets_12011"
+            ]
+          }
+        ],
+        "deep_interval": [
+          {
+            "text": "In the proximal third, fully supinate the forearm, identify the supinator, and strip its insertion subperiosteally to expose bone while keeping the posterior interosseous nerve within the muscle away from the field; in the middle third retract abductor pollicis longus and extensor pollicis brevis to reach the shaft, and distally separate extensor carpi radialis brevis from extensor pollicis longus.",
+            "source_ids": [
+              "ao_24eb9bd2e1f62a70",
+              "orthobullets_12011"
+            ]
+          }
+        ],
+        "layers": [
+          {
+            "text": "Skin, subcutaneous tissue, deep fascia, the extensor carpi radialis brevis and extensor digitorum communis interval, the supinator proximally, and the periosteum of the radius.",
+            "source_ids": [
+              "ao_24eb9bd2e1f62a70",
+              "orthobullets_12011"
+            ]
+          }
+        ],
+        "structures_at_risk": [
+          {
+            "text": "The posterior interosseous nerve is the principal structure at risk because it runs within the supinator and in about a quarter of patients contacts the dorsal radius; the superficial radial nerve and cephalic vein are at risk distally.",
+            "source_ids": [
+              "ao_24eb9bd2e1f62a70",
+              "orthobullets_12011"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "danger_zones": [
+          {
+            "text": "The proximal third within the supinator is the danger zone for the posterior interosseous nerve; proximal extension of a middle-third exposure carries considerable risk unless the nerve is deliberately identified and protected.",
+            "source_ids": [
+              "ao_24eb9bd2e1f62a70",
+              "orthobullets_12011"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "retraction_hazards": [
+          {
+            "text": "Most posterior interosseous nerve injuries arise from retraction rather than transection, so avoid forceful retraction across the supinator and keep the forearm supinated during proximal work.",
+            "source_ids": [
+              "ao_24eb9bd2e1f62a70",
+              "orthobullets_12011"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "exposure": [
+          {
+            "text": "Exposes the posterior and lateral surfaces of the proximal and middle radial shaft for plating, osteotomy, or tumor work.",
+            "source_ids": [
+              "ao_24eb9bd2e1f62a70",
+              "orthobullets_12011"
+            ]
+          }
+        ],
+        "limitations": [
+          {
+            "text": "Proximal extension is limited by the posterior interosseous nerve, and the volar (Henry) approach is generally preferred for the distal radius; a high dorsal plate can tether the nerve.",
+            "source_ids": [
+              "ao_24eb9bd2e1f62a70",
+              "orthobullets_12011"
+            ]
+          }
+        ],
+        "indications": [
+          {
+            "text": "Indicated for fixation of proximal and middle radial shaft fractures, radial osteotomy, tumor or osteomyelitis surgery, and access to the posterior interosseous nerve.",
+            "source_ids": [
+              "ao_24eb9bd2e1f62a70",
+              "orthobullets_12011"
+            ]
+          }
+        ],
+        "closure": [
+          {
+            "text": "Allow the supinator and extensor muscles to fall back into position, close the deep fascia and subcutaneous tissue in layers, and close skin; do not plicate tissue over a dorsal plate in a way that tents the nerve.",
+            "source_ids": [
+              "ao_24eb9bd2e1f62a70",
+              "orthobullets_12011"
+            ]
+          }
+        ],
+        "complications": [
+          {
+            "text": "The main complication is posterior interosseous nerve palsy from retraction or plate placement; others include superficial radial nerve injury, nonunion, and radioulnar synostosis.",
+            "source_ids": [
+              "ao_24eb9bd2e1f62a70",
+              "orthobullets_12011"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "questions": [
+          {
+            "question": "Which muscle interval defines the Thompson approach to the radius?",
+            "answer": "Between extensor carpi radialis brevis and extensor digitorum communis proximally.",
+            "source_ids": [
+              "ao_24eb9bd2e1f62a70",
+              "orthobullets_12011"
+            ]
+          },
+          {
+            "question": "How is the posterior interosseous nerve protected during the Thompson approach?",
+            "answer": "By fully supinating the forearm and subperiosteally stripping the supinator so the nerve is carried away from the radius.",
+            "source_ids": [
+              "ao_24eb9bd2e1f62a70",
+              "orthobullets_12011"
+            ]
+          },
+          {
+            "question": "Why is the distal radius usually approached volarly instead of through Thompson's interval?",
+            "answer": "The dorsal approach offers limited safe distal extension and risks the posterior interosseous and superficial radial nerves, so the volar Henry approach is preferred distally.",
+            "source_ids": [
+              "ao_24eb9bd2e1f62a70",
+              "orthobullets_12011"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "approach_id": "forearm_proximal_speed_boyd",
+      "name": "Speed and Boyd's approach to the proximal forearm",
+      "aliases": [
+        "Boyd approach to the proximal radius and ulna",
+        "posterior approach for Monteggia injuries"
+      ],
+      "region": "forearm-shaft",
+      "joint": "elbow",
+      "bones": [
+        "ulna",
+        "radius"
+      ],
+      "corridor": "Posterior interval along the subcutaneous border of the proximal ulna, reflecting anconeus and detaching the supinator from its ulnar origin to reach the radial head through a single posterior exposure",
+      "sources": [
+        {
+          "source_id": "ao_43a73c40a5d31f67",
+          "provider": "AO Surgery Reference",
+          "title": "Speed and Boyd's approach to the forearm shaft",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/forearm-shaft/approach/speed-and-boyds-approach",
+          "source_page_id": "ao_43a73c40a5d31f67"
+        },
+        {
+          "source_id": "ao_5ec4eb68cf7740a9",
+          "provider": "AO Surgery Reference",
+          "title": "Combined posterior approach to radius and ulna",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/forearm-shaft/approach/combined-posterior-approach-to-radius-and-ulna",
+          "source_page_id": "ao_5ec4eb68cf7740a9"
+        }
+      ],
+      "procedure_applications": [
+        {
+          "procedure_id": "monteggia_fracture_orif",
+          "relationship": "primary_option",
+          "condition": "A Monteggia injury needs exposure of the proximal ulna and radial head, especially with persistent radial-head displacement after ulnar fixation"
+        }
+      ],
+      "sections": {
+        "positioning": [
+          {
+            "text": "Position with the arm across the chest or on a support so the posterior elbow and subcutaneous border of the ulna are accessible; forearm rotation is used to protect the posterior interosseous nerve during supinator dissection.",
+            "source_ids": [
+              "ao_43a73c40a5d31f67"
+            ]
+          }
+        ],
+        "surface_landmarks": [
+          {
+            "text": "Mark the tip of the olecranon, the lateral epicondyle, the triceps tendon, and the subcutaneous border of the ulna.",
+            "source_ids": [
+              "ao_43a73c40a5d31f67"
+            ]
+          }
+        ],
+        "incision": [
+          {
+            "text": "Begin the incision proximal to the elbow and lateral to the triceps tendon, curve it over the lateral aspect of the olecranon tip, and continue distally along the subcutaneous border of the ulna.",
+            "source_ids": [
+              "ao_43a73c40a5d31f67"
+            ]
+          }
+        ],
+        "superficial_interval": [
+          {
+            "text": "Incise the deep fascia to reach the lateral margin of the ulna in the interval between the anconeus and flexor carpi ulnaris.",
+            "source_ids": [
+              "ao_43a73c40a5d31f67"
+            ]
+          }
+        ],
+        "deep_interval": [
+          {
+            "text": "Incise the ulnar insertion of the anconeus and reflect it anterolaterally, detach the supinator near its ulnar origin, and free both muscles from the posterior interosseous membrane to expose the posterior capsule over the radial head.",
+            "source_ids": [
+              "ao_43a73c40a5d31f67",
+              "ao_5ec4eb68cf7740a9"
+            ]
+          }
+        ],
+        "layers": [
+          {
+            "text": "Skin, subcutaneous tissue, deep fascia, the anconeus and flexor carpi ulnaris interval, the supinator, and the posterior elbow capsule.",
+            "source_ids": [
+              "ao_43a73c40a5d31f67"
+            ]
+          }
+        ],
+        "structures_at_risk": [
+          {
+            "text": "The posterior interosseous nerve, which lies within the supinator, is the key structure at risk and must be protected while the supinator is detached and retracted.",
+            "source_ids": [
+              "ao_43a73c40a5d31f67",
+              "ao_5ec4eb68cf7740a9"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "danger_zones": [
+          {
+            "text": "The supinator mass over the proximal radius is the danger zone for the posterior interosseous nerve; keep dissection subperiosteal and identify the nerve before forceful retraction.",
+            "source_ids": [
+              "ao_43a73c40a5d31f67",
+              "ao_5ec4eb68cf7740a9"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "retraction_hazards": [
+          {
+            "text": "Avoid vigorous retraction of the detached supinator, which can stretch the posterior interosseous nerve.",
+            "source_ids": [
+              "ao_43a73c40a5d31f67",
+              "ao_5ec4eb68cf7740a9"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "exposure": [
+          {
+            "text": "Exposes the proximal ulna and the radial head and neck through a single posterior incision.",
+            "source_ids": [
+              "ao_43a73c40a5d31f67"
+            ]
+          }
+        ],
+        "limitations": [
+          {
+            "text": "As with any combined exposure of both forearm bones, there is an increased risk of radioulnar synostosis, which limits routine use.",
+            "source_ids": [
+              "ao_43a73c40a5d31f67",
+              "ao_5ec4eb68cf7740a9"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "indications": [
+          {
+            "text": "Indicated for proximal ulnar shaft fractures and radial-head disorders, particularly Monteggia injuries with persistent radial-head displacement after anatomical ulnar fixation.",
+            "source_ids": [
+              "ao_43a73c40a5d31f67"
+            ]
+          }
+        ],
+        "closure": [
+          {
+            "text": "Reattach or lay back the anconeus and supinator, close the deep fascia and subcutaneous tissue in layers, and close skin, avoiding tissue interposition that could bridge to the radius.",
+            "source_ids": [
+              "ao_43a73c40a5d31f67",
+              "ao_5ec4eb68cf7740a9"
+            ]
+          }
+        ],
+        "complications": [
+          {
+            "text": "Principal complications are posterior interosseous nerve palsy and radioulnar synostosis; malreduction of the radial head may also occur.",
+            "source_ids": [
+              "ao_43a73c40a5d31f67",
+              "ao_5ec4eb68cf7740a9"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "questions": [
+          {
+            "question": "Through which interval is the proximal ulna reached in Speed and Boyd's approach?",
+            "answer": "Along the subcutaneous border of the ulna, between the anconeus and flexor carpi ulnaris.",
+            "source_ids": [
+              "ao_43a73c40a5d31f67"
+            ]
+          },
+          {
+            "question": "What is the main long-term drawback of a combined posterior forearm exposure?",
+            "answer": "Increased risk of radioulnar synostosis.",
+            "source_ids": [
+              "ao_43a73c40a5d31f67",
+              "ao_5ec4eb68cf7740a9"
+            ]
+          },
+          {
+            "question": "Why is Speed and Boyd's approach useful in a Monteggia injury?",
+            "answer": "It exposes both the proximal ulna and the radial head, allowing reduction of a radial head that remains displaced after ulnar fixation.",
+            "source_ids": [
+              "ao_43a73c40a5d31f67"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "approach_id": "forearm_combined_posterior_radius_ulna",
+      "name": "Combined posterior approach to the radius and ulna",
+      "aliases": [
+        "single-incision posterior approach to both forearm bones"
+      ],
+      "region": "forearm-shaft",
+      "joint": "",
+      "bones": [
+        "radius",
+        "ulna"
+      ],
+      "corridor": "Single posterior incision giving an ulnar window along the subcutaneous ulna and a radial window through the extensor carpi radialis brevis and extensor digitorum communis interval with supinator division",
+      "sources": [
+        {
+          "source_id": "ao_5ec4eb68cf7740a9",
+          "provider": "AO Surgery Reference",
+          "title": "Combined posterior approach to radius and ulna",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/forearm-shaft/approach/combined-posterior-approach-to-radius-and-ulna",
+          "source_page_id": "ao_5ec4eb68cf7740a9"
+        },
+        {
+          "source_id": "ao_24eb9bd2e1f62a70",
+          "provider": "AO Surgery Reference",
+          "title": "Posterolateral approach (Thompson) to the forearm shaft",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/forearm-shaft/approach/posterolateral-approach-thompson",
+          "source_page_id": "ao_24eb9bd2e1f62a70"
+        },
+        {
+          "source_id": "ao_43a73c40a5d31f67",
+          "provider": "AO Surgery Reference",
+          "title": "Speed and Boyd's approach to the forearm shaft",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/forearm-shaft/approach/speed-and-boyds-approach",
+          "source_page_id": "ao_43a73c40a5d31f67"
+        }
+      ],
+      "procedure_applications": [
+        {
+          "procedure_id": "both_bone_forearm_fracture_orif",
+          "relationship": "conditional_option",
+          "condition": "A large dorsal soft-tissue wound makes separate volar and dorsal incisions impractical"
+        }
+      ],
+      "sections": {
+        "positioning": [
+          {
+            "text": "Position the forearm in mid-pronation on a hand table so both the subcutaneous ulna and the dorsoradial forearm are accessible.",
+            "source_ids": [
+              "ao_5ec4eb68cf7740a9"
+            ]
+          }
+        ],
+        "surface_landmarks": [
+          {
+            "text": "Mark the interval between the olecranon and lateral epicondyle proximally, the subcutaneous crest of the proximal ulna, and the middle third of the radius.",
+            "source_ids": [
+              "ao_5ec4eb68cf7740a9"
+            ]
+          }
+        ],
+        "incision": [
+          {
+            "text": "Start the incision proximally between the olecranon and the lateral epicondyle and curve it distally over the proximal third of the ulna and the middle third of the radius.",
+            "source_ids": [
+              "ao_5ec4eb68cf7740a9"
+            ]
+          }
+        ],
+        "superficial_interval": [
+          {
+            "text": "For the ulnar window, deepen the proximal incision onto the subcutaneous and radial surfaces of the ulna, retracting extensor carpi ulnaris laterally; for the radial window, split the seam between extensor carpi radialis brevis and extensor digitorum communis.",
+            "source_ids": [
+              "ao_5ec4eb68cf7740a9",
+              "ao_24eb9bd2e1f62a70"
+            ]
+          }
+        ],
+        "deep_interval": [
+          {
+            "text": "Elevate extensor carpi ulnaris extraperiosteally from the ulna, and on the radial side expose the supinator, identify the posterior interosseous nerve, then divide the supinator insertion longitudinally at the lateral radius and retract it medially.",
+            "source_ids": [
+              "ao_5ec4eb68cf7740a9",
+              "ao_24eb9bd2e1f62a70"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "layers": [
+          {
+            "text": "Skin, subcutaneous tissue, deep fascia, the ulnar periosteal surface via the extensor carpi ulnaris, and the extensor carpi radialis brevis and extensor digitorum communis interval with the underlying supinator on the radial side.",
+            "source_ids": [
+              "ao_5ec4eb68cf7740a9"
+            ]
+          }
+        ],
+        "structures_at_risk": [
+          {
+            "text": "The posterior interosseous nerve within the supinator must be identified before the supinator is divided and retracted.",
+            "source_ids": [
+              "ao_5ec4eb68cf7740a9",
+              "ao_24eb9bd2e1f62a70"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "danger_zones": [
+          {
+            "text": "The single incision brings the raw surfaces of radius and ulna and the interosseous membrane into one field, which is the danger zone for cross-union.",
+            "source_ids": [
+              "ao_5ec4eb68cf7740a9",
+              "ao_43a73c40a5d31f67"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "retraction_hazards": [
+          {
+            "text": "Avoid stripping the interosseous membrane and forceful supinator retraction, both of which raise the risk of nerve injury and synostosis.",
+            "source_ids": [
+              "ao_5ec4eb68cf7740a9",
+              "ao_24eb9bd2e1f62a70"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "exposure": [
+          {
+            "text": "Exposes the proximal-to-middle ulna and the middle radius through a single dorsal incision.",
+            "source_ids": [
+              "ao_5ec4eb68cf7740a9"
+            ]
+          }
+        ],
+        "limitations": [
+          {
+            "text": "The main drawback is a high risk of radioulnar synostosis, so the approach is rarely used and reserved for patients with large dorsal soft-tissue wounds.",
+            "source_ids": [
+              "ao_5ec4eb68cf7740a9",
+              "ao_43a73c40a5d31f67"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "indications": [
+          {
+            "text": "Reserved for both-bone forearm fractures where a large dorsal wound precludes the standard separate volar and dorsal incisions.",
+            "source_ids": [
+              "ao_5ec4eb68cf7740a9"
+            ]
+          }
+        ],
+        "closure": [
+          {
+            "text": "Lay the extensor muscles back over the bones, keep soft tissue interposed between the two repair sites where possible, close fascia and subcutaneous tissue, and close skin.",
+            "source_ids": [
+              "ao_5ec4eb68cf7740a9"
+            ]
+          }
+        ],
+        "complications": [
+          {
+            "text": "Radioulnar synostosis is the dominant complication; posterior interosseous nerve injury and wound problems may also occur.",
+            "source_ids": [
+              "ao_5ec4eb68cf7740a9",
+              "ao_24eb9bd2e1f62a70"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "questions": [
+          {
+            "question": "Why is a combined single-incision approach to both forearm bones rarely used?",
+            "answer": "Because it carries a high risk of radioulnar synostosis.",
+            "source_ids": [
+              "ao_5ec4eb68cf7740a9"
+            ]
+          },
+          {
+            "question": "What is the principal indication for the combined posterior approach?",
+            "answer": "A large dorsal soft-tissue wound that prevents standard separate volar and dorsal incisions.",
+            "source_ids": [
+              "ao_5ec4eb68cf7740a9"
+            ]
+          },
+          {
+            "question": "Which nerve must be identified before dividing the supinator in the radial window?",
+            "answer": "The posterior interosseous nerve.",
+            "source_ids": [
+              "ao_5ec4eb68cf7740a9",
+              "ao_24eb9bd2e1f62a70"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "approach_id": "forearm_lateral_proximal_radius",
+      "name": "Lateral approach to the proximal radius",
+      "aliases": [
+        "Kocher-type lateral approach to the radial head",
+        "anconeus–extensor carpi ulnaris interval"
+      ],
+      "region": "forearm-shaft",
+      "joint": "elbow",
+      "bones": [
+        "radius"
+      ],
+      "corridor": "Lateral elbow interval between anconeus and extensor carpi ulnaris, through the lateral capsule to the radial head, neck, and annular ligament",
+      "sources": [
+        {
+          "source_id": "ao_dafb27f83a9496e0",
+          "provider": "AO Surgery Reference",
+          "title": "Lateral approach to the proximal radius",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/forearm-shaft/approach/lateral-approach-to-the-proximal-radius",
+          "source_page_id": "ao_dafb27f83a9496e0"
+        },
+        {
+          "source_id": "orthobullets_12099",
+          "provider": "Orthobullets",
+          "title": "Radial Head Lateral Approach",
+          "url": "https://www.orthobullets.com/approaches/12099/radial-head-lateral-approach"
+        }
+      ],
+      "procedure_applications": [
+        {
+          "procedure_id": "radial_head_fracture_orif",
+          "relationship": "primary_option",
+          "condition": "The radial head or neck requires exposure for fixation or replacement"
+        }
+      ],
+      "sections": {
+        "positioning": [
+          {
+            "text": "Position supine with the arm across the chest or on a hand table with the forearm pronated, since pronation carries the posterior interosseous nerve away from the operative field.",
+            "source_ids": [
+              "ao_dafb27f83a9496e0",
+              "orthobullets_12099"
+            ]
+          }
+        ],
+        "surface_landmarks": [
+          {
+            "text": "Mark the lateral humeral epicondyle, the radial head, and the line of the elbow joint.",
+            "source_ids": [
+              "ao_dafb27f83a9496e0"
+            ]
+          }
+        ],
+        "incision": [
+          {
+            "text": "Begin about 2 cm proximal to the lateral epicondyle and carry the incision across the elbow joint over the radial head to approximately 5 cm distal to the joint.",
+            "source_ids": [
+              "ao_dafb27f83a9496e0"
+            ]
+          }
+        ],
+        "superficial_interval": [
+          {
+            "text": "Incise the subcutaneous tissue and deep fascia and develop the interval between the anterior border of anconeus and the extensor carpi ulnaris, using the fat stripe under the fascia to identify the plane.",
+            "source_ids": [
+              "ao_dafb27f83a9496e0",
+              "orthobullets_12099"
+            ]
+          }
+        ],
+        "deep_interval": [
+          {
+            "text": "Separate anconeus from extensor carpi ulnaris, elevate the muscles from the joint capsule, and incise the capsule to expose the radial head and annular ligament, keeping the forearm pronated.",
+            "source_ids": [
+              "ao_dafb27f83a9496e0",
+              "orthobullets_12099"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "layers": [
+          {
+            "text": "Skin, subcutaneous tissue, deep fascia, the anconeus and extensor carpi ulnaris interval, the lateral elbow capsule, and the radial head.",
+            "source_ids": [
+              "ao_dafb27f83a9496e0"
+            ]
+          }
+        ],
+        "structures_at_risk": [
+          {
+            "text": "The posterior interosseous nerve within the supinator (roughly three finger-breadths distal to the radial head, with a safe zone near 48 mm from the radiocapitellar joint), the radial nerve over the anterolateral capsule, and the lateral ulnar collateral ligament are at risk.",
+            "source_ids": [
+              "ao_dafb27f83a9496e0",
+              "orthobullets_12099"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "danger_zones": [
+          {
+            "text": "Dissection distal to the annular ligament and excessive anterior capsular incision are the danger zones for the posterior interosseous and radial nerves.",
+            "source_ids": [
+              "ao_dafb27f83a9496e0",
+              "orthobullets_12099"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "retraction_hazards": [
+          {
+            "text": "Avoid strenuous distal retraction, which can stretch the posterior interosseous nerve; keep the forearm pronated during distal work.",
+            "source_ids": [
+              "ao_dafb27f83a9496e0",
+              "orthobullets_12099"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "exposure": [
+          {
+            "text": "Exposes the radial head, neck, and annular ligament for fixation or arthroplasty.",
+            "source_ids": [
+              "ao_dafb27f83a9496e0"
+            ]
+          }
+        ],
+        "limitations": [
+          {
+            "text": "Safe distal extension is limited by the posterior interosseous nerve; posterior structures behind the radial head, especially near the lateral ulnar collateral ligament, must be respected to avoid instability.",
+            "source_ids": [
+              "ao_dafb27f83a9496e0",
+              "orthobullets_12099"
+            ]
+          }
+        ],
+        "extensions": [
+          {
+            "text": "A lateral epicondyle osteotomy variant preserves the collateral ligaments and common extensor origin but requires fixation of the fragment during closure.",
+            "source_ids": [
+              "ao_dafb27f83a9496e0"
+            ]
+          }
+        ],
+        "indications": [
+          {
+            "text": "Indicated for open reduction and internal fixation or replacement of radial head and neck fractures.",
+            "source_ids": [
+              "ao_dafb27f83a9496e0",
+              "orthobullets_12099"
+            ]
+          }
+        ],
+        "closure": [
+          {
+            "text": "Repair the lateral capsule, protect the lateral ulnar collateral ligament, fix any epicondylar osteotomy, and close fascia, subcutaneous tissue, and skin in layers.",
+            "source_ids": [
+              "ao_dafb27f83a9496e0"
+            ]
+          }
+        ],
+        "complications": [
+          {
+            "text": "Complications include posterior interosseous nerve palsy, radial nerve injury, and posterolateral rotatory instability from lateral ulnar collateral ligament injury.",
+            "source_ids": [
+              "ao_dafb27f83a9496e0",
+              "orthobullets_12099"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "questions": [
+          {
+            "question": "Which muscle interval is used for the lateral approach to the radial head?",
+            "answer": "Between the anconeus and the extensor carpi ulnaris.",
+            "source_ids": [
+              "ao_dafb27f83a9496e0",
+              "orthobullets_12099"
+            ]
+          },
+          {
+            "question": "How is the posterior interosseous nerve protected in this approach?",
+            "answer": "By fully pronating the forearm and avoiding dissection distal to the annular ligament.",
+            "source_ids": [
+              "ao_dafb27f83a9496e0",
+              "orthobullets_12099"
+            ]
+          },
+          {
+            "question": "Which ligament must be preserved behind the radial head to avoid instability?",
+            "answer": "The lateral ulnar collateral ligament.",
+            "source_ids": [
+              "ao_dafb27f83a9496e0",
+              "orthobullets_12099"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "approach_id": "forearm_radius_intramedullary_nailing_entry",
+      "name": "Distal radius entry approach for intramedullary nailing",
+      "aliases": [
+        "dorsal distal radius nail entry",
+        "radial styloid nail entry"
+      ],
+      "region": "distal-forearm",
+      "joint": "wrist",
+      "bones": [
+        "radius"
+      ],
+      "corridor": "Small dorsal window over the distal radius at the radial side of Lister's tubercle (between the second and third extensor compartments) or at the radial styloid (between the first and second compartments) to gain the intramedullary canal",
+      "sources": [
+        {
+          "source_id": "ao_c308ece8590757a8",
+          "provider": "AO Surgery Reference",
+          "title": "Approaches to the radius for intramedullary nailing",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/forearm-shaft/approach/approaches-to-the-radius-for-intramedullary-nailing",
+          "source_page_id": "ao_c308ece8590757a8"
+        },
+        {
+          "source_id": "ao_1966107fff0ea485",
+          "provider": "AO Surgery Reference",
+          "title": "Anatomy of the distal forearm",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/distal-forearm/approach/anatomy-of-the-distal-forearm",
+          "source_page_id": "ao_1966107fff0ea485"
+        }
+      ],
+      "procedure_applications": [
+        {
+          "procedure_id": "both_bone_forearm_fracture_orif",
+          "relationship": "conditional_option",
+          "condition": "The radius is stabilized with an intramedullary nail rather than a plate"
+        }
+      ],
+      "sections": {
+        "positioning": [
+          {
+            "text": "Position supine with the arm on a hand table and the wrist accessible for a dorsal entry and for fluoroscopy.",
+            "source_ids": [
+              "ao_c308ece8590757a8"
+            ]
+          }
+        ],
+        "surface_landmarks": [
+          {
+            "text": "Identify Lister's tubercle and the radial styloid; the entry lies at the radial side of Lister's tubercle between the second and third dorsal compartments, or at the radial styloid between the first and second compartments.",
+            "source_ids": [
+              "ao_c308ece8590757a8",
+              "ao_1966107fff0ea485"
+            ]
+          }
+        ],
+        "incision": [
+          {
+            "text": "Make a 2.5 to 3 cm longitudinal incision over the distal radius on the radial side of Lister's tubercle.",
+            "source_ids": [
+              "ao_c308ece8590757a8"
+            ]
+          }
+        ],
+        "superficial_interval": [
+          {
+            "text": "Spread bluntly through subcutaneous tissue toward bone, protecting the dorsal branches of the superficial radial nerve that cross the tendons.",
+            "source_ids": [
+              "ao_c308ece8590757a8",
+              "ao_1966107fff0ea485"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "deep_interval": [
+          {
+            "text": "Deepen the dissection by spreading a forceps and advancing retractors layer by layer to the bone, incising the extensor retinaculum only partially and avoiding the third-compartment extensor pollicis longus at Lister's tubercle.",
+            "source_ids": [
+              "ao_c308ece8590757a8",
+              "ao_1966107fff0ea485"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "layers": [
+          {
+            "text": "Skin, subcutaneous tissue with superficial radial nerve branches, extensor retinaculum, the second and third compartment tendons, and the dorsal cortex of the distal radius.",
+            "source_ids": [
+              "ao_c308ece8590757a8",
+              "ao_1966107fff0ea485"
+            ]
+          }
+        ],
+        "structures_at_risk": [
+          {
+            "text": "The dorsal branches of the superficial radial nerve, the second and third compartment extensor tendons, and the extensor pollicis longus at Lister's tubercle are at risk.",
+            "source_ids": [
+              "ao_c308ece8590757a8",
+              "ao_1966107fff0ea485"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "danger_zones": [
+          {
+            "text": "Complete division of the extensor retinaculum is a danger zone because it can lead to extensor tendon subluxation or bowstringing; a prominent nail can abrade the second and third compartment tendons.",
+            "source_ids": [
+              "ao_c308ece8590757a8"
+            ],
+            "risk_level": "medium"
+          }
+        ],
+        "retraction_hazards": [
+          {
+            "text": "Retract tendons gently and keep the superficial radial nerve branches out of the retractor to avoid traction neuropraxia.",
+            "source_ids": [
+              "ao_c308ece8590757a8",
+              "ao_1966107fff0ea485"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "exposure": [
+          {
+            "text": "Exposes a limited dorsal window of the distal radius sufficient to establish the intramedullary entry point.",
+            "source_ids": [
+              "ao_c308ece8590757a8"
+            ]
+          }
+        ],
+        "limitations": [
+          {
+            "text": "The window gives no direct fracture visualization and depends on closed reduction and fluoroscopy; tendon irritation limits the acceptable nail prominence.",
+            "source_ids": [
+              "ao_c308ece8590757a8"
+            ]
+          }
+        ],
+        "indications": [
+          {
+            "text": "Indicated to establish the distal radius entry point for antegrade intramedullary nailing of radial shaft fractures.",
+            "source_ids": [
+              "ao_c308ece8590757a8"
+            ]
+          }
+        ],
+        "closure": [
+          {
+            "text": "Repair or leave the partially incised retinaculum so tendons are not left subluxed, and close subcutaneous tissue and skin.",
+            "source_ids": [
+              "ao_c308ece8590757a8"
+            ],
+            "risk_level": "medium"
+          }
+        ],
+        "complications": [
+          {
+            "text": "Complications include superficial radial nerve injury, extensor tendon irritation or rupture, and tendon subluxation from complete retinacular division.",
+            "source_ids": [
+              "ao_c308ece8590757a8",
+              "ao_1966107fff0ea485"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "questions": [
+          {
+            "question": "Where is the dorsal entry point for radius intramedullary nailing?",
+            "answer": "At the radial side of Lister's tubercle between the second and third compartments, or at the radial styloid between the first and second compartments.",
+            "source_ids": [
+              "ao_c308ece8590757a8"
+            ]
+          },
+          {
+            "question": "Why should the extensor retinaculum not be completely divided?",
+            "answer": "Complete division can cause extensor tendon subluxation or bowstringing.",
+            "source_ids": [
+              "ao_c308ece8590757a8"
+            ]
+          },
+          {
+            "question": "Which nerve branches are most at risk during this dorsal exposure?",
+            "answer": "The dorsal branches of the superficial radial nerve.",
+            "source_ids": [
+              "ao_c308ece8590757a8",
+              "ao_1966107fff0ea485"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "approach_id": "forearm_druj_posterior_anterior",
+      "name": "Posterior and anterior approaches to the distal radioulnar joint",
+      "aliases": [
+        "DRUJ approach for irreducible Galeazzi",
+        "dorsal and volar DRUJ exposure"
+      ],
+      "region": "distal-forearm",
+      "joint": "distal radioulnar joint",
+      "bones": [
+        "ulna",
+        "radius"
+      ],
+      "corridor": "Dorsal window through the extensor retinaculum between the fourth and fifth compartments, or a volar window medial to palmaris longus incising the distal pronator quadratus, to reach a dislocated ulnar head",
+      "sources": [
+        {
+          "source_id": "ao_0f1233fc83708b1b",
+          "provider": "AO Surgery Reference",
+          "title": "Approaches to the DRUJ (posterior, anterior)",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/forearm-shaft/approach/approaches-to-the-druj-posterior-anterior",
+          "source_page_id": "ao_0f1233fc83708b1b"
+        },
+        {
+          "source_id": "ao_1966107fff0ea485",
+          "provider": "AO Surgery Reference",
+          "title": "Anatomy of the distal forearm",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/distal-forearm/approach/anatomy-of-the-distal-forearm",
+          "source_page_id": "ao_1966107fff0ea485"
+        }
+      ],
+      "procedure_applications": [
+        {
+          "procedure_id": "both_bone_forearm_fracture_orif",
+          "relationship": "conditional_option",
+          "condition": "A Galeazzi injury has an ulnar head that cannot be reduced closed after radial fixation"
+        }
+      ],
+      "sections": {
+        "positioning": [
+          {
+            "text": "Position supine with the arm on a hand table; forearm rotation (supination for the posterior approach, pronation for the anterior approach) is used to reduce and hold the ulnar head.",
+            "source_ids": [
+              "ao_0f1233fc83708b1b"
+            ]
+          }
+        ],
+        "surface_landmarks": [
+          {
+            "text": "Mark the distal radioulnar joint between the radius and ulna dorsally, and volarly the palmaris longus, flexor carpi ulnaris, and the ulnar neurovascular course.",
+            "source_ids": [
+              "ao_0f1233fc83708b1b",
+              "ao_1966107fff0ea485"
+            ]
+          }
+        ],
+        "incision": [
+          {
+            "text": "For the posterior approach make a longitudinal incision between radius and ulna over the DRUJ; for the anterior approach incise just medial to the palmaris longus tendon.",
+            "source_ids": [
+              "ao_0f1233fc83708b1b"
+            ]
+          }
+        ],
+        "superficial_interval": [
+          {
+            "text": "Posteriorly, incise the extensor retinaculum between the fourth and fifth compartments; anteriorly, develop the plane medial to palmaris longus with the median nerve and flexor tendons radial and the ulnar nerve and vessels ulnar.",
+            "source_ids": [
+              "ao_0f1233fc83708b1b",
+              "ao_1966107fff0ea485"
+            ]
+          }
+        ],
+        "deep_interval": [
+          {
+            "text": "Posteriorly, retract the extensor digitorum tendons radially and the little-finger extensors ulnarward to reach the capsule and ulnar head; anteriorly, incise the distal pronator quadratus longitudinally to expose the torn capsule and dislocated ulnar head.",
+            "source_ids": [
+              "ao_0f1233fc83708b1b"
+            ]
+          }
+        ],
+        "layers": [
+          {
+            "text": "Skin, subcutaneous tissue, extensor retinaculum and the fourth/fifth compartment tendons dorsally, or palmaris longus, flexor tendons, and pronator quadratus volarly, then the DRUJ capsule.",
+            "source_ids": [
+              "ao_0f1233fc83708b1b",
+              "ao_1966107fff0ea485"
+            ]
+          }
+        ],
+        "structures_at_risk": [
+          {
+            "text": "The median nerve and its palmar cutaneous branch on the radial side and the ulnar nerve and vessels on the ulnar side are at risk during the anterior approach; the extensor tendons are at risk dorsally.",
+            "source_ids": [
+              "ao_0f1233fc83708b1b",
+              "ao_1966107fff0ea485"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "danger_zones": [
+          {
+            "text": "Do not retract the median nerve medially during the anterior approach, because this stretches and can damage the palmar cutaneous branch of the median nerve.",
+            "source_ids": [
+              "ao_0f1233fc83708b1b",
+              "ao_1966107fff0ea485"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "retraction_hazards": [
+          {
+            "text": "Retract the median nerve and flexor tendons radially rather than ulnarward, and protect the ulnar neurovascular bundle behind the flexor carpi ulnaris.",
+            "source_ids": [
+              "ao_0f1233fc83708b1b",
+              "ao_1966107fff0ea485"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "exposure": [
+          {
+            "text": "Exposes the DRUJ capsule and ulnar head for open reduction, capsular repair, and temporary transfixation.",
+            "source_ids": [
+              "ao_0f1233fc83708b1b"
+            ]
+          }
+        ],
+        "limitations": [
+          {
+            "text": "The approaches are reserved for irreducible DRUJ dislocations and give limited exposure beyond the joint itself.",
+            "source_ids": [
+              "ao_0f1233fc83708b1b"
+            ]
+          }
+        ],
+        "indications": [
+          {
+            "text": "Indicated when an ulnar head dislocation in a Galeazzi injury cannot be reduced closed after fixation of the radius.",
+            "source_ids": [
+              "ao_0f1233fc83708b1b"
+            ]
+          }
+        ],
+        "closure": [
+          {
+            "text": "Repair the capsule with interrupted resorbable sutures, place a temporary transfixation K-wire in the most stable position for about three weeks, and protect in a cast.",
+            "source_ids": [
+              "ao_0f1233fc83708b1b"
+            ]
+          }
+        ],
+        "complications": [
+          {
+            "text": "Complications include injury to the palmar cutaneous branch of the median nerve or the ulnar neurovascular bundle, recurrent DRUJ instability, and K-wire breakage or migration.",
+            "source_ids": [
+              "ao_0f1233fc83708b1b",
+              "ao_1966107fff0ea485"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "questions": [
+          {
+            "question": "Between which extensor compartments is the retinaculum opened for the posterior DRUJ approach?",
+            "answer": "Between the fourth and fifth compartments.",
+            "source_ids": [
+              "ao_0f1233fc83708b1b"
+            ]
+          },
+          {
+            "question": "Why should the median nerve not be retracted medially in the anterior DRUJ approach?",
+            "answer": "Because it would damage the palmar cutaneous branch of the median nerve.",
+            "source_ids": [
+              "ao_0f1233fc83708b1b"
+            ]
+          },
+          {
+            "question": "What is the usual indication for open DRUJ exposure in a Galeazzi injury?",
+            "answer": "An ulnar head dislocation that cannot be reduced closed after fixing the radius.",
+            "source_ids": [
+              "ao_0f1233fc83708b1b"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "approach_id": "forearm_pediatric_radius_esin_entry",
+      "name": "ESIN entry points for the pediatric radius",
+      "aliases": [
+        "elastic stable intramedullary nailing radius entry (child)",
+        "distal radius flexible nail entry"
+      ],
+      "region": "forearm-shaft",
+      "joint": "wrist",
+      "bones": [
+        "radius"
+      ],
+      "corridor": "Distal radial metaphyseal entry 1–1.5 cm proximal to the physis, either laterally between the first and second compartments or dorsally in line with Lister's tubercle, for retrograde elastic nailing",
+      "sources": [
+        {
+          "source_id": "ao_8131b093559873c1",
+          "provider": "AO Surgery Reference",
+          "title": "ESIN entry points, radius (pediatric)",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/pediatric-trauma/forearm-shaft/approach/esin-entry-points-radius",
+          "source_page_id": "ao_8131b093559873c1"
+        },
+        {
+          "source_id": "ao_c308ece8590757a8",
+          "provider": "AO Surgery Reference",
+          "title": "Approaches to the radius for intramedullary nailing",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/forearm-shaft/approach/approaches-to-the-radius-for-intramedullary-nailing",
+          "source_page_id": "ao_c308ece8590757a8"
+        },
+        {
+          "source_id": "ao_2ff6ad85fd224a58",
+          "provider": "AO Surgery Reference",
+          "title": "ESIN entry points radius (pediatric proximal forearm)",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/pediatric-trauma/proximal-forearm/approach/esin-entry-points-radius",
+          "source_page_id": "ao_2ff6ad85fd224a58"
+        }
+      ],
+      "procedure_applications": [
+        {
+          "procedure_id": "both_bone_forearm_fracture_orif",
+          "relationship": "primary_option",
+          "condition": "A pediatric both-bone or radial shaft fracture is treated with elastic stable intramedullary nailing"
+        }
+      ],
+      "sections": {
+        "positioning": [
+          {
+            "text": "Position supine with the arm on a hand table and image intensifier available to localize the entry relative to the distal radial physis.",
+            "source_ids": [
+              "ao_8131b093559873c1"
+            ]
+          }
+        ],
+        "surface_landmarks": [
+          {
+            "text": "Identify the distal radial physis, the radial styloid, and Lister's tubercle; the entry sits 1 to 1.5 cm proximal to the growth plate.",
+            "source_ids": [
+              "ao_8131b093559873c1"
+            ]
+          }
+        ],
+        "incision": [
+          {
+            "text": "For a lateral entry, incise at the entry level and extend about 2 cm distally (or 3–4 cm proximal to the joint if no imaging); for a Lister's tubercle entry, use a transverse skin-crease incision for cosmesis.",
+            "source_ids": [
+              "ao_8131b093559873c1"
+            ]
+          }
+        ],
+        "superficial_interval": [
+          {
+            "text": "Spread bluntly to bone; for the lateral entry stay anterior to the first compartment and protect the superficial radial nerve, cephalic vein, and thumb tendons.",
+            "source_ids": [
+              "ao_8131b093559873c1",
+              "ao_c308ece8590757a8"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "deep_interval": [
+          {
+            "text": "Open a small cortical window in the metaphysis proximal to the physis; for a dorsal entry stay proximal to Lister's tubercle because its tip is part of the epiphysis.",
+            "source_ids": [
+              "ao_8131b093559873c1"
+            ],
+            "risk_level": "medium"
+          }
+        ],
+        "layers": [
+          {
+            "text": "Skin, subcutaneous tissue with superficial radial nerve branches, extensor tendon compartments, and the distal radial metaphyseal cortex.",
+            "source_ids": [
+              "ao_8131b093559873c1",
+              "ao_c308ece8590757a8"
+            ]
+          }
+        ],
+        "structures_at_risk": [
+          {
+            "text": "The superficial radial nerve, cephalic vein, and thumb extensor/abductor tendons are at risk with the lateral entry, and the distal radial physis is at risk with any entry, particularly at Lister's tubercle.",
+            "source_ids": [
+              "ao_8131b093559873c1",
+              "ao_c308ece8590757a8"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "danger_zones": [
+          {
+            "text": "The tip of Lister's tubercle is part of the epiphysis; do not open the bone there because it will injure the growth plate.",
+            "source_ids": [
+              "ao_8131b093559873c1"
+            ],
+            "risk_level": "medium"
+          }
+        ],
+        "retraction_hazards": [
+          {
+            "text": "Keep superficial radial nerve branches and the cephalic vein out of the retractor, and avoid levering against the physis.",
+            "source_ids": [
+              "ao_8131b093559873c1"
+            ],
+            "risk_level": "medium"
+          }
+        ],
+        "exposure": [
+          {
+            "text": "Exposes a small metaphyseal cortical window sufficient to introduce an elastic nail while sparing the physis.",
+            "source_ids": [
+              "ao_8131b093559873c1"
+            ]
+          }
+        ],
+        "limitations": [
+          {
+            "text": "The window gives no direct fracture visualization and relies on closed reduction and imaging; without imaging a more proximal entry is safer.",
+            "source_ids": [
+              "ao_8131b093559873c1"
+            ]
+          }
+        ],
+        "indications": [
+          {
+            "text": "Indicated to establish a physeal-sparing distal radial entry for elastic stable intramedullary nailing in children.",
+            "source_ids": [
+              "ao_8131b093559873c1"
+            ]
+          }
+        ],
+        "closure": [
+          {
+            "text": "Trim and bury the nail end to limit skin irritation, and close subcutaneous tissue and skin.",
+            "source_ids": [
+              "ao_8131b093559873c1"
+            ]
+          }
+        ],
+        "complications": [
+          {
+            "text": "Complications include superficial radial nerve injury, physeal injury with growth disturbance, and skin irritation or bursitis over the nail end.",
+            "source_ids": [
+              "ao_8131b093559873c1",
+              "ao_c308ece8590757a8"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "questions": [
+          {
+            "question": "How far proximal to the physis is the pediatric radial ESIN entry placed?",
+            "answer": "About 1 to 1.5 cm proximal to the growth plate.",
+            "source_ids": [
+              "ao_8131b093559873c1"
+            ]
+          },
+          {
+            "question": "Why must the surgeon avoid opening bone at the tip of Lister's tubercle in a child?",
+            "answer": "Because the tip is part of the epiphysis and opening it injures the growth plate.",
+            "source_ids": [
+              "ao_8131b093559873c1"
+            ]
+          },
+          {
+            "question": "Which nerve is most at risk with the lateral radial entry?",
+            "answer": "The superficial radial nerve.",
+            "source_ids": [
+              "ao_8131b093559873c1",
+              "ao_c308ece8590757a8"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "approach_id": "forearm_pediatric_radius_anterior_henry",
+      "name": "Pediatric anterior (Henry) approach to the radius",
+      "aliases": [
+        "child volar Henry approach to the radius"
+      ],
+      "region": "forearm-shaft",
+      "joint": "",
+      "bones": [
+        "radius"
+      ],
+      "corridor": "Volar interval between brachioradialis and flexor carpi radialis, using forearm supination to protect the posterior interosseous nerve while exposing the anterior radial shaft in a child",
+      "sources": [
+        {
+          "source_id": "ao_e09e07da9d58139f",
+          "provider": "AO Surgery Reference",
+          "title": "Anterior (Henry) approach to the radius (pediatric)",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/pediatric-trauma/forearm-shaft/approach/anterior-henry-approach-to-the-radius",
+          "source_page_id": "ao_e09e07da9d58139f"
+        },
+        {
+          "source_id": "orthobullets_12010",
+          "provider": "Orthobullets",
+          "title": "Volar Approach to Radius (Henry)",
+          "url": "https://www.orthobullets.com/approaches/12010/volar-approach-to-radius-henry"
+        }
+      ],
+      "procedure_applications": [
+        {
+          "procedure_id": "both_bone_forearm_fracture_orif",
+          "relationship": "primary_option",
+          "condition": "A child's radial shaft fracture requires open volar exposure for reduction and fixation"
+        }
+      ],
+      "sections": {
+        "positioning": [
+          {
+            "text": "Position supine with the arm supinated on a hand table so the volar forearm is presented.",
+            "source_ids": [
+              "ao_e09e07da9d58139f",
+              "orthobullets_12010"
+            ]
+          }
+        ],
+        "surface_landmarks": [
+          {
+            "text": "Mark the biceps tendon crossing the elbow medial to the brachioradialis and mobile wad proximally and the radial styloid distally.",
+            "source_ids": [
+              "ao_e09e07da9d58139f"
+            ]
+          }
+        ],
+        "incision": [
+          {
+            "text": "Make a longitudinal volar incision along the line from the biceps tendon to the radial styloid, using a Z-plasty where it crosses the elbow flexion crease.",
+            "source_ids": [
+              "ao_e09e07da9d58139f"
+            ]
+          }
+        ],
+        "superficial_interval": [
+          {
+            "text": "Develop the interval between brachioradialis (radial nerve) and flexor carpi radialis (median nerve), find the radial artery deep to brachioradialis, and ligate its branches to retract it medially.",
+            "source_ids": [
+              "ao_e09e07da9d58139f",
+              "orthobullets_12010"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "deep_interval": [
+          {
+            "text": "In the proximal third fully supinate the forearm and incise the supinator medially to displace the posterior interosseous nerve away from the field; in the middle third detach part of the pronator teres, and distally elevate flexor pollicis longus and pronator quadratus.",
+            "source_ids": [
+              "ao_e09e07da9d58139f",
+              "orthobullets_12010"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "layers": [
+          {
+            "text": "Skin, subcutaneous tissue, deep fascia, the brachioradialis and flexor carpi radialis interval, the supinator or pronator teres depending on level, and the periosteum of the radius.",
+            "source_ids": [
+              "ao_e09e07da9d58139f"
+            ]
+          }
+        ],
+        "structures_at_risk": [
+          {
+            "text": "The radial artery, the superficial radial nerve beneath the brachioradialis, and the posterior interosseous nerve within the supinator are at risk.",
+            "source_ids": [
+              "ao_e09e07da9d58139f",
+              "orthobullets_12010"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "danger_zones": [
+          {
+            "text": "The proximal third within the supinator is the danger zone for the posterior interosseous nerve; it must be protected by full supination before the supinator is incised.",
+            "source_ids": [
+              "ao_e09e07da9d58139f",
+              "orthobullets_12010"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "retraction_hazards": [
+          {
+            "text": "Keep the superficial radial nerve under the brachioradialis away from retractors and avoid stretching the radial artery.",
+            "source_ids": [
+              "ao_e09e07da9d58139f",
+              "orthobullets_12010"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "exposure": [
+          {
+            "text": "Exposes the anterior surface of the radius from the tuberosity to the styloid.",
+            "source_ids": [
+              "ao_e09e07da9d58139f",
+              "orthobullets_12010"
+            ]
+          }
+        ],
+        "limitations": [
+          {
+            "text": "Proximal dissection is constrained by the posterior interosseous nerve, and the fascia is deliberately left open, so the exposure depends on careful soft-tissue handling in a child.",
+            "source_ids": [
+              "ao_e09e07da9d58139f"
+            ]
+          }
+        ],
+        "indications": [
+          {
+            "text": "Indicated for open reduction and internal fixation of pediatric radial shaft fractures needing volar exposure.",
+            "source_ids": [
+              "ao_e09e07da9d58139f"
+            ]
+          }
+        ],
+        "closure": [
+          {
+            "text": "Do not close the forearm fascia because of the risk of compartment syndrome; close skin with fine resorbable sutures.",
+            "source_ids": [
+              "ao_e09e07da9d58139f"
+            ],
+            "risk_level": "medium"
+          }
+        ],
+        "complications": [
+          {
+            "text": "Complications include posterior interosseous nerve palsy, superficial radial nerve injury, radial artery injury, and compartment syndrome.",
+            "source_ids": [
+              "ao_e09e07da9d58139f",
+              "orthobullets_12010"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "questions": [
+          {
+            "question": "Which interval defines the volar Henry approach to the radius?",
+            "answer": "Between brachioradialis and flexor carpi radialis.",
+            "source_ids": [
+              "ao_e09e07da9d58139f",
+              "orthobullets_12010"
+            ]
+          },
+          {
+            "question": "How is the posterior interosseous nerve protected in the proximal third?",
+            "answer": "By fully supinating the forearm before incising the supinator.",
+            "source_ids": [
+              "ao_e09e07da9d58139f",
+              "orthobullets_12010"
+            ]
+          },
+          {
+            "question": "Why is the forearm fascia left open after this approach?",
+            "answer": "To reduce the risk of compartment syndrome.",
+            "source_ids": [
+              "ao_e09e07da9d58139f"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "approach_id": "forearm_pediatric_ulna_subcutaneous",
+      "name": "Pediatric approach to the ulna",
+      "aliases": [
+        "child subcutaneous border approach to the ulna"
+      ],
+      "region": "forearm-shaft",
+      "joint": "",
+      "bones": [
+        "ulna"
+      ],
+      "corridor": "Direct approach along the subcutaneous border of the ulna through the interval between extensor carpi ulnaris and flexor carpi ulnaris to the whole ulnar shaft",
+      "sources": [
+        {
+          "source_id": "ao_8ddea5ff05bc3556",
+          "provider": "AO Surgery Reference",
+          "title": "Approach to the ulna (pediatric)",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/pediatric-trauma/forearm-shaft/approach/approach-to-the-ulna",
+          "source_page_id": "ao_8ddea5ff05bc3556"
+        },
+        {
+          "source_id": "ao_dba28fa580cb941b",
+          "provider": "AO Surgery Reference",
+          "title": "Safe zones for pin placement in the forearm",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/forearm-shaft/approach/safe-zones-for-pin-placement-in-the-forearm",
+          "source_page_id": "ao_dba28fa580cb941b"
+        }
+      ],
+      "procedure_applications": [
+        {
+          "procedure_id": "both_bone_forearm_fracture_orif",
+          "relationship": "primary_option",
+          "condition": "A child's ulnar shaft fracture requires open exposure for reduction and fixation"
+        },
+        {
+          "procedure_id": "monteggia_fracture_orif",
+          "relationship": "primary_option",
+          "condition": "The ulnar component of a pediatric Monteggia injury needs exposure"
+        }
+      ],
+      "sections": {
+        "positioning": [
+          {
+            "text": "Position supine with the forearm across the chest or pronated on a hand table so the subcutaneous border of the ulna is accessible.",
+            "source_ids": [
+              "ao_8ddea5ff05bc3556"
+            ]
+          }
+        ],
+        "surface_landmarks": [
+          {
+            "text": "Mark the tip of the olecranon and the ulnar styloid; the incision follows the subcutaneous border between them.",
+            "source_ids": [
+              "ao_8ddea5ff05bc3556"
+            ]
+          }
+        ],
+        "incision": [
+          {
+            "text": "Incise along the subcutaneous border of the ulna; in a very swollen forearm place the incision slightly over the extensor compartment so muscle can cover the bone if the wound is left open.",
+            "source_ids": [
+              "ao_8ddea5ff05bc3556"
+            ]
+          }
+        ],
+        "superficial_interval": [
+          {
+            "text": "Develop the interval between the extensor carpi ulnaris and the flexor carpi ulnaris directly onto the ulnar crest.",
+            "source_ids": [
+              "ao_8ddea5ff05bc3556",
+              "ao_dba28fa580cb941b"
+            ]
+          }
+        ],
+        "deep_interval": [
+          {
+            "text": "Elevate the periosteum subperiosteally to expose the ulnar shaft, extending proximally or distally as needed.",
+            "source_ids": [
+              "ao_8ddea5ff05bc3556"
+            ]
+          }
+        ],
+        "layers": [
+          {
+            "text": "Skin, subcutaneous tissue, deep fascia, the extensor carpi ulnaris and flexor carpi ulnaris interval, and the ulnar periosteum.",
+            "source_ids": [
+              "ao_8ddea5ff05bc3556",
+              "ao_dba28fa580cb941b"
+            ]
+          }
+        ],
+        "structures_at_risk": [
+          {
+            "text": "The dorsal cutaneous branch of the ulnar nerve is at risk with distal extension as it passes to the dorsum of the hand, and the ulnar neurovascular bundle lies anterior along the flexor carpi ulnaris.",
+            "source_ids": [
+              "ao_8ddea5ff05bc3556",
+              "ao_dba28fa580cb941b"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "danger_zones": [
+          {
+            "text": "The distal ulna is the danger zone for the dorsal cutaneous branch of the ulnar nerve; the volar aspect near flexor carpi ulnaris is the danger zone for the ulnar neurovascular bundle.",
+            "source_ids": [
+              "ao_8ddea5ff05bc3556",
+              "ao_dba28fa580cb941b"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "retraction_hazards": [
+          {
+            "text": "Stay subperiosteal on the ulnar crest and avoid retracting volarly onto the ulnar nerve and vessels.",
+            "source_ids": [
+              "ao_8ddea5ff05bc3556",
+              "ao_dba28fa580cb941b"
+            ],
+            "risk_level": "medium"
+          }
+        ],
+        "exposure": [
+          {
+            "text": "Provides good exposure of the whole ulnar shaft with easy proximal and distal extension.",
+            "source_ids": [
+              "ao_8ddea5ff05bc3556"
+            ]
+          }
+        ],
+        "limitations": [
+          {
+            "text": "Wound closure can be difficult in a markedly swollen forearm, which may dictate a slightly dorsal incision for muscular coverage.",
+            "source_ids": [
+              "ao_8ddea5ff05bc3556"
+            ]
+          }
+        ],
+        "indications": [
+          {
+            "text": "Indicated for open reduction and fixation of pediatric ulnar shaft fractures and the ulnar component of Monteggia injuries.",
+            "source_ids": [
+              "ao_8ddea5ff05bc3556"
+            ]
+          }
+        ],
+        "closure": [
+          {
+            "text": "Do not close the forearm fascia because of compartment syndrome risk, optionally tack flexor carpi ulnaris over the implant, and close skin with fine resorbable sutures.",
+            "source_ids": [
+              "ao_8ddea5ff05bc3556"
+            ],
+            "risk_level": "medium"
+          }
+        ],
+        "complications": [
+          {
+            "text": "Complications include injury to the dorsal cutaneous branch of the ulnar nerve, ulnar neurovascular injury, and compartment syndrome.",
+            "source_ids": [
+              "ao_8ddea5ff05bc3556",
+              "ao_dba28fa580cb941b"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "questions": [
+          {
+            "question": "Along which border is the pediatric ulna approached?",
+            "answer": "The subcutaneous border, between extensor carpi ulnaris and flexor carpi ulnaris.",
+            "source_ids": [
+              "ao_8ddea5ff05bc3556",
+              "ao_dba28fa580cb941b"
+            ]
+          },
+          {
+            "question": "Which nerve is at risk with distal extension of the ulnar approach?",
+            "answer": "The dorsal cutaneous branch of the ulnar nerve.",
+            "source_ids": [
+              "ao_8ddea5ff05bc3556"
+            ]
+          },
+          {
+            "question": "Why is the forearm fascia left open in children after this approach?",
+            "answer": "To reduce the risk of compartment syndrome.",
+            "source_ids": [
+              "ao_8ddea5ff05bc3556"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "approach_id": "forearm_pin_safe_zones",
+      "name": "Safe zones for external fixator pin placement in the forearm",
+      "aliases": [
+        "forearm ex-fix pin corridors"
+      ],
+      "region": "forearm-shaft",
+      "joint": "",
+      "bones": [
+        "radius",
+        "ulna"
+      ],
+      "corridor": "Posterolateral pin corridors along the ulna (between extensor carpi ulnaris and flexor carpi ulnaris) and the radius, placed through mini-open windows to avoid forearm neurovascular structures",
+      "sources": [
+        {
+          "source_id": "ao_dba28fa580cb941b",
+          "provider": "AO Surgery Reference",
+          "title": "Safe zones for pin placement in the forearm",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/forearm-shaft/approach/safe-zones-for-pin-placement-in-the-forearm",
+          "source_page_id": "ao_dba28fa580cb941b"
+        },
+        {
+          "source_id": "ao_1966107fff0ea485",
+          "provider": "AO Surgery Reference",
+          "title": "Anatomy of the distal forearm",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/distal-forearm/approach/anatomy-of-the-distal-forearm",
+          "source_page_id": "ao_1966107fff0ea485"
+        }
+      ],
+      "procedure_applications": [
+        {
+          "procedure_id": "both_bone_forearm_fracture_orif",
+          "relationship": "conditional_option",
+          "condition": "Temporary or definitive external fixation of the forearm is used"
+        }
+      ],
+      "sections": {
+        "positioning": [
+          {
+            "text": "Place the forearm in pronation for ulnar pins and in neutral rotation for radial pins to present the safe posterolateral surfaces.",
+            "source_ids": [
+              "ao_dba28fa580cb941b"
+            ]
+          }
+        ],
+        "surface_landmarks": [
+          {
+            "text": "Identify the posterolateral (subcutaneous) border of the ulna and the posterolateral surface of the radius, avoiding the anterior forearm.",
+            "source_ids": [
+              "ao_dba28fa580cb941b",
+              "ao_1966107fff0ea485"
+            ]
+          }
+        ],
+        "incision": [
+          {
+            "text": "For each pin make a small skin incision and deepen it by spreading a forceps and advancing retractors layer by layer until bone is reached.",
+            "source_ids": [
+              "ao_dba28fa580cb941b"
+            ]
+          }
+        ],
+        "superficial_interval": [
+          {
+            "text": "For ulnar pins use the corridor between extensor carpi ulnaris and flexor carpi ulnaris along the whole shaft; for radial pins approach the posterolateral surface and avoid the anterior compartment.",
+            "source_ids": [
+              "ao_dba28fa580cb941b",
+              "ao_1966107fff0ea485"
+            ]
+          }
+        ],
+        "deep_interval": [
+          {
+            "text": "Reach bone directly through the mini-open window under direct vision so soft tissues are protected while the pin is placed.",
+            "source_ids": [
+              "ao_dba28fa580cb941b"
+            ]
+          }
+        ],
+        "layers": [
+          {
+            "text": "Skin, subcutaneous tissue, deep fascia, the relevant muscular interval, and the pin-entry cortex.",
+            "source_ids": [
+              "ao_dba28fa580cb941b"
+            ]
+          }
+        ],
+        "structures_at_risk": [
+          {
+            "text": "The posterior interosseous nerve in the proximal third, the superficial radial nerve distally, the radial artery anteriorly, and the median and ulnar neurovascular bundles in the flexor compartment are at risk.",
+            "source_ids": [
+              "ao_dba28fa580cb941b",
+              "ao_1966107fff0ea485"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "danger_zones": [
+          {
+            "text": "The proximal radius over the supinator and the anterior forearm are danger zones; the more proximal the field, the greater the risk to important structures.",
+            "source_ids": [
+              "ao_dba28fa580cb941b",
+              "ao_1966107fff0ea485"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "retraction_hazards": [
+          {
+            "text": "Do not place radial pins anteriorly and keep the superficial radial nerve out of the retractor in the distal forearm.",
+            "source_ids": [
+              "ao_dba28fa580cb941b",
+              "ao_1966107fff0ea485"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "exposure": [
+          {
+            "text": "Provides safe percutaneous corridors for half-pins rather than a formal open exposure.",
+            "source_ids": [
+              "ao_dba28fa580cb941b"
+            ]
+          }
+        ],
+        "limitations": [
+          {
+            "text": "Pin placement is constrained proximally by the posterior interosseous nerve and anteriorly by the radial artery, so corridors are limited to safe posterolateral surfaces.",
+            "source_ids": [
+              "ao_dba28fa580cb941b"
+            ]
+          }
+        ],
+        "indications": [
+          {
+            "text": "Indicated for external fixator half-pin placement in the radius and ulna for temporary or definitive stabilization.",
+            "source_ids": [
+              "ao_dba28fa580cb941b"
+            ]
+          }
+        ],
+        "closure": [
+          {
+            "text": "Close each mini-incision loosely around the pin to avoid skin tension.",
+            "source_ids": [
+              "ao_dba28fa580cb941b"
+            ]
+          }
+        ],
+        "complications": [
+          {
+            "text": "Complications include superficial radial or posterior interosseous nerve injury, radial artery injury, and pin-tract problems.",
+            "source_ids": [
+              "ao_dba28fa580cb941b",
+              "ao_1966107fff0ea485"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "questions": [
+          {
+            "question": "Which forearm surface is safe for ulnar external fixator pins?",
+            "answer": "The posterolateral (subcutaneous) border, between extensor carpi ulnaris and flexor carpi ulnaris.",
+            "source_ids": [
+              "ao_dba28fa580cb941b"
+            ]
+          },
+          {
+            "question": "Why should radial pins avoid an anterior approach?",
+            "answer": "The radial artery and the median and ulnar neurovascular bundles lie anteriorly.",
+            "source_ids": [
+              "ao_dba28fa580cb941b",
+              "ao_1966107fff0ea485"
+            ]
+          },
+          {
+            "question": "How does pin risk change with the level of the forearm?",
+            "answer": "The more proximal the field, the greater the risk to important structures.",
+            "source_ids": [
+              "ao_dba28fa580cb941b"
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

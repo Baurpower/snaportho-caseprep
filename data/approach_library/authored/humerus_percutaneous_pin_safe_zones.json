@@ -1,0 +1,326 @@
+{
+  "schema_version": "brobot_approach_packet_v1",
+  "approach_id": "humerus_percutaneous_pin_safe_zones",
+  "name": "Safe zones for percutaneous pins or screws in the humerus",
+  "aliases": [
+    "humeral shaft pin safe zones",
+    "distal humerus percutaneous pin caution"
+  ],
+  "region": "distal-humerus",
+  "joint": "",
+  "bones": [
+    "humerus"
+  ],
+  "corridor": "Open or mini-open pin corridors in the humerus with direct identification of the radial nerve, since percutaneous pin placement in the humerus is not safe",
+  "positioning": [
+    {
+      "text": "Position with the arm supported and accessible laterally, with imaging available to localize pin sites.",
+      "claim_ids": [
+        "humerus_percutaneous_pin_safe_zones_positioning_01"
+      ]
+    }
+  ],
+  "setup": [],
+  "surface_landmarks": [
+    {
+      "text": "Identify the lateral humeral shaft and the course of the radial nerve as it crosses the posterolateral humerus.",
+      "claim_ids": [
+        "humerus_percutaneous_pin_safe_zones_surface_landmarks_01"
+      ]
+    }
+  ],
+  "incision": [
+    {
+      "text": "Use an open incision rather than percutaneous entry, large enough to insert pins and retract the radial nerve.",
+      "claim_ids": [
+        "humerus_percutaneous_pin_safe_zones_incision_01"
+      ]
+    }
+  ],
+  "superficial_interval": [
+    {
+      "text": "Dissect down to bone under direct vision, identifying and protecting the radial nerve before drilling.",
+      "claim_ids": [
+        "humerus_percutaneous_pin_safe_zones_superficial_interval_01"
+      ]
+    }
+  ],
+  "deep_interval": [],
+  "layers": [
+    {
+      "text": "Skin, subcutaneous tissue, the brachial fascia and muscle, the radial nerve, and the humeral cortex.",
+      "claim_ids": [
+        "humerus_percutaneous_pin_safe_zones_layers_01"
+      ]
+    }
+  ],
+  "structures_encountered": [],
+  "structures_at_risk": [
+    {
+      "text": "The radial nerve is the principal structure at risk and must be identified and protected before pin or screw insertion in the humerus.",
+      "claim_ids": [
+        "humerus_percutaneous_pin_safe_zones_structures_at_risk_01"
+      ]
+    }
+  ],
+  "danger_zones": [
+    {
+      "text": "The posterolateral humeral shaft where the radial nerve crosses is the danger zone; percutaneous placement here is unsafe.",
+      "claim_ids": [
+        "humerus_percutaneous_pin_safe_zones_danger_zones_01"
+      ]
+    }
+  ],
+  "retraction_hazards": [
+    {
+      "text": "Retract the radial nerve gently under direct vision during drilling and pin insertion.",
+      "claim_ids": [
+        "humerus_percutaneous_pin_safe_zones_retraction_hazards_01"
+      ]
+    }
+  ],
+  "exposure": [
+    {
+      "text": "Provides a controlled open corridor for humeral pins with the radial nerve protected.",
+      "claim_ids": [
+        "humerus_percutaneous_pin_safe_zones_exposure_01"
+      ]
+    }
+  ],
+  "limitations": [
+    {
+      "text": "Percutaneous humeral pin placement is not safe, so an open technique is mandatory and available corridors are limited by the radial nerve.",
+      "claim_ids": [
+        "humerus_percutaneous_pin_safe_zones_limitations_01"
+      ]
+    }
+  ],
+  "extensions": [],
+  "indications": [
+    {
+      "text": "Indicated for open placement of external fixator pins or screws in the humerus.",
+      "claim_ids": [
+        "humerus_percutaneous_pin_safe_zones_indications_01"
+      ]
+    }
+  ],
+  "relative_contraindications": [],
+  "implant_implications": [],
+  "fluoroscopy_implications": [],
+  "closure": [
+    {
+      "text": "Close the soft tissues loosely around each pin, ensuring the radial nerve is not tethered.",
+      "claim_ids": [
+        "humerus_percutaneous_pin_safe_zones_closure_01"
+      ]
+    }
+  ],
+  "complications": [
+    {
+      "text": "The principal complication is radial nerve injury; pin-tract infection may also occur.",
+      "claim_ids": [
+        "humerus_percutaneous_pin_safe_zones_complications_01"
+      ]
+    }
+  ],
+  "bailouts": [],
+  "procedure_applications": [
+    {
+      "procedure_id": "humeral_shaft_fracture_orif",
+      "relationship": "conditional_option",
+      "condition": "External fixator pins are placed in the humerus, for example for temporary spanning fixation"
+    }
+  ],
+  "questions": [
+    {
+      "question": "Is percutaneous pin placement in the humerus considered safe?",
+      "answer": "No; an open technique with radial nerve protection is required.",
+      "claim_ids": [
+        "humerus_percutaneous_pin_safe_zones_questions_01"
+      ]
+    },
+    {
+      "question": "Which nerve must be identified before humeral pin insertion?",
+      "answer": "The radial nerve.",
+      "claim_ids": [
+        "humerus_percutaneous_pin_safe_zones_questions_02"
+      ]
+    },
+    {
+      "question": "Why is a larger incision recommended for humeral pins?",
+      "answer": "To allow insertion of pins and retraction of the radial nerve under direct vision.",
+      "claim_ids": [
+        "humerus_percutaneous_pin_safe_zones_questions_03"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "humerus_percutaneous_pin_safe_zones_positioning_01",
+      "text": "Position with the arm supported and accessible laterally, with imaging available to localize pin sites.",
+      "source_ids": [
+        "ao_ef05b2dcf7a75661"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "humerus_percutaneous_pin_safe_zones_surface_landmarks_01",
+      "text": "Identify the lateral humeral shaft and the course of the radial nerve as it crosses the posterolateral humerus.",
+      "source_ids": [
+        "ao_ef05b2dcf7a75661",
+        "ao_dba28fa580cb941b"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "humerus_percutaneous_pin_safe_zones_incision_01",
+      "text": "Use an open incision rather than percutaneous entry, large enough to insert pins and retract the radial nerve.",
+      "source_ids": [
+        "ao_ef05b2dcf7a75661"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "humerus_percutaneous_pin_safe_zones_superficial_interval_01",
+      "text": "Dissect down to bone under direct vision, identifying and protecting the radial nerve before drilling.",
+      "source_ids": [
+        "ao_ef05b2dcf7a75661"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "humerus_percutaneous_pin_safe_zones_layers_01",
+      "text": "Skin, subcutaneous tissue, the brachial fascia and muscle, the radial nerve, and the humeral cortex.",
+      "source_ids": [
+        "ao_ef05b2dcf7a75661"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "humerus_percutaneous_pin_safe_zones_structures_at_risk_01",
+      "text": "The radial nerve is the principal structure at risk and must be identified and protected before pin or screw insertion in the humerus.",
+      "source_ids": [
+        "ao_ef05b2dcf7a75661",
+        "ao_dba28fa580cb941b"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "humerus_percutaneous_pin_safe_zones_danger_zones_01",
+      "text": "The posterolateral humeral shaft where the radial nerve crosses is the danger zone; percutaneous placement here is unsafe.",
+      "source_ids": [
+        "ao_ef05b2dcf7a75661",
+        "ao_dba28fa580cb941b"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "humerus_percutaneous_pin_safe_zones_retraction_hazards_01",
+      "text": "Retract the radial nerve gently under direct vision during drilling and pin insertion.",
+      "source_ids": [
+        "ao_ef05b2dcf7a75661"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "humerus_percutaneous_pin_safe_zones_exposure_01",
+      "text": "Provides a controlled open corridor for humeral pins with the radial nerve protected.",
+      "source_ids": [
+        "ao_ef05b2dcf7a75661"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "humerus_percutaneous_pin_safe_zones_limitations_01",
+      "text": "Percutaneous humeral pin placement is not safe, so an open technique is mandatory and available corridors are limited by the radial nerve.",
+      "source_ids": [
+        "ao_ef05b2dcf7a75661"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "humerus_percutaneous_pin_safe_zones_indications_01",
+      "text": "Indicated for open placement of external fixator pins or screws in the humerus.",
+      "source_ids": [
+        "ao_ef05b2dcf7a75661"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "humerus_percutaneous_pin_safe_zones_closure_01",
+      "text": "Close the soft tissues loosely around each pin, ensuring the radial nerve is not tethered.",
+      "source_ids": [
+        "ao_ef05b2dcf7a75661"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "humerus_percutaneous_pin_safe_zones_complications_01",
+      "text": "The principal complication is radial nerve injury; pin-tract infection may also occur.",
+      "source_ids": [
+        "ao_ef05b2dcf7a75661",
+        "ao_dba28fa580cb941b"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "humerus_percutaneous_pin_safe_zones_questions_01",
+      "text": "Is percutaneous pin placement in the humerus considered safe?",
+      "source_ids": [
+        "ao_ef05b2dcf7a75661"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "humerus_percutaneous_pin_safe_zones_questions_02",
+      "text": "Which nerve must be identified before humeral pin insertion?",
+      "source_ids": [
+        "ao_ef05b2dcf7a75661"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "humerus_percutaneous_pin_safe_zones_questions_03",
+      "text": "Why is a larger incision recommended for humeral pins?",
+      "source_ids": [
+        "ao_ef05b2dcf7a75661"
+      ],
+      "risk_level": "medium"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "ao_ef05b2dcf7a75661",
+      "provider": "AO Surgery Reference",
+      "title": "Safe zones for percutaneous pins or screws (humerus)",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/distal-humerus/approach/safe-zones-for-percutaneous-pins-or-screws",
+      "source_page_id": "ao_ef05b2dcf7a75661"
+    },
+    {
+      "source_id": "ao_dba28fa580cb941b",
+      "provider": "AO Surgery Reference",
+      "title": "Safe zones for pin placement in the forearm",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/forearm-shaft/approach/safe-zones-for-pin-placement-in-the-forearm",
+      "source_page_id": "ao_dba28fa580cb941b"
+    }
+  ],
+  "content_status": "agent_review_pending",
+  "review": {
+    "status": "agent_review_pending",
+    "required_roles": [
+      "adversarial_safety_reviewer",
+      "approach_anatomy_reviewer",
+      "educational_value_reviewer",
+      "evidence_reviewer",
+      "operative_exposure_reviewer",
+      "procedure_applicability_reviewer"
+    ],
+    "completed_roles": []
+  },
+  "resolved_contradiction_keys": [],
+  "authoring_provenance": {
+    "method": "local_codex_curated",
+    "definition_file": "data/approach_library/curated/foot_humerus_batch001_v1.json",
+    "api_used": false
+  }
+}

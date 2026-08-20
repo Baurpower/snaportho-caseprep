@@ -1,0 +1,339 @@
+{
+  "schema_version": "brobot_approach_packet_v1",
+  "approach_id": "knee_pp_retrograde_femoral_nailing",
+  "name": "Retrograde nailing approach to the distal femur (periprosthetic knee)",
+  "aliases": [
+    "periprosthetic retrograde femoral nail entry"
+  ],
+  "region": "distal-femur",
+  "joint": "knee",
+  "bones": [
+    "distal femur"
+  ],
+  "corridor": "Limited midline or medial-paratendinous window just distal to the inferior patellar pole, through an open femoral-component box, to an intercondylar start on Blumensaat's line at 45° of flexion",
+  "positioning": [
+    {
+      "text": "Flex the knee about 45°. Less flexion lets the tibial component block the wire; more flexion puts the patella in the way.",
+      "claim_ids": [
+        "knee_pp_retrograde_femoral_nailing_positioning_01"
+      ]
+    }
+  ],
+  "setup": [],
+  "surface_landmarks": [
+    {
+      "text": "Mark the inferior patellar pole and the midline or medial edge of the patellar tendon. Confirm on the image intensifier that the femoral component has an open box.",
+      "claim_ids": [
+        "knee_pp_retrograde_femoral_nailing_surface_landmarks_01"
+      ]
+    }
+  ],
+  "incision": [
+    {
+      "text": "Make a longitudinal cut just distal to the inferior patellar pole, over the midline or the medial edge of the patellar tendon.",
+      "claim_ids": [
+        "knee_pp_retrograde_femoral_nailing_incision_01"
+      ]
+    }
+  ],
+  "superficial_interval": [
+    {
+      "text": "Spread the medial parapatellar soft tissues with scissors and retract the patellar tendon laterally, or split the tendon.",
+      "claim_ids": [
+        "knee_pp_retrograde_femoral_nailing_superficial_interval_01"
+      ]
+    }
+  ],
+  "deep_interval": [
+    {
+      "text": "Place the guidewire in the middle of the intercondylar notch on the AP view, usually through the prosthetic hole, and on the extension of Blumensaat's line on the lateral view, in line with the canal just below the notch crest. Protect the tibial component with a sleeve while opening about 30 mm with a cannulated drill.",
+      "claim_ids": [
+        "knee_pp_retrograde_femoral_nailing_deep_interval_01"
+      ]
+    }
+  ],
+  "layers": [
+    {
+      "text": "Skin, parapatellar or transtendon interval, intercondylar notch through an open femoral box, then the femoral canal.",
+      "claim_ids": [
+        "knee_pp_retrograde_femoral_nailing_layers_01"
+      ]
+    }
+  ],
+  "structures_encountered": [],
+  "structures_at_risk": [
+    {
+      "text": "A closed femoral box blocks entry. The tibial component can be damaged by reaming if it is not sleeved.",
+      "claim_ids": [
+        "knee_pp_retrograde_femoral_nailing_structures_at_risk_01"
+      ]
+    }
+  ],
+  "danger_zones": [
+    {
+      "text": "Many cruciate-sacrificing designs have a closed box that forbids nail entry. Do not ream against an unprotected tibial tray.",
+      "claim_ids": [
+        "knee_pp_retrograde_femoral_nailing_danger_zones_01"
+      ]
+    }
+  ],
+  "retraction_hazards": [
+    {
+      "text": "Retract the patellar tendon gently. Wrong flexion either blocks the wire on the tibial component or on the patella.",
+      "claim_ids": [
+        "knee_pp_retrograde_femoral_nailing_retraction_hazards_01"
+      ]
+    }
+  ],
+  "exposure": [
+    {
+      "text": "A minimally invasive notch window sufficient to start a retrograde nail through a compatible open-box femoral component.",
+      "claim_ids": [
+        "knee_pp_retrograde_femoral_nailing_exposure_01"
+      ]
+    }
+  ],
+  "limitations": [
+    {
+      "text": "The approach is useless if the femoral component has a closed box.",
+      "claim_ids": [
+        "knee_pp_retrograde_femoral_nailing_limitations_01"
+      ]
+    }
+  ],
+  "extensions": [],
+  "indications": [
+    {
+      "text": "Used for retrograde nailing of a distal-femoral periprosthetic fracture when the femoral component will accept the nail.",
+      "claim_ids": [
+        "knee_pp_retrograde_femoral_nailing_indications_01"
+      ]
+    }
+  ],
+  "relative_contraindications": [],
+  "implant_implications": [],
+  "fluoroscopy_implications": [],
+  "closure": [
+    {
+      "text": "Irrigate the joint, close in layers, and close skin with staples or nonabsorbable suture.",
+      "claim_ids": [
+        "knee_pp_retrograde_femoral_nailing_closure_01"
+      ]
+    }
+  ],
+  "complications": [
+    {
+      "text": "Complications include inability to enter a closed box, tibial-component damage from unprotected reaming, and an off-axis start.",
+      "claim_ids": [
+        "knee_pp_retrograde_femoral_nailing_complications_01"
+      ]
+    }
+  ],
+  "bailouts": [],
+  "procedure_applications": [
+    {
+      "procedure_id": "distal_femur_fracture_orif",
+      "relationship": "primary_option",
+      "condition": "A distal-femoral periprosthetic fracture is nailed retrograde through an open-box femoral component"
+    }
+  ],
+  "questions": [
+    {
+      "question": "What femoral-component feature is required?",
+      "answer": "An open box that can accommodate the nail entry. Many cruciate-sacrificing designs are closed.",
+      "claim_ids": [
+        "knee_pp_retrograde_femoral_nailing_questions_01"
+      ]
+    },
+    {
+      "question": "What knee flexion is desirable?",
+      "answer": "About 45°.",
+      "claim_ids": [
+        "knee_pp_retrograde_femoral_nailing_questions_02"
+      ]
+    },
+    {
+      "question": "Where is the start on the lateral view?",
+      "answer": "On the extension of Blumensaat's line, just below the intercondylar-notch crest.",
+      "claim_ids": [
+        "knee_pp_retrograde_femoral_nailing_questions_03"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "knee_pp_retrograde_femoral_nailing_positioning_01",
+      "text": "Flex the knee about 45°. Less flexion lets the tibial component block the wire; more flexion puts the patella in the way.",
+      "source_ids": [
+        "ao_4bc1100ab39394f1"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "knee_pp_retrograde_femoral_nailing_surface_landmarks_01",
+      "text": "Mark the inferior patellar pole and the midline or medial edge of the patellar tendon. Confirm on the image intensifier that the femoral component has an open box.",
+      "source_ids": [
+        "ao_4bc1100ab39394f1"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "knee_pp_retrograde_femoral_nailing_incision_01",
+      "text": "Make a longitudinal cut just distal to the inferior patellar pole, over the midline or the medial edge of the patellar tendon.",
+      "source_ids": [
+        "ao_4bc1100ab39394f1",
+        "ao_875866d4601d308f"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "knee_pp_retrograde_femoral_nailing_superficial_interval_01",
+      "text": "Spread the medial parapatellar soft tissues with scissors and retract the patellar tendon laterally, or split the tendon.",
+      "source_ids": [
+        "ao_4bc1100ab39394f1"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "knee_pp_retrograde_femoral_nailing_deep_interval_01",
+      "text": "Place the guidewire in the middle of the intercondylar notch on the AP view, usually through the prosthetic hole, and on the extension of Blumensaat's line on the lateral view, in line with the canal just below the notch crest. Protect the tibial component with a sleeve while opening about 30 mm with a cannulated drill.",
+      "source_ids": [
+        "ao_4bc1100ab39394f1",
+        "ao_875866d4601d308f"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "knee_pp_retrograde_femoral_nailing_layers_01",
+      "text": "Skin, parapatellar or transtendon interval, intercondylar notch through an open femoral box, then the femoral canal.",
+      "source_ids": [
+        "ao_4bc1100ab39394f1"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "knee_pp_retrograde_femoral_nailing_structures_at_risk_01",
+      "text": "A closed femoral box blocks entry. The tibial component can be damaged by reaming if it is not sleeved.",
+      "source_ids": [
+        "ao_4bc1100ab39394f1"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "knee_pp_retrograde_femoral_nailing_danger_zones_01",
+      "text": "Many cruciate-sacrificing designs have a closed box that forbids nail entry. Do not ream against an unprotected tibial tray.",
+      "source_ids": [
+        "ao_4bc1100ab39394f1"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "knee_pp_retrograde_femoral_nailing_retraction_hazards_01",
+      "text": "Retract the patellar tendon gently. Wrong flexion either blocks the wire on the tibial component or on the patella.",
+      "source_ids": [
+        "ao_4bc1100ab39394f1"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "knee_pp_retrograde_femoral_nailing_exposure_01",
+      "text": "A minimally invasive notch window sufficient to start a retrograde nail through a compatible open-box femoral component.",
+      "source_ids": [
+        "ao_4bc1100ab39394f1"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "knee_pp_retrograde_femoral_nailing_limitations_01",
+      "text": "The approach is useless if the femoral component has a closed box.",
+      "source_ids": [
+        "ao_4bc1100ab39394f1"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "knee_pp_retrograde_femoral_nailing_indications_01",
+      "text": "Used for retrograde nailing of a distal-femoral periprosthetic fracture when the femoral component will accept the nail.",
+      "source_ids": [
+        "ao_4bc1100ab39394f1"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "knee_pp_retrograde_femoral_nailing_closure_01",
+      "text": "Irrigate the joint, close in layers, and close skin with staples or nonabsorbable suture.",
+      "source_ids": [
+        "ao_4bc1100ab39394f1"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "knee_pp_retrograde_femoral_nailing_complications_01",
+      "text": "Complications include inability to enter a closed box, tibial-component damage from unprotected reaming, and an off-axis start.",
+      "source_ids": [
+        "ao_4bc1100ab39394f1",
+        "ao_875866d4601d308f"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "knee_pp_retrograde_femoral_nailing_questions_01",
+      "text": "What femoral-component feature is required?",
+      "source_ids": [
+        "ao_4bc1100ab39394f1"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "knee_pp_retrograde_femoral_nailing_questions_02",
+      "text": "What knee flexion is desirable?",
+      "source_ids": [
+        "ao_4bc1100ab39394f1"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "knee_pp_retrograde_femoral_nailing_questions_03",
+      "text": "Where is the start on the lateral view?",
+      "source_ids": [
+        "ao_4bc1100ab39394f1"
+      ],
+      "risk_level": "medium"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "ao_4bc1100ab39394f1",
+      "provider": "AO Surgery Reference",
+      "title": "Retrograde Nailing Approach Distal Femur",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/periprosthetic-fractures/knee/approach/retrograde-nailing-approach-distal-femur",
+      "source_page_id": "ao_4bc1100ab39394f1"
+    },
+    {
+      "source_id": "ao_875866d4601d308f",
+      "provider": "AO Surgery Reference",
+      "title": "Retrograde nailing approach (periprosthetic femur)",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/periprosthetic-fractures/hip/approach/retrograde-nailing-approach",
+      "source_page_id": "ao_875866d4601d308f"
+    }
+  ],
+  "content_status": "agent_review_pending",
+  "review": {
+    "status": "agent_review_pending",
+    "required_roles": [
+      "adversarial_safety_reviewer",
+      "approach_anatomy_reviewer",
+      "educational_value_reviewer",
+      "evidence_reviewer",
+      "operative_exposure_reviewer",
+      "procedure_applicability_reviewer"
+    ],
+    "completed_roles": []
+  },
+  "resolved_contradiction_keys": [],
+  "authoring_provenance": {
+    "method": "local_codex_curated",
+    "definition_file": "data/approach_library/curated/periprosthetic_knee_batch001_v1.json",
+    "api_used": false
+  }
+}

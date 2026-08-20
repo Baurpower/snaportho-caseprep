@@ -1,0 +1,343 @@
+{
+  "schema_version": "brobot_approach_packet_v1",
+  "approach_id": "proximal_forearm_medial_fcu_split",
+  "name": "Medial FCU-split approach to the coronoid",
+  "aliases": [
+    "flexor carpi ulnaris split approach to the coronoid"
+  ],
+  "region": "proximal-forearm",
+  "joint": "elbow",
+  "bones": [
+    "ulna"
+  ],
+  "corridor": "Medial approach unroofing the ulnar nerve and splitting the two heads of flexor carpi ulnaris to reach the anteromedial coronoid facet, sublime tubercle, and medial collateral ligament",
+  "positioning": [
+    {
+      "text": "Position supine with the arm on a hand table and the shoulder externally rotated, or across the chest, so the medial elbow is accessible.",
+      "claim_ids": [
+        "proximal_forearm_medial_fcu_split_positioning_01"
+      ]
+    }
+  ],
+  "setup": [],
+  "surface_landmarks": [
+    {
+      "text": "Mark the medial epicondyle, the sublime tubercle, and the course of the ulnar nerve between the two heads of flexor carpi ulnaris.",
+      "claim_ids": [
+        "proximal_forearm_medial_fcu_split_surface_landmarks_01"
+      ]
+    }
+  ],
+  "incision": [
+    {
+      "text": "Use a posterior incision with a medial flap or a direct medial incision, protecting the posterior branches of the medial antebrachial cutaneous nerve.",
+      "claim_ids": [
+        "proximal_forearm_medial_fcu_split_incision_01"
+      ]
+    }
+  ],
+  "superficial_interval": [
+    {
+      "text": "Identify the ulnar nerve and unroof it about 6 cm proximal and distal to the epicondyle, starting proximally where it is safer, and transpose it anteriorly and subcutaneously if that is safer.",
+      "claim_ids": [
+        "proximal_forearm_medial_fcu_split_superficial_interval_01"
+      ]
+    }
+  ],
+  "deep_interval": [
+    {
+      "text": "Split the two heads of flexor carpi ulnaris along the ulnar nerve and elevate the humeral head extraperiosteally off the coronoid, medial collateral ligament, and anterior capsule, starting distally.",
+      "claim_ids": [
+        "proximal_forearm_medial_fcu_split_deep_interval_01"
+      ]
+    }
+  ],
+  "layers": [
+    {
+      "text": "Skin, subcutaneous tissue with the medial antebrachial cutaneous nerve, the ulnar nerve, the two heads of flexor carpi ulnaris, and the anteromedial coronoid.",
+      "claim_ids": [
+        "proximal_forearm_medial_fcu_split_layers_01"
+      ]
+    }
+  ],
+  "structures_encountered": [],
+  "structures_at_risk": [
+    {
+      "text": "The ulnar nerve between the FCU heads, the medial antebrachial cutaneous nerve, and the medial collateral ligament are at risk.",
+      "claim_ids": [
+        "proximal_forearm_medial_fcu_split_structures_at_risk_01"
+      ]
+    }
+  ],
+  "danger_zones": [
+    {
+      "text": "The cubital tunnel and the interval between the FCU heads are the danger zone for the ulnar nerve and its first motor branch.",
+      "claim_ids": [
+        "proximal_forearm_medial_fcu_split_danger_zones_01"
+      ]
+    }
+  ],
+  "retraction_hazards": [
+    {
+      "text": "Protect the unroofed ulnar nerve throughout and preserve the medial collateral ligament by staying extraperiosteal.",
+      "claim_ids": [
+        "proximal_forearm_medial_fcu_split_retraction_hazards_01"
+      ]
+    }
+  ],
+  "exposure": [
+    {
+      "text": "Exposes the anteromedial facet of the coronoid, the sublime tubercle, and the medial collateral ligament.",
+      "claim_ids": [
+        "proximal_forearm_medial_fcu_split_exposure_01"
+      ]
+    }
+  ],
+  "limitations": [
+    {
+      "text": "Exposure is medial; further reach requires additional FCU splitting or flexor-pronator elevation.",
+      "claim_ids": [
+        "proximal_forearm_medial_fcu_split_limitations_01"
+      ]
+    }
+  ],
+  "extensions": [],
+  "indications": [
+    {
+      "text": "Indicated for fixation of anteromedial facet coronoid fractures.",
+      "claim_ids": [
+        "proximal_forearm_medial_fcu_split_indications_01"
+      ]
+    }
+  ],
+  "relative_contraindications": [],
+  "implant_implications": [],
+  "fluoroscopy_implications": [],
+  "closure": [
+    {
+      "text": "Repair the FCU heads, ensure the transposed or in-situ ulnar nerve lies in a healthy bed, and close in layers.",
+      "claim_ids": [
+        "proximal_forearm_medial_fcu_split_closure_01"
+      ]
+    }
+  ],
+  "complications": [
+    {
+      "text": "Complications include ulnar neuropathy, medial antebrachial cutaneous nerve injury, and medial collateral ligament insufficiency.",
+      "claim_ids": [
+        "proximal_forearm_medial_fcu_split_complications_01"
+      ]
+    }
+  ],
+  "bailouts": [],
+  "procedure_applications": [
+    {
+      "procedure_id": "coronoid_fracture_orif",
+      "relationship": "primary_option",
+      "condition": "An anteromedial facet coronoid fracture needs medial exposure"
+    }
+  ],
+  "questions": [
+    {
+      "question": "What does the FCU-split approach expose best?",
+      "answer": "The anteromedial facet of the coronoid, the sublime tubercle, and the medial collateral ligament.",
+      "claim_ids": [
+        "proximal_forearm_medial_fcu_split_questions_01"
+      ]
+    },
+    {
+      "question": "How far is the ulnar nerve unroofed?",
+      "answer": "About 6 cm proximal and distal to the medial epicondyle.",
+      "claim_ids": [
+        "proximal_forearm_medial_fcu_split_questions_02"
+      ]
+    },
+    {
+      "question": "Where is ulnar nerve exposure begun and why?",
+      "answer": "Proximally, because it is easier and safer to identify the nerve there.",
+      "claim_ids": [
+        "proximal_forearm_medial_fcu_split_questions_03"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "proximal_forearm_medial_fcu_split_positioning_01",
+      "text": "Position supine with the arm on a hand table and the shoulder externally rotated, or across the chest, so the medial elbow is accessible.",
+      "source_ids": [
+        "ao_38754047e709a146"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "proximal_forearm_medial_fcu_split_surface_landmarks_01",
+      "text": "Mark the medial epicondyle, the sublime tubercle, and the course of the ulnar nerve between the two heads of flexor carpi ulnaris.",
+      "source_ids": [
+        "ao_38754047e709a146"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "proximal_forearm_medial_fcu_split_incision_01",
+      "text": "Use a posterior incision with a medial flap or a direct medial incision, protecting the posterior branches of the medial antebrachial cutaneous nerve.",
+      "source_ids": [
+        "ao_38754047e709a146",
+        "ao_14117b38e77168af"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "proximal_forearm_medial_fcu_split_superficial_interval_01",
+      "text": "Identify the ulnar nerve and unroof it about 6 cm proximal and distal to the epicondyle, starting proximally where it is safer, and transpose it anteriorly and subcutaneously if that is safer.",
+      "source_ids": [
+        "ao_38754047e709a146",
+        "ao_14117b38e77168af"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "proximal_forearm_medial_fcu_split_deep_interval_01",
+      "text": "Split the two heads of flexor carpi ulnaris along the ulnar nerve and elevate the humeral head extraperiosteally off the coronoid, medial collateral ligament, and anterior capsule, starting distally.",
+      "source_ids": [
+        "ao_38754047e709a146"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "proximal_forearm_medial_fcu_split_layers_01",
+      "text": "Skin, subcutaneous tissue with the medial antebrachial cutaneous nerve, the ulnar nerve, the two heads of flexor carpi ulnaris, and the anteromedial coronoid.",
+      "source_ids": [
+        "ao_38754047e709a146"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "proximal_forearm_medial_fcu_split_structures_at_risk_01",
+      "text": "The ulnar nerve between the FCU heads, the medial antebrachial cutaneous nerve, and the medial collateral ligament are at risk.",
+      "source_ids": [
+        "ao_38754047e709a146",
+        "ao_14117b38e77168af"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "proximal_forearm_medial_fcu_split_danger_zones_01",
+      "text": "The cubital tunnel and the interval between the FCU heads are the danger zone for the ulnar nerve and its first motor branch.",
+      "source_ids": [
+        "ao_38754047e709a146",
+        "ao_14117b38e77168af"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "proximal_forearm_medial_fcu_split_retraction_hazards_01",
+      "text": "Protect the unroofed ulnar nerve throughout and preserve the medial collateral ligament by staying extraperiosteal.",
+      "source_ids": [
+        "ao_38754047e709a146",
+        "ao_14117b38e77168af"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "proximal_forearm_medial_fcu_split_exposure_01",
+      "text": "Exposes the anteromedial facet of the coronoid, the sublime tubercle, and the medial collateral ligament.",
+      "source_ids": [
+        "ao_38754047e709a146"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "proximal_forearm_medial_fcu_split_limitations_01",
+      "text": "Exposure is medial; further reach requires additional FCU splitting or flexor-pronator elevation.",
+      "source_ids": [
+        "ao_38754047e709a146"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "proximal_forearm_medial_fcu_split_indications_01",
+      "text": "Indicated for fixation of anteromedial facet coronoid fractures.",
+      "source_ids": [
+        "ao_38754047e709a146"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "proximal_forearm_medial_fcu_split_closure_01",
+      "text": "Repair the FCU heads, ensure the transposed or in-situ ulnar nerve lies in a healthy bed, and close in layers.",
+      "source_ids": [
+        "ao_38754047e709a146"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "proximal_forearm_medial_fcu_split_complications_01",
+      "text": "Complications include ulnar neuropathy, medial antebrachial cutaneous nerve injury, and medial collateral ligament insufficiency.",
+      "source_ids": [
+        "ao_38754047e709a146",
+        "ao_14117b38e77168af"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "proximal_forearm_medial_fcu_split_questions_01",
+      "text": "What does the FCU-split approach expose best?",
+      "source_ids": [
+        "ao_38754047e709a146"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "proximal_forearm_medial_fcu_split_questions_02",
+      "text": "How far is the ulnar nerve unroofed?",
+      "source_ids": [
+        "ao_38754047e709a146"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "proximal_forearm_medial_fcu_split_questions_03",
+      "text": "Where is ulnar nerve exposure begun and why?",
+      "source_ids": [
+        "ao_38754047e709a146",
+        "ao_14117b38e77168af"
+      ],
+      "risk_level": "medium"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "ao_38754047e709a146",
+      "provider": "AO Surgery Reference",
+      "title": "Medial FCU-split approach (proximal forearm)",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/proximal-forearm/approach/medial-fcu-split",
+      "source_page_id": "ao_38754047e709a146"
+    },
+    {
+      "source_id": "ao_14117b38e77168af",
+      "provider": "AO Surgery Reference",
+      "title": "Medial Taylor and Scham approach (proximal forearm)",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/proximal-forearm/approach/medial-taylor-and-scham",
+      "source_page_id": "ao_14117b38e77168af"
+    }
+  ],
+  "content_status": "agent_review_pending",
+  "review": {
+    "status": "agent_review_pending",
+    "required_roles": [
+      "adversarial_safety_reviewer",
+      "approach_anatomy_reviewer",
+      "educational_value_reviewer",
+      "evidence_reviewer",
+      "operative_exposure_reviewer",
+      "procedure_applicability_reviewer"
+    ],
+    "completed_roles": []
+  },
+  "resolved_contradiction_keys": [],
+  "authoring_provenance": {
+    "method": "local_codex_curated",
+    "definition_file": "data/approach_library/curated/proximal_forearm_medial_batch004_v1.json",
+    "api_used": false
+  }
+}

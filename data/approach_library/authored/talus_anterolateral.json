@@ -1,0 +1,363 @@
+{
+  "schema_version": "brobot_approach_packet_v1",
+  "approach_id": "talus_anterolateral",
+  "name": "Anterolateral approach to the talus",
+  "aliases": [
+    "anterolateral talar-neck approach"
+  ],
+  "region": "talus",
+  "joint": "ankle",
+  "bones": [
+    "talus",
+    "distal fibula"
+  ],
+  "corridor": "Full-thickness longitudinal incision along the fourth-metatarsal axis from the distal fibula to the fourth-metatarsal base, protecting the superficial peroneal nerve and releasing extensor digitorum brevis to the lateral talar neck and subtalar joint",
+  "positioning": [
+    {
+      "text": "Position so the distal fibula, fourth-metatarsal axis, and lateral hindfoot can be seen and imaged; many talar-neck fractures use this window together with an anteromedial cut.",
+      "claim_ids": [
+        "talus_anterolateral_positioning_01"
+      ]
+    }
+  ],
+  "setup": [],
+  "surface_landmarks": [
+    {
+      "text": "Mark the distal fibula, the axis of the fourth metatarsal, and the expected course of the superficial peroneal nerve just anterior to the fibula.",
+      "claim_ids": [
+        "talus_anterolateral_surface_landmarks_01"
+      ]
+    }
+  ],
+  "incision": [
+    {
+      "text": "Make a full-thickness longitudinal cut without undermining, based on the fourth-metatarsal axis from the distal fibula to the fourth-metatarsal base. Length and exact position follow the fracture.",
+      "claim_ids": [
+        "talus_anterolateral_incision_01"
+      ]
+    }
+  ],
+  "superficial_interval": [
+    {
+      "text": "Protect the superficial peroneal nerve by identifying it or by placing the cut so it stays out of the field; it usually lies on the medial side of this incision and immediately anterior to the fibula.",
+      "claim_ids": [
+        "talus_anterolateral_superficial_interval_01"
+      ]
+    }
+  ],
+  "deep_interval": [
+    {
+      "text": "Divide deep fascia and extensor retinaculum down to extensor digitorum brevis, release that bulky muscle, and reach the lateral talar neck and subtalar joint. The anterior tibiofibular and talofibular ligaments may be incised for exposure but should be respected because they are structurally important. Debride and wash the subtalar joint before reduction.",
+      "claim_ids": [
+        "talus_anterolateral_deep_interval_01"
+      ]
+    }
+  ],
+  "layers": [
+    {
+      "text": "Skin, superficial peroneal nerve plane, deep fascia and retinaculum, extensor digitorum brevis, then the lateral talar neck and subtalar joint.",
+      "claim_ids": [
+        "talus_anterolateral_layers_01"
+      ]
+    }
+  ],
+  "structures_encountered": [],
+  "structures_at_risk": [
+    {
+      "text": "The superficial peroneal nerve is the main local nerve at risk. Talar blood supply must be preserved: the neck is fed from medial and lateral (anterior and posterior tibial) branches, the body almost exclusively from posteromedial deltoid branches and the artery of the tarsal canal, and the head and dorsal neck from dorsalis pedis. The peroneal contribution is the smallest and is not endangered laterally.",
+      "claim_ids": [
+        "talus_anterolateral_structures_at_risk_01"
+      ]
+    }
+  ],
+  "danger_zones": [
+    {
+      "text": "Undermining ankle and hindfoot skin, cutting the superficial peroneal nerve, and stripping talar periosteum or the remaining extraosseous vessels after a fracture-dislocation raise the risk of wound breakdown and osteonecrosis.",
+      "claim_ids": [
+        "talus_anterolateral_danger_zones_01"
+      ]
+    }
+  ],
+  "retraction_hazards": [
+    {
+      "text": "Do not retract the superficial peroneal nerve under tension, and do not strip periosteum from the neck while exposing the lateral process or subtalar joint.",
+      "claim_ids": [
+        "talus_anterolateral_retraction_hazards_01"
+      ]
+    }
+  ],
+  "exposure": [
+    {
+      "text": "Shows the lateral talar neck for reduction and laterally based fixation, allows subtalar debridement, and identifies lateral-process fractures.",
+      "claim_ids": [
+        "talus_anterolateral_exposure_01"
+      ]
+    }
+  ],
+  "limitations": [
+    {
+      "text": "Does not show the medial neck; comminuted or displaced neck fractures commonly need a combined anteromedial window.",
+      "claim_ids": [
+        "talus_anterolateral_limitations_01"
+      ]
+    }
+  ],
+  "extensions": [],
+  "indications": [
+    {
+      "text": "Used for the lateral side of talar-neck fractures, lateral-process fractures, and subtalar debridement, usually as one of two combined approaches.",
+      "claim_ids": [
+        "talus_anterolateral_indications_01"
+      ]
+    }
+  ],
+  "relative_contraindications": [],
+  "implant_implications": [],
+  "fluoroscopy_implications": [],
+  "closure": [
+    {
+      "text": "Close in layers, restoring the anatomic structures that were divided.",
+      "claim_ids": [
+        "talus_anterolateral_closure_01"
+      ]
+    }
+  ],
+  "complications": [
+    {
+      "text": "Complications include superficial peroneal neurapraxia, wound problems from undermined flaps, and talar osteonecrosis if remaining extraosseous vessels are injured.",
+      "claim_ids": [
+        "talus_anterolateral_complications_01"
+      ]
+    }
+  ],
+  "bailouts": [],
+  "procedure_applications": [
+    {
+      "procedure_id": "talus_fracture_orif",
+      "relationship": "primary_option",
+      "condition": "A talar-neck fracture is reduced from the lateral side, often combined with an anteromedial window, or a lateral-process fracture is treated"
+    }
+  ],
+  "questions": [
+    {
+      "question": "Along which ray is the anterolateral talar incision based?",
+      "answer": "The axis of the fourth metatarsal, from the distal fibula to the fourth-metatarsal base.",
+      "claim_ids": [
+        "talus_anterolateral_questions_01"
+      ]
+    },
+    {
+      "question": "Where does the superficial peroneal nerve usually lie relative to this incision?",
+      "answer": "Immediately anterior to the fibula and typically on the medial side of the cut.",
+      "claim_ids": [
+        "talus_anterolateral_questions_02"
+      ]
+    },
+    {
+      "question": "Which vessels supply most of the talar body?",
+      "answer": "Posteromedial deltoid branches and the artery of the tarsal canal from the posterior tibial artery.",
+      "claim_ids": [
+        "talus_anterolateral_questions_03"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "talus_anterolateral_positioning_01",
+      "text": "Position so the distal fibula, fourth-metatarsal axis, and lateral hindfoot can be seen and imaged; many talar-neck fractures use this window together with an anteromedial cut.",
+      "source_ids": [
+        "ao_0bc032ac24ff0529",
+        "ao_b68bf7382138d743"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "talus_anterolateral_surface_landmarks_01",
+      "text": "Mark the distal fibula, the axis of the fourth metatarsal, and the expected course of the superficial peroneal nerve just anterior to the fibula.",
+      "source_ids": [
+        "ao_0bc032ac24ff0529",
+        "ao_b68bf7382138d743"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "talus_anterolateral_incision_01",
+      "text": "Make a full-thickness longitudinal cut without undermining, based on the fourth-metatarsal axis from the distal fibula to the fourth-metatarsal base. Length and exact position follow the fracture.",
+      "source_ids": [
+        "ao_0bc032ac24ff0529",
+        "ao_b68bf7382138d743"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "talus_anterolateral_superficial_interval_01",
+      "text": "Protect the superficial peroneal nerve by identifying it or by placing the cut so it stays out of the field; it usually lies on the medial side of this incision and immediately anterior to the fibula.",
+      "source_ids": [
+        "ao_0bc032ac24ff0529",
+        "ao_b68bf7382138d743"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "talus_anterolateral_deep_interval_01",
+      "text": "Divide deep fascia and extensor retinaculum down to extensor digitorum brevis, release that bulky muscle, and reach the lateral talar neck and subtalar joint. The anterior tibiofibular and talofibular ligaments may be incised for exposure but should be respected because they are structurally important. Debride and wash the subtalar joint before reduction.",
+      "source_ids": [
+        "ao_0bc032ac24ff0529"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "talus_anterolateral_layers_01",
+      "text": "Skin, superficial peroneal nerve plane, deep fascia and retinaculum, extensor digitorum brevis, then the lateral talar neck and subtalar joint.",
+      "source_ids": [
+        "ao_0bc032ac24ff0529",
+        "ao_b68bf7382138d743"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "talus_anterolateral_structures_at_risk_01",
+      "text": "The superficial peroneal nerve is the main local nerve at risk. Talar blood supply must be preserved: the neck is fed from medial and lateral (anterior and posterior tibial) branches, the body almost exclusively from posteromedial deltoid branches and the artery of the tarsal canal, and the head and dorsal neck from dorsalis pedis. The peroneal contribution is the smallest and is not endangered laterally.",
+      "source_ids": [
+        "ao_0bc032ac24ff0529",
+        "ao_56c0768fdeb445d3"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "talus_anterolateral_danger_zones_01",
+      "text": "Undermining ankle and hindfoot skin, cutting the superficial peroneal nerve, and stripping talar periosteum or the remaining extraosseous vessels after a fracture-dislocation raise the risk of wound breakdown and osteonecrosis.",
+      "source_ids": [
+        "ao_0bc032ac24ff0529",
+        "ao_56c0768fdeb445d3"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "talus_anterolateral_retraction_hazards_01",
+      "text": "Do not retract the superficial peroneal nerve under tension, and do not strip periosteum from the neck while exposing the lateral process or subtalar joint.",
+      "source_ids": [
+        "ao_0bc032ac24ff0529",
+        "ao_b68bf7382138d743"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "talus_anterolateral_exposure_01",
+      "text": "Shows the lateral talar neck for reduction and laterally based fixation, allows subtalar debridement, and identifies lateral-process fractures.",
+      "source_ids": [
+        "ao_0bc032ac24ff0529"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "talus_anterolateral_limitations_01",
+      "text": "Does not show the medial neck; comminuted or displaced neck fractures commonly need a combined anteromedial window.",
+      "source_ids": [
+        "ao_0bc032ac24ff0529",
+        "ao_56c0768fdeb445d3"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "talus_anterolateral_indications_01",
+      "text": "Used for the lateral side of talar-neck fractures, lateral-process fractures, and subtalar debridement, usually as one of two combined approaches.",
+      "source_ids": [
+        "ao_0bc032ac24ff0529"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "talus_anterolateral_closure_01",
+      "text": "Close in layers, restoring the anatomic structures that were divided.",
+      "source_ids": [
+        "ao_0bc032ac24ff0529"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "talus_anterolateral_complications_01",
+      "text": "Complications include superficial peroneal neurapraxia, wound problems from undermined flaps, and talar osteonecrosis if remaining extraosseous vessels are injured.",
+      "source_ids": [
+        "ao_0bc032ac24ff0529",
+        "ao_56c0768fdeb445d3"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "talus_anterolateral_questions_01",
+      "text": "Along which ray is the anterolateral talar incision based?",
+      "source_ids": [
+        "ao_0bc032ac24ff0529"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "talus_anterolateral_questions_02",
+      "text": "Where does the superficial peroneal nerve usually lie relative to this incision?",
+      "source_ids": [
+        "ao_0bc032ac24ff0529",
+        "ao_b68bf7382138d743"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "talus_anterolateral_questions_03",
+      "text": "Which vessels supply most of the talar body?",
+      "source_ids": [
+        "ao_0bc032ac24ff0529",
+        "ao_56c0768fdeb445d3"
+      ],
+      "risk_level": "medium"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "ao_0bc032ac24ff0529",
+      "provider": "AO Surgery Reference",
+      "title": "Anterolateral Approach",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/talus/approach/anterolateral-approach",
+      "source_page_id": "ao_0bc032ac24ff0529"
+    },
+    {
+      "source_id": "ao_b68bf7382138d743",
+      "provider": "AO Surgery Reference",
+      "title": "Anterolateral Approach To The Distal Tibia",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/distal-tibia/approach/anterolateral-approach-to-the-distal-tibia",
+      "source_page_id": "ao_b68bf7382138d743"
+    },
+    {
+      "source_id": "ao_56c0768fdeb445d3",
+      "provider": "AO Surgery Reference",
+      "title": "Anteromedial Approach",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/talus/approach/anteromedial-approach",
+      "source_page_id": "ao_56c0768fdeb445d3"
+    },
+    {
+      "source_id": "orthobullets_263c68caf212e93e",
+      "provider": "Orthobullets",
+      "title": "Ankle Anterolateral Approach",
+      "url": "https://www.orthobullets.com/approaches/12072/ankle-anterolateral-approach",
+      "source_page_id": "orthobullets_263c68caf212e93e"
+    }
+  ],
+  "content_status": "agent_review_pending",
+  "review": {
+    "status": "agent_review_pending",
+    "required_roles": [
+      "adversarial_safety_reviewer",
+      "approach_anatomy_reviewer",
+      "educational_value_reviewer",
+      "evidence_reviewer",
+      "operative_exposure_reviewer",
+      "procedure_applicability_reviewer"
+    ],
+    "completed_roles": []
+  },
+  "resolved_contradiction_keys": [],
+  "authoring_provenance": {
+    "method": "local_codex_curated",
+    "definition_file": "data/approach_library/curated/talus_batch001_v1.json",
+    "api_used": false
+  }
+}

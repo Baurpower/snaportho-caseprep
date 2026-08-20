@@ -1,0 +1,1384 @@
+{
+  "approaches": [
+    {
+      "approach_id": "talus_anterolateral",
+      "name": "Anterolateral approach to the talus",
+      "aliases": [
+        "anterolateral talar-neck approach"
+      ],
+      "region": "talus",
+      "joint": "ankle",
+      "bones": [
+        "talus",
+        "distal fibula"
+      ],
+      "corridor": "Full-thickness longitudinal incision along the fourth-metatarsal axis from the distal fibula to the fourth-metatarsal base, protecting the superficial peroneal nerve and releasing extensor digitorum brevis to the lateral talar neck and subtalar joint",
+      "sources": [
+        {
+          "source_id": "ao_0bc032ac24ff0529",
+          "provider": "AO Surgery Reference",
+          "title": "Anterolateral Approach",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/talus/approach/anterolateral-approach",
+          "source_page_id": "ao_0bc032ac24ff0529"
+        },
+        {
+          "source_id": "ao_b68bf7382138d743",
+          "provider": "AO Surgery Reference",
+          "title": "Anterolateral Approach To The Distal Tibia",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/distal-tibia/approach/anterolateral-approach-to-the-distal-tibia",
+          "source_page_id": "ao_b68bf7382138d743"
+        },
+        {
+          "source_id": "ao_56c0768fdeb445d3",
+          "provider": "AO Surgery Reference",
+          "title": "Anteromedial Approach",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/talus/approach/anteromedial-approach",
+          "source_page_id": "ao_56c0768fdeb445d3"
+        },
+        {
+          "source_id": "orthobullets_263c68caf212e93e",
+          "provider": "Orthobullets",
+          "title": "Ankle Anterolateral Approach",
+          "url": "https://www.orthobullets.com/approaches/12072/ankle-anterolateral-approach",
+          "source_page_id": "orthobullets_263c68caf212e93e"
+        }
+      ],
+      "procedure_applications": [
+        {
+          "procedure_id": "talus_fracture_orif",
+          "relationship": "primary_option",
+          "condition": "A talar-neck fracture is reduced from the lateral side, often combined with an anteromedial window, or a lateral-process fracture is treated"
+        }
+      ],
+      "sections": {
+        "positioning": [
+          {
+            "text": "Position so the distal fibula, fourth-metatarsal axis, and lateral hindfoot can be seen and imaged; many talar-neck fractures use this window together with an anteromedial cut.",
+            "source_ids": [
+              "ao_0bc032ac24ff0529",
+              "ao_b68bf7382138d743"
+            ]
+          }
+        ],
+        "surface_landmarks": [
+          {
+            "text": "Mark the distal fibula, the axis of the fourth metatarsal, and the expected course of the superficial peroneal nerve just anterior to the fibula.",
+            "source_ids": [
+              "ao_0bc032ac24ff0529",
+              "ao_b68bf7382138d743"
+            ]
+          }
+        ],
+        "incision": [
+          {
+            "text": "Make a full-thickness longitudinal cut without undermining, based on the fourth-metatarsal axis from the distal fibula to the fourth-metatarsal base. Length and exact position follow the fracture.",
+            "source_ids": [
+              "ao_0bc032ac24ff0529",
+              "ao_b68bf7382138d743"
+            ]
+          }
+        ],
+        "superficial_interval": [
+          {
+            "text": "Protect the superficial peroneal nerve by identifying it or by placing the cut so it stays out of the field; it usually lies on the medial side of this incision and immediately anterior to the fibula.",
+            "source_ids": [
+              "ao_0bc032ac24ff0529",
+              "ao_b68bf7382138d743"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "deep_interval": [
+          {
+            "text": "Divide deep fascia and extensor retinaculum down to extensor digitorum brevis, release that bulky muscle, and reach the lateral talar neck and subtalar joint. The anterior tibiofibular and talofibular ligaments may be incised for exposure but should be respected because they are structurally important. Debride and wash the subtalar joint before reduction.",
+            "source_ids": [
+              "ao_0bc032ac24ff0529"
+            ]
+          }
+        ],
+        "layers": [
+          {
+            "text": "Skin, superficial peroneal nerve plane, deep fascia and retinaculum, extensor digitorum brevis, then the lateral talar neck and subtalar joint.",
+            "source_ids": [
+              "ao_0bc032ac24ff0529",
+              "ao_b68bf7382138d743"
+            ]
+          }
+        ],
+        "structures_at_risk": [
+          {
+            "text": "The superficial peroneal nerve is the main local nerve at risk. Talar blood supply must be preserved: the neck is fed from medial and lateral (anterior and posterior tibial) branches, the body almost exclusively from posteromedial deltoid branches and the artery of the tarsal canal, and the head and dorsal neck from dorsalis pedis. The peroneal contribution is the smallest and is not endangered laterally.",
+            "source_ids": [
+              "ao_0bc032ac24ff0529",
+              "ao_56c0768fdeb445d3"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "danger_zones": [
+          {
+            "text": "Undermining ankle and hindfoot skin, cutting the superficial peroneal nerve, and stripping talar periosteum or the remaining extraosseous vessels after a fracture-dislocation raise the risk of wound breakdown and osteonecrosis.",
+            "source_ids": [
+              "ao_0bc032ac24ff0529",
+              "ao_56c0768fdeb445d3"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "retraction_hazards": [
+          {
+            "text": "Do not retract the superficial peroneal nerve under tension, and do not strip periosteum from the neck while exposing the lateral process or subtalar joint.",
+            "source_ids": [
+              "ao_0bc032ac24ff0529",
+              "ao_b68bf7382138d743"
+            ]
+          }
+        ],
+        "exposure": [
+          {
+            "text": "Shows the lateral talar neck for reduction and laterally based fixation, allows subtalar debridement, and identifies lateral-process fractures.",
+            "source_ids": [
+              "ao_0bc032ac24ff0529"
+            ]
+          }
+        ],
+        "limitations": [
+          {
+            "text": "Does not show the medial neck; comminuted or displaced neck fractures commonly need a combined anteromedial window.",
+            "source_ids": [
+              "ao_0bc032ac24ff0529",
+              "ao_56c0768fdeb445d3"
+            ]
+          }
+        ],
+        "indications": [
+          {
+            "text": "Used for the lateral side of talar-neck fractures, lateral-process fractures, and subtalar debridement, usually as one of two combined approaches.",
+            "source_ids": [
+              "ao_0bc032ac24ff0529"
+            ]
+          }
+        ],
+        "closure": [
+          {
+            "text": "Close in layers, restoring the anatomic structures that were divided.",
+            "source_ids": [
+              "ao_0bc032ac24ff0529"
+            ]
+          }
+        ],
+        "complications": [
+          {
+            "text": "Complications include superficial peroneal neurapraxia, wound problems from undermined flaps, and talar osteonecrosis if remaining extraosseous vessels are injured.",
+            "source_ids": [
+              "ao_0bc032ac24ff0529",
+              "ao_56c0768fdeb445d3"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "questions": [
+          {
+            "question": "Along which ray is the anterolateral talar incision based?",
+            "answer": "The axis of the fourth metatarsal, from the distal fibula to the fourth-metatarsal base.",
+            "source_ids": [
+              "ao_0bc032ac24ff0529"
+            ]
+          },
+          {
+            "question": "Where does the superficial peroneal nerve usually lie relative to this incision?",
+            "answer": "Immediately anterior to the fibula and typically on the medial side of the cut.",
+            "source_ids": [
+              "ao_0bc032ac24ff0529",
+              "ao_b68bf7382138d743"
+            ]
+          },
+          {
+            "question": "Which vessels supply most of the talar body?",
+            "answer": "Posteromedial deltoid branches and the artery of the tarsal canal from the posterior tibial artery.",
+            "source_ids": [
+              "ao_0bc032ac24ff0529",
+              "ao_56c0768fdeb445d3"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "approach_id": "talus_anteromedial",
+      "name": "Anteromedial approach to the talus",
+      "aliases": [
+        "anteromedial talar-neck approach"
+      ],
+      "region": "talus",
+      "joint": "ankle",
+      "bones": [
+        "talus",
+        "medial malleolus",
+        "navicular"
+      ],
+      "corridor": "Incision from the medial malleolus toward the navicular, protecting the saphenous vein and nerve and staying off the posteromedial deltoid arterial branches to the talar body",
+      "sources": [
+        {
+          "source_id": "ao_56c0768fdeb445d3",
+          "provider": "AO Surgery Reference",
+          "title": "Anteromedial Approach",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/talus/approach/anteromedial-approach",
+          "source_page_id": "ao_56c0768fdeb445d3"
+        },
+        {
+          "source_id": "ao_389d177f1d1c05aa",
+          "provider": "AO Surgery Reference",
+          "title": "Anteromedial Approach To The Distal Tibia",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/distal-tibia/approach/anteromedial-approach-to-the-distal-tibia",
+          "source_page_id": "ao_389d177f1d1c05aa"
+        },
+        {
+          "source_id": "ao_0bc032ac24ff0529",
+          "provider": "AO Surgery Reference",
+          "title": "Anterolateral Approach",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/talus/approach/anterolateral-approach",
+          "source_page_id": "ao_0bc032ac24ff0529"
+        }
+      ],
+      "procedure_applications": [
+        {
+          "procedure_id": "talus_fracture_orif",
+          "relationship": "primary_option",
+          "condition": "The medial talar neck is reduced and fixed, usually together with an anterolateral window; the cut is shifted more inferior proximally if a medial malleolar osteotomy is planned"
+        }
+      ],
+      "sections": {
+        "positioning": [
+          {
+            "text": "Position so the medial malleolus, navicular, and medial neck can be seen; this window is usually combined with an anterolateral approach.",
+            "source_ids": [
+              "ao_56c0768fdeb445d3",
+              "ao_0bc032ac24ff0529"
+            ]
+          }
+        ],
+        "surface_landmarks": [
+          {
+            "text": "Mark the medial malleolus, navicular, and the saphenous vein and nerve.",
+            "source_ids": [
+              "ao_56c0768fdeb445d3",
+              "ao_389d177f1d1c05aa"
+            ]
+          }
+        ],
+        "incision": [
+          {
+            "text": "Incise from the medial malleolus distally to the navicular. For more complex fractures, especially if a medial malleolar osteotomy is planned, extend more inferiorly and proximally.",
+            "source_ids": [
+              "ao_56c0768fdeb445d3"
+            ]
+          }
+        ],
+        "superficial_interval": [
+          {
+            "text": "Identify the long saphenous vein and nerve. Vein branches may be ligated or coagulated. Stay immediately medial to the tibialis-anterior sheath if the distal-tibia anteromedial interval is used as the proximal guide.",
+            "source_ids": [
+              "ao_56c0768fdeb445d3",
+              "ao_389d177f1d1c05aa"
+            ]
+          }
+        ],
+        "deep_interval": [
+          {
+            "text": "Evacuate hematoma to see the inferomedial neck. Do not damage the deltoid arterial branches that arise posteromedially and supply the medial two-thirds of the talar body. Minimize periosteal stripping.",
+            "source_ids": [
+              "ao_56c0768fdeb445d3",
+              "ao_0bc032ac24ff0529"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "layers": [
+          {
+            "text": "Skin, saphenous vein and nerve, then the medial talar neck with preserved deltoid arterial branches.",
+            "source_ids": [
+              "ao_56c0768fdeb445d3",
+              "ao_389d177f1d1c05aa"
+            ]
+          }
+        ],
+        "structures_at_risk": [
+          {
+            "text": "The saphenous nerve and vein, the deltoid arterial branches to the medial talar body, and remaining extraosseous talar vessels after a fracture-dislocation are at risk.",
+            "source_ids": [
+              "ao_56c0768fdeb445d3",
+              "ao_0bc032ac24ff0529"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "danger_zones": [
+          {
+            "text": "Posteromedial stripping of deltoid branches and broad periosteal elevation of the neck are the osteonecrosis danger zones.",
+            "source_ids": [
+              "ao_56c0768fdeb445d3",
+              "ao_0bc032ac24ff0529"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "retraction_hazards": [
+          {
+            "text": "Do not retract posteromedially into the deltoid arterial leash or strip periosteum off the neck to improve the view.",
+            "source_ids": [
+              "ao_56c0768fdeb445d3",
+              "ao_0bc032ac24ff0529"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "exposure": [
+          {
+            "text": "Shows the medial neck for reduction and medially based fixation. Combined with the anterolateral window it is used for displaced and comminuted neck fractures.",
+            "source_ids": [
+              "ao_56c0768fdeb445d3",
+              "ao_0bc032ac24ff0529"
+            ]
+          }
+        ],
+        "limitations": [
+          {
+            "text": "Does not show the lateral neck or subtalar joint. A more inferior proximal cut is needed if a medial malleolar osteotomy is added for the medial talar dome.",
+            "source_ids": [
+              "ao_56c0768fdeb445d3"
+            ]
+          }
+        ],
+        "indications": [
+          {
+            "text": "Used with an anterolateral approach for displaced or comminuted talar-neck fractures so the medial reduction and medial fixation can be seen.",
+            "source_ids": [
+              "ao_56c0768fdeb445d3",
+              "ao_0bc032ac24ff0529"
+            ]
+          }
+        ],
+        "closure": [
+          {
+            "text": "Close in two layers.",
+            "source_ids": [
+              "ao_56c0768fdeb445d3"
+            ]
+          }
+        ],
+        "complications": [
+          {
+            "text": "Complications include saphenous neurapraxia and talar osteonecrosis from injury to deltoid branches or periosteal stripping.",
+            "source_ids": [
+              "ao_56c0768fdeb445d3",
+              "ao_0bc032ac24ff0529"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "questions": [
+          {
+            "question": "From where to where does the anteromedial talar incision run?",
+            "answer": "From the medial malleolus distally to the navicular, extended more inferiorly and proximally if a medial malleolar osteotomy is planned.",
+            "source_ids": [
+              "ao_56c0768fdeb445d3"
+            ]
+          },
+          {
+            "question": "Which arterial branches must be preserved on the medial side?",
+            "answer": "The deltoid branches that arise posteromedially and supply the medial two-thirds of the talar body.",
+            "source_ids": [
+              "ao_56c0768fdeb445d3",
+              "ao_0bc032ac24ff0529"
+            ]
+          },
+          {
+            "question": "Why is this approach usually combined with an anterolateral window?",
+            "answer": "Displaced and comminuted neck fractures need both sides seen for an anatomic reduction.",
+            "source_ids": [
+              "ao_56c0768fdeb445d3",
+              "ao_0bc032ac24ff0529"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "approach_id": "talus_direct_lateral",
+      "name": "Direct lateral approach to the talar lateral process",
+      "aliases": [
+        "snowboarder lateral-process approach"
+      ],
+      "region": "talus",
+      "joint": "subtalar",
+      "bones": [
+        "talus"
+      ],
+      "corridor": "Limited window more plantar than the anterolateral talar cut, between the peroneal tendons posteriorly and the extensor tendons anteriorly, through the fat pad to the subtalar capsule and lateral process",
+      "sources": [
+        {
+          "source_id": "ao_9abdef5f8e8e30e8",
+          "provider": "AO Surgery Reference",
+          "title": "Direct Lateral Approach",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/talus/approach/direct-lateral-approach",
+          "source_page_id": "ao_9abdef5f8e8e30e8"
+        },
+        {
+          "source_id": "ao_0bc032ac24ff0529",
+          "provider": "AO Surgery Reference",
+          "title": "Anterolateral Approach",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/talus/approach/anterolateral-approach",
+          "source_page_id": "ao_0bc032ac24ff0529"
+        },
+        {
+          "source_id": "ao_3ac4777d6982b3ed",
+          "provider": "AO Surgery Reference",
+          "title": "Sinus tarsi approach",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/calcaneous/approach/sinus-tarsi-approach",
+          "source_page_id": "ao_3ac4777d6982b3ed"
+        }
+      ],
+      "procedure_applications": [
+        {
+          "procedure_id": "talus_fracture_orif",
+          "relationship": "primary_option",
+          "condition": "A simple lateral-process (snowboarder) fracture is exposed, or the posterior talocalcaneal joint is debrided, fused, or scoped through this window"
+        }
+      ],
+      "sections": {
+        "positioning": [
+          {
+            "text": "Position so a lateral fluoroscopic view can place a short cut over the lateral process.",
+            "source_ids": [
+              "ao_9abdef5f8e8e30e8",
+              "ao_3ac4777d6982b3ed"
+            ]
+          }
+        ],
+        "surface_landmarks": [
+          {
+            "text": "Mark the lateral process, peroneal tendons posteriorly and laterally, extensor tendons anteriorly and dorsally, and the expected sural and superficial peroneal courses.",
+            "source_ids": [
+              "ao_9abdef5f8e8e30e8",
+              "ao_3ac4777d6982b3ed"
+            ]
+          }
+        ],
+        "incision": [
+          {
+            "text": "Use a short longitudinal cut parallel to the tendons or a transverse cut. The transverse cut is limited posteriorly by the sural nerve and anteriorly by the superficial peroneal nerve. Lateral fluoroscopy helps place the incision over the process.",
+            "source_ids": [
+              "ao_9abdef5f8e8e30e8"
+            ]
+          }
+        ],
+        "superficial_interval": [
+          {
+            "text": "Protect the sural nerve posteriorly and the superficial peroneal nerve anteriorly. Few other named structures cross this fat-pad window.",
+            "source_ids": [
+              "ao_9abdef5f8e8e30e8",
+              "ao_3ac4777d6982b3ed"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "deep_interval": [
+          {
+            "text": "After deep fascia, incise the fat pad between the peroneal and extensor tendons to the subtalar capsule and lateral talar process. The window is similar to the middle of the anterolateral talar approach but more plantar.",
+            "source_ids": [
+              "ao_9abdef5f8e8e30e8",
+              "ao_0bc032ac24ff0529"
+            ]
+          }
+        ],
+        "layers": [
+          {
+            "text": "Skin, sural or superficial-peroneal plane, fat pad, subtalar capsule, then the lateral process.",
+            "source_ids": [
+              "ao_9abdef5f8e8e30e8",
+              "ao_3ac4777d6982b3ed"
+            ]
+          }
+        ],
+        "structures_at_risk": [
+          {
+            "text": "The sural nerve posteriorly and the superficial peroneal nerve anteriorly bound a transverse cut. Peroneal tendons sit posterior and lateral.",
+            "source_ids": [
+              "ao_9abdef5f8e8e30e8",
+              "ao_3ac4777d6982b3ed"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "danger_zones": [
+          {
+            "text": "A transverse incision that is too long posteriorly hits the sural nerve; too far anterior hits the superficial peroneal nerve.",
+            "source_ids": [
+              "ao_9abdef5f8e8e30e8",
+              "ao_0bc032ac24ff0529"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "retraction_hazards": [
+          {
+            "text": "Do not pull the peroneal tendons or the two cutaneous nerves under tension in this short window.",
+            "source_ids": [
+              "ao_9abdef5f8e8e30e8",
+              "ao_3ac4777d6982b3ed"
+            ]
+          }
+        ],
+        "exposure": [
+          {
+            "text": "Shows a simple lateral-process fracture and allows debridement, arthrodesis, or arthroscopy of the posterior talocalcaneal joint.",
+            "source_ids": [
+              "ao_9abdef5f8e8e30e8"
+            ]
+          }
+        ],
+        "limitations": [
+          {
+            "text": "It is not a talar-neck approach and does not replace combined anteromedial and anterolateral windows.",
+            "source_ids": [
+              "ao_9abdef5f8e8e30e8",
+              "ao_0bc032ac24ff0529"
+            ]
+          }
+        ],
+        "indications": [
+          {
+            "text": "Indicated for a simple lateral-process fracture or to debride the subtalar joint, including snowboarder fractures.",
+            "source_ids": [
+              "ao_9abdef5f8e8e30e8"
+            ]
+          }
+        ],
+        "closure": [
+          {
+            "text": "Close in layers.",
+            "source_ids": [
+              "ao_9abdef5f8e8e30e8"
+            ]
+          }
+        ],
+        "complications": [
+          {
+            "text": "Complications include sural or superficial-peroneal neurapraxia if the short window is extended past those nerves.",
+            "source_ids": [
+              "ao_9abdef5f8e8e30e8",
+              "ao_3ac4777d6982b3ed"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "questions": [
+          {
+            "question": "How does the direct lateral window differ from the anterolateral talar approach?",
+            "answer": "It is similar to the middle of the anterolateral approach but is placed more plantar to reach the lateral process.",
+            "source_ids": [
+              "ao_9abdef5f8e8e30e8"
+            ]
+          },
+          {
+            "question": "What limits a transverse direct-lateral incision?",
+            "answer": "The sural nerve posteriorly and the superficial peroneal nerve anteriorly.",
+            "source_ids": [
+              "ao_9abdef5f8e8e30e8"
+            ]
+          },
+          {
+            "question": "What structure between the peroneal and extensor tendons leads to the subtalar joint?",
+            "answer": "A fat pad; incising it reveals the subtalar capsule and lateral process.",
+            "source_ids": [
+              "ao_9abdef5f8e8e30e8"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "approach_id": "talus_lateral_malleolar_osteotomy",
+      "name": "Lateral malleolar osteotomy for the talar body",
+      "aliases": [
+        "fibular osteotomy approach to the lateral talus"
+      ],
+      "region": "talus",
+      "joint": "ankle",
+      "bones": [
+        "talus",
+        "fibula",
+        "lateral malleolus"
+      ],
+      "corridor": "Proximal extension of the anterolateral talar incision along the fibular crest to the tip then along the fourth ray, dividing the anterior tibiofibular and talofibular ligaments, then a transverse fibular osteotomy about 3 cm above the joint so the distal fibula can be rotated out",
+      "sources": [
+        {
+          "source_id": "ao_c33748915def4543",
+          "provider": "AO Surgery Reference",
+          "title": "Lateral Malleolar Osteotomy",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/talus/approach/lateral-malleolar-osteotomy",
+          "source_page_id": "ao_c33748915def4543"
+        },
+        {
+          "source_id": "ao_0bc032ac24ff0529",
+          "provider": "AO Surgery Reference",
+          "title": "Anterolateral Approach",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/talus/approach/anterolateral-approach",
+          "source_page_id": "ao_0bc032ac24ff0529"
+        },
+        {
+          "source_id": "ao_692babf8613ec05e",
+          "provider": "AO Surgery Reference",
+          "title": "Lateral Approach",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/malleoli/approach/lateral-approach",
+          "source_page_id": "ao_692babf8613ec05e"
+        },
+        {
+          "source_id": "orthobullets_878afbc8d50170f0",
+          "provider": "Orthobullets",
+          "title": "Gatellier Posterolateral Approach To Ankle",
+          "url": "https://www.orthobullets.com/approaches/12041/gatellier-posterolateral-approach-to-ankle",
+          "source_page_id": "orthobullets_878afbc8d50170f0"
+        }
+      ],
+      "procedure_applications": [
+        {
+          "procedure_id": "talus_fracture_orif",
+          "relationship": "conditional_option",
+          "condition": "A posterior or lateral talar-body fracture cannot be seen well enough through an anterolateral window alone"
+        }
+      ],
+      "sections": {
+        "positioning": [
+          {
+            "text": "Position so the fibular crest, fibular tip, fourth ray, and ankle joint can be imaged for a planned osteotomy about 3 cm above the joint.",
+            "source_ids": [
+              "ao_c33748915def4543",
+              "ao_0bc032ac24ff0529"
+            ]
+          }
+        ],
+        "surface_landmarks": [
+          {
+            "text": "Mark the fibular crest, fibular tip, fourth-ray axis, and the expected superficial peroneal nerve just anterior to the fibula.",
+            "source_ids": [
+              "ao_c33748915def4543",
+              "ao_0bc032ac24ff0529"
+            ]
+          }
+        ],
+        "incision": [
+          {
+            "text": "Use a full-thickness longitudinal cut without undermining: a proximal extension of the anterolateral talar incision from the fibular crest to the tip and then in line with the fourth ray, staying posterior to the superficial peroneal nerve.",
+            "source_ids": [
+              "ao_c33748915def4543",
+              "ao_0bc032ac24ff0529"
+            ]
+          }
+        ],
+        "superficial_interval": [
+          {
+            "text": "Protect the superficial peroneal nerve by identifying it anterior to the cut or by placing the incision behind it.",
+            "source_ids": [
+              "ao_c33748915def4543",
+              "ao_0bc032ac24ff0529"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "deep_interval": [
+          {
+            "text": "Divide the anterior distal tibiofibular and talofibular ligaments; preserve the calcaneofibular ligament. Predrill the fibula for the later compression plate if desired, keeping proximal holes from blocking osteotomy compression. Under image intensification, make a transverse oscillating-saw osteotomy about 3 cm above the joint, just above the distal tibiofibular ligament insertion, at a level that still allows distal-fragment fixation. Rotate the fibula externally to see the lateral talus.",
+            "source_ids": [
+              "ao_c33748915def4543"
+            ]
+          }
+        ],
+        "layers": [
+          {
+            "text": "Skin, superficial peroneal nerve plane, anterior syndesmotic and talofibular ligaments, then the osteotomized and externally rotated distal fibula and the lateral talar body.",
+            "source_ids": [
+              "ao_c33748915def4543",
+              "ao_692babf8613ec05e"
+            ]
+          }
+        ],
+        "structures_at_risk": [
+          {
+            "text": "The superficial peroneal nerve, the anterior tibiofibular and talofibular ligaments that must later be repaired, and ankle stability if the osteotomy or syndesmosis is not reconstructed are at risk. The peroneal blood supply is posterior and is not endangered.",
+            "source_ids": [
+              "ao_c33748915def4543",
+              "ao_0bc032ac24ff0529"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "danger_zones": [
+          {
+            "text": "An osteotomy that is too distal leaves inadequate distal-fragment fixation. Leaving the anterior ligaments unrepaired or skipping needed syndesmotic stabilization leaves an unstable ankle.",
+            "source_ids": [
+              "ao_c33748915def4543"
+            ]
+          }
+        ],
+        "retraction_hazards": [
+          {
+            "text": "Rotate the distal fibula only as far as needed and protect the superficial peroneal nerve while the fragment is out.",
+            "source_ids": [
+              "ao_c33748915def4543",
+              "ao_0bc032ac24ff0529"
+            ]
+          }
+        ],
+        "exposure": [
+          {
+            "text": "An uncommon alternative to the anterolateral approach that shows posterior and lateral talar-body fractures that cannot otherwise be reached.",
+            "source_ids": [
+              "ao_c33748915def4543"
+            ]
+          }
+        ],
+        "limitations": [
+          {
+            "text": "Iatrogenic bone and soft-tissue trauma must be weighed against the extra view. The calcaneofibular ligament is kept, so this is not a free fibular takedown.",
+            "source_ids": [
+              "ao_c33748915def4543"
+            ]
+          }
+        ],
+        "indications": [
+          {
+            "text": "Used when an anterolateral window cannot show a posterior or lateral talar-body fracture well enough.",
+            "source_ids": [
+              "ao_c33748915def4543"
+            ]
+          }
+        ],
+        "closure": [
+          {
+            "text": "Reduce the fibula anatomically and fix the transverse osteotomy with a contoured compression plate, or with a longitudinal screw or fibular nail. Repair the anterior distal tibiofibular ligament, with suture anchors if needed, and add syndesmotic suture-button or screw fixation when the syndesmosis is unstable. Close in layers.",
+            "source_ids": [
+              "ao_c33748915def4543"
+            ]
+          }
+        ],
+        "complications": [
+          {
+            "text": "Complications include superficial peroneal injury, malreduced osteotomy, unrepaired anterior ligaments, and syndesmotic instability.",
+            "source_ids": [
+              "ao_c33748915def4543",
+              "ao_0bc032ac24ff0529"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "questions": [
+          {
+            "question": "At what level is the fibular osteotomy planned?",
+            "answer": "About 3 cm above the joint surface, just above the insertion of the distal tibiofibular ligament, and high enough that the distal fragment can still be fixed.",
+            "source_ids": [
+              "ao_c33748915def4543"
+            ]
+          },
+          {
+            "question": "Which ligaments are divided, and which is preserved?",
+            "answer": "The anterior distal tibiofibular and talofibular ligaments are divided and later repaired; the calcaneofibular ligament is preserved.",
+            "source_ids": [
+              "ao_c33748915def4543"
+            ]
+          },
+          {
+            "question": "How is the osteotomy stabilized after talar fixation?",
+            "answer": "With a compression plate on the reduced fibula, or alternatively a longitudinal screw or fibular nail, plus ligament repair and syndesmotic fixation if needed.",
+            "source_ids": [
+              "ao_c33748915def4543"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "approach_id": "talus_medial_malleolar_osteotomy",
+      "name": "Medial malleolar osteotomy for the talar body",
+      "aliases": [
+        "medial malleolar osteotomy approach to the talar dome"
+      ],
+      "region": "talus",
+      "joint": "ankle",
+      "bones": [
+        "talus",
+        "medial malleolus"
+      ],
+      "corridor": "Longitudinal cut over the distal tibia and medial malleolus toward the first-metatarsal base, predrilled lag-screw holes, then a saw cut that stops short of the plafond and is completed with an osteotome so the malleolus can be reflected distally on its deltoid leash",
+      "sources": [
+        {
+          "source_id": "ao_036c2123f0abe2c6",
+          "provider": "AO Surgery Reference",
+          "title": "Medial Malleolar Osteotomy",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/talus/approach/medial-malleolar-osteotomy",
+          "source_page_id": "ao_036c2123f0abe2c6"
+        },
+        {
+          "source_id": "ao_56c0768fdeb445d3",
+          "provider": "AO Surgery Reference",
+          "title": "Anteromedial Approach",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/talus/approach/anteromedial-approach",
+          "source_page_id": "ao_56c0768fdeb445d3"
+        }
+      ],
+      "procedure_applications": [
+        {
+          "procedure_id": "talus_fracture_orif",
+          "relationship": "conditional_option",
+          "condition": "A complex talar-body fracture involving the medial weightbearing dome needs more view than an anteromedial window alone"
+        }
+      ],
+      "sections": {
+        "positioning": [
+          {
+            "text": "Position so the medial malleolus, first-metatarsal base, and talar dome can be seen; this osteotomy is often added to combined anteromedial and anterolateral talar windows.",
+            "source_ids": [
+              "ao_036c2123f0abe2c6",
+              "ao_56c0768fdeb445d3"
+            ]
+          }
+        ],
+        "surface_landmarks": [
+          {
+            "text": "Mark the medial malleolus, distal tibia, first-metatarsal base, and the saphenous nerve and vein.",
+            "source_ids": [
+              "ao_036c2123f0abe2c6",
+              "ao_56c0768fdeb445d3"
+            ]
+          }
+        ],
+        "incision": [
+          {
+            "text": "Make a longitudinal cut over the distal tibia and medial malleolus and extend it toward the first-metatarsal base as needed.",
+            "source_ids": [
+              "ao_036c2123f0abe2c6",
+              "ao_56c0768fdeb445d3"
+            ]
+          }
+        ],
+        "superficial_interval": [
+          {
+            "text": "Avoid the saphenous nerve. Ligate or coagulate the saphenous vein if needed. Incise periosteum and capsule over the medial distal tibia and malleolus, longitudinally or transversely; if longitudinal, take care distally not to injure talar blood supply.",
+            "source_ids": [
+              "ao_036c2123f0abe2c6",
+              "ao_56c0768fdeb445d3"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "deep_interval": [
+          {
+            "text": "The osteotomy must miss the distal tibial plafond. Visualize the joint medial to the anterior colliculus. Predrill and tap two parallel screws perpendicular to the planned cut. Saw at 90\u00b0 to those screws almost to the articular surface, using a K-wire as a guide if needed. Place small flat retractors around the malleolus to protect the talar dome and posterior tibial tendon, then complete the cut with an osteotome so the articular surface can be reapposed. Reflect the fragment distally on its retained soft tissue and blood supply without excessive retraction of the deltoid artery.",
+            "source_ids": [
+              "ao_036c2123f0abe2c6"
+            ]
+          }
+        ],
+        "layers": [
+          {
+            "text": "Skin, saphenous plane, periosteum and capsule, then the reflected medial malleolus and the medial talar body.",
+            "source_ids": [
+              "ao_036c2123f0abe2c6",
+              "ao_56c0768fdeb445d3"
+            ]
+          }
+        ],
+        "structures_at_risk": [
+          {
+            "text": "The saphenous nerve, the talar dome and posterior tibial tendon at the osteotomy exit, and the deltoid arterial branch that supplies most of the medial talus are at risk. The peroneal contribution is not of concern on this side.",
+            "source_ids": [
+              "ao_036c2123f0abe2c6",
+              "ao_56c0768fdeb445d3"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "danger_zones": [
+          {
+            "text": "An osteotomy that enters the plafond, completing the cut with a saw across cartilage, and over-retracting the reflected malleolus on the deltoid artery are the danger zones.",
+            "source_ids": [
+              "ao_036c2123f0abe2c6",
+              "ao_56c0768fdeb445d3"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "retraction_hazards": [
+          {
+            "text": "Do not retract the medial malleolar fragment excessively; that can tear the deltoid artery.",
+            "source_ids": [
+              "ao_036c2123f0abe2c6",
+              "ao_56c0768fdeb445d3"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "exposure": [
+          {
+            "text": "Shows the medial talar body and medial weightbearing dome. A more distal osteotomy dissects less bone but shows less talus.",
+            "source_ids": [
+              "ao_036c2123f0abe2c6"
+            ]
+          }
+        ],
+        "limitations": [
+          {
+            "text": "Does not show the lateral body. The deltoid leash must stay intact, so the fragment cannot be pulled freely.",
+            "source_ids": [
+              "ao_036c2123f0abe2c6",
+              "ao_56c0768fdeb445d3"
+            ]
+          }
+        ],
+        "indications": [
+          {
+            "text": "Used to improve visualization of complex talar-body fractures, particularly those involving the medial weightbearing dome.",
+            "source_ids": [
+              "ao_036c2123f0abe2c6"
+            ]
+          }
+        ],
+        "closure": [
+          {
+            "text": "Reduce the medial malleolus and fix it with the predrilled lag screws. A more vertical osteotomy may need an antiglide plate. Close in two layers.",
+            "source_ids": [
+              "ao_036c2123f0abe2c6"
+            ]
+          }
+        ],
+        "complications": [
+          {
+            "text": "Complications include plafond violation, cartilage loss if the saw completes the cut, deltoid-artery injury with osteonecrosis, and osteotomy displacement if a vertical cut is not buttressed.",
+            "source_ids": [
+              "ao_036c2123f0abe2c6",
+              "ao_56c0768fdeb445d3"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "questions": [
+          {
+            "question": "How is the medial malleolar osteotomy prepared so it can be repaired accurately?",
+            "answer": "Predrill and tap two parallel screws perpendicular to the planned cut, saw almost to the joint, and finish with an osteotome.",
+            "source_ids": [
+              "ao_036c2123f0abe2c6"
+            ]
+          },
+          {
+            "question": "Why must the reflected malleolus not be over-retracted?",
+            "answer": "Excessive retraction can damage the deltoid arterial branch that supplies most of the medial talus.",
+            "source_ids": [
+              "ao_036c2123f0abe2c6",
+              "ao_56c0768fdeb445d3"
+            ]
+          },
+          {
+            "question": "What extra implant may a more vertical osteotomy need?",
+            "answer": "An antiglide plate to stop proximal displacement.",
+            "source_ids": [
+              "ao_036c2123f0abe2c6"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "approach_id": "talus_posterolateral",
+      "name": "Posterolateral approach to the talus",
+      "aliases": [
+        "posterolateral talar-body approach"
+      ],
+      "region": "talus",
+      "joint": "ankle",
+      "bones": [
+        "talus",
+        "distal tibia",
+        "distal fibula",
+        "calcaneus"
+      ],
+      "corridor": "Incision just lateral to the Achilles, not over the tendon, through pre-Achilles fat with FHL protecting the posterior tibial bundle medially, then vertical ankle and subtalar capsulotomies",
+      "sources": [
+        {
+          "source_id": "ao_d417994673ca4c70",
+          "provider": "AO Surgery Reference",
+          "title": "Posterolateral Approach",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/talus/approach/posterolateral-approach",
+          "source_page_id": "ao_d417994673ca4c70"
+        },
+        {
+          "source_id": "ao_d1d6e660d076a419",
+          "provider": "AO Surgery Reference",
+          "title": "Posterolateral Limited Open Approach To The Distal Tibia",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/distal-tibia/approach/posterolateral-limited-open-approach-to-the-distal-tibia",
+          "source_page_id": "ao_d1d6e660d076a419"
+        },
+        {
+          "source_id": "ao_272a8b6430a22ffb",
+          "provider": "AO Surgery Reference",
+          "title": "Posterolateral Approach To The Volkmann Fragment",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/malleoli/approach/posterolateral-approach-to-the-volkmann-fragment",
+          "source_page_id": "ao_272a8b6430a22ffb"
+        }
+      ],
+      "procedure_applications": [
+        {
+          "procedure_id": "talus_fracture_orif",
+          "relationship": "primary_option",
+          "condition": "A posterior talar-body fracture or nonunion is fixed, or a reduced talar neck is stabilized from behind"
+        }
+      ],
+      "sections": {
+        "positioning": [
+          {
+            "text": "Position so the lateral Achilles border, calcaneal tuberosity, and posterior ankle can be seen and a tibia\u2013calcaneus distractor can be applied.",
+            "source_ids": [
+              "ao_d417994673ca4c70",
+              "ao_d1d6e660d076a419"
+            ]
+          }
+        ],
+        "surface_landmarks": [
+          {
+            "text": "Mark the lateral aspect of the Achilles tendon and the calcaneal tuberosity. Keep the cut off the Achilles and posterior to the sural nerve.",
+            "source_ids": [
+              "ao_d417994673ca4c70",
+              "ao_272a8b6430a22ffb"
+            ]
+          }
+        ],
+        "incision": [
+          {
+            "text": "Incise just lateral to the Achilles, not over the tendon. This is the vertical limb of an extended lateral calcaneal cut and can be lengthened farther than a typical extended-lateral vertical limb.",
+            "source_ids": [
+              "ao_d417994673ca4c70"
+            ]
+          }
+        ],
+        "superficial_interval": [
+          {
+            "text": "Stay posterior to the sural nerve, especially superiorly. Deepen lateral to Achilles paratenon through pre-Achilles fat. Respect the lateral calcaneal artery, which supplies most of this skin.",
+            "source_ids": [
+              "ao_d417994673ca4c70",
+              "ao_272a8b6430a22ffb"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "deep_interval": [
+          {
+            "text": "Medially the FHL belly protects the posterior tibial neurovascular bundle. Incise the ankle and subtalar capsules vertically to show distal tibia above, calcaneus below, and the talar body between them. A distractor or external fixator between tibia and calcaneus widens the window.",
+            "source_ids": [
+              "ao_d417994673ca4c70",
+              "ao_d1d6e660d076a419"
+            ]
+          }
+        ],
+        "layers": [
+          {
+            "text": "Skin, sural-nerve and lateral-calcaneal-artery plane, Achilles paratenon and pre-Achilles fat, FHL, then posterior ankle and subtalar capsules and the posterior talar body.",
+            "source_ids": [
+              "ao_d417994673ca4c70",
+              "ao_d1d6e660d076a419"
+            ]
+          }
+        ],
+        "structures_at_risk": [
+          {
+            "text": "The sural nerve, Achilles tendon, and lateral calcaneal artery are the local structures at risk. Compared with a posteromedial window this cut does not put the posterior tibial bundle in the field.",
+            "source_ids": [
+              "ao_d417994673ca4c70",
+              "ao_272a8b6430a22ffb"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "danger_zones": [
+          {
+            "text": "A cut over the Achilles or too far anterior toward the sural nerve, and injury to the lateral calcaneal artery, are the danger zones.",
+            "source_ids": [
+              "ao_d417994673ca4c70",
+              "ao_272a8b6430a22ffb"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "retraction_hazards": [
+          {
+            "text": "This is a deep window to the back of the talus. Do not retract through FHL into the posterior tibial bundle, and do not expect a proximal extensile interval because FHL blocks it.",
+            "source_ids": [
+              "ao_d417994673ca4c70"
+            ]
+          }
+        ],
+        "exposure": [
+          {
+            "text": "Shows the posterior half of the talar body, the posterior distal tibia and fibula, and the posterior calcaneus.",
+            "source_ids": [
+              "ao_d417994673ca4c70"
+            ]
+          }
+        ],
+        "limitations": [
+          {
+            "text": "Dissection to the back of the talus is deep, and the approach is not extensile proximally because of FHL. It does not show the anterior half of the body.",
+            "source_ids": [
+              "ao_d417994673ca4c70"
+            ]
+          }
+        ],
+        "indications": [
+          {
+            "text": "Used for acute posterior talar fractures, nonunion surgery, and posterior stabilization of a reduced talar neck.",
+            "source_ids": [
+              "ao_d417994673ca4c70"
+            ]
+          }
+        ],
+        "closure": [
+          {
+            "text": "Close in layers.",
+            "source_ids": [
+              "ao_d417994673ca4c70"
+            ]
+          }
+        ],
+        "complications": [
+          {
+            "text": "Complications include sural neurapraxia, Achilles-tendon injury, and lateral-calcaneal-artery compromise of the posterior skin.",
+            "source_ids": [
+              "ao_d417994673ca4c70",
+              "ao_272a8b6430a22ffb"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "questions": [
+          {
+            "question": "Where is the posterolateral talar incision placed relative to the Achilles?",
+            "answer": "Just lateral to the Achilles, not over the tendon, using the lateral Achilles border and calcaneal tuberosity as landmarks.",
+            "source_ids": [
+              "ao_d417994673ca4c70"
+            ]
+          },
+          {
+            "question": "What is the main advantage of this window over a posteromedial approach?",
+            "answer": "It does not put the posterior tibial neurovascular bundle in the field.",
+            "source_ids": [
+              "ao_d417994673ca4c70"
+            ]
+          },
+          {
+            "question": "Why is the approach not extensile proximally?",
+            "answer": "Flexor hallucis longus blocks proximal extension.",
+            "source_ids": [
+              "ao_d417994673ca4c70"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "approach_id": "talus_posteromedial",
+      "name": "Posteromedial approach to the talus",
+      "aliases": [
+        "posteromedial talar-body approach"
+      ],
+      "region": "talus",
+      "joint": "ankle",
+      "bones": [
+        "talus",
+        "medial malleolus"
+      ],
+      "corridor": "Incision between the Achilles and the medial malleolus, identifying FHL as the most posterior structure and working lateral to FHL so the tendon and posterior tibial bundle retract together",
+      "sources": [
+        {
+          "source_id": "ao_18cd230aad50f189",
+          "provider": "AO Surgery Reference",
+          "title": "Posteromedial Approach",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/talus/approach/posteromedial-approach",
+          "source_page_id": "ao_18cd230aad50f189"
+        },
+        {
+          "source_id": "ao_52556d8e928066ce",
+          "provider": "AO Surgery Reference",
+          "title": "Posteromedial Approach To The Distal Tibia",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/distal-tibia/approach/posteromedial-approach-to-the-distal-tibia",
+          "source_page_id": "ao_52556d8e928066ce"
+        },
+        {
+          "source_id": "ao_52f475041bb237f7",
+          "provider": "AO Surgery Reference",
+          "title": "Posteromedial Approach",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/malleoli/approach/posteromedial-approach",
+          "source_page_id": "ao_52f475041bb237f7"
+        }
+      ],
+      "procedure_applications": [
+        {
+          "procedure_id": "talus_fracture_orif",
+          "relationship": "primary_option",
+          "condition": "A posteromedial talar-body or posterior-process fracture is reduced; FHL in the intertubercle groove can guide the reduction"
+        }
+      ],
+      "sections": {
+        "positioning": [
+          {
+            "text": "Position so the interval between the Achilles and the medial malleolus can be imaged over the subtalar joint and a tibia\u2013calcaneus distractor can be applied.",
+            "source_ids": [
+              "ao_18cd230aad50f189",
+              "ao_52556d8e928066ce"
+            ]
+          }
+        ],
+        "surface_landmarks": [
+          {
+            "text": "Mark the Achilles tendon, medial malleolus, and the expected posterior tibial bundle behind the malleolus. Center the cut over the subtalar joint; fluoroscopy can guide placement.",
+            "source_ids": [
+              "ao_18cd230aad50f189",
+              "ao_52f475041bb237f7"
+            ]
+          }
+        ],
+        "incision": [
+          {
+            "text": "Incise between the Achilles laterally and the medial malleolus medially, with the exact line set by the patient's anatomy.",
+            "source_ids": [
+              "ao_18cd230aad50f189",
+              "ao_52556d8e928066ce"
+            ]
+          }
+        ],
+        "superficial_interval": [
+          {
+            "text": "Protect the neurovascular structures that run behind the medial malleolus. Identify FHL, the most posterior structure, and dissect posterior and laterally, remaining medial to the Achilles.",
+            "source_ids": [
+              "ao_18cd230aad50f189",
+              "ao_52556d8e928066ce"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "deep_interval": [
+          {
+            "text": "Deepen lateral to FHL and open its sheath if needed so FHL and the posterior tibial bundle retract together, exposing the fracture. FHL travels between two tubercles on the posterior talar body; fractures through that groove can use FHL as a reduction clue. Do not work so far proximal that the distal tibia is mistaken for the talus.",
+            "source_ids": [
+              "ao_18cd230aad50f189"
+            ]
+          }
+        ],
+        "layers": [
+          {
+            "text": "Skin, posterior tibial neurovascular plane, FHL, then the posterior talar body and the posterior tibiotalar and talocalcaneal joints.",
+            "source_ids": [
+              "ao_18cd230aad50f189",
+              "ao_52556d8e928066ce"
+            ]
+          }
+        ],
+        "structures_at_risk": [
+          {
+            "text": "The posterior tibial neurovascular bundle lies directly in this approach behind the medial malleolus and must be protected throughout.",
+            "source_ids": [
+              "ao_18cd230aad50f189",
+              "ao_52556d8e928066ce"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "danger_zones": [
+          {
+            "text": "Working medial to FHL or dissecting behind the medial malleolus without identifying the bundle is the danger zone.",
+            "source_ids": [
+              "ao_18cd230aad50f189",
+              "ao_52556d8e928066ce"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "retraction_hazards": [
+          {
+            "text": "Retract FHL together with the bundle rather than separating them, and avoid closing in a way that constricts the bundle.",
+            "source_ids": [
+              "ao_18cd230aad50f189",
+              "ao_52556d8e928066ce"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "exposure": [
+          {
+            "text": "Shows posteromedial talar-body and posterior-process fractures and only the posterior tibiotalar and posterior talocalcaneal joints. A distractor between tibia and calcaneus can help.",
+            "source_ids": [
+              "ao_18cd230aad50f189"
+            ]
+          }
+        ],
+        "limitations": [
+          {
+            "text": "Does not show the anterior half of the talar body.",
+            "source_ids": [
+              "ao_18cd230aad50f189"
+            ]
+          }
+        ],
+        "indications": [
+          {
+            "text": "Used for posteromedial talar-body or posterior-process fractures.",
+            "source_ids": [
+              "ao_18cd230aad50f189"
+            ]
+          }
+        ],
+        "closure": [
+          {
+            "text": "Close in layers, reconstructing the deep structures without compromising the posterior tibial bundle.",
+            "source_ids": [
+              "ao_18cd230aad50f189",
+              "ao_52556d8e928066ce"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "complications": [
+          {
+            "text": "Complications include posterior tibial neurovascular injury and mistaking the distal tibia for the talus if the dissection is too proximal.",
+            "source_ids": [
+              "ao_18cd230aad50f189",
+              "ao_52556d8e928066ce"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "questions": [
+          {
+            "question": "What is the most posterior structure used to find the interval?",
+            "answer": "Flexor hallucis longus; work lateral to it so the tendon and the posterior tibial bundle retract together.",
+            "source_ids": [
+              "ao_18cd230aad50f189"
+            ]
+          },
+          {
+            "question": "How can FHL help reduce a posterior talar-body fracture?",
+            "answer": "FHL runs in the intertubercle groove; that relationship can guide reduction of fragments through the groove.",
+            "source_ids": [
+              "ao_18cd230aad50f189"
+            ]
+          },
+          {
+            "question": "What proximal pitfall must be avoided?",
+            "answer": "Working too far proximal and mistaking the distal tibia for the talus.",
+            "source_ids": [
+              "ao_18cd230aad50f189"
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

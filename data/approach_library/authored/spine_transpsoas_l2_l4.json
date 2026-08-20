@@ -1,0 +1,332 @@
+{
+  "schema_version": "brobot_approach_packet_v1",
+  "approach_id": "spine_transpsoas_l2_l4",
+  "name": "Minimally invasive transpsoas approach (L2–L4)",
+  "aliases": [
+    "lateral lumbar interbody transpsoas approach"
+  ],
+  "region": "lumbar",
+  "joint": "",
+  "bones": [
+    "L2",
+    "L3",
+    "L4"
+  ],
+  "corridor": "3–4 cm lateral cut over the disc, split the three abdominal-wall layers without cautery, finger into retroperitoneal fat, then a 3–4 cm psoas split over the disc with a tubular localizer",
+  "positioning": [
+    {
+      "text": "Position so fluoroscopy can mark the target disc. L5–S1 cannot be reached.",
+      "claim_ids": [
+        "spine_transpsoas_l2_l4_positioning_01"
+      ]
+    }
+  ],
+  "setup": [],
+  "surface_landmarks": [
+    {
+      "text": "Mark the disc on the skin exactly in the line of the target.",
+      "claim_ids": [
+        "spine_transpsoas_l2_l4_surface_landmarks_01"
+      ]
+    }
+  ],
+  "incision": [
+    {
+      "text": "Make a 3–4 cm cut in the direction of the disc (longer if more than one level).",
+      "claim_ids": [
+        "spine_transpsoas_l2_l4_incision_01"
+      ]
+    }
+  ],
+  "superficial_interval": [
+    {
+      "text": "Split external oblique, then internal oblique (fibers roughly perpendicular), then open transversalis fascia carefully. Do not use cautery; it can injure superficial sensory nerves. Repair a peritoneal tear immediately with absorbable suture on a blunt tapered needle.",
+      "claim_ids": [
+        "spine_transpsoas_l2_l4_superficial_interval_01"
+      ]
+    }
+  ],
+  "deep_interval": [
+    {
+      "text": "Use a finger to find retroperitoneal fat and follow psoas fibers without wandering anterior or posterior. After x-ray confirmation, split psoas 3–4 cm over the disc and place a tubular localizer, checked on AP and lateral views. Neuromonitoring is recommended for a transpsoas split; temporary iliopsoas pain and nerve-root lesions are common.",
+      "claim_ids": [
+        "spine_transpsoas_l2_l4_deep_interval_01"
+      ]
+    }
+  ],
+  "layers": [
+    {
+      "text": "Skin, three abdominal-wall layers, retroperitoneal fat, psoas split, then the L2–L4 disc.",
+      "claim_ids": [
+        "spine_transpsoas_l2_l4_layers_01"
+      ]
+    }
+  ],
+  "structures_encountered": [],
+  "structures_at_risk": [
+    {
+      "text": "The peritoneum, lumbar plexus within psoas, and superficial abdominal-wall sensory nerves are at risk.",
+      "claim_ids": [
+        "spine_transpsoas_l2_l4_structures_at_risk_01"
+      ]
+    }
+  ],
+  "danger_zones": [
+    {
+      "text": "Cautery in the abdominal wall, wandering off psoas fibers, and a transpsoas split without neuromonitoring are the danger zones.",
+      "claim_ids": [
+        "spine_transpsoas_l2_l4_danger_zones_01"
+      ]
+    }
+  ],
+  "retraction_hazards": [
+    {
+      "text": "Muscles are split, not cut, so they are not sutured; close fascia only.",
+      "claim_ids": [
+        "spine_transpsoas_l2_l4_retraction_hazards_01"
+      ]
+    }
+  ],
+  "exposure": [
+    {
+      "text": "A retroperitoneal minimally invasive corridor ideal for cage insertion at L2–L4.",
+      "claim_ids": [
+        "spine_transpsoas_l2_l4_exposure_01"
+      ]
+    }
+  ],
+  "limitations": [
+    {
+      "text": "Cannot reach L5–S1. A lumbotomy that retracts psoas posteriorly rather than splitting it is the alternative.",
+      "claim_ids": [
+        "spine_transpsoas_l2_l4_limitations_01"
+      ]
+    }
+  ],
+  "extensions": [],
+  "indications": [
+    {
+      "text": "Used for minimally invasive lateral cage insertion at L2–L4.",
+      "claim_ids": [
+        "spine_transpsoas_l2_l4_indications_01"
+      ]
+    }
+  ],
+  "relative_contraindications": [],
+  "implant_implications": [],
+  "fluoroscopy_implications": [],
+  "closure": [
+    {
+      "text": "Close fascia and the wound in layers; do not suture the split muscles.",
+      "claim_ids": [
+        "spine_transpsoas_l2_l4_closure_01"
+      ]
+    }
+  ],
+  "complications": [
+    {
+      "text": "Complications include peritoneal injury with organ damage or hernia, iliopsoas pain, and mostly temporary nerve-root lesions after a psoas split.",
+      "claim_ids": [
+        "spine_transpsoas_l2_l4_complications_01"
+      ]
+    }
+  ],
+  "bailouts": [],
+  "procedure_applications": [
+    {
+      "procedure_id": "lumbar_fusion",
+      "relationship": "primary_option",
+      "condition": "An L2–L4 cage is inserted through a lateral transpsoas window; L5–S1 cannot be reached"
+    }
+  ],
+  "questions": [
+    {
+      "question": "Which disc cannot be reached by this transpsoas window?",
+      "answer": "L5–S1.",
+      "claim_ids": [
+        "spine_transpsoas_l2_l4_questions_01"
+      ]
+    },
+    {
+      "question": "Why is cautery avoided in the abdominal wall?",
+      "answer": "It can injure superficial sensory nerves.",
+      "claim_ids": [
+        "spine_transpsoas_l2_l4_questions_02"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "spine_transpsoas_l2_l4_positioning_01",
+      "text": "Position so fluoroscopy can mark the target disc. L5–S1 cannot be reached.",
+      "source_ids": [
+        "ao_b983748a53ea8269",
+        "ao_edd227745e845331"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "spine_transpsoas_l2_l4_surface_landmarks_01",
+      "text": "Mark the disc on the skin exactly in the line of the target.",
+      "source_ids": [
+        "ao_b983748a53ea8269"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "spine_transpsoas_l2_l4_incision_01",
+      "text": "Make a 3–4 cm cut in the direction of the disc (longer if more than one level).",
+      "source_ids": [
+        "ao_b983748a53ea8269"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "spine_transpsoas_l2_l4_superficial_interval_01",
+      "text": "Split external oblique, then internal oblique (fibers roughly perpendicular), then open transversalis fascia carefully. Do not use cautery; it can injure superficial sensory nerves. Repair a peritoneal tear immediately with absorbable suture on a blunt tapered needle.",
+      "source_ids": [
+        "ao_b983748a53ea8269",
+        "ao_edd227745e845331"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "spine_transpsoas_l2_l4_deep_interval_01",
+      "text": "Use a finger to find retroperitoneal fat and follow psoas fibers without wandering anterior or posterior. After x-ray confirmation, split psoas 3–4 cm over the disc and place a tubular localizer, checked on AP and lateral views. Neuromonitoring is recommended for a transpsoas split; temporary iliopsoas pain and nerve-root lesions are common.",
+      "source_ids": [
+        "ao_b983748a53ea8269",
+        "ao_edd227745e845331"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "spine_transpsoas_l2_l4_layers_01",
+      "text": "Skin, three abdominal-wall layers, retroperitoneal fat, psoas split, then the L2–L4 disc.",
+      "source_ids": [
+        "ao_b983748a53ea8269",
+        "ao_edd227745e845331"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "spine_transpsoas_l2_l4_structures_at_risk_01",
+      "text": "The peritoneum, lumbar plexus within psoas, and superficial abdominal-wall sensory nerves are at risk.",
+      "source_ids": [
+        "ao_b983748a53ea8269",
+        "ao_edd227745e845331"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "spine_transpsoas_l2_l4_danger_zones_01",
+      "text": "Cautery in the abdominal wall, wandering off psoas fibers, and a transpsoas split without neuromonitoring are the danger zones.",
+      "source_ids": [
+        "ao_b983748a53ea8269",
+        "ao_edd227745e845331"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "spine_transpsoas_l2_l4_retraction_hazards_01",
+      "text": "Muscles are split, not cut, so they are not sutured; close fascia only.",
+      "source_ids": [
+        "ao_b983748a53ea8269"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "spine_transpsoas_l2_l4_exposure_01",
+      "text": "A retroperitoneal minimally invasive corridor ideal for cage insertion at L2–L4.",
+      "source_ids": [
+        "ao_b983748a53ea8269"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "spine_transpsoas_l2_l4_limitations_01",
+      "text": "Cannot reach L5–S1. A lumbotomy that retracts psoas posteriorly rather than splitting it is the alternative.",
+      "source_ids": [
+        "ao_b983748a53ea8269",
+        "ao_edd227745e845331"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "spine_transpsoas_l2_l4_indications_01",
+      "text": "Used for minimally invasive lateral cage insertion at L2–L4.",
+      "source_ids": [
+        "ao_b983748a53ea8269"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "spine_transpsoas_l2_l4_closure_01",
+      "text": "Close fascia and the wound in layers; do not suture the split muscles.",
+      "source_ids": [
+        "ao_b983748a53ea8269"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "spine_transpsoas_l2_l4_complications_01",
+      "text": "Complications include peritoneal injury with organ damage or hernia, iliopsoas pain, and mostly temporary nerve-root lesions after a psoas split.",
+      "source_ids": [
+        "ao_b983748a53ea8269",
+        "ao_edd227745e845331"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "spine_transpsoas_l2_l4_questions_01",
+      "text": "Which disc cannot be reached by this transpsoas window?",
+      "source_ids": [
+        "ao_b983748a53ea8269",
+        "ao_edd227745e845331"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "spine_transpsoas_l2_l4_questions_02",
+      "text": "Why is cautery avoided in the abdominal wall?",
+      "source_ids": [
+        "ao_b983748a53ea8269"
+      ],
+      "risk_level": "medium"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "ao_b983748a53ea8269",
+      "provider": "AO Surgery Reference",
+      "title": "Minimally Invasive Transpsoas Approach For L2 To L4",
+      "url": "https://surgeryreference.aofoundation.org/spine/degenerative/lumbar/approach/minimally-invasive-transpsoas-approach-for-l2-to-l4",
+      "source_page_id": "ao_b983748a53ea8269"
+    },
+    {
+      "source_id": "ao_edd227745e845331",
+      "provider": "AO Surgery Reference",
+      "title": "Minimally Invasive Lumbotomy L2 L4",
+      "url": "https://surgeryreference.aofoundation.org/spine/trauma/thoracolumbar/approach/minimally-invasive-lumbotomy-l2-l4",
+      "source_page_id": "ao_edd227745e845331"
+    }
+  ],
+  "content_status": "agent_review_pending",
+  "review": {
+    "status": "agent_review_pending",
+    "required_roles": [
+      "adversarial_safety_reviewer",
+      "approach_anatomy_reviewer",
+      "educational_value_reviewer",
+      "evidence_reviewer",
+      "operative_exposure_reviewer",
+      "procedure_applicability_reviewer"
+    ],
+    "completed_roles": []
+  },
+  "resolved_contradiction_keys": [],
+  "authoring_provenance": {
+    "method": "local_codex_curated",
+    "definition_file": "data/approach_library/curated/spine_remaining_batch001_v1.json",
+    "api_used": false
+  }
+}

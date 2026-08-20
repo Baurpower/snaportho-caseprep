@@ -1,0 +1,342 @@
+{
+  "schema_version": "brobot_approach_packet_v1",
+  "approach_id": "hand_proximal_phalanx_midaxial",
+  "name": "Midaxial approach to the proximal phalanx",
+  "aliases": [
+    "lateral approach to the proximal phalanx"
+  ],
+  "region": "hand-proximal-phalanges",
+  "joint": "",
+  "bones": [
+    "proximal phalanx"
+  ],
+  "corridor": "Midaxial line from the dorsal flexor-crease marks, retracting or rarely resecting oblique lateral-band fibers, staying out of the flexor sheath, and elevating periosteum only at the fracture",
+  "positioning": [
+    {
+      "text": "Position so the finger can be fully flexed to mark the midaxial line.",
+      "claim_ids": [
+        "hand_proximal_phalanx_midaxial_positioning_01"
+      ]
+    }
+  ],
+  "setup": [],
+  "surface_landmarks": [
+    {
+      "text": "Flex the finger, mark the dorsal ends of the flexor creases, extend the finger, and connect the dots. The digital neurovascular bundle is palmar to this line.",
+      "claim_ids": [
+        "hand_proximal_phalanx_midaxial_surface_landmarks_01"
+      ]
+    }
+  ],
+  "incision": [
+    {
+      "text": "For proximal fractures incise from B to C on the marked line and extend to A if more length is needed.",
+      "claim_ids": [
+        "hand_proximal_phalanx_midaxial_incision_01"
+      ]
+    }
+  ],
+  "superficial_interval": [
+    {
+      "text": "Protect dorsal sensory nerves and longitudinal veins and keep the digital artery and nerve palmar.",
+      "claim_ids": [
+        "hand_proximal_phalanx_midaxial_superficial_interval_01"
+      ]
+    }
+  ],
+  "deep_interval": [
+    {
+      "text": "Retract the oblique fibers of the lateral band. For very proximal fractures those fibers may be resected on one side to avoid implant impingement. Elevate periosteum only next to the fracture and generally stay out of the flexor sheath.",
+      "claim_ids": [
+        "hand_proximal_phalanx_midaxial_deep_interval_01"
+      ]
+    }
+  ],
+  "layers": [
+    {
+      "text": "Skin, dorsal nerves and veins, lateral-band fibers, periosteum, then the proximal-phalanx shaft.",
+      "claim_ids": [
+        "hand_proximal_phalanx_midaxial_layers_01"
+      ]
+    }
+  ],
+  "structures_encountered": [],
+  "structures_at_risk": [
+    {
+      "text": "The digital neurovascular bundle palmar to the line and the flexor sheath (if entered unintentionally) are at risk.",
+      "claim_ids": [
+        "hand_proximal_phalanx_midaxial_structures_at_risk_01"
+      ]
+    }
+  ],
+  "danger_zones": [
+    {
+      "text": "An incision palmar to the midaxial line enters the digital neurovascular bundle. Unnecessary periosteal stripping promotes adhesion and fragment devascularization.",
+      "claim_ids": [
+        "hand_proximal_phalanx_midaxial_danger_zones_01"
+      ]
+    }
+  ],
+  "retraction_hazards": [
+    {
+      "text": "If the tendon interval is opened, repair it so the tendon does not sublux.",
+      "claim_ids": [
+        "hand_proximal_phalanx_midaxial_retraction_hazards_01"
+      ]
+    }
+  ],
+  "exposure": [
+    {
+      "text": "Gives midaxial access to the ligaments and to the proximal phalanx including its end segments.",
+      "claim_ids": [
+        "hand_proximal_phalanx_midaxial_exposure_01"
+      ]
+    }
+  ],
+  "limitations": [
+    {
+      "text": "Only the ipsilateral side is seen. The flexor sheath is not a routine working space.",
+      "claim_ids": [
+        "hand_proximal_phalanx_midaxial_limitations_01"
+      ]
+    }
+  ],
+  "extensions": [],
+  "indications": [
+    {
+      "text": "Indicated for oblique, spiral, transverse, and multifragmentary diaphyseal and metaphyseal proximal-phalanx fractures.",
+      "claim_ids": [
+        "hand_proximal_phalanx_midaxial_indications_01"
+      ]
+    }
+  ],
+  "relative_contraindications": [],
+  "implant_implications": [],
+  "fluoroscopy_implications": [],
+  "closure": [
+    {
+      "text": "Repair any tendon cut with nonabsorbable monofilament, cover implants with periosteum, and repair the tendon sheath if a paratendon interval was used.",
+      "claim_ids": [
+        "hand_proximal_phalanx_midaxial_closure_01"
+      ]
+    }
+  ],
+  "complications": [
+    {
+      "text": "Complications include digital neurovascular injury, tendon adhesion, fragment devascularization from periosteal stripping, and tendon subluxation if the interval is not repaired.",
+      "claim_ids": [
+        "hand_proximal_phalanx_midaxial_complications_01"
+      ]
+    }
+  ],
+  "bailouts": [],
+  "procedure_applications": [
+    {
+      "procedure_id": "proximal_phalanx_fracture_orif",
+      "relationship": "primary_option",
+      "condition": "An oblique, spiral, transverse, or multifragmentary proximal-phalanx shaft or metaphyseal fracture is fixed from the midaxial line"
+    }
+  ],
+  "questions": [
+    {
+      "question": "For proximal fractures, which segment of the midaxial line is used?",
+      "answer": "From B to C, extended to A if more length is needed.",
+      "claim_ids": [
+        "hand_proximal_phalanx_midaxial_questions_01"
+      ]
+    },
+    {
+      "question": "When may oblique lateral-band fibers be resected?",
+      "answer": "For visualization of very proximal fractures, to avoid implant impingement and intrinsic adhesions.",
+      "claim_ids": [
+        "hand_proximal_phalanx_midaxial_questions_02"
+      ]
+    },
+    {
+      "question": "Should the flexor sheath be opened routinely?",
+      "answer": "No. Avoid penetrating it unless a tendon laceration is being repaired.",
+      "claim_ids": [
+        "hand_proximal_phalanx_midaxial_questions_03"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "hand_proximal_phalanx_midaxial_positioning_01",
+      "text": "Position so the finger can be fully flexed to mark the midaxial line.",
+      "source_ids": [
+        "ao_262e3660647baac5",
+        "ao_eba4b8ad4d434894"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "hand_proximal_phalanx_midaxial_surface_landmarks_01",
+      "text": "Flex the finger, mark the dorsal ends of the flexor creases, extend the finger, and connect the dots. The digital neurovascular bundle is palmar to this line.",
+      "source_ids": [
+        "ao_262e3660647baac5",
+        "ao_eba4b8ad4d434894"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "hand_proximal_phalanx_midaxial_incision_01",
+      "text": "For proximal fractures incise from B to C on the marked line and extend to A if more length is needed.",
+      "source_ids": [
+        "ao_262e3660647baac5"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "hand_proximal_phalanx_midaxial_superficial_interval_01",
+      "text": "Protect dorsal sensory nerves and longitudinal veins and keep the digital artery and nerve palmar.",
+      "source_ids": [
+        "ao_262e3660647baac5",
+        "ao_eba4b8ad4d434894"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "hand_proximal_phalanx_midaxial_deep_interval_01",
+      "text": "Retract the oblique fibers of the lateral band. For very proximal fractures those fibers may be resected on one side to avoid implant impingement. Elevate periosteum only next to the fracture and generally stay out of the flexor sheath.",
+      "source_ids": [
+        "ao_262e3660647baac5"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "hand_proximal_phalanx_midaxial_layers_01",
+      "text": "Skin, dorsal nerves and veins, lateral-band fibers, periosteum, then the proximal-phalanx shaft.",
+      "source_ids": [
+        "ao_262e3660647baac5"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "hand_proximal_phalanx_midaxial_structures_at_risk_01",
+      "text": "The digital neurovascular bundle palmar to the line and the flexor sheath (if entered unintentionally) are at risk.",
+      "source_ids": [
+        "ao_262e3660647baac5",
+        "ao_eba4b8ad4d434894"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "hand_proximal_phalanx_midaxial_danger_zones_01",
+      "text": "An incision palmar to the midaxial line enters the digital neurovascular bundle. Unnecessary periosteal stripping promotes adhesion and fragment devascularization.",
+      "source_ids": [
+        "ao_262e3660647baac5",
+        "ao_eba4b8ad4d434894"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "hand_proximal_phalanx_midaxial_retraction_hazards_01",
+      "text": "If the tendon interval is opened, repair it so the tendon does not sublux.",
+      "source_ids": [
+        "ao_262e3660647baac5"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "hand_proximal_phalanx_midaxial_exposure_01",
+      "text": "Gives midaxial access to the ligaments and to the proximal phalanx including its end segments.",
+      "source_ids": [
+        "ao_262e3660647baac5"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "hand_proximal_phalanx_midaxial_limitations_01",
+      "text": "Only the ipsilateral side is seen. The flexor sheath is not a routine working space.",
+      "source_ids": [
+        "ao_262e3660647baac5"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "hand_proximal_phalanx_midaxial_indications_01",
+      "text": "Indicated for oblique, spiral, transverse, and multifragmentary diaphyseal and metaphyseal proximal-phalanx fractures.",
+      "source_ids": [
+        "ao_262e3660647baac5"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "hand_proximal_phalanx_midaxial_closure_01",
+      "text": "Repair any tendon cut with nonabsorbable monofilament, cover implants with periosteum, and repair the tendon sheath if a paratendon interval was used.",
+      "source_ids": [
+        "ao_262e3660647baac5"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "hand_proximal_phalanx_midaxial_complications_01",
+      "text": "Complications include digital neurovascular injury, tendon adhesion, fragment devascularization from periosteal stripping, and tendon subluxation if the interval is not repaired.",
+      "source_ids": [
+        "ao_262e3660647baac5",
+        "ao_eba4b8ad4d434894"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "hand_proximal_phalanx_midaxial_questions_01",
+      "text": "For proximal fractures, which segment of the midaxial line is used?",
+      "source_ids": [
+        "ao_262e3660647baac5"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "hand_proximal_phalanx_midaxial_questions_02",
+      "text": "When may oblique lateral-band fibers be resected?",
+      "source_ids": [
+        "ao_262e3660647baac5"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "hand_proximal_phalanx_midaxial_questions_03",
+      "text": "Should the flexor sheath be opened routinely?",
+      "source_ids": [
+        "ao_262e3660647baac5"
+      ],
+      "risk_level": "medium"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "ao_262e3660647baac5",
+      "provider": "AO Surgery Reference",
+      "title": "Midaxial Lateral Approach To The Proximal Phalanx",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/hand-proximal-phalanges/approach/midaxial-lateral-approach-to-the-proximal-phalanx",
+      "source_page_id": "ao_262e3660647baac5"
+    },
+    {
+      "source_id": "ao_eba4b8ad4d434894",
+      "provider": "AO Surgery Reference",
+      "title": "Midaxial Approach To Middle Phalanx",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/hand-middle-phalanges/approach/midaxial-approach-to-middle-phalanx",
+      "source_page_id": "ao_eba4b8ad4d434894"
+    }
+  ],
+  "content_status": "agent_review_pending",
+  "review": {
+    "status": "agent_review_pending",
+    "required_roles": [
+      "adversarial_safety_reviewer",
+      "approach_anatomy_reviewer",
+      "educational_value_reviewer",
+      "evidence_reviewer",
+      "operative_exposure_reviewer",
+      "procedure_applicability_reviewer"
+    ],
+    "completed_roles": []
+  },
+  "resolved_contradiction_keys": [],
+  "authoring_provenance": {
+    "method": "local_codex_curated",
+    "definition_file": "data/approach_library/curated/hand_dip_pip_phalanx_batch001_v1.json",
+    "api_used": false
+  }
+}

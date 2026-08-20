@@ -1,0 +1,379 @@
+{
+  "schema_version": "brobot_approach_packet_v1",
+  "approach_id": "spine_retroperitoneal_l4_s1",
+  "name": "Anterior retroperitoneal approach to L4–S1",
+  "aliases": [
+    "ALIF retroperitoneal approach",
+    "mini-open anterior L4–S1 approach"
+  ],
+  "region": "lumbar",
+  "joint": "",
+  "bones": [
+    "L4",
+    "L5",
+    "sacrum"
+  ],
+  "corridor": "Left-of-midline or Pfannenstiel-type cut, anterior rectus sheath, muscle mobilized, posterior sheath/arcuate line, hand sweep of peritoneum to the spine; L5–S1 between the vascular bifurcation, L4–L5 by retracting aorta/IVC after ligating the iliolumbar vein",
+  "positioning": [
+    {
+      "text": "Position so fluoroscopy can mark L4–S1. A left-sided corridor is preferred because the aorta is more resistant than the vena cava.",
+      "claim_ids": [
+        "spine_retroperitoneal_l4_s1_positioning_01"
+      ]
+    }
+  ],
+  "setup": [],
+  "surface_landmarks": [
+    {
+      "text": "Mark the midline, left rectus, sacral slope, and the L4–S1 disc on fluoroscopy. This window does not reach L1/2 and above.",
+      "claim_ids": [
+        "spine_retroperitoneal_l4_s1_surface_landmarks_01"
+      ]
+    }
+  ],
+  "incision": [
+    {
+      "text": "Use a short left-of-midline horizontal cut (about 6–7 cm, slightly like a Pfannenstiel), or a midline, pararectal, or transverse mark over the target. Account for sacral slope.",
+      "claim_ids": [
+        "spine_retroperitoneal_l4_s1_incision_01"
+      ]
+    }
+  ],
+  "superficial_interval": [
+    {
+      "text": "Open the anterior rectus sheath and mobilize rectus about 10 cm cranially to caudally to the arcuate line, which marks the caudal incomplete posterior sheath.",
+      "claim_ids": [
+        "spine_retroperitoneal_l4_s1_superficial_interval_01"
+      ]
+    }
+  ],
+  "deep_interval": [
+    {
+      "text": "Sweep peritoneum with a hand superiorly, inferiorly, and medially. Identify the ureter (take it with the peritoneum) and psoas. At L5–S1 work below the vascular bifurcation after ligating the middle sacral vessels. At L4–L5 retract aorta and cava to the right after ligating the ascending iliolumbar vein and segmental vessels. Never use monopolar cautery along the ALL (hypogastric plexus, retrograde ejaculation).",
+      "claim_ids": [
+        "spine_retroperitoneal_l4_s1_deep_interval_01"
+      ]
+    }
+  ],
+  "layers": [
+    {
+      "text": "Skin, anterior rectus sheath, rectus, posterior sheath/arcuate line, retroperitoneal fat, ureter with peritoneum, great vessels, then the L4–S1 disc or body.",
+      "claim_ids": [
+        "spine_retroperitoneal_l4_s1_layers_01"
+      ]
+    }
+  ],
+  "structures_encountered": [],
+  "structures_at_risk": [
+    {
+      "text": "The iliac vessels, iliolumbar vein, ureter, hypogastric plexus, and peritoneum are at risk.",
+      "claim_ids": [
+        "spine_retroperitoneal_l4_s1_structures_at_risk_01"
+      ]
+    }
+  ],
+  "danger_zones": [
+    {
+      "text": "Failing to ligate the iliolumbar vein at L4–L5 and monopolar cautery on the ALL are the named bleeding and ejaculatory danger zones.",
+      "claim_ids": [
+        "spine_retroperitoneal_l4_s1_danger_zones_01"
+      ]
+    }
+  ],
+  "retraction_hazards": [
+    {
+      "text": "Lock self-retaining retractors or Steinmann pins so they cannot migrate into vessels.",
+      "claim_ids": [
+        "spine_retroperitoneal_l4_s1_retraction_hazards_01"
+      ]
+    }
+  ],
+  "exposure": [
+    {
+      "text": "Excellent for corpectomy, canal decompression, and vertebral-body replacement at L4–S1; a lumbotomy is preferred for plating.",
+      "claim_ids": [
+        "spine_retroperitoneal_l4_s1_exposure_01"
+      ]
+    }
+  ],
+  "limitations": [
+    {
+      "text": "Does not reach L1/2 and above.",
+      "claim_ids": [
+        "spine_retroperitoneal_l4_s1_limitations_01"
+      ]
+    }
+  ],
+  "extensions": [],
+  "indications": [
+    {
+      "text": "Used for ALIF, trauma corpectomy, primary-tumor resection, and spondylolisthesis at L4–S1.",
+      "claim_ids": [
+        "spine_retroperitoneal_l4_s1_indications_01"
+      ]
+    }
+  ],
+  "relative_contraindications": [],
+  "implant_implications": [],
+  "fluoroscopy_implications": [],
+  "closure": [
+    {
+      "text": "Visualize all passed structures, close fascia, and close the remainder usually without drainage; a retroperitoneal drain is optional.",
+      "claim_ids": [
+        "spine_retroperitoneal_l4_s1_closure_01"
+      ]
+    }
+  ],
+  "complications": [
+    {
+      "text": "Complications include iliolumbar-vein hemorrhage, ureteral injury, peritoneal tear, and retrograde ejaculation from hypogastric-plexus injury.",
+      "claim_ids": [
+        "spine_retroperitoneal_l4_s1_complications_01"
+      ]
+    }
+  ],
+  "bailouts": [],
+  "procedure_applications": [
+    {
+      "procedure_id": "lumbar_fusion",
+      "relationship": "primary_option",
+      "condition": "An L4–S1 ALIF, corpectomy, or spondylolisthesis reduction is done through an anterior retroperitoneal window"
+    }
+  ],
+  "questions": [
+    {
+      "question": "How is L5–S1 reached relative to the great vessels?",
+      "answer": "Between the bifurcation, after controlling the middle sacral vessels.",
+      "claim_ids": [
+        "spine_retroperitoneal_l4_s1_questions_01"
+      ]
+    },
+    {
+      "question": "Which vein must be ligated for L4–L5?",
+      "answer": "The ascending iliolumbar vein.",
+      "claim_ids": [
+        "spine_retroperitoneal_l4_s1_questions_02"
+      ]
+    },
+    {
+      "question": "Why avoid monopolar cautery on the ALL?",
+      "answer": "It can injure the hypogastric plexus and cause retrograde ejaculation in males.",
+      "claim_ids": [
+        "spine_retroperitoneal_l4_s1_questions_03"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "spine_retroperitoneal_l4_s1_positioning_01",
+      "text": "Position so fluoroscopy can mark L4–S1. A left-sided corridor is preferred because the aorta is more resistant than the vena cava.",
+      "source_ids": [
+        "ao_816cbb5177d0f743",
+        "orthobullets_a33615389652b544"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "spine_retroperitoneal_l4_s1_surface_landmarks_01",
+      "text": "Mark the midline, left rectus, sacral slope, and the L4–S1 disc on fluoroscopy. This window does not reach L1/2 and above.",
+      "source_ids": [
+        "ao_fce8590df8426590",
+        "ao_d94f4ac567b28fb2"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "spine_retroperitoneal_l4_s1_incision_01",
+      "text": "Use a short left-of-midline horizontal cut (about 6–7 cm, slightly like a Pfannenstiel), or a midline, pararectal, or transverse mark over the target. Account for sacral slope.",
+      "source_ids": [
+        "ao_816cbb5177d0f743",
+        "ao_fce8590df8426590"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "spine_retroperitoneal_l4_s1_superficial_interval_01",
+      "text": "Open the anterior rectus sheath and mobilize rectus about 10 cm cranially to caudally to the arcuate line, which marks the caudal incomplete posterior sheath.",
+      "source_ids": [
+        "ao_816cbb5177d0f743",
+        "ao_fce8590df8426590"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "spine_retroperitoneal_l4_s1_deep_interval_01",
+      "text": "Sweep peritoneum with a hand superiorly, inferiorly, and medially. Identify the ureter (take it with the peritoneum) and psoas. At L5–S1 work below the vascular bifurcation after ligating the middle sacral vessels. At L4–L5 retract aorta and cava to the right after ligating the ascending iliolumbar vein and segmental vessels. Never use monopolar cautery along the ALL (hypogastric plexus, retrograde ejaculation).",
+      "source_ids": [
+        "ao_816cbb5177d0f743",
+        "ao_fce8590df8426590",
+        "ao_d94f4ac567b28fb2"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "spine_retroperitoneal_l4_s1_layers_01",
+      "text": "Skin, anterior rectus sheath, rectus, posterior sheath/arcuate line, retroperitoneal fat, ureter with peritoneum, great vessels, then the L4–S1 disc or body.",
+      "source_ids": [
+        "ao_816cbb5177d0f743",
+        "ao_fce8590df8426590"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "spine_retroperitoneal_l4_s1_structures_at_risk_01",
+      "text": "The iliac vessels, iliolumbar vein, ureter, hypogastric plexus, and peritoneum are at risk.",
+      "source_ids": [
+        "ao_816cbb5177d0f743",
+        "orthobullets_a33615389652b544"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "spine_retroperitoneal_l4_s1_danger_zones_01",
+      "text": "Failing to ligate the iliolumbar vein at L4–L5 and monopolar cautery on the ALL are the named bleeding and ejaculatory danger zones.",
+      "source_ids": [
+        "ao_816cbb5177d0f743",
+        "ao_fce8590df8426590"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "spine_retroperitoneal_l4_s1_retraction_hazards_01",
+      "text": "Lock self-retaining retractors or Steinmann pins so they cannot migrate into vessels.",
+      "source_ids": [
+        "ao_816cbb5177d0f743",
+        "ao_3808ac7a46688ce5"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "spine_retroperitoneal_l4_s1_exposure_01",
+      "text": "Excellent for corpectomy, canal decompression, and vertebral-body replacement at L4–S1; a lumbotomy is preferred for plating.",
+      "source_ids": [
+        "ao_fce8590df8426590",
+        "ao_d94f4ac567b28fb2"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "spine_retroperitoneal_l4_s1_limitations_01",
+      "text": "Does not reach L1/2 and above.",
+      "source_ids": [
+        "ao_fce8590df8426590",
+        "ao_d94f4ac567b28fb2"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "spine_retroperitoneal_l4_s1_indications_01",
+      "text": "Used for ALIF, trauma corpectomy, primary-tumor resection, and spondylolisthesis at L4–S1.",
+      "source_ids": [
+        "ao_816cbb5177d0f743",
+        "ao_fce8590df8426590",
+        "ao_3808ac7a46688ce5"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "spine_retroperitoneal_l4_s1_closure_01",
+      "text": "Visualize all passed structures, close fascia, and close the remainder usually without drainage; a retroperitoneal drain is optional.",
+      "source_ids": [
+        "ao_816cbb5177d0f743",
+        "ao_fce8590df8426590"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "spine_retroperitoneal_l4_s1_complications_01",
+      "text": "Complications include iliolumbar-vein hemorrhage, ureteral injury, peritoneal tear, and retrograde ejaculation from hypogastric-plexus injury.",
+      "source_ids": [
+        "ao_816cbb5177d0f743",
+        "orthobullets_a33615389652b544"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "spine_retroperitoneal_l4_s1_questions_01",
+      "text": "How is L5–S1 reached relative to the great vessels?",
+      "source_ids": [
+        "ao_816cbb5177d0f743",
+        "ao_fce8590df8426590"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "spine_retroperitoneal_l4_s1_questions_02",
+      "text": "Which vein must be ligated for L4–L5?",
+      "source_ids": [
+        "ao_816cbb5177d0f743",
+        "ao_fce8590df8426590"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "spine_retroperitoneal_l4_s1_questions_03",
+      "text": "Why avoid monopolar cautery on the ALL?",
+      "source_ids": [
+        "ao_816cbb5177d0f743",
+        "orthobullets_a33615389652b544"
+      ],
+      "risk_level": "medium"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "ao_816cbb5177d0f743",
+      "provider": "AO Surgery Reference",
+      "title": "Retroperitoneal Approach For Alif",
+      "url": "https://surgeryreference.aofoundation.org/spine/degenerative/lumbar/approach/retroperitoneal-approach-for-alif",
+      "source_page_id": "ao_816cbb5177d0f743"
+    },
+    {
+      "source_id": "ao_fce8590df8426590",
+      "provider": "AO Surgery Reference",
+      "title": "Mini Open Retroperitoneal Approach L4 S1",
+      "url": "https://surgeryreference.aofoundation.org/spine/trauma/thoracolumbar/approach/mini-open-retroperitoneal-approach-l4-s1",
+      "source_page_id": "ao_fce8590df8426590"
+    },
+    {
+      "source_id": "ao_d94f4ac567b28fb2",
+      "provider": "AO Surgery Reference",
+      "title": "Retroperitoneal Approach L4 To S1",
+      "url": "https://surgeryreference.aofoundation.org/spine/tumors/primary-tumors/approach/retroperitoneal-approach-l4-to-s1",
+      "source_page_id": "ao_d94f4ac567b28fb2"
+    },
+    {
+      "source_id": "ao_3808ac7a46688ce5",
+      "provider": "AO Surgery Reference",
+      "title": "Retroperitoneal Approach",
+      "url": "https://surgeryreference.aofoundation.org/spine/deformities/spondylolisthesis/approach/retroperitoneal-approach",
+      "source_page_id": "ao_3808ac7a46688ce5"
+    },
+    {
+      "source_id": "orthobullets_a33615389652b544",
+      "provider": "Orthobullets",
+      "title": "Retroperitoneal Anterolateral Approach To The Lumbar Spine",
+      "url": "https://www.orthobullets.com/approaches/12004/retroperitoneal-anterolateral-approach-to-the-lumbar-spine",
+      "source_page_id": "orthobullets_a33615389652b544"
+    }
+  ],
+  "content_status": "agent_review_pending",
+  "review": {
+    "status": "agent_review_pending",
+    "required_roles": [
+      "adversarial_safety_reviewer",
+      "approach_anatomy_reviewer",
+      "educational_value_reviewer",
+      "evidence_reviewer",
+      "operative_exposure_reviewer",
+      "procedure_applicability_reviewer"
+    ],
+    "completed_roles": []
+  },
+  "resolved_contradiction_keys": [],
+  "authoring_provenance": {
+    "method": "local_codex_curated",
+    "definition_file": "data/approach_library/curated/spine_remaining_batch001_v1.json",
+    "api_used": false
+  }
+}

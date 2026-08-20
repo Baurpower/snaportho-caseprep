@@ -1,0 +1,382 @@
+{
+  "approaches": [
+    {
+      "approach_id": "humeral_shaft_pin_safe_zones",
+      "name": "Safe zones for pins or screws in the humeral shaft",
+      "aliases": [
+        "humeral shaft external-fixator pin corridors"
+      ],
+      "region": "humeral-shaft",
+      "joint": "",
+      "bones": [
+        "humerus"
+      ],
+      "corridor": "Anterolateral deltoid window in the proximal third (protecting the axillary nerve), no percutaneous corridor in the middle third, and a posterior or open-lateral window in the distal third that visualizes the radial nerve",
+      "sources": [
+        {
+          "source_id": "ao_c6e3e0e48b1ecd26",
+          "provider": "AO Surgery Reference",
+          "title": "Safe Zones For Percutaneous Pins Or Screws",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/humeral-shaft/approach/safe-zones-for-percutaneous-pins-or-screws",
+          "source_page_id": "ao_c6e3e0e48b1ecd26"
+        },
+        {
+          "source_id": "ao_ef05b2dcf7a75661",
+          "provider": "AO Surgery Reference",
+          "title": "Safe zones for percutaneous pins or screws (humerus)",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/distal-humerus/approach/safe-zones-for-percutaneous-pins-or-screws",
+          "source_page_id": "ao_ef05b2dcf7a75661"
+        }
+      ],
+      "procedure_applications": [
+        {
+          "procedure_id": "humeral_shaft_fracture_orif",
+          "relationship": "conditional_option",
+          "condition": "Temporary external-fixator pins are placed in the humeral shaft"
+        }
+      ],
+      "sections": {
+        "positioning": [
+          {
+            "text": "Support the arm so proximal-lateral and, if the patient is not strictly supine, posterior distal pin sites can be imaged. In a supine polytrauma patient the posterior distal corridor is usually inaccessible.",
+            "source_ids": [
+              "ao_c6e3e0e48b1ecd26"
+            ]
+          }
+        ],
+        "surface_landmarks": [
+          {
+            "text": "Mark the acromion (axillary nerve about 5–7 cm distal), the deltoid insertion, and the olecranon fossa. There is no percutaneous safe zone in the middle third.",
+            "source_ids": [
+              "ao_c6e3e0e48b1ecd26",
+              "ao_ef05b2dcf7a75661"
+            ]
+          }
+        ],
+        "incision": [
+          {
+            "text": "Use a formal incision large enough to palpate or see the nerve. Do not use stab incisions, especially if a distal pin must sit laterally near the radial nerve.",
+            "source_ids": [
+              "ao_c6e3e0e48b1ecd26",
+              "ao_ef05b2dcf7a75661"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "superficial_interval": [
+          {
+            "text": "Proximally go (antero)laterally through deltoid, avoiding the axillary nerve and long head of biceps. Distally the classic corridor is posterior through triceps; if a lateral pin is forced by positioning, open enough to see the radial nerve.",
+            "source_ids": [
+              "ao_c6e3e0e48b1ecd26",
+              "ao_ef05b2dcf7a75661"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "deep_interval": [
+          {
+            "text": "Advance pins so the tips just perforate the far cortex. Do not place pins in the middle third. Distally stay out of the olecranon fossa.",
+            "source_ids": [
+              "ao_c6e3e0e48b1ecd26",
+              "ao_ef05b2dcf7a75661"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "layers": [
+          {
+            "text": "Skin, deltoid or triceps, periosteum, then humeral cortex, with the axillary or radial nerve identified before drilling.",
+            "source_ids": [
+              "ao_c6e3e0e48b1ecd26",
+              "ao_ef05b2dcf7a75661"
+            ]
+          }
+        ],
+        "structures_at_risk": [
+          {
+            "text": "The axillary nerve and long biceps tendon proximally, the radial nerve on the middle and distal dorsal shaft, and the median nerve and brachial artery if a distal pin is driven too deep, are at risk.",
+            "source_ids": [
+              "ao_c6e3e0e48b1ecd26",
+              "ao_ef05b2dcf7a75661"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "danger_zones": [
+          {
+            "text": "The middle third has no percutaneous safe zone because the radial nerve hugs the dorsal cortex. Over-penetration medially threatens the neurovascular bundle. Distal over-penetration threatens the median nerve and brachial artery.",
+            "source_ids": [
+              "ao_c6e3e0e48b1ecd26",
+              "ao_ef05b2dcf7a75661"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "retraction_hazards": [
+          {
+            "text": "A posterior distal pin can irritate the triceps and make bed positioning uncomfortable; if a lateral pin is chosen instead, visualize the radial nerve rather than retracting blindly.",
+            "source_ids": [
+              "ao_c6e3e0e48b1ecd26"
+            ],
+            "risk_level": "medium"
+          }
+        ],
+        "exposure": [
+          {
+            "text": "Each site is only a pin window. The distal-humerus page recommends a mini-open technique whenever humeral pins are required.",
+            "source_ids": [
+              "ao_c6e3e0e48b1ecd26",
+              "ao_ef05b2dcf7a75661"
+            ]
+          }
+        ],
+        "limitations": [
+          {
+            "text": "The posterior distal corridor is usually unavailable in a supine polytrauma patient. The middle third cannot be pinned percutaneously.",
+            "source_ids": [
+              "ao_c6e3e0e48b1ecd26",
+              "ao_ef05b2dcf7a75661"
+            ]
+          }
+        ],
+        "indications": [
+          {
+            "text": "Used when external-fixator or percutaneous pins must be placed in the humeral shaft through defined proximal or distal corridors.",
+            "source_ids": [
+              "ao_c6e3e0e48b1ecd26"
+            ]
+          }
+        ],
+        "closure": [
+          {
+            "text": "Close the mini-open windows after confirming the nerve is free of the pin.",
+            "source_ids": [
+              "ao_ef05b2dcf7a75661"
+            ]
+          }
+        ],
+        "complications": [
+          {
+            "text": "Complications include axillary-nerve injury, radial-nerve palsy from a middle-third or unseen lateral pin, and median-nerve or brachial-artery injury from an over-long distal pin.",
+            "source_ids": [
+              "ao_c6e3e0e48b1ecd26",
+              "ao_ef05b2dcf7a75661"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "questions": [
+          {
+            "question": "Is there a percutaneous safe zone in the middle third of the humerus?",
+            "answer": "No. The radial nerve is too close to the dorsal cortex.",
+            "source_ids": [
+              "ao_c6e3e0e48b1ecd26",
+              "ao_ef05b2dcf7a75661"
+            ]
+          },
+          {
+            "question": "How far below the acromion does the axillary nerve typically run?",
+            "answer": "About 5–7 cm, dorsolaterally around the metaphysis.",
+            "source_ids": [
+              "ao_c6e3e0e48b1ecd26"
+            ]
+          },
+          {
+            "question": "If a distal pin must be placed laterally in a supine patient, what is required?",
+            "answer": "An incision large enough to palpate or see the radial nerve; no stab incisions.",
+            "source_ids": [
+              "ao_c6e3e0e48b1ecd26",
+              "ao_ef05b2dcf7a75661"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "approach_id": "metacarpal_fifth_cmc_dorsal",
+      "name": "Dorsal approach to the fifth carpometacarpal joint",
+      "aliases": [
+        "dorsoulnar 5th CMC approach"
+      ],
+      "region": "metacarpals",
+      "joint": "fifth carpometacarpal joint",
+      "bones": [
+        "fifth metacarpal",
+        "hamate"
+      ],
+      "corridor": "Curved dorsoulnar incision along the fifth metacarpal that turns radially over the hamate, retracting the little-finger extensors radially and the dorsal sensory ulnar nerve with ECU ulnarly",
+      "sources": [
+        {
+          "source_id": "ao_bb130dc336fb9064",
+          "provider": "AO Surgery Reference",
+          "title": "Dorsal Approach To 5Th Cmc Joint",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/metacarpals/approach/dorsal-approach-to-5th-cmc-joint",
+          "source_page_id": "ao_bb130dc336fb9064"
+        },
+        {
+          "source_id": "ao_ff90094dc3e2b188",
+          "provider": "AO Surgery Reference",
+          "title": "Dorsal approach to the carpometacarpal joints",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/carpal-bones/approach/dorsal-approach-to-the-carpometacarpal-joints",
+          "source_page_id": "ao_ff90094dc3e2b188"
+        }
+      ],
+      "procedure_applications": [
+        {
+          "procedure_id": "finger_cmc_fracture_dislocation_orif",
+          "relationship": "primary_option",
+          "condition": "A fifth-metacarpal-base intra-articular fracture, 5th CMC fracture-dislocation, or ECU avulsion is exposed dorsoulnarly"
+        }
+      ],
+      "sections": {
+        "positioning": [
+          {
+            "text": "Position the hand pronated so the dorsoulnar fifth ray and hamate are accessible.",
+            "source_ids": [
+              "ao_bb130dc336fb9064",
+              "ao_ff90094dc3e2b188"
+            ]
+          }
+        ],
+        "surface_landmarks": [
+          {
+            "text": "Mark the fifth metacarpal, the hamate, the ECU insertion on the ulnar fifth-metacarpal base, and the course of the dorsal sensory ulnar nerve.",
+            "source_ids": [
+              "ao_bb130dc336fb9064"
+            ]
+          }
+        ],
+        "incision": [
+          {
+            "text": "Make a curved cut along the dorsoulnar fifth metacarpal that turns radially over the hamate. The dorsal sensory ulnar branches are especially vulnerable in the proximal third.",
+            "source_ids": [
+              "ao_bb130dc336fb9064"
+            ]
+          }
+        ],
+        "superficial_interval": [
+          {
+            "text": "Protect the dorsal sensory ulnar nerve and longitudinal veins. Retract the little-finger extensors radially with their loose tissue, and retract the sensory nerve ulnarly, often with ECU.",
+            "source_ids": [
+              "ao_bb130dc336fb9064",
+              "ao_ff90094dc3e2b188"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "deep_interval": [
+          {
+            "text": "Make a longitudinal capsulotomy for intra-articular fractures, or extend an existing capsular tear. If the joint is not opened, mark it with a needle or K-wire and check on the image intensifier before placing screws.",
+            "source_ids": [
+              "ao_bb130dc336fb9064",
+              "ao_ff90094dc3e2b188"
+            ]
+          }
+        ],
+        "layers": [
+          {
+            "text": "Skin, dorsal sensory ulnar nerve and veins, little-finger extensors and ECU, dorsal capsule, then the fifth CMC and hamate.",
+            "source_ids": [
+              "ao_bb130dc336fb9064"
+            ]
+          }
+        ],
+        "structures_at_risk": [
+          {
+            "text": "The dorsal sensory branch of the ulnar nerve, longitudinal veins, little-finger extensors, and the ECU insertion are at risk.",
+            "source_ids": [
+              "ao_bb130dc336fb9064",
+              "ao_ff90094dc3e2b188"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "danger_zones": [
+          {
+            "text": "The proximal third of the incision is the danger zone for the dorsal sensory ulnar nerve. Blind screws can enter the CMC joint.",
+            "source_ids": [
+              "ao_bb130dc336fb9064"
+            ],
+            "risk_level": "medium"
+          }
+        ],
+        "retraction_hazards": [
+          {
+            "text": "Retract radial sensory branches radially and ulnar sensory branches ulnarly rather than stretching a nerve across the field.",
+            "source_ids": [
+              "ao_ff90094dc3e2b188",
+              "ao_bb130dc336fb9064"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "exposure": [
+          {
+            "text": "Exposes the fifth CMC for base fractures, fracture-dislocations, and ECU avulsions.",
+            "source_ids": [
+              "ao_bb130dc336fb9064"
+            ]
+          }
+        ],
+        "limitations": [
+          {
+            "text": "This window is specific to the fifth ray; widely separated radial CMC injuries need a separate tendon-respecting incision.",
+            "source_ids": [
+              "ao_ff90094dc3e2b188"
+            ]
+          }
+        ],
+        "indications": [
+          {
+            "text": "Indicated for intra-articular fifth-metacarpal-base fractures, 5th CMC fracture-dislocations, ECU avulsions, and rare displaced extra-articular fifth-metacarpal-base fractures.",
+            "source_ids": [
+              "ao_bb130dc336fb9064"
+            ]
+          }
+        ],
+        "closure": [
+          {
+            "text": "Cover implants with periosteum, repair any divided intertendinous connection, and close skin without trapping the sensory nerve.",
+            "source_ids": [
+              "ao_bb130dc336fb9064",
+              "ao_ff90094dc3e2b188"
+            ]
+          }
+        ],
+        "complications": [
+          {
+            "text": "Complications include dorsal sensory ulnar neurapraxia or neuroma, extensor adhesion to uncovered metal, and intra-articular screw penetration.",
+            "source_ids": [
+              "ao_bb130dc336fb9064",
+              "ao_ff90094dc3e2b188"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "questions": [
+          {
+            "question": "Where is the dorsal sensory ulnar nerve most vulnerable?",
+            "answer": "In the proximal third of the incision as it curves over the hamate.",
+            "source_ids": [
+              "ao_bb130dc336fb9064"
+            ]
+          },
+          {
+            "question": "Where does ECU insert?",
+            "answer": "On the ulnar side of the fifth-metacarpal base.",
+            "source_ids": [
+              "ao_bb130dc336fb9064"
+            ]
+          },
+          {
+            "question": "How can the joint be marked if a capsulotomy is not made?",
+            "answer": "With a hypodermic needle or small K-wire checked on the image intensifier.",
+            "source_ids": [
+              "ao_bb130dc336fb9064"
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

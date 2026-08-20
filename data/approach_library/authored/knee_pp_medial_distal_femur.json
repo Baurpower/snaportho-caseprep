@@ -1,0 +1,342 @@
+{
+  "schema_version": "brobot_approach_packet_v1",
+  "approach_id": "knee_pp_medial_distal_femur",
+  "name": "Medial approach to the distal femur (periprosthetic knee)",
+  "aliases": [
+    "periprosthetic medial distal-femur approach"
+  ],
+  "region": "distal-femur",
+  "joint": "knee",
+  "bones": [
+    "distal femur"
+  ],
+  "corridor": "Straight incision along the adductor-magnus tendon, elevating vastus medialis anteriorly off sartorius, with Hunter-canal vessels protected if the cut is carried proximally",
+  "positioning": [
+    {
+      "text": "Position so the adductor tubercle and adductor-magnus tendon can be marked; the corridor is safe beside a healed midline TKA scar.",
+      "claim_ids": [
+        "knee_pp_medial_distal_femur_positioning_01"
+      ]
+    }
+  ],
+  "setup": [],
+  "surface_landmarks": [
+    {
+      "text": "Identify the adductor tubercle and mark the adductor-magnus tendon proximally.",
+      "claim_ids": [
+        "knee_pp_medial_distal_femur_surface_landmarks_01"
+      ]
+    }
+  ],
+  "incision": [
+    {
+      "text": "Make a straight cut along the posterior border of the adductor-magnus tendon and extend it proximally as needed.",
+      "claim_ids": [
+        "knee_pp_medial_distal_femur_incision_01"
+      ]
+    }
+  ],
+  "superficial_interval": [
+    {
+      "text": "Find the posterior border of vastus medialis distally and elevate it anteriorly, developing the plane between vastus medialis and sartorius.",
+      "claim_ids": [
+        "knee_pp_medial_distal_femur_superficial_interval_01"
+      ]
+    }
+  ],
+  "deep_interval": [
+    {
+      "text": "Flex the knee so sartorius can be retracted posteriorly, exposing the adductor-magnus tendon to the adductor tubercle. Retract adductor magnus posteriorly and vastus medialis anteriorly onto the femur. Proximally this plane borders Hunter's canal.",
+      "claim_ids": [
+        "knee_pp_medial_distal_femur_deep_interval_01"
+      ]
+    }
+  ],
+  "layers": [
+    {
+      "text": "Skin, vastus medialis–sartorius interval, adductor-magnus tendon, then the medial distal femur.",
+      "claim_ids": [
+        "knee_pp_medial_distal_femur_layers_01"
+      ]
+    }
+  ],
+  "structures_encountered": [],
+  "structures_at_risk": [
+    {
+      "text": "The femoral vessels in Hunter's canal are at risk if proximal dissection is careless.",
+      "claim_ids": [
+        "knee_pp_medial_distal_femur_structures_at_risk_01"
+      ]
+    }
+  ],
+  "danger_zones": [
+    {
+      "text": "Hunter's canal, formed by sartorius as the cut is carried proximally, is the danger zone for the femoral vessels.",
+      "claim_ids": [
+        "knee_pp_medial_distal_femur_danger_zones_01"
+      ]
+    }
+  ],
+  "retraction_hazards": [
+    {
+      "text": "Do not injure the femoral vessels while retracting sartorius or working beside Hunter's canal.",
+      "claim_ids": [
+        "knee_pp_medial_distal_femur_retraction_hazards_01"
+      ]
+    }
+  ],
+  "exposure": [
+    {
+      "text": "Shows the medial distal femur for a medial plate or a second plate in a dual-plate construct.",
+      "claim_ids": [
+        "knee_pp_medial_distal_femur_exposure_01"
+      ]
+    }
+  ],
+  "limitations": [
+    {
+      "text": "The window is medial only. Proximal length is limited by Hunter's canal.",
+      "claim_ids": [
+        "knee_pp_medial_distal_femur_limitations_01"
+      ]
+    }
+  ],
+  "extensions": [],
+  "indications": [
+    {
+      "text": "Used for a medial distal-femoral periprosthetic fracture and when simultaneous medial and lateral plates are planned.",
+      "claim_ids": [
+        "knee_pp_medial_distal_femur_indications_01"
+      ]
+    }
+  ],
+  "relative_contraindications": [],
+  "implant_implications": [],
+  "fluoroscopy_implications": [],
+  "closure": [
+    {
+      "text": "After hemostasis, close in layers with absorbable suture and the chosen skin closure.",
+      "claim_ids": [
+        "knee_pp_medial_distal_femur_closure_01"
+      ]
+    }
+  ],
+  "complications": [
+    {
+      "text": "The principal complication is femoral-vessel injury in Hunter's canal during proximal extension.",
+      "claim_ids": [
+        "knee_pp_medial_distal_femur_complications_01"
+      ]
+    }
+  ],
+  "bailouts": [],
+  "procedure_applications": [
+    {
+      "procedure_id": "distal_femur_fracture_orif",
+      "relationship": "primary_option",
+      "condition": "A medial distal-femoral periprosthetic fracture, or a dual-plate construct, is exposed medially beside a healed TKA scar"
+    }
+  ],
+  "questions": [
+    {
+      "question": "Along which tendon is the incision placed?",
+      "answer": "The adductor-magnus tendon, after marking the adductor tubercle.",
+      "claim_ids": [
+        "knee_pp_medial_distal_femur_questions_01"
+      ]
+    },
+    {
+      "question": "What structure forms the border of Hunter's canal in this approach?",
+      "answer": "Sartorius.",
+      "claim_ids": [
+        "knee_pp_medial_distal_femur_questions_02"
+      ]
+    },
+    {
+      "question": "Is the approach safe next to a healed midline TKA scar?",
+      "answer": "Yes.",
+      "claim_ids": [
+        "knee_pp_medial_distal_femur_questions_03"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "knee_pp_medial_distal_femur_positioning_01",
+      "text": "Position so the adductor tubercle and adductor-magnus tendon can be marked; the corridor is safe beside a healed midline TKA scar.",
+      "source_ids": [
+        "ao_3c2cfc8bc315c970"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "knee_pp_medial_distal_femur_surface_landmarks_01",
+      "text": "Identify the adductor tubercle and mark the adductor-magnus tendon proximally.",
+      "source_ids": [
+        "ao_3c2cfc8bc315c970",
+        "ao_30f13838a1aed4e2"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "knee_pp_medial_distal_femur_incision_01",
+      "text": "Make a straight cut along the posterior border of the adductor-magnus tendon and extend it proximally as needed.",
+      "source_ids": [
+        "ao_3c2cfc8bc315c970"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "knee_pp_medial_distal_femur_superficial_interval_01",
+      "text": "Find the posterior border of vastus medialis distally and elevate it anteriorly, developing the plane between vastus medialis and sartorius.",
+      "source_ids": [
+        "ao_3c2cfc8bc315c970",
+        "ao_30f13838a1aed4e2"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "knee_pp_medial_distal_femur_deep_interval_01",
+      "text": "Flex the knee so sartorius can be retracted posteriorly, exposing the adductor-magnus tendon to the adductor tubercle. Retract adductor magnus posteriorly and vastus medialis anteriorly onto the femur. Proximally this plane borders Hunter's canal.",
+      "source_ids": [
+        "ao_3c2cfc8bc315c970",
+        "ao_30f13838a1aed4e2"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "knee_pp_medial_distal_femur_layers_01",
+      "text": "Skin, vastus medialis–sartorius interval, adductor-magnus tendon, then the medial distal femur.",
+      "source_ids": [
+        "ao_3c2cfc8bc315c970",
+        "ao_30f13838a1aed4e2"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "knee_pp_medial_distal_femur_structures_at_risk_01",
+      "text": "The femoral vessels in Hunter's canal are at risk if proximal dissection is careless.",
+      "source_ids": [
+        "ao_3c2cfc8bc315c970",
+        "ao_30f13838a1aed4e2"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "knee_pp_medial_distal_femur_danger_zones_01",
+      "text": "Hunter's canal, formed by sartorius as the cut is carried proximally, is the danger zone for the femoral vessels.",
+      "source_ids": [
+        "ao_3c2cfc8bc315c970"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "knee_pp_medial_distal_femur_retraction_hazards_01",
+      "text": "Do not injure the femoral vessels while retracting sartorius or working beside Hunter's canal.",
+      "source_ids": [
+        "ao_3c2cfc8bc315c970"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "knee_pp_medial_distal_femur_exposure_01",
+      "text": "Shows the medial distal femur for a medial plate or a second plate in a dual-plate construct.",
+      "source_ids": [
+        "ao_3c2cfc8bc315c970"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "knee_pp_medial_distal_femur_limitations_01",
+      "text": "The window is medial only. Proximal length is limited by Hunter's canal.",
+      "source_ids": [
+        "ao_3c2cfc8bc315c970"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "knee_pp_medial_distal_femur_indications_01",
+      "text": "Used for a medial distal-femoral periprosthetic fracture and when simultaneous medial and lateral plates are planned.",
+      "source_ids": [
+        "ao_3c2cfc8bc315c970"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "knee_pp_medial_distal_femur_closure_01",
+      "text": "After hemostasis, close in layers with absorbable suture and the chosen skin closure.",
+      "source_ids": [
+        "ao_3c2cfc8bc315c970"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "knee_pp_medial_distal_femur_complications_01",
+      "text": "The principal complication is femoral-vessel injury in Hunter's canal during proximal extension.",
+      "source_ids": [
+        "ao_3c2cfc8bc315c970",
+        "ao_30f13838a1aed4e2"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "knee_pp_medial_distal_femur_questions_01",
+      "text": "Along which tendon is the incision placed?",
+      "source_ids": [
+        "ao_3c2cfc8bc315c970"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "knee_pp_medial_distal_femur_questions_02",
+      "text": "What structure forms the border of Hunter's canal in this approach?",
+      "source_ids": [
+        "ao_3c2cfc8bc315c970"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "knee_pp_medial_distal_femur_questions_03",
+      "text": "Is the approach safe next to a healed midline TKA scar?",
+      "source_ids": [
+        "ao_3c2cfc8bc315c970"
+      ],
+      "risk_level": "medium"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "ao_3c2cfc8bc315c970",
+      "provider": "AO Surgery Reference",
+      "title": "Medial Approach Distal Femur",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/periprosthetic-fractures/knee/approach/medial-approach-distal-femur",
+      "source_page_id": "ao_3c2cfc8bc315c970"
+    },
+    {
+      "source_id": "ao_30f13838a1aed4e2",
+      "provider": "AO Surgery Reference",
+      "title": "Medial Approach To The Distal Femur",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/distal-femur/approach/medial-approach-to-the-distal-femur",
+      "source_page_id": "ao_30f13838a1aed4e2"
+    }
+  ],
+  "content_status": "agent_review_pending",
+  "review": {
+    "status": "agent_review_pending",
+    "required_roles": [
+      "adversarial_safety_reviewer",
+      "approach_anatomy_reviewer",
+      "educational_value_reviewer",
+      "evidence_reviewer",
+      "operative_exposure_reviewer",
+      "procedure_applicability_reviewer"
+    ],
+    "completed_roles": []
+  },
+  "resolved_contradiction_keys": [],
+  "authoring_provenance": {
+    "method": "local_codex_curated",
+    "definition_file": "data/approach_library/curated/periprosthetic_knee_batch001_v1.json",
+    "api_used": false
+  }
+}

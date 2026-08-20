@@ -1,0 +1,348 @@
+{
+  "schema_version": "brobot_approach_packet_v1",
+  "approach_id": "scapula_glenoid_arthroscopic_portals",
+  "name": "Arthroscopic entry points for glenoid fractures",
+  "aliases": [
+    "shoulder arthroscopy portals for glenoid"
+  ],
+  "region": "scapula",
+  "joint": "shoulder",
+  "bones": [
+    "glenoid",
+    "scapula"
+  ],
+  "corridor": "Beach-chair standard portals: dorsal soft spot for anterior glenoid, anterior (coracoid–acromion) for posterior glenoid, and anterior-superior (inferior to the lateral acromial tip) for inferior glenoid, with the camera opposite the main fragment",
+  "positioning": [
+    {
+      "text": "Use the beach-chair position. Arthroscopy is useful only for fractures that involve the articular surface.",
+      "claim_ids": [
+        "scapula_glenoid_arthroscopic_portals_positioning_01"
+      ]
+    }
+  ],
+  "setup": [],
+  "surface_landmarks": [
+    {
+      "text": "Mark the acromion, scapular spine, coracoid, AC joint, and clavicle.",
+      "claim_ids": [
+        "scapula_glenoid_arthroscopic_portals_surface_landmarks_01"
+      ]
+    }
+  ],
+  "incision": [
+    {
+      "text": "Make a 1 cm cut at the chosen camera portal: dorsal soft spot 1–2 cm medial to the lateral acromion and 1 cm below the spine for anterior fragments; between coracoid tip and anterior acromion for posterior fragments; just inferior to the lateral acromial tip for inferior fragments.",
+      "claim_ids": [
+        "scapula_glenoid_arthroscopic_portals_incision_01"
+      ]
+    }
+  ],
+  "superficial_interval": [
+    {
+      "text": "Bluntly spread with scissors to the capsule, then push a blunt rod into the joint and follow it with a trocar.",
+      "claim_ids": [
+        "scapula_glenoid_arthroscopic_portals_superficial_interval_01"
+      ]
+    }
+  ],
+  "deep_interval": [
+    {
+      "text": "Place the camera on the opposite side of the main fragment. Create the instrument portal by watching a needle enter the capsule from the opposite side. Add further portals as the fracture requires.",
+      "claim_ids": [
+        "scapula_glenoid_arthroscopic_portals_deep_interval_01"
+      ]
+    }
+  ],
+  "layers": [
+    {
+      "text": "Skin, blunt track to capsule, then the glenohumeral joint.",
+      "claim_ids": [
+        "scapula_glenoid_arthroscopic_portals_layers_01"
+      ]
+    }
+  ],
+  "structures_encountered": [],
+  "structures_at_risk": [
+    {
+      "text": "Articular cartilage at portal entry is at risk if the trocar is forced.",
+      "claim_ids": [
+        "scapula_glenoid_arthroscopic_portals_structures_at_risk_01"
+      ]
+    }
+  ],
+  "danger_zones": [
+    {
+      "text": "The camera must start opposite the main fragment so instruments can reach the fracture.",
+      "claim_ids": [
+        "scapula_glenoid_arthroscopic_portals_danger_zones_01"
+      ]
+    }
+  ],
+  "retraction_hazards": [
+    {
+      "text": "Enlarge the portal over a rod already inside the joint rather than plunging a sharp trocar.",
+      "claim_ids": [
+        "scapula_glenoid_arthroscopic_portals_retraction_hazards_01"
+      ]
+    }
+  ],
+  "exposure": [
+    {
+      "text": "Shows the glenoid articular surface for selected fracture fragments according to the portal chosen.",
+      "claim_ids": [
+        "scapula_glenoid_arthroscopic_portals_exposure_01"
+      ]
+    }
+  ],
+  "limitations": [
+    {
+      "text": "Useful only for articular-surface fractures and only in beach chair.",
+      "claim_ids": [
+        "scapula_glenoid_arthroscopic_portals_limitations_01"
+      ]
+    }
+  ],
+  "extensions": [],
+  "indications": [
+    {
+      "text": "Used when a glenoid articular fracture can be seen and instrumented through standard shoulder portals.",
+      "claim_ids": [
+        "scapula_glenoid_arthroscopic_portals_indications_01"
+      ]
+    }
+  ],
+  "relative_contraindications": [],
+  "implant_implications": [],
+  "fluoroscopy_implications": [],
+  "closure": [
+    {
+      "text": "Close the small portal incisions after instruments are removed.",
+      "claim_ids": [
+        "scapula_glenoid_arthroscopic_portals_closure_01"
+      ]
+    }
+  ],
+  "complications": [
+    {
+      "text": "The principal complication is cartilage injury from a poorly placed trocar.",
+      "claim_ids": [
+        "scapula_glenoid_arthroscopic_portals_complications_01"
+      ]
+    }
+  ],
+  "bailouts": [],
+  "procedure_applications": [
+    {
+      "procedure_id": "glenoid_fracture_orif",
+      "relationship": "conditional_option",
+      "condition": "An articular glenoid fracture is assessed or instrumented arthroscopically in the beach-chair position"
+    }
+  ],
+  "questions": [
+    {
+      "question": "Where is the dorsal standard portal?",
+      "answer": "The soft spot 1–2 cm medial to the lateral acromial edge and 1 cm below the scapular spine, used for anterior glenoid fractures.",
+      "claim_ids": [
+        "scapula_glenoid_arthroscopic_portals_questions_01"
+      ]
+    },
+    {
+      "question": "Which portal is used for posterior glenoid fractures?",
+      "answer": "The anterior portal between the coracoid tip and the anterior acromial edge.",
+      "claim_ids": [
+        "scapula_glenoid_arthroscopic_portals_questions_02"
+      ]
+    },
+    {
+      "question": "When can arthroscopy be used?",
+      "answer": "Only for articular-surface fractures, and only in the beach-chair position.",
+      "claim_ids": [
+        "scapula_glenoid_arthroscopic_portals_questions_03"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "scapula_glenoid_arthroscopic_portals_positioning_01",
+      "text": "Use the beach-chair position. Arthroscopy is useful only for fractures that involve the articular surface.",
+      "source_ids": [
+        "ao_d8f50e2784e02ee0"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "scapula_glenoid_arthroscopic_portals_surface_landmarks_01",
+      "text": "Mark the acromion, scapular spine, coracoid, AC joint, and clavicle.",
+      "source_ids": [
+        "ao_d8f50e2784e02ee0"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "scapula_glenoid_arthroscopic_portals_incision_01",
+      "text": "Make a 1 cm cut at the chosen camera portal: dorsal soft spot 1–2 cm medial to the lateral acromion and 1 cm below the spine for anterior fragments; between coracoid tip and anterior acromion for posterior fragments; just inferior to the lateral acromial tip for inferior fragments.",
+      "source_ids": [
+        "ao_d8f50e2784e02ee0"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "scapula_glenoid_arthroscopic_portals_superficial_interval_01",
+      "text": "Bluntly spread with scissors to the capsule, then push a blunt rod into the joint and follow it with a trocar.",
+      "source_ids": [
+        "ao_d8f50e2784e02ee0",
+        "ao_c767c51b9f14b8d9"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "scapula_glenoid_arthroscopic_portals_deep_interval_01",
+      "text": "Place the camera on the opposite side of the main fragment. Create the instrument portal by watching a needle enter the capsule from the opposite side. Add further portals as the fracture requires.",
+      "source_ids": [
+        "ao_d8f50e2784e02ee0"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "scapula_glenoid_arthroscopic_portals_layers_01",
+      "text": "Skin, blunt track to capsule, then the glenohumeral joint.",
+      "source_ids": [
+        "ao_d8f50e2784e02ee0"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "scapula_glenoid_arthroscopic_portals_structures_at_risk_01",
+      "text": "Articular cartilage at portal entry is at risk if the trocar is forced.",
+      "source_ids": [
+        "ao_d8f50e2784e02ee0",
+        "ao_c767c51b9f14b8d9"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "scapula_glenoid_arthroscopic_portals_danger_zones_01",
+      "text": "The camera must start opposite the main fragment so instruments can reach the fracture.",
+      "source_ids": [
+        "ao_d8f50e2784e02ee0"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "scapula_glenoid_arthroscopic_portals_retraction_hazards_01",
+      "text": "Enlarge the portal over a rod already inside the joint rather than plunging a sharp trocar.",
+      "source_ids": [
+        "ao_d8f50e2784e02ee0"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "scapula_glenoid_arthroscopic_portals_exposure_01",
+      "text": "Shows the glenoid articular surface for selected fracture fragments according to the portal chosen.",
+      "source_ids": [
+        "ao_d8f50e2784e02ee0"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "scapula_glenoid_arthroscopic_portals_limitations_01",
+      "text": "Useful only for articular-surface fractures and only in beach chair.",
+      "source_ids": [
+        "ao_d8f50e2784e02ee0"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "scapula_glenoid_arthroscopic_portals_indications_01",
+      "text": "Used when a glenoid articular fracture can be seen and instrumented through standard shoulder portals.",
+      "source_ids": [
+        "ao_d8f50e2784e02ee0"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "scapula_glenoid_arthroscopic_portals_closure_01",
+      "text": "Close the small portal incisions after instruments are removed.",
+      "source_ids": [
+        "ao_d8f50e2784e02ee0",
+        "ao_c767c51b9f14b8d9"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "scapula_glenoid_arthroscopic_portals_complications_01",
+      "text": "The principal complication is cartilage injury from a poorly placed trocar.",
+      "source_ids": [
+        "ao_d8f50e2784e02ee0",
+        "ao_c767c51b9f14b8d9"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "scapula_glenoid_arthroscopic_portals_questions_01",
+      "text": "Where is the dorsal standard portal?",
+      "source_ids": [
+        "ao_d8f50e2784e02ee0"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "scapula_glenoid_arthroscopic_portals_questions_02",
+      "text": "Which portal is used for posterior glenoid fractures?",
+      "source_ids": [
+        "ao_d8f50e2784e02ee0"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "scapula_glenoid_arthroscopic_portals_questions_03",
+      "text": "When can arthroscopy be used?",
+      "source_ids": [
+        "ao_d8f50e2784e02ee0"
+      ],
+      "risk_level": "medium"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "ao_d8f50e2784e02ee0",
+      "provider": "AO Surgery Reference",
+      "title": "Arthroscopic Entry Points",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/scapula/approach/arthroscopic-entry-points",
+      "source_page_id": "ao_d8f50e2784e02ee0"
+    },
+    {
+      "source_id": "ao_c767c51b9f14b8d9",
+      "provider": "AO Surgery Reference",
+      "title": "Arthroscopic Approach To Knee",
+      "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/proximal-tibia/approach/arthroscopic-approach-to-knee",
+      "source_page_id": "ao_c767c51b9f14b8d9"
+    },
+    {
+      "source_id": "orthobullets_15fa92dadcbd1137",
+      "provider": "Orthobullets",
+      "title": "Shoulder Arthroscopy Indications And Approach",
+      "url": "https://www.orthobullets.com/approaches/12064/shoulder-arthroscopy-indications-and-approach",
+      "source_page_id": "orthobullets_15fa92dadcbd1137"
+    }
+  ],
+  "content_status": "agent_review_pending",
+  "review": {
+    "status": "agent_review_pending",
+    "required_roles": [
+      "adversarial_safety_reviewer",
+      "approach_anatomy_reviewer",
+      "educational_value_reviewer",
+      "evidence_reviewer",
+      "operative_exposure_reviewer",
+      "procedure_applicability_reviewer"
+    ],
+    "completed_roles": []
+  },
+  "resolved_contradiction_keys": [],
+  "authoring_provenance": {
+    "method": "local_codex_curated",
+    "definition_file": "data/approach_library/curated/pediatric_tibia_scapula_batch001_v1.json",
+    "api_used": false
+  }
+}

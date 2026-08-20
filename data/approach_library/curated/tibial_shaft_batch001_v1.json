@@ -1,0 +1,1750 @@
+{
+  "approaches": [
+    {
+      "approach_id": "tibial_shaft_anterolateral",
+      "name": "Anterolateral approach to the tibial shaft",
+      "aliases": [
+        "lateral tibial-crest approach"
+      ],
+      "region": "tibial-shaft",
+      "joint": "",
+      "bones": [
+        "tibia"
+      ],
+      "corridor": "Longitudinal incision 1\u20132 cm lateral to the tibial crest, fascia opened just off the crest, extraperiosteal elevation of anterior-compartment muscle from the lateral tibial surface",
+      "sources": [
+        {
+          "source_id": "ao_848a8863635c9bb3",
+          "provider": "AO Surgery Reference",
+          "title": "Approach To Anterolateral Surface Of Tibial Shaft",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/tibial-shaft/approach/approach-to-anterolateral-surface-of-tibial-shaft",
+          "source_page_id": "ao_848a8863635c9bb3"
+        },
+        {
+          "source_id": "ao_8b3f7de3eaca8580",
+          "provider": "AO Surgery Reference",
+          "title": "Approach To Anterolateral Tibial Surface",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/pediatric-trauma/tibial-shaft/approach/approach-to-anterolateral-tibial-surface",
+          "source_page_id": "ao_8b3f7de3eaca8580"
+        }
+      ],
+      "procedure_applications": [
+        {
+          "procedure_id": "tibial_shaft_fracture_orif",
+          "relationship": "primary_option",
+          "condition": "A tibial shaft is plated on the lateral surface because the medial skin is open or compromised"
+        }
+      ],
+      "sections": {
+        "positioning": [
+          {
+            "text": "Position so the tibial crest, anterior compartment, and ankle can be seen. In children, mark both physes under image intensification before cutting.",
+            "source_ids": [
+              "ao_848a8863635c9bb3",
+              "ao_8b3f7de3eaca8580"
+            ]
+          }
+        ],
+        "surface_landmarks": [
+          {
+            "text": "Mark the tibial crest, tibialis-anterior line toward the ankle, and, in children, the proximal physis/tubercle apophysis and distal physis.",
+            "source_ids": [
+              "ao_848a8863635c9bb3",
+              "ao_8b3f7de3eaca8580"
+            ]
+          }
+        ],
+        "incision": [
+          {
+            "text": "Make a longitudinal cut 1\u20132 cm lateral to the crest, continuing distally along tibialis anterior. Length follows the plate. Distal extension is useful for distal fractures but is crowded by anterior-compartment muscle and neurovascular structures.",
+            "source_ids": [
+              "ao_848a8863635c9bb3",
+              "ao_8b3f7de3eaca8580"
+            ]
+          }
+        ],
+        "superficial_interval": [
+          {
+            "text": "Incise fascia just lateral to the crest and stay extraperiosteal on the lateral tibial surface. Leave periosteum intact except at fracture edges if a direct reduction is needed. In children, do not strip periosteum broadly or compress or cut the perichondral ring.",
+            "source_ids": [
+              "ao_848a8863635c9bb3",
+              "ao_8b3f7de3eaca8580"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "deep_interval": [
+          {
+            "text": "Retract tibialis anterior only as far as the needed lateral surface. Near the junction of the middle and distal thirds, the anterior tibial artery and deep peroneal nerve meet the lateral tibia and then wrap obliquely anterior and distal; in the distal metaphysis they lie on periosteum under the myotendinous anterior-compartment muscles. If the cut enters the distal third, identify and mobilize that bundle with the muscle so a plate can pass to the distal tibia.",
+            "source_ids": [
+              "ao_848a8863635c9bb3",
+              "ao_8b3f7de3eaca8580"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "layers": [
+          {
+            "text": "Skin, fascia just off the crest, anterior-compartment muscle, intact periosteum, then the lateral tibial surface.",
+            "source_ids": [
+              "ao_848a8863635c9bb3",
+              "ao_8b3f7de3eaca8580"
+            ]
+          }
+        ],
+        "structures_at_risk": [
+          {
+            "text": "The anterior tibial artery and deep peroneal nerve in the distal third, anterior-compartment muscle blood supply, periosteum, and in children the physes, tubercle apophysis, and perichondral rings are at risk.",
+            "source_ids": [
+              "ao_848a8863635c9bb3",
+              "ao_8b3f7de3eaca8580"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "danger_zones": [
+          {
+            "text": "Unidentified distal-third neurovascular bundle, closing fascia over a swollen anterior compartment, and in children periosteal or perichondral injury at either physis are the danger zones.",
+            "source_ids": [
+              "ao_848a8863635c9bb3",
+              "ao_8b3f7de3eaca8580"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "retraction_hazards": [
+          {
+            "text": "Limit tibialis-anterior retraction to the essential lateral surface; this window mobilizes anterior-compartment muscle and reduces tibial blood supply compared with a medial subcutaneous plate.",
+            "source_ids": [
+              "ao_848a8863635c9bb3",
+              "ao_8b3f7de3eaca8580"
+            ]
+          }
+        ],
+        "exposure": [
+          {
+            "text": "Used when medial skin is compromised, including an open wound over a planned medial plate. Distal extension can reach the ankle if the bundle is mobilized.",
+            "source_ids": [
+              "ao_848a8863635c9bb3",
+              "ao_8b3f7de3eaca8580"
+            ]
+          }
+        ],
+        "limitations": [
+          {
+            "text": "Muscle mobilization compromises tibial blood supply. The window is less often used in children and is crowded distally.",
+            "source_ids": [
+              "ao_848a8863635c9bb3",
+              "ao_8b3f7de3eaca8580"
+            ]
+          }
+        ],
+        "indications": [
+          {
+            "text": "Indicated when medial soft tissues cannot host a plate, including open fractures with a medial wound.",
+            "source_ids": [
+              "ao_848a8863635c9bb3",
+              "ao_8b3f7de3eaca8580"
+            ]
+          }
+        ],
+        "closure": [
+          {
+            "text": "Close only skin and subcutaneous tissue. Leave fascia open to reduce compartment-syndrome risk.",
+            "source_ids": [
+              "ao_848a8863635c9bb3",
+              "ao_8b3f7de3eaca8580"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "complications": [
+          {
+            "text": "Complications include anterior-compartment syndrome if fascia is closed, deep-peroneal or anterior-tibial injury in the distal third, and in children physeal or apophyseal injury.",
+            "source_ids": [
+              "ao_848a8863635c9bb3",
+              "ao_8b3f7de3eaca8580"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "questions": [
+          {
+            "question": "Where is the anterolateral tibial-shaft incision placed?",
+            "answer": "1\u20132 cm lateral to the tibial crest, continuing along tibialis anterior toward the ankle.",
+            "source_ids": [
+              "ao_848a8863635c9bb3",
+              "ao_8b3f7de3eaca8580"
+            ]
+          },
+          {
+            "question": "Where do the anterior tibial artery and deep peroneal nerve meet the lateral tibia?",
+            "answer": "Near the junction of the middle and distal thirds, then wrapping obliquely onto periosteum in the distal metaphysis.",
+            "source_ids": [
+              "ao_848a8863635c9bb3",
+              "ao_8b3f7de3eaca8580"
+            ]
+          },
+          {
+            "question": "Should fascia be closed?",
+            "answer": "No; leave fascia open and close only skin and subcutaneous tissue to reduce compartment-syndrome risk.",
+            "source_ids": [
+              "ao_848a8863635c9bb3",
+              "ao_8b3f7de3eaca8580"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "approach_id": "tibial_shaft_anteromedial",
+      "name": "Anteromedial approach to the tibial shaft",
+      "aliases": [
+        "medial subcutaneous tibial-shaft approach"
+      ],
+      "region": "tibial-shaft",
+      "joint": "",
+      "bones": [
+        "tibia"
+      ],
+      "corridor": "Incision 1\u20132 cm lateral to the crest, remaining superficial to anterior-compartment fascia, then full-thickness flaps mobilized medially onto the subcutaneous anteromedial tibia",
+      "sources": [
+        {
+          "source_id": "ao_cfa4cd67341c12a8",
+          "provider": "AO Surgery Reference",
+          "title": "Approach To Anteromedial Surface Of Tibial Shaft",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/tibial-shaft/approach/approach-to-anteromedial-surface-of-tibial-shaft",
+          "source_page_id": "ao_cfa4cd67341c12a8"
+        },
+        {
+          "source_id": "ao_9754e47968e9e00d",
+          "provider": "AO Surgery Reference",
+          "title": "Approach To Anteromedial Tibial Surface",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/pediatric-trauma/tibial-shaft/approach/approach-to-anteromedial-tibial-surface",
+          "source_page_id": "ao_9754e47968e9e00d"
+        },
+        {
+          "source_id": "orthobullets_eff0a853c22d863f",
+          "provider": "Orthobullets",
+          "title": "Tibia Anterior Approach",
+          "url": "https://www.orthobullets.com/approaches/12033/tibia-anterior-approach",
+          "source_page_id": "orthobullets_eff0a853c22d863f"
+        }
+      ],
+      "procedure_applications": [
+        {
+          "procedure_id": "tibial_shaft_fracture_orif",
+          "relationship": "primary_option",
+          "condition": "A tibial shaft, most often the distal third, is plated on the flat anteromedial surface when medial skin is healthy"
+        }
+      ],
+      "sections": {
+        "positioning": [
+          {
+            "text": "Position so the crest, medial face, and medial malleolus can be seen. In children, mark both physes before incision.",
+            "source_ids": [
+              "ao_cfa4cd67341c12a8",
+              "ao_9754e47968e9e00d"
+            ]
+          }
+        ],
+        "surface_landmarks": [
+          {
+            "text": "Mark the tibial crest, medial edge of tibialis anterior, medial malleolus, and the distal saphenous vein and nerve.",
+            "source_ids": [
+              "ao_cfa4cd67341c12a8",
+              "ao_9754e47968e9e00d"
+            ]
+          }
+        ],
+        "incision": [
+          {
+            "text": "Incise 1\u20132 cm lateral to the crest and continue distally along the medial edge of tibialis anterior in a gentle curve toward the medial malleolus. Do not enter the tibialis-anterior sheath.",
+            "source_ids": [
+              "ao_cfa4cd67341c12a8",
+              "ao_9754e47968e9e00d"
+            ]
+          }
+        ],
+        "superficial_interval": [
+          {
+            "text": "Stay superficial to anterior-compartment fascia. Mobilize full-thickness skin and fat medially onto the anteromedial tibia. Protect the saphenous vein and nerve distally.",
+            "source_ids": [
+              "ao_cfa4cd67341c12a8",
+              "ao_9754e47968e9e00d"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "deep_interval": [
+          {
+            "text": "Leave periosteum intact or lift it only at fracture edges for a direct reduction. In children, spare the perichondral ring at either physis. This window does not take muscle off the fragments.",
+            "source_ids": [
+              "ao_cfa4cd67341c12a8",
+              "ao_9754e47968e9e00d"
+            ]
+          }
+        ],
+        "layers": [
+          {
+            "text": "Skin, subcutaneous fat, intact anterior-compartment fascia, periosteum, then the anteromedial tibia.",
+            "source_ids": [
+              "ao_cfa4cd67341c12a8",
+              "ao_9754e47968e9e00d"
+            ]
+          }
+        ],
+        "structures_at_risk": [
+          {
+            "text": "The saphenous nerve and vein distally, the tibialis-anterior sheath, thin medial skin, and in children the physes and perichondral rings are at risk.",
+            "source_ids": [
+              "ao_cfa4cd67341c12a8",
+              "ao_9754e47968e9e00d"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "danger_zones": [
+          {
+            "text": "Using this window through contused medial skin, opening the tibialis-anterior sheath, and closing fascia over a swollen compartment are the danger zones.",
+            "source_ids": [
+              "ao_cfa4cd67341c12a8",
+              "ao_9754e47968e9e00d"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "retraction_hazards": [
+          {
+            "text": "Keep flaps full-thickness and do not undermine onto compromised medial skin.",
+            "source_ids": [
+              "ao_cfa4cd67341c12a8",
+              "ao_9754e47968e9e00d"
+            ]
+          }
+        ],
+        "exposure": [
+          {
+            "text": "Shows the entire anteromedial surface, most often used for the distal third. The flat face is easy to contour, including with precontoured plates. It is also used to debride an open fracture without cutting on the injured subcutaneous surface.",
+            "source_ids": [
+              "ao_cfa4cd67341c12a8",
+              "ao_9754e47968e9e00d"
+            ]
+          }
+        ],
+        "limitations": [
+          {
+            "text": "Do not use it when medial skin is compromised or substantially contused. The subcutaneous face has less blood supply to bone than the muscle-covered surfaces.",
+            "source_ids": [
+              "ao_cfa4cd67341c12a8",
+              "ao_9754e47968e9e00d"
+            ]
+          }
+        ],
+        "indications": [
+          {
+            "text": "Used for distal-third tibial-shaft plating, whole-face exposure when medial skin is healthy, and open-fracture debridement that avoids an incision on the injured subcutaneous surface.",
+            "source_ids": [
+              "ao_cfa4cd67341c12a8",
+              "ao_9754e47968e9e00d"
+            ]
+          }
+        ],
+        "closure": [
+          {
+            "text": "Close skin and subcutaneous tissue. Leave fascia open to reduce compartment-syndrome risk.",
+            "source_ids": [
+              "ao_cfa4cd67341c12a8",
+              "ao_9754e47968e9e00d"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "complications": [
+          {
+            "text": "Complications include saphenous injury, tibialis-anterior adhesions from sheath violation, medial wound breakdown, and compartment syndrome if fascia is closed.",
+            "source_ids": [
+              "ao_cfa4cd67341c12a8",
+              "ao_9754e47968e9e00d"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "questions": [
+          {
+            "question": "How is the anteromedial face reached from a cut lateral to the crest?",
+            "answer": "Stay superficial to anterior-compartment fascia and mobilize full-thickness flaps medially onto the subcutaneous tibia.",
+            "source_ids": [
+              "ao_cfa4cd67341c12a8",
+              "ao_9754e47968e9e00d"
+            ]
+          },
+          {
+            "question": "Which structures are at risk distally?",
+            "answer": "The saphenous nerve and vein, and the tibialis-anterior tendon sheath if it is entered.",
+            "source_ids": [
+              "ao_cfa4cd67341c12a8",
+              "ao_9754e47968e9e00d"
+            ]
+          },
+          {
+            "question": "When should this approach not be used?",
+            "answer": "When medial skin is compromised or substantially contused.",
+            "source_ids": [
+              "ao_cfa4cd67341c12a8",
+              "ao_9754e47968e9e00d"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "approach_id": "tibial_shaft_posterolateral",
+      "name": "Posterolateral approach to the tibial shaft",
+      "aliases": [
+        "posterolateral tibial plating and bone-graft approach"
+      ],
+      "region": "tibial-shaft",
+      "joint": "",
+      "bones": [
+        "tibia",
+        "fibula"
+      ],
+      "corridor": "Incision from the lateral gastrocnemius border to a point midway between Achilles and fibula, between the superficial posterior and lateral compartments, then FHL and the entire deep posterior compartment mobilized from fibula, interosseous membrane, and tibia, lateral to medial",
+      "sources": [
+        {
+          "source_id": "ao_235dfad5df539c6e",
+          "provider": "AO Surgery Reference",
+          "title": "Approach To Posterolateral Surface Of Tibial Shaft",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/tibial-shaft/approach/approach-to-posterolateral-surface-of-tibial-shaft",
+          "source_page_id": "ao_235dfad5df539c6e"
+        },
+        {
+          "source_id": "ao_d1d6e660d076a419",
+          "provider": "AO Surgery Reference",
+          "title": "Posterolateral Limited Open Approach To The Distal Tibia",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/distal-tibia/approach/posterolateral-limited-open-approach-to-the-distal-tibia",
+          "source_page_id": "ao_d1d6e660d076a419"
+        },
+        {
+          "source_id": "orthobullets_c6839dbdf0568598",
+          "provider": "Orthobullets",
+          "title": "Tibia Posterolateral Approach",
+          "url": "https://www.orthobullets.com/approaches/12035/tibia-posterolateral-approach",
+          "source_page_id": "orthobullets_c6839dbdf0568598"
+        }
+      ],
+      "procedure_applications": [
+        {
+          "procedure_id": "tibial_shaft_fracture_orif",
+          "relationship": "conditional_option",
+          "condition": "A midshaft or distal tibia is plated posteriorly because anterior soft tissues are unsafe, or a nonunion is grafted posterolaterally"
+        }
+      ],
+      "sections": {
+        "positioning": [
+          {
+            "text": "Position lateral or, preferably, prone because the fibula sits more posterior than the tibia. A high-thigh tourniquet is optional.",
+            "source_ids": [
+              "ao_235dfad5df539c6e"
+            ]
+          }
+        ],
+        "surface_landmarks": [
+          {
+            "text": "Mark the lateral gastrocnemius border, Achilles, and fibula. The interval between lateral and posterior compartments is easier to find distally.",
+            "source_ids": [
+              "ao_235dfad5df539c6e",
+              "ao_d1d6e660d076a419"
+            ]
+          }
+        ],
+        "incision": [
+          {
+            "text": "Begin over the lateral gastrocnemius border and extend distally to a point midway between the Achilles and the fibula.",
+            "source_ids": [
+              "ao_235dfad5df539c6e"
+            ]
+          }
+        ],
+        "superficial_interval": [
+          {
+            "text": "Develop the plane between the superficial posterior and lateral compartments. Incise fascia, take gastrocnemius and soleus medially, and leave peroneals lateral to show the posterolateral fibula. Ligate crossing peroneal perforators.",
+            "source_ids": [
+              "ao_235dfad5df539c6e",
+              "ao_d1d6e660d076a419"
+            ]
+          }
+        ],
+        "deep_interval": [
+          {
+            "text": "Mobilize FHL from the posterior fibula posteromedially, then continue medially to the interosseous membrane. Mobilize the entire deep posterior compartment from the fibula, membrane, and tibia, starting outside the fracture zone, and retract it lateral to medial so its contents stay protected. This is rarely used on the proximal tibia.",
+            "source_ids": [
+              "ao_235dfad5df539c6e",
+              "ao_d1d6e660d076a419"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "layers": [
+          {
+            "text": "Skin, superficial-posterior versus lateral compartment interval, FHL, deep posterior compartment, interosseous membrane, then the posterior tibia and fibula.",
+            "source_ids": [
+              "ao_235dfad5df539c6e",
+              "ao_d1d6e660d076a419"
+            ]
+          }
+        ],
+        "structures_at_risk": [
+          {
+            "text": "Peroneal perforators, the deep posterior-compartment neurovascular contents, and, if fascia is closed, both the superficial posterior and lateral compartments are at risk of compartment syndrome.",
+            "source_ids": [
+              "ao_235dfad5df539c6e",
+              "ao_d1d6e660d076a419"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "danger_zones": [
+          {
+            "text": "Incomplete mobilization of the deep posterior compartment, and closing fascia when swelling is expected, are the danger zones.",
+            "source_ids": [
+              "ao_235dfad5df539c6e"
+            ]
+          }
+        ],
+        "retraction_hazards": [
+          {
+            "text": "Retract the whole deep posterior compartment as a unit from lateral to medial; do not pick through it over the fracture.",
+            "source_ids": [
+              "ao_235dfad5df539c6e",
+              "ao_d1d6e660d076a419"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "exposure": [
+          {
+            "text": "Shows the relatively flat posterior tibia for plating with little contouring, and both tibia and fibula. Often used for nonunion with posterolateral bone graft. Ideal for midshaft and distal tibia when anterior soft tissues are compromised.",
+            "source_ids": [
+              "ao_235dfad5df539c6e"
+            ]
+          }
+        ],
+        "limitations": [
+          {
+            "text": "Surgically demanding and rarely used on the proximal tibia.",
+            "source_ids": [
+              "ao_235dfad5df539c6e"
+            ]
+          }
+        ],
+        "indications": [
+          {
+            "text": "Used for posterior plating when anterior tissues are unsafe, and for posterolateral grafting of nonunion.",
+            "source_ids": [
+              "ao_235dfad5df539c6e"
+            ]
+          }
+        ],
+        "closure": [
+          {
+            "text": "If compartment syndrome is a concern, leave fascia open and close only skin and subcutaneous tissue if that is safe; otherwise use temporary coverage until swelling settles.",
+            "source_ids": [
+              "ao_235dfad5df539c6e"
+            ]
+          }
+        ],
+        "complications": [
+          {
+            "text": "Complications include injury to deep posterior-compartment vessels or nerve and compartment syndrome in the opened posterior and lateral compartments.",
+            "source_ids": [
+              "ao_235dfad5df539c6e"
+            ]
+          }
+        ],
+        "questions": [
+          {
+            "question": "Which compartment interval is used?",
+            "answer": "Between the superficial posterior compartment (gastrocnemius/soleus) and the lateral (peroneal) compartment.",
+            "source_ids": [
+              "ao_235dfad5df539c6e"
+            ]
+          },
+          {
+            "question": "In which direction is the deep posterior compartment mobilized?",
+            "answer": "As a unit from lateral to medial off the fibula, interosseous membrane, and tibia.",
+            "source_ids": [
+              "ao_235dfad5df539c6e"
+            ]
+          },
+          {
+            "question": "Why is prone positioning preferred?",
+            "answer": "The fibula lies more posterior than the tibia, so prone positioning makes the interval easier.",
+            "source_ids": [
+              "ao_235dfad5df539c6e"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "approach_id": "tibial_shaft_posteromedial",
+      "name": "Posteromedial approach to the tibial shaft",
+      "aliases": [
+        "posteromedial tibial plating approach"
+      ],
+      "region": "tibial-shaft",
+      "joint": "",
+      "bones": [
+        "tibia"
+      ],
+      "corridor": "Incision 1\u20132 cm posterior to the posteromedial tibial border, saphenous structures taken anteriorly, then extra-periosteal mobilization of the superficial and deep posterior compartments to the posterolateral tibial edge",
+      "sources": [
+        {
+          "source_id": "ao_62a03d1b28e42ad4",
+          "provider": "AO Surgery Reference",
+          "title": "Approach To Posteromedial Surface Of The Tibial Shaft",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/tibial-shaft/approach/approach-to-posteromedial-surface-of-the-tibial-shaft",
+          "source_page_id": "ao_62a03d1b28e42ad4"
+        },
+        {
+          "source_id": "ao_52556d8e928066ce",
+          "provider": "AO Surgery Reference",
+          "title": "Posteromedial Approach To The Distal Tibia",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/distal-tibia/approach/posteromedial-approach-to-the-distal-tibia",
+          "source_page_id": "ao_52556d8e928066ce"
+        }
+      ],
+      "procedure_applications": [
+        {
+          "procedure_id": "tibial_shaft_fracture_orif",
+          "relationship": "conditional_option",
+          "condition": "The posterior tibia is plated because only the posteromedial skin is safe to incise"
+        }
+      ],
+      "sections": {
+        "positioning": [
+          {
+            "text": "Position supine with the knee flexed and the hip externally rotated, or prone, which needs less manipulation.",
+            "source_ids": [
+              "ao_62a03d1b28e42ad4"
+            ]
+          }
+        ],
+        "surface_landmarks": [
+          {
+            "text": "Palpate the posteromedial tibial border along its length and mark a line 1\u20132 cm posterior to it. Note the saphenous vein and nerve.",
+            "source_ids": [
+              "ao_62a03d1b28e42ad4",
+              "ao_52556d8e928066ce"
+            ]
+          }
+        ],
+        "incision": [
+          {
+            "text": "Incise parallel to and 1\u20132 cm behind the posterior tibial border. Length follows the fracture and plate. Mini-open cuts are safe in this region.",
+            "source_ids": [
+              "ao_62a03d1b28e42ad4"
+            ]
+          }
+        ],
+        "superficial_interval": [
+          {
+            "text": "Identify and protect the saphenous vein and nerve and typically mobilize them anteriorly.",
+            "source_ids": [
+              "ao_62a03d1b28e42ad4",
+              "ao_52556d8e928066ce"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "deep_interval": [
+          {
+            "text": "Incise fascia in line with the skin and mobilize the superficial and deep posterior compartments. Gastrocnemius, soleus, and flexor digitorum are lifted extra-periosteally according to fracture level. Do not dissect beyond the posterolateral tibial edge. The middle three-fifths of the posterior tibia can be shown. The fibula is not reached.",
+            "source_ids": [
+              "ao_62a03d1b28e42ad4"
+            ]
+          }
+        ],
+        "layers": [
+          {
+            "text": "Skin, saphenous plane, fascia, posterior-compartment muscle, extra-periosteal tibia.",
+            "source_ids": [
+              "ao_62a03d1b28e42ad4",
+              "ao_52556d8e928066ce"
+            ]
+          }
+        ],
+        "structures_at_risk": [
+          {
+            "text": "The saphenous vein and nerve, and the deep posterior compartment if fascia is closed, are at risk.",
+            "source_ids": [
+              "ao_62a03d1b28e42ad4",
+              "ao_52556d8e928066ce"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "danger_zones": [
+          {
+            "text": "Closing deep fascia over the deep posterior space is the compartment-syndrome danger zone.",
+            "source_ids": [
+              "ao_62a03d1b28e42ad4"
+            ]
+          }
+        ],
+        "retraction_hazards": [
+          {
+            "text": "Stay extra-periosteal and stop at the posterolateral tibial edge rather than chasing the fibula.",
+            "source_ids": [
+              "ao_62a03d1b28e42ad4"
+            ]
+          }
+        ],
+        "exposure": [
+          {
+            "text": "Shows the flat posterior tibia for plating with little contouring, and can also be used for a medial fasciotomy. Access is tibia only, not fibula.",
+            "source_ids": [
+              "ao_62a03d1b28e42ad4"
+            ]
+          }
+        ],
+        "limitations": [
+          {
+            "text": "Does not reach the fibula. Use it when only posteromedial skin is safe.",
+            "source_ids": [
+              "ao_62a03d1b28e42ad4"
+            ]
+          }
+        ],
+        "indications": [
+          {
+            "text": "Used for open posterior plating when only posteromedial tissues can be incised, and as a medial fasciotomy incision.",
+            "source_ids": [
+              "ao_62a03d1b28e42ad4"
+            ]
+          }
+        ],
+        "closure": [
+          {
+            "text": "Almost always leave deep fascia open. Close only skin and subcutaneous tissue.",
+            "source_ids": [
+              "ao_62a03d1b28e42ad4"
+            ]
+          }
+        ],
+        "complications": [
+          {
+            "text": "Complications include saphenous injury and deep-posterior compartment syndrome if fascia is closed.",
+            "source_ids": [
+              "ao_62a03d1b28e42ad4",
+              "ao_52556d8e928066ce"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "questions": [
+          {
+            "question": "Where is the posteromedial tibial-shaft incision placed?",
+            "answer": "1\u20132 cm posterior to the palpated posteromedial tibial border.",
+            "source_ids": [
+              "ao_62a03d1b28e42ad4"
+            ]
+          },
+          {
+            "question": "How far should dissection go?",
+            "answer": "Not beyond the posterolateral aspect of the tibia; the middle three-fifths of the posterior tibia can be exposed.",
+            "source_ids": [
+              "ao_62a03d1b28e42ad4"
+            ]
+          },
+          {
+            "question": "Should deep fascia be closed?",
+            "answer": "Almost never; leave it open to protect the deep posterior compartment.",
+            "source_ids": [
+              "ao_62a03d1b28e42ad4"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "approach_id": "tibial_shaft_mipo_lateral",
+      "name": "Minimally invasive lateral approach to the tibial shaft",
+      "aliases": [
+        "lateral tibial MIPO"
+      ],
+      "region": "tibial-shaft",
+      "joint": "",
+      "bones": [
+        "tibia"
+      ],
+      "corridor": "Proximal window 5 cm long, 1.5\u20132 cm lateral to the crest distal to the tubercle, and a distal window that retracts tibialis anterior with the deep peroneal nerve and anterior tibial vessels, then a submuscular epiperiosteal tunnel",
+      "sources": [
+        {
+          "source_id": "ao_50f980035e706d39",
+          "provider": "AO Surgery Reference",
+          "title": "Minimally Invasive Lateral Approach To Tibial Shaft",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/tibial-shaft/approach/minimally-invasive-lateral-approach-to-tibial-shaft",
+          "source_page_id": "ao_50f980035e706d39"
+        },
+        {
+          "source_id": "ao_190800ba2f7e0674",
+          "provider": "AO Surgery Reference",
+          "title": "Minimally Invasive Lateral Approach To Tibia",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/pediatric-trauma/tibial-shaft/approach/minimally-invasive-lateral-approach-to-tibia",
+          "source_page_id": "ao_190800ba2f7e0674"
+        }
+      ],
+      "procedure_applications": [
+        {
+          "procedure_id": "tibial_shaft_fracture_orif",
+          "relationship": "primary_option",
+          "condition": "A proximal or mid-tibial fracture is bridge-plated laterally because medial skin is injured"
+        }
+      ],
+      "sections": {
+        "positioning": [
+          {
+            "text": "Position so proximal and distal lateral windows and a distractor can be used. In children, mark both physes and respect the tubercle apophysis.",
+            "source_ids": [
+              "ao_50f980035e706d39",
+              "ao_190800ba2f7e0674"
+            ]
+          }
+        ],
+        "surface_landmarks": [
+          {
+            "text": "Mark the tibial crest, tubercle, and the crossing of the anterior tibial vessels and deep peroneal nerve on the anterolateral face at about the junction of the third and fourth quarters.",
+            "source_ids": [
+              "ao_50f980035e706d39",
+              "ao_190800ba2f7e0674"
+            ]
+          }
+        ],
+        "incision": [
+          {
+            "text": "Make a proximal cut about 5 cm long starting distal to the tubercle and 1.5\u20132 cm lateral to the crest, curving slightly posterior. Add a distal cut over the distal third when the plate is long (about more than 25 cm in adults) so the bundle can be seen rather than trapped.",
+            "source_ids": [
+              "ao_50f980035e706d39",
+              "ao_190800ba2f7e0674"
+            ]
+          }
+        ],
+        "superficial_interval": [
+          {
+            "text": "Incise fascia a few millimeters lateral to the crest. Distally, lift tibialis anterior from bone while preserving paratenon.",
+            "source_ids": [
+              "ao_50f980035e706d39",
+              "ao_190800ba2f7e0674"
+            ]
+          }
+        ],
+        "deep_interval": [
+          {
+            "text": "Proximally take tibialis anterior off bone without stripping periosteum (and without injuring the apophysis in children) and retract it laterally. Distally retract the tendon with the deep peroneal nerve and anterior tibial vessels laterally. Tunnel between muscle and periosteum with an elevator, tunneler, or the plate, passing under the bundle under direct vision.",
+            "source_ids": [
+              "ao_50f980035e706d39",
+              "ao_190800ba2f7e0674"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "layers": [
+          {
+            "text": "Skin, fascia off the crest, tibialis anterior, intact periosteum, then a submuscular plate tunnel.",
+            "source_ids": [
+              "ao_50f980035e706d39",
+              "ao_190800ba2f7e0674"
+            ]
+          }
+        ],
+        "structures_at_risk": [
+          {
+            "text": "The deep peroneal nerve and anterior tibial vessels in the distal third, periosteum, and in children the physes and tubercle apophysis are at risk.",
+            "source_ids": [
+              "ao_50f980035e706d39",
+              "ao_190800ba2f7e0674"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "danger_zones": [
+          {
+            "text": "Passing a submuscular plate or percutaneous screws across the distal-third bundle without a viewing window, and closing fascia over a swollen compartment, are the danger zones.",
+            "source_ids": [
+              "ao_50f980035e706d39",
+              "ao_190800ba2f7e0674"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "retraction_hazards": [
+          {
+            "text": "Lift or retract the distal bundle so the plate passes under it under direct observation, not blindly.",
+            "source_ids": [
+              "ao_50f980035e706d39",
+              "ao_190800ba2f7e0674"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "exposure": [
+          {
+            "text": "Used for lateral MIPO when medial tissues are injured, including precontoured lateral plates for proximal and mid-tibial fractures. Distal contouring and screw placement are difficult.",
+            "source_ids": [
+              "ao_50f980035e706d39",
+              "ao_190800ba2f7e0674"
+            ]
+          }
+        ],
+        "limitations": [
+          {
+            "text": "The distal third is a poor contouring zone and requires an open window to protect the bundle.",
+            "source_ids": [
+              "ao_50f980035e706d39",
+              "ao_190800ba2f7e0674"
+            ]
+          }
+        ],
+        "indications": [
+          {
+            "text": "Indicated for minimally invasive lateral plating when medial skin is injured.",
+            "source_ids": [
+              "ao_50f980035e706d39",
+              "ao_190800ba2f7e0674"
+            ]
+          }
+        ],
+        "closure": [
+          {
+            "text": "Close skin and subcutaneous tissue. Consider leaving fascia open because postoperative compartment syndrome remains a risk. In children, close skin and fat only.",
+            "source_ids": [
+              "ao_50f980035e706d39",
+              "ao_190800ba2f7e0674"
+            ]
+          }
+        ],
+        "complications": [
+          {
+            "text": "Complications include trapping or piercing the distal-third neurovascular bundle and compartment syndrome.",
+            "source_ids": [
+              "ao_50f980035e706d39",
+              "ao_190800ba2f7e0674"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "questions": [
+          {
+            "question": "Where do the anterior tibial vessels and deep peroneal nerve cross the anterolateral tibia?",
+            "answer": "About at the junction of the third and fourth quarters.",
+            "source_ids": [
+              "ao_50f980035e706d39",
+              "ao_190800ba2f7e0674"
+            ]
+          },
+          {
+            "question": "How is a distal-third lateral plate passed relative to that bundle?",
+            "answer": "Under direct vision, with the bundle retracted or lifted so the plate and instruments pass beneath it.",
+            "source_ids": [
+              "ao_50f980035e706d39",
+              "ao_190800ba2f7e0674"
+            ]
+          },
+          {
+            "question": "Where does the proximal window start?",
+            "answer": "Distal to the tibial tubercle and 1.5\u20132 cm lateral to the crest, about 5 cm long, curving slightly posterior.",
+            "source_ids": [
+              "ao_50f980035e706d39"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "approach_id": "tibial_shaft_mipo_medial",
+      "name": "Minimally invasive medial approach to the tibial shaft",
+      "aliases": [
+        "medial tibial MIPO"
+      ],
+      "region": "tibial-shaft",
+      "joint": "",
+      "bones": [
+        "tibia"
+      ],
+      "corridor": "Separate proximal and distal 5 cm medial windows spanning plate length, with a subcutaneous epiperiosteal tunnel that leaves periosteum and muscle intact",
+      "sources": [
+        {
+          "source_id": "ao_3853ccfaa20ea753",
+          "provider": "AO Surgery Reference",
+          "title": "Minimally Invasive Medial Approach To Tibial Shaft",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/tibial-shaft/approach/minimally-invasive-medial-approach-to-tibial-shaft",
+          "source_page_id": "ao_3853ccfaa20ea753"
+        },
+        {
+          "source_id": "ao_beb61e3ac4091f9d",
+          "provider": "AO Surgery Reference",
+          "title": "Minimally Invasive Medial Approach To Tibia",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/pediatric-trauma/tibial-shaft/approach/minimally-invasive-medial-approach-to-tibia",
+          "source_page_id": "ao_beb61e3ac4091f9d"
+        },
+        {
+          "source_id": "ao_3b8e878d0388efe6",
+          "provider": "AO Surgery Reference",
+          "title": "Minimally Invasive Approach To The Distal Tibia",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/distal-tibia/approach/minimally-invasive-approach-to-the-distal-tibia",
+          "source_page_id": "ao_3b8e878d0388efe6"
+        }
+      ],
+      "procedure_applications": [
+        {
+          "procedure_id": "tibial_shaft_fracture_orif",
+          "relationship": "primary_option",
+          "condition": "A tibial fracture, especially distal, is bridge-plated on the medial face when the skin is healthy"
+        }
+      ],
+      "sections": {
+        "positioning": [
+          {
+            "text": "Position so separate medial windows and a large distractor can be used. In children, mark both physes before cutting.",
+            "source_ids": [
+              "ao_3853ccfaa20ea753",
+              "ao_beb61e3ac4091f9d"
+            ]
+          }
+        ],
+        "surface_landmarks": [
+          {
+            "text": "Mark the medial tibial face, planned plate length, and the distal saphenous vein and nerve.",
+            "source_ids": [
+              "ao_3853ccfaa20ea753",
+              "ao_3b8e878d0388efe6"
+            ]
+          }
+        ],
+        "incision": [
+          {
+            "text": "Make separate proximal and distal cuts about 5 cm long on the medial tibia, spanning the plate. Distally use a straight cut (more direct but over the plate) or a slightly oblique cut (off the plate, possibly fewer wound problems, but closer to the saphenous vein and nerve).",
+            "source_ids": [
+              "ao_3853ccfaa20ea753",
+              "ao_beb61e3ac4091f9d"
+            ]
+          }
+        ],
+        "superficial_interval": [
+          {
+            "text": "Deepen to intact periosteum. Identify and protect the saphenous vein and nerve in the distal window.",
+            "source_ids": [
+              "ao_3853ccfaa20ea753",
+              "ao_3b8e878d0388efe6"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "deep_interval": [
+          {
+            "text": "Prepare a tunnel under subcutaneous tissue and over intact periosteum with an elevator or the plate. Do not strip periosteum. In children, do not damage the perichondral ring at either physis. A large distractor helps reduce and hold the fracture. This window does not take muscle off bone and does not affect tibial blood supply.",
+            "source_ids": [
+              "ao_3853ccfaa20ea753",
+              "ao_beb61e3ac4091f9d"
+            ]
+          }
+        ],
+        "layers": [
+          {
+            "text": "Skin, saphenous plane, intact periosteum, then a subcutaneous medial plate tunnel.",
+            "source_ids": [
+              "ao_3853ccfaa20ea753",
+              "ao_3b8e878d0388efe6"
+            ]
+          }
+        ],
+        "structures_at_risk": [
+          {
+            "text": "The saphenous vein and nerve distally, medial skin over a plate, and in children the physes and perichondral rings are at risk.",
+            "source_ids": [
+              "ao_3853ccfaa20ea753",
+              "ao_beb61e3ac4091f9d",
+              "ao_3b8e878d0388efe6"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "danger_zones": [
+          {
+            "text": "An oblique distal cut that hits the saphenous structures, and using the window through injured medial skin, are the danger zones.",
+            "source_ids": [
+              "ao_3853ccfaa20ea753",
+              "ao_beb61e3ac4091f9d"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "retraction_hazards": [
+          {
+            "text": "Protect the saphenous vein and nerve while inserting the plate; do not convert the tunnel into periosteal stripping.",
+            "source_ids": [
+              "ao_3853ccfaa20ea753",
+              "ao_3b8e878d0388efe6"
+            ]
+          }
+        ],
+        "exposure": [
+          {
+            "text": "Preferred MIPO corridor for tibial fractures, especially distal, when skin is healthy. A contoured plate fits the medial face relatively easily.",
+            "source_ids": [
+              "ao_3853ccfaa20ea753",
+              "ao_beb61e3ac4091f9d"
+            ]
+          }
+        ],
+        "limitations": [
+          {
+            "text": "Unsafe if overlying skin is injured.",
+            "source_ids": [
+              "ao_3853ccfaa20ea753",
+              "ao_beb61e3ac4091f9d"
+            ]
+          }
+        ],
+        "indications": [
+          {
+            "text": "Used for minimally invasive medial plating, particularly of distal tibial fractures, when the medial envelope is intact.",
+            "source_ids": [
+              "ao_3853ccfaa20ea753",
+              "ao_beb61e3ac4091f9d"
+            ]
+          }
+        ],
+        "closure": [
+          {
+            "text": "Close skin and subcutaneous tissue.",
+            "source_ids": [
+              "ao_3853ccfaa20ea753",
+              "ao_beb61e3ac4091f9d"
+            ]
+          }
+        ],
+        "complications": [
+          {
+            "text": "Complications include saphenous injury, wound breakdown over a subcutaneous plate, and physeal injury in children.",
+            "source_ids": [
+              "ao_3853ccfaa20ea753",
+              "ao_beb61e3ac4091f9d"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "questions": [
+          {
+            "question": "What is the trade-off between a straight and an oblique distal medial window?",
+            "answer": "Straight is more direct but lies over the plate; oblique is off the plate and may reduce wound problems but brings the saphenous vein and nerve closer.",
+            "source_ids": [
+              "ao_3853ccfaa20ea753",
+              "ao_beb61e3ac4091f9d"
+            ]
+          },
+          {
+            "question": "In which plane is the medial plate passed?",
+            "answer": "Under the subcutaneous tissues and over intact periosteum.",
+            "source_ids": [
+              "ao_3853ccfaa20ea753",
+              "ao_3b8e878d0388efe6"
+            ]
+          },
+          {
+            "question": "When is medial tibial MIPO not safe?",
+            "answer": "When the overlying medial skin is injured.",
+            "source_ids": [
+              "ao_3853ccfaa20ea753",
+              "ao_beb61e3ac4091f9d"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "approach_id": "tibial_shaft_pin_safe_zones",
+      "name": "Safe zones for tibial wires, Schanz screws, and pins",
+      "aliases": [
+        "tibial external-fixator pin corridors"
+      ],
+      "region": "tibial-shaft",
+      "joint": "knee",
+      "bones": [
+        "tibia"
+      ],
+      "corridor": "Anteromedial subcutaneous face and selected transfixation corridors that avoid the peroneal nerve at the fibular neck, the anterior tibial bundle, and, in children, the physes and tubercle apophysis",
+      "sources": [
+        {
+          "source_id": "ao_ca1b5779f08a1dd4",
+          "provider": "AO Surgery Reference",
+          "title": "Safe Zones In The Tibia For Wire And Schanz Screw Insertion",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/tibial-shaft/approach/safe-zones-in-the-tibia-for-wire-and-schanz-screw-insertion",
+          "source_page_id": "ao_ca1b5779f08a1dd4"
+        },
+        {
+          "source_id": "ao_1ecf423dd7cca26e",
+          "provider": "AO Surgery Reference",
+          "title": "Safe Zones In Tibia For Pin Insertion",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/tibial-shaft/approach/safe-zones-in-tibia-for-pin-insertion",
+          "source_page_id": "ao_1ecf423dd7cca26e"
+        },
+        {
+          "source_id": "ao_119682a6149b1484",
+          "provider": "AO Surgery Reference",
+          "title": "Safe Zones For Pin Placement",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/pediatric-trauma/tibial-shaft/approach/safe-zones-for-pin-placement",
+          "source_page_id": "ao_119682a6149b1484"
+        }
+      ],
+      "procedure_applications": [
+        {
+          "procedure_id": "tibial_shaft_fracture_orif",
+          "relationship": "conditional_option",
+          "condition": "Temporary or definitive external fixation uses percutaneous tibial wires or Schanz pins"
+        }
+      ],
+      "sections": {
+        "positioning": [
+          {
+            "text": "Position so the anteromedial face, fibular head, and both physes in children can be imaged during pin or wire placement.",
+            "source_ids": [
+              "ao_ca1b5779f08a1dd4",
+              "ao_119682a6149b1484"
+            ]
+          }
+        ],
+        "surface_landmarks": [
+          {
+            "text": "Mark the tibial crest, tubercle, fibular head and neck, medial subcutaneous face, and in children the physes and apophysis.",
+            "source_ids": [
+              "ao_1ecf423dd7cca26e",
+              "ao_119682a6149b1484"
+            ]
+          }
+        ],
+        "incision": [
+          {
+            "text": "Use mini-open windows rather than blind far-cortex penetration, especially in the distal third where a 1 cm cut lets the anterior tibial vessels be seen. In children stay at least 2 cm from each physis and off the apophysis.",
+            "source_ids": [
+              "ao_1ecf423dd7cca26e",
+              "ao_119682a6149b1484"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "superficial_interval": [
+          {
+            "text": "The entire anteromedial face is generally safe for Schanz screws. Distal to the tubercle, anterior and medial zones are safe. Protect the saphenous vein for medial-to-lateral distal pins.",
+            "source_ids": [
+              "ao_ca1b5779f08a1dd4",
+              "ao_1ecf423dd7cca26e"
+            ]
+          }
+        ],
+        "deep_interval": [
+          {
+            "text": "At the fibular-head level, only medial and lateral zones anterior to the head are safe for transfixation; the peroneal nerve wraps the neck. Midshaft, do not drive a pin from anteromedial to anterolateral across the anterior tibial bundle. Distally, anteromedial-to-posterolateral or medial-to-lateral anterior to the fibula is used; the peroneal bundle sits on the posterolateral tibial border. Oscillate or tap wires through dangerous corridors. Stop Schanz screws after one or two far-cortex threads.",
+            "source_ids": [
+              "ao_ca1b5779f08a1dd4",
+              "ao_1ecf423dd7cca26e",
+              "ao_119682a6149b1484"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "layers": [
+          {
+            "text": "Skin, subcutaneous or mini-open window, then bicortical pin or wire in a mapped safe zone.",
+            "source_ids": [
+              "ao_ca1b5779f08a1dd4",
+              "ao_1ecf423dd7cca26e"
+            ]
+          }
+        ],
+        "structures_at_risk": [
+          {
+            "text": "The common peroneal nerve at the fibular neck, the anterior tibial artery/vein and deep peroneal nerve, the saphenous vein, the posterolateral peroneal bundle, and in children the physes and tubercle apophysis are at risk.",
+            "source_ids": [
+              "ao_ca1b5779f08a1dd4",
+              "ao_1ecf423dd7cca26e",
+              "ao_119682a6149b1484"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "danger_zones": [
+          {
+            "text": "A tibiofibular wire where the peroneal nerve wraps the fibular neck, an anteromedial-to-anterolateral midshaft pin across the anterior tibial bundle, over-penetration of the far cortex, and pins through a child's physis or apophysis are the danger zones.",
+            "source_ids": [
+              "ao_ca1b5779f08a1dd4",
+              "ao_1ecf423dd7cca26e",
+              "ao_119682a6149b1484"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "retraction_hazards": [
+          {
+            "text": "On the thick anterior crest, confirm a true bicortical pin and avoid thermal injury. Midshaft pediatric pins sit medial to the crest on the anteromedial face, about 20\u00b0 to the sagittal plane.",
+            "source_ids": [
+              "ao_ca1b5779f08a1dd4",
+              "ao_119682a6149b1484"
+            ]
+          }
+        ],
+        "exposure": [
+          {
+            "text": "Provides spanning or non-spanning pin and wire corridors, not an open fracture reduction.",
+            "source_ids": [
+              "ao_ca1b5779f08a1dd4",
+              "ao_1ecf423dd7cca26e"
+            ]
+          }
+        ],
+        "limitations": [
+          {
+            "text": "Even a mapped safe zone still requires oscillating or tapping wires through dangerous locations.",
+            "source_ids": [
+              "ao_ca1b5779f08a1dd4"
+            ]
+          }
+        ],
+        "indications": [
+          {
+            "text": "Used whenever percutaneous tibial wires or Schanz pins are inserted for external fixation.",
+            "source_ids": [
+              "ao_ca1b5779f08a1dd4",
+              "ao_119682a6149b1484"
+            ]
+          }
+        ],
+        "closure": [
+          {
+            "text": "Close mini-open windows around pins without tension.",
+            "source_ids": [
+              "ao_1ecf423dd7cca26e",
+              "ao_119682a6149b1484"
+            ]
+          }
+        ],
+        "complications": [
+          {
+            "text": "Complications include peroneal palsy at the fibular neck, anterior tibial bundle injury, thermal necrosis of a dense anterior crest, pin-track infection, and physeal growth disturbance in children.",
+            "source_ids": [
+              "ao_ca1b5779f08a1dd4",
+              "ao_1ecf423dd7cca26e",
+              "ao_119682a6149b1484"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "questions": [
+          {
+            "question": "Which proximal transfixation corridor is unsafe because of the peroneal nerve?",
+            "answer": "A tibiofibular wire where the nerve wraps the fibular neck.",
+            "source_ids": [
+              "ao_ca1b5779f08a1dd4",
+              "ao_1ecf423dd7cca26e"
+            ]
+          },
+          {
+            "question": "How far from the physes should pediatric tibial pins stay?",
+            "answer": "At least 2 cm distal to the proximal physis and 2 cm proximal to the distal physis, and off the tubercle apophysis.",
+            "source_ids": [
+              "ao_119682a6149b1484"
+            ]
+          },
+          {
+            "question": "How far should a Schanz screw pass the far cortex?",
+            "answer": "Only one or two threads.",
+            "source_ids": [
+              "ao_ca1b5779f08a1dd4"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "approach_id": "tibial_shaft_medial_parapatellar_nail",
+      "name": "Medial parapatellar approach for tibial nailing",
+      "aliases": [
+        "medial paratendinous tibial nail entry"
+      ],
+      "region": "tibial-shaft",
+      "joint": "knee",
+      "bones": [
+        "proximal tibia",
+        "tibial shaft"
+      ],
+      "corridor": "Longitudinal cut over the patellar tendon and patella, interval medial to the tendon, optionally through medial parapatellar retinaculum, to a start in the medial aspect of the lateral tibial spine 3 mm medial to the crest",
+      "sources": [
+        {
+          "source_id": "ao_3ae1a31978456e14",
+          "provider": "AO Surgery Reference",
+          "title": "Medial Parapatellar Approach For Intramedullary Nailing Of The Tibial Shaft",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/tibial-shaft/approach/medial-parapatellar-approach-for-intramedullary-nailing-of-the-tibial-shaft",
+          "source_page_id": "ao_3ae1a31978456e14"
+        },
+        {
+          "source_id": "ao_f6b5bd1c8c7e5760",
+          "provider": "AO Surgery Reference",
+          "title": "Infrapatellar Approach For Intramedullary Nailing Of The Tibial Shaft",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/tibial-shaft/approach/infrapatellar-approach-for-intramedullary-nailing-of-the-tibial-shaft",
+          "source_page_id": "ao_f6b5bd1c8c7e5760"
+        }
+      ],
+      "procedure_applications": [
+        {
+          "procedure_id": "tibial_shaft_fracture_orif",
+          "relationship": "primary_option",
+          "condition": "A tibial shaft is nailed through a medial paratendinous window rather than a tendon split"
+        }
+      ],
+      "sections": {
+        "positioning": [
+          {
+            "text": "Position so true AP and lateral images of the knee and proximal tibia can confirm the start.",
+            "source_ids": [
+              "ao_3ae1a31978456e14",
+              "ao_f6b5bd1c8c7e5760"
+            ]
+          }
+        ],
+        "surface_landmarks": [
+          {
+            "text": "Mark the tibial crest, patellar tendon, and plateau. A guide wire laid along the crest and extended over the knee meets the plateau at the start, typically 3 mm medial to the crest in line with the canal, in the medial aspect of the lateral tibial spine, just distal to the plateau\u2013metaphyseal angle at the anterior joint-line edge.",
+            "source_ids": [
+              "ao_3ae1a31978456e14",
+              "ao_f6b5bd1c8c7e5760"
+            ]
+          }
+        ],
+        "incision": [
+          {
+            "text": "Make a longitudinal cut over the patellar tendon and patella.",
+            "source_ids": [
+              "ao_3ae1a31978456e14"
+            ]
+          }
+        ],
+        "superficial_interval": [
+          {
+            "text": "Go medial to the patellar tendon. If the patella is stiff, extend through the medial parapatellar retinaculum proximally. Studies have found no difference in knee pain between through-tendon and beside-tendon incisions.",
+            "source_ids": [
+              "ao_3ae1a31978456e14",
+              "ao_f6b5bd1c8c7e5760"
+            ]
+          }
+        ],
+        "deep_interval": [
+          {
+            "text": "Place the opening device in line with the canal. A start that is too medial tends to produce valgus in proximal-shaft fractures.",
+            "source_ids": [
+              "ao_3ae1a31978456e14",
+              "ao_f6b5bd1c8c7e5760"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "layers": [
+          {
+            "text": "Skin, medial paratendinous interval and optional medial retinaculum, then the extra-articular anterior start.",
+            "source_ids": [
+              "ao_3ae1a31978456e14",
+              "ao_f6b5bd1c8c7e5760"
+            ]
+          }
+        ],
+        "structures_at_risk": [
+          {
+            "text": "A medialized start malaligns proximal-shaft fractures into valgus. The patellar tendon is spared compared with a transtendinous split but can still be injured by a poorly placed cut.",
+            "source_ids": [
+              "ao_3ae1a31978456e14",
+              "ao_f6b5bd1c8c7e5760"
+            ]
+          }
+        ],
+        "danger_zones": [
+          {
+            "text": "An entry medial to the canal axis is the valgus danger zone for proximal tibial-shaft fractures.",
+            "source_ids": [
+              "ao_3ae1a31978456e14",
+              "ao_f6b5bd1c8c7e5760"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "retraction_hazards": [
+          {
+            "text": "Do not let tendon retraction pull the opening device medial to the crest line.",
+            "source_ids": [
+              "ao_3ae1a31978456e14",
+              "ao_f6b5bd1c8c7e5760"
+            ]
+          }
+        ],
+        "exposure": [
+          {
+            "text": "Gives a flexed-knee nail start medial to the tendon, with optional proximal retinacular extension for a stiff patella.",
+            "source_ids": [
+              "ao_3ae1a31978456e14"
+            ]
+          }
+        ],
+        "limitations": [
+          {
+            "text": "Knee flexion can still make proximal-shaft alignment harder than a semi-extended method.",
+            "source_ids": [
+              "ao_3ae1a31978456e14",
+              "ao_f6b5bd1c8c7e5760"
+            ]
+          }
+        ],
+        "indications": [
+          {
+            "text": "Used for infrapatellar nailing when the surgeon prefers a medial paratendinous rather than transtendinous window.",
+            "source_ids": [
+              "ao_3ae1a31978456e14",
+              "ao_f6b5bd1c8c7e5760"
+            ]
+          }
+        ],
+        "closure": [
+          {
+            "text": "Repair retinaculum if it was opened and close skin.",
+            "source_ids": [
+              "ao_3ae1a31978456e14"
+            ]
+          }
+        ],
+        "complications": [
+          {
+            "text": "Complications include valgus malalignment from a too-medial start in proximal-shaft fractures.",
+            "source_ids": [
+              "ao_3ae1a31978456e14",
+              "ao_f6b5bd1c8c7e5760"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "questions": [
+          {
+            "question": "Where is the frontal-plane tibial nail start?",
+            "answer": "In the medial aspect of the lateral tibial spine, typically 3 mm medial to the crest in line with the canal.",
+            "source_ids": [
+              "ao_3ae1a31978456e14",
+              "ao_f6b5bd1c8c7e5760"
+            ]
+          },
+          {
+            "question": "What deformity follows a too-medial start in a proximal-shaft fracture?",
+            "answer": "Valgus.",
+            "source_ids": [
+              "ao_3ae1a31978456e14",
+              "ao_f6b5bd1c8c7e5760"
+            ]
+          },
+          {
+            "question": "Where does this interval run relative to the patellar tendon?",
+            "answer": "Medial to the tendon, extended through medial parapatellar retinaculum if the patella is not mobile.",
+            "source_ids": [
+              "ao_3ae1a31978456e14"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "approach_id": "tibial_shaft_lateral_parapatellar_nail",
+      "name": "Semi-extended lateral parapatellar approach for tibial nailing",
+      "aliases": [
+        "lateral parapatellar tibial nail entry"
+      ],
+      "region": "tibial-shaft",
+      "joint": "knee",
+      "bones": [
+        "proximal tibia",
+        "tibial shaft"
+      ],
+      "corridor": "Longitudinal cut over or along the lateral patella, lateral parapatellar retinaculum divided leaving a few-millimeter cuff, sleeve passed extra-articularly onto the anterior crest to the same canal-aligned start",
+      "sources": [
+        {
+          "source_id": "ao_a586323a012ceab0",
+          "provider": "AO Surgery Reference",
+          "title": "Semi Extended Lateral Parapatellar Approach For Intramedullary Nailing Of The Tibial Shaft",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/tibial-shaft/approach/semi-extended-lateral-parapatellar-approach-for-intramedullary-nailing-of-the-tibial-shaft",
+          "source_page_id": "ao_a586323a012ceab0"
+        },
+        {
+          "source_id": "ao_7043a76b3dfa9353",
+          "provider": "AO Surgery Reference",
+          "title": "Semi Extended Suprapatellar Approach For Intramedullary Nailing Of The Tibial Shaft",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/tibial-shaft/approach/semi-extended-suprapatellar-approach-for-intramedullary-nailing-of-the-tibial-shaft",
+          "source_page_id": "ao_7043a76b3dfa9353"
+        }
+      ],
+      "procedure_applications": [
+        {
+          "procedure_id": "tibial_shaft_fracture_orif",
+          "relationship": "primary_option",
+          "condition": "A tibial shaft is nailed in semi-extension through a lateral parapatellar sleeve rather than a suprapatellar quadriceps split"
+        }
+      ],
+      "sections": {
+        "positioning": [
+          {
+            "text": "Position in semi-extension so the sleeve can sit on the anterior crest and true AP and lateral knee images can be obtained.",
+            "source_ids": [
+              "ao_a586323a012ceab0",
+              "ao_7043a76b3dfa9353"
+            ]
+          }
+        ],
+        "surface_landmarks": [
+          {
+            "text": "Mark the patella, lateral retinaculum, tibial crest, and the same canal-aligned start used for other tibial nails: medial aspect of the lateral spine, 3 mm medial to the crest, just distal to the plateau\u2013metaphyseal angle.",
+            "source_ids": [
+              "ao_a586323a012ceab0",
+              "ao_7043a76b3dfa9353"
+            ]
+          }
+        ],
+        "incision": [
+          {
+            "text": "Make a longitudinal cut over the patella or along its lateral border, long enough for a lateral parapatellar arthrotomy-style window.",
+            "source_ids": [
+              "ao_a586323a012ceab0"
+            ]
+          }
+        ],
+        "superficial_interval": [
+          {
+            "text": "Divide the lateral parapatellar retinaculum, leaving a few-millimeter cuff on the patella for repair. Lengthen the retinacular cut if the patella is stiff so cartilage can be protected. The joint capsule is usually not opened.",
+            "source_ids": [
+              "ao_a586323a012ceab0"
+            ]
+          }
+        ],
+        "deep_interval": [
+          {
+            "text": "Pass the nail guide sleeves atraumatically onto the anterior tibial crest. Keep the sleeve in for the whole case to protect patellar and distal-femoral cartilage. Do not damage those articular surfaces while inserting the sleeve.",
+            "source_ids": [
+              "ao_a586323a012ceab0",
+              "ao_7043a76b3dfa9353"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "layers": [
+          {
+            "text": "Skin, lateral parapatellar retinaculum with a repair cuff, extra-articular sleeve on the anterior crest, then the canal start.",
+            "source_ids": [
+              "ao_a586323a012ceab0",
+              "ao_7043a76b3dfa9353"
+            ]
+          }
+        ],
+        "structures_at_risk": [
+          {
+            "text": "Patellar and distal-femoral articular cartilage are at risk if the sleeve is not kept in place. A missing retinacular cuff prevents repair.",
+            "source_ids": [
+              "ao_a586323a012ceab0",
+              "ao_7043a76b3dfa9353"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "danger_zones": [
+          {
+            "text": "Inserting or working without a protective sleeve against the articular surfaces is the cartilage danger zone.",
+            "source_ids": [
+              "ao_a586323a012ceab0",
+              "ao_7043a76b3dfa9353"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "retraction_hazards": [
+          {
+            "text": "If the patella is not mobile, lengthen the retinacular split rather than levering on cartilage.",
+            "source_ids": [
+              "ao_a586323a012ceab0",
+              "ao_7043a76b3dfa9353"
+            ]
+          }
+        ],
+        "exposure": [
+          {
+            "text": "A semi-extended extra-articular alternative to the suprapatellar quadriceps-tendon sleeve for the same canal start.",
+            "source_ids": [
+              "ao_a586323a012ceab0",
+              "ao_7043a76b3dfa9353"
+            ]
+          }
+        ],
+        "limitations": [
+          {
+            "text": "The capsule is usually not opened, so this is not an articular reduction window.",
+            "source_ids": [
+              "ao_a586323a012ceab0"
+            ]
+          }
+        ],
+        "indications": [
+          {
+            "text": "Used for semi-extended tibial nailing through a lateral parapatellar sleeve.",
+            "source_ids": [
+              "ao_a586323a012ceab0"
+            ]
+          }
+        ],
+        "closure": [
+          {
+            "text": "Repair the lateral retinaculum to the patellar cuff and close skin.",
+            "source_ids": [
+              "ao_a586323a012ceab0"
+            ]
+          }
+        ],
+        "complications": [
+          {
+            "text": "Complications include chondral injury to the patella or distal femur if the sleeve is omitted, and retinacular repair failure if no cuff is left.",
+            "source_ids": [
+              "ao_a586323a012ceab0",
+              "ao_7043a76b3dfa9353"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "questions": [
+          {
+            "question": "Is the joint capsule usually opened in the lateral parapatellar nail approach?",
+            "answer": "No; the capsule is usually not opened.",
+            "source_ids": [
+              "ao_a586323a012ceab0"
+            ]
+          },
+          {
+            "question": "How is the retinaculum divided so it can be repaired?",
+            "answer": "Leave a cuff of a few millimeters on the patella.",
+            "source_ids": [
+              "ao_a586323a012ceab0"
+            ]
+          },
+          {
+            "question": "Why keep the sleeve in for the whole case?",
+            "answer": "To protect the articular cartilage of the patella and distal femur.",
+            "source_ids": [
+              "ao_a586323a012ceab0",
+              "ao_7043a76b3dfa9353"
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

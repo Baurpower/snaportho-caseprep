@@ -1,0 +1,562 @@
+{
+  "approaches": [
+    {
+      "approach_id": "distal_tibia_anteromedial_anterolateral",
+      "name": "Anteromedial and anterolateral approaches to the distal tibia",
+      "aliases": [
+        "pilon anterior approaches",
+        "distal tibia anterolateral approach"
+      ],
+      "region": "distal-tibia",
+      "joint": "ankle",
+      "bones": [
+        "tibia"
+      ],
+      "corridor": "Anterior exposures of the distal tibia: an anteromedial window medial to tibialis anterior over the medial plafond, or an anterolateral window between the anterior and lateral compartments protecting the superficial peroneal nerve, chosen by fracture pattern and soft-tissue condition",
+      "sources": [
+        {
+          "source_id": "ao_c77d79658acc100c",
+          "provider": "AO Surgery Reference",
+          "title": "Anteromedial or anterolateral approach (distal tibia)",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/distal-tibia/approach/anteromedial-or-anterolateral-approach",
+          "source_page_id": "ao_c77d79658acc100c"
+        },
+        {
+          "source_id": "orthobullets_12034",
+          "provider": "Orthobullets",
+          "title": "Anterolateral Approach to Tibia",
+          "url": "https://www.orthobullets.com/approaches/12034/anterolateral-approach-to-tibia"
+        },
+        {
+          "source_id": "ao_e853cb1071acace7",
+          "provider": "AO Surgery Reference",
+          "title": "Safe zones (distal tibia)",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/distal-tibia/approach/safe-zones",
+          "source_page_id": "ao_e853cb1071acace7"
+        }
+      ],
+      "procedure_applications": [
+        {
+          "procedure_id": "pilon_ankle_fracture_orif",
+          "relationship": "primary_option",
+          "condition": "A tibial pilon fracture is best approached anteriorly, with anteromedial or anterolateral chosen by fragment location and soft-tissue status"
+        }
+      ],
+      "sections": {
+        "positioning": [
+          {
+            "text": "Position supine on a radiolucent table with the leg supported; the anterolateral exposure can also be performed semi-lateral, and fluoroscopy must be available.",
+            "source_ids": [
+              "orthobullets_12034"
+            ]
+          }
+        ],
+        "surface_landmarks": [
+          {
+            "text": "Mark the tibialis anterior tendon, the medial malleolus and plafond for the anteromedial window, and a line toward the fourth ray just lateral to the tibial crest for the anterolateral window.",
+            "source_ids": [
+              "orthobullets_12034"
+            ]
+          }
+        ],
+        "incision": [
+          {
+            "text": "Place the anteromedial incision just medial to the tibialis anterior tendon over the distal tibia, or the anterolateral incision in line with the fourth ray lateral to the crest; when both anteromedial and anterolateral work are combined, preserve an adequate skin bridge.",
+            "source_ids": [
+              "ao_c77d79658acc100c",
+              "orthobullets_12034"
+            ]
+          }
+        ],
+        "superficial_interval": [
+          {
+            "text": "For the anterolateral approach identify and protect the superficial peroneal nerve, then incise the extensor retinaculum lateral to the tendons; for the anteromedial approach stay medial to tibialis anterior over the bone.",
+            "source_ids": [
+              "orthobullets_12034"
+            ],
+            "risk_level": "medium"
+          }
+        ],
+        "deep_interval": [
+          {
+            "text": "Elevate the anterior compartment extensor musculature medially off the interosseous membrane and anterior tibia, keeping the anterior tibial artery and deep peroneal nerve protected on the surface of the membrane.",
+            "source_ids": [
+              "orthobullets_12034",
+              "ao_e853cb1071acace7"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "layers": [
+          {
+            "text": "Skin, subcutaneous tissue with cutaneous nerves, extensor retinaculum, the anterior compartment tendons and neurovascular bundle, and the distal tibia.",
+            "source_ids": [
+              "orthobullets_12034"
+            ]
+          }
+        ],
+        "structures_at_risk": [
+          {
+            "text": "The superficial peroneal nerve (anterolateral), the saphenous vein and nerve (anteromedial), and the anterior tibial artery with the deep peroneal nerve are at risk.",
+            "source_ids": [
+              "orthobullets_12034",
+              "ao_e853cb1071acace7"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "danger_zones": [
+          {
+            "text": "The anterior neurovascular bundle over the distal tibia is the danger zone; percutaneous work here is dangerous and dissection should be done under direct vision with small retractors.",
+            "source_ids": [
+              "ao_e853cb1071acace7",
+              "orthobullets_12034"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "retraction_hazards": [
+          {
+            "text": "Use small retractors and avoid forceful traction on the fragile anterior skin and on the superficial peroneal nerve.",
+            "source_ids": [
+              "ao_e853cb1071acace7",
+              "orthobullets_12034"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "exposure": [
+          {
+            "text": "Exposes the anterior plafond and metaphysis of the distal tibia for articular reduction and plating.",
+            "source_ids": [
+              "ao_c77d79658acc100c",
+              "orthobullets_12034"
+            ]
+          }
+        ],
+        "limitations": [
+          {
+            "text": "Approach choice is dictated by fragment location, open-wound position, and metaphyseal comminution; the anterolateral window gives limited exposure and fragile anterior skin constrains timing.",
+            "source_ids": [
+              "ao_c77d79658acc100c",
+              "orthobullets_12034"
+            ]
+          }
+        ],
+        "indications": [
+          {
+            "text": "Indicated for open reduction and internal fixation of tibial pilon fractures approached anteriorly, with the specific window chosen by fragment and soft-tissue factors.",
+            "source_ids": [
+              "ao_c77d79658acc100c"
+            ]
+          }
+        ],
+        "closure": [
+          {
+            "text": "Repair the extensor retinaculum, achieve tension-free skin closure to protect the anterior soft-tissue envelope, and delay surgery until swelling allows safe closure.",
+            "source_ids": [
+              "orthobullets_12034",
+              "ao_c77d79658acc100c"
+            ]
+          }
+        ],
+        "complications": [
+          {
+            "text": "Complications include anterior wound breakdown, superficial peroneal nerve injury with dorsal foot numbness, and anterior tibial neurovascular injury.",
+            "source_ids": [
+              "orthobullets_12034",
+              "ao_e853cb1071acace7"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "questions": [
+          {
+            "question": "What most influences the choice between anteromedial and anterolateral approaches to the pilon?",
+            "answer": "Fragment location, the position of any open wound, and the metaphyseal comminution pattern.",
+            "source_ids": [
+              "ao_c77d79658acc100c"
+            ]
+          },
+          {
+            "question": "Which nerve is protected first in the anterolateral distal tibia approach?",
+            "answer": "The superficial peroneal nerve.",
+            "source_ids": [
+              "orthobullets_12034"
+            ]
+          },
+          {
+            "question": "Why is percutaneous work over the distal anterior tibia dangerous?",
+            "answer": "Because the anterior tibial artery and deep peroneal nerve lie there.",
+            "source_ids": [
+              "ao_e853cb1071acace7"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "approach_id": "distal_tibia_schanz_screw_safe_zones",
+      "name": "Safe zones for Schanz screw placement in the distal tibia",
+      "aliases": [
+        "distal tibia external fixator pin safe zones"
+      ],
+      "region": "distal-tibia",
+      "joint": "ankle",
+      "bones": [
+        "tibia"
+      ],
+      "corridor": "Mini-open Schanz screw corridors in the distal tibia, one anterior to posterior and one medial to lateral just medial to the tibialis anterior tendon, avoiding the anterior tibial vessels",
+      "sources": [
+        {
+          "source_id": "ao_e853cb1071acace7",
+          "provider": "AO Surgery Reference",
+          "title": "Safe zones (distal tibia)",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/distal-tibia/approach/safe-zones",
+          "source_page_id": "ao_e853cb1071acace7"
+        },
+        {
+          "source_id": "orthobullets_12034",
+          "provider": "Orthobullets",
+          "title": "Anterolateral Approach to Tibia",
+          "url": "https://www.orthobullets.com/approaches/12034/anterolateral-approach-to-tibia"
+        }
+      ],
+      "procedure_applications": [
+        {
+          "procedure_id": "pilon_ankle_fracture_orif",
+          "relationship": "conditional_option",
+          "condition": "A spanning external fixator is applied for a pilon fracture before definitive fixation"
+        }
+      ],
+      "sections": {
+        "positioning": [
+          {
+            "text": "Position supine with the leg on a radiolucent support and fluoroscopy available to guide distal screw placement.",
+            "source_ids": [
+              "ao_e853cb1071acace7"
+            ]
+          }
+        ],
+        "surface_landmarks": [
+          {
+            "text": "Identify the tibialis anterior tendon and the anteromedial subcutaneous surface of the distal tibia.",
+            "source_ids": [
+              "ao_e853cb1071acace7"
+            ]
+          }
+        ],
+        "incision": [
+          {
+            "text": "Make small incisions for each Schanz screw rather than inserting percutaneously in the distal zone.",
+            "source_ids": [
+              "ao_e853cb1071acace7"
+            ]
+          }
+        ],
+        "superficial_interval": [
+          {
+            "text": "Spread down to bone with small retractors protecting the extensor tendons and neurovascular structures.",
+            "source_ids": [
+              "ao_e853cb1071acace7"
+            ]
+          }
+        ],
+        "deep_interval": [
+          {
+            "text": "Insert one Schanz screw from anterior to posterior and a second from medial to lateral, keeping the medial screw just medial to the tibialis anterior tendon.",
+            "source_ids": [
+              "ao_e853cb1071acace7"
+            ]
+          }
+        ],
+        "layers": [
+          {
+            "text": "Skin, subcutaneous tissue, extensor tendons and anterior neurovascular bundle, and the distal tibial cortex.",
+            "source_ids": [
+              "ao_e853cb1071acace7",
+              "orthobullets_12034"
+            ]
+          }
+        ],
+        "structures_at_risk": [
+          {
+            "text": "The anterior tibial artery and vein and the deep peroneal nerve are at risk in the distal zone, along with the superficial peroneal nerve laterally.",
+            "source_ids": [
+              "ao_e853cb1071acace7",
+              "orthobullets_12034"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "danger_zones": [
+          {
+            "text": "Percutaneous Schanz screw insertion in the distal anterior tibia is dangerous because of the anterior tibial vessels; use a mini-open technique instead.",
+            "source_ids": [
+              "ao_e853cb1071acace7",
+              "orthobullets_12034"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "retraction_hazards": [
+          {
+            "text": "Protect the extensor tendons and anterior neurovascular bundle with small retractors during drilling and screw insertion.",
+            "source_ids": [
+              "ao_e853cb1071acace7"
+            ]
+          }
+        ],
+        "exposure": [
+          {
+            "text": "Provides safe corridors for distal tibial Schanz screws rather than a formal open exposure.",
+            "source_ids": [
+              "ao_e853cb1071acace7"
+            ]
+          }
+        ],
+        "limitations": [
+          {
+            "text": "The distal zone is anatomically crowded, so screw corridors are limited and mini-open placement is required.",
+            "source_ids": [
+              "ao_e853cb1071acace7"
+            ]
+          }
+        ],
+        "indications": [
+          {
+            "text": "Indicated for external fixator Schanz screw placement in the distal tibia during spanning fixation of pilon or distal tibial fractures.",
+            "source_ids": [
+              "ao_e853cb1071acace7"
+            ]
+          }
+        ],
+        "closure": [
+          {
+            "text": "Close each mini-incision loosely around the screw to avoid skin tension.",
+            "source_ids": [
+              "ao_e853cb1071acace7"
+            ]
+          }
+        ],
+        "complications": [
+          {
+            "text": "Complications include anterior tibial neurovascular injury, extensor tendon injury, and pin-tract problems.",
+            "source_ids": [
+              "ao_e853cb1071acace7",
+              "orthobullets_12034"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "questions": [
+          {
+            "question": "Why should distal tibial Schanz screws not be placed percutaneously?",
+            "answer": "Because the anterior tibial artery and vein make percutaneous insertion dangerous.",
+            "source_ids": [
+              "ao_e853cb1071acace7"
+            ]
+          },
+          {
+            "question": "Where is the medial distal tibial Schanz screw placed relative to the tibialis anterior tendon?",
+            "answer": "Just medial to the tibialis anterior tendon, inserted medial to lateral.",
+            "source_ids": [
+              "ao_e853cb1071acace7"
+            ]
+          },
+          {
+            "question": "How are neurovascular structures protected during distal screw insertion?",
+            "answer": "By using a mini-open incision with small retractors instead of percutaneous placement.",
+            "source_ids": [
+              "ao_e853cb1071acace7"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "approach_id": "femoral_shaft_external_fixator_pin_locations",
+      "name": "External fixator pin locations in the femoral shaft",
+      "aliases": [
+        "femoral shaft Schanz screw safe corridors"
+      ],
+      "region": "femoral-shaft",
+      "joint": "",
+      "bones": [
+        "femur"
+      ],
+      "corridor": "Anterolateral and direct lateral half-pin corridors through vastus lateralis into the femoral diaphysis, keeping medial neurovascular structures protected by the muscular envelope",
+      "sources": [
+        {
+          "source_id": "ao_d24605ca10a9a4e3",
+          "provider": "AO Surgery Reference",
+          "title": "Locations for pin placement (femoral shaft)",
+          "url": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/femoral-shaft/approach/locations-for-pin-placement",
+          "source_page_id": "ao_d24605ca10a9a4e3"
+        },
+        {
+          "source_id": "orthobullets_12024",
+          "provider": "Orthobullets",
+          "title": "Femur Lateral Approach",
+          "url": "https://www.orthobullets.com/approaches/12024/femur-lateral-approach"
+        }
+      ],
+      "procedure_applications": [
+        {
+          "procedure_id": "femoral_shaft_fracture_orif",
+          "relationship": "conditional_option",
+          "condition": "A spanning external fixator is applied to the femur, for example in damage-control orthopedics before nailing"
+        }
+      ],
+      "sections": {
+        "positioning": [
+          {
+            "text": "Position supine or lateral decubitus with the thigh accessible laterally and imaging available; lateral decubitus best exposes the shaft.",
+            "source_ids": [
+              "ao_d24605ca10a9a4e3",
+              "orthobullets_12024"
+            ]
+          }
+        ],
+        "surface_landmarks": [
+          {
+            "text": "Palpate the tip of the greater trochanter and the lateral border of the femur down the thigh.",
+            "source_ids": [
+              "orthobullets_12024"
+            ]
+          }
+        ],
+        "incision": [
+          {
+            "text": "Make small lateral or anterolateral incisions over the chosen pin sites down to the iliotibial band and vastus lateralis.",
+            "source_ids": [
+              "ao_d24605ca10a9a4e3",
+              "orthobullets_12024"
+            ]
+          }
+        ],
+        "superficial_interval": [
+          {
+            "text": "Split the fascia lata and pass through or lift vastus lateralis; there is no true internervous plane because this is an intramuscular corridor.",
+            "source_ids": [
+              "orthobullets_12024"
+            ]
+          }
+        ],
+        "deep_interval": [
+          {
+            "text": "In the midshaft place anterolateral pins in the plane between vastus lateralis and rectus femoris, or direct lateral pins through vastus lateralis purchasing both cortices; proximally aim within the lateral face of the greater trochanter and distally use a direct lateral corridor.",
+            "source_ids": [
+              "ao_d24605ca10a9a4e3"
+            ]
+          }
+        ],
+        "layers": [
+          {
+            "text": "Skin, subcutaneous tissue, iliotibial band and fascia lata, vastus lateralis, and the lateral femoral cortex.",
+            "source_ids": [
+              "ao_d24605ca10a9a4e3",
+              "orthobullets_12024"
+            ]
+          }
+        ],
+        "structures_at_risk": [
+          {
+            "text": "The perforating branches of the profunda femoris within vastus lateralis, the femoral vessels medially, and the sciatic nerve posteriorly are at risk; medial cortical perforation endangers the neurovascular structures.",
+            "source_ids": [
+              "ao_d24605ca10a9a4e3",
+              "orthobullets_12024"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "danger_zones": [
+          {
+            "text": "Medial cortical perforation and the posterolateral distal femur are danger zones; keep pins anterolateral to direct lateral and avoid a posterolateral distal exit.",
+            "source_ids": [
+              "ao_d24605ca10a9a4e3"
+            ],
+            "risk_level": "medium"
+          }
+        ],
+        "retraction_hazards": [
+          {
+            "text": "Ligate perforating branches of the profunda femoris that are encountered and avoid levering medially past the far cortex.",
+            "source_ids": [
+              "ao_d24605ca10a9a4e3",
+              "orthobullets_12024"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "exposure": [
+          {
+            "text": "Provides safe half-pin corridors along the femoral diaphysis rather than a formal open exposure.",
+            "source_ids": [
+              "ao_d24605ca10a9a4e3"
+            ]
+          }
+        ],
+        "limitations": [
+          {
+            "text": "Avoid pins through crush injuries or extensively damaged soft tissue, plan sites for future conversion to nailing or plating, and keep the distal frame off the mattress.",
+            "source_ids": [
+              "ao_d24605ca10a9a4e3"
+            ]
+          }
+        ],
+        "indications": [
+          {
+            "text": "Indicated for external fixator half-pin placement in the femoral shaft, commonly for damage-control stabilization.",
+            "source_ids": [
+              "ao_d24605ca10a9a4e3"
+            ]
+          }
+        ],
+        "closure": [
+          {
+            "text": "Close each incision loosely around the pin and ensure hemostasis of any divided perforating vessels.",
+            "source_ids": [
+              "ao_d24605ca10a9a4e3",
+              "orthobullets_12024"
+            ]
+          }
+        ],
+        "complications": [
+          {
+            "text": "Complications include hematoma from perforating vessel injury, neurovascular injury with medial perforation, and pin-tract infection.",
+            "source_ids": [
+              "ao_d24605ca10a9a4e3",
+              "orthobullets_12024"
+            ],
+            "risk_level": "high"
+          }
+        ],
+        "questions": [
+          {
+            "question": "Which femoral corridors are safest for external fixator pins?",
+            "answer": "The anterolateral and direct lateral regions.",
+            "source_ids": [
+              "ao_d24605ca10a9a4e3"
+            ]
+          },
+          {
+            "question": "Why is the anterolateral-to-lateral femur considered safe for pins?",
+            "answer": "The major neurovascular structures lie medially, protected by the muscular envelope.",
+            "source_ids": [
+              "ao_d24605ca10a9a4e3"
+            ]
+          },
+          {
+            "question": "Which vessels are typically encountered and ligated during lateral vastus lateralis dissection?",
+            "answer": "The perforating branches of the profunda femoris artery.",
+            "source_ids": [
+              "ao_d24605ca10a9a4e3",
+              "orthobullets_12024"
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}
