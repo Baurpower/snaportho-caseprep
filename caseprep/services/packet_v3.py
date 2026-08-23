@@ -108,7 +108,7 @@ def _legacy_primary(payload: Dict[str, Any]) -> Optional[Dict[str, Any]]:
     # A legacy approach id equal to the procedure slug is an unspecified
     # approach, not a safely inferred named technique.
     specific = bool(approach_id and approach_id != procedure_id) or bool(
-        payload.get("approach_specific_notes")
+        not approach_id and payload.get("approach_specific_notes")
     )
     return {
         "approach_id": approach_id or _slug(approach_name),
@@ -135,15 +135,13 @@ def _authored_approaches(procedure_id: str) -> List[Dict[str, Any]]:
     library_rows = []
     for packet in ApproachLibrary().for_procedure(procedure_id):
         runtime = packet.get("runtime_fields")
-        if isinstance(runtime, dict) and packet.get("content_status") != "source_indexed":
+        if isinstance(runtime, dict):
             library_rows.append(dict(runtime))
             continue
         # Native approach-library packets use the richer reusable schema. They
         # remain review-pending, but can be rendered as clearly labelled curated
         # draft content without flattening the source-of-truth packet on disk.
-        if packet.get("schema_version") == "brobot_approach_packet_v1" and packet.get(
-            "content_status"
-        ) != "source_indexed":
+        if packet.get("schema_version") == "brobot_approach_packet_v1":
             mapping = packet.get("procedure_mapping") or {}
 
             def texts(field: str) -> List[str]:
@@ -166,8 +164,9 @@ def _authored_approaches(procedure_id: str) -> List[Dict[str, Any]]:
                 {
                     "approach_id": packet["approach_id"],
                     "name": packet["name"],
+                    "aliases": list(packet.get("aliases") or []),
                     "role": mapping.get("relationship") or "applicable",
-                    "content_status": "curated",
+                    "content_status": packet.get("content_status") or "curated",
                     "selection_indications": texts("indications"),
                     "selection_limitations": texts("limitations"),
                     "positioning": texts("positioning") + texts("setup"),
@@ -187,6 +186,9 @@ def _authored_approaches(procedure_id: str) -> List[Dict[str, Any]]:
                     ),
                     "review_evidence": (packet.get("review") or {}).get("artifacts", []),
                     "coverage_notes": str(mapping.get("condition") or ""),
+                    "corridor": str(packet.get("corridor") or ""),
+                    "claim_count": len(packet.get("claims") or []),
+                    "source_count": len(packet.get("sources") or []),
                 }
             )
     if library_rows:
@@ -230,7 +232,11 @@ def _attach_review_state(packet: Dict[str, Any], *, migrated: bool) -> Dict[str,
     normalized = dict(packet)
     procedure_id = str(normalized.get("procedure_id") or "")
     options = list(normalized.get("approaches") or [])
-    gaps = [option for option in options if option.get("content_status") == "coverage_gap"]
+    gaps = [
+        option
+        for option in options
+        if option.get("content_status") in {"coverage_gap", "source_indexed"}
+    ]
     review = dict(normalized.get("review") or {})
     review.update(
         {
@@ -331,8 +337,17 @@ def normalize_packet(payload: Optional[Dict[str, Any]]) -> Optional[Dict[str, An
                 )
                 seen.add(approach_id)
 
-    complete = [a for a in options if a.get("content_status") in {"reviewed", "curated"}]
-    gaps = [a for a in options if a.get("content_status") == "coverage_gap"]
+    complete = [
+        a
+        for a in options
+        if a.get("content_status")
+        not in {"coverage_gap", "source_indexed", None, ""}
+    ]
+    gaps = [
+        a
+        for a in options
+        if a.get("content_status") in {"coverage_gap", "source_indexed"}
+    ]
     migrated = str(payload.get("case_prep_status") or "").lower() == "certified"
     normalized = {
         **payload,
@@ -361,7 +376,29 @@ def normalize_packet(payload: Optional[Dict[str, Any]]) -> Optional[Dict[str, An
 def detect_requested_approach(prompt: str, packet: Optional[Dict[str, Any]]) -> Optional[str]:
     if not packet:
         return None
-    blob = f" {prompt.lower()} "
+    # Normalize punctuation and enforce word/phrase boundaries. Substring
+    # matching makes "lateral" incorrectly match "posterolateral".
+    blob = f" {' '.join(re.findall(r'[a-z0-9]+', prompt.lower()))} "
+    ignored_words = {
+        "approach", "to", "the", "of", "for", "and", "distal", "proximal",
+        "radius", "ulna", "humerus", "femur", "tibia", "hip", "knee",
+        "shoulder", "wrist", "ankle", "hand", "foot", "spine", "cervical",
+        "shaft", "fracture", "orif", "nailing", "nail", "entry",
+        "arthroplasty", "replacement", "reconstruction", "repair",
+        "release", "fusion", "carpal", "tunnel", "total", "midline",
+    }
+    option_words: Dict[str, List[str]] = {}
+    word_owners: Dict[str, set[str]] = {}
+    for option in packet.get("approaches") or []:
+        approach_id = str(option.get("approach_id") or "")
+        words = [
+            word for word in re.findall(r"[a-z0-9]+", str(option.get("name") or "").lower())
+            if word not in ignored_words and len(word) >= 4
+        ]
+        option_words[approach_id] = words
+        for word in set(words):
+            word_owners.setdefault(word, set()).add(approach_id)
+    matches: List[tuple[int, int, str]] = []
     for option in packet.get("approaches") or []:
         approach_id = str(option.get("approach_id") or "")
         name = str(option.get("name") or "")
@@ -375,27 +412,68 @@ def detect_requested_approach(prompt: str, packet: Optional[Dict[str, Any]]) -> 
             )
             if len(phrase.strip()) >= 5
         }
-        if any(f" {token} " in blob or token in blob for token in tokens):
-            return approach_id
-    return None
+        tokens.update(
+            str(alias).strip().lower()
+            for alias in option.get("aliases") or []
+            if len(str(alias).strip()) >= 3
+        )
+        name_words = option_words.get(approach_id, [])
+        tokens.update(
+            " ".join(name_words[index : index + 2])
+            for index in range(max(0, len(name_words) - 1))
+        )
+        # A single corridor word (posterior, deltopectoral, suprapatellar) is
+        # safe only when it identifies exactly one option for this procedure.
+        tokens.update(word for word in name_words if len(word_owners.get(word, ())) == 1)
+        matched = [token for token in tokens if f" {token} " in blob]
+        if matched:
+            # Prefer the most specific phrase and, for duplicate legacy/native
+            # identities, the richer claim-bound packet.
+            matches.append(
+                (
+                    max(len(token.split()) for token in matched),
+                    int(option.get("claim_count") or 0),
+                    approach_id,
+                )
+            )
+    return max(matches)[2] if matches else None
 
 
 def approach_decision_payload(prompt: str, payload: Optional[Dict[str, Any]]) -> Dict[str, Any]:
     packet = normalize_packet(payload)
     if not packet:
         return {"status": "unavailable", "selected_approach_id": None, "approaches": []}
-    selected = detect_requested_approach(prompt, packet)
     options = packet.get("approaches") or []
+    normalized_prompt = " ".join(re.findall(r"[a-z0-9]+", prompt.lower()))
+    explicitly_named = []
+    for option in options:
+        approach_id = str(option.get("approach_id") or "")
+        phrases = [str(option.get("name") or ""), *(option.get("aliases") or [])]
+        if any(
+            len(phrase.split()) >= 2
+            and " ".join(re.findall(r"[a-z0-9]+", phrase.lower())) in normalized_prompt
+            for phrase in phrases
+            if str(phrase).strip()
+        ):
+            explicitly_named.append(approach_id)
+    selected_ids = list(dict.fromkeys(explicitly_named))
+    selected = selected_ids[0] if len(selected_ids) == 1 else detect_requested_approach(prompt, packet)
+    if selected and not selected_ids:
+        selected_ids = [selected]
+    if len(selected_ids) > 1:
+        selected = selected_ids[0]
     if not selected and len(options) == 1 and options[0].get("role") == "primary":
         selected = options[0].get("approach_id")
+        selected_ids = [selected]
     return {
-        "status": "selected" if selected else ("choice_required" if len(options) > 1 else "unspecified"),
+        "status": ("multiple_selected" if len(selected_ids) > 1 else "selected") if selected else ("choice_required" if len(options) > 1 else "unspecified"),
         "selected_approach_id": selected,
+        "selected_approach_ids": selected_ids,
         "approaches": options,
         "coverage": packet.get("approach_coverage") or {},
         "review": packet.get("review") or {},
         "message": (
-            "The case description does not identify an approach. Compare the options and confirm the planned approach with the attending."
+            "Which approach should I prepare? Select one or more; I can compare approaches side by side."
             if not selected and len(options) > 1
             else ""
         ),

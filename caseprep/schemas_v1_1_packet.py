@@ -44,6 +44,10 @@ EVENT_ERROR = "error"
 # Packet layout order (client slot order, not emission order).
 SECTION_IDS = (
     "approach_decision",
+    "approach_quick_brief",
+    "approach_exposure",
+    "approach_safety",
+    "approach_strategy",
     "summary",
     "key_takeaways",
     "top_things_to_know",

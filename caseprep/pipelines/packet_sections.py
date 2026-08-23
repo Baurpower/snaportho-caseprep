@@ -257,21 +257,45 @@ def operative_flow_pipeline(payload: Optional[Dict[str, Any]]) -> Dict[str, Any]
 # ── Above-the-fold builders (synchronous; emitted immediately after header) ──
 
 
+def _case_frame(overview: str) -> str:
+    """Indication-only line. Drop 'Performed via …' so multi-approach cases are not locked."""
+    text = clean(overview)
+    if not text:
+        return ""
+    marker = " performed via "
+    idx = text.lower().find(marker)
+    if idx == -1:
+        return text
+    return text[:idx].rstrip(" .;:") or text
+
+
 def summary_block(payload: Optional[Dict[str, Any]]) -> Dict[str, Any]:
     started = time.monotonic()
     if not payload:
         return pipeline_result("summary", started, [], status="unavailable")
     refs = source_ids(payload)
     items: List[Dict[str, Any]] = []
-    overview = clean(payload.get("procedure_overview"))
-    if overview:
+    frame = _case_frame(clean(payload.get("procedure_overview")))
+    if frame:
         result = item(
             prefix="summary",
-            question="Procedure overview",
-            answer=overview,
+            question="Case",
+            answer=frame,
             category="summary",
             sources=refs,
             confidence=0.95,
+        )
+        if result:
+            items.append(result)
+    for fact in (payload.get("must_know_anatomy") or [])[:6]:
+        result = item(
+            prefix="mustknow",
+            question="Must-know",
+            answer=fact,
+            category="must_know",
+            sources=refs,
+            confidence=0.95,
+            dedup_key=f"anatomy:{norm_key(fact)}",
         )
         if result:
             items.append(result)

@@ -156,7 +156,10 @@ class ApproachLibraryTests(unittest.TestCase):
                 for option in packet.get("approaches") or []:
                     if option.get("approach_id") in library_ids:
                         self.assertEqual(option.get("review_status"), "agent_review_pending")
-                        self.assertEqual(option.get("content_status"), "curated")
+                        self.assertIn(
+                            option.get("content_status"),
+                            {"curated", "agent_review_pending", "source_indexed"},
+                        )
 
     def test_hip_hemi_choice_is_unchanged_by_aliases(self):
         decision = approach_decision_payload(

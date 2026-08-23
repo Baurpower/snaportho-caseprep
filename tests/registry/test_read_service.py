@@ -34,7 +34,7 @@ class RegistryReadServiceTests(unittest.TestCase):
         self.assertNotIn("certified_payload", serialized)
         self.assertNotIn("source_payload_hash", serialized)
         self.assertEqual(detail.slug, "tka")
-        self.assertFalse(detail.is_live)
+        self.assertTrue(detail.is_live)
         self.assertEqual(len(detail.sections), 11)
         self.assertEqual(detail.sections[0].key, "indications")
         self.assertEqual(detail.sections[0].label, "Indications")

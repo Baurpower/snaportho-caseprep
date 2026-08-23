@@ -160,6 +160,33 @@ class PacketSectionContentTests(unittest.TestCase):
         self.assertTrue(items)
         self.assertIn("recurrent motor branch", items[0]["question"])
 
+    def test_summary_is_case_frame_plus_must_knows(self) -> None:
+        payload = {
+            **PAYLOAD,
+            "procedure_overview": (
+                "Displaced or unstable femoral-neck fracture in an older adult. "
+                "Performed via the Lateral (Hardinge) approach; protect the superior gluteal nerve."
+            ),
+            "must_know_anatomy": [
+                "Limit the gluteus medius split to 3-5 cm above the greater trochanter.",
+                "Repair the anterior abductors to the greater trochanter.",
+            ],
+        }
+        items = summary_block(payload)["items"]
+        frame = next(row for row in items if row["category"] == "summary")
+        self.assertIn("Displaced or unstable femoral-neck fracture", frame["answer"])
+        self.assertNotIn("Performed via", frame["answer"])
+        self.assertNotIn("Hardinge", frame["answer"])
+        knows = [row for row in items if row["category"] == "must_know"]
+        self.assertEqual(len(knows), 2)
+        self.assertTrue(all(row["_dedup_key"].startswith("anatomy:") for row in knows))
+        anatomy_keys = {
+            row["_dedup_key"]
+            for row in important_anatomy_pipeline(payload)["items"]
+            if row.get("_dedup_key")
+        }
+        self.assertTrue({row["_dedup_key"] for row in knows} <= anatomy_keys)
+
 
 if __name__ == "__main__":
     unittest.main()

@@ -43,7 +43,7 @@ class PacketV3Tests(unittest.TestCase):
         packet = self._payload("hip_hemiarthroplasty")
         decision = approach_decision_payload("hip hemiarthroplasty", packet)
         self.assertEqual(decision["status"], "choice_required")
-        self.assertEqual(len(decision["approaches"]), 4)
+        self.assertEqual(len(decision["approaches"]), 5)
         self.assertEqual(decision["coverage"]["gap_count"], 0)
         self.assertEqual(
             {row["approach_id"] for row in decision["approaches"]},
@@ -52,6 +52,7 @@ class PacketV3Tests(unittest.TestCase):
                 "approach_lower_ext_hip_posterior_moore_southern",
                 "hip_anterior_smith_petersen",
                 "hip_anterolateral_watson_jones",
+                "hip_periprosthetic_direct_lateral_hardinge",
             },
         )
 

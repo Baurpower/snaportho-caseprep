@@ -22,8 +22,8 @@ from caseprep.engines.v1_1_web import (
     _safe_pipeline,
 )
 from caseprep.pipelines import packet_sections
+from caseprep.pipelines.approach_prep import build_approach_prep
 from caseprep.services import ai_fallback, curated_content_store, procedure_resolver
-from caseprep.services.packet_v3 import approach_decision_payload
 from caseprep.services.case_identity_v1_1 import build_case_identity, enrich_refined_query
 from caseprep.services.caseprep_assembler_v1_1 import collect_sources, high_yield_items
 from caseprep.services.rag_retrieval import retrieve_case_qas
@@ -139,7 +139,7 @@ def _merge_pimp_questions(
     curated: List[Dict[str, Any]], retrieved: List[Dict[str, Any]], limit: int = 15,
     *, prompt: str = "", prioritize_prompt: bool = False,
 ) -> List[Dict[str, Any]]:
-    """Curated attending questions first, then RAG items deduped against them."""
+    """Exact approach/curated questions first, then deduped RAG backfill."""
     from caseprep.services.rag_retrieval import _near_duplicate
 
     merged: List[Dict[str, Any]] = []
@@ -260,8 +260,22 @@ async def stream_caseprep_packet(
         if identity["canonical_slug"]
         else None
     )
-    yield protocol.header_event(identity, build_packet_header(identity, payload))
-    approach_decision = approach_decision_payload(prompt, payload)
+    approach_prep = build_approach_prep(
+        prompt, identity["canonical_slug"] or "", payload
+    )
+    approach_decision = approach_prep["decision"]
+    header = build_packet_header(identity, payload)
+    header["approach_coverage"] = approach_decision.get("coverage") or {}
+    yield protocol.header_event(identity, header)
+    pipeline_status["approach_prep"] = {
+        "status": approach_prep["status"],
+        "item_count": sum(
+            len(section.get("items") or [])
+            for section in approach_prep["sections"].values()
+        ),
+        "question_count": len(approach_prep["questions"]),
+        "duration_ms": approach_prep["duration_ms"],
+    }
     if approach_decision.get("approaches"):
         yield protocol.section_event(
             "approach_decision",
@@ -272,6 +286,33 @@ async def stream_caseprep_packet(
         )
         if approach_decision.get("status") == "choice_required":
             warnings.append(str(approach_decision.get("message") or "Approach confirmation is needed."))
+    for section_id in (
+        "approach_quick_brief",
+        "approach_exposure",
+        "approach_safety",
+        "approach_strategy",
+    ):
+        result = approach_prep["sections"].get(section_id) or {}
+        if result.get("items"):
+            yield protocol.section_event(
+                section_id,
+                status="complete",
+                items=result["items"],
+                source="approach_library",
+                confidence=_section_meta(result)["confidence"],
+                duration_ms=result.get("duration_ms", 0),
+            )
+    if approach_prep.get("sources") or approach_prep["coverage"].get("approach_id"):
+        yield protocol.section_event(
+            "approach_sources",
+            status="complete",
+            payload={
+                "coverage": approach_prep["coverage"],
+                "sources": approach_prep.get("sources") or [],
+            },
+            source="approach_library",
+            duration_ms=approach_prep["duration_ms"],
+        )
     yield protocol.progress_event(
         "assembling", "Loading the case essentials", 24, 38,
         elapsed_ms=int((time.monotonic() - started) * 1000),
@@ -294,10 +335,16 @@ async def stream_caseprep_packet(
         ("top_things_to_know", packet_sections.top_things_to_know_block),
     ):
         result = builder(payload)
-        if cfg.enable_v1_1_dedup and section_id in ("key_takeaways", "top_things_to_know"):
-            claimed_dedup_keys.update(
-                key for item in result["items"] if (key := item.get("_dedup_key"))
-            )
+        if cfg.enable_v1_1_dedup:
+            if claimed_dedup_keys and section_id in (
+                "key_takeaways",
+                "top_things_to_know",
+            ):
+                result["items"] = _suppress_body_dupes(result["items"])
+            if section_id in ("summary", "key_takeaways", "top_things_to_know"):
+                claimed_dedup_keys.update(
+                    key for item in result["items"] if (key := item.get("_dedup_key"))
+                )
         pipeline_status[section_id] = {
             "status": result["status"],
             "item_count": len(result["items"]),
@@ -480,17 +527,23 @@ async def stream_caseprep_packet(
         for warning in retrieval_result.get("warnings") or []:
             warnings.append(warning)
 
-    curated_items = (curated_questions or {}).get("items") or []
+    curated_items = [
+        *(approach_prep.get("questions") or []),
+        *((curated_questions or {}).get("items") or []),
+    ]
     pimp_items = _merge_pimp_questions(
         curated_items,
         retrieval_result.get("items") or [],
         prompt=prompt,
         prioritize_prompt=bool(identity.get("explicit_question")),
     )
+    pimp_item_sources = {
+        entry.get("source") for entry in pimp_items if entry.get("source")
+    }
     pimp_source = (
-        "mixed"
-        if curated_items and retrieval_result.get("items")
-        else ("certified" if curated_items else "rag")
+        next(iter(pimp_item_sources))
+        if len(pimp_item_sources) == 1
+        else ("mixed" if pimp_item_sources else "rag")
     )
 
     def _pimp_event(items: List[Dict[str, Any]], status: str, generated_paths: List[str]) -> bytes:

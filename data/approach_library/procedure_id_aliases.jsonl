@@ -3,3 +3,11 @@
 {"live_procedure_id": "pilon_ankle_fracture_orif", "authored_procedure_id": "tibial_pilon_fracture_orif", "reason": "CasePrep pilon slug vs authored tibial_pilon_fracture_orif"}
 {"live_procedure_id": "posterior_lumbar_decompression_fusion", "approach_id": "spine_posterior_midline_thoracolumbar", "reason": "Certified PLDF is the posterior midline corridor; do not attach ALIF or transpsoas from lumbar_fusion"}
 {"live_procedure_id": "posterior_lumbar_decompression_fusion", "approach_id": "spine_wiltse", "reason": "Wiltse is a posterior paraspinal alternative used for lumbar fusion"}
+{"live_procedure_id": "cervical_laminectomy_fusion", "approach_id": "spine_posterior_cervical", "reason": "CasePrep posterior cervical decompression/fusion slug should use the authored posterior cervical corridor packet"}
+{"live_procedure_id": "trimalleolar_ankle_orif", "authored_procedure_id": "ankle_fracture_orif", "reason": "CasePrep trimalleolar ORIF slug should expose the authored malleolar and distal-tibia approach choices"}
+{"live_procedure_id": "tibial_shaft_im_nail", "approach_id": "tibia_suprapatellar_nail_entry", "reason": "Attach the authored suprapatellar tibial nail entry without importing unrelated tibial shaft ORIF exposures"}
+{"live_procedure_id": "tibial_shaft_im_nail", "approach_id": "tibia_infrapatellar_nail_entry", "reason": "Attach the authored infrapatellar tibial nail entry without importing unrelated tibial shaft ORIF exposures"}
+{"live_procedure_id": "tibial_shaft_im_nail", "approach_id": "tibial_shaft_lateral_parapatellar_nail", "reason": "Attach the authored lateral parapatellar tibial nail corridor as an eligible explicit choice"}
+{"live_procedure_id": "tibial_shaft_im_nail", "approach_id": "tibial_shaft_medial_parapatellar_nail", "reason": "Attach the authored medial parapatellar tibial nail corridor as an eligible explicit choice"}
+{"live_procedure_id": "total_hip_arthroplasty", "approach_id": "approach_lower_ext_hip_posterior_moore_southern", "reason": "Posterior THA uses the same authored Moore-Southern corridor packet already used for hip hemiarthroplasty"}
+{"live_procedure_id": "reverse_total_shoulder_arthroplasty", "authored_procedure_id": "reverse_shoulder_arthroplasty", "reason": "CasePrep RTSA slug includes total while the authored deltopectoral packet uses reverse_shoulder_arthroplasty"}

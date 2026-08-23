@@ -3,6 +3,7 @@ from __future__ import annotations
 import json
 import os
 import unittest
+from pathlib import Path
 from typing import Dict, List, Tuple
 from unittest import mock
 
@@ -35,6 +36,7 @@ PAYLOAD = {
     ],
     "night_before_review_checklist": ["Trace the median nerve course."],
 }
+ROOT = Path(__file__).resolve().parents[1]
 
 
 def parse_sse(raw: bytes) -> List[Tuple[str, Dict]]:
@@ -155,6 +157,44 @@ class WebStreamE2ETests(unittest.TestCase):
             self.assertIn(key, header["header"])
         self.assertEqual(header["case"]["canonical_slug"], "trigger_finger_release")
         self.assertEqual(header["header"]["procedure_type"], "release_or_decompression")
+
+    def test_exact_approach_streams_parallel_sections_and_joins_pimp_deck(self) -> None:
+        payload = json.loads(
+            (
+                ROOT
+                / "data/caseprep/procedures/distal_radius_fracture_orif/certified_payload.json"
+            ).read_text()
+        )
+        prompt = "modified Henry approach for distal radius ORIF"
+        with mock.patch(
+            "caseprep.engines.v1_1_web_stream.curated_content_store.get_certified_payload",
+            return_value=payload,
+        ), mock.patch(
+            "caseprep.engines.v1_1_web_stream.ai_fallback.refine_prompt",
+            return_value={"search_text": prompt, "procedures": ["distal_radius_fracture_orif"]},
+        ), mock.patch(
+            "caseprep.engines.v1_1_web_stream.retrieve_case_qas", return_value=[]
+        ):
+            response = self.client.post(
+                "/case-prep/web/v1.1/stream", json={"prompt": prompt}
+            )
+        events = parse_sse(response.content)
+        sections = {
+            data["section_id"]: data
+            for name, data in events
+            if name == "section"
+        }
+        for section_id in (
+            "approach_quick_brief",
+            "approach_exposure",
+            "approach_safety",
+            "approach_strategy",
+            "approach_sources",
+        ):
+            self.assertIn(section_id, sections)
+        self.assertEqual(sections["approach_quick_brief"]["source"], "approach_library")
+        pimp = sections["pimp_questions"]["items"]
+        self.assertTrue(any(row.get("provenance") == "approach_library" for row in pimp))
 
     def test_clarification_path_is_terminal(self) -> None:
         with mock.patch(
