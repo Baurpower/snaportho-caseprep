@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Replay the newest real CasePrep prompts through v1.2 and write a QA report.
+"""Replay real CasePrep prompts through the latest stream and write a QA report.
 
 The input cohort contains only response_id, created_at, and question. User IDs and
 historical answers are deliberately excluded from both memory and output artifacts.
@@ -22,8 +22,17 @@ from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any
 
+ROOT = Path(__file__).resolve().parents[1]
+if str(ROOT) not in sys.path:
+    sys.path.insert(0, str(ROOT))
 
-DEFAULT_ENDPOINT = "https://api.snap-ortho.com/case-prep/web/v1.2/stream"
+from caseprep.engines.v1_2_web_stream import VERSION as LATEST_CASEPREP_VERSION
+from caseprep.services.prompt_understanding import extract_prompt_profile
+from procedure_registry import SLUG_TO_DEF
+
+DEFAULT_ENDPOINT = (
+    f"https://api.snap-ortho.com/case-prep/web/{LATEST_CASEPREP_VERSION}/stream"
+)
 DEFAULT_ENV = Path(__file__).resolve().parents[2] / "snaportho-web" / ".env.local"
 EXPECTED_SECTIONS = {
     "summary",
@@ -89,6 +98,25 @@ def fetch_cases(limit: int, env_path: Path) -> list[dict[str, Any]]:
         for row in rows
         if isinstance(row.get("question"), str) and row["question"].strip()
     ][:limit]
+
+
+def load_cases(path: Path, limit: int) -> list[dict[str, Any]]:
+    """Load a privacy-minimized frozen cohort from an earlier audit or JSONL."""
+    if path.suffix == ".jsonl":
+        rows = [json.loads(line) for line in path.read_text().splitlines() if line.strip()]
+    else:
+        payload = json.loads(path.read_text())
+        rows = payload.get("results", payload) if isinstance(payload, dict) else payload
+    cases = [
+        {
+            "response_id": row.get("response_id", index),
+            "created_at": row.get("created_at", ""),
+            "question": str(row.get("question") or row.get("prompt") or "").strip(),
+        }
+        for index, row in enumerate(rows, 1)
+        if isinstance(row, dict) and str(row.get("question") or row.get("prompt") or "").strip()
+    ]
+    return cases[:limit]
 
 
 def parse_sse(raw: str) -> list[tuple[str, dict[str, Any]]]:
@@ -172,9 +200,21 @@ def replay(case: dict[str, Any], endpoint: str, timeout: int) -> dict[str, Any]:
     exact_pimp_questions = [normalized(item.get("question")) for item in pimp_items if normalized(item.get("question"))]
     duplicate_pimp_count = len(exact_pimp_questions) - len(set(exact_pimp_questions))
     present_clinical = EXPECTED_SECTIONS.intersection(sections)
+    canonical_slug = (header.get("case") or resolution.get("case") or {}).get("canonical_slug")
+    definition = SLUG_TO_DEF.get(canonical_slug)
+    prompt_profile = extract_prompt_profile(case["question"])
+    prompt_regions = prompt_profile.get("regions") or []
+    canonical_region = definition.body_region if definition else None
+    region_consistent = (
+        canonical_region in prompt_regions if canonical_region and prompt_regions else None
+    )
 
     # Utility score is intentionally transparent and never substitutes for clinical review.
-    resolution_points = 20 if resolution.get("compatibility_status") == "valid" else 0
+    resolution_points = (
+        20
+        if resolution.get("compatibility_status") == "valid" and region_consistent is not False
+        else 0
+    )
     reliability_points = 10 if events and not any(name == "error" for name, _ in events) else 0
     pimp_points = min(20, round(len(pimp_items) / 8 * 20))
     relevance_points = round(15 * len(direct) / len(items)) if items else 0
@@ -188,8 +228,12 @@ def replay(case: dict[str, Any], endpoint: str, timeout: int) -> dict[str, Any]:
         "caseprep_version": meta.get("caseprep_version"),
         "engine": meta.get("engine"),
         "event_names": [name for name, _ in events],
-        "canonical_slug": (header.get("case") or resolution.get("case") or {}).get("canonical_slug"),
+        "canonical_slug": canonical_slug,
         "canonical_name": (header.get("case") or resolution.get("case") or {}).get("canonical_name"),
+        "canonical_region": canonical_region,
+        "prompt_regions": prompt_regions,
+        "region_consistent": region_consistent,
+        "operative_intent_detected": "operative" in (prompt_profile.get("modifiers") or []),
         "compatibility_status": resolution.get("compatibility_status"),
         "clarification": clarification,
         "coverage_status": done.get("coverage_status"),
@@ -225,7 +269,9 @@ def replay(case: dict[str, Any], endpoint: str, timeout: int) -> dict[str, Any]:
     }
 
 
-def summarize(results: list[dict[str, Any]], endpoint: str) -> dict[str, Any]:
+def summarize(
+    results: list[dict[str, Any]], endpoint: str, expected_version: str, cohort_source: str
+) -> dict[str, Any]:
     completed = [row for row in results if not row.get("fatal")]
     latencies = [int(row["elapsed_ms"]) for row in completed]
     pimp_counts = [int(row.get("pimp_count") or 0) for row in completed]
@@ -233,11 +279,17 @@ def summarize(results: list[dict[str, Any]], endpoint: str) -> dict[str, Any]:
     return {
         "evaluated_at": datetime.now(timezone.utc).isoformat(),
         "endpoint": endpoint,
+        "expected_version": expected_version,
+        "cohort_source": cohort_source,
         "requested": len(results),
         "completed": len(completed),
         "fatal_failures": len(results) - len(completed),
-        "v1_2_confirmed": sum(row.get("caseprep_version") == "v1.2" for row in completed),
+        "version_confirmed": sum(
+            row.get("caseprep_version") == expected_version for row in completed
+        ),
+        "version_counts": dict(Counter(row.get("caseprep_version") or "missing" for row in completed)),
         "valid_resolution": sum(row.get("compatibility_status") == "valid" for row in completed),
+        "region_mismatches": sum(row.get("region_consistent") is False for row in completed),
         "clarifications": sum(bool(row.get("clarification")) for row in completed),
         "unresolved_slugs": sum(not row.get("canonical_slug") for row in completed),
         "quality_gate_counts": dict(Counter(row.get("quality_gate") or "missing" for row in completed)),
@@ -260,6 +312,12 @@ def summarize(results: list[dict[str, Any]], endpoint: str) -> dict[str, Any]:
             "mean": round(statistics.mean(scores), 1) if scores else None,
             "median": statistics.median(scores) if scores else None,
             "p10": percentile(scores, 0.1),
+        },
+        "score_bands": {
+            "excellent_85_plus": sum(score >= 85 for score in scores),
+            "acceptable_70_to_84": sum(70 <= score < 85 for score in scores),
+            "review_50_to_69": sum(50 <= score < 70 for score in scores),
+            "failing_below_50": sum(score < 50 for score in scores),
         },
         "top_canonical_slugs": Counter(row.get("canonical_slug") or "unresolved" for row in completed).most_common(15),
         "top_omitted_sections": Counter(section for row in completed for section in row.get("omitted_sections", [])).most_common(),
@@ -291,17 +349,18 @@ def markdown_report(summary: dict[str, Any], results: list[dict[str, Any]]) -> s
     )
     omissions = ", ".join(f"{name}: {count}" for name, count in summary["top_omitted_sections"]) or "none"
     warnings = "\n".join(f"- {count}× {warning}" for warning, count in summary["top_warnings"]) or "- None"
-    return f"""# CasePrep V1_2 — newest 100 real-case audit
+    return f"""# CasePrep {summary['expected_version']} — real-case quality audit
 
 Evaluated: {summary['evaluated_at']}  
 Endpoint: `{summary['endpoint']}`  
-Cohort: newest non-empty `question` rows from `public.brobot_user_responses`, ordered by `created_at DESC, response_id DESC`. User IDs and historical answers were not fetched.
+Cohort source: `{summary['cohort_source']}`. User IDs and historical answers are excluded.
 
 ## Executive metrics
 
 - Completed: {summary['completed']}/{summary['requested']}; fatal failures: {summary['fatal_failures']}
-- Confirmed V1_2 responses: {pct(summary['v1_2_confirmed'])}
+- Confirmed expected-version responses: {pct(summary['version_confirmed'])}; observed: `{json.dumps(summary['version_counts'], sort_keys=True)}`
 - Valid procedure resolution: {pct(summary['valid_resolution'])}; clarifications: {summary['clarifications']}; unresolved slugs: {summary['unresolved_slugs']}
+- Prompt/slug region mismatches: {summary['region_mismatches']}
 - Zero pimp-question packets: {pct(summary['zero_pimp_cases'])}; packets with 8+: {pct(summary['eight_plus_pimp_cases'])}
 - Pimp questions: mean {summary['pimp_count_mean']}, median {summary['pimp_count_median']}
 - Packets with citations: {pct(summary['cases_with_citations'])}
@@ -314,7 +373,7 @@ Quality gates: `{json.dumps(summary['quality_gate_counts'], sort_keys=True)}`
 Coverage: `{json.dumps(summary['coverage_status_counts'], sort_keys=True)}`  
 Omitted sections: {omissions}
 
-The utility score weights resolution (20), reliable transport (10), eight pimp questions (20), direct procedure relevance (15), direct claim support (15), eleven-section breadth (10), and the V1_2 quality gate (10). It is a triage measure, not a clinical-validity score.
+The utility score weights valid, region-consistent resolution (20), reliable transport (10), eight pimp questions (20), direct procedure relevance (15), direct claim support (15), eleven-section breadth (10), and the stream quality gate (10). It is a triage measure, not a clinical-validity score.
 
 ## Lowest-scoring cases for clinical review
 
@@ -339,14 +398,22 @@ def main() -> None:
     parser.add_argument("--timeout", type=int, default=90)
     parser.add_argument("--endpoint", default=DEFAULT_ENDPOINT)
     parser.add_argument("--env-file", type=Path, default=DEFAULT_ENV)
+    parser.add_argument("--cohort-file", type=Path, help="Replay a frozen JSON/JSONL cohort instead of fetching Supabase.")
+    parser.add_argument("--expected-version", default=LATEST_CASEPREP_VERSION)
+    parser.add_argument("--check", action="store_true", help="Exit nonzero when release-quality thresholds fail.")
     parser.add_argument("--output-dir", type=Path, default=Path("artifacts/caseprep-v1.2"))
     parser.add_argument("--label", default=datetime.now().strftime("%Y-%m-%d"))
     args = parser.parse_args()
 
-    cases = fetch_cases(args.limit, args.env_file)
+    cases = (
+        load_cases(args.cohort_file, args.limit)
+        if args.cohort_file
+        else fetch_cases(args.limit, args.env_file)
+    )
     if len(cases) != args.limit:
         raise RuntimeError(f"Expected {args.limit} non-empty cases, fetched {len(cases)}")
-    print(f"Fetched {len(cases)} privacy-minimized cases from brobot_user_responses", flush=True)
+    source = str(args.cohort_file) if args.cohort_file else "brobot_user_responses"
+    print(f"Loaded {len(cases)} privacy-minimized cases from {source}", flush=True)
 
     results: list[dict[str, Any]] = []
     with concurrent.futures.ThreadPoolExecutor(max_workers=args.workers) as executor:
@@ -356,7 +423,7 @@ def main() -> None:
             if index % 10 == 0 or index == len(cases):
                 print(f"Completed {index}/{len(cases)}", flush=True)
     results.sort(key=lambda row: (row["created_at"], row["response_id"]), reverse=True)
-    summary = summarize(results, args.endpoint)
+    summary = summarize(results, args.endpoint, args.expected_version, source)
 
     args.output_dir.mkdir(parents=True, exist_ok=True)
     stem = f"real-cases-{args.limit}-{args.label}"
@@ -366,6 +433,23 @@ def main() -> None:
     md_path.write_text(markdown_report(summary, results))
     print(json.dumps(summary, indent=2))
     print(f"Wrote {json_path} and {md_path}", flush=True)
+    if args.check:
+        completed = summary["completed"]
+        failures = []
+        if completed != summary["requested"]:
+            failures.append("not every prompt completed")
+        if summary["version_confirmed"] != completed:
+            failures.append("one or more responses used an unexpected version")
+        if summary["region_mismatches"]:
+            failures.append("one or more confident resolutions conflict with prompt anatomy")
+        if summary["cases_with_empty_items"] or summary["cases_with_malformed_items"]:
+            failures.append("empty or malformed content was emitted")
+        if completed and summary["valid_resolution"] / completed < 0.90:
+            failures.append("valid resolution fell below 90%")
+        if (summary["utility_score"]["mean"] or 0) < 70:
+            failures.append("mean utility score fell below 70")
+        if failures:
+            raise RuntimeError("Quality checks failed: " + "; ".join(failures))
 
 
 if __name__ == "__main__":

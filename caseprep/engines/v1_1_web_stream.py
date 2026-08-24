@@ -255,9 +255,13 @@ async def stream_caseprep_packet(
         )
         return
 
+    # v1.3 deliberately does not consume certified procedure packets. They
+    # remain available to older policies and for continued editorial work,
+    # while v1.3 exercises the RAG + approach-library pipeline on every case.
+    use_certified_packets = policy_version != "v1.3"
     payload = (
         curated_content_store.get_certified_payload(identity["canonical_slug"])
-        if identity["canonical_slug"]
+        if identity["canonical_slug"] and use_certified_packets
         else None
     )
     approach_prep = build_approach_prep(
@@ -562,11 +566,15 @@ async def stream_caseprep_packet(
     # difficulty) arrive with a follow-up "complete" emission once enrichment
     # resolves. The client replaces the slot content in place.
     base_enrichment_enabled = bool(
-        cfg.enable_v1_1_enrichment and openai_client and identity["canonical_slug"]
+        policy_version != "v1.3"
+        and cfg.enable_v1_1_enrichment
+        and openai_client
+        and identity["canonical_slug"]
     )
     # A lean v1.2 packet (certified, or strongly grounded) keeps pimp questions
     # and descriptive sections grounded-only — no pedagogy pass, no padding.
-    v1_2_lean = policy_version == "v1.2" and (payload is not None or len(pimp_items) >= 8)
+    grounded_policy = policy_version in {"v1.2", "v1.3"}
+    v1_2_lean = grounded_policy and (payload is not None or len(pimp_items) >= 8)
     pimp_enrichment_pending = base_enrichment_enabled and not v1_2_lean
     # decision_points / postop have no curated seed anymore, so even a lean
     # packet fills them from enrichment (clearly marked generated).

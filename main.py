@@ -117,6 +117,8 @@ def health():
         "enable_caseprep_v2_rag_fallback": cfg.enable_v2_rag_fallback,
         "enable_caseprep_web_v1_1": cfg.enable_web_v1_1,
         "enable_caseprep_web_v1_1_stream": cfg.enable_web_v1_1_stream,
+        "enable_caseprep_web_v1_2_stream": cfg.enable_web_v1_2_stream,
+        "enable_caseprep_web_v1_3_stream": cfg.enable_web_v1_3_stream,
         "enable_caseprep_v1_1_enrichment": cfg.enable_v1_1_enrichment,
         "rag_available": rag_context.is_rag_available(),
         "resolver_available": procedure_resolver.is_resolver_available(),

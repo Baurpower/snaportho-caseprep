@@ -11,6 +11,7 @@ from fastapi.responses import StreamingResponse
 from caseprep.config import CasePrepConfig
 from caseprep.engines.v1_1_web_stream import stream_caseprep_packet
 from caseprep.engines.v1_2_web_stream import stream_caseprep_packet_v1_2
+from caseprep.engines.v1_3_web_stream import stream_caseprep_packet_v1_3
 from caseprep.schemas import CasePrepRequest
 
 router = APIRouter()
@@ -53,6 +54,19 @@ async def case_prep_web_v1_2_stream(request: CasePrepRequest) -> StreamingRespon
     from main import OPENAI_CLIENT
     return _stream_response(
         stream_caseprep_packet_v1_2(
+            (request.prompt or "").strip(), openai_client=OPENAI_CLIENT, config=cfg
+        )
+    )
+
+
+@router.post("/case-prep/web/v1.3/stream")
+async def case_prep_web_v1_3_stream(request: CasePrepRequest) -> StreamingResponse:
+    cfg = CasePrepConfig.from_env()
+    if not cfg.enable_web_v1_3_stream:
+        raise HTTPException(status_code=404, detail="CasePrep web v1.3 is not enabled.")
+    from main import OPENAI_CLIENT
+    return _stream_response(
+        stream_caseprep_packet_v1_3(
             (request.prompt or "").strip(), openai_client=OPENAI_CLIENT, config=cfg
         )
     )

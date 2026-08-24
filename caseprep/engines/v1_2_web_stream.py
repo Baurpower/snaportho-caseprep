@@ -68,9 +68,25 @@ def _resolution_problem(prompt: str, case: Dict[str, Any], header: Dict[str, Any
     from caseprep.services.prompt_understanding import compatible_with_slug, extract_prompt_profile
 
     profile = extract_prompt_profile(prompt)
-    if not case.get("canonical_slug") and not profile.get("regions"):
+    canonical_slug = case.get("canonical_slug")
+    has_region = bool(profile.get("regions"))
+    has_procedure = bool(canonical_slug or profile.get("has_procedure_intent"))
+    has_diagnosis = bool(case.get("diagnosis") or profile.get("has_diagnosis_intent"))
+    if not canonical_slug and not has_region and not (has_procedure or has_diagnosis):
         return {
-            "reason": "Add the body region and intended operation so CasePrep can retrieve procedure-relevant questions.",
+            "reason": "To give you accurate case prep, add the body region and either the planned procedure or diagnosis.",
+            "unresolved_prompt_tokens": prompt.split(),
+            "options": [],
+        }
+    if not canonical_slug and not has_region:
+        return {
+            "reason": "To give you accurate case prep, add the body region involved in this case.",
+            "unresolved_prompt_tokens": prompt.split(),
+            "options": [],
+        }
+    if not canonical_slug and not (has_procedure or has_diagnosis):
+        return {
+            "reason": "To give you accurate case prep, add the planned procedure or the specific diagnosis—not only the body region or symptom.",
             "unresolved_prompt_tokens": prompt.split(),
             "options": [],
         }
@@ -97,7 +113,15 @@ def _item_provenance(item: Dict[str, Any]) -> Dict[str, Any]:
     output = _clean_text(dict(item))
     generated = bool(output.get("generated"))
     source = str(output.get("source") or ("generated" if generated else "certified"))
-    output["provenance"] = "generated" if generated else ("rag" if source == "rag" else "certified")
+    output["provenance"] = (
+        "generated"
+        if generated
+        else (
+            "rag"
+            if source == "rag"
+            else ("approach_library" if source == "approach_library" else "certified")
+        )
+    )
     output["claim_support"] = output.get("claim_support") or ("unsupported" if generated else "direct")
     output["procedure_relevance"] = output.get("procedure_relevance") or (
         "unknown" if generated else "direct"
@@ -105,7 +129,9 @@ def _item_provenance(item: Dict[str, Any]) -> Dict[str, Any]:
     return output
 
 
-def _transform_section(data: Dict[str, Any]) -> Tuple[Optional[Dict[str, Any]], List[str]]:
+def _transform_section(
+    data: Dict[str, Any], *, allow_generated_supplements: bool = True
+) -> Tuple[Optional[Dict[str, Any]], List[str]]:
     warnings: List[str] = []
     section_id = str(data.get("section_id") or "")
     raw_items = data.get("items") or []
@@ -121,7 +147,7 @@ def _transform_section(data: Dict[str, Any]) -> Tuple[Optional[Dict[str, Any]], 
         items = grounded
         generated = []
     if generated:
-        if section_id not in GENERATED_SUPPLEMENT_SECTIONS:
+        if not allow_generated_supplements or section_id not in GENERATED_SUPPLEMENT_SECTIONS:
             warnings.append(f"Omitted {section_id} because it lacked direct source support.")
             return None, warnings
         # AI supplementation is intentional for these themed sections.
@@ -146,7 +172,8 @@ def _transform_section(data: Dict[str, Any]) -> Tuple[Optional[Dict[str, Any]], 
 
 
 async def stream_caseprep_packet_v1_2(
-    prompt: str, *, openai_client: Any, config: Any
+    prompt: str, *, openai_client: Any, config: Any,
+    version: str = VERSION, engine: str = ENGINE,
 ) -> AsyncIterator[bytes]:
     started = time.monotonic()
     header_data: Optional[Dict[str, Any]] = None
@@ -157,11 +184,11 @@ async def stream_caseprep_packet_v1_2(
         prompt,
         openai_client=openai_client,
         config=config,
-        policy_version=VERSION,
+        policy_version=version,
     ):
         name, data = _decode_event(frame)
         if name == "meta":
-            data.update({"caseprep_version": VERSION, "engine": ENGINE, "stream_protocol_version": 2})
+            data.update({"caseprep_version": version, "engine": engine, "stream_protocol_version": 2})
             yield sse_event(name, data)
             continue
         if name == "header":
@@ -198,7 +225,9 @@ async def stream_caseprep_packet_v1_2(
             yield sse_event("header", {"case": data.get("case"), "header": header})
             continue
         if name == "section":
-            transformed, section_warnings = _transform_section(data)
+            transformed, section_warnings = _transform_section(
+                data, allow_generated_supplements=version == VERSION
+            )
             warnings.extend(section_warnings)
             for warning in section_warnings:
                 yield sse_event("warning", {"message": warning})
@@ -258,7 +287,7 @@ async def stream_caseprep_packet_v1_2(
                 "retrieval_summary": {
                     "accepted_count": grounded,
                     "generated_count": generated,
-                    "policy_version": VERSION,
+                    "policy_version": version,
                 },
             })
             continue

@@ -136,6 +136,30 @@ class ApproachPrepPipelineTests(unittest.TestCase):
             {"tibia_suprapatellar_nail_entry", "tibia_infrapatellar_nail_entry"},
         )
 
+    def test_arthroscopic_rotator_cuff_prompt_selects_shoulder_arthroscopy(self) -> None:
+        for prompt in (
+            "shoulder arthroscopy rotator cuff repair",
+            "arthroscopic rotator cuff repair",
+        ):
+            with self.subTest(prompt=prompt):
+                result = build_approach_prep(
+                    prompt,
+                    "rotator_cuff_repair",
+                    self._payload("rotator_cuff_repair"),
+                )
+                decision = result["decision"]
+                self.assertEqual(decision["status"], "selected")
+                self.assertEqual(
+                    decision["selected_approach_id"],
+                    "approach_seed_orthobullets_orthopedics_approaches_shoulder_shoulder_arthroscopy_indications_and_approach",
+                )
+                self.assertEqual(result["coverage"]["content_status"], "source_indexed")
+                self.assertEqual(result["coverage"]["source_count"], 1)
+                self.assertEqual(
+                    sum(len(section["items"]) for section in result["sections"].values()),
+                    0,
+                )
+
 
 if __name__ == "__main__":
     unittest.main()

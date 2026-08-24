@@ -6,17 +6,78 @@ import re
 from typing import Any, Dict, Iterable
 
 
-REGION_KEYWORDS = {
-    "shoulder": {"shoulder", "glenoid", "rotator", "proximal humerus", "biceps tenodesis"},
-    "elbow": {"elbow", "olecranon", "triceps", "radial head", "distal humerus", "distal biceps"},
-    "wrist": {"wrist", "carpal", "distal radius", "scaphoid", "tfcc"},
-    "hand": {"hand", "thumb", "finger", "metacarpal", "phalange", "ganglion"},
-    "hip": {"hip", "acetabul", "femoral neck", "intertroch", "subtroch"},
-    "knee": {"knee", "tka", "acl", "menisc", "patella", "quadriceps", "mpfl"},
-    "leg": {"tibia", "tibial", "fibula", "fibular", "pilon"},
-    "ankle": {"ankle", "malleol", "tillaux", "chaput", "talus"},
-    "foot": {"foot", "calcane", "lisfranc", "plantar", "hallux"},
-    "spine": {"spine", "cervical", "thoracic", "lumbar", "scoliosis", "fusion"},
+# Patterns are boundary-aware so short orthopaedic abbreviations do not match
+# inside ordinary words (for example, ``tka`` in an unrelated token). Scores
+# let a specific anatomical phrase beat a nearby joint reference: "tibial
+# plateau" is a knee case, while "tibial shaft" is a leg case.
+REGION_PATTERNS: Dict[str, tuple[tuple[str, int], ...]] = {
+    "shoulder": (
+        (r"\bprox(?:imal)?\s+hum(?:erus|eral)\b", 5),
+        (r"\b(shoulder|glenoid|rotator cuff|clavicle|acromi(?:on|al))\b", 3),
+        (r"\b(rcr|tsa|rtsa|rsa)\b", 3),
+        (r"\b(long head )?biceps tenodesis\b", 4),
+    ),
+    "humerus": (
+        (r"\b(humer(?:us|al) shaft|distal humerus|supracondylar humerus)\b", 5),
+        (r"\bhumer(?:us|al)\b", 2),
+    ),
+    "elbow": (
+        (r"\b(elbow|olecranon|radial head|distal biceps|distal triceps)\b", 3),
+        (r"\b(cubital tunnel|tennis elbow|lateral epicondylitis|ecrb|triceps tendon)\b", 4),
+    ),
+    "forearm": (
+        (r"\b(forearm|monteggia|galeazzi|nightstick)\b", 4),
+        (r"\b(radial|radius|ulnar|ulna) shaft\b", 5),
+        (r"\bboth[- ]bone forearm\b", 5),
+    ),
+    "wrist": (
+        (r"\b(wrist|carpal|scaphoid|tfcc|colles|druj)\b", 3),
+        (r"\bdistal (radius|ulna)\b", 5),
+        (r"\b(volar|dorsal)?\s*ganglion(?: cyst)?\b", 3),
+    ),
+    "hand": (
+        (r"\b(hand|thumb|finger|metacarp\w*|phalang\w*)\b", 3),
+        (r"\b(dupuytren|trigger (finger|thumb)|a1 pulley|opponensplasty)\b", 4),
+        (r"\b(cmc|tmc|lrti|fdp|fpl|epl|eip|zone [1-5])\b", 3),
+        (r"\b(flexor tendon|extensor tendon|tendon transfer)\b", 3),
+    ),
+    "pelvis": (
+        (r"\b(pelvis|pelvic|acetabul\w*|periacetabular)\b", 4),
+        (r"\b(pao|ilioinguinal|kocher[- ]langenbeck|sacroiliac|si screw)\b", 4),
+    ),
+    "hip": (
+        (r"\b(hip|femoral neck|intertroch\w*|subtroch\w*)\b", 4),
+        (r"\b(scfe|perthes|ddh|cephalomedullary|fai)\b", 4),
+        (r"\b(tha|hemiarthroplasty)\b", 3),
+        (r"\b(total hip arthroplasty|total hip replacement)\b", 6),
+    ),
+    "femur": (
+        (r"\b(femur|femoral) shaft\b", 5),
+        (r"\bdistal femur\w*\b", 5),
+        (r"\bfemur\b", 2),
+    ),
+    "knee": (
+        (r"\b(knee|tka|acl|menisc\w*|menisectomy|patell\w*|quadriceps|mpfl)\b", 3),
+        (r"\b(tibial plateau|proximal tibia|schatzker|high tibial osteotomy|hto)\b", 5),
+        (r"\b(total knee arthroplasty|total knee replacement)\b", 6),
+    ),
+    "leg": (
+        (r"\b(leg|tibia(?:l)? shaft|fibula(?:r)? shaft)\b", 4),
+        (r"\b(four[- ]compartment fasciotomy|leg compartment syndrome)\b", 5),
+        (r"\b(tibia|tibial|fibula|fibular)\b", 2),
+    ),
+    "ankle": (
+        (r"\b(ankle|malleol\w*|bimalleolar|trimalleolar|pilon|plafond|achilles|talus|talar)\b", 3),
+        (r"\b(tillaux|chaput|brostrom|atfl|taa)\b", 4),
+    ),
+    "foot": (
+        (r"\b(foot|calcane\w*|lisfranc|plantar|hallux|bunion\w*)\b", 3),
+        (r"\b(metatars\w*|metatarsophalangeal|mtp|toe|heel)\b", 3),
+    ),
+    "spine": (
+        (r"\b(spine|spinal|cervical|thoracic|lumbar|scoliosis)\b", 3),
+        (r"\b(acdf|tlif|pldf|laminectomy|discectomy|interbody)\b", 4),
+    ),
 }
 
 MODIFIER_PATTERNS = {
@@ -29,8 +90,30 @@ MODIFIER_PATTERNS = {
     "open": r"\bopen\b",
     "endoscopic": r"\bendoscopic\b",
     "nonoperative": r"\b(nonoperative|non operative|conservative|casting|cast treatment)\b",
-    "operative": r"\b(orif|fixation|repair|reconstruction|replacement|arthroplasty|fusion|nail(?:ing)?|imn|release|excision|removal|tenodesis|debridement|debreidment)\b",
+    "operative": r"\b(orif|crpp|fixation|repair|reconstruction|replacement|arthroplast\w*|arthrodesis|arthroscop\w*|fusion|osteotomy|nail(?:ing)?|imn|pinning|plating|release|excision|removal|amputation|disarticulation|tenodesis|tenotomy|fasciotomy|fasciectomy|meniscectomy|laminectomy|discectomy|debridement|debreidment|reduction|bone graft(?:ing)?|allograft|autograft|operative|surgery|scope|scoped)\b",
 }
+
+# A region alone ("right shoulder", "knee pain") is too broad for accurate
+# case preparation. These diagnosis signals are intentionally clinical nouns,
+# not symptoms such as pain or swelling, so vague prompts still clarify.
+DIAGNOSIS_PATTERN = re.compile(
+    r"\b("
+    r"fractur\w*|fx|tear|ruptur\w*|arthriti\w*|osteoarthritis|oa|"
+    r"infect\w*|pji|septic|syndrome|dislocat\w*|sublux\w*|instability|"
+    r"impingement|stenosis|radiculopath\w*|myelopath\w*|scoliosis|deformity|"
+    r"dysplasia|ddh|scfe|perthes|nonunion|malunion|avascular necrosis|avn|"
+    r"osteochondral defect|ocd|contracture|palsy|neuropath\w*|"
+    r"tendinitis|tendonitis|tendinopath\w*|epicondylitis|fasciitis|"
+    r"tumou?r|mass|sarcoma|lesion|ganglion|cyst|labral|menisc\w*"
+    r")\b",
+    re.I,
+)
+
+PROCEDURE_SHORTHAND_PATTERN = re.compile(
+    r"\b(tha|tka|tsa|rtsa|rsa|taa|uka|acl|mpfl|acdf|tlif|pldf|"
+    r"total (hip|knee|shoulder|ankle)|hemiarthroplasty)\b",
+    re.I,
+)
 
 
 def _clean(text: str) -> str:
@@ -39,9 +122,9 @@ def _clean(text: str) -> str:
 
 def infer_regions(text: str) -> list[str]:
     lowered = _clean(text)
-    scored = []
-    for region, keywords in REGION_KEYWORDS.items():
-        score = sum(1 for keyword in keywords if keyword in lowered)
+    scored: list[tuple[int, str]] = []
+    for region, patterns in REGION_PATTERNS.items():
+        score = sum(weight for pattern, weight in patterns if re.search(pattern, lowered))
         if score:
             scored.append((score, region))
     scored.sort(key=lambda row: (-row[0], row[1]))
@@ -50,7 +133,12 @@ def infer_regions(text: str) -> list[str]:
 
 def extract_prompt_profile(text: str) -> Dict[str, Any]:
     lowered = _clean(text)
+    regions = infer_regions(text)
     modifiers = [name for name, pattern in MODIFIER_PATTERNS.items() if re.search(pattern, lowered)]
+    has_procedure_intent = (
+        "operative" in modifiers or bool(PROCEDURE_SHORTHAND_PATTERN.search(lowered))
+    )
+    has_diagnosis_intent = bool(DIAGNOSIS_PATTERN.search(lowered))
     explicit_question = "?" in text or bool(
         re.match(r"^(what|which|when|where|why|how|does|do|is|are)\b", lowered)
         or re.search(r"\b(affect|increases?|decreases?|changes?|opens?|closes?)\s+which\b", lowered)
@@ -66,9 +154,12 @@ def extract_prompt_profile(text: str) -> Dict[str, Any]:
     return {
         "raw_prompt": text,
         "search_text": text,
-        "regions": infer_regions(text),
-        "region": (infer_regions(text) or [None])[0],
+        "regions": regions,
+        "region": (regions or [None])[0],
         "modifiers": modifiers,
+        "has_procedure_intent": has_procedure_intent,
+        "has_diagnosis_intent": has_diagnosis_intent,
+        "has_clinical_intent": has_procedure_intent or has_diagnosis_intent,
         "explicit_question": explicit_question,
         "compound": compound,
     }

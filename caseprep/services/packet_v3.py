@@ -143,6 +143,12 @@ def _authored_approaches(procedure_id: str) -> List[Dict[str, Any]]:
         # draft content without flattening the source-of-truth packet on disk.
         if packet.get("schema_version") == "brobot_approach_packet_v1":
             mapping = packet.get("procedure_mapping") or {}
+            display_name = re.sub(
+                r"\s+Indications\s+And\s+Approach$",
+                "",
+                str(packet.get("name") or ""),
+                flags=re.IGNORECASE,
+            )
 
             def texts(field: str) -> List[str]:
                 return [
@@ -163,7 +169,7 @@ def _authored_approaches(procedure_id: str) -> List[Dict[str, Any]]:
             library_rows.append(
                 {
                     "approach_id": packet["approach_id"],
-                    "name": packet["name"],
+                    "name": display_name or packet["name"],
                     "aliases": list(packet.get("aliases") or []),
                     "role": mapping.get("relationship") or "applicable",
                     "content_status": packet.get("content_status") or "curated",
@@ -425,6 +431,8 @@ def detect_requested_approach(prompt: str, packet: Optional[Dict[str, Any]]) -> 
         # A single corridor word (posterior, deltopectoral, suprapatellar) is
         # safe only when it identifies exactly one option for this procedure.
         tokens.update(word for word in name_words if len(word_owners.get(word, ())) == 1)
+        if "arthroscopy" in name_words:
+            tokens.add("arthroscopic")
         matched = [token for token in tokens if f" {token} " in blob]
         if matched:
             # Prefer the most specific phrase and, for duplicate legacy/native
