@@ -1,4 +1,4 @@
-"""CasePrep v1.3 RAG-first stream with certified procedure packets disabled."""
+"""CasePrep v1.3 unified grounded, RAG, and approach-library stream."""
 
 from __future__ import annotations
 

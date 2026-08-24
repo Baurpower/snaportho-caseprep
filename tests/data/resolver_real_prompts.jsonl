@@ -52,3 +52,5 @@
 {"prompt": "cervical decompression", "expect": null, "note": "ambiguous between ACDF and posterior cervical"}
 {"prompt": "Profunda femoris artery anatomy?", "expect": null, "note": "anatomy question, no procedure"}
 {"prompt": "What percent of knees fall into varus vs valgus", "expect": null, "note": "must not resolve to hallux valgus"}
+{"prompt": "perc pinning for fem neck fracture", "expect": "femoral_neck_fracture_orif_young", "note": "reported case: resident shorthand must preserve the planned percutaneous treatment"}
+{"prompt": "percutaneous pinning for femoral neck fracture", "expect": "femoral_neck_fracture_orif_young", "note": "fully spelled treatment must resolve without requiring ORIF wording"}

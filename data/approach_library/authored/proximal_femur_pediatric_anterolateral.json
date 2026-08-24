@@ -131,13 +131,7 @@
     }
   ],
   "bailouts": [],
-  "procedure_applications": [
-    {
-      "procedure_id": "femoral_neck_fracture_orif_young",
-      "relationship": "primary_option",
-      "condition": "A pediatric proximal-femur fracture needs both hip-joint access and a lateral plate or screws through one extensile corridor"
-    }
-  ],
+  "procedure_applications": [],
   "questions": [
     {
       "question": "Which interval is developed in the pediatric anterolateral approach?",

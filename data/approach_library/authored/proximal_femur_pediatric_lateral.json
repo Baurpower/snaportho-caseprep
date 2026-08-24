@@ -131,13 +131,7 @@
     }
   ],
   "bailouts": [],
-  "procedure_applications": [
-    {
-      "procedure_id": "femoral_neck_fracture_orif_young",
-      "relationship": "primary_option",
-      "condition": "Screws or a pediatric hip locking plate are inserted from the lateral femur, including after a separate anterior reduction"
-    }
-  ],
+  "procedure_applications": [],
   "questions": [
     {
       "question": "How should the lateral incision be aligned?",

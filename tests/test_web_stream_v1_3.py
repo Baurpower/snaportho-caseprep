@@ -16,7 +16,7 @@ def decode(frame: bytes):
 
 
 class WebStreamV13Tests(unittest.IsolatedAsyncioTestCase):
-    async def test_rag_policy_never_loads_certified_procedure_packet(self) -> None:
+    async def test_v13_combines_grounded_packet_rag_and_approach_content(self) -> None:
         resolved = {
             "procedure_slug": "tka",
             "canonical_display_name": "Total Knee Arthroplasty",
@@ -38,6 +38,15 @@ class WebStreamV13Tests(unittest.IsolatedAsyncioTestCase):
             }
             for index in range(8)
         ]
+        grounded_packet = {
+            "case_prep_status": "certified",
+            "review": {"status": "agent_reviewed", "label": "Agent reviewed"},
+            "procedure_overview": "Grounded TKA overview.",
+            "must_know_anatomy": ["Protect the relevant neurovascular structures."],
+            "common_mistakes": ["Avoid unsupported component positioning."],
+            "attending_pimp_questions": [],
+            "source_urls": ["https://example.test/tka"],
+        }
 
         with patch(
             "caseprep.engines.v1_1_web_stream.procedure_resolver.resolve_procedure_safe",
@@ -49,7 +58,8 @@ class WebStreamV13Tests(unittest.IsolatedAsyncioTestCase):
             "caseprep.engines.v1_1_web_stream.retrieve_case_qas",
             return_value=rag_items,
         ), patch(
-            "caseprep.engines.v1_1_web_stream.curated_content_store.get_certified_payload"
+            "caseprep.engines.v1_1_web_stream.curated_content_store.get_certified_payload",
+            return_value=grounded_packet,
         ) as packet_loader:
             events = [
                 decode(frame)
@@ -58,12 +68,16 @@ class WebStreamV13Tests(unittest.IsolatedAsyncioTestCase):
                 )
             ]
 
-        packet_loader.assert_not_called()
+        packet_loader.assert_called_once_with("tka")
         meta = events[0][1]
         self.assertEqual(meta["caseprep_version"], "v1.3")
         self.assertEqual(meta["engine"], "rag_approach_packet_stream")
         header = next(data for name, data in events if name == "header")
-        self.assertFalse(header["header"]["certified"])
+        self.assertTrue(header["header"]["certified"])
+        self.assertTrue(any(
+            name == "section" and data.get("section_id") == "summary"
+            for name, data in events
+        ))
         questions = next(
             data for name, data in events
             if name == "section" and data.get("section_id") == "pimp_questions"
@@ -94,7 +108,8 @@ class WebStreamV13Tests(unittest.IsolatedAsyncioTestCase):
             "caseprep.engines.v1_1_web_stream.retrieve_case_qas",
             return_value=[],
         ), patch(
-            "caseprep.engines.v1_1_web_stream.curated_content_store.get_certified_payload"
+            "caseprep.engines.v1_1_web_stream.curated_content_store.get_certified_payload",
+            return_value=None,
         ) as packet_loader, patch(
             "caseprep.services.enrichment_v1_1.enrich_packet_sections"
         ) as enrichment:
@@ -105,7 +120,7 @@ class WebStreamV13Tests(unittest.IsolatedAsyncioTestCase):
                 )
             ]
 
-        packet_loader.assert_not_called()
+        packet_loader.assert_called_once_with("tka")
         enrichment.assert_not_called()
         self.assertFalse(
             any(

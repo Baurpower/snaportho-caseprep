@@ -65,6 +65,25 @@ class PacketV3Tests(unittest.TestCase):
             "approach_lower_ext_hip_posterior_moore_southern",
         )
 
+    def test_femoral_neck_percutaneous_pinning_does_not_select_an_open_approach(self):
+        seed = {
+            "schema_version": "brobot_case_prep_payload_v2",
+            "procedure_id": "femoral_neck_fracture_orif_young",
+            "case_prep_status": "unreviewed",
+            "procedure_overview": "",
+        }
+        decision = approach_decision_payload(
+            "perc pinning for fem neck fracture", seed
+        )
+        self.assertEqual(decision["status"], "selected")
+        self.assertEqual(
+            decision["selected_approach_id"],
+            "femoral_neck_percutaneous_screw_fixation",
+        )
+        names = {option["name"] for option in decision["approaches"]}
+        self.assertFalse(any("Pediatric" in name for name in names))
+        self.assertFalse(any("ESIN" in name for name in names))
+
     def test_migrated_packet_cannot_pass_review_gate_by_manifest_flag(self):
         result = validate_review_gate(self._payload("hip_hemiarthroplasty"))
         self.assertFalse(result["passed"])

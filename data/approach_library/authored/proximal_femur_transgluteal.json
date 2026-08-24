@@ -130,13 +130,7 @@
     }
   ],
   "bailouts": [],
-  "procedure_applications": [
-    {
-      "procedure_id": "femoral_neck_fracture_orif_young",
-      "relationship": "primary_option",
-      "condition": "A pediatric extracapsular neck fracture or a nondisplaced complete intracapsular fracture needs open reduction or stabilization"
-    }
-  ],
+  "procedure_applications": [],
   "questions": [
     {
       "question": "How far may the gluteus medius be split in the transgluteal approach?",

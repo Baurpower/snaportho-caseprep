@@ -110,6 +110,8 @@ if not CERTIFIED_SLUGS:
 # "intertrochanteric fracture"). Deliberately curated, never stemmed: "radius"
 # and "radial", or "femoral neck" and "femur shaft", are different procedures.
 _TOKEN_SYNONYMS = {
+    "perc": "percutaneous",
+    "fem": "femoral",
     "fx": "fracture",
     "fxs": "fracture",
     "fractures": "fracture",

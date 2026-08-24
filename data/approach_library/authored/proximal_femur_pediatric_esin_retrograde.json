@@ -132,13 +132,7 @@
     }
   ],
   "bailouts": [],
-  "procedure_applications": [
-    {
-      "procedure_id": "femoral_neck_fracture_orif_young",
-      "relationship": "conditional_option",
-      "condition": "A selected pediatric proximal femoral fracture is treated with retrograde elastic nails through distal metaphyseal entries"
-    }
-  ],
+  "procedure_applications": [],
   "questions": [
     {
       "question": "How far above the physis are the medial and first lateral ESIN entries?",

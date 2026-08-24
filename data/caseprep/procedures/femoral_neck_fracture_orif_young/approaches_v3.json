@@ -2,6 +2,26 @@
   "schema_version": "caseprep_approaches_v3",
   "approaches": [
     {
+      "approach_id": "femoral_neck_percutaneous_screw_fixation",
+      "name": "Percutaneous screw fixation",
+      "aliases": ["percutaneous pinning", "perc pinning", "CRPP", "cannulated screw fixation", "femoral neck pinning"],
+      "role": "common_option",
+      "content_status": "coverage_gap",
+      "selection_indications": ["Percutaneous fixation is the planned treatment and an open reduction exposure is not requested."],
+      "selection_limitations": ["A reviewed, source-backed percutaneous approach module has not yet been authored; do not substitute an open hip exposure."],
+      "positioning": [],
+      "exposure": [],
+      "layers": [],
+      "landmarks": [],
+      "structures_at_risk": [],
+      "pitfalls": [],
+      "questions": [],
+      "source_urls": [],
+      "review_status": "coverage_gap",
+      "review_evidence": [],
+      "coverage_notes": "Routing guard: preserves the explicitly requested percutaneous treatment and prevents open approaches from being presented as equivalent."
+    },
+    {
       "approach_id": "hip_anterior_smith_petersen",
       "name": "Anterior (Smith-Petersen)",
       "role": "common_option",

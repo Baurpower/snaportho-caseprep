@@ -1,0 +1,60 @@
+{
+  "schema_version": "brobot_approach_packet_v1",
+  "approach_id": "femoral_neck_percutaneous_screw_fixation",
+  "name": "Percutaneous screw fixation of the femoral neck",
+  "aliases": [
+    "percutaneous pinning",
+    "perc pinning",
+    "CRPP",
+    "cannulated screw fixation",
+    "femoral neck pinning"
+  ],
+  "region": "hip",
+  "joint": "hip",
+  "bones": ["femoral neck"],
+  "corridor": "Percutaneous fixation corridor",
+  "content_status": "coverage_gap",
+  "procedure_applications": [
+    {
+      "procedure_id": "femoral_neck_fracture_orif_young",
+      "relationship": "primary_option",
+      "condition": "Percutaneous fixation is explicitly planned without an open reduction exposure"
+    }
+  ],
+  "sources": [],
+  "positioning": [],
+  "setup": [],
+  "surface_landmarks": [],
+  "incision": [],
+  "superficial_interval": [],
+  "deep_interval": [],
+  "layers": [],
+  "structures_encountered": [],
+  "structures_at_risk": [],
+  "danger_zones": [],
+  "retraction_hazards": [],
+  "exposure": [],
+  "limitations": [
+    {
+      "text": "A reviewed, source-backed percutaneous approach module has not yet been authored; do not substitute an open hip exposure."
+    }
+  ],
+  "extensions": [],
+  "indications": [
+    {
+      "text": "Preserve this route when percutaneous fixation is the explicitly planned treatment and an open reduction exposure is not requested."
+    }
+  ],
+  "relative_contraindications": [],
+  "implant_implications": [],
+  "fluoroscopy_implications": [],
+  "closure": [],
+  "complications": [],
+  "bailouts": [],
+  "questions": [],
+  "review": {
+    "status": "not_started",
+    "required_roles": [],
+    "completed_roles": []
+  }
+}

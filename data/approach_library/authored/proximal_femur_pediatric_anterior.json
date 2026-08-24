@@ -131,13 +131,7 @@
     }
   ],
   "bailouts": [],
-  "procedure_applications": [
-    {
-      "procedure_id": "femoral_neck_fracture_orif_young",
-      "relationship": "primary_option",
-      "condition": "A pediatric femoral head or neck fracture needs open anterior reduction, with fixation through a separate lateral window"
-    }
-  ],
+  "procedure_applications": [],
   "questions": [
     {
       "question": "Where is the pediatric bikini incision centered?",

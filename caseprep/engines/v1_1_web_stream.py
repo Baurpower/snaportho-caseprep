@@ -255,13 +255,9 @@ async def stream_caseprep_packet(
         )
         return
 
-    # v1.3 deliberately does not consume certified procedure packets. They
-    # remain available to older policies and for continued editorial work,
-    # while v1.3 exercises the RAG + approach-library pipeline on every case.
-    use_certified_packets = policy_version != "v1.3"
     payload = (
         curated_content_store.get_certified_payload(identity["canonical_slug"])
-        if identity["canonical_slug"] and use_certified_packets
+        if identity["canonical_slug"]
         else None
     )
     approach_prep = build_approach_prep(
