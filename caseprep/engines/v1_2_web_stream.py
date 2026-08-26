@@ -16,6 +16,7 @@ ENGINE = "grounded_packet_stream"
 EXPECTED_CLINICAL_SECTIONS = tuple(
     section for section in SECTION_IDS if section not in {"related_concepts", "sources"}
 )
+LEGACY_ESSENTIAL_SECTIONS = {"summary", "key_takeaways", "top_things_to_know"}
 # Themed sections with no curated seed: AI supplementation is allowed through
 # the grounding filter here (clearly marked generated). Every other section
 # still requires direct source support.
@@ -255,7 +256,12 @@ async def stream_caseprep_packet_v1_2(
                 coverage_status = "generated_fallback"
             else:
                 coverage_status = "unavailable"
-            omitted = [section for section in EXPECTED_CLINICAL_SECTIONS if section not in emitted_sections]
+            expected_sections = (
+                tuple(section for section in EXPECTED_CLINICAL_SECTIONS if section not in LEGACY_ESSENTIAL_SECTIONS)
+                if version == "v1.3"
+                else tuple(section for section in EXPECTED_CLINICAL_SECTIONS if section != "essentials")
+            )
+            omitted = [section for section in expected_sections if section not in emitted_sections]
             quality_gate = (
                 "passed"
                 if coverage_status in {"certified", "grounded_complete"}

@@ -48,6 +48,7 @@ SECTION_IDS = (
     "approach_exposure",
     "approach_safety",
     "approach_strategy",
+    "essentials",
     "summary",
     "key_takeaways",
     "top_things_to_know",

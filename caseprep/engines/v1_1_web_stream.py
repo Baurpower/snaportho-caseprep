@@ -318,6 +318,21 @@ async def stream_caseprep_packet(
         elapsed_ms=int((time.monotonic() - started) * 1000),
     )
 
+    essentials_task: Optional[asyncio.Task[Any]] = None
+    if policy_version == "v1.3":
+        from caseprep.services.essentials_v1_3 import generate_essentials
+
+        essentials_task = asyncio.create_task(
+            asyncio.to_thread(
+                generate_essentials,
+                identity=identity,
+                payload=payload,
+                approach_prep=approach_prep,
+                openai_client=openai_client,
+                model=cfg.v1_1_model,
+            )
+        )
+
     # Cross-section de-dup: highlight blocks (below) claim a fact by its
     # framing-independent ``_dedup_key``; the fuller body sections then suppress
     # any item that repeats a claimed fact so it is shown once (highlights win).
@@ -329,11 +344,12 @@ async def stream_caseprep_packet(
         return [i for i in items if i.get("_dedup_key") not in claimed_dedup_keys]
 
     # ── Above-the-fold sections: synchronous curated transforms ──────────────
-    for section_id, builder in (
+    legacy_essentials_builders = (
         ("summary", packet_sections.summary_block),
         ("key_takeaways", packet_sections.key_takeaways_block),
         ("top_things_to_know", packet_sections.top_things_to_know_block),
-    ):
+    ) if policy_version != "v1.3" else ()
+    for section_id, builder in legacy_essentials_builders:
         result = builder(payload)
         if cfg.enable_v1_1_dedup:
             if claimed_dedup_keys and section_id in (
@@ -649,6 +665,38 @@ async def stream_caseprep_packet(
             status_row["status"] = "complete"
         elif base.get("status") == "failed":
             yield protocol.section_error_event(section_id, (base.get("warnings") or ["failed"])[0])
+
+    # ── v1.3 focused Essentials synthesis ───────────────────────────────────
+    if essentials_task is not None:
+        try:
+            essentials = await asyncio.wait_for(essentials_task, timeout=12.0)
+        except (asyncio.TimeoutError, Exception):
+            essentials = None
+        if essentials:
+            pipeline_status["essentials"] = {
+                "status": "complete",
+                "item_count": 3,
+                "duration_ms": essentials["duration_ms"],
+            }
+            yield protocol.section_event(
+                "essentials",
+                status="complete",
+                payload=essentials["payload"],
+                source="ai_synthesis",
+                confidence=0.75,
+                generated_field_paths=["payload"],
+                duration_ms=essentials["duration_ms"],
+            )
+        else:
+            pipeline_status["essentials"] = {
+                "status": "failed",
+                "item_count": 0,
+                "duration_ms": 0,
+            }
+            warnings.append("Essentials synthesis was unavailable.")
+            yield protocol.section_error_event(
+                "essentials", "Essentials are temporarily unavailable."
+            )
 
     # ── Sources + done ───────────────────────────────────────────────────────
     all_results = list(held_for_enrichment.values())

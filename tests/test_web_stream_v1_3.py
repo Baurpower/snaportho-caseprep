@@ -47,6 +47,23 @@ class WebStreamV13Tests(unittest.IsolatedAsyncioTestCase):
             "attending_pimp_questions": [],
             "source_urls": ["https://example.test/tka"],
         }
+        essentials = {
+            "payload": {
+                "indications": {"summary": "End-stage symptomatic arthritis.", "key_points": [], "case_specific_note": None},
+                "critical_portion": {
+                    "name": "Balanced reconstruction", "summary": "Restore alignment and balance.",
+                    "why_it_matters": "It drives stability.", "execution_points": [],
+                    "failure_mode": "Instability.",
+                },
+                "postop_protocol": {
+                    "summary": "Mobilize with appropriate prophylaxis.", "immediate_priorities": [],
+                    "immobilization": None, "weight_bearing": "As tolerated", "motion": "Early motion",
+                    "follow_up": "Routine wound review", "red_flags": [],
+                    "variability_note": "Confirm surgeon preference.",
+                },
+            },
+            "duration_ms": 10,
+        }
 
         with patch(
             "caseprep.engines.v1_1_web_stream.procedure_resolver.resolve_procedure_safe",
@@ -60,7 +77,10 @@ class WebStreamV13Tests(unittest.IsolatedAsyncioTestCase):
         ), patch(
             "caseprep.engines.v1_1_web_stream.curated_content_store.get_certified_payload",
             return_value=grounded_packet,
-        ) as packet_loader:
+        ) as packet_loader, patch(
+            "caseprep.services.essentials_v1_3.generate_essentials",
+            return_value=essentials,
+        ):
             events = [
                 decode(frame)
                 async for frame in stream_caseprep_packet_v1_3(
@@ -74,10 +94,11 @@ class WebStreamV13Tests(unittest.IsolatedAsyncioTestCase):
         self.assertEqual(meta["engine"], "rag_approach_packet_stream")
         header = next(data for name, data in events if name == "header")
         self.assertTrue(header["header"]["certified"])
-        self.assertTrue(any(
-            name == "section" and data.get("section_id") == "summary"
-            for name, data in events
-        ))
+        section_ids = [data.get("section_id") for name, data in events if name == "section"]
+        self.assertIn("essentials", section_ids)
+        self.assertNotIn("summary", section_ids)
+        self.assertNotIn("key_takeaways", section_ids)
+        self.assertNotIn("top_things_to_know", section_ids)
         questions = next(
             data for name, data in events
             if name == "section" and data.get("section_id") == "pimp_questions"
