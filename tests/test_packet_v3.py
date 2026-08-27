@@ -65,6 +65,81 @@ class PacketV3Tests(unittest.TestCase):
             "approach_lower_ext_hip_posterior_moore_southern",
         )
 
+    def test_imn_filters_femoral_shaft_packet_to_nailing_approaches(self):
+        packet = self._payload("femoral_shaft_fracture_orif")
+        decision = approach_decision_payload("femoral shaft IMN", packet)
+        self.assertEqual(decision["status"], "choice_required")
+        self.assertTrue(decision["approaches"])
+        identities = [
+            " ".join(
+                [option["approach_id"], option["name"], *option.get("aliases", [])]
+            ).lower()
+            for option in decision["approaches"]
+        ]
+        self.assertTrue(
+            all(
+                any(term in identity for term in ("nail", "imn", "esin"))
+                for identity in identities
+            )
+        )
+        self.assertFalse(
+            any(
+                option["approach_id"] == "femoral_shaft_lateral_open"
+                for option in decision["approaches"]
+            )
+        )
+        self.assertFalse(
+            any("pediatric" in identity or "esin" in identity for identity in identities)
+        )
+
+    def test_retrograde_femoral_imn_selects_the_adult_retrograde_entry(self):
+        packet = self._payload("femoral_shaft_fracture_orif")
+        decision = approach_decision_payload(
+            "retrograde femoral shaft IMN", packet
+        )
+        self.assertEqual(decision["status"], "selected")
+        self.assertEqual(
+            decision["selected_approach_id"], "femur_retrograde_nailing_entry"
+        )
+
+    def test_named_nailing_corridor_is_selected(self):
+        packet = self._payload("tibial_shaft_fracture_orif")
+        decision = approach_decision_payload("suprapatellar tibial nailing", packet)
+        self.assertEqual(decision["status"], "selected")
+        self.assertEqual(
+            decision["selected_approach_id"], "tibia_suprapatellar_nail_entry"
+        )
+
+    def test_plating_filters_out_nails_and_external_fixation(self):
+        packet = self._payload("femoral_shaft_fracture_orif")
+        decision = approach_decision_payload("femoral shaft plating", packet)
+        self.assertEqual(decision["status"], "choice_required")
+        self.assertEqual(
+            {option["approach_id"] for option in decision["approaches"]},
+            {"femoral_shaft_lateral_mipo", "femoral_shaft_lateral_open"},
+        )
+
+    def test_external_fixation_selects_pin_corridor_not_an_open_exposure(self):
+        packet = self._payload("femoral_shaft_fracture_orif")
+        decision = approach_decision_payload(
+            "external fixation femoral shaft", packet
+        )
+        self.assertEqual(decision["status"], "selected")
+        self.assertEqual(
+            decision["selected_approach_id"],
+            "femoral_shaft_external_fixator_pin_locations",
+        )
+
+    def test_arthroscopy_never_substitutes_medial_parapatellar_arthrotomy(self):
+        for prompt, slug in (
+            ("arthroscopic ACL reconstruction", "acl_reconstruction"),
+            ("knee arthroscopy meniscus repair", "meniscus_repair"),
+        ):
+            with self.subTest(prompt=prompt):
+                decision = approach_decision_payload(prompt, self._payload(slug))
+                self.assertEqual(decision["status"], "unavailable")
+                self.assertFalse(decision["approaches"])
+
     def test_femoral_neck_percutaneous_pinning_does_not_select_an_open_approach(self):
         seed = {
             "schema_version": "brobot_case_prep_payload_v2",
@@ -75,11 +150,9 @@ class PacketV3Tests(unittest.TestCase):
         decision = approach_decision_payload(
             "perc pinning for fem neck fracture", seed
         )
-        self.assertEqual(decision["status"], "selected")
-        self.assertEqual(
-            decision["selected_approach_id"],
-            "femoral_neck_percutaneous_screw_fixation",
-        )
+        self.assertEqual(decision["status"], "unavailable")
+        self.assertIsNone(decision["selected_approach_id"])
+        self.assertFalse(decision["approaches"])
         names = {option["name"] for option in decision["approaches"]}
         self.assertFalse(any("Pediatric" in name for name in names))
         self.assertFalse(any("ESIN" in name for name in names))

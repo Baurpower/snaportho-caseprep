@@ -182,6 +182,11 @@
   ],
   "procedure_applications": [
     {
+      "procedure_id": "femoral_shaft_fracture_orif",
+      "relationship": "conditional_option",
+      "condition": "An antegrade femoral shaft nail with a piriformis-fossa start is selected"
+    },
+    {
       "procedure_id": "distal_femur_fracture_intramedullary_nailing",
       "relationship": "conditional_option",
       "condition": "An antegrade straight nail is selected and proximal anatomy permits a collinear piriformis-fossa start"

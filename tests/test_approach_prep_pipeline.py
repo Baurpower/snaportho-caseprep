@@ -5,6 +5,8 @@ import unittest
 from pathlib import Path
 
 from caseprep.pipelines.approach_prep import build_approach_prep
+from caseprep.services.curated_content_store import get_certified_payload
+from caseprep.services.packet_v3 import procedure_approach_map
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -55,12 +57,12 @@ class ApproachPrepPipelineTests(unittest.TestCase):
         self.assertIsNone(result["coverage"]["approach_id"])
         self.assertFalse(result["questions"])
 
-    def test_source_indexed_packet_is_eligible_but_does_not_invent_sections(self) -> None:
-        # Source-indexed entries may be offered by the decision layer. If one is
-        # selected, the pipeline must expose its coverage/source record without
-        # manufacturing clinical items.
+    def test_source_indexed_packet_is_not_selectable_at_runtime(self) -> None:
+        # Editorial coverage records remain known, but the runtime must not let
+        # a resident select an approach that cannot produce a guide.
         result = build_approach_prep("unknown approach", "not_a_procedure", None)
-        self.assertIn(result["status"], {"complete", "unavailable"})
+        self.assertEqual(result["status"], "unavailable")
+        self.assertFalse(result["decision"]["approaches"])
         self.assertEqual(
             sum(len(section["items"]) for section in result["sections"].values()), 0
         )
@@ -94,20 +96,108 @@ class ApproachPrepPipelineTests(unittest.TestCase):
                 )
                 self.assertTrue(result["coverage"]["available_sections"])
 
+    def test_carpal_tunnel_choice_resolves_once_and_returns_approach_content(self) -> None:
+        generic = build_approach_prep(
+            "carpal tunnel release", "carpal_tunnel_release", None
+        )
+        self.assertEqual(generic["decision"]["status"], "choice_required")
+        self.assertEqual(
+            {row["approach_id"] for row in generic["decision"]["approaches"]},
+            {
+                "approach_wrist_carpal_tunnel",
+                "approach_wrist_carpal_tunnel_endoscopic",
+            },
+        )
+        self.assertNotIn(
+            "distal_radius_ulnar_palmar",
+            {row["approach_id"] for row in generic["decision"]["approaches"]},
+        )
+
+        for prompt, expected_id in (
+            ("Open Carpal Tunnel Release", "approach_wrist_carpal_tunnel"),
+            (
+                "Endoscopic Carpal Tunnel Release",
+                "approach_wrist_carpal_tunnel_endoscopic",
+            ),
+        ):
+            with self.subTest(prompt=prompt):
+                result = build_approach_prep(
+                    prompt, "carpal_tunnel_release", None
+                )
+                self.assertEqual(result["decision"]["status"], "selected")
+                self.assertEqual(
+                    result["decision"]["selected_approach_id"], expected_id
+                )
+                self.assertTrue(
+                    all(
+                        result["sections"][section_id]["items"]
+                        for section_id in (
+                            "approach_quick_brief",
+                            "approach_exposure",
+                            "approach_safety",
+                            "approach_strategy",
+                        )
+                    )
+                )
+
+    def test_every_runtime_selectable_approach_produces_guide_content(self) -> None:
+        procedure_ids = set(procedure_approach_map())
+        procedure_ids.update(
+            path.name
+            for path in (ROOT / "data/caseprep/procedures").iterdir()
+            if path.is_dir()
+        )
+        audited = 0
+        for procedure_id in sorted(procedure_ids):
+            payload = get_certified_payload(procedure_id)
+            decision = build_approach_prep(
+                procedure_id.replace("_", " "), procedure_id, payload
+            )["decision"]
+            for unavailable in decision.get("unavailable_approaches") or []:
+                unavailable_id = unavailable.get("approach_id")
+                attempted = build_approach_prep(
+                    unavailable.get("name") or unavailable_id,
+                    procedure_id,
+                    payload,
+                )
+                self.assertNotIn(
+                    unavailable_id,
+                    attempted["decision"].get("selected_approach_ids") or [],
+                )
+            for option in decision.get("approaches") or []:
+                with self.subTest(
+                    procedure_id=procedure_id,
+                    approach_id=option.get("approach_id"),
+                ):
+                    selected = build_approach_prep(
+                        option.get("name") or option["approach_id"],
+                        procedure_id,
+                        payload,
+                    )
+                    item_count = sum(
+                        len(section.get("items") or [])
+                        for section in selected["sections"].values()
+                    )
+                    self.assertGreater(item_count, 0)
+                    audited += 1
+        self.assertGreater(audited, 180)
+
     def test_generic_and_ambiguous_common_prompts_do_not_guess(self) -> None:
         cases = (
             ("tibial shaft IM nail", "tibial_shaft_im_nail"),
             ("humeral shaft ORIF", "humeral_shaft_fracture_orif"),
             ("posterior approach humeral shaft ORIF", "humeral_shaft_fracture_orif"),
             ("posterolateral approach trimalleolar ankle ORIF", "trimalleolar_ankle_orif"),
-            ("endoscopic carpal tunnel release", "carpal_tunnel_release"),
         )
         for prompt, procedure_id in cases:
             with self.subTest(prompt=prompt):
                 result = build_approach_prep(
                     prompt, procedure_id, self._payload(procedure_id)
                 )
-                self.assertEqual(result["decision"]["status"], "choice_required")
+                self.assertIn(
+                    result["decision"]["status"],
+                    {"choice_required", "unavailable"},
+                )
                 self.assertIsNone(result["coverage"]["approach_id"])
                 self.assertEqual(
                     sum(len(section["items"]) for section in result["sections"].values()),
@@ -136,7 +226,7 @@ class ApproachPrepPipelineTests(unittest.TestCase):
             {"tibia_suprapatellar_nail_entry", "tibia_infrapatellar_nail_entry"},
         )
 
-    def test_arthroscopic_rotator_cuff_prompt_selects_shoulder_arthroscopy(self) -> None:
+    def test_source_only_arthroscopy_is_not_exposed_as_an_empty_selection(self) -> None:
         for prompt in (
             "shoulder arthroscopy rotator cuff repair",
             "arthroscopic rotator cuff repair",
@@ -148,13 +238,9 @@ class ApproachPrepPipelineTests(unittest.TestCase):
                     self._payload("rotator_cuff_repair"),
                 )
                 decision = result["decision"]
-                self.assertEqual(decision["status"], "selected")
-                self.assertEqual(
-                    decision["selected_approach_id"],
-                    "approach_seed_orthobullets_orthopedics_approaches_shoulder_shoulder_arthroscopy_indications_and_approach",
-                )
-                self.assertEqual(result["coverage"]["content_status"], "source_indexed")
-                self.assertEqual(result["coverage"]["source_count"], 1)
+                self.assertEqual(decision["status"], "unavailable")
+                self.assertIsNone(decision["selected_approach_id"])
+                self.assertFalse(decision["approaches"])
                 self.assertEqual(
                     sum(len(section["items"]) for section in result["sections"].values()),
                     0,

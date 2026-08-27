@@ -43,6 +43,40 @@ def resolve_offline(prompt: str):
 
 
 class ResolverCorpus(unittest.TestCase):
+    def test_im_nailing_shorthand_routes_across_anatomic_regions(self):
+        cases = {
+            "femoral shaft IMN": "femoral_shaft_fracture_orif",
+            "femur shaft nailing": "femoral_shaft_fracture_orif",
+            "proximal femur nailing": "intertrochanteric_hip_fracture_orif",
+            "humeral shaft IM nail": "humeral_shaft_fracture_orif",
+            "humerus shaft intramedullary nailing": "humeral_shaft_fracture_orif",
+            "clavicle IMN": "clavicle_fracture_orif",
+            "forearm nailing": "both_bone_forearm_fracture_orif",
+            "ulna intramedullary nail": "both_bone_forearm_fracture_orif",
+            "tibial shaft nailing": "tibial_shaft_im_nail",
+        }
+        for prompt, expected in cases.items():
+            with self.subTest(prompt=prompt):
+                self.assertEqual(resolve_offline(prompt)["procedure_slug"], expected)
+
+    def test_technique_shorthand_routes_across_procedure_families(self):
+        cases = {
+            "femoral neck pinning": "femoral_neck_fracture_orif_young",
+            "fem neck perc screws": "femoral_neck_fracture_orif_young",
+            "distal radius pinning": "distal_radius_fracture_orif",
+            "metacarpal CRPP": "metacarpal_fracture_orif",
+            "ACL arthroscopy": "acl_reconstruction",
+            "knee scope meniscus repair": "meniscus_repair",
+            "shoulder arthroscopy rotator cuff repair": "rotator_cuff_repair",
+            "femoral shaft plating": "femoral_shaft_fracture_orif",
+            "tibial shaft MIPO": "tibial_shaft_fracture_orif",
+            "external fixation femoral shaft": "femoral_shaft_fracture_orif",
+            "humeral shaft ex-fix": "humeral_shaft_fracture_orif",
+        }
+        for prompt, expected in cases.items():
+            with self.subTest(prompt=prompt):
+                self.assertEqual(resolve_offline(prompt)["procedure_slug"], expected)
+
     def test_real_prompts_resolve_to_the_procedure_that_was_typed(self):
         failures = []
         for row in load_corpus():

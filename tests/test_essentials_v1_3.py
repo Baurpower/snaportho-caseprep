@@ -4,7 +4,11 @@ import json
 import unittest
 from unittest.mock import MagicMock
 
-from caseprep.services.essentials_v1_3 import generate_essentials
+from caseprep.services.essentials_v1_3 import (
+    build_evidence,
+    generate_essentials,
+    verify_essentials,
+)
 
 
 VALID_RESPONSE = {
@@ -30,6 +34,16 @@ VALID_RESPONSE = {
         "red_flags": ["New neurovascular deficit"],
         "variability_note": "Confirm the operating surgeon's protocol.",
     },
+    "citations": {
+        "indications.summary": ["E1"],
+        "critical_portion.summary": ["E1"],
+        "critical_portion.why_it_matters": ["E1"],
+        "critical_portion.failure_mode": ["E1"],
+        "postop_protocol.immobilization": ["E1"],
+        "postop_protocol.weight_bearing": ["E1"],
+        "postop_protocol.motion": ["E1"],
+        "postop_protocol.follow_up": ["E1"],
+    },
 }
 
 
@@ -44,6 +58,7 @@ class EssentialsV13Tests(unittest.TestCase):
             identity={"canonical_name": "Total Knee Arthroplasty", "diagnosis": "Osteoarthritis"},
             payload={
                 "procedure_overview": "Knee replacement for end-stage arthritis.",
+                "source_urls": ["https://example.org/source"],
                 "attending_pimp_questions": ["Q: This must not enter the prompt? A: Correct."],
             },
             approach_prep={"sections": {}},
@@ -56,6 +71,8 @@ class EssentialsV13Tests(unittest.TestCase):
         self.assertNotIn("This must not enter the prompt", prompt)
         self.assertNotIn("pinecone", prompt.lower())
         self.assertEqual(result["payload"]["critical_portion"]["name"], "Safe exposure")
+        self.assertEqual(result["confidence"], 0.89)
+        self.assertTrue(result["payload"]["verification"]["passed"])
 
     def test_no_client_degrades_without_error(self) -> None:
         result = generate_essentials(
@@ -66,6 +83,45 @@ class EssentialsV13Tests(unittest.TestCase):
             model="test-model",
         )
         self.assertIsNone(result)
+
+    def test_rejects_retrograde_case_with_antegrade_entry(self) -> None:
+        output = json.loads(json.dumps(VALID_RESPONSE))
+        output["critical_portion"]["summary"] = (
+            "Place the retrograde nail through an intertrochanteric entry point."
+        )
+        evidence = [{
+            "evidence_id": "E1",
+            "text": "Use an intercondylar entry for retrograde nailing.",
+            "source_ids": ["ao"],
+            "kind": "approach",
+        }]
+        verification = verify_essentials(
+            output, evidence, {"requested_case": "Retrograde femoral nail"}
+        )
+        self.assertFalse(verification["passed"])
+        self.assertIn("antegrade proximal entry", " ".join(verification["errors"]))
+
+    def test_build_evidence_prioritizes_approach_and_requires_sources(self) -> None:
+        evidence = build_evidence(
+            {"procedure_overview": "Uncited overview is excluded."},
+            {"sections": {"approach_exposure": {"items": [{
+                "answer": "Enter through the intercondylar notch.",
+                "source_ids": ["orthobullets_12457"],
+            }]}}},
+        )
+        self.assertEqual(len(evidence), 1)
+        self.assertEqual(evidence[0]["source_ids"], ["orthobullets_12457"])
+
+    def test_rejects_uncited_core_claim(self) -> None:
+        output = json.loads(json.dumps(VALID_RESPONSE))
+        del output["citations"]["critical_portion.failure_mode"]
+        verification = verify_essentials(
+            output,
+            [{"evidence_id": "E1", "text": "Evidence", "source_ids": ["s1"]}],
+            {"canonical_name": "Test operation"},
+        )
+        self.assertFalse(verification["passed"])
+        self.assertIn("critical_portion.failure_mode", " ".join(verification["errors"]))
 
     def test_rejects_incomplete_model_response(self) -> None:
         client = MagicMock()

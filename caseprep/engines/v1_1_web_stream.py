@@ -682,8 +682,12 @@ async def stream_caseprep_packet(
                 "essentials",
                 status="complete",
                 payload=essentials["payload"],
-                source="ai_synthesis",
-                confidence=0.75,
+                source=(
+                    "grounded_synthesis"
+                    if (essentials.get("payload", {}).get("verification") or {}).get("passed")
+                    else "ai_synthesis"
+                ),
+                confidence=essentials.get("confidence"),
                 generated_field_paths=["payload"],
                 duration_ms=essentials["duration_ms"],
             )

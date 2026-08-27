@@ -186,11 +186,6 @@
       "procedure_id": "distal_radius_fracture_orif",
       "relationship": "conditional_option",
       "condition": "A lunate-facet, sigmoid-notch, volar-ulnar, DRUJ, or high-energy pattern requires direct ulnar-volar control"
-    },
-    {
-      "procedure_id": "carpal_tunnel_release",
-      "relationship": "conditional_option",
-      "condition": "The approach is extended distally for indicated median-nerve decompression"
     }
   ],
   "questions": [

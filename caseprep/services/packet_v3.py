@@ -44,6 +44,57 @@ AUTHORITATIVE_HOSTS = (
     "orthobullets.com",
 )
 
+TECHNIQUE_FAMILIES = {
+    "nailing": {
+        "prompt": re.compile(
+            r"\b(?:imn|im\s+nails?|intramedullary(?:\s+nails?|\s+nailing)?|nails?|nailing|esin|cephalomedullary)\b",
+            re.IGNORECASE,
+        ),
+        "identity": re.compile(
+            r"\b(?:imn|intramedullary|nails?|nailing|esin|cephalomedullary)\b",
+            re.IGNORECASE,
+        ),
+    },
+    "arthroscopy": {
+        "prompt": re.compile(
+            r"\b(?:arthroscopy|arthroscopic|scope|scoped)\b", re.IGNORECASE
+        ),
+        "identity": re.compile(
+            r"\b(?:arthroscopy|arthroscopic|portal|portals)\b", re.IGNORECASE
+        ),
+    },
+    "external_fixation": {
+        "prompt": re.compile(
+            r"\b(?:external\s+fix(?:ation|ator)?|ex[\s-]?fix|exfix|schanz)\b",
+            re.IGNORECASE,
+        ),
+        "identity": re.compile(
+            r"\b(?:external\s+fix(?:ation|ator)?|fixator|schanz|half[\s-]?pins?|pin\s+safe\s+zones?)\b",
+            re.IGNORECASE,
+        ),
+    },
+    "pinning": {
+        "prompt": re.compile(
+            r"\b(?:crpp|pinning|percutaneous\s+(?:pins?|screws?|fixation)|perc\s+(?:pins?|screws?)|k[\s-]?wires?|kirschner\s+wires?)\b",
+            re.IGNORECASE,
+        ),
+        "identity": re.compile(
+            r"\b(?:crpp|pinning|percutaneous\s+(?:pins?|screws?|fixation)|k[\s-]?wires?|kirschner\s+wires?)\b",
+            re.IGNORECASE,
+        ),
+    },
+    "plating": {
+        "prompt": re.compile(
+            r"\b(?:plates?|plating|mipo|mio|bridge\s+plating|submuscular\s+plating)\b",
+            re.IGNORECASE,
+        ),
+        "identity": re.compile(
+            r"\b(?:plates?|plating|mipo|mio|bridge\s+plating|submuscular)\b",
+            re.IGNORECASE,
+        ),
+    },
+}
+
 
 def _read_jsonl(path: Path) -> Iterable[Dict[str, Any]]:
     if not path.exists():
@@ -447,11 +498,151 @@ def detect_requested_approach(prompt: str, packet: Optional[Dict[str, Any]]) -> 
     return max(matches)[2] if matches else None
 
 
+def _option_identity(option: Dict[str, Any]) -> str:
+    return " ".join(
+        [
+            str(option.get("approach_id") or "").replace("_", " "),
+            str(option.get("name") or ""),
+            *(str(alias) for alias in option.get("aliases") or []),
+        ]
+    ).lower()
+
+
+def _technique_filtered_options(
+    prompt: str, options: List[Dict[str, Any]]
+) -> tuple[List[Dict[str, Any]], Optional[str]]:
+    """Hard-filter mixed packets by the technique explicitly named by the user.
+
+    A technique family identifies eligible approaches, not necessarily a
+    single corridor. If several eligible corridors remain, the decision layer
+    asks a focused question instead of falling back to unrelated approaches.
+    """
+    requested_family = next(
+        (
+            family
+            for family, patterns in TECHNIQUE_FAMILIES.items()
+            if patterns["prompt"].search(prompt)
+        ),
+        None,
+    )
+    narrowed = options
+    if requested_family:
+        identity_pattern = TECHNIQUE_FAMILIES[requested_family]["identity"]
+        narrowed = [
+            option
+            for option in options
+            if identity_pattern.search(
+                _option_identity(option)
+                + (
+                    " " + str(option.get("coverage_notes") or "").lower()
+                    if requested_family == "plating"
+                    else ""
+                )
+            )
+        ]
+
+    prompt_words = set(re.findall(r"[a-z0-9]+", prompt.lower()))
+    pediatric_words = {"pediatric", "paediatric", "peds", "child", "adolescent"}
+    pediatric_requested = bool(prompt_words & pediatric_words)
+    if pediatric_requested:
+        pediatric = [
+            option
+            for option in narrowed
+            if re.search(r"\b(?:pediatric|paediatric|esin)\b", _option_identity(option))
+        ]
+        if pediatric:
+            narrowed = pediatric
+    elif requested_family:
+        adult = [
+            option
+            for option in narrowed
+            if not re.search(r"\b(?:pediatric|paediatric|esin)\b", _option_identity(option))
+        ]
+        if adult:
+            narrowed = adult
+
+    # These words identify a nail corridor within the nailing family. Apply
+    # them as filters before the generic token matcher so a shared word such as
+    # "retrograde" does not become ambiguous merely because pediatric and
+    # adult modules coexist in the source library.
+    qualifier_axes = (
+        (("antegrade",), ("retrograde",)),
+        (("suprapatellar",), ("infrapatellar",)),
+        (("piriformis",), ("trochanteric", "trochanter")),
+    )
+    for axis in qualifier_axes:
+        requested = [
+            qualifiers
+            for qualifiers in axis
+            if any(word in prompt_words for word in qualifiers)
+        ]
+        if not requested:
+            continue
+        qualified = [
+            option
+            for option in narrowed
+            if any(
+                word in _option_identity(option)
+                for qualifiers in requested
+                for word in qualifiers
+            )
+        ]
+        if qualified:
+            narrowed = qualified
+
+    # Open/endoscopic is an access choice rather than a fixation family. Only
+    # interpret "open" as an access request when an endoscopic alternative is
+    # actually modeled, avoiding the false inference that an open fracture
+    # necessarily requests an open surgical exposure.
+    identities = [_option_identity(option) for option in narrowed]
+    has_endoscopic_choice = any("endoscopic" in value for value in identities)
+    if re.search(r"\bendoscopic\b", prompt, re.IGNORECASE):
+        endoscopic = [
+            option for option in narrowed if "endoscopic" in _option_identity(option)
+        ]
+        narrowed = endoscopic
+    elif has_endoscopic_choice and re.search(r"\bopen\b", prompt, re.IGNORECASE):
+        opened = [
+            option
+            for option in narrowed
+            if "open" in _option_identity(option)
+            or "endoscopic" not in _option_identity(option)
+        ]
+        if opened:
+            narrowed = opened
+    return narrowed, requested_family
+
+
 def approach_decision_payload(prompt: str, payload: Optional[Dict[str, Any]]) -> Dict[str, Any]:
     packet = normalize_packet(payload)
     if not packet:
         return {"status": "unavailable", "selected_approach_id": None, "approaches": []}
-    options = packet.get("approaches") or []
+    known_options = packet.get("approaches") or []
+    # A coverage-gap card is useful in an editorial dashboard, but it must not
+    # be presented to a resident as a selectable runtime approach. Selecting
+    # one cannot produce setup/exposure/safety content and leaves the client on
+    # an empty guide. Keep those records in the payload for coverage reporting
+    # while limiting the interactive decision to content-capable approaches.
+    unavailable_options = [
+        option
+        for option in known_options
+        if option.get("content_status") in {"coverage_gap", "source_indexed", None, ""}
+    ]
+    options = [option for option in known_options if option not in unavailable_options]
+    unfiltered_option_ids = [option.get("approach_id") for option in options]
+    options, requested_family = _technique_filtered_options(prompt, options)
+    technique_narrowed = [option.get("approach_id") for option in options] != unfiltered_option_ids
+    if requested_family and not options:
+        return {
+            "status": "unavailable",
+            "selected_approach_id": None,
+            "selected_approach_ids": [],
+            "approaches": [],
+            "unavailable_approaches": unavailable_options,
+            "coverage": packet.get("approach_coverage") or {},
+            "review": packet.get("review") or {},
+            "message": f"Reviewed {requested_family.replace('_', ' ')} approach guidance is not available for this procedure.",
+        }
     normalized_prompt = " ".join(re.findall(r"[a-z0-9]+", prompt.lower()))
     explicitly_named = []
     for option in options:
@@ -465,12 +656,30 @@ def approach_decision_payload(prompt: str, payload: Optional[Dict[str, Any]]) ->
         ):
             explicitly_named.append(approach_id)
     selected_ids = list(dict.fromkeys(explicitly_named))
-    selected = selected_ids[0] if len(selected_ids) == 1 else detect_requested_approach(prompt, packet)
+    selectable_packet = {**packet, "approaches": options}
+    selected = selected_ids[0] if len(selected_ids) == 1 else detect_requested_approach(
+        prompt, selectable_packet
+    )
+    if not selected and detect_requested_approach(
+        prompt, {**packet, "approaches": unavailable_options}
+    ):
+        return {
+            "status": "unavailable",
+            "selected_approach_id": None,
+            "selected_approach_ids": [],
+            "approaches": [],
+            "unavailable_approaches": unavailable_options,
+            "coverage": packet.get("approach_coverage") or {},
+            "review": packet.get("review") or {},
+            "message": "Reviewed approach guidance is not available for the requested technique.",
+        }
     if selected and not selected_ids:
         selected_ids = [selected]
     if len(selected_ids) > 1:
         selected = selected_ids[0]
-    if not selected and len(options) == 1 and options[0].get("role") == "primary":
+    if not selected and len(options) == 1 and (
+        options[0].get("role") == "primary" or technique_narrowed
+    ):
         selected = options[0].get("approach_id")
         selected_ids = [selected]
     return {
@@ -478,6 +687,7 @@ def approach_decision_payload(prompt: str, payload: Optional[Dict[str, Any]]) ->
         "selected_approach_id": selected,
         "selected_approach_ids": selected_ids,
         "approaches": options,
+        "unavailable_approaches": unavailable_options,
         "coverage": packet.get("approach_coverage") or {},
         "review": packet.get("review") or {},
         "message": (

@@ -182,6 +182,11 @@
   ],
   "procedure_applications": [
     {
+      "procedure_id": "femoral_shaft_fracture_orif",
+      "relationship": "primary_option",
+      "condition": "An antegrade femoral shaft nail with a greater-trochanter start is selected"
+    },
+    {
       "procedure_id": "distal_femur_fracture_intramedullary_nailing",
       "relationship": "conditional_option",
       "condition": "A proximally curved antegrade nail is selected and a centered greater-trochanter start matches implant design"

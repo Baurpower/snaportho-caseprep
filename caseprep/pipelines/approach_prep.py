@@ -129,6 +129,71 @@ def _selected_packet(procedure_id: str, selected_approach_id: Optional[str]) -> 
     return library.get(selected_approach_id)
 
 
+def _packet_from_decision_option(option: Dict[str, Any]) -> Dict[str, Any]:
+    """Adapt a curated inline/legacy option into the native pipeline shape."""
+    def rows(field: str) -> List[Dict[str, Any]]:
+        values = option.get(field) or []
+        if field == "corridor":
+            values = [values] if clean(values) else []
+        result: List[Dict[str, Any]] = []
+        for value in values if isinstance(values, list) else []:
+            if isinstance(value, dict):
+                text = clean(
+                    value.get("text")
+                    or value.get("answer")
+                    or value.get("structure")
+                    or value.get("landmark")
+                    or value.get("name")
+                    or value.get("layer_name")
+                )
+            else:
+                text = clean(value)
+            if text:
+                result.append({"text": text})
+        return result
+
+    sources = [
+        {
+            "source_id": f"inline-{index}",
+            "title": str(url),
+            "url": str(url),
+        }
+        for index, url in enumerate(option.get("source_urls") or [])
+        if clean(url)
+    ]
+    return {
+        "approach_id": option.get("approach_id"),
+        "name": option.get("name"),
+        "content_status": option.get("content_status") or "curated",
+        "review": {"status": option.get("review_status") or "agent_review_pending"},
+        "sources": sources,
+        "claims": [],
+        "corridor": clean(option.get("corridor")),
+        "positioning": rows("positioning"),
+        "setup": [],
+        "surface_landmarks": rows("landmarks"),
+        "incision": [],
+        "superficial_interval": [],
+        "deep_interval": [],
+        "layers": rows("layers"),
+        "structures_encountered": [],
+        "structures_at_risk": rows("structures_at_risk"),
+        "danger_zones": [],
+        "retraction_hazards": [],
+        "exposure": rows("exposure"),
+        "limitations": rows("selection_limitations"),
+        "extensions": [],
+        "indications": rows("selection_indications"),
+        "relative_contraindications": [],
+        "implant_implications": [],
+        "fluoroscopy_implications": [],
+        "closure": [],
+        "complications": rows("pitfalls"),
+        "bailouts": [],
+        "questions": option.get("questions") or [],
+    }
+
+
 def build_approach_prep(
     prompt: str,
     procedure_id: str,
@@ -147,11 +212,18 @@ def build_approach_prep(
         if decision.get("selected_approach_id")
         else []
     )
-    packets = [
-        packet
-        for approach_id in selected_ids
-        if (packet := _selected_packet(procedure_id, approach_id))
-    ]
+    options_by_id = {
+        str(option.get("approach_id")): option
+        for option in decision.get("approaches") or []
+        if option.get("approach_id")
+    }
+    packets = []
+    for approach_id in selected_ids:
+        packet = _selected_packet(procedure_id, approach_id)
+        if not packet and approach_id in options_by_id:
+            packet = _packet_from_decision_option(options_by_id[approach_id])
+        if packet:
+            packets.append(packet)
     packet = packets[0] if packets else None
     sections: Dict[str, Dict[str, Any]] = {}
     questions: List[Dict[str, Any]] = []
