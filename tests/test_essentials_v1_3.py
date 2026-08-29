@@ -13,7 +13,7 @@ from caseprep.services.essentials_v1_3 import (
 
 VALID_RESPONSE = {
     "indications": {
-        "summary": "Operate for symptomatic disease that has failed appropriate nonoperative care.",
+        "summary": "Operate for end-stage arthritis after nonoperative treatment fails.",
         "key_points": ["Progressive functional limitation", "Failure of nonoperative treatment"],
         "case_specific_note": None,
     },
@@ -25,7 +25,7 @@ VALID_RESPONSE = {
         "failure_mode": "Unrecognized injury during exposure.",
     },
     "postop_protocol": {
-        "summary": "Protect the reconstruction while beginning appropriate rehabilitation.",
+        "summary": "Protect the reconstruction while beginning staged rehabilitation.",
         "immediate_priorities": ["Repeat and document the neurovascular examination"],
         "immobilization": "Use procedure-appropriate protection.",
         "weight_bearing": "Follow fixation- and surgeon-specific restrictions.",
@@ -36,9 +36,15 @@ VALID_RESPONSE = {
     },
     "citations": {
         "indications.summary": ["E1"],
+        "indications.key_points": ["E1"],
+        "critical_portion.name": ["E1"],
         "critical_portion.summary": ["E1"],
         "critical_portion.why_it_matters": ["E1"],
+        "critical_portion.execution_points": ["E1"],
         "critical_portion.failure_mode": ["E1"],
+        "postop_protocol.summary": ["E1"],
+        "postop_protocol.immediate_priorities": ["E1"],
+        "postop_protocol.red_flags": ["E1"],
         "postop_protocol.immobilization": ["E1"],
         "postop_protocol.weight_bearing": ["E1"],
         "postop_protocol.motion": ["E1"],
@@ -112,6 +118,24 @@ class EssentialsV13Tests(unittest.TestCase):
         self.assertEqual(len(evidence), 1)
         self.assertEqual(evidence[0]["source_ids"], ["orthobullets_12457"])
 
+    def test_selected_approach_excludes_legacy_wrong_corridor_context(self) -> None:
+        evidence = build_evidence(
+            {
+                "surgical_approach_anatomy": ["Split vastus lateralis for lateral plating."],
+                "source_urls": ["https://example.org/legacy"],
+            },
+            {
+                "coverage": {"approach_id": "femur_retrograde_nailing_entry"},
+                "sections": {"approach_exposure": {"items": [{
+                    "answer": "Enter through the intercondylar notch.",
+                    "source_ids": ["orthobullets_12457"],
+                }]}},
+            },
+        )
+        body = " ".join(row["text"] for row in evidence).lower()
+        self.assertIn("intercondylar notch", body)
+        self.assertNotIn("vastus lateralis", body)
+
     def test_rejects_uncited_core_claim(self) -> None:
         output = json.loads(json.dumps(VALID_RESPONSE))
         del output["citations"]["critical_portion.failure_mode"]
@@ -122,6 +146,19 @@ class EssentialsV13Tests(unittest.TestCase):
         )
         self.assertFalse(verification["passed"])
         self.assertIn("critical_portion.failure_mode", " ".join(verification["errors"]))
+
+    def test_rejects_generic_femoral_nailing_boilerplate(self) -> None:
+        output = json.loads(json.dumps(VALID_RESPONSE))
+        output["critical_portion"]["summary"] = (
+            "Proper reaming and nail insertion provide adequate stabilization."
+        )
+        verification = verify_essentials(
+            output,
+            [{"evidence_id": "E1", "text": "Specific sourced fact", "source_ids": ["s1"]}],
+            {"requested_case": "Retrograde femoral nail"},
+        )
+        self.assertFalse(verification["passed"])
+        self.assertIn("generic essentials language", " ".join(verification["errors"]))
 
     def test_rejects_incomplete_model_response(self) -> None:
         client = MagicMock()

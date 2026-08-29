@@ -11,6 +11,7 @@ from __future__ import annotations
 
 import time
 from typing import Any, Dict, Iterable, List, Optional
+from urllib.parse import urlparse
 
 from caseprep.approach_library import ApproachLibrary
 from caseprep.pipelines.shared import clean, item, pipeline_result
@@ -49,6 +50,45 @@ SECTION_FIELDS = {
         ("bailouts", "Bailout", "bailout"),
     ),
 }
+
+
+def further_reading_resources(approach_prep: Dict[str, Any]) -> List[Dict[str, Any]]:
+    """Turn selected-approach sources into user-facing reading recommendations."""
+    resources: List[Dict[str, Any]] = []
+    seen: set[str] = set()
+    approach_name = clean((approach_prep.get("coverage") or {}).get("approach_name"))
+    for source in approach_prep.get("sources") or []:
+        if not isinstance(source, dict):
+            continue
+        url = clean(source.get("url"))
+        parsed = urlparse(url)
+        if parsed.scheme != "https" or not parsed.netloc or url in seen:
+            continue
+        seen.add(url)
+        publisher = clean(source.get("provider") or source.get("publisher"))
+        title = clean(source.get("title")) or parsed.netloc
+        provider_key = publisher.lower()
+        if "ao surgery" in provider_key:
+            resource_type = "operative_technique"
+            best_for = "Step-by-step approach, positioning, and operative technique"
+        elif "orthobullets" in provider_key:
+            resource_type = "clinical_review"
+            best_for = "High-yield indications, technique, complications, and review"
+        else:
+            resource_type = "case_reference"
+            best_for = "Deeper review of the selected operative approach"
+        resources.append(
+            {
+                "source_id": clean(source.get("source_id")) or url,
+                "title": title,
+                "source_name": publisher or parsed.netloc,
+                "url": url,
+                "resource_type": resource_type,
+                "best_for": best_for,
+                "badges": [value for value in ("Selected approach", approach_name) if value],
+            }
+        )
+    return resources
 
 
 def _source_map(packet: Dict[str, Any]) -> Dict[str, Dict[str, Any]]:

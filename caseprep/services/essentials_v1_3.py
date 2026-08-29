@@ -21,7 +21,13 @@ the expected postoperative protocol.
 Hard rules:
 - Write declarative teaching content, never quiz questions or Q/A.
 - Every factual output field must be supported by one or more evidence IDs.
-- Put those IDs in `citations`, keyed by the exact JSON field path.
+- Put those IDs in `citations`, keyed by the exact JSON field path. Cite list
+  fields at their list path (for example `critical_portion.execution_points`).
+- Prefer concrete anatomy, reduction, imaging, and construct facts from the
+  selected approach over generic surgical advice.
+- Do not write empty phrases such as "proper technique," "adequate
+  stabilization," "appropriate size," "ensure alignment," or "monitor for
+  complications." State the evidenced action, landmark, check, or failure.
 - When evidence is absent, say that the detail is case-, construct-, or
   surgeon-specific. Never fill an evidence gap from memory.
 - Never mix antegrade and retrograde entry anatomy.
@@ -52,12 +58,21 @@ CONTEXT_FIELDS = (
     "limitations", "approach_specific_notes",
 )
 CORE_CITATION_PATHS = (
-    "indications.summary", "critical_portion.summary",
-    "critical_portion.why_it_matters", "critical_portion.failure_mode",
+    "indications.summary", "indications.key_points",
+    "critical_portion.name", "critical_portion.summary",
+    "critical_portion.why_it_matters", "critical_portion.execution_points",
+    "critical_portion.failure_mode", "postop_protocol.summary",
+    "postop_protocol.immediate_priorities", "postop_protocol.red_flags",
 )
 VARIABILITY_TERMS = (
     "case-specific", "construct-specific", "surgeon-specific", "depends on",
     "based on fixation", "based on construct", "confirm with",
+)
+GENERIC_ESSENTIALS_PHRASES = (
+    "proper reaming", "proper alignment", "adequate stabilization",
+    "appropriate reamer", "appropriate size", "ensure proper",
+    "optimal alignment", "monitor for any signs", "appropriate rehabilitation",
+    "proper technique",
 )
 
 
@@ -115,7 +130,14 @@ def build_evidence(payload: Optional[Dict[str, Any]], approach_prep: Dict[str, A
                 add(entry.get("answer"), entry.get("source_ids"), section_id)
 
     payload_refs = _payload_source_ids(payload)
-    for field in CONTEXT_FIELDS:
+    # Once an exact approach has been selected, legacy aggregate anatomy is
+    # unsafe evidence: older packets commonly describe a different corridor
+    # (for example lateral plating inside a retrograde femoral-nail case).
+    # Approach-library claims own the operative and indication content. The
+    # legacy payload may only supplement a genuinely explicit postop plan.
+    selected_approach = clean((approach_prep.get("coverage") or {}).get("approach_id"))
+    payload_fields = ("postop_plan",) if selected_approach else CONTEXT_FIELDS
+    for field in payload_fields:
         if payload and payload.get(field):
             for statement in _flatten_text(payload[field]):
                 add(statement, payload_refs, field)
@@ -170,15 +192,31 @@ def _approach_contradictions(identity: Dict[str, Any], output: Dict[str, Any]) -
     errors: List[str] = []
     if "retrograde" in case_text and any(term in body for term in ("intertrochanteric", "greater trochanter", "piriformis")):
         errors.append("retrograde femoral case contains an antegrade proximal entry point")
+    critical = " ".join(_flatten_text(output.get("critical_portion") or {})).lower()
+    if "retrograde" in case_text and not any(
+        term in critical
+        for term in ("retrograde", "intercondylar", "blumensaat", "patellar tendon", "pcl")
+    ):
+        errors.append("retrograde femoral critical portion is not anchored to the selected corridor")
     if "antegrade" in case_text and any(term in body for term in ("intercondylar notch", "blumensaat")):
         errors.append("antegrade femoral case contains a retrograde distal entry point")
     return errors
 
 
+def _specificity_errors(output: Dict[str, Any]) -> List[str]:
+    """Reject boilerplate that conveys no case-specific operative decision."""
+    body = _all_output_text(output)
+    return [
+        f"generic essentials language: {phrase}"
+        for phrase in GENERIC_ESSENTIALS_PHRASES
+        if phrase in body
+    ]
+
+
 def verify_essentials(output: Dict[str, Any], evidence: List[Dict[str, Any]], identity: Dict[str, Any]) -> Dict[str, Any]:
     valid_ids = {row["evidence_id"] for row in evidence}
     citations = output.get("citations") or {}
-    errors = _approach_contradictions(identity, output)
+    errors = _approach_contradictions(identity, output) + _specificity_errors(output)
     supported_paths = 0
     for path in CORE_CITATION_PATHS:
         refs = citations.get(path) or []
@@ -191,6 +229,15 @@ def verify_essentials(output: Dict[str, Any], evidence: List[Dict[str, Any]], id
         refs = citations.get(f"postop_protocol.{field}") or []
         if value and not (refs and all(ref in valid_ids for ref in refs)) and not any(term in value for term in VARIABILITY_TERMS):
             errors.append(f"unsupported postoperative directive at postop_protocol.{field}")
+    # Citations may not point at empty evidence or at claims without a source.
+    evidence_by_id = {row["evidence_id"]: row for row in evidence}
+    for path, refs in citations.items():
+        if not isinstance(refs, list):
+            continue
+        for ref in refs:
+            row = evidence_by_id.get(ref)
+            if row is not None and not row.get("source_ids"):
+                errors.append(f"citation {ref} for {path} has no source")
     cited_ids = {ref for refs in citations.values() if isinstance(refs, list) for ref in refs if ref in valid_ids}
     source_ids = sorted({source_id for row in evidence if row["evidence_id"] in cited_ids
                          for source_id in row.get("source_ids") or []})

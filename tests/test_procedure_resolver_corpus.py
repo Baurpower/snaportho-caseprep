@@ -59,6 +59,10 @@ class ResolverCorpus(unittest.TestCase):
             with self.subTest(prompt=prompt):
                 self.assertEqual(resolve_offline(prompt)["procedure_slug"], expected)
 
+    def test_distal_femoral_shaft_is_not_collapsed_to_distal_femur(self):
+        result = resolve_offline("distal femoral shaft orif retrograde imn nail")
+        self.assertEqual(result["procedure_slug"], "femoral_shaft_fracture_orif")
+
     def test_technique_shorthand_routes_across_procedure_families(self):
         cases = {
             "femoral neck pinning": "femoral_neck_fracture_orif_young",

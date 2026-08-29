@@ -102,6 +102,30 @@ class PacketV3Tests(unittest.TestCase):
             decision["selected_approach_id"], "femur_retrograde_nailing_entry"
         )
 
+    def test_im_nail_compatibility_slug_has_retrograde_approach_content(self):
+        seed = {
+            "schema_version": "brobot_case_prep_payload_v2",
+            "procedure_id": "femoral_shaft_im_nail",
+            "procedure_name": "Femoral Shaft IM Nailing",
+            "case_prep_status": "unreviewed",
+            "procedure_overview": "",
+        }
+        decision = approach_decision_payload(
+            "distal femoral shaft orif retrograde imn nail", seed
+        )
+        self.assertEqual(decision["status"], "selected")
+        self.assertEqual(
+            decision["selected_approach_id"], "femur_retrograde_nailing_entry"
+        )
+        self.assertTrue(decision["approaches"])
+
+        generic = approach_decision_payload("femoral IMN", seed)
+        self.assertEqual(generic["status"], "choice_required")
+        self.assertIn(
+            "femur_retrograde_nailing_entry",
+            {option["approach_id"] for option in generic["approaches"]},
+        )
+
     def test_named_nailing_corridor_is_selected(self):
         packet = self._payload("tibial_shaft_fracture_orif")
         decision = approach_decision_payload("suprapatellar tibial nailing", packet)

@@ -7,6 +7,7 @@ from pathlib import Path
 from caseprep.approach_library import ApproachLibrary
 from caseprep.approach_library.schema import content_hash, empty_packet, validate_packet
 from caseprep.services.packet_v3 import approach_decision_payload, normalize_packet
+from caseprep.pipelines.approach_prep import further_reading_resources
 from scripts.compile_curated_approaches import CURATED_DIR, _definitions, compile_definition
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -23,6 +24,36 @@ class ApproachLibraryTests(unittest.TestCase):
         self.assertGreaterEqual(len(rows), 600)
         self.assertEqual(providers, {"ao_surgery_reference", "orthobullets"})
         self.assertEqual(len(rows), len({row["url"] for row in rows}))
+
+    def test_selected_approach_sources_become_reading_recommendations(self):
+        resources = further_reading_resources(
+            {
+                "coverage": {
+                    "approach_id": "femur_retrograde_nailing_entry",
+                    "approach_name": "Retrograde nailing approach to the femur",
+                },
+                "sources": [
+                    {
+                        "source_id": "ao-1",
+                        "provider": "AO Surgery Reference",
+                        "title": "Retrograde nailing approach",
+                        "url": "https://surgeryreference.aofoundation.org/example",
+                    },
+                    {
+                        "source_id": "ob-1",
+                        "provider": "Orthobullets",
+                        "title": "Femoral Shaft Retrograde IM Nailing",
+                        "url": "https://www.orthobullets.com/trauma/example",
+                    },
+                    {"source_id": "bad", "url": "http://example.org/not-trusted"},
+                ],
+            }
+        )
+        self.assertEqual(len(resources), 2)
+        self.assertEqual(resources[0]["resource_type"], "operative_technique")
+        self.assertEqual(resources[1]["resource_type"], "clinical_review")
+        self.assertTrue(all(row["best_for"] for row in resources))
+        self.assertTrue(all(row["url"].startswith("https://") for row in resources))
 
     def test_source_index_seed_cannot_publish_as_clinical_guidance(self):
         packet = empty_packet("approach_test", "Test approach", region="test")

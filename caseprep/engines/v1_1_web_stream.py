@@ -313,6 +313,22 @@ async def stream_caseprep_packet(
             source="approach_library",
             duration_ms=approach_prep["duration_ms"],
         )
+    from caseprep.pipelines.approach_prep import further_reading_resources
+
+    reading_resources = further_reading_resources(approach_prep)
+    if reading_resources:
+        yield protocol.section_event(
+            "further_reading",
+            status="complete",
+            payload={
+                "resources": reading_resources,
+                "approach_id": approach_prep["coverage"].get("approach_id"),
+                "approach_name": approach_prep["coverage"].get("approach_name"),
+            },
+            source="trusted_recommendations",
+            confidence=1.0,
+            duration_ms=approach_prep["duration_ms"],
+        )
     yield protocol.progress_event(
         "assembling", "Loading the case essentials", 24, 38,
         elapsed_ms=int((time.monotonic() - started) * 1000),

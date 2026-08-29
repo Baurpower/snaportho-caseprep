@@ -411,6 +411,11 @@ def resolve_procedure(prompt: str, openai_client: Optional[Any] = None) -> Dict[
     # before the generic alias scorer. This prevents a broad alias such as
     # "total hip arthroplasty" from beating the explicitly requested approach.
     deterministic_routes = (
+        # "Distal femoral shaft" describes the distal third of the shaft; it
+        # is not necessarily a distal-femur (supracondylar/articular) fracture.
+        # Preserve the explicit shaft noun before the broader distal-femur
+        # nailing routes below get a chance to consume the prompt.
+        (r"\b(distal femur shaft|distal femoral shaft)\b.*\bnailing\b", "femoral_shaft_fracture_orif"),
         (r"\b(direct anterior|anterior)\b.*\b(total hip|hip arthroplasty|hip replacement|tha)\b", "tha_anterior"),
         (r"\b(total hip|hip arthroplasty|hip replacement|tha)\b.*\b(direct anterior|anterior)\b", "tha_anterior"),
         (r"\b(infected|infection|pji|cement spacer|antibiotic spacer|explant)\b.*\b(tka|total knee|knee arthroplasty)\b", "revision_tka"),
