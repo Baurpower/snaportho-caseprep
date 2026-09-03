@@ -179,13 +179,21 @@ def _packet_from_decision_option(option: Dict[str, Any]) -> Dict[str, Any]:
         for value in values if isinstance(values, list) else []:
             if isinstance(value, dict):
                 text = clean(
-                    value.get("text")
+                    value.get("what_user_should_know")
+                    or value.get("why_at_risk")
+                    or value.get("why_it_matters")
+                    or value.get("text")
                     or value.get("answer")
                     or value.get("structure")
                     or value.get("landmark")
                     or value.get("name")
                     or value.get("layer_name")
                 )
+                if field == "structures_at_risk":
+                    text = " ".join(dict.fromkeys(filter(None, [
+                        clean(value.get("structure")), text,
+                        clean(value.get("how_to_avoid_injury") or value.get("protection")),
+                    ])))
             else:
                 text = clean(value)
             if text:

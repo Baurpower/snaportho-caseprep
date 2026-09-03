@@ -183,6 +183,21 @@ def _legacy_primary(payload: Dict[str, Any]) -> Optional[Dict[str, Any]]:
 
 
 def _authored_approaches(procedure_id: str) -> List[Dict[str, Any]]:
+    if procedure_id == "tha_posterior":
+        # Generic THA aliases still resolve to this legacy slug. Offer the
+        # supported THA corridors rather than treating that slug as a choice.
+        # The globally shared posterior module was authored for hemiarthroplasty;
+        # retain the THA packet's own technique and provenance instead.
+        path = BASE_DIR / "data/caseprep/procedures/tha_posterior/certified_payload.json"
+        posterior = _legacy_primary(json.loads(path.read_text(encoding="utf-8")))
+        if posterior:
+            posterior.update({
+                "approach_id": "tha_posterior_moore_southern",
+                "name": "Posterior (Moore/Southern) approach",
+                "aliases": ["posterior tha", "posterolateral", "moore southern"],
+                "selection_indications": ["Posterior approach for total hip arthroplasty."],
+            })
+            return [posterior, *_authored_approaches("tha_anterior")]
     library_rows = []
     for packet in ApproachLibrary().for_procedure(procedure_id):
         runtime = packet.get("runtime_fields")
@@ -200,6 +215,8 @@ def _authored_approaches(procedure_id: str) -> List[Dict[str, Any]]:
                 str(packet.get("name") or ""),
                 flags=re.IGNORECASE,
             )
+            if procedure_id == "tha_anterior":
+                display_name = display_name.removesuffix(" (periprosthetic)")
 
             def texts(field: str) -> List[str]:
                 return [
@@ -629,9 +646,7 @@ def approach_decision_payload(prompt: str, payload: Optional[Dict[str, Any]]) ->
         if option.get("content_status") in {"coverage_gap", "source_indexed", None, ""}
     ]
     options = [option for option in known_options if option not in unavailable_options]
-    unfiltered_option_ids = [option.get("approach_id") for option in options]
     options, requested_family = _technique_filtered_options(prompt, options)
-    technique_narrowed = [option.get("approach_id") for option in options] != unfiltered_option_ids
     if requested_family and not options:
         return {
             "status": "unavailable",
@@ -677,9 +692,9 @@ def approach_decision_payload(prompt: str, payload: Optional[Dict[str, Any]]) ->
         selected_ids = [selected]
     if len(selected_ids) > 1:
         selected = selected_ids[0]
-    if not selected and len(options) == 1 and (
-        options[0].get("role") == "primary" or technique_narrowed
-    ):
+    # Older mobile clients only render a picker for multiple options. A lone
+    # usable option must arrive selected, with its guide, regardless of role.
+    if not selected and len(options) == 1:
         selected = options[0].get("approach_id")
         selected_ids = [selected]
     return {

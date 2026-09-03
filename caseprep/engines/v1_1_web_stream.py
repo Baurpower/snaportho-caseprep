@@ -264,6 +264,9 @@ async def stream_caseprep_packet(
         prompt, identity["canonical_slug"] or "", payload
     )
     approach_decision = approach_prep["decision"]
+    if identity["canonical_slug"] == "tha_posterior" and not approach_decision.get("selected_approach_id"):
+        # The legacy routing ID must not imply an approach before it is chosen.
+        identity["canonical_name"] = "Total Hip Arthroplasty"
     header = build_packet_header(identity, payload)
     header["approach_coverage"] = approach_decision.get("coverage") or {}
     yield protocol.header_event(identity, header)

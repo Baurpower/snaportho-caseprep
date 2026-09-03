@@ -16,6 +16,23 @@ ROOT = Path(__file__).resolve().parents[1]
 
 
 class PacketV3Tests(unittest.TestCase):
+    def test_single_usable_common_option_is_selected_for_older_mobile_clients(self):
+        packet = {
+            "schema_version": "brobot_case_prep_payload_v3",
+            "procedure_id": "test",
+            "approaches": [{
+                "approach_id": "only_corridor", "name": "Available corridor",
+                "role": "common_option", "content_status": "curated",
+            }],
+        }
+        decision = approach_decision_payload("prepare my case", packet)
+        self.assertEqual(decision["status"], "selected")
+        self.assertEqual(decision["selected_approach_ids"], ["only_corridor"])
+        packet["approaches"][0]["content_status"] = "coverage_gap"
+        decision = approach_decision_payload("prepare my case", packet)
+        self.assertFalse(decision["selected_approach_ids"])
+        self.assertFalse(decision["approaches"])
+
     def _payload(self, slug: str):
         return json.loads(
             (ROOT / f"data/caseprep/procedures/{slug}/certified_payload.json").read_text()

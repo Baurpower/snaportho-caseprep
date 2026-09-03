@@ -13,6 +13,32 @@ ROOT = Path(__file__).resolve().parents[1]
 
 
 class ApproachPrepPipelineTests(unittest.TestCase):
+    def test_generic_tha_choices_load_guides_using_existing_mobile_prompts(self):
+        payload = self._payload("tha_posterior")
+        result = build_approach_prep("total hip arthroplasty", "tha_posterior", payload)
+        self.assertEqual(result["decision"]["status"], "choice_required")
+        options = result["decision"]["approaches"]
+        self.assertEqual(len(options), 2)
+        self.assertFalse(result["decision"]["selected_approach_ids"])
+        for option in options:
+            with self.subTest(approach=option["name"]):
+                selected = build_approach_prep(
+                    f"total hip arthroplasty; planned approach: {option['name']}",
+                    "tha_posterior", payload,
+                )
+                self.assertEqual(selected["decision"]["selected_approach_ids"], [option["approach_id"]])
+                for section_id in ("approach_quick_brief", "approach_exposure", "approach_safety", "approach_strategy"):
+                    self.assertTrue(selected["sections"][section_id]["items"], section_id)
+                self.assertNotIn("hemiarthroplasty", json.dumps(selected["sections"]).lower())
+
+    def test_posterior_tha_retains_protection_instructions(self):
+        result = build_approach_prep("posterior THA", "tha_posterior", self._payload("tha_posterior"))
+        self.assertEqual(result["decision"]["status"], "selected")
+        safety = json.dumps(result["sections"]["approach_safety"])
+        self.assertIn("Maintain hip in extension and knee in flexion", safety)
+        exposure = json.dumps(result["sections"]["approach_exposure"])
+        self.assertIn("Patient in lateral decubitus", exposure)
+
     def _payload(self, slug: str) -> dict:
         path = ROOT / "data/caseprep/procedures" / slug / "certified_payload.json"
         if path.exists():

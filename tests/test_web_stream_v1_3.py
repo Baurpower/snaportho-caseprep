@@ -16,6 +16,29 @@ def decode(frame: bytes):
 
 
 class WebStreamV13Tests(unittest.IsolatedAsyncioTestCase):
+    async def test_tha_mobile_choice_round_trip(self):
+        async def stream(prompt):
+            with patch("caseprep.engines.v1_1_web_stream.retrieve_case_qas", return_value=[]):
+                return [decode(frame) async for frame in stream_caseprep_packet_v1_3(
+                    prompt, openai_client=None, config=None,
+                )]
+
+        events = await stream("total hip arthroplasty")
+        header = next(data for name, data in events if name == "header")
+        self.assertEqual(header["header"]["display_name"], "Total Hip Arthroplasty")
+        decision = next(data["payload"] for name, data in events
+                        if name == "section" and data.get("section_id") == "approach_decision")
+        self.assertEqual(decision["status"], "choice_required")
+        self.assertEqual(len(decision["approaches"]), 2)
+        for option in decision["approaches"]:
+            with self.subTest(approach=option["name"]):
+                selected = await stream(f"total hip arthroplasty; planned approach: {option['name']}")
+                sections = {data["section_id"]: data for name, data in selected if name == "section"}
+                self.assertEqual(sections["approach_decision"]["payload"]["selected_approach_ids"], [option["approach_id"]])
+                for section_id in ("approach_quick_brief", "approach_exposure", "approach_safety", "approach_strategy"):
+                    self.assertTrue(sections[section_id]["items"], section_id)
+                    self.assertNotIn("hemiarthroplasty", json.dumps(sections[section_id]).lower())
+
     async def test_v13_combines_grounded_packet_rag_and_approach_content(self) -> None:
         resolved = {
             "procedure_slug": "tka",
