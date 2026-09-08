@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 """Replay real CasePrep prompts through the latest stream and write a QA report.
 
-The input cohort contains only response_id, created_at, and question. User IDs and
-historical answers are deliberately excluded from both memory and output artifacts.
+The input cohort contains only id, created_at, and prompt from `caseprep_runs`.
+User IDs and stored packets are deliberately excluded from both memory and output artifacts.
 """
 
 from __future__ import annotations
@@ -82,21 +82,22 @@ def fetch_cases(limit: int, env_path: Path) -> list[dict[str, Any]]:
             f"Missing SUPABASE_URL/NEXT_PUBLIC_SUPABASE_URL or SUPABASE_SERVICE_ROLE_KEY in {env_path}"
         )
     query = urllib.parse.urlencode({
-        "select": "response_id,created_at,question",
-        "question": "not.is.null",
-        "order": "created_at.desc,response_id.desc",
+        "select": "id,created_at,prompt",
+        "prompt": "not.is.null",
+        "client_platform": "eq.web",
+        "order": "created_at.desc,id.desc",
         "limit": str(limit),
     })
     request = urllib.request.Request(
-        f"{base_url.rstrip('/')}/rest/v1/brobot_user_responses?{query}",
+        f"{base_url.rstrip('/')}/rest/v1/caseprep_runs?{query}",
         headers={"apikey": key, "Authorization": f"Bearer {key}", "Accept": "application/json"},
     )
     with urllib.request.urlopen(request, timeout=30) as response:
         rows = json.load(response)
     return [
-        {"response_id": row["response_id"], "created_at": row["created_at"], "question": row["question"].strip()}
+        {"response_id": row["id"], "created_at": row["created_at"], "question": row["prompt"].strip()}
         for row in rows
-        if isinstance(row.get("question"), str) and row["question"].strip()
+        if isinstance(row.get("prompt"), str) and row["prompt"].strip()
     ][:limit]
 
 
@@ -412,7 +413,7 @@ def main() -> None:
     )
     if len(cases) != args.limit:
         raise RuntimeError(f"Expected {args.limit} non-empty cases, fetched {len(cases)}")
-    source = str(args.cohort_file) if args.cohort_file else "brobot_user_responses"
+    source = str(args.cohort_file) if args.cohort_file else "caseprep_runs"
     print(f"Loaded {len(cases)} privacy-minimized cases from {source}", flush=True)
 
     results: list[dict[str, Any]] = []
