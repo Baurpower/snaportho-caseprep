@@ -27,6 +27,10 @@ V1_2_MIN_FALLBACK_SCORE = 0.72
 V1_2_MAX_REGIONAL_FRACTION = 0.20
 V1_2_MIN_QUESTION_TARGET = 8
 POCKET_PIMP_SOURCE_COLLECTION = "pocket_pimped"
+MILLERS_SOURCE_COLLECTION = "millers"
+# Curated Q/A collections in the default namespace, now that source_collection is
+# backfilled on every vector (see scripts/backfill_default_metadata.py).
+CURATED_SOURCE_COLLECTIONS = (POCKET_PIMP_SOURCE_COLLECTION, MILLERS_SOURCE_COLLECTION)
 BUNDLED_QA_PATH = Path(__file__).resolve().parents[2] / "normalized_pp_v1.jsonl"
 
 
@@ -238,25 +242,30 @@ def build_query_branches(query: Dict[str, Any]) -> List[Tuple[str, Optional[Dict
     region = {"region": {"$eq": query["region"]}} if query["region"] else {}
     subregion = {"subregion": {"$eq": query["subregion"]}} if query["subregion"] else {}
     specialty = {"specialty": {"$in": query["specialties"]}} if query["specialties"] else {}
-    pocket_pimp = {
+    # Curated Q/A across BOTH backfilled sources (Pocket Pimped + Millers). The
+    # source_collection + content_type metadata is now populated on every default-
+    # namespace vector (scripts/backfill_default_metadata.py), so this filter is live.
+    curated_qa = {
         "$and": [
-            {"source_collection": {"$eq": POCKET_PIMP_SOURCE_COLLECTION}},
+            {"source_collection": {"$in": list(CURATED_SOURCE_COLLECTIONS)}},
             {"content_type": {"$eq": "qa"}},
         ]
     }
     scoped = _and_filter([procedure, diagnosis, subregion, region, specialty])
-    strict_metadata = os.getenv("CASEPREP_POCKET_PIMP_METADATA_READY", "").lower() in {
+    # Metadata backfill is complete, so strict (source-scoped) mode is the default.
+    # Set CASEPREP_POCKET_PIMP_METADATA_READY=false to fall back to open semantic mode.
+    strict_metadata = os.getenv("CASEPREP_POCKET_PIMP_METADATA_READY", "true").lower() in {
         "1", "true", "yes", "on",
     }
     proposed = [
-        ("pocket_pimped", _and_filter([pocket_pimp, scoped or region or specialty])),
+        ("curated_qa", _and_filter([curated_qa, scoped or region or specialty])),
         ("exact_scope", _and_filter([procedure, diagnosis, subregion, region, specialty])),
         ("procedure_focus", _and_filter([procedure, region])),
         ("regional_backup", _and_filter([region, specialty])),
     ]
     if strict_metadata:
         proposed = [
-            (name, _and_filter([pocket_pimp, filter_value]))
+            (name, _and_filter([curated_qa, filter_value]))
             for name, filter_value in proposed[1:]
         ]
     branches: List[Tuple[str, Optional[Dict[str, Any]]]] = []
@@ -274,7 +283,7 @@ def build_query_branches(query: Dict[str, Any]) -> List[Tuple[str, Optional[Dict
     # metadata boosts and `_scope_compatible` guard keep cross-procedure
     # contamination out of the final set. Once the backfill is live (strict
     # mode) the fallback stays source-filtered to Pocket Pimped Q/A.
-    fallback_filter = pocket_pimp if strict_metadata else None
+    fallback_filter = curated_qa if strict_metadata else None
     if repr(fallback_filter) not in seen:
         branches.append(("semantic_fallback", fallback_filter))
     return branches
@@ -330,8 +339,13 @@ def normalize_match(match: Any, branch: str) -> Optional[Dict[str, Any]]:
     ).hexdigest()[:16]
     source = _clean(metadata.get("source"))
     source_collection = _slug(metadata.get("source_collection"))
-    if not source_collection and "pocketpimp" in _slug(source).replace("_", ""):
-        source_collection = POCKET_PIMP_SOURCE_COLLECTION
+    if not source_collection:
+        # Fallback for any vector predating the source_collection backfill.
+        flat = _slug(source).replace("_", "")
+        if "pocketpimp" in flat:
+            source_collection = POCKET_PIMP_SOURCE_COLLECTION
+        elif "miller" in flat:
+            source_collection = MILLERS_SOURCE_COLLECTION
     return {
         "record_id": record_id,
         "question": question,
@@ -735,3 +749,48 @@ def retrieve_case_qas(
     if use_cache and selected and not failed_branches:
         retrieval_cache.set(cache_key, ([dict(item) for item in selected], run_diagnostics))
     return selected
+
+
+# --- Phase 2: ROCK curriculum reference branch --------------------------------
+# ROCK chapters are authoritative prose, not Q/A, so they are retrieved as a
+# SEPARATE typed set rather than mixed into the Q/A candidate list (which would be
+# down-ranked by the Q/A-oriented reranker and lost). The packet/enrichment layer
+# renders these as "authoritative references" alongside the curated content.
+def retrieve_rock_references(
+    refined: Any,
+    *,
+    limit: int = 3,
+    passages_per_chapter: int = 2,
+) -> List[Dict[str, Any]]:
+    """Return normalized ROCK chapter references for a case query (source_collection=rock).
+
+    Empty list when grounding is disabled, the query is empty, or rock-v1 is
+    unreachable — never raises, so callers can inline it safely.
+    """
+    from caseprep.services.rock_grounding import (
+        rock_grounding_enabled,
+        resolve_rock_context_by_text,
+    )
+
+    if not rock_grounding_enabled():
+        return []
+    query = normalize_query(refined)
+    query_text = embedding_text(query)
+    if not (query_text or "").strip():
+        return []
+    context = resolve_rock_context_by_text(
+        query_text, max_chapters=limit, max_passages=passages_per_chapter
+    )
+    references: List[Dict[str, Any]] = []
+    for ch in context.get("chapters", []):
+        references.append({
+            "record_id": f"rock-{ch.get('chapter_id')}",
+            "source": "AAOS ROCK",
+            "source_collection": "rock",
+            "content_type": "rock_reference",
+            "title": ch.get("title", ""),
+            "url": ch.get("url", ""),
+            "chapter_id": ch.get("chapter_id"),
+            "passages": ch.get("passages", []),
+        })
+    return references

@@ -264,12 +264,32 @@ def enrich_packet_sections(
     if openai_client is None:
         return None
 
+    rock_grounding_block = ""
+    try:
+        from caseprep.services.rock_grounding import (
+            rock_grounding_enabled,
+            resolve_rock_context_by_text,
+            format_grounding_block,
+        )
+
+        if rock_grounding_enabled():
+            query_text = " ".join(
+                str(identity.get(k) or "")
+                for k in ("canonical_name", "diagnosis", "approach")
+            ).strip() or (identity.get("canonical_name") or slug)
+            rock_grounding_block = format_grounding_block(
+                resolve_rock_context_by_text(query_text)
+            )
+    except Exception:
+        rock_grounding_block = ""  # grounding is best-effort; never break enrichment
+
     prompt = build_enrichment_prompt(
         display_name=identity.get("canonical_name") or slug,
         identity=identity,
         curated_payload=curated_payload,
         pimp_questions=pimp_questions or [],
         certified=certified,
+        rock_grounding_block=rock_grounding_block,
     )
     response = openai_client.chat.completions.create(
         model=model,

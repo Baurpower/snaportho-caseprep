@@ -54,6 +54,7 @@ def build_enrichment_prompt(
     curated_payload: Optional[Dict[str, Any]],
     pimp_questions: List[Dict[str, Any]],
     certified: bool,
+    rock_grounding_block: str = "",
 ) -> str:
     curated_block = "None — no curated content exists for this procedure yet."
     if curated_payload:
@@ -88,9 +89,19 @@ def build_enrichment_prompt(
         else "Return operative_flow items ONLY for steps you are confident about; omit anything uncertain."
     )
 
+    rock_block = ""
+    if rock_grounding_block:
+        rock_block = (
+            f"\n{rock_grounding_block}\n"
+            "When ROCK content above is relevant, ground your answer in it and cite the chapter "
+            "title. Synthesize in your own words — never reproduce more than a short phrase verbatim. "
+            "Curated content still wins on any conflict.\n"
+        )
+
     return f"""Procedure: {display_name}
 Case context: {json.dumps({k: identity.get(k) for k in ("diagnosis", "approach", "specialty", "region", "laterality", "patient_age")}, ensure_ascii=False)}
 Certified curated content (authoritative, do not contradict): {curated_block}
+{rock_block}
 
 Pimp questions already selected for this packet (add pedagogy for each by id):
 {questions_block}

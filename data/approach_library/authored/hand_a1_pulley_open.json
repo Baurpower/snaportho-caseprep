@@ -1,0 +1,479 @@
+{
+  "schema_version": "brobot_approach_packet_v1",
+  "approach_id": "hand_a1_pulley_open",
+  "name": "Open A1 pulley approach for trigger digit",
+  "aliases": [
+    "open trigger finger release",
+    "A1 pulley release approach",
+    "palmar A1 pulley incision"
+  ],
+  "region": "palm at the metacarpophalangeal flexion crease",
+  "joint": "metacarpophalangeal",
+  "bones": [
+    "metacarpal head",
+    "proximal phalanx"
+  ],
+  "corridor": "Short palmar incision over the A1 pulley at the MCP joint, with digital neurovascular bundles protected on either side while the pulley is divided longitudinally and A2 is preserved",
+  "positioning": [
+    {
+      "text": "Position supine with the hand supinated on a hand table and a tourniquet high on the arm.",
+      "claim_ids": [
+        "hand_a1_pulley_open_positioning_01"
+      ]
+    }
+  ],
+  "setup": [
+    {
+      "text": "Loupe magnification is useful. Confirm the triggering digit, mark the A1 pulley over the MCP joint, and plan an incision that does not cross palmar creases at a right angle.",
+      "claim_ids": [
+        "hand_a1_pulley_open_setup_01"
+      ]
+    }
+  ],
+  "surface_landmarks": [
+    {
+      "text": "The A1 pulley overlies the MCP joint. Distal palmar crease landmarks the ring and small fingers; proximal palmar crease landmarks the index. The thumb A1 pulley lies volar to the thumb MCP joint, with the radial digital nerve crossing near the field.",
+      "claim_ids": [
+        "hand_a1_pulley_open_surface_landmarks_01"
+      ]
+    }
+  ],
+  "incision": [
+    {
+      "text": "Make an approximately 1 to 1.5 cm longitudinal, transverse, or oblique incision directly over the A1 pulley. Incise only skin and dermis with a 15-blade, then spread subcutaneously.",
+      "claim_ids": [
+        "hand_a1_pulley_open_incision_01"
+      ]
+    }
+  ],
+  "superficial_interval": [
+    {
+      "text": "Bluntly spread subcutaneous fat, identify and retract digital neurovascular bundles to either side, and do not divide the pulley until it is fully visualized.",
+      "claim_ids": [
+        "hand_a1_pulley_open_superficial_interval_01"
+      ]
+    }
+  ],
+  "deep_interval": [
+    {
+      "text": "Expose the A1 pulley, start the division with a knife, and complete it with scissors until the leaflets spread. Stop at the A1–A2 interval; do not divide A2.",
+      "claim_ids": [
+        "hand_a1_pulley_open_deep_interval_01"
+      ]
+    }
+  ],
+  "layers": [
+    {
+      "text": "Skin, subcutaneous fat with digital nerves and vessels, flexor sheath at A1, then FDS/FDP (or FPL in the thumb).",
+      "claim_ids": [
+        "hand_a1_pulley_open_layers_01"
+      ]
+    }
+  ],
+  "structures_encountered": [
+    {
+      "text": "Digital neurovascular bundles, A1 pulley, flexor tendons, and the proximal edge of A2 are encountered.",
+      "claim_ids": [
+        "hand_a1_pulley_open_structures_encountered_01"
+      ]
+    }
+  ],
+  "structures_at_risk": [
+    {
+      "text": "Radial and ulnar digital nerves and arteries, A2 pulley, and flexor tendons are at risk. In the thumb the radial digital nerve is particularly subcutaneous and crosses near the A1 pulley.",
+      "claim_ids": [
+        "hand_a1_pulley_open_structures_at_risk_01"
+      ]
+    }
+  ],
+  "danger_zones": [
+    {
+      "text": "Do not release A2. Percutaneous techniques are relatively contraindicated in the thumb and index because of digital-nerve proximity; open visualization is safer there.",
+      "claim_ids": [
+        "hand_a1_pulley_open_danger_zones_01"
+      ]
+    }
+  ],
+  "retraction_hazards": [
+    {
+      "text": "Retract neurovascular bundles gently with blunt retractors; do not stretch a digital nerve across the sheath.",
+      "claim_ids": [
+        "hand_a1_pulley_open_retraction_hazards_01"
+      ]
+    }
+  ],
+  "exposure": [
+    {
+      "text": "Provides direct visualization of the entire A1 pulley so complete release can be confirmed by spreading the leaflets and watching the tendon glide without triggering.",
+      "claim_ids": [
+        "hand_a1_pulley_open_exposure_01"
+      ]
+    }
+  ],
+  "limitations": [
+    {
+      "text": "Open release is a small but open palmar wound. A1 release produces some ultrasonographic bowstringing; comparative data have not shown a clinically important functional deficit from that bowstringing.",
+      "claim_ids": [
+        "hand_a1_pulley_open_limitations_01"
+      ]
+    }
+  ],
+  "extensions": [
+    {
+      "text": "If triggering persists after A1 release, inspect for a separate proximal constriction or tenosynovitis rather than cutting into A2. Adjacent digits can share a transverse crease incision when both require release.",
+      "claim_ids": [
+        "hand_a1_pulley_open_extensions_01"
+      ]
+    }
+  ],
+  "indications": [
+    {
+      "text": "Open A1 release is indicated for trigger digit that has failed activity modification, NSAIDs, and corticosteroid injection, and remains the standard open technique against which percutaneous methods are compared.",
+      "claim_ids": [
+        "hand_a1_pulley_open_indications_01"
+      ]
+    }
+  ],
+  "relative_contraindications": [
+    {
+      "text": "Percutaneous release is relatively avoided in the thumb and index finger because of digital-nerve proximity; those digits favor open exposure.",
+      "claim_ids": [
+        "hand_a1_pulley_open_relative_contraindications_01"
+      ]
+    }
+  ],
+  "implant_implications": [
+    {
+      "text": "No implant is used. After release, the tendon should glide freely; residual triggering implies incomplete A1 division, not a need to cut A2.",
+      "claim_ids": [
+        "hand_a1_pulley_open_implant_implications_01"
+      ]
+    }
+  ],
+  "fluoroscopy_implications": [
+    {
+      "text": "Fluoroscopy is not part of standard open A1 release; confirmation is clinical tendon glide and, if used, awake active flexion-extension.",
+      "claim_ids": [
+        "hand_a1_pulley_open_fluoroscopy_implications_01"
+      ]
+    }
+  ],
+  "closure": [
+    {
+      "text": "Confirm complete pulley leaflets are apart and triggering is gone, then close skin without capturing a digital nerve.",
+      "claim_ids": [
+        "hand_a1_pulley_open_closure_01"
+      ]
+    }
+  ],
+  "complications": [
+    {
+      "text": "Complications include incomplete release, digital-nerve injury or neurapraxia, A2 injury with bowstringing, tendon scoring, stiffness, scar tenderness, and recurrence.",
+      "claim_ids": [
+        "hand_a1_pulley_open_complications_01"
+      ]
+    }
+  ],
+  "bailouts": [
+    {
+      "text": "If the pulley cannot be seen safely, enlarge the incision rather than cutting blindly. If triggering persists, look proximal to A1 for a separate constriction instead of dividing A2.",
+      "claim_ids": [
+        "hand_a1_pulley_open_bailouts_01"
+      ]
+    }
+  ],
+  "procedure_applications": [
+    {
+      "procedure_id": "trigger_finger_release",
+      "relationship": "primary_option",
+      "condition": "Open A1 pulley release for a triggering digit that has failed nonoperative care"
+    }
+  ],
+  "questions": [
+    {
+      "question": "Which pulley is released for typical trigger finger?",
+      "answer": "The A1 pulley; A2 is preserved.",
+      "claim_ids": [
+        "hand_a1_pulley_open_questions_01"
+      ]
+    },
+    {
+      "question": "Which digital nerve is especially at risk in thumb trigger release?",
+      "answer": "The radial digital nerve, which is subcutaneous and crosses near the thumb A1 pulley.",
+      "claim_ids": [
+        "hand_a1_pulley_open_questions_02"
+      ]
+    },
+    {
+      "question": "What confirms an adequate open release?",
+      "answer": "The A1 leaflets can be spread apart and the tendon glides without triggering.",
+      "claim_ids": [
+        "hand_a1_pulley_open_questions_03"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "hand_a1_pulley_open_positioning_01",
+      "text": "Position supine with the hand supinated on a hand table and a tourniquet high on the arm.",
+      "source_ids": [
+        "orthobullets_trigger_finger_release_12182",
+        "pmid_18776782"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "hand_a1_pulley_open_setup_01",
+      "text": "Loupe magnification is useful. Confirm the triggering digit, mark the A1 pulley over the MCP joint, and plan an incision that does not cross palmar creases at a right angle.",
+      "source_ids": [
+        "orthobullets_trigger_finger_release_12182",
+        "pmid_18776782"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "hand_a1_pulley_open_surface_landmarks_01",
+      "text": "The A1 pulley overlies the MCP joint. Distal palmar crease landmarks the ring and small fingers; proximal palmar crease landmarks the index. The thumb A1 pulley lies volar to the thumb MCP joint, with the radial digital nerve crossing near the field.",
+      "source_ids": [
+        "orthobullets_trigger_finger_release_12182",
+        "pmid_7775770"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "hand_a1_pulley_open_incision_01",
+      "text": "Make an approximately 1 to 1.5 cm longitudinal, transverse, or oblique incision directly over the A1 pulley. Incise only skin and dermis with a 15-blade, then spread subcutaneously.",
+      "source_ids": [
+        "orthobullets_trigger_finger_release_12182",
+        "pmid_18776782"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "hand_a1_pulley_open_superficial_interval_01",
+      "text": "Bluntly spread subcutaneous fat, identify and retract digital neurovascular bundles to either side, and do not divide the pulley until it is fully visualized.",
+      "source_ids": [
+        "orthobullets_trigger_finger_release_12182",
+        "pmid_7775770"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "hand_a1_pulley_open_deep_interval_01",
+      "text": "Expose the A1 pulley, start the division with a knife, and complete it with scissors until the leaflets spread. Stop at the A1–A2 interval; do not divide A2.",
+      "source_ids": [
+        "orthobullets_trigger_finger_release_12182",
+        "pmid_29994878"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "hand_a1_pulley_open_layers_01",
+      "text": "Skin, subcutaneous fat with digital nerves and vessels, flexor sheath at A1, then FDS/FDP (or FPL in the thumb).",
+      "source_ids": [
+        "orthobullets_trigger_finger_release_12182",
+        "pmid_18776782"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "hand_a1_pulley_open_structures_encountered_01",
+      "text": "Digital neurovascular bundles, A1 pulley, flexor tendons, and the proximal edge of A2 are encountered.",
+      "source_ids": [
+        "orthobullets_trigger_finger_release_12182",
+        "pmid_29994878"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "hand_a1_pulley_open_structures_at_risk_01",
+      "text": "Radial and ulnar digital nerves and arteries, A2 pulley, and flexor tendons are at risk. In the thumb the radial digital nerve is particularly subcutaneous and crosses near the A1 pulley.",
+      "source_ids": [
+        "pmid_7775770",
+        "orthobullets_trigger_finger_release_12182"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "hand_a1_pulley_open_danger_zones_01",
+      "text": "Do not release A2. Percutaneous techniques are relatively contraindicated in the thumb and index because of digital-nerve proximity; open visualization is safer there.",
+      "source_ids": [
+        "pmid_7775770",
+        "pmid_29994878"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "hand_a1_pulley_open_retraction_hazards_01",
+      "text": "Retract neurovascular bundles gently with blunt retractors; do not stretch a digital nerve across the sheath.",
+      "source_ids": [
+        "orthobullets_trigger_finger_release_12182",
+        "pmid_7775770"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "hand_a1_pulley_open_exposure_01",
+      "text": "Provides direct visualization of the entire A1 pulley so complete release can be confirmed by spreading the leaflets and watching the tendon glide without triggering.",
+      "source_ids": [
+        "orthobullets_trigger_finger_release_12182",
+        "pmid_18776782"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "hand_a1_pulley_open_limitations_01",
+      "text": "Open release is a small but open palmar wound. A1 release produces some ultrasonographic bowstringing; comparative data have not shown a clinically important functional deficit from that bowstringing.",
+      "source_ids": [
+        "pmid_29994878",
+        "pmid_18776782"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "hand_a1_pulley_open_extensions_01",
+      "text": "If triggering persists after A1 release, inspect for a separate proximal constriction or tenosynovitis rather than cutting into A2. Adjacent digits can share a transverse crease incision when both require release.",
+      "source_ids": [
+        "orthobullets_trigger_finger_release_12182",
+        "pmid_18776782"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "hand_a1_pulley_open_indications_01",
+      "text": "Open A1 release is indicated for trigger digit that has failed activity modification, NSAIDs, and corticosteroid injection, and remains the standard open technique against which percutaneous methods are compared.",
+      "source_ids": [
+        "pmid_18776782",
+        "orthobullets_trigger_finger_release_12182"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "hand_a1_pulley_open_relative_contraindications_01",
+      "text": "Percutaneous release is relatively avoided in the thumb and index finger because of digital-nerve proximity; those digits favor open exposure.",
+      "source_ids": [
+        "pmid_7775770",
+        "pmid_18776782"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "hand_a1_pulley_open_implant_implications_01",
+      "text": "No implant is used. After release, the tendon should glide freely; residual triggering implies incomplete A1 division, not a need to cut A2.",
+      "source_ids": [
+        "orthobullets_trigger_finger_release_12182",
+        "pmid_29994878"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "hand_a1_pulley_open_fluoroscopy_implications_01",
+      "text": "Fluoroscopy is not part of standard open A1 release; confirmation is clinical tendon glide and, if used, awake active flexion-extension.",
+      "source_ids": [
+        "pmid_18776782",
+        "orthobullets_trigger_finger_release_12182"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "hand_a1_pulley_open_closure_01",
+      "text": "Confirm complete pulley leaflets are apart and triggering is gone, then close skin without capturing a digital nerve.",
+      "source_ids": [
+        "orthobullets_trigger_finger_release_12182",
+        "pmid_18776782"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "hand_a1_pulley_open_complications_01",
+      "text": "Complications include incomplete release, digital-nerve injury or neurapraxia, A2 injury with bowstringing, tendon scoring, stiffness, scar tenderness, and recurrence.",
+      "source_ids": [
+        "pmid_29994878",
+        "pmid_7775770",
+        "orthobullets_trigger_finger_release_12182"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "hand_a1_pulley_open_bailouts_01",
+      "text": "If the pulley cannot be seen safely, enlarge the incision rather than cutting blindly. If triggering persists, look proximal to A1 for a separate constriction instead of dividing A2.",
+      "source_ids": [
+        "orthobullets_trigger_finger_release_12182",
+        "pmid_29994878"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "hand_a1_pulley_open_questions_01",
+      "text": "Which pulley is released for typical trigger finger?",
+      "source_ids": [
+        "orthobullets_trigger_finger_release_12182",
+        "pmid_29994878"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "hand_a1_pulley_open_questions_02",
+      "text": "Which digital nerve is especially at risk in thumb trigger release?",
+      "source_ids": [
+        "pmid_7775770",
+        "orthobullets_trigger_finger_release_12182"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "hand_a1_pulley_open_questions_03",
+      "text": "What confirms an adequate open release?",
+      "source_ids": [
+        "orthobullets_trigger_finger_release_12182",
+        "pmid_18776782"
+      ],
+      "risk_level": "medium"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "pmid_18776782",
+      "provider": "PubMed",
+      "title": "Open versus percutaneous release of the A1-pulley for stenosing tendovaginitis",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/18776782/"
+    },
+    {
+      "source_id": "pmid_29994878",
+      "provider": "PubMed",
+      "title": "Does bowstringing affect hand function after A1 pulley release?",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/29994878/"
+    },
+    {
+      "source_id": "pmid_7775770",
+      "provider": "PubMed",
+      "title": "Safety and efficacy of percutaneous trigger finger release",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/7775770/"
+    },
+    {
+      "source_id": "orthobullets_trigger_finger_release_12182",
+      "provider": "Orthobullets",
+      "title": "Trigger Finger Release",
+      "url": "https://www.orthobullets.com/hand/12182/trigger-finger-release"
+    }
+  ],
+  "content_status": "agent_review_pending",
+  "review": {
+    "status": "agent_review_pending",
+    "required_roles": [
+      "adversarial_safety_reviewer",
+      "approach_anatomy_reviewer",
+      "educational_value_reviewer",
+      "evidence_reviewer",
+      "operative_exposure_reviewer",
+      "procedure_applicability_reviewer"
+    ],
+    "completed_roles": []
+  },
+  "resolved_contradiction_keys": [],
+  "authoring_provenance": {
+    "method": "local_codex_curated",
+    "definition_file": "data/approach_library/curated/hand_wrist_live_demand_v1.json",
+    "api_used": false
+  }
+}

@@ -59,19 +59,79 @@ class PacketV3Tests(unittest.TestCase):
     def test_generic_hemi_exposes_all_curated_approaches_and_requires_choice(self):
         packet = self._payload("hip_hemiarthroplasty")
         decision = approach_decision_payload("hip hemiarthroplasty", packet)
-        self.assertEqual(decision["status"], "choice_required")
-        self.assertEqual(len(decision["approaches"]), 5)
+        self.assertEqual(decision["status"], "selected")
+        self.assertTrue(decision["selected_approach_id"])
+        self.assertLessEqual(len(decision["approaches"]), 3)
         self.assertEqual(decision["coverage"]["gap_count"], 0)
-        self.assertEqual(
+        self.assertIn(
+            "approach_lower_ext_hip_posterior_moore_southern",
             {row["approach_id"] for row in decision["approaches"]},
-            {
-                "lateral_hardinge_hip",
-                "approach_lower_ext_hip_posterior_moore_southern",
-                "hip_anterior_smith_petersen",
-                "hip_anterolateral_watson_jones",
-                "hip_periprosthetic_direct_lateral_hardinge",
-            },
         )
+
+    def test_intertrochanteric_defaults_to_nail_entry_not_hardinge(self):
+        seed = {
+            "schema_version": "brobot_case_prep_payload_v2",
+            "procedure_id": "intertrochanteric_hip_fracture_orif",
+            "procedure_name": "Intertrochanteric Hip Fracture ORIF",
+            "case_prep_status": "unreviewed",
+            "procedure_overview": "",
+        }
+        decision = approach_decision_payload("Intertrochanteric fracture", seed)
+        ids = [row["approach_id"] for row in decision["approaches"]]
+        self.assertEqual(decision["status"], "selected")
+        self.assertEqual(decision["selected_approach_id"], "femur_antegrade_trochanteric_entry")
+        self.assertIn("femur_antegrade_trochanteric_entry", ids)
+        self.assertNotIn("approach_lower_ext_hip_lateral_hardinge", ids)
+        self.assertLessEqual(len(ids), 3)
+
+    def test_live_demand_missing_approaches_now_resolve(self):
+        cases = {
+            "wrist arthroscopy tfcc": (
+                "wrist_arthroscopy_tfcc",
+                "wrist_dorsal_arthroscopy_portals",
+            ),
+            "trigger finger release": (
+                "trigger_finger_release",
+                "hand_a1_pulley_open",
+            ),
+            "acdf": ("acdf", "spine_anterior_cervical_c3_c7"),
+            "olecranon orif": (
+                "olecranon_fracture_orif",
+                "proximal_forearm_posterior_ulna",
+            ),
+            "ankle fracture orif": (
+                "ankle_fracture_orif",
+                "malleolus_lateral_fibula",
+            ),
+        }
+        for prompt, (slug, expected) in cases.items():
+            with self.subTest(prompt=prompt):
+                seed = {
+                    "schema_version": "brobot_case_prep_payload_v2",
+                    "procedure_id": slug,
+                    "procedure_name": slug,
+                    "case_prep_status": "unreviewed",
+                    "procedure_overview": "",
+                }
+                decision = approach_decision_payload(prompt, seed)
+                ids = [row["approach_id"] for row in decision["approaches"]]
+                self.assertEqual(decision["status"], "selected")
+                self.assertEqual(decision["selected_approach_id"], expected)
+                self.assertIn(expected, ids)
+                self.assertNotIn("distal_tibia_posterolateral", ids)
+
+    def test_humeral_shaft_orif_does_not_offer_pin_safe_zones(self):
+        packet = self._payload("humeral_shaft_fracture_orif")
+        decision = approach_decision_payload("Humeral shaft fracture displaced", packet)
+        ids = {row["approach_id"] for row in decision["approaches"]}
+        self.assertEqual(decision["status"], "selected")
+        self.assertLessEqual(len(ids), 3)
+        self.assertTrue(ids & {
+            "approach_humerus_anterolateral_distal",
+            "approach_humerus_posterior_triceps_split",
+        })
+        self.assertNotIn("humerus_percutaneous_pin_safe_zones", ids)
+        self.assertNotIn("humeral_shaft_pin_safe_zones", ids)
 
     def test_explicit_hemi_approach_is_selected(self):
         packet = self._payload("hip_hemiarthroplasty")
@@ -85,7 +145,8 @@ class PacketV3Tests(unittest.TestCase):
     def test_imn_filters_femoral_shaft_packet_to_nailing_approaches(self):
         packet = self._payload("femoral_shaft_fracture_orif")
         decision = approach_decision_payload("femoral shaft IMN", packet)
-        self.assertEqual(decision["status"], "choice_required")
+        self.assertEqual(decision["status"], "selected")
+        self.assertTrue(decision["selected_approach_id"])
         self.assertTrue(decision["approaches"])
         identities = [
             " ".join(
@@ -137,7 +198,7 @@ class PacketV3Tests(unittest.TestCase):
         self.assertTrue(decision["approaches"])
 
         generic = approach_decision_payload("femoral IMN", seed)
-        self.assertEqual(generic["status"], "choice_required")
+        self.assertEqual(generic["status"], "selected")
         self.assertIn(
             "femur_retrograde_nailing_entry",
             {option["approach_id"] for option in generic["approaches"]},
@@ -154,7 +215,7 @@ class PacketV3Tests(unittest.TestCase):
     def test_plating_filters_out_nails_and_external_fixation(self):
         packet = self._payload("femoral_shaft_fracture_orif")
         decision = approach_decision_payload("femoral shaft plating", packet)
-        self.assertEqual(decision["status"], "choice_required")
+        self.assertEqual(decision["status"], "selected")
         self.assertEqual(
             {option["approach_id"] for option in decision["approaches"]},
             {"femoral_shaft_lateral_mipo", "femoral_shaft_lateral_open"},

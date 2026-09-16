@@ -263,6 +263,7 @@ async def stream_caseprep_packet(
     approach_prep = build_approach_prep(
         prompt, identity["canonical_slug"] or "", payload
     )
+    payload = packet_sections.payload_from_approach_prep(payload, approach_prep) or payload
     approach_decision = approach_prep["decision"]
     if identity["canonical_slug"] == "tha_posterior" and not approach_decision.get("selected_approach_id"):
         # The legacy routing ID must not imply an approach before it is chosen.
@@ -702,9 +703,13 @@ async def stream_caseprep_packet(
                 status="complete",
                 payload=essentials["payload"],
                 source=(
-                    "grounded_synthesis"
-                    if (essentials.get("payload", {}).get("verification") or {}).get("passed")
-                    else "ai_synthesis"
+                    "grounded_fallback"
+                    if essentials.get("fallback")
+                    else (
+                        "grounded_synthesis"
+                        if (essentials.get("payload", {}).get("verification") or {}).get("passed")
+                        else "ai_synthesis"
+                    )
                 ),
                 confidence=essentials.get("confidence"),
                 generated_field_paths=["payload"],

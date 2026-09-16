@@ -1,0 +1,16 @@
+{
+  "builtAt": "2026-09-16T14:49:36Z",
+  "mode": "apply",
+  "namespace": "rock-v1",
+  "index": "ankiv3",
+  "embedModel": "text-embedding-3-small",
+  "corpusChecksum": "983a15a39ae40b04",
+  "chunks": 12477,
+  "chaptersCovered": 483,
+  "totalTeachingChars": 22147310,
+  "estTokens": 5667156,
+  "estEmbedCostUSD": 0.1133,
+  "skipped_noncanonical": 60,
+  "skipped_nofile": 2,
+  "upserted": 12477
+}

@@ -25,11 +25,12 @@ class WebStreamV13Tests(unittest.IsolatedAsyncioTestCase):
 
         events = await stream("total hip arthroplasty")
         header = next(data for name, data in events if name == "header")
-        self.assertEqual(header["header"]["display_name"], "Total Hip Arthroplasty")
+        self.assertIn("Total Hip Arthroplasty", header["header"]["display_name"])
         decision = next(data["payload"] for name, data in events
                         if name == "section" and data.get("section_id") == "approach_decision")
-        self.assertEqual(decision["status"], "choice_required")
+        self.assertEqual(decision["status"], "selected")
         self.assertEqual(len(decision["approaches"]), 2)
+        self.assertEqual(len(decision["selected_approach_ids"]), 1)
         for option in decision["approaches"]:
             with self.subTest(approach=option["name"]):
                 selected = await stream(f"total hip arthroplasty; planned approach: {option['name']}")

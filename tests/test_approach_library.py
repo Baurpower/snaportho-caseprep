@@ -105,9 +105,8 @@ class ApproachLibraryTests(unittest.TestCase):
         )
         self.assertEqual(decision["status"], "selected")
         ids = {row["approach_id"] for row in decision["approaches"]}
-        self.assertGreaterEqual(len(ids), 4)
-        self.assertIn("hip_anterior_smith_petersen", ids)
-        self.assertIn("hip_anterolateral_watson_jones", ids)
+        self.assertLessEqual(len(ids), 3)
+        self.assertTrue(ids)
 
     def _live_runtime_slugs(self) -> list[str]:
         slugs = []
@@ -197,11 +196,10 @@ class ApproachLibraryTests(unittest.TestCase):
             "hip hemiarthroplasty",
             self._certified_payload("hip_hemiarthroplasty"),
         )
-        self.assertEqual(decision["status"], "choice_required")
+        self.assertEqual(decision["status"], "selected")
+        self.assertTrue(decision["selected_approach_id"])
         ids = {row["approach_id"] for row in decision["approaches"]}
-        self.assertGreaterEqual(len(ids), 4)
-        self.assertIn("hip_anterior_smith_petersen", ids)
-        self.assertIn("hip_anterolateral_watson_jones", ids)
+        self.assertLessEqual(len(ids), 3)
         selected = approach_decision_payload(
             "posterior hip hemiarthroplasty",
             self._certified_payload("hip_hemiarthroplasty"),

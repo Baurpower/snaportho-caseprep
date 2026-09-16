@@ -126,6 +126,24 @@ class ResolverCorpus(unittest.TestCase):
         result = resolve_offline("acetabulum fracture")
         self.assertIsNone(result["procedure_slug"])
 
+    def test_live_shorthand_prompts_resolve(self):
+        cases = {
+            "Total knee": "tka",
+            "Right total knee": "tka",
+            "Knee arthroplasty": "tka",
+            "Intertrochanteric fracture": "intertrochanteric_hip_fracture_orif",
+            "it fx": "intertrochanteric_hip_fracture_orif",
+            "Orif humeral shaft": "humeral_shaft_fracture_orif",
+            "Humeral shaft fracture displaced": "humeral_shaft_fracture_orif",
+            "Orif left distal humerus": "distal_humerus_fracture_orif",
+            "Scoped wrist for tfcc tear": "wrist_arthroscopy_tfcc",
+            "tfcc": "wrist_arthroscopy_tfcc",
+            "midshaft clavicle": "clavicle_fracture_orif",
+        }
+        for prompt, expected in cases.items():
+            with self.subTest(prompt=prompt):
+                self.assertEqual(resolve_offline(prompt)["procedure_slug"], expected)
+
 
 if __name__ == "__main__":
     unittest.main()

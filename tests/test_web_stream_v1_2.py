@@ -4,7 +4,10 @@ import json
 import unittest
 from unittest.mock import patch
 
-from caseprep.engines.v1_2_web_stream import stream_caseprep_packet_v1_2
+from caseprep.engines.v1_2_web_stream import (
+    evaluate_packet_coverage,
+    stream_caseprep_packet_v1_2,
+)
 from caseprep.schemas_v1_1_packet import sse_event
 
 
@@ -64,6 +67,112 @@ class WebStreamV12Tests(unittest.IsolatedAsyncioTestCase):
             )]
         self.assertNotIn("clarification", [name for name, _ in events])
         self.assertIn("section", [name for name, _ in events])
+
+
+def _pimp_item(index: int) -> dict:
+    return {
+        "id": f"pimp-{index}",
+        "question": f"Question {index}?",
+        "answer": f"Answer {index}",
+        "source": "rag",
+        "source_ids": [f"src-{index}"],
+        "generated": False,
+        "procedure_relevance": "direct",
+        "grounded_count": 1,
+    }
+
+
+class PacketCoverageGateTests(unittest.TestCase):
+    def test_pimp_only_packet_is_limited_even_with_eight_direct_questions(self):
+        pimp_items = [_pimp_item(index) for index in range(11)]
+        summary = evaluate_packet_coverage(
+            canonical_slug="intertrochanteric_hip_fracture_orif",
+            certified=False,
+            emitted_sections={
+                "pimp_questions": {
+                    "items": pimp_items,
+                    "grounded_count": 11,
+                    "generated_count": 0,
+                    "citation_count": 11,
+                }
+            },
+            expected_sections=("anatomy", "operative_flow", "pimp_questions"),
+        )
+        self.assertEqual(summary["coverage_status"], "grounded_partial")
+        self.assertEqual(summary["quality_gate"], "limited")
+        self.assertFalse(summary["has_clinical_body"])
+
+    def test_unresolved_slug_cannot_pass(self):
+        pimp_items = [_pimp_item(index) for index in range(15)]
+        summary = evaluate_packet_coverage(
+            canonical_slug=None,
+            certified=False,
+            emitted_sections={
+                "pimp_questions": {
+                    "items": pimp_items,
+                    "grounded_count": 15,
+                    "generated_count": 0,
+                    "citation_count": 15,
+                },
+                "anatomy": {
+                    "items": [{"id": "a1", "question": "Nerve?", "answer": "Radial"}],
+                    "grounded_count": 1,
+                    "generated_count": 0,
+                    "citation_count": 1,
+                },
+            },
+            expected_sections=("anatomy", "pimp_questions"),
+        )
+        self.assertEqual(summary["coverage_status"], "grounded_partial")
+        self.assertEqual(summary["quality_gate"], "limited")
+
+    def test_grounded_packet_with_anatomy_and_direct_pimp_passes(self):
+        pimp_items = [_pimp_item(index) for index in range(8)]
+        summary = evaluate_packet_coverage(
+            canonical_slug="humeral_shaft_fracture_orif",
+            certified=False,
+            emitted_sections={
+                "pimp_questions": {
+                    "items": pimp_items,
+                    "grounded_count": 8,
+                    "generated_count": 0,
+                    "citation_count": 8,
+                },
+                "anatomy": {
+                    "items": [{"id": "a1", "question": "Nerve?", "answer": "Radial nerve"}],
+                    "grounded_count": 1,
+                    "generated_count": 0,
+                    "citation_count": 1,
+                },
+            },
+            expected_sections=("anatomy", "pimp_questions"),
+        )
+        self.assertEqual(summary["coverage_status"], "grounded_complete")
+        self.assertEqual(summary["quality_gate"], "passed")
+        self.assertTrue(summary["has_clinical_body"])
+
+    def test_approach_detail_counts_as_clinical_body(self):
+        pimp_items = [_pimp_item(index) for index in range(8)]
+        summary = evaluate_packet_coverage(
+            canonical_slug="clavicle_fracture_orif",
+            certified=False,
+            emitted_sections={
+                "pimp_questions": {
+                    "items": pimp_items,
+                    "grounded_count": 8,
+                    "generated_count": 0,
+                    "citation_count": 8,
+                },
+                "approach_safety": {
+                    "items": [{"id": "s1", "question": "At risk", "answer": "Supraclavicular nerves"}],
+                    "grounded_count": 1,
+                    "generated_count": 0,
+                    "citation_count": 1,
+                },
+            },
+            expected_sections=("approach_safety", "pimp_questions"),
+        )
+        self.assertEqual(summary["quality_gate"], "passed")
 
 
 if __name__ == "__main__":

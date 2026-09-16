@@ -17,6 +17,12 @@ EXPECTED_CLINICAL_SECTIONS = tuple(
     section for section in SECTION_IDS if section not in {"related_concepts", "sources"}
 )
 LEGACY_ESSENTIAL_SECTIONS = {"summary", "key_takeaways", "top_things_to_know"}
+APPROACH_DETAIL_SECTIONS = (
+    "approach_quick_brief",
+    "approach_exposure",
+    "approach_safety",
+    "approach_strategy",
+)
 # Themed sections with no curated seed: AI supplementation is allowed through
 # the grounding filter here (clearly marked generated). Every other section
 # still requires direct source support.
@@ -172,6 +178,86 @@ def _transform_section(
     return output, warnings
 
 
+def _item_count(section: Optional[Dict[str, Any]]) -> int:
+    if not section:
+        return 0
+    return len(section.get("items") or [])
+
+
+def has_clinical_body(emitted_sections: Dict[str, Dict[str, Any]]) -> bool:
+    """True when the packet has more than a pimp-question list.
+
+    Anatomy, operative flow, or a filled approach guide are the sections a
+    resident actually uses to prepare. A quiz-only packet must not look complete.
+    """
+    if _item_count(emitted_sections.get("anatomy")):
+        return True
+    if _item_count(emitted_sections.get("operative_flow")):
+        return True
+    return any(
+        _item_count(emitted_sections.get(section_id))
+        for section_id in APPROACH_DETAIL_SECTIONS
+    )
+
+
+def evaluate_packet_coverage(
+    *,
+    canonical_slug: Optional[str],
+    certified: bool,
+    emitted_sections: Dict[str, Dict[str, Any]],
+    expected_sections: Iterable[str],
+) -> Dict[str, Any]:
+    grounded = sum(
+        int(section.get("grounded_count") or 0) for section in emitted_sections.values()
+    )
+    generated = sum(
+        int(section.get("generated_count") or 0) for section in emitted_sections.values()
+    )
+    total = grounded + generated
+    grounded_percentage = round(grounded / total, 3) if total else 0
+    pimp_items = (emitted_sections.get("pimp_questions") or {}).get("items") or []
+    pimp_count = len(pimp_items)
+    citation_count = sum(
+        int(section.get("citation_count") or 0) for section in emitted_sections.values()
+    )
+    direct_pimp_count = sum(
+        item.get("procedure_relevance") == "direct" for item in pimp_items
+    )
+    clinical_body = has_clinical_body(emitted_sections)
+    resolved = bool(canonical_slug)
+    omitted = [section for section in expected_sections if section not in emitted_sections]
+    complete_enough = (
+        resolved
+        and clinical_body
+        and pimp_count >= 8
+        and direct_pimp_count >= 8
+        and grounded_percentage >= 0.8
+        and citation_count > 0
+    )
+    if certified and complete_enough:
+        coverage_status = "certified"
+    elif complete_enough and grounded >= 8:
+        coverage_status = "grounded_complete"
+    elif grounded:
+        coverage_status = "grounded_partial"
+    elif generated:
+        coverage_status = "generated_fallback"
+    else:
+        coverage_status = "unavailable"
+    return {
+        "coverage_status": coverage_status,
+        "quality_gate": "passed" if coverage_status in {"certified", "grounded_complete"} else "limited",
+        "grounded_percentage": grounded_percentage,
+        "grounded_count": grounded,
+        "generated_count": generated,
+        "omitted_sections": omitted,
+        "pimp_question_count": pimp_count,
+        "citation_count": citation_count,
+        "direct_pimp_question_count": direct_pimp_count,
+        "has_clinical_body": clinical_body,
+    }
+
+
 async def stream_caseprep_packet_v1_2(
     prompt: str, *, openai_client: Any, config: Any,
     version: str = VERSION, engine: str = ENGINE,
@@ -237,51 +323,17 @@ async def stream_caseprep_packet_v1_2(
                 yield sse_event("section", transformed)
             continue
         if name == "done":
-            grounded = sum(int(section.get("grounded_count") or 0) for section in emitted_sections.values())
-            generated = sum(int(section.get("generated_count") or 0) for section in emitted_sections.values())
-            total = grounded + generated
-            grounded_percentage = round(grounded / total, 3) if total else 0
-            certified = bool((header_data or {}).get("header", {}).get("certified"))
-            pimp_count = len((emitted_sections.get("pimp_questions") or {}).get("items") or [])
-            citation_count = sum(int(section.get("citation_count") or 0) for section in emitted_sections.values())
-            pimp_items = (emitted_sections.get("pimp_questions") or {}).get("items") or []
-            direct_pimp_count = sum(item.get("procedure_relevance") == "direct" for item in pimp_items)
-            if certified and pimp_count >= 8:
-                coverage_status = "certified"
-            elif grounded_percentage >= 0.8 and grounded >= 8:
-                coverage_status = "grounded_complete"
-            elif grounded:
-                coverage_status = "grounded_partial"
-            elif generated:
-                coverage_status = "generated_fallback"
-            else:
-                coverage_status = "unavailable"
             expected_sections = (
                 tuple(section for section in EXPECTED_CLINICAL_SECTIONS if section not in LEGACY_ESSENTIAL_SECTIONS)
                 if version == "v1.3"
                 else tuple(section for section in EXPECTED_CLINICAL_SECTIONS if section != "essentials")
             )
-            omitted = [section for section in expected_sections if section not in emitted_sections]
-            quality_gate = (
-                "passed"
-                if coverage_status in {"certified", "grounded_complete"}
-                and pimp_count >= 8
-                and grounded_percentage >= 0.8
-                and citation_count > 0
-                and direct_pimp_count >= min(4, pimp_count)
-                else "limited"
+            summary = evaluate_packet_coverage(
+                canonical_slug=((header_data or {}).get("case") or {}).get("canonical_slug"),
+                certified=bool((header_data or {}).get("header", {}).get("certified")),
+                emitted_sections=emitted_sections,
+                expected_sections=expected_sections,
             )
-            summary = {
-                "coverage_status": coverage_status,
-                "quality_gate": quality_gate,
-                "grounded_percentage": grounded_percentage,
-                "grounded_count": grounded,
-                "generated_count": generated,
-                "omitted_sections": omitted,
-                "pimp_question_count": pimp_count,
-                "citation_count": citation_count,
-                "direct_pimp_question_count": direct_pimp_count,
-            }
             yield sse_event("core_done", summary)
             timing = dict(data.get("timing") or {})
             timing["total_ms"] = int((time.monotonic() - started) * 1000)
@@ -291,8 +343,8 @@ async def stream_caseprep_packet_v1_2(
                 "timing": timing,
                 "warnings": list(dict.fromkeys([*(data.get("warnings") or []), *warnings])),
                 "retrieval_summary": {
-                    "accepted_count": grounded,
-                    "generated_count": generated,
+                    "accepted_count": summary["grounded_count"],
+                    "generated_count": summary["generated_count"],
                     "policy_version": version,
                 },
             })

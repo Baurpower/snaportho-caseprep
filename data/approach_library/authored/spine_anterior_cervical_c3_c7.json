@@ -139,6 +139,11 @@
       "procedure_id": "cervical_spine_orif",
       "relationship": "primary_option",
       "condition": "A C3–C7 fracture, tumor, or anterior reconstruction is exposed between the carotid sheath and the viscera"
+    },
+    {
+      "procedure_id": "acdf",
+      "relationship": "primary_option",
+      "condition": "Anterior cervical discectomy and fusion is performed through the Smith-Robinson interval between the carotid sheath and the viscera"
     }
   ],
   "questions": [

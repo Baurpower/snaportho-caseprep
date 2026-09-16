@@ -630,6 +630,59 @@ def _technique_filtered_options(
     return narrowed, requested_family
 
 
+MAX_RUNTIME_APPROACHES = 3
+
+
+def _filter_runtime_approaches(
+    procedure_id: str,
+    prompt: str,
+    options: List[Dict[str, Any]],
+    *,
+    requested_family: Optional[str],
+) -> List[Dict[str, Any]]:
+    """Keep playbook-recommended corridors, not every library packet for the bone."""
+    mapping = procedure_approach_map().get(procedure_id) or {}
+    blocked = {str(value) for value in mapping.get("blocked_approach_ids") or [] if value}
+    options = [
+        option
+        for option in options
+        if str(option.get("approach_id") or "") not in blocked
+    ]
+    recommended = [str(value) for value in mapping.get("recommended_approach_ids") or [] if value]
+    extra: List[str] = []
+    prompt_l = prompt.lower()
+    for row in mapping.get("conditional_approach_ids") or []:
+        if not isinstance(row, dict):
+            continue
+        triggers = [str(trigger).lower() for trigger in row.get("triggers") or []]
+        ids = [str(value) for value in row.get("approach_ids") or [] if value]
+        if ids and (not triggers or any(trigger in prompt_l for trigger in triggers)):
+            extra.extend(ids)
+    allow = list(dict.fromkeys([*recommended, *extra]))
+    by_id = {
+        str(option.get("approach_id")): option
+        for option in options
+        if option.get("approach_id")
+    }
+    if allow and not requested_family:
+        ordered = [by_id[approach_id] for approach_id in allow if approach_id in by_id]
+        if ordered:
+            options = ordered
+    seen_corridors: set[str] = set()
+    deduped: List[Dict[str, Any]] = []
+    for option in options:
+        corridor = re.sub(
+            r"[^a-z0-9]+",
+            " ",
+            str(option.get("name") or option.get("approach_id") or "").lower(),
+        ).strip()
+        if corridor in seen_corridors:
+            continue
+        seen_corridors.add(corridor)
+        deduped.append(option)
+    return deduped[:MAX_RUNTIME_APPROACHES]
+
+
 def approach_decision_payload(prompt: str, payload: Optional[Dict[str, Any]]) -> Dict[str, Any]:
     packet = normalize_packet(payload)
     if not packet:
@@ -675,6 +728,25 @@ def approach_decision_payload(prompt: str, payload: Optional[Dict[str, Any]]) ->
     selected = selected_ids[0] if len(selected_ids) == 1 else detect_requested_approach(
         prompt, selectable_packet
     )
+    named_ids = list(dict.fromkeys([*selected_ids, *([selected] if selected else [])]))
+    filtered = _filter_runtime_approaches(
+        str(packet.get("procedure_id") or ""),
+        prompt,
+        options,
+        requested_family=requested_family,
+    )
+    by_id = {
+        str(option.get("approach_id")): option
+        for option in options
+        if option.get("approach_id")
+    }
+    merged = list(filtered)
+    seen = {str(option.get("approach_id")) for option in merged}
+    for approach_id in named_ids:
+        if approach_id in by_id and approach_id not in seen:
+            merged.append(by_id[approach_id])
+            seen.add(approach_id)
+    options = merged or options
     if not selected and detect_requested_approach(
         prompt, {**packet, "approaches": unavailable_options}
     ):
@@ -692,11 +764,19 @@ def approach_decision_payload(prompt: str, payload: Optional[Dict[str, Any]]) ->
         selected_ids = [selected]
     if len(selected_ids) > 1:
         selected = selected_ids[0]
-    # Older mobile clients only render a picker for multiple options. A lone
-    # usable option must arrive selected, with its guide, regardless of role.
-    if not selected and len(options) == 1:
+    # Always land on a filled guide. A blank picker with empty Setup/Exposure
+    # tabs is worse than showing the first recommended corridor with a switcher.
+    if not selected and options:
         selected = options[0].get("approach_id")
         selected_ids = [selected]
+    selected_name = next(
+        (
+            str(option.get("name") or "").strip()
+            for option in options
+            if option.get("approach_id") == selected
+        ),
+        "",
+    )
     return {
         "status": ("multiple_selected" if len(selected_ids) > 1 else "selected") if selected else ("choice_required" if len(options) > 1 else "unspecified"),
         "selected_approach_id": selected,
@@ -706,8 +786,8 @@ def approach_decision_payload(prompt: str, payload: Optional[Dict[str, Any]]) ->
         "coverage": packet.get("approach_coverage") or {},
         "review": packet.get("review") or {},
         "message": (
-            "Which approach should I prepare? Select one or more; I can compare approaches side by side."
-            if not selected and len(options) > 1
+            f"Showing {selected_name}. Switch if your attending uses a different corridor."
+            if selected and len(options) > 1 and selected_name
             else ""
         ),
     }

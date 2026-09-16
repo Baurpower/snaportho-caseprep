@@ -1,0 +1,405 @@
+{
+  "approaches": [
+    {
+      "approach_id": "wrist_dorsal_arthroscopy_portals",
+      "name": "Dorsal wrist arthroscopy portals",
+      "aliases": [
+        "wrist arthroscopy 3-4 portal",
+        "radiocarpal arthroscopy portals",
+        "TFCC arthroscopic approach",
+        "6R 6U wrist portals"
+      ],
+      "region": "dorsal wrist",
+      "joint": "radiocarpal, midcarpal, and distal radioulnar joints",
+      "bones": ["distal radius", "scaphoid", "lunate", "triquetrum", "ulnar head"],
+      "corridor": "Named dorsal portals in the intervals between extensor compartments, typically starting with the 3-4 viewing portal under finger-trap traction",
+      "sources": [
+        {
+          "source_id": "pmid_39780878",
+          "provider": "PubMed",
+          "title": "Wrist Arthroscopy: Positioning, Portal Placement, and Diagnostic Evaluation",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/39780878/"
+        },
+        {
+          "source_id": "pmid_35593692",
+          "provider": "PubMed",
+          "title": "Wrist arthroscopy for diagnosis and treatment of acute and chronic conditions",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/35593692/"
+        },
+        {
+          "source_id": "pmid_38669653",
+          "provider": "PubMed",
+          "title": "Safe zones in dorsal portals for wrist arthroscopy: a cadaveric study",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/38669653/"
+        },
+        {
+          "source_id": "orthobullets_wrist_arthroscopy_6009",
+          "provider": "Orthobullets",
+          "title": "Wrist Arthroscopy",
+          "url": "https://www.orthobullets.com/hand/6009/wrist-arthroscopy"
+        }
+      ],
+      "procedure_applications": [
+        {
+          "procedure_id": "wrist_arthroscopy_tfcc",
+          "relationship": "primary_option",
+          "condition": "Diagnostic or therapeutic wrist arthroscopy, including TFCC inspection, debridement, or peripheral repair"
+        }
+      ],
+      "sections": {
+        "positioning": [
+          {
+            "text": "Position supine with the arm on a hand table or traction tower, elbow flexed about 90°, and two digits in finger traps for distal distraction.",
+            "source_ids": ["pmid_39780878", "orthobullets_wrist_arthroscopy_6009"]
+          }
+        ],
+        "setup": [
+          {
+            "text": "Mark Lister tubercle, ECU, DRUJ, and planned portal sites before traction distorts landmarks. A 2.7-mm 30° arthroscope is the usual diagnostic scope. Limit traction; sources describe about 10 lb as a typical upper bound.",
+            "source_ids": ["pmid_39780878", "orthobullets_wrist_arthroscopy_6009", "pmid_35593692"],
+            "risk_level": "high"
+          }
+        ],
+        "surface_landmarks": [
+          {
+            "text": "Lister tubercle locates the 3-4 portal about 1 cm distal in the soft spot between EPL and EDC. The 4-5 portal sits in line with the ring-finger metacarpal between EDC and EDM. 6R and 6U lie radial and ulnar to ECU. Midcarpal radial and ulnar portals sit about 1 cm distal to 3-4 and 4-5.",
+            "source_ids": ["pmid_39780878", "pmid_35593692", "orthobullets_wrist_arthroscopy_6009"]
+          }
+        ],
+        "incision": [
+          {
+            "text": "Make a nick in skin only at the chosen portal, then spread with a hemostat to capsule before introducing a blunt trocar. Establish the 3-4 portal first, then create working and inflow portals under needle localization.",
+            "source_ids": ["pmid_39780878", "orthobullets_wrist_arthroscopy_6009"],
+            "risk_level": "high"
+          }
+        ],
+        "superficial_interval": [
+          {
+            "text": "Stay in the named extensor-compartment intervals. Protect EPL and EDC at 3-4, EDC and EDM at 4-5, and ECU at 6R/6U. Superficial sensory branches travel in the subcutaneous layer around the ulnar and radial portals.",
+            "source_ids": ["pmid_38669653", "orthobullets_wrist_arthroscopy_6009"],
+            "risk_level": "high"
+          }
+        ],
+        "deep_interval": [
+          {
+            "text": "Enter the radiocarpal joint at 3-4, then add 4-5 or 6R as the working portal. Use 6U commonly for inflow or ulnar-sided TFCC work. Inspect the midcarpal joint through MCR/MCU before calling the arthroscopy complete when instability is in question.",
+            "source_ids": ["pmid_39780878", "pmid_35593692"],
+            "risk_level": "high"
+          }
+        ],
+        "layers": [
+          {
+            "text": "Skin, subcutaneous sensory branches, extensor retinaculum and compartment intervals, dorsal capsule, then radiocarpal or midcarpal joint.",
+            "source_ids": ["pmid_39780878", "pmid_35593692"]
+          }
+        ],
+        "structures_encountered": [
+          {
+            "text": "EPL, EDC, EDM, ECU, dorsal capsule, scapholunate and lunotriquetral intervals, TFCC disc and foveal attachments, and the midcarpal articulations are encountered according to portal choice.",
+            "source_ids": ["pmid_39780878", "pmid_35593692"]
+          }
+        ],
+        "structures_at_risk": [
+          {
+            "text": "The dorsal sensory branch of the ulnar nerve is closest to 6U and 6R. Superficial radial nerve and radial artery are closest to the 1-2 snuffbox portal. Extensor tendons are at risk at every dorsal portal. Articular cartilage is at risk from sharp trocar entry.",
+            "source_ids": ["pmid_38669653", "orthobullets_wrist_arthroscopy_6009"],
+            "risk_level": "high"
+          }
+        ],
+        "danger_zones": [
+          {
+            "text": "Cadaver mapping found essentially no free neurovascular margin at 1-2 and 6U. Avoid the 1-2 portal unless radial-styloid access is required, and spread bluntly just ulnar or radial to ECU rather than plunging beside it.",
+            "source_ids": ["pmid_38669653", "orthobullets_wrist_arthroscopy_6009"],
+            "risk_level": "high"
+          }
+        ],
+        "retraction_hazards": [
+          {
+            "text": "Do not lever cannulas against extensor tendons or drag instruments across the dorsal sensory branch of the ulnar nerve at 6U. Keep traction modest to limit neuropraxia.",
+            "source_ids": ["pmid_39780878", "pmid_38669653"],
+            "risk_level": "high"
+          }
+        ],
+        "exposure": [
+          {
+            "text": "3-4 is the primary viewing portal for the radiocarpal joint, including the TFCC from radial insertion to ulnar attachment. 4-5 or 6R is the usual working portal for probing and ulnar-sided TFCC work. Midcarpal portals complete assessment of carpal instability.",
+            "source_ids": ["pmid_39780878", "pmid_35593692", "orthobullets_wrist_arthroscopy_6009"]
+          }
+        ],
+        "limitations": [
+          {
+            "text": "Standard dorsal portals give limited access to volar capsule and foveal footprint; some repairs need a dedicated foveal or volar portal. Diagnostic arthroscopy is not a substitute for a preoperative working diagnosis.",
+            "source_ids": ["pmid_39780878", "pmid_35593692"]
+          }
+        ],
+        "extensions": [
+          {
+            "text": "Add MCR and MCU for midcarpal inspection. A direct foveal portal about 1 cm proximal to 6U can expose the foveal footprint when deep TFCC fibers must be repaired.",
+            "source_ids": ["pmid_39780878", "pmid_35593692"]
+          }
+        ],
+        "indications": [
+          {
+            "text": "Use for unexplained mechanical wrist pain after failed nonoperative care, TFCC tears, interosseous ligament injury, chondral debridement, loose-body removal, ganglion excision, and arthroscopic assistance with selected intra-articular fractures.",
+            "source_ids": ["pmid_35593692", "orthobullets_wrist_arthroscopy_6009"]
+          }
+        ],
+        "relative_contraindications": [
+          {
+            "text": "Avoid when infection, advanced pancarpal arthritis, or local soft-tissue conditions make portal placement unsafe, or when a salvage reconstruction is already clearly indicated.",
+            "source_ids": ["pmid_35593692", "orthobullets_wrist_arthroscopy_6009"]
+          }
+        ],
+        "implant_implications": [
+          {
+            "text": "For peripheral TFCC repair, plan outside-in or all-inside sutures through 6R/6U without tethering ECU. Keep a peripheral rim if debriding a central tear so DRUJ stability is not lost.",
+            "source_ids": ["pmid_39780878", "orthobullets_wrist_arthroscopy_6009"],
+            "risk_level": "high"
+          }
+        ],
+        "fluoroscopy_implications": [
+          {
+            "text": "Fluoroscopy is not required for portal creation but is used when arthroscopy assists fracture reduction or when confirming DRUJ alignment after TFCC repair.",
+            "source_ids": ["pmid_35593692", "pmid_39780878"]
+          }
+        ],
+        "closure": [
+          {
+            "text": "Remove cannulas, confirm tendon glide, and close portal skin loosely. Immobilize briefly as needed to allow portal healing and reduce synovial fistula risk.",
+            "source_ids": ["pmid_39780878", "pmid_35593692"]
+          }
+        ],
+        "complications": [
+          {
+            "text": "Complications include sensory neurapraxia (especially DSBUN at 6U and SRN at 1-2), extensor tendon injury, cartilage scuffing, stiffness, fluid extravasation, and portal fistula.",
+            "source_ids": ["pmid_38669653", "pmid_35593692"],
+            "risk_level": "high"
+          }
+        ],
+        "bailouts": [
+          {
+            "text": "If a portal cannot be entered safely, re-localize with a needle under arthroscopic vision from an established portal rather than enlarging blindly. Convert to open ulnar exposure if foveal repair cannot be completed arthroscopically.",
+            "source_ids": ["pmid_39780878", "pmid_35593692"],
+            "risk_level": "high"
+          }
+        ],
+        "questions": [
+          {
+            "question": "Which portal is established first for diagnostic wrist arthroscopy?",
+            "answer": "The 3-4 portal, about 1 cm distal to Lister tubercle between EPL and EDC.",
+            "source_ids": ["pmid_39780878", "orthobullets_wrist_arthroscopy_6009"]
+          },
+          {
+            "question": "Which nerve is most at risk at the 6U portal?",
+            "answer": "The dorsal sensory branch of the ulnar nerve.",
+            "source_ids": ["pmid_38669653", "orthobullets_wrist_arthroscopy_6009"]
+          },
+          {
+            "question": "Which portal is typically used as the working portal for TFCC instrumentation?",
+            "answer": "4-5 or 6R, after viewing from 3-4.",
+            "source_ids": ["pmid_39780878", "pmid_35593692"]
+          }
+        ]
+      }
+    },
+    {
+      "approach_id": "hand_a1_pulley_open",
+      "name": "Open A1 pulley approach for trigger digit",
+      "aliases": [
+        "open trigger finger release",
+        "A1 pulley release approach",
+        "palmar A1 pulley incision"
+      ],
+      "region": "palm at the metacarpophalangeal flexion crease",
+      "joint": "metacarpophalangeal",
+      "bones": ["metacarpal head", "proximal phalanx"],
+      "corridor": "Short palmar incision over the A1 pulley at the MCP joint, with digital neurovascular bundles protected on either side while the pulley is divided longitudinally and A2 is preserved",
+      "sources": [
+        {
+          "source_id": "pmid_18776782",
+          "provider": "PubMed",
+          "title": "Open versus percutaneous release of the A1-pulley for stenosing tendovaginitis",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/18776782/"
+        },
+        {
+          "source_id": "pmid_29994878",
+          "provider": "PubMed",
+          "title": "Does bowstringing affect hand function after A1 pulley release?",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/29994878/"
+        },
+        {
+          "source_id": "pmid_7775770",
+          "provider": "PubMed",
+          "title": "Safety and efficacy of percutaneous trigger finger release",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/7775770/"
+        },
+        {
+          "source_id": "orthobullets_trigger_finger_release_12182",
+          "provider": "Orthobullets",
+          "title": "Trigger Finger Release",
+          "url": "https://www.orthobullets.com/hand/12182/trigger-finger-release"
+        }
+      ],
+      "procedure_applications": [
+        {
+          "procedure_id": "trigger_finger_release",
+          "relationship": "primary_option",
+          "condition": "Open A1 pulley release for a triggering digit that has failed nonoperative care"
+        }
+      ],
+      "sections": {
+        "positioning": [
+          {
+            "text": "Position supine with the hand supinated on a hand table and a tourniquet high on the arm.",
+            "source_ids": ["orthobullets_trigger_finger_release_12182", "pmid_18776782"]
+          }
+        ],
+        "setup": [
+          {
+            "text": "Loupe magnification is useful. Confirm the triggering digit, mark the A1 pulley over the MCP joint, and plan an incision that does not cross palmar creases at a right angle.",
+            "source_ids": ["orthobullets_trigger_finger_release_12182", "pmid_18776782"]
+          }
+        ],
+        "surface_landmarks": [
+          {
+            "text": "The A1 pulley overlies the MCP joint. Distal palmar crease landmarks the ring and small fingers; proximal palmar crease landmarks the index. The thumb A1 pulley lies volar to the thumb MCP joint, with the radial digital nerve crossing near the field.",
+            "source_ids": ["orthobullets_trigger_finger_release_12182", "pmid_7775770"]
+          }
+        ],
+        "incision": [
+          {
+            "text": "Make an approximately 1 to 1.5 cm longitudinal, transverse, or oblique incision directly over the A1 pulley. Incise only skin and dermis with a 15-blade, then spread subcutaneously.",
+            "source_ids": ["orthobullets_trigger_finger_release_12182", "pmid_18776782"]
+          }
+        ],
+        "superficial_interval": [
+          {
+            "text": "Bluntly spread subcutaneous fat, identify and retract digital neurovascular bundles to either side, and do not divide the pulley until it is fully visualized.",
+            "source_ids": ["orthobullets_trigger_finger_release_12182", "pmid_7775770"],
+            "risk_level": "high"
+          }
+        ],
+        "deep_interval": [
+          {
+            "text": "Expose the A1 pulley, start the division with a knife, and complete it with scissors until the leaflets spread. Stop at the A1–A2 interval; do not divide A2.",
+            "source_ids": ["orthobullets_trigger_finger_release_12182", "pmid_29994878"],
+            "risk_level": "high"
+          }
+        ],
+        "layers": [
+          {
+            "text": "Skin, subcutaneous fat with digital nerves and vessels, flexor sheath at A1, then FDS/FDP (or FPL in the thumb).",
+            "source_ids": ["orthobullets_trigger_finger_release_12182", "pmid_18776782"]
+          }
+        ],
+        "structures_encountered": [
+          {
+            "text": "Digital neurovascular bundles, A1 pulley, flexor tendons, and the proximal edge of A2 are encountered.",
+            "source_ids": ["orthobullets_trigger_finger_release_12182", "pmid_29994878"]
+          }
+        ],
+        "structures_at_risk": [
+          {
+            "text": "Radial and ulnar digital nerves and arteries, A2 pulley, and flexor tendons are at risk. In the thumb the radial digital nerve is particularly subcutaneous and crosses near the A1 pulley.",
+            "source_ids": ["pmid_7775770", "orthobullets_trigger_finger_release_12182"],
+            "risk_level": "high"
+          }
+        ],
+        "danger_zones": [
+          {
+            "text": "Do not release A2. Percutaneous techniques are relatively contraindicated in the thumb and index because of digital-nerve proximity; open visualization is safer there.",
+            "source_ids": ["pmid_7775770", "pmid_29994878"],
+            "risk_level": "high"
+          }
+        ],
+        "retraction_hazards": [
+          {
+            "text": "Retract neurovascular bundles gently with blunt retractors; do not stretch a digital nerve across the sheath.",
+            "source_ids": ["orthobullets_trigger_finger_release_12182", "pmid_7775770"],
+            "risk_level": "high"
+          }
+        ],
+        "exposure": [
+          {
+            "text": "Provides direct visualization of the entire A1 pulley so complete release can be confirmed by spreading the leaflets and watching the tendon glide without triggering.",
+            "source_ids": ["orthobullets_trigger_finger_release_12182", "pmid_18776782"]
+          }
+        ],
+        "limitations": [
+          {
+            "text": "Open release is a small but open palmar wound. A1 release produces some ultrasonographic bowstringing; comparative data have not shown a clinically important functional deficit from that bowstringing.",
+            "source_ids": ["pmid_29994878", "pmid_18776782"]
+          }
+        ],
+        "extensions": [
+          {
+            "text": "If triggering persists after A1 release, inspect for a separate proximal constriction or tenosynovitis rather than cutting into A2. Adjacent digits can share a transverse crease incision when both require release.",
+            "source_ids": ["orthobullets_trigger_finger_release_12182", "pmid_18776782"]
+          }
+        ],
+        "indications": [
+          {
+            "text": "Open A1 release is indicated for trigger digit that has failed activity modification, NSAIDs, and corticosteroid injection, and remains the standard open technique against which percutaneous methods are compared.",
+            "source_ids": ["pmid_18776782", "orthobullets_trigger_finger_release_12182"]
+          }
+        ],
+        "relative_contraindications": [
+          {
+            "text": "Percutaneous release is relatively avoided in the thumb and index finger because of digital-nerve proximity; those digits favor open exposure.",
+            "source_ids": ["pmid_7775770", "pmid_18776782"]
+          }
+        ],
+        "implant_implications": [
+          {
+            "text": "No implant is used. After release, the tendon should glide freely; residual triggering implies incomplete A1 division, not a need to cut A2.",
+            "source_ids": ["orthobullets_trigger_finger_release_12182", "pmid_29994878"],
+            "risk_level": "high"
+          }
+        ],
+        "fluoroscopy_implications": [
+          {
+            "text": "Fluoroscopy is not part of standard open A1 release; confirmation is clinical tendon glide and, if used, awake active flexion-extension.",
+            "source_ids": ["pmid_18776782", "orthobullets_trigger_finger_release_12182"]
+          }
+        ],
+        "closure": [
+          {
+            "text": "Confirm complete pulley leaflets are apart and triggering is gone, then close skin without capturing a digital nerve.",
+            "source_ids": ["orthobullets_trigger_finger_release_12182", "pmid_18776782"]
+          }
+        ],
+        "complications": [
+          {
+            "text": "Complications include incomplete release, digital-nerve injury or neurapraxia, A2 injury with bowstringing, tendon scoring, stiffness, scar tenderness, and recurrence.",
+            "source_ids": ["pmid_29994878", "pmid_7775770", "orthobullets_trigger_finger_release_12182"],
+            "risk_level": "high"
+          }
+        ],
+        "bailouts": [
+          {
+            "text": "If the pulley cannot be seen safely, enlarge the incision rather than cutting blindly. If triggering persists, look proximal to A1 for a separate constriction instead of dividing A2.",
+            "source_ids": ["orthobullets_trigger_finger_release_12182", "pmid_29994878"],
+            "risk_level": "high"
+          }
+        ],
+        "questions": [
+          {
+            "question": "Which pulley is released for typical trigger finger?",
+            "answer": "The A1 pulley; A2 is preserved.",
+            "source_ids": ["orthobullets_trigger_finger_release_12182", "pmid_29994878"]
+          },
+          {
+            "question": "Which digital nerve is especially at risk in thumb trigger release?",
+            "answer": "The radial digital nerve, which is subcutaneous and crosses near the thumb A1 pulley.",
+            "source_ids": ["pmid_7775770", "orthobullets_trigger_finger_release_12182"]
+          },
+          {
+            "question": "What confirms an adequate open release?",
+            "answer": "The A1 leaflets can be spread apart and the tendon glides without triggering.",
+            "source_ids": ["orthobullets_trigger_finger_release_12182", "pmid_18776782"]
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -174,6 +174,27 @@ class EssentialsV13Tests(unittest.TestCase):
         )
         self.assertIsNone(result)
 
+    def test_falls_back_to_grounded_claims_without_openai(self) -> None:
+        result = generate_essentials(
+            identity={"canonical_name": "Intertrochanteric Hip Fracture ORIF"},
+            payload=None,
+            approach_prep={
+                "sections": {
+                    "approach_safety": {
+                        "items": [{
+                            "answer": "Protect the abductors at the nail entry.",
+                            "source_ids": ["ao-nail-entry"],
+                        }]
+                    }
+                }
+            },
+            openai_client=None,
+            model="test-model",
+        )
+        self.assertIsNotNone(result)
+        self.assertTrue(result["fallback"])
+        self.assertIn("abductors", result["payload"]["critical_portion"]["summary"])
+
 
 if __name__ == "__main__":
     unittest.main()

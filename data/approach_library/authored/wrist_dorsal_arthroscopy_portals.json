@@ -1,0 +1,485 @@
+{
+  "schema_version": "brobot_approach_packet_v1",
+  "approach_id": "wrist_dorsal_arthroscopy_portals",
+  "name": "Dorsal wrist arthroscopy portals",
+  "aliases": [
+    "wrist arthroscopy 3-4 portal",
+    "radiocarpal arthroscopy portals",
+    "TFCC arthroscopic approach",
+    "6R 6U wrist portals"
+  ],
+  "region": "dorsal wrist",
+  "joint": "radiocarpal, midcarpal, and distal radioulnar joints",
+  "bones": [
+    "distal radius",
+    "scaphoid",
+    "lunate",
+    "triquetrum",
+    "ulnar head"
+  ],
+  "corridor": "Named dorsal portals in the intervals between extensor compartments, typically starting with the 3-4 viewing portal under finger-trap traction",
+  "positioning": [
+    {
+      "text": "Position supine with the arm on a hand table or traction tower, elbow flexed about 90°, and two digits in finger traps for distal distraction.",
+      "claim_ids": [
+        "wrist_dorsal_arthroscopy_portals_positioning_01"
+      ]
+    }
+  ],
+  "setup": [
+    {
+      "text": "Mark Lister tubercle, ECU, DRUJ, and planned portal sites before traction distorts landmarks. A 2.7-mm 30° arthroscope is the usual diagnostic scope. Limit traction; sources describe about 10 lb as a typical upper bound.",
+      "claim_ids": [
+        "wrist_dorsal_arthroscopy_portals_setup_01"
+      ]
+    }
+  ],
+  "surface_landmarks": [
+    {
+      "text": "Lister tubercle locates the 3-4 portal about 1 cm distal in the soft spot between EPL and EDC. The 4-5 portal sits in line with the ring-finger metacarpal between EDC and EDM. 6R and 6U lie radial and ulnar to ECU. Midcarpal radial and ulnar portals sit about 1 cm distal to 3-4 and 4-5.",
+      "claim_ids": [
+        "wrist_dorsal_arthroscopy_portals_surface_landmarks_01"
+      ]
+    }
+  ],
+  "incision": [
+    {
+      "text": "Make a nick in skin only at the chosen portal, then spread with a hemostat to capsule before introducing a blunt trocar. Establish the 3-4 portal first, then create working and inflow portals under needle localization.",
+      "claim_ids": [
+        "wrist_dorsal_arthroscopy_portals_incision_01"
+      ]
+    }
+  ],
+  "superficial_interval": [
+    {
+      "text": "Stay in the named extensor-compartment intervals. Protect EPL and EDC at 3-4, EDC and EDM at 4-5, and ECU at 6R/6U. Superficial sensory branches travel in the subcutaneous layer around the ulnar and radial portals.",
+      "claim_ids": [
+        "wrist_dorsal_arthroscopy_portals_superficial_interval_01"
+      ]
+    }
+  ],
+  "deep_interval": [
+    {
+      "text": "Enter the radiocarpal joint at 3-4, then add 4-5 or 6R as the working portal. Use 6U commonly for inflow or ulnar-sided TFCC work. Inspect the midcarpal joint through MCR/MCU before calling the arthroscopy complete when instability is in question.",
+      "claim_ids": [
+        "wrist_dorsal_arthroscopy_portals_deep_interval_01"
+      ]
+    }
+  ],
+  "layers": [
+    {
+      "text": "Skin, subcutaneous sensory branches, extensor retinaculum and compartment intervals, dorsal capsule, then radiocarpal or midcarpal joint.",
+      "claim_ids": [
+        "wrist_dorsal_arthroscopy_portals_layers_01"
+      ]
+    }
+  ],
+  "structures_encountered": [
+    {
+      "text": "EPL, EDC, EDM, ECU, dorsal capsule, scapholunate and lunotriquetral intervals, TFCC disc and foveal attachments, and the midcarpal articulations are encountered according to portal choice.",
+      "claim_ids": [
+        "wrist_dorsal_arthroscopy_portals_structures_encountered_01"
+      ]
+    }
+  ],
+  "structures_at_risk": [
+    {
+      "text": "The dorsal sensory branch of the ulnar nerve is closest to 6U and 6R. Superficial radial nerve and radial artery are closest to the 1-2 snuffbox portal. Extensor tendons are at risk at every dorsal portal. Articular cartilage is at risk from sharp trocar entry.",
+      "claim_ids": [
+        "wrist_dorsal_arthroscopy_portals_structures_at_risk_01"
+      ]
+    }
+  ],
+  "danger_zones": [
+    {
+      "text": "Cadaver mapping found essentially no free neurovascular margin at 1-2 and 6U. Avoid the 1-2 portal unless radial-styloid access is required, and spread bluntly just ulnar or radial to ECU rather than plunging beside it.",
+      "claim_ids": [
+        "wrist_dorsal_arthroscopy_portals_danger_zones_01"
+      ]
+    }
+  ],
+  "retraction_hazards": [
+    {
+      "text": "Do not lever cannulas against extensor tendons or drag instruments across the dorsal sensory branch of the ulnar nerve at 6U. Keep traction modest to limit neuropraxia.",
+      "claim_ids": [
+        "wrist_dorsal_arthroscopy_portals_retraction_hazards_01"
+      ]
+    }
+  ],
+  "exposure": [
+    {
+      "text": "3-4 is the primary viewing portal for the radiocarpal joint, including the TFCC from radial insertion to ulnar attachment. 4-5 or 6R is the usual working portal for probing and ulnar-sided TFCC work. Midcarpal portals complete assessment of carpal instability.",
+      "claim_ids": [
+        "wrist_dorsal_arthroscopy_portals_exposure_01"
+      ]
+    }
+  ],
+  "limitations": [
+    {
+      "text": "Standard dorsal portals give limited access to volar capsule and foveal footprint; some repairs need a dedicated foveal or volar portal. Diagnostic arthroscopy is not a substitute for a preoperative working diagnosis.",
+      "claim_ids": [
+        "wrist_dorsal_arthroscopy_portals_limitations_01"
+      ]
+    }
+  ],
+  "extensions": [
+    {
+      "text": "Add MCR and MCU for midcarpal inspection. A direct foveal portal about 1 cm proximal to 6U can expose the foveal footprint when deep TFCC fibers must be repaired.",
+      "claim_ids": [
+        "wrist_dorsal_arthroscopy_portals_extensions_01"
+      ]
+    }
+  ],
+  "indications": [
+    {
+      "text": "Use for unexplained mechanical wrist pain after failed nonoperative care, TFCC tears, interosseous ligament injury, chondral debridement, loose-body removal, ganglion excision, and arthroscopic assistance with selected intra-articular fractures.",
+      "claim_ids": [
+        "wrist_dorsal_arthroscopy_portals_indications_01"
+      ]
+    }
+  ],
+  "relative_contraindications": [
+    {
+      "text": "Avoid when infection, advanced pancarpal arthritis, or local soft-tissue conditions make portal placement unsafe, or when a salvage reconstruction is already clearly indicated.",
+      "claim_ids": [
+        "wrist_dorsal_arthroscopy_portals_relative_contraindications_01"
+      ]
+    }
+  ],
+  "implant_implications": [
+    {
+      "text": "For peripheral TFCC repair, plan outside-in or all-inside sutures through 6R/6U without tethering ECU. Keep a peripheral rim if debriding a central tear so DRUJ stability is not lost.",
+      "claim_ids": [
+        "wrist_dorsal_arthroscopy_portals_implant_implications_01"
+      ]
+    }
+  ],
+  "fluoroscopy_implications": [
+    {
+      "text": "Fluoroscopy is not required for portal creation but is used when arthroscopy assists fracture reduction or when confirming DRUJ alignment after TFCC repair.",
+      "claim_ids": [
+        "wrist_dorsal_arthroscopy_portals_fluoroscopy_implications_01"
+      ]
+    }
+  ],
+  "closure": [
+    {
+      "text": "Remove cannulas, confirm tendon glide, and close portal skin loosely. Immobilize briefly as needed to allow portal healing and reduce synovial fistula risk.",
+      "claim_ids": [
+        "wrist_dorsal_arthroscopy_portals_closure_01"
+      ]
+    }
+  ],
+  "complications": [
+    {
+      "text": "Complications include sensory neurapraxia (especially DSBUN at 6U and SRN at 1-2), extensor tendon injury, cartilage scuffing, stiffness, fluid extravasation, and portal fistula.",
+      "claim_ids": [
+        "wrist_dorsal_arthroscopy_portals_complications_01"
+      ]
+    }
+  ],
+  "bailouts": [
+    {
+      "text": "If a portal cannot be entered safely, re-localize with a needle under arthroscopic vision from an established portal rather than enlarging blindly. Convert to open ulnar exposure if foveal repair cannot be completed arthroscopically.",
+      "claim_ids": [
+        "wrist_dorsal_arthroscopy_portals_bailouts_01"
+      ]
+    }
+  ],
+  "procedure_applications": [
+    {
+      "procedure_id": "wrist_arthroscopy_tfcc",
+      "relationship": "primary_option",
+      "condition": "Diagnostic or therapeutic wrist arthroscopy, including TFCC inspection, debridement, or peripheral repair"
+    }
+  ],
+  "questions": [
+    {
+      "question": "Which portal is established first for diagnostic wrist arthroscopy?",
+      "answer": "The 3-4 portal, about 1 cm distal to Lister tubercle between EPL and EDC.",
+      "claim_ids": [
+        "wrist_dorsal_arthroscopy_portals_questions_01"
+      ]
+    },
+    {
+      "question": "Which nerve is most at risk at the 6U portal?",
+      "answer": "The dorsal sensory branch of the ulnar nerve.",
+      "claim_ids": [
+        "wrist_dorsal_arthroscopy_portals_questions_02"
+      ]
+    },
+    {
+      "question": "Which portal is typically used as the working portal for TFCC instrumentation?",
+      "answer": "4-5 or 6R, after viewing from 3-4.",
+      "claim_ids": [
+        "wrist_dorsal_arthroscopy_portals_questions_03"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "wrist_dorsal_arthroscopy_portals_positioning_01",
+      "text": "Position supine with the arm on a hand table or traction tower, elbow flexed about 90°, and two digits in finger traps for distal distraction.",
+      "source_ids": [
+        "pmid_39780878",
+        "orthobullets_wrist_arthroscopy_6009"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "wrist_dorsal_arthroscopy_portals_setup_01",
+      "text": "Mark Lister tubercle, ECU, DRUJ, and planned portal sites before traction distorts landmarks. A 2.7-mm 30° arthroscope is the usual diagnostic scope. Limit traction; sources describe about 10 lb as a typical upper bound.",
+      "source_ids": [
+        "pmid_39780878",
+        "orthobullets_wrist_arthroscopy_6009",
+        "pmid_35593692"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "wrist_dorsal_arthroscopy_portals_surface_landmarks_01",
+      "text": "Lister tubercle locates the 3-4 portal about 1 cm distal in the soft spot between EPL and EDC. The 4-5 portal sits in line with the ring-finger metacarpal between EDC and EDM. 6R and 6U lie radial and ulnar to ECU. Midcarpal radial and ulnar portals sit about 1 cm distal to 3-4 and 4-5.",
+      "source_ids": [
+        "pmid_39780878",
+        "pmid_35593692",
+        "orthobullets_wrist_arthroscopy_6009"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "wrist_dorsal_arthroscopy_portals_incision_01",
+      "text": "Make a nick in skin only at the chosen portal, then spread with a hemostat to capsule before introducing a blunt trocar. Establish the 3-4 portal first, then create working and inflow portals under needle localization.",
+      "source_ids": [
+        "pmid_39780878",
+        "orthobullets_wrist_arthroscopy_6009"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "wrist_dorsal_arthroscopy_portals_superficial_interval_01",
+      "text": "Stay in the named extensor-compartment intervals. Protect EPL and EDC at 3-4, EDC and EDM at 4-5, and ECU at 6R/6U. Superficial sensory branches travel in the subcutaneous layer around the ulnar and radial portals.",
+      "source_ids": [
+        "pmid_38669653",
+        "orthobullets_wrist_arthroscopy_6009"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "wrist_dorsal_arthroscopy_portals_deep_interval_01",
+      "text": "Enter the radiocarpal joint at 3-4, then add 4-5 or 6R as the working portal. Use 6U commonly for inflow or ulnar-sided TFCC work. Inspect the midcarpal joint through MCR/MCU before calling the arthroscopy complete when instability is in question.",
+      "source_ids": [
+        "pmid_39780878",
+        "pmid_35593692"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "wrist_dorsal_arthroscopy_portals_layers_01",
+      "text": "Skin, subcutaneous sensory branches, extensor retinaculum and compartment intervals, dorsal capsule, then radiocarpal or midcarpal joint.",
+      "source_ids": [
+        "pmid_39780878",
+        "pmid_35593692"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "wrist_dorsal_arthroscopy_portals_structures_encountered_01",
+      "text": "EPL, EDC, EDM, ECU, dorsal capsule, scapholunate and lunotriquetral intervals, TFCC disc and foveal attachments, and the midcarpal articulations are encountered according to portal choice.",
+      "source_ids": [
+        "pmid_39780878",
+        "pmid_35593692"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "wrist_dorsal_arthroscopy_portals_structures_at_risk_01",
+      "text": "The dorsal sensory branch of the ulnar nerve is closest to 6U and 6R. Superficial radial nerve and radial artery are closest to the 1-2 snuffbox portal. Extensor tendons are at risk at every dorsal portal. Articular cartilage is at risk from sharp trocar entry.",
+      "source_ids": [
+        "pmid_38669653",
+        "orthobullets_wrist_arthroscopy_6009"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "wrist_dorsal_arthroscopy_portals_danger_zones_01",
+      "text": "Cadaver mapping found essentially no free neurovascular margin at 1-2 and 6U. Avoid the 1-2 portal unless radial-styloid access is required, and spread bluntly just ulnar or radial to ECU rather than plunging beside it.",
+      "source_ids": [
+        "pmid_38669653",
+        "orthobullets_wrist_arthroscopy_6009"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "wrist_dorsal_arthroscopy_portals_retraction_hazards_01",
+      "text": "Do not lever cannulas against extensor tendons or drag instruments across the dorsal sensory branch of the ulnar nerve at 6U. Keep traction modest to limit neuropraxia.",
+      "source_ids": [
+        "pmid_39780878",
+        "pmid_38669653"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "wrist_dorsal_arthroscopy_portals_exposure_01",
+      "text": "3-4 is the primary viewing portal for the radiocarpal joint, including the TFCC from radial insertion to ulnar attachment. 4-5 or 6R is the usual working portal for probing and ulnar-sided TFCC work. Midcarpal portals complete assessment of carpal instability.",
+      "source_ids": [
+        "pmid_39780878",
+        "pmid_35593692",
+        "orthobullets_wrist_arthroscopy_6009"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "wrist_dorsal_arthroscopy_portals_limitations_01",
+      "text": "Standard dorsal portals give limited access to volar capsule and foveal footprint; some repairs need a dedicated foveal or volar portal. Diagnostic arthroscopy is not a substitute for a preoperative working diagnosis.",
+      "source_ids": [
+        "pmid_39780878",
+        "pmid_35593692"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "wrist_dorsal_arthroscopy_portals_extensions_01",
+      "text": "Add MCR and MCU for midcarpal inspection. A direct foveal portal about 1 cm proximal to 6U can expose the foveal footprint when deep TFCC fibers must be repaired.",
+      "source_ids": [
+        "pmid_39780878",
+        "pmid_35593692"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "wrist_dorsal_arthroscopy_portals_indications_01",
+      "text": "Use for unexplained mechanical wrist pain after failed nonoperative care, TFCC tears, interosseous ligament injury, chondral debridement, loose-body removal, ganglion excision, and arthroscopic assistance with selected intra-articular fractures.",
+      "source_ids": [
+        "pmid_35593692",
+        "orthobullets_wrist_arthroscopy_6009"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "wrist_dorsal_arthroscopy_portals_relative_contraindications_01",
+      "text": "Avoid when infection, advanced pancarpal arthritis, or local soft-tissue conditions make portal placement unsafe, or when a salvage reconstruction is already clearly indicated.",
+      "source_ids": [
+        "pmid_35593692",
+        "orthobullets_wrist_arthroscopy_6009"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "wrist_dorsal_arthroscopy_portals_implant_implications_01",
+      "text": "For peripheral TFCC repair, plan outside-in or all-inside sutures through 6R/6U without tethering ECU. Keep a peripheral rim if debriding a central tear so DRUJ stability is not lost.",
+      "source_ids": [
+        "pmid_39780878",
+        "orthobullets_wrist_arthroscopy_6009"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "wrist_dorsal_arthroscopy_portals_fluoroscopy_implications_01",
+      "text": "Fluoroscopy is not required for portal creation but is used when arthroscopy assists fracture reduction or when confirming DRUJ alignment after TFCC repair.",
+      "source_ids": [
+        "pmid_35593692",
+        "pmid_39780878"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "wrist_dorsal_arthroscopy_portals_closure_01",
+      "text": "Remove cannulas, confirm tendon glide, and close portal skin loosely. Immobilize briefly as needed to allow portal healing and reduce synovial fistula risk.",
+      "source_ids": [
+        "pmid_39780878",
+        "pmid_35593692"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "wrist_dorsal_arthroscopy_portals_complications_01",
+      "text": "Complications include sensory neurapraxia (especially DSBUN at 6U and SRN at 1-2), extensor tendon injury, cartilage scuffing, stiffness, fluid extravasation, and portal fistula.",
+      "source_ids": [
+        "pmid_38669653",
+        "pmid_35593692"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "wrist_dorsal_arthroscopy_portals_bailouts_01",
+      "text": "If a portal cannot be entered safely, re-localize with a needle under arthroscopic vision from an established portal rather than enlarging blindly. Convert to open ulnar exposure if foveal repair cannot be completed arthroscopically.",
+      "source_ids": [
+        "pmid_39780878",
+        "pmid_35593692"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "claim_id": "wrist_dorsal_arthroscopy_portals_questions_01",
+      "text": "Which portal is established first for diagnostic wrist arthroscopy?",
+      "source_ids": [
+        "pmid_39780878",
+        "orthobullets_wrist_arthroscopy_6009"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "wrist_dorsal_arthroscopy_portals_questions_02",
+      "text": "Which nerve is most at risk at the 6U portal?",
+      "source_ids": [
+        "pmid_38669653",
+        "orthobullets_wrist_arthroscopy_6009"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "claim_id": "wrist_dorsal_arthroscopy_portals_questions_03",
+      "text": "Which portal is typically used as the working portal for TFCC instrumentation?",
+      "source_ids": [
+        "pmid_39780878",
+        "pmid_35593692"
+      ],
+      "risk_level": "medium"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "pmid_39780878",
+      "provider": "PubMed",
+      "title": "Wrist Arthroscopy: Positioning, Portal Placement, and Diagnostic Evaluation",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39780878/"
+    },
+    {
+      "source_id": "pmid_35593692",
+      "provider": "PubMed",
+      "title": "Wrist arthroscopy for diagnosis and treatment of acute and chronic conditions",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/35593692/"
+    },
+    {
+      "source_id": "pmid_38669653",
+      "provider": "PubMed",
+      "title": "Safe zones in dorsal portals for wrist arthroscopy: a cadaveric study",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38669653/"
+    },
+    {
+      "source_id": "orthobullets_wrist_arthroscopy_6009",
+      "provider": "Orthobullets",
+      "title": "Wrist Arthroscopy",
+      "url": "https://www.orthobullets.com/hand/6009/wrist-arthroscopy"
+    }
+  ],
+  "content_status": "agent_review_pending",
+  "review": {
+    "status": "agent_review_pending",
+    "required_roles": [
+      "adversarial_safety_reviewer",
+      "approach_anatomy_reviewer",
+      "educational_value_reviewer",
+      "evidence_reviewer",
+      "operative_exposure_reviewer",
+      "procedure_applicability_reviewer"
+    ],
+    "completed_roles": []
+  },
+  "resolved_contradiction_keys": [],
+  "authoring_provenance": {
+    "method": "local_codex_curated",
+    "definition_file": "data/approach_library/curated/hand_wrist_live_demand_v1.json",
+    "api_used": false
+  }
+}

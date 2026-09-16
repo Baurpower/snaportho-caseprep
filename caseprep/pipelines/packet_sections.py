@@ -32,6 +32,53 @@ def _mark(items: List[Dict[str, Any]], payload: Dict[str, Any]) -> List[Dict[str
     return items
 
 
+def payload_from_approach_prep(
+    payload: Optional[Dict[str, Any]], approach_prep: Optional[Dict[str, Any]]
+) -> Optional[Dict[str, Any]]:
+    """Fill empty anatomy fields from the selected approach library packet."""
+    overlay = dict(payload or {})
+    if overlay.get("must_know_anatomy") or overlay.get("structures_at_risk"):
+        return overlay or None
+    sections = (approach_prep or {}).get("sections") or {}
+    risks: List[Dict[str, Any]] = []
+    landmarks: List[str] = []
+    for entry in (sections.get("approach_safety") or {}).get("items") or []:
+        if not isinstance(entry, dict):
+            continue
+        answer = clean(entry.get("answer"))
+        if not answer:
+            continue
+        risks.append(
+            {
+                "structure": clean(entry.get("question")) or "Structure at risk",
+                "why_at_risk": answer,
+                "how_to_avoid_injury": clean(entry.get("supporting_detail")),
+                "source_refs": entry.get("source_ids") or [],
+            }
+        )
+    for entry in (sections.get("approach_quick_brief") or {}).get("items") or []:
+        if not isinstance(entry, dict):
+            continue
+        answer = clean(entry.get("answer"))
+        category = clean(entry.get("category"))
+        if answer and category in {"landmark", "corridor", "position"}:
+            landmarks.append(answer)
+    urls = [
+        clean(source.get("url"))
+        for source in (approach_prep or {}).get("sources") or []
+        if isinstance(source, dict) and clean(source.get("url"))
+    ]
+    if not risks and not landmarks:
+        return payload
+    if landmarks and not overlay.get("must_know_anatomy"):
+        overlay["must_know_anatomy"] = landmarks[:4]
+    if risks and not overlay.get("structures_at_risk"):
+        overlay["structures_at_risk"] = risks[:6]
+    if urls and not overlay.get("source_urls"):
+        overlay["source_urls"] = urls
+    return overlay
+
+
 def important_anatomy_pipeline(payload: Optional[Dict[str, Any]]) -> Dict[str, Any]:
     """Pipeline E — must-know anatomy, structures at risk, danger zones, landmarks.
 

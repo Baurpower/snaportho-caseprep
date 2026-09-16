@@ -9,6 +9,7 @@ from caseprep.pipelines.packet_sections import (
     important_anatomy_pipeline,
     key_takeaways_block,
     operative_flow_pipeline,
+    payload_from_approach_prep,
     postop_pipeline,
     summary_block,
     top_things_to_know_block,
@@ -109,6 +110,35 @@ class PacketSectionContractTests(unittest.TestCase):
                     self.assertIn(key, entry, pipeline.__name__)
                 self.assertFalse(entry["generated"], "deterministic pipelines never generate")
                 self.assertEqual(entry["source"], "certified")
+
+    def test_approach_prep_fills_anatomy_when_payload_is_missing(self) -> None:
+        overlay = payload_from_approach_prep(
+            None,
+            {
+                "sections": {
+                    "approach_safety": {
+                        "items": [{
+                            "question": "Structure at risk",
+                            "answer": "Protect the radial nerve in the spiral groove.",
+                            "source_ids": ["ao-1"],
+                        }]
+                    },
+                    "approach_quick_brief": {
+                        "items": [{
+                            "question": "Surface landmark",
+                            "answer": "Lateral intermuscular septum",
+                            "category": "landmark",
+                        }]
+                    },
+                },
+                "sources": [{"url": "https://example.test/humerus"}],
+            },
+        )
+        self.assertTrue(overlay)
+        anatomy = important_anatomy_pipeline(overlay)
+        self.assertEqual(anatomy["status"], "complete")
+        self.assertGreaterEqual(len(anatomy["items"]), 1)
+        self.assertFalse(anatomy["items"][0]["generated"])
 
     def test_never_fabricates_content(self) -> None:
         # Every answer must be traceable to a payload value.

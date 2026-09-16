@@ -1,0 +1,482 @@
+{
+ "(default)": {
+  "declared_count": 2638,
+  "ids_listed": 2638,
+  "fetched": 2638,
+  "id_prefixes": [
+   [
+    "pp",
+    2638
+   ]
+  ],
+  "key_present_pct": {
+   "answer": 100.0,
+   "specialty2": 100.0,
+   "subregion": 100.0,
+   "metadata_trust": 100.0,
+   "specialty": 100.0,
+   "region": 100.0,
+   "source_collection": 100.0,
+   "procedures": 100.0,
+   "question": 100.0,
+   "text": 100.0,
+   "schema_version": 100.0,
+   "diagnoses": 100.0,
+   "source": 100.0,
+   "procedures_none": 84.0,
+   "diagnoses_none": 41.9
+  },
+  "key_empty_count": {
+   "answer": 1,
+   "specialty2": 2460,
+   "subregion": 2168,
+   "specialty": 7,
+   "procedures": 2216,
+   "diagnoses": 1106
+  },
+  "scope_values": {
+   "source": [
+    [
+     "pocket pimped",
+     1461
+    ],
+    [
+     "millers",
+     1177
+    ]
+   ],
+   "source_collection": [
+    [
+     "pocket_pimped",
+     1461
+    ],
+    [
+     "millers",
+     1177
+    ]
+   ],
+   "specialty": [
+    [
+     "peds",
+     448
+    ],
+    [
+     "hand",
+     429
+    ],
+    [
+     "trauma",
+     419
+    ],
+    [
+     "sports",
+     254
+    ],
+    [
+     "onc",
+     239
+    ],
+    [
+     "footankle",
+     216
+    ],
+    [
+     "basicscience",
+     185
+    ],
+    [
+     "shoulderelbow",
+     154
+    ],
+    [
+     "recon",
+     154
+    ],
+    [
+     "spine",
+     114
+    ],
+    [
+     "general",
+     19
+    ]
+   ],
+   "region": [
+    [
+     "non-anatomic",
+     597
+    ],
+    [
+     "hand",
+     264
+    ],
+    [
+     "knee",
+     241
+    ],
+    [
+     "shoulder",
+     230
+    ],
+    [
+     "hip",
+     228
+    ],
+    [
+     "ankle",
+     198
+    ],
+    [
+     "elbow",
+     149
+    ],
+    [
+     "spine",
+     118
+    ],
+    [
+     "wrist",
+     111
+    ],
+    [
+     "pelvis",
+     107
+    ],
+    [
+     "foot",
+     94
+    ],
+    [
+     "forearm",
+     75
+    ],
+    [
+     "thigh",
+     74
+    ],
+    [
+     "leg",
+     65
+    ],
+    [
+     "cervical spine",
+     27
+    ]
+   ],
+   "procedures": [
+    [
+     "tka",
+     40
+    ],
+    [
+     "orif",
+     33
+    ],
+    [
+     "tha",
+     26
+    ],
+    [
+     "acl_reconstruction",
+     17
+    ],
+    [
+     "femoral_shaft_imn",
+     15
+    ],
+    [
+     "pavlik_harness",
+     10
+    ],
+    [
+     "ankle_orif",
+     10
+    ],
+    [
+     "tibial_imn",
+     10
+    ],
+    [
+     "imn",
+     10
+    ],
+    [
+     "acetabulum_orif",
+     9
+    ],
+    [
+     "clavicle_orif",
+     8
+    ],
+    [
+     "distal_radius_orif",
+     7
+    ],
+    [
+     "carpal_tunnel_release",
+     6
+    ],
+    [
+     "achilles_tendon_repair",
+     5
+    ],
+    [
+     "uka",
+     5
+    ]
+   ]
+  }
+ },
+ "anatomy_miller_gold_v1": {
+  "declared_count": 717,
+  "ids_listed": 717,
+  "fetched": 717,
+  "id_prefixes": [
+   [
+    "miller",
+    717
+   ]
+  ],
+  "key_present_pct": {
+   "anatomy_terms_json": 100.0,
+   "source_quote": 100.0,
+   "corpus_version": 100.0,
+   "section_path": 100.0,
+   "source": 100.0,
+   "text": 100.0,
+   "case_associations": 100.0,
+   "page": 100.0,
+   "quality_tier": 100.0,
+   "region": 100.0,
+   "approach_terms": 100.0,
+   "heading": 100.0,
+   "source_collection": 100.0,
+   "metadata_trust": 100.0,
+   "specialty": 100.0,
+   "structures_at_risk": 100.0,
+   "anatomy_neurovascular": 94.6,
+   "anatomy_tendon_ligament": 94.6,
+   "anatomy_bone_landmark": 94.6,
+   "anatomy_approach_landmark": 94.6,
+   "subregion": 94.6,
+   "anatomy_muscle": 94.6,
+   "anatomy_joint_region": 94.6
+  },
+  "key_empty_count": {
+   "anatomy_neurovascular": 535,
+   "anatomy_tendon_ligament": 609,
+   "case_associations": 596,
+   "anatomy_bone_landmark": 577,
+   "anatomy_approach_landmark": 302,
+   "approach_terms": 341,
+   "anatomy_muscle": 566,
+   "structures_at_risk": 454,
+   "anatomy_joint_region": 499
+  },
+  "scope_values": {
+   "source": [
+    [
+     "miller",
+     717
+    ]
+   ],
+   "source_collection": [
+    [
+     "miller_anatomy",
+     717
+    ]
+   ],
+   "specialty": [
+    [
+     "recon",
+     259
+    ],
+    [
+     "trauma",
+     221
+    ],
+    [
+     "shoulderelbow",
+     73
+    ],
+    [
+     "sports",
+     66
+    ],
+    [
+     "hand",
+     58
+    ],
+    [
+     "basicscience",
+     17
+    ],
+    [
+     "spine",
+     11
+    ],
+    [
+     "footankle",
+     11
+    ],
+    [
+     "peds",
+     1
+    ]
+   ],
+   "region": [
+    [
+     "hip",
+     229
+    ],
+    [
+     "upper_extremity",
+     161
+    ],
+    [
+     "knee",
+     66
+    ],
+    [
+     "shoulder",
+     64
+    ],
+    [
+     "lower_extremity",
+     59
+    ],
+    [
+     "hand",
+     51
+    ],
+    [
+     "pelvis",
+     32
+    ],
+    [
+     "non-anatomic",
+     16
+    ],
+    [
+     "spine",
+     12
+    ],
+    [
+     "ankle",
+     9
+    ],
+    [
+     "elbow",
+     9
+    ],
+    [
+     "wrist",
+     4
+    ],
+    [
+     "forearm",
+     3
+    ],
+    [
+     "foot",
+     2
+    ]
+   ]
+  }
+ },
+ "rock-v1": {
+  "declared_count": 12477,
+  "ids_listed": 12477,
+  "fetched": 12477,
+  "id_prefixes": [
+   [
+    "(none)",
+    12477
+   ]
+  ],
+  "key_present_pct": {
+   "page_end": 100.0,
+   "title": 100.0,
+   "page_start": 100.0,
+   "chunk_index": 100.0,
+   "url": 100.0,
+   "char_len": 100.0,
+   "source_collection": 100.0,
+   "text": 100.0,
+   "chapter_id": 100.0,
+   "schema_version": 100.0,
+   "canonical_id": 100.0
+  },
+  "key_empty_count": {},
+  "scope_values": {
+   "source_collection": [
+    [
+     "rock",
+     12477
+    ]
+   ],
+   "title": [
+    [
+     "complications after total knee arthropla",
+     160
+    ],
+    [
+     "nerve repair and reconstruction",
+     143
+    ],
+    [
+     "rotational fractures of the ankle",
+     103
+    ],
+    [
+     "tibial plafond (pilon) fractures",
+     102
+    ],
+    [
+     "anatomy and biomechanics of the knee",
+     83
+    ],
+    [
+     "primary total hip arthroplasty for other",
+     78
+    ],
+    [
+     "revision total knee arthroplasty: surgic",
+     78
+    ],
+    [
+     "physical examination and anatomy of the ",
+     77
+    ],
+    [
+     "pediatric spine trauma",
+     76
+    ],
+    [
+     "infectious disease in the athlete",
+     76
+    ],
+    [
+     "adult thoracolumbar spine deformity: sag",
+     72
+    ],
+    [
+     "nonunions",
+     69
+    ],
+    [
+     "musculoskeletal infections and microbiol",
+     67
+    ],
+    [
+     "adult spine deformity disease",
+     66
+    ],
+    [
+     "disorders of the scapula",
+     63
+    ]
+   ]
+  }
+ }
+}
