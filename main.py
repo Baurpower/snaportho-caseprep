@@ -2,7 +2,7 @@ import os
 from pathlib import Path
 from typing import Optional, Dict, Any, List
 
-from fastapi import FastAPI
+from fastapi import Depends, FastAPI, Header
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.concurrency import run_in_threadpool
 
@@ -16,6 +16,8 @@ from openai import OpenAI
 from caseprep.api.routes.registry import router as registry_router
 from caseprep.api.routes.factory import router as factory_router
 from caseprep.api.routes.web_stream import router as web_stream_router
+from caseprep.api.deps.internal_auth import HEADER_NAME as INTERNAL_KEY_HEADER, require_internal_api_key
+from caseprep.api.deps.rate_limit import limit_legacy_caseprep
 from caseprep.config import APPROACH_CATALOG_PATHS, CasePrepConfig
 from caseprep.schemas import CasePrepRequest, PinnedCasePrepFollowupRequest
 from caseprep.engines import v1_1_web, v1_legacy, v2_curated
@@ -43,7 +45,7 @@ CASEPREP_CONFIG = CasePrepConfig.from_env()
 app = FastAPI()
 app.include_router(registry_router)
 app.include_router(factory_router)
-app.include_router(web_stream_router)
+app.include_router(web_stream_router, dependencies=[Depends(require_internal_api_key)])
 
 _cors_origins = [
     origin.strip()
@@ -99,11 +101,15 @@ def read_root():
 
 
 @app.get("/health")
-def health():
+def health(x_caseprep_internal_api_key: Optional[str] = Header(default=None, alias=INTERNAL_KEY_HEADER)):
     cfg = CasePrepConfig.from_env()
     store = curated_content_store.store_status()
     registry = get_registry_health()
     ready = bool(store.get("available")) and registry.status == "ok"
+    configured_key = (os.getenv("CASEPREP_INTERNAL_API_KEY") or "").strip()
+    if not configured_key or (x_caseprep_internal_api_key or "").strip() != configured_key:
+        # Public view: readiness only, no configuration internals (audit CASEPREP-08).
+        return {"status": "ok" if ready else "degraded", "ready": ready}
     return {
         "status": "ok" if ready else "degraded",
         "ready": ready,
@@ -142,7 +148,7 @@ async def _dispatch_caseprep(prompt: str, *, version: str) -> Dict[str, Any]:
     )
 
 
-@app.post("/case-prep")
+@app.post("/case-prep", dependencies=[Depends(limit_legacy_caseprep)])
 async def case_prep(request: CasePrepRequest):
     prompt = (request.prompt or "").strip()
     cfg = CasePrepConfig.from_env()
@@ -158,7 +164,7 @@ async def case_prep(request: CasePrepRequest):
     return await _dispatch_caseprep(prompt, version=version)
 
 
-@app.post("/case-prep/v2")
+@app.post("/case-prep/v2", dependencies=[Depends(require_internal_api_key)])
 async def case_prep_v2(request: CasePrepRequest):
     prompt = (request.prompt or "").strip()
     env_config = CasePrepConfig.from_env()
@@ -189,7 +195,7 @@ async def case_prep_v2(request: CasePrepRequest):
     )
 
 
-@app.post("/case-prep/web/v1.1")
+@app.post("/case-prep/web/v1.1", dependencies=[Depends(require_internal_api_key)])
 async def case_prep_web_v1_1(request: CasePrepRequest):
     """Explicit website-only preview; legacy /case-prep never dispatches here."""
     cfg = CasePrepConfig.from_env()
@@ -202,7 +208,7 @@ async def case_prep_web_v1_1(request: CasePrepRequest):
     )
 
 
-@app.post("/case-prep/v2/follow-up")
+@app.post("/case-prep/v2/follow-up", dependencies=[Depends(require_internal_api_key)])
 async def case_prep_v2_follow_up(request: PinnedCasePrepFollowupRequest):
     if request.canonical_slug != "carpal_tunnel_release":
         raise HTTPException(
@@ -234,7 +240,7 @@ async def case_prep_v2_follow_up(request: PinnedCasePrepFollowupRequest):
 
 
 # ── /anatomy: legacy by default; experimental hybrid only when flag set ───────
-@app.post("/anatomy")
+@app.post("/anatomy", dependencies=[Depends(require_internal_api_key)])
 async def anatomy_only(request: CasePrepRequest):
     prompt = (request.prompt or "").strip()
     if not prompt:
@@ -317,7 +323,7 @@ async def _anatomy_experimental(prompt: str) -> Dict[str, Any]:
     return legacy
 
 
-@app.post("/anki/ortho-context")
+@app.post("/anki/ortho-context", dependencies=[Depends(require_internal_api_key)])
 async def anki_ortho_context(request: AnkiOrthoContextRequest):
     return await run_in_threadpool(
         build_anki_ortho_context_response,

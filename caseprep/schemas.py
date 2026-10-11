@@ -10,7 +10,7 @@ from pydantic import BaseModel, Field
 
 
 class CasePrepRequest(BaseModel):
-    prompt: str
+    prompt: str = Field(max_length=4000)
     user_id: Optional[str] = None
     anonymous_session_id: Optional[str] = None
     training_level: Optional[str] = None
