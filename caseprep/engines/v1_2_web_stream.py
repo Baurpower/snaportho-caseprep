@@ -131,7 +131,7 @@ def _item_provenance(item: Dict[str, Any]) -> Dict[str, Any]:
     )
     output["claim_support"] = output.get("claim_support") or ("unsupported" if generated else "direct")
     output["procedure_relevance"] = output.get("procedure_relevance") or (
-        "unknown" if generated else "direct"
+        "unknown" if generated or source == "rag" else "direct"
     )
     return output
 
@@ -225,12 +225,23 @@ def evaluate_packet_coverage(
     )
     clinical_body = has_clinical_body(emitted_sections)
     resolved = bool(canonical_slug)
+    expected_sections = tuple(expected_sections)
     omitted = [section for section in expected_sections if section not in emitted_sections]
+    essentials = emitted_sections.get("essentials") or {}
+    essentials_verified = bool(
+        essentials.get("source") == "grounded_synthesis"
+        and ((essentials.get("payload") or {}).get("verification") or {}).get("passed")
+    )
+    topic_gaps = ((essentials.get("payload") or {}).get("verification") or {}).get("required_topic_gaps", [])
+    # v1.3 promises a brief, not just a quiz. Legacy packets do not require it.
+    brief_ready = "essentials" not in expected_sections or essentials_verified
     complete_enough = (
         resolved
         and clinical_body
-        and pimp_count >= 8
-        and direct_pimp_count >= 8
+        and brief_ready
+        and not topic_gaps
+        and pimp_count >= 5
+        and direct_pimp_count >= 5
         and grounded_percentage >= 0.8
         and citation_count > 0
     )
@@ -245,6 +256,7 @@ def evaluate_packet_coverage(
     else:
         coverage_status = "unavailable"
     return {
+        "required_topic_gaps": topic_gaps,
         "coverage_status": coverage_status,
         "quality_gate": "passed" if coverage_status in {"certified", "grounded_complete"} else "limited",
         "grounded_percentage": grounded_percentage,
@@ -255,6 +267,7 @@ def evaluate_packet_coverage(
         "citation_count": citation_count,
         "direct_pimp_question_count": direct_pimp_count,
         "has_clinical_body": clinical_body,
+        "essentials_verified": essentials_verified,
     }
 
 

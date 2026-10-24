@@ -112,6 +112,9 @@ def _payload_source_ids(payload: Optional[Dict[str, Any]]) -> List[str]:
 
 def build_evidence(payload: Optional[Dict[str, Any]], approach_prep: Dict[str, Any]) -> List[Dict[str, Any]]:
     """Select compact, source-addressable evidence with exact approach facts first."""
+    if approach_prep.get("graph_mode"):
+        from caseprep.services.approach_graph_evidence import packet_evidence
+        return packet_evidence(approach_prep.get("selected_packets", []))
     evidence: List[Dict[str, Any]] = []
     seen: set[Tuple[str, Tuple[str, ...]]] = set()
 
@@ -217,6 +220,10 @@ def verify_essentials(output: Dict[str, Any], evidence: List[Dict[str, Any]], id
     valid_ids = {row["evidence_id"] for row in evidence}
     citations = output.get("citations") or {}
     errors = _approach_contradictions(identity, output) + _specificity_errors(output)
+    graph_evidence = any(row.get("packet_hash") for row in evidence)
+    if graph_evidence:
+        from caseprep.services.approach_graph_evidence import support_errors
+        errors.extend(support_errors(output, evidence))
     supported_paths = 0
     for path in CORE_CITATION_PATHS:
         refs = citations.get(path) or []
@@ -243,7 +250,9 @@ def verify_essentials(output: Dict[str, Any], evidence: List[Dict[str, Any]], id
                          for source_id in row.get("source_ids") or []})
     coverage = supported_paths / len(CORE_CITATION_PATHS)
     confidence = round(min(0.98, 0.45 + 0.4 * coverage + 0.04 * min(2, len(source_ids))), 2)
-    return {"passed": not errors, "errors": errors, "core_claim_coverage": round(coverage, 2),
+    return {"support_method": "exact_source_excerpt" if graph_evidence else "citation_validation",
+            "used_claim_ids": sorted({c for row in evidence if row["evidence_id"] in cited_ids for c in row.get("source_claim_ids", [])}),
+            "passed": not errors, "errors": errors, "core_claim_coverage": round(coverage, 2),
             "cited_evidence_count": len(cited_ids), "source_ids": source_ids,
             "confidence": confidence if not errors else min(confidence, 0.49)}
 
@@ -253,13 +262,14 @@ def grounded_essentials_fallback(
     identity: Dict[str, Any],
     *,
     duration_ms: int = 0,
+    reason: str = "synthesis_unavailable",
 ) -> Optional[Dict[str, Any]]:
     if not evidence:
         return None
     name = clean(identity.get("canonical_name")) or "this procedure"
     indication = next(
-        (row for row in evidence if row.get("kind") in {"approach_strategy", "indications"}),
-        evidence[0],
+        (row for row in evidence if row.get("kind") in {"indications"}),
+        None,
     )
     critical = next(
         (row for row in evidence if row.get("kind") in {"approach_safety", "approach_exposure"}),
@@ -269,53 +279,47 @@ def grounded_essentials_fallback(
         (row for row in evidence if row.get("kind") in {"postop_plan", "postop"}),
         None,
     )
-    evidence_id = indication["evidence_id"]
+    evidence_id = indication["evidence_id"] if indication else None
     critical_id = critical["evidence_id"]
-    postop_id = (postop or indication)["evidence_id"]
+    postop_id = postop["evidence_id"] if postop else None
     payload = {
         "indications": {
-            "summary": indication["text"],
-            "key_points": [row["text"] for row in evidence[:3]],
+            "summary": indication["text"] if indication else "Indications are unavailable in this brief.",
+            "key_points": [],
             "case_specific_note": None,
         },
         "critical_portion": {
-            "name": f"Critical portion of {name}",
+            "name": f"Available operative evidence for {name}",
             "summary": critical["text"],
-            "why_it_matters": "This is the step where avoidable injury or loss of reduction is most likely.",
+            "why_it_matters": "The available sources do not establish why this is the critical step.",
             "execution_points": [critical["text"]],
-            "failure_mode": "Missing this checkpoint produces the most common avoidable complication.",
+            "failure_mode": "A procedure-specific failure mode is not available in this brief.",
         },
         "postop_protocol": {
             "summary": (postop or {}).get("text")
-            or "Postoperative restrictions are construct- and surgeon-specific.",
-            "immediate_priorities": ["Repeat and document the neurovascular examination"],
+            or "Postoperative details are unavailable in this brief.",
+            "immediate_priorities": [],
             "immobilization": None,
             "weight_bearing": None,
             "motion": None,
             "follow_up": None,
-            "red_flags": ["New neurovascular deficit", "Uncontrolled pain or wound drainage"],
+            "red_flags": [],
             "variability_note": "Confirm the operating surgeon's protocol.",
         },
         "citations": {
-            "indications.summary": [evidence_id],
-            "indications.key_points": [evidence_id],
-            "critical_portion.name": [critical_id],
+            "indications.summary": [evidence_id] if evidence_id else [],
             "critical_portion.summary": [critical_id],
-            "critical_portion.why_it_matters": [critical_id],
             "critical_portion.execution_points": [critical_id],
-            "critical_portion.failure_mode": [critical_id],
-            "postop_protocol.summary": [postop_id],
-            "postop_protocol.immediate_priorities": [postop_id],
-            "postop_protocol.red_flags": [postop_id],
+            "postop_protocol.summary": [postop_id] if postop else [],
         },
         "verification": {
-            "passed": True,
-            "errors": [],
-            "core_claim_coverage": 1.0,
-            "cited_evidence_count": 3,
+            "passed": False,
+            "errors": ["Evidence excerpts only; complete brief has not been verified."],
+            "core_claim_coverage": 0.0,
+            "cited_evidence_count": len({value for value in (evidence_id, critical_id, postop_id) if value}),
             "source_ids": list(dict.fromkeys(
                 source_id
-                for row in (indication, critical, postop or indication)
+                for row in (indication, critical, postop) if row
                 for source_id in row.get("source_ids") or []
             )),
             "confidence": 0.62,
@@ -327,6 +331,7 @@ def grounded_essentials_fallback(
         "source_ids": payload["verification"]["source_ids"],
         "duration_ms": duration_ms,
         "fallback": True,
+        "fallback_reason": reason,
     }
 
 
@@ -334,11 +339,24 @@ def generate_essentials(*, identity: Dict[str, Any], payload: Optional[Dict[str,
                         approach_prep: Dict[str, Any], openai_client: Any, model: str) -> Optional[Dict[str, Any]]:
     started = time.monotonic()
     evidence = build_evidence(payload, approach_prep)
+    if approach_prep.get("graph_mode"):
+        from caseprep.services.approach_graph_evidence import REQUIRED_TOPICS
+        topics = sorted({r["semantic_topic"] for r in evidence})
+        gaps = [t for t in REQUIRED_TOPICS if t not in topics]
+        if gaps:
+            fallback = grounded_essentials_fallback(evidence, identity, duration_ms=int((time.monotonic()-started)*1000), reason="required_topic_gaps")
+            if fallback:
+                fallback["payload"]["verification"].update({"required_topic_gaps": gaps, "available_topics": topics, "support_method": "source_excerpts_only"})
+                cited = {v for values in fallback["payload"].get("citations", {}).values() for v in values}
+                used = [r for r in evidence if r["evidence_id"] in cited]
+                fallback["payload"]["evidence_provenance"] = used
+                fallback["payload"]["verification"]["used_claim_ids"] = sorted({c for r in used for c in r["source_claim_ids"]})
+            return fallback
     if not evidence:
         return None
     if openai_client is None:
         return grounded_essentials_fallback(
-            evidence, identity, duration_ms=int((time.monotonic() - started) * 1000)
+            evidence, identity, duration_ms=int((time.monotonic() - started) * 1000), reason="no_model_client"
         )
     case = {key: identity.get(key) for key in
             ("requested_case", "canonical_name", "diagnosis", "approach", "laterality",
@@ -355,16 +373,16 @@ def generate_essentials(*, identity: Dict[str, Any], payload: Optional[Dict[str,
         result = _sanitize(json.loads(response.choices[0].message.content or "{}"))
     except Exception:
         return grounded_essentials_fallback(
-            evidence, identity, duration_ms=int((time.monotonic() - started) * 1000)
+            evidence, identity, duration_ms=int((time.monotonic() - started) * 1000), reason="model_or_json_error"
         )
     if result is None:
         return grounded_essentials_fallback(
-            evidence, identity, duration_ms=int((time.monotonic() - started) * 1000)
+            evidence, identity, duration_ms=int((time.monotonic() - started) * 1000), reason="invalid_response"
         )
     verification = verify_essentials(result, evidence, identity)
     if not verification["passed"]:
         return grounded_essentials_fallback(
-            evidence, identity, duration_ms=int((time.monotonic() - started) * 1000)
+            evidence, identity, duration_ms=int((time.monotonic() - started) * 1000), reason="verification_failed"
         )
     result["verification"] = verification
     return {"payload": result, "confidence": verification["confidence"],

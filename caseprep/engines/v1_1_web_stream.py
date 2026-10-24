@@ -260,15 +260,50 @@ async def stream_caseprep_packet(
         if identity["canonical_slug"]
         else None
     )
+    provider_mode = cfg.approach_provider_mode
+    pilot_slugs = {s.strip() for s in cfg.approach_graph_pilot_procedures.split(",") if s.strip()}
+    if provider_mode == "approved_graph" and pilot_slugs and identity["canonical_slug"] not in pilot_slugs:
+        provider_mode = "shadow"
+    graph_response = None
+    if provider_mode not in {"local", "shadow", "approved_graph"}:
+        raise ValueError("Invalid CASEPREP_APPROACH_PROVIDER_MODE")
+    if provider_mode in {"shadow", "approved_graph"}:
+        from caseprep.services.approach_graph_provider import get_graph_provider
+        graph_response = await get_graph_provider().fetch(identity["canonical_slug"] or "")
+        pipeline_status["approach_graph"] = {
+            "status": graph_response["status"], "duration_ms": graph_response["duration_ms"],
+            "candidate_count": len(graph_response["candidates"]),
+            "reason": graph_response.get("reason"), "mode": provider_mode,
+        }
     approach_prep = build_approach_prep(
-        prompt, identity["canonical_slug"] or "", payload
+        prompt, identity["canonical_slug"] or "", payload,
+        graph_response=graph_response if provider_mode == "approved_graph" else None,
     )
+    if provider_mode == "shadow":
+        shadow = build_approach_prep(prompt, identity["canonical_slug"] or "", None, graph_response=graph_response)
+        pipeline_status["approach_graph"]["selection_matches"] = (
+            shadow["decision"].get("selected_approach_id") == approach_prep["decision"].get("selected_approach_id")
+        )
+    if provider_mode == "approved_graph" and not approach_prep["coverage"].get("approach_id"):
+        refine_task.cancel()
+        decision = approach_prep["decision"]
+        yield protocol.clarification_event(identity, decision["message"], [
+            {"label": o["name"], "prompt": prompt + " using " + o["approach_id"]}
+            for o in decision["approaches"]
+        ])
+        warnings.append(graph_response.get("reason") or decision["selection_reason"])
+        yield protocol.done_event(pipeline_status,
+            {"preflight_ms": preflight_ms, "total_ms": int((time.monotonic()-started)*1000)}, warnings)
+        return
     payload = packet_sections.payload_from_approach_prep(payload, approach_prep) or payload
     approach_decision = approach_prep["decision"]
     if identity["canonical_slug"] == "tha_posterior" and not approach_decision.get("selected_approach_id"):
         # The legacy routing ID must not imply an approach before it is chosen.
         identity["canonical_name"] = "Total Hip Arthroplasty"
     header = build_packet_header(identity, payload)
+    if provider_mode == "approved_graph":
+        header["certified"] = False
+        header["source_approval"] = approach_prep["coverage"].get("effective_approval")
     header["approach_coverage"] = approach_decision.get("coverage") or {}
     yield protocol.header_event(identity, header)
     pipeline_status["approach_prep"] = {
@@ -279,6 +314,9 @@ async def stream_caseprep_packet(
         ),
         "question_count": len(approach_prep["questions"]),
         "duration_ms": approach_prep["duration_ms"],
+        "selection_reason": approach_decision.get("selection_reason"),
+        "packet_hash": approach_prep["coverage"].get("packet_hash"),
+        "emitted_claim_count": len({c for section in approach_prep["sections"].values() for item in section.get("items", []) for c in item.get("claim_ids", [])}),
     }
     if approach_decision.get("approaches"):
         yield protocol.section_event(
@@ -426,9 +464,15 @@ async def stream_caseprep_packet(
             # Online retrieval is optional. The bundled, source-backed bank is
             # the deterministic outage path and must still return useful Q/A.
             try:
-                from caseprep.services.rag_retrieval import bundled_semantic_qas, normalize_query
+                from caseprep.services.rag_retrieval import bundled_semantic_qas, normalize_query, apply_v1_2_relevance_gate
 
-                candidates = bundled_semantic_qas(normalize_query(refined_full), limit=15)
+                query = normalize_query(refined_full)
+                candidates = bundled_semantic_qas(query, limit=15)
+                if policy_version in {"v1.2", "v1.3"}:
+                    candidates, _ = apply_v1_2_relevance_gate(
+                        candidates, query, limit=15,
+                        max_regional=2 if policy_version == "v1.3" else None,
+                    )
                 warnings.append(f"Online Pocket Pimped retrieval degraded: {type(exc).__name__}.")
                 return {
                     "pipeline_id": "pocket_pimped",
@@ -697,7 +741,10 @@ async def stream_caseprep_packet(
                 "status": "complete",
                 "item_count": 3,
                 "duration_ms": essentials["duration_ms"],
+                "fallback_reason": essentials.get("fallback_reason"),
             }
+            if essentials.get("fallback"):
+                warnings.append("Essentials contain evidence excerpts only; full brief unavailable.")
             yield protocol.section_event(
                 "essentials",
                 status="complete",

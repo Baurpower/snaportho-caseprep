@@ -329,3 +329,9 @@ async def anki_ortho_context(request: AnkiOrthoContextRequest):
         build_anki_ortho_context_response,
         request.model_dump(),
     )
+
+
+@app.on_event("shutdown")
+async def _close_approach_graph():
+    from caseprep.services.approach_graph_provider import close_graph_provider
+    await close_graph_provider()

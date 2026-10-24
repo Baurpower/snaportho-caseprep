@@ -193,6 +193,11 @@ class EssentialsV13Tests(unittest.TestCase):
         )
         self.assertIsNotNone(result)
         self.assertTrue(result["fallback"])
+        self.assertEqual(result["fallback_reason"], "no_model_client")
+        self.assertFalse(result["payload"]["verification"]["passed"])
+        self.assertEqual(result["payload"]["verification"]["core_claim_coverage"], 0)
+        self.assertNotIn("critical_portion.failure_mode", result["payload"]["citations"])
+        self.assertEqual(result["payload"]["postop_protocol"]["red_flags"], [])
         self.assertIn("abductors", result["payload"]["critical_portion"]["summary"])
 
 

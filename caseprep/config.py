@@ -54,6 +54,8 @@ class CasePrepConfig:
     # top_things_to_know) claim a fact and it is suppressed from the fuller body
     # sections (anatomy / operative_flow) so the same fact is shown once.
     enable_v1_1_dedup: bool = False
+    approach_provider_mode: str = "local"
+    approach_graph_pilot_procedures: str = ""
     v1_1_model: str = "gpt-4o-mini"
 
     @classmethod
@@ -63,6 +65,8 @@ class CasePrepConfig:
             default = "v1"
         return cls(
             default_version=default,
+            approach_graph_pilot_procedures=os.getenv("CASEPREP_GRAPH_PILOT_PROCEDURES", ""),
+            approach_provider_mode=os.getenv("CASEPREP_APPROACH_PROVIDER_MODE", "local").strip(),
             enable_v2=_env_bool("ENABLE_CASEPREP_V2", False),
             enable_v2_ai_fallback=_env_bool("ENABLE_CASEPREP_V2_AI_FALLBACK", False),
             enable_v2_rag_fallback=_env_bool("ENABLE_CASEPREP_V2_RAG_FALLBACK", True),

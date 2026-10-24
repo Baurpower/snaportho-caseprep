@@ -83,6 +83,20 @@ def _pimp_item(index: int) -> dict:
 
 
 class PacketCoverageGateTests(unittest.TestCase):
+    def test_v13_requires_verified_brief_even_with_full_quiz_and_anatomy(self):
+        sections = {
+            "pimp_questions": {"items": [_pimp_item(i) for i in range(8)], "grounded_count": 8, "citation_count": 8},
+            "anatomy": {"items": [{"answer": "Sourced anatomy"}], "grounded_count": 1, "citation_count": 1},
+        }
+        def coverage():
+            return evaluate_packet_coverage(canonical_slug="tka", certified=False,
+                emitted_sections=sections, expected_sections=("essentials", "anatomy", "pimp_questions"))
+        self.assertEqual(coverage()["quality_gate"], "limited")
+        sections["essentials"] = {"source": "grounded_fallback", "payload": {"verification": {"passed": True}}}
+        self.assertEqual(coverage()["quality_gate"], "limited")
+        sections["essentials"] = {"source": "grounded_synthesis", "payload": {"verification": {"passed": True}}}
+        self.assertEqual(coverage()["quality_gate"], "passed")
+
     def test_pimp_only_packet_is_limited_even_with_eight_direct_questions(self):
         pimp_items = [_pimp_item(index) for index in range(11)]
         summary = evaluate_packet_coverage(

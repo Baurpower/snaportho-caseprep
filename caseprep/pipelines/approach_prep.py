@@ -147,6 +147,10 @@ def _clinical_item(
                 "provenance": "approach_library",
                 "approach_id": packet.get("approach_id"),
                 "claim_ids": claim_ids,
+                "source_field": field,
+                "packet_hash": (packet.get("_graph") or {}).get("content_hash"),
+                "effective_approval": (packet.get("_graph") or {}).get("approval"),
+                "canonical_entity_id": (packet.get("_graph") or {}).get("canonical_entity_id"),
                 "risk_level": "critical" if "critical" in risk_levels else (
                     "high" if "high" in risk_levels else (risk_levels[0] if risk_levels else None)
                 ),
@@ -246,6 +250,7 @@ def build_approach_prep(
     prompt: str,
     procedure_id: str,
     payload: Optional[Dict[str, Any]],
+    *, graph_response: Optional[Dict[str, Any]] = None,
 ) -> Dict[str, Any]:
     started = time.monotonic()
     seed = payload or {
@@ -254,24 +259,29 @@ def build_approach_prep(
         "case_prep_status": "unreviewed",
         "procedure_overview": "",
     }
-    decision = approach_decision_payload(prompt, seed)
-    selected_ids = decision.get("selected_approach_ids") or (
-        [decision.get("selected_approach_id")]
-        if decision.get("selected_approach_id")
-        else []
-    )
-    options_by_id = {
-        str(option.get("approach_id")): option
-        for option in decision.get("approaches") or []
-        if option.get("approach_id")
-    }
-    packets = []
-    for approach_id in selected_ids:
-        packet = _selected_packet(procedure_id, approach_id)
-        if not packet and approach_id in options_by_id:
-            packet = _packet_from_decision_option(options_by_id[approach_id])
-        if packet:
-            packets.append(packet)
+    if graph_response is not None:
+        from caseprep.services.approach_graph_selection import select_graph_approach
+        decision, packets = select_graph_approach(prompt, graph_response)
+        selected_ids = decision["selected_approach_ids"]
+    else:
+        decision = approach_decision_payload(prompt, seed)
+        selected_ids = decision.get("selected_approach_ids") or (
+            [decision.get("selected_approach_id")]
+            if decision.get("selected_approach_id")
+            else []
+        )
+        options_by_id = {
+            str(option.get("approach_id")): option
+            for option in decision.get("approaches") or []
+            if option.get("approach_id")
+        }
+        packets = []
+        for approach_id in selected_ids:
+            packet = _selected_packet(procedure_id, approach_id)
+            if not packet and approach_id in options_by_id:
+                packet = _packet_from_decision_option(options_by_id[approach_id])
+            if packet:
+                packets.append(packet)
     packet = packets[0] if packets else None
     sections: Dict[str, Dict[str, Any]] = {}
     questions: List[Dict[str, Any]] = []
@@ -337,9 +347,17 @@ def build_approach_prep(
         "available_sections": [key for key, value in sections.items() if value.get("items")],
         "missing_sections": [key for key, value in sections.items() if not value.get("items")],
     }
+    if graph_response is not None:
+        coverage.update({"retrieval_source": "approved_graph", "retrieval_status": graph_response["status"],
+                         "degradation_reason": graph_response.get("reason"),
+                         "packet_hash": ((packet or {}).get("_graph") or {}).get("content_hash"),
+                         "effective_approval": ((packet or {}).get("_graph") or {}).get("approval")})
+    decision["coverage"] = coverage
     return {
+        "selected_packets": packets if graph_response is not None else [],
+        "graph_mode": graph_response is not None,
         "pipeline_id": "approach_prep",
-        "status": "complete" if decision.get("approaches") else "unavailable",
+        "status": ("complete" if packets else "unavailable") if graph_response is not None else ("complete" if decision.get("approaches") else "unavailable"),
         "decision": decision,
         "sections": sections,
         "questions": questions,
